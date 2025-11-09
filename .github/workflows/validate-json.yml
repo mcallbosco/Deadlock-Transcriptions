@@ -1,0 +1,40 @@
+name: Validate JSON Files
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'data/*.json'
+      - 'validate_json.py'
+      - '.github/workflows/validate-json.yml'
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'data/*.json'
+      - 'validate_json.py'
+      - '.github/workflows/validate-json.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    
+    - name: Validate JSON files
+      run: |
+        python3 validate_json.py
+    
+    - name: Upload validation results
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-errors
+        path: |
+          *.log
