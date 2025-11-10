@@ -4,7 +4,7 @@ This repository includes automated validation for all JSON files in the `data/` 
 
 ## Supported JSON Structures
 
-The validator recognizes three types of JSON structures:
+The validator recognizes two types of JSON structures:
 
 ### 1. Voiceline Structure
 Used for individual character voicelines.
@@ -24,37 +24,12 @@ Used for individual character voicelines.
 }
 ```
 
-### 2. Conversation Structure
-Used for conversations between characters (files with "convo" in the name).
-
-```json
-{
-  "conversation_id": "string",
-  "characters": ["string", "string"],
-  "convo_num": "string",
-  "topic": "string or null",
-  "timestamp": "string",
-  "segments": [
-    {
-      "start": number,
-      "end": number,
-      "text": "string",
-      "speaker": "string",
-      "part": number,
-      "file_creation_date": "string (optional)"
-    }
-  ],
-  "creation_date": "string (optional)"
-}
-```
-
-### 3. Simple File Structure
+### 2. Simple File Structure
 Used for basic transcription files.
 
 ```json
 {
   "file": "string",
-  "text": "string",
   "segments": [
     {
       "start": number,

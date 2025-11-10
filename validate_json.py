@@ -7,8 +7,7 @@ expected structures for the Deadlock-Transcriptions repository.
 
 Supported structures:
 1. Voiceline: Contains voiceline_id, timestamp, segments
-2. Conversation: Contains conversation_id, characters, convo_num, segments
-3. Simple file: Contains file, text, segments
+2. Simple file: Contains file, segments
 """
 
 import json
@@ -78,103 +77,6 @@ def is_valid_voiceline(data: Dict) -> Tuple[bool, str]:
     return True, "Valid voiceline structure"
 
 
-def is_valid_conversation(data: Dict) -> Tuple[bool, str]:
-    """
-    Validates a conversation JSON structure.
-    
-    Expected structure:
-    {
-        "conversation_id": string,
-        "characters": [string, ...],
-        "convo_num": string,
-        "topic": string or null,
-        "timestamp": string,
-        "segments": [
-            {
-                "start": number,
-                "end": number,
-                "text": string,
-                "speaker": string,
-                "part": number,
-                "file_creation_date": string
-            }
-        ],
-        "creation_date": string (optional)
-    }
-    """
-    if "conversation_id" not in data:
-        return False, "Missing 'conversation_id' field"
-    
-    if not isinstance(data["conversation_id"], str):
-        return False, "'conversation_id' must be a string"
-    
-    if "characters" not in data:
-        return False, "Missing 'characters' field"
-    
-    if not isinstance(data["characters"], list):
-        return False, "'characters' must be a list"
-    
-    for idx, character in enumerate(data["characters"]):
-        if not isinstance(character, str):
-            return False, f"Character {idx} must be a string"
-    
-    if "convo_num" not in data:
-        return False, "Missing 'convo_num' field"
-    
-    if not isinstance(data["convo_num"], str):
-        return False, "'convo_num' must be a string"
-    
-    if "topic" in data and data["topic"] is not None and not isinstance(data["topic"], str):
-        return False, "'topic' must be a string or null"
-    
-    if "timestamp" not in data:
-        return False, "Missing 'timestamp' field"
-    
-    if not isinstance(data["timestamp"], str):
-        return False, "'timestamp' must be a string"
-    
-    if "segments" not in data:
-        return False, "Missing 'segments' field"
-    
-    if not isinstance(data["segments"], list):
-        return False, "'segments' must be a list"
-    
-    # Segments can be empty in conversations
-    for idx, segment in enumerate(data["segments"]):
-        if not isinstance(segment, dict):
-            return False, f"Segment {idx} must be a dictionary"
-        
-        required_fields = ["start", "end", "text", "speaker", "part"]
-        for field in required_fields:
-            if field not in segment:
-                return False, f"Segment {idx} missing required field '{field}'"
-        
-        if not isinstance(segment["start"], (int, float)):
-            return False, f"Segment {idx} 'start' must be a number"
-        
-        if not isinstance(segment["end"], (int, float)):
-            return False, f"Segment {idx} 'end' must be a number"
-        
-        if not isinstance(segment["text"], str):
-            return False, f"Segment {idx} 'text' must be a string"
-        
-        if not isinstance(segment["speaker"], str):
-            return False, f"Segment {idx} 'speaker' must be a string"
-        
-        if not isinstance(segment["part"], int):
-            return False, f"Segment {idx} 'part' must be an integer"
-        
-        # file_creation_date is optional
-        if "file_creation_date" in segment and not isinstance(segment["file_creation_date"], str):
-            return False, f"Segment {idx} 'file_creation_date' must be a string"
-    
-    # creation_date is optional
-    if "creation_date" in data and not isinstance(data["creation_date"], str):
-        return False, "'creation_date' must be a string"
-    
-    return True, "Valid conversation structure"
-
-
 def is_valid_simple_file(data: Dict) -> Tuple[bool, str]:
     """
     Validates a simple file JSON structure.
@@ -182,7 +84,6 @@ def is_valid_simple_file(data: Dict) -> Tuple[bool, str]:
     Expected structure:
     {
         "file": string,
-        "text": string,
         "segments": [
             {
                 "start": number,
@@ -197,12 +98,6 @@ def is_valid_simple_file(data: Dict) -> Tuple[bool, str]:
     
     if not isinstance(data["file"], str):
         return False, "'file' must be a string"
-    
-    if "text" not in data:
-        return False, "Missing 'text' field"
-    
-    if not isinstance(data["text"], str):
-        return False, "'text' must be a string"
     
     if "segments" not in data:
         return False, "Missing 'segments' field"
@@ -253,10 +148,6 @@ def validate_json_file(file_path: Path) -> Tuple[bool, str]:
     # Check for voiceline structure
     if "voiceline_id" in data:
         return is_valid_voiceline(data)
-    
-    # Check for conversation structure
-    if "conversation_id" in data:
-        return is_valid_conversation(data)
     
     # Check for simple file structure
     if "file" in data:
