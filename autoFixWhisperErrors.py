@@ -66,9 +66,6 @@ CHARACTER_NAME_CORRECTIONS = {
     # Sinclair (magician) variations
     "Clairborne": "Sinclair",
     
-    # Page/Paige (bookworm) variations
-    "Spades": "Paige",
-    
     # Ivy (tengu) variations
     "Hyvie": "Ivy",
     
@@ -105,11 +102,10 @@ PHRASE_CORRECTIONS = [
     (r'I can hear you\b', 'I can heal you'),
     (r'I can hear ya\b', 'I can heal ya'),
     
-    # "took our/your X" → "took out X" in kill announcements
-    (r'\btook our\b', 'took out'),
-    (r'\btook your\b', 'took out'),
+    # "took our X" → "took out X" in kill announcements (ally killed context)
+    (r'\bThey took our\b', 'They took out'),
     
-    # "He/She/It took out" → "They took out" for consistency
+    # "He/She/It took out" → "They took out" for consistency  
     (r'\bHe took out\b', 'They took out'),
     (r'\bShe took out\b', 'They took out'),
     (r'\bIt took out\b', 'They took out'),
@@ -124,8 +120,19 @@ PHRASE_CORRECTIONS = [
     (r"I'm a Jew, Yamato\b", "I'm with you, Yamato"),
     (r"How would you, Bebop\b", "I'm with you, Bebop"),
     
-    # "Assault X" → "I saw X" (common misrecognition in saw context)
-    (r'\bAssault\b', 'I saw'),
+    # "Assault X" → "I saw X" only in specific ping_saw context (be more specific)
+    (r'\bAssault Wrecker\b', 'I saw Wrecker'),
+    (r'\bAssault Lash\b', 'I saw Lash'),
+    (r'\bAssault Kelvin\b', 'I saw Kelvin'),
+    (r'\bAssault Mirage\b', 'I saw Mirage'),
+    (r'\bAssault Krill\b', 'I saw Krill'),
+    (r'\bAssault Doorman\b', 'I saw Doorman'),
+    (r'\bAssault Bebop\b', 'I saw Bebop'),
+    (r'\bAssault Punkgoat\b', 'I saw Billy'),
+    (r'\bAssault Drifter\b', 'I saw Drifter'),
+    (r'\bAssault Hornet\b', 'I saw Vindicta'),
+    (r'\bAssault Tengu\b', 'I saw Ivy'),
+    (r'\bAssault Cadence\b', 'I saw Cadence'),
     
     # "A siggraph" → "I see Graf"
     (r'A siggraph\b', 'I see Graf'),
@@ -212,7 +219,6 @@ PHRASE_CORRECTIONS = [
     (r"Stun great talon\b", "Stun Grey Talon"),
     (r"Stun holiday\b", "Stun Holliday"),
     (r"Stun Holiday\b", "Stun Holliday"),
-    (r"Stun the witch\b", "Stun Titania"),
     (r"Stun killed\b", "Stun Kelvin"),
     (r"Stun grill\b", "Stun Krill"),
     (r"Stun recker\b", "Stun Wrecker"),
