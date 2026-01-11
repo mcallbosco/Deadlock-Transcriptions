@@ -47,6 +47,9 @@ CHARACTER_NAME_CORRECTIONS = {
     "Dormants": "Doorman's",
     "Dormans": "Doorman's",
     "Dormands": "Doorman's",
+    "Torment": "Doorman",
+    "Torments": "Doorman's",
+    "Dormammu": "Doorman",
     
     # Graf variations  
     "Grath": "Graf",
@@ -96,6 +99,15 @@ CHARACTER_NAME_CORRECTIONS = {
     # Calico variations
     "Talico": "Calico",
     "Gallico": "Calico",
+    "Colicle": "Calico",
+    
+    # Paige (bookworm) variations
+    "Pyke": "Paige",
+    
+    # Operative → Raven (consistent Whisper misrecognition)
+    # Note: Raven is consistently misheard for Operative
+    "Raven": "Operative",
+    "Ravens": "Operative's",
     
     # Victor variations
     "Victors": "Victor's",
@@ -434,9 +446,121 @@ PHRASE_CORRECTIONS = [
     # Mina variations
     (r"Minas on top of mid\b", "Mina's on top of mid"),
     (r"I see, Mina\b", "I see Mina"),
+    (r"Meta, i can hear ya\b", "Mina, I can heal ya"),
     
     # Slork variations
     (r"Slorks and Mid\b", "Slork's in Mid"),
+    
+    # Operative/Raven variations (Whisper consistently hears "Raven" for "Operative")
+    (r"I saw a raven\b", "I saw Operative"),
+    (r"I saw Raven\b", "I saw Operative"),
+    (r"I see Raven\b", "I see Operative"),
+    (r"Ravens in mid\b", "Operative's in mid"),
+    (r"Raven's in mid\b", "Operative's in mid"),
+    (r"Ravens on the bridge\b", "Operative's on the bridge"),
+    (r"Raven's on the bridge\b", "Operative's on the bridge"),
+    (r"Ravens on the roof\b", "Operative's on the roof"),
+    (r"Raven's on the roof\b", "Operative's on the roof"),
+    (r"Raven's on top of the garage\b", "Operative's on top of the garage"),
+    (r"Raven's on top of mid\b", "Operative's on top of mid"),
+    (r"Raven's under the garage\b", "Operative's under the garage"),
+    (r"Raven's missing\b", "Operative's missing"),
+    (r"Raven is almost back\b", "Operative is almost back"),
+    (r"Raven is dead\b", "Operative is dead"),
+    (r"Raven was here\b", "Operative was here"),
+    (r"Careful, Raven\b", "Careful, Operative"),
+    (r"Be careful, Raven\b", "Be careful, Operative"),
+    (r"Raven, I can heal you\b", "Operative, I can heal you"),
+    (r"Raven, i can heal you\b", "Operative, I can heal you"),
+    (r"Ignore Raven\b", "Ignore Operative"),
+    (r"I'm with you, Raven\b", "I'm with you, Operative"),
+    (r"Let's take out Raven\b", "Let's take out Operative"),
+    (r"Take out what Raven bought\b", "Check out what Operative bought"),
+    (r"Check out what Raven bought\b", "Check out what Operative bought"),
+    (r"Took down Raven\b", "Took down Operative"),
+    (r"They took out raven\b", "They took out Operative"),
+    
+    # Wraith/Race variations (Whisper often hears "Race" for "Wraith")
+    (r"Race on the bridge\b", "Wraith's on the bridge"),
+    (r"Race in Mid\b", "Wraith's in mid"),
+    (r"Race on top of the garage\b", "Wraith's on top of the garage"),
+    (r"Raced on top of the garage\b", "Wraith's on top of the garage"),
+    (r"Race on top of mid\b", "Wraith's on top of mid"),
+    (r"Raced on top of mid\b", "Wraith's on top of mid"),
+    (r"Race on the roof\b", "Wraith's on the roof"),
+    (r"Race neutralized\b", "Wraith neutralized"),
+    (r"Careful Race\b", "Careful, Wraith"),
+    (r"Careful, Race\b", "Careful, Wraith"),
+    (r"Be careful, Race\b", "Be careful, Wraith"),
+    (r"Racedown\b", "Wraith down"),
+    (r"A joker of race\b", "They took out Wraith"),
+    (r"Good lift rate\b", "Good lift, Wraith"),
+    
+    # Infernus/Furnace variations (Whisper hears "Furnace" for "Infernus")
+    (r"And Furnace is on the bridge\b", "Infernus is on the bridge"),
+    (r"And Furnace is dead\b", "Infernus is dead"),
+    (r"And Furnace is under the garage\b", "Infernus is under the garage"),
+    (r"And Furnace is missing\b", "Infernus is missing"),
+    (r"And Furnace is almost back\b", "Infernus is almost back"),
+    (r"And Furnaces on the Roof\b", "Infernus is on the roof"),
+    (r"I'm Furnace is dead\b", "Infernus is dead"),
+    (r"Sten and Furnace\b", "Stun Infernus"),
+    (r"Stunning Furnace\b", "Stun Infernus"),
+    (r"Check out WoodenFurnaceBot\b", "Check out what Infernus bought"),
+    
+    # Paige/Page/Bookworm variations
+    (r"Page is almost back\b", "Paige is almost back"),
+    (r"Pyke is almost back\b", "Paige is almost back"),
+    (r"Page is dead\b", "Paige is dead"),
+    (r"Page is missing\b", "Paige is missing"),
+    (r"Pages in mid\b", "Paige's in mid"),
+    (r"Page is on top of the garage\b", "Paige's on top of the garage"),
+    (r"Page is on top of bid\b", "Paige's on top of mid"),
+    (r"Page is out of the garage\b", "Paige's under the garage"),
+    (r"Page is on the roof\b", "Paige's on the roof"),
+    (r"Pages on the bridge\b", "Paige's on the bridge"),
+    (r"Check out what page, bud\b", "Check out what Paige bought"),
+    (r"I saw Page\b", "I saw Paige"),
+    (r"I see page\b", "I see Paige"),
+    (r"Stun page\b", "Stun Paige"),
+    (r"A young paige\b", "Ignore Paige"),
+    (r"Paydrews here\b", "Paige was here"),
+    (r"They took out page\b", "They took out Paige"),
+    
+    # Victor/Victory/Frank variations
+    (r"Victory is on top of mid\b", "Victor's on top of mid"),
+    (r"Victory is in bid\b", "Victor's in mid"),
+    (r"Victory is here\b", "Victor was here"),
+    (r"Fixers on top of mid\b", "Victor's on top of mid"),
+    (r"Figs is under the garage\b", "Victor's under the garage"),
+    
+    # Compound stun word errors discovered in analysis
+    (r"Stonecolicle\b", "Stun Calico"),
+    (r"Stonehage\b", "Stun Haze"),
+    (r"Stonefathom\b", "Stun Fathom"),
+    (r"Stoneyamato\b", "Stun Yamato"),
+    (r"Stonedrifter\b", "Stun Drifter"),
+    (r"Stonemina\b", "Stun Mina"),
+    (r"Stonegrin\b", "Stun Krill"),
+    (r"Stonelash\b", "Stun Lash"),
+    (r"Stonetrapper\b", "Stun Trapper"),
+    (r"Stonewrecker\b", "Stun Wrecker"),
+    (r"Stonewash\b", "Stun Lash"),
+    (r"Stonemaker\b", "Stun Wrecker"),
+    (r"Stonemn Furnace\b", "Stun Infernus"),
+    (r"Stoned bebop\b", "Stun Bebop"),
+    (r"Stoned victor\b", "Stun Victor"),
+    (r"Stoned heads\b", "Stun Haze"),
+    (r"Stoned rapper\b", "Stun Trapper"),
+    (r"Stangeist\b", "Stun Geist"),
+    (r"Standgeist\b", "Stun Geist"),
+    (r"Stanton\b", "Stun Seven"),
+    (r"Stanship\b", "Stun Shiv"),
+    (r"Standom\b", "Stun Dynamo"),
+    (r"Stand the dorm in\b", "Stun Doorman"),
+    (r"Stand vindikter\b", "Stun Vindicta"),
+    (r"Stannvård\b", "Stun Warden"),
+    (r"Stone 7\b", "Stun Seven"),
 ]
 
 # Lowercase character names that should be capitalized when they appear alone
