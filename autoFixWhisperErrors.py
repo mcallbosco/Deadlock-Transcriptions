@@ -43,9 +43,16 @@ CHARACTER_NAME_CORRECTIONS = {
     "Dolmen": "Doorman",
     "Doughman": "Doorman",
     "Tolman": "Doorman",
+    "Dormant": "Doorman",
+    "Dormants": "Doorman's",
+    "Dormans": "Doorman's",
+    "Dormands": "Doorman's",
     
     # Graf variations  
     "Grath": "Graf",
+    "Graph": "Graf",
+    "Graphs": "Graf's",
+    "Grafton": "Graf",
     
     # Venator (priest) variations
     "Venera": "Venator",
@@ -58,6 +65,8 @@ CHARACTER_NAME_CORRECTIONS = {
     
     # Krill variations (only clear errors)
     "Quill": "Krill",
+    "Quills": "Krill's",
+    "Grills": "Krill's",
     
     # Fathom (slork) variations
     "Fatum": "Fathom",
@@ -68,6 +77,7 @@ CHARACTER_NAME_CORRECTIONS = {
     
     # Ivy (tengu) variations
     "Hyvie": "Ivy",
+    "Ivey": "Ivy",
     
     # Warden variations
     "Wargon": "Warden",
@@ -77,6 +87,21 @@ CHARACTER_NAME_CORRECTIONS = {
     
     # Kelvin variations
     "Kelphin": "Kelvin",
+    "Kermin": "Kelvin",
+    
+    # McGinnis variations
+    "McInnes": "McGinnis",
+    "McGuinness": "McGinnis",
+    
+    # Calico variations
+    "Talico": "Calico",
+    "Gallico": "Calico",
+    
+    # Victor variations
+    "Victors": "Victor's",
+    
+    # Grey Talon variations
+    "Greytaran": "Grey Talon",
 }
 
 # Action word corrections - context-sensitive
@@ -301,6 +326,117 @@ PHRASE_CORRECTIONS = [
     
     # Victor fixes from PR #65
     (r"Victus on top of mid\b", "Victor's on top of mid"),
+    
+    # New Stun patterns discovered from analysis
+    (r"Starting Furnace\b", "Stun Infernus"),
+    (r"Done sinclair\b", "Stun Sinclair"),
+    (r"Dunraven\b", "Stun Operative"),
+    (r"Don't fathom\b", "Stun Fathom"),
+    (r"Gun trapper\b", "Stun Trapper"),
+    (r"Darn Vyper\b", "Stun Vyper"),
+    (r"Startin' Warden\b", "Stun Warden"),
+    (r"Stand dynamo\b", "Stun Dynamo"),
+    
+    # Stan variations (case insensitive patterns)
+    (r"Stan Abrams\b", "Stun Abrams"),
+    (r"Stan kelvin\b", "Stun Kelvin"),
+    (r"Stan murphy\b", "Stun Murphy"),
+    (r"Stan dynamo\b", "Stun Dynamo"),
+    (r"Stan mcginnis\b", "Stun McGinnis"),
+    (r"Stan ivy\b", "Stun Ivy"),
+    (r"Stan billy\b", "Stun Billy"),
+    (r"Stan Warden\b", "Stun Warden"),
+    (r"Stan Sinclair\b", "Stun Sinclair"),
+    (r"Stan yamato\b", "Stun Yamato"),
+    (r"Stan se7en\b", "Stun Seven"),
+    (r"Stan pockett\b", "Stun Pocket"),
+    (r"Stan paradox\b", "Stun Paradox"),
+    (r"Stan mcguinness\b", "Stun McGinnis"),
+    (r"Stan lush\b", "Stun Lash"),
+    (r"Stan holiday\b", "Stun Holliday"),
+    (r"(?i)Stan haze\b", "Stun Haze"),
+    (r"Stan greytaran\b", "Stun Grey Talon"),
+    (r"Stan galico\b", "Stun Calico"),
+    (r"Stan clear\b", "Stun Sinclair"),
+    (r"Stan Wicca\b", "Stun Viscous"),
+    (r"Stan Sandeep\b", "Stun Mirage"),
+    (r"Stan McInnes\b", "Stun McGinnis"),
+    (r"Stan McGuinness\b", "Stun McGinnis"),
+    (r"Stan Krill\b", "Stun Krill"),
+    (r"Stan Kermin\b", "Stun Kelvin"),
+    (r"Stan Ivey\b", "Stun Ivy"),
+    (r"Stan Gigawatt\b", "Stun Seven"),
+    (r"Stan Galicko\b", "Stun Calico"),
+    (r"Stan Calico\b", "Stun Calico"),
+    
+    # Wraith "I saw" variations
+    (r"I saw race\b", "I saw Wraith"),
+    (r"I saw Race\b", "I saw Wraith"),
+    (r"Race on top of the garage\b", "Wraith's on top of the garage"),
+    (r"Just Business Race\b", "Just business, Wraith"),
+    
+    # Krill/Quill variations
+    (r"Quills on the roof\b", "Krill's on the roof"),
+    (r"Quills in mid\b", "Krill's in mid"),
+    (r"Grills on a roof\b", "Krill's on a roof"),
+    
+    # Victor/Victory variations (only fix in specific contexts where Victor is clearly meant)
+    (r"Castle Victory\b", "Careful, Victor"),
+    (r"Victory's almost back\b", "Victor's almost back"),
+    (r"Victory is dead\b", "Victor is dead"),
+    (r"Victory made\b", "Victor's in mid"),
+    (r"Pictures missing\b", "Victor's missing"),
+    (r"Fixers on top of the garage\b", "Victor's on top of the garage"),
+    (r"Victors on top of the garage\b", "Victor's on top of the garage"),
+    (r"Victors on the roof\b", "Victor's on the roof"),
+    (r"Victors in Mid\b", "Victor's in Mid"),
+    
+    # Raven/Operative variations (Raven is Whisper's consistent error for Operative)
+    # Note: Many files have "Raven" for Operative, but we don't auto-fix this
+    # as it may be intentional or context-dependent
+    
+    # Hallucination removals - YouTube-style phrases that Whisper hallucinates
+    # These are NOT valid transcriptions
+    (r"^ *Thank you for watching!? *$", ""),
+    (r"^ *Thanks for watching!? *$", ""),
+    (r"^ *Please subscribe!? *$", ""),
+    (r"^ *THANKS FOR WATCHING!? *$", ""),
+    (r"^ *Thanks For Watching!? *$", ""),
+    (r"^ *Thank You For Watching!? *$", ""),
+    (r"^ *\?\?+ *$", ""),
+    
+    # McGinnis variations
+    (r"Stone the Guinness\b", "Stun McGinnis"),
+    (r"Stan McInnes\b", "Stun McGinnis"),
+    
+    # Graph/Graf variations
+    (r"They took out graph\b", "They took out Graf"),
+    (r"I see Graph\b", "I see Graf"),
+    (r"Careful graph\b", "Careful, Graf"),
+    (r"Creografton\b", "Stun Graf"),
+    
+    # Dormant/Doorman variations
+    (r"Let's take out the Dormant\b", "Let's take out the Doorman"),
+    (r"Dormant is almost back\b", "Doorman is almost back"),
+    (r"Check out what Dormant bought\b", "Check out what Doorman bought"),
+    (r"Dormant's on top of the Garage\b", "Doorman's on top of the Garage"),
+    (r"Dormant under the garage\b", "Doorman's under the garage"),
+    (r"Dormant on top of Mid\b", "Doorman's on top of Mid"),
+    (r"Dormant's under the garage\b", "Doorman's under the garage"),
+    (r"Dormant's on the roof\b", "Doorman's on the roof"),
+    (r"Dormant's on the bridge\b", "Doorman's on the bridge"),
+    (r"Dormant's under the Grudge\b", "Doorman's under the Garage"),
+    (r"The Dormant's missing\b", "The Doorman's missing"),
+    (r"The Dormant's in Mid\b", "The Doorman's in Mid"),
+    (r"Dormants in Mid\b", "Doorman's in Mid"),
+    (r"Dormants on top of the garage\b", "Doorman's on top of the garage"),
+    
+    # Mina variations
+    (r"Minas on top of mid\b", "Mina's on top of mid"),
+    (r"I see, Mina\b", "I see Mina"),
+    
+    # Slork variations
+    (r"Slorks and Mid\b", "Slork's in Mid"),
 ]
 
 # Lowercase character names that should be capitalized when they appear alone

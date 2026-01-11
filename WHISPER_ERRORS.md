@@ -2,6 +2,37 @@
 
 This document explains common transcription errors that occur when using OpenAI Whisper for game audio files and how to fix them.
 
+## Character Name Mapping
+
+The file names use internal character names that differ from display names. Here's the mapping:
+
+| Display Name | Internal Names (in filenames) |
+|--------------|------------------------------|
+| Holliday | astro |
+| Infernus | inferno |
+| Abrams | atlas |
+| Vindicta | hornet |
+| Calico | nano |
+| Mo and Krill | digger, krill |
+| Fathom | slork |
+| Paradox | chrono |
+| Dynamo | sumo, dynano, prof |
+| McGinnis | forge |
+| Lady Geist | ghost, geist |
+| Seven | gigawatt |
+| Grey Talon | orion |
+| Pocket | synth, fairfax |
+| Ivy | tengu |
+| Vyper | viper, kali |
+| Billy | punkgoat |
+| Mina | vampirebat, vampriebat |
+| Victor | frank |
+| Paige | bookworm |
+| Sinclair (Henry) | magician_henry |
+| Sinclair (Savannah) | magician_savannah |
+| Sinclair | magician |
+| The Boss | the_boss |
+
 ## Common Whisper Transcription Errors
 
 ### 1. Character Name Misrecognition
@@ -11,17 +42,26 @@ Whisper often struggles with unusual or game-specific names. Common patterns inc
 | Original Name | Common Whisper Errors |
 |---------------|----------------------|
 | Wraith | Race, Raid, Rate, Rates, Raze |
-| Doorman | Dormin, Dorman, Doman, Dolmen, Doughman, Tolman |
-| Graf | Graph, Graphs, Grath |
+| Doorman | Dormin, Dorman, Doman, Dolmen, Doughman, Tolman, Dormant, Dormands |
+| Graf | Graph, Graphs, Grath, Grafton |
 | Venator | Venera, Venetus, Betterless |
-| Fathom | Fatum, Rathom |
+| Fathom | Fatum, Rathom, "Don't fathom" (for "Stun Fathom") |
 | Haze | Hayes, Hace |
-| Krill | Quill, Grill |
+| Krill | Quill, Grill, Quills |
 | Viscous | Viscus |
-| Kelvin | Kelphin |
-| Sinclair | Clairborne |
+| Kelvin | Kelphin, Kermin |
+| Sinclair | Clairborne, Clear |
 | Paige | Spades |
-| Ivy | Hyvie |
+| Ivy | Hyvie, Ivey |
+| Operative | Raven (consistently misrecognized) |
+| Victor | Victory, Fixers, Pictures |
+| Calico | Talico, Gallico |
+| Trapper | "Gun trapper" (for "Stun Trapper") |
+| Vyper | "Darn Vyper" (for "Stun Vyper") |
+| Seven | 7, Se7en |
+| McGinnis | McInnes, McGuinness, Guinness |
+| Grey Talon | Talon, Greytaran |
+| Murphy | "Stan murphy" |
 
 ### 2. Action Word Errors
 
@@ -29,8 +69,10 @@ Gaming terms are often misrecognized:
 
 | Correct | Common Errors |
 |---------|---------------|
-| Stun | Stone, Stan |
+| Stun | Stone, Stan, Stand, Done, Don't, Dun, Gun, Darn, Startin' |
 | Heal | Hear |
+
+Note: "Stun X" is frequently misheard as "Stan X", "Stone X", "Done X", "Don't X", "Gun X", etc.
 
 ### 3. Homophone Confusions
 
@@ -50,6 +92,22 @@ Gaming terms are often misrecognized:
 | "I'm a Jew, Yamato" | "I'm with you, Yamato" |
 | "Stun and Furnace" | "Stun Infernus" |
 | "Stone [Character]" | "Stun [Character]" |
+| "Starting Furnace" | "Stun Infernus" |
+| "Done sinclair" | "Stun Sinclair" |
+| "Dunraven" | "Stun Operative" / "Stun Raven" |
+| "Don't fathom" | "Stun Fathom" |
+| "Gun trapper" | "Stun Trapper" |
+| "Darn Vyper" | "Stun Vyper" |
+| "Startin' Warden" | "Stun Warden" |
+| "Stand dynamo" | "Stun Dynamo" |
+| "Quills on the roof" | "Krill's on the roof" |
+| "Grills on a roof" | "Krill's on a roof" |
+| "I saw race" | "I saw Wraith" |
+| "Race on top of" | "Wraith's on top of" |
+| "Just Business Race" | "Just business, Wraith" |
+| "Castle Victory" | "Careful, Victor" |
+| "Victory's almost back" | "Victor's almost back" |
+| "Victory is dead" | "Victor is dead" |
 
 ### 5. Location/Context Errors
 
@@ -58,6 +116,25 @@ Gaming terms are often misrecognized:
 | "on top of me" | "on top of mid" |
 | "on the breach" | "on the bridge" |
 | "under da garage" | "under the garage" |
+| "Dormants in Mid" | "Doorman's in Mid" |
+| "Slorks and Mid" | "Slork's in Mid" |
+| "Minas on top of mid" | "Mina's on top of mid" |
+| "Ravens in mid" | "Raven's in mid" |
+
+### 6. Whisper Hallucinations
+
+Whisper sometimes generates YouTube-style phrases that don't exist in the audio:
+
+| Hallucination Examples |
+|------------------------|
+| "Thank you for watching!" |
+| "Thanks for watching!" |
+| "Please subscribe!" |
+| "Like and subscribe!" |
+| "If you found this helpful, please subscribe..." |
+| "??" (placeholder for unrecognized audio) |
+
+These typically appear at the end of short audio clips and should be removed or replaced.
 
 ## Prevention Tips for Whisper
 
