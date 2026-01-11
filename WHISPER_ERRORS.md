@@ -35,33 +35,61 @@ The file names use internal character names that differ from display names. Here
 
 ## Common Whisper Transcription Errors
 
+Based on analysis of the transcript data, here are the most frequent error patterns with their occurrence counts:
+
+### Error Frequency Summary
+
+| Error Pattern | Affected Files |
+|---------------|----------------|
+| Vindicta → Vindictus/Vindicus | ~100+ files |
+| Paige (bookworm) → Page/Pyke | ~199 files |
+| Infernus → Furnace | ~54 files |
+| Wraith → Race/Raid/Rate | ~52 files |
+| Stun → Stone/Stan/Stand | ~50+ files |
+| McGinnis → Guinness/McKinnis | ~30+ files |
+| Grey Talon → Great Talent | ~30+ files |
+| Mina → various | ~30+ files |
+| Billy → Belly/Philly/William | ~30+ files |
+| Geist → Guys/Gus | ~30+ files |
+| Doorman → Torment/Dormant | ~7 files |
+
 ### 1. Character Name Misrecognition
 
 Whisper often struggles with unusual or game-specific names. Common patterns include:
 
 | Original Name | Common Whisper Errors |
 |---------------|----------------------|
-| Wraith | Race, Raid, Rate, Rates, Raze |
-| Doorman | Dormin, Dorman, Doman, Dolmen, Doughman, Tolman, Dormant, Dormands |
+| **Vindicta** | Vindictus, Vindicus, Invictus (100+ files) |
+| **Wraith** | Race, Raid, Rate, Rates, Raze (52+ files) |
+| **Infernus** | Furnace, "And Furnace" (54+ files) |
+| **Paige** | Page, Pyke (199+ files in bookworm context) |
+| **Victor** | Victory, Fixers, Figs, Pictures |
+| **McGinnis** | Guinness, McKinnis, McGuinness, Mark Guinness |
+| **Grey Talon** | Great Talent, Kraytalan, Greytaran |
+| **Mina** | Nina, Minerva, Maynard, Minos, Menu |
+| **Billy** | Belly, Philly, William, Benny, Betty, Lily |
+| **Pocket** | Bucket, Puckett, Puck, Harkin |
+| **Geist** | Guys, Gus, Geis |
+| **Lash** | Lush, Nash, Lars, Last, Laszlo |
+| **Shiv** | Siv, Shibu, Sheev, Ships, Sibs, Chef |
+| **Bebop** | D-Bop, B-Bomb, Beeba, Peevos, Peanut |
+| **Yamato** | Abattoir, Yamcha, Jabbatos, Hamato, Yomato |
+| **Ivy** | Ivies, I.B., Navy, Life |
+| **Holliday** | Holladay, Alara |
+| **Paradox** | Perdox, Peridox, Pedidox, Pendogs |
+| **Trapper** | Trepper, Trevor, Trampo, Rapper, Drapper |
+| Doorman | Dormin, Dorman, Doman, Dolmen, Doughman, Tolman, Dormant, Dormands, Torment, Dormammu |
 | Graf | Graph, Graphs, Grath, Grafton |
 | Venator | Venera, Venetus, Betterless |
 | Fathom | Fatum, Rathom, "Don't fathom" (for "Stun Fathom") |
-| Haze | Hayes, Hace |
-| Krill | Quill, Grill, Quills |
-| Viscous | Viscus |
+| Haze | Hayes, Hace, "Stoned heads" (for "Stun Haze") |
+| Krill | Quill, Grill, Quills, Grin |
+| Viscous | Viscus, Stambiscus |
 | Kelvin | Kelphin, Kermin |
 | Sinclair | Clairborne, Clear |
-| Paige | Spades |
-| Ivy | Hyvie, Ivey |
-| Operative | Raven (consistently misrecognized) |
-| Victor | Victory, Fixers, Pictures |
-| Calico | Talico, Gallico |
-| Trapper | "Gun trapper" (for "Stun Trapper") |
+| Calico | Talico, Gallico, Colicle |
 | Vyper | "Darn Vyper" (for "Stun Vyper") |
-| Seven | 7, Se7en |
-| McGinnis | McInnes, McGuinness, Guinness |
-| Grey Talon | Talon, Greytaran |
-| Murphy | "Stan murphy" |
+| Seven | 7, Se7en, Stanton |
 
 ### 2. Action Word Errors
 
@@ -69,10 +97,15 @@ Gaming terms are often misrecognized:
 
 | Correct | Common Errors |
 |---------|---------------|
-| Stun | Stone, Stan, Stand, Done, Don't, Dun, Gun, Darn, Startin' |
+| Stun | Stone, Stan, Stand, Stoned, Done, Don't, Dun, Gun, Darn, Startin' |
 | Heal | Hear |
 
-Note: "Stun X" is frequently misheard as "Stan X", "Stone X", "Done X", "Don't X", "Gun X", etc.
+Note: "Stun X" is frequently misheard as compound words or variations:
+- "Stonecolicle" → "Stun Calico"
+- "Stonefathom" → "Stun Fathom"
+- "Stangeist" → "Stun Geist"
+- "Stoned bebop" → "Stun Bebop"
+- "Stand the dorm in" → "Stun Doorman"
 
 ### 3. Homophone Confusions
 
@@ -82,11 +115,16 @@ Note: "Stun X" is frequently misheard as "Stan X", "Stone X", "Done X", "Don't X
 | "what X bought" | "what X brought" |
 | "took out X" | "took our X" |
 | "They took out" | "He/She/It took out" |
+| "Mina, I can heal ya" | "Meta, I can heal ya" |
 
 ### 4. Phrase-Level Misrecognitions
 
 | Incorrect | Correct |
 |-----------|---------|
+| "Race on the bridge" | "Wraith's on the bridge" |
+| "And Furnace is dead" | "Infernus is dead" |
+| "Victory is in mid" | "Victor's in mid" |
+| "Page is missing" | "Paige is missing" |
 | "Assault X" | "I saw X" |
 | "Let's talk about X" | "They took out X" |
 | "I'm a Jew, Yamato" | "I'm with you, Yamato" |
@@ -94,7 +132,7 @@ Note: "Stun X" is frequently misheard as "Stan X", "Stone X", "Done X", "Don't X
 | "Stone [Character]" | "Stun [Character]" |
 | "Starting Furnace" | "Stun Infernus" |
 | "Done sinclair" | "Stun Sinclair" |
-| "Dunraven" | "Stun Operative" / "Stun Raven" |
+| "Dunraven" | "Stun Raven" |
 | "Don't fathom" | "Stun Fathom" |
 | "Gun trapper" | "Stun Trapper" |
 | "Darn Vyper" | "Stun Vyper" |
