@@ -41,10 +41,16 @@ Based on analysis of the transcript data, here are the most frequent error patte
 
 | Error Pattern | Affected Files |
 |---------------|----------------|
+| Vindicta → Vindictus/Vindicus | ~100+ files |
 | Paige (bookworm) → Page/Pyke | ~199 files |
 | Infernus → Furnace | ~54 files |
 | Wraith → Race/Raid/Rate | ~52 files |
-| Stun → Stone/Stan/Stand | ~38 files |
+| Stun → Stone/Stan/Stand | ~50+ files |
+| McGinnis → Guinness/McKinnis | ~30+ files |
+| Grey Talon → Great Talent | ~30+ files |
+| Mina → various | ~30+ files |
+| Billy → Belly/Philly/William | ~30+ files |
+| Geist → Guys/Gus | ~30+ files |
 | Doorman → Torment/Dormant | ~7 files |
 
 ### 1. Character Name Misrecognition
@@ -53,27 +59,37 @@ Whisper often struggles with unusual or game-specific names. Common patterns inc
 
 | Original Name | Common Whisper Errors |
 |---------------|----------------------|
+| **Vindicta** | Vindictus, Vindicus, Invictus (100+ files) |
 | **Wraith** | Race, Raid, Rate, Rates, Raze (52+ files) |
 | **Infernus** | Furnace, "And Furnace" (54+ files) |
 | **Paige** | Page, Pyke (199+ files in bookworm context) |
 | **Victor** | Victory, Fixers, Figs, Pictures |
+| **McGinnis** | Guinness, McKinnis, McGuinness, Mark Guinness |
+| **Grey Talon** | Great Talent, Kraytalan, Greytaran |
+| **Mina** | Nina, Minerva, Maynard, Minos, Menu |
+| **Billy** | Belly, Philly, William, Benny, Betty, Lily |
+| **Pocket** | Bucket, Puckett, Puck, Harkin |
+| **Geist** | Guys, Gus, Geis |
+| **Lash** | Lush, Nash, Lars, Last, Laszlo |
+| **Shiv** | Siv, Shibu, Sheev, Ships, Sibs, Chef |
+| **Bebop** | D-Bop, B-Bomb, Beeba, Peevos, Peanut |
+| **Yamato** | Abattoir, Yamcha, Jabbatos, Hamato, Yomato |
+| **Ivy** | Ivies, I.B., Navy, Life |
+| **Holliday** | Holladay, Alara |
+| **Paradox** | Perdox, Peridox, Pedidox, Pendogs |
+| **Trapper** | Trepper, Trevor, Trampo, Rapper, Drapper |
 | Doorman | Dormin, Dorman, Doman, Dolmen, Doughman, Tolman, Dormant, Dormands, Torment, Dormammu |
 | Graf | Graph, Graphs, Grath, Grafton |
 | Venator | Venera, Venetus, Betterless |
 | Fathom | Fatum, Rathom, "Don't fathom" (for "Stun Fathom") |
 | Haze | Hayes, Hace, "Stoned heads" (for "Stun Haze") |
 | Krill | Quill, Grill, Quills, Grin |
-| Viscous | Viscus |
+| Viscous | Viscus, Stambiscus |
 | Kelvin | Kelphin, Kermin |
 | Sinclair | Clairborne, Clear |
-| Ivy | Hyvie, Ivey |
 | Calico | Talico, Gallico, Colicle |
-| Trapper | "Gun trapper" (for "Stun Trapper") |
 | Vyper | "Darn Vyper" (for "Stun Vyper") |
 | Seven | 7, Se7en, Stanton |
-| McGinnis | McInnes, McGuinness, Guinness |
-| Grey Talon | Talon, Greytaran |
-| Mina | Meta, Stamina |
 
 ### 2. Action Word Errors
 

@@ -81,12 +81,14 @@ CHARACTER_NAME_CORRECTIONS = {
     # Ivy (tengu) variations
     "Hyvie": "Ivy",
     "Ivey": "Ivy",
+    "Ivies": "Ivy's",
     
     # Warden variations
     "Wargon": "Warden",
     
     # Viscous variations
     "Viscus": "Viscous",
+    "Stambiscus": "Stun Viscous",
     
     # Kelvin variations
     "Kelphin": "Kelvin",
@@ -95,6 +97,8 @@ CHARACTER_NAME_CORRECTIONS = {
     # McGinnis variations
     "McInnes": "McGinnis",
     "McGuinness": "McGinnis",
+    "Guinness": "McGinnis",
+    "McKinnis": "McGinnis",
     
     # Calico variations
     "Talico": "Calico",
@@ -109,6 +113,20 @@ CHARACTER_NAME_CORRECTIONS = {
     
     # Grey Talon variations
     "Greytaran": "Grey Talon",
+    
+    # Vindicta (hornet) variations
+    "Vindictus": "Vindicta",
+    "Vindicus": "Vindicta",
+    "Invictus": "Vindicta",
+    
+    # Mirage variations
+    "Perdox": "Paradox",
+    "Peridox": "Paradox",
+    "Pedidox": "Paradox",
+    
+    # Holliday (astro) variations
+    "Holladay": "Holliday",
+    "Hollabase": "Holliday's",
 }
 
 # Action word corrections - context-sensitive
@@ -526,6 +544,225 @@ PHRASE_CORRECTIONS = [
     (r"Stand vindikter\b", "Stun Vindicta"),
     (r"Stannvård\b", "Stun Warden"),
     (r"Stone 7\b", "Stun Seven"),
+    
+    # More stun variations from analysis
+    (r"Stump Pocket\b", "Stun Pocket"),
+    (r"Stop Mirage\b", "Stun Mirage"),
+    (r"Startin' Cadence\b", "Stun Cadence"),
+    (r"Star Wrecker\b", "Stun Wrecker"),
+    (r"Stern Holliday\b", "Stun Holliday"),
+    (r"Sturmgeist\b", "Stun Geist"),
+    (r"Stonkowicz\b", "Stun Calico"),
+    (r"Sun Holliday\b", "Stun Holliday"),
+    (r"Start Haze\b", "Stun Haze"),
+    (r"Start Infernus\b", "Stun Infernus"),
+    (r"Stan McGinnis\b", "Stun McGinnis"),
+    (r"Strong Geist\b", "Stun Geist"),
+    (r"Stand Mirage\b", "Stun Mirage"),
+    (r"Sun Wrecker\b", "Stun Wrecker"),
+    (r"Star nivi\b", "Stun Ivy"),
+    (r"Stun OV\b", "Stun Ivy"),
+    (r"Stun William\b", "Stun Billy"),
+    (r"Stern Calico\b", "Stun Calico"),
+    (r"Stąpibop\b", "Stun Bebop"),
+    (r"S\.t\.a\.r\.s\.", "Stun Wraith"),
+    
+    # Holliday variations
+    (r"Holladay, I can heal you\b", "Holliday, I can heal you"),
+    (r"Careful, Holladay\b", "Careful, Holliday"),
+    (r"Alara is almost back\b", "Holliday is almost back"),
+    
+    # Victor/Victory in frank context
+    (r"Victory is almost back\b", "Victor is almost back"),
+    (r"Victory was here\b", "Victor was here"),
+    (r"Victory is mine\b", "Victor was here"),
+    
+    # hear → heal in healing context
+    (r"Murphy, i can hear you\b", "Murphy, I can heal you"),
+    (r"i can hear ya\b", "I can heal ya"),
+    (r"Sorry, I can't hear you\b", "Fathom, I can heal you"),
+    
+    # Ivy variations
+    (r"Life is in mid\b", "Ivy's in mid"),
+    (r"Life is on the roof\b", "Ivy's on the roof"),
+    (r"Ivies in mid\b", "Ivy's in mid"),
+    (r"Ivies in Mid\b", "Ivy's in Mid"),
+    (r"Navy's on the bridge\b", "Ivy's on the bridge"),
+    (r"I\.B\. was here\b", "Ivy was here"),
+    (r"Lily was here\b", "Billy was here"),
+    (r"Lily is dead\b", "Billy is dead"),
+    
+    # Billy/punkgoat variations
+    (r"I saw a belly\b", "I saw Billy"),
+    (r"Belly was here\b", "Billy was here"),
+    (r"Philly's on top of mid\b", "Billy's on top of mid"),
+    (r"Philly's on the Roof\b", "Billy's on the roof"),
+    (r"I see William\b", "I see Billy"),
+    (r"Williams on top of their garage\b", "Billy's on top of the garage"),
+    (r"I see Betty\b", "I see Billy"),
+    (r"Let's take out Benny\b", "Let's take out Billy"),
+    (r"Ghibli is almost back\b", "Billy is almost back"),
+    
+    # Mina variations
+    (r"Careful, Maynard\b", "Careful, Mina"),
+    (r"Minos on top of mid\b", "Mina's on top of mid"),
+    (r"Minerva's dead\b", "Mina is dead"),
+    (r"Minerva's here\b", "Mina was here"),
+    (r"Check out what May have bought\b", "Check out what Mina bought"),
+    (r"Check out what Mino bought\b", "Check out what Mina bought"),
+    (r"I see nina\b", "I see Mina"),
+    (r"Nina's on that bridge\b", "Mina's on the bridge"),
+    (r"Nina's on the roof\b", "Mina's on the roof"),
+    (r"Nina's missing\b", "Mina's missing"),
+    (r"Nino's here\b", "Mina was here"),
+    (r"Meet us on the bridge\b", "Mina's on the bridge"),
+    (r"Meet us in Mid\b", "Mina's in mid"),
+    (r"Minis on top of the garage\b", "Mina's on top of the garage"),
+    (r"Menu's on top of da garage\b", "Mina's on top of the garage"),
+    (r"Minus end mid\b", "Mina's in mid"),
+    (r"Miners in Mid\b", "Mina's in mid"),
+    (r"Mid is in mid\b", "Mina's in mid"),
+    (r"Meat is missing\b", "Mina is missing"),
+    (r"Mater is here\b", "Mina was here"),
+    
+    # Pocket/synth variations
+    (r"Let's take out Bucket\b", "Let's take out Pocket"),
+    (r"Puckett is in mid\b", "Pocket is in mid"),
+    (r"Puckett is dead\b", "Pocket is dead"),
+    (r"Buckets on top of the garage\b", "Pocket's on top of the garage"),
+    (r"Careful, Bucket\b", "Careful, Pocket"),
+    (r"Harkin is almost back\b", "Pocket is almost back"),
+    (r"Puck is dead\b", "Pocket is dead"),
+    (r"Target reveal you\b", "Pocket, I can heal you"),
+    (r"Check out what BucketBot\b", "Check out what Pocket bought"),
+    
+    # Geist variations
+    (r"Guys, it's on top of the garage\b", "Geist's on top of the garage"),
+    (r"Guys, it's just on the roof\b", "Geist is on the roof"),
+    (r"Check out what guys bought\b", "Check out what Geist bought"),
+    (r"Guys, he's almost back\b", "Geist is almost back"),
+    (r"I'm with you guys\b", "I'm with you, Geist"),
+    (r"Guys, it's on the roof\b", "Geist is on the roof"),
+    (r"Guys, it's on the bridge\b", "Geist is on the bridge"),
+    (r"Gus missing\b", "Geist missing"),
+    (r"Geis in Mid\b", "Geist in mid"),
+    (r"Careful, guys\b", "Careful, Geist"),
+    (r"Guys, under the garage\b", "Geist under the garage"),
+    
+    # McGinnis variations
+    (r"The Guinness was here\b", "McGinnis was here"),
+    (r"The Guinness is dead\b", "McGinnis is dead"),
+    (r"A Guinness is missing\b", "McGinnis is missing"),
+    (r"I saw him in Guinness\b", "I saw McGinnis"),
+    (r"McKinnis is in mid\b", "McGinnis is in mid"),
+    (r"The Guinness is under the garage\b", "McGinnis is under the garage"),
+    (r"My Guinness is missing\b", "McGinnis is missing"),
+    (r"Mark Guinness is dead\b", "McGinnis is dead"),
+    (r"Ignore Mark Guinness\b", "Ignore McGinnis"),
+    (r"Care for Mark Guinness\b", "Careful, McGinnis"),
+    
+    # Grey Talon variations
+    (r"Great talents in mid\b", "Grey Talon's in mid"),
+    (r"Kraytalan is almost back\b", "Grey Talon is almost back"),
+    (r"Great talent's missing\b", "Grey Talon's missing"),
+    (r"Great talents on top of the garage\b", "Grey Talon's on top of the garage"),
+    (r"I saw great talent\b", "I saw Grey Talon"),
+    (r"I see great talent\b", "I see Grey Talon"),
+    (r"Great Talent is almost back\b", "Grey Talon is almost back"),
+    (r"Great talent's under the garage\b", "Grey Talon's under the garage"),
+    (r"Great talent's on the roof\b", "Grey Talon's on the roof"),
+    (r"Great talent on the bridge\b", "Grey Talon's on the bridge"),
+    (r"Great talents on top of me\b", "Grey Talon's on top of mid"),
+    
+    # Paradox variations
+    (r"Care for bed of dogs\b", "Careful, Paradox"),
+    (r"Careful pendogs\b", "Careful, Paradox"),
+    (r"Let's take out Peridox\b", "Let's take out Paradox"),
+    
+    # Lash variations
+    (r"Last was here\b", "Lash was here"),
+    (r"Lars is on the bridge\b", "Lash is on the bridge"),
+    (r"Glasses on top of mid\b", "Lash's on top of mid"),
+    (r"Let's take out Lush\b", "Let's take out Lash"),
+    (r"Lush, I can heal you\b", "Lash, I can heal you"),
+    (r"Lush is almost back\b", "Lash is almost back"),
+    (r"Careful, Lush\b", "Careful, Lash"),
+    (r"Lush in mid\b", "Lash in mid"),
+    (r"Last is in mid\b", "Lash is in mid"),
+    (r"Nash is on top of the garage\b", "Lash is on top of the garage"),
+    (r"Nash, I can heal you\b", "Lash, I can heal you"),
+    (r"Careful, Nash\b", "Careful, Lash"),
+    (r"Laszlo's here\b", "Lash was here"),
+    (r"Careful, Laz\b", "Careful, Lash"),
+    
+    # Shiv variations
+    (r"Check out what Handsome bought\b", "Check out what Shiv bought"),
+    (r"I saw a sheep\b", "I saw Shiv"),
+    (r"Careful, Siv\b", "Careful, Shiv"),
+    (r"She's in need\b", "Shiv's in mid"),
+    (r"Shibu's here\b", "Shiv was here"),
+    (r"Shave is dead\b", "Shiv is dead"),
+    (r"Let's take out SHIB\b", "Let's take out Shiv"),
+    (r"She's on top of me\b", "Shiv's on top of mid"),
+    (r"Sheev's missing\b", "Shiv's missing"),
+    (r"Ships on the bridge\b", "Shiv's on the bridge"),
+    (r"Shifts on the roof\b", "Shiv's on the roof"),
+    (r"Shiff is almost back\b", "Shiv is almost back"),
+    (r"Careful, Sheath\b", "Careful, Shiv"),
+    (r"Careful, shibs\b", "Careful, Shiv"),
+    (r"Jim's under the garage\b", "Shiv's under the garage"),
+    (r"Sibs on the roof\b", "Shiv's on the roof"),
+    (r"Ships on top of the garage\b", "Shiv's on top of the garage"),
+    (r"Shibi's out there\b", "Shiv's out there"),
+    (r"Sibs on the bridge\b", "Shiv's on the bridge"),
+    (r"Chef, I can heal you\b", "Shiv, I can heal you"),
+    
+    # Bebop variations
+    (r"D-Bop is almost back\b", "Bebop is almost back"),
+    (r"Be rough, submit\b", "Bebop's in mid"),
+    (r"Let's take out B-Bomb\b", "Let's take out Bebop"),
+    (r"Beats on the roof\b", "Bebop's on the roof"),
+    (r"Check out what people bought\b", "Check out what Bebop bought"),
+    (r"The above is missing\b", "Bebop is missing"),
+    (r"Careful, D-Bob\b", "Careful, Bebop"),
+    (r"Peeps on top of me\b", "Bebop's on top of mid"),
+    (r"I saw a beeba\b", "I saw Bebop"),
+    (r"I saw Beavoth\b", "I saw Bebop"),
+    (r"Peevos and meat\b", "Bebop's in mid"),
+    (r"I saw a B-Bomb\b", "I saw Bebop"),
+    (r"Pbop's on the bridge\b", "Bebop's on the bridge"),
+    (r"I see peanut\b", "I see Bebop"),
+    (r"Careful beam up\b", "Careful, Bebop"),
+    (r"V-Bucks on top of the garage\b", "Bebop's on top of the garage"),
+    (r"V-Bombs are under the garage\b", "Bebop's under the garage"),
+    
+    # Yamato variations
+    (r"The Abattoir's dead\b", "Yamato's dead"),
+    (r"Yamcha's on the bridge\b", "Yamato's on the bridge"),
+    (r"Jabbatos in mid\b", "Yamato's in mid"),
+    (r"Carefully, Hamato\b", "Careful, Yamato"),
+    (r"I saw yamachu\b", "I saw Yamato"),
+    (r"The Avatar's on top of the carriage\b", "Yamato's on top of the garage"),
+    (r"I see Yomato\b", "I see Yamato"),
+    (r"The avatars are to breach\b", "Yamato's on the bridge"),
+    (r"I see y'all, Mato\b", "I see Yamato"),
+    (r"Check out what Yom Tobboth\b", "Check out what Yamato bought"),
+    (r"Germitals on top of med\b", "Yamato's on top of mid"),
+    (r"Galmato is here\b", "Yamato was here"),
+    (r"Gamato's in mid\b", "Yamato's in mid"),
+    (r"Careful yamacho\b", "Careful, Yamato"),
+    
+    # Trapper variations
+    (r"Trepper is dead\b", "Trapper is dead"),
+    (r"Trap us under the garage\b", "Trapper's under the garage"),
+    (r"Trevor's almost back\b", "Trapper's almost back"),
+    (r"Trap us on the roof\b", "Trapper's on the roof"),
+    (r"Check out what rapper bought\b", "Check out what Trapper bought"),
+    (r"Captain on top of the garage\b", "Trapper's on top of the garage"),
+    (r"Trampo is here\b", "Trapper was here"),
+    (r"Ignore drapper\b", "Ignore Trapper"),
+    (r"Trap us on the bridge\b", "Trapper's on the bridge"),
+    (r"Stuntropper\b", "Stun Trapper"),
 ]
 
 # Lowercase character names that should be capitalized when they appear alone
