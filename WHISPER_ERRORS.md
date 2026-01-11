@@ -42,7 +42,6 @@ Based on analysis of the transcript data, here are the most frequent error patte
 | Error Pattern | Affected Files |
 |---------------|----------------|
 | Paige (bookworm) → Page/Pyke | ~199 files |
-| Operative → Raven | ~147 files |
 | Infernus → Furnace | ~54 files |
 | Wraith → Race/Raid/Rate | ~52 files |
 | Stun → Stone/Stan/Stand | ~38 files |
@@ -54,7 +53,6 @@ Whisper often struggles with unusual or game-specific names. Common patterns inc
 
 | Original Name | Common Whisper Errors |
 |---------------|----------------------|
-| **Operative** | **Raven** (consistently misrecognized in ~147 files) |
 | **Wraith** | Race, Raid, Rate, Rates, Raze (52+ files) |
 | **Infernus** | Furnace, "And Furnace" (54+ files) |
 | **Paige** | Page, Pyke (199+ files in bookworm context) |
@@ -107,8 +105,6 @@ Note: "Stun X" is frequently misheard as compound words or variations:
 
 | Incorrect | Correct |
 |-----------|---------|
-| "I saw a raven" | "I saw Operative" |
-| "Raven's in mid" | "Operative's in mid" |
 | "Race on the bridge" | "Wraith's on the bridge" |
 | "And Furnace is dead" | "Infernus is dead" |
 | "Victory is in mid" | "Victor's in mid" |
@@ -120,7 +116,7 @@ Note: "Stun X" is frequently misheard as compound words or variations:
 | "Stone [Character]" | "Stun [Character]" |
 | "Starting Furnace" | "Stun Infernus" |
 | "Done sinclair" | "Stun Sinclair" |
-| "Dunraven" | "Stun Operative" / "Stun Raven" |
+| "Dunraven" | "Stun Raven" |
 | "Don't fathom" | "Stun Fathom" |
 | "Gun trapper" | "Stun Trapper" |
 | "Darn Vyper" | "Stun Vyper" |

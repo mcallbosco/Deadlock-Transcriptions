@@ -104,11 +104,6 @@ CHARACTER_NAME_CORRECTIONS = {
     # Paige (bookworm) variations
     "Pyke": "Paige",
     
-    # Operative → Raven (consistent Whisper misrecognition)
-    # Note: Raven is consistently misheard for Operative
-    "Raven": "Operative",
-    "Ravens": "Operative's",
-    
     # Victor variations
     "Victors": "Victor's",
     
@@ -342,7 +337,7 @@ PHRASE_CORRECTIONS = [
     # New Stun patterns discovered from analysis
     (r"Starting Furnace\b", "Stun Infernus"),
     (r"Done sinclair\b", "Stun Sinclair"),
-    (r"Dunraven\b", "Stun Operative"),
+    (r"Dunraven\b", "Stun Raven"),
     (r"Don't fathom\b", "Stun Fathom"),
     (r"Gun trapper\b", "Stun Trapper"),
     (r"Darn Vyper\b", "Stun Vyper"),
@@ -403,9 +398,8 @@ PHRASE_CORRECTIONS = [
     (r"Victors on the roof\b", "Victor's on the roof"),
     (r"Victors in Mid\b", "Victor's in Mid"),
     
-    # Raven/Operative variations (Raven is Whisper's consistent error for Operative)
-    # Note: Many files have "Raven" for Operative, but we don't auto-fix this
-    # as it may be intentional or context-dependent
+    # Raven is the correct name in voicelines for Operative
+    # Whisper correctly transcribes "Raven" - no auto-fix needed
     
     # Hallucination removals - YouTube-style phrases that Whisper hallucinates
     # These are NOT valid transcriptions
@@ -450,35 +444,6 @@ PHRASE_CORRECTIONS = [
     
     # Slork variations
     (r"Slorks and Mid\b", "Slork's in Mid"),
-    
-    # Operative/Raven variations (Whisper consistently hears "Raven" for "Operative")
-    (r"I saw a raven\b", "I saw Operative"),
-    (r"I saw Raven\b", "I saw Operative"),
-    (r"I see Raven\b", "I see Operative"),
-    (r"Ravens in mid\b", "Operative's in mid"),
-    (r"Raven's in mid\b", "Operative's in mid"),
-    (r"Ravens on the bridge\b", "Operative's on the bridge"),
-    (r"Raven's on the bridge\b", "Operative's on the bridge"),
-    (r"Ravens on the roof\b", "Operative's on the roof"),
-    (r"Raven's on the roof\b", "Operative's on the roof"),
-    (r"Raven's on top of the garage\b", "Operative's on top of the garage"),
-    (r"Raven's on top of mid\b", "Operative's on top of mid"),
-    (r"Raven's under the garage\b", "Operative's under the garage"),
-    (r"Raven's missing\b", "Operative's missing"),
-    (r"Raven is almost back\b", "Operative is almost back"),
-    (r"Raven is dead\b", "Operative is dead"),
-    (r"Raven was here\b", "Operative was here"),
-    (r"Careful, Raven\b", "Careful, Operative"),
-    (r"Be careful, Raven\b", "Be careful, Operative"),
-    (r"Raven, I can heal you\b", "Operative, I can heal you"),
-    (r"Raven, i can heal you\b", "Operative, I can heal you"),
-    (r"Ignore Raven\b", "Ignore Operative"),
-    (r"I'm with you, Raven\b", "I'm with you, Operative"),
-    (r"Let's take out Raven\b", "Let's take out Operative"),
-    (r"Take out what Raven bought\b", "Check out what Operative bought"),
-    (r"Check out what Raven bought\b", "Check out what Operative bought"),
-    (r"Took down Raven\b", "Took down Operative"),
-    (r"They took out raven\b", "They took out Operative"),
     
     # Wraith/Race variations (Whisper often hears "Race" for "Wraith")
     (r"Race on the bridge\b", "Wraith's on the bridge"),
