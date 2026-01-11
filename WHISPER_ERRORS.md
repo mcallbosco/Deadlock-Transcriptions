@@ -101,7 +101,7 @@ Note: "Stun X" is frequently misheard as compound words or variations:
 | "what X bought" | "what X brought" |
 | "took out X" | "took our X" |
 | "They took out" | "He/She/It took out" |
-| "Meta, I can heal ya" | "Mina, I can heal ya" |
+| "Mina, I can heal ya" | "Meta, I can heal ya" |
 
 ### 4. Phrase-Level Misrecognitions
 
