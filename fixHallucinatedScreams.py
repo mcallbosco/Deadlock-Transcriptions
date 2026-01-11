@@ -27,6 +27,9 @@ import argparse
 from pathlib import Path
 
 
+# Maximum word count for valid screams - screams should be short, not sentences
+MAX_SCREAM_WORD_COUNT = 5
+
 # File patterns that contain non-verbal sounds (screams/groans)
 NONVERBAL_FILE_PATTERNS = [
     r'_pain_big_',
@@ -103,13 +106,17 @@ HALLUCINATION_PATTERNS = [
     r'^available\s*(now|at|for)',
     
     # Random text/gibberish patterns
-    r'[а-яА-Я]{3,}',  # Cyrillic text
-    r'[ㄱ-ㅎ가-힣]{2,}',  # Korean text (except for simple exclamations)
-    r'[ぁ-んァ-ン]{3,}',  # Japanese hiragana/katakana
-    r'[一-龥]{2,}',  # Chinese characters
+    # Note: These patterns target clearly random/gibberish text that appears in hallucinations
+    # They may match some legitimate non-English text, but for this game's context
+    # (English voicelines), non-English script is more likely to be a hallucination
     r'éhéhé',  # Repeated diacritical nonsense
     r'🅱|🅰|🅵|🆂|🆁|🆃|🅷|🅴|🅶|🅳|🅿',  # Block emoji
     r'[►◄▲▼]{2,}',  # Arrow symbols
+    # Long sequences of non-Latin script are likely hallucinations
+    r'[а-яА-Я]{5,}',  # Long Cyrillic sequences (5+ chars)
+    r'[ㄱ-ㅎ가-힣]{4,}',  # Long Korean sequences (4+ chars)
+    r'[ぁ-んァ-ン]{5,}',  # Long Japanese kana sequences (5+ chars)
+    r'[一-龥]{3,}',  # Chinese character sequences (3+ chars)
     
     # Instructional/meta text
     r'if\s*you\s*(find|have|did|enjoyed)',
@@ -190,7 +197,7 @@ def is_hallucinated(text):
         return True
     
     # Check for very long text (screams shouldn't be sentences)
-    if len(text.split()) > 5:
+    if len(text.split()) > MAX_SCREAM_WORD_COUNT:
         return True
     
     return False
@@ -268,7 +275,8 @@ def process_directory(directory, dry_run=True, verbose=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Fix hallucinated Whisper transcriptions in scream/groan files'
+        description='Fix hallucinated Whisper transcriptions in scream/groan files. '
+                    'By default, runs in dry-run mode (no files modified). Use --apply to make changes.'
     )
     parser.add_argument(
         'directory',
@@ -280,12 +288,12 @@ def main():
         '--dry-run',
         action='store_true',
         default=True,
-        help='Show changes without modifying files (default: True)'
+        help='Preview changes without modifying files (this is the default behavior)'
     )
     parser.add_argument(
         '--apply',
         action='store_true',
-        help='Actually apply the changes to files'
+        help='Apply changes to files (required to actually modify data)'
     )
     parser.add_argument(
         '--verbose', '-v',
