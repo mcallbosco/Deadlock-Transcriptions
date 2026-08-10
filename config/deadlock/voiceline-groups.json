@@ -1,0 +1,1051 @@
+{
+  "schemaVersion": 1,
+  "unmatched": {
+    "voice": "keep-topic-at-root",
+    "ping": "keep-topic-at-pings-root"
+  },
+  "pingRoot": "Pings",
+  "rootTopicOrder": [
+    "Select",
+    "Unselect",
+    "Pre game",
+    "Post game"
+  ],
+  "groups": [
+    {
+      "id": "item-usage",
+      "label": "Item Usage",
+      "scope": "voice",
+      "sortSection": "root",
+      "match": {
+        "topics": [],
+        "prefixes": [
+          "use_"
+        ],
+        "excludePrefixes": [
+          "use_power"
+        ]
+      },
+      "subgroups": []
+    },
+    {
+      "id": "hero-selection",
+      "label": "Hero Selection",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "select",
+          "hs_select",
+          "unselect"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "killstreaks",
+      "label": "Killstreaks",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "killstreak_high",
+          "killstreak_mid",
+          "killstreak_start",
+          "killing_streak_high",
+          "killing_streak_low",
+          "killing_streak_medium",
+          "killing_streak",
+          "killing_streak_generic_high",
+          "killing_streak_generic_low",
+          "killing_streak_generic_medium",
+          "killstreak_count",
+          "killstreak_title",
+          "asleep_killstreak_high",
+          "asleep_killstreak_mid",
+          "asleep_killstreak_start"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "movement",
+      "label": "Movement",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "leave_base",
+          "leaving_area",
+          "boost_past_on_zipline"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "use-power",
+      "label": "Use Power",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "use_power1",
+          "use_power2",
+          "use_power3",
+          "use_power4",
+          "bespoke_ability_line",
+          "use_power4_01-imported",
+          "use_power4_as_enemy",
+          "use_power4_end",
+          "use_power4_seasonal",
+          "use_power4_start",
+          "use_power5",
+          "power2_resurface",
+          "power4",
+          "asleep_use_power1",
+          "asleep_use_power3",
+          "asleep_use_power4",
+          "use_power6"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "desperation-use-power",
+      "label": "Desperation Use Power",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "desperation_power1",
+          "desperation_power2",
+          "desperation_power3",
+          "desperation_power4",
+          "desperation_power5",
+          "desperation_power6"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "upgrade-power",
+      "label": "Upgrade Power",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "upgrade_power1",
+          "upgrade_power2",
+          "upgrade_power3",
+          "upgrade_power4",
+          "upgrade_power5",
+          "upgrade_power6",
+          "asleep_upgrade_power1",
+          "asleep_upgrade_power2",
+          "asleep_upgrade_power3",
+          "asleep_upgrade_power4"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "character-specific-abilities",
+      "label": "Character-Specific Abilities",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "bad_dome_alone",
+          "bad_dome_rejuvinator",
+          "big_kelvin",
+          "big_healing",
+          "big_healing_by_forge_alt_01__duplicate_id",
+          "big_healing_by_forge_alt_02__duplicate_id",
+          "catch_team_blackhole",
+          "dome_enemy_core",
+          "dome_own_core",
+          "heal_grenade",
+          "hook_gig_mid_ult",
+          "kill_team_blackhole",
+          "nano_kills_turrets",
+          "no_allies_help_blackhole",
+          "sticky_bomb_invis",
+          "ult_interrupted",
+          "ult_last_alive",
+          "ult_total_miss",
+          "use_power2_on_ally",
+          "use_power2_on_others",
+          "use_power2_on_self",
+          "storm_cloud_1_survives",
+          "storm_cloud_kelvin_survives",
+          "storm_cloud_last_standing",
+          "storm_cloud_team_wipe",
+          "uppercut_to_t1",
+          "uppercut_to_t2",
+          "uppercut_to_titan"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "pick-up",
+      "label": "Pick Up",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "see_money",
+          "pick_up_gold",
+          "pick_up_rejuv"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "emotions",
+      "label": "Emotions",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "angry",
+          "concerned",
+          "happy",
+          "sad",
+          "congrats",
+          "praise",
+          "asleep_congrats"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": [
+        {
+          "id": "pain",
+          "label": "Pain",
+          "match": {
+            "topics": [
+              "pain"
+            ],
+            "prefixes": [
+              "pain_"
+            ],
+            "excludePrefixes": []
+          }
+        },
+        {
+          "id": "effort",
+          "label": "Effort",
+          "match": {
+            "topics": [
+              "effort"
+            ],
+            "prefixes": [
+              "effort_"
+            ],
+            "excludePrefixes": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "combat",
+      "label": "Combat",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "parry",
+          "near_miss",
+          "melee_kill",
+          "revenge_kill",
+          "last_one_standing",
+          "close_call",
+          "interrupt",
+          "hunt",
+          "kill_anyhero",
+          "low_health_warning",
+          "outnumbered",
+          "solo_lasso_kill",
+          "be_careful",
+          "ap_reminder",
+          "kill_high_networth",
+          "end_streak",
+          "kill",
+          "catch",
+          "dash_effort",
+          "efforts",
+          "melee_efforts",
+          "multi_dash",
+          "hook",
+          "hook_lands",
+          "help_out",
+          "kill_fat_ghost_(enemy)",
+          "kill_in_lift_(ally)",
+          "kill_mid_laser_(enemy)",
+          "kill_on_ice_path_(enemy)",
+          "kill_post_swap_(enemy)",
+          "kill_when_invisible_(enemy)",
+          "killed_in_lane_(ally)",
+          "killed_in_lane_01-imported_(ally)",
+          "killed_mid_air_(enemy)",
+          "killed_mid_ult_(enemy)",
+          "mid_air_kill_(enemy)",
+          "asleep_kill_anyhereo",
+          "asleep_kill_anyhero"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "ally-actions",
+      "label": "Ally Actions",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "allies_lasso_kill",
+          "allies_no_attack",
+          "ally_urn_runner",
+          "big_blackhole_(ally)",
+          "big_stun_(ally)",
+          "big_ult_(ally)",
+          "bounce_pad_(ally)",
+          "burns_down_objective_(ally)",
+          "clutch_cube_(ally)",
+          "clutch_heal_(ally)",
+          "far_hook_(ally)",
+          "far_shot_(ally)",
+          "far_snipe_(ally)",
+          "grab_mid_enemy_ult_(ally)",
+          "kills_with_hook_(ally)",
+          "lasso_victim_(ally)",
+          "missile_stops_ult_(ally)",
+          "multi_kill_ult_(ally)",
+          "multikill_(ally)",
+          "see_big_swap_(ally)",
+          "see_massive_stomp_(ally)",
+          "steals_rejuv_(ally)",
+          "swap_to_boss_(ally)",
+          "take_objective_with_teather_(ally)",
+          "unkillable_(ally)",
+          "uppercut_towards_boss_(ally)",
+          "wall_stun_kill_(ally)"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "item-purchase",
+      "label": "Item Purchase",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "t4",
+          "t4_01",
+          "t4_buys_carpet",
+          "t4_slork"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "shop-system",
+      "label": "Shop System",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "t1_shop_reminder",
+          "t2_shop_reminder",
+          "t3_shop_reminder",
+          "t4_shop_reminder",
+          "choose_item",
+          "close_shop",
+          "open_gun",
+          "open_spirit",
+          "call_out"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "match-status",
+      "label": "Match Status",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "win",
+          "win_early",
+          "win_late",
+          "match_win",
+          "win_with_bebop",
+          "match_start",
+          "start",
+          "start_match",
+          "introduction",
+          "lose",
+          "lose_early",
+          "lose_late",
+          "ally_comeback",
+          "enemy_comeback",
+          "ally_team_wipe",
+          "enemy_team_wipe",
+          "ally_troopers_are_stronger",
+          "enemy_troopers_are_stronger",
+          "networth_update_ahead",
+          "networth_update_behind",
+          "avatar_is_destroyed",
+          "lose_objective_while_ahead",
+          "post_game",
+          "update_up_on_money_down_on_obj",
+          "high_max_health",
+          "enemy_gets_rejuv"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "global-objectives",
+      "label": "Global Objectives",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "tower_got_denied",
+          "idol_drop",
+          "ally_delivered_many_urns",
+          "ally_urn_movement",
+          "ally_urn_delivered",
+          "enemy_delivered_many_urns",
+          "enemy_urn_delivered",
+          "enemy_urn_movement",
+          "urn_delivered",
+          "urn_dropped",
+          "urn_moving",
+          "urn_waiting",
+          "holder_stalls",
+          "idol_delivered",
+          "idol_dropped",
+          "idol_landed",
+          "idol_moving",
+          "idol_waiting",
+          "rejuv_spawn",
+          "rejuvinator_expired",
+          "ally_rejuvinator_almost_expired",
+          "ally_steal_rejuv",
+          "enemy_steal_rejuv",
+          "mid_spawn",
+          "vanguard_ally_capture",
+          "vanguard_ally_capture_attempt",
+          "vanguard_available",
+          "vanguard_enemy_capture",
+          "vanguard_enemy_capture_attempt",
+          "ally_vanguard_defeated",
+          "enemy_vanguard_defeated",
+          "push_objectives_for_flex_slots",
+          "stolen_by_the_boss"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "ally-structures",
+      "label": "Ally Structures",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "ally_blue_guardian_attack",
+          "ally_blue_guardian_destroyed",
+          "ally_blue_walker_attack",
+          "ally_blue_walker_destroyed",
+          "ally_core_attack",
+          "ally_core_critical",
+          "ally_core_exposed",
+          "ally_core_reminder",
+          "ally_first_generator_destroyed",
+          "ally_generator_attack",
+          "ally_green_guardian_attack",
+          "ally_green_guardian_destroyed",
+          "ally_green_walker_attack",
+          "ally_green_walker_destroyed",
+          "ally_guardian_destroyed",
+          "ally_orange_guardian_attack",
+          "ally_orange_guardian_destroyed",
+          "ally_orange_walker_attack",
+          "ally_orange_walker_destroyed",
+          "ally_purple_guardian_attack",
+          "ally_purple_guardian_destroyed",
+          "ally_purple_walker_attack",
+          "ally_purple_walker_destroyed",
+          "ally_titan_attack",
+          "ally_titan_destroyed",
+          "ally_titan_exposed",
+          "ally_titan_reminder",
+          "ally_walker_destroyed",
+          "ally_yellow_guardian_attack",
+          "ally_yellow_guardian_destroyed",
+          "ally_yellow_walker_attack",
+          "ally_yellow_walker_destroyed",
+          "base_breached",
+          "base_defended",
+          "base_guardians_under_attack"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "enemy-structures",
+      "label": "Enemy Structures",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "enemy_blue_guardian",
+          "enemy_blue_walker",
+          "enemy_core",
+          "enemy_core_exposed",
+          "enemy_core_healing",
+          "enemy_first_generator_destroyed",
+          "enemy_guardian_destroyed",
+          "enemy_orange_guardian",
+          "enemy_orange_walker",
+          "enemy_purple_guardian",
+          "enemy_purple_walker",
+          "enemy_titan",
+          "enemy_titan_exposed",
+          "enemy_walker_destroyed",
+          "enemy_yellow_guardian",
+          "enemy_yellow_walker",
+          "titan_destroyed"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "enemy-observations",
+      "label": "Enemy Observations",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "see_enemy_metal_skin",
+          "see_enemy_use_metal_skin"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "enemy-actions",
+      "label": "Enemy Actions",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "blocked_by_wall_(enemy)",
+          "bounce_escape_(enemy)",
+          "charges_(enemy)",
+          "damaged_by_snipe_(enemy)",
+          "destroy_turrets_(enemy)",
+          "enemy_urn_runner",
+          "flies_away_(enemy)",
+          "grabbed_(enemy)",
+          "hide_from_ult_(enemy)",
+          "hooked_(enemy)",
+          "lassoed_(enemy)",
+          "lifts_(enemy)",
+          "ping__with_swap_(enemy)",
+          "see_missile_(enemy)",
+          "see_ult_(enemy)",
+          "starts_ult_(enemy)",
+          "steals_rejuv_(enemy)",
+          "unkillable_(enemy)"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "boons",
+      "label": "Boons",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "grant_boon_armor",
+          "grant_boon_armor_10",
+          "grant_boon_general",
+          "grant_boon_magic",
+          "grant_boon_weapon"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "map-alerts",
+      "label": "Map Alerts",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "broadway_attacked",
+          "orchard_attacked",
+          "park_attacked",
+          "york_attacked"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "patron-specific",
+      "label": "Patron Specific",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "saphire_flame_lines"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "tutorial",
+      "label": "Tutorial",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "tutorial_1_tasks_left",
+          "tutorial_2_tasks_left",
+          "tutorial_2nd_ap_earned",
+          "tutorial_3_tasks_left",
+          "tutorial_4_tasks_left",
+          "tutorial_boons",
+          "tutorial_buy_mod_reminder",
+          "tutorial_collect_souls",
+          "tutorial_combat_1st_kill_on_atlas",
+          "tutorial_combat_1st_kill_on_dynamo",
+          "tutorial_combat_1st_kill_on_haze",
+          "tutorial_combat_1st_kill_on_inferno",
+          "tutorial_combat_1st_kill_on_kali",
+          "tutorial_combat_1st_kill_on_lash",
+          "tutorial_combat_1st_kill_on_nano",
+          "tutorial_combat_1st_kill_on_orion",
+          "tutorial_combat_companion_dies",
+          "tutorial_combat_companion_need_help",
+          "tutorial_combat_death_info",
+          "tutorial_combat_disarm_info",
+          "tutorial_combat_enemy_atlas_info",
+          "tutorial_combat_enemy_dynamo_info",
+          "tutorial_combat_enemy_haze_info",
+          "tutorial_combat_enemy_lash_info",
+          "tutorial_combat_enemy_orion_info",
+          "tutorial_combat_immobilze_info",
+          "tutorial_combat_melee",
+          "tutorial_combat_melee_short",
+          "tutorial_combat_neutrals_info",
+          "tutorial_combat_out_of_range",
+          "tutorial_combat_parry",
+          "tutorial_combat_silence_info",
+          "tutorial_combat_stun_info",
+          "tutorial_combat_zoom_reminder",
+          "tutorial_congrats_t1_killed",
+          "tutorial_congrats_t2_killed",
+          "tutorial_deny_enemy",
+          "tutorial_destroy_t1",
+          "tutorial_destroy_t2",
+          "tutorial_destroy_titan",
+          "tutorial_dont_fight_t2_yet",
+          "tutorial_fall_back",
+          "tutorial_farm_info",
+          "tutorial_farm_info_alt2",
+          "tutorial_farm_info_short",
+          "tutorial_farm_reminder",
+          "tutorial_final_push",
+          "tutorial_first_shop_short_edit",
+          "tutorial_go_forth_my_child",
+          "tutorial_gold_orb_reminder",
+          "tutorial_heal_reminder_short",
+          "tutorial_healing_info",
+          "tutorial_idol_info",
+          "tutorial_lane_info",
+          "tutorial_level_up",
+          "tutorial_level_up_info",
+          "tutorial_level_up_info_short",
+          "tutorial_lower_shields",
+          "tutorial_mid_info",
+          "tutorial_push_lane",
+          "tutorial_red_orb_reminder",
+          "tutorial_safe_info",
+          "tutorial_shop_ap_only",
+          "tutorial_shop_ap_reminder",
+          "tutorial_shop_info",
+          "tutorial_shop_reminder",
+          "tutorial_single_lane_report_card_bronze",
+          "tutorial_single_lane_report_card_gold",
+          "tutorial_single_lane_report_card_intro",
+          "tutorial_single_lane_report_card_silver",
+          "tutorial_single_lane_walker_down",
+          "tutorial_single_lane_walker_intro",
+          "tutorial_stamina_reminder",
+          "tutorial_starting_ability",
+          "tutorial_t1_shield_is_up",
+          "tutorial_tasks_complete",
+          "tutorial_total_cred_reminder",
+          "tutorial_unlock_power_reminder",
+          "tutorial_use_ap_reminder",
+          "tutorial_welcome",
+          "tutorial_zipline_info",
+          "tutorial_zipline_info_short",
+          "tutorial_zipline_reminder",
+          "tutorial_attacked",
+          "tutorial_complete_tasks_to_fight",
+          "greenwich_attacked"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "street-brawl-mode",
+      "label": "Street Brawl Mode",
+      "scope": "voice",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "street_brawl_draw",
+          "street_brawl_loss",
+          "street_brawl_round_complete",
+          "street_brawl_round_lose",
+          "street_brawl_round_win",
+          "street_brawl_victory"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "objective-commands",
+      "label": "Objective Commands",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "attack_enemy",
+          "clear_troopers",
+          "defend_base",
+          "defend_blue",
+          "defend_green",
+          "defend_orange",
+          "defend_purple",
+          "defend_yellow",
+          "help_with_idol",
+          "lets_go_blue",
+          "lets_go_blue_alt",
+          "lets_go_green",
+          "lets_go_green_alt",
+          "lets_go_orange",
+          "lets_go_orange_alt",
+          "lets_go_purple",
+          "lets_go_purple_alt",
+          "lets_go_yellow",
+          "lets_go_yellow_alt",
+          "push_blue",
+          "push_green",
+          "push_orange",
+          "push_purple",
+          "push_yellow",
+          "take_mid",
+          "take_core",
+          "attack_enemy_titan",
+          "take_shrine"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "ability-status-usage",
+      "label": "Ability Status/Usage",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "ability1_almost_ready",
+          "ability1_not_ready",
+          "ability2_almost_ready",
+          "ability2_not_ready",
+          "ability3_almost_ready",
+          "ability3_not_ready",
+          "ability4_almost_ready",
+          "ability4_not_ready",
+          "use_ability1",
+          "use_ability2",
+          "use_ability3",
+          "use_ability4"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "item-status-usage",
+      "label": "Item Status/Usage",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "can_heal",
+          "glitch_almost_ready",
+          "glitch_not_ready",
+          "heal_ready",
+          "health_nova_almost_ready",
+          "health_nova_not_ready",
+          "item_almost_ready",
+          "item_not_ready",
+          "kncokdown_almost_ready",
+          "knockdown_almost_ready",
+          "kncokdown_not_ready",
+          "knockdown_not_ready",
+          "refresher_almost_ready",
+          "refresher_not_ready",
+          "silence_almost_ready",
+          "silence_not_ready",
+          "stim_pack_almost_ready",
+          "stim_pack_not_ready",
+          "warp_stone_almost_ready",
+          "warp_stone_not_ready",
+          "use_glitch",
+          "use_health_nova",
+          "use_item",
+          "use_kncokdown",
+          "use_knockdown",
+          "use_refresher",
+          "use_rupture",
+          "use_silence",
+          "use_stim_pack",
+          "use_warp_stone"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "movement-and-positioning",
+      "label": "Movement and Positioning",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "be_back_soon",
+          "flank",
+          "going_in",
+          "going_shop",
+          "headed_blue",
+          "headed_green",
+          "headed_orange",
+          "headed_purple",
+          "headed_this_way",
+          "headed_yellow",
+          "leaving_area",
+          "lets_hide",
+          "meet_here",
+          "on_way",
+          "request_follow",
+          "retreat",
+          "returning_to_base",
+          "right_back",
+          "stay_together",
+          "wait"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "enemy-information-and-location",
+      "label": "Enemy Information and Location",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "danger_area",
+          "in_mid",
+          "missing",
+          "missing_blue",
+          "missing_green",
+          "missing_orange",
+          "missing_purple",
+          "missing_yellow",
+          "on_top_of_garage",
+          "on_top_of_mid",
+          "saw",
+          "saw_them",
+          "see",
+          "see_enemy",
+          "see_on_bridge",
+          "see_on_roof",
+          "theyre_in_mid",
+          "theyre_on_top_of_garage",
+          "theyre_on_top_of_mid",
+          "theyre_under_garage",
+          "they_were_here",
+          "under_garage",
+          "was_here"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "requests-and-alerts",
+      "label": "Requests and Alerts",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "almost_respawn",
+          "avatar_under_attack",
+          "blue_help",
+          "dead",
+          "green_help",
+          "orange_help",
+          "need_cover",
+          "need_heal",
+          "need_help_blue",
+          "need_help_blue_alt",
+          "need_help_green",
+          "need_help_green_alt",
+          "need_help_orange",
+          "need_help_orange_alt",
+          "need_help_purple",
+          "need_help_purple_alt",
+          "need_help_yellow",
+          "need_help_yellow_alt",
+          "purple_help",
+          "t1_under_attack",
+          "t2_under_attack",
+          "titan_under_attack",
+          "yellow_help"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "tactical-communication",
+      "label": "Tactical Communication",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "attack",
+          "careful",
+          "gank",
+          "ignore",
+          "need_plan",
+          "no_teamfight",
+          "press_advantage",
+          "stun"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "general-communication-social",
+      "label": "General Communication / Social",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "affermative",
+          "good_game",
+          "good_job",
+          "negative",
+          "nevermind",
+          "nice_work",
+          "sorry",
+          "thanks",
+          "thank_you",
+          "welcome",
+          "well_played",
+          "with"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    },
+    {
+      "id": "miscellaneous-status",
+      "label": "Miscellaneous Status",
+      "scope": "ping",
+      "sortSection": "groups",
+      "match": {
+        "topics": [
+          "check_items",
+          "jar_call",
+          "rejuv_drop"
+        ],
+        "prefixes": [],
+        "excludePrefixes": []
+      },
+      "subgroups": []
+    }
+  ],
+  "overrides": []
+}

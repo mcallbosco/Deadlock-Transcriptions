@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VLViewer transcript file",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "filename",
+    "revisions"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "filename": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sha256",
+          "text",
+          "source"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "sha256": {
+            "oneOf": [
+              {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "source": {
+            "enum": [
+              "generated",
+              "official",
+              "manual",
+              "skippedeffort",
+              "skippednonspeech"
+            ]
+          },
+          "model": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}
