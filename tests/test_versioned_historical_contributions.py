@@ -21,6 +21,9 @@ from apply_semantic_delta_contributions import (  # noqa: E402
 from apply_reviewed_low_confidence_contributions import (  # noqa: E402
     plan_changes as plan_reviewed_low_confidence_changes,
 )
+from apply_reviewed_medium_confidence_contributions import (  # noqa: E402
+    plan_changes as plan_reviewed_medium_confidence_changes,
+)
 from apply_cross_version_historical_contributions import (  # noqa: E402
     plan_changes as plan_cross_version_changes,
 )
@@ -491,6 +494,138 @@ class SemanticDeltaApplyTests(unittest.TestCase):
             self.assertEqual(updated["revisions"][0]["source"], "manual")
             self.assertNotIn("model", updated["revisions"][0])
             self.assertEqual(updated["revisions"][1], document["revisions"][1])
+
+    def test_medium_review_applies_override_and_excludes_suspicious_status(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            path = repo / "transcripts/bebop/line.mp3.json"
+            suspicious_path = repo / "transcripts/tengu/line.mp3.json"
+            path.parent.mkdir(parents=True)
+            suspicious_path.parent.mkdir(parents=True)
+            selected_sha = "5" * 64
+            suspicious_sha = "6" * 64
+            path.write_text(
+                json.dumps(
+                    {
+                        "schemaVersion": 2,
+                        "filename": "bebop/line.mp3",
+                        "revisions": [
+                            {
+                                "sha256": selected_sha,
+                                "text": "Stop Viper.",
+                                "source": "generated",
+                                "model": "test-model",
+                            }
+                        ],
+                    },
+                    indent=2,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            suspicious_path.write_text(
+                json.dumps(
+                    {
+                        "schemaVersion": 2,
+                        "filename": "tengu/line.mp3",
+                        "revisions": [
+                            {
+                                "sha256": suspicious_sha,
+                                "text": "Nadie amenaza a mis amigos.",
+                                "source": "generated",
+                                "model": "test-model",
+                            }
+                        ],
+                    },
+                    indent=2,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            correction = event(
+                "d" * 40,
+                "2025-10-02T12:00:00+03:00",
+                "Stop Vyper!",
+                "Stopped Vyper!",
+            )
+            report = {
+                "mode": "semantic-delta-audit-only",
+                "target": {"prefix": "transcripts"},
+                "policy": {
+                    "reportOnly": True,
+                    "officialRevisionsMutable": False,
+                    "eligibleTargetSources": ["generated"],
+                    "noExactStateAcrossAnyManifestRequired": True,
+                    "dateSelectedSixHeroShaRequired": True,
+                    "currentHeadConflictCheckRequired": True,
+                    "highConfidenceOutsideTokensMustAgree": True,
+                    "semanticDeltaMayAutoApply": False,
+                    "fuzzyMatchingMayAutoApply": False,
+                },
+                "records": [
+                    {
+                        "status": "review_exact_delta_partial_context",
+                        "confidence": "medium",
+                        "epochId": "data/bebop_kill_viper_03.mp3.json#0",
+                        "legacyPath": "data/bebop_kill_viper_03.mp3.json",
+                        "events": [correction],
+                        "finalText": "Stopped Vyper!",
+                        "proposedText": "Stopped Viper.",
+                        "selectedTarget": {
+                            "path": "transcripts/bebop/line.mp3.json",
+                            "sha256": selected_sha,
+                            "source": "generated",
+                            "originalText": "Stop Viper.",
+                        },
+                    },
+                    {
+                        "status": "review_suspicious_delta_transfer",
+                        "confidence": "medium",
+                        "epochId": "data/tengu_kill_anyhero_03.mp3.json#0",
+                        "legacyPath": "data/tengu_kill_anyhero_03.mp3.json",
+                        "events": [correction],
+                        "finalText": "Nadie aMinaza a mis amigos!",
+                        "proposedText": "Nadie aMinaza a mis amigos.",
+                        "selectedTarget": {
+                            "path": "transcripts/tengu/line.mp3.json",
+                            "sha256": suspicious_sha,
+                            "source": "generated",
+                            "originalText": "Nadie amenaza a mis amigos.",
+                        },
+                    },
+                ],
+            }
+            decisions = {
+                "schemaVersion": 1,
+                "approval": {
+                    "confidence": "medium",
+                    "statuses": [
+                        "review_exact_delta_partial_context",
+                        "review_near_semantic_match",
+                    ],
+                    "excludedStatuses": ["review_suspicious_delta_transfer"],
+                    "candidateCount": 1,
+                },
+                "overrides": [
+                    {
+                        "legacyPath": "data/bebop_kill_viper_03.mp3.json",
+                        "text": "Stopped Vyper!",
+                        "reason": "Reviewer correction.",
+                    }
+                ],
+            }
+
+            changes = plan_reviewed_medium_confidence_changes(repo, report, decisions)
+            apply_changes(changes)
+            updated = json.loads(path.read_text(encoding="utf-8"))
+            suspicious = json.loads(suspicious_path.read_text(encoding="utf-8"))
+
+            self.assertEqual(updated["revisions"][0]["text"], "Stopped Vyper!")
+            self.assertEqual(updated["revisions"][0]["source"], "manual")
+            self.assertNotIn("model", updated["revisions"][0])
+            self.assertEqual(
+                suspicious["revisions"][0]["text"], "Nadie amenaza a mis amigos."
+            )
 
     def test_applies_only_reviewed_external_low_confidence_record(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

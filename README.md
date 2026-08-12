@@ -172,6 +172,15 @@ This tool still requires the audited generated text at the exact selected SHA an
 modifies official revisions. Its checked-in decision set includes external and mixed
 external/user correction epochs only; user-only and Copilot-authored epochs are excluded.
 
+Reviewed medium-confidence records use a separate pinned decision set so suspicious
+transfers remain excluded and reviewer-supplied text overrides are explicit:
+
+```powershell
+python tools/apply_reviewed_medium_confidence_contributions.py
+python tools/apply_reviewed_medium_confidence_contributions.py `
+  --apply --approve-reviewed-medium-confidence
+```
+
 When Stage 2 creates migration commits, it must set the author name, email, and date
 from each audit record. The migration operator remains the committer, so Git records
 both who made the original correction and who performed the migration.
