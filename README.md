@@ -79,6 +79,28 @@ contains either the exact legacy pre-correction text or the exact corrected text
 This prevents an old correction from overwriting a divergent re-recording. The apply
 command is a dry run unless `--apply` is passed, and it never stages or commits files.
 
+### Historical corrections for a released version
+
+CDN `publishedAt` timestamps describe when data was imported into VLViewer, not when
+the game update shipped. `config/deadlock/version-releases.json` therefore records
+reviewed release-date boundaries and the official sources supporting them. The root
+CDN manifest remains the authority for each version ID's live voice-line manifest.
+
+The first implemented historical window is the Six Hero Update:
+
+```powershell
+python tools/audit_versioned_historical_contributions.py `
+  --version-id six-hero-update
+
+python tools/apply_versioned_historical_contributions.py
+```
+
+The audit selects only correction epochs wholly inside the configured release
+window, resolves their filenames through that version's audio SHA-256 manifest, and
+requires one exact historical text state. The apply command is a dry run unless
+`--apply` is passed. It verifies the transcript worktree is clean, refuses any
+official or non-generated revision, and does not stage or commit its changes.
+
 When Stage 2 creates migration commits, it must set the author name, email, and date
 from each audit record. The migration operator remains the committer, so Git records
 both who made the original correction and who performed the migration.
