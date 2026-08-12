@@ -60,14 +60,24 @@ def select_release(
         raise AuditError(f"Expected one release-map entry for {version_id}; found {len(matches)}.")
     release = dict(matches[0])
     release["activeFrom"] = parse_date(release.get("activeFrom"), "activeFrom")
-    release["activeUntilExclusive"] = parse_date(
-        release.get("activeUntilExclusive"), "activeUntilExclusive"
+    active_until = release.get("activeUntilExclusive")
+    release["activeUntilExclusive"] = (
+        parse_date(active_until, "activeUntilExclusive") if active_until is not None else None
     )
-    if release["activeUntilExclusive"] <= release["activeFrom"]:
+    if (
+        release["activeUntilExclusive"] is not None
+        and release["activeUntilExclusive"] <= release["activeFrom"]
+    ):
         raise AuditError("activeUntilExclusive must be after activeFrom.")
-    for field in ("releaseEvidenceUrl", "supersededEvidenceUrl"):
-        if not isinstance(release.get(field), str) or not release[field].startswith("https://"):
-            raise AuditError(f"The release-map entry has no valid {field}.")
+    if not isinstance(release.get("releaseEvidenceUrl"), str) or not release[
+        "releaseEvidenceUrl"
+    ].startswith("https://"):
+        raise AuditError("The release-map entry has no valid releaseEvidenceUrl.")
+    if release["activeUntilExclusive"] is not None and (
+        not isinstance(release.get("supersededEvidenceUrl"), str)
+        or not release["supersededEvidenceUrl"].startswith("https://")
+    ):
+        raise AuditError("A closed release window requires supersededEvidenceUrl.")
     return release
 
 
@@ -133,10 +143,16 @@ def classify_records(
             )
         }
         dates = [event_local_date(event) for event in record["events"]]
-        in_release = [active_from <= value < active_until for value in dates]
+        in_release = [
+            active_from <= value and (active_until is None or value < active_until)
+            for value in dates
+        ]
         record["eventLocalDates"] = [value.isoformat() for value in dates]
         record["versionId"] = release["id"]
-        if any(value in {active_from, active_until} for value in dates):
+        boundaries = {active_from}
+        if active_until is not None:
+            boundaries.add(active_until)
+        if any(value in boundaries for value in dates):
             record["status"] = "release_boundary_date_review"
             records.append(record)
             continue
@@ -240,6 +256,11 @@ def classify_records(
 def render_markdown(report: dict[str, Any]) -> str:
     summary = report["summary"]
     release = report["release"]
+    active_dates = (
+        f"`{release['activeFrom']}` onward"
+        if release["activeUntilExclusive"] is None
+        else f"`{release['activeFrom']}` through `{release['activeUntilExclusive']}` (exclusive)"
+    )
     lines = [
         f"# {release['label']} historical contribution audit",
         "",
@@ -248,18 +269,23 @@ def render_markdown(report: dict[str, Any]) -> str:
         "## Selected release",
         "",
         f"- Version: `{release['id']}`",
-        f"- Active dates: `{release['activeFrom']}` through `{release['activeUntilExclusive']}` (exclusive)",
+        f"- Active dates: {active_dates}",
         f"- Date basis: `{release['dateBasis']}`",
         f"- Root manifest: {report['rootManifest']['url']}",
         f"- Voice-line manifest: {report['versionManifest']['url']}",
         f"- Release evidence: {release['releaseEvidenceUrl']}",
-        f"- Superseding-release evidence: {release['supersededEvidenceUrl']}",
-        "",
-        "## Classifications",
-        "",
-        "| Status | Epochs |",
-        "| --- | ---: |",
     ]
+    if release.get("supersededEvidenceUrl"):
+        lines.append(f"- Superseding-release evidence: {release['supersededEvidenceUrl']}")
+    lines.extend(
+        [
+            "",
+            "## Classifications",
+            "",
+            "| Status | Epochs |",
+            "| --- | ---: |",
+        ]
+    )
     for status, count in sorted(
         summary["recordsByStatus"].items(), key=lambda item: (-item[1], item[0])
     ):
@@ -340,7 +366,11 @@ def audit_versioned_historical(
             if key not in {"activeFrom", "activeUntilExclusive"}
         },
         "activeFrom": release["activeFrom"].isoformat(),
-        "activeUntilExclusive": release["activeUntilExclusive"].isoformat(),
+        "activeUntilExclusive": (
+            release["activeUntilExclusive"].isoformat()
+            if release["activeUntilExclusive"] is not None
+            else None
+        ),
         "dateBasis": release_map["dateBasis"],
     }
     return {

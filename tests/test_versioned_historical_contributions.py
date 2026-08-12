@@ -15,8 +15,17 @@ from apply_versioned_historical_contributions import (  # noqa: E402
     apply_changes,
     plan_changes,
 )
+from apply_cross_version_historical_contributions import (  # noqa: E402
+    plan_changes as plan_cross_version_changes,
+)
+from audit_cross_version_historical_contributions import (  # noqa: E402
+    classify_records as classify_cross_version_records,
+)
 from audit_latest_version_contributions import build_manifest_index  # noqa: E402
-from audit_versioned_historical_contributions import classify_records  # noqa: E402
+from audit_versioned_historical_contributions import (  # noqa: E402
+    classify_records,
+    select_release,
+)
 
 
 def event(commit: str, date: str, before: str, after: str) -> dict[str, object]:
@@ -53,6 +62,26 @@ def target(name: str, text: str, source: str, sha: str) -> dict[str, object]:
 
 
 class VersionedHistoricalAuditTests(unittest.TestCase):
+    def test_latest_release_window_may_be_open_ended(self) -> None:
+        release = select_release(
+            {
+                "schemaVersion": 1,
+                "dateBasis": "git-author-offset-calendar-date",
+                "versions": [
+                    {
+                        "id": "latest",
+                        "activeFrom": "2026-01-22",
+                        "activeUntilExclusive": None,
+                        "releaseEvidenceUrl": "https://example.com/release",
+                    }
+                ],
+            },
+            "latest",
+        )
+
+        self.assertEqual(release["activeFrom"], date(2026, 1, 22))
+        self.assertIsNone(release["activeUntilExclusive"])
+
     def test_release_window_manifest_hash_and_exact_state_are_all_required(self) -> None:
         names = ("replay", "marked", "official", "diverged", "outside", "boundary")
         hashes = {name: str(index) * 64 for index, name in enumerate(names, 1)}
@@ -97,6 +126,134 @@ class VersionedHistoricalAuditTests(unittest.TestCase):
         self.assertEqual(statuses["data/diverged.mp3.json"], "review_version_text_diverged")
         self.assertEqual(statuses["data/outside.mp3.json"], "outside_selected_version")
         self.assertEqual(statuses["data/boundary.mp3.json"], "release_boundary_date_review")
+
+
+class CrossVersionHistoricalAuditTests(unittest.TestCase):
+    def test_cross_version_matches_remain_review_only_and_check_current_head(self) -> None:
+        names = ("candidate", "official", "conflict", "diverged")
+        hashes = {name: str(index) * 64 for index, name in enumerate(names, 1)}
+        records = [
+            epoch(
+                name,
+                [event(name[0] * 40, "2025-10-01T12:00:00-04:00", "Wrong", "Right")],
+            )
+            for name in names
+        ]
+        target_index = {
+            "candidate.mp3.json": [target("candidate", "Wrong", "generated", hashes["candidate"])],
+            "official.mp3.json": [target("official", "Wrong", "official", hashes["official"])],
+            "conflict.mp3.json": [target("conflict", "Wrong", "generated", hashes["conflict"])],
+            "diverged.mp3.json": [target("diverged", "Different", "generated", hashes["diverged"])],
+        }
+        current_documents = {
+            value[0]["path"]: value[0] for value in target_index.values()
+        }
+        current_documents["transcripts/hero/conflict.mp3.json"] = target(
+            "conflict", "Other manual correction", "manual", hashes["conflict"]
+        )
+        catalog = {
+            f"hero/{name}.mp3": {
+                sha: [
+                    {
+                        "versionId": "older-version",
+                        "versionLabel": "Older Version",
+                        "versionOrder": 2,
+                        "manifestEvidence": [],
+                    }
+                ]
+            }
+            for name, sha in hashes.items()
+        }
+        assignments = {
+            record["epochId"]: [
+                {"versionId": "six-hero-update", "status": "review_version_text_diverged"}
+            ]
+            for record in records
+        }
+
+        results = classify_cross_version_records(
+            records, assignments, target_index, current_documents, catalog
+        )
+        statuses = {record["legacyPath"]: record["status"] for record in results}
+
+        self.assertEqual(
+            statuses["data/candidate.mp3.json"], "candidate_historical_version_review"
+        )
+        self.assertEqual(statuses["data/official.mp3.json"], "protected_official_match")
+        self.assertEqual(statuses["data/conflict.mp3.json"], "conflict_current_manual")
+        self.assertEqual(
+            statuses["data/diverged.mp3.json"], "no_exact_state_across_manifests"
+        )
+
+    def test_approved_cross_version_candidate_plans_an_exact_generated_revision(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            path = repo / "transcripts/hero/line.mp3.json"
+            path.parent.mkdir(parents=True)
+            sha = "a" * 64
+            document = {
+                "schemaVersion": 2,
+                "filename": "hero/line.mp3",
+                "revisions": [
+                    {
+                        "sha256": sha,
+                        "text": "Wrong",
+                        "source": "generated",
+                        "model": "test-model",
+                    }
+                ],
+            }
+            path.write_text(json.dumps(document, indent=2) + "\n", encoding="utf-8")
+            correction = event(
+                "a" * 40, "2025-10-01T12:00:00-04:00", "Wrong", "Right"
+            )
+            target_evidence = {
+                "path": "transcripts/hero/line.mp3.json",
+                "filename": "hero/line.mp3",
+                "sha256": sha,
+                "source": "generated",
+                "originalText": "Wrong",
+                "statePositions": [0],
+                "manifestVersions": [{"versionId": "older-version"}],
+                "proposedAction": "replay_and_mark_manual",
+            }
+            report = {
+                "mode": "cross-version-historical-audit-only",
+                "target": {"prefix": "transcripts"},
+                "policy": {
+                    "reportOnly": True,
+                    "officialRevisionsMutable": False,
+                    "eligibleTargetSources": ["generated"],
+                    "allRootManifestVersionsScanned": True,
+                    "uniqueTranscriptPathRequired": True,
+                    "uniqueAudioRevisionRequired": True,
+                    "uniqueHistoryEpochRequired": True,
+                    "exactTextAnchorRequired": True,
+                    "currentHeadConflictCheckRequired": True,
+                    "temporalMismatchMayAutoApply": False,
+                    "fuzzyMatchingMayAutoApply": False,
+                },
+                "records": [
+                    {
+                        "status": "candidate_historical_version_review",
+                        "epochId": "data/line.mp3.json#0",
+                        "exactMatches": [target_evidence],
+                        "selectedTarget": target_evidence,
+                        "assignedReleaseResults": [
+                            {"versionId": "six-hero-update", "status": "diverged"}
+                        ],
+                        "desiredText": "Right",
+                        "attributionEvents": [correction],
+                    }
+                ],
+            }
+
+            changes = plan_cross_version_changes(repo, report)
+
+            self.assertEqual(len(changes), 1)
+            self.assertEqual(changes[0]["after"]["text"], "Right")
+            self.assertEqual(changes[0]["after"]["source"], "manual")
+            self.assertNotIn("model", changes[0]["after"])
 
 
 class VersionedHistoricalApplyTests(unittest.TestCase):

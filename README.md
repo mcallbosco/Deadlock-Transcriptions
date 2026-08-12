@@ -101,6 +101,33 @@ requires one exact historical text state. The apply command is a dry run unless
 `--apply` is passed. It verifies the transcript worktree is clean, refuses any
 official or non-generated revision, and does not stage or commit its changes.
 
+The current OGNB window can be audited separately without applying anything:
+
+```powershell
+python tools/audit_versioned_historical_contributions.py `
+  --version-id ognb `
+  --output-json migration-reports/ognb-historical-contribution-audit.json `
+  --output-markdown migration-reports/ognb-historical-contribution-audit.md
+```
+
+After released-version candidates and official revisions are excluded, search every
+version in the live root manifest for exact anchors among the unresolved epochs:
+
+```powershell
+python tools/audit_cross_version_historical_contributions.py
+```
+
+Cross-version matches are report-only because their recording was not active in the
+version assigned from the correction date. They must have unique path, SHA, text
+state, and history evidence and must still be unchanged and generated on `HEAD`.
+After explicit review, validate or apply the selected report candidates with:
+
+```powershell
+python tools/apply_cross_version_historical_contributions.py
+python tools/apply_cross_version_historical_contributions.py `
+  --apply --approve-temporal-mismatch
+```
+
 When Stage 2 creates migration commits, it must set the author name, email, and date
 from each audit record. The migration operator remains the committer, so Git records
 both who made the original correction and who performed the migration.
