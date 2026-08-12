@@ -24,6 +24,9 @@ from apply_reviewed_low_confidence_contributions import (  # noqa: E402
 from apply_cross_version_historical_contributions import (  # noqa: E402
     plan_changes as plan_cross_version_changes,
 )
+from apply_cross_version_current_contributions import (  # noqa: E402
+    plan_changes as plan_cross_version_current_changes,
+)
 from audit_cross_version_historical_contributions import (  # noqa: E402
     classify_records as classify_cross_version_records,
 )
@@ -265,6 +268,89 @@ class CrossVersionHistoricalAuditTests(unittest.TestCase):
             self.assertEqual(changes[0]["after"]["text"], "Right")
             self.assertEqual(changes[0]["after"]["source"], "manual")
             self.assertNotIn("model", changes[0]["after"])
+
+    def test_reviewed_current_candidate_targets_only_exact_older_sha(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            path = repo / "transcripts/hero/line.mp3.json"
+            path.parent.mkdir(parents=True)
+            sha = "4" * 64
+            document = {
+                "schemaVersion": 2,
+                "filename": "hero/line.mp3",
+                "revisions": [
+                    {
+                        "sha256": sha,
+                        "text": "Stun seven!",
+                        "source": "generated",
+                        "model": "test-model",
+                    }
+                ],
+            }
+            path.write_text(json.dumps(document, indent=2) + "\n", encoding="utf-8")
+            correction = event(
+                "c" * 40,
+                "2025-08-27T12:00:00-04:00",
+                "Stun seven!",
+                "Stun Seven!",
+            )
+            target_evidence = {
+                "path": "transcripts/hero/line.mp3.json",
+                "filename": "hero/line.mp3",
+                "sha256": sha,
+                "source": "generated",
+                "originalText": "Stun seven!",
+                "statePositions": [0],
+                "manifestVersions": [{"versionId": "older-version"}],
+                "proposedAction": "replay_and_mark_manual",
+            }
+            report = {
+                "mode": "cross-version-current-audit-only",
+                "target": {"prefix": "transcripts"},
+                "policy": {
+                    "reportOnly": True,
+                    "officialRevisionsMutable": False,
+                    "eligibleTargetSources": ["generated"],
+                    "allRootManifestVersionsScanned": True,
+                    "uniqueTranscriptPathRequired": True,
+                    "uniqueAudioRevisionRequired": True,
+                    "exactTextAnchorRequired": True,
+                    "currentHeadConflictCheckRequired": True,
+                    "temporalMismatchMayAutoApply": False,
+                    "fuzzyMatchingMayAutoApply": False,
+                },
+                "records": [
+                    {
+                        "status": "candidate_cross_version_current_review",
+                        "epochId": "data/line.mp3.json#0",
+                        "legacyPath": "data/line.mp3.json",
+                        "exactMatches": [target_evidence],
+                        "selectedTarget": target_evidence,
+                        "assignedReleaseResults": [
+                            {"versionId": "ognb", "status": "diverged"}
+                        ],
+                        "desiredText": "Stun Seven!",
+                        "attributionEvents": [correction],
+                    }
+                ],
+            }
+            decisions = {
+                "schemaVersion": 1,
+                "approval": {
+                    "status": "candidate_cross_version_current_review",
+                    "candidateCount": 1,
+                    "temporalMismatchAcknowledged": True,
+                },
+                "overrides": [],
+            }
+
+            changes = plan_cross_version_current_changes(repo, report, decisions)
+            apply_changes(changes)
+            updated = json.loads(path.read_text(encoding="utf-8"))
+
+            self.assertEqual(updated["revisions"][0]["text"], "Stun Seven!")
+            self.assertEqual(updated["revisions"][0]["source"], "manual")
+            self.assertNotIn("model", updated["revisions"][0])
 
 
 class SemanticDeltaAuditTests(unittest.TestCase):

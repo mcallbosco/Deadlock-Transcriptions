@@ -133,7 +133,14 @@ states on older recordings:
 
 ```powershell
 python tools/audit_cross_version_current_contributions.py
+python tools/apply_cross_version_current_contributions.py
+python tools/apply_cross_version_current_contributions.py `
+  --apply --approve-reviewed-temporal-mismatch
 ```
+
+The apply command is pinned to an explicit review decision and audit content hash. It
+requires one exact older audio revision, verifies the current generated text, and never
+changes the divergent active OGNB recording or an official revision.
 
 For Six Hero epochs with no exact state on any published SHA, generate a conservative
 semantic-delta review. This ranks already-correct lexical equivalents and uniquely
