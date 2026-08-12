@@ -20,6 +20,7 @@ from audit_legacy_contributions import (  # noqa: E402
     compare_legacy_documents,
     render_markdown,
     safe_output_path,
+    target_matches,
     AuditError,
 )
 
@@ -100,6 +101,62 @@ class CommitClassificationTests(unittest.TestCase):
             author_email="bot@users.noreply.github.com",
         )
         self.assertEqual(classify_commit(commit, set(), 500), "review_bot_authored")
+
+
+class TargetMatchingTests(unittest.TestCase):
+    def test_multiple_nonofficial_sha_revisions_are_ambiguous(self) -> None:
+        record: dict[str, object] = {
+            "legacyPath": "data/hero_line.mp3.json",
+            "beforeFullText": "Wrong line",
+            "currentFullText": "Correct line",
+        }
+        target_index = {
+            "hero_line.mp3.json": [
+                {
+                    "path": "transcripts/hero/hero_line.mp3.json",
+                    "filename": "hero/hero_line.mp3",
+                    "revisions": [
+                        {
+                            "sha256": "1" * 64,
+                            "text": "Wrong line",
+                            "source": "generated",
+                        },
+                        {
+                            "sha256": "2" * 64,
+                            "text": "Wrong line",
+                            "source": "generated",
+                        },
+                    ],
+                }
+            ]
+        }
+
+        target_matches(record, target_index)
+
+        self.assertEqual(record["status"], "ambiguous_revision")
+        self.assertEqual(len(record["targetMatches"]), 2)
+
+    def test_null_sha_revision_requires_review(self) -> None:
+        record: dict[str, object] = {
+            "legacyPath": "data/hero_line.mp3.json",
+            "beforeFullText": "Wrong line",
+            "currentFullText": "Correct line",
+        }
+        target_index = {
+            "hero_line.mp3.json": [
+                {
+                    "path": "transcripts/hero/hero_line.mp3.json",
+                    "filename": "hero/hero_line.mp3",
+                    "revisions": [
+                        {"sha256": None, "text": "Wrong line", "source": "generated"}
+                    ],
+                }
+            ]
+        }
+
+        target_matches(record, target_index)
+
+        self.assertEqual(record["status"], "review_missing_sha")
 
 
 class AuditIntegrationTests(unittest.TestCase):

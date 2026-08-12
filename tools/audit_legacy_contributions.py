@@ -164,6 +164,10 @@ def normalize_text(value: str | None) -> str:
     return " ".join(value.split())
 
 
+def valid_sha256(value: Any) -> bool:
+    return isinstance(value, str) and re.fullmatch(r"[0-9a-f]{64}", value) is not None
+
+
 def legacy_segments(document: dict[str, Any], origin: str) -> list[dict[str, Any]]:
     values = document.get("segments")
     if not isinstance(values, list):
@@ -392,7 +396,11 @@ def target_matches(record: dict[str, Any], target_index: dict[str, list[dict[str
     if len(matched_paths) > 1:
         record["status"] = "ambiguous_path"
     elif nonofficial:
-        if all(value["source"] == "manual" and value["match"] == "current" for value in nonofficial):
+        if len(nonofficial) > 1:
+            record["status"] = "ambiguous_revision"
+        elif not valid_sha256(nonofficial[0].get("sha256")):
+            record["status"] = "review_missing_sha"
+        elif all(value["source"] == "manual" and value["match"] == "current" for value in nonofficial):
             record["status"] = "already_manual"
         else:
             record["status"] = "candidate_manual"
@@ -474,7 +482,8 @@ def render_markdown(report: dict[str, Any]) -> str:
             "",
             "The JSON report contains the original author metadata, legacy before/after text,",
             "target revision hashes, and the reason for every surviving contribution decision.",
-            "Only `candidate_manual` records are eligible for automatic replay in stage 2.",
+            "Only `candidate_manual` records with exactly one non-official SHA revision are",
+            "eligible for automatic replay in stage 2.",
             "",
         ]
     )
@@ -674,6 +683,7 @@ def audit(
             "bulkCommitFileThreshold": bulk_threshold,
             "officialImportCommits": sorted(official_commits),
             "officialRevisionsMutable": False,
+            "uniqueNonOfficialRevisionRequired": True,
             "fuzzyMatchingMayAutoApply": False,
             "botAuthoredChangesMayAutoApply": False,
         },

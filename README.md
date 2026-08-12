@@ -30,9 +30,35 @@ The command writes:
 - `migration-reports/manual-contribution-audit.md`: a short inventory summary.
 
 Only `candidate_manual` records are eligible for automatic replay in Stage 2.
-Ambiguous, structural, added-file, bot-authored, fuzzy/no-match, and multi-contributor
-records remain in review queues. Revisions whose `source` is `official` are always
-reported with the `protected` action and are never eligible for replacement.
+A candidate must resolve to exactly one mirrored transcript path and one non-official
+audio SHA-256 revision. Ambiguous paths/revisions, structural changes, added files,
+bot-authored changes, fuzzy/no-match results, and multi-contributor records remain in
+review queues. Revisions whose `source` is `official` are always reported with the
+`protected` action and are never eligible for replacement.
+
+Stage 1B audits corrections on deleted files and older transcript states:
+
+```powershell
+python tools/audit_historical_contributions.py `
+  --legacy-ref 2baf749298f6efdec6b2fb7c6b3ac08d2dfb6a64 `
+  --target-ref ce36237ac4b165f57eba15edef4c752cebc48160
+```
+
+Its JSON and Markdown reports are written below `migration-reports/`. Historical
+candidates have stricter requirements: one path, one generated audio-SHA revision,
+one correction epoch, and one exact matching state within that epoch. Deleted legacy
+files are evidence only; the migration never recreates them. Official and skipped
+target revisions are review-only in this historical pass.
+
+To validate the current-correction application without writing files:
+
+```powershell
+python tools/apply_current_contributions.py
+```
+
+Pass `--apply` only when the transcript tree is clean and the pinned audit has been
+reviewed. The tool changes only selected non-official revisions, removes their model,
+sets their source to `manual`, and deliberately does not stage or commit anything.
 
 When Stage 2 creates migration commits, it must set the author name, email, and date
 from each audit record. The migration operator remains the committer, so Git records

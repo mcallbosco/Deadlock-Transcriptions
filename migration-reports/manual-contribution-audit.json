@@ -19,6 +19,7 @@
       "ed2b3e4c473a5a65fe188247b3eb09326f34a54c"
     ],
     "officialRevisionsMutable": false,
+    "uniqueNonOfficialRevisionRequired": true,
     "fuzzyMatchingMayAutoApply": false,
     "botAuthoredChangesMayAutoApply": false
   },
@@ -38,11 +39,12 @@
     "invalidHistoryEvents": 0,
     "recordsByStatus": {
       "ambiguous_path": 3,
-      "candidate_manual": 225,
+      "ambiguous_revision": 90,
+      "candidate_manual": 197,
       "no_exact_revision_match": 1045,
       "no_target": 1,
       "review_added_file": 1099,
-      "review_bot_authored": 188,
+      "review_bot_authored": 126,
       "review_multiple_contributions": 3,
       "review_structural_change": 20
     },
@@ -50,32 +52,27 @@
       {
         "name": "Mcall",
         "email": "26465212+mcallbosco@users.noreply.github.com",
-        "records": 81
+        "records": 64
       },
       {
         "name": "Mugi",
         "email": "mailmugicha@gmail.com",
-        "records": 36
+        "records": 34
       },
       {
         "name": "RatHugs",
         "email": "150976180+RatHugs@users.noreply.github.com",
-        "records": 33
+        "records": 31
       },
       {
         "name": "Valvify",
         "email": "Valvify@users.noreply.github.com",
-        "records": 26
+        "records": 24
       },
       {
         "name": "Miles Calloway",
         "email": "26465212+mcallbosco@users.noreply.github.com",
-        "records": 22
-      },
-      {
-        "name": "Sloan",
-        "email": "vekterfs@protonmail.com",
-        "records": 8
+        "records": 21
       },
       {
         "name": "Gunseeker",
@@ -83,19 +80,24 @@
         "records": 7
       },
       {
+        "name": "Sloan",
+        "email": "vekterfs@protonmail.com",
+        "records": 6
+      },
+      {
         "name": "A-Crooked-Place",
         "email": "114519692+A-Crooked-Place@users.noreply.github.com",
         "records": 5
       },
       {
-        "name": "Jay Batalla",
-        "email": "jay.batalla@coupa.com",
-        "records": 3
-      },
-      {
         "name": "andreaskeviin",
         "email": "31849277+andreaskeviin@users.noreply.github.com",
         "records": 2
+      },
+      {
+        "name": "Jay Batalla",
+        "email": "jay.batalla@coupa.com",
+        "records": 1
       },
       {
         "name": "retrogradual",
@@ -1012,7 +1014,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/gigawatt_enemy_astro_bounce_escape_01.mp3.json",
       "legacyCommit": "0d07c0b2492eff4cd55b93824065f545b873e79e",
       "legacySubject": "Updated Seven/Holliday voice lines.",
@@ -1173,7 +1175,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/gigawatt_ping_astro_dead.mp3.json",
       "legacyCommit": "0d07c0b2492eff4cd55b93824065f545b873e79e",
       "legacySubject": "Updated Seven/Holliday voice lines.",
@@ -2824,7 +2826,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/astro_ping_viper_was_here.mp3.json",
       "legacyCommit": "2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
       "legacySubject": "Names",
@@ -3863,7 +3865,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/priest_ping_viper_dead.mp3.json",
       "legacyCommit": "2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
       "legacySubject": "Names",
@@ -4269,7 +4271,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_viper_almost_respawn.mp3.json",
       "legacyCommit": "2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
       "legacySubject": "Names",
@@ -4351,7 +4353,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_viper_was_here.mp3.json",
       "legacyCommit": "2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
       "legacySubject": "Names",
@@ -4396,7 +4398,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_with_viper.mp3.json",
       "legacyCommit": "2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
       "legacySubject": "Names",
@@ -5000,7 +5002,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/priest_ping_saw_dynamo.mp3.json",
       "legacyCommit": "30d5e4a64e29f23001a763cd684d2237ed25dbb8",
       "legacySubject": "Update priest_ping_saw_dynamo.mp3.json",
@@ -6680,7 +6682,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/gigawatt_enemy_forge_destroy_turrets_03.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -6725,7 +6727,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/gigawatt_ping_forge_check_items.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -6886,7 +6888,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/gigawatt_ping_stun_dynamo_01.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -7229,7 +7231,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/lash_efforts_09.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -7499,7 +7501,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/mirage_ping_ignore_forge.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -7727,7 +7729,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/newscaster_headline_40.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -8190,7 +8192,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_dash_effort_07.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -8243,7 +8245,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_dash_effort_09.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -8296,7 +8298,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_efforts_02.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -8349,7 +8351,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_enemy_forge_destroy_turrets_03.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -8464,7 +8466,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_stun_forge_01.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -8959,7 +8961,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wrecker_unselect_04_02.mp3.json",
       "legacyCommit": "423a672879f2ca57c292fa13d35e8ec1083d7810",
       "legacySubject": "Apply 434 transcription error fixes to data files",
@@ -10831,7 +10833,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_select_09.mp3.json",
       "legacyCommit": "558a8f9727c50d087541a31feed0b0853bac5299",
       "legacySubject": "Update vampirebat_select_09.mp3.json",
@@ -19594,7 +19596,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/gigawatt_ping_ignore_orion.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -19701,7 +19703,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ping_saw_atlas.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -19770,7 +19772,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ping_stun_atlas_01.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -19858,7 +19860,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/inferno_ping_ignore_orion.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -19948,7 +19950,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/inferno_ping_saw_astro.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -20200,7 +20202,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/krill_enemy_astro_bounce_escape_01.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -20526,7 +20528,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/lash_ping_saw_orion.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -20770,7 +20772,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/orion_ally_atlas_unkillable_02.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -20823,7 +20825,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/orion_ping_ignore_gigawatt.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -22154,7 +22156,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ally_gigawatt_killed_in_lane_01_02.mp3.json",
       "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
       "legacySubject": "More fixes",
@@ -24776,7 +24778,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_efforts_04.mp3.json",
       "legacyCommit": "945ec806293fd284e6557b4debb3f4080d998972",
       "legacySubject": "Fix additional transcript errors",
@@ -24862,7 +24864,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_orion_dead.mp3.json",
       "legacyCommit": "945ec806293fd284e6557b4debb3f4080d998972",
       "legacySubject": "Fix additional transcript errors",
@@ -24977,7 +24979,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_orion_was_here.mp3.json",
       "legacyCommit": "945ec806293fd284e6557b4debb3f4080d998972",
       "legacySubject": "Fix additional transcript errors",
@@ -25617,7 +25619,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/priest_ping_stun_nano_01.mp3.json",
       "legacyCommit": "a38fc656764c39ce5d181e2da7d45d6620e403ae",
       "legacySubject": "Update priest_ping_stun_nano_01.mp3.json",
@@ -27261,7 +27263,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/gigawatt_ping_with_ghost.mp3.json",
       "legacyCommit": "a49c3e1131ad2a951d55229d6714bc51aa40c7aa",
       "legacySubject": "Apply 500+ corrections and add extensive new error patterns",
@@ -27351,7 +27353,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ping_saw_forge.mp3.json",
       "legacyCommit": "a49c3e1131ad2a951d55229d6714bc51aa40c7aa",
       "legacySubject": "Apply 500+ corrections and add extensive new error patterns",
@@ -27431,7 +27433,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ping_yamato_was_here.mp3.json",
       "legacyCommit": "a49c3e1131ad2a951d55229d6714bc51aa40c7aa",
       "legacySubject": "Apply 500+ corrections and add extensive new error patterns",
@@ -29509,7 +29511,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/paradox_ping_ivy_in_mid.mp3.json",
       "legacyCommit": "a49c3e1131ad2a951d55229d6714bc51aa40c7aa",
       "legacySubject": "Apply 500+ corrections and add extensive new error patterns",
@@ -30239,7 +30241,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_inferno_check_items.mp3.json",
       "legacyCommit": "a49c3e1131ad2a951d55229d6714bc51aa40c7aa",
       "legacySubject": "Apply 500+ corrections and add extensive new error patterns",
@@ -30675,7 +30677,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_saw_orion.mp3.json",
       "legacyCommit": "a49c3e1131ad2a951d55229d6714bc51aa40c7aa",
       "legacySubject": "Apply 500+ corrections and add extensive new error patterns",
@@ -30782,7 +30784,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_with_astro.mp3.json",
       "legacyCommit": "a49c3e1131ad2a951d55229d6714bc51aa40c7aa",
       "legacySubject": "Apply 500+ corrections and add extensive new error patterns",
@@ -31606,7 +31608,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ally_astro_lasso_victim_01.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -31694,7 +31696,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ally_astro_lasso_victim_03.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -31755,7 +31757,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_enemy_astro_bounce_escape_03.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -31824,7 +31826,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ping_astro_was_here.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -31920,7 +31922,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ping_with_astro.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -32407,7 +32409,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/mirage_ping_astro_was_here.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -32452,7 +32454,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/mirage_ping_with_astro.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -32640,7 +32642,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/priest_ping_astro_dead.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33056,7 +33058,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_astro_was_here.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33101,7 +33103,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_with_astro.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33173,7 +33175,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ally_astro_lasso_victim_02.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33234,7 +33236,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_enemy_astro_bounce_escape_02.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33295,7 +33297,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_astro_almost_respawn.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33356,7 +33358,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_astro_check_items.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33417,7 +33419,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_astro_dead.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33478,7 +33480,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_astro_was_here.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33671,7 +33673,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_astro_almost_respawn.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33724,7 +33726,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_astro_check_items.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33814,7 +33816,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_astro_was_here.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -33967,7 +33969,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/yamato_ping_astro_dead.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -34012,7 +34014,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/yamato_ping_astro_was_here.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -34057,7 +34059,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/yamato_ping_with_astro.mp3.json",
       "legacyCommit": "aea9c9cd121cd2c8679d5d35846d20f66014c84d",
       "legacySubject": "Fix transcription mistakes: Holiday -> Holliday and Stone Viper -> Stun Vyper",
@@ -37871,7 +37873,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_saw_bebop.mp3.json",
       "legacyCommit": "b9616cf8954b39d5e80b7369d8a4e299652b9d17",
       "legacySubject": "Updating Mina's lines about Abrams, Bebop, Calico; Update post_game_04",
@@ -46944,7 +46946,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_ignore_astro.mp3.json",
       "legacyCommit": "ce3075bef86cf4edae80d84c8bfea0cbf4cdac92",
       "legacySubject": "Update Mina's lines about Dynamo, Fathom, Graf, Grey Talon, Haze, Holliday",
@@ -47053,7 +47055,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_saw_dynamo.mp3.json",
       "legacyCommit": "ce3075bef86cf4edae80d84c8bfea0cbf4cdac92",
       "legacySubject": "Update Mina's lines about Dynamo, Fathom, Graf, Grey Talon, Haze, Holliday",
@@ -49984,7 +49986,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/mirage_ping_ignore_haze.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -50461,7 +50463,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/mirage_ping_with_haze.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -51047,7 +51049,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/patron_female_idol_landed_01.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -51912,7 +51914,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_atlas_check_items.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52081,7 +52083,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_ping_with_haze.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52169,7 +52171,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ally_haze_pass_on_zipline_01.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52249,7 +52251,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_haze_check_items.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52466,7 +52468,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_ping_with_haze.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52527,7 +52529,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wrecker_ping_can_heal_abrams.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52599,7 +52601,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wrecker_ping_can_heal_cadence.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52843,7 +52845,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wrecker_ping_can_heal_infernus.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -52915,7 +52917,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wrecker_ping_can_heal_krill.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -53105,7 +53107,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wrecker_ping_can_heal_yamato.mp3.json",
       "legacyCommit": "d052b935c783ec8c9db59af468858542c86e4951",
       "legacySubject": "Add automated Whisper error fix script and fix 487 transcription errors",
@@ -54512,7 +54514,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/haze_ping_see_calico.mp3.json",
       "legacyCommit": "de6734de55bfdc81dad17a16ffd27e08891be609",
       "legacySubject": "Icy",
@@ -54925,7 +54927,7 @@
       ]
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/paradox_ping_see_krill_01.mp3.json",
       "legacyCommit": "de6734de55bfdc81dad17a16ffd27e08891be609",
       "legacySubject": "Icy",
@@ -55115,7 +55117,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/bebop_use_hook_06.mp3.json",
       "legacyCommit": "e025ecf6823862f042190a169098d202ae39ec6f",
       "legacySubject": "Update text from 'I see him!' to 'I see em!'",
@@ -70546,7 +70548,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/inferno_ping_orion_check_items.mp3.json",
       "legacyCommit": "f45025042c6040b6101cf14b9b7000ec1fda769b",
       "legacySubject": "Fix transcript errors: Page→Paige, Grey Talon, Infernus, Shiv, Billy, Mina, Geist, Vyper, Abrams, hallucinations",
@@ -71026,7 +71028,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_saw_inferno.mp3.json",
       "legacyCommit": "f45025042c6040b6101cf14b9b7000ec1fda769b",
       "legacySubject": "Fix transcript errors: Page→Paige, Grey Talon, Infernus, Shiv, Billy, Mina, Geist, Vyper, Abrams, hallucinations",
@@ -71098,7 +71100,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_enemy_orion_see_missile_01.mp3.json",
       "legacyCommit": "f45025042c6040b6101cf14b9b7000ec1fda769b",
       "legacySubject": "Fix transcript errors: Page→Paige, Grey Talon, Infernus, Shiv, Billy, Mina, Geist, Vyper, Abrams, hallucinations",
@@ -71159,7 +71161,7 @@
       "officialRevisionsProtected": 0
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/warden_enemy_orion_see_missile_03.mp3.json",
       "legacyCommit": "f45025042c6040b6101cf14b9b7000ec1fda769b",
       "legacySubject": "Fix transcript errors: Page→Paige, Grey Talon, Infernus, Shiv, Billy, Mina, Geist, Vyper, Abrams, hallucinations",
@@ -71284,7 +71286,7 @@
       "targetMatches": []
     },
     {
-      "status": "review_bot_authored",
+      "status": "ambiguous_revision",
       "legacyPath": "data/wraith_enemy_orion_see_missile_01.mp3.json",
       "legacyCommit": "f45025042c6040b6101cf14b9b7000ec1fda769b",
       "legacySubject": "Fix transcript errors: Page→Paige, Grey Talon, Infernus, Shiv, Billy, Mina, Geist, Vyper, Abrams, hallucinations",
@@ -71610,7 +71612,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/chrono_ping_atlas_check_items.mp3.json",
       "legacyCommit": "f52e147488bd7bcb9291020822d5875f8b4c07a9",
       "legacySubject": "check_items text fixes",
@@ -73065,7 +73067,7 @@
       "targetMatches": []
     },
     {
-      "status": "candidate_manual",
+      "status": "ambiguous_revision",
       "legacyPath": "data/vampirebat_ping_kelvin_check_items.mp3.json",
       "legacyCommit": "f52e147488bd7bcb9291020822d5875f8b4c07a9",
       "legacySubject": "check_items text fixes",
