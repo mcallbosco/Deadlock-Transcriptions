@@ -60,6 +60,25 @@ Pass `--apply` only when the transcript tree is clean and the pinned audit has b
 reviewed. The tool changes only selected non-official revisions, removes their model,
 sets their source to `manual`, and deliberately does not stage or commit anything.
 
+### Targeting a released game version
+
+The legacy format has no audio hash, so array position cannot identify the active
+revision. A VLViewer version manifest provides the missing `filename` to `audioKey`
+mapping. Audit corrections against the manifest before applying them:
+
+```powershell
+python tools/audit_latest_version_contributions.py `
+  --manifest-url "https://cdn.vlviewer.com/deadlock/versions/ognb/voicelines.json?_v=1786504895450-82710"
+
+python tools/apply_latest_version_contributions.py
+```
+
+The first command records the manifest URL, ETag, last-modified time, and content
+SHA-256 in the report. A latest-hash correction is eligible only when that revision
+contains either the exact legacy pre-correction text or the exact corrected text.
+This prevents an old correction from overwriting a divergent re-recording. The apply
+command is a dry run unless `--apply` is passed, and it never stages or commits files.
+
 When Stage 2 creates migration commits, it must set the author name, email, and date
 from each audit record. The migration operator remains the committer, so Git records
 both who made the original correction and who performed the migration.
