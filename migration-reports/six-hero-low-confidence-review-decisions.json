@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "audit": "migration-reports/six-hero-semantic-delta-contribution-audit.json",
+  "auditSha256": "dd4f5546ed89cff388a04b477739e88d8d81245d9a947555856d8c3ace346570",
+  "approval": {
+    "confidence": "low",
+    "status": "review_low_semantic_similarity",
+    "requiresExternalEvent": true,
+    "includeMixedUserExternalEpochs": true,
+    "excludedAuthorEmails": [
+      "26465212+mcallbosco@users.noreply.github.com"
+    ],
+    "excludedAuthorIdentityContains": [
+      "copilot"
+    ],
+    "candidateCount": 106
+  },
+  "overrides": [
+    {
+      "legacyPath": "data/krill_kill_synth_01.mp3.json",
+      "text": "I liked Pocket too!",
+      "reason": "Reviewer confirmed the intended tense and Pocket capitalization."
+    }
+  ]
+}

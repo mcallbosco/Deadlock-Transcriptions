@@ -1,0 +1,3267 @@
+{
+  "schemaVersion": 1,
+  "mode": "cross-version-current-audit-only",
+  "latestAudit": {
+    "path": "migration-reports/latest-version-current-contribution-audit.json",
+    "contentSha256": "618bd031ab106929120f80f92666f3c12acc536bee98f1c1059486b0b67a4083"
+  },
+  "target": {
+    "ref": "ce36237ac4b165f57eba15edef4c752cebc48160",
+    "commit": "ce36237ac4b165f57eba15edef4c752cebc48160",
+    "prefix": "transcripts",
+    "observedHeadCommit": "5f98b0a439775b0f27b287481d18e37c1415451a"
+  },
+  "releaseMap": {
+    "path": "config/deadlock/version-releases.json",
+    "contentSha256": "8fbeb7eae6eff223abad86823af2e4a7c30c6ddb901224de4013531fd5051ce1"
+  },
+  "rootManifest": {
+    "url": "https://cdn.vlviewer.com/deadlock/manifest.json",
+    "contentSha256": "ec886d772bcff993d4b0aacb313b78ff2010e24be2362622e07f95e57c57d6b4",
+    "etag": "\"b2676b4edf7a56ee9da722b044eabb76\"",
+    "lastModified": "Wed, 12 Aug 2026 03:02:23 GMT",
+    "contentType": "application/json; charset=utf-8",
+    "schemaVersion": 1,
+    "game": "deadlock",
+    "latestVersion": "ognb",
+    "updatedAt": "2026-08-12T03:02:22.326271Z",
+    "versions": 17
+  },
+  "versionManifests": [
+    {
+      "id": "ognb",
+      "label": "Old Gods, New Blood",
+      "order": 0,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/ognb/voicelines.json",
+      "publishedAt": "2026-08-09T20:28:38.610193Z",
+      "updatedAt": "2026-08-12T03:02:07.710887Z",
+      "contentRevision": 4,
+      "contentSha256": "9a3e81d3dc281e788ffc018c30edf0d03379b4ad68a264c0c8bdd818abd80be7",
+      "etag": "\"feaed18a9a222c122999d4c033dde504-5\"",
+      "lastModified": "Sun, 09 Aug 2026 20:28:42 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 65395,
+      "uniqueFilenames": 65383,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 15,
+      "relevantHashes": 15
+    },
+    {
+      "id": "six-hero-update",
+      "label": "Six Hero Update",
+      "order": 1,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/six-hero-update/voicelines.json",
+      "publishedAt": "2026-08-09T20:16:27.245404Z",
+      "updatedAt": "2026-08-12T03:01:51.032512Z",
+      "contentRevision": 4,
+      "contentSha256": "61fa87a2e523d00c555300a1c9885f74f9339ff69d60c1f0c6b8de3286d69d4a",
+      "etag": "\"f6946c5e4b7411b30f0acea25195ee0e-4\"",
+      "lastModified": "Sun, 09 Aug 2026 20:16:31 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 58642,
+      "uniqueFilenames": 58623,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 15,
+      "relevantHashes": 15
+    },
+    {
+      "id": "shop-rework",
+      "label": "Shop Rework",
+      "order": 2,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/shop-rework/voicelines.json",
+      "publishedAt": "2026-08-09T20:03:03.838263Z",
+      "updatedAt": "2026-08-12T03:01:36.338679Z",
+      "contentRevision": 4,
+      "contentSha256": "d1fc8889adda2cd0d256c3a75170558f35cc434d6b60a5bae7215a156da26791",
+      "etag": "\"caa7ad79f0dfb5de20f1a229940259b0-4\"",
+      "lastModified": "Sun, 09 Aug 2026 20:03:07 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 46461,
+      "uniqueFilenames": 46444,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 15,
+      "relevantHashes": 15
+    },
+    {
+      "id": "map-rework",
+      "label": "Map Rework Update",
+      "order": 3,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/map-rework/voicelines.json",
+      "publishedAt": "2026-08-09T19:53:44.604985Z",
+      "updatedAt": "2026-08-12T03:01:23.103915Z",
+      "contentRevision": 4,
+      "contentSha256": "41bc273198b15882a60b02d47b4b947e9c9408acf33a4e3ffe23ce1cceea2dec",
+      "etag": "\"46f47fc031cdf0588d4ec71f63ced5b5-3\"",
+      "lastModified": "Sun, 09 Aug 2026 19:53:48 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 42616,
+      "uniqueFilenames": 42565,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 9,
+      "relevantHashes": 9
+    },
+    {
+      "id": "four-heros",
+      "label": "Four New Heroes",
+      "order": 4,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/four-heros/voicelines.json",
+      "publishedAt": "2026-08-09T19:41:09.172026Z",
+      "updatedAt": "2026-08-12T03:01:09.092336Z",
+      "contentRevision": 4,
+      "contentSha256": "dbfb63bca35e032b374de6454066c5fdaf9586bca1608e6b463221e5e2f9e37a",
+      "etag": "\"f5b73a8dc9e436444fda781213e67ff7-4\"",
+      "lastModified": "Sun, 09 Aug 2026 19:41:13 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 46409,
+      "uniqueFilenames": 46237,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 9,
+      "relevantHashes": 9
+    },
+    {
+      "id": "winter-update",
+      "label": "Winter Update",
+      "order": 5,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/winter-update/voicelines.json",
+      "publishedAt": "2026-08-09T19:39:38.715740Z",
+      "updatedAt": "2026-08-12T03:00:55.673707Z",
+      "contentRevision": 4,
+      "contentSha256": "4fba7fc52595f3425dba2433aae2f570a49998f71bbd869482db9349386841ec",
+      "etag": "\"c964ffddb14113d291cd157d3c05d9e3-3\"",
+      "lastModified": "Sun, 09 Aug 2026 19:39:42 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 46546,
+      "uniqueFilenames": 46373,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 9,
+      "relevantHashes": 9
+    },
+    {
+      "id": "raven-park",
+      "label": "Raven/Park Update",
+      "order": 6,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/raven-park/voicelines.json",
+      "publishedAt": "2026-08-09T19:37:34.005050Z",
+      "updatedAt": "2026-08-12T03:00:42.386528Z",
+      "contentRevision": 4,
+      "contentSha256": "37c6833091172c49009cf91f1fdf9f6b389adf321146014cb8acfcfab158d1f8",
+      "etag": "\"a2080968406f91b6603091b6f82bb68e-3\"",
+      "lastModified": "Sun, 09 Aug 2026 19:37:38 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 45585,
+      "uniqueFilenames": 45412,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 9,
+      "relevantHashes": 9
+    },
+    {
+      "id": "matchmaking-update",
+      "label": "Matchmaking Update",
+      "order": 7,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/matchmaking-update/voicelines.json",
+      "publishedAt": "2026-08-09T19:34:00.723007Z",
+      "updatedAt": "2026-08-12T03:00:29.291327Z",
+      "contentRevision": 4,
+      "contentSha256": "310e80e7ad67a1dffc3fb937a80a94fb09566fd24a7d031a5adc3fdf2f758e20",
+      "etag": "\"9755ee1b7424c30e25857c0cf1ec96c6-4\"",
+      "lastModified": "Sun, 09 Aug 2026 19:34:04 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 45547,
+      "uniqueFilenames": 45385,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 9,
+      "relevantHashes": 9
+    },
+    {
+      "id": "hero-labs-update",
+      "label": "Hero Labs Update",
+      "order": 8,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/hero-labs-update/voicelines.json",
+      "publishedAt": "2026-07-19T22:59:06.498484Z",
+      "updatedAt": "2026-08-12T03:00:17.079023Z",
+      "contentRevision": 5,
+      "contentSha256": "af7df52eb5336568e2e05fdbec57638a57e927b3db5f5cd970583c0112b2e07d",
+      "etag": "\"b3ed7033edb75bbbaaff2a19c9241a25-3\"",
+      "lastModified": "Sun, 09 Aug 2026 19:03:53 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 42188,
+      "uniqueFilenames": 42025,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 9,
+      "relevantHashes": 9
+    },
+    {
+      "id": "ranked-update",
+      "label": "Ranked Update",
+      "order": 9,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/ranked-update/voicelines.json",
+      "publishedAt": "2026-07-19T22:56:52.739922Z",
+      "updatedAt": "2026-08-12T03:00:04.972020Z",
+      "contentRevision": 5,
+      "contentSha256": "5b9c542dfbc95069a61e87bbc6169a1f51a34cd10d514695c14e86852e34ed22",
+      "etag": "\"e8902102770b6dc22465dce0b1dc7443-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:56:54 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 41563,
+      "uniqueFilenames": 41400,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 7,
+      "relevantHashes": 7
+    },
+    {
+      "id": "mirage-update",
+      "label": "Mirage Update",
+      "order": 10,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/mirage-update/voicelines.json",
+      "publishedAt": "2026-07-19T22:54:27.129790Z",
+      "updatedAt": "2026-08-12T02:59:53.174110Z",
+      "contentRevision": 5,
+      "contentSha256": "66fe0c58b0fed142200cd7668cb488ec6b42440f0022a4084b0f2971ba169597",
+      "etag": "\"f703edd8dbc079d7eeb7b552fe3d7201-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:54:29 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 41422,
+      "uniqueFilenames": 41259,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 7,
+      "relevantHashes": 7
+    },
+    {
+      "id": "247-matchmaking",
+      "label": "24/7 Matchmaking",
+      "order": 11,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/247-matchmaking/voicelines.json",
+      "publishedAt": "2026-07-19T22:51:09.373454Z",
+      "updatedAt": "2026-08-12T02:59:41.677268Z",
+      "contentRevision": 4,
+      "contentSha256": "6ad73b29a20e2effd2f79acaf67cee69bd94e5e55307c5f178ce9e98b7e0bcf8",
+      "etag": "\"178f99a1294a7998c5c5298817bdb4f1-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:51:11 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 41132,
+      "uniqueFilenames": 40969,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 7,
+      "relevantHashes": 7
+    },
+    {
+      "id": "wall-jump-update",
+      "label": "Wall Jump Update",
+      "order": 12,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/wall-jump-update/voicelines.json",
+      "publishedAt": "2026-07-19T22:44:27.539390Z",
+      "updatedAt": "2026-08-12T02:59:28.979744Z",
+      "contentRevision": 4,
+      "contentSha256": "f2e6f1b07281855645f24f8b017f3edf6490f3bc6526804b7e6a53900df2c864",
+      "etag": "\"ab994cf4f362db358bad9185697a7d3c-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:44:29 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 39739,
+      "uniqueFilenames": 39576,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 7,
+      "relevantHashes": 7
+    },
+    {
+      "id": "post-shiv-update",
+      "label": "Shiv Update - Ivy Changes",
+      "order": 13,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/post-shiv-update/voicelines.json",
+      "publishedAt": "2026-07-19T22:41:18.436759Z",
+      "updatedAt": "2026-08-12T02:59:15.666884Z",
+      "contentRevision": 4,
+      "contentSha256": "7c038487d2a640ddaea425c31a4a3086c0bd0ac4ed9c41a359d69f5d91e2f922",
+      "etag": "\"98e5e1269a5438d40b5c0b75182f56e5-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:41:20 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 39271,
+      "uniqueFilenames": 39115,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 4,
+      "relevantHashes": 4
+    },
+    {
+      "id": "deadlock-shiv",
+      "label": "Shiv Update",
+      "order": 14,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/deadlock-shiv/voicelines.json",
+      "publishedAt": "2026-07-19T22:40:29.751781Z",
+      "updatedAt": "2026-08-12T02:59:02.754005Z",
+      "contentRevision": 4,
+      "contentSha256": "4256dd9ed0ee7315ee27e25af36948ca937650187abdc34f5915d8edc42153b7",
+      "etag": "\"a1c8b5687d08a50d1b1d0edcac55104f-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:40:32 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 39271,
+      "uniqueFilenames": 39115,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 4,
+      "relevantHashes": 4
+    },
+    {
+      "id": "deadlock-public-access",
+      "label": "Public Access",
+      "order": 15,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/deadlock-public-access/voicelines.json",
+      "publishedAt": "2026-07-19T22:38:48.098657Z",
+      "updatedAt": "2026-08-12T02:58:47.973065Z",
+      "contentRevision": 4,
+      "contentSha256": "ac798c78e753a602f5e4db484be88717abd583f1e41c206742dc08c91e60aeb5",
+      "etag": "\"56f4f10969ff5df36267099905c8b446-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:38:50 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 39271,
+      "uniqueFilenames": 39115,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 4,
+      "relevantHashes": 4
+    },
+    {
+      "id": "deadlock-base",
+      "label": "Build 4192",
+      "order": 16,
+      "voiceLineUrl": "https://cdn.vlviewer.com/deadlock/versions/deadlock-base/voicelines.json",
+      "publishedAt": "2026-07-19T22:31:31.243845Z",
+      "updatedAt": "2026-08-12T02:58:35.220055Z",
+      "contentRevision": 4,
+      "contentSha256": "d0370ccd6198695abb7af205f8a434a1658d0a0e14b34a68a8b99fd056e82974",
+      "etag": "\"b42c3e0cd4997cd009b72ecb4e3744ce-3\"",
+      "lastModified": "Sun, 19 Jul 2026 22:31:33 GMT",
+      "contentType": "application/json; charset=utf-8",
+      "entries": 39193,
+      "uniqueFilenames": 39055,
+      "conflictingFilenames": 0,
+      "invalidAudioKeys": 0,
+      "relevantFilenamesPresent": 6,
+      "relevantHashes": 6
+    }
+  ],
+  "policy": {
+    "reportOnly": true,
+    "officialRevisionsMutable": false,
+    "eligibleTargetSources": [
+      "generated"
+    ],
+    "allRootManifestVersionsScanned": true,
+    "uniqueTranscriptPathRequired": true,
+    "uniqueAudioRevisionRequired": true,
+    "exactTextAnchorRequired": true,
+    "currentHeadConflictCheckRequired": true,
+    "temporalMismatchMayAutoApply": false,
+    "fuzzyMatchingMayAutoApply": false
+  },
+  "summary": {
+    "activeShaDivergences": 15,
+    "versionManifests": 17,
+    "targetDocuments": 15,
+    "reviewCandidates": 13,
+    "ambiguousCorrections": 2,
+    "recordsByStatus": {
+      "ambiguous_exact_revision": 2,
+      "candidate_cross_version_current_review": 13
+    },
+    "candidateAuthors": [
+      {
+        "name": "Mcall",
+        "email": "26465212+mcallbosco@users.noreply.github.com",
+        "actions": 3
+      },
+      {
+        "name": "RatHugs",
+        "email": "150976180+RatHugs@users.noreply.github.com",
+        "actions": 3
+      },
+      {
+        "name": "Sloan",
+        "email": "vekterfs@protonmail.com",
+        "actions": 3
+      },
+      {
+        "name": "Valvify",
+        "email": "Valvify@users.noreply.github.com",
+        "actions": 2
+      },
+      {
+        "name": "Mugi",
+        "email": "mailmugicha@gmail.com",
+        "actions": 1
+      },
+      {
+        "name": "retrogradual",
+        "email": "vekterfs@protonmail.com",
+        "actions": 1
+      }
+    ]
+  },
+  "records": [
+    {
+      "epochId": "data/bookworm_ping_gigawatt_check_items.mp3.json@f52e147488bd7bcb9291020822d5875f8b4c07a9",
+      "legacyPath": "data/bookworm_ping_gigawatt_check_items.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Check out what's 7-Bot.",
+      "finalText": "Check out what Seven bought.",
+      "events": [
+        {
+          "legacyCommit": "f52e147488bd7bcb9291020822d5875f8b4c07a9",
+          "legacySubject": "check_items text fixes",
+          "author": {
+            "name": "Valvify",
+            "email": "Valvify@users.noreply.github.com",
+            "date": "2026-06-18T12:45:37+01:00"
+          },
+          "beforeFullText": "Check out what's 7-Bot.",
+          "afterFullText": "Check out what Seven bought.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Check out what's 7-Bot.",
+              "after": " Check out what Seven bought."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/bookworm/ping/bookworm_ping_gigawatt_check_items.mp3.json",
+      "filename": "bookworm/ping/bookworm_ping_gigawatt_check_items.mp3",
+      "manifestHashes": 2,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/bookworm/ping/bookworm_ping_gigawatt_check_items.mp3.json",
+          "filename": "bookworm/ping/bookworm_ping_gigawatt_check_items.mp3",
+          "sha256": "ec4f4d33ff91e900b1c5f8c782fc56f8ac7498e9363c3ce8ec90a20e60e54921",
+          "source": "generated",
+          "originalText": "Check out what Seven bought.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "shop-rework",
+              "versionLabel": "Shop Rework",
+              "versionOrder": 2,
+              "manifestEvidence": [
+                {
+                  "filename": "bookworm/ping/bookworm_ping_gigawatt_check_items.mp3",
+                  "audioKey": "sha256/ec/ec4f4d33ff91e900b1c5f8c782fc56f8ac7498e9363c3ce8ec90a20e60e54921.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Check out what Seven bought.",
+                  "duration": 1.331,
+                  "versionStatus": {
+                    "comparedTo": "map-rework",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/bookworm/ping/bookworm_ping_gigawatt_check_items.mp3.json",
+        "filename": "bookworm/ping/bookworm_ping_gigawatt_check_items.mp3",
+        "sha256": "ec4f4d33ff91e900b1c5f8c782fc56f8ac7498e9363c3ce8ec90a20e60e54921",
+        "source": "generated",
+        "originalText": "Check out what Seven bought.",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "shop-rework",
+            "versionLabel": "Shop Rework",
+            "versionOrder": 2,
+            "manifestEvidence": [
+              {
+                "filename": "bookworm/ping/bookworm_ping_gigawatt_check_items.mp3",
+                "audioKey": "sha256/ec/ec4f4d33ff91e900b1c5f8c782fc56f8ac7498e9363c3ce8ec90a20e60e54921.mp3",
+                "date": "2026-08-02",
+                "transcription": "Check out what Seven bought.",
+                "duration": 1.331,
+                "versionStatus": {
+                  "comparedTo": "map-rework",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "Check out what Seven bought.",
+      "attributionEvents": [
+        {
+          "legacyCommit": "f52e147488bd7bcb9291020822d5875f8b4c07a9",
+          "legacySubject": "check_items text fixes",
+          "author": {
+            "name": "Valvify",
+            "email": "Valvify@users.noreply.github.com",
+            "date": "2026-06-18T12:45:37+01:00"
+          },
+          "beforeFullText": "Check out what's 7-Bot.",
+          "afterFullText": "Check out what Seven bought.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Check out what's 7-Bot.",
+              "after": " Check out what Seven bought."
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/gigawatt_ally_astro_lasso_victim_01.mp3.json@0d07c0b2492eff4cd55b93824065f545b873e79e",
+      "legacyPath": "data/gigawatt_ally_astro_lasso_victim_01.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Hollidaytropgum",
+      "finalText": "Holliday trapped them.",
+      "events": [
+        {
+          "legacyCommit": "0d07c0b2492eff4cd55b93824065f545b873e79e",
+          "legacySubject": "Updated Seven/Holliday voice lines.",
+          "author": {
+            "name": "Sloan",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T15:16:11-04:00"
+          },
+          "beforeFullText": "Hollidaytropgum",
+          "afterFullText": "Holliday trapped them.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "Hollidaytropgum",
+              "after": "Holliday trapped them."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3.json",
+      "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+      "manifestHashes": 4,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3.json",
+          "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+          "sha256": "f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5",
+          "source": "generated",
+          "originalText": "Holliday trapped them.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "hero-labs-update",
+              "versionLabel": "Hero Labs Update",
+              "versionOrder": 8,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                  "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Holliday trapped them.",
+                  "duration": 1.66,
+                  "versionStatus": {
+                    "comparedTo": "ranked-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "ranked-update",
+              "versionLabel": "Ranked Update",
+              "versionOrder": 9,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                  "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Holliday trapped them.",
+                  "duration": 1.66,
+                  "versionStatus": {
+                    "comparedTo": "mirage-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "mirage-update",
+              "versionLabel": "Mirage Update",
+              "versionOrder": 10,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                  "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Holliday trapped them.",
+                  "duration": 1.66,
+                  "versionStatus": {
+                    "comparedTo": "247-matchmaking"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "247-matchmaking",
+              "versionLabel": "24/7 Matchmaking",
+              "versionOrder": 11,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                  "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Holliday trapped them.",
+                  "duration": 1.66,
+                  "versionStatus": {
+                    "comparedTo": "wall-jump-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "wall-jump-update",
+              "versionLabel": "Wall Jump Update",
+              "versionOrder": 12,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                  "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Holliday trapped them.",
+                  "duration": 1.66,
+                  "versionStatus": {
+                    "comparedTo": "post-shiv-update",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3.json",
+        "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+        "sha256": "f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5",
+        "source": "generated",
+        "originalText": "Holliday trapped them.",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "hero-labs-update",
+            "versionLabel": "Hero Labs Update",
+            "versionOrder": 8,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                "date": "2026-07-19",
+                "transcription": "Holliday trapped them.",
+                "duration": 1.66,
+                "versionStatus": {
+                  "comparedTo": "ranked-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "ranked-update",
+            "versionLabel": "Ranked Update",
+            "versionOrder": 9,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                "date": "2026-07-19",
+                "transcription": "Holliday trapped them.",
+                "duration": 1.66,
+                "versionStatus": {
+                  "comparedTo": "mirage-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "mirage-update",
+            "versionLabel": "Mirage Update",
+            "versionOrder": 10,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                "date": "2026-07-19",
+                "transcription": "Holliday trapped them.",
+                "duration": 1.66,
+                "versionStatus": {
+                  "comparedTo": "247-matchmaking"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "247-matchmaking",
+            "versionLabel": "24/7 Matchmaking",
+            "versionOrder": 11,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                "date": "2026-07-19",
+                "transcription": "Holliday trapped them.",
+                "duration": 1.66,
+                "versionStatus": {
+                  "comparedTo": "wall-jump-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "wall-jump-update",
+            "versionLabel": "Wall Jump Update",
+            "versionOrder": 12,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/gigawatt_ally_astro_lasso_victim_01.mp3",
+                "audioKey": "sha256/f6/f6f57e731dc2423c9e6f745c192ff5e94a6d711b857e831867ab2877161ccdb5.mp3",
+                "date": "2026-07-19",
+                "transcription": "Holliday trapped them.",
+                "duration": 1.66,
+                "versionStatus": {
+                  "comparedTo": "post-shiv-update",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "Holliday trapped them.",
+      "attributionEvents": [
+        {
+          "legacyCommit": "0d07c0b2492eff4cd55b93824065f545b873e79e",
+          "legacySubject": "Updated Seven/Holliday voice lines.",
+          "author": {
+            "name": "Sloan",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T15:16:11-04:00"
+          },
+          "beforeFullText": "Hollidaytropgum",
+          "afterFullText": "Holliday trapped them.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "Hollidaytropgum",
+              "after": "Holliday trapped them."
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/gigawatt_ping_atlas_was_here.mp3.json@35263eac6703f6a86e38e0daab748484a79f7ce8",
+      "legacyPath": "data/gigawatt_ping_atlas_was_here.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Hey Bruce, what's he got?",
+      "finalText": "Abrams was here.",
+      "events": [
+        {
+          "legacyCommit": "35263eac6703f6a86e38e0daab748484a79f7ce8",
+          "legacySubject": "Updated Seven/Abrams voice lines.",
+          "author": {
+            "name": "Sloan",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T15:57:02-04:00"
+          },
+          "beforeFullText": "Hey Bruce, what's he got?",
+          "afterFullText": "Abrams was here.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Hey Bruce, what's he got?",
+              "after": "Abrams was here."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/gigawatt/ping/gigawatt_ping_atlas_was_here.mp3.json",
+      "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+      "manifestHashes": 4,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/gigawatt/ping/gigawatt_ping_atlas_was_here.mp3.json",
+          "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+          "sha256": "3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257",
+          "source": "generated",
+          "originalText": "Abrams was here.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "map-rework",
+              "versionLabel": "Map Rework Update",
+              "versionOrder": 3,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                  "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Abrams was here.",
+                  "duration": 1.745,
+                  "versionStatus": {
+                    "comparedTo": "four-heros"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "four-heros",
+              "versionLabel": "Four New Heroes",
+              "versionOrder": 4,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                  "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Abrams was here.",
+                  "duration": 1.745,
+                  "versionStatus": {
+                    "comparedTo": "winter-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "winter-update",
+              "versionLabel": "Winter Update",
+              "versionOrder": 5,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                  "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "Abrams was here.",
+                  "duration": 1.745,
+                  "versionStatus": {
+                    "comparedTo": "raven-park"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "raven-park",
+              "versionLabel": "Raven/Park Update",
+              "versionOrder": 6,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                  "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "Abrams was here.",
+                  "duration": 1.745,
+                  "versionStatus": {
+                    "comparedTo": "matchmaking-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "matchmaking-update",
+              "versionLabel": "Matchmaking Update",
+              "versionOrder": 7,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                  "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "Abrams was here.",
+                  "duration": 1.745,
+                  "versionStatus": {
+                    "comparedTo": "hero-labs-update",
+                    "change": "modified"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/gigawatt/ping/gigawatt_ping_atlas_was_here.mp3.json",
+        "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+        "sha256": "3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257",
+        "source": "generated",
+        "originalText": "Abrams was here.",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "map-rework",
+            "versionLabel": "Map Rework Update",
+            "versionOrder": 3,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                "date": "2026-08-02",
+                "transcription": "Abrams was here.",
+                "duration": 1.745,
+                "versionStatus": {
+                  "comparedTo": "four-heros"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "four-heros",
+            "versionLabel": "Four New Heroes",
+            "versionOrder": 4,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                "date": "2026-08-02",
+                "transcription": "Abrams was here.",
+                "duration": 1.745,
+                "versionStatus": {
+                  "comparedTo": "winter-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "winter-update",
+            "versionLabel": "Winter Update",
+            "versionOrder": 5,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                "date": "2026-07-29",
+                "transcription": "Abrams was here.",
+                "duration": 1.745,
+                "versionStatus": {
+                  "comparedTo": "raven-park"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "raven-park",
+            "versionLabel": "Raven/Park Update",
+            "versionOrder": 6,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                "date": "2026-07-29",
+                "transcription": "Abrams was here.",
+                "duration": 1.745,
+                "versionStatus": {
+                  "comparedTo": "matchmaking-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "matchmaking-update",
+            "versionLabel": "Matchmaking Update",
+            "versionOrder": 7,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_atlas_was_here.mp3",
+                "audioKey": "sha256/3c/3cb6fda9a0a9dbb35ac0198365aad2615dd789654219c6bb832d2451d29b8257.mp3",
+                "date": "2026-07-29",
+                "transcription": "Abrams was here.",
+                "duration": 1.745,
+                "versionStatus": {
+                  "comparedTo": "hero-labs-update",
+                  "change": "modified"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "Abrams was here.",
+      "attributionEvents": [
+        {
+          "legacyCommit": "35263eac6703f6a86e38e0daab748484a79f7ce8",
+          "legacySubject": "Updated Seven/Abrams voice lines.",
+          "author": {
+            "name": "Sloan",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T15:57:02-04:00"
+          },
+          "beforeFullText": "Hey Bruce, what's he got?",
+          "afterFullText": "Abrams was here.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Hey Bruce, what's he got?",
+              "after": "Abrams was here."
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/gigawatt_ping_ignore_viscous.mp3.json@1b9fb83101282b32b5e436037b409f849be9bb37",
+      "legacyPath": "data/gigawatt_ping_ignore_viscous.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Ignore viscous",
+      "finalText": "Ignore Viscous.",
+      "events": [
+        {
+          "legacyCommit": "1b9fb83101282b32b5e436037b409f849be9bb37",
+          "legacySubject": "Update gigawatt_ping_ignore_viscous.mp3.json",
+          "author": {
+            "name": "retrogradual",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T14:22:57-04:00"
+          },
+          "beforeFullText": "Ignore viscous",
+          "afterFullText": "Ignore Viscous.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "Ignore viscous",
+              "after": "Ignore Viscous."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/gigawatt/ping/gigawatt_ping_ignore_viscous.mp3.json",
+      "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+      "manifestHashes": 3,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/gigawatt/ping/gigawatt_ping_ignore_viscous.mp3.json",
+          "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+          "sha256": "bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d",
+          "source": "generated",
+          "originalText": "Ignore Viscous.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "hero-labs-update",
+              "versionLabel": "Hero Labs Update",
+              "versionOrder": 8,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                  "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Ignore Viscous.",
+                  "duration": 1.79,
+                  "versionStatus": {
+                    "comparedTo": "ranked-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "ranked-update",
+              "versionLabel": "Ranked Update",
+              "versionOrder": 9,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                  "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Ignore Viscous.",
+                  "duration": 1.79,
+                  "versionStatus": {
+                    "comparedTo": "mirage-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "mirage-update",
+              "versionLabel": "Mirage Update",
+              "versionOrder": 10,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                  "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Ignore Viscous.",
+                  "duration": 1.79,
+                  "versionStatus": {
+                    "comparedTo": "247-matchmaking"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "247-matchmaking",
+              "versionLabel": "24/7 Matchmaking",
+              "versionOrder": 11,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                  "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Ignore Viscous.",
+                  "duration": 1.79,
+                  "versionStatus": {
+                    "comparedTo": "wall-jump-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "wall-jump-update",
+              "versionLabel": "Wall Jump Update",
+              "versionOrder": 12,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                  "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Ignore Viscous.",
+                  "duration": 1.79,
+                  "versionStatus": {
+                    "comparedTo": "post-shiv-update",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/gigawatt/ping/gigawatt_ping_ignore_viscous.mp3.json",
+        "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+        "sha256": "bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d",
+        "source": "generated",
+        "originalText": "Ignore Viscous.",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "hero-labs-update",
+            "versionLabel": "Hero Labs Update",
+            "versionOrder": 8,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                "date": "2026-07-19",
+                "transcription": "Ignore Viscous.",
+                "duration": 1.79,
+                "versionStatus": {
+                  "comparedTo": "ranked-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "ranked-update",
+            "versionLabel": "Ranked Update",
+            "versionOrder": 9,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                "date": "2026-07-19",
+                "transcription": "Ignore Viscous.",
+                "duration": 1.79,
+                "versionStatus": {
+                  "comparedTo": "mirage-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "mirage-update",
+            "versionLabel": "Mirage Update",
+            "versionOrder": 10,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                "date": "2026-07-19",
+                "transcription": "Ignore Viscous.",
+                "duration": 1.79,
+                "versionStatus": {
+                  "comparedTo": "247-matchmaking"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "247-matchmaking",
+            "versionLabel": "24/7 Matchmaking",
+            "versionOrder": 11,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                "date": "2026-07-19",
+                "transcription": "Ignore Viscous.",
+                "duration": 1.79,
+                "versionStatus": {
+                  "comparedTo": "wall-jump-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "wall-jump-update",
+            "versionLabel": "Wall Jump Update",
+            "versionOrder": 12,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_ignore_viscous.mp3",
+                "audioKey": "sha256/bf/bf0c3a4a10c7a80665a3f706d85e076725dcec9733cfdd1e6616f06803d36a8d.mp3",
+                "date": "2026-07-19",
+                "transcription": "Ignore Viscous.",
+                "duration": 1.79,
+                "versionStatus": {
+                  "comparedTo": "post-shiv-update",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "Ignore Viscous.",
+      "attributionEvents": [
+        {
+          "legacyCommit": "1b9fb83101282b32b5e436037b409f849be9bb37",
+          "legacySubject": "Update gigawatt_ping_ignore_viscous.mp3.json",
+          "author": {
+            "name": "retrogradual",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T14:22:57-04:00"
+          },
+          "beforeFullText": "Ignore viscous",
+          "afterFullText": "Ignore Viscous.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "Ignore viscous",
+              "after": "Ignore Viscous."
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/gigawatt_ping_with_atlas.mp3.json@35263eac6703f6a86e38e0daab748484a79f7ce8",
+      "legacyPath": "data/gigawatt_ping_with_atlas.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "I'm with you Abrams.",
+      "finalText": "I'm with you, Abrams.",
+      "events": [
+        {
+          "legacyCommit": "35263eac6703f6a86e38e0daab748484a79f7ce8",
+          "legacySubject": "Updated Seven/Abrams voice lines.",
+          "author": {
+            "name": "Sloan",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T15:57:02-04:00"
+          },
+          "beforeFullText": "I'm with you Abrams.",
+          "afterFullText": "I'm with you, Abrams.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " I'm with you Abrams.",
+              "after": " I'm with you, Abrams."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/gigawatt/ping/gigawatt_ping_with_atlas.mp3.json",
+      "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+      "manifestHashes": 4,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/gigawatt/ping/gigawatt_ping_with_atlas.mp3.json",
+          "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+          "sha256": "ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b",
+          "source": "generated",
+          "originalText": "I'm with you, Abrams.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "hero-labs-update",
+              "versionLabel": "Hero Labs Update",
+              "versionOrder": 8,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                  "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I'm with you, Abrams.",
+                  "duration": 1.702,
+                  "versionStatus": {
+                    "comparedTo": "ranked-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "ranked-update",
+              "versionLabel": "Ranked Update",
+              "versionOrder": 9,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                  "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I'm with you, Abrams.",
+                  "duration": 1.702,
+                  "versionStatus": {
+                    "comparedTo": "mirage-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "mirage-update",
+              "versionLabel": "Mirage Update",
+              "versionOrder": 10,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                  "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I'm with you, Abrams.",
+                  "duration": 1.702,
+                  "versionStatus": {
+                    "comparedTo": "247-matchmaking"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "247-matchmaking",
+              "versionLabel": "24/7 Matchmaking",
+              "versionOrder": 11,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                  "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I'm with you, Abrams.",
+                  "duration": 1.702,
+                  "versionStatus": {
+                    "comparedTo": "wall-jump-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "wall-jump-update",
+              "versionLabel": "Wall Jump Update",
+              "versionOrder": 12,
+              "manifestEvidence": [
+                {
+                  "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                  "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I'm with you, Abrams.",
+                  "duration": 1.702,
+                  "versionStatus": {
+                    "comparedTo": "post-shiv-update",
+                    "change": "modified"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/gigawatt/ping/gigawatt_ping_with_atlas.mp3.json",
+        "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+        "sha256": "ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b",
+        "source": "generated",
+        "originalText": "I'm with you, Abrams.",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "hero-labs-update",
+            "versionLabel": "Hero Labs Update",
+            "versionOrder": 8,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                "date": "2026-07-19",
+                "transcription": "I'm with you, Abrams.",
+                "duration": 1.702,
+                "versionStatus": {
+                  "comparedTo": "ranked-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "ranked-update",
+            "versionLabel": "Ranked Update",
+            "versionOrder": 9,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                "date": "2026-07-19",
+                "transcription": "I'm with you, Abrams.",
+                "duration": 1.702,
+                "versionStatus": {
+                  "comparedTo": "mirage-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "mirage-update",
+            "versionLabel": "Mirage Update",
+            "versionOrder": 10,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                "date": "2026-07-19",
+                "transcription": "I'm with you, Abrams.",
+                "duration": 1.702,
+                "versionStatus": {
+                  "comparedTo": "247-matchmaking"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "247-matchmaking",
+            "versionLabel": "24/7 Matchmaking",
+            "versionOrder": 11,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                "date": "2026-07-19",
+                "transcription": "I'm with you, Abrams.",
+                "duration": 1.702,
+                "versionStatus": {
+                  "comparedTo": "wall-jump-update"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "wall-jump-update",
+            "versionLabel": "Wall Jump Update",
+            "versionOrder": 12,
+            "manifestEvidence": [
+              {
+                "filename": "gigawatt/ping/gigawatt_ping_with_atlas.mp3",
+                "audioKey": "sha256/dd/ddca32d251c77aefec7141c7838fa9b073d695e279109f496841e88736360d9b.mp3",
+                "date": "2026-07-19",
+                "transcription": "I'm with you, Abrams.",
+                "duration": 1.702,
+                "versionStatus": {
+                  "comparedTo": "post-shiv-update",
+                  "change": "modified"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "I'm with you, Abrams.",
+      "attributionEvents": [
+        {
+          "legacyCommit": "35263eac6703f6a86e38e0daab748484a79f7ce8",
+          "legacySubject": "Updated Seven/Abrams voice lines.",
+          "author": {
+            "name": "Sloan",
+            "email": "vekterfs@protonmail.com",
+            "date": "2025-10-17T15:57:02-04:00"
+          },
+          "beforeFullText": "I'm with you Abrams.",
+          "afterFullText": "I'm with you, Abrams.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " I'm with you Abrams.",
+              "after": " I'm with you, Abrams."
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/haze_ping_stun_atlas_01.mp3.json@718e4db5e38518d38266b830c707aaba0d127296",
+      "legacyPath": "data/haze_ping_stun_atlas_01.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Stun abrams.",
+      "finalText": "Stun Abrams.",
+      "events": [
+        {
+          "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
+          "legacySubject": "More fixes",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T21:40:43-04:00"
+          },
+          "beforeFullText": "Stun abrams.",
+          "afterFullText": "Stun Abrams.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Stun abrams.",
+              "after": " Stun Abrams."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/haze/ping/haze_ping_stun_atlas_01.mp3.json",
+      "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+      "manifestHashes": 5,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/haze/ping/haze_ping_stun_atlas_01.mp3.json",
+          "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+          "sha256": "39e1252ca7d052b170455398b61492341f89dcd92b16c8da457d08be7cfefdcf",
+          "source": "generated",
+          "originalText": "Stun Abrams.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "map-rework",
+              "versionLabel": "Map Rework Update",
+              "versionOrder": 3,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/39/39e1252ca7d052b170455398b61492341f89dcd92b16c8da457d08be7cfefdcf.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.758,
+                  "versionStatus": {
+                    "comparedTo": "four-heros"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "four-heros",
+              "versionLabel": "Four New Heroes",
+              "versionOrder": 4,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/39/39e1252ca7d052b170455398b61492341f89dcd92b16c8da457d08be7cfefdcf.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.758,
+                  "versionStatus": {
+                    "comparedTo": "winter-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "winter-update",
+              "versionLabel": "Winter Update",
+              "versionOrder": 5,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/39/39e1252ca7d052b170455398b61492341f89dcd92b16c8da457d08be7cfefdcf.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.758,
+                  "versionStatus": {
+                    "comparedTo": "raven-park"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "raven-park",
+              "versionLabel": "Raven/Park Update",
+              "versionOrder": 6,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/39/39e1252ca7d052b170455398b61492341f89dcd92b16c8da457d08be7cfefdcf.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.758,
+                  "versionStatus": {
+                    "comparedTo": "matchmaking-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "matchmaking-update",
+              "versionLabel": "Matchmaking Update",
+              "versionOrder": 7,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/39/39e1252ca7d052b170455398b61492341f89dcd92b16c8da457d08be7cfefdcf.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.758,
+                  "versionStatus": {
+                    "comparedTo": "hero-labs-update",
+                    "change": "modified"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "review"
+        },
+        {
+          "path": "transcripts/haze/ping/haze_ping_stun_atlas_01.mp3.json",
+          "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+          "sha256": "4755e10fdaab66e1d29559ffcaa5f4d465a158a640982df28232f330408594bb",
+          "source": "generated",
+          "originalText": "Stun Abrams.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "hero-labs-update",
+              "versionLabel": "Hero Labs Update",
+              "versionOrder": 8,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/47/4755e10fdaab66e1d29559ffcaa5f4d465a158a640982df28232f330408594bb.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.758,
+                  "versionStatus": {
+                    "comparedTo": "ranked-update",
+                    "change": "modified"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "review"
+        },
+        {
+          "path": "transcripts/haze/ping/haze_ping_stun_atlas_01.mp3.json",
+          "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+          "sha256": "4274ebc2ef515b8d969e9e678024c9cd6aa5d2a9f05ecf02d85742dcaf6ac3cb",
+          "source": "generated",
+          "originalText": "Stun Abrams.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "ranked-update",
+              "versionLabel": "Ranked Update",
+              "versionOrder": 9,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/42/4274ebc2ef515b8d969e9e678024c9cd6aa5d2a9f05ecf02d85742dcaf6ac3cb.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.258,
+                  "versionStatus": {
+                    "comparedTo": "mirage-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "mirage-update",
+              "versionLabel": "Mirage Update",
+              "versionOrder": 10,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/42/4274ebc2ef515b8d969e9e678024c9cd6aa5d2a9f05ecf02d85742dcaf6ac3cb.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 1.258,
+                  "versionStatus": {
+                    "comparedTo": "247-matchmaking",
+                    "change": "modified"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "review"
+        },
+        {
+          "path": "transcripts/haze/ping/haze_ping_stun_atlas_01.mp3.json",
+          "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+          "sha256": "f8b2a8806ef0f7d0d3c9cc90b4242bff2c030278c3db0d049c417bc24c8eba44",
+          "source": "generated",
+          "originalText": "Stun Abrams.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "247-matchmaking",
+              "versionLabel": "24/7 Matchmaking",
+              "versionOrder": 11,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/f8/f8b2a8806ef0f7d0d3c9cc90b4242bff2c030278c3db0d049c417bc24c8eba44.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 3.365,
+                  "versionStatus": {
+                    "comparedTo": "wall-jump-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "wall-jump-update",
+              "versionLabel": "Wall Jump Update",
+              "versionOrder": 12,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/f8/f8b2a8806ef0f7d0d3c9cc90b4242bff2c030278c3db0d049c417bc24c8eba44.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 3.365,
+                  "versionStatus": {
+                    "comparedTo": "post-shiv-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "post-shiv-update",
+              "versionLabel": "Shiv Update - Ivy Changes",
+              "versionOrder": 13,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/f8/f8b2a8806ef0f7d0d3c9cc90b4242bff2c030278c3db0d049c417bc24c8eba44.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 3.365,
+                  "versionStatus": {
+                    "comparedTo": "deadlock-shiv"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "deadlock-shiv",
+              "versionLabel": "Shiv Update",
+              "versionOrder": 14,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/f8/f8b2a8806ef0f7d0d3c9cc90b4242bff2c030278c3db0d049c417bc24c8eba44.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 3.365,
+                  "versionStatus": {
+                    "comparedTo": "deadlock-public-access"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "deadlock-public-access",
+              "versionLabel": "Public Access",
+              "versionOrder": 15,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/f8/f8b2a8806ef0f7d0d3c9cc90b4242bff2c030278c3db0d049c417bc24c8eba44.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Stun Abrams.",
+                  "duration": 3.365,
+                  "versionStatus": {
+                    "comparedTo": "deadlock-base"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "deadlock-base",
+              "versionLabel": "Build 4192",
+              "versionOrder": 16,
+              "manifestEvidence": [
+                {
+                  "filename": "haze/ping/haze_ping_stun_atlas_01.mp3",
+                  "audioKey": "sha256/f8/f8b2a8806ef0f7d0d3c9cc90b4242bff2c030278c3db0d049c417bc24c8eba44.mp3",
+                  "date": "2026-07-18",
+                  "transcription": "Stun Abrams.",
+                  "duration": 3.365,
+                  "versionStatus": {}
+                }
+              ]
+            }
+          ],
+          "proposedAction": "review"
+        }
+      ],
+      "status": "ambiguous_exact_revision"
+    },
+    {
+      "epochId": "data/krill_ping_stun_gigawatt_01.mp3.json@718e4db5e38518d38266b830c707aaba0d127296",
+      "legacyPath": "data/krill_ping_stun_gigawatt_01.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Stun seven!",
+      "finalText": "Stun Seven!",
+      "events": [
+        {
+          "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
+          "legacySubject": "More fixes",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T21:40:43-04:00"
+          },
+          "beforeFullText": "Stun seven!",
+          "afterFullText": "Stun Seven!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "Stun seven!",
+              "after": "Stun Seven!"
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/krill/ping/krill_ping_stun_gigawatt_01.mp3.json",
+      "filename": "krill/ping/krill_ping_stun_gigawatt_01.mp3",
+      "manifestHashes": 4,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/krill/ping/krill_ping_stun_gigawatt_01.mp3.json",
+          "filename": "krill/ping/krill_ping_stun_gigawatt_01.mp3",
+          "sha256": "bb93410b6483654e2bedf4f8b09e8533cfc2e36cb7dafc743b165a2c5ce885cb",
+          "source": "generated",
+          "originalText": "Stun seven!",
+          "statePositions": [
+            0
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "matchmaking-update",
+              "versionLabel": "Matchmaking Update",
+              "versionOrder": 7,
+              "manifestEvidence": [
+                {
+                  "filename": "krill/ping/krill_ping_stun_gigawatt_01.mp3",
+                  "audioKey": "sha256/bb/bb93410b6483654e2bedf4f8b09e8533cfc2e36cb7dafc743b165a2c5ce885cb.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "Stun seven!",
+                  "duration": 1.077,
+                  "versionStatus": {
+                    "comparedTo": "hero-labs-update",
+                    "change": "modified"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "replay_and_mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/krill/ping/krill_ping_stun_gigawatt_01.mp3.json",
+        "filename": "krill/ping/krill_ping_stun_gigawatt_01.mp3",
+        "sha256": "bb93410b6483654e2bedf4f8b09e8533cfc2e36cb7dafc743b165a2c5ce885cb",
+        "source": "generated",
+        "originalText": "Stun seven!",
+        "statePositions": [
+          0
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "matchmaking-update",
+            "versionLabel": "Matchmaking Update",
+            "versionOrder": 7,
+            "manifestEvidence": [
+              {
+                "filename": "krill/ping/krill_ping_stun_gigawatt_01.mp3",
+                "audioKey": "sha256/bb/bb93410b6483654e2bedf4f8b09e8533cfc2e36cb7dafc743b165a2c5ce885cb.mp3",
+                "date": "2026-07-29",
+                "transcription": "Stun seven!",
+                "duration": 1.077,
+                "versionStatus": {
+                  "comparedTo": "hero-labs-update",
+                  "change": "modified"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "replay_and_mark_manual"
+      },
+      "desiredText": "Stun Seven!",
+      "attributionEvents": [
+        {
+          "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
+          "legacySubject": "More fixes",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T21:40:43-04:00"
+          },
+          "beforeFullText": "Stun seven!",
+          "afterFullText": "Stun Seven!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "Stun seven!",
+              "after": "Stun Seven!"
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/lash_ping_saw_orion.mp3.json@718e4db5e38518d38266b830c707aaba0d127296",
+      "legacyPath": "data/lash_ping_saw_orion.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "I saw grey talon!",
+      "finalText": "I saw Grey Talon!",
+      "events": [
+        {
+          "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
+          "legacySubject": "More fixes",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T21:40:43-04:00"
+          },
+          "beforeFullText": "I saw grey talon!",
+          "afterFullText": "I saw Grey Talon!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "I saw grey talon!",
+              "after": "I saw Grey Talon!"
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/lash/ping/lash_ping_saw_orion.mp3.json",
+      "filename": "lash/ping/lash_ping_saw_orion.mp3",
+      "manifestHashes": 4,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/lash/ping/lash_ping_saw_orion.mp3.json",
+          "filename": "lash/ping/lash_ping_saw_orion.mp3",
+          "sha256": "2780d2f6197af220f95137c4fdd3a602377aaaf5c9410b5d029cb0b56a03725c",
+          "source": "generated",
+          "originalText": "I saw Grey Talon!",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "four-heros",
+              "versionLabel": "Four New Heroes",
+              "versionOrder": 4,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/27/2780d2f6197af220f95137c4fdd3a602377aaaf5c9410b5d029cb0b56a03725c.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "winter-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "winter-update",
+              "versionLabel": "Winter Update",
+              "versionOrder": 5,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/27/2780d2f6197af220f95137c4fdd3a602377aaaf5c9410b5d029cb0b56a03725c.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "raven-park"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "raven-park",
+              "versionLabel": "Raven/Park Update",
+              "versionOrder": 6,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/27/2780d2f6197af220f95137c4fdd3a602377aaaf5c9410b5d029cb0b56a03725c.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "matchmaking-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "matchmaking-update",
+              "versionLabel": "Matchmaking Update",
+              "versionOrder": 7,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/27/2780d2f6197af220f95137c4fdd3a602377aaaf5c9410b5d029cb0b56a03725c.mp3",
+                  "date": "2026-07-29",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "hero-labs-update",
+                    "change": "modified"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "review"
+        },
+        {
+          "path": "transcripts/lash/ping/lash_ping_saw_orion.mp3.json",
+          "filename": "lash/ping/lash_ping_saw_orion.mp3",
+          "sha256": "77104d96f7032b88406ab3246444013fdef5a5ed731968a70b489ddfe8fd8cbf",
+          "source": "generated",
+          "originalText": "I saw Grey Talon!",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "hero-labs-update",
+              "versionLabel": "Hero Labs Update",
+              "versionOrder": 8,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/77/77104d96f7032b88406ab3246444013fdef5a5ed731968a70b489ddfe8fd8cbf.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "ranked-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "ranked-update",
+              "versionLabel": "Ranked Update",
+              "versionOrder": 9,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/77/77104d96f7032b88406ab3246444013fdef5a5ed731968a70b489ddfe8fd8cbf.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "mirage-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "mirage-update",
+              "versionLabel": "Mirage Update",
+              "versionOrder": 10,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/77/77104d96f7032b88406ab3246444013fdef5a5ed731968a70b489ddfe8fd8cbf.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "247-matchmaking"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "247-matchmaking",
+              "versionLabel": "24/7 Matchmaking",
+              "versionOrder": 11,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/77/77104d96f7032b88406ab3246444013fdef5a5ed731968a70b489ddfe8fd8cbf.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "wall-jump-update"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "wall-jump-update",
+              "versionLabel": "Wall Jump Update",
+              "versionOrder": 12,
+              "manifestEvidence": [
+                {
+                  "filename": "lash/ping/lash_ping_saw_orion.mp3",
+                  "audioKey": "sha256/77/77104d96f7032b88406ab3246444013fdef5a5ed731968a70b489ddfe8fd8cbf.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I saw Grey Talon!",
+                  "duration": 1.539,
+                  "versionStatus": {
+                    "comparedTo": "post-shiv-update",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "review"
+        }
+      ],
+      "status": "ambiguous_exact_revision"
+    },
+    {
+      "epochId": "data/priest_ping_defend_blue_02.mp3.json@d8e15d7a734c7285ba741c308eda52947c3420d3",
+      "legacyPath": "data/priest_ping_defend_blue_02.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "DEFEND BROADWAY",
+      "finalText": "Defend Broadway!",
+      "events": [
+        {
+          "legacyCommit": "d8e15d7a734c7285ba741c308eda52947c3420d3",
+          "legacySubject": "Update priest_ping_defend_blue_02.mp3.json",
+          "author": {
+            "name": "RatHugs",
+            "email": "150976180+RatHugs@users.noreply.github.com",
+            "date": "2026-02-06T12:41:15-05:00"
+          },
+          "beforeFullText": "DEFEND BROADWAY",
+          "afterFullText": "Defend Broadway!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " DEFEND BROADWAY",
+              "after": "Defend Broadway!"
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/priest/ping/priest_ping_defend_blue_02.mp3.json",
+      "filename": "priest/ping/priest_ping_defend_blue_02.mp3",
+      "manifestHashes": 2,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/priest/ping/priest_ping_defend_blue_02.mp3.json",
+          "filename": "priest/ping/priest_ping_defend_blue_02.mp3",
+          "sha256": "f4d1478e21ecccbf6949a41f87f963682c2109db27b624bd55224d4e09f956fe",
+          "source": "generated",
+          "originalText": "Defend Broadway!",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "six-hero-update",
+              "versionLabel": "Six Hero Update",
+              "versionOrder": 1,
+              "manifestEvidence": [
+                {
+                  "filename": "priest/ping/priest_ping_defend_blue_02.mp3",
+                  "audioKey": "sha256/f4/f4d1478e21ecccbf6949a41f87f963682c2109db27b624bd55224d4e09f956fe.mp3",
+                  "date": "2026-08-04",
+                  "transcription": "Defend Broadway!",
+                  "duration": 1.215,
+                  "versionStatus": {
+                    "comparedTo": "shop-rework"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "shop-rework",
+              "versionLabel": "Shop Rework",
+              "versionOrder": 2,
+              "manifestEvidence": [
+                {
+                  "filename": "priest/ping/priest_ping_defend_blue_02.mp3",
+                  "audioKey": "sha256/f4/f4d1478e21ecccbf6949a41f87f963682c2109db27b624bd55224d4e09f956fe.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Defend Broadway!",
+                  "duration": 1.215,
+                  "versionStatus": {
+                    "comparedTo": "map-rework",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/priest/ping/priest_ping_defend_blue_02.mp3.json",
+        "filename": "priest/ping/priest_ping_defend_blue_02.mp3",
+        "sha256": "f4d1478e21ecccbf6949a41f87f963682c2109db27b624bd55224d4e09f956fe",
+        "source": "generated",
+        "originalText": "Defend Broadway!",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "six-hero-update",
+            "versionLabel": "Six Hero Update",
+            "versionOrder": 1,
+            "manifestEvidence": [
+              {
+                "filename": "priest/ping/priest_ping_defend_blue_02.mp3",
+                "audioKey": "sha256/f4/f4d1478e21ecccbf6949a41f87f963682c2109db27b624bd55224d4e09f956fe.mp3",
+                "date": "2026-08-04",
+                "transcription": "Defend Broadway!",
+                "duration": 1.215,
+                "versionStatus": {
+                  "comparedTo": "shop-rework"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "shop-rework",
+            "versionLabel": "Shop Rework",
+            "versionOrder": 2,
+            "manifestEvidence": [
+              {
+                "filename": "priest/ping/priest_ping_defend_blue_02.mp3",
+                "audioKey": "sha256/f4/f4d1478e21ecccbf6949a41f87f963682c2109db27b624bd55224d4e09f956fe.mp3",
+                "date": "2026-08-02",
+                "transcription": "Defend Broadway!",
+                "duration": 1.215,
+                "versionStatus": {
+                  "comparedTo": "map-rework",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "Defend Broadway!",
+      "attributionEvents": [
+        {
+          "legacyCommit": "d8e15d7a734c7285ba741c308eda52947c3420d3",
+          "legacySubject": "Update priest_ping_defend_blue_02.mp3.json",
+          "author": {
+            "name": "RatHugs",
+            "email": "150976180+RatHugs@users.noreply.github.com",
+            "date": "2026-02-06T12:41:15-05:00"
+          },
+          "beforeFullText": "DEFEND BROADWAY",
+          "afterFullText": "Defend Broadway!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " DEFEND BROADWAY",
+              "after": "Defend Broadway!"
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/priest_ping_saw_bebop.mp3.json@089010657417c871f63d9ef6b697f46e2ff4fb9a",
+      "legacyPath": "data/priest_ping_saw_bebop.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "I SAW BEBOP",
+      "finalText": "I saw Bebop!",
+      "events": [
+        {
+          "legacyCommit": "089010657417c871f63d9ef6b697f46e2ff4fb9a",
+          "legacySubject": "Update priest_ping_saw_bebop.mp3.json",
+          "author": {
+            "name": "RatHugs",
+            "email": "150976180+RatHugs@users.noreply.github.com",
+            "date": "2026-02-06T12:29:32-05:00"
+          },
+          "beforeFullText": "I SAW BEBOP",
+          "afterFullText": "I saw Bebop!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " I SAW BEBOP",
+              "after": "I saw Bebop!"
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/priest/ping/priest_ping_saw_bebop.mp3.json",
+      "filename": "priest/ping/priest_ping_saw_bebop.mp3",
+      "manifestHashes": 2,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/priest/ping/priest_ping_saw_bebop.mp3.json",
+          "filename": "priest/ping/priest_ping_saw_bebop.mp3",
+          "sha256": "5f5513c7dd2b4f0b3c0d6d821940fff99e1e714da54cd3ba84f8e7e81d0e0dab",
+          "source": "generated",
+          "originalText": "I saw Bebop!",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "six-hero-update",
+              "versionLabel": "Six Hero Update",
+              "versionOrder": 1,
+              "manifestEvidence": [
+                {
+                  "filename": "priest/ping/priest_ping_saw_bebop.mp3",
+                  "audioKey": "sha256/5f/5f5513c7dd2b4f0b3c0d6d821940fff99e1e714da54cd3ba84f8e7e81d0e0dab.mp3",
+                  "date": "2026-08-04",
+                  "transcription": "I saw Bebop!",
+                  "duration": 1.098,
+                  "versionStatus": {
+                    "comparedTo": "shop-rework"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "shop-rework",
+              "versionLabel": "Shop Rework",
+              "versionOrder": 2,
+              "manifestEvidence": [
+                {
+                  "filename": "priest/ping/priest_ping_saw_bebop.mp3",
+                  "audioKey": "sha256/5f/5f5513c7dd2b4f0b3c0d6d821940fff99e1e714da54cd3ba84f8e7e81d0e0dab.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "I saw Bebop!",
+                  "duration": 1.098,
+                  "versionStatus": {
+                    "comparedTo": "map-rework",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/priest/ping/priest_ping_saw_bebop.mp3.json",
+        "filename": "priest/ping/priest_ping_saw_bebop.mp3",
+        "sha256": "5f5513c7dd2b4f0b3c0d6d821940fff99e1e714da54cd3ba84f8e7e81d0e0dab",
+        "source": "generated",
+        "originalText": "I saw Bebop!",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "six-hero-update",
+            "versionLabel": "Six Hero Update",
+            "versionOrder": 1,
+            "manifestEvidence": [
+              {
+                "filename": "priest/ping/priest_ping_saw_bebop.mp3",
+                "audioKey": "sha256/5f/5f5513c7dd2b4f0b3c0d6d821940fff99e1e714da54cd3ba84f8e7e81d0e0dab.mp3",
+                "date": "2026-08-04",
+                "transcription": "I saw Bebop!",
+                "duration": 1.098,
+                "versionStatus": {
+                  "comparedTo": "shop-rework"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "shop-rework",
+            "versionLabel": "Shop Rework",
+            "versionOrder": 2,
+            "manifestEvidence": [
+              {
+                "filename": "priest/ping/priest_ping_saw_bebop.mp3",
+                "audioKey": "sha256/5f/5f5513c7dd2b4f0b3c0d6d821940fff99e1e714da54cd3ba84f8e7e81d0e0dab.mp3",
+                "date": "2026-08-02",
+                "transcription": "I saw Bebop!",
+                "duration": 1.098,
+                "versionStatus": {
+                  "comparedTo": "map-rework",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "I saw Bebop!",
+      "attributionEvents": [
+        {
+          "legacyCommit": "089010657417c871f63d9ef6b697f46e2ff4fb9a",
+          "legacySubject": "Update priest_ping_saw_bebop.mp3.json",
+          "author": {
+            "name": "RatHugs",
+            "email": "150976180+RatHugs@users.noreply.github.com",
+            "date": "2026-02-06T12:29:32-05:00"
+          },
+          "beforeFullText": "I SAW BEBOP",
+          "afterFullText": "I saw Bebop!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " I SAW BEBOP",
+              "after": "I saw Bebop!"
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/priest_ping_stun_chrono_01.mp3.json@311858bfcc30ad55bc1c741cc9407daabc215e78",
+      "legacyPath": "data/priest_ping_stun_chrono_01.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "STUN PARADOX",
+      "finalText": "Stun Paradox!",
+      "events": [
+        {
+          "legacyCommit": "311858bfcc30ad55bc1c741cc9407daabc215e78",
+          "legacySubject": "Update priest_ping_stun_chrono_01.mp3.json",
+          "author": {
+            "name": "RatHugs",
+            "email": "150976180+RatHugs@users.noreply.github.com",
+            "date": "2026-02-06T12:05:41-05:00"
+          },
+          "beforeFullText": "STUN PARADOX",
+          "afterFullText": "Stun Paradox!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " STUN PARADOX",
+              "after": "Stun Paradox!"
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/priest/ping/priest_ping_stun_chrono_01.mp3.json",
+      "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
+      "manifestHashes": 2,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/priest/ping/priest_ping_stun_chrono_01.mp3.json",
+          "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
+          "sha256": "bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724",
+          "source": "generated",
+          "originalText": "Stun Paradox!",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "six-hero-update",
+              "versionLabel": "Six Hero Update",
+              "versionOrder": 1,
+              "manifestEvidence": [
+                {
+                  "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
+                  "audioKey": "sha256/bf/bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724.mp3",
+                  "date": "2026-08-04",
+                  "transcription": "Stun Paradox!",
+                  "duration": 1.322,
+                  "versionStatus": {
+                    "comparedTo": "shop-rework"
+                  }
+                }
+              ]
+            },
+            {
+              "versionId": "shop-rework",
+              "versionLabel": "Shop Rework",
+              "versionOrder": 2,
+              "manifestEvidence": [
+                {
+                  "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
+                  "audioKey": "sha256/bf/bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Stun Paradox!",
+                  "duration": 1.322,
+                  "versionStatus": {
+                    "comparedTo": "map-rework",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/priest/ping/priest_ping_stun_chrono_01.mp3.json",
+        "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
+        "sha256": "bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724",
+        "source": "generated",
+        "originalText": "Stun Paradox!",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "six-hero-update",
+            "versionLabel": "Six Hero Update",
+            "versionOrder": 1,
+            "manifestEvidence": [
+              {
+                "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
+                "audioKey": "sha256/bf/bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724.mp3",
+                "date": "2026-08-04",
+                "transcription": "Stun Paradox!",
+                "duration": 1.322,
+                "versionStatus": {
+                  "comparedTo": "shop-rework"
+                }
+              }
+            ]
+          },
+          {
+            "versionId": "shop-rework",
+            "versionLabel": "Shop Rework",
+            "versionOrder": 2,
+            "manifestEvidence": [
+              {
+                "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
+                "audioKey": "sha256/bf/bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724.mp3",
+                "date": "2026-08-02",
+                "transcription": "Stun Paradox!",
+                "duration": 1.322,
+                "versionStatus": {
+                  "comparedTo": "map-rework",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "Stun Paradox!",
+      "attributionEvents": [
+        {
+          "legacyCommit": "311858bfcc30ad55bc1c741cc9407daabc215e78",
+          "legacySubject": "Update priest_ping_stun_chrono_01.mp3.json",
+          "author": {
+            "name": "RatHugs",
+            "email": "150976180+RatHugs@users.noreply.github.com",
+            "date": "2026-02-06T12:05:41-05:00"
+          },
+          "beforeFullText": "STUN PARADOX",
+          "afterFullText": "Stun Paradox!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " STUN PARADOX",
+              "after": "Stun Paradox!"
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/vampirebat_ping_ignore_orion.mp3.json@ce3075bef86cf4edae80d84c8bfea0cbf4cdac92",
+      "legacyPath": "data/vampirebat_ping_ignore_orion.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Ignore it, Grey Talon!",
+      "finalText": "Ignore Grey Talon!",
+      "events": [
+        {
+          "legacyCommit": "ce3075bef86cf4edae80d84c8bfea0cbf4cdac92",
+          "legacySubject": "Update Mina's lines about Dynamo, Fathom, Graf, Grey Talon, Haze, Holliday",
+          "author": {
+            "name": "Mugi",
+            "email": "mailmugicha@gmail.com",
+            "date": "2026-01-29T13:25:52-08:00"
+          },
+          "beforeFullText": "Ignore it, Grey Talon!",
+          "afterFullText": "Ignore Grey Talon!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Ignore it, Grey Talon!",
+              "after": " Ignore Grey Talon!"
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/vampirebat/ping/vampirebat_ping_ignore_orion.mp3.json",
+      "filename": "vampirebat/ping/vampirebat_ping_ignore_orion.mp3",
+      "manifestHashes": 2,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/vampirebat/ping/vampirebat_ping_ignore_orion.mp3.json",
+          "filename": "vampirebat/ping/vampirebat_ping_ignore_orion.mp3",
+          "sha256": "ac6840df4f37d7d85c1474577797240d9e63ff8df9896fa57cc57d7dc5af62e4",
+          "source": "generated",
+          "originalText": "Ignore it, Grey Talon!",
+          "statePositions": [
+            0
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "shop-rework",
+              "versionLabel": "Shop Rework",
+              "versionOrder": 2,
+              "manifestEvidence": [
+                {
+                  "filename": "vampirebat/ping/vampirebat_ping_ignore_orion.mp3",
+                  "audioKey": "sha256/ac/ac6840df4f37d7d85c1474577797240d9e63ff8df9896fa57cc57d7dc5af62e4.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Ignore it, Grey Talon!",
+                  "duration": 1.016,
+                  "versionStatus": {
+                    "comparedTo": "map-rework",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "replay_and_mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/vampirebat/ping/vampirebat_ping_ignore_orion.mp3.json",
+        "filename": "vampirebat/ping/vampirebat_ping_ignore_orion.mp3",
+        "sha256": "ac6840df4f37d7d85c1474577797240d9e63ff8df9896fa57cc57d7dc5af62e4",
+        "source": "generated",
+        "originalText": "Ignore it, Grey Talon!",
+        "statePositions": [
+          0
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "shop-rework",
+            "versionLabel": "Shop Rework",
+            "versionOrder": 2,
+            "manifestEvidence": [
+              {
+                "filename": "vampirebat/ping/vampirebat_ping_ignore_orion.mp3",
+                "audioKey": "sha256/ac/ac6840df4f37d7d85c1474577797240d9e63ff8df9896fa57cc57d7dc5af62e4.mp3",
+                "date": "2026-08-02",
+                "transcription": "Ignore it, Grey Talon!",
+                "duration": 1.016,
+                "versionStatus": {
+                  "comparedTo": "map-rework",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "replay_and_mark_manual"
+      },
+      "desiredText": "Ignore Grey Talon!",
+      "attributionEvents": [
+        {
+          "legacyCommit": "ce3075bef86cf4edae80d84c8bfea0cbf4cdac92",
+          "legacySubject": "Update Mina's lines about Dynamo, Fathom, Graf, Grey Talon, Haze, Holliday",
+          "author": {
+            "name": "Mugi",
+            "email": "mailmugicha@gmail.com",
+            "date": "2026-01-29T13:25:52-08:00"
+          },
+          "beforeFullText": "Ignore it, Grey Talon!",
+          "afterFullText": "Ignore Grey Talon!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Ignore it, Grey Talon!",
+              "after": " Ignore Grey Talon!"
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/vampirebat_ping_viper_dead.mp3.json@2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
+      "legacyPath": "data/vampirebat_ping_viper_dead.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Viper is dead.",
+      "finalText": "Vyper is dead.",
+      "events": [
+        {
+          "legacyCommit": "2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
+          "legacySubject": "Names",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T22:24:34-04:00"
+          },
+          "beforeFullText": "Viper is dead.",
+          "afterFullText": "Vyper is dead.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Viper is dead.",
+              "after": " Vyper is dead."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/vampirebat/ping/vampirebat_ping_viper_dead.mp3.json",
+      "filename": "vampirebat/ping/vampirebat_ping_viper_dead.mp3",
+      "manifestHashes": 2,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/vampirebat/ping/vampirebat_ping_viper_dead.mp3.json",
+          "filename": "vampirebat/ping/vampirebat_ping_viper_dead.mp3",
+          "sha256": "6302452e6b16bb373c482539e3d5cc462271e7e7d66cabb79502b3aa3b76a2f8",
+          "source": "generated",
+          "originalText": "Viper is dead.",
+          "statePositions": [
+            0
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "shop-rework",
+              "versionLabel": "Shop Rework",
+              "versionOrder": 2,
+              "manifestEvidence": [
+                {
+                  "filename": "vampirebat/ping/vampirebat_ping_viper_dead.mp3",
+                  "audioKey": "sha256/63/6302452e6b16bb373c482539e3d5cc462271e7e7d66cabb79502b3aa3b76a2f8.mp3",
+                  "date": "2026-08-02",
+                  "transcription": "Viper is dead.",
+                  "duration": 0.857,
+                  "versionStatus": {
+                    "comparedTo": "map-rework",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "replay_and_mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/vampirebat/ping/vampirebat_ping_viper_dead.mp3.json",
+        "filename": "vampirebat/ping/vampirebat_ping_viper_dead.mp3",
+        "sha256": "6302452e6b16bb373c482539e3d5cc462271e7e7d66cabb79502b3aa3b76a2f8",
+        "source": "generated",
+        "originalText": "Viper is dead.",
+        "statePositions": [
+          0
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "shop-rework",
+            "versionLabel": "Shop Rework",
+            "versionOrder": 2,
+            "manifestEvidence": [
+              {
+                "filename": "vampirebat/ping/vampirebat_ping_viper_dead.mp3",
+                "audioKey": "sha256/63/6302452e6b16bb373c482539e3d5cc462271e7e7d66cabb79502b3aa3b76a2f8.mp3",
+                "date": "2026-08-02",
+                "transcription": "Viper is dead.",
+                "duration": 0.857,
+                "versionStatus": {
+                  "comparedTo": "map-rework",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "replay_and_mark_manual"
+      },
+      "desiredText": "Vyper is dead.",
+      "attributionEvents": [
+        {
+          "legacyCommit": "2ebce15260eff0e2ed4cd7992bd8483498ab02c2",
+          "legacySubject": "Names",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T22:24:34-04:00"
+          },
+          "beforeFullText": "Viper is dead.",
+          "afterFullText": "Vyper is dead.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Viper is dead.",
+              "after": " Vyper is dead."
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/viper_ping_lash_check_items.mp3.json@f52e147488bd7bcb9291020822d5875f8b4c07a9",
+      "legacyPath": "data/viper_ping_lash_check_items.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "Check out with LashBot.",
+      "finalText": "Check out what Lash bought.",
+      "events": [
+        {
+          "legacyCommit": "f52e147488bd7bcb9291020822d5875f8b4c07a9",
+          "legacySubject": "check_items text fixes",
+          "author": {
+            "name": "Valvify",
+            "email": "Valvify@users.noreply.github.com",
+            "date": "2026-06-18T12:45:37+01:00"
+          },
+          "beforeFullText": "Check out with LashBot.",
+          "afterFullText": "Check out what Lash bought.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Check out with LashBot.",
+              "after": " Check out what Lash bought."
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/viper/ping/viper_ping_lash_check_items.mp3.json",
+      "filename": "viper/ping/viper_ping_lash_check_items.mp3",
+      "manifestHashes": 3,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/viper/ping/viper_ping_lash_check_items.mp3.json",
+          "filename": "viper/ping/viper_ping_lash_check_items.mp3",
+          "sha256": "3532213e84fbf3c5454bc4f9e4008edb6a87f86ca7a92c2dad18a9001417a782",
+          "source": "generated",
+          "originalText": "Check out what Lash bought.",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "hero-labs-update",
+              "versionLabel": "Hero Labs Update",
+              "versionOrder": 8,
+              "manifestEvidence": [
+                {
+                  "filename": "viper/ping/viper_ping_lash_check_items.mp3",
+                  "audioKey": "sha256/35/3532213e84fbf3c5454bc4f9e4008edb6a87f86ca7a92c2dad18a9001417a782.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "Check out what Lash bought.",
+                  "duration": 1.107,
+                  "versionStatus": {
+                    "comparedTo": "ranked-update",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/viper/ping/viper_ping_lash_check_items.mp3.json",
+        "filename": "viper/ping/viper_ping_lash_check_items.mp3",
+        "sha256": "3532213e84fbf3c5454bc4f9e4008edb6a87f86ca7a92c2dad18a9001417a782",
+        "source": "generated",
+        "originalText": "Check out what Lash bought.",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "hero-labs-update",
+            "versionLabel": "Hero Labs Update",
+            "versionOrder": 8,
+            "manifestEvidence": [
+              {
+                "filename": "viper/ping/viper_ping_lash_check_items.mp3",
+                "audioKey": "sha256/35/3532213e84fbf3c5454bc4f9e4008edb6a87f86ca7a92c2dad18a9001417a782.mp3",
+                "date": "2026-07-19",
+                "transcription": "Check out what Lash bought.",
+                "duration": 1.107,
+                "versionStatus": {
+                  "comparedTo": "ranked-update",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "Check out what Lash bought.",
+      "attributionEvents": [
+        {
+          "legacyCommit": "f52e147488bd7bcb9291020822d5875f8b4c07a9",
+          "legacySubject": "check_items text fixes",
+          "author": {
+            "name": "Valvify",
+            "email": "Valvify@users.noreply.github.com",
+            "date": "2026-06-18T12:45:37+01:00"
+          },
+          "beforeFullText": "Check out with LashBot.",
+          "afterFullText": "Check out what Lash bought.",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": " Check out with LashBot.",
+              "after": " Check out what Lash bought."
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    },
+    {
+      "epochId": "data/viper_ping_saw_atlas.mp3.json@718e4db5e38518d38266b830c707aaba0d127296",
+      "legacyPath": "data/viper_ping_saw_atlas.mp3.json",
+      "legacyPathDeleted": false,
+      "initialText": "I saw abrams!",
+      "finalText": "I saw Abrams!",
+      "events": [
+        {
+          "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
+          "legacySubject": "More fixes",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T21:40:43-04:00"
+          },
+          "beforeFullText": "I saw abrams!",
+          "afterFullText": "I saw Abrams!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "I saw abrams!",
+              "after": "I saw Abrams!"
+            }
+          ]
+        }
+      ],
+      "assignedReleaseResults": [
+        {
+          "versionId": "ognb",
+          "status": "review_latest_text_diverged"
+        }
+      ],
+      "targetDocumentCandidates": 1,
+      "targetPath": "transcripts/viper/ping/viper_ping_saw_atlas.mp3.json",
+      "filename": "viper/ping/viper_ping_saw_atlas.mp3",
+      "manifestHashes": 3,
+      "targetRevisionsMissingForManifestHashes": [],
+      "exactMatches": [
+        {
+          "path": "transcripts/viper/ping/viper_ping_saw_atlas.mp3.json",
+          "filename": "viper/ping/viper_ping_saw_atlas.mp3",
+          "sha256": "18eebf28aa0b6ada2e6e05978f4da1005e5c1f9b15038f95ab10f9b53c511e75",
+          "source": "generated",
+          "originalText": "I saw Abrams!",
+          "statePositions": [
+            1
+          ],
+          "manifestVersions": [
+            {
+              "versionId": "hero-labs-update",
+              "versionLabel": "Hero Labs Update",
+              "versionOrder": 8,
+              "manifestEvidence": [
+                {
+                  "filename": "viper/ping/viper_ping_saw_atlas.mp3",
+                  "audioKey": "sha256/18/18eebf28aa0b6ada2e6e05978f4da1005e5c1f9b15038f95ab10f9b53c511e75.mp3",
+                  "date": "2026-07-19",
+                  "transcription": "I saw Abrams!",
+                  "duration": 0.889,
+                  "versionStatus": {
+                    "comparedTo": "ranked-update",
+                    "change": "new"
+                  }
+                }
+              ]
+            }
+          ],
+          "proposedAction": "mark_manual"
+        }
+      ],
+      "selectedTarget": {
+        "path": "transcripts/viper/ping/viper_ping_saw_atlas.mp3.json",
+        "filename": "viper/ping/viper_ping_saw_atlas.mp3",
+        "sha256": "18eebf28aa0b6ada2e6e05978f4da1005e5c1f9b15038f95ab10f9b53c511e75",
+        "source": "generated",
+        "originalText": "I saw Abrams!",
+        "statePositions": [
+          1
+        ],
+        "manifestVersions": [
+          {
+            "versionId": "hero-labs-update",
+            "versionLabel": "Hero Labs Update",
+            "versionOrder": 8,
+            "manifestEvidence": [
+              {
+                "filename": "viper/ping/viper_ping_saw_atlas.mp3",
+                "audioKey": "sha256/18/18eebf28aa0b6ada2e6e05978f4da1005e5c1f9b15038f95ab10f9b53c511e75.mp3",
+                "date": "2026-07-19",
+                "transcription": "I saw Abrams!",
+                "duration": 0.889,
+                "versionStatus": {
+                  "comparedTo": "ranked-update",
+                  "change": "new"
+                }
+              }
+            ]
+          }
+        ],
+        "proposedAction": "mark_manual"
+      },
+      "desiredText": "I saw Abrams!",
+      "attributionEvents": [
+        {
+          "legacyCommit": "718e4db5e38518d38266b830c707aaba0d127296",
+          "legacySubject": "More fixes",
+          "author": {
+            "name": "Mcall",
+            "email": "26465212+mcallbosco@users.noreply.github.com",
+            "date": "2025-08-27T21:40:43-04:00"
+          },
+          "beforeFullText": "I saw abrams!",
+          "afterFullText": "I saw Abrams!",
+          "changedSegments": [
+            {
+              "index": 0,
+              "part": 1,
+              "before": "I saw abrams!",
+              "after": "I saw Abrams!"
+            }
+          ]
+        }
+      ],
+      "temporalRisk": "legacy_current_file_not_ognb_active_recording",
+      "status": "candidate_cross_version_current_review"
+    }
+  ]
+}

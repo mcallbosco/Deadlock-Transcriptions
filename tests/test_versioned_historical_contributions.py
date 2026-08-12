@@ -15,6 +15,12 @@ from apply_versioned_historical_contributions import (  # noqa: E402
     apply_changes,
     plan_changes,
 )
+from apply_semantic_delta_contributions import (  # noqa: E402
+    plan_changes as plan_semantic_delta_changes,
+)
+from apply_reviewed_low_confidence_contributions import (  # noqa: E402
+    plan_changes as plan_reviewed_low_confidence_changes,
+)
 from apply_cross_version_historical_contributions import (  # noqa: E402
     plan_changes as plan_cross_version_changes,
 )
@@ -22,6 +28,11 @@ from audit_cross_version_historical_contributions import (  # noqa: E402
     classify_records as classify_cross_version_records,
 )
 from audit_latest_version_contributions import build_manifest_index  # noqa: E402
+from audit_semantic_delta_contributions import (  # noqa: E402
+    analyze_record as analyze_semantic_record,
+    corrected_equivalent,
+    exact_delta_proposal,
+)
 from audit_versioned_historical_contributions import (  # noqa: E402
     classify_records,
     select_release,
@@ -254,6 +265,272 @@ class CrossVersionHistoricalAuditTests(unittest.TestCase):
             self.assertEqual(changes[0]["after"]["text"], "Right")
             self.assertEqual(changes[0]["after"]["source"], "manual")
             self.assertNotIn("model", changes[0]["after"])
+
+
+class SemanticDeltaAuditTests(unittest.TestCase):
+    def test_corrected_equivalent_ignores_nonsemantic_punctuation(self) -> None:
+        self.assertTrue(corrected_equivalent("Stun abrams.", "Stun Abrams.", "Stun Abrams!"))
+        self.assertFalse(corrected_equivalent("Stun abrams.", "Stun Abrams.", "Stone Abrams!"))
+
+    def test_exact_delta_requires_all_outside_words_for_high_confidence(self) -> None:
+        exact = exact_delta_proposal(
+            "Vipers on the Roof.", "Vypers on the Roof.", "Vipers on the roof!"
+        )
+        partial = exact_delta_proposal(
+            "They took our Shiv!", "They took out Shiv!", "They took our ship!"
+        )
+
+        self.assertEqual(exact["proposedText"], "Vypers on the roof!")
+        self.assertTrue(exact["outsideTokensEquivalent"])
+        self.assertEqual(partial["proposedText"], "They took out ship!")
+        self.assertFalse(partial["outsideTokensEquivalent"])
+
+    def test_semantic_analysis_never_promotes_partial_context_to_high(self) -> None:
+        sha = "a" * 64
+        record = {
+            "epochId": "data/line.mp3.json#0",
+            "legacyPath": "data/line.mp3.json",
+            "legacyPathDeleted": True,
+            "initialText": "They took our Shiv!",
+            "finalText": "They took out Shiv!",
+            "events": [
+                event("a" * 40, "2025-10-01T12:00:00-04:00", "They took our Shiv!", "They took out Shiv!")
+            ],
+            "selectedTarget": {
+                "path": "transcripts/hero/line.mp3.json",
+                "filename": "hero/line.mp3",
+                "sha256": sha,
+                "source": "generated",
+                "originalText": "They took our ship!",
+            },
+        }
+        current = {
+            "sha256": sha,
+            "text": "They took our ship!",
+            "source": "generated",
+            "model": "test-model",
+        }
+
+        result = analyze_semantic_record(record, current)
+
+        self.assertEqual(result["status"], "review_exact_delta_partial_context")
+        self.assertEqual(result["confidence"], "medium")
+        self.assertEqual(result["proposedText"], "They took out ship!")
+
+
+class SemanticDeltaApplyTests(unittest.TestCase):
+    def test_applies_reviewed_override_without_touching_official_revision(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            path = repo / "transcripts/bebop/ping/line.mp3.json"
+            path.parent.mkdir(parents=True)
+            selected_sha = "1" * 64
+            official_sha = "2" * 64
+            document = {
+                "schemaVersion": 2,
+                "filename": "bebop/ping/line.mp3",
+                "revisions": [
+                    {
+                        "sha256": selected_sha,
+                        "text": "Stan Abrams!",
+                        "source": "generated",
+                        "model": "test-model",
+                    },
+                    {
+                        "sha256": official_sha,
+                        "text": "Official line",
+                        "source": "official",
+                    },
+                ],
+            }
+            path.write_text(json.dumps(document, indent=2) + "\n", encoding="utf-8")
+            report = {
+                "mode": "semantic-delta-audit-only",
+                "target": {"prefix": "transcripts"},
+                "policy": {
+                    "reportOnly": True,
+                    "officialRevisionsMutable": False,
+                    "eligibleTargetSources": ["generated"],
+                    "noExactStateAcrossAnyManifestRequired": True,
+                    "dateSelectedSixHeroShaRequired": True,
+                    "currentHeadConflictCheckRequired": True,
+                    "highConfidenceOutsideTokensMustAgree": True,
+                    "semanticDeltaMayAutoApply": False,
+                    "fuzzyMatchingMayAutoApply": False,
+                },
+                "records": [
+                    {
+                        "status": "candidate_corrected_equivalent",
+                        "confidence": "high",
+                        "epochId": "data/bebop_ping_stun_atlas_01.mp3.json#0",
+                        "legacyPath": "data/bebop_ping_stun_atlas_01.mp3.json",
+                        "events": [event("a" * 40, "2025-08-22T12:00:00-04:00", "Stan abrams", "Stan Abrams")],
+                        "proposedAction": "mark_manual_preserve_v2_text",
+                        "proposedText": "Stan Abrams!",
+                        "selectedTarget": {
+                            "path": "transcripts/bebop/ping/line.mp3.json",
+                            "sha256": selected_sha,
+                            "source": "generated",
+                            "originalText": "Stan Abrams!",
+                        },
+                    }
+                ],
+            }
+            decisions = {
+                "schemaVersion": 1,
+                "approval": {
+                    "confidence": "high",
+                    "statuses": sorted(
+                        {
+                            "candidate_corrected_equivalent",
+                            "candidate_exact_delta_transfer",
+                        }
+                    ),
+                    "candidateCount": 1,
+                },
+                "overrides": [
+                    {
+                        "legacyPath": "data/bebop_ping_stun_atlas_01.mp3.json",
+                        "text": "Stun Abrams!",
+                        "reason": "Reviewer correction.",
+                    }
+                ],
+            }
+
+            changes = plan_semantic_delta_changes(repo, report, decisions)
+            apply_changes(changes)
+            updated = json.loads(path.read_text(encoding="utf-8"))
+
+            self.assertEqual(updated["revisions"][0]["text"], "Stun Abrams!")
+            self.assertEqual(updated["revisions"][0]["source"], "manual")
+            self.assertNotIn("model", updated["revisions"][0])
+            self.assertEqual(updated["revisions"][1], document["revisions"][1])
+
+    def test_applies_only_reviewed_external_low_confidence_record(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            path = repo / "transcripts/krill/line.mp3.json"
+            path.parent.mkdir(parents=True)
+            selected_sha = "3" * 64
+            document = {
+                "schemaVersion": 2,
+                "filename": "krill/line.mp3",
+                "revisions": [
+                    {
+                        "sha256": selected_sha,
+                        "text": "I like pocket too!",
+                        "source": "generated",
+                        "model": "test-model",
+                    }
+                ],
+            }
+            path.write_text(json.dumps(document, indent=2) + "\n", encoding="utf-8")
+            report = {
+                "mode": "semantic-delta-audit-only",
+                "target": {"prefix": "transcripts"},
+                "policy": {
+                    "reportOnly": True,
+                    "officialRevisionsMutable": False,
+                    "eligibleTargetSources": ["generated"],
+                    "noExactStateAcrossAnyManifestRequired": True,
+                    "dateSelectedSixHeroShaRequired": True,
+                    "currentHeadConflictCheckRequired": True,
+                    "highConfidenceOutsideTokensMustAgree": True,
+                    "semanticDeltaMayAutoApply": False,
+                    "fuzzyMatchingMayAutoApply": False,
+                },
+                "records": [
+                    {
+                        "status": "review_low_semantic_similarity",
+                        "confidence": "low",
+                        "epochId": "data/krill_kill_synth_01.mp3.json#0",
+                        "legacyPath": "data/krill_kill_synth_01.mp3.json",
+                        "events": [
+                            event(
+                                "b" * 40,
+                                "2025-10-31T11:39:01-04:00",
+                                "I LIKED Pocket 2!",
+                                "I LIKED Pocket too!",
+                            )
+                        ],
+                        "finalText": "I LIKED Pocket too!",
+                        "selectedTarget": {
+                            "path": "transcripts/krill/line.mp3.json",
+                            "sha256": selected_sha,
+                            "source": "generated",
+                            "originalText": "I like pocket too!",
+                        },
+                    }
+                ],
+            }
+            report["records"][0]["events"][0]["author"] = {
+                "name": "Jules",
+                "email": "jules@example.com",
+                "date": "2025-10-31T11:39:01-04:00",
+            }
+            decisions = {
+                "schemaVersion": 1,
+                "approval": {
+                    "confidence": "low",
+                    "status": "review_low_semantic_similarity",
+                    "requiresExternalEvent": True,
+                    "includeMixedUserExternalEpochs": True,
+                    "excludedAuthorEmails": ["owner@example.com"],
+                    "excludedAuthorIdentityContains": ["copilot"],
+                    "candidateCount": 1,
+                },
+                "overrides": [
+                    {
+                        "legacyPath": "data/krill_kill_synth_01.mp3.json",
+                        "text": "I liked Pocket too!",
+                        "reason": "Reviewer correction.",
+                    }
+                ],
+            }
+
+            changes = plan_reviewed_low_confidence_changes(repo, report, decisions)
+            apply_changes(changes)
+            updated = json.loads(path.read_text(encoding="utf-8"))
+
+            self.assertEqual(updated["revisions"][0]["text"], "I liked Pocket too!")
+            self.assertEqual(updated["revisions"][0]["source"], "manual")
+            self.assertNotIn("model", updated["revisions"][0])
+
+    def test_semantic_analysis_flags_suspicious_internal_capitalization(self) -> None:
+        sha = "b" * 64
+        record = {
+            "epochId": "data/spanish.mp3.json#0",
+            "legacyPath": "data/spanish.mp3.json",
+            "legacyPathDeleted": True,
+            "initialText": "Nadie amenaza a mis amigos!",
+            "finalText": "Nadie aMinaza a mis amigos!",
+            "events": [
+                event(
+                    "b" * 40,
+                    "2025-10-01T12:00:00-04:00",
+                    "Nadie amenaza a mis amigos!",
+                    "Nadie aMinaza a mis amigos!",
+                )
+            ],
+            "selectedTarget": {
+                "path": "transcripts/hero/spanish.mp3.json",
+                "filename": "hero/spanish.mp3",
+                "sha256": sha,
+                "source": "generated",
+                "originalText": "Nadie amenaza a mis amigos.",
+            },
+        }
+        current = {
+            "sha256": sha,
+            "text": "Nadie amenaza a mis amigos.",
+            "source": "generated",
+            "model": "test-model",
+        }
+
+        result = analyze_semantic_record(record, current)
+
+        self.assertEqual(result["status"], "review_suspicious_delta_transfer")
+        self.assertEqual(result["confidence"], "medium")
 
 
 class VersionedHistoricalApplyTests(unittest.TestCase):

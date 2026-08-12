@@ -128,6 +128,43 @@ python tools/apply_cross_version_historical_contributions.py `
   --apply --approve-temporal-mismatch
 ```
 
+Current corrections that diverge on the OGNB SHA can likewise be checked for exact
+states on older recordings:
+
+```powershell
+python tools/audit_cross_version_current_contributions.py
+```
+
+For Six Hero epochs with no exact state on any published SHA, generate a conservative
+semantic-delta review. This ranks already-correct lexical equivalents and uniquely
+transferable edit spans. Application is a separate, explicitly reviewed step pinned
+to the audit's content hash:
+
+```powershell
+python tools/audit_semantic_delta_contributions.py
+python tools/apply_semantic_delta_contributions.py
+python tools/apply_semantic_delta_contributions.py `
+  --apply --approve-reviewed-high-confidence
+```
+
+The apply tool accepts only the two high-confidence statuses recorded in the review
+decisions file. It verifies the selected SHA still has its audited generated text,
+refuses official revisions, and leaves all resulting changes unstaged and uncommitted.
+
+Low-confidence records remain ineligible by default. When an explicitly filtered list
+has been manually reviewed, record that selection and its text overrides in a pinned
+decisions file, then validate and apply it separately:
+
+```powershell
+python tools/apply_reviewed_low_confidence_contributions.py
+python tools/apply_reviewed_low_confidence_contributions.py `
+  --apply --approve-reviewed-low-confidence
+```
+
+This tool still requires the audited generated text at the exact selected SHA and never
+modifies official revisions. Its checked-in decision set includes external and mixed
+external/user correction epochs only; user-only and Copilot-authored epochs are excluded.
+
 When Stage 2 creates migration commits, it must set the author name, email, and date
 from each audit record. The migration operator remains the committer, so Git records
 both who made the original correction and who performed the migration.

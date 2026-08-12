@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "audit": "migration-reports/six-hero-semantic-delta-contribution-audit.json",
+  "auditSha256": "dd4f5546ed89cff388a04b477739e88d8d81245d9a947555856d8c3ace346570",
+  "approval": {
+    "confidence": "high",
+    "statuses": [
+      "candidate_corrected_equivalent",
+      "candidate_exact_delta_transfer"
+    ],
+    "candidateCount": 71
+  },
+  "overrides": [
+    {
+      "legacyPath": "data/bebop_ping_stun_atlas_01.mp3.json",
+      "text": "Stun Abrams!",
+      "reason": "Reviewer corrected the misheard action and retained the v2 punctuation."
+    },
+    {
+      "legacyPath": "data/haze_ping_see_priest_01.mp3.json",
+      "text": "I see Priest.",
+      "reason": "Reviewer confirmed Priest is a proper name."
+    },
+    {
+      "legacyPath": "data/drifter_ping_careful_krill_03.mp3.json",
+      "text": "Careful, Krill.",
+      "reason": "Reviewer supplied the correct sentence and proper-name capitalization."
+    }
+  ]
+}
