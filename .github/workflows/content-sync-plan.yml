@@ -1,0 +1,81 @@
+name: Content sync plan
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "transcripts/**"
+      - "config/deadlock/**"
+      - "schema.json"
+      - "tools/**"
+      - "tests/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    name: Validate and plan CDN changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out proposed transcript commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - name: Install sync dependencies
+        run: python -m pip install --requirement requirements-ci.txt
+
+      - name: Run repository and sync tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python -m unittest discover -s tests -v
+
+      - name: Resolve the pull-request comparison range
+        env:
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          base_commit="$(git merge-base "$PR_BASE" "$PR_HEAD")"
+          echo "BASE_COMMIT=$base_commit" >> "$GITHUB_ENV"
+
+      - name: Validate source and build credential-free public CDN plan
+        env:
+          CDN_BASE_URL: ${{ vars.CDN_BASE_URL || 'https://cdn.vlviewer.com' }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/content-sync"
+          python -m tools.content_sync_cli plan \
+            --repo "$GITHUB_WORKSPACE" \
+            --base "$BASE_COMMIT" \
+            --target "${{ github.event.pull_request.head.sha }}" \
+            --cdn-base-url "$CDN_BASE_URL" \
+            --output-json "$RUNNER_TEMP/content-sync/plan.json" \
+            --output-markdown "$RUNNER_TEMP/content-sync/plan.md"
+
+      - name: Add plan to the Actions summary
+        if: always()
+        run: |
+          if [[ -f "$RUNNER_TEMP/content-sync/plan.md" ]]; then
+            cat "$RUNNER_TEMP/content-sync/plan.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload validation and plan reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: content-sync-plan-${{ github.event.pull_request.number }}
+          path: ${{ runner.temp }}/content-sync
+          if-no-files-found: warn
+          retention-days: 14

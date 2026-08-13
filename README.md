@@ -191,3 +191,23 @@ Run the tests with:
 $env:PYTHONDONTWRITEBYTECODE='1'
 python -m unittest discover -s tests -v
 ```
+
+## CDN synchronization
+
+Pull requests targeting `main` validate the complete repository and build a
+credential-free plan against the public VLViewer CDN. Changes to transcript revisions,
+categories, and character display names are deployable in Phase 1. Changes to mapping,
+alias, grouping, conversation-override, or per-version audio-override inputs fail with
+`regeneration required` until the deterministic generator is available.
+
+After the one-time baseline is initialized, qualifying pushes to protected `main`
+automatically recalculate from the private deployment cursor and conditionally update R2.
+The workflow publishes version content and metadata first, the public game manifest last,
+verifies the changed public URLs, and only then advances the private cursor.
+
+Repository/environment setup and baseline instructions are documented in
+[`docs/content-sync-operations.md`](docs/content-sync-operations.md).
+
+The Phase 1 planner and R2 synchronizer are checked in under `tools/` and are tested in
+the same pull request as transcript and configuration changes. CI therefore does not
+fetch executable publisher code from another repository.

@@ -1,0 +1,137 @@
+name: Deploy content sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "transcripts/**"
+      - "config/deadlock/**"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Deployment/recovery operation
+        type: choice
+        required: true
+        default: incremental-dry-run
+        options:
+          - incremental-dry-run
+          - incremental-deploy
+          - baseline-dry-run
+          - baseline-deploy
+          - initialize
+      base_commit:
+        description: Optional incremental recovery base (defaults to private cursor)
+        type: string
+        required: false
+      approve_baseline:
+        description: Required for initialize or baseline-deploy
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deadlock-production-cdn
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Plan and conditionally publish CDN changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment: production-cdn
+
+    env:
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET: ${{ vars.R2_BUCKET }}
+      R2_ENDPOINT_URL: ${{ vars.R2_ENDPOINT_URL }}
+      CDN_BASE_URL: ${{ vars.CDN_BASE_URL || 'https://cdn.vlviewer.com' }}
+      CLOUDFLARE_ZONE_ID: ${{ vars.CLOUDFLARE_ZONE_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+    steps:
+      - name: Require the protected main branch
+        run: |
+          if [[ "$GITHUB_REF" != "refs/heads/main" ]]; then
+            echo "Production content sync must run from main." >&2
+            exit 1
+          fi
+
+      - name: Check out target transcript commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - name: Install deployment dependencies
+        run: python -m pip install --requirement requirements-ci.txt
+
+      - name: Validate, recalculate, and execute the requested operation
+        env:
+          DISPATCH_MODE: ${{ inputs.mode }}
+          DISPATCH_BASE: ${{ inputs.base_commit }}
+          BASELINE_APPROVED: ${{ inputs.approve_baseline }}
+        run: |
+          mode="$DISPATCH_MODE"
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            mode="incremental-deploy"
+          fi
+
+          args=(
+            deploy
+            --repo "$GITHUB_WORKSPACE"
+            --target "$GITHUB_SHA"
+            --bucket "$R2_BUCKET"
+            --endpoint-url "$R2_ENDPOINT_URL"
+            --cdn-base-url "$CDN_BASE_URL"
+            --zone-id "$CLOUDFLARE_ZONE_ID"
+            --backup-dir "$RUNNER_TEMP/content-sync/backups"
+            --output-json "$RUNNER_TEMP/content-sync/deployment-plan.json"
+            --output-markdown "$RUNNER_TEMP/content-sync/deployment-plan.md"
+            --result-json "$RUNNER_TEMP/content-sync/deployment-result.json"
+          )
+
+          if [[ -n "$DISPATCH_BASE" ]]; then
+            args+=(--base "$DISPATCH_BASE")
+          fi
+
+          case "$mode" in
+            incremental-dry-run) args+=(--dry-run) ;;
+            incremental-deploy) ;;
+            baseline-dry-run) args+=(--reconcile --dry-run) ;;
+            baseline-deploy) args+=(--reconcile) ;;
+            initialize) args+=(--initialize) ;;
+            *) echo "Unknown deployment mode: $mode" >&2; exit 1 ;;
+          esac
+
+          if [[ "$BASELINE_APPROVED" == "true" ]]; then
+            args+=(--approve-baseline)
+          fi
+
+          python -m tools.content_sync_cli "${args[@]}"
+
+      - name: Add deployment plan to the Actions summary
+        if: always()
+        run: |
+          if [[ -f "$RUNNER_TEMP/content-sync/deployment-plan.md" ]]; then
+            cat "$RUNNER_TEMP/content-sync/deployment-plan.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload reports and pre-change JSON
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: content-sync-deployment-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/content-sync
+          if-no-files-found: warn
+          retention-days: 14
