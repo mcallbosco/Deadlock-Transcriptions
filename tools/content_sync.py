@@ -21,7 +21,7 @@ import urllib.request
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
-from typing import Any, Iterable, Iterator
+from typing import Any, Callable, Iterable, Iterator
 
 MUTABLE_JSON_CACHE_CONTROL = "public, max-age=0, must-revalidate"
 TRANSCRIPT_SHA_RE = re.compile(r"^[0-9a-f]{64}$")
@@ -462,7 +462,11 @@ class PublicJsonStore:
     def get_json(self, key: str) -> StoredJson:
         request = urllib.request.Request(
             self.url(key),
-            headers={"Accept": "application/json", "Accept-Encoding": "identity"},
+            headers={
+                "Accept": "application/json",
+                "Accept-Encoding": "identity",
+                "User-Agent": "VLViewer-Content-Sync/1.0",
+            },
         )
         try:
             with urllib.request.urlopen(request, timeout=60) as response:
@@ -1705,21 +1709,38 @@ def verify_public_writes(
     writes: Iterable[PlannedWrite],
     public_store: PublicJsonStore,
     attempts: int = 5,
+    sleep_fn: Callable[[float], None] = time.sleep,
 ) -> None:
     pending = [item for item in writes if item.public]
+    last_errors: dict[str, str] = {}
     for attempt in range(attempts):
-        failures: list[str] = []
+        failures: list[PlannedWrite] = []
         for write in pending:
-            observed = public_store.get_json(write.key)
+            try:
+                observed = public_store.get_json(write.key)
+            except ContentSyncError as exc:
+                failures.append(write)
+                last_errors[write.key] = str(exc)
+                continue
             if observed.value != write.value:
-                failures.append(write.key)
+                failures.append(write)
+                last_errors[write.key] = "public JSON does not match the planned value"
+            else:
+                last_errors.pop(write.key, None)
         if not failures:
             return
+        pending = failures
         if attempt + 1 < attempts:
-            time.sleep(min(2**attempt, 8))
+            sleep_fn(min(2**attempt, 8))
             continue
+        keys = [item.key for item in failures]
+        details = "; ".join(
+            f"{key}: {last_errors[key]}" for key in keys[:5] if key in last_errors
+        )
         raise ContentSyncError(
-            "Public CDN verification failed for: " + ", ".join(failures[:20])
+            "Public CDN verification failed for: "
+            + ", ".join(keys[:20])
+            + (f". Last errors: {details}" if details else "")
         )
 
 

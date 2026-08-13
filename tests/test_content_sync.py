@@ -19,6 +19,7 @@ from tools.content_sync import (
     canonical_json,
     deploy_plan,
     validate_repository,
+    verify_public_writes,
 )
 
 
@@ -342,6 +343,33 @@ class ContentSyncTests(unittest.TestCase):
             ],
         )
         self.assertTrue(result["cursorWritten"])
+
+    def test_public_verification_retries_transient_read_errors(self) -> None:
+        write = PlannedWrite(
+            "deadlock/categories.json",
+            {"schemaVersion": 1},
+            '"etag"',
+            "content",
+            "test",
+        )
+
+        class FlakyPublicStore(PublicMemoryStore):
+            calls = 0
+
+            def get_json(self, key: str) -> StoredJson:
+                self.calls += 1
+                if self.calls == 1:
+                    raise ContentSyncError(
+                        f"Could not read {self.url(key)}: HTTP 403"
+                    )
+                return super().get_json(key)
+
+        public = FlakyPublicStore({write.key: write.value})
+        delays: list[float] = []
+        verify_public_writes([write], public, attempts=3, sleep_fn=delays.append)
+
+        self.assertEqual(public.calls, 2)
+        self.assertEqual(delays, [1])
 
 
 if __name__ == "__main__":
