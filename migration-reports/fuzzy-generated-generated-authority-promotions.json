@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "sourcePriority": [
+    "official",
+    "manual",
+    "generated"
+  ],
+  "statistics": {
+    "operations": 409,
+    "promotions": 3
+  },
+  "promotions": [
+    {
+      "componentId": 341,
+      "path": "transcripts/wraith/ping/wraith_ping_can_heal_holliday.mp3.json",
+      "previous": {
+        "text": "Holliday, I can heal you.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "authoritative": {
+        "text": "Holliday, I can heal you!",
+        "source": "official"
+      },
+      "evidence": [
+        {
+          "path": "transcripts/wraith/ping/wraith_ping_can_heal_astro.mp3.json",
+          "revisionIndex": 0
+        }
+      ]
+    },
+    {
+      "componentId": 628,
+      "path": "transcripts/lash/ping/lash_ping_careful_pocket_02.mp3.json",
+      "previous": {
+        "text": "Careful, Pocket!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "authoritative": {
+        "text": "Careful, Pocket",
+        "source": "official"
+      },
+      "evidence": [
+        {
+          "path": "transcripts/lash/ping/lash_ping_careful_synth_02.mp3.json",
+          "revisionIndex": 0
+        }
+      ]
+    },
+    {
+      "componentId": 869,
+      "path": "transcripts/haze/haze_kill_calico_01.mp3.json",
+      "previous": {
+        "text": "Calico has been dealt with.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "authoritative": {
+        "text": "Calico has been dealt with",
+        "source": "official"
+      },
+      "evidence": [
+        {
+          "path": "transcripts/haze/haze_kill_nano_01.mp3.json",
+          "revisionIndex": 0
+        },
+        {
+          "path": "transcripts/haze/haze_kill_nano_01.mp3.json",
+          "revisionIndex": 0
+        },
+        {
+          "path": "transcripts/haze/haze_kill_nano_01.mp3.json",
+          "revisionIndex": 0
+        }
+      ]
+    }
+  ]
+}

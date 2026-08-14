@@ -182,11 +182,13 @@ def apply_operation(
     )
     if revision_hashes(result) != member_hashes:
         raise ValueError(f"{operation['path']}: result hashes do not match reviewed members")
-    if result.get("source") != "generated" or any(
+    if result.get("source") not in {"generated", "manual", "official"} or any(
         member["revision"].get("source") != "generated"
         for member in operation["members"]
     ):
-        raise ValueError(f"{operation['path']}: reviewed merge must remain generated")
+        raise ValueError(
+            f"{operation['path']}: reviewed members must be generated and the result authoritative"
+        )
     if result in revisions:
         if any(member["revision"] in revisions for member in operation["members"]):
             raise ValueError(f"{operation['path']}: partial reviewed merge state")

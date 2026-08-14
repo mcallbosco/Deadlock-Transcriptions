@@ -20,6 +20,7 @@ from tools.reconcile_fuzzy_official_aliases import (
     reconcile_document,
 )
 from tools.review_generated_fuzzy_batch import apply_operation
+from tools.reconcile_reviewed_fuzzy_aliases import reconcile_document as reconcile_reviewed_aliases
 
 
 def revision(digest: str, text: str, source: str = "generated") -> dict[str, object]:
@@ -251,6 +252,35 @@ class FuzzyTranscriptMatchTests(unittest.TestCase):
 
         with self.assertRaisesRegex(ValueError, "not found exactly once"):
             apply_operation(document, operation)
+
+    def test_reviewed_alias_reconciliation_splits_only_targeted_hashes(self) -> None:
+        document = {
+            "schemaVersion": 3,
+            "filename": "legacy_alias.mp3",
+            "revisions": [
+                {
+                    "sha256": ["1" * 64, "2" * 64],
+                    "text": "Holiday is here.",
+                    "source": "generated",
+                    "model": "test-model",
+                }
+            ],
+        }
+        targets = {
+            "1" * 64: {
+                "text": "Holliday is here.",
+                "source": "generated",
+                "model": "test-model",
+            }
+        }
+
+        updated, rewritten = reconcile_reviewed_aliases(document, targets)
+
+        self.assertEqual(rewritten, 1)
+        self.assertEqual(len(updated["revisions"]), 2)
+        by_text = {item["text"]: item for item in updated["revisions"]}
+        self.assertEqual(by_text["Holliday is here."]["sha256"], ["1" * 64])
+        self.assertEqual(by_text["Holiday is here."]["sha256"], ["2" * 64])
 
 
 if __name__ == "__main__":
