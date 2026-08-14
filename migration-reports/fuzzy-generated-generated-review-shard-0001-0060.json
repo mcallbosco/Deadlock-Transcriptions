@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "queueSha256": "1dd1837895d7549f0a2b911af70c9de2a29904fabf11d01e4f2dc8ef9b4905b7",
+  "range": [1, 60],
+  "decisions": [
+    {
+      "componentId": 1,
+      "verdict": "invalid",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Both component revisions are leaked transcription prompts, not voice-line text; the filename expects a Dynamo roof ping."
+    },
+    {
+      "componentId": 2,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Wall and walls are both grammatical and the adjacent Oathkeeper scene does not establish the spoken number."
+    },
+    {
+      "componentId": 3,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Totten is the conventional surname spelling and Toten appears phonetic, but no repository vocabulary entry independently names Frederick."
+    },
+    {
+      "componentId": 4,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "The revisions differ in spoken conjunctions as well as punctuation; both lists are grammatical."
+    },
+    {
+      "componentId": 5,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "You are versus you're is a recording-level contraction difference; the later official Baxter Society line is separate dialogue."
+    },
+    {
+      "componentId": 6,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Doesn't versus does not cannot be inferred; the later Hidden King wording is a distinct patron-era transcript."
+    },
+    {
+      "componentId": 7,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Queen & Coven is plausibly the bestseller's styled title, while later generic queen and coven uses remain lowercase; no authoritative title list confirms it."
+    },
+    {
+      "componentId": 8,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "The canonical pocket/pocket_select_04 parallel uses Today's across two other hashes, but these synth hashes may be distinct recordings."
+    },
+    {
+      "componentId": 9,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "medium",
+      "evidence": "OSIC Sandman matches local Sandman Division terminology, while OSIC's Sandman is also plausible for Haze; the possessive sound requires audio evidence."
+    },
+    {
+      "componentId": 10,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "There's versus there is is a contraction difference; punctuation alone cannot prove the recording."
+    },
+    {
+      "componentId": 11,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Scream versus screaming, in frustration versus frustration, and ol' versus old are spoken semantic differences among four plausible variants."
+    },
+    {
+      "componentId": 12,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Trooper and troopers are both grammatical and the filename does not establish singular or plural."
+    },
+    {
+      "componentId": 13,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Rule versus ruled and the presence of uh are spoken tense/filler differences that grammar cannot settle."
+    },
+    {
+      "componentId": 14,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "It is versus it's is an unsupported contraction choice; both component revisions are otherwise grammatical."
+    },
+    {
+      "componentId": 15,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "I prefer and I'd prefer differ in spoken modality and are both natural Wraith lines."
+    },
+    {
+      "componentId": 16,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Free and freed are both grammatical but encode different tense; no parallel line resolves the recording."
+    },
+    {
+      "componentId": 17,
+      "verdict": "medium",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "medium",
+      "evidence": "The later official line independently begins You've proven, favoring revision 2, but its Hidden King ending is separate era-specific dialogue."
+    },
+    {
+      "componentId": 18,
+      "verdict": "keep_separate",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Shadowlands and Shadowline are prototype game-term variants; the repository also preserves Neon Prime and Deadlock versions of this tutorial line."
+    },
+    {
+      "componentId": 19,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "This day is versus this day's is a spoken contraction/wording difference, and both sentences are grammatical."
+    },
+    {
+      "componentId": 20,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "There is versus there's and enemy's shrine versus enemy shrine are recording-level wording differences."
+    },
+    {
+      "componentId": 21,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Anyway and anyways are both possible spoken forms; punctuation does not establish the final s."
+    },
+    {
+      "componentId": 22,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Cindermaw and legal-style v. are more plausible than Cindermar and vs., but no authoritative repository vocabulary confirms the fictional case name."
+    },
+    {
+      "componentId": 23,
+      "verdict": "medium",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 2 is the only fully grammatical account of Lash's boast, but filler placement and exact wording remain recording-dependent."
+    },
+    {
+      "componentId": 24,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "You're versus you are is a contraction difference; both correctly use the authoritative Paradox name."
+    },
+    {
+      "componentId": 25,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "low",
+      "evidence": "Beef/bee and our/her are semantic differences, and none is clearly supported by the Chrono filename or nearby repository lines."
+    },
+    {
+      "componentId": 26,
+      "verdict": "keep_separate",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Rime and Riven are apparent prototype character-name variants, while the later official Grey Talon/Archmother line is separate final-era material."
+    },
+    {
+      "componentId": 27,
+      "verdict": "apply",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "high",
+      "evidence": "The parallel high-streak file says Sandy can't be allowed to complete the ritual; can reverses the intended enemy warning."
+    },
+    {
+      "componentId": 28,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "I've got versus I got and getting versus gettin' are contraction/register differences across plausible recordings."
+    },
+    {
+      "componentId": 29,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Both generated options are syntactically suspect and differ in tense; the likely sentence cannot be reconstructed by selecting either confidently."
+    },
+    {
+      "componentId": 30,
+      "verdict": "apply",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "high",
+      "evidence": "OSIC is the authoritative organization acronym used throughout Haze and Dynamo lines; OSI is a truncation."
+    },
+    {
+      "componentId": 31,
+      "verdict": "apply",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "high",
+      "evidence": "The filename and authoritative character name identify Lash; lass conflicts with the masculine self-reference and character identity."
+    },
+    {
+      "componentId": 32,
+      "verdict": "apply",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "high",
+      "evidence": "Flying in on someone is the only grammatical ability-related phrase; revision 0 omits in and revision 1 is nonsensical."
+    },
+    {
+      "componentId": 33,
+      "verdict": "apply",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "high",
+      "evidence": "Chrono maps authoritatively to Paradox, and singular Paradox fits the direct address; Paradoxs is malformed."
+    },
+    {
+      "componentId": 34,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Soul and souls are both grammatical, meaningful number differences; neither the idol-drop filename nor parallels resolve them."
+    },
+    {
+      "componentId": 35,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Enemy objectives and an enemy objective are both valid tutorial claims with different number and article."
+    },
+    {
+      "componentId": 36,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "LaPree is the more conventional spelling and preserves the apparent French surname form, but repository vocabulary does not name this expert."
+    },
+    {
+      "componentId": 37,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "We are versus we're is solely an unsupported contraction choice."
+    },
+    {
+      "componentId": 38,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Fist and fists are both grammatical and the power-up filename does not prove the spoken number."
+    },
+    {
+      "componentId": 39,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Extra coins and an extra coin are different valid reward descriptions; grammar cannot determine the game-era wording."
+    },
+    {
+      "componentId": 40,
+      "verdict": "apply",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "high",
+      "evidence": "The filename, character mapping, and vocabulary all require Haze; Caze is a generation error."
+    },
+    {
+      "componentId": 41,
+      "verdict": "apply",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "high",
+      "evidence": "Parallel Oathkeeper scene files explicitly say Gen? and Gen Geist, establishing the character spelling Gen rather than Jen."
+    },
+    {
+      "componentId": 42,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "History's versus history is is an exact spoken contraction distinction repeated twice; both are grammatical."
+    },
+    {
+      "componentId": 43,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "McGinnis can deploy one or multiple turrets, so turret and turrets are both plausible number choices; the official replacement is different dialogue."
+    },
+    {
+      "componentId": 44,
+      "verdict": "apply",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "high",
+      "evidence": "Numerous parallel lines address Viscous with the singular nickname Biscuit; Biscuits is unsupported."
+    },
+    {
+      "componentId": 45,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "We are versus we're is a contraction difference with no recording-specific evidence."
+    },
+    {
+      "componentId": 46,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Is versus apostrophe-s is a spoken contraction difference; both sentences fit the Bebop laser filename."
+    },
+    {
+      "componentId": 47,
+      "verdict": "apply",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "high",
+      "evidence": "Played her part to perfection is the fixed idiom and matches the Paradox Rejuvenator-steal filename; parts is erroneous."
+    },
+    {
+      "componentId": 48,
+      "verdict": "apply",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "high",
+      "evidence": "The filename describes Haze seeing Lash's massive entrance, making the compliment You know how to make an entrance, Lash the coherent named-character line."
+    },
+    {
+      "componentId": 49,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "They're versus they are is an unsupported contraction choice; both otherwise match the ability line."
+    },
+    {
+      "componentId": 50,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Fine versus it's fine is a spoken filler/subject difference; both remaining variants are coherent Lash dialogue."
+    },
+    {
+      "componentId": 51,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Called and call are distinct valid tenses; repository evidence establishes Fathom but not the recording's tense."
+    },
+    {
+      "componentId": 52,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Guardian at the end and Guardian that's at the end are both grammatical and differ by spoken words."
+    },
+    {
+      "componentId": 53,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 0 correctly uses Oracle's and standard off-Broadway styling, and Gray Coven is plausible; no independent source confirms Gray versus Great."
+    },
+    {
+      "componentId": 54,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Revision 0 is clearly corrupt, but give me and gimme are both possible spoken forms in the two coherent revisions."
+    },
+    {
+      "componentId": 55,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "medium",
+      "evidence": "Dorman is misspelled and lowercase doorman loses the authoritative character-name capitalization, so neither existing revision is clearly correct."
+    },
+    {
+      "componentId": 56,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Repository material presents Cadence as the Ixian singer and revision 0's she is likely, but no direct same-line parallel proves the pronoun."
+    },
+    {
+      "componentId": 57,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Best friend and best friends are both grammatical and may reflect a different number of summoned familiars or recordings."
+    },
+    {
+      "componentId": 58,
+      "verdict": "unresolved",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Something versus somethin' is a pronunciation/transcription-register difference not resolvable from grammar."
+    },
+    {
+      "componentId": 59,
+      "verdict": "apply",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "high",
+      "evidence": "A parallel patron introduction explicitly says I am Ambition Spark, establishing the proper patron name and spacing."
+    },
+    {
+      "componentId": 60,
+      "verdict": "keep_separate",
+      "selectedRevisionIndex": null,
+      "judgmentConfidence": "high",
+      "evidence": "Transit line and Shadowline are distinct game-era terms, while a/the final push also differs; these hashes may represent evolved tutorial recordings."
+    }
+  ]
+}

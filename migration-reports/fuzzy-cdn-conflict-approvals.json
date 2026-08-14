@@ -1,13 +1,48 @@
 {
   "schemaVersion": 1,
   "description": "Exact CDN record states explicitly approved for overwrite. A changed location, hash, current state, or desired state is not approved.",
-  "sourcePlan": {
-    "baseCommit": "2bc231aaa29f30acd636f825338caae8a7b1e7e9",
-    "targetCommit": "0c6970153debde5e1b7ba3944041d9771e18c530",
-    "runUrl": "https://github.com/mcallbosco/Deadlock-Transcriptions/actions/runs/31763515616"
-  },
-  "approvalCount": 1141,
+  "sourcePlans": [
+    {
+      "baseCommit": "2bc231aaa29f30acd636f825338caae8a7b1e7e9",
+      "targetCommit": "0c6970153debde5e1b7ba3944041d9771e18c530",
+      "runUrl": "https://github.com/mcallbosco/Deadlock-Transcriptions/actions/runs/31763515616"
+    },
+    {
+      "baseCommit": "c88a0b3c9b81c2f8af78220d07bcda22005d2961",
+      "targetCommit": "1d9ba7e3a76bceaedfdcf5631d89738c5b0a3718",
+      "runUrl": "https://github.com/mcallbosco/Deadlock-Transcriptions/pull/201"
+    }
+  ],
+  "approvalCount": 1211,
   "approvals": [
+    {
+      "version": "247-matchmaking",
+      "key": "deadlock/versions/247-matchmaking/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "247-matchmaking",
+      "key": "deadlock/versions/247-matchmaking/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
+      }
+    },
     {
       "version": "247-matchmaking",
       "key": "deadlock/versions/247-matchmaking/voicelines.json",
@@ -81,6 +116,20 @@
     {
       "version": "247-matchmaking",
       "key": "deadlock/versions/247-matchmaking/voicelines.json",
+      "jsonPath": "$/haze/Self/Emotions/Sad/3",
+      "sha256": "f52c05180b50b2abe4343a047bdb93f2e016352c916c29d20d9aae639bee10ad",
+      "current": {
+        "text": "I won't hear the end of this. Work.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I won't hear the end of this at work.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "247-matchmaking",
+      "key": "deadlock/versions/247-matchmaking/voicelines.json",
       "jsonPath": "$/haze/abrams/Combat/Kill/3",
       "sha256": "5071f3fcdf84c493c588bb48e475ff192f411c7f79ee86824b022b23596f29f3",
       "current": {
@@ -118,6 +167,20 @@
       "desired": {
         "text": "Whipping 'em!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "247-matchmaking",
+      "key": "deadlock/versions/247-matchmaking/voicelines.json",
+      "jsonPath": "$/lash/holliday/Pings/Miscellaneous Status/Check items/0",
+      "sha256": "d3d65fd5f4966c955ff9bce5a3f0a09ae6ad710f5f9c51ac963a8c2660b8ba7a",
+      "current": {
+        "text": "Check out what Holliday brought.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Check out what Holliday bought!",
+        "officialtranscription": false
       }
     },
     {
@@ -473,6 +536,20 @@
     {
       "version": "deadlock-base",
       "key": "deadlock/versions/deadlock-base/voicelines.json",
+      "jsonPath": "$/haze/Self/Emotions/Sad/3",
+      "sha256": "f52c05180b50b2abe4343a047bdb93f2e016352c916c29d20d9aae639bee10ad",
+      "current": {
+        "text": "I won't hear the end of this. Work.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I won't hear the end of this at work.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "deadlock-base",
+      "key": "deadlock/versions/deadlock-base/voicelines.json",
       "jsonPath": "$/haze/abrams/Combat/Kill/3",
       "sha256": "5071f3fcdf84c493c588bb48e475ff192f411c7f79ee86824b022b23596f29f3",
       "current": {
@@ -809,6 +886,34 @@
     {
       "version": "deadlock-public-access",
       "key": "deadlock/versions/deadlock-public-access/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "deadlock-public-access",
+      "key": "deadlock/versions/deadlock-public-access/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "deadlock-public-access",
+      "key": "deadlock/versions/deadlock-public-access/voicelines.json",
       "jsonPath": "$/grey talon/Self/Item Usage/Use metal skin/1",
       "sha256": "52a63c636f3d00950fdee1965df7a4d03a757a1527dc6190de49b0fb8962207b",
       "current": {
@@ -832,6 +937,20 @@
       "desired": {
         "text": "Spirit Jar is here!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "deadlock-public-access",
+      "key": "deadlock/versions/deadlock-public-access/voicelines.json",
+      "jsonPath": "$/haze/Self/Emotions/Sad/3",
+      "sha256": "f52c05180b50b2abe4343a047bdb93f2e016352c916c29d20d9aae639bee10ad",
+      "current": {
+        "text": "I won't hear the end of this. Work.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I won't hear the end of this at work.",
+        "officialtranscription": false
       }
     },
     {
@@ -1215,6 +1334,34 @@
     {
       "version": "deadlock-shiv",
       "key": "deadlock/versions/deadlock-shiv/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "deadlock-shiv",
+      "key": "deadlock/versions/deadlock-shiv/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "deadlock-shiv",
+      "key": "deadlock/versions/deadlock-shiv/voicelines.json",
       "jsonPath": "$/grey talon/Self/Item Usage/Use metal skin/1",
       "sha256": "52a63c636f3d00950fdee1965df7a4d03a757a1527dc6190de49b0fb8962207b",
       "current": {
@@ -1238,6 +1385,20 @@
       "desired": {
         "text": "Spirit Jar is here!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "deadlock-shiv",
+      "key": "deadlock/versions/deadlock-shiv/voicelines.json",
+      "jsonPath": "$/haze/Self/Emotions/Sad/3",
+      "sha256": "f52c05180b50b2abe4343a047bdb93f2e016352c916c29d20d9aae639bee10ad",
+      "current": {
+        "text": "I won't hear the end of this. Work.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I won't hear the end of this at work.",
+        "officialtranscription": false
       }
     },
     {
@@ -1980,6 +2141,20 @@
       "desired": {
         "text": "Wrecker's under the garage!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "four-heros",
+      "key": "deadlock/versions/four-heros/voicelines.json",
+      "jsonPath": "$/haze/Self/Hero Selection/Unselect/2",
+      "sha256": "5d190cdb72a7c9ca9aabb081ab559de63723df1439bba14c11a56550e71873d5",
+      "current": {
+        "text": "You don't want a sandman's help?",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "You don't want Sandman's help.",
+        "officialtranscription": false
       }
     },
     {
@@ -3245,6 +3420,34 @@
     {
       "version": "four-heros",
       "key": "deadlock/versions/four-heros/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero training intro/0",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "four-heros",
+      "key": "deadlock/versions/four-heros/voicelines.json",
+      "jsonPath": "$/vindicta/pocket/Pings/General Communication ~1 Social/With/0",
+      "sha256": "88552ae198eb8d0d34a687616fcb5ff833eb12b10715fe6c639d023c5944a8eb",
+      "current": {
+        "text": "I'm with you, Pockets.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I'm with you, Pocket.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "four-heros",
+      "key": "deadlock/versions/four-heros/voicelines.json",
       "jsonPath": "$/vyper/abrams/Pings/Enemy Information and Location/In mid/0",
       "sha256": "af547eef59d78daa992e32e07317e1032d6173227406a048829f6aab6999f12c",
       "current": {
@@ -3595,6 +3798,20 @@
     {
       "version": "four-heros",
       "key": "deadlock/versions/four-heros/voicelines.json",
+      "jsonPath": "$/warden/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "3b19369cbf7285f39379bcb04f8149af95be5ef4ebdb1b1655cf9aca711388f6",
+      "current": {
+        "text": "Holiday was here!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "four-heros",
+      "key": "deadlock/versions/four-heros/voicelines.json",
       "jsonPath": "$/warden/lady geist/Combat/Kill/3",
       "sha256": "739307b425906ecf0bf96f5169859f0dcce8788e7df5948e0495a696d48a8553",
       "current": {
@@ -3646,6 +3863,20 @@
       "desired": {
         "text": "Shiv's on the roof!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "four-heros",
+      "key": "deadlock/versions/four-heros/voicelines.json",
+      "jsonPath": "$/warden/vindicta/Pings/Tactical Communication/Stun/0",
+      "sha256": "ee891f8a607016d9198b9be2d34ee05f803dfbb0dd6247ca51fac8677c544e2b",
+      "current": {
+        "text": "Sun vindicta.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Stun Vindicta.",
+        "officialtranscription": false
       }
     },
     {
@@ -3903,6 +4134,20 @@
     {
       "version": "four-heros",
       "key": "deadlock/versions/four-heros/voicelines.json",
+      "jsonPath": "$/yamato/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "38f4e28843b612eaed2f99b86669e1970cd19816e812bed1dc160269fd235c9d",
+      "current": {
+        "text": "Holiday was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "four-heros",
+      "key": "deadlock/versions/four-heros/voicelines.json",
       "jsonPath": "$/yamato/ivy/Pings/Item Status~1Usage/Can heal/0",
       "sha256": "cea735ca1737ed340eb58c676b27abba2fdeb4acac4b1cecc790491cd5f3f4aa",
       "current": {
@@ -3996,6 +4241,34 @@
       "desired": {
         "text": "We're the OSIC of course there's a file.",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "hero-labs-update",
+      "key": "deadlock/versions/hero-labs-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "hero-labs-update",
+      "key": "deadlock/versions/hero-labs-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
       }
     },
     {
@@ -4178,6 +4451,20 @@
       "desired": {
         "text": "Whipping 'em!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "hero-labs-update",
+      "key": "deadlock/versions/hero-labs-update/voicelines.json",
+      "jsonPath": "$/lash/holliday/Pings/Miscellaneous Status/Check items/0",
+      "sha256": "d3d65fd5f4966c955ff9bce5a3f0a09ae6ad710f5f9c51ac963a8c2660b8ba7a",
+      "current": {
+        "text": "Check out what Holliday brought.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Check out what Holliday bought!",
+        "officialtranscription": false
       }
     },
     {
@@ -4757,6 +5044,20 @@
     {
       "version": "hero-labs-update",
       "key": "deadlock/versions/hero-labs-update/voicelines.json",
+      "jsonPath": "$/yamato/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "38f4e28843b612eaed2f99b86669e1970cd19816e812bed1dc160269fd235c9d",
+      "current": {
+        "text": "Holiday was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "hero-labs-update",
+      "key": "deadlock/versions/hero-labs-update/voicelines.json",
       "jsonPath": "$/yamato/ivy/Pings/Item Status~1Usage/Can heal/0",
       "sha256": "cea735ca1737ed340eb58c676b27abba2fdeb4acac4b1cecc790491cd5f3f4aa",
       "current": {
@@ -4962,6 +5263,20 @@
       "desired": {
         "text": "Once we summon the patron you'll see for yourelf.",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "map-rework",
+      "key": "deadlock/versions/map-rework/voicelines.json",
+      "jsonPath": "$/haze/Self/Hero Selection/Unselect/2",
+      "sha256": "5d190cdb72a7c9ca9aabb081ab559de63723df1439bba14c11a56550e71873d5",
+      "current": {
+        "text": "You don't want a sandman's help?",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "You don't want Sandman's help.",
+        "officialtranscription": false
       }
     },
     {
@@ -5709,6 +6024,20 @@
     {
       "version": "map-rework",
       "key": "deadlock/versions/map-rework/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero training intro/0",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "map-rework",
+      "key": "deadlock/versions/map-rework/voicelines.json",
       "jsonPath": "$/warden/Self/Emotions/Congrats/4",
       "sha256": "b2c3d70c9ce8c97fb3135f36e69376416c610c0ca3e54401db9e74a8181f43dd",
       "current": {
@@ -5807,6 +6136,20 @@
     {
       "version": "map-rework",
       "key": "deadlock/versions/map-rework/voicelines.json",
+      "jsonPath": "$/warden/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "3b19369cbf7285f39379bcb04f8149af95be5ef4ebdb1b1655cf9aca711388f6",
+      "current": {
+        "text": "Holiday was here!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "map-rework",
+      "key": "deadlock/versions/map-rework/voicelines.json",
       "jsonPath": "$/warden/lady geist/Combat/Kill/3",
       "sha256": "739307b425906ecf0bf96f5169859f0dcce8788e7df5948e0495a696d48a8553",
       "current": {
@@ -5858,6 +6201,20 @@
       "desired": {
         "text": "Shiv's on the roof!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "map-rework",
+      "key": "deadlock/versions/map-rework/voicelines.json",
+      "jsonPath": "$/warden/vindicta/Pings/Tactical Communication/Stun/0",
+      "sha256": "ee891f8a607016d9198b9be2d34ee05f803dfbb0dd6247ca51fac8677c544e2b",
+      "current": {
+        "text": "Sun vindicta.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Stun Vindicta.",
+        "officialtranscription": false
       }
     },
     {
@@ -6110,6 +6467,20 @@
       "desired": {
         "text": "Holliday's on the roof!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "map-rework",
+      "key": "deadlock/versions/map-rework/voicelines.json",
+      "jsonPath": "$/yamato/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "38f4e28843b612eaed2f99b86669e1970cd19816e812bed1dc160269fd235c9d",
+      "current": {
+        "text": "Holiday was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here.",
+        "officialtranscription": false
       }
     },
     {
@@ -6558,6 +6929,20 @@
       "desired": {
         "text": "Wrecker's under the garage!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/haze/Self/Hero Selection/Unselect/2",
+      "sha256": "5d190cdb72a7c9ca9aabb081ab559de63723df1439bba14c11a56550e71873d5",
+      "current": {
+        "text": "You don't want a sandman's help?",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "You don't want Sandman's help.",
+        "officialtranscription": false
       }
     },
     {
@@ -7641,6 +8026,20 @@
     {
       "version": "matchmaking-update",
       "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/mo&krill/calico/Killed by/1",
+      "sha256": "2cc776fd956ee884ad1c5e123d544a4e59689b8231bca0a76589e9b539c707f4",
+      "current": {
+        "text": "He's just so hard to pin down!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "She's just so hard to pin down.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
       "jsonPath": "$/mo&krill/haze/Pings/Enemy Information and Location/Under garage/0",
       "sha256": "dc5b3268f010ba1cb8ab6947661eda98b1bafa5a4b9a50af5f5619767bc72f42",
       "current": {
@@ -7790,6 +8189,20 @@
       "desired": {
         "text": "Pocket's on top of mid!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/mo&krill/viscous/Killed by/4",
+      "sha256": "26061b3b1a2389c246fe50a8f6f62c14f54f180ff28d1088fdd0a85dc563920f",
+      "current": {
+        "text": "Underestimating biscuits was a mistake.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Underestimating Biscuit was a mistake.",
+        "officialtranscription": false
       }
     },
     {
@@ -8084,6 +8497,34 @@
       "desired": {
         "text": "Good god Warden, that was madness…",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero training intro/0",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/vindicta/pocket/Pings/General Communication ~1 Social/With/0",
+      "sha256": "88552ae198eb8d0d34a687616fcb5ff833eb12b10715fe6c639d023c5944a8eb",
+      "current": {
+        "text": "I'm with you, Pockets.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I'm with you, Pocket.",
+        "officialtranscription": false
       }
     },
     {
@@ -8439,6 +8880,20 @@
     {
       "version": "matchmaking-update",
       "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/warden/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "3b19369cbf7285f39379bcb04f8149af95be5ef4ebdb1b1655cf9aca711388f6",
+      "current": {
+        "text": "Holiday was here!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
       "jsonPath": "$/warden/lady geist/Combat/Kill/3",
       "sha256": "739307b425906ecf0bf96f5169859f0dcce8788e7df5948e0495a696d48a8553",
       "current": {
@@ -8490,6 +8945,20 @@
       "desired": {
         "text": "Shiv's on the roof!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/warden/vindicta/Pings/Tactical Communication/Stun/0",
+      "sha256": "ee891f8a607016d9198b9be2d34ee05f803dfbb0dd6247ca51fac8677c544e2b",
+      "current": {
+        "text": "Sun vindicta.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Stun Vindicta.",
+        "officialtranscription": false
       }
     },
     {
@@ -8747,6 +9216,20 @@
     {
       "version": "matchmaking-update",
       "key": "deadlock/versions/matchmaking-update/voicelines.json",
+      "jsonPath": "$/yamato/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "38f4e28843b612eaed2f99b86669e1970cd19816e812bed1dc160269fd235c9d",
+      "current": {
+        "text": "Holiday was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "matchmaking-update",
+      "key": "deadlock/versions/matchmaking-update/voicelines.json",
       "jsonPath": "$/yamato/ivy/Pings/Item Status~1Usage/Can heal/0",
       "sha256": "cea735ca1737ed340eb58c676b27abba2fdeb4acac4b1cecc790491cd5f3f4aa",
       "current": {
@@ -8826,6 +9309,34 @@
       "desired": {
         "text": "Warden, I can heal you!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "mirage-update",
+      "key": "deadlock/versions/mirage-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "mirage-update",
+      "key": "deadlock/versions/mirage-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
       }
     },
     {
@@ -8985,6 +9496,20 @@
     {
       "version": "mirage-update",
       "key": "deadlock/versions/mirage-update/voicelines.json",
+      "jsonPath": "$/haze/mirage/Pings/Enemy Information and Location/Was here/1",
+      "sha256": "162e9bbb195ef0a469aef533220b4ddd94d27efc47cdfc4033e8c04695161fea",
+      "current": {
+        "text": "Sand deep was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Sandeep was here.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "mirage-update",
+      "key": "deadlock/versions/mirage-update/voicelines.json",
       "jsonPath": "$/infernus/shiv/Enemy Actions/Unkillable (enemy)/2",
       "sha256": "3ce084973a84fa5bea927870daa657970ef1dfb6841e1170bbaf1c3b8f74e559",
       "current": {
@@ -9008,6 +9533,20 @@
       "desired": {
         "text": "Whipping 'em!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "mirage-update",
+      "key": "deadlock/versions/mirage-update/voicelines.json",
+      "jsonPath": "$/lash/holliday/Pings/Miscellaneous Status/Check items/0",
+      "sha256": "d3d65fd5f4966c955ff9bce5a3f0a09ae6ad710f5f9c51ac963a8c2660b8ba7a",
+      "current": {
+        "text": "Check out what Holliday brought.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Check out what Holliday bought!",
+        "officialtranscription": false
       }
     },
     {
@@ -9333,6 +9872,76 @@
       }
     },
     {
+      "version": "ognb",
+      "key": "deadlock/versions/ognb/voicelines.json",
+      "jsonPath": "$/haze/pocket/Pings/Tactical Communication/Ignore/0",
+      "sha256": "4cccd88e9410454623514073a41f3145dee52e5c8834545ed97201d857e28aea",
+      "current": {
+        "text": "Ignore Pockets.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Ignore Pocket.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "ognb",
+      "key": "deadlock/versions/ognb/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero Training/2",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "ognb",
+      "key": "deadlock/versions/ognb/voicelines.json",
+      "jsonPath": "$/wraith/Self/Item Usage/Use shadow weave/0",
+      "sha256": "ae69d48ed9570f6552de7a152bc491f88380500b12d27f1ea892d5dd3b3e52ad",
+      "current": {
+        "text": "Shadowwave.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Shadowweave.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "post-shiv-update",
+      "key": "deadlock/versions/post-shiv-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "post-shiv-update",
+      "key": "deadlock/versions/post-shiv-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
+      }
+    },
+    {
       "version": "post-shiv-update",
       "key": "deadlock/versions/post-shiv-update/voicelines.json",
       "jsonPath": "$/grey talon/Self/Item Usage/Use metal skin/1",
@@ -9358,6 +9967,20 @@
       "desired": {
         "text": "Spirit Jar is here!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "post-shiv-update",
+      "key": "deadlock/versions/post-shiv-update/voicelines.json",
+      "jsonPath": "$/haze/Self/Emotions/Sad/3",
+      "sha256": "f52c05180b50b2abe4343a047bdb93f2e016352c916c29d20d9aae639bee10ad",
+      "current": {
+        "text": "I won't hear the end of this. Work.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I won't hear the end of this at work.",
+        "officialtranscription": false
       }
     },
     {
@@ -9741,6 +10364,34 @@
     {
       "version": "ranked-update",
       "key": "deadlock/versions/ranked-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "ranked-update",
+      "key": "deadlock/versions/ranked-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "ranked-update",
+      "key": "deadlock/versions/ranked-update/voicelines.json",
       "jsonPath": "$/grey talon/Self/Pick Up/Pick up rejuv/0",
       "sha256": "421b18da06c9681bd9bce3d2a5d162c58e56ea677f3059b11c4e64b851b30bb7",
       "current": {
@@ -9895,6 +10546,20 @@
     {
       "version": "ranked-update",
       "key": "deadlock/versions/ranked-update/voicelines.json",
+      "jsonPath": "$/haze/mirage/Pings/Enemy Information and Location/Was here/1",
+      "sha256": "162e9bbb195ef0a469aef533220b4ddd94d27efc47cdfc4033e8c04695161fea",
+      "current": {
+        "text": "Sand deep was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Sandeep was here.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "ranked-update",
+      "key": "deadlock/versions/ranked-update/voicelines.json",
       "jsonPath": "$/infernus/shiv/Enemy Actions/Unkillable (enemy)/2",
       "sha256": "3ce084973a84fa5bea927870daa657970ef1dfb6841e1170bbaf1c3b8f74e559",
       "current": {
@@ -9918,6 +10583,20 @@
       "desired": {
         "text": "Whipping 'em!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "ranked-update",
+      "key": "deadlock/versions/ranked-update/voicelines.json",
+      "jsonPath": "$/lash/holliday/Pings/Miscellaneous Status/Check items/0",
+      "sha256": "d3d65fd5f4966c955ff9bce5a3f0a09ae6ad710f5f9c51ac963a8c2660b8ba7a",
+      "current": {
+        "text": "Check out what Holliday brought.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Check out what Holliday bought!",
+        "officialtranscription": false
       }
     },
     {
@@ -10497,6 +11176,20 @@
     {
       "version": "ranked-update",
       "key": "deadlock/versions/ranked-update/voicelines.json",
+      "jsonPath": "$/yamato/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "38f4e28843b612eaed2f99b86669e1970cd19816e812bed1dc160269fd235c9d",
+      "current": {
+        "text": "Holiday was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "ranked-update",
+      "key": "deadlock/versions/ranked-update/voicelines.json",
       "jsonPath": "$/yamato/ivy/Pings/Item Status~1Usage/Can heal/0",
       "sha256": "cea735ca1737ed340eb58c676b27abba2fdeb4acac4b1cecc790491cd5f3f4aa",
       "current": {
@@ -10940,6 +11633,20 @@
       "desired": {
         "text": "Wrecker's under the garage!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "raven-park",
+      "key": "deadlock/versions/raven-park/voicelines.json",
+      "jsonPath": "$/haze/Self/Hero Selection/Unselect/2",
+      "sha256": "5d190cdb72a7c9ca9aabb081ab559de63723df1439bba14c11a56550e71873d5",
+      "current": {
+        "text": "You don't want a sandman's help?",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "You don't want Sandman's help.",
+        "officialtranscription": false
       }
     },
     {
@@ -12205,6 +12912,34 @@
     {
       "version": "raven-park",
       "key": "deadlock/versions/raven-park/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero training intro/0",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "raven-park",
+      "key": "deadlock/versions/raven-park/voicelines.json",
+      "jsonPath": "$/vindicta/pocket/Pings/General Communication ~1 Social/With/0",
+      "sha256": "88552ae198eb8d0d34a687616fcb5ff833eb12b10715fe6c639d023c5944a8eb",
+      "current": {
+        "text": "I'm with you, Pockets.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I'm with you, Pocket.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "raven-park",
+      "key": "deadlock/versions/raven-park/voicelines.json",
       "jsonPath": "$/vyper/abrams/Pings/Enemy Information and Location/In mid/0",
       "sha256": "af547eef59d78daa992e32e07317e1032d6173227406a048829f6aab6999f12c",
       "current": {
@@ -12555,6 +13290,20 @@
     {
       "version": "raven-park",
       "key": "deadlock/versions/raven-park/voicelines.json",
+      "jsonPath": "$/warden/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "3b19369cbf7285f39379bcb04f8149af95be5ef4ebdb1b1655cf9aca711388f6",
+      "current": {
+        "text": "Holiday was here!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "raven-park",
+      "key": "deadlock/versions/raven-park/voicelines.json",
       "jsonPath": "$/warden/lady geist/Combat/Kill/3",
       "sha256": "739307b425906ecf0bf96f5169859f0dcce8788e7df5948e0495a696d48a8553",
       "current": {
@@ -12606,6 +13355,20 @@
       "desired": {
         "text": "Shiv's on the roof!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "raven-park",
+      "key": "deadlock/versions/raven-park/voicelines.json",
+      "jsonPath": "$/warden/vindicta/Pings/Tactical Communication/Stun/0",
+      "sha256": "ee891f8a607016d9198b9be2d34ee05f803dfbb0dd6247ca51fac8677c544e2b",
+      "current": {
+        "text": "Sun vindicta.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Stun Vindicta.",
+        "officialtranscription": false
       }
     },
     {
@@ -12863,6 +13626,20 @@
     {
       "version": "raven-park",
       "key": "deadlock/versions/raven-park/voicelines.json",
+      "jsonPath": "$/yamato/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "38f4e28843b612eaed2f99b86669e1970cd19816e812bed1dc160269fd235c9d",
+      "current": {
+        "text": "Holiday was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "raven-park",
+      "key": "deadlock/versions/raven-park/voicelines.json",
       "jsonPath": "$/yamato/ivy/Pings/Item Status~1Usage/Can heal/0",
       "sha256": "cea735ca1737ed340eb58c676b27abba2fdeb4acac4b1cecc790491cd5f3f4aa",
       "current": {
@@ -13029,6 +13806,48 @@
       }
     },
     {
+      "version": "shop-rework",
+      "key": "deadlock/versions/shop-rework/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero training intro/0",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "shop-rework",
+      "key": "deadlock/versions/shop-rework/voicelines.json",
+      "jsonPath": "$/wraith/Self/Item Usage/Use shadow weave/0",
+      "sha256": "ae69d48ed9570f6552de7a152bc491f88380500b12d27f1ea892d5dd3b3e52ad",
+      "current": {
+        "text": "Shadowwave.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Shadowweave.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "six-hero-update",
+      "key": "deadlock/versions/six-hero-update/voicelines.json",
+      "jsonPath": "$/haze/pocket/Pings/Tactical Communication/Ignore/0",
+      "sha256": "4cccd88e9410454623514073a41f3145dee52e5c8834545ed97201d857e28aea",
+      "current": {
+        "text": "Ignore Pockets.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Ignore Pocket.",
+        "officialtranscription": false
+      }
+    },
+    {
       "version": "six-hero-update",
       "key": "deadlock/versions/six-hero-update/voicelines.json",
       "jsonPath": "$/patron_female/Self/Match Status/Enemy team wipe/2",
@@ -13183,6 +14002,62 @@
       }
     },
     {
+      "version": "six-hero-update",
+      "key": "deadlock/versions/six-hero-update/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero training intro/0",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "six-hero-update",
+      "key": "deadlock/versions/six-hero-update/voicelines.json",
+      "jsonPath": "$/wraith/Self/Item Usage/Use shadow weave/0",
+      "sha256": "ae69d48ed9570f6552de7a152bc491f88380500b12d27f1ea892d5dd3b3e52ad",
+      "current": {
+        "text": "Shadowwave.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Shadowweave.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "wall-jump-update",
+      "key": "deadlock/versions/wall-jump-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on bridge/0",
+      "sha256": "5372a662cb26339af90ec2b845d68bcdcd4407b1eef539c07d1d874f379c3214",
+      "current": {
+        "text": "Holidays on the bridge.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the bridge.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "wall-jump-update",
+      "key": "deadlock/versions/wall-jump-update/voicelines.json",
+      "jsonPath": "$/abrams/holliday/Pings/Enemy Information and Location/See on roof/0",
+      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+      "current": {
+        "text": "Holidays on the roof.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday's on the roof.",
+        "officialtranscription": false
+      }
+    },
+    {
       "version": "wall-jump-update",
       "key": "deadlock/versions/wall-jump-update/voicelines.json",
       "jsonPath": "$/grey talon/Self/Item Usage/Use metal skin/1",
@@ -13208,6 +14083,20 @@
       "desired": {
         "text": "Spirit Jar is here!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "wall-jump-update",
+      "key": "deadlock/versions/wall-jump-update/voicelines.json",
+      "jsonPath": "$/haze/Self/Emotions/Sad/3",
+      "sha256": "f52c05180b50b2abe4343a047bdb93f2e016352c916c29d20d9aae639bee10ad",
+      "current": {
+        "text": "I won't hear the end of this. Work.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I won't hear the end of this at work.",
+        "officialtranscription": false
       }
     },
     {
@@ -13292,6 +14181,20 @@
       "desired": {
         "text": "Whipping 'em!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "wall-jump-update",
+      "key": "deadlock/versions/wall-jump-update/voicelines.json",
+      "jsonPath": "$/lash/holliday/Pings/Miscellaneous Status/Check items/0",
+      "sha256": "d3d65fd5f4966c955ff9bce5a3f0a09ae6ad710f5f9c51ac963a8c2660b8ba7a",
+      "current": {
+        "text": "Check out what Holliday brought.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Check out what Holliday bought!",
+        "officialtranscription": false
       }
     },
     {
@@ -13983,6 +14886,20 @@
     {
       "version": "winter-update",
       "key": "deadlock/versions/winter-update/voicelines.json",
+      "jsonPath": "$/haze/Self/Hero Selection/Unselect/2",
+      "sha256": "5d190cdb72a7c9ca9aabb081ab559de63723df1439bba14c11a56550e71873d5",
+      "current": {
+        "text": "You don't want a sandman's help?",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "You don't want Sandman's help.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "winter-update",
+      "key": "deadlock/versions/winter-update/voicelines.json",
       "jsonPath": "$/haze/abrams/Pings/Enemy Information and Location/On top of garage/0",
       "sha256": "c2ad9b850e3694159c795c0e7294afb783cc41f047aa53b01b961356739f3ff4",
       "current": {
@@ -15243,6 +16160,34 @@
     {
       "version": "winter-update",
       "key": "deadlock/versions/winter-update/voicelines.json",
+      "jsonPath": "$/shopkeeper_hotdog/Self/Hero training intro/0",
+      "sha256": "dcbae7cd58650f1f0ca1494b948639003ca8678ec62d487dd40702c9e642f374",
+      "current": {
+        "text": "Here you'll be able to test out your hero's movement and abilities. Let's give him a try now!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Here, you'll be able to test out your hero's movement and abilities. Let's give them a try now!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "winter-update",
+      "key": "deadlock/versions/winter-update/voicelines.json",
+      "jsonPath": "$/vindicta/pocket/Pings/General Communication ~1 Social/With/0",
+      "sha256": "88552ae198eb8d0d34a687616fcb5ff833eb12b10715fe6c639d023c5944a8eb",
+      "current": {
+        "text": "I'm with you, Pockets.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "I'm with you, Pocket.",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "winter-update",
+      "key": "deadlock/versions/winter-update/voicelines.json",
       "jsonPath": "$/vyper/abrams/Pings/Enemy Information and Location/In mid/0",
       "sha256": "af547eef59d78daa992e32e07317e1032d6173227406a048829f6aab6999f12c",
       "current": {
@@ -15593,6 +16538,20 @@
     {
       "version": "winter-update",
       "key": "deadlock/versions/winter-update/voicelines.json",
+      "jsonPath": "$/warden/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "3b19369cbf7285f39379bcb04f8149af95be5ef4ebdb1b1655cf9aca711388f6",
+      "current": {
+        "text": "Holiday was here!",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here!",
+        "officialtranscription": false
+      }
+    },
+    {
+      "version": "winter-update",
+      "key": "deadlock/versions/winter-update/voicelines.json",
       "jsonPath": "$/warden/lady geist/Combat/Kill/3",
       "sha256": "739307b425906ecf0bf96f5169859f0dcce8788e7df5948e0495a696d48a8553",
       "current": {
@@ -15644,6 +16603,20 @@
       "desired": {
         "text": "Shiv's on the roof!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "winter-update",
+      "key": "deadlock/versions/winter-update/voicelines.json",
+      "jsonPath": "$/warden/vindicta/Pings/Tactical Communication/Stun/0",
+      "sha256": "ee891f8a607016d9198b9be2d34ee05f803dfbb0dd6247ca51fac8677c544e2b",
+      "current": {
+        "text": "Sun vindicta.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Stun Vindicta.",
+        "officialtranscription": false
       }
     },
     {
@@ -15896,6 +16869,20 @@
       "desired": {
         "text": "Holliday's on the roof!",
         "officialtranscription": true
+      }
+    },
+    {
+      "version": "winter-update",
+      "key": "deadlock/versions/winter-update/voicelines.json",
+      "jsonPath": "$/yamato/holliday/Pings/Enemy Information and Location/Was here/0",
+      "sha256": "38f4e28843b612eaed2f99b86669e1970cd19816e812bed1dc160269fd235c9d",
+      "current": {
+        "text": "Holiday was here.",
+        "officialtranscription": false
+      },
+      "desired": {
+        "text": "Holliday was here.",
+        "officialtranscription": false
       }
     },
     {

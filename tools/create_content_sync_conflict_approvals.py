@@ -40,6 +40,11 @@ def main() -> int:
     parser.add_argument("output", type=Path)
     parser.add_argument("--expected-count", type=int, required=True)
     parser.add_argument("--source-run-url", required=True)
+    parser.add_argument(
+        "--append-existing",
+        type=Path,
+        help="Preserve and combine approvals from an existing approval file",
+    )
     args = parser.parse_args()
 
     plan = json.loads(args.plan.read_text(encoding="utf-8"))
@@ -62,26 +67,51 @@ def main() -> int:
             f"Expected {args.expected_count} conflicts, found {len(approvals)}"
         )
 
+    source_plans: list[dict[str, Any]] = []
+    existing_approvals: list[dict[str, Any]] = []
+    if args.append_existing:
+        existing = json.loads(args.append_existing.read_text(encoding="utf-8"))
+        if existing.get("schemaVersion") != 1 or not isinstance(existing.get("approvals"), list):
+            raise ValueError("Existing approvals must use schemaVersion 1 and contain approvals")
+        existing_approvals = existing["approvals"]
+        if isinstance(existing.get("sourcePlans"), list):
+            source_plans.extend(existing["sourcePlans"])
+        elif isinstance(existing.get("sourcePlan"), dict):
+            source_plans.append(existing["sourcePlan"])
+    source_plans.append(
+        {
+            "baseCommit": plan.get("baseCommit"),
+            "targetCommit": plan.get("targetCommit"),
+            "runUrl": args.source_run_url,
+        }
+    )
+    combined = {
+        json.dumps(item, sort_keys=True, ensure_ascii=False): item
+        for item in [*existing_approvals, *approvals]
+    }
+    combined_approvals = sorted(
+        combined.values(),
+        key=lambda item: tuple(str(item[field]) for field in IDENTITY_FIELDS),
+    )
     result = {
         "schemaVersion": 1,
         "description": (
             "Exact CDN record states explicitly approved for overwrite. "
             "A changed location, hash, current state, or desired state is not approved."
         ),
-        "sourcePlan": {
-            "baseCommit": plan.get("baseCommit"),
-            "targetCommit": plan.get("targetCommit"),
-            "runUrl": args.source_run_url,
-        },
-        "approvalCount": len(approvals),
-        "approvals": approvals,
+        "sourcePlans": source_plans,
+        "approvalCount": len(combined_approvals),
+        "approvals": combined_approvals,
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
         json.dumps(result, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
-    print(f"Wrote {len(approvals)} exact conflict approvals to {args.output}")
+    print(
+        f"Wrote {len(combined_approvals)} exact conflict approvals to {args.output} "
+        f"({len(approvals)} from the current plan)"
+    )
     return 0
 
 

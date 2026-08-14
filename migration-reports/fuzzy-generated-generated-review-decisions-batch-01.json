@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "batch": 1,
+  "selection": "first 40 independent high-confidence generated/generated components",
+  "highDecisions": [
+    {"candidateIndex": 0, "path": "transcripts/newscaster/newscaster_headline_83.mp3.json", "selectedSide": "right", "evidence": "Geis is the correct term for a supernatural obligation; geish is not a word."},
+    {"candidateIndex": 1, "path": "transcripts/announcer/female_patron/patron_female_tutorial_lane_info_alt.mp3.json", "selectedSide": "left", "evidence": "The right reading omits the verb in 'Guardian that at the end'."},
+    {"candidateIndex": 4, "path": "transcripts/newscaster/newscaster_headline_36.mp3.json", "selectedSide": "right", "evidence": "Repository vocabulary authoritatively spells the character John Hathorne."},
+    {"candidateIndex": 8, "path": "transcripts/announcer/female_patron/patron_female_tutorial_destroy_titan.mp3.json", "selectedSide": "left", "evidence": "The matching male tutorial supports Avatar capitalization and 'Now's the time'."},
+    {"candidateIndex": 10, "path": "transcripts/dynamo/prof_monologue_03.mp3.json", "selectedSide": "right", "evidence": "Pinochle is the correct spelling of the card game."},
+    {"candidateIndex": 20, "path": "transcripts/announcer/female_patron/patron_female_tutorial_destroy_t1.mp3.json", "selectedSide": "right", "evidence": "One lane Guardian is down, followed by a reference to the other Guardians; the male counterpart matches."},
+    {"candidateIndex": 23, "path": "transcripts/announcer/female_patron/patron_female_tutorial_first_shop_short_edit_alt.mp3.json", "selectedSide": "right", "evidence": "The left reading creates two conditional clauses without a main clause; sibling tutorials match the right structure."},
+    {"candidateIndex": 25, "path": "transcripts/book/oathkeeper/vn_geist_scene04d_15.mp3.json", "selectedSide": "right", "evidence": "In the surrounding condemnation of aging, 'It is evil' is coherent while 'It is ill' is anomalous."},
+    {"candidateIndex": 28, "path": "transcripts/warden/warden_select_06.mp3.json", "selectedSide": "left", "evidence": "Patrons is the configured game term; patreons is an ASR error."},
+    {"candidateIndex": 29, "path": "transcripts/wraith/wraith_unselect_04.mp3.json", "selectedSide": "left", "evidence": "'It shouldn't take you' is the grammatical construction; the alternate subject is incoherent."},
+    {"candidateIndex": 31, "path": "transcripts/announcer/female_patron/patron_female_enemy_drifter_killing_streak_low_01.mp3.json", "selectedSide": "right", "evidence": "The configured character and filename establish Drifter, and the singular subject requires comes."},
+    {"candidateIndex": 33, "path": "transcripts/announcer/male_patron/patron_male_enemy_lash_killing_streak_low_01.mp3.json", "selectedSide": "left", "evidence": "The filename and configured character establish Lash; Flash and Slash are ASR substitutions."},
+    {"candidateIndex": 35, "path": "transcripts/book/oathkeeper/vn_geist_scene05e_09.mp3.json", "selectedSide": "left", "evidence": "Repository guidance uses standard written transcription rather than informal eye dialect."},
+    {"candidateIndex": 38, "path": "transcripts/shopkeeper/guide_the_map_troopers.mp3.json", "selectedSide": "left", "evidence": "The filename, game terminology, and parallel lines establish Troopers."},
+    {"candidateIndex": 39, "path": "transcripts/warden/warden_enemy_chrono_kill_post_swap_02.mp3.json", "selectedSide": "left", "evidence": "The possessive 'Your little time tricks' is grammatical and fits the Chrono target identified by the filename."},
+    {"candidateIndex": 40, "path": "transcripts/announcer/male_patron/patron_male_ally_gigawatt_start_03.mp3.json", "selectedSide": "right", "evidence": "Repository lines establish Lost Whisper. Only the two generated readings are in scope; later Hidden King dialogue stays separate."},
+    {"candidateIndex": 41, "path": "transcripts/newscaster/newscaster_headline_07.mp3.json", "selectedSide": "right", "evidence": "Communing with the dead is the coherent supernatural expression; commuting is an ASR substitution."}
+  ],
+  "mediumDecisions": [
+    {"candidateIndex": 5, "path": "transcripts/newscaster/newscaster_headline_53.mp3.json", "recommendedSide": "right", "evidence": "Totten is the more conventional surname spelling, but repository vocabulary does not establish this fictional name."},
+    {"candidateIndex": 11, "path": "transcripts/newscaster/newscaster_headline_81.mp3.json", "recommendedSide": "right", "evidence": "Queen & Coven appears to be title styling, but the repository has no authoritative title reference."},
+    {"candidateIndex": 12, "path": "transcripts/synth/pocket_select_04.mp3.json", "recommendedSide": "left", "evidence": "A parallel Pocket file uses 'Today's my chance', but these hashes may still contain a distinct contraction."},
+    {"candidateIndex": 14, "path": "transcripts/shopkeeper/guide_the_map_core.mp3.json", "recommendedSide": "right", "evidence": "The right reading fixes the comma splice, but it also changes an audible contraction."},
+    {"candidateIndex": 22, "path": "transcripts/gigawatt/gigawatt_select_10.mp3.json", "recommendedSide": "right", "evidence": "Past-tense 'freed' fits the sentence and has three hashes, but present-tense 'free' remains grammatical."},
+    {"candidateIndex": 37, "path": "transcripts/newscaster/newscaster_headline_20.mp3.json", "recommendedSide": "right", "evidence": "Cindermaw and singular spirit form a coherent legal headline, but neither name nor number has an authoritative repository reference."}
+  ]
+}

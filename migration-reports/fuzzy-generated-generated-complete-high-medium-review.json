@@ -1,0 +1,1880 @@
+{
+  "schemaVersion": 1,
+  "decision": "needs user review",
+  "statistics": {
+    "components": 46
+  },
+  "candidates": [
+    {
+      "componentId": 3,
+      "path": "transcripts/newscaster/newscaster_headline_53.mp3.json",
+      "filename": "newscaster/newscaster_headline_53.mp3",
+      "similarity": 0.995169,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Totten is the conventional surname spelling and Toten appears phonetic, but no repository vocabulary entry independently names Frederick.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "5ebc431e83995a44cfac9f07167df7294fd66c4ed8ee1e2d312c37c0fdb4be88"
+            ],
+            "text": "Is Trinity Church an undead time bomb waiting to explode? We talked with premier necromancer Frederick Toten to get his take.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "1ecad9998ba21a10be879bde1a526295d364e69a1579b5c5b2f37443a463b9ca"
+            ],
+            "text": "Is Trinity Church an undead time bomb waiting to explode? We talked with premier necromancer Frederick Totten to get his take.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 7,
+      "path": "transcripts/newscaster/newscaster_headline_81.mp3.json",
+      "filename": "newscaster/newscaster_headline_81.mp3",
+      "similarity": 0.993988,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Queen & Coven is plausibly the bestseller's styled title, while later generic queen and coven uses remain lowercase; no authoritative title list confirms it.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "a42d4df4f46e050b1ffd3d6bcf20e0db251264844f52d47bb7aa3a5328fc3623"
+            ],
+            "text": "The international bestseller for queen and coven, highlighting the daring exploits of the queen's own 13th airborne assault coven, is under fire as representatives of the crown claim that some of the operations detailed in the tell-all violate the nation's scrying laws and pose a national security risk.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "26163a281c909a42a71ce03f12e95cd2c9abe18991bfe303a7204ddc2d2ae62a"
+            ],
+            "text": "The international bestseller for Queen & Coven, highlighting the daring exploits of the queen's own 13th airborne assault coven, is under fire as representatives of the crown claim that some of the operations detailed in the tell-all violate the nation's scrying laws and pose a national security risk.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 8,
+      "path": "transcripts/synth/pocket_select_04.mp3.json",
+      "filename": "synth/pocket_select_04.mp3",
+      "similarity": 0.993548,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "The canonical pocket/pocket_select_04 parallel uses Today's across two other hashes, but these synth hashes may be distinct recordings.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "6e34b36779680e1d9d989b0d891e437cbdbafc1cd387c2084b78886577b8c58f"
+            ],
+            "text": "My father's gift for my 18th birthday was a bullet to the chest. Today's my chance to say thank you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "12a139aacfd9cf078bf58c56372f0c3e974ec38c526499ce295eec87ea1952e7"
+            ],
+            "text": "My father's gift for my 18th birthday was a bullet to the chest. Today is my chance to say thank you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 17,
+      "path": "transcripts/announcer/male_patron/patron_male_ally_lash_start_05.mp3.json",
+      "filename": "announcer/male_patron/patron_male_ally_lash_start_05.mp3",
+      "similarity": 0.990826,
+      "verdict": "medium",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "medium",
+      "evidence": "The later official line independently begins You've proven, favoring revision 2, but its Hidden King ending is separate era-specific dialogue.",
+      "componentRevisionIndices": [
+        1,
+        2
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "2e0090a899f941cb4accc621b3daab7bb791e7dc0993016e0f63d7282a45856f"
+            ],
+            "text": "You have proven yourself time and again, Lash, but the world still doubts you. But once you release me, your greatness will be undeniable.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "7b18c0109da2d5001c09f13e48ce37176a8431fcf3b5855df3da39d6c766ee74"
+            ],
+            "text": "You've proven yourself time and again, Lash, but the world still doubts you. But once you release me, your greatness will be undeniable.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 22,
+      "path": "transcripts/newscaster/newscaster_headline_20.mp3.json",
+      "filename": "newscaster/newscaster_headline_20.mp3",
+      "similarity": 0.988142,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Cindermaw and legal-style v. are more plausible than Cindermar and vs., but no authoritative repository vocabulary confirms the fictional case name.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "e631f2a910d49ea9954aefe9428d05f19d34d3df5d7a04ffd0c807cc9ccb76d3"
+            ],
+            "text": "The Supreme Court today upheld Cindermar vs. the State of Alabama, paving the way for the spirits' congressional bid. Read all about it in the New York Oracle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "a772a311f75c7db805effd67fae8e6d5e44c378520c384a28a62d7491c88f0b8"
+            ],
+            "text": "The Supreme Court today upheld Cindermaw v. the State of Alabama, paving the way for the spirit's congressional bid. Read all about it in the New York Oracle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 23,
+      "path": "transcripts/lash/lash_select_10.mp3.json",
+      "filename": "lash/lash_select_10.mp3",
+      "similarity": 0.987654,
+      "verdict": "medium",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 2 is the only fully grammatical account of Lash's boast, but filler placement and exact wording remain recording-dependent.",
+      "componentRevisionIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "fc7236eecc205fcb878dcfceaa625ed4f889a2bfac3ec654f9667d2c21a87f25"
+            ],
+            "text": "I'm not dumb. I know a lot of people hate me. It's a... it's a curse, really. You know, it's just rules so hard that, uh, every mediocre soul in the city has to resent you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "2b285718dc283f95e1e73a8a49485f54890c5b38ab130d43d292db6c8897d8cb"
+            ],
+            "text": "I'm not dumb. I know a lot of people hate me. It's a curse, really. You know, these rules so hard that every mediocre soul in the city has to resent you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "2e28aea00b68c8cccdf790061d4d8e272aebbcfac48e3d828a2024947a5f0ff1"
+            ],
+            "text": "I'm not dumb. I know a lot of people hate me. It's a curse, really, you know, you just rule so hard that, uh, every mediocre soul in the city has to resent you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 3,
+          "revision": {
+            "sha256": [
+              "f70883a3f267eb7c48160e91e4eb1d0b334d45eb609594a121ae5c5a46aa045e"
+            ],
+            "text": "I'm not dumb. I know a lot of people hate me. It's a... it's cursed, really. You know, it's just rule so hard that, uh, every mediocre soul in the city has to resent you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 36,
+      "path": "transcripts/newscaster/newscaster_headline_27.mp3.json",
+      "filename": "newscaster/newscaster_headline_27.mp3",
+      "similarity": 0.985714,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "LaPree is the more conventional spelling and preserves the apparent French surname form, but repository vocabulary does not name this expert.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "92b49049294ceddbb8bdd6c582e43773c2f39080c0ce55cae288218a3654f5a2"
+            ],
+            "text": "Have love potions ruined dating? See what relationship expert Madame LaPree thinks.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "2ce2acc1c0b15851fbd1bc38e6a44a899c25a768ecbb57f35174358d0768748b"
+            ],
+            "text": "Have love potions ruined dating? See what relationship expert Madame LePree thinks.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 53,
+      "path": "transcripts/newscaster/newscaster_headline_34.mp3.json",
+      "filename": "newscaster/newscaster_headline_34.mp3",
+      "similarity": 0.984293,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 0 correctly uses Oracle's and standard off-Broadway styling, and Gray Coven is plausible; no independent source confirms Gray versus Great.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "390628306dc0b9bb3b3326f5b7f678fc6a5b47b6792897dc133bda455b0a5deb"
+            ],
+            "text": "The Gray Coven leaves audiences spellbound. Read the New York Oracle's review of the latest off-Broadway sensation.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "5c4a372dc663363e0f8314fcb33d4edf9c8dc4699d65c6a6b8572839d104f8f9"
+            ],
+            "text": "The Great Coven leaves audiences spellbound. Read the New York Oracles review of the latest Off-Broadway sensation.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 56,
+      "path": "transcripts/krill/krill_kill_cadence_06.mp3.json",
+      "filename": "krill/krill_kill_cadence_06.mp3",
+      "similarity": 0.984127,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Repository material presents Cadence as the Ixian singer and revision 0's she is likely, but no direct same-line parallel proves the pronoun.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "4686fffcdd5f2d8b539198d138d05b3fb1623f6e5da9bb76cdbc6c78e3e97b52",
+              "dce0684f50dac0d329aded86d7133cd8a790b9030d432c467613b19967f289ce"
+            ],
+            "text": "Sorry, Momo. She did not leave us a choice.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "bd6eb4b29325288e182a5818cbd2b4b99de0826fe1318531a2d75d09f072b204"
+            ],
+            "text": "Sorry, Momo. He did not leave us a choice.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 62,
+      "path": "transcripts/newscaster/newscaster_headline_19.mp3.json",
+      "filename": "newscaster/newscaster_headline_19.mp3",
+      "similarity": 0.983871,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Bunko is the plausible party-game term and the colon fits the headline, while Funko does not fit the described game; no repository authority confirms the proper spelling.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "48781a91fa82f6481ea7a11b8398005ef32568f79cc3311ca94bf87083c62721"
+            ],
+            "text": "Funko! Party game or a ritual component. To the Soho coven, it's a little of both.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "7d523a8e42086d157feecc244b00b772859d2808478f332b3dfde77a62dbaee9"
+            ],
+            "text": "Bunko: party game or a ritual component. To the Soho coven, it's a little of both.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 67,
+      "path": "transcripts/newscaster/newscaster_headline_65.mp3.json",
+      "filename": "newscaster/newscaster_headline_65.mp3",
+      "similarity": 0.983425,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Eldritch fits the occult setting and company context better than Eldridge, but the repository has no independent authoritative spelling.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "d3ba5a5deaceeca936d319356d5bdab7cb16c076f43e903aaa64516b2753d7c9"
+            ],
+            "text": "Eldritch Tactical Solutions, a subsidiary of Fairfax Industries, comes under fire as new allegations are made by former employees. Are these soldiers of fortune committing war crimes? The New York Oracle investigates.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "9aaa4d2c4ed3d65819b4ba9533c799954fa2992508c9e2b829500cd13fde1332"
+            ],
+            "text": "Eldridge Tactical Solutions, a subsidiary of Fairfax Industries, comes under fire as new allegations are made by former employees. Are these soldiers of fortune committing war crimes? The New York Oracle investigates.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 69,
+      "path": "transcripts/book/oathkeeper/vn_geist_scene02a_18.mp3.json",
+      "filename": "book/oathkeeper/vn_geist_scene02a_18.mp3",
+      "similarity": 0.983333,
+      "verdict": "medium",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 2 is the coherent response to the preceding symposium request; revision 1's Do I imagine is malformed, while revision 0 has plausible fillers and different tense that require audio to exclude.",
+      "componentRevisionIndices": [
+        0,
+        1,
+        2
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "d66cc89c3b8f0e273295735ce4ead94f577b1cead55a134b622816800fcfa6ef"
+            ],
+            "text": "Um, I imagine I could drum up some interest. Uh, when next year are you thinking?",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "1bf4eceb9f647e2bd1e950da54ebed4b1c9ab6e418748db92f2ef88b49071a05"
+            ],
+            "text": "Do I imagine I could drum up some interest? When next year were you thinking?",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "ef0f74a7bdf48203470d579803f6eeabb621e7184694fe522710039cb9a25d10"
+            ],
+            "text": "I imagine I could drum up some interest. When next year were you thinking?",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 75,
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_t4_nano_02.mp3.json",
+      "filename": "shopkeeper/shopkeeper_hotdog_t4_nano_02.mp3",
+      "similarity": 0.983051,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "If you ask me is the conventional complete introductory clause; You ask me can be colloquial speech, so audio is needed for high confidence. The official line is unrelated.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "1935edfca1a0571c777f0aabdbeefc04a18a866802c3d6867fc56fadfe98189c",
+              "848e5d0435afaa1a7e261ed343435cf12c94003bb0490bce748c08c6a099350c"
+            ],
+            "text": "You ask me, the Oracle was way too harsh when they called you a warmonger.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "7a214d94a3427cda6462af86bc6bcbab77964a32e5719d5d89c7a96af5fb6245"
+            ],
+            "text": "If you ask me, the Oracle was way too harsh when they called you a warmonger.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 80,
+      "path": "transcripts/krill/krill_killed_by_ghost_04.mp3.json",
+      "filename": "krill/krill_killed_by_ghost_04.mp3",
+      "similarity": 0.982456,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Aether Son is the only candidate shaped like an occult title and fits a statement about Ghost's powers, but it lacks independent authoritative spelling evidence.",
+      "componentRevisionIndices": [
+        0,
+        1,
+        2
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "26239d898ac59137a169d6436a3c115485d3428cf0bba10acdbf1a651f6d5b2c"
+            ],
+            "text": "It would seem the powers of the eighth son aren't an overexaggeration.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "51e3d5528da8752d7b4bb840628099119fd5562c75772e1b4988ae32763444e6"
+            ],
+            "text": "It would seem the powers of the Aether Son aren't an overexaggeration.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "bfb2fcb940fecc52002801024b2e27adc3bb2125f57bd6c850ca287ec5779afc"
+            ],
+            "text": "It would seem the powers of the eighth sun aren't an overexaggeration.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 90,
+      "path": "transcripts/warden/warden_ally_shiv_unkillable_02.mp3.json",
+      "filename": "warden/warden_ally_shiv_unkillable_02.mp3",
+      "similarity": 0.981818,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Fop is a meaningful old-fashioned insult fitting Warden's diction; flop is also grammatically possible and no parallel line confirms the noun.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "21455e0ce69d0cfac77ff74690a293e8e1e9df29b051911e2ab321c81fd61918",
+              "2d5445c69003e34dee2bc25979dafbafe075ceb8842d87d296b9ed60c1c84395",
+              "db8f6445295cc6c17629c1844e8855f1330daa39ffdb38076c40c5f35660b3de"
+            ],
+            "text": "Looks like he's not a fop after all.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "a801a464497993480930f874a6040a7fb762069b599236ce61815c2972b3153a"
+            ],
+            "text": "Looks like he's not a flop after all.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 110,
+      "path": "transcripts/newscaster/newscaster_headline_48.mp3.json",
+      "filename": "newscaster/newscaster_headline_48.mp3",
+      "similarity": 0.980583,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Bleak Carnival is a plausible ominous proper name in this setting, whereas Bleet appears to be a generated near-homophone; no independent repository authority confirms it.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "890a9f9239e50c3e2d70f4813b8cbf12c06009bf4861b880fc5fdabd763dccc7"
+            ],
+            "text": "Looking to take your kids to the Bleet Carnival? Pick up your copy of the New York Oracle to find out how to keep your family safe.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "82bb4f1caa0d1deb72959ed5419dc885496e825779b5e414c9725a0a8a3a5f87"
+            ],
+            "text": "Looking to take your kids to the Bleak Carnival? Pick up your copy of the New York Oracle to find out how to keep your family safe.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 129,
+      "path": "transcripts/lash/lash_ally_orion_pass_on_zipline_01.mp3.json",
+      "filename": "lash/lash_ally_orion_pass_on_zipline_01.mp3",
+      "similarity": 0.98,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Filename and speaker support Lash rather than last, but the selected revision has questionable capitalization after a comma.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "7d3a70d8f593b2b0496fbdd9de2637f981538b96e8174c20d5cd38fb572325f9",
+              "ac7cfbfb9fdd4b7a990fc97e7e5728179f107e6d1d4726a2b8b4eb04ac1d28cb"
+            ],
+            "text": "Don't worry, old man. The last will be back to help carry you soon.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "6ad3f0d6fa717fcc838d2b21f7c26f56e41c77af8e69cce58198882c0bac19f5"
+            ],
+            "text": "Don't worry, old man, The Lash will be back to help carry you soon.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 232,
+      "path": "transcripts/kelvin/kelvin_ally_tengu_take_objective_with_teather_03.mp3.json",
+      "filename": "kelvin/kelvin_ally_tengu_take_objective_with_teather_03.mp3",
+      "similarity": 0.97561,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Ally-Ivy context favors direct address Ivy, it's always a pleasure, but the alternative is grammatical and the extra it is audible.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "07e27bb68b2f38f859a6f4667a85f68debfa1721b09569da2f84e8351b84f245"
+            ],
+            "text": "Ivy is always a pleasure.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "b873bf6554ff50313397a7d4d46fc03490c55c09e9a7b497390f581f20e5c2b3"
+            ],
+            "text": "Ivy, it's always a pleasure.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 247,
+      "path": "transcripts/shopkeeper/guide_special_double_jump_alt.mp3.json",
+      "filename": "shopkeeper/guide_special_double_jump_alt.mp3",
+      "similarity": 0.97541,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 0 gives a direct grammatical tutorial instruction; revision 1's etc., what have you, use construction is awkward, but could reflect spoken wording.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "6af9b91315d8045cd328d4b2c2be6ee22c5f0afcabc9fbd7b88396f021cae01d"
+            ],
+            "text": "Press space at the top of a jump to double jump. Special moves like double jump, dash, etc., will have you use your stamina bar, located next to your reticle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "66f3b903267caf5ccb5a5c0075524402be3d17176699cf4f2231ce67e2801678",
+              "c9a5d506198006077ad2ff8ca3812faa7f27ea539ca262c3b81a2313e58ff981"
+            ],
+            "text": "Press space at the top of a jump to double jump. Special moves like double jump, dash, etc., what have you, use your stamina bar, located next to your reticle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 306,
+      "path": "transcripts/gigawatt/gigawatt_boost_past_on_zipline_03.mp3.json",
+      "filename": "gigawatt/gigawatt_boost_past_on_zipline_03.mp3",
+      "similarity": 0.972973,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "You're better, bastards is grammatical whereas Your better bastards is not, but the odd zipline context leaves the exact utterance uncertain.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "945b652fa5812ed5f5f9ccc8b137030f4818e3b65215bfa3ce911ae6701ddc3a",
+              "f871ce1f8eb61e16126109472483c886a18320e8fef30c986c8c15ac9ab246aa"
+            ],
+            "text": "Your better bastards.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "9bb3fe00d9c3bcac5bd5f8c6f362490046a24445475e90b007c57dd0a3d983ef"
+            ],
+            "text": "You're better, bastards.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 320,
+      "path": "transcripts/krill/krill_unselect_02.mp3.json",
+      "filename": "krill/krill_unselect_02.mp3",
+      "similarity": 0.972973,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Several parallel Wraith-addressing lines use Reese, favoring revision 0, but other repository lines also contain Reece and no authoritative mapping settles it.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "05d53d3fc92f4569f6658260bd3899d6e76d56c314052d3e05922a0b40459c7b",
+              "11911ddee0007881cd49ac2beaeca52dabd12ed0903958197237dcbd82826997",
+              "9b95df327869777cde0a51164187e7cacabff656136242b9284ff47c13ed86f9"
+            ],
+            "text": "False alarm, Reese. Let's go back to the tunnels.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "717ae9c70909a8ccf50e6db3ed102eeb1619ece3446acc9d387f0fc57819b635"
+            ],
+            "text": "false alarm, Reece. Let's go back to the tunnels.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 348,
+      "path": "transcripts/newscaster/newscaster_headline_22.mp3.json",
+      "filename": "newscaster/newscaster_headline_22.mp3",
+      "similarity": 0.971963,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Mikael LaSonne is a plausible stylized incubus-stage name and wordplay, but no repository vocabulary independently confirms it over Mikhail Lesan.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "351ed6de78062e63c1d1da011b6c3d616c755986fe132d283954925ae70fd542"
+            ],
+            "text": "A memoir by Incubus to the Stars, Mikael LaSonne, has spent three weeks on top of our bestsellers list. Learn more about the book that has everyone talking in this week's edition of The New York Oracle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "ced7959355f02547ce970d7480687a2e154f9bbd11d2cdead32a397c1a6d9229"
+            ],
+            "text": "A memoir by Incubus to the Stars, Mikhail Lesan, has spent three weeks on top of our bestsellers list. Learn more about the book that has everyone talking in this week's edition of The New York Oracle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 350,
+      "path": "transcripts/viper/viper_select_09.mp3.json",
+      "filename": "viper/viper_select_09.mp3",
+      "similarity": 0.971963,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 1 explains the self-correction from know to knew and avoids revision 0's unexplained exact repetition, but filler words remain audio-dependent.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "f1da6670f0fc7cd395c6d73e93b642657f5d1abc4ff068fb357c765c8afb707a"
+            ],
+            "text": "I knew a guy who owed the seventh moon a C-note. Well, I knew a guy who owed the seventh moon a C-note. Yamato murdered the shit out of him.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "4b51cd21dfae396993e9af5035209c13014eb6e81010608152dd6eddd77a8b43"
+            ],
+            "text": "I know a guy who owed the seventh moon a C-note, or, uh, well, I knew a guy who owed the seventh moon a C-note. Yamato murdered the shit out of him.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 351,
+      "path": "transcripts/newscaster/newscaster_headline_43.mp3.json",
+      "filename": "newscaster/newscaster_headline_43.mp3",
+      "similarity": 0.971631,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Klenski is internally consistent for both trial and Eric and appears the more distinctive fictional spelling, but no independent repository source confirms it over Klansky.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "6a54c1c6f6243f226c67a87b9dc85627b58f222aa27f4c77386d53e56e4c4657"
+            ],
+            "text": "The Klenski trial has taken a dramatic turn today, as Miserhart took the stand to claim that Eric Klenski's botched exorcism caused the spirit inhumane pain and suffering.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "595fbd37bd0ad9192e982375b64cbbe0241607f9cba959cbeed2094a2a107a4d"
+            ],
+            "text": "The Klansky trial has taken a dramatic turn today, as Miserhart took the stand to claim that Eric Klansky's botched exorcism caused the spirit inhumane pain and suffering.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 353,
+      "path": "transcripts/announcer/female_patron/patron_female_enemy_walker_destroyed_02.mp3.json",
+      "filename": "announcer/female_patron/patron_female_enemy_walker_destroyed_02.mp3",
+      "similarity": 0.971429,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "The walker-destroyed filename proves walkers rather than Walters, but revision 0 begins lowercase and is not fully compliant with sentence-case guidance.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "0cdfd6df39dbe13458f3b3d01a5cb804de82e72e26f456597f698cc8c8de3898"
+            ],
+            "text": "half of their walkers have been destroyed!",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "323e6071f2b31b89e21573be20d381c977ca62dbb6fb2858c9651bdd856adf2e"
+            ],
+            "text": "Half of their Walters have been destroyed.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 381,
+      "path": "transcripts/slork/ping/rr_test_26_ping_ability4_not_ready.mp3.json",
+      "filename": "slork/ping/rr_test_26_ping_ability4_not_ready.mp3",
+      "similarity": 0.971429,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Bugman's is the cleaner proper-name reading, but no filename, vocabulary, or parallel line establishes the ability name.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "e226bd27322672d486baba080194d7c674e9578dda27ae5c50a161159e436107"
+            ],
+            "text": "Bugman's on cooldown.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "816749b66433ec4e1d4897c1eff839b3d8377cc1f0ee50eeb7d57ce7c3c8ff10"
+            ],
+            "text": "Bugaman's on cooldown.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 450,
+      "path": "transcripts/newscaster/newscaster_headline_73.mp3.json",
+      "filename": "newscaster/newscaster_headline_73.mp3",
+      "similarity": 0.96861,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Asouho is more plausible as a cafe proper name and revision 1 has clean sentence boundaries, but no independent repository spelling confirms it over Toshoho.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "57ea05e5e90661e4e40ed5f4e66993531f553f47cf554ea3a3b1f3253a4c8897"
+            ],
+            "text": "Toshoho Cat Cafe, run by familiars, has charmed the community, but to owners Mittens and Peppermint, it's just another day making biscuits.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "a23add21272adcb2d450f3a426b25f91de84924f7065900093b9819657ce5ccc"
+            ],
+            "text": "Asouho Cat Cafe, run by familiars, has charmed the community. But to owners Mittens and Peppermint, it's just another day making biscuits.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 497,
+      "path": "transcripts/chrono/chrono_select_05.mp3.json",
+      "filename": "chrono/chrono_select_05.mp3",
+      "similarity": 0.966102,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Time's wastin' expresses the recognizable time-is-wasting joke, whereas time's wasted is awkward, but the dropped g is audible and needs review.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "fe995b439b2afa1fd2e292329f0bd02d81a02493c8237bd96e193582459c9af9"
+            ],
+            "text": "Time's wasted. That was a little time joke. Not sure if you picked up on that.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "5fb9a280fdb6f9e9e2f0aa6f934722c0bd1e25fa0d2c4680335b26be8921ca80"
+            ],
+            "text": "Time's wastin'. That was a little time joke. Not sure if you picked up on that.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 629,
+      "path": "transcripts/lash/ping/lash_ping_careful_pocket_03.mp3.json",
+      "filename": "lash/ping/lash_ping_careful_pocket_03.mp3",
+      "similarity": 0.962963,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 0 has the correct singular name and sentence, but fails authoritative proper-name capitalization; revision 2 pluralizes Pocket.",
+      "componentRevisionIndices": [
+        0,
+        2
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "03e7119e61dac83f0fa0968a082c3f6b518286e834e202e31bffe905118c1c28"
+            ],
+            "text": "Careful, pocket!",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "a0d4c8e99945f72ab21b8f4f04cfd0a17465dce74b94d7a5f821f0c64461588f"
+            ],
+            "text": "Careful pockets!",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 667,
+      "path": "transcripts/book/oathkeeper/vn_geist_scene05d_22.mp3.json",
+      "filename": "book/oathkeeper/vn_geist_scene05d_22.mp3",
+      "similarity": 0.961538,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "I've brought biscuits for you and your guests, miss is the most coherent servant-delivery line, but brought/bought and guest number remain audible differences.",
+      "componentRevisionIndices": [
+        0,
+        1,
+        2
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "1fcd3ab6a4729f72fe7cd75c5357d7a56b241e99835de9ffddf14171fdf1432d"
+            ],
+            "text": "I've brought some chocolate biscuits for you and your guests, miss.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "cd649dfca8f103ef0cfd82ae69de8dc8c9be807feffe102f7a3e29eb94ee390a"
+            ],
+            "text": "I bought some chocolate biscuits for you and your guestless.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "cdf67893ee2d024aef7eabe05583616616e74b1dcdfa790f05e73bb574a4d91a"
+            ],
+            "text": "I bought some chocolate biscuits for you and your guest, miss.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 709,
+      "path": "transcripts/inferno/inferno_kill_pocket_01.mp3.json",
+      "filename": "inferno/inferno_kill_pocket_01.mp3",
+      "similarity": 0.96,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Out of your depth is the clear idiom and fits Pocket, but the existing revision lowercases the proper name and is not exact enough for auto-apply.",
+      "componentRevisionIndices": [
+        1,
+        2
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "5359f1518760ca0a2b3b6526e44fbad3db7b587b7f45cac45f27b4198477ce8e"
+            ],
+            "text": "You're out of your depth, pocket.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "94736addd95e2d17527ed0aad2912238c497a268559ee8933eec124ea843cc38"
+            ],
+            "text": "You're out of your death pocket.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 739,
+      "path": "transcripts/announcer/female_patron/patron_female_ally_shiv_start_04_alt_01.mp3.json",
+      "filename": "announcer/female_patron/patron_female_ally_shiv_start_04_alt_01.mp3",
+      "similarity": 0.959538,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 1 restores inside you and is the more coherent patron address, but its the beast wording may differ from the intended a beast and lacks independent confirmation.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "24eb1ba58f738e4271becb164f23c714455237c12b10549595e58ad162180927"
+            ],
+            "text": "Here, the monster inside is not a beast, it is ambition. Complete the ritual, and you will finally be sated.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "fcfab59d9660f0d520fb6582ac7b39aabd089134fc379ad6a7f99f01e5dde234"
+            ],
+            "text": "Here, the monster inside you is not the beast, it is ambition. Complete the ritual and you will finally be sated.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 776,
+      "path": "transcripts/announcer/female_patron/patron_female_ally_shiv_start_06.mp3.json",
+      "filename": "announcer/female_patron/patron_female_ally_shiv_start_06.mp3",
+      "similarity": 0.957265,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Backstage Society is thematically plausible for a criminal brotherhood, while Backstreet may be a near-homophone; no independent repository occurrence confirms the proper name.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "b44bce5433e09d4625f905b17986e76921176aee2e70315e337fd10a20fccb9d"
+            ],
+            "text": "The Backstage Society is counting on you, Shiv. Don't fail your brothers.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "c97cf1e07b10145927104201b507911efc30d57b4cfc5040f4a2971832a71135"
+            ],
+            "text": "The Backstreet Society is counting on you, Shiv. Don't fail your brothers.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 778,
+      "path": "transcripts/announcer/female_patron/patron_female_ally_orion_start_09.mp3.json",
+      "filename": "announcer/female_patron/patron_female_ally_orion_start_09.mp3",
+      "similarity": 0.956522,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Could never provide justice is grammatical and close to the parallel male-patron can never wording; revision 0's never provides is also grammatical, so audio is needed.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "6388d560b3568fb9da1e126907297fc867928642306ca222c528cbac3689d854"
+            ],
+            "text": "The law never provides justice, but I can. Complete the ritual talon and know peace.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "10497b3c474707cabe5b95bf93ea4769a90994ee1739b22b3de82246c692c8e7"
+            ],
+            "text": "The law could never provide justice, but I can. Complete the ritual, Talon, and know peace.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 809,
+      "path": "transcripts/haze/ping/haze_ping_stun_sandeep_01.mp3.json",
+      "filename": "haze/ping/haze_ping_stun_sandeep_01.mp3",
+      "similarity": 0.956522,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 0 alone has the correct verb Stun and recognizable Sandeep, but its compound capitalization violates authoritative spelling.",
+      "componentRevisionIndices": [
+        0,
+        2,
+        3
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "acc191d5cd5fb9777bead5350674b93c0a8d42f84135dcd470a7ffbe12d4f8bb"
+            ],
+            "text": "Stun SanDeep.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "9a0b8b9879295262f889252ba8a8bcd5403d2d31c7434bd9e50ad042e8b99e9f"
+            ],
+            "text": "Stand Sandeep.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 3,
+          "revision": {
+            "sha256": [
+              "eae486f7a74d49baaa474d3eb07ce3878a7f25b37d2d4dbe53b6f66424be8c83"
+            ],
+            "text": "Stan Sandeep.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 834,
+      "path": "transcripts/tengu/ivy_kill_mirage_01.mp3.json",
+      "filename": "tengu/ivy_kill_mirage_01.mp3",
+      "similarity": 0.956522,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Neeraj is the standard proper-name spelling and plausibly names Mirage, but the repository does not independently establish it.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "9ff6094d2239adeaf47cf0f855415eff99ca8f495ba2c62ca24dc5155f2e8533"
+            ],
+            "text": "Neraj is down!",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "43cf9285be82f4a241fb2f38b3e0f625bfa0c77b8d7c159b51cc50611d3b998a"
+            ],
+            "text": "Neeraj is down!",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 875,
+      "path": "transcripts/lash/lash_boost_past_on_zipline_01.mp3.json",
+      "filename": "lash/lash_boost_past_on_zipline_01.mp3",
+      "similarity": 0.954545,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "The line clearly refers to character Lash rather than lass, but the existing revision lowercases the proper title The Lash and is not exact enough to auto-apply.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "62fbbc8d0fd78180592b15ddd5d26d0ecac37fa8f75f014d574a302466b97f5a",
+              "9612f83b09f331a670b3fad44985e00a7b4670bb7fd60c2496ef9484aa46fcc9"
+            ],
+            "text": "The lass is coming through.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "d4508dabd7da4c2c53c7c78707b031d6f13c9203404eefa4a4f1763c9a4c4df5"
+            ],
+            "text": "The lash is coming through.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 893,
+      "path": "transcripts/forge/mcginnis_upgrade_power3_03.mp3.json",
+      "filename": "forge/mcginnis_upgrade_power3_03.mp3",
+      "similarity": 0.954023,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "The way people will love me is more coherent than the right people will love me, but the opening still sounds incomplete without recording context.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "de7a3a185c3f12697ccb24c75ce82f6a209c78eb51c047829a33de885e004ea5"
+            ],
+            "text": "It's the right people will love me. He's wrong, you know. My team will be dead, so it's not like anyone will complain.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "3ea6bc79032b8cb36acd2891399041efa240f6e615337c9734bdf9ff0cf24b47"
+            ],
+            "text": "It's the way people will love me. He's wrong, you know. My team will be dead, so it's not like anyone will complain.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 895,
+      "path": "transcripts/announcer/male_patron/patron_male_grant_boon_magic_02.mp3.json",
+      "filename": "announcer/male_patron/patron_male_grant_boon_magic_02.mp3",
+      "similarity": 0.953846,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "The official parallel lacks all and supports Such arcane mysteries I will show you, but the older recording may audibly include all.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "0c182cfeabb0c7c2be92084b87f62073d2ead41a733588029efa2af2a2be74f9"
+            ],
+            "text": "Such arcane mysteries I will show you all.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "22763138a91c4fead04e457236281930b587a64c48c82db888ebffa845b2e948",
+              "3725373f6cea4eca7a3f93bb7363352147f24380e75c64d0e4061138ae747c84"
+            ],
+            "text": "Such arcane mysteries I will show you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 899,
+      "path": "transcripts/ghost/geist_kill_high_networth.mp3.json",
+      "filename": "ghost/geist_kill_high_networth.mp3",
+      "similarity": 0.953488,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Capitalized Sitha is plausibly a fictional occult power in Geist's lore, while sigma reads as a phonetic/meme substitution; no vocabulary entry confirms Sitha.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "4489aaafbc1ccc2f0fa13349da1acb29e7339902c2b0a34b8953dc0e39e9b93e"
+            ],
+            "text": "What is money when compared to the power of the Sitha?",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "9eb154e8a4d8c69c141a9149fe62ca4dec2e0ae0bf716662ef02af36d7f31ba8"
+            ],
+            "text": "What is money when compared to the power of the sigma?",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 900,
+      "path": "transcripts/krill/krill_killed_by_astro_04.mp3.json",
+      "filename": "krill/krill_killed_by_astro_04.mp3",
+      "similarity": 0.953488,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Fortune's lover is a coherent sarcastic epithet for Holliday and preserves a possessive phrase; no repository term confirms it over Fortis lover.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "b0574e0328cd1b149e2a1e294385487b95fc449ea65cfeecd239b86e8d01d1f2",
+              "fe4b75321f62fa7a0c4520a1912cc5a39d6423752867f6285e38ff566d04bc47"
+            ],
+            "text": "Oh look, Fortune's lover shot us. Who would have guessed?",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "e1a0b1f0ec5957a147a0d671a27c48c820cfe6a4774ea40a10c4bdb80406751a"
+            ],
+            "text": "Oh, look, Fortis lover shot us. Who would have guessed?",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 902,
+      "path": "transcripts/gigawatt/gigawatt_unselect_09.mp3.json",
+      "filename": "gigawatt/gigawatt_unselect_09.mp3",
+      "similarity": 0.952941,
+      "verdict": "medium",
+      "selectedRevisionIndex": 3,
+      "judgmentConfidence": "medium",
+      "evidence": "Fail followed by could have chosen victory forms the most coherent admonition, but save us all/save her and shared/chosen are audible semantic alternatives.",
+      "componentRevisionIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "5ae9dac67981ef4fb75f31cc7f418ffa95d0d06c00116ebe69cfb1015472d179"
+            ],
+            "text": "One day you will fail, and when you do, remember this moment. The moment you could have shared in victory.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "2c9395ae512c920ffe94448c603c7b63140be67e1d0b242c88e39f3825162a46"
+            ],
+            "text": "One day you will save us all, and when you do, remember this moment. The moment you could have chosen victory.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "62c9f523d1c9d509404f0a804c7edeafcb42bb5d0151dcda7139c04cb997b157"
+            ],
+            "text": "One day you will save her, and when you do, remember this moment. The moment you could have chosen victory.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 3,
+          "revision": {
+            "sha256": [
+              "33fa09920c653c65d3026e74183e905cd1f40432045bac0352407206a46a2a35"
+            ],
+            "text": "One day, you will fail, and when you do, remember this moment. The moment you could have chosen victory.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 967,
+      "path": "transcripts/shopkeeper/hero_training_shopping.mp3.json",
+      "filename": "shopkeeper/hero_training_shopping.mp3",
+      "similarity": 0.952381,
+      "verdict": "medium",
+      "selectedRevisionIndex": 1,
+      "judgmentConfidence": "medium",
+      "evidence": "Revision 1 is the clearer tutorial prose with go shopping and a complete impact clause, but will/would is an audible modality difference requiring review.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "ddea018d8d61c773e35867f834f82e46f596eefb5fc06d99e1c7d846422a5538"
+            ],
+            "text": "Time to go shop! Hover over the next recommended items in the shop to see how it will impact your hero. Go on, buy a few!",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "b155ef068beb4aa8b4c665809ebb065fd56c1d802570cde3d002572d2b45cdf3",
+              "c3683d52fb8224a12e0c96f8d33e2d6953cb4a3975f880f7934ab111a8d1ed6b"
+            ],
+            "text": "Time to go shopping! Hover over the next recommended items in the shop to see how it would impact your hero. Go on, buy a few!",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 977,
+      "path": "transcripts/tengu/ivy_upgrade_power4_10.mp3.json",
+      "filename": "tengu/ivy_upgrade_power4_10.mp3",
+      "similarity": 0.952381,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Victory comes on the wind is the established idiomatic image and fits movement through air, but the Tengu alias separately contains wing, so audio is needed.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "02a60a8910777f2f6fa24b3a2f67b7c7318d74eb293c61bec733f158e5c4af83"
+            ],
+            "text": "Victory comes on the wind.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "27ca2514e9c188a09cbb45a4a21e9eb427d1ab90eba781763e67af3152c8395b",
+              "785b678b6d7b610c05366a57b472113596cc381893c79ca66cade40201f76a59"
+            ],
+            "text": "Victory comes on the wing.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 995,
+      "path": "transcripts/lash/lash_unselect_08.mp3.json",
+      "filename": "lash/lash_unselect_08.mp3",
+      "similarity": 0.951456,
+      "verdict": "medium",
+      "selectedRevisionIndex": 2,
+      "judgmentConfidence": "medium",
+      "evidence": "Not surprising. It takes time to get comfortable with greatness is the most coherent Lash boast, but revision 1 is also grammatical and differs by audible wording.",
+      "componentRevisionIndices": [
+        0,
+        1,
+        2
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "30352321dbae41314b2c8fe2f65dee7fcaf839a3ffe0b7a044da9821a62e998b"
+            ],
+            "text": "That's surprising. It is time to get comfortable with greatness.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "1b4858f4be0e7915bf02456b8dc1afac7c2cddd7aaa76c264d4ed82ae4cc36e1",
+              "f89ead0f385de0053a8ce19bac376c860d7aa08e18bf5ac97d70011c10dd49ca"
+            ],
+            "text": "Not surprising. It is time to get comfortable with greatness.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 2,
+          "revision": {
+            "sha256": [
+              "81c73a5a4f3f6643b85d78c4b2cfb0f5252be261e1a1dc329a762c8863ab8096"
+            ],
+            "text": "Not surprising. It takes time to get comfortable with greatness.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    },
+    {
+      "componentId": 1043,
+      "path": "transcripts/slork/ping/rr_test_26_ping_ability2_not_ready.mp3.json",
+      "filename": "slork/ping/rr_test_26_ping_ability2_not_ready.mp3",
+      "similarity": 0.95,
+      "verdict": "medium",
+      "selectedRevisionIndex": 0,
+      "judgmentConfidence": "medium",
+      "evidence": "Hemosteel is the cleaner plausible ability-name spelling, but no vocabulary, filename detail, or parallel line independently establishes it.",
+      "componentRevisionIndices": [
+        0,
+        1
+      ],
+      "revisions": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "839316faa676ef7b0e21c00d91e132a983bc505aac69f7996679a7dabb023b84"
+            ],
+            "text": "Hemosteel's on cooldown.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "ea7123287bbacb6a37e8a69728e5558fe827218538a58e9afce2c01e4344f8d3"
+            ],
+            "text": "Emossteel's on cooldown.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ]
+    }
+  ]
+}

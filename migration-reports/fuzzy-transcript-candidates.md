@@ -8,9 +8,9 @@ matches are excluded because they are already grouped.
 
 | Confidence | Similarity | Candidates |
 | --- | ---: | ---: |
-| High | ≥ 95% | 1,128 |
-| Medium | ≥ 90% | 1,893 |
-| Low | ≥ 80% | 4,110 |
+| High | ≥ 95% | 688 |
+| Medium | ≥ 90% | 1,828 |
+| Low | ≥ 80% | 4,050 |
 
 Similarity is the `difflib.SequenceMatcher` ratio after ignoring case, Unicode
 punctuation, and whitespace. Even high-confidence pairs require human review because
@@ -19,10 +19,10 @@ small changes can alter names, subjects, negation, or gameplay meaning.
 ## Coverage
 
 - Transcript files: 98,944
-- Revision groups: 122,573
-- Within-file pairs: 30,344
-- Nonblank, non-exact pairs compared: 30,164
-- Candidates: 7,131
+- Revision groups: 122,103
+- Within-file pairs: 29,702
+- Nonblank, non-exact pairs compared: 29,522
+- Candidates: 6,566
 
 The complete candidate set, including hashes and normalized lengths, is in
 `fuzzy-transcript-candidates.json`.
@@ -31,29 +31,24 @@ The complete candidate set, including hashes and normalized lengths, is in
 
 | Sources | High | Medium | Low | Total |
 | --- | ---: | ---: | ---: | ---: |
-| generated + generated | 1,115 | 1,824 | 4,016 | 6,955 |
-| generated + manual | 7 | 25 | 31 | 63 |
-| generated + official | 4 | 44 | 58 | 106 |
+| generated + generated | 675 | 1,759 | 3,964 | 6,398 |
+| generated + manual | 7 | 25 | 30 | 62 |
+| generated + official | 4 | 44 | 51 | 99 |
 | manual + official | 2 | 0 | 1 | 3 |
 | official + official | 0 | 0 | 4 | 4 |
 
 ## High confidence
 
-Showing 100 of 1,128 candidates.
+Showing 100 of 688 candidates.
 
 | Similarity | Path | Sources | Left text | Right text |
 | ---: | --- | --- | --- | --- |
-| 99.76% | `transcripts/newscaster/newscaster_headline_83.mp3.json` | generated / generated | Is it ethical to put children under a geish? The hot new parenting trend has kids making their bed every morning, but some experts warn that supernatural compulsion could run the risk of hurting long-term relationships between parents and their kids. | Is it ethical to put children under a geis? The hot new parenting trend has kids making their bed every morning, but some experts warn that supernatural compulsion could run the risk of hurting long-term relationships between parents and their kids. |
-| 99.69% | `transcripts/announcer/female_patron/patron_female_tutorial_lane_info_alt.mp3.json` | generated / generated | First things first, you need to take out the Guardian that's at the end of this lane. By destroying it, we don't just get closer to the final objective, we earn souls and ability points for the entire team. | First things first, you need to take out the Guardian that at the end of this lane. By destroying it, we don't just get closer to the final objective, we earn souls and ability points for the entire team. |
 | 99.59% | `transcripts/kali/rr_test_19_ping_see_dynamo_on_roof.mp3.json` | generated / generated | ChatGPT: context: ### Transcribe this Deadlock voice line in English exactly. Preserve all spoken words. Do not add commentary or quotation marks. The following JSON contains authoritative Deadlock spellings, terminology, and transcription guidelines. Follow it when applicable: {"Characters":["Holliday","Shelly Fisher","Geist","Marla","Marlowe","Troubadour","Nashala Dion","Viscous","John Hathorne","Edrick","Captain Murphy","Holliday","Infernus","Kelvin","Abrams","Vindicta","Operative","Bebop","Cadence","Paradox","Dynamo","McGinnis","Lady Geist","Seven","Haze","Krill","Lash","Magician","Mirage","Nano","Grey Talon","Shiv","Slork","Pocket","Ivy","Trapper","Vyper","Viscous","Warden","Wraith","Wrecker","Yamato","Fern","Mina Ha","Doorman","Paige","Rem","Apollo","Graves","Pepper","Silver","Venator"],"Groups":["Djinn"],"Places":["Ixia","Blackmore"],"Abilities":["Ping"],"Game Terms":["Mid","Mid-Boss","Gank","Payload","Capture","Control","Escort"],"Transcription Guidelines":["Use sentence case for all transcriptions.","Use standard punctuation.","Follow the above spelling for ambiguous names.","Do not include extra whitespace at the beginning or end of transcriptions."]} ### | context: ### Transcribe this Deadlock voice line in English exactly. Preserve all spoken words. Do not add commentary or quotation marks. The following JSON contains authoritative Deadlock spellings, terminology, and transcription guidelines. Follow it when applicable: {"Characters":["Holliday","Shelly Fisher","Geist","Marla","Marlowe","Troubadour","Nashala Dion","Viscous","John Hathorne","Edrick","Captain Murphy","Holliday","Infernus","Kelvin","Abrams","Vindicta","Operative","Bebop","Cadence","Paradox","Dynamo","McGinnis","Lady Geist","Seven","Haze","Krill","Lash","Magician","Mirage","Nano","Grey Talon","Shiv","Slork","Pocket","Ivy","Trapper","Vyper","Viscous","Warden","Wraith","Wrecker","Yamato","Fern","Mina Ha","Doorman","Paige","Rem","Apollo","Graves","Pepper","Silver","Venator"],"Groups":["Djinn"],"Places":["Ixia","Blackmore"],"Abilities":["Ping"],"Game Terms":["Mid","Mid-Boss","Gank","Payload","Capture","Control","Escort"],"Transcription Guidelines":["Use sentence case for all transcriptions.","Use standard punctuation.","Follow the above spelling for ambiguous names.","Do not include extra whitespace at the beginning or end of transcriptions."]} ### |
 | 99.53% | `transcripts/book/oathkeeper/vn_geist_scene04d_12.mp3.json` | generated / generated | No, the point was to save my life. We've already established that you're incapable of repairing the walls, so where does that leave me? | No, the point was to save my life. We've already established that you're incapable of repairing the wall, so where does that leave me? |
-| 99.53% | `transcripts/newscaster/newscaster_headline_36.mp3.json` | generated / generated | Political firebrand or founder of a new Inquisition? Read our exclusive interview with John Hawthorne and decide for yourself. | Political firebrand or founder of a new Inquisition? Read our exclusive interview with John Hathorne and decide for yourself. |
 | 99.52% | `transcripts/newscaster/newscaster_headline_53.mp3.json` | generated / generated | Is Trinity Church an undead time bomb waiting to explode? We talked with premier necromancer Frederick Toten to get his take. | Is Trinity Church an undead time bomb waiting to explode? We talked with premier necromancer Frederick Totten to get his take. |
 | 99.51% | `transcripts/dynamo/prof_monologue_01.mp3.json` | generated / generated | Welcome. Forgive the mess. I just finished lecturing on metaphysics, astral gates, and the intersection between the two. I swear, I could talk about the intricacies of quantum entanglement and the intertwining of consciousness, cosmic vibrations, and esoteric mysteries forever, but sorry, I can't help but notice you have the exact expression my students made during class. | Welcome! Forgive the mess, I just finished lecturing on metaphysics, astral gates, and the intersection between the two. I swear, I could talk about the intricacies of quantum entanglement and the intertwining of consciousness and cosmic vibrations and esoteric mysteries forever, but, sorry, I can't help but notice you have the exact expression my students made during class. |
 | 99.50% | `transcripts/announcer/male_patron/patron_male_ally_shiv_start_03.mp3.json` | generated / generated | Many men would kill for the gift you are looking to purge. Nonetheless, complete the ritual, and I will give you what you seek. | Many men would kill for the gift you're looking to purge. Nonetheless, complete the ritual, and I will give you what you seek. |
-| 99.49% | `transcripts/announcer/female_patron/patron_female_tutorial_destroy_titan.mp3.json` | generated / generated | The Avatar has been destroyed! They have no more defenses! Now's the time to destroy their shrine and complete the ritual! | The avatar has been destroyed! They have no more defenses! Now is the time to destroy their shrine and complete the ritual! |
 | 99.47% | `transcripts/announcer/male_patron/patron_male_ally_atlas_start_04.mp3.json` | generated / generated | Trust doesn't come easy for you, Abrams, but know this: when you complete the ritual, I will hold up my end of the bargain. | Trust does not come easy for you, Abrams, but know this: when you complete the ritual, I will hold up my end of the bargain. |
-| 99.47% | `transcripts/dynamo/prof_monologue_03.mp3.json` | generated / generated | This ticket takes me back. Anyone who says metaphysicists are boring obviously never played Pinocle in Bristol. | This ticket takes me back. Anyone who says metaphysicists are boring obviously never played Pinochle in Bristol. |
 | 99.40% | `transcripts/newscaster/newscaster_headline_81.mp3.json` | generated / generated | The international bestseller for queen and coven, highlighting the daring exploits of the queen's own 13th airborne assault coven, is under fire as representatives of the crown claim that some of the operations detailed in the tell-all violate the nation's scrying laws and pose a national security risk. | The international bestseller for Queen & Coven, highlighting the daring exploits of the queen's own 13th airborne assault coven, is under fire as representatives of the crown claim that some of the operations detailed in the tell-all violate the nation's scrying laws and pose a national security risk. |
 | 99.35% | `transcripts/synth/pocket_select_04.mp3.json` | generated / generated | My father's gift for my 18th birthday was a bullet to the chest. Today's my chance to say thank you. | My father's gift for my 18th birthday was a bullet to the chest. Today is my chance to say thank you. |
 | 99.34% | `transcripts/dynamo/prof_kill_haze_02.mp3.json` | generated / generated | I should probably stop telling my students that OSIC Sandman was just a conspiracy theory. | I should probably stop telling my students that OSIC's Sandman was just a conspiracy theory. |
@@ -63,55 +58,32 @@ Showing 100 of 1,128 candidates.
 | 99.25% | `transcripts/t1_guardians/guardian_test_04/rr_guardian_test_04_greeting_05.mp3.json` | generated / generated | The training manual said that taking out the troopers should be our top priority. | The training manual said that taking out the trooper should be our top priority. |
 | 99.24% | `transcripts/lash/lash_select_10_02.mp3.json` | generated / generated | I'm not dumb. I know a lot of people hate me. It's a... I mean, it's a curse, really. You know, I've ruled so hard that, uh, you know, every mediocre soul in the city just has to resent me. | I'm not dumb. I know a lot of people hate me. It's a... I mean, it's a curse, really. You know, I've ruled so hard that, you know, every mediocre soul in the city just has to resent me. |
 | 99.21% | `transcripts/inferno/inferno_select_09.mp3.json` | generated / generated | It is so nice to know that my years of antisocial behavior can be put to good use. | It's so nice to know that my years of antisocial behavior can be put to good use. |
-| 99.15% | `transcripts/announcer/female_patron/patron_female_tutorial_destroy_t1.mp3.json` | generated / generated | Guardians down! Now there's a walker up ahead we need to destroy, but we should check on the other lanes to help take out any of the other Guardians still standing. Every time we take one out, the whole team gets stronger. | The Guardian's down. Now there's a walker up ahead we need to destroy, but we should check on the other lanes to help take out any of the other Guardians still standing. Every time we take one out, the whole team gets stronger. |
 | 99.15% | `transcripts/wraith/wraith_select_07.mp3.json` | generated / generated | Blackmail sounds so sleazy. I prefer information retention services. | Blackmail sounds so sleazy. I'd prefer information retention services. |
 | 99.13% | `transcripts/gigawatt/gigawatt_select_10.mp3.json` | generated / generated | I free myself from the shackles of the past, and my future looks bright. | I freed myself from the shackles of the past, and my future looks bright. |
-| 99.11% | `transcripts/announcer/female_patron/patron_female_tutorial_first_shop_short_edit_alt.mp3.json` | generated / generated | If you've harvested enough souls to buy equipment, if you don't want to look through all the options, you can just click Buy a recommended item. | You've harvested enough souls to buy equipment. If you don't want to look through all the options, you can just click Buy a recommended item. |
 | 99.08% | `transcripts/announcer/male_patron/patron_male_ally_lash_start_05.mp3.json` | generated / generated | You have proven yourself time and again, Lash, but the world still doubts you. But once you release me, your greatness will be undeniable. | You've proven yourself time and again, Lash, but the world still doubts you. But once you release me, your greatness will be undeniable. |
-| 99.02% | `transcripts/book/oathkeeper/vn_geist_scene04d_15.mp3.json` | generated / generated | It is ill, and it is slow, and it's painful. You don't understand what it's like to have your body grow frail and decrepit, for your mind to shrivel, to have others stare at you with nothing but pity. | It is evil, and it is slow, and it's painful. You don't understand what it's like to have your body grow frail and decrepit, for your mind to shrivel, to have others stare at you with nothing but pity. |
 | 98.99% | `transcripts/shopkeeper/guide_the_map_welcome.mp3.json` | generated / generated | Shadowline is a 6v6 strategic shooter where gunplay, fast-paced movement, tower progression, and unique heroes collide. | Shadowline is a 6v6 strategic shooter where gunplay, fast-paced movement, power progression, and unique heroes collide. |
 | 98.97% | `transcripts/krill/krill_start_match_10.mp3.json` | generated / generated | Well, we will know in a couple minutes how this day is gonna go. | Well, we will know in a couple minutes how this day's gonna go. |
-| 98.95% | `transcripts/warden/warden_select_06.mp3.json` | generated / generated | The patrons will herald the end of humanity if we let them. | The patreons will herald the end of humanity if we let them. |
-| 98.95% | `transcripts/wraith/wraith_unselect_04.mp3.json` | generated / generated | It shouldn't take you too long to realize you made a mistake. | I shouldn't take you too long to realize you made a mistake. |
 | 98.94% | `transcripts/shopkeeper/guide_the_map_core_2.mp3.json` | generated / generated | There is a shrine at the back of each team's base. Destroying the enemy's shrine completes the ritual and wins the game. | There's a shrine at the back of each team's base. Destroying the enemy shrine completes the ritual and wins the game. |
-| 98.92% | `transcripts/announcer/female_patron/patron_female_enemy_drifter_killing_streak_low_01.mp3.json` | generated / generated | The drifter come for us. Stop him before he grows in power. | The Drifter comes for us. Stop him before he grows in power. |
 | 98.86% | `transcripts/lash/lash_select_10_02.mp3.json` | generated / generated | I'm not dumb. I know a lot of people hate me. It's a... I mean, it's a curse, really. You know, I rule so hard that, uh, you know, every mediocre soul in the city just has to resent me. | I'm not dumb. I know a lot of people hate me. It's a... I mean, it's a curse, really. You know, I've ruled so hard that, uh, you know, every mediocre soul in the city just has to resent me. |
-| 98.85% | `transcripts/announcer/male_patron/patron_male_enemy_lash_killing_streak_low_01.mp3.json` | generated / generated | Lash grows more confident by the minute. Silence him! | Flash grows more confident by the minute! Silence him! |
-| 98.85% | `transcripts/announcer/male_patron/patron_male_enemy_lash_killing_streak_low_01.mp3.json` | generated / generated | Lash grows more confident by the minute. Silence him! | Slash grows more confident by the minute. Silence him! |
-| 98.85% | `transcripts/book/oathkeeper/vn_geist_scene05e_09.mp3.json` | generated / generated | You thinking back room or you gonna spring for a hotel? | You thinkin' back room or you gonna spring for a hotel? |
 | 98.85% | `transcripts/kali/rr_test_19_angry_10.mp3.json` | generated / generated | How do I do my job? How do I resolve this problem anyways? | How do I do my job? How do I resolve this problem, anyway? |
 | 98.81% | `transcripts/newscaster/newscaster_headline_20.mp3.json` | generated / generated | The Supreme Court today upheld Cindermar vs. the State of Alabama, paving the way for the spirits' congressional bid. Read all about it in the New York Oracle. | The Supreme Court today upheld Cindermaw v. the State of Alabama, paving the way for the spirit's congressional bid. Read all about it in the New York Oracle. |
-| 98.80% | `transcripts/shopkeeper/guide_the_map_troopers.mp3.json` | generated / generated | Troopers periodically spawn in the base and then run down a lane, fighting any enemies they encounter. | Troops periodically spawn in the base and then run down a lane, fighting any enemies they encounter. |
-| 98.80% | `transcripts/warden/warden_enemy_chrono_kill_post_swap_02.mp3.json` | generated / generated | Your little time tricks were never gonna be enough. | You little time tricks were never gonna be enough. |
-| 98.78% | `transcripts/announcer/male_patron/patron_male_ally_gigawatt_start_03.mp3.json` | generated / generated | You escaped Loss, Whisper. You killed your tormentors, but it is not enough. Complete the ritual, Seven. | You escaped Lost Whisper. You killed your tormentors, but it is not enough. Complete the ritual, Seven. |
-| 98.78% | `transcripts/newscaster/newscaster_headline_07.mp3.json` | generated / generated | Is your refrigerator commuting with the dead? Buy today's edition of the New York Oracle and find out! | Is your refrigerator communing with the dead? Buy today's edition of the New York Oracle and find out! |
 | 98.77% | `transcripts/lash/lash_select_10.mp3.json` | generated / generated | I'm not dumb. I know a lot of people hate me. It's a... it's a curse, really. You know, it's just rules so hard that, uh, every mediocre soul in the city has to resent you. | I'm not dumb. I know a lot of people hate me. It's a... it's cursed, really. You know, it's just rule so hard that, uh, every mediocre soul in the city has to resent you. |
 | 98.73% | `transcripts/haze/haze_kill_paradox_03.mp3.json` | generated / generated | You're not as clever as you think you are, Paradox. | You are not as clever as you think you are, Paradox. |
 | 98.70% | `transcripts/krill/krill_killed_by_chrono_03.mp3.json` | generated / generated | Stupid beef with our stupid time manipulation! | Stupid bee with our stupid time manipulation! |
 | 98.67% | `transcripts/announcer/female_patron/patron_female_ally_orion_start_01.mp3.json` | generated / generated | You've lived quite the life, Rime, but you still have time for one last adventure. Complete the ritual and transform from a man into a legend. | You've lived quite the life, Riven, but you still have time for one last adventure. Complete the ritual and transform from a man into a legend. |
-| 98.63% | `transcripts/announcer/female_patron/patron_female_enemy_sandeep_killing_streak_high_01_02.mp3.json` | generated / generated | Sandy can be allowed to complete the ritual. | Sandy can't be allowed to complete the ritual. |
 | 98.63% | `transcripts/atlas/abrams_unselect_08.mp3.json` | generated / generated | I got better things to do than getting shot at. | I got better things to do than gettin' shot at. |
 | 98.63% | `transcripts/book/oathkeeper/vn_geist_scene03c_17.mp3.json` | generated / generated | You're binding of me. Ensure favorable terms. | You're binding of me. Ensured favorable terms. |
-| 98.63% | `transcripts/dynamo/prof_kill_haze_03.mp3.json` | generated / generated | And now I've picked a fight with the OSIC. Great. | And now I've picked a fight with the OSI. Great. |
-| 98.61% | `transcripts/lash/lash_unselect_10.mp3.json` | generated / generated | Not today, my friend. The Lash is offering his beautiful physique to a life drawing class. | Not today, my friend. The lass is offering his beautiful physique to a life drawing class. |
-| 98.61% | `transcripts/lash/lash_upgrade_power2_10.mp3.json` | generated / generated | Flying on someone trying to escape cruel? Sure, but I'm alive and they're dead, so who cares? | Flying in on someone trying to escape cruel? Sure, but I'm alive and they're dead, so who cares? |
-| 98.59% | `transcripts/gigawatt/gigawatt_enemy_chrono_kill_post_swap_01.mp3.json` | generated / generated | I won't be killed by the likes of you, Paradox. | I won't be killed by the likes of you, Paradoxs! |
 | 98.59% | `transcripts/haze/haze_idol_drop_05.mp3.json` | generated / generated | The last soul will be waiting on the bridge. | The last souls will be waiting on the bridge. |
 | 98.58% | `transcripts/shopkeeper/guide_power_ap.mp3.json` | generated / generated | Destroying enemy objectives earns everyone on your team ability points. You also earn ability points as you accumulate souls. | Destroying an enemy objective earns everyone on your team ability points. You also earn ability points as you accumulate souls. |
 | 98.57% | `transcripts/newscaster/newscaster_headline_27.mp3.json` | generated / generated | Have love potions ruined dating? See what relationship expert Madame LaPree thinks. | Have love potions ruined dating? See what relationship expert Madame LePree thinks. |
 | 98.55% | `transcripts/gigawatt/gigawatt_lose_late_05.mp3.json` | generated / generated | We are defined by the quality of our rivals. | We're defined by the quality of our rivals. |
 | 98.55% | `transcripts/nano/calico_upgrade_power3_02.mp3.json` | generated / generated | I'm going to put my fists through this skull. | I'm going to put my fist through this skull. |
 | 98.54% | `transcripts/announcer/female_patron/patron_female_tutorial_combat_neutrals_info.mp3.json` | generated / generated | These neutrals won't attack you unless you attack them, but if you're looking to pick a fight, it's a great way to earn extra coins. | These neutrals won't attack you unless you attack them, but if you're looking to pick a fight, it's a great way to earn an extra coin. |
-| 98.53% | `transcripts/announcer/female_patron/patron_female_tutorial_combat_enemy_haze_info.mp3.json` | generated / generated | Haze is a weapon expert. The longer the battle rages, the more dangerous she becomes. | Caze is a weapon expert. The longer the battle rages, the more dangerous she becomes. |
-| 98.53% | `transcripts/book/oathkeeper/vn_geist_scene05i_09.mp3.json` | generated / generated | Of course I am. I know you, Jen. You'll sleep like a baby. It's why you're one of my favorites. | Of course I am. I know you, Gen. You'll sleep like a baby. It's why you're one of my favorites. |
 | 98.53% | `transcripts/lash/lash_upgrade_power1_05.mp3.json` | generated / generated | Every time I hear someone screaming frustration, I just get a big ol' smile on my face. | Every time I hear someone scream in frustration, I just get a big old smile on my face. |
 | 98.51% | `transcripts/inferno/inferno_win_late_05.mp3.json` | generated / generated | History's gonna remember that we struggled. History's gonna remember that we won. | History is gonna remember that we struggled. History is gonna remember that we won. |
 | 98.51% | `transcripts/krill/krill_kill_forge_04.mp3.json` | generated / generated | Looks like your turrets couldn't save you. | Looks like your turret couldn't save you. |
-| 98.51% | `transcripts/krill/krill_killed_by_viscous_05.mp3.json` | generated / generated | Underestimating Biscuit was a mistake. | Underestimating Biscuits was a mistake. |
 | 98.46% | `transcripts/announcer/female_patron/patron_female_enemy_walker_destroyed_03_alt_02.mp3.json` | generated / generated | We are so close to completing the ritual. | We're so close to completing the ritual. |
 | 98.46% | `transcripts/atlas/abrams_enemy_bebop_kill_mid_laser_03.mp3.json` | generated / generated | That laser is supposed to be impressive. | That laser's supposed to be impressive. |
-| 98.46% | `transcripts/gigawatt/gigawatt_ally_chrono_steals_rejuv_03.mp3.json` | generated / generated | Paradox played her part to perfection. | Paradox played her parts to perfection. |
-| 98.46% | `transcripts/haze/haze_ally_lash_see_massive_stomp_03.mp3.json` | generated / generated | Do you know how to make an entrance, Flash? | Do you know how to make an entrance, Lash? |
 | 98.46% | `transcripts/lash/lash_use_power5_06.mp3.json` | generated / generated | They're just begging to get killed by me. | They are just begging to get killed by me. |
 | 98.45% | `transcripts/lash/lash_unselect_03.mp3.json` | generated / generated | Fine. The Lash doesn't crash parties he's not invited to, because no party worth going to would ever not invite The Lash. | It's fine. The Lash doesn't crash parties he's not invited to, because no party worth going to would ever not invite The Lash. |
 | 98.44% | `transcripts/slork/slork_select_05.mp3.json` | generated / generated | The sailors called me Fathom, but the denizens of the deep know me by my true name. | The sailors call me Fathom, but the denizens of the deep know me by my true name. |
@@ -122,31 +94,59 @@ Showing 100 of 1,128 candidates.
 | 98.41% | `transcripts/krill/krill_kill_cadence_06.mp3.json` | generated / generated | Sorry, Momo. She did not leave us a choice. | Sorry, Momo. He did not leave us a choice. |
 | 98.41% | `transcripts/nano/calico_use_power4_09.mp3.json` | generated / generated | Let me introduce you to my best friends. | Let me introduce you to my best friend. |
 | 98.41% | `transcripts/shopkeeper/shopkeeper_hotdog_open_spirit_05.mp3.json` | generated / generated | In the mood for something magical, I see. | In the mood for somethin' magical, I see. |
-| 98.41% | `transcripts/warden/warden_unselect_08.mp3.json` | generated / generated | I won't act on behalf of Ambition's spark. | I won't act on behalf of Ambition Spark. |
 | 98.40% | `transcripts/announcer/female_patron/patron_female_tutorial_tasks_complete.mp3.json` | generated / generated | Well done. Use the transit line to return to the base. Once you're there, I'll give you resources to spend so you can power up for a final push on that guardian. | Well done. Use the transit line to return to the base. Once you're there, I'll give you resources to spend so you can power up for the final push on that Guardian. |
 | 98.39% | `transcripts/announcer/female_patron/patron_female_tutorial_single_lane_walker_intro.mp3.json` | generated / generated | Be careful taking out that walker. If you get too close, it'll try to crush you. | Be careful taking out that walker. If you get too close, it will try to crush you. |
 | 98.39% | `transcripts/newscaster/newscaster_headline_19.mp3.json` | generated / generated | Funko! Party game or a ritual component. To the Soho coven, it's a little of both. | Bunko: party game or a ritual component. To the Soho coven, it's a little of both. |
 | 98.36% | `transcripts/butcher/rr_test_21_upgrade_power1_09.mp3.json` | generated / generated | They'll be runnin' like hell in no time. | They'll be running like hell in no time. |
-| 98.36% | `transcripts/gigawatt/gigawatt_enemy_chrono_kill_in_bubble_03.mp3.json` | generated / generated | I'm more than you bargained for, Chrono. | I'm more than you bargained for, Crono. |
-| 98.36% | `transcripts/haze/haze_ally_lash_see_massive_stomp_03.mp3.json` | generated / generated | You know how to make an entrance, Lash. | You know how to make an entrance, Flash. |
-| 98.36% | `transcripts/krill/krill_killed_by_lash_03.mp3.json` | generated / generated | Lash won't get the drop on us next time. | Flash won't get the drop on us next time. |
 | 98.36% | `transcripts/slork/rr_test_26_close_call_05.mp3.json` | generated / generated | I got a heal before I go back out there. | I gotta heal before I go back out there. |
 | 98.34% | `transcripts/newscaster/newscaster_headline_65.mp3.json` | generated / generated | Eldritch Tactical Solutions, a subsidiary of Fairfax Industries, comes under fire as new allegations are made by former employees. Are these soldiers of fortune committing war crimes? The New York Oracle investigates. | Eldridge Tactical Solutions, a subsidiary of Fairfax Industries, comes under fire as new allegations are made by former employees. Are these soldiers of fortune committing war crimes? The New York Oracle investigates. |
 | 98.33% | `transcripts/announcer/male_patron/patron_male_ally_chrono_start_01.mp3.json` | generated / generated | You will show the other members of Paradox why you are fit to lead. Summon me. | You'll show the other members of Paradox why you are fit to lead. Summon me. |
 | 98.33% | `transcripts/book/oathkeeper/vn_geist_scene02a_18.mp3.json` | generated / generated | Do I imagine I could drum up some interest? When next year were you thinking? | I imagine I could drum up some interest. When next year were you thinking? |
-| 98.33% | `transcripts/warden/warden_select_02.mp3.json` | generated / generated | My family failed to protect this city once before. It cannot happen again. | My family sailed to protect this city once before. It cannot happen again. |
 | 98.31% | `transcripts/atlas/abrams_happy_07.mp3.json` | generated / generated | After we take their shrine, I'm buyin'. | After we take their shrine, I'm buying. |
 | 98.31% | `transcripts/book/oathkeeper/vn_geist_scene05i_02.mp3.json` | generated / generated | Peace. This dance with Urdkeeper needs to end. Free me of his influence, and let us all walk away prosperously. | Peace. This dance with Urthkeeper needs to end. Free me of his influence, and let us all walk away prosperously. |
-| 98.31% | `transcripts/ghost/geist_ally_bebop_uppercut_towards_boss_02.mp3.json` | generated / generated | Let the Guardian deal with that one. | Let's the Guardian deal with that one. |
 | 98.31% | `transcripts/krill/krill_kill_gigawatt_02.mp3.json` | generated / generated | Oh, my hair is a static mess now, isn't it? | Oh, my hair's a static mess now, isn't it? |
 | 98.31% | `transcripts/shopkeeper/shopkeeper_hotdog_t4_nano_02.mp3.json` | generated / generated | You ask me, the Oracle was way too harsh when they called you a warmonger. | If you ask me, the Oracle was way too harsh when they called you a warmonger. |
 | 98.31% | `transcripts/tengu/tengu_ally_kelvin_pass_on_zipline_02.mp3.json` | generated / generated | Hey, Kelvin! Kelvin! Your name's Kelvin! | Hey, Kevin! Kelvin! Your name's Kelvin! |
 | 98.28% | `transcripts/lash/lash_select_12_02.mp3.json` | generated / generated | Oh, I'll summon the patrons, and when I do, I know exactly what I'm wishing for. | I'll summon the patrons, and when I do, I know exactly what I'm wishing for. |
 | 98.25% | `transcripts/book/oathkeeper/vn_geist_scene03b_17.mp3.json` | generated / generated | What good is eternal life if I spend it in an Ursyse oubliette? As we both know, that's exactly where I would end up if I gave in to your every whim. | What good is eternal life if I spend it in an Urassi oubliette? As we both know, that's exactly where I would end up if I gave in to your every whim. |
+| 98.25% | `transcripts/haze/haze_enemy_wraith_lifts_03.mp3.json` | generated / generated | I'll make you suffer for this wreath. | I'll make you suffer for this wrath. |
+| 98.25% | `transcripts/krill/krill_killed_by_ghost_04.mp3.json` | generated / generated | It would seem the powers of the eighth son aren't an overexaggeration. | It would seem the powers of the eighth sun aren't an overexaggeration. |
+| 98.25% | `transcripts/lash/lash_angry_01.mp3.json` | generated / generated | They're not gonna get the best of us. | They are not gonna get the best of us. |
+| 98.18% | `transcripts/atlas/abrams_use_tech_defender_02.mp3.json` | generated / generated | I'm not worried about their power. | I'm not worried about their powers. |
+| 98.18% | `transcripts/shiv/shiv_sad_05.mp3.json` | generated / generated | Never should have taken this job. | I never should have taken this job. |
+| 98.18% | `transcripts/warden/warden_ally_shiv_unkillable_02.mp3.json` | generated / generated | Looks like he's not a fop after all. | Looks like he's not a flop after all. |
+| 98.18% | `transcripts/wraith/wraith_ally_shiv_unkillable_01.mp3.json` | generated / generated | They don't have an answer for Shiv. | They don't have any answer for Shiv. |
+| 98.11% | `transcripts/haze/haze_idol_drop_06.mp3.json` | generated / generated | Who is going to get the spirit jar? | Who's going to get the spirit jar? |
+| 98.11% | `transcripts/haze/haze_unselect_09.mp3.json` | generated / generated | More time to find my next target. | More time to find my next targets. |
+| 98.11% | `transcripts/lash/lash_select_03.mp3.json` | generated / generated | Oh, I'll summon the patrons, but just so I can tell them, you're welcome. | Oh, I'll summon the patrons, but just so I can tell 'em, you're welcome. |
+| 98.11% | `transcripts/nano/calico_sad_01.mp3.json` | generated / generated | I am surrounded by incompetence. | I'm surrounded by incompetence. |
+| 98.11% | `transcripts/nano/calico_use_silencer_03.mp3.json` | generated / generated | Hm, their powers will be useless. | Hmm, their powers will be useless. |
+| 98.11% | `transcripts/paradox/ping/paradox_ping_mcginnis_under_garage.mp3.json` | generated / generated | The guiness is under the garage. | The guinness is under the garage. |
+| 98.11% | `transcripts/wraith/ping/wraith_ping_orion_check_items.mp3.json` | generated / generated | Check out what great talent bots! | Check out what great talent bot! |
+| 98.09% | `transcripts/announcer/female_patron/patron_female_ally_vampirebat_start_05.mp3.json` | manual / official | Once you complete the ritual, Arin will realize their folly, and the other vampires you are worth. | Once you complete the ritual, Arin will realize their folley.  And the other vampires, your worth. |
+| 98.08% | `transcripts/lash/lash_select_10_02.mp3.json` | generated / generated | I'm not dumb. I know a lot of people hate me. It's a... I mean, it's a curse, really. You know, I rule so hard that, uh, you know, every mediocre soul in the city just has to resent me. | I'm not dumb. I know a lot of people hate me. It's a... I mean, it's a curse, really. You know, I've ruled so hard that, you know, every mediocre soul in the city just has to resent me. |
+| 98.08% | `transcripts/lash/ping/lash_ping_post_game_04.mp3.json` | generated / generated | Ah, no need to thank me. Being amazing is a burden I'm happy to bear. | Ah-ah, no need to thank me. Being amazing is a burden I'm happy to bear. |
+| 98.08% | `transcripts/paradox/paradox_upgrade_power4_02.mp3.json` | generated / generated | If someone's by themselves, I'll drag 'em to where I want them to be. | If someone's by themselves, I'll drag them to where I want them to be. |
+| 98.07% | `transcripts/book/oathkeeper/vn_geist_scene05h_12.mp3.json` | generated / generated | I don't really know if flowers are the appropriate thing to bring someone who endangered your life before saving it, but I just... I don't know, just had to see you. | I don't really know if flowers are the appropriate thing to bring someone who endangered your life before saving it, but I just, I just... I don't know, just had to see you. |
+| 98.06% | `transcripts/newscaster/newscaster_headline_48.mp3.json` | generated / generated | Looking to take your kids to the Bleet Carnival? Pick up your copy of the New York Oracle to find out how to keep your family safe. | Looking to take your kids to the Bleak Carnival? Pick up your copy of the New York Oracle to find out how to keep your family safe. |
+| 98.04% | `transcripts/atlas/abrams_select_08.mp3.json` | generated / generated | No one's takin' this book from me. | No one's taking this book from me. |
+| 98.04% | `transcripts/atlas/ping/abrams_ping_grey_talon_under_garage.mp3.json` | generated / generated | Great talents under the garage. | Great talent under the garage. |
+| 98.04% | `transcripts/atlas/ping/abrams_ping_grey_talon_under_garage_1.mp3.json` | generated / generated | Great talents under the garage. | Great talent under the garage. |
+| 98.04% | `transcripts/atlas/ping/abrams_ping_orion_under_garage_1.mp3.json` | generated / generated | Great talents under the garage. | Great talent under the garage. |
+| 98.04% | `transcripts/forge/ping/mcginnis_ping_viscous_check_items.mp3.json` | generated / generated | Check out what Biscuit bought. | Check out what Biscuit's bought. |
+| 98.04% | `transcripts/ghost/geist_enemy_astro_bounce_escape_02.mp3.json` | generated / generated | He can't keep bouncing forever. | She can't keep bouncing forever. |
+| 98.04% | `transcripts/ghost/ping/geist_ping_grey_talon_on_top_of_garage.mp3.json` | generated / generated | Great ammo on top of the garage! | Great ammo's on top of the garage. |
+| 98.04% | `transcripts/ghost/ping/geist_ping_grey_talon_under_garage.mp3.json` | generated / generated | Great talent under the garage. | Great talent's under the garage. |
+| 98.04% | `transcripts/ghost/ping/geist_ping_orion_on_top_of_garage.mp3.json` | generated / generated | Great ammo on top of the garage! | Great ammo's on top of the garage. |
+| 98.04% | `transcripts/ghost/ping/geist_ping_orion_under_garage.mp3.json` | generated / generated | Great talent under the garage. | Great talent's under the garage. |
+| 98.04% | `transcripts/gigawatt/gigawatt_outnumbered_03.mp3.json` | generated / generated | It's not wise to engage on my own. | It is not wise to engage on my own. |
+| 98.04% | `transcripts/paradox/ping/paradox_ping_yamato_on_top_of_garage.mp3.json` | generated / generated | Yamato's on top of the carriage! | Yamato is on top of the carriage! |
+| 98.01% | `transcripts/newscaster/newscaster_headline_47.mp3.json` | generated / generated | The median line continues to be closed this week. While the mayor has not spoken publicly on the nature of the closure, inside sources suspect it may have something to do with a sewer spirit. | The line continues to be closed this week. While the mayor has not spoken publicly on the nature of the closure, inside sources suspect it may have something to do with a sewer spirit. |
+| 98.00% | `transcripts/lash/lash_ally_orion_pass_on_zipline_01.mp3.json` | generated / generated | Don't worry, old man. The last will be back to help carry you soon. | Don't worry, old man, The Lash will be back to help carry you soon. |
 
 ## Medium confidence
 
-Showing 100 of 1,893 candidates.
+Showing 100 of 1,828 candidates.
 
 | Similarity | Path | Sources | Left text | Right text |
 | ---: | --- | --- | --- | --- |
@@ -227,10 +227,8 @@ Showing 100 of 1,893 candidates.
 | 94.74% | `transcripts/lash/ping/lash_ping_haze_was_here.mp3.json` | generated / generated | Haze is here. | Hazes here. |
 | 94.74% | `transcripts/lash/ping/lash_ping_headed_blue_01.mp3.json` | generated / generated | Heads blue. | Head is blue. |
 | 94.74% | `transcripts/lash/ping/lash_ping_saw_ghost.mp3.json` | generated / generated | I saw a Geist. | I saw Geist. |
-| 94.74% | `transcripts/lash/ping/lash_ping_see_cadence_on_bridge.mp3.json` | generated / generated | Cadence on the bridge. | Cadence is on the bridge. |
 | 94.74% | `transcripts/lash/ping/lash_ping_stun_kelvin_01.mp3.json` | generated / generated | Sun Kelvin. | Stun Kelvin! |
 | 94.74% | `transcripts/lash/ping/lash_ping_stun_warden_01.mp3.json` | generated / generated | Sunwarden. | Stun Warden. |
-| 94.74% | `transcripts/mirage/mirage_desperation_power4_04_alt_01.mp3.json` | generated / generated | I need your help, Neshala. | I need your help, Nesha. |
 | 94.74% | `transcripts/mirage/ping/mirage_ping_atlas_dead.mp3.json` | generated / generated | If I'm stead. | If I'm steady. |
 | 94.74% | `transcripts/mirage/ping/mirage_ping_with_orion.mp3.json` | generated / generated | I'm with you, Great Talon. | I'm with you, Great Taron. |
 | 94.74% | `transcripts/nano/ping/calico_ping_attack_sandeep.mp3.json` | generated / generated | Let's take out Sandeep. | Let's take it out, Sandeep. |
@@ -250,10 +248,12 @@ Showing 100 of 1,893 candidates.
 | 94.74% | `transcripts/tengu/ivy_unselect_08.mp3.json` | generated / generated | Can I at least have a hug? | Can I at least have a hog? |
 | 94.74% | `transcripts/tengu/ping/ivy_ping_see_kelvin_01.mp3.json` | generated / generated | I see Kelvin! | I see Kevin. |
 | 94.74% | `transcripts/tengu/ping/tengu_ping_ignore_lash.mp3.json` | generated / generated | Ignorelash! | Ignore las |
+| 94.74% | `transcripts/tengu/tengu_unselect_08.mp3.json` | generated / generated | Can I at least have a hug? | Can I at least have a hog? |
+| 94.74% | `transcripts/vampirebat/ping/vampirebat_ping_stun_warden_01.mp3.json` | generated / generated | Stun Warden! | Sunwarden! |
 
 ## Low confidence
 
-Showing 100 of 4,110 candidates.
+Showing 100 of 4,050 candidates.
 
 | Similarity | Path | Sources | Left text | Right text |
 | ---: | --- | --- | --- | --- |
@@ -293,7 +293,6 @@ Showing 100 of 4,110 candidates.
 | 89.70% | `transcripts/announcer/male_patron/patron_male_ally_viper_start_02.mp3.json` | generated / official | I see into your heart fiber. I know what you want, and you can have it. All you need to do is summon me. | I see into your heart Viper.  I know what you want.  And you can have it… all you need to do is summon The Hidden King. |
 | 89.66% | `transcripts/announcer/female_patron/patron_female_tutorial_combat_companion_need_help_05.mp3.json` | generated / generated | And I need your help. | I need your help. |
 | 89.66% | `transcripts/atlas/abrams_ally_holliday_pass_on_zipline_01.mp3.json` | generated / generated | Go get 'em, sheriff! | Go get him, Sheriff! |
-| 89.66% | `transcripts/atlas/ping/abrams_ping_can_heal_tengu.mp3.json` | generated / generated | Kivy, I can heal you. | Ivy, I can hear you. |
 | 89.66% | `transcripts/atlas/ping/abrams_ping_kali_missing_01.mp3.json` | generated / generated | Holliday's missing. | Holly's missing. |
 | 89.66% | `transcripts/atlas/ping/abrams_ping_see_ghost_on_bridge.mp3.json` | generated / generated | guys on the bridge. | Gas on the bridge. |
 | 89.66% | `transcripts/bebop/bebop_unselect_02.mp3.json` | generated / generated | Great. More time for me to work out new ways to hurt Nash. | Good. More time for me to work out new ways to hurt Lash. |
@@ -357,3 +356,4 @@ Showing 100 of 4,110 candidates.
 | 89.66% | `transcripts/paradox/ping/paradox_ping_see_enemy_on_roof.mp3.json` | generated / generated | Damn is on the roof! | Demi's on the roof! |
 | 89.66% | `transcripts/paradox/ping/paradox_ping_with_pocket.mp3.json` | generated / generated | I'm with you, Pocket. | I wish you pocket. |
 | 89.66% | `transcripts/pocket/ping/pocket_ping_jar_call_01.mp3.json` | generated / generated | Spirit urn is here. | Spirit on is here. |
+| 89.66% | `transcripts/priest/ping/priest_ping_haze_almost_respawn.mp3.json` | generated / generated | He's almost back! | Haze is almost back! |
