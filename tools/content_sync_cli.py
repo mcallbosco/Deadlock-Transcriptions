@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import sys
 from pathlib import Path
 
 from .content_sync import (
@@ -219,6 +220,8 @@ def deploy_command(args: argparse.Namespace) -> int:
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="backslashreplace")
     args = build_parser().parse_args()
     try:
         if args.command == "validate":
