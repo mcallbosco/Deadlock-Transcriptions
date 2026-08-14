@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_warden_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "35c473004b7510ee8f7782d1a8f6cd9eb1460c2f396506e220b574dd66ce6ed3",
+      "sha256": [
+        "35c473004b7510ee8f7782d1a8f6cd9eb1460c2f396506e220b574dd66ce6ed3"
+      ],
       "text": "Cordon's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0e910950d439ea1a116cab46f7f256b9469191af76feaef3cc2238a29d998646",
-      "text": "Wardens on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "0e910950d439ea1a116cab46f7f256b9469191af76feaef3cc2238a29d998646",
+        "36ae72aa387adbfc619349077c945bfe98eda3d7e1589c953cfaa57b2f84db4d"
+      ],
+      "text": "Warden's on the roof!",
+      "source": "official"
     },
     {
-      "sha256": "1a68b24f73dbf540246921fa581055c6b9a9c3eb6d7ead8c146bc984d073f6b6",
+      "sha256": [
+        "1a68b24f73dbf540246921fa581055c6b9a9c3eb6d7ead8c146bc984d073f6b6"
+      ],
       "text": "Guards on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36ae72aa387adbfc619349077c945bfe98eda3d7e1589c953cfaa57b2f84db4d",
-      "text": "Warden's on the roof!",
-      "source": "official"
     }
   ]
 }

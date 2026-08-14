@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_slork_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "bf572a983220567ee4890b4774be0e0819d1490983afaac293b12b2aeba8cc5f",
-      "text": "Fathoms missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f5fb9c6ced5abf57e8f599b3595b9f71db4a909b29b499efbbe016d6ef6856f",
+      "sha256": [
+        "8f5fb9c6ced5abf57e8f599b3595b9f71db4a909b29b499efbbe016d6ef6856f",
+        "bf572a983220567ee4890b4774be0e0819d1490983afaac293b12b2aeba8cc5f"
+      ],
       "text": "Fathom's missing",
       "source": "official"
     }

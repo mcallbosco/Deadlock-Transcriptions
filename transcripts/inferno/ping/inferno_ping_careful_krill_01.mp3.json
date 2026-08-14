@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_careful_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "2bee30217a963ba11387cdbe7e0c49d9e78d1ac073395e30d36e0647cf914e8e",
+      "sha256": [
+        "2bee30217a963ba11387cdbe7e0c49d9e78d1ac073395e30d36e0647cf914e8e"
+      ],
       "text": "You're welcome.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e87b9696c78a54266d7f3afad236da160dac67829de621e3812d3999437ae696",
+      "sha256": [
+        "2d78d70428f37a974709baa520dcb1aea896928944da421dd5dfa130af00a373",
+        "e87b9696c78a54266d7f3afad236da160dac67829de621e3812d3999437ae696"
+      ],
       "text": "Careful, girl.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2d78d70428f37a974709baa520dcb1aea896928944da421dd5dfa130af00a373",
-      "text": "Careful, girl.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8b8e8d19adba8ae875db60b5e0bcc418e2216e688e6710af9fe70fef5027fa9",
+      "sha256": [
+        "a8b8e8d19adba8ae875db60b5e0bcc418e2216e688e6710af9fe70fef5027fa9"
+      ],
       "text": "Careful, Krill…",
       "source": "official"
     }

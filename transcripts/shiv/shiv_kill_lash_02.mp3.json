@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_kill_lash_02.mp3",
   "revisions": [
     {
-      "sha256": "b01767416541dd1ac24a0daa65e87cc8ec3b46a21dcf86e420c2086349ea0176",
+      "sha256": [
+        "b01767416541dd1ac24a0daa65e87cc8ec3b46a21dcf86e420c2086349ea0176",
+        "cb5cbdd252f763a9d6d4595a0f4a03d9b43834d2fc4d2dd2b5123e3d6bbc2d8c"
+      ],
       "text": "You got dust on me, Larry.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cb5cbdd252f763a9d6d4595a0f4a03d9b43834d2fc4d2dd2b5123e3d6bbc2d8c",
-      "text": "You got dust on me, Larry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7fd9032decbe31abed3f808935d4b06f5b88f7f98837c44b6a12cdad3a79cc72",
+      "sha256": [
+        "7fd9032decbe31abed3f808935d4b06f5b88f7f98837c44b6a12cdad3a79cc72"
+      ],
       "text": "You got nothing on me Lash.",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "magician/ping/magician_henry_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8346bce289b68d4c3779f67164b8ae3990764a04a97a366250b88f32be849be2",
+      "sha256": [
+        "8346bce289b68d4c3779f67164b8ae3990764a04a97a366250b88f32be849be2"
+      ],
       "text": "Bebop was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

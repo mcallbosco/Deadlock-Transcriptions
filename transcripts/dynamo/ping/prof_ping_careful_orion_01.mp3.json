@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "efe7f322c3ebde0960bbcc2f1f6e892649d7f89a6dbe7122efbd91ded30cd7b8",
-      "text": "Careful, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73553da930fd5671800bbff4540cab5636bbd863cb2fdb9cec862aabcf6239ac",
+      "sha256": [
+        "73553da930fd5671800bbff4540cab5636bbd863cb2fdb9cec862aabcf6239ac",
+        "efe7f322c3ebde0960bbcc2f1f6e892649d7f89a6dbe7122efbd91ded30cd7b8"
+      ],
       "text": "Careful, Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

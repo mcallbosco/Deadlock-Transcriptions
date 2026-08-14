@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_bookworm_was_here.mp3",
   "revisions": [
     {
-      "sha256": "05d90f29c397bbab37311d6260f513a374724d50159bb1d13116b91938b0ce7f",
+      "sha256": [
+        "05d90f29c397bbab37311d6260f513a374724d50159bb1d13116b91938b0ce7f"
+      ],
       "text": "Page is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

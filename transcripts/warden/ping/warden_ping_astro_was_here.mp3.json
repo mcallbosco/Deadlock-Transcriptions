@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_astro_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f58e82907c81357bf08ccab08936b5c9cf69524504880ebd8d0c82ef66618a8a",
+      "sha256": [
+        "3b19369cbf7285f39379bcb04f8149af95be5ef4ebdb1b1655cf9aca711388f6",
+        "dcef138f2799ae602284815e05012d77603c98a02886def8c4b6fc919f256f94",
+        "f58e82907c81357bf08ccab08936b5c9cf69524504880ebd8d0c82ef66618a8a"
+      ],
       "text": "Holiday was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3445d946f1b56fd0d6bdc130240b072fa76cb0df3424808fb1f97fca5dfca471",
+      "sha256": [
+        "3445d946f1b56fd0d6bdc130240b072fa76cb0df3424808fb1f97fca5dfca471"
+      ],
       "text": "Holliday was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b19369cbf7285f39379bcb04f8149af95be5ef4ebdb1b1655cf9aca711388f6",
-      "text": "Holiday was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcef138f2799ae602284815e05012d77603c98a02886def8c4b6fc919f256f94",
-      "text": "Holiday was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

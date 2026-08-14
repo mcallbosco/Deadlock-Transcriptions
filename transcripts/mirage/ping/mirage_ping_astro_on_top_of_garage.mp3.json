@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_astro_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "e7195184900dc6f667ab9bd7bf6bb507389edaac6591f0b9d5512a15b422219b",
+      "sha256": [
+        "e7195184900dc6f667ab9bd7bf6bb507389edaac6591f0b9d5512a15b422219b"
+      ],
       "text": "That's the one for now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "930fb70b0375866c0d7f0676ff722562ccfef282efc596824d22b575258ba86e",
+      "sha256": [
+        "930fb70b0375866c0d7f0676ff722562ccfef282efc596824d22b575258ba86e",
+        "e6846510def7b6c86afb7be8343313b22671abcf072c870e4531292143db4d18"
+      ],
       "text": "Holiday's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e6846510def7b6c86afb7be8343313b22671abcf072c870e4531292143db4d18",
-      "text": "Holiday's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c8e9991ddf25691c894d1ff9805d91e668e0c1d076a543575f81ffde35814ec6",
+      "sha256": [
+        "c8e9991ddf25691c894d1ff9805d91e668e0c1d076a543575f81ffde35814ec6"
+      ],
       "text": "Holliday's on top of the garage!",
       "source": "official"
     }

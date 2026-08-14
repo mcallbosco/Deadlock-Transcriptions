@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_the_boss_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "14c811707589691ac168f2cb9b73779f7cfc279867298ab8871c8a6a89e547d6",
+      "sha256": [
+        "14c811707589691ac168f2cb9b73779f7cfc279867298ab8871c8a6a89e547d6"
+      ],
       "text": "The boss on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ab4dbb9d2a5a67fab9969e9a6aed7ca3d81a2bd622f7f7f83096d5149cd2f3b0",
+      "sha256": [
+        "ab4dbb9d2a5a67fab9969e9a6aed7ca3d81a2bd622f7f7f83096d5149cd2f3b0"
+      ],
       "text": "The boss is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

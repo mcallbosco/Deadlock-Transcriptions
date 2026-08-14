@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_sad_02.mp3",
   "revisions": [
     {
-      "sha256": "b7a8f31e3d54a276a77b226531bd24118c29bc8cd30712b0b62b48fb851cc8f5",
-      "text": "This isn't good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7221eab7a1282ebdffbdc0f960d7e99da85b2dee6bb989abafa65629a7087091",
+      "sha256": [
+        "7221eab7a1282ebdffbdc0f960d7e99da85b2dee6bb989abafa65629a7087091",
+        "b7a8f31e3d54a276a77b226531bd24118c29bc8cd30712b0b62b48fb851cc8f5"
+      ],
       "text": "This isn't good.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

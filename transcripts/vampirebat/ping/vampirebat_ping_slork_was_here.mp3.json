@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_slork_was_here.mp3",
   "revisions": [
     {
-      "sha256": "69f7a359346338d7728ab3ff6b7d8c2ebe9d858d86bc1f50d2284795115b2c6a",
+      "sha256": [
+        "69f7a359346338d7728ab3ff6b7d8c2ebe9d858d86bc1f50d2284795115b2c6a"
+      ],
       "text": "Chatom was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f570edcf9e7c2cdda5cbe4e75b829a179edb193e1d23448cd0e1d3fbfe95543a",
+      "sha256": [
+        "f570edcf9e7c2cdda5cbe4e75b829a179edb193e1d23448cd0e1d3fbfe95543a"
+      ],
       "text": "Thought someone was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

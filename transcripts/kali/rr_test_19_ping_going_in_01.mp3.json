@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "222f4424a7fa15c7b09e1c783dfe8d5ff734d7e879fafee674da22a54beea44e",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb75fa4d16b07675b5ded00de1db78957d3331e89ac61718cf820580aac8b171",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4023b136251f8c71938ed591f6fd9d83e8fb4db44ffe188c58f6472fcaba8c4",
+      "sha256": [
+        "222f4424a7fa15c7b09e1c783dfe8d5ff734d7e879fafee674da22a54beea44e",
+        "f4023b136251f8c71938ed591f6fd9d83e8fb4db44ffe188c58f6472fcaba8c4",
+        "fb75fa4d16b07675b5ded00de1db78957d3331e89ac61718cf820580aac8b171"
+      ],
       "text": "I'm going in!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

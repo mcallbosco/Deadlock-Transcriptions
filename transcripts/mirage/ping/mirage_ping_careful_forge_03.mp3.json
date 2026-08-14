@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_forge_03.mp3",
   "revisions": [
     {
-      "sha256": "0ef9916c2315ed028d55382b416ffc7e753034a8a00670e4645a5a6a62684edf",
+      "sha256": [
+        "0ef9916c2315ed028d55382b416ffc7e753034a8a00670e4645a5a6a62684edf"
+      ],
       "text": "That's a fact.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4795025494eb5cc7f5441ad9603b0bd098e2b4aceefb4ad2b201264754469ac5",
-      "text": "Careful, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fcadf7fd3a8d87850d1694f2e8f053e5a65b422fbea61d0c9899162d58a8064d",
-      "text": "Careful, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e521757e0878e7abf673b5680de98b4d0a2c471c705d2f574dd3b1f0e6abb5e",
+      "sha256": [
+        "4795025494eb5cc7f5441ad9603b0bd098e2b4aceefb4ad2b201264754469ac5",
+        "4e521757e0878e7abf673b5680de98b4d0a2c471c705d2f574dd3b1f0e6abb5e",
+        "fcadf7fd3a8d87850d1694f2e8f053e5a65b422fbea61d0c9899162d58a8064d"
+      ],
       "text": "Careful, McGinnis!",
       "source": "official"
     }

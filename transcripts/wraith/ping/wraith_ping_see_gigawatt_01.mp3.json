@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "ad0c7c858d0ca282b457355e670c363c3920e46d9301e2134fd30ff3c89cec26",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4cc9071e1c70c62e2e44cf2c5f437fec2744ec283755a2306d3d491ed236fde0",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8bfa6c2f07d44426732d78fec09ee118d51e80b5e07b0b35d7b2dc31bd9f2ae3",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b34dee2685d4408ac0ca3700716a0eb61cde9c4de8ddf9f74ca7f36733d000e9",
+      "sha256": [
+        "4cc9071e1c70c62e2e44cf2c5f437fec2744ec283755a2306d3d491ed236fde0",
+        "8bfa6c2f07d44426732d78fec09ee118d51e80b5e07b0b35d7b2dc31bd9f2ae3",
+        "ad0c7c858d0ca282b457355e670c363c3920e46d9301e2134fd30ff3c89cec26",
+        "b34dee2685d4408ac0ca3700716a0eb61cde9c4de8ddf9f74ca7f36733d000e9"
+      ],
       "text": "I see Seven",
       "source": "official"
     }

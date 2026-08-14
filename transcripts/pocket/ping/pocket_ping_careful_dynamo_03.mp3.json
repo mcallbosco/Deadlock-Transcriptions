@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_careful_dynamo_03.mp3",
   "revisions": [
     {
-      "sha256": "6ab8c1b2b9708e3fcf52d45e4df5102c1df7f2c3e0938b3311cb816cf7e8cc84",
+      "sha256": [
+        "6ab8c1b2b9708e3fcf52d45e4df5102c1df7f2c3e0938b3311cb816cf7e8cc84",
+        "dae706448371738d8cfc5a20644e744fc30251a3fdc61ab0735cfcd907f7ddd9"
+      ],
       "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dae706448371738d8cfc5a20644e744fc30251a3fdc61ab0735cfcd907f7ddd9",
-      "text": "Careful, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

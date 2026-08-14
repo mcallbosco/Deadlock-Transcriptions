@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "3976a51c9ef341e0e930f7ae486194c9601dad5cd1578423021be07aef0e1de9",
+      "sha256": [
+        "3976a51c9ef341e0e930f7ae486194c9601dad5cd1578423021be07aef0e1de9"
+      ],
       "text": "I'm with you, Paige.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

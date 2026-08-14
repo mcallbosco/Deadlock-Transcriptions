@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_ability4_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "a0e50d81a503fb095c5272762d3775e2cc8cf385795a0b803a75b09ae5088af9",
-      "text": "Last stands on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e9278fb7a6adb659e18de862c41b55b9b8acf9ad4dbdd814b30654c76d11f1b",
-      "text": "Last Stand's on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0c0ab8574e63eeb8e4a3e3fa3c0bbb18e91ccfdb351f7f94c025bfd61e38a45",
-      "text": "Last Stand's on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ad5268a56b80ac6e27ff135ebd0db66e15007a7b47480dce08f8c6ee6b1add4",
+      "sha256": [
+        "0e9278fb7a6adb659e18de862c41b55b9b8acf9ad4dbdd814b30654c76d11f1b",
+        "1ad5268a56b80ac6e27ff135ebd0db66e15007a7b47480dce08f8c6ee6b1add4",
+        "a0c0ab8574e63eeb8e4a3e3fa3c0bbb18e91ccfdb351f7f94c025bfd61e38a45",
+        "a0e50d81a503fb095c5272762d3775e2cc8cf385795a0b803a75b09ae5088af9"
+      ],
       "text": "Last Stand's on cooldown",
       "source": "official"
     }

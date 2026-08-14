@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_ability3_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "a90e897ed7e7fb37a95bd6c1fd26266574330f2451c27ec59bf39af0f1e90fa0",
+      "sha256": [
+        "a90e897ed7e7fb37a95bd6c1fd26266574330f2451c27ec59bf39af0f1e90fa0"
+      ],
       "text": "코르파스에서 안녕하세요.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3fd90d2dfbcdceef205539fadab8f909acbe648965bafa4e74688877c7a2ddec",
+      "sha256": [
+        "3955204a847bfd31fd272822dc58c232b5bfa690ea6f926e1bf4b236dc37e7be",
+        "3fd90d2dfbcdceef205539fadab8f909acbe648965bafa4e74688877c7a2ddec"
+      ],
       "text": "Get this ward on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3955204a847bfd31fd272822dc58c232b5bfa690ea6f926e1bf4b236dc37e7be",
-      "text": "Get this ward on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b8fca626d5d9a4794720cf332819633a24a44a803459210032a8d4daf56441f7",
+      "sha256": [
+        "b8fca626d5d9a4794720cf332819633a24a44a803459210032a8d4daf56441f7"
+      ],
       "text": "Mark's not ready",
       "source": "official"
     }

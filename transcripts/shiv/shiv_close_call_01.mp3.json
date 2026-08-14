@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_close_call_01.mp3",
   "revisions": [
     {
-      "sha256": "3c34b7d530df6a424c8e2f8b5cf3314f099638b2c84ac0ad6a1e0b91dc56b57f",
+      "sha256": [
+        "080b232c2a022c9ea9ddb1b5a3fdcfec4bd611010f4ee9da0888b2711c937716",
+        "3c34b7d530df6a424c8e2f8b5cf3314f099638b2c84ac0ad6a1e0b91dc56b57f"
+      ],
       "text": "I really made me work for it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "080b232c2a022c9ea9ddb1b5a3fdcfec4bd611010f4ee9da0888b2711c937716",
-      "text": "I really made me work for it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a18d795a25b91e3ac63520da4df62a2fa712536e91bc4dc5d23b36e18ac41706",
+      "sha256": [
+        "a18d795a25b91e3ac63520da4df62a2fa712536e91bc4dc5d23b36e18ac41706"
+      ],
       "text": "They're really makin' me work for it…",
       "source": "official"
     }

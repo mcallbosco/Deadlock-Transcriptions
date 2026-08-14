@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_wraith_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "ea7ba1d876d4d4553157e3f8bb47295cd6e99cd29b990d0166a61a249b2d3297",
+      "sha256": [
+        "1dba4eabb0639b6aaf80a501a217d5e73a30cfaf67f86c2b4cd89d18c3fdd0de",
+        "ea7ba1d876d4d4553157e3f8bb47295cd6e99cd29b990d0166a61a249b2d3297"
+      ],
       "text": "Grace on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1dba4eabb0639b6aaf80a501a217d5e73a30cfaf67f86c2b4cd89d18c3fdd0de",
-      "text": "Grace on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4992ac789e479c2bf4d62953ccb9386e0e932daa435e6fff365fe96cd81e915",
+      "sha256": [
+        "f4992ac789e479c2bf4d62953ccb9386e0e932daa435e6fff365fe96cd81e915"
+      ],
       "text": "Wraith's on the bridge!",
       "source": "official"
     }

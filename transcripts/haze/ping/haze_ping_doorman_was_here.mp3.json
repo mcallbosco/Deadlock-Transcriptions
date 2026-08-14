@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d21e72e735193a654257fa95d3cf64db19ee04d9c4f65b7074669f5b357cb7cd",
+      "sha256": [
+        "d21e72e735193a654257fa95d3cf64db19ee04d9c4f65b7074669f5b357cb7cd"
+      ],
       "text": "The Doorman was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "290dc0716abf7deb7a8b481e5ffd128fb125f9022fcf08b6dd8236bd5b630a70",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fec5c99fc89a2d2d572c6cdccb7057e6a11c0b23a32c0e2c725627151236d921",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6be09ecf3452f4e215c482e3fc3d44608cd5de2f4c324f3111886df5ac40597",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b5e4de341c8ec3d3447d92d4553849306d6d59a969630c1dfc72af93536ddf1",
+      "sha256": [
+        "290dc0716abf7deb7a8b481e5ffd128fb125f9022fcf08b6dd8236bd5b630a70",
+        "6b5e4de341c8ec3d3447d92d4553849306d6d59a969630c1dfc72af93536ddf1",
+        "c6be09ecf3452f4e215c482e3fc3d44608cd5de2f4c324f3111886df5ac40597",
+        "fec5c99fc89a2d2d572c6cdccb7057e6a11c0b23a32c0e2c725627151236d921"
+      ],
       "text": "Item's on cooldown",
       "source": "official"
     }

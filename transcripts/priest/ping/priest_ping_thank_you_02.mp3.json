@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "6b6e7fe3b5b519a556df5858ee60f39244fb8cab1d7877cf3073b437b97756d6",
-      "text": "Thank you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "625e7d6291d66a2bbb84528cc337f78e56a4b673dd8c77cf1be776035d70beba",
+      "sha256": [
+        "625e7d6291d66a2bbb84528cc337f78e56a4b673dd8c77cf1be776035d70beba",
+        "6b6e7fe3b5b519a556df5858ee60f39244fb8cab1d7877cf3073b437b97756d6"
+      ],
       "text": "Thank you.",
       "source": "official"
     }

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_upgrade_power3_06.mp3",
   "revisions": [
     {
-      "sha256": "2c4965fa50c94e2d9894a9511ea9a41d882de1d1a1c24f3bcb5940f52f10e361",
+      "sha256": [
+        "2c4965fa50c94e2d9894a9511ea9a41d882de1d1a1c24f3bcb5940f52f10e361",
+        "9f265f9b81c099e7480432d7b56d280705d482cda8732d9989c8d349807d70c5"
+      ],
       "text": "They don't make 'em like me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9f58a23fad801a38dd2ca03afa3204edeaa6aebfbeeb6f801ea03b4d97e9bcf5",
+      "sha256": [
+        "9f58a23fad801a38dd2ca03afa3204edeaa6aebfbeeb6f801ea03b4d97e9bcf5"
+      ],
       "text": "They don't make them like me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f265f9b81c099e7480432d7b56d280705d482cda8732d9989c8d349807d70c5",
-      "text": "They don't make 'em like me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "74f8375a3912a045bf047f840ea58a7b725e9e168fed1fbc6eb2d2c1cdb9500c",
-      "text": "I see Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f419406e4fed01cb3f581327abad8d53b9fc9ebd894e13197b9c950efe015673",
+      "sha256": [
+        "74f8375a3912a045bf047f840ea58a7b725e9e168fed1fbc6eb2d2c1cdb9500c",
+        "f419406e4fed01cb3f581327abad8d53b9fc9ebd894e13197b9c950efe015673"
+      ],
       "text": "I see Dynamo.",
       "source": "official"
     }

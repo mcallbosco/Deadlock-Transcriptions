@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_ivy_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "30252946e48fa15ce79dd8787aea80d590297d0d3066804d8d810ec86e3805e9",
-      "text": "Ivy's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fda435a5ae62e5f5e0833119b6283f7107d4610b655483c60c0ad39a0fb5b3f6",
+      "sha256": [
+        "30252946e48fa15ce79dd8787aea80d590297d0d3066804d8d810ec86e3805e9",
+        "fda435a5ae62e5f5e0833119b6283f7107d4610b655483c60c0ad39a0fb5b3f6"
+      ],
       "text": "Ivy's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

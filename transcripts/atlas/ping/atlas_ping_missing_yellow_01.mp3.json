@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "aef699e5292dc5455e347f25d4d0a77b585340faa4be601109fba5245913ad12",
+      "sha256": [
+        "aef699e5292dc5455e347f25d4d0a77b585340faa4be601109fba5245913ad12"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

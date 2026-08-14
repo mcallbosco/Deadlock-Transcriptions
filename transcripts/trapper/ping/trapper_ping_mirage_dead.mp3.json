@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "61f11b0ce9d748c4183f35baef648ae5ea22985f827ff4f25f730c81a9a04bee",
+      "sha256": [
+        "61f11b0ce9d748c4183f35baef648ae5ea22985f827ff4f25f730c81a9a04bee"
+      ],
       "text": "Mirage is dead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

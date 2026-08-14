@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "8a891570ce6d852f9d43d766eefd1d7a272bb5be622e051f9502a0175d3173b2",
+      "sha256": [
+        "8a891570ce6d852f9d43d766eefd1d7a272bb5be622e051f9502a0175d3173b2"
+      ],
       "text": "What she is.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "91ee5ee9c80ef233802786eaed5bc3196bdda9abe4844e98e076adf8f29ede18",
+      "sha256": [
+        "84b80ec18ddf5fa15aafa3280139cf88898651f4e1c44bd7d76c23bece66ddc0",
+        "91ee5ee9c80ef233802786eaed5bc3196bdda9abe4844e98e076adf8f29ede18"
+      ],
       "text": "I see hate.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "84b80ec18ddf5fa15aafa3280139cf88898651f4e1c44bd7d76c23bece66ddc0",
-      "text": "I see hate.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "51ca5fec77ce5799b4ce3abdb2db3b7f7933927a64960e28f0c72d1ea37c73a3",
+      "sha256": [
+        "51ca5fec77ce5799b4ce3abdb2db3b7f7933927a64960e28f0c72d1ea37c73a3"
+      ],
       "text": "I see Haze",
       "source": "official"
     }

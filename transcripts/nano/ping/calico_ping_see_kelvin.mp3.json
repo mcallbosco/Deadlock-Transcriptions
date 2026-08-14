@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "7981f68d57d6ee8990bc1a4a3f64c532d9ca2b6d7689b9c9152e6a07e5a64ee6",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "360d591582fcdeb5814ec70b0d15ffe74dc8ed8ca54eb5018681b79e74343255",
+      "sha256": [
+        "360d591582fcdeb5814ec70b0d15ffe74dc8ed8ca54eb5018681b79e74343255",
+        "7981f68d57d6ee8990bc1a4a3f64c532d9ca2b6d7689b9c9152e6a07e5a64ee6"
+      ],
       "text": "I see Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

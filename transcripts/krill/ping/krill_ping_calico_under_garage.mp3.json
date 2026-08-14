@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_calico_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "dd8f5c81a70817e856e80d709c3acb7f12770579ebacfb1f907144cb2dff3fcf",
-      "text": "Calico's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3890a5725741887ebeeed5bc38a44b6f461932a589a99f9040fa964aa2eb2f0",
+      "sha256": [
+        "b3890a5725741887ebeeed5bc38a44b6f461932a589a99f9040fa964aa2eb2f0",
+        "dd8f5c81a70817e856e80d709c3acb7f12770579ebacfb1f907144cb2dff3fcf"
+      ],
       "text": "Calico's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

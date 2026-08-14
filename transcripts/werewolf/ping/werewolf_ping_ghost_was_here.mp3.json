@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_ghost_was_here.mp3",
   "revisions": [
     {
-      "sha256": "2ef35f93f724c00ddfac986aa3608b4685194c653adf7be8eae3226784b4ffa9",
+      "sha256": [
+        "2ef35f93f724c00ddfac986aa3608b4685194c653adf7be8eae3226784b4ffa9"
+      ],
       "text": "Gas was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

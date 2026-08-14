@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_drifter.mp3",
   "revisions": [
     {
-      "sha256": "dd515a13e3958b8156a00724eb69c8a8213284c2850ea1a248a76223b712c116",
+      "sha256": [
+        "dd515a13e3958b8156a00724eb69c8a8213284c2850ea1a248a76223b712c116"
+      ],
       "text": "I wish you better.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

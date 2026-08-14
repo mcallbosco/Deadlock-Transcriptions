@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_saw_mirage.mp3",
   "revisions": [
     {
-      "sha256": "e953863f8a62c3043b5400b0a59ea84420595a0cfee0eb87a4355ca3aaaff407",
-      "text": "I saw Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3185d076bafd8d586168ec81d5e88f6f79a8949b43d727f998d337609fbebe94",
+      "sha256": [
+        "3185d076bafd8d586168ec81d5e88f6f79a8949b43d727f998d337609fbebe94",
+        "e953863f8a62c3043b5400b0a59ea84420595a0cfee0eb87a4355ca3aaaff407"
+      ],
       "text": "I saw Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_thank_hornet.mp3",
   "revisions": [
     {
-      "sha256": "77be9a6a4f3de76ba2c7451bf68574f6cbeaf81027fa0734eba28236a127cfcb",
-      "text": "Thanks, Hornet!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "862fa099c2e654c430fff16d2115298f73eb57d752fe67b3c8fcf028264ed1c2",
-      "text": "Thanks, Hornet!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b2585d3d7e127e7762c047309a602606c2b45285d196a0acf7631c7584d48a0",
+      "sha256": [
+        "4b2585d3d7e127e7762c047309a602606c2b45285d196a0acf7631c7584d48a0",
+        "77be9a6a4f3de76ba2c7451bf68574f6cbeaf81027fa0734eba28236a127cfcb",
+        "862fa099c2e654c430fff16d2115298f73eb57d752fe67b3c8fcf028264ed1c2"
+      ],
       "text": "Thanks, Hornet!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

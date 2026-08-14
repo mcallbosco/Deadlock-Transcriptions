@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_need_help_yellow.mp3",
   "revisions": [
     {
-      "sha256": "599a490b63bea975a8494630f8d58cc94e8b780897044a55b3e74a5a20bec97a",
-      "text": "We got the yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4313403d93e42e3b8b344161791155c045ecdf5551365af5d38638839e58f340",
+      "sha256": [
+        "4313403d93e42e3b8b344161791155c045ecdf5551365af5d38638839e58f340",
+        "599a490b63bea975a8494630f8d58cc94e8b780897044a55b3e74a5a20bec97a"
+      ],
       "text": "We got the yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

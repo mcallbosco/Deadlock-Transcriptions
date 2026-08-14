@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5888fd89bbbac4289a91fd4692c005338c0284733c3fb4f4be7ca93733943a8c",
+      "sha256": [
+        "5888fd89bbbac4289a91fd4692c005338c0284733c3fb4f4be7ca93733943a8c",
+        "80db9a17ccd133fb55239d9d4a54303fcdd9db8f2829c03ebb8f3c28e15364b4",
+        "c9fa16d7f120a00200100211aab978bdf7eb00535c6fe85257ef5e3caaf6c8c9"
+      ],
       "text": "Shiv is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c9fa16d7f120a00200100211aab978bdf7eb00535c6fe85257ef5e3caaf6c8c9",
-      "text": "Shiv is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80db9a17ccd133fb55239d9d4a54303fcdd9db8f2829c03ebb8f3c28e15364b4",
-      "text": "Shiv is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5fce6a55d587e5ad6cd8012e467deaba357d55010e75bce7684f392e9ee9b4c6",
+      "sha256": [
+        "5fce6a55d587e5ad6cd8012e467deaba357d55010e75bce7684f392e9ee9b4c6"
+      ],
       "text": "Shiv's missing",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "8047a628dd17d387fdd22174476fe5c5efd9a1bd8f08ac74dee0d57709f3af6e",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5704fe06543b9909f042a9be4383293eea9a245d6d1a5bcbbb385c00c7ee2cf5",
+      "sha256": [
+        "5704fe06543b9909f042a9be4383293eea9a245d6d1a5bcbbb385c00c7ee2cf5",
+        "8047a628dd17d387fdd22174476fe5c5efd9a1bd8f08ac74dee0d57709f3af6e"
+      ],
       "text": "Nice work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_yamato_headed_to_purple.mp3",
   "revisions": [
     {
-      "sha256": "1631d6f6844dcbd8139e14369eba08d83e415527868dd3c62b72fc682b157842",
+      "sha256": [
+        "1631d6f6844dcbd8139e14369eba08d83e415527868dd3c62b72fc682b157842"
+      ],
       "text": "Jamal is hit the purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fea46a974c47d61c4b9dbef8175bc878788703682ce17a34a242654dd7bed02a",
-      "text": "Your model's hit the purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "224c4fdcb301d37f23ae3dd65d1f5fd009b0c96956d046df5f6843f598d1522b",
+      "sha256": [
+        "224c4fdcb301d37f23ae3dd65d1f5fd009b0c96956d046df5f6843f598d1522b",
+        "fea46a974c47d61c4b9dbef8175bc878788703682ce17a34a242654dd7bed02a"
+      ],
       "text": "Your model's hit the purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

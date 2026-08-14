@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "7ff268199a9360284850e0605599c847037a829917e388a8edb40ece22f2dd4d",
+      "sha256": [
+        "7ff268199a9360284850e0605599c847037a829917e388a8edb40ece22f2dd4d"
+      ],
       "text": "I'm with you, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

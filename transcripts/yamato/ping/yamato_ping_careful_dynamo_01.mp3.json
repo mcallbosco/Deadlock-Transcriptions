@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "799c840b4fec0a6e7412afddec14773bd85b168a57a43688ea5db388b5ccf7b4",
-      "text": "Careful, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d4acf18308cdea75f6f10f94c4533afbc2b3ab548d7e06b239d0c3de95afe17",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52fb8e7a000f837e6689364b8eed15035acf2c4d7a4c5ddaccdedc0fb795eebf",
+      "sha256": [
+        "2d4acf18308cdea75f6f10f94c4533afbc2b3ab548d7e06b239d0c3de95afe17",
+        "52fb8e7a000f837e6689364b8eed15035acf2c4d7a4c5ddaccdedc0fb795eebf",
+        "799c840b4fec0a6e7412afddec14773bd85b168a57a43688ea5db388b5ccf7b4"
+      ],
       "text": "Careful, Dynamo…",
       "source": "official"
     }

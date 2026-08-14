@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_use_item_1.mp3",
   "revisions": [
     {
-      "sha256": "58013467b8227a6b6ea5a0f846169979c07cabe5cbcc85297b309b96cb081f02",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "152af9189ef52f0c970e395a94317fb367512e60bf84958f436e81a6895103cb",
+      "sha256": [
+        "152af9189ef52f0c970e395a94317fb367512e60bf84958f436e81a6895103cb",
+        "58013467b8227a6b6ea5a0f846169979c07cabe5cbcc85297b309b96cb081f02"
+      ],
       "text": "Ready to use item.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

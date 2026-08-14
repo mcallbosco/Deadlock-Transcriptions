@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_inferno_on_bridge_1.mp3",
   "revisions": [
     {
-      "sha256": "d7306756177cf877a5406cf28e9eb84609c0267608d311b6f41fcb8c98fa66d0",
-      "text": "Infernus is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "391eb7888027f0b1b3c296a1ec8b30b00af1b834a728a3ee78771d7fb9a7a734",
+      "sha256": [
+        "391eb7888027f0b1b3c296a1ec8b30b00af1b834a728a3ee78771d7fb9a7a734",
+        "d7306756177cf877a5406cf28e9eb84609c0267608d311b6f41fcb8c98fa66d0"
+      ],
       "text": "Infernus is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

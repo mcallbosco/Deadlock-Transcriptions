@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_inferno_on_roof_1.mp3",
   "revisions": [
     {
-      "sha256": "bc1af2c147717f649dd010d9eac4679845c928a080843f2d8d7ae9f98ae2c184",
-      "text": "Infernus is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2c7ac1c0a3da007de7eee7aae0d2b0c97b74ad0300766bf0e847d15e18718ce",
+      "sha256": [
+        "bc1af2c147717f649dd010d9eac4679845c928a080843f2d8d7ae9f98ae2c184",
+        "e2c7ac1c0a3da007de7eee7aae0d2b0c97b74ad0300766bf0e847d15e18718ce"
+      ],
       "text": "Infernus is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

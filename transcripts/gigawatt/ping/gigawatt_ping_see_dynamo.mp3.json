@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "821548e79220406444a6c9499a0a71fb9310dc5a0c0362051556d18bdc4e6ff2",
-      "text": "I see Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5d8bda343311c9c44c797efe73eb904b1c6a90221bc86f017178d21a40ce670",
-      "text": "I see Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "40d040bf8c9857731a6ec4606708604531822d27a0ad7579cd41aa9361bc07fc",
-      "text": "I see Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4925bb5a3c3c91740951e9a9d156e2ee742226b51ad9367afd24128fa5afb4b3",
+      "sha256": [
+        "40d040bf8c9857731a6ec4606708604531822d27a0ad7579cd41aa9361bc07fc",
+        "4925bb5a3c3c91740951e9a9d156e2ee742226b51ad9367afd24128fa5afb4b3",
+        "821548e79220406444a6c9499a0a71fb9310dc5a0c0362051556d18bdc4e6ff2",
+        "c5d8bda343311c9c44c797efe73eb904b1c6a90221bc86f017178d21a40ce670"
+      ],
       "text": "I see Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

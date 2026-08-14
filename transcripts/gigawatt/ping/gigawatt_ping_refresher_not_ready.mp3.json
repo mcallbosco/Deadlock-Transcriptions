@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_refresher_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "b34e2ade5f789c21a9f8c2406baa379a037b18ee829df90b277099676b70f126",
+      "sha256": [
+        "b34e2ade5f789c21a9f8c2406baa379a037b18ee829df90b277099676b70f126",
+        "d04d90647614d12a1614d21b6fcd385df97bd7e247d4f6f1c7ab130333c572ec"
+      ],
       "text": "Refresher is on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d04d90647614d12a1614d21b6fcd385df97bd7e247d4f6f1c7ab130333c572ec",
-      "text": "Refresher is on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe8c095ac01cf8a61ac0ae19d6928ad62f8a4a93032cd6c1f631e14908fbaa23",
+      "sha256": [
+        "fe8c095ac01cf8a61ac0ae19d6928ad62f8a4a93032cd6c1f631e14908fbaa23"
+      ],
       "text": "Refresher's on cooldown",
       "source": "official"
     }

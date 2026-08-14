@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_operative_was_here.mp3",
   "revisions": [
     {
-      "sha256": "230ce21c41c566cbaff1d957618a0c32e7256a4fbc8f502c2ffff900f2dae891",
+      "sha256": [
+        "230ce21c41c566cbaff1d957618a0c32e7256a4fbc8f502c2ffff900f2dae891"
+      ],
       "text": "Graven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

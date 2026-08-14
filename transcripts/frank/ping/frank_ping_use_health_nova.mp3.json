@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_use_health_nova.mp3",
   "revisions": [
     {
-      "sha256": "e783ca795802bb159be46fbf3916d4f2a97cd978e064713f2bf4d4f63bd97715",
+      "sha256": [
+        "e783ca795802bb159be46fbf3916d4f2a97cd978e064713f2bf4d4f63bd97715"
+      ],
       "text": "Ready to use health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f8bba5dbaea951b95d08d4032ef1d3fec2e4d1c6dcd38d19e408af6e4e7e4f5c",
+      "sha256": [
+        "f8bba5dbaea951b95d08d4032ef1d3fec2e4d1c6dcd38d19e408af6e4e7e4f5c"
+      ],
       "text": "Ready to use Health Nova.",
       "source": "official"
     }

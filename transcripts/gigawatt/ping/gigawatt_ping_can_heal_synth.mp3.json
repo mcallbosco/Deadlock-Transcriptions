@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_can_heal_synth.mp3",
   "revisions": [
     {
-      "sha256": "1194a7a65bf6043efd5012debb39d6f3e1d86140bac7e83d6829a71798c0057e",
+      "sha256": [
+        "1194a7a65bf6043efd5012debb39d6f3e1d86140bac7e83d6829a71798c0057e"
+      ],
       "text": "I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a3719b2c277b99276409c2d606a23c4e42c0198c3cb81534d5403d042f72277d",
-      "text": "Pocket, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f3ed22d4c4f128b1e5833abe976330e6bcf0971991f6f947ca84536986fbf60",
-      "text": "Pocket, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3da93ef48ac82555b4f7fc3e904c336b69f96ae74dbfc0e4e7b626d94e45e30a",
+      "sha256": [
+        "1f3ed22d4c4f128b1e5833abe976330e6bcf0971991f6f947ca84536986fbf60",
+        "3da93ef48ac82555b4f7fc3e904c336b69f96ae74dbfc0e4e7b626d94e45e30a",
+        "a3719b2c277b99276409c2d606a23c4e42c0198c3cb81534d5403d042f72277d"
+      ],
       "text": "Pocket, I can heal you!",
       "source": "official"
     }

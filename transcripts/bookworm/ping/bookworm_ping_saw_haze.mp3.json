@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "4421dc6930944119ad9f7a97fbe18b2679c5fdb5158f5c4311dd2f7105e1f88c",
+      "sha256": [
+        "4421dc6930944119ad9f7a97fbe18b2679c5fdb5158f5c4311dd2f7105e1f88c"
+      ],
       "text": "I so hate.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "56b77aa601320301857f6e7dda687b59f4c3655fc4ddda98f2dff43f1b217480",
+      "sha256": [
+        "56b77aa601320301857f6e7dda687b59f4c3655fc4ddda98f2dff43f1b217480"
+      ],
       "text": "I saw Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_druid_01.mp3",
   "revisions": [
     {
-      "sha256": "dce72f2cb77329ec703a49c3c5023fd185fd2c2c688a8b3ec2414b28c0d8c616",
+      "sha256": [
+        "8ec04c1a77b23034cc5fa1abf268800b45fb7c4da0e67daead4641af05b5df95",
+        "dce72f2cb77329ec703a49c3c5023fd185fd2c2c688a8b3ec2414b28c0d8c616"
+      ],
       "text": "Careful, Druid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ec04c1a77b23034cc5fa1abf268800b45fb7c4da0e67daead4641af05b5df95",
-      "text": "Careful, druid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

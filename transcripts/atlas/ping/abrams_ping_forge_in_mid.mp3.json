@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_forge_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "4d588bd70eb3813ff18513863787747718c0d5f6163d61fb1873db2b54570633",
-      "text": "McGinnis is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b046a0ba6962c042fb70cefbff32e9f38ba54ca5c2ded4c40f64ee52f28913e3",
-      "text": "McGinnis is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f1f621e1d2474da70e60249ddb0801186a5ebc061997b9df9cbc033715cef20",
+      "sha256": [
+        "1f1f621e1d2474da70e60249ddb0801186a5ebc061997b9df9cbc033715cef20",
+        "4d588bd70eb3813ff18513863787747718c0d5f6163d61fb1873db2b54570633",
+        "b046a0ba6962c042fb70cefbff32e9f38ba54ca5c2ded4c40f64ee52f28913e3"
+      ],
       "text": "McGinnis is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

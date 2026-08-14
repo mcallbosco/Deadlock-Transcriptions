@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "7f3eb8e43b86f1634c85aea3c1d67ccfd50782d7f9aa6bbd8931815959268a0a",
+      "sha256": [
+        "7f3eb8e43b86f1634c85aea3c1d67ccfd50782d7f9aa6bbd8931815959268a0a"
+      ],
       "text": "You have jars on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "60922f139912d56924e8351468c8dcf86c9febfb01776a8bc64d0f08005ac30d",
+      "sha256": [
+        "60922f139912d56924e8351468c8dcf86c9febfb01776a8bc64d0f08005ac30d"
+      ],
       "text": "Yamato's on the bridge!",
       "source": "official"
     }

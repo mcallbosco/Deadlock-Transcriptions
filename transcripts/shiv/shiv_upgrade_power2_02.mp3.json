@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_upgrade_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "6b744774be8b1b1141b9ddaeb82a80b1ed2f28d142904c06d594119d0e1f49b0",
+      "sha256": [
+        "6b744774be8b1b1141b9ddaeb82a80b1ed2f28d142904c06d594119d0e1f49b0",
+        "ce0ee8f95dec17879b58a34635363f278b99a046400b8f5ad9126e39c0bfe5ca"
+      ],
       "text": "Just cut you up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ce0ee8f95dec17879b58a34635363f278b99a046400b8f5ad9126e39c0bfe5ca",
-      "text": "Just cut you up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a74c9822da1ea422ad1478b11b12aeacf380f61740705999a4fd6be1e1036244",
+      "sha256": [
+        "a74c9822da1ea422ad1478b11b12aeacf380f61740705999a4fd6be1e1036244"
+      ],
       "text": "Let's cut. Them. Up.",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_operative_was_here.mp3",
   "revisions": [
     {
-      "sha256": "23e1cb551d9f2d8b1e9d13bb59b69dbacba552c47fbde8f14c6c33ef6050e06b",
+      "sha256": [
+        "23e1cb551d9f2d8b1e9d13bb59b69dbacba552c47fbde8f14c6c33ef6050e06b"
+      ],
       "text": "Raven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

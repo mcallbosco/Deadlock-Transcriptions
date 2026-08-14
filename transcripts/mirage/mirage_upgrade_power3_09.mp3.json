@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power3_09.mp3",
   "revisions": [
     {
-      "sha256": "088c2444ecfb973f73f5e8e211bf3c880932270bbdf9e31a54c7d2887092c648",
+      "sha256": [
+        "088c2444ecfb973f73f5e8e211bf3c880932270bbdf9e31a54c7d2887092c648"
+      ],
       "text": "Hello again, sister.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "58d30bc2a092958adc995b50acb08f455bb0a407e5f83d0e0e5b88e3d69831b8",
+      "sha256": [
+        "083b943a180f05b93e81ac101385033898d5ea92e91eda86acbd2971c909454b",
+        "58d30bc2a092958adc995b50acb08f455bb0a407e5f83d0e0e5b88e3d69831b8"
+      ],
       "text": "My resolve will be tested, but I must not waver.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "083b943a180f05b93e81ac101385033898d5ea92e91eda86acbd2971c909454b",
-      "text": "My resolve will be tested, but I must not waver.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bb3883577d0ed44d587c1b9becdf7848b74782c1007fc3740ed3b4e665adb399",
+      "sha256": [
+        "bb3883577d0ed44d587c1b9becdf7848b74782c1007fc3740ed3b4e665adb399"
+      ],
       "text": "When it comes to protecting Nashala, I won't hesitate to kill.",
       "source": "official"
     }

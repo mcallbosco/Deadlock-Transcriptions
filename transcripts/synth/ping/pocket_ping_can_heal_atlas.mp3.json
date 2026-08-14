@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_can_heal_atlas.mp3",
   "revisions": [
     {
-      "sha256": "817850eafded8a1f3d962c9a8447b3839c0d3b8160410e537592b7918ac3988b",
+      "sha256": [
+        "589272fa89fe08d86c844485e6cb9b6eaa6d248e2019947edb5c356ecaa7420e",
+        "817850eafded8a1f3d962c9a8447b3839c0d3b8160410e537592b7918ac3988b"
+      ],
       "text": "Abrams, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "589272fa89fe08d86c844485e6cb9b6eaa6d248e2019947edb5c356ecaa7420e",
-      "text": "Abrams, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

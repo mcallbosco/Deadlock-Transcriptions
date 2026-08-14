@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_sad_07.mp3",
   "revisions": [
     {
-      "sha256": "1b86c460855743bc91fe0e668b26222fdc7b7fa19aa72b6cfa6c4c56e205415d",
-      "text": "This is not going my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff60cf03cfe495112af5519b0185835f4518fc73dbf383a2698ccec5a9cc4b72",
-      "text": "This is not going my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07ad196e7ae8806ac41503aa3b556f140eff1a4164b7cc61fd910346040d335b",
+      "sha256": [
+        "07ad196e7ae8806ac41503aa3b556f140eff1a4164b7cc61fd910346040d335b",
+        "1b86c460855743bc91fe0e668b26222fdc7b7fa19aa72b6cfa6c4c56e205415d",
+        "ff60cf03cfe495112af5519b0185835f4518fc73dbf383a2698ccec5a9cc4b72"
+      ],
       "text": "This is not going my way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

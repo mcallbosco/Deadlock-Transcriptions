@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_see_inferno.mp3",
   "revisions": [
     {
-      "sha256": "77e1b7e6017530504832cf8501f2cdebbebc4c3eb97ac73b98bc7b8c9a5ca6e4",
+      "sha256": [
+        "77e1b7e6017530504832cf8501f2cdebbebc4c3eb97ac73b98bc7b8c9a5ca6e4"
+      ],
       "text": "I see Inferno!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e8b2113e7a3f3c7adf6f89db7f7894d621fd08d9ab513d56ad2c17cf68be2ef3",
+      "sha256": [
+        "e8b2113e7a3f3c7adf6f89db7f7894d621fd08d9ab513d56ad2c17cf68be2ef3"
+      ],
       "text": "I see Infernus",
       "source": "official"
     }

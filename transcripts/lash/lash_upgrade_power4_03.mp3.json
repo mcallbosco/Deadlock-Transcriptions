@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_upgrade_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "8421ee427004ae335d804ea10e83467a4acade213e62e310359eb8bd131f6113",
+      "sha256": [
+        "8421ee427004ae335d804ea10e83467a4acade213e62e310359eb8bd131f6113"
+      ],
       "text": "If they get too close, they'll regret it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f8197d9180ab3ee77fa02366ebc67c7363b52eb7c43a04276aad8bd65df7dee5",
-      "text": "They get too close, they'll regret it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c77b58babc10ccec0d567df2a51fc9f4692494c8a9642bd1783f53a8524fd5d",
-      "text": "They get too close, they'll regret it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2152c11d5c23b8055a472a2a2c9ad5db47728e67a69c30e715b27cd21edfa401",
+      "sha256": [
+        "1c77b58babc10ccec0d567df2a51fc9f4692494c8a9642bd1783f53a8524fd5d",
+        "2152c11d5c23b8055a472a2a2c9ad5db47728e67a69c30e715b27cd21edfa401",
+        "f8197d9180ab3ee77fa02366ebc67c7363b52eb7c43a04276aad8bd65df7dee5"
+      ],
       "text": "They get too close they'll regret it…",
       "source": "official"
     }

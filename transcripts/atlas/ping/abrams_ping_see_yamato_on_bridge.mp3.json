@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "2dd9801cfdf3095737683c967934b9ca6b46421f33fc3a9bbb28fcfa3a44efbc",
+      "sha256": [
+        "2dd9801cfdf3095737683c967934b9ca6b46421f33fc3a9bbb28fcfa3a44efbc"
+      ],
       "text": "Yamato's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "981084eee3b41c2eaa4cc1c384443de1acc0bbc7597ec56f5a278837f5cc7d54",
-      "text": "The armor goes on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f2e4ef210e0f91cd2ec2ceff02c1577dd0a7996a55360e5cf23ec687ca0ec9b",
+      "sha256": [
+        "8f2e4ef210e0f91cd2ec2ceff02c1577dd0a7996a55360e5cf23ec687ca0ec9b",
+        "981084eee3b41c2eaa4cc1c384443de1acc0bbc7597ec56f5a278837f5cc7d54"
+      ],
       "text": "The armor goes on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

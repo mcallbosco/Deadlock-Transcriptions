@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_saw_astro.mp3",
   "revisions": [
     {
-      "sha256": "6f23789b6ad0355418f084509ae6828f5cdc261c753e9ff0c4a822967ae0421d",
+      "sha256": [
+        "6f23789b6ad0355418f084509ae6828f5cdc261c753e9ff0c4a822967ae0421d"
+      ],
       "text": "I saw Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

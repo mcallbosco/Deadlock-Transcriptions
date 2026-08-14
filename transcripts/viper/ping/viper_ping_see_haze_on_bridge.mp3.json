@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "87f62d980c5d6cc6a090d13276d79da18a477270abbaad7583e3df9764c8a8d6",
+      "sha256": [
+        "87f62d980c5d6cc6a090d13276d79da18a477270abbaad7583e3df9764c8a8d6",
+        "ba72ddb946ac0480c5a9edcd2bf3a1fd1793bcb2872461f65d7bcfe4b7a2ecb2"
+      ],
       "text": "Haze is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ba72ddb946ac0480c5a9edcd2bf3a1fd1793bcb2872461f65d7bcfe4b7a2ecb2",
-      "text": "Haze is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4d26dd6b44b4a440a7d2cc638a0f63bdf0dc2d849548b9c565ef1fb47d7ccb5",
+      "sha256": [
+        "d4d26dd6b44b4a440a7d2cc638a0f63bdf0dc2d849548b9c565ef1fb47d7ccb5"
+      ],
       "text": "Haze's on the bridge!",
       "source": "official"
     }

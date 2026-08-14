@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_thank_wraith.mp3",
   "revisions": [
     {
-      "sha256": "ad5a316249348653ad38a5eae7e46cab873f55a86662a060533f3e0dbf8bd992",
-      "text": "Thanks, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c922fb3f48edb707382c1a61d197552a43fba63b46f3033fd092f73698a2b1be",
-      "text": "Thanks, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "123db3307e0287456a3530634cb3f7751ebd43449d618d806c63d0191b654689",
+      "sha256": [
+        "123db3307e0287456a3530634cb3f7751ebd43449d618d806c63d0191b654689",
+        "ad5a316249348653ad38a5eae7e46cab873f55a86662a060533f3e0dbf8bd992",
+        "c922fb3f48edb707382c1a61d197552a43fba63b46f3033fd092f73698a2b1be"
+      ],
       "text": "Thanks, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

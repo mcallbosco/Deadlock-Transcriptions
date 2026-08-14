@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "42146d031047363777d3a22d9ed1455d53509736c3b9bf810bc208da74f4ab62",
+      "sha256": [
+        "42146d031047363777d3a22d9ed1455d53509736c3b9bf810bc208da74f4ab62"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

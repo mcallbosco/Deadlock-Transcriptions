@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_use_echo_shard_03.mp3",
   "revisions": [
     {
-      "sha256": "128b01454684e53b98c89ff43db6ca2f6ba185632edd521d840d0c60c9222085",
-      "text": "My power's back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1fa9073313a0fdbe628cfcbb95b9c64538c6e90c1375374bfa876591e79be197",
-      "text": "My power's back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0544364d0817a015fabc0e8d106851ae5bf07e4ae3a7291d8d2c2cb9092f96bc",
-      "text": "My power's back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "127a9131326d7daf6a509d2dac83acda26660688646bf18ffd79eb4268361376",
+      "sha256": [
+        "0544364d0817a015fabc0e8d106851ae5bf07e4ae3a7291d8d2c2cb9092f96bc",
+        "127a9131326d7daf6a509d2dac83acda26660688646bf18ffd79eb4268361376",
+        "128b01454684e53b98c89ff43db6ca2f6ba185632edd521d840d0c60c9222085",
+        "1fa9073313a0fdbe628cfcbb95b9c64538c6e90c1375374bfa876591e79be197"
+      ],
       "text": "My power's back…",
       "source": "official"
     }

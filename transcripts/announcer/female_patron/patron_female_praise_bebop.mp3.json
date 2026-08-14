@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_bebop.mp3",
   "revisions": [
     {
-      "sha256": "cdff3fba018a778d500b05d4266701a0e4b2026b620dd2e85e5502956a8c3132",
-      "text": "Well done, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6cb38f6eadecc9f1fddb5556fc395081d83bf8f96ab0a9d6ad19fad4b3a0f3b9",
-      "text": "Well done, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0ea6780308354c6e77024549b5cff9ca7faec45c668eca5aa2e04a6d96fa27d",
+      "sha256": [
+        "6cb38f6eadecc9f1fddb5556fc395081d83bf8f96ab0a9d6ad19fad4b3a0f3b9",
+        "cdff3fba018a778d500b05d4266701a0e4b2026b620dd2e85e5502956a8c3132",
+        "f0ea6780308354c6e77024549b5cff9ca7faec45c668eca5aa2e04a6d96fa27d"
+      ],
       "text": "Well done Bebop",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_ally_warden_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "8dddcb22762094fb818a749cc7f19bc5e2365eed6fb6dc2572f2d60d4d08f6dc",
-      "text": "This is our warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54eeed5ca19e7824e613b8b5c0e68f62ec0d648cf637e080252173269571c50c",
+      "sha256": [
+        "54eeed5ca19e7824e613b8b5c0e68f62ec0d648cf637e080252173269571c50c",
+        "8dddcb22762094fb818a749cc7f19bc5e2365eed6fb6dc2572f2d60d4d08f6dc"
+      ],
       "text": "This is our warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_ghost_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "f740128325ba708dd5c25cc83def884791af5e5048bd123445b397a9fde10a29",
+      "sha256": [
+        "d890f4b3972dc1b5819d540f608e8d5dd948b8b02613daed6f3d4c371666d857",
+        "f740128325ba708dd5c25cc83def884791af5e5048bd123445b397a9fde10a29"
+      ],
       "text": "Guys on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d890f4b3972dc1b5819d540f608e8d5dd948b8b02613daed6f3d4c371666d857",
-      "text": "Guys on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "505b3cbca54124009e44e9c04337b8245c6ebf02adc8683807b82e6800473e1f",
+      "sha256": [
+        "505b3cbca54124009e44e9c04337b8245c6ebf02adc8683807b82e6800473e1f"
+      ],
       "text": "Geist's on the bridge!",
       "source": "official"
     }

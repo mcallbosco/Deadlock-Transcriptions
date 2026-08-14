@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "6bc39f79ff567eae9874f50ca1f87e8162a8cf17c36b4e351ff29ac8be4f5fb0",
+      "sha256": [
+        "6bc39f79ff567eae9874f50ca1f87e8162a8cf17c36b4e351ff29ac8be4f5fb0"
+      ],
       "text": "I'm ready now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4cab6e654c7b0853eedecfbb28f6acaa871cd9d9f97b878c6bc51b6c27da3e03",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec3bc9294a7877c7a8abfeed2c19978ec0d14af88c9b35c26b622299ccbfc466",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "daa77e35a68a22570377b7a1c771efd43be2965c5b832dd817d1bdbcde722220",
+      "sha256": [
+        "4cab6e654c7b0853eedecfbb28f6acaa871cd9d9f97b878c6bc51b6c27da3e03",
+        "daa77e35a68a22570377b7a1c771efd43be2965c5b832dd817d1bdbcde722220",
+        "ec3bc9294a7877c7a8abfeed2c19978ec0d14af88c9b35c26b622299ccbfc466"
+      ],
       "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

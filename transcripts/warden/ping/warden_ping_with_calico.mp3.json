@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_calico.mp3",
   "revisions": [
     {
-      "sha256": "f7886af14b6478a400016c9c5ea4578fa1f76793a5827e93e51cae1c15c48035",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "079a90fa9b4bd2d47de9fcad95a48f528aa7462d40ea4e82d896f1a9366326b2",
-      "text": "I'm with you, Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69133406185b92cf94c94e102671491522f2b75ced19130b0da5f322b2fe10ba",
+      "sha256": [
+        "079a90fa9b4bd2d47de9fcad95a48f528aa7462d40ea4e82d896f1a9366326b2",
+        "69133406185b92cf94c94e102671491522f2b75ced19130b0da5f322b2fe10ba",
+        "f7886af14b6478a400016c9c5ea4578fa1f76793a5827e93e51cae1c15c48035"
+      ],
       "text": "I'm with you, Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

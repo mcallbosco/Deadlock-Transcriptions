@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8f15acea01964e3b6ea81d511fea9f0bcb52101a6a1576f924bcf8ca1479d383",
-      "text": "Mirage was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09bbe80a68948e8adaa130961819753116fde05a3009f1a4f6373355a0f1e5a7",
-      "text": "Mirage was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c3817b74bf7b9382cdc0176e8d11a446aa9700e51a36870a520c7dec7aaa5cc",
+      "sha256": [
+        "09bbe80a68948e8adaa130961819753116fde05a3009f1a4f6373355a0f1e5a7",
+        "5c3817b74bf7b9382cdc0176e8d11a446aa9700e51a36870a520c7dec7aaa5cc",
+        "8f15acea01964e3b6ea81d511fea9f0bcb52101a6a1576f924bcf8ca1479d383"
+      ],
       "text": "Mirage was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

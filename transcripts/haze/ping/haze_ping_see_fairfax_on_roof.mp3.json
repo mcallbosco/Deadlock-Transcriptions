@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_fairfax_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "e9f608490e1e060cc3a665029516623ebfb972714bd5967bcf61c34c20ab08d6",
+      "sha256": [
+        "58a78ddc1d848c034c1c33bacc8fb7a01753ef5486424df98dcf5b3e6017d075",
+        "db557f7bfe2cca0ae5e62d2889d49ee849445947ff4f9d96e88ea910988c4bd3",
+        "e9f608490e1e060cc3a665029516623ebfb972714bd5967bcf61c34c20ab08d6"
+      ],
       "text": "Fairfax is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "486ae75998d751289323eff2c75f4889d2628c8f4ae5b86a30de14d10f937bd8",
+      "sha256": [
+        "486ae75998d751289323eff2c75f4889d2628c8f4ae5b86a30de14d10f937bd8"
+      ],
       "text": "Their faction's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58a78ddc1d848c034c1c33bacc8fb7a01753ef5486424df98dcf5b3e6017d075",
-      "text": "Fairfax is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db557f7bfe2cca0ae5e62d2889d49ee849445947ff4f9d96e88ea910988c4bd3",
-      "text": "Fairfax is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

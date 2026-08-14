@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_lets_go_purple_alt.mp3",
   "revisions": [
     {
-      "sha256": "5fa2fd11673e05e5d1e707e7dd218b6a65f23ba8cc138b29079eff4f584fabaa",
+      "sha256": [
+        "5fa2fd11673e05e5d1e707e7dd218b6a65f23ba8cc138b29079eff4f584fabaa"
+      ],
       "text": "Let's go to park!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ca132b73e75331b5c40febd50920ffc60edf887e0fad58458eb21e0031e73cd3",
+      "sha256": [
+        "ca132b73e75331b5c40febd50920ffc60edf887e0fad58458eb21e0031e73cd3"
+      ],
       "text": "Let's go to work!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

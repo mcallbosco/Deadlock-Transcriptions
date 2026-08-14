@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_mcginnis_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "3897b93f0e20a86ee30eb861d0d14d538e61782143896ea70d5860140774abb3",
-      "text": "McGinnis is under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e3214ce31559f2ad0cde2c66054c2b976722f77eae9f57512559053796c8c37",
+      "sha256": [
+        "3897b93f0e20a86ee30eb861d0d14d538e61782143896ea70d5860140774abb3",
+        "7e3214ce31559f2ad0cde2c66054c2b976722f77eae9f57512559053796c8c37"
+      ],
       "text": "McGinnis is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

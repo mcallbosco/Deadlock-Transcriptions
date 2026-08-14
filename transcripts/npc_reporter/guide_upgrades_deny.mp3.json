@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_upgrades_deny.mp3",
   "revisions": [
     {
-      "sha256": "2db642d0531c410ca643743c0c847d34040d84b884b4f512c99135e4dc8b777b",
-      "text": "Enemy creds are red, and enemies will get them if they hit the ground or if they shoot them. You can shoot these red creds first to steal them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c05e7c78ebcba1c3060036efd48bb4eb2940e13f54f66546e6d55efe2bbdf27",
+      "sha256": [
+        "2db642d0531c410ca643743c0c847d34040d84b884b4f512c99135e4dc8b777b",
+        "9c05e7c78ebcba1c3060036efd48bb4eb2940e13f54f66546e6d55efe2bbdf27"
+      ],
       "text": "Enemy creds are red, and enemies will get them if they hit the ground or if they shoot them. You can shoot these red creds first to steal them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

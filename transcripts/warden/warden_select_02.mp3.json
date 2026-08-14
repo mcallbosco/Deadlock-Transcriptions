@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_select_02.mp3",
   "revisions": [
     {
-      "sha256": "b56d3784be580c2e5bc225be4ececbc3977e0d14abff0a7710ae34690c006a7a",
+      "sha256": [
+        "0fd5aff0192a782e490a3ed1445bad7f3e14df335b297f725fd8dca25b119c85",
+        "7d61fdda231a6e4a4fee99ef3605bb1203793b8ec51d9601bf758d3426b40f86",
+        "b56d3784be580c2e5bc225be4ececbc3977e0d14abff0a7710ae34690c006a7a"
+      ],
       "text": "My family failed to protect this city once before. It cannot happen again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d61fdda231a6e4a4fee99ef3605bb1203793b8ec51d9601bf758d3426b40f86",
-      "text": "My family failed to protect this city once before. It cannot happen again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0fd5aff0192a782e490a3ed1445bad7f3e14df335b297f725fd8dca25b119c85",
-      "text": "My family failed to protect this city once before. It cannot happen again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f309c64e8c1d00939a2c3cea551dd10a02c8b12066d009f511c1af1baa208046",
+      "sha256": [
+        "f309c64e8c1d00939a2c3cea551dd10a02c8b12066d009f511c1af1baa208046"
+      ],
       "text": "My family sailed to protect this city once before. It cannot happen again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_saw_forge.mp3",
   "revisions": [
     {
-      "sha256": "2d0b24be835c3ba6f407be225e37f78af8d324de42c28fd4b4a6006316cd0966",
-      "text": "That's on the Guinness.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a3b40ebb6f8e22f4539923c5b2a125f13289c1cc8fbfeb5b7ee5ab10143965aa",
+      "sha256": [
+        "2d0b24be835c3ba6f407be225e37f78af8d324de42c28fd4b4a6006316cd0966",
+        "a3b40ebb6f8e22f4539923c5b2a125f13289c1cc8fbfeb5b7ee5ab10143965aa"
+      ],
       "text": "That's on the Guinness.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

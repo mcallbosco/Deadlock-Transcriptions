@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_glitch_not_ready_1.mp3",
   "revisions": [
     {
-      "sha256": "a46fc033371158217d732444bff66290ecb78f799160ca6837632293e6369f73",
-      "text": "Glitch is on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05ffa498fa5cf8563e96546600fc0327d77d68829bd9a6824d1a582aae01c036",
+      "sha256": [
+        "05ffa498fa5cf8563e96546600fc0327d77d68829bd9a6824d1a582aae01c036",
+        "a46fc033371158217d732444bff66290ecb78f799160ca6837632293e6369f73"
+      ],
       "text": "Glitch is on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

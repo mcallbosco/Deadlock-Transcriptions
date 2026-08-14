@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "ed66272de01f6e8868c8377f6aae06a2d9f9693d5edb4367f55806720edb0b6c",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ed20c330d70d53e6d138e82071d0098352991456fc4eadaeb516fb4837e300e",
+      "sha256": [
+        "5ed20c330d70d53e6d138e82071d0098352991456fc4eadaeb516fb4837e300e",
+        "ed66272de01f6e8868c8377f6aae06a2d9f9693d5edb4367f55806720edb0b6c"
+      ],
       "text": "It's dangerous here.",
       "source": "official"
     }

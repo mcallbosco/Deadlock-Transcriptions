@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_health_nova_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "015071dcb9d0096aebf93da7088c7b6f5bedf70b0a740af72751e58e0c0e33fb",
+      "sha256": [
+        "015071dcb9d0096aebf93da7088c7b6f5bedf70b0a740af72751e58e0c0e33fb",
+        "20755a02871f72802e782f197de9689cd8dd6ff4d2e94de9169e45dc00f8e6fc"
+      ],
       "text": "I hope Nova's almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "20755a02871f72802e782f197de9689cd8dd6ff4d2e94de9169e45dc00f8e6fc",
-      "text": "I hope Nova's almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eae451bc6065644f372ede60e7e4ca9649e6b3ae6f8f4111b823b3a711460ffc",
+      "sha256": [
+        "eae451bc6065644f372ede60e7e4ca9649e6b3ae6f8f4111b823b3a711460ffc"
+      ],
       "text": "Health Nova's almost ready",
       "source": "official"
     }

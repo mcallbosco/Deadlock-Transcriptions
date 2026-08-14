@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1301a9457ee4be6a61cab2d36879139132e6f735aa0d0ae56e3393fcad87ac4b",
+      "sha256": [
+        "1301a9457ee4be6a61cab2d36879139132e6f735aa0d0ae56e3393fcad87ac4b"
+      ],
       "text": "What is missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a0db14f44f2a5a177f2ff3344a5fb55500fb7ab4c3b6f1944dec639d94ecc37d",
+      "sha256": [
+        "a0db14f44f2a5a177f2ff3344a5fb55500fb7ab4c3b6f1944dec639d94ecc37d"
+      ],
       "text": "Warden's missing",
       "source": "official"
     }

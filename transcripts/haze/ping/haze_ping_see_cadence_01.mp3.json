@@ -1,34 +1,16 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_cadence_01.mp3",
   "revisions": [
     {
-      "sha256": "c25225f55ccf558990b6db243413dea6a9d3ff4ef7fac40988ec5d7f943a39ca",
+      "sha256": [
+        "123aa1c16c67fda859bf9c3fc844c246b69d558ebe4f72c0dea0729e0849f931",
+        "479b0ac579f52cdc04b674d6dc6b0d31575e428236fef720f5558958b3f91d88",
+        "82c8f1ad7564cc7aa62d9a680587d019c7ab126757cf806adb8b2e9a11c3b02e",
+        "bf021dc8d05798d389e7d759d5bcd99692b6416417e90a81344764013f2714da",
+        "c25225f55ccf558990b6db243413dea6a9d3ff4ef7fac40988ec5d7f943a39ca"
+      ],
       "text": "I see Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "479b0ac579f52cdc04b674d6dc6b0d31575e428236fef720f5558958b3f91d88",
-      "text": "I see cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "123aa1c16c67fda859bf9c3fc844c246b69d558ebe4f72c0dea0729e0849f931",
-      "text": "I see Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82c8f1ad7564cc7aa62d9a680587d019c7ab126757cf806adb8b2e9a11c3b02e",
-      "text": "I see Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf021dc8d05798d389e7d759d5bcd99692b6416417e90a81344764013f2714da",
-      "text": "I see cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

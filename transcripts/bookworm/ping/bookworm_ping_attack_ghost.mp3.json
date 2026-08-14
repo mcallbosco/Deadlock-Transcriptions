@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_ghost.mp3",
   "revisions": [
     {
-      "sha256": "526d4b49738be6055802bbb5443e479d1bb25f376ff61847156d43330c4aece9",
-      "text": "Let's take out Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45f20f0bea6750e0178737e69d50e94b271d156f78ff732d499d72d5ec124b23",
+      "sha256": [
+        "45f20f0bea6750e0178737e69d50e94b271d156f78ff732d499d72d5ec124b23",
+        "526d4b49738be6055802bbb5443e479d1bb25f376ff61847156d43330c4aece9"
+      ],
       "text": "Let's take out Geist.",
       "source": "official"
     }

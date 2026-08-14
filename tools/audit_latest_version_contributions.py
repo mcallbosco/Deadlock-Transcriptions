@@ -31,6 +31,7 @@ from audit_legacy_contributions import (
     valid_sha256,
 )
 from apply_current_contributions import read_json
+from transcript_schema import revisions_for_hash
 
 
 REPORT_SCHEMA_VERSION = 1
@@ -172,9 +173,7 @@ def classify_records(
             record["status"] = "target_document_missing"
             records.append(record)
             continue
-        revisions = [
-            value for value in document.get("revisions", []) if value.get("sha256") == sha256
-        ]
+        revisions = revisions_for_hash(document, sha256)
         if len(revisions) != 1:
             record["status"] = (
                 "latest_revision_missing" if not revisions else "duplicate_latest_revision"

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_kill_mirage_04.mp3",
   "revisions": [
     {
-      "sha256": "3d1eb8d38ab0a53c68b28fe99a8eb2c6b284aad6bfb9afaf428592d3d3a537d7",
-      "text": "Took down Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3d1eb8d38ab0a53c68b28fe99a8eb2c6b284aad6bfb9afaf428592d3d3a537d7",
+        "4bae052f6399b34e2e1a1b43234f1f6fa36ad35fc7311164f8a28c6f196fbf0f",
+        "ba15c224b774a0481fc93bc212577ab452f292c097734006eeb867a4bf65ac34"
+      ],
+      "text": "Took down Mirage!",
+      "source": "official"
     },
     {
-      "sha256": "666b355e48c51909adb77f0a391af804ff5c814f483016f5358bdbcf17d6fe8b",
+      "sha256": [
+        "666b355e48c51909adb77f0a391af804ff5c814f483016f5358bdbcf17d6fe8b"
+      ],
       "text": "Cooked down Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba15c224b774a0481fc93bc212577ab452f292c097734006eeb867a4bf65ac34",
-      "text": "Took down Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4bae052f6399b34e2e1a1b43234f1f6fa36ad35fc7311164f8a28c6f196fbf0f",
-      "text": "Took down Mirage!",
-      "source": "official"
     }
   ]
 }

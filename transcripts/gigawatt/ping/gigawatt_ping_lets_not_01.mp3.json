@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_lets_not_01.mp3",
   "revisions": [
     {
-      "sha256": "6e031cd5a7edb77bcc0fbe1800ad20d146c9a5e1db4d4a1e4bb6901a9b457d99",
+      "sha256": [
+        "6e031cd5a7edb77bcc0fbe1800ad20d146c9a5e1db4d4a1e4bb6901a9b457d99"
+      ],
       "text": "How do that?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a619b4d9f37ebaf3b1b197111881c4f8141efdaadfbb79072ce46264fd00d492",
+      "sha256": [
+        "46a8b6e7b6790c25ec6179b8fcab480337f313fde746ce849afb72709db58a72",
+        "a619b4d9f37ebaf3b1b197111881c4f8141efdaadfbb79072ce46264fd00d492"
+      ],
       "text": "Please don't do that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "46a8b6e7b6790c25ec6179b8fcab480337f313fde746ce849afb72709db58a72",
-      "text": "Please don't do that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73075e2160eae5639f88a797cbdf90278d4fd1bc30c3375ca08e9c292138b22f",
+      "sha256": [
+        "73075e2160eae5639f88a797cbdf90278d4fd1bc30c3375ca08e9c292138b22f"
+      ],
       "text": "That's how I do that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

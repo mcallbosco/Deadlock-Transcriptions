@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_punkgoat_01.mp3",
   "revisions": [
     {
-      "sha256": "be776f827e19b40b59e18107d2b572df437a4b187b802cb182a364d1aad685a6",
-      "text": "I see the goat.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d068d02712e4a2b7bc592349c5fb870ed78087d34567a5495fbb4a4ef3a21d0d",
+      "sha256": [
+        "be776f827e19b40b59e18107d2b572df437a4b187b802cb182a364d1aad685a6",
+        "d068d02712e4a2b7bc592349c5fb870ed78087d34567a5495fbb4a4ef3a21d0d"
+      ],
       "text": "I see the goat.",
       "source": "official"
     }

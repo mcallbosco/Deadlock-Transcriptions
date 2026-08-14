@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_ally_mirage_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "21890ab453b36ab05134e833f924b80abe2a3eabe67d039b6d2ee510792e0275",
+      "sha256": [
+        "21890ab453b36ab05134e833f924b80abe2a3eabe67d039b6d2ee510792e0275",
+        "bfaa96f809637b4d77c688d250acd4b7426152573542af7846121e009488235e"
+      ],
       "text": "He took out Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfaa96f809637b4d77c688d250acd4b7426152573542af7846121e009488235e",
-      "text": "He took out Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

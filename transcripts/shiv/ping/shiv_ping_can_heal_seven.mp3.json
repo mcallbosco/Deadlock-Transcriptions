@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_can_heal_seven.mp3",
   "revisions": [
     {
-      "sha256": "d2baccdecd2f86ce10196af7c38212c41eaac179d358cfc25862b5529d25b725",
+      "sha256": [
+        "53fffe4c6e02ba83ec3d7f7c802d0c7dfe2a18140893021849e29e3e562ae638",
+        "d2baccdecd2f86ce10196af7c38212c41eaac179d358cfc25862b5529d25b725"
+      ],
       "text": "Seven, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "53fffe4c6e02ba83ec3d7f7c802d0c7dfe2a18140893021849e29e3e562ae638",
-      "text": "Seven, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

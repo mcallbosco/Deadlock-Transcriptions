@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ee1f30c93dd35f65f941cdbfce5843a165ea9ccb0495957360a4ea16b59d87e9",
+      "sha256": [
+        "ee1f30c93dd35f65f941cdbfce5843a165ea9ccb0495957360a4ea16b59d87e9"
+      ],
       "text": "The doorman was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_ally_wrecker_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "e3aed4d3a5e53f8a614180c8d1a890eda813f789c71c6edc2a5d333dce53fc1b",
+      "sha256": [
+        "09c2bbeeaf1ff68ac796a73766516a37a8c9ac3d037dd6ce5fde2e9a0d0d2481",
+        "e3aed4d3a5e53f8a614180c8d1a890eda813f789c71c6edc2a5d333dce53fc1b"
+      ],
       "text": "They stopped Wrecker!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "fe2e866979ab13da1827d1d13e037c29f018d70c96b63bd0bce514291005ad3e",
+      "sha256": [
+        "fe2e866979ab13da1827d1d13e037c29f018d70c96b63bd0bce514291005ad3e"
+      ],
       "text": "This stops the record.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2ad8d57846d36421e36bfe6ca828a00603b3499a2951d18aeff1786170e10dc5",
+      "sha256": [
+        "2ad8d57846d36421e36bfe6ca828a00603b3499a2951d18aeff1786170e10dc5"
+      ],
       "text": "This stops Wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09c2bbeeaf1ff68ac796a73766516a37a8c9ac3d037dd6ce5fde2e9a0d0d2481",
-      "text": "They stopped Wrecker!",
-      "source": "official"
     }
   ]
 }

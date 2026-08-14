@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "93ee509bc3e621292f64c10747475650d57d67644b665077f7e9b5ec56021ba8",
-      "text": "I see the enemy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35fce0c4cfc3a45bdf4b2cd0caa41905aa180d43599d7ead97481f498ddce020",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28e97fe72f5039418ca42c5d14a0d6f9866da3c15b4286918e5a25c7865f6be2",
+      "sha256": [
+        "28e97fe72f5039418ca42c5d14a0d6f9866da3c15b4286918e5a25c7865f6be2",
+        "35fce0c4cfc3a45bdf4b2cd0caa41905aa180d43599d7ead97481f498ddce020",
+        "93ee509bc3e621292f64c10747475650d57d67644b665077f7e9b5ec56021ba8"
+      ],
       "text": "I see the enemy!",
       "source": "official"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_with_fairfax.mp3",
   "revisions": [
     {
-      "sha256": "812ffcd7f34e89442efaf2020a9dbef01000325b8f22b78b6848a5c17deaf162",
-      "text": "I'm with you, Fairfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3065a35924da7ffb7c2fb20fa1bd12e1c6590cf1538a4acce3a0acde2be58f7a",
-      "text": "I'm with you, Fairfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cacd4a5a72970db5bb2cf54efd9fc02494006ece6a381b7ce74039e7c60c65e8",
-      "text": "I'm with you, Fairfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67ff06d70a8dba4fdfa863614460dd166909695137ad212b24af6f30ad560b19",
+      "sha256": [
+        "3065a35924da7ffb7c2fb20fa1bd12e1c6590cf1538a4acce3a0acde2be58f7a",
+        "67ff06d70a8dba4fdfa863614460dd166909695137ad212b24af6f30ad560b19",
+        "812ffcd7f34e89442efaf2020a9dbef01000325b8f22b78b6848a5c17deaf162",
+        "cacd4a5a72970db5bb2cf54efd9fc02494006ece6a381b7ce74039e7c60c65e8"
+      ],
       "text": "I'm with you, Fairfax.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

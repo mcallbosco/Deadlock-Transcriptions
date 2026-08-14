@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_use_unstoppable_01.mp3",
   "revisions": [
     {
-      "sha256": "fab00f18f627467b00f7fe8e64ee4d3c0e2cb764351588e1a5ca4a82dffd1380",
-      "text": "I'm unstoppable!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "167cc490a545fb56b5f8ca069477d7acc24579f119eb935883f95e1a0d6a900a",
+      "sha256": [
+        "167cc490a545fb56b5f8ca069477d7acc24579f119eb935883f95e1a0d6a900a",
+        "fab00f18f627467b00f7fe8e64ee4d3c0e2cb764351588e1a5ca4a82dffd1380"
+      ],
       "text": "I'm unstoppable!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

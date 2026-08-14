@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_yellow_help_01.mp3",
   "revisions": [
     {
-      "sha256": "cb64ebe2408a665f2268998ad0ea9139b752852eaef6d37466e052681625aa85",
+      "sha256": [
+        "cb64ebe2408a665f2268998ad0ea9139b752852eaef6d37466e052681625aa85",
+        "fa8cd1c0622d8b707e9579c8375b5dca2e0442fe7fb1ebb2e8ae9038d6ba6d80"
+      ],
       "text": "yellow needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa8cd1c0622d8b707e9579c8375b5dca2e0442fe7fb1ebb2e8ae9038d6ba6d80",
-      "text": "Yellow needs help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

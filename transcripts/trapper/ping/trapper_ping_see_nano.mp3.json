@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_nano.mp3",
   "revisions": [
     {
-      "sha256": "da01be03d5e79571d24256b96e19129b0de44a002ce0650b7a56db75a8a34520",
+      "sha256": [
+        "da01be03d5e79571d24256b96e19129b0de44a002ce0650b7a56db75a8a34520"
+      ],
       "text": "I see Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

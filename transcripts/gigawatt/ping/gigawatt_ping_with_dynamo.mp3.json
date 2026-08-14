@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "5f84254961fde6db064269710c3e0e0f95817570a1e0e0436e90134c82add366",
+      "sha256": [
+        "5f84254961fde6db064269710c3e0e0f95817570a1e0e0436e90134c82add366",
+        "90760e36b3605734d0a0484b61d6e20d4894802423c2c81b89a619473b786d57",
+        "e47edcb2c5385410a06e24a72f1872480cbd958adf967c4e4e8e831e433bb1bb"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e47edcb2c5385410a06e24a72f1872480cbd958adf967c4e4e8e831e433bb1bb",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90760e36b3605734d0a0484b61d6e20d4894802423c2c81b89a619473b786d57",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80c7fe13cc5924156acb6a44b642bd85704d6d72b6976de0e3274672a9477819",
+      "sha256": [
+        "80c7fe13cc5924156acb6a44b642bd85704d6d72b6976de0e3274672a9477819"
+      ],
       "text": "I wish you dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

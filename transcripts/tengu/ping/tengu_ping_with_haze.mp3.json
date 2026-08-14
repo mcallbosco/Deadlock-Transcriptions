@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "52c11659c54052985395b33d00e88cf9fd4627861fcd11e8d992a8df437c92ac",
+      "sha256": [
+        "52c11659c54052985395b33d00e88cf9fd4627861fcd11e8d992a8df437c92ac"
+      ],
       "text": "I'm with you, Hayes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1dfaff6fc6791c7d98050559eed86adbfb73da2b5472d41b43c5348b31bcbcd2",
+      "sha256": [
+        "1dfaff6fc6791c7d98050559eed86adbfb73da2b5472d41b43c5348b31bcbcd2"
+      ],
       "text": "I'm with you, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

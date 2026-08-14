@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "2efdff014cdb9c45a7006e1a85e9d1066796872648694d9096dcbf57fdf08214",
+      "sha256": [
+        "2efdff014cdb9c45a7006e1a85e9d1066796872648694d9096dcbf57fdf08214"
+      ],
       "text": "Heads blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd929b49ca95ae60dc7b41bd0ecbcb3e27230bffb606b1f297643bf71fbe0c07",
+      "sha256": [
+        "44e99fae5881db0f409ca1b40d74de277c9a91fb136f484e0926e44f89ca98b6",
+        "bd929b49ca95ae60dc7b41bd0ecbcb3e27230bffb606b1f297643bf71fbe0c07"
+      ],
       "text": "Head is blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "44e99fae5881db0f409ca1b40d74de277c9a91fb136f484e0926e44f89ca98b6",
-      "text": "Head is blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24ec3d741802a66780f8ab4bc780dbfe927906501af9c2fe99c33ade4d276340",
+      "sha256": [
+        "24ec3d741802a66780f8ab4bc780dbfe927906501af9c2fe99c33ade4d276340"
+      ],
       "text": "Headed to Blue",
       "source": "official"
     }

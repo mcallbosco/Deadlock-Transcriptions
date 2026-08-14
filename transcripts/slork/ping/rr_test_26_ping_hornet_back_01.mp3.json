@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_hornet_back_01.mp3",
   "revisions": [
     {
-      "sha256": "9349d404425f5854b74fb633f87b5f60430feb3494874cf912a262cff4899b91",
-      "text": "Hornet, get back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1fa74e1d1abe82cdceff1cd470d77c702fe167117153286d6d2ba266583ab352",
+      "sha256": [
+        "1fa74e1d1abe82cdceff1cd470d77c702fe167117153286d6d2ba266583ab352",
+        "9349d404425f5854b74fb633f87b5f60430feb3494874cf912a262cff4899b91"
+      ],
       "text": "Hornet, get back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

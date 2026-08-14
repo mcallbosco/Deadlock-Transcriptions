@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_attack_atlas.mp3",
   "revisions": [
     {
-      "sha256": "ffb99bc395b7dc015a366c772ffbedf9596f03646416909195fb66211392678d",
+      "sha256": [
+        "ffb99bc395b7dc015a366c772ffbedf9596f03646416909195fb66211392678d"
+      ],
       "text": "That's not the Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "25180846f35fb89bdf1cef59b191effed371e5799dfd386deb393ad0855acd7d",
+      "sha256": [
+        "25180846f35fb89bdf1cef59b191effed371e5799dfd386deb393ad0855acd7d"
+      ],
       "text": "Let's take out Abrams",
       "source": "official"
     }

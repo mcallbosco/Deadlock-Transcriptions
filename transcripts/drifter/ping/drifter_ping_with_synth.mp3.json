@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_with_synth.mp3",
   "revisions": [
     {
-      "sha256": "65fe0ac703edaf469262018fdadccbb91077ef631006c4a49692d22777bad4e9",
+      "sha256": [
+        "65fe0ac703edaf469262018fdadccbb91077ef631006c4a49692d22777bad4e9"
+      ],
       "text": "I'm with you, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

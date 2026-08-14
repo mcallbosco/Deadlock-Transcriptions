@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_ghost_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "54e2c5d7690cb57eb57be8570b0aa03b134be4f7d13bd8571cee97b2cdd49b06",
+      "sha256": [
+        "54e2c5d7690cb57eb57be8570b0aa03b134be4f7d13bd8571cee97b2cdd49b06"
+      ],
       "text": "Cass is on the breach!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3258216583d4ca0135bfe691c218bce2ca2c889d0bdac3fe971ffff6b929d2c9",
+      "sha256": [
+        "3258216583d4ca0135bfe691c218bce2ca2c889d0bdac3fe971ffff6b929d2c9"
+      ],
       "text": "Geist's on the bridge!",
       "source": "official"
     }

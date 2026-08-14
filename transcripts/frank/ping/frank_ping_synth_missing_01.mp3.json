@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f98bf8e126f5f4d2d4b5ed9cdb63228eda16490959d5f7e2c51ca2ca0d2b6ec6",
+      "sha256": [
+        "f98bf8e126f5f4d2d4b5ed9cdb63228eda16490959d5f7e2c51ca2ca0d2b6ec6"
+      ],
       "text": "Target's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f3d96c1aac3a2c08dd4b672a62860bf82f6c813b88dd4a7863086b6e72706d5a",
+      "sha256": [
+        "f3d96c1aac3a2c08dd4b672a62860bf82f6c813b88dd4a7863086b6e72706d5a"
+      ],
       "text": "Pocket's missing.",
       "source": "official"
     }

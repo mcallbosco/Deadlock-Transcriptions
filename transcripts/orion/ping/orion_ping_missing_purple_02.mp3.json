@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_missing_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "46763ae7037d1331aec17d56bdca049961b5f96ca19d4ce1136c31dd7f704a66",
+      "sha256": [
+        "46763ae7037d1331aec17d56bdca049961b5f96ca19d4ce1136c31dd7f704a66",
+        "610556261a40836ccdae936a63bddeea3dfd2b53e85bf84289bfeae8c8291605",
+        "d44f158eb92327afcc9842265d47ccea5df9bf76a42ccfa9db7106ce1abdd177"
+      ],
       "text": "Missing Park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d44f158eb92327afcc9842265d47ccea5df9bf76a42ccfa9db7106ce1abdd177",
-      "text": "Missing Park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "610556261a40836ccdae936a63bddeea3dfd2b53e85bf84289bfeae8c8291605",
-      "text": "Missing park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

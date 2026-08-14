@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fe04f50ce9953ed328054579c963704ab587f326fb7f672662d7269828e4055d",
+      "sha256": [
+        "fe04f50ce9953ed328054579c963704ab587f326fb7f672662d7269828e4055d"
+      ],
       "text": "Mirage was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

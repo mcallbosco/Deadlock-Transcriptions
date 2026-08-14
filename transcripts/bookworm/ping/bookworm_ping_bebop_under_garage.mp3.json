@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_bebop_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "a54b17be0660be4db05aadc07d74ec9e20cc240420f3023148424c7da8a62f3b",
-      "text": "Bebop's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39e4b32bf96c963b9eadf7a18f661d59b396fed9f5e7927ea8656bc2eb7d274d",
+      "sha256": [
+        "39e4b32bf96c963b9eadf7a18f661d59b396fed9f5e7927ea8656bc2eb7d274d",
+        "a54b17be0660be4db05aadc07d74ec9e20cc240420f3023148424c7da8a62f3b"
+      ],
       "text": "Bebop's under the garage!",
       "source": "official"
     }

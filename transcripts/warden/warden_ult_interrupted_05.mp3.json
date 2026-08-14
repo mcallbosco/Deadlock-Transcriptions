@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_ult_interrupted_05.mp3",
   "revisions": [
     {
-      "sha256": "d7a93929f7f0987e00647c4043651ad668db407eac23d8ac117a4335952cb7e0",
-      "text": "No!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8b785559c7b52ee0161f0082669222ac4b69597f5aaf4d80d8010950f01e3aa1",
-      "text": "No!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d12a255aa8f9ee8476205a3d7957129535ba559a39ef031064f603f342265ad",
-      "text": "No!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d20896ecb3e2825acb01ba637a8d6d4642a1c8d5acff7fd038253aa513d12f8",
+      "sha256": [
+        "5d12a255aa8f9ee8476205a3d7957129535ba559a39ef031064f603f342265ad",
+        "7d20896ecb3e2825acb01ba637a8d6d4642a1c8d5acff7fd038253aa513d12f8",
+        "8b785559c7b52ee0161f0082669222ac4b69597f5aaf4d80d8010950f01e3aa1",
+        "d7a93929f7f0987e00647c4043651ad668db407eac23d8ac117a4335952cb7e0"
+      ],
       "text": "NO!",
       "source": "official"
     }

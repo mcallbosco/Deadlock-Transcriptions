@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_ignore_mirage.mp3",
   "revisions": [
     {
-      "sha256": "3acd5988636ce0ac172d928052d22800eb7b49f05af5e50ea763f65d1d2a70ec",
+      "sha256": [
+        "3acd5988636ce0ac172d928052d22800eb7b49f05af5e50ea763f65d1d2a70ec"
+      ],
       "text": "Ignore Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

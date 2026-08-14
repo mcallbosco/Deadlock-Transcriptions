@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_with_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "9d063ef882270681f2e511f90e5d7283e79035082732797e8037606a3c347996",
+      "sha256": [
+        "9d063ef882270681f2e511f90e5d7283e79035082732797e8037606a3c347996"
+      ],
       "text": "I'm with you, Wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

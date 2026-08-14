@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_sorry_01.mp3",
   "revisions": [
     {
-      "sha256": "c74eea4853d882987fa079c43a44106f891cd189da1828e4c13e73600884d706",
+      "sha256": [
+        "c74eea4853d882987fa079c43a44106f891cd189da1828e4c13e73600884d706"
+      ],
       "text": "I'm sick.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4d465f361d1f1711ee906783d96f9b6126b5a9328cd5ea95a02bf2aeb276d207",
-      "text": "My mistake.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c24600ab3da814706757da634f170ef4a79f2bc33d6c85b402af89a4eda17d57",
-      "text": "My mistake.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "40ee60cbd2ec4f543286a403f1b0007ca49eca319394610f0c10fcb5fafc8b73",
+      "sha256": [
+        "40ee60cbd2ec4f543286a403f1b0007ca49eca319394610f0c10fcb5fafc8b73",
+        "4d465f361d1f1711ee906783d96f9b6126b5a9328cd5ea95a02bf2aeb276d207",
+        "c24600ab3da814706757da634f170ef4a79f2bc33d6c85b402af89a4eda17d57"
+      ],
       "text": "My mistake",
       "source": "official"
     }

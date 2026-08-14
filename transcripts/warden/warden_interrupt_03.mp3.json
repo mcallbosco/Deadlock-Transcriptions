@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_interrupt_03.mp3",
   "revisions": [
     {
-      "sha256": "c7a0cb5e8d5ad0427c002c4e5196122b6191d812afb062b324062832cc4dd120",
-      "text": "I won't allow it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0fa1dfdccc22c8cce2289fd01e69f6582fdd404afb0ac9cf3d38ea3919026802",
-      "text": "I won't allow it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed799a6e368c5d7e90b92d563cad605a12adf444a3d37cd1b324bc8968f613d0",
-      "text": "I won't allow it!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72cb6d2b3a53104445ab94d0898e63396c6013e184b80f7295667a6bc991d30b",
+      "sha256": [
+        "0fa1dfdccc22c8cce2289fd01e69f6582fdd404afb0ac9cf3d38ea3919026802",
+        "72cb6d2b3a53104445ab94d0898e63396c6013e184b80f7295667a6bc991d30b",
+        "c7a0cb5e8d5ad0427c002c4e5196122b6191d812afb062b324062832cc4dd120",
+        "ed799a6e368c5d7e90b92d563cad605a12adf444a3d37cd1b324bc8968f613d0"
+      ],
       "text": "I won't allow it!",
       "source": "official"
     }

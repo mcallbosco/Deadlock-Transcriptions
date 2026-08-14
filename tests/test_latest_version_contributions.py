@@ -47,10 +47,10 @@ def base_record(name: str, before: str, current: str) -> dict[str, object]:
 
 
 def target_document(name: str, text: str, source: str, sha256: str) -> dict[str, object]:
-    revision: dict[str, object] = {"sha256": sha256, "text": text, "source": source}
+    revision: dict[str, object] = {"sha256": [sha256], "text": text, "source": source}
     if source == "generated":
         revision["model"] = "test-model"
-    return {"schemaVersion": 2, "filename": f"hero/{name}.mp3", "revisions": [revision]}
+    return {"schemaVersion": 3, "filename": f"hero/{name}.mp3", "revisions": [revision]}
 
 
 class LatestVersionAuditTests(unittest.TestCase):
@@ -119,12 +119,12 @@ class LatestVersionApplyTests(unittest.TestCase):
             latest_sha = "1" * 64
             old_sha = "2" * 64
             document = {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "hero/line.mp3",
                 "revisions": [
-                    {"sha256": old_sha, "text": "Old recording", "source": "generated", "model": "old"},
+                    {"sha256": [old_sha], "text": "Old recording", "source": "generated", "model": "old"},
                     {
-                        "sha256": latest_sha,
+                        "sha256": [latest_sha],
                         "text": "Wrong line",
                         "source": "generated",
                         "model": "latest",

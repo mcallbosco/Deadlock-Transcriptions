@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "11a5393e4b13708c919450fde149362e5de73cfa9ee70c7c7e107dd9726d9172",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d2c5d35d4f17eed9dbe8329fa54fed0f7625788ef9fcfd0fc833904f0110b6fa",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cdbc065cc1b2da339f8ac6acd29b556a80250362e24c05016e11da8dfd380ed",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6a61382541655e422e418852326fc966de57d1b0dc43d6198df40b113bfb9bb6",
+      "sha256": [
+        "11a5393e4b13708c919450fde149362e5de73cfa9ee70c7c7e107dd9726d9172",
+        "6a61382541655e422e418852326fc966de57d1b0dc43d6198df40b113bfb9bb6",
+        "9cdbc065cc1b2da339f8ac6acd29b556a80250362e24c05016e11da8dfd380ed",
+        "d2c5d35d4f17eed9dbe8329fa54fed0f7625788ef9fcfd0fc833904f0110b6fa"
+      ],
       "text": "Careful, Calico…",
       "source": "official"
     }

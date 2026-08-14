@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "664fbda3bcff8c04af334615e427789eae24e0590da2e41110dcc34093f85855",
-      "text": "I see gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4554185513a4b1013755dccc5ab8f85cd360e240b7b60bc6ef1b306b98c32c9",
+      "sha256": [
+        "664fbda3bcff8c04af334615e427789eae24e0590da2e41110dcc34093f85855",
+        "a4554185513a4b1013755dccc5ab8f85cd360e240b7b60bc6ef1b306b98c32c9"
+      ],
       "text": "I see gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

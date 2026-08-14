@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "66e42ec28dd5beeaeb8fefdd87eca1de27cbecbfe6a6e74567cde87989461467",
-      "text": "I'll always make time to kill men like you, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "66e42ec28dd5beeaeb8fefdd87eca1de27cbecbfe6a6e74567cde87989461467",
+        "f6df12ec6f086404b610c1841029c28a98498fe2e81bb45ad63916c717d9ddef"
+      ],
+      "text": "I'll always make time to kill men like you Wrecker",
+      "source": "official"
     },
     {
-      "sha256": "dc4eb8112ea01f1b927ce92aa75ada2da2cc16aa342abb1f7a0703adab4d1645",
+      "sha256": [
+        "dc4eb8112ea01f1b927ce92aa75ada2da2cc16aa342abb1f7a0703adab4d1645"
+      ],
       "text": "I'll always make time to kill men like you, Rax.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6df12ec6f086404b610c1841029c28a98498fe2e81bb45ad63916c717d9ddef",
-      "text": "I'll always make time to kill men like you Wrecker",
-      "source": "official"
     }
   ]
 }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "245f01429c9c62c26dc2dd53efa2f229a8fe58c98f7f4d6185f41bff2abd5638",
-      "text": "Let's push yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "774a7486a00d9bea19d2b9414dd5375627933100d36fd3e266c43c5460321ed4",
-      "text": "Let's push yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef7cfee45c8ebbe5796f8049b2dbde1a9b0d2f9a7b539dfdac1737e45e7a2773",
+      "sha256": [
+        "245f01429c9c62c26dc2dd53efa2f229a8fe58c98f7f4d6185f41bff2abd5638",
+        "774a7486a00d9bea19d2b9414dd5375627933100d36fd3e266c43c5460321ed4",
+        "ef7cfee45c8ebbe5796f8049b2dbde1a9b0d2f9a7b539dfdac1737e45e7a2773"
+      ],
       "text": "Let's push yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

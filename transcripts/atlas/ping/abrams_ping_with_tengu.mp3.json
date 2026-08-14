@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_tengu.mp3",
   "revisions": [
     {
-      "sha256": "401833c12a3d8838ab34bca666e1bac5a3dbba2e578581af319f389a9e9fbde3",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d86522938f7a5f517ff6710b9f685883987eb8d72926cba8bb70d13a6a8620a2",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4da4fa578399ac7647265ba60c0be549f91eb5a1256cc2bcb2f8512d7697c93e",
+      "sha256": [
+        "401833c12a3d8838ab34bca666e1bac5a3dbba2e578581af319f389a9e9fbde3",
+        "4da4fa578399ac7647265ba60c0be549f91eb5a1256cc2bcb2f8512d7697c93e",
+        "d86522938f7a5f517ff6710b9f685883987eb8d72926cba8bb70d13a6a8620a2"
+      ],
       "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

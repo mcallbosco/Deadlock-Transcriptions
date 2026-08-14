@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_dynamo_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "f1bd7d81fb8e13a9800f3816f279e0dfe471ef87b17260acbb66b397a09511bf",
-      "text": "Dynamo is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0fecb9bb3bd8ad7035381fb04a81b8c4e74f9faabce0d4735e771011f5f87fe0",
+      "sha256": [
+        "0fecb9bb3bd8ad7035381fb04a81b8c4e74f9faabce0d4735e771011f5f87fe0",
+        "f1bd7d81fb8e13a9800f3816f279e0dfe471ef87b17260acbb66b397a09511bf"
+      ],
       "text": "Dynamo is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

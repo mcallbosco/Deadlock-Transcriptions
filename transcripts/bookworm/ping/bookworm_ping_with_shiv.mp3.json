@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "a5c0efa631decbcafd0ecff59abe7d87a89e6f4506ba84baaf6009d8bf960c62",
+      "sha256": [
+        "a5c0efa631decbcafd0ecff59abe7d87a89e6f4506ba84baaf6009d8bf960c62",
+        "aae2f4e4436945b91088aec21984d8fa2bdae7e70bf1ba0c1a671ac8c0f57519"
+      ],
       "text": "I'm with you, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aae2f4e4436945b91088aec21984d8fa2bdae7e70bf1ba0c1a671ac8c0f57519",
-      "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

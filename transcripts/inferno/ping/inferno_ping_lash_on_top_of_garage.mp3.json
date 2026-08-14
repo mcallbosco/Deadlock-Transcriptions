@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_lash_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "5b2c2f4b67e87e98634a96f08b021207ba6264e64c52c0ad279873bebf6986a2",
+      "sha256": [
+        "5b2c2f4b67e87e98634a96f08b021207ba6264e64c52c0ad279873bebf6986a2"
+      ],
       "text": "That's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e1ccccc841c7dfa1f1e80fac7304f31bf0e1233c76c35edc2e60cd4b55c8b969",
+      "sha256": [
+        "c6b06c943ab845f55fbc77ee763d56551a17794e6cf01d16a792de8b1ff8adce",
+        "e1ccccc841c7dfa1f1e80fac7304f31bf0e1233c76c35edc2e60cd4b55c8b969"
+      ],
       "text": "Crash is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c6b06c943ab845f55fbc77ee763d56551a17794e6cf01d16a792de8b1ff8adce",
-      "text": "Crash is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b8b67f8a42cb110ef884a99370d955eaf64c82c32c6a1cfe31bb6964bb20710",
+      "sha256": [
+        "1b8b67f8a42cb110ef884a99370d955eaf64c82c32c6a1cfe31bb6964bb20710"
+      ],
       "text": "Lash's on top of the garage!",
       "source": "official"
     }

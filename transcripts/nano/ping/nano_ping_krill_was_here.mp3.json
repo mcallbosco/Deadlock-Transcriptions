@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_krill_was_here.mp3",
   "revisions": [
     {
-      "sha256": "621ba380b5b78e12038904ce8a1d465f451ec588d6c6730ffc04dd84cdcd7e00",
+      "sha256": [
+        "621ba380b5b78e12038904ce8a1d465f451ec588d6c6730ffc04dd84cdcd7e00"
+      ],
       "text": "Crew is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

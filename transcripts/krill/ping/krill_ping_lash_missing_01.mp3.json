@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_lash_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b1e468c1eaa38a56166858879d8372eb5139228bdc4b20211aaf0796b47c6396",
+      "sha256": [
+        "7f712e6d0bc65d85cbf5c3d27a0e44aca893a5f5ac7b675c9d7487a1e0bb5ffb",
+        "b1e468c1eaa38a56166858879d8372eb5139228bdc4b20211aaf0796b47c6396"
+      ],
       "text": "Lash is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7f712e6d0bc65d85cbf5c3d27a0e44aca893a5f5ac7b675c9d7487a1e0bb5ffb",
-      "text": "Lash is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad6c6360bf42aed0b39f1b9bf1d8dd8dc6bc0a79cb69319c376d047b97375388",
+      "sha256": [
+        "ad6c6360bf42aed0b39f1b9bf1d8dd8dc6bc0a79cb69319c376d047b97375388"
+      ],
       "text": "Lash's missing",
       "source": "official"
     }

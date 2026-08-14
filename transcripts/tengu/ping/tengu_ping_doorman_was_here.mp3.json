@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "bc4888ec1a8b56a8eb43a745fda8129562211ac5ecd2ad98399ef6e12b026683",
+      "sha256": [
+        "bc4888ec1a8b56a8eb43a745fda8129562211ac5ecd2ad98399ef6e12b026683"
+      ],
       "text": "The doorman was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

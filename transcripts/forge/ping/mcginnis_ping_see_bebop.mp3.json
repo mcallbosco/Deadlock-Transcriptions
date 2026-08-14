@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_see_bebop.mp3",
   "revisions": [
     {
-      "sha256": "7cff1ca90d4eebacc8c51a4c03b51c8f8aa2bf529af8a9af55126314e10a7a07",
-      "text": "I see Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a84a3fdee3a3556938735755640f6d0a9ff86c411dd0206327bebb95bbe82b5",
+      "sha256": [
+        "5a84a3fdee3a3556938735755640f6d0a9ff86c411dd0206327bebb95bbe82b5",
+        "7cff1ca90d4eebacc8c51a4c03b51c8f8aa2bf529af8a9af55126314e10a7a07"
+      ],
       "text": "I see Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

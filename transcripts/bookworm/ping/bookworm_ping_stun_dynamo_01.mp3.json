@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_stun_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "7abd298504ae3500e3f0c6e5f5612d037366c2d2d45366a836c83c4492757352",
+      "sha256": [
+        "7abd298504ae3500e3f0c6e5f5612d037366c2d2d45366a836c83c4492757352"
+      ],
       "text": "Stun Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f7271f74b5d1f0e8755f85288b230c31cd2efef03d36e0803248ac16aa025a85",
+      "sha256": [
+        "f7271f74b5d1f0e8755f85288b230c31cd2efef03d36e0803248ac16aa025a85"
+      ],
       "text": "Sun Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

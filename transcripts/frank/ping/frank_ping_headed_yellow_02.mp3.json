@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_headed_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "ad505f89fe08891d18e49c5a683714320ec523f51472bdb180fd4ba66b235277",
-      "text": "Headed to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0be14825c66d03d090b120eeced5bee2d0381c63fdf76d81e4eab33901ad06ab",
+      "sha256": [
+        "0be14825c66d03d090b120eeced5bee2d0381c63fdf76d81e4eab33901ad06ab",
+        "ad505f89fe08891d18e49c5a683714320ec523f51472bdb180fd4ba66b235277"
+      ],
       "text": "Headed to York.",
       "source": "official"
     }

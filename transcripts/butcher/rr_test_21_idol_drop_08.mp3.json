@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_idol_drop_08.mp3",
   "revisions": [
     {
-      "sha256": "ec0a6859105829cb0f9a45c5166f09080d953b66d4015fc87fafbc36aff5ec71",
-      "text": "Incoming idol!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b97fe56fa1335a2f9a46766787aade56872285848ca2f7b2fdb8613cf36b5839",
-      "text": "Incoming idol!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2f119296f181d81f55fda262229e3f3e334d5b6ffb6a3f077bca17fe3d99763",
+      "sha256": [
+        "b97fe56fa1335a2f9a46766787aade56872285848ca2f7b2fdb8613cf36b5839",
+        "e2f119296f181d81f55fda262229e3f3e334d5b6ffb6a3f077bca17fe3d99763",
+        "ec0a6859105829cb0f9a45c5166f09080d953b66d4015fc87fafbc36aff5ec71"
+      ],
       "text": "Incoming idol!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

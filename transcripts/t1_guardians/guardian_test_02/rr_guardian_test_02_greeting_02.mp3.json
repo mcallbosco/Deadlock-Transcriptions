@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_greeting_02.mp3",
   "revisions": [
     {
-      "sha256": "d7c718942a674bbb7af918fa68e0dffa0dfc427e0b43dbc31360f7e4f03c3cc1",
-      "text": "Let's get this show on the road.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ebe453b4519ec7bd5735ce6363f9785ed0db0f0637f88c7985b6c46c1ea90b64",
-      "text": "Let's get this show on the road.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5469a650259e7ccba3e41e3321ecad8d7f471323d2cbdad5eff94ca1e55d939",
+      "sha256": [
+        "d7c718942a674bbb7af918fa68e0dffa0dfc427e0b43dbc31360f7e4f03c3cc1",
+        "e5469a650259e7ccba3e41e3321ecad8d7f471323d2cbdad5eff94ca1e55d939",
+        "ebe453b4519ec7bd5735ce6363f9785ed0db0f0637f88c7985b6c46c1ea90b64"
+      ],
       "text": "Let's get this show on the road.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

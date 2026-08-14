@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "fb5b32c3e21b17c0ecd19cd250ad4d26db837696d4e60caa02d5ddef59b292f5",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "adcb54e3cd9a8f952909634e98423a9af9f2c8c1efd3e3fb79a5f457b5944e26",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6536da0d35c82b8d191c0a375180c42cd284077b0c5b5fea70f1633ca4e49082",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92ec45e13483d62887906d0569e2933f6073e655f0829ff8df00f24def9b5aaa",
+      "sha256": [
+        "6536da0d35c82b8d191c0a375180c42cd284077b0c5b5fea70f1633ca4e49082",
+        "92ec45e13483d62887906d0569e2933f6073e655f0829ff8df00f24def9b5aaa",
+        "adcb54e3cd9a8f952909634e98423a9af9f2c8c1efd3e3fb79a5f457b5944e26",
+        "fb5b32c3e21b17c0ecd19cd250ad4d26db837696d4e60caa02d5ddef59b292f5"
+      ],
       "text": "Do you have a heal?",
       "source": "official"
     }

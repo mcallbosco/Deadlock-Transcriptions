@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_concerned_06.mp3",
   "revisions": [
     {
-      "sha256": "f630d5c26de74c4c6b445dc7ab5a67117bb0a123e8d1aee2f2c460d56dd1b35f",
-      "text": "We need to step it up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d2602a1c9f39bdb9c929cdc185ea1c2f8895c8cae7c8fc2d5edab59ddb5c797",
-      "text": "We need to step it up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b60600c923d7e99b8db21e03dc0200ab28cd2cdeffe1d284d12e000618cb36f",
+      "sha256": [
+        "3b60600c923d7e99b8db21e03dc0200ab28cd2cdeffe1d284d12e000618cb36f",
+        "6d2602a1c9f39bdb9c929cdc185ea1c2f8895c8cae7c8fc2d5edab59ddb5c797",
+        "f630d5c26de74c4c6b445dc7ab5a67117bb0a123e8d1aee2f2c460d56dd1b35f"
+      ],
       "text": "We need to step it up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

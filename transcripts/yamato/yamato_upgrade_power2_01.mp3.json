@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power2_01.mp3",
   "revisions": [
     {
-      "sha256": "bc421bec39f83c4bc4aab426b95b5a3c51d33b5eb65f55532c4c6be4a9ebfb2d",
+      "sha256": [
+        "bc421bec39f83c4bc4aab426b95b5a3c51d33b5eb65f55532c4c6be4a9ebfb2d"
+      ],
       "text": "私の刃からは逃れられない。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8965b6f27bd7fac0f039c1088f887a1cb45ecabd7cf5bf509dd74dd2865a0fab",
+      "sha256": [
+        "8965b6f27bd7fac0f039c1088f887a1cb45ecabd7cf5bf509dd74dd2865a0fab"
+      ],
       "text": "誰も私からは逃れられん。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f326e95e4ee405e24772ea19ca97c2a514cb7992ecd1422b9b71807533b02ee5",
+      "sha256": [
+        "f326e95e4ee405e24772ea19ca97c2a514cb7992ecd1422b9b71807533b02ee5"
+      ],
       "text": "There's no escaping me",
       "source": "official"
     }

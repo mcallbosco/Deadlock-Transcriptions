@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_can_heal_synth.mp3",
   "revisions": [
     {
-      "sha256": "b07f0863987b4d81c9ccc4b6479914e717d837b681fb04bee634559acff7e912",
-      "text": "Okay, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56266e056f2849fc8326517aad6c5172c30e6ef1914fc006989c6f4539bac3ea",
+      "sha256": [
+        "56266e056f2849fc8326517aad6c5172c30e6ef1914fc006989c6f4539bac3ea",
+        "b07f0863987b4d81c9ccc4b6479914e717d837b681fb04bee634559acff7e912"
+      ],
       "text": "Okay, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

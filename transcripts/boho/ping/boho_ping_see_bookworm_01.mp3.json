@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_see_bookworm_01.mp3",
   "revisions": [
     {
-      "sha256": "8f3651929222ed19cd6494bb7313396eac2942d7fa7e9b87fe8b3b9ca9288afb",
+      "sha256": [
+        "8f3651929222ed19cd6494bb7313396eac2942d7fa7e9b87fe8b3b9ca9288afb"
+      ],
       "text": "I see Bookworm.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

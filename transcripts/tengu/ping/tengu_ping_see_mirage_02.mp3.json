@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_mirage_02.mp3",
   "revisions": [
     {
-      "sha256": "f43d868b923951b01b9b2448f6b9b06b05df24d1c0485668bfe8f24600694b14",
+      "sha256": [
+        "f43d868b923951b01b9b2448f6b9b06b05df24d1c0485668bfe8f24600694b14"
+      ],
       "text": "There are no here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "64c2263c3b9a720f207957eac9b856da66b440241ea4ca3807882aa8e35c742f",
+      "sha256": [
+        "64c2263c3b9a720f207957eac9b856da66b440241ea4ca3807882aa8e35c742f"
+      ],
       "text": "Mirage over here!",
       "source": "official"
     }

@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_see_lash_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "0661eda0c9cb4a8f670f6697155bb69a1b57b9b323fc66dd2b273fb64954bff6",
+      "sha256": [
+        "0661eda0c9cb4a8f670f6697155bb69a1b57b9b323fc66dd2b273fb64954bff6"
+      ],
       "text": "That's not a roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cba7334cf756c9b49b84d0c656f0ad3a9e75e38562b820d7de35cda42322e3cf",
+      "sha256": [
+        "cba7334cf756c9b49b84d0c656f0ad3a9e75e38562b820d7de35cda42322e3cf"
+      ],
       "text": "That's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f5b5da6ec1425fdcc1b82baa63425d8e0a6f5e55e143adfdcba8eccc47d3ca2c",
+      "sha256": [
+        "f5b5da6ec1425fdcc1b82baa63425d8e0a6f5e55e143adfdcba8eccc47d3ca2c"
+      ],
       "text": "Lash's on the roof!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_idol_drop_18.mp3",
   "revisions": [
     {
-      "sha256": "56b46bc2fa4f033832bfe4a74a314d37a02bbfaf3b128b66fdf9bb153cc84ff8",
-      "text": "Shall we deliver the urn?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5265d50760b564a254c61be234c23445f4475f0a310d0e9c2f0c776da1e5562d",
+      "sha256": [
+        "5265d50760b564a254c61be234c23445f4475f0a310d0e9c2f0c776da1e5562d",
+        "56b46bc2fa4f033832bfe4a74a314d37a02bbfaf3b128b66fdf9bb153cc84ff8"
+      ],
       "text": "Shall we deliver the urn?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "44f04d397eb181cd1a6e12f28843584ecd74727e1c595073b2fdbea7da7ebcb6",
-      "text": "Yamato is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da245c146b5378332f9125dfd99c8cd3746c4051c57edc011ebc804de1cafd1a",
-      "text": "Yamato is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa8a767ab4bc40068a9e9a6c9abf179ef56f91d28fe48806e5c1991a334a130c",
+      "sha256": [
+        "44f04d397eb181cd1a6e12f28843584ecd74727e1c595073b2fdbea7da7ebcb6",
+        "da245c146b5378332f9125dfd99c8cd3746c4051c57edc011ebc804de1cafd1a",
+        "fa8a767ab4bc40068a9e9a6c9abf179ef56f91d28fe48806e5c1991a334a130c"
+      ],
       "text": "Yamato is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

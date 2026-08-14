@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_abrams_03.mp3",
   "revisions": [
     {
-      "sha256": "67a159849d30201d80f46ec7af9feb666533920b520114feab260fe9353d9ce0",
-      "text": "Careful, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba13e65cd3685ea21827827e410663ec88e4f69e6ef5a4258433ca3df8b27158",
+      "sha256": [
+        "67a159849d30201d80f46ec7af9feb666533920b520114feab260fe9353d9ce0",
+        "ba13e65cd3685ea21827827e410663ec88e4f69e6ef5a4258433ca3df8b27158"
+      ],
       "text": "Careful, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

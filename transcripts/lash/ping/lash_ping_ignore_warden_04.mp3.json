@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_ignore_warden_04.mp3",
   "revisions": [
     {
-      "sha256": "537c84b9c9d81c392796f6bc0c327336abbd8461a558f337e651bdcd6f481df8",
+      "sha256": [
+        "537c84b9c9d81c392796f6bc0c327336abbd8461a558f337e651bdcd6f481df8",
+        "d640a7aabecfe94694be407f65cad6f0e6fe0b2edf9cd0b6635b6e87bd8c8eb8"
+      ],
       "text": "I ignore warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d640a7aabecfe94694be407f65cad6f0e6fe0b2edf9cd0b6635b6e87bd8c8eb8",
-      "text": "I ignore Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_viper_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4638ea9a121fb0ee7f048cda83fd14263a26548e01746370fff25ac485268727",
+      "sha256": [
+        "4638ea9a121fb0ee7f048cda83fd14263a26548e01746370fff25ac485268727"
+      ],
       "text": "Viper was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

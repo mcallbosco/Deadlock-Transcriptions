@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_wrecker_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "041547e054e7235b71777b8586a12940c28c012b4fd0796d5b8fc206e85403fd",
+      "sha256": [
+        "041547e054e7235b71777b8586a12940c28c012b4fd0796d5b8fc206e85403fd",
+        "57cfdd6f05b9a89b0e2725acc6b36f1d4fb078a5b9976a0afd4ff251a565492f",
+        "f34934fa47aba078de76e6f1236292e1fc012a11a8ff8f746c20b47dd9b8ae6e"
+      ],
       "text": "Wrecker is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "57cfdd6f05b9a89b0e2725acc6b36f1d4fb078a5b9976a0afd4ff251a565492f",
-      "text": "Wrecker is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f34934fa47aba078de76e6f1236292e1fc012a11a8ff8f746c20b47dd9b8ae6e",
-      "text": "Wrecker is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a7dfa4b2d9d0ed71a6fd9d6a8e2a8413a70ea853569a23ed1a4b1053224541e",
+      "sha256": [
+        "1a7dfa4b2d9d0ed71a6fd9d6a8e2a8413a70ea853569a23ed1a4b1053224541e"
+      ],
       "text": "Wrecker's on the bridge!",
       "source": "official"
     }

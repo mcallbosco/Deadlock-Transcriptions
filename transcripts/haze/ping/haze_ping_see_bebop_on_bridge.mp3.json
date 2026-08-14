@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_bebop_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "20e99c660d07e0660be1c4d194c3863bca9cef267cc82557b8311658ed43028f",
-      "text": "Bebop's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "20e99c660d07e0660be1c4d194c3863bca9cef267cc82557b8311658ed43028f",
+        "df54479f334bae9ba0bbaab2586ca4a611176e6ccaa29f99f26d31d3d24d5e26"
+      ],
+      "text": "Bebop's on the bridge!",
+      "source": "official"
     },
     {
-      "sha256": "bcc6f16e64c865457ed05b7f4eb0ede01d93c21b7162b86540a3c93fec60a6c2",
+      "sha256": [
+        "bcc6f16e64c865457ed05b7f4eb0ede01d93c21b7162b86540a3c93fec60a6c2"
+      ],
       "text": "Bebop's on a bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7772b287874539aa08b2a1b672f5f2bb00ba3a21eb8fc73b8f318ee597da8cc7",
+      "sha256": [
+        "7772b287874539aa08b2a1b672f5f2bb00ba3a21eb8fc73b8f318ee597da8cc7",
+        "ac0e7276a660832069d359bb9958883fb845189d46f7db23d1127b9ecf901908"
+      ],
       "text": "Beepop on a bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac0e7276a660832069d359bb9958883fb845189d46f7db23d1127b9ecf901908",
-      "text": "Beepop on a bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df54479f334bae9ba0bbaab2586ca4a611176e6ccaa29f99f26d31d3d24d5e26",
-      "text": "Bebop's on the bridge!",
-      "source": "official"
     }
   ]
 }

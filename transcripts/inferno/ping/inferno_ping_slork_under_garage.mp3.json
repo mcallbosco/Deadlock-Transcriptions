@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_slork_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "5ac47c497cbca2914eee34eb456ec70a7c603020dd5c8a78b174827f986222fe",
-      "text": "This works under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aebbd5ade8f47f1ad711fe9016c3b78817e30ebaf76361492a195647fdec53f4",
+      "sha256": [
+        "5ac47c497cbca2914eee34eb456ec70a7c603020dd5c8a78b174827f986222fe",
+        "aebbd5ade8f47f1ad711fe9016c3b78817e30ebaf76361492a195647fdec53f4"
+      ],
       "text": "This works under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

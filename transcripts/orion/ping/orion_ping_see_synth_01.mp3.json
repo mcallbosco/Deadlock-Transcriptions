@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "001488e33fa4a0b9a1edbf636c4154724d43e0f98baf0529240ee26f9d60283f",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56565f01f4d2a3b376cd4fd1c88fd7c15fafd461c1b8c817d8472a6701dcc676",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ea301586b3b933021f0f92bcec42f3d70a2ff3f4e8ecd3ca553acbce2261215",
+      "sha256": [
+        "001488e33fa4a0b9a1edbf636c4154724d43e0f98baf0529240ee26f9d60283f",
+        "56565f01f4d2a3b376cd4fd1c88fd7c15fafd461c1b8c817d8472a6701dcc676",
+        "9ea301586b3b933021f0f92bcec42f3d70a2ff3f4e8ecd3ca553acbce2261215"
+      ],
       "text": "I see Pocket",
       "source": "official"
     }

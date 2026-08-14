@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_stun_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "0701df0ba00c29f3c6d2766d2f8e55c943af980d8b7c91d431c456cf802b6fa7",
+      "sha256": [
+        "0701df0ba00c29f3c6d2766d2f8e55c943af980d8b7c91d431c456cf802b6fa7",
+        "1748137bc0e44fd985a44a3d195e6295137b24bd76cfa10e3831b082f17ee088"
+      ],
       "text": "Stone Hornet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7338d1a4d3db0d7a2e10f3ce05100cbbc8a2333ba7f662318962ad9965da2605",
+      "sha256": [
+        "7338d1a4d3db0d7a2e10f3ce05100cbbc8a2333ba7f662318962ad9965da2605"
+      ],
       "text": "Sun Hornet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1748137bc0e44fd985a44a3d195e6295137b24bd76cfa10e3831b082f17ee088",
-      "text": "Stonehornet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

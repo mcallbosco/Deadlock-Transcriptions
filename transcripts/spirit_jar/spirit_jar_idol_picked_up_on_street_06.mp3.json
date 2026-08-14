@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "spirit_jar/spirit_jar_idol_picked_up_on_street_06.mp3",
   "revisions": [
     {
-      "sha256": "d43a56cd22ebc71e70c570a50a00f2bf460f70a06ac1ba833c53691db597c8c5",
+      "sha256": [
+        "1a98ccee1ed31996f482da6b33a3fb187501fdd0005daa1b2546d60d29a6bff5",
+        "d43a56cd22ebc71e70c570a50a00f2bf460f70a06ac1ba833c53691db597c8c5"
+      ],
       "text": "You need to take me to the temple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a98ccee1ed31996f482da6b33a3fb187501fdd0005daa1b2546d60d29a6bff5",
-      "text": "You need to take me to the temple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

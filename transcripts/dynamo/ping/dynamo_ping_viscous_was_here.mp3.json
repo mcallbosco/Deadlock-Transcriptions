@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_viscous_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f1da469a7a43761b09597adf71159cef489c441c48e93039a4b7ce9bccbcb558",
+      "sha256": [
+        "f1da469a7a43761b09597adf71159cef489c441c48e93039a4b7ce9bccbcb558"
+      ],
       "text": "Here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_concerned_03.mp3",
   "revisions": [
     {
-      "sha256": "978076c48c3a66192ef8c4651d0133fde9150bdac640e4fcca8853b9f6fec927",
+      "sha256": [
+        "7e928ca9d30a77cc5e6e124640beb0c6b5b1936d32e0aee4576f0349f7c0e35b",
+        "978076c48c3a66192ef8c4651d0133fde9150bdac640e4fcca8853b9f6fec927"
+      ],
       "text": "I need to be together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7e928ca9d30a77cc5e6e124640beb0c6b5b1936d32e0aee4576f0349f7c0e35b",
-      "text": "I need to be together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16b8285e1c4a522d743e1321354bf164d9aa6f73f9335ec5ff3a7a3b5b582bea",
+      "sha256": [
+        "16b8285e1c4a522d743e1321354bf164d9aa6f73f9335ec5ff3a7a3b5b582bea"
+      ],
       "text": "We need to be together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

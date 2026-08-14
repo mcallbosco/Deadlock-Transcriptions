@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_03_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "f673eeb0dfef1e68c2d3b1b6485d1d2392654fe8e31c4ab2d1e0597961f78eac",
+      "sha256": [
+        "f673eeb0dfef1e68c2d3b1b6485d1d2392654fe8e31c4ab2d1e0597961f78eac"
+      ],
       "text": "Hello, my name is...",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

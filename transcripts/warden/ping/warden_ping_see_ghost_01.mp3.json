@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "504505745f63626539d0ceac7c8bc3dbfa60bd41b131fc56826b388c64a31b91",
-      "text": "I see Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "780718ccfbe7329867b856d6e613cfa9ce9c347641a33a01a2454d6d18971f6b",
-      "text": "I see Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cfba5539893798f05c5ebb99edd9ffc2f48b5bb7dcc06fe0d498246cd4e9d52",
-      "text": "I see Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db700d90cd6e0d4f8306ac34a0a3b8eb455f089d9df131e438ff3d0ce23993d7",
+      "sha256": [
+        "504505745f63626539d0ceac7c8bc3dbfa60bd41b131fc56826b388c64a31b91",
+        "780718ccfbe7329867b856d6e613cfa9ce9c347641a33a01a2454d6d18971f6b",
+        "9cfba5539893798f05c5ebb99edd9ffc2f48b5bb7dcc06fe0d498246cd4e9d52",
+        "db700d90cd6e0d4f8306ac34a0a3b8eb455f089d9df131e438ff3d0ce23993d7"
+      ],
       "text": "I see Geist",
       "source": "official"
     }

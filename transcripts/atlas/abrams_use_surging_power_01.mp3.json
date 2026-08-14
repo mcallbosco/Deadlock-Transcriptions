@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_surging_power_01.mp3",
   "revisions": [
     {
-      "sha256": "1982b827d43c94cb122b65ff94d8e3df542dd9b3226a0bf80722cb4f99a00d90",
+      "sha256": [
+        "1982b827d43c94cb122b65ff94d8e3df542dd9b3226a0bf80722cb4f99a00d90",
+        "2f61461f2bc24aa6997c60d6c20072b856e1642eeb089d000037cb87c7ff1bd6",
+        "c7ba47cc95dd7ec8a8ef3a05b58ee24262af3c3b3d65ef64cc1c6541f92fb968"
+      ],
       "text": "Surging power.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f61461f2bc24aa6997c60d6c20072b856e1642eeb089d000037cb87c7ff1bd6",
-      "text": "Surging power.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c7ba47cc95dd7ec8a8ef3a05b58ee24262af3c3b3d65ef64cc1c6541f92fb968",
-      "text": "Surging power!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

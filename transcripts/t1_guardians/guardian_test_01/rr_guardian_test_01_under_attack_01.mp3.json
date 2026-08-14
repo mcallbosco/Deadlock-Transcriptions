@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_under_attack_01.mp3",
   "revisions": [
     {
-      "sha256": "77dd54ead1fce0bb64c08d009df164a880a87c37328af87bcf9eafd5e54abf5e",
-      "text": "I need help on yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dddcafb05db24d7e842cc671a247f18e02e50347e9777b194249c62c93487c9b",
-      "text": "I need help on yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a31084497b9b9a548ecd1939038c8550e0ab2e08fc65d40acb9a13a61b4391a",
+      "sha256": [
+        "1a31084497b9b9a548ecd1939038c8550e0ab2e08fc65d40acb9a13a61b4391a",
+        "77dd54ead1fce0bb64c08d009df164a880a87c37328af87bcf9eafd5e54abf5e",
+        "dddcafb05db24d7e842cc671a247f18e02e50347e9777b194249c62c93487c9b"
+      ],
       "text": "I need help on yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

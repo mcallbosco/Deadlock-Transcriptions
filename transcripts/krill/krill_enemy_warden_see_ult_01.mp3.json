@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_enemy_warden_see_ult_01.mp3",
   "revisions": [
     {
-      "sha256": "46abb5d1231d3c71d69583de508e9189c9697e58a350c307dd6088cf5668ca1f",
+      "sha256": [
+        "46abb5d1231d3c71d69583de508e9189c9697e58a350c307dd6088cf5668ca1f",
+        "7482c6b7035eb3fecab6a6771192cc70bbb8b2a7edc7d3c9ce007e85c0551a44"
+      ],
       "text": "Murphy's about to charge in!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7482c6b7035eb3fecab6a6771192cc70bbb8b2a7edc7d3c9ce007e85c0551a44",
-      "text": "Murphy's about to charge in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b7f197abd38f0d086bba73a1b043caf0a5ea76e4c75c4b2da01e0671989dc814",
+      "sha256": [
+        "b7f197abd38f0d086bba73a1b043caf0a5ea76e4c75c4b2da01e0671989dc814"
+      ],
       "text": "Look out for Warden!",
       "source": "official"
     }

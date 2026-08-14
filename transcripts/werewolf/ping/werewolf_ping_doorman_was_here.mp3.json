@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d9564ed3df1e5ab31f60600f81033321d1189ef348544ac30d47c5f8b4cb95a2",
+      "sha256": [
+        "d9564ed3df1e5ab31f60600f81033321d1189ef348544ac30d47c5f8b4cb95a2"
+      ],
       "text": "The domain was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

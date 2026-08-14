@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_boho_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "aa146364c192cc994788128b48a60f0d97140b06bccd0692abab74506fd7057a",
-      "text": "The witch is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "51ef8f277b18f9c49a86fa9ef8d4b876d02dcf711f350aa8ff57fe1586008898",
+      "sha256": [
+        "51ef8f277b18f9c49a86fa9ef8d4b876d02dcf711f350aa8ff57fe1586008898",
+        "aa146364c192cc994788128b48a60f0d97140b06bccd0692abab74506fd7057a"
+      ],
       "text": "The witch is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

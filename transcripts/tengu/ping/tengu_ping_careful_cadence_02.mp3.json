@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_cadence_02.mp3",
   "revisions": [
     {
-      "sha256": "eeafd79e21885387d8e858836425c74e04e284a05636708de199b2b8e353e1a9",
+      "sha256": [
+        "eeafd79e21885387d8e858836425c74e04e284a05636708de199b2b8e353e1a9"
+      ],
       "text": "Here's the cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e59b063d3211fd1be2b47829aff31808cbc5f85fe5aeda4e50ae6ec560c6c4ad",
+      "sha256": [
+        "e59b063d3211fd1be2b47829aff31808cbc5f85fe5aeda4e50ae6ec560c6c4ad"
+      ],
       "text": "Careful cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

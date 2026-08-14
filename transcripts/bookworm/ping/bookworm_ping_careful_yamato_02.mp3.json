@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "8f310fd0dd12088cead408bd387b0e690d16d6b988bacb83b6044cc9d7ce510f",
-      "text": "Careful, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59c6ce8200f5f56d7116983f29315f04f7ebb26ad3cbc6c3bee44cbd2c7969ea",
+      "sha256": [
+        "59c6ce8200f5f56d7116983f29315f04f7ebb26ad3cbc6c3bee44cbd2c7969ea",
+        "8f310fd0dd12088cead408bd387b0e690d16d6b988bacb83b6044cc9d7ce510f"
+      ],
       "text": "Careful, Yamato.",
       "source": "official"
     }

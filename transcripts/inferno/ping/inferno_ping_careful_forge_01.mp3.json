@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_careful_forge_01.mp3",
   "revisions": [
     {
-      "sha256": "0c55f3dddf09d240756faf6fd3c80faf6c41c383bf7bafb9dfc0e6102497c5f6",
+      "sha256": [
+        "0c55f3dddf09d240756faf6fd3c80faf6c41c383bf7bafb9dfc0e6102497c5f6",
+        "7b10ec1c89aeda263f9ae7a51c6ce07414a000bc7ed0a9f427ee921dc923101d"
+      ],
       "text": "Careful my guess.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7b10ec1c89aeda263f9ae7a51c6ce07414a000bc7ed0a9f427ee921dc923101d",
-      "text": "Careful my guess.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01413045088b9bcaaff30c2f52858dbca7b5b9f28b125b3790b55bd6a4f5320b",
+      "sha256": [
+        "01413045088b9bcaaff30c2f52858dbca7b5b9f28b125b3790b55bd6a4f5320b"
+      ],
       "text": "Careful, McGinnis…",
       "source": "official"
     }

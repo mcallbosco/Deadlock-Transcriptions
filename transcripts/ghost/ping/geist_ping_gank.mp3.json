@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "7fb0587557aad783781d20f8d435dda1c8f6dbecb1e77638de2647921be2736d",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7815d60110675d5308c900fe56cf3744e931c288678bfe8d0203ef437d527868",
+      "sha256": [
+        "7815d60110675d5308c900fe56cf3744e931c288678bfe8d0203ef437d527868",
+        "7fb0587557aad783781d20f8d435dda1c8f6dbecb1e77638de2647921be2736d"
+      ],
       "text": "Going to gank.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

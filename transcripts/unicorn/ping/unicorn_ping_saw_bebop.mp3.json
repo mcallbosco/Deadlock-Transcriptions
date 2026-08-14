@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "c8ffd3fbd7ee3ff7f66a7296dbe91c0edfa99d4dfff33f8471af442ced51e92f",
+      "sha256": [
+        "c8ffd3fbd7ee3ff7f66a7296dbe91c0edfa99d4dfff33f8471af442ced51e92f"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

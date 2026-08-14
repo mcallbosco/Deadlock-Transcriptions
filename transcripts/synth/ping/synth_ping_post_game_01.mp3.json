@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_post_game_01.mp3",
   "revisions": [
     {
-      "sha256": "bcf0ef12ddcae97ea2b69cfd7c701874ccdee4f94f7d0f51083c650e89e23e24",
+      "sha256": [
+        "bcf0ef12ddcae97ea2b69cfd7c701874ccdee4f94f7d0f51083c650e89e23e24"
+      ],
       "text": "Nice job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

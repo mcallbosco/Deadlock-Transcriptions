@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_kill_anyhero_01.mp3",
   "revisions": [
     {
-      "sha256": "ea48ec7a8d82e936772da51535e236d3a46efee2a0142b1bb5cc931cc6cbebb8",
-      "text": "I'm so sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78dbd01fece17f3704ee1bf4c31f95cbc4a611ce7a3baf45eb4f82cddccd4de5",
+      "sha256": [
+        "78dbd01fece17f3704ee1bf4c31f95cbc4a611ce7a3baf45eb4f82cddccd4de5",
+        "ea48ec7a8d82e936772da51535e236d3a46efee2a0142b1bb5cc931cc6cbebb8"
+      ],
       "text": "I'm so sorry.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

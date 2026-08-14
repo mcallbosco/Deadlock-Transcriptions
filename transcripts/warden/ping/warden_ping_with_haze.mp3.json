@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "e039e6dc74dfaf1062301b03fde6093fc528192572e8e9432f08fca4d381931c",
-      "text": "I'm with you, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d31e4298e6c6e3a9d9b79d3e14f3123ebd87c2e95b0768dd3fa8e7507266314d",
-      "text": "I'm with you, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfd2e39604ed16f9f8f6760e1951fba953bd7f43bcd72527f074fe7261900bd3",
-      "text": "I'm with you, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5858f2a7535d6ef39138be312221e2ef7af67fec429804f33247332a6d14355b",
+      "sha256": [
+        "5858f2a7535d6ef39138be312221e2ef7af67fec429804f33247332a6d14355b",
+        "bfd2e39604ed16f9f8f6760e1951fba953bd7f43bcd72527f074fe7261900bd3",
+        "d31e4298e6c6e3a9d9b79d3e14f3123ebd87c2e95b0768dd3fa8e7507266314d",
+        "e039e6dc74dfaf1062301b03fde6093fc528192572e8e9432f08fca4d381931c"
+      ],
       "text": "I'm with you, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

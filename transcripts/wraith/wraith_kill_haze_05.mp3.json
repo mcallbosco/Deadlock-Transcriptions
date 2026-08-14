@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_haze_05.mp3",
   "revisions": [
     {
-      "sha256": "2ad8fec943646f29fe8df2ebdd634d1213722319497c11fced90bea084edcae5",
-      "text": "Stay out of my head, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "2ad8fec943646f29fe8df2ebdd634d1213722319497c11fced90bea084edcae5",
+        "bf2674495d74960b6634705b91f8f576c09aaad9a9e44f80854bd5d926871be2"
+      ],
+      "text": "Stay out of my head Haze.",
+      "source": "official"
     },
     {
-      "sha256": "a33178a44b580a86cd68aac54e1a04504d63231ee8c9f6f32e6cf028060399b9",
+      "sha256": [
+        "a33178a44b580a86cd68aac54e1a04504d63231ee8c9f6f32e6cf028060399b9"
+      ],
       "text": "Stay out of my head, Hayes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf2674495d74960b6634705b91f8f576c09aaad9a9e44f80854bd5d926871be2",
-      "text": "Stay out of my head Haze.",
-      "source": "official"
     }
   ]
 }

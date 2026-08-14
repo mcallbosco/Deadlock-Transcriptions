@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_chrono_01.mp3",
   "revisions": [
     {
-      "sha256": "f873c9475f23ff22dcbed46f20b8f6d289f37ea1175498fa569803d2c1b9e0fe",
-      "text": "Careful, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "057b6400bec1982ba83bfb177c0d1912f326de2b8ab570ed79ab270fbaf13024",
-      "text": "Careful paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e52cfdf0dc38677a21e11a911554e213ea559f5a43e14d97b83c0b8038057d63",
+      "sha256": [
+        "057b6400bec1982ba83bfb177c0d1912f326de2b8ab570ed79ab270fbaf13024",
+        "e52cfdf0dc38677a21e11a911554e213ea559f5a43e14d97b83c0b8038057d63",
+        "f873c9475f23ff22dcbed46f20b8f6d289f37ea1175498fa569803d2c1b9e0fe"
+      ],
       "text": "Careful paradox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

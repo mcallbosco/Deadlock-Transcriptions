@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_be_careful_03.mp3",
   "revisions": [
     {
-      "sha256": "dbdf4c1b04585aa4a2c8a76bf3497c63327243173e008519af701ecd6a7965ff",
-      "text": "Need to make sure I check in with the others.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "2988aec4504d1731e400089074b86319e8beb4a9de8621d2c6c8b067ad6ba5c8",
+        "dbdf4c1b04585aa4a2c8a76bf3497c63327243173e008519af701ecd6a7965ff"
+      ],
+      "text": "Need to make sure I check in with the others",
+      "source": "official"
     },
     {
-      "sha256": "788463f2864d7a97e4cac6d2e99a2d40648766372c4571526984e67a107f4ced",
+      "sha256": [
+        "788463f2864d7a97e4cac6d2e99a2d40648766372c4571526984e67a107f4ced"
+      ],
       "text": "I need to make sure I trick him and the others.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc59b9dad5ed1f780506a4b2f178a6ee044cd0c5ec96fd294769ee1c5f24bcf1",
+      "sha256": [
+        "bc59b9dad5ed1f780506a4b2f178a6ee044cd0c5ec96fd294769ee1c5f24bcf1"
+      ],
       "text": "I need to make sure I trick him the others.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2988aec4504d1731e400089074b86319e8beb4a9de8621d2c6c8b067ad6ba5c8",
-      "text": "Need to make sure I check in with the others",
-      "source": "official"
     }
   ]
 }

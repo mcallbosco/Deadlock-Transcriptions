@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_enemy_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "a070ed58d1e4220533b427d6e162583ba24b06380f84720128b5db2984ee6628",
-      "text": "Enemy head is yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2ba3cceff13641e5e98a559c998ca1a764727fbbb12fe8bda266104d033a84f",
-      "text": "Enemy head is yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f4fbeac773cc3ef44d116ba518fb4728029d439367511c35ccaa1372b03ef92",
+      "sha256": [
+        "1f4fbeac773cc3ef44d116ba518fb4728029d439367511c35ccaa1372b03ef92",
+        "a070ed58d1e4220533b427d6e162583ba24b06380f84720128b5db2984ee6628",
+        "f2ba3cceff13641e5e98a559c998ca1a764727fbbb12fe8bda266104d033a84f"
+      ],
       "text": "Enemy head is yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

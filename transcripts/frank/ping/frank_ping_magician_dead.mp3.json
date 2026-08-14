@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_magician_dead.mp3",
   "revisions": [
     {
-      "sha256": "d2578b59506b75d7c7fb482b7ab59976d02a5fe84b7b8a72a872e561eb0cbb98",
-      "text": "Sinclair is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a68b594c74f455d65adee108f0d4de83cfa40c2c9f6376ccca91089b63340806",
+      "sha256": [
+        "a68b594c74f455d65adee108f0d4de83cfa40c2c9f6376ccca91089b63340806",
+        "d2578b59506b75d7c7fb482b7ab59976d02a5fe84b7b8a72a872e561eb0cbb98"
+      ],
       "text": "Sinclair is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

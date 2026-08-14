@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_attack_tengu.mp3",
   "revisions": [
     {
-      "sha256": "d8e24cba671e6d67d194798dd353ba62d13420d08356b759c10c9c6547d01c25",
+      "sha256": [
+        "d8e24cba671e6d67d194798dd353ba62d13420d08356b759c10c9c6547d01c25"
+      ],
       "text": "Let's take our tango.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd04b941bffd76906d00fcaf0801b108d5a2228cdaf6785c3f1359680b17023c",
+      "sha256": [
+        "4ea2a8a1a21d511463cee1940a6c57e5d12c23243cf61e05af508a6617b27314",
+        "bd04b941bffd76906d00fcaf0801b108d5a2228cdaf6785c3f1359680b17023c"
+      ],
       "text": "Let's check out Ivy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ea2a8a1a21d511463cee1940a6c57e5d12c23243cf61e05af508a6617b27314",
-      "text": "Let's check out Ivy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33d0b213a94d3eb5857e02655177208178b92f4fffac0fe251ce8730f8283e8e",
+      "sha256": [
+        "33d0b213a94d3eb5857e02655177208178b92f4fffac0fe251ce8730f8283e8e"
+      ],
       "text": "Let's take out ivy",
       "source": "official"
     }

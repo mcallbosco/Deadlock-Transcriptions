@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "5a1a7c70b0f9a4a2b3bdff3686152159e1f5c16ae626866b363c77047a14c982",
+      "sha256": [
+        "5a1a7c70b0f9a4a2b3bdff3686152159e1f5c16ae626866b363c77047a14c982"
+      ],
       "text": "You have a shield.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2e45699179fa300336296e2259c5e5b4e94a8cf0777b2be05f00032423a86090",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23ffd6f7774d946bb4d56ecda4e77b6a0e68395bf51dbd13538be69b15a109a6",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae34319b4425e21979635718edf658137b45af3ab45f36a8a5336e572dd7d715",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c0b187ff640b3e2a416a0998904fd72307aa7b6b2e086e73fc1da844565f0c5",
+      "sha256": [
+        "0c0b187ff640b3e2a416a0998904fd72307aa7b6b2e086e73fc1da844565f0c5",
+        "23ffd6f7774d946bb4d56ecda4e77b6a0e68395bf51dbd13538be69b15a109a6",
+        "2e45699179fa300336296e2259c5e5b4e94a8cf0777b2be05f00032423a86090",
+        "ae34319b4425e21979635718edf658137b45af3ab45f36a8a5336e572dd7d715"
+      ],
       "text": "Do you have a heal?",
       "source": "official"
     }

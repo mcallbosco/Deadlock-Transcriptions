@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_push_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "a4b196461f6bf65413cc0f26b80d79fbc609afe318304923bbf2b08348cf88af",
-      "text": "Let's push Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03017a3064b7befe5434568f512b5ab8f1c29479e3ae4d7914527baa53cf47ca",
-      "text": "Let's push Broadway!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "909fbe67c27437fe19bf68c83bcab940843993604f429e3647de20a10bf4c626",
+      "sha256": [
+        "03017a3064b7befe5434568f512b5ab8f1c29479e3ae4d7914527baa53cf47ca",
+        "909fbe67c27437fe19bf68c83bcab940843993604f429e3647de20a10bf4c626",
+        "a4b196461f6bf65413cc0f26b80d79fbc609afe318304923bbf2b08348cf88af"
+      ],
       "text": "Let's push Broadway",
       "source": "official"
     }

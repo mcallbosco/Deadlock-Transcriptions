@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_got_denied_04.mp3",
   "revisions": [
     {
-      "sha256": "6b051655d7639c8d509f57540bc9852682c66b34d68d40f15a3a24e0caad0ccb",
-      "text": "How do they keep doing that?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f24e971ac567d56348a899e79fbef662a03163dff40fc7aa1af603b25106a08b",
-      "text": "How do they keep doing that?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c842601ca92b9be83dff2ce4969f7374e798ef9d7f1ad74bf5c640874824382b",
+      "sha256": [
+        "6b051655d7639c8d509f57540bc9852682c66b34d68d40f15a3a24e0caad0ccb",
+        "c842601ca92b9be83dff2ce4969f7374e798ef9d7f1ad74bf5c640874824382b",
+        "f24e971ac567d56348a899e79fbef662a03163dff40fc7aa1af603b25106a08b"
+      ],
       "text": "How do they keep doing that?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

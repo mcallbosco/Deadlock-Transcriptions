@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_butcher_back_01.mp3",
   "revisions": [
     {
-      "sha256": "2e03c1bb2b805ce5b0a289c7228789151b962ef85f8df1fba10d44c75753afe1",
-      "text": "But you get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2bb2522d6fcdabc742c1a42ce8143a0f86ec4b7cfbbd0f8d230715d108fba0ef",
-      "text": "But you get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "681b399d151f21770c64cfcd89e816d2ef2ad96a157452f5c8e1c2e8d33d1c78",
+      "sha256": [
+        "2bb2522d6fcdabc742c1a42ce8143a0f86ec4b7cfbbd0f8d230715d108fba0ef",
+        "2e03c1bb2b805ce5b0a289c7228789151b962ef85f8df1fba10d44c75753afe1",
+        "681b399d151f21770c64cfcd89e816d2ef2ad96a157452f5c8e1c2e8d33d1c78"
+      ],
       "text": "But you get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

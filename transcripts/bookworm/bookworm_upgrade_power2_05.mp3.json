@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_upgrade_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "f30d6df32ab6380d99dc3099971879a6d39363765fe677820aad432d8600218c",
+      "sha256": [
+        "f30d6df32ab6380d99dc3099971879a6d39363765fe677820aad432d8600218c"
+      ],
       "text": "I'm ready to help out the team!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_lets_go_green.mp3",
   "revisions": [
     {
-      "sha256": "3f127bb916b5c7f15e8fab19fbd54ae13ca109615ba4b1e9d43d211849069cdb",
+      "sha256": [
+        "3f127bb916b5c7f15e8fab19fbd54ae13ca109615ba4b1e9d43d211849069cdb"
+      ],
       "text": "Let's go to green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "99c8d4cf8509ee250ada1ea26053da80100a02844275218504916e1f89827214",
+      "sha256": [
+        "99c8d4cf8509ee250ada1ea26053da80100a02844275218504916e1f89827214"
+      ],
       "text": "Let's go green!",
       "source": "official"
     }

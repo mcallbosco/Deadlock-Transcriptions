@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_careful_tengu_03.mp3",
   "revisions": [
     {
-      "sha256": "5e4db9be8048299f40250206a808bd48e4b25e5cf717f30436f27291aa36f964",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ba7e543d482c810a919afd87fe2a3277118deb52450a99d37f82f40dc9e77cb",
+      "sha256": [
+        "2ba7e543d482c810a919afd87fe2a3277118deb52450a99d37f82f40dc9e77cb",
+        "5e4db9be8048299f40250206a808bd48e4b25e5cf717f30436f27291aa36f964"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

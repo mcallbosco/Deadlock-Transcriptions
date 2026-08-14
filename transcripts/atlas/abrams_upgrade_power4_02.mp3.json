@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_upgrade_power4_02.mp3",
   "revisions": [
     {
-      "sha256": "604c56780f377e8c6573a4a89a858307d88240da18beac8b3752b3cab76704f8",
-      "text": "I know how to make an entrance.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d79cbab5c4609a5ed79f30a231c8e93250e154d3be2fdd4323ea7d212058fcb3",
-      "text": "I know how to make an entrance.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "15a9f65de432e75172a815656b11e7d7a05821e0e4053c0fa6c09e9f82291304",
+      "sha256": [
+        "15a9f65de432e75172a815656b11e7d7a05821e0e4053c0fa6c09e9f82291304",
+        "604c56780f377e8c6573a4a89a858307d88240da18beac8b3752b3cab76704f8",
+        "d79cbab5c4609a5ed79f30a231c8e93250e154d3be2fdd4323ea7d212058fcb3"
+      ],
       "text": "I know how to make an entrance.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

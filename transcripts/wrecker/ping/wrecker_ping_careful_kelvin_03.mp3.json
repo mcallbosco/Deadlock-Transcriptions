@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_kelvin_03.mp3",
   "revisions": [
     {
-      "sha256": "ba1d35df8c8cc59dc4c45fcadbe7f7d404790a92f651eae9eda26fb84cc567ab",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad89b8f795d0396f0fe23a8973cb8e24f318c7879ed7aada0e11caa88d47275b",
+      "sha256": [
+        "ad89b8f795d0396f0fe23a8973cb8e24f318c7879ed7aada0e11caa88d47275b",
+        "ba1d35df8c8cc59dc4c45fcadbe7f7d404790a92f651eae9eda26fb84cc567ab"
+      ],
       "text": "Careful, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

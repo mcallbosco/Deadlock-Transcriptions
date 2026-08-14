@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_pick_up_gold_04.mp3",
   "revisions": [
     {
-      "sha256": "156c7f562de9aa488005180f8c649f72bd43bbe6a04a2d39c8fb5441e2f7d688",
+      "sha256": [
+        "156c7f562de9aa488005180f8c649f72bd43bbe6a04a2d39c8fb5441e2f7d688",
+        "5781fdfe07bb251efb9c2527da1ff84180032de47fee7e08fc5da724726b45f9",
+        "da0717ec1042e660871df851e55a404fddb63052721b8cc088780381b120185d"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5781fdfe07bb251efb9c2527da1ff84180032de47fee7e08fc5da724726b45f9",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da0717ec1042e660871df851e55a404fddb63052721b8cc088780381b120185d",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76ed43ff0117097ee584132578f46993a0643016262a5872cf0352aa67710094",
+      "sha256": [
+        "76ed43ff0117097ee584132578f46993a0643016262a5872cf0352aa67710094"
+      ],
       "text": "cha-ching",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_kill_calico_03.mp3",
   "revisions": [
     {
-      "sha256": "449dbe7f3700b1f7b4179aced7388b73e2eb2862cc09dd56effb0d0d880b4194",
-      "text": "I stopped Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d10762ab3f202e90fdfd6a815af4b44a1b65cd0596b62cb00919fd512f24e1be",
+      "sha256": [
+        "449dbe7f3700b1f7b4179aced7388b73e2eb2862cc09dd56effb0d0d880b4194",
+        "d10762ab3f202e90fdfd6a815af4b44a1b65cd0596b62cb00919fd512f24e1be"
+      ],
       "text": "I stopped Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

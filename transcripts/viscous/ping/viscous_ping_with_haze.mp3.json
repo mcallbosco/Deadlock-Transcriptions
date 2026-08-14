@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "6d01cf29d4f34cde5b18d4d8a9eb92e3af827c3b73f96be960a4096651579c62",
+      "sha256": [
+        "6d01cf29d4f34cde5b18d4d8a9eb92e3af827c3b73f96be960a4096651579c62"
+      ],
       "text": "I'm with you, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

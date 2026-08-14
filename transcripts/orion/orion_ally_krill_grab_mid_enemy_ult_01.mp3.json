@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_ally_krill_grab_mid_enemy_ult_01.mp3",
   "revisions": [
     {
-      "sha256": "62a865f5ff9b8a96a2e244a8daadc9412f05886c04f95d2ae3290a0c6b72c6d9",
+      "sha256": [
+        "62a865f5ff9b8a96a2e244a8daadc9412f05886c04f95d2ae3290a0c6b72c6d9",
+        "f5f7a702a5ac44858e2d66c4e9a1bb07bc6fb38f13ded3514a3ed21e1eb2e682"
+      ],
       "text": "You shave me, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f5f7a702a5ac44858e2d66c4e9a1bb07bc6fb38f13ded3514a3ed21e1eb2e682",
-      "text": "You shave me, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66936b47474da90655980bdf61dd8751ac9392ab755442b4197fe01db048ed8b",
+      "sha256": [
+        "66936b47474da90655980bdf61dd8751ac9392ab755442b4197fe01db048ed8b"
+      ],
       "text": "You saved me Krill!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "429275868be32c18a87fb30843db289069c9470c9309918226cf0628ec483f97",
-      "text": "McGinnis is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c22b9392daccfae9f12d59e93b835d3b290c2d7e96b19101c41813f8ef262ba",
-      "text": "McGinnis is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a2f56be4fc6af62bea10e142a2c27875f9e28407feb5c7d52ea17bc0b68de20b",
+      "sha256": [
+        "1c22b9392daccfae9f12d59e93b835d3b290c2d7e96b19101c41813f8ef262ba",
+        "429275868be32c18a87fb30843db289069c9470c9309918226cf0628ec483f97",
+        "a2f56be4fc6af62bea10e142a2c27875f9e28407feb5c7d52ea17bc0b68de20b"
+      ],
       "text": "McGinnis is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

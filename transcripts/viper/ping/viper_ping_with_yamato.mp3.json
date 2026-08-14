@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "5ef40a5a17b36167da14884e1690bbe4125a505ac93967d8f9d91e0c6293fa49",
-      "text": "I'm with you, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33b8c3d4b7c92b76a9e30e971957e2abaaaeaa0fb8179704eb650f043e983d84",
-      "text": "I'm with you, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00a2771c9754faebc49c171133b536bfdb588b2f8c872ca8ae7b283104e9f75b",
+      "sha256": [
+        "00a2771c9754faebc49c171133b536bfdb588b2f8c872ca8ae7b283104e9f75b",
+        "33b8c3d4b7c92b76a9e30e971957e2abaaaeaa0fb8179704eb650f043e983d84",
+        "5ef40a5a17b36167da14884e1690bbe4125a505ac93967d8f9d91e0c6293fa49"
+      ],
       "text": "I'm with you, Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

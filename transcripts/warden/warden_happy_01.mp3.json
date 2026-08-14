@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "4f591c2b6cd590c2649981e94366e9e8ca14f5cf67598cbfda60747cea7813be",
-      "text": "Wonderful.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b16779b102f1e9936d64265ce538392cb953b147c9e35a43bd4a2a44ad7b7064",
-      "text": "Wonderful.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7fc7eaba351117dbee072ab86985f4a2f51c8e2afb542850f99e512561ba2e37",
-      "text": "Wonderful.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5fdf04a92d075f93524fd7589209e8346d843def401854f0626ef9b1641488f7",
+      "sha256": [
+        "4f591c2b6cd590c2649981e94366e9e8ca14f5cf67598cbfda60747cea7813be",
+        "5fdf04a92d075f93524fd7589209e8346d843def401854f0626ef9b1641488f7",
+        "7fc7eaba351117dbee072ab86985f4a2f51c8e2afb542850f99e512561ba2e37",
+        "b16779b102f1e9936d64265ce538392cb953b147c9e35a43bd4a2a44ad7b7064"
+      ],
       "text": "Wonderful.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

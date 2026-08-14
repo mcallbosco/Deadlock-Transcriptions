@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_synth.mp3",
   "revisions": [
     {
-      "sha256": "ad09ba9b46db5517e0cbb8d5a65e942a60b5cf02e9d65da82f17d1a20dd642fd",
-      "text": "I'm with you, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "485d499c50451937fb04f16168c939146c384f5f7053110ae2ab3afa68a5487a",
+      "sha256": [
+        "485d499c50451937fb04f16168c939146c384f5f7053110ae2ab3afa68a5487a",
+        "ad09ba9b46db5517e0cbb8d5a65e942a60b5cf02e9d65da82f17d1a20dd642fd"
+      ],
       "text": "I'm with you, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

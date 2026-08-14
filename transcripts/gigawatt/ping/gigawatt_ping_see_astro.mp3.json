@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_astro.mp3",
   "revisions": [
     {
-      "sha256": "7d1c48f9fc653616f78119d2676fb9d9d7ee956444537e7747988fb6df5a196d",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08cc8d0ed094da7fdcbc0b7a6cd530b887d391878f190925765bd4f6d461116e",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f3aa208c79baf1a6d143e2ef7abe41659812f57da94977a188187cb08b8406c9",
+      "sha256": [
+        "08cc8d0ed094da7fdcbc0b7a6cd530b887d391878f190925765bd4f6d461116e",
+        "7d1c48f9fc653616f78119d2676fb9d9d7ee956444537e7747988fb6df5a196d",
+        "f3aa208c79baf1a6d143e2ef7abe41659812f57da94977a188187cb08b8406c9"
+      ],
       "text": "I see Holliday.",
       "source": "manual"
     }

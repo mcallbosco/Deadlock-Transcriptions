@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "82eb24eafc55712730302df5f3257971e203f524787128a96361bb812716dd7f",
+      "sha256": [
+        "82eb24eafc55712730302df5f3257971e203f524787128a96361bb812716dd7f"
+      ],
       "text": "I suspect that's him.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f04aa0c38e61c4ae1b0aa73522e9aa94ee28cc5ce8600d7476d59da1b0707959",
-      "text": "I won't fall in the line of duty.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "228bd017b27dbb82b6bdbecdd4a15107e815494659052f971b4484aabb636e78",
-      "text": "I won't fall in the line of duty.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a63fb0e88d24582068cd71c3f2a79d5881046fddbede5dfbfb6a921b3e57e7b8",
+      "sha256": [
+        "228bd017b27dbb82b6bdbecdd4a15107e815494659052f971b4484aabb636e78",
+        "a63fb0e88d24582068cd71c3f2a79d5881046fddbede5dfbfb6a921b3e57e7b8",
+        "f04aa0c38e61c4ae1b0aa73522e9aa94ee28cc5ce8600d7476d59da1b0707959"
+      ],
       "text": "I won't fall in the line of duty.",
       "source": "official"
     }

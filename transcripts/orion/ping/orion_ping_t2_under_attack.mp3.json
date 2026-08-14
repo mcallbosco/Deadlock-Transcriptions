@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_t2_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "596746f7eb4f0b6e033e23d919145509294a80877864dc233a8ec6f948fcc8fd",
+      "sha256": [
+        "596746f7eb4f0b6e033e23d919145509294a80877864dc233a8ec6f948fcc8fd",
+        "5a70e9761cd93ffeb6be1056d8cad58d1cbb84957ddd3f4ef8a63bd3f31d3f1c",
+        "a9acf6277868d018ff0f2122e8b2277ae65dd3270140735516fb0588e0d935aa"
+      ],
       "text": "We're taking out Tier 2!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5a70e9761cd93ffeb6be1056d8cad58d1cbb84957ddd3f4ef8a63bd3f31d3f1c",
-      "text": "We're taking out Tier 2!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "320c75a5b84d3fd231c25ee8e4c4010b207d707607d40018f21c475bfe9ce4da",
+      "sha256": [
+        "320c75a5b84d3fd231c25ee8e4c4010b207d707607d40018f21c475bfe9ce4da"
+      ],
       "text": "Taking out tier 2!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9acf6277868d018ff0f2122e8b2277ae65dd3270140735516fb0588e0d935aa",
-      "text": "We're taking out tier 2.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

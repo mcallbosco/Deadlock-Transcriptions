@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "bd1192ef09b4ba817db0e264105bbf1254ccecfa8ac98b6b5e264f9fea21c929",
+      "sha256": [
+        "bd1192ef09b4ba817db0e264105bbf1254ccecfa8ac98b6b5e264f9fea21c929"
+      ],
       "text": "Target is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

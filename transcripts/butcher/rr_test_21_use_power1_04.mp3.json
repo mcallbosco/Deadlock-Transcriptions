@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "cc3d8ec9d2932dfb703726349446b9a5788491375f8ae4cddd3993a5ac9afe61",
-      "text": "Can't wait to smash some skull with a rock!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0dfdbe038489566ea33e359cd8a75642aec7f6c604fd009b65e4d96ec9586969",
-      "text": "Can't wait to smash some skull with a rock!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93fbc1122b58c5a3396c596a774379158c820f9c7f432e9c9efe86bdb3972ac2",
+      "sha256": [
+        "0dfdbe038489566ea33e359cd8a75642aec7f6c604fd009b65e4d96ec9586969",
+        "93fbc1122b58c5a3396c596a774379158c820f9c7f432e9c9efe86bdb3972ac2",
+        "cc3d8ec9d2932dfb703726349446b9a5788491375f8ae4cddd3993a5ac9afe61"
+      ],
       "text": "Can't wait to smash some skull with a rock!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

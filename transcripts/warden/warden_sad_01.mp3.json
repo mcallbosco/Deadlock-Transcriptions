@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_sad_01.mp3",
   "revisions": [
     {
-      "sha256": "3b7510b273c25a68ef5fd49195b496b9f7225001d9a09d46e5b1510d20970140",
+      "sha256": [
+        "12b8d7eb8b9f68abbb8d0cba7c77e0b539c64f36d077f25a2c58f30f9b7c7f57",
+        "3b7510b273c25a68ef5fd49195b496b9f7225001d9a09d46e5b1510d20970140",
+        "5c27da9ba8c24f4029309f88ad1c09bfa37fac49ae426cfa10dff601722ddba3"
+      ],
       "text": "This is a calamity.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "12b8d7eb8b9f68abbb8d0cba7c77e0b539c64f36d077f25a2c58f30f9b7c7f57",
-      "text": "This is a calamity.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c27da9ba8c24f4029309f88ad1c09bfa37fac49ae426cfa10dff601722ddba3",
-      "text": "This is a calamity.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "94da499a5a11d0c6d5b2dd280a2d1579c98c8a6269aca787291f5fd1819e73e1",
+      "sha256": [
+        "94da499a5a11d0c6d5b2dd280a2d1579c98c8a6269aca787291f5fd1819e73e1"
+      ],
       "text": "This is calamity.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

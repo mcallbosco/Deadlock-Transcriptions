@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_the_map_troopers.mp3",
   "revisions": [
     {
-      "sha256": "b2f9ad6a318718e0fdb9ee126b0fc5271a51447cb5d06b1e9b3d32e2df59bea3",
-      "text": "Troopers periodically spawn in the base and then run down a lane, fighting any enemies they encounter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "939567a8682d37d2e6f7c6180d7b1e5ef57fae038284bfb0188c298756a3a062",
-      "text": "Troopers periodically spawn in the base and then run down a lane, fighting any enemies they encounter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fd3c52cd54721f360ffbf17fdfdf50fc820d32774b4f6489692a5f2ae76c95e",
+      "sha256": [
+        "4fd3c52cd54721f360ffbf17fdfdf50fc820d32774b4f6489692a5f2ae76c95e",
+        "939567a8682d37d2e6f7c6180d7b1e5ef57fae038284bfb0188c298756a3a062",
+        "b2f9ad6a318718e0fdb9ee126b0fc5271a51447cb5d06b1e9b3d32e2df59bea3"
+      ],
       "text": "Troopers periodically spawn in the base and then run down a lane, fighting any enemies they encounter.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_saw_frank.mp3",
   "revisions": [
     {
-      "sha256": "f9a31cc1e2bd05da21a3b6ca89c728e726a5622065abed849d0865b3e42826e6",
+      "sha256": [
+        "f9a31cc1e2bd05da21a3b6ca89c728e726a5622065abed849d0865b3e42826e6"
+      ],
       "text": "Please talk picture.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

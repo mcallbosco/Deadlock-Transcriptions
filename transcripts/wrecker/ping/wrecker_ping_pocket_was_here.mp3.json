@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_pocket_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8165c5e777158cc6cd67245eba2296647f02b83db5d6ee568e4dc4804e97474d",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da7c2370a4eb37783bb6fbbb2f8c55060e2dc947ee10a80fa3a82a37bdfd0c4c",
+      "sha256": [
+        "8165c5e777158cc6cd67245eba2296647f02b83db5d6ee568e4dc4804e97474d",
+        "da7c2370a4eb37783bb6fbbb2f8c55060e2dc947ee10a80fa3a82a37bdfd0c4c"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_can_heal_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "97c8b737a45d3d5e8ae77f1337879265785b3b5c1771933762c5937f6b114a25",
+      "sha256": [
+        "96a92831c879df751a280f4481ab7213cdf6275b3a87fc504311df2b43a87a22",
+        "97c8b737a45d3d5e8ae77f1337879265785b3b5c1771933762c5937f6b114a25"
+      ],
       "text": "I hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "96a92831c879df751a280f4481ab7213cdf6275b3a87fc504311df2b43a87a22",
-      "text": "I hear you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8959e4f25a5c7d6dc05fcdeebd561150dc161761db89a5eec3dbba01f507b006",
+      "sha256": [
+        "8959e4f25a5c7d6dc05fcdeebd561150dc161761db89a5eec3dbba01f507b006"
+      ],
       "text": "Wrecker, I can heal you!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "66a00e88bf8e96dd45e463d3a970459d304256bd0c9c6b3df69670f46737cb1c",
-      "text": "Careful, Lash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe49098c0c780e9982ca1cfa113a4978f65307c2c171f4df88e5f4f29ecc51f4",
-      "text": "Careful, Lash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25f6c5638f25fe7e298553cb3b4395229381e77479f43242801a47e1b2bed07f",
+      "sha256": [
+        "25f6c5638f25fe7e298553cb3b4395229381e77479f43242801a47e1b2bed07f",
+        "66a00e88bf8e96dd45e463d3a970459d304256bd0c9c6b3df69670f46737cb1c",
+        "fe49098c0c780e9982ca1cfa113a4978f65307c2c171f4df88e5f4f29ecc51f4"
+      ],
       "text": "Careful, Lash!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

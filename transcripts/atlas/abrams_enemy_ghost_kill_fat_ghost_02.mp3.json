@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_enemy_ghost_kill_fat_ghost_02.mp3",
   "revisions": [
     {
-      "sha256": "c938955770927c9475b574d1f7b3beea8c61b4ef12059f27cfefbfc32518fa7d",
+      "sha256": [
+        "c938955770927c9475b574d1f7b3beea8c61b4ef12059f27cfefbfc32518fa7d"
+      ],
       "text": "I speak stop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "55c4d688291d16413d56aaaf6b6e30b8a3a1cc30c2c452cf5f877450a509a3ff",
-      "text": "Geist has been stopped.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00885d529b18f9cfeb76716466c9d0498e78519f2cc8e3c6a2f98d2b7f18872f",
+      "sha256": [
+        "00885d529b18f9cfeb76716466c9d0498e78519f2cc8e3c6a2f98d2b7f18872f",
+        "55c4d688291d16413d56aaaf6b6e30b8a3a1cc30c2c452cf5f877450a509a3ff"
+      ],
       "text": "Geist has been stopped.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

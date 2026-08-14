@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "0a17cf575f7eb27811122ab4f6a1857fb395da68b1dbb26904f63e6841ff0571",
+      "sha256": [
+        "0a17cf575f7eb27811122ab4f6a1857fb395da68b1dbb26904f63e6841ff0571",
+        "566ed6e290f25b9f99f5adaa3ce0a8ede06b887a5c0f55178bc6d72ffa714ec8",
+        "ce6ddb702d94d7cbb985222a8409a39fbf3fa828006115c1f68355e3e674a98b"
+      ],
       "text": "Let's go, orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce6ddb702d94d7cbb985222a8409a39fbf3fa828006115c1f68355e3e674a98b",
-      "text": "Let's go, orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "566ed6e290f25b9f99f5adaa3ce0a8ede06b887a5c0f55178bc6d72ffa714ec8",
-      "text": "Let's go, Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

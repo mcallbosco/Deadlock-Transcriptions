@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_mirage_02.mp3",
   "revisions": [
     {
-      "sha256": "b68cb4bffd41858e68f0ded725bd96fd83cbc0cdbe8692c6d7d733f0789522c2",
+      "sha256": [
+        "052e4b77c56ae25dc45ad32e09ffaeb52356becf16fe2915de53f5e10e08be94",
+        "3a855a1a2f343baac9e48d37153e8aeb3b80cb1832355116bc62c58117485bd4",
+        "b68cb4bffd41858e68f0ded725bd96fd83cbc0cdbe8692c6d7d733f0789522c2"
+      ],
       "text": "Careful Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "052e4b77c56ae25dc45ad32e09ffaeb52356becf16fe2915de53f5e10e08be94",
-      "text": "Careful Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a855a1a2f343baac9e48d37153e8aeb3b80cb1832355116bc62c58117485bd4",
-      "text": "Careful, Mirage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_can_heal_pocket.mp3",
   "revisions": [
     {
-      "sha256": "58db7c93903126b553ee0952707aea62c8139241b7b8774a68f6d4c9c3272ddb",
-      "text": "Pocket, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0eef211fcfb66ee3b2e4b49d54d30f3ac588d2a3088b46740740e55961f75c0a",
+      "sha256": [
+        "0eef211fcfb66ee3b2e4b49d54d30f3ac588d2a3088b46740740e55961f75c0a",
+        "58db7c93903126b553ee0952707aea62c8139241b7b8774a68f6d4c9c3272ddb"
+      ],
       "text": "Pocket, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

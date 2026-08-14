@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_slork_01.mp3",
   "revisions": [
     {
-      "sha256": "8234ab43672aaa2a42eb2d5fd0083966c8fb5ad0a3a908b95014d5fd6e54bc75",
-      "text": "I see fathom.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2d02e0917703ff84b0ab7cb5f2682323176abebf6a7c50970f01198c764c9d4",
+      "sha256": [
+        "8234ab43672aaa2a42eb2d5fd0083966c8fb5ad0a3a908b95014d5fd6e54bc75",
+        "f2d02e0917703ff84b0ab7cb5f2682323176abebf6a7c50970f01198c764c9d4"
+      ],
       "text": "I see Fathom.",
       "source": "official"
     }

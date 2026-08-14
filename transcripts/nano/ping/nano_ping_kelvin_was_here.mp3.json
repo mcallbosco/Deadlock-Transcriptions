@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "165260944e04f68505406c97d0b99e60dab612d6c3a704b13befd51656c12e7d",
+      "sha256": [
+        "165260944e04f68505406c97d0b99e60dab612d6c3a704b13befd51656c12e7d"
+      ],
       "text": "Kelvin was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

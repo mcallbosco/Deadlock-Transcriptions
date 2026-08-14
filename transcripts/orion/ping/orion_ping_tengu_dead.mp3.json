@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_tengu_dead.mp3",
   "revisions": [
     {
-      "sha256": "69f372d5d1977f5816065fc441d88c59ed148886fc1f87e374b01fb26e2b2492",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1634e4a255774984089f165286887b4640cbc3791ad381d629e177af5c244e4e",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "840a5c4bdb238dc4163dffbde1b131a3a8786e544bceabae3cd806ee52f56c2f",
+      "sha256": [
+        "1634e4a255774984089f165286887b4640cbc3791ad381d629e177af5c244e4e",
+        "69f372d5d1977f5816065fc441d88c59ed148886fc1f87e374b01fb26e2b2492",
+        "840a5c4bdb238dc4163dffbde1b131a3a8786e544bceabae3cd806ee52f56c2f"
+      ],
       "text": "Ivy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

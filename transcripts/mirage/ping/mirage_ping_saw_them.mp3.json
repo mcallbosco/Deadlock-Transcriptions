@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "cbd9931ade6f365efe1ee1a01baf584c11d9764019197909317bcdeab85260d4",
+      "sha256": [
+        "cbd9931ade6f365efe1ee1a01baf584c11d9764019197909317bcdeab85260d4"
+      ],
       "text": "I saw it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "39bec1a3fcf226bc75315a5d511b3d1e4d65baf12e320601088f35878df792e5",
+      "sha256": [
+        "39bec1a3fcf226bc75315a5d511b3d1e4d65baf12e320601088f35878df792e5",
+        "a211ad617f6d0ef7e1aa97162aab54b5af6e2778dbbcf6ef809d390fcace61f8"
+      ],
       "text": "I shot him!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a211ad617f6d0ef7e1aa97162aab54b5af6e2778dbbcf6ef809d390fcace61f8",
-      "text": "I shot him!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9a6c0e7e8743dd9e6e08ea24a746620b8e6a67cd6801e65c9ed9ad38786cd9d",
+      "sha256": [
+        "b9a6c0e7e8743dd9e6e08ea24a746620b8e6a67cd6801e65c9ed9ad38786cd9d"
+      ],
       "text": "I saw them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

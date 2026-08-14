@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4d596464540b547d968478dd1fd32506a5a7a4906cc740aa4486939e5d42bd74",
-      "text": "Yamato's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9312a5929c4a9c0293199ed7f0ca5a1aaf7a32cb68d4b9e87f69a750637c3f95",
-      "text": "Yamato's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b64c9d27143f63156f83fd5bbb71ca56f4a43e6c9fefb5ea966ee8905a0dcdb1",
+      "sha256": [
+        "4d596464540b547d968478dd1fd32506a5a7a4906cc740aa4486939e5d42bd74",
+        "9312a5929c4a9c0293199ed7f0ca5a1aaf7a32cb68d4b9e87f69a750637c3f95",
+        "b64c9d27143f63156f83fd5bbb71ca56f4a43e6c9fefb5ea966ee8905a0dcdb1"
+      ],
       "text": "Yamato's missing",
       "source": "official"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "d9754ff3fc290ac0adc9e2b96856abf832ee200124ac352d9acbb42c4aa351ea",
-      "text": "Missing purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "139539d94d37c867c1837c10ae2cd1086ca6da071377c03e207a68962657fe93",
-      "text": "Missing purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d50d96f10da7dbcc9ea023885ba9e0725fd0ad8abd54dfa4b66e755298338a5a",
-      "text": "Missing purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9e0f7b918817c4c155fc5837a4d7c51ffec4fa3879e796496b9432c0a08f827",
+      "sha256": [
+        "139539d94d37c867c1837c10ae2cd1086ca6da071377c03e207a68962657fe93",
+        "b9e0f7b918817c4c155fc5837a4d7c51ffec4fa3879e796496b9432c0a08f827",
+        "d50d96f10da7dbcc9ea023885ba9e0725fd0ad8abd54dfa4b66e755298338a5a",
+        "d9754ff3fc290ac0adc9e2b96856abf832ee200124ac352d9acbb42c4aa351ea"
+      ],
       "text": "Missing purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

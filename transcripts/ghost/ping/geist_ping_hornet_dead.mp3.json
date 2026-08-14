@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_hornet_dead.mp3",
   "revisions": [
     {
-      "sha256": "56b0fe277dd5fa89a0021da9cb829fe9bdca6513326f77d46e7ff892fc1cff15",
-      "text": "Vindica is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ef4ba9752203c1f8872493cda9cbba6299ce651a9e76754499e89e607b55103",
+      "sha256": [
+        "56b0fe277dd5fa89a0021da9cb829fe9bdca6513326f77d46e7ff892fc1cff15",
+        "5ef4ba9752203c1f8872493cda9cbba6299ce651a9e76754499e89e607b55103"
+      ],
       "text": "Vindica is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

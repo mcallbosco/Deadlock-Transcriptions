@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_negative_03.mp3",
   "revisions": [
     {
-      "sha256": "b57bcd87eaa5368ce8116624870e82f9b9d2c2c783b6ab163e18ccb3da630e92",
-      "text": "You sure?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c293f52682f0be237e6d1b00d6c4720aadcccab7bc61dd0e268cbb5699bb66ef",
+      "sha256": [
+        "b57bcd87eaa5368ce8116624870e82f9b9d2c2c783b6ab163e18ccb3da630e92",
+        "c293f52682f0be237e6d1b00d6c4720aadcccab7bc61dd0e268cbb5699bb66ef"
+      ],
       "text": "You sure?",
       "source": "official"
     }

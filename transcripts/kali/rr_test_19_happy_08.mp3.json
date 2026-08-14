@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_happy_08.mp3",
   "revisions": [
     {
-      "sha256": "7f8e64ea7eb095b088b72709b4f44a56a4aacc679584a80e161eb3be8382e70e",
-      "text": "That's what I'd like to see.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9620affc5fdcc2b578bb696ad2f05d96cffdc323f0baa23d13bc989d2eeac94",
-      "text": "That's what I'd like to see.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35067042159714344235997261bfceba71793879719151b18aecb020d95b2405",
+      "sha256": [
+        "35067042159714344235997261bfceba71793879719151b18aecb020d95b2405",
+        "7f8e64ea7eb095b088b72709b4f44a56a4aacc679584a80e161eb3be8382e70e",
+        "d9620affc5fdcc2b578bb696ad2f05d96cffdc323f0baa23d13bc989d2eeac94"
+      ],
       "text": "That's what I'd like to see.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

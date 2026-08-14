@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_can_heal_chrono.mp3",
   "revisions": [
     {
-      "sha256": "028fe832f855f4844b6d02286cfd855c89e6ae13d5f06104ad93bf14c7839b40",
+      "sha256": [
+        "028fe832f855f4844b6d02286cfd855c89e6ae13d5f06104ad93bf14c7839b40",
+        "1cc49e2e961dae5da06b7df32583e1ede16cc0f1bc45bf1eb845abd20c57e858"
+      ],
       "text": "Paradox, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1cc49e2e961dae5da06b7df32583e1ede16cc0f1bc45bf1eb845abd20c57e858",
-      "text": "Paradox, I can hear you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37111fa97312e55d87b2f2e7446f436bbbdc65591e642210ddaca0f805bdcd39",
+      "sha256": [
+        "37111fa97312e55d87b2f2e7446f436bbbdc65591e642210ddaca0f805bdcd39"
+      ],
       "text": "Paradox, I can heal you!",
       "source": "official"
     }

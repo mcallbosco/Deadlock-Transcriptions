@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "c14c327b5d2b8b24b70a84d52fa3c29e414788c492ca58cc7b07a652da42fa34",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e684af877d3dff943c79676174f6536f4499d73b1c3176965975e205778a7be",
+      "sha256": [
+        "1e684af877d3dff943c79676174f6536f4499d73b1c3176965975e205778a7be",
+        "c14c327b5d2b8b24b70a84d52fa3c29e414788c492ca58cc7b07a652da42fa34"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

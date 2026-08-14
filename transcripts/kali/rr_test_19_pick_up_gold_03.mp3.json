@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_pick_up_gold_03.mp3",
   "revisions": [
     {
-      "sha256": "85122ed8e332538e73f16277f4d7cd2ee3b6b370db7d4c2bed67e07a2dfab1ac",
+      "sha256": [
+        "85122ed8e332538e73f16277f4d7cd2ee3b6b370db7d4c2bed67e07a2dfab1ac"
+      ],
       "text": "How's your sluggery?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f3ebcdbfdc751888f18fba8b30e88a766de69c95435ff0a8774810d748a2ecfa",
-      "text": "How's this look like?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fe04ddcf571d6203cfe05c8bd0791b7dcb55ada4c62b99dcc827554d530d3ba",
+      "sha256": [
+        "3fe04ddcf571d6203cfe05c8bd0791b7dcb55ada4c62b99dcc827554d530d3ba",
+        "f3ebcdbfdc751888f18fba8b30e88a766de69c95435ff0a8774810d748a2ecfa"
+      ],
       "text": "How's this look like?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

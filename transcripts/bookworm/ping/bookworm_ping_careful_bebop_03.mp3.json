@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_bebop_03.mp3",
   "revisions": [
     {
-      "sha256": "1c4b092564ecdb9ffe4886040bc296ed3367fb5cf370bfa9cb3dd7b6683131f0",
+      "sha256": [
+        "1c4b092564ecdb9ffe4886040bc296ed3367fb5cf370bfa9cb3dd7b6683131f0"
+      ],
       "text": "Capital Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f968ee163104d297032712654eda4ebd014b6b079180a5ceeeecfd76d7ecc71",
+      "sha256": [
+        "1f968ee163104d297032712654eda4ebd014b6b079180a5ceeeecfd76d7ecc71"
+      ],
       "text": "Careful, Bebop!",
       "source": "official"
     }

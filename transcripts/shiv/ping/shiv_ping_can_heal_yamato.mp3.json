@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_can_heal_yamato.mp3",
   "revisions": [
     {
-      "sha256": "bfadb75226ebc33f34ce5c7444e8a2f0a8c091b8cca94cf6aab840f39652fb04",
+      "sha256": [
+        "bfadb75226ebc33f34ce5c7444e8a2f0a8c091b8cca94cf6aab840f39652fb04"
+      ],
       "text": "Gamma, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc612f31aea03aedb3269817cd88d012553a97554bd8745278b96f4b2d43d746",
+      "sha256": [
+        "cc612f31aea03aedb3269817cd88d012553a97554bd8745278b96f4b2d43d746"
+      ],
       "text": "Gammer, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f801d231f81bbda12e491e9207830baaa26f1763233b9437a891a71aadd903a1",
+      "sha256": [
+        "f801d231f81bbda12e491e9207830baaa26f1763233b9437a891a71aadd903a1"
+      ],
       "text": "Yamato, I can heal you!",
       "source": "official"
     }

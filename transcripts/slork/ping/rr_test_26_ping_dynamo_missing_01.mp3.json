@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5bd5da4797f942cebff79a18558c9d5fdb6f012312ff2c8a0f26fbc3c62298ea",
-      "text": "Dynamo was missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2cdb1cf4bd2609e801e194ac9ebdc890491e68e21588347584ab338557fc70b6",
+      "sha256": [
+        "2cdb1cf4bd2609e801e194ac9ebdc890491e68e21588347584ab338557fc70b6",
+        "5bd5da4797f942cebff79a18558c9d5fdb6f012312ff2c8a0f26fbc3c62298ea"
+      ],
       "text": "Dynamo was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

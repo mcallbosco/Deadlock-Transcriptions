@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_sorry_01.mp3",
   "revisions": [
     {
-      "sha256": "dc099cebdbd288062c83e7dc51831357d60c47bc735b62745c1528ecb361ff00",
+      "sha256": [
+        "dc099cebdbd288062c83e7dc51831357d60c47bc735b62745c1528ecb361ff00"
+      ],
       "text": "I'm not mistaken.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8706cab3c37486d22498656cddd56a7f480b98beb1f0ba6e989023fac1cec943",
+      "sha256": [
+        "8706cab3c37486d22498656cddd56a7f480b98beb1f0ba6e989023fac1cec943"
+      ],
       "text": "My mistake",
       "source": "official"
     }

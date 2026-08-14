@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_request_follow.mp3",
   "revisions": [
     {
-      "sha256": "45570c7c40d6bb9577d9ffbd31f6d96132a31e8e281e2f780cead50798b5cfa0",
-      "text": "Come with me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "849453318143caf29bfd6b2843f3c41eda93e11eafc123d9c5cc736d46f30489",
-      "text": "Come with me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13e60b4c5fa1c8f087b88e1ed8ce22ba941029ec9e66c821d59d335c06307e33",
+      "sha256": [
+        "13e60b4c5fa1c8f087b88e1ed8ce22ba941029ec9e66c821d59d335c06307e33",
+        "45570c7c40d6bb9577d9ffbd31f6d96132a31e8e281e2f780cead50798b5cfa0",
+        "849453318143caf29bfd6b2843f3c41eda93e11eafc123d9c5cc736d46f30489"
+      ],
       "text": "Come with me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

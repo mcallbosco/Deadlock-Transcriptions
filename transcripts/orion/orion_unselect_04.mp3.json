@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_unselect_04.mp3",
   "revisions": [
     {
-      "sha256": "992c3231074335ba637aba8d42cb7efd08c39391f9684f4908395e3a5d41c4c4",
-      "text": "I need to investigate some things.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cae37ce3caa3506ff98fc7041e4752d9e02eee16436d42db95bf96cf0e30da0d",
-      "text": "I need to investigate some things.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6377f11e69e2e7ad9b5d10e3f684f0a3f35fb9bbf09e09d484a0c8194f08905c",
-      "text": "I need to investigate some things.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20b295c142475457954df45eebacd8ef5868419efac085e8d34fd0dc47cbe501",
+      "sha256": [
+        "20b295c142475457954df45eebacd8ef5868419efac085e8d34fd0dc47cbe501",
+        "6377f11e69e2e7ad9b5d10e3f684f0a3f35fb9bbf09e09d484a0c8194f08905c",
+        "992c3231074335ba637aba8d42cb7efd08c39391f9684f4908395e3a5d41c4c4",
+        "cae37ce3caa3506ff98fc7041e4752d9e02eee16436d42db95bf96cf0e30da0d"
+      ],
       "text": "I need to investigate some things.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

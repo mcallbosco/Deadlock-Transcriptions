@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_titan_attack_01.mp3",
   "revisions": [
     {
-      "sha256": "50e14bfef3379fb4995021c84d03bc5479c8a9395e6a370246e4e3eb69b90f85",
+      "sha256": [
+        "50e14bfef3379fb4995021c84d03bc5479c8a9395e6a370246e4e3eb69b90f85"
+      ],
       "text": "I'm under attack.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "403f41ea455098a083209ce010e3a37967f1a76a93e9cf14aa69de1279e4739f",
+      "sha256": [
+        "403f41ea455098a083209ce010e3a37967f1a76a93e9cf14aa69de1279e4739f",
+        "d104413044c353b3b61b4fe242279a4a4c914c77f823ef712c132d840402b6af"
+      ],
       "text": "Protect the stronghold!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d104413044c353b3b61b4fe242279a4a4c914c77f823ef712c132d840402b6af",
-      "text": "Protect the stronghold.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "29d61503ef1c66a409ee0f88c755750b64586f5b1615373d108429a000a14d99",
+      "sha256": [
+        "29d61503ef1c66a409ee0f88c755750b64586f5b1615373d108429a000a14d99"
+      ],
       "text": "Defend the stonghold!",
       "source": "official"
     }

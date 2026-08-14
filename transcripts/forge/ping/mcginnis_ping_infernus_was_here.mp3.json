@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_infernus_was_here.mp3",
   "revisions": [
     {
-      "sha256": "82b83da62da0e707980d8608b5d49f46ac3a568088074139f00738e9c0d6b7b9",
-      "text": "The voice is here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6848480196b55d2ec34d607cf4f3f80b16dedd492ddb43bff67cad9660094f0d",
+      "sha256": [
+        "6848480196b55d2ec34d607cf4f3f80b16dedd492ddb43bff67cad9660094f0d",
+        "82b83da62da0e707980d8608b5d49f46ac3a568088074139f00738e9c0d6b7b9"
+      ],
       "text": "The voice is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/guide_controls_shoot.mp3",
   "revisions": [
     {
-      "sha256": "0efae61ea1075aeb0c126363b518b139d9acba2891bfe6ef0c567e757a9a77fd",
+      "sha256": [
+        "0efae61ea1075aeb0c126363b518b139d9acba2891bfe6ef0c567e757a9a77fd"
+      ],
       "text": "Press mouse 1 to shoot. Gun damage falls off at longer ranges.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

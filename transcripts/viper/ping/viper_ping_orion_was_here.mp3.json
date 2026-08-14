@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_orion_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9e683e18901c128ea0fcc404b349670b04f544308613cf90a8b6f3ff48a10ad9",
-      "text": "Grey Talon was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "788f3b6ac33ac1a2dde8a8c8b36a356f11cfd077aab2ae65106a413200f338e5",
-      "text": "Grey Talon was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80296f0f2f0d76af31bc1e1bd0d5ba6e445614f079081f1536ba1dab10ad0a88",
+      "sha256": [
+        "788f3b6ac33ac1a2dde8a8c8b36a356f11cfd077aab2ae65106a413200f338e5",
+        "80296f0f2f0d76af31bc1e1bd0d5ba6e445614f079081f1536ba1dab10ad0a88",
+        "9e683e18901c128ea0fcc404b349670b04f544308613cf90a8b6f3ff48a10ad9"
+      ],
       "text": "Grey Talon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

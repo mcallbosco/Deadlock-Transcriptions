@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_ghost_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "224018e4d33c156da036ed6d0955b2e2aa2c3d7e83bd9da7321fde366dd11f2b",
+      "sha256": [
+        "224018e4d33c156da036ed6d0955b2e2aa2c3d7e83bd9da7321fde366dd11f2b",
+        "9def10b17665c1ec5fc9f3b05be76bdee8aa004d408b805e7d486496a305a2db",
+        "bf369a871515c6e98354a357f6f5acb5735e40420b0ee28c16ef9bd098d5c180"
+      ],
       "text": "Guy's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf369a871515c6e98354a357f6f5acb5735e40420b0ee28c16ef9bd098d5c180",
-      "text": "Guys on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9def10b17665c1ec5fc9f3b05be76bdee8aa004d408b805e7d486496a305a2db",
-      "text": "Guy's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

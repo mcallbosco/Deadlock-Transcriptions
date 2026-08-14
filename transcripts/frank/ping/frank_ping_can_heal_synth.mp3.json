@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_synth.mp3",
   "revisions": [
     {
-      "sha256": "0bca8eff956ce80455a2e676840ca3907855e830a07a107c043e7ce86a99fb3e",
+      "sha256": [
+        "0bca8eff956ce80455a2e676840ca3907855e830a07a107c043e7ce86a99fb3e"
+      ],
       "text": "Fucking, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "31200124af3a5fecc7f213e3b172dd597348debfa203c20bc74fbdfed3081024",
+      "sha256": [
+        "31200124af3a5fecc7f213e3b172dd597348debfa203c20bc74fbdfed3081024"
+      ],
       "text": "Pocket, I can heal you!",
       "source": "official"
     }

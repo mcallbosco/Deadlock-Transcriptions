@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_bebop_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "98fcd3c4382908a01990cea7a4418af0825cd3b54291114805c647c7e1c5a644",
+      "sha256": [
+        "98fcd3c4382908a01990cea7a4418af0825cd3b54291114805c647c7e1c5a644"
+      ],
       "text": "Beebox on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cae07c6f6c4a603c9c332252fb280c880edde867006ded5acd6fd3263bfc6b8e",
+      "sha256": [
+        "cae07c6f6c4a603c9c332252fb280c880edde867006ded5acd6fd3263bfc6b8e"
+      ],
       "text": "Bebop's on top of the garage!",
       "source": "official"
     }

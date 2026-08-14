@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_kill_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "f9e4e501af2bcb7c6b449aae8952b6bfec00dffaecd5781be9dbb048b7ede59c",
+      "sha256": [
+        "7adc86b17fffa716ecf25d3f4af11842e4e61c33052fdab84740fc4f4449ffa0",
+        "f9e4e501af2bcb7c6b449aae8952b6bfec00dffaecd5781be9dbb048b7ede59c"
+      ],
       "text": "Goddammit, Mo. Why you making me do this?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7adc86b17fffa716ecf25d3f4af11842e4e61c33052fdab84740fc4f4449ffa0",
-      "text": "Goddammit, Mo. Why you making me do this?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30a3bfcc8cd305092cefa72dfa4c75f986a914a84840d47f4390d270129da25d",
+      "sha256": [
+        "30a3bfcc8cd305092cefa72dfa4c75f986a914a84840d47f4390d270129da25d"
+      ],
       "text": "Goddman it Mo, why you making me do this",
       "source": "official"
     }

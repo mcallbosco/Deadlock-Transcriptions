@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_saw_krill.mp3",
   "revisions": [
     {
-      "sha256": "b02c95b84da1081f0c10872cf53989d0b241377faae1c371ace2e686ff1f7172",
-      "text": "I saw Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae615a220fc7c9d49c6fff44d4d9a6bb9b7abb1f5734013aca33ebb32ffd08f4",
+      "sha256": [
+        "ae615a220fc7c9d49c6fff44d4d9a6bb9b7abb1f5734013aca33ebb32ffd08f4",
+        "b02c95b84da1081f0c10872cf53989d0b241377faae1c371ace2e686ff1f7172"
+      ],
       "text": "I saw Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "7a3cb0e37df14e50e04874066ee812b34f34f09ffee303e866fda9f257f40911",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7361ca08630192078683ae4c72a4acc8107936adbd4e295657b817d8a93fb3d7",
+      "sha256": [
+        "7361ca08630192078683ae4c72a4acc8107936adbd4e295657b817d8a93fb3d7",
+        "7a3cb0e37df14e50e04874066ee812b34f34f09ffee303e866fda9f257f40911"
+      ],
       "text": "Do you have a heal?",
       "source": "official"
     }

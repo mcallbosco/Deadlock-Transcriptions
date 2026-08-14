@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_can_heal_yamato.mp3",
   "revisions": [
     {
-      "sha256": "c76fcf13651f03cd6d95c34963660b067ec623f47786dfad22b1be9ae187f88c",
-      "text": "Yamato, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc98002eb155e4cc62f0cf22a166170aec97e6bf9acaba27e186d16b8fdb4b3b",
-      "text": "Yamato, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38a4e580515109596a18e0dbd203048dec1b01dd6889a1e86ff3d1da2f361e99",
-      "text": "Yamato, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a69d60209e02c45e7af51b4038226b6742af5a24b0fa7e867da7da66b45b8905",
+      "sha256": [
+        "38a4e580515109596a18e0dbd203048dec1b01dd6889a1e86ff3d1da2f361e99",
+        "a69d60209e02c45e7af51b4038226b6742af5a24b0fa7e867da7da66b45b8905",
+        "bc98002eb155e4cc62f0cf22a166170aec97e6bf9acaba27e186d16b8fdb4b3b",
+        "c76fcf13651f03cd6d95c34963660b067ec623f47786dfad22b1be9ae187f88c"
+      ],
       "text": "Yamato, I can heal you!",
       "source": "official"
     }

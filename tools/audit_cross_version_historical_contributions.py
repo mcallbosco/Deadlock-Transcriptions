@@ -31,6 +31,7 @@ from audit_legacy_contributions import (
     safe_output_path,
     valid_sha256,
 )
+from transcript_schema import revisions_for_hash
 
 
 REPORT_SCHEMA_VERSION = 1
@@ -204,11 +205,7 @@ def classify_records(
         exact_matches: list[dict[str, Any]] = []
         missing_revisions: list[str] = []
         for sha256, occurrences in hashes.items():
-            revisions = [
-                revision
-                for revision in document.get("revisions", [])
-                if revision.get("sha256") == sha256
-            ]
+            revisions = revisions_for_hash(document, sha256)
             if not revisions:
                 missing_revisions.append(sha256)
                 continue
@@ -279,11 +276,7 @@ def classify_records(
             result["status"] = "current_target_missing"
             results.append(result)
             continue
-        current = [
-            revision
-            for revision in current_document.get("revisions", [])
-            if revision.get("sha256") == selected["sha256"]
-        ]
+        current = revisions_for_hash(current_document, selected["sha256"])
         if len(current) != 1:
             result["status"] = "current_revision_missing_or_duplicate"
             results.append(result)

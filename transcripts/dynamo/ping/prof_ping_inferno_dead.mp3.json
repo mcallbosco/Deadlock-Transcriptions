@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_inferno_dead.mp3",
   "revisions": [
     {
-      "sha256": "0bc4ee364aaad6cfd4b03e8e639ac108771e7ac7c4699d95a44d5559955bda28",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c79fca78b4162820ef3ef99edec65b58fe8a00c08b7c6ee15580398c2b6c6576",
+      "sha256": [
+        "0bc4ee364aaad6cfd4b03e8e639ac108771e7ac7c4699d95a44d5559955bda28",
+        "c79fca78b4162820ef3ef99edec65b58fe8a00c08b7c6ee15580398c2b6c6576"
+      ],
       "text": "Infernus is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

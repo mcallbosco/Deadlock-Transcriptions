@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "38e0cb9342291ac2df0072c7670e8afcbdd5c3b3893100db3c2c4640a1254f8b",
+      "sha256": [
+        "38e0cb9342291ac2df0072c7670e8afcbdd5c3b3893100db3c2c4640a1254f8b"
+      ],
       "text": "Ship was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8e3f400618c1e20ab42ce205b5a68a733414bada769c143016704c2215e7a05a",
-      "text": "Ship is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59caa04aa3808477c9ba3454c93af9ab30765fa4bafb0f8504cee640854639a4",
+      "sha256": [
+        "59caa04aa3808477c9ba3454c93af9ab30765fa4bafb0f8504cee640854639a4",
+        "8e3f400618c1e20ab42ce205b5a68a733414bada769c143016704c2215e7a05a"
+      ],
       "text": "Ship is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

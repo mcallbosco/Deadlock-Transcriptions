@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power2_08.mp3",
   "revisions": [
     {
-      "sha256": "305941fddc1fbfaf19dead28bd2620840f96454812e130e6f444c8407a1b2823",
-      "text": "I'll melt your armor!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9822be76bd65aa8dfe81fa977fb844970fe56260f74b30d130697fda975251d",
-      "text": "I'll melt your armor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e732a998e3a0ddc937fe50dd5a370035488e0607df50017ed503c7721f0f51c0",
+      "sha256": [
+        "305941fddc1fbfaf19dead28bd2620840f96454812e130e6f444c8407a1b2823",
+        "c9822be76bd65aa8dfe81fa977fb844970fe56260f74b30d130697fda975251d",
+        "e732a998e3a0ddc937fe50dd5a370035488e0607df50017ed503c7721f0f51c0"
+      ],
       "text": "I'll melt your armor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

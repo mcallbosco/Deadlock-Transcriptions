@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_ally_yamato_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "4f3cc96eb42c96a0d726b312d252d3ba21c6014159321a744e2f28e070b25410",
+      "sha256": [
+        "4f3cc96eb42c96a0d726b312d252d3ba21c6014159321a744e2f28e070b25410"
+      ],
       "text": "Take out Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5365ad544942cdfe62d076f7d1442407953a76d0802ea771616daff253a607fa",
+      "sha256": [
+        "5365ad544942cdfe62d076f7d1442407953a76d0802ea771616daff253a607fa"
+      ],
       "text": "They took out Yamato!",
       "source": "official"
     }

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "76a5ae4171f3ef9255466ed177da7ca1c9e4011531c082e84e0fcfc7a8ff5f2e",
+      "sha256": [
+        "76a5ae4171f3ef9255466ed177da7ca1c9e4011531c082e84e0fcfc7a8ff5f2e"
+      ],
       "text": "What is that?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c199731ea14b5d29f4f77af42810bd1e40bb4cd670290a85dde92ee6e3ebcd5e",
+      "sha256": [
+        "75d494cae2b4b29ff3f89721c585dd5938b74e4047657262a1c46ba43b72ed78",
+        "c199731ea14b5d29f4f77af42810bd1e40bb4cd670290a85dde92ee6e3ebcd5e"
+      ],
       "text": "Lock it down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "75d494cae2b4b29ff3f89721c585dd5938b74e4047657262a1c46ba43b72ed78",
-      "text": "Lock it down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f998f68a517683b3d3d174eff8f096781cabd178ad055b1f6c921ff56291c147",
+      "sha256": [
+        "f998f68a517683b3d3d174eff8f096781cabd178ad055b1f6c921ff56291c147"
+      ],
       "text": "Warden's down.",
       "source": "official"
     }

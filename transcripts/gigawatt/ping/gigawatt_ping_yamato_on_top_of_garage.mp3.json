@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_yamato_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "b2acf3527474d682063660ed1e952c7a0896724c2a13895b5a50e44d5edb92b5",
+      "sha256": [
+        "b2acf3527474d682063660ed1e952c7a0896724c2a13895b5a50e44d5edb92b5"
+      ],
       "text": "Your mother left off at the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3102fa784cee84a8563890ea26aae0c449de9b9ae72db11191f52bda6b5b031d",
+      "sha256": [
+        "3102fa784cee84a8563890ea26aae0c449de9b9ae72db11191f52bda6b5b031d",
+        "6fd6de487bc32c5632f484c18013ac23a2b22855dcda8a40ae488aa6a61da53c"
+      ],
       "text": "You have a drone on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6fd6de487bc32c5632f484c18013ac23a2b22855dcda8a40ae488aa6a61da53c",
-      "text": "You have a drone on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e627afb00cba14436339e00acf9c0b7df4b115792027b8daeabb3c2d18dc47cd",
+      "sha256": [
+        "e627afb00cba14436339e00acf9c0b7df4b115792027b8daeabb3c2d18dc47cd"
+      ],
       "text": "Yamato's on top of the garage!",
       "source": "official"
     }

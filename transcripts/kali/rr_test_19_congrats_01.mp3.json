@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "5f068b54f597f000b16e306258b7c4234df5b76856f8392b2d5d3f47751f9ea7",
-      "text": "All right.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e08d04afec892cdcfb61809d1ed83dbca5e0a00f8af8672dcbe0e476e7731697",
-      "text": "All right.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba9f6d864af2d85b2811f079e11611fb577de4c91bfe7eff7f66ac367befbc09",
+      "sha256": [
+        "5f068b54f597f000b16e306258b7c4234df5b76856f8392b2d5d3f47751f9ea7",
+        "ba9f6d864af2d85b2811f079e11611fb577de4c91bfe7eff7f66ac367befbc09",
+        "e08d04afec892cdcfb61809d1ed83dbca5e0a00f8af8672dcbe0e476e7731697"
+      ],
       "text": "All right.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

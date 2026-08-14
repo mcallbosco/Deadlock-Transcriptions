@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "2ef534e5d5bf0a3b704d39e0b2bbe4e9a062dcbe87de5c2c7da50f5941e9d6b8",
-      "text": "Good game!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01e744dca9ef214d99eaf061ddade791795d5f8dacf24f26bb811b99851e32a4",
+      "sha256": [
+        "01e744dca9ef214d99eaf061ddade791795d5f8dacf24f26bb811b99851e32a4",
+        "2ef534e5d5bf0a3b704d39e0b2bbe4e9a062dcbe87de5c2c7da50f5941e9d6b8"
+      ],
       "text": "Good game",
       "source": "official"
     }

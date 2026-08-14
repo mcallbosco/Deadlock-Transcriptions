@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_wraith.mp3",
   "revisions": [
     {
-      "sha256": "7b88a3ab1a6a6c5d0119730ae7981c792add6a92ebd36ab2dc57e658634374ae",
-      "text": "Well done, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3ec3ea960ca808a65a57546f9ef46f92653faf53bc0af5141285bb63458e08df",
+        "7b88a3ab1a6a6c5d0119730ae7981c792add6a92ebd36ab2dc57e658634374ae"
+      ],
+      "text": "Well done Wraith",
+      "source": "official"
     },
     {
-      "sha256": "d9741524027215cc245096b5f64d0e2ddaf705794dac300dd11baf89af5efae1",
+      "sha256": [
+        "d9741524027215cc245096b5f64d0e2ddaf705794dac300dd11baf89af5efae1"
+      ],
       "text": "Well done, Raze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ec3ea960ca808a65a57546f9ef46f92653faf53bc0af5141285bb63458e08df",
-      "text": "Well done Wraith",
-      "source": "official"
     }
   ]
 }

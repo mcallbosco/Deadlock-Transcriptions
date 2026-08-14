@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_t1_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "5e98762f7249a158bda8f33cea6fba83fd482c4f6f6c5da0b194c56bfb5779d5",
+      "sha256": [
+        "10f4e490e55636b2462e167269b3c83ddcc940099ab4169ee3aa2db947e63126",
+        "5e98762f7249a158bda8f33cea6fba83fd482c4f6f6c5da0b194c56bfb5779d5"
+      ],
       "text": "They're taking our Tier 1.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "10f4e490e55636b2462e167269b3c83ddcc940099ab4169ee3aa2db947e63126",
-      "text": "They're taking our Tier 1!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

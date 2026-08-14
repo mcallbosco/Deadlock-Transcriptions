@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "354a50d2a6623286ffcc9253da6950f41054a10d9715f187651dd6aab2be386f",
+      "sha256": [
+        "354a50d2a6623286ffcc9253da6950f41054a10d9715f187651dd6aab2be386f"
+      ],
       "text": "Yamato was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_many_assists_by_atlas.mp3",
   "revisions": [
     {
-      "sha256": "1bc9ef0da6bdb535501c5a765aff87fd8db9ca4ab6f960e4c945f597725f4be2",
+      "sha256": [
+        "076635f7bb4553b50bbef3e93930bf5d1e1b99f91472e01d7166e3c310a88279",
+        "1bc9ef0da6bdb535501c5a765aff87fd8db9ca4ab6f960e4c945f597725f4be2"
+      ],
       "text": "The detective has been making opportunities for us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "076635f7bb4553b50bbef3e93930bf5d1e1b99f91472e01d7166e3c310a88279",
-      "text": "The detective has been making opportunities for us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "909caa012bf284a13d82a3138e15bfd5950a8447f9e239d7ad9ba3622e57c47a",
+      "sha256": [
+        "909caa012bf284a13d82a3138e15bfd5950a8447f9e239d7ad9ba3622e57c47a"
+      ],
       "text": "The Detective has been making opportunites for us…",
       "source": "official"
     }

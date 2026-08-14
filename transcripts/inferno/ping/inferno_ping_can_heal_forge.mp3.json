@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_can_heal_forge.mp3",
   "revisions": [
     {
-      "sha256": "9d0c527f977283ce7c997ca6964f69bffe8917c57c3f54b30f7c986e7444102e",
+      "sha256": [
+        "08d8f503ecb1ae242a5b4ee9a2452bb26a28b3940b13352acca0928f881590de",
+        "9d0c527f977283ce7c997ca6964f69bffe8917c57c3f54b30f7c986e7444102e"
+      ],
       "text": "Forge, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "08d8f503ecb1ae242a5b4ee9a2452bb26a28b3940b13352acca0928f881590de",
-      "text": "Forge, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09454a4cd5f20c82cc246190f8692261d2b86f63cce83eb5c2f6d4c9e6064c7a",
+      "sha256": [
+        "09454a4cd5f20c82cc246190f8692261d2b86f63cce83eb5c2f6d4c9e6064c7a"
+      ],
       "text": "McGinnis, I can heal you!",
       "source": "official"
     }

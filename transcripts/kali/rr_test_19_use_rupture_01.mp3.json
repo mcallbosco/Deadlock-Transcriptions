@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_rupture_01.mp3",
   "revisions": [
     {
-      "sha256": "138892d4beeb798972017b015b906eeec4ed73bf56384508fa020afa80db2ee6",
+      "sha256": [
+        "138892d4beeb798972017b015b906eeec4ed73bf56384508fa020afa80db2ee6"
+      ],
       "text": "I am Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f801283b938e7d746c4a2f515ab5b69999c6349828775be5f24fadff4a0fdfe0",
+      "sha256": [
+        "f801283b938e7d746c4a2f515ab5b69999c6349828775be5f24fadff4a0fdfe0"
+      ],
       "text": "context: ###\nTranscribe this Deadlock voice line in English exactly. Preserve all spoken words. Do not add commentary or quotation marks. The following JSON contains authoritative Deadlock spellings, terminology, and transcription guidelines. Follow it when applicable: {\"Characters\":[\"Holliday\",\"Shelly Fisher\",\"Geist\",\"Marla\",\"Marlowe\",\"Troubadour\",\"Nashala Dion\",\"Viscous\",\"John Hathorne\",\"Edrick\",\"Captain Murphy\",\"Holliday\",\"Infernus\",\"Kelvin\",\"Abrams\",\"Vindicta\",\"Operative\",\"Bebop\",\"Cadence\",\"Paradox\",\"Dynamo\",\"McGinnis\",\"Lady Geist\",\"Seven\",\"Haze\",\"Krill\",\"Lash\",\"Magician\",\"Mirage\",\"Nano\",\"Grey Talon\",\"Shiv\",\"Slork\",\"Pocket\",\"Ivy\",\"Trapper\",\"Vyper\",\"Viscous\",\"Warden\",\"Wraith\",\"Wrecker\",\"Yamato\",\"Fern\",\"Mina Ha\",\"Doorman\",\"Paige\",\"Rem\",\"Apollo\",\"Graves\",\"Pepper\",\"Silver\",\"Venator\"],\"Groups\":[\"Djinn\"],\"Places\":[\"Ixia\",\"Blackmore\"],\"Abilities\":[\"Ping\"],\"Game Terms\":[\"Mid\",\"Mid-Boss\",\"Gank\",\"Payload\",\"Capture\",\"Control\",\"Escort\"],\"Transcription Guidelines\":[\"Use sentence case for all transcriptions.\",\"Use standard punctuation.\",\"Follow the above spelling for ambiguous names.\",\"Do not include extra whitespace at the beginning or end of transcriptions.\"]}\n###",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "231da5eea4a576db43aeba0a4f091702df6451e6146b2d26edd8ee9945a60b73",
+      "sha256": [
+        "231da5eea4a576db43aeba0a4f091702df6451e6146b2d26edd8ee9945a60b73"
+      ],
       "text": "Stop that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

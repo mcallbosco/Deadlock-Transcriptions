@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_yamato_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "5ad624c035e75a241f24f0e15d24d83f56a7eba1ca3f5a16e394a6aa60ad54ef",
+      "sha256": [
+        "5ad624c035e75a241f24f0e15d24d83f56a7eba1ca3f5a16e394a6aa60ad54ef",
+        "dc89ab5920bac91bdc7d4a7c04e31c3eef51fa9e202396cbf4609e3b7d76f964"
+      ],
       "text": "Yamich has on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "53b5c30b29f023a67ee522f2377daff9a807916207d59f3c3fe071b9941581b4",
+      "sha256": [
+        "53b5c30b29f023a67ee522f2377daff9a807916207d59f3c3fe071b9941581b4"
+      ],
       "text": "The ammunition's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dc89ab5920bac91bdc7d4a7c04e31c3eef51fa9e202396cbf4609e3b7d76f964",
-      "text": "Yamich has on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c246a4f5f322893f087897a90e902d2a5352e484d4705f9686a0660d09ed215e",
+      "sha256": [
+        "c246a4f5f322893f087897a90e902d2a5352e484d4705f9686a0660d09ed215e"
+      ],
       "text": "Yamato's on the roof!",
       "source": "official"
     }

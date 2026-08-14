@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_use_ability_refresher_01.mp3",
   "revisions": [
     {
-      "sha256": "d35b8918cd0fe386239360cf699dbaa7a7e136cdef16487b2c125800b2618f9d",
-      "text": "My mind's refreshed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc924a12b64178c6a7d7eaa415edb6f4cacbbac0ac196ec611df286ff3441dde",
-      "text": "My minds are fresh.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c7750e6b330ebcd764018fa92d282def7a5a053a7093761f14c3914920e35768",
-      "text": "My minds are fresh.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "706dfd2fcdc5681ff176fb90d25b48a0a8924343fc3f5d21bb239117a5626d5d",
+      "sha256": [
+        "706dfd2fcdc5681ff176fb90d25b48a0a8924343fc3f5d21bb239117a5626d5d",
+        "d35b8918cd0fe386239360cf699dbaa7a7e136cdef16487b2c125800b2618f9d"
+      ],
       "text": "My mind's refreshed.",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "c7750e6b330ebcd764018fa92d282def7a5a053a7093761f14c3914920e35768",
+        "fc924a12b64178c6a7d7eaa415edb6f4cacbbac0ac196ec611df286ff3441dde"
+      ],
+      "text": "My minds are fresh.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

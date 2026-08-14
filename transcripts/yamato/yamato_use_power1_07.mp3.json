@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_use_power1_07.mp3",
   "revisions": [
     {
-      "sha256": "70f21e8bcc6d35d5243cba9690f76673c7aaffbf15ab1db6ace5e741af58f0aa",
+      "sha256": [
+        "70f21e8bcc6d35d5243cba9690f76673c7aaffbf15ab1db6ace5e741af58f0aa"
+      ],
       "text": "こっちを見ろ!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "db30f9cce64690c942bdd01f42f62606ec9823cd8490b40308aae59f487e5bb7",
+      "sha256": [
+        "db30f9cce64690c942bdd01f42f62606ec9823cd8490b40308aae59f487e5bb7"
+      ],
       "text": "私を見るがいい。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e418501285fc5e64c9cc83d9b9dab9c777926b4b658ba5691a903a79a7d33fc3",
+      "sha256": [
+        "e418501285fc5e64c9cc83d9b9dab9c777926b4b658ba5691a903a79a7d33fc3"
+      ],
       "text": "Face me!",
       "source": "official"
     }

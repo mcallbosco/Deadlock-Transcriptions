@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "21246bf87f28e5cc757b5a123797dbd9467f672315c2a9c1fe3a4508a95d123b",
+      "sha256": [
+        "21246bf87f28e5cc757b5a123797dbd9467f672315c2a9c1fe3a4508a95d123b"
+      ],
       "text": "I see Calvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "814992dbc0758983fb15be9094f85326c95313a9de75cd3695b2fc45b184573b",
+      "sha256": [
+        "814992dbc0758983fb15be9094f85326c95313a9de75cd3695b2fc45b184573b"
+      ],
       "text": "Race missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "420e7708e754d3543bdfd8bc64d529236813e09fbf44699c41872bf52eb4bbc1",
+      "sha256": [
+        "420e7708e754d3543bdfd8bc64d529236813e09fbf44699c41872bf52eb4bbc1"
+      ],
       "text": "Wraith's missing.",
       "source": "official"
     }

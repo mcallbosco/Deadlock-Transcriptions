@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_thank_you_01.mp3",
   "revisions": [
     {
-      "sha256": "6cf5ffdb995c3dcbf408fc81ac1da31569dca4afec9e17eef5035add01d5594f",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "937e366e62bb480f9001a376b0ebfe017ec0900153ffd0a4aa238a512bf5ee9f",
+      "sha256": [
+        "6cf5ffdb995c3dcbf408fc81ac1da31569dca4afec9e17eef5035add01d5594f",
+        "937e366e62bb480f9001a376b0ebfe017ec0900153ffd0a4aa238a512bf5ee9f"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

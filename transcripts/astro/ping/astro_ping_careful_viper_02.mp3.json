@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_careful_viper_02.mp3",
   "revisions": [
     {
-      "sha256": "62e8606682e10f80e5fad0a4ab027d9287dfda18d079c703d85cc245f80c6749",
-      "text": "Careful, Viper!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d42101cda138ba2de069fcede2b90f2b3e7dc00b85fed04a946567bb05e37f2c",
+      "sha256": [
+        "62e8606682e10f80e5fad0a4ab027d9287dfda18d079c703d85cc245f80c6749",
+        "d42101cda138ba2de069fcede2b90f2b3e7dc00b85fed04a946567bb05e37f2c"
+      ],
       "text": "Careful, Viper.",
       "source": "official"
     }

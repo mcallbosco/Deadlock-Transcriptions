@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_driller_01.mp3",
   "revisions": [
     {
-      "sha256": "67484ce23219e143f8570453b9c0637455beca9ec87b9922fe69665846cd966d",
-      "text": "Careful driller.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3bc91a61ce61d8642cc70cd687450c5b079a8d85f7f5014c622cd87e0bba02b4",
-      "text": "Careful, Driller.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ed9aecfbc4a59d6193a5b0f2d89dbe94224c32ddd1023bd5368c923b8a0af53",
+      "sha256": [
+        "3bc91a61ce61d8642cc70cd687450c5b079a8d85f7f5014c622cd87e0bba02b4",
+        "67484ce23219e143f8570453b9c0637455beca9ec87b9922fe69665846cd966d",
+        "9ed9aecfbc4a59d6193a5b0f2d89dbe94224c32ddd1023bd5368c923b8a0af53"
+      ],
       "text": "Careful, Driller.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

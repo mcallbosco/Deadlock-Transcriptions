@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_lash.mp3",
   "revisions": [
     {
-      "sha256": "fd2df352d17c361c598273728c997e90c43f32b60e543b3ba0150733a4af59f0",
-      "text": "I see less.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b723d95fd8c888135ebe9ff7fe12485b660128fd51e4da289f67407e974f6be",
+      "sha256": [
+        "4b723d95fd8c888135ebe9ff7fe12485b660128fd51e4da289f67407e974f6be",
+        "fd2df352d17c361c598273728c997e90c43f32b60e543b3ba0150733a4af59f0"
+      ],
       "text": "I see less.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

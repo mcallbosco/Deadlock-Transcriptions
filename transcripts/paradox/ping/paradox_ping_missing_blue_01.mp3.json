@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "b35f31ee57d2251afe1ce99e35f3b35c444dd26d95de915fa6f5837551c5f473",
+      "sha256": [
+        "8c66e53e7c0156cd3a95357dc6466ff6814eceac1c7869f26f7348f7c8d6033e",
+        "b35f31ee57d2251afe1ce99e35f3b35c444dd26d95de915fa6f5837551c5f473"
+      ],
       "text": "Missing blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c66e53e7c0156cd3a95357dc6466ff6814eceac1c7869f26f7348f7c8d6033e",
-      "text": "Missing blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

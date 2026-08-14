@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_ignore_unicorn.mp3",
   "revisions": [
     {
-      "sha256": "85233925f4828e69a79a395c267a15c5620f44f6f31e43d45079c593c04d76c8",
+      "sha256": [
+        "85233925f4828e69a79a395c267a15c5620f44f6f31e43d45079c593c04d76c8"
+      ],
       "text": "Ignore the less.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

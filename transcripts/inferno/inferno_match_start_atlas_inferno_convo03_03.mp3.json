@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_match_start_atlas_inferno_convo03_03.mp3",
   "revisions": [
     {
-      "sha256": "c74a8f0652e8a540699c539ea5be507367f043199d285c411e0122a5ee2e366d",
+      "sha256": [
+        "c74a8f0652e8a540699c539ea5be507367f043199d285c411e0122a5ee2e366d",
+        "f62c2be1dd3316c96192303afffc14ab60a37ba5fda5dbca7380b0e8709df630"
+      ],
       "text": "Are you okay?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f62c2be1dd3316c96192303afffc14ab60a37ba5fda5dbca7380b0e8709df630",
-      "text": "Are you okay?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03a53babaacaf2ab6598d9e53240d61f20b40163f06009d122c478d83268ee19",
+      "sha256": [
+        "03a53babaacaf2ab6598d9e53240d61f20b40163f06009d122c478d83268ee19"
+      ],
       "text": "You ok?",
       "source": "official"
     }

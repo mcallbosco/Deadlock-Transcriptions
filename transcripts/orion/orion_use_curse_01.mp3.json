@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_use_curse_01.mp3",
   "revisions": [
     {
-      "sha256": "32dce705faf8929ee6cc6c84fd02449be67a3cde50797b0e7de44f94ff54baef",
-      "text": "Curse.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce12eb2e03cc8e2c0a518e13243b4c54fe66b393f5e9289feaea6468b75d0e96",
-      "text": "Curse!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f1cb068e01f31a7b1a70e153f84e8aac14e37b53c7516ff18fd529e8f03be83b",
+      "sha256": [
+        "32dce705faf8929ee6cc6c84fd02449be67a3cde50797b0e7de44f94ff54baef",
+        "ce12eb2e03cc8e2c0a518e13243b4c54fe66b393f5e9289feaea6468b75d0e96",
+        "f1cb068e01f31a7b1a70e153f84e8aac14e37b53c7516ff18fd529e8f03be83b"
+      ],
       "text": "Curse!",
       "source": "official"
     }

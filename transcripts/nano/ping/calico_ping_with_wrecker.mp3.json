@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_with_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "d253e869392e708113a1a073c307ea39dc8fcf930dab9dc747702a32299c6475",
-      "text": "I'm with you, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c15dc6ed547054b6552b387eb4a00cda35036df5b56b477a981166b7fff2ba35",
+      "sha256": [
+        "c15dc6ed547054b6552b387eb4a00cda35036df5b56b477a981166b7fff2ba35",
+        "d253e869392e708113a1a073c307ea39dc8fcf930dab9dc747702a32299c6475"
+      ],
       "text": "I'm with you, Wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

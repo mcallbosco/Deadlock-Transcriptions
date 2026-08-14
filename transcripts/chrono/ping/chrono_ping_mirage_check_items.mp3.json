@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_mirage_check_items.mp3",
   "revisions": [
     {
-      "sha256": "6d1f79f7400a00940ac87aa9da3558f1a18f23d8f6ffb6e1a13dda0fe6825787",
+      "sha256": [
+        "32e9940b3239fef10dc326efc9fb8e46ae0cf8ce8e22affb35c5026e00004195",
+        "6d1f79f7400a00940ac87aa9da3558f1a18f23d8f6ffb6e1a13dda0fe6825787"
+      ],
       "text": "Check out what Mirage bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32e9940b3239fef10dc326efc9fb8e46ae0cf8ce8e22affb35c5026e00004195",
-      "text": "Check out what Mirage bought!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

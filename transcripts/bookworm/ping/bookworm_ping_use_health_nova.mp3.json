@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_use_health_nova.mp3",
   "revisions": [
     {
-      "sha256": "36ae407bec377032afe4a619fc97d1f1736c70af9d56800d34d4b433328ceb99",
-      "text": "Ready to use health nova!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bcbcdd5441b1fe05e0da3843650c8d9ca19062c590a2a422d0c082e17555d538",
+      "sha256": [
+        "36ae407bec377032afe4a619fc97d1f1736c70af9d56800d34d4b433328ceb99",
+        "bcbcdd5441b1fe05e0da3843650c8d9ca19062c590a2a422d0c082e17555d538"
+      ],
       "text": "Ready to use Health Nova.",
       "source": "official"
     }

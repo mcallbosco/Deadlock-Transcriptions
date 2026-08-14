@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_mcginnis_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "8f3902167fa19a8c786ed9eac573b30957c8bd25c8ba9fc7c73b034fae019746",
-      "text": "McGinnis is in mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3046402a013168674311de9a73c8e8c05b12cb0138f8eeceeb55eff17c5342f0",
+      "sha256": [
+        "3046402a013168674311de9a73c8e8c05b12cb0138f8eeceeb55eff17c5342f0",
+        "8f3902167fa19a8c786ed9eac573b30957c8bd25c8ba9fc7c73b034fae019746"
+      ],
       "text": "McGinnis is in mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

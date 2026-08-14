@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "985c579ae7c367eb13292d0feb457f3dbdc257619f75233f21ad79adb01f0697",
+      "sha256": [
+        "6471c48947945626aca4cbe18df0cba7fbbe73b03270007f58a30f7b37a41bac",
+        "985c579ae7c367eb13292d0feb457f3dbdc257619f75233f21ad79adb01f0697"
+      ],
       "text": "Headed to green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6471c48947945626aca4cbe18df0cba7fbbe73b03270007f58a30f7b37a41bac",
-      "text": "Headed to green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

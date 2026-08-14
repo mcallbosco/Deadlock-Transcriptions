@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_anyhero_06.mp3",
   "revisions": [
     {
-      "sha256": "4823b0391eec3a48f0fc98c06c56f5737bd6270496ecc8ea59033d4eecbb46da",
-      "text": "Take a nap, kid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa8d05b784ae2c6aaa78e719e2b067d8c99fcf7d1fd1710904c0047ce8e8cdd3",
-      "text": "Take a nap, kid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4c9d805d2b8139bbb61e6fb114b10db4e5ff66f0d4ca4db14eafe86cb789375",
+      "sha256": [
+        "4823b0391eec3a48f0fc98c06c56f5737bd6270496ecc8ea59033d4eecbb46da",
+        "e4c9d805d2b8139bbb61e6fb114b10db4e5ff66f0d4ca4db14eafe86cb789375",
+        "fa8d05b784ae2c6aaa78e719e2b067d8c99fcf7d1fd1710904c0047ce8e8cdd3"
+      ],
       "text": "Take a nap, kid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

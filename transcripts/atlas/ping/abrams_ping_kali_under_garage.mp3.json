@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_kali_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "f1ec39d673cb3e6619a207455b49f793dd2915350e84dbcd3cd419ef5378867a",
-      "text": "Carly's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0922931bd7129e414ccd5f52e87e36229f91fa2c851e752d5c4df45364454536",
+      "sha256": [
+        "0922931bd7129e414ccd5f52e87e36229f91fa2c851e752d5c4df45364454536",
+        "f1ec39d673cb3e6619a207455b49f793dd2915350e84dbcd3cd419ef5378867a"
+      ],
       "text": "Carly's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

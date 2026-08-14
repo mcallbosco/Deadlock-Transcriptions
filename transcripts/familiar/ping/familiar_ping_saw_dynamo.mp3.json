@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "186b9dfca8dc478474ef350c1b222b4a844ac0d630cb71d64eec4bb60513a521",
+      "sha256": [
+        "186b9dfca8dc478474ef350c1b222b4a844ac0d630cb71d64eec4bb60513a521"
+      ],
       "text": "Stop Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

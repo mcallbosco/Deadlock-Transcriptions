@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_can_heal_frank.mp3",
   "revisions": [
     {
-      "sha256": "81731d3ababfde7b2e0512f169d805778776b59f49469f5e802cde765e8cf84d",
+      "sha256": [
+        "81731d3ababfde7b2e0512f169d805778776b59f49469f5e802cde765e8cf84d"
+      ],
       "text": "Victor, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

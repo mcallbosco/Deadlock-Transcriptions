@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_refresher_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "e77493e40993e538cb75e50055c2f70ade384360d4891426cfc6eb983dab13fe",
-      "text": "Refreshers on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "be5b1da5c1c37d7ea9f06c4a42288edb4d68a8e09934d025569cc9bc7797ff40",
+        "e77493e40993e538cb75e50055c2f70ade384360d4891426cfc6eb983dab13fe"
+      ],
+      "text": "Refresher's on cooldown",
+      "source": "official"
     },
     {
-      "sha256": "f3d22275452d6c2c60a334ac22c65ef3f2adcbf059b4989dc8f9f390172b13b8",
+      "sha256": [
+        "f3d22275452d6c2c60a334ac22c65ef3f2adcbf059b4989dc8f9f390172b13b8"
+      ],
       "text": "Refresh is on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be5b1da5c1c37d7ea9f06c4a42288edb4d68a8e09934d025569cc9bc7797ff40",
-      "text": "Refresher's on cooldown",
-      "source": "official"
     }
   ]
 }

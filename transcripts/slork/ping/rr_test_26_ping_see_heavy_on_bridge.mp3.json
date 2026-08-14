@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_heavy_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "7d39a418df6d3a11d277ca81d2ff0703cb9655ef1a2ccf7f1b979e75535bcb15",
-      "text": "Heavy's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "386ad0bc1e4466d6b097b8aab92c64a38307ae7491e6f9da22a145c046363f4a",
+      "sha256": [
+        "386ad0bc1e4466d6b097b8aab92c64a38307ae7491e6f9da22a145c046363f4a",
+        "7d39a418df6d3a11d277ca81d2ff0703cb9655ef1a2ccf7f1b979e75535bcb15"
+      ],
       "text": "Heavy's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_select_01.mp3",
   "revisions": [
     {
-      "sha256": "0d871727f063d390a2f09067aa557727639433fc7115d2258d1c2a29e2d32e1d",
+      "sha256": [
+        "0d871727f063d390a2f09067aa557727639433fc7115d2258d1c2a29e2d32e1d"
+      ],
       "text": "You thought the bodega guy was a good temp voice, wait till you hear me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6ef296e52a111f0769f88bcbbf588131b205935ef5f063c8a3210a4733cfcc6c",
+      "sha256": [
+        "6ef296e52a111f0769f88bcbbf588131b205935ef5f063c8a3210a4733cfcc6c"
+      ],
       "text": "I'm excited! Okay, that's a lie, I'm really nervous.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

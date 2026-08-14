@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_shiv_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "c396e62ec2484d9606d17c1b5ca58034edb699af70e357530c35bd410de60e59",
-      "text": "She was under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d68d450c9a4502dfac94ce87699902e3377f13454e925c24bfd371143d81541f",
+      "sha256": [
+        "c396e62ec2484d9606d17c1b5ca58034edb699af70e357530c35bd410de60e59",
+        "d68d450c9a4502dfac94ce87699902e3377f13454e925c24bfd371143d81541f"
+      ],
       "text": "She was under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "9c4ea1631722e250da9fdeb7e0df633059947019261bc60815a5a283a291f6d4",
+      "sha256": [
+        "539a15fa8331b710927c050e7bc8c35f8a4ab8a1def4942501487c1de4d44945",
+        "9c4ea1631722e250da9fdeb7e0df633059947019261bc60815a5a283a291f6d4"
+      ],
       "text": "Yamato is dead!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "539a15fa8331b710927c050e7bc8c35f8a4ab8a1def4942501487c1de4d44945",
-      "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

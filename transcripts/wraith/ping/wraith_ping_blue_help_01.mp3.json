@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_blue_help_01.mp3",
   "revisions": [
     {
-      "sha256": "8e65f71dc55c14ad78fbe6e69dadccbaaf82f9c89111d59b8f7760ee78d3f7ab",
-      "text": "Blue needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64c8eab79790086f91c3f43131a499d5dccc0830663765ea5e2c48c524946f37",
-      "text": "Who needs help?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a36a94f31f5c99a8e8b46f12a2631e930eec234ae2c0e5beb2f8a318d007b871",
-      "text": "Who needs help?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b6279a4a6053fcb3e9d3a1fc2a8beb26e973aee8c8335012d1cb46d3cb1dbb3",
+      "sha256": [
+        "6b6279a4a6053fcb3e9d3a1fc2a8beb26e973aee8c8335012d1cb46d3cb1dbb3",
+        "8e65f71dc55c14ad78fbe6e69dadccbaaf82f9c89111d59b8f7760ee78d3f7ab"
+      ],
       "text": "Blue needs help!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "64c8eab79790086f91c3f43131a499d5dccc0830663765ea5e2c48c524946f37",
+        "a36a94f31f5c99a8e8b46f12a2631e930eec234ae2c0e5beb2f8a318d007b871"
+      ],
+      "text": "Who needs help?",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

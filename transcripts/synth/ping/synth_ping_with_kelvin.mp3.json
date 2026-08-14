@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "6e149de5f57266199fdcf8b59309ef589c0609ae5bb1ef5612bbd1a7e7a611ca",
+      "sha256": [
+        "6e149de5f57266199fdcf8b59309ef589c0609ae5bb1ef5612bbd1a7e7a611ca"
+      ],
       "text": "I'm with you, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_siphon_01.mp3",
   "revisions": [
     {
-      "sha256": "3bae57fcf1d6e84eec39ad7aeb658d09e82e6a9ecb4f147ef616a48490659aa1",
+      "sha256": [
+        "3bae57fcf1d6e84eec39ad7aeb658d09e82e6a9ecb4f147ef616a48490659aa1"
+      ],
       "text": "Simon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e8e459319022fa2412be96719df8fb06a7aab58ebd089fe5bec32d968f425894",
-      "text": "Siphon!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "249413ba70a6a80ab46a305f1e1c1b6160e1a27d11d7836fd4bd54e8e0bcda22",
+      "sha256": [
+        "249413ba70a6a80ab46a305f1e1c1b6160e1a27d11d7836fd4bd54e8e0bcda22",
+        "e8e459319022fa2412be96719df8fb06a7aab58ebd089fe5bec32d968f425894"
+      ],
       "text": "Siphon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

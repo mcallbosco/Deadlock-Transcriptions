@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_going_shop_01.mp3",
   "revisions": [
     {
-      "sha256": "e559b4776087c6d69b5fd61458665ff5a8bebbf3a0c8534847f72a951c374a21",
-      "text": "Going to shop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06e6a56feda3d3314eba9fd77bfa19f8588ecdc6f58ab32e11686d64b6f9e3ca",
+      "sha256": [
+        "06e6a56feda3d3314eba9fd77bfa19f8588ecdc6f58ab32e11686d64b6f9e3ca",
+        "e559b4776087c6d69b5fd61458665ff5a8bebbf3a0c8534847f72a951c374a21"
+      ],
       "text": "Going to shop",
       "source": "official"
     }

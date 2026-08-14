@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "de79241483d83b2fe18c79723834ee0050f0b1ad46a441f1550941a4e8196722",
+      "sha256": [
+        "de79241483d83b2fe18c79723834ee0050f0b1ad46a441f1550941a4e8196722"
+      ],
       "text": "Well played!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_see_atlas_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "2a8815ed680ab04e1c8d556798d880232359890cda18b13288ee7b1a5c4fc6ac",
+      "sha256": [
+        "2a8815ed680ab04e1c8d556798d880232359890cda18b13288ee7b1a5c4fc6ac"
+      ],
       "text": "Abrams is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "574a656f0ce61a91cace40c44641970a3ee13f5584f633720bffe8dbfbde1eb2",
+      "sha256": [
+        "574a656f0ce61a91cace40c44641970a3ee13f5584f633720bffe8dbfbde1eb2"
+      ],
       "text": "Abrams's on the roof!",
       "source": "official"
     }

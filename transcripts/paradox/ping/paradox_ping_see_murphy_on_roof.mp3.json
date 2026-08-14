@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_murphy_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "dcb2e24037d706128e16ba12b2b957cf1ba8ba67febea2801efd5121978082ab",
-      "text": "Murphy's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "949b6b16029d5abd08e5eee5f006113f4d9e76ac6567cab61fa1298969445d1d",
+      "sha256": [
+        "949b6b16029d5abd08e5eee5f006113f4d9e76ac6567cab61fa1298969445d1d",
+        "dcb2e24037d706128e16ba12b2b957cf1ba8ba67febea2801efd5121978082ab"
+      ],
       "text": "Murphy's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

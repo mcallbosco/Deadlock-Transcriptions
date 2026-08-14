@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_kali_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6efbd286ddd81177d899f48d70fe43ff3b180fd663482f0e363ae6e46897ebf3",
+      "sha256": [
+        "6efbd286ddd81177d899f48d70fe43ff3b180fd663482f0e363ae6e46897ebf3",
+        "a9bc2cbec796ae5086d114297b25d6dd303e3466b917ca7beac6e0ab97e2412f"
+      ],
       "text": "Callie's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "784795bc9f4fac6f6cad8aee01a9cceec1a29a811945b8e06f7155e7c9f89f9d",
+      "sha256": [
+        "784795bc9f4fac6f6cad8aee01a9cceec1a29a811945b8e06f7155e7c9f89f9d"
+      ],
       "text": "Cali is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9bc2cbec796ae5086d114297b25d6dd303e3466b917ca7beac6e0ab97e2412f",
-      "text": "Callie's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

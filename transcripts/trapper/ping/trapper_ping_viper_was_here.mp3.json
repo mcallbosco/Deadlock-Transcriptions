@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_viper_was_here.mp3",
   "revisions": [
     {
-      "sha256": "db7efbb078de66356220d1e429fa5fc270a07933314baf7c743225695d6a9847",
+      "sha256": [
+        "db7efbb078de66356220d1e429fa5fc270a07933314baf7c743225695d6a9847"
+      ],
       "text": "Viper was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

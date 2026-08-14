@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_warden_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "232caf373db31b7f23436bbf21da18e4b99beef39042d68f600b8ba78332b16b",
+      "sha256": [
+        "0c552ca3fb03d173a36ff497549f03b34dfd07c821ca586f3f471111ecd4e7d9",
+        "232caf373db31b7f23436bbf21da18e4b99beef39042d68f600b8ba78332b16b"
+      ],
       "text": "Warden's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "8e951fa6be12342d5dc1af04b5954bb89d4c08ab57bbf37b11e9f3c857942bbc",
+      "sha256": [
+        "8e951fa6be12342d5dc1af04b5954bb89d4c08ab57bbf37b11e9f3c857942bbc"
+      ],
       "text": "Board is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c552ca3fb03d173a36ff497549f03b34dfd07c821ca586f3f471111ecd4e7d9",
-      "text": "Warden's on the bridge!",
-      "source": "official"
     }
   ]
 }

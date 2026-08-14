@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1c6951850dbe996a85f39602402821c2494c04801528a2239604e5abf899163e",
+      "sha256": [
+        "1c6951850dbe996a85f39602402821c2494c04801528a2239604e5abf899163e"
+      ],
       "text": "What is missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "46aac895c8f467065f38c38751e306efcf9050d2000956110bbf2c79a8fb36ae",
+      "sha256": [
+        "46aac895c8f467065f38c38751e306efcf9050d2000956110bbf2c79a8fb36ae"
+      ],
       "text": "Where is missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

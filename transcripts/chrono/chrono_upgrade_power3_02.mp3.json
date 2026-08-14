@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/chrono_upgrade_power3_02.mp3",
   "revisions": [
     {
-      "sha256": "dc3cc0b74f891d71e68fba19cd396d27e90f4457ec28c86053633d636eb94aad",
-      "text": "Who doesn't love playing with time?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "496cd609a652c671aa0f438c5a63e8e9be745f413e0a9800b260e5971d9993f0",
+      "sha256": [
+        "496cd609a652c671aa0f438c5a63e8e9be745f413e0a9800b260e5971d9993f0",
+        "dc3cc0b74f891d71e68fba19cd396d27e90f4457ec28c86053633d636eb94aad"
+      ],
       "text": "Who doesn't love playing with time…",
       "source": "official"
     }

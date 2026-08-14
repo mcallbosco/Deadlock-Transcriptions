@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_post_game_02.mp3",
   "revisions": [
     {
-      "sha256": "40bf857ed6d58131578140c0ff9c1bb85b136e45fdaec4ba63306fb8b3011c4c",
-      "text": "Nice fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe621f7f93487d635dcd6557a6c3408068b48223f36ff514d988fd3ec3f5a9dc",
-      "text": "Nice fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3177f5658cd8001c3cdc7c7c7e719fc0b6de52516c5ea0f10da926d0529f3f7",
+      "sha256": [
+        "40bf857ed6d58131578140c0ff9c1bb85b136e45fdaec4ba63306fb8b3011c4c",
+        "e3177f5658cd8001c3cdc7c7c7e719fc0b6de52516c5ea0f10da926d0529f3f7",
+        "fe621f7f93487d635dcd6557a6c3408068b48223f36ff514d988fd3ec3f5a9dc"
+      ],
       "text": "Nice fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

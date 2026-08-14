@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "bb98046155126d6fb5c085fb39a115f34ab994489c34c76e47d59cc5bba4e341",
+      "sha256": [
+        "93c291fd1d2e442f8b0e524910d6970560679f162a6562f5a6818e6868e0977f",
+        "bb98046155126d6fb5c085fb39a115f34ab994489c34c76e47d59cc5bba4e341"
+      ],
       "text": "Ah, so this is where you die.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a9ff7f851006c3f474c1c1b0c52a7f583553f713e7a55d41f2fdaa07edfd7fa6",
+      "sha256": [
+        "a9ff7f851006c3f474c1c1b0c52a7f583553f713e7a55d41f2fdaa07edfd7fa6"
+      ],
       "text": "Ah, see, this is where you die.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93c291fd1d2e442f8b0e524910d6970560679f162a6562f5a6818e6868e0977f",
-      "text": "Ah, so this is where you die.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

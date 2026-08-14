@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_lash_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "650a0473ecfcf83558ecea89f5eca40fd9ccb7d902d2674cf9b1df5da1cf963f",
+      "sha256": [
+        "650a0473ecfcf83558ecea89f5eca40fd9ccb7d902d2674cf9b1df5da1cf963f"
+      ],
       "text": "Crash is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "388933eb00aa0b63464efffb7232bf2c7eb36658332280e8fc028eb95d3ec275",
+      "sha256": [
+        "388933eb00aa0b63464efffb7232bf2c7eb36658332280e8fc028eb95d3ec275",
+        "792152f4ed89429e66dcacec85a1219976c5cfdde93ed5270c23e53cc7f70655"
+      ],
       "text": "Flash is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "792152f4ed89429e66dcacec85a1219976c5cfdde93ed5270c23e53cc7f70655",
-      "text": "Flash is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9842cd76b3e3621a5b7c24bfcd45b4dacb4915b6e9342bed8eead5d44f85aa6b",
+      "sha256": [
+        "9842cd76b3e3621a5b7c24bfcd45b4dacb4915b6e9342bed8eead5d44f85aa6b"
+      ],
       "text": "Lash's under the garage!",
       "source": "official"
     }

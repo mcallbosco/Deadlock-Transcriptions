@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_upgrade_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "3e66675df1bb12db593cf7a09912773fcc33a01fa53e8f3cfa0d63cabcb0973c",
-      "text": "Ready to fly.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d001d7290905eaad5966b2db0e396fd0f5829c9f395308bc68935e839c5b903e",
+      "sha256": [
+        "3e66675df1bb12db593cf7a09912773fcc33a01fa53e8f3cfa0d63cabcb0973c",
+        "d001d7290905eaad5966b2db0e396fd0f5829c9f395308bc68935e839c5b903e"
+      ],
       "text": "Ready to fly...",
       "source": "official"
     }

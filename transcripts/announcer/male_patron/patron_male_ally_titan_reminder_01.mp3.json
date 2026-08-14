@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_titan_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "fc0dee1a0c683c3d71aad1f4ada32e10e57f3af27771f34b3357bcbdf474ca79",
+      "sha256": [
+        "fc0dee1a0c683c3d71aad1f4ada32e10e57f3af27771f34b3357bcbdf474ca79"
+      ],
       "text": "You can't damage their patron until the shrines are destroyed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

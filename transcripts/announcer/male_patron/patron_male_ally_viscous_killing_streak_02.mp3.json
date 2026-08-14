@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_viscous_killing_streak_02.mp3",
   "revisions": [
     {
-      "sha256": "18a3a43ca4f1d741d80858d8ed968d738c12fe4568e3238e4f3c1a1e0e5375fc",
+      "sha256": [
+        "18a3a43ca4f1d741d80858d8ed968d738c12fe4568e3238e4f3c1a1e0e5375fc"
+      ],
       "text": "You're unkillable, Viscus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ac19af8cf6df89f8949f69ae1d19b0f20e3cb686a18bb961f0e5ba3b2cffae9",
-      "text": "Very clever, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "4ac19af8cf6df89f8949f69ae1d19b0f20e3cb686a18bb961f0e5ba3b2cffae9",
+        "5d449e08ca29e6ddb3ddd8864a9cbf9648a91c16d94485039c8ed8a5068d3dd4"
+      ],
+      "text": "Very clever viscous",
+      "source": "official"
     },
     {
-      "sha256": "2ccb3c584e4e8112801063f82db9063425eed9d376547ead57c7fb24e6c5aed9",
+      "sha256": [
+        "2ccb3c584e4e8112801063f82db9063425eed9d376547ead57c7fb24e6c5aed9"
+      ],
       "text": "Very clever, Viscus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d449e08ca29e6ddb3ddd8864a9cbf9648a91c16d94485039c8ed8a5068d3dd4",
-      "text": "Very clever viscous",
-      "source": "official"
     }
   ]
 }

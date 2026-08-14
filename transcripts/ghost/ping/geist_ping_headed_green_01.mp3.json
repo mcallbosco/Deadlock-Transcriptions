@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "012fa0e103a0de063a0f41590b884c6847bbac7dceab06fd06ae1f4e6b0bcf71",
-      "text": "Headed to green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f81f58433492788a3a12fb1f42c276bc2f4fc209f0c4469b033f5d055493b0c7",
+      "sha256": [
+        "012fa0e103a0de063a0f41590b884c6847bbac7dceab06fd06ae1f4e6b0bcf71",
+        "f81f58433492788a3a12fb1f42c276bc2f4fc209f0c4469b033f5d055493b0c7"
+      ],
       "text": "Headed to green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

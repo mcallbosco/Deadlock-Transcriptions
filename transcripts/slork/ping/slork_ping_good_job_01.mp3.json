@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "81b49a8003562f7c7ff558dd6d29672c0d86a1e71ce8dda0a910da93079e29ca",
+      "sha256": [
+        "81b49a8003562f7c7ff558dd6d29672c0d86a1e71ce8dda0a910da93079e29ca"
+      ],
       "text": "Good job!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

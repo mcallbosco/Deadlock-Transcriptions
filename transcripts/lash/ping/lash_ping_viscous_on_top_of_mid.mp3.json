@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_viscous_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "8bb726205081d481a846510c35ae0f808bf67151f7be251947ada1f75321216c",
+      "sha256": [
+        "8bb726205081d481a846510c35ae0f808bf67151f7be251947ada1f75321216c"
+      ],
       "text": "This goes on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c36b523348edc08d0fdffbb7d13bf95aa7bdb890d57685abad056cf5844c614b",
+      "sha256": [
+        "43daa4aa34dea51ff4cb9fc89c20c9df072807102c47e0de40b65dd72961a924",
+        "c36b523348edc08d0fdffbb7d13bf95aa7bdb890d57685abad056cf5844c614b"
+      ],
       "text": "This is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "43daa4aa34dea51ff4cb9fc89c20c9df072807102c47e0de40b65dd72961a924",
-      "text": "This is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aebf80a0747fec85b8be7b951c116552d067cbf84c2862d649fc73cb4f46eb39",
+      "sha256": [
+        "aebf80a0747fec85b8be7b951c116552d067cbf84c2862d649fc73cb4f46eb39"
+      ],
       "text": "Viscous's on top of mid!",
       "source": "official"
     }

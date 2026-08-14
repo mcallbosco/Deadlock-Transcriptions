@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_astro_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "201691534045d25ef2893d5ad7e8c0fb051d59fd3150c239a6e6e9d4c99cc875",
+      "sha256": [
+        "201691534045d25ef2893d5ad7e8c0fb051d59fd3150c239a6e6e9d4c99cc875",
+        "555b793c6bd1cfbca058fb9b87c590b19e79f4181e70360d3de73a03fc64285a"
+      ],
       "text": "Holiday's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "555b793c6bd1cfbca058fb9b87c590b19e79f4181e70360d3de73a03fc64285a",
-      "text": "Holiday's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "243f099794f6e81ed1876e32ea4afb2d3542a589bd39d2683953e58d4d5c7d28",
+      "sha256": [
+        "243f099794f6e81ed1876e32ea4afb2d3542a589bd39d2683953e58d4d5c7d28"
+      ],
       "text": "Holliday's on the roof!",
       "source": "official"
     }

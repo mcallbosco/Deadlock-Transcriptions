@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "b3aea92fd0c9951d0fe6c21a5a789f9c06cd4067cc481053aa2c86f8faa9eb22",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "060aa292c43ce8a3e4e8d670f77a99865b088be8545143bf2b4cfb71b6f26a12",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b3ac5914b824e7f8d52e10157c9c1173bee08e5f9b935436d0f3ccb013bee9d",
+      "sha256": [
+        "060aa292c43ce8a3e4e8d670f77a99865b088be8545143bf2b4cfb71b6f26a12",
+        "5b3ac5914b824e7f8d52e10157c9c1173bee08e5f9b935436d0f3ccb013bee9d",
+        "b3aea92fd0c9951d0fe6c21a5a789f9c06cd4067cc481053aa2c86f8faa9eb22"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

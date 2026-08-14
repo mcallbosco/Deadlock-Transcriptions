@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "3f580c4134d2f2d1199fa21cd68ba42afb790cc0653c25aa28edabfefa76d588",
+      "sha256": [
+        "3f580c4134d2f2d1199fa21cd68ba42afb790cc0653c25aa28edabfefa76d588"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

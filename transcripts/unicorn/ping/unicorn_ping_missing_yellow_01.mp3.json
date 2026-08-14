@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "eb3eb6e98fd7ace04159bc4a3e43f1402d1e70f82e13ba2ce769b0c0e92aaa1f",
+      "sha256": [
+        "eb3eb6e98fd7ace04159bc4a3e43f1402d1e70f82e13ba2ce769b0c0e92aaa1f"
+      ],
       "text": "This is yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

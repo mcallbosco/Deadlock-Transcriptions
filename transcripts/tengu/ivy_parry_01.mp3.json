@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_parry_01.mp3",
   "revisions": [
     {
-      "sha256": "e29ea4aaf3269c5fe17b9d695f31370b886eb41ec4e2c0a2a0d85b3fc5758f24",
+      "sha256": [
+        "5fbb2b3d337068209968185ac5a57ff83130fcdc16b0f9538f85cdf7977fb648",
+        "e29ea4aaf3269c5fe17b9d695f31370b886eb41ec4e2c0a2a0d85b3fc5758f24"
+      ],
       "text": "I don't think so!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5fbb2b3d337068209968185ac5a57ff83130fcdc16b0f9538f85cdf7977fb648",
-      "text": "I don't think so.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

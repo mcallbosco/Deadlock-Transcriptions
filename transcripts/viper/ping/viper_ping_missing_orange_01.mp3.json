@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "5ca07b7a362cd48d1fcdec074365787c30371038bcd97bdf514ba6b614bbe15c",
-      "text": "Missing orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6aa81ed36fcf5d529f62a14126b6327a113dde964ae8ac36ea8d31186c50785a",
-      "text": "Missing orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48699568fcbef2f00c5196d56a4c013e0f260f44cc48f809d70a5a6487a36d35",
+      "sha256": [
+        "48699568fcbef2f00c5196d56a4c013e0f260f44cc48f809d70a5a6487a36d35",
+        "5ca07b7a362cd48d1fcdec074365787c30371038bcd97bdf514ba6b614bbe15c",
+        "6aa81ed36fcf5d529f62a14126b6327a113dde964ae8ac36ea8d31186c50785a"
+      ],
       "text": "Missing orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

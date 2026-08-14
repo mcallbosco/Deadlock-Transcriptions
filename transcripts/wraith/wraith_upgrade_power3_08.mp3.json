@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_upgrade_power3_08.mp3",
   "revisions": [
     {
-      "sha256": "1072fbacac35426f2a883c76269e9697f96c57b1f03242f226686d9e267f6798",
-      "text": "Gotta remember to use this after I have someone lifted.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb776db1c2f981406ccde9ca3bf61afdc4ebc1e06e729d02909f47edf9a0fe1f",
-      "text": "Gotta remember to use this after I have someone listed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0473e265733b0d82b3b114ca52b2a0d9f409c9cc7014b6bd73a0cc4335aca009",
-      "text": "Gotta remember to use this after I have someone listed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d919c1ce30c697ce15bec331702adfc839a7725a2eb9a6a8234648e32de49ab",
+      "sha256": [
+        "1072fbacac35426f2a883c76269e9697f96c57b1f03242f226686d9e267f6798",
+        "9d919c1ce30c697ce15bec331702adfc839a7725a2eb9a6a8234648e32de49ab"
+      ],
       "text": "Gotta remember to use this after I have someone lifted…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "0473e265733b0d82b3b114ca52b2a0d9f409c9cc7014b6bd73a0cc4335aca009",
+        "fb776db1c2f981406ccde9ca3bf61afdc4ebc1e06e729d02909f47edf9a0fe1f"
+      ],
+      "text": "Gotta remember to use this after I have someone listed.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

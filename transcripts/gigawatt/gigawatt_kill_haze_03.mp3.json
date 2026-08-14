@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "6de2484af9d88261bf4b24bd9576bf1617f3c03ba9b4680fa7d5f8918c214bfc",
+      "sha256": [
+        "6de2484af9d88261bf4b24bd9576bf1617f3c03ba9b4680fa7d5f8918c214bfc"
+      ],
       "text": "The typos and trela will not stop me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b33cc27e216315b2b01acde0dc6b2839c43aa4ce0c3da1b3d4dae81cf3346d8e",
+      "sha256": [
+        "b33cc27e216315b2b01acde0dc6b2839c43aa4ce0c3da1b3d4dae81cf3346d8e",
+        "f685a2ed4337b3bfbd6c7565d042a1159836e2562267c691d0891df36706d63b"
+      ],
       "text": "The OSIC will never stop me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "581876ed358298dbbd693b5700e5575f1e2a368e4ec069fa29cad6cfaec25a03",
+      "sha256": [
+        "581876ed358298dbbd693b5700e5575f1e2a368e4ec069fa29cad6cfaec25a03"
+      ],
       "text": "The OSI will never stop me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f685a2ed4337b3bfbd6c7565d042a1159836e2562267c691d0891df36706d63b",
-      "text": "The OSIC will never stop me.",
-      "source": "official"
     }
   ]
 }

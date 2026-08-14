@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "90339bcdc88637c7b9dc872db428030f86abe38727ce4db96215a67e0344fb7a",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5bdd578cfec9f9e07d5beda284ee83cdd8514bca8cf67a99343e5397d1f88169",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31cfdbbbc58791f81c4f69e3600d6a6f94447f92482fa3db9bb28ef60e765669",
+      "sha256": [
+        "31cfdbbbc58791f81c4f69e3600d6a6f94447f92482fa3db9bb28ef60e765669",
+        "5bdd578cfec9f9e07d5beda284ee83cdd8514bca8cf67a99343e5397d1f88169",
+        "90339bcdc88637c7b9dc872db428030f86abe38727ce4db96215a67e0344fb7a"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_happy_03.mp3",
   "revisions": [
     {
-      "sha256": "801b8305afddabb41a5df0550a62f824e2aedc217380571e4c5fe13f12954a90",
-      "text": "Great job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "485d7f8cd99f799563b597e48e56f09677e9288b11e802ca6c3b9e7a43537633",
-      "text": "Great job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f8034b5d3d19ae0110c80c6bf8c3c132d12c71958f6ba2d13339918966b8e4b",
+      "sha256": [
+        "485d7f8cd99f799563b597e48e56f09677e9288b11e802ca6c3b9e7a43537633",
+        "7f8034b5d3d19ae0110c80c6bf8c3c132d12c71958f6ba2d13339918966b8e4b",
+        "801b8305afddabb41a5df0550a62f824e2aedc217380571e4c5fe13f12954a90"
+      ],
       "text": "Great job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

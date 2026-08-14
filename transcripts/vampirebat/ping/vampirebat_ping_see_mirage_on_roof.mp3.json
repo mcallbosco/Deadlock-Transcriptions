@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_mirage_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "2fd576a40c87e174ded05d136c665daa20645258ba21ac96011395ae1483866a",
+      "sha256": [
+        "2fd576a40c87e174ded05d136c665daa20645258ba21ac96011395ae1483866a"
+      ],
       "text": "Marla is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cf002c30073539e965f0476c5d0ccada16aa0b7e512471637aebfc6832717479",
+      "sha256": [
+        "cf002c30073539e965f0476c5d0ccada16aa0b7e512471637aebfc6832717479"
+      ],
       "text": "Mirage's on the roof!",
       "source": "official"
     }

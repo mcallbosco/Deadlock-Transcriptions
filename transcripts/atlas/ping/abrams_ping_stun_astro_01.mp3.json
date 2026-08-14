@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stun_astro_01.mp3",
   "revisions": [
     {
-      "sha256": "374c942acf569d3e63d36af6a22a42881ad04d4e6139add6434472eea4fede82",
+      "sha256": [
+        "374c942acf569d3e63d36af6a22a42881ad04d4e6139add6434472eea4fede82"
+      ],
       "text": "Stun, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0bca3c2598499992e628ee0a0287d4e7e4f4f62acb7f9c1a7b2273169862d0e0",
-      "text": "Son Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5211b0c9df1fa1108587b92cb2f0bb60b861a0405f3d41dc2cd393c250993cb6",
+      "sha256": [
+        "0bca3c2598499992e628ee0a0287d4e7e4f4f62acb7f9c1a7b2273169862d0e0",
+        "5211b0c9df1fa1108587b92cb2f0bb60b861a0405f3d41dc2cd393c250993cb6"
+      ],
       "text": "Son Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

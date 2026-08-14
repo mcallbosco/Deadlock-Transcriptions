@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_lash_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "cf661865576fe75cde764220336792f124afc7e676edac181e12f49dc8b5e159",
-      "text": "Lash is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7278e6ed99e6ef1ad18b42cacc97566e9e9b8a039005cbf386c48a8058693110",
+      "sha256": [
+        "7278e6ed99e6ef1ad18b42cacc97566e9e9b8a039005cbf386c48a8058693110",
+        "cf661865576fe75cde764220336792f124afc7e676edac181e12f49dc8b5e159"
+      ],
       "text": "Lash is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "093b69ed37b6e6adda74c37fbc33778be1007b0badfd70cdf1a1509860a5dc57",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46f72bc8b0e2554adc4c5c7323b599d736e1405931998df4e2a33e48360abcc1",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02189955086da9bb43b918aab0697b97a13c34c4c0a33e14737c13965ff5031e",
+      "sha256": [
+        "02189955086da9bb43b918aab0697b97a13c34c4c0a33e14737c13965ff5031e",
+        "093b69ed37b6e6adda74c37fbc33778be1007b0badfd70cdf1a1509860a5dc57",
+        "46f72bc8b0e2554adc4c5c7323b599d736e1405931998df4e2a33e48360abcc1"
+      ],
       "text": "Going to gank.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

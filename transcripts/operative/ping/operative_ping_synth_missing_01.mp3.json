@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a66518bb8a744909b13357c2b13ecfbd251e14c723082e7ef0147a44a27fd348",
+      "sha256": [
+        "a66518bb8a744909b13357c2b13ecfbd251e14c723082e7ef0147a44a27fd348"
+      ],
       "text": "Bookcase missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

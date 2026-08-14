@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "834d786d90180cd1c94e922d30f6b6018fcc0df656f2b6d97d3ab4238ca7b96b",
+      "sha256": [
+        "834d786d90180cd1c94e922d30f6b6018fcc0df656f2b6d97d3ab4238ca7b96b"
+      ],
       "text": "Talking with you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6b24ce6adcead16e14b766330d0c62a6a3c20b571f0a426a9b8636856e41fcac",
+      "sha256": [
+        "6b24ce6adcead16e14b766330d0c62a6a3c20b571f0a426a9b8636856e41fcac"
+      ],
       "text": "Talk it was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

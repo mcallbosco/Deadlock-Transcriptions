@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/synth_select_01.mp3",
   "revisions": [
     {
-      "sha256": "1dd84a56c70ac4a710c5a2495b29dd611d96bfa25e90f5574d80f16af88ad294",
+      "sha256": [
+        "1dd84a56c70ac4a710c5a2495b29dd611d96bfa25e90f5574d80f16af88ad294"
+      ],
       "text": "No more hiding.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

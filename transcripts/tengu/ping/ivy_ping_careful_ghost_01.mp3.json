@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "0e0fa4352173d3c390f7260f457265ef63a524e5c35254354d0734ffe120f92c",
+      "sha256": [
+        "0e0fa4352173d3c390f7260f457265ef63a524e5c35254354d0734ffe120f92c",
+        "80d1b5850aef0952d265d5d58b7f3e07030c7a6be9ef5c320863ff44b1f383b1"
+      ],
       "text": "Careful, Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "80d1b5850aef0952d265d5d58b7f3e07030c7a6be9ef5c320863ff44b1f383b1",
-      "text": "Careful, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "311eb054ad27945070e27c9341841bf92811be34199a8902e04d23f054db26ed",
+      "sha256": [
+        "311eb054ad27945070e27c9341841bf92811be34199a8902e04d23f054db26ed"
+      ],
       "text": "Careful, guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

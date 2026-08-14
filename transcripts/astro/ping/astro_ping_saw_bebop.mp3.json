@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "f791cbed3e25d0d616d1daceaafdc4b5b2f17148d9062021bb9de347f11970fb",
+      "sha256": [
+        "f791cbed3e25d0d616d1daceaafdc4b5b2f17148d9062021bb9de347f11970fb"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_inferno.mp3",
   "revisions": [
     {
-      "sha256": "28dd6a5cad6d2daaee3f139af524e1ff178e56ff511635d6b6b2e69856959eeb",
-      "text": "I see Inferno.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c2a4111fdda338baa18fcb816d27e1b6d5608398143f3ad1b253cd2124519543",
-      "text": "I see Inferno.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6e18e4405e74c2b12e5df74a9efdd00ea7a5f3e5035be9638d7d5480c87e5db",
+      "sha256": [
+        "28dd6a5cad6d2daaee3f139af524e1ff178e56ff511635d6b6b2e69856959eeb",
+        "c2a4111fdda338baa18fcb816d27e1b6d5608398143f3ad1b253cd2124519543",
+        "c6e18e4405e74c2b12e5df74a9efdd00ea7a5f3e5035be9638d7d5480c87e5db"
+      ],
       "text": "I see Inferno.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

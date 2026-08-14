@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "86cfe372190820a27c614f2f4e71375781eef403d9d1de317f3946d1aaf50ab4",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e54f220d9741279d6912fba3a26db9a3162362965e10fd84fa77ed8f8d459075",
+      "sha256": [
+        "86cfe372190820a27c614f2f4e71375781eef403d9d1de317f3946d1aaf50ab4",
+        "e54f220d9741279d6912fba3a26db9a3162362965e10fd84fa77ed8f8d459075"
+      ],
       "text": "Careful, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

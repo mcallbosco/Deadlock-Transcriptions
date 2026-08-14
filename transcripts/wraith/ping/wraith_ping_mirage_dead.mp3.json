@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "b83e4756531c250edcacfdba3153ac6de4fc5169ac49713d50d1eeb99a9730c9",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b4dde47a4445d80873a3f081960f851163f69a895cf8c2253ed8a4c47c746ae",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e11a1c6e3ad86f69c93af151e86d573308d931b09b8ed54973c48176666209c1",
+      "sha256": [
+        "4b4dde47a4445d80873a3f081960f851163f69a895cf8c2253ed8a4c47c746ae",
+        "b83e4756531c250edcacfdba3153ac6de4fc5169ac49713d50d1eeb99a9730c9",
+        "e11a1c6e3ad86f69c93af151e86d573308d931b09b8ed54973c48176666209c1"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

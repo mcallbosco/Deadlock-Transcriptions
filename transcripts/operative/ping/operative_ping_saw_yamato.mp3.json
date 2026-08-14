@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "3a6b8a9e1f40aba1eec1d26a258b935edde81f28a76fcf178f9733613973df15",
+      "sha256": [
+        "3a6b8a9e1f40aba1eec1d26a258b935edde81f28a76fcf178f9733613973df15"
+      ],
       "text": "これは、ヤマト。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

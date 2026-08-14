@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_atlas_dead.mp3",
   "revisions": [
     {
-      "sha256": "326dec904e874cc9993f018de5070de2c711f2748fe72bc1535026f996aad052",
-      "text": "Abrams is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22081485e0a927b7f5e4f112c49d3b1f4c3bfbb8fe10fd3d1e89d8b48d939287",
-      "text": "Abrams is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f96db3463aa0c0c404cb764da351995f3cb552511214857b506e5fbdb6ebd4ae",
+      "sha256": [
+        "22081485e0a927b7f5e4f112c49d3b1f4c3bfbb8fe10fd3d1e89d8b48d939287",
+        "326dec904e874cc9993f018de5070de2c711f2748fe72bc1535026f996aad052",
+        "f96db3463aa0c0c404cb764da351995f3cb552511214857b506e5fbdb6ebd4ae"
+      ],
       "text": "Abrams is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/countup_01_05.mp3",
   "revisions": [
     {
-      "sha256": "8c41ebcd7ba141d6b8a37f4e79fa85603db9cff9321e2b5d292c9a6cb37cddc8",
+      "sha256": [
+        "8c41ebcd7ba141d6b8a37f4e79fa85603db9cff9321e2b5d292c9a6cb37cddc8"
+      ],
       "text": "{\\an1{\\f1 {\\i1{\\f0{\\i0{\\i0{\\f1 {\\i0{\\f0{\\i0{\\f1",
       "source": "generated",
       "model": "whisper-1"
     },
     {
-      "sha256": "e2dd32f365bd5482399d84b1f052c8c7c86016577c510e8539b9af09c3d5bb61",
+      "sha256": [
+        "e2dd32f365bd5482399d84b1f052c8c7c86016577c510e8539b9af09c3d5bb61"
+      ],
       "text": "I am ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b6fd3b544e76a37fc67eecbcb4824ec174e71f5b44f9fb5dc2c744222c6c0a2f",
+      "sha256": [
+        "b6fd3b544e76a37fc67eecbcb4824ec174e71f5b44f9fb5dc2c744222c6c0a2f"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

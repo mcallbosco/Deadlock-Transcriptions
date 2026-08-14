@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d41b1fbd8a6650b6e27702cee704533992ed611d0e3e2a42bb56e0aa31e535e6",
+      "sha256": [
+        "d41b1fbd8a6650b6e27702cee704533992ed611d0e3e2a42bb56e0aa31e535e6"
+      ],
       "text": "Come at me, citizen.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b94bd86b523501cfccc22cafbf5f2b8dc218184f16a8c2d7ed459adbc8200074",
+      "sha256": [
+        "b94bd86b523501cfccc22cafbf5f2b8dc218184f16a8c2d7ed459adbc8200074"
+      ],
       "text": "Come with me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "062477fbfd49faa16a7ef007cfe457bb5d457a18fbc876b4a3ad48d46dab8da9",
+      "sha256": [
+        "062477fbfd49faa16a7ef007cfe457bb5d457a18fbc876b4a3ad48d46dab8da9"
+      ],
       "text": "Yamato's missing",
       "source": "official"
     }

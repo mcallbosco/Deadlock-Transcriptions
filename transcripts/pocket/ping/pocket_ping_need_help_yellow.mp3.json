@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_need_help_yellow.mp3",
   "revisions": [
     {
-      "sha256": "7461285ab75713cc76ebad943888fed734ad0cb015cda9794ac16a5c80637905",
-      "text": "Need help on yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18ebaeb9e2f285133aace3175c62f675980a1a862b17a5392093809936a170d2",
+      "sha256": [
+        "18ebaeb9e2f285133aace3175c62f675980a1a862b17a5392093809936a170d2",
+        "7461285ab75713cc76ebad943888fed734ad0cb015cda9794ac16a5c80637905"
+      ],
       "text": "Need help on yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power3_02.mp3",
   "revisions": [
     {
-      "sha256": "883a78139009a6c83aeb879c2aa957214c6a5a688c7bebb0521e59eae78b03a2",
+      "sha256": [
+        "883a78139009a6c83aeb879c2aa957214c6a5a688c7bebb0521e59eae78b03a2"
+      ],
       "text": "命は命で買われる。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "169bd1daae5a4ee122ce360e158e4366d52c65f6bb44f3be06e9163476a85341",
+      "sha256": [
+        "169bd1daae5a4ee122ce360e158e4366d52c65f6bb44f3be06e9163476a85341"
+      ],
       "text": "奴らの命が私を再生させる。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2ded63b59fc28dc6448243d0954574043f5bb992d8bd3630c364131ea6ff15a4",
+      "sha256": [
+        "2ded63b59fc28dc6448243d0954574043f5bb992d8bd3630c364131ea6ff15a4"
+      ],
       "text": "Life will be bought with life.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_kill_warden_05.mp3",
   "revisions": [
     {
-      "sha256": "3071f767e3c4e1113cb888ded086afb1d0df61ab9fd3c680f6a5350b39de3292",
+      "sha256": [
+        "3071f767e3c4e1113cb888ded086afb1d0df61ab9fd3c680f6a5350b39de3292"
+      ],
       "text": "Check out Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "97f603fe3a8b1cd121f9307bd3612117cc25ac7b9b56e82fc76a787ec1a61d9b",
+      "sha256": [
+        "97f603fe3a8b1cd121f9307bd3612117cc25ac7b9b56e82fc76a787ec1a61d9b"
+      ],
       "text": "Took out Warden!",
       "source": "official"
     }

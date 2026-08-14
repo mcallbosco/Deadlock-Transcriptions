@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "bbcb1e044428b8315521efc73322c3403ebfc7fd1ab595750ce1c8b8ffd04bcc",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "872c6416dd3545ebee5966c4fb51446754bcd8811f0e52d280686d538588e820",
+      "sha256": [
+        "872c6416dd3545ebee5966c4fb51446754bcd8811f0e52d280686d538588e820",
+        "bbcb1e044428b8315521efc73322c3403ebfc7fd1ab595750ce1c8b8ffd04bcc"
+      ],
       "text": "I see Kelvin.",
       "source": "official"
     }

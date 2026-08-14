@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "2a1e78e7a7068dd3d703a2c4a2b52980deac70534010d8ed22c39d1682696a51",
-      "text": "This in purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "65bebe36c0e050276b1bddb8725c749ff6fb0037cce2d69e3cbcd6abbe9cc31f",
+      "sha256": [
+        "2a1e78e7a7068dd3d703a2c4a2b52980deac70534010d8ed22c39d1682696a51",
+        "65bebe36c0e050276b1bddb8725c749ff6fb0037cce2d69e3cbcd6abbe9cc31f"
+      ],
       "text": "This in purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

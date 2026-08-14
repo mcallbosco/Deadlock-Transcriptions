@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_can_heal_ivy.mp3",
   "revisions": [
     {
-      "sha256": "d229c14758fb51090828f05848e50b49bace7cafb11f1993bb3829579159b92f",
+      "sha256": [
+        "d229c14758fb51090828f05848e50b49bace7cafb11f1993bb3829579159b92f"
+      ],
       "text": "Hi there, how can I help you?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "726b9178d570afe0b3864f0002c513df15cd8a2e1f0e03a33102e309fb977ed6",
+      "sha256": [
+        "726b9178d570afe0b3864f0002c513df15cd8a2e1f0e03a33102e309fb977ed6"
+      ],
       "text": "I mean, I can hear ya!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

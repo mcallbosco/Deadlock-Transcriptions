@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_missing_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "f392f50393e864fa26794a9d246186099f6f2ff7fd5a511a4498f29384f39d1b",
-      "text": "Missing orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e818b65e0f7f310a740263ad7a9c8afe17a0e83811cf599a870ebe2696bc3eeb",
+      "sha256": [
+        "e818b65e0f7f310a740263ad7a9c8afe17a0e83811cf599a870ebe2696bc3eeb",
+        "f392f50393e864fa26794a9d246186099f6f2ff7fd5a511a4498f29384f39d1b"
+      ],
       "text": "Missing orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

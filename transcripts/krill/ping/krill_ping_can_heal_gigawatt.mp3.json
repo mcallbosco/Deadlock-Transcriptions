@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_can_heal_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "1e52657c0b6b419c9a356802db36c727150fcee591a68914f65b25d13fe0de6c",
+      "sha256": [
+        "1e52657c0b6b419c9a356802db36c727150fcee591a68914f65b25d13fe0de6c",
+        "86df35c6b551b6f2ee4b998cbf98a7558730498ce6b0c215cef69562b15647ae",
+        "c9aea20c75047c0ad2049ec2158171bf30ca876b2c29b27b9b8afcd9b8ccdd6b"
+      ],
       "text": "Seven, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "c9aea20c75047c0ad2049ec2158171bf30ca876b2c29b27b9b8afcd9b8ccdd6b",
-      "text": "Seven, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e6a9e299202f756ff392204110095cdb6b523d14d991b42c3dfe488211d0e0f",
+      "sha256": [
+        "5e6a9e299202f756ff392204110095cdb6b523d14d991b42c3dfe488211d0e0f"
+      ],
       "text": "Gigawatt, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86df35c6b551b6f2ee4b998cbf98a7558730498ce6b0c215cef69562b15647ae",
-      "text": "Seven, I can heal you!",
-      "source": "official"
     }
   ]
 }

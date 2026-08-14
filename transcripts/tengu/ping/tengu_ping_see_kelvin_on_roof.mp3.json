@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_kelvin_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "358b60feb87ec82772dc9fef5e454aba26d509713691cac47fb0493c80ec9edf",
+      "sha256": [
+        "358b60feb87ec82772dc9fef5e454aba26d509713691cac47fb0493c80ec9edf"
+      ],
       "text": "Gallows on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a00aa34ecae70fa910e2bb1e48855cd78a386d7b8a92e68a2cba4ae81412d7e",
+      "sha256": [
+        "3a00aa34ecae70fa910e2bb1e48855cd78a386d7b8a92e68a2cba4ae81412d7e"
+      ],
       "text": "Kelvin's on the roof!",
       "source": "official"
     }

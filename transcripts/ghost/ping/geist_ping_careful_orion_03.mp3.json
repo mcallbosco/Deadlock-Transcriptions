@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_orion_03.mp3",
   "revisions": [
     {
-      "sha256": "9537bc7111a92f4acddff2ecc5aec6fff5370c13c13358cf01033fa0b0a0ac7d",
-      "text": "Careful, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3252a39077752bf24087105ceb9812675a14e820390b3718f34591baf271baef",
+      "sha256": [
+        "3252a39077752bf24087105ceb9812675a14e820390b3718f34591baf271baef",
+        "9537bc7111a92f4acddff2ecc5aec6fff5370c13c13358cf01033fa0b0a0ac7d"
+      ],
       "text": "Careful, Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

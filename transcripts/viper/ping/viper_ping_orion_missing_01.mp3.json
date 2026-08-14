@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "01ac3221a692d4647c1eb96d7da6629482a203effc93be575b7fd046cbc7c6ed",
-      "text": "Grey Talon's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "01ac3221a692d4647c1eb96d7da6629482a203effc93be575b7fd046cbc7c6ed",
+        "c34c51fa1008c49d534cb58f6dcbb24f7955079ef9a9290e589e273582da85fd"
+      ],
+      "text": "Grey Talon's missing",
+      "source": "official"
     },
     {
-      "sha256": "be6509c038aa1dfa9163e3a57583913959a9398123cca3fdbc0f3bd6208c212c",
+      "sha256": [
+        "be6509c038aa1dfa9163e3a57583913959a9398123cca3fdbc0f3bd6208c212c"
+      ],
       "text": "Great hand's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c34c51fa1008c49d534cb58f6dcbb24f7955079ef9a9290e589e273582da85fd",
-      "text": "Grey Talon's missing",
-      "source": "official"
     }
   ]
 }

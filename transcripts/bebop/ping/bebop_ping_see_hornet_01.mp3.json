@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "7f19ba8f1d16e5760dd8a379f9226ecd3129a31fdf92cd42beac2f3780dfedee",
+      "sha256": [
+        "7f19ba8f1d16e5760dd8a379f9226ecd3129a31fdf92cd42beac2f3780dfedee"
+      ],
       "text": "I'll see you later.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6ca96b6e7e9b466a782591f1aea7f1ccc26f28a1ab26e2c3832c51873030d133",
+      "sha256": [
+        "6ca96b6e7e9b466a782591f1aea7f1ccc26f28a1ab26e2c3832c51873030d133"
+      ],
       "text": "I see vindicta",
       "source": "official"
     }

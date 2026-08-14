@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_shiv_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "4666148026139b1afa33735d2a5c711f8aa9cc5384b226561361387512c9c095",
+      "sha256": [
+        "4666148026139b1afa33735d2a5c711f8aa9cc5384b226561361387512c9c095"
+      ],
       "text": "Ships on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "58bbb5d00f183eb60b1aef3769cd7fb84f1ea230dfb4350b8d57c9b21cd8868b",
+      "sha256": [
+        "58bbb5d00f183eb60b1aef3769cd7fb84f1ea230dfb4350b8d57c9b21cd8868b"
+      ],
       "text": "Shiv's on top of the garage!",
       "source": "official"
     }

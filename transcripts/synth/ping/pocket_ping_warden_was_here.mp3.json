@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1ad8e42c1a5a9a9a22a0267892a24f2590d912b8723c2824715e83e1a04bf61e",
-      "text": "Borden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58fe400e94a5f1416ab22b804ba4c8a7cf6dcc080fa124ba36f25855f82481a8",
+      "sha256": [
+        "1ad8e42c1a5a9a9a22a0267892a24f2590d912b8723c2824715e83e1a04bf61e",
+        "58fe400e94a5f1416ab22b804ba4c8a7cf6dcc080fa124ba36f25855f82481a8"
+      ],
       "text": "Borden was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

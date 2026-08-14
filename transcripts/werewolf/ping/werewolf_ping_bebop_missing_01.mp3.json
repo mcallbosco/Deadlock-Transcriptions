@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9eca9904b5efbe80bb50625b6cb4ca481213824f472f18b43b31442ea9e3e34e",
+      "sha256": [
+        "9eca9904b5efbe80bb50625b6cb4ca481213824f472f18b43b31442ea9e3e34e"
+      ],
       "text": "Bebop's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

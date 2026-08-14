@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_stun_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "d803bd033e148d901d94483bc6c4198ebfb087ca1895116a048c060524007ef8",
-      "text": "Sun Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b57863f469ba39d7d81e3e6528e887524ed78bd4a19ebc527c7fa190cf20dcde",
+      "sha256": [
+        "b57863f469ba39d7d81e3e6528e887524ed78bd4a19ebc527c7fa190cf20dcde",
+        "d803bd033e148d901d94483bc6c4198ebfb087ca1895116a048c060524007ef8"
+      ],
       "text": "Sun Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

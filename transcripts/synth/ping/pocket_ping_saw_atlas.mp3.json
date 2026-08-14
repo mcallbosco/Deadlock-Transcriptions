@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "59fa81f354cdb1515f765c376202cdf074e710f58255c18c2a4e1c828b1e93a4",
-      "text": "I saw Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e4c3a8c60893dc9c58f0a660ef9d4398ca240120e0034f0d9d0ee5fd17963dd",
+      "sha256": [
+        "3e4c3a8c60893dc9c58f0a660ef9d4398ca240120e0034f0d9d0ee5fd17963dd",
+        "59fa81f354cdb1515f765c376202cdf074e710f58255c18c2a4e1c828b1e93a4"
+      ],
       "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

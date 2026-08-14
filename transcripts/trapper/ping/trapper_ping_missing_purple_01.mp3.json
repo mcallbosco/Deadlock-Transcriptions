@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "7b7e30620e4301ae27446cbe79ba77ccb003e3002946782308872dc442255255",
+      "sha256": [
+        "7b7e30620e4301ae27446cbe79ba77ccb003e3002946782308872dc442255255"
+      ],
       "text": "Missing purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

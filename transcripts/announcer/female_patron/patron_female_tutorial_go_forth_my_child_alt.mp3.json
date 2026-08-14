@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_go_forth_my_child_alt.mp3",
   "revisions": [
     {
-      "sha256": "da2c92c7bb6cdef67d08b53d83be7d94b87eca77635be8cde04181d52535ecc3",
-      "text": "You've completed lane training. If you're ready to start the ritual, join matchmaking. Good luck, and I'll see you on the field.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9fa3d539f86345924f087f1e941a61973d88a86304280d752e88c6e1568d90fd",
+      "sha256": [
+        "9fa3d539f86345924f087f1e941a61973d88a86304280d752e88c6e1568d90fd",
+        "da2c92c7bb6cdef67d08b53d83be7d94b87eca77635be8cde04181d52535ecc3"
+      ],
       "text": "You've completed lane training. If you're ready to start the ritual, join matchmaking. Good luck, and I'll see you on the field.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

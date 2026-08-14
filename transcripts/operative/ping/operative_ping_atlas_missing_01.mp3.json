@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "febc30bb8c86e21c1cf05764d8d027bf91f7a1b0faa523bac3959f82cd6f43a5",
+      "sha256": [
+        "febc30bb8c86e21c1cf05764d8d027bf91f7a1b0faa523bac3959f82cd6f43a5"
+      ],
       "text": "Aprons is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

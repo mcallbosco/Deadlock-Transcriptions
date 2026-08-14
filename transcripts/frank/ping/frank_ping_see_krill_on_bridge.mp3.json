@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_krill_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "6ce75f583a6fb28bef28ae72072a04e2b2a008327bdd9b115b7fa485f1bc1403",
+      "sha256": [
+        "6ce75f583a6fb28bef28ae72072a04e2b2a008327bdd9b115b7fa485f1bc1403"
+      ],
       "text": "Crows on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "71878741e8cb0b68522727aaa0db4ddaa4f0095218986a4ab5edced35a173208",
+      "sha256": [
+        "71878741e8cb0b68522727aaa0db4ddaa4f0095218986a4ab5edced35a173208"
+      ],
       "text": "Krill's on the bridge!",
       "source": "official"
     }

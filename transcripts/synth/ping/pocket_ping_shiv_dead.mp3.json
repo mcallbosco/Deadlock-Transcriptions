@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_shiv_dead.mp3",
   "revisions": [
     {
-      "sha256": "7b184d6d7dfc59b02e16369b1ddeabcbca2f8e8e4c152f7a78c47f8a59d4d621",
+      "sha256": [
+        "7b184d6d7dfc59b02e16369b1ddeabcbca2f8e8e4c152f7a78c47f8a59d4d621"
+      ],
       "text": "The ship is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2fa15465d81ed98f3e5c6d8bf920aec72b0d5488cdc5c9afd8cdfe4074c7b2cf",
+      "sha256": [
+        "2fa15465d81ed98f3e5c6d8bf920aec72b0d5488cdc5c9afd8cdfe4074c7b2cf"
+      ],
       "text": "Ship is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

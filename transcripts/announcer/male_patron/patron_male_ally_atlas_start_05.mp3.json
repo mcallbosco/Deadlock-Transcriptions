@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_atlas_start_05.mp3",
   "revisions": [
     {
-      "sha256": "8deb33fd4b0b19aba12f879cf6946cf3651d3f318f1026b5e04a5f45d39cb6cc",
-      "text": "Detective, your allies will need your strength to complete the ritual.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df8a4b64236a8dc929b7df8a149f1906caf6fc85dca7a04960eda437216cae5f",
-      "text": "Detective, your allies will need your strength to complete the ritual.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d33f5b9fcb494cbd226e315a40691bb7f02e395ac4fbf615b9db8b3bedfcd71e",
+      "sha256": [
+        "8deb33fd4b0b19aba12f879cf6946cf3651d3f318f1026b5e04a5f45d39cb6cc",
+        "d33f5b9fcb494cbd226e315a40691bb7f02e395ac4fbf615b9db8b3bedfcd71e",
+        "df8a4b64236a8dc929b7df8a149f1906caf6fc85dca7a04960eda437216cae5f"
+      ],
       "text": "Detective… your allies will need your strength to complete the ritual.",
       "source": "official"
     }

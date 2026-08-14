@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_forge_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "50def6cc1bd28cfcf641a1a1db94da09f1ea31b7838fbb5be3e96623ea4c7941",
+      "sha256": [
+        "50def6cc1bd28cfcf641a1a1db94da09f1ea31b7838fbb5be3e96623ea4c7941"
+      ],
       "text": "McGinnis is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ed435b6a28b54eecf6c0187e74b628607eed5febf37041780611529478cf981",
+      "sha256": [
+        "0ed435b6a28b54eecf6c0187e74b628607eed5febf37041780611529478cf981"
+      ],
       "text": "McGinnis's on the bridge!",
       "source": "official"
     }

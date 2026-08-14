@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ignore_forge.mp3",
   "revisions": [
     {
-      "sha256": "e5c42cb94700053807c54bf99c0502a17e907b2fa602c88a9e5c825c903fa2c3",
-      "text": "Ignore McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b261a87972b78fd8a46161fe0d84cb27dfc5f2179f9a0c21b15c95cd5f8c65f7",
-      "text": "Ignore McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "149ba4ff08a8598bdad665fd73a4b58ef21f889413d0feaca7f9d6a6f16d7c90",
+      "sha256": [
+        "149ba4ff08a8598bdad665fd73a4b58ef21f889413d0feaca7f9d6a6f16d7c90",
+        "b261a87972b78fd8a46161fe0d84cb27dfc5f2179f9a0c21b15c95cd5f8c65f7",
+        "e5c42cb94700053807c54bf99c0502a17e907b2fa602c88a9e5c825c903fa2c3"
+      ],
       "text": "Ignore McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

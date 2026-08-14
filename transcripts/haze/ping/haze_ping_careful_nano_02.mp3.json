@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_nano_02.mp3",
   "revisions": [
     {
-      "sha256": "d91c13af639d2a05447e7cd6b0f746887b376fe98499dda96a98c7cae6798d4d",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb93dfcccd9e9f94b97aa01e23360c0f094376f8d038d9dc104a4834196a3082",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1da9321b497ec745d6c472e1595f6622a94380062676d69df1655ff19d82a245",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d496e7efe759da03a366cffd6edb636e38b1cd76862341e1ecb2baa37db6aec1",
+      "sha256": [
+        "1da9321b497ec745d6c472e1595f6622a94380062676d69df1655ff19d82a245",
+        "d496e7efe759da03a366cffd6edb636e38b1cd76862341e1ecb2baa37db6aec1",
+        "d91c13af639d2a05447e7cd6b0f746887b376fe98499dda96a98c7cae6798d4d",
+        "fb93dfcccd9e9f94b97aa01e23360c0f094376f8d038d9dc104a4834196a3082"
+      ],
       "text": "Careful, Calico",
       "source": "official"
     }

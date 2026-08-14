@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_chrono_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "3d4dc447e9033c80b01c445268f3fc8cc1ddb87725b696fab29dcb9e985e4e8e",
-      "text": "Chronos headed to yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cd2991fbb37be68774c5ba5072f68b9b73d8c055ab74fe841940e805b708dd6",
-      "text": "Chronos headed to yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbe9d4c51b801f15fd27c27f20d959b4ad5c076708404c0de7e7b6fde00b6391",
+      "sha256": [
+        "0cd2991fbb37be68774c5ba5072f68b9b73d8c055ab74fe841940e805b708dd6",
+        "3d4dc447e9033c80b01c445268f3fc8cc1ddb87725b696fab29dcb9e985e4e8e",
+        "dbe9d4c51b801f15fd27c27f20d959b4ad5c076708404c0de7e7b6fde00b6391"
+      ],
       "text": "Chronos headed to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

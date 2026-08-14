@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "9ec13bd66ec9a0e32b234b32e9547c6d79f8996c22677869a1d58fc8055dbf96",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1487022f16b3ba62b7c9c2b3c03cd34ec71080a2d192cc8bb23d0a1c21be807c",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4672594c513d99c49eb98cf3718cb543062abae7edfd4656e49061d6187c1463",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86d57ab7826b38cd4995875d97f08ca3b3ea451d487e409c82822c99f1bf9a65",
+      "sha256": [
+        "1487022f16b3ba62b7c9c2b3c03cd34ec71080a2d192cc8bb23d0a1c21be807c",
+        "4672594c513d99c49eb98cf3718cb543062abae7edfd4656e49061d6187c1463",
+        "86d57ab7826b38cd4995875d97f08ca3b3ea451d487e409c82822c99f1bf9a65",
+        "9ec13bd66ec9a0e32b234b32e9547c6d79f8996c22677869a1d58fc8055dbf96"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

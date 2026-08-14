@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_see_grey_talon_01.mp3",
   "revisions": [
     {
-      "sha256": "dd3fe682eb9cb7c8d4112d247e3b83d601a08f8ae3868061c781db2238c4838d",
-      "text": "I see Talon!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3805738bb5caf2c24718047805a524845064411f0c7addb37dda83d711892eb",
+      "sha256": [
+        "c3805738bb5caf2c24718047805a524845064411f0c7addb37dda83d711892eb",
+        "dd3fe682eb9cb7c8d4112d247e3b83d601a08f8ae3868061c781db2238c4838d"
+      ],
       "text": "I see Talon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

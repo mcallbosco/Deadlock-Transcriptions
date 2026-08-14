@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_trapper_dead.mp3",
   "revisions": [
     {
-      "sha256": "6176f226cf38cb73995166f6852738ead70dc61db0016a38bdc64135afcf29be",
-      "text": "Trapper's dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0bc57d0faf3b6576d1654c662d53da88d53e351ff45a78e4538a3aaf5d9aaad1",
+      "sha256": [
+        "0bc57d0faf3b6576d1654c662d53da88d53e351ff45a78e4538a3aaf5d9aaad1",
+        "6176f226cf38cb73995166f6852738ead70dc61db0016a38bdc64135afcf29be"
+      ],
       "text": "Trapper's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

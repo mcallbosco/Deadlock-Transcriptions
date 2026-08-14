@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "2f8b7fbaa49e3c48a080a41e6342383d9411dd69106c0c683ebf129bde15082d",
-      "text": "Careful Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbedd3aa8ca8d55adfc33d707875c1c87d60dc5a2cde7966c5d651258ccefc26",
+      "sha256": [
+        "2f8b7fbaa49e3c48a080a41e6342383d9411dd69106c0c683ebf129bde15082d",
+        "bbedd3aa8ca8d55adfc33d707875c1c87d60dc5a2cde7966c5d651258ccefc26"
+      ],
       "text": "Careful, Mirage…",
       "source": "official"
     }

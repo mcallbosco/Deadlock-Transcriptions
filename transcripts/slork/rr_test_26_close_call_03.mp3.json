@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_close_call_03.mp3",
   "revisions": [
     {
-      "sha256": "15a8b3dfabbca5af4cdbc2518fe8747687dc6e50350e97c1ff67cb1f4e32c812",
-      "text": "That was close.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ccaacb16fcedd64107a9531836f9776d2e016c0b3aae6bb7ad2a6033db33b897",
+      "sha256": [
+        "15a8b3dfabbca5af4cdbc2518fe8747687dc6e50350e97c1ff67cb1f4e32c812",
+        "ccaacb16fcedd64107a9531836f9776d2e016c0b3aae6bb7ad2a6033db33b897"
+      ],
       "text": "That was close.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

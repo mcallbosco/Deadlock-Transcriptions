@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_blue_help_02.mp3",
   "revisions": [
     {
-      "sha256": "815f774b7c196e856faeede407a453ac20e4010f16b2a14990694c5d93e9fd9d",
-      "text": "Broadway needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1861d07ebafeb38ede03fefd457abf7df8d344a75df4a1cf2c923bf572695501",
+      "sha256": [
+        "1861d07ebafeb38ede03fefd457abf7df8d344a75df4a1cf2c923bf572695501",
+        "815f774b7c196e856faeede407a453ac20e4010f16b2a14990694c5d93e9fd9d"
+      ],
       "text": "Broadway needs help!",
       "source": "official"
     }

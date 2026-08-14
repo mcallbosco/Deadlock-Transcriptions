@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_attack_vindicta.mp3",
   "revisions": [
     {
-      "sha256": "97a95a04b6e4430dd1f27834b66dc7555282ea1e3f2fc729f867b5324bdc438d",
+      "sha256": [
+        "470ce7c321ca7ff5f84945e1b21b7e63e8e588c686d402ecda9c4ceb347e3aea",
+        "97a95a04b6e4430dd1f27834b66dc7555282ea1e3f2fc729f867b5324bdc438d"
+      ],
       "text": "Let's take out Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "017eb8a0263f8e583b24c5ebf558cfbe2241dc507659b906af3ddedef16634b2",
+      "sha256": [
+        "017eb8a0263f8e583b24c5ebf558cfbe2241dc507659b906af3ddedef16634b2"
+      ],
       "text": "Let's seek out Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "470ce7c321ca7ff5f84945e1b21b7e63e8e588c686d402ecda9c4ceb347e3aea",
-      "text": "Let's take out Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

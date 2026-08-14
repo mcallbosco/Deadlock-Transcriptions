@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "7f8838351d2d3f3a96e304202d361dfb3b4f326c0d1f6c2a2377537908201ca6",
+      "sha256": [
+        "7f8838351d2d3f3a96e304202d361dfb3b4f326c0d1f6c2a2377537908201ca6",
+        "c8940a8eaa1f2b0657b4a15e86df5b5206da8d45a2363544064653595fbccf62"
+      ],
       "text": "I'm with you, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "43a19433ac05a08b8db0542ac6f77953e2b358b8117dc3a591f6d5d1bfdf02a2",
+      "sha256": [
+        "43a19433ac05a08b8db0542ac6f77953e2b358b8117dc3a591f6d5d1bfdf02a2"
+      ],
       "text": "I'm with you, Reva.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c8940a8eaa1f2b0657b4a15e86df5b5206da8d45a2363544064653595fbccf62",
-      "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_vindicta_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "547845781780281a53e8d7278620db53538a1f2049a6f20cf83a717a3186b422",
-      "text": "This is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bcace75405d3a92a7f6a2942b3ad0fcdef865f17d5a649c699735e00ec302c8f",
+      "sha256": [
+        "547845781780281a53e8d7278620db53538a1f2049a6f20cf83a717a3186b422",
+        "bcace75405d3a92a7f6a2942b3ad0fcdef865f17d5a649c699735e00ec302c8f"
+      ],
       "text": "This is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

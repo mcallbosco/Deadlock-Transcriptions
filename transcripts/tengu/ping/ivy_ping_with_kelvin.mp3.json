@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "f12242bf19bcaca3e4e03384ab1c7add8f271d97a81f702cca1a6d69ddf1e182",
-      "text": "I'm with you, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcbb776a4eb75ebc1cb02cbf2672f6740530cf7f532f56dc10695ec67b72bc2b",
-      "text": "I'm with you, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d0476823917dc07ed028a60e5c38f31e08f4d1666af9f04aa72caed5ae51769",
+      "sha256": [
+        "5d0476823917dc07ed028a60e5c38f31e08f4d1666af9f04aa72caed5ae51769",
+        "dcbb776a4eb75ebc1cb02cbf2672f6740530cf7f532f56dc10695ec67b72bc2b",
+        "f12242bf19bcaca3e4e03384ab1c7add8f271d97a81f702cca1a6d69ddf1e182"
+      ],
       "text": "I'm with you, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

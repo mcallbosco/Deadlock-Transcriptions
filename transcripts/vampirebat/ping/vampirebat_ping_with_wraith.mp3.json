@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_with_wraith.mp3",
   "revisions": [
     {
-      "sha256": "23a5f75c8ca24322a3833a875bdb941640ace3acfc3d2a38f30c0ca33ecd7679",
+      "sha256": [
+        "23a5f75c8ca24322a3833a875bdb941640ace3acfc3d2a38f30c0ca33ecd7679",
+        "528c13913ef8c814637e58e7f013d200a3a1bbb7ead20ee951b165ea90f3618a"
+      ],
       "text": "I'm with you, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "528c13913ef8c814637e58e7f013d200a3a1bbb7ead20ee951b165ea90f3618a",
-      "text": "I'm with you, Wraith!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

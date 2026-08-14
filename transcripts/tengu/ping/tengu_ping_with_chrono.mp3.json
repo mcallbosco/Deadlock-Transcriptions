@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_chrono.mp3",
   "revisions": [
     {
-      "sha256": "6145997b80270fb35ee74b9813887105de25c9507bb67fd2daf6bd6c8f8cee3f",
+      "sha256": [
+        "3935270bc6a305891905a60e3b533985065edc7546ea44150ee12ff69f13ea29",
+        "6145997b80270fb35ee74b9813887105de25c9507bb67fd2daf6bd6c8f8cee3f"
+      ],
       "text": "I'm with you, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3935270bc6a305891905a60e3b533985065edc7546ea44150ee12ff69f13ea29",
-      "text": "I'm with you, Paradox!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

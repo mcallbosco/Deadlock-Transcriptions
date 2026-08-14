@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "4799893e4522e10b336acdb88b968ed6ea7d29c64841ab3e99fb83e618cae9ba",
-      "text": "Headed to Green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e63f06675d93f645bbf63ef348845f58ecee31ef1dda2b8e3b92adde2eace51",
-      "text": "Headed to green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8af944af01adbb95c38177f7944c85f870d138a099d2ebd190371bcf7c2cf974",
+      "sha256": [
+        "4799893e4522e10b336acdb88b968ed6ea7d29c64841ab3e99fb83e618cae9ba",
+        "8af944af01adbb95c38177f7944c85f870d138a099d2ebd190371bcf7c2cf974",
+        "8e63f06675d93f645bbf63ef348845f58ecee31ef1dda2b8e3b92adde2eace51"
+      ],
       "text": "Headed to Green",
       "source": "official"
     }

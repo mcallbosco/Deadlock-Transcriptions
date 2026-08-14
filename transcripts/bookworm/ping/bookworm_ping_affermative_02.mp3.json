@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_affermative_02.mp3",
   "revisions": [
     {
-      "sha256": "0dcad2f5ea228e3efc669e78c61bc61c2d7ac4e086a84fca62e0d3cb192d5486",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "435de316e2ee4b4a47ad83fc25c0977a7ef47a4f36c2a4c043acb382fb46014d",
+      "sha256": [
+        "0dcad2f5ea228e3efc669e78c61bc61c2d7ac4e086a84fca62e0d3cb192d5486",
+        "435de316e2ee4b4a47ad83fc25c0977a7ef47a4f36c2a4c043acb382fb46014d"
+      ],
       "text": "I like it.",
       "source": "official"
     }

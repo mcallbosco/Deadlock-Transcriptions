@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "a2c418168e60a16a977978899e1bf6f0781a29ee2991d7fa8fe701775d7112b7",
+      "sha256": [
+        "a2c418168e60a16a977978899e1bf6f0781a29ee2991d7fa8fe701775d7112b7"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

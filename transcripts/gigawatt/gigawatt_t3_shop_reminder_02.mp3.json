@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_t3_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "279944cfb5cbdb9790d9d6a5ddda6e1f255eff98cdd5f95734ba32c59b015c9c",
+      "sha256": [
+        "279944cfb5cbdb9790d9d6a5ddda6e1f255eff98cdd5f95734ba32c59b015c9c"
+      ],
       "text": "There's nothing I can't afford.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9349d1870a6b39e476bedf329400f890662a0da69ffa10c21335b4d7f22666f",
+      "sha256": [
+        "15d0b41c7f1c7f5f48229c8b3edfd399ab049b7ea559f05f2e261080f111fee7",
+        "b9349d1870a6b39e476bedf329400f890662a0da69ffa10c21335b4d7f22666f"
+      ],
       "text": "I can get something new with this tool.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "15d0b41c7f1c7f5f48229c8b3edfd399ab049b7ea559f05f2e261080f111fee7",
-      "text": "I can get something new with this tool.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00241255735c0e471bfbbfb27328eb4f200a3b5d428f61d4ffb2fb1a590c24d3",
+      "sha256": [
+        "00241255735c0e471bfbbfb27328eb4f200a3b5d428f61d4ffb2fb1a590c24d3"
+      ],
       "text": "I can get something new at the store",
       "source": "official"
     }

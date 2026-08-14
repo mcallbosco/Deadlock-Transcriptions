@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_nano_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "6a17c79ed03cf2e9126e6082fefa8784debbd6dc1f2fe764f256d982c6eeb3ff",
+      "sha256": [
+        "6a17c79ed03cf2e9126e6082fefa8784debbd6dc1f2fe764f256d982c6eeb3ff"
+      ],
       "text": "Now it was headed to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e87050a0535e590b6aca68386d04f5676c603484851119a7082f51ea2cd89472",
-      "text": "Nano's headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ebee1a887c317014a53c31f41b9e682972bcf49bef27e27cc5269e924cceec00",
+      "sha256": [
+        "e87050a0535e590b6aca68386d04f5676c603484851119a7082f51ea2cd89472",
+        "ebee1a887c317014a53c31f41b9e682972bcf49bef27e27cc5269e924cceec00"
+      ],
       "text": "Nano's headed to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

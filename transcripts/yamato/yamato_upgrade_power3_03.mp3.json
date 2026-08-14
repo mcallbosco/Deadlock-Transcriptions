@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "9f2ab217d9102158be529321d604ea6037fc9b3f62572085b865e3865b0a0ed0",
+      "sha256": [
+        "9f2ab217d9102158be529321d604ea6037fc9b3f62572085b865e3865b0a0ed0"
+      ],
       "text": "私は立ち上がって戦います。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa1d85e4aff6b8482e9eda976a00e227902cd56a87c8107243332a1996000004",
+      "sha256": [
+        "fa1d85e4aff6b8482e9eda976a00e227902cd56a87c8107243332a1996000004"
+      ],
       "text": "私は戦う、ひるむことなくな。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "71145f283f2f82336af125df2aeb48fece71dba5b72ea9ccfa53562b4b34cb7f",
+      "sha256": [
+        "71145f283f2f82336af125df2aeb48fece71dba5b72ea9ccfa53562b4b34cb7f"
+      ],
       "text": "I will stand and fight.",
       "source": "official"
     }

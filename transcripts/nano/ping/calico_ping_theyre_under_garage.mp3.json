@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_theyre_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "d17d9b57c60d780017a1b0750f78fd87ca65497aea3abb225f33e9f20587f6c5",
-      "text": "They're under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afee8342fb17be3903bb11065bcb7178575b7e492d4396b70c2a32e9182557be",
+      "sha256": [
+        "afee8342fb17be3903bb11065bcb7178575b7e492d4396b70c2a32e9182557be",
+        "d17d9b57c60d780017a1b0750f78fd87ca65497aea3abb225f33e9f20587f6c5"
+      ],
       "text": "They're under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

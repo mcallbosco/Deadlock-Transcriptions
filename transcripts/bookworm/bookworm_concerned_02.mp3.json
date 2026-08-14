@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_concerned_02.mp3",
   "revisions": [
     {
-      "sha256": "99ef737adc74c2514a1ca73f3400adbadf8ee73805f83508f67d2a68c4007ebb",
+      "sha256": [
+        "99ef737adc74c2514a1ca73f3400adbadf8ee73805f83508f67d2a68c4007ebb"
+      ],
       "text": "This is possible.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9f247479557e416c857bd47de2352112f9cd8c91f449a9444c4a916ac226d055",
-      "text": "Kelvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "62e3a7d046cbf340d1d318c6be34525915137948061038e44ae089f9e758adfc",
+        "9f247479557e416c857bd47de2352112f9cd8c91f449a9444c4a916ac226d055"
+      ],
+      "text": "Kelvin's missing",
+      "source": "official"
     },
     {
-      "sha256": "69aabddff304914e9c4f531b333e400587870b413151f3bd59c9ddbf5c997d54",
+      "sha256": [
+        "69aabddff304914e9c4f531b333e400587870b413151f3bd59c9ddbf5c997d54"
+      ],
       "text": "Can it is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62e3a7d046cbf340d1d318c6be34525915137948061038e44ae089f9e758adfc",
-      "text": "Kelvin's missing",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_stun_murphy_01.mp3",
   "revisions": [
     {
-      "sha256": "2832285465d5fcd81067f5971b3f8b34f12a57033798b1102d4311d368a366bc",
+      "sha256": [
+        "2832285465d5fcd81067f5971b3f8b34f12a57033798b1102d4311d368a366bc"
+      ],
       "text": "Scan Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dff6b5e02d400f8f1b7129547b6c3b8767592dabfcdd860814c2ef16b5782bef",
+      "sha256": [
+        "dff6b5e02d400f8f1b7129547b6c3b8767592dabfcdd860814c2ef16b5782bef"
+      ],
       "text": "Stand Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

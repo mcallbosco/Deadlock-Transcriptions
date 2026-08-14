@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "8635f238d2288374396d47742771846629ba14e16c872194108bbc563604734b",
-      "text": "Nice work!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "243648a631f3a5389b1a60c7c5d13f98e466016c72f5370aba03fad6c6791f75",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f1f8ad8308b0ff2f10d7721a75570d4edcd58a401288759159f9579c46177233",
+      "sha256": [
+        "243648a631f3a5389b1a60c7c5d13f98e466016c72f5370aba03fad6c6791f75",
+        "8635f238d2288374396d47742771846629ba14e16c872194108bbc563604734b",
+        "f1f8ad8308b0ff2f10d7721a75570d4edcd58a401288759159f9579c46177233"
+      ],
       "text": "Nice work!",
       "source": "official"
     }

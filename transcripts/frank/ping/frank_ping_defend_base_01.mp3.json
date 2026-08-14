@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_defend_base_01.mp3",
   "revisions": [
     {
-      "sha256": "b8682e7cf504351d0ad87dc4ae2221f6824e3c912b8ed74917e00f6799c2802a",
-      "text": "Defend the base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e9c39c7d224e5e42b95710b48fe0be9755921d31f999648df430ac86b132a94",
+      "sha256": [
+        "2e9c39c7d224e5e42b95710b48fe0be9755921d31f999648df430ac86b132a94",
+        "b8682e7cf504351d0ad87dc4ae2221f6824e3c912b8ed74917e00f6799c2802a"
+      ],
       "text": "Defend the base!",
       "source": "official"
     }

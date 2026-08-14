@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_tempest_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "53601fa852ebf41ac79f0d407bf2c03d39205527a0ada0db67d7249d317da019",
+      "sha256": [
+        "53601fa852ebf41ac79f0d407bf2c03d39205527a0ada0db67d7249d317da019",
+        "e9ffe2b75a5188963889876b56e623cfd7de3328a75077b952152c61db56b2fb"
+      ],
       "text": "Tempest is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "62d1ace47a0bcc87268bf6930fc9f0351ff82143448c817881071dc000cb34cc",
+      "sha256": [
+        "62d1ace47a0bcc87268bf6930fc9f0351ff82143448c817881071dc000cb34cc"
+      ],
       "text": "Tempus is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9ffe2b75a5188963889876b56e623cfd7de3328a75077b952152c61db56b2fb",
-      "text": "Tempest is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_geist_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "20f591fe6c617f0fe147962e201a8950a0fb6c6bc49aa3fc2779e9fc24147ff4",
+      "sha256": [
+        "20f591fe6c617f0fe147962e201a8950a0fb6c6bc49aa3fc2779e9fc24147ff4"
+      ],
       "text": "That's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

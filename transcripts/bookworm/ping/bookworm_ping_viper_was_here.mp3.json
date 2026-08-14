@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_viper_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3f343f2fb0e7b94e12231b95c17002857b6b1545ca87ba40dfd982375d3afd26",
+      "sha256": [
+        "3f343f2fb0e7b94e12231b95c17002857b6b1545ca87ba40dfd982375d3afd26"
+      ],
       "text": "Viper was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4d4ad8237ad9197eed7fe863ec9c101e1d83a79269f739b5b73a7de19145bb84",
+      "sha256": [
+        "4d4ad8237ad9197eed7fe863ec9c101e1d83a79269f739b5b73a7de19145bb84"
+      ],
       "text": "Driver was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

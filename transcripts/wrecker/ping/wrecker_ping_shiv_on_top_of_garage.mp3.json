@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_shiv_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "9f2ec9186c045077e811376c6510ea2b03ebfa3fbf31c214a00723548095ae45",
+      "sha256": [
+        "9f2ec9186c045077e811376c6510ea2b03ebfa3fbf31c214a00723548095ae45",
+        "b6343925cb625e1b405a5a054df9e5ae7a38b12119ce62f820735fc579b166c0"
+      ],
       "text": "Shiv's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6343925cb625e1b405a5a054df9e5ae7a38b12119ce62f820735fc579b166c0",
-      "text": "shiv's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

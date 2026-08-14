@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power3_07.mp3",
   "revisions": [
     {
-      "sha256": "e8fba915a3074020bc8a86f489d3bb0a48fe7cf511da9c4c64b2151e19901baf",
+      "sha256": [
+        "e8fba915a3074020bc8a86f489d3bb0a48fe7cf511da9c4c64b2151e19901baf"
+      ],
       "text": "何人たりとも私の心を折ることはできん。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "01e0629e1a8cc20d97053f2b2c4673cf9ab69b4765d7343cea76b08d58a4e859",
+      "sha256": [
+        "01e0629e1a8cc20d97053f2b2c4673cf9ab69b4765d7343cea76b08d58a4e859"
+      ],
       "text": "My spirit will not be broken",
       "source": "official"
     }

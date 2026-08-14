@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_calico_in_mid_1.mp3",
   "revisions": [
     {
-      "sha256": "b322266a49d678cc0d5842ab635a763be8564100807a9b750ab5947ff0e87ec5",
-      "text": "Calico's in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe421b519cdda2865db0568298b1e9a4fa885dbcfda221e554cebf568e9aaa57",
+      "sha256": [
+        "b322266a49d678cc0d5842ab635a763be8564100807a9b750ab5947ff0e87ec5",
+        "fe421b519cdda2865db0568298b1e9a4fa885dbcfda221e554cebf568e9aaa57"
+      ],
       "text": "Calico's in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

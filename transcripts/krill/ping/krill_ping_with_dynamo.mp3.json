@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "e497664bb0ca2ed81cc915460c01d747465dc62fd4eff1831ead38457920a73b",
+      "sha256": [
+        "6f8d48e5f68b1d55133f9331ba204d186bdabc00327be5e569cc30cac775686a",
+        "b5849faeed2f8950abd1f363f9d9609e0cc658ebf63f27559ebd32cc4aa56283",
+        "e497664bb0ca2ed81cc915460c01d747465dc62fd4eff1831ead38457920a73b"
+      ],
       "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b5849faeed2f8950abd1f363f9d9609e0cc658ebf63f27559ebd32cc4aa56283",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f8d48e5f68b1d55133f9331ba204d186bdabc00327be5e569cc30cac775686a",
-      "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

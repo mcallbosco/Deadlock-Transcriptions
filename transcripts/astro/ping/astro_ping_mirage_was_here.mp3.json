@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d3d6b5ccbd6ab2e317286cb5b38a3c68953ed847b65ca9111469f6598a3cc07c",
+      "sha256": [
+        "d3d6b5ccbd6ab2e317286cb5b38a3c68953ed847b65ca9111469f6598a3cc07c"
+      ],
       "text": "Mirage is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

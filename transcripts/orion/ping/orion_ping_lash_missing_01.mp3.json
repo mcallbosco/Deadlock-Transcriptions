@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_lash_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "dee275ac578ce771307af2582f1f1e0b1b3d5dec12b972f4f7b4c09cdd7b1f0d",
+      "sha256": [
+        "4fc04f75ae34fdf3aa5c11ae9df15845a3953121a78af38423e2758ce00f751e",
+        "c561718b4cb76b7bdc6a6c3ada34d99dc3fc1dd7a164e6ede23bc4e38420aca2",
+        "dee275ac578ce771307af2582f1f1e0b1b3d5dec12b972f4f7b4c09cdd7b1f0d"
+      ],
       "text": "Lash is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c561718b4cb76b7bdc6a6c3ada34d99dc3fc1dd7a164e6ede23bc4e38420aca2",
-      "text": "Lash is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fc04f75ae34fdf3aa5c11ae9df15845a3953121a78af38423e2758ce00f751e",
-      "text": "Lash is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7168aead8435733732fe543db82d0bfbb1e9391f2f5918af77f53b1eafcefc84",
+      "sha256": [
+        "7168aead8435733732fe543db82d0bfbb1e9391f2f5918af77f53b1eafcefc84"
+      ],
       "text": "Lash's missing",
       "source": "official"
     }

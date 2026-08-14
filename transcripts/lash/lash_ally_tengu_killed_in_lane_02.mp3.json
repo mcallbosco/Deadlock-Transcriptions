@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_ally_tengu_killed_in_lane_02.mp3",
   "revisions": [
     {
-      "sha256": "164618e22606516748a01f3c8db1e057b6f4d9db72d7b961421b97424638e7fd",
+      "sha256": [
+        "164618e22606516748a01f3c8db1e057b6f4d9db72d7b961421b97424638e7fd",
+        "37791a5389645843aa0779181a4ef0fd7e113ba0f5c50247c24dc5b9000bcf53"
+      ],
       "text": "I took out the gargoyle!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "37791a5389645843aa0779181a4ef0fd7e113ba0f5c50247c24dc5b9000bcf53",
-      "text": "I took out the gargoyle!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8665668c38a240464fec33605ef93301a90c75b0e622b13f7d0bc85b356e9e37",
+      "sha256": [
+        "8665668c38a240464fec33605ef93301a90c75b0e622b13f7d0bc85b356e9e37"
+      ],
       "text": "They took out the gargoyle!",
       "source": "official"
     }

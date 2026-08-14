@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "magician/ping/magician_savannah_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "cd8898f2128a95032688ced3eb294c74c335e4b0dfb69002bdbf19838f891c93",
+      "sha256": [
+        "cd8898f2128a95032688ced3eb294c74c335e4b0dfb69002bdbf19838f891c93"
+      ],
       "text": "Missing orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

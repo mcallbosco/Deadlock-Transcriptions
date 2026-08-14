@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "d1f2c779b0b4ac7ebdfeedb92cc90519a687b870179dcf39ea3e2b5bd2701c98",
-      "text": "Missing purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "951017a80e894084df3faa56b359e00ee191ab6fe48720cbe1f92af51409e9b0",
+      "sha256": [
+        "951017a80e894084df3faa56b359e00ee191ab6fe48720cbe1f92af51409e9b0",
+        "d1f2c779b0b4ac7ebdfeedb92cc90519a687b870179dcf39ea3e2b5bd2701c98"
+      ],
       "text": "Missing purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

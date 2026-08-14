@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a2258a9abbd8028bec9c78cfadd62eeec2e69998053e13bd59c774cc1ac26902",
+      "sha256": [
+        "a2258a9abbd8028bec9c78cfadd62eeec2e69998053e13bd59c774cc1ac26902"
+      ],
       "text": "You have a transmission.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "89f1ed6420da9cbb3ce68f2ba94f371293fcd6e20f32f51c53d9ef0a387454a8",
+      "sha256": [
+        "89f1ed6420da9cbb3ce68f2ba94f371293fcd6e20f32f51c53d9ef0a387454a8"
+      ],
       "text": "Yamato's missing.",
       "source": "official"
     }

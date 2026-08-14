@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_chrono_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "7cb0b6dac2661bd5caa752d45c2b8c05a5e425d3760863ce6d0ea3135bad6cf3",
+      "sha256": [
+        "7cb0b6dac2661bd5caa752d45c2b8c05a5e425d3760863ce6d0ea3135bad6cf3"
+      ],
       "text": "Paradox is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b1a02c882ccac7eb669f11e2bfd9b2aa78a0da8b758255e9dae428beaa5e8cd",
+      "sha256": [
+        "0b1a02c882ccac7eb669f11e2bfd9b2aa78a0da8b758255e9dae428beaa5e8cd"
+      ],
       "text": "Paradox's on the bridge!",
       "source": "official"
     }

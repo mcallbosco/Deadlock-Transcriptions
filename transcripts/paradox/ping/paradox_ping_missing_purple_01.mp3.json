@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "a75d142177677af0cce3e8a831827a533c01be375d3d3d7d668907766953b848",
-      "text": "Missing purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d60ddc070d9807d1e644bb307bb221c8758f6ba6e594f2a34fd92b22fd04ab7",
+      "sha256": [
+        "9d60ddc070d9807d1e644bb307bb221c8758f6ba6e594f2a34fd92b22fd04ab7",
+        "a75d142177677af0cce3e8a831827a533c01be375d3d3d7d668907766953b848"
+      ],
       "text": "Missing purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

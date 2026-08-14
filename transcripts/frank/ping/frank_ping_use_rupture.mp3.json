@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_use_rupture.mp3",
   "revisions": [
     {
-      "sha256": "ae2d5ba5de5396be5abab02539ed768c122c063c1ccd2fdd9640327e95218962",
-      "text": "Ready to use decay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "930f014f293872692f155e46acb6e4d6e4b6407c829ef99bcb39b34ddf7aff82",
+      "sha256": [
+        "930f014f293872692f155e46acb6e4d6e4b6407c829ef99bcb39b34ddf7aff82",
+        "ae2d5ba5de5396be5abab02539ed768c122c063c1ccd2fdd9640327e95218962"
+      ],
       "text": "Ready to use Decay.",
       "source": "official"
     }

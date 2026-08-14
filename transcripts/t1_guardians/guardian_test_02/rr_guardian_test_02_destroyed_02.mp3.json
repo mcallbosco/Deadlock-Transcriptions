@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_destroyed_02.mp3",
   "revisions": [
     {
-      "sha256": "f427477ac1cf6f067968a61d3f4fec010a99844625f4ad1bf4c185271f68a54a",
-      "text": "Orange Guardian is destroyed!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48f314b98f76f4e1745141eae93e21d423fe091cadd675d1ce540b2249813da0",
-      "text": "Orange Guardian is destroyed!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61805fdb31b57b49c0ece0076a60120172d71a6fd804818dda876f6a9a1fdb53",
+      "sha256": [
+        "48f314b98f76f4e1745141eae93e21d423fe091cadd675d1ce540b2249813da0",
+        "61805fdb31b57b49c0ece0076a60120172d71a6fd804818dda876f6a9a1fdb53",
+        "f427477ac1cf6f067968a61d3f4fec010a99844625f4ad1bf4c185271f68a54a"
+      ],
       "text": "Orange Guardian is destroyed!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "89d1fea1b01246f5af569e572f49041023696f3eb4297ab10c7dbdc873d27955",
+      "sha256": [
+        "89d1fea1b01246f5af569e572f49041023696f3eb4297ab10c7dbdc873d27955"
+      ],
       "text": "I'm with you again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e5ca284d949cac45f118fc03382b44c9ebfb138c7f67cf291f60a53205532bbd",
+      "sha256": [
+        "e5ca284d949cac45f118fc03382b44c9ebfb138c7f67cf291f60a53205532bbd"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

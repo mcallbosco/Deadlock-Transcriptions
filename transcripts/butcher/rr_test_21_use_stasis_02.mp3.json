@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_stasis_02.mp3",
   "revisions": [
     {
-      "sha256": "cfa7fd370c8115f2fdc7c74218e0a1c73890c1fba047b3e88d353640d284228c",
-      "text": "Need to make space.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f14b308ac5964af366031987a6e5a5ed15f1a6cad898a700c11ab6e814c45d32",
-      "text": "Need to make space.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9738ecddbc01c17a9559998e54c2b20989f208dc281602701292dcf0cade8704",
+      "sha256": [
+        "9738ecddbc01c17a9559998e54c2b20989f208dc281602701292dcf0cade8704",
+        "cfa7fd370c8115f2fdc7c74218e0a1c73890c1fba047b3e88d353640d284228c",
+        "f14b308ac5964af366031987a6e5a5ed15f1a6cad898a700c11ab6e814c45d32"
+      ],
       "text": "Need to make space.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

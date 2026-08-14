@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/slork_select_01.mp3",
   "revisions": [
     {
-      "sha256": "956d64b5df90588e3a6ff1a50bd7fc7eb75dc196d003e300540b086dff0429a6",
-      "text": "The adversary will bow to me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4f63b34326bc6acfeca07aa30c6cebe3db5a403bb35d050a88825db01211a5f",
+      "sha256": [
+        "956d64b5df90588e3a6ff1a50bd7fc7eb75dc196d003e300540b086dff0429a6",
+        "d4f63b34326bc6acfeca07aa30c6cebe3db5a403bb35d050a88825db01211a5f"
+      ],
       "text": "The adversary will bow to me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

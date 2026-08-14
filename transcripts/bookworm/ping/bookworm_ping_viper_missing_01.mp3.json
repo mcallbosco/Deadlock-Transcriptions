@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_viper_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a75411c10bbde78919e6dbd1dd5969f3cef557fb8ab49cab0fc455359ad04d73",
+      "sha256": [
+        "a75411c10bbde78919e6dbd1dd5969f3cef557fb8ab49cab0fc455359ad04d73"
+      ],
       "text": "Viper's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "693933f5168444439249845cc4c72d42b9ac5792dbc22f7551d7e13acdd45429",
+      "sha256": [
+        "693933f5168444439249845cc4c72d42b9ac5792dbc22f7551d7e13acdd45429"
+      ],
       "text": "Vyper's missing.",
       "source": "official"
     }

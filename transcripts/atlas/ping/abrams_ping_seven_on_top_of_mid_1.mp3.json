@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_seven_on_top_of_mid_1.mp3",
   "revisions": [
     {
-      "sha256": "fc1b94baf01f852dac8268ef2bb082503213dd4ed60d07982eb9df38decfe934",
-      "text": "Seven's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "051afe9e26554f22d9c12afca8d3073d2554df41d4c7016133ca14df84d02a26",
+      "sha256": [
+        "051afe9e26554f22d9c12afca8d3073d2554df41d4c7016133ca14df84d02a26",
+        "fc1b94baf01f852dac8268ef2bb082503213dd4ed60d07982eb9df38decfe934"
+      ],
       "text": "Seven's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

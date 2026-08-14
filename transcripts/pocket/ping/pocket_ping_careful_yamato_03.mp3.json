@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_careful_yamato_03.mp3",
   "revisions": [
     {
-      "sha256": "79dd9df9a34b34980ec762962ed0d9da0b574add9683c0686541d27a9c5073ae",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e33c29cae7152dd698a4be48f56fdab71f5978c435f3ff5c8bf05d61e98afbb1",
+      "sha256": [
+        "79dd9df9a34b34980ec762962ed0d9da0b574add9683c0686541d27a9c5073ae",
+        "e33c29cae7152dd698a4be48f56fdab71f5978c435f3ff5c8bf05d61e98afbb1"
+      ],
       "text": "Careful, Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

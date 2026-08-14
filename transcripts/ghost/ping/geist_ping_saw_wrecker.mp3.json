@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "077331271d0184401be6b91e4a8e77139fd2dc54070a3820f5e70624487bd823",
-      "text": "I saw a wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ba0d6705fb6999982ff6d542f63171d5b3ba4288798d8c9d82e07a9cd79aebe",
+      "sha256": [
+        "077331271d0184401be6b91e4a8e77139fd2dc54070a3820f5e70624487bd823",
+        "7ba0d6705fb6999982ff6d542f63171d5b3ba4288798d8c9d82e07a9cd79aebe"
+      ],
       "text": "I saw a wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

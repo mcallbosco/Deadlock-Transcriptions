@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_magician_dead.mp3",
   "revisions": [
     {
-      "sha256": "56f451c855aaa470dedc282c2ef8ab6ea77c60e08c41ea4f93655d7a7ab0d98d",
-      "text": "Sinclair is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b60d6dea23dd2101194bab9206085e9ecae375d82619cb565a3a390f2e04fc0d",
+      "sha256": [
+        "56f451c855aaa470dedc282c2ef8ab6ea77c60e08c41ea4f93655d7a7ab0d98d",
+        "b60d6dea23dd2101194bab9206085e9ecae375d82619cb565a3a390f2e04fc0d"
+      ],
       "text": "Sinclair is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

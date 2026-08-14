@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_murphy.mp3",
   "revisions": [
     {
-      "sha256": "576f2c02b8e1910e229693a1a7a6d525394471b7fbaf0e23be5ceea85ff5f43c",
-      "text": "I saw Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e5acab631b15e6fae2e88556bf4e3d7e5c62f31428289eead30e9e33a6d017c",
-      "text": "I saw Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4686c5a9fb890eeab9e113f3498eb3cc3392358e82e9b65c34f31ce0330a6412",
+      "sha256": [
+        "4686c5a9fb890eeab9e113f3498eb3cc3392358e82e9b65c34f31ce0330a6412",
+        "576f2c02b8e1910e229693a1a7a6d525394471b7fbaf0e23be5ceea85ff5f43c",
+        "8e5acab631b15e6fae2e88556bf4e3d7e5c62f31428289eead30e9e33a6d017c"
+      ],
       "text": "I saw Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

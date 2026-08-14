@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_careful_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "79b9b83513d583f0b2c790485e58e890978866539a34c073e26e0fe4a59de9db",
+      "sha256": [
+        "79b9b83513d583f0b2c790485e58e890978866539a34c073e26e0fe4a59de9db"
+      ],
       "text": "Give Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a33dbfced6d39e9b93883a5945087b6fa7df2ff57fae1629dd9888a0e91916e8",
+      "sha256": [
+        "a33dbfced6d39e9b93883a5945087b6fa7df2ff57fae1629dd9888a0e91916e8"
+      ],
       "text": "Careful, Mirage…",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_saw_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "d3cde460140c88efa975ce18358825c57f7b0dc353881ee5271ed1535b8cffa2",
+      "sha256": [
+        "d3cde460140c88efa975ce18358825c57f7b0dc353881ee5271ed1535b8cffa2"
+      ],
       "text": "I saw a ricker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b12d8697fee2f5d8211f48df230427a071f55c471f146e75158ac82cb12e1ece",
+      "sha256": [
+        "b12d8697fee2f5d8211f48df230427a071f55c471f146e75158ac82cb12e1ece"
+      ],
       "text": "I'm still a wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

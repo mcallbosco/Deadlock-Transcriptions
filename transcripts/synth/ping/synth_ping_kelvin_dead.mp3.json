@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "e321c92c811eda251241f935804838d47adc0630978b2483004c504fc4349926",
+      "sha256": [
+        "e321c92c811eda251241f935804838d47adc0630978b2483004c504fc4349926"
+      ],
       "text": "Calvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

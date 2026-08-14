@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_match_start_gigawatt_chrono_convo03_05.mp3",
   "revisions": [
     {
-      "sha256": "20cb3835255b0c32862ccdfc81e3ea126681113b397a97974fa77a8a94fe136e",
+      "sha256": [
+        "20cb3835255b0c32862ccdfc81e3ea126681113b397a97974fa77a8a94fe136e",
+        "8a3b2165351a6eb51098a7060a297cb094adce51150c3e8ae73c9ee4617930b9"
+      ],
       "text": "We speak later.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a3b2165351a6eb51098a7060a297cb094adce51150c3e8ae73c9ee4617930b9",
-      "text": "We speak later.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d50ec89c514160872469c0d3f9563c0963aadfb6bfd48497c7f020eb9912de0",
+      "sha256": [
+        "5d50ec89c514160872469c0d3f9563c0963aadfb6bfd48497c7f020eb9912de0"
+      ],
       "text": "We'll speak later.",
       "source": "official"
     }

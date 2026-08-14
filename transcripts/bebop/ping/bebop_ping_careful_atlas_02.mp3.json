@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_atlas_02.mp3",
   "revisions": [
     {
-      "sha256": "1f87489121b4d3d91f6c6af8b2a4d07349fb07c55b8473b3ae2c4128e4d9bfac",
+      "sha256": [
+        "1f87489121b4d3d91f6c6af8b2a4d07349fb07c55b8473b3ae2c4128e4d9bfac"
+      ],
       "text": "Kill livers!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4de91fa4a6e43e0091a908f9f4bba79d06a7f6856b0ffca209675f2bb70ac4b1",
+      "sha256": [
+        "4de91fa4a6e43e0091a908f9f4bba79d06a7f6856b0ffca209675f2bb70ac4b1"
+      ],
       "text": "Careful, Abrams.",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "a83b8fe14b6f2fe08a3099f65e5195b12b92459c6436c1e97dcf2c62dffde951",
-      "text": "They were here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50ea4788684f88a40f1666d74e2cf6c4ed6cbac8b081255c80f1f2930937ec13",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1f638ce465167683a35ca3da0af037c8019b78ef9a7c9a63d93c1a43f327427",
+      "sha256": [
+        "50ea4788684f88a40f1666d74e2cf6c4ed6cbac8b081255c80f1f2930937ec13",
+        "a83b8fe14b6f2fe08a3099f65e5195b12b92459c6436c1e97dcf2c62dffde951",
+        "c1f638ce465167683a35ca3da0af037c8019b78ef9a7c9a63d93c1a43f327427"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

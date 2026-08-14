@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_negative_01.mp3",
   "revisions": [
     {
-      "sha256": "f9adec1dc8c938a104f6098cb98d634030ce9a72a77b2c61e39a6b07e2b226cd",
-      "text": "No.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25aedba4190f741fcdd3afa5d29b2fa012fd2d00a6c28b3fba412769684ae3f5",
-      "text": "No.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca403b489c75f3134ec00c1296cfdd558744aa45346a59cf12ec43958f65f019",
+      "sha256": [
+        "25aedba4190f741fcdd3afa5d29b2fa012fd2d00a6c28b3fba412769684ae3f5",
+        "ca403b489c75f3134ec00c1296cfdd558744aa45346a59cf12ec43958f65f019",
+        "f9adec1dc8c938a104f6098cb98d634030ce9a72a77b2c61e39a6b07e2b226cd"
+      ],
       "text": "No.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

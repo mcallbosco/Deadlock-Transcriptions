@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "cb62603cf47be975353ebc61ea445a570ecf02314845d10b5f68ddc1951149fd",
+      "sha256": [
+        "cb62603cf47be975353ebc61ea445a570ecf02314845d10b5f68ddc1951149fd",
+        "ee76b0ae4113ca2cb923c0fda8f729d728c5d4ddbc8866cc432d44ef61c407c8"
+      ],
       "text": "How did this way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee76b0ae4113ca2cb923c0fda8f729d728c5d4ddbc8866cc432d44ef61c407c8",
-      "text": "How did this way?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

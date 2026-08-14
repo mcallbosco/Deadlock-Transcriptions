@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_jar_call_01.mp3",
   "revisions": [
     {
-      "sha256": "d2b7a770b9421a441765d05724dd08abba7b8e8fb6bb8a1bf6b5ee0927fafa6e",
+      "sha256": [
+        "0be7e7eb1289c7a157f49ff5fafe1455319b81b0e30ef128af2143f776d02cb1",
+        "d2b7a770b9421a441765d05724dd08abba7b8e8fb6bb8a1bf6b5ee0927fafa6e",
+        "ffe40b02c3da8abef8c91f437d3d495841e85fe325dd3d6c5e10b05ca4f199d0"
+      ],
       "text": "Spirit jars here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ffe40b02c3da8abef8c91f437d3d495841e85fe325dd3d6c5e10b05ca4f199d0",
-      "text": "Spirit jars here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0be7e7eb1289c7a157f49ff5fafe1455319b81b0e30ef128af2143f776d02cb1",
-      "text": "Spiritjar's here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df14edba44a6e38a2983ea16c681ead0dd219cbbd1a16ab45f284d4611d67d74",
+      "sha256": [
+        "df14edba44a6e38a2983ea16c681ead0dd219cbbd1a16ab45f284d4611d67d74"
+      ],
       "text": "Spirit Jar is here!",
       "source": "official"
     }

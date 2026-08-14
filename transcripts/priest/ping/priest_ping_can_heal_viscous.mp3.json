@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_viscous.mp3",
   "revisions": [
     {
-      "sha256": "5b00911baee5d9df7386b6bcdbf4a1f322325a8c936d47fa1b40e1c4b9adb78e",
+      "sha256": [
+        "5b00911baee5d9df7386b6bcdbf4a1f322325a8c936d47fa1b40e1c4b9adb78e"
+      ],
       "text": "Griswold, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8b5e23df9caceaa1347ec48f36019addba9b7b8bd836a8c4af27b67e08af5259",
+      "sha256": [
+        "8b5e23df9caceaa1347ec48f36019addba9b7b8bd836a8c4af27b67e08af5259"
+      ],
       "text": "Viscous, I can heal you!",
       "source": "official"
     }

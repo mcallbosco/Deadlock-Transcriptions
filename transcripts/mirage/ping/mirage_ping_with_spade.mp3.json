@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_with_spade.mp3",
   "revisions": [
     {
-      "sha256": "d855aa4fddc1747469359e9a2c5a694c4722f822fc6fb8be498de75ca6752167",
+      "sha256": [
+        "d855aa4fddc1747469359e9a2c5a694c4722f822fc6fb8be498de75ca6752167"
+      ],
       "text": "I made this bed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_saw_holliday.mp3",
   "revisions": [
     {
-      "sha256": "04677f9d10b4ce0722c0336265b19bbedbd69ade0de7427c55f16a77d50374fb",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8972ed5eaf49a014f92f6e075b83b6b032f192de3bba5c2c81719a81efd45108",
+      "sha256": [
+        "04677f9d10b4ce0722c0336265b19bbedbd69ade0de7427c55f16a77d50374fb",
+        "8972ed5eaf49a014f92f6e075b83b6b032f192de3bba5c2c81719a81efd45108"
+      ],
       "text": "I saw Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

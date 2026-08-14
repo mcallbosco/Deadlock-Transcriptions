@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_purple_full_health_01.mp3",
   "revisions": [
     {
-      "sha256": "7895e7aed8f9367e2a114f69c5bdaef075fcbc802826ed17ddfe160b25c8c04c",
-      "text": "Purple Guardian has full health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82167859f04aa76705e2a35e0c6fc45cab8a367da8926fc53c78187aa19eb61c",
-      "text": "Purple Guardian has full health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed8320007cb84e7b5140c5cb6198f55cfab178b6c2cca8b8b39ac6f4d1f37a83",
+      "sha256": [
+        "7895e7aed8f9367e2a114f69c5bdaef075fcbc802826ed17ddfe160b25c8c04c",
+        "82167859f04aa76705e2a35e0c6fc45cab8a367da8926fc53c78187aa19eb61c",
+        "ed8320007cb84e7b5140c5cb6198f55cfab178b6c2cca8b8b39ac6f4d1f37a83"
+      ],
       "text": "Purple Guardian has full health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

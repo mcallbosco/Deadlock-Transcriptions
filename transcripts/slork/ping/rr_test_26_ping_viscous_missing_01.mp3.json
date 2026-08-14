@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "739d38d126d0b8fff27d30643ed62c07d2ec77c6f81ce098e6020fd0153f1088",
-      "text": "Vicious is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6438111bdc2d8d228c26ccc0eacfa45317d6ce6afb74950941caa59b691eedf5",
+      "sha256": [
+        "6438111bdc2d8d228c26ccc0eacfa45317d6ce6afb74950941caa59b691eedf5",
+        "739d38d126d0b8fff27d30643ed62c07d2ec77c6f81ce098e6020fd0153f1088"
+      ],
       "text": "Vicious is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

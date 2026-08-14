@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "4356af4be38cceb7c99e1787f6426ba9fc979536d4d76ff6726c663a122dabb1",
+      "sha256": [
+        "4356af4be38cceb7c99e1787f6426ba9fc979536d4d76ff6726c663a122dabb1"
+      ],
       "text": "Careful, biscuit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cd85c4e0e64f0cdb9d7ffe5d48088971dcf8445e584e3638710323335003cd47",
+      "sha256": [
+        "cd85c4e0e64f0cdb9d7ffe5d48088971dcf8445e584e3638710323335003cd47"
+      ],
       "text": "Careful, Viscous…",
       "source": "official"
     }

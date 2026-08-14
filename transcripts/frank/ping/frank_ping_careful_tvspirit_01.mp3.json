@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_tvspirit_01.mp3",
   "revisions": [
     {
-      "sha256": "40da7bdccafb1df046e265872053daa13033759283fe355f89e6315e8dbe1f42",
+      "sha256": [
+        "012a3ffaad7103b910cf2832692a408b1b9215854ecb050d6d5a71be68fe56cd",
+        "40da7bdccafb1df046e265872053daa13033759283fe355f89e6315e8dbe1f42"
+      ],
       "text": "Careful poltergeist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "012a3ffaad7103b910cf2832692a408b1b9215854ecb050d6d5a71be68fe56cd",
-      "text": "Careful, Poltergeist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_engineer_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "97b9c5ed9e793a43621ec389fa7c62dbbc2c208dc2b404b8ec6d323edd66539b",
-      "text": "Engineer is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef6fdaacf428687b7bae45a249245f8aaed7c166b40d2d990c042ef73d6914f0",
-      "text": "Engineer is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8edfa7bc6c3b2a7335fa1535868c1c2398e345965d98c639e3de4509a52d3083",
+      "sha256": [
+        "8edfa7bc6c3b2a7335fa1535868c1c2398e345965d98c639e3de4509a52d3083",
+        "97b9c5ed9e793a43621ec389fa7c62dbbc2c208dc2b404b8ec6d323edd66539b",
+        "ef6fdaacf428687b7bae45a249245f8aaed7c166b40d2d990c042ef73d6914f0"
+      ],
       "text": "Engineer is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

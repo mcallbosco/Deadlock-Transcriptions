@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "113834600884e99d704575b2d7e8b085f5f732fe7f439e26ec3ce980cb579c16",
+      "sha256": [
+        "113834600884e99d704575b2d7e8b085f5f732fe7f439e26ec3ce980cb579c16",
+        "553150c7950324bc1739219a8ce12329b41cd84332f5f9a34a6c5a0346f0b7d3"
+      ],
       "text": "Cover me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "553150c7950324bc1739219a8ce12329b41cd84332f5f9a34a6c5a0346f0b7d3",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa60bcab2d166aacae6616e600876ae8d247433b693bd9350c39e51b981954d9",
+      "sha256": [
+        "fa60bcab2d166aacae6616e600876ae8d247433b693bd9350c39e51b981954d9"
+      ],
       "text": "Gather me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

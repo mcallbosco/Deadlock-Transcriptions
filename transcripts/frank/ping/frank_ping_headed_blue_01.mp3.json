@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "7aedb1ee411cf06673e86821a24e1a34ff6b5310fe52c85fc589d155e941a521",
-      "text": "Headed to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "47f602193343de34d4764d7b733bd587a11a08c0ce88fd11c5af57b96f206673",
+      "sha256": [
+        "47f602193343de34d4764d7b733bd587a11a08c0ce88fd11c5af57b96f206673",
+        "7aedb1ee411cf06673e86821a24e1a34ff6b5310fe52c85fc589d155e941a521"
+      ],
       "text": "Headed to Blue.",
       "source": "official"
     }

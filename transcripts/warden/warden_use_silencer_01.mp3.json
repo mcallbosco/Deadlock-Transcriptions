@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_use_silencer_01.mp3",
   "revisions": [
     {
-      "sha256": "21a4f05ed234d51556256fa0eac51dfa27d31f4fe9da6d0c2a24a4737440b8d2",
-      "text": "I'll stop their magic.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ccd6f186466eec99f6d0881939bfc9042ba8ef9cb3ea68984fc1b5ddbadd3ba",
-      "text": "I'll stop their magic!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "514d00534cd7c0f0a06d98a388d07acac1206ca92e044ea279afcfd3efdccfc5",
-      "text": "I'll stop their magic!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93e53efb7bac250f9fc22bb18b7aad150dfd48e58a9e022e3f924ca0b613c859",
+      "sha256": [
+        "0ccd6f186466eec99f6d0881939bfc9042ba8ef9cb3ea68984fc1b5ddbadd3ba",
+        "21a4f05ed234d51556256fa0eac51dfa27d31f4fe9da6d0c2a24a4737440b8d2",
+        "514d00534cd7c0f0a06d98a388d07acac1206ca92e044ea279afcfd3efdccfc5",
+        "93e53efb7bac250f9fc22bb18b7aad150dfd48e58a9e022e3f924ca0b613c859"
+      ],
       "text": "I'll stop their magic!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

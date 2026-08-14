@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_upgrade_power3_10.mp3",
   "revisions": [
     {
-      "sha256": "92f9c664e000bcd72423042fee0801845c9838187df949023670936668b8d5ff",
+      "sha256": [
+        "92f9c664e000bcd72423042fee0801845c9838187df949023670936668b8d5ff"
+      ],
       "text": "This is my break, boy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dedf763ec41d738f81eee721a45231261573f9c79bd97a2221b0975c71b3ad8c",
-      "text": "This is my bread and butter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c32b7bd1143aafdd7cc2ce21bb3e699ecc04469e4d3e20cf4f2b5b051268289a",
-      "text": "This is my bread and butter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4718354a0c3da869f31303e2056b08d0cda23eb109f6eebf819e1b5304763eb",
+      "sha256": [
+        "c32b7bd1143aafdd7cc2ce21bb3e699ecc04469e4d3e20cf4f2b5b051268289a",
+        "dedf763ec41d738f81eee721a45231261573f9c79bd97a2221b0975c71b3ad8c",
+        "f4718354a0c3da869f31303e2056b08d0cda23eb109f6eebf819e1b5304763eb"
+      ],
       "text": "This is my bread and butter.",
       "source": "official"
     }

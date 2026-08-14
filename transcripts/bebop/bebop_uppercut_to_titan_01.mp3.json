@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_uppercut_to_titan_01.mp3",
   "revisions": [
     {
-      "sha256": "41004e2bffe949347cecd1151cd887dc3c30332e05f4d1bcd0097ad3c567d1c4",
+      "sha256": [
+        "41004e2bffe949347cecd1151cd887dc3c30332e05f4d1bcd0097ad3c567d1c4",
+        "9f481153bbc1456274011e43f1b7ebbe98ec163b885596dc387d9c2582f5cf7b"
+      ],
       "text": "You want the avatar? Here you go!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9f481153bbc1456274011e43f1b7ebbe98ec163b885596dc387d9c2582f5cf7b",
-      "text": "You want the avatar? Here you go!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7fb58f3e532e1c3ae903257d11b6d1e73c2a6ebc729fe17f149d756d2a6498e",
+      "sha256": [
+        "a7fb58f3e532e1c3ae903257d11b6d1e73c2a6ebc729fe17f149d756d2a6498e"
+      ],
       "text": "You on the patron? Here you go.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

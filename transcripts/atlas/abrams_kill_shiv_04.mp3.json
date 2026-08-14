@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_shiv_04.mp3",
   "revisions": [
     {
-      "sha256": "ecdc873c08d0c4939b1e1e8cb96e0c8d90de7334f92ba0540c103131c0fa6bd5",
-      "text": "Takes more than a couple of knives to take me down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79cd2f8cb1d47044e66b05a5eff28e5deffb7980277844aca377fcd2c4e8fc26",
+      "sha256": [
+        "79cd2f8cb1d47044e66b05a5eff28e5deffb7980277844aca377fcd2c4e8fc26",
+        "ecdc873c08d0c4939b1e1e8cb96e0c8d90de7334f92ba0540c103131c0fa6bd5"
+      ],
       "text": "Takes more than a couple of knives to take me down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

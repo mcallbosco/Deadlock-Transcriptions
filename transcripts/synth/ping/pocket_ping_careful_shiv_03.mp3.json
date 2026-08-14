@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_shiv_03.mp3",
   "revisions": [
     {
-      "sha256": "21bae75453bca9ee7ed2633dc13210394c150ddcaa76de470dab95689d55de4d",
+      "sha256": [
+        "21bae75453bca9ee7ed2633dc13210394c150ddcaa76de470dab95689d55de4d",
+        "e348e00fae8d05092c476719df4081229fe6e9e20d2545d8a2f8f7499e4cec05"
+      ],
       "text": "Careful, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e348e00fae8d05092c476719df4081229fe6e9e20d2545d8a2f8f7499e4cec05",
-      "text": "Careful, Shiv!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_thank_digger.mp3",
   "revisions": [
     {
-      "sha256": "a2abcdb3e3c29a4beefc8ce7f5a6870807b0fd61f347213e1d00696218a9da2d",
+      "sha256": [
+        "0d6220ae50a09a727274d44acf8e2e8aedf3aa0cf6d921d048fd15f97130de98",
+        "a2abcdb3e3c29a4beefc8ce7f5a6870807b0fd61f347213e1d00696218a9da2d",
+        "de7f89545229c5ed99bb6add55b38c7e361ebcfca0f90ce506c69aac9f2c2c2a"
+      ],
       "text": "Thanks, digger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de7f89545229c5ed99bb6add55b38c7e361ebcfca0f90ce506c69aac9f2c2c2a",
-      "text": "Thanks, digger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d6220ae50a09a727274d44acf8e2e8aedf3aa0cf6d921d048fd15f97130de98",
-      "text": "Thanks, Digger.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

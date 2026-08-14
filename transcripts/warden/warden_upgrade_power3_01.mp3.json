@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_upgrade_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "80809a1310ab908b0377c5f07a09bf071b37bb88cb36727d6d80eeb4e2e15989",
-      "text": "I'll make them run.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d8b44587df9408134a73460781bf929b32ac9175aacf73de6abcf2f463f1309f",
-      "text": "I'll make them run.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a89d1ca0a9b9e1a19bbe31d29844181f93c346db6d8f9103671108552610419",
-      "text": "I'll make them run.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c413fbea14d65d54380d49bbe7995efba9ea05d5f49a02469e1abc8a072d0b8d",
+      "sha256": [
+        "80809a1310ab908b0377c5f07a09bf071b37bb88cb36727d6d80eeb4e2e15989",
+        "9a89d1ca0a9b9e1a19bbe31d29844181f93c346db6d8f9103671108552610419",
+        "c413fbea14d65d54380d49bbe7995efba9ea05d5f49a02469e1abc8a072d0b8d",
+        "d8b44587df9408134a73460781bf929b32ac9175aacf73de6abcf2f463f1309f"
+      ],
       "text": "I'll make them run.",
       "source": "official"
     }

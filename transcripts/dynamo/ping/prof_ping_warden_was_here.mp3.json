@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3e223ef5e545c6fb53d9a3a544e2ae7fa596022c0401d773ae81463eeb01ec59",
-      "text": "Warden was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b9ac83096e80863cc6d9aaa4221ef757a6dacadcdf18a1aba7bbae289af5bec",
+      "sha256": [
+        "2b9ac83096e80863cc6d9aaa4221ef757a6dacadcdf18a1aba7bbae289af5bec",
+        "3e223ef5e545c6fb53d9a3a544e2ae7fa596022c0401d773ae81463eeb01ec59"
+      ],
       "text": "Warden was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

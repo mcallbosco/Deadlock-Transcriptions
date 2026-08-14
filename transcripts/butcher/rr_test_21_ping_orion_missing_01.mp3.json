@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4260aabe0570c3988c7d88beda36db5c1f239ebcf6e2d79de451e244c23a4101",
-      "text": "Orion is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6518217ed09d5ae543e96148b9a91b1e50c4b319640744309c9eb55f618607a",
-      "text": "Orion is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21aa95887a242805260944cc9de67f6122172169a3d38a208c823b9adad74ff4",
+      "sha256": [
+        "21aa95887a242805260944cc9de67f6122172169a3d38a208c823b9adad74ff4",
+        "4260aabe0570c3988c7d88beda36db5c1f239ebcf6e2d79de451e244c23a4101",
+        "b6518217ed09d5ae543e96148b9a91b1e50c4b319640744309c9eb55f618607a"
+      ],
       "text": "Orion is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

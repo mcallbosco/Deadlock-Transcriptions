@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_tengu_check_items.mp3",
   "revisions": [
     {
-      "sha256": "826f7f6c31f46faeb581a71d72ce5ba6f527c31ee7dede46664213fdd26bbb76",
+      "sha256": [
+        "452a8e576eeee2375e20620ca619491fdc94a6a440e62b1223b40d7dc2c8f3de",
+        "826f7f6c31f46faeb581a71d72ce5ba6f527c31ee7dede46664213fdd26bbb76"
+      ],
       "text": "Check out what Ivy bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "452a8e576eeee2375e20620ca619491fdc94a6a440e62b1223b40d7dc2c8f3de",
-      "text": "Check out what Ivy bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

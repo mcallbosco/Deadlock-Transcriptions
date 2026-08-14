@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_inferno.mp3",
   "revisions": [
     {
-      "sha256": "a9f0d9647cb4167b2a5372d156d5fb86b2cc0f5827001281c1fa471cd4a1ce4f",
+      "sha256": [
+        "28629b960e5af7815cb4db44daf59544db44cb88e0568a54ddfaf00fedf78ca8",
+        "a9f0d9647cb4167b2a5372d156d5fb86b2cc0f5827001281c1fa471cd4a1ce4f"
+      ],
       "text": "I'm with you, Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28629b960e5af7815cb4db44daf59544db44cb88e0568a54ddfaf00fedf78ca8",
-      "text": "I'm with you, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

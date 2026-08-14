@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_warden.mp3",
   "revisions": [
     {
-      "sha256": "b7d5690747bfdac5ae7fde51565d97018b0e59677f08aa5220307e738575cd8c",
+      "sha256": [
+        "b7d5690747bfdac5ae7fde51565d97018b0e59677f08aa5220307e738575cd8c"
+      ],
       "text": "I see Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9701357544bc47bcbde25465c5334fa6cc072c513586c2fa5134c109b0737ad",
+      "sha256": [
+        "b9701357544bc47bcbde25465c5334fa6cc072c513586c2fa5134c109b0737ad"
+      ],
       "text": "I'll stay warned.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_use_power4_07.mp3",
   "revisions": [
     {
-      "sha256": "7bb16a084bc25b5b2a61be2c6252a856d15ec87c5170842d1102a784e7d71237",
+      "sha256": [
+        "2c92c7865c7ee5bf5ab17a4dfdc46fa8bcf87ecfa7abfc87b5c9fb589376af66",
+        "7bb16a084bc25b5b2a61be2c6252a856d15ec87c5170842d1102a784e7d71237"
+      ],
       "text": "That's over.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2c92c7865c7ee5bf5ab17a4dfdc46fa8bcf87ecfa7abfc87b5c9fb589376af66",
-      "text": "That's over.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b33a5199ec89f0825b911ca59b9a79da1b97c6b81188d099b7e5592cd87cc694",
+      "sha256": [
+        "b33a5199ec89f0825b911ca59b9a79da1b97c6b81188d099b7e5592cd87cc694"
+      ],
       "text": "It's over!",
       "source": "official"
     }

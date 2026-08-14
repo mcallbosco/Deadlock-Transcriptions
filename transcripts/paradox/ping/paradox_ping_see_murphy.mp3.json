@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_murphy.mp3",
   "revisions": [
     {
-      "sha256": "776c1c9501ce83268c48b283e6184529345cd834184a7ce639ec991ed4143919",
-      "text": "I see Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "338b6748bf6f07089b04f355bffd85f999554a78bf013c592f8babddf13b6d62",
+      "sha256": [
+        "338b6748bf6f07089b04f355bffd85f999554a78bf013c592f8babddf13b6d62",
+        "776c1c9501ce83268c48b283e6184529345cd834184a7ce639ec991ed4143919"
+      ],
       "text": "I see Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

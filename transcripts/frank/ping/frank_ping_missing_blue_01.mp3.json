@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "56e02b0392cc40da7949be5dbe155e58aa27e8fb06b161f1e61115ea5b0fee75",
-      "text": "Missing blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d520a5bd5f4fe43be87d8618b6df78759f2800ebedd0e9d286866fa2c2dd015",
+      "sha256": [
+        "3d520a5bd5f4fe43be87d8618b6df78759f2800ebedd0e9d286866fa2c2dd015",
+        "56e02b0392cc40da7949be5dbe155e58aa27e8fb06b161f1e61115ea5b0fee75"
+      ],
       "text": "Missing blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

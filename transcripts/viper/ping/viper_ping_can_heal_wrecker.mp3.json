@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_can_heal_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "51bf1950dee58d4e9bb3cf4daf87fe5b346dc993b5342ca4557212e77a913ef3",
-      "text": "Wrecker, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9209625dc45dea2f8ade9438dc49c5e338a10d9ffe575a5da4887a4ac4b328bc",
-      "text": "Wrecker, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a4167a01dcbd449cda8b3ba89a510ba806d48fe5d192c97f2c3285fb96b7637",
+      "sha256": [
+        "3a4167a01dcbd449cda8b3ba89a510ba806d48fe5d192c97f2c3285fb96b7637",
+        "51bf1950dee58d4e9bb3cf4daf87fe5b346dc993b5342ca4557212e77a913ef3",
+        "9209625dc45dea2f8ade9438dc49c5e338a10d9ffe575a5da4887a4ac4b328bc"
+      ],
       "text": "Wrecker, I can heal you!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_viscous.mp3",
   "revisions": [
     {
-      "sha256": "bab61c30c4fdfdfd8d133d5fd968ecba99a958f91b1a723b5c8cca69df4bef26",
+      "sha256": [
+        "bab61c30c4fdfdfd8d133d5fd968ecba99a958f91b1a723b5c8cca69df4bef26"
+      ],
       "text": "I'm with you, Biscuit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f703cfe8878ecd4b791f9b7e47232082de4fb6ade5d51775a6054b2594f3fa41",
+      "sha256": [
+        "f703cfe8878ecd4b791f9b7e47232082de4fb6ade5d51775a6054b2594f3fa41"
+      ],
       "text": "I'm with you, Vizcaz.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

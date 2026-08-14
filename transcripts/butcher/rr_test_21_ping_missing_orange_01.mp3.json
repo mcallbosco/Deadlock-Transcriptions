@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "bb08a3d554f197edf885746635f7114cc02560c08addeb8bbdc8a8b9a05849ae",
-      "text": "Missing orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11c83a197bba1fa34c2a7455f7955be8ef7a17064430c1275bb72112953ba50f",
-      "text": "Missing orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a2c0a8b3aaffcdcec1b556dec19fb216493ef9b61fe55f0ba06fd1ce33bc92c",
+      "sha256": [
+        "11c83a197bba1fa34c2a7455f7955be8ef7a17064430c1275bb72112953ba50f",
+        "2a2c0a8b3aaffcdcec1b556dec19fb216493ef9b61fe55f0ba06fd1ce33bc92c",
+        "bb08a3d554f197edf885746635f7114cc02560c08addeb8bbdc8a8b9a05849ae"
+      ],
       "text": "Missing orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

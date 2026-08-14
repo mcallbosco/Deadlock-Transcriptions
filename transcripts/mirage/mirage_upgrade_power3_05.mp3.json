@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "598a946a3d6b577fc636fa029ddf46609c790b0c08d2462a1e050b265f6eb648",
+      "sha256": [
+        "598a946a3d6b577fc636fa029ddf46609c790b0c08d2462a1e050b265f6eb648"
+      ],
       "text": "That's the promise, the next step.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "78856f9b13fc8e34585b9b7eb005bfa279577965b7c5404f5f5ba51d65704f37",
+      "sha256": [
+        "3279efc8cb64e91568467d8c98bb78c8649a7cee222e303cefd17e03e331337d",
+        "78856f9b13fc8e34585b9b7eb005bfa279577965b7c5404f5f5ba51d65704f37"
+      ],
       "text": "I don't run from danger.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3279efc8cb64e91568467d8c98bb78c8649a7cee222e303cefd17e03e331337d",
-      "text": "I don't run from danger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7f0528482bad1977c1b631cd114d0032fccafad8c8ced49d590563c1e223598",
+      "sha256": [
+        "d7f0528482bad1977c1b631cd114d0032fccafad8c8ced49d590563c1e223598"
+      ],
       "text": "The eyes of the Djinn are unflinching",
       "source": "official"
     }

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_destroyed_01.mp3",
   "revisions": [
     {
-      "sha256": "bda2e4095a82f8ff27265afb9c2647999b35d2bd87068ca9a51c0421c7e61c77",
+      "sha256": [
+        "7e652470ba52b7fc4931c6869b24db6af2b0d477e3ccabbb2e7360be2c319f76",
+        "bda2e4095a82f8ff27265afb9c2647999b35d2bd87068ca9a51c0421c7e61c77"
+      ],
       "text": "Trevor's going down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "318398fc52afea80f56d1c9aa3b4e689dd83779072389781ae52ece158c80c43",
+      "sha256": [
+        "318398fc52afea80f56d1c9aa3b4e689dd83779072389781ae52ece158c80c43"
+      ],
       "text": "trouble's going down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e652470ba52b7fc4931c6869b24db6af2b0d477e3ccabbb2e7360be2c319f76",
-      "text": "Trevor's going down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

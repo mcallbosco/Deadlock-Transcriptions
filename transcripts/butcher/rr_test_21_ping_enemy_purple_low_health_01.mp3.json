@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_enemy_purple_low_health_01.mp3",
   "revisions": [
     {
-      "sha256": "b1ab3ac887a716b2e026489aa8191bf6d9bcd205b5274fbbf9a4bd52bcb2e9ae",
-      "text": "The purple guardian has low health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95b956ed9e3438dfda655ae5a11cb35c964b03e51864acc65c68b2c4549826c6",
-      "text": "The purple guardian has low health!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3238d8073772a4a0571c47357e9fdc045c919a847e4405dc7b1475fc891fe3ac",
+      "sha256": [
+        "3238d8073772a4a0571c47357e9fdc045c919a847e4405dc7b1475fc891fe3ac",
+        "95b956ed9e3438dfda655ae5a11cb35c964b03e51864acc65c68b2c4549826c6",
+        "b1ab3ac887a716b2e026489aa8191bf6d9bcd205b5274fbbf9a4bd52bcb2e9ae"
+      ],
       "text": "The purple guardian has low health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

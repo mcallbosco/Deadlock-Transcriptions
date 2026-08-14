@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_kill_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "df1ab48565339e8cecd2b88d86297bdf158d7a1fa28203b925b52729eddcfacc",
+      "sha256": [
+        "df1ab48565339e8cecd2b88d86297bdf158d7a1fa28203b925b52729eddcfacc"
+      ],
       "text": "Look, your dumplings rock, kid. Stick to making those and stop fighting.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6edd3b8788fd271f73307d5a0bfa1824baea256782a0ea972e2c66ab666baf6e",
+      "sha256": [
+        "6edd3b8788fd271f73307d5a0bfa1824baea256782a0ea972e2c66ab666baf6e",
+        "89de5970b77b902206f76e28405a86f632634f2cba93c3b450c39e37bde058c9"
+      ],
       "text": "Just start grading papers, Professor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "89de5970b77b902206f76e28405a86f632634f2cba93c3b450c39e37bde058c9",
-      "text": "Just start grading papers, professor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a010cb6d5f748afed959c2892ed058fb77bee702dbe0b94171abd2f02097889",
+      "sha256": [
+        "4a010cb6d5f748afed959c2892ed058fb77bee702dbe0b94171abd2f02097889"
+      ],
       "text": "Shoulda stuck to grading papers professor.",
       "source": "official"
     }

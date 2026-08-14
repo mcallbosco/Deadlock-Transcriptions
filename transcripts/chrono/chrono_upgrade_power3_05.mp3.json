@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/chrono_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "d08d16b471f3b6b172c9663908601ea6e9f7ddde429de21774e57f0c2fddb933",
-      "text": "I'll pick up the pace.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b4d5357920b515187e885ec1e643cf075ef4de82c42110d6722df72f0df4e329",
+      "sha256": [
+        "b4d5357920b515187e885ec1e643cf075ef4de82c42110d6722df72f0df4e329",
+        "d08d16b471f3b6b172c9663908601ea6e9f7ddde429de21774e57f0c2fddb933"
+      ],
       "text": "I'll pick up the pace",
       "source": "official"
     }

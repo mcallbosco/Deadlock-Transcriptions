@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_haze_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "744da161b61ef34f0749c6e12aa7915f32293dcbd88989ffa882461d5d5f1361",
+      "sha256": [
+        "744da161b61ef34f0749c6e12aa7915f32293dcbd88989ffa882461d5d5f1361"
+      ],
       "text": "He's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1816ea9a64348c1c9eeb6a5fc9a7bd83fcf3c70b7608cfe0bc92becdaf5a3012",
+      "sha256": [
+        "1816ea9a64348c1c9eeb6a5fc9a7bd83fcf3c70b7608cfe0bc92becdaf5a3012",
+        "bc1f28e6e98c6d5b5e0254e3423ee025fbd0e8653f1524172f40e60f385623f3"
+      ],
       "text": "Case is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc1f28e6e98c6d5b5e0254e3423ee025fbd0e8653f1524172f40e60f385623f3",
-      "text": "Case is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b8e58b773c8633fad7eba57dfce875094b57f1998d01989cc403261fef54d1fe",
+      "sha256": [
+        "b8e58b773c8633fad7eba57dfce875094b57f1998d01989cc403261fef54d1fe"
+      ],
       "text": "Haze's on top of the garage!",
       "source": "official"
     }

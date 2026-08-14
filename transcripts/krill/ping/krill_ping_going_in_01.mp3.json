@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "8ba99bcf98be40c6cdfc3b260c6017a647862f0612b6e9dc8fc5a0357a939a7f",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87be8a32a495b31d905a778d56b6e5ab872bf92ff898d34d1c0f8c2510a73d15",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcb4283cf5383e9a78a79575a843dedd24f129f00653b145dbe4244440aac8c0",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "407d1cfd93623c06a9dc3dbcca421b16789cc15b6e91b9a746a377b6f60bd98a",
+      "sha256": [
+        "407d1cfd93623c06a9dc3dbcca421b16789cc15b6e91b9a746a377b6f60bd98a",
+        "87be8a32a495b31d905a778d56b6e5ab872bf92ff898d34d1c0f8c2510a73d15",
+        "8ba99bcf98be40c6cdfc3b260c6017a647862f0612b6e9dc8fc5a0357a939a7f",
+        "dcb4283cf5383e9a78a79575a843dedd24f129f00653b145dbe4244440aac8c0"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

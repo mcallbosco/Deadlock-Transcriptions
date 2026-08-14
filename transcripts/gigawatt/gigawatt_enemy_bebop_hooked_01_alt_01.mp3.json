@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_enemy_bebop_hooked_01_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "50eca27234ff9d4b630176bb67fb77d5b4d75eb51835941b56778789b334d2f9",
+      "sha256": [
+        "43733ad154718eb95ddf93bcd3db4dff96a05afda975b7c653a5875d519f027b",
+        "50eca27234ff9d4b630176bb67fb77d5b4d75eb51835941b56778789b334d2f9",
+        "b50db4acb91e781d4be6fbfaa4544db40ba6748ec61cd86c28cdf367ac12b71e"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b50db4acb91e781d4be6fbfaa4544db40ba6748ec61cd86c28cdf367ac12b71e",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43733ad154718eb95ddf93bcd3db4dff96a05afda975b7c653a5875d519f027b",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aabd056c8ef36a44e2a0058353c32a775eb5393dfbf6362928a5d071f296dde0",
+      "sha256": [
+        "aabd056c8ef36a44e2a0058353c32a775eb5393dfbf6362928a5d071f296dde0"
+      ],
       "text": "Blast!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

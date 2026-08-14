@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_calico_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "35d4b32bbaaf06dc7dd8af31f0cf6174200f4e19b059cc80d06c5a85837e6525",
-      "text": "Calico is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa5daf627f45bd94262d4bd29291a78f7ea2208325046d0c7bf18ff2cacc70a8",
+      "sha256": [
+        "35d4b32bbaaf06dc7dd8af31f0cf6174200f4e19b059cc80d06c5a85837e6525",
+        "aa5daf627f45bd94262d4bd29291a78f7ea2208325046d0c7bf18ff2cacc70a8"
+      ],
       "text": "Calico is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

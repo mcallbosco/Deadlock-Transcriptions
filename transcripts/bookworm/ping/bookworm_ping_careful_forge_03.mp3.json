@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_forge_03.mp3",
   "revisions": [
     {
-      "sha256": "626961ded057f0ceef71f901ddd922a2f505d1a7b7f54802c7b65ad03847c41c",
-      "text": "Careful, McGinnis!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05843d9649bd486045500386d8ec7905d410eccc74f10d1d29f4c1daf811e80f",
+      "sha256": [
+        "05843d9649bd486045500386d8ec7905d410eccc74f10d1d29f4c1daf811e80f",
+        "626961ded057f0ceef71f901ddd922a2f505d1a7b7f54802c7b65ad03847c41c"
+      ],
       "text": "Careful, McGinnis!",
       "source": "official"
     }

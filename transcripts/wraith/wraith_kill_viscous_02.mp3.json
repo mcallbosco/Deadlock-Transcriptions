@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_viscous_02.mp3",
   "revisions": [
     {
-      "sha256": "a1bac4830aba84d6edd2592b17e65b1fd51a8cca007a857351757eaa9f4b8f99",
-      "text": "Oh, Viscous. You were dumb, but kind of adorable.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3c5e1143e6d329fd2e63466344ec344f4703a1bc9069e2dac3e3d48a3d4d984c",
+        "a1bac4830aba84d6edd2592b17e65b1fd51a8cca007a857351757eaa9f4b8f99"
+      ],
+      "text": "Oh viscous.  You were dumb but kind of adorable",
+      "source": "official"
     },
     {
-      "sha256": "0dfb62586c5bfde1e9cb7c28458608fd6311ab5aa9ee29a6645fe89a64b9a8c0",
+      "sha256": [
+        "0dfb62586c5bfde1e9cb7c28458608fd6311ab5aa9ee29a6645fe89a64b9a8c0"
+      ],
       "text": "Ah, Viscous. If were dumb, but kind of adorable.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c5e1143e6d329fd2e63466344ec344f4703a1bc9069e2dac3e3d48a3d4d984c",
-      "text": "Oh viscous.  You were dumb but kind of adorable",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_lets_not_01.mp3",
   "revisions": [
     {
-      "sha256": "76fb2d06fcb3b32cf947980489d3eb32328ed49b9d241e08ad28118d3ecaa516",
-      "text": "Let's not do that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5594b666113662e873cf119838565d81883fccf8a634ea930c3ed93149ad0c90",
+      "sha256": [
+        "5594b666113662e873cf119838565d81883fccf8a634ea930c3ed93149ad0c90",
+        "76fb2d06fcb3b32cf947980489d3eb32328ed49b9d241e08ad28118d3ecaa516"
+      ],
       "text": "Let's not do that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

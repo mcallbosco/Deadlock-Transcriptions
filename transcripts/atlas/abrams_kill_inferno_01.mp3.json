@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_inferno_01.mp3",
   "revisions": [
     {
-      "sha256": "eba3fc49ecc17fa08975179fb5c28dde4ffd78493a707fa9735eb3567123414e",
-      "text": "Sorry, Fern.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1df8cb61166edefbaad8bae6409888f1975bebe0e98d46aa6cc614893f8bacfa",
+      "sha256": [
+        "1df8cb61166edefbaad8bae6409888f1975bebe0e98d46aa6cc614893f8bacfa",
+        "eba3fc49ecc17fa08975179fb5c28dde4ffd78493a707fa9735eb3567123414e"
+      ],
       "text": "Sorry, Fern.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "0326b8fc7120b856b48839a23a75ef2d650d31b37327e0d8807a757f22c48b4b",
+      "sha256": [
+        "0326b8fc7120b856b48839a23a75ef2d650d31b37327e0d8807a757f22c48b4b"
+      ],
       "text": "できる限り戦います。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b2500a3dda8bc528c68808d712ac02c08dde949a8288819541a474b6a4212858",
+      "sha256": [
+        "b2500a3dda8bc528c68808d712ac02c08dde949a8288819541a474b6a4212858"
+      ],
       "text": "この命、尽きるまで戦おう。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "56eac587ad0294deebf881c15d9b0176bc316ba9e82aab8f5d81592d777b6625",
+      "sha256": [
+        "56eac587ad0294deebf881c15d9b0176bc316ba9e82aab8f5d81592d777b6625"
+      ],
       "text": "I'll fight as long as I can.",
       "source": "official"
     }

@@ -1,35 +1,38 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_synth_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "b9effd4fd5723e7e2a8a2bdc587f89f8c83ae794736487a06e01c97eb242ec04",
+      "sha256": [
+        "b9effd4fd5723e7e2a8a2bdc587f89f8c83ae794736487a06e01c97eb242ec04"
+      ],
       "text": "Park it on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8693b5f84919e7b56e0cfbc24a706e1231f4f0ffb84c37b359270c2f1ac51bdf",
-      "text": "Pocket's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "8693b5f84919e7b56e0cfbc24a706e1231f4f0ffb84c37b359270c2f1ac51bdf",
+        "9892046017c3a12e3af2a0ec39daf4c0dd5882d25e4318b07cf6fbcd6fba904a"
+      ],
+      "text": "Pocket's on top of the garage!",
+      "source": "official"
     },
     {
-      "sha256": "119c7ed3e8ca434400a093c220ab928d3bcdcfe1b24fff641204c7122b1d9a5e",
+      "sha256": [
+        "119c7ed3e8ca434400a093c220ab928d3bcdcfe1b24fff641204c7122b1d9a5e"
+      ],
       "text": "Package on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d791e8035a84faaa63ca1117bb8b498ed05392a7ee5016b1af70056b152f37c",
+      "sha256": [
+        "3d791e8035a84faaa63ca1117bb8b498ed05392a7ee5016b1af70056b152f37c"
+      ],
       "text": "Pocket on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9892046017c3a12e3af2a0ec39daf4c0dd5882d25e4318b07cf6fbcd6fba904a",
-      "text": "Pocket's on top of the garage!",
-      "source": "official"
     }
   ]
 }

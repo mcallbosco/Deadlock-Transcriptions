@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_gigawatt_02.mp3",
   "revisions": [
     {
-      "sha256": "cf0b970be2e8731ffe5870d4eba3443dbc469de0e0143342d2b5eccdfc6a1ac3",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f5884618e56b27b79b31e133d16727ed723b6dd9cab3493c81c6eceece45d19",
+      "sha256": [
+        "3f5884618e56b27b79b31e133d16727ed723b6dd9cab3493c81c6eceece45d19",
+        "cf0b970be2e8731ffe5870d4eba3443dbc469de0e0143342d2b5eccdfc6a1ac3"
+      ],
       "text": "Careful, Seven.",
       "source": "official"
     }

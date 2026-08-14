@@ -22,6 +22,7 @@ from typing import Any, Iterable
 
 from apply_current_contributions import read_json
 from audit_legacy_contributions import AuditError, git, normalize_text, safe_output_path
+from transcript_schema import revisions_for_hash
 
 
 REPORT_SCHEMA_VERSION = 1
@@ -189,7 +190,7 @@ def analyze_record(record: dict[str, Any], current_revision: dict[str, Any]) -> 
             confidence="high",
             proposedAction="mark_manual_preserve_v2_text",
             proposedText=target,
-            reason="The v2 lexical content matches the corrected legacy state, ignoring punctuation or casing that did not carry semantic identity.",
+            reason="The v3 lexical content matches the corrected legacy state, ignoring punctuation or casing that did not carry semantic identity.",
         )
         return result
 
@@ -208,13 +209,13 @@ def analyze_record(record: dict[str, Any], current_revision: dict[str, Any]) -> 
             result.update(
                 status="candidate_exact_delta_transfer",
                 confidence="high",
-                reason="The exact legacy edit span occurs once in v2 and every lexical token outside that span agrees.",
+                reason="The exact legacy edit span occurs once in v3 and every lexical token outside that span agrees.",
             )
         else:
             result.update(
                 status="review_exact_delta_partial_context",
                 confidence="medium",
-                reason="The exact legacy edit span occurs once, but v1 and v2 also differ outside the edited span.",
+                reason="The exact legacy edit span occurs once, but the legacy and v3 texts also differ outside the edited span.",
             )
         return result
 
@@ -222,12 +223,12 @@ def analyze_record(record: dict[str, Any], current_revision: dict[str, Any]) -> 
         result.update(
             status="review_near_semantic_match",
             confidence="medium",
-            reason="The corrected legacy and v2 texts are lexically similar, but the edit cannot be transferred by one unique exact span.",
+            reason="The corrected legacy and v3 texts are lexically similar, but the edit cannot be transferred by one unique exact span.",
         )
     else:
         result.update(
             status="review_low_semantic_similarity",
-            reason="The corrected legacy and v2 texts differ too much for deterministic delta transfer.",
+            reason="The corrected legacy and v3 texts differ too much for deterministic delta transfer.",
         )
     return result
 
@@ -276,7 +277,7 @@ def render_markdown(report: dict[str, Any]) -> str:
             "",
             "## High-confidence proposals",
             "",
-            "| Legacy path | v1 before | v1 after | v2 active | Proposal | Action |",
+            "| Legacy path | legacy before | legacy after | v3 active | Proposal | Action |",
             "| --- | --- | --- | --- | --- | --- |",
         ]
     )
@@ -299,10 +300,10 @@ def render_markdown(report: dict[str, Any]) -> str:
             "",
             "## Medium-confidence exact-span proposals",
             "",
-            "These preserve v2 wording outside the exact legacy edit, but independent",
+            "These preserve v3 wording outside the exact legacy edit, but independent",
             "differences remain elsewhere in the line and require closer review.",
             "",
-            "| Legacy path | v1 before | v1 after | v2 active | Proposal |",
+            "| Legacy path | legacy before | legacy after | v3 active | Proposal |",
             "| --- | --- | --- | --- | --- |",
         ]
     )
@@ -392,11 +393,7 @@ def main() -> int:
             target = record["selectedTarget"]
             path = repo / Path(*target["path"].split("/"))
             document = read_json(path)
-            revisions = [
-                revision
-                for revision in document.get("revisions", [])
-                if revision.get("sha256") == target["sha256"]
-            ]
+            revisions = revisions_for_hash(document, target["sha256"])
             if len(revisions) != 1:
                 raise AuditError(
                     f"Expected one current revision {target['path']}@{target['sha256']}; found {len(revisions)}."

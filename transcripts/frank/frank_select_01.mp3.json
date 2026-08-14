@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_select_01.mp3",
   "revisions": [
     {
-      "sha256": "a031aa70086606a628737b912c7d15550b9da2ef0837b18a579935c2361a4f8d",
-      "text": "I'm going to find out where I came from.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2749de1086877d2356024f17c479413bbd88d5b613f48237da94a33d05dfd41d",
+      "sha256": [
+        "2749de1086877d2356024f17c479413bbd88d5b613f48237da94a33d05dfd41d",
+        "a031aa70086606a628737b912c7d15550b9da2ef0837b18a579935c2361a4f8d"
+      ],
       "text": "I'm going to find out where I came from.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

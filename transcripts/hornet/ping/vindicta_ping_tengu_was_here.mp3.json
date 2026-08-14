@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "99103e75362f836ccf479de5dfe438c239d273ed12a40790a0ce4914828cce01",
-      "text": "I see.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "310b0a7beb3d7963d72f3d304a11bc30513e72a06ab6762f6c8afcde355c5bca",
+      "sha256": [
+        "310b0a7beb3d7963d72f3d304a11bc30513e72a06ab6762f6c8afcde355c5bca",
+        "99103e75362f836ccf479de5dfe438c239d273ed12a40790a0ce4914828cce01"
+      ],
       "text": "I see.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

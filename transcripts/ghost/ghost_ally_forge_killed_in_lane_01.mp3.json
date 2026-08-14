@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ghost_ally_forge_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "d8649f75a74da35df8bdf98889fdb310179a49d3634c5c529d91cf002fefe39d",
+      "sha256": [
+        "d8649f75a74da35df8bdf98889fdb310179a49d3634c5c529d91cf002fefe39d"
+      ],
       "text": "Mickey is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2de734c6a498fe7996751ebfdf0d58bf2d23242c872db7f71be4101133560378",
+      "sha256": [
+        "2de734c6a498fe7996751ebfdf0d58bf2d23242c872db7f71be4101133560378"
+      ],
       "text": "They took out McGinnis!",
       "source": "official"
     }

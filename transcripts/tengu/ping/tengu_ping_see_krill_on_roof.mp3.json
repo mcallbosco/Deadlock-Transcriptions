@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_krill_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "0bc27d122bdee08fae5aeceae454ecc76a59d0b72339e475d451c186650c276c",
+      "sha256": [
+        "0bc27d122bdee08fae5aeceae454ecc76a59d0b72339e475d451c186650c276c"
+      ],
       "text": "There is no mouse!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d63ad1ceb325edaaea490d1d253b890ba8eaa638efcac48772dcc50a501f7850",
+      "sha256": [
+        "d63ad1ceb325edaaea490d1d253b890ba8eaa638efcac48772dcc50a501f7850"
+      ],
       "text": "Krill's on the roof!",
       "source": "official"
     }

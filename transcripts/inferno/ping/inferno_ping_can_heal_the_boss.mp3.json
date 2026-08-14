@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_can_heal_the_boss.mp3",
   "revisions": [
     {
-      "sha256": "7e8d8986d74eefa9c69ca88a67ff89bb5ed4ac00f9106c6b191ff13b3bd99bc2",
-      "text": "Boss, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ed4c53c281961a439539fd3d4f9eff25177976daeb871e89c2a7bf2242a8128",
+      "sha256": [
+        "1ed4c53c281961a439539fd3d4f9eff25177976daeb871e89c2a7bf2242a8128",
+        "7e8d8986d74eefa9c69ca88a67ff89bb5ed4ac00f9106c6b191ff13b3bd99bc2"
+      ],
       "text": "Boss, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

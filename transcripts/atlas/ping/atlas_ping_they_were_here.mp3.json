@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "0316ec9089149ea341fad4d93fd3b550f4bc6589ea386e55744eb64e0a1c0d49",
+      "sha256": [
+        "0316ec9089149ea341fad4d93fd3b550f4bc6589ea386e55744eb64e0a1c0d49"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

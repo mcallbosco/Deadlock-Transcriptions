@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_teleport_yellow.mp3",
   "revisions": [
     {
-      "sha256": "5887a662b32ef354a3724582c19e30e464dd141d69baf401c3d50e9dc90b4121",
-      "text": "Teleporting to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "304162f2977a2ca13271cf2c9c9b3ce46c8a5db10f1333460b9cba48b62b9259",
+      "sha256": [
+        "304162f2977a2ca13271cf2c9c9b3ce46c8a5db10f1333460b9cba48b62b9259",
+        "5887a662b32ef354a3724582c19e30e464dd141d69baf401c3d50e9dc90b4121"
+      ],
       "text": "Teleporting to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

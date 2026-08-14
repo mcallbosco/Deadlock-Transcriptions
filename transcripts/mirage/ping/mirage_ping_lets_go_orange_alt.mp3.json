@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_lets_go_orange_alt.mp3",
   "revisions": [
     {
-      "sha256": "ac3c8966c9a371b2664a6629698498e03c87844385470baa390cbcb4a21fed46",
-      "text": "Let's go to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9ba261ef951c52401c8654b1986aabf7be29a0e3f9d6ee86fe216b14d4a42cd",
+      "sha256": [
+        "ac3c8966c9a371b2664a6629698498e03c87844385470baa390cbcb4a21fed46",
+        "c9ba261ef951c52401c8654b1986aabf7be29a0e3f9d6ee86fe216b14d4a42cd"
+      ],
       "text": "Let's go to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

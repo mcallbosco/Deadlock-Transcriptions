@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0fecfc0675b3ac2b0ddeeb38714efd1477bd9df2f67ad71ea33fc87200e51e2e",
+      "sha256": [
+        "0fecfc0675b3ac2b0ddeeb38714efd1477bd9df2f67ad71ea33fc87200e51e2e",
+        "8740c166fa5e02472d0c58b16a65555729b507d6140f759b974b5e21d0a9313d",
+        "a2507655f07e95575f86b11b80338a4845171b546ec65360a2d24b603b22f744"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a2507655f07e95575f86b11b80338a4845171b546ec65360a2d24b603b22f744",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8740c166fa5e02472d0c58b16a65555729b507d6140f759b974b5e21d0a9313d",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88680a58add6bb23687b8b990935d57c4740c3cd90937f71ec43d28d321e7a6c",
+      "sha256": [
+        "88680a58add6bb23687b8b990935d57c4740c3cd90937f71ec43d28d321e7a6c"
+      ],
       "text": "Mirage's missing",
       "source": "official"
     }

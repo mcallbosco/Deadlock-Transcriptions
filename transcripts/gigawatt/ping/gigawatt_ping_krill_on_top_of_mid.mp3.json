@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_krill_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "3a8834ee7ccbf4827235276c86b522f3908cccd39a16887aa91353b33be68ca2",
+      "sha256": [
+        "3a8834ee7ccbf4827235276c86b522f3908cccd39a16887aa91353b33be68ca2"
+      ],
       "text": "Cruise on top of me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8475e70441f32cc7433ef4898ade7f34f7098d0a39cabc8222036d96e4fc0b53",
+      "sha256": [
+        "2320a7318f2e431ea6cfd8802d18e87353b9ceaf579ac833c33b40be86d2ff70",
+        "8475e70441f32cc7433ef4898ade7f34f7098d0a39cabc8222036d96e4fc0b53"
+      ],
       "text": "Grill's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2320a7318f2e431ea6cfd8802d18e87353b9ceaf579ac833c33b40be86d2ff70",
-      "text": "Grill's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c194f91d68e3ec45e83f2847abdb1fcdcc06960751bd3a18d35389bdcc197be",
+      "sha256": [
+        "3c194f91d68e3ec45e83f2847abdb1fcdcc06960751bd3a18d35389bdcc197be"
+      ],
       "text": "Krill's on top of mid!",
       "source": "official"
     }

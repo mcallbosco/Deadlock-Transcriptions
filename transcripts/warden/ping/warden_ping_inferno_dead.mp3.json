@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_inferno_dead.mp3",
   "revisions": [
     {
-      "sha256": "b7d0292994ba6a8bc8bddca872931651344b3536e003105555caf762a6db5362",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d8e4b6f93ed2cd34e0487d903c337a8bb7fdfafb6cc61566d3b33c27157c672",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f485f1761f3c28d030cdbf702dd804cabb527e8685d4408139e8206a5389db4f",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d579186529045e6652de5cafb8c407031d64ef225f85bb19bddebfdbc34b21f2",
+      "sha256": [
+        "2d8e4b6f93ed2cd34e0487d903c337a8bb7fdfafb6cc61566d3b33c27157c672",
+        "b7d0292994ba6a8bc8bddca872931651344b3536e003105555caf762a6db5362",
+        "d579186529045e6652de5cafb8c407031d64ef225f85bb19bddebfdbc34b21f2",
+        "f485f1761f3c28d030cdbf702dd804cabb527e8685d4408139e8206a5389db4f"
+      ],
       "text": "Infernus is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "e82187084e9a78d7c89d322f530606e8017e9bd55dd09d2673c3942281f2ba7c",
+      "sha256": [
+        "e82187084e9a78d7c89d322f530606e8017e9bd55dd09d2673c3942281f2ba7c"
+      ],
       "text": "This is the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6182f8fbeea3f3923971f6d02ad575a199842c3f4efb5c45238a118e46b90e4a",
+      "sha256": [
+        "6182f8fbeea3f3923971f6d02ad575a199842c3f4efb5c45238a118e46b90e4a"
+      ],
       "text": "Release of the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

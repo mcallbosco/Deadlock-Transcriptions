@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "7c25b0f3d6161ee0e71d18adb5622d1c72fde47d1e7b24e222a8c097d5b0f87e",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1baff65d1259d1d8dc32df8bb1c58fd705facfa1c74aec1d7221b33d49598442",
+      "sha256": [
+        "1baff65d1259d1d8dc32df8bb1c58fd705facfa1c74aec1d7221b33d49598442",
+        "7c25b0f3d6161ee0e71d18adb5622d1c72fde47d1e7b24e222a8c097d5b0f87e"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

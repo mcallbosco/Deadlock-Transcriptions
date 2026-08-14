@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_krill.mp3",
   "revisions": [
     {
-      "sha256": "b8ad06a8dd640279edfa6a19938fe192e56eff532e7656d46e39bfb35ae85cfe",
-      "text": "Ignore Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d30efc61c03db49d79c624f50dc21c905bf27df9280f978a522e7ab580be7d1",
+      "sha256": [
+        "5d30efc61c03db49d79c624f50dc21c905bf27df9280f978a522e7ab580be7d1",
+        "b8ad06a8dd640279edfa6a19938fe192e56eff532e7656d46e39bfb35ae85cfe"
+      ],
       "text": "Ignore Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

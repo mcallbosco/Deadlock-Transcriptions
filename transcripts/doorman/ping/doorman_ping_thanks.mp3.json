@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "d6eb90809bd05cae7160672e70b0fb3114852137e9a90221263b2b77e7ed14f7",
+      "sha256": [
+        "d6eb90809bd05cae7160672e70b0fb3114852137e9a90221263b2b77e7ed14f7"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

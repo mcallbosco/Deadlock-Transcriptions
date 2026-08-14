@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "aab9b2a5c8a3006ff697431448ceda9167b5b490c89ff20335f986c5440d8e9f",
-      "text": "Can you find a place to heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff4f25ed667fc766f9f9713ea85442d897293574dcede6eb7f92b36bf29e9e4d",
+      "sha256": [
+        "aab9b2a5c8a3006ff697431448ceda9167b5b490c89ff20335f986c5440d8e9f",
+        "ff4f25ed667fc766f9f9713ea85442d897293574dcede6eb7f92b36bf29e9e4d"
+      ],
       "text": "Can you find a place to heal?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

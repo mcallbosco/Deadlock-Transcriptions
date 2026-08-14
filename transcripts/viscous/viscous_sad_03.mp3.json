@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/viscous_sad_03.mp3",
   "revisions": [
     {
-      "sha256": "e972bc9ac04ae6ae342c98c5575c4bf525a14ee866a729807aafadcacd132109",
+      "sha256": [
+        "b37582524627a582675e42e7268fa032837701782e3bc42822aa1c2d1a6d3161",
+        "e972bc9ac04ae6ae342c98c5575c4bf525a14ee866a729807aafadcacd132109"
+      ],
       "text": "I'm having a hard time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b37582524627a582675e42e7268fa032837701782e3bc42822aa1c2d1a6d3161",
-      "text": "I'm having a hard time!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

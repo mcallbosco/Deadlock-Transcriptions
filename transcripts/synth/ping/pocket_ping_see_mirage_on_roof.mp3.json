@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_see_mirage_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "aa413e3633ec8a404ba922173711d1799c9c4300042e4f1bc2059547acba6c9e",
-      "text": "Mirage is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "175233d3be3261fdce5c7de82d42d9cf2b3e0d97f7b33fa70bef1472f160cf21",
+      "sha256": [
+        "175233d3be3261fdce5c7de82d42d9cf2b3e0d97f7b33fa70bef1472f160cf21",
+        "aa413e3633ec8a404ba922173711d1799c9c4300042e4f1bc2059547acba6c9e"
+      ],
       "text": "Mirage is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

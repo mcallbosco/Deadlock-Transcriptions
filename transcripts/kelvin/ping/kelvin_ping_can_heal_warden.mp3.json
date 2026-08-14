@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_can_heal_warden.mp3",
   "revisions": [
     {
-      "sha256": "46f81f8bd627770144974414bc16d610dc18af0eea70b9d3d3242c857e03dc00",
+      "sha256": [
+        "46f81f8bd627770144974414bc16d610dc18af0eea70b9d3d3242c857e03dc00"
+      ],
       "text": "More than I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5d27c338687df0c6cf118782960e8a8060e05ee8dc48f33227216763c1f9fb91",
+      "sha256": [
+        "5d27c338687df0c6cf118782960e8a8060e05ee8dc48f33227216763c1f9fb91"
+      ],
       "text": "Warden, I can heal you!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_tengu.mp3",
   "revisions": [
     {
-      "sha256": "48959f77f129cdaee4167eb91b8cd1d895e0e4a7cda295e954e7aba327504ca1",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d7e80f1aa25d22db057dba3a14727fa87dc14e191fb6c6df6535bb285e64939",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6c9e0956da545b2f78b9608b2cf0f956231d24de531f90b798874d9f1c0fbe4",
+      "sha256": [
+        "1d7e80f1aa25d22db057dba3a14727fa87dc14e191fb6c6df6535bb285e64939",
+        "48959f77f129cdaee4167eb91b8cd1d895e0e4a7cda295e954e7aba327504ca1",
+        "f6c9e0956da545b2f78b9608b2cf0f956231d24de531f90b798874d9f1c0fbe4"
+      ],
       "text": "I see ivy",
       "source": "official"
     }

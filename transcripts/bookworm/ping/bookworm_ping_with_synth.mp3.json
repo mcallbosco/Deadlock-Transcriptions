@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_synth.mp3",
   "revisions": [
     {
-      "sha256": "0b4369a89709e478753fb409236c287da5dc2517bd24e8c1dc0ee157960a44f3",
+      "sha256": [
+        "0b4369a89709e478753fb409236c287da5dc2517bd24e8c1dc0ee157960a44f3",
+        "dc5503b31bcadb02cac3817343ab1590fb6562287cbf91fc1a8566d0ad41d1f0"
+      ],
       "text": "I'm with you, Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc5503b31bcadb02cac3817343ab1590fb6562287cbf91fc1a8566d0ad41d1f0",
-      "text": "I'm with you, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

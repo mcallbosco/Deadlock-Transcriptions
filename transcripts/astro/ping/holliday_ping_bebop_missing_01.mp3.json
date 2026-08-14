@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8c61762efd8ed953ecd2b41c802a57115a05cc5b34659106c133f3dada79d59b",
+      "sha256": [
+        "8c61762efd8ed953ecd2b41c802a57115a05cc5b34659106c133f3dada79d59b"
+      ],
       "text": "Bebop is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

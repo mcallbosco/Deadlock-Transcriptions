@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_help_out_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "aff13adb6dbb971ef911166251e981683cc258315225eb41bc11e146fd00a5d6",
+      "sha256": [
+        "aff13adb6dbb971ef911166251e981683cc258315225eb41bc11e146fd00a5d6"
+      ],
       "text": "The professor needs your support.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

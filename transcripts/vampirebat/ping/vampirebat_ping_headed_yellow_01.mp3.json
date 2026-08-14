@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "41fba858c2bd8ffcb828374c90e3457004592a3940d4fd0dbdb5d4fa23d95fce",
+      "sha256": [
+        "41fba858c2bd8ffcb828374c90e3457004592a3940d4fd0dbdb5d4fa23d95fce"
+      ],
       "text": "Head to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "816f79d1e6eb07fa7066dfcd111d2964c2d8810ac0add82c45b39b54a16d33ea",
+      "sha256": [
+        "816f79d1e6eb07fa7066dfcd111d2964c2d8810ac0add82c45b39b54a16d33ea"
+      ],
       "text": "Headed to Yellow.",
       "source": "official"
     }

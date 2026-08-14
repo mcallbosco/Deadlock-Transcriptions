@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_forge_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "91264ccf0181d75275a23665374dc95828c7ea3463f59195ed42579efc0c457c",
+      "sha256": [
+        "91264ccf0181d75275a23665374dc95828c7ea3463f59195ed42579efc0c457c",
+        "e33f1c6da34021f1150e01c9d5b840961444d14c516101f456275308cd34fde8"
+      ],
       "text": "McGinnis is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e33f1c6da34021f1150e01c9d5b840961444d14c516101f456275308cd34fde8",
-      "text": "McGinnis is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41fbbfef5ab6c6c7a0c6e1de924f16e4f6659d14f6d9db1692f32a1c22beb198",
+      "sha256": [
+        "41fbbfef5ab6c6c7a0c6e1de924f16e4f6659d14f6d9db1692f32a1c22beb198"
+      ],
       "text": "McGinnis's on the bridge!",
       "source": "official"
     }

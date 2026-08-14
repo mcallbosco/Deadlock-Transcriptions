@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "d819a2fece31260a94bb1814d9f6b14695b88db6ed1b6f04dea111aaabed3f86",
-      "text": "I see Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "862a39a9abb76b814278bf8c34504066bbec088111ad4a67e31d001896d6ddc0",
+      "sha256": [
+        "862a39a9abb76b814278bf8c34504066bbec088111ad4a67e31d001896d6ddc0",
+        "d819a2fece31260a94bb1814d9f6b14695b88db6ed1b6f04dea111aaabed3f86"
+      ],
       "text": "I see Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

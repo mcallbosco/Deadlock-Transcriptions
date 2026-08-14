@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_shiv_03.mp3",
   "revisions": [
     {
-      "sha256": "72c799de5e25851364c459ceaaa5da6a497a91801258081586af5a604d5a5202",
-      "text": "Careful, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b11a97924a2e5a98a06273a25d26109fb0d183bdcd41e1eeb7dd24148aea46a0",
+      "sha256": [
+        "72c799de5e25851364c459ceaaa5da6a497a91801258081586af5a604d5a5202",
+        "b11a97924a2e5a98a06273a25d26109fb0d183bdcd41e1eeb7dd24148aea46a0"
+      ],
       "text": "Careful, Shiv!",
       "source": "official"
     }

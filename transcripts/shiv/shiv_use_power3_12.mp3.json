@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_use_power3_12.mp3",
   "revisions": [
     {
-      "sha256": "e4f12709436922628823a9f0cfd7e7d87856613afff45b4dea57343e6310e1f5",
+      "sha256": [
+        "abed830afc01e776dcd78977a901845c024b41251009070ff3d239a34809e0f4",
+        "e4f12709436922628823a9f0cfd7e7d87856613afff45b4dea57343e6310e1f5"
+      ],
       "text": "Get back down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "abed830afc01e776dcd78977a901845c024b41251009070ff3d239a34809e0f4",
-      "text": "Get back down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb1fde99ea062f2843c50ecb4455e5cf983bb4746a4a6f6ad7542fd2f6da8dca",
+      "sha256": [
+        "eb1fde99ea062f2843c50ecb4455e5cf983bb4746a4a6f6ad7542fd2f6da8dca"
+      ],
       "text": "Can't back down…",
       "source": "official"
     }

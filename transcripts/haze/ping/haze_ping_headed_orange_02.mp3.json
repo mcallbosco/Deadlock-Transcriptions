@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_headed_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "1297a0f9362e8d7a3dd250efe698a14b1e2baa850ad23f8d1de7b2fe6a54ce89",
-      "text": "Headed to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa73b449af172f5830b5d5a01bef898501411fcf7583a2d0d5e207b9f84330f9",
-      "text": "Headed to orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "921d79874738c0d11d8908c7c59ea3f28c3e5aac8238cee63e890b4cb1057d1f",
+      "sha256": [
+        "1297a0f9362e8d7a3dd250efe698a14b1e2baa850ad23f8d1de7b2fe6a54ce89",
+        "921d79874738c0d11d8908c7c59ea3f28c3e5aac8238cee63e890b4cb1057d1f",
+        "aa73b449af172f5830b5d5a01bef898501411fcf7583a2d0d5e207b9f84330f9"
+      ],
       "text": "Headed to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

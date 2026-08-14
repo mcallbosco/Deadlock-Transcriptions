@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_upgrade_power3_07.mp3",
   "revisions": [
     {
-      "sha256": "4e54aa26b6a92cbf82b11d15685810748d21e9cbc01e5e4db5a953ff9439fae4",
+      "sha256": [
+        "4e54aa26b6a92cbf82b11d15685810748d21e9cbc01e5e4db5a953ff9439fae4",
+        "fd223d8a2ace8a0640728b3779bca9707f807186c6c021fe3ce00842fe433f02"
+      ],
       "text": "Can I take a bullet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd223d8a2ace8a0640728b3779bca9707f807186c6c021fe3ce00842fe433f02",
-      "text": "Can I take a bullet?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

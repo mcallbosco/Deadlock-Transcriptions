@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_right_back_01.mp3",
   "revisions": [
     {
-      "sha256": "0d558171df939f02719bd7d73114393e90f4af1c461ab288fd3cf2c05dea5780",
-      "text": "I'll be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43bcc816f20a148f19651078ca8b16cfa515d798440f563cbcfabac6e5443d2d",
+      "sha256": [
+        "0d558171df939f02719bd7d73114393e90f4af1c461ab288fd3cf2c05dea5780",
+        "43bcc816f20a148f19651078ca8b16cfa515d798440f563cbcfabac6e5443d2d"
+      ],
       "text": "I'll be right back.",
       "source": "official"
     }

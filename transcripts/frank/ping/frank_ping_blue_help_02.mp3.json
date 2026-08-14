@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_blue_help_02.mp3",
   "revisions": [
     {
-      "sha256": "4e7294e613b5fa040e017774d1b6ed945ed588e2020973030d823d3cb20c414c",
-      "text": "Broadway needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dddc0ac3caad6cff771ea884c7d9d44e268721472d8a5ddebb127eb65008aabc",
+      "sha256": [
+        "4e7294e613b5fa040e017774d1b6ed945ed588e2020973030d823d3cb20c414c",
+        "dddc0ac3caad6cff771ea884c7d9d44e268721472d8a5ddebb127eb65008aabc"
+      ],
       "text": "Broadway needs help!",
       "source": "official"
     }

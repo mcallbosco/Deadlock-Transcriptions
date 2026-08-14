@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_saw_the_boss.mp3",
   "revisions": [
     {
-      "sha256": "933ca97ad9a32b84358d109c7559c63fabf7717c7330cb1dbf26040efb878a60",
+      "sha256": [
+        "933ca97ad9a32b84358d109c7559c63fabf7717c7330cb1dbf26040efb878a60"
+      ],
       "text": "I sold the boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

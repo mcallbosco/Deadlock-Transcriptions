@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_stun_viper_01.mp3",
   "revisions": [
     {
-      "sha256": "bb443eefe7caab2be6e3dd64dcf6de3e19b9b19283dba058c3ac9868e65c085b",
+      "sha256": [
+        "bb443eefe7caab2be6e3dd64dcf6de3e19b9b19283dba058c3ac9868e65c085b"
+      ],
       "text": "Darn Viper!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc585ab76c04b4332091770269528c3f47d589ecbd632ec06b6ba12d91401b92",
+      "sha256": [
+        "bc585ab76c04b4332091770269528c3f47d589ecbd632ec06b6ba12d91401b92"
+      ],
       "text": "Stun viper!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

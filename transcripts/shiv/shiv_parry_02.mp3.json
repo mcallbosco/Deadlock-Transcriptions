@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_parry_02.mp3",
   "revisions": [
     {
-      "sha256": "36520bbc9ff518f309f257655bd0180e5848603101d40d220782b0a3213dd511",
+      "sha256": [
+        "36520bbc9ff518f309f257655bd0180e5848603101d40d220782b0a3213dd511",
+        "df15ea46ac95fae79233418029bdf9ef0de7cf8df87653cd628afdb5cdfc78f7"
+      ],
       "text": "Cut.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "df15ea46ac95fae79233418029bdf9ef0de7cf8df87653cd628afdb5cdfc78f7",
-      "text": "Cut.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b92133bacc31e6147828d5e5fee66927a73c5a1d067ff2ee1447d4c32fd971a",
+      "sha256": [
+        "6b92133bacc31e6147828d5e5fee66927a73c5a1d067ff2ee1447d4c32fd971a"
+      ],
       "text": "Blocked!",
       "source": "official"
     }

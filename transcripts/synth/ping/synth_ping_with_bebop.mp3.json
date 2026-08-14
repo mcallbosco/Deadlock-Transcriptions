@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "48c475b82609cd78736962f30ee5750ef0a760ac1a71c1b2048515afbd7946e6",
+      "sha256": [
+        "48c475b82609cd78736962f30ee5750ef0a760ac1a71c1b2048515afbd7946e6"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

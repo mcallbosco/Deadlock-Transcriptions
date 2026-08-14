@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "1f1080d2865566299a9103513f1297f95942a72b51aa83e96417d1bf68f560c2",
-      "text": "Headed to green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca5b1050c7cf39651561d655e08b24d30e1d58e58cd6f2d693988fc8ae30dc7e",
-      "text": "Headed to green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7dde932443cb1448da578521e923e33453a844ff42f5ae83f7bc7166eaf23449",
+      "sha256": [
+        "1f1080d2865566299a9103513f1297f95942a72b51aa83e96417d1bf68f560c2",
+        "7dde932443cb1448da578521e923e33453a844ff42f5ae83f7bc7166eaf23449",
+        "ca5b1050c7cf39651561d655e08b24d30e1d58e58cd6f2d693988fc8ae30dc7e"
+      ],
       "text": "Headed to Green",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "89e793e2d34697899ba418fba6d1182ee16bdc4e16b3fda973ab647c8ce72775",
-      "text": "Geist's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea210e04ca4aea91f8399bddcf75b34aa98b35176687c738a897a99e1ae1be31",
-      "text": "Geist's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11d8fd53e0d6f093a5d8c9dc11cb31d7f3db10cb1a038172d2c9199f5983043f",
+      "sha256": [
+        "11d8fd53e0d6f093a5d8c9dc11cb31d7f3db10cb1a038172d2c9199f5983043f",
+        "89e793e2d34697899ba418fba6d1182ee16bdc4e16b3fda973ab647c8ce72775",
+        "ea210e04ca4aea91f8399bddcf75b34aa98b35176687c738a897a99e1ae1be31"
+      ],
       "text": "Geist's missing",
       "source": "official"
     }

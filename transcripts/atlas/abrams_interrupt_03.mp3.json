@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_interrupt_03.mp3",
   "revisions": [
     {
-      "sha256": "9b098daa2f50d4d624245f6ad9e7f6ba32a3fa35f812bda6741a14ff100d9984",
+      "sha256": [
+        "6f15be467ca976d8ab79745063b06714935e66c67e3be80da592e7fabd32511d",
+        "9b098daa2f50d4d624245f6ad9e7f6ba32a3fa35f812bda6741a14ff100d9984"
+      ],
       "text": "You ain't gettin' that off.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6f15be467ca976d8ab79745063b06714935e66c67e3be80da592e7fabd32511d",
-      "text": "You ain't gettin' that off.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f042b40b60de026b07a6c2068e7bdc5b3d368615c32f85250d100f66954f8c27",
+      "sha256": [
+        "f042b40b60de026b07a6c2068e7bdc5b3d368615c32f85250d100f66954f8c27"
+      ],
       "text": "You ain't getting that off.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

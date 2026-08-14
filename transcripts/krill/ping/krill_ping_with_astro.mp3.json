@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "a292f19decb9fc1ecd36c62bd6f3c22d1b455a907d66037adafb84718a4bbb79",
-      "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "237a81e00979844923d1ca651c325ec57a6e563d9cff29cee358ad2560e0456a",
-      "text": "I'm with you, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4699e0782a54432c7a2c22697ebcd66cbd0a428bc6c99a8f84e23db89a7bf234",
+      "sha256": [
+        "237a81e00979844923d1ca651c325ec57a6e563d9cff29cee358ad2560e0456a",
+        "4699e0782a54432c7a2c22697ebcd66cbd0a428bc6c99a8f84e23db89a7bf234",
+        "a292f19decb9fc1ecd36c62bd6f3c22d1b455a907d66037adafb84718a4bbb79"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

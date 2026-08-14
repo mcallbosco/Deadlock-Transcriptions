@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "4bb38a021c971d673f78970abe693a98349cb7bc9c7ecf3d2092e5136d83902a",
+      "sha256": [
+        "4bb38a021c971d673f78970abe693a98349cb7bc9c7ecf3d2092e5136d83902a"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

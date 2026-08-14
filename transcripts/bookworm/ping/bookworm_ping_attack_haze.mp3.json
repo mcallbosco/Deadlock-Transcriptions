@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_haze.mp3",
   "revisions": [
     {
-      "sha256": "51d71bfd8af3520ba62a17133e869c4266457d439ec8029aacab08becc12b8fb",
-      "text": "Let's take out Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "27cd6fb56fbf9544b77b84ace55b97685e5502c55e6ca47345ba6e43b54120da",
+      "sha256": [
+        "27cd6fb56fbf9544b77b84ace55b97685e5502c55e6ca47345ba6e43b54120da",
+        "51d71bfd8af3520ba62a17133e869c4266457d439ec8029aacab08becc12b8fb"
+      ],
       "text": "Let's take out Haze.",
       "source": "official"
     }

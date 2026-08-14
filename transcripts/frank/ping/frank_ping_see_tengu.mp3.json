@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_tengu.mp3",
   "revisions": [
     {
-      "sha256": "a4eb84c0f987b855f05cdf1ba96acfad793dec2e70f2f16b7193754da87742be",
+      "sha256": [
+        "a4eb84c0f987b855f05cdf1ba96acfad793dec2e70f2f16b7193754da87742be"
+      ],
       "text": "I see Harvey.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8b99b8bb548838cecfb4e74274499ff90306558d19eb606423d12dc4340f15b2",
+      "sha256": [
+        "8b99b8bb548838cecfb4e74274499ff90306558d19eb606423d12dc4340f15b2"
+      ],
       "text": "I see Ivy.",
       "source": "official"
     }

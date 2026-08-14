@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_nano_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d46f08e7658a1b1b32a29fe012b3d09eec933142e1c0a228144da3b3d6baaf34",
+      "sha256": [
+        "d46f08e7658a1b1b32a29fe012b3d09eec933142e1c0a228144da3b3d6baaf34"
+      ],
       "text": "Calico was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

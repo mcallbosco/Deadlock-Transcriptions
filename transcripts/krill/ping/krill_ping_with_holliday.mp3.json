@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_holliday.mp3",
   "revisions": [
     {
-      "sha256": "a292f19decb9fc1ecd36c62bd6f3c22d1b455a907d66037adafb84718a4bbb79",
+      "sha256": [
+        "237a81e00979844923d1ca651c325ec57a6e563d9cff29cee358ad2560e0456a",
+        "a292f19decb9fc1ecd36c62bd6f3c22d1b455a907d66037adafb84718a4bbb79"
+      ],
       "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "237a81e00979844923d1ca651c325ec57a6e563d9cff29cee358ad2560e0456a",
-      "text": "I'm with you, Holliday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

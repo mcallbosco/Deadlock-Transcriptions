@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_pocket_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "176b54a8149db20c57ba9ec142a4dd52a62f9fa5c1d18885aa76b2257761fbe0",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c36c3a0d98e11a95c82d5fa297251f5eadd17b8906c59780d35f4f8eda3b4ddd",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44d925bb9022d21ad6ae8f1a163f780ad9d4f879301a7e71d0217775abc61623",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d072997d350ecf9647d04b2e2fdc7e51ab61ddc3ea4b075aba5bd483ad316a8",
+      "sha256": [
+        "176b54a8149db20c57ba9ec142a4dd52a62f9fa5c1d18885aa76b2257761fbe0",
+        "44d925bb9022d21ad6ae8f1a163f780ad9d4f879301a7e71d0217775abc61623",
+        "5d072997d350ecf9647d04b2e2fdc7e51ab61ddc3ea4b075aba5bd483ad316a8",
+        "c36c3a0d98e11a95c82d5fa297251f5eadd17b8906c59780d35f4f8eda3b4ddd"
+      ],
       "text": "Pocket's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

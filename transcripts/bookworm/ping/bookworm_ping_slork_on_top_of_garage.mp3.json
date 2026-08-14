@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_slork_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "2ad4e77ff17460ff1b286be686098e88c6d96059a3765cdb6568118c2df4dfe6",
+      "sha256": [
+        "2ad4e77ff17460ff1b286be686098e88c6d96059a3765cdb6568118c2df4dfe6"
+      ],
       "text": "Cadmium's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a9342b4971ccc1e7c5d619e8e2d3da9b650d454c988041d5480435012e83258e",
+      "sha256": [
+        "a9342b4971ccc1e7c5d619e8e2d3da9b650d454c988041d5480435012e83258e"
+      ],
       "text": "Fathom's on top of the garage!",
       "source": "official"
     }

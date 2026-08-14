@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_grey_talon_was_here_1.mp3",
   "revisions": [
     {
-      "sha256": "9080e1eee1b2f8b0075c0641c7d44ce8e52cccdd52eaa985700fd18961af11a4",
+      "sha256": [
+        "9080e1eee1b2f8b0075c0641c7d44ce8e52cccdd52eaa985700fd18961af11a4"
+      ],
       "text": "Grey Talon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "534d8410db0942177544f55687b7847f2356cb2d8633aa6d531727b38b057127",
+      "sha256": [
+        "534d8410db0942177544f55687b7847f2356cb2d8633aa6d531727b38b057127"
+      ],
       "text": "Great talent was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "0f66d0abafaef21b0fca3d5ef58d512244f218a23e961186f9ec2fea0cff074a",
+      "sha256": [
+        "0f66d0abafaef21b0fca3d5ef58d512244f218a23e961186f9ec2fea0cff074a"
+      ],
       "text": "Head it this way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c132a5dbd49ef6ee51e3b8c5114225226e1842f8b72353e2a5673a803ba1e174",
+      "sha256": [
+        "c132a5dbd49ef6ee51e3b8c5114225226e1842f8b72353e2a5673a803ba1e174"
+      ],
       "text": "Headed this way.",
       "source": "official"
     }

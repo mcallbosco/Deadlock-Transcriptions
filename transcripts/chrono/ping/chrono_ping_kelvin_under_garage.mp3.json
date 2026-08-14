@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_kelvin_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "5fd23e53fdec660485c94c4a6c68cf93ab7e89b781c26af1778cbd39bad263ff",
+      "sha256": [
+        "5fd23e53fdec660485c94c4a6c68cf93ab7e89b781c26af1778cbd39bad263ff"
+      ],
       "text": "The cabin's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b5220d0235dbfc18261091dd1872e120c10c342b3291e7090f5f84afdd5ac20e",
+      "sha256": [
+        "b5220d0235dbfc18261091dd1872e120c10c342b3291e7090f5f84afdd5ac20e"
+      ],
       "text": "Kelvin's under the garage!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_concerned_01.mp3",
   "revisions": [
     {
-      "sha256": "b7fd92dc457154e58d52f50e634bf3502046d36ff0fad0658257b1fe08b3e5bd",
-      "text": "I should have foreseen this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "079cdc74677792b39b8e330694578907c7510fb6e850f985350c3ceff046450c",
+      "sha256": [
+        "079cdc74677792b39b8e330694578907c7510fb6e850f985350c3ceff046450c",
+        "b7fd92dc457154e58d52f50e634bf3502046d36ff0fad0658257b1fe08b3e5bd"
+      ],
       "text": "I should have foreseen this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

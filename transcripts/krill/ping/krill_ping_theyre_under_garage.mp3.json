@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_theyre_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "75436a513b1e300cc26e6869a81c6b75517232e550acfc15221d80387e502e4f",
-      "text": "They're under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39dcb43c45f7d1c11d8596d50fa7ceb96d51281a0c4d708b1e0aae917d99fb04",
-      "text": "They're under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db112281c0a0c7def1eb3582134883bb6cf89b505b8aad450db57eda2d3e3ff9",
+      "sha256": [
+        "39dcb43c45f7d1c11d8596d50fa7ceb96d51281a0c4d708b1e0aae917d99fb04",
+        "75436a513b1e300cc26e6869a81c6b75517232e550acfc15221d80387e502e4f",
+        "db112281c0a0c7def1eb3582134883bb6cf89b505b8aad450db57eda2d3e3ff9"
+      ],
       "text": "They're under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_shadow_weave_01.mp3",
   "revisions": [
     {
-      "sha256": "7a327de6f7d24e8e7adfee0b378f0b66e29c9f35c14bfa5e2e1c150071f8b235",
-      "text": "Shadowweave.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c8b29ed57aa520966cbd2c45a7be6f8adba057102f8ec65ce8eee9b54d91a01",
-      "text": "Shadow weave.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7dcef4391523c1597d34d7c7564bbd7030a319994763dfe3dc60d20b593b2c7",
+      "sha256": [
+        "0c8b29ed57aa520966cbd2c45a7be6f8adba057102f8ec65ce8eee9b54d91a01",
+        "7a327de6f7d24e8e7adfee0b378f0b66e29c9f35c14bfa5e2e1c150071f8b235",
+        "a7dcef4391523c1597d34d7c7564bbd7030a319994763dfe3dc60d20b593b2c7"
+      ],
       "text": "Shadowweave.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

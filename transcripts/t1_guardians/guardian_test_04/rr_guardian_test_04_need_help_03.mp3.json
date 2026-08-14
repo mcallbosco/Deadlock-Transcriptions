@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_need_help_03.mp3",
   "revisions": [
     {
-      "sha256": "cbc648a3987d29a52ddea7a5c7d7120a54676c775ee0d4c20475a72c7c2265f1",
-      "text": "Can someone help me on purple?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe241b4379245ab28bb420dedfe45dbea564dfa2dfed2370daa117982136987b",
-      "text": "Can someone help me on purple?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d4a7732c13b9fe42d2293030539e138873249a44126b327d597c108d6e24e8e",
+      "sha256": [
+        "3d4a7732c13b9fe42d2293030539e138873249a44126b327d597c108d6e24e8e",
+        "cbc648a3987d29a52ddea7a5c7d7120a54676c775ee0d4c20475a72c7c2265f1",
+        "fe241b4379245ab28bb420dedfe45dbea564dfa2dfed2370daa117982136987b"
+      ],
       "text": "Can someone help me on purple?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

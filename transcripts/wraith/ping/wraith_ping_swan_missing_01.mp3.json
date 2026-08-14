@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_swan_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "27cd829e966225912174dd7f0806ac6099c8f42a27cb3dffbb6e5b78fa2cc494",
+      "sha256": [
+        "27cd829e966225912174dd7f0806ac6099c8f42a27cb3dffbb6e5b78fa2cc494"
+      ],
       "text": "Something's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

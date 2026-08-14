@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_attack_yamato.mp3",
   "revisions": [
     {
-      "sha256": "dbd666ffa5fa77dc04050dc8aa125c6bce45ed4d86eed3846509bef4436e54b6",
-      "text": "Let's take out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa3e27c8285a72c7b27b1cd4ff4bec7ea84ff6470155fc73bae84c16434c5e19",
+      "sha256": [
+        "aa3e27c8285a72c7b27b1cd4ff4bec7ea84ff6470155fc73bae84c16434c5e19",
+        "dbd666ffa5fa77dc04050dc8aa125c6bce45ed4d86eed3846509bef4436e54b6"
+      ],
       "text": "Let's take out Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

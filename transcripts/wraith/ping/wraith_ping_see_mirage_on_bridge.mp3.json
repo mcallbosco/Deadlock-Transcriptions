@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_mirage_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "54c8fec80084ed7749d846a824ab286fc8c5b24d2d3799bd2d391e59cbb38d20",
+      "sha256": [
+        "21222f2c37613a7229b4623b92c0dd325008d87c13dc3dd1e280803f19e00550",
+        "4c962e89dfd8a17acb381bd40306c2b6fddb9675d1c5a11562dc70d2b87982be",
+        "54c8fec80084ed7749d846a824ab286fc8c5b24d2d3799bd2d391e59cbb38d20"
+      ],
       "text": "Mirage is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "21222f2c37613a7229b4623b92c0dd325008d87c13dc3dd1e280803f19e00550",
-      "text": "Mirage is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c962e89dfd8a17acb381bd40306c2b6fddb9675d1c5a11562dc70d2b87982be",
-      "text": "Mirage is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd5ad4c22611fddd187be0e95e2e212259a3589edc7f33f85eab6483b969132b",
+      "sha256": [
+        "cd5ad4c22611fddd187be0e95e2e212259a3589edc7f33f85eab6483b969132b"
+      ],
       "text": "Mirage's on the bridge!",
       "source": "official"
     }

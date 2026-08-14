@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "0515ffab69f9046b4929f61ca3af7e68cf371bc7871f9a60a5158e8b2bf5ee67",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dea2b4802b52f62222b7d2dbbf71ae112c81f44bdcfc61f95c313328dba3a396",
+      "sha256": [
+        "0515ffab69f9046b4929f61ca3af7e68cf371bc7871f9a60a5158e8b2bf5ee67",
+        "dea2b4802b52f62222b7d2dbbf71ae112c81f44bdcfc61f95c313328dba3a396"
+      ],
       "text": "Careful, Yamato",
       "source": "official"
     }

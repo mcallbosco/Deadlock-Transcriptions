@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_attack_warden.mp3",
   "revisions": [
     {
-      "sha256": "99312074008f5385ae4606522f600e0ee45c285c48fc046dcba0ae8b93196596",
-      "text": "Let's take out Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35643cf11fb3430b31eaa4e859235b92f882007cde01545fb120887069f6d5ed",
-      "text": "Let's take out Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "679b9b8f966de089991a40629873e156e784d90bf775db17fb0f7c1d4ab881ae",
+      "sha256": [
+        "35643cf11fb3430b31eaa4e859235b92f882007cde01545fb120887069f6d5ed",
+        "679b9b8f966de089991a40629873e156e784d90bf775db17fb0f7c1d4ab881ae",
+        "99312074008f5385ae4606522f600e0ee45c285c48fc046dcba0ae8b93196596"
+      ],
       "text": "Let's take out Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_lets_go_green.mp3",
   "revisions": [
     {
-      "sha256": "c43b9257919adb085b2a83eeb12f5439f628e2dc41b3f7926b58399b0e607a41",
-      "text": "Let's go green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c8d0062c86c2cddf1e79a07f7f6983933edd45387ecfd38cf5654fd3c5fddafc",
-      "text": "Let's go green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ceecc91f5684ff9c19483053e4909e04a9434c91e5ff772b3ba8723394de4f9",
+      "sha256": [
+        "3ceecc91f5684ff9c19483053e4909e04a9434c91e5ff772b3ba8723394de4f9",
+        "c43b9257919adb085b2a83eeb12f5439f628e2dc41b3f7926b58399b0e607a41",
+        "c8d0062c86c2cddf1e79a07f7f6983933edd45387ecfd38cf5654fd3c5fddafc"
+      ],
       "text": "Let's go green!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "329b9d5836d43e17f392420cf5a68e44dd148f3d62d8b3f643216aef69755147",
-      "text": "Thanks, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "19c9a8886ce1b4fbf328577c9ad58e74a62e952cdf446e96995c1f1901194401",
-      "text": "Thanks, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6519b5960609b28a50e9ba2b5ce01c4da1c3ff84347dafa68d3f3b39cd6a956d",
+      "sha256": [
+        "19c9a8886ce1b4fbf328577c9ad58e74a62e952cdf446e96995c1f1901194401",
+        "329b9d5836d43e17f392420cf5a68e44dd148f3d62d8b3f643216aef69755147",
+        "6519b5960609b28a50e9ba2b5ce01c4da1c3ff84347dafa68d3f3b39cd6a956d"
+      ],
       "text": "Thanks, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

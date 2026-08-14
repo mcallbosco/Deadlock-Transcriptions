@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_ally_synth_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "d4ead2e51b1504d5d92561a52a6868c52da832b717a92e7be38f61af55dade14",
+      "sha256": [
+        "d4ead2e51b1504d5d92561a52a6868c52da832b717a92e7be38f61af55dade14"
+      ],
       "text": "Take a pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2e42386fbee6dde0ea0e789fde6eb07f67c4865e009c736f70cadaf838bef644",
+      "sha256": [
+        "2e42386fbee6dde0ea0e789fde6eb07f67c4865e009c736f70cadaf838bef644"
+      ],
       "text": "They took out Pocket!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "b34adfc97166214f0683115d225781307941f833d1ac4a988dac06d049b171b9",
+      "sha256": [
+        "b34adfc97166214f0683115d225781307941f833d1ac4a988dac06d049b171b9"
+      ],
       "text": "Cover me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

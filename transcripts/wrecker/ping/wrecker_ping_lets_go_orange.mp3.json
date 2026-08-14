@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "86e5f112ccfd053e91ff84fa9bc71c564a95a6253348259e8e380a107ab8642d",
-      "text": "Let's go, Orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77e68ba0e6d8145c516ba64a8f44535ef2e675e5ad7ec508eff30f4af3c7d085",
+      "sha256": [
+        "77e68ba0e6d8145c516ba64a8f44535ef2e675e5ad7ec508eff30f4af3c7d085",
+        "86e5f112ccfd053e91ff84fa9bc71c564a95a6253348259e8e380a107ab8642d"
+      ],
       "text": "Let's go, Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_with_magician.mp3",
   "revisions": [
     {
-      "sha256": "9b1db19b7671115efb6203d1d7b5e3c831ae535269b518470d1b2f6ce197c6ef",
+      "sha256": [
+        "9b1db19b7671115efb6203d1d7b5e3c831ae535269b518470d1b2f6ce197c6ef"
+      ],
       "text": "I'm with the magician!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

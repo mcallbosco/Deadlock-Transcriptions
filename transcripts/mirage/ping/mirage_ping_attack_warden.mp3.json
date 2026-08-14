@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_attack_warden.mp3",
   "revisions": [
     {
-      "sha256": "97eb97313d146f31eea9964dbb930932965434e9a5ac01b9d754f319311354af",
-      "text": "Let's take out Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0239e0a47213a942394beb113ea0e9350b9cd3f2f86bfbbe21aace1367b3571e",
-      "text": "This sick-ass warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03b06bcd5076285416d93303fae80bb7ce9df69757f643b2de7cca241c55ff1d",
-      "text": "This sick-ass warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e75372f7fa3f56c87389f69ff0c8aa13fd64ec206f822816aed06be3867ff7d",
+      "sha256": [
+        "1e75372f7fa3f56c87389f69ff0c8aa13fd64ec206f822816aed06be3867ff7d",
+        "97eb97313d146f31eea9964dbb930932965434e9a5ac01b9d754f319311354af"
+      ],
       "text": "Let's take out Warden",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "0239e0a47213a942394beb113ea0e9350b9cd3f2f86bfbbe21aace1367b3571e",
+        "03b06bcd5076285416d93303fae80bb7ce9df69757f643b2de7cca241c55ff1d"
+      ],
+      "text": "This sick-ass warden!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

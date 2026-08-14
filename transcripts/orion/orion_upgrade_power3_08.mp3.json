@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power3_08.mp3",
   "revisions": [
     {
-      "sha256": "c09d6d32d79c3634390414950def75abec157809e6139d3d0927c61bf74470ac",
+      "sha256": [
+        "c09d6d32d79c3634390414950def75abec157809e6139d3d0927c61bf74470ac"
+      ],
       "text": "I won't find me to be easy prey.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0235d281d38d23af2f8ee783c6c9e3cdb7e936abff5359e44537e44fdd53a8a",
+      "sha256": [
+        "1e4fd0a200e4762751f8bd4cc14e1e42a5d3c18445409b5ad11db2a27df71e75",
+        "f0235d281d38d23af2f8ee783c6c9e3cdb7e936abff5359e44537e44fdd53a8a"
+      ],
       "text": "You won't find me to be easy prey.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1e4fd0a200e4762751f8bd4cc14e1e42a5d3c18445409b5ad11db2a27df71e75",
-      "text": "You won't find me to be easy prey.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b6def2cd874ca95f34ceb7eb3be128a733712d5f081ba12ace5a2bdab12f170",
+      "sha256": [
+        "1b6def2cd874ca95f34ceb7eb3be128a733712d5f081ba12ace5a2bdab12f170"
+      ],
       "text": "The won't find me to be easy prey.",
       "source": "official"
     }

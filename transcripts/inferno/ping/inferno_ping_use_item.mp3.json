@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_use_item.mp3",
   "revisions": [
     {
-      "sha256": "998e0736daf2a719908962c7d1d7385a08ef71da60fcf2b430d0494931bdcba8",
-      "text": "Ready-to-use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2511c75fbd396547cbc69d7ce189ab15f62521fe672f0d1d3365002ecd7858e9",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e15cc037fb6df757df26c4bd7e3219b0978172c44742c83cc3fd89cb3d46411",
+      "sha256": [
+        "2511c75fbd396547cbc69d7ce189ab15f62521fe672f0d1d3365002ecd7858e9",
+        "2e15cc037fb6df757df26c4bd7e3219b0978172c44742c83cc3fd89cb3d46411",
+        "998e0736daf2a719908962c7d1d7385a08ef71da60fcf2b430d0494931bdcba8"
+      ],
       "text": "Ready to use Item",
       "source": "official"
     }

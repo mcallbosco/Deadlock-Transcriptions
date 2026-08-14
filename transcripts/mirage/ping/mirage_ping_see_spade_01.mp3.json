@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_spade_01.mp3",
   "revisions": [
     {
-      "sha256": "fdf4ac17c36403a426ba5c7d0c44eb0b812f7b10fe1135311a214986e252427a",
+      "sha256": [
+        "fdf4ac17c36403a426ba5c7d0c44eb0b812f7b10fe1135311a214986e252427a"
+      ],
       "text": "I see space.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

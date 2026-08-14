@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_yamato_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "d68bfe688f8410df0e7114fa158c9426729eaf672f516ce405a12daa5e9fdaab",
+      "sha256": [
+        "9af8e110fca6eb9b718a516fd1fcacb30c50bae1b8c158d6a21c752576108c09",
+        "d68bfe688f8410df0e7114fa158c9426729eaf672f516ce405a12daa5e9fdaab"
+      ],
       "text": "Yamato's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9af8e110fca6eb9b718a516fd1fcacb30c50bae1b8c158d6a21c752576108c09",
-      "text": "Yamato's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_krill_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "c9599d81be82a3305e6846a2212c0e46159325a2faa2d1d587a741c42864bbc1",
+      "sha256": [
+        "c9599d81be82a3305e6846a2212c0e46159325a2faa2d1d587a741c42864bbc1"
+      ],
       "text": "curls on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5d833ff54b6592b2c007617b511612ed5d27b191c410aa8b8d6071e6e22265d5",
+      "sha256": [
+        "019e44d3b72f5572185befbc597306b7bf041bacaba3294b8d4010fe34098853",
+        "5d833ff54b6592b2c007617b511612ed5d27b191c410aa8b8d6071e6e22265d5"
+      ],
       "text": "Crow's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "019e44d3b72f5572185befbc597306b7bf041bacaba3294b8d4010fe34098853",
-      "text": "Crows on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c18209e9ecdbc4b029fe7f46880611405f7de80a78b7a99b54bb7ab3bbd4ea7",
+      "sha256": [
+        "5c18209e9ecdbc4b029fe7f46880611405f7de80a78b7a99b54bb7ab3bbd4ea7"
+      ],
       "text": "Krill's on top of the garage!",
       "source": "official"
     }

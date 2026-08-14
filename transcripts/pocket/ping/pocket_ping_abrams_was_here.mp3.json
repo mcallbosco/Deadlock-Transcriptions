@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_abrams_was_here.mp3",
   "revisions": [
     {
-      "sha256": "33a0fdd75a46ff52dd3b2bad820d900180058a5dfadc315fe6677aff8c48855d",
-      "text": "Abrams was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "baf2ab4241a42c00dac34e2c60f03895eabab57621e84f27455530354b6c9854",
+      "sha256": [
+        "33a0fdd75a46ff52dd3b2bad820d900180058a5dfadc315fe6677aff8c48855d",
+        "baf2ab4241a42c00dac34e2c60f03895eabab57621e84f27455530354b6c9854"
+      ],
       "text": "Abrams was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

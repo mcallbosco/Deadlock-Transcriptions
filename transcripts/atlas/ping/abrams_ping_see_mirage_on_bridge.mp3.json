@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_mirage_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b58472729aba56b7f3748f8ef62c0bf8fe71981215241ef7cd1ef7de2ab30b26",
-      "text": "Mirage is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f287ea2fb4e81e6c32a51ab051bad1dd7a4d3d7f56ac8e6eaf82f666843faca",
-      "text": "Mirage is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c1c6a3b4c89bc7efcd24f685c6988d4c6fdc038b19ffb5f565191ff1b854eee",
+      "sha256": [
+        "5c1c6a3b4c89bc7efcd24f685c6988d4c6fdc038b19ffb5f565191ff1b854eee",
+        "9f287ea2fb4e81e6c32a51ab051bad1dd7a4d3d7f56ac8e6eaf82f666843faca",
+        "b58472729aba56b7f3748f8ef62c0bf8fe71981215241ef7cd1ef7de2ab30b26"
+      ],
       "text": "Mirage is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

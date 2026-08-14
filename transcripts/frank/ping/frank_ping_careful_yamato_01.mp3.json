@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "dcaa235af1ee5f3dd3795bc805c1eb156f75e745a5202cd6a30f6e3751772676",
+      "sha256": [
+        "dcaa235af1ee5f3dd3795bc805c1eb156f75e745a5202cd6a30f6e3751772676"
+      ],
       "text": "Careful, Yamero.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f49dfadf28c772ce5e0cac16cf13a7c7c6b76f9de2e0bf966909a8c20dbb645f",
+      "sha256": [
+        "f49dfadf28c772ce5e0cac16cf13a7c7c6b76f9de2e0bf966909a8c20dbb645f"
+      ],
       "text": "Careful, Yamato…",
       "source": "official"
     }

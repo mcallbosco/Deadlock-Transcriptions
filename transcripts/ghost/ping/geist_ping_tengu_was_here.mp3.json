@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "07a90b069c96f7b116176557bc169ae5cd9afcfe8f9ebf56ce66d0b5c18daf8a",
-      "text": "Ivy was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f2e434ba55f82beee4a098ebe43849a06db452a8decc0a3a72e721aa6b7780b",
+      "sha256": [
+        "07a90b069c96f7b116176557bc169ae5cd9afcfe8f9ebf56ce66d0b5c18daf8a",
+        "3f2e434ba55f82beee4a098ebe43849a06db452a8decc0a3a72e721aa6b7780b"
+      ],
       "text": "Ivy was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

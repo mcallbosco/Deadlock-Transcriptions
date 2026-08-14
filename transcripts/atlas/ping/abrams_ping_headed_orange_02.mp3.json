@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_headed_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "ce27455cfa40a30a7cc534ea02419c73f64736a1ac819a12807ae4ae854277b2",
-      "text": "Headed to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43ce3128343a2c4c2a641bfa1561f4d198087d741daf805cc9a1ef05481881c9",
+      "sha256": [
+        "43ce3128343a2c4c2a641bfa1561f4d198087d741daf805cc9a1ef05481881c9",
+        "ce27455cfa40a30a7cc534ea02419c73f64736a1ac819a12807ae4ae854277b2"
+      ],
       "text": "Headed to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

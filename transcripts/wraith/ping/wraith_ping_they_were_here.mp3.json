@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "6b472c63a37012e11ca1637c9a4190220da7492a4c85ff57e4563526730e1197",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3eb44fd52a13003652c56dc694e55005e5d83ff09c39810ad38e9a2e3de03dad",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a32f36eaad62b37ec5ee32e12e4cde5e0d39c2240f0e5246d2f076ee52e46efb",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed2bdd0ee50030d5166a8cc763123d73361e78a48cb8a62bcd1303c68e3ae18f",
+      "sha256": [
+        "3eb44fd52a13003652c56dc694e55005e5d83ff09c39810ad38e9a2e3de03dad",
+        "6b472c63a37012e11ca1637c9a4190220da7492a4c85ff57e4563526730e1197",
+        "a32f36eaad62b37ec5ee32e12e4cde5e0d39c2240f0e5246d2f076ee52e46efb",
+        "ed2bdd0ee50030d5166a8cc763123d73361e78a48cb8a62bcd1303c68e3ae18f"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

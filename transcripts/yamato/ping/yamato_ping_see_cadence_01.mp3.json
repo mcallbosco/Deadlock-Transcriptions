@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_cadence_01.mp3",
   "revisions": [
     {
-      "sha256": "ba987b12756d56ab9a4005c5e3f9f02614abbae685c95347dadd2459b76a2276",
+      "sha256": [
+        "ba987b12756d56ab9a4005c5e3f9f02614abbae685c95347dadd2459b76a2276"
+      ],
       "text": "I see cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

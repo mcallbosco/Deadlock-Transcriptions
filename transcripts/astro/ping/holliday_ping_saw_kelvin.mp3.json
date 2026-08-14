@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_saw_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "bb0d6ddf6004cd8b50c79b16ee311d13b0602511827a60ce9d70f06c035d27fd",
+      "sha256": [
+        "bb0d6ddf6004cd8b50c79b16ee311d13b0602511827a60ce9d70f06c035d27fd"
+      ],
       "text": "I saw Kelsi.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

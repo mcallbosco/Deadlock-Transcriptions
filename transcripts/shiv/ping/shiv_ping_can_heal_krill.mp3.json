@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_can_heal_krill.mp3",
   "revisions": [
     {
-      "sha256": "fce743b3f74ab9d1096d9dd7326f99b03c84baf020da65d8e1c2023cf54f2aea",
+      "sha256": [
+        "fce743b3f74ab9d1096d9dd7326f99b03c84baf020da65d8e1c2023cf54f2aea"
+      ],
       "text": "I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e71d19055763a7d271a5e1ae3f37c0edf8bfb8116cbfcdc941c8128d73d326d2",
+      "sha256": [
+        "e71d19055763a7d271a5e1ae3f37c0edf8bfb8116cbfcdc941c8128d73d326d2"
+      ],
       "text": "I'll handle you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d79321b11f82ed8ef3610b82791d61537593d6716ed87fd7ef2904df8e0e830a",
+      "sha256": [
+        "d79321b11f82ed8ef3610b82791d61537593d6716ed87fd7ef2904df8e0e830a"
+      ],
       "text": "Krill, I can heal you!",
       "source": "official"
     }

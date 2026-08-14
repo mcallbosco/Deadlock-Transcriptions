@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_ghost_03.mp3",
   "revisions": [
     {
-      "sha256": "deae8d3c5c330fe9f8e68dcca90c3ce4064296575e6c7b2d3ec1fcd9326a33f8",
-      "text": "Careful, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "379f14361f7310d43eab182810e54c2896aafc32223d26990d65d3664e2dfa26",
+      "sha256": [
+        "379f14361f7310d43eab182810e54c2896aafc32223d26990d65d3664e2dfa26",
+        "deae8d3c5c330fe9f8e68dcca90c3ce4064296575e6c7b2d3ec1fcd9326a33f8"
+      ],
       "text": "Careful, Geist!",
       "source": "official"
     }

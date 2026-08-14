@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_gigawatt_dead.mp3",
   "revisions": [
     {
-      "sha256": "2dce239d2f31e4c0d59d7001290f551ced3bf090f437536fac7674533c2cc26d",
-      "text": "Seven is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b543b527c0f410ab7d7aef5dc620f7a7263a5e57741788d5d230eb0eaebb72a3",
+      "sha256": [
+        "2dce239d2f31e4c0d59d7001290f551ced3bf090f437536fac7674533c2cc26d",
+        "b543b527c0f410ab7d7aef5dc620f7a7263a5e57741788d5d230eb0eaebb72a3"
+      ],
       "text": "Seven is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

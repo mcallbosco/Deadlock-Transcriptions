@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_lets_hide.mp3",
   "revisions": [
     {
-      "sha256": "67ebf9929f49b8356f166e2c23ba6fc31c6a9c77303b0b0c16ee6a4a4e7fffc0",
-      "text": "Let's hide here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d15058b45fe52044cd93d7ac25ea8d8280f8fe1555ea0791387825f0ec4cc96a",
-      "text": "Let's hide here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b9ab695cfc44ea24b2096b38982973733a2a4deb0f6e00ed649860eab700577",
+      "sha256": [
+        "67ebf9929f49b8356f166e2c23ba6fc31c6a9c77303b0b0c16ee6a4a4e7fffc0",
+        "9b9ab695cfc44ea24b2096b38982973733a2a4deb0f6e00ed649860eab700577",
+        "d15058b45fe52044cd93d7ac25ea8d8280f8fe1555ea0791387825f0ec4cc96a"
+      ],
       "text": "Let's hide here",
       "source": "official"
     }

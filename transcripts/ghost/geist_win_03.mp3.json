@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_win_03.mp3",
   "revisions": [
     {
-      "sha256": "d488088b10bc866049e42d78633d680af6916121e23bef5b337c5709b44a9cc0",
-      "text": "Our keeper has been sated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "071e68640d1c04802437023038b3f97c0cec24b7c2f47b73888e6679970466df",
+      "sha256": [
+        "071e68640d1c04802437023038b3f97c0cec24b7c2f47b73888e6679970466df",
+        "d488088b10bc866049e42d78633d680af6916121e23bef5b337c5709b44a9cc0"
+      ],
       "text": "Our keeper has been sated.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

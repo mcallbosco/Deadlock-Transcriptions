@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_attack_abrams.mp3",
   "revisions": [
     {
-      "sha256": "8ca194f81ee5167598f1dca9fdd39af9e34e36b74a80714ec688c7d563d1aaf3",
+      "sha256": [
+        "8ca194f81ee5167598f1dca9fdd39af9e34e36b74a80714ec688c7d563d1aaf3",
+        "f735f0ca492e851e19131698bdebcf385a12246275f47fddfb24f7610272524c"
+      ],
       "text": "Let's take our Havens.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f735f0ca492e851e19131698bdebcf385a12246275f47fddfb24f7610272524c",
-      "text": "Let's take our havens.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

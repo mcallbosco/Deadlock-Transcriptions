@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_calico_check_items.mp3",
   "revisions": [
     {
-      "sha256": "daa12c695751b3c293f36ef917fb78ee791aa95b0db1d89f58df841709e4f67a",
-      "text": "Check out what Calico bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c00dbd6538e0409a34369cadbc21f572a58ac000d2ac419190dd6cc810f5b63a",
+      "sha256": [
+        "c00dbd6538e0409a34369cadbc21f572a58ac000d2ac419190dd6cc810f5b63a",
+        "daa12c695751b3c293f36ef917fb78ee791aa95b0db1d89f58df841709e4f67a"
+      ],
       "text": "Check out what Calico bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ae9b169c366a3f20cb7f436a761286945822ea88f7eb1f0377b83c2a74979f4b",
+      "sha256": [
+        "ae9b169c366a3f20cb7f436a761286945822ea88f7eb1f0377b83c2a74979f4b"
+      ],
       "text": "Yamato is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

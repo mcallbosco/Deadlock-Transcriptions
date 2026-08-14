@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "321664fe006d5ff6d87894b68cc7b1109298cd124a93a44e3106d2f2b1dd2658",
-      "text": "Captain.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c4cc176b384d805102e568646c3aad42f90ed1aaeec313714c0c7c13b011dc2",
-      "text": "Captain.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c9fd170d8d54cad6f4ad29084b480dfc36247dc820b016ef4661528fa46924e",
+      "sha256": [
+        "321664fe006d5ff6d87894b68cc7b1109298cd124a93a44e3106d2f2b1dd2658",
+        "7c9fd170d8d54cad6f4ad29084b480dfc36247dc820b016ef4661528fa46924e",
+        "9c4cc176b384d805102e568646c3aad42f90ed1aaeec313714c0c7c13b011dc2"
+      ],
       "text": "Captain.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

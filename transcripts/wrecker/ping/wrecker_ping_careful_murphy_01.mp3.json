@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_murphy_01.mp3",
   "revisions": [
     {
-      "sha256": "d631df6ab17a2d1e0d5c7b8b6d2e10d8923dee44ad5afa63edf98a0647ef4818",
-      "text": "Careful, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cac6f5dc483c87c648178c4e0d00e138c5d2d8832232ed962f1e7d05d43e9a77",
+      "sha256": [
+        "cac6f5dc483c87c648178c4e0d00e138c5d2d8832232ed962f1e7d05d43e9a77",
+        "d631df6ab17a2d1e0d5c7b8b6d2e10d8923dee44ad5afa63edf98a0647ef4818"
+      ],
       "text": "Careful, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

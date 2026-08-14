@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_near_miss_01.mp3",
   "revisions": [
     {
-      "sha256": "7fa8b3b7687eb5f4942b07238bbc7fa6f96e4a06b0d839e8ba63b85c659ad5e6",
+      "sha256": [
+        "7fa8b3b7687eb5f4942b07238bbc7fa6f96e4a06b0d839e8ba63b85c659ad5e6"
+      ],
       "text": "Almost, Adam.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f6283eafc39779e990f4f6d1e40c11d5ae031677d8746e5c1fd29460003861fa",
+      "sha256": [
+        "37db2a96b498fad40131b9ce9a6144536bbef5d2581eb29083cd33003a2cca27",
+        "f6283eafc39779e990f4f6d1e40c11d5ae031677d8746e5c1fd29460003861fa"
+      ],
       "text": "Almost had him.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "37db2a96b498fad40131b9ce9a6144536bbef5d2581eb29083cd33003a2cca27",
-      "text": "Almost had him.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41102e4a9cc4307e83aaf44ac4bba81dc809ce930e03b5b8b1e4651be47fde27",
+      "sha256": [
+        "41102e4a9cc4307e83aaf44ac4bba81dc809ce930e03b5b8b1e4651be47fde27"
+      ],
       "text": "Almost had them…",
       "source": "official"
     }

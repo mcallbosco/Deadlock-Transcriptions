@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_defend_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "3abfd1139040f82fc25609d41b189612ca116f52733dcbce90d8fb70d093809c",
+      "sha256": [
+        "3abfd1139040f82fc25609d41b189612ca116f52733dcbce90d8fb70d093809c"
+      ],
       "text": "This is yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f7e93a1b37baf124ab5362e01c29c4beb6983301cc375da35e3b96042e22ff66",
+      "sha256": [
+        "3405abe4dc54caf7e753f9a6b5a3b66fc24935ba9ba2d4f2c072a7bd9f7610bd",
+        "f7e93a1b37baf124ab5362e01c29c4beb6983301cc375da35e3b96042e22ff66"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3405abe4dc54caf7e753f9a6b5a3b66fc24935ba9ba2d4f2c072a7bd9f7610bd",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6629246841d97617774d09eedec796b09f8edddc09b20173147feaa4faba4b10",
+      "sha256": [
+        "6629246841d97617774d09eedec796b09f8edddc09b20173147feaa4faba4b10"
+      ],
       "text": "Spidjelu.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_sad_08.mp3",
   "revisions": [
     {
-      "sha256": "08fb375968e786f1b82e5a3c418b348fab2a3aefa86184d3bf550abc2b6892d9",
-      "text": "Grab this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d84b78b11ba5c58594d84551137eb440218e32a3fa95ee99103999fef241b4e3",
-      "text": "Grab this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da124a3fec1dc38bb03c4e6829ff13e51e44ac6258d473f363fd0958ce7c602f",
+      "sha256": [
+        "08fb375968e786f1b82e5a3c418b348fab2a3aefa86184d3bf550abc2b6892d9",
+        "d84b78b11ba5c58594d84551137eb440218e32a3fa95ee99103999fef241b4e3",
+        "da124a3fec1dc38bb03c4e6829ff13e51e44ac6258d473f363fd0958ce7c602f"
+      ],
       "text": "Grab this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

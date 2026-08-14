@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_careful_tengu_02.mp3",
   "revisions": [
     {
-      "sha256": "b32cc6073f8d5fd13083c1c898c30c730c83ad94c0ae46a156434057d78b37d4",
+      "sha256": [
+        "2ebc251f4347fa0351a7477303419aff1e0ba0b0036c7dc4109425244bc235b9",
+        "b32cc6073f8d5fd13083c1c898c30c730c83ad94c0ae46a156434057d78b37d4"
+      ],
       "text": "Careful, Ivy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ebc251f4347fa0351a7477303419aff1e0ba0b0036c7dc4109425244bc235b9",
-      "text": "Careful, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

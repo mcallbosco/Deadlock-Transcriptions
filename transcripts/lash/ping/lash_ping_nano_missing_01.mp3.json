@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_nano_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d8602c5b74e1be174d4892cf68b505c6f6dd10e0e755e68ded28d359e5188970",
+      "sha256": [
+        "6647470fab9e9d9c33573e108395cd806ae36dbc51461de9f10568ed7d6cdc60",
+        "d8602c5b74e1be174d4892cf68b505c6f6dd10e0e755e68ded28d359e5188970"
+      ],
       "text": "Nano is missing again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6647470fab9e9d9c33573e108395cd806ae36dbc51461de9f10568ed7d6cdc60",
-      "text": "Nano is missing again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7125e15954f8c728d14abaccd01b388aec888742ed0d82da8778776a5e83c5db",
+      "sha256": [
+        "7125e15954f8c728d14abaccd01b388aec888742ed0d82da8778776a5e83c5db"
+      ],
       "text": "Calico's missing",
       "source": "official"
     }

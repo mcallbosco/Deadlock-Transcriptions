@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a5af29c304b5ea978a1492d0f43444766a753846e618c530424636b8093b89c3",
+      "sha256": [
+        "a5af29c304b5ea978a1492d0f43444766a753846e618c530424636b8093b89c3"
+      ],
       "text": "Bebop is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

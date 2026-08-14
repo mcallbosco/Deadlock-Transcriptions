@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_t2_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "1abb92e2f50ff5abf532ab792417d7da0b66c1d996b65cde464a4173e6030618",
+      "sha256": [
+        "1abb92e2f50ff5abf532ab792417d7da0b66c1d996b65cde464a4173e6030618"
+      ],
       "text": "I can buy some good healing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd1ad3e118f948588a6dfab28a6375e3843b56ce7f5fd071c726fe10618da521",
+      "sha256": [
+        "bd1ad3e118f948588a6dfab28a6375e3843b56ce7f5fd071c726fe10618da521"
+      ],
       "text": "I can buy some better gear now…",
       "source": "official"
     }

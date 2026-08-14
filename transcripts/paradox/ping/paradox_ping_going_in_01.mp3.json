@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "9d16cbd86b3491ab3cf63437cd7ee243876d7dac312d23ebf6ded22c5ce31b7e",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f44106c951243175a240f024374b85ebde468de1c134caef12daa948696f14b",
+      "sha256": [
+        "7f44106c951243175a240f024374b85ebde468de1c134caef12daa948696f14b",
+        "9d16cbd86b3491ab3cf63437cd7ee243876d7dac312d23ebf6ded22c5ce31b7e"
+      ],
       "text": "I'm going in!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

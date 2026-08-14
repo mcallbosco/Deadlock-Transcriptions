@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_with_cadence.mp3",
   "revisions": [
     {
-      "sha256": "43c6ca2cdc33e1faf30c4bba4e0db98f70ed9eaf3ff69837b1d5d2a384eb3dc7",
+      "sha256": [
+        "43c6ca2cdc33e1faf30c4bba4e0db98f70ed9eaf3ff69837b1d5d2a384eb3dc7"
+      ],
       "text": "I'm with your friends.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5f8ec62daa2a177e0517986a082e2bdc346a5fd4a88fe60794a5907b27883c2e",
+      "sha256": [
+        "5f8ec62daa2a177e0517986a082e2bdc346a5fd4a88fe60794a5907b27883c2e"
+      ],
       "text": "I'm with you, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

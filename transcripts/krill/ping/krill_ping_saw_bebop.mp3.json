@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "242eb9afb190475c7181575b9dea14923eda42fd2001f32e03d8aaf8ad88f4aa",
-      "text": "I saw Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5da9f0bdc1e62e95bf65e9e9b2b963d1d24b58a5c5428992a8c126ce3cd3caee",
-      "text": "I saw Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fcc5ed3de65fd632924490033b6a47e9eb9351b39dd619e2fd9da05cb79b14f3",
+      "sha256": [
+        "242eb9afb190475c7181575b9dea14923eda42fd2001f32e03d8aaf8ad88f4aa",
+        "5da9f0bdc1e62e95bf65e9e9b2b963d1d24b58a5c5428992a8c126ce3cd3caee",
+        "fcc5ed3de65fd632924490033b6a47e9eb9351b39dd619e2fd9da05cb79b14f3"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

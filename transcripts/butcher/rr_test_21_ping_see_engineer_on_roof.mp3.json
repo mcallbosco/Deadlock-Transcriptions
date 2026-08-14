@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_engineer_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "bae33a0a9caf6ac4664b13de956d534f7737ad4ba51551ddfb0a9709d2756142",
-      "text": "Engineers on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ac8ca5cfa8ed8bcac08d498ba5087bc70893d68c0109e99b5935ed7043d5dfc",
-      "text": "Engineers on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4cde0338d800162b8375f9c7d6beacf96c5bc7c623544ba4529c509a29cd81d0",
+      "sha256": [
+        "3ac8ca5cfa8ed8bcac08d498ba5087bc70893d68c0109e99b5935ed7043d5dfc",
+        "4cde0338d800162b8375f9c7d6beacf96c5bc7c623544ba4529c509a29cd81d0",
+        "bae33a0a9caf6ac4664b13de956d534f7737ad4ba51551ddfb0a9709d2756142"
+      ],
       "text": "Engineers on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

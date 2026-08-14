@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "c4fb42d9d6fe65e49d9ae27b3be71c56b4cc98d96658f05b633a19867e468b1f",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b7a6f2d7b2c0ccfbf0b8c523cea4cc3c5b2c35a486537420c5c2278315200f52",
+      "sha256": [
+        "b7a6f2d7b2c0ccfbf0b8c523cea4cc3c5b2c35a486537420c5c2278315200f52",
+        "c4fb42d9d6fe65e49d9ae27b3be71c56b4cc98d96658f05b633a19867e468b1f"
+      ],
       "text": "On my way.",
       "source": "official"
     }

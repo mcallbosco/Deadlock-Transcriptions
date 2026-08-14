@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/newscaster_headline_03.mp3",
   "revisions": [
     {
-      "sha256": "c4aab5019c5a50bc5b36baf421eb8c5810427d67fbdad51795f5137cd13d7dff",
+      "sha256": [
+        "c4aab5019c5a50bc5b36baf421eb8c5810427d67fbdad51795f5137cd13d7dff",
+        "fd61680b0a2d0967b7085b4ba8607aa3e9261d003b0418a11e24406906b216fe"
+      ],
       "text": "Once an eclipse changed the world. Who knows what today's celestial event will bring.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd61680b0a2d0967b7085b4ba8607aa3e9261d003b0418a11e24406906b216fe",
-      "text": "Once, an eclipse changed the world. Who knows what today's celestial event will bring.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

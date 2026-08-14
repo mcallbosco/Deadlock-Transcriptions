@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_shiv_dead.mp3",
   "revisions": [
     {
-      "sha256": "0ac1af725ddc167d32ec3cccba167c69058e2cdff2ce12efa15a848bd9aa7045",
+      "sha256": [
+        "0ac1af725ddc167d32ec3cccba167c69058e2cdff2ce12efa15a848bd9aa7045"
+      ],
       "text": "This ship is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

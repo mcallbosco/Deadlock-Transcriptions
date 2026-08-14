@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_haze_check_items.mp3",
   "revisions": [
     {
-      "sha256": "3b55b620859c1ac11f8619e5b61a25bb917fa6420d5b02fc33eb570ac6751d1c",
+      "sha256": [
+        "3b55b620859c1ac11f8619e5b61a25bb917fa6420d5b02fc33eb570ac6751d1c",
+        "4cbae226b5e9dcb2d7fb3771e24872f6b4498ecb07748952651510419d554222"
+      ],
       "text": "Check out what he's bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4cbae226b5e9dcb2d7fb3771e24872f6b4498ecb07748952651510419d554222",
-      "text": "Check out what he's bought!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

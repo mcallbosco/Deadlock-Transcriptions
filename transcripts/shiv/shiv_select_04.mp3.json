@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_select_04.mp3",
   "revisions": [
     {
-      "sha256": "c49e5fa8c1ca9f07c22b0a986abff141545bbd437bec7260b8af205b6c396bb3",
+      "sha256": [
+        "c49e5fa8c1ca9f07c22b0a986abff141545bbd437bec7260b8af205b6c396bb3",
+        "dee27c38178a05f1f9caab976e1f43c2c6ae2521cfce003d90e95068bb5a6e1a"
+      ],
       "text": "This is the club.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dee27c38178a05f1f9caab976e1f43c2c6ae2521cfce003d90e95068bb5a6e1a",
-      "text": "This is the club.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b807c1a5b5004faa4d20e7955a0fe20ae6aeb437e8079815428a719395dce42",
+      "sha256": [
+        "1b807c1a5b5004faa4d20e7955a0fe20ae6aeb437e8079815428a719395dce42"
+      ],
       "text": "This shouldn't take long.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_negative_01.mp3",
   "revisions": [
     {
-      "sha256": "859117dd1b98045cbd63a61a3ac829aceeba12aac432c848ae53edd988720101",
+      "sha256": [
+        "859117dd1b98045cbd63a61a3ac829aceeba12aac432c848ae53edd988720101",
+        "8c3182a7450f62839ebb66cec8a21660a9f05606f68c83fd4d87daaa091ceff5"
+      ],
       "text": "No!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8c3182a7450f62839ebb66cec8a21660a9f05606f68c83fd4d87daaa091ceff5",
-      "text": "No!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd33cbe6e338982078e8b5967d5c866bdd8e9e6e2ecfb4604869a7cc17bb3b8e",
+      "sha256": [
+        "bd33cbe6e338982078e8b5967d5c866bdd8e9e6e2ecfb4604869a7cc17bb3b8e"
+      ],
       "text": "Naw",
       "source": "official"
     }

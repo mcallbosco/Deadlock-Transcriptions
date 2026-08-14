@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_use_tech_purge_01.mp3",
   "revisions": [
     {
-      "sha256": "a2fbcc4c9717fa5c364d23a02912684a10cd9359cd171470d1c370e0b48fd7de",
+      "sha256": [
+        "a2fbcc4c9717fa5c364d23a02912684a10cd9359cd171470d1c370e0b48fd7de"
+      ],
       "text": "Charging!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a485d48229aec4d2abeb519602bbdafbdf3ff266539cc25ecad6438f3738d4f3",
+      "sha256": [
+        "a485d48229aec4d2abeb519602bbdafbdf3ff266539cc25ecad6438f3738d4f3"
+      ],
       "text": "Purging!",
       "source": "official"
     }

@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_gigawatt_start_02.mp3",
   "revisions": [
     {
-      "sha256": "38931cb23d5978a889d7dca9cb68ba60fa4ccd2d438ac12a622ac621890f70e5",
+      "sha256": [
+        "38931cb23d5978a889d7dca9cb68ba60fa4ccd2d438ac12a622ac621890f70e5"
+      ],
       "text": "You were punished for seeking knowledge, but history is not written in stone, Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6f45df9904564714a4ad40c00bc549e262f8b86362a61a21b8cb0db444975c76",
-      "text": "The weak-minded sought your destruction, but you survived, and now you take your prize.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "6f45df9904564714a4ad40c00bc549e262f8b86362a61a21b8cb0db444975c76",
+        "fec89cc33154cfa7f8f0b61474c0c553a289d094c7a1178ae1b72abfa859c74e"
+      ],
+      "text": "The weak minded sought your destruction…. But you survived, and now you take your prize.",
+      "source": "official"
     },
     {
-      "sha256": "c6f516e661a0e03110c3afcd812ed74c4000c9063f87fc532f10b4325933134f",
+      "sha256": [
+        "c6f516e661a0e03110c3afcd812ed74c4000c9063f87fc532f10b4325933134f"
+      ],
       "text": "The weak-minded sought your destruction, but you survived, and now, take your prize!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fec89cc33154cfa7f8f0b61474c0c553a289d094c7a1178ae1b72abfa859c74e",
-      "text": "The weak minded sought your destruction…. But you survived, and now you take your prize.",
-      "source": "official"
     }
   ]
 }

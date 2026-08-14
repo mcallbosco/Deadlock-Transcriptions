@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_stun_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "d6bb4c66697d635e20a4d8d4468145406ad8d2dfa9faa7174bc6aa653d21a1c6",
+      "sha256": [
+        "d6bb4c66697d635e20a4d8d4468145406ad8d2dfa9faa7174bc6aa653d21a1c6"
+      ],
       "text": "Stan Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "646b6abcda2e7050e6fcb49e3ca66ce2d5e668cdd39cb18165e0aef4420fa3ec",
+      "sha256": [
+        "646b6abcda2e7050e6fcb49e3ca66ce2d5e668cdd39cb18165e0aef4420fa3ec"
+      ],
       "text": "スタンヤマチョウ",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

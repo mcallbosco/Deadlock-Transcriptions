@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "necro/ping/necro_ping_saw_nano.mp3",
   "revisions": [
     {
-      "sha256": "6faa3e7b0d3409ac0b681570131cc46d31f3f769298c08229ec852cd1d22a636",
+      "sha256": [
+        "6faa3e7b0d3409ac0b681570131cc46d31f3f769298c08229ec852cd1d22a636"
+      ],
       "text": "I saw a calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

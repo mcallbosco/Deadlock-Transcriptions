@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_parry_01.mp3",
   "revisions": [
     {
-      "sha256": "a300bb46b1db664688e4920ad3d99e95a9c55c761d3e477dc59cfcb34a480dbc",
-      "text": "Don't touch me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ecdf19a4d42fd4722146f42f1a0f57c0407a1fa665215aa53babbac2e63be15",
+      "sha256": [
+        "6ecdf19a4d42fd4722146f42f1a0f57c0407a1fa665215aa53babbac2e63be15",
+        "a300bb46b1db664688e4920ad3d99e95a9c55c761d3e477dc59cfcb34a480dbc"
+      ],
       "text": "Don't touch me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

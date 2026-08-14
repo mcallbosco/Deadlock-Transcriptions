@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_smoke_01.mp3",
   "revisions": [
     {
-      "sha256": "8d9f39c52ba02a80611ca841bd7994339db30cd2b43d4112b687bb82367dbb07",
-      "text": "The hunt begins.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ef3c500eacd3efcc077bf4fd5a620d38e0da8eadd90f18c4b9fe6b32873d5b5",
-      "text": "The hunt begins.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6864ac88f1429645ffce27f0186a5ba068f313040f6cf41f1fa30b27086d6ce6",
+      "sha256": [
+        "6864ac88f1429645ffce27f0186a5ba068f313040f6cf41f1fa30b27086d6ce6",
+        "8d9f39c52ba02a80611ca841bd7994339db30cd2b43d4112b687bb82367dbb07",
+        "8ef3c500eacd3efcc077bf4fd5a620d38e0da8eadd90f18c4b9fe6b32873d5b5"
+      ],
       "text": "The hunt begins.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

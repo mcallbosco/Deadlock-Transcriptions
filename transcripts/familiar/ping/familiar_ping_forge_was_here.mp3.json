@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_forge_was_here.mp3",
   "revisions": [
     {
-      "sha256": "84f984168c7c8b80516796734ac725fcdd05dd557cc25b42168ddce93b5b1f23",
+      "sha256": [
+        "84f984168c7c8b80516796734ac725fcdd05dd557cc25b42168ddce93b5b1f23"
+      ],
       "text": "McGinnis was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

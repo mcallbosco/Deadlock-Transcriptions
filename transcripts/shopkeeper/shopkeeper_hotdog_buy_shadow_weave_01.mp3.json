@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_buy_shadow_weave_01.mp3",
   "revisions": [
     {
-      "sha256": "d8a276ebbf7259d0ed0ad9e7afe3aa5d226f6a67cf219bdeb9a9f5a3b2535979",
+      "sha256": [
+        "d8a276ebbf7259d0ed0ad9e7afe3aa5d226f6a67cf219bdeb9a9f5a3b2535979"
+      ],
       "text": "If they're over 20 meters away, says they can see you, paralyze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8f8191f1a55779c43f1f21bfbd7fcbf2fd405f6a2df4bd0b6e7a6219275301bd",
+      "sha256": [
+        "8f8191f1a55779c43f1f21bfbd7fcbf2fd405f6a2df4bd0b6e7a6219275301bd"
+      ],
       "text": "If I'm over 20 meters away, says it can see you. Pair of life.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c17f9be4e1fd20bb07089779dd79d9693ad02c01668c5699a92ee8f0c40a49b7",
+      "sha256": [
+        "c17f9be4e1fd20bb07089779dd79d9693ad02c01668c5699a92ee8f0c40a49b7"
+      ],
       "text": "If someone over 20 meters away says they can see you, they're a liar.",
       "source": "official"
     }

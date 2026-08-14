@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_upgrade_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "dbf537a61e53546101ec0552f65d6598f41ee6092069320d67dfa99e4f5873d5",
+      "sha256": [
+        "dbf537a61e53546101ec0552f65d6598f41ee6092069320d67dfa99e4f5873d5"
+      ],
       "text": "It's like gunning, but violent.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c33ec442ab2c48dd6cb1ab8245f0b7a2d8e3ba175b88270eda21c460fdd4fbb9",
+      "sha256": [
+        "c33ec442ab2c48dd6cb1ab8245f0b7a2d8e3ba175b88270eda21c460fdd4fbb9"
+      ],
       "text": "It's like gardening, but violent",
       "source": "official"
     }

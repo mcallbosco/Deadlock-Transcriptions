@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_frank_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9fa0bbb222bcdffeeaed136f01b73b31093347aeb70d5721a864f318c4b4ff8c",
+      "sha256": [
+        "9fa0bbb222bcdffeeaed136f01b73b31093347aeb70d5721a864f318c4b4ff8c"
+      ],
       "text": "Victor's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

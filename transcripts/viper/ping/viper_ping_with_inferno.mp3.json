@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_inferno.mp3",
   "revisions": [
     {
-      "sha256": "e827382a7c07517f151562e84b0e28f313ae94801ec31bfeb61828210cbf6dcf",
-      "text": "I'm with you, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d06d9b461dbaed93f580a57b23d1b6963633ac6309d955284bab9fce2f16a9a5",
-      "text": "I'm with you, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8614c3aeb02954c1109d569ac147089f21472c4adc8c4c774e99f9bd803c53aa",
+      "sha256": [
+        "8614c3aeb02954c1109d569ac147089f21472c4adc8c4c774e99f9bd803c53aa",
+        "d06d9b461dbaed93f580a57b23d1b6963633ac6309d955284bab9fce2f16a9a5",
+        "e827382a7c07517f151562e84b0e28f313ae94801ec31bfeb61828210cbf6dcf"
+      ],
       "text": "I'm with you, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

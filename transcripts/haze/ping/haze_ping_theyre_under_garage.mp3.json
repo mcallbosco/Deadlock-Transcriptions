@@ -1,34 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_theyre_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "feef00328ebdf0d4dcad71dee6cb48c2069f6be34ad1a24930afb7c4c89bd26e",
+      "sha256": [
+        "1c088bfaae31f144fbfdeb359da0840e63a1d9f722153ae5211e70778a79d377",
+        "bba2972e8882e1415ed7af47a5ea3478543d7b64b86240c6932e3a095ad9e6f2",
+        "feef00328ebdf0d4dcad71dee6cb48c2069f6be34ad1a24930afb7c4c89bd26e"
+      ],
       "text": "They're under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7605a5fd3d2384673c293c28608381545427b6421fc015ba083f4b9371d266f2",
+      "sha256": [
+        "7605a5fd3d2384673c293c28608381545427b6421fc015ba083f4b9371d266f2"
+      ],
       "text": "It's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "884a4e9171bb8d08926af8095cc371d75b077a154dba950c1b7690335ec511b6",
+      "sha256": [
+        "884a4e9171bb8d08926af8095cc371d75b077a154dba950c1b7690335ec511b6"
+      ],
       "text": "They're under the carage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bba2972e8882e1415ed7af47a5ea3478543d7b64b86240c6932e3a095ad9e6f2",
-      "text": "They're under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c088bfaae31f144fbfdeb359da0840e63a1d9f722153ae5211e70778a79d377",
-      "text": "They're under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

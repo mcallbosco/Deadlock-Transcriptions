@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_ivy_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "42f3f181419c5172496d61e89748cdbbb929ab713dc75756c5907bdd5a8e62a6",
+      "sha256": [
+        "42f3f181419c5172496d61e89748cdbbb929ab713dc75756c5907bdd5a8e62a6",
+        "7010b05228e7cb1e27df6ea4b76ec840da87548b3eaf4f42683919d1756dae04"
+      ],
       "text": "I was under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7010b05228e7cb1e27df6ea4b76ec840da87548b3eaf4f42683919d1756dae04",
-      "text": "I was under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

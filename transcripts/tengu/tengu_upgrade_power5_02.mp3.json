@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_upgrade_power5_02.mp3",
   "revisions": [
     {
-      "sha256": "6274eeef08903ab24c30836c31e5cd26e63b50e69c2ec6fed2942ca98dc20988",
-      "text": "Everyone should get the chance to fly.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c77771c0d6d7b0fb59b568e95ccb47cd3d39a09473f48918561683f389e5e20b",
+      "sha256": [
+        "6274eeef08903ab24c30836c31e5cd26e63b50e69c2ec6fed2942ca98dc20988",
+        "c77771c0d6d7b0fb59b568e95ccb47cd3d39a09473f48918561683f389e5e20b"
+      ],
       "text": "Everyone should get the chance to fly",
       "source": "official"
     }

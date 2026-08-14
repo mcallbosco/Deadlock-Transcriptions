@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_sad_04.mp3",
   "revisions": [
     {
-      "sha256": "bfe747cb7bf95fd022977a4c71a44ddef9433e7bf7c8bd6247fb3945045d0569",
-      "text": "What have I done?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d089aae61b2c2e2ac9be4595c78222012ab8e89d2e550b3f97b3028850b7f711",
-      "text": "What have I done?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04e1404edaf88c1db8d2192a93a3d852edc867b104c69e79e8fce7804b0f6d3a",
-      "text": "What have I done?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04660f3b7f8523879b5b7acc92fc4192d2a7c490bb3fac8328c81679b48453b6",
+      "sha256": [
+        "04660f3b7f8523879b5b7acc92fc4192d2a7c490bb3fac8328c81679b48453b6",
+        "04e1404edaf88c1db8d2192a93a3d852edc867b104c69e79e8fce7804b0f6d3a",
+        "bfe747cb7bf95fd022977a4c71a44ddef9433e7bf7c8bd6247fb3945045d0569",
+        "d089aae61b2c2e2ac9be4595c78222012ab8e89d2e550b3f97b3028850b7f711"
+      ],
       "text": "What have I done?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

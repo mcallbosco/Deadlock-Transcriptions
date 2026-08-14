@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_wraith_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "e9683ef16d2d78f6ebfe9b895ad8068a6d7e0ec4ca7b4e4b033add7148179303",
-      "text": "Where is another garage?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b629b13617c91f57d6d189074222d519bb6e8ed8e18a52f541956a23e78c027",
+      "sha256": [
+        "6b629b13617c91f57d6d189074222d519bb6e8ed8e18a52f541956a23e78c027",
+        "e9683ef16d2d78f6ebfe9b895ad8068a6d7e0ec4ca7b4e4b033add7148179303"
+      ],
       "text": "Where is another garage?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

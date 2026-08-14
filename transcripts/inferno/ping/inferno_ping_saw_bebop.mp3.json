@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "9de0099d0e0652cbfb7a02ea4299f0a6c208194e4272c11e87294a712b0753cd",
-      "text": "I saw Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1e34ae81a4974e0912864207f7317289d6c18e9d5d0e575933be5108ea7ce37",
-      "text": "I saw Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a52627a8581d19e555920bd58c01889dd5ce05def5b501af73b37aef4b64bf72",
-      "text": "I saw Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e32b2168ad64320200e610d727acdc35434b7923796ebe7c85d608112d18490e",
+      "sha256": [
+        "9de0099d0e0652cbfb7a02ea4299f0a6c208194e4272c11e87294a712b0753cd",
+        "a52627a8581d19e555920bd58c01889dd5ce05def5b501af73b37aef4b64bf72",
+        "d1e34ae81a4974e0912864207f7317289d6c18e9d5d0e575933be5108ea7ce37",
+        "e32b2168ad64320200e610d727acdc35434b7923796ebe7c85d608112d18490e"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

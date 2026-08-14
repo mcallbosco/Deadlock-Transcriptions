@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_holliday_check_items.mp3",
   "revisions": [
     {
-      "sha256": "037c35d47696bc9a0a35d90a5f02eb37723a71bfc40212f1d2b0b67007374ed9",
-      "text": "Check out what Holliday bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ed1dbca4d77cbe030dcdb832b5f54aa103dfac1ef6760ce73724b6a41477a60",
+      "sha256": [
+        "037c35d47696bc9a0a35d90a5f02eb37723a71bfc40212f1d2b0b67007374ed9",
+        "1ed1dbca4d77cbe030dcdb832b5f54aa103dfac1ef6760ce73724b6a41477a60"
+      ],
       "text": "Check out what Holliday bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

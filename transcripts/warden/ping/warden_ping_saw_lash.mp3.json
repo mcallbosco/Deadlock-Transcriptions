@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_lash.mp3",
   "revisions": [
     {
-      "sha256": "a4d795275f87ec06aa1276cf8d7295cc8473b3330bf81c5ea53d338580c441bd",
-      "text": "I saw Lash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff32c3f9f164bed16ad376bc648af8b1d21b3410922ae780dfbd75b01e53e87c",
-      "text": "I saw Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32721ac688bd7cec5deff21f92abe463d444271dc6e82440257b2245f8205d5c",
-      "text": "I saw Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c71ecd82febd2be877fdaa1a9dd39fb87bcec43e1066ad810a4570fdf25d24e",
+      "sha256": [
+        "32721ac688bd7cec5deff21f92abe463d444271dc6e82440257b2245f8205d5c",
+        "8c71ecd82febd2be877fdaa1a9dd39fb87bcec43e1066ad810a4570fdf25d24e",
+        "a4d795275f87ec06aa1276cf8d7295cc8473b3330bf81c5ea53d338580c441bd",
+        "ff32c3f9f164bed16ad376bc648af8b1d21b3410922ae780dfbd75b01e53e87c"
+      ],
       "text": "I saw Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

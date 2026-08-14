@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "75ea5bcdc926f141b756b4619dd1d2393a4b855eb51f80a889a32b23aedebc36",
+      "sha256": [
+        "75ea5bcdc926f141b756b4619dd1d2393a4b855eb51f80a889a32b23aedebc36",
+        "c1564b81772c78870d9e4c6972e6ffe1a93ca99a12fc094ca8b55db2dd9d54de"
+      ],
       "text": "Missing green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc789c64598ba2739407dcf2b01d3ba9b8c30e7565cb81d30f6836ca56185c22",
+      "sha256": [
+        "cc789c64598ba2739407dcf2b01d3ba9b8c30e7565cb81d30f6836ca56185c22"
+      ],
       "text": "Missin' Green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1564b81772c78870d9e4c6972e6ffe1a93ca99a12fc094ca8b55db2dd9d54de",
-      "text": "Missing Green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

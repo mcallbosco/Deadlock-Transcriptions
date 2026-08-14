@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_happy_08.mp3",
   "revisions": [
     {
-      "sha256": "3034971c6d31be2e54c146c5be3a71492ff3e658bda9f6b9adf495663d6459a0",
+      "sha256": [
+        "2a8824ca610d99ed9bd807ba33e018b560d382d7b773738f335b823600130ec8",
+        "3034971c6d31be2e54c146c5be3a71492ff3e658bda9f6b9adf495663d6459a0",
+        "76242ae95e02fdd62d344e0a7dbf17b9006369d0e43e10ed929e105203c8e419"
+      ],
       "text": "God, I am great.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0e42242eebd2e22b751fd274907ac2cb47cae81c518284b3df5541370b22dfee",
+      "sha256": [
+        "0e42242eebd2e22b751fd274907ac2cb47cae81c518284b3df5541370b22dfee"
+      ],
       "text": "God, I am grace.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76242ae95e02fdd62d344e0a7dbf17b9006369d0e43e10ed929e105203c8e419",
-      "text": "God, I am great.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a8824ca610d99ed9bd807ba33e018b560d382d7b773738f335b823600130ec8",
-      "text": "God, I am great.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

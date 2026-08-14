@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_inferno_03.mp3",
   "revisions": [
     {
-      "sha256": "276073196d1d6d8cd36fa25057bf07307b510c5bddb2939f61fe60b7c1eb35ed",
-      "text": "Careful, Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a3c010661c6df05ceeea825707cbf5c1b071fee9a6fe36888cc758bb729ff0a",
+      "sha256": [
+        "276073196d1d6d8cd36fa25057bf07307b510c5bddb2939f61fe60b7c1eb35ed",
+        "3a3c010661c6df05ceeea825707cbf5c1b071fee9a6fe36888cc758bb729ff0a"
+      ],
       "text": "Careful, Infernus!",
       "source": "official"
     }

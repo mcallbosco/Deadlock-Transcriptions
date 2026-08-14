@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "06ebc48a386fffd9e6ccc416daf7fa2224d8760f35873e540005558266d238c0",
+      "sha256": [
+        "040199c741927f3d80fdbabeaced7bd7d8bb2d8e43a396c1e14d52ee7a7c71aa",
+        "06ebc48a386fffd9e6ccc416daf7fa2224d8760f35873e540005558266d238c0"
+      ],
       "text": "Stop, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "040199c741927f3d80fdbabeaced7bd7d8bb2d8e43a396c1e14d52ee7a7c71aa",
-      "text": "Stop, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7b2e5aff9592dec29289e935153f78d5868f827807254ee638ab5da1e3d1c40b",
+      "sha256": [
+        "7b2e5aff9592dec29289e935153f78d5868f827807254ee638ab5da1e3d1c40b"
+      ],
       "text": "Stopped Kelvin",
       "source": "official"
     }

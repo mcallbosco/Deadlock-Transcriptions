@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "33e77ceb68ae7c9e58a17664468e23c0b6ebadbb40ce77595a61b01be7c36a43",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afaf4483562f3155537c03cf8620d99dfb8acd4d47fc131e4d44b25e3bb55d32",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a67ac50f518d1da6f129daf59bb66bcf607fc8c04935c0a40fe8b67b9f0cde53",
+      "sha256": [
+        "33e77ceb68ae7c9e58a17664468e23c0b6ebadbb40ce77595a61b01be7c36a43",
+        "a67ac50f518d1da6f129daf59bb66bcf607fc8c04935c0a40fe8b67b9f0cde53",
+        "afaf4483562f3155537c03cf8620d99dfb8acd4d47fc131e4d44b25e3bb55d32"
+      ],
       "text": "Careful, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

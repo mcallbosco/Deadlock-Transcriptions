@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "f2d59b9526cc797faff8805f74f563ca3dc04de5ae79f449ce3983e239adf744",
+      "sha256": [
+        "f2d59b9526cc797faff8805f74f563ca3dc04de5ae79f449ce3983e239adf744"
+      ],
       "text": "Is that...",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "390f0b217c9fb1e9d53d9106d1bd9c484f1fc2c32d9cf140eec3d739cef8a373",
+      "sha256": [
+        "390f0b217c9fb1e9d53d9106d1bd9c484f1fc2c32d9cf140eec3d739cef8a373"
+      ],
       "text": "I see red.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d13ed5946659e8fee73f2a571e79d7b92c6475c4d1bd23c42b4cacc77ca0ce9a",
+      "sha256": [
+        "d13ed5946659e8fee73f2a571e79d7b92c6475c4d1bd23c42b4cacc77ca0ce9a"
+      ],
       "text": "I see waste.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "11649f4b8dc8a76bf491164a938fc84f582e230c3e42823e623c682c61837ab5",
+      "sha256": [
+        "11649f4b8dc8a76bf491164a938fc84f582e230c3e42823e623c682c61837ab5"
+      ],
       "text": "I see Wraith",
       "source": "official"
     }

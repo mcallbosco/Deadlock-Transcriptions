@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_kill_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "fe29fefdd913bcbea80a5b0a01ba3054d00ecb4484fe65a743eb22013ac22b2f",
-      "text": "Took out Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "edcea68969750cf3a79e72fc57e822b4c8019a9a850d4ec7acba24aa7bdb9a4e",
-      "text": "Took out Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c8d289beb43a82ae0ad5375f27df56fddcf56ed1b22454d0d6596918ce5e1a2",
-      "text": "Check out Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc8e5168b6f2099bf19cac96eae94988f7c80d6b9d9d7845e1e2cdf12182a360",
-      "text": "Check out Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b78e7f21d04b4a4fd28f6b565219a56c2f1c24a8f7f5858dae570234db28c3e5",
+      "sha256": [
+        "b78e7f21d04b4a4fd28f6b565219a56c2f1c24a8f7f5858dae570234db28c3e5",
+        "edcea68969750cf3a79e72fc57e822b4c8019a9a850d4ec7acba24aa7bdb9a4e",
+        "fe29fefdd913bcbea80a5b0a01ba3054d00ecb4484fe65a743eb22013ac22b2f"
+      ],
       "text": "Took out Bebop.",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "4c8d289beb43a82ae0ad5375f27df56fddcf56ed1b22454d0d6596918ce5e1a2",
+        "bc8e5168b6f2099bf19cac96eae94988f7c80d6b9d9d7845e1e2cdf12182a360"
+      ],
+      "text": "Check out Bebop.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

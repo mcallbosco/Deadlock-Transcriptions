@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_flank.mp3",
   "revisions": [
     {
-      "sha256": "e82e6b915951eb1c95c17579d9a0720be797af8a8ac23e9eba51fb48feacdaa1",
+      "sha256": [
+        "e82e6b915951eb1c95c17579d9a0720be797af8a8ac23e9eba51fb48feacdaa1"
+      ],
       "text": "I will flank him.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7cd570d5fe7937f1a30047352dc07bccea24009d281737b8cb12e665eb4a7e61",
+      "sha256": [
+        "7cd570d5fe7937f1a30047352dc07bccea24009d281737b8cb12e665eb4a7e61"
+      ],
       "text": "I'll flank 'em",
       "source": "official"
     }

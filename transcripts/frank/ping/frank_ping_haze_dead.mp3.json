@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "59634c3803e8ef94fd6fa08472c9397d27d1c9c11c10845a80a5f2a495ce238a",
-      "text": "Case is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3391561e4a0a864f74967b0fe38b8f50208e3d7e123e2a2dff4ce1d8cd9147cb",
+      "sha256": [
+        "3391561e4a0a864f74967b0fe38b8f50208e3d7e123e2a2dff4ce1d8cd9147cb",
+        "59634c3803e8ef94fd6fa08472c9397d27d1c9c11c10845a80a5f2a495ce238a"
+      ],
       "text": "Case is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_cadence_01.mp3",
   "revisions": [
     {
-      "sha256": "e7ea7b6bd878f325a18f1e0b91d5b5925d259e0af8f71d4362e61731cdf721cb",
+      "sha256": [
+        "e7ea7b6bd878f325a18f1e0b91d5b5925d259e0af8f71d4362e61731cdf721cb"
+      ],
       "text": "We see games.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f319d5480f34b86f754c9866c065cc1bae604ec9104e66ac6315b60ab704ffe7",
+      "sha256": [
+        "f319d5480f34b86f754c9866c065cc1bae604ec9104e66ac6315b60ab704ffe7"
+      ],
       "text": "I see cannons!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

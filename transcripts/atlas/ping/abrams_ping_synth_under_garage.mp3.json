@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_synth_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "1aad58890e59c8feb8118604eaa139c72b2bbae1d7933fb2228cc16a5b740a21",
+      "sha256": [
+        "1aad58890e59c8feb8118604eaa139c72b2bbae1d7933fb2228cc16a5b740a21"
+      ],
       "text": "Pocket is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "efed3c2adbc510b501b6f5260fcf143764ad51c2cd8cb7820def7c761eaf6377",
-      "text": "The cockpit is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69f901844bab45b595d2e7f63a8424517b659bc53026d006e93315f52a7f9b71",
+      "sha256": [
+        "69f901844bab45b595d2e7f63a8424517b659bc53026d006e93315f52a7f9b71",
+        "efed3c2adbc510b501b6f5260fcf143764ad51c2cd8cb7820def7c761eaf6377"
+      ],
       "text": "The cockpit is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

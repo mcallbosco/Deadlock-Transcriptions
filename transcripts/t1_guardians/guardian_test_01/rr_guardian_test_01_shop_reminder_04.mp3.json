@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_shop_reminder_04.mp3",
   "revisions": [
     {
-      "sha256": "d423a2125dde3d67916253f57620b47cd4094c9961a374bd4bc1c848f5d114c9",
-      "text": "You can shop here at the base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dfe45ca76018726c94cb2e941b3da57da669d867307c04cf47c0b169d722c60d",
-      "text": "You can shop here at the base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b0710bfb9a7bd7860cac1336854748f6ea4abb1d862a4e9a2b54dd075b4c6a1",
+      "sha256": [
+        "3b0710bfb9a7bd7860cac1336854748f6ea4abb1d862a4e9a2b54dd075b4c6a1",
+        "d423a2125dde3d67916253f57620b47cd4094c9961a374bd4bc1c848f5d114c9",
+        "dfe45ca76018726c94cb2e941b3da57da669d867307c04cf47c0b169d722c60d"
+      ],
       "text": "You can shop here at the base.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

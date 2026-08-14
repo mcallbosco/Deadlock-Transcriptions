@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_upgrade_power4_02.mp3",
   "revisions": [
     {
-      "sha256": "76d59b14c609861bb6c13d89602fd01db08be3bec191a415f7f8adc5563f8d23",
-      "text": "There's no escape from me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "51172cb6e78b55ef5c0ed5d04329a46e85c259a87d5a818b03818254994f9044",
+        "76d59b14c609861bb6c13d89602fd01db08be3bec191a415f7f8adc5563f8d23",
+        "d9c1f0a5124e546d78b3a5b7c42ec018e589ad5210343f8ba0c74491605c3b16"
+      ],
+      "text": "There's no escape from me….",
+      "source": "official"
     },
     {
-      "sha256": "51172cb6e78b55ef5c0ed5d04329a46e85c259a87d5a818b03818254994f9044",
-      "text": "There's no escape from me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "457e77a521f6b3f41cafd3ca77433b9e4aa4c4c8b6162701c947fcc961b0e036",
+      "sha256": [
+        "457e77a521f6b3f41cafd3ca77433b9e4aa4c4c8b6162701c947fcc961b0e036"
+      ],
       "text": "There's no escape for me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9c1f0a5124e546d78b3a5b7c42ec018e589ad5210343f8ba0c74491605c3b16",
-      "text": "There's no escape from me….",
-      "source": "official"
     }
   ]
 }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_upgrade_power1_07.mp3",
   "revisions": [
     {
-      "sha256": "139baffe16a968479a335cf7a63c22b732861ebe458c27784e1536acc71fbff1",
+      "sha256": [
+        "139baffe16a968479a335cf7a63c22b732861ebe458c27784e1536acc71fbff1"
+      ],
       "text": "I can kill my temper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ddd137ff5320a2396d6d229e887b813f88fcdc211e44d0048a8a294167d4fc62",
-      "text": "I can come at them from anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd5272ebfbe47ce0f83be4dc69ee752e300c0810a0f9618e44440be180e5d108",
-      "text": "I can come at them from anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "204b4c854d812d68c252ba33cd3e254ade4bb3d1c75fddbb8a9be681e0007bfa",
+      "sha256": [
+        "204b4c854d812d68c252ba33cd3e254ade4bb3d1c75fddbb8a9be681e0007bfa",
+        "bd5272ebfbe47ce0f83be4dc69ee752e300c0810a0f9618e44440be180e5d108",
+        "ddd137ff5320a2396d6d229e887b813f88fcdc211e44d0048a8a294167d4fc62"
+      ],
       "text": "I can come at them from anywhere…",
       "source": "official"
     }

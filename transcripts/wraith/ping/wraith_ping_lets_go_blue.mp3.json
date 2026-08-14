@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "c68d49240ec874c4fa467740e8697d3de0794f2493bfaeb9739610259ac7ee73",
-      "text": "Let's go blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09cb476e5ca0477cb57541b1e3eddf33a7d44a898f302289e0fff4f39b7ca665",
-      "text": "Let's go blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b802c32a9866063e5cb4fc528bdc6692ca8f62a6d32214cc6c2c5a74542c516",
-      "text": "Let's go blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "10040cc377b96922054c313cccb925f68bf5f75ed30bc830f3fe9bdda832d840",
+      "sha256": [
+        "09cb476e5ca0477cb57541b1e3eddf33a7d44a898f302289e0fff4f39b7ca665",
+        "10040cc377b96922054c313cccb925f68bf5f75ed30bc830f3fe9bdda832d840",
+        "1b802c32a9866063e5cb4fc528bdc6692ca8f62a6d32214cc6c2c5a74542c516",
+        "c68d49240ec874c4fa467740e8697d3de0794f2493bfaeb9739610259ac7ee73"
+      ],
       "text": "Let's go blue!",
       "source": "official"
     }

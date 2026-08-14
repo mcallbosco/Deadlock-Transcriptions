@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_match_start_gigawatt_lash_convo01_03.mp3",
   "revisions": [
     {
-      "sha256": "365f16fa2a4679a1c11d4d7d2aefaf8265bcbc466055f5056c94fc043979f2f1",
-      "text": "That's fine, the Lash knows how to carry a conversation.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "365f16fa2a4679a1c11d4d7d2aefaf8265bcbc466055f5056c94fc043979f2f1",
+        "b2ebc8fd3aed1aad1b3fe2baab1405a571f838a23b31478591a87ba7fadcd513"
+      ],
+      "text": "That's fine.  The Lash knows how to carry a conversation.",
+      "source": "official"
     },
     {
-      "sha256": "743dd077658863a322231c74dd5cbfc76ba0ffa54c34d69ece118b6258d78f1c",
+      "sha256": [
+        "743dd077658863a322231c74dd5cbfc76ba0ffa54c34d69ece118b6258d78f1c"
+      ],
       "text": "That's fine. The last knows how to carry a conversation.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2ebc8fd3aed1aad1b3fe2baab1405a571f838a23b31478591a87ba7fadcd513",
-      "text": "That's fine.  The Lash knows how to carry a conversation.",
-      "source": "official"
     }
   ]
 }

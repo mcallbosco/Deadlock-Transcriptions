@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "8514a312adbd5007c1593a71147e7ef399fc1ee7867c15ac862e0160a9aa1a13",
+      "sha256": [
+        "8514a312adbd5007c1593a71147e7ef399fc1ee7867c15ac862e0160a9aa1a13"
+      ],
       "text": "Stargeist!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "028efa71aef3d516a4db914ae3c283f77ae11f94ad8ba34dda836146f2ab723e",
-      "text": "Die, Geist!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e16cbb7be9f781cdf545f4273444c9d2204b57476ee4990b8145850fea7e1a3",
+      "sha256": [
+        "028efa71aef3d516a4db914ae3c283f77ae11f94ad8ba34dda836146f2ab723e",
+        "1e16cbb7be9f781cdf545f4273444c9d2204b57476ee4990b8145850fea7e1a3"
+      ],
       "text": "Die Geist.",
       "source": "official"
     }

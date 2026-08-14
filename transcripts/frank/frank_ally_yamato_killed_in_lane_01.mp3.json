@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_ally_yamato_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "3a5ca90ff60180157cb00e3ab361acbf35f736967a1df00ef5671c210da04bea",
-      "text": "They took out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa00b1ac9bf7dc8083a8ae97035cab5405edd68b40187f4b0c9d156131c73315",
+      "sha256": [
+        "3a5ca90ff60180157cb00e3ab361acbf35f736967a1df00ef5671c210da04bea",
+        "aa00b1ac9bf7dc8083a8ae97035cab5405edd68b40187f4b0c9d156131c73315"
+      ],
       "text": "They took out Yamato!",
       "source": "official"
     }

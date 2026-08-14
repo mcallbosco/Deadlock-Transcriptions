@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_use_ability4_10.mp3",
   "revisions": [
     {
-      "sha256": "4ff04223984c893b0fb08013b1e7d698b4fde938b8a4638f53d7208506a94952",
+      "sha256": [
+        "4ff04223984c893b0fb08013b1e7d698b4fde938b8a4638f53d7208506a94952"
+      ],
       "text": "I am death's sovereign!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aad1610b16636d862bd5d1ca478f0bf16510fbe2da9c500f8540ac99d67c6d07",
-      "text": "The shadows will be my armor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "826efc8206d0f3ce776295f04f7d98d14f0a6f0fea28325722bca1e882293f94",
+      "sha256": [
+        "826efc8206d0f3ce776295f04f7d98d14f0a6f0fea28325722bca1e882293f94",
+        "aad1610b16636d862bd5d1ca478f0bf16510fbe2da9c500f8540ac99d67c6d07"
+      ],
       "text": "The shadows will be my armor",
       "source": "official"
     }

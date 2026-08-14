@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_lash_03.mp3",
   "revisions": [
     {
-      "sha256": "d6b5ceeeed0a643e59c372b6b3671140607ac77445491b48bd88fa6767064625",
+      "sha256": [
+        "d6b5ceeeed0a643e59c372b6b3671140607ac77445491b48bd88fa6767064625"
+      ],
       "text": "Careful, lads!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8999ca3502cd6466b2e68df9ee0d4b6dfe5b410e811f6aabdf883fcee9a7b7e5",
+      "sha256": [
+        "8999ca3502cd6466b2e68df9ee0d4b6dfe5b410e811f6aabdf883fcee9a7b7e5"
+      ],
       "text": "Careful, Lash!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_geist_01.mp3",
   "revisions": [
     {
-      "sha256": "c64171b15ed785f19df09ca4f21f9dfb6b583710df4b312019c7345313a51807",
-      "text": "Guess what?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06d176a4325fb259181cf916294c86f5f0ca7399137b6c0ac431b5dd0d9d4437",
+      "sha256": [
+        "06d176a4325fb259181cf916294c86f5f0ca7399137b6c0ac431b5dd0d9d4437",
+        "c64171b15ed785f19df09ca4f21f9dfb6b583710df4b312019c7345313a51807"
+      ],
       "text": "Guess what?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

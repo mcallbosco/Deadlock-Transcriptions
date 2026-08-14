@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7d6bb48f244d8316ae30d2fc56e639c2da47922580cd28a4da41cbbaa1670aa2",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "57e0ddcaebb850f3504ffbd9a513bb266090e86130956d8aa38a72f9ad999a69",
+      "sha256": [
+        "57e0ddcaebb850f3504ffbd9a513bb266090e86130956d8aa38a72f9ad999a69",
+        "7d6bb48f244d8316ae30d2fc56e639c2da47922580cd28a4da41cbbaa1670aa2"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

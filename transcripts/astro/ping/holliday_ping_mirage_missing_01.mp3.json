@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9bac1bd5b9e98107dd60ebb5c255a681f179eef55c3196723de1bfe140e0edfa",
+      "sha256": [
+        "9bac1bd5b9e98107dd60ebb5c255a681f179eef55c3196723de1bfe140e0edfa"
+      ],
       "text": "Cross this it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

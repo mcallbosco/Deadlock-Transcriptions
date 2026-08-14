@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "53413b8432b7850e476f89ec3512aa5b7d1d2ff63bf2c94423d421aeb1c24a8f",
+      "sha256": [
+        "53413b8432b7850e476f89ec3512aa5b7d1d2ff63bf2c94423d421aeb1c24a8f"
+      ],
       "text": "Krill is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ad42b4706d9b9b7866cd4f5c66495afa060e9f07543fa7380faf32290800a98",
+      "sha256": [
+        "4ad42b4706d9b9b7866cd4f5c66495afa060e9f07543fa7380faf32290800a98"
+      ],
       "text": "Crew is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

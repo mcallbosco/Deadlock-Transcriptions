@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_smoke_01.mp3",
   "revisions": [
     {
-      "sha256": "4b3b6035898cc5740e524cf9493e91d4e46d6b8a3518ab22478cfb3926556bcf",
-      "text": "Let's sneak up on them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38c361bf177007d6f438e3ca9756760756aa39ab67838dc4b9dfd4dc3f718e14",
-      "text": "Let's sneak up on them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f1acda3fb2cdac548724170fb41169aad087dc8a71cded78f95e230494bf0c6",
+      "sha256": [
+        "1f1acda3fb2cdac548724170fb41169aad087dc8a71cded78f95e230494bf0c6",
+        "38c361bf177007d6f438e3ca9756760756aa39ab67838dc4b9dfd4dc3f718e14",
+        "4b3b6035898cc5740e524cf9493e91d4e46d6b8a3518ab22478cfb3926556bcf"
+      ],
       "text": "Let's sneak up on them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

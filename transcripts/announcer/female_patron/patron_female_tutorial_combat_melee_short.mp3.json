@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_combat_melee_short.mp3",
   "revisions": [
     {
-      "sha256": "20f0808d766459d35e49db6ea65034324e68824677b2cc3ba3bd7bd0ce21d06c",
+      "sha256": [
+        "20f0808d766459d35e49db6ea65034324e68824677b2cc3ba3bd7bd0ce21d06c",
+        "d992465eb9defc1cc3e77f54e0b0bf00ccfbfe8449929eb9d917c339fd79f4ec"
+      ],
       "text": "If you kill a trooper with melee, your enemy can't try to steal your money.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d992465eb9defc1cc3e77f54e0b0bf00ccfbfe8449929eb9d917c339fd79f4ec",
-      "text": "If you kill a trooper with melee, your enemy can't try to steal your money.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1dc5f7400019aa06609e4949cb3dc6411c153b6f52e0b1d07ab00e33cd85b78b",
+      "sha256": [
+        "1dc5f7400019aa06609e4949cb3dc6411c153b6f52e0b1d07ab00e33cd85b78b"
+      ],
       "text": "If you kill a trooper with melee, your enemy can't try to steal your souls.",
       "source": "official"
     }

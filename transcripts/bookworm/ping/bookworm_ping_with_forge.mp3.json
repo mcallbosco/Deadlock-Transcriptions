@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "4756d276ed7ae330d41346c81e9d24df3351b175a9cf7cbad6fdfa2da07ca8ea",
+      "sha256": [
+        "4756d276ed7ae330d41346c81e9d24df3351b175a9cf7cbad6fdfa2da07ca8ea"
+      ],
       "text": "I'm with you, McGinnis!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "23d06932e1c0d164788a4f35fc09eb112fe22f1910d9dd9a25b430280b5f6a8c",
+      "sha256": [
+        "23d06932e1c0d164788a4f35fc09eb112fe22f1910d9dd9a25b430280b5f6a8c"
+      ],
       "text": "I'm with you, Magus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

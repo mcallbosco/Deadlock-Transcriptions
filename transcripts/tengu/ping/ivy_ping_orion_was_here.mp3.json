@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_orion_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b72e3a6734460fed8cb1ed5c4a057798f6ea46a71de31370afc1b8b2d26566b8",
+      "sha256": [
+        "b72e3a6734460fed8cb1ed5c4a057798f6ea46a71de31370afc1b8b2d26566b8"
+      ],
       "text": "Great Talon is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "01fec9744131018dda7a66d094af681d76ef30f0620c97f21c3d221810d43a96",
+      "sha256": [
+        "01fec9744131018dda7a66d094af681d76ef30f0620c97f21c3d221810d43a96"
+      ],
       "text": "Great talent is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

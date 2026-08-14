@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_push_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "aa66cce8168a8985fbac222cb700a11d2229f1584a9a71e67de1634973e67937",
-      "text": "Let's push blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6d994755ee36fd0dbbe6672be4ed83bc87033c10d2802bcb2dc039ab6eae4af",
-      "text": "Let's push blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e05b98ccb582fe881b9fd934caade3ac2379d63b638fbaa1a3335ef31af17e9",
+      "sha256": [
+        "4e05b98ccb582fe881b9fd934caade3ac2379d63b638fbaa1a3335ef31af17e9",
+        "aa66cce8168a8985fbac222cb700a11d2229f1584a9a71e67de1634973e67937",
+        "e6d994755ee36fd0dbbe6672be4ed83bc87033c10d2802bcb2dc039ab6eae4af"
+      ],
       "text": "Let's push blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

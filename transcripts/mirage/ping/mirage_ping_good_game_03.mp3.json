@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "82f31fea46e163fb5a380b67ddb3ddb36220d7b7cf3ad8cca79a6b4de69b7679",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "223442e50bd50950b9565354a16f9e1f36bdee4185a4b499a6faf80a547b2b31",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "646a6961ad699c8b5a701764b27995aa47bbbd6e0b15dbb0a72a8ccfc66a0c1e",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e941d473e606f9679b8f24f0f1e56256d45825bc089f648ae9052fac5f3dadb5",
+      "sha256": [
+        "223442e50bd50950b9565354a16f9e1f36bdee4185a4b499a6faf80a547b2b31",
+        "646a6961ad699c8b5a701764b27995aa47bbbd6e0b15dbb0a72a8ccfc66a0c1e",
+        "82f31fea46e163fb5a380b67ddb3ddb36220d7b7cf3ad8cca79a6b4de69b7679",
+        "e941d473e606f9679b8f24f0f1e56256d45825bc089f648ae9052fac5f3dadb5"
+      ],
       "text": "Good game",
       "source": "official"
     }

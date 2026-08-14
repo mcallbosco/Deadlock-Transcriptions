@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_kill_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "6cd4ae000e04c1238e92ea3ee0b4800ea2dcc35afee46bde2ed9e10359fd7577",
+      "sha256": [
+        "6cd4ae000e04c1238e92ea3ee0b4800ea2dcc35afee46bde2ed9e10359fd7577"
+      ],
       "text": "Look out, the professor!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "30d250d2dcf792139be223554503e4bc2bc12fbcf3e36853f500a1ce2534173f",
+      "sha256": [
+        "30d250d2dcf792139be223554503e4bc2bc12fbcf3e36853f500a1ce2534173f"
+      ],
       "text": "Took out the Professor!",
       "source": "official"
     }

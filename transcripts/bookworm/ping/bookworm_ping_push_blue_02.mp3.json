@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_push_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "f5aaea9dc1e575e4a03903cea10719f2384a177a40fa9ac57c94a8136a9ab0aa",
-      "text": "Let's push Broadway!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1055fd69f9bf14b89b3f351fb141a87a8be6fce8e69c59d76a5580b7ec0b87cf",
+      "sha256": [
+        "1055fd69f9bf14b89b3f351fb141a87a8be6fce8e69c59d76a5580b7ec0b87cf",
+        "f5aaea9dc1e575e4a03903cea10719f2384a177a40fa9ac57c94a8136a9ab0aa"
+      ],
       "text": "Let's push Broadway.",
       "source": "official"
     }

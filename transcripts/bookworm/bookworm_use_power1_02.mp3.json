@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_use_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "ccd1bc74bbb2d636422a7c1566dd887fbe4f702a1a17527091497c8a2a8b6d6a",
+      "sha256": [
+        "ccd1bc74bbb2d636422a7c1566dd887fbe4f702a1a17527091497c8a2a8b6d6a"
+      ],
       "text": "This power does damage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "033611ac2368dde1a6f36d895a95a0b7d3abd89325a8ae57c95638566ec3bb1f",
+      "sha256": [
+        "033611ac2368dde1a6f36d895a95a0b7d3abd89325a8ae57c95638566ec3bb1f"
+      ],
       "text": "Wanna meet a dragon?",
       "source": "official"
     }

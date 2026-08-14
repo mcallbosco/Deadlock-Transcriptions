@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "a858dc7ac2af8921881f3790dce95bbcad6ae8ea95cf9a0832f73e1bafb93c2b",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "7aa5a430ba2f43b06e0d966261918b238d9db0c8ec9832d243f9e246171f5fc0",
+        "a858dc7ac2af8921881f3790dce95bbcad6ae8ea95cf9a0832f73e1bafb93c2b",
+        "f909da421175f752be4f004659ea25d372ee306197d1cc14aca8543763fc3cdf"
+      ],
+      "text": "Careful, Seven…",
+      "source": "official"
     },
     {
-      "sha256": "f909da421175f752be4f004659ea25d372ee306197d1cc14aca8543763fc3cdf",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "94711a3c25df319048b0f3dc44bc1f2b5160b1267c69fd391e6ef69edd6b3fed",
+      "sha256": [
+        "94711a3c25df319048b0f3dc44bc1f2b5160b1267c69fd391e6ef69edd6b3fed"
+      ],
       "text": "Careful, Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7aa5a430ba2f43b06e0d966261918b238d9db0c8ec9832d243f9e246171f5fc0",
-      "text": "Careful, Seven…",
-      "source": "official"
     }
   ]
 }

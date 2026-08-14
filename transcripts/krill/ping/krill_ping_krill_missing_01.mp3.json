@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_krill_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f2e59eb77dee9efcc21c0b1dd93d86abdce172198ba6f84fa8b517734d42309a",
-      "text": "Krill is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d98eeeb609390bd6ec984742271e2aa1d2ac18130da6c2b67f41ba3667a2a4d",
-      "text": "Krill is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae891fc07cfddb5293a87677ea329e82105a1827277cb3ddf45fbde4e91e80f1",
+      "sha256": [
+        "1d98eeeb609390bd6ec984742271e2aa1d2ac18130da6c2b67f41ba3667a2a4d",
+        "ae891fc07cfddb5293a87677ea329e82105a1827277cb3ddf45fbde4e91e80f1",
+        "f2e59eb77dee9efcc21c0b1dd93d86abdce172198ba6f84fa8b517734d42309a"
+      ],
       "text": "Krill is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

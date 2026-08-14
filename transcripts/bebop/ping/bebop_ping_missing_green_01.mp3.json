@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "3a30eb2b94633165638a88ab9f1efef5760b520f9d13e9b0077d7d6cf0b1579b",
+      "sha256": [
+        "3a30eb2b94633165638a88ab9f1efef5760b520f9d13e9b0077d7d6cf0b1579b"
+      ],
       "text": "This is greed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

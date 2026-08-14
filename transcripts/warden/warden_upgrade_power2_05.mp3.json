@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_upgrade_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "1856091ef27b1cefbe16985acd3f7ac0f79fb202889cadf0a35c4b55449edde9",
-      "text": "Time to run through the fire.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e2aed5b4a0baafc7e03ffc3957fd54c7011a3af1621b478e3a5bf345d119428",
-      "text": "Time to run through the fire.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "903583a935f89d71ae1fad3c959614e38ca60adf645fa5e51f3bde5ee7dca77d",
-      "text": "Time to run through the fire.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1159e42b06444287f317bd0d068eee09cd642e4ab285979495ff8c5ed906903d",
+      "sha256": [
+        "1159e42b06444287f317bd0d068eee09cd642e4ab285979495ff8c5ed906903d",
+        "1856091ef27b1cefbe16985acd3f7ac0f79fb202889cadf0a35c4b55449edde9",
+        "5e2aed5b4a0baafc7e03ffc3957fd54c7011a3af1621b478e3a5bf345d119428",
+        "903583a935f89d71ae1fad3c959614e38ca60adf645fa5e51f3bde5ee7dca77d"
+      ],
       "text": "Time to run through the fire…",
       "source": "official"
     }

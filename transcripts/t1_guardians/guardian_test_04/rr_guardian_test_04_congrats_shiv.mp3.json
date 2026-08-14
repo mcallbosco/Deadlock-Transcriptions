@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_congrats_shiv.mp3",
   "revisions": [
     {
-      "sha256": "38b228c9405bf810697363b5dff1a9e7d75fbd8a7f56db691fecc2f8f028eadd",
+      "sha256": [
+        "38b228c9405bf810697363b5dff1a9e7d75fbd8a7f56db691fecc2f8f028eadd",
+        "bbcdf2e9be350de1ade9c312283ab7efbad606f5925cd408bb103a2ffaa3b3cf",
+        "c454ab9a8d1c935f1ca7d681af8c52725743deef3e7940c505b126ba254fa51d"
+      ],
       "text": "Good job, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbcdf2e9be350de1ade9c312283ab7efbad606f5925cd408bb103a2ffaa3b3cf",
-      "text": "Good job, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c454ab9a8d1c935f1ca7d681af8c52725743deef3e7940c505b126ba254fa51d",
-      "text": "Good job, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

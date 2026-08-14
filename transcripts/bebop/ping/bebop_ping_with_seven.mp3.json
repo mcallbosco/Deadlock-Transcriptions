@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_with_seven.mp3",
   "revisions": [
     {
-      "sha256": "d74838bdb23b9f3b523f8128293d83a77b53f4b28612714bf981d5e611061648",
+      "sha256": [
+        "d74838bdb23b9f3b523f8128293d83a77b53f4b28612714bf981d5e611061648"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

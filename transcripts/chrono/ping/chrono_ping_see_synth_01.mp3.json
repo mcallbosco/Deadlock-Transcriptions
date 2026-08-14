@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "bbcfeb41ce7beaece57e69f963d16b3bcbe99302a7469e5f955436e59242b6f2",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dce692952fb422f311edbe46801207888e0a0c4ac7845a6c24691c2aea12a6ea",
+      "sha256": [
+        "bbcfeb41ce7beaece57e69f963d16b3bcbe99302a7469e5f955436e59242b6f2",
+        "dce692952fb422f311edbe46801207888e0a0c4ac7845a6c24691c2aea12a6ea"
+      ],
       "text": "I see Pocket",
       "source": "official"
     }

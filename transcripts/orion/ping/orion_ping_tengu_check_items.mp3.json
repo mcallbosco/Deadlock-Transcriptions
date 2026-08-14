@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_tengu_check_items.mp3",
   "revisions": [
     {
-      "sha256": "0272d348a981aa4642f9e539e5c3899561ee335462126ca2de02f0537bea88e0",
+      "sha256": [
+        "0272d348a981aa4642f9e539e5c3899561ee335462126ca2de02f0537bea88e0",
+        "1a98be22b8e2da4e6b3f6e6f8dfeff95594ebf3c458b8049771a575187bfec65",
+        "e6fa2932f94adfc5b6ec3d9953a25f2aa652b5ee9b7f4012bbe31e7fbda317a8"
+      ],
       "text": "Check out what Ivy bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a98be22b8e2da4e6b3f6e6f8dfeff95594ebf3c458b8049771a575187bfec65",
-      "text": "Check out what Ivy bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6fa2932f94adfc5b6ec3d9953a25f2aa652b5ee9b7f4012bbe31e7fbda317a8",
-      "text": "Check out what Ivy bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_lets_go_blue_alt.mp3",
   "revisions": [
     {
-      "sha256": "a8c3bab15888f8fc30a9868aae72ed6b5a696546f0ee160fae1f0c59293e6184",
-      "text": "Let's go to Broadway!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3aa171d80f433e819c3a74b7b15508a9dcd5b98624aee326442e051e63260e21",
-      "text": "Let's go to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e99fb3a09372282ba52ef009f747edbcaed39e65d4a4adb6bf926d2e9156481e",
+      "sha256": [
+        "3aa171d80f433e819c3a74b7b15508a9dcd5b98624aee326442e051e63260e21",
+        "a8c3bab15888f8fc30a9868aae72ed6b5a696546f0ee160fae1f0c59293e6184",
+        "e99fb3a09372282ba52ef009f747edbcaed39e65d4a4adb6bf926d2e9156481e"
+      ],
       "text": "Let's go to Broadway!",
       "source": "official"
     }

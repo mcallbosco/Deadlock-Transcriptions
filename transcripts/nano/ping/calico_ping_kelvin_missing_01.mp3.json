@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "da4a7565f83422a3b376d56c511333a6ead60b7e8c309b157dde27438e289ac1",
-      "text": "Kelvin is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72e18a67e4dcdf169b91860f0e6d1c9d70299ecdd8a88a02b2884488747386f4",
+      "sha256": [
+        "72e18a67e4dcdf169b91860f0e6d1c9d70299ecdd8a88a02b2884488747386f4",
+        "da4a7565f83422a3b376d56c511333a6ead60b7e8c309b157dde27438e289ac1"
+      ],
       "text": "Kelvin is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_forge_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "f90ea82efd587fdab645b129fcb307ef02aa2ed7aabba1d42a9dbf96162b6ac8",
+      "sha256": [
+        "f90ea82efd587fdab645b129fcb307ef02aa2ed7aabba1d42a9dbf96162b6ac8"
+      ],
       "text": "The Guinness is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6dd4662f1d134e474f0bd465f99554b42c85263fd340cecf05e31b46c78de2c0",
+      "sha256": [
+        "6dd4662f1d134e474f0bd465f99554b42c85263fd340cecf05e31b46c78de2c0"
+      ],
       "text": "McGinnis's on the roof!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_inferno_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "f09a19dc2d1c1b1c82372138b3f6860a32ba8d714ba1bf0fccc9d5f4e23d5c37",
+      "sha256": [
+        "f09a19dc2d1c1b1c82372138b3f6860a32ba8d714ba1bf0fccc9d5f4e23d5c37"
+      ],
       "text": "The furnace is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1d1d802baf665b9162502756914d5f79a39b846c42791b35b5a3446157344f29",
+      "sha256": [
+        "1d1d802baf665b9162502756914d5f79a39b846c42791b35b5a3446157344f29"
+      ],
       "text": "Infernus's under the garage!",
       "source": "official"
     }

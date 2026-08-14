@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_mcginnis_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "023d92796debba4c74ebe7aa1d543cc0ca8b6d552a09c41859ddf6ecb4d6b9b9",
-      "text": "McGinnis is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abd1428a4e8da90538e7a57349cc8f372b2507a5da5b0c06c62aede0db0b3da0",
+      "sha256": [
+        "023d92796debba4c74ebe7aa1d543cc0ca8b6d552a09c41859ddf6ecb4d6b9b9",
+        "abd1428a4e8da90538e7a57349cc8f372b2507a5da5b0c06c62aede0db0b3da0"
+      ],
       "text": "McGinnis is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

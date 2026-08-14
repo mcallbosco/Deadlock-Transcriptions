@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c4e0bb7bafd1c8cf120a36e71a5f674c17cf2eacc6414ce57e8a1c59bb340302",
-      "text": "Dynamo's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a3b007eba9aba6ccc773be361d8d2f27bca47240ee3323cfb3fde87839aae69",
+      "sha256": [
+        "8a3b007eba9aba6ccc773be361d8d2f27bca47240ee3323cfb3fde87839aae69",
+        "c4e0bb7bafd1c8cf120a36e71a5f674c17cf2eacc6414ce57e8a1c59bb340302"
+      ],
       "text": "Dynamo's missing.",
       "source": "official"
     }

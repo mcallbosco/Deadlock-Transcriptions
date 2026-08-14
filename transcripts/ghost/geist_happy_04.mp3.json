@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_happy_04.mp3",
   "revisions": [
     {
-      "sha256": "f4657ba48e22f02e2bc4a8ebc4ecb7283238feb682e03484754bc3d46d0d32bf",
-      "text": "I'm the talk of the town.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "760481a6bad5d0e7fd40beaa0024da1c163e67cab5f14b4f6b38171586e42219",
+      "sha256": [
+        "760481a6bad5d0e7fd40beaa0024da1c163e67cab5f14b4f6b38171586e42219",
+        "f4657ba48e22f02e2bc4a8ebc4ecb7283238feb682e03484754bc3d46d0d32bf"
+      ],
       "text": "I'm the talk of the town.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

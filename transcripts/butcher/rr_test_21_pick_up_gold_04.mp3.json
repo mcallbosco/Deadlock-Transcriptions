@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_pick_up_gold_04.mp3",
   "revisions": [
     {
-      "sha256": "5cc3eca9080809f2f0e07e9db8a1efb3b070bc36b3d09fc1f72ce125beaa94b3",
-      "text": "Nothing like finding loose cash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a3e153c3482ce773ceae052337af88a0232199fc6c4e3b210f914514859bfe3",
-      "text": "Nothing like finding loose cash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39a49cb10557e8fa3aa24de8821de0f2fc45bba0f5048af814fb9817205b8469",
+      "sha256": [
+        "39a49cb10557e8fa3aa24de8821de0f2fc45bba0f5048af814fb9817205b8469",
+        "4a3e153c3482ce773ceae052337af88a0232199fc6c4e3b210f914514859bfe3",
+        "5cc3eca9080809f2f0e07e9db8a1efb3b070bc36b3d09fc1f72ce125beaa94b3"
+      ],
       "text": "Nothing like finding loose cash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

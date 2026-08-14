@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "fad5a16ce1619a5d8f85ca2bf09316dd11f8aa49fab4e56ac7de4915f47ad092",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c71cde9aeeb9590875940c175f163e6a3267fc9d2ca109882d5a5148e9ebc90b",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2dfab3b7a75c1f610897e01234f47d9be8df937b2d5411f91245245872e76943",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3921555f4c418b1233fda305dacbfb8835bfd12757bafdfc438391716ba8d015",
+      "sha256": [
+        "2dfab3b7a75c1f610897e01234f47d9be8df937b2d5411f91245245872e76943",
+        "3921555f4c418b1233fda305dacbfb8835bfd12757bafdfc438391716ba8d015",
+        "c71cde9aeeb9590875940c175f163e6a3267fc9d2ca109882d5a5148e9ebc90b",
+        "fad5a16ce1619a5d8f85ca2bf09316dd11f8aa49fab4e56ac7de4915f47ad092"
+      ],
       "text": "Good game",
       "source": "official"
     }

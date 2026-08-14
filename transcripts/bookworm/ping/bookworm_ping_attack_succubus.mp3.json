@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_succubus.mp3",
   "revisions": [
     {
-      "sha256": "9d7eb6a3026fd12dfbbf6349ccdca79455465a9e54000613a7a429ff1760a300",
+      "sha256": [
+        "106c884bdb3e6ea0d50ddb09db64a3116835471e0b012e694d2d83119d8100dc",
+        "9d7eb6a3026fd12dfbbf6349ccdca79455465a9e54000613a7a429ff1760a300"
+      ],
       "text": "Let's take out the succubus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "106c884bdb3e6ea0d50ddb09db64a3116835471e0b012e694d2d83119d8100dc",
-      "text": "Let's take out the succubus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_synth_02.mp3",
   "revisions": [
     {
-      "sha256": "c25351dcc3eac6cfc6333edb00ec73e535baac7968ff2ac36fa217dd034413d5",
-      "text": "I see that spoiled brat.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4574e16297ca7162f7b3ad7e7899ee76fe8a367da1b7cf562ab1be8898a7a8dd",
-      "text": "I see that spoiled brat.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea749a2e0b59a88640a2aa29680e631d86c2f2092ec938171fb2b93e621ef710",
-      "text": "I see that spoiled brat.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "19102780873168a0c634174529053d02a22f0ebe6f2cf5c0467531b08cfef7c0",
+      "sha256": [
+        "19102780873168a0c634174529053d02a22f0ebe6f2cf5c0467531b08cfef7c0",
+        "4574e16297ca7162f7b3ad7e7899ee76fe8a367da1b7cf562ab1be8898a7a8dd",
+        "c25351dcc3eac6cfc6333edb00ec73e535baac7968ff2ac36fa217dd034413d5",
+        "ea749a2e0b59a88640a2aa29680e631d86c2f2092ec938171fb2b93e621ef710"
+      ],
       "text": "I see that spoiled brat",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "11ed13b3ddcf8cafd5bf38b929889ae5f53d7f067db71c9fb37847b0909dcb9a",
+      "sha256": [
+        "11ed13b3ddcf8cafd5bf38b929889ae5f53d7f067db71c9fb37847b0909dcb9a"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "46f671171034b7aba333f8d72ecfa5a8031446e31b6eaf5ea080e29a91573167",
+      "sha256": [
+        "46f671171034b7aba333f8d72ecfa5a8031446e31b6eaf5ea080e29a91573167"
+      ],
       "text": "Missing Gilla.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

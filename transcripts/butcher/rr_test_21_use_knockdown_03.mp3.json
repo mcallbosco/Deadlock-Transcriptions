@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_knockdown_03.mp3",
   "revisions": [
     {
-      "sha256": "2702de97c8a545a53693b9cfe5ee14e4690e560bf5d4f83e3c21b1381d5a57b4",
-      "text": "Knock them down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4dd850e400cd985126796eb7b2fb673ec38a09ac86df40955f2cf8b8cbeabc2",
-      "text": "Knock them down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "526bcb04dec74cf10c7d98568704f925173c8489ee0018114525983d7205b79b",
+      "sha256": [
+        "2702de97c8a545a53693b9cfe5ee14e4690e560bf5d4f83e3c21b1381d5a57b4",
+        "526bcb04dec74cf10c7d98568704f925173c8489ee0018114525983d7205b79b",
+        "c4dd850e400cd985126796eb7b2fb673ec38a09ac86df40955f2cf8b8cbeabc2"
+      ],
       "text": "Knock them down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

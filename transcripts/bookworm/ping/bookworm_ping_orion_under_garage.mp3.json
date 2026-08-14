@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_orion_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "ffca541ee98da0474b87d1c3396fba79605e333a2a8a18cf7f566909f77797b0",
+      "sha256": [
+        "ffca541ee98da0474b87d1c3396fba79605e333a2a8a18cf7f566909f77797b0"
+      ],
       "text": "Great talents under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0d459ba8f70ed381a377df6380bcc2edad04938be00f736b9bd0697f615ffba7",
+      "sha256": [
+        "0d459ba8f70ed381a377df6380bcc2edad04938be00f736b9bd0697f615ffba7"
+      ],
       "text": "Grey Talon's under the garage!",
       "source": "official"
     }

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_nano_05.mp3",
   "revisions": [
     {
-      "sha256": "a67829dae337840940d4f6c0e7954d8cfa73dffe953082e893709ea98e6368f1",
+      "sha256": [
+        "a67829dae337840940d4f6c0e7954d8cfa73dffe953082e893709ea98e6368f1"
+      ],
       "text": "I clocked out Nano.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1d4c0695ed35336b2ec0f3af50a89555df08743a0dac18e6268d5e0339d04123",
+      "sha256": [
+        "1d4c0695ed35336b2ec0f3af50a89555df08743a0dac18e6268d5e0339d04123",
+        "79ecb1da2174a8453cb9066f32f045ba6df2d22286d78a8757080b23338516cf"
+      ],
       "text": "I took out Nano!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "79ecb1da2174a8453cb9066f32f045ba6df2d22286d78a8757080b23338516cf",
-      "text": "I took out Nano.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8b4393e3eb3158b74c6adaed2077fb563289df0ff60ee4f832f55b3b11229ecf",
+      "sha256": [
+        "8b4393e3eb3158b74c6adaed2077fb563289df0ff60ee4f832f55b3b11229ecf"
+      ],
       "text": "You need to be more discerning with your contracts Calico",
       "source": "official"
     }

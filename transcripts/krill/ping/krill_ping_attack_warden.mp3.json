@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_attack_warden.mp3",
   "revisions": [
     {
-      "sha256": "c70d0f3f367514961f8750daa4352c05f0e71f4498cc6a21a45a363c989e39ad",
-      "text": "Let's take out Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ceffe36d0c98d6facc143f19720bcdd590e29dffec6bccfd56689732527b45a0",
-      "text": "Let's take out Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce9eb39a8394de35b46c68d99bf09aca28d64002690ec6a876c4944b05421b27",
+      "sha256": [
+        "c70d0f3f367514961f8750daa4352c05f0e71f4498cc6a21a45a363c989e39ad",
+        "ce9eb39a8394de35b46c68d99bf09aca28d64002690ec6a876c4944b05421b27",
+        "ceffe36d0c98d6facc143f19720bcdd590e29dffec6bccfd56689732527b45a0"
+      ],
       "text": "Let's take out Warden",
       "source": "official"
     }

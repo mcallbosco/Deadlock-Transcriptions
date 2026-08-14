@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_silencer_03.mp3",
   "revisions": [
     {
-      "sha256": "1d77fa687550516c9fc429d8e61becb84c3bbe728f03c37e2ebf372a0d0a4b98",
-      "text": "Be silent.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d171194c509de9b89cb91d1cb1ed9acaf7e2b6a302a674138967ee1c4410bff",
-      "text": "Be silent.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac36560fb6246b221b9df2c27e4a3a2ac460f2f9ba919e07f311d286d0cad845",
+      "sha256": [
+        "1d77fa687550516c9fc429d8e61becb84c3bbe728f03c37e2ebf372a0d0a4b98",
+        "5d171194c509de9b89cb91d1cb1ed9acaf7e2b6a302a674138967ee1c4410bff",
+        "ac36560fb6246b221b9df2c27e4a3a2ac460f2f9ba919e07f311d286d0cad845"
+      ],
       "text": "Be silent.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

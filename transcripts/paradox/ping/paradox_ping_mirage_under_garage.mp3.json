@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "0cc959f0d839cef2362798176b54bad4851d86454342c5b6c84de1dcb45fb813",
-      "text": "Mirage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "992842a4e2cfa4dc39915ed300bf861223b402bd43aa1a81ae0ab341eda87adb",
+      "sha256": [
+        "0cc959f0d839cef2362798176b54bad4851d86454342c5b6c84de1dcb45fb813",
+        "992842a4e2cfa4dc39915ed300bf861223b402bd43aa1a81ae0ab341eda87adb"
+      ],
       "text": "Mirage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

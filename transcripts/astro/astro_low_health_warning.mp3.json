@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/astro_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "a8c27f4fd4deb5b4d3c080a3d52b2f0f82924ad7e936969050d6bc8c6e9f1e93",
+      "sha256": [
+        "a8c27f4fd4deb5b4d3c080a3d52b2f0f82924ad7e936969050d6bc8c6e9f1e93"
+      ],
       "text": "You might wanna pull back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

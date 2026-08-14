@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_use_power4_07.mp3",
   "revisions": [
     {
-      "sha256": "bc4bd52dc941e30403965d9d3d9a29aa36220bf9f93e6580e354a94f294b875d",
-      "text": "I designed it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "635ddea7d7ab23704abd5f07c319ff5412bee49078f2c4dffe54789372b65723",
+      "sha256": [
+        "635ddea7d7ab23704abd5f07c319ff5412bee49078f2c4dffe54789372b65723",
+        "bc4bd52dc941e30403965d9d3d9a29aa36220bf9f93e6580e354a94f294b875d"
+      ],
       "text": "I designed it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

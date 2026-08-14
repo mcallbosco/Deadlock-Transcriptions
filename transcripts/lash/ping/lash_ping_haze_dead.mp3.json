@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "abad90acb754d427e2a46b3fabed013348320c580e1ed03588a720783a710b4d",
+      "sha256": [
+        "abad90acb754d427e2a46b3fabed013348320c580e1ed03588a720783a710b4d",
+        "cea957606608e8f5cc1207897fe60def77198a6c51d62a2c87d8a082c6c52f41"
+      ],
       "text": "He's is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cea957606608e8f5cc1207897fe60def77198a6c51d62a2c87d8a082c6c52f41",
-      "text": "He's is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75047e68dfd14b3f0ffa0b9c8534e582abfb231820b39663f75ce003bc019678",
+      "sha256": [
+        "75047e68dfd14b3f0ffa0b9c8534e582abfb231820b39663f75ce003bc019678"
+      ],
       "text": "Haze is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

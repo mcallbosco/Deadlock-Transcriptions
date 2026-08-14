@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_haze_check_items.mp3",
   "revisions": [
     {
-      "sha256": "4d27a99825c4ff7098619d7aa105c38b54007b763976fa6812c16e0a4dbc0a6b",
-      "text": "Check out what Haze bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59fb5b3bb6b4758c69ea0bbd350910d74ad76bd7e5664c145b9b27a113bb5363",
-      "text": "Check out what Haze bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e64138888addcd594cba9fbb21c4f6c0fb6c118f9df48de058c59c2d636864c",
-      "text": "Check out what Haze bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f477107d6303c0c9e3f6adbc4d778093fe1c012fec788700630726a63ef4152",
+      "sha256": [
+        "2f477107d6303c0c9e3f6adbc4d778093fe1c012fec788700630726a63ef4152",
+        "4d27a99825c4ff7098619d7aa105c38b54007b763976fa6812c16e0a4dbc0a6b",
+        "59fb5b3bb6b4758c69ea0bbd350910d74ad76bd7e5664c145b9b27a113bb5363",
+        "6e64138888addcd594cba9fbb21c4f6c0fb6c118f9df48de058c59c2d636864c"
+      ],
       "text": "Check out what Haze bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

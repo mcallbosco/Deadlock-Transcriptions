@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "59b401b20505bc368c74f1cf3c1df8dd198a460a8d085b21a7d2445737327809",
-      "text": "Kelvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "306691075b0763a8226175a5cc87c730ee52aa7a7631e661feb4c81ea437ee4d",
+      "sha256": [
+        "306691075b0763a8226175a5cc87c730ee52aa7a7631e661feb4c81ea437ee4d",
+        "59b401b20505bc368c74f1cf3c1df8dd198a460a8d085b21a7d2445737327809"
+      ],
       "text": "Kelvin's missing.",
       "source": "official"
     }

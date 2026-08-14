@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_attack_digger.mp3",
   "revisions": [
     {
-      "sha256": "b69a4f78f2b4c51d98c5bd05714d5b623a2f3f75151e35cf354e2b78189205c6",
+      "sha256": [
+        "3d16745c24bf6a8017a5c37edf50c772c5645667d07168ce911171d8fa76a655",
+        "b69a4f78f2b4c51d98c5bd05714d5b623a2f3f75151e35cf354e2b78189205c6",
+        "cc47196100b25688627e2687af9325a46d92e42e6c15eb912967167b760b2f71"
+      ],
       "text": "Let's take out Digger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc47196100b25688627e2687af9325a46d92e42e6c15eb912967167b760b2f71",
-      "text": "Let's take out Digger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d16745c24bf6a8017a5c37edf50c772c5645667d07168ce911171d8fa76a655",
-      "text": "Let's take out Digger!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

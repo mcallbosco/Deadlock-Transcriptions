@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e8d1fd93a443eb5661ca830b43ee75b479394fea3afe8012e2354ede0d0dda0c",
+      "sha256": [
+        "e8d1fd93a443eb5661ca830b43ee75b479394fea3afe8012e2354ede0d0dda0c"
+      ],
       "text": "Good luck, Captain.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ec59b3d3604cec9f9865b06fd3c9906360efd720416dd846c340ea5aecd2858",
+      "sha256": [
+        "0ec59b3d3604cec9f9865b06fd3c9906360efd720416dd846c340ea5aecd2858"
+      ],
       "text": "Gamma is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2ac3716a18eaed903bb9d1ba91612d04337ab06477fb16da0601ac2cd7674344",
+      "sha256": [
+        "2ac3716a18eaed903bb9d1ba91612d04337ab06477fb16da0601ac2cd7674344",
+        "f186dfb6e1ae3c6687de0b27da2507d085ac0252f2672c7d1a4bb599938d2f6d"
+      ],
       "text": "Am I missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f186dfb6e1ae3c6687de0b27da2507d085ac0252f2672c7d1a4bb599938d2f6d",
-      "text": "Am I missing?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c23f5bb3ee4bc840eb7c35277ac8b7b23b807f35a67efcf353ec52e28b5eaf5",
+      "sha256": [
+        "4c23f5bb3ee4bc840eb7c35277ac8b7b23b807f35a67efcf353ec52e28b5eaf5"
+      ],
       "text": "Yamato's missing",
       "source": "official"
     }

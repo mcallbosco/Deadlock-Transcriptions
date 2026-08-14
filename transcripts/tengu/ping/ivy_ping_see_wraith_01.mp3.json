@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_see_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "0dc70ac9dacf06d684e8015f4ec7b14354c1e2d9368ab3b780bcca615b575037",
+      "sha256": [
+        "0dc70ac9dacf06d684e8015f4ec7b14354c1e2d9368ab3b780bcca615b575037",
+        "e6d61cbc0f69b3337e7e78cf3a10cb1db28dbd49f81a1fe6f051a5648e9307a5"
+      ],
       "text": "I see the race!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e6d61cbc0f69b3337e7e78cf3a10cb1db28dbd49f81a1fe6f051a5648e9307a5",
-      "text": "I see the race!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2d070b4faa928aada4520b7a8406a096937d345fd839f769034ff6121986c3c",
+      "sha256": [
+        "f2d070b4faa928aada4520b7a8406a096937d345fd839f769034ff6121986c3c"
+      ],
       "text": "I see right!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

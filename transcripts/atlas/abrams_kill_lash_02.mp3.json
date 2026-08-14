@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_lash_02.mp3",
   "revisions": [
     {
-      "sha256": "a00786645d3a072541889f5cb38b129b64ceaaacfd79a67d6929d11c45f3de6c",
-      "text": "Took out Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdb7bc01d21adcbbb55e58d7e3b9791d8de44f640b4ecb1dcba17e2088d1ae6d",
+      "sha256": [
+        "a00786645d3a072541889f5cb38b129b64ceaaacfd79a67d6929d11c45f3de6c",
+        "cdb7bc01d21adcbbb55e58d7e3b9791d8de44f640b4ecb1dcba17e2088d1ae6d"
+      ],
       "text": "Took out Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

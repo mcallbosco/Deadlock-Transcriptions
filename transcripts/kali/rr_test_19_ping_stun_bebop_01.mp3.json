@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_stun_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "ed9289f8e3d7a415949f50e3acb5de5b4c410e5da63102d766f4433429296d2f",
+      "sha256": [
+        "ed9289f8e3d7a415949f50e3acb5de5b4c410e5da63102d766f4433429296d2f"
+      ],
       "text": "Sun Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b5c6c52c1c1bfdc7317b9082765cd7a0268092b4c50a17171d34963168bb2e6",
-      "text": "Gun Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92531255084d0c22aa7c38760c22af678e7252fbade3b5d5dabc6a2ef6cdf73a",
+      "sha256": [
+        "0b5c6c52c1c1bfdc7317b9082765cd7a0268092b4c50a17171d34963168bb2e6",
+        "92531255084d0c22aa7c38760c22af678e7252fbade3b5d5dabc6a2ef6cdf73a"
+      ],
       "text": "Gun Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

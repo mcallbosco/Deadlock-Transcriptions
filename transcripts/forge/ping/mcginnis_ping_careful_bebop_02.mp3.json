@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_careful_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "ae94608f15b200413ec4e4efcdaa9c9e3f22097385ec26508b4f03f548d82ca5",
+      "sha256": [
+        "ae94608f15b200413ec4e4efcdaa9c9e3f22097385ec26508b4f03f548d82ca5",
+        "f0e32b964c556fb3a857e1fcde59bc02a5b13b6115bf23aa01563bb3e3099717"
+      ],
       "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0e32b964c556fb3a857e1fcde59bc02a5b13b6115bf23aa01563bb3e3099717",
-      "text": "Careful, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

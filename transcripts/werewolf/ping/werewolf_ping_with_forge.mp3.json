@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "cc3772854312790877ec64fd70ff6f971bd2965cc8a196fbd3cf155aee00aeb5",
+      "sha256": [
+        "cc3772854312790877ec64fd70ff6f971bd2965cc8a196fbd3cf155aee00aeb5"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

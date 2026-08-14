@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_avatar_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "93d24085f352f8bf6482065e6dc1d47f54095c8973ec5cba17bc2741e311f747",
-      "text": "They're taking our avatar!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "258babe4385c5447fdb7bbe99c767e46dfffe909fe594b3eaf36144892e61aba",
+      "sha256": [
+        "258babe4385c5447fdb7bbe99c767e46dfffe909fe594b3eaf36144892e61aba",
+        "93d24085f352f8bf6482065e6dc1d47f54095c8973ec5cba17bc2741e311f747"
+      ],
       "text": "They're taking our avatar!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

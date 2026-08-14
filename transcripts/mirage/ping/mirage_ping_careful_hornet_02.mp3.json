@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_hornet_02.mp3",
   "revisions": [
     {
-      "sha256": "2b03135d3e8e3fdedea217092f7f19221272057ed0fa690f59b938db7ac98ea5",
+      "sha256": [
+        "2b03135d3e8e3fdedea217092f7f19221272057ed0fa690f59b938db7ac98ea5"
+      ],
       "text": "Afformance.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1046749d3644c08a989d73b43979162f79a4e991310169a097db761efd0809c9",
+      "sha256": [
+        "1046749d3644c08a989d73b43979162f79a4e991310169a097db761efd0809c9",
+        "b3b9fb19516d38c0b0f170f561ef904b1cbef35c724dde712a8544f1c47aab70"
+      ],
       "text": "Careful, Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b3b9fb19516d38c0b0f170f561ef904b1cbef35c724dde712a8544f1c47aab70",
-      "text": "Careful, Vendetta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41b6c716e7faf2913aa9b892f7050041c188e29fc1d8e006d3964b91e56c704a",
+      "sha256": [
+        "41b6c716e7faf2913aa9b892f7050041c188e29fc1d8e006d3964b91e56c704a"
+      ],
       "text": "Careful, vindicta",
       "source": "official"
     }

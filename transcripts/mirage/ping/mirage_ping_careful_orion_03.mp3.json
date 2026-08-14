@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_orion_03.mp3",
   "revisions": [
     {
-      "sha256": "4be9b40822c8528ac99355553497d5dbde410bad91fae5fab410d3c8b8a0f3ec",
+      "sha256": [
+        "4be9b40822c8528ac99355553497d5dbde410bad91fae5fab410d3c8b8a0f3ec"
+      ],
       "text": "That's a lot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "33ed7c94022910bc14929d83342b590d06129551a6a558318391853fac943da4",
+      "sha256": [
+        "33ed7c94022910bc14929d83342b590d06129551a6a558318391853fac943da4",
+        "8f53ffffe7b68e0a055cad250aa8402b7cccc6f1d7c6aa8360169abdc3a3480e"
+      ],
       "text": "Careful, Grey Talon!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "e9f07ebca2bce0a86d43262fd03fdf350241d07d51cdb7c16c17dd112a670af7",
+      "sha256": [
+        "e9f07ebca2bce0a86d43262fd03fdf350241d07d51cdb7c16c17dd112a670af7"
+      ],
       "text": "Careful, Great Talon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f53ffffe7b68e0a055cad250aa8402b7cccc6f1d7c6aa8360169abdc3a3480e",
-      "text": "Careful, Grey Talon!",
-      "source": "official"
     }
   ]
 }

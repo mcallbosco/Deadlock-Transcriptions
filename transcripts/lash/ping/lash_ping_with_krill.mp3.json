@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "bc7117f83ad9f9effac8cf23d8cfc97df885802f787aba5ec151bdea7c16b5bd",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd4a43d0fceda91234f1d471bf4c73886f4e5ef81004f25ab9e84944389c7664",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a63ea930bfbe853ff43fb168cba9edea60abb76071b6f278a22cad21a2c2f682",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f8ab390b4eb6f27f0330c2195635aad296a72f69c63767a1aa1951e4fbb8e23",
+      "sha256": [
+        "8f8ab390b4eb6f27f0330c2195635aad296a72f69c63767a1aa1951e4fbb8e23",
+        "a63ea930bfbe853ff43fb168cba9edea60abb76071b6f278a22cad21a2c2f682",
+        "bc7117f83ad9f9effac8cf23d8cfc97df885802f787aba5ec151bdea7c16b5bd",
+        "dd4a43d0fceda91234f1d471bf4c73886f4e5ef81004f25ab9e84944389c7664"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

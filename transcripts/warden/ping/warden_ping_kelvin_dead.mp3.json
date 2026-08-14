@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "c51442af885dfbe15318a4439f1b588aa46c4b7c6b08a5b0261163e91a3d88c7",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "604759bac7cf93728073b6e2bdf0abf49971d6176bfc6e49c9d75a306d30a0b8",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "98cdf3d07192909c02fc5a633b62e819f74117f297fc1a4b204c0668c52fda6c",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ff700a179a56a45259990c9d36642a1f038be68f9ce9ea4b23dad6a9a0cdea2",
+      "sha256": [
+        "3ff700a179a56a45259990c9d36642a1f038be68f9ce9ea4b23dad6a9a0cdea2",
+        "604759bac7cf93728073b6e2bdf0abf49971d6176bfc6e49c9d75a306d30a0b8",
+        "98cdf3d07192909c02fc5a633b62e819f74117f297fc1a4b204c0668c52fda6c",
+        "c51442af885dfbe15318a4439f1b588aa46c4b7c6b08a5b0261163e91a3d88c7"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

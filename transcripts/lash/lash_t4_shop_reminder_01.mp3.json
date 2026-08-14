@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_t4_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "d863193d07cc951c982c17b47edf0ff0436eec4278432fd4ae609f232f1e7bf6",
-      "text": "The lash deserves the best.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ae1a644ab646cab6db1e6a8f5760bbf1c95b1961b59504e48d52b99e8ee4e6e",
-      "text": "The last deserves the best.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "696f09fd7d0826f4d7d9a35378a10f78125194b84188bf3debcd1e14758022b4",
-      "text": "The last deserves the best.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81436d921ce47aba6346708d04c21e7ef6beda319510bf138450cd8eac269cb1",
+      "sha256": [
+        "81436d921ce47aba6346708d04c21e7ef6beda319510bf138450cd8eac269cb1",
+        "d863193d07cc951c982c17b47edf0ff0436eec4278432fd4ae609f232f1e7bf6"
+      ],
       "text": "The lash deserves the best",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "1ae1a644ab646cab6db1e6a8f5760bbf1c95b1961b59504e48d52b99e8ee4e6e",
+        "696f09fd7d0826f4d7d9a35378a10f78125194b84188bf3debcd1e14758022b4"
+      ],
+      "text": "The last deserves the best.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

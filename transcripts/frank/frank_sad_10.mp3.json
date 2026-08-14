@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_sad_10.mp3",
   "revisions": [
     {
-      "sha256": "2c31b7a7dfe41d23f4013288f70ecb6e8721badc7486fd31bd3bfded2d92462d",
+      "sha256": [
+        "2c31b7a7dfe41d23f4013288f70ecb6e8721badc7486fd31bd3bfded2d92462d"
+      ],
       "text": "I'll have another chance.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

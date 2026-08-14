@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e1ae0c9e9160a3eb3751f645431cd0d0671cc122d1f3176793be556ac7e75441",
+      "sha256": [
+        "e1ae0c9e9160a3eb3751f645431cd0d0671cc122d1f3176793be556ac7e75441"
+      ],
       "text": "Get out of here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "643c572c3edba689c685df4b9ec4f69c2dc38184a348e4b96df2f7e8449767c8",
+      "sha256": [
+        "643c572c3edba689c685df4b9ec4f69c2dc38184a348e4b96df2f7e8449767c8"
+      ],
       "text": "Get him!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

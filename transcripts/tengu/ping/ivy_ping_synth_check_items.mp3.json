@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_synth_check_items.mp3",
   "revisions": [
     {
-      "sha256": "87e0b2e68a97af496bd094e0af6794e7cec0154b8449764b2b4c972763cb6491",
+      "sha256": [
+        "87e0b2e68a97af496bd094e0af6794e7cec0154b8449764b2b4c972763cb6491",
+        "fbda1a209b8103ac9dce6dbd081da4b1a82485f8e8ee45a040f27956bdaab89f"
+      ],
       "text": "Check out what Bucketbot!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbda1a209b8103ac9dce6dbd081da4b1a82485f8e8ee45a040f27956bdaab89f",
-      "text": "Check out what BucketBot!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

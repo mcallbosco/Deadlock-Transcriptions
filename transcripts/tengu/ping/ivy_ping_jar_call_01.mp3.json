@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_jar_call_01.mp3",
   "revisions": [
     {
-      "sha256": "4b2b94f9aed9a5063ab6042b0a5fc0e78f0b273474604e89cbff116a6f680a50",
+      "sha256": [
+        "4b2b94f9aed9a5063ab6042b0a5fc0e78f0b273474604e89cbff116a6f680a50"
+      ],
       "text": "Spirit dies here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f9a2bc549022dd7bb7e6a1a179ffa082d76abbbfb1c74fd57b75d3673ba020fb",
+      "sha256": [
+        "f9a2bc549022dd7bb7e6a1a179ffa082d76abbbfb1c74fd57b75d3673ba020fb"
+      ],
       "text": "Spirit died here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

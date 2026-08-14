@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_ignore_haze.mp3",
   "revisions": [
     {
-      "sha256": "6c15f24b5723c8ac599eb623413b634b480598d11cd42c39ff0aefafee2efd85",
+      "sha256": [
+        "1e8f56ca00869fb18d9481197351dcadb372577a4594e4a6f9455267ba443f4d",
+        "6c15f24b5723c8ac599eb623413b634b480598d11cd42c39ff0aefafee2efd85"
+      ],
       "text": "Big noise!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1e8f56ca00869fb18d9481197351dcadb372577a4594e4a6f9455267ba443f4d",
-      "text": "Big noise.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0e63bc1b90592c0aee9171fe10f07249732423f50c9bdf117a6ce8ecc5209bb",
+      "sha256": [
+        "b0e63bc1b90592c0aee9171fe10f07249732423f50c9bdf117a6ce8ecc5209bb"
+      ],
       "text": "Ignore Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

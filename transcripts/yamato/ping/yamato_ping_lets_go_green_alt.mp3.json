@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_lets_go_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "5363b38fbc14d3ead94f315d73de652dab759781df5c26e856aaac67fefff50a",
+      "sha256": [
+        "5363b38fbc14d3ead94f315d73de652dab759781df5c26e856aaac67fefff50a"
+      ],
       "text": "Let's go Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5d972f4165e7ac9419c75814a5231bbd922e467792639489feb8834b787bf2e6",
+      "sha256": [
+        "5d972f4165e7ac9419c75814a5231bbd922e467792639489feb8834b787bf2e6"
+      ],
       "text": "Let's go to Greenwich!",
       "source": "official"
     }

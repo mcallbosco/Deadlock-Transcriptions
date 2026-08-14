@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_can_heal_synth.mp3",
   "revisions": [
     {
-      "sha256": "c1f68dcb18ff1f14e6dfe631861caf847910b880e177d1988f031d200e7e3dd9",
+      "sha256": [
+        "c1f68dcb18ff1f14e6dfe631861caf847910b880e177d1988f031d200e7e3dd9"
+      ],
       "text": "Talk it out with you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cb8b977b01ae25551141134c4e86581959c8898c5692b6d57dfc7d4218062cc8",
+      "sha256": [
+        "cb8b977b01ae25551141134c4e86581959c8898c5692b6d57dfc7d4218062cc8"
+      ],
       "text": "Pocket, I can heal you!",
       "source": "official"
     }

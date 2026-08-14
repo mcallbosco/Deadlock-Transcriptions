@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "2d64ab6f927598dc9dc58c05044b4004f7c4148a21b8c7b4c0db66671a822332",
+      "sha256": [
+        "2d64ab6f927598dc9dc58c05044b4004f7c4148a21b8c7b4c0db66671a822332"
+      ],
       "text": "That's all, Cap.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0f15bf05e588821483ad753ac348d2b86f8e55433b02671d3dca03f03d8848be",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b5dea2bd80acd51447b55c7a708bc408cf5d3930ff8022d2769c82bbc9f048a2",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "15c1f2b97a92cb9ea0fb9ea105b9850e1b67b3e9a06f86feb373aa187b489c3b",
+      "sha256": [
+        "0f15bf05e588821483ad753ac348d2b86f8e55433b02671d3dca03f03d8848be",
+        "15c1f2b97a92cb9ea0fb9ea105b9850e1b67b3e9a06f86feb373aa187b489c3b",
+        "b5dea2bd80acd51447b55c7a708bc408cf5d3930ff8022d2769c82bbc9f048a2"
+      ],
       "text": "Careful, Kelvin…",
       "source": "official"
     }

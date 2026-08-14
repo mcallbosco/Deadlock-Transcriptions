@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_hunt_01.mp3",
   "revisions": [
     {
-      "sha256": "cab967456ca7841a8dc8057e601f1f315548c6cfa9bbe23c7367b3b3e777734a",
-      "text": "Do I hear...",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06dbf0d15e4805c37293dc6234740c40ceab65cf4150abc0679c68a8c33123a6",
+      "sha256": [
+        "06dbf0d15e4805c37293dc6234740c40ceab65cf4150abc0679c68a8c33123a6",
+        "cab967456ca7841a8dc8057e601f1f315548c6cfa9bbe23c7367b3b3e777734a"
+      ],
       "text": "Do I hear...",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

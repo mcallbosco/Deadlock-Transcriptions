@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_saw_krill.mp3",
   "revisions": [
     {
-      "sha256": "d9cd38acf002020734ccb0fb4804d61869d0622f16069aa25ed5dd965951cd94",
+      "sha256": [
+        "d9cd38acf002020734ccb0fb4804d61869d0622f16069aa25ed5dd965951cd94"
+      ],
       "text": "I saw Krill!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b914aefb50dcc5a0c724ebfdef7ff698c464f3dc51e32800d064baba1e461639",
-      "text": "That's okay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8150d9f9d4dc6876d00507156cd5e806eb06d6ee237d5897690ae32b6f188a0",
+      "sha256": [
+        "b914aefb50dcc5a0c724ebfdef7ff698c464f3dc51e32800d064baba1e461639",
+        "f8150d9f9d4dc6876d00507156cd5e806eb06d6ee237d5897690ae32b6f188a0"
+      ],
       "text": "That's okay.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

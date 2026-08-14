@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_inferno_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "352eaba2f40ed8257c9a2b5ba62bbb4d5fd480d138338c20a4bb9b7431fb2dbf",
+      "sha256": [
+        "352eaba2f40ed8257c9a2b5ba62bbb4d5fd480d138338c20a4bb9b7431fb2dbf"
+      ],
       "text": "The entrance is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5b090a465bc2f7a73dcacda5bb0e2d47a36be58f5b5d0cc1dc55f64f97c6a3f8",
+      "sha256": [
+        "5b090a465bc2f7a73dcacda5bb0e2d47a36be58f5b5d0cc1dc55f64f97c6a3f8"
+      ],
       "text": "Infernus's under the garage!",
       "source": "official"
     }

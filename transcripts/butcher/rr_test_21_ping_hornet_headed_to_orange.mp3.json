@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_hornet_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "08c80a0ba895c86c6846b217eaba5582511f9b26f9f3b7bbb095b571ad9ad1b6",
+      "sha256": [
+        "08c80a0ba895c86c6846b217eaba5582511f9b26f9f3b7bbb095b571ad9ad1b6",
+        "36794883f69718be01d4dacfeb789135a6db02360aee27852c69f1c18dd1993e"
+      ],
       "text": "Horn is headed to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "36794883f69718be01d4dacfeb789135a6db02360aee27852c69f1c18dd1993e",
-      "text": "Horn is headed to orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d5301deb045b0a8f1dfce6ab79f19bfd5be83ab191b2a37766a38cc38c08ce2",
+      "sha256": [
+        "1d5301deb045b0a8f1dfce6ab79f19bfd5be83ab191b2a37766a38cc38c08ce2"
+      ],
       "text": "Point is headed to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

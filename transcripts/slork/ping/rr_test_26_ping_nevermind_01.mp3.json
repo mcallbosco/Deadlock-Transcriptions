@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_nevermind_01.mp3",
   "revisions": [
     {
-      "sha256": "da2252ff30a151be6ad5f849459cce66919c255a2571c8c8725edeb782f1f0d7",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e01fb093c79dd34ad10f69d41c66cc289b34f5e4b040e500219f14cd1e825fe",
+      "sha256": [
+        "5e01fb093c79dd34ad10f69d41c66cc289b34f5e4b040e500219f14cd1e825fe",
+        "da2252ff30a151be6ad5f849459cce66919c255a2571c8c8725edeb782f1f0d7"
+      ],
       "text": "Never mind.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,34 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_astro_dead.mp3",
   "revisions": [
     {
-      "sha256": "200148f6d3db984a08996ad4ab2883a3d07c99aa11f0a679e76fb23fd920e657",
+      "sha256": [
+        "200148f6d3db984a08996ad4ab2883a3d07c99aa11f0a679e76fb23fd920e657",
+        "414ca724c32a27075b276d7bd926c0fe5bddf33f0ff9de93f2a57dcf5e9d5182",
+        "8c4f39ab47d655c1c81fc69853b9b76f34af3055a30e28da6307d346026ca177"
+      ],
       "text": "Holiday is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa0dc86796a895b2d428f0db4f6baece12d872aefa21d287e3ecc9dfde019c11",
+      "sha256": [
+        "e84640394af9f62cc079382e09b748cf3387f0528d506aa858c37b42f8c8e5e6",
+        "fa0dc86796a895b2d428f0db4f6baece12d872aefa21d287e3ecc9dfde019c11"
+      ],
       "text": "Holliday is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e84640394af9f62cc079382e09b748cf3387f0528d506aa858c37b42f8c8e5e6",
-      "text": "Holliday is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c4f39ab47d655c1c81fc69853b9b76f34af3055a30e28da6307d346026ca177",
-      "text": "Holiday is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "414ca724c32a27075b276d7bd926c0fe5bddf33f0ff9de93f2a57dcf5e9d5182",
-      "text": "Holiday is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

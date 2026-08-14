@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_use_echo_shard_03.mp3",
   "revisions": [
     {
-      "sha256": "55bf6b3a0956478949b8960a5be52f8bcb4508c425ac230db0e4cf80a153b186",
-      "text": "One more time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ba6dd88f6a85c81f03db4cc53b8a08423282c2378ac00e4a663900d534b0c35",
-      "text": "One more time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13892fd65b7ba94d6e940172d4e48b47ec6339b95061b8a0e30e05e0b267331a",
+      "sha256": [
+        "13892fd65b7ba94d6e940172d4e48b47ec6339b95061b8a0e30e05e0b267331a",
+        "1ba6dd88f6a85c81f03db4cc53b8a08423282c2378ac00e4a663900d534b0c35",
+        "55bf6b3a0956478949b8960a5be52f8bcb4508c425ac230db0e4cf80a153b186"
+      ],
       "text": "One more time…",
       "source": "official"
     }

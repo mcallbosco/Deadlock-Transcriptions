@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "7164c75f223c763df6582a4a0c40973f350f7434060c0d31cc01c5d007cf8183",
+      "sha256": [
+        "7164c75f223c763df6582a4a0c40973f350f7434060c0d31cc01c5d007cf8183",
+        "96f569fe805daf9776dc2f886631d31c8c312c6d668cfcc826dd026e48766ed3"
+      ],
       "text": "My Guinness is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "765ab6d5bd5849e920d023ba212b5a9d25c0038620ad08e46e8e07bd6dbae24a",
+      "sha256": [
+        "765ab6d5bd5849e920d023ba212b5a9d25c0038620ad08e46e8e07bd6dbae24a"
+      ],
       "text": "My genesis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96f569fe805daf9776dc2f886631d31c8c312c6d668cfcc826dd026e48766ed3",
-      "text": "My Guinness is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

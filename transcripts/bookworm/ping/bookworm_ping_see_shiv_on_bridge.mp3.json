@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_shiv_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "e04c869314f83c5baa80dfe7ad97dc78eba5189e73b12e17d86f18417d7de510",
+      "sha256": [
+        "e04c869314f83c5baa80dfe7ad97dc78eba5189e73b12e17d86f18417d7de510"
+      ],
       "text": "Ships on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3f959209d5c1bba8df80f5789e943dfcf7b2cedac14125f3da02b5222408e19",
+      "sha256": [
+        "c3f959209d5c1bba8df80f5789e943dfcf7b2cedac14125f3da02b5222408e19"
+      ],
       "text": "Shiv's on the bridge!",
       "source": "official"
     }

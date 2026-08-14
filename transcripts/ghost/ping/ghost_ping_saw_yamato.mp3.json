@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "2f368b79dbe292ac3e26e884af742632eebd492c17b88b6a1d60e296eb778cbf",
+      "sha256": [
+        "2f368b79dbe292ac3e26e884af742632eebd492c17b88b6a1d60e296eb778cbf"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

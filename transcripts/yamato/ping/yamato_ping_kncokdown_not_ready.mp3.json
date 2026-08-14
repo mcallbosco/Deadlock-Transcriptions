@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_kncokdown_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "d81d94010f4f93a274a09781b6b8268031fefad3f8bead71c2368cf69a470a56",
+      "sha256": [
+        "d81d94010f4f93a274a09781b6b8268031fefad3f8bead71c2368cf69a470a56"
+      ],
       "text": "ノックダウンズオンクールダウン。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "65713777013b8e306ffc8a0bcc207ff6b1b5eaa4d69b8d24d7218c65421f85b5",
+      "sha256": [
+        "65713777013b8e306ffc8a0bcc207ff6b1b5eaa4d69b8d24d7218c65421f85b5"
+      ],
       "text": "Knockdown's on cooldown",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_forge_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "2a1efae1d5e4ff39f95dc4dd6389b2be1ab10d767f06046a1bb41a758ac4c913",
+      "sha256": [
+        "2a1efae1d5e4ff39f95dc4dd6389b2be1ab10d767f06046a1bb41a758ac4c913"
+      ],
       "text": "McGinnis is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "53e7e9492b79498bddf30e9edc48a635f86e592dede4c2f1fb01ed2601f63c7c",
+      "sha256": [
+        "53e7e9492b79498bddf30e9edc48a635f86e592dede4c2f1fb01ed2601f63c7c"
+      ],
       "text": "McGinnis's under the garage!",
       "source": "official"
     }

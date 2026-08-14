@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_enemy_yellow_low_health_01.mp3",
   "revisions": [
     {
-      "sha256": "9ca9395fc717fd62d53c9eb1b6bf65f3c4a0acabcdbd90139b06c6b8e089ba40",
-      "text": "The yellow guardian has low health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d66b6f25a89bb14fa9584b16d3066e15cd60f1b5b8c66a2af6f167a918fc0a3",
-      "text": "The yellow Guardian has low health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba05d3685951787e9100fc63a49f722fbbdea161b21f0a571c7be84cf0928e48",
+      "sha256": [
+        "5d66b6f25a89bb14fa9584b16d3066e15cd60f1b5b8c66a2af6f167a918fc0a3",
+        "9ca9395fc717fd62d53c9eb1b6bf65f3c4a0acabcdbd90139b06c6b8e089ba40",
+        "ba05d3685951787e9100fc63a49f722fbbdea161b21f0a571c7be84cf0928e48"
+      ],
       "text": "The yellow Guardian has low health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

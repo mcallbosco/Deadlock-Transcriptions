@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f3a34831f0a890b330727d24d0fa1a73ca0de409c4a40340994027b5df2c85d2",
+      "sha256": [
+        "f3a34831f0a890b330727d24d0fa1a73ca0de409c4a40340994027b5df2c85d2"
+      ],
       "text": "Ships missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b2806902a941c8601219ac66c3d2f18c45d1de4b215bdc1775e04e74f1e7254",
+      "sha256": [
+        "4b2806902a941c8601219ac66c3d2f18c45d1de4b215bdc1775e04e74f1e7254"
+      ],
       "text": "She's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a37d88de82d9f98715d8a7df5d7d62b7e77501e6a1d59c359ba0cd6d2b21e9b",
+      "sha256": [
+        "8a37d88de82d9f98715d8a7df5d7d62b7e77501e6a1d59c359ba0cd6d2b21e9b"
+      ],
       "text": "Shiv's missing",
       "source": "official"
     }

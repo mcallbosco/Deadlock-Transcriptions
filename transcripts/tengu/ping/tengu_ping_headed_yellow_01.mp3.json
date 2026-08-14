@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "08a8728b19d3409ef73bb54d7be5329f58a7180debe37f373c3eee2e089dfd84",
+      "sha256": [
+        "08a8728b19d3409ef73bb54d7be5329f58a7180debe37f373c3eee2e089dfd84"
+      ],
       "text": "Hey, yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "02da7cb0a7cf9904bf89ea97a4abf463bcc128e4c5f278fb670b1498722b51d5",
+      "sha256": [
+        "02da7cb0a7cf9904bf89ea97a4abf463bcc128e4c5f278fb670b1498722b51d5"
+      ],
       "text": "Headed to Yellow",
       "source": "official"
     }

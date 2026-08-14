@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_astro.mp3",
   "revisions": [
     {
-      "sha256": "05c89c893912c4c6c77e90bf09bc7bb857246193b6d97218343c4651df585bd2",
+      "sha256": [
+        "05c89c893912c4c6c77e90bf09bc7bb857246193b6d97218343c4651df585bd2",
+        "e98c4f4062cf95112f3485a336fcdd205060637623fd6de9ee1eae888bf227a4"
+      ],
       "text": "Ignore Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e98c4f4062cf95112f3485a336fcdd205060637623fd6de9ee1eae888bf227a4",
-      "text": "Ignore Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

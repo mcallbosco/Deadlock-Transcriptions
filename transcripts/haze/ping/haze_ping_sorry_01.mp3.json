@@ -1,33 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_sorry_01.mp3",
   "revisions": [
     {
-      "sha256": "d56bf1bfe693159a7c66442ec9cd6f2a03bab614d2a7b5beab33b6008fae47cb",
-      "text": "Sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca46f11c2a7d606cd5e5fa915d9185b617d5703a71bf425160db7bc3c96d5d06",
-      "text": "Sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69a66cf2a925e2ad40347a8d231951d986b0abdd5fa34715b1f083132b91c29b",
-      "text": "Sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ba492d079e352f87bee3603066ce6b78d71b507628303c00b951d39a63a70b9",
-      "text": "Sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f295c30d0868dd59517bfcbf31712345c013be2aa008868b63eaf617c257e4c",
+      "sha256": [
+        "2f295c30d0868dd59517bfcbf31712345c013be2aa008868b63eaf617c257e4c",
+        "69a66cf2a925e2ad40347a8d231951d986b0abdd5fa34715b1f083132b91c29b",
+        "6ba492d079e352f87bee3603066ce6b78d71b507628303c00b951d39a63a70b9",
+        "ca46f11c2a7d606cd5e5fa915d9185b617d5703a71bf425160db7bc3c96d5d06",
+        "d56bf1bfe693159a7c66442ec9cd6f2a03bab614d2a7b5beab33b6008fae47cb"
+      ],
       "text": "Sorry",
       "source": "official"
     }

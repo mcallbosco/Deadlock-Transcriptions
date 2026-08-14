@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "1fd1ed99bcc519e2675acba108351980601a43ed18c0a91d95c33c56b6caf2e8",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6040bbcd954504615f2eb421fd892f3957c2f0a34f618703245fc1537f8429d8",
+      "sha256": [
+        "1fd1ed99bcc519e2675acba108351980601a43ed18c0a91d95c33c56b6caf2e8",
+        "6040bbcd954504615f2eb421fd892f3957c2f0a34f618703245fc1537f8429d8"
+      ],
       "text": "Careful, Haze!",
       "source": "official"
     }

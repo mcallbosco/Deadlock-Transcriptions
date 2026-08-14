@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_help_with_idol.mp3",
   "revisions": [
     {
-      "sha256": "c1d20bff5132d220a68e9154ffa59ae9d9004769623fc852c906801c86847fab",
-      "text": "Help me deliver this thing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abcc7c637bb14bf498884c0fbb1ba3d6d75c00907f25e0d64bec8bbc6061019e",
-      "text": "Help me deliver this thing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03dd53e63cc756aca1d9f89bc602cf7872ac948227c05ab0370badb83caa27b8",
+      "sha256": [
+        "03dd53e63cc756aca1d9f89bc602cf7872ac948227c05ab0370badb83caa27b8",
+        "abcc7c637bb14bf498884c0fbb1ba3d6d75c00907f25e0d64bec8bbc6061019e",
+        "c1d20bff5132d220a68e9154ffa59ae9d9004769623fc852c906801c86847fab"
+      ],
       "text": "Help me deliver this thing!",
       "source": "official"
     }

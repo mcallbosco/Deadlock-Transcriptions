@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/test_announcer_ks_08_03.mp3",
   "revisions": [
     {
-      "sha256": "8c482ef6eb70f3ee3b0d3c9d06ef853074f4f1e049a8cb52f352296ee73683d6",
+      "sha256": [
+        "8c482ef6eb70f3ee3b0d3c9d06ef853074f4f1e049a8cb52f352296ee73683d6"
+      ],
       "text": "==== Transcribed by Automatic Sync Technologies ====",
       "source": "generated",
       "model": "whisper-1"
     },
     {
-      "sha256": "ddfc731d1c22d9ef11b9dbe22e0893f7aa2281bbbca789bfcfd57a36079b0399",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62fe1b4fac8e2b6f5832a8df1524c2afa4f15767ca329721ed7404c700ec845c",
+      "sha256": [
+        "62fe1b4fac8e2b6f5832a8df1524c2afa4f15767ca329721ed7404c700ec845c",
+        "ddfc731d1c22d9ef11b9dbe22e0893f7aa2281bbbca789bfcfd57a36079b0399"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

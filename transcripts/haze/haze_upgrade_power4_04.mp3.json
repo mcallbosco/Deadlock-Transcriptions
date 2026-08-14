@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_upgrade_power4_04.mp3",
   "revisions": [
     {
-      "sha256": "fddfea43a7a1026c350a1c00db9279d4fd6edbcf01e6632b7f221a55c7757818",
+      "sha256": [
+        "fddfea43a7a1026c350a1c00db9279d4fd6edbcf01e6632b7f221a55c7757818"
+      ],
       "text": "The OSI trained me well.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "df1f233ac714efbfcd0e28b78c88f97cad458c7c79b513d9315cf14dab5ce66c",
-      "text": "The OSIC trained me well.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5689bb38a542fc323683a96eb0d83a897c81ef6def8c67f39ff2583d818c835c",
-      "text": "The OSIC trained me well.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3654a57934bf062516fcce22d9e357a13d1d2a04f68e5a8c526f32b35ac6cab0",
-      "text": "The OSIC trained me well.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32b22a8b530652b501270ba6cc689c49fb8f97c14c9dc174fc1eedae7a32f689",
+      "sha256": [
+        "32b22a8b530652b501270ba6cc689c49fb8f97c14c9dc174fc1eedae7a32f689",
+        "3654a57934bf062516fcce22d9e357a13d1d2a04f68e5a8c526f32b35ac6cab0",
+        "5689bb38a542fc323683a96eb0d83a897c81ef6def8c67f39ff2583d818c835c",
+        "df1f233ac714efbfcd0e28b78c88f97cad458c7c79b513d9315cf14dab5ce66c"
+      ],
       "text": "The OSIC trained me well",
       "source": "official"
     }

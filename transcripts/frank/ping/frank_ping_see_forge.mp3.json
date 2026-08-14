@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_forge.mp3",
   "revisions": [
     {
-      "sha256": "57d9afcca4fa2f988163f6d687c189cb17e213930d731bd3fa2a180e7c68a924",
+      "sha256": [
+        "57d9afcca4fa2f988163f6d687c189cb17e213930d731bd3fa2a180e7c68a924"
+      ],
       "text": "I see we get it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5c19f9f2847433b45fd62598e54aa2d54bbae4d1fafc4b9b71abb1f2be904f12",
+      "sha256": [
+        "5c19f9f2847433b45fd62598e54aa2d54bbae4d1fafc4b9b71abb1f2be904f12"
+      ],
       "text": "I see McGinnis.",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_cadence.mp3",
   "revisions": [
     {
-      "sha256": "b75b706157281c31b9849cb5fe54b8f6069a534fd3bad07e0424da2bed7d509f",
-      "text": "I'm with you, Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28cddfa2f47e0ec9f5279d33d230faa301008d737bf235883e9b6a5032327d51",
-      "text": "I'm with you, Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3740da9c888046cc04062bf94a3a48ea56cffc5284f58f6eb7cffbe66697cd3",
+      "sha256": [
+        "28cddfa2f47e0ec9f5279d33d230faa301008d737bf235883e9b6a5032327d51",
+        "b75b706157281c31b9849cb5fe54b8f6069a534fd3bad07e0424da2bed7d509f",
+        "d3740da9c888046cc04062bf94a3a48ea56cffc5284f58f6eb7cffbe66697cd3"
+      ],
       "text": "I'm with you, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_ally_orion_far_shot_01.mp3",
   "revisions": [
     {
-      "sha256": "f448c8ccddf29edc306901b87534f1b783f982cc0d0de21745d1d7a72adaf007",
-      "text": "Nice shot.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02e2c10db38c12ebfde7ae86874cc18d937525a663d5239d2e442ad636c5b42a",
-      "text": "Nice shot.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b280a313cba0ce7b3899a27ef83c65afb0f8e78180e9310eebb479cd4eb1202",
+      "sha256": [
+        "02e2c10db38c12ebfde7ae86874cc18d937525a663d5239d2e442ad636c5b42a",
+        "5b280a313cba0ce7b3899a27ef83c65afb0f8e78180e9310eebb479cd4eb1202",
+        "f448c8ccddf29edc306901b87534f1b783f982cc0d0de21745d1d7a72adaf007"
+      ],
       "text": "Nice shot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

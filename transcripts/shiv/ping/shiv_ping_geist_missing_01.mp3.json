@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_geist_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ea0400e2a4fa0ba7d292d54fc619b3f631a7cff89796f384e2d62e073717010d",
+      "sha256": [
+        "ea0400e2a4fa0ba7d292d54fc619b3f631a7cff89796f384e2d62e073717010d"
+      ],
       "text": "That's the",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "09a44887f06ced07ea8f30da4fd08d91c850aaec5f11743b2f5d5ef4b59cd311",
+      "sha256": [
+        "09a44887f06ced07ea8f30da4fd08d91c850aaec5f11743b2f5d5ef4b59cd311"
+      ],
       "text": "That's this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

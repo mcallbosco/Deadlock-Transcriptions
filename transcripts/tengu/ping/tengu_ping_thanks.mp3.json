@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "ae77bc277b2918841af82d975d3413bf7cbba3347b6df55f89e2ad9db3203c10",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "722562abe509640adef84218de82158f7f44d9740a37adae0ba37f6f0cd1cd46",
+      "sha256": [
+        "722562abe509640adef84218de82158f7f44d9740a37adae0ba37f6f0cd1cd46",
+        "ae77bc277b2918841af82d975d3413bf7cbba3347b6df55f89e2ad9db3203c10"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

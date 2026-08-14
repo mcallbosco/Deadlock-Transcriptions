@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_see_doorman_01.mp3",
   "revisions": [
     {
-      "sha256": "3566697d8828683835acdb7acc8d3be4489ed36ef7c2886aff986d0168d87c42",
+      "sha256": [
+        "3566697d8828683835acdb7acc8d3be4489ed36ef7c2886aff986d0168d87c42"
+      ],
       "text": "We see the doorman.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

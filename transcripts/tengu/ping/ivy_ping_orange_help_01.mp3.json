@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_orange_help_01.mp3",
   "revisions": [
     {
-      "sha256": "30b0fbde20be0c494f9018ae27f480078f12c834fce48a46ca7b8da88df4a3f8",
+      "sha256": [
+        "30b0fbde20be0c494f9018ae27f480078f12c834fce48a46ca7b8da88df4a3f8",
+        "d8de9b2cd9002b82ba4b23e86ef86d5955a651567ccdfac2f4da645a819397a4"
+      ],
       "text": "I need help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1221274ec1c8360aa3128d08b544999bab51228f5ab1ddd2d9bd0189eb8a405d",
+      "sha256": [
+        "1221274ec1c8360aa3128d08b544999bab51228f5ab1ddd2d9bd0189eb8a405d"
+      ],
       "text": "Orange need help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d8de9b2cd9002b82ba4b23e86ef86d5955a651567ccdfac2f4da645a819397a4",
-      "text": "I need help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

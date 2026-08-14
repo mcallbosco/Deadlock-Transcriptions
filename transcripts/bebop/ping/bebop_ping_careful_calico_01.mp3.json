@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_calico_01.mp3",
   "revisions": [
     {
-      "sha256": "756d87ddca205625ed45aa22503355ba8309f647c8af10e72f77bf6f6a5dc5d3",
+      "sha256": [
+        "756d87ddca205625ed45aa22503355ba8309f647c8af10e72f77bf6f6a5dc5d3"
+      ],
       "text": "Careful, Katiko.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a1b325740078dbb61d56a3580ddfcb9047017903caa013d8a10861b704828c1",
+      "sha256": [
+        "0a1b325740078dbb61d56a3580ddfcb9047017903caa013d8a10861b704828c1"
+      ],
       "text": "Careful, Calico…",
       "source": "official"
     }

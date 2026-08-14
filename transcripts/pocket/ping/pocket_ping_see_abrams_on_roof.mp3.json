@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_abrams_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "1beecb15fbbf03ee9753c1ec97186fe252be03aad5c5d4583e0a0bba4554335a",
-      "text": "Abrams is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4cb7b201980b4369f4ae766a2835fa38c1124cec46a38138e990852936361131",
+      "sha256": [
+        "1beecb15fbbf03ee9753c1ec97186fe252be03aad5c5d4583e0a0bba4554335a",
+        "4cb7b201980b4369f4ae766a2835fa38c1124cec46a38138e990852936361131"
+      ],
       "text": "Abrams is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_akimbo_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "bfbc98eeaf3c1dcd350b2e5e606d89a37ee82d92a4213429b6e72fdbb17620e7",
+      "sha256": [
+        "bfbc98eeaf3c1dcd350b2e5e606d89a37ee82d92a4213429b6e72fdbb17620e7"
+      ],
       "text": "Akimbo is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "12f5a0c009b8b08e88c846ef38ca8de84417bf6755807702d27bfcca27c06f27",
+      "sha256": [
+        "12f5a0c009b8b08e88c846ef38ca8de84417bf6755807702d27bfcca27c06f27"
+      ],
       "text": "Akimbo's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

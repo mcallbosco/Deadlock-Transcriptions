@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "3cf6392f809b10dda4de8750a8fc84f599ebfac9367d48b5cb7b018636cb8442",
-      "text": "Pocket is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d129b745832f3e2bb3432dcd18cbbbde1437b0165409f589b62ac27ebbb4ccf",
-      "text": "Pocket is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0aaeca57861e1b933a1a7d68e6ae66f628f233eed123c129fab1b97ebe550f6",
+      "sha256": [
+        "2d129b745832f3e2bb3432dcd18cbbbde1437b0165409f589b62ac27ebbb4ccf",
+        "3cf6392f809b10dda4de8750a8fc84f599ebfac9367d48b5cb7b018636cb8442",
+        "a0aaeca57861e1b933a1a7d68e6ae66f628f233eed123c129fab1b97ebe550f6"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

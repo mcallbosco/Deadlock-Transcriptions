@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_happy_10.mp3",
   "revisions": [
     {
-      "sha256": "98ae648b0be32ee167497621c54a7e5a2c02ad6f294f261021b4d6873d98ccfa",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7702e8db15e23fac2cee17fa9ea4f5b7179bef15702c9bc72788ffde02f7aa1e",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "705c400b10f4deba85b7f0777d482a642085737ea6c63305535c4590d09c1a42",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "626eba92bc57aa428313cc84df8a69b6cd556d5c5287f1b8d6355542db305d9a",
+      "sha256": [
+        "626eba92bc57aa428313cc84df8a69b6cd556d5c5287f1b8d6355542db305d9a",
+        "705c400b10f4deba85b7f0777d482a642085737ea6c63305535c4590d09c1a42",
+        "7702e8db15e23fac2cee17fa9ea4f5b7179bef15702c9bc72788ffde02f7aa1e",
+        "98ae648b0be32ee167497621c54a7e5a2c02ad6f294f261021b4d6873d98ccfa"
+      ],
       "text": "Yes!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

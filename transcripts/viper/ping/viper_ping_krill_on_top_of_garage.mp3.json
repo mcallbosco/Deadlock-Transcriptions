@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_krill_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "0254c5659d571a6aef0981d57f16eb1f968d762a31758bd9bd404619ab2ad3f9",
+      "sha256": [
+        "0254c5659d571a6aef0981d57f16eb1f968d762a31758bd9bd404619ab2ad3f9",
+        "281a6c4c8cc1965bc6f0483d3a282a55f5e751e81016c7f28112115eaf721786"
+      ],
       "text": "Crows on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "281a6c4c8cc1965bc6f0483d3a282a55f5e751e81016c7f28112115eaf721786",
-      "text": "Crows on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4d2f1a3d0cb40d1cf4d96e0b09a49b809d94e19e4e4afe3deb80533dd43f960",
+      "sha256": [
+        "a4d2f1a3d0cb40d1cf4d96e0b09a49b809d94e19e4e4afe3deb80533dd43f960"
+      ],
       "text": "Krill's on top of the garage!",
       "source": "official"
     }

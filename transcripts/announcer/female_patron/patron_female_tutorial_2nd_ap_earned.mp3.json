@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_2nd_ap_earned.mp3",
   "revisions": [
     {
-      "sha256": "3bd1ca5ea2c3fa403699415f82f043119be4b3727b749b3143414c9d45438501",
+      "sha256": [
+        "3bd1ca5ea2c3fa403699415f82f043119be4b3727b749b3143414c9d45438501",
+        "9700b4e08200311362958b4bcf59195fa00671c035e7f552795b2a09d713731a"
+      ],
       "text": "You've earned another AP, if you wish, you could upgrade another power, or you could save it so you can buy a more expensive upgrade.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9700b4e08200311362958b4bcf59195fa00671c035e7f552795b2a09d713731a",
-      "text": "You've earned another AP. If you wish, you could upgrade another power, or you could save it so you can buy a more expensive upgrade.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

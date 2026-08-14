@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_cadence_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "04d95235d9622ac4761da45bda1f7b08f7e2701c37220f57d98a362970604a20",
+      "sha256": [
+        "04d95235d9622ac4761da45bda1f7b08f7e2701c37220f57d98a362970604a20"
+      ],
       "text": "Cade is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a2f2103286d2986242da83ddd7effd8e14d345b369713e7eea3eac635bd14fe",
+      "sha256": [
+        "8a2f2103286d2986242da83ddd7effd8e14d345b369713e7eea3eac635bd14fe"
+      ],
       "text": "Cadence is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

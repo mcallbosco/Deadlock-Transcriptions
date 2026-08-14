@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_see_shiv.mp3",
   "revisions": [
     {
-      "sha256": "d1884165fe6ba9b01a07de004181dbc82528c2a3ee20110274b3af15f648a400",
-      "text": "I see Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf505392f7c0b2bfa1a899e62430a7e93634d68773a164d88f5ea7da64fd40ec",
+      "sha256": [
+        "cf505392f7c0b2bfa1a899e62430a7e93634d68773a164d88f5ea7da64fd40ec",
+        "d1884165fe6ba9b01a07de004181dbc82528c2a3ee20110274b3af15f648a400"
+      ],
       "text": "I see Shiv!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

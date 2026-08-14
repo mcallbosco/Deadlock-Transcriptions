@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_post_game_01.mp3",
   "revisions": [
     {
-      "sha256": "0d539e1254b8938e4c1bb9c32ef410690e8589fc678419ba47531c57c5934aa8",
+      "sha256": [
+        "0d539e1254b8938e4c1bb9c32ef410690e8589fc678419ba47531c57c5934aa8"
+      ],
       "text": "We did it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_ghost_dead.mp3",
   "revisions": [
     {
-      "sha256": "821762ca97f4412cced2da04c2ede27a5911fca59213a6ee4fbb8853e687178c",
+      "sha256": [
+        "821762ca97f4412cced2da04c2ede27a5911fca59213a6ee4fbb8853e687178c"
+      ],
       "text": "This is Dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

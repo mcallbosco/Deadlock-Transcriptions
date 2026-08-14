@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4d54e13955226fbd764d6bb3319781faa87e0325fa7fbddb1824a78f54352c04",
+      "sha256": [
+        "4d54e13955226fbd764d6bb3319781faa87e0325fa7fbddb1824a78f54352c04"
+      ],
       "text": "Inferno is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "99567fb2feced414506076c7b9f372aaa388bdd318bfa782f0fa30ae5d88a346",
-      "text": "Inferno was missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52818852b78732164e04c3609b57bdf3236c9a2bdae5f875acb9f8f0ac31fea6",
+      "sha256": [
+        "52818852b78732164e04c3609b57bdf3236c9a2bdae5f875acb9f8f0ac31fea6",
+        "99567fb2feced414506076c7b9f372aaa388bdd318bfa782f0fa30ae5d88a346"
+      ],
       "text": "Inferno was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

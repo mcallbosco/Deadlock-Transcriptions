@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_use_ability1.mp3",
   "revisions": [
     {
-      "sha256": "787fe922550159efe8ff4ee071345089850e94c40b688824c6e8c1e495b370d8",
+      "sha256": [
+        "524bef706edb19a2c00d38a7ea29e4c92f592a3ac27331468e80961888a05522",
+        "787fe922550159efe8ff4ee071345089850e94c40b688824c6e8c1e495b370d8"
+      ],
       "text": "Where is my ship?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "524bef706edb19a2c00d38a7ea29e4c92f592a3ac27331468e80961888a05522",
-      "text": "Where is my ship?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1006260577388f1298cc08f6b840ea48e3d15dee5103fb2efe7a91c10587218d",
+      "sha256": [
+        "1006260577388f1298cc08f6b840ea48e3d15dee5103fb2efe7a91c10587218d"
+      ],
       "text": "Ready to throw a shiv",
       "source": "official"
     }

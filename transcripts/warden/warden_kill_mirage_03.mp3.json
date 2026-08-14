@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_kill_mirage_03.mp3",
   "revisions": [
     {
-      "sha256": "8c69c7345a55c85f151b54af947e203306cb9bf54d7a3443558c0a35b4f0374a",
-      "text": "Mirage is down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c9834c4f9ccc69c0ed799b97ec490e628dc7a193c2ae9384a15ddf229e29b46",
-      "text": "Mirage is down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88c8de6e563b55a53a7f18f66e0ea3094bf770b9a28eb7be6f3da512a7dda931",
-      "text": "Mirage is down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a26b7b0af00e5401f25cf20c903b85aeae6e838c283bb9db9362c644c092ae34",
+      "sha256": [
+        "1c9834c4f9ccc69c0ed799b97ec490e628dc7a193c2ae9384a15ddf229e29b46",
+        "88c8de6e563b55a53a7f18f66e0ea3094bf770b9a28eb7be6f3da512a7dda931",
+        "8c69c7345a55c85f151b54af947e203306cb9bf54d7a3443558c0a35b4f0374a",
+        "a26b7b0af00e5401f25cf20c903b85aeae6e838c283bb9db9362c644c092ae34"
+      ],
       "text": "Mirage is down!",
       "source": "official"
     }

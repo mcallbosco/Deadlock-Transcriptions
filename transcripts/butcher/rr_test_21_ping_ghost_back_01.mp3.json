@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_ghost_back_01.mp3",
   "revisions": [
     {
-      "sha256": "8bb882930fd76caed36745064c76a31adbf5ee97afd8c74a4c763ce5b02e0a4d",
-      "text": "Ghost, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f673ff37def5c493711a8960e3823b728b876359b02ef059b951476789fa2b66",
-      "text": "Ghost, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7acc06126dfa56e35a40748af479257ed5cad93e8ee0dc237bd931958a4b49c7",
+      "sha256": [
+        "7acc06126dfa56e35a40748af479257ed5cad93e8ee0dc237bd931958a4b49c7",
+        "8bb882930fd76caed36745064c76a31adbf5ee97afd8c74a4c763ce5b02e0a4d",
+        "f673ff37def5c493711a8960e3823b728b876359b02ef059b951476789fa2b66"
+      ],
       "text": "Ghost, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

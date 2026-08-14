@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "2830f2f03d060ddf33a57f831d2487e9648a3435424cb26cdf4baa28c7b9301b",
-      "text": "Dynamo's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79b43b99885ac35bfcde80e9172074e188acb8d48c9c4eb66b29ea82f7253583",
+      "sha256": [
+        "2830f2f03d060ddf33a57f831d2487e9648a3435424cb26cdf4baa28c7b9301b",
+        "79b43b99885ac35bfcde80e9172074e188acb8d48c9c4eb66b29ea82f7253583"
+      ],
       "text": "Dynamo's missing.",
       "source": "official"
     }

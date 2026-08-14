@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_bookworm_01.mp3",
   "revisions": [
     {
-      "sha256": "37beb3175ea06944f8f9ec1ede4fcd08f7a95c783507fcc224bd9f851fd2beeb",
+      "sha256": [
+        "37beb3175ea06944f8f9ec1ede4fcd08f7a95c783507fcc224bd9f851fd2beeb"
+      ],
       "text": "I see Bookworm.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

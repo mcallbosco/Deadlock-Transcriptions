@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f77b80ab5c268cc1c5ee2e4d1b2e369d1fcdb88895dc051116aa4f0111d1a08f",
+      "sha256": [
+        "b27a64a32896f4449f531e56fd6104ab5391f903cac379e069220c3d73240df3",
+        "f0b18b4f8ba44c03f190f453c70d5938c943403e98404c7621bf7cb01738b27f",
+        "f77b80ab5c268cc1c5ee2e4d1b2e369d1fcdb88895dc051116aa4f0111d1a08f"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b27a64a32896f4449f531e56fd6104ab5391f903cac379e069220c3d73240df3",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a7b19dc639de016631ebf51a54ab786134d6ebc0214f09a9eeb090218725464",
+      "sha256": [
+        "2a7b19dc639de016631ebf51a54ab786134d6ebc0214f09a9eeb090218725464"
+      ],
       "text": "Gigawatt was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0b18b4f8ba44c03f190f453c70d5938c943403e98404c7621bf7cb01738b27f",
-      "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

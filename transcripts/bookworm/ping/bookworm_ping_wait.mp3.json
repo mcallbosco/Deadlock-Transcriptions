@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_wait.mp3",
   "revisions": [
     {
-      "sha256": "9d345b8e9f0870f9dbf280fdccbe91baa491f71854c784f129368e18cb89ef6c",
-      "text": "Hold up!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "680d657f82761c1491284f21423fc39ab5fb1246c45efc118c796bd74136cf69",
+      "sha256": [
+        "680d657f82761c1491284f21423fc39ab5fb1246c45efc118c796bd74136cf69",
+        "9d345b8e9f0870f9dbf280fdccbe91baa491f71854c784f129368e18cb89ef6c"
+      ],
       "text": "Hold up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

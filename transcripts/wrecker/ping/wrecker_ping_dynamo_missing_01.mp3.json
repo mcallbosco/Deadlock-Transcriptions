@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "cfd7eb51d8e1fcf5ed23aa9a2cfa38eb32fe2c1fbf953997b36850145678a792",
-      "text": "Dynamo is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1151a96e61e7b42af7d3c852cdae3db4f7b9e652839e44796b774965bc388a8e",
+      "sha256": [
+        "1151a96e61e7b42af7d3c852cdae3db4f7b9e652839e44796b774965bc388a8e",
+        "cfd7eb51d8e1fcf5ed23aa9a2cfa38eb32fe2c1fbf953997b36850145678a792"
+      ],
       "text": "Dynamo is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

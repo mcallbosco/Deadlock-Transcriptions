@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_outnumbered_02.mp3",
   "revisions": [
     {
-      "sha256": "decb3be94294e6dee46fba275fed8b466045b4dd628e5024bc69e366e0abcdcd",
-      "text": "I don't like how the numbers are looking.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "496edce3f86a61bd55fa38445dcb00dd08289eacba82a63b7628a00562dfd976",
+      "sha256": [
+        "496edce3f86a61bd55fa38445dcb00dd08289eacba82a63b7628a00562dfd976",
+        "decb3be94294e6dee46fba275fed8b466045b4dd628e5024bc69e366e0abcdcd"
+      ],
       "text": "I don't like how the numbers are looking.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_upgrade_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "325cd207efb162b50d3ed8d7b452dabded8d7c2a253cb6f0ef7456d2c90e38dc",
+      "sha256": [
+        "325cd207efb162b50d3ed8d7b452dabded8d7c2a253cb6f0ef7456d2c90e38dc"
+      ],
       "text": "I don't fight fair if I can win.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa06c940d6d3d300d8a49214a01d924d38574dc97841ac06e19c411876b5541d",
+      "sha256": [
+        "fa06c940d6d3d300d8a49214a01d924d38574dc97841ac06e19c411876b5541d"
+      ],
       "text": "I don't fight for fight to win.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

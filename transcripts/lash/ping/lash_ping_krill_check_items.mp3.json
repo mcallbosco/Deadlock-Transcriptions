@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_krill_check_items.mp3",
   "revisions": [
     {
-      "sha256": "f1b9b2a0fc171a073a339c4bf41d5873c4b023ed30dbf676dd2bae1530482f14",
-      "text": "Check out what Krill bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99415f6b2e683747428bae41a85983f297a2ff78cc3e2372407042a347720f40",
-      "text": "Check out what Krill bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44373a1ae8161be0922f0b1bc075c7bf5d2deab91b1333b16ccafbaca4bd85a7",
+      "sha256": [
+        "44373a1ae8161be0922f0b1bc075c7bf5d2deab91b1333b16ccafbaca4bd85a7",
+        "99415f6b2e683747428bae41a85983f297a2ff78cc3e2372407042a347720f40",
+        "f1b9b2a0fc171a073a339c4bf41d5873c4b023ed30dbf676dd2bae1530482f14"
+      ],
       "text": "Check out what Krill bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

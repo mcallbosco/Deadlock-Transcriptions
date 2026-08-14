@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "ef626c4b1925506115499e1b9ecf8f0cc9ecf0dc011222d6c7ce733b3e432c09",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9906c154e436b845c9805f49dc1f014bb12877e3f27dbc6ec924dac12cf2716f",
+      "sha256": [
+        "9906c154e436b845c9805f49dc1f014bb12877e3f27dbc6ec924dac12cf2716f",
+        "ef626c4b1925506115499e1b9ecf8f0cc9ecf0dc011222d6c7ce733b3e432c09"
+      ],
       "text": "Careful, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

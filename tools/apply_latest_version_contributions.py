@@ -13,6 +13,7 @@ from typing import Any
 
 from audit_legacy_contributions import AuditError, git, valid_sha256
 from apply_current_contributions import read_json, require_clean_transcripts
+from transcript_schema import revision_group_identity, revisions_for_hash
 
 
 def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
@@ -30,7 +31,7 @@ def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
     candidates = [
         value for value in report.get("records", []) if value.get("status") == "candidate_latest_manual"
     ]
-    selected: set[tuple[str, str]] = set()
+    selected: set[tuple[str, tuple[str, ...]]] = set()
     documents: dict[Path, dict[str, Any]] = {}
     official_before: dict[Path, list[dict[str, Any]]] = {}
     changes: list[dict[str, Any]] = []
@@ -47,10 +48,6 @@ def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
         if not valid_sha256(sha256):
             raise AuditError(f"Candidate has no valid latest SHA-256: {target.get('path')}")
         identity = (target["path"], sha256)
-        if identity in selected:
-            raise AuditError(f"Multiple corrections target the same latest revision: {identity}")
-        selected.add(identity)
-
         document = documents.setdefault(path, read_json(path))
         official_before.setdefault(
             path,
@@ -58,12 +55,14 @@ def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
                 [value for value in document.get("revisions", []) if value.get("source") == "official"]
             ),
         )
-        revisions = [
-            value for value in document.get("revisions", []) if value.get("sha256") == sha256
-        ]
+        revisions = revisions_for_hash(document, sha256)
         if len(revisions) != 1:
             raise AuditError(f"Expected one latest revision {identity}; found {len(revisions)}.")
         revision = revisions[0]
+        group_identity = revision_group_identity(str(target["path"]), revision)
+        if group_identity in selected:
+            raise AuditError(f"Multiple corrections target the same transcript group: {group_identity}")
+        selected.add(group_identity)
         if revision.get("source") == "official":
             raise AuditError(f"Refusing to modify official revision {identity}.")
         if revision.get("source") != target.get("source") or revision.get("text") != target.get(
@@ -104,11 +103,7 @@ def apply_changes(changes: list[dict[str, Any]]) -> None:
     for change in changes:
         path = change["path"]
         document = documents.setdefault(path, read_json(path))
-        revisions = [
-            value
-            for value in document.get("revisions", [])
-            if value.get("sha256") == change["sha256"]
-        ]
+        revisions = revisions_for_hash(document, change["sha256"])
         if len(revisions) != 1 or revisions[0].get("source") == "official":
             raise AuditError(
                 f"Target changed between planning and writing: {change['relativePath']}@{change['sha256']}"

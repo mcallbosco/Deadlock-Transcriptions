@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e77d09b4c7e38fc8019d455741798c7353ab0626c00b75dcf017e5d9f87c6682",
+      "sha256": [
+        "e77d09b4c7e38fc8019d455741798c7353ab0626c00b75dcf017e5d9f87c6682"
+      ],
       "text": "What is missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c2aab0652a25e011c2c4548c836307587436fc4acbb8e2cd751827da7616d862",
+      "sha256": [
+        "c2aab0652a25e011c2c4548c836307587436fc4acbb8e2cd751827da7616d862"
+      ],
       "text": "Warden's missing",
       "source": "official"
     }

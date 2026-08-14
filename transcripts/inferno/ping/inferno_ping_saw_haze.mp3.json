@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "8ef9c549e3e18092039c1e5f34b75b6cfae75bc66b5b9b46f39ef8c48a861ce7",
+      "sha256": [
+        "8ef9c549e3e18092039c1e5f34b75b6cfae75bc66b5b9b46f39ef8c48a861ce7"
+      ],
       "text": "I saw his.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d79f79aff361d43199dd00f888722c61a10cff32217c54685558cd80fdc48341",
+      "sha256": [
+        "73627f0ef4696aca7f81a864e52dec1b459ffd4ead60195e6f9b32c3f2f01cff",
+        "a21971022886e4504b81aaf2380d0c06a0cee4d04b7e30ae1cc14ad1f3cb416b",
+        "d79f79aff361d43199dd00f888722c61a10cff32217c54685558cd80fdc48341"
+      ],
       "text": "I saw Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73627f0ef4696aca7f81a864e52dec1b459ffd4ead60195e6f9b32c3f2f01cff",
-      "text": "I saw Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a21971022886e4504b81aaf2380d0c06a0cee4d04b7e30ae1cc14ad1f3cb416b",
-      "text": "I saw haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

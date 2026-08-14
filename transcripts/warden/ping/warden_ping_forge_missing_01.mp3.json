@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b5f3e4704928da62cedf685fa2f879291824d2d1f18cb60ebce642c39c713491",
+      "sha256": [
+        "6d2de5b10e4d7107795448ed484677fc1b548c6766ee2b25fa96f04568f93b8e",
+        "b5f3e4704928da62cedf685fa2f879291824d2d1f18cb60ebce642c39c713491",
+        "d2d6000d639eedaf994f2d00f6db0f1e600a1d0e7688a077be79e3e7166e0ae3"
+      ],
       "text": "McGinnis is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d2de5b10e4d7107795448ed484677fc1b548c6766ee2b25fa96f04568f93b8e",
-      "text": "McGinnis is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d2d6000d639eedaf994f2d00f6db0f1e600a1d0e7688a077be79e3e7166e0ae3",
-      "text": "McGinnis is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55902fbeee548ffe9b6d897fae015459315570fe23c36d3031e066aa3fc693f4",
+      "sha256": [
+        "55902fbeee548ffe9b6d897fae015459315570fe23c36d3031e066aa3fc693f4"
+      ],
       "text": "McGinnis's missing",
       "source": "official"
     }

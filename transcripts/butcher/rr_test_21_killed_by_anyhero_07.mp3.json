@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_killed_by_anyhero_07.mp3",
   "revisions": [
     {
-      "sha256": "5c55197307b420c96eb38e7fb6802102c7e77b735853450bfb102018df3b356e",
-      "text": "Well, shit.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b174433ff9bf0dedb0fd526a9817f77e0193e5a302a0251e8e7185e0a5b6d13e",
-      "text": "Well, shit.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08540a37594232bd889f442506c3e649a2dc5a455a0939e93608809ca7dd2a65",
+      "sha256": [
+        "08540a37594232bd889f442506c3e649a2dc5a455a0939e93608809ca7dd2a65",
+        "5c55197307b420c96eb38e7fb6802102c7e77b735853450bfb102018df3b356e",
+        "b174433ff9bf0dedb0fd526a9817f77e0193e5a302a0251e8e7185e0a5b6d13e"
+      ],
       "text": "Well, shit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

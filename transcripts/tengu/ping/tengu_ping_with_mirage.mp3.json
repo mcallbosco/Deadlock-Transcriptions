@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "99ec76ee0aaee5f10557d2ecbcb93ab87b59518c7d5bad53a6ba366f7e7da27a",
+      "sha256": [
+        "99ec76ee0aaee5f10557d2ecbcb93ab87b59518c7d5bad53a6ba366f7e7da27a"
+      ],
       "text": "I'm not humanized.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dfedbb8c41300d9fa2225bb3e710e4c18c2a6f693ac0bdf11e95c22cb6d4030e",
+      "sha256": [
+        "dfedbb8c41300d9fa2225bb3e710e4c18c2a6f693ac0bdf11e95c22cb6d4030e"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

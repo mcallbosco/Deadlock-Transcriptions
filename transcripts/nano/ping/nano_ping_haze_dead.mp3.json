@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "8622c1cf219484c9cb52f1c90ca5b4599fb945ca2127929dbd9fb27b51acc24d",
+      "sha256": [
+        "8622c1cf219484c9cb52f1c90ca5b4599fb945ca2127929dbd9fb27b51acc24d"
+      ],
       "text": "Hey, this is Dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

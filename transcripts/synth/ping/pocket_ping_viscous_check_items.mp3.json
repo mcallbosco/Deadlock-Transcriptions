@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_viscous_check_items.mp3",
   "revisions": [
     {
-      "sha256": "25e4f843a2082b1811d3d02ba886ec2016d73c26098c8f5c554d8c95b34827ed",
+      "sha256": [
+        "25e4f843a2082b1811d3d02ba886ec2016d73c26098c8f5c554d8c95b34827ed"
+      ],
       "text": "Check out what Biscuit bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7292d048ac36e07819253b2c51f18d419aa42ff1dba4a946e019f3761bf6777e",
+      "sha256": [
+        "7292d048ac36e07819253b2c51f18d419aa42ff1dba4a946e019f3761bf6777e"
+      ],
       "text": "Check out what Viscous bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

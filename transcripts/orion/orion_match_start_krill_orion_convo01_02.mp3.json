@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_match_start_krill_orion_convo01_02.mp3",
   "revisions": [
     {
-      "sha256": "6eca286ab3e0852604889a11c16ca211d997c25bc9d69f0c688d4995c4491633",
-      "text": "I am.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e560c0b2f98195fe1fe37b05412edc16fe3be4fb2c9685a6566a9c7c69943e4b",
-      "text": "I am.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "63b7763e1d3b1c378d03c1835b6ce065cd6780293ba5f04cfd717a81fa337913",
+      "sha256": [
+        "63b7763e1d3b1c378d03c1835b6ce065cd6780293ba5f04cfd717a81fa337913",
+        "6eca286ab3e0852604889a11c16ca211d997c25bc9d69f0c688d4995c4491633",
+        "e560c0b2f98195fe1fe37b05412edc16fe3be4fb2c9685a6566a9c7c69943e4b"
+      ],
       "text": "I am.",
       "source": "official"
     }

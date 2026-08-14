@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "58201aaf5d63db2710f6cf7505b9f1ffb336e13ba0c51e43101c6cc7f6d5ea4b",
+      "sha256": [
+        "58201aaf5d63db2710f6cf7505b9f1ffb336e13ba0c51e43101c6cc7f6d5ea4b"
+      ],
       "text": "Kill for seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f1d7ffc9948bb7682f4c0f01fbcc510343c936241f3b5573df7c27904ecb9655",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd587e2f08983f9ff6ea6a282c2a7d20ad0704ac71a4f587c462331cc1754226",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df0ecabf88c92646436066f127cbc20fd344f65dff325996b5ced455c994ecae",
+      "sha256": [
+        "df0ecabf88c92646436066f127cbc20fd344f65dff325996b5ced455c994ecae",
+        "f1d7ffc9948bb7682f4c0f01fbcc510343c936241f3b5573df7c27904ecb9655",
+        "fd587e2f08983f9ff6ea6a282c2a7d20ad0704ac71a4f587c462331cc1754226"
+      ],
       "text": "Careful, Seven…",
       "source": "official"
     }

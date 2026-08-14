@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_warden_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "e1fc0feaa9edbda5af03b994023328708cbae7cc9df45c69dd1648f4bf301167",
+      "sha256": [
+        "e1fc0feaa9edbda5af03b994023328708cbae7cc9df45c69dd1648f4bf301167"
+      ],
       "text": "What does it mean?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a72f80ce8a03af83dd6511af18e049181c7f55478aa581483cc6961ab66f50d1",
+      "sha256": [
+        "a72f80ce8a03af83dd6511af18e049181c7f55478aa581483cc6961ab66f50d1"
+      ],
       "text": "Warden's in mid!",
       "source": "official"
     }

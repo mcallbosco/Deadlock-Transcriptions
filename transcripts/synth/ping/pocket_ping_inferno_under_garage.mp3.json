@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_inferno_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "98ff5a4b4ad56fa19c0f8d0b9c73b40fb91c52ddf65d5141ae4b033e1a1f28ab",
-      "text": "The furnace is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c51b895cba376c40bc4301954881b4649261602f388f2c16ade2271e9a6fb42",
+      "sha256": [
+        "8c51b895cba376c40bc4301954881b4649261602f388f2c16ade2271e9a6fb42",
+        "98ff5a4b4ad56fa19c0f8d0b9c73b40fb91c52ddf65d5141ae4b033e1a1f28ab"
+      ],
       "text": "The furnace is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

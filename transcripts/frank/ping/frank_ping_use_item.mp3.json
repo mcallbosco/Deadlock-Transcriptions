@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_use_item.mp3",
   "revisions": [
     {
-      "sha256": "3bdf060233c76a127d4c2965835121efc8f403e526d13cd3274112b9665c8637",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b23a6635ce95afd2dedcd348025fbb05adbedb4c5a4ae5be998d80f55507216f",
+      "sha256": [
+        "3bdf060233c76a127d4c2965835121efc8f403e526d13cd3274112b9665c8637",
+        "b23a6635ce95afd2dedcd348025fbb05adbedb4c5a4ae5be998d80f55507216f"
+      ],
       "text": "Ready to use Item.",
       "source": "official"
     }

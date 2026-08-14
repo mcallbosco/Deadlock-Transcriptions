@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_theyre_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "df935bfdca0d350f7abfa33fb1189544338cf26ccc16ae6b536e4621c6dc5657",
-      "text": "They're under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5dfd4b83fb90c5f6d61b6c187713cc01e232a8ca6352b3bfa2e551dfc674da1d",
-      "text": "They're under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "97e6856867fcc40110b68fda03235febf9c5ce04d39736338b494ec624eaf40f",
-      "text": "They're under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "264688a90e01d4c6c6393c0fe5339e6e00bb9f8b4d7159c54f2130fd07e7b5c8",
+      "sha256": [
+        "264688a90e01d4c6c6393c0fe5339e6e00bb9f8b4d7159c54f2130fd07e7b5c8",
+        "5dfd4b83fb90c5f6d61b6c187713cc01e232a8ca6352b3bfa2e551dfc674da1d",
+        "97e6856867fcc40110b68fda03235febf9c5ce04d39736338b494ec624eaf40f",
+        "df935bfdca0d350f7abfa33fb1189544338cf26ccc16ae6b536e4621c6dc5657"
+      ],
       "text": "They're under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

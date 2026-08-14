@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_mcginnis_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "23a4b4753c26976bbd026f59a8f79b212ae7700ab1a7ebd761e6c52894b8a72c",
+      "sha256": [
+        "23a4b4753c26976bbd026f59a8f79b212ae7700ab1a7ebd761e6c52894b8a72c"
+      ],
       "text": "The gate is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5bb2d6e299b1c7cb35edb969e54c03cf71b254513bfd2558cf037fa8eadbb84e",
+      "sha256": [
+        "5bb2d6e299b1c7cb35edb969e54c03cf71b254513bfd2558cf037fa8eadbb84e"
+      ],
       "text": "The gear is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

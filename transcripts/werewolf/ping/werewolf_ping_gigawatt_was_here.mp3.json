@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1da2ff7858664f0f8ad23b427449dafe04f8941b7e33efea579cac7080d0cf6d",
+      "sha256": [
+        "1da2ff7858664f0f8ad23b427449dafe04f8941b7e33efea579cac7080d0cf6d"
+      ],
       "text": "That was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

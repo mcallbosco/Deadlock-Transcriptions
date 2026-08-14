@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_big_healing_by_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "1631234347b2176cd80f2e796d37db957fb38f871cc2dbb1c371074f2c5e74d5",
+      "sha256": [
+        "1631234347b2176cd80f2e796d37db957fb38f871cc2dbb1c371074f2c5e74d5",
+        "e77a61cfcd0ce5205706bd564a985cc5d7bcad7088b4fe2d7379dd14b2014d1d"
+      ],
       "text": "Professor, your work is as impressive as it is necessary.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e77a61cfcd0ce5205706bd564a985cc5d7bcad7088b4fe2d7379dd14b2014d1d",
-      "text": "Professor, your work is as impressive as it is necessary.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0443a0f840994901b14a2d7efd5e734d0630985cd1d36f09a3cdfcee4d54156e",
+      "sha256": [
+        "0443a0f840994901b14a2d7efd5e734d0630985cd1d36f09a3cdfcee4d54156e"
+      ],
       "text": "Professor, you're work is as impressive as it is necessary…",
       "source": "official"
     }

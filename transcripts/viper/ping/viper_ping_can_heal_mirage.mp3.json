@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "5fc4d052ae6a9e8bc62e2b5d5ad435f58c9ae644e6220edada4edd6a19376159",
-      "text": "Mirage, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "5fc4d052ae6a9e8bc62e2b5d5ad435f58c9ae644e6220edada4edd6a19376159",
+        "81db5f261c5090f64a10fe728dc0e8554c9e22c459c3186b6cfdd47c4f237681"
+      ],
+      "text": "Mirage, I can heal you!",
+      "source": "official"
     },
     {
-      "sha256": "febf23ec8f455c13a39f8dc13003028a32dc8f046dfe96662b8a786618b18e6d",
+      "sha256": [
+        "febf23ec8f455c13a39f8dc13003028a32dc8f046dfe96662b8a786618b18e6d"
+      ],
       "text": "Rush, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81db5f261c5090f64a10fe728dc0e8554c9e22c459c3186b6cfdd47c4f237681",
-      "text": "Mirage, I can heal you!",
-      "source": "official"
     }
   ]
 }

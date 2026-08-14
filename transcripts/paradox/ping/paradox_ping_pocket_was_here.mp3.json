@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_pocket_was_here.mp3",
   "revisions": [
     {
-      "sha256": "81cc59d741c3b67da2f0b421fb53c0ce470dd44d1f83965f9adf3052cffb96db",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "157788a86e81594c68aeb43fd259df81ae833dd8aaa2291e997036b9b6af5227",
+      "sha256": [
+        "157788a86e81594c68aeb43fd259df81ae833dd8aaa2291e997036b9b6af5227",
+        "81cc59d741c3b67da2f0b421fb53c0ce470dd44d1f83965f9adf3052cffb96db"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

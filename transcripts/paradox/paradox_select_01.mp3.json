@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/paradox_select_01.mp3",
   "revisions": [
     {
-      "sha256": "04bd5a2542dff8aed1d0116a6f7d6686459d1b50658865bd321aece1e2699bff",
+      "sha256": [
+        "04bd5a2542dff8aed1d0116a6f7d6686459d1b50658865bd321aece1e2699bff",
+        "b3d9c415924f546220637b7d660215282202b245fdbffa67f016c5c2900cda45"
+      ],
       "text": "In time, all men die. The gun just speeds things up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3d9c415924f546220637b7d660215282202b245fdbffa67f016c5c2900cda45",
-      "text": "In time all men die. The gun just speeds things up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

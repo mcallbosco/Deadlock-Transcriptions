@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_happy_06.mp3",
   "revisions": [
     {
-      "sha256": "904364a309355f32f64b19151c5f67592c7a54da55dd5496a617e878274ffe81",
+      "sha256": [
+        "904364a309355f32f64b19151c5f67592c7a54da55dd5496a617e878274ffe81"
+      ],
       "text": "Cassings should be.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a70f2200cf83c720d78c2c1184ce9e961b1fc3224027e49a4a3e6b0d75e6ce87",
+      "sha256": [
+        "a70f2200cf83c720d78c2c1184ce9e961b1fc3224027e49a4a3e6b0d75e6ce87"
+      ],
       "text": "Testing should be.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

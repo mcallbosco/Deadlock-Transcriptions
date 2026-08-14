@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_slork.mp3",
   "revisions": [
     {
-      "sha256": "9a3e8db6a9f46f2e34b7737a5449e4f87f5942d4304d42f20efa3703e60739f3",
+      "sha256": [
+        "9a3e8db6a9f46f2e34b7737a5449e4f87f5942d4304d42f20efa3703e60739f3",
+        "d9e932fc828126ed8f63b63f54aaea3b88090ee01fb89f412a4e87098d450ebe"
+      ],
       "text": "I'm with you, Fathom!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9e932fc828126ed8f63b63f54aaea3b88090ee01fb89f412a4e87098d450ebe",
-      "text": "I'm with you, Fathom.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

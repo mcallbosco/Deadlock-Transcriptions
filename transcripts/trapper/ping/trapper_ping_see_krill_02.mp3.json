@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "99f8c269700ac83156f58621a7063828135b83b0de1de2cf3febd2898849a926",
+      "sha256": [
+        "99f8c269700ac83156f58621a7063828135b83b0de1de2cf3febd2898849a926"
+      ],
       "text": "That is one big mole!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

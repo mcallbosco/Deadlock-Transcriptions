@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_upgrade_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "c02856e04baa6e4f91dc413554efcf5ccc67b84ac4b0438770e2984a20b0b9b1",
+      "sha256": [
+        "c02856e04baa6e4f91dc413554efcf5ccc67b84ac4b0438770e2984a20b0b9b1"
+      ],
       "text": "That's smart to get in my way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c2c950936fb059ea1723708272f29ad4b0e4d17c6e1bb544bfeb46ce4222f101",
-      "text": "It's not smart to get in my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0f6aad0caaffbcea18aba4e6f8b8a9b0e0eaab34ac6c2f85976ecd556b96386",
+      "sha256": [
+        "c0f6aad0caaffbcea18aba4e6f8b8a9b0e0eaab34ac6c2f85976ecd556b96386",
+        "c2c950936fb059ea1723708272f29ad4b0e4d17c6e1bb544bfeb46ce4222f101"
+      ],
       "text": "It's not smart to get in my way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_atlas_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "ab4d001df08c2358b27c12dcd8aa80a4f99efe4d1e341f7cae5fbb518d160df0",
+      "sha256": [
+        "ab4d001df08c2358b27c12dcd8aa80a4f99efe4d1e341f7cae5fbb518d160df0"
+      ],
       "text": "Abrams on the ridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "95623fe14a01c38bc584cc2b69c2085bfe9ff058c7679ee7dbfb9965ea5d5302",
+      "sha256": [
+        "95623fe14a01c38bc584cc2b69c2085bfe9ff058c7679ee7dbfb9965ea5d5302",
+        "96603542edc44646f9ab9d5ab1557aeb99a82710624b29e31432525d93830ff0",
+        "f452a0a3b616af1cbdb4c9a47dff68c6b6a90b20dd9345a88d639c74076d344c"
+      ],
       "text": "Abrams is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f452a0a3b616af1cbdb4c9a47dff68c6b6a90b20dd9345a88d639c74076d344c",
-      "text": "Abrams is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96603542edc44646f9ab9d5ab1557aeb99a82710624b29e31432525d93830ff0",
-      "text": "Abrams is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c130b3bdf504aee7a9dc95899f8058650d5bec88fc1c31f0ef693853d6eb5e56",
+      "sha256": [
+        "c130b3bdf504aee7a9dc95899f8058650d5bec88fc1c31f0ef693853d6eb5e56"
+      ],
       "text": "Abrams's on the bridge!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_saw_bookworm_alt.mp3",
   "revisions": [
     {
-      "sha256": "0a6007f95d1fb500e9d56f0e269ecb575f801c5f0331a39fe62e72f3d2e1b5d2",
+      "sha256": [
+        "0a6007f95d1fb500e9d56f0e269ecb575f801c5f0331a39fe62e72f3d2e1b5d2"
+      ],
       "text": "I saw Paige.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

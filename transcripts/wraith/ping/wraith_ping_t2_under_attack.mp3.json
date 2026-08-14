@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_t2_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "5013d20b6d2d4b386ea77fd5a9160ce49b691da0d74d3cfd37da2614434d7306",
+      "sha256": [
+        "0593a3faba0d78b64b1173e9a244392683040d91c320204d99d3f205cde3d055",
+        "5013d20b6d2d4b386ea77fd5a9160ce49b691da0d74d3cfd37da2614434d7306"
+      ],
       "text": "They're taking our tier 2.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "33875da8932220094f0050e7cfdff276ae67f25411bc73550b764f260660aca7",
+      "sha256": [
+        "33875da8932220094f0050e7cfdff276ae67f25411bc73550b764f260660aca7",
+        "f9adc6e59599ee2dc693409bcb0b5ee73189efad98521de0a2f1d1213210ea2f"
+      ],
       "text": "They're taking our tier two.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9adc6e59599ee2dc693409bcb0b5ee73189efad98521de0a2f1d1213210ea2f",
-      "text": "They're taking our tier two.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0593a3faba0d78b64b1173e9a244392683040d91c320204d99d3f205cde3d055",
-      "text": "They're taking our tier 2.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

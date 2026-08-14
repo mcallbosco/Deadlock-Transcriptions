@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "3afdaacf4ae3779032ed7054e9604f2fd0d4f34a775aa4cb4270bcff19ced90c",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "001ef51c7155897de8cc25c9c73e3fca424486b3fe039d8473165ee3f73b81cd",
+      "sha256": [
+        "001ef51c7155897de8cc25c9c73e3fca424486b3fe039d8473165ee3f73b81cd",
+        "3afdaacf4ae3779032ed7054e9604f2fd0d4f34a775aa4cb4270bcff19ced90c"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

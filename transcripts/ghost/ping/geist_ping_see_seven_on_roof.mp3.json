@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_seven_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "efd695411274c4c6be10ba8ba0030aeafcabed826b0fbf4ccb86e971c89d46cb",
-      "text": "Seven is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f71e896e4e5df54b07823306dd44be52a6e815706c8338ce75df7254e2774d5f",
+      "sha256": [
+        "efd695411274c4c6be10ba8ba0030aeafcabed826b0fbf4ccb86e971c89d46cb",
+        "f71e896e4e5df54b07823306dd44be52a6e815706c8338ce75df7254e2774d5f"
+      ],
       "text": "Seven is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

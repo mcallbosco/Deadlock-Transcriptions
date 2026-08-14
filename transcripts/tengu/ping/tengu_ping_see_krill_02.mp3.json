@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "e96322f79d8f5479b7adefb3286debda0a281f7a6a5943bbdee50453d09ce9ca",
+      "sha256": [
+        "e96322f79d8f5479b7adefb3286debda0a281f7a6a5943bbdee50453d09ce9ca"
+      ],
       "text": "Please, I'm here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a7d6a1cdc446c32bfe81e4c9eb2bcfedd0f3f490207bb125bce0ebcf7d55d503",
+      "sha256": [
+        "a7d6a1cdc446c32bfe81e4c9eb2bcfedd0f3f490207bb125bce0ebcf7d55d503"
+      ],
       "text": "Krill is over here!",
       "source": "official"
     }

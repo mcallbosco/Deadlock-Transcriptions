@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_warden_check_items.mp3",
   "revisions": [
     {
-      "sha256": "34ce1acd6d1f550fb979984d50828ed095370a8e23aeceec74ac90af0bb0d6da",
-      "text": "Check out what Warden bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aac451b0abe8e7733857b21a99d9a0aae81b7245cd19495e421d5ec5460fbf94",
+      "sha256": [
+        "34ce1acd6d1f550fb979984d50828ed095370a8e23aeceec74ac90af0bb0d6da",
+        "aac451b0abe8e7733857b21a99d9a0aae81b7245cd19495e421d5ec5460fbf94"
+      ],
       "text": "Check out what Warden bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

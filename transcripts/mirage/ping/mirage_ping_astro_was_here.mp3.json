@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_astro_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f6ac644aa27c41a43e3fd438ddf61dee4173c58deb596af2d0a00d1ced873ca4",
+      "sha256": [
+        "f6ac644aa27c41a43e3fd438ddf61dee4173c58deb596af2d0a00d1ced873ca4"
+      ],
       "text": "That's the way here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "31f539cc756e8c9e34495557a176e0db531ac36d647f1437c1a506a71d32df3f",
+      "sha256": [
+        "0563252e6a1eca96a75037769b66dd3e77a2c440f1d17681fb6f794d72791ffe",
+        "31f539cc756e8c9e34495557a176e0db531ac36d647f1437c1a506a71d32df3f"
+      ],
       "text": "Holiday was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0563252e6a1eca96a75037769b66dd3e77a2c440f1d17681fb6f794d72791ffe",
-      "text": "Holiday was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48639748e599502f872eb55b6e250e6849526ab9b07a31c3db296990189f3e9c",
+      "sha256": [
+        "48639748e599502f872eb55b6e250e6849526ab9b07a31c3db296990189f3e9c"
+      ],
       "text": "これでおしえる!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

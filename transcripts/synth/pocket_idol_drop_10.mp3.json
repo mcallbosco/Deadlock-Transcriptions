@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_idol_drop_10.mp3",
   "revisions": [
     {
-      "sha256": "3555f66e9aa1ab2c3e778f572041e6c2af804f017039c0f85d8013fb5c705ff1",
+      "sha256": [
+        "2be2bcc3b060e3376e81b34a159847e4d6b8e3e2d38b0e174b03e7752335be0a",
+        "3555f66e9aa1ab2c3e778f572041e6c2af804f017039c0f85d8013fb5c705ff1"
+      ],
       "text": "Let's keep an eye on the spirit urn.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2be2bcc3b060e3376e81b34a159847e4d6b8e3e2d38b0e174b03e7752335be0a",
-      "text": "Let's keep an eye on the Spiriturn.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

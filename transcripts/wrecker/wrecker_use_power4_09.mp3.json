@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_use_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "ea0b3ae60f744771cf55df677117e40154acbebc07e719d466d6ba6bbc666171",
-      "text": "Nothing stops me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7845892ef8ec05f6143f53822dc7c894109c22972f63f826f38ff11f8a88e911",
+      "sha256": [
+        "7845892ef8ec05f6143f53822dc7c894109c22972f63f826f38ff11f8a88e911",
+        "ea0b3ae60f744771cf55df677117e40154acbebc07e719d466d6ba6bbc666171"
+      ],
       "text": "Nothing stops me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

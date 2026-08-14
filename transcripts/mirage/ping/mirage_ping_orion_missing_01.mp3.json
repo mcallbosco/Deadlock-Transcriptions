@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4bd6c5794383d80adbf8fe833f4af6ea9e6e1b7e40e6c2b42696483addf78f50",
+      "sha256": [
+        "4bd6c5794383d80adbf8fe833f4af6ea9e6e1b7e40e6c2b42696483addf78f50"
+      ],
       "text": "All right, Missy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3c2aefdf3a0b30346b0a0426d6a064c7926fb3c093657342ba3352c7a197300f",
-      "text": "Grey Talon's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54feed26d14484cc1828a206ab12729ec2a058ea088b1af67726022361a5fb1a",
-      "text": "Grey Talon's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e0228b5cd248f6743527bd26e1032c581568d0694834ae54ade89a35d928817",
+      "sha256": [
+        "2e0228b5cd248f6743527bd26e1032c581568d0694834ae54ade89a35d928817",
+        "3c2aefdf3a0b30346b0a0426d6a064c7926fb3c093657342ba3352c7a197300f",
+        "54feed26d14484cc1828a206ab12729ec2a058ea088b1af67726022361a5fb1a"
+      ],
       "text": "Grey Talon's missing",
       "source": "official"
     }

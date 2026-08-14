@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "ffdd7e956db03756c4963b3051230e323139f8b44589f199ef40eb4824a7a9bc",
+      "sha256": [
+        "ffdd7e956db03756c4963b3051230e323139f8b44589f199ef40eb4824a7a9bc"
+      ],
       "text": "I saw Divop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

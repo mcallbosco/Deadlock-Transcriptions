@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_wraith_dead.mp3",
   "revisions": [
     {
-      "sha256": "3e800d1b0e76b2221d1300850b504ed14bd619574e0e5d9a5146e3dae7179905",
+      "sha256": [
+        "3e800d1b0e76b2221d1300850b504ed14bd619574e0e5d9a5146e3dae7179905",
+        "6e330320a8fe3f83dac665b08e7f298d4da420d352b5362d75f9c8abc80e917f",
+        "99bcdb7caf58912fa2a4aa2df15a7a9123d6f9e12c7b86464f56a593d338dc50",
+        "9a5fe7906e034d579c4b9bd051888cb0597626a3eb5544da80805e407a99395a"
+      ],
       "text": "Wraith is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9a5fe7906e034d579c4b9bd051888cb0597626a3eb5544da80805e407a99395a",
-      "text": "Wraith is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99bcdb7caf58912fa2a4aa2df15a7a9123d6f9e12c7b86464f56a593d338dc50",
-      "text": "Wraith is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e330320a8fe3f83dac665b08e7f298d4da420d352b5362d75f9c8abc80e917f",
-      "text": "Wraith is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b553723960de3014e43b7550b6d17ca309179ce975dd1172822a1be784eb048",
+      "sha256": [
+        "3b553723960de3014e43b7550b6d17ca309179ce975dd1172822a1be784eb048"
+      ],
       "text": "Rested.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

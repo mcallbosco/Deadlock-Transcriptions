@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "b0671da9e04246e362be8b29bcb3e1e3485d01151af2f3d18802d94c0d7305cc",
+      "sha256": [
+        "324747bb80705dc831727c51aa87c442ee00fc5a935548647b32ef80922a6e13",
+        "b0671da9e04246e362be8b29bcb3e1e3485d01151af2f3d18802d94c0d7305cc"
+      ],
       "text": "Missing green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "324747bb80705dc831727c51aa87c442ee00fc5a935548647b32ef80922a6e13",
-      "text": "Missing Green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

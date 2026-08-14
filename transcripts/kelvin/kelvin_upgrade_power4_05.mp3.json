@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "62d144effaccc5813f7c7edd7dd254a7d42757e20fb69ea4edef82e50efff4fb",
+      "sha256": [
+        "62d144effaccc5813f7c7edd7dd254a7d42757e20fb69ea4edef82e50efff4fb"
+      ],
       "text": "I fight them on my terms.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "61f2267efa457127d9f74baa0d278d9dce9ff0d796e24fdac3f1ea76793877b2",
+      "sha256": [
+        "61f2267efa457127d9f74baa0d278d9dce9ff0d796e24fdac3f1ea76793877b2"
+      ],
       "text": "I'll fight them on my terms.",
       "source": "official"
     }

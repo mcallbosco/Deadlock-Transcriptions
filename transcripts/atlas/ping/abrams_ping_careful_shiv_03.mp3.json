@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_shiv_03.mp3",
   "revisions": [
     {
-      "sha256": "728955c4162f0cfa734777814d7161c5094f42c3a608515762d7ca1bc1054504",
+      "sha256": [
+        "728955c4162f0cfa734777814d7161c5094f42c3a608515762d7ca1bc1054504"
+      ],
       "text": "crossover",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "68a85500e775d4b47878cc6f8cadeb80fb95c669ea443d57d807b28864e53c70",
+      "sha256": [
+        "68a85500e775d4b47878cc6f8cadeb80fb95c669ea443d57d807b28864e53c70",
+        "f0cbf28789a987e382a8144231405275860fb1f6fb23f0653efef941e34d65f5"
+      ],
       "text": "Careful, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0cbf28789a987e382a8144231405275860fb1f6fb23f0653efef941e34d65f5",
-      "text": "Careful, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

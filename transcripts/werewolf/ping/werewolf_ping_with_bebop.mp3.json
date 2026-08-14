@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "c5f7f31a2c3f8c473290501255590eff73f1b09db1c088854b9dc978fe058477",
+      "sha256": [
+        "c5f7f31a2c3f8c473290501255590eff73f1b09db1c088854b9dc978fe058477"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

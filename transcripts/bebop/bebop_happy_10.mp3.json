@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_happy_10.mp3",
   "revisions": [
     {
-      "sha256": "d53a02608e95c26d1c0ba02e85de333c2dab33c659f436aeef16c9e3ddba79cf",
-      "text": "No one's my equal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d5248c9707df4d9cab3616b33ebba6eaa6323a45109246052dc155b3a99eb64",
+      "sha256": [
+        "9d5248c9707df4d9cab3616b33ebba6eaa6323a45109246052dc155b3a99eb64",
+        "d53a02608e95c26d1c0ba02e85de333c2dab33c659f436aeef16c9e3ddba79cf"
+      ],
       "text": "No one's my equal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_blue_guardian_destroyed_01.mp3",
   "revisions": [
     {
-      "sha256": "e7489c8adbefa54b5fe57b25007739131ca2ed94945c5997c0934ebdb72ef1a4",
+      "sha256": [
+        "e7489c8adbefa54b5fe57b25007739131ca2ed94945c5997c0934ebdb72ef1a4"
+      ],
       "text": "Our blue guardian has been destroyed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "631a24de0e16f7fa13783fc2fbf3a4e1071d03be50d1756a289de330814c9676",
-      "text": "They've taken our blue guardian!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "631a24de0e16f7fa13783fc2fbf3a4e1071d03be50d1756a289de330814c9676",
+        "bfd7a48a6323e5671b18c90aa2f64f0b3eb8b8163c5ebd9a13ee213b848e3504"
+      ],
+      "text": "They've taken our blue guardian",
+      "source": "official"
     },
     {
-      "sha256": "54a09b33c84c458ba4c2b65b30edf5e82c20fb3f472bf34d505b8af51248be75",
+      "sha256": [
+        "54a09b33c84c458ba4c2b65b30edf5e82c20fb3f472bf34d505b8af51248be75"
+      ],
       "text": "They have taken our blue guardian.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfd7a48a6323e5671b18c90aa2f64f0b3eb8b8163c5ebd9a13ee213b848e3504",
-      "text": "They've taken our blue guardian",
-      "source": "official"
     }
   ]
 }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_buy_armor_04.mp3",
   "revisions": [
     {
-      "sha256": "c96d30a932e7dbac9d96978330332cd90863fd542bcdc41f7b3a696d99b4a95b",
+      "sha256": [
+        "50db57647cea38f53f91c08f3bf75f908c3acba44e6f7aeea0203e8048cfc8a0",
+        "c96d30a932e7dbac9d96978330332cd90863fd542bcdc41f7b3a696d99b4a95b"
+      ],
       "text": "My friend's survival is paramount.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "50db57647cea38f53f91c08f3bf75f908c3acba44e6f7aeea0203e8048cfc8a0",
-      "text": "My friend's survival is paramount!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13582babf76185a3549fad12e7b3dc09a5782345fdff4423689c21c923a3a24b",
+      "sha256": [
+        "13582babf76185a3549fad12e7b3dc09a5782345fdff4423689c21c923a3a24b"
+      ],
       "text": "My friend, survival is paramount",
       "source": "official"
     }

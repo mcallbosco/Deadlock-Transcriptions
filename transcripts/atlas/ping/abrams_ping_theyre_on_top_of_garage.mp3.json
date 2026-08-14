@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_theyre_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "9196a83c6df3c1606eade81c86b6d8474eb48a3363b4176bd0d5a213a7e383ef",
+      "sha256": [
+        "9196a83c6df3c1606eade81c86b6d8474eb48a3363b4176bd0d5a213a7e383ef"
+      ],
       "text": "You unlock the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ee768cba47fa46f581245aa0550ee88d6efacae668a420daf82ec93e2a43a29a",
-      "text": "They're on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e68158abd633317d6e23806eb2a8ed13f7e29336bb003707ce37f4a4b31eb97",
+      "sha256": [
+        "9e68158abd633317d6e23806eb2a8ed13f7e29336bb003707ce37f4a4b31eb97",
+        "ee768cba47fa46f581245aa0550ee88d6efacae668a420daf82ec93e2a43a29a"
+      ],
       "text": "They're on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

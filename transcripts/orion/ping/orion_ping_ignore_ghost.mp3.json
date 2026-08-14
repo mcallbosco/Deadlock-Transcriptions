@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_ignore_ghost.mp3",
   "revisions": [
     {
-      "sha256": "e04b96eba4ebca1e179ea206d4b2aa0d97912602897714908713a43d5c51152d",
-      "text": "Ignore Geist!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b4af9e18cd99eff824fce82d0990d5a5bfaead17c41b4a9e9b540b965d0014fb",
-      "text": "Ignore Geist!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a79230698012eb85d93e4fdda5f9c0c0d8304d4c44d3f45cd3aee0c699a8372f",
+      "sha256": [
+        "a79230698012eb85d93e4fdda5f9c0c0d8304d4c44d3f45cd3aee0c699a8372f",
+        "b4af9e18cd99eff824fce82d0990d5a5bfaead17c41b4a9e9b540b965d0014fb",
+        "e04b96eba4ebca1e179ea206d4b2aa0d97912602897714908713a43d5c51152d"
+      ],
       "text": "Ignore Geist!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

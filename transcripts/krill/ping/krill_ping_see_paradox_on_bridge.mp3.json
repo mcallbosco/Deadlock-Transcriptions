@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_paradox_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b9f353cc214b6f29c0166713536f0e3037f9013d558ad2cd06a6677a7015bfc3",
+      "sha256": [
+        "816550a6712c87c98db879c660f3831e991f24488e0d6cce780d34e02ed88ecd",
+        "b9f353cc214b6f29c0166713536f0e3037f9013d558ad2cd06a6677a7015bfc3"
+      ],
       "text": "Paradox is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "816550a6712c87c98db879c660f3831e991f24488e0d6cce780d34e02ed88ecd",
-      "text": "Paradox is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

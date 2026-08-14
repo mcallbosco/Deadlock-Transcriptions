@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_atlas_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0ecd2af896b15cdeebab41f0eee1384052c781e8046f1b64227a2e649dab2c81",
-      "text": "Abrams is here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9da026905fe05ccc89a2683352c8120b86d39dffc7fd218fef26312ac5dad90",
-      "text": "Abrams is here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0533e583429dbd096c9a02c865c7799b57aa9b0de002d7e9b6af764159b60bc3",
-      "text": "Abrams is here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a60771746cdeba5613e667b9592925fa86814aceac35c1722aa469a0abf4d44f",
+      "sha256": [
+        "0533e583429dbd096c9a02c865c7799b57aa9b0de002d7e9b6af764159b60bc3",
+        "0ecd2af896b15cdeebab41f0eee1384052c781e8046f1b64227a2e649dab2c81",
+        "a60771746cdeba5613e667b9592925fa86814aceac35c1722aa469a0abf4d44f",
+        "a9da026905fe05ccc89a2683352c8120b86d39dffc7fd218fef26312ac5dad90"
+      ],
       "text": "Abrams is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

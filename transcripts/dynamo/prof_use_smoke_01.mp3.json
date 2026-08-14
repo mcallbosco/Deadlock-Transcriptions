@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_use_smoke_01.mp3",
   "revisions": [
     {
-      "sha256": "a0e1edf648845fe77da2f1a87bc3fb0c80fb2a15d6a50831fd14a8f811566361",
-      "text": "Smoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b98493ee6082a7fca1bf8adc8e8d5513f1e53e1b03ad9a677bd7942b1077fab6",
+      "sha256": [
+        "a0e1edf648845fe77da2f1a87bc3fb0c80fb2a15d6a50831fd14a8f811566361",
+        "b98493ee6082a7fca1bf8adc8e8d5513f1e53e1b03ad9a677bd7942b1077fab6"
+      ],
       "text": "Smoke.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

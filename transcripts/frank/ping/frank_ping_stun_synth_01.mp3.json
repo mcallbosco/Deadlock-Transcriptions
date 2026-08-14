@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_stun_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "bba91214a283af777d72ad41b2b6400394f01565d2b40bf6916f58a5f56f5a9d",
+      "sha256": [
+        "bba91214a283af777d72ad41b2b6400394f01565d2b40bf6916f58a5f56f5a9d"
+      ],
       "text": "Don't block it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3fb3883d81cc08c468a8ac74ecb708e403a745cadd99c5e890f4f61be41f03d4",
+      "sha256": [
+        "3fb3883d81cc08c468a8ac74ecb708e403a745cadd99c5e890f4f61be41f03d4"
+      ],
       "text": "Stop talking.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

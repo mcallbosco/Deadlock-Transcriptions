@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_calico_01.mp3",
   "revisions": [
     {
-      "sha256": "34a26f330c0b976548408ccd3f0a4481b29a76ef29954eef2e8cfe98c1dc865b",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d680154d933561cbed3b1c1d9125f7b950a522b8da51f7f3df78db746c00b04f",
+      "sha256": [
+        "34a26f330c0b976548408ccd3f0a4481b29a76ef29954eef2e8cfe98c1dc865b",
+        "d680154d933561cbed3b1c1d9125f7b950a522b8da51f7f3df78db746c00b04f"
+      ],
       "text": "Careful, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

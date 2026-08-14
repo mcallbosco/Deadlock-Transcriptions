@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_help_with_idol.mp3",
   "revisions": [
     {
-      "sha256": "cf2689a8a06b267917bfd1f4e971b24d762cf77013fb85953145ab9d597cdee7",
-      "text": "Help me deliver this thing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8df11c26bb9f61ccdf076f865d57221734a4b1932430f091d09aa71eadd7edf",
+      "sha256": [
+        "cf2689a8a06b267917bfd1f4e971b24d762cf77013fb85953145ab9d597cdee7",
+        "f8df11c26bb9f61ccdf076f865d57221734a4b1932430f091d09aa71eadd7edf"
+      ],
       "text": "Help me deliver this thing!",
       "source": "official"
     }

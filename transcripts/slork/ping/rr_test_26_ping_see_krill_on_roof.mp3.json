@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_krill_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "f841c12342aaa7bbcd404c52a7a118023f1f273ba8211c2795512bb53f0a7fb9",
-      "text": "Krill's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93e51db94f31b488c90f08d476f4ea52621372e2c6c41f12b1cc320d3004c802",
+      "sha256": [
+        "93e51db94f31b488c90f08d476f4ea52621372e2c6c41f12b1cc320d3004c802",
+        "f841c12342aaa7bbcd404c52a7a118023f1f273ba8211c2795512bb53f0a7fb9"
+      ],
       "text": "Krill's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

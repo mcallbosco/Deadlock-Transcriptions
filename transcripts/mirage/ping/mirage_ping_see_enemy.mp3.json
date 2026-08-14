@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "68603b82c91f4f58cf41bdb6a70814f3c310d3325630d0d76f99f2e92331699b",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34345da648ce7b25874a2b62452f83ff05a63047b0f6ee0a01952bae6e553721",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aeb8fe5c55ea0ca7d66df5713a98f6f9097ca3e4caa4fb5359bf6ce0061ff56a",
-      "text": "I see the enemy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90c7e76d0be878f3cb7c10501e548dc0c225cfa2f3189eb0bec8b39cf55f3d07",
+      "sha256": [
+        "34345da648ce7b25874a2b62452f83ff05a63047b0f6ee0a01952bae6e553721",
+        "68603b82c91f4f58cf41bdb6a70814f3c310d3325630d0d76f99f2e92331699b",
+        "90c7e76d0be878f3cb7c10501e548dc0c225cfa2f3189eb0bec8b39cf55f3d07",
+        "aeb8fe5c55ea0ca7d66df5713a98f6f9097ca3e4caa4fb5359bf6ce0061ff56a"
+      ],
       "text": "I see the enemy!",
       "source": "official"
     }

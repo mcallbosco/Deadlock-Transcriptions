@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_saw_mirage.mp3",
   "revisions": [
     {
-      "sha256": "1a7376db6dfcd11d7e8d4fab11d36205013c6c66606d8378487f6a7e269180ae",
-      "text": "I saw Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2263e6efab34be03f71de318fdd447d363bf49d1a640275f4adbe3ae7e4cef92",
+      "sha256": [
+        "1a7376db6dfcd11d7e8d4fab11d36205013c6c66606d8378487f6a7e269180ae",
+        "2263e6efab34be03f71de318fdd447d363bf49d1a640275f4adbe3ae7e4cef92"
+      ],
       "text": "I saw Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_viscous_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "b29c46def4582c34d1ac9f03a418ac80a807525ebbbb3f444b69ef3462d65732",
+      "sha256": [
+        "b29c46def4582c34d1ac9f03a418ac80a807525ebbbb3f444b69ef3462d65732"
+      ],
       "text": "This is the",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8f02cceff20cc07208f1d14c7a2545fe2bfce81eb5b7b9e7fd5618dc5f3f3bb3",
+      "sha256": [
+        "8f02cceff20cc07208f1d14c7a2545fe2bfce81eb5b7b9e7fd5618dc5f3f3bb3",
+        "90dff28302e2188cf2152be82a4806cdea25309e6c6e20acf4113be32fe09bdc"
+      ],
       "text": "This is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "90dff28302e2188cf2152be82a4806cdea25309e6c6e20acf4113be32fe09bdc",
-      "text": "This is on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "495553569ecd697c49651dbeeae0ccb3b1c11db8569602990e58b42f59a7dd6d",
+      "sha256": [
+        "495553569ecd697c49651dbeeae0ccb3b1c11db8569602990e58b42f59a7dd6d"
+      ],
       "text": "Viscous's on top of the garage!",
       "source": "official"
     }

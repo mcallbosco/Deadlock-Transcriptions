@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "80cca3d09c4f64c5679d45fa4f66a84653440b6945509d32b971642f4a5bbea6",
+      "sha256": [
+        "27958d8a1e3f0be0cd774a89e9f494a683d405123a892865a9936486579cd586",
+        "52b975de5d026fc3d4c2b5ba3db00291418aa7ba1e218d57dc37128a2121e949",
+        "80cca3d09c4f64c5679d45fa4f66a84653440b6945509d32b971642f4a5bbea6"
+      ],
       "text": "You're clever, Nano. Just not as clever as you think you are.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52b975de5d026fc3d4c2b5ba3db00291418aa7ba1e218d57dc37128a2121e949",
-      "text": "You're clever, Nano, just not as clever as you think you are.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "27958d8a1e3f0be0cd774a89e9f494a683d405123a892865a9936486579cd586",
-      "text": "You're clever, Nano. Just not as clever as you think you are.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ab428b69533e03ed738babadfb4d2d3f804f083353f731270019ce8521b9880",
+      "sha256": [
+        "5ab428b69533e03ed738babadfb4d2d3f804f083353f731270019ce8521b9880"
+      ],
       "text": "We're not cat people.",
       "source": "official"
     }

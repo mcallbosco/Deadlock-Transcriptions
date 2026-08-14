@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "5616bd17c97d029e1e04d3c3a1f3c6985b08c49928d1b07b1214e3fa003e699f",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd38c5f8cf5dadc4b43f8155cf3259cd0a27cce398e980c4151a759a5ada69fa",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59582ca0483369493cf6ecbb0e29e644a1fa9fc6d608e1cebae98e4cff680693",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb18a5b66d8cfc412bf7e32d7a09f913210b1a984cdc68cf4ee854a7f79014a1",
+      "sha256": [
+        "5616bd17c97d029e1e04d3c3a1f3c6985b08c49928d1b07b1214e3fa003e699f",
+        "59582ca0483369493cf6ecbb0e29e644a1fa9fc6d608e1cebae98e4cff680693",
+        "cb18a5b66d8cfc412bf7e32d7a09f913210b1a984cdc68cf4ee854a7f79014a1",
+        "cd38c5f8cf5dadc4b43f8155cf3259cd0a27cce398e980c4151a759a5ada69fa"
+      ],
       "text": "Let's go blue!",
       "source": "official"
     }

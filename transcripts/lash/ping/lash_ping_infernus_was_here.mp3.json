@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_infernus_was_here.mp3",
   "revisions": [
     {
-      "sha256": "cc2f3f3e005afa027117eec0bf481d24367af521c58a4e0d8a77f2274cea751e",
+      "sha256": [
+        "cc2f3f3e005afa027117eec0bf481d24367af521c58a4e0d8a77f2274cea751e"
+      ],
       "text": "Infernus is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

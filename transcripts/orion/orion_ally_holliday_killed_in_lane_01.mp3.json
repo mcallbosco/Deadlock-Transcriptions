@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_ally_holliday_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "dca085d600b31f8b9892647759b076e7caebc2aa4370ab1a6e562abaa8b8a736",
+      "sha256": [
+        "bafb94b0d20438321d596a947de28f58b3bc51b6b1acfa7b58b780d2d3371cee",
+        "dca085d600b31f8b9892647759b076e7caebc2aa4370ab1a6e562abaa8b8a736"
+      ],
       "text": "Holliday was defeated!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b4d1a013fe6e3e59e749b77785382d8b84a245df036cd85cfaa5397422a45a5d",
+      "sha256": [
+        "b4d1a013fe6e3e59e749b77785382d8b84a245df036cd85cfaa5397422a45a5d"
+      ],
       "text": "Holiday was defeated!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bafb94b0d20438321d596a947de28f58b3bc51b6b1acfa7b58b780d2d3371cee",
-      "text": "Holliday was defeated!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

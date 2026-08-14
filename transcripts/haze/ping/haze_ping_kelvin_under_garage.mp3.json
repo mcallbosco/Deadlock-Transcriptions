@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_kelvin_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "55ce07ec4f6bd02474f011488fda9fa4e9ec8b0082b372b95d161e7cf7ed8af6",
+      "sha256": [
+        "55ce07ec4f6bd02474f011488fda9fa4e9ec8b0082b372b95d161e7cf7ed8af6"
+      ],
       "text": "Kelvin's under a garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d490b943dabfc6a78e486a18b30c2a2c1bb557bce2732c9c0b0a3f929d1d1b7a",
-      "text": "Kelvin's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "1e647d63c54b253256e514bae35b9e009d1c5b5dd669bfd122f2d69c271789f8",
+        "d490b943dabfc6a78e486a18b30c2a2c1bb557bce2732c9c0b0a3f929d1d1b7a",
+        "ded79ade34690f72fcf380acf1a342e3bcd9286b512f2ac96fa8c40b84d11ec4"
+      ],
+      "text": "Kelvin's under the garage!",
+      "source": "official"
     },
     {
-      "sha256": "ded79ade34690f72fcf380acf1a342e3bcd9286b512f2ac96fa8c40b84d11ec4",
-      "text": "Kelvin's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d5b1b2c3cc878f8375e494165d3400dc41a8f091f9b68b14a15b638d293d209",
+      "sha256": [
+        "9d5b1b2c3cc878f8375e494165d3400dc41a8f091f9b68b14a15b638d293d209"
+      ],
       "text": "Calvin's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e647d63c54b253256e514bae35b9e009d1c5b5dd669bfd122f2d69c271789f8",
-      "text": "Kelvin's under the garage!",
-      "source": "official"
     }
   ]
 }

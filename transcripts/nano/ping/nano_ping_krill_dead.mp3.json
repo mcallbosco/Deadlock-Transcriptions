@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "27910fdb695284d30f9aec2375b208c547f7fd1c53039900bb7cab695ee4bec5",
+      "sha256": [
+        "27910fdb695284d30f9aec2375b208c547f7fd1c53039900bb7cab695ee4bec5"
+      ],
       "text": "Krill is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "ee8040f7243be22a87c01eb33f697c1663a5193673c3f61cc6d9c04edaa749dd",
+      "sha256": [
+        "ee8040f7243be22a87c01eb33f697c1663a5193673c3f61cc6d9c04edaa749dd"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

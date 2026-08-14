@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_missing_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "e0c17a639c162f7ce9baf2d6ea84850b0523d88590b928a9df70cf0c85374196",
+      "sha256": [
+        "e0c17a639c162f7ce9baf2d6ea84850b0523d88590b928a9df70cf0c85374196"
+      ],
       "text": "This is Broadway.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

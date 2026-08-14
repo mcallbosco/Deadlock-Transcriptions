@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "de6b26ef8ef1381e6781811b981157512ca50801f71ed22d03aecf4989402a13",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0bc62dfe2f6e569d51fd275e4ed64200b520ea54b8e097945f337cd0d5a855f8",
+      "sha256": [
+        "0bc62dfe2f6e569d51fd275e4ed64200b520ea54b8e097945f337cd0d5a855f8",
+        "de6b26ef8ef1381e6781811b981157512ca50801f71ed22d03aecf4989402a13"
+      ],
       "text": "You're welcome.",
       "source": "official"
     }

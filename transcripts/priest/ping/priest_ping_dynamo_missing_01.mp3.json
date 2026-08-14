@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0bae7000471b26cf36b6be7139fc2116db2621a8e6262c189295e4d0879d74ce",
+      "sha256": [
+        "0bae7000471b26cf36b6be7139fc2116db2621a8e6262c189295e4d0879d74ce"
+      ],
       "text": "Dynamo's mission.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7a72cba3c130f5043a68551b11d54ff8c3721379c1a9cd61a14842bca7fbcf93",
+      "sha256": [
+        "7a72cba3c130f5043a68551b11d54ff8c3721379c1a9cd61a14842bca7fbcf93"
+      ],
       "text": "Dynamo's missing.",
       "source": "official"
     }

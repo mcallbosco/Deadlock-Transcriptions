@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_astro.mp3",
   "revisions": [
     {
-      "sha256": "df5225968895a3b94b5bb432c95200032bf06204cb66460d1b4157ad5c9f209f",
+      "sha256": [
+        "df5225968895a3b94b5bb432c95200032bf06204cb66460d1b4157ad5c9f209f"
+      ],
       "text": "Nicey Holiday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7776dc35fb983bfc4adf10b5eb504d6cb766645d644f4d9f2af68c0118f112ae",
-      "text": "I see Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84c5bd1182c9650c51a3310d1b2163fdc91ba4e0ebea734d79725b57c638f345",
+      "sha256": [
+        "7776dc35fb983bfc4adf10b5eb504d6cb766645d644f4d9f2af68c0118f112ae",
+        "84c5bd1182c9650c51a3310d1b2163fdc91ba4e0ebea734d79725b57c638f345"
+      ],
       "text": "I see Holliday",
       "source": "official"
     }

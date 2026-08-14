@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "d3051fdb41071fde020dac0d32717e318cc725274a84a93ad86291fd51c976fa",
+      "sha256": [
+        "93ba7358dfa4f847f2c3665422773e6fec8898841358acfcbaa29120a718f790",
+        "d3051fdb41071fde020dac0d32717e318cc725274a84a93ad86291fd51c976fa"
+      ],
       "text": "The tunnel rats are down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "4eaac26d55195c9c6a82994a376c8c9249b7f4b7367b034441ed7f653c61d10c",
+      "sha256": [
+        "4eaac26d55195c9c6a82994a376c8c9249b7f4b7367b034441ed7f653c61d10c"
+      ],
       "text": "The tunnel rat her down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c2efb5b31c0a53a8df89682e7319b7f4592b5db0f519fba7fbd0d03ed08e4dd4",
+      "sha256": [
+        "c2efb5b31c0a53a8df89682e7319b7f4592b5db0f519fba7fbd0d03ed08e4dd4"
+      ],
       "text": "The tunnel ratter down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93ba7358dfa4f847f2c3665422773e6fec8898841358acfcbaa29120a718f790",
-      "text": "The tunnel rats are down!",
-      "source": "official"
     }
   ]
 }

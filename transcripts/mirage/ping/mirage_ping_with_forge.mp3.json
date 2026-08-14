@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "7fd6d23fc23011e5d9acc0a7238b420aa1af9d3b9bc6f5c749cfa836748b1ebd",
+      "sha256": [
+        "7fd6d23fc23011e5d9acc0a7238b420aa1af9d3b9bc6f5c749cfa836748b1ebd"
+      ],
       "text": "I am a deadbolt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5a88d414b1bf9ad83d3734ea4514272936314462a2647ce18ce2670b12d0e3f1",
+      "sha256": [
+        "5a88d414b1bf9ad83d3734ea4514272936314462a2647ce18ce2670b12d0e3f1",
+        "b467dbd94fb087814e9f6ab8386289554cd65954f5e23a01a1e936e16e91206a"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5cd3126808a03668e510ca3513311ef96556429d0e612657f3de6afb94ad3c9b",
+      "sha256": [
+        "5cd3126808a03668e510ca3513311ef96556429d0e612657f3de6afb94ad3c9b"
+      ],
       "text": "Why would you, McGinnis?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b467dbd94fb087814e9f6ab8386289554cd65954f5e23a01a1e936e16e91206a",
-      "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

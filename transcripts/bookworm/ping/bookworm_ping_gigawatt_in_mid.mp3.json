@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_gigawatt_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "34e49f9d0ddaa76bc471a3332f4cee170030ea519c35a9edd9b420a3d4bdb3a9",
-      "text": "Seven's in mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "053c4146cd236bc57e4fd3d633d2ba70a46ae8988c13a652df66a92adbd1c09d",
+      "sha256": [
+        "053c4146cd236bc57e4fd3d633d2ba70a46ae8988c13a652df66a92adbd1c09d",
+        "34e49f9d0ddaa76bc471a3332f4cee170030ea519c35a9edd9b420a3d4bdb3a9"
+      ],
       "text": "Seven's in mid!",
       "source": "official"
     }

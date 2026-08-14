@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_use_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "5aa7ad9864b88c3702624981830a33c408aa8653ea40605446a67dbd7a296cf4",
+      "sha256": [
+        "5aa7ad9864b88c3702624981830a33c408aa8653ea40605446a67dbd7a296cf4"
+      ],
       "text": "Leave him to me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d31796fbe8cde9bdf071a43f867224b5d3c6f8e98f3b4c45f58439abfb4345ef",
+      "sha256": [
+        "d31796fbe8cde9bdf071a43f867224b5d3c6f8e98f3b4c45f58439abfb4345ef"
+      ],
       "text": "This is a great read…",
       "source": "official"
     }

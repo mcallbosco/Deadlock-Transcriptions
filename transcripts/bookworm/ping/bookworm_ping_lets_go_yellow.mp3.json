@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "b61e4fec27868e81568ce49212777e87595f73e5f339f01f77d42a209a8794cb",
-      "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d89582c45f8cc6d6f1ec8361bff25c428d675cc6ae356b22e6b1791c33eb2c4",
+      "sha256": [
+        "4d89582c45f8cc6d6f1ec8361bff25c428d675cc6ae356b22e6b1791c33eb2c4",
+        "b61e4fec27868e81568ce49212777e87595f73e5f339f01f77d42a209a8794cb"
+      ],
       "text": "Let's go Yellow!",
       "source": "official"
     }

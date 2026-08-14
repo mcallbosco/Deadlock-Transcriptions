@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_t4_vindicta_01.mp3",
   "revisions": [
     {
-      "sha256": "8ee4df9ce627e63089094aba924c9cff82c010488981a1f1e01ebe8287796666",
+      "sha256": [
+        "8ee4df9ce627e63089094aba924c9cff82c010488981a1f1e01ebe8287796666",
+        "cb509360dfa8f2f1feff0ffa9de477014c8674a770321f3f205d2cda2e40912c"
+      ],
       "text": "If you're looking for vengeance, this is the only thing to buy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cb509360dfa8f2f1feff0ffa9de477014c8674a770321f3f205d2cda2e40912c",
-      "text": "If you're looking for vengeance, this is the only thing to buy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2895ffe373627d8ebfefd54b1c79d7908ec8bad7704c6bf837785ebad7bd78e6",
+      "sha256": [
+        "2895ffe373627d8ebfefd54b1c79d7908ec8bad7704c6bf837785ebad7bd78e6"
+      ],
       "text": "If you're looking for Vengence, this is the only thing to buy.",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_hunt_01.mp3",
   "revisions": [
     {
-      "sha256": "b2ed00bb0dae4780c411609ce61f9074175a79696804eadc9cc1322148d0a974",
-      "text": "I'm gonna find you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cac9fb19a80d00bc2ca5fa9f032880813f4662fc226dbc69a747f9751534eae",
-      "text": "I'm gonna find you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7aca3f646abe34e4a418f19b6f376103e27b76b1a63f87cc1530e1c16307162",
+      "sha256": [
+        "1cac9fb19a80d00bc2ca5fa9f032880813f4662fc226dbc69a747f9751534eae",
+        "a7aca3f646abe34e4a418f19b6f376103e27b76b1a63f87cc1530e1c16307162",
+        "b2ed00bb0dae4780c411609ce61f9074175a79696804eadc9cc1322148d0a974"
+      ],
       "text": "I'm gonna find you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

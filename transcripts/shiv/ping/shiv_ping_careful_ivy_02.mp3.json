@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_careful_ivy_02.mp3",
   "revisions": [
     {
-      "sha256": "a124cc1d7028d7d3332e15bbab44d7d6af10518f95065cfdf451c5dcd4e83797",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b97337612be76f05400ce22595ae129acb9d7ccb7a00e8b9ec38eb4d2e7398f",
+      "sha256": [
+        "1b97337612be76f05400ce22595ae129acb9d7ccb7a00e8b9ec38eb4d2e7398f",
+        "a124cc1d7028d7d3332e15bbab44d7d6af10518f95065cfdf451c5dcd4e83797"
+      ],
       "text": "Careful, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

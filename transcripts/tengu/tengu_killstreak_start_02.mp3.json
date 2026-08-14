@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_killstreak_start_02.mp3",
   "revisions": [
     {
-      "sha256": "f91e6e4a5287dd8025f45b6486909d202bd5fb5f95c103102cbf1a05333a6b2b",
-      "text": "Welcome to New York!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "caf1c19329a39544219d9df982f7cfe5e51040e550b45ffd870d97a581748adb",
+      "sha256": [
+        "caf1c19329a39544219d9df982f7cfe5e51040e550b45ffd870d97a581748adb",
+        "f91e6e4a5287dd8025f45b6486909d202bd5fb5f95c103102cbf1a05333a6b2b"
+      ],
       "text": "Welcome to New York.",
       "source": "official"
     }

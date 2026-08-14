@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power3_09.mp3",
   "revisions": [
     {
-      "sha256": "5f833525b246ff82c9ce8ad91e2eaa501e53b3febc99c39730fc95c361e5d0f5",
-      "text": "I will consume them all.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8502ea6daebb7b078a083a9b50f3c00c4aea2d677ae960f3a4b94bc470a1890f",
-      "text": "I will consume them all.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "518630d337a193d8bfa83cd6e5260635d0235601d55b78fed610a41e0aaa6356",
+      "sha256": [
+        "518630d337a193d8bfa83cd6e5260635d0235601d55b78fed610a41e0aaa6356",
+        "5f833525b246ff82c9ce8ad91e2eaa501e53b3febc99c39730fc95c361e5d0f5",
+        "8502ea6daebb7b078a083a9b50f3c00c4aea2d677ae960f3a4b94bc470a1890f"
+      ],
       "text": "I will consume them all.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

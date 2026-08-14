@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_astro.mp3",
   "revisions": [
     {
-      "sha256": "cf4d4f785133d71ed5048b92cf84f7e9850850624e6a1c436e80934aa2e4e8a4",
-      "text": "Thanks, Astro.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2da30b176ce4be04689fabad6a3478be00fabf68ad5ffcf5fbd73601554aebab",
-      "text": "Thanks, Astro.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b0aa4cdccc29d0bc202eae98db75762583d0d3f7ef4b193e184c841474b80a4",
+      "sha256": [
+        "2da30b176ce4be04689fabad6a3478be00fabf68ad5ffcf5fbd73601554aebab",
+        "6b0aa4cdccc29d0bc202eae98db75762583d0d3f7ef4b193e184c841474b80a4",
+        "cf4d4f785133d71ed5048b92cf84f7e9850850624e6a1c436e80934aa2e4e8a4"
+      ],
       "text": "Thanks, Astro.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

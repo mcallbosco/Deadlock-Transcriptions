@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_use_silencer_01.mp3",
   "revisions": [
     {
-      "sha256": "a119a90856ded6c360c2690afa10a806fad980645c2b28ed32f8902981e09edd",
+      "sha256": [
+        "a119a90856ded6c360c2690afa10a806fad980645c2b28ed32f8902981e09edd"
+      ],
       "text": "I'll stop their magic.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

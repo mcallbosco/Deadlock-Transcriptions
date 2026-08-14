@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c85c3d209f3f5e15c2be3b7c43fac1aca575a377bb3c32387be2b0c043f7b385",
+      "sha256": [
+        "c85c3d209f3f5e15c2be3b7c43fac1aca575a377bb3c32387be2b0c043f7b385"
+      ],
       "text": "Mirage was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

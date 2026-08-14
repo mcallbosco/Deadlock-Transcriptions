@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_enemy_blue_low_health_01.mp3",
   "revisions": [
     {
-      "sha256": "cdcc2bbf36c956246398015b3c5ea7422f189c52c9dbdd02460347b5fd2a4d57",
+      "sha256": [
+        "0ab626a64a2a6a300325d5be3fb97c08661fd23235411cbb52a772c296090ab9",
+        "2222588d2c4de2568f08b20ff69d97a7354f53beadad9020f6bece6accae2742",
+        "cdcc2bbf36c956246398015b3c5ea7422f189c52c9dbdd02460347b5fd2a4d57"
+      ],
       "text": "The blue guardian has low health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2222588d2c4de2568f08b20ff69d97a7354f53beadad9020f6bece6accae2742",
-      "text": "The blue Guardian has low health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ab626a64a2a6a300325d5be3fb97c08661fd23235411cbb52a772c296090ab9",
-      "text": "The Blue Guardian has low health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

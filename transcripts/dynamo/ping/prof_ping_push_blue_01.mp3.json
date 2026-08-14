@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_push_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "3e5c4a0c3c3862cd5da0f3a30aafa184622e3265cc722c77028968036cf7d1b1",
+      "sha256": [
+        "3e5c4a0c3c3862cd5da0f3a30aafa184622e3265cc722c77028968036cf7d1b1"
+      ],
       "text": "This was blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "993e93797ec412030a01dba6fa67dbf2b9b9b87f92b96bf85a5ab4ec4f59be13",
+      "sha256": [
+        "993e93797ec412030a01dba6fa67dbf2b9b9b87f92b96bf85a5ab4ec4f59be13"
+      ],
       "text": "The force blew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

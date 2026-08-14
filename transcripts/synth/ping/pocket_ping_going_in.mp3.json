@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_going_in.mp3",
   "revisions": [
     {
-      "sha256": "e9f251ec06ee2c4c33112bf5be2beea4d0ffaf16ef33a4cd8ccff92de32ded7a",
-      "text": "Going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "487504bbb3a0a24d96420fcd5e34a5e559d7aaad46c2e7a136b74170a2405142",
+      "sha256": [
+        "487504bbb3a0a24d96420fcd5e34a5e559d7aaad46c2e7a136b74170a2405142",
+        "e9f251ec06ee2c4c33112bf5be2beea4d0ffaf16ef33a4cd8ccff92de32ded7a"
+      ],
       "text": "Going in.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

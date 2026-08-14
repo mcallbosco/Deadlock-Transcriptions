@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_calico.mp3",
   "revisions": [
     {
-      "sha256": "ae26aadc6914ab1f520bae3e985626fab0be6514e79321cb1f48f029f9fffbdd",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a22741eca02eb54e77d1b4df0d9a2a701a1b9e45dff584bc647ac5b5bec69a0",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d786d8d46d27312fe398251111630d1a805b4428154ba3809ba261123c6e554d",
+      "sha256": [
+        "1a22741eca02eb54e77d1b4df0d9a2a701a1b9e45dff584bc647ac5b5bec69a0",
+        "ae26aadc6914ab1f520bae3e985626fab0be6514e79321cb1f48f029f9fffbdd",
+        "d786d8d46d27312fe398251111630d1a805b4428154ba3809ba261123c6e554d"
+      ],
       "text": "I see Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

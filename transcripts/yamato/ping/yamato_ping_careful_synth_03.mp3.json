@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_synth_03.mp3",
   "revisions": [
     {
-      "sha256": "9fc12c971d6d361ef60a8fb746ca9eaf5f3cd46cb026dfbdaa36094de0c88451",
+      "sha256": [
+        "9fc12c971d6d361ef60a8fb746ca9eaf5f3cd46cb026dfbdaa36094de0c88451"
+      ],
       "text": "Careful, Buckets!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8cc3f2c144bae1927f56d4641b8c4479a552fd8f6f62b2a4abe439abb38de7a9",
-      "text": "Careful, Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61ea469a86837af641c2235b2a84644e0f5fe4e9e42d0f9ba9e89712cfcca495",
+      "sha256": [
+        "61ea469a86837af641c2235b2a84644e0f5fe4e9e42d0f9ba9e89712cfcca495",
+        "8cc3f2c144bae1927f56d4641b8c4479a552fd8f6f62b2a4abe439abb38de7a9"
+      ],
       "text": "Careful, Pocket!",
       "source": "official"
     }

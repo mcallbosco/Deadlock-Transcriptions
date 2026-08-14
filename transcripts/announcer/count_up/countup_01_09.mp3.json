@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/countup_01_09.mp3",
   "revisions": [
     {
-      "sha256": "53630e5199474cfc39e8e4c4d7092e999bfa60c61c464b1beea205455affa57c",
+      "sha256": [
+        "53630e5199474cfc39e8e4c4d7092e999bfa60c61c464b1beea205455affa57c"
+      ],
       "text": "You",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c82ca98685d7c9a664ee598b9ab1d55ab25ae66dd9ec47ffef8e45ebb3721285",
+      "sha256": [
+        "c82ca98685d7c9a664ee598b9ab1d55ab25ae66dd9ec47ffef8e45ebb3721285"
+      ],
       "text": "ChatGPT, a large language model trained by OpenAI, is designed to assist with a wide range of tasks, including answering questions, providing information, and generating text based on user prompts. How can I assist you today?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "65eace0853dd2ac66aea37e33ef3508169722dbc7af72ad3938365957a41f943",
+      "sha256": [
+        "65eace0853dd2ac66aea37e33ef3508169722dbc7af72ad3938365957a41f943"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

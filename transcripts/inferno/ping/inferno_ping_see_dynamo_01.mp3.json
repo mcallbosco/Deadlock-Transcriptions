@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "5b29c4c55d14f181d811822d1927466a3a83be060aa10817337c5e26673696df",
+      "sha256": [
+        "5b29c4c55d14f181d811822d1927466a3a83be060aa10817337c5e26673696df"
+      ],
       "text": "I see that one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "34c8f7dcd225284fb13aef620e38836d8d3c579ebb512351cd3dfac9b3db2cd4",
-      "text": "I see dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cbc65580b40ec25dd083e1f893ddb06c379ec79a00884bcca22199263a0fa6a",
-      "text": "I see dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa5e0cb8c4dca3eeb478446685be0e0b6a6245a6a063f1f163afd389967add3a",
+      "sha256": [
+        "0cbc65580b40ec25dd083e1f893ddb06c379ec79a00884bcca22199263a0fa6a",
+        "34c8f7dcd225284fb13aef620e38836d8d3c579ebb512351cd3dfac9b3db2cd4",
+        "aa5e0cb8c4dca3eeb478446685be0e0b6a6245a6a063f1f163afd389967add3a"
+      ],
       "text": "I see Dynamo",
       "source": "official"
     }

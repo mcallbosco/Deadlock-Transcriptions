@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_buy_generic_upgrade_03.mp3",
   "revisions": [
     {
-      "sha256": "494f618ccb6087dbfe833888bb0e16c1ab7eb83fe13bb5f8b161fc78db0d9d67",
-      "text": "This mod should work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f174a567e074aa6a852959d1c1b60eb71c898c6d89239e9d515b70e92f6237fd",
-      "text": "This mod should work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c91b046484bd4adbd95fe1af611454b3b3f41d67a4e2826874ef6683dcac64cb",
+      "sha256": [
+        "494f618ccb6087dbfe833888bb0e16c1ab7eb83fe13bb5f8b161fc78db0d9d67",
+        "c91b046484bd4adbd95fe1af611454b3b3f41d67a4e2826874ef6683dcac64cb",
+        "f174a567e074aa6a852959d1c1b60eb71c898c6d89239e9d515b70e92f6237fd"
+      ],
       "text": "This mod should work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

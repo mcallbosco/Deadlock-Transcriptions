@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_krill_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3eeec9e4f69ab35f75b42d49fcc06e49915e2809592e93c3389132bd30898a23",
+      "sha256": [
+        "3eeec9e4f69ab35f75b42d49fcc06e49915e2809592e93c3389132bd30898a23",
+        "df9134ead91d74ec53f8ac15352040b56c190bf96290ad854d625eb20da5b479"
+      ],
       "text": "Please, missy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df9134ead91d74ec53f8ac15352040b56c190bf96290ad854d625eb20da5b479",
-      "text": "Please Missy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

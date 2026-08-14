@@ -24,14 +24,14 @@ def legacy_document(filename: str, text: str) -> dict[str, object]:
 
 
 def revision(text: str, source: str, sha: str) -> dict[str, str]:
-    value = {"sha256": sha, "text": text, "source": source}
+    value = {"sha256": [sha], "text": text, "source": source}
     if source == "generated":
         value["model"] = "test-model"
     return value
 
 
 def target_document(filename: str, revisions: list[dict[str, str]]) -> dict[str, object]:
-    return {"schemaVersion": 2, "filename": filename, "revisions": revisions}
+    return {"schemaVersion": 3, "filename": filename, "revisions": revisions}
 
 
 class HistoricalAuditIntegrationTests(unittest.TestCase):

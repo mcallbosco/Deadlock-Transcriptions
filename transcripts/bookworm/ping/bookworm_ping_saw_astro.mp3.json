@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_saw_astro.mp3",
   "revisions": [
     {
-      "sha256": "f35c846e8a5e4d0fc512044f00462f5708239120a105d537f41f2d7913b9ba91",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a34c70453d6c6b02082d1d8330dd3ad6399a543f31afd90a2755f4ada3a49f68",
+      "sha256": [
+        "a34c70453d6c6b02082d1d8330dd3ad6399a543f31afd90a2755f4ada3a49f68",
+        "f35c846e8a5e4d0fc512044f00462f5708239120a105d537f41f2d7913b9ba91"
+      ],
       "text": "I saw Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

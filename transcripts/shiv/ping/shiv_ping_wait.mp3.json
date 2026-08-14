@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_wait.mp3",
   "revisions": [
     {
-      "sha256": "eaaa586c7a25aeb8addd0304ddb14eae8d52d068e623b9bb0a25163091bc84c9",
+      "sha256": [
+        "1fff64cb312c01557ae6dfc2cb05dbdf65c430132bd91cf193b32661504a6c5d",
+        "eaaa586c7a25aeb8addd0304ddb14eae8d52d068e623b9bb0a25163091bc84c9"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1fff64cb312c01557ae6dfc2cb05dbdf65c430132bd91cf193b32661504a6c5d",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56818aaa4ba40351288a9b11ce9b4d890c8f1276ca90fa3a15fc107148cb104d",
+      "sha256": [
+        "56818aaa4ba40351288a9b11ce9b4d890c8f1276ca90fa3a15fc107148cb104d"
+      ],
       "text": "Hold up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_viscous_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "3d95d5143b1ae1cbab1f944e237f7a948cea3833bdceb4c32b417fee1555507d",
+      "sha256": [
+        "3d95d5143b1ae1cbab1f944e237f7a948cea3833bdceb4c32b417fee1555507d"
+      ],
       "text": "This is me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e33b81cf075be22b388f95ecbbf8ecdd536f7eb5a66724a2e46b4d948b432901",
+      "sha256": [
+        "e33b81cf075be22b388f95ecbbf8ecdd536f7eb5a66724a2e46b4d948b432901"
+      ],
       "text": "Viscous's in mid!",
       "source": "official"
     }

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_theyre_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "2fb12185db7a4e5c4f6c8e0f4794ca76b56909b109885234654e03dd41350d47",
+      "sha256": [
+        "2fb12185db7a4e5c4f6c8e0f4794ca76b56909b109885234654e03dd41350d47"
+      ],
       "text": "Time it!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d4cfc1694459b54c16009ca891c09525ff79d06184c384f02771033ee222a751",
+      "sha256": [
+        "d4cfc1694459b54c16009ca891c09525ff79d06184c384f02771033ee222a751",
+        "ead31d50c19b8db01269a55edf267f3a5aadda552a9451e5109fd5136ad2f75e"
+      ],
       "text": "Diamond.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ead31d50c19b8db01269a55edf267f3a5aadda552a9451e5109fd5136ad2f75e",
-      "text": "Diamond.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aec581ee12f997f183ebbf2d9dd36a0e08335a4cb94b9d2bb67832ccc176ea5f",
+      "sha256": [
+        "aec581ee12f997f183ebbf2d9dd36a0e08335a4cb94b9d2bb67832ccc176ea5f"
+      ],
       "text": "They're in mid!",
       "source": "official"
     }

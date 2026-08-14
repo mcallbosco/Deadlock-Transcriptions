@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_dynamo_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "233728dc6ac81206ae9720295cb3e0648d21727a3f15e5bf80f14e68c5b6aa71",
+      "sha256": [
+        "233728dc6ac81206ae9720295cb3e0648d21727a3f15e5bf80f14e68c5b6aa71",
+        "c4e49714607596e2fc143a8409f18bd8d14cc48765cfac07e6d22acfd2282bb3"
+      ],
       "text": "Dynamo's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "b3087b0922a7e4700de3a3a28a1b1f5044178926a7d9f59cf7191dfc3db81d2b",
+      "sha256": [
+        "b3087b0922a7e4700de3a3a28a1b1f5044178926a7d9f59cf7191dfc3db81d2b"
+      ],
       "text": "Dynamos onderhuuf.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4e49714607596e2fc143a8409f18bd8d14cc48765cfac07e6d22acfd2282bb3",
-      "text": "Dynamo's on the roof!",
-      "source": "official"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_with_atlas.mp3",
   "revisions": [
     {
-      "sha256": "c276b450918e4ba3f7311ffa02be247a172f1d6590d895c58d8eb93145632043",
+      "sha256": [
+        "c276b450918e4ba3f7311ffa02be247a172f1d6590d895c58d8eb93145632043"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

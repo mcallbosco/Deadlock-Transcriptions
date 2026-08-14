@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_infernus_01.mp3",
   "revisions": [
     {
-      "sha256": "fc4efe97e807c6ddf863b13e2497cd8538d3675746111c72f219e77209408be6",
-      "text": "I like my fur unburned, thank you very much.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f7db1bba0af5855793eb19f8a4d26d41c838a37ddab1327fffcfc444a0c37da2",
+      "sha256": [
+        "f7db1bba0af5855793eb19f8a4d26d41c838a37ddab1327fffcfc444a0c37da2",
+        "fc4efe97e807c6ddf863b13e2497cd8538d3675746111c72f219e77209408be6"
+      ],
       "text": "I like my fur unburned, thank you very much.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

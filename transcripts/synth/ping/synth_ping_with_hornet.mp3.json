@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_hornet.mp3",
   "revisions": [
     {
-      "sha256": "7c1e4fb4fd26e569cd1a427afa84879380955ee78a2a1c1108eee5b3ac09b358",
+      "sha256": [
+        "7c1e4fb4fd26e569cd1a427afa84879380955ee78a2a1c1108eee5b3ac09b358"
+      ],
       "text": "I'm with you, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

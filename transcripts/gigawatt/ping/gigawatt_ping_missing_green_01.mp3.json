@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "427bb85586027c56509d9e6c51254109c2882533192d771e018cb8871ae3b731",
+      "sha256": [
+        "427bb85586027c56509d9e6c51254109c2882533192d771e018cb8871ae3b731",
+        "e923cb6330c521d8e2e6073ac11a7363728b5478855b82c84e53ce791c92df09"
+      ],
       "text": "missing cream.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e923cb6330c521d8e2e6073ac11a7363728b5478855b82c84e53ce791c92df09",
-      "text": "Missing cream.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b285ad84fe3353cf6703730ea12254703a46224b9ed552e263d603b0c4111b5",
+      "sha256": [
+        "2b285ad84fe3353cf6703730ea12254703a46224b9ed552e263d603b0c4111b5"
+      ],
       "text": "Missing green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

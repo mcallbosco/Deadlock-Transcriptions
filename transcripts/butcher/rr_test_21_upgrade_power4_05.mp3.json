@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "aa3f77c921d347fefc2328cd21f7ed2dfd13b11ee54ac1c8af2b69dc770cad07",
+      "sha256": [
+        "587724b89ba93378726d272755b9039cadb936b4e291609a5d90d71c4b5cb682",
+        "aa3f77c921d347fefc2328cd21f7ed2dfd13b11ee54ac1c8af2b69dc770cad07"
+      ],
       "text": "They'll run if they know what's good for 'em.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f9a62c60f8fe1e3d24b6eb36e3d933121621a4b24ed6c818abf3e504a2104170",
+      "sha256": [
+        "f9a62c60f8fe1e3d24b6eb36e3d933121621a4b24ed6c818abf3e504a2104170"
+      ],
       "text": "They'll run if they know what's good for them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "587724b89ba93378726d272755b9039cadb936b4e291609a5d90d71c4b5cb682",
-      "text": "They'll run if they know what's good for 'em.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

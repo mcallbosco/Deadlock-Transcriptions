@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_ghost_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "def5811cfc2562c1083f048936d69cd2876c52ae57a7fad586a20aaefe418d8a",
+      "sha256": [
+        "def5811cfc2562c1083f048936d69cd2876c52ae57a7fad586a20aaefe418d8a"
+      ],
       "text": "Guns is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3bd8a898a99eb3d5cfbeb99de5661b603ff5a72e63048ca31bb7f1e070c05323",
+      "sha256": [
+        "3bd8a898a99eb3d5cfbeb99de5661b603ff5a72e63048ca31bb7f1e070c05323"
+      ],
       "text": "Geist's on the roof!",
       "source": "official"
     }

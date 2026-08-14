@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_orion.mp3",
   "revisions": [
     {
-      "sha256": "3e4978e155cb95ee86b0d896ad7bdc37d35d851143f2d4ba3427d109841f02e7",
+      "sha256": [
+        "3e4978e155cb95ee86b0d896ad7bdc37d35d851143f2d4ba3427d109841f02e7"
+      ],
       "text": "Go down and I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ec7b2599e05f09341b7a32220db67f15422fbd9359d0cb54e13575bc175fce5e",
+      "sha256": [
+        "ec7b2599e05f09341b7a32220db67f15422fbd9359d0cb54e13575bc175fce5e"
+      ],
       "text": "Grey Talon, I can heal you!",
       "source": "official"
     }

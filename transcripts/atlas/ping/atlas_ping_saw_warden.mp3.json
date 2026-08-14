@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "ae766b7fa9238d7a943328cb8c15fba47811d04da115eee8745bab80ba0306da",
+      "sha256": [
+        "ae766b7fa9238d7a943328cb8c15fba47811d04da115eee8745bab80ba0306da"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

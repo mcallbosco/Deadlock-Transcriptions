@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_need_help_orange.mp3",
   "revisions": [
     {
-      "sha256": "b04d27b5986b12a5a4cd9fb5af186ed96b5b5ecb7407e9c87906ab1de794db09",
+      "sha256": [
+        "99a28d7bbe9b15107a8b8af90d383ea5e7aa2bf96bf2eff1ba7860e5581d0b53",
+        "b04d27b5986b12a5a4cd9fb5af186ed96b5b5ecb7407e9c87906ab1de794db09"
+      ],
       "text": "Need help on orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99a28d7bbe9b15107a8b8af90d383ea5e7aa2bf96bf2eff1ba7860e5581d0b53",
-      "text": "Need help on orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

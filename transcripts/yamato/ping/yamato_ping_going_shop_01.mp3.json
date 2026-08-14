@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_going_shop_01.mp3",
   "revisions": [
     {
-      "sha256": "9a740d7b66cf350084fd76603306aaa73c80481ac6618c510bebd6d748d1c527",
+      "sha256": [
+        "9a740d7b66cf350084fd76603306aaa73c80481ac6618c510bebd6d748d1c527"
+      ],
       "text": "Going to stop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc26821304d771427e6a6c26d6bfc32f8474e82c0c991285da625a0986f6da30",
-      "text": "Going to shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d237a8c677834563fce872628375ac8039af4ed81dac9c8abd7a30e261335e46",
+      "sha256": [
+        "cc26821304d771427e6a6c26d6bfc32f8474e82c0c991285da625a0986f6da30",
+        "d237a8c677834563fce872628375ac8039af4ed81dac9c8abd7a30e261335e46"
+      ],
       "text": "Going to shop",
       "source": "official"
     }

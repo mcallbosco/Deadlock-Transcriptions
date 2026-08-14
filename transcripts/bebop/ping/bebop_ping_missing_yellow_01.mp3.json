@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "6712449b5505a0f8df1bd98ea1be126604d3842aa757b41d6f201219cd83bd93",
+      "sha256": [
+        "6712449b5505a0f8df1bd98ea1be126604d3842aa757b41d6f201219cd83bd93"
+      ],
       "text": "This is yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b1bf630c377d88c93e1f60aa9d88d3b6fafdaf9d1594113e8dbab22f465b35e8",
+      "sha256": [
+        "b1bf630c377d88c93e1f60aa9d88d3b6fafdaf9d1594113e8dbab22f465b35e8"
+      ],
       "text": "Vesinia.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

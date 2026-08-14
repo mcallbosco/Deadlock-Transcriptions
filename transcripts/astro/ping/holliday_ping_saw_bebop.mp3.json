@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "316f68f8d3152b8955d17a3e04a25979b7c9b9d797068086c4dfacfb45fa5350",
+      "sha256": [
+        "316f68f8d3152b8955d17a3e04a25979b7c9b9d797068086c4dfacfb45fa5350"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

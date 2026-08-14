@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "3681bf6059bfc80c7d9268e176cab8212b5fdf2673065dbd0837f698ad57b9f6",
+      "sha256": [
+        "3681bf6059bfc80c7d9268e176cab8212b5fdf2673065dbd0837f698ad57b9f6"
+      ],
       "text": "You see this?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d545e9d082123c0053fb3e1ec348df9ea103438a61ee236b2e8723b40cf5fddf",
+      "sha256": [
+        "d545e9d082123c0053fb3e1ec348df9ea103438a61ee236b2e8723b40cf5fddf"
+      ],
       "text": "I see Viscous",
       "source": "official"
     }

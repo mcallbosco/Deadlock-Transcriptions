@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "044c986b3a817b6f6ecad218168879c92f9fb9b28c296c26f2dfd7754076e8de",
+      "sha256": [
+        "044c986b3a817b6f6ecad218168879c92f9fb9b28c296c26f2dfd7754076e8de"
+      ],
       "text": "I see Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "5678ed02bfe22e540cf3dbdb851f0e9ff93ef0a82bc75f2b09b56ba553bece71",
+      "sha256": [
+        "5678ed02bfe22e540cf3dbdb851f0e9ff93ef0a82bc75f2b09b56ba553bece71"
+      ],
       "text": "I'm with you, Mirage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

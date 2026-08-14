@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_magician_01.mp3",
   "revisions": [
     {
-      "sha256": "40c042a9108e04c361a38d7c0da20fc2fdf3260c4083d27d9692479eef2bc6f0",
+      "sha256": [
+        "40c042a9108e04c361a38d7c0da20fc2fdf3260c4083d27d9692479eef2bc6f0"
+      ],
       "text": "I see things clear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8441f9cf55e9b355471d6a83c8dac9a3957df101ad31b27e2a3fdeaac73b061d",
+      "sha256": [
+        "8441f9cf55e9b355471d6a83c8dac9a3957df101ad31b27e2a3fdeaac73b061d"
+      ],
       "text": "I see Sinclair.",
       "source": "official"
     }

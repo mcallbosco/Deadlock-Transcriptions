@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_start_match_02.mp3",
   "revisions": [
     {
-      "sha256": "a451ce84f6a5bb29ff8229eec9785479c2a8d681959b38e37e030e0afffa869e",
+      "sha256": [
+        "a451ce84f6a5bb29ff8229eec9785479c2a8d681959b38e37e030e0afffa869e",
+        "ce77e300de60daf34ebd8c9d20722fe42a12be1d6894cead564da3ec56281f04"
+      ],
       "text": "We'll take care of our lane.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "827fe0057dde5d943a6add81dba7dec5723e29fb3d37f85931568011e767187d",
+      "sha256": [
+        "827fe0057dde5d943a6add81dba7dec5723e29fb3d37f85931568011e767187d"
+      ],
       "text": "We'll take care of Arlane.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce77e300de60daf34ebd8c9d20722fe42a12be1d6894cead564da3ec56281f04",
-      "text": "We'll take care of our lane.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_stun_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "93b7be2477b2322fa3688b5855ec30c938a23324db4833435cc547c9eb33ca8c",
+      "sha256": [
+        "93b7be2477b2322fa3688b5855ec30c938a23324db4833435cc547c9eb33ca8c"
+      ],
       "text": "STUN, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc4b8f1e5522dc2c26e4dd8f531405cc64dcb5fd75e8ce16ddfba4451bf0b5bd",
-      "text": "Done, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e386f5f2c8baf5c8f4e0062823a871393ddd866adf9629e8e060654ea9263cc8",
+      "sha256": [
+        "cc4b8f1e5522dc2c26e4dd8f531405cc64dcb5fd75e8ce16ddfba4451bf0b5bd",
+        "e386f5f2c8baf5c8f4e0062823a871393ddd866adf9629e8e060654ea9263cc8"
+      ],
       "text": "Done, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

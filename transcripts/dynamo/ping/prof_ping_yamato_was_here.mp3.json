@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "55527c1e40b12fba772859feacfdef82f67dd1c76db1969129483326ac93be1e",
+      "sha256": [
+        "55527c1e40b12fba772859feacfdef82f67dd1c76db1969129483326ac93be1e"
+      ],
       "text": "Cavaro is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9f2067bf08d4339327a8aa31d2c2851931cd6664186e1ec16d0e4f60c69a48ee",
+      "sha256": [
+        "9f2067bf08d4339327a8aa31d2c2851931cd6664186e1ec16d0e4f60c69a48ee"
+      ],
       "text": "Camera was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

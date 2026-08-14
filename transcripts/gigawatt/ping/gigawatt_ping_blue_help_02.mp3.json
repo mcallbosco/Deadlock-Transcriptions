@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_blue_help_02.mp3",
   "revisions": [
     {
-      "sha256": "ccfbbbcc0a2cbc85d22cabde4368698ffba050f479092cf31a954078200b0bf7",
+      "sha256": [
+        "019e2f04d520e0035c5022f8cfb3a1ed6ae153c086e4259f3672c8a4c197b142",
+        "ccfbbbcc0a2cbc85d22cabde4368698ffba050f479092cf31a954078200b0bf7"
+      ],
       "text": "But we need help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "019e2f04d520e0035c5022f8cfb3a1ed6ae153c086e4259f3672c8a4c197b142",
-      "text": "But we need help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b1ee976eb97423569104f177d12f03cab4992b3117f245e21de7cdd5f903ff0",
+      "sha256": [
+        "2b1ee976eb97423569104f177d12f03cab4992b3117f245e21de7cdd5f903ff0"
+      ],
       "text": "Broadway needs help!",
       "source": "official"
     }

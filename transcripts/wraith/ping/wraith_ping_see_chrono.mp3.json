@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "5f5ac105e04beb66ac14b4f2b6ecfb91bdf360afcf3b2823a9eda7332a2ea5a9",
-      "text": "I see paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "850e8e08eccbbd9f3be24f7b6edfcf1f84b2dc0f495199f29043e9f00719e958",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84d00966e0c89fca50c1d2bfd3862d1677ba9e6603ce39d39e302eb9832a425d",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c02944e4ba4d6804ddee3665bd10c6bcf1b54b5917c2e7c7db259fbef3c12fb",
+      "sha256": [
+        "0c02944e4ba4d6804ddee3665bd10c6bcf1b54b5917c2e7c7db259fbef3c12fb",
+        "5f5ac105e04beb66ac14b4f2b6ecfb91bdf360afcf3b2823a9eda7332a2ea5a9",
+        "84d00966e0c89fca50c1d2bfd3862d1677ba9e6603ce39d39e302eb9832a425d",
+        "850e8e08eccbbd9f3be24f7b6edfcf1f84b2dc0f495199f29043e9f00719e958"
+      ],
       "text": "I see Paradox",
       "source": "official"
     }

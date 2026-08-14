@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_hornet_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "2d9a127a8b46b90336a7b15ac812480f4403fb595724cbf632ced3df5d71624c",
-      "text": "Predict is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "885b1cc1aba7e51a1e9d88b796837a9c14e5db91968d3cfec29440ce082378ec",
+      "sha256": [
+        "2d9a127a8b46b90336a7b15ac812480f4403fb595724cbf632ced3df5d71624c",
+        "885b1cc1aba7e51a1e9d88b796837a9c14e5db91968d3cfec29440ce082378ec"
+      ],
       "text": "Predict is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

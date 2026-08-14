@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_use_power4_07.mp3",
   "revisions": [
     {
-      "sha256": "98964a77cad0e09409d5e022f4be35b9f56f3942e57f747b8bd3e0a29f6503ff",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d7e36bc1ea2cbe0658ee67881ad9320796a74ea72624fc667eb1caa36b1309f",
+      "sha256": [
+        "6d7e36bc1ea2cbe0658ee67881ad9320796a74ea72624fc667eb1caa36b1309f",
+        "98964a77cad0e09409d5e022f4be35b9f56f3942e57f747b8bd3e0a29f6503ff"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_orange_walker_destroyed_01.mp3",
   "revisions": [
     {
-      "sha256": "9a35250f40dde751839f425e2629893629049680dbea9e70c2e42e0fcf4ea420",
+      "sha256": [
+        "1933d085eafc7d7df8562dfa4f76072db160aede64146170ea340e11612122d6",
+        "9a35250f40dde751839f425e2629893629049680dbea9e70c2e42e0fcf4ea420",
+        "d3cf205473cf619d46b771e1aa89629fb90926fafd1ebef5a5690cbc0152e78d"
+      ],
       "text": "Our orange walker has been destroyed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3cf205473cf619d46b771e1aa89629fb90926fafd1ebef5a5690cbc0152e78d",
-      "text": "Our orange walker has been destroyed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1933d085eafc7d7df8562dfa4f76072db160aede64146170ea340e11612122d6",
-      "text": "Our orange walker has been destroyed!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

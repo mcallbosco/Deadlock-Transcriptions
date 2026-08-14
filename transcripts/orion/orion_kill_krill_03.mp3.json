@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_krill_03.mp3",
   "revisions": [
     {
-      "sha256": "5be348c10fe35cbca079f722c16d190433c378e694d99c4f632ef163329e9b0d",
-      "text": "Felled the beast!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41690e768abccaca788a601ea900e59effeeeb2c3d8bb098c392dbd7fda57c1d",
-      "text": "Felled the beast!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1bbe35a6a0d0f2b49b4a34e962e828735030506eb7b8c49b67d1176426bd0a2d",
+      "sha256": [
+        "1bbe35a6a0d0f2b49b4a34e962e828735030506eb7b8c49b67d1176426bd0a2d",
+        "41690e768abccaca788a601ea900e59effeeeb2c3d8bb098c392dbd7fda57c1d",
+        "5be348c10fe35cbca079f722c16d190433c378e694d99c4f632ef163329e9b0d"
+      ],
       "text": "Felled the beast",
       "source": "official"
     }

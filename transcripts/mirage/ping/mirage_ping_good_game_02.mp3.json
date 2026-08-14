@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_good_game_02.mp3",
   "revisions": [
     {
-      "sha256": "a8b25f36ccb5e04aa76dfa41a274378eb980a2973fc0ba4b9a4c45e8765ae76f",
+      "sha256": [
+        "a8b25f36ccb5e04aa76dfa41a274378eb980a2973fc0ba4b9a4c45e8765ae76f"
+      ],
       "text": "That's enough.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "924136850d831e9f5db4bf5b40266d0c0f3d0b0f4cb2469bbb49c112539d1657",
-      "text": "It was an honor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c662ce66c03b592ddcc30f78200ee02b6e8c65077a6c358cb04217bda8f3aa0",
-      "text": "It was an honor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82c451b36fcee6e04a45fdaf1253011bd3cb89c2db3d08b46793a6208532c5fc",
+      "sha256": [
+        "3c662ce66c03b592ddcc30f78200ee02b6e8c65077a6c358cb04217bda8f3aa0",
+        "82c451b36fcee6e04a45fdaf1253011bd3cb89c2db3d08b46793a6208532c5fc",
+        "924136850d831e9f5db4bf5b40266d0c0f3d0b0f4cb2469bbb49c112539d1657"
+      ],
       "text": "It was an honor",
       "source": "official"
     }

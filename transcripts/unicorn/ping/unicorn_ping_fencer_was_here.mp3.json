@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_fencer_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e0021f3a8006be1f343594d9c0a4ec925e1e167cfe6054f71d38dd33eb593f82",
+      "sha256": [
+        "e0021f3a8006be1f343594d9c0a4ec925e1e167cfe6054f71d38dd33eb593f82"
+      ],
       "text": "Apollo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

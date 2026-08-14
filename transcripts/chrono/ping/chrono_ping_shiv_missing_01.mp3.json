@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6be9bba4d5b15e12e35e77f84535b8cf3cbdfc94c8f7b6d6f72e4bd1be5c2a4b",
+      "sha256": [
+        "6be9bba4d5b15e12e35e77f84535b8cf3cbdfc94c8f7b6d6f72e4bd1be5c2a4b"
+      ],
       "text": "Ship's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "43b4e1a04478867b371a3223bd40fb9c787a970fbf42acfeec7016fdb91f8b24",
+      "sha256": [
+        "43b4e1a04478867b371a3223bd40fb9c787a970fbf42acfeec7016fdb91f8b24"
+      ],
       "text": "Shiv's missing",
       "source": "official"
     }

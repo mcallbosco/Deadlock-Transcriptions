@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_pick_up_rejuv_01.mp3",
   "revisions": [
     {
-      "sha256": "fe463706cfbe83a1d92cbae228e620b36331d10c2f09d7383cb2532e9ee39e8a",
+      "sha256": [
+        "fe463706cfbe83a1d92cbae228e620b36331d10c2f09d7383cb2532e9ee39e8a"
+      ],
       "text": "We have the Rejuvenator!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aaeaf273f7d4b4b5d7b3a8a7d33c176599a042585745d40c15483e97cad53a26",
+      "sha256": [
+        "aaeaf273f7d4b4b5d7b3a8a7d33c176599a042585745d40c15483e97cad53a26"
+      ],
       "text": "We have the rejuvinator!",
       "source": "official"
     }

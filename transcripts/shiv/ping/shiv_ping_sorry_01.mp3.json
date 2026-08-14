@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_sorry_01.mp3",
   "revisions": [
     {
-      "sha256": "b60682214564870618f25bc995a4acd6e9ec87d70cc0a7327d00d6b6a013883e",
-      "text": "Sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b3059341178a322011a78ac50cee1e6b529bc0820513b620b6c80b93ec2ee76",
-      "text": "Sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5db612e77b2ceb0436e3b9adec8ffee01a6eab555dc39eab4ec6cdfe1eade432",
+      "sha256": [
+        "4b3059341178a322011a78ac50cee1e6b529bc0820513b620b6c80b93ec2ee76",
+        "5db612e77b2ceb0436e3b9adec8ffee01a6eab555dc39eab4ec6cdfe1eade432",
+        "b60682214564870618f25bc995a4acd6e9ec87d70cc0a7327d00d6b6a013883e"
+      ],
       "text": "Sorry",
       "source": "official"
     }

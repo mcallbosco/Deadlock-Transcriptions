@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "34f9bff1c518567d2994e28766b682438976a1f49eace0bb0c68a62859bf3df6",
+      "sha256": [
+        "0c02e061588ab18739cb81c716c4674e4db1fd6d43d2ec78e927f9aa82441a76",
+        "34f9bff1c518567d2994e28766b682438976a1f49eace0bb0c68a62859bf3df6"
+      ],
       "text": "Calvin's headed to Orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "80e82797f8dbef2b208fe86fbeb7b33a424abb0370e19df2909f4a8eb9e0b2a3",
+      "sha256": [
+        "80e82797f8dbef2b208fe86fbeb7b33a424abb0370e19df2909f4a8eb9e0b2a3"
+      ],
       "text": "Kelvin's headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c02e061588ab18739cb81c716c4674e4db1fd6d43d2ec78e927f9aa82441a76",
-      "text": "Calvin's headed to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

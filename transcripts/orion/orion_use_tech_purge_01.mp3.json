@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_use_tech_purge_01.mp3",
   "revisions": [
     {
-      "sha256": "59ec460e92809a89de0c3c53759860dcceeed6b643e92ca8fd517710121143d9",
+      "sha256": [
+        "59ec460e92809a89de0c3c53759860dcceeed6b643e92ca8fd517710121143d9",
+        "7d99f0f93a191d65ba5012e9172f8fd60397d77219fd9aba755fa4190bce5ac0"
+      ],
       "text": "Is that the best you got?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d99f0f93a191d65ba5012e9172f8fd60397d77219fd9aba755fa4190bce5ac0",
-      "text": "Is that the best you got?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad685c5acf48a91716dbc3242d2f73e2ca26202871f0c6c11bbe1de4d1ede519",
-      "text": "That the best you got?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d462d503312e2298d82839bddeca4af6ad5b9900fb2341cb20620780de584816",
+      "sha256": [
+        "ad685c5acf48a91716dbc3242d2f73e2ca26202871f0c6c11bbe1de4d1ede519",
+        "d462d503312e2298d82839bddeca4af6ad5b9900fb2341cb20620780de584816"
+      ],
       "text": "That the best you got…",
       "source": "official"
     }

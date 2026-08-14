@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "37daa82b89bcba1b522cc682f0ee0d36e559dd4e125d2dc9329f98eab86104ff",
+      "sha256": [
+        "37daa82b89bcba1b522cc682f0ee0d36e559dd4e125d2dc9329f98eab86104ff"
+      ],
       "text": "Go to gank!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ae48e2f9ed928104366ace2da8be8e21c6f63f4042cb46422d2f52a70b75998b",
+      "sha256": [
+        "ae48e2f9ed928104366ace2da8be8e21c6f63f4042cb46422d2f52a70b75998b"
+      ],
       "text": "Going to gank",
       "source": "official"
     }

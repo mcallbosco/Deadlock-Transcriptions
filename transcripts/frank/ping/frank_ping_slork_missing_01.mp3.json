@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_slork_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b8d27563c8b229d5c634e40eda0759b502ec6c54f8949551977880f1cba83a63",
-      "text": "Fathoms missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db3ad32d51c69b590b5ec86bed183b19c43bfc7cf08579df42f80d29076867a3",
+      "sha256": [
+        "b8d27563c8b229d5c634e40eda0759b502ec6c54f8949551977880f1cba83a63",
+        "db3ad32d51c69b590b5ec86bed183b19c43bfc7cf08579df42f80d29076867a3"
+      ],
       "text": "Fathom's missing.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "5a0291b04d695d0f7b5045275c36565303a3d26f86e3b5b6983ba5d85383eb62",
+      "sha256": [
+        "5a0291b04d695d0f7b5045275c36565303a3d26f86e3b5b6983ba5d85383eb62"
+      ],
       "text": "I need those in reverse.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "834bc4828d539157be490ecf103c6326aa8322a29ff105bd284fe33437f6d118",
+      "sha256": [
+        "834bc4828d539157be490ecf103c6326aa8322a29ff105bd284fe33437f6d118"
+      ],
       "text": "I need to deal with groups.",
       "source": "official"
     }

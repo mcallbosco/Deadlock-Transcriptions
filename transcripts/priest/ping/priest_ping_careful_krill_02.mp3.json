@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_careful_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "7b8e7892eb7b79564713021e3ae9ca37e0194552e62cf2b6d3c2ed07c5010d61",
-      "text": "Careful, Krill!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ad582c92feaa7345ac4c13ffd8eb340f7283885b355b71ef5322a0009b9327a",
+      "sha256": [
+        "4ad582c92feaa7345ac4c13ffd8eb340f7283885b355b71ef5322a0009b9327a",
+        "7b8e7892eb7b79564713021e3ae9ca37e0194552e62cf2b6d3c2ed07c5010d61"
+      ],
       "text": "Careful, Krill.",
       "source": "official"
     }

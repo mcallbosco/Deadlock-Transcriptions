@@ -56,13 +56,26 @@ jobs:
           CDN_BASE_URL: ${{ vars.CDN_BASE_URL || 'https://cdn.vlviewer.com' }}
         run: |
           mkdir -p "$RUNNER_TEMP/content-sync"
-          python -m tools.content_sync_cli plan \
-            --repo "$GITHUB_WORKSPACE" \
-            --base "$BASE_COMMIT" \
-            --target "${{ github.event.pull_request.head.sha }}" \
-            --cdn-base-url "$CDN_BASE_URL" \
-            --output-json "$RUNNER_TEMP/content-sync/plan.json" \
-            --output-markdown "$RUNNER_TEMP/content-sync/plan.md"
+          base_schema="$(git show "$BASE_COMMIT:schema.json" | python -c 'import json,sys; print(json.load(sys.stdin)["properties"]["schemaVersion"]["const"])')"
+          target_schema="$(python -c 'import json; print(json.load(open("schema.json", encoding="utf-8"))["properties"]["schemaVersion"]["const"])')"
+          if [[ "$base_schema" != "$target_schema" ]]; then
+            python -m tools.content_sync_cli validate \
+              --repo "$GITHUB_WORKSPACE" \
+              --output-json "$RUNNER_TEMP/content-sync/validation.json"
+            {
+              echo "## Transcript schema transition"
+              echo
+              echo "Validated the complete schema-v${target_schema} repository. Incremental CDN planning is intentionally skipped because the base uses schema v${base_schema}."
+            } > "$RUNNER_TEMP/content-sync/plan.md"
+          else
+            python -m tools.content_sync_cli plan \
+              --repo "$GITHUB_WORKSPACE" \
+              --base "$BASE_COMMIT" \
+              --target "${{ github.event.pull_request.head.sha }}" \
+              --cdn-base-url "$CDN_BASE_URL" \
+              --output-json "$RUNNER_TEMP/content-sync/plan.json" \
+              --output-markdown "$RUNNER_TEMP/content-sync/plan.md"
+          fi
 
       - name: Add plan to the Actions summary
         if: always()

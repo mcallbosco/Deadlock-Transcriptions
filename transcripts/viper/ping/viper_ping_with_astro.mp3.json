@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "29c746713de5646f273cb4c5c79a479278d09ec731776489d966871497892bef",
-      "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d64028fce107015a4ce108aa80b8a969450c6fe543663011af9b1d5c186c75a1",
-      "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9a989bd34a0f79a671717412d91c6324a21be65ee3701e045f7b800f926868e",
+      "sha256": [
+        "29c746713de5646f273cb4c5c79a479278d09ec731776489d966871497892bef",
+        "c9a989bd34a0f79a671717412d91c6324a21be65ee3701e045f7b800f926868e",
+        "d64028fce107015a4ce108aa80b8a969450c6fe543663011af9b1d5c186c75a1"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

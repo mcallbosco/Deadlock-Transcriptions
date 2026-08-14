@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "d791d06242e55f925fbc6f9ff835dcb80c3d9e20eb33962eab5c9c2772752a8f",
+      "sha256": [
+        "d791d06242e55f925fbc6f9ff835dcb80c3d9e20eb33962eab5c9c2772752a8f"
+      ],
       "text": "Head to the green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "858708a11f76f159585325221858a1ac7634c84406b45d025d68e32a09f3f886",
+      "sha256": [
+        "858708a11f76f159585325221858a1ac7634c84406b45d025d68e32a09f3f886"
+      ],
       "text": "Headed to Green.",
       "source": "official"
     }

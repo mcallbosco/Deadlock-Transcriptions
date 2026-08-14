@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_druid_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f60923ba123df703c5ed672d1ddd30f4197871b7bd5b2ff122776db5a318f703",
-      "text": "The druid's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6746742c0ce8d5cd210050d5fb13c88bede1db3106fba911f3463772168e8fcf",
+      "sha256": [
+        "6746742c0ce8d5cd210050d5fb13c88bede1db3106fba911f3463772168e8fcf",
+        "f60923ba123df703c5ed672d1ddd30f4197871b7bd5b2ff122776db5a318f703"
+      ],
       "text": "The druid's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

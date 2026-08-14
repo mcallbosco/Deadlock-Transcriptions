@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "aaf48e13ec075824e4ec1ea107d1663f611dee837658bece6e885a1f6711c809",
-      "text": "I'm with you, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea47a2e0cda3d5e9766294c91a6c058eea8bdb7e5e252d2e9a9ac9bd806de611",
+      "sha256": [
+        "aaf48e13ec075824e4ec1ea107d1663f611dee837658bece6e885a1f6711c809",
+        "ea47a2e0cda3d5e9766294c91a6c058eea8bdb7e5e252d2e9a9ac9bd806de611"
+      ],
       "text": "I'm with you, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "c0908d40a1cf4426c00198257d87b28c4e8e7e4c3c57f10cff9c2e4b93852567",
+      "sha256": [
+        "c0908d40a1cf4426c00198257d87b28c4e8e7e4c3c57f10cff9c2e4b93852567"
+      ],
       "text": "Good afternoon, Bob.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a8195f03e498133eba1e9b491f814f51ac5857019099c3802407db52064dbcab",
-      "text": "Lookout for Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "267891b277edc5b20cea8223073108a0297a4ee52b972a58818ecff861e719b5",
-      "text": "Look out for Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed14869aabccbf5b98dae7e5ef5a914bfaa2611a0e715b436c36f2ab1dc08d93",
+      "sha256": [
+        "267891b277edc5b20cea8223073108a0297a4ee52b972a58818ecff861e719b5",
+        "a8195f03e498133eba1e9b491f814f51ac5857019099c3802407db52064dbcab",
+        "ed14869aabccbf5b98dae7e5ef5a914bfaa2611a0e715b436c36f2ab1dc08d93"
+      ],
       "text": "Look out for Bebop",
       "source": "official"
     }

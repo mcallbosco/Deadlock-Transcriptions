@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_fencer_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5b90f69fe48b90ccab04458c772285229fb607bd03a795d0839e11044bec4ff3",
+      "sha256": [
+        "5b90f69fe48b90ccab04458c772285229fb607bd03a795d0839e11044bec4ff3"
+      ],
       "text": "Apollo was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

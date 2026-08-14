@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_can_heal_wraith.mp3",
   "revisions": [
     {
-      "sha256": "0b144df615a4829fdc7a0a6c88002f53203f40def782460c0f381f66c5c171b9",
+      "sha256": [
+        "0b144df615a4829fdc7a0a6c88002f53203f40def782460c0f381f66c5c171b9"
+      ],
       "text": "Great! I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "004df711b00445180c9ab7810186e484376acc45add257e47e3789e7dc35bfcf",
+      "sha256": [
+        "004df711b00445180c9ab7810186e484376acc45add257e47e3789e7dc35bfcf"
+      ],
       "text": "Wraith, I can heal you!",
       "source": "official"
     }

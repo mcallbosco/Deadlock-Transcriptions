@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "6a39051e28e60744d03fc5c958766abf6c4259d9488262f3cee090ee86c6bd1c",
+      "sha256": [
+        "6a39051e28e60744d03fc5c958766abf6c4259d9488262f3cee090ee86c6bd1c"
+      ],
       "text": "That's good.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "181c2e7e4c6d0e612c24e902fad90f9db27229320da117ff37bc34edf3bfc96f",
-      "text": "Sounds good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4aa808e53f539b2ca7d916bdf911122016ef6dfc25b22c95ce7103a4ff1238a",
-      "text": "Sounds good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a2773a7ffb01d84bade157606dc815de9828e6fdee44d04af489bb932703b92",
+      "sha256": [
+        "181c2e7e4c6d0e612c24e902fad90f9db27229320da117ff37bc34edf3bfc96f",
+        "7a2773a7ffb01d84bade157606dc815de9828e6fdee44d04af489bb932703b92",
+        "e4aa808e53f539b2ca7d916bdf911122016ef6dfc25b22c95ce7103a4ff1238a"
+      ],
       "text": "Sounds good",
       "source": "official"
     }

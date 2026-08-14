@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power3_04.mp3",
   "revisions": [
     {
-      "sha256": "c601975ff8c8c522a6416417aaa497ec679c8d65f7043bed7d13ba738966ff6c",
-      "text": "I'm an efficient hunter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b54998896be0ba8578b0362e72db1ea0c1d94a9c877bc0afb2702435248f2e5b",
-      "text": "I'm an efficient hunter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5df29cfecd2d62a80d5a64faa7da16386f5a4234bf2f8044c1c6950bba3b1104",
+      "sha256": [
+        "5df29cfecd2d62a80d5a64faa7da16386f5a4234bf2f8044c1c6950bba3b1104",
+        "b54998896be0ba8578b0362e72db1ea0c1d94a9c877bc0afb2702435248f2e5b",
+        "c601975ff8c8c522a6416417aaa497ec679c8d65f7043bed7d13ba738966ff6c"
+      ],
       "text": "I'm an efficient hunter.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

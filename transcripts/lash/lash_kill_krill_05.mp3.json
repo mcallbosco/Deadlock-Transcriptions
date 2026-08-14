@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_kill_krill_05.mp3",
   "revisions": [
     {
-      "sha256": "c4d227006e5149bda5c5799f4ac36e1c062c63f992f7d9359dae330ad9b707d6",
+      "sha256": [
+        "c4d227006e5149bda5c5799f4ac36e1c062c63f992f7d9359dae330ad9b707d6"
+      ],
       "text": "Like I've never wrestled with a whale before.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ad406f4369e3f7fb40bc82618b65bd6405dd564eded2193c6cf775a2308d89f6",
-      "text": "Like I've never wrestled a moleman before.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "34ac4b9e02a317ef8b000702c96d3c451e32f2a6ed2780b1d9055871ac2fb98a",
+        "ad406f4369e3f7fb40bc82618b65bd6405dd564eded2193c6cf775a2308d89f6"
+      ],
+      "text": "Like I've never wrestled a moleman before…",
+      "source": "official"
     },
     {
-      "sha256": "df34ba7803be7d0cd3e3c5798775cd5ed3f11b60913e322389cd822db1217f70",
+      "sha256": [
+        "df34ba7803be7d0cd3e3c5798775cd5ed3f11b60913e322389cd822db1217f70"
+      ],
       "text": "Like I've never wrestled a moan man before.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34ac4b9e02a317ef8b000702c96d3c451e32f2a6ed2780b1d9055871ac2fb98a",
-      "text": "Like I've never wrestled a moleman before…",
-      "source": "official"
     }
   ]
 }

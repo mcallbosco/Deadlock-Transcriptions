@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_drifter.mp3",
   "revisions": [
     {
-      "sha256": "87c8e9940cc98f27e5fcdc4bbb8a57e77adb89091b4066803a97310b9cf9aa0e",
+      "sha256": [
+        "87c8e9940cc98f27e5fcdc4bbb8a57e77adb89091b4066803a97310b9cf9aa0e"
+      ],
       "text": "I'm with you, Drifter!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

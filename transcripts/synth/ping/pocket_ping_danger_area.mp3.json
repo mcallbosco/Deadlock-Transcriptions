@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "52059055bd27def99d5b14843317357501f30ad118042cb7baddf27042e8063f",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d00e57450066ce7a9d228e1081a32275770a82eef59b9c3141f2d316e449751c",
+      "sha256": [
+        "52059055bd27def99d5b14843317357501f30ad118042cb7baddf27042e8063f",
+        "d00e57450066ce7a9d228e1081a32275770a82eef59b9c3141f2d316e449751c"
+      ],
       "text": "It's dangerous here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

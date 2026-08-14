@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1a34dbf7c177fd6f481ff4dd10ea8ff149f02e54cf2c4b3df0ab4f6652df09e3",
+      "sha256": [
+        "1a34dbf7c177fd6f481ff4dd10ea8ff149f02e54cf2c4b3df0ab4f6652df09e3",
+        "86df1cc5bb79741bef6a2328ae4b79c553f884d8ce15e71e44faa0a06f9184db"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "86df1cc5bb79741bef6a2328ae4b79c553f884d8ce15e71e44faa0a06f9184db",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a953df83360a2f58e2d95898fa1b1d6f25301fa8b3fa6998293e836d11fb49c2",
+      "sha256": [
+        "a953df83360a2f58e2d95898fa1b1d6f25301fa8b3fa6998293e836d11fb49c2"
+      ],
       "text": "Mirage's missing",
       "source": "official"
     }

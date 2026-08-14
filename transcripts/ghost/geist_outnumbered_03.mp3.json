@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_outnumbered_03.mp3",
   "revisions": [
     {
-      "sha256": "46a87cb44fc87e6e3ed17149de1a83d85d405cb13aee57780bd1390682e96470",
-      "text": "Now is not the time for that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b7e8c6a16154d649e4bd1f58fefa67fb3632869a92faacdee864f22ac727697",
+      "sha256": [
+        "0b7e8c6a16154d649e4bd1f58fefa67fb3632869a92faacdee864f22ac727697",
+        "46a87cb44fc87e6e3ed17149de1a83d85d405cb13aee57780bd1390682e96470"
+      ],
       "text": "Now is not the time for that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

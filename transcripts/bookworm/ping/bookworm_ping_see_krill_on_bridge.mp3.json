@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_krill_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "f6a7fa9a352585380344d6a2a3d1b931975685265604394674f63a83a40f4025",
+      "sha256": [
+        "f6a7fa9a352585380344d6a2a3d1b931975685265604394674f63a83a40f4025"
+      ],
       "text": "Krell's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a491f586a4e513cb461c1c333c2d504850d595f88389fe4828cbaee92a39090",
+      "sha256": [
+        "3a491f586a4e513cb461c1c333c2d504850d595f88389fe4828cbaee92a39090"
+      ],
       "text": "Krill's on the bridge!",
       "source": "official"
     }

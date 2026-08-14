@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_atlas_check_items.mp3",
   "revisions": [
     {
-      "sha256": "c309a7d50c6b38756f9b7dcd7c1127070313a8a256d6d02a779bce730f1037a3",
+      "sha256": [
+        "88c8028d056c44bbd10cca65c7c588a59968f29ca98c7d41b1a0f9c7e5d7721c",
+        "c309a7d50c6b38756f9b7dcd7c1127070313a8a256d6d02a779bce730f1037a3"
+      ],
       "text": "check out what Abrams bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88c8028d056c44bbd10cca65c7c588a59968f29ca98c7d41b1a0f9c7e5d7721c",
-      "text": "Check out what Abrams bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

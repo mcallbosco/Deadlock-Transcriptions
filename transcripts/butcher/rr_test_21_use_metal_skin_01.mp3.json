@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_metal_skin_01.mp3",
   "revisions": [
     {
-      "sha256": "b1441c1d51ceda9a5e3a2a015764b0156170821d0f36584e714b5b9189fd9ffe",
-      "text": "Shoot me all you want.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18c8b13d59be65b989f5e03fdce49f914ee058dc534c2f05d2497f04e03ad394",
-      "text": "Shoot me all you want.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "10d4ff750994b672ca17d4af3185bad8030bde87b2bf1ca82c948963f71f29d1",
+      "sha256": [
+        "10d4ff750994b672ca17d4af3185bad8030bde87b2bf1ca82c948963f71f29d1",
+        "18c8b13d59be65b989f5e03fdce49f914ee058dc534c2f05d2497f04e03ad394",
+        "b1441c1d51ceda9a5e3a2a015764b0156170821d0f36584e714b5b9189fd9ffe"
+      ],
       "text": "Shoot me all you want.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

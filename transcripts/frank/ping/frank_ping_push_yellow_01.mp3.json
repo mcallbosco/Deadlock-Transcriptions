@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "93024a5bf8a41208f77e8b74df60978226f019054c25fe830f1b397e48b3d8f3",
+      "sha256": [
+        "93024a5bf8a41208f77e8b74df60978226f019054c25fe830f1b397e48b3d8f3"
+      ],
       "text": "Good push yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "80f80c33d076f09f1601c26d29738ef2e522f72d22a9904d336f5fdd45d4ecb0",
+      "sha256": [
+        "80f80c33d076f09f1601c26d29738ef2e522f72d22a9904d336f5fdd45d4ecb0"
+      ],
       "text": "Let's push Yellow.",
       "source": "official"
     }

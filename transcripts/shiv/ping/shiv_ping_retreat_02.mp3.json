@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_retreat_02.mp3",
   "revisions": [
     {
-      "sha256": "e6a829925fbea7168dd6994f721c568d86e81badb0e53a13a81d47763a8a1473",
+      "sha256": [
+        "77ce679c36ef737e7a1ddba3bed30a5840a38c2216d8a5220a2e38cdd01ab818",
+        "e6a829925fbea7168dd6994f721c568d86e81badb0e53a13a81d47763a8a1473"
+      ],
       "text": "I said pull back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f37a918d248ae40095fd1b9e73dc63c6cbe6fcf48078868c329c4ed5f88954eb",
+      "sha256": [
+        "f37a918d248ae40095fd1b9e73dc63c6cbe6fcf48078868c329c4ed5f88954eb"
+      ],
       "text": "I said go back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77ce679c36ef737e7a1ddba3bed30a5840a38c2216d8a5220a2e38cdd01ab818",
-      "text": "I said pull back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

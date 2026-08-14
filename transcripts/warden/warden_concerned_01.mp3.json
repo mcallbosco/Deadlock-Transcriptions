@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_concerned_01.mp3",
   "revisions": [
     {
-      "sha256": "564f6c0c764188c56e3ce8cb8facb399746282a9d55dff350bf9c1f50f7216f4",
-      "text": "This is a problem.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0af459271b6fa3c7837e06e220d325ed4c735f1bc48d57562127ccc43748b981",
-      "text": "This is a problem.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e8b3dc29f55e02a97626ac1e190559395b98017a76dff86522f56639d18bf96",
-      "text": "This is a problem.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8cd981b3bb7d6bc063db4374812f6284d01e51599fdefaab96ed8bf03e3bac81",
+      "sha256": [
+        "0af459271b6fa3c7837e06e220d325ed4c735f1bc48d57562127ccc43748b981",
+        "1e8b3dc29f55e02a97626ac1e190559395b98017a76dff86522f56639d18bf96",
+        "564f6c0c764188c56e3ce8cb8facb399746282a9d55dff350bf9c1f50f7216f4",
+        "8cd981b3bb7d6bc063db4374812f6284d01e51599fdefaab96ed8bf03e3bac81"
+      ],
       "text": "This is a problem.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

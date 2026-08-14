@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_inferno_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "32410707e60c02228c5db50c0ce10f8224decfa5b14f43648b90c9938c48f84b",
+      "sha256": [
+        "32410707e60c02228c5db50c0ce10f8224decfa5b14f43648b90c9938c48f84b"
+      ],
       "text": "The furnace on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0dd6b25c16945711de436e8e341fda4a8bfc059ec327f8b569b8202f1a18a287",
+      "sha256": [
+        "0dd6b25c16945711de436e8e341fda4a8bfc059ec327f8b569b8202f1a18a287"
+      ],
       "text": "Infernus's on top of the garage!",
       "source": "official"
     }

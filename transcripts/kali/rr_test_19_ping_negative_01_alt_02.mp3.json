@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_negative_01_alt_02.mp3",
   "revisions": [
     {
-      "sha256": "c1bd39d5b49c52685f2a19a4e60587870f013db6c7b7079828e815f5857e5c2e",
+      "sha256": [
+        "c1bd39d5b49c52685f2a19a4e60587870f013db6c7b7079828e815f5857e5c2e"
+      ],
       "text": "This is a deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "68a418ec56e59b54bca740aad02f13c6102e13f087ec7033f46d539b4cf73141",
-      "text": "I am Deadlock.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06da717c987b271c19b53add60056f53fd25417d84fd72c74bbe9943cc656fbb",
+      "sha256": [
+        "06da717c987b271c19b53add60056f53fd25417d84fd72c74bbe9943cc656fbb",
+        "68a418ec56e59b54bca740aad02f13c6102e13f087ec7033f46d539b4cf73141"
+      ],
       "text": "I am Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

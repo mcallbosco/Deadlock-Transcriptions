@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "24678440c2f115bc2e613f6d1f5f0e3659a9aa59c8e982d3470d68a83fba3f1d",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bcbbbe3e2b81d138b28ef872419cc3d7206246e41afa0040d5019d5553c9f90d",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c949992952c21df8a139bba7ce6b45f5dabaa91926379e0e8211e257962bc3d4",
+      "sha256": [
+        "24678440c2f115bc2e613f6d1f5f0e3659a9aa59c8e982d3470d68a83fba3f1d",
+        "bcbbbe3e2b81d138b28ef872419cc3d7206246e41afa0040d5019d5553c9f90d",
+        "c949992952c21df8a139bba7ce6b45f5dabaa91926379e0e8211e257962bc3d4"
+      ],
       "text": "I see Yamato",
       "source": "official"
     }

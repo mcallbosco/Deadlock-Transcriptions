@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_krill.mp3",
   "revisions": [
     {
-      "sha256": "e4c28b23318322d50605ce8d303705245e5efd7f8b68c13c5095d3727cd81fea",
+      "sha256": [
+        "e4c28b23318322d50605ce8d303705245e5efd7f8b68c13c5095d3727cd81fea"
+      ],
       "text": "What's up, crew?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d4de8da88a942c32872919c701e3cd2ff3f8fea19091eefe324fa237973e9342",
-      "text": "I saw Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da510fe46e410d23b9a2906397fc2b8265d034247ecd2406de523a0086047882",
+      "sha256": [
+        "d4de8da88a942c32872919c701e3cd2ff3f8fea19091eefe324fa237973e9342",
+        "da510fe46e410d23b9a2906397fc2b8265d034247ecd2406de523a0086047882"
+      ],
       "text": "I saw Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

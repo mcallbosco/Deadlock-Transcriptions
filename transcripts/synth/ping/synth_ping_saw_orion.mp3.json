@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_saw_orion.mp3",
   "revisions": [
     {
-      "sha256": "8c55ada03423f3c9ec437deb099fd7bf9103ee9f6c5fc7c81c5265be140e958c",
+      "sha256": [
+        "8c55ada03423f3c9ec437deb099fd7bf9103ee9f6c5fc7c81c5265be140e958c"
+      ],
       "text": "I saw Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

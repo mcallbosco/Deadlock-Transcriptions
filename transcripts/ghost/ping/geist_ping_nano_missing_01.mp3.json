@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_nano_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "880914d040ab31f589b2fd7cd5b876131b6eef3852f90dd21d9cbaee03bc03f1",
-      "text": "Calico is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "98cbbdda66b4818532ddf92b05726688f1d4235103146617d3877e069462d737",
+      "sha256": [
+        "880914d040ab31f589b2fd7cd5b876131b6eef3852f90dd21d9cbaee03bc03f1",
+        "98cbbdda66b4818532ddf92b05726688f1d4235103146617d3877e069462d737"
+      ],
       "text": "Calico is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

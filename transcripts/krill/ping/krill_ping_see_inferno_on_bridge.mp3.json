@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_inferno_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "9281df43bb05dfe2abb3349c80a0ada77504a3274a86c7bf015fbd07c74aefd0",
+      "sha256": [
+        "9281df43bb05dfe2abb3349c80a0ada77504a3274a86c7bf015fbd07c74aefd0",
+        "f3e677a0a0d02999be22f0164f323437c383f04145979754e7abd90881d9fec2"
+      ],
       "text": "Infernus is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f3e677a0a0d02999be22f0164f323437c383f04145979754e7abd90881d9fec2",
-      "text": "Infernus is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cbe1d3938690e6d16412ab983ec30eb0277be7a7f74491cb74f80852d7e33a4f",
+      "sha256": [
+        "cbe1d3938690e6d16412ab983ec30eb0277be7a7f74491cb74f80852d7e33a4f"
+      ],
       "text": "Infernus's on the bridge!",
       "source": "official"
     }

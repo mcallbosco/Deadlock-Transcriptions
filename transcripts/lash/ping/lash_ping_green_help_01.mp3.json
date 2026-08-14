@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_green_help_01.mp3",
   "revisions": [
     {
-      "sha256": "a490bb62ec3da7419e51d6b74deadffd97e48d31538fbb42ec6a8dc2c3c443e0",
+      "sha256": [
+        "895195088650b6c6175995d04d2ae4590012634054caec8a42c7d7ca5fbb7526",
+        "a490bb62ec3da7419e51d6b74deadffd97e48d31538fbb42ec6a8dc2c3c443e0"
+      ],
       "text": "Hey, Green needs help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "895195088650b6c6175995d04d2ae4590012634054caec8a42c7d7ca5fbb7526",
-      "text": "Hey, Green needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e19e18dc11fbdeeeda0627c0362885cbca2c00fef2aae1c6a60620079bc1d60d",
+      "sha256": [
+        "e19e18dc11fbdeeeda0627c0362885cbca2c00fef2aae1c6a60620079bc1d60d"
+      ],
       "text": "Green needs help!",
       "source": "official"
     }

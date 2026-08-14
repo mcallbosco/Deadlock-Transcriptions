@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_can_heal_viscous.mp3",
   "revisions": [
     {
-      "sha256": "7e49f6b351b56b659066f1590e592e67c6ffa676ae96e1bd027fa5ccfbd20934",
+      "sha256": [
+        "52fc622c1e8db566e13385cd827f48223f268d54d8ea963ece4f026c5bbd2c37",
+        "7e49f6b351b56b659066f1590e592e67c6ffa676ae96e1bd027fa5ccfbd20934"
+      ],
       "text": "This is how I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52fc622c1e8db566e13385cd827f48223f268d54d8ea963ece4f026c5bbd2c37",
-      "text": "This is how I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

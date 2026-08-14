@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "1900c4f55aff60344f7e5a8d07b2a7c3226f20741a389e0a13e9680ffd875fe8",
+      "sha256": [
+        "1900c4f55aff60344f7e5a8d07b2a7c3226f20741a389e0a13e9680ffd875fe8",
+        "61446435f7f99e8fb68f9c91ae84d9676c9aa6b37d3197a254f6fb00c4b76f4d"
+      ],
       "text": "I still love you, Mo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "61446435f7f99e8fb68f9c91ae84d9676c9aa6b37d3197a254f6fb00c4b76f4d",
-      "text": "I still love you, Mo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45dcd91dbe7b8ad9b0c047def116152d01a3338acdbe3ca033bbf3ec4a443f9d",
+      "sha256": [
+        "45dcd91dbe7b8ad9b0c047def116152d01a3338acdbe3ca033bbf3ec4a443f9d"
+      ],
       "text": "I still love ya Mo.",
       "source": "official"
     }

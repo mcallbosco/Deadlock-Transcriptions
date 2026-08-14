@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "d72755736f8b93ff0b826dfe85a7c44cb2461bb645361cae414ade70c7ab6877",
+      "sha256": [
+        "d72755736f8b93ff0b826dfe85a7c44cb2461bb645361cae414ade70c7ab6877"
+      ],
       "text": "One step closer to answers.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

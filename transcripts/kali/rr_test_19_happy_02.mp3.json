@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_happy_02.mp3",
   "revisions": [
     {
-      "sha256": "1b6f3dc7e29e7b99791bab7f75c26400e8a4f36caa29a984a5af2b7dcb050150",
+      "sha256": [
+        "1b6f3dc7e29e7b99791bab7f75c26400e8a4f36caa29a984a5af2b7dcb050150"
+      ],
       "text": "Everything's gonna get",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a73322d74957adcb5f839c97364047eea8e02e1f0d5bbf72a5d4af8cf995b5c",
-      "text": "Everything's connected.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e412f386f32a0eb1349330b173eef7a881dd5c3f1b36bb5f9ef4cc20ecd3a5f",
+      "sha256": [
+        "3a73322d74957adcb5f839c97364047eea8e02e1f0d5bbf72a5d4af8cf995b5c",
+        "5e412f386f32a0eb1349330b173eef7a881dd5c3f1b36bb5f9ef4cc20ecd3a5f"
+      ],
       "text": "Everything's connected.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

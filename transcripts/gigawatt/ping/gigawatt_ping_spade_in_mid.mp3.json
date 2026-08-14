@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_spade_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "6895754263d988879c5011b703ccd8208ad6ec9e5850263967b5d3ba6fe911a9",
+      "sha256": [
+        "6895754263d988879c5011b703ccd8208ad6ec9e5850263967b5d3ba6fe911a9",
+        "bad9c9bd1411d78fd79deccc6edb6d8fbefba7768f7c56bec58f18d0c0585e6e"
+      ],
       "text": "Spinehead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bad9c9bd1411d78fd79deccc6edb6d8fbefba7768f7c56bec58f18d0c0585e6e",
-      "text": "Spinehead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

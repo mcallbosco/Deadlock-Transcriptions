@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "dd21a4a5634cb0baa4d59f604274d9ba692557be7e6a63b2d4312eb3f4d33d18",
+      "sha256": [
+        "dd21a4a5634cb0baa4d59f604274d9ba692557be7e6a63b2d4312eb3f4d33d18"
+      ],
       "text": "You were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d34bd3617d955fd9c0fa89f516df7b086511f47cad61168d135bd89197459018",
+      "sha256": [
+        "6985a23f545d46ff0d21102afee6a387133a7d05f3c01147428cf51a9bcf9650",
+        "d34bd3617d955fd9c0fa89f516df7b086511f47cad61168d135bd89197459018"
+      ],
       "text": "And we're here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6985a23f545d46ff0d21102afee6a387133a7d05f3c01147428cf51a9bcf9650",
-      "text": "And we're here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

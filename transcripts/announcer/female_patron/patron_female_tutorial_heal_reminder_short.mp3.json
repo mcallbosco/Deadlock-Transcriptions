@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_heal_reminder_short.mp3",
   "revisions": [
     {
-      "sha256": "02bda70cf6dc194f16c46d7dbc81850fd71b2ec943ea639012fe18c5bcc74f8d",
-      "text": "Head back to base to heal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bee8652020789fe79e7df9932a413f0eb2ea21f07ba305e9d4e7b05ae294a3d1",
-      "text": "Head back to base to heal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "adc9f1b8ad9e08e1565c120931d04e32b25e618294b23b9005acd220960fef88",
+      "sha256": [
+        "02bda70cf6dc194f16c46d7dbc81850fd71b2ec943ea639012fe18c5bcc74f8d",
+        "adc9f1b8ad9e08e1565c120931d04e32b25e618294b23b9005acd220960fef88",
+        "bee8652020789fe79e7df9932a413f0eb2ea21f07ba305e9d4e7b05ae294a3d1"
+      ],
       "text": "Head back to base to heal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

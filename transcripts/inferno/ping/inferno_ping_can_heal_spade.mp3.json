@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_can_heal_spade.mp3",
   "revisions": [
     {
-      "sha256": "fa92d65523ac6b0787f7d58ca1e3fbd7ca72e565f130aa01e91ee5f5a5d86616",
-      "text": "I can heal you, Spade.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "569969cdcb4a45044aac593e7933955249cae16d47616eafb880771981aa56f2",
+      "sha256": [
+        "569969cdcb4a45044aac593e7933955249cae16d47616eafb880771981aa56f2",
+        "fa92d65523ac6b0787f7d58ca1e3fbd7ca72e565f130aa01e91ee5f5a5d86616"
+      ],
       "text": "I can heal you, Spade.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

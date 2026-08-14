@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "3c0b44846904a1a8ac46678d58a47bb98951571537903eec3012f85ba23a0e90",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7dfde27ed3fe440c2452ac3531417760f779d29475ea500d774ed12926a95c79",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22c27d6b087346f538e1e419ab80fab320466852b2c28ce2880140afda132f9d",
+      "sha256": [
+        "22c27d6b087346f538e1e419ab80fab320466852b2c28ce2880140afda132f9d",
+        "3c0b44846904a1a8ac46678d58a47bb98951571537903eec3012f85ba23a0e90",
+        "7dfde27ed3fe440c2452ac3531417760f779d29475ea500d774ed12926a95c79"
+      ],
       "text": "Careful, Calico…",
       "source": "official"
     }

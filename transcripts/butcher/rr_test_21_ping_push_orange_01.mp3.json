@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_push_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "41f48748a0fa5677e7892914114a99efe8f4ddf4a81b6f306aef70dc438556e4",
-      "text": "Let's push orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48f2d9553b8834507f945c7bd08fff139a4cf4090477881dd37043891d485d52",
-      "text": "Let's push orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b99d40288648b30036df5d2ff2ba09307662bee723cf314bb63898d513ad3e35",
+      "sha256": [
+        "41f48748a0fa5677e7892914114a99efe8f4ddf4a81b6f306aef70dc438556e4",
+        "48f2d9553b8834507f945c7bd08fff139a4cf4090477881dd37043891d485d52",
+        "b99d40288648b30036df5d2ff2ba09307662bee723cf314bb63898d513ad3e35"
+      ],
       "text": "Let's push orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_lash_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "eb4571a4c215df56bae9f801f95d39cbcc6f1e1d983fbb15d361b3e37a29d8ac",
+      "sha256": [
+        "eb4571a4c215df56bae9f801f95d39cbcc6f1e1d983fbb15d361b3e37a29d8ac"
+      ],
       "text": "Flashes on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f74a81a12b10347aed161a0d7bf2d56ffd69e7289fa77dc11bcb5bfc3fa703d5",
+      "sha256": [
+        "f74a81a12b10347aed161a0d7bf2d56ffd69e7289fa77dc11bcb5bfc3fa703d5"
+      ],
       "text": "Lash's on the roof!",
       "source": "official"
     }

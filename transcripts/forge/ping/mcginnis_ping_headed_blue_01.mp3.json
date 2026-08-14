@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "d6faf97a6ba71a11d8e66a587e647de1c69506ba313bdc814742cd85f098992e",
-      "text": "Headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "208006039895d704c61c0996de160cbb13156efdfe6a42d6cc6d824fce764513",
+      "sha256": [
+        "208006039895d704c61c0996de160cbb13156efdfe6a42d6cc6d824fce764513",
+        "d6faf97a6ba71a11d8e66a587e647de1c69506ba313bdc814742cd85f098992e"
+      ],
       "text": "Headed to blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

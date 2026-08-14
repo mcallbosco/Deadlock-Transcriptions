@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_parry_03.mp3",
   "revisions": [
     {
-      "sha256": "7003ee09b2104198012dd4e86d7b812a77517205a993f23ee6804f47a0092af3",
+      "sha256": [
+        "3b7df96b5f94d8b1b74e2049eeb1a4c4334df500dfc06aa15835e0c367442247",
+        "7003ee09b2104198012dd4e86d7b812a77517205a993f23ee6804f47a0092af3"
+      ],
       "text": "You trying to punch me?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3b7df96b5f94d8b1b74e2049eeb1a4c4334df500dfc06aa15835e0c367442247",
-      "text": "You trying to punch me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a937fe39edd033871cb250927212c603c6c26d53041c67a45128c9cac6b5cf7",
+      "sha256": [
+        "2a937fe39edd033871cb250927212c603c6c26d53041c67a45128c9cac6b5cf7"
+      ],
       "text": "You tryin' to punch me?",
       "source": "official"
     }

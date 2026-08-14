@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "c9494b3fa3c686d4e506c79c683a14c38895c8cedae3e556e2a12dcc81b95cb9",
+      "sha256": [
+        "c9494b3fa3c686d4e506c79c683a14c38895c8cedae3e556e2a12dcc81b95cb9"
+      ],
       "text": "How was you, Bebop?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "85070b37f4487f21434b42356779f5cc571fa461d52630c6c9b3cde0a23bc27e",
-      "text": "I'm with you, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d632d87e73a2737c02f53c7c0f133e6944ef93e3a795662971129c05eb4ffe9",
+      "sha256": [
+        "0d632d87e73a2737c02f53c7c0f133e6944ef93e3a795662971129c05eb4ffe9",
+        "85070b37f4487f21434b42356779f5cc571fa461d52630c6c9b3cde0a23bc27e"
+      ],
       "text": "I'm with you, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

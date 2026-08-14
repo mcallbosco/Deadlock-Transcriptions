@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_push_green_01.mp3",
   "revisions": [
     {
-      "sha256": "ff040a30ee33d58a2627e703905bb5e06b25fadb109dd47517fd20b4a1e2a0f1",
+      "sha256": [
+        "ff040a30ee33d58a2627e703905bb5e06b25fadb109dd47517fd20b4a1e2a0f1"
+      ],
       "text": "Let's push green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

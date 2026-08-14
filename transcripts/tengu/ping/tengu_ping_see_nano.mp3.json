@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_nano.mp3",
   "revisions": [
     {
-      "sha256": "e2a6118cfa4b3d8132b148b831b4fad54dd69ce58adeae63e2774feebf56a61c",
-      "text": "I see Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1fab110e0985fd5811befdf15644e903cf1446c1270d88b4c22bebad6559ce8f",
+      "sha256": [
+        "1fab110e0985fd5811befdf15644e903cf1446c1270d88b4c22bebad6559ce8f",
+        "e2a6118cfa4b3d8132b148b831b4fad54dd69ce58adeae63e2774feebf56a61c"
+      ],
       "text": "I see Calico",
       "source": "official"
     }

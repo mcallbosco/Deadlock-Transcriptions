@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "43d4e986b4f6151fdefbef5388a7e29d7dc38b32b0de944e5180e53a19f64f0d",
+      "sha256": [
+        "43d4e986b4f6151fdefbef5388a7e29d7dc38b32b0de944e5180e53a19f64f0d"
+      ],
       "text": "I see you, boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "242b2b877c8e7108cc0fae93c289f033c5393cca9e6db45a402cbdc2565fdfed",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11e61bcc23df4a668c1231f0a109869fdc0c6777ac0339d13914b9ed3bbbefa2",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c80e0a467b15c5a6d84f2e97acb65fc5e305bb1d944ea9bfa0fee43e90cfcadb",
+      "sha256": [
+        "11e61bcc23df4a668c1231f0a109869fdc0c6777ac0339d13914b9ed3bbbefa2",
+        "242b2b877c8e7108cc0fae93c289f033c5393cca9e6db45a402cbdc2565fdfed",
+        "c80e0a467b15c5a6d84f2e97acb65fc5e305bb1d944ea9bfa0fee43e90cfcadb"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

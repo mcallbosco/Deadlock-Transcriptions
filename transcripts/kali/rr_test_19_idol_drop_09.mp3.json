@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_idol_drop_09.mp3",
   "revisions": [
     {
-      "sha256": "13e4388503ff88f5f20c173cf88584f730b0f85f8a9cab26eb13559409d6c4f3",
+      "sha256": [
+        "13e4388503ff88f5f20c173cf88584f730b0f85f8a9cab26eb13559409d6c4f3"
+      ],
       "text": "Got it, captain!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9e7fc8c50c1e475c06feee76b8e078c1aaa392ac269d85b521f29a4c396cf4ca",
+      "sha256": [
+        "8db82d68daf36a2e0ef81e0c1a3d05bc9317de05d983f4632f9bed97f3429e84",
+        "9e7fc8c50c1e475c06feee76b8e078c1aaa392ac269d85b521f29a4c396cf4ca"
+      ],
       "text": "Game over!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8db82d68daf36a2e0ef81e0c1a3d05bc9317de05d983f4632f9bed97f3429e84",
-      "text": "Game over.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

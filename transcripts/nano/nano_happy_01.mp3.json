@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/nano_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "161b9a82bf15d06397c86b5609309069bb825b954760db43412b668434683a46",
+      "sha256": [
+        "161b9a82bf15d06397c86b5609309069bb825b954760db43412b668434683a46"
+      ],
       "text": "This is rather delightful, isn't it?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

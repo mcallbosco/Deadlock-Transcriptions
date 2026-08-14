@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_ghost_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "346318d6daaa78e07b931d64775d3110c4aff9995ebfc584cd129699a148ed79",
-      "text": "Cross is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e36034b57c85ae5e4d9fbe286b3373edb066944fb58f50cf1cd7d7ed3251fe36",
+      "sha256": [
+        "346318d6daaa78e07b931d64775d3110c4aff9995ebfc584cd129699a148ed79",
+        "e36034b57c85ae5e4d9fbe286b3373edb066944fb58f50cf1cd7d7ed3251fe36"
+      ],
       "text": "Cross is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

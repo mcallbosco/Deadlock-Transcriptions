@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_kill_atlas_02.mp3",
   "revisions": [
     {
-      "sha256": "f57be095088c23ae8f3e0ebfc47a3d0e54aca5bb516820c1e13c59e570771b31",
-      "text": "Leave us alone, Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "727dd65e67bf5ae49e1904bf02096d747fb31a0911abb1b790474de8d50fdba8",
+      "sha256": [
+        "727dd65e67bf5ae49e1904bf02096d747fb31a0911abb1b790474de8d50fdba8",
+        "f57be095088c23ae8f3e0ebfc47a3d0e54aca5bb516820c1e13c59e570771b31"
+      ],
       "text": "Leave us alone Abrams!",
       "source": "official"
     }

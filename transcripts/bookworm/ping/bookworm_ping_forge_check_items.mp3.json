@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_forge_check_items.mp3",
   "revisions": [
     {
-      "sha256": "0d70244bb1b243cbc2746a939ff50ec71faa86c19d2f5c8b5a84c1deb089c9bf",
-      "text": "Check out what McGinnis bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f654c523f65689c9333e2fa8dfb07cc298027b912791b9342bbbf07f37baf988",
+      "sha256": [
+        "0d70244bb1b243cbc2746a939ff50ec71faa86c19d2f5c8b5a84c1deb089c9bf",
+        "f654c523f65689c9333e2fa8dfb07cc298027b912791b9342bbbf07f37baf988"
+      ],
       "text": "Check out what McGinnis bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

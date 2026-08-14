@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_shiv_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "f76e7f03cc1c419c7c4805e7467cc920d54f117ad7042abcea42a4066ab9cdce",
+      "sha256": [
+        "f76e7f03cc1c419c7c4805e7467cc920d54f117ad7042abcea42a4066ab9cdce"
+      ],
       "text": "She's on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "710e20932992d7e3f4d7ac27cb9419041a2540f463e89596e22dcf81ab06c357",
+      "sha256": [
+        "710e20932992d7e3f4d7ac27cb9419041a2540f463e89596e22dcf81ab06c357"
+      ],
       "text": "Shiv's on top of the garage!",
       "source": "official"
     }

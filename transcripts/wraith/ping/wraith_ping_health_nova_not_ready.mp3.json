@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_health_nova_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "1df3f5c1b6983155b4d848cfa896254c9786db380d0a0ef49d85db3988ef9c12",
-      "text": "Health Nova's on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b1d42a9d396398c7fbc22b82ef6aa6fc46392635fe55079780832a15e65e37f0",
-      "text": "Health Nova's on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6fb3a63c4060541ca273fc91c4425f8d2f2d60d58b7678d6ca37541f3c435dc8",
+      "sha256": [
+        "1df3f5c1b6983155b4d848cfa896254c9786db380d0a0ef49d85db3988ef9c12",
+        "6fb3a63c4060541ca273fc91c4425f8d2f2d60d58b7678d6ca37541f3c435dc8",
+        "b1d42a9d396398c7fbc22b82ef6aa6fc46392635fe55079780832a15e65e37f0"
+      ],
       "text": "Health Nova's on cooldown",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_match_win_07.mp3",
   "revisions": [
     {
-      "sha256": "578417bfd94b1c2b4050131d17abe621f578cbc40eec9d929d3cf5ca351e64f6",
-      "text": "You have earned the patron's favor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c7a1aa38e90129759e637b6a6cf3e0b38cc9886c42e42f6d3fe9a49b5906c4c",
+      "sha256": [
+        "4c7a1aa38e90129759e637b6a6cf3e0b38cc9886c42e42f6d3fe9a49b5906c4c",
+        "578417bfd94b1c2b4050131d17abe621f578cbc40eec9d929d3cf5ca351e64f6"
+      ],
       "text": "You have earned the patron's favor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

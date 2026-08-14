@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "74ccff10ccdbd1f2aed8a9baf389ed7900145e37574db4985c52745d70625d55",
-      "text": "I'm coming for you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46a8920070391dbee53855adfb20a77c84474037bc04627dc02ceb8b21911fbd",
-      "text": "I'm coming for you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af9d94e62b547ed6bf67220bd0854965f9908ca29a633c5e3438415d14ac6420",
+      "sha256": [
+        "46a8920070391dbee53855adfb20a77c84474037bc04627dc02ceb8b21911fbd",
+        "74ccff10ccdbd1f2aed8a9baf389ed7900145e37574db4985c52745d70625d55",
+        "af9d94e62b547ed6bf67220bd0854965f9908ca29a633c5e3438415d14ac6420"
+      ],
       "text": "I'm coming for you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

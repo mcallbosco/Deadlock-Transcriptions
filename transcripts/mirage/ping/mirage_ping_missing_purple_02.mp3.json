@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_missing_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "c589a7b35750a925ae3a20b06c4ffff8c20f28050f7d953b10906b492e6df8b8",
+      "sha256": [
+        "3c1997c1b3928633ae6c6a15de8e3d2e075ff9ab6a10598c013337fbd6a73881",
+        "c589a7b35750a925ae3a20b06c4ffff8c20f28050f7d953b10906b492e6df8b8"
+      ],
       "text": "This in Park!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3c1997c1b3928633ae6c6a15de8e3d2e075ff9ab6a10598c013337fbd6a73881",
-      "text": "This in Park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eaeebe56de9c0fc80d5357100e430620c31371120e860e010b9e3910db4538bf",
+      "sha256": [
+        "eaeebe56de9c0fc80d5357100e430620c31371120e860e010b9e3910db4538bf"
+      ],
       "text": "Trading pork.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

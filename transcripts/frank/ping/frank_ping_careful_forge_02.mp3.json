@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_forge_02.mp3",
   "revisions": [
     {
-      "sha256": "51f43c7c142364003efa3ae594e0d83ff357749769c371578a6b49c2f6b9d90a",
-      "text": "Careful, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d86a169298a7cba64a28295ce7f3c64b0839f229052f82140f2e0c58b0650f84",
+      "sha256": [
+        "51f43c7c142364003efa3ae594e0d83ff357749769c371578a6b49c2f6b9d90a",
+        "d86a169298a7cba64a28295ce7f3c64b0839f229052f82140f2e0c58b0650f84"
+      ],
       "text": "Careful, McGinnis.",
       "source": "official"
     }

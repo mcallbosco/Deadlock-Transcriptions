@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_careful_grey_talon_02.mp3",
   "revisions": [
     {
-      "sha256": "e727b55a3027b71b1531d77b1327e24cf9d89ab3727381063621ba1594c3b8a3",
+      "sha256": [
+        "0b66a31b027edf12cd4b364adcdfe8aecccc992b160e1297e6f2b80fe1cc66bf",
+        "e727b55a3027b71b1531d77b1327e24cf9d89ab3727381063621ba1594c3b8a3"
+      ],
       "text": "Careful, Talon!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b66a31b027edf12cd4b364adcdfe8aecccc992b160e1297e6f2b80fe1cc66bf",
-      "text": "Careful, Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

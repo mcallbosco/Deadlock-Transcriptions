@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c2ae29d244d6bf1ebd4414f9d6b2ccbf63a13685451a060ad9fee598419f7022",
+      "sha256": [
+        "c2ae29d244d6bf1ebd4414f9d6b2ccbf63a13685451a060ad9fee598419f7022"
+      ],
       "text": "Talk it was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "284e25b30bb7470f58d0561967c517b87d26a55dda94c6d8bf1835eb9399b65a",
+      "sha256": [
+        "14d0107e0685cd45399ba3b32ac64a28d1bc0b5715b12e21351dee712aa9a466",
+        "284e25b30bb7470f58d0561967c517b87d26a55dda94c6d8bf1835eb9399b65a",
+        "90355b9c836b2e0647afec9952f3f62901526f636557a348f3c13cca17a66a22"
+      ],
       "text": "Pocket was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90355b9c836b2e0647afec9952f3f62901526f636557a348f3c13cca17a66a22",
-      "text": "Pocket was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "14d0107e0685cd45399ba3b32ac64a28d1bc0b5715b12e21351dee712aa9a466",
-      "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

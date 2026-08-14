@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "bf0bd26843ba05302dc5af3bd2a60e0c798c4e5f97809adae15575a6e60a655c",
-      "text": "He's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39a884ea6a94986d6641282550799c5fa2175beda4f3f72907015df4a9dfe7a1",
+      "sha256": [
+        "39a884ea6a94986d6641282550799c5fa2175beda4f3f72907015df4a9dfe7a1",
+        "bf0bd26843ba05302dc5af3bd2a60e0c798c4e5f97809adae15575a6e60a655c"
+      ],
       "text": "He's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

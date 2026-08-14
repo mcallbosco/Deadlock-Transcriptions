@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_use_power1_01.mp3",
   "revisions": [
     {
-      "sha256": "f063fd5f08aff75772c9d4a312503295646647dc3c0861cff26d14319a7dc658",
+      "sha256": [
+        "f063fd5f08aff75772c9d4a312503295646647dc3c0861cff26d14319a7dc658"
+      ],
       "text": "That's blast.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "56a1e6b7e19112c164da0fbadb8831ae7d8bff653916f22ad462ca6d12220d41",
-      "text": "Tornado!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33617aeca936f9c5ad8ca9bf967a7e5ee567a8bf97f99221e56826731d164e30",
-      "text": "Tornado!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b596e9c712dc71e398a7d6ec2bdd1d74e9916b16e5ae6fb41c5ef6931264a587",
+      "sha256": [
+        "33617aeca936f9c5ad8ca9bf967a7e5ee567a8bf97f99221e56826731d164e30",
+        "56a1e6b7e19112c164da0fbadb8831ae7d8bff653916f22ad462ca6d12220d41",
+        "b596e9c712dc71e398a7d6ec2bdd1d74e9916b16e5ae6fb41c5ef6931264a587"
+      ],
       "text": "Tornado!",
       "source": "official"
     }

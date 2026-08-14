@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_dynamo_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "74bcaff0e8e6729d5da0fec8a5562c9f658b8ec5aa1bca478f06e55bf0782a87",
+      "sha256": [
+        "74bcaff0e8e6729d5da0fec8a5562c9f658b8ec5aa1bca478f06e55bf0782a87"
+      ],
       "text": "Dynamo was almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d6d84fef185b392a9fe14a5459f70e7f753e443cc0384928133184ea1afe658f",
-      "text": "Dynamo is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e5ed18c7107d4820b16a6a3be00ae91302975b6edfc7728c29fbf12d283aa17",
+      "sha256": [
+        "9e5ed18c7107d4820b16a6a3be00ae91302975b6edfc7728c29fbf12d283aa17",
+        "d6d84fef185b392a9fe14a5459f70e7f753e443cc0384928133184ea1afe658f"
+      ],
       "text": "Dynamo is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

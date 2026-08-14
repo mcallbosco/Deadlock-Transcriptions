@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "518829e79d208026316911619960e5f00e4fa4cfacfacbe581142f150c90bb23",
+      "sha256": [
+        "518829e79d208026316911619960e5f00e4fa4cfacfacbe581142f150c90bb23",
+        "b2d2d64a05b1f613947ad8e83a8f2f8646ff5f9546b5b52abec6cebb6060adf6"
+      ],
       "text": "I'm with you, Krill!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2d2d64a05b1f613947ad8e83a8f2f8646ff5f9546b5b52abec6cebb6060adf6",
-      "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

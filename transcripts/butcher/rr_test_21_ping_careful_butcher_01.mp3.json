@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_butcher_01.mp3",
   "revisions": [
     {
-      "sha256": "8f519ecf380820cc8f596143684cf48dcfc2bfd85a4353aebf37138640a652f6",
-      "text": "Careful, pusher!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6431e411725fc7db146bc18724f46a73eb016fb25c3983b714f2cff7fd8633a",
-      "text": "Careful, pusher!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "306f8ca711a7b8976768707e56f0347b018cb875818ee501cf10788f6107f436",
+      "sha256": [
+        "306f8ca711a7b8976768707e56f0347b018cb875818ee501cf10788f6107f436",
+        "8f519ecf380820cc8f596143684cf48dcfc2bfd85a4353aebf37138640a652f6",
+        "f6431e411725fc7db146bc18724f46a73eb016fb25c3983b714f2cff7fd8633a"
+      ],
       "text": "Careful, pusher!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

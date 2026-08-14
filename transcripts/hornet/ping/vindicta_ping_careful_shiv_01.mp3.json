@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_careful_shiv_01.mp3",
   "revisions": [
     {
-      "sha256": "128e30bde6d62f0adde8193d1ca96f5b1ccfd75041963a9ff7f370be1bdcb306",
+      "sha256": [
+        "128e30bde6d62f0adde8193d1ca96f5b1ccfd75041963a9ff7f370be1bdcb306"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "135af1f3ef87ee2d5ad6cf942760c0cb29291de72c07969edaa23abc7c6909f2",
+      "sha256": [
+        "135af1f3ef87ee2d5ad6cf942760c0cb29291de72c07969edaa23abc7c6909f2",
+        "aae4e025b940d6d011365a4c129434759eeeafd371162102d07b2561859b8895"
+      ],
       "text": "Careful, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "293f6545600a6d2154e4e227dc7bba4889138d343f1265bcbf6225bb4400a95d",
+      "sha256": [
+        "293f6545600a6d2154e4e227dc7bba4889138d343f1265bcbf6225bb4400a95d"
+      ],
       "text": "Careful, Sage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aae4e025b940d6d011365a4c129434759eeeafd371162102d07b2561859b8895",
-      "text": "Careful, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

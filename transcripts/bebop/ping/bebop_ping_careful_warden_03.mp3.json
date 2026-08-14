@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_warden_03.mp3",
   "revisions": [
     {
-      "sha256": "ae2f0d821fdc87881188cfe534f9ffcaf89a19ffcc29be3157dabc2a66665a5e",
-      "text": "Careful, Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8745c52cfdc08c1e9b02829c2a56083b15c289157b853134edb1b11e0a03abb7",
+      "sha256": [
+        "8745c52cfdc08c1e9b02829c2a56083b15c289157b853134edb1b11e0a03abb7",
+        "ae2f0d821fdc87881188cfe534f9ffcaf89a19ffcc29be3157dabc2a66665a5e"
+      ],
       "text": "Careful, Warden!",
       "source": "official"
     }

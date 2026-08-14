@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_careful_haze_02.mp3",
   "revisions": [
     {
-      "sha256": "224f0f0c98c17fea8e218cc70d92bbfbd4486d5b8aa6d2686616e93d5b5e6642",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "09fb043fff12efec57855fcd9948396304d21b8a30ecc1d956d2865be80c5cac",
+        "224f0f0c98c17fea8e218cc70d92bbfbd4486d5b8aa6d2686616e93d5b5e6642"
+      ],
+      "text": "Careful, Haze",
+      "source": "official"
     },
     {
-      "sha256": "e1fbc821221a2d74de2eef7a886126d24c66e0a32426b031bd66df392a750430",
+      "sha256": [
+        "a658311f97e6eda33574286f1812873b2e12c4c4b31787fde98477b607995d3e",
+        "e1fbc821221a2d74de2eef7a886126d24c66e0a32426b031bd66df392a750430"
+      ],
       "text": "Careful, Ace.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a658311f97e6eda33574286f1812873b2e12c4c4b31787fde98477b607995d3e",
-      "text": "Careful, ace.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09fb043fff12efec57855fcd9948396304d21b8a30ecc1d956d2865be80c5cac",
-      "text": "Careful, Haze",
-      "source": "official"
     }
   ]
 }

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_power2_01.mp3",
   "revisions": [
     {
-      "sha256": "02339b5eeef65f7ce20e3d5105855db22c1dd58c1760b6d9e7dc8971fd89f6d9",
-      "text": "DIVE!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e1bfb56add422aa09f6f82814a3eb4362b2e9f07851f7f9016121463ea225b7",
+      "sha256": [
+        "02339b5eeef65f7ce20e3d5105855db22c1dd58c1760b6d9e7dc8971fd89f6d9",
+        "0e1bfb56add422aa09f6f82814a3eb4362b2e9f07851f7f9016121463ea225b7",
+        "68e7ec338acf460fc393434e85eab609ce21c7496b9815c6ed4d9e2302682650"
+      ],
       "text": "Dive!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "88f7baf2146f08ef6dfd40f95df58b3e9047a9d76a5d17daba2d1efeff328470",
+      "sha256": [
+        "88f7baf2146f08ef6dfd40f95df58b3e9047a9d76a5d17daba2d1efeff328470"
+      ],
       "text": "Die!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68e7ec338acf460fc393434e85eab609ce21c7496b9815c6ed4d9e2302682650",
-      "text": "Dive!",
-      "source": "official"
     }
   ]
 }

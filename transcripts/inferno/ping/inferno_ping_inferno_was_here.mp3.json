@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_inferno_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0fed2c34979093548b45edc47d1ec53ffcfb109173d8753c0ca0b8f88f29aeea",
+      "sha256": [
+        "0fed2c34979093548b45edc47d1ec53ffcfb109173d8753c0ca0b8f88f29aeea",
+        "836ae2d6448b63bf206e747359993b082ae1464ea1aa81a32cbea8ee744d6383"
+      ],
       "text": "Guess I know who's here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "836ae2d6448b63bf206e747359993b082ae1464ea1aa81a32cbea8ee744d6383",
-      "text": "Guess I know who's here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

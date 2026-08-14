@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_headed_green_02.mp3",
   "revisions": [
     {
-      "sha256": "6c6dee0f2a6d5115b1263945c6297a2f029146b0989510ee05642cdf9e228cff",
-      "text": "Headed to Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfa0f2bb0eaee32cc01b16a56ec43a00ac7ce616e84e3942524f620b146a2e72",
+      "sha256": [
+        "6c6dee0f2a6d5115b1263945c6297a2f029146b0989510ee05642cdf9e228cff",
+        "bfa0f2bb0eaee32cc01b16a56ec43a00ac7ce616e84e3942524f620b146a2e72"
+      ],
       "text": "Headed to Greenwich.",
       "source": "official"
     }

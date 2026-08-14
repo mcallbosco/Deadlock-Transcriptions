@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_sumo_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c69c446993c1931a181b2b9d9b37a7dc204ec2b4723816567b7e33a7b6a2448d",
-      "text": "Sumo's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c31e0f3ee041f8526c9f34d7b9423eb43ed34aa6db6ac74bdd2990ef31fa174",
+      "sha256": [
+        "5c31e0f3ee041f8526c9f34d7b9423eb43ed34aa6db6ac74bdd2990ef31fa174",
+        "c69c446993c1931a181b2b9d9b37a7dc204ec2b4723816567b7e33a7b6a2448d"
+      ],
       "text": "Sumo's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

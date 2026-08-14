@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_killed_by_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "083c8be09a6bad2c000cc6fa3f715f34c57a90e763db9ba33006c4f5e6779c28",
-      "text": "Getting close to Warden is dangerous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ef6d14be265db96a80290a22c6966ca04fb3b3a43db67e064313e3d4a2b3dee",
-      "text": "Getting close to warden is dangerous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9020333d5c0d77b61313b83f26b14e1c446a12aad080da4a2c8eb47bab6df22d",
+      "sha256": [
+        "083c8be09a6bad2c000cc6fa3f715f34c57a90e763db9ba33006c4f5e6779c28",
+        "1ef6d14be265db96a80290a22c6966ca04fb3b3a43db67e064313e3d4a2b3dee",
+        "9020333d5c0d77b61313b83f26b14e1c446a12aad080da4a2c8eb47bab6df22d"
+      ],
       "text": "Getting close to Warden is dangerous.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

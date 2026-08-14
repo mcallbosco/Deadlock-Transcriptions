@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "34d6f31136b7e60171dfb26d32de5a7a3283aee1ce3566273cb2e34b465733b4",
+      "sha256": [
+        "34d6f31136b7e60171dfb26d32de5a7a3283aee1ce3566273cb2e34b465733b4"
+      ],
       "text": "Marosh, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8101d494af9cbbc0e3cf0c165f794c5812d210dcb643c11971cc69321fce7c7f",
+      "sha256": [
+        "8101d494af9cbbc0e3cf0c165f794c5812d210dcb643c11971cc69321fce7c7f"
+      ],
       "text": "Mirage, I can heal you!",
       "source": "official"
     }

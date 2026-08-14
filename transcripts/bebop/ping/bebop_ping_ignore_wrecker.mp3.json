@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_ignore_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "7e0c2765c0affa749db84ebde221b91f5c0a373593560f304aa29a09aa68dd35",
+      "sha256": [
+        "7e0c2765c0affa749db84ebde221b91f5c0a373593560f304aa29a09aa68dd35"
+      ],
       "text": "Hey, no wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_forge_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "baa636737efe257b469e6d7c1801ae67b43be7ffe681927e9f7adafdc112af3f",
+      "sha256": [
+        "baa636737efe257b469e6d7c1801ae67b43be7ffe681927e9f7adafdc112af3f"
+      ],
       "text": "The Guinness is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4945ec5653f159919346f1e6759acb5ec0ee840d90994e39e7d1df9d103aec8d",
+      "sha256": [
+        "4945ec5653f159919346f1e6759acb5ec0ee840d90994e39e7d1df9d103aec8d"
+      ],
       "text": "McGinnis's on top of the garage!",
       "source": "official"
     }

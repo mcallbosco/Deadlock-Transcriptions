@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "fc956d878a4ec7fa10dacd79017f8b17ae94d41f7b63a063285ef2937cefa36c",
+      "sha256": [
+        "fc956d878a4ec7fa10dacd79017f8b17ae94d41f7b63a063285ef2937cefa36c"
+      ],
       "text": "How are you doing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "15f6ccbd6ebde0ddd0d058d196a4a6cb9ae364ce4c82872233cdb6d7f5475907",
+      "sha256": [
+        "15f6ccbd6ebde0ddd0d058d196a4a6cb9ae364ce4c82872233cdb6d7f5475907"
+      ],
       "text": "Claude, how you doing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

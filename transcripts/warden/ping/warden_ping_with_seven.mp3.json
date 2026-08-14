@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_seven.mp3",
   "revisions": [
     {
-      "sha256": "621106cf1ba049dd2f4b21bdc3d1b815dc3ce419345b6db16f9a8f83c643280f",
-      "text": "I'm with you, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bb63507dfa6388bdaa8a95934ad967d4f009e6b331a1ed7b407b05ad5c4cd9fd",
-      "text": "I'm with you, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39335e0105fcfbde08386fd03a0cc34cdf6cc009651fb75cb7080109c85ceb01",
+      "sha256": [
+        "39335e0105fcfbde08386fd03a0cc34cdf6cc009651fb75cb7080109c85ceb01",
+        "621106cf1ba049dd2f4b21bdc3d1b815dc3ce419345b6db16f9a8f83c643280f",
+        "bb63507dfa6388bdaa8a95934ad967d4f009e6b331a1ed7b407b05ad5c4cd9fd"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

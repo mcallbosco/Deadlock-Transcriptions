@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_nano.mp3",
   "revisions": [
     {
-      "sha256": "76de7987b2f0c6ce3073499293e094449594ade966854d3c58c74429cc9a964e",
+      "sha256": [
+        "76de7987b2f0c6ce3073499293e094449594ade966854d3c58c74429cc9a964e"
+      ],
       "text": "I see Carico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ddc1a4433c4d022e891a485413168661f7ea20befdabfc60b95da1e0c87b543",
+      "sha256": [
+        "4ddc1a4433c4d022e891a485413168661f7ea20befdabfc60b95da1e0c87b543"
+      ],
       "text": "I see Calico",
       "source": "official"
     }

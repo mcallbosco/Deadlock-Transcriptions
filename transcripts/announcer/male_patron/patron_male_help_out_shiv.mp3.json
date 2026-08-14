@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_help_out_shiv.mp3",
   "revisions": [
     {
-      "sha256": "11416db7c9c0d49200f99cd68b62609b2550b27ed2802f0052a01864dbb01a99",
+      "sha256": [
+        "11416db7c9c0d49200f99cd68b62609b2550b27ed2802f0052a01864dbb01a99",
+        "ab5408342dab816fe023a5fb2e8a949abf2f33402845b5c1cd6d3142d7e3ef8a"
+      ],
       "text": "Shiv needs your support!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab5408342dab816fe023a5fb2e8a949abf2f33402845b5c1cd6d3142d7e3ef8a",
-      "text": "Shiv needs your support.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

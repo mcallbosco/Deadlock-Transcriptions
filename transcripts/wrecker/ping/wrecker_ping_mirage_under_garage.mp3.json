@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "84ef5f60647e321fc5f9ce199270b75abafbb2e254c29a7140136f528c47f9c6",
-      "text": "Mirage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "65fdc7b274cf8ef7ba1277d0fd9d5bc36ba9f1c90c599b9dc14e8f0ec184006f",
+      "sha256": [
+        "65fdc7b274cf8ef7ba1277d0fd9d5bc36ba9f1c90c599b9dc14e8f0ec184006f",
+        "84ef5f60647e321fc5f9ce199270b75abafbb2e254c29a7140136f528c47f9c6"
+      ],
       "text": "Mirage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

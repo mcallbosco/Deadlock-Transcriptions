@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_killstreak_high_01.mp3",
   "revisions": [
     {
-      "sha256": "f34761e52d61f528b7dfc28fb69fd84960e25707e9ea0a8fcb163fd012161b70",
-      "text": "New York is my city!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b896532ff40912247dabce0fc8fafbde88f45c2f7880e9a5e3ef749d76080653",
+      "sha256": [
+        "b896532ff40912247dabce0fc8fafbde88f45c2f7880e9a5e3ef749d76080653",
+        "f34761e52d61f528b7dfc28fb69fd84960e25707e9ea0a8fcb163fd012161b70"
+      ],
       "text": "New York is my city!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

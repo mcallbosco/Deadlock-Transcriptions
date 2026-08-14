@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_upgrade_power1_01.mp3",
   "revisions": [
     {
-      "sha256": "c434cc04be35fef9de923212b57d1a17854af3204b71d777f89152a01cb6531c",
+      "sha256": [
+        "70b31ecf02cd2716c4c7af6337b2e1f887572b1a65bd79fcdde0d0e052875bb1",
+        "c434cc04be35fef9de923212b57d1a17854af3204b71d777f89152a01cb6531c"
+      ],
       "text": "Supernatural.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "70b31ecf02cd2716c4c7af6337b2e1f887572b1a65bd79fcdde0d0e052875bb1",
-      "text": "Supernatural.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08ff8a758e58276f0ba765dc8889b2f1ccf3be6a7f2c3cd04fe9f6688af32e22",
+      "sha256": [
+        "08ff8a758e58276f0ba765dc8889b2f1ccf3be6a7f2c3cd04fe9f6688af32e22"
+      ],
       "text": "I'll show 'em a little knife work",
       "source": "official"
     }

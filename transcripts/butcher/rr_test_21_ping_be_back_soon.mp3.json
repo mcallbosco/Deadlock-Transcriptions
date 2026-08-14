@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_be_back_soon.mp3",
   "revisions": [
     {
-      "sha256": "10f151ca797f80cc33e378ba206cd75c4f516cae2407a66791fd249b64569cde",
-      "text": "Be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb581422bd2f6b7d0a612cab8a1208e004b5fe8e00a1bfd63f08deba4034263e",
-      "text": "Be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58a9bda76e67e6b61850f6b3cbd0f82941b4b0f9b1644d45143aaa36c84c611b",
+      "sha256": [
+        "10f151ca797f80cc33e378ba206cd75c4f516cae2407a66791fd249b64569cde",
+        "58a9bda76e67e6b61850f6b3cbd0f82941b4b0f9b1644d45143aaa36c84c611b",
+        "eb581422bd2f6b7d0a612cab8a1208e004b5fe8e00a1bfd63f08deba4034263e"
+      ],
       "text": "Be right back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_forge_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "ac62ec9c43a19a6918a42f7b5b31bd8c95132275f29681074cb0315c8d4c61d0",
+      "sha256": [
+        "ac62ec9c43a19a6918a42f7b5b31bd8c95132275f29681074cb0315c8d4c61d0",
+        "f6f437c8330a7ee387a40fa0e3005ace11b8318b60e267adb39e05de3ef8a378"
+      ],
       "text": "McGinnis is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f6f437c8330a7ee387a40fa0e3005ace11b8318b60e267adb39e05de3ef8a378",
-      "text": "McGinnis is under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cd722d7cb2ebd2926e92ceefb72e3a20de2fc2fae797cef21b09d592006982c",
+      "sha256": [
+        "9cd722d7cb2ebd2926e92ceefb72e3a20de2fc2fae797cef21b09d592006982c"
+      ],
       "text": "McGinnis's under the garage!",
       "source": "official"
     }

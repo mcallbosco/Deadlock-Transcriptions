@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_calico_03.mp3",
   "revisions": [
     {
-      "sha256": "2382a27403a2351f2ac7b052bc4cbb4d90d7bf0925584e185ef1797ad15bda8c",
-      "text": "Careful, Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d1e21923061c40fc903cdf2e97b35413df9b006a18e01b4243f25b02440ccd5",
+      "sha256": [
+        "1d1e21923061c40fc903cdf2e97b35413df9b006a18e01b4243f25b02440ccd5",
+        "2382a27403a2351f2ac7b052bc4cbb4d90d7bf0925584e185ef1797ad15bda8c"
+      ],
       "text": "Careful, Calico!",
       "source": "official"
     }

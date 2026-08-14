@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_atlas_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "cb46143c61bed087d856660c004bcc5c7fda79260b383563488a813f7a0e81e0",
+      "sha256": [
+        "cb46143c61bed087d856660c004bcc5c7fda79260b383563488a813f7a0e81e0"
+      ],
       "text": "Abrams on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ad44b5975047894500ac0ae6399a64ed3f93206ce7b5fbc3222552dcb8efd105",
+      "sha256": [
+        "ad44b5975047894500ac0ae6399a64ed3f93206ce7b5fbc3222552dcb8efd105"
+      ],
       "text": "Abrams's on top of the garage!",
       "source": "official"
     }

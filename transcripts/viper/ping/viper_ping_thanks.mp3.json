@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "770d0092d2a918d672fcbaf8e6d7b5aaae1539c1df243042919cd828d842a7cb",
+      "sha256": [
+        "770d0092d2a918d672fcbaf8e6d7b5aaae1539c1df243042919cd828d842a7cb"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_inferno_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "28b3166285060883a71ef9daa1f6a4b6220d4da1d60ec511f933315af591a1a4",
+      "sha256": [
+        "28b3166285060883a71ef9daa1f6a4b6220d4da1d60ec511f933315af591a1a4"
+      ],
       "text": "Verdness is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ced925722eb294dfc9c3206620225fb47e604e4ab65eeba9138422b11cc31e23",
+      "sha256": [
+        "ced925722eb294dfc9c3206620225fb47e604e4ab65eeba9138422b11cc31e23"
+      ],
       "text": "Infernus's on the roof!",
       "source": "official"
     }

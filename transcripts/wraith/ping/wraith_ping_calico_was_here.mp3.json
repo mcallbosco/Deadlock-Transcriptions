@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_calico_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c91431212c6529fe914f6017e7f22681de24501b1e0168ad663210e20790dc47",
-      "text": "Calico was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1baef01a4eb33aca7fe12aa7e443f794199b8a75e444143978b62175e24cce1",
-      "text": "Calico was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "055f3d11375d74b6993187068a5ce8046201a3b329ecc47e1bf691d4caaf7f8b",
+      "sha256": [
+        "055f3d11375d74b6993187068a5ce8046201a3b329ecc47e1bf691d4caaf7f8b",
+        "a1baef01a4eb33aca7fe12aa7e443f794199b8a75e444143978b62175e24cce1",
+        "c91431212c6529fe914f6017e7f22681de24501b1e0168ad663210e20790dc47"
+      ],
       "text": "Calico was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

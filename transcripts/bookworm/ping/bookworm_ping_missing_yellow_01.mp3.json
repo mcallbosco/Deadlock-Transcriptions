@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "f8b8895a8974ef8895e4dc5a1e562ec72f0fc856fe55a438b28023a93cb96316",
-      "text": "Missing yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92bd16f70b4e558957aef7c027598ea694d02ec96d315e19a2f19c427a350509",
+      "sha256": [
+        "92bd16f70b4e558957aef7c027598ea694d02ec96d315e19a2f19c427a350509",
+        "f8b8895a8974ef8895e4dc5a1e562ec72f0fc856fe55a438b28023a93cb96316"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

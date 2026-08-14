@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_leaving_area_01.mp3",
   "revisions": [
     {
-      "sha256": "c9cc971d9f5826cd21ae6b6915ccac88e706c329556ff918da7501ce1c5da25a",
-      "text": "You're on your own for now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "301456c2f0fe9bd83553e16f567ec39e7722daeeafb4a485d6014cd95e60ab50",
-      "text": "You're on your own for now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a588c624c94cc47c29f6fe07f18b99297a6666eba9cc30e73e15416d0622513",
+      "sha256": [
+        "301456c2f0fe9bd83553e16f567ec39e7722daeeafb4a485d6014cd95e60ab50",
+        "8a588c624c94cc47c29f6fe07f18b99297a6666eba9cc30e73e15416d0622513",
+        "c9cc971d9f5826cd21ae6b6915ccac88e706c329556ff918da7501ce1c5da25a"
+      ],
       "text": "You're on your own for now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

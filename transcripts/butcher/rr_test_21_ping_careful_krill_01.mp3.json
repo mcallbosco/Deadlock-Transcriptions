@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "6267f92cfc6cac84566cdf42f59e0a55a36b31838caf0a562b2b3b05ce70e7d0",
-      "text": "Careful, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e5dcf8ba6c573ec5aec190aa6bc18126091c4eb66e4e5538ef4ebd0aad1013a",
-      "text": "Careful, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "073aa5a5997416c4e7dda22d8491ccc5268071d76b9010d4479d5924209d3c4b",
+      "sha256": [
+        "073aa5a5997416c4e7dda22d8491ccc5268071d76b9010d4479d5924209d3c4b",
+        "6267f92cfc6cac84566cdf42f59e0a55a36b31838caf0a562b2b3b05ce70e7d0",
+        "8e5dcf8ba6c573ec5aec190aa6bc18126091c4eb66e4e5538ef4ebd0aad1013a"
+      ],
       "text": "Careful, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

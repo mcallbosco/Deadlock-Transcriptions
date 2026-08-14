@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7c7194cd41ff86bd656f535b8a913b2ae50294a72b90b3ea636bbf53a16cda29",
+      "sha256": [
+        "7c7194cd41ff86bd656f535b8a913b2ae50294a72b90b3ea636bbf53a16cda29"
+      ],
       "text": "Talk is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

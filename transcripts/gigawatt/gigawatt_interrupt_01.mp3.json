@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_interrupt_01.mp3",
   "revisions": [
     {
-      "sha256": "54ed7a45990ac375b5412b4484682be203c75d2cfc4cadf91f496fde1cbad401",
+      "sha256": [
+        "54ed7a45990ac375b5412b4484682be203c75d2cfc4cadf91f496fde1cbad401"
+      ],
       "text": "Now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "717dab5c224c8e90d8de6e8cb9749b67abd477df95e13cf224bb7d8244f427a4",
+      "sha256": [
+        "4034fc6a8b83c9b57bf5e8f623dea7cae1d2f5b2b26eb7da57d932822bc65a6b",
+        "717dab5c224c8e90d8de6e8cb9749b67abd477df95e13cf224bb7d8244f427a4"
+      ],
       "text": "You know.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4034fc6a8b83c9b57bf5e8f623dea7cae1d2f5b2b26eb7da57d932822bc65a6b",
-      "text": "You know",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "51dcd1f43797f6f1df849bbd5a542c28787805f9813bbebc243f28b2f1421f5d",
+      "sha256": [
+        "51dcd1f43797f6f1df849bbd5a542c28787805f9813bbebc243f28b2f1421f5d"
+      ],
       "text": "No.",
       "source": "official"
     }

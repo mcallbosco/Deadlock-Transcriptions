@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "110a99cd7790507a02ab38c8198d5e1cd10d5d0a3b013cb604c91567b44473b7",
+      "sha256": [
+        "110a99cd7790507a02ab38c8198d5e1cd10d5d0a3b013cb604c91567b44473b7"
+      ],
       "text": "I'll see you at",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cffee58ed07a9f66f0090a2d3a303c5586332e0b56fe74153924673e62cb9c32",
+      "sha256": [
+        "cffee58ed07a9f66f0090a2d3a303c5586332e0b56fe74153924673e62cb9c32"
+      ],
       "text": "I see Wraith",
       "source": "official"
     }

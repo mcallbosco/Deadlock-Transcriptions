@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_kill_chrono_01.mp3",
   "revisions": [
     {
-      "sha256": "995d133abdbaaf1bf2fb382a39910a479f1d9a43178d0cbc2a0fe0aa461f806e",
+      "sha256": [
+        "343708f3fb2f40b50f0595682b088506b420b0ff9bd3facf8f6f086a47febaec",
+        "995d133abdbaaf1bf2fb382a39910a479f1d9a43178d0cbc2a0fe0aa461f806e"
+      ],
       "text": "Look out, Paradox!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "343708f3fb2f40b50f0595682b088506b420b0ff9bd3facf8f6f086a47febaec",
-      "text": "Look out, Paradox!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ffa4fa669b9a79f354601e94a53d810c3ef53a3f0744864863db136c91477b59",
+      "sha256": [
+        "ffa4fa669b9a79f354601e94a53d810c3ef53a3f0744864863db136c91477b59"
+      ],
       "text": "Took out Paradox!",
       "source": "official"
     }

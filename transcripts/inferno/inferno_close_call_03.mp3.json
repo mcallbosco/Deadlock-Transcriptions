@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_close_call_03.mp3",
   "revisions": [
     {
-      "sha256": "ead0c4840d9d6875f66374f8826f705ac55fb08530a97167cc6cdc7808fc3f16",
+      "sha256": [
+        "ead0c4840d9d6875f66374f8826f705ac55fb08530a97167cc6cdc7808fc3f16"
+      ],
       "text": "Everyone ready?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f948e1e1bae62afab75d2bd753615bc18b38cc34984ab18a585dc968974b25c",
+      "sha256": [
+        "1f948e1e1bae62afab75d2bd753615bc18b38cc34984ab18a585dc968974b25c",
+        "7bbf1ac3614ad12e176c3c6b17eb75bfe7c96e260c38eb627cf06806b2495d15"
+      ],
       "text": "That could have gone bad.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7bbf1ac3614ad12e176c3c6b17eb75bfe7c96e260c38eb627cf06806b2495d15",
-      "text": "That could have gone bad.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4b590e56b271e44ccd9fd3be147b3c1b70d34589ed1bb143743c708b0b8cd94",
+      "sha256": [
+        "a4b590e56b271e44ccd9fd3be147b3c1b70d34589ed1bb143743c708b0b8cd94"
+      ],
       "text": "That could've went bad.",
       "source": "official"
     }

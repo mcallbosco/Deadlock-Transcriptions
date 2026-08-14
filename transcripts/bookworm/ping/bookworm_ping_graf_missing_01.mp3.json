@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_graf_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "99ee6ea58f502c4114a36c0f3da6fc8ed98f8c7e22be0979bd395f5c6f134769",
+      "sha256": [
+        "99ee6ea58f502c4114a36c0f3da6fc8ed98f8c7e22be0979bd395f5c6f134769"
+      ],
       "text": "Graphic missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cf2f9c80eb3871c2fe602f2b108e0df31b6e29edc3f8456aa1cbc48857147846",
+      "sha256": [
+        "cf2f9c80eb3871c2fe602f2b108e0df31b6e29edc3f8456aa1cbc48857147846"
+      ],
       "text": "Class missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

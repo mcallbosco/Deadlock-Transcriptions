@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "849d2ddb8309fe542830743890db833a3b35f46529ecdbb548d0098a13f50283",
-      "text": "I see Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "818c55eada19a3b34e64882eee9ed47ce4e073991324b599007a8020062acd05",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "98af8c7653734d454ea3125fbda9671f0b2f33469e6cfed9649ad741fd0fafbf",
+      "sha256": [
+        "818c55eada19a3b34e64882eee9ed47ce4e073991324b599007a8020062acd05",
+        "849d2ddb8309fe542830743890db833a3b35f46529ecdbb548d0098a13f50283",
+        "98af8c7653734d454ea3125fbda9671f0b2f33469e6cfed9649ad741fd0fafbf"
+      ],
       "text": "I see Kelvin",
       "source": "official"
     }

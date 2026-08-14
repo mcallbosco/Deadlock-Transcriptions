@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_krill_03.mp3",
   "revisions": [
     {
-      "sha256": "fd02ceba2ad4084b312e7dee3b87a3ea930e15cac0b45b220bb4aba67de33341",
-      "text": "Careful, Krill!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f4e7d07e6278aca196243d72f462ec0819f8c5f45700dbf81cdf4d1bd497b4b",
+      "sha256": [
+        "7f4e7d07e6278aca196243d72f462ec0819f8c5f45700dbf81cdf4d1bd497b4b",
+        "fd02ceba2ad4084b312e7dee3b87a3ea930e15cac0b45b220bb4aba67de33341"
+      ],
       "text": "Careful, Krill!",
       "source": "official"
     }

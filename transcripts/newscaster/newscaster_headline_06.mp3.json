@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/newscaster_headline_06.mp3",
   "revisions": [
     {
-      "sha256": "6404ba7269ffe2aef253250edcc944a6fa1652d4d92cf3d04af100f8f9ebbf34",
-      "text": "The New York Oracle, bringing the future to the present for over 20 years.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "27070e39813aed0f0d4ac2efde730fbfcea4475885cfff1df39565381e6deca9",
+      "sha256": [
+        "27070e39813aed0f0d4ac2efde730fbfcea4475885cfff1df39565381e6deca9",
+        "6404ba7269ffe2aef253250edcc944a6fa1652d4d92cf3d04af100f8f9ebbf34"
+      ],
       "text": "The New York Oracle, bringing the future to the present for over 20 years.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

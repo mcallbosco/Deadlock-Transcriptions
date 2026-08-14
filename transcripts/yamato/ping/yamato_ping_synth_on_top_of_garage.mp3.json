@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_synth_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "5dfae1e8e31b88fefa483f9f9883f96cd48cb386cbf0375f7db73373293986b9",
+      "sha256": [
+        "5dfae1e8e31b88fefa483f9f9883f96cd48cb386cbf0375f7db73373293986b9"
+      ],
       "text": "Tuck it on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6f96f4f664d82280dfea6fb3e0454ef90ac2093cc9b89a1c02f210a2d69b7945",
-      "text": "Pocket's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c531b4bd806b3bcabc13508efec251100a0ed77ede5980a3fa8595aed8612e75",
+      "sha256": [
+        "6f96f4f664d82280dfea6fb3e0454ef90ac2093cc9b89a1c02f210a2d69b7945",
+        "c531b4bd806b3bcabc13508efec251100a0ed77ede5980a3fa8595aed8612e75"
+      ],
       "text": "Pocket's on top of the garage!",
       "source": "official"
     }

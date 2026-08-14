@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_pocket_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6b114b464e8410c99328f5f715358250f7fafc6e9fc85cc15c9f93a7ee0c94c5",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbcae251239ec97dddea11438ffa319d192173d897a2fcf772f1e07948f5544d",
+      "sha256": [
+        "6b114b464e8410c99328f5f715358250f7fafc6e9fc85cc15c9f93a7ee0c94c5",
+        "fbcae251239ec97dddea11438ffa319d192173d897a2fcf772f1e07948f5544d"
+      ],
       "text": "Pocket's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

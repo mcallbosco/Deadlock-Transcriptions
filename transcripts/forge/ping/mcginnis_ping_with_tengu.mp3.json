@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_with_tengu.mp3",
   "revisions": [
     {
-      "sha256": "eccaeb24e74841a712b4e5ebff6e5153a80b3f37fccf1b11a480a874a7b32105",
+      "sha256": [
+        "0007059e7e2883150cf6f3278ccb5276e357c3d84f1dbb6d27f705c465ca7c77",
+        "eccaeb24e74841a712b4e5ebff6e5153a80b3f37fccf1b11a480a874a7b32105"
+      ],
       "text": "I'm with you, Ivy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0007059e7e2883150cf6f3278ccb5276e357c3d84f1dbb6d27f705c465ca7c77",
-      "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

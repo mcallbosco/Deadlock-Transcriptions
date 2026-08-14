@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "22e0cdebc47634777877c140be40c08f0f992331a08984de471bb153bd0b258f",
+      "sha256": [
+        "22e0cdebc47634777877c140be40c08f0f992331a08984de471bb153bd0b258f"
+      ],
       "text": "The doorman was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

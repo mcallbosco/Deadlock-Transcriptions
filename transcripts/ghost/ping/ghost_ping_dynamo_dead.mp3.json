@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "0d4935ce92e2785efdffdbfdfc81e8854b5561c71710bde24a8320a4c8a4b862",
+      "sha256": [
+        "0d4935ce92e2785efdffdbfdfc81e8854b5561c71710bde24a8320a4c8a4b862"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

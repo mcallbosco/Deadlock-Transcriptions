@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_slork_01.mp3",
   "revisions": [
     {
-      "sha256": "9a1de7f6f26749b0858f3cc1183d18d9ab067171726212231720931bd1220c36",
-      "text": "Careful, Fathom.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c80b35ef8934bb6fb82612219f3299c3a83b3cc0b7449fa139a2d69862ce8bda",
+      "sha256": [
+        "9a1de7f6f26749b0858f3cc1183d18d9ab067171726212231720931bd1220c36",
+        "c80b35ef8934bb6fb82612219f3299c3a83b3cc0b7449fa139a2d69862ce8bda"
+      ],
       "text": "Careful, Fathom…",
       "source": "official"
     }

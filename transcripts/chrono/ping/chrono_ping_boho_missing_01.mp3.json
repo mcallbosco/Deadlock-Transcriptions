@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_boho_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "25a3a0aa8acebeac1e31fb299fcf9192bf5d4324675ac35d85e49f42d281bd08",
+      "sha256": [
+        "25a3a0aa8acebeac1e31fb299fcf9192bf5d4324675ac35d85e49f42d281bd08"
+      ],
       "text": "The witch is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_inferno_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "6e97501f49b5b206ed2e9556a8b6baa6d518f781d788d0e9b2807a2af445f638",
+      "sha256": [
+        "401e08c1876f6398c611e8273c4a469452a7a8ee81f3d178e4056fca642d60ac",
+        "6e97501f49b5b206ed2e9556a8b6baa6d518f781d788d0e9b2807a2af445f638"
+      ],
       "text": "The furnace is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "401e08c1876f6398c611e8273c4a469452a7a8ee81f3d178e4056fca642d60ac",
-      "text": "The furnace is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e0b115a29ac97770a329b60348747069ef08260aebbc8621f38b91d9108efd6",
+      "sha256": [
+        "5e0b115a29ac97770a329b60348747069ef08260aebbc8621f38b91d9108efd6"
+      ],
       "text": "Infernus's on the roof!",
       "source": "official"
     }

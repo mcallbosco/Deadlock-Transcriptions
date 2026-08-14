@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_careful_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "ccc2d9afce676f766f13063fe6c48a9736b322c349750ee64b7df138ae0c9019",
-      "text": "Careful, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "963c3f36dac1319aa2f8b3902b669ce43a641f4d14afdbac794942406b3cfee2",
+      "sha256": [
+        "963c3f36dac1319aa2f8b3902b669ce43a641f4d14afdbac794942406b3cfee2",
+        "ccc2d9afce676f766f13063fe6c48a9736b322c349750ee64b7df138ae0c9019"
+      ],
       "text": "Careful, Bebop.",
       "source": "official"
     }

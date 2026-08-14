@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_idol_drop_10.mp3",
   "revisions": [
     {
-      "sha256": "c743d26c377fb800767c14fbc2a897dfa29261968deb4ff725e1f17d3ac4783e",
-      "text": "Do I make a play for the idol?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f4f01ae5de4201e836d4aed510b7956d65d28380a3dab80468e92bd8267bd21",
+      "sha256": [
+        "2f4f01ae5de4201e836d4aed510b7956d65d28380a3dab80468e92bd8267bd21",
+        "c743d26c377fb800767c14fbc2a897dfa29261968deb4ff725e1f17d3ac4783e"
+      ],
       "text": "Do I make a play for the idol?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

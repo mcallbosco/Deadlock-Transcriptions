@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_magician_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "2b9fe05e4223069d9002c0a4583dd6f09706a88198e2e3aee8bf28261a9b7566",
+      "sha256": [
+        "2b9fe05e4223069d9002c0a4583dd6f09706a88198e2e3aee8bf28261a9b7566"
+      ],
       "text": "Magician's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d336da17b4ef93dd13cd3fcdc3a001c740983e869a6cfd3a9d2d80d44bd943f7",
+      "sha256": [
+        "d336da17b4ef93dd13cd3fcdc3a001c740983e869a6cfd3a9d2d80d44bd943f7"
+      ],
       "text": "Sinclair's on the roof!",
       "source": "official"
     }

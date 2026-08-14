@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "08bf71a7332d47c02a9a99d8456ccb7dcd99b90b0f88a0b920ae8f21902ad0ae",
+      "sha256": [
+        "08bf71a7332d47c02a9a99d8456ccb7dcd99b90b0f88a0b920ae8f21902ad0ae",
+        "20bc15562e9b4f6070d551aebb23aaf1850adad9ccd2ee5735b474bedd28f896"
+      ],
       "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20bc15562e9b4f6070d551aebb23aaf1850adad9ccd2ee5735b474bedd28f896",
-      "text": "Careful, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_heavy_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "fe056d81f4c370923c2217e745ea8a36eae5afdf8ba0a3072efd23ef62cc4c42",
+      "sha256": [
+        "fe056d81f4c370923c2217e745ea8a36eae5afdf8ba0a3072efd23ef62cc4c42"
+      ],
       "text": "Heavy is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7b8dc478dadaa87c7a3aca1891a46bdf9631cde960a74dbfe8b02e93f0b85a0e",
-      "text": "Heavies missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78ef0e938d4de4e494fd283bb510df76893bcda525714f6e3a36e048a63e5bd4",
+      "sha256": [
+        "78ef0e938d4de4e494fd283bb510df76893bcda525714f6e3a36e048a63e5bd4",
+        "7b8dc478dadaa87c7a3aca1891a46bdf9631cde960a74dbfe8b02e93f0b85a0e"
+      ],
       "text": "Heavies missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "6ca96c96b8052c041eb98d190ae5f83cb8ebc2c4a2eb01d67782c0492ad5bcf7",
+      "sha256": [
+        "6ca96c96b8052c041eb98d190ae5f83cb8ebc2c4a2eb01d67782c0492ad5bcf7"
+      ],
       "text": "I want you down the wall.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9980221dccb7381f44883c30ae7f223aaab0d94ad12e283785c35d2e89150e1a",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ab7bcf7dfcd168ea27a5e62bb4f3002c3488b47ed8c8340c22708d77c69a37c",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62974771a0eb6c7f79352ce798dc08c4edb278a2d81dc97bb19d1cc58b751d76",
+      "sha256": [
+        "62974771a0eb6c7f79352ce798dc08c4edb278a2d81dc97bb19d1cc58b751d76",
+        "7ab7bcf7dfcd168ea27a5e62bb4f3002c3488b47ed8c8340c22708d77c69a37c",
+        "9980221dccb7381f44883c30ae7f223aaab0d94ad12e283785c35d2e89150e1a"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

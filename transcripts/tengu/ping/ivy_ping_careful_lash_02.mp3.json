@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_lash_02.mp3",
   "revisions": [
     {
-      "sha256": "c01a839a68c40fd92ebaf0676406186dd6687611324cf0c8255ad3b421341285",
-      "text": "Careful, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f509b6b6a1ce7732cb3383cb54666715a457c06acbd6631150cdd686efc7cfe",
-      "text": "Careful, Lash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "440b8f18128c7585148e2ef3c5cc4f4ea7479cb0f1dba48a019c39c8d7a84cc6",
+      "sha256": [
+        "440b8f18128c7585148e2ef3c5cc4f4ea7479cb0f1dba48a019c39c8d7a84cc6",
+        "4f509b6b6a1ce7732cb3383cb54666715a457c06acbd6631150cdd686efc7cfe",
+        "c01a839a68c40fd92ebaf0676406186dd6687611324cf0c8255ad3b421341285"
+      ],
       "text": "Careful, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

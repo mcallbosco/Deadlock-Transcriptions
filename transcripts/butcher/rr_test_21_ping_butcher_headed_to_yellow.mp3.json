@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_butcher_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "669031c52e6e4efeb6c6c326970e08d7d4d7ae5ec302b89f387bf07cd5b51cd6",
+      "sha256": [
+        "669031c52e6e4efeb6c6c326970e08d7d4d7ae5ec302b89f387bf07cd5b51cd6",
+        "b214bd6f44adf90863c2f98e03c08ec15a3b2593e215ed7b31719abee16ae066"
+      ],
       "text": "Put your head to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b214bd6f44adf90863c2f98e03c08ec15a3b2593e215ed7b31719abee16ae066",
-      "text": "Put your head to yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a52c0df61058d28d6d75b27ff70e0dcad4b9fe689c6968fd49182c3cc894de91",
+      "sha256": [
+        "a52c0df61058d28d6d75b27ff70e0dcad4b9fe689c6968fd49182c3cc894de91"
+      ],
       "text": "put your head in the yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

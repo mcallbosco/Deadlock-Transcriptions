@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_bookworm_dead.mp3",
   "revisions": [
     {
-      "sha256": "1982bd1766c7824823d87035fe1e6ed0f66b9031795804a75b364e6ef1ca0fa6",
+      "sha256": [
+        "1982bd1766c7824823d87035fe1e6ed0f66b9031795804a75b364e6ef1ca0fa6"
+      ],
       "text": "Page is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "b94b8635a3c9e1ffd638df0c9c3ac94d3f09c00700503f7957d02fd1416ac9f7",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0da1a41692a21b4347d4ebb84b35bdb05ba4cc3e4d41636ea0ad43650390f7cf",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "802cf82746b264612f3d58de57a08ef03e57ac13f85ec0929d4171ecdab66bbb",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d26f026de3b1992ec7cbd037562038fb8c337195505f480b574773516491954",
+      "sha256": [
+        "0da1a41692a21b4347d4ebb84b35bdb05ba4cc3e4d41636ea0ad43650390f7cf",
+        "2d26f026de3b1992ec7cbd037562038fb8c337195505f480b574773516491954",
+        "802cf82746b264612f3d58de57a08ef03e57ac13f85ec0929d4171ecdab66bbb",
+        "b94b8635a3c9e1ffd638df0c9c3ac94d3f09c00700503f7957d02fd1416ac9f7"
+      ],
       "text": "I see Seven",
       "source": "official"
     }

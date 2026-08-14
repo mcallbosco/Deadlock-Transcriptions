@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_enemy_steal_rejuv_01.mp3",
   "revisions": [
     {
-      "sha256": "90659ba147d557751a5700e8e024254ff0914589b01bea4a5bfd5e52dea665c2",
+      "sha256": [
+        "50d913d1c443e2ebe33662dd4ca8944fad2a22ce7feae58dfb88403912d7dadc",
+        "675e370262490f10a8de5d19b5c715904260c1a5cbeba193441da0ee67425ae4",
+        "90659ba147d557751a5700e8e024254ff0914589b01bea4a5bfd5e52dea665c2"
+      ],
       "text": "The enemy stole the Rejuvenator!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "675e370262490f10a8de5d19b5c715904260c1a5cbeba193441da0ee67425ae4",
-      "text": "The enemy stole the Rejuvenator!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50d913d1c443e2ebe33662dd4ca8944fad2a22ce7feae58dfb88403912d7dadc",
-      "text": "The enemy stole the Rejuvenator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

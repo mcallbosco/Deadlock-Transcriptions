@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "ee7a98c19eb60b91ee0a0efa33f46e3665275b74ba8685c864f1bf0993e115ff",
+      "sha256": [
+        "ee7a98c19eb60b91ee0a0efa33f46e3665275b74ba8685c864f1bf0993e115ff"
+      ],
       "text": "Let's go to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b2818197484cf0e4545ddc5e5ae8485bfbaee240e20528e8c9c7ebe5d7bded7",
-      "text": "Let's go, Orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68931d4d0fa2750917bf54c22cff76ed33a6776a23ec6877c77cec4f5cfda4e3",
+      "sha256": [
+        "4b2818197484cf0e4545ddc5e5ae8485bfbaee240e20528e8c9c7ebe5d7bded7",
+        "68931d4d0fa2750917bf54c22cff76ed33a6776a23ec6877c77cec4f5cfda4e3"
+      ],
       "text": "Let's go, Orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "punkgoat/ping/punkgoat_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "2f072e8730f1eab09900fefab8732c13ee12342ef9553e2595fabf86950aa65e",
+      "sha256": [
+        "2f072e8730f1eab09900fefab8732c13ee12342ef9553e2595fabf86950aa65e"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

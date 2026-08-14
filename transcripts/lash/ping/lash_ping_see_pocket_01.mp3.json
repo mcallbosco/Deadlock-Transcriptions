@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_pocket_01.mp3",
   "revisions": [
     {
-      "sha256": "ced783c3881f9e9ac1fa4f7c7e58e1aa68184acf6f4597f758321a49d4f83d69",
+      "sha256": [
+        "ced783c3881f9e9ac1fa4f7c7e58e1aa68184acf6f4597f758321a49d4f83d69"
+      ],
       "text": "I see Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "66272d1595af308c4640782410866917e24e50e3132e6bdb6f70051a6a930a1b",
+      "sha256": [
+        "34764cca7fdac2a52678efae3d85488a3fc6e2ff697eeac4bd3ae338a8128e53",
+        "66272d1595af308c4640782410866917e24e50e3132e6bdb6f70051a6a930a1b"
+      ],
       "text": "Hey, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34764cca7fdac2a52678efae3d85488a3fc6e2ff697eeac4bd3ae338a8128e53",
-      "text": "Hey, pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_kill_chrono_05.mp3",
   "revisions": [
     {
-      "sha256": "b6fe16aa0661cc254baf5f76a0f5839fbbc815c9cf156b92b14441e41cab694d",
+      "sha256": [
+        "b6fe16aa0661cc254baf5f76a0f5839fbbc815c9cf156b92b14441e41cab694d"
+      ],
       "text": "You and I have as clever as you think you are, Paradox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ebb4ca90e50fa00ae7a3d4add32cb408bf213d8dc09656a5dba691b8c373f03e",
-      "text": "You're not half as clever as you think you are, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75e4f5f40438a0913eaa25aae128c315adbda96a797d778c4040dbc76a097309",
+      "sha256": [
+        "75e4f5f40438a0913eaa25aae128c315adbda96a797d778c4040dbc76a097309",
+        "ebb4ca90e50fa00ae7a3d4add32cb408bf213d8dc09656a5dba691b8c373f03e"
+      ],
       "text": "You're not half as clever as you think you are Paradox…",
       "source": "official"
     }

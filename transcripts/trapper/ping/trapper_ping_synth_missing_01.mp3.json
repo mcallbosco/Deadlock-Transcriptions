@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a8a17916bf251cd4fa7eb03fabe0bd0bff51a8ecb10078a2b36afc1c996739db",
+      "sha256": [
+        "a8a17916bf251cd4fa7eb03fabe0bd0bff51a8ecb10078a2b36afc1c996739db"
+      ],
       "text": "Pocket's missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

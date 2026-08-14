@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_hornet_dead.mp3",
   "revisions": [
     {
-      "sha256": "ff351a8cec242b3eedeb322ba15020611bdae764858a79166ea80653b9e2a44a",
+      "sha256": [
+        "ff351a8cec242b3eedeb322ba15020611bdae764858a79166ea80653b9e2a44a"
+      ],
       "text": "The dictator is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

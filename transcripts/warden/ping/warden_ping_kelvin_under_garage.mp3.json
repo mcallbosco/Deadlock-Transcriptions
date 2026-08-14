@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_kelvin_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "21ad212674059ee777aa00ad314fafbb27417df596c55057d150456ad40d87da",
-      "text": "Kelvin's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f7e8a74715c1e2084a6e83c75019c60e12865d209df6c1a2691d8208ff13a0be",
-      "text": "Kelvin's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbb597648adf92dad6dbc8082423850ccb6cb24e54e7c496549f55cff0b3750d",
-      "text": "Kelvin's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b8f9e9c7707c0ca270c64317f6047f8bed8c98a32032be546e8403c43ae102c",
+      "sha256": [
+        "21ad212674059ee777aa00ad314fafbb27417df596c55057d150456ad40d87da",
+        "4b8f9e9c7707c0ca270c64317f6047f8bed8c98a32032be546e8403c43ae102c",
+        "bbb597648adf92dad6dbc8082423850ccb6cb24e54e7c496549f55cff0b3750d",
+        "f7e8a74715c1e2084a6e83c75019c60e12865d209df6c1a2691d8208ff13a0be"
+      ],
       "text": "Kelvin's under the garage!",
       "source": "official"
     }

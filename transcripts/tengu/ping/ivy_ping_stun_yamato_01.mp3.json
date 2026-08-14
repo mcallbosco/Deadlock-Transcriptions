@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_stun_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "d09dd1602953356db374e978635fac9deb13c482429d703a015401bc3177bfc4",
+      "sha256": [
+        "d09dd1602953356db374e978635fac9deb13c482429d703a015401bc3177bfc4"
+      ],
       "text": "Stand, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c85d83a8fe6f1777a127ed6beb470747ee669225f889e00fe2112b5cbc917add",
+      "sha256": [
+        "c85d83a8fe6f1777a127ed6beb470747ee669225f889e00fe2112b5cbc917add",
+        "deeec6703989da4ee83e3fe99f298ab07905e6f0538bebeeaa0460e5af43a5b7"
+      ],
       "text": "Stop, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "deeec6703989da4ee83e3fe99f298ab07905e6f0538bebeeaa0460e5af43a5b7",
-      "text": "Stop, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

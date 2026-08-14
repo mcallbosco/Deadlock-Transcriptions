@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_synth_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a9080915105532d1f0a8ce854e417d2b6d56b947d53cbd6cb97eb86574d6cbcc",
-      "text": "Pockets on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "a188567bd08948ec83210c6ec01366c506f6664b4466e80e378a905c955dd2c2",
+        "a9080915105532d1f0a8ce854e417d2b6d56b947d53cbd6cb97eb86574d6cbcc"
+      ],
+      "text": "Pocket's on the bridge!",
+      "source": "official"
     },
     {
-      "sha256": "4a13c3ac52dd783fcea39e67b3be340b61cb66ce04db9f0b8a8d0309b9c93055",
+      "sha256": [
+        "4a13c3ac52dd783fcea39e67b3be340b61cb66ce04db9f0b8a8d0309b9c93055"
+      ],
       "text": "Packets on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a188567bd08948ec83210c6ec01366c506f6664b4466e80e378a905c955dd2c2",
-      "text": "Pocket's on the bridge!",
-      "source": "official"
     }
   ]
 }

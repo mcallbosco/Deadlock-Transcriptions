@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_need_help_green.mp3",
   "revisions": [
     {
-      "sha256": "213b86f3006aeca5537b91fc49639b957f14e8d9f80ba0943dbdec1957ddd818",
+      "sha256": [
+        "213b86f3006aeca5537b91fc49639b957f14e8d9f80ba0943dbdec1957ddd818",
+        "f337f1b648be89e8c91f36b61e8af49c9ec1323cd39826a3b5b637c4c74e8b39"
+      ],
       "text": "Need help on green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f337f1b648be89e8c91f36b61e8af49c9ec1323cd39826a3b5b637c4c74e8b39",
-      "text": "Need help on green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dad079da5a78d6171d1f92039ca7cd5b2cd3683988778c1a7d39e2a44ce1f2b1",
+      "sha256": [
+        "dad079da5a78d6171d1f92039ca7cd5b2cd3683988778c1a7d39e2a44ce1f2b1"
+      ],
       "text": "Need help on Greenwich!",
       "source": "official"
     }

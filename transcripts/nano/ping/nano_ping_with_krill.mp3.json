@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "aded5ad53aa21e4cbe7678b1f855f7eaace8e07d093c1a1bbecceaad406fbc72",
+      "sha256": [
+        "aded5ad53aa21e4cbe7678b1f855f7eaace8e07d093c1a1bbecceaad406fbc72"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

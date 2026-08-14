@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_krill_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "38ee0b4e5fd25adc13f637a1411afbcf25538c6d7a750679fe2663ab3591803a",
+      "sha256": [
+        "38ee0b4e5fd25adc13f637a1411afbcf25538c6d7a750679fe2663ab3591803a"
+      ],
       "text": "Cradle on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6e81bdd1de5421dea924c27f645df1ccebfa3c3863f449cbd99126f360127c00",
+      "sha256": [
+        "12449356687deaee72c95c633f4d67def75b059aa4e58776eca8c165889b9671",
+        "6e81bdd1de5421dea924c27f645df1ccebfa3c3863f449cbd99126f360127c00"
+      ],
       "text": "crails on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12449356687deaee72c95c633f4d67def75b059aa4e58776eca8c165889b9671",
-      "text": "Crails on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

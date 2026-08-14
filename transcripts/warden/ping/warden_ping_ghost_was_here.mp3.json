@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_ghost_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5ff02f3a471e44974da002dc75ca9ced2e4c01fbf5bcc0cfebe8ce27c94c625c",
-      "text": "Geist was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ebcffb0685a75e34cc93c8d1816bd8a0448f8bde16036da746c28640f1bf5c6",
-      "text": "Geist was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4d1678aa2701c634083d851560480ce8f59e89c92cf14dc4e7307692359a47c",
-      "text": "Geist was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "067d037e0ecacc9602dfc2ad24a78e74a62d3ecf13ed8e6847e7cd40826a206f",
+      "sha256": [
+        "067d037e0ecacc9602dfc2ad24a78e74a62d3ecf13ed8e6847e7cd40826a206f",
+        "1ebcffb0685a75e34cc93c8d1816bd8a0448f8bde16036da746c28640f1bf5c6",
+        "5ff02f3a471e44974da002dc75ca9ced2e4c01fbf5bcc0cfebe8ce27c94c625c",
+        "f4d1678aa2701c634083d851560480ce8f59e89c92cf14dc4e7307692359a47c"
+      ],
       "text": "Geist was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

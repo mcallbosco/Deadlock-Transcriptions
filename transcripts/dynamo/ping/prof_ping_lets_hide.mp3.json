@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_lets_hide.mp3",
   "revisions": [
     {
-      "sha256": "ed0e46b61fe770f3f1a8ef0dc1267f9c1552d5176b01494e372d0df1cc28829b",
+      "sha256": [
+        "9b7ad30cda7bcec6c3d637c867d100a2d1877eaa21f2df5cac8dd4d6eedea9d6",
+        "ed0e46b61fe770f3f1a8ef0dc1267f9c1552d5176b01494e372d0df1cc28829b"
+      ],
       "text": "What side here?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b7ad30cda7bcec6c3d637c867d100a2d1877eaa21f2df5cac8dd4d6eedea9d6",
-      "text": "What side here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

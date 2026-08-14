@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ecfc8147cb4ceb911b77f0f6b7f07beda3ad3cfec687368e3bc320bfd6d6d646",
-      "text": "Bebop is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93141bac02ac837fa4db425f0a2a3fdb3c519a9fbb4bb9a9ad7bd07bb6480059",
-      "text": "Bebop is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4aaaa7ffe7f98c8adaba32a02d6db0cf332fd5c966d6a375c707becfdc01464b",
+      "sha256": [
+        "4aaaa7ffe7f98c8adaba32a02d6db0cf332fd5c966d6a375c707becfdc01464b",
+        "93141bac02ac837fa4db425f0a2a3fdb3c519a9fbb4bb9a9ad7bd07bb6480059",
+        "ecfc8147cb4ceb911b77f0f6b7f07beda3ad3cfec687368e3bc320bfd6d6d646"
+      ],
       "text": "Bebop is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

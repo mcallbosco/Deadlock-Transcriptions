@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/viscous_concerned_01.mp3",
   "revisions": [
     {
-      "sha256": "e58232d8c2932689fc47d63df783d4f9d7588d4141c13d0ab44185de23398f9b",
-      "text": "I don't like this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad1f963617b2eb86a8ccf66905b36321c2816988a50613aa64e1ef6d75881d83",
+      "sha256": [
+        "ad1f963617b2eb86a8ccf66905b36321c2816988a50613aa64e1ef6d75881d83",
+        "e58232d8c2932689fc47d63df783d4f9d7588d4141c13d0ab44185de23398f9b"
+      ],
       "text": "I don't like this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

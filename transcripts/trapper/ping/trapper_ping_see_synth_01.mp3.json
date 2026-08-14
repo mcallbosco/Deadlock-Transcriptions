@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "d196a17a03d6483bade3ee13d6e122aca347da486756cbbe905ff881b1b3ec1b",
+      "sha256": [
+        "d196a17a03d6483bade3ee13d6e122aca347da486756cbbe905ff881b1b3ec1b"
+      ],
       "text": "I see Pocket!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

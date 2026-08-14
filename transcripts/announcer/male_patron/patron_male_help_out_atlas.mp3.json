@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_help_out_atlas.mp3",
   "revisions": [
     {
-      "sha256": "a0411c5fd9498d2ebd22ec7e57dad2b8d67379382d07cdb741d1212854814851",
-      "text": "The detective could use some help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52ba4004a5046174e1ee84e54bc4db4063b8a06302372b0a9bb8a078197c67a0",
+      "sha256": [
+        "52ba4004a5046174e1ee84e54bc4db4063b8a06302372b0a9bb8a078197c67a0",
+        "a0411c5fd9498d2ebd22ec7e57dad2b8d67379382d07cdb741d1212854814851"
+      ],
       "text": "The detective could use some help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

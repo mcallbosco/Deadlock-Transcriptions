@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "6fc535be32d57bab24d0f70e7072313012b747a14352d7f70fc619c41579f56d",
+      "sha256": [
+        "6fc535be32d57bab24d0f70e7072313012b747a14352d7f70fc619c41579f56d"
+      ],
       "text": "Conked is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b8678f4d622b314d554b7384beb0b4f66f7cd44abaf08d692be0b205ede1ca3",
+      "sha256": [
+        "4b8678f4d622b314d554b7384beb0b4f66f7cd44abaf08d692be0b205ede1ca3"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

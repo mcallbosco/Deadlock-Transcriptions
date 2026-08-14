@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "31552413078a09861780249edd8645365a48b2ab5663647668edff3d5dcae628",
+      "sha256": [
+        "31552413078a09861780249edd8645365a48b2ab5663647668edff3d5dcae628"
+      ],
       "text": "Ryan is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "16022721f1b29489066a5fc033fd7e593ae363d43cf58d893ffd0862aee6008a",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3509d7f6fbc3115bd63b4694b4d74e2edb9c52c2a55c2e295d63b34c823f72a7",
+      "sha256": [
+        "16022721f1b29489066a5fc033fd7e593ae363d43cf58d893ffd0862aee6008a",
+        "3509d7f6fbc3115bd63b4694b4d74e2edb9c52c2a55c2e295d63b34c823f72a7"
+      ],
       "text": "It's dangerous here",
       "source": "official"
     }

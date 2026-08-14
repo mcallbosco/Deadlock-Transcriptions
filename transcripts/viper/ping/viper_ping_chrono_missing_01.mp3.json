@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8b761cfd5a716e30f8c271ba7b16a225cb2df79cc9e4cfe742b21b1a7c000abd",
+      "sha256": [
+        "336a1ba5148004a999ffced58e22bf5cfa4cd4ab09177e302398a26d1649270d",
+        "8b761cfd5a716e30f8c271ba7b16a225cb2df79cc9e4cfe742b21b1a7c000abd"
+      ],
       "text": "Paradox is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "336a1ba5148004a999ffced58e22bf5cfa4cd4ab09177e302398a26d1649270d",
-      "text": "Paradox is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab786f7af0cd63fd5969871ed4e8529508236b1b57900b68eea8380600887bc4",
+      "sha256": [
+        "ab786f7af0cd63fd5969871ed4e8529508236b1b57900b68eea8380600887bc4"
+      ],
       "text": "Paradox's missing",
       "source": "official"
     }

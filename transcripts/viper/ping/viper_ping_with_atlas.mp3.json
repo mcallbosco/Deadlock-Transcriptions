@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_atlas.mp3",
   "revisions": [
     {
-      "sha256": "36c06bad875824ac3ff37de97abe5dbccf107353423919f832c3725ef4c6e903",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "744c8e2c28eee90cc77556e021e432d18f47e0c2c01b7636a0cecf35dbdfb07a",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4280a80818a81b197cf234c6f27479f361360a8c133255a22718f28b1cc1c955",
+      "sha256": [
+        "36c06bad875824ac3ff37de97abe5dbccf107353423919f832c3725ef4c6e903",
+        "4280a80818a81b197cf234c6f27479f361360a8c133255a22718f28b1cc1c955",
+        "744c8e2c28eee90cc77556e021e432d18f47e0c2c01b7636a0cecf35dbdfb07a"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

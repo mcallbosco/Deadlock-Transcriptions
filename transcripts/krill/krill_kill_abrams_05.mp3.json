@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_abrams_05.mp3",
   "revisions": [
     {
-      "sha256": "fd6d916a884ad97f73009201c04a17fffcec4b3a92451d651d12545f56884f00",
-      "text": "Abrams is down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbe4c9b9e5167321cf7947eaed47e5d1dba7e28b9a8d9bb63b58512069050c19",
+      "sha256": [
+        "fbe4c9b9e5167321cf7947eaed47e5d1dba7e28b9a8d9bb63b58512069050c19",
+        "fd6d916a884ad97f73009201c04a17fffcec4b3a92451d651d12545f56884f00"
+      ],
       "text": "Abrams is down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

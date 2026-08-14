@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "62f5865ac46a02388fffecbe5c69ed50c8d694d881014a080eba30ce5e4f7da0",
+      "sha256": [
+        "62f5865ac46a02388fffecbe5c69ed50c8d694d881014a080eba30ce5e4f7da0"
+      ],
       "text": "I'm going in.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

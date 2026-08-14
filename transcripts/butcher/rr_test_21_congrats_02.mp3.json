@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_congrats_02.mp3",
   "revisions": [
     {
-      "sha256": "343fc72cea79b6634982c89c772efffa898f5dbc09cab690de99317fcc8ed948",
-      "text": "I'm proud to fight with you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21dba68c8220caeb73aa518576f616118c589054094e3849640dc7d3ae2099b0",
-      "text": "I'm proud to fight with you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0654b390f1de8eabe2f6a29109a46d6b9db727b22c82918786c32b46f819b9bb",
+      "sha256": [
+        "0654b390f1de8eabe2f6a29109a46d6b9db727b22c82918786c32b46f819b9bb",
+        "21dba68c8220caeb73aa518576f616118c589054094e3849640dc7d3ae2099b0",
+        "343fc72cea79b6634982c89c772efffa898f5dbc09cab690de99317fcc8ed948"
+      ],
       "text": "I'm proud to fight with you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

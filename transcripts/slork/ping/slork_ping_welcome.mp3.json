@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "c58506e5a4f444e63c5476251e9ed8ed02bf6ddd6662d1d06a6500c554967b2d",
+      "sha256": [
+        "c58506e5a4f444e63c5476251e9ed8ed02bf6ddd6662d1d06a6500c554967b2d"
+      ],
       "text": "You're welcome.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c50953f5f6c0b5825d82d32ded9b9aeaa0b3dd8a42d0d18219fd2b7ec57b9e02",
+      "sha256": [
+        "c50953f5f6c0b5825d82d32ded9b9aeaa0b3dd8a42d0d18219fd2b7ec57b9e02"
+      ],
       "text": "This is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "513e087b9dbe4a5dc0d81e7b3f80037952b8655c2f12376d17f85f8676354493",
+      "sha256": [
+        "513e087b9dbe4a5dc0d81e7b3f80037952b8655c2f12376d17f85f8676354493"
+      ],
       "text": "Haze's on the bridge!",
       "source": "official"
     }

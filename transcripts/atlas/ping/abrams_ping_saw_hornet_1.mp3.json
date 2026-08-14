@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_hornet_1.mp3",
   "revisions": [
     {
-      "sha256": "81768257ce739e320d82d28be87454ffa7b59146ce8531dea9f8551b9b2ba015",
-      "text": "I saw Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0a3aec3fa70dbe5c3ef11c3213a7522e0d5e1df40243b488b869f21c68c10070",
+      "sha256": [
+        "0a3aec3fa70dbe5c3ef11c3213a7522e0d5e1df40243b488b869f21c68c10070",
+        "81768257ce739e320d82d28be87454ffa7b59146ce8531dea9f8551b9b2ba015"
+      ],
       "text": "I saw Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

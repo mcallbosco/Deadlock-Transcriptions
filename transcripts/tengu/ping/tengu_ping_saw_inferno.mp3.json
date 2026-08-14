@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_saw_inferno.mp3",
   "revisions": [
     {
-      "sha256": "dbe05a747a6527418c5fa0bc1d41c89e3ff8399fbdb8ee08fdf70883b0825090",
+      "sha256": [
+        "dbe05a747a6527418c5fa0bc1d41c89e3ff8399fbdb8ee08fdf70883b0825090",
+        "e1dabb15ae6a399b711f14bf17ebca96ef0bcba604a3557aae36bb9b3d825cc6"
+      ],
       "text": "I saw Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1dabb15ae6a399b711f14bf17ebca96ef0bcba604a3557aae36bb9b3d825cc6",
-      "text": "I saw Infernus!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

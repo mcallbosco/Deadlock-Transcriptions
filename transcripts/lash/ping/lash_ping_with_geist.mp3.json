@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_with_geist.mp3",
   "revisions": [
     {
-      "sha256": "c3ccb7efbc8cdaec0e3845fa5d579c7cc43a30adc17ca08fbc3b650d60a43509",
+      "sha256": [
+        "c3ccb7efbc8cdaec0e3845fa5d579c7cc43a30adc17ca08fbc3b650d60a43509"
+      ],
       "text": "I'm with the Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

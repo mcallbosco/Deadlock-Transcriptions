@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e9b5d6389ca15ce340110d63853de0e4d1b277439e2d492d6914b30d271fad09",
+      "sha256": [
+        "e9b5d6389ca15ce340110d63853de0e4d1b277439e2d492d6914b30d271fad09"
+      ],
       "text": "Victor was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

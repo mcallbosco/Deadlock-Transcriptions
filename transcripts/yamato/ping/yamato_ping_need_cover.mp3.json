@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "7f69169cd2b0121b213b040c31b03f672c7494aa90b3ac663e35521a897ab1c2",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ae6a3bb41643554f4a36adce6862aa0e608a8711cc6110580e7106b27bc0d9f",
-      "text": "Cover me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e7ebbda3ccdc828daec021920990f0630e3076c686c717598728202894bf0a46",
+      "sha256": [
+        "7f69169cd2b0121b213b040c31b03f672c7494aa90b3ac663e35521a897ab1c2",
+        "9ae6a3bb41643554f4a36adce6862aa0e608a8711cc6110580e7106b27bc0d9f",
+        "e7ebbda3ccdc828daec021920990f0630e3076c686c717598728202894bf0a46"
+      ],
       "text": "Cover me",
       "source": "official"
     }

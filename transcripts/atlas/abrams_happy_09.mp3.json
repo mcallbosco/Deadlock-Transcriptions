@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_happy_09.mp3",
   "revisions": [
     {
-      "sha256": "32b50c47c6e1af22ab11db729fc059301bf2af36cb3a6319f0e46f39c746268f",
-      "text": "This case will be closed in no time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4621e3f1affe52c45714438c50a91b6268cbd0b91844aef90556a5890b445f9",
-      "text": "This case will be closed in no time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "616e28a7d5ac3f420dbf3c3c470c2bf3d59c14d68d002445cd217a37b957f122",
+      "sha256": [
+        "32b50c47c6e1af22ab11db729fc059301bf2af36cb3a6319f0e46f39c746268f",
+        "616e28a7d5ac3f420dbf3c3c470c2bf3d59c14d68d002445cd217a37b957f122",
+        "e4621e3f1affe52c45714438c50a91b6268cbd0b91844aef90556a5890b445f9"
+      ],
       "text": "This case will be closed in no time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_nano_03.mp3",
   "revisions": [
     {
-      "sha256": "2ad6dd17611e7d0bcdf1db591087f825f68db93206c711d524bc9a4cfe160901",
+      "sha256": [
+        "2ad6dd17611e7d0bcdf1db591087f825f68db93206c711d524bc9a4cfe160901",
+        "7bd6a108a742f244da56bda1188d7c1edfe3c3e24ebba8e95168fe457c7e4fd6",
+        "ad5d429c2a97c97bd7669000577253f8e63eec463360251d05abf3badbeac426"
+      ],
       "text": "Nano is down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7bd6a108a742f244da56bda1188d7c1edfe3c3e24ebba8e95168fe457c7e4fd6",
-      "text": "Nano is down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad5d429c2a97c97bd7669000577253f8e63eec463360251d05abf3badbeac426",
-      "text": "Nano is down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b96fc932cb2753e5f0ec131fc6be9adcc631594b02b5c3fcd000e36cb67469a5",
+      "sha256": [
+        "b96fc932cb2753e5f0ec131fc6be9adcc631594b02b5c3fcd000e36cb67469a5"
+      ],
       "text": "We dropped Calico",
       "source": "official"
     }

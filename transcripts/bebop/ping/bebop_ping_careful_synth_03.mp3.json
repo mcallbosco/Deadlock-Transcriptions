@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_synth_03.mp3",
   "revisions": [
     {
-      "sha256": "3168554dddd0fe300621913c270c33bbbdb6ea5706f41f7438a3e343eb8ad4b6",
+      "sha256": [
+        "3168554dddd0fe300621913c270c33bbbdb6ea5706f41f7438a3e343eb8ad4b6"
+      ],
       "text": "Terror bucket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3567d47450109f500d95bfd89d72488c9cf96dd6cc1a679eba95b457bb7756f9",
+      "sha256": [
+        "3567d47450109f500d95bfd89d72488c9cf96dd6cc1a679eba95b457bb7756f9"
+      ],
       "text": "Careful, Pocket!",
       "source": "official"
     }

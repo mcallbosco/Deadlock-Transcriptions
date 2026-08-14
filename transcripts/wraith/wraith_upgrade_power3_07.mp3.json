@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_upgrade_power3_07.mp3",
   "revisions": [
     {
-      "sha256": "a055d0dc9aecf470f2c061e59607f154d46c9632c38db870cbd39101de248d62",
-      "text": "Ready to go all in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5f65f1b6ad185ecbf94bc1ce9d4a9ad89526aa2034c9af811cad6c7290a9c03",
-      "text": "Ready to go all in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c7c90f39888abdeca5e2af177fae34b333ccd33580dd54be86d0f3829ed2a56",
-      "text": "Ready to go all in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afa4cfb5b970cc9d0779f109a0c8eb4da262e2a131f781e5c28e185a8c8240ac",
+      "sha256": [
+        "4c7c90f39888abdeca5e2af177fae34b333ccd33580dd54be86d0f3829ed2a56",
+        "a055d0dc9aecf470f2c061e59607f154d46c9632c38db870cbd39101de248d62",
+        "a5f65f1b6ad185ecbf94bc1ce9d4a9ad89526aa2034c9af811cad6c7290a9c03",
+        "afa4cfb5b970cc9d0779f109a0c8eb4da262e2a131f781e5c28e185a8c8240ac"
+      ],
       "text": "Ready to go all in",
       "source": "official"
     }

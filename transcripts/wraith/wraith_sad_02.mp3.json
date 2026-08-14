@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_sad_02.mp3",
   "revisions": [
     {
-      "sha256": "6025d1b6bf8941f20a6b15376716f2953f253d102e7b032342feddfd5cd2e505",
-      "text": "This is not what I needed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07b6094eb46da92c857ffa3d19b49d6f5530d5e9578887bb89ff1f74dff378cc",
-      "text": "This is not what I needed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd223acc1170ee7698d42401e8b32a87a8a1c8d8114c6fda8509d76ca9bf29bc",
-      "text": "This is not what I needed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f4e1476bedd4911ecdecad32b971ac375083642c635cf06763fe79e483c07bd",
+      "sha256": [
+        "07b6094eb46da92c857ffa3d19b49d6f5530d5e9578887bb89ff1f74dff378cc",
+        "3f4e1476bedd4911ecdecad32b971ac375083642c635cf06763fe79e483c07bd",
+        "6025d1b6bf8941f20a6b15376716f2953f253d102e7b032342feddfd5cd2e505",
+        "dd223acc1170ee7698d42401e8b32a87a8a1c8d8114c6fda8509d76ca9bf29bc"
+      ],
       "text": "This is not what I needed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

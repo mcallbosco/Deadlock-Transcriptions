@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_bebop.mp3",
   "revisions": [
     {
-      "sha256": "f8d7272cb5080fe637dc8e0aed76eb9a049e21e7026cd30fb5df70310f36e6a7",
-      "text": "Bebop, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1fc837ec8096d7f5cf257043cf38a8003c78de58acb98063df03850ef77b69c",
-      "text": "Bebop, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6481aae71925eaa81489f4084e3b816a8d4b413cd38c1cba146182c619ceb0af",
+      "sha256": [
+        "6481aae71925eaa81489f4084e3b816a8d4b413cd38c1cba146182c619ceb0af",
+        "e1fc837ec8096d7f5cf257043cf38a8003c78de58acb98063df03850ef77b69c",
+        "f8d7272cb5080fe637dc8e0aed76eb9a049e21e7026cd30fb5df70310f36e6a7"
+      ],
       "text": "Bebop, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

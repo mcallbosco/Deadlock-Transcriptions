@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_tengu.mp3",
   "revisions": [
     {
-      "sha256": "2cacddce9f85f058f7329452e3f173c4e34ed13cc5636a125d5c8a01ceb7af44",
+      "sha256": [
+        "2cacddce9f85f058f7329452e3f173c4e34ed13cc5636a125d5c8a01ceb7af44"
+      ],
       "text": "Well done, Tangler.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ace20b2f5f72c33d1791bdbd31b79bed625b702cc204f4181e8189cee2342b17",
-      "text": "Well done, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca3ac60e3554d2ac11972662e1e8c15bdbf4b0733a79074ead12d6c3fba4813c",
+      "sha256": [
+        "ace20b2f5f72c33d1791bdbd31b79bed625b702cc204f4181e8189cee2342b17",
+        "ca3ac60e3554d2ac11972662e1e8c15bdbf4b0733a79074ead12d6c3fba4813c"
+      ],
       "text": "Well done Ivy",
       "source": "official"
     }

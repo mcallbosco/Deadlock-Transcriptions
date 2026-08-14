@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_attack_shiv.mp3",
   "revisions": [
     {
-      "sha256": "c199844d9b9b6b1e84f237ef209f3c67650b706ec18600f910398bda697af7c6",
+      "sha256": [
+        "c199844d9b9b6b1e84f237ef209f3c67650b706ec18600f910398bda697af7c6"
+      ],
       "text": "Let's take that ship!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a692c38351ee836e312adb16426f95edc8844df71e6d82ff4d810af27597837a",
+      "sha256": [
+        "a692c38351ee836e312adb16426f95edc8844df71e6d82ff4d810af27597837a"
+      ],
       "text": "Let's take out Shiv",
       "source": "official"
     }

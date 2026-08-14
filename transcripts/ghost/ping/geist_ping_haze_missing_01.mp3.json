@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3db20c8c441e249c0e071a8c2315d98574b45656135c0618e508967984895291",
+      "sha256": [
+        "3db20c8c441e249c0e071a8c2315d98574b45656135c0618e508967984895291",
+        "49ed2ca70d39bb91802fd3801865d7ad2d51325f540de35bedcbcb7115591697"
+      ],
       "text": "Hey, this is me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49ed2ca70d39bb91802fd3801865d7ad2d51325f540de35bedcbcb7115591697",
-      "text": "Hey, this is me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

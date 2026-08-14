@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_trapper_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5dbbf7a1e6aaed260ef8330ce038a210369111392f2a338ea646617565bc9ece",
+      "sha256": [
+        "5dbbf7a1e6aaed260ef8330ce038a210369111392f2a338ea646617565bc9ece"
+      ],
       "text": "Trapper was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

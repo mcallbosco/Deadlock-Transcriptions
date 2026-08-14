@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_congrats_bull.mp3",
   "revisions": [
     {
-      "sha256": "66913b0ad47a6dd70498a44e2b867bce0a943c212d11be0eb025286208423219",
+      "sha256": [
+        "66913b0ad47a6dd70498a44e2b867bce0a943c212d11be0eb025286208423219",
+        "8937ac0a305d9fdedc4307c05c8494933605ec31b6395f6a042230297c4d3d8c",
+        "ddd9df4c5e161af32d5ef48d8b28b683258b47d8ecc732b15130d36e5eef634d"
+      ],
       "text": "Good job, boo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddd9df4c5e161af32d5ef48d8b28b683258b47d8ecc732b15130d36e5eef634d",
-      "text": "Good job, boo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8937ac0a305d9fdedc4307c05c8494933605ec31b6395f6a042230297c4d3d8c",
-      "text": "Good job, boo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_seven_01.mp3",
   "revisions": [
     {
-      "sha256": "f38119627d823f62ff1414a7bcc674d575041d60e050e4721c103393d92c88b0",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a3e5085765ad73221631014c1d46a4c56d3b66d224c94dafb34a5eac06d473a",
+      "sha256": [
+        "9a3e5085765ad73221631014c1d46a4c56d3b66d224c94dafb34a5eac06d473a",
+        "f38119627d823f62ff1414a7bcc674d575041d60e050e4721c103393d92c88b0"
+      ],
       "text": "I see seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

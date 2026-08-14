@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "0716ab9c55c5c15a5fb0b2f0c8e1ace5626cd3c01ca9d0664b23a1305e35e97b",
-      "text": "I saw Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f37f8513c65678084478bd6b572ea9b9f8fab8c8e9dee92e8612644ce38f3f5",
+      "sha256": [
+        "0716ab9c55c5c15a5fb0b2f0c8e1ace5626cd3c01ca9d0664b23a1305e35e97b",
+        "2f37f8513c65678084478bd6b572ea9b9f8fab8c8e9dee92e8612644ce38f3f5"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

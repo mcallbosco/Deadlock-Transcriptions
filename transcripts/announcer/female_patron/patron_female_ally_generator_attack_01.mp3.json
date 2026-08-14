@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_generator_attack_01.mp3",
   "revisions": [
     {
-      "sha256": "7d4a4281a26f52a147a7f5569674757af16efd971183bb7797382feaee2a7604",
-      "text": "They're attacking our shrines!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee7cc57f7f6f213b3dd1f57a0df34031489762e1112e2e6db193ed26925994e4",
-      "text": "They're attacking our shrines!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2192753c59f7a9e2c39ec1631cc70999e2a7b4ef4c76224aa790392eeef56c02",
+      "sha256": [
+        "2192753c59f7a9e2c39ec1631cc70999e2a7b4ef4c76224aa790392eeef56c02",
+        "7d4a4281a26f52a147a7f5569674757af16efd971183bb7797382feaee2a7604",
+        "ee7cc57f7f6f213b3dd1f57a0df34031489762e1112e2e6db193ed26925994e4"
+      ],
       "text": "They're attacking our Shrines!!",
       "source": "official"
     }

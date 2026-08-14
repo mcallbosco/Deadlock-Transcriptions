@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_upgrade_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "14940b3316958270d7f2b72c1a1802e303e1f1804a993de2ce8332f894e36abf",
+      "sha256": [
+        "14940b3316958270d7f2b72c1a1802e303e1f1804a993de2ce8332f894e36abf"
+      ],
       "text": "Get not gonna be ready for this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f2e4bbd61e2245a2959dbd2e95f663946de4bf055477a33882906cf5e2e198c7",
-      "text": "They're not gonna be ready for this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cbc9d66cb3e1a02600d6f671787f1d9dac172e54153904b8c9d9a064aea085e1",
-      "text": "They're not gonna be ready for this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac5f99c37fdf5e420c1bd56a632e528350467e6fb76f885daeef252c0ddfe1b7",
+      "sha256": [
+        "ac5f99c37fdf5e420c1bd56a632e528350467e6fb76f885daeef252c0ddfe1b7",
+        "cbc9d66cb3e1a02600d6f671787f1d9dac172e54153904b8c9d9a064aea085e1",
+        "f2e4bbd61e2245a2959dbd2e95f663946de4bf055477a33882906cf5e2e198c7"
+      ],
       "text": "They're not gonna be ready for this…",
       "source": "official"
     }

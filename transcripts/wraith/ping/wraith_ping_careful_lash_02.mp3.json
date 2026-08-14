@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_lash_02.mp3",
   "revisions": [
     {
-      "sha256": "48c14f32aa6624cbd8b3635543f2a2bc0bd84bb91b81561a93b0b233ff0c8fb8",
-      "text": "Careful, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "1cdb05f12135ff1095c5e817f9989a844cd0ee5143fdbd82b3b164ad7fb11644",
+        "1d980ce539dd6f98778aee9462049b021d14d9e22a262b40846fbade82b87d1b",
+        "48c14f32aa6624cbd8b3635543f2a2bc0bd84bb91b81561a93b0b233ff0c8fb8"
+      ],
+      "text": "Careful, Lash",
+      "source": "official"
     },
     {
-      "sha256": "9b7125d9bed43bb26be44ffa4fa082aad6da96a2ebace2af17c3004d6415b542",
+      "sha256": [
+        "9b7125d9bed43bb26be44ffa4fa082aad6da96a2ebace2af17c3004d6415b542"
+      ],
       "text": "Careful, lass.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cdb05f12135ff1095c5e817f9989a844cd0ee5143fdbd82b3b164ad7fb11644",
-      "text": "Careful, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d980ce539dd6f98778aee9462049b021d14d9e22a262b40846fbade82b87d1b",
-      "text": "Careful, Lash",
-      "source": "official"
     }
   ]
 }

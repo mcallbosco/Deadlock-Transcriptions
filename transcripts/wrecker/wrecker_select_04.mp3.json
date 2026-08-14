@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_select_04.mp3",
   "revisions": [
     {
-      "sha256": "8f6490853c655e486b9184cae248bd92acd832528161c8fab3d0a55afc4740de",
+      "sha256": [
+        "8f6490853c655e486b9184cae248bd92acd832528161c8fab3d0a55afc4740de",
+        "c10dfa072d3f937cebdfe0d6bc656ccb1af33868aa452a7d26b093bd48647607"
+      ],
       "text": "Pay me to kill!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c10dfa072d3f937cebdfe0d6bc656ccb1af33868aa452a7d26b093bd48647607",
-      "text": "Pay me to kill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

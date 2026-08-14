@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "17b2b62fe4bfd849b011d55c3f31ca85faba5d1591136f01625139334220195e",
+      "sha256": [
+        "17b2b62fe4bfd849b011d55c3f31ca85faba5d1591136f01625139334220195e"
+      ],
       "text": "Martin's over there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ef1577ea5453ffe6ab3113a9fdc3be094af16489abc1e49e40340a5020f017ca",
-      "text": "Wardens over there.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c929ac2b2851569a0e4179509e31a309dce571a87a675b237e3899536e12f93",
+      "sha256": [
+        "6c929ac2b2851569a0e4179509e31a309dce571a87a675b237e3899536e12f93",
+        "ef1577ea5453ffe6ab3113a9fdc3be094af16489abc1e49e40340a5020f017ca"
+      ],
       "text": "Wardens over there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

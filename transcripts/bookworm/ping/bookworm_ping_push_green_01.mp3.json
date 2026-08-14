@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_push_green_01.mp3",
   "revisions": [
     {
-      "sha256": "992fb5bf2fc5abe7168939181a76635f505b99af4772baa0cb29064b0b3b8881",
+      "sha256": [
+        "992fb5bf2fc5abe7168939181a76635f505b99af4772baa0cb29064b0b3b8881"
+      ],
       "text": "That's for screen!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "47efb11eae37383553dded978630123b34e7c8ce2b27b99382bf1b22d2942a6e",
+      "sha256": [
+        "47efb11eae37383553dded978630123b34e7c8ce2b27b99382bf1b22d2942a6e"
+      ],
       "text": "Let's push Green.",
       "source": "official"
     }

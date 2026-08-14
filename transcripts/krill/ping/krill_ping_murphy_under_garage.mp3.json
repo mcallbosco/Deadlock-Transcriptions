@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_murphy_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "3e7f953e0f38cc351233dda668972ddcac6460f4be9fd937577b8277cf4488c8",
-      "text": "Murphy's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cca6554d9a9c47f35077c58fc9687f3af2b61296aa845445a11a181149b045e3",
-      "text": "Murphy's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b70f03cf6ea430e10d37493c1f74659f3050a1c0c40cacaf824121a75919b97e",
+      "sha256": [
+        "3e7f953e0f38cc351233dda668972ddcac6460f4be9fd937577b8277cf4488c8",
+        "b70f03cf6ea430e10d37493c1f74659f3050a1c0c40cacaf824121a75919b97e",
+        "cca6554d9a9c47f35077c58fc9687f3af2b61296aa845445a11a181149b045e3"
+      ],
       "text": "Murphy's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

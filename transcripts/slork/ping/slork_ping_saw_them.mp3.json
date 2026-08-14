@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "ac33b86ff2b0276560566efbb1eb45dfab8962562f428caefe64d06cd0780932",
+      "sha256": [
+        "ac33b86ff2b0276560566efbb1eb45dfab8962562f428caefe64d06cd0780932"
+      ],
       "text": "I saw them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

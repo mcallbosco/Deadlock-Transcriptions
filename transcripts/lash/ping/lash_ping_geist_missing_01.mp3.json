@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_geist_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "bf17358c17403e6189c90482901acd33360ebd98cdb21612f4dd19f7573c0fdc",
+      "sha256": [
+        "bf17358c17403e6189c90482901acd33360ebd98cdb21612f4dd19f7573c0fdc"
+      ],
       "text": "Guy's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

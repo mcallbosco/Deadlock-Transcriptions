@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_interrupt_05.mp3",
   "revisions": [
     {
-      "sha256": "b7dbaf4376ae13787317519273b66d59accaccd0cee434486a46e17898281ba6",
-      "text": "Nice try.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a86aa4685736a0c3560d2e5606b1bac84eb502e7ee6277cd38d51d65096da160",
-      "text": "Nice try.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e37938f455b0492a3cc8c41d9e1c219d7d22fe9aa5816c97341dfefd3f6c61c0",
+      "sha256": [
+        "a86aa4685736a0c3560d2e5606b1bac84eb502e7ee6277cd38d51d65096da160",
+        "b7dbaf4376ae13787317519273b66d59accaccd0cee434486a46e17898281ba6",
+        "e37938f455b0492a3cc8c41d9e1c219d7d22fe9aa5816c97341dfefd3f6c61c0"
+      ],
       "text": "Nice try.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

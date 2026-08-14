@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_haze.mp3",
   "revisions": [
     {
-      "sha256": "5a5f622af88842f54d2729a423b813effacc374acc4df5d7b632e4c2ea0cf9b3",
-      "text": "Ignore Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd1936f5bd37b9078bf72d284d90208fe0ba5ce5e24a0c1e7cbb52c8e5a1a9ab",
+      "sha256": [
+        "5a5f622af88842f54d2729a423b813effacc374acc4df5d7b632e4c2ea0cf9b3",
+        "bd1936f5bd37b9078bf72d284d90208fe0ba5ce5e24a0c1e7cbb52c8e5a1a9ab"
+      ],
       "text": "Ignore Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_ally_doorman_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "fab0acbf849c0dba000c2d388dc630baa5f215930a00d97b47e3c56a8650865d",
-      "text": "They took out the doorman!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8b2d417942bc82c1e0c75d95f199322a3db001b44c9f7d56b789795e9609f871",
+      "sha256": [
+        "8b2d417942bc82c1e0c75d95f199322a3db001b44c9f7d56b789795e9609f871",
+        "fab0acbf849c0dba000c2d388dc630baa5f215930a00d97b47e3c56a8650865d"
+      ],
       "text": "They took out the Doorman.",
       "source": "manual"
     }

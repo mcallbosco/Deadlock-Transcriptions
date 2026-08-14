@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_can_heal_nano.mp3",
   "revisions": [
     {
-      "sha256": "331e32c64a3c98cd6937aaebf1c15e5dfaacdf9d8926e720f201285b2ef7fc5a",
+      "sha256": [
+        "331e32c64a3c98cd6937aaebf1c15e5dfaacdf9d8926e720f201285b2ef7fc5a"
+      ],
       "text": "Talico, I do hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "08a53f7dbf24646925983b7f96858ac50d2005ead3e9a38db02908129bc416b8",
+      "sha256": [
+        "08a53f7dbf24646925983b7f96858ac50d2005ead3e9a38db02908129bc416b8"
+      ],
       "text": "Calico, I do hail you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0d2a357059edf9eb852debecf35dcf2ebb07c8ed34dc45fa6eb2af7ef3b3480f",
+      "sha256": [
+        "0d2a357059edf9eb852debecf35dcf2ebb07c8ed34dc45fa6eb2af7ef3b3480f"
+      ],
       "text": "Calico, I can heal you!",
       "source": "official"
     }

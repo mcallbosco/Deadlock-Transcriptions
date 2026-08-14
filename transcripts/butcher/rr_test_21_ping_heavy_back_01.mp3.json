@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_heavy_back_01.mp3",
   "revisions": [
     {
-      "sha256": "668b03c9107463c619c93deb88d9f858001fe5968b784bdc689ed35009ff5cd5",
-      "text": "Heavy, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ef7975584b4df8a5ace4a8bfd538a5e8be6de7b260b495d1546a9a6f1651afb",
-      "text": "Heavy, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c39cee55660fbeeaf4427db82273953ccaba42aaff4ab07bc79b1fe9c24b124d",
+      "sha256": [
+        "4ef7975584b4df8a5ace4a8bfd538a5e8be6de7b260b495d1546a9a6f1651afb",
+        "668b03c9107463c619c93deb88d9f858001fe5968b784bdc689ed35009ff5cd5",
+        "c39cee55660fbeeaf4427db82273953ccaba42aaff4ab07bc79b1fe9c24b124d"
+      ],
       "text": "Heavy, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

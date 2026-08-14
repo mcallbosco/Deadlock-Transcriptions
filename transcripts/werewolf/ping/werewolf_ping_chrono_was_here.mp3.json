@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_chrono_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8b0818db5fb0379604692f0d33647d1678cb6061725c520988658017cb367869",
+      "sha256": [
+        "8b0818db5fb0379604692f0d33647d1678cb6061725c520988658017cb367869"
+      ],
       "text": "Terran, I was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

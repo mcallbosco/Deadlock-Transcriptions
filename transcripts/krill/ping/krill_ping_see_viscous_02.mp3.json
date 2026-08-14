@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_viscous_02.mp3",
   "revisions": [
     {
-      "sha256": "3761fdb2d3be50888aaee47f0caec61b901fb17a331b5e5b4aa8e56d30761df6",
+      "sha256": [
+        "3761fdb2d3be50888aaee47f0caec61b901fb17a331b5e5b4aa8e56d30761df6",
+        "fab68a0fd7bb0373ea207f534ec41074cca531cd2115fb4d7c67dc6053a494b2"
+      ],
       "text": "I see a whole lot of goo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fab68a0fd7bb0373ea207f534ec41074cca531cd2115fb4d7c67dc6053a494b2",
-      "text": "I see a whole lot of goo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96fe1a5b5d5b91d68ee53cb186c022ee5fadfc703cf60a0408fdcb81f23995cd",
+      "sha256": [
+        "96fe1a5b5d5b91d68ee53cb186c022ee5fadfc703cf60a0408fdcb81f23995cd"
+      ],
       "text": "I see a whoooole lotta goo",
       "source": "official"
     }

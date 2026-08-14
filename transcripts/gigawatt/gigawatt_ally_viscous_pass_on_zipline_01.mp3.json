@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_ally_viscous_pass_on_zipline_01.mp3",
   "revisions": [
     {
-      "sha256": "1f75c29d0c71545b04ab21496ec7dfd27fbb29d87f1011ace84ae1054cd6a559",
+      "sha256": [
+        "1f75c29d0c71545b04ab21496ec7dfd27fbb29d87f1011ace84ae1054cd6a559",
+        "e7e3f7a8ba96a7755614ea42dc4c70418f7723ba2281b3030e9f0fd5e7d2c096"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e7e3f7a8ba96a7755614ea42dc4c70418f7723ba2281b3030e9f0fd5e7d2c096",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ccccdce6e62ac4a9870f9af15722af099f86d063f010fd2c8c82e1509a54bc4",
+      "sha256": [
+        "4ccccdce6e62ac4a9870f9af15722af099f86d063f010fd2c8c82e1509a54bc4"
+      ],
       "text": "Aah!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

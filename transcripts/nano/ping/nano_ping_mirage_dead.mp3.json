@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "964adce523afe52c83eb87207667a5eb984b7cc091e2df3d0da5f50589278a90",
+      "sha256": [
+        "964adce523afe52c83eb87207667a5eb984b7cc091e2df3d0da5f50589278a90"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

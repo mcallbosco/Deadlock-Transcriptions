@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "3c1e6f4b9d047ca419f1afc64521dcbbc766c1a9b6f839e619f266b5d5c7b65a",
+      "sha256": [
+        "3c1e6f4b9d047ca419f1afc64521dcbbc766c1a9b6f839e619f266b5d5c7b65a"
+      ],
       "text": "Is it cheap, it robot?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "edc25c977ef002516bfd4c8d1a5bc4a6ae58d60a98ac3e9188abed6549005e0b",
+      "sha256": [
+        "edc25c977ef002516bfd4c8d1a5bc4a6ae58d60a98ac3e9188abed6549005e0b"
+      ],
       "text": "Is it Stevey robot?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

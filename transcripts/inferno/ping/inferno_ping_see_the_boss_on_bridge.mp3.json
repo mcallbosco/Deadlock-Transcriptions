@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_the_boss_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "d30ee47106ca0da080321909f1e1194d59cd1fbcb0aea3875f225af70fe000b0",
-      "text": "The boss is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67fb4d3fefe4fe34be57f785c7118e3a58a55888efd5c18c856ae53093411450",
+      "sha256": [
+        "67fb4d3fefe4fe34be57f785c7118e3a58a55888efd5c18c856ae53093411450",
+        "d30ee47106ca0da080321909f1e1194d59cd1fbcb0aea3875f225af70fe000b0"
+      ],
       "text": "The boss is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

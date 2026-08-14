@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_kill_atlas_02.mp3",
   "revisions": [
     {
-      "sha256": "d34f2462712a43f0a8e4569ac47fcdbec528dae98b11bc27b5bd201c09018222",
-      "text": "So long, Detective.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12264f0378a89384e904e5bcd123da8b40538dce22e1b2245dc10d6d53209641",
+      "sha256": [
+        "12264f0378a89384e904e5bcd123da8b40538dce22e1b2245dc10d6d53209641",
+        "d34f2462712a43f0a8e4569ac47fcdbec528dae98b11bc27b5bd201c09018222"
+      ],
       "text": "So long detective",
       "source": "official"
     }

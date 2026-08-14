@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_see_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "222a95e65c7cf621caf528da3e4f6a336fb4a177c6fa64f13d80ee52ae555776",
+      "sha256": [
+        "222a95e65c7cf621caf528da3e4f6a336fb4a177c6fa64f13d80ee52ae555776"
+      ],
       "text": "I see the robot!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

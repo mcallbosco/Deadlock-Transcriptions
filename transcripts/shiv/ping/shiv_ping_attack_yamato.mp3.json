@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_attack_yamato.mp3",
   "revisions": [
     {
-      "sha256": "7227c4d7fbe654c57cdeaa54c30235344b2ccae4df33699e0b92b89590eff20e",
-      "text": "Let's take out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "1d30650a103204dc4c010b29d9dd00139dc82b2466f4535a47905aa902eee8eb",
+        "7227c4d7fbe654c57cdeaa54c30235344b2ccae4df33699e0b92b89590eff20e"
+      ],
+      "text": "Let's take out Yamato",
+      "source": "official"
     },
     {
-      "sha256": "805a320ee6be808fe59d373c855cf47110b4af7e35c244a94ec51d18f96c0c02",
+      "sha256": [
+        "805a320ee6be808fe59d373c855cf47110b4af7e35c244a94ec51d18f96c0c02"
+      ],
       "text": "Let's take out Yomero.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d30650a103204dc4c010b29d9dd00139dc82b2466f4535a47905aa902eee8eb",
-      "text": "Let's take out Yamato",
-      "source": "official"
     }
   ]
 }

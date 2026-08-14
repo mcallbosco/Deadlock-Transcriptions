@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_yamato_03.mp3",
   "revisions": [
     {
-      "sha256": "be09eea6470b39750dc27a7665ba6458e6c8eca8df34e3447ccca0be7a008fff",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6227c616f45536095605254a2cf22e674291d40972c601a441afa1d72101c02f",
+      "sha256": [
+        "6227c616f45536095605254a2cf22e674291d40972c601a441afa1d72101c02f",
+        "be09eea6470b39750dc27a7665ba6458e6c8eca8df34e3447ccca0be7a008fff"
+      ],
       "text": "Careful, Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

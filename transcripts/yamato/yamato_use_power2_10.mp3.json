@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_use_power2_10.mp3",
   "revisions": [
     {
-      "sha256": "c12aafd0d3ffc1b96882e29b4f3ee2fc65ad2c498dc333e841cd0db0f8afeaca",
+      "sha256": [
+        "c12aafd0d3ffc1b96882e29b4f3ee2fc65ad2c498dc333e841cd0db0f8afeaca"
+      ],
       "text": "한문이세요.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a361382e1ce74da04fff9497e2713e780bb78650b7eebaf4306bcf0cab1bef59",
+      "sha256": [
+        "a361382e1ce74da04fff9497e2713e780bb78650b7eebaf4306bcf0cab1bef59"
+      ],
       "text": "定めを受け入れろ。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "848dd18350c3c6b6c0b89985c0060384e2eb0085a5ab20a74f8f5ce6517a5d47",
+      "sha256": [
+        "848dd18350c3c6b6c0b89985c0060384e2eb0085a5ab20a74f8f5ce6517a5d47"
+      ],
       "text": "You can't outrun fate!",
       "source": "official"
     }

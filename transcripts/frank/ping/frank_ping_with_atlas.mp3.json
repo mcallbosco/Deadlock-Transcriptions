@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_atlas.mp3",
   "revisions": [
     {
-      "sha256": "97442eb19b39a4b6ab739a23bcafe6797bc1a9930464b05b8bcd503ab586425d",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aeca2410db450d937b73fef0768ef09819bb3c76c22f4e45547a9139b58a25bf",
+      "sha256": [
+        "97442eb19b39a4b6ab739a23bcafe6797bc1a9930464b05b8bcd503ab586425d",
+        "aeca2410db450d937b73fef0768ef09819bb3c76c22f4e45547a9139b58a25bf"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

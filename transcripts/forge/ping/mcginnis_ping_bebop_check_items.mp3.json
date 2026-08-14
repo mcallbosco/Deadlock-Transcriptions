@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_bebop_check_items.mp3",
   "revisions": [
     {
-      "sha256": "3bb1da8d3ad9501c403648048a758f0fcacf33c4cadc26cc525be0e3793ee745",
+      "sha256": [
+        "287faf34bc29d45e4385a47410c0c3c3e8eef24c2f15438feb7d1c8a074a714e",
+        "3bb1da8d3ad9501c403648048a758f0fcacf33c4cadc26cc525be0e3793ee745"
+      ],
       "text": "Check out what Bebop bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "287faf34bc29d45e4385a47410c0c3c3e8eef24c2f15438feb7d1c8a074a714e",
-      "text": "Check out what Bebop bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

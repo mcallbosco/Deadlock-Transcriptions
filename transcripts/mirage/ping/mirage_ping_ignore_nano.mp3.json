@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_ignore_nano.mp3",
   "revisions": [
     {
-      "sha256": "db7eae5b01da0b658e22bc3f3db4879d4a751c92b5c61129f344c3866db287ed",
-      "text": "Ignore Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "710d56584255eac65727329dda3eb24b4abce2783e87c5ca3c655324822a6ba2",
-      "text": "Ignore Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "099b3b72ed7f6e5a64dcf882e47b22bab174e6b69cc100609c12856323c475c1",
+      "sha256": [
+        "099b3b72ed7f6e5a64dcf882e47b22bab174e6b69cc100609c12856323c475c1",
+        "710d56584255eac65727329dda3eb24b4abce2783e87c5ca3c655324822a6ba2",
+        "db7eae5b01da0b658e22bc3f3db4879d4a751c92b5c61129f344c3866db287ed"
+      ],
       "text": "Ignore Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

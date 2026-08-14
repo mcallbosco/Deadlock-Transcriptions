@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_enemy_astro_killing_streak_low_01.mp3",
   "revisions": [
     {
-      "sha256": "44129b2c32374b303f802170d77a9216d08018d47a4cb65c816ec72b172c5311",
+      "sha256": [
+        "44129b2c32374b303f802170d77a9216d08018d47a4cb65c816ec72b172c5311"
+      ],
       "text": "Stop Astro!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1859c9fd44337923ddda8b00028dd05375389bf457dd3f3d59bb6da0c83883f3",
+      "sha256": [
+        "0636377756576c054783f728f966824b1f6ac0bf1d05ee8379d8085a413ea182",
+        "1859c9fd44337923ddda8b00028dd05375389bf457dd3f3d59bb6da0c83883f3",
+        "8f08444b2f8044d497106f8ba42a591d69adfb1013b0f8307f2b7b771eaef58e"
+      ],
       "text": "The Sheriff is taunting us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f08444b2f8044d497106f8ba42a591d69adfb1013b0f8307f2b7b771eaef58e",
-      "text": "The sheriff is taunting us!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0636377756576c054783f728f966824b1f6ac0bf1d05ee8379d8085a413ea182",
-      "text": "The sheriff is taunting us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_atlas_check_items.mp3",
   "revisions": [
     {
-      "sha256": "fde894437c3afa46d5d021c41a5ff826580863cc83c58dae10f957197b169275",
-      "text": "Check out what Abrams bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c223a936716f50ca28a77f172488ae143739f31beb6fc4bdfa5b7453d22e678d",
+      "sha256": [
+        "c223a936716f50ca28a77f172488ae143739f31beb6fc4bdfa5b7453d22e678d",
+        "fde894437c3afa46d5d021c41a5ff826580863cc83c58dae10f957197b169275"
+      ],
       "text": "Check out what Abrams bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

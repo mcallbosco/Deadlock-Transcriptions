@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_gigawatt_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "3ee8c6476e382c411aeb55fdb984e3e2983dcec8ac5a7987c85c394dfbbbb46d",
+      "sha256": [
+        "3ee8c6476e382c411aeb55fdb984e3e2983dcec8ac5a7987c85c394dfbbbb46d"
+      ],
       "text": "Set them on top of the carriage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ba4539f30e2baeafcc15c3654855992144a808b79c04030673960039119500aa",
+      "sha256": [
+        "ba4539f30e2baeafcc15c3654855992144a808b79c04030673960039119500aa"
+      ],
       "text": "Seven's on top of the garage!",
       "source": "official"
     }

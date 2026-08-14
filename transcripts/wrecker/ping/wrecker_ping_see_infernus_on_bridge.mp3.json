@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_infernus_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "1db85e61899cbc6f02042404120020c67fcf05ba5d77cd9214d7cd7a7948ee4b",
-      "text": "Infernus is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b8865cafed571cba940743465cb0338775574b6c4efc7a159c0bee5b74b3528",
+      "sha256": [
+        "0b8865cafed571cba940743465cb0338775574b6c4efc7a159c0bee5b74b3528",
+        "1db85e61899cbc6f02042404120020c67fcf05ba5d77cd9214d7cd7a7948ee4b"
+      ],
       "text": "Infernus is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

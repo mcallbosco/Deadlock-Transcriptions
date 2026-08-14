@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_use_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "bf0575200af7cf1c41fc83f07666831a4f9071e0c6cc78dfef2540fd319fa609",
-      "text": "I'm not finished yet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b35084291c2f539769321c5e20a380825144280f4c51ba606331b63a35ad79bd",
-      "text": "I'm not finished yet!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8d5c144ded39cfac2f29ff0c25e3fb518d9e1499e2534b3eb231dc3836f72b5a",
+      "sha256": [
+        "8d5c144ded39cfac2f29ff0c25e3fb518d9e1499e2534b3eb231dc3836f72b5a",
+        "b35084291c2f539769321c5e20a380825144280f4c51ba606331b63a35ad79bd",
+        "bf0575200af7cf1c41fc83f07666831a4f9071e0c6cc78dfef2540fd319fa609"
+      ],
       "text": "I'm not finished yet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

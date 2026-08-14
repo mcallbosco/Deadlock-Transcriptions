@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_slork_01.mp3",
   "revisions": [
     {
-      "sha256": "ae583d44cead68bfa52bccf9170249b7ede9ec60f02a4b6e885851ff1799464d",
+      "sha256": [
+        "ae583d44cead68bfa52bccf9170249b7ede9ec60f02a4b6e885851ff1799464d"
+      ],
       "text": "That's all.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dc73cac4ccf27f66ad8326dfb641c2e91bc7038f9adfedb2551d7b9b5a6e6b7c",
+      "sha256": [
+        "dc73cac4ccf27f66ad8326dfb641c2e91bc7038f9adfedb2551d7b9b5a6e6b7c"
+      ],
       "text": "Careful, Fathom…",
       "source": "official"
     }

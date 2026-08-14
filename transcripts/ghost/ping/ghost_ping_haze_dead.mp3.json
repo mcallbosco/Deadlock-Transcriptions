@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "d0dbb823a754532e9b630591cb365ac7560ddf335aff241e67da6590c93c665d",
+      "sha256": [
+        "d0dbb823a754532e9b630591cb365ac7560ddf335aff241e67da6590c93c665d"
+      ],
       "text": "He's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_ghost_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a9dbfb46d4bc3d2bade3f35f2e5ee94ed32f2eedf8878aee57395f707b62b79e",
+      "sha256": [
+        "a9dbfb46d4bc3d2bade3f35f2e5ee94ed32f2eedf8878aee57395f707b62b79e"
+      ],
       "text": "There is on a bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2879ab6ae7cd98457ddadffc5edf89a28e42e8e5d0e6a8a08c621b808c2bc4bb",
+      "sha256": [
+        "2879ab6ae7cd98457ddadffc5edf89a28e42e8e5d0e6a8a08c621b808c2bc4bb"
+      ],
       "text": "Geist's on the bridge!",
       "source": "official"
     }

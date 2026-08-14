@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_nano_headed_to_purple.mp3",
   "revisions": [
     {
-      "sha256": "21c33fb64b930e411883d69d3a7fe50b9b9972c6035fd3f6bfffac3fc468e784",
-      "text": "Nano's headed to purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb384bd0ef8a822a9c27fddde59e1b6bd3a611b6a3cbc217f7b53ce639451a60",
-      "text": "Nano's headed to purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "061931481f3f43e0334eccf7ff352d075e70ff10075efad27db01c620e600cc5",
+      "sha256": [
+        "061931481f3f43e0334eccf7ff352d075e70ff10075efad27db01c620e600cc5",
+        "21c33fb64b930e411883d69d3a7fe50b9b9972c6035fd3f6bfffac3fc468e784",
+        "cb384bd0ef8a822a9c27fddde59e1b6bd3a611b6a3cbc217f7b53ce639451a60"
+      ],
       "text": "Nano's headed to purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

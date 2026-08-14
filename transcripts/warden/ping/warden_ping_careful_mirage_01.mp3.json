@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_careful_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "debbca71fa4dd9f16be849579a23bacc177d76f6664f973fab03309f4c0efaa4",
-      "text": "Careful, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "748f7899bf68a72e8b62037d8607baf30c02f937a2cbe8c0f7307245be299a52",
-      "text": "Careful, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "882b9f1a5cc7ee30c09fe0d35b969283aa35499321373c3542ffed75383d8c46",
-      "text": "Careful, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e6927308c972ad3060d431a887745941fb8b20b92c6464ff3df954ac98ef7d5",
+      "sha256": [
+        "2e6927308c972ad3060d431a887745941fb8b20b92c6464ff3df954ac98ef7d5",
+        "748f7899bf68a72e8b62037d8607baf30c02f937a2cbe8c0f7307245be299a52",
+        "882b9f1a5cc7ee30c09fe0d35b969283aa35499321373c3542ffed75383d8c46",
+        "debbca71fa4dd9f16be849579a23bacc177d76f6664f973fab03309f4c0efaa4"
+      ],
       "text": "Careful, Mirage…",
       "source": "official"
     }

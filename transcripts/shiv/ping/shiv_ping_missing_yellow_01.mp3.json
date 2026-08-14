@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "68aff90a0c57ab6ce48073c39819798a3026f37c805c29c75c2b5b51b0d9bfed",
+      "sha256": [
+        "68aff90a0c57ab6ce48073c39819798a3026f37c805c29c75c2b5b51b0d9bfed"
+      ],
       "text": "That's a yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e31460689ea26a3a2aa43bd0824bb20335c142e13ff601a04c1211f7d49a0b0a",
+      "sha256": [
+        "e31460689ea26a3a2aa43bd0824bb20335c142e13ff601a04c1211f7d49a0b0a"
+      ],
       "text": "Nice to kill them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9885b5a54240b761a445227d0ad23d842c2e568f5dd370f7052dcf5369825a72",
+      "sha256": [
+        "9885b5a54240b761a445227d0ad23d842c2e568f5dd370f7052dcf5369825a72"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

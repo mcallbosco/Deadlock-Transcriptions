@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_kelvin_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "f89827c92911b4632e71e624f86c8f0dcc6d15079b00d00d08e2795538418ed0",
+      "sha256": [
+        "f89827c92911b4632e71e624f86c8f0dcc6d15079b00d00d08e2795538418ed0"
+      ],
       "text": "Calvin's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1d6a2e433db6f857db53439f2caa38e03c1d431d1fb9412e7cd3020df595c5c3",
+      "sha256": [
+        "1d6a2e433db6f857db53439f2caa38e03c1d431d1fb9412e7cd3020df595c5c3"
+      ],
       "text": "Kelvin's on top of the garage!",
       "source": "official"
     }

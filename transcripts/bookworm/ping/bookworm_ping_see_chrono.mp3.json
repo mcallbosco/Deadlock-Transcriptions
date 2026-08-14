@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "fbc36d151f0f2f0a59853179d5369aacb9559e5a590539d831717c741f1f89e2",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64cbf895ae4bb58f26370f4e5e724294423c1865fd6d55426b14c0790c070e02",
+      "sha256": [
+        "64cbf895ae4bb58f26370f4e5e724294423c1865fd6d55426b14c0790c070e02",
+        "fbc36d151f0f2f0a59853179d5369aacb9559e5a590539d831717c741f1f89e2"
+      ],
       "text": "I see Paradox.",
       "source": "official"
     }

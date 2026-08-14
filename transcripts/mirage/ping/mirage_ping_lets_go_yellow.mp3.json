@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "ac96a16bb10b84fbf654c677f6ce00a673d0d00d2dc7235f3354b8c5a53b41bf",
+      "sha256": [
+        "ac96a16bb10b84fbf654c677f6ce00a673d0d00d2dc7235f3354b8c5a53b41bf"
+      ],
       "text": "Let's go, Yano!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f60154791f499b5d63a4ac847bec7c5922f31ad24afb86cb970bbec71262198d",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e3d943fc1bab2006638868d98df2835fa6ade32e63bb4be6fdd62f2304a8fb7",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "993db5e805a3eb821247172acbdde8807eee5822480196e8a41c76c00bc6f0a9",
+      "sha256": [
+        "1e3d943fc1bab2006638868d98df2835fa6ade32e63bb4be6fdd62f2304a8fb7",
+        "993db5e805a3eb821247172acbdde8807eee5822480196e8a41c76c00bc6f0a9",
+        "f60154791f499b5d63a4ac847bec7c5922f31ad24afb86cb970bbec71262198d"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_push_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "6cf5ba95d0fb780e4364bc3a5045bfdcfed2e2b9bacee31add20066d2e2cda11",
+      "sha256": [
+        "184243a3f61dbb7dec959b4315f0509cafc8a595bff0d7b346f0e0512511c37b",
+        "6cf5ba95d0fb780e4364bc3a5045bfdcfed2e2b9bacee31add20066d2e2cda11"
+      ],
       "text": "Let's push through.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "184243a3f61dbb7dec959b4315f0509cafc8a595bff0d7b346f0e0512511c37b",
-      "text": "Let's push through.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "85ebd72d78d2a50b19a8cc069a1c7f5476fcdd4006d95e14b42e945961e5f97a",
+      "sha256": [
+        "85ebd72d78d2a50b19a8cc069a1c7f5476fcdd4006d95e14b42e945961e5f97a"
+      ],
       "text": "Let's push Blue",
       "source": "official"
     }

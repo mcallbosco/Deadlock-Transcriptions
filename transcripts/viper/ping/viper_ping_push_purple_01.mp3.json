@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_push_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "c949c24b22bb9c41f02b35d9c6294d0661643c1868a226c88e2a1123b50c0318",
-      "text": "Let's push purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f989255510dcb0b8bef9a86e4a2aa83b5e0c7e18d7a9077775d3f5aec18220a",
-      "text": "Let's push purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3aaa218e518072fb4809225af2ce7eafce1bd5c157c1b11d58f00b0dba95851",
+      "sha256": [
+        "5f989255510dcb0b8bef9a86e4a2aa83b5e0c7e18d7a9077775d3f5aec18220a",
+        "c949c24b22bb9c41f02b35d9c6294d0661643c1868a226c88e2a1123b50c0318",
+        "e3aaa218e518072fb4809225af2ce7eafce1bd5c157c1b11d58f00b0dba95851"
+      ],
       "text": "Let's push purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

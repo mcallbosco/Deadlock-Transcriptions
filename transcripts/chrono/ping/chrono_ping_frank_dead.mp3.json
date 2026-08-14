@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_frank_dead.mp3",
   "revisions": [
     {
-      "sha256": "f4690ed461a21ee5d26e39a49532fd01bb65f0e23fa79c4aa89ab82cab5d5f20",
+      "sha256": [
+        "f4690ed461a21ee5d26e39a49532fd01bb65f0e23fa79c4aa89ab82cab5d5f20"
+      ],
       "text": "Victor is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "5be19bd405f073107db488b5d08b3d9a481258714bbe09376aa9814058b19e6f",
+      "sha256": [
+        "5be19bd405f073107db488b5d08b3d9a481258714bbe09376aa9814058b19e6f",
+        "630363815f84f605762a26af987aeb191fea447c86f8263f0d01e01eadbf4b83"
+      ],
       "text": "Fuck!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "630363815f84f605762a26af987aeb191fea447c86f8263f0d01e01eadbf4b83",
-      "text": "Fuck.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cd6f87d5503afae5c6651f976cc5a24cfdcb195870b21cd40f418f3601a9037",
+      "sha256": [
+        "0cd6f87d5503afae5c6651f976cc5a24cfdcb195870b21cd40f418f3601a9037"
+      ],
       "text": "Fine",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "dd263ed8064bd6d10505b7403de6392ea8f4328112ea27104c6c39c70cd8d621",
+      "sha256": [
+        "dd263ed8064bd6d10505b7403de6392ea8f4328112ea27104c6c39c70cd8d621"
+      ],
       "text": "We get to sit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

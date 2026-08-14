@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_viscous_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "27803cbf6770b2efa136d5dd42bd2d6e09a0a61db1ee0921b944ddbb61ce1a3b",
+      "sha256": [
+        "27803cbf6770b2efa136d5dd42bd2d6e09a0a61db1ee0921b944ddbb61ce1a3b"
+      ],
       "text": "This gives us under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d8ff78d5072b5c160cd8417925a5ac96513c5cef40e8af035aef1a0366e51ae8",
+      "sha256": [
+        "d8ff78d5072b5c160cd8417925a5ac96513c5cef40e8af035aef1a0366e51ae8"
+      ],
       "text": "Viscous's under the garage!",
       "source": "official"
     }

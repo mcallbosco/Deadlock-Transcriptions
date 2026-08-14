@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4f6bb014eb1af2ea57729ded53c2bc4fef97206fb64599b508c05eae77b92431",
+      "sha256": [
+        "4f6bb014eb1af2ea57729ded53c2bc4fef97206fb64599b508c05eae77b92431"
+      ],
       "text": "Beep-bop, what's up?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c0517bd670c817fd05f4a12ca7b1af1f3361d2207e3e4d43a07c681ba58ec9bb",
+      "sha256": [
+        "c0517bd670c817fd05f4a12ca7b1af1f3361d2207e3e4d43a07c681ba58ec9bb"
+      ],
       "text": "People was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

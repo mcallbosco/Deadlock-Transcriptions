@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_upgrade_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "6c4fcc9005abb7659fd295d477f857a0d1d5d0d755f3723f76faea6c94407b01",
+      "sha256": [
+        "3aa24e7b40d20644d442ddcdc19de43a9349d936557cee3b1432b2a5a0d67b9d",
+        "6c4fcc9005abb7659fd295d477f857a0d1d5d0d755f3723f76faea6c94407b01",
+        "7253daac1864b21a937e55ccae1489a55ee4f1893bf6429f351ca30a4b85b728"
+      ],
       "text": "Ha! They're not hitting us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7253daac1864b21a937e55ccae1489a55ee4f1893bf6429f351ca30a4b85b728",
-      "text": "Ha! They're not hitting us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3aa24e7b40d20644d442ddcdc19de43a9349d936557cee3b1432b2a5a0d67b9d",
-      "text": "Ha! They're not hitting us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d079a7f0231ca0dd1988d4bdb67e9f324f3b408d5f4c9adf54dbba1657f85c3e",
+      "sha256": [
+        "d079a7f0231ca0dd1988d4bdb67e9f324f3b408d5f4c9adf54dbba1657f85c3e"
+      ],
       "text": "They're not hittin' us…",
       "source": "official"
     }

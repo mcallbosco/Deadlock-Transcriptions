@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_mirage_check_items.mp3",
   "revisions": [
     {
-      "sha256": "e84a20e9a320134ac8e5f74ee139509cc10820f6ed61ede31606e4b113afb4ae",
+      "sha256": [
+        "e84a20e9a320134ac8e5f74ee139509cc10820f6ed61ede31606e4b113afb4ae"
+      ],
       "text": "Check out what Neura's bought!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cbac90515d8515ea0200390de4ad7bdddc5fefab16defec7836c51266ddedcaf",
+      "sha256": [
+        "cbac90515d8515ea0200390de4ad7bdddc5fefab16defec7836c51266ddedcaf"
+      ],
       "text": "Check out what Mirage bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

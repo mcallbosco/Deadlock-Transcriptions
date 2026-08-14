@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_kill_anyhero_01.mp3",
   "revisions": [
     {
-      "sha256": "be208b255ddae146bf873c272f3d871b96418d5cb9bf1654ffa79438e1961c3d",
+      "sha256": [
+        "be208b255ddae146bf873c272f3d871b96418d5cb9bf1654ffa79438e1961c3d"
+      ],
       "text": "Good job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d7c8ed8fa10f79cc8808b7a41fabd2e45bb86844e99fe9c016e2fb19e318865",
-      "text": "You're done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "009f49c7b7f4a39340665fdc1433dc99193bf96389b868dcba1f4778fbcb4e0e",
+      "sha256": [
+        "009f49c7b7f4a39340665fdc1433dc99193bf96389b868dcba1f4778fbcb4e0e",
+        "6d7c8ed8fa10f79cc8808b7a41fabd2e45bb86844e99fe9c016e2fb19e318865"
+      ],
       "text": "You're done.",
       "source": "official"
     }

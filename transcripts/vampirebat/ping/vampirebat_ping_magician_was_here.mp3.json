@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "67854889f275e162fb432977347701f6226828fba2c6ce8ddd64d02d64287b2a",
-      "text": "Sinclair was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d5c34091d0b3498b3499641c1673e9b715cc18b52721df6f323dfd4f29362bd",
+      "sha256": [
+        "2d5c34091d0b3498b3499641c1673e9b715cc18b52721df6f323dfd4f29362bd",
+        "67854889f275e162fb432977347701f6226828fba2c6ce8ddd64d02d64287b2a"
+      ],
       "text": "Sinclair was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_orion_02.mp3",
   "revisions": [
     {
-      "sha256": "4f3b58125c52df4c997ce70a07526e128c926ec8acc0e79bfd344396e39aa313",
-      "text": "Careful, Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b48ca16b00a0012b1412c3bd34c3553c5cd6d6b01e6c20aa77abac4845ceeefd",
-      "text": "Careful, Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d809a7a4040f6c1c29960abc9f8b91a8bb6c939173f53886c92d8c3fb4b58af",
+      "sha256": [
+        "4f3b58125c52df4c997ce70a07526e128c926ec8acc0e79bfd344396e39aa313",
+        "5d809a7a4040f6c1c29960abc9f8b91a8bb6c939173f53886c92d8c3fb4b58af",
+        "b48ca16b00a0012b1412c3bd34c3553c5cd6d6b01e6c20aa77abac4845ceeefd"
+      ],
       "text": "Careful, Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_shiv_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "c2c463d7b6724d88390da39f57f78e7de013d873c2fd0ac5a5c2ae070bb85754",
+      "sha256": [
+        "c2c463d7b6724d88390da39f57f78e7de013d873c2fd0ac5a5c2ae070bb85754"
+      ],
       "text": "She was on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e9bab00ab3d9c0b746a4d7a9e90040daa2519b56949a3ebd22519775266bcd9a",
+      "sha256": [
+        "e9bab00ab3d9c0b746a4d7a9e90040daa2519b56949a3ebd22519775266bcd9a"
+      ],
       "text": "Shiv's on top of the garage!",
       "source": "official"
     }

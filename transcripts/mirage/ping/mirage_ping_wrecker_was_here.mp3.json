@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_wrecker_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1229db1068189f10dfa3f45485bcbb82ea235a6061ade13ba4d5cb4fe086d9d0",
+      "sha256": [
+        "1229db1068189f10dfa3f45485bcbb82ea235a6061ade13ba4d5cb4fe086d9d0"
+      ],
       "text": "Right over here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "16eb33b0ed2ac0e761c2bdc47b52e6d47882e8a440eb3a331d420286bdf2dfae",
+      "sha256": [
+        "16eb33b0ed2ac0e761c2bdc47b52e6d47882e8a440eb3a331d420286bdf2dfae",
+        "9c245432d9d3f0e9312a4e350349e6210387f44f59452c4c7967909da135f270"
+      ],
       "text": "Gregor was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9c245432d9d3f0e9312a4e350349e6210387f44f59452c4c7967909da135f270",
-      "text": "Gregor was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe40a4d43b76f8c96658cccde6ba7508283dd25d37057e70d9afac27e9297533",
+      "sha256": [
+        "fe40a4d43b76f8c96658cccde6ba7508283dd25d37057e70d9afac27e9297533"
+      ],
       "text": "Прекрутир!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

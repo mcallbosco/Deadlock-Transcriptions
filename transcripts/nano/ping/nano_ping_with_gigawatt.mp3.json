@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "b496cc3812af4923424a4c750986d2968db5d6a396429baa8591c680dec347b1",
+      "sha256": [
+        "b496cc3812af4923424a4c750986d2968db5d6a396429baa8591c680dec347b1"
+      ],
       "text": "I'm reading seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

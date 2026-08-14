@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_pocket_01.mp3",
   "revisions": [
     {
-      "sha256": "18a7f5d9f4fd1ab37d0939c8bec09f349b5bfa28eced36e4e087900b67f9f9fa",
+      "sha256": [
+        "18a7f5d9f4fd1ab37d0939c8bec09f349b5bfa28eced36e4e087900b67f9f9fa"
+      ],
       "text": "Hello there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

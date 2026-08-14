@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "82d4bb185c126fc28ba9410848fe6aec6f8e2fc55fe6ad865979feab73ad028d",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b1ec7b8d0b2e47ff1d637a110746d99ed29ebf0ba2f95c1127d8e76a2039236",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6dac2c5de9360a7434d37ed2d7ef14b18396944c5036bcb1dc5d8d99ac72b570",
+      "sha256": [
+        "2b1ec7b8d0b2e47ff1d637a110746d99ed29ebf0ba2f95c1127d8e76a2039236",
+        "6dac2c5de9360a7434d37ed2d7ef14b18396944c5036bcb1dc5d8d99ac72b570",
+        "82d4bb185c126fc28ba9410848fe6aec6f8e2fc55fe6ad865979feab73ad028d"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

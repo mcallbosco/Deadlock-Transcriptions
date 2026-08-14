@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_need_help_purple.mp3",
   "revisions": [
     {
-      "sha256": "91b447326c53579b2439b8bd6a7d895b6287a6863c83eadf6e722484e56ee411",
-      "text": "Need help on purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7958757d612fbc9cda3522efb7d2501b882a7a7d3c1f600bbb6176b9de4eb55a",
+      "sha256": [
+        "7958757d612fbc9cda3522efb7d2501b882a7a7d3c1f600bbb6176b9de4eb55a",
+        "91b447326c53579b2439b8bd6a7d895b6287a6863c83eadf6e722484e56ee411"
+      ],
       "text": "Need help on purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

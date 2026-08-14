@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_rejuvinator_expired.mp3",
   "revisions": [
     {
-      "sha256": "df2a44ff7fa0a77f61cb9aba1186a87d4e6789cd2ae14f64296bc889118beccb",
+      "sha256": [
+        "df2a44ff7fa0a77f61cb9aba1186a87d4e6789cd2ae14f64296bc889118beccb"
+      ],
       "text": "A Rejuvenator has expired.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -35,13 +35,13 @@ def legacy_document(filename: str, text: str) -> dict[str, object]:
 
 def target_document(filename: str, text: str, source: str, sha: str) -> dict[str, object]:
     revision: dict[str, object] = {
-        "sha256": sha,
+        "sha256": [sha],
         "text": text,
         "source": source,
     }
     if source == "generated":
         revision["model"] = "test-model"
-    return {"schemaVersion": 2, "filename": filename, "revisions": [revision]}
+    return {"schemaVersion": 3, "filename": filename, "revisions": [revision]}
 
 
 class DocumentComparisonTests(unittest.TestCase):
@@ -117,12 +117,12 @@ class TargetMatchingTests(unittest.TestCase):
                     "filename": "hero/hero_line.mp3",
                     "revisions": [
                         {
-                            "sha256": "1" * 64,
+                            "sha256": ["1" * 64],
                             "text": "Wrong line",
                             "source": "generated",
                         },
                         {
-                            "sha256": "2" * 64,
+                            "sha256": ["2" * 64],
                             "text": "Wrong line",
                             "source": "generated",
                         },
@@ -148,7 +148,7 @@ class TargetMatchingTests(unittest.TestCase):
                     "path": "transcripts/hero/hero_line.mp3.json",
                     "filename": "hero/hero_line.mp3",
                     "revisions": [
-                        {"sha256": None, "text": "Wrong line", "source": "generated"}
+                        {"sha256": [], "text": "Wrong line", "source": "generated"}
                     ],
                 }
             ]

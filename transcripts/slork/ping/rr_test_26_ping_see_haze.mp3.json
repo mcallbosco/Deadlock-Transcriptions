@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_haze.mp3",
   "revisions": [
     {
-      "sha256": "a7d5615fa62ed51194c5e697e98ebea1e7f3debe2ebe1fb0b424d945c408a20a",
-      "text": "I see Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "242004535a4be627371d910c17b23ff097a49ddecc67a7922b9d3fcb2418f530",
+      "sha256": [
+        "242004535a4be627371d910c17b23ff097a49ddecc67a7922b9d3fcb2418f530",
+        "a7d5615fa62ed51194c5e697e98ebea1e7f3debe2ebe1fb0b424d945c408a20a"
+      ],
       "text": "I see Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

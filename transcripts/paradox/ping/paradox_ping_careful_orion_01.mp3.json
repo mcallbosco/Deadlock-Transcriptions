@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "a125c1ad350292baa62f4e734edb49f281ebe98b5564f80d840f2632862e7d3f",
-      "text": "Careful, Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cbdd70a9d6929ff35b3506ff1a55dbe1f605ecb3486fe2805baef9174d4e9a9f",
+      "sha256": [
+        "a125c1ad350292baa62f4e734edb49f281ebe98b5564f80d840f2632862e7d3f",
+        "cbdd70a9d6929ff35b3506ff1a55dbe1f605ecb3486fe2805baef9174d4e9a9f"
+      ],
       "text": "Careful, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

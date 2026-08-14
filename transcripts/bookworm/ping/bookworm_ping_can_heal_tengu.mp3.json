@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_can_heal_tengu.mp3",
   "revisions": [
     {
-      "sha256": "7921bc5ea9f3c5fe56cd1ef296620526576a5c88f0626af8d6f7a17e313cf32a",
-      "text": "Ivy, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa20e2a99170f0e646af7c37b0df4247eba56961c7cb993972bdb0db0929dc3e",
+      "sha256": [
+        "7921bc5ea9f3c5fe56cd1ef296620526576a5c88f0626af8d6f7a17e313cf32a",
+        "aa20e2a99170f0e646af7c37b0df4247eba56961c7cb993972bdb0db0929dc3e"
+      ],
       "text": "Ivy, I can heal you!",
       "source": "official"
     }

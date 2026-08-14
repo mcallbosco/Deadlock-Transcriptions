@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "2f7ea81ef27662f3b8b23b96645302b5d7faeeb1d0b8be1afe5e947c80e427ad",
+      "sha256": [
+        "2f7ea81ef27662f3b8b23b96645302b5d7faeeb1d0b8be1afe5e947c80e427ad"
+      ],
       "text": "Give a gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "22b23a3da41d29e8469b0bcaa20eb7f1c8f6a168bc32e1500d0e890bc1a4265c",
+      "sha256": [
+        "22b23a3da41d29e8469b0bcaa20eb7f1c8f6a168bc32e1500d0e890bc1a4265c"
+      ],
       "text": "Cable gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

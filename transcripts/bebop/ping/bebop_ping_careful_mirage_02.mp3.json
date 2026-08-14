@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_mirage_02.mp3",
   "revisions": [
     {
-      "sha256": "f314f4f857d7437a4cc1f47f6ab9993453c5ef2d7421eb606089c2217b88cf16",
+      "sha256": [
+        "f314f4f857d7437a4cc1f47f6ab9993453c5ef2d7421eb606089c2217b88cf16"
+      ],
       "text": "Cancel Mirage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "81ef68d980f53788cfc4bf3046eb7bb7ac0856390e74ddaa064d247d9c305472",
+      "sha256": [
+        "81ef68d980f53788cfc4bf3046eb7bb7ac0856390e74ddaa064d247d9c305472"
+      ],
       "text": "Careful, Mirage",
       "source": "official"
     }

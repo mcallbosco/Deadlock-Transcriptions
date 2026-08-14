@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "ed0a12383ca266e8c01c1c53a20251bd256e469928970e1794b2d27cc378fa60",
-      "text": "Let's push yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "953138f99e2636e7daac58eebb5fe96e532dcbd0728082368f9ba119449cc756",
+      "sha256": [
+        "953138f99e2636e7daac58eebb5fe96e532dcbd0728082368f9ba119449cc756",
+        "ed0a12383ca266e8c01c1c53a20251bd256e469928970e1794b2d27cc378fa60"
+      ],
       "text": "Let's push yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

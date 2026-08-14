@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_praise_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "9e2bedb6918c5eb4dbf4128d619bb1f36c8bd44c83534d53cd4a3a473d8b3e1b",
+      "sha256": [
+        "9e2bedb6918c5eb4dbf4128d619bb1f36c8bd44c83534d53cd4a3a473d8b3e1b"
+      ],
       "text": "Well done, Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4e964b0f1b39404484db27e714c18706d80669f4adfbe66efc3aeab10eb5926c",
+      "sha256": [
+        "4e964b0f1b39404484db27e714c18706d80669f4adfbe66efc3aeab10eb5926c",
+        "e5a888b34db51909dbdd653463b62f66dcde53576bebfbfcc37861544a33c998"
+      ],
       "text": "I never doubted your convictions, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e5a888b34db51909dbdd653463b62f66dcde53576bebfbfcc37861544a33c998",
-      "text": "I never doubted your convictions, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed4d5b7241ceb06faf17b4090809110048e761358c9a3fc0bc566419523e2279",
+      "sha256": [
+        "ed4d5b7241ceb06faf17b4090809110048e761358c9a3fc0bc566419523e2279"
+      ],
       "text": "I never doubted your conviction Seven",
       "source": "official"
     }

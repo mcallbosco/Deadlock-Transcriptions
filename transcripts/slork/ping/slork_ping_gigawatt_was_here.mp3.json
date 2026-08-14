@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e914376c07627596ecef0cd60d2b63f709d83b8786bb34536714b05689752944",
+      "sha256": [
+        "e914376c07627596ecef0cd60d2b63f709d83b8786bb34536714b05689752944"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

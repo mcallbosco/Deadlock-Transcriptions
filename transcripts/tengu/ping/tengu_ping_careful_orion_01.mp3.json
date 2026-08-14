@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "32ad24def76aae73e750a0680d1fb6d6ae4c61b26252683e5d6ed67548790835",
-      "text": "Careful, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "220f5e77cec071b64fc1f4a2d43bedceecfbbb756ee7af8faefb7b18d195d9aa",
+      "sha256": [
+        "220f5e77cec071b64fc1f4a2d43bedceecfbbb756ee7af8faefb7b18d195d9aa",
+        "32ad24def76aae73e750a0680d1fb6d6ae4c61b26252683e5d6ed67548790835"
+      ],
       "text": "Careful, Grey Talon…",
       "source": "official"
     }

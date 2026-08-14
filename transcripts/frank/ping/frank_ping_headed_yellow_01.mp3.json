@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "d2ed7abff0e6a317eb09055b0b6da95fbd877ad96a8f444cd7acd2841dc25e73",
-      "text": "Headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "174c01beea681af5e26cd7af38489b6d5d30922556b834bb0db1bae774c6048d",
+      "sha256": [
+        "174c01beea681af5e26cd7af38489b6d5d30922556b834bb0db1bae774c6048d",
+        "d2ed7abff0e6a317eb09055b0b6da95fbd877ad96a8f444cd7acd2841dc25e73"
+      ],
       "text": "Headed to Yellow.",
       "source": "official"
     }

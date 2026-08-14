@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_wraith_was_here.mp3",
   "revisions": [
     {
-      "sha256": "653ca6f9b20bb03ac7ab993c2e9b907f63d37a119f5f6bec49ca953712093b14",
+      "sha256": [
+        "653ca6f9b20bb03ac7ab993c2e9b907f63d37a119f5f6bec49ca953712093b14"
+      ],
       "text": "Grace was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2b30ace0fdf64510fc867cef9dca7e4692edcf6fb6175917e1b575630202b2d6",
+      "sha256": [
+        "2b30ace0fdf64510fc867cef9dca7e4692edcf6fb6175917e1b575630202b2d6"
+      ],
       "text": "Great with you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

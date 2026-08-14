@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_use_echo_shard_01.mp3",
   "revisions": [
     {
-      "sha256": "8d086d03bec2684cfb780fd02518f8f7b92e3b69cd8027d9bfc522d0ad287b74",
+      "sha256": [
+        "8d086d03bec2684cfb780fd02518f8f7b92e3b69cd8027d9bfc522d0ad287b74"
+      ],
       "text": "Echo shot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c6b9cfe9cd7a57cd8ce77482c8a1a662a970aa40e92934a68d9a7af4a5fda61b",
-      "text": "Echo shard!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a978194764d054f7920a9d49a77293faea423d471194f7d68a02999b3d8bb42b",
-      "text": "Echo shard!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "561845e5e1662c294872755efac01bee6a296d687e64cc9848d6346e7eaef3a1",
+      "sha256": [
+        "561845e5e1662c294872755efac01bee6a296d687e64cc9848d6346e7eaef3a1",
+        "a978194764d054f7920a9d49a77293faea423d471194f7d68a02999b3d8bb42b",
+        "c6b9cfe9cd7a57cd8ce77482c8a1a662a970aa40e92934a68d9a7af4a5fda61b"
+      ],
       "text": "Echo shard!",
       "source": "official"
     }

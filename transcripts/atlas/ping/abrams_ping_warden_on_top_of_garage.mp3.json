@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_warden_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "6793f7a925b24b990977a385270cd5cf642d2458597a2ad472730eeaf665d1f3",
+      "sha256": [
+        "6793f7a925b24b990977a385270cd5cf642d2458597a2ad472730eeaf665d1f3"
+      ],
       "text": "One night at the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c97039ed34305228fffd4892a832cfbf568827ab5cc12ba695e479082ab3a641",
-      "text": "Warden's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c13de2ce20e185dfce7c074a0d8600986d517084c724f9a06f37bfebd757e87",
+      "sha256": [
+        "7c13de2ce20e185dfce7c074a0d8600986d517084c724f9a06f37bfebd757e87",
+        "c97039ed34305228fffd4892a832cfbf568827ab5cc12ba695e479082ab3a641"
+      ],
       "text": "Warden's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

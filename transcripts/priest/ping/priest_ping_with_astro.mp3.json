@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "7760ebaec2f2006d0427e919c52f4db99ae59dcb0be96c4ac7f7a924002a9ace",
+      "sha256": [
+        "7760ebaec2f2006d0427e919c52f4db99ae59dcb0be96c4ac7f7a924002a9ace",
+        "e53b5dfc69d811f4aeba3b0bb760db66e0900dd97c6ba9d4968d439b9afb64b5"
+      ],
       "text": "I'm with you, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e53b5dfc69d811f4aeba3b0bb760db66e0900dd97c6ba9d4968d439b9afb64b5",
-      "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

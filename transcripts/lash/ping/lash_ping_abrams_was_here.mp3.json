@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_abrams_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d4ddaf8e54ee51c99d50c2ecd0af487212711bcd37a57307d153db2e440fc6a3",
+      "sha256": [
+        "d4ddaf8e54ee51c99d50c2ecd0af487212711bcd37a57307d153db2e440fc6a3"
+      ],
       "text": "Abrams is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

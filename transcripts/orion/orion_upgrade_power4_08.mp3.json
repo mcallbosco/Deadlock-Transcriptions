@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power4_08.mp3",
   "revisions": [
     {
-      "sha256": "76d0b4c1d92eb1b7b5120a46cac9518536090babc8f8a5326e0896d015f8e581",
+      "sha256": [
+        "76d0b4c1d92eb1b7b5120a46cac9518536090babc8f8a5326e0896d015f8e581"
+      ],
       "text": "You will learn what it means to be hunted.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "047c3616660f28eb91e7fc64d48d4a33c3e87edcc19f1637c41cf023332d9895",
+      "sha256": [
+        "047c3616660f28eb91e7fc64d48d4a33c3e87edcc19f1637c41cf023332d9895",
+        "7284140cc2b26ede77d1bf29d1e3ed2f47c33a88ae1dd50281083bc1d3245596"
+      ],
       "text": "It will learn what it means to be haunted.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7284140cc2b26ede77d1bf29d1e3ed2f47c33a88ae1dd50281083bc1d3245596",
-      "text": "It will learn what it means to be haunted.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11d4ba8ce8f272eaeed7c6f5d9dbd75841c83b52cc4d72b53d16c95af74b39cc",
+      "sha256": [
+        "11d4ba8ce8f272eaeed7c6f5d9dbd75841c83b52cc4d72b53d16c95af74b39cc"
+      ],
       "text": "They will learn what it means to be hunted…",
       "source": "official"
     }

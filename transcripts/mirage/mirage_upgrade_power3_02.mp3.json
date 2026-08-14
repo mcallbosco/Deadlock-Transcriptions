@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power3_02.mp3",
   "revisions": [
     {
-      "sha256": "8704a83c54ba2426413923a5358871c8bb1bbdfd59e024f6efe7653bb97f702d",
+      "sha256": [
+        "8704a83c54ba2426413923a5358871c8bb1bbdfd59e024f6efe7653bb97f702d"
+      ],
       "text": "Don't ask my thanks if I",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e1f9f72fe1d481b46ad0c3dcc35a5a8890359419da6293f56547f304ea420387",
+      "sha256": [
+        "ddb827b3e5331bd10d449af8d5bb4eda099b097ee85c5ad116bcae8564fd33de",
+        "e1f9f72fe1d481b46ad0c3dcc35a5a8890359419da6293f56547f304ea420387"
+      ],
       "text": "I must have courage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ddb827b3e5331bd10d449af8d5bb4eda099b097ee85c5ad116bcae8564fd33de",
-      "text": "I must have courage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5783da0c831763fc0cbcfe86e70a9d2f21da22e3868ccb9f04b1c7b5b63f013f",
+      "sha256": [
+        "5783da0c831763fc0cbcfe86e70a9d2f21da22e3868ccb9f04b1c7b5b63f013f"
+      ],
       "text": "They will feel Nashala's wrath",
       "source": "official"
     }

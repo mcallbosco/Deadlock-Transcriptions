@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_ignore_wraith.mp3",
   "revisions": [
     {
-      "sha256": "5b14cc1bea768c1bd41131f8177947460db9d8a2019b868453494326dca0ac72",
+      "sha256": [
+        "5b14cc1bea768c1bd41131f8177947460db9d8a2019b868453494326dca0ac72",
+        "7304a969a45094fb768c1c48e6dc4a6e622f32f43faa2198fe875ae386b54a78"
+      ],
       "text": "Ignore Wraith!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7304a969a45094fb768c1c48e6dc4a6e622f32f43faa2198fe875ae386b54a78",
-      "text": "Ignore Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

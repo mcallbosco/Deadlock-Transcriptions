@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_saw_shiv.mp3",
   "revisions": [
     {
-      "sha256": "8a87ddaef025331090507fe84d32de3471dd37d3def99f011521c2762afc44ea",
+      "sha256": [
+        "8a87ddaef025331090507fe84d32de3471dd37d3def99f011521c2762afc44ea",
+        "fb43c079bb7763b3af09211a30d674387268449200b18c30c0977e15bf277477"
+      ],
       "text": "I saw Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb43c079bb7763b3af09211a30d674387268449200b18c30c0977e15bf277477",
-      "text": "I saw Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

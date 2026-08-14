@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_request_follow.mp3",
   "revisions": [
     {
-      "sha256": "3200ca1cbabc671b746cd3502f32491b9241932649a7c49c68025d48e4102426",
+      "sha256": [
+        "3200ca1cbabc671b746cd3502f32491b9241932649a7c49c68025d48e4102426"
+      ],
       "text": "Captain Me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "628066d1555094604076de2a2da8546963b33ea07cd058ebca87c99a75ece397",
+      "sha256": [
+        "628066d1555094604076de2a2da8546963b33ea07cd058ebca87c99a75ece397"
+      ],
       "text": "Come with me",
       "source": "official"
     }

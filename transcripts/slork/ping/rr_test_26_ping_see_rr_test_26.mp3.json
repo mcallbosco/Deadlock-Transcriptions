@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_rr_test_26.mp3",
   "revisions": [
     {
-      "sha256": "1a02ba3391467410a196a6bd8fb3c65f5b0dd9468ac14be39059de6ac588c75b",
-      "text": "I see a Kimbo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f64b134d1e8a1335c6f4d6056551dc5ee7eb409214cad9a45250f603d1833ad",
+      "sha256": [
+        "1a02ba3391467410a196a6bd8fb3c65f5b0dd9468ac14be39059de6ac588c75b",
+        "4f64b134d1e8a1335c6f4d6056551dc5ee7eb409214cad9a45250f603d1833ad"
+      ],
       "text": "I see a Kimbo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

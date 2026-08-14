@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "7d754e4c61a134d21adcf6a37f8c2f8d032b499048e91cf6df26af112c74222c",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c7a0ad0c6997fdd266761effa9e7b74768855239526c137c543a7cc40a89f31",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13cc5d2eff37b9703d0d1c3fdb85f05698a9fa27276d5c592222b87950923b21",
+      "sha256": [
+        "13cc5d2eff37b9703d0d1c3fdb85f05698a9fa27276d5c592222b87950923b21",
+        "7c7a0ad0c6997fdd266761effa9e7b74768855239526c137c543a7cc40a89f31",
+        "7d754e4c61a134d21adcf6a37f8c2f8d032b499048e91cf6df26af112c74222c"
+      ],
       "text": "Well played",
       "source": "official"
     }

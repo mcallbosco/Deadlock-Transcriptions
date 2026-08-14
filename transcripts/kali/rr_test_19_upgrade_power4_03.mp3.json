@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_upgrade_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "2d9782de1694882a998f0615bb5d8768b1d6372d6f49715ccc59b0ba183ae2e1",
+      "sha256": [
+        "2d9782de1694882a998f0615bb5d8768b1d6372d6f49715ccc59b0ba183ae2e1"
+      ],
       "text": "You",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "18efc630db4961ad4a3ae2d249d5c6e30ca306120c64db0bf575937b712cdf80",
+      "sha256": [
+        "18efc630db4961ad4a3ae2d249d5c6e30ca306120c64db0bf575937b712cdf80"
+      ],
       "text": "This is a test.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "941aa184bc9e1e050c6d63ffb0876b07c4823aeda626ff6caa304526d1cc299b",
+      "sha256": [
+        "941aa184bc9e1e050c6d63ffb0876b07c4823aeda626ff6caa304526d1cc299b"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

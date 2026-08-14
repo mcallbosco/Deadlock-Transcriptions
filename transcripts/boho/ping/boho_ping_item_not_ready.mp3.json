@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "622fb85244418a16714908223fc3548617864166c531757279ff1d76c4b8bae1",
+      "sha256": [
+        "622fb85244418a16714908223fc3548617864166c531757279ff1d76c4b8bae1"
+      ],
       "text": "Items on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

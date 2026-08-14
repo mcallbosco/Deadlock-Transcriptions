@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_green_guardian_destroyed_02.mp3",
   "revisions": [
     {
-      "sha256": "4d7bf1cf4decba1a5e3c1320cee478b785fdb86f658468bdfde0173623de0332",
-      "text": "Our green guardian has been defeated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "047d4d24f1ed29c2159239b484bf0d80cbab1f7bd46b0b02847c7a00e86d60cf",
+      "sha256": [
+        "047d4d24f1ed29c2159239b484bf0d80cbab1f7bd46b0b02847c7a00e86d60cf",
+        "4d7bf1cf4decba1a5e3c1320cee478b785fdb86f658468bdfde0173623de0332"
+      ],
       "text": "Our green guardian has been defeated",
       "source": "official"
     }

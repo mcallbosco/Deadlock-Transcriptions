@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_lash_check_items.mp3",
   "revisions": [
     {
-      "sha256": "33184859c81a9c2c10bcaafac2383cb2d3e0cfd22af649781bb816eee8c12653",
+      "sha256": [
+        "33184859c81a9c2c10bcaafac2383cb2d3e0cfd22af649781bb816eee8c12653",
+        "bab851589d0900e46aa9231dc4afece676539c3c4db197a1b8c605949ba77ac5"
+      ],
       "text": "Check out what Lash bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bab851589d0900e46aa9231dc4afece676539c3c4db197a1b8c605949ba77ac5",
-      "text": "Check out what Lash bought!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

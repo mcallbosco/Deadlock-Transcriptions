@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "7da1d9482e275d5463b04ad4152456ad8cfe2733b00ee409f4dbcafe687ca283",
-      "text": "I need to recover.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "072cc2b68860c604bc9a7972621601d767e94ce8f6b94afdfbf35d144b03a3d1",
-      "text": "I need to recover.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba315927729fd7387473bba666da29d6789a592052be88de2abe0989eb5bda5e",
-      "text": "I need to recover.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f40fb866bba6daa0ba63112aebfd54f9e02e7391f9fa97e313e26ee1cdebb0f",
+      "sha256": [
+        "072cc2b68860c604bc9a7972621601d767e94ce8f6b94afdfbf35d144b03a3d1",
+        "7da1d9482e275d5463b04ad4152456ad8cfe2733b00ee409f4dbcafe687ca283",
+        "7f40fb866bba6daa0ba63112aebfd54f9e02e7391f9fa97e313e26ee1cdebb0f",
+        "ba315927729fd7387473bba666da29d6789a592052be88de2abe0989eb5bda5e"
+      ],
       "text": "I need to recover.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

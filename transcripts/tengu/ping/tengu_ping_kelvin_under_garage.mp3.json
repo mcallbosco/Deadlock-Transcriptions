@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_kelvin_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "690534ef71894cca28cf0b7fe5520b782e9d695a040bfaa5549e8e908ceee8cc",
+      "sha256": [
+        "690534ef71894cca28cf0b7fe5520b782e9d695a040bfaa5549e8e908ceee8cc"
+      ],
       "text": "Calvin's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6fcc964fa20caaf6806d8ef048acb888c4a7e08cbbffbb89719752343633b0c7",
+      "sha256": [
+        "6fcc964fa20caaf6806d8ef048acb888c4a7e08cbbffbb89719752343633b0c7"
+      ],
       "text": "Kelvin's under the garage!",
       "source": "official"
     }

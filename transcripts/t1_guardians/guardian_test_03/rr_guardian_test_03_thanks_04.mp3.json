@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thanks_04.mp3",
   "revisions": [
     {
-      "sha256": "3fc0d6499d128c6c391e913160acc849d980fc64417f3cd7d2fbd6629e1de6df",
+      "sha256": [
+        "3fc0d6499d128c6c391e913160acc849d980fc64417f3cd7d2fbd6629e1de6df",
+        "6ad9ebec899704b3416f795822ba4027aeb3bbf5dc4541c7dbf9bb45dbae37e5",
+        "a6f078d710a4c83b03db7c99326c2b5e0a1ac51af965b004ccf39989018636f8"
+      ],
       "text": "You are in your cape tonight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ad9ebec899704b3416f795822ba4027aeb3bbf5dc4541c7dbf9bb45dbae37e5",
-      "text": "You are in your cape tonight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6f078d710a4c83b03db7c99326c2b5e0a1ac51af965b004ccf39989018636f8",
-      "text": "You are in your cape tonight!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

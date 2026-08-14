@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "129b5ee20f0caf29293e3e453226255cb45831d9ee17e2d36020ec0043a15f37",
+      "sha256": [
+        "129b5ee20f0caf29293e3e453226255cb45831d9ee17e2d36020ec0043a15f37"
+      ],
       "text": "That's what I want.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d4671806b7cf7ddcdcb7695809436ecec597127bb49cb6c71a2e93fb43e1ad6f",
+      "sha256": [
+        "d4671806b7cf7ddcdcb7695809436ecec597127bb49cb6c71a2e93fb43e1ad6f",
+        "f205568cae410a9dc94d9b67e0183a41a932afefe79cc5bb28966e1b8f265912"
+      ],
       "text": "Let's go Orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f205568cae410a9dc94d9b67e0183a41a932afefe79cc5bb28966e1b8f265912",
-      "text": "Let's go, Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

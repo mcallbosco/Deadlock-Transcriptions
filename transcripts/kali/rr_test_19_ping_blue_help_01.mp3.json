@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_blue_help_01.mp3",
   "revisions": [
     {
-      "sha256": "3253fc89014642cf83ebe937fcf27263c8e1fa31b9841288fdb48011400fcf81",
-      "text": "Blue needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cbd53be52e9d5c90ff87749112a48aac8b23a1f3afe3e69f040623173843ff3b",
-      "text": "Blue needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25a21956ecec38472f97f35dccec79f51bb383a48ffbc187c0f8cec2a0b812c4",
+      "sha256": [
+        "25a21956ecec38472f97f35dccec79f51bb383a48ffbc187c0f8cec2a0b812c4",
+        "3253fc89014642cf83ebe937fcf27263c8e1fa31b9841288fdb48011400fcf81",
+        "cbd53be52e9d5c90ff87749112a48aac8b23a1f3afe3e69f040623173843ff3b"
+      ],
       "text": "Blue needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

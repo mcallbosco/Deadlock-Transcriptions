@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_krill.mp3",
   "revisions": [
     {
-      "sha256": "5c361211ee929c52119b5bec0da54abcdfcd62de12048049bea37c860a1bc2f0",
-      "text": "Krill, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f5a569ff9b5f8d29e1a0a651f0bf2d937d66ae5f14ba3f7a705ae8e31518810",
-      "text": "Krill, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f611f2d36d980fa52c89bad344593966037892cdb8d85c88b2b59aa7f43530d",
+      "sha256": [
+        "0f611f2d36d980fa52c89bad344593966037892cdb8d85c88b2b59aa7f43530d",
+        "5c361211ee929c52119b5bec0da54abcdfcd62de12048049bea37c860a1bc2f0",
+        "8f5a569ff9b5f8d29e1a0a651f0bf2d937d66ae5f14ba3f7a705ae8e31518810"
+      ],
       "text": "Krill, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

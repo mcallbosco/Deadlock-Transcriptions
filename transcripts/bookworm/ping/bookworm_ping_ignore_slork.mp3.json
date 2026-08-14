@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_slork.mp3",
   "revisions": [
     {
-      "sha256": "ddd6f7fbaae45ef90e631a4863fbb52f2b851608884ccd25a9e30641ab155997",
+      "sha256": [
+        "add5b57101a7c075ef580d389faba15f9e13741a576db586d5d06397c8dbeb7b",
+        "ddd6f7fbaae45ef90e631a4863fbb52f2b851608884ccd25a9e30641ab155997"
+      ],
       "text": "Ignore Fathom.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "add5b57101a7c075ef580d389faba15f9e13741a576db586d5d06397c8dbeb7b",
-      "text": "Ignore, fathom.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/holliday_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "ab41ddb5b86b44ac85d75ec53cb20a3a5c18be133d6dfb66a0d5c3fc639e7f05",
+      "sha256": [
+        "ab41ddb5b86b44ac85d75ec53cb20a3a5c18be133d6dfb66a0d5c3fc639e7f05"
+      ],
       "text": "Might want to pull back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

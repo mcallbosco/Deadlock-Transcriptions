@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_abrams.mp3",
   "revisions": [
     {
-      "sha256": "b4be8ca0eb2027c90b0aed499c3b1d6aca748cee22f61b73b9b90586da32fa72",
-      "text": "I saw Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13494d014818aac7cb6ceb33659b037e04ba8d54017e419df5d76e9dcfec0f17",
+      "sha256": [
+        "13494d014818aac7cb6ceb33659b037e04ba8d54017e419df5d76e9dcfec0f17",
+        "b4be8ca0eb2027c90b0aed499c3b1d6aca748cee22f61b73b9b90586da32fa72"
+      ],
       "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

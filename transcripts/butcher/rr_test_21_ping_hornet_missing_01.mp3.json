@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_hornet_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ca318b8516125d9fca5436c81e900c0c6b685c3c667eee3ff49c174b5e759c25",
-      "text": "One is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e7b5db158de445e744e31b1c3208c829c9e3da176835c68928322860ef569c8f",
-      "text": "One is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f16de8113bf6324086b2987e0c2c5d31d0903454d3f01c1013679f575a9cd8e",
+      "sha256": [
+        "9f16de8113bf6324086b2987e0c2c5d31d0903454d3f01c1013679f575a9cd8e",
+        "ca318b8516125d9fca5436c81e900c0c6b685c3c667eee3ff49c174b5e759c25",
+        "e7b5db158de445e744e31b1c3208c829c9e3da176835c68928322860ef569c8f"
+      ],
       "text": "One is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

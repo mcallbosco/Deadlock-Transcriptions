@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_shiv_01.mp3",
   "revisions": [
     {
-      "sha256": "c9956c6f2c50b5ca89d172092d8753ac1719d29a8fb8d85e94c7f4cc1b797e97",
+      "sha256": [
+        "c9956c6f2c50b5ca89d172092d8753ac1719d29a8fb8d85e94c7f4cc1b797e97"
+      ],
       "text": "I see shit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "415cd7e367a84e302dfd7208632447110f7625a54c9d294a5d075856d6564e23",
+      "sha256": [
+        "415cd7e367a84e302dfd7208632447110f7625a54c9d294a5d075856d6564e23",
+        "b01d195a39906c092932eaacd61f4d8f593476f26567bd3f536c474ccde6fd4f"
+      ],
       "text": "I see shift.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0cc96cb9c3fa78866a46e48b5fb87bd7f8c0e957d332bdacc731e706deeaaa2d",
+      "sha256": [
+        "0cc96cb9c3fa78866a46e48b5fb87bd7f8c0e957d332bdacc731e706deeaaa2d"
+      ],
       "text": "I see ships.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b01d195a39906c092932eaacd61f4d8f593476f26567bd3f536c474ccde6fd4f",
-      "text": "I see shift.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd2d63dbca70d38f2585f21f20d56506553ac851c14cb1f62184572bb0f6ce58",
+      "sha256": [
+        "dd2d63dbca70d38f2585f21f20d56506553ac851c14cb1f62184572bb0f6ce58"
+      ],
       "text": "I see Shiv",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "4b2e73ec6f48a456c40c4744e78aa2734c691903f528dba1b4023962b39add99",
+      "sha256": [
+        "4b2e73ec6f48a456c40c4744e78aa2734c691903f528dba1b4023962b39add99"
+      ],
       "text": "McGinnis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_dynamo_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "81fcab1e45fe40ab11d459190b87aba1c0e761c57ef73c82d5039d6444232660",
+      "sha256": [
+        "81fcab1e45fe40ab11d459190b87aba1c0e761c57ef73c82d5039d6444232660"
+      ],
       "text": "Time was in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c04f07e8960979324c2ab77c176091c31a6ab32490a0d83f894c79b27548a879",
+      "sha256": [
+        "c04f07e8960979324c2ab77c176091c31a6ab32490a0d83f894c79b27548a879"
+      ],
       "text": "Dynamo's in mid!",
       "source": "official"
     }

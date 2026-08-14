@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "6cae231fdfba2ce519fe31523618b1765c9772b6da765901b5e3881b82271597",
-      "text": "I'm with you, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f4264a1e097dc7fb45ddf8ed4abbae465171128328b8a82c7ebd9e8412ca77d",
+      "sha256": [
+        "5f4264a1e097dc7fb45ddf8ed4abbae465171128328b8a82c7ebd9e8412ca77d",
+        "6cae231fdfba2ce519fe31523618b1765c9772b6da765901b5e3881b82271597"
+      ],
       "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

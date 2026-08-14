@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_enemy_gets_rejuv_02.mp3",
   "revisions": [
     {
-      "sha256": "19d3c906e871d05e67388522bda46e672243ba70478dd98170b4682ef1e41751",
+      "sha256": [
+        "19d3c906e871d05e67388522bda46e672243ba70478dd98170b4682ef1e41751",
+        "699342029c45af11bcd814727118ab0a7c4c8b014cc7b27d21b5117a9d694f16",
+        "e85805bfe65016afecc9944de48c639708b31cb0b272eb231a85bb628b68e7d3"
+      ],
       "text": "Be careful! They have the Rejuvenator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "699342029c45af11bcd814727118ab0a7c4c8b014cc7b27d21b5117a9d694f16",
-      "text": "Be careful, they have the rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e85805bfe65016afecc9944de48c639708b31cb0b272eb231a85bb628b68e7d3",
-      "text": "Be careful! They have the Rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7f28918bc85bf8983517e6a818ea646a33dfaaa0837c4ac9427ff2babfd6bd0",
+      "sha256": [
+        "d7f28918bc85bf8983517e6a818ea646a33dfaaa0837c4ac9427ff2babfd6bd0"
+      ],
       "text": "Be careful, they have the rejuvinator",
       "source": "official"
     }

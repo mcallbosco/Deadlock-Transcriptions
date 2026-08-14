@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "35b3bdb3c4950292813142b55e9b052ceb1b70ad1d7ad1128ec4973b0a81bc65",
+      "sha256": [
+        "1022d55e04343267b929f8b8f769923d376939840caba199d5428a239d5a4a6b",
+        "35b3bdb3c4950292813142b55e9b052ceb1b70ad1d7ad1128ec4973b0a81bc65"
+      ],
       "text": "Calvin is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1022d55e04343267b929f8b8f769923d376939840caba199d5428a239d5a4a6b",
-      "text": "Calvin is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "956eee2592d75840727b35a9959eb4576288c5d7862e44d8bebe9a5aa4be11b4",
+      "sha256": [
+        "956eee2592d75840727b35a9959eb4576288c5d7862e44d8bebe9a5aa4be11b4"
+      ],
       "text": "Cabin is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b7a15d2783a86000f42628741638ca8b4ea9c377c3946029600fc987e93be28a",
+      "sha256": [
+        "b7a15d2783a86000f42628741638ca8b4ea9c377c3946029600fc987e93be28a"
+      ],
       "text": "Kelvin's missing",
       "source": "official"
     }

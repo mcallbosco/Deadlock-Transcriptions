@@ -25,16 +25,16 @@ class ApplyCurrentContributionTests(unittest.TestCase):
             path = repo / "transcripts/hero/line.mp3.json"
             path.parent.mkdir(parents=True)
             document = {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "hero/line.mp3",
                 "revisions": [
                     {
-                        "sha256": "1" * 64,
+                        "sha256": ["1" * 64],
                         "text": "Wrong line",
                         "source": "generated",
                         "model": "test-model",
                     },
-                    {"sha256": "2" * 64, "text": "Official line", "source": "official"},
+                    {"sha256": ["2" * 64], "text": "Official line", "source": "official"},
                 ],
             }
             path.write_text(json.dumps(document, indent=2) + "\n", encoding="utf-8")
@@ -90,6 +90,60 @@ class ApplyCurrentContributionTests(unittest.TestCase):
         }
         with self.assertRaises(AuditError):
             candidate_action(record)
+
+    def test_plan_rejects_different_hashes_in_the_same_group(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            path = repo / "transcripts/hero/line.mp3.json"
+            path.parent.mkdir(parents=True)
+            path.write_text(
+                json.dumps(
+                    {
+                        "schemaVersion": 3,
+                        "filename": "hero/line.mp3",
+                        "revisions": [
+                            {
+                                "sha256": ["1" * 64, "3" * 64],
+                                "text": "Wrong line",
+                                "source": "generated",
+                                "model": "test-model",
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            records = []
+            for index, digest in enumerate(("1" * 64, "3" * 64)):
+                records.append(
+                    {
+                        "status": "candidate_manual",
+                        "legacyPath": f"data/line-{index}.mp3.json",
+                        "legacyCommit": str(index + 1) * 40,
+                        "author": {"name": "Alice", "email": "alice@example.com"},
+                        "beforeFullText": "Wrong line",
+                        "currentFullText": "Correct line",
+                        "targetMatches": [
+                            {
+                                "path": "transcripts/hero/line.mp3.json",
+                                "sha256": digest,
+                                "source": "generated",
+                                "proposedAction": "replace_text_and_mark_manual",
+                            }
+                        ],
+                    }
+                )
+            report = {
+                "mode": "audit-only",
+                "target": {"prefix": "transcripts"},
+                "policy": {
+                    "officialRevisionsMutable": False,
+                    "uniqueNonOfficialRevisionRequired": True,
+                },
+                "records": records,
+            }
+            with self.assertRaisesRegex(AuditError, "same transcript group"):
+                plan_changes(repo, report)
 
 
 if __name__ == "__main__":

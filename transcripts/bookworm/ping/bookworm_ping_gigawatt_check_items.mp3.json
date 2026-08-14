@@ -1,14 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_gigawatt_check_items.mp3",
   "revisions": [
     {
-      "sha256": "ec4f4d33ff91e900b1c5f8c782fc56f8ac7498e9363c3ce8ec90a20e60e54921",
+      "sha256": [
+        "ec4f4d33ff91e900b1c5f8c782fc56f8ac7498e9363c3ce8ec90a20e60e54921"
+      ],
       "text": "Check out what Seven bought.",
       "source": "manual"
     },
     {
-      "sha256": "09d5174d0893eebff581348d51e8e1f2cca164fc189bac6441767cb5f3720f9f",
+      "sha256": [
+        "09d5174d0893eebff581348d51e8e1f2cca164fc189bac6441767cb5f3720f9f"
+      ],
       "text": "Check out with Sevenbot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

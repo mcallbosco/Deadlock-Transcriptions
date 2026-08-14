@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "6376f081e4522811af3887e425254b5a301d337b0f05ca30f4793e3add1394b8",
+      "sha256": [
+        "6376f081e4522811af3887e425254b5a301d337b0f05ca30f4793e3add1394b8"
+      ],
       "text": "Thank you, guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "35903fb4bb1b6a54883f8c4cdba1e642b2b5801dbefc520ca1563a313ebda537",
+      "sha256": [
+        "35903fb4bb1b6a54883f8c4cdba1e642b2b5801dbefc520ca1563a313ebda537"
+      ],
       "text": "I see Wraith.",
       "source": "official"
     }

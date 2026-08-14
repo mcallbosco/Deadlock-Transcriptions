@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_haze_02.mp3",
   "revisions": [
     {
-      "sha256": "a02fbb0c6f2146266c8247f47a822c5e70fb1f2d96b7a1ef8cd148b2ecdd1779",
-      "text": "Oh, great, a Fed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fdd284e421cffa212fbe31c0f7f8a67aebaa3f486e37be3e96cb54207e33a6a",
-      "text": "Oh, great, that's fed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0a7c16c4c7111e6b4f676d03bfe40d183ed1579f60960569c819feca47e8f21",
-      "text": "Oh, great, that's fed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4711ec1cf6619178bb1115415f873a0d3c8cfd11bee947a83b6ed2ac44847bd",
+      "sha256": [
+        "a02fbb0c6f2146266c8247f47a822c5e70fb1f2d96b7a1ef8cd148b2ecdd1779",
+        "c4711ec1cf6619178bb1115415f873a0d3c8cfd11bee947a83b6ed2ac44847bd"
+      ],
       "text": "Oh great. A Fed.",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "4fdd284e421cffa212fbe31c0f7f8a67aebaa3f486e37be3e96cb54207e33a6a",
+        "b0a7c16c4c7111e6b4f676d03bfe40d183ed1579f60960569c819feca47e8f21"
+      ],
+      "text": "Oh, great, that's fed.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

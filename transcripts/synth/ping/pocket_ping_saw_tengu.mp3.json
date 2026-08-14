@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_saw_tengu.mp3",
   "revisions": [
     {
-      "sha256": "fa35771a53465ffe59a63d547c9347f0d6e336ff931e8e2e2d5e057bbc970ea3",
-      "text": "I saw Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "98635fdb56f56884312cffcdabf78d67dc85fbe8315e820d87fcc2e872b53325",
+      "sha256": [
+        "98635fdb56f56884312cffcdabf78d67dc85fbe8315e820d87fcc2e872b53325",
+        "fa35771a53465ffe59a63d547c9347f0d6e336ff931e8e2e2d5e057bbc970ea3"
+      ],
       "text": "I saw Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

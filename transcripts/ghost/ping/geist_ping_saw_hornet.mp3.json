@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_hornet.mp3",
   "revisions": [
     {
-      "sha256": "f716a2f1e2885a7a52de3b3de95a6f31a125f4a9918d94e43c61342c61bfeb2e",
-      "text": "I saw Vindicta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aec5187d0c1273f5b4a7c6239c7bc5a7d6c3cad9928cd8319495fbf9c3362f6d",
+      "sha256": [
+        "aec5187d0c1273f5b4a7c6239c7bc5a7d6c3cad9928cd8319495fbf9c3362f6d",
+        "f716a2f1e2885a7a52de3b3de95a6f31a125f4a9918d94e43c61342c61bfeb2e"
+      ],
       "text": "I saw Vindicta!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

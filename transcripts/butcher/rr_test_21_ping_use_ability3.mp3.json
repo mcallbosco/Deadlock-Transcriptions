@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_use_ability3.mp3",
   "revisions": [
     {
-      "sha256": "66146d140ab81516e839d03c03bdf376daee2281a4b4bee1015beacadfae1518",
-      "text": "It's ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5c28cc5dc28aba8d82097caeeb8e369a3b22cce23967f1b6241cb875167b667",
-      "text": "It's ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e95ec5a7a1ec446590fc134be64831f105611f2a7aa37d29804edfd8d851fad0",
+      "sha256": [
+        "66146d140ab81516e839d03c03bdf376daee2281a4b4bee1015beacadfae1518",
+        "d5c28cc5dc28aba8d82097caeeb8e369a3b22cce23967f1b6241cb875167b667",
+        "e95ec5a7a1ec446590fc134be64831f105611f2a7aa37d29804edfd8d851fad0"
+      ],
       "text": "It's ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

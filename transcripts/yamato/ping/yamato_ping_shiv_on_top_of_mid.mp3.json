@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_shiv_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "2c221c4d3ac082c57f6812eaeee2315c9bfde7264d841a03b7cb7079ef687e25",
+      "sha256": [
+        "1fac10ee6faf48bad0cb64424d18f5c5d83e2dc866a6e1cfbdb9a969355eacb2",
+        "2c221c4d3ac082c57f6812eaeee2315c9bfde7264d841a03b7cb7079ef687e25"
+      ],
       "text": "Shiv's on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "db097d1196707f72d54d779c22181ba727762acb931560ce44f8be83a0c39b9f",
+      "sha256": [
+        "db097d1196707f72d54d779c22181ba727762acb931560ce44f8be83a0c39b9f"
+      ],
       "text": "Shives on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1fac10ee6faf48bad0cb64424d18f5c5d83e2dc866a6e1cfbdb9a969355eacb2",
-      "text": "Shiv's on top of mid!",
-      "source": "official"
     }
   ]
 }

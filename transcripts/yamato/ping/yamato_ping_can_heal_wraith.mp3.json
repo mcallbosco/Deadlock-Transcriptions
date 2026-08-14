@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_wraith.mp3",
   "revisions": [
     {
-      "sha256": "9a02dac68989eecca110840f2877671260d341e40299a1ecd8eddc86ab8c669d",
+      "sha256": [
+        "1dbe3abe9c39b678ab68c7436087335e93896baedecaabcca89b321e11f4e3fb",
+        "9a02dac68989eecca110840f2877671260d341e40299a1ecd8eddc86ab8c669d"
+      ],
       "text": "Great! I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1dbe3abe9c39b678ab68c7436087335e93896baedecaabcca89b321e11f4e3fb",
-      "text": "Great, I can hear you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66df4793cf9f7b782661c7ca8be3137281b1ad36553fe9a341ba75e58e734b8b",
+      "sha256": [
+        "66df4793cf9f7b782661c7ca8be3137281b1ad36553fe9a341ba75e58e734b8b"
+      ],
       "text": "Wraith, I can heal you!",
       "source": "official"
     }

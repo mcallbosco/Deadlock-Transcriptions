@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_warden_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "b8f905540bef9805ea9a1af7aec6a137b084e276cadd77d8dc225b78f189f5ec",
-      "text": "Warden is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4d90fed5618778d73798a144b9452c657c927b3729dd8b297f8e7c14a74b6d1",
+      "sha256": [
+        "b8f905540bef9805ea9a1af7aec6a137b084e276cadd77d8dc225b78f189f5ec",
+        "f4d90fed5618778d73798a144b9452c657c927b3729dd8b297f8e7c14a74b6d1"
+      ],
       "text": "Warden is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

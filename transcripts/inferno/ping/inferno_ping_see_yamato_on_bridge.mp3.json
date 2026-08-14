@@ -1,35 +1,38 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "f9d48dae9f7ae70e3f1bc4e83111f74e7414eed4a482e6b96131ebdc2d1bad48",
+      "sha256": [
+        "f9d48dae9f7ae70e3f1bc4e83111f74e7414eed4a482e6b96131ebdc2d1bad48"
+      ],
       "text": "Yamato's on the breach.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a5e06a94bf8f333bf907b2c53f5e1808785516d54aa6fdfc3e33e2cf5c3b8df8",
+      "sha256": [
+        "a5e06a94bf8f333bf907b2c53f5e1808785516d54aa6fdfc3e33e2cf5c3b8df8"
+      ],
       "text": "Yamato is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c9f3af54fb8125e2cc2b07772035a447c4dfc63d9df53eb36713ebe4e80ae5c7",
-      "text": "Yamato's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "17af042d69c5f8c98d7fb6b6e953f25695d2be4e6c9e42309b10c5eac4cecd4d",
+        "c9f3af54fb8125e2cc2b07772035a447c4dfc63d9df53eb36713ebe4e80ae5c7"
+      ],
+      "text": "Yamato's on the bridge!",
+      "source": "official"
     },
     {
-      "sha256": "270534db2b51350b8bf57c125b7893536ed8556192e6f309918c6b517b7b2d0f",
+      "sha256": [
+        "270534db2b51350b8bf57c125b7893536ed8556192e6f309918c6b517b7b2d0f"
+      ],
       "text": "The Mara's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17af042d69c5f8c98d7fb6b6e953f25695d2be4e6c9e42309b10c5eac4cecd4d",
-      "text": "Yamato's on the bridge!",
-      "source": "official"
     }
   ]
 }

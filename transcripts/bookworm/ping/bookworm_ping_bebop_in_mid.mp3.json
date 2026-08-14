@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_bebop_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "7d0af21409e01daddd53a6a372306ebafff3729f47f017db2c9d6ef37a49c539",
+      "sha256": [
+        "7d0af21409e01daddd53a6a372306ebafff3729f47f017db2c9d6ef37a49c539"
+      ],
       "text": "The bots have been made!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ae5bf77d06418a3e6a77079f69504eff1457f8c49a86c0a251b74ba7e86b36dc",
+      "sha256": [
+        "ae5bf77d06418a3e6a77079f69504eff1457f8c49a86c0a251b74ba7e86b36dc"
+      ],
       "text": "Bebop's in mid!",
       "source": "official"
     }

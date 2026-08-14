@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_inferno_check_items.mp3",
   "revisions": [
     {
-      "sha256": "06e18ccf5236e027ee5ae22333b02cea3b2ad227bb1cb52afebd77a45f8705c7",
-      "text": "Check out what Infernus bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8ae291bd9e267509f209675399e51fe23c4d1733e5cbf1e937d2995418ad56c",
+      "sha256": [
+        "06e18ccf5236e027ee5ae22333b02cea3b2ad227bb1cb52afebd77a45f8705c7",
+        "f8ae291bd9e267509f209675399e51fe23c4d1733e5cbf1e937d2995418ad56c"
+      ],
       "text": "Check out what Infernus bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

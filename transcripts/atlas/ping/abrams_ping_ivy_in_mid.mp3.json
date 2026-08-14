@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ivy_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "f46c335c5c893d14491aee18212ef32535844e89c44c4e1dd82f1dbd901ae25c",
-      "text": "Ivy's in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ebde1e51ddd4c24f6c52c8c345ff1d8d1e5992e420306c8134d2ced671a80c3c",
+      "sha256": [
+        "ebde1e51ddd4c24f6c52c8c345ff1d8d1e5992e420306c8134d2ced671a80c3c",
+        "f46c335c5c893d14491aee18212ef32535844e89c44c4e1dd82f1dbd901ae25c"
+      ],
       "text": "Ivy's in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

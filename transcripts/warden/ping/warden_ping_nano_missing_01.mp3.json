@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_nano_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3222e0627ae369a7164981afeb64027dc24246423ab754bd7091e91ab354d03b",
-      "text": "Calico's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b69a1edd6b7cad0b6aeb8e93a9010915191c8a6616ea5df78dcc0a64c29c4bb4",
-      "text": "Calco's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4cae4f195cd1665e4323913ef9fefed6cf329b23f0d951cbaf03b40e33abad6",
-      "text": "Calco's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e894f1e35289635e5f173afddea07f0e0397e059ded6e78e176755967465523d",
+      "sha256": [
+        "3222e0627ae369a7164981afeb64027dc24246423ab754bd7091e91ab354d03b",
+        "e894f1e35289635e5f173afddea07f0e0397e059ded6e78e176755967465523d"
+      ],
       "text": "Calico's missing",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "b69a1edd6b7cad0b6aeb8e93a9010915191c8a6616ea5df78dcc0a64c29c4bb4",
+        "c4cae4f195cd1665e4323913ef9fefed6cf329b23f0d951cbaf03b40e33abad6"
+      ],
+      "text": "Calco's missing.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

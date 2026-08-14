@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_fairfax_was_here.mp3",
   "revisions": [
     {
-      "sha256": "bfbfb76e6049c9d00b5ca53ed1b7c0b7def8ea442393132e28f16b65dab23d30",
+      "sha256": [
+        "bfbfb76e6049c9d00b5ca53ed1b7c0b7def8ea442393132e28f16b65dab23d30"
+      ],
       "text": "Kevath was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "22e7eaec19bf835c8d5b1acfa81915be7add1d0ea8c8275f80ab9e780ab50df8",
+      "sha256": [
+        "22e7eaec19bf835c8d5b1acfa81915be7add1d0ea8c8275f80ab9e780ab50df8"
+      ],
       "text": "Careless here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

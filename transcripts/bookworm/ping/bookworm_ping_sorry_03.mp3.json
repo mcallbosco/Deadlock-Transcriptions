@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_sorry_03.mp3",
   "revisions": [
     {
-      "sha256": "ee59626dbb302be8e5c8b4d5d408d9eec744839dbb7b3ef98feb15fec384aceb",
-      "text": "My fault.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b95c51c0d00b09020f2005df62039aa0b0506eb29d4a8eceb129d547e038ceb",
+      "sha256": [
+        "1b95c51c0d00b09020f2005df62039aa0b0506eb29d4a8eceb129d547e038ceb",
+        "ee59626dbb302be8e5c8b4d5d408d9eec744839dbb7b3ef98feb15fec384aceb"
+      ],
       "text": "My fault.",
       "source": "official"
     }

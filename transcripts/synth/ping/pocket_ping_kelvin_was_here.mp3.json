@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e86a9bc9eaac84ac70f09a27ea62afc5a55f71db9b1e1976e089f145ca87e548",
-      "text": "Kelvin was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4bf6d07691b075729c4015abdd74f94ea78388d4bf5827dbb873704993a41a4",
+      "sha256": [
+        "c4bf6d07691b075729c4015abdd74f94ea78388d4bf5827dbb873704993a41a4",
+        "e86a9bc9eaac84ac70f09a27ea62afc5a55f71db9b1e1976e089f145ca87e548"
+      ],
       "text": "Kelvin was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_warden_dead.mp3",
   "revisions": [
     {
-      "sha256": "43efee6ba60e5427950b872390fda0497c49735cef4ff4e27f231f2f6aafde4a",
-      "text": "Warden is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "060068dd7cca95171c64d4ff47c087484388acd3149caf334760483ea59e6d89",
-      "text": "Warden is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ef5c1592a347192652366e75314d7de93650f38516b68726fb8f1a3ef2fb796",
+      "sha256": [
+        "060068dd7cca95171c64d4ff47c087484388acd3149caf334760483ea59e6d89",
+        "43efee6ba60e5427950b872390fda0497c49735cef4ff4e27f231f2f6aafde4a",
+        "4ef5c1592a347192652366e75314d7de93650f38516b68726fb8f1a3ef2fb796"
+      ],
       "text": "Warden is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

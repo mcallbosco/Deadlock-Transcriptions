@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "77bf25b5a82be51104d47fd37bd2f815072da13c5f1f89291e676ac99e916de6",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d93dfea9ed4470f0dc2db0feee6cf838489ad69e55d1bbbc284705c5dab03ebb",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c05c0d1a9980970977ef05cf1fb74dda6efe657af3df00fce6e96fe63162c424",
+      "sha256": [
+        "77bf25b5a82be51104d47fd37bd2f815072da13c5f1f89291e676ac99e916de6",
+        "c05c0d1a9980970977ef05cf1fb74dda6efe657af3df00fce6e96fe63162c424",
+        "d93dfea9ed4470f0dc2db0feee6cf838489ad69e55d1bbbc284705c5dab03ebb"
+      ],
       "text": "I see Paradox",
       "source": "official"
     }

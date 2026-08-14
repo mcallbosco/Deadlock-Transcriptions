@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_nano_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "732dd4f0019a4ba10cfe621d84bfb3d63e0baca9a32eb338cdd16076bc4b9c76",
+      "sha256": [
+        "732dd4f0019a4ba10cfe621d84bfb3d63e0baca9a32eb338cdd16076bc4b9c76"
+      ],
       "text": "Kai goes in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "611d5a1b666f21dfe0eb4e3f82beadb98bcce05234ef346a20b939822dfa108b",
+      "sha256": [
+        "611d5a1b666f21dfe0eb4e3f82beadb98bcce05234ef346a20b939822dfa108b"
+      ],
       "text": "Calico's in mid!",
       "source": "official"
     }

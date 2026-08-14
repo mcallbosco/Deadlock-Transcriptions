@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "ea97474b636879592ec087e1ec6d2534978ff6e392598882cd8ec16b9369422c",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3acbd0456800fe6a83ed998086780e8b97a25fc857bb5214a78eeb0636b80d8f",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02a8ed81fb99eaccb5a756176f2f4e3c5f7470a2f06ecc7fcfab12153f806aa1",
+      "sha256": [
+        "02a8ed81fb99eaccb5a756176f2f4e3c5f7470a2f06ecc7fcfab12153f806aa1",
+        "3acbd0456800fe6a83ed998086780e8b97a25fc857bb5214a78eeb0636b80d8f",
+        "ea97474b636879592ec087e1ec6d2534978ff6e392598882cd8ec16b9369422c"
+      ],
       "text": "Good job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

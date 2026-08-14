@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_use_power4_02.mp3",
   "revisions": [
     {
-      "sha256": "aac56f6ca143307373bb12836e6ae55611c80ae827857735957fa396c2bcd1d5",
-      "text": "I'm on my way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "986fcb7db241e7739e927033470850d296d46c1f66e389c5fa2ea119c289826d",
-      "text": "I'm on my way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9a6374c5d6b7a19c784215887a41b0ec3af37bc0327ec116a3de96b0a1b0f9e",
+      "sha256": [
+        "986fcb7db241e7739e927033470850d296d46c1f66e389c5fa2ea119c289826d",
+        "a9a6374c5d6b7a19c784215887a41b0ec3af37bc0327ec116a3de96b0a1b0f9e",
+        "aac56f6ca143307373bb12836e6ae55611c80ae827857735957fa396c2bcd1d5"
+      ],
       "text": "I'm on my way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

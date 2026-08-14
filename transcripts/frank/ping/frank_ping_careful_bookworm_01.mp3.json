@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_bookworm_01.mp3",
   "revisions": [
     {
-      "sha256": "0a6142426c706154e22ef1dbe2a15e237c2a9b383ad621752a91742f9c382295",
+      "sha256": [
+        "0a6142426c706154e22ef1dbe2a15e237c2a9b383ad621752a91742f9c382295"
+      ],
       "text": "Careful, bookworm.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

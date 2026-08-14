@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_abrams_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "79321a9f8ff275fe668c83bb580ea6215693c473ca46f44f1ed55341e2cee2de",
-      "text": "Abrams is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6d4b281041f3aac688ef2adadddb9391a3acb711cdb8e6a5b5f57f408f89d95",
+      "sha256": [
+        "79321a9f8ff275fe668c83bb580ea6215693c473ca46f44f1ed55341e2cee2de",
+        "a6d4b281041f3aac688ef2adadddb9391a3acb711cdb8e6a5b5f57f408f89d95"
+      ],
       "text": "Abrams is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

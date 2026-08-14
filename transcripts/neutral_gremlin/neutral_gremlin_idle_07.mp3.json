@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "neutral_gremlin/neutral_gremlin_idle_07.mp3",
   "revisions": [
     {
-      "sha256": "d71ee703df1c3e22bf42fa36739a89b2c9c379201c5d0874748719c03b5dd3ce",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af04f06e09690d8467b055ad22d76100873c090fe5faf11b80bcd87b5b712afa",
+      "sha256": [
+        "af04f06e09690d8467b055ad22d76100873c090fe5faf11b80bcd87b5b712afa",
+        "d71ee703df1c3e22bf42fa36739a89b2c9c379201c5d0874748719c03b5dd3ce"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_nano.mp3",
   "revisions": [
     {
-      "sha256": "54ff3d38bd694485201a966fdbef4c4f71cf25ddd47c5b945f78ff8b16b68ed4",
-      "text": "Ignore Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37f8d0bf354e8fdee60b2c0ecf94c7dab0c54d80516b0dc07240d46674fad702",
+      "sha256": [
+        "37f8d0bf354e8fdee60b2c0ecf94c7dab0c54d80516b0dc07240d46674fad702",
+        "54ff3d38bd694485201a966fdbef4c4f71cf25ddd47c5b945f78ff8b16b68ed4"
+      ],
       "text": "Ignore Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

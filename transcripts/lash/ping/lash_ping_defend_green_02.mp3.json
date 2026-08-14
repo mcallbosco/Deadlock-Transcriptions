@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_defend_green_02.mp3",
   "revisions": [
     {
-      "sha256": "e78afce3145d958322bb8b99a7aff80f1440353b1956e8a5980ab45f52833c03",
-      "text": "defend Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "cc34de2f80e93c6f2e379f62b83f8e43413732b83698eee622cda61603b33172",
+        "e78afce3145d958322bb8b99a7aff80f1440353b1956e8a5980ab45f52833c03"
+      ],
+      "text": "Defend Greenwich",
+      "source": "official"
     },
     {
-      "sha256": "d2daa83f4015ab6ad14fe1c6c967e03efd85228f6c52ee162a4bcdfce9c3583d",
+      "sha256": [
+        "d2daa83f4015ab6ad14fe1c6c967e03efd85228f6c52ee162a4bcdfce9c3583d"
+      ],
       "text": "From Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc34de2f80e93c6f2e379f62b83f8e43413732b83698eee622cda61603b33172",
-      "text": "Defend Greenwich",
-      "source": "official"
     }
   ]
 }

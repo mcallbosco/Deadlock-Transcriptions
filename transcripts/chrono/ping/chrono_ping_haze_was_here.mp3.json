@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fcbc367fa8e8c2f8b2b5533aac77df4809f9e93669bf3b091696050adba91340",
+      "sha256": [
+        "fcbc367fa8e8c2f8b2b5533aac77df4809f9e93669bf3b091696050adba91340"
+      ],
       "text": "Haze was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "615de08bdb83d2616a261cf6790181c5062afda78bb4a597fb937a90bde09797",
+      "sha256": [
+        "615de08bdb83d2616a261cf6790181c5062afda78bb4a597fb937a90bde09797"
+      ],
       "text": "Hayes was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/chrono_upgrade_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "5d213287858cbb533def936620f79c23c5ea6ea5d013f83c2c2b708064903df7",
-      "text": "This will help when we push.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "424ae312d666554cd2b0f960969b1d9b2e14fbcbda1afc3c6fbd0fa191875772",
+      "sha256": [
+        "424ae312d666554cd2b0f960969b1d9b2e14fbcbda1afc3c6fbd0fa191875772",
+        "5d213287858cbb533def936620f79c23c5ea6ea5d013f83c2c2b708064903df7"
+      ],
       "text": "This will help when we push…",
       "source": "official"
     }

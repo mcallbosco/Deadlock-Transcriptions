@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_desperation_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "d10b08a63257ec3fe48683345820ccdae2df5668eff542a6d4941b2ddbebb752",
+      "sha256": [
+        "d10b08a63257ec3fe48683345820ccdae2df5668eff542a6d4941b2ddbebb752",
+        "ee3f962b2c60aa2887d9cdcc80e525cb0697f31c361e8b986ff0d276a56f1f09"
+      ],
       "text": "I'll give it everything I have.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee3f962b2c60aa2887d9cdcc80e525cb0697f31c361e8b986ff0d276a56f1f09",
-      "text": "I'll give it everything I have!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

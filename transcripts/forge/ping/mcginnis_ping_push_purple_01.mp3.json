@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_push_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "bfa4347b673769f87c532d6a02a9b1fa5b031a283b5efcb43beaba645e0cb77a",
+      "sha256": [
+        "b6759226632bf30233995e798ddc13ef84407212d956014977d4fadb09bcccb5",
+        "bfa4347b673769f87c532d6a02a9b1fa5b031a283b5efcb43beaba645e0cb77a"
+      ],
       "text": "Let's push purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6759226632bf30233995e798ddc13ef84407212d956014977d4fadb09bcccb5",
-      "text": "Let's push purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

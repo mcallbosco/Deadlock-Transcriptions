@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "f0c35458396b8d8470edf8eff39280c4bcfd56c6cd8f919db909f90c85daabfd",
+      "sha256": [
+        "f0c35458396b8d8470edf8eff39280c4bcfd56c6cd8f919db909f90c85daabfd"
+      ],
       "text": "Now this is our final fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "faa93c8f57b8c39a6e9d3171cdf5528e689bf79561e2a919bbe06dd0801f6be4",
+      "sha256": [
+        "1e6ea6c204a9459db1b2c18348158157c32feba5f6bf5cda3a501857c7456392",
+        "faa93c8f57b8c39a6e9d3171cdf5528e689bf79561e2a919bbe06dd0801f6be4"
+      ],
       "text": "You should stop their escape.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1e6ea6c204a9459db1b2c18348158157c32feba5f6bf5cda3a501857c7456392",
-      "text": "You should stop their escape.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7923fe3b341651281c4f469bc3cdddf08d93b267ca5732a599ac8a8a336ce773",
+      "sha256": [
+        "7923fe3b341651281c4f469bc3cdddf08d93b267ca5732a599ac8a8a336ce773"
+      ],
       "text": "This should stop their escape…",
       "source": "official"
     }

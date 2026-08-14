@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a3ffe59294e1c550c221182a83585f4c4c1c976a30ad2f73a3259c0690ef5707",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03322ad2ae0ce0054bd1932de0095c892eadc00b2e2c7a7b290de9a259081b15",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9193edc94f92913fc7db389068b9eba71f251f19f6f9d8e44d6a095a9b4dcf36",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e1c72cd1decc1a23efd15d75b9aa8e55b838355d269eac352a3f6fc10f24f80",
+      "sha256": [
+        "03322ad2ae0ce0054bd1932de0095c892eadc00b2e2c7a7b290de9a259081b15",
+        "2e1c72cd1decc1a23efd15d75b9aa8e55b838355d269eac352a3f6fc10f24f80",
+        "9193edc94f92913fc7db389068b9eba71f251f19f6f9d8e44d6a095a9b4dcf36",
+        "a3ffe59294e1c550c221182a83585f4c4c1c976a30ad2f73a3259c0690ef5707"
+      ],
       "text": "Pocket's missing",
       "source": "official"
     }

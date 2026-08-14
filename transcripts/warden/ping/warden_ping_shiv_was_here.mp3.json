@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "bc663fe1c8eb72450181de0f3818a938cfe7dbeecbc3b3554557ac7982437590",
+      "sha256": [
+        "bc663fe1c8eb72450181de0f3818a938cfe7dbeecbc3b3554557ac7982437590"
+      ],
       "text": "Ship is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d0ee5c350793f3511f28a4816db3d127adf006f6177d8a1b12607971695df98d",
+      "sha256": [
+        "88d3ac54b573ecf7d1b4b6cc44ced7708cb25669394809f3910cc7454363a6b3",
+        "d0ee5c350793f3511f28a4816db3d127adf006f6177d8a1b12607971695df98d"
+      ],
       "text": "Shiv was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "88d3ac54b573ecf7d1b4b6cc44ced7708cb25669394809f3910cc7454363a6b3",
-      "text": "Shiv was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7bafcbf4049818f499636fc5d3199d8b3b5f5fad6193ab9e789247bb4fc3413a",
+      "sha256": [
+        "7bafcbf4049818f499636fc5d3199d8b3b5f5fad6193ab9e789247bb4fc3413a"
+      ],
       "text": "Trick was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_astro_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8c0db11eb486bb721c61aff23c8ba73f4ae2db403fbd738f3da3d57ca2cfd11d",
+      "sha256": [
+        "8c0db11eb486bb721c61aff23c8ba73f4ae2db403fbd738f3da3d57ca2cfd11d"
+      ],
       "text": "That's the whole message.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "913ff929faa81940219628ace8314c553dbd13bd4d86fc22ad03f871a9492baf",
+      "sha256": [
+        "913ff929faa81940219628ace8314c553dbd13bd4d86fc22ad03f871a9492baf",
+        "e7f954e0c4e73f45c53b11cc6c7d64200c3456b3c4565e3ca0efdb98e018b869"
+      ],
       "text": "Holiday's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e7f954e0c4e73f45c53b11cc6c7d64200c3456b3c4565e3ca0efdb98e018b869",
-      "text": "Holiday's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba9eaf09cb9d0ac38de2b0daecefa4658c2d274abdfbde80265e2c4e226f0c32",
+      "sha256": [
+        "ba9eaf09cb9d0ac38de2b0daecefa4658c2d274abdfbde80265e2c4e226f0c32"
+      ],
       "text": "Holliday's missing",
       "source": "official"
     }

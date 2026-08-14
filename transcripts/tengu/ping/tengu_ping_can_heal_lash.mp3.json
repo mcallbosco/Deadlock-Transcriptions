@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_can_heal_lash.mp3",
   "revisions": [
     {
-      "sha256": "934fcec16706e4082408dc1b33c642f66e361387db7fa62a076bda4fcbe033ea",
+      "sha256": [
+        "934fcec16706e4082408dc1b33c642f66e361387db7fa62a076bda4fcbe033ea"
+      ],
       "text": "No, I can't hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5d91f4c8e471da96bc2306fbedfba6a96f2cec0960cf1275244fd80d6ab7b5ca",
+      "sha256": [
+        "5d91f4c8e471da96bc2306fbedfba6a96f2cec0960cf1275244fd80d6ab7b5ca"
+      ],
       "text": "Lash, I can heal you!",
       "source": "official"
     }

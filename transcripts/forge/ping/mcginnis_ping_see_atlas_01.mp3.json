@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "e839373c1a6563acd68aab0be47944a5054b2dbf2b84570527dc457dc05c6433",
-      "text": "I see it was.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b4db0e9c147aab99fb875e6c5254d4cabfd41303ea0806b796565bc7cb5aa315",
+      "sha256": [
+        "b4db0e9c147aab99fb875e6c5254d4cabfd41303ea0806b796565bc7cb5aa315",
+        "e839373c1a6563acd68aab0be47944a5054b2dbf2b84570527dc457dc05c6433"
+      ],
       "text": "I see it was.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

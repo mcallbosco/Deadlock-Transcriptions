@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "270f40c93db22ccf2f6cc1f6ca71185e499687a99a557829082720cd9a9b050a",
+      "sha256": [
+        "270f40c93db22ccf2f6cc1f6ca71185e499687a99a557829082720cd9a9b050a"
+      ],
       "text": "I see Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

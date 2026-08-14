@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "bc37a5c68d47c325491554936616e7208ddcc42ad0a0ec4e108bad5e95fdafdd",
+      "sha256": [
+        "bc37a5c68d47c325491554936616e7208ddcc42ad0a0ec4e108bad5e95fdafdd"
+      ],
       "text": "Pocket was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

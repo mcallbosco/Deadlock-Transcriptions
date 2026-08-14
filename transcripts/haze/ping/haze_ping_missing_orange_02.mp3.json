@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_missing_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "6568b8286af816988dd6fe7fd6baf850ed2d47ba37e07fe46170847e4b625fa1",
-      "text": "Missing Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0845a91ab937206d09a7a0da5783b81cfcb32e3ff27c59ccbfea7096a9efe79b",
-      "text": "Missing orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84081e7044e8b65a4442e9ed9db6d8370b49367dc646dcc8fafb8d669c2d2a5d",
+      "sha256": [
+        "0845a91ab937206d09a7a0da5783b81cfcb32e3ff27c59ccbfea7096a9efe79b",
+        "6568b8286af816988dd6fe7fd6baf850ed2d47ba37e07fe46170847e4b625fa1",
+        "84081e7044e8b65a4442e9ed9db6d8370b49367dc646dcc8fafb8d669c2d2a5d"
+      ],
       "text": "Missing Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

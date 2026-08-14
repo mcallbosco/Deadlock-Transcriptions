@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_saw_ghost.mp3",
   "revisions": [
     {
-      "sha256": "d32100cd586df3c20e6a7e67295845dfc0421dd94baa839bc5b7d06407f1663e",
-      "text": "I saw Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56f9a1e99a3c521641c1588d6862ce1b943749026f1771a9f4c9fd536bc6a3c6",
+      "sha256": [
+        "56f9a1e99a3c521641c1588d6862ce1b943749026f1771a9f4c9fd536bc6a3c6",
+        "d32100cd586df3c20e6a7e67295845dfc0421dd94baa839bc5b7d06407f1663e"
+      ],
       "text": "I saw Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

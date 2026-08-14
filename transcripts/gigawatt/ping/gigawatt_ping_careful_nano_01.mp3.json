@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "b9ff58c788631765cda6cc54b1bfd6e71e6e2cd4259bd18ea68edd349cddfeef",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "080427d24ddcb4d0fa458adde3acf88e90b93bd378464773b287c57bf1539e62",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02138a2a8746ddb214a4355324d91a644bac33249c724ffe779ea53f31ac6509",
+      "sha256": [
+        "02138a2a8746ddb214a4355324d91a644bac33249c724ffe779ea53f31ac6509",
+        "080427d24ddcb4d0fa458adde3acf88e90b93bd378464773b287c57bf1539e62",
+        "b9ff58c788631765cda6cc54b1bfd6e71e6e2cd4259bd18ea68edd349cddfeef"
+      ],
       "text": "Careful, Calico…",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_saw_calico.mp3",
   "revisions": [
     {
-      "sha256": "75cc2b7ecc4bd07013a4208b81d37cdb1bc17dbb7a38c8de42db5a73bea39c54",
-      "text": "I saw Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06f9764d9bb6f44a15d64cb2bfaf48b0e302dc75728bc53943848497ef667958",
-      "text": "I saw Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "059f0ded7de983c8b513d2032be9601ce9799de246775fa3b31d19ed6e7adf1f",
+      "sha256": [
+        "059f0ded7de983c8b513d2032be9601ce9799de246775fa3b31d19ed6e7adf1f",
+        "06f9764d9bb6f44a15d64cb2bfaf48b0e302dc75728bc53943848497ef667958",
+        "75cc2b7ecc4bd07013a4208b81d37cdb1bc17dbb7a38c8de42db5a73bea39c54"
+      ],
       "text": "I saw Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

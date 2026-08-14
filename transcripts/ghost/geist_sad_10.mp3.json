@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_sad_10.mp3",
   "revisions": [
     {
-      "sha256": "81b3d207934b3942706e340bb5d528ea3dd502d850ed6d9314f1ab6d4e1e908a",
-      "text": "I wasn't expecting this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76078cb372e7affb00cd1b3316d25de034305ac3491d8eaa609152657e469de1",
+      "sha256": [
+        "76078cb372e7affb00cd1b3316d25de034305ac3491d8eaa609152657e469de1",
+        "81b3d207934b3942706e340bb5d528ea3dd502d850ed6d9314f1ab6d4e1e908a"
+      ],
       "text": "I wasn't expecting this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

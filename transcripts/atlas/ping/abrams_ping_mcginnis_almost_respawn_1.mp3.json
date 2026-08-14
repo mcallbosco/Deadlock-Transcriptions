@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_mcginnis_almost_respawn_1.mp3",
   "revisions": [
     {
-      "sha256": "2530e1774b231146788a0f4333cfddef53e83111b3595f372f79f15bd8f0fb4a",
+      "sha256": [
+        "2530e1774b231146788a0f4333cfddef53e83111b3595f372f79f15bd8f0fb4a",
+        "8e9e950629ca80ac19209a2a65f27805f59c7a448b9b17a42739e9c3855ac2ed"
+      ],
       "text": "McGinnis is almost back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e9e950629ca80ac19209a2a65f27805f59c7a448b9b17a42739e9c3855ac2ed",
-      "text": "McGinnis is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

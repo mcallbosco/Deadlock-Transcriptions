@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_incubus_01.mp3",
   "revisions": [
     {
-      "sha256": "bd3efee033653cd2f3fb094e407e61ac4770399d63d67d6ac916e31a45688207",
+      "sha256": [
+        "0d960b6c6020a3bc62610846059eb0bb9b2d236f7ee1809bdee99bba27715500",
+        "bd3efee033653cd2f3fb094e407e61ac4770399d63d67d6ac916e31a45688207"
+      ],
       "text": "I see the Incubus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d960b6c6020a3bc62610846059eb0bb9b2d236f7ee1809bdee99bba27715500",
-      "text": "I see the Incubus!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

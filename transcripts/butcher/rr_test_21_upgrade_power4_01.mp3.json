@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "9cbf27569a82f003f28504c960853ac96510ec7330dc86275cde1af0a8ff4e3e",
-      "text": "Feeding time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22e74dea5921724a3e09f619521e49d62299e7a5ba46637574515fcb941bddc6",
-      "text": "Feeding time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e622d5b969eea07131d8014bfb92d5bb51171e65ebbbcab13de28f8c9b3a339e",
+      "sha256": [
+        "22e74dea5921724a3e09f619521e49d62299e7a5ba46637574515fcb941bddc6",
+        "9cbf27569a82f003f28504c960853ac96510ec7330dc86275cde1af0a8ff4e3e",
+        "e622d5b969eea07131d8014bfb92d5bb51171e65ebbbcab13de28f8c9b3a339e"
+      ],
       "text": "Feeding time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

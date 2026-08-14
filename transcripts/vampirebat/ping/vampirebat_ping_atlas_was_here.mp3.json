@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_atlas_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d2934214b5d1fcf812aca83f987d09e0358b610b89273e7fa31db65e698c3778",
-      "text": "Abrams is here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25b942a9a6a3f178aa06f9764c998e0a71228bde327a9c8690abfc9a5e56a562",
+      "sha256": [
+        "25b942a9a6a3f178aa06f9764c998e0a71228bde327a9c8690abfc9a5e56a562",
+        "d2934214b5d1fcf812aca83f987d09e0358b610b89273e7fa31db65e698c3778"
+      ],
       "text": "Abrams is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

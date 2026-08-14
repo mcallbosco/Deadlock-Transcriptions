@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_shiv.mp3",
   "revisions": [
     {
-      "sha256": "3beb8c563bb9c9ce7f5f851dc5f9336f1d6f5f6358d9257f04a3dbb4b761bd05",
-      "text": "I saw a ship!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70c6f2b091a9451034357ff16da07b69343523b038f5c67077d59a38d12456ed",
+      "sha256": [
+        "3beb8c563bb9c9ce7f5f851dc5f9336f1d6f5f6358d9257f04a3dbb4b761bd05",
+        "70c6f2b091a9451034357ff16da07b69343523b038f5c67077d59a38d12456ed"
+      ],
       "text": "I saw a ship!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

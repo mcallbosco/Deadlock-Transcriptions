@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_wrecker_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "a79c65275bb373932be0bfaef867ff062a0c47aa7ee1ad74486d662c1f491f68",
-      "text": "That is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79961cf8b01a6dcda318436fe0438dd48926220441bc82b235435924c494e712",
+      "sha256": [
+        "79961cf8b01a6dcda318436fe0438dd48926220441bc82b235435924c494e712",
+        "a79c65275bb373932be0bfaef867ff062a0c47aa7ee1ad74486d662c1f491f68"
+      ],
       "text": "That is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_happy_03.mp3",
   "revisions": [
     {
-      "sha256": "5a6383ab4af4a9c956c80ba1650406f30d081d0623d8432c27ea8b4949f41a9a",
-      "text": "This will soon be over.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "536a4707209e05e93266a51e1746cfcfd5518c03c8bcb9c423fce13e50e9c12e",
-      "text": "This will soon be over.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf9c296351c3f4378e39fb3a78172688efc78044b4dca41716ea4962e495a932",
-      "text": "This will soon be over.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62b2d1dccf439cfec4913d32a6b22f45a6831b4d6e80d4d5f301c6e5c7083067",
+      "sha256": [
+        "536a4707209e05e93266a51e1746cfcfd5518c03c8bcb9c423fce13e50e9c12e",
+        "5a6383ab4af4a9c956c80ba1650406f30d081d0623d8432c27ea8b4949f41a9a",
+        "62b2d1dccf439cfec4913d32a6b22f45a6831b4d6e80d4d5f301c6e5c7083067",
+        "cf9c296351c3f4378e39fb3a78172688efc78044b4dca41716ea4962e495a932"
+      ],
       "text": "This will soon be over.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

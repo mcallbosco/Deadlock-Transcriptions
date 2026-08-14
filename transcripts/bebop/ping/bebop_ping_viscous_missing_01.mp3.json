@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ecfd4f6d98128f660a4e59e8111e94a4fb0a54f99beab23719c5aca397d155c6",
+      "sha256": [
+        "ecfd4f6d98128f660a4e59e8111e94a4fb0a54f99beab23719c5aca397d155c6"
+      ],
       "text": "Viscous is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "df17a212705703c3a344a2cf5f8af71c61fe9af939d34347922506b668c1759d",
+      "sha256": [
+        "df17a212705703c3a344a2cf5f8af71c61fe9af939d34347922506b668c1759d"
+      ],
       "text": "Viscous's missing",
       "source": "official"
     }

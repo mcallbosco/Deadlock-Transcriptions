@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_abrams_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "9a168c817148b9b7f167813124bf6751f87c52008763d16809908c248b2d8713",
-      "text": "Abrams is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2806e8024f94e115e8f8d7a0602f4fbf9c3209d25a4bf501397d6db5740b64db",
-      "text": "Abrams is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1c4557878105be6fef7e657066e69bc23e2b369ecc5bdfe47fb566d444ec1b5",
-      "text": "Abrams is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "154a7ac3aa5e538a44f0b2985422bf7ffaad1baaac621c00066a79d3e5f2fc44",
+      "sha256": [
+        "154a7ac3aa5e538a44f0b2985422bf7ffaad1baaac621c00066a79d3e5f2fc44",
+        "2806e8024f94e115e8f8d7a0602f4fbf9c3209d25a4bf501397d6db5740b64db",
+        "9a168c817148b9b7f167813124bf6751f87c52008763d16809908c248b2d8713",
+        "e1c4557878105be6fef7e657066e69bc23e2b369ecc5bdfe47fb566d444ec1b5"
+      ],
       "text": "Abrams is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

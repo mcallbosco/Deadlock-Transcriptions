@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_attack_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "963ee8b51a59d02566c3edd486f39d55350a5126af5bb65a31f793013ee0c3ff",
+      "sha256": [
+        "963ee8b51a59d02566c3edd486f39d55350a5126af5bb65a31f793013ee0c3ff",
+        "b10ae67bfa944f34227385e11387049b48cf8a8d5c2f22b002ec26aade4f5885"
+      ],
       "text": "Let's take out Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b10ae67bfa944f34227385e11387049b48cf8a8d5c2f22b002ec26aade4f5885",
-      "text": "Let's take out Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

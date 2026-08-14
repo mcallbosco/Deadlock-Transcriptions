@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "db8165084cfdba4cf0ab300fa395d81923e0f3f9229f6b6d342735673cca18f5",
-      "text": "Enemy could be hiding anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "faee5cc3f8cd3cf14f43caca93d1375ffe7a3cda045e5a4b75fe420687c125d5",
+      "sha256": [
+        "db8165084cfdba4cf0ab300fa395d81923e0f3f9229f6b6d342735673cca18f5",
+        "faee5cc3f8cd3cf14f43caca93d1375ffe7a3cda045e5a4b75fe420687c125d5"
+      ],
       "text": "Enemy could be hiding anywhere",
       "source": "official"
     }

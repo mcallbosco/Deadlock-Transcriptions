@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_right_back_01.mp3",
   "revisions": [
     {
-      "sha256": "5a64ca30fa9aca675ed7333e1ac5d34c2fbfbea504df21a70f21f63f3b0b0917",
-      "text": "I'll be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93a5076d9e45798934f5bb63a717d65815786922e6aa6b6228ea65315bb94b84",
-      "text": "I'll be right back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9eb767937f9b2de8d6972f4d274c1d68f074166a61d2b4a1eb93abc49100d5e7",
+      "sha256": [
+        "5a64ca30fa9aca675ed7333e1ac5d34c2fbfbea504df21a70f21f63f3b0b0917",
+        "93a5076d9e45798934f5bb63a717d65815786922e6aa6b6228ea65315bb94b84",
+        "9eb767937f9b2de8d6972f4d274c1d68f074166a61d2b4a1eb93abc49100d5e7"
+      ],
       "text": "I'll be right back",
       "source": "official"
     }

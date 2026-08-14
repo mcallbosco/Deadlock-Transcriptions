@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_kill_bebop_04.mp3",
   "revisions": [
     {
-      "sha256": "d85477815c2228bbd90c07cc81f4a3e97df00228a4e52c0b50690d528835db71",
+      "sha256": [
+        "d85477815c2228bbd90c07cc81f4a3e97df00228a4e52c0b50690d528835db71"
+      ],
       "text": "機械の割には頑張ったじゃないか。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d55b007111aab21fb4629ce8146b7846b9c41555ae2f0742a45e9d2162465225",
+      "sha256": [
+        "d55b007111aab21fb4629ce8146b7846b9c41555ae2f0742a45e9d2162465225"
+      ],
       "text": "That machine fought well.",
       "source": "official"
     }

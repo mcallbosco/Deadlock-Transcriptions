@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_concerned_01.mp3",
   "revisions": [
     {
-      "sha256": "31edb6db837c59ef44d8bfba0e7c049efec99234467386e210015862dbe64c61",
+      "sha256": [
+        "31edb6db837c59ef44d8bfba0e7c049efec99234467386e210015862dbe64c61"
+      ],
       "text": "This is the map.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "53434b35afad6efac4c47c6be3157797fcdd6ded9c0c4238a1ec8bfbd4cf7662",
+      "sha256": [
+        "53434b35afad6efac4c47c6be3157797fcdd6ded9c0c4238a1ec8bfbd4cf7662",
+        "650a85907909aed0dbd7cd79d8cedf2f1509c184326bb426eb7e1682944dd1de"
+      ],
       "text": "This is problematic.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "650a85907909aed0dbd7cd79d8cedf2f1509c184326bb426eb7e1682944dd1de",
-      "text": "This is problematic.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "952bce6a52bb961d3bd63149d8f26967b36d1e0c4ee22d9e952c8e262bc75549",
+      "sha256": [
+        "952bce6a52bb961d3bd63149d8f26967b36d1e0c4ee22d9e952c8e262bc75549"
+      ],
       "text": "This... problematic.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

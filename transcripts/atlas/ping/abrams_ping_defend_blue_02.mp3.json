@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_defend_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "ac3e1d3fefad5562a4f6aa0471602d80bb0beab01188a401dd772ec414a993bc",
-      "text": "Defend Broadway!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b24e1b650871237658d2ae29d38ed4eb8876694cd7465caf58dff9efa544848",
+      "sha256": [
+        "6b24e1b650871237658d2ae29d38ed4eb8876694cd7465caf58dff9efa544848",
+        "ac3e1d3fefad5562a4f6aa0471602d80bb0beab01188a401dd772ec414a993bc"
+      ],
       "text": "Defend Broadway!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

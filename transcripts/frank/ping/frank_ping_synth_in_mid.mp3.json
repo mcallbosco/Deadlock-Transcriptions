@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_synth_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "fdba4a96b8d9ad85a4a55d7fbf2f8985ae417c62349ceac867bf4e90a746df05",
-      "text": "Pockets in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b4237419e5e402aea06859f1aff369b0aef17eb0c6a7bc7a86512ba6a9ff1fd",
+      "sha256": [
+        "9b4237419e5e402aea06859f1aff369b0aef17eb0c6a7bc7a86512ba6a9ff1fd",
+        "fdba4a96b8d9ad85a4a55d7fbf2f8985ae417c62349ceac867bf4e90a746df05"
+      ],
       "text": "Pocket's in mid!",
       "source": "official"
     }

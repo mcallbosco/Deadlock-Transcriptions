@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_astro_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "7c9c56635ff74cee630209b28d59559221f7856550b2327d3b7366c800911980",
+      "sha256": [
+        "5f1fdd9c71efda6ed225f65788c0b2ee4dcd4e72b379da4c760774bb77deb546",
+        "7c9c56635ff74cee630209b28d59559221f7856550b2327d3b7366c800911980"
+      ],
       "text": "Astro's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f1fdd9c71efda6ed225f65788c0b2ee4dcd4e72b379da4c760774bb77deb546",
-      "text": "Astros on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

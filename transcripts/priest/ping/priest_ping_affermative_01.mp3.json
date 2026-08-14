@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "a8747d2be310aefca8e29a041ee6325eee97d0830f9140d7549f507c1fb544f5",
-      "text": "Sounds good!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00543999f7dba9e2c805456c13fd0dba47a204f34e09477750287f5f6d9c8faf",
+      "sha256": [
+        "00543999f7dba9e2c805456c13fd0dba47a204f34e09477750287f5f6d9c8faf",
+        "a8747d2be310aefca8e29a041ee6325eee97d0830f9140d7549f507c1fb544f5"
+      ],
       "text": "Sounds good.",
       "source": "official"
     }

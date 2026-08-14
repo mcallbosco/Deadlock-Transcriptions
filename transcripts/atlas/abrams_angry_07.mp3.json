@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_angry_07.mp3",
   "revisions": [
     {
-      "sha256": "8778b36a9527f8e98a2d91324d306be298b28ac81353685d5cfd1c1ba09a048e",
-      "text": "Try that again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c18a46c4de8d481049cf2be7e1b7d3f3f9e33aea2143ecdc74b6e69f31cb00d9",
-      "text": "Try that again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cfc880e7b1661c017a44bacdbb8102bcdeb592e7d73b1b744a9bf6000fa4bde",
+      "sha256": [
+        "1cfc880e7b1661c017a44bacdbb8102bcdeb592e7d73b1b744a9bf6000fa4bde",
+        "8778b36a9527f8e98a2d91324d306be298b28ac81353685d5cfd1c1ba09a048e",
+        "c18a46c4de8d481049cf2be7e1b7d3f3f9e33aea2143ecdc74b6e69f31cb00d9"
+      ],
       "text": "Try that again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b8455751e5a653cd357c5b8b40fc59550f1284aa7b2b64e2812edd2ececfcc56",
+      "sha256": [
+        "34cf34973ec7b8679e2774c2420cece9575ef345f8ee8cc07a1bddca25e17494",
+        "b8455751e5a653cd357c5b8b40fc59550f1284aa7b2b64e2812edd2ececfcc56"
+      ],
       "text": "Greats missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34cf34973ec7b8679e2774c2420cece9575ef345f8ee8cc07a1bddca25e17494",
-      "text": "Great smissing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

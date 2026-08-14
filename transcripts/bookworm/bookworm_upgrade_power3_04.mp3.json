@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_upgrade_power3_04.mp3",
   "revisions": [
     {
-      "sha256": "c938b635e650d5c1d031fcea13c0dd662ea2c276eb71e27be403992d8007d10c",
+      "sha256": [
+        "c938b635e650d5c1d031fcea13c0dd662ea2c276eb71e27be403992d8007d10c"
+      ],
       "text": "It's not easy to land, but man, is it satisfying when I do.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_seven_check_items.mp3",
   "revisions": [
     {
-      "sha256": "0cab48ae0d4e8039fb949ec962a7768ebecf08c11a472e43b9b1e75090492155",
+      "sha256": [
+        "0cab48ae0d4e8039fb949ec962a7768ebecf08c11a472e43b9b1e75090492155",
+        "9db1fe59bd37042dc9b4ca54d192276e85d5626b4c0dafc909394348affcbb9b"
+      ],
       "text": "Check out my seven bolt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9db1fe59bd37042dc9b4ca54d192276e85d5626b4c0dafc909394348affcbb9b",
-      "text": "Check out my seven-bolt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

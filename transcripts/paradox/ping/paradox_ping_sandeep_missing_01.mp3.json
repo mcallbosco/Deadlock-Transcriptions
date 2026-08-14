@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_sandeep_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3ca8dac270cd04398cf1ae278a8568216cbf9b4c2af8406d34160e223307272f",
-      "text": "Sound is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f81fe47402f8892ec3a644339172fad052969e7aec68fb9d1a92936b22190dd8",
+      "sha256": [
+        "3ca8dac270cd04398cf1ae278a8568216cbf9b4c2af8406d34160e223307272f",
+        "f81fe47402f8892ec3a644339172fad052969e7aec68fb9d1a92936b22190dd8"
+      ],
       "text": "Sound is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

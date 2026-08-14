@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_hornet_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c89fd6dc1c19b2ad1ce0ff8154405723e2eb84f16d6e8657fc42797f31efab77",
+      "sha256": [
+        "c89fd6dc1c19b2ad1ce0ff8154405723e2eb84f16d6e8657fc42797f31efab77"
+      ],
       "text": "The Vindictive was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "475b4598d7c89735b385bd83be274203a6f826dc9307761d1530caca4417c316",
+      "sha256": [
+        "475b4598d7c89735b385bd83be274203a6f826dc9307761d1530caca4417c316"
+      ],
       "text": "The Vendetta was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_killstreak_start_01.mp3",
   "revisions": [
     {
-      "sha256": "57d7a6b0cc33d1a248afc0b7295e1c63af6d961c545579b97c2dcf051f6d36c7",
+      "sha256": [
+        "57d7a6b0cc33d1a248afc0b7295e1c63af6d961c545579b97c2dcf051f6d36c7",
+        "c392d44d50ce9dddffe98acc5746fb14101ef7040ba271712209205de7f43a3d"
+      ],
       "text": "This is going pretty good!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c392d44d50ce9dddffe98acc5746fb14101ef7040ba271712209205de7f43a3d",
-      "text": "This is going pretty good.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

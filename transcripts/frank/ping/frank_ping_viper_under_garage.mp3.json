@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_viper_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "6a05a67b2d27e81387d4a92e4eb5ccfe26a99ce42469a093bea7fea299c8d66c",
+      "sha256": [
+        "6a05a67b2d27e81387d4a92e4eb5ccfe26a99ce42469a093bea7fea299c8d66c"
+      ],
       "text": "Viper's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2cd27291333cc58fd23939e11f8c07579970c8831814b8ca8f1d27cd46d92f9c",
+      "sha256": [
+        "2cd27291333cc58fd23939e11f8c07579970c8831814b8ca8f1d27cd46d92f9c"
+      ],
       "text": "Vyper's under the garage!",
       "source": "official"
     }

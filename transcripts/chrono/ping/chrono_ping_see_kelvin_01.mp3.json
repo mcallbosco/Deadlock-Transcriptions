@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "96228eb0e87aec4805822db5e99292e56367608e45e35bbde5a755ce9db33ce9",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc4bf780cf8b6d51bcccfa535b60c6802dc11895f56d7f3c8cab48407056655b",
+      "sha256": [
+        "96228eb0e87aec4805822db5e99292e56367608e45e35bbde5a755ce9db33ce9",
+        "fc4bf780cf8b6d51bcccfa535b60c6802dc11895f56d7f3c8cab48407056655b"
+      ],
       "text": "I see Kelvin",
       "source": "official"
     }

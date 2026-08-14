@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_careful_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "7bb5d5280fa8a53dea3f294a8c647d6ce1eef67b8322b8695373b94ec15b9471",
+      "sha256": [
+        "7bb5d5280fa8a53dea3f294a8c647d6ce1eef67b8322b8695373b94ec15b9471",
+        "d4ce34b9fb8abc9f4febd18c80ddd59459054791b625f140c299da2034798f9c"
+      ],
       "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4ce34b9fb8abc9f4febd18c80ddd59459054791b625f140c299da2034798f9c",
-      "text": "Careful, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

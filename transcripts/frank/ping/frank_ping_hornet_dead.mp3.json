@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_hornet_dead.mp3",
   "revisions": [
     {
-      "sha256": "aacaf55de1bb61b43abc2d4698da67e1d3e339f2d67ecf2242454d92dbc635d1",
+      "sha256": [
+        "aacaf55de1bb61b43abc2d4698da67e1d3e339f2d67ecf2242454d92dbc635d1"
+      ],
       "text": "Vindicta is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "832eb23ae999259e73744762150b79a45c86b9d927fe41873221aeb2b9fc3ff9",
+      "sha256": [
+        "832eb23ae999259e73744762150b79a45c86b9d927fe41873221aeb2b9fc3ff9"
+      ],
       "text": "Vindicator is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

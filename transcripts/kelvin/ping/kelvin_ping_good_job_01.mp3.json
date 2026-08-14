@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "6f223e857580357d32f81f753ab5545b2200ca55a0ef1d40da2f9cdb3fe1e325",
-      "text": "Good job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d901d0f297822937e3ff6a86689c58af5b85b98a7fb87bf969c68e001d1980c",
+      "sha256": [
+        "6d901d0f297822937e3ff6a86689c58af5b85b98a7fb87bf969c68e001d1980c",
+        "6f223e857580357d32f81f753ab5545b2200ca55a0ef1d40da2f9cdb3fe1e325"
+      ],
       "text": "Good job.",
       "source": "official"
     }

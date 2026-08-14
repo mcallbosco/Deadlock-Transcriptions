@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_lets_go_blue_alt.mp3",
   "revisions": [
     {
-      "sha256": "ce836aa03c03c3b4a506e06e22b8a20915c9e9103762e790facf08e87db9e944",
-      "text": "Let's go to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6410468c66fce3ed1b5819b83338ed91a9c322962780686a07e36a0aa48815df",
+      "sha256": [
+        "6410468c66fce3ed1b5819b83338ed91a9c322962780686a07e36a0aa48815df",
+        "ce836aa03c03c3b4a506e06e22b8a20915c9e9103762e790facf08e87db9e944"
+      ],
       "text": "Let's go to Broadway!",
       "source": "official"
     }

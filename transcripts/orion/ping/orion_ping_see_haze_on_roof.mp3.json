@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_haze_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "b70c9a2914e5e9bad0e013ff3515a4cdb1b409859b58f519494f1da81b2e6e70",
+      "sha256": [
+        "b70c9a2914e5e9bad0e013ff3515a4cdb1b409859b58f519494f1da81b2e6e70"
+      ],
       "text": "Paste is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7e5785d7b67a645733521d09c28cbc05e8869caaa19d6e9dd370ab20f9866904",
+      "sha256": [
+        "7e5785d7b67a645733521d09c28cbc05e8869caaa19d6e9dd370ab20f9866904",
+        "eec70d512ed1d91fb05343791943436f6f1a2ef3e7fb109ae39de2364ed83c13"
+      ],
       "text": "Haze is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "eec70d512ed1d91fb05343791943436f6f1a2ef3e7fb109ae39de2364ed83c13",
-      "text": "Haze is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "389e75ca4fc9a1090be06e7da1c7f4cbc992a1bb1837fd916a54a672bf6e69fd",
+      "sha256": [
+        "389e75ca4fc9a1090be06e7da1c7f4cbc992a1bb1837fd916a54a672bf6e69fd"
+      ],
       "text": "Haze's on the roof!",
       "source": "official"
     }

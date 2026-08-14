@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_upgrade_power2_09.mp3",
   "revisions": [
     {
-      "sha256": "ee8aad5eeda1263b6dd3d7c3e2ae9be96021e41d4b1310a36060cf1854f6fa93",
+      "sha256": [
+        "ee8aad5eeda1263b6dd3d7c3e2ae9be96021e41d4b1310a36060cf1854f6fa93",
+        "f53b5712fdca01451c3510ae7c4b87853f322d2887c96377b1610af228f0ac37"
+      ],
       "text": "It's hard to get shot at when you're underground.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7a2182ed64408c24afacd1569c4b8e790f17f1d489682576e2bb135824d1bbd9",
+      "sha256": [
+        "7a2182ed64408c24afacd1569c4b8e790f17f1d489682576e2bb135824d1bbd9"
+      ],
       "text": "Hard to get shot at when you're underground.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f53b5712fdca01451c3510ae7c4b87853f322d2887c96377b1610af228f0ac37",
-      "text": "It's hard to get shot at when you're underground.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67947c32d0eeb9edf7e8b901bd2c9949dc464d42e07126a0507bf4c45a2bfe86",
+      "sha256": [
+        "67947c32d0eeb9edf7e8b901bd2c9949dc464d42e07126a0507bf4c45a2bfe86"
+      ],
       "text": "Hard to get shot when you're underground…",
       "source": "official"
     }

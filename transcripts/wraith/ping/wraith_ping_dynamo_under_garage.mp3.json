@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_dynamo_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "d3a96a01ab97a124cc139bba129f85331296ce4b4eb08a4b183f1ec7fcf6c558",
+      "sha256": [
+        "d3a96a01ab97a124cc139bba129f85331296ce4b4eb08a4b183f1ec7fcf6c558"
+      ],
       "text": "Dynamo was under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ddb841447d6bfdaa18df8fe3033f7286a3369debf7e48b39c8254d5d1e828e4a",
+      "sha256": [
+        "d00802d7f2de2a5e432e36774dad069fc8b926094fc1266bf5a2dcf6566b78fe",
+        "ddb841447d6bfdaa18df8fe3033f7286a3369debf7e48b39c8254d5d1e828e4a"
+      ],
       "text": "Dynamo is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d00802d7f2de2a5e432e36774dad069fc8b926094fc1266bf5a2dcf6566b78fe",
-      "text": "Dynamo is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e0f4ec58726967916c5eaac270d42bd2ef688a72d6d6155daffc6acb9bbb9922",
+      "sha256": [
+        "e0f4ec58726967916c5eaac270d42bd2ef688a72d6d6155daffc6acb9bbb9922"
+      ],
       "text": "Dynamo's under the garage!",
       "source": "official"
     }

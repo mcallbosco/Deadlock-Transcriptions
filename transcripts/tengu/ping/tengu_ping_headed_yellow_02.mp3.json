@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_headed_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "2d4e616ecdc04f17a75dd105a823a2aa213e65233bad3f2a4111bf62e51da51d",
+      "sha256": [
+        "2d4e616ecdc04f17a75dd105a823a2aa213e65233bad3f2a4111bf62e51da51d"
+      ],
       "text": "Head it to York!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aa8a0ca757fb06270cfc04b1a36dc53652c3269ba80c15f9c5f1d8747f1bc1d2",
+      "sha256": [
+        "aa8a0ca757fb06270cfc04b1a36dc53652c3269ba80c15f9c5f1d8747f1bc1d2"
+      ],
       "text": "Headed to York",
       "source": "official"
     }

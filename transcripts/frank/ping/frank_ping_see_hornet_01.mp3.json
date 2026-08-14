@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "a4df502e43aef2263e453e364d232869f914f4a7ba6d56454e75fdec90e53ba2",
+      "sha256": [
+        "a4df502e43aef2263e453e364d232869f914f4a7ba6d56454e75fdec90e53ba2"
+      ],
       "text": "I see the deck.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "16561adde7d8f3353e10c71045427900bc60cdc71e5d1c29d9623e93fdb85057",
+      "sha256": [
+        "16561adde7d8f3353e10c71045427900bc60cdc71e5d1c29d9623e93fdb85057"
+      ],
       "text": "I see Vindicta.",
       "source": "official"
     }

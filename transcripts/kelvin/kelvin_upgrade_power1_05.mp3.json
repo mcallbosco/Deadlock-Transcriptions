@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "dbb7e76c481b49698fdd411f7268be9b5a6c1bfb810aa31c5c8794316eb590a3",
+      "sha256": [
+        "dbb7e76c481b49698fdd411f7268be9b5a6c1bfb810aa31c5c8794316eb590a3"
+      ],
       "text": "When the wind comes, I'll be ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5eebb067cfa98735f595f40216fdd62ed09fe6df09713147464232ead2431852",
+      "sha256": [
+        "5eebb067cfa98735f595f40216fdd62ed09fe6df09713147464232ead2431852"
+      ],
       "text": "When the waves come, I'll be ready.",
       "source": "official"
     }

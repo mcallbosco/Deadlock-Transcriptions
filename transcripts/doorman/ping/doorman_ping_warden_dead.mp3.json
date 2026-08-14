@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_warden_dead.mp3",
   "revisions": [
     {
-      "sha256": "b61844af23aa6c1b44ee4c8844365e9c249bced884712728ba1e30006cc007f7",
+      "sha256": [
+        "b61844af23aa6c1b44ee4c8844365e9c249bced884712728ba1e30006cc007f7"
+      ],
       "text": "Warden is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

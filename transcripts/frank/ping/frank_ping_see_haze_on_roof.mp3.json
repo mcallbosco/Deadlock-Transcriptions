@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_haze_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "ef000635e92f6301623a47c072f2f22c10583937f1ae96db4667cfd1aac4c0fa",
+      "sha256": [
+        "ef000635e92f6301623a47c072f2f22c10583937f1ae96db4667cfd1aac4c0fa"
+      ],
       "text": "Kay's is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc695649f587ff6c469cab735f4a1d2966006a4f8ef4e8ce9a12d27f4ad4448d",
+      "sha256": [
+        "bc695649f587ff6c469cab735f4a1d2966006a4f8ef4e8ce9a12d27f4ad4448d"
+      ],
       "text": "Haze's on the roof!",
       "source": "official"
     }

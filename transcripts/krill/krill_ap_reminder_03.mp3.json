@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_ap_reminder_03.mp3",
   "revisions": [
     {
-      "sha256": "e58a30b7b1f15e3d78122fe0fdfd6407decc7595d30a9bd36f6f105b9dbda31d",
-      "text": "Let's find a safe place to train.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "036bb8555eaecf82278887deebf25f2cba22faab02993eb5eaed6e499680d727",
-      "text": "Let's find a safe place to train.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9fc9c46f8cc03ebf7342bf55481b8ad3606e79414e16f38a2ce35c680606eca1",
-      "text": "Let's find a safe place to train.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5dca309a3a14e4eacbced5dcff3901255903d20874ed4362dc4485b0dd3b0c0",
+      "sha256": [
+        "036bb8555eaecf82278887deebf25f2cba22faab02993eb5eaed6e499680d727",
+        "9fc9c46f8cc03ebf7342bf55481b8ad3606e79414e16f38a2ce35c680606eca1",
+        "e58a30b7b1f15e3d78122fe0fdfd6407decc7595d30a9bd36f6f105b9dbda31d",
+        "e5dca309a3a14e4eacbced5dcff3901255903d20874ed4362dc4485b0dd3b0c0"
+      ],
       "text": "Let's find a safe place to train.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

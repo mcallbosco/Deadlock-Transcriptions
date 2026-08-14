@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_push_lane.mp3",
   "revisions": [
     {
-      "sha256": "f4556c1502a67b2569d2c208f52670b4769b04faac4f5971a0a905531f68966b",
-      "text": "Let the troopers go first. It's safer to fight behind them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "4c215c4f1fbca254c64b1e2fdd9aa6282efd074f886d265ae63b55afc783f779",
+        "f4556c1502a67b2569d2c208f52670b4769b04faac4f5971a0a905531f68966b"
+      ],
+      "text": "Let the troopers go first, it's safer to fight behind them.",
+      "source": "official"
     },
     {
-      "sha256": "418369a9677ebbb26220435f14e86d6ea7b661aea19c68a30e102dc4b6feabfe",
+      "sha256": [
+        "418369a9677ebbb26220435f14e86d6ea7b661aea19c68a30e102dc4b6feabfe"
+      ],
       "text": "Let the troopers go first. It's safer to hide behind them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c215c4f1fbca254c64b1e2fdd9aa6282efd074f886d265ae63b55afc783f779",
-      "text": "Let the troopers go first, it's safer to fight behind them.",
-      "source": "official"
     }
   ]
 }

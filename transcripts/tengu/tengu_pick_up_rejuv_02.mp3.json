@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_pick_up_rejuv_02.mp3",
   "revisions": [
     {
-      "sha256": "b06ea53e2f0ce812667ab4387ff5828381b948e82775fb0ef4ecf3ea50b3a397",
+      "sha256": [
+        "b06ea53e2f0ce812667ab4387ff5828381b948e82775fb0ef4ecf3ea50b3a397"
+      ],
       "text": "We have the Rejuvenator. What's the plan?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "af43db9e7071f9611d2988a1e10fa2a0480f40f83164c831f985abda23a8d61b",
+      "sha256": [
+        "af43db9e7071f9611d2988a1e10fa2a0480f40f83164c831f985abda23a8d61b"
+      ],
       "text": "We have the rejuvinator, what's the plan?",
       "source": "official"
     }

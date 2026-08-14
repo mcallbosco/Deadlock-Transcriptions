@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6082535c51dc7c0480f0737e6f6715bba03006d0842d13120557f330185ac367",
+      "sha256": [
+        "6082535c51dc7c0480f0737e6f6715bba03006d0842d13120557f330185ac367"
+      ],
       "text": "Cheese was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

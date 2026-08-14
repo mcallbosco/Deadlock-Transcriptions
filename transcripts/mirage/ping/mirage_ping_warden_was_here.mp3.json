@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4f058a186244d4bfe148d2a137499fee69b4c797fd7f329ef4bbab602fabf54e",
+      "sha256": [
+        "4f058a186244d4bfe148d2a137499fee69b4c797fd7f329ef4bbab602fabf54e"
+      ],
       "text": "What am I here?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c5b92681fd794f404639a52cf09553ba4b4d3e40e54f7251ac853c15ecde68d8",
+      "sha256": [
+        "bdc0d310d8f4670d275547de567889a582bf3985116f27c5bdd268163238ba08",
+        "c5b92681fd794f404639a52cf09553ba4b4d3e40e54f7251ac853c15ecde68d8"
+      ],
       "text": "What did we hear?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bdc0d310d8f4670d275547de567889a582bf3985116f27c5bdd268163238ba08",
-      "text": "What did we hear?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1072e9e28b313ca13f8a958b9648df38e8d0975c69a3004e8e90a6fe888bcd8a",
+      "sha256": [
+        "1072e9e28b313ca13f8a958b9648df38e8d0975c69a3004e8e90a6fe888bcd8a"
+      ],
       "text": "Warden was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

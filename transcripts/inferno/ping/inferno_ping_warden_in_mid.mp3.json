@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_warden_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "a76207adcb5614151696782595d649a2a64c43c875b3ef07538d66a63c93e9ae",
+      "sha256": [
+        "a76207adcb5614151696782595d649a2a64c43c875b3ef07538d66a63c93e9ae"
+      ],
       "text": "One's infinite.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c58e73fd897e4c947479b07c08328920280f66b6e298ae894ef095bd9a0ab8c2",
+      "sha256": [
+        "7c17c867cb4a3d142e3d84feec5484b4f9ccee6e9975d44c2a302b980cf5a2f7",
+        "c58e73fd897e4c947479b07c08328920280f66b6e298ae894ef095bd9a0ab8c2"
+      ],
       "text": "Gordon's in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7c17c867cb4a3d142e3d84feec5484b4f9ccee6e9975d44c2a302b980cf5a2f7",
-      "text": "Gordon's in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f99f027e9bb4d0d0da6885b1aaac52537c8d768979b16042c64ea6fa61bf66f3",
+      "sha256": [
+        "f99f027e9bb4d0d0da6885b1aaac52537c8d768979b16042c64ea6fa61bf66f3"
+      ],
       "text": "Warden's in mid!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_congrats_sumo.mp3",
   "revisions": [
     {
-      "sha256": "dbf37acd044402428766e9e3b37c7d9f75f36f853f349eeff82fdfc663db8eb6",
-      "text": "Good job, Sumo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc70a1f6d3aa03614724ea97cfeceba90954cda1525fdd8193a585f85ec9a6bf",
-      "text": "Good job, Sumo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8948aa3d29b0b1f90c4943957a4a00d46ac7b74e28572b647e9dc06cd92d799a",
+      "sha256": [
+        "8948aa3d29b0b1f90c4943957a4a00d46ac7b74e28572b647e9dc06cd92d799a",
+        "dbf37acd044402428766e9e3b37c7d9f75f36f853f349eeff82fdfc663db8eb6",
+        "dc70a1f6d3aa03614724ea97cfeceba90954cda1525fdd8193a585f85ec9a6bf"
+      ],
       "text": "Good job, Sumo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

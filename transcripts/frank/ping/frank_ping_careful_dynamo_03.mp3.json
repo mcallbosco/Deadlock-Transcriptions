@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_dynamo_03.mp3",
   "revisions": [
     {
-      "sha256": "9737a825674fe12537a5158669122e9109828dc9b568551c36ba766e94175f21",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02d551cb6c2b2361050415f4504bf07457ee88a661397d7dc3e9fdfb4e8e853b",
+      "sha256": [
+        "02d551cb6c2b2361050415f4504bf07457ee88a661397d7dc3e9fdfb4e8e853b",
+        "9737a825674fe12537a5158669122e9109828dc9b568551c36ba766e94175f21"
+      ],
       "text": "Careful, Dynamo!",
       "source": "official"
     }

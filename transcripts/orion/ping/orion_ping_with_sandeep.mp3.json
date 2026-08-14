@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_with_sandeep.mp3",
   "revisions": [
     {
-      "sha256": "065a6fdf208148346742689806aaa3e18e7c8e4cbf7e05886c7f7411d047d32d",
+      "sha256": [
+        "065a6fdf208148346742689806aaa3e18e7c8e4cbf7e05886c7f7411d047d32d"
+      ],
       "text": "I'm with you, Sundip.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8cfb72f59552d824ae9375f78afe61e984b0bfbb0b42babca9f0d75bed31549c",
-      "text": "I'm with you, Sandeep.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b08f033d98d7092622defb212f68a1dfc16129c2e80a3c9c866c8276b18e648",
+      "sha256": [
+        "6b08f033d98d7092622defb212f68a1dfc16129c2e80a3c9c866c8276b18e648",
+        "8cfb72f59552d824ae9375f78afe61e984b0bfbb0b42babca9f0d75bed31549c"
+      ],
       "text": "I'm with you, Sandeep.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_mirage_04.mp3",
   "revisions": [
     {
-      "sha256": "41adfd377afecb74acebb0ada8ef792e3b60e1d600bda8b59e1b833ade236a0c",
-      "text": "We stopped Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d799fea4ae9d00d7e21ba28956fc7b7f3864e87c037b33bb95092cc3135581c",
-      "text": "We stopped Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e594be27e68dee545f9a731e6fd6be6fc7c8372c6039b73c63146c0a8c770fbe",
+      "sha256": [
+        "41adfd377afecb74acebb0ada8ef792e3b60e1d600bda8b59e1b833ade236a0c",
+        "7d799fea4ae9d00d7e21ba28956fc7b7f3864e87c037b33bb95092cc3135581c",
+        "e594be27e68dee545f9a731e6fd6be6fc7c8372c6039b73c63146c0a8c770fbe"
+      ],
       "text": "We stopped Mirage",
       "source": "official"
     }

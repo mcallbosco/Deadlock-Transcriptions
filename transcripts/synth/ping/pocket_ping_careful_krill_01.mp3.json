@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "ce7ca3223f14b5b06f4446e19657550c599422daafad382eb508decba91aa039",
-      "text": "Careful, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6e28d5a25007d23f83764859e484937aeccd92a337bed1d04bbdd4272401d83",
+      "sha256": [
+        "c6e28d5a25007d23f83764859e484937aeccd92a337bed1d04bbdd4272401d83",
+        "ce7ca3223f14b5b06f4446e19657550c599422daafad382eb508decba91aa039"
+      ],
       "text": "Careful, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

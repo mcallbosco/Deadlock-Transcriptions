@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/viscous_happy_05.mp3",
   "revisions": [
     {
-      "sha256": "c130432127091efc1185fdf0b398b04625c8c73e24f30785f7bd5562291b6047",
-      "text": "That's what I like to see.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2eeb29352802169de039a3ccff087b32703dbc3458f39f4964625850904eca02",
+      "sha256": [
+        "2eeb29352802169de039a3ccff087b32703dbc3458f39f4964625850904eca02",
+        "c130432127091efc1185fdf0b398b04625c8c73e24f30785f7bd5562291b6047"
+      ],
       "text": "That's what I like to see.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

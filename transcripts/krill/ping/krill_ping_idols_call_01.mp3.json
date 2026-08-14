@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_idols_call_01.mp3",
   "revisions": [
     {
-      "sha256": "55bf0a7a3592df43b9c20e0f3e2068e01b00d6e02b026936d5331990a3fe5f0e",
-      "text": "Idles here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22b44c95cab76711c442c87d3a6f5cfc7fc4b9eac921156966b1d11ba5872d41",
-      "text": "Idles here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60860a38df6515aae7cabbbad9c35b5d9e56755af45a8d4d4cdf300caf7ac16b",
+      "sha256": [
+        "22b44c95cab76711c442c87d3a6f5cfc7fc4b9eac921156966b1d11ba5872d41",
+        "55bf0a7a3592df43b9c20e0f3e2068e01b00d6e02b026936d5331990a3fe5f0e",
+        "60860a38df6515aae7cabbbad9c35b5d9e56755af45a8d4d4cdf300caf7ac16b"
+      ],
       "text": "Idles here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

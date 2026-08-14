@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_doorman_01.mp3",
   "revisions": [
     {
-      "sha256": "4049bd643e87338dd19a7ca2cdb463b5d801be7509f5187176eb8d24b48baf0c",
-      "text": "I see the doorman.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92b81bf1df0d689aee643b0ef94649bddf07d6d1b6bc8a45d362f4aea39c8419",
+      "sha256": [
+        "4049bd643e87338dd19a7ca2cdb463b5d801be7509f5187176eb8d24b48baf0c",
+        "92b81bf1df0d689aee643b0ef94649bddf07d6d1b6bc8a45d362f4aea39c8419"
+      ],
       "text": "I see the Doorman.",
       "source": "manual"
     }

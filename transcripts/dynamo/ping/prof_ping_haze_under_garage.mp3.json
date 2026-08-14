@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_haze_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "666092f33544e6c635907a13c52cbff91d0c280aeaaa11f6a05837fed0ba5aa0",
+      "sha256": [
+        "666092f33544e6c635907a13c52cbff91d0c280aeaaa11f6a05837fed0ba5aa0"
+      ],
       "text": "He's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dd34e42cc65bc57b1fb03282822083f0328589badba95b36c3d5fe3a9caaab55",
+      "sha256": [
+        "dd34e42cc65bc57b1fb03282822083f0328589badba95b36c3d5fe3a9caaab55"
+      ],
       "text": "Hey, he's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

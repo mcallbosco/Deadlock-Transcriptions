@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power3_04.mp3",
   "revisions": [
     {
-      "sha256": "47f3bf67e3834175632a3ae1a6e23e0ab2241b1a72929dd6a667ec300df345b0",
+      "sha256": [
+        "47f3bf67e3834175632a3ae1a6e23e0ab2241b1a72929dd6a667ec300df345b0"
+      ],
       "text": "Tymos.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4d7bd658dbe0c3143dcfc555697520310a564cfeca7f327f4bed136da5e89bb7",
+      "sha256": [
+        "4d7bd658dbe0c3143dcfc555697520310a564cfeca7f327f4bed136da5e89bb7"
+      ],
       "text": "私は消していない。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b77bbec4e5719ed2a73f8b9541eaab7132c0037d67f1b5ef5be92fafa4061ef8",
+      "sha256": [
+        "b77bbec4e5719ed2a73f8b9541eaab7132c0037d67f1b5ef5be92fafa4061ef8"
+      ],
       "text": "I will endure.",
       "source": "official"
     }

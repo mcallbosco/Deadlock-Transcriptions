@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_happy_04.mp3",
   "revisions": [
     {
-      "sha256": "cd9a4c92ae9063b91bb1d163d62d93be8f7c4910367fbb56c300a00cfc57a3a7",
-      "text": "These guys are outmatched.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0a0e68f48a4c757c98177ec8b4e188a9630d84ca37a71545db000b21c61f4585",
+      "sha256": [
+        "0a0e68f48a4c757c98177ec8b4e188a9630d84ca37a71545db000b21c61f4585",
+        "cd9a4c92ae9063b91bb1d163d62d93be8f7c4910367fbb56c300a00cfc57a3a7"
+      ],
       "text": "These guys are outmatched.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

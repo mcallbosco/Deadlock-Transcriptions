@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_use_smoke_02.mp3",
   "revisions": [
     {
-      "sha256": "f9487ad3f6d8ac87fbc98c30bd59d86635eb13f8362dbdd0ee352d19e5255168",
-      "text": "Time will disappear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6e044ce55e6b63bfab7c018db00d43d5bddc94db2bccd6d56a352eaf3cdf28a",
+      "sha256": [
+        "a6e044ce55e6b63bfab7c018db00d43d5bddc94db2bccd6d56a352eaf3cdf28a",
+        "f9487ad3f6d8ac87fbc98c30bd59d86635eb13f8362dbdd0ee352d19e5255168"
+      ],
       "text": "Time will disappear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

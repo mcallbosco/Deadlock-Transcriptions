@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_can_heal_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "047b4953a91751367108efc9b7d1d2ce8f460b7cc11738e6576a00d512222f50",
+      "sha256": [
+        "047b4953a91751367108efc9b7d1d2ce8f460b7cc11738e6576a00d512222f50",
+        "66c31c9b96e5057d03484ed27d226ffddc838418c5ca481972965c7fc5e2b516"
+      ],
       "text": "Gigawatt, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66c31c9b96e5057d03484ed27d226ffddc838418c5ca481972965c7fc5e2b516",
-      "text": "Gigawatt, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

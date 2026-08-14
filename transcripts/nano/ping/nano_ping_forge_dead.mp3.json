@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "b134e1ddcbaa6897a4d33142f412cdc75393ec899417a9eb8249037ec1031f31",
+      "sha256": [
+        "b134e1ddcbaa6897a4d33142f412cdc75393ec899417a9eb8249037ec1031f31"
+      ],
       "text": "McGinnis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

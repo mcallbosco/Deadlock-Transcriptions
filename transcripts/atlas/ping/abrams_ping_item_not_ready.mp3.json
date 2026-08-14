@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "047c3e5e967ac08a6a9411ba75f07597cb86ffec9bf79c9223f8b18f02d2c17a",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37a13160c46192039860998ece985f5ccb57e67b27f3a89ca63f8a4bf0b03c9f",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce3ef959ffe1afaa80032ab83c44ed542bbf97639fc96703968b741cd7ced65f",
+      "sha256": [
+        "047c3e5e967ac08a6a9411ba75f07597cb86ffec9bf79c9223f8b18f02d2c17a",
+        "37a13160c46192039860998ece985f5ccb57e67b27f3a89ca63f8a4bf0b03c9f",
+        "ce3ef959ffe1afaa80032ab83c44ed542bbf97639fc96703968b741cd7ced65f"
+      ],
       "text": "Items on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

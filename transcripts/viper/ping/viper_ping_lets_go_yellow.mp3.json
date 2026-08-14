@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "51f8f033f65c4f1b44b42b9655d1b3f4405f2b8bf554c99dd9536786382cbe5d",
+      "sha256": [
+        "51f8f033f65c4f1b44b42b9655d1b3f4405f2b8bf554c99dd9536786382cbe5d"
+      ],
       "text": "Let's go to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a9e7e92de626fdb94d101a1381e3d8d7ebcf6a6e746dc705fa1499f4a3feae1b",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c28a2c73aa7f89fa179f3d15de6415964546b6aaab75a7cd96df4535e32c6f03",
+      "sha256": [
+        "a9e7e92de626fdb94d101a1381e3d8d7ebcf6a6e746dc705fa1499f4a3feae1b",
+        "c28a2c73aa7f89fa179f3d15de6415964546b6aaab75a7cd96df4535e32c6f03"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

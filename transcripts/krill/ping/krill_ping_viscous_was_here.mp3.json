@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_viscous_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c48c4579744734b2c982109f806163ea36207c13d737617df02edcb05530783b",
+      "sha256": [
+        "0c29ef45b8d34d1fbc48303484da9eb6978f860332ea979fe13c4ec27a479bd9",
+        "c48c4579744734b2c982109f806163ea36207c13d737617df02edcb05530783b"
+      ],
       "text": "Viscous was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "082bf0b189ae29f1e7e52dda0e6e8356f05c53c4134b0ba28c600962cc1d504e",
+      "sha256": [
+        "082bf0b189ae29f1e7e52dda0e6e8356f05c53c4134b0ba28c600962cc1d504e"
+      ],
       "text": "Viscus was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c29ef45b8d34d1fbc48303484da9eb6978f860332ea979fe13c4ec27a479bd9",
-      "text": "Viscous was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

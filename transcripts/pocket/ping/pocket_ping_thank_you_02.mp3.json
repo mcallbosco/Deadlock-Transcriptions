@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "dcf85c488432aca643037da01f5f7ec28bb0b720cc31e62ae3dffec7af07ca74",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3ff26ec89b01740b4ca747669d91da4004bf62c010de0f3bf14d84e29aacadc",
+      "sha256": [
+        "d3ff26ec89b01740b4ca747669d91da4004bf62c010de0f3bf14d84e29aacadc",
+        "dcf85c488432aca643037da01f5f7ec28bb0b720cc31e62ae3dffec7af07ca74"
+      ],
       "text": "Thank you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

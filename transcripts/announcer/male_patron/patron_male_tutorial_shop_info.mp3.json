@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_tutorial_shop_info.mp3",
   "revisions": [
     {
-      "sha256": "c3d91e21bb80fe3c1f61845d77e767cf00450e40b55c86a5c0aee49a38a06572",
+      "sha256": [
+        "c3d91e21bb80fe3c1f61845d77e767cf00450e40b55c86a5c0aee49a38a06572"
+      ],
       "text": "You have enough souls to buy some gear. You can either shop when you're at the base or at one of the temporary shops by each of our guardians.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

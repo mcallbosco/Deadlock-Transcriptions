@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_glitch_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "0d3b550c08617e9eeb0d469a93235c7a09a0675600822d285491117617061e2a",
+      "sha256": [
+        "0d3b550c08617e9eeb0d469a93235c7a09a0675600822d285491117617061e2a"
+      ],
       "text": "Cursed is on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0a8960f15ef5ea8096234b269ce0ec2744ca3ff1fd3421707fd8906a34b90f5",
+      "sha256": [
+        "f0a8960f15ef5ea8096234b269ce0ec2744ca3ff1fd3421707fd8906a34b90f5"
+      ],
       "text": "Curse is on cooldown.",
       "source": "official"
     }

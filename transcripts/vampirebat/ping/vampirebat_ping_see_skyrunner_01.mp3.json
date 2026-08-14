@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_skyrunner_01.mp3",
   "revisions": [
     {
-      "sha256": "f60ffc58883ce834cb3ddf673d4c83df95c2c7cb3de572a27cadc94471dbdae7",
+      "sha256": [
+        "f60ffc58883ce834cb3ddf673d4c83df95c2c7cb3de572a27cadc94471dbdae7",
+        "f83c5e906f023168531d058df09b4bf6f85c193135b3f58448c774c63723d082"
+      ],
       "text": "I see Sky Runner!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f83c5e906f023168531d058df09b4bf6f85c193135b3f58448c774c63723d082",
-      "text": "I see Skyrunner!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

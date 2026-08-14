@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_haze_headed_to_purple.mp3",
   "revisions": [
     {
-      "sha256": "7c095fa84ad94df4d01bdcfd82add09b5eeb11378169565ea9d3cc5013753821",
+      "sha256": [
+        "7c095fa84ad94df4d01bdcfd82add09b5eeb11378169565ea9d3cc5013753821"
+      ],
       "text": "Case is headed to purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0f0eac72107ae3c39f73869a90f7f570326ece31df9067b2296205cae6f253a8",
-      "text": "Haz is headed to purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab0727c7a2fc10388f3d41d71900a165fd03dae90b82af207519cfbbadf53a75",
+      "sha256": [
+        "0f0eac72107ae3c39f73869a90f7f570326ece31df9067b2296205cae6f253a8",
+        "ab0727c7a2fc10388f3d41d71900a165fd03dae90b82af207519cfbbadf53a75"
+      ],
       "text": "Haz is headed to purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

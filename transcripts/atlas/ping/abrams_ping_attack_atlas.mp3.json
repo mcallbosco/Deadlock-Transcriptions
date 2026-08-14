@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_attack_atlas.mp3",
   "revisions": [
     {
-      "sha256": "79174dc7bce5dda609a718b64151087bad8119db4052571c290e1137c32c987e",
-      "text": "Let's take out Atlas.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "110e896be4f8aa0f1c48591b70d06290781992e664e887470a5fff34ffd77fb4",
+      "sha256": [
+        "110e896be4f8aa0f1c48591b70d06290781992e664e887470a5fff34ffd77fb4",
+        "79174dc7bce5dda609a718b64151087bad8119db4052571c290e1137c32c987e"
+      ],
       "text": "Let's take out Atlas.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

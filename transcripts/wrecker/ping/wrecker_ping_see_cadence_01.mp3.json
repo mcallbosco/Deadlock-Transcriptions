@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_cadence_01.mp3",
   "revisions": [
     {
-      "sha256": "090b82913ce5484b3f9a0525120ab0c1caaed0a11451d0946eeae8ecc0502041",
-      "text": "I see cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b134d99a153d97d800b9468ccbaa546542819717607f795df24ecc33053e86a3",
+      "sha256": [
+        "090b82913ce5484b3f9a0525120ab0c1caaed0a11451d0946eeae8ecc0502041",
+        "b134d99a153d97d800b9468ccbaa546542819717607f795df24ecc33053e86a3"
+      ],
       "text": "I see cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

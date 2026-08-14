@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_cadence_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c28bea07ed1ca24f5cf3009fb46c9df3f38dfc5762d326918c01f8f7f01976df",
+      "sha256": [
+        "24ccb94326ae21d86d8efe46895e6b18ae3d74b87eb972917e34c2d845991dec",
+        "c28bea07ed1ca24f5cf3009fb46c9df3f38dfc5762d326918c01f8f7f01976df"
+      ],
       "text": "Cadence is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "24ccb94326ae21d86d8efe46895e6b18ae3d74b87eb972917e34c2d845991dec",
-      "text": "Cadence is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca60b7b8f791f7c730e62e8cf5e67d646ca621b567935eda0ff3ce01dfba7dbd",
+      "sha256": [
+        "ca60b7b8f791f7c730e62e8cf5e67d646ca621b567935eda0ff3ce01dfba7dbd"
+      ],
       "text": "Cajun's is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

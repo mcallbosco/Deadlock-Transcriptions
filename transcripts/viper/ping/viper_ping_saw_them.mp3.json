@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "4f8e7b19c726ba9b90c58c0b607ce04a94893d47b161ac4a7ea78ea090622829",
-      "text": "I saw them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "535dc145cdada5ed451e0ec54021d0fc5b3189970d0b3561866dde637073c840",
-      "text": "I saw them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9003f58a959344eaa4b7dea8572cc2452f34f35b0e05a21979f4e45ccf5b8b46",
+      "sha256": [
+        "4f8e7b19c726ba9b90c58c0b607ce04a94893d47b161ac4a7ea78ea090622829",
+        "535dc145cdada5ed451e0ec54021d0fc5b3189970d0b3561866dde637073c840",
+        "9003f58a959344eaa4b7dea8572cc2452f34f35b0e05a21979f4e45ccf5b8b46"
+      ],
       "text": "I saw them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

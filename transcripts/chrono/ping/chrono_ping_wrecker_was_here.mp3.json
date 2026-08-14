@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_wrecker_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d861967be2bfba38e55a5e0133c3c75c171234461e77b4874c361041773e806c",
-      "text": "Wrecker was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b53f843fb4234a3a9974d8398d309e8d9753f465115ca83010f5979a8296a05",
+      "sha256": [
+        "2b53f843fb4234a3a9974d8398d309e8d9753f465115ca83010f5979a8296a05",
+        "d861967be2bfba38e55a5e0133c3c75c171234461e77b4874c361041773e806c"
+      ],
       "text": "Wrecker was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

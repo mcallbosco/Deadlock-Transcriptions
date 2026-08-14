@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "27ee0fd01edb84809a2d5fe21ea1fe16e0babd2dfe4596005553a23053cb9489",
+      "sha256": [
+        "27ee0fd01edb84809a2d5fe21ea1fe16e0babd2dfe4596005553a23053cb9489",
+        "2845cf3f5f1e44cc3034e8ccc6d3a3f541fe80a3fdab2c70841aa8c4a21c1c98",
+        "72a51a7e002db5aa801780eb65982e416334c0210e5e523121b79e4f98935b04"
+      ],
       "text": "Gordon, this isn't a fight for you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2845cf3f5f1e44cc3034e8ccc6d3a3f541fe80a3fdab2c70841aa8c4a21c1c98",
-      "text": "Gordon, this isn't a fight for you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72a51a7e002db5aa801780eb65982e416334c0210e5e523121b79e4f98935b04",
-      "text": "Gordon, this isn't a fight for you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "826a89e9f17b197962eebb52edcf7586232969da6a5a9d38375ad21aaa9fda9e",
+      "sha256": [
+        "826a89e9f17b197962eebb52edcf7586232969da6a5a9d38375ad21aaa9fda9e"
+      ],
       "text": "Warden, this isn't the fight for you.",
       "source": "official"
     }

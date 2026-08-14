@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "f3b79ca74a13831c6a5ae741f7db5aba5e7bf1fe799cd57544bab617543c4ede",
+      "sha256": [
+        "09916c49fbee62dddb1e46f54bcf836c90664e9cc7f9c781b5843f7f90069007",
+        "f3b79ca74a13831c6a5ae741f7db5aba5e7bf1fe799cd57544bab617543c4ede"
+      ],
       "text": "Missing yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "09916c49fbee62dddb1e46f54bcf836c90664e9cc7f9c781b5843f7f90069007",
-      "text": "Missing yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa07550146c85ca7e6215ea0a6ff13c2da7d1cd4867933054df95383b391ddd7",
+      "sha256": [
+        "aa07550146c85ca7e6215ea0a6ff13c2da7d1cd4867933054df95383b391ddd7"
+      ],
       "text": "Miseniero.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

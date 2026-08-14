@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "31d8e98a83b0f5e6ccc2f17f083a304aaa22fda48da24a92590c9def7b37f719",
+      "sha256": [
+        "31d8e98a83b0f5e6ccc2f17f083a304aaa22fda48da24a92590c9def7b37f719"
+      ],
       "text": "影と化した私に共振するがいい。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "af499423663c1e0b6af5d4488b3a0fc4066f9d32db315f8cf6695055df542686",
+      "sha256": [
+        "af499423663c1e0b6af5d4488b3a0fc4066f9d32db315f8cf6695055df542686"
+      ],
       "text": "Shadow form!",
       "source": "official"
     }

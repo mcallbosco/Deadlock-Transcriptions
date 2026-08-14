@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_saw_orion.mp3",
   "revisions": [
     {
-      "sha256": "c26c143708bcab772cc82ed665875ebbf7c8626ba008b829201f291d247ba40a",
+      "sha256": [
+        "c26c143708bcab772cc82ed665875ebbf7c8626ba008b829201f291d247ba40a"
+      ],
       "text": "I saw Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "91036e35b9927a6d789be9851ca31af4da5eaa2e8daab80486894c20f68c5887",
-      "text": "I saw Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "841ddd7eeef5addb26fcf5e2294f7ad503018d2933f4600c8c424fe5408ba4ff",
+      "sha256": [
+        "841ddd7eeef5addb26fcf5e2294f7ad503018d2933f4600c8c424fe5408ba4ff",
+        "91036e35b9927a6d789be9851ca31af4da5eaa2e8daab80486894c20f68c5887"
+      ],
       "text": "I saw Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

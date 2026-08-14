@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_see_warden_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "b9c1a5ab2d973ccb3e603e51af61a8236011f2b72733b3964615c9398ffd3481",
+      "sha256": [
+        "b9c1a5ab2d973ccb3e603e51af61a8236011f2b72733b3964615c9398ffd3481"
+      ],
       "text": "Voikens, on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f67ecdd286a7d8128997df61abbfb9aed01002643fcaab1b675594689bc497d0",
+      "sha256": [
+        "f67ecdd286a7d8128997df61abbfb9aed01002643fcaab1b675594689bc497d0"
+      ],
       "text": "Warden's on the roof!",
       "source": "official"
     }

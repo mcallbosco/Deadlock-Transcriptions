@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_can_heal_astro.mp3",
   "revisions": [
     {
-      "sha256": "590ab542a00ffda9840b0980626a38c8b08e7951b148d50f158c257778cbbf62",
+      "sha256": [
+        "590ab542a00ffda9840b0980626a38c8b08e7951b148d50f158c257778cbbf62",
+        "73dc07df62e967183ebddb7545137faad2010a5ce99c8332f6fe79860598edb6"
+      ],
       "text": "Holliday, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "73dc07df62e967183ebddb7545137faad2010a5ce99c8332f6fe79860598edb6",
-      "text": "Holliday, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02287c59bc664712c0cdd49caff8675e288c17fb07ea527ba463dbb4610f4e5f",
+      "sha256": [
+        "02287c59bc664712c0cdd49caff8675e288c17fb07ea527ba463dbb4610f4e5f"
+      ],
       "text": "Holliday, I can heal you!",
       "source": "manual"
     }

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_careful_lash_02.mp3",
   "revisions": [
     {
-      "sha256": "25961d295334991251f79ade9a99fa296ae0b2cc31b7d41645d1530d734e0646",
+      "sha256": [
+        "25961d295334991251f79ade9a99fa296ae0b2cc31b7d41645d1530d734e0646"
+      ],
       "text": "Careful, Nash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b827948202263d6808f36b5499226c5cfc190f2276e330e03ff6c12b09dcd4a0",
+      "sha256": [
+        "b827948202263d6808f36b5499226c5cfc190f2276e330e03ff6c12b09dcd4a0",
+        "be50b43a6a85cd82aaf6b0763b39fcf632c16c66a9d440db124da13cdfcf7201"
+      ],
       "text": "Careful, Lesh.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "be50b43a6a85cd82aaf6b0763b39fcf632c16c66a9d440db124da13cdfcf7201",
-      "text": "Careful, Lesh.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35570455b9e217b980e443fd3176784c3d144ff893eacda0ae4d0da6bb1365fc",
+      "sha256": [
+        "35570455b9e217b980e443fd3176784c3d144ff893eacda0ae4d0da6bb1365fc"
+      ],
       "text": "Careful, Lash",
       "source": "official"
     }

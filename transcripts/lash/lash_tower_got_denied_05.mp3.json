@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_tower_got_denied_05.mp3",
   "revisions": [
     {
-      "sha256": "cee81d4dc6f25ecc15f58b0b9e76a2e73fe82350de43e5e75ddc3155f9bc709f",
+      "sha256": [
+        "ae3da564380767ac1274ca632f1128bb000a57b8d63e29d15b5a93aa6b6c66ed",
+        "be3a1219c0542d62511eafddee139345d982115209b759f770f56b524fdf6e94",
+        "cee81d4dc6f25ecc15f58b0b9e76a2e73fe82350de43e5e75ddc3155f9bc709f"
+      ],
       "text": "That shouldn't press the patron.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "be3a1219c0542d62511eafddee139345d982115209b759f770f56b524fdf6e94",
-      "text": "That shouldn't press the patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae3da564380767ac1274ca632f1128bb000a57b8d63e29d15b5a93aa6b6c66ed",
-      "text": "That shouldn't press the patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96c19bc3d9a7dbcec17c9ea3b1be769164fefb9806697accb4b398f16598c267",
+      "sha256": [
+        "96c19bc3d9a7dbcec17c9ea3b1be769164fefb9806697accb4b398f16598c267"
+      ],
       "text": "That should impress the patron…",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_use_item.mp3",
   "revisions": [
     {
-      "sha256": "12f8c03fb54aac9f05982fc648fde818b462c3f4df0d6abb3b7976feeab975eb",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6c610db1a1f999dda712796c68c0f5cb79a04e546658f89ab796dc4cac9856b",
+      "sha256": [
+        "12f8c03fb54aac9f05982fc648fde818b462c3f4df0d6abb3b7976feeab975eb",
+        "c6c610db1a1f999dda712796c68c0f5cb79a04e546658f89ab796dc4cac9856b"
+      ],
       "text": "Ready to use Item.",
       "source": "official"
     }

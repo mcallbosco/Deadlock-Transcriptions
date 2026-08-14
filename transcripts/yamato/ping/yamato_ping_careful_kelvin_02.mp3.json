@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_kelvin_02.mp3",
   "revisions": [
     {
-      "sha256": "b7d4c69ca669308e0c2eea110c52e7298b7fcde65383c717df511f49a5fe6b35",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7dca8ce005e556e5df15a50c018d5c00b7abb535160227b8166c04c4ec9f7b86",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b17fc1cf7f7e5d78fbfa427591e6028873fd237c84d0624a4486a6156c73a96d",
+      "sha256": [
+        "7dca8ce005e556e5df15a50c018d5c00b7abb535160227b8166c04c4ec9f7b86",
+        "b17fc1cf7f7e5d78fbfa427591e6028873fd237c84d0624a4486a6156c73a96d",
+        "b7d4c69ca669308e0c2eea110c52e7298b7fcde65383c717df511f49a5fe6b35"
+      ],
       "text": "Careful, Kelvin",
       "source": "official"
     }

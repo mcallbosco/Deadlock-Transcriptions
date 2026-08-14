@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_take_shrine_1.mp3",
   "revisions": [
     {
-      "sha256": "47b70da0f871d00b5d3095230da0f6a0a08cdd64c0239ac0e1f75d640095fae1",
-      "text": "It's time to end this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c3408fd3ed8a435171cde8231b809492c5201cfd249878eb0ce0a28e554dc03",
+      "sha256": [
+        "3c3408fd3ed8a435171cde8231b809492c5201cfd249878eb0ce0a28e554dc03",
+        "47b70da0f871d00b5d3095230da0f6a0a08cdd64c0239ac0e1f75d640095fae1"
+      ],
       "text": "It's time to end this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

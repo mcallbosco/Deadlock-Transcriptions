@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "256472d866249a0f02100de11fa4c14f2752653eded6d241a902065565e16d1e",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01afa98e9571112d415dcbcd9550e0859c186b535563ad5d014416aa8b1c5fa6",
+      "sha256": [
+        "01afa98e9571112d415dcbcd9550e0859c186b535563ad5d014416aa8b1c5fa6",
+        "256472d866249a0f02100de11fa4c14f2752653eded6d241a902065565e16d1e"
+      ],
       "text": "Do you have a heal?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_saw_trapper.mp3",
   "revisions": [
     {
-      "sha256": "c93736acc127052879a5edf898b829bb08d784601dc09779124bdecda8f8bdcc",
+      "sha256": [
+        "c93736acc127052879a5edf898b829bb08d784601dc09779124bdecda8f8bdcc"
+      ],
       "text": "I saw a Trapper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

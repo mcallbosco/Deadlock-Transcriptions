@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_with_hornet.mp3",
   "revisions": [
     {
-      "sha256": "e467416c4b06671837ed128af5bb3038aa942717b2dcea055dea39f11d0bb675",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6360e3f11d2a35771a90e0bef48718bf0ee26354dd5cde18bd8c27b1885eb36",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fc9cde0fa8edeef31c5a9f69c480fbd6cb037bbaadec2399bc78d37df55a75d",
+      "sha256": [
+        "3fc9cde0fa8edeef31c5a9f69c480fbd6cb037bbaadec2399bc78d37df55a75d",
+        "e467416c4b06671837ed128af5bb3038aa942717b2dcea055dea39f11d0bb675",
+        "f6360e3f11d2a35771a90e0bef48718bf0ee26354dd5cde18bd8c27b1885eb36"
+      ],
       "text": "I'm with you, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

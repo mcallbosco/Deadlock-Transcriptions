@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power3_10.mp3",
   "revisions": [
     {
-      "sha256": "16204a9479cc4c36aa2ff776c68ad4d8e4b3d332ad12e79e490a14b1e0c08b07",
+      "sha256": [
+        "16204a9479cc4c36aa2ff776c68ad4d8e4b3d332ad12e79e490a14b1e0c08b07"
+      ],
       "text": "最後に立っているのはこの私だ。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ebf1df5386545cd71b8ca5391bac7c89031b7a83d957503b77bc4f6154ae75d9",
+      "sha256": [
+        "ebf1df5386545cd71b8ca5391bac7c89031b7a83d957503b77bc4f6154ae75d9"
+      ],
       "text": "I'll outlast my enemies",
       "source": "official"
     }

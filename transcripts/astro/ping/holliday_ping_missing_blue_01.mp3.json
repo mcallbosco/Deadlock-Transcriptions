@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "aa10673c8037f192a7dba79b4d31f3579f70246e89a70bc127ab511682f36b58",
+      "sha256": [
+        "aa10673c8037f192a7dba79b4d31f3579f70246e89a70bc127ab511682f36b58"
+      ],
       "text": "Missing blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

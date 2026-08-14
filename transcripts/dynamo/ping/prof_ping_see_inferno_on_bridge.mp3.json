@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_inferno_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "3b2028fdf4db04638258e5501b69656ea59ee288a9cdddd69d630e64f01f3c3a",
-      "text": "Infernus is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38d3ba108236431ddc1ba25c83075e8c47d2a4eff32e0ab14d1e19613672623d",
+      "sha256": [
+        "38d3ba108236431ddc1ba25c83075e8c47d2a4eff32e0ab14d1e19613672623d",
+        "3b2028fdf4db04638258e5501b69656ea59ee288a9cdddd69d630e64f01f3c3a"
+      ],
       "text": "Infernus is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

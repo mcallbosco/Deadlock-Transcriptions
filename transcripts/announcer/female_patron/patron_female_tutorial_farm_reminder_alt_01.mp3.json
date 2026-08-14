@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_farm_reminder_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "945edf119f97e41a2ab1d7d8f52d88afaeb0848cf475addf454eef4f1bc90fdc",
+      "sha256": [
+        "945edf119f97e41a2ab1d7d8f52d88afaeb0848cf475addf454eef4f1bc90fdc"
+      ],
       "text": "Remember, you only earn souls off a dying trooper if you were an ally at the last hit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5de4dd6d54b8dd49d49619dd421cc30d17355d98eabd081ed2a021efa8559ba8",
+      "sha256": [
+        "5de4dd6d54b8dd49d49619dd421cc30d17355d98eabd081ed2a021efa8559ba8"
+      ],
       "text": "Remember, you only earn souls off a dying trooper if you or an ally get the last hit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

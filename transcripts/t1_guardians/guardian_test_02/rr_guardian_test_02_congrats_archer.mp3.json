@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_congrats_archer.mp3",
   "revisions": [
     {
-      "sha256": "e0c199f8dc63ccff520b3d0f509f91accacf1723729f481bb0f50b568c68d5fa",
-      "text": "Good job, Archer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2667fa6ce3580ad12c49c4a83142ea480a5e1033c2e751641a5304b2f60cc79c",
-      "text": "Good job, Archer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2dd18f14dfa2e7098e775f26c2a2960e61fe0673fb7c333fba49d27a5d621bcf",
+      "sha256": [
+        "2667fa6ce3580ad12c49c4a83142ea480a5e1033c2e751641a5304b2f60cc79c",
+        "2dd18f14dfa2e7098e775f26c2a2960e61fe0673fb7c333fba49d27a5d621bcf",
+        "e0c199f8dc63ccff520b3d0f509f91accacf1723729f481bb0f50b568c68d5fa"
+      ],
       "text": "Good job, Archer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

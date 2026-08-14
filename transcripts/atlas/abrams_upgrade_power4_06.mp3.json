@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_upgrade_power4_06.mp3",
   "revisions": [
     {
-      "sha256": "dcb4a098dfd9a7c83620305aa2fb19589d11fff4f84884debbe9aa2725e773e2",
+      "sha256": [
+        "dcb4a098dfd9a7c83620305aa2fb19589d11fff4f84884debbe9aa2725e773e2"
+      ],
       "text": "Give me a book, you work for me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0278bf6408df12cab84eaa22789a71c003c601f1354367dcfebaa4d0ed2a2b2f",
-      "text": "Listen here, book, you work for me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78fce5f9652ab3ddf6f6f119485b0c46dbb80db14bbd826613181f1794f8ed3d",
+      "sha256": [
+        "0278bf6408df12cab84eaa22789a71c003c601f1354367dcfebaa4d0ed2a2b2f",
+        "78fce5f9652ab3ddf6f6f119485b0c46dbb80db14bbd826613181f1794f8ed3d"
+      ],
       "text": "Listen here, book, you work for me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

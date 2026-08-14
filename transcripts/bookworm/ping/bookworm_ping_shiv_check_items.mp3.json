@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_shiv_check_items.mp3",
   "revisions": [
     {
-      "sha256": "1d6a6708b225f09f22a4501384f8b9c50b222271ad1f48e63d146e0ee23ed3a7",
+      "sha256": [
+        "1d6a6708b225f09f22a4501384f8b9c50b222271ad1f48e63d146e0ee23ed3a7"
+      ],
       "text": "Check out what Shiv bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7b3727049059c078d88c575e96bd218998d6d0957f76028de5d847910ae67b2a",
+      "sha256": [
+        "7b3727049059c078d88c575e96bd218998d6d0957f76028de5d847910ae67b2a"
+      ],
       "text": "Check out what you've got.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

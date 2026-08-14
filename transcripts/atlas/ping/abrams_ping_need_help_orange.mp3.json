@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_need_help_orange.mp3",
   "revisions": [
     {
-      "sha256": "c5ab2ff6901c715dd2bb948e9e797a3d155050ec60aa0f2057584c5eb4cb121f",
-      "text": "Need help on orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c59684619ed45b8d0ee4c5dc23595eb6260bce8aebc41f4bf99df7b6ccc807a6",
-      "text": "Need help on orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95c1fca24fdc2b62f417b58f13d61ad3349427809a3bc8b1c62b1705beb9765c",
+      "sha256": [
+        "95c1fca24fdc2b62f417b58f13d61ad3349427809a3bc8b1c62b1705beb9765c",
+        "c59684619ed45b8d0ee4c5dc23595eb6260bce8aebc41f4bf99df7b6ccc807a6",
+        "c5ab2ff6901c715dd2bb948e9e797a3d155050ec60aa0f2057584c5eb4cb121f"
+      ],
       "text": "Need help on orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

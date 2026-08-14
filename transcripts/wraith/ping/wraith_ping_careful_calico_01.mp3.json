@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_calico_01.mp3",
   "revisions": [
     {
-      "sha256": "79cd7a1e2531762997aa6de28a9ba46cb8e6de99f05d4de6a8460814823dce7a",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20c32044e9d75436de6b55f4c53a2b1def8e7ab6eefe0d0346b66739898245d5",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1c34258ea8f1e571fccd6c07fd52b0e41d7a7702ef5e2e1d56431110b422a2e",
+      "sha256": [
+        "20c32044e9d75436de6b55f4c53a2b1def8e7ab6eefe0d0346b66739898245d5",
+        "79cd7a1e2531762997aa6de28a9ba46cb8e6de99f05d4de6a8460814823dce7a",
+        "d1c34258ea8f1e571fccd6c07fd52b0e41d7a7702ef5e2e1d56431110b422a2e"
+      ],
       "text": "Careful, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

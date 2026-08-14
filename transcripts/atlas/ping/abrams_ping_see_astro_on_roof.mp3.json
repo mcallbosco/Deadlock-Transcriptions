@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_astro_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "a7f46242b63b65da285b4c781991c5e6be26c2c867f4e3fd6ca90cbe298a4840",
+      "sha256": [
+        "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
+        "a7f46242b63b65da285b4c781991c5e6be26c2c867f4e3fd6ca90cbe298a4840"
+      ],
       "text": "Holiday's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "488b7aa6387bfa009415a412b227e0037b8b05cdef9a9e07cfd79a986a2d7f11",
-      "text": "Holidays on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5fac772c488905537fbdd33dedf92430f82a7d976609e76bce29bf5553390458",
+      "sha256": [
+        "5fac772c488905537fbdd33dedf92430f82a7d976609e76bce29bf5553390458"
+      ],
       "text": "Holliday's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

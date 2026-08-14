@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_lets_go_green.mp3",
   "revisions": [
     {
-      "sha256": "bd1bff4d7f9c809d0b7847474b27ddd92f6066634356a1f68417ffe985dcbb5d",
-      "text": "Let's go green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f5fc6767f16a8e3ccdbc3dc9b44bdeca96c5d5cdb934eb7347183c0b79e866f",
+      "sha256": [
+        "6f5fc6767f16a8e3ccdbc3dc9b44bdeca96c5d5cdb934eb7347183c0b79e866f",
+        "bd1bff4d7f9c809d0b7847474b27ddd92f6066634356a1f68417ffe985dcbb5d"
+      ],
       "text": "Let's go Green!",
       "source": "official"
     }

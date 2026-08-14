@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_murphy_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "0e0a62521a5c3f24f8171c3abfbfd35c3e2b880f86336c196c7a5e401bdd0c9d",
-      "text": "Mom is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2c91118bebe0ae72dcc662b0ccfe63fa036180d842ed4525571c41b0034c236",
+      "sha256": [
+        "0e0a62521a5c3f24f8171c3abfbfd35c3e2b880f86336c196c7a5e401bdd0c9d",
+        "b2c91118bebe0ae72dcc662b0ccfe63fa036180d842ed4525571c41b0034c236"
+      ],
       "text": "Mom is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

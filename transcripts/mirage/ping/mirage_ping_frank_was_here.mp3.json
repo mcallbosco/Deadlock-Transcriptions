@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "db2b18ceba687d8db6aaa1e880408bad21921fddf34bfe704c8feb4000d823f2",
+      "sha256": [
+        "db2b18ceba687d8db6aaa1e880408bad21921fddf34bfe704c8feb4000d823f2"
+      ],
       "text": "Victor was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_lets_go_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "9aa147a9079ba3672ca097f1c9966de87a82bed1fa17506b27a4745bcee2eb70",
+      "sha256": [
+        "7e3abe342f35569253333669f2596114595877efac115c38acf9fdfbd64e37b3",
+        "9aa147a9079ba3672ca097f1c9966de87a82bed1fa17506b27a4745bcee2eb70"
+      ],
       "text": "Let's go to Greenwich!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e3abe342f35569253333669f2596114595877efac115c38acf9fdfbd64e37b3",
-      "text": "Let's go to Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

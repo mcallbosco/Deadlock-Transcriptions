@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_can_heal_hornet.mp3",
   "revisions": [
     {
-      "sha256": "6ec968091dd89a08d66a0a92ac2912bf789695afd16b37c3318f7e9c35ab1207",
+      "sha256": [
+        "5c3bd7cf748e1f666400530694241c90051769827664dd0ce53f787b5404ffd2",
+        "6ec968091dd89a08d66a0a92ac2912bf789695afd16b37c3318f7e9c35ab1207"
+      ],
       "text": "Vindicta, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5c3bd7cf748e1f666400530694241c90051769827664dd0ce53f787b5404ffd2",
-      "text": "Vindicta, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0abba96268df949a343847083cadd87a11a309e548472a6c617379b8cb3b97e",
+      "sha256": [
+        "a0abba96268df949a343847083cadd87a11a309e548472a6c617379b8cb3b97e"
+      ],
       "text": "vindicta, I can heal you!",
       "source": "official"
     }

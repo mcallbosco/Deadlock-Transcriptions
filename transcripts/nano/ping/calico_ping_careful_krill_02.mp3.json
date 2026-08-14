@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "eb81fcd346ef132f5183270b0970ee817a6f3fb4539b7ac3e65c2a4a0b18ce20",
-      "text": "Careful, crew.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35eea13af96c1bd4ae95419f27c4179f771616fcfa848e446deb68a2ffa0f95c",
+      "sha256": [
+        "35eea13af96c1bd4ae95419f27c4179f771616fcfa848e446deb68a2ffa0f95c",
+        "eb81fcd346ef132f5183270b0970ee817a6f3fb4539b7ac3e65c2a4a0b18ce20"
+      ],
       "text": "Careful, crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

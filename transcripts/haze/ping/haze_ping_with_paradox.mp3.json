@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_with_paradox.mp3",
   "revisions": [
     {
-      "sha256": "809b68586812e9f5e397102160546a92f3ae3715bb1be4c931ae0dae087674ae",
-      "text": "I'm with you, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6549ef3c5311bfc3f2453a75ad5b6536b6584e027ad60ebef198bde01f212a36",
-      "text": "I'm with you, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91034882042bf7096702dec42cf7e00d2ba32d20faece3822572ccbe12970532",
-      "text": "I'm with you, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7dfea358f23eaf0742b8ca78a46f34b74c64120e543c10703dea43ffbdb2524f",
+      "sha256": [
+        "6549ef3c5311bfc3f2453a75ad5b6536b6584e027ad60ebef198bde01f212a36",
+        "7dfea358f23eaf0742b8ca78a46f34b74c64120e543c10703dea43ffbdb2524f",
+        "809b68586812e9f5e397102160546a92f3ae3715bb1be4c931ae0dae087674ae",
+        "91034882042bf7096702dec42cf7e00d2ba32d20faece3822572ccbe12970532"
+      ],
       "text": "I'm with you, Paradox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/viscous_interrupt_01.mp3",
   "revisions": [
     {
-      "sha256": "d62a7d63109db310ca874cc02a35735e210b2b8497e685e9508681ccdb6fdcb9",
+      "sha256": [
+        "d62a7d63109db310ca874cc02a35735e210b2b8497e685e9508681ccdb6fdcb9"
+      ],
       "text": "Nuts today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6f4892561240ba95aaa33f4f2e3f010e0de5cefcbf148138c7393c0e89f8679d",
+      "sha256": [
+        "6f4892561240ba95aaa33f4f2e3f010e0de5cefcbf148138c7393c0e89f8679d"
+      ],
       "text": "Not today",
       "source": "official"
     }

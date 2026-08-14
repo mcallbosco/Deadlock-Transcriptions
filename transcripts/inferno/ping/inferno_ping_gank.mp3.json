@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "f46e0fc5868eb8c8a20dcaa799f434ccd855e639f61124bef135efc50befc622",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bb11dc89430e3fd25e71a2b852223abb2d186576659dd16a409628f2942c1ed9",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61ad5ce72d01b49b21dec189dd709d22b804bcbd2a83734a8404a0d7c0726bca",
+      "sha256": [
+        "61ad5ce72d01b49b21dec189dd709d22b804bcbd2a83734a8404a0d7c0726bca",
+        "bb11dc89430e3fd25e71a2b852223abb2d186576659dd16a409628f2942c1ed9",
+        "f46e0fc5868eb8c8a20dcaa799f434ccd855e639f61124bef135efc50befc622"
+      ],
       "text": "Going to gank",
       "source": "official"
     }

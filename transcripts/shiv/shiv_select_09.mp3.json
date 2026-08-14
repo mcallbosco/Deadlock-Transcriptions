@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_select_09.mp3",
   "revisions": [
     {
-      "sha256": "fbe7fc63ff9b550d43154800c8ddc852116fdb3965d668ede79a03b8d2ce0af4",
-      "text": "I got this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "daa77625b35fb20846849ad6e4b19775917bff328165ae3df94e4cdbb774ee0e",
-      "text": "I got this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b81f6f61dbce90a830a6a9527a4e627860dbce57cd5b5e2052224817117b5a53",
+      "sha256": [
+        "b81f6f61dbce90a830a6a9527a4e627860dbce57cd5b5e2052224817117b5a53",
+        "daa77625b35fb20846849ad6e4b19775917bff328165ae3df94e4cdbb774ee0e",
+        "fbe7fc63ff9b550d43154800c8ddc852116fdb3965d668ede79a03b8d2ce0af4"
+      ],
       "text": "I got this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

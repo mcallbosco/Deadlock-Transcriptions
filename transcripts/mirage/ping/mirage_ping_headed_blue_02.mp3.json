@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_headed_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "f9654c38c74f6744f93b9c0efdb40cf20719b819e9b8b93775c0e5e4a41c302a",
+      "sha256": [
+        "c21e44da31a3ad1b9ef5cd9ce5b97a52cab7c807c497edec19d51e0f1f9a97f1",
+        "f9654c38c74f6744f93b9c0efdb40cf20719b819e9b8b93775c0e5e4a41c302a"
+      ],
       "text": "Ready to Broadway!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c21e44da31a3ad1b9ef5cd9ce5b97a52cab7c807c497edec19d51e0f1f9a97f1",
-      "text": "Ready to Broadway!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16ec227307060b87723e81315a43c09901d5c74c8c43d402840f0ec08227253e",
+      "sha256": [
+        "16ec227307060b87723e81315a43c09901d5c74c8c43d402840f0ec08227253e"
+      ],
       "text": "Headed to Broadway",
       "source": "official"
     }

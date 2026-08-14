@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "0ad3d116a0a885f5f66dafc9c27dd1dc07fed19af7b5bb4b18e577d983201b1b",
+      "sha256": [
+        "0ad3d116a0a885f5f66dafc9c27dd1dc07fed19af7b5bb4b18e577d983201b1b"
+      ],
       "text": "Have a good day, everybody.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3ab57e19804fe955744ccf03f58b999b52884d65b8bab8536c4fab343277da42",
-      "text": "Have a good day, everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c19d123ac1bd416ced149ad7e4fb92028387f8e89fe40d176fd38adf3ee27031",
+      "sha256": [
+        "3ab57e19804fe955744ccf03f58b999b52884d65b8bab8536c4fab343277da42",
+        "c19d123ac1bd416ced149ad7e4fb92028387f8e89fe40d176fd38adf3ee27031"
+      ],
       "text": "Have a good day, everyone.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

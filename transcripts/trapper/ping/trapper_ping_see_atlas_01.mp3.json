@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "3f0d5fac193ed4b6048cc36be29d261f8e10d74ab2f37f9f639d957c1c5c860e",
+      "sha256": [
+        "3f0d5fac193ed4b6048cc36be29d261f8e10d74ab2f37f9f639d957c1c5c860e"
+      ],
       "text": "I see Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

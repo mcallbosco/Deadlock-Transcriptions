@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "26950e8816545271016ec2ab4cfa23040ad0ffdc0ee0e428a662391b7edf81ea",
+      "sha256": [
+        "26950e8816545271016ec2ab4cfa23040ad0ffdc0ee0e428a662391b7edf81ea"
+      ],
       "text": "I'm with you, crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8e011616c8665f4035fa052c765519350187501e3092beb3dc352a7b8cb5332a",
+      "sha256": [
+        "8e011616c8665f4035fa052c765519350187501e3092beb3dc352a7b8cb5332a"
+      ],
       "text": "I'm with you, Crib.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_astro_check_items.mp3",
   "revisions": [
     {
-      "sha256": "c024170990eb2ce7f8768fbf557df5aca03adbc1f8903a1206edc44eeebc9c01",
-      "text": "Check out what Holliday bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2645b01109ed0508b1b902048945ec2c2b5d65605e39264c4db5bf66757dcb5d",
+      "sha256": [
+        "2645b01109ed0508b1b902048945ec2c2b5d65605e39264c4db5bf66757dcb5d",
+        "c024170990eb2ce7f8768fbf557df5aca03adbc1f8903a1206edc44eeebc9c01"
+      ],
       "text": "Check out what Holliday bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

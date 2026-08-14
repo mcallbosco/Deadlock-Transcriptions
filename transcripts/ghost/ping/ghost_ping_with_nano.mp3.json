@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "061c5383aaea61065d32cf86cfb0de4cb37a0ac41845e7140a46c0c43dd8654d",
+      "sha256": [
+        "061c5383aaea61065d32cf86cfb0de4cb37a0ac41845e7140a46c0c43dd8654d"
+      ],
       "text": "I wish you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

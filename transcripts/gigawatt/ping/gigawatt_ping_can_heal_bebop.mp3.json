@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_can_heal_bebop.mp3",
   "revisions": [
     {
-      "sha256": "2bca70130a17d45148232692b0dff2d2ac4375231d8ccb50d6d30594c20224db",
-      "text": "Bebop, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "2bca70130a17d45148232692b0dff2d2ac4375231d8ccb50d6d30594c20224db",
+        "722ddea116a4edb6f79079b2165a8c1db4d8aae02c3a9c0e028ee9b18ee4559d"
+      ],
+      "text": "Bebop, I can heal you!",
+      "source": "official"
     },
     {
-      "sha256": "6c2bb419d6ab5ae793680620c22f4ea24eeb0d25c02a2567b4cbbfeade9585da",
+      "sha256": [
+        "6c2bb419d6ab5ae793680620c22f4ea24eeb0d25c02a2567b4cbbfeade9585da"
+      ],
       "text": "Bebop, I heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9352fb334603e6806e40f36ae98171d08ed1bbd1bf378ccfdfa4c3ed43072c3d",
+      "sha256": [
+        "9352fb334603e6806e40f36ae98171d08ed1bbd1bf378ccfdfa4c3ed43072c3d"
+      ],
       "text": "Bebop, I am here you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "722ddea116a4edb6f79079b2165a8c1db4d8aae02c3a9c0e028ee9b18ee4559d",
-      "text": "Bebop, I can heal you!",
-      "source": "official"
     }
   ]
 }

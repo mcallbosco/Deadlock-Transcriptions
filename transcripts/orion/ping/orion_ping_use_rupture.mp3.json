@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_use_rupture.mp3",
   "revisions": [
     {
-      "sha256": "6e093b7ef8f91504722cf31b8c7fac0d15e98d4ebc615b173bb20d606fa17a3a",
-      "text": "Ready to use decay!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcc5a1fd5a18c5459a7c42db09c1e7cee02cacec0fdaee1154eb1f0190003eb7",
-      "text": "Ready to use decay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3af9e4292e7397590944f316dced57e132245986ee8de5879104b79e6ea3cba6",
+      "sha256": [
+        "3af9e4292e7397590944f316dced57e132245986ee8de5879104b79e6ea3cba6",
+        "6e093b7ef8f91504722cf31b8c7fac0d15e98d4ebc615b173bb20d606fa17a3a",
+        "dcc5a1fd5a18c5459a7c42db09c1e7cee02cacec0fdaee1154eb1f0190003eb7"
+      ],
       "text": "Ready to use decay",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_upgrade_power2_08.mp3",
   "revisions": [
     {
-      "sha256": "f0953982db64a6b8792202b881209efbe439b0a1194caa07610669c5e7d4d627",
+      "sha256": [
+        "5189eab726232bc8a2d06593d8124e1d320fbd2352559b145172fb392620fcc3",
+        "f0953982db64a6b8792202b881209efbe439b0a1194caa07610669c5e7d4d627"
+      ],
       "text": "There is the fix.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5189eab726232bc8a2d06593d8124e1d320fbd2352559b145172fb392620fcc3",
-      "text": "There is the fix.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "206c4267c0fc2a72b1b8076de25fcf30194037c52021a2f3f705f9a33a7db1d3",
+      "sha256": [
+        "206c4267c0fc2a72b1b8076de25fcf30194037c52021a2f3f705f9a33a7db1d3"
+      ],
       "text": "There is a fix.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

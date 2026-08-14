@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_yamato_check_items.mp3",
   "revisions": [
     {
-      "sha256": "6eac21fe30bbf935e881806e4fdf81d27d1f05caf1a09c298927b4f0fab25b87",
+      "sha256": [
+        "6eac21fe30bbf935e881806e4fdf81d27d1f05caf1a09c298927b4f0fab25b87",
+        "d55e76d76d33c2aed0148ee60bad81dcb2657815f429d108ff68fbb692d1bfe8"
+      ],
       "text": "Check out what Yamato bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "72ddaa663b9ef8020baacc4d5f0106a72ead3c062886197069d028cc8887c558",
+      "sha256": [
+        "72ddaa663b9ef8020baacc4d5f0106a72ead3c062886197069d028cc8887c558"
+      ],
       "text": "Check out what Yamaha's got.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d55e76d76d33c2aed0148ee60bad81dcb2657815f429d108ff68fbb692d1bfe8",
-      "text": "Check out what Yamato bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

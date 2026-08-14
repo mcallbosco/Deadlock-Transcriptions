@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_ally_krill_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "76bcda544297e11f432ed5cba1973fa7d909fb25751abe8758e585b24708db0a",
+      "sha256": [
+        "0587994b070458c41a90da477f1a5d50771b4db105944714bc7508cf86d2e7fb",
+        "76bcda544297e11f432ed5cba1973fa7d909fb25751abe8758e585b24708db0a"
+      ],
       "text": "It's a good crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0587994b070458c41a90da477f1a5d50771b4db105944714bc7508cf86d2e7fb",
-      "text": "It's a good crew.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ada40652b00242eb30ef6a6dd06f4f08244cc65631b7ba1336882c7b75668344",
+      "sha256": [
+        "ada40652b00242eb30ef6a6dd06f4f08244cc65631b7ba1336882c7b75668344"
+      ],
       "text": "They took out Krill",
       "source": "official"
     }

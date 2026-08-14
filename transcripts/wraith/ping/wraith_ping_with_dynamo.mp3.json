@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "691326764fb54edd2825744bc5da543378f81e34152dea260a8097813c9d2bc8",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "402549ad00d0c63b0a048bfef97756fac57b4d198326575dd4a2cab7679bff7a",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e8b83e9fbca2c29554ed9239c37cbc86c1606dae7599a691905d5e85f3568de",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75f993d0a5b296e90f607b1a4f0e1c28874d22f8f97a687b9aea890a89421869",
+      "sha256": [
+        "402549ad00d0c63b0a048bfef97756fac57b4d198326575dd4a2cab7679bff7a",
+        "691326764fb54edd2825744bc5da543378f81e34152dea260a8097813c9d2bc8",
+        "75f993d0a5b296e90f607b1a4f0e1c28874d22f8f97a687b9aea890a89421869",
+        "9e8b83e9fbca2c29554ed9239c37cbc86c1606dae7599a691905d5e85f3568de"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

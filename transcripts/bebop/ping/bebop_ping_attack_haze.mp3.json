@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_attack_haze.mp3",
   "revisions": [
     {
-      "sha256": "b274aa81a8442108ceec21ccecede6fd35dff9baecd0dd441c34fc271b50c381",
+      "sha256": [
+        "b274aa81a8442108ceec21ccecede6fd35dff9baecd0dd441c34fc271b50c381"
+      ],
       "text": "Let's take a hike.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "314f3602f4be52b554b3c95357dca5c1333212ac83033d19042dbad9a797e6fd",
+      "sha256": [
+        "314f3602f4be52b554b3c95357dca5c1333212ac83033d19042dbad9a797e6fd"
+      ],
       "text": "Let's take out Haze",
       "source": "official"
     }

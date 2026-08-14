@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_astro_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "59c93d28dc13058389ad00acbc92d86d728bdafeecc2d87862871c64fd7c7aef",
-      "text": "Holliday's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "512f4f5c7214412123c76f76d43fd8affb28319b0ed54b1cb4073294c1f1074c",
+        "59c93d28dc13058389ad00acbc92d86d728bdafeecc2d87862871c64fd7c7aef"
+      ],
+      "text": "Holliday's on the bridge!",
+      "source": "official"
     },
     {
-      "sha256": "d4b22f01402b2c98fc3df7de3977691b6c30be59d882ce60b3b8b609c4a6d053",
+      "sha256": [
+        "d4b22f01402b2c98fc3df7de3977691b6c30be59d882ce60b3b8b609c4a6d053"
+      ],
       "text": "Holiday's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "512f4f5c7214412123c76f76d43fd8affb28319b0ed54b1cb4073294c1f1074c",
-      "text": "Holliday's on the bridge!",
-      "source": "official"
     }
   ]
 }

@@ -3,13 +3,16 @@
 Human-readable transcript and content configuration used to generate VLViewer data.
 
 Audio transcripts are stored below `transcripts/` at paths that mirror the audio files.
-Each JSON file retains one revision for each distinct audio SHA-256 value.
+Each schema-v3 revision shares one subtitle across an array of audio SHA-256 values.
+Grouping ignores case, Unicode punctuation, and whitespace; stored text is selected by
+source authority (`official`, then `manual`, then `generated`).
 
-Edit a revision's `text`, set `source` to `manual`, remove `model`, preview locally, then commit.
+Edit a revision's `text`, set `source` to `manual`, remove `model`, preview locally,
+then commit. Split a hash into a separate revision when one recording needs different text.
 
 ## Legacy contribution audit
 
-Stage 1 of the legacy migration is an audit only. It reads the legacy and v2 layouts
+Stage 1 of the legacy migration is an audit only. It reads the legacy and v3 layouts
 from pinned Git objects, identifies legacy text changes that still survive on the old
 branch, and reports whether each one has an exact target revision match. It does not
 edit `transcripts/` or `config/`.

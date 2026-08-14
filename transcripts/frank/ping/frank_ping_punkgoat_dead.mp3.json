@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_punkgoat_dead.mp3",
   "revisions": [
     {
-      "sha256": "ffa7170231d073bb15baf2c4000b2a5de51b417edf51bec2dcc0a64d411ea284",
+      "sha256": [
+        "ffa7170231d073bb15baf2c4000b2a5de51b417edf51bec2dcc0a64d411ea284"
+      ],
       "text": "Billy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

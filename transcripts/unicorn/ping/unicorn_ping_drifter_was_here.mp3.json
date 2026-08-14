@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_drifter_was_here.mp3",
   "revisions": [
     {
-      "sha256": "500799dadb5446e1b33dd4790b449d46591c4d95094a317c09afcf1836839afd",
+      "sha256": [
+        "500799dadb5446e1b33dd4790b449d46591c4d95094a317c09afcf1836839afd"
+      ],
       "text": "Grift was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

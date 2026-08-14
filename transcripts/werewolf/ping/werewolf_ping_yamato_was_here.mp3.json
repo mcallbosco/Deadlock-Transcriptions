@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "90bdfe007e098467e16940aad9c3c6c2f32d85cb02a3c4da2e1dd2be8b870f4e",
+      "sha256": [
+        "90bdfe007e098467e16940aad9c3c6c2f32d85cb02a3c4da2e1dd2be8b870f4e"
+      ],
       "text": "Yamato is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

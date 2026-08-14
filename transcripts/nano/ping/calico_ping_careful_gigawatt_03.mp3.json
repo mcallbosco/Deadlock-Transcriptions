@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_gigawatt_03.mp3",
   "revisions": [
     {
-      "sha256": "2820fdab9203a593c0f05158c2853873621ab21ed27562f40a68117f0dc2477b",
-      "text": "Careful, Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80e09d8aa0b3dcf71d8fd8043a4565fecb92e652cae0ac7db22d1f90b0a46b1b",
+      "sha256": [
+        "2820fdab9203a593c0f05158c2853873621ab21ed27562f40a68117f0dc2477b",
+        "80e09d8aa0b3dcf71d8fd8043a4565fecb92e652cae0ac7db22d1f90b0a46b1b"
+      ],
       "text": "Careful, Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

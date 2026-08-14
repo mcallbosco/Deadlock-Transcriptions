@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "ceccfbddc089f92aacba7e6d2eae5ff06e93fd044fcb99e40c79a7dc47f629ae",
+      "sha256": [
+        "ceccfbddc089f92aacba7e6d2eae5ff06e93fd044fcb99e40c79a7dc47f629ae"
+      ],
       "text": "I have a lot of alligator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7f48991594e1104664712a8b0fa49763e4e58aa5e9cc2ee94e17e0077c21780d",
+      "sha256": [
+        "1206e7cb5250df36e762ae5dbeb75d6563f10fee7f5c43592c493eb06c79ed09",
+        "7f48991594e1104664712a8b0fa49763e4e58aa5e9cc2ee94e17e0077c21780d"
+      ],
       "text": "The winds will protect me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1206e7cb5250df36e762ae5dbeb75d6563f10fee7f5c43592c493eb06c79ed09",
-      "text": "The winds will protect me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "101ccce17046942fcf980e05f086348614b2367e5919b77e20a81faac8209359",
+      "sha256": [
+        "101ccce17046942fcf980e05f086348614b2367e5919b77e20a81faac8209359"
+      ],
       "text": "The djinn will mark them…",
       "source": "official"
     }

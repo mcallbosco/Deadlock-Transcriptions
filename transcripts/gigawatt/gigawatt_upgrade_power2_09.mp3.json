@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_upgrade_power2_09.mp3",
   "revisions": [
     {
-      "sha256": "27082bc213165a4e2a8436f855e41aafa1bed62e62c0e7190e055bc179a71bbf",
+      "sha256": [
+        "27082bc213165a4e2a8436f855e41aafa1bed62e62c0e7190e055bc179a71bbf"
+      ],
       "text": "I will be denied.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b563bc2e80fbba944d92946836601f34480f694a20f091ec393dcd5312e3cf64",
-      "text": "I won't be denied.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03201d2cc26abe5c83dc0370ec7d089ae42becec86f88183aa8ac6702df663a9",
-      "text": "I won't be denied.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e9b93090409e21cfb612ad594c086773ef304c26a948a2ff269f2cf0560a193",
+      "sha256": [
+        "03201d2cc26abe5c83dc0370ec7d089ae42becec86f88183aa8ac6702df663a9",
+        "9e9b93090409e21cfb612ad594c086773ef304c26a948a2ff269f2cf0560a193",
+        "b563bc2e80fbba944d92946836601f34480f694a20f091ec393dcd5312e3cf64"
+      ],
       "text": "I won't be denied",
       "source": "official"
     }

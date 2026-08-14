@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_tengu_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "be4c1c0ef5fede066c9f0cf3bf5ae57592a443082b1b448e4fddfeb2ef866d80",
+      "sha256": [
+        "be4c1c0ef5fede066c9f0cf3bf5ae57592a443082b1b448e4fddfeb2ef866d80"
+      ],
       "text": "I am a monster.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "99a9ef91b06d9af4a2f0fc065b9043b158169d8061a8cc78d3cd60b7886f2e14",
+      "sha256": [
+        "673f85997b7c189d2ca0337ae7a8b7af19c90e8c4d3943110d42939b47ff78e6",
+        "99a9ef91b06d9af4a2f0fc065b9043b158169d8061a8cc78d3cd60b7886f2e14"
+      ],
       "text": "Life is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "673f85997b7c189d2ca0337ae7a8b7af19c90e8c4d3943110d42939b47ff78e6",
-      "text": "Life is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f512c3e7f5627d944dff5910ca4f59375ad215e5ba41ffa2cdeee0b054187c1",
+      "sha256": [
+        "6f512c3e7f5627d944dff5910ca4f59375ad215e5ba41ffa2cdeee0b054187c1"
+      ],
       "text": "ivy's on the roof!",
       "source": "official"
     }

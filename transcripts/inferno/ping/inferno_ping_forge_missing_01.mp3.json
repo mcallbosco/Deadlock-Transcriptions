@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a368484c819125c9bfc31d2692ad93886fa9f031de3187506bc45d393ccfcf99",
+      "sha256": [
+        "a368484c819125c9bfc31d2692ad93886fa9f031de3187506bc45d393ccfcf99",
+        "c88509cc1c44731413e7c698949e43e8daa7e4c1873bc7261da0079daa994af4"
+      ],
       "text": "McGinnis is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c88509cc1c44731413e7c698949e43e8daa7e4c1873bc7261da0079daa994af4",
-      "text": "McGinnis is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c4c1a983e082c868373863c76934be5821081c00d4b731f02f4518b6aa2d459",
+      "sha256": [
+        "1c4c1a983e082c868373863c76934be5821081c00d4b731f02f4518b6aa2d459"
+      ],
       "text": "McGinnis's missing",
       "source": "official"
     }

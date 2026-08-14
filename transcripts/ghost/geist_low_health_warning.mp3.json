@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "c1f2fdf119c6c18b454175a45c021b6e0dc9376eef8699d6f55ab50c3ea84cce",
-      "text": "I need to heal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ec8d8e95f2b11bbe29135a6c0869c0708a987303841cfc3df718d30f1d7000f",
+      "sha256": [
+        "5ec8d8e95f2b11bbe29135a6c0869c0708a987303841cfc3df718d30f1d7000f",
+        "c1f2fdf119c6c18b454175a45c021b6e0dc9376eef8699d6f55ab50c3ea84cce"
+      ],
       "text": "I need to heal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

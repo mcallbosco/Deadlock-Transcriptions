@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_good_game_01.mp3",
   "revisions": [
     {
-      "sha256": "a83ca149ef76f124d396e8f715a7d281359a65311e2516f253d7b798d08c1468",
-      "text": "That was fun.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ab1cee8a3128c222549046f8a06583f67ba714e01638bfa9eabc0f43342b06e",
+      "sha256": [
+        "3ab1cee8a3128c222549046f8a06583f67ba714e01638bfa9eabc0f43342b06e",
+        "a83ca149ef76f124d396e8f715a7d281359a65311e2516f253d7b798d08c1468"
+      ],
       "text": "That was fun",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "f427a6637af141ec767b1e16dd3a483aa6bc445a0ea64e9ed34273e1c8e6a11a",
+      "sha256": [
+        "d985b4f105bab640ce0de429d4db01ecef7cfaa576095bd93e4486e2d42d0d15",
+        "f427a6637af141ec767b1e16dd3a483aa6bc445a0ea64e9ed34273e1c8e6a11a"
+      ],
       "text": "I'm with you, Haze!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d985b4f105bab640ce0de429d4db01ecef7cfaa576095bd93e4486e2d42d0d15",
-      "text": "I'm with you, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

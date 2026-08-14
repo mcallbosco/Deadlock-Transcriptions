@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_tengu.mp3",
   "revisions": [
     {
-      "sha256": "9d3e48b5b4928a29c0cc91a184cb10bdaacc3c6f5506ed91bb1e180e5c620d39",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9ec09160c425de358cf4e99d8d6a8f8aabd3aa52faa30d0e9ff19055a1530e3",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28e5baff0d12e332114ce768b8d21afa0189528e404f9db2314fafb059cee327",
+      "sha256": [
+        "28e5baff0d12e332114ce768b8d21afa0189528e404f9db2314fafb059cee327",
+        "9d3e48b5b4928a29c0cc91a184cb10bdaacc3c6f5506ed91bb1e180e5c620d39",
+        "b9ec09160c425de358cf4e99d8d6a8f8aabd3aa52faa30d0e9ff19055a1530e3"
+      ],
       "text": "I see ivy",
       "source": "official"
     }

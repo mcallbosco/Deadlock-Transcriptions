@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "583161ef0cbcd6714786aaae30e52fb3849bda2b2a740e9c75cf515ed9ab2553",
-      "text": "Careful, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0175d69ab30e4da979d5e664035e52a9482d554d3310da65d1e799826f8ab202",
-      "text": "Careful Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbb18afbedee6a01808ea5216da7512efa3e9537601c61c679617b3afe7c8a9f",
+      "sha256": [
+        "0175d69ab30e4da979d5e664035e52a9482d554d3310da65d1e799826f8ab202",
+        "583161ef0cbcd6714786aaae30e52fb3849bda2b2a740e9c75cf515ed9ab2553",
+        "fbb18afbedee6a01808ea5216da7512efa3e9537601c61c679617b3afe7c8a9f"
+      ],
       "text": "Careful, Mirage…",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_warp_stone_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "7b9959c162cde2240dca47a94b6193c64e44fc55d08a5d49a15836be5c30071f",
+      "sha256": [
+        "7b9959c162cde2240dca47a94b6193c64e44fc55d08a5d49a15836be5c30071f"
+      ],
       "text": "What Stone's almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3e71997049fc7aee3c7606eace58516baa84efdc039b7e9a28ad88962fb3a43f",
+      "sha256": [
+        "3e71997049fc7aee3c7606eace58516baa84efdc039b7e9a28ad88962fb3a43f"
+      ],
       "text": "Warp Stone's almost ready.",
       "source": "official"
     }

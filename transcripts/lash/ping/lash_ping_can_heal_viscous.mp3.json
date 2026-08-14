@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_can_heal_viscous.mp3",
   "revisions": [
     {
-      "sha256": "e83dc24f50c64029296e56ae08f8c4a49b672e2458a307f9b1090573336add6a",
+      "sha256": [
+        "2128c8c683712b682128b4e6504b1c32b2822a125d63c09948f51e9dea111b66",
+        "dd9524af0fa00a044ea1d4e63bca169df63ae6056f38d8bd0ef7457e670a401a",
+        "e83dc24f50c64029296e56ae08f8c4a49b672e2458a307f9b1090573336add6a"
+      ],
       "text": "This is because I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2128c8c683712b682128b4e6504b1c32b2822a125d63c09948f51e9dea111b66",
-      "text": "This is because I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd9524af0fa00a044ea1d4e63bca169df63ae6056f38d8bd0ef7457e670a401a",
-      "text": "This is because I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce9722e4b977fee1f0337501747170999599f651fe267c637076fc202c673dcd",
+      "sha256": [
+        "ce9722e4b977fee1f0337501747170999599f651fe267c637076fc202c673dcd"
+      ],
       "text": "Viscous, I can heal you!",
       "source": "official"
     }

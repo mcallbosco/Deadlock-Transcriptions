@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_ghost.mp3",
   "revisions": [
     {
-      "sha256": "165cb27bf60f30d32e73f2ec23d4a4b5a6e9d59fa0ea9af3244e9d5e307a148c",
+      "sha256": [
+        "165cb27bf60f30d32e73f2ec23d4a4b5a6e9d59fa0ea9af3244e9d5e307a148c"
+      ],
       "text": "Guys, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2af55d3f78c014ccbcd0c77c8ffe1e7f9db8ab91f43d966436e51c2d9aa368b2",
+      "sha256": [
+        "2af55d3f78c014ccbcd0c77c8ffe1e7f9db8ab91f43d966436e51c2d9aa368b2"
+      ],
       "text": "Geist, I can heal you!",
       "source": "official"
     }

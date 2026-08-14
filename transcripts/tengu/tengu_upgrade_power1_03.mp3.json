@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_upgrade_power1_03.mp3",
   "revisions": [
     {
-      "sha256": "333981954dcecdb8e7273236d238b6f8b9bc72994b77f52ce2d4d76338d4e114",
-      "text": "It's not fancy, but it gets the job done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6eceeba42b0b10536b3ee7cb09fcb0cab2601c2b6ea5ababb535f562a95a864",
+      "sha256": [
+        "333981954dcecdb8e7273236d238b6f8b9bc72994b77f52ce2d4d76338d4e114",
+        "f6eceeba42b0b10536b3ee7cb09fcb0cab2601c2b6ea5ababb535f562a95a864"
+      ],
       "text": "It's not fancy but it gets the job done...",
       "source": "official"
     }

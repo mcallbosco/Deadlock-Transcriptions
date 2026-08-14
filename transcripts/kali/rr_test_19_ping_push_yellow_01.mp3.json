@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "e642a5bb3fcb471e3d28359d6f1ac20a1a86d58d848457094c4ad7ff2b23d68b",
-      "text": "Let's push yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "244871d6008712d0b1ad0ee20269a279b5c555dd0b6b24b77e98e32d35dabe9f",
-      "text": "Let's push yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce5955712253d8b12cf140d8fd815f9229d23911445358543e99187e799cd33d",
+      "sha256": [
+        "244871d6008712d0b1ad0ee20269a279b5c555dd0b6b24b77e98e32d35dabe9f",
+        "ce5955712253d8b12cf140d8fd815f9229d23911445358543e99187e799cd33d",
+        "e642a5bb3fcb471e3d28359d6f1ac20a1a86d58d848457094c4ad7ff2b23d68b"
+      ],
       "text": "Let's push yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

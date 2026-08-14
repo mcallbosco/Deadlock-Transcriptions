@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_grey_talon_1.mp3",
   "revisions": [
     {
-      "sha256": "41d416f7a91be25e668ba79b5dd9e8e63f76f4c0d4211c28a671cf0ea829d64d",
-      "text": "I saw Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49e51d4237f3335ca6fbf86937d4935688c069546442c011638895254a4e72be",
+      "sha256": [
+        "41d416f7a91be25e668ba79b5dd9e8e63f76f4c0d4211c28a671cf0ea829d64d",
+        "49e51d4237f3335ca6fbf86937d4935688c069546442c011638895254a4e72be"
+      ],
       "text": "I saw Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

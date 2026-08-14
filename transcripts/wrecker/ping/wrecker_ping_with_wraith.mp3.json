@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_wraith.mp3",
   "revisions": [
     {
-      "sha256": "870be643ac5ad668861c62bce781982e7935bd7ce048f12647ffb0ff2bd96338",
-      "text": "I'm with you, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1fda52e5c85e5774beec8baa02f733936d045d03e6fb0484b7545c781d64e557",
+      "sha256": [
+        "1fda52e5c85e5774beec8baa02f733936d045d03e6fb0484b7545c781d64e557",
+        "870be643ac5ad668861c62bce781982e7935bd7ce048f12647ffb0ff2bd96338"
+      ],
       "text": "I'm with you, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

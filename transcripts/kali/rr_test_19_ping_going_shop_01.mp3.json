@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_going_shop_01.mp3",
   "revisions": [
     {
-      "sha256": "bafd55cf85b8ad14fa738ac705a2a21074beaa1d5b189146fcdc25724ba1e174",
-      "text": "Going to shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e509aab284610acd85d11e831f98bd106d978cd4fc63c46d4540c5925128178e",
-      "text": "Going to shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af8014a0b298623bb575bbe6db84bc7481bb4e6c284c703331bf3f72f80c95c9",
+      "sha256": [
+        "af8014a0b298623bb575bbe6db84bc7481bb4e6c284c703331bf3f72f80c95c9",
+        "bafd55cf85b8ad14fa738ac705a2a21074beaa1d5b189146fcdc25724ba1e174",
+        "e509aab284610acd85d11e831f98bd106d978cd4fc63c46d4540c5925128178e"
+      ],
       "text": "Going to shop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_can_heal_viscous.mp3",
   "revisions": [
     {
-      "sha256": "1efd230c468cbfdd3c6fa17d75af7ea1484a716c6acd8d1b6d06a3941079831e",
+      "sha256": [
+        "1efd230c468cbfdd3c6fa17d75af7ea1484a716c6acd8d1b6d06a3941079831e"
+      ],
       "text": "This is, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "630a37b88cb9b7bc2ae4e1466a153de56f1d3e812855d71e92e000c1b4c59edc",
+      "sha256": [
+        "630a37b88cb9b7bc2ae4e1466a153de56f1d3e812855d71e92e000c1b4c59edc"
+      ],
       "text": "This gets, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

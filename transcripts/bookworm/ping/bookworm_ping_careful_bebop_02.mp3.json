@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "6849bed49fb53189f9a67cb066a8292b0e635bfc0053a287fce92b21781e8bd7",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac32ec531a107d46d8f54ed86ad2bdf584ad6c5f58f0980090e2b3d509b327a3",
+      "sha256": [
+        "6849bed49fb53189f9a67cb066a8292b0e635bfc0053a287fce92b21781e8bd7",
+        "ac32ec531a107d46d8f54ed86ad2bdf584ad6c5f58f0980090e2b3d509b327a3"
+      ],
       "text": "Careful, Bebop.",
       "source": "official"
     }

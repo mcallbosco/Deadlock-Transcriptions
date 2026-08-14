@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_krill_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "067cca770fe4c7eb1ba1d9530b61cdceaf398e72bdbf7c5ba642aeb5877d93fd",
+      "sha256": [
+        "067cca770fe4c7eb1ba1d9530b61cdceaf398e72bdbf7c5ba642aeb5877d93fd"
+      ],
       "text": "Plug on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "34d901649a4cb6dcb9c7c54de0cd8d1cd5a2da1fb1f061b930834db601e91624",
+      "sha256": [
+        "34d901649a4cb6dcb9c7c54de0cd8d1cd5a2da1fb1f061b930834db601e91624"
+      ],
       "text": "Krill's on the roof!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b6f21c2813e0063c2fc8ac36f4a43195a19d9db419acd6db07494397548af52b",
+      "sha256": [
+        "b6f21c2813e0063c2fc8ac36f4a43195a19d9db419acd6db07494397548af52b"
+      ],
       "text": "Mirage is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

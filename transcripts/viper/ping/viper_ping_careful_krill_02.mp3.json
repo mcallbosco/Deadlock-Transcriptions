@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "1ac7b272c9223e594b599170427a80c59ca3aca6fd8ddc9b1c1ff51ce049e756",
-      "text": "Careful, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff410eac1628f7be71c3a9b582c93faa206fd1d373e3be14ecf8eee2db5e519e",
-      "text": "Careful, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1293993661823f7588197406d7228d45c143fa49eab95a0bfd76619ab11d58e",
+      "sha256": [
+        "1ac7b272c9223e594b599170427a80c59ca3aca6fd8ddc9b1c1ff51ce049e756",
+        "d1293993661823f7588197406d7228d45c143fa49eab95a0bfd76619ab11d58e",
+        "ff410eac1628f7be71c3a9b582c93faa206fd1d373e3be14ecf8eee2db5e519e"
+      ],
       "text": "Careful, Krill",
       "source": "official"
     }

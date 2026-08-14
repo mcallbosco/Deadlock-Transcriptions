@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_bebop_dead.mp3",
   "revisions": [
     {
-      "sha256": "17f27cba83c2497c353775d8f22ad955fcc26695df7ea969278af221c1669ea6",
+      "sha256": [
+        "17f27cba83c2497c353775d8f22ad955fcc26695df7ea969278af221c1669ea6"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

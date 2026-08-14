@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_stasis_bomb_02.mp3",
   "revisions": [
     {
-      "sha256": "0c55c064be42b665f9a8b1906a95482e3393b93e81dbf6e5233a03807760fe04",
+      "sha256": [
+        "0c55c064be42b665f9a8b1906a95482e3393b93e81dbf6e5233a03807760fe04"
+      ],
       "text": "On.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b444158dcd82bc7aea29dfcf367c7092e6d7b23ff8c3da0d9c5ffee01be5a444",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59b945f35bc7d91deca98f048c7fce4cd3b10ea3f6d46321cd6acf35b0aea870",
+      "sha256": [
+        "59b945f35bc7d91deca98f048c7fce4cd3b10ea3f6d46321cd6acf35b0aea870",
+        "b444158dcd82bc7aea29dfcf367c7092e6d7b23ff8c3da0d9c5ffee01be5a444"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

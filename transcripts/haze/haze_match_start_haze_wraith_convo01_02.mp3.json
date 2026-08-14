@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_match_start_haze_wraith_convo01_02.mp3",
   "revisions": [
     {
-      "sha256": "0b3d4afd2aee6b6b1e2940d4b2f754221597e80f45ec099aa5ec6418ddddfea5",
-      "text": "The OSIC isn't concerned with your little casino, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cfdd9f9ffbb05e2e3deeacbc2ce6b82bcaee25ae41514992ab4a757bda192f21",
-      "text": "The OSIC isn't concerned with your little casino race.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be18eac1cf21baf36bd44da7d898fa401f45d1aac48c454948bbbb64370a87ba",
-      "text": "The OSIC isn't concerned with your little casino race.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ecbb0be8eb253375c2479e90a147aa1abaa0ec02eea9a957643319b4d2892ab",
-      "text": "The OSIC isn't concerned with your little casino race.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1676ae8c069b91c13defe0d8f1eef362fa77c1e17b34df4124797e75b0244295",
+      "sha256": [
+        "0b3d4afd2aee6b6b1e2940d4b2f754221597e80f45ec099aa5ec6418ddddfea5",
+        "1676ae8c069b91c13defe0d8f1eef362fa77c1e17b34df4124797e75b0244295"
+      ],
       "text": "The OSIC isn't concerned with your little casino, Wraith.",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "8ecbb0be8eb253375c2479e90a147aa1abaa0ec02eea9a957643319b4d2892ab",
+        "be18eac1cf21baf36bd44da7d898fa401f45d1aac48c454948bbbb64370a87ba",
+        "cfdd9f9ffbb05e2e3deeacbc2ce6b82bcaee25ae41514992ab4a757bda192f21"
+      ],
+      "text": "The OSIC isn't concerned with your little casino race.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

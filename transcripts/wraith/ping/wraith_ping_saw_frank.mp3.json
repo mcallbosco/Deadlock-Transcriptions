@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_frank.mp3",
   "revisions": [
     {
-      "sha256": "1484cb42c9713358ef711b253b9e0f515c825771106697c27181e0967cb59d27",
+      "sha256": [
+        "1484cb42c9713358ef711b253b9e0f515c825771106697c27181e0967cb59d27"
+      ],
       "text": "I saw Victor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

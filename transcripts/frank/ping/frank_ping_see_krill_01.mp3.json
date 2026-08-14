@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "563612d689e6bcebf3135044c1ed9c5b85faa7bb963b580970ed981aafd325e1",
+      "sha256": [
+        "563612d689e6bcebf3135044c1ed9c5b85faa7bb963b580970ed981aafd325e1"
+      ],
       "text": "Nice to kill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5f7661e65fb2d09c0a24c07b8e4f8675ee23c3e4e74bed1470619fe795e88da0",
+      "sha256": [
+        "5f7661e65fb2d09c0a24c07b8e4f8675ee23c3e4e74bed1470619fe795e88da0"
+      ],
       "text": "I see Krill.",
       "source": "official"
     }

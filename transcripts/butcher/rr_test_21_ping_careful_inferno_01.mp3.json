@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_inferno_01.mp3",
   "revisions": [
     {
-      "sha256": "9e9dda7e2eb5dab01b1f740f15116f2f9472661292a017801875e8e5542fa421",
-      "text": "Careful, Inferno!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4faf660f2e033eb7408fa1578c0df78afc2357837a6c91cb6907740d68a2ae67",
-      "text": "Careful, Inferno!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "084bae5b72654d14484f6521352657580d74d2928138a0848b45982cbf62d64b",
+      "sha256": [
+        "084bae5b72654d14484f6521352657580d74d2928138a0848b45982cbf62d64b",
+        "4faf660f2e033eb7408fa1578c0df78afc2357837a6c91cb6907740d68a2ae67",
+        "9e9dda7e2eb5dab01b1f740f15116f2f9472661292a017801875e8e5542fa421"
+      ],
       "text": "Careful, Inferno!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

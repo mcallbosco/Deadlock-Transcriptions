@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_viper.mp3",
   "revisions": [
     {
-      "sha256": "9519aa711ad9669e197021ac9704270b301195cf435c06aa3b8a60900b1f21be",
-      "text": "Ignore Viper.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfa521c1912db8355747d9d54ddd345977f3bc324e3c7a6e55d21c726bd64f31",
+      "sha256": [
+        "9519aa711ad9669e197021ac9704270b301195cf435c06aa3b8a60900b1f21be",
+        "bfa521c1912db8355747d9d54ddd345977f3bc324e3c7a6e55d21c726bd64f31"
+      ],
       "text": "Ignore Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

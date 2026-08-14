@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "d0d03c0fe76dbde78ef72b7a077f2d12a0e17af85b7e3ecf08a5ef92aac504d4",
+      "sha256": [
+        "d0d03c0fe76dbde78ef72b7a077f2d12a0e17af85b7e3ecf08a5ef92aac504d4"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

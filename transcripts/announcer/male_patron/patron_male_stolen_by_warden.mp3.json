@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_stolen_by_warden.mp3",
   "revisions": [
     {
-      "sha256": "3bed475451a25228dd243457366bd0aa83574386455d569eeb3f690207d5052c",
+      "sha256": [
+        "3bed475451a25228dd243457366bd0aa83574386455d569eeb3f690207d5052c"
+      ],
       "text": "Warden stole the rejuvenator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

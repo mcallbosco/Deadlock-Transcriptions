@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_careful_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "d384a99a0072e3c670553438860c89024b7504fb620330a3ccd6ed830f268033",
-      "text": "Careful, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc22748c4333b1cd06212215f199bb0cddc1e8123602271dcb8fc526a5711f06",
+      "sha256": [
+        "d384a99a0072e3c670553438860c89024b7504fb620330a3ccd6ed830f268033",
+        "fc22748c4333b1cd06212215f199bb0cddc1e8123602271dcb8fc526a5711f06"
+      ],
       "text": "Careful, Abrams…",
       "source": "official"
     }

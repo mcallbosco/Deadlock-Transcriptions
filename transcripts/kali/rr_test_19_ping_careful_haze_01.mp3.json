@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "5534d91bfd41e9ed714d3ad997973a74d56c9cab3326f7c4c061dadc745dc736",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a154396bf0029c5f0b0cfe1a9259ded726832212b68d814ce128b5889101f1e2",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3356e6b64a5ca609d8db61775e22f638cc521cfd3f54e9ffc9dfa8c36a1e6dd4",
+      "sha256": [
+        "3356e6b64a5ca609d8db61775e22f638cc521cfd3f54e9ffc9dfa8c36a1e6dd4",
+        "5534d91bfd41e9ed714d3ad997973a74d56c9cab3326f7c4c061dadc745dc736",
+        "a154396bf0029c5f0b0cfe1a9259ded726832212b68d814ce128b5889101f1e2"
+      ],
       "text": "Careful, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

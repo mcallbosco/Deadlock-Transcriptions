@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_magician_01.mp3",
   "revisions": [
     {
-      "sha256": "e0fbd7b80be77b3d130b4a42918f0ce47a7235e30de2346c27d70ac948146584",
+      "sha256": [
+        "e0fbd7b80be77b3d130b4a42918f0ce47a7235e30de2346c27d70ac948146584"
+      ],
       "text": "I see Magician.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9bfcbfdd5f578a2ba394c08e797744c33e02ef5aa427d0f62a7a137bfe0524a5",
+      "sha256": [
+        "9bfcbfdd5f578a2ba394c08e797744c33e02ef5aa427d0f62a7a137bfe0524a5"
+      ],
       "text": "I see Sinclair",
       "source": "official"
     }

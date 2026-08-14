@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_kelvin_03.mp3",
   "revisions": [
     {
-      "sha256": "c8f2fb678ee6e0292c0b25ac01ae7609ecec6428cebad0416e7b8e5a69e420f1",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d6e74626cfb4a7b00df71b6314f15e206c11f4a3abe54a6ca027ea50fe5c1d58",
+      "sha256": [
+        "c8f2fb678ee6e0292c0b25ac01ae7609ecec6428cebad0416e7b8e5a69e420f1",
+        "d6e74626cfb4a7b00df71b6314f15e206c11f4a3abe54a6ca027ea50fe5c1d58"
+      ],
       "text": "Careful, Kelvin!",
       "source": "official"
     }

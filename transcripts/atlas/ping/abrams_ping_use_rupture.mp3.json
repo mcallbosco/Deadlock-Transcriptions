@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_use_rupture.mp3",
   "revisions": [
     {
-      "sha256": "d0a103ed71062d6606c453dbd75cdfc46d599760c4b63f660e73cf23b5d20a71",
-      "text": "Ready to use Rupture.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e56a714e584fe4833d91d4965bb4bca696f91b5e0e02c73c812eddbd39b1ce1",
-      "text": "Ready to use rupture.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30e732f9d99783aa88b25cd5b3504819ffe1d53fc4c593e0f36004f43fa8a7c3",
+      "sha256": [
+        "30e732f9d99783aa88b25cd5b3504819ffe1d53fc4c593e0f36004f43fa8a7c3",
+        "6e56a714e584fe4833d91d4965bb4bca696f91b5e0e02c73c812eddbd39b1ce1",
+        "d0a103ed71062d6606c453dbd75cdfc46d599760c4b63f660e73cf23b5d20a71"
+      ],
       "text": "Ready to use rupture.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

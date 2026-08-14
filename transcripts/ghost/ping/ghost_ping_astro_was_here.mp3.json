@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_astro_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a865d10c74701edfb5a5a699d7f9f756ca6f1abf289940a7c27dd02846b7daac",
+      "sha256": [
+        "a865d10c74701edfb5a5a699d7f9f756ca6f1abf289940a7c27dd02846b7daac"
+      ],
       "text": "Holiday was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_be_careful_01.mp3",
   "revisions": [
     {
-      "sha256": "f31e425c594a95a2f92b5f894a379092d881c042953536a9b35154c778a88d56",
-      "text": "They could be anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50d0fff2e0fb82331ab2148c48036d2932d66e5855d12da5dc2881f0815928ba",
-      "text": "They could be anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2d86f164c11c1f4cbe4e2f71bc42a4ec209736b81b379134355f8bc148b572f",
-      "text": "They could be anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "274bc5d115398838425c604cb0c320138d9da42ff743f641f499952206be5f61",
+      "sha256": [
+        "274bc5d115398838425c604cb0c320138d9da42ff743f641f499952206be5f61",
+        "50d0fff2e0fb82331ab2148c48036d2932d66e5855d12da5dc2881f0815928ba",
+        "b2d86f164c11c1f4cbe4e2f71bc42a4ec209736b81b379134355f8bc148b572f",
+        "f31e425c594a95a2f92b5f894a379092d881c042953536a9b35154c778a88d56"
+      ],
       "text": "They could be anywhere…",
       "source": "official"
     }

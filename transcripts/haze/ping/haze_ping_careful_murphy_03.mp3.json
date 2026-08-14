@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_murphy_03.mp3",
   "revisions": [
     {
-      "sha256": "0bc74137e6e4e99bf38a56ae4c9edbecdd45648b0999dafe1530044400851b60",
+      "sha256": [
+        "0bc74137e6e4e99bf38a56ae4c9edbecdd45648b0999dafe1530044400851b60"
+      ],
       "text": "Careful, Marlene.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d46f70b93e4663f30f59267571c8b26ac20f51b0b383ae423fd70f0cbe508b85",
-      "text": "Careful, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ceb5316320891bf90873e1ff4b521b42d7ad59a35540e1c9d33f1c390c395a05",
-      "text": "Careful, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0103a91b77cf209f152259faf04ee5e6945cd96992b578b11f4dd30f8b4b9b5",
+      "sha256": [
+        "a0103a91b77cf209f152259faf04ee5e6945cd96992b578b11f4dd30f8b4b9b5",
+        "ceb5316320891bf90873e1ff4b521b42d7ad59a35540e1c9d33f1c390c395a05",
+        "d46f70b93e4663f30f59267571c8b26ac20f51b0b383ae423fd70f0cbe508b85"
+      ],
       "text": "Careful, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

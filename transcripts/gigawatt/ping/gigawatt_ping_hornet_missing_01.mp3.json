@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_hornet_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c03c2e65350e3624d06e74613518bd8ef7f90204786ea67d61e7510900a44b16",
-      "text": "Vindicta's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f7cecd3756a45454f498ddd382a8873cedf7e6698b2f983658e31a8d9c288804",
-      "text": "Vindicta's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bae763785484123534946edc48a3c906663c8f086ec5911a16778cc6473fe371",
+      "sha256": [
+        "bae763785484123534946edc48a3c906663c8f086ec5911a16778cc6473fe371",
+        "c03c2e65350e3624d06e74613518bd8ef7f90204786ea67d61e7510900a44b16",
+        "f7cecd3756a45454f498ddd382a8873cedf7e6698b2f983658e31a8d9c288804"
+      ],
       "text": "vindicta's missing",
       "source": "official"
     }

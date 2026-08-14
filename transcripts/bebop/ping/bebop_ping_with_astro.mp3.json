@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "1d2efd4e8c8141fd392ca2639ef71528c9d7c36a947f2d525ef1c8dc8b2bd584",
+      "sha256": [
+        "1d2efd4e8c8141fd392ca2639ef71528c9d7c36a947f2d525ef1c8dc8b2bd584"
+      ],
       "text": "I'm with you all the way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69441d66069143b422d9be51bd0e764ca34c9133d51681c1033885eaa9a5f137",
+      "sha256": [
+        "69441d66069143b422d9be51bd0e764ca34c9133d51681c1033885eaa9a5f137"
+      ],
       "text": "I'm with you, Holliday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

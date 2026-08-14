@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "80d759d53f35e0f9c597b3c80e2b926cb1741e917267c1e236e919e4c9c5868a",
+      "sha256": [
+        "80d759d53f35e0f9c597b3c80e2b926cb1741e917267c1e236e919e4c9c5868a"
+      ],
       "text": "I'm with you, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_warden_dead.mp3",
   "revisions": [
     {
-      "sha256": "c356c56dda482ff9bce721adce915e216659148ddec15d59e48a350f2dd7f413",
-      "text": "Warden is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36f37f6a6c22ca41262ceb705019c5f84b80226f85a1018869bd05d244fc9e59",
-      "text": "Warden is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f07f62023b48286726189dd617d6529d98f899f69f80f801dd1110558d3d3e9",
+      "sha256": [
+        "0f07f62023b48286726189dd617d6529d98f899f69f80f801dd1110558d3d3e9",
+        "36f37f6a6c22ca41262ceb705019c5f84b80226f85a1018869bd05d244fc9e59",
+        "c356c56dda482ff9bce721adce915e216659148ddec15d59e48a350f2dd7f413"
+      ],
       "text": "Warden is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

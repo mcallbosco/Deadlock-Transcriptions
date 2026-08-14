@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_use_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "36364d3fb43788e9db9af017a75b881c67df47b8e693b7f98eb9de40e4096c54",
+      "sha256": [
+        "36364d3fb43788e9db9af017a75b881c67df47b8e693b7f98eb9de40e4096c54"
+      ],
       "text": "Hello, old friend.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "da858581be1053101715f4b489e778102284935c91e3c167769bcc1f409481c5",
-      "text": "I'll take your life!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bcbed0d083fda7a31c530cd56d3b5e55a006efa06a60d7de3160e595a65ad0bb",
-      "text": "I'll take your life!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3048525ee4dbccca0e552aa6c5895141abe3fc94b30987e04f6f4b38ad68097b",
+      "sha256": [
+        "3048525ee4dbccca0e552aa6c5895141abe3fc94b30987e04f6f4b38ad68097b",
+        "bcbed0d083fda7a31c530cd56d3b5e55a006efa06a60d7de3160e595a65ad0bb",
+        "da858581be1053101715f4b489e778102284935c91e3c167769bcc1f409481c5"
+      ],
       "text": "I'll take your life!",
       "source": "official"
     }

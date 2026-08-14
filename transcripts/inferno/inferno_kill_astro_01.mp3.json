@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_kill_astro_01.mp3",
   "revisions": [
     {
-      "sha256": "e9d6fa7bc3074c6f0826a407f8998bc1f2e7fd8ca1c796edce1304f4a5382480",
+      "sha256": [
+        "66cb198a26209010615a1fed7627e706a4e1effefff8c7e136373af6b9d25706",
+        "e9d6fa7bc3074c6f0826a407f8998bc1f2e7fd8ca1c796edce1304f4a5382480"
+      ],
       "text": "Stop the ship.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "66cb198a26209010615a1fed7627e706a4e1effefff8c7e136373af6b9d25706",
-      "text": "Stop the ship.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f315d43da031a8c08835c85eceb31af3bb764f4a2952e038f785c7c2e02c628",
+      "sha256": [
+        "6f315d43da031a8c08835c85eceb31af3bb764f4a2952e038f785c7c2e02c628"
+      ],
       "text": "Stopped the sheriff",
       "source": "official"
     }

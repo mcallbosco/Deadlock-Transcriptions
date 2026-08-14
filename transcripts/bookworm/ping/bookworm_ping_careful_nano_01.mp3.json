@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "9e0624f5b08c42aea6ced85b38880b4b5636d2e6763fa987d69cfe2829c32554",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48b24220fdeca06a471f0f68df9fdb695f29976a085b83a6f5b941e7980feeed",
+      "sha256": [
+        "48b24220fdeca06a471f0f68df9fdb695f29976a085b83a6f5b941e7980feeed",
+        "9e0624f5b08c42aea6ced85b38880b4b5636d2e6763fa987d69cfe2829c32554"
+      ],
       "text": "Careful, Calico…",
       "source": "official"
     }

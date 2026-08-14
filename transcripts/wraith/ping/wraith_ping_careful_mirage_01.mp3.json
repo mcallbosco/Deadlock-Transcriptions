@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "82c953e8e097e6fb46a53d38ff0cbdfe755a2b032fa977038f66ba51cfc9370c",
-      "text": "Careful, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02badd8cb0dc662a10ed9953e5d522b48311081a6c992ffd472e25151f862637",
-      "text": "Careful, Rush.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c004105be47704313179e5f5d98e9b799ec0cc5b3d74c37ee2679e9654ce649d",
-      "text": "Careful, Rush.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b43981b660d60c98a3967d21f44e577570addb59707145523c675a5e563da91e",
+      "sha256": [
+        "82c953e8e097e6fb46a53d38ff0cbdfe755a2b032fa977038f66ba51cfc9370c",
+        "b43981b660d60c98a3967d21f44e577570addb59707145523c675a5e563da91e"
+      ],
       "text": "Careful, Mirage…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "02badd8cb0dc662a10ed9953e5d522b48311081a6c992ffd472e25151f862637",
+        "c004105be47704313179e5f5d98e9b799ec0cc5b3d74c37ee2679e9654ce649d"
+      ],
+      "text": "Careful, Rush.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

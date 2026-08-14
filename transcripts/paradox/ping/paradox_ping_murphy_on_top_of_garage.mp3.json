@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_murphy_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "88201fd026acf8b1a0c0f8b6f3c38b2c909fc9e9f334071dc09a0663e6089078",
+      "sha256": [
+        "0b443f5da8e301043c670f4c4332d7c84e1a5e6adffd92d653f4071107a36249",
+        "88201fd026acf8b1a0c0f8b6f3c38b2c909fc9e9f334071dc09a0663e6089078"
+      ],
       "text": "Murphy's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b443f5da8e301043c670f4c4332d7c84e1a5e6adffd92d653f4071107a36249",
-      "text": "Murphy's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

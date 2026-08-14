@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_astro.mp3",
   "revisions": [
     {
-      "sha256": "7a8ff2dc5029e767fbfcf051b0cbae81abad8d79c0c09e9fd21f1b5a44924220",
+      "sha256": [
+        "7a8ff2dc5029e767fbfcf051b0cbae81abad8d79c0c09e9fd21f1b5a44924220"
+      ],
       "text": "Well done, Astral.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2582f5a34f8c2c896025695dda5d1bfabd124839768d47c315691373eb181a93",
-      "text": "Well done, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67d26301da29846b1bd9dccb43533ecdef36e4f5d17d735fd37d2e34f33476e2",
+      "sha256": [
+        "2582f5a34f8c2c896025695dda5d1bfabd124839768d47c315691373eb181a93",
+        "67d26301da29846b1bd9dccb43533ecdef36e4f5d17d735fd37d2e34f33476e2"
+      ],
       "text": "Well done Holliday",
       "source": "official"
     }

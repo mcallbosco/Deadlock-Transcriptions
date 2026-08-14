@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_push_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "ccc2b5637ad2db383ff16891bfeba7a43e633715fcfea71123e7df36d669045c",
+      "sha256": [
+        "2337f97dffbb5539a49d66d03116f8751d559bbe9de214a76cde6c0019b618f2",
+        "ccc2b5637ad2db383ff16891bfeba7a43e633715fcfea71123e7df36d669045c"
+      ],
       "text": "Let's push orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2337f97dffbb5539a49d66d03116f8751d559bbe9de214a76cde6c0019b618f2",
-      "text": "Let's push orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_affermative_02.mp3",
   "revisions": [
     {
-      "sha256": "d0ccea66724f45591e14d3df9c82f237691b5987783652350bfc1036f7b5f69c",
+      "sha256": [
+        "d0ccea66724f45591e14d3df9c82f237691b5987783652350bfc1036f7b5f69c"
+      ],
       "text": "I like my kid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5cafa5ff6f607e0c9bd742b4c8089122dbfa7ce5fd59166142941ab6bdff40c7",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35cd773f8cb4dbf16931b5138a2b1c6fc5b0a2c21e3b0cd20bf20866a6043e4e",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f5b6fb4e04e6f32346a35d9e0cd13e3d7029b1c184254b4e769293ba93b3618b",
+      "sha256": [
+        "35cd773f8cb4dbf16931b5138a2b1c6fc5b0a2c21e3b0cd20bf20866a6043e4e",
+        "5cafa5ff6f607e0c9bd742b4c8089122dbfa7ce5fd59166142941ab6bdff40c7",
+        "f5b6fb4e04e6f32346a35d9e0cd13e3d7029b1c184254b4e769293ba93b3618b"
+      ],
       "text": "I like it",
       "source": "official"
     }

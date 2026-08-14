@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ap_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "f33abe25c0771df83d46c302a054206d5193a8488eb88da5a95cff80a208dedb",
-      "text": "I can improve my techniques.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0485c2ba17f6d86e15dce77b3f688923e2542a56f624e2bf6326b635bcf9baba",
-      "text": "I can improve my techniques.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bad3eb0c287d7c960280334bcee464ab957791fd836013bf3c8fed632a188661",
+      "sha256": [
+        "0485c2ba17f6d86e15dce77b3f688923e2542a56f624e2bf6326b635bcf9baba",
+        "bad3eb0c287d7c960280334bcee464ab957791fd836013bf3c8fed632a188661",
+        "f33abe25c0771df83d46c302a054206d5193a8488eb88da5a95cff80a208dedb"
+      ],
       "text": "I can improve my techniques.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

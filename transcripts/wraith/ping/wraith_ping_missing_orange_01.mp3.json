@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "fad9a1826d7da5d6dffa0829bb5e57b02492c42fdfe3c4600ffbb276d951b8de",
-      "text": "Missing orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0e756a08fb1ffde43c5c998eaf037ffbf7555493e88284840dace55bdca1533",
-      "text": "Missing orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78996eea8cd18ed02c96a9060d1b6cae8afafac6066d59a03c53e27d0a75c713",
+      "sha256": [
+        "78996eea8cd18ed02c96a9060d1b6cae8afafac6066d59a03c53e27d0a75c713",
+        "c0e756a08fb1ffde43c5c998eaf037ffbf7555493e88284840dace55bdca1533",
+        "fad9a1826d7da5d6dffa0829bb5e57b02492c42fdfe3c4600ffbb276d951b8de"
+      ],
       "text": "Missing orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

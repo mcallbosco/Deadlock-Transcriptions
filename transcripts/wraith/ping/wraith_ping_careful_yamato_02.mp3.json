@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "fd349b6c590fb0bc787a292d7d4b4229a67383c6ea9581737e8350ff8df31083",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "5ec49366a06ca78d3e8563e1f42044a32c4b6767705e201202255b41cb0ad8e4",
+        "fd349b6c590fb0bc787a292d7d4b4229a67383c6ea9581737e8350ff8df31083"
+      ],
+      "text": "Careful, Yamato",
+      "source": "official"
     },
     {
-      "sha256": "5ed748cdc8ace6e712879a8eaf74e6bc8a43b1add6253c5d9cde5bc005aead60",
+      "sha256": [
+        "5ed748cdc8ace6e712879a8eaf74e6bc8a43b1add6253c5d9cde5bc005aead60"
+      ],
       "text": "やめたほうがやめたほうがやめたほうが",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa60f37669c4ec55ef1c44dac700566d3b04d3618337e031dede193bf9ca8316",
+      "sha256": [
+        "fa60f37669c4ec55ef1c44dac700566d3b04d3618337e031dede193bf9ca8316"
+      ],
       "text": "やめたほうがやめた?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ec49366a06ca78d3e8563e1f42044a32c4b6767705e201202255b41cb0ad8e4",
-      "text": "Careful, Yamato",
-      "source": "official"
     }
   ]
 }

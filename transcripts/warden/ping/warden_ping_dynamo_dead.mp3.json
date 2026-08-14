@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "6e1661b4da9458e76746c56ec9deaf0983e581cf123fd0d7f79abf38a05ac611",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60b7461973f7a5e04fd4ebda4ba4b44f07e17e434a2316a6d3bd387915d9d762",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13862f680c8f2028d3129a14c565cfb84373aa302673a2124c40de36fd7086d4",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da12749e03b9b28e7df3abd6830f23176cb8cea1f0489f2c08fcf986673ee703",
+      "sha256": [
+        "13862f680c8f2028d3129a14c565cfb84373aa302673a2124c40de36fd7086d4",
+        "60b7461973f7a5e04fd4ebda4ba4b44f07e17e434a2316a6d3bd387915d9d762",
+        "6e1661b4da9458e76746c56ec9deaf0983e581cf123fd0d7f79abf38a05ac611",
+        "da12749e03b9b28e7df3abd6830f23176cb8cea1f0489f2c08fcf986673ee703"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "88acbf365d25b1b9c4ed12f2b169fa8df95a07f7847b9432451190df32f7d3e7",
+      "sha256": [
+        "88acbf365d25b1b9c4ed12f2b169fa8df95a07f7847b9432451190df32f7d3e7"
+      ],
       "text": "Evan's missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d7533aa347f0c192350ad649f6f8c83bcfbf3478104a2cdb4976394a59a99200",
+      "sha256": [
+        "d7533aa347f0c192350ad649f6f8c83bcfbf3478104a2cdb4976394a59a99200"
+      ],
       "text": "Abrams's missing",
       "source": "official"
     }

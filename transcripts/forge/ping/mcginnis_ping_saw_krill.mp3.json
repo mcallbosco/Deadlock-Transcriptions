@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_saw_krill.mp3",
   "revisions": [
     {
-      "sha256": "654a596800d6269df6ac2ab931236f54c8de8d7cbe1df5b1851a070f3d3672cd",
-      "text": "I saw Krell.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35c8d2b3e852966c9f05ddbcadde695bee116c87552ab7ae337f11d391441eda",
+      "sha256": [
+        "35c8d2b3e852966c9f05ddbcadde695bee116c87552ab7ae337f11d391441eda",
+        "654a596800d6269df6ac2ab931236f54c8de8d7cbe1df5b1851a070f3d3672cd"
+      ],
       "text": "I saw Krell.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

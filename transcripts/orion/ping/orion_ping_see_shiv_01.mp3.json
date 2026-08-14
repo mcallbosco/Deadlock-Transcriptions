@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_shiv_01.mp3",
   "revisions": [
     {
-      "sha256": "ea197aaf72da8de6a12f293ae5cd14dfcf2e2aa561891ef995726449d8d5b1b6",
-      "text": "I see Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a1d2fce485de041c78b595b5e0c7f4220ee65904b02a72d2685f7217612c03b",
-      "text": "I see him.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba7af7e6adfd83342004ed6ba5c43a348f64e98b16b90f08f38dfa89b44a6e5b",
-      "text": "I see him.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b88ada587e961e62153220dcc94c44d99b8a1f31d8ff9c8ae5f37414248b15c5",
+      "sha256": [
+        "b88ada587e961e62153220dcc94c44d99b8a1f31d8ff9c8ae5f37414248b15c5",
+        "ea197aaf72da8de6a12f293ae5cd14dfcf2e2aa561891ef995726449d8d5b1b6"
+      ],
       "text": "I see Shiv",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "3a1d2fce485de041c78b595b5e0c7f4220ee65904b02a72d2685f7217612c03b",
+        "ba7af7e6adfd83342004ed6ba5c43a348f64e98b16b90f08f38dfa89b44a6e5b"
+      ],
+      "text": "I see him.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

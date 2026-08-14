@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_infernus_dead.mp3",
   "revisions": [
     {
-      "sha256": "b236ed35579c7609240fe5b010088045db7dd7a88f4a23535ddb3868cae4b0aa",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "acd1c82035d0ec3333f32a759fa1c16e17ef139bde2389793e2a1dcb088fbc66",
+      "sha256": [
+        "acd1c82035d0ec3333f32a759fa1c16e17ef139bde2389793e2a1dcb088fbc66",
+        "b236ed35579c7609240fe5b010088045db7dd7a88f4a23535ddb3868cae4b0aa"
+      ],
       "text": "Infernus is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

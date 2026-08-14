@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "9c32dce7bc1c5c5f4cc0b5954241b415aaa5e9c232286a355de9c7e49500d526",
-      "text": "Careful pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad3727b63bf7a8a1f58d4a0d0de11e89c589770ad763241030929e409e725e14",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f43279e26d5b5df624fef691b6d8d456bef98473cc7ab25f8135c3bc222ff6c",
+      "sha256": [
+        "5f43279e26d5b5df624fef691b6d8d456bef98473cc7ab25f8135c3bc222ff6c",
+        "9c32dce7bc1c5c5f4cc0b5954241b415aaa5e9c232286a355de9c7e49500d526",
+        "ad3727b63bf7a8a1f58d4a0d0de11e89c589770ad763241030929e409e725e14"
+      ],
       "text": "Careful, Pocket…",
       "source": "official"
     }

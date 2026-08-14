@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_be_careful_01.mp3",
   "revisions": [
     {
-      "sha256": "c281ac7a44ea513c95f98af1ddbd9b95cc181c53f6ecb2050e5d0e78aae0400f",
+      "sha256": [
+        "c281ac7a44ea513c95f98af1ddbd9b95cc181c53f6ecb2050e5d0e78aae0400f"
+      ],
       "text": "They could be anywhere.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b1ec385e4c58a423a075ce3848be193c3df3be12ae03e1d93575256ce3c5df89",
+      "sha256": [
+        "b1ec385e4c58a423a075ce3848be193c3df3be12ae03e1d93575256ce3c5df89"
+      ],
       "text": "He could be anywhere.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

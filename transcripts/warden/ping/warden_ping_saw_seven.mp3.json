@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_seven.mp3",
   "revisions": [
     {
-      "sha256": "63a8b333423b34a5a473b24c0ef03af35d8b12ee1ec5846f14e068b2cd581138",
-      "text": "I saw Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc0517f582040b8195564a0aebc2a6ab4bb00e7e0c4123b6c492cabb484efb17",
-      "text": "I saw Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d89f9c9bef91188ca866e3c7feb1d00d439ec5674615de0d70cd1760f22cbe8a",
+      "sha256": [
+        "63a8b333423b34a5a473b24c0ef03af35d8b12ee1ec5846f14e068b2cd581138",
+        "bc0517f582040b8195564a0aebc2a6ab4bb00e7e0c4123b6c492cabb484efb17",
+        "d89f9c9bef91188ca866e3c7feb1d00d439ec5674615de0d70cd1760f22cbe8a"
+      ],
       "text": "I saw Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_congrats_digger.mp3",
   "revisions": [
     {
-      "sha256": "1f9d51d93cc15b02c6620313ef8d6d0d60a9aab02db18cb971d502b69ca8161c",
+      "sha256": [
+        "1f9d51d93cc15b02c6620313ef8d6d0d60a9aab02db18cb971d502b69ca8161c",
+        "4861a3d937866dff647585c0e6cae62b8b188c18994e4cd3b9f1ea1c954bcb4d",
+        "a46907871a6c75f0b4fcd723b35a07d34ede83fc7f0857f57aaf93491bcdd5e8"
+      ],
       "text": "Good job, Deer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4861a3d937866dff647585c0e6cae62b8b188c18994e4cd3b9f1ea1c954bcb4d",
-      "text": "Good job, Deer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a46907871a6c75f0b4fcd723b35a07d34ede83fc7f0857f57aaf93491bcdd5e8",
-      "text": "Good job, deer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

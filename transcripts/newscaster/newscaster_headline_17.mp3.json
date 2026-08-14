@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/newscaster_headline_17.mp3",
   "revisions": [
     {
-      "sha256": "4368b12bd3f33d54ead9b206440376eeff7b3c386f9de8b30b1be48cdf00f5ce",
-      "text": "The OSIC has issued a warning to the city of New York, recommending that citizens stay indoors for the duration of the celestial event.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "261ff94915bd7e01dd368115a295cfb0d93650d83ccc3218336345c1d2b448eb",
+      "sha256": [
+        "261ff94915bd7e01dd368115a295cfb0d93650d83ccc3218336345c1d2b448eb",
+        "4368b12bd3f33d54ead9b206440376eeff7b3c386f9de8b30b1be48cdf00f5ce"
+      ],
       "text": "The OSIC has issued a warning to the city of New York, recommending that citizens stay indoors for the duration of the celestial event.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

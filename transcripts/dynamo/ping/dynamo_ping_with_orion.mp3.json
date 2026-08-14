@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_with_orion.mp3",
   "revisions": [
     {
-      "sha256": "c49c7bef618a2f7adffea3f4fd0eb25978dff0f7e88c928c6afb3a7123804975",
+      "sha256": [
+        "c49c7bef618a2f7adffea3f4fd0eb25978dff0f7e88c928c6afb3a7123804975"
+      ],
       "text": "I'm with you, Raylan.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

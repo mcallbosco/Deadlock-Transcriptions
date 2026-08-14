@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_use_power4_02.mp3",
   "revisions": [
     {
-      "sha256": "aa981f33bcfa5afd8527f141fd6c8da690f59a59ffbecdec2e4419f5d9eebefe",
-      "text": "Now!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c10e8e224291a34f41a321ca1901bc20cb58beab9765c97a1a93e82d047f889",
+      "sha256": [
+        "9c10e8e224291a34f41a321ca1901bc20cb58beab9765c97a1a93e82d047f889",
+        "aa981f33bcfa5afd8527f141fd6c8da690f59a59ffbecdec2e4419f5d9eebefe"
+      ],
       "text": "Now!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

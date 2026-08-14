@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_sad_05.mp3",
   "revisions": [
     {
-      "sha256": "e7d8022ca5d11be97c83506537afbcbe56c85b016349f7e63dd0345b1cf604ff",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cf5940ff4dbf774dbf9cfedf113d1cb1db7969f8b78af34aa4f8048d5194e2b",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0be1980aadcb68a73d9bf18297201b9a24fb8d4c70a80273cf179557d1398704",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f1170a690c177b8245566be98cbe0c486b261f67bfb8d73844e403d4addaf0b",
+      "sha256": [
+        "0be1980aadcb68a73d9bf18297201b9a24fb8d4c70a80273cf179557d1398704",
+        "1f1170a690c177b8245566be98cbe0c486b261f67bfb8d73844e403d4addaf0b",
+        "5cf5940ff4dbf774dbf9cfedf113d1cb1db7969f8b78af34aa4f8048d5194e2b",
+        "e7d8022ca5d11be97c83506537afbcbe56c85b016349f7e63dd0345b1cf604ff"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

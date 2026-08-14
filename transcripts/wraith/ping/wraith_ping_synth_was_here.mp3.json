@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "2c3a22a727d0b7fbcde532861609825a7e7b487451b77a4b473feeca93056f8c",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a3e6197f14a03a665f1e7c1f397506cc04fa43646f42cac23a36c7c3973c3b9",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a3fba99423327dfb2a9327fe1ee403c425ec43043b25de827f46e962546100f8",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5bef09fb4720529a62135b81c478210627a4e4048a95cee5045451e613b5d50",
+      "sha256": [
+        "2c3a22a727d0b7fbcde532861609825a7e7b487451b77a4b473feeca93056f8c",
+        "3a3e6197f14a03a665f1e7c1f397506cc04fa43646f42cac23a36c7c3973c3b9",
+        "a3fba99423327dfb2a9327fe1ee403c425ec43043b25de827f46e962546100f8",
+        "e5bef09fb4720529a62135b81c478210627a4e4048a95cee5045451e613b5d50"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_gigawatt_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "be6baeb526febe4dd3700557e839db4789c417f7442b0a7a3aa2613e40813abb",
+      "sha256": [
+        "a94439a0aae6d530a6e828e356914ac65f7457c7b38c6860e5fd7b7050417792",
+        "be6baeb526febe4dd3700557e839db4789c417f7442b0a7a3aa2613e40813abb"
+      ],
       "text": "You know what's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a94439a0aae6d530a6e828e356914ac65f7457c7b38c6860e5fd7b7050417792",
-      "text": "You know what's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

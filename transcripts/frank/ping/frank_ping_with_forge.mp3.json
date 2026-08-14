@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "78733abf182ff5de92209d713df7bba4fd5970d020db531b60f0591f03c2f055",
-      "text": "I'm with you, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a00a06d40af3a9b20d44777ff070ac27ff81ef464bc643d51aac91c034441ffd",
+      "sha256": [
+        "78733abf182ff5de92209d713df7bba4fd5970d020db531b60f0591f03c2f055",
+        "a00a06d40af3a9b20d44777ff070ac27ff81ef464bc643d51aac91c034441ffd"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

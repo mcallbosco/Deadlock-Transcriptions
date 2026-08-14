@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_inferno_02.mp3",
   "revisions": [
     {
-      "sha256": "0c223688b981cc8a646bc2d01e9e4b18bb225f02a933fcdd57cdb99aad9a9d93",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b561d3de03fdde8cbada945146ea505b51f6f6662ca962c85f7289eef2e7a06",
+      "sha256": [
+        "0b561d3de03fdde8cbada945146ea505b51f6f6662ca962c85f7289eef2e7a06",
+        "0c223688b981cc8a646bc2d01e9e4b18bb225f02a933fcdd57cdb99aad9a9d93"
+      ],
       "text": "Careful, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

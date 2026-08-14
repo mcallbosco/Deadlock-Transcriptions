@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_rupture_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "b067bb383ad2ef9d5a9297b738b39090ed5afed74603fe7fe63c4c8c1027303f",
+      "sha256": [
+        "49db54de77099012c71eb06619eb61a5c5384e8207c26da89697889cafbb8530",
+        "b067bb383ad2ef9d5a9297b738b39090ed5afed74603fe7fe63c4c8c1027303f"
+      ],
       "text": "Decay's on cooldown!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49db54de77099012c71eb06619eb61a5c5384e8207c26da89697889cafbb8530",
-      "text": "Decay's on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

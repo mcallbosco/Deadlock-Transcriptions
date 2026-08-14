@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_got_denied_01.mp3",
   "revisions": [
     {
-      "sha256": "7f56137aa6167fb28e725c497299cdd6b55de0a6819ce6aa0fa98a8a51bd1ee2",
-      "text": "Damn it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1707579e12cf0b7fd36040efc6a319e72822d15d7d6e129e516b304f7199a5ad",
-      "text": "Damn it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c11668843d559b406c41cfe97ffed89f6cc542b53f7b0ea519a2b47313f7946",
+      "sha256": [
+        "1707579e12cf0b7fd36040efc6a319e72822d15d7d6e129e516b304f7199a5ad",
+        "4c11668843d559b406c41cfe97ffed89f6cc542b53f7b0ea519a2b47313f7946",
+        "7f56137aa6167fb28e725c497299cdd6b55de0a6819ce6aa0fa98a8a51bd1ee2"
+      ],
       "text": "Damn it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_mirage.mp3",
   "revisions": [
     {
-      "sha256": "251ffe899a0a4117fb3d1d44efc52c4a80e9826fedd4e7788b7e6f9ece95babd",
+      "sha256": [
+        "251ffe899a0a4117fb3d1d44efc52c4a80e9826fedd4e7788b7e6f9ece95babd"
+      ],
       "text": "I saw Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f45f47eebdaed903d4ca519bb75dd2ecd207db59c02542c8899e01d6503c5a68",
+      "sha256": [
+        "f45f47eebdaed903d4ca519bb75dd2ecd207db59c02542c8899e01d6503c5a68"
+      ],
       "text": "I saw a Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "e62b798a3f22a51c7c0794498622e15b7326b1937594972959f31691b3497b48",
-      "text": "Headed to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f00c4cfa504a511a219b4bae1ca550f87cf1b51f83bc8cdb371c7b8a8a0d717",
-      "text": "Headed to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d22cefed51136fe8cdff0e71e4477f4cea59816ce2098b81db38db5342989729",
+      "sha256": [
+        "4f00c4cfa504a511a219b4bae1ca550f87cf1b51f83bc8cdb371c7b8a8a0d717",
+        "d22cefed51136fe8cdff0e71e4477f4cea59816ce2098b81db38db5342989729",
+        "e62b798a3f22a51c7c0794498622e15b7326b1937594972959f31691b3497b48"
+      ],
       "text": "Headed to blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

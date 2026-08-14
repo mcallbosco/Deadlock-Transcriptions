@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "f04fb7e89e22a2597b9a11ad43fe905a954269697c05248552ea1123d835ee51",
-      "text": "I appreciate your conviction, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c636a23a3959ca7a566bbfb675820d4ccf1dc3d461959079760de059eade1f8e",
-      "text": "I appreciate your conviction, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34c42cc844112c71c16229b3174729d0d3a6b1d7a631e8a2dcaf90e5711a6db8",
+      "sha256": [
+        "34c42cc844112c71c16229b3174729d0d3a6b1d7a631e8a2dcaf90e5711a6db8",
+        "c636a23a3959ca7a566bbfb675820d4ccf1dc3d461959079760de059eade1f8e",
+        "f04fb7e89e22a2597b9a11ad43fe905a954269697c05248552ea1123d835ee51"
+      ],
       "text": "I appreciate your conviction Warden",
       "source": "official"
     }

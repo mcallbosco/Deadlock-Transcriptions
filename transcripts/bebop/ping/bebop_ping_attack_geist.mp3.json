@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_attack_geist.mp3",
   "revisions": [
     {
-      "sha256": "a0864eda52a0b128f2474bf72742620b8262835d70f2d8b4f5cafd4bfdd0dd5b",
-      "text": "Let's take out Geist!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81dbf79ef1234f9ef0b502b3763073c691bbee7b6ae1bff403e6c44cb70f6953",
+      "sha256": [
+        "81dbf79ef1234f9ef0b502b3763073c691bbee7b6ae1bff403e6c44cb70f6953",
+        "a0864eda52a0b128f2474bf72742620b8262835d70f2d8b4f5cafd4bfdd0dd5b"
+      ],
       "text": "Let's take out Geist!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_headed_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "ec42b9f370bd7a0abbe542dc31b053819955edfe1ee92be1e61c71a405c5daa2",
-      "text": "Headed to park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8477cf8c1ec258b224c27b92b3ab1c08bdc1b5d3faa0d608c2c254800b232380",
-      "text": "Headed to park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "26c584813c74d37c75c0e5008216393278d318b5674b5a39d71eae67775ecfa2",
+      "sha256": [
+        "26c584813c74d37c75c0e5008216393278d318b5674b5a39d71eae67775ecfa2",
+        "8477cf8c1ec258b224c27b92b3ab1c08bdc1b5d3faa0d608c2c254800b232380",
+        "ec42b9f370bd7a0abbe542dc31b053819955edfe1ee92be1e61c71a405c5daa2"
+      ],
       "text": "Headed to park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

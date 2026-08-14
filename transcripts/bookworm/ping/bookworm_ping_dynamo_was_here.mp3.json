@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3a76f66b1a413bdf9082b1aa8b57d4bd73364338718b6acea096d3efde10f8ea",
+      "sha256": [
+        "3a76f66b1a413bdf9082b1aa8b57d4bd73364338718b6acea096d3efde10f8ea"
+      ],
       "text": "Dynamo was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9ac089b4df78ce57bf368fffcaf38e92bed351bb61d5501f5132a86ea53bdf7b",
+      "sha256": [
+        "9ac089b4df78ce57bf368fffcaf38e92bed351bb61d5501f5132a86ea53bdf7b"
+      ],
       "text": "Deadmau was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_saw_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "b6f1351337c84e0949fba84b51fabcbce00334653f474a0e43d8fb84384e526d",
+      "sha256": [
+        "b6f1351337c84e0949fba84b51fabcbce00334653f474a0e43d8fb84384e526d"
+      ],
       "text": "That's our page.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_avatar_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "d2a5486dc14951d3c398dfb1bc075488e6f5783737bd8f3579f9a7077740e5c8",
+      "sha256": [
+        "b0282f3f1e28062cc70830a152cd2f528d716f85a11dceeaf86f8194dd0cc0e6",
+        "d2a5486dc14951d3c398dfb1bc075488e6f5783737bd8f3579f9a7077740e5c8"
+      ],
       "text": "They're taking our avatar.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0282f3f1e28062cc70830a152cd2f528d716f85a11dceeaf86f8194dd0cc0e6",
-      "text": "They're taking our Avatar.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

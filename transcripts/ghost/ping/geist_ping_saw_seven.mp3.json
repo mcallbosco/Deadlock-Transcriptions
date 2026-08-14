@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_seven.mp3",
   "revisions": [
     {
-      "sha256": "833153c1d273c775cf47bb42f326b4b4c7df5acf1a0b8cf888d17da33632f667",
+      "sha256": [
+        "2308c373e1c9b69e71751f4e431da467c2366fe8bf1cfe9aae216b40e95515ac",
+        "833153c1d273c775cf47bb42f326b4b4c7df5acf1a0b8cf888d17da33632f667"
+      ],
       "text": "I saw Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2308c373e1c9b69e71751f4e431da467c2366fe8bf1cfe9aae216b40e95515ac",
-      "text": "I saw seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_need_help_green.mp3",
   "revisions": [
     {
-      "sha256": "86cda94552ae2c8cc063bb123aa6ae65b5e148a12839cf6a628473ee29001878",
+      "sha256": [
+        "86cda94552ae2c8cc063bb123aa6ae65b5e148a12839cf6a628473ee29001878",
+        "882519bf6a93a7b7a4e20256779a5d49b2a3b899dc74fd68cf29b30a0b2cf11b"
+      ],
       "text": "Need help on green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "882519bf6a93a7b7a4e20256779a5d49b2a3b899dc74fd68cf29b30a0b2cf11b",
-      "text": "Need help on green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "350b1a78c644e9faa427f952dde0d4c3b02d5149f384698ea27bb22bc083b388",
-      "text": "This is going my way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "897b8c39bd8a4ead1812a4fa3fbf09d8793e914ee8d24c4b934a1083e69cedeb",
+      "sha256": [
+        "350b1a78c644e9faa427f952dde0d4c3b02d5149f384698ea27bb22bc083b388",
+        "897b8c39bd8a4ead1812a4fa3fbf09d8793e914ee8d24c4b934a1083e69cedeb"
+      ],
       "text": "This is going my way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_bebop_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "25e854a86ad57cb7f32b6392536ba0e6292b41a3d0b4532a86585d5e00a3b971",
-      "text": "Bebop's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23591d05fc0e8bf97f8f9f8222adbe68ad5649ec5b23b1d383de473b357a809a",
-      "text": "Bebop's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ccfc52450dc035dbd01c197f7b35f1851dc93ded7438e5354d54c44fab0db477",
+      "sha256": [
+        "23591d05fc0e8bf97f8f9f8222adbe68ad5649ec5b23b1d383de473b357a809a",
+        "25e854a86ad57cb7f32b6392536ba0e6292b41a3d0b4532a86585d5e00a3b971",
+        "ccfc52450dc035dbd01c197f7b35f1851dc93ded7438e5354d54c44fab0db477"
+      ],
       "text": "Bebop's on top of the garage!",
       "source": "official"
     }

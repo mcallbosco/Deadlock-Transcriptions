@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_need_help_blue.mp3",
   "revisions": [
     {
-      "sha256": "801fcdea867c34b40df7f2754ff506ea882f36a6de6b18740da9e4b9d3a16050",
+      "sha256": [
+        "801fcdea867c34b40df7f2754ff506ea882f36a6de6b18740da9e4b9d3a16050"
+      ],
       "text": "Need help on blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f5471f8ebed5414fbb694ff5dfc33e9433fd23905500da84aa4b1a16e19d0940",
-      "text": "Heal up on blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5d120874867253e47318041b287c16305ec5d9dfb868b3e48c29454caac1b6a",
+      "sha256": [
+        "a5d120874867253e47318041b287c16305ec5d9dfb868b3e48c29454caac1b6a",
+        "f5471f8ebed5414fbb694ff5dfc33e9433fd23905500da84aa4b1a16e19d0940"
+      ],
       "text": "Heal up on blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

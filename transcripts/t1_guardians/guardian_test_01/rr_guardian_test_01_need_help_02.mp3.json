@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_need_help_02.mp3",
   "revisions": [
     {
-      "sha256": "d8b64a0bfd176e95d75662eba74c424b477236609c10409ea5728ac971111133",
+      "sha256": [
+        "59ace2fd111062f0992e27c3974f8eedf0588642e2ca3f7bb5d5b3aadd399d49",
+        "5aa409be7cd3faba234bacaa0bbc4b65d297dbb353797821e33b3f0908384f0b",
+        "d8b64a0bfd176e95d75662eba74c424b477236609c10409ea5728ac971111133"
+      ],
       "text": "I can't protect yellow much longer!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59ace2fd111062f0992e27c3974f8eedf0588642e2ca3f7bb5d5b3aadd399d49",
-      "text": "I can't protect yellow much longer!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5aa409be7cd3faba234bacaa0bbc4b65d297dbb353797821e33b3f0908384f0b",
-      "text": "I can't protect Yellow much longer!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

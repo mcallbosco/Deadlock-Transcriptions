@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "e235f3f6ee96ea696be6a11dcc1fd84b3a6fe1b58b3db4fcef2e2a7a269ea946",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07f2b88eb735104994b0c4209563d5254acf5471d50e36e57cab8b5e21c33c27",
+      "sha256": [
+        "07f2b88eb735104994b0c4209563d5254acf5471d50e36e57cab8b5e21c33c27",
+        "e235f3f6ee96ea696be6a11dcc1fd84b3a6fe1b58b3db4fcef2e2a7a269ea946"
+      ],
       "text": "Well played",
       "source": "official"
     }

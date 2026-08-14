@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_rutger_was_here.mp3",
   "revisions": [
     {
-      "sha256": "70e006a887f15e2a850f4f414360b1bd0fa5a93e61e1e2719d3057b43ea508e6",
+      "sha256": [
+        "70e006a887f15e2a850f4f414360b1bd0fa5a93e61e1e2719d3057b43ea508e6"
+      ],
       "text": "Drop over here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "926911c9a78e44676a30574d67fe8a1c7774ad5921418d67b77337d10499b65e",
+      "sha256": [
+        "926911c9a78e44676a30574d67fe8a1c7774ad5921418d67b77337d10499b65e"
+      ],
       "text": "Drop it was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

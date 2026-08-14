@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_viper_01.mp3",
   "revisions": [
     {
-      "sha256": "75cb54753c14d44de10ca2418afef1f553b17bbe0cfbe5d26a48006f2cb82fd1",
+      "sha256": [
+        "75cb54753c14d44de10ca2418afef1f553b17bbe0cfbe5d26a48006f2cb82fd1"
+      ],
       "text": "I see Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e6a66216f02d37b279460ad0a51841e62f8e2c98d41833d4e46ddc546efbb332",
+      "sha256": [
+        "e6a66216f02d37b279460ad0a51841e62f8e2c98d41833d4e46ddc546efbb332"
+      ],
       "text": "I see Vyper.",
       "source": "official"
     }

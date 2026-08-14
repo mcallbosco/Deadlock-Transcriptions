@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_going_in.mp3",
   "revisions": [
     {
-      "sha256": "3ed0a01ff8fb89cfe20c50838ee901c8cd757c5d2c9bd01550fcecf095660e4f",
-      "text": "Going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d10bbd486a1d84d0fdb8a9a8f6ab2d172fa6584074ddec64ed0b2162ea9a59c",
+      "sha256": [
+        "3ed0a01ff8fb89cfe20c50838ee901c8cd757c5d2c9bd01550fcecf095660e4f",
+        "6d10bbd486a1d84d0fdb8a9a8f6ab2d172fa6584074ddec64ed0b2162ea9a59c"
+      ],
       "text": "Going in",
       "source": "official"
     }

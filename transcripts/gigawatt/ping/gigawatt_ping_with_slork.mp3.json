@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_slork.mp3",
   "revisions": [
     {
-      "sha256": "2c76024ddeb7372a078b9965b4bea4a14f6de0fad1f97f3142c314aba7d4659d",
+      "sha256": [
+        "2c76024ddeb7372a078b9965b4bea4a14f6de0fad1f97f3142c314aba7d4659d",
+        "8c5b618cfea979141acd7dc66de11999cb660cf1b5e7f4d8df48a06461a42dc6"
+      ],
       "text": "I was your flock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8c5b618cfea979141acd7dc66de11999cb660cf1b5e7f4d8df48a06461a42dc6",
-      "text": "I was your flock.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9bbb85489b3993522efe20fcd38a64a937dea62203d5db886164f3c4a38cbd5",
+      "sha256": [
+        "a9bbb85489b3993522efe20fcd38a64a937dea62203d5db886164f3c4a38cbd5"
+      ],
       "text": "I was his court.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

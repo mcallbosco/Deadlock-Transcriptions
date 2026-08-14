@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_abrams.mp3",
   "revisions": [
     {
-      "sha256": "243ee2085f6638842113f04927c275eb516c9371a26de60cc44983d69bdd3ecc",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eea88f2d7a277053196ff175a819dbc9f4c38ccf4511bc3c58bc32ae2f791545",
+      "sha256": [
+        "243ee2085f6638842113f04927c275eb516c9371a26de60cc44983d69bdd3ecc",
+        "eea88f2d7a277053196ff175a819dbc9f4c38ccf4511bc3c58bc32ae2f791545"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

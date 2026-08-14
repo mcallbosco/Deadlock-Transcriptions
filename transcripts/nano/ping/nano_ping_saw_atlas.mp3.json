@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "ab8c93d7687ec3edb08435a9979b922d1a4d876cc51ea4f584c594d284ff1912",
+      "sha256": [
+        "ab8c93d7687ec3edb08435a9979b922d1a4d876cc51ea4f584c594d284ff1912"
+      ],
       "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

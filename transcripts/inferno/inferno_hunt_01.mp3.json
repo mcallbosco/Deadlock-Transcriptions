@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_hunt_01.mp3",
   "revisions": [
     {
-      "sha256": "fec7a66e86c984d5089aa7190ef08baa54ccde2d2ad470e6226cdd41bea3674e",
+      "sha256": [
+        "fec7a66e86c984d5089aa7190ef08baa54ccde2d2ad470e6226cdd41bea3674e"
+      ],
       "text": "Could that be a subway?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "58d051e6d9789b8e12be1db49e326249a724fe87ce2db40a4bc8851cfdb4eda8",
+      "sha256": [
+        "58d051e6d9789b8e12be1db49e326249a724fe87ce2db40a4bc8851cfdb4eda8",
+        "f401ec04dd0cd60367a2a1b0d72450a47f9cb2692bb36179e1a79dbe840c1020"
+      ],
       "text": "We gotta be here somewhere.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f401ec04dd0cd60367a2a1b0d72450a47f9cb2692bb36179e1a79dbe840c1020",
-      "text": "We gotta be here somewhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9cdf2cf3cf4e48baabbdbcf6368c0cdf3a752b2af226624f0caf2d7b85218de",
+      "sha256": [
+        "f9cdf2cf3cf4e48baabbdbcf6368c0cdf3a752b2af226624f0caf2d7b85218de"
+      ],
       "text": "They gotta be here somewhere",
       "source": "official"
     }

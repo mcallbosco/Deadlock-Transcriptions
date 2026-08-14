@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_warden.mp3",
   "revisions": [
     {
-      "sha256": "2cc37db507f4818627ef488f13fd4cb4013f9d2146d4a8a7b96212cf3c1785d6",
+      "sha256": [
+        "2cc37db507f4818627ef488f13fd4cb4013f9d2146d4a8a7b96212cf3c1785d6"
+      ],
       "text": "I see Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dfbf9fa1d75040006fbd46b7808e58b2b0c5f5f3f17e8513f90eba4764db348d",
+      "sha256": [
+        "dfbf9fa1d75040006fbd46b7808e58b2b0c5f5f3f17e8513f90eba4764db348d"
+      ],
       "text": "Proceed warning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a6fcc93929c9b70faf46a97747003684c48f62d125480e7752777b87c02af7ca",
-      "text": "Warning.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e416830247b82b43896d8ab7917f8d6826d4708f8946a111c320793ef5a4038",
+      "sha256": [
+        "3e416830247b82b43896d8ab7917f8d6826d4708f8946a111c320793ef5a4038",
+        "a6fcc93929c9b70faf46a97747003684c48f62d125480e7752777b87c02af7ca"
+      ],
       "text": "Warning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

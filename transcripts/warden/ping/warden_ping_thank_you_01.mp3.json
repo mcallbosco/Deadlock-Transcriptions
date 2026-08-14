@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_thank_you_01.mp3",
   "revisions": [
     {
-      "sha256": "56630d6f5afefcf727238ae547f8e60d6a511819fd16e5c631a676f06b1e2695",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25b66725b8ed56e26d5fa2afde646fb7a8d2917b2c52b19b1183bf09b46eafe6",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f29bccac26d96a629e954c05378656f5f70b6738a54e98a93acdf073a72d052",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6f94c517a003b039a61da4d7b559c0f2b3c86a670a8426fd23206c08e3b386e",
+      "sha256": [
+        "25b66725b8ed56e26d5fa2afde646fb7a8d2917b2c52b19b1183bf09b46eafe6",
+        "56630d6f5afefcf727238ae547f8e60d6a511819fd16e5c631a676f06b1e2695",
+        "6f29bccac26d96a629e954c05378656f5f70b6738a54e98a93acdf073a72d052",
+        "c6f94c517a003b039a61da4d7b559c0f2b3c86a670a8426fd23206c08e3b386e"
+      ],
       "text": "Thanks.",
       "source": "official"
     }

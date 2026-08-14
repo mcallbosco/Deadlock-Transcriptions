@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_ghost_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c29ac333c0361ea39804798afe8ed6730ffa528b4e981301fbcfb850509c145a",
+      "sha256": [
+        "c29ac333c0361ea39804798afe8ed6730ffa528b4e981301fbcfb850509c145a",
+        "ccf36a714c91853eb6220fa7ee57f00df0d9811cbabdddfa20df15409e21ecb7",
+        "fae592cf739461934538d0a74635a85696cb4e55e03f0ec1187dc0679bd481d1"
+      ],
       "text": "Guys, he's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fae592cf739461934538d0a74635a85696cb4e55e03f0ec1187dc0679bd481d1",
-      "text": "Guys, he's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ccf36a714c91853eb6220fa7ee57f00df0d9811cbabdddfa20df15409e21ecb7",
-      "text": "Guys, he's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4112c2016f13d41dbf239a31325d8bb1514fa28d0eaf7a3a04256aafae2c19c9",
+      "sha256": [
+        "4112c2016f13d41dbf239a31325d8bb1514fa28d0eaf7a3a04256aafae2c19c9"
+      ],
       "text": "Geist's on the bridge!",
       "source": "official"
     }

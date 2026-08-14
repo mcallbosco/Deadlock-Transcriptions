@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_use_power1_08.mp3",
   "revisions": [
     {
-      "sha256": "f2264532328aacacb475fc8cc6bccc84414d263ef62811f1144404496afb5639",
-      "text": "Death comes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "569303f014af9a8c4acd85f1c358d52519cd27ef1bc8373434877382551129f4",
+      "sha256": [
+        "569303f014af9a8c4acd85f1c358d52519cd27ef1bc8373434877382551129f4",
+        "f2264532328aacacb475fc8cc6bccc84414d263ef62811f1144404496afb5639"
+      ],
       "text": "Death comes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

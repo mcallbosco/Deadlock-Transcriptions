@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_ghost_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "f1355ffb8dea5f825f682213f9b4a4e5ff36fdd0c4cd10cf916fbe255b811a2e",
+      "sha256": [
+        "f1355ffb8dea5f825f682213f9b4a4e5ff36fdd0c4cd10cf916fbe255b811a2e"
+      ],
       "text": "Let's celebrate.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "76d07f0a9d443bcdef5c09067f050458c8f427cf9ca7e52ef47d97a7e6f8e609",
+      "sha256": [
+        "76d07f0a9d443bcdef5c09067f050458c8f427cf9ca7e52ef47d97a7e6f8e609",
+        "8c5c380861a7bf21db064f4c60dd430d21933e1ec28d360d3470750d420e1c82"
+      ],
       "text": "guys on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8c5c380861a7bf21db064f4c60dd430d21933e1ec28d360d3470750d420e1c82",
-      "text": "Guys on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddd428484db01ffd73cd6b3b25a1e1832a01bd04ca0055f86aa0374160bd1d87",
+      "sha256": [
+        "ddd428484db01ffd73cd6b3b25a1e1832a01bd04ca0055f86aa0374160bd1d87"
+      ],
       "text": "Geist's on the bridge!",
       "source": "official"
     }

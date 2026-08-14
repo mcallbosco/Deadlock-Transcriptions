@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_saw_calico.mp3",
   "revisions": [
     {
-      "sha256": "6fcc8b8342e3d88b6994beb441a21dcf7b87f3ba387f648dc2319446d8f666aa",
+      "sha256": [
+        "6fcc8b8342e3d88b6994beb441a21dcf7b87f3ba387f648dc2319446d8f666aa"
+      ],
       "text": "I saw Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d3d94fbe7a61787939117c1023c7a42e34549b53cf6e54a5a8a070ee7ef19a4d",
+      "sha256": [
+        "d3d94fbe7a61787939117c1023c7a42e34549b53cf6e54a5a8a070ee7ef19a4d"
+      ],
       "text": "I'll so cataco!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "8cbe3321665346e39987c609312d69f728137f211a5ff1f6cafaa396c04cc075",
+      "sha256": [
+        "8cbe3321665346e39987c609312d69f728137f211a5ff1f6cafaa396c04cc075"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

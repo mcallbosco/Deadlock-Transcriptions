@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_synth_check_items.mp3",
   "revisions": [
     {
-      "sha256": "00d96aef7781913ab101fc97ebf2234c40bddce947a20f30fce761a988b22267",
+      "sha256": [
+        "00d96aef7781913ab101fc97ebf2234c40bddce947a20f30fce761a988b22267",
+        "c3da1d645172604f07274bd0a68505eb680e61720d505750858508454b958d35",
+        "dfbbc0c1fbc956a7d11c7f88a61cd0c724deb0672de86cf1ec92a62492d45bca"
+      ],
       "text": "Check out what Pocket bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3da1d645172604f07274bd0a68505eb680e61720d505750858508454b958d35",
-      "text": "Check out what Pocket bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dfbbc0c1fbc956a7d11c7f88a61cd0c724deb0672de86cf1ec92a62492d45bca",
-      "text": "Check out what Pocket bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

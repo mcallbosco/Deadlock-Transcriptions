@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_ballista_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "54cb5e3328d4bbccea08f511215677059bea4cb76b94ff7e2e6203b2037cd90e",
-      "text": "Ballista is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "739d1ce4cffd1b4a4c599222795f111fd3043dbdaf403482e1cdedd41e74187f",
-      "text": "Ballista is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f3527d6ba4b9dc9dc65900bf327ab91b9dd9317f403e48405643cbc071a2e00",
+      "sha256": [
+        "2f3527d6ba4b9dc9dc65900bf327ab91b9dd9317f403e48405643cbc071a2e00",
+        "54cb5e3328d4bbccea08f511215677059bea4cb76b94ff7e2e6203b2037cd90e",
+        "739d1ce4cffd1b4a4c599222795f111fd3043dbdaf403482e1cdedd41e74187f"
+      ],
       "text": "Ballista is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

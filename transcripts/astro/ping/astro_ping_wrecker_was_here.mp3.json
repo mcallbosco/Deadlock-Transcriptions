@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_wrecker_was_here.mp3",
   "revisions": [
     {
-      "sha256": "61580db3c73b42711c512976080725c512095c9f36a4f5ad284c9228c26242f2",
+      "sha256": [
+        "61580db3c73b42711c512976080725c512095c9f36a4f5ad284c9228c26242f2"
+      ],
       "text": "Gregor was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_headed_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "2f34f7a4a761db8f23a91596b4db3fe0550f7bf174cc7ac40411307c00d05058",
+      "sha256": [
+        "2f34f7a4a761db8f23a91596b4db3fe0550f7bf174cc7ac40411307c00d05058"
+      ],
       "text": "Turn it to purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

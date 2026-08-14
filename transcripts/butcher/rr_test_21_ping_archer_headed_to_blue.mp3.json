@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_archer_headed_to_blue.mp3",
   "revisions": [
     {
-      "sha256": "93d1ad1b7adb3bb0076b977fdf7c29721400a5e371b19cd03dd11213d3feb58b",
+      "sha256": [
+        "5b063df7c1765701665e06d5a0845d638b09b6662aeb18e7af419fefcd512164",
+        "93d1ad1b7adb3bb0076b977fdf7c29721400a5e371b19cd03dd11213d3feb58b"
+      ],
       "text": "Aren't you sad of the blue?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "24c4f80fdc05daf98bd2ad2ca33da2ff1ca2afca03990a0a24b6b619e0e27c60",
+      "sha256": [
+        "24c4f80fdc05daf98bd2ad2ca33da2ff1ca2afca03990a0a24b6b619e0e27c60"
+      ],
       "text": "Aren't you set of the blue?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b063df7c1765701665e06d5a0845d638b09b6662aeb18e7af419fefcd512164",
-      "text": "Aren't you sad of the blue?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

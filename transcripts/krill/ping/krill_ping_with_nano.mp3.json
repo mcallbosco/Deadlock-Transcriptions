@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "cf359772dd250c9b406386660d553e60e8743111e8250ccc243533f85b9158cf",
+      "sha256": [
+        "cf359772dd250c9b406386660d553e60e8743111e8250ccc243533f85b9158cf"
+      ],
       "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

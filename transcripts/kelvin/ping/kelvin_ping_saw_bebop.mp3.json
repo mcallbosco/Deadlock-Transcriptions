@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "6569ffd36ca9f2d11e5e6fc057348982c02a08b733d21aed6dddc8445edabcb0",
-      "text": "I saw Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b12d4e790d78a29a5f59caca9c32f85dfc7f88c5b24c603e2371592ba2c43d7",
+      "sha256": [
+        "4b12d4e790d78a29a5f59caca9c32f85dfc7f88c5b24c603e2371592ba2c43d7",
+        "6569ffd36ca9f2d11e5e6fc057348982c02a08b733d21aed6dddc8445edabcb0"
+      ],
       "text": "I saw Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_help_with_idol.mp3",
   "revisions": [
     {
-      "sha256": "b7dfc83641aed93d11dac1af60ab8db75b468210202ddf2fdc544ff4cbb55978",
+      "sha256": [
+        "344cd4b34a44d12e0451d1149647ecefca61ef325d6b7cf47a76755564159e2f",
+        "b7dfc83641aed93d11dac1af60ab8db75b468210202ddf2fdc544ff4cbb55978"
+      ],
       "text": "Help me deliver this thing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "344cd4b34a44d12e0451d1149647ecefca61ef325d6b7cf47a76755564159e2f",
-      "text": "Help me deliver this thing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

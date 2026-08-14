@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "c9b309c5aae19614101bbb30dbd14364c8224d2d2d13fd57c5a1967c660188c8",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b33dabe6e42f09074f296fbb10e51e2a208d4012ca37f38122f3138bda2e345b",
+      "sha256": [
+        "b33dabe6e42f09074f296fbb10e51e2a208d4012ca37f38122f3138bda2e345b",
+        "c9b309c5aae19614101bbb30dbd14364c8224d2d2d13fd57c5a1967c660188c8"
+      ],
       "text": "You're welcome.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

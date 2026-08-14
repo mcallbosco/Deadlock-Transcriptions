@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_tokamak.mp3",
   "revisions": [
     {
-      "sha256": "5f51fe091a69f248b937f4a2484a01e24ac71591f3f0734e2c33d9f8e66e5f7f",
-      "text": "I see Tokamak.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9ede68fc02624747df76529f84c0f41478139e7734e43b6db2781835dd68792",
+      "sha256": [
+        "5f51fe091a69f248b937f4a2484a01e24ac71591f3f0734e2c33d9f8e66e5f7f",
+        "e9ede68fc02624747df76529f84c0f41478139e7734e43b6db2781835dd68792"
+      ],
       "text": "I see Tokamak.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

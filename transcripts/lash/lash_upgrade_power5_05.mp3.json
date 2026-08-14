@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_upgrade_power5_05.mp3",
   "revisions": [
     {
-      "sha256": "39f7a86704625ffa015d1db760c53981f812956f46e69d873a13654a230ffdc0",
+      "sha256": [
+        "1e006fab8a42386217ac111f4df12b6437e402a1f29f1c4576084242a2c35f3b",
+        "39f7a86704625ffa015d1db760c53981f812956f46e69d873a13654a230ffdc0",
+        "5ea51039d6ce84c283208ef0b52b87a25e2ca77f0e6813685619be3a399425e1"
+      ],
       "text": "They're not gonna know what hit 'em.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5ea51039d6ce84c283208ef0b52b87a25e2ca77f0e6813685619be3a399425e1",
-      "text": "They're not gonna know what hit 'em.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01afd97bfeaef01b68bd6c673f3c9910f06fb1d64d36ed015d2d23e956896cd6",
+      "sha256": [
+        "01afd97bfeaef01b68bd6c673f3c9910f06fb1d64d36ed015d2d23e956896cd6"
+      ],
       "text": "They're not gonna know what hit them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e006fab8a42386217ac111f4df12b6437e402a1f29f1c4576084242a2c35f3b",
-      "text": "They're not gonna know what hit 'em.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

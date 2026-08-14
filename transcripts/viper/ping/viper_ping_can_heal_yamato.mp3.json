@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_can_heal_yamato.mp3",
   "revisions": [
     {
-      "sha256": "13260f388dfb364629bee085325d0b33718b4c83029bdcf22154ea6163c20ef9",
-      "text": "Yamato, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c995d4b6acaa3835dc09eb81eb2223b585fdb97761d9090079382d653e2b7ab",
-      "text": "Yamato, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03cd9113ef9ca609d14f790963a633de6dcbe718ac642c324cb942c63e1c4be2",
+      "sha256": [
+        "03cd9113ef9ca609d14f790963a633de6dcbe718ac642c324cb942c63e1c4be2",
+        "13260f388dfb364629bee085325d0b33718b4c83029bdcf22154ea6163c20ef9",
+        "6c995d4b6acaa3835dc09eb81eb2223b585fdb97761d9090079382d653e2b7ab"
+      ],
       "text": "Yamato, I can heal you!",
       "source": "official"
     }

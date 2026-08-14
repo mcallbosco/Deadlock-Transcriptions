@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ability2_almost_ready_1.mp3",
   "revisions": [
     {
-      "sha256": "e7ca32a5fdb52c2910a51447ebbe1f22e80c648c5518516cd1d8bac9b2a3862b",
-      "text": "Charge is almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "851bb1f377fcc7804b3e740226fd5312b51d314a2a1a0cd96449ff1ae7d72484",
+      "sha256": [
+        "851bb1f377fcc7804b3e740226fd5312b51d314a2a1a0cd96449ff1ae7d72484",
+        "e7ca32a5fdb52c2910a51447ebbe1f22e80c648c5518516cd1d8bac9b2a3862b"
+      ],
       "text": "Charge is almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

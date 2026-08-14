@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_gigawatt_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ef58a85fcda8d1f86b4104901bab05bf0e068203f3b7b7a8877c7bbbf507084b",
+      "sha256": [
+        "ef58a85fcda8d1f86b4104901bab05bf0e068203f3b7b7a8877c7bbbf507084b"
+      ],
       "text": "That is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

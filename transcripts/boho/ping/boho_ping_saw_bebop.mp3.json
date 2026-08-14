@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "7fddce503ae485ee65aa3572895e6681461264c52f059640d367856ecbd0df76",
+      "sha256": [
+        "7fddce503ae485ee65aa3572895e6681461264c52f059640d367856ecbd0df76"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

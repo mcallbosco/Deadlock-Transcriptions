@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_sad_05.mp3",
   "revisions": [
     {
-      "sha256": "aff7fd4ca9d42fc2e4713c6bfef2b8c209d1fd66aeecf65c5df9c0ff019b621d",
+      "sha256": [
+        "aff7fd4ca9d42fc2e4713c6bfef2b8c209d1fd66aeecf65c5df9c0ff019b621d"
+      ],
       "text": "This is bad.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

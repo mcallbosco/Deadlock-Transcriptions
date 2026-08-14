@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_viper_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "290f75752c6be98cc4b018deced48971266ad82fcc236cc235283a2e4e107355",
-      "text": "Viper's missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "766af269d97a72fb6f0a5cbd620d3c8fcfefa768db981769d06b5f3190bf7613",
+      "sha256": [
+        "290f75752c6be98cc4b018deced48971266ad82fcc236cc235283a2e4e107355",
+        "766af269d97a72fb6f0a5cbd620d3c8fcfefa768db981769d06b5f3190bf7613"
+      ],
       "text": "Viper's missing",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_inferno_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8f609c8d3e418fc0199d6415f393b03bed668ee5b98a299f73d65474822c9f9c",
-      "text": "Infernus was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "334ae22ee55d44a12be3ef37ade3465941b8789f22bb872c3e095bfa2cbd1513",
+      "sha256": [
+        "334ae22ee55d44a12be3ef37ade3465941b8789f22bb872c3e095bfa2cbd1513",
+        "8f609c8d3e418fc0199d6415f393b03bed668ee5b98a299f73d65474822c9f9c"
+      ],
       "text": "Infernus was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

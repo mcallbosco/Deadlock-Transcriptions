@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_stasis_03.mp3",
   "revisions": [
     {
-      "sha256": "897e0f6d0f24e921afc0929d5e34a7c4a22a076e3170bf5bedf1586f9b76b2fd",
-      "text": "Need some breathing room.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64fe518b979ed1cf305a74fc9f65187cca1be8db721801dd55f6e5de9fab7268",
-      "text": "Need some breathing room.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "541dbb59640b8b676131d471ed92f644cc5b0619132ad47f70723d17a062ebd9",
+      "sha256": [
+        "541dbb59640b8b676131d471ed92f644cc5b0619132ad47f70723d17a062ebd9",
+        "64fe518b979ed1cf305a74fc9f65187cca1be8db721801dd55f6e5de9fab7268",
+        "897e0f6d0f24e921afc0929d5e34a7c4a22a076e3170bf5bedf1586f9b76b2fd"
+      ],
       "text": "Need some breathing room.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

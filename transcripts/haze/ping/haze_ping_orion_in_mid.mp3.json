@@ -1,41 +1,32 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_orion_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "7abaca3a37e1877a4e9f1ac350343cac73b7654e9a71fe1fbefc36571af1c125",
+      "sha256": [
+        "7abaca3a37e1877a4e9f1ac350343cac73b7654e9a71fe1fbefc36571af1c125"
+      ],
       "text": "All right, admit it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ca068827c6179dab4e87e4e2f3bf3b9bce528c9c5625495166e3b0486bd0d27e",
-      "text": "Grey Talon's in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18016196ac02849d7f679c586770a7c4f62a8f72b12a72108157565285d680a1",
-      "text": "Great talents in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04d494391adad09dff814fa6fd92991e7f5bdae77b061e8d520604b4e4e8d364",
-      "text": "Great talents in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ad6b9ae0350a716fe510caee8c9153da592fc7de3fe32a6f42c47024f4add24",
-      "text": "Great talents in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0b8801644d33d2de6847c74f06b4f41456e31fa9221fe4fe2c2520e74c441f6",
+      "sha256": [
+        "c0b8801644d33d2de6847c74f06b4f41456e31fa9221fe4fe2c2520e74c441f6",
+        "ca068827c6179dab4e87e4e2f3bf3b9bce528c9c5625495166e3b0486bd0d27e"
+      ],
       "text": "Grey Talon's in mid!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "04d494391adad09dff814fa6fd92991e7f5bdae77b061e8d520604b4e4e8d364",
+        "18016196ac02849d7f679c586770a7c4f62a8f72b12a72108157565285d680a1",
+        "7ad6b9ae0350a716fe510caee8c9153da592fc7de3fe32a6f42c47024f4add24"
+      ],
+      "text": "Great talents in mid.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

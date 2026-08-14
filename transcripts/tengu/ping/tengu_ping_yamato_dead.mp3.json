@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "f1069dcc02933798f73e8e1b1e47232e2eb02de8b96cb0c9f1b2bc30d85c20fe",
+      "sha256": [
+        "f1069dcc02933798f73e8e1b1e47232e2eb02de8b96cb0c9f1b2bc30d85c20fe"
+      ],
       "text": "ヤマトはジャイル。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "44ba21728039372f4ef7f05a7831ced6e5f11c7598416a20f0062bf509312d16",
+      "sha256": [
+        "44ba21728039372f4ef7f05a7831ced6e5f11c7598416a20f0062bf509312d16"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

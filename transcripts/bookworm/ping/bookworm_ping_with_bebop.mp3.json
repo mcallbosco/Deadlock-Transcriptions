@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "143bb4a624b0037aa54f94b4f4f87447a591a7cdf7754443df7aae142a43171d",
+      "sha256": [
+        "143bb4a624b0037aa54f94b4f4f87447a591a7cdf7754443df7aae142a43171d",
+        "66f3b35d340f26303715e56ecd41d4a757f04ccf8f83c6cc850a881bd7043f0a"
+      ],
       "text": "I'm with you, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66f3b35d340f26303715e56ecd41d4a757f04ccf8f83c6cc850a881bd7043f0a",
-      "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

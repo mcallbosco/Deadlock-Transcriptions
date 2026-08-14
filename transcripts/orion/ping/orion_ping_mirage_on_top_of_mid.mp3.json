@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_mirage_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "61373b0bcfc10f962e116e8b8ee15893c13cda62bcf771eae33fdca7a9847449",
+      "sha256": [
+        "61373b0bcfc10f962e116e8b8ee15893c13cda62bcf771eae33fdca7a9847449"
+      ],
       "text": "Mirage is on top of me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a6b7800423efc22d706e2c092cf1477165fb41312c4370569dffe4d9628aae00",
+      "sha256": [
+        "7d9bb63e34c8ac3db640c90e5e4d12fe30aa72e9347239fc6252621e4405b667",
+        "a6b7800423efc22d706e2c092cf1477165fb41312c4370569dffe4d9628aae00"
+      ],
       "text": "Mirage is on top of mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d9bb63e34c8ac3db640c90e5e4d12fe30aa72e9347239fc6252621e4405b667",
-      "text": "Mirage is on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1466d7719e480cb9248c82fd87a9b40b8e5e5c2235f6d0862bc005a8fef112d",
+      "sha256": [
+        "c1466d7719e480cb9248c82fd87a9b40b8e5e5c2235f6d0862bc005a8fef112d"
+      ],
       "text": "Mirage's on top of mid!",
       "source": "official"
     }

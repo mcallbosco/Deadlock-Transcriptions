@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "52d8911663b47178f2aaa1b73cc084cf46ed93227a5df14cdf3e811f82eb1132",
-      "text": "Harvey was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f865a7dd6352be3dfa4d75f3a81322466ddf9fc80b72bcd1832d4f104b0d2903",
+      "sha256": [
+        "52d8911663b47178f2aaa1b73cc084cf46ed93227a5df14cdf3e811f82eb1132",
+        "f865a7dd6352be3dfa4d75f3a81322466ddf9fc80b72bcd1832d4f104b0d2903"
+      ],
       "text": "Harvey was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

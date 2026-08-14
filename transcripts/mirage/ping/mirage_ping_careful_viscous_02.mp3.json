@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_viscous_02.mp3",
   "revisions": [
     {
-      "sha256": "e373d0b207dbeb33e236d8c0496d1b335d10922ec280245b4985903cbd604f2b",
+      "sha256": [
+        "e373d0b207dbeb33e236d8c0496d1b335d10922ec280245b4985903cbd604f2b"
+      ],
       "text": "That's all for this test.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0bf2aae7df87d72095763615cb4f3ffd566ae483dc09cb8e8f15f95614d4cf20",
-      "text": "Careful, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e8dfac81a4ea89900e73b2afd63a96fdb73183724d94dc03d5ecea4568c02fc",
-      "text": "Careful, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5444f5804f02bb83cdb0cd78127c8281560c8af025e3b795d7d36548db3a53f8",
+      "sha256": [
+        "0bf2aae7df87d72095763615cb4f3ffd566ae483dc09cb8e8f15f95614d4cf20",
+        "5444f5804f02bb83cdb0cd78127c8281560c8af025e3b795d7d36548db3a53f8",
+        "5e8dfac81a4ea89900e73b2afd63a96fdb73183724d94dc03d5ecea4568c02fc"
+      ],
       "text": "Careful, Viscous",
       "source": "official"
     }

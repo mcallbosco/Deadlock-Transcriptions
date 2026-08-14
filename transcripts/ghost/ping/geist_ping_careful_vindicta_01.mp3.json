@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_vindicta_01.mp3",
   "revisions": [
     {
-      "sha256": "9f1940bcff2f7be53b20419ec2dd14d7fce272be478f369ad8fb531b13092314",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ed85b46b9c5763bffb4162c458d954eb9aae81b469068b87412bbce9b7174a3",
+      "sha256": [
+        "2ed85b46b9c5763bffb4162c458d954eb9aae81b469068b87412bbce9b7174a3",
+        "9f1940bcff2f7be53b20419ec2dd14d7fce272be478f369ad8fb531b13092314"
+      ],
       "text": "Careful, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

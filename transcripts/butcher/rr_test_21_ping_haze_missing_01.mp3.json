@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "cbdc220d04832f15a24544f3d420c3233eba24163bda0951a6845a4623e56b41",
+      "sha256": [
+        "cbdc220d04832f15a24544f3d420c3233eba24163bda0951a6845a4623e56b41"
+      ],
       "text": "Hey, this is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc53f505ef0071811ef286d01be491c75bc791a243b69e3b903e073d0807f818",
-      "text": "Hey, is this missing?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e825cc2e44e696f5db5a7fbfe6b3247696019b2081b4a9852a9eb2fea66db215",
+      "sha256": [
+        "bc53f505ef0071811ef286d01be491c75bc791a243b69e3b903e073d0807f818",
+        "e825cc2e44e696f5db5a7fbfe6b3247696019b2081b4a9852a9eb2fea66db215"
+      ],
       "text": "Hey, is this missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

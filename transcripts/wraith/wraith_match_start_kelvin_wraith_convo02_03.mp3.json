@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_match_start_kelvin_wraith_convo02_03.mp3",
   "revisions": [
     {
-      "sha256": "7ca0e7a36997e55f2410c7067d40d6ddef539e7ad3efad7af6f2aea706d787fc",
+      "sha256": [
+        "0fe2447c95e6e8d6b55276312b64cadb308f5d8a46a637e53acf89895c6c19c5",
+        "7ca0e7a36997e55f2410c7067d40d6ddef539e7ad3efad7af6f2aea706d787fc"
+      ],
       "text": "Is that why you're here?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0fe2447c95e6e8d6b55276312b64cadb308f5d8a46a637e53acf89895c6c19c5",
-      "text": "Is that why you're here?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "637609f3ac45def11009cc32ea08e5991361fe728b2aa96d68334877dc4f541a",
+      "sha256": [
+        "637609f3ac45def11009cc32ea08e5991361fe728b2aa96d68334877dc4f541a"
+      ],
       "text": "That why you're here?",
       "source": "official"
     }

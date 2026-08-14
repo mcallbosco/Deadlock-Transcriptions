@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_orange_help_01.mp3",
   "revisions": [
     {
-      "sha256": "b72bf49057ffc8b6abadbf3d47a9d1f2178ea9e18bd44b73e5fcaf69815d844f",
-      "text": "Orange needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2cd6f9cd79467931f41bf21193a7e822cb7e20717a6a01efe9f3414b9dfb2ea4",
-      "text": "Orange needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab5b98679ef0954f90272b5bb21f548a1cc646dbc37c002eb8eaefb513cc4bc9",
+      "sha256": [
+        "2cd6f9cd79467931f41bf21193a7e822cb7e20717a6a01efe9f3414b9dfb2ea4",
+        "ab5b98679ef0954f90272b5bb21f548a1cc646dbc37c002eb8eaefb513cc4bc9",
+        "b72bf49057ffc8b6abadbf3d47a9d1f2178ea9e18bd44b73e5fcaf69815d844f"
+      ],
       "text": "Orange needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

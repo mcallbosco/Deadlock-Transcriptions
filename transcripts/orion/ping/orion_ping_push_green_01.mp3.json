@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_push_green_01.mp3",
   "revisions": [
     {
-      "sha256": "2caa489c96e201a3aa3541ef936ac4082b2849373250901030e77d0f6818ca29",
-      "text": "Let's push green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e514de22326fc7470db82c552ddc8d9ee6b99e740839ee6e8c01e0c1e2e7c02",
-      "text": "Let's push green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b243dc8e02918e7e569025358a62932966c7c6ebe31f2a37bcf0f1a6c076172",
+      "sha256": [
+        "2caa489c96e201a3aa3541ef936ac4082b2849373250901030e77d0f6818ca29",
+        "6b243dc8e02918e7e569025358a62932966c7c6ebe31f2a37bcf0f1a6c076172",
+        "7e514de22326fc7470db82c552ddc8d9ee6b99e740839ee6e8c01e0c1e2e7c02"
+      ],
       "text": "Let's push Green",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "f06c8bbfec71ec2cf1719a3a0453c9dbd73ba5dcfcef0edb045f1f0151d89a4d",
+      "sha256": [
+        "f06c8bbfec71ec2cf1719a3a0453c9dbd73ba5dcfcef0edb045f1f0151d89a4d"
+      ],
       "text": "How you doin'?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7a75c2d32908f15631a8961d58fd183559c919334b81e96def0c2e9a922b02ad",
+      "sha256": [
+        "7a75c2d32908f15631a8961d58fd183559c919334b81e96def0c2e9a922b02ad"
+      ],
       "text": "Headed to Blue",
       "source": "official"
     }

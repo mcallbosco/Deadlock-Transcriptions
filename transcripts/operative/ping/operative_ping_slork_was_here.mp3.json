@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_slork_was_here.mp3",
   "revisions": [
     {
-      "sha256": "bbda64d4ed46ae7d0124854b5c6f35a02521f67d84648586ba8570e9bf61f052",
+      "sha256": [
+        "bbda64d4ed46ae7d0124854b5c6f35a02521f67d84648586ba8570e9bf61f052"
+      ],
       "text": "Father was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

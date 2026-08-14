@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_infernus_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b82dc87d08544b8ad5f2dba119d8d5bbca4d7b840b02c4def643dded9111145e",
+      "sha256": [
+        "b82dc87d08544b8ad5f2dba119d8d5bbca4d7b840b02c4def643dded9111145e"
+      ],
       "text": "And how does this hear?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "31f3314564ff7d8a9cff2249ea75cd472dc4c4818d7bcc0f1dc150f8dbb27d4a",
+      "sha256": [
+        "31f3314564ff7d8a9cff2249ea75cd472dc4c4818d7bcc0f1dc150f8dbb27d4a",
+        "6e15353c35202dd7219c74ce022192282ab13c2b11f1edac94bbba617f2a7a36"
+      ],
       "text": "Infernus here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6e15353c35202dd7219c74ce022192282ab13c2b11f1edac94bbba617f2a7a36",
-      "text": "Infernus here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b4d131447a1f430f283f7fd31d91e0adbd0a208caf3d140b9db1a0042c9f01a",
+      "sha256": [
+        "3b4d131447a1f430f283f7fd31d91e0adbd0a208caf3d140b9db1a0042c9f01a"
+      ],
       "text": "Infernus is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

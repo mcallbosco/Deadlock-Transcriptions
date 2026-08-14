@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_praise_frank.mp3",
   "revisions": [
     {
-      "sha256": "faa94cbfc36bdd1891b5d9c0c3496b5a3e221db70f35bc3c0167f5d1e1808cc9",
+      "sha256": [
+        "faa94cbfc36bdd1891b5d9c0c3496b5a3e221db70f35bc3c0167f5d1e1808cc9"
+      ],
       "text": "Well done, Victor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "75865d0e2ba8a514efc52ad655eac0436bf124cf000206be58189bc2bd579d40",
+      "sha256": [
+        "75865d0e2ba8a514efc52ad655eac0436bf124cf000206be58189bc2bd579d40"
+      ],
       "text": "Your resolve is boundless Victor",
       "source": "official"
     }

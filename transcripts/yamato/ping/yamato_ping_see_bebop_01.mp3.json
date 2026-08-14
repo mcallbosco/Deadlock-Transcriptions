@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "45055d24a1f59199d92f5a2b0ad87a029b12f454393c90066ae06b16358046c8",
-      "text": "I see Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f23feea4aa6f2407c5830769373f1792b924cc9bcc1b2bf5fe41dced9be8e5a3",
-      "text": "I see Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46554b2408da79a2286551bfc906ec63580ffe5d7a0c2d57f326c4d731394665",
+      "sha256": [
+        "45055d24a1f59199d92f5a2b0ad87a029b12f454393c90066ae06b16358046c8",
+        "46554b2408da79a2286551bfc906ec63580ffe5d7a0c2d57f326c4d731394665",
+        "f23feea4aa6f2407c5830769373f1792b924cc9bcc1b2bf5fe41dced9be8e5a3"
+      ],
       "text": "I see Bebop",
       "source": "official"
     }

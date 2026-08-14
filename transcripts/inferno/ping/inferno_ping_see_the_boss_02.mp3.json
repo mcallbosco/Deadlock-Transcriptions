@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_the_boss_02.mp3",
   "revisions": [
     {
-      "sha256": "82dbd230c89f057ec29b0e3f6179626e2910f871681c5ef6507584075c57c88e",
-      "text": "That's the boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18dbba358d47388474bb9ef41ef9a6cc2500bc5f19fac4ea6a78122aa8358e08",
+      "sha256": [
+        "18dbba358d47388474bb9ef41ef9a6cc2500bc5f19fac4ea6a78122aa8358e08",
+        "82dbd230c89f057ec29b0e3f6179626e2910f871681c5ef6507584075c57c88e"
+      ],
       "text": "That's the boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "b69d570892a04cd38c38d825fbeab361e9ccbf1939d66abc7fa0c1ae90313f8f",
+      "sha256": [
+        "b69d570892a04cd38c38d825fbeab361e9ccbf1939d66abc7fa0c1ae90313f8f"
+      ],
       "text": "I'm with you, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

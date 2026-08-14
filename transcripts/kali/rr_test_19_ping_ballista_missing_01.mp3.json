@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_ballista_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5aa6dafef9c0c7d07bf87aab7a825f935aa347d730f631384af1975260247412",
-      "text": "I'll see you soon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fcad763d2a49afcc558c529a9e05d0aea2bff8203a44b40edf54f739ac178dbe",
-      "text": "I'll see you soon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db96f825f3e115d82764fb82b201c0164efde5e642408a588702e9a71818297a",
+      "sha256": [
+        "5aa6dafef9c0c7d07bf87aab7a825f935aa347d730f631384af1975260247412",
+        "db96f825f3e115d82764fb82b201c0164efde5e642408a588702e9a71818297a",
+        "fcad763d2a49afcc558c529a9e05d0aea2bff8203a44b40edf54f739ac178dbe"
+      ],
       "text": "I'll see you soon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

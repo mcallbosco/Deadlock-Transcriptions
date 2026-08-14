@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5ec7a4ac1d6e60c05ed85e65ad530334930f2ca788316821024029d462717456",
+      "sha256": [
+        "5ec7a4ac1d6e60c05ed85e65ad530334930f2ca788316821024029d462717456"
+      ],
       "text": "Bebop missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5deb088276627c1a9efdd78f2ebd08240695ad1e205ee850d00a77dc3ff7b072",
-      "text": "Bebop's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67aa220ef0c99513d24e44ef08125d80ee9f2dddf38ebe582b111cf062ff5251",
-      "text": "Bebop's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e2f3197cae07a9e9300d161b992942689f29c4d9856f387adc7314c62698b82",
+      "sha256": [
+        "0e2f3197cae07a9e9300d161b992942689f29c4d9856f387adc7314c62698b82",
+        "5deb088276627c1a9efdd78f2ebd08240695ad1e205ee850d00a77dc3ff7b072",
+        "67aa220ef0c99513d24e44ef08125d80ee9f2dddf38ebe582b111cf062ff5251"
+      ],
       "text": "Bebop's missing",
       "source": "official"
     }

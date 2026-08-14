@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_defend_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "db1d8a31b8630ee3371869b64a31f261e7c7993afa67fa03fb7213ac8919df90",
-      "text": "Defend Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9b0b61bef02ea3ab2f116ce233759e96faddb34e01ab988f409053817d4a5fa",
-      "text": "Defend Blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da5c9ce7054dad6f9d40e63644e30722964ae6ead2a36ef562746728ecb0c44a",
+      "sha256": [
+        "b9b0b61bef02ea3ab2f116ce233759e96faddb34e01ab988f409053817d4a5fa",
+        "da5c9ce7054dad6f9d40e63644e30722964ae6ead2a36ef562746728ecb0c44a",
+        "db1d8a31b8630ee3371869b64a31f261e7c7993afa67fa03fb7213ac8919df90"
+      ],
       "text": "Defend Blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

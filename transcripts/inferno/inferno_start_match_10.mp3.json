@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_start_match_10.mp3",
   "revisions": [
     {
-      "sha256": "cfa5b11eab1870fd53af30d4db38ffb0243e7689c101f9fba35df9781fd33d82",
+      "sha256": [
+        "75323b3a65ff3f07c5316b57b25b23f7cbf55c84dda09808511b4c44849a9711",
+        "cfa5b11eab1870fd53af30d4db38ffb0243e7689c101f9fba35df9781fd33d82"
+      ],
       "text": "Ain't gotta appreciate what I'm doin'.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4dc62d5f579fc49de516a57945974e05a1662cbf364222fc5186723004ba7b49",
+      "sha256": [
+        "4dc62d5f579fc49de516a57945974e05a1662cbf364222fc5186723004ba7b49"
+      ],
       "text": "Ain't gonna appreciate what I'm doing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75323b3a65ff3f07c5316b57b25b23f7cbf55c84dda09808511b4c44849a9711",
-      "text": "Ain't gotta appreciate what I'm doin'.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

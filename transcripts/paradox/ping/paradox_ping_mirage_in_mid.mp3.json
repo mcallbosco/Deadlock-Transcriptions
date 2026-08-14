@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_mirage_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "a0f44be24899579bacabef556244007b01352d8ee5c398b66e2fc3701fcbd831",
+      "sha256": [
+        "6e66c4e8f11da4f96dfb5a4b26d84b32ebc33d1ebf59b1ebb27149d3b4ce3107",
+        "a0f44be24899579bacabef556244007b01352d8ee5c398b66e2fc3701fcbd831"
+      ],
       "text": "Mirage is in mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e66c4e8f11da4f96dfb5a4b26d84b32ebc33d1ebf59b1ebb27149d3b4ce3107",
-      "text": "Mirage is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

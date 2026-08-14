@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_tengu_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6730c633806e43d12765246d5d70b3990369c5157173afd31bed40a5519f79ce",
+      "sha256": [
+        "6730c633806e43d12765246d5d70b3990369c5157173afd31bed40a5519f79ce"
+      ],
       "text": "I'll be smithing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "19a0c48e4d0a5ecc855c2e687af99b27f4f08a440f3e2e7a57d580f5301b5b48",
+      "sha256": [
+        "19a0c48e4d0a5ecc855c2e687af99b27f4f08a440f3e2e7a57d580f5301b5b48",
+        "75e5829dd369b9f6bf69509317f5ec7a28f18c441158393ffe08eac65f29a351"
+      ],
       "text": "Ice missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "75e5829dd369b9f6bf69509317f5ec7a28f18c441158393ffe08eac65f29a351",
-      "text": "Ice missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f6810963d34eb2a73a1747c3d16ea110a70a208fd21b1746ab7d52ad2808f6a",
+      "sha256": [
+        "9f6810963d34eb2a73a1747c3d16ea110a70a208fd21b1746ab7d52ad2808f6a"
+      ],
       "text": "ivy's missing",
       "source": "official"
     }

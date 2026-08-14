@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_sandeep.mp3",
   "revisions": [
     {
-      "sha256": "43503b6b28ea667bd08ce7abaa362771a16e1dd8675f59f8e98a5639ee0d0680",
-      "text": "I see Sandeep.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c234e35f1ae4669322ebcf1e8ccec65ee8a29d5061d0c6ffcfe9d968c45e7174",
-      "text": "I see Sandeep.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ae711f159a08fef76c841755ba4fca60e08364d71b518cabfd4aa815d058982",
+      "sha256": [
+        "43503b6b28ea667bd08ce7abaa362771a16e1dd8675f59f8e98a5639ee0d0680",
+        "4ae711f159a08fef76c841755ba4fca60e08364d71b518cabfd4aa815d058982",
+        "c234e35f1ae4669322ebcf1e8ccec65ee8a29d5061d0c6ffcfe9d968c45e7174"
+      ],
       "text": "I see Sandeep.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

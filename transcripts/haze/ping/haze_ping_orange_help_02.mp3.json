@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_orange_help_02.mp3",
   "revisions": [
     {
-      "sha256": "3b46625c38ffcc5a9ffa277ef6e9aa74b3aac4a9cb27bb82b817679cc82e5f0a",
+      "sha256": [
+        "26f8403f9c7cfa85542384a9725a2ab8d550935b0941c8c78ef2cee806d71ee9",
+        "3b46625c38ffcc5a9ffa277ef6e9aa74b3aac4a9cb27bb82b817679cc82e5f0a"
+      ],
       "text": "Orchard needs help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "26f8403f9c7cfa85542384a9725a2ab8d550935b0941c8c78ef2cee806d71ee9",
-      "text": "Orchard needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43d2fddf5850936b62f140b102897651c8fb3ee1fcf793292321c46be8a02d1b",
+      "sha256": [
+        "43d2fddf5850936b62f140b102897651c8fb3ee1fcf793292321c46be8a02d1b"
+      ],
       "text": "Orchid needs help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

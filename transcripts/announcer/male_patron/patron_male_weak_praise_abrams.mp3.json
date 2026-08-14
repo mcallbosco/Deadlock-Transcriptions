@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_weak_praise_abrams.mp3",
   "revisions": [
     {
-      "sha256": "304f625fb05a7ae996f68086b216952d474d7c1bc26cdab709bf5d21575bf316",
+      "sha256": [
+        "304f625fb05a7ae996f68086b216952d474d7c1bc26cdab709bf5d21575bf316"
+      ],
       "text": "Well done, Detective Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

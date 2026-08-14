@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "23725392ad022a960c358052c44520735232d80cba1046b05a61b890bfb65397",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c5cc28515621b20b6c6b037a9b56008131482878d869dd2048349b71af2337f",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33edec651c370b6d1785dad6c9211052b59abe6cd3e5632ad2558e69a0b74cc4",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b22c07d0a6ba7bd4ee4786bd2433741d0854bbc552e480acfc705caed8e3e77b",
+      "sha256": [
+        "23725392ad022a960c358052c44520735232d80cba1046b05a61b890bfb65397",
+        "33edec651c370b6d1785dad6c9211052b59abe6cd3e5632ad2558e69a0b74cc4",
+        "4c5cc28515621b20b6c6b037a9b56008131482878d869dd2048349b71af2337f",
+        "b22c07d0a6ba7bd4ee4786bd2433741d0854bbc552e480acfc705caed8e3e77b"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

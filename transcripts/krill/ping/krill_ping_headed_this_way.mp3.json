@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "1216607e7fc68ae8c93cdb9993fcf00f50d9dab1f7850f3a857be7e3896ec92a",
+      "sha256": [
+        "1216607e7fc68ae8c93cdb9993fcf00f50d9dab1f7850f3a857be7e3896ec92a",
+        "8a023b44a52b8b733bb1b29765d173f3b6bb45d4780010a0c847f77d577e74d7"
+      ],
       "text": "Head it this way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a86fb963e204987b30049044f479d479e8f53a4b974755ab3b20565525f02e5",
+      "sha256": [
+        "3a86fb963e204987b30049044f479d479e8f53a4b974755ab3b20565525f02e5"
+      ],
       "text": "Turn it this way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a023b44a52b8b733bb1b29765d173f3b6bb45d4780010a0c847f77d577e74d7",
-      "text": "Head it this way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "814b2bb400662232a3d1ae7d9979b5773629dc9bd2cba2c4f82c6fc64d4d7ee2",
+      "sha256": [
+        "814b2bb400662232a3d1ae7d9979b5773629dc9bd2cba2c4f82c6fc64d4d7ee2"
+      ],
       "text": "Headed this way",
       "source": "official"
     }

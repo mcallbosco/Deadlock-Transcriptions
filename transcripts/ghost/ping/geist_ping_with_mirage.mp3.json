@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "9529ebb4553ad34c84e401141e6866d8de50478f3fb8ccccb07e892e33e6ca69",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4426a1d66c0e3a5cb72e8fe8ef0108b2361aca65429de3c7bf124b5ede482abd",
+      "sha256": [
+        "4426a1d66c0e3a5cb72e8fe8ef0108b2361aca65429de3c7bf124b5ede482abd",
+        "9529ebb4553ad34c84e401141e6866d8de50478f3fb8ccccb07e892e33e6ca69"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

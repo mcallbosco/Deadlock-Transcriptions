@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_holliday_03.mp3",
   "revisions": [
     {
-      "sha256": "2d35142eced684bc3809dc008eceecaee4f8cce162ff1ae6fbceaadb64a12c5c",
-      "text": "Careful, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0687fde83aa4f641789f5f92873650817cca60c91fae8d97270591e65b5c7eff",
+      "sha256": [
+        "0687fde83aa4f641789f5f92873650817cca60c91fae8d97270591e65b5c7eff",
+        "2d35142eced684bc3809dc008eceecaee4f8cce162ff1ae6fbceaadb64a12c5c"
+      ],
       "text": "Careful, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

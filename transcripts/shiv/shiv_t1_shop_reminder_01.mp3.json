@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_t1_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "1f56ebbed06aa543ebc46a5b9634adbf9bda94f418f3f0dd1cf1052aceb180e6",
+      "sha256": [
+        "1f56ebbed06aa543ebc46a5b9634adbf9bda94f418f3f0dd1cf1052aceb180e6",
+        "3f3288e88b25deb92f6b2b034e2e65eb68962b54d820446d038c2e5ecd797d4c"
+      ],
       "text": "Goodbye, sucker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3f3288e88b25deb92f6b2b034e2e65eb68962b54d820446d038c2e5ecd797d4c",
-      "text": "Goodbye, sucker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce5582e7a05cc25351b3186e745239bdcad4020125ba01c37a6ea400afe9bf2c",
+      "sha256": [
+        "ce5582e7a05cc25351b3186e745239bdcad4020125ba01c37a6ea400afe9bf2c"
+      ],
       "text": "Should buy something…",
       "source": "official"
     }

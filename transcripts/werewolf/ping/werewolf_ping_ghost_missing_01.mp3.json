@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0a152ec9cf3e4c8c8520898a8e852a2826d03b021deabdcb77264e103c02872a",
+      "sha256": [
+        "0a152ec9cf3e4c8c8520898a8e852a2826d03b021deabdcb77264e103c02872a"
+      ],
       "text": "Gas is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

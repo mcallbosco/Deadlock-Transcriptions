@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/atlas_win_02_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "87e81ecd10e1023da80ec796a0849fcd4a855b121ca11ef39724c69515785119",
+      "sha256": [
+        "87e81ecd10e1023da80ec796a0849fcd4a855b121ca11ef39724c69515785119"
+      ],
       "text": "It's over.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

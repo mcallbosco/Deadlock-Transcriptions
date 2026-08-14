@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "f5b76d44bc224a7674ec0f9b575d4fa028f5c05740418b50dac7399cc97d4833",
-      "text": "Missing yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f71b148794521436b8e7032772e53adf2d27a04ade64ad7ac69f561ff92b3e7",
+      "sha256": [
+        "0f71b148794521436b8e7032772e53adf2d27a04ade64ad7ac69f561ff92b3e7",
+        "f5b76d44bc224a7674ec0f9b575d4fa028f5c05740418b50dac7399cc97d4833"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

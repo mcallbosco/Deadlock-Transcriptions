@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_synth_on_top_of_garage_1.mp3",
   "revisions": [
     {
-      "sha256": "8f51e495920e08d02187caf5cd4766b41d4464faf9e7cd0ad9515db35b87c22f",
-      "text": "Pocket is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a85f1d235028fa89b115f7bb4f908fcf191be75b3cf1c1aca18de1b83c4839f",
+      "sha256": [
+        "8a85f1d235028fa89b115f7bb4f908fcf191be75b3cf1c1aca18de1b83c4839f",
+        "8f51e495920e08d02187caf5cd4766b41d4464faf9e7cd0ad9515db35b87c22f"
+      ],
       "text": "Pocket is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

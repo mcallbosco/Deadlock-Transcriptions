@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_inferno_on_top_of_garage_1.mp3",
   "revisions": [
     {
-      "sha256": "2c87d8cc2aa31b6401a0d350120caf2c7533b33bba4e77923313e33dd540531f",
-      "text": "Infernus is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4a7150f8411a98e87cb6317c3f4357ff09d0a5a8c4ec41c1f84587e640ee3bd",
+      "sha256": [
+        "2c87d8cc2aa31b6401a0d350120caf2c7533b33bba4e77923313e33dd540531f",
+        "d4a7150f8411a98e87cb6317c3f4357ff09d0a5a8c4ec41c1f84587e640ee3bd"
+      ],
       "text": "Infernus is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

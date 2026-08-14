@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_select_05.mp3",
   "revisions": [
     {
-      "sha256": "74e65e8e4758d9380bf7ce59f1c23d7f54f3706f500d8c14f5126c2b5e7cfd99",
+      "sha256": [
+        "74e65e8e4758d9380bf7ce59f1c23d7f54f3706f500d8c14f5126c2b5e7cfd99"
+      ],
       "text": "I've been a dog my whole life. I'm not stopping now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9fe2aa4760db2d885f82e9cc5788c29b551aabfdcde485daf7612449e90753c3",
+      "sha256": [
+        "9fe2aa4760db2d885f82e9cc5788c29b551aabfdcde485daf7612449e90753c3",
+        "cd63676477db0c9e15b3bf8019274cb5a99aa58417d7d2bbe9e68767f27425b6"
+      ],
       "text": "I've been a dead man my whole life, I'm not stopping now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd63676477db0c9e15b3bf8019274cb5a99aa58417d7d2bbe9e68767f27425b6",
-      "text": "I've been a dead man my whole life. I'm not stopping now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

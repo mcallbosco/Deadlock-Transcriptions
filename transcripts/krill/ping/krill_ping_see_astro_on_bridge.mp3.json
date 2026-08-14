@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_astro_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "da29bb264ba8bec4b4ce55ec01633ff9b49fa50396c269d2f604759d818a4f23",
+      "sha256": [
+        "da29bb264ba8bec4b4ce55ec01633ff9b49fa50396c269d2f604759d818a4f23",
+        "fea5f0f763193dee61839d09e48179d0b276e8742633ff1e6c9a74e0cfbeff7f"
+      ],
       "text": "Holliday's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "5a5f45d4b981622601ffd79d3a88029289d80af7df744436231e585400b5a244",
+      "sha256": [
+        "5a5f45d4b981622601ffd79d3a88029289d80af7df744436231e585400b5a244"
+      ],
       "text": "Holiday's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fea5f0f763193dee61839d09e48179d0b276e8742633ff1e6c9a74e0cfbeff7f",
-      "text": "Holliday's on the bridge!",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_careful_infernus_01.mp3",
   "revisions": [
     {
-      "sha256": "c27003aa9db28d76394df257e015ab4218bf1174ed84d28737221248ea51d9b3",
-      "text": "Careful in front.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0db749b9fd3a80dc95ee2396f160ebd302d65d7d081de39852247323f2da7fe6",
+      "sha256": [
+        "0db749b9fd3a80dc95ee2396f160ebd302d65d7d081de39852247323f2da7fe6",
+        "c27003aa9db28d76394df257e015ab4218bf1174ed84d28737221248ea51d9b3"
+      ],
       "text": "Careful in front.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_inferno_headed_to_blue.mp3",
   "revisions": [
     {
-      "sha256": "a785419c4fa41b703953351a58226236df1c787405fa60eee894d71666a9cf54",
-      "text": "Inferno headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "027190a87c570fed113b25744c57f5f4698f9164c7a965c0b10e4aac4673deb8",
-      "text": "Inferno headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ba49dca774919e8e5ea4c44c7fab43ad7e923f75240a05efe72c32344ed033b",
+      "sha256": [
+        "027190a87c570fed113b25744c57f5f4698f9164c7a965c0b10e4aac4673deb8",
+        "3ba49dca774919e8e5ea4c44c7fab43ad7e923f75240a05efe72c32344ed033b",
+        "a785419c4fa41b703953351a58226236df1c787405fa60eee894d71666a9cf54"
+      ],
       "text": "Inferno headed to blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

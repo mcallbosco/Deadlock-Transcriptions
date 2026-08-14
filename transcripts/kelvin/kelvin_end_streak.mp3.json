@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_end_streak.mp3",
   "revisions": [
     {
-      "sha256": "e2e3571e992a831d4f33d79146e32c914d9ae1e008e008465661c46ebfd1f249",
-      "text": "All good things come to an end.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abb0c4dcf2b42c8f990df26c2beeb778b8a5fa10d1756c5880c5a916e4b481f9",
+      "sha256": [
+        "abb0c4dcf2b42c8f990df26c2beeb778b8a5fa10d1756c5880c5a916e4b481f9",
+        "e2e3571e992a831d4f33d79146e32c914d9ae1e008e008465661c46ebfd1f249"
+      ],
       "text": "All good things come to an end…",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "necro/ping/necro_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "b99f552cd17e7b5a6775b9cd129e56445b354d803338044226a150cd0218573f",
+      "sha256": [
+        "b99f552cd17e7b5a6775b9cd129e56445b354d803338044226a150cd0218573f"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

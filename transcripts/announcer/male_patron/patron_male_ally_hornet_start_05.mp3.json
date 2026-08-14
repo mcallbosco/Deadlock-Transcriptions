@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_hornet_start_05.mp3",
   "revisions": [
     {
-      "sha256": "1bcf03e0d0905c7af265996b79278d0e770f0a74782646a24b2a6921a0b41eea",
+      "sha256": [
+        "1bcf03e0d0905c7af265996b79278d0e770f0a74782646a24b2a6921a0b41eea"
+      ],
       "text": "Eighteen souls joined you in Salem. Today you will have your satisfaction.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87eb5f7e80e1e4e7db37fa81a28c0afd7736b01dd4de79411f051ebc8053b11a",
-      "text": "They took your life, Vindicta, and soon you will take theirs.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "194b6555fec7ad9f2cf76f1ed03579af32c1a1f85851a3005adf5707bb10ba11",
+        "87eb5f7e80e1e4e7db37fa81a28c0afd7736b01dd4de79411f051ebc8053b11a"
+      ],
+      "text": "They took your life Vindicta… and soon you will take theirs.",
+      "source": "official"
     },
     {
-      "sha256": "366ceeb806a5a152f8ef92930820ac314562e1e1494d845445ee7ff86b969c1b",
+      "sha256": [
+        "366ceeb806a5a152f8ef92930820ac314562e1e1494d845445ee7ff86b969c1b"
+      ],
       "text": "They took your life, Vendetta, and soon you will take theirs.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "194b6555fec7ad9f2cf76f1ed03579af32c1a1f85851a3005adf5707bb10ba11",
-      "text": "They took your life Vindicta… and soon you will take theirs.",
-      "source": "official"
     }
   ]
 }

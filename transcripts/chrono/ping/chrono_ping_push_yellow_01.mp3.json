@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "e33b66713cb21ffa9450c1df64bafb098d9488ab8df787541436c8acd2df7067",
-      "text": "Let's push yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf1bd50fc2447be72ae06cbbe163c4661480a96db701df2c8fcefb2c3863e10d",
+      "sha256": [
+        "bf1bd50fc2447be72ae06cbbe163c4661480a96db701df2c8fcefb2c3863e10d",
+        "e33b66713cb21ffa9450c1df64bafb098d9488ab8df787541436c8acd2df7067"
+      ],
       "text": "Let's push Yellow",
       "source": "official"
     }

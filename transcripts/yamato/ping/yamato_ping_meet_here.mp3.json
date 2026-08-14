@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_meet_here.mp3",
   "revisions": [
     {
-      "sha256": "0ab76d75e38365d240a26d4762032a8bcedeffefd6a5be2fd8b8f8378ca3b214",
-      "text": "Let's meet here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62c49f81618fdb695ab3711cb6e3de5d4a1cff8790ebaab3570703956dd25004",
+      "sha256": [
+        "0ab76d75e38365d240a26d4762032a8bcedeffefd6a5be2fd8b8f8378ca3b214",
+        "62c49f81618fdb695ab3711cb6e3de5d4a1cff8790ebaab3570703956dd25004"
+      ],
       "text": "Let's meet here",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_warden_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c266024f2b5596e2a274bdb9e97ae7cd0763630df7e8bddb041a05451a1abd81",
+      "sha256": [
+        "c266024f2b5596e2a274bdb9e97ae7cd0763630df7e8bddb041a05451a1abd81"
+      ],
       "text": "Warden is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3213b23f17c019ee2e58207e92020786ec48a3125de462b8244669e73967ccc3",
+      "sha256": [
+        "3213b23f17c019ee2e58207e92020786ec48a3125de462b8244669e73967ccc3"
+      ],
       "text": "Warden's on the bridge!",
       "source": "official"
     }

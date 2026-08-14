@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "1d6d10b68a4e0b9756d9ac4bbc60bd620e3cdc57f609d7cd876065f4a4ddaae4",
+      "sha256": [
+        "1d6d10b68a4e0b9756d9ac4bbc60bd620e3cdc57f609d7cd876065f4a4ddaae4"
+      ],
       "text": "At the end of the day, Bebop, you're just machine.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cad70f77f0a2ef15bdbfd072ab37b47ef428aaa97ec3c3a80b6b708bbd6582c6",
-      "text": "At the end of the day, Bebop, you're just a machine.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d9826797e143f49bb01a9ca72448377e6729356080574322dd5a2557e70a664",
-      "text": "At the end of the day, Bebop, you're just a machine.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d47946a0ff5702858e3e62a56b28ea45cb4f63e0efcdb1d83dd47705a1bf93a",
+      "sha256": [
+        "0d47946a0ff5702858e3e62a56b28ea45cb4f63e0efcdb1d83dd47705a1bf93a",
+        "4d9826797e143f49bb01a9ca72448377e6729356080574322dd5a2557e70a664",
+        "cad70f77f0a2ef15bdbfd072ab37b47ef428aaa97ec3c3a80b6b708bbd6582c6"
+      ],
       "text": "At the end of the day Bebop, you're just a machine.",
       "source": "official"
     }

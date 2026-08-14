@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_kali_01.mp3",
   "revisions": [
     {
-      "sha256": "67255d3bc9e9977b785161bfa7bd401e8e0760967ed8db50915b216b74ee5bc5",
-      "text": "Careful, Kali.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a191333397bfa9723d29e99479d19743f0cb2150588b522d773c09f9cf04fde0",
-      "text": "Careful, Kali.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09cdb19daf123f839ed1e1bc382ecb8283ffe3810c6c1a43888d684173f5cd2d",
+      "sha256": [
+        "09cdb19daf123f839ed1e1bc382ecb8283ffe3810c6c1a43888d684173f5cd2d",
+        "67255d3bc9e9977b785161bfa7bd401e8e0760967ed8db50915b216b74ee5bc5",
+        "a191333397bfa9723d29e99479d19743f0cb2150588b522d773c09f9cf04fde0"
+      ],
       "text": "Careful, Kali.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

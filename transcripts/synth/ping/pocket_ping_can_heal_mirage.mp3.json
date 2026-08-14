@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "1f01c6d8149348d5b8515ae28bea6c8d5ca738fae638a86ab7826bf737217cae",
+      "sha256": [
+        "1f01c6d8149348d5b8515ae28bea6c8d5ca738fae638a86ab7826bf737217cae",
+        "cb183c80eed86383b4e9a3ebe0fbb741a2fc58b11c9143f5c0a2637bc01b2ca0"
+      ],
       "text": "Mirage, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb183c80eed86383b4e9a3ebe0fbb741a2fc58b11c9143f5c0a2637bc01b2ca0",
-      "text": "Mirage, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

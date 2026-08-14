@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_going_shop_01.mp3",
   "revisions": [
     {
-      "sha256": "d52b16a667184c1f20e3cbda8e2e09a8b3d34e6ab141824ff2ca0fa67f324c55",
+      "sha256": [
+        "d52b16a667184c1f20e3cbda8e2e09a8b3d34e6ab141824ff2ca0fa67f324c55"
+      ],
       "text": "Good shot, shot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8e6ac4a9a88d3a0e0456b791d5364eb3a813e38e4668e43fabd3d3993a059e12",
+      "sha256": [
+        "8e6ac4a9a88d3a0e0456b791d5364eb3a813e38e4668e43fabd3d3993a059e12",
+        "e82ece50544355cf87c3a4316479293dccc8e4ed6bc6cee9acc6b6a9b042e850"
+      ],
       "text": "Go on a shop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e82ece50544355cf87c3a4316479293dccc8e4ed6bc6cee9acc6b6a9b042e850",
-      "text": "Go on a shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f774e241e8e9033c22c34814ef14ea1275b6d83c9fac17b967d067e1621a74ff",
+      "sha256": [
+        "f774e241e8e9033c22c34814ef14ea1275b6d83c9fac17b967d067e1621a74ff"
+      ],
       "text": "Going to shop",
       "source": "official"
     }

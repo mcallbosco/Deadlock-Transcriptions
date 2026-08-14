@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_kali_headed_to_purple.mp3",
   "revisions": [
     {
-      "sha256": "52d067fe150c965498b84baefb2dfce60381f9c39818e54d9fada8f3a55d2288",
-      "text": "Holly's headed to purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ef019b2bcb01eab484ec68a615c20228fb3834bdc12d9bbe4eb86f89c578af9",
-      "text": "Holly's headed to purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3537379cf0734a97b1036b3f6dfb4e3969a1f5859e3f71db8c635373e238188a",
+      "sha256": [
+        "1ef019b2bcb01eab484ec68a615c20228fb3834bdc12d9bbe4eb86f89c578af9",
+        "3537379cf0734a97b1036b3f6dfb4e3969a1f5859e3f71db8c635373e238188a",
+        "52d067fe150c965498b84baefb2dfce60381f9c39818e54d9fada8f3a55d2288"
+      ],
       "text": "Holly's headed to purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

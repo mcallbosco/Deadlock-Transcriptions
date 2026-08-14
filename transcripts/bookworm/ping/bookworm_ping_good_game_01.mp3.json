@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_good_game_01.mp3",
   "revisions": [
     {
-      "sha256": "ea105b9b9d6cbca39afad28991398f9206dabafb0e2d1dfed097addd78f86b8c",
+      "sha256": [
+        "ea105b9b9d6cbca39afad28991398f9206dabafb0e2d1dfed097addd78f86b8c"
+      ],
       "text": "All right!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e6515c52a70c594a3e5d7adb7fb2b752c3e4eaddac1e7f920d85976cf8ebefc4",
+      "sha256": [
+        "e6515c52a70c594a3e5d7adb7fb2b752c3e4eaddac1e7f920d85976cf8ebefc4"
+      ],
       "text": "What an ending",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_nano_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "ddc3ffbd369811f6645742076ada39c538d72608d9adc23e0ade22842137fdf7",
-      "text": "Calico's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4e643f37af5f0a90348f43872cf79c5e52182616dd8df8dcc8dd55b555fd57b",
+      "sha256": [
+        "c4e643f37af5f0a90348f43872cf79c5e52182616dd8df8dcc8dd55b555fd57b",
+        "ddc3ffbd369811f6645742076ada39c538d72608d9adc23e0ade22842137fdf7"
+      ],
       "text": "Calico's on the bridge!",
       "source": "official"
     }

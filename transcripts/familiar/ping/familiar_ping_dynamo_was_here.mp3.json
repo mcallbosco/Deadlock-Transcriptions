@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8a39b8214a2d6e4530b115c24ae2cab3c3ac8e00d58b57d9b9e65d9d6f3b9dfc",
+      "sha256": [
+        "8a39b8214a2d6e4530b115c24ae2cab3c3ac8e00d58b57d9b9e65d9d6f3b9dfc"
+      ],
       "text": "Dynamo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

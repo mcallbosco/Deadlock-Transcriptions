@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_careful_rutger_01.mp3",
   "revisions": [
     {
-      "sha256": "d81905db95d8675425855eebfb033083e97fea216fe47a5ceb00b799649c65e2",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a92dde97d10c27aa84117e5287597d914bbdf3c69da54b4d8c4e7973e3a72dec",
+      "sha256": [
+        "a92dde97d10c27aa84117e5287597d914bbdf3c69da54b4d8c4e7973e3a72dec",
+        "d81905db95d8675425855eebfb033083e97fea216fe47a5ceb00b799649c65e2"
+      ],
       "text": "Careful, Wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

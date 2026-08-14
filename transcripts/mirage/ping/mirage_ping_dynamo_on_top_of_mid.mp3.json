@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_dynamo_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "3d9f581a51a28b940e40aa35cdbee50305241bec11a1a3649122fcbecd685783",
+      "sha256": [
+        "3d9f581a51a28b940e40aa35cdbee50305241bec11a1a3649122fcbecd685783"
+      ],
       "text": "That was on the map.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "313475c249c355f5c669cbc86727131ba93aa288a7222ef5ad2384ba6f5402af",
-      "text": "Dynamo's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "313475c249c355f5c669cbc86727131ba93aa288a7222ef5ad2384ba6f5402af",
+        "490e83ca9ac2febe17488fd82d7e1a5e16b17e34836d5935ff292aaa66e78e1f"
+      ],
+      "text": "Dynamo's on top of mid!",
+      "source": "official"
     },
     {
-      "sha256": "d2c279bcd8713475484ceaec75e461e0b0cf050640dfad559b260ab36ec09d56",
+      "sha256": [
+        "d2c279bcd8713475484ceaec75e461e0b0cf050640dfad559b260ab36ec09d56"
+      ],
       "text": "Dynamo is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "490e83ca9ac2febe17488fd82d7e1a5e16b17e34836d5935ff292aaa66e78e1f",
-      "text": "Dynamo's on top of mid!",
-      "source": "official"
     }
   ]
 }

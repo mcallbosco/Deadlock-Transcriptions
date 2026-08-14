@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_abrams_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "a24d6eed5d7cbe227947f8fbfe00bae3854c48b556309450d894f866af15ba94",
-      "text": "Abrams, on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79edb186036ed6455c0c8d20c5353718dbb79119b83ca1e99f801d01527576f0",
+      "sha256": [
+        "79edb186036ed6455c0c8d20c5353718dbb79119b83ca1e99f801d01527576f0",
+        "a24d6eed5d7cbe227947f8fbfe00bae3854c48b556309450d894f866af15ba94"
+      ],
       "text": "Abrams, on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

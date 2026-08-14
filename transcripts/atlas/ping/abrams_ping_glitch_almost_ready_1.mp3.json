@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_glitch_almost_ready_1.mp3",
   "revisions": [
     {
-      "sha256": "e2a340427cd4d40fe18a45d0cd87db27025e93d44f47949e2ca37abb5925adf7",
-      "text": "Glitch is almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49f67fb1690afc0634f77ed7ca813593b8d11722c1295ad5fee3da649756cd08",
+      "sha256": [
+        "49f67fb1690afc0634f77ed7ca813593b8d11722c1295ad5fee3da649756cd08",
+        "e2a340427cd4d40fe18a45d0cd87db27025e93d44f47949e2ca37abb5925adf7"
+      ],
       "text": "Glitch is almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_can_heal_shiv.mp3",
   "revisions": [
     {
-      "sha256": "1174801788064ea95cdf148ea033f6fb450292f85e62ea61f27211e8bb60c0c4",
-      "text": "Shiv, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cefbee6ccb6fd66a96ade238bad583a49d5254e6a5bb3aef5b1e9e9d826f9a26",
-      "text": "If I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46e6248e02c80195134fd00417af75762c7408d21974e6b33454cd17c229c36b",
-      "text": "If I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b546f29eb634dc8370c6af32af48856783b561cde4c4433d6239ee6f033906c",
+      "sha256": [
+        "0b546f29eb634dc8370c6af32af48856783b561cde4c4433d6239ee6f033906c",
+        "1174801788064ea95cdf148ea033f6fb450292f85e62ea61f27211e8bb60c0c4"
+      ],
       "text": "Shiv, I can heal you!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "46e6248e02c80195134fd00417af75762c7408d21974e6b33454cd17c229c36b",
+        "cefbee6ccb6fd66a96ade238bad583a49d5254e6a5bb3aef5b1e9e9d826f9a26"
+      ],
+      "text": "If I can heal you.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

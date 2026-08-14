@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "a28416723895e74dc7428d74fa334775e36f68895ca4b68b817dba01430d2064",
+      "sha256": [
+        "a28416723895e74dc7428d74fa334775e36f68895ca4b68b817dba01430d2064"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

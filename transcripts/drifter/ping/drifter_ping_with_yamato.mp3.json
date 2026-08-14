@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "c5424bb570d8b8304a70262cb1bcfe9b78645539b60bb2dda0b89481000cfbfb",
+      "sha256": [
+        "c5424bb570d8b8304a70262cb1bcfe9b78645539b60bb2dda0b89481000cfbfb"
+      ],
       "text": "I want you, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

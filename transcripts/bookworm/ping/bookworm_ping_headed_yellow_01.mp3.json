@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "32382b6dcc5adc04a2a27fdad162446ab39b1ff6eca76e3dbab1c4125d1e6f83",
+      "sha256": [
+        "32382b6dcc5adc04a2a27fdad162446ab39b1ff6eca76e3dbab1c4125d1e6f83"
+      ],
       "text": "Height it to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a52e394801325f8439c4a272152c963271b11830cf9e03d19ced90fe19b97f7a",
+      "sha256": [
+        "a52e394801325f8439c4a272152c963271b11830cf9e03d19ced90fe19b97f7a"
+      ],
       "text": "Headed to Yellow.",
       "source": "official"
     }

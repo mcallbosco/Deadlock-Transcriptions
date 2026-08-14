@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_use_power4_08.mp3",
   "revisions": [
     {
-      "sha256": "e5bf20c8434049bb1d384ed0b55cf1bfe9cbf64c65e8150d3ee854d955b86c19",
+      "sha256": [
+        "2bddfaca9948d2544ad91dc78507d904835a6859ab3f1f3448c7d16412ba1f51",
+        "43f261b310496124e1366a7d7c48bac791441157e7a60d8f74ca6dfbc36e6c8d",
+        "e18099593d9ffa8cab669a70f57783127a26a6b18ce0eaf26c5d3d16c424e43a",
+        "e5bf20c8434049bb1d384ed0b55cf1bfe9cbf64c65e8150d3ee854d955b86c19"
+      ],
       "text": "This ends now!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "57f1b869cb7542b1ce2d4385832f9a2068a78c94699ae56c924aedcba0aaaa03",
+      "sha256": [
+        "57f1b869cb7542b1ce2d4385832f9a2068a78c94699ae56c924aedcba0aaaa03"
+      ],
       "text": "It is now!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43f261b310496124e1366a7d7c48bac791441157e7a60d8f74ca6dfbc36e6c8d",
-      "text": "This ends now!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e18099593d9ffa8cab669a70f57783127a26a6b18ce0eaf26c5d3d16c424e43a",
-      "text": "This ends now!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2bddfaca9948d2544ad91dc78507d904835a6859ab3f1f3448c7d16412ba1f51",
-      "text": "This ends now!",
-      "source": "official"
     }
   ]
 }

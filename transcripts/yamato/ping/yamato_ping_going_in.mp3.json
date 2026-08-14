@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_going_in.mp3",
   "revisions": [
     {
-      "sha256": "7a8d35a7287472be1af81a69778246f27c80ff358b134002e02ec12b9ca34f50",
-      "text": "Going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1b45c29f59ace0811b0196a1fbfdbfad2a1a80370657964285d3b8a1cd52061",
-      "text": "Going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d63d9d2c976aa6fad3d2b32fcecf1b3334a8b889be72eea8fb30540c59837d0",
+      "sha256": [
+        "4d63d9d2c976aa6fad3d2b32fcecf1b3334a8b889be72eea8fb30540c59837d0",
+        "7a8d35a7287472be1af81a69778246f27c80ff358b134002e02ec12b9ca34f50",
+        "c1b45c29f59ace0811b0196a1fbfdbfad2a1a80370657964285d3b8a1cd52061"
+      ],
       "text": "Going in",
       "source": "official"
     }

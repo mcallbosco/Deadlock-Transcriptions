@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_punkgoat_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3a61ff39e564db1dbe91f4faa15c378405d33fe89156cec4f2177335170ffccd",
+      "sha256": [
+        "3a61ff39e564db1dbe91f4faa15c378405d33fe89156cec4f2177335170ffccd"
+      ],
       "text": "The goatman was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

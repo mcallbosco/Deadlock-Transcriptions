@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_gigawatt_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c3b7c035028e377c2448a587cf50ef7d71d0c6bb0f01f4be028deda35ef4e64b",
+      "sha256": [
+        "c3b7c035028e377c2448a587cf50ef7d71d0c6bb0f01f4be028deda35ef4e64b"
+      ],
       "text": "Gigawatt is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f6f1e4577b989f30ea9f330db68ad39aecf59f235640fc65db375b28f2758799",
+      "sha256": [
+        "f6f1e4577b989f30ea9f330db68ad39aecf59f235640fc65db375b28f2758799"
+      ],
       "text": "Seven's missing",
       "source": "official"
     }

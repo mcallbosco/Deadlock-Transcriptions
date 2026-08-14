@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_upgrade_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "0d0149bd0cc794486727e233d1e50e004b10aae92482a7c320fcfac42756f449",
+      "sha256": [
+        "0d0149bd0cc794486727e233d1e50e004b10aae92482a7c320fcfac42756f449"
+      ],
       "text": "They are gonna learn about the power of words.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

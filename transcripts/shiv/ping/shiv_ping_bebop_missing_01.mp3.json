@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1327c0c38b449d4a9d2cb5d05867994728fd4f91d420ecc852fc6c59d151eb21",
+      "sha256": [
+        "1327c0c38b449d4a9d2cb5d05867994728fd4f91d420ecc852fc6c59d151eb21",
+        "d163e822573dfd0caca861f3dce8a9e830dbc2438498fdb1e44e9c902b413223"
+      ],
       "text": "Bebop is risen.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d163e822573dfd0caca861f3dce8a9e830dbc2438498fdb1e44e9c902b413223",
-      "text": "Bebop is risen.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a2c8f772f9801edece87b6ea96e16ab07b4e7a59d7100008f56bfa48a93d6ef",
+      "sha256": [
+        "8a2c8f772f9801edece87b6ea96e16ab07b4e7a59d7100008f56bfa48a93d6ef"
+      ],
       "text": "Bebop's missing",
       "source": "official"
     }

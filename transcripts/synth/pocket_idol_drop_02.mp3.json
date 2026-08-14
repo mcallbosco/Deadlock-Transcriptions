@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_idol_drop_02.mp3",
   "revisions": [
     {
-      "sha256": "5102004a16a787a2e3fb3ab7d6c6569480bdd47984f5f7b8a79cc37e766d199c",
+      "sha256": [
+        "440095da21cde6dbbd62487f41ad59dfbd202a837271e3ca164a38330c0d05d6",
+        "5102004a16a787a2e3fb3ab7d6c6569480bdd47984f5f7b8a79cc37e766d199c"
+      ],
       "text": "Should we run with the spirit jar?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "440095da21cde6dbbd62487f41ad59dfbd202a837271e3ca164a38330c0d05d6",
-      "text": "Should we run with the Spirit Jar?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

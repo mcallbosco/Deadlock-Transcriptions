@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_bebop_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "2072a9ec99bbeb592d0f96e40898c2566744d4583fb0a32cc006e1dcf19f9a2e",
+      "sha256": [
+        "2072a9ec99bbeb592d0f96e40898c2566744d4583fb0a32cc006e1dcf19f9a2e"
+      ],
       "text": "Viva's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "29d099475270ef9e0cc1cb895692848c90b54c86d637ce93ac9a429a15538e83",
+      "sha256": [
+        "29d099475270ef9e0cc1cb895692848c90b54c86d637ce93ac9a429a15538e83"
+      ],
       "text": "Bebop's under the garage!",
       "source": "official"
     }

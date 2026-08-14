@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_match_start_06_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "fa379780ba3391eeb0f5a18ca74a79b3df0db80c46a3c0aef32aedee35d40d1e",
-      "text": "New York awaits you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "885c2ad93617b0e366c84930b3266089fbe0c35a6b8baa1a48a25831fa289fb4",
+      "sha256": [
+        "885c2ad93617b0e366c84930b3266089fbe0c35a6b8baa1a48a25831fa289fb4",
+        "fa379780ba3391eeb0f5a18ca74a79b3df0db80c46a3c0aef32aedee35d40d1e"
+      ],
       "text": "New York awaits you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

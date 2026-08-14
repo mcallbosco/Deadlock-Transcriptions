@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_careful_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "4739ea827ae519a46df08efed27482a2ecf58cbb606800fbe13434e018412866",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "362e6adcbbe2cbb644ff6ab4fd3995740b3a127abd9d9e353519dca93b2e97ca",
-      "text": "You're slimy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3957f255bedf23892f08ef667e4cc1cae946e8560f2ffc04ec0227f1f69e6c6",
-      "text": "You're slimy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78e3722a9fea99557d60a0f2ea55ec55e3429764988fad49121c0456f30d111d",
+      "sha256": [
+        "4739ea827ae519a46df08efed27482a2ecf58cbb606800fbe13434e018412866",
+        "78e3722a9fea99557d60a0f2ea55ec55e3429764988fad49121c0456f30d111d"
+      ],
       "text": "Careful, ivy…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "362e6adcbbe2cbb644ff6ab4fd3995740b3a127abd9d9e353519dca93b2e97ca",
+        "e3957f255bedf23892f08ef667e4cc1cae946e8560f2ffc04ec0227f1f69e6c6"
+      ],
+      "text": "You're slimy.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

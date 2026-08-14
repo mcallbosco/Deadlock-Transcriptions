@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_geist.mp3",
   "revisions": [
     {
-      "sha256": "96928c7431f48b1bed3f2d56aa50635b07a226f0d6950e9cceb7cc2ca457c74f",
-      "text": "I'm with you, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e2f069495f77dec210d8f65486636b51e658d53b213c3085db341c1749e9b16",
-      "text": "I'm with you, Geist!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36da17c8fb6adcdd67b4004232372ae71d1084aabc1c7eacb5ee6a3f527d4884",
+      "sha256": [
+        "36da17c8fb6adcdd67b4004232372ae71d1084aabc1c7eacb5ee6a3f527d4884",
+        "7e2f069495f77dec210d8f65486636b51e658d53b213c3085db341c1749e9b16",
+        "96928c7431f48b1bed3f2d56aa50635b07a226f0d6950e9cceb7cc2ca457c74f"
+      ],
       "text": "I'm with you, Geist!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

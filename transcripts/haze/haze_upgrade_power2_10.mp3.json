@@ -1,39 +1,44 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_upgrade_power2_10.mp3",
   "revisions": [
     {
-      "sha256": "05f7973c162ea96dd0e70921c8e7c17e3add57db51930c9bb258a3f6dd4482c3",
+      "sha256": [
+        "05f7973c162ea96dd0e70921c8e7c17e3add57db51930c9bb258a3f6dd4482c3"
+      ],
       "text": "I must demand to execute.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a954754402288f56f1e7e99cfedfbcc319b95605148fe39aafaf77769799968",
+      "sha256": [
+        "0a954754402288f56f1e7e99cfedfbcc319b95605148fe39aafaf77769799968"
+      ],
       "text": "It was too late.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f8b4483399e33904ddc2792a9bab86f569baf0f6460ddbf60f50c5a464e9eba",
+      "sha256": [
+        "1f8b4483399e33904ddc2792a9bab86f569baf0f6460ddbf60f50c5a464e9eba",
+        "46c36242342b4b4dc462b33e5f6ef244bdd2d0ec10c814a2aec582930d43042b"
+      ],
       "text": "You won't see me until it's too late.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "46c36242342b4b4dc462b33e5f6ef244bdd2d0ec10c814a2aec582930d43042b",
-      "text": "You won't see me until it's too late.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aea23890798161f9519247de63eb05f45a3f7c58c85ad0eaba093c58234bbb46",
+      "sha256": [
+        "aea23890798161f9519247de63eb05f45a3f7c58c85ad0eaba093c58234bbb46"
+      ],
       "text": "I won't see me until it's too late.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d8b0a38eee9151e547f3912dab24f458eca4cb60f6496b68d1c5cb4d27aebc4d",
+      "sha256": [
+        "d8b0a38eee9151e547f3912dab24f458eca4cb60f6496b68d1c5cb4d27aebc4d"
+      ],
       "text": "They won't see me until it's too late.",
       "source": "official"
     }

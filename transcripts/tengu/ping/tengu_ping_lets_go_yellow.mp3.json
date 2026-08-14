@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "906fd171e3d0434ce623617f07ee695eb6bc4d6e6b94dcaf05bdc6274a1304eb",
-      "text": "Let's go, yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f74b51acbc76f9f8306df438369cccb5e9796d3895ac969b64f3cc005b64bb96",
+      "sha256": [
+        "906fd171e3d0434ce623617f07ee695eb6bc4d6e6b94dcaf05bdc6274a1304eb",
+        "f74b51acbc76f9f8306df438369cccb5e9796d3895ac969b64f3cc005b64bb96"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

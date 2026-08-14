@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_paradox_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "1020f1d0cd497f94abe10a618809555ccd08d807cc6a3ec2af4bdcdf068e062a",
+      "sha256": [
+        "1020f1d0cd497f94abe10a618809555ccd08d807cc6a3ec2af4bdcdf068e062a"
+      ],
       "text": "Pas d'accès sous le garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4f8e35f12c6cdef5c5757c4378bda33a9f578f2664680b987e2a6cc78314b848",
+      "sha256": [
+        "4f8e35f12c6cdef5c5757c4378bda33a9f578f2664680b987e2a6cc78314b848"
+      ],
       "text": "Paradox est un de garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_frank.mp3",
   "revisions": [
     {
-      "sha256": "228adf4e6184cf0b3b57384764c8c7738be1725510183bedc96b1cd52809a8ae",
+      "sha256": [
+        "228adf4e6184cf0b3b57384764c8c7738be1725510183bedc96b1cd52809a8ae"
+      ],
       "text": "I'm with you, Victor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

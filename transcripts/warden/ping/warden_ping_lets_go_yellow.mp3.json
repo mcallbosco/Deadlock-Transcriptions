@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "c75f7016a456ae95e1c528d7c45c0e224778203483aed1ccf2a8610357a258c3",
-      "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36be1276f4e4523dbdf9b23757c46efce71e51b295b64dc7470d02431431fc6c",
-      "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5078d19167defdc41323ef82d4c42307dfcabf8d790d45c9f9eac2946f01b0f6",
-      "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f714c2de2a37813037693987118b68863efe8e9a5c3712906e0ab4847530fe42",
+      "sha256": [
+        "36be1276f4e4523dbdf9b23757c46efce71e51b295b64dc7470d02431431fc6c",
+        "5078d19167defdc41323ef82d4c42307dfcabf8d790d45c9f9eac2946f01b0f6",
+        "c75f7016a456ae95e1c528d7c45c0e224778203483aed1ccf2a8610357a258c3",
+        "f714c2de2a37813037693987118b68863efe8e9a5c3712906e0ab4847530fe42"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

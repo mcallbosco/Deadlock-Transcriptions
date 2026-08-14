@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power1_03.mp3",
   "revisions": [
     {
-      "sha256": "c535066603e6bbe71daea865bd25953c28daf5627b8f41aeed5f1c8a25cc71fd",
-      "text": "Now this is always satisfying.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73a537ace742fc16fc9672afbcb42d75ab870b9f18cd9b75a66dab3725e49e4c",
-      "text": "Now this is always satisfying.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac6910bc1e4cd472e41460fbb31925d58593f83323f868a8a137e145f1cf0412",
+      "sha256": [
+        "73a537ace742fc16fc9672afbcb42d75ab870b9f18cd9b75a66dab3725e49e4c",
+        "ac6910bc1e4cd472e41460fbb31925d58593f83323f868a8a137e145f1cf0412",
+        "c535066603e6bbe71daea865bd25953c28daf5627b8f41aeed5f1c8a25cc71fd"
+      ],
       "text": "Now this is always satisfying.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_gigawatt_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "433848f1fff3945b85c18125a09fc00aaf70b8c309918e231d469c54dd40f721",
+      "sha256": [
+        "433848f1fff3945b85c18125a09fc00aaf70b8c309918e231d469c54dd40f721"
+      ],
       "text": "City of missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5b544d0d1610cfac39c41d54934d6450f856293dc3b6f8d67026755e97a56b5a",
+      "sha256": [
+        "5b544d0d1610cfac39c41d54934d6450f856293dc3b6f8d67026755e97a56b5a"
+      ],
       "text": "Seven's missing",
       "source": "official"
     }

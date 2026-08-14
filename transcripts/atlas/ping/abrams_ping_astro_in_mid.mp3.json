@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_astro_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "a019a0c4d5788e74a28c4fecb355ff7d90b37ba9b2efadec0846201f36b4006e",
+      "sha256": [
+        "a019a0c4d5788e74a28c4fecb355ff7d90b37ba9b2efadec0846201f36b4006e"
+      ],
       "text": "Holliday's in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e0ef3036f69fc6b51b54bc22222dc500f6c730915104b53268d42a85bb40a3f8",
-      "text": "Holiday's in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b7c1fec0723e0f3a962638ab69eb8c76788821445568c7f101d9cc2f1360aa1",
+      "sha256": [
+        "2b7c1fec0723e0f3a962638ab69eb8c76788821445568c7f101d9cc2f1360aa1",
+        "e0ef3036f69fc6b51b54bc22222dc500f6c730915104b53268d42a85bb40a3f8"
+      ],
       "text": "Holiday's in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

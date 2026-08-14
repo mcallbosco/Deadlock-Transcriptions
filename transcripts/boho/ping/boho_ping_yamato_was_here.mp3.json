@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "71a2e4ded6c3fbe121c699ddbd074d91e50fec80b50d688f01ed88646ab30ade",
+      "sha256": [
+        "71a2e4ded6c3fbe121c699ddbd074d91e50fec80b50d688f01ed88646ab30ade"
+      ],
       "text": "Yamato was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_mirage_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "6438551241ae308482a4d28a3d9e7f29cd36c18d0e37d6cc30f35a54991f1aea",
+      "sha256": [
+        "49f01dccc829a4bf2a7c1062503644650aa3eaec2d692c3abf5effbabf2cd20b",
+        "6438551241ae308482a4d28a3d9e7f29cd36c18d0e37d6cc30f35a54991f1aea",
+        "fead92cb0f6238af0da85f39c897b9216bed348d4dbee0bf22d81075bbdaf9cd"
+      ],
       "text": "Mirage is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fead92cb0f6238af0da85f39c897b9216bed348d4dbee0bf22d81075bbdaf9cd",
-      "text": "Mirage is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49f01dccc829a4bf2a7c1062503644650aa3eaec2d692c3abf5effbabf2cd20b",
-      "text": "Mirage is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "847f38c482041e9d2fd11c7a600dc3d2faa417ffb6b60cd34a3ea190b28faae3",
+      "sha256": [
+        "847f38c482041e9d2fd11c7a600dc3d2faa417ffb6b60cd34a3ea190b28faae3"
+      ],
       "text": "Mirage's on top of mid!",
       "source": "official"
     }

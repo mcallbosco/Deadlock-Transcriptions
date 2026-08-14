@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "efa4702209c4d810e3a35c2d44855fafeb1cdffafc5c98682bac665baaa62e91",
+      "sha256": [
+        "80b9086c4fe3d947e6c6457651dd5ed48e368526988e751ad1dc6cac3baccb67",
+        "efa4702209c4d810e3a35c2d44855fafeb1cdffafc5c98682bac665baaa62e91"
+      ],
       "text": "Kill it again!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "80b9086c4fe3d947e6c6457651dd5ed48e368526988e751ad1dc6cac3baccb67",
-      "text": "Kill it again!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68c7b63de3185a4250bcd59fd22243abb0b997fba74b36e8153cdb46b2850286",
+      "sha256": [
+        "68c7b63de3185a4250bcd59fd22243abb0b997fba74b36e8153cdb46b2850286"
+      ],
       "text": "Headed to Green",
       "source": "official"
     }

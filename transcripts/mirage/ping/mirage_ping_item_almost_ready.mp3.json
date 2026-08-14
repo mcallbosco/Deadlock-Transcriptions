@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_item_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "cb187ed6b7badf914c14aa129e6afc226215708b6aaf46e212670659020b1f1f",
-      "text": "Items almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd2b80ce840860b3f1abca39476bd2dcb34179059a42c9f8a4ce64b3fda521a2",
-      "text": "Items almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "441fe8e2e68de8d060aea247de99481bf0b17f7ef02c40ac6388ce85e0b8731d",
+      "sha256": [
+        "441fe8e2e68de8d060aea247de99481bf0b17f7ef02c40ac6388ce85e0b8731d",
+        "cb187ed6b7badf914c14aa129e6afc226215708b6aaf46e212670659020b1f1f",
+        "cd2b80ce840860b3f1abca39476bd2dcb34179059a42c9f8a4ce64b3fda521a2"
+      ],
       "text": "Item's almost ready",
       "source": "official"
     }

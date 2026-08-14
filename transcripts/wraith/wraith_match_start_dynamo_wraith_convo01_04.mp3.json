@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_match_start_dynamo_wraith_convo01_04.mp3",
   "revisions": [
     {
-      "sha256": "22a62ee5a16b43ed1f7aa1b9d9ac98dd12dcf1e5686f19ea9697f365e5bac2b0",
+      "sha256": [
+        "120be279eefb4780db41ad0958c9b9738acf6f376639d0b904e23784034676e1",
+        "22a62ee5a16b43ed1f7aa1b9d9ac98dd12dcf1e5686f19ea9697f365e5bac2b0"
+      ],
       "text": "Okay, Dad.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "120be279eefb4780db41ad0958c9b9738acf6f376639d0b904e23784034676e1",
-      "text": "Okay, Dad.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e07381dd5f31bad1dcb54c4cb3765804084c90c213d096548e28ca675a54f13a",
+      "sha256": [
+        "e07381dd5f31bad1dcb54c4cb3765804084c90c213d096548e28ca675a54f13a"
+      ],
       "text": "Ok dad.",
       "source": "official"
     }

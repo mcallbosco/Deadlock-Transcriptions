@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_lash.mp3",
   "revisions": [
     {
-      "sha256": "a82fa7c39841aa0297ae9fec95228ec4a38d9c006603fa0e646bbdf50b90bef6",
+      "sha256": [
+        "a82fa7c39841aa0297ae9fec95228ec4a38d9c006603fa0e646bbdf50b90bef6"
+      ],
       "text": "Flash, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "92da4a992cd38d51e6db155c2d8c68f50f23ea45c3a40e24078944f5e57712ca",
+      "sha256": [
+        "92da4a992cd38d51e6db155c2d8c68f50f23ea45c3a40e24078944f5e57712ca"
+      ],
       "text": "Lash, I can heal you!",
       "source": "official"
     }

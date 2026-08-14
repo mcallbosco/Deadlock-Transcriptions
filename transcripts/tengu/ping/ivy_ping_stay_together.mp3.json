@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_stay_together.mp3",
   "revisions": [
     {
-      "sha256": "e16613f1e11721991392156ce98a196434a4e85233dbbce9d7406531326a213e",
-      "text": "Stay together!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8ea94d2aeb9186df4679ac334efebfffe6e9257ad8446a37927cb5c1000a6fd",
-      "text": "Stay together!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b941b59bb80a7f81cf65439aaece9371c3241cd75dac1c97cd77c784880120cd",
+      "sha256": [
+        "a8ea94d2aeb9186df4679ac334efebfffe6e9257ad8446a37927cb5c1000a6fd",
+        "b941b59bb80a7f81cf65439aaece9371c3241cd75dac1c97cd77c784880120cd",
+        "e16613f1e11721991392156ce98a196434a4e85233dbbce9d7406531326a213e"
+      ],
       "text": "Stay together!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

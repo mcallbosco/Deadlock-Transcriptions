@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_affermative_01_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "cc9c9fc1876bba3eccca00bf0a094dbde69715838a91a943b1bee0f54c104138",
-      "text": "Yeah.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b6740658d8441fa6af6fe41966812719630ec0b800cb3a06c0a9c53580471fc",
-      "text": "Yeah.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0e1cbaff317bf0a0ef20e7ad3b95e0417783d4095ee6915e6aeae3ed26e7300",
+      "sha256": [
+        "0b6740658d8441fa6af6fe41966812719630ec0b800cb3a06c0a9c53580471fc",
+        "a0e1cbaff317bf0a0ef20e7ad3b95e0417783d4095ee6915e6aeae3ed26e7300",
+        "cc9c9fc1876bba3eccca00bf0a094dbde69715838a91a943b1bee0f54c104138"
+      ],
       "text": "Yeah.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

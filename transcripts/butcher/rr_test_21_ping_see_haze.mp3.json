@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_haze.mp3",
   "revisions": [
     {
-      "sha256": "3a95ac425f6d6dea7c640234833dbd2f9977c62acd961b5f84ed72f26eee9828",
-      "text": "I see haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88e6d5d25f26481c17657032ca8878d34a4ded8e3ad885727faa15bb2c0805bf",
-      "text": "I see haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc8b7d6b40e6ab86ed051490e6cf0452177c1b1e48e4c9635cc471274f905d47",
+      "sha256": [
+        "3a95ac425f6d6dea7c640234833dbd2f9977c62acd961b5f84ed72f26eee9828",
+        "88e6d5d25f26481c17657032ca8878d34a4ded8e3ad885727faa15bb2c0805bf",
+        "cc8b7d6b40e6ab86ed051490e6cf0452177c1b1e48e4c9635cc471274f905d47"
+      ],
       "text": "I see haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

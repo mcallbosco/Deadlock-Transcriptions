@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_ally_dynamo_big_blackhole_02.mp3",
   "revisions": [
     {
-      "sha256": "8a1511c3b5f19427ddafb28d888f52252e2f11bb1ee602f9a2bddab83dea5b90",
-      "text": "The professor has them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "259fb77de71f1e18251b25c49b9e45101508a9c632c2ff6773e0ad6e4650ec5c",
+        "8a1511c3b5f19427ddafb28d888f52252e2f11bb1ee602f9a2bddab83dea5b90"
+      ],
+      "text": "The professor has them!",
+      "source": "official"
     },
     {
-      "sha256": "6a759a3c75d4dfa13a5d944af04e6696a7d906569f78bf8158966ab7324a5866",
+      "sha256": [
+        "6a759a3c75d4dfa13a5d944af04e6696a7d906569f78bf8158966ab7324a5866"
+      ],
       "text": "To Professor Haslum.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d2cedae95cf5cc4d7baf202ce72233fbd9896310c6180e51731decd078847a6b",
+      "sha256": [
+        "d2cedae95cf5cc4d7baf202ce72233fbd9896310c6180e51731decd078847a6b"
+      ],
       "text": "To Professor Haslam.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "259fb77de71f1e18251b25c49b9e45101508a9c632c2ff6773e0ad6e4650ec5c",
-      "text": "The professor has them!",
-      "source": "official"
     }
   ]
 }

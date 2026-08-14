@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "f93414d3c370352eb251644119dcf09eb385c0a90ba983385a4863065983fcbf",
+      "sha256": [
+        "f93414d3c370352eb251644119dcf09eb385c0a90ba983385a4863065983fcbf"
+      ],
       "text": "Target.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "70637c5415a717a1bc81373556e94448df34bba931885e1d372bc2a54962cc11",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c902f7e6e4705396c304f91ac1f15d3c4b9502351963d1f9fa8097cc566252c",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92bf594dfb4f83f1fc973446f3c27aa3f4926f727cafa9da253a10ffb02831bd",
+      "sha256": [
+        "0c902f7e6e4705396c304f91ac1f15d3c4b9502351963d1f9fa8097cc566252c",
+        "70637c5415a717a1bc81373556e94448df34bba931885e1d372bc2a54962cc11",
+        "92bf594dfb4f83f1fc973446f3c27aa3f4926f727cafa9da253a10ffb02831bd"
+      ],
       "text": "Thank you.",
       "source": "official"
     }

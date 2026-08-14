@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_bebop_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "5e3dd48d500d168704238c3fa39d3dfcf4555299c136810055bc13a8dfbf83dc",
-      "text": "Bebop's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2abdb20f3250b5054cd849ade527e50f567e589db8edaee0d8a0f29000985800",
+      "sha256": [
+        "2abdb20f3250b5054cd849ade527e50f567e589db8edaee0d8a0f29000985800",
+        "5e3dd48d500d168704238c3fa39d3dfcf4555299c136810055bc13a8dfbf83dc"
+      ],
       "text": "Bebop's on the roof!",
       "source": "official"
     }

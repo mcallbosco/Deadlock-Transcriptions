@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9cdbd605b327350b58d6c77904ffb952094dc0ded7eac0257b10efe37451c07a",
+      "sha256": [
+        "0b4cd843e589cad07724e872513b8dec2b237926369e225f5a5521bff2029045",
+        "9cdbd605b327350b58d6c77904ffb952094dc0ded7eac0257b10efe37451c07a"
+      ],
       "text": "Taze was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b4cd843e589cad07724e872513b8dec2b237926369e225f5a5521bff2029045",
-      "text": "Taze was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32f1ac43584f7980ccc4fe467c32c6ce1b74dd49cede2e81a776550e3b75d7bf",
+      "sha256": [
+        "32f1ac43584f7980ccc4fe467c32c6ce1b74dd49cede2e81a776550e3b75d7bf"
+      ],
       "text": "Pays was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

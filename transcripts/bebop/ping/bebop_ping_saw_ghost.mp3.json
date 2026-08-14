@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_saw_ghost.mp3",
   "revisions": [
     {
-      "sha256": "dd5751c175ed60d1f646db636ea30679d1a6de6cfd79da42a0bf7ca95f0a3bc3",
+      "sha256": [
+        "dd5751c175ed60d1f646db636ea30679d1a6de6cfd79da42a0bf7ca95f0a3bc3"
+      ],
       "text": "I saw guys!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f84ac70e2971b5b3d5c80db8cbaec0eb2e8ac5cbd9b718f7c91a0964db20f9a4",
+      "sha256": [
+        "f84ac70e2971b5b3d5c80db8cbaec0eb2e8ac5cbd9b718f7c91a0964db20f9a4"
+      ],
       "text": "What's up, guys?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

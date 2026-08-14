@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "993f540fdd875d456e38b671f184d2ac38c244a53bbc202ea38f21995cbd9fea",
+      "sha256": [
+        "4c4a26511696e62e7070c2edb0153d6bb36a9d6b1cb98b633e3e58139ed874c7",
+        "7b7ed2a44d4d7f032c15984c6744659c429b5c687041204044bd03e95c45d183",
+        "993f540fdd875d456e38b671f184d2ac38c244a53bbc202ea38f21995cbd9fea"
+      ],
       "text": "We see the enemy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4c4a26511696e62e7070c2edb0153d6bb36a9d6b1cb98b633e3e58139ed874c7",
-      "text": "We see the enemy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7b7ed2a44d4d7f032c15984c6744659c429b5c687041204044bd03e95c45d183",
-      "text": "We see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "581178e483c25c2fc9f7d5d882c571f88eced1869c5c6fd4c195ebac716916c0",
+      "sha256": [
+        "581178e483c25c2fc9f7d5d882c571f88eced1869c5c6fd4c195ebac716916c0"
+      ],
       "text": "I see the enemy!",
       "source": "official"
     }

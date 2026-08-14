@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_forge_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c0c2dfe4865ed9efa3abdf397bd57fdff0cc6d9a5d57c108c831a21b27da7c64",
+      "sha256": [
+        "93e15a924167bc7d14f030cf3726e5b69d0aa386dbcd21f04ea72e429bec1f7b",
+        "c0c2dfe4865ed9efa3abdf397bd57fdff0cc6d9a5d57c108c831a21b27da7c64"
+      ],
       "text": "A Guinness was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "93e15a924167bc7d14f030cf3726e5b69d0aa386dbcd21f04ea72e429bec1f7b",
-      "text": "A Guinness was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8b2e1de72a59956649305a155aecf6a201e99c243f9b172305ede3a99729cd2b",
+      "sha256": [
+        "8b2e1de72a59956649305a155aecf6a201e99c243f9b172305ede3a99729cd2b"
+      ],
       "text": "This is was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

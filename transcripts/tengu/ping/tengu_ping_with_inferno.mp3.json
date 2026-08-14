@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_inferno.mp3",
   "revisions": [
     {
-      "sha256": "7bde3e1d9108f14def09372fcf532781c08848322faf294123184c9e3011d8f1",
-      "text": "I'm with you, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "397115280ba3280b6429b063d189936ff315a6efb4cf81569033607b7c4426b7",
+      "sha256": [
+        "397115280ba3280b6429b063d189936ff315a6efb4cf81569033607b7c4426b7",
+        "7bde3e1d9108f14def09372fcf532781c08848322faf294123184c9e3011d8f1"
+      ],
       "text": "I'm with you, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

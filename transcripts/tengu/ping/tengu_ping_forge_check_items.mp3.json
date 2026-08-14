@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_forge_check_items.mp3",
   "revisions": [
     {
-      "sha256": "a58ac04a5d1655d3f57c680e1d4775255bb69fc5a799c1cabd82b29919f4f604",
+      "sha256": [
+        "a58ac04a5d1655d3f57c680e1d4775255bb69fc5a799c1cabd82b29919f4f604"
+      ],
       "text": "Check out what McGinnis bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ed005cd6e447f55150a2e8e7ad12d64df323d0b986b3a756eb2761739f9ce19a",
+      "sha256": [
+        "ed005cd6e447f55150a2e8e7ad12d64df323d0b986b3a756eb2761739f9ce19a"
+      ],
       "text": "Check out what my game is, bye.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_jar_call_02.mp3",
   "revisions": [
     {
-      "sha256": "d882b19d9dd80a9c0b2ea8318887b619f3fa2804417abc352e1a3a27a197aa0a",
+      "sha256": [
+        "d882b19d9dd80a9c0b2ea8318887b619f3fa2804417abc352e1a3a27a197aa0a"
+      ],
       "text": "Soldier is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "eeb244923b05bd784c24896a779b82b4a8df692da2f2786dcda401a18cc12aaf",
+      "sha256": [
+        "eeb244923b05bd784c24896a779b82b4a8df692da2f2786dcda401a18cc12aaf"
+      ],
       "text": "Soul Jar is here!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_tempest.mp3",
   "revisions": [
     {
-      "sha256": "f4611b19af08e8ac85a1528425f64c18267af9d6ec1377809e93f3c75f225a77",
-      "text": "I see Tempest!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24b9efcfc1bec5d8b9761a8fb127237a1ed7e8ef4289b8167240aa2cd2a5e26f",
-      "text": "I see Tempest.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c059f771328f6750f2581a3542ee5c1dabde9a586a5a146206c68276f45ec1a4",
+      "sha256": [
+        "24b9efcfc1bec5d8b9761a8fb127237a1ed7e8ef4289b8167240aa2cd2a5e26f",
+        "c059f771328f6750f2581a3542ee5c1dabde9a586a5a146206c68276f45ec1a4",
+        "f4611b19af08e8ac85a1528425f64c18267af9d6ec1377809e93f3c75f225a77"
+      ],
       "text": "I see Tempest.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

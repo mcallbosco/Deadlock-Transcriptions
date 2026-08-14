@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_seven_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "52ac20f5c0a04c60b36ded1fa5a8c062e105104edfb495143464ebfcc8e66e02",
-      "text": "Seven is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ad997d6b75d2b137ffdbadaaad0f70f5e8b73ef71f276432c4665cf546b137c",
+      "sha256": [
+        "52ac20f5c0a04c60b36ded1fa5a8c062e105104edfb495143464ebfcc8e66e02",
+        "6ad997d6b75d2b137ffdbadaaad0f70f5e8b73ef71f276432c4665cf546b137c"
+      ],
       "text": "Seven is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

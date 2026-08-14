@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power1_10.mp3",
   "revisions": [
     {
-      "sha256": "956185dcfe025409f92c6c6d7306dd890e7be84e138577d631db2e8ac7dbfa95",
-      "text": "Now this is how you start a fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22e49bda1d7c89016db68129f36301628f4826b62a7de0dc10595a0608fedd03",
-      "text": "Now this is how you start a fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d497f9ca144d613454842a66ca8b2706b895e9489f106e3d40f94985e091a83d",
+      "sha256": [
+        "22e49bda1d7c89016db68129f36301628f4826b62a7de0dc10595a0608fedd03",
+        "956185dcfe025409f92c6c6d7306dd890e7be84e138577d631db2e8ac7dbfa95",
+        "d497f9ca144d613454842a66ca8b2706b895e9489f106e3d40f94985e091a83d"
+      ],
       "text": "Now this is how you start a fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

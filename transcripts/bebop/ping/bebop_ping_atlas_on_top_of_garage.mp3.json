@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_atlas_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "b3d34d50ef4525d0dc65cd98d54005b9a245408adde261ee3e84ddcb7a2cbf33",
+      "sha256": [
+        "b3d34d50ef4525d0dc65cd98d54005b9a245408adde261ee3e84ddcb7a2cbf33"
+      ],
       "text": "I didn't talk to the carriage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "58d6e8c14618109a36dd75b4e6dde1a1225b07b035784cac5f1871a41f68ea55",
+      "sha256": [
+        "58d6e8c14618109a36dd75b4e6dde1a1225b07b035784cac5f1871a41f68ea55"
+      ],
       "text": "Abrams's on top of the garage!",
       "source": "official"
     }

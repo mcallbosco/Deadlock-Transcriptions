@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_zealot.mp3",
   "revisions": [
     {
-      "sha256": "77b162056b9b5bfbee450301acf24d13e171cd448449417f0524c24074ea83fa",
-      "text": "I'll see them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d9a0e5a65e3ce4f98f93f87fea1361d482d3c7fd268a5094a508493a9eeb567",
-      "text": "I'll see them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61380c26a560a835d112fb957ff4784fa32992b0b3c0783e2bfa41e2bc579bc0",
+      "sha256": [
+        "1d9a0e5a65e3ce4f98f93f87fea1361d482d3c7fd268a5094a508493a9eeb567",
+        "61380c26a560a835d112fb957ff4784fa32992b0b3c0783e2bfa41e2bc579bc0",
+        "77b162056b9b5bfbee450301acf24d13e171cd448449417f0524c24074ea83fa"
+      ],
       "text": "I'll see them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

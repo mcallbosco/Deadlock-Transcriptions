@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/forge_ping_murphy_was_here.mp3",
   "revisions": [
     {
-      "sha256": "aac77b1ff96994903710abdaa3942bccfba214a34971c98aa43c0bbe4f2ca8ce",
+      "sha256": [
+        "aac77b1ff96994903710abdaa3942bccfba214a34971c98aa43c0bbe4f2ca8ce"
+      ],
       "text": "Murphy was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_astro_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "0b73d503d1d240255133e33de4e8e83ff49854cac71c1e282dc95e210a987818",
+      "sha256": [
+        "0b73d503d1d240255133e33de4e8e83ff49854cac71c1e282dc95e210a987818",
+        "ff44074c1f27554a818c059932370ebb5d411d4635cb16f1c7d4892192f70368"
+      ],
       "text": "Holiday's on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ff44074c1f27554a818c059932370ebb5d411d4635cb16f1c7d4892192f70368",
-      "text": "Holiday's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a988c9ec106e15752f45ac39c8596e089f43f8c220d324e798f180b822a33ef0",
+      "sha256": [
+        "a988c9ec106e15752f45ac39c8596e089f43f8c220d324e798f180b822a33ef0"
+      ],
       "text": "Holliday's on top of the garage!",
       "source": "official"
     }

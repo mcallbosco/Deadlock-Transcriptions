@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "42870b832d9fa19a50bff32b1a5e0e2e0e67b4f820a057a00cc315e4c1f20339",
-      "text": "Yamato's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7e6bd15be113a04e9b096dc18eb873fd7fc46c1004b33b29bf783332924e310",
-      "text": "Yamato's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39201dd915f3887d3d5f1e4aec9a7fe178b2dcf5257857a1d7367d5ac7f4318c",
-      "text": "Yamato's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a6e45354b8019b137adaaac48f6d6928e8f463f6c849be9c33105c63c2f671b",
+      "sha256": [
+        "2a6e45354b8019b137adaaac48f6d6928e8f463f6c849be9c33105c63c2f671b",
+        "39201dd915f3887d3d5f1e4aec9a7fe178b2dcf5257857a1d7367d5ac7f4318c",
+        "42870b832d9fa19a50bff32b1a5e0e2e0e67b4f820a057a00cc315e4c1f20339",
+        "d7e6bd15be113a04e9b096dc18eb873fd7fc46c1004b33b29bf783332924e310"
+      ],
       "text": "Yamato's missing",
       "source": "official"
     }

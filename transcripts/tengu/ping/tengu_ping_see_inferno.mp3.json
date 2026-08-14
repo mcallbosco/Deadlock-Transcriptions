@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_inferno.mp3",
   "revisions": [
     {
-      "sha256": "beeec5db4c5fc23fe3f1d759ba67fb463e2e6441aa7ed5d86dd0ef3c62aabcce",
+      "sha256": [
+        "beeec5db4c5fc23fe3f1d759ba67fb463e2e6441aa7ed5d86dd0ef3c62aabcce"
+      ],
       "text": "You see inverts!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ed21061dae6e1aa183a066b2945e47a415d95b30d33902e77b541b3dfc32c7f8",
+      "sha256": [
+        "ed21061dae6e1aa183a066b2945e47a415d95b30d33902e77b541b3dfc32c7f8"
+      ],
       "text": "I see Infernus",
       "source": "official"
     }

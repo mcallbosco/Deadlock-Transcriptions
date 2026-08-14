@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_warden_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "0df26bb8b993913015c033aae63cc035d5f574d32957603194da238db39eb8bb",
+      "sha256": [
+        "0df26bb8b993913015c033aae63cc035d5f574d32957603194da238db39eb8bb"
+      ],
       "text": "Where's the top of the garage?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e93754ed8c69acd8612d4c6da40f1436c95a408f71c5573d208204b9f9588f44",
+      "sha256": [
+        "e93754ed8c69acd8612d4c6da40f1436c95a408f71c5573d208204b9f9588f44"
+      ],
       "text": "Warden's on top of the garage!",
       "source": "official"
     }

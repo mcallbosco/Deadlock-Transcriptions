@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power2_09.mp3",
   "revisions": [
     {
-      "sha256": "ecb079a05332f1d85c748cbc4d6fd115257d3da592807a1145937881d67e3120",
+      "sha256": [
+        "ecb079a05332f1d85c748cbc4d6fd115257d3da592807a1145937881d67e3120"
+      ],
       "text": "That's the end, that's me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cb183ffd2135daf26d2d6508d7eeae50fc93e5eb8c6497bee86f16456e8f1af8",
-      "text": "This will help sustain me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6adba80b5573c888515d501e683ae007c7191b5b6b08c83aa8ca09c4b55508e3",
-      "text": "This will help sustain me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c2a72a4819d135768f580586b67cf065f8e1d3ba980986515b0e0e72321da4c3",
+      "sha256": [
+        "6adba80b5573c888515d501e683ae007c7191b5b6b08c83aa8ca09c4b55508e3",
+        "c2a72a4819d135768f580586b67cf065f8e1d3ba980986515b0e0e72321da4c3",
+        "cb183ffd2135daf26d2d6508d7eeae50fc93e5eb8c6497bee86f16456e8f1af8"
+      ],
       "text": "This will help sustain me.",
       "source": "official"
     }

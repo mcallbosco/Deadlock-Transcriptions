@@ -1,28 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6d0a7e0d30cd482fd8affd510a3ef966ca4eeebf5128b79584d6d46482e308c9",
+      "sha256": [
+        "6d0a7e0d30cd482fd8affd510a3ef966ca4eeebf5128b79584d6d46482e308c9",
+        "825092b4b9580e0cccfae719b8ac87b97844dffd2ccb112efd07f2c456e101b0",
+        "bc78f2a60495e8675b61fd8ab3ff58490fe8dfeafb545e595e2d639cf7869ca2",
+        "e393b272e7f7990dabcf8c7f66e24cb26c6d4b9eb8f89cef85865bacbc1ed99b"
+      ],
       "text": "Kelvin was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc78f2a60495e8675b61fd8ab3ff58490fe8dfeafb545e595e2d639cf7869ca2",
-      "text": "Kelvin was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e393b272e7f7990dabcf8c7f66e24cb26c6d4b9eb8f89cef85865bacbc1ed99b",
-      "text": "Kelvin was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "825092b4b9580e0cccfae719b8ac87b97844dffd2ccb112efd07f2c456e101b0",
-      "text": "Kelvin was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

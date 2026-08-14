@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "5ef2ef889414c36a7639f18711ce94e7d3e0f99f5f6721ec4011709e311c7506",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "498b6e9605df8d3f094edb49c0f3b701d002773564e9118497151ddc1d16ab3a",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7dc949464f372c95100e4b779d4ed39b75ac16b7cdfc3357f9d08a632ca2d639",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd50572678cf2e76e9292b757172856a28e7475be6d7c53d4478dc0cb8eb38fb",
+      "sha256": [
+        "498b6e9605df8d3f094edb49c0f3b701d002773564e9118497151ddc1d16ab3a",
+        "5ef2ef889414c36a7639f18711ce94e7d3e0f99f5f6721ec4011709e311c7506",
+        "7dc949464f372c95100e4b779d4ed39b75ac16b7cdfc3357f9d08a632ca2d639",
+        "fd50572678cf2e76e9292b757172856a28e7475be6d7c53d4478dc0cb8eb38fb"
+      ],
       "text": "Going to gank",
       "source": "official"
     }

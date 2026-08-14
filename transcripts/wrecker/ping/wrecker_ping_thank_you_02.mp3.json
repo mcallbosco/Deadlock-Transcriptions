@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "873b98ccce6d80bf0921b97957149305216a6fea7bbae955a5ab59a07ca6d863",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7c64752618c39a1d250eea31c24cf7a5776f5c6ca984d6327b014b02626d9b4",
+      "sha256": [
+        "873b98ccce6d80bf0921b97957149305216a6fea7bbae955a5ab59a07ca6d863",
+        "a7c64752618c39a1d250eea31c24cf7a5776f5c6ca984d6327b014b02626d9b4"
+      ],
       "text": "Thank you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

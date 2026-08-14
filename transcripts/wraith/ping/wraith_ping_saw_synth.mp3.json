@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_synth.mp3",
   "revisions": [
     {
-      "sha256": "81135f77cfeaed8370eae99957c5a2bdbb4e3fa53e207272d3dda12fdf36fb0f",
-      "text": "I saw Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58dc3e90460fa0d79234791aad3bd6a12369a5673de945b0d052fd2ab3572d26",
-      "text": "I saw Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2948ba7b9c8ffde4a4eff5b03db9bb8f7bf239a0fde9ebb5c8e3db69d76be0c2",
-      "text": "I saw Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "421202004ccca57aab37169119b02edb33a0690419b1fc2d523e284b83ce5b99",
+      "sha256": [
+        "2948ba7b9c8ffde4a4eff5b03db9bb8f7bf239a0fde9ebb5c8e3db69d76be0c2",
+        "421202004ccca57aab37169119b02edb33a0690419b1fc2d523e284b83ce5b99",
+        "58dc3e90460fa0d79234791aad3bd6a12369a5673de945b0d052fd2ab3572d26",
+        "81135f77cfeaed8370eae99957c5a2bdbb4e3fa53e207272d3dda12fdf36fb0f"
+      ],
       "text": "I saw Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

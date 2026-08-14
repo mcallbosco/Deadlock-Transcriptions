@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_use_ability4_05.mp3",
   "revisions": [
     {
-      "sha256": "a49f25501b6d9c5d89d89ab535faf9cc734f979ce7246df526d92a9581f67f90",
+      "sha256": [
+        "a49f25501b6d9c5d89d89ab535faf9cc734f979ce7246df526d92a9581f67f90"
+      ],
       "text": "Death will come for them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ea1885492a5cac531023d8e4c4a1242403a390a34aca1085e171e8d270914880",
-      "text": "They will all die.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92292a37404818cf82aa13a605a8108f8d4992812725f0d1b0b3a5a7ca187e96",
+      "sha256": [
+        "92292a37404818cf82aa13a605a8108f8d4992812725f0d1b0b3a5a7ca187e96",
+        "ea1885492a5cac531023d8e4c4a1242403a390a34aca1085e171e8d270914880"
+      ],
       "text": "They will all die",
       "source": "official"
     }

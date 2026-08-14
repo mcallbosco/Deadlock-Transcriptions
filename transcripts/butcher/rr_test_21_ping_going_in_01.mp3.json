@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "fc54ffddd30443f95e5f832b6476d8dc2a33c3a55cd8fb0bd39c12eec079072e",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "942b5ff281b3d20f3d8fba3f62450fe91a4a3b662361d933da8855d20c9931d8",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39ff11603336d2d292cbc9ffc0262f9eb667387b6c79c41fe0f0445924e7b93b",
+      "sha256": [
+        "39ff11603336d2d292cbc9ffc0262f9eb667387b6c79c41fe0f0445924e7b93b",
+        "942b5ff281b3d20f3d8fba3f62450fe91a4a3b662361d933da8855d20c9931d8",
+        "fc54ffddd30443f95e5f832b6476d8dc2a33c3a55cd8fb0bd39c12eec079072e"
+      ],
       "text": "I'm going in.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

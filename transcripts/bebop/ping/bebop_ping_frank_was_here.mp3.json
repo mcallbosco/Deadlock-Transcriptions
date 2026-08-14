@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1efd43e6f39766c39172485324380d87ef544cc8c21c82dd115fa9156bf19aca",
+      "sha256": [
+        "1efd43e6f39766c39172485324380d87ef544cc8c21c82dd115fa9156bf19aca"
+      ],
       "text": "figures I was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

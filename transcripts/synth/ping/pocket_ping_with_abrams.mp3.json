@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_with_abrams.mp3",
   "revisions": [
     {
-      "sha256": "0fa4917347f1aa3a2ad61435dc3b4e32a768228b4dc5bd99d8802b807313e1f2",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca2c61ad86a9c72e7a28a377966e6d9d79c7d025741f32cc739b1cda76272ace",
+      "sha256": [
+        "0fa4917347f1aa3a2ad61435dc3b4e32a768228b4dc5bd99d8802b807313e1f2",
+        "ca2c61ad86a9c72e7a28a377966e6d9d79c7d025741f32cc739b1cda76272ace"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

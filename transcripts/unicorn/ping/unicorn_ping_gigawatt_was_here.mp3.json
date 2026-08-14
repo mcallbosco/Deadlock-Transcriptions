@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b5530041f60ce4c332c411675993769879e5cccf2a5ea61c94e5934c97d3b6c8",
+      "sha256": [
+        "b5530041f60ce4c332c411675993769879e5cccf2a5ea61c94e5934c97d3b6c8"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

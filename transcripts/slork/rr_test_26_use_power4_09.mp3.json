@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_use_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "8ae3c3c3329801281fa3d462fe3aef722d66f58fb37d4925c989a1589dff7c52",
+      "sha256": [
+        "8ae3c3c3329801281fa3d462fe3aef722d66f58fb37d4925c989a1589dff7c52",
+        "a04ffb1694703198d9733a2b3f6075841d3c2e6cc378006cfa8d72d015310791"
+      ],
       "text": "The Great Manblood.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a04ffb1694703198d9733a2b3f6075841d3c2e6cc378006cfa8d72d015310791",
-      "text": "The great man blood.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

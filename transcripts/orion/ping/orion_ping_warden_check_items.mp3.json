@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_warden_check_items.mp3",
   "revisions": [
     {
-      "sha256": "7caf0db0e706940442f3c76c3397fc1b7389429b165ce9491952119ab6ecc384",
-      "text": "Check out what Warden bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d55d59dfaea9877c8dd724f28b6949358bd0d9d177145eec1b8644b0aa6154c4",
-      "text": "Check out what Warden bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b0691b786a555604eefb133a88ceee514847887a91ce27919bb4b521af76555",
+      "sha256": [
+        "2b0691b786a555604eefb133a88ceee514847887a91ce27919bb4b521af76555",
+        "7caf0db0e706940442f3c76c3397fc1b7389429b165ce9491952119ab6ecc384",
+        "d55d59dfaea9877c8dd724f28b6949358bd0d9d177145eec1b8644b0aa6154c4"
+      ],
       "text": "Check out what Warden bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_purchase_mods.mp3",
   "revisions": [
     {
-      "sha256": "9e4556ab06ba5af8398edecaed1100da17d342d325a01647232a64f3ce321da5",
-      "text": "Hover over the next recommended mod in the shop to see how it would impact your hero. Buy a few recommended mods.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95294679cb61afd0431290f4716725e863d5b3ac89339b59efc0c5f0d61ff72a",
-      "text": "Hover over the next recommended mod in the shop to see how it would impact your hero. Buy a few recommended mods.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c47c6b17a6df74ad2c70c56d3b64758c7177f9ce80cd2155987768aa10ddebf",
+      "sha256": [
+        "7c47c6b17a6df74ad2c70c56d3b64758c7177f9ce80cd2155987768aa10ddebf",
+        "95294679cb61afd0431290f4716725e863d5b3ac89339b59efc0c5f0d61ff72a",
+        "9e4556ab06ba5af8398edecaed1100da17d342d325a01647232a64f3ce321da5"
+      ],
       "text": "Hover over the next recommended mod in the shop to see how it would impact your hero. Buy a few recommended mods.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

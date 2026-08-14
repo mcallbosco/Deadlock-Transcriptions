@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_missing_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "abc3f1dddfe9cdab49f1561049fdc8e50aa46daf1a3903157ff3da6ce2c51b72",
+      "sha256": [
+        "abc3f1dddfe9cdab49f1561049fdc8e50aa46daf1a3903157ff3da6ce2c51b72"
+      ],
       "text": "Missing Park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

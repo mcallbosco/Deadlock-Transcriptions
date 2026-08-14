@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_wraith_02.mp3",
   "revisions": [
     {
-      "sha256": "b801338792664a54dc08af637cc839ef4579d1ec3ab8a078e32a0323057259b2",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f0b78aa93195546b33ede0034a6e2fba157c25f4c9094f421f522006c28bc18",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fad17da7faf25bda177815306ed814aee64bb8f3f9ad5262b116fd4a8d914d0f",
+      "sha256": [
+        "5f0b78aa93195546b33ede0034a6e2fba157c25f4c9094f421f522006c28bc18",
+        "b801338792664a54dc08af637cc839ef4579d1ec3ab8a078e32a0323057259b2",
+        "fad17da7faf25bda177815306ed814aee64bb8f3f9ad5262b116fd4a8d914d0f"
+      ],
       "text": "Careful, Wraith",
       "source": "official"
     }

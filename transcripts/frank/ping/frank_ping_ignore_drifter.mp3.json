@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_ignore_drifter.mp3",
   "revisions": [
     {
-      "sha256": "02d0f33c11b162c1565ddc59ef43fd0509a167937b9f67ddb13337b542784b87",
+      "sha256": [
+        "02d0f33c11b162c1565ddc59ef43fd0509a167937b9f67ddb13337b542784b87"
+      ],
       "text": "Ignore Drifter.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

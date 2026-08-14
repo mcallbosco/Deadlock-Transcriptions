@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_bebop_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b497c71d1297d549af1c07bf6d11d876f10cd241d2e5109f23c4d9c919f67d38",
+      "sha256": [
+        "b497c71d1297d549af1c07bf6d11d876f10cd241d2e5109f23c4d9c919f67d38"
+      ],
       "text": "Give us under the crush!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "212b87abc1970770dc95456e920f500df7fcbe5610cab43fb01c3b2e5b774a29",
+      "sha256": [
+        "212b87abc1970770dc95456e920f500df7fcbe5610cab43fb01c3b2e5b774a29"
+      ],
       "text": "Bebop's under the garage!",
       "source": "official"
     }

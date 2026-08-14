@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "b3bc07d35b425d9dd1a12ac5ee1aa2bbb7b290b274026424f2cd0e6bd04b7404",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "126220349a2d082491be500d62e6ab7f239d4e687348f5ca5788f4dbfd34abd3",
+      "sha256": [
+        "126220349a2d082491be500d62e6ab7f239d4e687348f5ca5788f4dbfd34abd3",
+        "b3bc07d35b425d9dd1a12ac5ee1aa2bbb7b290b274026424f2cd0e6bd04b7404"
+      ],
       "text": "Careful, Ivy…",
       "source": "official"
     }

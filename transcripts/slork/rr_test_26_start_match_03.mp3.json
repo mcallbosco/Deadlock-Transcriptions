@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_start_match_03.mp3",
   "revisions": [
     {
-      "sha256": "8568c1d2609d56e3baab581ae6a758bba924b1b2aa8d3f5a93b8445d5f632f00",
-      "text": "Let's do what we came here to do.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09a3a4c0ccdf650c0cc5987e2b836a09266d2d39f1cb00e2a4e66310c89a64d6",
+      "sha256": [
+        "09a3a4c0ccdf650c0cc5987e2b836a09266d2d39f1cb00e2a4e66310c89a64d6",
+        "8568c1d2609d56e3baab581ae6a758bba924b1b2aa8d3f5a93b8445d5f632f00"
+      ],
       "text": "Let's do what we came here to do.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

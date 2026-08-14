@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "62ff704806c184545b3a1169ded2745c21538bf939d5dd1217b632123294f03d",
+      "sha256": [
+        "62ff704806c184545b3a1169ded2745c21538bf939d5dd1217b632123294f03d"
+      ],
       "text": "Missing blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

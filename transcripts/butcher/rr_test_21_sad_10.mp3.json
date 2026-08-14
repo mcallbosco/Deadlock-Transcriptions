@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_sad_10.mp3",
   "revisions": [
     {
-      "sha256": "6aeaa69ceaf4cf9665ef0e604ab38a0b886ae40ef8667afcd372e9d08246a10c",
-      "text": "I'm sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72c5a8d9fa4e32eff4e749cb64819fad80b08f81251ad34d5b3a11234abbc5e4",
-      "text": "I'm sorry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d71098b1be4a514151868aaf4f15b23c0c6481612013eaab369ce9c8551c0f6",
+      "sha256": [
+        "1d71098b1be4a514151868aaf4f15b23c0c6481612013eaab369ce9c8551c0f6",
+        "6aeaa69ceaf4cf9665ef0e604ab38a0b886ae40ef8667afcd372e9d08246a10c",
+        "72c5a8d9fa4e32eff4e749cb64819fad80b08f81251ad34d5b3a11234abbc5e4"
+      ],
       "text": "I'm sorry.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_near_miss_04.mp3",
   "revisions": [
     {
-      "sha256": "5539aa6a6a94d893170d8bdf5b8b4393cd0d792fd6663e6b74818e5d9e74af56",
+      "sha256": [
+        "5539aa6a6a94d893170d8bdf5b8b4393cd0d792fd6663e6b74818e5d9e74af56",
+        "b5828d6a7fdec93dca1a23a260ddbd5f1e2545edc8f4e4220646cc777d98a460"
+      ],
       "text": "I ran them off.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b5828d6a7fdec93dca1a23a260ddbd5f1e2545edc8f4e4220646cc777d98a460",
-      "text": "I ran them off!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

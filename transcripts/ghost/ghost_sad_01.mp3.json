@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ghost_sad_01.mp3",
   "revisions": [
     {
-      "sha256": "c380d81a94f96a10a86fe8181768b5b8688163ef89c58a95953be1f6ef11dab7",
+      "sha256": [
+        "c380d81a94f96a10a86fe8181768b5b8688163ef89c58a95953be1f6ef11dab7"
+      ],
       "text": "This is bad.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

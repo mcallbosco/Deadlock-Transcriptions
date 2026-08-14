@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_ability1_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "4e4d03a4c773c7b5405a517b9afde6062bfee251e13256951c61eb4b973190e6",
+      "sha256": [
+        "4e4d03a4c773c7b5405a517b9afde6062bfee251e13256951c61eb4b973190e6",
+        "8cf55247c938493ddf8746e0ab14cd80d070e8c9c07d1360daa76005b189ab51"
+      ],
       "text": "Charge shots almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8cf55247c938493ddf8746e0ab14cd80d070e8c9c07d1360daa76005b189ab51",
-      "text": "Charge shot's almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abae8c41fe6a035692a7689859e526bd547525dfed67e002c9b02fc14b718d09",
+      "sha256": [
+        "abae8c41fe6a035692a7689859e526bd547525dfed67e002c9b02fc14b718d09"
+      ],
       "text": "Charged shot's almost ready",
       "source": "official"
     }

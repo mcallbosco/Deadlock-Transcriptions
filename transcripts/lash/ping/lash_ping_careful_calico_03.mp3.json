@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_careful_calico_03.mp3",
   "revisions": [
     {
-      "sha256": "e26c202412ec0d8dcba86a199763c990d88c7e4f084a8e378a3b3c10733ec0e0",
-      "text": "Careful, Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52325a35cd00c26ed55f616d7635735d5d69e6495f438ac2f80cf55f34660258",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "89f21c6076f8c1de0293fb0b9f8f300a7d78897686b9f087f71201bbc8aa901d",
+      "sha256": [
+        "52325a35cd00c26ed55f616d7635735d5d69e6495f438ac2f80cf55f34660258",
+        "89f21c6076f8c1de0293fb0b9f8f300a7d78897686b9f087f71201bbc8aa901d",
+        "e26c202412ec0d8dcba86a199763c990d88c7e4f084a8e378a3b3c10733ec0e0"
+      ],
       "text": "Careful, Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "5ab56cbe1e8abb0353cb5878204e0534111580beb7d69ba7ac536eeabe8ada9c",
+      "sha256": [
+        "5ab56cbe1e8abb0353cb5878204e0534111580beb7d69ba7ac536eeabe8ada9c"
+      ],
       "text": "Chatbotic.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c1321ce959c766b48a581990fe7f66cce72cbf8242431d1841a1a050aeb7e7a0",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "66dbadde75e5c21093591e7cd5ed6890296eb3232fc04ddd9f07201ae65fa1d4",
+        "c1321ce959c766b48a581990fe7f66cce72cbf8242431d1841a1a050aeb7e7a0"
+      ],
+      "text": "Careful, Pocket…",
+      "source": "official"
     },
     {
-      "sha256": "ed6de0e1fa4f0b524da3b980cadf524385bbb3a9720e660f007c8d1a5d78677c",
+      "sha256": [
+        "ed6de0e1fa4f0b524da3b980cadf524385bbb3a9720e660f007c8d1a5d78677c"
+      ],
       "text": "Careful, pockets.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66dbadde75e5c21093591e7cd5ed6890296eb3232fc04ddd9f07201ae65fa1d4",
-      "text": "Careful, Pocket…",
-      "source": "official"
     }
   ]
 }

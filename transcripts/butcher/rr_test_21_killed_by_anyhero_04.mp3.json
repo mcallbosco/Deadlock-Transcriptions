@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_killed_by_anyhero_04.mp3",
   "revisions": [
     {
-      "sha256": "77f6af3c8ed057391f649d20bb5d53c12db939381afc7828f63ebf84776bc9ea",
-      "text": "I won't forget that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "efeceb03b682d11233d1f9dec593fd238c56a5c35b5f366094cf64971ae1d517",
-      "text": "I won't forget that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd7891941a181db6b5442e1f9f509a5eea692cfdfbe32ad6c81cc908ae9acf48",
+      "sha256": [
+        "77f6af3c8ed057391f649d20bb5d53c12db939381afc7828f63ebf84776bc9ea",
+        "bd7891941a181db6b5442e1f9f509a5eea692cfdfbe32ad6c81cc908ae9acf48",
+        "efeceb03b682d11233d1f9dec593fd238c56a5c35b5f366094cf64971ae1d517"
+      ],
       "text": "I won't forget that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

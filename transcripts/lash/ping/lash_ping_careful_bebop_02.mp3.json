@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_careful_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "6efffab462012c2b35e955ed4fdd8c778242c000e6fbbba67a1b92a2556bfe76",
+      "sha256": [
+        "3c002fdaaa50b29a658fdb9abd69f7321205ee823a35997d3a6f7047e23ff0a4",
+        "6efffab462012c2b35e955ed4fdd8c778242c000e6fbbba67a1b92a2556bfe76",
+        "cb0a992249ca9339438095c409cfa19fd82f2291eeba34ea489198ad681647bb"
+      ],
       "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "cb0a992249ca9339438095c409cfa19fd82f2291eeba34ea489198ad681647bb",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "438057eb571e4ad823d6482efba9a9f07e23750e7cdf8a113903c169e34fd645",
+      "sha256": [
+        "438057eb571e4ad823d6482efba9a9f07e23750e7cdf8a113903c169e34fd645"
+      ],
       "text": "Griffle bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c002fdaaa50b29a658fdb9abd69f7321205ee823a35997d3a6f7047e23ff0a4",
-      "text": "Careful, Bebop.",
-      "source": "official"
     }
   ]
 }

@@ -1,28 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "a6da0dd6840492810460b2aee5a8c71ff360266e916613004949a3c83325be1a",
+      "sha256": [
+        "1cedebe319cd5cfead682072e0b7a550a8dc641c64feb7202bd459721801a82e",
+        "69f343927eecf39ff5179be984e7351034462515eb32448b0eac0321ba636d88",
+        "a6da0dd6840492810460b2aee5a8c71ff360266e916613004949a3c83325be1a",
+        "dffeb4d6510cc28a596590cf1e9df6bd51f1552b9689f39f92040f961b9e5f85"
+      ],
       "text": "Missing blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cedebe319cd5cfead682072e0b7a550a8dc641c64feb7202bd459721801a82e",
-      "text": "Missing blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dffeb4d6510cc28a596590cf1e9df6bd51f1552b9689f39f92040f961b9e5f85",
-      "text": "Missing blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69f343927eecf39ff5179be984e7351034462515eb32448b0eac0321ba636d88",
-      "text": "Missing blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

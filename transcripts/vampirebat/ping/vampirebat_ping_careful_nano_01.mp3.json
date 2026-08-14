@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "f59fb71aa28cde02d710b146bce93668d7095dd2f954f14472c0b3fb3965e5ef",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "853e564fff4fb76a97c26586c2bc72548503e8d992080f4dad7c1966ac8ad658",
+      "sha256": [
+        "853e564fff4fb76a97c26586c2bc72548503e8d992080f4dad7c1966ac8ad658",
+        "f59fb71aa28cde02d710b146bce93668d7095dd2f954f14472c0b3fb3965e5ef"
+      ],
       "text": "Careful, Calico…",
       "source": "official"
     }

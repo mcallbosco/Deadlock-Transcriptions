@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_use_ice_blast_02.mp3",
   "revisions": [
     {
-      "sha256": "ccc8d5315d364d603a31c90e75106f0cf92cd32a7a950e393266d76d75dfad9d",
+      "sha256": [
+        "ccc8d5315d364d603a31c90e75106f0cf92cd32a7a950e393266d76d75dfad9d"
+      ],
       "text": "Nice blast!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "41718288ed87586bbd708f45242bf612ccb83fee31946b668cddbbe28a0b7f26",
+      "sha256": [
+        "41718288ed87586bbd708f45242bf612ccb83fee31946b668cddbbe28a0b7f26"
+      ],
       "text": "Ice blast!",
       "source": "official"
     }

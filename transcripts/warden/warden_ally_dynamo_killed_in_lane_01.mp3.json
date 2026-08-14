@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_ally_dynamo_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "f8e2e9fdc6d48c4e20247e05e8fdb4f46e609d8e0169dbd07728bad618a8a684",
-      "text": "They killed the professor!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ab0c50fb69e36d7e95d65e69b6148a2b15c089017a14c6d6d73652b5735fccd",
-      "text": "They killed the professor!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a3d98811b3d5439bdfc499e3451dd4f797ca9fd247f8b8570a9ee52f7770761",
-      "text": "They killed the professor!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c7677dff27dd5e2db89409cec649f94425c9fc7d2d62b51a6de62ae6fe02819",
+      "sha256": [
+        "2a3d98811b3d5439bdfc499e3451dd4f797ca9fd247f8b8570a9ee52f7770761",
+        "2c7677dff27dd5e2db89409cec649f94425c9fc7d2d62b51a6de62ae6fe02819",
+        "3ab0c50fb69e36d7e95d65e69b6148a2b15c089017a14c6d6d73652b5735fccd",
+        "f8e2e9fdc6d48c4e20247e05e8fdb4f46e609d8e0169dbd07728bad618a8a684"
+      ],
       "text": "They killed the Professor!",
       "source": "official"
     }

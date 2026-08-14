@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "db5a425d951d98babc04096ef71c69ce217dbfa66d8a202bc9f0e55db579d86e",
-      "text": "Good work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "787648da9a08974c2bdc16257a87310426c239b3fc42cde075798b911d068ee6",
-      "text": "Good work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d6de95c11584558321c3f9f3fa480ab4ca168153f0d12d538dde8ae4048771c0",
+      "sha256": [
+        "787648da9a08974c2bdc16257a87310426c239b3fc42cde075798b911d068ee6",
+        "d6de95c11584558321c3f9f3fa480ab4ca168153f0d12d538dde8ae4048771c0",
+        "db5a425d951d98babc04096ef71c69ce217dbfa66d8a202bc9f0e55db579d86e"
+      ],
       "text": "Good work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_heavy_01.mp3",
   "revisions": [
     {
-      "sha256": "38d28d98eebd48b51fda7d9689c988771a5cb8a05c00e78fda76fcf5519bd8f9",
+      "sha256": [
+        "17f50bf4eb7e3bcc85f72830fc54506dfd6ff188cd9515d18d77b055831f4a19",
+        "38d28d98eebd48b51fda7d9689c988771a5cb8a05c00e78fda76fcf5519bd8f9",
+        "b8f8999e7832a6c322c9a324074f92e31d202d4ee141660d0ee29405367faf2e"
+      ],
       "text": "Careful, heavy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b8f8999e7832a6c322c9a324074f92e31d202d4ee141660d0ee29405367faf2e",
-      "text": "Careful, Heavy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17f50bf4eb7e3bcc85f72830fc54506dfd6ff188cd9515d18d77b055831f4a19",
-      "text": "Careful, Heavy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

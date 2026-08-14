@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "30267b5fe477d70581ac934c9c3f394fae340309830889e99bd87cf956224cc5",
+      "sha256": [
+        "30267b5fe477d70581ac934c9c3f394fae340309830889e99bd87cf956224cc5"
+      ],
       "text": "That's nice.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1708b469a196fca08ae9b6748f097188577823ce1d0ab7393a1635035ccd9ed4",
+      "sha256": [
+        "1708b469a196fca08ae9b6748f097188577823ce1d0ab7393a1635035ccd9ed4"
+      ],
       "text": "I saw Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

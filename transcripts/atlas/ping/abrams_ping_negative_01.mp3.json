@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_negative_01.mp3",
   "revisions": [
     {
-      "sha256": "21d2679eb497657eda4e6ff766d3513ba030ea659c916c78159eeb177825c2cf",
-      "text": "No.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84a67f8d48813c9ffaaa74bac89153f0cd8659502697c05a659c5f0d10fbb4f2",
-      "text": "No.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec49ed28574aca90057a9198384d56efe89def998ac041dba036a841c36e25b5",
+      "sha256": [
+        "21d2679eb497657eda4e6ff766d3513ba030ea659c916c78159eeb177825c2cf",
+        "84a67f8d48813c9ffaaa74bac89153f0cd8659502697c05a659c5f0d10fbb4f2",
+        "ec49ed28574aca90057a9198384d56efe89def998ac041dba036a841c36e25b5"
+      ],
       "text": "No.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

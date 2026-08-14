@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_wraith_dead.mp3",
   "revisions": [
     {
-      "sha256": "f0df58d55a74ebcf2583973abaa86889a55bd3229bfffce64d94e44ddad153da",
+      "sha256": [
+        "968063a8f509332d1c22ca00fcf55d52abe375aa8863d167521315a88224e7d2",
+        "f0df58d55a74ebcf2583973abaa86889a55bd3229bfffce64d94e44ddad153da"
+      ],
       "text": "Grace is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "968063a8f509332d1c22ca00fcf55d52abe375aa8863d167521315a88224e7d2",
-      "text": "Grace is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "40407f7aedb263ee79250fe3e7633c3c6b2a332edd80a5ccb87a2328b2ffa5d7",
+      "sha256": [
+        "40407f7aedb263ee79250fe3e7633c3c6b2a332edd80a5ccb87a2328b2ffa5d7"
+      ],
       "text": "Graves is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

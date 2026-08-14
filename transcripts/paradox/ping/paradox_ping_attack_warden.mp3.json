@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_attack_warden.mp3",
   "revisions": [
     {
-      "sha256": "a784f3984b3f2191edadd90ed7f2f260b3f1dd7dc5c3683c7671aa68f7ff42fe",
-      "text": "Let's take out Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "091905e6215ac8fe44c1ffdbc82b42e48405154500c221e97d41d6af9c658e11",
+      "sha256": [
+        "091905e6215ac8fe44c1ffdbc82b42e48405154500c221e97d41d6af9c658e11",
+        "a784f3984b3f2191edadd90ed7f2f260b3f1dd7dc5c3683c7671aa68f7ff42fe"
+      ],
       "text": "Let's take out Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

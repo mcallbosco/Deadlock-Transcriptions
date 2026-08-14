@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_headed_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "a276739f3201573bce9fe8a1dc7b82e004b3573ceea2d705fc9896eae648ddaa",
-      "text": "Headed to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de2af7cb7dc13dc074c6c09bcd19f914b8f8beafb7eccf479b6b395505a30fdb",
-      "text": "Headed to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25941e819645f980511d7026b0226427a9646f8072806536e2388eecd29f974c",
+      "sha256": [
+        "25941e819645f980511d7026b0226427a9646f8072806536e2388eecd29f974c",
+        "a276739f3201573bce9fe8a1dc7b82e004b3573ceea2d705fc9896eae648ddaa",
+        "de2af7cb7dc13dc074c6c09bcd19f914b8f8beafb7eccf479b6b395505a30fdb"
+      ],
       "text": "Headed to Broadway",
       "source": "official"
     }

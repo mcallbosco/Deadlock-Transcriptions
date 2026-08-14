@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "69b9b2b2f33ca9eb70e8a0687faa5a8d12ef05931fcdb9c9ea71fe5556b03d5e",
+      "sha256": [
+        "69b9b2b2f33ca9eb70e8a0687faa5a8d12ef05931fcdb9c9ea71fe5556b03d5e"
+      ],
       "text": "Orion's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "06699d76aea2d6d07b48e60fa096cbd5b26f07b66795c7bc457457aeed84a2a1",
+      "sha256": [
+        "06699d76aea2d6d07b48e60fa096cbd5b26f07b66795c7bc457457aeed84a2a1",
+        "dffd8a3dba099ce260f88e0bd4c4a1fe8b4ba1122e049555b9204cfb1457e7af"
+      ],
       "text": "Great talent's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dffd8a3dba099ce260f88e0bd4c4a1fe8b4ba1122e049555b9204cfb1457e7af",
-      "text": "Great talent's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0047d56502448b0e5793f299f1f7ad5472babdde8becfd938c4347634309a49",
+      "sha256": [
+        "f0047d56502448b0e5793f299f1f7ad5472babdde8becfd938c4347634309a49"
+      ],
       "text": "Grey Talon's missing",
       "source": "official"
     }

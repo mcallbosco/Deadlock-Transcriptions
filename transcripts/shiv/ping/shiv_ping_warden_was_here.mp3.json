@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "725b4724d09741a86c013ed1974dde9ffb5beb0408d16ad8228a765e198675d4",
+      "sha256": [
+        "301e0bc58a8d76ecdcdf2b119140ddc2babc9ef18a20f91b3e3cec3dfa8cf069",
+        "725b4724d09741a86c013ed1974dde9ffb5beb0408d16ad8228a765e198675d4"
+      ],
       "text": "Call me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "301e0bc58a8d76ecdcdf2b119140ddc2babc9ef18a20f91b3e3cec3dfa8cf069",
-      "text": "Call me",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a741f5cf644e0da9124d2ed659bd692dbc14775d2fa5a1fa1e77518769bc1f44",
+      "sha256": [
+        "a741f5cf644e0da9124d2ed659bd692dbc14775d2fa5a1fa1e77518769bc1f44"
+      ],
       "text": "Warden was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

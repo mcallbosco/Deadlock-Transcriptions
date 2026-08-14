@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_the_boss_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "fa142fa9006f88026bb5f1bf994638c65c308a6fae9aa7c588eafbad1ac40fd5",
-      "text": "The boss is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f75050f9ff8ec16452afe6907c8e63df6004f23a31e0e0c692df7d5e573d1c2a",
+      "sha256": [
+        "f75050f9ff8ec16452afe6907c8e63df6004f23a31e0e0c692df7d5e573d1c2a",
+        "fa142fa9006f88026bb5f1bf994638c65c308a6fae9aa7c588eafbad1ac40fd5"
+      ],
       "text": "The boss is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

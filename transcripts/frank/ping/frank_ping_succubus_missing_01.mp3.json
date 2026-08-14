@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_succubus_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "26f039f6c483d88a968f65a6a4244730cf5642cf5cee489ece5d1ca0613a90dc",
+      "sha256": [
+        "26f039f6c483d88a968f65a6a4244730cf5642cf5cee489ece5d1ca0613a90dc"
+      ],
       "text": "The stocky vessel's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f56851115ca5eaf7fa365508eee314600377d297e6fa1fc107dcb894262b62bf",
+      "sha256": [
+        "f56851115ca5eaf7fa365508eee314600377d297e6fa1fc107dcb894262b62bf"
+      ],
       "text": "The circuit is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

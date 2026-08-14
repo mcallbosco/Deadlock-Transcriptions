@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_kali_back_01.mp3",
   "revisions": [
     {
-      "sha256": "6323c0929e293ddae8d532c7a5b93249cec8ee9c0b84790a14dea011094af791",
-      "text": "Holly, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da1424cd2f6e96928f09e053e63b77a6d026344650dc701b6b95c51886ace9a2",
-      "text": "Holly, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6a9b3de00d1a90606c6de61e74b914a236ee7953ab8e4f8bfa4e7f2c5dfda3f",
+      "sha256": [
+        "6323c0929e293ddae8d532c7a5b93249cec8ee9c0b84790a14dea011094af791",
+        "b6a9b3de00d1a90606c6de61e74b914a236ee7953ab8e4f8bfa4e7f2c5dfda3f",
+        "da1424cd2f6e96928f09e053e63b77a6d026344650dc701b6b95c51886ace9a2"
+      ],
       "text": "Holly, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

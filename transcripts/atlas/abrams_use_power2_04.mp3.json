@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "84311c28a7a05253c667c9347eb5cc1df465103f232bd1ba872e0130e54140a5",
-      "text": "You won't kill me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72316cdcf6f7de1bf0aca1d0a7080d9cae6b411becb6669ade9e3adb7f4701d5",
-      "text": "You won't kill me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd44ee1671a4980c6738dc353a83d00ab2b64fe9b50f34a08e74cb61c0ed0468",
+      "sha256": [
+        "72316cdcf6f7de1bf0aca1d0a7080d9cae6b411becb6669ade9e3adb7f4701d5",
+        "84311c28a7a05253c667c9347eb5cc1df465103f232bd1ba872e0130e54140a5",
+        "cd44ee1671a4980c6738dc353a83d00ab2b64fe9b50f34a08e74cb61c0ed0468"
+      ],
       "text": "You won't kill me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

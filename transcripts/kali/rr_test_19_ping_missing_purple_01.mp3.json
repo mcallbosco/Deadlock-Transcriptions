@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "2e16b66a8fdcdc6f51d7fc7c1e49c3f735573d12b3025ca78b5e87c928c8df79",
-      "text": "Missing purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1fc55e928d0d74266bb9865d5921a7c3b960b7a43a8b8a3b2600d3bb9b9e548",
-      "text": "Missing purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "63020b1e312999a5c67cb53542233f5cbfc39af0453d5dd2674dbfed4f839bee",
+      "sha256": [
+        "2e16b66a8fdcdc6f51d7fc7c1e49c3f735573d12b3025ca78b5e87c928c8df79",
+        "63020b1e312999a5c67cb53542233f5cbfc39af0453d5dd2674dbfed4f839bee",
+        "d1fc55e928d0d74266bb9865d5921a7c3b960b7a43a8b8a3b2600d3bb9b9e548"
+      ],
       "text": "Missing purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

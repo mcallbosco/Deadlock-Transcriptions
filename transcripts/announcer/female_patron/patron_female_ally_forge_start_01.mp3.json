@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_forge_start_01.mp3",
   "revisions": [
     {
-      "sha256": "e9f69a856ffd00a0091a73d02bbb369d591786455c837fb310fa9f26757422dd",
+      "sha256": [
+        "e9f69a856ffd00a0091a73d02bbb369d591786455c837fb310fa9f26757422dd"
+      ],
       "text": "Forge, your services are needed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a812633b9f69022c2f1bc123d87e9da57054d802ac734bcb0297f0056d9f5e21",
-      "text": "McGinnis, your services are needed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "886f2134086c270aec5bf7abc732af6cd9cff942c3571523f199ee22784c73fd",
+      "sha256": [
+        "886f2134086c270aec5bf7abc732af6cd9cff942c3571523f199ee22784c73fd",
+        "a812633b9f69022c2f1bc123d87e9da57054d802ac734bcb0297f0056d9f5e21"
+      ],
       "text": "McGinnis… your services are needed",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "a8d2834326a946dbd23e43c2a846a18b7f4c8de8461db362aaa87582b0cca479",
-      "text": "I need to find a place to heal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84a042c4598a2b439cd587421ddbf48c152e09003ebd02f1199c8f913771481f",
-      "text": "I need to find a place to heal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2819491edd1765c2d529d164e99d581d8005b8b23fad87a768d897491654e161",
+      "sha256": [
+        "2819491edd1765c2d529d164e99d581d8005b8b23fad87a768d897491654e161",
+        "84a042c4598a2b439cd587421ddbf48c152e09003ebd02f1199c8f913771481f",
+        "a8d2834326a946dbd23e43c2a846a18b7f4c8de8461db362aaa87582b0cca479"
+      ],
       "text": "I need to find a place to heal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_saw_viper.mp3",
   "revisions": [
     {
-      "sha256": "be23aca87fe5b5c5fc88ff91850d4cc4ed066a87ea14018213ba49bfabb6b632",
+      "sha256": [
+        "be23aca87fe5b5c5fc88ff91850d4cc4ed066a87ea14018213ba49bfabb6b632"
+      ],
       "text": "I saw Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

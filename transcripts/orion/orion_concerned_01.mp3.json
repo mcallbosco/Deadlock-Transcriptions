@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_concerned_01.mp3",
   "revisions": [
     {
-      "sha256": "05bc08ecd21304bca05f66ae8c7f747333457f03801a7f8e349940e38d287d10",
+      "sha256": [
+        "05bc08ecd21304bca05f66ae8c7f747333457f03801a7f8e349940e38d287d10",
+        "d6d4c66d899e8bab45316526d6c4d968d14628a7ac1ff811acc648293f8db9cc"
+      ],
       "text": "This is bad.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4e9e5d5efdfc8aac698599f5906ef978172c91b3d807c902d996248f5bc1e99c",
+      "sha256": [
+        "4e9e5d5efdfc8aac698599f5906ef978172c91b3d807c902d996248f5bc1e99c"
+      ],
       "text": "Respect.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "994734066a6ae12205638482e4762478c45e943eb6bb69a932ad0c010d61f951",
+      "sha256": [
+        "994734066a6ae12205638482e4762478c45e943eb6bb69a932ad0c010d61f951"
+      ],
       "text": "Ispack.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d6d4c66d899e8bab45316526d6c4d968d14628a7ac1ff811acc648293f8db9cc",
-      "text": "This is bad.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

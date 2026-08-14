@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "c7ef5049e7ec5f1d151c5e414f56a1c24e6944b60fbc43938d43c3699d68e0e4",
-      "text": "That's it, spray!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "63b5c99cd7b3fe2f585d127543bed94fe885dbd4a41b5370eed4edfedad8f883",
-      "text": "That's it, Spray!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d9b6ac709a3fe47a9d8250436e8bf9b345b6b6dee93c113900965626aff63fb",
+      "sha256": [
+        "0d9b6ac709a3fe47a9d8250436e8bf9b345b6b6dee93c113900965626aff63fb",
+        "63b5c99cd7b3fe2f585d127543bed94fe885dbd4a41b5370eed4edfedad8f883",
+        "c7ef5049e7ec5f1d151c5e414f56a1c24e6944b60fbc43938d43c3699d68e0e4"
+      ],
       "text": "That's it, spray!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_kill_warden_03.mp3",
   "revisions": [
     {
-      "sha256": "003b78c5f5dd44c81ab62d4690f3a13c50c988884a641ef07bdd6824b58ec108",
+      "sha256": [
+        "003b78c5f5dd44c81ab62d4690f3a13c50c988884a641ef07bdd6824b58ec108",
+        "0251a8de51b356b8755d6a342924eb6f15dc20ac49ba8fef37d5561cfbc6587c",
+        "0ccebee91b3f52451723274cfdf8e67e4fcbb376942e32756c0da5eff9c82ecc",
+        "c37df3d2f4de6e753404377e1fce9cc56864c8917ec0082ca21970c76a4f126e"
+      ],
       "text": "I'm not scared of you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "7a5a374d752e19b6c9a1c225ff859ddf896e838d12a2c281a71ff32bb9e59861",
+      "sha256": [
+        "7a5a374d752e19b6c9a1c225ff859ddf896e838d12a2c281a71ff32bb9e59861"
+      ],
       "text": "I am scared of you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0251a8de51b356b8755d6a342924eb6f15dc20ac49ba8fef37d5561cfbc6587c",
-      "text": "I'm not scared of you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c37df3d2f4de6e753404377e1fce9cc56864c8917ec0082ca21970c76a4f126e",
-      "text": "I'm not scared of you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ccebee91b3f52451723274cfdf8e67e4fcbb376942e32756c0da5eff9c82ecc",
-      "text": "I'm not scared of you.",
-      "source": "official"
     }
   ]
 }

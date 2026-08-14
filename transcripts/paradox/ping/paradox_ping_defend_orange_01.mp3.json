@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_defend_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "13e5eb218078d30e0394d3a43b52fd96d9ad3025ecfd1bda6922ee3b610b96cd",
+      "sha256": [
+        "07ae7ed423f48bd20e3a95da2437465da7e87e7266fd966e85d5ef9a36ce1dc9",
+        "13e5eb218078d30e0394d3a43b52fd96d9ad3025ecfd1bda6922ee3b610b96cd"
+      ],
       "text": "defend Orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07ae7ed423f48bd20e3a95da2437465da7e87e7266fd966e85d5ef9a36ce1dc9",
-      "text": "Defend orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_dynamo_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "48da05e08adab2886abc41bd138e248f0e52819f6eca3bdc21c9eb0baa1aa96b",
+      "sha256": [
+        "07be85f3877f8dd220f1ad0eb20228fc1bcb53ba4273fa3698d8750558384845",
+        "48da05e08adab2886abc41bd138e248f0e52819f6eca3bdc21c9eb0baa1aa96b"
+      ],
       "text": "Dynamos on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07be85f3877f8dd220f1ad0eb20228fc1bcb53ba4273fa3698d8750558384845",
-      "text": "Dynamo's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

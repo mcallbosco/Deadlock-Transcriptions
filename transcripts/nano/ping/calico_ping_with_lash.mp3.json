@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_with_lash.mp3",
   "revisions": [
     {
-      "sha256": "79afdf1ec328f87bd4ebd86dfab660205c0d7e09efe67f036bb8932694106cb5",
-      "text": "I'm with you, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "10147d941ca48595d58396f50a0d001fb1dceaf0b3eb20817b2d43b0f947abfa",
+      "sha256": [
+        "10147d941ca48595d58396f50a0d001fb1dceaf0b3eb20817b2d43b0f947abfa",
+        "79afdf1ec328f87bd4ebd86dfab660205c0d7e09efe67f036bb8932694106cb5"
+      ],
       "text": "I'm with you, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_synth.mp3",
   "revisions": [
     {
-      "sha256": "41f3b2f78944e328363abf42f70f8763c05feec520f692cc7186b3bfb7f7bcd1",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c62dc7af0ed620f8c9d22241313596ae600e82099629925d6c527031fc351fe1",
+      "sha256": [
+        "41f3b2f78944e328363abf42f70f8763c05feec520f692cc7186b3bfb7f7bcd1",
+        "c62dc7af0ed620f8c9d22241313596ae600e82099629925d6c527031fc351fe1"
+      ],
       "text": "I see Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

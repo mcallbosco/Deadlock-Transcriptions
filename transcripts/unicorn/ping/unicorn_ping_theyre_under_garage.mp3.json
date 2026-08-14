@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_theyre_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "fa8b7239d318b2dd0f007707798aae1fd7c126cd479761d1f2d6c9d468c714cf",
+      "sha256": [
+        "fa8b7239d318b2dd0f007707798aae1fd7c126cd479761d1f2d6c9d468c714cf"
+      ],
       "text": "They're under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

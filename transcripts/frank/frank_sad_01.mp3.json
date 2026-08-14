@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_sad_01.mp3",
   "revisions": [
     {
-      "sha256": "7409ec4ad8d84f4746368310163a8d4976d1f5573d592b5f1fd16c51bbd0e1ec",
+      "sha256": [
+        "7409ec4ad8d84f4746368310163a8d4976d1f5573d592b5f1fd16c51bbd0e1ec"
+      ],
       "text": "The truth is still out there. I knew it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_use_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "2aa280f0ccffabfbdf320765332e192c8dd33df2cbee7561564452a9c365caba",
+      "sha256": [
+        "2aa280f0ccffabfbdf320765332e192c8dd33df2cbee7561564452a9c365caba"
+      ],
       "text": "I'm good!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "19d40acbfb1a65c9b5cf50809c01f53f93d0bba065c391e290c563c85202ef67",
+      "sha256": [
+        "19d40acbfb1a65c9b5cf50809c01f53f93d0bba065c391e290c563c85202ef67"
+      ],
       "text": "Time to move.",
       "source": "official"
     }

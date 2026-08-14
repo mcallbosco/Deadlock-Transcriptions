@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_lash_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "bc07355dd874af35dc09bb4466b4a912a7c7d08cdb5feed9282a632a98590d37",
+      "sha256": [
+        "bc07355dd874af35dc09bb4466b4a912a7c7d08cdb5feed9282a632a98590d37",
+        "dc274fa53eb6b0a9a9fcad90f346efcf2e19f479e94ec8140dbdd3fce7dd2cf6"
+      ],
       "text": "Lash is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c03b68b3c7c5a6815b0399ecb46cdf66c89e7c3438b61568bb9ec328872162c4",
+      "sha256": [
+        "c03b68b3c7c5a6815b0399ecb46cdf66c89e7c3438b61568bb9ec328872162c4"
+      ],
       "text": "Slash is almost back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc274fa53eb6b0a9a9fcad90f346efcf2e19f479e94ec8140dbdd3fce7dd2cf6",
-      "text": "Lash is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

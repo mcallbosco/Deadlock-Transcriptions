@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_sorry_01.mp3",
   "revisions": [
     {
-      "sha256": "73bb040ac8c367f5fe81b10ff6effe5f1f8399688f855ffb7680e8946e00115e",
-      "text": "My mistake.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e685e6a3f258d9d4a6dc6bc04ba1c4f271d1e1936fc24cb28fd594b48c7ab7e",
+      "sha256": [
+        "2e685e6a3f258d9d4a6dc6bc04ba1c4f271d1e1936fc24cb28fd594b48c7ab7e",
+        "73bb040ac8c367f5fe81b10ff6effe5f1f8399688f855ffb7680e8946e00115e"
+      ],
       "text": "My mistake.",
       "source": "official"
     }

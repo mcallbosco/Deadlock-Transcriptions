@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "b89af9a10d6485f3b4ba903cdb8b06af525c832febfbb1f8f1c23e402f9def2b",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d25a3416ace81ef8ee3ffbaee691fab9af1e11dd060c2edcb2193c94da4be2e6",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e7ce960d24239f8fce02bf69fbc777023dca64b460c7df7038ceadd095e53dba",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "799866cbff7e42fc3fdc844527b745c18227db3b2724508e8c05430a7b51bf53",
+      "sha256": [
+        "799866cbff7e42fc3fdc844527b745c18227db3b2724508e8c05430a7b51bf53",
+        "b89af9a10d6485f3b4ba903cdb8b06af525c832febfbb1f8f1c23e402f9def2b",
+        "d25a3416ace81ef8ee3ffbaee691fab9af1e11dd060c2edcb2193c94da4be2e6",
+        "e7ce960d24239f8fce02bf69fbc777023dca64b460c7df7038ceadd095e53dba"
+      ],
       "text": "Well played",
       "source": "official"
     }

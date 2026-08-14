@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "88405e6cae4a6f60779909695383fd3b4330871d70882b8d03e52ecb81ecd1ef",
+      "sha256": [
+        "88405e6cae4a6f60779909695383fd3b4330871d70882b8d03e52ecb81ecd1ef"
+      ],
       "text": "Let's not burn the whole crew anyway!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ec80c86d664a7afe37c10709aa3c0a4bf7bc354c41a6f7d74bf0e80876c8776d",
+      "sha256": [
+        "ec80c86d664a7afe37c10709aa3c0a4bf7bc354c41a6f7d74bf0e80876c8776d"
+      ],
       "text": "This'll burn a hole through anyone.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_calico.mp3",
   "revisions": [
     {
-      "sha256": "9435039c9a5dac3bcaa0b93ab2cdec3664f13a0b86945a2b17108638ef85475c",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3c5cbe9baf7a144c698abc6d7f74bae71ddef22046718cb49c3de6bfb6e4d86",
+      "sha256": [
+        "9435039c9a5dac3bcaa0b93ab2cdec3664f13a0b86945a2b17108638ef85475c",
+        "b3c5cbe9baf7a144c698abc6d7f74bae71ddef22046718cb49c3de6bfb6e4d86"
+      ],
       "text": "I see Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "ed4750b9660c3e7323fb1a654a61c55e27c73b5db14d4c388a06535a2b85e209",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bb5faabea3d6dd9d8e39dc43eaa315422fea39a51bb6e7159f187a9b3e5f9f25",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "643a7475d9a04e20dbe46866c01ed58025e9e861a36928ad44e36cc3f0096c08",
+      "sha256": [
+        "643a7475d9a04e20dbe46866c01ed58025e9e861a36928ad44e36cc3f0096c08",
+        "bb5faabea3d6dd9d8e39dc43eaa315422fea39a51bb6e7159f187a9b3e5f9f25",
+        "ed4750b9660c3e7323fb1a654a61c55e27c73b5db14d4c388a06535a2b85e209"
+      ],
       "text": "I see Paradox",
       "source": "official"
     }

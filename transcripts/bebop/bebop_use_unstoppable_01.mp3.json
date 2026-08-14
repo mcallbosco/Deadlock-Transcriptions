@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_use_unstoppable_01.mp3",
   "revisions": [
     {
-      "sha256": "8e5348590098654dc55d76d701d652a510dd5e39660e6f8b4d079767b58fc8df",
+      "sha256": [
+        "8e5348590098654dc55d76d701d652a510dd5e39660e6f8b4d079767b58fc8df"
+      ],
       "text": "I can't stop me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "98acc659679a03f39715bedbad1a85b0189b273e4d34c06bcf8d1fe9fbac9ccf",
+      "sha256": [
+        "98acc659679a03f39715bedbad1a85b0189b273e4d34c06bcf8d1fe9fbac9ccf"
+      ],
       "text": "They can't stop me!",
       "source": "official"
     }

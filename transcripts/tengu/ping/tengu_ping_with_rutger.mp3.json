@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_rutger.mp3",
   "revisions": [
     {
-      "sha256": "8f683f34ac7f831be97e66db1033f73616dfb55318e12727bcc3840435bdcffe",
+      "sha256": [
+        "8f683f34ac7f831be97e66db1033f73616dfb55318e12727bcc3840435bdcffe"
+      ],
       "text": "I know you're out there!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

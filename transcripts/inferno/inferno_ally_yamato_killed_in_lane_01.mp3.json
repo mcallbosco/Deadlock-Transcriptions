@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_ally_yamato_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "0737e5e33b03ce31f2f3e6f47f19d57edb889f73ff4749dd49570c2a3a50687d",
+      "sha256": [
+        "0737e5e33b03ce31f2f3e6f47f19d57edb889f73ff4749dd49570c2a3a50687d"
+      ],
       "text": "Good to have your mark.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b37a23ea522e75b7cc69524074e1900d693e04249122fad4e472c2a5c0f445bd",
-      "text": "They took out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "1dad6c8744101551cb2225a4a445eb1ebe5071553072418108ed6feb4b404c9d",
+        "561eafe7a6eb03dca9f205027ff0bd6b5283a3fcb102410b45ed48ade370906b",
+        "b37a23ea522e75b7cc69524074e1900d693e04249122fad4e472c2a5c0f445bd"
+      ],
+      "text": "They took out Yamato!",
+      "source": "official"
     },
     {
-      "sha256": "1dad6c8744101551cb2225a4a445eb1ebe5071553072418108ed6feb4b404c9d",
-      "text": "They took out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0a8d1cf1dae9326d18d8e74b4100840fb7278553b447a6767dd1add79bbbbab8",
+      "sha256": [
+        "0a8d1cf1dae9326d18d8e74b4100840fb7278553b447a6767dd1add79bbbbab8"
+      ],
       "text": "Get your cow Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "561eafe7a6eb03dca9f205027ff0bd6b5283a3fcb102410b45ed48ade370906b",
-      "text": "They took out Yamato!",
-      "source": "official"
     }
   ]
 }

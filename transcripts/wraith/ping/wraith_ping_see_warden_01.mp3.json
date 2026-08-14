@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "6888cbe3a87a3b4921134c2b10d5f54e495e1a6c6a4f52860f32a617f51a697f",
-      "text": "I see, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a820ff0764de99048f0066143def2c44114322242e8f1b265b74559d0b483a1d",
-      "text": "I see, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ec2e8b8f7282672a3615d4dd1514fd23342829188d433f28a6eca2a01429a4b",
-      "text": "I see Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e653f5b60f959bb9ec5c54377cc550abdb97779d6254a4202bd5e5c1f4f1167",
+      "sha256": [
+        "0e653f5b60f959bb9ec5c54377cc550abdb97779d6254a4202bd5e5c1f4f1167",
+        "6888cbe3a87a3b4921134c2b10d5f54e495e1a6c6a4f52860f32a617f51a697f",
+        "9ec2e8b8f7282672a3615d4dd1514fd23342829188d433f28a6eca2a01429a4b",
+        "a820ff0764de99048f0066143def2c44114322242e8f1b265b74559d0b483a1d"
+      ],
       "text": "I see Warden",
       "source": "official"
     }

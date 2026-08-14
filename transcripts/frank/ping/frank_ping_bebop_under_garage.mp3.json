@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_bebop_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "c7713fc2bcea43bc068ca29e79f858cd35968d30c7af806d3af7252fb945a90d",
+      "sha256": [
+        "c7713fc2bcea43bc068ca29e79f858cd35968d30c7af806d3af7252fb945a90d"
+      ],
       "text": "Leap us onto the grudge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "48512138c1c10933225263286bf973f15fd385c509b6284f1baf284eb290b995",
+      "sha256": [
+        "48512138c1c10933225263286bf973f15fd385c509b6284f1baf284eb290b995"
+      ],
       "text": "Bebop's under the garage!",
       "source": "official"
     }

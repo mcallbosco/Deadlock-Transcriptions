@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_atlas_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4ae71001573f62c9e605badb398f895d49333418e6f699f219f5a95e0314bcb5",
-      "text": "Abrams was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cfd0c206dc971ac5e1ee5a43eaf3764fa89cdfee7523c0e40500aa460b65d21",
+      "sha256": [
+        "4ae71001573f62c9e605badb398f895d49333418e6f699f219f5a95e0314bcb5",
+        "5cfd0c206dc971ac5e1ee5a43eaf3764fa89cdfee7523c0e40500aa460b65d21"
+      ],
       "text": "Abrams was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

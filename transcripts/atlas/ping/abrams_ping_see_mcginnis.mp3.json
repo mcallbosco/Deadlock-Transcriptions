@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "b2c798410138d6d44ce42335805909add4e4deb0c1fef55c7cfe4922adc77742",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44deb09a05883d89c103375d4ed41d5dcef5ad399e5aa624d1aa3f2a9ee0eb8f",
+      "sha256": [
+        "44deb09a05883d89c103375d4ed41d5dcef5ad399e5aa624d1aa3f2a9ee0eb8f",
+        "b2c798410138d6d44ce42335805909add4e4deb0c1fef55c7cfe4922adc77742"
+      ],
       "text": "I see McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

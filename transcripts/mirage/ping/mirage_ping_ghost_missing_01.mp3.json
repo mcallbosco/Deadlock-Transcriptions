@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7b38864685a847012ef37341f6c64d6f0c078473573a428b1cdd43a215c17fc5",
+      "sha256": [
+        "7b38864685a847012ef37341f6c64d6f0c078473573a428b1cdd43a215c17fc5"
+      ],
       "text": "That's messy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3f78210de48887de17af225e3e4d9b19d8c8de910c4ca6fce13aa5920fef39cc",
+      "sha256": [
+        "0bf56184d1eda24a7ec26864872356cee6394317fc7f1a3cd06662aee433fb44",
+        "3f78210de48887de17af225e3e4d9b19d8c8de910c4ca6fce13aa5920fef39cc"
+      ],
       "text": "Guy's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0bf56184d1eda24a7ec26864872356cee6394317fc7f1a3cd06662aee433fb44",
-      "text": "Guy's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5b35529fcffa21ed1ba9db3c1dbf557cba56d0dfdcea382c6f036b63df608c5",
+      "sha256": [
+        "e5b35529fcffa21ed1ba9db3c1dbf557cba56d0dfdcea382c6f036b63df608c5"
+      ],
       "text": "Geist's missing",
       "source": "official"
     }

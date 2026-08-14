@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_introduction_01.mp3",
   "revisions": [
     {
-      "sha256": "cb54f6df7f97808334dbf5f8d4b5cc320922d3b18fba9c005ac3206c5bda8cc4",
+      "sha256": [
+        "cb54f6df7f97808334dbf5f8d4b5cc320922d3b18fba9c005ac3206c5bda8cc4"
+      ],
       "text": "I am the Anvil's songs.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

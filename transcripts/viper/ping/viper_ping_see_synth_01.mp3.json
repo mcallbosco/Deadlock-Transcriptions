@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "6a7222a86b1bbcc14b4fc7f4a45276e2efbec9670c6b6aadce66693b914734ef",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44acf7e5003a700b5f391be78b07428b56ff1b1f2931ca686b808865ac20af3d",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bdafb67fde0b07946f03513c226852d5dd0736f60e7fa98e11e77b94b9f7727d",
+      "sha256": [
+        "44acf7e5003a700b5f391be78b07428b56ff1b1f2931ca686b808865ac20af3d",
+        "6a7222a86b1bbcc14b4fc7f4a45276e2efbec9670c6b6aadce66693b914734ef",
+        "bdafb67fde0b07946f03513c226852d5dd0736f60e7fa98e11e77b94b9f7727d"
+      ],
       "text": "I see Pocket",
       "source": "official"
     }

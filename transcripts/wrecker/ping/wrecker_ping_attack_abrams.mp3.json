@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_attack_abrams.mp3",
   "revisions": [
     {
-      "sha256": "e6fc8bcc82126b92016697cff381504be043a8f039782177649ef92452b43112",
-      "text": "Kill Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f087d3f01c828301d409aeec68956f031bd8de6a2671cad20e8705f438830ad",
+      "sha256": [
+        "2f087d3f01c828301d409aeec68956f031bd8de6a2671cad20e8705f438830ad",
+        "e6fc8bcc82126b92016697cff381504be043a8f039782177649ef92452b43112"
+      ],
       "text": "Kill Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

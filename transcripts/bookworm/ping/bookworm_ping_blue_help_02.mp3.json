@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_blue_help_02.mp3",
   "revisions": [
     {
-      "sha256": "8455cf3f96b9f0738be2a470bbb56a1b870e7cb082c351e91f47de8551925907",
-      "text": "Broadway needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82305ceb865fcd7bebf01893cb117a91e8475fb43f1670e8d8f00d160ed1debd",
+      "sha256": [
+        "82305ceb865fcd7bebf01893cb117a91e8475fb43f1670e8d8f00d160ed1debd",
+        "8455cf3f96b9f0738be2a470bbb56a1b870e7cb082c351e91f47de8551925907"
+      ],
       "text": "Broadway needs help!",
       "source": "official"
     }

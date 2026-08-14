@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_base_defended_01.mp3",
   "revisions": [
     {
-      "sha256": "d024511f751f3ae493c05c64a029361f5656a5b4b01b11c0e81b283cdc14fd31",
+      "sha256": [
+        "d024511f751f3ae493c05c64a029361f5656a5b4b01b11c0e81b283cdc14fd31",
+        "ff9664584e635a6a06d1f3919b5b5f554296c21b8a2085b6d98c924435ba1604"
+      ],
       "text": "You've defended me. In time, I will be made whole again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ff9664584e635a6a06d1f3919b5b5f554296c21b8a2085b6d98c924435ba1604",
-      "text": "You've defended me! In time I will be made whole again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21c8a98b2b8aa2a60e0d8e2a48ea3c6f4109a8ed1175c38ef5a0c243b98d97e4",
+      "sha256": [
+        "21c8a98b2b8aa2a60e0d8e2a48ea3c6f4109a8ed1175c38ef5a0c243b98d97e4"
+      ],
       "text": "You fought off the Court of the Hidden King, but they will return.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

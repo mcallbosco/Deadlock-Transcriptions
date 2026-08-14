@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_viscous_03.mp3",
   "revisions": [
     {
-      "sha256": "b61de8a86ad92e87aa63c2b8862aaa73a276ead6289e2e931f4d1f774b5155d7",
+      "sha256": [
+        "b61de8a86ad92e87aa63c2b8862aaa73a276ead6289e2e931f4d1f774b5155d7"
+      ],
       "text": "Careful, Viskus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "293f1fe57419da315af3f00b0a66ecf465dbacfafcb7e8c44b0ee50de3c82115",
-      "text": "Careful, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "293f1fe57419da315af3f00b0a66ecf465dbacfafcb7e8c44b0ee50de3c82115",
+        "8aab6f30adbee639e76d258850647884ae106e209edce84b9d3baea6607dcea0",
+        "acb453a85f0787adcf301175c6b37296495a481d83a6c02ae624cc4f190fee26"
+      ],
+      "text": "Careful, Viscous!",
+      "source": "official"
     },
     {
-      "sha256": "acb453a85f0787adcf301175c6b37296495a481d83a6c02ae624cc4f190fee26",
-      "text": "Careful, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f5ca7e6efbfc8278e8e54d4f2671a2216d1f64665f4119b7457dc56369e164c",
+      "sha256": [
+        "2f5ca7e6efbfc8278e8e54d4f2671a2216d1f64665f4119b7457dc56369e164c"
+      ],
       "text": "Careful, Viscus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8aab6f30adbee639e76d258850647884ae106e209edce84b9d3baea6607dcea0",
-      "text": "Careful, Viscous!",
-      "source": "official"
     }
   ]
 }

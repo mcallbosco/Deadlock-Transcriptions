@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_ignore_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "9bb1b82f014edbc961ac2269105a58e23d30505655a472b8e8a492fccd398089",
+      "sha256": [
+        "9bb1b82f014edbc961ac2269105a58e23d30505655a472b8e8a492fccd398089"
+      ],
       "text": "Ignore that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

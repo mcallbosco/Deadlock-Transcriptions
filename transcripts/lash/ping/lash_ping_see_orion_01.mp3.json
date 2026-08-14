@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "f20096dc01d72a99658fe9b128da3a0ea068e1688dd5830c1f00378512e7830b",
-      "text": "I see Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c63b1a5318c4236673ee149e8530da3051e9bb10d3cf32c3e1c0026e179c7352",
-      "text": "I see Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ad0d576c2983a9c2f610edfcbbd8536145b51bf49c69ee14ef6e21b145441ba",
+      "sha256": [
+        "5ad0d576c2983a9c2f610edfcbbd8536145b51bf49c69ee14ef6e21b145441ba",
+        "c63b1a5318c4236673ee149e8530da3051e9bb10d3cf32c3e1c0026e179c7352",
+        "f20096dc01d72a99658fe9b128da3a0ea068e1688dd5830c1f00378512e7830b"
+      ],
       "text": "I see Grey Talon",
       "source": "official"
     }

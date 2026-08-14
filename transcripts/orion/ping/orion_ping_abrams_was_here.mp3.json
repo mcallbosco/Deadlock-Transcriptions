@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_abrams_was_here.mp3",
   "revisions": [
     {
-      "sha256": "52e644269037c99306652958bf59c68d61e55919a2c574b6cc620a5ec66c6897",
+      "sha256": [
+        "52e644269037c99306652958bf59c68d61e55919a2c574b6cc620a5ec66c6897"
+      ],
       "text": "Abrams is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

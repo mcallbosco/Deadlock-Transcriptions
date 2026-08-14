@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_need_plan.mp3",
   "revisions": [
     {
-      "sha256": "f7c276d13a3d45e0778abbb224faef3eb529b8afeadbde49f223b573521f77d4",
-      "text": "What's the plan?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5381f64bfbe3bedf1be6d04082360acc2ae45394604b8810f452a96e199a1828",
+      "sha256": [
+        "5381f64bfbe3bedf1be6d04082360acc2ae45394604b8810f452a96e199a1828",
+        "f7c276d13a3d45e0778abbb224faef3eb529b8afeadbde49f223b573521f77d4"
+      ],
       "text": "What's the plan?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

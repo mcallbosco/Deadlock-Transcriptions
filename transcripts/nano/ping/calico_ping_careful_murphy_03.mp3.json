@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_murphy_03.mp3",
   "revisions": [
     {
-      "sha256": "1673ae3920b3dd48a71ec52aa4d85769f234cc0eda2d4524aff1ff186f1f549d",
-      "text": "Careful, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02fe632a7db9eeb22c2acb027a523d6557173bf1334addb505fb03bbc2ecf561",
+      "sha256": [
+        "02fe632a7db9eeb22c2acb027a523d6557173bf1334addb505fb03bbc2ecf561",
+        "1673ae3920b3dd48a71ec52aa4d85769f234cc0eda2d4524aff1ff186f1f549d"
+      ],
       "text": "Careful, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

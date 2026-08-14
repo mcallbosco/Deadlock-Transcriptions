@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_guardian_destroyed_05.mp3",
   "revisions": [
     {
-      "sha256": "43ed81cbd7a1b710b07587320c91c9bed2dcf58959226bb6d18f8b3ed6905884",
+      "sha256": [
+        "43ed81cbd7a1b710b07587320c91c9bed2dcf58959226bb6d18f8b3ed6905884"
+      ],
       "text": "C'mon!",
       "source": "generated",
       "model": "whisper-1"
     },
     {
-      "sha256": "0a85366b1c2fc3df964309f41f6b489ab686a00783389add477511bb249aa964",
+      "sha256": [
+        "0a85366b1c2fc3df964309f41f6b489ab686a00783389add477511bb249aa964"
+      ],
       "text": "Ah! Ah!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

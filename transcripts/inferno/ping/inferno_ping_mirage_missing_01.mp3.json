@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "cc17048135e2415816589c008d1a09c3cc433ad0bbca9da886c226d93792e4fd",
+      "sha256": [
+        "cc17048135e2415816589c008d1a09c3cc433ad0bbca9da886c226d93792e4fd"
+      ],
       "text": "Watch my sinning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ad7c2ab19f671ec2459ea630c7a54eda353b2160ae9b55ccee86bf53ecd1f43a",
+      "sha256": [
+        "47b16ef9ff7ccbf6e1884dfd24bf292a271952d356093848d566805c25298d14",
+        "ad7c2ab19f671ec2459ea630c7a54eda353b2160ae9b55ccee86bf53ecd1f43a"
+      ],
       "text": "Crash missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "47b16ef9ff7ccbf6e1884dfd24bf292a271952d356093848d566805c25298d14",
-      "text": "Crash missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67bb7b20cbeb906d6a5ee340e1d1518b3e495bca4d5e74252be070bbdecd1ba9",
+      "sha256": [
+        "67bb7b20cbeb906d6a5ee340e1d1518b3e495bca4d5e74252be070bbdecd1ba9"
+      ],
       "text": "Mirage's missing",
       "source": "official"
     }

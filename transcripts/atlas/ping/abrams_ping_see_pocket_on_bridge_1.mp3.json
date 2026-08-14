@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_pocket_on_bridge_1.mp3",
   "revisions": [
     {
-      "sha256": "167cbd55647398685a3ce078047345b207e68cfd961520e489c57ad896985e4e",
-      "text": "Pocket is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07f1c2e7222f55dff5f24bec0bb7bd6577ff4b5ce58837e8b2b32870e1a53826",
+      "sha256": [
+        "07f1c2e7222f55dff5f24bec0bb7bd6577ff4b5ce58837e8b2b32870e1a53826",
+        "167cbd55647398685a3ce078047345b207e68cfd961520e489c57ad896985e4e"
+      ],
       "text": "Pocket is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_astro_01.mp3",
   "revisions": [
     {
-      "sha256": "34b7343cd12f043cab7023892be5b7d56a532a77dea07ba9b935d14b0865db03",
-      "text": "Careful, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ecff0df6b63179ee137acf42369dbd8a8bd6257ef061511bb7236e3193d5f9ea",
+      "sha256": [
+        "34b7343cd12f043cab7023892be5b7d56a532a77dea07ba9b935d14b0865db03",
+        "ecff0df6b63179ee137acf42369dbd8a8bd6257ef061511bb7236e3193d5f9ea"
+      ],
       "text": "Careful, Holliday…",
       "source": "official"
     }

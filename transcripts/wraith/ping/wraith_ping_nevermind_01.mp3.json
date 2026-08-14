@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_nevermind_01.mp3",
   "revisions": [
     {
-      "sha256": "486f733b80b4168b62e039b530148f7bd19461f885d816c82786ec8926263fc8",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa1426924fe0082f6e34e0621c2b9d46477d0eb549d4cda24175ba51a1d673ff",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b986c695ffe51e01246468424121e9882040cd454bcae155038422fa57feb63",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e9aa69bd80ac956c78ecbcbe64a9d2c917a091498ba0a6c5e405e759e8fa474",
+      "sha256": [
+        "0e9aa69bd80ac956c78ecbcbe64a9d2c917a091498ba0a6c5e405e759e8fa474",
+        "486f733b80b4168b62e039b530148f7bd19461f885d816c82786ec8926263fc8",
+        "4b986c695ffe51e01246468424121e9882040cd454bcae155038422fa57feb63",
+        "fa1426924fe0082f6e34e0621c2b9d46477d0eb549d4cda24175ba51a1d673ff"
+      ],
       "text": "Never mind.",
       "source": "official"
     }

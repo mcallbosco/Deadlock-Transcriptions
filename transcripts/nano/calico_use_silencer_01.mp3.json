@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_use_silencer_01.mp3",
   "revisions": [
     {
-      "sha256": "0aa5c641c01a9c8efa0298d6d36aa533e54ac9b7e24d6a570878e2cb7b3f723b",
+      "sha256": [
+        "0aa5c641c01a9c8efa0298d6d36aa533e54ac9b7e24d6a570878e2cb7b3f723b"
+      ],
       "text": "I'll silence them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fe063655474213f1502f8a244b1f8300f904fa9a9967ded80b90b77ac3e3d6af",
+      "sha256": [
+        "fe063655474213f1502f8a244b1f8300f904fa9a9967ded80b90b77ac3e3d6af"
+      ],
       "text": "I'll set in stone.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

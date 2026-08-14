@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_fairfax_was_here.mp3",
   "revisions": [
     {
-      "sha256": "68b9d7ae571867972dd53c3dc3e5ef90c99f52622de2cf033b92add895154078",
+      "sha256": [
+        "68b9d7ae571867972dd53c3dc3e5ef90c99f52622de2cf033b92add895154078"
+      ],
       "text": "They're back this year.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

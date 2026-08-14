@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_see_money_02.mp3",
   "revisions": [
     {
-      "sha256": "d8676f65b2f6b9a88e55ced76bcb60e7ee820abd69e3b9395f73af108e911f1e",
-      "text": "There's coin nearby.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "403d0d8413a5cc2180025f932c7fb310c97879f4e6b15df1ec386213c280f911",
+      "sha256": [
+        "403d0d8413a5cc2180025f932c7fb310c97879f4e6b15df1ec386213c280f911",
+        "d8676f65b2f6b9a88e55ced76bcb60e7ee820abd69e3b9395f73af108e911f1e"
+      ],
       "text": "There's coin nearby.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

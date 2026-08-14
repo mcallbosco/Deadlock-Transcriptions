@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_lash_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b18a86bc92efd86038c67028fb96dfcba11e3dc2a9537ef5aeab3110a0e3821d",
+      "sha256": [
+        "518d0a8f836463aa10d2759993592e3d0fed6fc16901c2cec53609fe165bb100",
+        "b18a86bc92efd86038c67028fb96dfcba11e3dc2a9537ef5aeab3110a0e3821d",
+        "d8012e6f565866544e5a27e19452dc34c77cf8aaf23b6f30db212c7092fd1a40"
+      ],
       "text": "Flash is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d8012e6f565866544e5a27e19452dc34c77cf8aaf23b6f30db212c7092fd1a40",
-      "text": "Flash is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "518d0a8f836463aa10d2759993592e3d0fed6fc16901c2cec53609fe165bb100",
-      "text": "Flash is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

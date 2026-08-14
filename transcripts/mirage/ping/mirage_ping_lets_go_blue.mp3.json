@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "cf6704f084e2b9b45cd5df1048a8dff86da1530954cfe79069b012391ffe766b",
+      "sha256": [
+        "cf6704f084e2b9b45cd5df1048a8dff86da1530954cfe79069b012391ffe766b"
+      ],
       "text": "Let's go, bro.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b5d5e4ca6c14a406564a5429d98bc1453e2c9610b28350bd74df9e0ffd07a2e1",
-      "text": "Let's go blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4809b5936ddc7699f8781736e427e7c640af293ddf12b4e8ec983c0c6b49d2fb",
-      "text": "Let's go blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "466e447e7a96dc82b9e41a5d8354c1ae58bd20ab55f5996879710cabcb6ccb10",
+      "sha256": [
+        "466e447e7a96dc82b9e41a5d8354c1ae58bd20ab55f5996879710cabcb6ccb10",
+        "4809b5936ddc7699f8781736e427e7c640af293ddf12b4e8ec983c0c6b49d2fb",
+        "b5d5e4ca6c14a406564a5429d98bc1453e2c9610b28350bd74df9e0ffd07a2e1"
+      ],
       "text": "Let's go blue!",
       "source": "official"
     }

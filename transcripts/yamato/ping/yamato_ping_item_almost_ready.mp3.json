@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_item_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "b4027e0efbcc2ac04df3923ed8eebf94e817f781161c88971c8da9234cb0ce57",
-      "text": "Items almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e90ae67c883bbc264b039a2d6f8671c19409fc71758aeb325f59d6c0aa0b54e",
+      "sha256": [
+        "8e90ae67c883bbc264b039a2d6f8671c19409fc71758aeb325f59d6c0aa0b54e",
+        "b4027e0efbcc2ac04df3923ed8eebf94e817f781161c88971c8da9234cb0ce57"
+      ],
       "text": "Item's almost ready",
       "source": "official"
     }

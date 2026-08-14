@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "81266ed391788d6aa541ec2910a737c5ab156f3446619fe0bc7b9002b7be4892",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6725f75dbcf0ca401177809b9188a9c59c7746e1c98ed1c235ba162caa67a589",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b88f4a7aa802eb681f1f2ca7dde631ff9f0d4c4f533ea9a96adccb2f88e456ee",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7b3db7885986686f0389f296fa6edbd9797f75fca580a4a421e88fffc71fad73",
+      "sha256": [
+        "6725f75dbcf0ca401177809b9188a9c59c7746e1c98ed1c235ba162caa67a589",
+        "7b3db7885986686f0389f296fa6edbd9797f75fca580a4a421e88fffc71fad73",
+        "81266ed391788d6aa541ec2910a737c5ab156f3446619fe0bc7b9002b7be4892",
+        "b88f4a7aa802eb681f1f2ca7dde631ff9f0d4c4f533ea9a96adccb2f88e456ee"
+      ],
       "text": "I see Krill",
       "source": "official"
     }

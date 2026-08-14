@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_fairfax_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "35bb88ff6fa547811079bbd05430411dd067edeccbaa08c43c28a8a9f4b264b3",
+      "sha256": [
+        "35bb88ff6fa547811079bbd05430411dd067edeccbaa08c43c28a8a9f4b264b3"
+      ],
       "text": "Parafax is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "59e9a42262940da04cda9110284ce09ba54b2ff1221049169b9daf735771352d",
-      "text": "Fairfax is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f86dbd7823690c169d7d2cd323ea5f50aaf22f2f95c02b9e1f7bce9cd901075",
+      "sha256": [
+        "1f86dbd7823690c169d7d2cd323ea5f50aaf22f2f95c02b9e1f7bce9cd901075",
+        "59e9a42262940da04cda9110284ce09ba54b2ff1221049169b9daf735771352d"
+      ],
       "text": "Fairfax is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

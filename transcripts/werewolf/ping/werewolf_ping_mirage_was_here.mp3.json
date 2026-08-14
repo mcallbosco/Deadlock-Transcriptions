@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "649d43e9bea428247aa490200cf7a6fa0ec34cc277969d41d58f0b89e8e33492",
+      "sha256": [
+        "649d43e9bea428247aa490200cf7a6fa0ec34cc277969d41d58f0b89e8e33492"
+      ],
       "text": "Marla's here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

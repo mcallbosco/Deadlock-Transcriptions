@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_headed_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "6ab64cec58efa24c7ecea1ac2e40ca04ea3983ccc88281dcc195f4adfabf873c",
+      "sha256": [
+        "6ab64cec58efa24c7ecea1ac2e40ca04ea3983ccc88281dcc195f4adfabf873c"
+      ],
       "text": "Hello, George.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e45f9b6f4323675a3230d6dc3c6252098395efae192af7fb933987dc1c334024",
-      "text": "Head it to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "630c9c6c6e074af002db7ecbbe219e77b3478d22f0ed0aabaafc26e70b299663",
+      "sha256": [
+        "630c9c6c6e074af002db7ecbbe219e77b3478d22f0ed0aabaafc26e70b299663",
+        "e45f9b6f4323675a3230d6dc3c6252098395efae192af7fb933987dc1c334024"
+      ],
       "text": "Head it to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

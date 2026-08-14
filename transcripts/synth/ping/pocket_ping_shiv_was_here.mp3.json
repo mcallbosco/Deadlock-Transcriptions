@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "02a6213a7c038f2e7681ee9ca98c2a488c4e3fec501ba845813aa7d6d183ad7c",
-      "text": "She was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "74f8d01413765596aa96cd913f178faa0281a1dcedb6dc4f833499cd6361d447",
+      "sha256": [
+        "02a6213a7c038f2e7681ee9ca98c2a488c4e3fec501ba845813aa7d6d183ad7c",
+        "74f8d01413765596aa96cd913f178faa0281a1dcedb6dc4f833499cd6361d447"
+      ],
       "text": "She was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

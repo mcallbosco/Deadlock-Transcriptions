@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_mirage.mp3",
   "revisions": [
     {
-      "sha256": "858c55e9f88d5107c1cab80dfc6cd501fe9b904c5b004c31566b6e4674c5ed39",
+      "sha256": [
+        "336dede684b45f6d305bc7916db3cc6f225cdefc980813b46ce8510f416c507d",
+        "858c55e9f88d5107c1cab80dfc6cd501fe9b904c5b004c31566b6e4674c5ed39",
+        "9bc2d58e80c7c4818df33a52535149716daef75cbeb0f1fa2d44c607c4f95c28"
+      ],
       "text": "I saw Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9bc2d58e80c7c4818df33a52535149716daef75cbeb0f1fa2d44c607c4f95c28",
-      "text": "I saw Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6667eb5ec697f8055f345c75d6df25d23cdff2a48b5d3032f1e9bf31ba1d313f",
+      "sha256": [
+        "6667eb5ec697f8055f345c75d6df25d23cdff2a48b5d3032f1e9bf31ba1d313f"
+      ],
       "text": "I saw a Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "336dede684b45f6d305bc7916db3cc6f225cdefc980813b46ce8510f416c507d",
-      "text": "I saw Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

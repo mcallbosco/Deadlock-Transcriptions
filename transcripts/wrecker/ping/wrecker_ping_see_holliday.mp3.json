@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_holliday.mp3",
   "revisions": [
     {
-      "sha256": "4accc8362064d4109254383f57ab7f6c7ea1a59add530010a14ce1d14b8e1392",
-      "text": "I see, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3076995472056c1bb0c49c5b3244c6efddac3abc0ff457be16824d3c18a9f2a6",
+      "sha256": [
+        "3076995472056c1bb0c49c5b3244c6efddac3abc0ff457be16824d3c18a9f2a6",
+        "4accc8362064d4109254383f57ab7f6c7ea1a59add530010a14ce1d14b8e1392"
+      ],
       "text": "I see, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

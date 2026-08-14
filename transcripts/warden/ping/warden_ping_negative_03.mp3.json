@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_negative_03.mp3",
   "revisions": [
     {
-      "sha256": "f46182853854f3985f406f08d443904dec6506defb68d193ebc6d400df0bad98",
-      "text": "You sure?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "51cce4027297772c2d02a0860b0551b69dd5ba4c6e4bfff1dec1068303585408",
-      "text": "You sure?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eaf0986ce86616d0b39a02b5e66aee04a3636586fef5df8cce26b345ab40b116",
-      "text": "You sure?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a061ca70673aebdde67c76325e6dc8e3ed363c59358b95f06bfc3119dd599f32",
+      "sha256": [
+        "51cce4027297772c2d02a0860b0551b69dd5ba4c6e4bfff1dec1068303585408",
+        "a061ca70673aebdde67c76325e6dc8e3ed363c59358b95f06bfc3119dd599f32",
+        "eaf0986ce86616d0b39a02b5e66aee04a3636586fef5df8cce26b345ab40b116",
+        "f46182853854f3985f406f08d443904dec6506defb68d193ebc6d400df0bad98"
+      ],
       "text": "You sure?",
       "source": "official"
     }

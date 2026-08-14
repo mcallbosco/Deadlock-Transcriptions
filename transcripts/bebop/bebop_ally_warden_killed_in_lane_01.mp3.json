@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_ally_warden_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "88aea6e35312fc23aa962e89270d92930563ffdae327cf014c15f4b50a7ddf56",
+      "sha256": [
+        "88aea6e35312fc23aa962e89270d92930563ffdae327cf014c15f4b50a7ddf56"
+      ],
       "text": "I took out Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "405d58bfc0ca429665a8eaba720a08b60db671d678b6ea579637ba16b075149e",
+      "sha256": [
+        "405d58bfc0ca429665a8eaba720a08b60db671d678b6ea579637ba16b075149e"
+      ],
       "text": "They took out Warden",
       "source": "official"
     }

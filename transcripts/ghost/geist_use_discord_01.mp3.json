@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_use_discord_01.mp3",
   "revisions": [
     {
-      "sha256": "c8396d7673d43b3dbf491c07871dddff89078722cb5a8d6fcc1541415b127d65",
+      "sha256": [
+        "c8396d7673d43b3dbf491c07871dddff89078722cb5a8d6fcc1541415b127d65",
+        "d66e3efd250a4bb5c6e5d8c887e1941a63d43b3bec81be0dcf85ad86c5c52603"
+      ],
       "text": "Peace court.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d66e3efd250a4bb5c6e5d8c887e1941a63d43b3bec81be0dcf85ad86c5c52603",
-      "text": "Peace Court.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

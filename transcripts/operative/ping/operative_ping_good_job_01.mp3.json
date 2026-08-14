@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "da81fbda73f4a27e923c6c01e1530722b9ede595e3ca955975f96e68045598d7",
+      "sha256": [
+        "da81fbda73f4a27e923c6c01e1530722b9ede595e3ca955975f96e68045598d7"
+      ],
       "text": "Good job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

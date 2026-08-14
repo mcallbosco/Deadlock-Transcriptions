@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_headed_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "a793d6b135a3749a56e39ebf28aba54d4082ff8a386d055ddb71b6917217baed",
-      "text": "Headed to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ab4ce0cd0f4c9760fbc703448b7ff185bd81e43b210f77bef7fff034dcd6a20",
+      "sha256": [
+        "5ab4ce0cd0f4c9760fbc703448b7ff185bd81e43b210f77bef7fff034dcd6a20",
+        "a793d6b135a3749a56e39ebf28aba54d4082ff8a386d055ddb71b6917217baed"
+      ],
       "text": "Headed to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

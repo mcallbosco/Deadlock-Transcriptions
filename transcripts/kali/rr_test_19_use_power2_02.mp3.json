@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "48e4be55b6c84ace974706cb3eab701d9aab01d458981c45ae503124dfc8fc63",
+      "sha256": [
+        "48e4be55b6c84ace974706cb3eab701d9aab01d458981c45ae503124dfc8fc63",
+        "5c5ea47e652f3b507a33139280853c11dc88f8866cc0a925975e587ac3afd817",
+        "7985e3e2300fabebe1556b8954dfa75cee7104c7151a3932289cafc1169524c6"
+      ],
       "text": "Let's pick it up, people.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c5ea47e652f3b507a33139280853c11dc88f8866cc0a925975e587ac3afd817",
-      "text": "Let's pick it up, people.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7985e3e2300fabebe1556b8954dfa75cee7104c7151a3932289cafc1169524c6",
-      "text": "Let's pick it up, people!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

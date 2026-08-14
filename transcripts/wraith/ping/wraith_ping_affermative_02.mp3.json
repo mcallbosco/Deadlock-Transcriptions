@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_affermative_02.mp3",
   "revisions": [
     {
-      "sha256": "ee8492d74ccf9548c6430853e81bb755b29d305c75373975f971d027d37c12ed",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "960e89b1da5b1245f6a18a97d1505c8346b5724a7928242c2081184954411fb0",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67a99d18f5151b3eee5973743456a36f9ba0439c3a2b0f90f1bf09969195198a",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6d505747adaa9dd36881ea61dd99251fccef00b4d2326fee7187b9ef9d6f984",
+      "sha256": [
+        "67a99d18f5151b3eee5973743456a36f9ba0439c3a2b0f90f1bf09969195198a",
+        "960e89b1da5b1245f6a18a97d1505c8346b5724a7928242c2081184954411fb0",
+        "e6d505747adaa9dd36881ea61dd99251fccef00b4d2326fee7187b9ef9d6f984",
+        "ee8492d74ccf9548c6430853e81bb755b29d305c75373975f971d027d37c12ed"
+      ],
       "text": "I like it",
       "source": "official"
     }

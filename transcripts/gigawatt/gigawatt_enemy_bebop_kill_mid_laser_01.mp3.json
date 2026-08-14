@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_enemy_bebop_kill_mid_laser_01.mp3",
   "revisions": [
     {
-      "sha256": "694f94cd3a386af2bc1abac1be8c79762e7aa91564d2ef5fa91e63704226667f",
-      "text": "You're too slow, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "694f94cd3a386af2bc1abac1be8c79762e7aa91564d2ef5fa91e63704226667f",
+        "fcd8f3cbdca1c60fcaae5158320bffc715178775111b6d29f08d6434fcf21e7a"
+      ],
+      "text": "You're too slow, Bebop!",
+      "source": "manual"
     },
     {
-      "sha256": "dfa8eeffb7629fce336499cd803ea65badea542414f7f10f1684c269a3d910a7",
+      "sha256": [
+        "dfa8eeffb7629fce336499cd803ea65badea542414f7f10f1684c269a3d910a7"
+      ],
       "text": "You just don't give up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b25f8d0e6b0a6af9ec9c92f0c3168e1974c260990097298067da0938aac58fe6",
+      "sha256": [
+        "b25f8d0e6b0a6af9ec9c92f0c3168e1974c260990097298067da0938aac58fe6"
+      ],
       "text": "You're too strong, give up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fcd8f3cbdca1c60fcaae5158320bffc715178775111b6d29f08d6434fcf21e7a",
-      "text": "You're too slow, Bebop!",
-      "source": "manual"
     }
   ]
 }

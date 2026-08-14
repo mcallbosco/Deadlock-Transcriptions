@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_power2_09.mp3",
   "revisions": [
     {
-      "sha256": "231b715b11d5072c0a5ec30268375afa011080da200da470ea0023feb6ccc107",
-      "text": "They will fall.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1b24895a2d9a5c4f4613f2903579d8737d0ed785af88cae8a90a65a39968fcd",
-      "text": "I will show them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "94f09638d7c2fdb54c394c9a6488e5a4d19bc042d26ad4d3642f5692f6853df4",
-      "text": "I will show them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "714bcc0cda19a35b8250c8bd33fed17c4806a6011efec7824358054397eee283",
+      "sha256": [
+        "231b715b11d5072c0a5ec30268375afa011080da200da470ea0023feb6ccc107",
+        "714bcc0cda19a35b8250c8bd33fed17c4806a6011efec7824358054397eee283"
+      ],
       "text": "They will fall…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "94f09638d7c2fdb54c394c9a6488e5a4d19bc042d26ad4d3642f5692f6853df4",
+        "c1b24895a2d9a5c4f4613f2903579d8737d0ed785af88cae8a90a65a39968fcd"
+      ],
+      "text": "I will show them.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

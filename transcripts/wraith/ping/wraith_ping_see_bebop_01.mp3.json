@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "37095ccb1ec32f2cc111b28df1c2d82e769ed0a9eeab2b4ebbf9689855286997",
-      "text": "I see Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b19e53f79d2c315369aef22ba3950669cffa7a162cea7dd798654a9661b6ec3",
-      "text": "I see Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd406db466f220084aa0b724722aaaa55d65b56c43b42f110b42a118a65fbf9e",
-      "text": "I see Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91eff98ec1ea875a41fbe5ab542a8d08914387357117bc6713c2edc513d6cf9e",
+      "sha256": [
+        "1b19e53f79d2c315369aef22ba3950669cffa7a162cea7dd798654a9661b6ec3",
+        "37095ccb1ec32f2cc111b28df1c2d82e769ed0a9eeab2b4ebbf9689855286997",
+        "91eff98ec1ea875a41fbe5ab542a8d08914387357117bc6713c2edc513d6cf9e",
+        "bd406db466f220084aa0b724722aaaa55d65b56c43b42f110b42a118a65fbf9e"
+      ],
       "text": "I see Bebop",
       "source": "official"
     }

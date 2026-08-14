@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_can_heal_viper.mp3",
   "revisions": [
     {
-      "sha256": "c2c009329c686d6369cc0e318ece140043db20aa7f8763785aafb8ea2de98c99",
-      "text": "Viper! I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e95ed64bc5b80e190906167bedf886ef910b8ca8897bc9dee7bc61f7270f4d80",
+      "sha256": [
+        "c2c009329c686d6369cc0e318ece140043db20aa7f8763785aafb8ea2de98c99",
+        "e95ed64bc5b80e190906167bedf886ef910b8ca8897bc9dee7bc61f7270f4d80"
+      ],
       "text": "Viper, I can heal you!",
       "source": "official"
     }

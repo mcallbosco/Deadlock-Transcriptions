@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_win_01.mp3",
   "revisions": [
     {
-      "sha256": "f0105ce3a28b5225a2a4547921cd3abba58a566587919adf8f3921483e3f9bcf",
+      "sha256": [
+        "f0105ce3a28b5225a2a4547921cd3abba58a566587919adf8f3921483e3f9bcf"
+      ],
       "text": "No need to thank me. Winning is what I do.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

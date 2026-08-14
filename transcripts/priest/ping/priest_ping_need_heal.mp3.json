@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "bb483939c20b02d3ead3d7c10f1d0e3e5602a8db1f7e22e61a72f1617545d109",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdfc137225fe8f752dc8f20a6dcfd47be427a04925b2473c218d2338e9ff0623",
+      "sha256": [
+        "bb483939c20b02d3ead3d7c10f1d0e3e5602a8db1f7e22e61a72f1617545d109",
+        "cdfc137225fe8f752dc8f20a6dcfd47be427a04925b2473c218d2338e9ff0623"
+      ],
       "text": "Do you have a heal?",
       "source": "official"
     }

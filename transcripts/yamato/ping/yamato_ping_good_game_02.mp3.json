@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_good_game_02.mp3",
   "revisions": [
     {
-      "sha256": "1ce327bf8cd8f0d36ba1d12ff3b2231c7d69747e25e8647a34da4a952b0b83c2",
+      "sha256": [
+        "1ce327bf8cd8f0d36ba1d12ff3b2231c7d69747e25e8647a34da4a952b0b83c2"
+      ],
       "text": "The battle won't be forgotten.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9349b9a0d3675afd55c7e9682a3872ae4ebf93e84d9e22c6199ead85e1f06175",
-      "text": "Congratulations.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18f762a3de180203b601445e02bbe6dc1a37434b7f841582dac733aed7f121ba",
+      "sha256": [
+        "18f762a3de180203b601445e02bbe6dc1a37434b7f841582dac733aed7f121ba",
+        "9349b9a0d3675afd55c7e9682a3872ae4ebf93e84d9e22c6199ead85e1f06175"
+      ],
       "text": "Congratulations.",
       "source": "official"
     }

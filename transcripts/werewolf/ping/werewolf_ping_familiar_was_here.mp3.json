@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_familiar_was_here.mp3",
   "revisions": [
     {
-      "sha256": "26463663d79cff159ffaf2e9ff10f9fc77993b517244e831027e17a918254f94",
+      "sha256": [
+        "26463663d79cff159ffaf2e9ff10f9fc77993b517244e831027e17a918254f94"
+      ],
       "text": "Where was he?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

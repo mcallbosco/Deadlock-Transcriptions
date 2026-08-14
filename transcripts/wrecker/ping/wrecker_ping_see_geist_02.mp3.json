@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_geist_02.mp3",
   "revisions": [
     {
-      "sha256": "18fbe3c835ba48d22c46a1e24122442728ef9ad757295a7196b6afe42e3609da",
+      "sha256": [
+        "18fbe3c835ba48d22c46a1e24122442728ef9ad757295a7196b6afe42e3609da"
+      ],
       "text": "I see green arm.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3cc12c96a2714d660513d234691ee8345116f8f53796e1691d0727da7e127c2e",
+      "sha256": [
+        "3cc12c96a2714d660513d234691ee8345116f8f53796e1691d0727da7e127c2e"
+      ],
       "text": "I see green harm.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

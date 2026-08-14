@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_with_slork.mp3",
   "revisions": [
     {
-      "sha256": "eca6e5ad67136934921ea466c7b45563ae7fa9ad59467548dc8f5c898ab1cd93",
+      "sha256": [
+        "eca6e5ad67136934921ea466c7b45563ae7fa9ad59467548dc8f5c898ab1cd93"
+      ],
       "text": "I'm with you, Father.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

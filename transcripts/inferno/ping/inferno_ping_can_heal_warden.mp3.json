@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_can_heal_warden.mp3",
   "revisions": [
     {
-      "sha256": "7a2b7bb5eec3b8d7cf4270eef78b82bcce12e8bda1ac012fb963f304016d2601",
-      "text": "Warden, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "5e867e2b2bdd0888ed7fc4601c0125af0d041e9ee2d49ebd89207f5a02d9c3a0",
+        "7a2b7bb5eec3b8d7cf4270eef78b82bcce12e8bda1ac012fb963f304016d2601",
+        "d5113fa86e77bf82916dca43828314ba8c603ee22a24fad8cc7f09e94309d785"
+      ],
+      "text": "Warden, I can heal you!",
+      "source": "official"
     },
     {
-      "sha256": "a029745f2e74f44b9abff06ef3a6ffb8693649ce6e1e8891685874aa1703d1aa",
+      "sha256": [
+        "a029745f2e74f44b9abff06ef3a6ffb8693649ce6e1e8891685874aa1703d1aa"
+      ],
       "text": "Gordon, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e867e2b2bdd0888ed7fc4601c0125af0d041e9ee2d49ebd89207f5a02d9c3a0",
-      "text": "Warden, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5113fa86e77bf82916dca43828314ba8c603ee22a24fad8cc7f09e94309d785",
-      "text": "Warden, I can heal you!",
-      "source": "official"
     }
   ]
 }

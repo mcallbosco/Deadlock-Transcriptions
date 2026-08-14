@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_seven_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fb967791172e82550b2bf2d4eb82ffd85f390a4a052cf538f55bc114e9151057",
+      "sha256": [
+        "fb967791172e82550b2bf2d4eb82ffd85f390a4a052cf538f55bc114e9151057"
+      ],
       "text": "Kevin was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f34e927de4bf189ecce3cc3e1009dc59bc8b0da0a86b129d4457aec47774d01",
+      "sha256": [
+        "1f34e927de4bf189ecce3cc3e1009dc59bc8b0da0a86b129d4457aec47774d01"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

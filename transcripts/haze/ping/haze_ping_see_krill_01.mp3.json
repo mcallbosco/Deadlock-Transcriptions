@@ -1,35 +1,38 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "8ef7c980b77c17904e5a67e7fd6dfa2cfea5a0dd97b66eb3c8acea564437e8b2",
+      "sha256": [
+        "8ef7c980b77c17904e5a67e7fd6dfa2cfea5a0dd97b66eb3c8acea564437e8b2"
+      ],
       "text": "My skill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4da890f59c53baab0e92ef6b6bd7cdbb6adbd0c269f7f42e7348b0f8f3346d61",
+      "sha256": [
+        "4da890f59c53baab0e92ef6b6bd7cdbb6adbd0c269f7f42e7348b0f8f3346d61"
+      ],
       "text": "I seek thrill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3060e09be6e0d153ed8e215bf9b6293cdf942271d1470e960178756b6111d380",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3060e09be6e0d153ed8e215bf9b6293cdf942271d1470e960178756b6111d380",
+        "74de0fc89df6dff049c3b207be54282dd5919f6ef20aca9c9bb4743a3b4ae280"
+      ],
+      "text": "I see Krill",
+      "source": "official"
     },
     {
-      "sha256": "2e8573c8eb5320478c4ac95d97451bb9cbe08b7cdeb94d349556debdcaf813e1",
+      "sha256": [
+        "2e8573c8eb5320478c4ac95d97451bb9cbe08b7cdeb94d349556debdcaf813e1"
+      ],
       "text": "I seek Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "74de0fc89df6dff049c3b207be54282dd5919f6ef20aca9c9bb4743a3b4ae280",
-      "text": "I see Krill",
-      "source": "official"
     }
   ]
 }

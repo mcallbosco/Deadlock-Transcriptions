@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "f32a72e2a73272112f7b61882b196829319518b3cc0e3155875386667ac9c163",
+      "sha256": [
+        "f32a72e2a73272112f7b61882b196829319518b3cc0e3155875386667ac9c163"
+      ],
       "text": "Nice one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c28d37d78e97046d1e222142e56cd7e68f1be4879f9f60b1f3f2745594f16a42",
+      "sha256": [
+        "a794d6bcce6e41d991834b31ccb9f06821b99784d7dd77a8abbf923c7d16c6cd",
+        "c28d37d78e97046d1e222142e56cd7e68f1be4879f9f60b1f3f2745594f16a42"
+      ],
       "text": "Network.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a794d6bcce6e41d991834b31ccb9f06821b99784d7dd77a8abbf923c7d16c6cd",
-      "text": "Network.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75b3859c6a98529f87e8ebfe9f0c7c08637fcc69a5367b2a50ca6df563650ab5",
+      "sha256": [
+        "75b3859c6a98529f87e8ebfe9f0c7c08637fcc69a5367b2a50ca6df563650ab5"
+      ],
       "text": "Nice work!",
       "source": "official"
     }

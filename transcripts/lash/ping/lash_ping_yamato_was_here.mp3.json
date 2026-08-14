@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "605c9f19d56b0cf7b627907e2fd930a027c2fe43c7477ba78ce05fda5b22cf08",
-      "text": "Yamato is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b066b457fc74a955446f5b023b7367191a0b2ddcaf2af15be8a88d14e79bf3d",
-      "text": "Yamato is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4e8c69b4421f2fb1a9c2a164adbf56b849c137424c194d83662e91581d0f748",
-      "text": "Yamato is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b15fe6173bdba0fd11dabf6be9bd9cb07af7b39da6fed1a28d3d8d7d03c79138",
+      "sha256": [
+        "2b066b457fc74a955446f5b023b7367191a0b2ddcaf2af15be8a88d14e79bf3d",
+        "605c9f19d56b0cf7b627907e2fd930a027c2fe43c7477ba78ce05fda5b22cf08",
+        "a4e8c69b4421f2fb1a9c2a164adbf56b849c137424c194d83662e91581d0f748",
+        "b15fe6173bdba0fd11dabf6be9bd9cb07af7b39da6fed1a28d3d8d7d03c79138"
+      ],
       "text": "Yamato is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

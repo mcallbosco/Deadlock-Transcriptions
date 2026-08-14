@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_sumo.mp3",
   "revisions": [
     {
-      "sha256": "04c9156986ab3f3c4a12c4378ae9a8133080bfc3f7f1319078050f90b07393b0",
+      "sha256": [
+        "04c9156986ab3f3c4a12c4378ae9a8133080bfc3f7f1319078050f90b07393b0"
+      ],
       "text": "That's assuming!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e119d4f8cbe0f09482bdd27a4bc032454bd16ea827757c0e2d4eba119537d9d6",
-      "text": "That's his sumo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f7190ccee089dcf8bf66b072081361f4bfa883810bed3cc3318882ee7e90f6b",
+      "sha256": [
+        "4f7190ccee089dcf8bf66b072081361f4bfa883810bed3cc3318882ee7e90f6b",
+        "e119d4f8cbe0f09482bdd27a4bc032454bd16ea827757c0e2d4eba119537d9d6"
+      ],
       "text": "That's his sumo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_fairfax_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "734d8aafc3bb93e8f04cd0b7f03da2f0139e544ac1f4c914d7ca16148cd7d564",
-      "text": "Fairfax is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d907e204bec1df0d5e1840a93af259751c7c3940a0fa2649b446fd990547d74",
-      "text": "Fairfax is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4bd1ffd6e07067336c54eb0bb57e50bf38112141f10db63964d068468f93f891",
+      "sha256": [
+        "4bd1ffd6e07067336c54eb0bb57e50bf38112141f10db63964d068468f93f891",
+        "734d8aafc3bb93e8f04cd0b7f03da2f0139e544ac1f4c914d7ca16148cd7d564",
+        "9d907e204bec1df0d5e1840a93af259751c7c3940a0fa2649b446fd990547d74"
+      ],
       "text": "Fairfax is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

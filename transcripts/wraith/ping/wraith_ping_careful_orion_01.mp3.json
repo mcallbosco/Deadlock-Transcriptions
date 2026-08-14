@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "f699f15274692fa3a6f389225cfd0a3bedb50b7e271ac04683e8b16348b95e9f",
+      "sha256": [
+        "f699f15274692fa3a6f389225cfd0a3bedb50b7e271ac04683e8b16348b95e9f"
+      ],
       "text": "Careful, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "362870032e39dc2951ade4f5045b4490b4247524101345e8df329212bad448e3",
-      "text": "Careful, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "318e802d3ab5991f7161480718761e64bbb31cbed2d8d48c1b4847d1c57602f5",
-      "text": "Careful, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ec2ec3df64932a6df2b058bd3175998477d7de1fc6568617e833587fddd6b85",
+      "sha256": [
+        "0ec2ec3df64932a6df2b058bd3175998477d7de1fc6568617e833587fddd6b85",
+        "318e802d3ab5991f7161480718761e64bbb31cbed2d8d48c1b4847d1c57602f5",
+        "362870032e39dc2951ade4f5045b4490b4247524101345e8df329212bad448e3"
+      ],
       "text": "Careful, Grey Talon…",
       "source": "official"
     }

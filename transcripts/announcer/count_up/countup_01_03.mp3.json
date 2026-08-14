@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/countup_01_03.mp3",
   "revisions": [
     {
-      "sha256": "4130a454b18376a4e38f55152079405c3d2dda0b4fa765934ce2ab3b77ba74e1",
+      "sha256": [
+        "4130a454b18376a4e38f55152079405c3d2dda0b4fa765934ce2ab3b77ba74e1"
+      ],
       "text": "I'm here to help if you need anything else!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "77932ea592d4114fdc0c4e6af6f84fea67e0ef862126480a8ea648969b8e0d5b",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a3381a8138c87ac74242f37eaab8e5d2638e2b6bfa63cefe72483f914544f637",
+      "sha256": [
+        "77932ea592d4114fdc0c4e6af6f84fea67e0ef862126480a8ea648969b8e0d5b",
+        "a3381a8138c87ac74242f37eaab8e5d2638e2b6bfa63cefe72483f914544f637"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

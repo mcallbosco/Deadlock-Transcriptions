@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_use_ability4_02.mp3",
   "revisions": [
     {
-      "sha256": "a43b2f3b5d2dab42d2f6766162a28032772bd5c5f1198380229a65f5b393de1d",
+      "sha256": [
+        "a43b2f3b5d2dab42d2f6766162a28032772bd5c5f1198380229a65f5b393de1d",
+        "bece58900c9a3bf765252cae062f942f2e589736d042163afb235b564a32005c"
+      ],
       "text": "Mo is ready to mow them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bece58900c9a3bf765252cae062f942f2e589736d042163afb235b564a32005c",
-      "text": "Mo is ready to mow them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f27fa85c1bcd18adbc4bfd5262a2b1faaf59c290f7f23de5087961ed8244b0a",
+      "sha256": [
+        "0f27fa85c1bcd18adbc4bfd5262a2b1faaf59c290f7f23de5087961ed8244b0a"
+      ],
       "text": "Mo's ready to maul them…",
       "source": "official"
     }

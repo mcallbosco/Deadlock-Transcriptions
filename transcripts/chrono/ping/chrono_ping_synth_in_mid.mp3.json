@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_synth_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "44307feb188b9e1167bce7fbd79b9c85ef8f5eb4720732bd16aaf430a212918f",
+      "sha256": [
+        "44307feb188b9e1167bce7fbd79b9c85ef8f5eb4720732bd16aaf430a212918f"
+      ],
       "text": "Talk it in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2134d2fb35c0e7f329402c0daa687da3968691e56ca600cb48002632ac6e57ea",
+      "sha256": [
+        "2134d2fb35c0e7f329402c0daa687da3968691e56ca600cb48002632ac6e57ea"
+      ],
       "text": "Pocket's in mid!",
       "source": "official"
     }

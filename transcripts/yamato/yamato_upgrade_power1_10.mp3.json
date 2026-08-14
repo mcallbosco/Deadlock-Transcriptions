@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power1_10.mp3",
   "revisions": [
     {
-      "sha256": "ef77c36e88ae2db4354fe4db3f8851dcad94be3c28e018cabb8100b107686d67",
+      "sha256": [
+        "ef77c36e88ae2db4354fe4db3f8851dcad94be3c28e018cabb8100b107686d67"
+      ],
       "text": "刃を満足させる時が来ました。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3ad2764dfd24bcd5e38b0d6821d32d99c083a741509c3cdc07a69bb4eef04d70",
+      "sha256": [
+        "3ad2764dfd24bcd5e38b0d6821d32d99c083a741509c3cdc07a69bb4eef04d70"
+      ],
       "text": "この刀の渇きを満たしてやらねばな。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0efb600d0089ff6b4b2a23885114e64d19e9eff2029c908fb46bf473eb4a602",
+      "sha256": [
+        "f0efb600d0089ff6b4b2a23885114e64d19e9eff2029c908fb46bf473eb4a602"
+      ],
       "text": "It's time to satiate the blade.",
       "source": "official"
     }

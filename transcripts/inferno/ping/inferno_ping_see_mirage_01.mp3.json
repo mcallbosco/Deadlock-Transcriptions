@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "7977bd7518fcdc542978c9f9a8d18ba01b1cb69c315d481d1578886d51c2f6d8",
+      "sha256": [
+        "7977bd7518fcdc542978c9f9a8d18ba01b1cb69c315d481d1578886d51c2f6d8"
+      ],
       "text": "I see through it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a92eac949716bd0cef8cb1c99ab2b4ce222cd0ec651855cb8b877a421b9248e",
+      "sha256": [
+        "354dcd25ab5713c5e89f931d82b4587a382c56d0d2c6c2b4a2a5c7939441ac35",
+        "8a92eac949716bd0cef8cb1c99ab2b4ce222cd0ec651855cb8b877a421b9248e"
+      ],
       "text": "I see, boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "354dcd25ab5713c5e89f931d82b4587a382c56d0d2c6c2b4a2a5c7939441ac35",
-      "text": "I see, boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6feacd3d8ce928dd374a64723a3edfaf455ca0319321911dac1f0f93b209801e",
+      "sha256": [
+        "6feacd3d8ce928dd374a64723a3edfaf455ca0319321911dac1f0f93b209801e"
+      ],
       "text": "I see Mirage",
       "source": "official"
     }

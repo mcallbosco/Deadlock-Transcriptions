@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_kill_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "ce7f2eebbdf9e9eb2566a6bf2548d0cad0e49bcfeb05330ae3a2294ff3b294b1",
-      "text": "Kid, go home.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dfd58316249e36c3d5219e800b54203499a5705eeeed655f855de3dee1569ad8",
-      "text": "Kid, go home.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f77043b65d143d783e8a4e3cdb78db0744f7d252c49efb5c46744159eb84c578",
+      "sha256": [
+        "ce7f2eebbdf9e9eb2566a6bf2548d0cad0e49bcfeb05330ae3a2294ff3b294b1",
+        "dfd58316249e36c3d5219e800b54203499a5705eeeed655f855de3dee1569ad8",
+        "f77043b65d143d783e8a4e3cdb78db0744f7d252c49efb5c46744159eb84c578"
+      ],
       "text": "Kid. Go home.",
       "source": "official"
     }

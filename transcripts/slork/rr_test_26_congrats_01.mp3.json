@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "bbe70ff53034d7c9be42b09a895691de46dc4a8a8495d30929d181957c351a6c",
-      "text": "Nice job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b77fa7e3e614fad48f23987d93b267c1c632ae2ba0af5c77dd9c4d0f6bd937c",
+      "sha256": [
+        "0b77fa7e3e614fad48f23987d93b267c1c632ae2ba0af5c77dd9c4d0f6bd937c",
+        "bbe70ff53034d7c9be42b09a895691de46dc4a8a8495d30929d181957c351a6c"
+      ],
       "text": "Nice job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_need_plan.mp3",
   "revisions": [
     {
-      "sha256": "98e7c7417a5c2505bc11db89cfbe7e05af231da94cbc4de607b5272754e6c66e",
-      "text": "What's the plan?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcd9345a86983d12419719d02f1414b8d3891af6841cc03b75424d68083e9f34",
-      "text": "What's the plan?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "998f907d854e0d9bbb9812bdaf6087ecbb17973e072a0bc5abef97595c72ce73",
+      "sha256": [
+        "98e7c7417a5c2505bc11db89cfbe7e05af231da94cbc4de607b5272754e6c66e",
+        "998f907d854e0d9bbb9812bdaf6087ecbb17973e072a0bc5abef97595c72ce73",
+        "dcd9345a86983d12419719d02f1414b8d3891af6841cc03b75424d68083e9f34"
+      ],
       "text": "What's the plan?",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_weak_urn_delivered_01.mp3",
   "revisions": [
     {
-      "sha256": "bdde3cf7836507468849d9209f1caae07ba5f6c2a58040508549ae9565cb13e9",
+      "sha256": [
+        "bdde3cf7836507468849d9209f1caae07ba5f6c2a58040508549ae9565cb13e9"
+      ],
       "text": "The urn has been delivered.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

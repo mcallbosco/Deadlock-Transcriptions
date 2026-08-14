@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_upgrade_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "41922704ee3dde48e72e6a374c33355d5ab7aa6131a3ff721c42503dce59af84",
+      "sha256": [
+        "41922704ee3dde48e72e6a374c33355d5ab7aa6131a3ff721c42503dce59af84"
+      ],
       "text": "Who is this nothing from the land?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ef89f21a2e57aba03b26571d8f160216de7b4fb5be92d8aaf760de2b660f421b",
+      "sha256": [
+        "ef89f21a2e57aba03b26571d8f160216de7b4fb5be92d8aaf760de2b660f421b"
+      ],
       "text": "This is nothing from the land.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b58c262638cfc9c7dd1b62ec16e08a6ae2b6149397af8f497bfa876c2f4e1c0",
+      "sha256": [
+        "0b58c262638cfc9c7dd1b62ec16e08a6ae2b6149397af8f497bfa876c2f4e1c0"
+      ],
       "text": "The wolf fears nothing from the lamb",
       "source": "official"
     }

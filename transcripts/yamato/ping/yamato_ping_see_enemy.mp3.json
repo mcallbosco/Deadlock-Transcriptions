@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "56465a4b0eb71ff6aa63d1bd9b5b842fe75cbbc3ce838b2dbc6c834eaf5e5b20",
-      "text": "I see the enemy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a3e802754f8627b1d2558664e64d24174d426b86fcf8ed3130387d568448edc",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec4ac4c65e27d2c5eba57866fa06c36178a70a3ba4763d53dc70421690ebb748",
+      "sha256": [
+        "3a3e802754f8627b1d2558664e64d24174d426b86fcf8ed3130387d568448edc",
+        "56465a4b0eb71ff6aa63d1bd9b5b842fe75cbbc3ce838b2dbc6c834eaf5e5b20",
+        "ec4ac4c65e27d2c5eba57866fa06c36178a70a3ba4763d53dc70421690ebb748"
+      ],
       "text": "I see the enemy!",
       "source": "official"
     }

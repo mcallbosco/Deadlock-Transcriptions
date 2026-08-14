@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_viscous_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ac2725ff0279910b48cfe3de9d8f6fbd23aa692c362b32a7ba045a4c077b786a",
-      "text": "This is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d7e3f5400f2827631569887c62e4c37f119d8c3589b830db586c391f265adc6",
+      "sha256": [
+        "5d7e3f5400f2827631569887c62e4c37f119d8c3589b830db586c391f265adc6",
+        "ac2725ff0279910b48cfe3de9d8f6fbd23aa692c362b32a7ba045a4c077b786a"
+      ],
       "text": "This is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_upgrade_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "28dd20cc9bec0687562c11ba00999cb034095e1b67b85a74978a42a21e65835e",
+      "sha256": [
+        "28dd20cc9bec0687562c11ba00999cb034095e1b67b85a74978a42a21e65835e"
+      ],
       "text": "Won't lie, this always freaks me out.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6890719c61d1230788d0d3bdf3f49b713d469bb4078dc3dc66bd2fe51be845db",
+      "sha256": [
+        "29dd2fe71a34427435065a6788ef3d9e1c6471e93c59ac6a574103942c79fc35",
+        "6890719c61d1230788d0d3bdf3f49b713d469bb4078dc3dc66bd2fe51be845db"
+      ],
       "text": "I won't lie, this always freaks me out.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "29dd2fe71a34427435065a6788ef3d9e1c6471e93c59ac6a574103942c79fc35",
-      "text": "I won't lie, this always freaks me out.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4796c3722aade8f1855373d5152f66b499223b5a581a8043da6d366c3645d32e",
+      "sha256": [
+        "4796c3722aade8f1855373d5152f66b499223b5a581a8043da6d366c3645d32e"
+      ],
       "text": "Wont lie, this always weirds me out.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_tengu.mp3",
   "revisions": [
     {
-      "sha256": "b3b85b173a2487a3c18efcfa97e4e20780ceb8eb682fb9c210968c7903baa89f",
-      "text": "I saw Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81bcc2d22c2f949a0be32ac4a023b2848553399c49bc6dbe64a805638cd92e7e",
+      "sha256": [
+        "81bcc2d22c2f949a0be32ac4a023b2848553399c49bc6dbe64a805638cd92e7e",
+        "b3b85b173a2487a3c18efcfa97e4e20780ceb8eb682fb9c210968c7903baa89f"
+      ],
       "text": "I saw Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

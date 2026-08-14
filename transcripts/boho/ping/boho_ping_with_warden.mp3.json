@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "205c886978aea803288abead5639200d30cd55c5caa9e963ea2f8cb3789dcde1",
+      "sha256": [
+        "205c886978aea803288abead5639200d30cd55c5caa9e963ea2f8cb3789dcde1"
+      ],
       "text": "I'm with you, Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

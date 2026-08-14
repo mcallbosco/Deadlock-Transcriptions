@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_priest_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ae6a2e1c7eb4e72019a4ea8e7028cdeccb05e8af1419a420046bdc803832fd15",
+      "sha256": [
+        "ae6a2e1c7eb4e72019a4ea8e7028cdeccb05e8af1419a420046bdc803832fd15"
+      ],
       "text": "Grace missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b278c339383f30cea71419f0e7bc0c967c0ca7d5fe5bc7f07837cf1efc556035",
+      "sha256": [
+        "b278c339383f30cea71419f0e7bc0c967c0ca7d5fe5bc7f07837cf1efc556035"
+      ],
       "text": "Rourke's missing.",
       "source": "official"
     }

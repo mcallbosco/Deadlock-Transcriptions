@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_use_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "03aa43b7f0b696052516f98ef8db3d2f14de2ad0e0395468993ddfa723e6c72a",
-      "text": "This is my moment.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a710b7475e007c44b8a5ae3cde68b0c42067090a0d140e1d0e8c8a46696b4fbc",
-      "text": "This is my moment.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f11e7b6646a501896d25eea46a05929a7df25c898b5900c1b9bc8d87fd8465b",
-      "text": "This is my moment.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d8f40a3ef1ccb8ba9b56303317ed798c19647cfb9a7316facb6d99ad3e77121c",
+      "sha256": [
+        "03aa43b7f0b696052516f98ef8db3d2f14de2ad0e0395468993ddfa723e6c72a",
+        "7f11e7b6646a501896d25eea46a05929a7df25c898b5900c1b9bc8d87fd8465b",
+        "a710b7475e007c44b8a5ae3cde68b0c42067090a0d140e1d0e8c8a46696b4fbc",
+        "d8f40a3ef1ccb8ba9b56303317ed798c19647cfb9a7316facb6d99ad3e77121c"
+      ],
       "text": "This is my moment!",
       "source": "official"
     }

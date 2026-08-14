@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_stay_together.mp3",
   "revisions": [
     {
-      "sha256": "703948896b9b33e788706af05e7cf295fab9055965799780fd3dff147b55a486",
+      "sha256": [
+        "703948896b9b33e788706af05e7cf295fab9055965799780fd3dff147b55a486"
+      ],
       "text": "Stay woke, get up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "983f59768098826bf0826d1ab7b9d5413a96928c9814e0934e32be11be414d2b",
+      "sha256": [
+        "983f59768098826bf0826d1ab7b9d5413a96928c9814e0934e32be11be414d2b"
+      ],
       "text": "Stay together!",
       "source": "official"
     }

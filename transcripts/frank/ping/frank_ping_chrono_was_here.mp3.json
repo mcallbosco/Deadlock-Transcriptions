@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_chrono_was_here.mp3",
   "revisions": [
     {
-      "sha256": "546a486429cbd84f6634530ca06ab2a59052390f41d79d50b7c1e89fb7478b82",
-      "text": "Paradox was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0202a0a9c73939c46827ab400935137306ff0d04ef65b67d3852b3f34346afa0",
+      "sha256": [
+        "0202a0a9c73939c46827ab400935137306ff0d04ef65b67d3852b3f34346afa0",
+        "546a486429cbd84f6634530ca06ab2a59052390f41d79d50b7c1e89fb7478b82"
+      ],
       "text": "Paradox was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

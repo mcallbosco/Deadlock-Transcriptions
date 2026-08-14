@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_chrono_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9700c0dfb53a32c655ae599bbc9d30619f1d091c3501319e8935aa40221f03fb",
-      "text": "Paradox was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ae4fd4c06a9db4dc5121e1ab19707bc8af026c7f0d8ac19544145b68bd57a00",
+      "sha256": [
+        "6ae4fd4c06a9db4dc5121e1ab19707bc8af026c7f0d8ac19544145b68bd57a00",
+        "9700c0dfb53a32c655ae599bbc9d30619f1d091c3501319e8935aa40221f03fb"
+      ],
       "text": "Paradox was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

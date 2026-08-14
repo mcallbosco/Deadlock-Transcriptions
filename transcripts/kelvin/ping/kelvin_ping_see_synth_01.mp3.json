@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_see_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "8b40db7792a3a78288299bf9ba6df26b8ddcf99fb68851a1d6198ef3575c2374",
-      "text": "I see pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f974033429df7a10711e1cb43c0636c3e3c1a2ab24c9c07667befa78c5cd728",
+      "sha256": [
+        "5f974033429df7a10711e1cb43c0636c3e3c1a2ab24c9c07667befa78c5cd728",
+        "8b40db7792a3a78288299bf9ba6df26b8ddcf99fb68851a1d6198ef3575c2374"
+      ],
       "text": "I see Pocket",
       "source": "official"
     }

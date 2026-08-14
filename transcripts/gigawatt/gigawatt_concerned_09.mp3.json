@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_concerned_09.mp3",
   "revisions": [
     {
-      "sha256": "52bbf5f08225cc746b2654f1096b166c58564ec9a6c6443c4ed2bbdbcda60c42",
+      "sha256": [
+        "52bbf5f08225cc746b2654f1096b166c58564ec9a6c6443c4ed2bbdbcda60c42"
+      ],
       "text": "Good to go our way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9d74c9b29e84a7fb38be107de62e24b63943ec71a705b820c8be14b61ad3f438",
+      "sha256": [
+        "9d74c9b29e84a7fb38be107de62e24b63943ec71a705b820c8be14b61ad3f438",
+        "dc92bcc028cf3486eb5900458b4b2fada5ba7e125e95d524e8689ad8bd61e245"
+      ],
       "text": "This could go either way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dc92bcc028cf3486eb5900458b4b2fada5ba7e125e95d524e8689ad8bd61e245",
-      "text": "This could go either way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eff4b8a62ead21a5b3668461af455e875c995752ec7fe5afbff6851dce99a07c",
+      "sha256": [
+        "eff4b8a62ead21a5b3668461af455e875c995752ec7fe5afbff6851dce99a07c"
+      ],
       "text": "This didn't go our way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

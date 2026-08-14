@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power3_06.mp3",
   "revisions": [
     {
-      "sha256": "e65e10d2e1eff289dee63734f8c5748bc19703a447e90ac48b4c60a701204f66",
-      "text": "I love the looks on their faces.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "791206325e24eb68d904a8ffc67118ea7e63fb183f8b8d212e3cf5228b0d8673",
+      "sha256": [
+        "791206325e24eb68d904a8ffc67118ea7e63fb183f8b8d212e3cf5228b0d8673",
+        "e65e10d2e1eff289dee63734f8c5748bc19703a447e90ac48b4c60a701204f66"
+      ],
       "text": "I love the looks on their faces.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_holliday.mp3",
   "revisions": [
     {
-      "sha256": "702d87a4954b1d3c99c5e314fce3c40978210c0c0a31dcb57d3534845c8437a6",
-      "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17651cc8e808f7bfe1d64a266786d4c2a0e02cbedaebf103d12fdd7ed84b5565",
+      "sha256": [
+        "17651cc8e808f7bfe1d64a266786d4c2a0e02cbedaebf103d12fdd7ed84b5565",
+        "702d87a4954b1d3c99c5e314fce3c40978210c0c0a31dcb57d3534845c8437a6"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

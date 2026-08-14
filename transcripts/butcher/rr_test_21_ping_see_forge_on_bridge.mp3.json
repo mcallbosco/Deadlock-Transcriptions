@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_forge_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c594c32a49db3e02e5ab29ff0e5f5a3e322c9fb1a1799d52c055aede4da64f0d",
-      "text": "forge is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2075d047b4c5e82a1d0a2b0ebf25b7ee58ddce81caa8f7e097c935a53c3f218f",
-      "text": "Forge is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04a7566e65561ad0d262660f0e006b7e303a3e883676ae2197685f49fe4881b2",
+      "sha256": [
+        "04a7566e65561ad0d262660f0e006b7e303a3e883676ae2197685f49fe4881b2",
+        "2075d047b4c5e82a1d0a2b0ebf25b7ee58ddce81caa8f7e097c935a53c3f218f",
+        "c594c32a49db3e02e5ab29ff0e5f5a3e322c9fb1a1799d52c055aede4da64f0d"
+      ],
       "text": "Forge is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

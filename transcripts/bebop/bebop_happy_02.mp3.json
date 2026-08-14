@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_happy_02.mp3",
   "revisions": [
     {
-      "sha256": "7177fa2b759110f63c8944209c513367023da298ad8f4fd3637513807d0c57bd",
-      "text": "I like the way this is going.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b26e26f71e6b7160cd0a1b892e272b3f827b4ebc49fc0da406f5ae26ce6c911a",
+      "sha256": [
+        "7177fa2b759110f63c8944209c513367023da298ad8f4fd3637513807d0c57bd",
+        "b26e26f71e6b7160cd0a1b892e272b3f827b4ebc49fc0da406f5ae26ce6c911a"
+      ],
       "text": "I like the way this is going.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

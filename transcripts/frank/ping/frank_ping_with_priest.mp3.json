@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_priest.mp3",
   "revisions": [
     {
-      "sha256": "28f39cb363f0eb3b32feb477f430c140f4f4754db5671eb1be2faa87176dfbfe",
+      "sha256": [
+        "28f39cb363f0eb3b32feb477f430c140f4f4754db5671eb1be2faa87176dfbfe"
+      ],
       "text": "I'm with you, Rook.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

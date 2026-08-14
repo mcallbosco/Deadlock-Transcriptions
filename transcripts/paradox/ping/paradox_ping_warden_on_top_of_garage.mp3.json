@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_warden_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "9351e4b6caa809b6f7736dd36458625dfc82161b0340cd871f77b14298add33e",
+      "sha256": [
+        "9351e4b6caa809b6f7736dd36458625dfc82161b0340cd871f77b14298add33e"
+      ],
       "text": "What is at the top of the garage?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9fde5dc7ce3478ac5758e053d152358c7621c1c0b72e815c3a4b3cf21360ec60",
+      "sha256": [
+        "9fde5dc7ce3478ac5758e053d152358c7621c1c0b72e815c3a4b3cf21360ec60"
+      ],
       "text": "What is the top of the garage?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

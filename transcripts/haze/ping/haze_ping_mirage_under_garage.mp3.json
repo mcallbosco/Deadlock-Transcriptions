@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "acad5f780faa80c4bf40e77b95c5b04ae6aeb980b6b1ce4c2afe6ac7d0477622",
+      "sha256": [
+        "acad5f780faa80c4bf40e77b95c5b04ae6aeb980b6b1ce4c2afe6ac7d0477622",
+        "c0db5689e99ca0209e6164f221c4b9ce13a365e03c4589fcba3762dd4914bd2f",
+        "ddd0b7afc856aca1dff0ce0282eb03566f59de3a4284003d0fd796158abc3858"
+      ],
       "text": "Garage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "054d5c5d0c4b4ead64b3f005b79f7c8a4f062e8a3e7dcf3c06de9a420c14889e",
+      "sha256": [
+        "054d5c5d0c4b4ead64b3f005b79f7c8a4f062e8a3e7dcf3c06de9a420c14889e"
+      ],
       "text": "Mirage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ddd0b7afc856aca1dff0ce0282eb03566f59de3a4284003d0fd796158abc3858",
-      "text": "Garage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0db5689e99ca0209e6164f221c4b9ce13a365e03c4589fcba3762dd4914bd2f",
-      "text": "Garage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a29c1a96b126ac633969758d28207c5ef938b2d0a60c6ee6a8497d72e03db07c",
+      "sha256": [
+        "a29c1a96b126ac633969758d28207c5ef938b2d0a60c6ee6a8497d72e03db07c"
+      ],
       "text": "Mirage's under the garage!",
       "source": "official"
     }

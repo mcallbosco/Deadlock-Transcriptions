@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_saw_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "ad0393aeae45422e3e9d92a5f534d2a2debe5bc18fc9fc4da0d2e1a0d1075468",
+      "sha256": [
+        "ad0393aeae45422e3e9d92a5f534d2a2debe5bc18fc9fc4da0d2e1a0d1075468"
+      ],
       "text": "I saw Paige!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

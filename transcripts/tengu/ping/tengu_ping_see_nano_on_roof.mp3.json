@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_nano_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "3f965be8300c1636f3a0ee5aec268fa4580543c2a471ff2c01b075c472ec90bd",
+      "sha256": [
+        "3f965be8300c1636f3a0ee5aec268fa4580543c2a471ff2c01b075c472ec90bd"
+      ],
       "text": "Calliope's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "44bca44375ddbd6fbe07cf7afa30d94f3aea8af41411c72e09dd508142f5ec3a",
+      "sha256": [
+        "44bca44375ddbd6fbe07cf7afa30d94f3aea8af41411c72e09dd508142f5ec3a"
+      ],
       "text": "Calico's on the roof!",
       "source": "official"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "00f43dc8389cbe51ca5b021066f6c3224f30444b2cce5d4eb6b1f59651478b83",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f96cbdfbd6697551718a113949032977fb7569f6d440ae128bde8fb10c4bfcff",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a70574720dcdd45c21cf88df03d686e0f014b7d361afe387f00305ce7dc4b466",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55714d70c61aa1893c502479fad84bde974c6dfdb804ce25880138b35a0c26e4",
+      "sha256": [
+        "00f43dc8389cbe51ca5b021066f6c3224f30444b2cce5d4eb6b1f59651478b83",
+        "55714d70c61aa1893c502479fad84bde974c6dfdb804ce25880138b35a0c26e4",
+        "a70574720dcdd45c21cf88df03d686e0f014b7d361afe387f00305ce7dc4b466",
+        "f96cbdfbd6697551718a113949032977fb7569f6d440ae128bde8fb10c4bfcff"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

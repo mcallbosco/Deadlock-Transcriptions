@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_mirage_03.mp3",
   "revisions": [
     {
-      "sha256": "072577c404106c3241a0072f9bad81b5becedfcbde7fbbde7f80897e7add26b7",
-      "text": "Welcome to New York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e78c88bc00e42ed390975191bcf7edaa2e3cdd118cb915f0819ddab6e8955e0f",
-      "text": "Welcome to New York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28c67a64a2fb31fe182ecca68851453df5efe78ccb46e904a73ed14489a69d07",
+      "sha256": [
+        "072577c404106c3241a0072f9bad81b5becedfcbde7fbbde7f80897e7add26b7",
+        "28c67a64a2fb31fe182ecca68851453df5efe78ccb46e904a73ed14489a69d07",
+        "e78c88bc00e42ed390975191bcf7edaa2e3cdd118cb915f0819ddab6e8955e0f"
+      ],
       "text": "Welcome to New York.",
       "source": "official"
     }

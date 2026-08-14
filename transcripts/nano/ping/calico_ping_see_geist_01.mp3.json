@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_geist_01.mp3",
   "revisions": [
     {
-      "sha256": "0d3891960975d4f04c28906ae683c1d66b5ffd03fbb7a0a2c03ca1933191c6c2",
-      "text": "I see Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bebe366ce0402be97830d6f8e737dd267df660464e9407b319da6d38752276fa",
+      "sha256": [
+        "0d3891960975d4f04c28906ae683c1d66b5ffd03fbb7a0a2c03ca1933191c6c2",
+        "bebe366ce0402be97830d6f8e737dd267df660464e9407b319da6d38752276fa"
+      ],
       "text": "I see Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

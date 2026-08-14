@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_shiv_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "6488c216f8c98408b19806a5fa7682d53eb5a6edd68b634316990fc686116802",
+      "sha256": [
+        "6488c216f8c98408b19806a5fa7682d53eb5a6edd68b634316990fc686116802",
+        "f86cb680073732153d646bef0eeef5d8320e5551544b7174cf4fdd701357acae"
+      ],
       "text": "Here is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f86cb680073732153d646bef0eeef5d8320e5551544b7174cf4fdd701357acae",
-      "text": "Here is Inmid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

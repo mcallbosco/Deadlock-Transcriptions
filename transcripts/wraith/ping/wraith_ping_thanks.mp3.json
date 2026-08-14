@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "7c6ebba3a1196bbca10b3947bc1c5c4920b8c5d538e8f6686b047b301cd7d289",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7668606cd899ebd2e66a1459e06c7c65f2a2899a0bce0bf6df23a68f094aab07",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "402c6a78d6e9db0879da1eae6bfadb2d86c9e1268324daedcfd07a06673c1dff",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5538d401b9f4b79cc6a4191d05fd9874a1ec3533c8f9bd37fcf405df4442dd0",
+      "sha256": [
+        "402c6a78d6e9db0879da1eae6bfadb2d86c9e1268324daedcfd07a06673c1dff",
+        "7668606cd899ebd2e66a1459e06c7c65f2a2899a0bce0bf6df23a68f094aab07",
+        "7c6ebba3a1196bbca10b3947bc1c5c4920b8c5d538e8f6686b047b301cd7d289",
+        "e5538d401b9f4b79cc6a4191d05fd9874a1ec3533c8f9bd37fcf405df4442dd0"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

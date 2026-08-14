@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_punkgoat_was_here.mp3",
   "revisions": [
     {
-      "sha256": "083f6d0a1f39454c3282d3d0cee09cc17e6d2ff62fa70754e8b899eb0a796d60",
+      "sha256": [
+        "083f6d0a1f39454c3282d3d0cee09cc17e6d2ff62fa70754e8b899eb0a796d60"
+      ],
       "text": "Killy was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_astro_02.mp3",
   "revisions": [
     {
-      "sha256": "68f260777767f86f00ffe1884ecc56d8930197009b55a4a064c3868aa2269faa",
-      "text": "Careful, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6461e7430c766536d48fd50c74cb2c722b6ff201c8dccd314777ba6c92ed0f4e",
+      "sha256": [
+        "6461e7430c766536d48fd50c74cb2c722b6ff201c8dccd314777ba6c92ed0f4e",
+        "68f260777767f86f00ffe1884ecc56d8930197009b55a4a064c3868aa2269faa"
+      ],
       "text": "Careful, Holliday",
       "source": "official"
     }

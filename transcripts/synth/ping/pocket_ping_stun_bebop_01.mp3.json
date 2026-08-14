@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_stun_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "1d0f1866c7251f36cd088982af8ceb36eee6754ebca29efda3387e86e3f4ebab",
+      "sha256": [
+        "1d0f1866c7251f36cd088982af8ceb36eee6754ebca29efda3387e86e3f4ebab"
+      ],
       "text": "Sun beepat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6df5b6d7bbeba32bada8319d1ca54fc1d7302db6b6860005d770ae2aad14dc1e",
+      "sha256": [
+        "6df5b6d7bbeba32bada8319d1ca54fc1d7302db6b6860005d770ae2aad14dc1e"
+      ],
       "text": "Stun Beaver.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

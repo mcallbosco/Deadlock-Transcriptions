@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_the_boss_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b27b0a649900c683b88e6a1631ec12d5c0b939b34817cd53570a923d7539ffb7",
-      "text": "The boss is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a3dcce4c333a8341a20fc9c396a8ab2665e5ea772acbfc3dbafda68e626364ec",
+      "sha256": [
+        "a3dcce4c333a8341a20fc9c396a8ab2665e5ea772acbfc3dbafda68e626364ec",
+        "b27b0a649900c683b88e6a1631ec12d5c0b939b34817cd53570a923d7539ffb7"
+      ],
       "text": "The boss is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

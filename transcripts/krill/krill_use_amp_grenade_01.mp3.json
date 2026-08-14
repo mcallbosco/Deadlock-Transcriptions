@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_amp_grenade_01.mp3",
   "revisions": [
     {
-      "sha256": "a0ea3f838d33655b7f5df38ec0b867574acc5d4d2bc95664f52d7fa0bb8d6fac",
-      "text": "AMP grenade!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbff210dc5d9e7df87ac1402cd0a8cf49463f9e1c5c053d85c48ac80175eeb93",
-      "text": "AMP grenade!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fba25bf2cf676262d2004d1a24e8ebcf3f854d02936ffb39b68ceaaa1547d4f2",
+      "sha256": [
+        "a0ea3f838d33655b7f5df38ec0b867574acc5d4d2bc95664f52d7fa0bb8d6fac",
+        "bbff210dc5d9e7df87ac1402cd0a8cf49463f9e1c5c053d85c48ac80175eeb93",
+        "fba25bf2cf676262d2004d1a24e8ebcf3f854d02936ffb39b68ceaaa1547d4f2"
+      ],
       "text": "AMP grenade!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

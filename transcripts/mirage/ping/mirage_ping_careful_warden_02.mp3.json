@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "d290abf8c21a6d249f93c104319588c2046b18629ceb3cdee16016241a74bd19",
+      "sha256": [
+        "d290abf8c21a6d249f93c104319588c2046b18629ceb3cdee16016241a74bd19"
+      ],
       "text": "That's a warning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "71137ea15c4c663d6e640b5c2d11a4ffba2de6f202151965537f62e0d5a0f918",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2184c399372386e35caf56d62c7ed51330743d8dd19ad2014efd1362484cb684",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e090fe2627cdbfd1a817fa02d62d8100fdbc55e718a915635c771b9afe0fdb2",
+      "sha256": [
+        "2184c399372386e35caf56d62c7ed51330743d8dd19ad2014efd1362484cb684",
+        "71137ea15c4c663d6e640b5c2d11a4ffba2de6f202151965537f62e0d5a0f918",
+        "8e090fe2627cdbfd1a817fa02d62d8100fdbc55e718a915635c771b9afe0fdb2"
+      ],
       "text": "Careful, Warden",
       "source": "official"
     }

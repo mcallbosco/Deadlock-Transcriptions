@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "b0094d08a8b27f04d3af043a40c0edbe411c6d368e63000aa01aabdda8c907f1",
+      "sha256": [
+        "b0094d08a8b27f04d3af043a40c0edbe411c6d368e63000aa01aabdda8c907f1"
+      ],
       "text": "You wanna heal?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fbcbe6c1e3e672c2a577399442d40de45b409388444f1faf704d799c5b821633",
+      "sha256": [
+        "2f5daa5f49d1b6577f4e714df780c8df9dbfc5384679a62d0f1b5d5ccbfb6365",
+        "fbcbe6c1e3e672c2a577399442d40de45b409388444f1faf704d799c5b821633"
+      ],
       "text": "You have here?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2f5daa5f49d1b6577f4e714df780c8df9dbfc5384679a62d0f1b5d5ccbfb6365",
-      "text": "You have here?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62d06bed8edf82c6037afb09a886a40fa9ee3b65add237ea50674432705aee1c",
+      "sha256": [
+        "62d06bed8edf82c6037afb09a886a40fa9ee3b65add237ea50674432705aee1c"
+      ],
       "text": "Do you have a heal?",
       "source": "official"
     }

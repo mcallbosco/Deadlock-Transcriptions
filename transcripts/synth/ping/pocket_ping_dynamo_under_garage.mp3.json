@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_dynamo_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b5edf72d5be4f242948898c0f51391e6e620696f8711fd3a2a3b413e9438d55f",
-      "text": "Dynamo's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7adcfe3b507adec299300620519e13d4e78724c6a20cd5937b6c2abd5d507e16",
+      "sha256": [
+        "7adcfe3b507adec299300620519e13d4e78724c6a20cd5937b6c2abd5d507e16",
+        "b5edf72d5be4f242948898c0f51391e6e620696f8711fd3a2a3b413e9438d55f"
+      ],
       "text": "Dynamo's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

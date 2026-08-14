@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_can_heal_inferno.mp3",
   "revisions": [
     {
-      "sha256": "d0111ec09e9155a823a1e10132cd8463f3b594e8255dc2668e57416fa5fa76b0",
+      "sha256": [
+        "1bd5aa5e872cac7cf54e0e7ba19cf4f0e4db2159de1b002ccf0adc933bf3e723",
+        "d0111ec09e9155a823a1e10132cd8463f3b594e8255dc2668e57416fa5fa76b0"
+      ],
       "text": "In fairness, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1bd5aa5e872cac7cf54e0e7ba19cf4f0e4db2159de1b002ccf0adc933bf3e723",
-      "text": "In fairness, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d62b243b2cd875a936d56e3721b82517fc51a10f35754afb3a10c9f0748b76ab",
+      "sha256": [
+        "d62b243b2cd875a936d56e3721b82517fc51a10f35754afb3a10c9f0748b76ab"
+      ],
       "text": "Infernus, I can heal you!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_grey_talon_01.mp3",
   "revisions": [
     {
-      "sha256": "fbda3411ecc2fd6fdf9ec55e6e13461041b2e3b2e55aff69dd1d142cad8fc0ca",
-      "text": "I see Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43fd967d3bb0de26ceca3b9db11d10bc58732bd46508821bd8fee403d5f2b511",
+      "sha256": [
+        "43fd967d3bb0de26ceca3b9db11d10bc58732bd46508821bd8fee403d5f2b511",
+        "fbda3411ecc2fd6fdf9ec55e6e13461041b2e3b2e55aff69dd1d142cad8fc0ca"
+      ],
       "text": "I see Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

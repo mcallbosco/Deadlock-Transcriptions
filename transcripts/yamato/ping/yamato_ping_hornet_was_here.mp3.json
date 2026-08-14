@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_hornet_was_here.mp3",
   "revisions": [
     {
-      "sha256": "7a3abb7f0c313935f26cc25e91f8457ee67f6834e7d5f4ac7d59e044b35e55bb",
+      "sha256": [
+        "7a3abb7f0c313935f26cc25e91f8457ee67f6834e7d5f4ac7d59e044b35e55bb"
+      ],
       "text": "Bendict was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2424a85cb5083d0896d5d2e69c7614d5692b7fe8780653acd3f65f0fec9c91f8",
+      "sha256": [
+        "2424a85cb5083d0896d5d2e69c7614d5692b7fe8780653acd3f65f0fec9c91f8"
+      ],
       "text": "Benedict was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

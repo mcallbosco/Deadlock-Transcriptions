@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_grey_talon_was_here.mp3",
   "revisions": [
     {
-      "sha256": "579a8d19ba44058c10058bcad760fcd3c1da476f168799522531d5063dda7e7e",
-      "text": "Grey Talon was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "167f56359ce09a29b40b8874e414336dbdc419ae6129c1d983a98e2c20aaf6a5",
+      "sha256": [
+        "167f56359ce09a29b40b8874e414336dbdc419ae6129c1d983a98e2c20aaf6a5",
+        "579a8d19ba44058c10058bcad760fcd3c1da476f168799522531d5063dda7e7e"
+      ],
       "text": "Grey Talon was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

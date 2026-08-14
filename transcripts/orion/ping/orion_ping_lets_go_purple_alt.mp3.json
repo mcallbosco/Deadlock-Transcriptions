@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_lets_go_purple_alt.mp3",
   "revisions": [
     {
-      "sha256": "a5fbeb5ad6f0249d5e96dbc7697eca47fe60f27f88ffe31b2327ffb051af577b",
-      "text": "Let's go to park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "47bd5753a3b4bfc435431de6267165535c41ae36403557c1ab739a36928265c5",
-      "text": "Let's go to park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c838934cefb05bbd2da3a456d26d0f9e33afde9e38b1d912394ca6296e32fd90",
+      "sha256": [
+        "47bd5753a3b4bfc435431de6267165535c41ae36403557c1ab739a36928265c5",
+        "a5fbeb5ad6f0249d5e96dbc7697eca47fe60f27f88ffe31b2327ffb051af577b",
+        "c838934cefb05bbd2da3a456d26d0f9e33afde9e38b1d912394ca6296e32fd90"
+      ],
       "text": "Let's go to park!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_careful_yamato_03.mp3",
   "revisions": [
     {
-      "sha256": "d92bc3aed66f950a58727bcc451970fb6f42c774fdcab53ab1d0ecb7faafb15a",
+      "sha256": [
+        "d92bc3aed66f950a58727bcc451970fb6f42c774fdcab53ab1d0ecb7faafb15a"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dad1fd80a24cc7d2aad85237f47201533e8ca5adde7af5e0edf4aedfeca14c62",
+      "sha256": [
+        "dad1fd80a24cc7d2aad85237f47201533e8ca5adde7af5e0edf4aedfeca14c62"
+      ],
       "text": "Careful, Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bcf404e0d536b757d9ef6a0ce4a8dabf1ac78edd88cbbac49992d72fa492ec9b",
+      "sha256": [
+        "bcf404e0d536b757d9ef6a0ce4a8dabf1ac78edd88cbbac49992d72fa492ec9b"
+      ],
       "text": "Cancel Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dfd0c0a6551bc3f7188c33d41b0a4570f2f549fea115ebde1025f1466e96be63",
+      "sha256": [
+        "dfd0c0a6551bc3f7188c33d41b0a4570f2f549fea115ebde1025f1466e96be63"
+      ],
       "text": "キャスやめて!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

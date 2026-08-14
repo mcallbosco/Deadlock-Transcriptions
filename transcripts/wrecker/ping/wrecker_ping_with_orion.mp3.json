@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_orion.mp3",
   "revisions": [
     {
-      "sha256": "31e871fb0b7a4417ce8a8fea3b4fca16cbaa29b36cf4e04e6e166e0398540ee1",
-      "text": "I'm with you, Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2bfae13b1ab394305e6bbcd552bafbceda0c43435f7d2d8ccb17f290471570f2",
+      "sha256": [
+        "2bfae13b1ab394305e6bbcd552bafbceda0c43435f7d2d8ccb17f290471570f2",
+        "31e871fb0b7a4417ce8a8fea3b4fca16cbaa29b36cf4e04e6e166e0398540ee1"
+      ],
       "text": "I'm with you, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

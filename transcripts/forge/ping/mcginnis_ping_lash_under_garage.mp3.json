@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_lash_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "8be8b95f280f31651c74d453f948bd43964f67d24529689a08a7f4839ca6469c",
+      "sha256": [
+        "0e494c0c77d8dd6956193b98c6439efcae746fe7ed2e18811beec8bc5ce27cb8",
+        "8be8b95f280f31651c74d453f948bd43964f67d24529689a08a7f4839ca6469c"
+      ],
       "text": "Flash is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e494c0c77d8dd6956193b98c6439efcae746fe7ed2e18811beec8bc5ce27cb8",
-      "text": "Flash is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

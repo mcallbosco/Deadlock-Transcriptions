@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "c3f7eecdeab88b435caf6712d60018dc2714dd537c4001a4c6ab6bf437a32e96",
+      "sha256": [
+        "c3f7eecdeab88b435caf6712d60018dc2714dd537c4001a4c6ab6bf437a32e96"
+      ],
       "text": "I'm with the coach.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5abc7414c6bc7cfd1919e97c8e56214001943a3b2418259697cb8eb17f754df8",
+      "sha256": [
+        "5abc7414c6bc7cfd1919e97c8e56214001943a3b2418259697cb8eb17f754df8"
+      ],
       "text": "I'm with you, coach.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b0d4c10819ff8785a77d050cf67f872da8b6013eb4308a4868f2c8d59a499ad9",
+      "sha256": [
+        "b0d4c10819ff8785a77d050cf67f872da8b6013eb4308a4868f2c8d59a499ad9"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

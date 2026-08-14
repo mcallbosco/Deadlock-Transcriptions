@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_with_seven.mp3",
   "revisions": [
     {
-      "sha256": "c4dbabbf8a315bf7488f2be56742e0493610941f33202e7bacae8debeddf2eff",
+      "sha256": [
+        "c4dbabbf8a315bf7488f2be56742e0493610941f33202e7bacae8debeddf2eff"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

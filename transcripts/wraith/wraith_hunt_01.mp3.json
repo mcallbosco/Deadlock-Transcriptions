@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_hunt_01.mp3",
   "revisions": [
     {
-      "sha256": "d450f4f409a2ea178bce49c4acbc6c3eea3aa0fe4044459b7ffeeb763b8c33ef",
-      "text": "Now where are you?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "564c0b235b910c96368d8b17f7fcb9818733ce4a4ee86e6a0189dadf3587274a",
-      "text": "Now where are you?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b2c42e05837608cd8b1bc22c8c09a53277329eb202ef1d69e11dc7faa5bc971",
-      "text": "Now where are you?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a38d26853cf3947d69d8b55c8d67eff9bdda8087625f09ec3b64e96c062c393a",
+      "sha256": [
+        "3b2c42e05837608cd8b1bc22c8c09a53277329eb202ef1d69e11dc7faa5bc971",
+        "564c0b235b910c96368d8b17f7fcb9818733ce4a4ee86e6a0189dadf3587274a",
+        "a38d26853cf3947d69d8b55c8d67eff9bdda8087625f09ec3b64e96c062c393a",
+        "d450f4f409a2ea178bce49c4acbc6c3eea3aa0fe4044459b7ffeeb763b8c33ef"
+      ],
       "text": "Now where are you…",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "f352078dd1670e2925ebccc787575c4dc4af8ae1bbb6aa78118609e0e2d10d54",
+      "sha256": [
+        "f0027bcf9a92f431dbb40ced53191cf5c33217939a1d4dbe28ac63dbd214fda2",
+        "f352078dd1670e2925ebccc787575c4dc4af8ae1bbb6aa78118609e0e2d10d54"
+      ],
       "text": "Penalty yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0027bcf9a92f431dbb40ced53191cf5c33217939a1d4dbe28ac63dbd214fda2",
-      "text": "Penalty Yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

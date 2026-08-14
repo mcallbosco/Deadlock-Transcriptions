@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_familiar.mp3",
   "revisions": [
     {
-      "sha256": "5d78bf2a5264d5e4ce94323f8d016c1ccb32a350be2d6cf61976fb5abfc59e9e",
+      "sha256": [
+        "5d78bf2a5264d5e4ce94323f8d016c1ccb32a350be2d6cf61976fb5abfc59e9e"
+      ],
       "text": "I'm with you, Rem.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

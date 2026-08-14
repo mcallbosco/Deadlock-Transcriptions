@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "902cfcd8d3734d580ad7d713f5dfcdc93c10c97109c3173f2415ed4de34f076e",
+      "sha256": [
+        "902cfcd8d3734d580ad7d713f5dfcdc93c10c97109c3173f2415ed4de34f076e"
+      ],
       "text": "I want to talk to both of you guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "659e842fcfca9d04a1692b64339fb6dbe97e01e2ee7c8f4473c253bdf62e2b69",
-      "text": "They won't expect this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37026f2020c8923ead79aaa040771518a27117f731ce2dccb404da47f0f58c18",
-      "text": "They won't expect this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f4910eb9628597c3c63d732a5d3594f10fcfc981b5d4be29ee335f06d7c757a",
+      "sha256": [
+        "37026f2020c8923ead79aaa040771518a27117f731ce2dccb404da47f0f58c18",
+        "659e842fcfca9d04a1692b64339fb6dbe97e01e2ee7c8f4473c253bdf62e2b69",
+        "8f4910eb9628597c3c63d732a5d3594f10fcfc981b5d4be29ee335f06d7c757a"
+      ],
       "text": "They won't expect this…",
       "source": "official"
     }

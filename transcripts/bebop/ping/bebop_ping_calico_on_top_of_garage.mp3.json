@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_calico_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "f7618b4e09ab5971b4bdbe5c82cac89a5be6ac766a950edb7ce6cbde6a710755",
+      "sha256": [
+        "f7618b4e09ab5971b4bdbe5c82cac89a5be6ac766a950edb7ce6cbde6a710755"
+      ],
       "text": "Catacombs on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "332b8ca57b37ac03a597a50f8676aaef96ba3f3d25f97dbcb80023197e2980ce",
+      "sha256": [
+        "332b8ca57b37ac03a597a50f8676aaef96ba3f3d25f97dbcb80023197e2980ce"
+      ],
       "text": "Calico's on top of the garage!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_select_07.mp3",
   "revisions": [
     {
-      "sha256": "a45586c31b57d9a892d1ff559c9bc5a157d28b2c77e7f105e750becb50a6b8f9",
-      "text": "I'm a little more subtle than I look.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "050f74f98e9eb0db657567c453ecd163c1289b6a6023b37416534f728932937f",
-      "text": "I'm a little more subtle than I look.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "330130aef3f0ee890f66692e4d052dabdab662f9365d8b92c7ded4f6c7a55999",
+      "sha256": [
+        "050f74f98e9eb0db657567c453ecd163c1289b6a6023b37416534f728932937f",
+        "330130aef3f0ee890f66692e4d052dabdab662f9365d8b92c7ded4f6c7a55999",
+        "a45586c31b57d9a892d1ff559c9bc5a157d28b2c77e7f105e750becb50a6b8f9"
+      ],
       "text": "I'm a little more subtle than I look.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

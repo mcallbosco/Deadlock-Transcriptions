@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_hornet_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c16676e212f2d2bc556c77d24cbf50acfdfa1715d639c9f1a65c5f0a9e8eacaa",
+      "sha256": [
+        "c16676e212f2d2bc556c77d24cbf50acfdfa1715d639c9f1a65c5f0a9e8eacaa"
+      ],
       "text": "I guess Missy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5b020c6eb58c6a685364ba90168bf1778a13b6b8e75c567dd544a47d51b80bfd",
+      "sha256": [
+        "5b020c6eb58c6a685364ba90168bf1778a13b6b8e75c567dd544a47d51b80bfd"
+      ],
       "text": "vindicta's missing",
       "source": "official"
     }

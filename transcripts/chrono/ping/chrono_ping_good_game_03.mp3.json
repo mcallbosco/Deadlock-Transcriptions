@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "f6402d4f9c756b5abf162db9e85b695b7633d4c02ec5e1a217d777661beb7737",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae743b62f4e3366b2c0c7527283dcfcbff0d4e970c6fe4e3a57faad7563dc882",
+      "sha256": [
+        "ae743b62f4e3366b2c0c7527283dcfcbff0d4e970c6fe4e3a57faad7563dc882",
+        "f6402d4f9c756b5abf162db9e85b695b7633d4c02ec5e1a217d777661beb7737"
+      ],
       "text": "Good game",
       "source": "official"
     }

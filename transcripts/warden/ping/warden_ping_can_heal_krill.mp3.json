@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_can_heal_krill.mp3",
   "revisions": [
     {
-      "sha256": "c50bc32f27d790a0b184ee07e77305f8d5852ef9dbf13a724ba2762c284cb6e6",
-      "text": "Krill, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "487af2352d1bd18697418d677c87f259e2d26a8fdc0a07d9d3b19fd00308798e",
-      "text": "Krill, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "14766f2b188d934bb709dab94fc4ccde3ac31064649bae997d26132a321aa60d",
-      "text": "Krill, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbad3966c54769d833cd626be6f926475ac2d5376c3b6b76d092d9375f80dd49",
+      "sha256": [
+        "14766f2b188d934bb709dab94fc4ccde3ac31064649bae997d26132a321aa60d",
+        "487af2352d1bd18697418d677c87f259e2d26a8fdc0a07d9d3b19fd00308798e",
+        "c50bc32f27d790a0b184ee07e77305f8d5852ef9dbf13a724ba2762c284cb6e6",
+        "fbad3966c54769d833cd626be6f926475ac2d5376c3b6b76d092d9375f80dd49"
+      ],
       "text": "Krill, I can heal you!",
       "source": "official"
     }

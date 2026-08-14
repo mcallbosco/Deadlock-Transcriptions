@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_warden_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "6d4bedb4149a8835c5a652d739c590bb272d23b5ae92d72348c1bada40a92351",
+      "sha256": [
+        "6d4bedb4149a8835c5a652d739c590bb272d23b5ae92d72348c1bada40a92351",
+        "8230c29844d5d36c81bd1fbae45b886dd7970e041a5392a955e94a0a1219802f"
+      ],
       "text": "Wardens on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8230c29844d5d36c81bd1fbae45b886dd7970e041a5392a955e94a0a1219802f",
-      "text": "Warden's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

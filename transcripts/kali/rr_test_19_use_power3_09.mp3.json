@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power3_09.mp3",
   "revisions": [
     {
-      "sha256": "286129f76ea4e250a00d1cca3f7e1d5014eb59b18ac6b3fc1be24c2a2a8c9e96",
+      "sha256": [
+        "286129f76ea4e250a00d1cca3f7e1d5014eb59b18ac6b3fc1be24c2a2a8c9e96"
+      ],
       "text": "This is my house.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cbb607eff0feb3dbc8b7ba9fa41cb7ef236e5f4bd68e23e59a657efe68779308",
+      "sha256": [
+        "cbb607eff0feb3dbc8b7ba9fa41cb7ef236e5f4bd68e23e59a657efe68779308"
+      ],
       "text": "Welcome to the world of the elite.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "371b3cf0ff1cd77a56f8db5a2cf6593f007bbc5cea661ef7990176cf73cf88bf",
+      "sha256": [
+        "371b3cf0ff1cd77a56f8db5a2cf6593f007bbc5cea661ef7990176cf73cf88bf"
+      ],
       "text": "You",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

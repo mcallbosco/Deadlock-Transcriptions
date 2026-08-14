@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_engineer_01.mp3",
   "revisions": [
     {
-      "sha256": "9f97e850225d3c18902a8948bb3d6253a83a3b686b4efe0ec355e212c6323588",
-      "text": "Careful, Engineer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e13703f7b248cefb85952767b6ea8977d701d18e13d4ed97fb5ecb00a7287785",
-      "text": "Careful, Engineer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25b7918152867f870ea3e18dd88d328ecdcd946a7af79c2f2c9f11b001a2ef44",
+      "sha256": [
+        "25b7918152867f870ea3e18dd88d328ecdcd946a7af79c2f2c9f11b001a2ef44",
+        "9f97e850225d3c18902a8948bb3d6253a83a3b686b4efe0ec355e212c6323588",
+        "e13703f7b248cefb85952767b6ea8977d701d18e13d4ed97fb5ecb00a7287785"
+      ],
       "text": "Careful, Engineer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

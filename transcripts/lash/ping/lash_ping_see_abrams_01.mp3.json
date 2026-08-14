@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_abrams_01.mp3",
   "revisions": [
     {
-      "sha256": "00f43dc8389cbe51ca5b021066f6c3224f30444b2cce5d4eb6b1f59651478b83",
+      "sha256": [
+        "00f43dc8389cbe51ca5b021066f6c3224f30444b2cce5d4eb6b1f59651478b83"
+      ],
       "text": "I see Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

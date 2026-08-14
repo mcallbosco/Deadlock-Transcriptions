@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_missing_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "aaa35003a3c8e53840b99e1ae491dadb2444d8ff84e6f97b5b8a2f3a27c823b5",
-      "text": "Missing York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "050bf2b28978cbf09447fcc4253eec67d49e13174d356e04f3d340eb0ad5502c",
+      "sha256": [
+        "050bf2b28978cbf09447fcc4253eec67d49e13174d356e04f3d340eb0ad5502c",
+        "aaa35003a3c8e53840b99e1ae491dadb2444d8ff84e6f97b5b8a2f3a27c823b5"
+      ],
       "text": "Missing York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

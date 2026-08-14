@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_affermative_03.mp3",
   "revisions": [
     {
-      "sha256": "c0af45ef487a350d9aeffb4f88a6ddd315d116f3947354a0255d12c32ec99cce",
+      "sha256": [
+        "c0af45ef487a350d9aeffb4f88a6ddd315d116f3947354a0255d12c32ec99cce",
+        "deb087e6f5384ae6f7ee857048e856b014a4b1a24e361ca15b9591b8609635eb"
+      ],
       "text": "Okay.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "deb087e6f5384ae6f7ee857048e856b014a4b1a24e361ca15b9591b8609635eb",
-      "text": "Okay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f05dbe449b7d085170f281426b53742cfc6dc3f5d8ebfd6a5d455bb807726cd1",
+      "sha256": [
+        "f05dbe449b7d085170f281426b53742cfc6dc3f5d8ebfd6a5d455bb807726cd1"
+      ],
       "text": "OK",
       "source": "official"
     }

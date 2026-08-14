@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "9601b74691f3dec6c683c0b90bafa9a1557e6ef1d763789a124bdbb211d01a4d",
+      "sha256": [
+        "9601b74691f3dec6c683c0b90bafa9a1557e6ef1d763789a124bdbb211d01a4d"
+      ],
       "text": "Missing green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

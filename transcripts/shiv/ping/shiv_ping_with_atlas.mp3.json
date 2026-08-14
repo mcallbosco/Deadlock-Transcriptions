@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_with_atlas.mp3",
   "revisions": [
     {
-      "sha256": "0545ada8f355976a51eb363e6df5cc38ff9cf7f66bdefada6ecbef188aa99691",
+      "sha256": [
+        "0545ada8f355976a51eb363e6df5cc38ff9cf7f66bdefada6ecbef188aa99691"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

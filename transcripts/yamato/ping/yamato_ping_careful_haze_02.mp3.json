@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_haze_02.mp3",
   "revisions": [
     {
-      "sha256": "f0c76cf5dfee6d5c62ce809ce672d4d53b43796f1c7dabff32ff97882217bed5",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f45046df81b40f6825d07a736b2d6e87e38ecd535dd757a804773c5c2f0c17e6",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55ba8bf41c4296bd93d590005b031a8c07632751dcbb29c85d463b75bea85655",
+      "sha256": [
+        "55ba8bf41c4296bd93d590005b031a8c07632751dcbb29c85d463b75bea85655",
+        "f0c76cf5dfee6d5c62ce809ce672d4d53b43796f1c7dabff32ff97882217bed5",
+        "f45046df81b40f6825d07a736b2d6e87e38ecd535dd757a804773c5c2f0c17e6"
+      ],
       "text": "Careful, Haze",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "06868a3ca7c4bd0e295dc492956a40af61eb7096d9c51dfafd9ddd647656a685",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cc649c2877990d6b5fadadf8096aa49c6c2a7fb6244d9987c15c259bddaa262",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62f7d90b814eaadef18b9ac3b14bd6a2f918a31a9e2199c25c377f5ba52e3749",
+      "sha256": [
+        "06868a3ca7c4bd0e295dc492956a40af61eb7096d9c51dfafd9ddd647656a685",
+        "0cc649c2877990d6b5fadadf8096aa49c6c2a7fb6244d9987c15c259bddaa262",
+        "62f7d90b814eaadef18b9ac3b14bd6a2f918a31a9e2199c25c377f5ba52e3749"
+      ],
       "text": "Careful, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

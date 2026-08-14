@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_heavy_back_01.mp3",
   "revisions": [
     {
-      "sha256": "fd4dc4deb081ef62ad5d272c5630dea83b776fc72f13c016e37ebdca6cc13f33",
+      "sha256": [
+        "428b01454ff133b39d04a57566194adb7f30e3bf8ea9178e0f164641de6c815a",
+        "fd4dc4deb081ef62ad5d272c5630dea83b776fc72f13c016e37ebdca6cc13f33"
+      ],
       "text": "Heavy, get back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "428b01454ff133b39d04a57566194adb7f30e3bf8ea9178e0f164641de6c815a",
-      "text": "Heavy, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

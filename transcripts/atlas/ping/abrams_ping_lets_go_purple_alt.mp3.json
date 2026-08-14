@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_lets_go_purple_alt.mp3",
   "revisions": [
     {
-      "sha256": "a9b7c8de79e297eb578507a739bea2c1284fd431765c76ec492d5f981e7cb749",
-      "text": "Let's go to park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6aec88d8483e05bbe251e734fcb0038821ea9986e3a7d5bcec81801250bb9c55",
+      "sha256": [
+        "6aec88d8483e05bbe251e734fcb0038821ea9986e3a7d5bcec81801250bb9c55",
+        "a9b7c8de79e297eb578507a739bea2c1284fd431765c76ec492d5f981e7cb749"
+      ],
       "text": "Let's go to park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_use_ability2.mp3",
   "revisions": [
     {
-      "sha256": "ccfe82ab45b0eb0f7d24b26df6e93580cf4d0f088467ac1c8792beb88c950350",
-      "text": "flying strike is ready!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "ccfe82ab45b0eb0f7d24b26df6e93580cf4d0f088467ac1c8792beb88c950350",
+        "de737b90394b7c25e5e1d14904b5999af7820cc0d3b9921e800f2ccbaeb2f788"
+      ],
+      "text": "Flying strike is ready",
+      "source": "official"
     },
     {
-      "sha256": "caf27b52758059972671515327dbd085239c15a1355b61dac38c3a7f17c452e8",
+      "sha256": [
+        "caf27b52758059972671515327dbd085239c15a1355b61dac38c3a7f17c452e8"
+      ],
       "text": "Prime Strike is ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de737b90394b7c25e5e1d14904b5999af7820cc0d3b9921e800f2ccbaeb2f788",
-      "text": "Flying strike is ready",
-      "source": "official"
     }
   ]
 }

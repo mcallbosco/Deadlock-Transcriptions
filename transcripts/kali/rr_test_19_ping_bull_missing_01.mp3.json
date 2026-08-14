@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_bull_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "bcf93ee76e82ba53d569ef0815a35472f8ce50c80a31ce8b17a0f44d9f6f03a7",
+      "sha256": [
+        "a7403c3744a68aa4843957febca9568fd1fcc9b713357ce8cd773c9049409d56",
+        "bcf93ee76e82ba53d569ef0815a35472f8ce50c80a31ce8b17a0f44d9f6f03a7"
+      ],
       "text": "Ball is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69212440eeef876fb91f37f60c56a634286957ac8c1b1013723007f7b4480237",
+      "sha256": [
+        "69212440eeef876fb91f37f60c56a634286957ac8c1b1013723007f7b4480237"
+      ],
       "text": "Bo is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7403c3744a68aa4843957febca9568fd1fcc9b713357ce8cd773c9049409d56",
-      "text": "Ball is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_attack_nano.mp3",
   "revisions": [
     {
-      "sha256": "dc98bac384049049f9ceac1de80e05bc01041783113a23e983eb49399d4da455",
-      "text": "Let's take out now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a359c1733febf57fcda4decde5f34b224bdc3b6ff82fef503fe003a75a19ae64",
-      "text": "Let's take out now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6d188f08f5298bb837db9fed5bb86e9616891037721fe259d5840f68c043087",
+      "sha256": [
+        "a359c1733febf57fcda4decde5f34b224bdc3b6ff82fef503fe003a75a19ae64",
+        "c6d188f08f5298bb837db9fed5bb86e9616891037721fe259d5840f68c043087",
+        "dc98bac384049049f9ceac1de80e05bc01041783113a23e983eb49399d4da455"
+      ],
       "text": "Let's take out now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

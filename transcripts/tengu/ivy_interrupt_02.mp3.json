@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_interrupt_02.mp3",
   "revisions": [
     {
-      "sha256": "2d5d19ed5b2ad9601f53642208c1a60cf3563da4773a447fbaf36945f2be3186",
+      "sha256": [
+        "2d5d19ed5b2ad9601f53642208c1a60cf3563da4773a447fbaf36945f2be3186",
+        "35e0b51398bb3cb32f68e38e08c0595f2d9c0eb06a9223f1b36f26e89406a431"
+      ],
       "text": "I don't think so!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35e0b51398bb3cb32f68e38e08c0595f2d9c0eb06a9223f1b36f26e89406a431",
-      "text": "I don't think so.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_forge_02.mp3",
   "revisions": [
     {
-      "sha256": "4abffd734611991aecf537097777786404509a5077711f2bde82cc058b255c5c",
+      "sha256": [
+        "4abffd734611991aecf537097777786404509a5077711f2bde82cc058b255c5c"
+      ],
       "text": "They're short.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6be8e42dbb7446e2220fd094f2ee4fda4e280ddc742d33e5d7207b7270418e42",
-      "text": "There's Forge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e612561ade61f83e163696cbfab8aff7179537551ee694841bd797800bf964f",
+      "sha256": [
+        "1e612561ade61f83e163696cbfab8aff7179537551ee694841bd797800bf964f",
+        "6be8e42dbb7446e2220fd094f2ee4fda4e280ddc742d33e5d7207b7270418e42"
+      ],
       "text": "There's Forge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

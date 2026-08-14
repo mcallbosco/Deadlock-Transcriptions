@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_with_tengu.mp3",
   "revisions": [
     {
-      "sha256": "99382cbf775d519e3b319bede4b3c7f62c50738204b282dd5553952229e40063",
+      "sha256": [
+        "99382cbf775d519e3b319bede4b3c7f62c50738204b282dd5553952229e40063"
+      ],
       "text": "I'm with you, Ivy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

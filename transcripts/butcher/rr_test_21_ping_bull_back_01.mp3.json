@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_bull_back_01.mp3",
   "revisions": [
     {
-      "sha256": "e3c3b01cbd4163e9b96be9d0a45d247364c0f902aaec9b272bb3864666a88f6b",
-      "text": "Boom! Get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ecfc034de49cad5c54c5062d3735450f9478131ee5f49ac16052bac9c5be59df",
-      "text": "Boom! Get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ed1920a9a40f8fb8d484e9bcfcf5928442736d9a8166ad01baf849ba81cec2a",
+      "sha256": [
+        "1ed1920a9a40f8fb8d484e9bcfcf5928442736d9a8166ad01baf849ba81cec2a",
+        "e3c3b01cbd4163e9b96be9d0a45d247364c0f902aaec9b272bb3864666a88f6b",
+        "ecfc034de49cad5c54c5062d3735450f9478131ee5f49ac16052bac9c5be59df"
+      ],
       "text": "Boom! Get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

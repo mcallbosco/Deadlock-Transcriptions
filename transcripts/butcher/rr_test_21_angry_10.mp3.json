@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_angry_10.mp3",
   "revisions": [
     {
-      "sha256": "1e9fa497c849d7ec68acedf93a0e22c21506c692de3a4ff61b919cc615779def",
+      "sha256": [
+        "1e9fa497c849d7ec68acedf93a0e22c21506c692de3a4ff61b919cc615779def"
+      ],
       "text": "Damn it! We were close!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e8a357dccd35e53cb31baa24eed504dfb1eb9a204d615d296fc4dd8f86d2ce34",
-      "text": "Damn it, it was close!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3438a0f41d122163b9670af941addba7dbd987251aaadaa48542cb41adcddf52",
+      "sha256": [
+        "3438a0f41d122163b9670af941addba7dbd987251aaadaa48542cb41adcddf52",
+        "e8a357dccd35e53cb31baa24eed504dfb1eb9a204d615d296fc4dd8f86d2ce34"
+      ],
       "text": "Damn it, it was close!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

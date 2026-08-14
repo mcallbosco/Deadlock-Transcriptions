@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_praise_doorman.mp3",
   "revisions": [
     {
-      "sha256": "83f5f2264b852be4a8f42a75e8e56089a7a5cf990cc9c5dfd50026d4992769ba",
+      "sha256": [
+        "83f5f2264b852be4a8f42a75e8e56089a7a5cf990cc9c5dfd50026d4992769ba"
+      ],
       "text": "Well done, Doorman.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0f39cca37433355c659a19448aaed28cb480763003938f44b9d569dfef225837",
+      "sha256": [
+        "0f39cca37433355c659a19448aaed28cb480763003938f44b9d569dfef225837"
+      ],
       "text": "You are too gracious Doorman",
       "source": "official"
     }

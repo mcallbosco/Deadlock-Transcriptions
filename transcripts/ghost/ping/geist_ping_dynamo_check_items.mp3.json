@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_dynamo_check_items.mp3",
   "revisions": [
     {
-      "sha256": "71313545ba470b906afea6cc6707fb047c76c8075c580274e4549d1537bd464c",
-      "text": "Check out what Dynamo bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3323a61ee3428680c9a3834860c3a6330c1490ca7c1f3b9b1edda7bcac2d387a",
+      "sha256": [
+        "3323a61ee3428680c9a3834860c3a6330c1490ca7c1f3b9b1edda7bcac2d387a",
+        "71313545ba470b906afea6cc6707fb047c76c8075c580274e4549d1537bd464c"
+      ],
       "text": "Check out what Dynamo bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

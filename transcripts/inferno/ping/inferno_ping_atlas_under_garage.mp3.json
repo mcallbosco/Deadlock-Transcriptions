@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_atlas_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "95407d6128279bd2e19811e0f278da32bfc6766f46349f53ebb6ca4e724512d6",
+      "sha256": [
+        "95407d6128279bd2e19811e0f278da32bfc6766f46349f53ebb6ca4e724512d6"
+      ],
       "text": "It was under the ground.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2947cff51fad6ff1bca577f7edba6fea901505605ba09ddfe1e35d041da9d652",
+      "sha256": [
+        "2947cff51fad6ff1bca577f7edba6fea901505605ba09ddfe1e35d041da9d652",
+        "7811a3e753519555073221fe65143d978cfcd46ec586bc2b0ff81766af44757e"
+      ],
       "text": "Abrams under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7811a3e753519555073221fe65143d978cfcd46ec586bc2b0ff81766af44757e",
-      "text": "Abrams under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f2823eb78cb13b4af10ab983343bc6513638c1e7c6841cc1e0b6f70987b53fa",
+      "sha256": [
+        "7f2823eb78cb13b4af10ab983343bc6513638c1e7c6841cc1e0b6f70987b53fa"
+      ],
       "text": "Abrams's under the garage!",
       "source": "official"
     }

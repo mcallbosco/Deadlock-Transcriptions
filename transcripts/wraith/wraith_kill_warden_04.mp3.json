@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_warden_04.mp3",
   "revisions": [
     {
-      "sha256": "47c153a955392d138a2aed48c02fc54e566dcfa8e30ba9f7467fbe3cad3bdb82",
-      "text": "Took out Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03af3505352d309afe13bc7f861014f68bc266e27f3177696eda7d39cf57e33a",
-      "text": "Took out Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9139d3a9e727d2f7f3590f33c2a2f49442c8324442e853d6237522c680b4f2bc",
+      "sha256": [
+        "03af3505352d309afe13bc7f861014f68bc266e27f3177696eda7d39cf57e33a",
+        "47c153a955392d138a2aed48c02fc54e566dcfa8e30ba9f7467fbe3cad3bdb82",
+        "9139d3a9e727d2f7f3590f33c2a2f49442c8324442e853d6237522c680b4f2bc"
+      ],
       "text": "Took out Warden",
       "source": "official"
     }

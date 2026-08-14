@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "52b90f0085fdeecff816fef82b4c597a613652bbcdd44bf5f9e8bd41b385e778",
+      "sha256": [
+        "52b90f0085fdeecff816fef82b4c597a613652bbcdd44bf5f9e8bd41b385e778"
+      ],
       "text": "Careful, Sedge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f88808af7d962b1e55859f142616a993b2d94e366cae94dd88270c6ec7ba75b9",
+      "sha256": [
+        "f88808af7d962b1e55859f142616a993b2d94e366cae94dd88270c6ec7ba75b9"
+      ],
       "text": "Careful, Seven…",
       "source": "official"
     }

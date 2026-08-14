@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_select_08.mp3",
   "revisions": [
     {
-      "sha256": "6939121485da4d612440b63d1652057d4f5faa90b307db9922257d0897dc7c0c",
-      "text": "Here are the steps to do what needs to be done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d7ed458b72bfbb0d146ec957c3b77cf346962f74727797a242796ac19df35c3",
+      "sha256": [
+        "1d7ed458b72bfbb0d146ec957c3b77cf346962f74727797a242796ac19df35c3",
+        "6939121485da4d612440b63d1652057d4f5faa90b307db9922257d0897dc7c0c"
+      ],
       "text": "Here are the steps to do what needs to be done.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_mirage_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "480f4971fc47bc01cb1941c869a147b908f790ca908574b99aea1ea8b1fd788d",
-      "text": "Mirage is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad7f7c00610764ee34c7a423b9b2dda14c5fd93f85e79d8b08832e6d35fcda2d",
+      "sha256": [
+        "480f4971fc47bc01cb1941c869a147b908f790ca908574b99aea1ea8b1fd788d",
+        "ad7f7c00610764ee34c7a423b9b2dda14c5fd93f85e79d8b08832e6d35fcda2d"
+      ],
       "text": "Mirage is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

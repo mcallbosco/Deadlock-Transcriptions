@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "c91d0a6a82be8b70d897e076c08271b4e123c043f4eb9af2c817aceb7ffb080d",
+      "sha256": [
+        "c91d0a6a82be8b70d897e076c08271b4e123c043f4eb9af2c817aceb7ffb080d",
+        "e839a9d6388c938ab88620cfeff061666069a6b7ade40b8973687403d9b39083"
+      ],
       "text": "I'm with you, Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e839a9d6388c938ab88620cfeff061666069a6b7ade40b8973687403d9b39083",
-      "text": "I'm with you, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

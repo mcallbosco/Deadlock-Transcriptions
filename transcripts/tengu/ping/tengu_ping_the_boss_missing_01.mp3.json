@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_the_boss_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6ae7cfa36db58982956bd2aa6e07250617fd74cb2e2355d30cf620e7ba550743",
+      "sha256": [
+        "6ae7cfa36db58982956bd2aa6e07250617fd74cb2e2355d30cf620e7ba550743"
+      ],
       "text": "The box is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

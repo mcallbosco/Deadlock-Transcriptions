@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_hornet_02.mp3",
   "revisions": [
     {
-      "sha256": "2764601db47ce644d511c6b9792cc4361326d7a7269fc2dba6f59a0adfb65abf",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ffe11cab6b3e9b7c7c03441a08e9738cc1dde862cd903f39a064e6bed258e31",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e88ef683a29cbadd452791ee0b7a7f55cfa1769b1b2462ab562735697ec9004",
+      "sha256": [
+        "2764601db47ce644d511c6b9792cc4361326d7a7269fc2dba6f59a0adfb65abf",
+        "3e88ef683a29cbadd452791ee0b7a7f55cfa1769b1b2462ab562735697ec9004",
+        "8ffe11cab6b3e9b7c7c03441a08e9738cc1dde862cd903f39a064e6bed258e31"
+      ],
       "text": "Careful, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

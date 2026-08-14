@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_take_shrine.mp3",
   "revisions": [
     {
-      "sha256": "4ed718e08d4538da3eca1c5f37be8180b52fde0f4af80a4a0b829a626cf011dc",
-      "text": "It's time to end this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d95ba8007040e9d9cf31056fd2393022ee717b67ad0a214829d6138a8758b0b3",
+      "sha256": [
+        "4ed718e08d4538da3eca1c5f37be8180b52fde0f4af80a4a0b829a626cf011dc",
+        "d95ba8007040e9d9cf31056fd2393022ee717b67ad0a214829d6138a8758b0b3"
+      ],
       "text": "It's time to end this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

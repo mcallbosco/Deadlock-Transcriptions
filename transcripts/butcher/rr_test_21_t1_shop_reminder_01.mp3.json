@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_t1_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "bc5dff75a83b67fefc569b3b7a99066f57c4fc92934f8a28b6561f65e088733e",
-      "text": "I should check out the store.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d01d1ec8b2d25ab4107cec0300e30d47192b5126c405b1069b0f35af5d6048b",
-      "text": "I should check out the store.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e4904b0d4ad8651b13c2acdbc35be49e8dde77fb487474cb072d51c26c70290",
+      "sha256": [
+        "7e4904b0d4ad8651b13c2acdbc35be49e8dde77fb487474cb072d51c26c70290",
+        "9d01d1ec8b2d25ab4107cec0300e30d47192b5126c405b1069b0f35af5d6048b",
+        "bc5dff75a83b67fefc569b3b7a99066f57c4fc92934f8a28b6561f65e088733e"
+      ],
       "text": "I should check out the store.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

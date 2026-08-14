@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "bd7fe5d00397d4b7f9be04612f980f64bb5f35413b83202d8074af7532e2bd56",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70a24fec96b804f3991874d4849cae0282fc2588416fa9e526f163b7c855d4b9",
+      "sha256": [
+        "70a24fec96b804f3991874d4849cae0282fc2588416fa9e526f163b7c855d4b9",
+        "bd7fe5d00397d4b7f9be04612f980f64bb5f35413b83202d8074af7532e2bd56"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

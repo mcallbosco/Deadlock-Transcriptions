@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "ba9b6674ae18bfd11fca1f12fb8e6a01ae7f52358630692d3bc47f608f1e842e",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a51ffc88059fe57119539429579d915857d1ce23738b04c157505d8d5d641c6",
+      "sha256": [
+        "5a51ffc88059fe57119539429579d915857d1ce23738b04c157505d8d5d641c6",
+        "ba9b6674ae18bfd11fca1f12fb8e6a01ae7f52358630692d3bc47f608f1e842e"
+      ],
       "text": "Let's go yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "69415211c240b2469eef1e849c7690b7a4b580b265a17d383a717922b62f19a9",
+      "sha256": [
+        "69415211c240b2469eef1e849c7690b7a4b580b265a17d383a717922b62f19a9"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

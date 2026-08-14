@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_trapper.mp3",
   "revisions": [
     {
-      "sha256": "e36af0ead646aca1a826f4a26b7f8300bbf05a91531bba6ac0312cda5d78bb3b",
+      "sha256": [
+        "e36af0ead646aca1a826f4a26b7f8300bbf05a91531bba6ac0312cda5d78bb3b"
+      ],
       "text": "I'm with you, Trapper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

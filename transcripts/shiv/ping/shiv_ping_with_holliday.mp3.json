@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_with_holliday.mp3",
   "revisions": [
     {
-      "sha256": "60d360dc2632023d36fc598d142d9050fb194da440ab3ae791e92505b6860608",
-      "text": "Come with me, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a943c854a2d45396fe5a72200a65a1575a42380ffe633b34d926597145a2714",
+      "sha256": [
+        "1a943c854a2d45396fe5a72200a65a1575a42380ffe633b34d926597145a2714",
+        "60d360dc2632023d36fc598d142d9050fb194da440ab3ae791e92505b6860608"
+      ],
       "text": "Come with me, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

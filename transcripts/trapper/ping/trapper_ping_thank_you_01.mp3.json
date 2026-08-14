@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_thank_you_01.mp3",
   "revisions": [
     {
-      "sha256": "ef6886bc51fe2162e853de49804148275ae193239c3e10876d5b0c6a0b60243d",
+      "sha256": [
+        "ef6886bc51fe2162e853de49804148275ae193239c3e10876d5b0c6a0b60243d"
+      ],
       "text": "Thanks!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

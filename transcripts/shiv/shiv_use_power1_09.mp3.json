@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_use_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "52e71788813504ea3ac6778f186efa5668869ddce88b04de247a2d1cd5340263",
+      "sha256": [
+        "52e71788813504ea3ac6778f186efa5668869ddce88b04de247a2d1cd5340263",
+        "f7c12f0027f97b0d6b1b7cfea58b82ddd37c2395051b13597338079e1a1e8e40"
+      ],
       "text": "I'll see you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f7c12f0027f97b0d6b1b7cfea58b82ddd37c2395051b13597338079e1a1e8e40",
-      "text": "I'll see you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd1fbd0bdf2b6243d19e9016032a24997a9ade800862f8518ab7c58f6f6d90db",
+      "sha256": [
+        "bd1fbd0bdf2b6243d19e9016032a24997a9ade800862f8518ab7c58f6f6d90db"
+      ],
       "text": "I see you…",
       "source": "official"
     }

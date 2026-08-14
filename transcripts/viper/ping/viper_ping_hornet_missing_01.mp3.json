@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_hornet_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0c56b3df1020ab0c5dd0d29ed41729d0340b5b342cba2d73cef921e0f01470dd",
-      "text": "Vindicta's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "0c56b3df1020ab0c5dd0d29ed41729d0340b5b342cba2d73cef921e0f01470dd",
+        "49af5efc36c6a2e4b068f55099a4f61874e088ecc784818d0b004a6c532b1695"
+      ],
+      "text": "vindicta's missing",
+      "source": "official"
     },
     {
-      "sha256": "3cbe333d6a1681df7f73b62fd174cf676c56aab6d33feefd26b36a9d7ed8e431",
+      "sha256": [
+        "3cbe333d6a1681df7f73b62fd174cf676c56aab6d33feefd26b36a9d7ed8e431"
+      ],
       "text": "Vendetta is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49af5efc36c6a2e4b068f55099a4f61874e088ecc784818d0b004a6c532b1695",
-      "text": "vindicta's missing",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fec9b23c6f517a4cf49d8579eb7277d7954635da6fa717bb1c9ca2a7b41b1071",
-      "text": "Ivy was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f65af7c24d5a0954a8123b1760688dd2a865fccab0e27a99d750d4e5576618f",
+      "sha256": [
+        "2f65af7c24d5a0954a8123b1760688dd2a865fccab0e27a99d750d4e5576618f",
+        "fec9b23c6f517a4cf49d8579eb7277d7954635da6fa717bb1c9ca2a7b41b1071"
+      ],
       "text": "Ivy was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

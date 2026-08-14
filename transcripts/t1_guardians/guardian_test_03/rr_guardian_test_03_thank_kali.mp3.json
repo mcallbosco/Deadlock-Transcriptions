@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_kali.mp3",
   "revisions": [
     {
-      "sha256": "00a0a500ab51b5bac1fa055679a97264c6dbedcebfdec619eec7d8fa710e9dc5",
+      "sha256": [
+        "00a0a500ab51b5bac1fa055679a97264c6dbedcebfdec619eec7d8fa710e9dc5",
+        "a30bce3623370ae558e19fbcf4851c7cfedb9f8505c914bb5afa8d144682882b"
+      ],
       "text": "Thanks, Callie!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a30bce3623370ae558e19fbcf4851c7cfedb9f8505c914bb5afa8d144682882b",
-      "text": "Thanks, Callie!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "922e0e55fb8e2a767ef0d13a364f055b58ec002a4231a240e49e29f55b7750f3",
+      "sha256": [
+        "922e0e55fb8e2a767ef0d13a364f055b58ec002a4231a240e49e29f55b7750f3"
+      ],
       "text": "Thanks, Kelly!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

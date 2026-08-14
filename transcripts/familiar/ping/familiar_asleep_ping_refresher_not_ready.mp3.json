@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_asleep_ping_refresher_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "4437597907b4c132cb44419d25ac5c087116ef7517480b6d5e11670415ad0253",
+      "sha256": [
+        "4437597907b4c132cb44419d25ac5c087116ef7517480b6d5e11670415ad0253"
+      ],
       "text": "Refreshers have cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

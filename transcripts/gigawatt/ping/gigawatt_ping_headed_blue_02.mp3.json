@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_headed_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "fd230326fe80bbf6a1ff3950018993ae807d3d4a95d7dfc12ea08f2f3c7e6071",
-      "text": "Headed to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "825bf404515994a8eff0bbdbf5663872a42b086fd5fa113cee2f5da8ee15b631",
-      "text": "Headed to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3444df41b00f6a43a145a8d5142bb2c42d6b45e5d17494252b37adc4618c0a7",
+      "sha256": [
+        "825bf404515994a8eff0bbdbf5663872a42b086fd5fa113cee2f5da8ee15b631",
+        "d3444df41b00f6a43a145a8d5142bb2c42d6b45e5d17494252b37adc4618c0a7",
+        "fd230326fe80bbf6a1ff3950018993ae807d3d4a95d7dfc12ea08f2f3c7e6071"
+      ],
       "text": "Headed to Broadway",
       "source": "official"
     }

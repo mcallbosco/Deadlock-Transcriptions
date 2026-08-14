@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_negative_02.mp3",
   "revisions": [
     {
-      "sha256": "eb5483694305b399816344b1c4ad52ea748bd1afd4af46769bf84e7b498180f5",
-      "text": "Don't think so.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0674546ae7636bb6f67a3447e95c8b1659938639e49c6e1d2bca4ab6f28d4a8",
-      "text": "Don't think so.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b5f9d86e67e245a3f8576209a5f68e8191e56b98e18fdb4a6342d19c7973a15f",
+      "sha256": [
+        "b0674546ae7636bb6f67a3447e95c8b1659938639e49c6e1d2bca4ab6f28d4a8",
+        "b5f9d86e67e245a3f8576209a5f68e8191e56b98e18fdb4a6342d19c7973a15f",
+        "eb5483694305b399816344b1c4ad52ea748bd1afd4af46769bf84e7b498180f5"
+      ],
       "text": "Don't think so.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_concerned_03.mp3",
   "revisions": [
     {
-      "sha256": "59edf36cd6a97e69b889c06a55bd92837fabf4b332c3229cebd0aa9445e4447e",
-      "text": "You're doing something wrong.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ebac68e4d09247148ad936781b0accb95957713aa75a375b308e5887c3c70a7c",
-      "text": "You're doing something wrong.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13a66c902787d45c3970325c58f2c9608b6a0fccc7e1ffee6d4e478544712f6c",
+      "sha256": [
+        "13a66c902787d45c3970325c58f2c9608b6a0fccc7e1ffee6d4e478544712f6c",
+        "59edf36cd6a97e69b889c06a55bd92837fabf4b332c3229cebd0aa9445e4447e",
+        "ebac68e4d09247148ad936781b0accb95957713aa75a375b308e5887c3c70a7c"
+      ],
       "text": "You're doing something wrong.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

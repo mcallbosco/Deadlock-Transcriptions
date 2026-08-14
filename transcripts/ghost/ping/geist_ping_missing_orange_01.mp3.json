@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "d34000bc9c5dc8ed7caaf6e9c0364adb2bbabd9cad02bf60c181b334b7fb7ff1",
+      "sha256": [
+        "d34000bc9c5dc8ed7caaf6e9c0364adb2bbabd9cad02bf60c181b334b7fb7ff1"
+      ],
       "text": "Missing orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ee34e59c3974840244d8cc43165edaf900f09ebf50eb2373452efdc177520131",
+      "sha256": [
+        "ee34e59c3974840244d8cc43165edaf900f09ebf50eb2373452efdc177520131"
+      ],
       "text": "Missing arms.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

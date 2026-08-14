@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "67f54885ee693a5b4e85939d485ebb0ff1966c087a7f7220c33f9c715c421972",
+      "sha256": [
+        "67f54885ee693a5b4e85939d485ebb0ff1966c087a7f7220c33f9c715c421972"
+      ],
       "text": "Good morning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4660faddb56d37c64912af845a6fdc78162ad4e1bec07d8827c864cb17f833b3",
+      "sha256": [
+        "4660faddb56d37c64912af845a6fdc78162ad4e1bec07d8827c864cb17f833b3"
+      ],
       "text": "What was here?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

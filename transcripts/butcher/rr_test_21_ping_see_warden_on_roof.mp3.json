@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_warden_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "f92d8558ca960365f274cb3732489d64f0d3e29bb0f190ea21be920c3a8ad49f",
-      "text": "Wardens on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12de18d8c55bbbb6b6dacb757cd56205d5b11e5f6f908d5534b6d2020d28d5bd",
-      "text": "Wardens on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9771428158336d375ca6993fd484a8df1f9a029c68c2ccfd3b23adf45ebe540",
+      "sha256": [
+        "12de18d8c55bbbb6b6dacb757cd56205d5b11e5f6f908d5534b6d2020d28d5bd",
+        "c9771428158336d375ca6993fd484a8df1f9a029c68c2ccfd3b23adf45ebe540",
+        "f92d8558ca960365f274cb3732489d64f0d3e29bb0f190ea21be920c3a8ad49f"
+      ],
       "text": "Wardens on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

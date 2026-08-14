@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "79835cedf4a592560e6c0420780b8161065b5156b28b8be9ef4896bea4892d9a",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b33c0f0074e325abcb9a113ee5bed29387f597a26b881adf4c4405274d6c05c4",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f50c9f6409ac4ac2ebf46a7683195bf903c39a3867a94e4a31c698db12aedb51",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e8001b1b7f36a71763113cbb6ef938ab57d1db8348da9fcaeadf618adac026e",
+      "sha256": [
+        "4e8001b1b7f36a71763113cbb6ef938ab57d1db8348da9fcaeadf618adac026e",
+        "79835cedf4a592560e6c0420780b8161065b5156b28b8be9ef4896bea4892d9a",
+        "b33c0f0074e325abcb9a113ee5bed29387f597a26b881adf4c4405274d6c05c4",
+        "f50c9f6409ac4ac2ebf46a7683195bf903c39a3867a94e4a31c698db12aedb51"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

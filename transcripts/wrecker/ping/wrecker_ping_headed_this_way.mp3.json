@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "6d1dcb8568fbf125173144ea495dd824e944f754f64be42e9b499caba21be5db",
-      "text": "Heading this way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "588d2f6ed947435a43951b5333db3f987ab7a8be8c98a2573de4ce6185f390e3",
+      "sha256": [
+        "588d2f6ed947435a43951b5333db3f987ab7a8be8c98a2573de4ce6185f390e3",
+        "6d1dcb8568fbf125173144ea495dd824e944f754f64be42e9b499caba21be5db"
+      ],
       "text": "Heading this way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

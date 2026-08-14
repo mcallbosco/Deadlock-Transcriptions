@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_deny_05.mp3",
   "revisions": [
     {
-      "sha256": "f9516e0fbb8f868cb2d858e6cacca475c2f2d014b01a07ddb0b095d915f40222",
-      "text": "Time to put them on tilt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05fa998d9cb4ac3fcc964b3d02f71dbb1901098e6902d20cf4e18cec06f576fd",
-      "text": "Time to put them on tilt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a0f47da44f996e6a0b3c816fbb8522b8c4e63e78757bd7a882276ab6fd1e227",
+      "sha256": [
+        "05fa998d9cb4ac3fcc964b3d02f71dbb1901098e6902d20cf4e18cec06f576fd",
+        "3a0f47da44f996e6a0b3c816fbb8522b8c4e63e78757bd7a882276ab6fd1e227",
+        "f9516e0fbb8f868cb2d858e6cacca475c2f2d014b01a07ddb0b095d915f40222"
+      ],
       "text": "Time to put them on tilt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

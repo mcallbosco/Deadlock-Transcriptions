@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "8121b28824b33dd2b5a29369887de7bd2ba5b37c50a4b51b745b7b6c6cdbcadd",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa4a091494858c84dabfe965bc2af0469b09414d337f6065a5ca2da2b7dee282",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5095966d56859b7c23466b4b8ef45de45c36506763464057a2c6e2df09722c39",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f97a8e81e2511557af05540fdf52282af790c6819045f05c207073495b897ab",
+      "sha256": [
+        "2f97a8e81e2511557af05540fdf52282af790c6819045f05c207073495b897ab",
+        "5095966d56859b7c23466b4b8ef45de45c36506763464057a2c6e2df09722c39",
+        "8121b28824b33dd2b5a29369887de7bd2ba5b37c50a4b51b745b7b6c6cdbcadd",
+        "fa4a091494858c84dabfe965bc2af0469b09414d337f6065a5ca2da2b7dee282"
+      ],
       "text": "Do you have a heal?",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "04fa5532f6b9ccdc43c9a27e238fc4e1593d25f681963f8e4a61cacb0cec32cb",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f69bc4741c5555d5b87fcc1bd8044431c1d7de8e6c68ae8508e17d6edb525d5a",
+      "sha256": [
+        "04fa5532f6b9ccdc43c9a27e238fc4e1593d25f681963f8e4a61cacb0cec32cb",
+        "f69bc4741c5555d5b87fcc1bd8044431c1d7de8e6c68ae8508e17d6edb525d5a"
+      ],
       "text": "I see Krill.",
       "source": "manual"
     }

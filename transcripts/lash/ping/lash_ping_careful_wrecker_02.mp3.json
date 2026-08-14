@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_careful_wrecker_02.mp3",
   "revisions": [
     {
-      "sha256": "4e8c8e7bd9bd2d20f2d9b3084df92cc0a67e1870f6cca98b2b160d3c3114fccc",
+      "sha256": [
+        "4e8c8e7bd9bd2d20f2d9b3084df92cc0a67e1870f6cca98b2b160d3c3114fccc"
+      ],
       "text": "Cheerful wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "98ae30323d1bce9659ac7c97c4f1c66af11abf05ea737fd520519d2e4b2ae1b0",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "9716922160e91170cb640cb739801e9d087b677db27acd0738fafa57b33143ef",
+        "98ae30323d1bce9659ac7c97c4f1c66af11abf05ea737fd520519d2e4b2ae1b0"
+      ],
+      "text": "Careful, Wrecker",
+      "source": "official"
     },
     {
-      "sha256": "3230515253a00021973fffd35fefe4f9b5afb9c0a9df1d9eae841b0a13af0679",
+      "sha256": [
+        "3230515253a00021973fffd35fefe4f9b5afb9c0a9df1d9eae841b0a13af0679"
+      ],
       "text": "Careful record.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9716922160e91170cb640cb739801e9d087b677db27acd0738fafa57b33143ef",
-      "text": "Careful, Wrecker",
-      "source": "official"
     }
   ]
 }

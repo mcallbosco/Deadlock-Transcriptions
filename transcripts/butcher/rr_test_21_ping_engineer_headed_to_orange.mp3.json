@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_engineer_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "c5257ee9101f50ec14efba49d0738f3d0734170917bed43533704dbb4a2208c7",
-      "text": "Engineer's headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d7caaaf17ef56d75e7ca001d39e3297994b4bbcb720a7f49b91704a13d27f62",
-      "text": "Engineers headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f571a0a47e8ddf88f2d51f88a412a23b89a135482e1eac63b92a85329d2119ed",
+      "sha256": [
+        "6d7caaaf17ef56d75e7ca001d39e3297994b4bbcb720a7f49b91704a13d27f62",
+        "c5257ee9101f50ec14efba49d0738f3d0734170917bed43533704dbb4a2208c7",
+        "f571a0a47e8ddf88f2d51f88a412a23b89a135482e1eac63b92a85329d2119ed"
+      ],
       "text": "Engineer's headed to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

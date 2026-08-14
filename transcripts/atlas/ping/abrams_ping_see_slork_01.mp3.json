@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_slork_01.mp3",
   "revisions": [
     {
-      "sha256": "4f1485c33d26226f2738cf23b3909a671745e11b2863a818d0ceaa1c533cc91b",
-      "text": "I see Slork.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af41c5d15f71f48b76abff69de20d0e1f8a90c69f323d7045c80be03ce50ee83",
+      "sha256": [
+        "4f1485c33d26226f2738cf23b3909a671745e11b2863a818d0ceaa1c533cc91b",
+        "af41c5d15f71f48b76abff69de20d0e1f8a90c69f323d7045c80be03ce50ee83"
+      ],
       "text": "I see Slork.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

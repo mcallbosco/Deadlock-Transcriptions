@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_greeting_02.mp3",
   "revisions": [
     {
-      "sha256": "d1544ae0f9af98bcf9b6bccbc91d3810adce4f9426a77d8e7034220b87bfe6df",
-      "text": "Let's show 'em what we're made of!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6749fc2608e963431dce403e8d590036b761ad628edf01c6a000a2dec207898",
-      "text": "Let's show 'em what we're made of!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "668c9afa354de2f685209dcbf0df63cd455855903003ca8715717d7533f6e78d",
+      "sha256": [
+        "668c9afa354de2f685209dcbf0df63cd455855903003ca8715717d7533f6e78d",
+        "b6749fc2608e963431dce403e8d590036b761ad628edf01c6a000a2dec207898",
+        "d1544ae0f9af98bcf9b6bccbc91d3810adce4f9426a77d8e7034220b87bfe6df"
+      ],
       "text": "Let's show 'em what we're made of!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

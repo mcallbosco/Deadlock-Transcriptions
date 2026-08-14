@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_leave_base_02.mp3",
   "revisions": [
     {
-      "sha256": "b3b276a7aab7547deb541d5c57443916f83245a27eb7328f63867141d1accc37",
+      "sha256": [
+        "b3b276a7aab7547deb541d5c57443916f83245a27eb7328f63867141d1accc37",
+        "e151a81951b2c4e54536956594de6596092f6993c5abb2dbd2d8a7b705ee9551"
+      ],
       "text": "Time to end this!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e151a81951b2c4e54536956594de6596092f6993c5abb2dbd2d8a7b705ee9551",
-      "text": "Time to end this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

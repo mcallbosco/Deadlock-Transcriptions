@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_lets_hide.mp3",
   "revisions": [
     {
-      "sha256": "5a5114324849ec5d0a39345206c1251291de64adb65388af022d801e0907115d",
+      "sha256": [
+        "5a5114324849ec5d0a39345206c1251291de64adb65388af022d801e0907115d"
+      ],
       "text": "Attack here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9c3e387e437ccd109f335e8469bae7475b26b88d381b07e402d4b297542f924a",
+      "sha256": [
+        "9c3e387e437ccd109f335e8469bae7475b26b88d381b07e402d4b297542f924a"
+      ],
       "text": "Let's hide here.",
       "source": "official"
     }

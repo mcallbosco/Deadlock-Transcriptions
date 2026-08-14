@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_upgrade_power2_06.mp3",
   "revisions": [
     {
-      "sha256": "814f0b42ff4e19269cce535d1a217d14dc122e5f6cf604f69ae7c0672ecea8d6",
-      "text": "Stick and move.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "288ebc09d311a373b13b2f3c5883ebd953ee46a04211e9190eaddb49418230d6",
-      "text": "Stick and move.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38de403444ea9db6c00f4fd8ac3996986a759cb3b6c49862c89db81883594fcf",
+      "sha256": [
+        "288ebc09d311a373b13b2f3c5883ebd953ee46a04211e9190eaddb49418230d6",
+        "38de403444ea9db6c00f4fd8ac3996986a759cb3b6c49862c89db81883594fcf",
+        "814f0b42ff4e19269cce535d1a217d14dc122e5f6cf604f69ae7c0672ecea8d6"
+      ],
       "text": "Stick and move",
       "source": "official"
     }

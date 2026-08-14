@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_idol_drop_05.mp3",
   "revisions": [
     {
-      "sha256": "597f52f99481ebd661e0b2e26eb7e23ebfaad18c2554c2e9f33d7172d245fbbc",
-      "text": "We must deny them the idol.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09a37ac041843420b86eaa8c88e6c62699b13c972ff26d532199d871c375a511",
-      "text": "We must deny them the idol.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39a9b85b5ad74b9c7c41fd8c9fd3c97ab1a6801aced9a33a5cf29f72d1d00e7e",
+      "sha256": [
+        "09a37ac041843420b86eaa8c88e6c62699b13c972ff26d532199d871c375a511",
+        "39a9b85b5ad74b9c7c41fd8c9fd3c97ab1a6801aced9a33a5cf29f72d1d00e7e",
+        "597f52f99481ebd661e0b2e26eb7e23ebfaad18c2554c2e9f33d7172d245fbbc"
+      ],
       "text": "We must deny them the idol.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

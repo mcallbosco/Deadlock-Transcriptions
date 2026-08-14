@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_ivy_dead.mp3",
   "revisions": [
     {
-      "sha256": "cb86b7d7172482547b4a8cb949dde86bae45d40a87ec8df36b853d3a2d7c09eb",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22837358840744806335459619ada728784417b75907fd191cc43ac9ebb81919",
+      "sha256": [
+        "22837358840744806335459619ada728784417b75907fd191cc43ac9ebb81919",
+        "cb86b7d7172482547b4a8cb949dde86bae45d40a87ec8df36b853d3a2d7c09eb"
+      ],
       "text": "Ivy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

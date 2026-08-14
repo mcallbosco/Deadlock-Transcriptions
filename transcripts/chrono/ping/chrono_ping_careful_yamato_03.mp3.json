@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_careful_yamato_03.mp3",
   "revisions": [
     {
-      "sha256": "56782b56fb51af625a1d83e27f60e62aa9e29bc18f648552e47c33301f56d07a",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c270d204196f2e82c6845577baa977090e2e17e0c7f80a730921248102a4784",
+      "sha256": [
+        "0c270d204196f2e82c6845577baa977090e2e17e0c7f80a730921248102a4784",
+        "56782b56fb51af625a1d83e27f60e62aa9e29bc18f648552e47c33301f56d07a"
+      ],
       "text": "Careful, Yamato!",
       "source": "official"
     }

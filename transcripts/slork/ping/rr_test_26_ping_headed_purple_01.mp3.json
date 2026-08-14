@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_headed_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "dc715403efd4086801cb751115a43794cc01b6da39778622205ffa640271ef0b",
+      "sha256": [
+        "dc715403efd4086801cb751115a43794cc01b6da39778622205ffa640271ef0b"
+      ],
       "text": "And it's purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "778c9ece266ef73f90da6067c4c3bb18e75fdf36a02cc39de1f782ebea12229a",
+      "sha256": [
+        "778c9ece266ef73f90da6067c4c3bb18e75fdf36a02cc39de1f782ebea12229a"
+      ],
       "text": "Head it's purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

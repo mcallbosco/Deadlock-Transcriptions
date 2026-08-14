@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "ac92f3edf96ce9b980de368d1532c33c97e3acdd6aa2d6dbcc323999c609c291",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c30a14a62d2012ef171dec6b8272fed8b06537e04760ff191d49dfe54c81f1a",
+      "sha256": [
+        "7c30a14a62d2012ef171dec6b8272fed8b06537e04760ff191d49dfe54c81f1a",
+        "ac92f3edf96ce9b980de368d1532c33c97e3acdd6aa2d6dbcc323999c609c291"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

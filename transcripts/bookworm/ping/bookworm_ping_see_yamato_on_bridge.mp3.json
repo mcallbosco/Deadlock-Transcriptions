@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "2bf600f1aacdf721dbac18248fb7ac5d3ec015fb41bcad0009e3ae54823b0c29",
-      "text": "Yamato's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f72effe60b58a999bfaa481b4947fb9df24f74880f4b00c5a67a277f0908734d",
+      "sha256": [
+        "2bf600f1aacdf721dbac18248fb7ac5d3ec015fb41bcad0009e3ae54823b0c29",
+        "f72effe60b58a999bfaa481b4947fb9df24f74880f4b00c5a67a277f0908734d"
+      ],
       "text": "Yamato's on the bridge!",
       "source": "official"
     }

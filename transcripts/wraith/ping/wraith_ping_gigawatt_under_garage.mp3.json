@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_gigawatt_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b3957b0f8cbd806093522d25a7af3e1a3802bb8a18c1749030fd6b6cd6083bb5",
+      "sha256": [
+        "1c9035e2e2726f44357447f32ec74bc3f1d35cbeae501a6bed8e181d7d7142aa",
+        "b3957b0f8cbd806093522d25a7af3e1a3802bb8a18c1749030fd6b6cd6083bb5",
+        "e61069ebc1affe3de6fb54991d5d19f452347cd32a81135f0e9bee9aa45ce5d1"
+      ],
       "text": "Seven is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1c9035e2e2726f44357447f32ec74bc3f1d35cbeae501a6bed8e181d7d7142aa",
-      "text": "Seven is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e61069ebc1affe3de6fb54991d5d19f452347cd32a81135f0e9bee9aa45ce5d1",
-      "text": "Seven is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f80cb6523ce87629bf030a927e868d495773136cd17ae65cad68290b1ab94de8",
+      "sha256": [
+        "f80cb6523ce87629bf030a927e868d495773136cd17ae65cad68290b1ab94de8"
+      ],
       "text": "Seven's under the garage!",
       "source": "official"
     }

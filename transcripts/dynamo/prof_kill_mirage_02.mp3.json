@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_kill_mirage_02.mp3",
   "revisions": [
     {
-      "sha256": "8ff46b87ec6aaa5059fe39ac3e0cca72754872896dcbd8a02ffdcd90af1eceb0",
-      "text": "Mirage is down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d04243c8d297ccd41b1489769e93173aa455706e3b1b14c75d83f7ee9f45b7b8",
+      "sha256": [
+        "8ff46b87ec6aaa5059fe39ac3e0cca72754872896dcbd8a02ffdcd90af1eceb0",
+        "d04243c8d297ccd41b1489769e93173aa455706e3b1b14c75d83f7ee9f45b7b8"
+      ],
       "text": "Mirage is down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

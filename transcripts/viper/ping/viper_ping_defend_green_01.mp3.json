@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_defend_green_01.mp3",
   "revisions": [
     {
-      "sha256": "caebd289c10595354c9a7113aac1c293b837751ce87f39b6cee126ab3147c5ba",
-      "text": "Defend green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "ba153f0dd5b43beee99567ce9687c007712349b350162c7423716a697e236da5",
+        "caebd289c10595354c9a7113aac1c293b837751ce87f39b6cee126ab3147c5ba"
+      ],
+      "text": "Defend Green",
+      "source": "official"
     },
     {
-      "sha256": "94629af2578d1d3912fdb316cd1a180bb727e02bbb54a6f6086c97c6c4e0aba9",
+      "sha256": [
+        "94629af2578d1d3912fdb316cd1a180bb727e02bbb54a6f6086c97c6c4e0aba9"
+      ],
       "text": "To fend green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba153f0dd5b43beee99567ce9687c007712349b350162c7423716a697e236da5",
-      "text": "Defend Green",
-      "source": "official"
     }
   ]
 }

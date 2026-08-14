@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_use_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "6984d6bddbbb711d0f66a5d20de835602422699d67acfec59b5befaeeda993c3",
+      "sha256": [
+        "6984d6bddbbb711d0f66a5d20de835602422699d67acfec59b5befaeeda993c3"
+      ],
       "text": "I'm about to show you how I do.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9a8c72c913e057497dac2f554aae118d0609daa82c831d0d43e1a3715d794ee0",
-      "text": "I'm about to show you why I'm best.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3403ea67c6d1cdf124778a04e534ad56c7319aa9b44a9e6f29229da67c103e96",
+        "9a8c72c913e057497dac2f554aae118d0609daa82c831d0d43e1a3715d794ee0"
+      ],
+      "text": "I'm about to show you why I'm best!",
+      "source": "official"
     },
     {
-      "sha256": "c12bc8d82423c533ab3dabca5ff80a0b80abd4d421693131d48baa85a91dfe35",
+      "sha256": [
+        "c12bc8d82423c533ab3dabca5ff80a0b80abd4d421693131d48baa85a91dfe35"
+      ],
       "text": "I'm about to show you why I am best.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3403ea67c6d1cdf124778a04e534ad56c7319aa9b44a9e6f29229da67c103e96",
-      "text": "I'm about to show you why I'm best!",
-      "source": "official"
     }
   ]
 }

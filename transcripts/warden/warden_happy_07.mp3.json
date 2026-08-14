@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_happy_07.mp3",
   "revisions": [
     {
-      "sha256": "ccc3020213711b63ce7b840b70917fbff429526498411056ede1bb7ee5fa3a2e",
-      "text": "Our plan is working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1fcc9c2449f2c7435b0a3bee0e3a1f16173e54105740feaaf181fa3da3174565",
-      "text": "Our plan is working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8dcbae3585571c9254cc51f3f17060fe5a44244d215d1859e88a97d19087095f",
-      "text": "Our plan is working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e4b9131a5fc236f2a0c45cdf417bb5c6132b73008f9dd39735386002306de58",
+      "sha256": [
+        "0e4b9131a5fc236f2a0c45cdf417bb5c6132b73008f9dd39735386002306de58",
+        "1fcc9c2449f2c7435b0a3bee0e3a1f16173e54105740feaaf181fa3da3174565",
+        "8dcbae3585571c9254cc51f3f17060fe5a44244d215d1859e88a97d19087095f",
+        "ccc3020213711b63ce7b840b70917fbff429526498411056ede1bb7ee5fa3a2e"
+      ],
       "text": "Our plan is working.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c92d76a2509f14ee50f90773f648fa006c15f1610b7078e410390a411230f512",
+      "sha256": [
+        "c92d76a2509f14ee50f90773f648fa006c15f1610b7078e410390a411230f512"
+      ],
       "text": "Killing's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "533fa8a5e7d2f66d53d3cd916eba11fd8bfa22194d37e7cc43a326cca03eef2c",
-      "text": "Kelvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca2aa583b66dcf40c7918fc06cb3b3171df8eb56dff16794999857bc850338a0",
-      "text": "Kelvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33251fa2ce4146d108e363a7917e62caafc61ad11315b99927c60df8916f64d2",
+      "sha256": [
+        "33251fa2ce4146d108e363a7917e62caafc61ad11315b99927c60df8916f64d2",
+        "533fa8a5e7d2f66d53d3cd916eba11fd8bfa22194d37e7cc43a326cca03eef2c",
+        "ca2aa583b66dcf40c7918fc06cb3b3171df8eb56dff16794999857bc850338a0"
+      ],
       "text": "Kelvin's missing",
       "source": "official"
     }

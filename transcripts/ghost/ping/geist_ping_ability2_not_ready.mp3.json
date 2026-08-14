@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_ability2_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "e63acd13ce87576353dde782f31cc428b99bc3fa4ddd8fb0b883be82f14c7ae5",
-      "text": "Life drain is on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59cf224cc8a791cd416645684f3e5dd42a890f32f718b70354f5bd6847e9938d",
+      "sha256": [
+        "59cf224cc8a791cd416645684f3e5dd42a890f32f718b70354f5bd6847e9938d",
+        "e63acd13ce87576353dde782f31cc428b99bc3fa4ddd8fb0b883be82f14c7ae5"
+      ],
       "text": "Life drain is on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

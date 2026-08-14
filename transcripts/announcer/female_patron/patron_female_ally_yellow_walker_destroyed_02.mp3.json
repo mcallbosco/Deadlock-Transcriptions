@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_yellow_walker_destroyed_02.mp3",
   "revisions": [
     {
-      "sha256": "b562bdb9082f22ec829f5738437e01cd1a1e247b5319547ec0bd5b67965cacfd",
-      "text": "Our yellow walker has been defeated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8720d4d62b94e14794ab75a9782d02a75a6a9d1190aaf94251e5a8df9b099ccf",
-      "text": "Our yellow walker has been defeated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "85c6d2f37bd75f49c16b0356201866d7a1e78bcdba4c8b10a3194182e65a9df7",
+      "sha256": [
+        "85c6d2f37bd75f49c16b0356201866d7a1e78bcdba4c8b10a3194182e65a9df7",
+        "8720d4d62b94e14794ab75a9782d02a75a6a9d1190aaf94251e5a8df9b099ccf",
+        "b562bdb9082f22ec829f5738437e01cd1a1e247b5319547ec0bd5b67965cacfd"
+      ],
       "text": "Our yellow walker has been defeated",
       "source": "official"
     }

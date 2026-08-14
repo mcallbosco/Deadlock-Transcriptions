@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "58e46fa9d74e6ccfd6705a37a421c9d7fadabf9f00c8e69e5b8c3479e4b86c6a",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05c4df3080d8e62edc1e23cdc399e8777c4bb3dbf62422e5b1dba3e62606dc60",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31b4dc558da05e4a5de6876431f81b651fbedbddd80bb870c59c3c6fb7e01cc8",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f38a970d7efdd86f719d9b0561d383a6ad71ac68c7eb5d74822e4b70cade16e",
+      "sha256": [
+        "05c4df3080d8e62edc1e23cdc399e8777c4bb3dbf62422e5b1dba3e62606dc60",
+        "31b4dc558da05e4a5de6876431f81b651fbedbddd80bb870c59c3c6fb7e01cc8",
+        "58e46fa9d74e6ccfd6705a37a421c9d7fadabf9f00c8e69e5b8c3479e4b86c6a",
+        "6f38a970d7efdd86f719d9b0561d383a6ad71ac68c7eb5d74822e4b70cade16e"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

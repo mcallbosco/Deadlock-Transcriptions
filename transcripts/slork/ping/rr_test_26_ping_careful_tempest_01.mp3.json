@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_tempest_01.mp3",
   "revisions": [
     {
-      "sha256": "e91a1e8563831c8c08c31a58220202593c0902990adccb1d0130898607db5c23",
-      "text": "Careful, Tempest.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9620c768c5bf2d92fc5948cc2da973b4c2a6c824efee85af0094a2475b13e9e",
+      "sha256": [
+        "a9620c768c5bf2d92fc5948cc2da973b4c2a6c824efee85af0094a2475b13e9e",
+        "e91a1e8563831c8c08c31a58220202593c0902990adccb1d0130898607db5c23"
+      ],
       "text": "Careful, Tempest.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_urn_waiting_01.mp3",
   "revisions": [
     {
-      "sha256": "4766abf6323440a1637ec043aabb21e29dfce148ba4a136f8177905323aec52c",
+      "sha256": [
+        "4766abf6323440a1637ec043aabb21e29dfce148ba4a136f8177905323aec52c"
+      ],
       "text": "A spirit urn is waiting to be claimed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fafb385d32be742293f5ee925b8d31188a44021e3744105cd633b15ea4bf1010",
-      "text": "The spirit urn is waiting to be claimed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa5c58f755463e53ccc379d36afac734d50a754d2a197589b9f54180e2c5104b",
+      "sha256": [
+        "aa5c58f755463e53ccc379d36afac734d50a754d2a197589b9f54180e2c5104b",
+        "fafb385d32be742293f5ee925b8d31188a44021e3744105cd633b15ea4bf1010"
+      ],
       "text": "The Spirit Urn is waiting to be claimed",
       "source": "official"
     }

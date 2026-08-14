@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_lets_go_purple.mp3",
   "revisions": [
     {
-      "sha256": "a9fc62fac99e9a83e6b559772210251c3a35b57e5f6d912fda1d5a9b4c96a6fb",
+      "sha256": [
+        "a9fc62fac99e9a83e6b559772210251c3a35b57e5f6d912fda1d5a9b4c96a6fb"
+      ],
       "text": "Let's show purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

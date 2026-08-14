@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_careful_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "8c0c3e2f7dbf5cecb23ee55f5512d889989b482752af1be2094ae7b2f8cfa9e0",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b71ed9b4a0a58bcd5fd2ee07ff829827d07fdfed6d51daea1f2dd495e58ee5e",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc7176e640ff070a958ff3d6f6947c4c1074c8149867fda9c31d40798d3eadef",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "544e044cd1e5b3a763fdc936974a2eebeb10d8a611d6ee25dfcb79f229d0a621",
+      "sha256": [
+        "2b71ed9b4a0a58bcd5fd2ee07ff829827d07fdfed6d51daea1f2dd495e58ee5e",
+        "544e044cd1e5b3a763fdc936974a2eebeb10d8a611d6ee25dfcb79f229d0a621",
+        "8c0c3e2f7dbf5cecb23ee55f5512d889989b482752af1be2094ae7b2f8cfa9e0",
+        "fc7176e640ff070a958ff3d6f6947c4c1074c8149867fda9c31d40798d3eadef"
+      ],
       "text": "Careful, Wraith…",
       "source": "official"
     }

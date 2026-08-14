@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_t1_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "394e403512314b8c0f0ab07d7c4e22e3d0f235aff56d4a4df4d1410e23d687ea",
+      "sha256": [
+        "394e403512314b8c0f0ab07d7c4e22e3d0f235aff56d4a4df4d1410e23d687ea"
+      ],
       "text": "I need you to remember to upgrade my gear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e67ecc10a7bf80c3144ac131eb00944c7d485c8b5f5e1d0a5199caab98d85efb",
-      "text": "I need to remember to upgrade my gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78b3c0b6aeaf8165dfe8daf6d726ef17d7f0437360640aee6e5859a7e69529fd",
-      "text": "I need to remember to upgrade my gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "321194fd68f0439f5e26c5211b5c5d20eecfeccdae37203fafbf56153f983911",
+      "sha256": [
+        "321194fd68f0439f5e26c5211b5c5d20eecfeccdae37203fafbf56153f983911",
+        "78b3c0b6aeaf8165dfe8daf6d726ef17d7f0437360640aee6e5859a7e69529fd",
+        "e67ecc10a7bf80c3144ac131eb00944c7d485c8b5f5e1d0a5199caab98d85efb"
+      ],
       "text": "I need to remember to upgrade my gear",
       "source": "official"
     }

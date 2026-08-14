@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_inferno_02.mp3",
   "revisions": [
     {
-      "sha256": "c5d2f0bb1017ed60ff0c9b5630912442b095d01f858f1b415b655d901099d3aa",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f1a14833f043c5ea91f9d85464a75e708ca243ccf5c7d9054eed843b5aab4833",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "201594a4dc78376c8a3fc4e5fc883f50eb41162b1f4c9f5573b1ebfcbf5abeb5",
+      "sha256": [
+        "201594a4dc78376c8a3fc4e5fc883f50eb41162b1f4c9f5573b1ebfcbf5abeb5",
+        "c5d2f0bb1017ed60ff0c9b5630912442b095d01f858f1b415b655d901099d3aa",
+        "f1a14833f043c5ea91f9d85464a75e708ca243ccf5c7d9054eed843b5aab4833"
+      ],
       "text": "Careful, Infernus",
       "source": "official"
     }

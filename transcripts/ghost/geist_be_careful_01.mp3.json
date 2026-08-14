@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_be_careful_01.mp3",
   "revisions": [
     {
-      "sha256": "36bd79055b597b9306016bec5f631a0c3533c118813061d3b6e610569b35e5d7",
-      "text": "I need to be careful.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21043fe1ac3b5caa960ca5244b2c5574feffecf0fed19be1dccc576b6d48faf2",
+      "sha256": [
+        "21043fe1ac3b5caa960ca5244b2c5574feffecf0fed19be1dccc576b6d48faf2",
+        "36bd79055b597b9306016bec5f631a0c3533c118813061d3b6e610569b35e5d7"
+      ],
       "text": "I need to be careful.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

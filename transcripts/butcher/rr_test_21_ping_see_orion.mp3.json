@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_orion.mp3",
   "revisions": [
     {
-      "sha256": "f682d1dfca12d51d6bec33048d50d78874ed2f721205b64fba07f8393b76f933",
-      "text": "I see Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c64f4e9015eed7afced7fe1e071f78d9d651af887216271869b5fe9bd13ac5f",
-      "text": "I see Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd24ff71df9f8506e0a1bf9716b8bc10710caf97618ecbe1c57e917454e0f0e2",
+      "sha256": [
+        "7c64f4e9015eed7afced7fe1e071f78d9d651af887216271869b5fe9bd13ac5f",
+        "dd24ff71df9f8506e0a1bf9716b8bc10710caf97618ecbe1c57e917454e0f0e2",
+        "f682d1dfca12d51d6bec33048d50d78874ed2f721205b64fba07f8393b76f933"
+      ],
       "text": "I see Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

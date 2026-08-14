@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_paradox_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "f942c0db4eada8e72e8459a5a6dc17e2b63a677fcd1d5cc548000135a75729f6",
-      "text": "Paradox is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58ba2c0e71b42322eedcb99bf4a6c0f558ae52466712c241cf18bab8d77c9137",
+      "sha256": [
+        "58ba2c0e71b42322eedcb99bf4a6c0f558ae52466712c241cf18bab8d77c9137",
+        "f942c0db4eada8e72e8459a5a6dc17e2b63a677fcd1d5cc548000135a75729f6"
+      ],
       "text": "Paradox is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

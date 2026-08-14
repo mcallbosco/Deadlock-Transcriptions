@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "144627ed753dc6e60cd1da495fbeb4fbb5746d71142a07ffa54e7f5245c24731",
-      "text": "I see Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "562d8c671a1f8e0f36f423e56bf87c3c8d4c39a35aef9e746334ea2c20c9ff0f",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e7247fc2333e8c3e2daf804b89a6d5eb47a0446c1793fee60480e95198407b9",
+      "sha256": [
+        "144627ed753dc6e60cd1da495fbeb4fbb5746d71142a07ffa54e7f5245c24731",
+        "562d8c671a1f8e0f36f423e56bf87c3c8d4c39a35aef9e746334ea2c20c9ff0f",
+        "5e7247fc2333e8c3e2daf804b89a6d5eb47a0446c1793fee60480e95198407b9"
+      ],
       "text": "I see Pocket",
       "source": "official"
     }

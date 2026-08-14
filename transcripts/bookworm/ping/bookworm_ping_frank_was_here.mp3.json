@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "53023758eb324681672909f24f2c3875d7ae6161be2ad927726de6356f9f88b7",
+      "sha256": [
+        "53023758eb324681672909f24f2c3875d7ae6161be2ad927726de6356f9f88b7"
+      ],
       "text": "Victor was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

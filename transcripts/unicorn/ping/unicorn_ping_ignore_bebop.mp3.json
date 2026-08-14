@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_ignore_bebop.mp3",
   "revisions": [
     {
-      "sha256": "f523ec08b177e5ec397a00468129ad455acc55a8cc32b9156183565863e92576",
+      "sha256": [
+        "f523ec08b177e5ec397a00468129ad455acc55a8cc32b9156183565863e92576"
+      ],
       "text": "Ignore Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

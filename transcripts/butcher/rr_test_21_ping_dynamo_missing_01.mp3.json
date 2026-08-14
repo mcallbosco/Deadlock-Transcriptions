@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6b83b71912cc33b6fc297ec0d548ab59ca1d15224d3ef872475cc0834da2a090",
-      "text": "Dynamo is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ad66c00520bf4ec1a63ab8957a61700e7497dae77debaa711fae19111b8785e",
-      "text": "Dynamo is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11b4823a1e61d9343a9420e47118add6978bc519a8cdc127684167875edb43de",
+      "sha256": [
+        "11b4823a1e61d9343a9420e47118add6978bc519a8cdc127684167875edb43de",
+        "3ad66c00520bf4ec1a63ab8957a61700e7497dae77debaa711fae19111b8785e",
+        "6b83b71912cc33b6fc297ec0d548ab59ca1d15224d3ef872475cc0834da2a090"
+      ],
       "text": "Dynamo is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

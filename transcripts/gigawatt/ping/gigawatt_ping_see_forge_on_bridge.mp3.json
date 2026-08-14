@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_forge_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "1fd416a8f35405844babbe48bff4dc960cf72c0ef35ecddda9fdb89b1b567105",
+      "sha256": [
+        "1fd416a8f35405844babbe48bff4dc960cf72c0ef35ecddda9fdb89b1b567105",
+        "f209b774891092bbb4c72e78f286a270fd2a28af6446fdf47865723c8f39d774"
+      ],
       "text": "The base is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f209b774891092bbb4c72e78f286a270fd2a28af6446fdf47865723c8f39d774",
-      "text": "The base is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e93e116e819b88530c8b7f8f4b442ec401acc421338d1edbcbccfc3bc7e5971",
+      "sha256": [
+        "6e93e116e819b88530c8b7f8f4b442ec401acc421338d1edbcbccfc3bc7e5971"
+      ],
       "text": "McGinnis's on the bridge!",
       "source": "official"
     }

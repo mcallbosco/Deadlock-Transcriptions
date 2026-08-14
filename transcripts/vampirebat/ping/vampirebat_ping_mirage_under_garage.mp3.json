@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "cf8cad51b2d45230636d9e8a172c7b25895cfff9c2330038789d0931bc4ca027",
+      "sha256": [
+        "cf8cad51b2d45230636d9e8a172c7b25895cfff9c2330038789d0931bc4ca027"
+      ],
       "text": "Garage is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6186037e138dce2bb579d188fe2b2e424c0dc3c816986dbaeebf5b01966cce30",
+      "sha256": [
+        "6186037e138dce2bb579d188fe2b2e424c0dc3c816986dbaeebf5b01966cce30"
+      ],
       "text": "Mirage's under the garage!",
       "source": "official"
     }

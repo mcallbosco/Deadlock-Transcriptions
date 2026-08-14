@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "1dcfd566f5c0dbf433a1995c85da311aa4f3ec2e3a620c7d01d1886b57136994",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "daaff7d9f6115124b7fe76cffecab1e4357b34708ccab3889c1b86a897090b7e",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77ab112369b550d79e47edba6757f34791756003e6dc510eb701b566594b259c",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1e9f04008695ff3f67eb0b8535c2cd169608468921d4141b485fa3def54f12c",
+      "sha256": [
+        "1dcfd566f5c0dbf433a1995c85da311aa4f3ec2e3a620c7d01d1886b57136994",
+        "77ab112369b550d79e47edba6757f34791756003e6dc510eb701b566594b259c",
+        "c1e9f04008695ff3f67eb0b8535c2cd169608468921d4141b485fa3def54f12c",
+        "daaff7d9f6115124b7fe76cffecab1e4357b34708ccab3889c1b86a897090b7e"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

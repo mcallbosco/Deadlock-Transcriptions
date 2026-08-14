@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "16f38641135a42052000766e660bcf533f25ceb8827b0a528d0254d3baca5c12",
+      "sha256": [
+        "16f38641135a42052000766e660bcf533f25ceb8827b0a528d0254d3baca5c12"
+      ],
       "text": "Confinus is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "57f9c8dde12b75a712f34bd98ba3720783c58c525ee165931ab625d6f9dbb3c8",
+      "sha256": [
+        "57f9c8dde12b75a712f34bd98ba3720783c58c525ee165931ab625d6f9dbb3c8"
+      ],
       "text": "Infernus's missing.",
       "source": "official"
     }

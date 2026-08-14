@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "f01a849ba69a21c89d9a170d7d9acce0ac23ac72e188bdba88ee04358043138a",
+      "sha256": [
+        "f01a849ba69a21c89d9a170d7d9acce0ac23ac72e188bdba88ee04358043138a"
+      ],
       "text": "I'm with you, Chef.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "54bd42589b6d823cab6b75f4c14636f39f0825d801537c63be60d7f12c085b03",
+      "sha256": [
+        "54bd42589b6d823cab6b75f4c14636f39f0825d801537c63be60d7f12c085b03"
+      ],
       "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_careful_inferno_02.mp3",
   "revisions": [
     {
-      "sha256": "9ed6387b469e8096695ac72e4506df7eb8a5f03bb7815cd0f2594b4e2a6499d1",
+      "sha256": [
+        "50176f3629bba2bcc7dc4d6342912b553fdd58a6f0021cdf818019d24b9e7c4b",
+        "9ed6387b469e8096695ac72e4506df7eb8a5f03bb7815cd0f2594b4e2a6499d1"
+      ],
       "text": "Careful, Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50176f3629bba2bcc7dc4d6342912b553fdd58a6f0021cdf818019d24b9e7c4b",
-      "text": "Careful, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

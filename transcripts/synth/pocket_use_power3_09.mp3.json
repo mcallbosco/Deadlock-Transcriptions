@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_use_power3_09.mp3",
   "revisions": [
     {
-      "sha256": "e27f1125021ef39533708c8c94b3d15630ee1584707b9876e0786e9e54a44b7a",
-      "text": "They can't hurt me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1f30ac310c284928b57213b8b36197184ed2f85411e4ca0724f6f02293b2a55",
+      "sha256": [
+        "e1f30ac310c284928b57213b8b36197184ed2f85411e4ca0724f6f02293b2a55",
+        "e27f1125021ef39533708c8c94b3d15630ee1584707b9876e0786e9e54a44b7a"
+      ],
       "text": "They can't hurt me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

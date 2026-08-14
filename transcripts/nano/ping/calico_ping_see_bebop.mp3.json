@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_bebop.mp3",
   "revisions": [
     {
-      "sha256": "87308ee5976db12f54d8b2e60ca93fcc018f601e77cab6a32dd2eb8fb25413a1",
-      "text": "I see people!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54d7cc4b8bffe13d5e745c6d8ccee5a5f6c039ff8a938ffd6e17d296dd53caa2",
+      "sha256": [
+        "54d7cc4b8bffe13d5e745c6d8ccee5a5f6c039ff8a938ffd6e17d296dd53caa2",
+        "87308ee5976db12f54d8b2e60ca93fcc018f601e77cab6a32dd2eb8fb25413a1"
+      ],
       "text": "I see people!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

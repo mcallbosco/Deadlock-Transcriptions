@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "ca38dbf37d2bbd4f36dc83bc9ef2240eed1bc09af1bfde570901c5d24db7efd7",
+      "sha256": [
+        "ca38dbf37d2bbd4f36dc83bc9ef2240eed1bc09af1bfde570901c5d24db7efd7"
+      ],
       "text": "グレードは上です。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b14dcbdf8217199c79d854ad3484237f0eb63fa0af04306607994bc9ae5ef400",
+      "sha256": [
+        "b14dcbdf8217199c79d854ad3484237f0eb63fa0af04306607994bc9ae5ef400"
+      ],
       "text": "刀が血を求めている。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a1eec3006723011f5486c450759a780c778c42bc76368f8e325c686ed0d27429",
+      "sha256": [
+        "a1eec3006723011f5486c450759a780c778c42bc76368f8e325c686ed0d27429"
+      ],
       "text": "The blade hungers.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "00d8bd61a426e699a4de239288c84c49d411aff7c5fd1d18b426ad85beef7101",
-      "text": "Sinclair was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c04114ba8978bd1f17a7e7bd07f4467c6bceb98aad9bf9643a14b55183765998",
+      "sha256": [
+        "00d8bd61a426e699a4de239288c84c49d411aff7c5fd1d18b426ad85beef7101",
+        "c04114ba8978bd1f17a7e7bd07f4467c6bceb98aad9bf9643a14b55183765998"
+      ],
       "text": "Sinclair was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

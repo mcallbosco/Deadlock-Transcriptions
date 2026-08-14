@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_atlas_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "7db9e10ac5d16e06cd15cd91403f86c519a13ac495e0d23788209453b1a5286f",
+      "sha256": [
+        "7db9e10ac5d16e06cd15cd91403f86c519a13ac495e0d23788209453b1a5286f"
+      ],
       "text": "Game of Smith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "81651daf5e99cf032978dcfb5faa74daac88b1be80a7ec5420698d845fe62b3a",
+      "sha256": [
+        "81651daf5e99cf032978dcfb5faa74daac88b1be80a7ec5420698d845fe62b3a",
+        "c6874defc8b1b73c441cbc6dccc34f636867d7c052b1c3227df8038b9e4a99c4"
+      ],
       "text": "Abrams is mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c6874defc8b1b73c441cbc6dccc34f636867d7c052b1c3227df8038b9e4a99c4",
-      "text": "Abrams is mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4707eb0ab730fe210d2f86e860a9635f95e1896a27317a02373245d07491efc1",
+      "sha256": [
+        "4707eb0ab730fe210d2f86e860a9635f95e1896a27317a02373245d07491efc1"
+      ],
       "text": "Abrams's in mid!",
       "source": "official"
     }

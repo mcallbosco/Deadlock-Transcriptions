@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_happy_03.mp3",
   "revisions": [
     {
-      "sha256": "561b9b866ac4303ea19ef1948fef398b4455971996018bcd718acb3e924b8adf",
+      "sha256": [
+        "561b9b866ac4303ea19ef1948fef398b4455971996018bcd718acb3e924b8adf"
+      ],
       "text": "Tractor will belong to us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5d4b4b42a850d9274767eb804983294e5975cf514296af8ba81cc516cfa67e3f",
+      "sha256": [
+        "5d4b4b42a850d9274767eb804983294e5975cf514296af8ba81cc516cfa67e3f"
+      ],
       "text": "Cracks that will belong to us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9fe285f3310b978577ab83033b1a87d9070284377d879938837fc09fa5d869ed",
+      "sha256": [
+        "9fe285f3310b978577ab83033b1a87d9070284377d879938837fc09fa5d869ed"
+      ],
       "text": "Cracks will belong to us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_saw_krill.mp3",
   "revisions": [
     {
-      "sha256": "c504f2e24b8d94c303e93c6180465a038684df95f85361379064b2a0371b3c73",
+      "sha256": [
+        "c504f2e24b8d94c303e93c6180465a038684df95f85361379064b2a0371b3c73"
+      ],
       "text": "I saw Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

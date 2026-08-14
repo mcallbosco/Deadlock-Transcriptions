@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_right_back_01.mp3",
   "revisions": [
     {
-      "sha256": "e889f2191c959167f0569d7e8138f67f20e3768b8da9c3c0822d3c5470dfe5a3",
-      "text": "I'll be right back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b090d4871ddb3293f4be49e76f8fd09bb6650e208c818bd10e1c3aa2b9964263",
+      "sha256": [
+        "b090d4871ddb3293f4be49e76f8fd09bb6650e208c818bd10e1c3aa2b9964263",
+        "e889f2191c959167f0569d7e8138f67f20e3768b8da9c3c0822d3c5470dfe5a3"
+      ],
       "text": "I'll be right back",
       "source": "official"
     }

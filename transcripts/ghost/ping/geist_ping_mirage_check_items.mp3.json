@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_mirage_check_items.mp3",
   "revisions": [
     {
-      "sha256": "a433eb1a16048901e2c3ab7d23292a3c16334c2be62a84530ecc3fca0dbc0811",
-      "text": "Check out what Mirage bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e53098478fc0e72329a9646713e86a5840c06c6e71ed121f8218f9465372e76",
+      "sha256": [
+        "0e53098478fc0e72329a9646713e86a5840c06c6e71ed121f8218f9465372e76",
+        "a433eb1a16048901e2c3ab7d23292a3c16334c2be62a84530ecc3fca0dbc0811"
+      ],
       "text": "Check out what Mirage bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

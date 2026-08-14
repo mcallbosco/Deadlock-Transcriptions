@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_tengu.mp3",
   "revisions": [
     {
-      "sha256": "0919bc8f73a4a579e82f916727ed82d616b23f94e860522e6c462b892d08448f",
-      "text": "I saw Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "845648c7a2bb8f35ee4a461226b44dc06b75101ed86abee02b8d143b98659ff3",
-      "text": "I saw Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c165634b21b51f77e7877bbbc246a6d7db5b70eeae32d040206500d0845f952a",
+      "sha256": [
+        "0919bc8f73a4a579e82f916727ed82d616b23f94e860522e6c462b892d08448f",
+        "845648c7a2bb8f35ee4a461226b44dc06b75101ed86abee02b8d143b98659ff3",
+        "c165634b21b51f77e7877bbbc246a6d7db5b70eeae32d040206500d0845f952a"
+      ],
       "text": "I saw Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

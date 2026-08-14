@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_push_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "fc37bd21e037c8ece764ac0f255cb889b50c14eb74a3a58bc836e6b12dd3a51a",
-      "text": "Let's push purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52fe2f7231790c3ad27d6168a9d665fb3a965dfe27a98d1b57e4e4e5c8506744",
+      "sha256": [
+        "52fe2f7231790c3ad27d6168a9d665fb3a965dfe27a98d1b57e4e4e5c8506744",
+        "fc37bd21e037c8ece764ac0f255cb889b50c14eb74a3a58bc836e6b12dd3a51a"
+      ],
       "text": "Let's push purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

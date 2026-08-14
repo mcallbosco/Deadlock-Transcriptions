@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_atlas_02.mp3",
   "revisions": [
     {
-      "sha256": "2b874f313dbe6bd63d6c776d049d6429d193b64a9eedffdeb7e678425f8b2ea0",
+      "sha256": [
+        "2b874f313dbe6bd63d6c776d049d6429d193b64a9eedffdeb7e678425f8b2ea0"
+      ],
       "text": "Careful out there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "866e3ce9d0ca5820e4e285977c638d296eac120cb50767027785faafb3dfa217",
-      "text": "Careful, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db3778126bfa2180ef327412fd6ea72e26f94fcc4982bce1df3744c8c0b77627",
-      "text": "Careful, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a0cd4ab8ff60b063fba02307687008986d4cf9d77643fb26c5022297c055b44",
+      "sha256": [
+        "7a0cd4ab8ff60b063fba02307687008986d4cf9d77643fb26c5022297c055b44",
+        "866e3ce9d0ca5820e4e285977c638d296eac120cb50767027785faafb3dfa217",
+        "db3778126bfa2180ef327412fd6ea72e26f94fcc4982bce1df3744c8c0b77627"
+      ],
       "text": "Careful, Abrams.",
       "source": "official"
     }

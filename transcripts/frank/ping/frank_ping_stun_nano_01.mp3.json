@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_stun_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "9105bf35b90e2d0c8a0d0f1c78176a2a92fc9d57abfabdbff360873c8ded5bbb",
-      "text": "Stun Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d8ed0bb280b41bfec4a492f54a3e2c260e29b5a2a3dc7ab737723cea2028c28",
+      "sha256": [
+        "0d8ed0bb280b41bfec4a492f54a3e2c260e29b5a2a3dc7ab737723cea2028c28",
+        "9105bf35b90e2d0c8a0d0f1c78176a2a92fc9d57abfabdbff360873c8ded5bbb"
+      ],
       "text": "Stun Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

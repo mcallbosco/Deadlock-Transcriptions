@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_engineer.mp3",
   "revisions": [
     {
-      "sha256": "5683d8f680e3c212eb5f45b10ed221c6c61a6b024bd554cc344b659b0b7bc3f6",
-      "text": "I see Engineer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13716ee22b5d7c2dbd3b0600cf1755d9557bcafc1b847d32f1fa6c79cc8d6c18",
-      "text": "I see Engineer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7586aacbd1cdd63a5b334e4d86aabcf6c98bd65e6cd68dd8e2e04e55d2fc0095",
+      "sha256": [
+        "13716ee22b5d7c2dbd3b0600cf1755d9557bcafc1b847d32f1fa6c79cc8d6c18",
+        "5683d8f680e3c212eb5f45b10ed221c6c61a6b024bd554cc344b659b0b7bc3f6",
+        "7586aacbd1cdd63a5b334e4d86aabcf6c98bd65e6cd68dd8e2e04e55d2fc0095"
+      ],
       "text": "I see Engineer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

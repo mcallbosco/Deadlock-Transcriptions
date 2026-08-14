@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_synth.mp3",
   "revisions": [
     {
-      "sha256": "2e58b88f3adfb4f83e3fc3ab947376234e90630897ff0db74122fc6b08a50a91",
-      "text": "Well done, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0cc5ccb859c57e3d3d49e4ce55d6cdd9e2178f9f7725ce8be3ea81f258fda96",
+      "sha256": [
+        "2e58b88f3adfb4f83e3fc3ab947376234e90630897ff0db74122fc6b08a50a91",
+        "f0cc5ccb859c57e3d3d49e4ce55d6cdd9e2178f9f7725ce8be3ea81f258fda96"
+      ],
       "text": "Well done Pocket",
       "source": "official"
     }

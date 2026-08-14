@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "7808e47175194cf49594eea3b03410bb1aa52e56a3a1e4d917e2c9dad7c9abeb",
-      "text": "Krill is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "acbd02a7d7d8bd9a5a576338f4c98b7bf228501a25f62206365c0d8ba529f58c",
-      "text": "Krill is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cfc3c54faf2f5327167766610e73547195c323b6b4d3e9e3f221c529c6516b7",
+      "sha256": [
+        "7808e47175194cf49594eea3b03410bb1aa52e56a3a1e4d917e2c9dad7c9abeb",
+        "9cfc3c54faf2f5327167766610e73547195c323b6b4d3e9e3f221c529c6516b7",
+        "acbd02a7d7d8bd9a5a576338f4c98b7bf228501a25f62206365c0d8ba529f58c"
+      ],
       "text": "Krill is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

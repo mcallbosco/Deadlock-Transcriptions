@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "e6e0602f39bb779a11da4a850656eb5fb3101d8b0e8ef8271813903c47f0867e",
+      "sha256": [
+        "e6e0602f39bb779a11da4a850656eb5fb3101d8b0e8ef8271813903c47f0867e"
+      ],
       "text": "This in blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5e465d67a1872eb21a7539be88fba3c7ab9bf04a708dc766d630eaea5974cf38",
+      "sha256": [
+        "5e465d67a1872eb21a7539be88fba3c7ab9bf04a708dc766d630eaea5974cf38"
+      ],
       "text": "Missing blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

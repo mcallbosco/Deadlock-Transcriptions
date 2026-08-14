@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "20d88bf52b786493261ef73cc3b920eee885c905242ac5286157fc90f539b24e",
-      "text": "Pocket is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31e255f23f7ce5e66c81821b546d662bef27c6ee7b010b8d5f26632d158908cf",
-      "text": "Pocket is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc845c6951b1a0c805afda32c0e0263e19213b71bd59ea80f468b692df583683",
+      "sha256": [
+        "20d88bf52b786493261ef73cc3b920eee885c905242ac5286157fc90f539b24e",
+        "31e255f23f7ce5e66c81821b546d662bef27c6ee7b010b8d5f26632d158908cf",
+        "cc845c6951b1a0c805afda32c0e0263e19213b71bd59ea80f468b692df583683"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

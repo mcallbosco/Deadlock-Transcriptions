@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_can_heal_ivy.mp3",
   "revisions": [
     {
-      "sha256": "339ea5a0afb170469bb969c4e0a45623683e9240bfd8805677ef492665174264",
+      "sha256": [
+        "339ea5a0afb170469bb969c4e0a45623683e9240bfd8805677ef492665174264",
+        "5be436c0c3afd8e22cfb32dc8c40bbd1c7242acb544b09150ccccc68d845d0d3"
+      ],
       "text": "Ivy, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5be436c0c3afd8e22cfb32dc8c40bbd1c7242acb544b09150ccccc68d845d0d3",
-      "text": "Ivy, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

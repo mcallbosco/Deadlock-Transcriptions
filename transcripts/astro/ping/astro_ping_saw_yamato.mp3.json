@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "699888e2634606af1a64f27a318fbaab4e7dc71eee6a8163885ac3aeb19608db",
-      "text": "I saw Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad7a2f684eb627d610844a86a1e11874461c50cf3a94e01e1994869fbf444a16",
+      "sha256": [
+        "699888e2634606af1a64f27a318fbaab4e7dc71eee6a8163885ac3aeb19608db",
+        "ad7a2f684eb627d610844a86a1e11874461c50cf3a94e01e1994869fbf444a16"
+      ],
       "text": "I saw Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

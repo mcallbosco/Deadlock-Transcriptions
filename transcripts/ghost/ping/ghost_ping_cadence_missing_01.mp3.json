@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_cadence_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "2eeee6cfc5561483ad4ae5311853f61819692af22d9d84eabea96bc67a466778",
+      "sha256": [
+        "2eeee6cfc5561483ad4ae5311853f61819692af22d9d84eabea96bc67a466778"
+      ],
       "text": "Get up this meeting.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

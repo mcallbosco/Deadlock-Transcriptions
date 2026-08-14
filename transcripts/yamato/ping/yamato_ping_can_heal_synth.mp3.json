@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_synth.mp3",
   "revisions": [
     {
-      "sha256": "5e7d8fcc92642ca21021deef9b8532d806c279667b2306cafeb8a51bfc2499d9",
+      "sha256": [
+        "5e7d8fcc92642ca21021deef9b8532d806c279667b2306cafeb8a51bfc2499d9",
+        "69ae83445799b720b1bb6f2523019585be2ec8e3421e6742f44e5a8c030de063"
+      ],
       "text": "Pocket, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69ae83445799b720b1bb6f2523019585be2ec8e3421e6742f44e5a8c030de063",
-      "text": "Pocket, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20f78343f45c72b8343425f8f18d3e970deafd8300f715b97b9624cd8cd4b7ca",
+      "sha256": [
+        "20f78343f45c72b8343425f8f18d3e970deafd8300f715b97b9624cd8cd4b7ca"
+      ],
       "text": "Pocket, I can heal you!",
       "source": "official"
     }

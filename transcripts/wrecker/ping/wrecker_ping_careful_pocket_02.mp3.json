@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_pocket_02.mp3",
   "revisions": [
     {
-      "sha256": "be2d7a26a3ab9bd9392a37021b215dd8562f3c41351ba546c404b77ad2ea9312",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0929b5e381916f38a35a9bd28f7dd715030567bedafc9320d72f4cc908862ef0",
+      "sha256": [
+        "0929b5e381916f38a35a9bd28f7dd715030567bedafc9320d72f4cc908862ef0",
+        "be2d7a26a3ab9bd9392a37021b215dd8562f3c41351ba546c404b77ad2ea9312"
+      ],
       "text": "Careful, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

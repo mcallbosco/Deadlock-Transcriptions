@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "86480776ce7ed14690c51a6505ddbdfc1825ec26f481c921bb2cf7cdfd0c5304",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e98b74c85b055c9da8cabe401ba542b3c22f4d85da8adfa9328f6f15c61fed35",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03512738a4b13e4e00176deb8b9a97c661852bc2fc03c96dff8763c36ed89a01",
+      "sha256": [
+        "03512738a4b13e4e00176deb8b9a97c661852bc2fc03c96dff8763c36ed89a01",
+        "86480776ce7ed14690c51a6505ddbdfc1825ec26f481c921bb2cf7cdfd0c5304",
+        "e98b74c85b055c9da8cabe401ba542b3c22f4d85da8adfa9328f6f15c61fed35"
+      ],
       "text": "Careful, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,20 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_astro_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "2be146096d68477f3b5169e3bceba7335d16d8e7d80047a79de6f9938560f152",
+      "sha256": [
+        "2be146096d68477f3b5169e3bceba7335d16d8e7d80047a79de6f9938560f152"
+      ],
       "text": "Colonies on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c6be3915437cce8014796b45485255661b6939cd6bb94fe5edb803326917e2d1",
-      "text": "Holliday's on the roof!",
-      "source": "manual"
-    },
-    {
-      "sha256": "23136e67a0366c6b353329676ad9d78173e07b75b8d7562a50439f85b70bdb17",
+      "sha256": [
+        "23136e67a0366c6b353329676ad9d78173e07b75b8d7562a50439f85b70bdb17",
+        "c6be3915437cce8014796b45485255661b6939cd6bb94fe5edb803326917e2d1"
+      ],
       "text": "Holliday's on the roof!",
       "source": "official"
     }

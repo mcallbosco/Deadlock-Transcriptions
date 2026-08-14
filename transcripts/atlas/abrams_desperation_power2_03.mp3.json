@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_desperation_power2_03.mp3",
   "revisions": [
     {
-      "sha256": "82dc30f5a9770812c66cd235fab86091c289ec32a27c12d741e34d8a5ca5b20d",
+      "sha256": [
+        "1f62974628cd0ef7cfd8810c00d195f4e499f55467faceb24c15e71a31256c0a",
+        "82dc30f5a9770812c66cd235fab86091c289ec32a27c12d741e34d8a5ca5b20d",
+        "f82f1de895d1860cbac662402cc203424b036801e66659aa28dd180143806006"
+      ],
       "text": "I'm not dead yet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f62974628cd0ef7cfd8810c00d195f4e499f55467faceb24c15e71a31256c0a",
-      "text": "I'm not dead yet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f82f1de895d1860cbac662402cc203424b036801e66659aa28dd180143806006",
-      "text": "I'm not dead yet!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

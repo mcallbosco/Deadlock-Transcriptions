@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_geist_on_top_of_garage_1.mp3",
   "revisions": [
     {
-      "sha256": "a004bc88d5e4ea265ffc893e33fa07167793b3cd29984feb76353c22d56bdaf7",
+      "sha256": [
+        "31e18ba9de7f0f283f34cb609ad509d2ebb939f4c339909385b24e599a319f1b",
+        "a004bc88d5e4ea265ffc893e33fa07167793b3cd29984feb76353c22d56bdaf7"
+      ],
       "text": "guys on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31e18ba9de7f0f283f34cb609ad509d2ebb939f4c339909385b24e599a319f1b",
-      "text": "Guys on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

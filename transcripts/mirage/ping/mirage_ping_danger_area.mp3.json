@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "ac6ffb7829fc1030deee9ac59e3f0910f0f2d8df4cb253058c85e8e0e5003131",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "781579d52857949f9c11903d1a96eb0f76a5586145887005c4de2ce30a0118c1",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4eeec69abf456e56e788377613ed285a60e4741ba58209152340d7818ca7cd53",
+      "sha256": [
+        "4eeec69abf456e56e788377613ed285a60e4741ba58209152340d7818ca7cd53",
+        "781579d52857949f9c11903d1a96eb0f76a5586145887005c4de2ce30a0118c1",
+        "ac6ffb7829fc1030deee9ac59e3f0910f0f2d8df4cb253058c85e8e0e5003131"
+      ],
       "text": "It's dangerous here",
       "source": "official"
     }

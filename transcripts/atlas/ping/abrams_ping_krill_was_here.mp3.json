@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_krill_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c6e0657b38677eb122aabee67cf86d6c9f4d28b6fb86644d3f41aa1cc277e601",
+      "sha256": [
+        "c6e0657b38677eb122aabee67cf86d6c9f4d28b6fb86644d3f41aa1cc277e601"
+      ],
       "text": "Grill was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3425059d7aace51ce7bd5936f64d1ae3990d721fb8b05e8a3d7477484dcff040",
-      "text": "Krill was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2eff0a91b6b55e06980edd5e03a384b41de8cf0edb50b43579f7b605104e6ad9",
+      "sha256": [
+        "2eff0a91b6b55e06980edd5e03a384b41de8cf0edb50b43579f7b605104e6ad9",
+        "3425059d7aace51ce7bd5936f64d1ae3990d721fb8b05e8a3d7477484dcff040"
+      ],
       "text": "Krill was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

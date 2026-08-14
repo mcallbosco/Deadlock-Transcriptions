@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/pocket_select_01.mp3",
   "revisions": [
     {
-      "sha256": "c3f28d7ecb0fc3140c5c8024688aac46b15b4e0ffd4b53ffe5b5a8f7b9be7890",
-      "text": "No more hiding.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "334c4cb44ca37102384030b11d0ca5e21250d4bc4f67e4278a4dff372b39d3b9",
+      "sha256": [
+        "334c4cb44ca37102384030b11d0ca5e21250d4bc4f67e4278a4dff372b39d3b9",
+        "c3f28d7ecb0fc3140c5c8024688aac46b15b4e0ffd4b53ffe5b5a8f7b9be7890"
+      ],
       "text": "No more hiding.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

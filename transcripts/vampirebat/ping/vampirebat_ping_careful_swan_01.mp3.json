@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_careful_swan_01.mp3",
   "revisions": [
     {
-      "sha256": "d125a20f438c980411802909db8ee4f31da01f373fa714c783295ea1ef4e9326",
-      "text": "Careful, Swan.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82a73c3ddc2037d4c38dbdea68b5a8273332d1908380ac5ba059816881087435",
+      "sha256": [
+        "82a73c3ddc2037d4c38dbdea68b5a8273332d1908380ac5ba059816881087435",
+        "d125a20f438c980411802909db8ee4f31da01f373fa714c783295ea1ef4e9326"
+      ],
       "text": "Careful, Swan.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

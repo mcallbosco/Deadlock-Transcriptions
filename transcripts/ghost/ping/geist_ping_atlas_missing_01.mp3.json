@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "35d6b7edc0d36fc29475bd0b7f72b344dc037eb49c2e0762e56f3635d4ddee30",
-      "text": "Ever missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86fab0acdd85c0e033453a3366c7818c10a9166cc24f7ba735d98a7d5888162d",
+      "sha256": [
+        "35d6b7edc0d36fc29475bd0b7f72b344dc037eb49c2e0762e56f3635d4ddee30",
+        "86fab0acdd85c0e033453a3366c7818c10a9166cc24f7ba735d98a7d5888162d"
+      ],
       "text": "Ever missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

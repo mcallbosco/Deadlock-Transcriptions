@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f7fa72afe3afa2d0ddc854c6b9f150dafb7f8c82bf6581b178a62d9a3b64f376",
-      "text": "Chrono is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71bde979a784d68e671fa54cf429ddb4937c6f79247d39776946c0526e626ffc",
+      "sha256": [
+        "71bde979a784d68e671fa54cf429ddb4937c6f79247d39776946c0526e626ffc",
+        "f7fa72afe3afa2d0ddc854c6b9f150dafb7f8c82bf6581b178a62d9a3b64f376"
+      ],
       "text": "Chrono is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

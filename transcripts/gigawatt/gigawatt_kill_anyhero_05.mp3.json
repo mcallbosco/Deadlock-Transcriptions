@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_anyhero_05.mp3",
   "revisions": [
     {
-      "sha256": "4ecc89060802b3d354d6f7c267eb8d1cd83d0d1fdb075a704be9ea619cbff1c2",
-      "text": "Fall.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8958e2da568f05626613e060607cb655aa4b5ead551d3eb4833fdc0d3b4db216",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16f9a72da7b9e8ac5afb4b7bd272006f9a5b8ed58753984d4c465dfc04b78afc",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc6757d258509f22653f1a99ed8854e8d0357b0f0eaf22b6acb6879cef9fffa8",
+      "sha256": [
+        "4ecc89060802b3d354d6f7c267eb8d1cd83d0d1fdb075a704be9ea619cbff1c2",
+        "fc6757d258509f22653f1a99ed8854e8d0357b0f0eaf22b6acb6879cef9fffa8"
+      ],
       "text": "FALL!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "16f9a72da7b9e8ac5afb4b7bd272006f9a5b8ed58753984d4c465dfc04b78afc",
+        "8958e2da568f05626613e060607cb655aa4b5ead551d3eb4833fdc0d3b4db216"
+      ],
+      "text": "",
+      "source": "skippednonspeech",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

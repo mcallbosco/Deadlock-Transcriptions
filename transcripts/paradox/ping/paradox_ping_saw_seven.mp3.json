@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_saw_seven.mp3",
   "revisions": [
     {
-      "sha256": "39d3a280c34d44ae15d950944060c0295a25047fafc1e91f2b6712c18adf5861",
+      "sha256": [
+        "39d3a280c34d44ae15d950944060c0295a25047fafc1e91f2b6712c18adf5861",
+        "8dd732065b61a2e3e8f6f4a649270838b3d2a32fcdf5f5bde32270ef474cf4b0"
+      ],
       "text": "I saw Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8dd732065b61a2e3e8f6f4a649270838b3d2a32fcdf5f5bde32270ef474cf4b0",
-      "text": "I saw seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

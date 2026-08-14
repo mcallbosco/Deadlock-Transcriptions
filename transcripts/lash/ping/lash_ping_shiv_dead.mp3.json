@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_shiv_dead.mp3",
   "revisions": [
     {
-      "sha256": "72c8db879c4a12a0340bc48704c26a0ab1d3f3051193a4911847941786d08c88",
-      "text": "Ship is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30c05fc9f1139af56e515f86e62b490cce6e66354ce611f01780b9cd8179385f",
-      "text": "Ship is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f52eaf0eb7d528593af39940cf9773693edab85c24c2c83b4d6e18d7a5c87981",
+      "sha256": [
+        "30c05fc9f1139af56e515f86e62b490cce6e66354ce611f01780b9cd8179385f",
+        "72c8db879c4a12a0340bc48704c26a0ab1d3f3051193a4911847941786d08c88",
+        "f52eaf0eb7d528593af39940cf9773693edab85c24c2c83b4d6e18d7a5c87981"
+      ],
       "text": "Ship is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

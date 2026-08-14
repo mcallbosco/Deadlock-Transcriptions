@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "c9235fcb6c503e0eab48cb775a768061fdb35e54d12487f2261fd4a7aa7f2597",
+      "sha256": [
+        "c9235fcb6c503e0eab48cb775a768061fdb35e54d12487f2261fd4a7aa7f2597",
+        "d7c7bfba22af1f08dd2d991dbfb505eb894211622c09c61ae5ffd265cb515e81"
+      ],
       "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7c7bfba22af1f08dd2d991dbfb505eb894211622c09c61ae5ffd265cb515e81",
-      "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_yamato_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "ed145a543ed48531ee5583937322356389f8f059c8fb935ff28531fffd8f5a96",
-      "text": "Yamato is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1fea20de659339d6a38840d376d6376e88279673736e017f3b2ff85fd5ecf97",
+      "sha256": [
+        "c1fea20de659339d6a38840d376d6376e88279673736e017f3b2ff85fd5ecf97",
+        "ed145a543ed48531ee5583937322356389f8f059c8fb935ff28531fffd8f5a96"
+      ],
       "text": "Yamato is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

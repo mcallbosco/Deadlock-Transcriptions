@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "473343b119c87c812be3e5ca82ac960cd95e38b5eca97d24819e5239eae00107",
+      "sha256": [
+        "473343b119c87c812be3e5ca82ac960cd95e38b5eca97d24819e5239eae00107"
+      ],
       "text": "All right, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ecfd92d2d950efa48be0f53b5a5bc5cbc2ed7f912b10c56098475f85c35c340",
+      "sha256": [
+        "0ecfd92d2d950efa48be0f53b5a5bc5cbc2ed7f912b10c56098475f85c35c340"
+      ],
       "text": "Mirage, I can heal you!",
       "source": "official"
     }

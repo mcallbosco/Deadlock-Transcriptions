@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a87a05386b9ef3b0bc6b3bbdf26d6e63eec82a0423ea4e27e3f70d646e132887",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be69dc6fcd378be0c6794d62a0c2eb885255c7a3987b797c821f7d23b6b9407a",
+      "sha256": [
+        "a87a05386b9ef3b0bc6b3bbdf26d6e63eec82a0423ea4e27e3f70d646e132887",
+        "be69dc6fcd378be0c6794d62a0c2eb885255c7a3987b797c821f7d23b6b9407a"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_can_heal_chrono.mp3",
   "revisions": [
     {
-      "sha256": "b6227b90d1a08249e2279adfdf477199b6f6bf4a9958cf61ebb75a44d8f623ef",
+      "sha256": [
+        "b6227b90d1a08249e2279adfdf477199b6f6bf4a9958cf61ebb75a44d8f623ef"
+      ],
       "text": "Paradox, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9c15dc61f6c444a4f5e1a68a5b6503b3958d56a7153ffb84b8056a956682ded5",
+      "sha256": [
+        "9c15dc61f6c444a4f5e1a68a5b6503b3958d56a7153ffb84b8056a956682ded5"
+      ],
       "text": "Paradox, I can heal you!",
       "source": "official"
     }

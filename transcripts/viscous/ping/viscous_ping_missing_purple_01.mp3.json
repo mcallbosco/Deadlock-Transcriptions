@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "ef7f8c40689db18e8d1d8818fb16f397fc9e1196d4e5c7e73ed7a3a3171304c4",
+      "sha256": [
+        "b2dbd9a04a2afbc496699c4dbca20b1ec56b5d4b1abd3c69ecd0de26ec2e4c63",
+        "ef7f8c40689db18e8d1d8818fb16f397fc9e1196d4e5c7e73ed7a3a3171304c4"
+      ],
       "text": "Missing purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2dbd9a04a2afbc496699c4dbca20b1ec56b5d4b1abd3c69ecd0de26ec2e4c63",
-      "text": "Missing purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

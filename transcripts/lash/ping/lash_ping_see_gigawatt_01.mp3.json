@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "d9b24a6d85dc077dc1b12742c1b73d521f4837cda25b6b6ba4da32ac978f43af",
-      "text": "I see Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd6f28e30778905202ccbbb084fb613e23e400addb45e7932120228633635135",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5ef7a97a4781cc4cee1fa9f235c0eeec3ff69f4b5d5a87dc73decafba9eee42",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9aaf201e295a01c0338f97c973910b974b019870f427b153ff28a6ca767b320",
+      "sha256": [
+        "cd6f28e30778905202ccbbb084fb613e23e400addb45e7932120228633635135",
+        "d5ef7a97a4781cc4cee1fa9f235c0eeec3ff69f4b5d5a87dc73decafba9eee42",
+        "d9b24a6d85dc077dc1b12742c1b73d521f4837cda25b6b6ba4da32ac978f43af",
+        "e9aaf201e295a01c0338f97c973910b974b019870f427b153ff28a6ca767b320"
+      ],
       "text": "I see Seven",
       "source": "official"
     }

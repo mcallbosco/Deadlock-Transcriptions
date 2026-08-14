@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_ignore_yamato.mp3",
   "revisions": [
     {
-      "sha256": "409e779c1e38ce8db2ce528360a11710cf9dc231558f62aa03615c75b02a4048",
+      "sha256": [
+        "409e779c1e38ce8db2ce528360a11710cf9dc231558f62aa03615c75b02a4048",
+        "ade27a382421df0e55e1435ec5a1599ef43975c6bdcf08c27afdd5c2b0c90a1a"
+      ],
       "text": "Ignore Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ade27a382421df0e55e1435ec5a1599ef43975c6bdcf08c27afdd5c2b0c90a1a",
-      "text": "Ignore Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

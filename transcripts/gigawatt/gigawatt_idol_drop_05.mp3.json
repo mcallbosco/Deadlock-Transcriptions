@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_idol_drop_05.mp3",
   "revisions": [
     {
-      "sha256": "ebc5871699951d661ecff17251add1f4e87f845cce5c5c7e3d0828772f1d47a9",
-      "text": "The idol will be here soon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a115c1ff4ba5055b3b67720337d53f7aa726075bc553875332ef8ce56bf0e52e",
+      "sha256": [
+        "a115c1ff4ba5055b3b67720337d53f7aa726075bc553875332ef8ce56bf0e52e",
+        "ebc5871699951d661ecff17251add1f4e87f845cce5c5c7e3d0828772f1d47a9"
+      ],
       "text": "The idol will be here soon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

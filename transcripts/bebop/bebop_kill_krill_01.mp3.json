@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_kill_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "cccece1fc0a88e53dc4755c26f9ed24240d3710d29b6e7c6c743286a1c2d8dc8",
+      "sha256": [
+        "cccece1fc0a88e53dc4755c26f9ed24240d3710d29b6e7c6c743286a1c2d8dc8"
+      ],
       "text": "Look at Mo and Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9dc4ff5e9a3c458252040eec987d74de09add902a983876329a56ef2baf14b17",
+      "sha256": [
+        "9dc4ff5e9a3c458252040eec987d74de09add902a983876329a56ef2baf14b17"
+      ],
       "text": "Took out Mo and Krill!",
       "source": "official"
     }

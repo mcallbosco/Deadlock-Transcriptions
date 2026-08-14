@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_frank_01.mp3",
   "revisions": [
     {
-      "sha256": "04c0fc739e374bf404fea5e212e94d43ead7f6db7dc9ad9e7197b4c56cd23b0c",
+      "sha256": [
+        "04c0fc739e374bf404fea5e212e94d43ead7f6db7dc9ad9e7197b4c56cd23b0c"
+      ],
       "text": "I see Frank!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e5b6d2cb59a15d187d3ecb7eb5e1335c0df1cf234134fbfe753ca031b146a5a9",
+      "sha256": [
+        "e5b6d2cb59a15d187d3ecb7eb5e1335c0df1cf234134fbfe753ca031b146a5a9"
+      ],
       "text": "I see Victor.",
       "source": "official"
     }

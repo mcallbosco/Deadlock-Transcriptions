@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_fairfax_was_here.mp3",
   "revisions": [
     {
-      "sha256": "cdf06f9dd955119fb173295ea414b61d92854ed9bd033f27b2c116e8aba62182",
+      "sha256": [
+        "cdf06f9dd955119fb173295ea414b61d92854ed9bd033f27b2c116e8aba62182"
+      ],
       "text": "Fairfax was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

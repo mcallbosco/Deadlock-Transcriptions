@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "787cda654ad39263a7a30f84bdb30a30bf42fda5ce77ebf9254582bfab915435",
+      "sha256": [
+        "787cda654ad39263a7a30f84bdb30a30bf42fda5ce77ebf9254582bfab915435"
+      ],
       "text": "How much is seven?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

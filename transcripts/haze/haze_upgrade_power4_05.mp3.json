@@ -1,41 +1,46 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_upgrade_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "bcfbab0daec757e79412e2e7017fb0ba9f12ca942ebc04453e8e9e01feb4d12d",
+      "sha256": [
+        "bcfbab0daec757e79412e2e7017fb0ba9f12ca942ebc04453e8e9e01feb4d12d"
+      ],
       "text": "Bliss, rain down on them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f8d986196dd89ab118f0342661afded9d65815c41f132def26263ff9574a0a5d",
+      "sha256": [
+        "7c555bae7e0f1fccdb9e1f632a22cc8e38d53a8b6477bb03c5140bd7ee63bdef",
+        "f8d986196dd89ab118f0342661afded9d65815c41f132def26263ff9574a0a5d"
+      ],
       "text": "Bullets will rain down on them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "1fa65bfe89b643836bfb7970afe007df583abbf02448281da7426695e00092f1",
+      "sha256": [
+        "1fa65bfe89b643836bfb7970afe007df583abbf02448281da7426695e00092f1"
+      ],
       "text": "Let's move rain down on them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "28451d996db0bd1f9bab8534e591a8afed2c16b7dcc8011533355fc0e9a682f2",
+      "sha256": [
+        "28451d996db0bd1f9bab8534e591a8afed2c16b7dcc8011533355fc0e9a682f2"
+      ],
       "text": "Let's pour rain down on them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dcaed635f13856dc81fb2406118aac21bae502417448c518ee2b5cc1fda081ab",
+      "sha256": [
+        "dcaed635f13856dc81fb2406118aac21bae502417448c518ee2b5cc1fda081ab"
+      ],
       "text": "Pulling full range on them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c555bae7e0f1fccdb9e1f632a22cc8e38d53a8b6477bb03c5140bd7ee63bdef",
-      "text": "Bullets will rain down on them.",
-      "source": "official"
     }
   ]
 }

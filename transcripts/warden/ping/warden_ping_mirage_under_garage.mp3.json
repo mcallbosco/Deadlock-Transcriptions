@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "0a3f75be961055544219e7a537b43369dcbc7442c3a473ac81dad78c86a1e8ef",
+      "sha256": [
+        "0a3f75be961055544219e7a537b43369dcbc7442c3a473ac81dad78c86a1e8ef",
+        "561b13af694485cf67f8a23abbaac6c8b89e6cfc03af39a0c05cde7787937129",
+        "fee4e1466a268461a76e49950c84361c684cb82885ca8ce074837d20937dc9e7"
+      ],
       "text": "Mirage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fee4e1466a268461a76e49950c84361c684cb82885ca8ce074837d20937dc9e7",
-      "text": "Mirage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "561b13af694485cf67f8a23abbaac6c8b89e6cfc03af39a0c05cde7787937129",
-      "text": "Mirage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "248ed4f0767f1702bb6b9dc0920daa5bdbaaf05cce29f731c0ce1290bf38aaa4",
+      "sha256": [
+        "248ed4f0767f1702bb6b9dc0920daa5bdbaaf05cce29f731c0ce1290bf38aaa4"
+      ],
       "text": "Mirage's under the garage!",
       "source": "official"
     }

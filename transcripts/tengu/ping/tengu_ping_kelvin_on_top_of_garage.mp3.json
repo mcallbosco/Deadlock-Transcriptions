@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_kelvin_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "f79d8292b1d45bcb0401820440c126de1f8b7207fb5978f142f6c6dc97e60e37",
+      "sha256": [
+        "f79d8292b1d45bcb0401820440c126de1f8b7207fb5978f142f6c6dc97e60e37"
+      ],
       "text": "Cow's on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "44ad351f16cd7a454ac8a8a94fa288c6b0a477c479f10db3440f2e332f2b81ba",
+      "sha256": [
+        "44ad351f16cd7a454ac8a8a94fa288c6b0a477c479f10db3440f2e332f2b81ba"
+      ],
       "text": "Kelvin's on top of the garage!",
       "source": "official"
     }

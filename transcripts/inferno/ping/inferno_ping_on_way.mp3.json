@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "7752575628cd5d9e0a4c575c8395d98b06cc32473832fabac441336cb133d739",
+      "sha256": [
+        "7752575628cd5d9e0a4c575c8395d98b06cc32473832fabac441336cb133d739"
+      ],
       "text": "Away, away.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bfbf20c8388eaf5c98c8d80964a9cce3fe3798a5e648bfc488074801e073bebd",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "903c79a9b5be643d12fbd3932dd523894af39ad4abf3706dbce77315dc18b05e",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "863ec230f8de33c32134489c1149b6840c603f0fca2ee090f56bd3e1d880693c",
+      "sha256": [
+        "863ec230f8de33c32134489c1149b6840c603f0fca2ee090f56bd3e1d880693c",
+        "903c79a9b5be643d12fbd3932dd523894af39ad4abf3706dbce77315dc18b05e",
+        "bfbf20c8388eaf5c98c8d80964a9cce3fe3798a5e648bfc488074801e073bebd"
+      ],
       "text": "On my way",
       "source": "official"
     }

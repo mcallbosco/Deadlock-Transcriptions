@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "ba0696ca01616b2808f5b11391092979267cc034976a95b3e834ffe41fd9f3b6",
+      "sha256": [
+        "ba0696ca01616b2808f5b11391092979267cc034976a95b3e834ffe41fd9f3b6"
+      ],
       "text": "Take a beehive in here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fc0a733138b714070b84c60cfd791d6d5bc29b1b44d7cdd69df8757b428ac5dc",
-      "text": "They could be hiding anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "526c5ff4d0959d70121d9b3d904aade8b6cb8fa578ce4e352f0ac33bc9375e63",
-      "text": "They could be hiding anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c80ce74e887dd804c851990ee9f0829c23f0ea34cb6329e4f54b8e470fe0000b",
+      "sha256": [
+        "526c5ff4d0959d70121d9b3d904aade8b6cb8fa578ce4e352f0ac33bc9375e63",
+        "c80ce74e887dd804c851990ee9f0829c23f0ea34cb6329e4f54b8e470fe0000b",
+        "fc0a733138b714070b84c60cfd791d6d5bc29b1b44d7cdd69df8757b428ac5dc"
+      ],
       "text": "They could be hiding anywhere…",
       "source": "official"
     }

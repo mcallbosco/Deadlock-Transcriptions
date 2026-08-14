@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_stun_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "64c30359e14889bd6d4d323b9287b483a101e82826aac3e7e126aad3eba77e1a",
+      "sha256": [
+        "64c30359e14889bd6d4d323b9287b483a101e82826aac3e7e126aad3eba77e1a"
+      ],
       "text": "Stop, Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b5930ecc9d8c884ce65ecef699fe635582da1eec843cd54edaae99c9d835546b",
+      "sha256": [
+        "b5930ecc9d8c884ce65ecef699fe635582da1eec843cd54edaae99c9d835546b"
+      ],
       "text": "Son Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

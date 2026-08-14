@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_saw_fairfax.mp3",
   "revisions": [
     {
-      "sha256": "f6bf9b73e8938ea922d5abda924479986e61c9bb975aee11aeecfaef8a84edf7",
+      "sha256": [
+        "f6bf9b73e8938ea922d5abda924479986e61c9bb975aee11aeecfaef8a84edf7"
+      ],
       "text": "What's the text?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "75904fada83f65c5059c7a807c1715e20c7e9ed033f4442bd2e77711e3f3f00f",
+      "sha256": [
+        "75904fada83f65c5059c7a807c1715e20c7e9ed033f4442bd2e77711e3f3f00f"
+      ],
       "text": "I'll fix it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

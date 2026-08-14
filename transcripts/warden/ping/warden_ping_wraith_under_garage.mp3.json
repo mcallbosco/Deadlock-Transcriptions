@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_wraith_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "82e48eac5c65b443421d403011f3d5299669278126c3ec519689040a6c4ffb8c",
+      "sha256": [
+        "82e48eac5c65b443421d403011f3d5299669278126c3ec519689040a6c4ffb8c"
+      ],
       "text": "Wraith is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2a894c54e2a964b76eb671309e094484899ec4290ddb854c8306cd5858b2a281",
+      "sha256": [
+        "2a894c54e2a964b76eb671309e094484899ec4290ddb854c8306cd5858b2a281",
+        "2ec4e2c30b7502ab7f5bfaf29f3909ee2e583ebbcc603b842a6c27527e982939"
+      ],
       "text": "Race is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2ec4e2c30b7502ab7f5bfaf29f3909ee2e583ebbcc603b842a6c27527e982939",
-      "text": "Race is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4854bc3b2a46ba6f7c5188f3c6b2aaf6cd597280b0c6bcbe2b87493007d6cddc",
+      "sha256": [
+        "4854bc3b2a46ba6f7c5188f3c6b2aaf6cd597280b0c6bcbe2b87493007d6cddc"
+      ],
       "text": "Wraith's under the garage!",
       "source": "official"
     }

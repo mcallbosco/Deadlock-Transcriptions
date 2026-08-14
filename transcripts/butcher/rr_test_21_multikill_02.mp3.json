@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_multikill_02.mp3",
   "revisions": [
     {
-      "sha256": "0678a8329f925c5758f463baf6b493aedcef57266f2901e333ee2087c54b58fc",
-      "text": "One after another.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac9da96b2060a92d01facfab0ca74ee4b6759637704e5c9ac989fa9730ad3073",
-      "text": "One after another.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3d9d9d20be3ff0b756b0ec4e0ae0273cc452def90303c64cb8b9fe72671e742",
+      "sha256": [
+        "0678a8329f925c5758f463baf6b493aedcef57266f2901e333ee2087c54b58fc",
+        "ac9da96b2060a92d01facfab0ca74ee4b6759637704e5c9ac989fa9730ad3073",
+        "c3d9d9d20be3ff0b756b0ec4e0ae0273cc452def90303c64cb8b9fe72671e742"
+      ],
       "text": "One after another.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

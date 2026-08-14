@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_got_denied_03.mp3",
   "revisions": [
     {
-      "sha256": "d3263e84ee1de2c5bd94f606e4436596bb016a1088078b2c9627b6c34b8c9148",
+      "sha256": [
+        "d3263e84ee1de2c5bd94f606e4436596bb016a1088078b2c9627b6c34b8c9148"
+      ],
       "text": "Can't wait to get my hands on him.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aa556687599b874a2b6e4ca0687fc6c521654892e5618ad6af4d5a5b336d40a0",
+      "sha256": [
+        "aa556687599b874a2b6e4ca0687fc6c521654892e5618ad6af4d5a5b336d40a0"
+      ],
       "text": "I can't wait to get my hands on 'em.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "af22256b81a9f90c026af156ae5a3881154a8f382227e75ac51ba517d7e5d043",
-      "text": "You're missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c43a50a535c9fb2db88bc9bb006162f8c2f57e93706a5adfd7d26f5435b97457",
+      "sha256": [
+        "af22256b81a9f90c026af156ae5a3881154a8f382227e75ac51ba517d7e5d043",
+        "c43a50a535c9fb2db88bc9bb006162f8c2f57e93706a5adfd7d26f5435b97457"
+      ],
       "text": "You're missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

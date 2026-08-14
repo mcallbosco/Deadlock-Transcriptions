@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_lets_hide.mp3",
   "revisions": [
     {
-      "sha256": "91d1062044d926201af550aa4b21d88e5dcc8a42b90d2b525e39a659bd52f983",
-      "text": "Let's hide here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d99853549d21b0714ccd4a2a255c525b1257eddddbeded38b07a6c711cf8310a",
+      "sha256": [
+        "91d1062044d926201af550aa4b21d88e5dcc8a42b90d2b525e39a659bd52f983",
+        "d99853549d21b0714ccd4a2a255c525b1257eddddbeded38b07a6c711cf8310a"
+      ],
       "text": "Let's hide here.",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_gigawatt_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "63877087dc904df7126b2402fdc039be166d9636c89aadf894084d8802195eff",
+      "sha256": [
+        "63877087dc904df7126b2402fdc039be166d9636c89aadf894084d8802195eff",
+        "b9e047486f9164676b063bca77067b0d98d1b3c91f066993eace061d626cfd7e"
+      ],
       "text": "Gigawatts on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9e047486f9164676b063bca77067b0d98d1b3c91f066993eace061d626cfd7e",
-      "text": "Gigawatts on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

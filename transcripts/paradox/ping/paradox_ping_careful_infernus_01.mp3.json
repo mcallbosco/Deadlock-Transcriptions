@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_infernus_01.mp3",
   "revisions": [
     {
-      "sha256": "aaa4590db904b4538883edd911b1f9201ed97a7ce534954aef1a79b82dc76dfd",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c12a1fe0d1d17e8dc17e7cf6500f01b6ac4a8c5bcf556bfafb678c1f497e954",
+      "sha256": [
+        "7c12a1fe0d1d17e8dc17e7cf6500f01b6ac4a8c5bcf556bfafb678c1f497e954",
+        "aaa4590db904b4538883edd911b1f9201ed97a7ce534954aef1a79b82dc76dfd"
+      ],
       "text": "Careful, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

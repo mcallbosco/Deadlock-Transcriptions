@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_can_heal_holliday.mp3",
   "revisions": [
     {
-      "sha256": "def9c9beb6dd41ee0d507d74fe5c8b5680d8db6db939ce793889915942e0bfd0",
+      "sha256": [
+        "def9c9beb6dd41ee0d507d74fe5c8b5680d8db6db939ce793889915942e0bfd0"
+      ],
       "text": "Quiet! I can't hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "83d47ed4f715a313de62753cdee0ae4f0a0cd73096dd63944398ab78e06681b4",
+      "sha256": [
+        "83d47ed4f715a313de62753cdee0ae4f0a0cd73096dd63944398ab78e06681b4"
+      ],
       "text": "I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

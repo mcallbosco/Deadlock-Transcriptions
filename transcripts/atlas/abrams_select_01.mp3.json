@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_select_01.mp3",
   "revisions": [
     {
-      "sha256": "6a8e74443a70dc7aa23eeedf6334154e9799ecb9e2321fd23fdcc35a11a91b28",
-      "text": "Don't worry, I'm on the case.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eed190d6a919d398aade9dcc4348fa596658109f6a87cf47c9cadf4cb30ba994",
-      "text": "Don't worry, I'm on the case.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db13fc7ac6b4655723f9e2812dc26e1e57c8ea48f4ebc42d5f98128b3381368f",
-      "text": "Don't worry, I'm on the case.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e63b6103c7a80f3e84d298415a83c41d5d1d7b39689c53a6f0ca38afc45abd3",
+      "sha256": [
+        "1e63b6103c7a80f3e84d298415a83c41d5d1d7b39689c53a6f0ca38afc45abd3",
+        "6a8e74443a70dc7aa23eeedf6334154e9799ecb9e2321fd23fdcc35a11a91b28",
+        "db13fc7ac6b4655723f9e2812dc26e1e57c8ea48f4ebc42d5f98128b3381368f",
+        "eed190d6a919d398aade9dcc4348fa596658109f6a87cf47c9cadf4cb30ba994"
+      ],
       "text": "Don't worry, I'm on the case.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

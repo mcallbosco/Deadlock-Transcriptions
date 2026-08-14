@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_tokamak.mp3",
   "revisions": [
     {
-      "sha256": "6feaf1149cc62c57f7efe62fbd8a1df545a4c0f3ed6bf68ed47cbb7cbaab6d45",
-      "text": "I saw Tokamak.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbc7c817c8812373d3ca525ba5ae0c0543a23528ca623a7b6418bfbc6c507fcc",
+      "sha256": [
+        "6feaf1149cc62c57f7efe62fbd8a1df545a4c0f3ed6bf68ed47cbb7cbaab6d45",
+        "bbc7c817c8812373d3ca525ba5ae0c0543a23528ca623a7b6418bfbc6c507fcc"
+      ],
       "text": "I saw Tokamak.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

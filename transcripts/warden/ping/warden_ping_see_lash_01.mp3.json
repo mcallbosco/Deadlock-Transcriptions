@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "80862ff84b4c77bb8a79254a6b037690dd613b6485b1b42f6c52d6a37115b0ca",
-      "text": "I see Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d87a6ce7ddea0a2230aa36cfb1784f9eb7e5cc19d51015cba5054a6da1f00bf5",
-      "text": "I see Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "97fe0c190cdf39f04cfb615cebade1dcf3c4a168887cab045f9336204b595f8e",
-      "text": "I see Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd4c545da9e3c8b13c6984413099c5613636028cab4ee86f076fe5331bd38b9f",
+      "sha256": [
+        "80862ff84b4c77bb8a79254a6b037690dd613b6485b1b42f6c52d6a37115b0ca",
+        "97fe0c190cdf39f04cfb615cebade1dcf3c4a168887cab045f9336204b595f8e",
+        "bd4c545da9e3c8b13c6984413099c5613636028cab4ee86f076fe5331bd38b9f",
+        "d87a6ce7ddea0a2230aa36cfb1784f9eb7e5cc19d51015cba5054a6da1f00bf5"
+      ],
       "text": "I see Lash",
       "source": "official"
     }

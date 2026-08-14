@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_wraith_dead.mp3",
   "revisions": [
     {
-      "sha256": "089ca49f8aeda7b076bc714cd930db4bd0a640dbba58db8a56e6fb66198b8113",
-      "text": "Grace is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0230f5ca86329e75f9eaabfc0724830f0f9dbc53aac76670778fdf2fdc4e5e26",
+      "sha256": [
+        "0230f5ca86329e75f9eaabfc0724830f0f9dbc53aac76670778fdf2fdc4e5e26",
+        "089ca49f8aeda7b076bc714cd930db4bd0a640dbba58db8a56e6fb66198b8113"
+      ],
       "text": "Grace is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_t3_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "2561df7310fe0a3228d093e258900979b866e3bb60c56bc8129336ce1ee8751e",
-      "text": "Now I get some quality gear!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cb25bf9859091a5ecfbcbcfbf03d43cef717816a8f95f3a9792892c2412d282",
+      "sha256": [
+        "0cb25bf9859091a5ecfbcbcfbf03d43cef717816a8f95f3a9792892c2412d282",
+        "2561df7310fe0a3228d093e258900979b866e3bb60c56bc8129336ce1ee8751e"
+      ],
       "text": "Now I get some quality gear!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

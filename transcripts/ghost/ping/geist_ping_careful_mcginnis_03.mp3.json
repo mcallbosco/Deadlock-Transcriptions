@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_mcginnis_03.mp3",
   "revisions": [
     {
-      "sha256": "af42686423aaed4840f9be83b99d9799ab3e04450a84bf6fff1db5f914288be9",
-      "text": "Careful, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a4a3eeed1ba24d959b3f47e462a40ccf247e306705afb94e8f7055084cd3cc6",
+      "sha256": [
+        "2a4a3eeed1ba24d959b3f47e462a40ccf247e306705afb94e8f7055084cd3cc6",
+        "af42686423aaed4840f9be83b99d9799ab3e04450a84bf6fff1db5f914288be9"
+      ],
       "text": "Careful, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

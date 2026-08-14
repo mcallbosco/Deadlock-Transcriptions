@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "bbe84763bcfc5bac0f8a0d35f1560abed49973a25b78d80903fd49ea00f69463",
+      "sha256": [
+        "bbe84763bcfc5bac0f8a0d35f1560abed49973a25b78d80903fd49ea00f69463"
+      ],
       "text": "He's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9bf417811cafd5c5869d501148b602173a354c1e5d8255117af47d25f8510164",
+      "sha256": [
+        "9bf417811cafd5c5869d501148b602173a354c1e5d8255117af47d25f8510164"
+      ],
       "text": "Haze is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9b9a4f14047926e15cd7d0f66ce0605387c78d9c978a390bbf6a39e63e20f628",
+      "sha256": [
+        "9b9a4f14047926e15cd7d0f66ce0605387c78d9c978a390bbf6a39e63e20f628"
+      ],
       "text": "Hazard on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

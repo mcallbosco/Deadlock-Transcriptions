@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_sad_01.mp3",
   "revisions": [
     {
-      "sha256": "94bc543a33101f2975f97435a296c64d465d000612affc9c6c8caec140bf97d1",
+      "sha256": [
+        "3e80095d0bd9183e581d61f2a708e74f5967f084ae7f3b02c1be2b89e92b2398",
+        "94bc543a33101f2975f97435a296c64d465d000612affc9c6c8caec140bf97d1"
+      ],
       "text": "Oh, man.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e80095d0bd9183e581d61f2a708e74f5967f084ae7f3b02c1be2b89e92b2398",
-      "text": "Oh, man...",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_krill_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "ef688ba523bc4786853525c590daf87f2abc0a8821db707359e963c1aeb569c9",
+      "sha256": [
+        "985abda4db87723a3009614388a4a5626926d009bcfcf1dddf8ab63f22033071",
+        "ef688ba523bc4786853525c590daf87f2abc0a8821db707359e963c1aeb569c9"
+      ],
       "text": "Grills on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "985abda4db87723a3009614388a4a5626926d009bcfcf1dddf8ab63f22033071",
-      "text": "Grills on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69406c0744293497c8eea986e11f61f46edd61b13fd35541640e09be9a75600a",
+      "sha256": [
+        "69406c0744293497c8eea986e11f61f46edd61b13fd35541640e09be9a75600a"
+      ],
       "text": "Crows on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "4c2f25e08eb74e672ad12edaf7045a0c5b48e4e717bc2046bf0d1d2e784228eb",
-      "text": "Mirage, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cb1bf2dafa79a53042c4fd5b106e5489fd87139531d34c887226a2f2297f943",
+      "sha256": [
+        "0cb1bf2dafa79a53042c4fd5b106e5489fd87139531d34c887226a2f2297f943",
+        "4c2f25e08eb74e672ad12edaf7045a0c5b48e4e717bc2046bf0d1d2e784228eb"
+      ],
       "text": "Mirage, I can heal you!",
       "source": "official"
     }

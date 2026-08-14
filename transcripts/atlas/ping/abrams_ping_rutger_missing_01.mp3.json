@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_rutger_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "00b120a0a6de37f28c1f449ff248bea153525d0b2e7418aaac91abf1a55d5c53",
-      "text": "Rutgers missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60af384f97e239e7a12f61c9a237b41c2fd5b23dc584ab3e493cfe8b3a1e0941",
+      "sha256": [
+        "00b120a0a6de37f28c1f449ff248bea153525d0b2e7418aaac91abf1a55d5c53",
+        "60af384f97e239e7a12f61c9a237b41c2fd5b23dc584ab3e493cfe8b3a1e0941"
+      ],
       "text": "Rutgers missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

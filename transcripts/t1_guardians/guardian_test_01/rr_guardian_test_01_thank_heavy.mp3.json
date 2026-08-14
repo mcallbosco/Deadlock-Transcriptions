@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_thank_heavy.mp3",
   "revisions": [
     {
-      "sha256": "2268129b5b955a5cbc937275829186b2db7eeced10185746f0211cbf2b54bc01",
-      "text": "Thanks, Heavy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdf0dd56021dd1708f106c950350a4d11f9dec72d37cc9145429e388004daf12",
-      "text": "Thanks, Heavy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d471453b8d7ef4bd6a689233dd6c1bb95b97a1b9c3223c985977e7ad3de34d36",
+      "sha256": [
+        "2268129b5b955a5cbc937275829186b2db7eeced10185746f0211cbf2b54bc01",
+        "cdf0dd56021dd1708f106c950350a4d11f9dec72d37cc9145429e388004daf12",
+        "d471453b8d7ef4bd6a689233dd6c1bb95b97a1b9c3223c985977e7ad3de34d36"
+      ],
       "text": "Thanks, Heavy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

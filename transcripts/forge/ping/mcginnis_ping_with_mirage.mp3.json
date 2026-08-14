@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "c4bac3c544b3f831e304e095b2ae872995fa3560cef595b4fd694fb7a58d6cda",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "035c6a4dcb361789ce7f4faed45f5604d57aa25e840b8a831c619010aa0e37c3",
+      "sha256": [
+        "035c6a4dcb361789ce7f4faed45f5604d57aa25e840b8a831c619010aa0e37c3",
+        "c4bac3c544b3f831e304e095b2ae872995fa3560cef595b4fd694fb7a58d6cda"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

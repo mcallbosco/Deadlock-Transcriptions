@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_orion_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "0d4cbc034a585b5c19f9a6f4192161723d491f9b0be78d84964992336d8b7aa5",
+      "sha256": [
+        "0d4cbc034a585b5c19f9a6f4192161723d491f9b0be78d84964992336d8b7aa5"
+      ],
       "text": "Grey Talon is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2fae374f85db229487a8909c9d5c36739bc3e3dc63d17d8bd9360dba9874e25e",
+      "sha256": [
+        "2fae374f85db229487a8909c9d5c36739bc3e3dc63d17d8bd9360dba9874e25e"
+      ],
       "text": "Grey Talon's under the garage!",
       "source": "official"
     }

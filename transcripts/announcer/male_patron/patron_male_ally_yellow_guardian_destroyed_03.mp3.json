@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_yellow_guardian_destroyed_03.mp3",
   "revisions": [
     {
-      "sha256": "35552be3267b8f7d8ee7f13a7d1663373a45794071bf2adb925aaedfd8bc72ad",
+      "sha256": [
+        "35552be3267b8f7d8ee7f13a7d1663373a45794071bf2adb925aaedfd8bc72ad",
+        "a1c1b1892330c23a147fa3abe8615ab22f41c990f3b0896505337f03c09ad2f1"
+      ],
       "text": "They destroyed the Guardian on York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8d31dc36b3c933d98917070f026152ccc067932b2500dcd387cf63f6f621422b",
+      "sha256": [
+        "8d31dc36b3c933d98917070f026152ccc067932b2500dcd387cf63f6f621422b"
+      ],
       "text": "They've destroyed the Guardian on York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1c1b1892330c23a147fa3abe8615ab22f41c990f3b0896505337f03c09ad2f1",
-      "text": "They destroyed the Guardian on York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

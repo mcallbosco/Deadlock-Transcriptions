@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_geist_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "4008b8fc26b257525dbe22f04ba5c71556d1b4ba294cc9a7cbd26bb6becfee8a",
+      "sha256": [
+        "4008b8fc26b257525dbe22f04ba5c71556d1b4ba294cc9a7cbd26bb6becfee8a"
+      ],
       "text": "It's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ebb83a4b167859744bfb779f39920e0f116a3717597630e3297afd1ed6814a9",
+      "sha256": [
+        "0ebb83a4b167859744bfb779f39920e0f116a3717597630e3297afd1ed6814a9"
+      ],
       "text": "He's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

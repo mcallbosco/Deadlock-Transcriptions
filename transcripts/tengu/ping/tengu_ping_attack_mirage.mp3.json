@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_attack_mirage.mp3",
   "revisions": [
     {
-      "sha256": "de4508535fe8b33e9d1a117d9699825dee20093dd09f9345b8507f2db778cd16",
-      "text": "Let's take out Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbba5e9628482d9d4bcb0dfaeade8f32ae92f21dbb6664cb64cac9d5e83198bd",
+      "sha256": [
+        "bbba5e9628482d9d4bcb0dfaeade8f32ae92f21dbb6664cb64cac9d5e83198bd",
+        "de4508535fe8b33e9d1a117d9699825dee20093dd09f9345b8507f2db778cd16"
+      ],
       "text": "Let's take out Mirage",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_with_synth.mp3",
   "revisions": [
     {
-      "sha256": "bcb285fb383b406b2e44ae223f313c5499958ae6435bf266deb79fcafcee857a",
+      "sha256": [
+        "bcb285fb383b406b2e44ae223f313c5499958ae6435bf266deb79fcafcee857a"
+      ],
       "text": "I'm with you, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

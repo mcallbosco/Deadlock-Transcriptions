@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_lets_go_purple_alt.mp3",
   "revisions": [
     {
-      "sha256": "c3a1aa37e2ad4613b0dec66c1beb1ce18824d397c8d78d964f85d700bb2a077d",
+      "sha256": [
+        "5a6d19905ffe27ae57626fd6fa76c5c02a1cb692ed93b933a75b47b746643341",
+        "c3a1aa37e2ad4613b0dec66c1beb1ce18824d397c8d78d964f85d700bb2a077d"
+      ],
       "text": "Let's go, Park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a6d19905ffe27ae57626fd6fa76c5c02a1cb692ed93b933a75b47b746643341",
-      "text": "Let's go, Park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

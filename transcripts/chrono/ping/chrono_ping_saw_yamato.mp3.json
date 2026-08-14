@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "c9dfea236fdbf125319771fb6ae28659b9bf0a049235203030c5b556053f5e3e",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "006b2a94e79c9f1593dd6ee042776a0ebf30a7fa5b380afa7eea9bc110150034",
+      "sha256": [
+        "006b2a94e79c9f1593dd6ee042776a0ebf30a7fa5b380afa7eea9bc110150034",
+        "c9dfea236fdbf125319771fb6ae28659b9bf0a049235203030c5b556053f5e3e"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

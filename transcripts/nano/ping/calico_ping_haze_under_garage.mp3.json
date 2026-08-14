@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_haze_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "ae791cea4d144f0c598dbf60d14b21629dd4ad436ef52f81ddf498c170136720",
-      "text": "He's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff5aaeefe1c4c1837a13110ccdd3f18faefb64579728445410256d31dbf53f6c",
+      "sha256": [
+        "ae791cea4d144f0c598dbf60d14b21629dd4ad436ef52f81ddf498c170136720",
+        "ff5aaeefe1c4c1837a13110ccdd3f18faefb64579728445410256d31dbf53f6c"
+      ],
       "text": "He's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

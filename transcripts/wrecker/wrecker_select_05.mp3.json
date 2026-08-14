@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_select_05.mp3",
   "revisions": [
     {
-      "sha256": "ed6e8d4e63354fdd52eea167cfecdae4a0749f2714511f3766b06f01ca090aa8",
-      "text": "Kill, eat, summon patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4738f70f8c64e3fc4307d92c21514e552a3a7701fac4766e4d424705270f7220",
+      "sha256": [
+        "4738f70f8c64e3fc4307d92c21514e552a3a7701fac4766e4d424705270f7220",
+        "ed6e8d4e63354fdd52eea167cfecdae4a0749f2714511f3766b06f01ca090aa8"
+      ],
       "text": "Kill, eat, summon patron.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

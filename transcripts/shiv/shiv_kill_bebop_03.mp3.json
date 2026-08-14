@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_kill_bebop_03.mp3",
   "revisions": [
     {
-      "sha256": "ee049b75c9150636ec435b9ccf279d5d64d64f53e444fd7b796ef9b636313c89",
+      "sha256": [
+        "0231751f25640f6d34852d1d013f4dfbe65e7e7fb7595cf22a2d4838371d39f5",
+        "ee049b75c9150636ec435b9ccf279d5d64d64f53e444fd7b796ef9b636313c89"
+      ],
       "text": "Stop the gob.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0231751f25640f6d34852d1d013f4dfbe65e7e7fb7595cf22a2d4838371d39f5",
-      "text": "Stop the gob.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "211999bb13a0f0125f0c2daa82db356048dd6d175095fcd096fd055532d70104",
+      "sha256": [
+        "211999bb13a0f0125f0c2daa82db356048dd6d175095fcd096fd055532d70104"
+      ],
       "text": "Stopped the golem!",
       "source": "official"
     }

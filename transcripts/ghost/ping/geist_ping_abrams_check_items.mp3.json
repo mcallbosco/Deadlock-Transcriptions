@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_abrams_check_items.mp3",
   "revisions": [
     {
-      "sha256": "cc1ab2673bd0f74885839b83f9487ccefc59c1a45078de02e7136c86b2b272e3",
-      "text": "Check out what Abrams bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5385f11a81b6bb8e8f6ad07527a540dbc1033a4bfce0e4f4a1a8f4b4c8142aa",
+      "sha256": [
+        "c5385f11a81b6bb8e8f6ad07527a540dbc1033a4bfce0e4f4a1a8f4b4c8142aa",
+        "cc1ab2673bd0f74885839b83f9487ccefc59c1a45078de02e7136c86b2b272e3"
+      ],
       "text": "Check out what Abrams bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

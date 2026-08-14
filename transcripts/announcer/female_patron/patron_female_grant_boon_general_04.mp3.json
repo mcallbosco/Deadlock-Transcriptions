@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_grant_boon_general_04.mp3",
   "revisions": [
     {
-      "sha256": "f0a446456c152ee384d3660725fa95c874e55072010a9053770870f67e1ce0b2",
+      "sha256": [
+        "833b8493562221f900d7df40a8c78b7f3c0beb976df228e5eb14c39460ca64c4",
+        "f0a446456c152ee384d3660725fa95c874e55072010a9053770870f67e1ce0b2"
+      ],
       "text": "I give you a boon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "833b8493562221f900d7df40a8c78b7f3c0beb976df228e5eb14c39460ca64c4",
-      "text": "I give you a boon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8b145846f8f527effb7db01f851be0dde6964fa73afac8f615f8fa7b54937057",
+      "sha256": [
+        "8b145846f8f527effb7db01f851be0dde6964fa73afac8f615f8fa7b54937057"
+      ],
       "text": "The Archmother offers many gifts",
       "source": "official"
     }

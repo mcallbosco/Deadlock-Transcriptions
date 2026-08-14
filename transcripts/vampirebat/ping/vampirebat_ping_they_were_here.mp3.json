@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "b0e4069585aaaa8f1556e6270658340d75f9a23254e1f6bd18da4b13125e99cd",
+      "sha256": [
+        "b0e4069585aaaa8f1556e6270658340d75f9a23254e1f6bd18da4b13125e99cd"
+      ],
       "text": "They're over here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "45eee688a2a5b25933ba4d5ce571e3ca278af4ce5c5ff97b634502ce8fedd0d2",
+      "sha256": [
+        "45eee688a2a5b25933ba4d5ce571e3ca278af4ce5c5ff97b634502ce8fedd0d2"
+      ],
       "text": "They were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

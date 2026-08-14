@@ -1,33 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "606758963078395093ca48e526918d20553ab2c76c995a41b186388714ddd3a2",
-      "text": "Yes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32314f41b2821dee34a1e965dcdd3e3461a0f6b3c74bf1045dc9a83ffd41ca12",
-      "text": "Yes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aac40563250d920f0af445faf0b0f36d6c5abb71d5229d43cdff4d07c97e71f1",
-      "text": "Yes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4899fa8c73b95f78551ef9bcc2658f1728e05467bf26f59662d3fb51c0817ec3",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8abea416ea72f5420ab48413286345bf0a55ef159efb008a83488d6319ba00f2",
+      "sha256": [
+        "32314f41b2821dee34a1e965dcdd3e3461a0f6b3c74bf1045dc9a83ffd41ca12",
+        "4899fa8c73b95f78551ef9bcc2658f1728e05467bf26f59662d3fb51c0817ec3",
+        "606758963078395093ca48e526918d20553ab2c76c995a41b186388714ddd3a2",
+        "8abea416ea72f5420ab48413286345bf0a55ef159efb008a83488d6319ba00f2",
+        "aac40563250d920f0af445faf0b0f36d6c5abb71d5229d43cdff4d07c97e71f1"
+      ],
       "text": "Yes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

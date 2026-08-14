@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_can_heal_warden.mp3",
   "revisions": [
     {
-      "sha256": "672c04e2c4396c31642ac43fd9389a1f554a9e7dce149bb2ad8716b17ff0e67e",
+      "sha256": [
+        "672c04e2c4396c31642ac43fd9389a1f554a9e7dce149bb2ad8716b17ff0e67e"
+      ],
       "text": "Warden, out of here we are!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a0cac63223d7ff75c8509eef382e9e3d5e86d739b8bcad37e30ccb79a0a08772",
+      "sha256": [
+        "a0cac63223d7ff75c8509eef382e9e3d5e86d739b8bcad37e30ccb79a0a08772"
+      ],
       "text": "Warden, I can heal you!",
       "source": "official"
     }

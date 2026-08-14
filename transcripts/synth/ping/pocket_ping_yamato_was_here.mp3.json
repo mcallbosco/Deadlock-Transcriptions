@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "2c64214d977c8c919a4fab298a125b00cf257cb295ceaf22f4236ce3b327d460",
+      "sha256": [
+        "2c64214d977c8c919a4fab298a125b00cf257cb295ceaf22f4236ce3b327d460"
+      ],
       "text": "Yamato is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3e59e18dfa7c2c18cc93e93a520db2a024a47d33e8b5698122439ee1fb5a4c1e",
+      "sha256": [
+        "3e59e18dfa7c2c18cc93e93a520db2a024a47d33e8b5698122439ee1fb5a4c1e"
+      ],
       "text": "Yamato was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

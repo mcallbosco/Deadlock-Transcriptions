@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_lets_go_purple.mp3",
   "revisions": [
     {
-      "sha256": "899ed2f24a1dbb7c8be94cd0c7cca5b11a4d677e539832787eb06eba819c65e3",
-      "text": "Go purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "19e7897592a41e6302bec6e1b1a8da6ddf14227d0045327af7af6d21ad33b164",
+      "sha256": [
+        "19e7897592a41e6302bec6e1b1a8da6ddf14227d0045327af7af6d21ad33b164",
+        "899ed2f24a1dbb7c8be94cd0c7cca5b11a4d677e539832787eb06eba819c65e3"
+      ],
       "text": "Go purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

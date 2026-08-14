@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_bebop_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "de3613036505ca197e032948220ab46de51c03ffe495a472ebe3fb2588199586",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "abd6ebcfdb92029b584a91e80bb6ebe533d573b22d8796ed82be2505ee38583a",
+        "afb79b6d02f21d7640c952dd25dfa543a2e0ee9e442cf09d78d168a80cd266a5",
+        "de3613036505ca197e032948220ab46de51c03ffe495a472ebe3fb2588199586",
+        "f30ee860273fddf6758c031c2f8738a18df58110fe9ec540172e034ee12d85a7"
+      ],
+      "text": "Bebop's on the roof!",
+      "source": "official"
     },
     {
-      "sha256": "f30ee860273fddf6758c031c2f8738a18df58110fe9ec540172e034ee12d85a7",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afb79b6d02f21d7640c952dd25dfa543a2e0ee9e442cf09d78d168a80cd266a5",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "208e63bdab8600d3f9b797b7c74ed9300caed500f4a93d80595f5dea924d9943",
+      "sha256": [
+        "208e63bdab8600d3f9b797b7c74ed9300caed500f4a93d80595f5dea924d9943"
+      ],
       "text": "Beep-bop's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abd6ebcfdb92029b584a91e80bb6ebe533d573b22d8796ed82be2505ee38583a",
-      "text": "Bebop's on the roof!",
-      "source": "official"
     }
   ]
 }

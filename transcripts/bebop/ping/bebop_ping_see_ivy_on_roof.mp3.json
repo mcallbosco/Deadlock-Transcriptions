@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_ivy_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "dd5dfc825207e5ed0e973944c6d92a97fe30e1110e3f8ed5429ccc62586f2322",
-      "text": "I was on a roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ebf82717acb5bffadf6eb0e3ac3b0bb7b16dd1ce318c487eb6d2653d8dfc7ca",
+      "sha256": [
+        "2ebf82717acb5bffadf6eb0e3ac3b0bb7b16dd1ce318c487eb6d2653d8dfc7ca",
+        "dd5dfc825207e5ed0e973944c6d92a97fe30e1110e3f8ed5429ccc62586f2322"
+      ],
       "text": "I was on a roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

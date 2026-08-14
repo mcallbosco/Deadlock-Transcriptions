@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_vindicta_check_items.mp3",
   "revisions": [
     {
-      "sha256": "e8a086ae90dadab7b616c7d92cc1130816b89af4f8e12fbe964910e4b4116094",
-      "text": "Check out what Vindicta bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c27eac1045040e6ddf1feef8fe5f706519f1d63433d322c59b85b742997f7ef",
+      "sha256": [
+        "4c27eac1045040e6ddf1feef8fe5f706519f1d63433d322c59b85b742997f7ef",
+        "e8a086ae90dadab7b616c7d92cc1130816b89af4f8e12fbe964910e4b4116094"
+      ],
       "text": "Check out what Vindicta bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

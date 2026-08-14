@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_tokamak_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "de325df5e2a2eaa1c0b23d9a81d47b049c485d1105566a03981258b734c093ae",
+      "sha256": [
+        "de325df5e2a2eaa1c0b23d9a81d47b049c485d1105566a03981258b734c093ae"
+      ],
       "text": "Tell the action on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3c2f60d07fafa52c61b78e360df26cfd052fa5889e345caacb1b4fa9400daee",
+      "sha256": [
+        "c3c2f60d07fafa52c61b78e360df26cfd052fa5889e345caacb1b4fa9400daee"
+      ],
       "text": "Talk to us on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_select_06.mp3",
   "revisions": [
     {
-      "sha256": "ce1fd4644b52bcbd35a0e24e974e4f7abee6b5d8853cdbdb453eb621dec59195",
-      "text": "I am done being hunted.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02e3bb7f6668fda00c88ae55a1a34a9cd74b6d6e64dde649aafbae1afd594d74",
-      "text": "I am done being hunted.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "feca45925d2283e6f4a934592b0547a29328bf9470c1dd5f779bc8ac6cf9766b",
+      "sha256": [
+        "02e3bb7f6668fda00c88ae55a1a34a9cd74b6d6e64dde649aafbae1afd594d74",
+        "ce1fd4644b52bcbd35a0e24e974e4f7abee6b5d8853cdbdb453eb621dec59195",
+        "feca45925d2283e6f4a934592b0547a29328bf9470c1dd5f779bc8ac6cf9766b"
+      ],
       "text": "I am done being hunted.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

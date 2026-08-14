@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "9b1087adcc352bb4a89e6f330a87656a702300b5cc98131eec92fc281c903fad",
+      "sha256": [
+        "9b1087adcc352bb4a89e6f330a87656a702300b5cc98131eec92fc281c903fad"
+      ],
       "text": "I see Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_defend_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "bd19f5f3f6f3c149b3c72cf9c80c473de5e113337df306cb4ebf562726741b55",
-      "text": "Hey, defend Park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08dd3e81fc7d5a7f8306c7793b5c424ec8c49da851291d9decff6c16b56d9ac9",
-      "text": "Hey, defend park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a30a3a7dcbdd4d8a13c2a2c62297d3ad35f96ddbb8013d7b6e93d4145506d0d",
+      "sha256": [
+        "08dd3e81fc7d5a7f8306c7793b5c424ec8c49da851291d9decff6c16b56d9ac9",
+        "3a30a3a7dcbdd4d8a13c2a2c62297d3ad35f96ddbb8013d7b6e93d4145506d0d",
+        "bd19f5f3f6f3c149b3c72cf9c80c473de5e113337df306cb4ebf562726741b55"
+      ],
       "text": "Hey, defend Park!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

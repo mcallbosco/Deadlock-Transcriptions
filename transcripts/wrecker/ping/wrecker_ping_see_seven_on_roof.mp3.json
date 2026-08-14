@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_seven_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "191a8169546f3228b9c55d44ad0859e104aca70c316c7138ccbadb59dfcc4f17",
+      "sha256": [
+        "191a8169546f3228b9c55d44ad0859e104aca70c316c7138ccbadb59dfcc4f17",
+        "fa0629f08c16f6ac2d8a82e3270390284b3421bfd114f4d86fae551c59ff25c6"
+      ],
       "text": "Seven's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa0629f08c16f6ac2d8a82e3270390284b3421bfd114f4d86fae551c59ff25c6",
-      "text": "Seven's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

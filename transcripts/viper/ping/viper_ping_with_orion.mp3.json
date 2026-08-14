@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_orion.mp3",
   "revisions": [
     {
-      "sha256": "d3b38454842dc2134d62b89fa76d2ef4dd4541ffe3689ead968e7dffa5cf7fcb",
-      "text": "I'm with you, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b89a9d2b3a5a18b1eb651d48460eba9709060800ec4b88b268f151325b19ced",
-      "text": "I'm with you, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f73aacdbaf57001f32c5a74c7980a4a246fc3270fae7ce05bae70b0e3ac8201",
+      "sha256": [
+        "2f73aacdbaf57001f32c5a74c7980a4a246fc3270fae7ce05bae70b0e3ac8201",
+        "3b89a9d2b3a5a18b1eb651d48460eba9709060800ec4b88b268f151325b19ced",
+        "d3b38454842dc2134d62b89fa76d2ef4dd4541ffe3689ead968e7dffa5cf7fcb"
+      ],
       "text": "I'm with you, Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

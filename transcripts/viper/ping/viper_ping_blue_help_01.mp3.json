@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_blue_help_01.mp3",
   "revisions": [
     {
-      "sha256": "4afe99d17add5c166b139938d992b92f7d1ed1eec1ba2651fd6600d308520992",
+      "sha256": [
+        "26a3c80ad96ab3e697b8c2a449c9887b57e6c29b003fb8c237bd760093327f0e",
+        "4afe99d17add5c166b139938d992b92f7d1ed1eec1ba2651fd6600d308520992"
+      ],
       "text": "Blue needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "b5a858ebafb0b47d0887d60597b6d83495354aaca3367a527ac909047806fd7b",
+      "sha256": [
+        "b5a858ebafb0b47d0887d60597b6d83495354aaca3367a527ac909047806fd7b"
+      ],
       "text": "Good is help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "26a3c80ad96ab3e697b8c2a449c9887b57e6c29b003fb8c237bd760093327f0e",
-      "text": "Blue needs help!",
-      "source": "official"
     }
   ]
 }

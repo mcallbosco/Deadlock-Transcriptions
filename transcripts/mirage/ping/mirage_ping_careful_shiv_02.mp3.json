@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_shiv_02.mp3",
   "revisions": [
     {
-      "sha256": "56c17b3fc2442af9c90340d58c7978de62e7e551ac92da7fd5ca20545a0bd2de",
+      "sha256": [
+        "56c17b3fc2442af9c90340d58c7978de62e7e551ac92da7fd5ca20545a0bd2de"
+      ],
       "text": "That's it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f4f491061e7c0a541d285d53b7f520f1fcbe8445c202947367149cfca49cb36b",
+      "sha256": [
+        "55ed6a04a5d5f32450f39ac3216346ef54932b24cbcedeb93cf6dece00bbcc1b",
+        "f4f491061e7c0a541d285d53b7f520f1fcbe8445c202947367149cfca49cb36b"
+      ],
       "text": "Careful, chief.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "55ed6a04a5d5f32450f39ac3216346ef54932b24cbcedeb93cf6dece00bbcc1b",
-      "text": "Careful, Chief.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9305ee8488ba0fc2f826a0f8b7605f49b9d204c1308cf0543d8861c57aad8393",
+      "sha256": [
+        "9305ee8488ba0fc2f826a0f8b7605f49b9d204c1308cf0543d8861c57aad8393"
+      ],
       "text": "Careful, Shiv",
       "source": "official"
     }

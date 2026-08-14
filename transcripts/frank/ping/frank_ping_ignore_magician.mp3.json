@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_ignore_magician.mp3",
   "revisions": [
     {
-      "sha256": "6dbbdbbe4833d88cf77e5bd1d72e52b2d66f432521819086f495aa20f0d1748a",
-      "text": "Ignore Sinclair.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d56f450aaa853882e5b696614a132bcd00e9a3a7411b3b08194e9e3641bfed0e",
+      "sha256": [
+        "6dbbdbbe4833d88cf77e5bd1d72e52b2d66f432521819086f495aa20f0d1748a",
+        "d56f450aaa853882e5b696614a132bcd00e9a3a7411b3b08194e9e3641bfed0e"
+      ],
       "text": "Ignore Sinclair.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

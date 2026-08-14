@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_echo_shard_03.mp3",
   "revisions": [
     {
-      "sha256": "d61b66c405818211c834775755deaec05d7aec885e44ddf576f4051a896e7417",
-      "text": "One more time!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11ca8b82b469917c0192d7cfd5560aaabae4422a91fea8ebd08a72020e4c81f6",
-      "text": "One more time!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b042f87c06fcb622c3611fa08e6bd702b0f60679c309b4e130f9a17e5f3afea3",
+      "sha256": [
+        "11ca8b82b469917c0192d7cfd5560aaabae4422a91fea8ebd08a72020e4c81f6",
+        "b042f87c06fcb622c3611fa08e6bd702b0f60679c309b4e130f9a17e5f3afea3",
+        "d61b66c405818211c834775755deaec05d7aec885e44ddf576f4051a896e7417"
+      ],
       "text": "One more time…",
       "source": "official"
     }

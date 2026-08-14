@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_haze.mp3",
   "revisions": [
     {
-      "sha256": "f5be30397f482074ad16dc52f57520b06bce39027a54ad10f4d5674d761288fd",
+      "sha256": [
+        "f5be30397f482074ad16dc52f57520b06bce39027a54ad10f4d5674d761288fd"
+      ],
       "text": "Kate, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b722b2083adf2a785af5416a3b9849f35814c9f5071ca53f385f6aa73f268852",
+      "sha256": [
+        "b722b2083adf2a785af5416a3b9849f35814c9f5071ca53f385f6aa73f268852"
+      ],
       "text": "Haze, I can heal you!",
       "source": "official"
     }

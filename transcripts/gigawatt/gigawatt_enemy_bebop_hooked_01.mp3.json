@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_enemy_bebop_hooked_01.mp3",
   "revisions": [
     {
-      "sha256": "164225c397b1935e9065e9d3a57e189727dd2f41b921ef52b1e20963bfbd4d60",
+      "sha256": [
+        "164225c397b1935e9065e9d3a57e189727dd2f41b921ef52b1e20963bfbd4d60"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c7231c63accffcdbfe70e0e8d9762034cfc67924a9fcb01bd8d9f2d5eae209d0",
-      "text": "Release me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6f32d96901a114d1c4ad6b19dc233fc85778753bb16db9501e27f5fd62dcbc6",
-      "text": "Release me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bab0da4cc1d3b2ad468f9887cd175fb2d488d806226c407833632803dd7b6707",
+      "sha256": [
+        "bab0da4cc1d3b2ad468f9887cd175fb2d488d806226c407833632803dd7b6707",
+        "c6f32d96901a114d1c4ad6b19dc233fc85778753bb16db9501e27f5fd62dcbc6",
+        "c7231c63accffcdbfe70e0e8d9762034cfc67924a9fcb01bd8d9f2d5eae209d0"
+      ],
       "text": "Release me!",
       "source": "official"
     }

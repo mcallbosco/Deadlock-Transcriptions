@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "52e8429347fe3bb9b3a1740c891b72e455ff14f666bde8c36584b563456e9917",
+      "sha256": [
+        "52e8429347fe3bb9b3a1740c891b72e455ff14f666bde8c36584b563456e9917"
+      ],
       "text": "I'm not your wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4886a8be949ddceb01f4050a2429317403e5dd5bc8efaabda1497010de4804b6",
+      "sha256": [
+        "4886a8be949ddceb01f4050a2429317403e5dd5bc8efaabda1497010de4804b6"
+      ],
       "text": "I'm with you, Wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

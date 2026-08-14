@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_forge_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "3dbc12c3553b132054a3faea1f8234f2157ac139e1e0256fd09b272d45e7dbac",
+      "sha256": [
+        "3dbc12c3553b132054a3faea1f8234f2157ac139e1e0256fd09b272d45e7dbac",
+        "8135d2f36f61dacf37a05ff84d69f250f1397a1b4111e0d9f04c27a61ce05a59"
+      ],
       "text": "McGinnis is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8135d2f36f61dacf37a05ff84d69f250f1397a1b4111e0d9f04c27a61ce05a59",
-      "text": "McGinnis is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3cfd9ff6280d505572628b256cfddd80bbc9535d68ba540ad7dc46d46edd1979",
+      "sha256": [
+        "3cfd9ff6280d505572628b256cfddd80bbc9535d68ba540ad7dc46d46edd1979"
+      ],
       "text": "McGinnis's on the roof!",
       "source": "official"
     }

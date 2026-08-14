@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_unstoppable_01.mp3",
   "revisions": [
     {
-      "sha256": "e1140a6117cbfd42332825e4d262bab0d5f42546f588fb5bbdcba85a804df116",
-      "text": "You can't stop me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2652d64df3722073eb35f02c6e2071ea55c09da137a42add6259740dc919cfa5",
-      "text": "You can't stop me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c90f0ad19f12b2f07af72d5c8c874a47ff2d1a666ad64ebd90084f07dc6f1f62",
+      "sha256": [
+        "2652d64df3722073eb35f02c6e2071ea55c09da137a42add6259740dc919cfa5",
+        "c90f0ad19f12b2f07af72d5c8c874a47ff2d1a666ad64ebd90084f07dc6f1f62",
+        "e1140a6117cbfd42332825e4d262bab0d5f42546f588fb5bbdcba85a804df116"
+      ],
       "text": "You can't stop me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

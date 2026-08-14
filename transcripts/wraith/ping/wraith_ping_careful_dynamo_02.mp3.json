@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "a34ea01674a3beab1f07f5133bf51d4ccdd392f173f5380234fc69f26dd5cc49",
-      "text": "Careful, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c3c2f53f3abea100ad6a92a92e6c4dd181506763b8d691dfc8a90d1387b2b66",
-      "text": "Careful, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48cc82f5cc45aa93ded33034a6d418466b25b72f8e35d019c49e82add035f0ef",
-      "text": "Careful, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0804193beff5e46053dc57df132a209669e4afb0f014def7e372a789f32b3880",
+      "sha256": [
+        "0804193beff5e46053dc57df132a209669e4afb0f014def7e372a789f32b3880",
+        "2c3c2f53f3abea100ad6a92a92e6c4dd181506763b8d691dfc8a90d1387b2b66",
+        "48cc82f5cc45aa93ded33034a6d418466b25b72f8e35d019c49e82add035f0ef",
+        "a34ea01674a3beab1f07f5133bf51d4ccdd392f173f5380234fc69f26dd5cc49"
+      ],
       "text": "Careful, Dynamo",
       "source": "official"
     }

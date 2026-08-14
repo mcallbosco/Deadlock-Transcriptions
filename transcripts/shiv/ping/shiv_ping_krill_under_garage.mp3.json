@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_krill_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "c693f43e3b6de763c13daf99a1ba1229fc554fe5ecf57a80ccd2e3490cca3def",
+      "sha256": [
+        "abb314886a141fcdab25ce54ae92b4a1fa9e2090ee79465f5181b88cff70e6c4",
+        "c693f43e3b6de763c13daf99a1ba1229fc554fe5ecf57a80ccd2e3490cca3def"
+      ],
       "text": "You crushed!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "abb314886a141fcdab25ce54ae92b4a1fa9e2090ee79465f5181b88cff70e6c4",
-      "text": "You crushed!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e36b49086bb4f3707ab49210237d6be8b11e0d4bd6de61dfc39c2aefac4593e0",
+      "sha256": [
+        "e36b49086bb4f3707ab49210237d6be8b11e0d4bd6de61dfc39c2aefac4593e0"
+      ],
       "text": "Krill's under the garage!",
       "source": "official"
     }

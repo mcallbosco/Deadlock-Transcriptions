@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "cb4df450c8325f4fe4374b3c8183228bc847cd094a6dae7b7547a7584a23074e",
+      "sha256": [
+        "cb4df450c8325f4fe4374b3c8183228bc847cd094a6dae7b7547a7584a23074e"
+      ],
       "text": "I'm busy, Paige.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

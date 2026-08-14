@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "887b802c038e51d7a4738ab048879b52afeae80fbde49e2d98e9abfbd4e3e82b",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "624c72481ac0802ec5c7e641ba9e9108caf5132d07e729e3b35a1dd1be7194c8",
+      "sha256": [
+        "624c72481ac0802ec5c7e641ba9e9108caf5132d07e729e3b35a1dd1be7194c8",
+        "887b802c038e51d7a4738ab048879b52afeae80fbde49e2d98e9abfbd4e3e82b"
+      ],
       "text": "On my way",
       "source": "official"
     }

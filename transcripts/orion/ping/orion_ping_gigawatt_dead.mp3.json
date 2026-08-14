@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_gigawatt_dead.mp3",
   "revisions": [
     {
-      "sha256": "9acf98793ea6e41aa87c5d8af28399cd516ace4f43c0e1a00a8b24c1e7949a5c",
-      "text": "Seven is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4d50403ac2753edb6056db1e5562c3496ae24d36eff923a4fca0730bcebfd4d",
-      "text": "Seven is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f144b66afda78ad73b06c0333f3c0a6c9d8e415ba3e4c53e34b51b9b3d6a29c",
+      "sha256": [
+        "3f144b66afda78ad73b06c0333f3c0a6c9d8e415ba3e4c53e34b51b9b3d6a29c",
+        "9acf98793ea6e41aa87c5d8af28399cd516ace4f43c0e1a00a8b24c1e7949a5c",
+        "e4d50403ac2753edb6056db1e5562c3496ae24d36eff923a4fca0730bcebfd4d"
+      ],
       "text": "Seven is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

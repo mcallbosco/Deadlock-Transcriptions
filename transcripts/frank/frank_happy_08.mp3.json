@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_happy_08.mp3",
   "revisions": [
     {
-      "sha256": "872f04bf4d423048138a4ac8c22dcfc04cd66117c4a949d0fd37d320993ef15d",
+      "sha256": [
+        "872f04bf4d423048138a4ac8c22dcfc04cd66117c4a949d0fd37d320993ef15d"
+      ],
       "text": "I'm grateful for the help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "74447b620235c8d0837e45a5a34d102fe0e377e0d4276c96418db6a0213b8726",
+      "sha256": [
+        "74447b620235c8d0837e45a5a34d102fe0e377e0d4276c96418db6a0213b8726"
+      ],
       "text": "Add it to blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5f10ccd22515c576261e434c9216ff3888be9998dca3cde02754d921aa41299d",
-      "text": "Headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d13544a909508c03ccd78972790d17c3579b3c7d1c62a6a20496413fe1db7b1f",
-      "text": "Headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "29fe22cb0497bfb0b87732a3858c09fd19eff81e27e3b79fdd4c269b832ea30e",
+      "sha256": [
+        "29fe22cb0497bfb0b87732a3858c09fd19eff81e27e3b79fdd4c269b832ea30e",
+        "5f10ccd22515c576261e434c9216ff3888be9998dca3cde02754d921aa41299d",
+        "d13544a909508c03ccd78972790d17c3579b3c7d1c62a6a20496413fe1db7b1f"
+      ],
       "text": "Headed to Blue",
       "source": "official"
     }

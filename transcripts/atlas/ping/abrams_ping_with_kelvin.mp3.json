@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "9ddbca258cd5cdf2f0010256e0a1b01a92d3d27332b2ca630cc934dd28cd206a",
+      "sha256": [
+        "9ddbca258cd5cdf2f0010256e0a1b01a92d3d27332b2ca630cc934dd28cd206a"
+      ],
       "text": "How was you, Calvin?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "545a3d01976ecdda92ff8f8f7d4d88200dc4cfe9bc801618f1ab262c05eb235c",
-      "text": "I'm with you, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "efc1e1f1e3565fb57475996a532cbe42e5d770c606d61c46a5d54c59b48260f2",
+      "sha256": [
+        "545a3d01976ecdda92ff8f8f7d4d88200dc4cfe9bc801618f1ab262c05eb235c",
+        "efc1e1f1e3565fb57475996a532cbe42e5d770c606d61c46a5d54c59b48260f2"
+      ],
       "text": "I'm with you, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

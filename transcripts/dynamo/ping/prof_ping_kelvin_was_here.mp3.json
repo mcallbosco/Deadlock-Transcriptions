@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9565ef47fc4bdc4417ef35155f6bc9225e21762064d9c41be86c56ef71d935ee",
-      "text": "Calvin was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7746e818fe8d75c10b93d63a38312a7e65db74d0c13b43c2866f1961b0acb0d4",
+      "sha256": [
+        "7746e818fe8d75c10b93d63a38312a7e65db74d0c13b43c2866f1961b0acb0d4",
+        "9565ef47fc4bdc4417ef35155f6bc9225e21762064d9c41be86c56ef71d935ee"
+      ],
       "text": "Calvin was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

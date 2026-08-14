@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_cadence_was_here.mp3",
   "revisions": [
     {
-      "sha256": "383c4a4e68073ab18c7bf7f4545f7cdeb7705e000234f1d6ce271a75294dd558",
-      "text": "Cadence was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58912431861aec717c96bc9b527ac9bfd4e4c989a658137daf839e45014b864d",
-      "text": "Cadence was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6ee9b6332fcbd6fe533642643bdb827737d2390463e81a41616b21337059d9d",
-      "text": "Cadence was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac6b46b7024907d310ca7ae72af08e6380001a888f7235bc4c59a018c4efe520",
+      "sha256": [
+        "383c4a4e68073ab18c7bf7f4545f7cdeb7705e000234f1d6ce271a75294dd558",
+        "58912431861aec717c96bc9b527ac9bfd4e4c989a658137daf839e45014b864d",
+        "ac6b46b7024907d310ca7ae72af08e6380001a888f7235bc4c59a018c4efe520",
+        "b6ee9b6332fcbd6fe533642643bdb827737d2390463e81a41616b21337059d9d"
+      ],
       "text": "Cadence was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

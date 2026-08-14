@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_atlas.mp3",
   "revisions": [
     {
-      "sha256": "e8c2f6677d0081ac38b3b50482e3d9f24520d9d69fbf897b0e4e68a8c987b383",
+      "sha256": [
+        "e8c2f6677d0081ac38b3b50482e3d9f24520d9d69fbf897b0e4e68a8c987b383"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

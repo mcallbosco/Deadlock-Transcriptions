@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d090300966bbc0f194fc1a6062ffba70a2ca3c096d467f34463ec192f58f9b1b",
+      "sha256": [
+        "2d9dd96dd19c60aee51c8d72952bf39b96ef5e838694e2a49806b2ce47e187b4",
+        "ac7891387d54e4a28dd0eac114efa169abfcbc296eaf1fd810d11d819b7dbfd0",
+        "d090300966bbc0f194fc1a6062ffba70a2ca3c096d467f34463ec192f58f9b1b"
+      ],
       "text": "Viscous is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2d9dd96dd19c60aee51c8d72952bf39b96ef5e838694e2a49806b2ce47e187b4",
-      "text": "Viscous is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac7891387d54e4a28dd0eac114efa169abfcbc296eaf1fd810d11d819b7dbfd0",
-      "text": "Viscous is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bee00e4a96a262d21e51a44c9441095dbe6074e6cb58bf308ca6fe52c3a12300",
+      "sha256": [
+        "bee00e4a96a262d21e51a44c9441095dbe6074e6cb58bf308ca6fe52c3a12300"
+      ],
       "text": "Viscous's missing",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_base_breached_01.mp3",
   "revisions": [
     {
-      "sha256": "04b13312b55247c8f1b8f3dee12062bad0feaa019edce48b950fad7047e1b6dc",
-      "text": "Enemies have breached our stronghold!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "151da7f95d5eb77508e3d1731ad1eae9d376b92bbdc8433866aa237f782611ac",
-      "text": "Enemies have breached our stronghold!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07c05a9b2faec6a2a5b9b610f7d0c2580c83656a13904277a6aa612e758e7278",
+      "sha256": [
+        "04b13312b55247c8f1b8f3dee12062bad0feaa019edce48b950fad7047e1b6dc",
+        "07c05a9b2faec6a2a5b9b610f7d0c2580c83656a13904277a6aa612e758e7278",
+        "151da7f95d5eb77508e3d1731ad1eae9d376b92bbdc8433866aa237f782611ac"
+      ],
       "text": "Enemies have breached our stronghold…",
       "source": "official"
     }

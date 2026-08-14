@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "70b627e021019c372409370ffd6eb585aa43bb148e9339ee466a49c96d3d1ff7",
-      "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2d14d9193c3741181097385d55a6e00a5c02ae43679b7ee643c06f81a01950d",
+      "sha256": [
+        "70b627e021019c372409370ffd6eb585aa43bb148e9339ee466a49c96d3d1ff7",
+        "f2d14d9193c3741181097385d55a6e00a5c02ae43679b7ee643c06f81a01950d"
+      ],
       "text": "I'm with you, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_chrono_01.mp3",
   "revisions": [
     {
-      "sha256": "fa66bbae2e10686a682cce0c8861c4ea716f66108cbc9b0e0438e61f3bab0265",
-      "text": "I see Chrono.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "722c5a3848cd12e79f2d204d05d25417dd06073f51a0005d43c5fbcd5149dc5d",
-      "text": "I see Chrono.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60e725ad2c3270850fe4b85d913985d03a1067868f7feb59791c4a7fbebd81ad",
+      "sha256": [
+        "60e725ad2c3270850fe4b85d913985d03a1067868f7feb59791c4a7fbebd81ad",
+        "722c5a3848cd12e79f2d204d05d25417dd06073f51a0005d43c5fbcd5149dc5d",
+        "fa66bbae2e10686a682cce0c8861c4ea716f66108cbc9b0e0438e61f3bab0265"
+      ],
       "text": "I see Chrono.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

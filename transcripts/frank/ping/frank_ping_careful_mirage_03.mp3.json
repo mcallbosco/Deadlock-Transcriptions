@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_mirage_03.mp3",
   "revisions": [
     {
-      "sha256": "07e3c576fc33bc78f705f102b0e3c0d906a3d311bb678d67d12cc904c0da215d",
-      "text": "Careful, Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b089451c9130806906579b1fbcb9bc58bacf31ab7467d334ca4bca17eba81f74",
+      "sha256": [
+        "07e3c576fc33bc78f705f102b0e3c0d906a3d311bb678d67d12cc904c0da215d",
+        "b089451c9130806906579b1fbcb9bc58bacf31ab7467d334ca4bca17eba81f74"
+      ],
       "text": "Careful, Mirage!",
       "source": "official"
     }

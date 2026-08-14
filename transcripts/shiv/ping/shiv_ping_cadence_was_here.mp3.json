@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_cadence_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c65a90683c9dd18c2a22c162f699c90405543a1d66553e56a40c837acb6186d7",
+      "sha256": [
+        "c65a90683c9dd18c2a22c162f699c90405543a1d66553e56a40c837acb6186d7",
+        "d90515ab7fb20a399e4c47b1260ebb7f988afcbc67d3ee0c5dbadb68e1477555"
+      ],
       "text": "Let's do this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d90515ab7fb20a399e4c47b1260ebb7f988afcbc67d3ee0c5dbadb68e1477555",
-      "text": "Let's do this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60517bf13734fd0987a948498dda301459620282e75a86746733ca72614af141",
+      "sha256": [
+        "60517bf13734fd0987a948498dda301459620282e75a86746733ca72614af141"
+      ],
       "text": "Caden's was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

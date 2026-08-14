@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_upgrade_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "995fb483d7441e90e2936e51e3230c5188e4fa0c048a7660591b87de221cd6dd",
+      "sha256": [
+        "46fd0146fa7aec49f21c61356623e653744c5ab17e882a4f0e81a2788ead8ccf",
+        "995fb483d7441e90e2936e51e3230c5188e4fa0c048a7660591b87de221cd6dd"
+      ],
       "text": "Speak to us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "46fd0146fa7aec49f21c61356623e653744c5ab17e882a4f0e81a2788ead8ccf",
-      "text": "Speak to us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e78a14bee41c6d6ce1bfd8b4ab06a592856ad3d01c0b94b571924fb438713eff",
+      "sha256": [
+        "e78a14bee41c6d6ce1bfd8b4ab06a592856ad3d01c0b94b571924fb438713eff"
+      ],
       "text": "Speak to you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

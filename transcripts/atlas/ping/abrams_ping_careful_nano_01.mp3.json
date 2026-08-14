@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "1b15817a5cd0d851793026121c03820ea858d7f85bd5714906a6b8c339d5122e",
-      "text": "Careful, Nano.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac34be32f7d39f4657b8a401e49587924cdec2d59e850d3eb30590368748159b",
+      "sha256": [
+        "1b15817a5cd0d851793026121c03820ea858d7f85bd5714906a6b8c339d5122e",
+        "ac34be32f7d39f4657b8a401e49587924cdec2d59e850d3eb30590368748159b"
+      ],
       "text": "Careful, Nano.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

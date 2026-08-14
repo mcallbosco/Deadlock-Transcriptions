@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ef17672f1227eaa0090c5552a5af2c9c4f9b9b14dca3c9d4bed4f51c299b2143",
+      "sha256": [
+        "06c6ea0dd7b50f1bb9dea2bc6495d32e1c0d2737361dbea49a25f72f8d33d701",
+        "ef17672f1227eaa0090c5552a5af2c9c4f9b9b14dca3c9d4bed4f51c299b2143"
+      ],
       "text": "Warden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06c6ea0dd7b50f1bb9dea2bc6495d32e1c0d2737361dbea49a25f72f8d33d701",
-      "text": "Warden was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

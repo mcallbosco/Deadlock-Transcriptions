@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_use_ability4_11.mp3",
   "revisions": [
     {
-      "sha256": "4e793cf121faf980027e8e253d1e3cce5c366a7593764cea8166cdcfa2ad9da2",
+      "sha256": [
+        "4e793cf121faf980027e8e253d1e3cce5c366a7593764cea8166cdcfa2ad9da2"
+      ],
       "text": "What time is it?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "88f787900d7f55d8bf51f6d4afaebcb78c8f8febee11d76b065fe120f71432f7",
+      "sha256": [
+        "88f787900d7f55d8bf51f6d4afaebcb78c8f8febee11d76b065fe120f71432f7",
+        "db2b7d7a3710affa29baaa955dfdde6ad86ef105fa8908b3628234291ec491d3"
+      ],
       "text": "What time is it? Lame!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "db2b7d7a3710affa29baaa955dfdde6ad86ef105fa8908b3628234291ec491d3",
-      "text": "What time is it? Lame.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ad50c3b16da3b51f9fa72859605be1034616b2d13a3640b5373982da9a5b5d0",
+      "sha256": [
+        "9ad50c3b16da3b51f9fa72859605be1034616b2d13a3640b5373982da9a5b5d0"
+      ],
       "text": "What time is it? Lash time.",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/nano_sad_03.mp3",
   "revisions": [
     {
-      "sha256": "ae1d5e7b915582bbe6025d4233658577ead3abc58fad26e84ca2d80747110f7e",
+      "sha256": [
+        "ae1d5e7b915582bbe6025d4233658577ead3abc58fad26e84ca2d80747110f7e"
+      ],
       "text": "My plan failed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

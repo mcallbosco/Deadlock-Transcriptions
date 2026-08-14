@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_t2_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "c33b44298b81d1c5ae60bcb84d1319ba534c87c6882c8f9af90ccb44cd8dfa54",
-      "text": "I should take a look at what I can afford.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f854726032ff26317f67b2c95de30a87633753d405fcf0bac6d9e1df1c74599b",
-      "text": "I should take a look at what I can afford.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d882f05d435e88f7d6438ace9729202cf8ea8bd4dc7eee08106f59bf4e60511",
-      "text": "I should take a look at what I can afford.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "89b62a77583bf246d423c200443aedeb8c0d6c4b1d2f1935d6de641933de0d22",
+      "sha256": [
+        "3d882f05d435e88f7d6438ace9729202cf8ea8bd4dc7eee08106f59bf4e60511",
+        "89b62a77583bf246d423c200443aedeb8c0d6c4b1d2f1935d6de641933de0d22",
+        "c33b44298b81d1c5ae60bcb84d1319ba534c87c6882c8f9af90ccb44cd8dfa54",
+        "f854726032ff26317f67b2c95de30a87633753d405fcf0bac6d9e1df1c74599b"
+      ],
       "text": "I should take a look at what I can afford…",
       "source": "official"
     }

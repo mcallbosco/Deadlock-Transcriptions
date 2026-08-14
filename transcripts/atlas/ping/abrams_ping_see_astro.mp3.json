@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_astro.mp3",
   "revisions": [
     {
-      "sha256": "f4837dd8b6b69c2b1520f9ee2ec8a39dc7ebb656907551c047a694222c28bebf",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e1a026f105a50c5fc945f67a5f947dd912fa095311f6dec388de75a489c49a3",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "614dddf67e617431fda4414386dcc6a8ad053672e625573e61184daef669388a",
+      "sha256": [
+        "1e1a026f105a50c5fc945f67a5f947dd912fa095311f6dec388de75a489c49a3",
+        "614dddf67e617431fda4414386dcc6a8ad053672e625573e61184daef669388a",
+        "f4837dd8b6b69c2b1520f9ee2ec8a39dc7ebb656907551c047a694222c28bebf"
+      ],
       "text": "I see Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

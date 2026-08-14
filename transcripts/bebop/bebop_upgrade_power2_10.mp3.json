@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power2_10.mp3",
   "revisions": [
     {
-      "sha256": "ca373675c765af77b2585d6b2cc84548cae3bce967fb3b075f873f2a8291f857",
+      "sha256": [
+        "ca373675c765af77b2585d6b2cc84548cae3bce967fb3b075f873f2a8291f857"
+      ],
       "text": "This is how you start a fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3722d6cb5992e4ee2c59d69982727223f2becd3a6ed9b89f4805de4cfe15254f",
+      "sha256": [
+        "3722d6cb5992e4ee2c59d69982727223f2becd3a6ed9b89f4805de4cfe15254f"
+      ],
       "text": "Now this is how you start a fight.",
       "source": "official"
     }

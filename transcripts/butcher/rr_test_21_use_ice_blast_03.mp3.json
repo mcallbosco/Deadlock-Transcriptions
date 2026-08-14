@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_ice_blast_03.mp3",
   "revisions": [
     {
-      "sha256": "1c52872acee1a347e21976aa7e454839bc06ca1780877d9f80b6363b05e1a20a",
-      "text": "This ice protects me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5cf92df27baf4446d569eec5fdd3192dd297a5f9dae45aaace4bd673bda0023",
-      "text": "This ice protects me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6528853efe2f7ee3d17ccfb1c68368357a3a924f06b3d3f25cac7526efadbea",
+      "sha256": [
+        "1c52872acee1a347e21976aa7e454839bc06ca1780877d9f80b6363b05e1a20a",
+        "e5cf92df27baf4446d569eec5fdd3192dd297a5f9dae45aaace4bd673bda0023",
+        "f6528853efe2f7ee3d17ccfb1c68368357a3a924f06b3d3f25cac7526efadbea"
+      ],
       "text": "This ice protects me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

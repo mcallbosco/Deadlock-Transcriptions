@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "11c6a302227b0bac864a0948187ec859f19cf5d71f1d31aa9d2940da4a72966c",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9655805ddf49c3fde67c7720abac04885924aa6c9d25a18253845060fb05bea1",
+      "sha256": [
+        "11c6a302227b0bac864a0948187ec859f19cf5d71f1d31aa9d2940da4a72966c",
+        "9655805ddf49c3fde67c7720abac04885924aa6c9d25a18253845060fb05bea1"
+      ],
       "text": "Item's on cooldown",
       "source": "official"
     }

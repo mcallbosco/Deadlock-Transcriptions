@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_the_boss_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "c1bf34c6765f3dafeec1a7f33c6481957f820d8b392dc82f10b0ea0b312b2d40",
-      "text": "The boss is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24cfe1fb0e1534cbd44e8cf0d944f93df6d43327456ca5f6f1308e3703020e6d",
+      "sha256": [
+        "24cfe1fb0e1534cbd44e8cf0d944f93df6d43327456ca5f6f1308e3703020e6d",
+        "c1bf34c6765f3dafeec1a7f33c6481957f820d8b392dc82f10b0ea0b312b2d40"
+      ],
       "text": "The boss is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

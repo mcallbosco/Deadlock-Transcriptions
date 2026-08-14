@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_mirage_03.mp3",
   "revisions": [
     {
-      "sha256": "fb364f85557fbc61e0b7ceabe3f8c2294e5cad4566ead5469a198315d6d76f4b",
+      "sha256": [
+        "fb364f85557fbc61e0b7ceabe3f8c2294e5cad4566ead5469a198315d6d76f4b"
+      ],
       "text": "Capital rise.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b26e1917faa48a65cd0920215f856850be8aaff7325fec7bc7b9e4d11eabfc02",
+      "sha256": [
+        "11135a538165ef26bb6a052689d17dfa76a9ad878e8020d6a804d006145eba2b",
+        "b26e1917faa48a65cd0920215f856850be8aaff7325fec7bc7b9e4d11eabfc02"
+      ],
       "text": "Careful, Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "7e097e6574a011b153ab4aeb078e124d883a2d4920bd5ac36066c807af5365d1",
+      "sha256": [
+        "7e097e6574a011b153ab4aeb078e124d883a2d4920bd5ac36066c807af5365d1"
+      ],
       "text": "Care for the rush!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11135a538165ef26bb6a052689d17dfa76a9ad878e8020d6a804d006145eba2b",
-      "text": "Careful, Mirage!",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_lash_check_items.mp3",
   "revisions": [
     {
-      "sha256": "002a1e944504e6ed98e09ce05486f6cf9083bb35a89793565a8604eb9e44dac8",
-      "text": "Check out what Lash bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f57464299237c441d07b275e7555d4afaff8fdfa9448a2ecb8324e207ebcfc54",
+      "sha256": [
+        "002a1e944504e6ed98e09ce05486f6cf9083bb35a89793565a8604eb9e44dac8",
+        "f57464299237c441d07b275e7555d4afaff8fdfa9448a2ecb8324e207ebcfc54"
+      ],
       "text": "Check out what Lash bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

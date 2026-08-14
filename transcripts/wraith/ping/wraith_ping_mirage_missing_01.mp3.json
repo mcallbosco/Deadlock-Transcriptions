@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3cde3fe551333bed8bfd3e67b77bd336b6d54741db6ce1d28fe5c23c35fa73f9",
+      "sha256": [
+        "0ef09f4f63a060328a297766e233838b21d4f19d2e0dddff46f43a88766d4ce7",
+        "3cde3fe551333bed8bfd3e67b77bd336b6d54741db6ce1d28fe5c23c35fa73f9",
+        "e525bfb5da0a37679de8c17e2b5f733f60abb4c68fd795e8465317cdf44bcba8"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ef09f4f63a060328a297766e233838b21d4f19d2e0dddff46f43a88766d4ce7",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e525bfb5da0a37679de8c17e2b5f733f60abb4c68fd795e8465317cdf44bcba8",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95065a608d7e1c5c7d905d453862b218aed3a3ee8d98880390a0c313dbd2bd76",
+      "sha256": [
+        "95065a608d7e1c5c7d905d453862b218aed3a3ee8d98880390a0c313dbd2bd76"
+      ],
       "text": "Mirage's missing",
       "source": "official"
     }

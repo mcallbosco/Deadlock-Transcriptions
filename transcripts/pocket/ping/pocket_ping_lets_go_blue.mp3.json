@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "32ac68000025b897070f249349be098f81f7bcff9b554cdae3beb95d0c87958a",
-      "text": "Let's go, Blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a940c1930ad6b63cd5bf935ead67d0d9ea3d322c605b287d92bbdd8a5bd7f25c",
+      "sha256": [
+        "32ac68000025b897070f249349be098f81f7bcff9b554cdae3beb95d0c87958a",
+        "a940c1930ad6b63cd5bf935ead67d0d9ea3d322c605b287d92bbdd8a5bd7f25c"
+      ],
       "text": "Let's go, Blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

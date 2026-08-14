@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_enemy_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "b2b758ae858f7ef8662bfd2dd4c93316fe64de23407b325a748c32660d0ca257",
-      "text": "Enemies on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2911d55a2de226c21165e218b3dc404d5d05569b5fe00e95bae830b5ae0fdfc5",
-      "text": "Enemies on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "287bf3c36eef09d30bd335d4c348f8a1010ddbb43b61b789aa8fb28fc429a359",
+      "sha256": [
+        "287bf3c36eef09d30bd335d4c348f8a1010ddbb43b61b789aa8fb28fc429a359",
+        "2911d55a2de226c21165e218b3dc404d5d05569b5fe00e95bae830b5ae0fdfc5",
+        "b2b758ae858f7ef8662bfd2dd4c93316fe64de23407b325a748c32660d0ca257"
+      ],
       "text": "Enemies on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

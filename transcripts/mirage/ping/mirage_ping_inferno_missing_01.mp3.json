@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "670fe2bd3846da9115c85ef777ccaff96bed1397736b30be5269727d73e5bf27",
+      "sha256": [
+        "670fe2bd3846da9115c85ef777ccaff96bed1397736b30be5269727d73e5bf27"
+      ],
       "text": "That's all I'm missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b1c841dab2c8d2f6e2a071001d3a217a0031e06756f287db2a05bae886b31465",
+      "sha256": [
+        "b1c841dab2c8d2f6e2a071001d3a217a0031e06756f287db2a05bae886b31465",
+        "e510ade3ac9a96d1969a2347cf1062ce8c16200645207a044be5cc34c576aa5c"
+      ],
       "text": "Infernus missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e510ade3ac9a96d1969a2347cf1062ce8c16200645207a044be5cc34c576aa5c",
-      "text": "Infernus missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cf51428aa881260aaf33302166519313865c849c52dae73d1ea1d5164c14c57",
+      "sha256": [
+        "9cf51428aa881260aaf33302166519313865c849c52dae73d1ea1d5164c14c57"
+      ],
       "text": "Infernus's missing",
       "source": "official"
     }

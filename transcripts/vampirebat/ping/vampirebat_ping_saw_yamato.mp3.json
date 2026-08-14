@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "8d03284c75ae706de660dbd4fd9720c7f8c2b7e899bf7a5d355c38b16b8cb339",
+      "sha256": [
+        "8d03284c75ae706de660dbd4fd9720c7f8c2b7e899bf7a5d355c38b16b8cb339",
+        "c1a0ed62294e7bc4797551127943b2f4c0ca6bdcb8804e2b91f9bb18181fae96"
+      ],
       "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1a0ed62294e7bc4797551127943b2f4c0ca6bdcb8804e2b91f9bb18181fae96",
-      "text": "I saw Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

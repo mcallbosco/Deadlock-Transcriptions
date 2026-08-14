@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_ally_krill_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "292057039c50ae874dabc7991a2cf3a65401ba988d881cae23e0bbbfe0123c24",
+      "sha256": [
+        "292057039c50ae874dabc7991a2cf3a65401ba988d881cae23e0bbbfe0123c24"
+      ],
       "text": "That's a girl!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "133e23131e2cd4aab5142170bad79f60c78b422d16f7352c6c175a860dc692e1",
+      "sha256": [
+        "133e23131e2cd4aab5142170bad79f60c78b422d16f7352c6c175a860dc692e1"
+      ],
       "text": "They took out Krill!",
       "source": "official"
     }

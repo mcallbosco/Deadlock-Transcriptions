@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_ability1_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "83e02f977e8f1ecab3f09e7c5d52c220b67502c16184968928ab7999a54177ea",
+      "sha256": [
+        "83e02f977e8f1ecab3f09e7c5d52c220b67502c16184968928ab7999a54177ea"
+      ],
       "text": "Lightning bolt on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d9cf546c43163b816f77e5a997a4d2b4f457c1fd38fe2c5a7775a163493da85",
+      "sha256": [
+        "090348455a19c603a38fcf10533ae6b687f2845b5db975d8c450139a22f7668a",
+        "3d9cf546c43163b816f77e5a997a4d2b4f457c1fd38fe2c5a7775a163493da85"
+      ],
       "text": "Lightning ball on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "090348455a19c603a38fcf10533ae6b687f2845b5db975d8c450139a22f7668a",
-      "text": "Lightning ball on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2054b5484f5403be4e2f1d68f56205054c588539054db15a408680203329104b",
+      "sha256": [
+        "2054b5484f5403be4e2f1d68f56205054c588539054db15a408680203329104b"
+      ],
       "text": "Lightning Ball's on cooldown",
       "source": "official"
     }

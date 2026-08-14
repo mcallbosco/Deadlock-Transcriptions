@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "397538c57d5372293c50af9ee7a3535d9a1ea841a0c44dfcd8ec20111c096cf8",
+      "sha256": [
+        "397538c57d5372293c50af9ee7a3535d9a1ea841a0c44dfcd8ec20111c096cf8"
+      ],
       "text": "That's all for me, man.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2b4a66daf92c1236a5c63b0cc3e36a165bf761ccfe05524877ca70c66b3f5d4b",
-      "text": "Careful, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9aaba4bc53010ac14a76f910c7a4950b03aef6d6bcaabfaf383d0942c5f61f4",
-      "text": "Careful, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02e84515d715d26fcf94f435d6932336f75efcf845967510f706955a4969b557",
+      "sha256": [
+        "02e84515d715d26fcf94f435d6932336f75efcf845967510f706955a4969b557",
+        "2b4a66daf92c1236a5c63b0cc3e36a165bf761ccfe05524877ca70c66b3f5d4b",
+        "c9aaba4bc53010ac14a76f910c7a4950b03aef6d6bcaabfaf383d0942c5f61f4"
+      ],
       "text": "Careful, Yamato",
       "source": "official"
     }

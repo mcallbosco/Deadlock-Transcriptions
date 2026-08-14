@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_glitch_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "c536770c61e1b5ba1db1e7ccac0bcd044349c5ef53006ee9a9accb226302c01f",
+      "sha256": [
+        "c536770c61e1b5ba1db1e7ccac0bcd044349c5ef53006ee9a9accb226302c01f"
+      ],
       "text": "Cursed is almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "de52fac86377756a78d4b93c0457ef72acab69959bccbda2ccb8d9666d1e9c4f",
-      "text": "Curse is almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "352d0633b766943600b7224e7683a22d1f10f1d1999ed62602087671a83853fd",
+      "sha256": [
+        "352d0633b766943600b7224e7683a22d1f10f1d1999ed62602087671a83853fd",
+        "de52fac86377756a78d4b93c0457ef72acab69959bccbda2ccb8d9666d1e9c4f"
+      ],
       "text": "curse is almost ready",
       "source": "official"
     }

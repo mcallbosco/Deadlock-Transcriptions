@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_saw_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "c1db2e5f1e13320881ce1962f1a8fbb54560a727c5750b917a25867df22c5cd1",
-      "text": "Nice kill, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf2767befd9a5178c2ea7a2b2d9c7b0c2e331d2f25e37ab85701972360b96cb1",
+      "sha256": [
+        "bf2767befd9a5178c2ea7a2b2d9c7b0c2e331d2f25e37ab85701972360b96cb1",
+        "c1db2e5f1e13320881ce1962f1a8fbb54560a727c5750b917a25867df22c5cd1"
+      ],
       "text": "Nice kill, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

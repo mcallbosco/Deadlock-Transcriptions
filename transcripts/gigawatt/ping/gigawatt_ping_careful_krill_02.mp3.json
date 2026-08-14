@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "af490bde16e19f355534ba238376153e17e788c362a5b9c46bafc8fe85d9f606",
+      "sha256": [
+        "af490bde16e19f355534ba238376153e17e788c362a5b9c46bafc8fe85d9f606"
+      ],
       "text": "Careful, crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "53bbabcd0d3c17db58849597cd73dd3ea0fe7166551f736c490004aeec78cadc",
-      "text": "Careful, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f23f40b6a3abbf00f6b0d3afaf7e913e24e3a9370314a7534e7b972f4a7d9de6",
-      "text": "Careful, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d01ffbd4b4341ae9e21ab2d08d017b9866ea3bd8dda497831ab5cf829f66e32c",
+      "sha256": [
+        "53bbabcd0d3c17db58849597cd73dd3ea0fe7166551f736c490004aeec78cadc",
+        "d01ffbd4b4341ae9e21ab2d08d017b9866ea3bd8dda497831ab5cf829f66e32c",
+        "f23f40b6a3abbf00f6b0d3afaf7e913e24e3a9370314a7534e7b972f4a7d9de6"
+      ],
       "text": "Careful, Krill",
       "source": "official"
     }

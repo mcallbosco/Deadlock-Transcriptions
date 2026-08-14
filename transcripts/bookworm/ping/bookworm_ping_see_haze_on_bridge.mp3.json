@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "84bef48b5ff85881d7855608cfa9e3af5097a2c6294a567f31472d9f1d087df6",
+      "sha256": [
+        "84bef48b5ff85881d7855608cfa9e3af5097a2c6294a567f31472d9f1d087df6"
+      ],
       "text": "Pave is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cf89ea4ae7d5d59bea70e66deffe8e2008a79dd2cb88a3164c14fa0ab1b288a3",
+      "sha256": [
+        "cf89ea4ae7d5d59bea70e66deffe8e2008a79dd2cb88a3164c14fa0ab1b288a3"
+      ],
       "text": "Haze's on the bridge!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "22e6b4d5bd608c1986e90776a4743963df1cbe2a601cfbaa4c7121360c11df8c",
+      "sha256": [
+        "22e6b4d5bd608c1986e90776a4743963df1cbe2a601cfbaa4c7121360c11df8c"
+      ],
       "text": "The beginning is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d40f0497b0f9da27a377e032d3d0a7595dce7572ba0a8266e7c499876dde5f0",
+      "sha256": [
+        "3d40f0497b0f9da27a377e032d3d0a7595dce7572ba0a8266e7c499876dde5f0"
+      ],
       "text": "McGinnis's missing.",
       "source": "official"
     }

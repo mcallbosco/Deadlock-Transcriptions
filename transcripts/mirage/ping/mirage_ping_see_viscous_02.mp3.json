@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_viscous_02.mp3",
   "revisions": [
     {
-      "sha256": "3e3497219a9a2638ec62a852093ee06ce0000eb0373b83e2ac815a2453e38548",
+      "sha256": [
+        "3e3497219a9a2638ec62a852093ee06ce0000eb0373b83e2ac815a2453e38548"
+      ],
       "text": "That's a half-boom.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e237163da6d4eb8d8d090999c664e3a9fcdea1745eece67d971f10467e8bd87f",
+      "sha256": [
+        "7ee9ba5d3e11335ecedce3eba27f6475cec17fe00b5dca1735d3b182dec4f0e0",
+        "e237163da6d4eb8d8d090999c664e3a9fcdea1745eece67d971f10467e8bd87f"
+      ],
       "text": "Here's that pile of goo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7ee9ba5d3e11335ecedce3eba27f6475cec17fe00b5dca1735d3b182dec4f0e0",
-      "text": "Here's that pile of goo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b012dbd204f75c03b70caeb4fd7dae8911569edb8c0f2e3976c41a1da4f155e",
+      "sha256": [
+        "4b012dbd204f75c03b70caeb4fd7dae8911569edb8c0f2e3976c41a1da4f155e"
+      ],
       "text": "There's that pile of goo",
       "source": "official"
     }

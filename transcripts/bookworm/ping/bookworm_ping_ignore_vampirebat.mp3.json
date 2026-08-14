@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_vampirebat.mp3",
   "revisions": [
     {
-      "sha256": "4a86d2573d982f532525071763da190bf186f6399558d88adbf029dff7e2756d",
+      "sha256": [
+        "4a86d2573d982f532525071763da190bf186f6399558d88adbf029dff7e2756d"
+      ],
       "text": "Ignore Mina.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

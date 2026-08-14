@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_haze_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "5b425f140d50e82037337b0cfc7ff1fd1a0c623001606b9d0bb32e58c5d5adb4",
-      "text": "Haze is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04ea383f2f4a396ccfd02bd333fb6a67a650df21cf086bd39e9d5a801b724610",
+      "sha256": [
+        "04ea383f2f4a396ccfd02bd333fb6a67a650df21cf086bd39e9d5a801b724610",
+        "5b425f140d50e82037337b0cfc7ff1fd1a0c623001606b9d0bb32e58c5d5adb4"
+      ],
       "text": "Haze is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

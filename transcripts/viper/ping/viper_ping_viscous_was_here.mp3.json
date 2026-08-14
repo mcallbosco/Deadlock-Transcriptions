@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_viscous_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6c65e4724dacc287833db58559a8bd0bb38cd57d7fb68a368e50b51d7b1b37ad",
+      "sha256": [
+        "6c65e4724dacc287833db58559a8bd0bb38cd57d7fb68a368e50b51d7b1b37ad"
+      ],
       "text": "Viscous was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fc5accbcef50998935c8ce792141c49dcdcadbab94c3559840889251c094cf5d",
+      "sha256": [
+        "f35a701617c06c03c187b49fbda7611b5b226bace1273211ec5c690d2dbde639",
+        "fc5accbcef50998935c8ce792141c49dcdcadbab94c3559840889251c094cf5d"
+      ],
       "text": "This gives us here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f35a701617c06c03c187b49fbda7611b5b226bace1273211ec5c690d2dbde639",
-      "text": "This gives us here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

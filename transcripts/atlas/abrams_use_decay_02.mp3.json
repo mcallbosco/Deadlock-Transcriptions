@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_decay_02.mp3",
   "revisions": [
     {
-      "sha256": "fdcc65fcee14e366196281e14ff9e1ead3ebc96d79a72f1bb1a81db844b33df4",
+      "sha256": [
+        "75f45b049366c2456635569b036d756ff311d7e83ff8282ceadcc9c4fc7a53be",
+        "fdcc65fcee14e366196281e14ff9e1ead3ebc96d79a72f1bb1a81db844b33df4"
+      ],
       "text": "Rot!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75f45b049366c2456635569b036d756ff311d7e83ff8282ceadcc9c4fc7a53be",
-      "text": "Rot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

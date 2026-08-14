@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_use_surging_power_01.mp3",
   "revisions": [
     {
-      "sha256": "a2c913e14bc97183bcad360e79f6a931b7035587efae1c2837100cba8e4ad3d8",
-      "text": "Surging power.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e0dab606b55ded07d82683537ea7943bcfc5f3e946cf1a3a1d01a73f85f161a",
+      "sha256": [
+        "1e0dab606b55ded07d82683537ea7943bcfc5f3e946cf1a3a1d01a73f85f161a",
+        "a2c913e14bc97183bcad360e79f6a931b7035587efae1c2837100cba8e4ad3d8"
+      ],
       "text": "Surging power.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

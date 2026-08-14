@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "711073f727058161ad8801075fee963c1ba03f57079a8a2de9a226a9f2ce1d07",
+      "sha256": [
+        "711073f727058161ad8801075fee963c1ba03f57079a8a2de9a226a9f2ce1d07"
+      ],
       "text": "Dammit!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6b279b5db3671aff8eb9e66a80664ecb5b4654644de662523cc9ca54b6b3df7c",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "549b5044c1a467ad06fd3be8c6dbbb2c10f38e15bbad4891306dcad22b3cfcfd",
-      "text": "Cover me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23cdf83bd878b6ee57c3912c2dca1375541eb012571243b3c5a10620038ce7f7",
+      "sha256": [
+        "23cdf83bd878b6ee57c3912c2dca1375541eb012571243b3c5a10620038ce7f7",
+        "549b5044c1a467ad06fd3be8c6dbbb2c10f38e15bbad4891306dcad22b3cfcfd",
+        "6b279b5db3671aff8eb9e66a80664ecb5b4654644de662523cc9ca54b6b3df7c"
+      ],
       "text": "Cover me",
       "source": "official"
     }

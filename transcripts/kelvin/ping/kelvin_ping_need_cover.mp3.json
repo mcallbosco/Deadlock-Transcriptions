@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "fddc6be1ecb58414c207f9944fe533db552a5cdb6dc50b09e00186d4f49c0a7d",
+      "sha256": [
+        "fddc6be1ecb58414c207f9944fe533db552a5cdb6dc50b09e00186d4f49c0a7d"
+      ],
       "text": "Come.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "604f58d23701b61300bdbe3c33037ad56b2d77e239cfaf080ae037eaef0e1fc5",
+      "sha256": [
+        "604f58d23701b61300bdbe3c33037ad56b2d77e239cfaf080ae037eaef0e1fc5"
+      ],
       "text": "Cover me",
       "source": "official"
     }

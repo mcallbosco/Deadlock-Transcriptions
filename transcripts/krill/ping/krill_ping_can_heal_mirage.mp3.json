@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "5b827094cc07e79c846aef9ed7c50fe2b3d4e6113cae0558f8331a35dd032072",
+      "sha256": [
+        "5b827094cc07e79c846aef9ed7c50fe2b3d4e6113cae0558f8331a35dd032072",
+        "fa0573c501ee76aa1d5091a2c09df3612e485ca8fbbb3ed4c7cf0062c4241a7c"
+      ],
       "text": "Mirage, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa0573c501ee76aa1d5091a2c09df3612e485ca8fbbb3ed4c7cf0062c4241a7c",
-      "text": "Mirage, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a9eea5b071148022f7f39b7722402efd3d90f3a00d007b6776e50f177aa5899",
+      "sha256": [
+        "1a9eea5b071148022f7f39b7722402efd3d90f3a00d007b6776e50f177aa5899"
+      ],
       "text": "Mirage, I can heal you!",
       "source": "official"
     }

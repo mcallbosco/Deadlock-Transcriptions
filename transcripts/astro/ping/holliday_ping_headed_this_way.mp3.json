@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "7c5506bc1249865a2ff752b20822c3ca605ccdf749d6d34855093a67259b3363",
+      "sha256": [
+        "7c5506bc1249865a2ff752b20822c3ca605ccdf749d6d34855093a67259b3363"
+      ],
       "text": "Out of this way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

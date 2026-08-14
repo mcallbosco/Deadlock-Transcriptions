@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1f5488f5b340a1435382e50a738a985c9b6548836fd3bf7765210ae01ad9ef8f",
+      "sha256": [
+        "1f5488f5b340a1435382e50a738a985c9b6548836fd3bf7765210ae01ad9ef8f"
+      ],
       "text": "She was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

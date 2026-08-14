@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_angry_03.mp3",
   "revisions": [
     {
-      "sha256": "67cf6ea6ddd038daf8fb2b9cf3b19fa7f976fe048c7776b47a58f4919c679e5d",
+      "sha256": [
+        "67cf6ea6ddd038daf8fb2b9cf3b19fa7f976fe048c7776b47a58f4919c679e5d"
+      ],
       "text": "Live together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f76c92aa832934713d3a0a15d58fd9e39de5fdb04372d3fc153d405f2d7dcc1d",
-      "text": "Get it together!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf33ad50786cf53e7099101b86fb133afc41508deffd1e40d08429a377fcd474",
+      "sha256": [
+        "bf33ad50786cf53e7099101b86fb133afc41508deffd1e40d08429a377fcd474",
+        "f76c92aa832934713d3a0a15d58fd9e39de5fdb04372d3fc153d405f2d7dcc1d"
+      ],
       "text": "Get it together!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

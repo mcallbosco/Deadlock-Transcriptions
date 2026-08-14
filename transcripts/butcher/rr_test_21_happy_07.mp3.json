@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_happy_07.mp3",
   "revisions": [
     {
-      "sha256": "a7e8fdd577b83032687fc922bcd9d545f08820fa974e8689253ed9c7e1148818",
-      "text": "When we stand united, no one can touch us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4145ec191f6a5af4f10329eb972b58bb63691834dad971bf891250c600d94702",
-      "text": "When we stand united, no one can touch us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64c4cb4f5680f79f7a3a4548681b996abd6609229faa27d41e5b37b55c9ee4ae",
+      "sha256": [
+        "4145ec191f6a5af4f10329eb972b58bb63691834dad971bf891250c600d94702",
+        "64c4cb4f5680f79f7a3a4548681b996abd6609229faa27d41e5b37b55c9ee4ae",
+        "a7e8fdd577b83032687fc922bcd9d545f08820fa974e8689253ed9c7e1148818"
+      ],
       "text": "When we stand united, no one can touch us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

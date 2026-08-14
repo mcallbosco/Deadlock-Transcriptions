@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_viscous_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "16da906325996700c1ffef8fef103b9fce2a65ba0fba86b4813fe1cc9d7c3683",
+      "sha256": [
+        "16da906325996700c1ffef8fef103b9fce2a65ba0fba86b4813fe1cc9d7c3683"
+      ],
       "text": "This isn't med.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69ab360f5d6572c765e28f051b482870b76d872c906cb5ee700948c444489227",
+      "sha256": [
+        "69ab360f5d6572c765e28f051b482870b76d872c906cb5ee700948c444489227",
+        "d368dad9c0bd52b8f0836de81f59830e6fdcefd050ec04eb7800e9178dc06d27"
+      ],
       "text": "This is mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d368dad9c0bd52b8f0836de81f59830e6fdcefd050ec04eb7800e9178dc06d27",
-      "text": "This is mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a0ace6e5c6243deceab2fd378db4793e359fd61783c108e1010a493389231f8",
+      "sha256": [
+        "7a0ace6e5c6243deceab2fd378db4793e359fd61783c108e1010a493389231f8"
+      ],
       "text": "Viscous's in mid!",
       "source": "official"
     }

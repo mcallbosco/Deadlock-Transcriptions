@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_can_heal_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "714b7acbb8641a85503dc60557659409d3a677ac8f2aa28c8ef9acde2b182e80",
+      "sha256": [
+        "714b7acbb8641a85503dc60557659409d3a677ac8f2aa28c8ef9acde2b182e80"
+      ],
       "text": "Dynamo, I can see you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5559eca28ecb4f2c85a2d0b9562462ccd079624297fca66e19819b049f1f5faf",
-      "text": "Dynamo, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2884270b2e2247f4eee0673b28d6f0a7b3590201a55bf8dd300a077baf138424",
+      "sha256": [
+        "2884270b2e2247f4eee0673b28d6f0a7b3590201a55bf8dd300a077baf138424",
+        "5559eca28ecb4f2c85a2d0b9562462ccd079624297fca66e19819b049f1f5faf"
+      ],
       "text": "Dynamo, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

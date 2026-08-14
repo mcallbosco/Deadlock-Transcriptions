@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_can_heal_astro.mp3",
   "revisions": [
     {
-      "sha256": "4e089b08e83c4442cc7dfa242d4739bf972906c022c2385e447b3090ff93cc0a",
-      "text": "Holliday, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "171514f3aed7644cc94ae0eac15a234b993a0f2a94a68653f3ab4687419d1da7",
+      "sha256": [
+        "171514f3aed7644cc94ae0eac15a234b993a0f2a94a68653f3ab4687419d1da7",
+        "4e089b08e83c4442cc7dfa242d4739bf972906c022c2385e447b3090ff93cc0a"
+      ],
       "text": "Holliday, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

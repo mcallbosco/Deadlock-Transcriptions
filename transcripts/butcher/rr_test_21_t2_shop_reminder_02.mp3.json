@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_t2_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "5856db7cb02312f662d3d8375b981a982721a5f634c32eba6b2fb25fe412353d",
-      "text": "I can afford better quality gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b41b98f7a616527adf8f4d2660266d40ec10333c08b06e8cbef43c235595dc4a",
-      "text": "I can afford better quality gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1ff39aa2ab4b76043f5e682331526cfda6b1dcf2f5e284b8086f885864ea5e8",
+      "sha256": [
+        "5856db7cb02312f662d3d8375b981a982721a5f634c32eba6b2fb25fe412353d",
+        "a1ff39aa2ab4b76043f5e682331526cfda6b1dcf2f5e284b8086f885864ea5e8",
+        "b41b98f7a616527adf8f4d2660266d40ec10333c08b06e8cbef43c235595dc4a"
+      ],
       "text": "I can afford better quality gear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "c8f972e45e1ac7200005d082c587a59fb9da5296ce35cb6ae86455e2d9ce828a",
+      "sha256": [
+        "c8f972e45e1ac7200005d082c587a59fb9da5296ce35cb6ae86455e2d9ce828a"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4bdebcab04cb7ae4ccd136cbc3f5bed1a3f859842f5b1851b992523baea911b2",
+      "sha256": [
+        "4bdebcab04cb7ae4ccd136cbc3f5bed1a3f859842f5b1851b992523baea911b2"
+      ],
       "text": "Kellen is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

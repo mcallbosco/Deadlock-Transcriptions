@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_vampirebat.mp3",
   "revisions": [
     {
-      "sha256": "2dc4e3f23d1ceec6d732e3e28c32fd82143012c8826a3183ccfde6712b23ac22",
+      "sha256": [
+        "2dc4e3f23d1ceec6d732e3e28c32fd82143012c8826a3183ccfde6712b23ac22"
+      ],
       "text": "Let's take out the vampire!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0416dc342aefa07405e8d25ee819cb5dd7058ee835a1ca2b31e62d1840cf9798",
+      "sha256": [
+        "0416dc342aefa07405e8d25ee819cb5dd7058ee835a1ca2b31e62d1840cf9798"
+      ],
       "text": "Let's take out Mina",
       "source": "official"
     }

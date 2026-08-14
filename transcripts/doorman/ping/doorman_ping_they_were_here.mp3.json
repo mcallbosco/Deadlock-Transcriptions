@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "cbf2f94f3767e05080638e62ef8e1d55bf4fec302eb1867caea5770354d11de6",
+      "sha256": [
+        "cbf2f94f3767e05080638e62ef8e1d55bf4fec302eb1867caea5770354d11de6"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

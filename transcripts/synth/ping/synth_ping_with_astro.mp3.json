@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "f12c7795444a0bb13870805be2f6ae4fad86188c441a9b475218679c3be1f4e9",
+      "sha256": [
+        "f12c7795444a0bb13870805be2f6ae4fad86188c441a9b475218679c3be1f4e9"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

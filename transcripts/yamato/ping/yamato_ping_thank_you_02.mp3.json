@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "e5b0c243a6d0dc5f0f179be721070748c51614f1796f6afe1de147a1cc551b7a",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b1abe60d150a101f0782b8efe56a95ec986cd34641f61099a181dfe479ac132d",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cb69edecbfa804338ba7058366e5b72a4597b8f4a50a4ee423b7f9d2f4a9e8a",
+      "sha256": [
+        "5cb69edecbfa804338ba7058366e5b72a4597b8f4a50a4ee423b7f9d2f4a9e8a",
+        "b1abe60d150a101f0782b8efe56a95ec986cd34641f61099a181dfe479ac132d",
+        "e5b0c243a6d0dc5f0f179be721070748c51614f1796f6afe1de147a1cc551b7a"
+      ],
       "text": "Thank you.",
       "source": "official"
     }

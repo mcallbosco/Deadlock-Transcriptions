@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_vampirebat_01.mp3",
   "revisions": [
     {
-      "sha256": "b5bd489bdddb15b788da4ee9286824e3569c0d2f768b6a4429800d69d899c839",
-      "text": "Careful, vampire.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "009ded87d9b707e0b48fccaf64c8e09c111c66bcf4cdf54e1e27d44ae2a8e883",
+      "sha256": [
+        "009ded87d9b707e0b48fccaf64c8e09c111c66bcf4cdf54e1e27d44ae2a8e883",
+        "b5bd489bdddb15b788da4ee9286824e3569c0d2f768b6a4429800d69d899c839"
+      ],
       "text": "Careful, vampire…",
       "source": "official"
     }

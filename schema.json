@@ -10,7 +10,7 @@
   "additionalProperties": false,
   "properties": {
     "schemaVersion": {
-      "const": 2
+      "const": 3
     },
     "filename": {
       "type": "string",
@@ -28,15 +28,12 @@
         "additionalProperties": false,
         "properties": {
           "sha256": {
-            "oneOf": [
-              {
-                "type": "string",
-                "pattern": "^[0-9a-f]{64}$"
-              },
-              {
-                "type": "null"
-              }
-            ]
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
           },
           "text": {
             "type": "string"

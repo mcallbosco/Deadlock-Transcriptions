@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_attack_synth.mp3",
   "revisions": [
     {
-      "sha256": "f24208cc4b0b65f917d90e54225d3ab1175f34b5b7feba4a80d899d252608840",
+      "sha256": [
+        "f24208cc4b0b65f917d90e54225d3ab1175f34b5b7feba4a80d899d252608840"
+      ],
       "text": "Let's take our pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0e4354edfdbd3217b2cfffbfef00acfa8b2723f761eae9081f02461c058a5f86",
-      "text": "Let's take out Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da3e16693a2b5adf943aaa3d5835f21c35794d0565a014c5b9dc45dfdb215256",
+      "sha256": [
+        "0e4354edfdbd3217b2cfffbfef00acfa8b2723f761eae9081f02461c058a5f86",
+        "da3e16693a2b5adf943aaa3d5835f21c35794d0565a014c5b9dc45dfdb215256"
+      ],
       "text": "Let's take out Pocket",
       "source": "official"
     }

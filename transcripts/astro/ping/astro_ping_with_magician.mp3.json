@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_with_magician.mp3",
   "revisions": [
     {
-      "sha256": "1f53b37cc8c6ef3afa4a846099d8e30958f78bc261f1679202fcfe15e8dc2c69",
+      "sha256": [
+        "1f53b37cc8c6ef3afa4a846099d8e30958f78bc261f1679202fcfe15e8dc2c69"
+      ],
       "text": "I'm with you, Sinclair!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

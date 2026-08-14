@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_viscous_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "f4dbd4a720470e97ac01175b67154eeaf34ee82391ca07bbb954aa58eb7f52bf",
+      "sha256": [
+        "f4dbd4a720470e97ac01175b67154eeaf34ee82391ca07bbb954aa58eb7f52bf"
+      ],
       "text": "That's it, isn't it?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4778e0b2fa405100209047e82c54d27c7aa7bdfec797ba1543a9f96d690d8d0c",
+      "sha256": [
+        "4778e0b2fa405100209047e82c54d27c7aa7bdfec797ba1543a9f96d690d8d0c",
+        "99c92c53e46303a7a2b6df6b024da5b10deeabd759abb19c4e4699941d0fec4a"
+      ],
       "text": "This is in mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "99c92c53e46303a7a2b6df6b024da5b10deeabd759abb19c4e4699941d0fec4a",
-      "text": "This is Inmid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "254f48a886ebdcfc6c5db72835e4ad5e2f06827e81688f594a901ab369a4f25d",
+      "sha256": [
+        "254f48a886ebdcfc6c5db72835e4ad5e2f06827e81688f594a901ab369a4f25d"
+      ],
       "text": "Viscous's in mid!",
       "source": "official"
     }

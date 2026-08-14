@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_nevermind_01.mp3",
   "revisions": [
     {
-      "sha256": "e4e3dc374ef0ae89d09629e0c87183497ee5f83b1d50a6175e35f5171fa2fa9e",
+      "sha256": [
+        "e4e3dc374ef0ae89d09629e0c87183497ee5f83b1d50a6175e35f5171fa2fa9e"
+      ],
       "text": "Never mind.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "e6d81898dcc1b52ccba425876c43eeebe1fb87a8dfb6e79e0cfade8ac64d64e0",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5739d6378c6b5fb11aeb03c4ba2eaf34e906ab0c5d834a227e12329e14839d81",
+      "sha256": [
+        "5739d6378c6b5fb11aeb03c4ba2eaf34e906ab0c5d834a227e12329e14839d81",
+        "e6d81898dcc1b52ccba425876c43eeebe1fb87a8dfb6e79e0cfade8ac64d64e0"
+      ],
       "text": "Careful, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

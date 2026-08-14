@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_with_orion.mp3",
   "revisions": [
     {
-      "sha256": "b86a11a2c75f64afafda74b2b473fe2f3c4faf0adb8bfc051afd79a632362dd2",
+      "sha256": [
+        "b86a11a2c75f64afafda74b2b473fe2f3c4faf0adb8bfc051afd79a632362dd2"
+      ],
       "text": "I'm with you, Great Talon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "674327debbda2999625511e16fcbdf3d11adc9ab6645941b406ba048280a7414",
+      "sha256": [
+        "674327debbda2999625511e16fcbdf3d11adc9ab6645941b406ba048280a7414"
+      ],
       "text": "I'm with you, Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

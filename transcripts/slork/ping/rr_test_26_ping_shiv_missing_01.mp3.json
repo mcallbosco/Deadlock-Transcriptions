@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "40af3faddcd348777868a53cf8d4f7f485706ed8c4fe0c73470e242ec0858180",
-      "text": "Chat is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f7b666dd0b784158292ee7a6fd9b36ef1e628282b4aef7bf64972e3586a26897",
+      "sha256": [
+        "40af3faddcd348777868a53cf8d4f7f485706ed8c4fe0c73470e242ec0858180",
+        "f7b666dd0b784158292ee7a6fd9b36ef1e628282b4aef7bf64972e3586a26897"
+      ],
       "text": "Chat is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "01f9cc50e823198ba91a0981aa45fa03a20bb009de066b021744c02159f733d5",
+      "sha256": [
+        "01f9cc50e823198ba91a0981aa45fa03a20bb009de066b021744c02159f733d5",
+        "0b4c813d2366fbf71ce76596deabc72344d956d1371050eb1d153f94cdfb1ab8",
+        "148960887227525e815a4651c905ad5bce7d45a8afe341159acd669839a1490f",
+        "2529ee1a45c1b7afc53e89735ced8a0c4ab6d8b0e9e004877d1944815fe0270f"
+      ],
       "text": "McGinnis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b4c813d2366fbf71ce76596deabc72344d956d1371050eb1d153f94cdfb1ab8",
-      "text": "McGinnis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "148960887227525e815a4651c905ad5bce7d45a8afe341159acd669839a1490f",
-      "text": "McGinnis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2529ee1a45c1b7afc53e89735ced8a0c4ab6d8b0e9e004877d1944815fe0270f",
-      "text": "McGinnis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c84d3b7743682a98a8fbf0709a6063a799c6fca04e12fbd66de4b477cf3b16a",
+      "sha256": [
+        "8c84d3b7743682a98a8fbf0709a6063a799c6fca04e12fbd66de4b477cf3b16a"
+      ],
       "text": "The Kenness is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

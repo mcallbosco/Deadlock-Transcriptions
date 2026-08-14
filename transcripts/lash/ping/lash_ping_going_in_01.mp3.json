@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "67b0bfeae085885421913d86d804ffa18efdc043c8daa8287d255206e33a30ab",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdf9801facb236aab4b958468ddefefde1bb9dc7cd961b0610730051568cebc6",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f9f77bd19dc77d1a797fddeddb7cf60455100f1ac039f9e84cff9424ead4f9f",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8c5a99df4a94dad0f13ff71bc20fca20afe2bc683bb9fae3382a39b3f74717b",
+      "sha256": [
+        "67b0bfeae085885421913d86d804ffa18efdc043c8daa8287d255206e33a30ab",
+        "8f9f77bd19dc77d1a797fddeddb7cf60455100f1ac039f9e84cff9424ead4f9f",
+        "a8c5a99df4a94dad0f13ff71bc20fca20afe2bc683bb9fae3382a39b3f74717b",
+        "fdf9801facb236aab4b958468ddefefde1bb9dc7cd961b0610730051568cebc6"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

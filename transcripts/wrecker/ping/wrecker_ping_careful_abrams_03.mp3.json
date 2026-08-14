@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_abrams_03.mp3",
   "revisions": [
     {
-      "sha256": "ea532637c529fc988ced07ff9216081c82ac9e07d43156c511e24ee6e758bc6d",
-      "text": "Careful, Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afe59bf84eb1155f05054479b4d27cc34a70035fbd6f8a45706b7e6c7a706191",
+      "sha256": [
+        "afe59bf84eb1155f05054479b4d27cc34a70035fbd6f8a45706b7e6c7a706191",
+        "ea532637c529fc988ced07ff9216081c82ac9e07d43156c511e24ee6e758bc6d"
+      ],
       "text": "Careful, Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

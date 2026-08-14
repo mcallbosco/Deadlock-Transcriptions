@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_need_help_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "c6f4b81dc8e41b4987f821cf90a2e30ca54f90d786824f9635847a6f69f9fa0f",
+      "sha256": [
+        "c6f4b81dc8e41b4987f821cf90a2e30ca54f90d786824f9635847a6f69f9fa0f",
+        "ef9d223d55560a1538ebf6b35bab62f6512d51b8546b9434947ca7a3850b017c"
+      ],
       "text": "Need help on Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef9d223d55560a1538ebf6b35bab62f6512d51b8546b9434947ca7a3850b017c",
-      "text": "Need help on Greenwich!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/paradox_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "a5f6bf3614a266c9fb2c72716216ccac87f70338ea3485b425a654d5980267d1",
+      "sha256": [
+        "a5f6bf3614a266c9fb2c72716216ccac87f70338ea3485b425a654d5980267d1"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

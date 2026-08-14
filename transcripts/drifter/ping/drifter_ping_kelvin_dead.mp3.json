@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "d66a8d3bb4b90e06e80a30f6445023eda90092918facfb6ed59eab810b017747",
+      "sha256": [
+        "d66a8d3bb4b90e06e80a30f6445023eda90092918facfb6ed59eab810b017747"
+      ],
       "text": "Kevin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

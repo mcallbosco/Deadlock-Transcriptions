@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/sandbox_upgrade_abilities.mp3",
   "revisions": [
     {
-      "sha256": "f671802b89ccdafbfb0ef5acb4c8509f614107b642d7ad5dc3522e63caaf3861",
-      "text": "Return to the shop to spend ability points to upgrade your abilities.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0eb3ac259aef63d08c6c00479bb33f5adf90ff994ffdb755af99f79250ad391d",
+      "sha256": [
+        "0eb3ac259aef63d08c6c00479bb33f5adf90ff994ffdb755af99f79250ad391d",
+        "f671802b89ccdafbfb0ef5acb4c8509f614107b642d7ad5dc3522e63caaf3861"
+      ],
       "text": "Return to the shop to spend ability points to upgrade your abilities.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

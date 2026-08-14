@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "2aade90d25e3ded39f3e050d510cb97ad6a62d55308ff3b1cda50d6b2cffd06b",
+      "sha256": [
+        "2aade90d25e3ded39f3e050d510cb97ad6a62d55308ff3b1cda50d6b2cffd06b",
+        "7c72c98f4524584cbf6805d569d7aae15533218dea3dae5b96a24f51074c6ffb",
+        "c617343e12962f31e54be034995abfcf9c082440982805aa2e305c793033e0cc"
+      ],
       "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c617343e12962f31e54be034995abfcf9c082440982805aa2e305c793033e0cc",
-      "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c72c98f4524584cbf6805d569d7aae15533218dea3dae5b96a24f51074c6ffb",
-      "text": "I saw Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

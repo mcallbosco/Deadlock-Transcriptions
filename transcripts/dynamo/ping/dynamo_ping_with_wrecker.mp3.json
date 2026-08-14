@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_with_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "603678d3a3780c83f7678c87504938bd8f19550e2f69c69709a22e4511c27b57",
+      "sha256": [
+        "603678d3a3780c83f7678c87504938bd8f19550e2f69c69709a22e4511c27b57"
+      ],
       "text": "I'm a reaver.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

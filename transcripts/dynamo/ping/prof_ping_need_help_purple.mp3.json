@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_need_help_purple.mp3",
   "revisions": [
     {
-      "sha256": "b2e73a7579316d1e2b9f2aa91628e2e5410e1a38965f1571f62519f3c2385a9c",
-      "text": "Help on purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93f0d8fbcc78f2cfe09d76efde40358b60631f56ad4e2ee73e77eb6c738e3dcb",
+      "sha256": [
+        "93f0d8fbcc78f2cfe09d76efde40358b60631f56ad4e2ee73e77eb6c738e3dcb",
+        "b2e73a7579316d1e2b9f2aa91628e2e5410e1a38965f1571f62519f3c2385a9c"
+      ],
       "text": "Help on purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

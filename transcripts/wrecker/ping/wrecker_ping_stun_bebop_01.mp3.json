@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_stun_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "c3fc63472dde42acbf677833bddcdf271a4860b5d0bc9b8e2d8b0f8de8af13c5",
-      "text": "Stop, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55021c5d97f7e07fe9afabf20b6d77095a9f05831a37d86f459420ba98090646",
+      "sha256": [
+        "55021c5d97f7e07fe9afabf20b6d77095a9f05831a37d86f459420ba98090646",
+        "c3fc63472dde42acbf677833bddcdf271a4860b5d0bc9b8e2d8b0f8de8af13c5"
+      ],
       "text": "Stop, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

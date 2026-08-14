@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_use_ice_blast_02.mp3",
   "revisions": [
     {
-      "sha256": "6c8fcf9d9261678e05b8cc41989015591bfd02340eda67d7819b4cb5bc37ddb2",
-      "text": "Iceblast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "1d99f5c00c610e3716a019551400ef1a54f65c5ef2e3d74d914245bad98932d1",
+        "247a1d2af7cedb2aa1ffa26ee5fca76926b5ab02d35a64506af0861e971c6e0c",
+        "6c8fcf9d9261678e05b8cc41989015591bfd02340eda67d7819b4cb5bc37ddb2",
+        "c28e8c09c7b32f44040a73c361ddc02b4b3e7f7af5650b58c172718f7c28a7d0"
+      ],
+      "text": "Ice blast!",
+      "source": "official"
     },
     {
-      "sha256": "05728a62722b8126fcc5ee2defd78a5ab9fad43fdc16a355618dbc469f629404",
+      "sha256": [
+        "05728a62722b8126fcc5ee2defd78a5ab9fad43fdc16a355618dbc469f629404"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d99f5c00c610e3716a019551400ef1a54f65c5ef2e3d74d914245bad98932d1",
-      "text": "ICE blast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c28e8c09c7b32f44040a73c361ddc02b4b3e7f7af5650b58c172718f7c28a7d0",
-      "text": "Ice Blast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "247a1d2af7cedb2aa1ffa26ee5fca76926b5ab02d35a64506af0861e971c6e0c",
-      "text": "Ice blast!",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_see_astro_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "f2638a67700273b57c7676ebca2c567c30306e7d7f4e4b240b671e7d2983afff",
+      "sha256": [
+        "f2638a67700273b57c7676ebca2c567c30306e7d7f4e4b240b671e7d2983afff"
+      ],
       "text": "Cash was on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d040c18d069189ba421998b7acf7b23974ef9fe741fb36e362daf03a464e1938",
+      "sha256": [
+        "d040c18d069189ba421998b7acf7b23974ef9fe741fb36e362daf03a464e1938"
+      ],
       "text": "Holliday's on the bridge!",
       "source": "official"
     }

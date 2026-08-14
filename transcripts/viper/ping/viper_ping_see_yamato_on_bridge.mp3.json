@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "40ebec160aae9c1b7bec433deba6dde36e889fb239a8ff6567c618b32e765c93",
+      "sha256": [
+        "40ebec160aae9c1b7bec433deba6dde36e889fb239a8ff6567c618b32e765c93"
+      ],
       "text": "Yamato is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "37db704a762704b86d53a98dbe7a804dd98e52dce381a2964243601b8b60565c",
-      "text": "Yamato's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23e5f84f66003720f270ee612d3434feada297ca48252d85a18f4e37303b4623",
+      "sha256": [
+        "23e5f84f66003720f270ee612d3434feada297ca48252d85a18f4e37303b4623",
+        "37db704a762704b86d53a98dbe7a804dd98e52dce381a2964243601b8b60565c"
+      ],
       "text": "Yamato's on the bridge!",
       "source": "official"
     }

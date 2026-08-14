@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "19e406f2854f0f6b4b9bff6a2c66d1124d5d1b0e3df5065906ee07c7b283e9f9",
+      "sha256": [
+        "19e406f2854f0f6b4b9bff6a2c66d1124d5d1b0e3df5065906ee07c7b283e9f9"
+      ],
       "text": "I say wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5a3d04d194ae70b5234f0c80f8245b5a0cf680fc1ef4b3fbddc27b480fcc027f",
-      "text": "I saw Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de045f1516874d90762af2140000ed707a1f8df6fe5cb2b9522f179256e013bd",
+      "sha256": [
+        "5a3d04d194ae70b5234f0c80f8245b5a0cf680fc1ef4b3fbddc27b480fcc027f",
+        "de045f1516874d90762af2140000ed707a1f8df6fe5cb2b9522f179256e013bd"
+      ],
       "text": "I saw Wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

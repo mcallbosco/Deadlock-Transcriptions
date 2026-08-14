@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8a76a3d1e0ba65c0ea0c02ce8295c408d0f7fe8535f0ee5a731cbeba6b475944",
+      "sha256": [
+        "8a76a3d1e0ba65c0ea0c02ce8295c408d0f7fe8535f0ee5a731cbeba6b475944"
+      ],
       "text": "Yamato is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bb436b4cab9f6ef8165368162c58ea2c8443dcfc7d899adc9a4a626fdac833a8",
+      "sha256": [
+        "bb436b4cab9f6ef8165368162c58ea2c8443dcfc7d899adc9a4a626fdac833a8"
+      ],
       "text": "Yamero was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

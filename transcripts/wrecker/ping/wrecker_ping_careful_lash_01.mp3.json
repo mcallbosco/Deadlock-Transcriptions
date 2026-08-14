@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "a327a32025c15b7bf8d17481cc8c66a0e7e2cb9dbb7bb52717cc2e1880d4c409",
-      "text": "Careful, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "875bd31e6f0a5f345cb6f4c87976556a79859159bf3700687bc446d17a0630ec",
+      "sha256": [
+        "875bd31e6f0a5f345cb6f4c87976556a79859159bf3700687bc446d17a0630ec",
+        "a327a32025c15b7bf8d17481cc8c66a0e7e2cb9dbb7bb52717cc2e1880d4c409"
+      ],
       "text": "Careful, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

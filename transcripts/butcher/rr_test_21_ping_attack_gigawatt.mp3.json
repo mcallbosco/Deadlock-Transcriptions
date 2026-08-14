@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_attack_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "b0a62110d3e967ae984fe9638305a5c16b2dafded0a07da516e8e2da18fbb941",
-      "text": "Let's take out Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c5cbeedbf4e443f57244656bd0f733e946cf68efbbbcb54dbbe6211051b0642",
-      "text": "Let's take out Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "619be002f39f4475b775b878a9f0e165246552cef3fc11db97c0cb4136e4e5da",
+      "sha256": [
+        "2c5cbeedbf4e443f57244656bd0f733e946cf68efbbbcb54dbbe6211051b0642",
+        "619be002f39f4475b775b878a9f0e165246552cef3fc11db97c0cb4136e4e5da",
+        "b0a62110d3e967ae984fe9638305a5c16b2dafded0a07da516e8e2da18fbb941"
+      ],
       "text": "Let's take out Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

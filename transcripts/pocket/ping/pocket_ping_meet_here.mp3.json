@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_meet_here.mp3",
   "revisions": [
     {
-      "sha256": "59df43ee3a03af6744fc033c827ab7072340769996b1b8ce94acc409316a9183",
-      "text": "Let's meet here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bba7da5d0fb25934525c8d0b091c672acfbee10ef0367f594540831d31eb9421",
+      "sha256": [
+        "59df43ee3a03af6744fc033c827ab7072340769996b1b8ce94acc409316a9183",
+        "bba7da5d0fb25934525c8d0b091c672acfbee10ef0367f594540831d31eb9421"
+      ],
       "text": "Let's meet here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

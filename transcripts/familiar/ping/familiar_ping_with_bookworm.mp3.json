@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_with_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "7faafaec2e9fa3cd293a30eb3e2730a45b34b4c3094c9f398adc7f858e789e20",
+      "sha256": [
+        "7faafaec2e9fa3cd293a30eb3e2730a45b34b4c3094c9f398adc7f858e789e20"
+      ],
       "text": "With you, Paige.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

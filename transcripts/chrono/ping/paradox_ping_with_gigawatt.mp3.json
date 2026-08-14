@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/paradox_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "5d37772c7fdc325c00ebc1565bd54ed5e1e7d48be8066a4637eed5666a0bf614",
+      "sha256": [
+        "5d37772c7fdc325c00ebc1565bd54ed5e1e7d48be8066a4637eed5666a0bf614"
+      ],
       "text": "Hello, Houston.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

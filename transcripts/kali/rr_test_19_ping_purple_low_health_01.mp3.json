@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_purple_low_health_01.mp3",
   "revisions": [
     {
-      "sha256": "9b50fa23d21e163e3f5e9c319567ce82aed3f6e2b153f6faf6fefa2fc3e75d80",
-      "text": "Purple Guardian has low health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5980d1d33319dea984ea22d59b56b10453655143fae9bf9f9b9812a5b8b22d22",
-      "text": "Purple Guardian has low health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99a5f3e2d816c062ce722518365b79d4fc49acf88ef5f4d32dd2e699c884800a",
+      "sha256": [
+        "5980d1d33319dea984ea22d59b56b10453655143fae9bf9f9b9812a5b8b22d22",
+        "99a5f3e2d816c062ce722518365b79d4fc49acf88ef5f4d32dd2e699c884800a",
+        "9b50fa23d21e163e3f5e9c319567ce82aed3f6e2b153f6faf6fefa2fc3e75d80"
+      ],
       "text": "Purple Guardian has low health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

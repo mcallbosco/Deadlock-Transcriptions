@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_saw_astro.mp3",
   "revisions": [
     {
-      "sha256": "7ad4c27fb2bcf6dd7420a94cd1ad8c36c31ed22a8440f37be05793b5c60c5fd0",
+      "sha256": [
+        "7ad4c27fb2bcf6dd7420a94cd1ad8c36c31ed22a8440f37be05793b5c60c5fd0"
+      ],
       "text": "I saw Holladay.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_headed_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "9474654181f10ac47664a0ae6b597947b4a909a7b0b63810791672981a2dbc79",
-      "text": "Headed to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc9be8b44ecd25e24304f07da8107ebd91a0bd358127bfd8a3fa45a40c931346",
-      "text": "Headed to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "877022ebc53d5fba94d717676563691ff495fa3e0ce7dc181e271448dc022b00",
+      "sha256": [
+        "877022ebc53d5fba94d717676563691ff495fa3e0ce7dc181e271448dc022b00",
+        "9474654181f10ac47664a0ae6b597947b4a909a7b0b63810791672981a2dbc79",
+        "dc9be8b44ecd25e24304f07da8107ebd91a0bd358127bfd8a3fa45a40c931346"
+      ],
       "text": "Headed to York",
       "source": "official"
     }

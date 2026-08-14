@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_buy_generic_upgrade_12.mp3",
   "revisions": [
     {
-      "sha256": "53e54684694e2f4216d7611482c0853cb722c4eb9314a1a967bc50994bc443fb",
-      "text": "I do what I must.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbb00db3219af83bdfbcf1b2fb3b95e2e5f02001423d110cf771bde5c0d82002",
-      "text": "I do what I must.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9511df3a285c5ae4aee76e9a9cd7c02f504b29090f8e7ff08408cb731b164703",
+      "sha256": [
+        "53e54684694e2f4216d7611482c0853cb722c4eb9314a1a967bc50994bc443fb",
+        "9511df3a285c5ae4aee76e9a9cd7c02f504b29090f8e7ff08408cb731b164703",
+        "bbb00db3219af83bdfbcf1b2fb3b95e2e5f02001423d110cf771bde5c0d82002"
+      ],
       "text": "I do what I must.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_near_miss_01.mp3",
   "revisions": [
     {
-      "sha256": "a0ab9d83186c9749f997d5b2598194966f4befe15a1c860b71d9a77d3566cb05",
-      "text": "Get back here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "559adf5028374adc444a4e37771dd89f788875e7cfbdfc95a1e4796bbd38a654",
-      "text": "Get back here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d648092e20756f9385bcf9118790c645527fc4f9b863051f54d57d691fe2303",
+      "sha256": [
+        "559adf5028374adc444a4e37771dd89f788875e7cfbdfc95a1e4796bbd38a654",
+        "5d648092e20756f9385bcf9118790c645527fc4f9b863051f54d57d691fe2303",
+        "a0ab9d83186c9749f997d5b2598194966f4befe15a1c860b71d9a77d3566cb05"
+      ],
       "text": "Get back here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

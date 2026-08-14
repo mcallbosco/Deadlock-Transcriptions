@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "d3801dc0783118568cecaf80a4d5b953a77ce92a131a9f01c46e62f6aa1cfda8",
+      "sha256": [
+        "d3801dc0783118568cecaf80a4d5b953a77ce92a131a9f01c46e62f6aa1cfda8"
+      ],
       "text": "You must have someone on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "53c4b26224c84bce15bb9c8da4b7c5f34065c0b706f0ab53d59a7f11088129f7",
+      "sha256": [
+        "53c4b26224c84bce15bb9c8da4b7c5f34065c0b706f0ab53d59a7f11088129f7"
+      ],
       "text": "Yamato's on the bridge!",
       "source": "official"
     }

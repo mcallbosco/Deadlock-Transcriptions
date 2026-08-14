@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_can_heal_warden.mp3",
   "revisions": [
     {
-      "sha256": "a13857abf0e3317c7d787349ee2df9ba8ac0bbe967d12c3455fee2022e5357d7",
+      "sha256": [
+        "5da56f537785cdfc7a085bc8925cf781c727557bcf1a0932c54442750581cf6c",
+        "a13857abf0e3317c7d787349ee2df9ba8ac0bbe967d12c3455fee2022e5357d7"
+      ],
       "text": "Gordon, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5da56f537785cdfc7a085bc8925cf781c727557bcf1a0932c54442750581cf6c",
-      "text": "Gordon, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8bb388f062a0c26649ba75eab4caa507b3a43e345693c36990c2a32ae2a49491",
+      "sha256": [
+        "8bb388f062a0c26649ba75eab4caa507b3a43e345693c36990c2a32ae2a49491"
+      ],
       "text": "Warden, I can heal you!",
       "source": "official"
     }

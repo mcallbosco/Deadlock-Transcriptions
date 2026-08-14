@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_headed_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "5e54d1f21ba6453c3a1ced728787c10f99fa4a89498dc030cff234fd9f15d2b2",
-      "text": "Get it to orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "131cdd4dcdc6685692d8ab9d3827277a565badbb8e107b57772b500603de07a3",
-      "text": "Get it to orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbacf6b626a00adcc3ed3bd0e9706c16b9323120cd66df77f5fee0fb52f06a37",
+      "sha256": [
+        "131cdd4dcdc6685692d8ab9d3827277a565badbb8e107b57772b500603de07a3",
+        "5e54d1f21ba6453c3a1ced728787c10f99fa4a89498dc030cff234fd9f15d2b2",
+        "dbacf6b626a00adcc3ed3bd0e9706c16b9323120cd66df77f5fee0fb52f06a37"
+      ],
       "text": "Get it to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

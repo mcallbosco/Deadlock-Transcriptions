@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6577e2ea6713b75cb008ca5da99f8a4495e61c5e5e91ceac4265a966f91e1ace",
+      "sha256": [
+        "6577e2ea6713b75cb008ca5da99f8a4495e61c5e5e91ceac4265a966f91e1ace"
+      ],
       "text": "This is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "27ddda3aaade6369b1429048348e4995c8514917650b0429f3f871a01a0011f8",
+      "sha256": [
+        "27ddda3aaade6369b1429048348e4995c8514917650b0429f3f871a01a0011f8",
+        "e96902270d31378170e808ae71cdd224868ce50d4801bb80c52f2722d5b2373d"
+      ],
       "text": "Case was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "459a3d0dece3ea4aa97f8af8d99d634133d527fe28ade887f260b4d00e78d20e",
+      "sha256": [
+        "459a3d0dece3ea4aa97f8af8d99d634133d527fe28ade887f260b4d00e78d20e"
+      ],
       "text": "Cache was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e96902270d31378170e808ae71cdd224868ce50d4801bb80c52f2722d5b2373d",
-      "text": "Case was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

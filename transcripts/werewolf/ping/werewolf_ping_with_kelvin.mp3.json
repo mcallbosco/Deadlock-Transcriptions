@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "98ef932bf9b6b3f9908f6bf25ae30a3b245bbc51a6d2e91d7aba0fe4a456fffd",
+      "sha256": [
+        "98ef932bf9b6b3f9908f6bf25ae30a3b245bbc51a6d2e91d7aba0fe4a456fffd"
+      ],
       "text": "I'm with you, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

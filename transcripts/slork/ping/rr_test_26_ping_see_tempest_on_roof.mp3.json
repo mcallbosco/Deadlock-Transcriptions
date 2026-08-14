@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_tempest_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "104c6bdff82d81a971d777f40ed1db4927217c6bd7e9fae8c221da667bef0a44",
+      "sha256": [
+        "104c6bdff82d81a971d777f40ed1db4927217c6bd7e9fae8c221da667bef0a44"
+      ],
       "text": "10 bits on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fb71438548a4aae4005b70db46cc781e714e3ac043eef301fb2d6cdc02b9d148",
+      "sha256": [
+        "fb71438548a4aae4005b70db46cc781e714e3ac043eef301fb2d6cdc02b9d148"
+      ],
       "text": "Tempest is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

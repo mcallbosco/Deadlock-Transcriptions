@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9f9debbf754801f3bd926e049ccab1a349c518e9074735038bd5efefcff5e507",
+      "sha256": [
+        "9f9debbf754801f3bd926e049ccab1a349c518e9074735038bd5efefcff5e507"
+      ],
       "text": "I was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

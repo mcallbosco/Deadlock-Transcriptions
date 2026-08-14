@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "efc2c452820e33baeac4675facce1bec8145a2019380bb1aa203ae818c4f64c5",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "14edc6cffa05b03dc24d16292363a0b5f11bce8ca416fd8f04905078da1c6b4f",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93418356111f19717162014e5a44acb9c520703e2d8ae1f1fade2b837f33ce4c",
+      "sha256": [
+        "14edc6cffa05b03dc24d16292363a0b5f11bce8ca416fd8f04905078da1c6b4f",
+        "93418356111f19717162014e5a44acb9c520703e2d8ae1f1fade2b837f33ce4c",
+        "efc2c452820e33baeac4675facce1bec8145a2019380bb1aa203ae818c4f64c5"
+      ],
       "text": "Careful, Dynamo",
       "source": "official"
     }

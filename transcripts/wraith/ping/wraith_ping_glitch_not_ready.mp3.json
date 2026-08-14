@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_glitch_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "9189f744d2470f0ba6c5f4cff54ae861bc9365566f26710c31d3486672efa08b",
-      "text": "Curse is on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "611f25a0c20f6a0e90a9dde089f453c92b36f384ae8eb97fbb27aad095862648",
+        "9189f744d2470f0ba6c5f4cff54ae861bc9365566f26710c31d3486672efa08b"
+      ],
+      "text": "curse is on cooldown",
+      "source": "official"
     },
     {
-      "sha256": "deac553a03deee1f087f9ca222a298f0bd28f60ead1b9473480f5aabd96771af",
+      "sha256": [
+        "deac553a03deee1f087f9ca222a298f0bd28f60ead1b9473480f5aabd96771af"
+      ],
       "text": "Curses on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "611f25a0c20f6a0e90a9dde089f453c92b36f384ae8eb97fbb27aad095862648",
-      "text": "curse is on cooldown",
-      "source": "official"
     }
   ]
 }

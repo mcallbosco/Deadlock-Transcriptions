@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "2fd147adc27a72ad451506b270571bfdb91e84122d3f5f29dfd96dcc2b72fbbe",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de645b64f82c6f6d616daccf7926d7936e8323dd1a98edf375f4d4c76586d6b0",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6c90780f68309c05210dd9b6dae8370c2371cf3570a6fc6e8e8c5019eb3aeb3",
+      "sha256": [
+        "2fd147adc27a72ad451506b270571bfdb91e84122d3f5f29dfd96dcc2b72fbbe",
+        "c6c90780f68309c05210dd9b6dae8370c2371cf3570a6fc6e8e8c5019eb3aeb3",
+        "de645b64f82c6f6d616daccf7926d7936e8323dd1a98edf375f4d4c76586d6b0"
+      ],
       "text": "I see McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

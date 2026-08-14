@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "5f36b464a1d88b0070c898ca88f583212ec41b9fd8d1a18117e04b21ef3321ed",
+      "sha256": [
+        "5f36b464a1d88b0070c898ca88f583212ec41b9fd8d1a18117e04b21ef3321ed"
+      ],
       "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

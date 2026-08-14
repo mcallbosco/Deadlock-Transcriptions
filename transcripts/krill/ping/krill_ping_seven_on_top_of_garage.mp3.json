@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_seven_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "fd8f326dff924788779d70798e27cbdf8e53489f4c3de0c1492378b27b3478ef",
-      "text": "Seven's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abf065c758e2ecf2d1e980a1ad26dc6be64b4318d1991ca624f5681062209e2f",
-      "text": "Seven's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7fee4ce9c9c08137f91b5d1b1cfa3c6dcee995827abc62825efce7caf431e65",
+      "sha256": [
+        "abf065c758e2ecf2d1e980a1ad26dc6be64b4318d1991ca624f5681062209e2f",
+        "d7fee4ce9c9c08137f91b5d1b1cfa3c6dcee995827abc62825efce7caf431e65",
+        "fd8f326dff924788779d70798e27cbdf8e53489f4c3de0c1492378b27b3478ef"
+      ],
       "text": "Seven's on top of the garage!",
       "source": "official"
     }

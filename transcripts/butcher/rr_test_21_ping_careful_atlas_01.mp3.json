@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "084d21a7b3fc42f26782e9fa4ed2923c5df96f3856b22f2eb9603cc4496fa4ab",
-      "text": "Careful, Atlas!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0de24eb8a1cd9796b04918e98f14b069a35565e1bf140095cab580d2a3c7179d",
-      "text": "Careful, Atlas.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b80933e42f7ccd125ab0538798fe87f60cac0a318668d8832e3a347ddfe62a8",
+      "sha256": [
+        "084d21a7b3fc42f26782e9fa4ed2923c5df96f3856b22f2eb9603cc4496fa4ab",
+        "0de24eb8a1cd9796b04918e98f14b069a35565e1bf140095cab580d2a3c7179d",
+        "5b80933e42f7ccd125ab0538798fe87f60cac0a318668d8832e3a347ddfe62a8"
+      ],
       "text": "Careful, Atlas.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

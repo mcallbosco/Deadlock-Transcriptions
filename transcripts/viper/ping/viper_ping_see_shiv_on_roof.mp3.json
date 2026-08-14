@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_shiv_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "54e0c5b40bd9344bab9bc0d296dfecc6171c5107d0d97d91975f98f6904c855a",
+      "sha256": [
+        "27c7bf15189d95dc1f92a2aff7d103e28776681656e3c68be671f4a9285e9f23",
+        "54e0c5b40bd9344bab9bc0d296dfecc6171c5107d0d97d91975f98f6904c855a"
+      ],
       "text": "Shiv's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "ce3dc2c10913e75e47368530c8b061ed844adb0dcc7efc8505b37f647ac9ca5d",
+      "sha256": [
+        "ce3dc2c10913e75e47368530c8b061ed844adb0dcc7efc8505b37f647ac9ca5d"
+      ],
       "text": "Chives on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "27c7bf15189d95dc1f92a2aff7d103e28776681656e3c68be671f4a9285e9f23",
-      "text": "Shiv's on the roof!",
-      "source": "official"
     }
   ]
 }

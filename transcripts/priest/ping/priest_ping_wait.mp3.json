@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_wait.mp3",
   "revisions": [
     {
-      "sha256": "179ddcd5d3f3fe7032bbca411b5f035fb04529f31fd589599cfda98b37ffc4bc",
+      "sha256": [
+        "179ddcd5d3f3fe7032bbca411b5f035fb04529f31fd589599cfda98b37ffc4bc",
+        "cf67b4736881415b5870e6c04288c8996c5aa5e6734c0f2835a8d4f642dcfeb2"
+      ],
       "text": "Hold up!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf67b4736881415b5870e6c04288c8996c5aa5e6734c0f2835a8d4f642dcfeb2",
-      "text": "Hold up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

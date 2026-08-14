@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_select_05.mp3",
   "revisions": [
     {
-      "sha256": "d069341b817dfd845f791de16ccb9132591f63b40a41cb96057c63d613f98eea",
-      "text": "Let's get this show on the road, shall we?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0cfe6888f78d76ce53d38946152491c60594fe6414287fc23fb62dd0544f10a",
+      "sha256": [
+        "a0cfe6888f78d76ce53d38946152491c60594fe6414287fc23fb62dd0544f10a",
+        "d069341b817dfd845f791de16ccb9132591f63b40a41cb96057c63d613f98eea"
+      ],
       "text": "Let's get this show on the road, shall we?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

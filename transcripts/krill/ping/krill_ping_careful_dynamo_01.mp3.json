@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "9e88f80350743707f54ae7c775810c6557dabf70f66d557d07230c1a0dc8a084",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31bbe4613a89da93d2dba88e6b60aebe0b78e4303ad79a34bfd2da094630df20",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "366af15ae963e04fdfd6af37fe57e6a7caa858d627ff28ee35d16eac7eab0c3c",
+      "sha256": [
+        "31bbe4613a89da93d2dba88e6b60aebe0b78e4303ad79a34bfd2da094630df20",
+        "366af15ae963e04fdfd6af37fe57e6a7caa858d627ff28ee35d16eac7eab0c3c",
+        "9e88f80350743707f54ae7c775810c6557dabf70f66d557d07230c1a0dc8a084"
+      ],
       "text": "Careful, Dynamo…",
       "source": "official"
     }

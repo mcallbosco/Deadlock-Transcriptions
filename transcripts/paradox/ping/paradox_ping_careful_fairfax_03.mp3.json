@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_fairfax_03.mp3",
   "revisions": [
     {
-      "sha256": "b51af34dae3d10886e740c05611a3d28ad6ac0955a018e34ef55fbf8a38f59dd",
-      "text": "Careful, Fairfax!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91af864fa0d0a86e68ee15a610c3bc7a1e074efb34f1d2cd79b80582359fe9fd",
+      "sha256": [
+        "91af864fa0d0a86e68ee15a610c3bc7a1e074efb34f1d2cd79b80582359fe9fd",
+        "b51af34dae3d10886e740c05611a3d28ad6ac0955a018e34ef55fbf8a38f59dd"
+      ],
       "text": "Careful, Fairfax!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

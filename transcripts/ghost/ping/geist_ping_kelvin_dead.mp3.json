@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "21a9b5aed2749c8a8ef1056b5cfafd241dfc53199120d47f85b64c0179a690f3",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fb6fe028231ad406fd350f523c1446e66982984cd3dce0e6807402cba8eea4a",
+      "sha256": [
+        "21a9b5aed2749c8a8ef1056b5cfafd241dfc53199120d47f85b64c0179a690f3",
+        "3fb6fe028231ad406fd350f523c1446e66982984cd3dce0e6807402cba8eea4a"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

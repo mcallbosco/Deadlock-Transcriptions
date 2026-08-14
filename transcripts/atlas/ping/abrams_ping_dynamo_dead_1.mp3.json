@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_dynamo_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "e1f52d40cdd10740964a362fbb59bdfd6ed732958ffaa7d4502c61d343f3d8c7",
+      "sha256": [
+        "e1f52d40cdd10740964a362fbb59bdfd6ed732958ffaa7d4502c61d343f3d8c7"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "57a7b1635cd60280e472a78c27bcda071f6f20c304194788e0535054722d6d61",
+      "sha256": [
+        "57a7b1635cd60280e472a78c27bcda071f6f20c304194788e0535054722d6d61"
+      ],
       "text": "Dynamo was dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

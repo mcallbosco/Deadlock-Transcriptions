@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_attack_shiv.mp3",
   "revisions": [
     {
-      "sha256": "25f5e6b5e5d1b7310ed64334d574e4ca72df49934c69d7ebb78e327e21c9465e",
+      "sha256": [
+        "25f5e6b5e5d1b7310ed64334d574e4ca72df49934c69d7ebb78e327e21c9465e",
+        "8481b50de43e3691da01fef57d8243e0177eac5ef32a88f5d82ff84c11f3ca44",
+        "ddf3103c8c47874ea63ea6da41e664fda87ff1b130b7606054902cf6fe9ddad1"
+      ],
       "text": "The takeout ship!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ddf3103c8c47874ea63ea6da41e664fda87ff1b130b7606054902cf6fe9ddad1",
-      "text": "The takeout ship!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8481b50de43e3691da01fef57d8243e0177eac5ef32a88f5d82ff84c11f3ca44",
-      "text": "The takeout ship!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68813f2aa063d242dbc3174d00cd9efd60c744ba6864e2d702c496c9977c3e54",
+      "sha256": [
+        "68813f2aa063d242dbc3174d00cd9efd60c744ba6864e2d702c496c9977c3e54"
+      ],
       "text": "Let's take out Shiv",
       "source": "official"
     }

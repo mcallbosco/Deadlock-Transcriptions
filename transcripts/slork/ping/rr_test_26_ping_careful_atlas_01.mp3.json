@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "61c0d6eae566e4092577fa95ad193a838daef29885d2ae522845345ec0dcd3e1",
-      "text": "Careful, Atlas.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e2bb657411c494ca590a00ae4598133ebcbb0099f38f06f8f6885286a86f55d",
+      "sha256": [
+        "4e2bb657411c494ca590a00ae4598133ebcbb0099f38f06f8f6885286a86f55d",
+        "61c0d6eae566e4092577fa95ad193a838daef29885d2ae522845345ec0dcd3e1"
+      ],
       "text": "Careful, Atlas.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

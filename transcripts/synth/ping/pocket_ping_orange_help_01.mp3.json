@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_orange_help_01.mp3",
   "revisions": [
     {
-      "sha256": "a9c172f822b37f5bd4705016c5940ee18a9ce6642cf0e6d398431e6a241a3002",
-      "text": "Orange needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd68a805785511cd521b1a4702987298ada89a217f8699fc6bc03b0fc62f8dba",
+      "sha256": [
+        "a9c172f822b37f5bd4705016c5940ee18a9ce6642cf0e6d398431e6a241a3002",
+        "fd68a805785511cd521b1a4702987298ada89a217f8699fc6bc03b0fc62f8dba"
+      ],
       "text": "Orange needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

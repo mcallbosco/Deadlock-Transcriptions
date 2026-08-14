@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_yamato_almost_respawn_1.mp3",
   "revisions": [
     {
-      "sha256": "bc3523b560fd23acfd159bcac0419eee2bfd525b65af1723d455a8218dd073a2",
-      "text": "Yamato is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "10291a3818d55e249e1337e5fcc2bd669275ec8f3e85cf095481bb8613fc2a64",
+      "sha256": [
+        "10291a3818d55e249e1337e5fcc2bd669275ec8f3e85cf095481bb8613fc2a64",
+        "bc3523b560fd23acfd159bcac0419eee2bfd525b65af1723d455a8218dd073a2"
+      ],
       "text": "Yamato is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

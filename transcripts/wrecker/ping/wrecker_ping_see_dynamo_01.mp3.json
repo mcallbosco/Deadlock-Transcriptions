@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "cae588cf122db9985e7c549b07ac5a6c13277786d2c96eb22a28ac8922165a99",
+      "sha256": [
+        "cae588cf122db9985e7c549b07ac5a6c13277786d2c96eb22a28ac8922165a99"
+      ],
       "text": "I see you, Diallo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "63cdee3f077203542de0feae69f7f374e231dd91daf80615ec65f6cd391a0c9d",
+      "sha256": [
+        "63cdee3f077203542de0feae69f7f374e231dd91daf80615ec65f6cd391a0c9d"
+      ],
       "text": "I see you, Dialer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

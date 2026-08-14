@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "6c305437b2171a19098acda6f9975728df8b04cde342dd6c3de0c6dcf78493d3",
+      "sha256": [
+        "6c305437b2171a19098acda6f9975728df8b04cde342dd6c3de0c6dcf78493d3"
+      ],
       "text": "Come with me, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "673c12b4bb336ff9769ca84a46a9c6a4f861830a5557dcfacd14eca77e15842b",
-      "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "97f239f6d767b9e43a02f0161d38ec1ae4e9e78e0c6211b0a808e5852144985e",
+      "sha256": [
+        "673c12b4bb336ff9769ca84a46a9c6a4f861830a5557dcfacd14eca77e15842b",
+        "97f239f6d767b9e43a02f0161d38ec1ae4e9e78e0c6211b0a808e5852144985e"
+      ],
       "text": "I'm with you, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

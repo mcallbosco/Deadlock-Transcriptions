@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_defend_base_01.mp3",
   "revisions": [
     {
-      "sha256": "da770c83a2847b3242b2b0392b129d373fa82b18bf168a86e9ebd00b00ff756f",
-      "text": "Defend the base!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cfedbee34115e3c63f6565ea7765a452dabddc9fd5acdaab315b0e4a3fc1959f",
+      "sha256": [
+        "cfedbee34115e3c63f6565ea7765a452dabddc9fd5acdaab315b0e4a3fc1959f",
+        "da770c83a2847b3242b2b0392b129d373fa82b18bf168a86e9ebd00b00ff756f"
+      ],
       "text": "Defend the base!",
       "source": "official"
     }

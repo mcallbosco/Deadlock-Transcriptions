@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_wait.mp3",
   "revisions": [
     {
-      "sha256": "fb23848061500c7977bd756530658efe00375bb8327d4ebbca079140b5a72fec",
+      "sha256": [
+        "fb23848061500c7977bd756530658efe00375bb8327d4ebbca079140b5a72fec"
+      ],
       "text": "Who's up?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e3fdb820b34c939bd5efcf5b871e0602ae23322f54ac066a84759151cd4e5864",
-      "text": "Hold up!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a349a4fd1f9bd0d10265a4b623d391a2ddb95c35d914799a1d83512130c6c1dc",
+      "sha256": [
+        "a349a4fd1f9bd0d10265a4b623d391a2ddb95c35d914799a1d83512130c6c1dc",
+        "e3fdb820b34c939bd5efcf5b871e0602ae23322f54ac066a84759151cd4e5864"
+      ],
       "text": "Hold up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

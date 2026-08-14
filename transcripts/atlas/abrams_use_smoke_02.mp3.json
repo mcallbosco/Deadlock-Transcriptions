@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_smoke_02.mp3",
   "revisions": [
     {
-      "sha256": "f1bc327a46e3f2780f9a72134bc3c2e2251ae5278409a5e1f1bd1852a6cdca8c",
-      "text": "We fight with the mind, as well as the body.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc89919b4d26baf29dd67bec9d614d5e252f7101dfd5e84a376e109d89473da4",
-      "text": "We fight with the mind, as well as the body.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a83301c9aa6b305317ad729db941ca5e52f25651b4bd37c630a77b02836fbef7",
+      "sha256": [
+        "a83301c9aa6b305317ad729db941ca5e52f25651b4bd37c630a77b02836fbef7",
+        "bc89919b4d26baf29dd67bec9d614d5e252f7101dfd5e84a376e109d89473da4",
+        "f1bc327a46e3f2780f9a72134bc3c2e2251ae5278409a5e1f1bd1852a6cdca8c"
+      ],
       "text": "We fight with the mind, as well as the body.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

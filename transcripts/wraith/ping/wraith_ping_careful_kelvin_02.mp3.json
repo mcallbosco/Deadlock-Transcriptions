@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_kelvin_02.mp3",
   "revisions": [
     {
-      "sha256": "fcd9e4e1e557911fc590da599223bff23948f494dd10431c48adf09cd057a637",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fba68fb3d308ee3111a8f4ccdf6e10beec45094181f0100de5531eb30cbc927c",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "caded654b95ad200ca80a0e3e3510789f868b4a2e98a241434893c4163520e46",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62ce75dd2d82622376f405ecc5ff3cbaf5c12da313047a932d1dd07b0d6cf97d",
+      "sha256": [
+        "62ce75dd2d82622376f405ecc5ff3cbaf5c12da313047a932d1dd07b0d6cf97d",
+        "caded654b95ad200ca80a0e3e3510789f868b4a2e98a241434893c4163520e46",
+        "fba68fb3d308ee3111a8f4ccdf6e10beec45094181f0100de5531eb30cbc927c",
+        "fcd9e4e1e557911fc590da599223bff23948f494dd10431c48adf09cd057a637"
+      ],
       "text": "Careful, Kelvin",
       "source": "official"
     }

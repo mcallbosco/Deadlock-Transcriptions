@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7c66fea3b5d1ee62b17c2d44648d9904b34f245e4ea78d21e18e388af45d2c51",
+      "sha256": [
+        "153c16926b36f592e316156a96a63e9eef6561c1c62fd47b2a1aca2694323251",
+        "7c66fea3b5d1ee62b17c2d44648d9904b34f245e4ea78d21e18e388af45d2c51",
+        "b20e82dba0918b6c1c0e663db48415d8cff7d5d6b489ccde31d2a8485beee9cd"
+      ],
       "text": "Shiv is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b20e82dba0918b6c1c0e663db48415d8cff7d5d6b489ccde31d2a8485beee9cd",
-      "text": "Shiv is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "153c16926b36f592e316156a96a63e9eef6561c1c62fd47b2a1aca2694323251",
-      "text": "Shiv is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

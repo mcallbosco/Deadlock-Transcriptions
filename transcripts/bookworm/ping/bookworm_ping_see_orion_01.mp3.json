@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "bcac8d314f06524f51b09529136ec771d98bf43b4baa585bae5826772b7cddd6",
-      "text": "I see Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1be80d86450fc03f4d1542ea8a1356151b5586f3979331930db3864b66628dda",
+      "sha256": [
+        "1be80d86450fc03f4d1542ea8a1356151b5586f3979331930db3864b66628dda",
+        "bcac8d314f06524f51b09529136ec771d98bf43b4baa585bae5826772b7cddd6"
+      ],
       "text": "I see Grey Talon.",
       "source": "official"
     }

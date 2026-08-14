@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stay_together.mp3",
   "revisions": [
     {
-      "sha256": "e0e69b2c39029b489db8165235e1c957109ab5aac874118a10f9e16986c27781",
-      "text": "Stay together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45086b7bd35934fa77eba7d02fb1ad1e498aa4a7753511b052f9144d2cfaaf71",
-      "text": "Stay together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "263d0d01b68f52ffa8ae39561493529473929d480e854d891fbd1e05e1b1e92a",
+      "sha256": [
+        "263d0d01b68f52ffa8ae39561493529473929d480e854d891fbd1e05e1b1e92a",
+        "45086b7bd35934fa77eba7d02fb1ad1e498aa4a7753511b052f9144d2cfaaf71",
+        "e0e69b2c39029b489db8165235e1c957109ab5aac874118a10f9e16986c27781"
+      ],
       "text": "Stay together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

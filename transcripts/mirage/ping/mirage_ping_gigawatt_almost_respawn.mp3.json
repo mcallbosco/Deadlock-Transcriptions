@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_gigawatt_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "0a0f972c423fdc482409f6ab9d0896d4c0ce6ecc95a9c4016f9d3831f556f5e5",
+      "sha256": [
+        "0a0f972c423fdc482409f6ab9d0896d4c0ce6ecc95a9c4016f9d3831f556f5e5",
+        "d70bee79384093603a1f2326927497e35069933ccb2be69129535412f58ca306"
+      ],
       "text": "Seven is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8febbe9c1b559512e00f589b3e2d8928f968d4a1ee09ec3465377912e74af177",
+      "sha256": [
+        "8febbe9c1b559512e00f589b3e2d8928f968d4a1ee09ec3465377912e74af177"
+      ],
       "text": "Sev is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d70bee79384093603a1f2326927497e35069933ccb2be69129535412f58ca306",
-      "text": "Seven is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

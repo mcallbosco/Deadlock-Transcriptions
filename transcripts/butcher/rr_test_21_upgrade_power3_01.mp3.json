@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "4092174ff142f021205a538dabfe6cd8267223a8274fb55b3cf7896f61c6cdfb",
-      "text": "This suffering gives me strength.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45149520c5a8fd455dbb7f87e25be4d9c39b39f81a0681e160c2637c3053a07e",
-      "text": "This suffering gives me strength.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa5fb743b15962d3f65130beb66ff29aef733d6985a99d70321cb23162264da0",
+      "sha256": [
+        "4092174ff142f021205a538dabfe6cd8267223a8274fb55b3cf7896f61c6cdfb",
+        "45149520c5a8fd455dbb7f87e25be4d9c39b39f81a0681e160c2637c3053a07e",
+        "fa5fb743b15962d3f65130beb66ff29aef733d6985a99d70321cb23162264da0"
+      ],
       "text": "This suffering gives me strength.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_atlas_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "6c2d89f2c5a7dca874dc3f0a43ed60575cb0cab71accc9b172bf1008ed1a8cc9",
+      "sha256": [
+        "6c2d89f2c5a7dca874dc3f0a43ed60575cb0cab71accc9b172bf1008ed1a8cc9",
+        "7c3e1beae934c8e154806245614d02843b222355130ba3005f09549f2f01c9b3"
+      ],
       "text": "Abrams on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7c3e1beae934c8e154806245614d02843b222355130ba3005f09549f2f01c9b3",
-      "text": "Abrams on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b705c768a7c52a7bc1236810e884acb51fadc2e5f4ce1d0cc35555ee88628496",
+      "sha256": [
+        "b705c768a7c52a7bc1236810e884acb51fadc2e5f4ce1d0cc35555ee88628496"
+      ],
       "text": "Abrams's on the roof!",
       "source": "official"
     }

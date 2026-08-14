@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_lash_was_here.mp3",
   "revisions": [
     {
-      "sha256": "58bf08e5352b836cb1a6f95b0c463a8740ff454ddb99dbceecb477604488d585",
+      "sha256": [
+        "58bf08e5352b836cb1a6f95b0c463a8740ff454ddb99dbceecb477604488d585"
+      ],
       "text": "Lash was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

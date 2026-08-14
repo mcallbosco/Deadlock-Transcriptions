@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_saw_murphy.mp3",
   "revisions": [
     {
-      "sha256": "9c086e322b7c822e8b9d32cbeef891d0929c305ca5aa8fd6f1c4f6a8fe3cd07f",
+      "sha256": [
+        "9c086e322b7c822e8b9d32cbeef891d0929c305ca5aa8fd6f1c4f6a8fe3cd07f",
+        "cae31a0ca12bc8d07157d2bf86f0fc6aa70b6338e8c2b75a4fb4779521aee50c"
+      ],
       "text": "So Murphy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cae31a0ca12bc8d07157d2bf86f0fc6aa70b6338e8c2b75a4fb4779521aee50c",
-      "text": "So Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

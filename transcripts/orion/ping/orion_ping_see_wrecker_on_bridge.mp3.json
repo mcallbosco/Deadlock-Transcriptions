@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_wrecker_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "abf434567e8df8ac155b661f98085d63992056a749592831fec5a78f310cede4",
+      "sha256": [
+        "abf434567e8df8ac155b661f98085d63992056a749592831fec5a78f310cede4"
+      ],
       "text": "Crackers on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9a4e26d0d42c4e7e8b6669c515d07b2bd1c05bdfc0fa4ae4aad306c7f8f10d8",
-      "text": "Wrecker's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "b9a4e26d0d42c4e7e8b6669c515d07b2bd1c05bdfc0fa4ae4aad306c7f8f10d8",
+        "e542871e036e531e4177a6671b3616a175140dbb83205889d29b4bb0842cba57"
+      ],
+      "text": "Wrecker's on the bridge!",
+      "source": "official"
     },
     {
-      "sha256": "2520ba7c32325738b76a291bab93cef0d7162d2e77304a4a0fa42a6f28e2645f",
+      "sha256": [
+        "2520ba7c32325738b76a291bab93cef0d7162d2e77304a4a0fa42a6f28e2645f"
+      ],
       "text": "Records on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e542871e036e531e4177a6671b3616a175140dbb83205889d29b4bb0842cba57",
-      "text": "Wrecker's on the bridge!",
-      "source": "official"
     }
   ]
 }

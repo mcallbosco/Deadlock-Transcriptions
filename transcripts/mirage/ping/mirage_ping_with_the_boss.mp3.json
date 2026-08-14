@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_with_the_boss.mp3",
   "revisions": [
     {
-      "sha256": "d3a1900ac0bce47cb08fe03e05d54a3f3a56c1f98cbb00d5fc52311835c91f20",
+      "sha256": [
+        "d3a1900ac0bce47cb08fe03e05d54a3f3a56c1f98cbb00d5fc52311835c91f20"
+      ],
       "text": "I'm with your boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

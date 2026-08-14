@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_green_help_01.mp3",
   "revisions": [
     {
-      "sha256": "a9a8dfaa2b548a03caae802d4ef3106cdc2668bf6488ef76157f1164de506134",
-      "text": "Green needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac90b242d12127df4c80789888337337b8a1271a73a45b18a4cc903c23760174",
-      "text": "Green needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f85e841ebfd6ca30c51d881eeb8c12aa0b4c6a3d62c18ac48c3af42f792e9432",
+      "sha256": [
+        "a9a8dfaa2b548a03caae802d4ef3106cdc2668bf6488ef76157f1164de506134",
+        "ac90b242d12127df4c80789888337337b8a1271a73a45b18a4cc903c23760174",
+        "f85e841ebfd6ca30c51d881eeb8c12aa0b4c6a3d62c18ac48c3af42f792e9432"
+      ],
       "text": "Green needs help!",
       "source": "official"
     }

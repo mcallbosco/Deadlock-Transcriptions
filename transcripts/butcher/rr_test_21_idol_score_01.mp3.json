@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_idol_score_01.mp3",
   "revisions": [
     {
-      "sha256": "8ba62ff77a6de7c00b1fa511e05d6b8c44815113d96ab21970e6d39a0ad32565",
-      "text": "Deliver the idol.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52dff4af7977c531166130c3c8e5fea3ca0ae1ad98e13246b91a05f4811cb8a9",
-      "text": "Deliver the idol.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf6d1feadf36e9a04f066095d4fe595a8f59ebd0e248b170823718a1465b4559",
+      "sha256": [
+        "52dff4af7977c531166130c3c8e5fea3ca0ae1ad98e13246b91a05f4811cb8a9",
+        "8ba62ff77a6de7c00b1fa511e05d6b8c44815113d96ab21970e6d39a0ad32565",
+        "cf6d1feadf36e9a04f066095d4fe595a8f59ebd0e248b170823718a1465b4559"
+      ],
       "text": "Deliver the idol.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

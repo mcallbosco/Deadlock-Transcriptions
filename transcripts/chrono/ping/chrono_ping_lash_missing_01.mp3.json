@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_lash_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4afec19cbb98160fe7ccd68202e65fd7308c533155d7fdc85a12fd25c64b71e2",
+      "sha256": [
+        "4afec19cbb98160fe7ccd68202e65fd7308c533155d7fdc85a12fd25c64b71e2"
+      ],
       "text": "Latch is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5d57c86273cdb0e7a55a526937c93b323295416f6d2ecf02bc685c2ff023e47e",
+      "sha256": [
+        "5d57c86273cdb0e7a55a526937c93b323295416f6d2ecf02bc685c2ff023e47e"
+      ],
       "text": "Lash's missing",
       "source": "official"
     }

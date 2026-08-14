@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_viper_01.mp3",
   "revisions": [
     {
-      "sha256": "00bb8e3f197d04472102bf3f4bffe85b13bbccfd47ea85efa6d727a963e66d94",
+      "sha256": [
+        "00bb8e3f197d04472102bf3f4bffe85b13bbccfd47ea85efa6d727a963e66d94"
+      ],
       "text": "I see Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "722944834426a1d655cfc4ee7addfc46bb5421f7d6e0914b1433ee576fcbaf83",
+      "sha256": [
+        "722944834426a1d655cfc4ee7addfc46bb5421f7d6e0914b1433ee576fcbaf83"
+      ],
       "text": "I see Vyper.",
       "source": "manual"
     }

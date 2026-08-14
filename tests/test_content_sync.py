@@ -95,13 +95,13 @@ class ContentSyncTests(unittest.TestCase):
         path.write_text(json.dumps(value, indent=indent) + "\n", encoding="utf-8")
 
     def write_transcript(self, text: str, source: str) -> None:
-        revision: dict[str, Any] = {"sha256": SHA, "text": text, "source": source}
+        revision: dict[str, Any] = {"sha256": [SHA], "text": text, "source": source}
         if source == "generated":
             revision["model"] = "test-model"
         self.write_json(
             self.transcript_path,
             {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "hero/line.mp3",
                 "revisions": [revision],
             },

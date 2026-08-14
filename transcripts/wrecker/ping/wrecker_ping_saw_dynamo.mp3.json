@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "98957183ea39afdeaa4eb085b6e5e03d3c1ca56cbb614f77732e39d91b70f049",
-      "text": "I saw Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7fedf4147a6a0d8c0fbc7aededce72de4893f4e4c06ee7379b4e074403e9efa1",
+      "sha256": [
+        "7fedf4147a6a0d8c0fbc7aededce72de4893f4e4c06ee7379b4e074403e9efa1",
+        "98957183ea39afdeaa4eb085b6e5e03d3c1ca56cbb614f77732e39d91b70f049"
+      ],
       "text": "I saw Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

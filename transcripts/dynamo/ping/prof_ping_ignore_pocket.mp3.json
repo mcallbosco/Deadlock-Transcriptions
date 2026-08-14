@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_ignore_pocket.mp3",
   "revisions": [
     {
-      "sha256": "5748ae8fb44c609911ecf0e6b7e238ea8291d9a9848d2b2e304eb1d9c65860ab",
+      "sha256": [
+        "5748ae8fb44c609911ecf0e6b7e238ea8291d9a9848d2b2e304eb1d9c65860ab",
+        "e429f1ceb811e5b97fe95b508be0786cac93658a3eb093921e390db20ba08ea0"
+      ],
       "text": "Ignore Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e429f1ceb811e5b97fe95b508be0786cac93658a3eb093921e390db20ba08ea0",
-      "text": "Ignore pocket!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

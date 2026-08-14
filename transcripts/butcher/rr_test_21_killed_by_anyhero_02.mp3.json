@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_killed_by_anyhero_02.mp3",
   "revisions": [
     {
-      "sha256": "5a32777b6ddbe0ca8e159a0cf65bfa05118d850634a1a5273e68e415b009a496",
-      "text": "I'm not out yet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc0c21985b84547e116bc08c07f348b99ccb6649abe3797bb75bf97bc7ee20d4",
-      "text": "I'm not out yet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4613abc42136a6a609cc8b3cfb24d6b6d1fa246538022e27819a84c41b59262a",
+      "sha256": [
+        "4613abc42136a6a609cc8b3cfb24d6b6d1fa246538022e27819a84c41b59262a",
+        "5a32777b6ddbe0ca8e159a0cf65bfa05118d850634a1a5273e68e415b009a496",
+        "fc0c21985b84547e116bc08c07f348b99ccb6649abe3797bb75bf97bc7ee20d4"
+      ],
       "text": "I'm not out yet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

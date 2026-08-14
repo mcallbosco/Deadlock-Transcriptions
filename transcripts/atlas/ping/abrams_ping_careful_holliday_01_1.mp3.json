@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_holliday_01_1.mp3",
   "revisions": [
     {
-      "sha256": "baea98b1ad3db0f9a6a4e12115eef52d03fed0c577ec5245d8c934457fdb4e59",
-      "text": "Careful, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ff1953be7738eaed9e2d08d01e3959b799d3b0b49b3225875a642004cd6b839",
+      "sha256": [
+        "2ff1953be7738eaed9e2d08d01e3959b799d3b0b49b3225875a642004cd6b839",
+        "baea98b1ad3db0f9a6a4e12115eef52d03fed0c577ec5245d8c934457fdb4e59"
+      ],
       "text": "Careful, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

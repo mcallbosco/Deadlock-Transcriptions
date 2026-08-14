@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "04e75036e41f60f26496d526e1e75d80fb20ebdd57d11d4c078a4aba5d795a68",
+      "sha256": [
+        "04e75036e41f60f26496d526e1e75d80fb20ebdd57d11d4c078a4aba5d795a68"
+      ],
       "text": "I shall warn.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "37e9810bc1b178baf5ca859d21fb6bae08a65661befcca19d63ac628b3b67e1b",
+      "sha256": [
+        "37e9810bc1b178baf5ca859d21fb6bae08a65661befcca19d63ac628b3b67e1b",
+        "816caca36958b2da00cc3a1cc7242bf4624d8d56150a5764e044116bcaa467b7"
+      ],
       "text": "I shall warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "816caca36958b2da00cc3a1cc7242bf4624d8d56150a5764e044116bcaa467b7",
-      "text": "I shall warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf4b74061a41b654fcf33944829d31bed07f40ba4357c0fe4c7506279113b9e6",
+      "sha256": [
+        "bf4b74061a41b654fcf33944829d31bed07f40ba4357c0fe4c7506279113b9e6"
+      ],
       "text": "Nice job, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "23196eb3ea99ad821c6abf475a09b7fa23cae867f747a9b8b359ddb94177d165",
+      "sha256": [
+        "23196eb3ea99ad821c6abf475a09b7fa23cae867f747a9b8b359ddb94177d165",
+        "3c90c44d71f73fc2e40838b871b27150afd660d6a0150a73444be1888c5b93ab",
+        "401bbc2e9156c452537164723fbb29f6e9a2524048aefadfbfb2a6d535026390"
+      ],
       "text": "Good night.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "401bbc2e9156c452537164723fbb29f6e9a2524048aefadfbfb2a6d535026390",
-      "text": "Good night.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c90c44d71f73fc2e40838b871b27150afd660d6a0150a73444be1888c5b93ab",
-      "text": "Good night!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

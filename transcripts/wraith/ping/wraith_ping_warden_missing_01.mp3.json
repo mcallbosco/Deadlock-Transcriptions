@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "762b3f6b0ea304b9e22f28fd4d66e2ec3e421ac0fc5b09b88d90dfde56ce71ef",
-      "text": "warden's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "762b3f6b0ea304b9e22f28fd4d66e2ec3e421ac0fc5b09b88d90dfde56ce71ef",
+        "b77c3e02437a0a2370db28fbcd3ffbfe3ebda3862a33ae527ff34bcd95d2d61a"
+      ],
+      "text": "Warden's missing",
+      "source": "official"
     },
     {
-      "sha256": "7948122cb8f280831438d47d4aefdaf04ebf5978ff31195c4f2d33dca9fe6b37",
+      "sha256": [
+        "7948122cb8f280831438d47d4aefdaf04ebf5978ff31195c4f2d33dca9fe6b37"
+      ],
       "text": "Gordon's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "412d3749fadbeb91916a90cc7b14091fd82e36493d0701769557ecb7e2c0b8b3",
+      "sha256": [
+        "412d3749fadbeb91916a90cc7b14091fd82e36493d0701769557ecb7e2c0b8b3"
+      ],
       "text": "coordinates missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b77c3e02437a0a2370db28fbcd3ffbfe3ebda3862a33ae527ff34bcd95d2d61a",
-      "text": "Warden's missing",
-      "source": "official"
     }
   ]
 }

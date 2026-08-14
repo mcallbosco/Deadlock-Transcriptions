@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_hornet.mp3",
   "revisions": [
     {
-      "sha256": "9a6fa22dbf7eb3df160cc66c35ce673894c0a15d31cdb7da49d2cddb995c5abe",
-      "text": "I'm with you, Vindicta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43025060dbf577642f18a4c51e41d6e7d158dfd93cb35c5a6048773e6235e9c1",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e058f5428d457f0fb8e5c3bc3efd61fd3257e513ce0fb93420696664611da1f5",
+      "sha256": [
+        "43025060dbf577642f18a4c51e41d6e7d158dfd93cb35c5a6048773e6235e9c1",
+        "9a6fa22dbf7eb3df160cc66c35ce673894c0a15d31cdb7da49d2cddb995c5abe",
+        "e058f5428d457f0fb8e5c3bc3efd61fd3257e513ce0fb93420696664611da1f5"
+      ],
       "text": "I'm with you, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

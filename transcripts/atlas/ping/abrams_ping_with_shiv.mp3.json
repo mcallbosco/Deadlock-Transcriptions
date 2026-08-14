@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "7127a1a0b8a92a42d7f1141e24c5058915dffa865eab7ba5fde45034cb9e507a",
+      "sha256": [
+        "7127a1a0b8a92a42d7f1141e24c5058915dffa865eab7ba5fde45034cb9e507a"
+      ],
       "text": "How would you ship?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "79ee4112ef22854a64d7356f550dfd3671cb929fff4e2cb3ea4f2aa50042f919",
-      "text": "I'm with you, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21322f28263e8129d51ac075f170900fd8c6673732f64d0296aba99f6ee5309a",
+      "sha256": [
+        "21322f28263e8129d51ac075f170900fd8c6673732f64d0296aba99f6ee5309a",
+        "79ee4112ef22854a64d7356f550dfd3671cb929fff4e2cb3ea4f2aa50042f919"
+      ],
       "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

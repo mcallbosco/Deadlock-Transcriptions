@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_mirage_check_items.mp3",
   "revisions": [
     {
-      "sha256": "5d20677734f5daf08222eb446ef2f69ed7a7704b53da06585e507a9406cf7d2d",
+      "sha256": [
+        "5d20677734f5daf08222eb446ef2f69ed7a7704b53da06585e507a9406cf7d2d",
+        "d7c8e74574ca4c46bbc06d50fcb36626ebc53f73f30c0641e1edbb03af5036cb"
+      ],
       "text": "Check out what Mirage bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7c8e74574ca4c46bbc06d50fcb36626ebc53f73f30c0641e1edbb03af5036cb",
-      "text": "Check out what Mirage bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

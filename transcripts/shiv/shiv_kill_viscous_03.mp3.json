@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_kill_viscous_03.mp3",
   "revisions": [
     {
-      "sha256": "4c4a5534273e66d7ce27f31e27fb4c4e1216a207ca3cd514870ae5624fa55d00",
+      "sha256": [
+        "4c4a5534273e66d7ce27f31e27fb4c4e1216a207ca3cd514870ae5624fa55d00"
+      ],
       "text": "This is the safe, no place for you, Viscous.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2e34dda5ff66e970038599693e659b62d2fdfc282e399e3bea18a6c9ca6fd28c",
+      "sha256": [
+        "2e34dda5ff66e970038599693e659b62d2fdfc282e399e3bea18a6c9ca6fd28c"
+      ],
       "text": "This is the safe place for you, Biscuit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fc95e95bac5162830da80f03a88568a0f7e37588195e5841aebb7e4b14b33a99",
+      "sha256": [
+        "fc95e95bac5162830da80f03a88568a0f7e37588195e5841aebb7e4b14b33a99"
+      ],
       "text": "The surface aint no place for you, Viscous…",
       "source": "official"
     }

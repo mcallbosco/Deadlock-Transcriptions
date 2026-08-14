@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "7b88b0c7598426da749b26d1cb431b82f1c50af9251403c18f57c03949d2f426",
-      "text": "I see, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "11401a58d9e02999c90a792011c44ccd786f42bce22cd4bc798332eb8151392c",
+        "7b88b0c7598426da749b26d1cb431b82f1c50af9251403c18f57c03949d2f426"
+      ],
+      "text": "I see Krill",
+      "source": "official"
     },
     {
-      "sha256": "910043457fdd7bcd35247f9cc0189a84261278b1cb248007b8665844afddb3b0",
+      "sha256": [
+        "61ef45c70bd2f7fed24323f39123836fcdddb1bb711013a5f1689b670c353fd8",
+        "910043457fdd7bcd35247f9cc0189a84261278b1cb248007b8665844afddb3b0"
+      ],
       "text": "I see, Crow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61ef45c70bd2f7fed24323f39123836fcdddb1bb711013a5f1689b670c353fd8",
-      "text": "I see, crow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11401a58d9e02999c90a792011c44ccd786f42bce22cd4bc798332eb8151392c",
-      "text": "I see Krill",
-      "source": "official"
     }
   ]
 }

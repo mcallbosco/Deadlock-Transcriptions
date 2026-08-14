@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "254c910eb6353c5d234ada675e57d324c5f303e886cd666c381e66dd4f14e4f4",
-      "text": "I see Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "07210c8bf5f4c284e823f6019a1ecc662eb12d940b989acfbf512f708405cef2",
+        "254c910eb6353c5d234ada675e57d324c5f303e886cd666c381e66dd4f14e4f4"
+      ],
+      "text": "I see vindicta",
+      "source": "official"
     },
     {
-      "sha256": "c4707043ba80e6657f69c7c06d88af3f0aacd9c7909a9a6f48aa7f0a2d335287",
+      "sha256": [
+        "c4707043ba80e6657f69c7c06d88af3f0aacd9c7909a9a6f48aa7f0a2d335287"
+      ],
       "text": "I see Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07210c8bf5f4c284e823f6019a1ecc662eb12d940b989acfbf512f708405cef2",
-      "text": "I see vindicta",
-      "source": "official"
     }
   ]
 }

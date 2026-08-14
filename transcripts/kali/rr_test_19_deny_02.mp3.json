@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_deny_02.mp3",
   "revisions": [
     {
-      "sha256": "64a82be11b6e8d5f68dc324d03ce86c6d2619c0ffea7fc826af137a3e2bc872d",
-      "text": "That money belongs to me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d0dfcc0697170d64f6c5dc5210c79774714d90f35bfe3501915d08aaabef397e",
-      "text": "That money belongs to me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9f231c7af57ea175d846525ed417917bb45ce5ba660015da5b561e576bd75b1",
+      "sha256": [
+        "64a82be11b6e8d5f68dc324d03ce86c6d2619c0ffea7fc826af137a3e2bc872d",
+        "d0dfcc0697170d64f6c5dc5210c79774714d90f35bfe3501915d08aaabef397e",
+        "f9f231c7af57ea175d846525ed417917bb45ce5ba660015da5b561e576bd75b1"
+      ],
       "text": "That money belongs to me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

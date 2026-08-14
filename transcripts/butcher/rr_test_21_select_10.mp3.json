@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_select_10.mp3",
   "revisions": [
     {
-      "sha256": "6817f900b6bc2fec9552b95a303594cc18bcee0c6672e31070885d4004faf021",
-      "text": "You try to fight me, and I'm gonna sing you a lullaby.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0936bf57867b84816502598128656f2c71f0a967bac29f0ae3453ad65f4a3e2f",
-      "text": "You try to fight me, and I'm gonna sing you a lullaby.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88113200a3042801b9c5d1ff61ffb272082238b214e8c6c6875fe56652e0b8c1",
+      "sha256": [
+        "0936bf57867b84816502598128656f2c71f0a967bac29f0ae3453ad65f4a3e2f",
+        "6817f900b6bc2fec9552b95a303594cc18bcee0c6672e31070885d4004faf021",
+        "88113200a3042801b9c5d1ff61ffb272082238b214e8c6c6875fe56652e0b8c1"
+      ],
       "text": "You try to fight me, and I'm gonna sing you a lullaby.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

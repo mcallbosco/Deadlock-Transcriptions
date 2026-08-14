@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_astro_02.mp3",
   "revisions": [
     {
-      "sha256": "fa77b77d78bcb4c4fe43b22b21b9b17127a62e3654de08597535a52494fd2b13",
+      "sha256": [
+        "fa77b77d78bcb4c4fe43b22b21b9b17127a62e3654de08597535a52494fd2b13"
+      ],
       "text": "This is all the night!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e76a6d19a3a040c709943ecdf056d55b5fecc0c2d53ac1d85c7193f45545c47b",
+      "sha256": [
+        "e76a6d19a3a040c709943ecdf056d55b5fecc0c2d53ac1d85c7193f45545c47b"
+      ],
       "text": "Careful, Holliday",
       "source": "official"
     }

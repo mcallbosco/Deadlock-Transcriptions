@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_druid_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "23b451523335591df7adad9a63e997c01f95c388019a9d4027be1aa45cb26cbb",
+      "sha256": [
+        "23b451523335591df7adad9a63e997c01f95c388019a9d4027be1aa45cb26cbb"
+      ],
       "text": "The train's missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

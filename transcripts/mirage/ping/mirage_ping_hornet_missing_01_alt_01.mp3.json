@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_hornet_missing_01_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "0a41011533e709701b3566ad45fa4dd0f4a68746b7815f9954634887dfe58091",
+      "sha256": [
+        "0a41011533e709701b3566ad45fa4dd0f4a68746b7815f9954634887dfe58091"
+      ],
       "text": "That's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_happy_05.mp3",
   "revisions": [
     {
-      "sha256": "b93345319d4378e3db39a357c9061b77bfc13cae2b5eebe8664f43c30d8d549e",
+      "sha256": [
+        "b93345319d4378e3db39a357c9061b77bfc13cae2b5eebe8664f43c30d8d549e"
+      ],
       "text": "Just like my own personal adventure story.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

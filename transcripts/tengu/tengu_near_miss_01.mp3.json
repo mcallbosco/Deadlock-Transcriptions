@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_near_miss_01.mp3",
   "revisions": [
     {
-      "sha256": "403d58b177797c8580396552be8bf927a4aeca0ef0315b30e5b5e05fa3550542",
+      "sha256": [
+        "403d58b177797c8580396552be8bf927a4aeca0ef0315b30e5b5e05fa3550542"
+      ],
       "text": "Almost had him.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "31e97fed3211cb5b6b5036e639119274f75eb31f442736e7deb0bf3fc48edd6e",
+      "sha256": [
+        "31e97fed3211cb5b6b5036e639119274f75eb31f442736e7deb0bf3fc48edd6e"
+      ],
       "text": "Almost had 'em!",
       "source": "official"
     }

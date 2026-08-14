@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_kali_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d5b29147878654af52827110cb6fe3ed507a57ce5f2796f61efd4ec72beb1321",
-      "text": "Tell me was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd64a2521b05fed9af0d0054d85206f54d4c591c475b56b3e670a02f5dc6c878",
+      "sha256": [
+        "d5b29147878654af52827110cb6fe3ed507a57ce5f2796f61efd4ec72beb1321",
+        "dd64a2521b05fed9af0d0054d85206f54d4c591c475b56b3e670a02f5dc6c878"
+      ],
       "text": "Tell me was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

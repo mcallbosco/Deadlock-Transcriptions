@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_missing_green_02.mp3",
   "revisions": [
     {
-      "sha256": "d2bb739f4094ab1ac9f3a528034a6e80f74fe989d259cc90292c00b0b164f342",
-      "text": "Missing Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0598aa21d88cbce3df94399132e04177cb96528ead5af13366da5e5cd5ad2cd1",
+      "sha256": [
+        "0598aa21d88cbce3df94399132e04177cb96528ead5af13366da5e5cd5ad2cd1",
+        "d2bb739f4094ab1ac9f3a528034a6e80f74fe989d259cc90292c00b0b164f342"
+      ],
       "text": "Missing Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

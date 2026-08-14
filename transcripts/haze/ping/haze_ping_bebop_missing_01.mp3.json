@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c85d89960124cc165b9259be2dbe38a05b6b9f718f0a91bb04bb538964554d0b",
-      "text": "Bebop's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "123a55a813b438adc713a8975fe7590ce1cf102c035557f7ec94bd56d0d5f1bb",
+        "a532d207bd755b80acc014925c87b533239c962b73926808418dd2ee210866ef",
+        "c174300512a97301ed35f6cf8cbba044da84051397c33439f55f7f5b1384ed3c",
+        "c85d89960124cc165b9259be2dbe38a05b6b9f718f0a91bb04bb538964554d0b"
+      ],
+      "text": "Bebop's missing",
+      "source": "official"
     },
     {
-      "sha256": "045f2b3c3986edac41c0b0f59906ef78245a6e411c350b83508f1dff1fa0dfec",
+      "sha256": [
+        "045f2b3c3986edac41c0b0f59906ef78245a6e411c350b83508f1dff1fa0dfec"
+      ],
       "text": "Bebop missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c174300512a97301ed35f6cf8cbba044da84051397c33439f55f7f5b1384ed3c",
-      "text": "Bebop's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a532d207bd755b80acc014925c87b533239c962b73926808418dd2ee210866ef",
-      "text": "Bebop's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "123a55a813b438adc713a8975fe7590ce1cf102c035557f7ec94bd56d0d5f1bb",
-      "text": "Bebop's missing",
-      "source": "official"
     }
   ]
 }

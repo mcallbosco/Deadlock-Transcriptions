@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "8521545a7d131c91164f9f443158d5a4c653446beed377fd5aad2f49b9cc06aa",
-      "text": "I see Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa1a321f4478beabf6d1fd3280f4b7ec212c888358b84bffa4d04c3c25e81623",
+      "sha256": [
+        "8521545a7d131c91164f9f443158d5a4c653446beed377fd5aad2f49b9cc06aa",
+        "fa1a321f4478beabf6d1fd3280f4b7ec212c888358b84bffa4d04c3c25e81623"
+      ],
       "text": "I see Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

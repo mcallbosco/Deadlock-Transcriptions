@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_cadence_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5109b0b3ba3e4d7137e06dbfd1e84d344ff15e8e1dbb88a7c27c56cee9273181",
-      "text": "Cadence was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e309acac819340ffdcb8d818cf54c001ea86460501fb9e81b676229dbf9ab13",
+      "sha256": [
+        "5109b0b3ba3e4d7137e06dbfd1e84d344ff15e8e1dbb88a7c27c56cee9273181",
+        "9e309acac819340ffdcb8d818cf54c001ea86460501fb9e81b676229dbf9ab13"
+      ],
       "text": "Cadence was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

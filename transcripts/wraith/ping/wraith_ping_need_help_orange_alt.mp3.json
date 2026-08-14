@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_need_help_orange_alt.mp3",
   "revisions": [
     {
-      "sha256": "4fb1e74a606b709bbc4642b172518edb5028798faf817d2c405730ee711725a1",
+      "sha256": [
+        "4fb1e74a606b709bbc4642b172518edb5028798faf817d2c405730ee711725a1",
+        "cc5c2e5105af499b5bedf0a2662de447b316c27ee76dd5c81b0623d1692a83be"
+      ],
       "text": "Need help on Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc5c2e5105af499b5bedf0a2662de447b316c27ee76dd5c81b0623d1692a83be",
-      "text": "Need help on orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

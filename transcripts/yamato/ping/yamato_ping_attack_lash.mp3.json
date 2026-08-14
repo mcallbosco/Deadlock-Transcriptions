@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_attack_lash.mp3",
   "revisions": [
     {
-      "sha256": "a1a8355879d1245ac3e17fa5475f13fddae4cd97e6877f65340c7eb3154846b7",
-      "text": "Let's take out Lash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "880b8585c7438eaccd3ec266ff97e4bfd86ec060fe0982c651fadb4fde0ce720",
+        "a1a8355879d1245ac3e17fa5475f13fddae4cd97e6877f65340c7eb3154846b7"
+      ],
+      "text": "Let's take out Lash",
+      "source": "official"
     },
     {
-      "sha256": "d0a177c752deafd0754ff4011620bab65046c3f6a7450db11d6821b3d4005253",
+      "sha256": [
+        "d0a177c752deafd0754ff4011620bab65046c3f6a7450db11d6821b3d4005253"
+      ],
       "text": "Let's take out the lunch.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "880b8585c7438eaccd3ec266ff97e4bfd86ec060fe0982c651fadb4fde0ce720",
-      "text": "Let's take out Lash",
-      "source": "official"
     }
   ]
 }

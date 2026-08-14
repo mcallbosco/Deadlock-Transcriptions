@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/pocket_upgrade_power4_07.mp3",
   "revisions": [
     {
-      "sha256": "69232f7c29842f8c4826970b77704c0dbd4ca71073e6b5e6a2f61f6f10134d1a",
+      "sha256": [
+        "69232f7c29842f8c4826970b77704c0dbd4ca71073e6b5e6a2f61f6f10134d1a",
+        "b9bf43277915c09f65ebb55be662cf63ac3a24fd1439e756e5edddfa71a5bba5"
+      ],
       "text": "Who knows what else this case is capable of?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9bf43277915c09f65ebb55be662cf63ac3a24fd1439e756e5edddfa71a5bba5",
-      "text": "Who knows what else this case is capable of.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

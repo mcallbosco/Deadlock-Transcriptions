@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "942d19994d4f7aef4d34a5593f5a17fba41df8418afb4ea608bebe7acc8550cb",
-      "text": "Cover me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d86de45cf9059f3610cdadcc620c17a21b6e8ac04fa262bfc5836f7160dad70",
+      "sha256": [
+        "4d86de45cf9059f3610cdadcc620c17a21b6e8ac04fa262bfc5836f7160dad70",
+        "942d19994d4f7aef4d34a5593f5a17fba41df8418afb4ea608bebe7acc8550cb"
+      ],
       "text": "Cover me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

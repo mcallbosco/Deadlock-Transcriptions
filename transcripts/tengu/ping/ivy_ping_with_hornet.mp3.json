@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_with_hornet.mp3",
   "revisions": [
     {
-      "sha256": "b32cf4d169f50bbd102087c8dd173fb4b511da6376aaaa351bc44e812212512a",
+      "sha256": [
+        "b32cf4d169f50bbd102087c8dd173fb4b511da6376aaaa351bc44e812212512a"
+      ],
       "text": "I'm with you, Vindicta!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "63ef3586cd8c13a0f4ae4ae28a3d7caa0455e823c76a64949dc82553a58642d1",
+      "sha256": [
+        "63ef3586cd8c13a0f4ae4ae28a3d7caa0455e823c76a64949dc82553a58642d1",
+        "fb65a1ff79aaed1fac0f04edf17eebf2d8f5eba8d7fb688244dded082d1232be"
+      ],
       "text": "I'm with you, Vendetta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb65a1ff79aaed1fac0f04edf17eebf2d8f5eba8d7fb688244dded082d1232be",
-      "text": "I'm with you, Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

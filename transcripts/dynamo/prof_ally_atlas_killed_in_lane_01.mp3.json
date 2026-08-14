@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_ally_atlas_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "51e5b0fd193d81580d750dcaa54351ffd787dfd0122edf2a529a715409ad5b5e",
+      "sha256": [
+        "2382d93d7960c7d96b4b18e3f5268f343a31167091b3985af155570dbad1333e",
+        "51e5b0fd193d81580d750dcaa54351ffd787dfd0122edf2a529a715409ad5b5e"
+      ],
       "text": "They took out Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2382d93d7960c7d96b4b18e3f5268f343a31167091b3985af155570dbad1333e",
-      "text": "They took out Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9190c26831fe0759fb233449f02ee2f440e8cd330cf7fcff4233ed901367bddc",
+      "sha256": [
+        "9190c26831fe0759fb233449f02ee2f440e8cd330cf7fcff4233ed901367bddc"
+      ],
       "text": "Check out Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "70e844e797f0a45d0ef194b1883e401a50d249af2d8b5e52d9f3f0a94cb0b6db",
-      "text": "Mirage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39a1d31268d31de8c708878241e8c55c656bc4a7010623b81b32541297f51ee9",
+      "sha256": [
+        "39a1d31268d31de8c708878241e8c55c656bc4a7010623b81b32541297f51ee9",
+        "70e844e797f0a45d0ef194b1883e401a50d249af2d8b5e52d9f3f0a94cb0b6db"
+      ],
       "text": "Mirage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

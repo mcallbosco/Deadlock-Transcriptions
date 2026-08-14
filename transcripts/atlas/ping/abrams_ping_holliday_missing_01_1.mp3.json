@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_holliday_missing_01_1.mp3",
   "revisions": [
     {
-      "sha256": "762a87d76bc15867277a789502317e181330f2d76936e7bced4435626d8425bb",
-      "text": "Holliday's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "158ad56031c64be5ed15f79c3a593f97a753ad0c4965e1948511246d1aac7c4a",
+      "sha256": [
+        "158ad56031c64be5ed15f79c3a593f97a753ad0c4965e1948511246d1aac7c4a",
+        "762a87d76bc15867277a789502317e181330f2d76936e7bced4435626d8425bb"
+      ],
       "text": "Holliday's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

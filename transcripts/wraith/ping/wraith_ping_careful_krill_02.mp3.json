@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "d47f5e11786ea7b063c90e9d0a511d8b17a4494264246dd21f50f29556f157e6",
-      "text": "Careful, Krill!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "7bbbf0de49667513f27b55310a2dbcc0361a3a0f385b6ff9113f6f3f0fdb41c4",
+        "d47f5e11786ea7b063c90e9d0a511d8b17a4494264246dd21f50f29556f157e6"
+      ],
+      "text": "Careful, Krill",
+      "source": "official"
     },
     {
-      "sha256": "c3c934b08180854593d8b6bfea65f9ef54fde3b492a2156338d74dceb3546efd",
+      "sha256": [
+        "c3c934b08180854593d8b6bfea65f9ef54fde3b492a2156338d74dceb3546efd"
+      ],
       "text": "That's the grill!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "21a30770a653ca58143f3c5c08c293af69aa6b2458f142101bc8f9d986939d24",
+      "sha256": [
+        "21a30770a653ca58143f3c5c08c293af69aa6b2458f142101bc8f9d986939d24"
+      ],
       "text": "Tesla Grill?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7bbbf0de49667513f27b55310a2dbcc0361a3a0f385b6ff9113f6f3f0fdb41c4",
-      "text": "Careful, Krill",
-      "source": "official"
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d75df4081fafc92b865d9be57ff90ba2a40d98a0ca8f12c90a02b7f74cb0b9b3",
+      "sha256": [
+        "d75df4081fafc92b865d9be57ff90ba2a40d98a0ca8f12c90a02b7f74cb0b9b3"
+      ],
       "text": "I don't have a message.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

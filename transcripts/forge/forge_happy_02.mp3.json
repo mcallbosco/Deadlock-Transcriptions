@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/forge_happy_02.mp3",
   "revisions": [
     {
-      "sha256": "76f1925173bcc049f875167b589ca9c112b23f4cb7dd5434a9a82114db352d19",
+      "sha256": [
+        "76f1925173bcc049f875167b589ca9c112b23f4cb7dd5434a9a82114db352d19"
+      ],
       "text": "This is going well.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

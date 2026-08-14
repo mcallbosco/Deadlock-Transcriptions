@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8f3a8ece922b40dd44bfb60a1a2932049ed11cf37a3e331298d493318eb40cd6",
-      "text": "Kelvin's missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09d787c05a0ca03b09a90242f3caac6c3d54e97bf5c1819859b71cc0b2c90717",
+      "sha256": [
+        "09d787c05a0ca03b09a90242f3caac6c3d54e97bf5c1819859b71cc0b2c90717",
+        "8f3a8ece922b40dd44bfb60a1a2932049ed11cf37a3e331298d493318eb40cd6"
+      ],
       "text": "Kelvin's missing",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_ally_swan_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "9c4fa703ebb812439ac376357ceea9c7ffc33d26a435d8ad5307ee3014698ead",
+      "sha256": [
+        "9c4fa703ebb812439ac376357ceea9c7ffc33d26a435d8ad5307ee3014698ead"
+      ],
       "text": "They took out Swan!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "220b8dbc441062a62de4ac1639b8fa34e9c5d2e521357f51adad768f06bf43d0",
+      "sha256": [
+        "220b8dbc441062a62de4ac1639b8fa34e9c5d2e521357f51adad768f06bf43d0"
+      ],
       "text": "We took out Swan!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

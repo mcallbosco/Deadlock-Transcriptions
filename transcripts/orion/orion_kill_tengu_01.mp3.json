@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "f126f38f1a01efcf2426003666fdd0560a3114841b3c721bf4f2acddc7295c48",
+      "sha256": [
+        "c9d2d1c829ad31cf8c57967accd361428181028af0c654bc596261bbd1e7b5d9",
+        "f126f38f1a01efcf2426003666fdd0560a3114841b3c721bf4f2acddc7295c48"
+      ],
       "text": "Kill the gargoyle!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c9d2d1c829ad31cf8c57967accd361428181028af0c654bc596261bbd1e7b5d9",
-      "text": "Kill the gargoyle.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e22b7b0f78b17f1f74df753a564ee799d8e697b81ca429d620b26328e26ba9d",
+      "sha256": [
+        "2e22b7b0f78b17f1f74df753a564ee799d8e697b81ca429d620b26328e26ba9d"
+      ],
       "text": "Killed the gargoyle",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/unicorn_kill_inferno_01_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "3cb32e8e60c12db8b09deeb62ea1f2ef774fd29398033899ca272dbb4ea09ae7",
+      "sha256": [
+        "3cb32e8e60c12db8b09deeb62ea1f2ef774fd29398033899ca272dbb4ea09ae7"
+      ],
       "text": "Stop inference.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

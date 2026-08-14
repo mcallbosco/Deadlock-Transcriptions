@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b42c733c0cd79bf489c6bcc11c54a0f3fff134cde0ceabd7914294b5734b1062",
+      "sha256": [
+        "b42c733c0cd79bf489c6bcc11c54a0f3fff134cde0ceabd7914294b5734b1062"
+      ],
       "text": "Dynamo, what is here?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52ba4ed94c37fa3bfc601d7ee26c671ecdf47e3db00249e8ecbe025ed1e8ce7a",
+      "sha256": [
+        "52ba4ed94c37fa3bfc601d7ee26c671ecdf47e3db00249e8ecbe025ed1e8ce7a",
+        "e0bf0d89f2a7cd0a0e9e47069e39e844393e32f0a804f0fa109bad7470f89e3d"
+      ],
       "text": "Dynamo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e0bf0d89f2a7cd0a0e9e47069e39e844393e32f0a804f0fa109bad7470f89e3d",
-      "text": "Dynamo was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "829a815e7a22ae5e109044a196b49c66f51f6b0abfb07e4c35698e4ebe54821f",
+      "sha256": [
+        "829a815e7a22ae5e109044a196b49c66f51f6b0abfb07e4c35698e4ebe54821f"
+      ],
       "text": "Dynamo here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

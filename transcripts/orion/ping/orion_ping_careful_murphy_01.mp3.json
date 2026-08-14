@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_careful_murphy_01.mp3",
   "revisions": [
     {
-      "sha256": "284744f77272e199d17e18881d203bb426ced692c0edda654ad59d43871f5808",
-      "text": "Careful, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f06d27fa02480f23d132b7abd76fe7fe1be2beafec768c30cee0f85fa55578d",
-      "text": "Careful, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04dc77599dbc4b826d9f8fd01e37ed0dab4f5dd6b6cca937087161f61dd841a0",
+      "sha256": [
+        "04dc77599dbc4b826d9f8fd01e37ed0dab4f5dd6b6cca937087161f61dd841a0",
+        "284744f77272e199d17e18881d203bb426ced692c0edda654ad59d43871f5808",
+        "4f06d27fa02480f23d132b7abd76fe7fe1be2beafec768c30cee0f85fa55578d"
+      ],
       "text": "Careful, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

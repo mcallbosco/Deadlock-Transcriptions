@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_stun_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "6e84b90841896d181a48f64142f3a770fa84ac18300096e57ae7cd9d6558578d",
-      "text": "Sun Haze.",
+      "sha256": [
+        "13734a5a4dcb609be4db017b6db633d3cf47319a9cb9458c33e65d2865bed357",
+        "6e84b90841896d181a48f64142f3a770fa84ac18300096e57ae7cd9d6558578d",
+        "8369b17d94f91d3be5687b9b807cbb65435bd501d16f3a15cc9e2e27628cdb41"
+      ],
+      "text": "Sun haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "733e2b7778f2ad3dc22b5aa9fffce6de7891c8d3a1056a65b7cf100bfda458ed",
+      "sha256": [
+        "733e2b7778f2ad3dc22b5aa9fffce6de7891c8d3a1056a65b7cf100bfda458ed"
+      ],
       "text": "Stun Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13734a5a4dcb609be4db017b6db633d3cf47319a9cb9458c33e65d2865bed357",
-      "text": "Sun haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8369b17d94f91d3be5687b9b807cbb65435bd501d16f3a15cc9e2e27628cdb41",
-      "text": "Sun haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

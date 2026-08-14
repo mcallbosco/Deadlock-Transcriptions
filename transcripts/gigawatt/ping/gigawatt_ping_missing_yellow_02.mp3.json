@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_missing_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "e7b3e7f995cc0c374e898e00ad23c71bf51e260c859402261d2558fdfddddeb0",
+      "sha256": [
+        "948518776255b522aae7c4e92c3a586cd57e14f1d6962ac6343ef7b6465545ad",
+        "e7b3e7f995cc0c374e898e00ad23c71bf51e260c859402261d2558fdfddddeb0"
+      ],
       "text": "Missing York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "625f01505ef9271ceba1ffc8169a126a9e568f2c9ad2635e51abf7c6f46eb7cb",
+      "sha256": [
+        "625f01505ef9271ceba1ffc8169a126a9e568f2c9ad2635e51abf7c6f46eb7cb"
+      ],
       "text": "Missin' York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "948518776255b522aae7c4e92c3a586cd57e14f1d6962ac6343ef7b6465545ad",
-      "text": "Missing York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

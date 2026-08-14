@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_vampirebat_01.mp3",
   "revisions": [
     {
-      "sha256": "1973911e396ac7d3c0cd524c44160e6d1c9b745674525b8a027e4eb2af4c86ea",
+      "sha256": [
+        "1973911e396ac7d3c0cd524c44160e6d1c9b745674525b8a027e4eb2af4c86ea"
+      ],
       "text": "I see the vampire.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "faa74d722d84fe8550ea175e29e6cad05e03015c0586391d04ca198da3a178ce",
+      "sha256": [
+        "faa74d722d84fe8550ea175e29e6cad05e03015c0586391d04ca198da3a178ce"
+      ],
       "text": "I see Mina.",
       "source": "official"
     }

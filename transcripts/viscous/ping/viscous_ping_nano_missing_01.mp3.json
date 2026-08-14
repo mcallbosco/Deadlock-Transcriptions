@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_nano_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1b3496b029f1e76518fd64bd7f14efd0887ca70122687699ac614fee02abc64d",
+      "sha256": [
+        "1b3496b029f1e76518fd64bd7f14efd0887ca70122687699ac614fee02abc64d"
+      ],
       "text": "Now is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "027ae89f0d02f1d23631737b1db8131293c45d70fd46cc6c64b9bedcfb9122a8",
+      "sha256": [
+        "027ae89f0d02f1d23631737b1db8131293c45d70fd46cc6c64b9bedcfb9122a8"
+      ],
       "text": "Calico's missing",
       "source": "official"
     }

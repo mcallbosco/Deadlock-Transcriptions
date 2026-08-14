@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_kill_bebop_04.mp3",
   "revisions": [
     {
-      "sha256": "251bbcd1059dc4d59bb34dca4aa23a027f6138343733a23b2bac1ce85278214b",
+      "sha256": [
+        "251bbcd1059dc4d59bb34dca4aa23a027f6138343733a23b2bac1ce85278214b"
+      ],
       "text": "Leave of is down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1afdaa132acadc30608c46fd2522a6144f8d144cfc9563c7a2cce2e344db0993",
+      "sha256": [
+        "1afdaa132acadc30608c46fd2522a6144f8d144cfc9563c7a2cce2e344db0993"
+      ],
       "text": "Bebop is down!",
       "source": "official"
     }

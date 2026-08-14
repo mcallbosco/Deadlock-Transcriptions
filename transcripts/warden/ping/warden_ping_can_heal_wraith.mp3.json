@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_can_heal_wraith.mp3",
   "revisions": [
     {
-      "sha256": "6873f098bbbf594c1ae967fb5b3ddd00c1655439c6ba128b1f2556052b4cb86d",
-      "text": "Wraith, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73752ae11b8e8d88b337db818c148f3bd15c74b9d6b3abff1de6d4a0bab8a0d0",
-      "text": "Great, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "984774813ef1d809076037a6ff83b2d164617f635971a8e5edbf6ad2f8f3a2fa",
-      "text": "Great, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1e42a973dfb998ac6fdcd50ad98ba512e456de2b1fd9a0a6ed60b08a031cb2a",
+      "sha256": [
+        "6873f098bbbf594c1ae967fb5b3ddd00c1655439c6ba128b1f2556052b4cb86d",
+        "a1e42a973dfb998ac6fdcd50ad98ba512e456de2b1fd9a0a6ed60b08a031cb2a"
+      ],
       "text": "Wraith, I can heal you!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "73752ae11b8e8d88b337db818c148f3bd15c74b9d6b3abff1de6d4a0bab8a0d0",
+        "984774813ef1d809076037a6ff83b2d164617f635971a8e5edbf6ad2f8f3a2fa"
+      ],
+      "text": "Great, I can heal you.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

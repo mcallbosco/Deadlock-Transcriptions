@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_use_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "4b968684098d28eec09f394a4c418a17723f055ae73917e7da8c452cb7ff5aad",
+      "sha256": [
+        "4b968684098d28eec09f394a4c418a17723f055ae73917e7da8c452cb7ff5aad"
+      ],
       "text": "I am self-fighting.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ffe3e72abaf6f1f1a7a05fb6347dd487db4535a53dc3de9328cc21bc458e8574",
+      "sha256": [
+        "7142b8edc28b7a6e3a5a22844f35b85258d02b9e95c50944aff1bcf8e3cdf1f8",
+        "ffe3e72abaf6f1f1a7a05fb6347dd487db4535a53dc3de9328cc21bc458e8574"
+      ],
       "text": "Your friends will suffer your fate.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7142b8edc28b7a6e3a5a22844f35b85258d02b9e95c50944aff1bcf8e3cdf1f8",
-      "text": "Your friends will suffer your fate.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "434d14f03d0d6345b85baf29612681455cf2a9528486c7652967dabda878f89f",
+      "sha256": [
+        "434d14f03d0d6345b85baf29612681455cf2a9528486c7652967dabda878f89f"
+      ],
       "text": "I must go.",
       "source": "official"
     }

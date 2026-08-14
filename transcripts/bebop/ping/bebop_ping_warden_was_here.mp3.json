@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "04edf0e2829c58eae86f09326cfdaa9c7fc9d9f9d50d7bbb749fdb318d889144",
+      "sha256": [
+        "04edf0e2829c58eae86f09326cfdaa9c7fc9d9f9d50d7bbb749fdb318d889144"
+      ],
       "text": "Bonjour, mademoiselle.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4551d09de085dcfb9a47a336dd04ac8401ab4ceee5ed806a5bd89b35c009e245",
+      "sha256": [
+        "4551d09de085dcfb9a47a336dd04ac8401ab4ceee5ed806a5bd89b35c009e245"
+      ],
       "text": "What was here?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

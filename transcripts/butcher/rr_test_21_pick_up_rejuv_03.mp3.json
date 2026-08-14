@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_pick_up_rejuv_03.mp3",
   "revisions": [
     {
-      "sha256": "af8cc4fc71c71d5a9b6e2983d5e4c3bec336b31ff86bf12ae6040e2b73b5bb7a",
+      "sha256": [
+        "54df421212b1cbb29b453f6030306e1ca148c51346ed17b7b77bd5a7a3e699cf",
+        "af8cc4fc71c71d5a9b6e2983d5e4c3bec336b31ff86bf12ae6040e2b73b5bb7a",
+        "f00d3c35128b5ce8eca1e5822b0c66a590cd278477f7b34957d5de0a9a328487"
+      ],
       "text": "Good job, everyone!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f00d3c35128b5ce8eca1e5822b0c66a590cd278477f7b34957d5de0a9a328487",
-      "text": "Good job, everyone!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54df421212b1cbb29b453f6030306e1ca148c51346ed17b7b77bd5a7a3e699cf",
-      "text": "Good job, everyone.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

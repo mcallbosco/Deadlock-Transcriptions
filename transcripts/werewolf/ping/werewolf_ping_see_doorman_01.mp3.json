@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_see_doorman_01.mp3",
   "revisions": [
     {
-      "sha256": "04f049a36bd5623af3d488e77554525745eeb5c0b4f5437f221dbd01bf5f5002",
+      "sha256": [
+        "04f049a36bd5623af3d488e77554525745eeb5c0b4f5437f221dbd01bf5f5002"
+      ],
       "text": "I see the doorman.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

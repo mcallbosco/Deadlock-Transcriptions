@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_haze_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "7879de275897debf13aa86b4fa7768d8d2c3b3bda61ff1eaad6a13fcf3cc71c2",
+      "sha256": [
+        "7879de275897debf13aa86b4fa7768d8d2c3b3bda61ff1eaad6a13fcf3cc71c2"
+      ],
       "text": "Hey, zen med!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "14498c6283b3fa45d6274512e0433cbd1693ba22a992b29f87bf8c198fd4fcec",
+      "sha256": [
+        "14498c6283b3fa45d6274512e0433cbd1693ba22a992b29f87bf8c198fd4fcec"
+      ],
       "text": "Haze's in mid!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_sad_01.mp3",
   "revisions": [
     {
-      "sha256": "9788b7924e9295e59a307132c0843f233582f79ae7b02f697f764a1b41e1faa0",
+      "sha256": [
+        "9788b7924e9295e59a307132c0843f233582f79ae7b02f697f764a1b41e1faa0"
+      ],
       "text": "This is the act.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "38a526b158a63de112263af7f00203a76e10c3c0e1ae0c4271a167cf322332c3",
+      "sha256": [
+        "38a526b158a63de112263af7f00203a76e10c3c0e1ae0c4271a167cf322332c3"
+      ],
       "text": "This is the best.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

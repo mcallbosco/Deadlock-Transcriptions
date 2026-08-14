@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5054b4c9d6a7f077b94121ced0a6b8ea15be4dd3a8662d1c5c3aefd69a2ce5a9",
+      "sha256": [
+        "5054b4c9d6a7f077b94121ced0a6b8ea15be4dd3a8662d1c5c3aefd69a2ce5a9"
+      ],
       "text": "How much was he?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6254d478c183200c9b55c886af6e20827a14bb2a3172e233a59a2559437aac3f",
+      "sha256": [
+        "6254d478c183200c9b55c886af6e20827a14bb2a3172e233a59a2559437aac3f"
+      ],
       "text": "How much was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

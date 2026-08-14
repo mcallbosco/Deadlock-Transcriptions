@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_can_heal_shiv.mp3",
   "revisions": [
     {
-      "sha256": "1925f630c7dbf3e863337f8e08f361a3c025ba7fb5542a79f99192b0d2724c9d",
-      "text": "Shiv, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "1925f630c7dbf3e863337f8e08f361a3c025ba7fb5542a79f99192b0d2724c9d",
+        "df1a1ce91ced5625853c3d78af10d760a274fafa6fe3ebc2a7274ee24e56fb8e"
+      ],
+      "text": "Shiv, I can heal you!",
+      "source": "official"
     },
     {
-      "sha256": "4fedf00a50974db6343ac24b6941ab6eca6e835526e68b49d4bf9fb28906cc04",
+      "sha256": [
+        "4fedf00a50974db6343ac24b6941ab6eca6e835526e68b49d4bf9fb28906cc04"
+      ],
       "text": "Chev, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df1a1ce91ced5625853c3d78af10d760a274fafa6fe3ebc2a7274ee24e56fb8e",
-      "text": "Shiv, I can heal you!",
-      "source": "official"
     }
   ]
 }

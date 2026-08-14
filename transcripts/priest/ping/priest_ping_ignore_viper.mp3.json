@@ -1,14 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_ignore_viper.mp3",
   "revisions": [
     {
-      "sha256": "47eadfe234f8758bbfd9f5451dbb45da0fb4a7cfdf53e0232c949bb0a8b0dc7b",
+      "sha256": [
+        "47eadfe234f8758bbfd9f5451dbb45da0fb4a7cfdf53e0232c949bb0a8b0dc7b"
+      ],
       "text": "Ignore Vyper.",
       "source": "manual"
     },
     {
-      "sha256": "953d4381c7bd50964f7de794f6b785785fd13c27fa6f85deb28fc693db4c2430",
+      "sha256": [
+        "953d4381c7bd50964f7de794f6b785785fd13c27fa6f85deb28fc693db4c2430"
+      ],
       "text": "Ignore Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

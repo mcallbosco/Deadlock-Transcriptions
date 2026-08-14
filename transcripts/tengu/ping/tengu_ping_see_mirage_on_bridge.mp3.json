@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_mirage_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "05b70a0897fa25e90731e750f8ef896de33478b4b1de842cb854ade2bc53ec1d",
+      "sha256": [
+        "05b70a0897fa25e90731e750f8ef896de33478b4b1de842cb854ade2bc53ec1d"
+      ],
       "text": "There is one on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b520edadd7372f754453cd1137f19f98fd19d914320583f07b93e81796937e50",
+      "sha256": [
+        "b520edadd7372f754453cd1137f19f98fd19d914320583f07b93e81796937e50"
+      ],
       "text": "Mirage's on the bridge!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "6e25886d685160ba2fcb585938c5ec938fe7af0a66af738effd43bf2a32ce5e8",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdf00fb7f532169cba17447b25e9d9f343d650e39ff7a6475bf466c8c338daa7",
+      "sha256": [
+        "6e25886d685160ba2fcb585938c5ec938fe7af0a66af738effd43bf2a32ce5e8",
+        "fdf00fb7f532169cba17447b25e9d9f343d650e39ff7a6475bf466c8c338daa7"
+      ],
       "text": "Careful, Wraith…",
       "source": "official"
     }

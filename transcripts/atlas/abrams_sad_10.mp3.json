@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_sad_10.mp3",
   "revisions": [
     {
-      "sha256": "2fa5451e03a67c7e5e3c1e3bb9a4aca7f9ddc9a853fdcf1d4f92d23e53ea3f93",
+      "sha256": [
+        "2fa5451e03a67c7e5e3c1e3bb9a4aca7f9ddc9a853fdcf1d4f92d23e53ea3f93"
+      ],
       "text": "This was supposed to happen!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "12082840d482ac0b8c519c38bc6b923587022ce011bcab0c6ccc56677dfd3349",
-      "text": "This wasn't supposed to happen!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9da1fd0031a1c5f6b75e812ddd505a2594ee337d7dc4c162401933cfc7cef61",
+      "sha256": [
+        "12082840d482ac0b8c519c38bc6b923587022ce011bcab0c6ccc56677dfd3349",
+        "e9da1fd0031a1c5f6b75e812ddd505a2594ee337d7dc4c162401933cfc7cef61"
+      ],
       "text": "This wasn't supposed to happen!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

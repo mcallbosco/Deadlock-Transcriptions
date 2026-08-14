@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_emp_wave_03.mp3",
   "revisions": [
     {
-      "sha256": "ed10c75ad3e758c69a349a92b474efd01a0beb1ffefc33450ebe515275d4f673",
+      "sha256": [
+        "ed10c75ad3e758c69a349a92b474efd01a0beb1ffefc33450ebe515275d4f673"
+      ],
       "text": "Send me out an EMP wave.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ea18481cb55f69b4ce8e495d1b35d10a99f9cc84e2b905f3ee618eeb6ef5f764",
-      "text": "Sending out an EMP wave.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbfed6ab3ea8f6e79d3f838544919412b2e50c7131a440b7c326c72efa3d54a5",
+      "sha256": [
+        "bbfed6ab3ea8f6e79d3f838544919412b2e50c7131a440b7c326c72efa3d54a5",
+        "ea18481cb55f69b4ce8e495d1b35d10a99f9cc84e2b905f3ee618eeb6ef5f764"
+      ],
       "text": "Sending out an EMP wave.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

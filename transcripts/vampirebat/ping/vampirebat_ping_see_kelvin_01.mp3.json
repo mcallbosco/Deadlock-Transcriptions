@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "ccac5c47c7f841cf503dd619d87427f193c7142c6697e9a82cc17dd1808539aa",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bca7652f84bb0a66f264ed0ed1f662bf96397eb7fce7de2b9a97bceab7a6e12d",
+      "sha256": [
+        "bca7652f84bb0a66f264ed0ed1f662bf96397eb7fce7de2b9a97bceab7a6e12d",
+        "ccac5c47c7f841cf503dd619d87427f193c7142c6697e9a82cc17dd1808539aa"
+      ],
       "text": "I see Kelvin.",
       "source": "official"
     }

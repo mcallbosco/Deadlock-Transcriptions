@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "64fa90e90a2633c8d0cff9ccc825157d272a8bf769c63d385f2c0a9509bd87ae",
-      "text": "Atlas is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b4e62ac4f320133ea0a3d3d40ba45cd78e8755969a901c293495ab8c37cc28b",
-      "text": "Atlas is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2cf896796058737c924cf79b9595ded2bd8bc5386f173bb3eed47b0c9fe76a59",
+      "sha256": [
+        "2cf896796058737c924cf79b9595ded2bd8bc5386f173bb3eed47b0c9fe76a59",
+        "3b4e62ac4f320133ea0a3d3d40ba45cd78e8755969a901c293495ab8c37cc28b",
+        "64fa90e90a2633c8d0cff9ccc825157d272a8bf769c63d385f2c0a9509bd87ae"
+      ],
       "text": "Atlas is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

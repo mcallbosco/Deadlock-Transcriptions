@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_tempest_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "f9cd1d6b282c88ed0f40180492aff19635a02c4cdf74afad626bb217471c9c6a",
-      "text": "Cap is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbae01144839ff2008c1d803acc982a5d57773d8cd8633d96fd9888423ec7972",
-      "text": "Cap is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3cc328cfff41a17242ce6f23e235859ebd957ec15b0fd7c6782ee5eb48f6f860",
+      "sha256": [
+        "3cc328cfff41a17242ce6f23e235859ebd957ec15b0fd7c6782ee5eb48f6f860",
+        "bbae01144839ff2008c1d803acc982a5d57773d8cd8633d96fd9888423ec7972",
+        "f9cd1d6b282c88ed0f40180492aff19635a02c4cdf74afad626bb217471c9c6a"
+      ],
       "text": "Cap is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

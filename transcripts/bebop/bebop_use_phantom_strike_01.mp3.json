@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_use_phantom_strike_01.mp3",
   "revisions": [
     {
-      "sha256": "ce2cd9da8e80a150368c300e0d030eb3a772272dfdf87be4776b692dcc299e53",
+      "sha256": [
+        "ce2cd9da8e80a150368c300e0d030eb3a772272dfdf87be4776b692dcc299e53"
+      ],
       "text": "Fatal strike!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9112534167f555a3b3b410f4ad5cadb495c2f8acee720cb68a45b59529821d8e",
+      "sha256": [
+        "9112534167f555a3b3b410f4ad5cadb495c2f8acee720cb68a45b59529821d8e"
+      ],
       "text": "Phantom Strike!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_shiv_02.mp3",
   "revisions": [
     {
-      "sha256": "4063b529d7433501acf6df32d9aa3f1d925e0ddc46ea7cbf328b209b4fa82f65",
+      "sha256": [
+        "4063b529d7433501acf6df32d9aa3f1d925e0ddc46ea7cbf328b209b4fa82f65"
+      ],
       "text": "Careful, ship!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "90944a43f3e02a0ff1bbde6cf073d090f4e52e63849344e7baf44a5a25652fa4",
-      "text": "Careful, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab0f02ee7dfb29ddf51f1cd7d31dc53ceefd45af0654b3794c658f2efd5836d6",
+      "sha256": [
+        "90944a43f3e02a0ff1bbde6cf073d090f4e52e63849344e7baf44a5a25652fa4",
+        "ab0f02ee7dfb29ddf51f1cd7d31dc53ceefd45af0654b3794c658f2efd5836d6"
+      ],
       "text": "Careful, Shiv",
       "source": "official"
     }

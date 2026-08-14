@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "e0ef16244d72fe1c5d4c3e1c374857c90be16412c6a9c6423c7061cc9742775f",
-      "text": "I'm with you, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9139d78e62cb4243a6bbc87a02a7e91afaa9be6c0399b60b2d4ee763cda137a2",
+      "sha256": [
+        "9139d78e62cb4243a6bbc87a02a7e91afaa9be6c0399b60b2d4ee763cda137a2",
+        "e0ef16244d72fe1c5d4c3e1c374857c90be16412c6a9c6423c7061cc9742775f"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

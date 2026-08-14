@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_saw_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "334d7ac657045a1dea887a671619477e8008a512efffe7795a6c9dc12e7ba57d",
+      "sha256": [
+        "334d7ac657045a1dea887a671619477e8008a512efffe7795a6c9dc12e7ba57d"
+      ],
       "text": "Stop it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

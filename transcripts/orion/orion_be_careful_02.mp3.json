@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "c387a4c8dcdd00051f999ae8d5f041559891c59c06c951cdd3a99c7bb6fc1124",
-      "text": "Just because I don't see them doesn't mean they aren't here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b4be90aeab613cb47bfad717c485b2cda22ab61930e6aff40ce3e1585e3a047",
-      "text": "Just because I don't see them doesn't mean they aren't here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aefe1b2f51ff9f6fe3015f28f8a2670cf70c8904f8ca865fc4b184ce1572385f",
-      "text": "Just because I don't see them doesn't mean they aren't here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d634647dd72987096c919566d19320cc06fac92cd94cb929dd1d0952c9ef51b",
+      "sha256": [
+        "2b4be90aeab613cb47bfad717c485b2cda22ab61930e6aff40ce3e1585e3a047",
+        "9d634647dd72987096c919566d19320cc06fac92cd94cb929dd1d0952c9ef51b",
+        "aefe1b2f51ff9f6fe3015f28f8a2670cf70c8904f8ca865fc4b184ce1572385f",
+        "c387a4c8dcdd00051f999ae8d5f041559891c59c06c951cdd3a99c7bb6fc1124"
+      ],
       "text": "Just because I don’t see them, doesn't mean they aren't here…",
       "source": "official"
     }

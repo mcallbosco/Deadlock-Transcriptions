@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_fairfax_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "006ea837c7ab9a66eec1dda88fc473f6d85ab7bfd6f47c776778217b4eef5b59",
-      "text": "Fairfax is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3347d822123ee9a8c442c64d79af9878157c4cf9f6fbdd9b2d88b08915291261",
-      "text": "Fairfax is on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a2613c3fb30a315445902166b74048384f10bc28f694f8294e7c65e6ec927d6",
+      "sha256": [
+        "006ea837c7ab9a66eec1dda88fc473f6d85ab7bfd6f47c776778217b4eef5b59",
+        "3347d822123ee9a8c442c64d79af9878157c4cf9f6fbdd9b2d88b08915291261",
+        "8a2613c3fb30a315445902166b74048384f10bc28f694f8294e7c65e6ec927d6"
+      ],
       "text": "Fairfax is on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

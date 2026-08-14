@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "c7594fa484b8f983b46356929eb3d654cc84c5add7219e9ca7cc5d7b1cfbd5b1",
+      "sha256": [
+        "c7594fa484b8f983b46356929eb3d654cc84c5add7219e9ca7cc5d7b1cfbd5b1"
+      ],
       "text": "Let's go yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f69adc7e99b475651ed9334bfc0a221c9415a14d42b3aa21037c2ec0f4c626c1",
+      "sha256": [
+        "f69adc7e99b475651ed9334bfc0a221c9415a14d42b3aa21037c2ec0f4c626c1"
+      ],
       "text": "That's so yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

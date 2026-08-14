@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_doorman.mp3",
   "revisions": [
     {
-      "sha256": "c2212014e88757e06c554911cd3691eef694cc620afd756a4c044bb0ec0a7845",
+      "sha256": [
+        "c2212014e88757e06c554911cd3691eef694cc620afd756a4c044bb0ec0a7845"
+      ],
       "text": "I'm with you, Doorman.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

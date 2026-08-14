@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "1ab5bdbb64ab30eba9dd92ffb6cc121cc7bd5205d345dd9a18b1738ed136be3d",
+      "sha256": [
+        "1ab5bdbb64ab30eba9dd92ffb6cc121cc7bd5205d345dd9a18b1738ed136be3d"
+      ],
       "text": "Zero record.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a48bae1d26f3d7c4b04c5d8b31f4b52b441ae95540260c31894d2a842c7c4a5a",
+      "sha256": [
+        "a48bae1d26f3d7c4b04c5d8b31f4b52b441ae95540260c31894d2a842c7c4a5a"
+      ],
       "text": "Taco record.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2d3e1f3c376c1268db0dc7bf603476d4c6a6c1df787685b340a3cf474c74b2bc",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3ceef13da44718c48c9052b76cf3c7f483dd18829855531474d30ae87352d9d",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d122caf6237436fc024a80d44df599892931091620f5827723f09e957ccab2df",
+      "sha256": [
+        "2d3e1f3c376c1268db0dc7bf603476d4c6a6c1df787685b340a3cf474c74b2bc",
+        "d122caf6237436fc024a80d44df599892931091620f5827723f09e957ccab2df",
+        "d3ceef13da44718c48c9052b76cf3c7f483dd18829855531474d30ae87352d9d"
+      ],
       "text": "Careful, Wrecker…",
       "source": "official"
     }

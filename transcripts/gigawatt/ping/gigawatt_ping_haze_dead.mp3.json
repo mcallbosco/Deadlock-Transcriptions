@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "c0dd0da1b65555472096988788fcc0516e3aef9351599ea744e7c755646df672",
-      "text": "Haze is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fff0426503d39216a352c74e2d0b1b163d353298e12227be168133ad53bbb43d",
-      "text": "Haze is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cd8eb75a5ab2c04197a725a9355f8bfba1652138ad6b8523701edee293be2ae",
+      "sha256": [
+        "5cd8eb75a5ab2c04197a725a9355f8bfba1652138ad6b8523701edee293be2ae",
+        "c0dd0da1b65555472096988788fcc0516e3aef9351599ea744e7c755646df672",
+        "fff0426503d39216a352c74e2d0b1b163d353298e12227be168133ad53bbb43d"
+      ],
       "text": "Haze is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

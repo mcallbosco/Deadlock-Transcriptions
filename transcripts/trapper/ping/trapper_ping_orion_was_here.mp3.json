@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_orion_was_here.mp3",
   "revisions": [
     {
-      "sha256": "76eb65ce7194aad332576960a25dc9449068ec61206c55e8812111ad5bb9aa0c",
+      "sha256": [
+        "76eb65ce7194aad332576960a25dc9449068ec61206c55e8812111ad5bb9aa0c"
+      ],
       "text": "Great Talon was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

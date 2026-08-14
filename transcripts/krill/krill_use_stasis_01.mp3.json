@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_stasis_01.mp3",
   "revisions": [
     {
-      "sha256": "fec27327e38d6fc600b329b303e40158d1096fddc8ccefc24b9a87041fa3bd2e",
-      "text": "Stasis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f194e34b4481f3955d392be3b70acf011052671c65926ece0c6b2d9c6e2f863",
-      "text": "Stasis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9683267e1ed35853ad76c05f14b8a8cbe3bea1c51650ab685a35bf46bdb41cbd",
+      "sha256": [
+        "0f194e34b4481f3955d392be3b70acf011052671c65926ece0c6b2d9c6e2f863",
+        "9683267e1ed35853ad76c05f14b8a8cbe3bea1c51650ab685a35bf46bdb41cbd",
+        "fec27327e38d6fc600b329b303e40158d1096fddc8ccefc24b9a87041fa3bd2e"
+      ],
       "text": "Stasis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

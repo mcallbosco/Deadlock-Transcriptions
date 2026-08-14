@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_atlas_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "5169422e405eac05f11159ad7ddef50a4c79999d56a9981ed694910b980c0768",
+      "sha256": [
+        "391eb88ee93602e09ef412a08ac80a4fd80beb5369ed7449040cdeefb1f56858",
+        "5169422e405eac05f11159ad7ddef50a4c79999d56a9981ed694910b980c0768"
+      ],
       "text": "Atlas is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "391eb88ee93602e09ef412a08ac80a4fd80beb5369ed7449040cdeefb1f56858",
-      "text": "Atlas is on top of mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

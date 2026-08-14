@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_need_help_orange.mp3",
   "revisions": [
     {
-      "sha256": "bee840e2b667beb0dc77a8cc8ef72a127bd3ba285d1ce1fbce4f042f82d6ed3e",
+      "sha256": [
+        "bee840e2b667beb0dc77a8cc8ef72a127bd3ba285d1ce1fbce4f042f82d6ed3e"
+      ],
       "text": "Was that part orange?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1d409fab187481c180a0188811d4155b707069eb53c16ca43828b54e307dc39f",
+      "sha256": [
+        "1d409fab187481c180a0188811d4155b707069eb53c16ca43828b54e307dc39f"
+      ],
       "text": "Was that per orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

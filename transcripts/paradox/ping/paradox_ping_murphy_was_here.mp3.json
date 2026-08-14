@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_murphy_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3d911349b47a0fca68374f900472ea11bf109490f08720174cb7ae072ef04630",
-      "text": "Murphy was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70a3158bdab41e761761cbc6e7925f8cebfc2326767b1647b340946748a22bf6",
+      "sha256": [
+        "3d911349b47a0fca68374f900472ea11bf109490f08720174cb7ae072ef04630",
+        "70a3158bdab41e761761cbc6e7925f8cebfc2326767b1647b340946748a22bf6"
+      ],
       "text": "Murphy was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_use_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "0af84d19ac20bfc9d23658f94e7b2a9b91364aa046a0a2f9b285ea7455031f08",
+      "sha256": [
+        "0af84d19ac20bfc9d23658f94e7b2a9b91364aa046a0a2f9b285ea7455031f08"
+      ],
       "text": "Here we go, as I noticed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9a0096e31fb344dbee3b33ede7c1fedfaf8879b02702b03fb46ae3e99cc8283c",
+      "sha256": [
+        "9a0096e31fb344dbee3b33ede7c1fedfaf8879b02702b03fb46ae3e99cc8283c",
+        "c294764d518fa30af5ca3eb7fc27f39e7a183d3b1dffdb69d0bcbd3a79e6a21f"
+      ],
       "text": "Did Djinn bind you?!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "48df137b4b7fd3f0711ab01398e44903f82913cb7ac0e546808c09ea8c9cdfaf",
+      "sha256": [
+        "48df137b4b7fd3f0711ab01398e44903f82913cb7ac0e546808c09ea8c9cdfaf"
+      ],
       "text": "Did Jin bind you?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c294764d518fa30af5ca3eb7fc27f39e7a183d3b1dffdb69d0bcbd3a79e6a21f",
-      "text": "Did Djinn bind you?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24d244b0bd31d47441a86da80ca5575d2cd78edf20563af282bc53c799ee7683",
+      "sha256": [
+        "24d244b0bd31d47441a86da80ca5575d2cd78edf20563af282bc53c799ee7683"
+      ],
       "text": "Teleporting.",
       "source": "official"
     }

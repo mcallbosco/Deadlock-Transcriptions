@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_select_01.mp3",
   "revisions": [
     {
-      "sha256": "3cb57e2b40a056dd9f7301cfc79163d99c47dcccf73b50cb6238ca8ef7a70470",
+      "sha256": [
+        "3cb57e2b40a056dd9f7301cfc79163d99c47dcccf73b50cb6238ca8ef7a70470",
+        "7470579f6fb66caf25c11629b417547587ab0f8c48bc30060f0a74a80f3025a2"
+      ],
       "text": "It's not the rats in New York they should worry about.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7470579f6fb66caf25c11629b417547587ab0f8c48bc30060f0a74a80f3025a2",
-      "text": "It's not the rats in New York they should worry about.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a773c7bb91d63e2258f3e11033a1ac951dbf1b9b07f3d53e6d08364bef0a3e34",
+      "sha256": [
+        "a773c7bb91d63e2258f3e11033a1ac951dbf1b9b07f3d53e6d08364bef0a3e34"
+      ],
       "text": "It's not the rats in New York you should worry about.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

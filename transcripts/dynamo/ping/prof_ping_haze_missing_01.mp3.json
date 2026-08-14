@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ed051d83e6a1f2111ba2a7c3eef69511bd748c0d140d6c36273cb70888b8dafd",
+      "sha256": [
+        "ed051d83e6a1f2111ba2a7c3eef69511bd748c0d140d6c36273cb70888b8dafd"
+      ],
       "text": "He's just missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b256533611dda3aad89f4420491a3964b241de46e3f6a646e12d3729ff098a8",
+      "sha256": [
+        "0b256533611dda3aad89f4420491a3964b241de46e3f6a646e12d3729ff098a8"
+      ],
       "text": "He is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

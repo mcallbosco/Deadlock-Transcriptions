@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_krill_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "87e367a90c647de70c3ddc54b6679b632b03a7233c5a88828503284e74564d12",
-      "text": "Krill is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50447388ff4aa65b55d02779050dcc40cdde7de5e905c52bb136e028af0a3dea",
-      "text": "Krill is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09680c9074fb6ef8b3e6a927ddd900b7114f234320130e8a035d55fa98b6d462",
+      "sha256": [
+        "09680c9074fb6ef8b3e6a927ddd900b7114f234320130e8a035d55fa98b6d462",
+        "50447388ff4aa65b55d02779050dcc40cdde7de5e905c52bb136e028af0a3dea",
+        "87e367a90c647de70c3ddc54b6679b632b03a7233c5a88828503284e74564d12"
+      ],
       "text": "Krill is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

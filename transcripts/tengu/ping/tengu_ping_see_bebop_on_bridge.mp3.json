@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_bebop_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a954c6bd8e06b43ff7ad2732fd248cc1e6c9b97af886eceb10d55aee7e9ec982",
+      "sha256": [
+        "a954c6bd8e06b43ff7ad2732fd248cc1e6c9b97af886eceb10d55aee7e9ec982"
+      ],
       "text": "Give us some bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3c9a8358571c0fa95ecc340817d5164762e98c18025c4fe6188a39cd1fb62977",
+      "sha256": [
+        "3c9a8358571c0fa95ecc340817d5164762e98c18025c4fe6188a39cd1fb62977"
+      ],
       "text": "Bebop's on the bridge!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "aef7fa0960c11d4badbc54db5be19861daeee185ce640a533e4f88d51d999378",
-      "text": "I'm with you, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b1adf519475cb073bb3b15b8e356cd66ff7ee075570778aa84824c0f06b44f02",
-      "text": "I'm with you, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06be5cc157ea9d2fbefdd69bba36e2292fb0d6ea796b264c330fd09707f6d68d",
+      "sha256": [
+        "06be5cc157ea9d2fbefdd69bba36e2292fb0d6ea796b264c330fd09707f6d68d",
+        "aef7fa0960c11d4badbc54db5be19861daeee185ce640a533e4f88d51d999378",
+        "b1adf519475cb073bb3b15b8e356cd66ff7ee075570778aa84824c0f06b44f02"
+      ],
       "text": "I'm with you, Holliday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

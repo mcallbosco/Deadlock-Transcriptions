@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power4_02.mp3",
   "revisions": [
     {
-      "sha256": "ad5a5313ffeec0c47d805e3e474e400c686929ffbddfa103dec9091ac3f8505f",
+      "sha256": [
+        "ad5a5313ffeec0c47d805e3e474e400c686929ffbddfa103dec9091ac3f8505f"
+      ],
       "text": "This is about to get more interesting.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "59ee347364c3451e7105186de8f415656a1e80c86c258aee13a831829f0f2eb8",
-      "text": "The hunt is about to get more interesting.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95fe748689ef2f59fa8985fa03172deaff966a6952e2897aedfe347d4a8ecde5",
-      "text": "The hunt is about to get more interesting.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "032bec3dc7e35fb9934f96945e71cefaf418eb7d705493526e2b4a128fd7a89f",
+      "sha256": [
+        "032bec3dc7e35fb9934f96945e71cefaf418eb7d705493526e2b4a128fd7a89f",
+        "59ee347364c3451e7105186de8f415656a1e80c86c258aee13a831829f0f2eb8",
+        "95fe748689ef2f59fa8985fa03172deaff966a6952e2897aedfe347d4a8ecde5"
+      ],
       "text": "The hunt is about to get more interesting.",
       "source": "official"
     }

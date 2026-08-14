@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_lash.mp3",
   "revisions": [
     {
-      "sha256": "a6ded4e328b6555efa251dd57fb506514116d2c7e89a668692dc781b13cd1a5c",
+      "sha256": [
+        "a6ded4e328b6555efa251dd57fb506514116d2c7e89a668692dc781b13cd1a5c"
+      ],
       "text": "Well done, lass.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0611ac21e50e95a8926a95a3cc7e422ab83ca509436a27008668ef7f484dceb",
-      "text": "Well done, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b84f2bb439ce22d95275dbb8a4c64466360ba2be6c989b34739d7ea11e19091c",
+      "sha256": [
+        "b84f2bb439ce22d95275dbb8a4c64466360ba2be6c989b34739d7ea11e19091c",
+        "f0611ac21e50e95a8926a95a3cc7e422ab83ca509436a27008668ef7f484dceb"
+      ],
       "text": "Well done Lash",
       "source": "official"
     }

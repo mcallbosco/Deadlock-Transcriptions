@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "d22567300064f5ed1dfb85820e4715c712779c5518e83498a47dbeacb1ee48e2",
+      "sha256": [
+        "d22567300064f5ed1dfb85820e4715c712779c5518e83498a47dbeacb1ee48e2"
+      ],
       "text": "This is my end for it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dcf95ef653c0306bed7bd8251c3f74a24f3add6ddfa11355a9f013a5ba4dbffb",
+      "sha256": [
+        "dcf95ef653c0306bed7bd8251c3f74a24f3add6ddfa11355a9f013a5ba4dbffb"
+      ],
       "text": "This is why I am feared.",
       "source": "official"
     }

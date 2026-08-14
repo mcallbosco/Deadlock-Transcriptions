@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_calico_on_bridge_1.mp3",
   "revisions": [
     {
-      "sha256": "49daeb8464715a23b916817613b7ec69533e496fb61ddc8570267517ff4f17ed",
-      "text": "Calico's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f71719ada9e1e85893ffb0e876f5186f927fba06dbd331df9ba3cd0e73f7e8ae",
+      "sha256": [
+        "49daeb8464715a23b916817613b7ec69533e496fb61ddc8570267517ff4f17ed",
+        "f71719ada9e1e85893ffb0e876f5186f927fba06dbd331df9ba3cd0e73f7e8ae"
+      ],
       "text": "Calico's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

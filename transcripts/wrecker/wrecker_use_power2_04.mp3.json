@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_use_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "70e2af1988be7a5d8f0420dfe98597829d996f79f7a4e6e27759ca2aca41d27e",
+      "sha256": [
+        "70e2af1988be7a5d8f0420dfe98597829d996f79f7a4e6e27759ca2aca41d27e"
+      ],
       "text": "Froge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b8d7425bb4d512913594dab42e1242fe4d81ce48cb1a85c6b12d1c770eff5a74",
+      "sha256": [
+        "b8d7425bb4d512913594dab42e1242fe4d81ce48cb1a85c6b12d1c770eff5a74"
+      ],
       "text": "Frogged!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

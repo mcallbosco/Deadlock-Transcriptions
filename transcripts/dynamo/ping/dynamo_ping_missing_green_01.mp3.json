@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "9306280671b1d707484975a46ac6f873c532ed31b5bac55ee2dbc11045c1400c",
+      "sha256": [
+        "9306280671b1d707484975a46ac6f873c532ed31b5bac55ee2dbc11045c1400c"
+      ],
       "text": "Good green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

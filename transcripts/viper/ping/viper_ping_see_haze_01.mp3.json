@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "9737497c769093688efeaddffe502548beb2b66f808a1dc33ce7a9db24b21fc0",
+      "sha256": [
+        "9737497c769093688efeaddffe502548beb2b66f808a1dc33ce7a9db24b21fc0"
+      ],
       "text": "I see haste.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1dcad85804ebfdbad9dc06257ed64c6648601e39b1dadd00e19366d3f65470b8",
-      "text": "I see haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b7b2d7d52cf79d30cd214d2d43e55f81a6e155de4106ffcb6681cb45f674f46",
+      "sha256": [
+        "1dcad85804ebfdbad9dc06257ed64c6648601e39b1dadd00e19366d3f65470b8",
+        "9b7b2d7d52cf79d30cd214d2d43e55f81a6e155de4106ffcb6681cb45f674f46"
+      ],
       "text": "I see Haze",
       "source": "official"
     }

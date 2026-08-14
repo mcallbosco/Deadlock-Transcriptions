@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_abrams.mp3",
   "revisions": [
     {
-      "sha256": "d4587f92c216a7c93a12b6a457e89424c55befea1e77e39133ec7665ca07b2cb",
+      "sha256": [
+        "d4587f92c216a7c93a12b6a457e89424c55befea1e77e39133ec7665ca07b2cb"
+      ],
       "text": "Well done, Detective Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

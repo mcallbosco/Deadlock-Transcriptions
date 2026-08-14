@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "48848d1ddc3664ebfc81e494ae026f22072b89451212b39f619f202157f86ca2",
+      "sha256": [
+        "48848d1ddc3664ebfc81e494ae026f22072b89451212b39f619f202157f86ca2"
+      ],
       "text": "Pocket missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b1a625c3b6b244cb60c455ba57480d0c9194d4b1c4886309cdd6d517827d13eb",
+      "sha256": [
+        "b1a625c3b6b244cb60c455ba57480d0c9194d4b1c4886309cdd6d517827d13eb",
+        "b64ebff4cdc2b4b4bb5656ea4e03f38ca268a5dcbac82e97d957d34cd308ce6e"
+      ],
       "text": "Target missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b64ebff4cdc2b4b4bb5656ea4e03f38ca268a5dcbac82e97d957d34cd308ce6e",
-      "text": "Target missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c222d82d55de25cafd7b1bf77b11e4adea5cf30252a8402737bad8682afffa9",
+      "sha256": [
+        "0c222d82d55de25cafd7b1bf77b11e4adea5cf30252a8402737bad8682afffa9"
+      ],
       "text": "Pocket's missing",
       "source": "official"
     }

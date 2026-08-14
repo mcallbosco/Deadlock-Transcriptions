@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_saw_vampirebat.mp3",
   "revisions": [
     {
-      "sha256": "ab347685370a87831e28876d43fed5880ef1e22f0f40d89c7140b1a3dd703b43",
+      "sha256": [
+        "ab347685370a87831e28876d43fed5880ef1e22f0f40d89c7140b1a3dd703b43"
+      ],
       "text": "I saw Mina.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

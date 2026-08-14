@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "201d32a51fe61cd8bd0b235bb9057180fe44bead78e6d892be31a154364c70c6",
+      "sha256": [
+        "201d32a51fe61cd8bd0b235bb9057180fe44bead78e6d892be31a154364c70c6"
+      ],
       "text": "Missing Green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_inferno.mp3",
   "revisions": [
     {
-      "sha256": "4d462bf663bdcb4196c2045e559fca30e7c281360df6f3244aa3d751caf47d02",
-      "text": "I see Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "4d462bf663bdcb4196c2045e559fca30e7c281360df6f3244aa3d751caf47d02",
+        "699d4a218a5dcfb54ff388e42d49c411fa983e8ac2a0705442d4117404720311"
+      ],
+      "text": "I see Infernus",
+      "source": "official"
     },
     {
-      "sha256": "08e56e2929fe9a53e7608a686f5f5afd227de2b7bfca7e24c7d76d77460b01bc",
+      "sha256": [
+        "08e56e2929fe9a53e7608a686f5f5afd227de2b7bfca7e24c7d76d77460b01bc"
+      ],
       "text": "I see infinity.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "699d4a218a5dcfb54ff388e42d49c411fa983e8ac2a0705442d4117404720311",
-      "text": "I see Infernus",
-      "source": "official"
     }
   ]
 }

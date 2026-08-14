@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "b4d8de2ddce89fd713483eadc91665558c3cb1045420ce221cd37532de80898e",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1f4a7a4a2cdfe1c8fb3b57ecb406a5cb5f35b124316a0c3bb8da7dc9cb9440b",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae745d55c0f649a925736fcc18127d4d4bb65651627ddef39ae5995c20a61bd3",
+      "sha256": [
+        "ae745d55c0f649a925736fcc18127d4d4bb65651627ddef39ae5995c20a61bd3",
+        "b4d8de2ddce89fd713483eadc91665558c3cb1045420ce221cd37532de80898e",
+        "d1f4a7a4a2cdfe1c8fb3b57ecb406a5cb5f35b124316a0c3bb8da7dc9cb9440b"
+      ],
       "text": "Well played",
       "source": "official"
     }

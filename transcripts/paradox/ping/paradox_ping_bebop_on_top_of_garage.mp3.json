@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_bebop_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "659d34db2f51ecc64811c7d2133d1593e1dab8f95df94a35ff5cfa5a9e2d1098",
+      "sha256": [
+        "659d34db2f51ecc64811c7d2133d1593e1dab8f95df94a35ff5cfa5a9e2d1098",
+        "a836be92ee0e70777975e1ba51e8666867bf0044a59216ae6640329bd99e0982"
+      ],
       "text": "Bebop's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a836be92ee0e70777975e1ba51e8666867bf0044a59216ae6640329bd99e0982",
-      "text": "Bebop's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

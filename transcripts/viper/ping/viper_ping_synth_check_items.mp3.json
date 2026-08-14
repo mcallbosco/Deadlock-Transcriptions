@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_synth_check_items.mp3",
   "revisions": [
     {
-      "sha256": "068d8313d575bcf56d6d947edd3be24c06977b5fe5d500fc5b0ed009dfffa144",
+      "sha256": [
+        "068d8313d575bcf56d6d947edd3be24c06977b5fe5d500fc5b0ed009dfffa144"
+      ],
       "text": "Check out with PocketBot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6c67a575178192bad9a83330ebd36572a1fb20c1da67acab034bdec0c717f012",
-      "text": "Check out what Pocket bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d8bfb7a08ddd9bb11b289000a0da1cd434692a23f8bebcc5a5895a587ee00a13",
+      "sha256": [
+        "6c67a575178192bad9a83330ebd36572a1fb20c1da67acab034bdec0c717f012",
+        "d8bfb7a08ddd9bb11b289000a0da1cd434692a23f8bebcc5a5895a587ee00a13"
+      ],
       "text": "Check out what Pocket bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

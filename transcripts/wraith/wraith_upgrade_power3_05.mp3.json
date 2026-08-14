@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "38952db623d2c586d748ebe57a0e026b307bfc876e94d19d046bfffff4457618",
-      "text": "I got enough bullets for everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73509a4c90272e2bc851d371eb89e67a5ecffe97bcadc7177a391cf0bb348f27",
-      "text": "I got enough boats for everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "698257a7d07aa2ad3fe7b70a64561d987932f39740a87b75efdfe6356f3efd48",
-      "text": "I got enough boats for everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bad6f59b6cb3a518521d5bda1d2725be85dbd87229a35e3cd483e448b21de6c5",
+      "sha256": [
+        "38952db623d2c586d748ebe57a0e026b307bfc876e94d19d046bfffff4457618",
+        "bad6f59b6cb3a518521d5bda1d2725be85dbd87229a35e3cd483e448b21de6c5"
+      ],
       "text": "I got enough bullets for everyone…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "698257a7d07aa2ad3fe7b70a64561d987932f39740a87b75efdfe6356f3efd48",
+        "73509a4c90272e2bc851d371eb89e67a5ecffe97bcadc7177a391cf0bb348f27"
+      ],
+      "text": "I got enough boats for everyone.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

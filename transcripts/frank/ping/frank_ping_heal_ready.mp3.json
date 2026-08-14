@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_heal_ready.mp3",
   "revisions": [
     {
-      "sha256": "1e9ca5f949abe50ca08fc3f10c7b248955c22c28d7faede361d8ede697341aea",
+      "sha256": [
+        "1e9ca5f949abe50ca08fc3f10c7b248955c22c28d7faede361d8ede697341aea",
+        "5d4d6c1afe9a04a592c2aaa861aadfebdd142cc4f7d54a6485dfa2181483788e"
+      ],
       "text": "Heal's ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d4d6c1afe9a04a592c2aaa861aadfebdd142cc4f7d54a6485dfa2181483788e",
-      "text": "Heals ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -23,6 +23,8 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import Any, Callable, Iterable, Iterator
 
+from .transcript_schema import TRANSCRIPT_SCHEMA_VERSION
+
 MUTABLE_JSON_CACHE_CONTROL = "public, max-age=0, must-revalidate"
 TRANSCRIPT_SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 AUDIO_KEY_RE = re.compile(
@@ -733,6 +735,10 @@ def _document_states(
 ) -> dict[str, TranscriptState]:
     if document is None:
         return {}
+    if document.get("schemaVersion") != TRANSCRIPT_SCHEMA_VERSION:
+        raise ContentSyncError(
+            f"Transcript schemaVersion must be {TRANSCRIPT_SCHEMA_VERSION}: {context}"
+        )
     revisions = document.get("revisions")
     if not isinstance(revisions, list):
         raise ContentSyncError(f"Transcript has no revisions array: {context}")
@@ -758,14 +764,15 @@ def _document_states(
             raise ContentSyncError(f"{context} revisions[{index}] has invalid text/source")
         if model is not None and (not isinstance(model, str) or not model):
             raise ContentSyncError(f"{context} revisions[{index}] has invalid model")
-        sha = revision.get("sha256")
-        if sha is None:
-            continue
-        if not isinstance(sha, str) or not TRANSCRIPT_SHA_RE.fullmatch(sha):
-            raise ContentSyncError(f"{context} revisions[{index}] has invalid SHA-256")
-        if sha in result:
-            raise ContentSyncError(f"{context} contains duplicate revision SHA-256 {sha}")
-        result[sha] = TranscriptState(text=text, source=source)
+        hashes = revision.get("sha256")
+        if not isinstance(hashes, list):
+            raise ContentSyncError(f"{context} revisions[{index}] SHA-256 must be an array")
+        for sha in hashes:
+            if not isinstance(sha, str) or not TRANSCRIPT_SHA_RE.fullmatch(sha):
+                raise ContentSyncError(f"{context} revisions[{index}] has invalid SHA-256")
+            if sha in result:
+                raise ContentSyncError(f"{context} contains duplicate revision SHA-256 {sha}")
+            result[sha] = TranscriptState(text=text, source=source)
     return result
 
 
@@ -1054,8 +1061,10 @@ def validate_repository(repo: Path, game: str = "deadlock") -> RepositoryValidat
             report.errors.append(
                 f"{relative} has unexpected fields: {', '.join(sorted(unexpected))}"
             )
-        if document.get("schemaVersion") != 2:
-            report.errors.append(f"{relative} schemaVersion must be 2")
+        if document.get("schemaVersion") != TRANSCRIPT_SCHEMA_VERSION:
+            report.errors.append(
+                f"{relative} schemaVersion must be {TRANSCRIPT_SCHEMA_VERSION}"
+            )
         filename = document.get("filename")
         expected = relative[len("transcripts/") : -len(".json")]
         if not isinstance(filename, str) or not filename:

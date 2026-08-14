@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_can_heal_tengu.mp3",
   "revisions": [
     {
-      "sha256": "75c526b1ab533980fe1b621ab169581fe755ddeef247d0c4cec21b56176c142a",
-      "text": "Ivy, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "6e6b3fb5695cc8e5402d041ae19a56970add8b0124573fd11c35c21e37e2daec",
+        "75c526b1ab533980fe1b621ab169581fe755ddeef247d0c4cec21b56176c142a",
+        "b8a4c522d53d9b4bccd8a9dcc1295ba9dfc704ac0a82f94db7ac8c2d9461637b"
+      ],
+      "text": "ivy, I can heal you!",
+      "source": "official"
     },
     {
-      "sha256": "056135b02504e2b1113a46b90506aaf4e97b4c845d9cc11946a15c848ccca241",
+      "sha256": [
+        "056135b02504e2b1113a46b90506aaf4e97b4c845d9cc11946a15c848ccca241"
+      ],
       "text": "Ivory, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b8a4c522d53d9b4bccd8a9dcc1295ba9dfc704ac0a82f94db7ac8c2d9461637b",
-      "text": "Ivy, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e6b3fb5695cc8e5402d041ae19a56970add8b0124573fd11c35c21e37e2daec",
-      "text": "ivy, I can heal you!",
-      "source": "official"
     }
   ]
 }

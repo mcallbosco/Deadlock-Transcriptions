@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/paradox_ping_careful_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "e4ad8489a5836424a4b99578ee1b3d45f546f459b07fb3b8b465fea79280ed28",
+      "sha256": [
+        "e4ad8489a5836424a4b99578ee1b3d45f546f459b07fb3b8b465fea79280ed28"
+      ],
       "text": "You swore.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

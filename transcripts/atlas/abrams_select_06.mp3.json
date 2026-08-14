@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_select_06.mp3",
   "revisions": [
     {
-      "sha256": "c39772e63ae098d70d1ecacc343e9a6029ffc80840fcac0ac4e4ac1b243c4a01",
-      "text": "Try and stop me. See what happens.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08f67975cae3e721aa0af13b6d488e14854922f03b97cdcf37921cc32374ce21",
-      "text": "Try and stop me. See what happens.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f5d20bfa112deca1a170b70008ad816815dc7cb677072e260174f7c292988fc7",
-      "text": "Try and stop me. See what happens.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "935f12eb98b1e0282992cc7bff9364af74f0ceb86072d96373fa13facbeffb1a",
+      "sha256": [
+        "08f67975cae3e721aa0af13b6d488e14854922f03b97cdcf37921cc32374ce21",
+        "935f12eb98b1e0282992cc7bff9364af74f0ceb86072d96373fa13facbeffb1a",
+        "c39772e63ae098d70d1ecacc343e9a6029ffc80840fcac0ac4e4ac1b243c4a01",
+        "f5d20bfa112deca1a170b70008ad816815dc7cb677072e260174f7c292988fc7"
+      ],
       "text": "Try and stop me. See what happens.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

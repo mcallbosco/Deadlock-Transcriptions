@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_haze_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "495a337ab565d06ba1f6d68bd9950ca418edcc546b8e8c004d2426965e0ae580",
+      "sha256": [
+        "495a337ab565d06ba1f6d68bd9950ca418edcc546b8e8c004d2426965e0ae580"
+      ],
       "text": "This is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3c6e35c1829d2ea35f33f4b70181630d4d0db69cf507372d565123586cd02d11",
+      "sha256": [
+        "3c6e35c1829d2ea35f33f4b70181630d4d0db69cf507372d565123586cd02d11"
+      ],
       "text": "Haze's under the garage!",
       "source": "official"
     }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_atlas_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "b00f1f0fbb210fa308a79107c1ed63f87c1722f5268e973e4e83bfedb0e8eb07",
+      "sha256": [
+        "8a9be3613dec5bd5906282b6ab6f6c30a9468c8c14deb268dad2f888037c9c9a",
+        "99ed1d18c767e27aa35ee64e0e6daa7d404fdbe692b3aa97c5da24c24734ea87",
+        "b00f1f0fbb210fa308a79107c1ed63f87c1722f5268e973e4e83bfedb0e8eb07"
+      ],
       "text": "Abrams is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a9be3613dec5bd5906282b6ab6f6c30a9468c8c14deb268dad2f888037c9c9a",
-      "text": "Abrams is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99ed1d18c767e27aa35ee64e0e6daa7d404fdbe692b3aa97c5da24c24734ea87",
-      "text": "Abrams is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68f6cca1270d3ec7057052f1a5cb327504a475f3f188722bb429391bcd10b8a0",
+      "sha256": [
+        "68f6cca1270d3ec7057052f1a5cb327504a475f3f188722bb429391bcd10b8a0"
+      ],
       "text": "Abrams's in mid!",
       "source": "official"
     }

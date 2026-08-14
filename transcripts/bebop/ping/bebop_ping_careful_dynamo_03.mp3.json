@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_dynamo_03.mp3",
   "revisions": [
     {
-      "sha256": "e779c6fe15a245f2fd5a7349b3805daa530e96b0d33ccb80e9126b798c811ea0",
-      "text": "Careful, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4773f70ee5b11d835aff532b091b1c9f9f434b3bbcede3f3a8bd7e6316561c95",
+      "sha256": [
+        "4773f70ee5b11d835aff532b091b1c9f9f434b3bbcede3f3a8bd7e6316561c95",
+        "e779c6fe15a245f2fd5a7349b3805daa530e96b0d33ccb80e9126b798c811ea0"
+      ],
       "text": "Careful, Dynamo!",
       "source": "official"
     }

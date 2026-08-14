@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_astro.mp3",
   "revisions": [
     {
-      "sha256": "a9206fc2cc208f654a6b75bac5dff0063ffa73ff7eb79f1c2e6e3e8c2b9d47e9",
-      "text": "I saw Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c54b3d120f4bc8aea33bba75f3be6d4b98aca2aa7abc50ef98cfc87d760ac10",
-      "text": "I saw Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2284fc36378c8372086365ecca017292dd4e36d025dca3f69a68350a9c6427ec",
+      "sha256": [
+        "2284fc36378c8372086365ecca017292dd4e36d025dca3f69a68350a9c6427ec",
+        "5c54b3d120f4bc8aea33bba75f3be6d4b98aca2aa7abc50ef98cfc87d760ac10",
+        "a9206fc2cc208f654a6b75bac5dff0063ffa73ff7eb79f1c2e6e3e8c2b9d47e9"
+      ],
       "text": "I saw Holliday!",
       "source": "manual"
     }

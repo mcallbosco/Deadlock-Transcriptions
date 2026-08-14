@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_upgrade_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "9d1b42a54878567b7c620cb9d2d9fd0367618293299c23edb6aa2b47d95d9504",
+      "sha256": [
+        "9d1b42a54878567b7c620cb9d2d9fd0367618293299c23edb6aa2b47d95d9504"
+      ],
       "text": "The crowd doesn't like it when I kill them too quick. This helps me keep it interesting.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7eb1e275831afdd08d52476b4c9589f66203c398e5c26a54a64cc27e0170f60e",
-      "text": "Crowd doesn't like it when I kill 'em too quick. This helps me keep it interesting.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "22757a1d0415c4257a01b26d251fdd539b3833ac3d2c1f58339e123eed67b37e",
+        "7eb1e275831afdd08d52476b4c9589f66203c398e5c26a54a64cc27e0170f60e"
+      ],
+      "text": "Crowd doesn't like it when I kill 'em too quick… this helps me keep it interesting….",
+      "source": "official"
     },
     {
-      "sha256": "3460b6d7486dca6ede6f68290d7613bb65aee874f2a7a4450aa6aa54d6f09064",
+      "sha256": [
+        "3460b6d7486dca6ede6f68290d7613bb65aee874f2a7a4450aa6aa54d6f09064"
+      ],
       "text": "Crowd doesn't like it when I kill them too quick. This helps me keep it interesting.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22757a1d0415c4257a01b26d251fdd539b3833ac3d2c1f58339e123eed67b37e",
-      "text": "Crowd doesn't like it when I kill 'em too quick… this helps me keep it interesting….",
-      "source": "official"
     }
   ]
 }

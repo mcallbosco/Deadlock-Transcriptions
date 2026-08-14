@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "2b0ec58a73d98810d2bcf7677c595aac2a45b36c1027e2cc3201628cbda8f0c7",
+      "sha256": [
+        "2b0ec58a73d98810d2bcf7677c595aac2a45b36c1027e2cc3201628cbda8f0c7"
+      ],
       "text": "Of course.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9b7143262333a7aadb0be38e80917ffe587e8f66ac0a46499cb072dedee2efb9",
+      "sha256": [
+        "04de950e9af7070f83d2fa4ad6f19369c4a7930db17be7a232708d6d4044c8fc",
+        "9b7143262333a7aadb0be38e80917ffe587e8f66ac0a46499cb072dedee2efb9"
+      ],
       "text": "Careful, guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "04de950e9af7070f83d2fa4ad6f19369c4a7930db17be7a232708d6d4044c8fc",
-      "text": "Careful, guys.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a513cfe3ecd979355fd994cd3850de8d148c103c92b3ca4695726b0670e4cb95",
+      "sha256": [
+        "a513cfe3ecd979355fd994cd3850de8d148c103c92b3ca4695726b0670e4cb95"
+      ],
       "text": "Careful, Geist…",
       "source": "official"
     }

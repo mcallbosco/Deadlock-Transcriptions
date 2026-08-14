@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_going_shop_01.mp3",
   "revisions": [
     {
-      "sha256": "671908e1e25a70f490d2ccb8ae8c6f52b81226a47204f7116893f3e1bdf03293",
-      "text": "Going to shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ef532ffb08375af2a6a3efa2b9797c9509930ffb021986901d95ee1a494f119",
+      "sha256": [
+        "1ef532ffb08375af2a6a3efa2b9797c9509930ffb021986901d95ee1a494f119",
+        "671908e1e25a70f490d2ccb8ae8c6f52b81226a47204f7116893f3e1bdf03293"
+      ],
       "text": "Going to shop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

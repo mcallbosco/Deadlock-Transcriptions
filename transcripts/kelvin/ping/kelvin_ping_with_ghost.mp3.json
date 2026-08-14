@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_with_ghost.mp3",
   "revisions": [
     {
-      "sha256": "f9c84a3a79353509fe13287a0e02e07e34a17decd858c6267c961c57d08664b6",
+      "sha256": [
+        "cabac1271e3d55d1cd88a50c6ed4f046b2884a737b8ca3f2d52840db8520c920",
+        "f9c84a3a79353509fe13287a0e02e07e34a17decd858c6267c961c57d08664b6"
+      ],
       "text": "I'm with you guys.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cabac1271e3d55d1cd88a50c6ed4f046b2884a737b8ca3f2d52840db8520c920",
-      "text": "I'm with you guys!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

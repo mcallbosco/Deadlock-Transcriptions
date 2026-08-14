@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "748758f1e225f5aea8c16ef3737a465e4e8c06daaed76d22fb2e280801c625ff",
+      "sha256": [
+        "748758f1e225f5aea8c16ef3737a465e4e8c06daaed76d22fb2e280801c625ff"
+      ],
       "text": "Kevin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5c9aaf7b50743d17372d99910d853d9c133e5e3f2236ccd2864a68d97b659ac1",
+      "sha256": [
+        "5c9aaf7b50743d17372d99910d853d9c133e5e3f2236ccd2864a68d97b659ac1"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_orion_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "7fca16dc4213c2b8c6eb74d6e3614d5f9c14ddf155d6ffb38b77aa147b738198",
-      "text": "The ride is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fe0b7f10cbfda15b882dd4fec944574bd7dbaaaccecaaa167e40bb384433ab9",
+      "sha256": [
+        "4fe0b7f10cbfda15b882dd4fec944574bd7dbaaaccecaaa167e40bb384433ab9",
+        "7fca16dc4213c2b8c6eb74d6e3614d5f9c14ddf155d6ffb38b77aa147b738198"
+      ],
       "text": "The ride is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

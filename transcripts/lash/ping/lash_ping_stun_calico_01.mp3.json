@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_stun_calico_01.mp3",
   "revisions": [
     {
-      "sha256": "808bb5a6b89e310ea203335092a22be8b6531b22d32603e4ef7c0bc3bd4bc753",
+      "sha256": [
+        "808bb5a6b89e310ea203335092a22be8b6531b22d32603e4ef7c0bc3bd4bc753"
+      ],
       "text": "Stun, Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3b812e70560faea7017980c08c89f5b2f7b72225547ef43ee335c61e06087a55",
+      "sha256": [
+        "3b812e70560faea7017980c08c89f5b2f7b72225547ef43ee335c61e06087a55",
+        "4862eda051f12e479e176e5e1738abed80cffb92d762d727250911b583913744"
+      ],
       "text": "Shut Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4862eda051f12e479e176e5e1738abed80cffb92d762d727250911b583913744",
-      "text": "ShutCalico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "decd9f94c0f6da42c9d7d061c57b7628417d8e59bd8c79a4596d5627d003a8ea",
-      "text": "The Guinness is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8691f18fc35dd697533402bbe7b7c079b8f2ccc98ca17c85d016ef96644f853f",
+      "sha256": [
+        "8691f18fc35dd697533402bbe7b7c079b8f2ccc98ca17c85d016ef96644f853f",
+        "decd9f94c0f6da42c9d7d061c57b7628417d8e59bd8c79a4596d5627d003a8ea"
+      ],
       "text": "The Guinness is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

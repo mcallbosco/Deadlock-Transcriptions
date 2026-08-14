@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power1_07.mp3",
   "revisions": [
     {
-      "sha256": "1dda107ae04dab6be9ff5556ea1593baaff68a634b5aab3105ae8f2a8aad9da2",
-      "text": "Let's go bowling.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49a4b85ec926d3fedffb0bb23a9aa8b21e9f41bff805a43810a18b89629253ba",
-      "text": "Let's go bowling.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e90a0098b943601809568106d489f6f862996ad92adb1a262691afb003c3adeb",
+      "sha256": [
+        "1dda107ae04dab6be9ff5556ea1593baaff68a634b5aab3105ae8f2a8aad9da2",
+        "49a4b85ec926d3fedffb0bb23a9aa8b21e9f41bff805a43810a18b89629253ba",
+        "e90a0098b943601809568106d489f6f862996ad92adb1a262691afb003c3adeb"
+      ],
       "text": "Let's go bowling.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

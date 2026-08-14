@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_upgrade_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "4cf6630cc3a9a5105de3246d15222b0230ad2297ee353adf38d0f3728bc00bb1",
-      "text": "Time to line up a firing squad.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "542db7166dac35105786356c7dddf86750bc5e51702ede24bd481d2777aabc25",
-      "text": "Time to light the firing squad.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d6d9381e45c5640c592e942ccc6fe7efff26a9d48893ddb51e90b732093f7a0",
-      "text": "Time to light the firing squad.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a200fb4a58a1a52ef2284b5d73d52036223111629ba3742ad1bfd49627b7317",
+      "sha256": [
+        "2a200fb4a58a1a52ef2284b5d73d52036223111629ba3742ad1bfd49627b7317",
+        "4cf6630cc3a9a5105de3246d15222b0230ad2297ee353adf38d0f3728bc00bb1"
+      ],
       "text": "Time to line up a firing squad…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "542db7166dac35105786356c7dddf86750bc5e51702ede24bd481d2777aabc25",
+        "7d6d9381e45c5640c592e942ccc6fe7efff26a9d48893ddb51e90b732093f7a0"
+      ],
+      "text": "Time to light the firing squad.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

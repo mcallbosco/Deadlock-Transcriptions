@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "8404fcdba2ad22eb547c68e59238cb933f5512dd145c774203cc37ce3b77984a",
+      "sha256": [
+        "8404fcdba2ad22eb547c68e59238cb933f5512dd145c774203cc37ce3b77984a"
+      ],
       "text": "I saw Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

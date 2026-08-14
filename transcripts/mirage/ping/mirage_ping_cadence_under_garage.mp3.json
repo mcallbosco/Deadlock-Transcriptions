@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_cadence_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "a6b2cf379b5d585c0a2e760b1b4bdb5a9402230f0ce385902803f00afb608400",
+      "sha256": [
+        "a6b2cf379b5d585c0a2e760b1b4bdb5a9402230f0ce385902803f00afb608400"
+      ],
       "text": "Get out of the dock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7db6ef0c985776c9af50b98dbf488f543b955112eafd9ef8f01b47b6950317f4",
+      "sha256": [
+        "7db6ef0c985776c9af50b98dbf488f543b955112eafd9ef8f01b47b6950317f4"
+      ],
       "text": "Cadence under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

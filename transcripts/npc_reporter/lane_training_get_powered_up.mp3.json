@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/lane_training_get_powered_up.mp3",
   "revisions": [
     {
-      "sha256": "e95eff8bd50bf7bcf1f2c7aa3658a9eb1218ae3ea4ac86b47e5130567582c7a0",
-      "text": "Well done! Use the hyperline to return to base. We're gonna give you a lot of ability points and creds now to spend so you can power up for this next part.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d885bd11180e25c5a12e93b75012b0ed2971cbad440d9871eab7ee77a5891ddc",
+      "sha256": [
+        "d885bd11180e25c5a12e93b75012b0ed2971cbad440d9871eab7ee77a5891ddc",
+        "e95eff8bd50bf7bcf1f2c7aa3658a9eb1218ae3ea4ac86b47e5130567582c7a0"
+      ],
       "text": "Well done! Use the hyperline to return to base. We're gonna give you a lot of ability points and creds now to spend so you can power up for this next part.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

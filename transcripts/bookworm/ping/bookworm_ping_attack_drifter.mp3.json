@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_drifter.mp3",
   "revisions": [
     {
-      "sha256": "ca1949de3a3781f33ccdd1a00972b04ce02d611aac8e04bb1e686f60b4b9e736",
-      "text": "Let's take out the drifter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "155e4574d41444ab12162cf4b8c697b8f04defca7ef66679fe9f8d21f6ec6e3c",
+      "sha256": [
+        "155e4574d41444ab12162cf4b8c697b8f04defca7ef66679fe9f8d21f6ec6e3c",
+        "ca1949de3a3781f33ccdd1a00972b04ce02d611aac8e04bb1e686f60b4b9e736"
+      ],
       "text": "Let's take out the Drifter.",
       "source": "official"
     }

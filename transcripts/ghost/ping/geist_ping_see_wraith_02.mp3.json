@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_wraith_02.mp3",
   "revisions": [
     {
-      "sha256": "74631d1dc7eaf620391320ec915fd3d47c50b3cfcb9df39f319c89d70d336d21",
+      "sha256": [
+        "02509bad8eeba78fad3032e40341a744fee5ad07b76a0e5e0afcad698c31ec02",
+        "74631d1dc7eaf620391320ec915fd3d47c50b3cfcb9df39f319c89d70d336d21"
+      ],
       "text": "That's right!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02509bad8eeba78fad3032e40341a744fee5ad07b76a0e5e0afcad698c31ec02",
-      "text": "That's right.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

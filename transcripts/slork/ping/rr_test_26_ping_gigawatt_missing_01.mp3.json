@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_gigawatt_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "37ad86cca3572143d7c54a79b07787549a745c588fb0d17c27e71ac9ff72d796",
-      "text": "Gigawatt is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "540c84561710a7f5be500bba512c882081a7ca900635f53a49367262deb4449f",
+      "sha256": [
+        "37ad86cca3572143d7c54a79b07787549a745c588fb0d17c27e71ac9ff72d796",
+        "540c84561710a7f5be500bba512c882081a7ca900635f53a49367262deb4449f"
+      ],
       "text": "Gigawatt is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

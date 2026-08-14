@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "a1ca40ebff94cde8eec65071da7183bc890f8efe2d42f520e48058b5f37551b6",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eac1b5cda443b7b302116065d2ec4a54e2123f7af4824e3903933f854251ff95",
+      "sha256": [
+        "a1ca40ebff94cde8eec65071da7183bc890f8efe2d42f520e48058b5f37551b6",
+        "eac1b5cda443b7b302116065d2ec4a54e2123f7af4824e3903933f854251ff95"
+      ],
       "text": "Careful, Pocket…",
       "source": "official"
     }

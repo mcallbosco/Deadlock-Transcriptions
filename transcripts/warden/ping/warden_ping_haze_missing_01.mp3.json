@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "59cb9c6100be8feff0eaf4658309a42343a66e7047a443aad8ccc6cbe6d5c36f",
+      "sha256": [
+        "59cb9c6100be8feff0eaf4658309a42343a66e7047a443aad8ccc6cbe6d5c36f",
+        "6beba432b15a8db60c48a19c84cfc0f4cd8c65235ed558977a0620db9e02fb10",
+        "6f8058ab354c74c1c3bdada2e63ccea97093b58973e0333f8746ec94a8b182cd"
+      ],
       "text": "Haze is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6f8058ab354c74c1c3bdada2e63ccea97093b58973e0333f8746ec94a8b182cd",
-      "text": "Haze is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6beba432b15a8db60c48a19c84cfc0f4cd8c65235ed558977a0620db9e02fb10",
-      "text": "Haze is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8febac7ba43c309e223186ae2a21a31ce395cd3335704deb889a9056c023aa9",
+      "sha256": [
+        "f8febac7ba43c309e223186ae2a21a31ce395cd3335704deb889a9056c023aa9"
+      ],
       "text": "Haze's missing",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_bookworm_was_here.mp3",
   "revisions": [
     {
-      "sha256": "87bd2d1963e98c8a8f7e2f4c8b4693f9a0a4c89f13cfa68a007d4f65547e1648",
+      "sha256": [
+        "87bd2d1963e98c8a8f7e2f4c8b4693f9a0a4c89f13cfa68a007d4f65547e1648"
+      ],
       "text": "Page was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

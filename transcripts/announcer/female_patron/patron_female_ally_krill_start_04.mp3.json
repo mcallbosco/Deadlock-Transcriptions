@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_krill_start_04.mp3",
   "revisions": [
     {
-      "sha256": "16bc4ed6c9d7384ee728096a3d19d1e7c49ba89c46320e4341d03e6a1fad3378",
-      "text": "Power, respect, glory, all this and more await you both if you complete the ritual.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "16bc4ed6c9d7384ee728096a3d19d1e7c49ba89c46320e4341d03e6a1fad3378",
+        "5b375e0f5e0c3f6a282b75809162d1f40fa7834bfa46d429a3783d31e08cc8bd"
+      ],
+      "text": "Power. Respect.  Glory.  All this and more await you both if you complete the ritual.",
+      "source": "official"
     },
     {
-      "sha256": "9125f47da19e949882a42db025ef0f682f330c286243c0d4cf4136527ed8c825",
+      "sha256": [
+        "9125f47da19e949882a42db025ef0f682f330c286243c0d4cf4136527ed8c825"
+      ],
       "text": "Power, respect, glory. All this and more await you folks if you complete the ritual.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b375e0f5e0c3f6a282b75809162d1f40fa7834bfa46d429a3783d31e08cc8bd",
-      "text": "Power. Respect.  Glory.  All this and more await you both if you complete the ritual.",
-      "source": "official"
     }
   ]
 }

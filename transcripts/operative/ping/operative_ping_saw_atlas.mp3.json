@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "65a9a695c0a9c4bf0aada76d92063402091d93f51077da2fb502766689327138",
+      "sha256": [
+        "65a9a695c0a9c4bf0aada76d92063402091d93f51077da2fb502766689327138"
+      ],
       "text": "Nice to meet you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

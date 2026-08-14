@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_orion_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "7db84ba3f481785b316350be726ee04a93f2c5ac438ffb5776c1529e83f916b7",
+      "sha256": [
+        "5f51fadcc39b7fc8f23023ff8dadcbb0a1b07080645c17ad6473ab4ac4a385a6",
+        "7db84ba3f481785b316350be726ee04a93f2c5ac438ffb5776c1529e83f916b7"
+      ],
       "text": "Grey Talon's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "173253afd8a3788ee8a4d6bec2a6999e8cac9aff870464ee5e256d2892ae345b",
+      "sha256": [
+        "173253afd8a3788ee8a4d6bec2a6999e8cac9aff870464ee5e256d2892ae345b"
+      ],
       "text": "Great talent on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f51fadcc39b7fc8f23023ff8dadcbb0a1b07080645c17ad6473ab4ac4a385a6",
-      "text": "Grey Talon's on the roof!",
-      "source": "official"
     }
   ]
 }

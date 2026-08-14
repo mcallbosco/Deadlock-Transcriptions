@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_pocket_02.mp3",
   "revisions": [
     {
-      "sha256": "e4c005344b53009c62d7a342eb84ec19a551e55a7296b51bbd70e814196cd8d3",
-      "text": "I see the kid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ab768774c8d00e48c8d5564200c5ac6e67240f49f41aa2b519a1a6916df17a2",
-      "text": "I see the kid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2792c9a29a6d7c0e9a8c52a8d8e4b2ed4f38027386ab97eefe154867063bb4e8",
+      "sha256": [
+        "0ab768774c8d00e48c8d5564200c5ac6e67240f49f41aa2b519a1a6916df17a2",
+        "2792c9a29a6d7c0e9a8c52a8d8e4b2ed4f38027386ab97eefe154867063bb4e8",
+        "e4c005344b53009c62d7a342eb84ec19a551e55a7296b51bbd70e814196cd8d3"
+      ],
       "text": "I see the kid",
       "source": "official"
     }

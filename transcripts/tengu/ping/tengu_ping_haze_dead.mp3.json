@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "df7b800741622e24ee94048b3fe4b0faec6d72c857251a5fbc7e4a6a7d3744cf",
+      "sha256": [
+        "df7b800741622e24ee94048b3fe4b0faec6d72c857251a5fbc7e4a6a7d3744cf"
+      ],
       "text": "Hey, he's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4a2f9ec8f1d7d844ab6c5b25b4e013af032be9eecb2ca8f487341af268b9a3df",
+      "sha256": [
+        "4a2f9ec8f1d7d844ab6c5b25b4e013af032be9eecb2ca8f487341af268b9a3df"
+      ],
       "text": "Hey, this dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

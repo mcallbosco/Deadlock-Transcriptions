@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_inferno.mp3",
   "revisions": [
     {
-      "sha256": "b37f2765be3ab32793e852c43262a2261871a29a31a094ee795371f197cd21c2",
-      "text": "I see Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "889c5b5b2c2214044467854dbb6bd1fd45a3cf187ea240ad2684ff74c6b18da7",
-      "text": "I see Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df995c3ceccb311835fddc0d590602de45f4617b2342b202cfea662e7feb2988",
+      "sha256": [
+        "889c5b5b2c2214044467854dbb6bd1fd45a3cf187ea240ad2684ff74c6b18da7",
+        "b37f2765be3ab32793e852c43262a2261871a29a31a094ee795371f197cd21c2",
+        "df995c3ceccb311835fddc0d590602de45f4617b2342b202cfea662e7feb2988"
+      ],
       "text": "I see Infernus",
       "source": "official"
     }

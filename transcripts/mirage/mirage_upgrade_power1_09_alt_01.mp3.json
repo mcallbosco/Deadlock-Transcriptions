@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_09_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "c19ace4d01cb8750832a4a29fb484b8bc682eb572de66cb0e3bf64fd6144c143",
+      "sha256": [
+        "c19ace4d01cb8750832a4a29fb484b8bc682eb572de66cb0e3bf64fd6144c143"
+      ],
       "text": "Hello, my name is Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

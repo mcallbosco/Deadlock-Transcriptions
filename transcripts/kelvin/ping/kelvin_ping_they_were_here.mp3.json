@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "98836e08632df0f6b36405ff734c86a2b2d5768314a267c37ae4f098de43f173",
+      "sha256": [
+        "98836e08632df0f6b36405ff734c86a2b2d5768314a267c37ae4f098de43f173"
+      ],
       "text": "There he is!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "03a1c900ce9cb626b221cb0ed3f1b4a8714af750e8b8d9ef1562b3e0d623d394",
+      "sha256": [
+        "03a1c900ce9cb626b221cb0ed3f1b4a8714af750e8b8d9ef1562b3e0d623d394"
+      ],
       "text": "They were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

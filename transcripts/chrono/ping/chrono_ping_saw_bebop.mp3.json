@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "5366973b771e881aeb1cbef4a92fa28a5288d89f1dadc864c0a828a0b73594f9",
-      "text": "I saw Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "221e5475a1f0bd36db5069478b61aea9127df2249f4033e391206bf817fc6108",
+      "sha256": [
+        "221e5475a1f0bd36db5069478b61aea9127df2249f4033e391206bf817fc6108",
+        "5366973b771e881aeb1cbef4a92fa28a5288d89f1dadc864c0a828a0b73594f9"
+      ],
       "text": "I saw Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

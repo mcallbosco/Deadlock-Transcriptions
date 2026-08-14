@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "09b3286040d7c21868741203cb3fd2509f0d44b1c0a76e5d498d30132a7021b9",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52d9a8b1ed67057de69579d4a1b6d0236b7fdf779ed8a5a3967a30e25aaacf1b",
+      "sha256": [
+        "09b3286040d7c21868741203cb3fd2509f0d44b1c0a76e5d498d30132a7021b9",
+        "52d9a8b1ed67057de69579d4a1b6d0236b7fdf779ed8a5a3967a30e25aaacf1b"
+      ],
       "text": "Careful, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_inferno.mp3",
   "revisions": [
     {
-      "sha256": "8e54dd33b96ca6ac842c78096b10b935f295d1b1d87822266db2330f3ea901f7",
+      "sha256": [
+        "4b5f344b057262cd6e5b570608501b9b261e044f273ef2334d3cdcf150e2470d",
+        "8e54dd33b96ca6ac842c78096b10b935f295d1b1d87822266db2330f3ea901f7"
+      ],
       "text": "Machine furnace!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b5f344b057262cd6e5b570608501b9b261e044f273ef2334d3cdcf150e2470d",
-      "text": "Machine furnace!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5a0db17a6f37094a97ed6ed159b46fd01fc1c01482579d7429c98598401ee0b",
+      "sha256": [
+        "c5a0db17a6f37094a97ed6ed159b46fd01fc1c01482579d7429c98598401ee0b"
+      ],
       "text": "I see Infernus",
       "source": "official"
     }

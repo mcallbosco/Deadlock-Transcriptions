@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_can_heal_geist.mp3",
   "revisions": [
     {
-      "sha256": "04b86bb345ea8da8958716ba66f99d4589e43724c2c59a850ccb56236223c7b3",
+      "sha256": [
+        "04b86bb345ea8da8958716ba66f99d4589e43724c2c59a850ccb56236223c7b3",
+        "52dec278fc8a2e6afefb43579def55f9b32a410e3021b3441922a5b27bef238b",
+        "6f9413931f1968559fc6bf662ee47589723aa8b5d15facb59001d0cdd7564153"
+      ],
       "text": "Guys, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f9413931f1968559fc6bf662ee47589723aa8b5d15facb59001d0cdd7564153",
-      "text": "Guys, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52dec278fc8a2e6afefb43579def55f9b32a410e3021b3441922a5b27bef238b",
-      "text": "Guys, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_be_careful_01.mp3",
   "revisions": [
     {
-      "sha256": "7e271ac51fdc55c6b49aec92b40d1a3984ee30a878121c9bec8d55ebc8bc31a3",
-      "text": "Ugh, don't wanna be out here on my own.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "866a825c3defa8d66a7197c280ff4fcb81999f8dba0235957895baf837b6e663",
-      "text": "Ugh, don't wanna be out here on my own.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07404bfd00f77fb892876c833ba6410b998ce8f404634b6b7fd312b77d6cd3fc",
+      "sha256": [
+        "07404bfd00f77fb892876c833ba6410b998ce8f404634b6b7fd312b77d6cd3fc",
+        "7e271ac51fdc55c6b49aec92b40d1a3984ee30a878121c9bec8d55ebc8bc31a3",
+        "866a825c3defa8d66a7197c280ff4fcb81999f8dba0235957895baf837b6e663"
+      ],
       "text": "Ugh, don't wanna be out here on my own.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

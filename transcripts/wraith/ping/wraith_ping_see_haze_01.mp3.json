@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "46f3f0525068da3ee3b0c7a4269ff05494d340505f1a53dc311624fc869f3a59",
-      "text": "I see haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6fce9a6def8bf0834498bea0c4aa65dee92d9a7187c46a293e68dc2f20e9f532",
-      "text": "I see it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a46a5c506e5bb9cba6a217fa5e4ea73bcc16e23ed3901aa25a980b8ea7a4dbc2",
-      "text": "I see it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "698265d526de080729121c4f5a264b4a6a999b3d87d04265fa5f2adc72f444dd",
+      "sha256": [
+        "46f3f0525068da3ee3b0c7a4269ff05494d340505f1a53dc311624fc869f3a59",
+        "698265d526de080729121c4f5a264b4a6a999b3d87d04265fa5f2adc72f444dd"
+      ],
       "text": "I see Haze",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "6fce9a6def8bf0834498bea0c4aa65dee92d9a7187c46a293e68dc2f20e9f532",
+        "a46a5c506e5bb9cba6a217fa5e4ea73bcc16e23ed3901aa25a980b8ea7a4dbc2"
+      ],
+      "text": "I see it.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

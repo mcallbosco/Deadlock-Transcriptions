@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_skyrunner.mp3",
   "revisions": [
     {
-      "sha256": "761758fbe80400acf3685e7aba5856a5749a5325657fd4deea872a188f9f7083",
+      "sha256": [
+        "761758fbe80400acf3685e7aba5856a5749a5325657fd4deea872a188f9f7083",
+        "7975ec52eb940507beb164016bc69007013d70e42fbf9933b9c180a3be43b5fb"
+      ],
       "text": "Let's take out Skyrunner.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7975ec52eb940507beb164016bc69007013d70e42fbf9933b9c180a3be43b5fb",
-      "text": "Let's take out Sky Runner.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

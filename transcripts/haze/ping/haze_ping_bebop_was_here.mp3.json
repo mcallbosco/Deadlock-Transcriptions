@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0a71d0478eb4f4b203f1061db731925894d3b4990aba10acf1e6b95ccff64dca",
+      "sha256": [
+        "0a71d0478eb4f4b203f1061db731925894d3b4990aba10acf1e6b95ccff64dca",
+        "23fca6bd50ccd181ef10c11fdee5c8202d2848404c722f758f6878e417a22031",
+        "64eca5436489bd0e73b0169826eb50ed09ea3a66194a2c6ef98139142a97088d"
+      ],
       "text": "Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c297e52de0058749e122d42d13eb64a86d5b21f19ffc57597958e467cd4a63ae",
+      "sha256": [
+        "c297e52de0058749e122d42d13eb64a86d5b21f19ffc57597958e467cd4a63ae"
+      ],
       "text": "Bebop is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "23fca6bd50ccd181ef10c11fdee5c8202d2848404c722f758f6878e417a22031",
-      "text": "Bebop was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64eca5436489bd0e73b0169826eb50ed09ea3a66194a2c6ef98139142a97088d",
-      "text": "Bebop was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44ab79b6947fdd11554e66ad8f3522654e4a6ea31889081c9c787dfccfb8b4af",
+      "sha256": [
+        "44ab79b6947fdd11554e66ad8f3522654e4a6ea31889081c9c787dfccfb8b4af"
+      ],
       "text": "Bevap is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_synth.mp3",
   "revisions": [
     {
-      "sha256": "a0df3cbc7ee97982793ef32b700dd068c1a5a7b65bd2f620390e641a97bbf21f",
-      "text": "I'm with you, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d801806431dd190400053463bebdf01387b8149bec1038b1e413cc1c1bcaf003",
-      "text": "I'm with you, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8dc0edf20d1588101cd2fc0c789e8f24b4258421d3dacf5aaa10bf070aec4f77",
+      "sha256": [
+        "8dc0edf20d1588101cd2fc0c789e8f24b4258421d3dacf5aaa10bf070aec4f77",
+        "a0df3cbc7ee97982793ef32b700dd068c1a5a7b65bd2f620390e641a97bbf21f",
+        "d801806431dd190400053463bebdf01387b8149bec1038b1e413cc1c1bcaf003"
+      ],
       "text": "I'm with you, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

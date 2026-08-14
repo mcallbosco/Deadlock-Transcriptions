@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_trapper_dead.mp3",
   "revisions": [
     {
-      "sha256": "3ff871bad7b11fd024c5955064ca22d239012832f3bc457d38a5153599110988",
+      "sha256": [
+        "3ff871bad7b11fd024c5955064ca22d239012832f3bc457d38a5153599110988"
+      ],
       "text": "Trapper is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

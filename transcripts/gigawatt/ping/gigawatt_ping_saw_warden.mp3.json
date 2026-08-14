@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "45c269811b4d7b31a10e0dcb101768155375ceefc0673fde3f85527d0957b1e8",
+      "sha256": [
+        "45c269811b4d7b31a10e0dcb101768155375ceefc0673fde3f85527d0957b1e8"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c2be85b360ed04e9ec4880d4dc346799073e9f179d206ecc4ddd3895c02bcc67",
+      "sha256": [
+        "adb334f08ba91c5929d17dcac46d0715a1bd62b760fe234af3fa321d527f3c9e",
+        "c2be85b360ed04e9ec4880d4dc346799073e9f179d206ecc4ddd3895c02bcc67"
+      ],
       "text": "Control one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "adb334f08ba91c5929d17dcac46d0715a1bd62b760fe234af3fa321d527f3c9e",
-      "text": "Control one.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "589c4a9a0dad0f8f9e874fa9786640f64fd8a71090bcce6011291b86aaf46c44",
+      "sha256": [
+        "589c4a9a0dad0f8f9e874fa9786640f64fd8a71090bcce6011291b86aaf46c44"
+      ],
       "text": "I saw him!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

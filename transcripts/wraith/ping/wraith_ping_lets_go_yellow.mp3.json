@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "6056c54df19e540e5cc12e8865d855c770a037c9828d5a2125dea329ea430c99",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f53647552e015dd7c9fc8b0a7f99392fc3527082e5f8f8895416184e3b67af54",
-      "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc728d9a0651e905c139fa80d9f0b657f6d9973a7cd7019905feeb8db51ef480",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a69ea8d7a55d2db5d629e112fb98262ef3d8cdcdee0770daf74e04dc31b7251",
+      "sha256": [
+        "5a69ea8d7a55d2db5d629e112fb98262ef3d8cdcdee0770daf74e04dc31b7251",
+        "6056c54df19e540e5cc12e8865d855c770a037c9828d5a2125dea329ea430c99",
+        "cc728d9a0651e905c139fa80d9f0b657f6d9973a7cd7019905feeb8db51ef480",
+        "f53647552e015dd7c9fc8b0a7f99392fc3527082e5f8f8895416184e3b67af54"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

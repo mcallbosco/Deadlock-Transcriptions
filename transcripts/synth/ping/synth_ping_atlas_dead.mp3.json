@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_atlas_dead.mp3",
   "revisions": [
     {
-      "sha256": "0b12a05ca4abd42c764519a2b9c1035db3421c3cdf0dc6c7e4557742f91dcd5d",
+      "sha256": [
+        "0b12a05ca4abd42c764519a2b9c1035db3421c3cdf0dc6c7e4557742f91dcd5d"
+      ],
       "text": "Abrams is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

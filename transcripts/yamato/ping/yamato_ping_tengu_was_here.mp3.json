@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "505fe45ae368cb75ccc6f89f9e7128313b6caae97d22c7d2992c75aa1f997fd6",
+      "sha256": [
+        "505fe45ae368cb75ccc6f89f9e7128313b6caae97d22c7d2992c75aa1f997fd6",
+        "6835a7b079ffd51acba6be0b5539da5eee721a1d03b1b4cc0142a3cc6b685eca"
+      ],
       "text": "Ivy was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6835a7b079ffd51acba6be0b5539da5eee721a1d03b1b4cc0142a3cc6b685eca",
-      "text": "Ivy was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "143732169a6de9774fd847240fef9bc36859887a79addc5e93ac6bcc26a29a04",
+      "sha256": [
+        "143732169a6de9774fd847240fef9bc36859887a79addc5e93ac6bcc26a29a04"
+      ],
       "text": "Ivvy was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

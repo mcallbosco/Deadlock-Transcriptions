@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_holliday_03.mp3",
   "revisions": [
     {
-      "sha256": "ec7c361187ba003e539130e089bc5aa83c5766d895301d4a6055d7890062dea7",
-      "text": "Careful, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c55f79c57fcb4b06a0292a50dfa6b71dc34e292b80a7b8336f421619605e600",
+      "sha256": [
+        "3c55f79c57fcb4b06a0292a50dfa6b71dc34e292b80a7b8336f421619605e600",
+        "ec7c361187ba003e539130e089bc5aa83c5766d895301d4a6055d7890062dea7"
+      ],
       "text": "Careful, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_saw_viper.mp3",
   "revisions": [
     {
-      "sha256": "1e364489602893b3d0bdc174ed9435673d2ef79a591c66adcedd377d897348a5",
+      "sha256": [
+        "1e364489602893b3d0bdc174ed9435673d2ef79a591c66adcedd377d897348a5"
+      ],
       "text": "I saw Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_t1_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "3d29fca09e12ab629fcca31e8af3008104f2d568424f89ab7e591835078b5c1f",
-      "text": "Hmm, might be time to buy something.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d60879bbc293929dea702c3735e290f5e0ced347e095dd90d9845f11c55617fe",
-      "text": "Hmm, might be time to buy something.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd66c71a597b2d36e731e57ef05038b77fde89645b8cbb61ca7f33ef1051f7a4",
+      "sha256": [
+        "3d29fca09e12ab629fcca31e8af3008104f2d568424f89ab7e591835078b5c1f",
+        "d60879bbc293929dea702c3735e290f5e0ced347e095dd90d9845f11c55617fe",
+        "fd66c71a597b2d36e731e57ef05038b77fde89645b8cbb61ca7f33ef1051f7a4"
+      ],
       "text": "Hmm, might be time to buy something.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

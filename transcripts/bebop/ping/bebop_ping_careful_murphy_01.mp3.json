@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_murphy_01.mp3",
   "revisions": [
     {
-      "sha256": "fb1e32c7373658b6304137c0c72574fa4f82ced72f2b654ff1247d9a6937a08a",
-      "text": "Captain Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb9e768e4ff36c400fd604e8383c6657abc46b675322dab60adf523fd4441497",
+      "sha256": [
+        "cb9e768e4ff36c400fd604e8383c6657abc46b675322dab60adf523fd4441497",
+        "fb1e32c7373658b6304137c0c72574fa4f82ced72f2b654ff1247d9a6937a08a"
+      ],
       "text": "Captain Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

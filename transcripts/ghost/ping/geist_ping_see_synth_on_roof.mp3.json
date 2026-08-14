@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_synth_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "03baab552a05ea593c65c26dbd9d8fc161205f3b430ffa2bf82504bef91ceac2",
-      "text": "Look, it's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec950f9cfded13cbf5d16e9dab0374c210ea899aa9c8f0a1541a07618f9ac280",
+      "sha256": [
+        "03baab552a05ea593c65c26dbd9d8fc161205f3b430ffa2bf82504bef91ceac2",
+        "ec950f9cfded13cbf5d16e9dab0374c210ea899aa9c8f0a1541a07618f9ac280"
+      ],
       "text": "Look, it's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "b94d5f8c972541aebefb1c531bbe324986845cca1aa5e91b80478fd3cf3532f6",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d2a2f3bbf2481eadf4aa1fa33f11e9758bdd841b328b3a53aa3dc956fc53f56",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f51a14cecd8f67ddc967749fc64178e06d66d4ae67d274c90f0f177e456c0c81",
+      "sha256": [
+        "2d2a2f3bbf2481eadf4aa1fa33f11e9758bdd841b328b3a53aa3dc956fc53f56",
+        "b94d5f8c972541aebefb1c531bbe324986845cca1aa5e91b80478fd3cf3532f6",
+        "f51a14cecd8f67ddc967749fc64178e06d66d4ae67d274c90f0f177e456c0c81"
+      ],
       "text": "Careful, Seven…",
       "source": "official"
     }

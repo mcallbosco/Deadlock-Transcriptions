@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_wrecker_check_items_1.mp3",
   "revisions": [
     {
-      "sha256": "c454f8bd8cc692ac48faff9723d46bad109f3cd3f6a72a952d93059fddbe949e",
+      "sha256": [
+        "a0cd51f01d36836283a436f5fcf03edbc169fa79bf5485533a292087d7c09641",
+        "c454f8bd8cc692ac48faff9723d46bad109f3cd3f6a72a952d93059fddbe949e"
+      ],
       "text": "Check out what Wreckerbot",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0cd51f01d36836283a436f5fcf03edbc169fa79bf5485533a292087d7c09641",
-      "text": "Check out what Wreckerbot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

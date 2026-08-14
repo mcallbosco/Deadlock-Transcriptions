@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_kill_orion_04.mp3",
   "revisions": [
     {
-      "sha256": "4483298d31c5c85d45b2d752775abe74eb11a9fd2a77aba2ba8442172202de3d",
+      "sha256": [
+        "4483298d31c5c85d45b2d752775abe74eb11a9fd2a77aba2ba8442172202de3d",
+        "bc6417beef78a57744154019d814b50a1f97b05266b5589c03fedfc6681fd090"
+      ],
       "text": "Great Alan is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc6417beef78a57744154019d814b50a1f97b05266b5589c03fedfc6681fd090",
-      "text": "Great Alan is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f92fa91669db3c9cde217aca4c89fc97b7225184eacc86be0f3bbabbeea063a",
+      "sha256": [
+        "3f92fa91669db3c9cde217aca4c89fc97b7225184eacc86be0f3bbabbeea063a"
+      ],
       "text": "Grey talon is dead!",
       "source": "official"
     }

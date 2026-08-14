@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_sandeep_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b18fc53c1afe2d1bd25ee1a71e54b3c4ce39aef4468fdff57755d6ec1a54959b",
-      "text": "Something's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc2591a6637df5f3bcd73897b17847f301761022db1efafafa2cb61dfdef6be6",
+      "sha256": [
+        "b18fc53c1afe2d1bd25ee1a71e54b3c4ce39aef4468fdff57755d6ec1a54959b",
+        "fc2591a6637df5f3bcd73897b17847f301761022db1efafafa2cb61dfdef6be6"
+      ],
       "text": "Something's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

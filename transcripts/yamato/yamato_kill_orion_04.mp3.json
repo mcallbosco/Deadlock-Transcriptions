@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_kill_orion_04.mp3",
   "revisions": [
     {
-      "sha256": "ed5b8732faa66c5279a4a74fd30e28fc2851e253ac7a397a2d23efd3bd2db8b4",
+      "sha256": [
+        "ed5b8732faa66c5279a4a74fd30e28fc2851e253ac7a397a2d23efd3bd2db8b4"
+      ],
       "text": "安らかに眠るがいい。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "eb0d838ed590b4b53a622988a58607d5aa236ed60048d49310dc276ea8a4c3c1",
+      "sha256": [
+        "eb0d838ed590b4b53a622988a58607d5aa236ed60048d49310dc276ea8a4c3c1"
+      ],
       "text": "Rest old man.",
       "source": "official"
     }

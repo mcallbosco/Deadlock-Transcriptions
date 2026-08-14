@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_pocket_01_1.mp3",
   "revisions": [
     {
-      "sha256": "31e679d0faefc6cec8c00ef4614d7e1c74df3593b663bc2c6a588203e0d6b0a6",
+      "sha256": [
+        "31e679d0faefc6cec8c00ef4614d7e1c74df3593b663bc2c6a588203e0d6b0a6",
+        "eda8258ed7e07b6cd7b6f80011e46b41b0cf6eefb18f453ecf479760bf08a041"
+      ],
       "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eda8258ed7e07b6cd7b6f80011e46b41b0cf6eefb18f453ecf479760bf08a041",
-      "text": "I see pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

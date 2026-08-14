@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "cec88937bead8cc8aa350cccfa54f76d4d2ffad423778c23bc2d6aab7dbd4877",
+      "sha256": [
+        "cec88937bead8cc8aa350cccfa54f76d4d2ffad423778c23bc2d6aab7dbd4877"
+      ],
       "text": "Victor was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_stun_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "fe393ccd6888d14a2f9bd94c95ea9a88a45d0c6929f38a00c872cf254e8b1d50",
-      "text": "Stand Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c2e675326b6674763429e2e4772e5d03ee68b1b5456861b39ed3acb2b87ab8f4",
+      "sha256": [
+        "c2e675326b6674763429e2e4772e5d03ee68b1b5456861b39ed3acb2b87ab8f4",
+        "fe393ccd6888d14a2f9bd94c95ea9a88a45d0c6929f38a00c872cf254e8b1d50"
+      ],
       "text": "Stand Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

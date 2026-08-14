@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_synth_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "21f62149d313d83998da10250128c4ed974728b40cab033afb34ed9d5c8af705",
+      "sha256": [
+        "0c350bc09770ec93e81c2f70e6fb5a0c44e500a2975aceb17fc153f9c6d03164",
+        "21f62149d313d83998da10250128c4ed974728b40cab033afb34ed9d5c8af705"
+      ],
       "text": "Clock is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0c350bc09770ec93e81c2f70e6fb5a0c44e500a2975aceb17fc153f9c6d03164",
-      "text": "Clock is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68a145f445adcb9f62401ba75ba0835986d4fe16f9c3055d153ca840e60deb70",
+      "sha256": [
+        "68a145f445adcb9f62401ba75ba0835986d4fe16f9c3055d153ca840e60deb70"
+      ],
       "text": "Cockpit's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1e4e3dd4277ebab1594e5ccdbff30b5ef63b4743a4718a37d2841f41a30ed0e0",
+      "sha256": [
+        "1e4e3dd4277ebab1594e5ccdbff30b5ef63b4743a4718a37d2841f41a30ed0e0"
+      ],
       "text": "Pocket's on top of mid!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_pick_up_gold_04.mp3",
   "revisions": [
     {
-      "sha256": "68801f8ecf5a094075b205ef940fad2ba6ca54c241ef05ae0f85e8bd26d783a4",
-      "text": "Well, lookie here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "53f50f8a3eb3800ac97342565f68d3ec620f8cc9cec3e481570ff958d0ea63d7",
+      "sha256": [
+        "53f50f8a3eb3800ac97342565f68d3ec620f8cc9cec3e481570ff958d0ea63d7",
+        "68801f8ecf5a094075b205ef940fad2ba6ca54c241ef05ae0f85e8bd26d783a4"
+      ],
       "text": "Well, lookie here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

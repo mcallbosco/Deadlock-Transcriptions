@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_theyre_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b1db01e9da5887c4a34f983d68a35219e813eb277abdc00b17f938459db2c88d",
-      "text": "They're under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b55789c6186e10725b6354f0cb29ab318057c86510015ff56da3667ae052f24",
+      "sha256": [
+        "0b55789c6186e10725b6354f0cb29ab318057c86510015ff56da3667ae052f24",
+        "b1db01e9da5887c4a34f983d68a35219e813eb277abdc00b17f938459db2c88d"
+      ],
       "text": "They're under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

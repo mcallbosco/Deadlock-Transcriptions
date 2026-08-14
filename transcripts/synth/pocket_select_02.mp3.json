@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_select_02.mp3",
   "revisions": [
     {
-      "sha256": "b87d6350374522024481e8198ca1413c1ae5ecca635d6958cb093c1646505616",
-      "text": "I'll do whatever it takes to keep this case from my father.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d722c25e9c94a816e6720299cef2a7e5244be745672fbbb78a2a329d478b77a3",
+      "sha256": [
+        "b87d6350374522024481e8198ca1413c1ae5ecca635d6958cb093c1646505616",
+        "d722c25e9c94a816e6720299cef2a7e5244be745672fbbb78a2a329d478b77a3"
+      ],
       "text": "I'll do whatever it takes to keep this case from my father.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

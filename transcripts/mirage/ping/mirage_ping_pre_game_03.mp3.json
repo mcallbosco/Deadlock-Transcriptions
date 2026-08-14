@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_pre_game_03.mp3",
   "revisions": [
     {
-      "sha256": "b1b22aa18417cc74fdb09b43e0267f63082b598078ad3c9e076551e8d3ffd6e5",
-      "text": "I won't fail you, Nashala. The patron will be summoned.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "9c769eec7e6eb9fff66d5ece38cf153cab8ab8a6c1aa8f482967ad5bdedcca2b",
+        "b1b22aa18417cc74fdb09b43e0267f63082b598078ad3c9e076551e8d3ffd6e5"
+      ],
+      "text": "I won't fail you Nashala, the Patron will be summoned.",
+      "source": "official"
     },
     {
-      "sha256": "cc5631ddfa5c11909b653fa6df43638a2cad653856f208970fd48ece250decd2",
+      "sha256": [
+        "cc5631ddfa5c11909b653fa6df43638a2cad653856f208970fd48ece250decd2"
+      ],
       "text": "I will fail you, Nushara. The patron will be summoned.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c769eec7e6eb9fff66d5ece38cf153cab8ab8a6c1aa8f482967ad5bdedcca2b",
-      "text": "I won't fail you Nashala, the Patron will be summoned.",
-      "source": "official"
     }
   ]
 }

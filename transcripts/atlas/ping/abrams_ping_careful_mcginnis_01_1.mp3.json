@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_mcginnis_01_1.mp3",
   "revisions": [
     {
-      "sha256": "813556e9baa00a3549eee9c603b4db679320388fd9e038a2884c8585720face9",
-      "text": "Careful, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e6d23b404c68b307ccd6f97d9eb4330a83035c2821e658ace9081034c9d9872",
+      "sha256": [
+        "7e6d23b404c68b307ccd6f97d9eb4330a83035c2821e658ace9081034c9d9872",
+        "813556e9baa00a3549eee9c603b4db679320388fd9e038a2884c8585720face9"
+      ],
       "text": "Careful, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

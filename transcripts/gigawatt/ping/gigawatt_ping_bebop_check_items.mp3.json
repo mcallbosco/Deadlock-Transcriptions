@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_bebop_check_items.mp3",
   "revisions": [
     {
-      "sha256": "e4785237ea15632ca396ca2400f0482ef2da8f7cf32e57c2ae8b3e048a9c38d1",
+      "sha256": [
+        "29a69a494102d14b7b5035b3593249fceefc0493a02be0a218ec6e2d0eed5044",
+        "e4785237ea15632ca396ca2400f0482ef2da8f7cf32e57c2ae8b3e048a9c38d1"
+      ],
       "text": "Check out what Bebop bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "29a69a494102d14b7b5035b3593249fceefc0493a02be0a218ec6e2d0eed5044",
-      "text": "Check out what Bebop bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4910dee8a7c13f54a0886422743c7c59928c4f25351a3a92dd0ee1a09c0b643",
+      "sha256": [
+        "c4910dee8a7c13f54a0886422743c7c59928c4f25351a3a92dd0ee1a09c0b643"
+      ],
       "text": "Check out what people bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

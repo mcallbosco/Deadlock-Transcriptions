@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_welcome.mp3",
   "revisions": [
     {
-      "sha256": "3fc6bc039650078e17b1b07314d1338e8a60a0b1d99cb6d0a0af3639bdf37f00",
+      "sha256": [
+        "3fc6bc039650078e17b1b07314d1338e8a60a0b1d99cb6d0a0af3639bdf37f00"
+      ],
       "text": "I am one of the patient, and today I will be your guide.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1431c1787ce2969b433fbd2afddad6131cb120c673524092bcf148ffaa571f20",
+      "sha256": [
+        "1431c1787ce2969b433fbd2afddad6131cb120c673524092bcf148ffaa571f20"
+      ],
       "text": "I am the patient, and today I will be your guide.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "386d284764dd718a27c5c8bf2d919971fc1e8d3f28324d83240907b64d3c1de7",
+      "sha256": [
+        "386d284764dd718a27c5c8bf2d919971fc1e8d3f28324d83240907b64d3c1de7"
+      ],
       "text": "I speak for the Hidden King, and today I shall be your guide.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

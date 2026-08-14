@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_archer_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "810a06492d80d86eb601479f1551a844db5a9ef657b953756604ac2c6fc7e47a",
-      "text": "Arch is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52f4106d04c23177e9df28b3bf7dffc4f70c524f0dd729107d466abd1d94eb06",
-      "text": "Arch is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36ccbe9e396027df64ca66166f2aa6bf45219919de773270b903bf3c2b380a47",
+      "sha256": [
+        "36ccbe9e396027df64ca66166f2aa6bf45219919de773270b903bf3c2b380a47",
+        "52f4106d04c23177e9df28b3bf7dffc4f70c524f0dd729107d466abd1d94eb06",
+        "810a06492d80d86eb601479f1551a844db5a9ef657b953756604ac2c6fc7e47a"
+      ],
       "text": "Arch is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

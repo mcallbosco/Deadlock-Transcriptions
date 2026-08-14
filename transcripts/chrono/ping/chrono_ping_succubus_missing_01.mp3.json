@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_succubus_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "637145e27432d98da1926c6aebb41a6f2046cd540d6cce4e4b09c3dc77430b79",
+      "sha256": [
+        "637145e27432d98da1926c6aebb41a6f2046cd540d6cce4e4b09c3dc77430b79"
+      ],
       "text": "Something is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

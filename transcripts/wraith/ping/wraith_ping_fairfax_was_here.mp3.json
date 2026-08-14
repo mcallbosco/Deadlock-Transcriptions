@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_fairfax_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fa2ae0d9f7371ee6b71d1caed00cee5933b7dc5dcf55d09ceac2f7be99031ff3",
+      "sha256": [
+        "fa2ae0d9f7371ee6b71d1caed00cee5933b7dc5dcf55d09ceac2f7be99031ff3"
+      ],
       "text": "Fairfax was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "59e870a8f2b9acf0a449b0df86c95ad99f7291c63aa1a8cb049d1294243bd410",
-      "text": "They're back with here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b810fb7f3cf66496f6ccf0f99656431149829a627234bc2fd4dd6ec56eaa12f3",
+      "sha256": [
+        "59e870a8f2b9acf0a449b0df86c95ad99f7291c63aa1a8cb049d1294243bd410",
+        "b810fb7f3cf66496f6ccf0f99656431149829a627234bc2fd4dd6ec56eaa12f3"
+      ],
       "text": "They're back with here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

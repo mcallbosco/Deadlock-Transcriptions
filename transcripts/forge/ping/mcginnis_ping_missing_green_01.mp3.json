@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "e3df592bf35d879db4089965e63d2a2a13d04bee3d6ba8db8e8f9addf969c3aa",
+      "sha256": [
+        "6fd8d28f5c17b3d922e11484d7250f85ef2a63547aeebf37c73abb8291e9c4b1",
+        "e3df592bf35d879db4089965e63d2a2a13d04bee3d6ba8db8e8f9addf969c3aa"
+      ],
       "text": "Missing green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6fd8d28f5c17b3d922e11484d7250f85ef2a63547aeebf37c73abb8291e9c4b1",
-      "text": "Missing Green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

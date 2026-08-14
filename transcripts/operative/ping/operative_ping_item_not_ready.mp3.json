@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "ffb008d8509a1b77739e9292ecd95a91330ba243b5fc866f476a785eed6372ca",
+      "sha256": [
+        "ffb008d8509a1b77739e9292ecd95a91330ba243b5fc866f476a785eed6372ca"
+      ],
       "text": "items on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

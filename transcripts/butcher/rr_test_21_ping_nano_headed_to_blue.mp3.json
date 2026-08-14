@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_nano_headed_to_blue.mp3",
   "revisions": [
     {
-      "sha256": "896512d7d32619a5aadbde725f2092776bf9829b2bb29edae30b4fd95c160051",
-      "text": "Nano's headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11666ab54f8f80d16998f4bf26761de6212d10de5275326637258cd767a6c429",
-      "text": "Nano's headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "372e35058feb6b2e08a055a879714552bef7b8bb79d171a2ef081ac86a9b3a04",
+      "sha256": [
+        "11666ab54f8f80d16998f4bf26761de6212d10de5275326637258cd767a6c429",
+        "372e35058feb6b2e08a055a879714552bef7b8bb79d171a2ef081ac86a9b3a04",
+        "896512d7d32619a5aadbde725f2092776bf9829b2bb29edae30b4fd95c160051"
+      ],
       "text": "Nano's headed to blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

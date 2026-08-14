@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "136de4f221482c8e77ebb3dc94c7a2ce449d08126b28672761fa8708d1def190",
+      "sha256": [
+        "136de4f221482c8e77ebb3dc94c7a2ce449d08126b28672761fa8708d1def190"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

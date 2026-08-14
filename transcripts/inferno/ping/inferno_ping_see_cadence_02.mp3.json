@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_cadence_02.mp3",
   "revisions": [
     {
-      "sha256": "d115413952ea598edaed47fda4e79204530f56013036f6d0b1e05f40c69dbf5a",
+      "sha256": [
+        "5bab82b7bb56c761fbf7da650a8ae7f457fd48e185a52fe0dddcd643a6c6c52e",
+        "d115413952ea598edaed47fda4e79204530f56013036f6d0b1e05f40c69dbf5a"
+      ],
       "text": "Hey Cadence, sorry I have to shoot you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5bab82b7bb56c761fbf7da650a8ae7f457fd48e185a52fe0dddcd643a6c6c52e",
-      "text": "Hey Cadence, sorry I have to shoot you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef1c34c8bb4abe4869b9541669f8c2ec618cf909f92b90d23e9919e576d9454b",
+      "sha256": [
+        "ef1c34c8bb4abe4869b9541669f8c2ec618cf909f92b90d23e9919e576d9454b"
+      ],
       "text": "Take cadence! Sorry I have to shoot you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "91612e9f20facda9afdaf89bb2ad2a3e73cc7ec63d111c408b0b830fc7433df4",
-      "text": "I see haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e25720ad598da24324272e58252b4e49c026d61558157e111c9a7281a2759c6",
+      "sha256": [
+        "4e25720ad598da24324272e58252b4e49c026d61558157e111c9a7281a2759c6",
+        "91612e9f20facda9afdaf89bb2ad2a3e73cc7ec63d111c408b0b830fc7433df4"
+      ],
       "text": "I see Haze.",
       "source": "official"
     }

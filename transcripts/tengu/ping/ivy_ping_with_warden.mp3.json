@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "ef3952893c220232aef190b249744929b8dc166de7b0fbeb7df86ac9fb7a2ae9",
-      "text": "I'm with you, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a56cbd47f7a929b65765f43b3ffadeaf283444fcb57e60155a9092aecea455da",
-      "text": "I'm with you, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8256ad5fde04b95ebcd697103ee830beb8bfa9af3c409e20153d5276eaf4c015",
+      "sha256": [
+        "8256ad5fde04b95ebcd697103ee830beb8bfa9af3c409e20153d5276eaf4c015",
+        "a56cbd47f7a929b65765f43b3ffadeaf283444fcb57e60155a9092aecea455da",
+        "ef3952893c220232aef190b249744929b8dc166de7b0fbeb7df86ac9fb7a2ae9"
+      ],
       "text": "I'm with you, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "35c9173ac0012f289b776508728e72f0ebd76036928b7a8da30430c66219bfd5",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f1ab8efdf6a615edecd57917662fcab5e3a9f63da415f209c4b32a8f509ec2d1",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c96dedc654b285c31be5637da6adb6f27ef10d4e4fac7f6b483828b9b434cde",
+      "sha256": [
+        "1c96dedc654b285c31be5637da6adb6f27ef10d4e4fac7f6b483828b9b434cde",
+        "35c9173ac0012f289b776508728e72f0ebd76036928b7a8da30430c66219bfd5",
+        "f1ab8efdf6a615edecd57917662fcab5e3a9f63da415f209c4b32a8f509ec2d1"
+      ],
       "text": "You're welcome",
       "source": "official"
     }

@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_pocket_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "183bb0c3657b29b32a2d3c18f53f9c29e597f8c606f4bff18546759540d3e5eb",
+      "sha256": [
+        "183bb0c3657b29b32a2d3c18f53f9c29e597f8c606f4bff18546759540d3e5eb",
+        "481764c04f314360c3b848de7ce1170161ba13464a24b471f8b40b49476d77ae",
+        "a42d787f8e96b9c8b6d71159e636f4269468ad47bd92740b675ffaa90ca20da2"
+      ],
       "text": "Pockets on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87aa703de446392a261ac06088dd7e9813e2162e5412e53dd8aac36828566e3f",
+      "sha256": [
+        "87aa703de446392a261ac06088dd7e9813e2162e5412e53dd8aac36828566e3f"
+      ],
       "text": "Pack is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a42d787f8e96b9c8b6d71159e636f4269468ad47bd92740b675ffaa90ca20da2",
-      "text": "Pockets on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "481764c04f314360c3b848de7ce1170161ba13464a24b471f8b40b49476d77ae",
-      "text": "Pocket's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

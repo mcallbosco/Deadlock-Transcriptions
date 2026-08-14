@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_flank.mp3",
   "revisions": [
     {
-      "sha256": "7c1516bedb5e398fe1c91055d8a05dfd6af90045787696a5f363447ac7a5a9d8",
+      "sha256": [
+        "7c1516bedb5e398fe1c91055d8a05dfd6af90045787696a5f363447ac7a5a9d8",
+        "83f679b231d0202988becc52c852bccd0b21ae25641fcb7186c5520ff2bfd001"
+      ],
       "text": "I'll flank him.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "83f679b231d0202988becc52c852bccd0b21ae25641fcb7186c5520ff2bfd001",
-      "text": "I'll flank him.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e463d74ebb2d8389f814fd872a7c0bf4891c476a97635354d389845feeb7a8a1",
+      "sha256": [
+        "e463d74ebb2d8389f814fd872a7c0bf4891c476a97635354d389845feeb7a8a1"
+      ],
       "text": "I'll flank 'em",
       "source": "official"
     }

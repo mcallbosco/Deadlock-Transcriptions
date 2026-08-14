@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_bebop_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b4cfca357d037b9f2d06fd1029c5b518c41eada203aabcd067c5376f1b3ceb91",
+      "sha256": [
+        "4fc40aca2b04d70c79418fe7df14732ece6d2641960ff9dad7d4d9ca2a911581",
+        "b4cfca357d037b9f2d06fd1029c5b518c41eada203aabcd067c5376f1b3ceb91"
+      ],
       "text": "Bebop's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "aa8eb9c5cc07f59e3f1e52884ef41b0d8468c05c0b21ad6ee6fd299593a554ac",
+      "sha256": [
+        "aa8eb9c5cc07f59e3f1e52884ef41b0d8468c05c0b21ad6ee6fd299593a554ac"
+      ],
       "text": "Bebop's under the gage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fc40aca2b04d70c79418fe7df14732ece6d2641960ff9dad7d4d9ca2a911581",
-      "text": "Bebop's under the garage!",
-      "source": "official"
     }
   ]
 }

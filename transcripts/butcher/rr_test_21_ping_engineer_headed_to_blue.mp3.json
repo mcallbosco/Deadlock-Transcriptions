@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_engineer_headed_to_blue.mp3",
   "revisions": [
     {
-      "sha256": "2c0d3d744f3c4ba6721a0c77785e7d1f92c5c27456454c6547d2f8643cb98f4a",
+      "sha256": [
+        "2c0d3d744f3c4ba6721a0c77785e7d1f92c5c27456454c6547d2f8643cb98f4a",
+        "a1e91e7245708dd809ae1e4887bb36dd72f3b4ee10a963c23119ed3b477409d7",
+        "daa8a99b02ac9b62c4252d64800f625ac1e2bf4680b68277ce92500b7ed96466"
+      ],
       "text": "Engineer's headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1e91e7245708dd809ae1e4887bb36dd72f3b4ee10a963c23119ed3b477409d7",
-      "text": "Engineer's headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "daa8a99b02ac9b62c4252d64800f625ac1e2bf4680b68277ce92500b7ed96466",
-      "text": "Engineers headed to blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

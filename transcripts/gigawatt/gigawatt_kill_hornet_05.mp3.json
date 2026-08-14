@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_hornet_05.mp3",
   "revisions": [
     {
-      "sha256": "db69a739be08363f03c6ba5c0508b04eef8a45f05a8417c4e96a4c82a32c848f",
+      "sha256": [
+        "db69a739be08363f03c6ba5c0508b04eef8a45f05a8417c4e96a4c82a32c848f"
+      ],
       "text": "Goodbye, Hortons.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d2a0a609bccba29a30d8ef65b0871a267f96c517a8a586a098d61d16a60270d4",
-      "text": "Goodbye, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e443d1e431ed054256ffb45cdc205de17006c08c90643ab9650dc17b06863b2",
-      "text": "Goodbye, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33bb76a4d60d98b834cd8498f8c6338c3964804bd48f4553a2e5277414487f56",
+      "sha256": [
+        "33bb76a4d60d98b834cd8498f8c6338c3964804bd48f4553a2e5277414487f56",
+        "4e443d1e431ed054256ffb45cdc205de17006c08c90643ab9650dc17b06863b2",
+        "d2a0a609bccba29a30d8ef65b0871a267f96c517a8a586a098d61d16a60270d4"
+      ],
       "text": "Goodbye Vindicta",
       "source": "official"
     }

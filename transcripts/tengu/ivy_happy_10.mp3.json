@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_happy_10.mp3",
   "revisions": [
     {
-      "sha256": "f71dec8e449938bc9340615b50eb48b065607e22d4b2742e24e2ae7d15b92228",
-      "text": "¡Me encanta mi equipo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01970c99a39989305be549ad3fe8bfc4cd4e10ac8b0709e86dd042f9ac204e98",
+      "sha256": [
+        "01970c99a39989305be549ad3fe8bfc4cd4e10ac8b0709e86dd042f9ac204e98",
+        "f71dec8e449938bc9340615b50eb48b065607e22d4b2742e24e2ae7d15b92228"
+      ],
       "text": "¡Me encanta mi equipo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

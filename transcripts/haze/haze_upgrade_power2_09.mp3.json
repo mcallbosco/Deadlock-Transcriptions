@@ -1,41 +1,32 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_upgrade_power2_09.mp3",
   "revisions": [
     {
-      "sha256": "8736f55f8f78aabd920651d671c7da720401b3848f8d9818fea9b948573339fe",
-      "text": "I will cloud their eyes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "276026e91dc4951f08267d6004d8d2a663362723660aac3b7188f757cd5b9cc9",
+        "8736f55f8f78aabd920651d671c7da720401b3848f8d9818fea9b948573339fe",
+        "a58a5ec1c092537f1f8ee86af58a7be9e047d491f4cf6e62c7b7d90cc90e9d30"
+      ],
+      "text": "I will cloud their eyes",
+      "source": "official"
     },
     {
-      "sha256": "c0a2428b7844ba443e5c50e28d2c72a58cdc4b68ac914cfb89539af998af9cc7",
+      "sha256": [
+        "c0a2428b7844ba443e5c50e28d2c72a58cdc4b68ac914cfb89539af998af9cc7"
+      ],
       "text": "Little cloudrise.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f98810d76f53e8ff3bd738c1f3af0a63f58c0bf1af99054eb29ab1d377a55ab1",
+      "sha256": [
+        "04b3f8305939f4a25b381c1187798e673d6da635509cb3d9b575fc196a4b2b0b",
+        "f98810d76f53e8ff3bd738c1f3af0a63f58c0bf1af99054eb29ab1d377a55ab1"
+      ],
       "text": "We'll cauterize.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04b3f8305939f4a25b381c1187798e673d6da635509cb3d9b575fc196a4b2b0b",
-      "text": "We'll cauterize.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a58a5ec1c092537f1f8ee86af58a7be9e047d491f4cf6e62c7b7d90cc90e9d30",
-      "text": "I will cloud their eyes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "276026e91dc4951f08267d6004d8d2a663362723660aac3b7188f757cd5b9cc9",
-      "text": "I will cloud their eyes",
-      "source": "official"
     }
   ]
 }

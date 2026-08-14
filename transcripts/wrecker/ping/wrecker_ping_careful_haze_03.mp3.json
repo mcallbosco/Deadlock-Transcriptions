@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "f349016f2563f8955afa3fff8cc6b1797bdab8689377a5be716240e863080df2",
-      "text": "Careful, Haze!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5df31c8ecbcc1e44ffae03eba5b70c68079a653ec8b82dfbb254109b3660bc28",
+      "sha256": [
+        "5df31c8ecbcc1e44ffae03eba5b70c68079a653ec8b82dfbb254109b3660bc28",
+        "f349016f2563f8955afa3fff8cc6b1797bdab8689377a5be716240e863080df2"
+      ],
       "text": "Careful, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

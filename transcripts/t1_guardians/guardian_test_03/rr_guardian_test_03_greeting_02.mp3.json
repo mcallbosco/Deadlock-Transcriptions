@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_greeting_02.mp3",
   "revisions": [
     {
-      "sha256": "ac82d1fdaa536721a7a4b8070063b37504fea70ea14b5752b77b9173cc552bc3",
-      "text": "Looks like we're working together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45fabb81c18aa2063c4cbf641ba9b161c4eaccda8371688b6ba9bb903d017d90",
-      "text": "Looks like we're working together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "276152825f63788daf92f2c58f30deb98d94d4a0bdf7540d779269fa2b2d9ba1",
+      "sha256": [
+        "276152825f63788daf92f2c58f30deb98d94d4a0bdf7540d779269fa2b2d9ba1",
+        "45fabb81c18aa2063c4cbf641ba9b161c4eaccda8371688b6ba9bb903d017d90",
+        "ac82d1fdaa536721a7a4b8070063b37504fea70ea14b5752b77b9173cc552bc3"
+      ],
       "text": "Looks like we're working together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

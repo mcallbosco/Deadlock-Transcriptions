@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "d63135ae33bdf31bfaf53a569da88168f87305c3f23de967089a608de8798115",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e64376162b3a32b70631bed06df203ad5cd792d45d9bc2e1a444fe1353aadbac",
-      "text": "They were here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ebcebc6e5a074350079344b4cb214a2a80bd4be71e9570a44b322f032b093e0",
+      "sha256": [
+        "5ebcebc6e5a074350079344b4cb214a2a80bd4be71e9570a44b322f032b093e0",
+        "d63135ae33bdf31bfaf53a569da88168f87305c3f23de967089a608de8798115",
+        "e64376162b3a32b70631bed06df203ad5cd792d45d9bc2e1a444fe1353aadbac"
+      ],
       "text": "They were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

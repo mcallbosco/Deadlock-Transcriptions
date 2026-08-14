@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_ivy_01.mp3",
   "revisions": [
     {
-      "sha256": "f8f59bc34aa361810a28abbc876ff1b3eac8fd53a34394de78f3af4cc19fd18f",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0bc89632d2937048b5fae1a0b8d0a4988d5f1abace120486f4a02640f7da35db",
+      "sha256": [
+        "0bc89632d2937048b5fae1a0b8d0a4988d5f1abace120486f4a02640f7da35db",
+        "f8f59bc34aa361810a28abbc876ff1b3eac8fd53a34394de78f3af4cc19fd18f"
+      ],
       "text": "Careful, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_killed_by_wraith_05.mp3",
   "revisions": [
     {
-      "sha256": "c27d06fbea8ea517b871388295652a7eea6a8b677a62e2bd0645da05e1b5dcad",
+      "sha256": [
+        "4c3f832599bb115515fb1333216db18134c634e368452cdb8162a076565807ae",
+        "c27d06fbea8ea517b871388295652a7eea6a8b677a62e2bd0645da05e1b5dcad"
+      ],
       "text": "This isn't over, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "acc73bf593bfd47c30ae16046fc62d492f9681e0cd8d78ee989f92965f820dd5",
+      "sha256": [
+        "acc73bf593bfd47c30ae16046fc62d492f9681e0cd8d78ee989f92965f820dd5"
+      ],
       "text": "This isn't over, Rafe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c3f832599bb115515fb1333216db18134c634e368452cdb8162a076565807ae",
-      "text": "This isn't over, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

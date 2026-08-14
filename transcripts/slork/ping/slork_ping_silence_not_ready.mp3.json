@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_silence_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "ce247449a483cdb2d57b913e23c41689dc0636d2f153acc606377e261001a93a",
+      "sha256": [
+        "ce247449a483cdb2d57b913e23c41689dc0636d2f153acc606377e261001a93a"
+      ],
       "text": "Silence glyphs on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

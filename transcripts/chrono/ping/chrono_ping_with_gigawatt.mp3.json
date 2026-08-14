@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "308f79bb75f568a6a76f38ea0d38fa8a737e462f6c69c00d2903a13f8b6248df",
+      "sha256": [
+        "308f79bb75f568a6a76f38ea0d38fa8a737e462f6c69c00d2903a13f8b6248df"
+      ],
       "text": "Are we geeseven?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f25fd6bd475e70978c5ff9d3c514d2788e9516e53344ec8e842e92064895be76",
+      "sha256": [
+        "f25fd6bd475e70978c5ff9d3c514d2788e9516e53344ec8e842e92064895be76"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5ade7429fba825fb8e06bdb357da03d13f7c03c6feb27968a131845340187810",
-      "text": "Dynamo was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cadeb0425dbebe829ca1af39dd9b1caeb8c419d0659e8bcfa673335b5082b96e",
-      "text": "Dynamo was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b301914fd3d65a62393b0fa3d4108da6060cb5171a3078f180be925812e72a50",
+      "sha256": [
+        "5ade7429fba825fb8e06bdb357da03d13f7c03c6feb27968a131845340187810",
+        "b301914fd3d65a62393b0fa3d4108da6060cb5171a3078f180be925812e72a50",
+        "cadeb0425dbebe829ca1af39dd9b1caeb8c419d0659e8bcfa673335b5082b96e"
+      ],
       "text": "Dynamo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

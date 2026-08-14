@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_need_help_yellow.mp3",
   "revisions": [
     {
-      "sha256": "12e4aed06c229d8fa3d31d59edd430ef4c273d05bf656ef79cae6a92503445cf",
-      "text": "Need help on yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbce6e3193a494019c13c042e825a0fbf6ba849200905bae749262accc640086",
-      "text": "Need help on yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ccbd17cbb496edbbdd69ddd1e5d2b1d56750ab093de5faea2156a90f9800723c",
+      "sha256": [
+        "12e4aed06c229d8fa3d31d59edd430ef4c273d05bf656ef79cae6a92503445cf",
+        "ccbd17cbb496edbbdd69ddd1e5d2b1d56750ab093de5faea2156a90f9800723c",
+        "dbce6e3193a494019c13c042e825a0fbf6ba849200905bae749262accc640086"
+      ],
       "text": "Need help on yellow!",
       "source": "official"
     }

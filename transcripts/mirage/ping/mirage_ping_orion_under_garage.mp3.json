@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_orion_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "9ebb5eef5288cd0e8dadbd6d9173d6f1e0ff012c1c36243631281f5cd8291e2a",
+      "sha256": [
+        "9ebb5eef5288cd0e8dadbd6d9173d6f1e0ff012c1c36243631281f5cd8291e2a"
+      ],
       "text": "I am the dark.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2730e25b548d48ddf3e70b37545674dd08506b8c2c20075ebd35bc0ca5ad054e",
+      "sha256": [
+        "2730e25b548d48ddf3e70b37545674dd08506b8c2c20075ebd35bc0ca5ad054e",
+        "2891231b2e35a508b2315016224be1da7539b6b78895f51d00f0cb1c34e40414"
+      ],
       "text": "Great talents under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2891231b2e35a508b2315016224be1da7539b6b78895f51d00f0cb1c34e40414",
-      "text": "Great talents under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7250d5dec4cdacdca0fcbaa4550d0cbeb5989784a83759a1e4c51a7e18d05b34",
+      "sha256": [
+        "7250d5dec4cdacdca0fcbaa4550d0cbeb5989784a83759a1e4c51a7e18d05b34"
+      ],
       "text": "Grey Talon's under the garage!",
       "source": "official"
     }

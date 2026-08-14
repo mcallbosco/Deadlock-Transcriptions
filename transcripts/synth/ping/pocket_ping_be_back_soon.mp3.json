@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_be_back_soon.mp3",
   "revisions": [
     {
-      "sha256": "b091f3c6f5e55c5c56c2a4d31eedca5e7ad40cdcb0739422f9ab1c6f47d16ac7",
-      "text": "Be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c4e6b3418311736e40043be2120844370db4cbc7ebcf4505292de679d3e4652",
+      "sha256": [
+        "6c4e6b3418311736e40043be2120844370db4cbc7ebcf4505292de679d3e4652",
+        "b091f3c6f5e55c5c56c2a4d31eedca5e7ad40cdcb0739422f9ab1c6f47d16ac7"
+      ],
       "text": "Be right back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

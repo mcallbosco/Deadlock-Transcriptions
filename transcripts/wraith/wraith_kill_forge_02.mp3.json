@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_forge_02.mp3",
   "revisions": [
     {
-      "sha256": "6b22675f061316b1a31e07d65792c09b0a016608170d7a36ca1145441d126956",
+      "sha256": [
+        "6b22675f061316b1a31e07d65792c09b0a016608170d7a36ca1145441d126956",
+        "c178ef672fbab952ff5a7036f4191ee33ebe62b0df89a22ed4e223218af91be8"
+      ],
       "text": "Dearfax needs better help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c178ef672fbab952ff5a7036f4191ee33ebe62b0df89a22ed4e223218af91be8",
-      "text": "Dearfax needs better help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f844c90ada3ac17710555fdd3bfda0b7adbe9ddf3e5bc51e9bce1ca2275834a8",
+      "sha256": [
+        "f844c90ada3ac17710555fdd3bfda0b7adbe9ddf3e5bc51e9bce1ca2275834a8"
+      ],
       "text": "Fairfax needs better help",
       "source": "official"
     }

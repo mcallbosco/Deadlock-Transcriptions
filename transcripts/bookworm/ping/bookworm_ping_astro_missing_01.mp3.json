@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_astro_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "984b16ff57f128983fdcb745ad8f5ccb89d0c19c97c97636f527f2990aa0ebb7",
-      "text": "Holliday's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e771a947cf464ed5c8bbb43ac70af6baee9956d291a45f8a05551187244f59b",
+      "sha256": [
+        "1e771a947cf464ed5c8bbb43ac70af6baee9956d291a45f8a05551187244f59b",
+        "984b16ff57f128983fdcb745ad8f5ccb89d0c19c97c97636f527f2990aa0ebb7"
+      ],
       "text": "Holliday's missing.",
       "source": "official"
     }

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_can_heal_wraith.mp3",
   "revisions": [
     {
-      "sha256": "d6e52a6eab590279a4b25ac19be7e87d02bfb99ced26ae20fe75941bb0a1ffdf",
+      "sha256": [
+        "d6e52a6eab590279a4b25ac19be7e87d02bfb99ced26ae20fe75941bb0a1ffdf"
+      ],
       "text": "Grace, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f75e8563c5d8f974e01f1cb3077f17e5288f451d141347a59767fb1f25917451",
+      "sha256": [
+        "4a508c1137272be84562704832f8954656bd5de17cc7770db1829cb1e0039286",
+        "f75e8563c5d8f974e01f1cb3077f17e5288f451d141347a59767fb1f25917451"
+      ],
       "text": "Great, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4a508c1137272be84562704832f8954656bd5de17cc7770db1829cb1e0039286",
-      "text": "Great, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "756c406f5cb27fab7291e47cd2957e1c671ee6258c22c5d3e490b9e91b7a78b0",
+      "sha256": [
+        "756c406f5cb27fab7291e47cd2957e1c671ee6258c22c5d3e490b9e91b7a78b0"
+      ],
       "text": "Wraith, I can heal you!",
       "source": "official"
     }

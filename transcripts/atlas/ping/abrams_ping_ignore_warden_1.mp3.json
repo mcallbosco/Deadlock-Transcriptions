@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ignore_warden_1.mp3",
   "revisions": [
     {
-      "sha256": "d4f74f9eb306e0ed0eddc798bedba2b61468490a8ea7842729f89998f69193bf",
-      "text": "Ignore Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "684c27e5933f92952d3c7c961d9b0651891b71eb005c1d081317ee6e8527cd4c",
+      "sha256": [
+        "684c27e5933f92952d3c7c961d9b0651891b71eb005c1d081317ee6e8527cd4c",
+        "d4f74f9eb306e0ed0eddc798bedba2b61468490a8ea7842729f89998f69193bf"
+      ],
       "text": "Ignore Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

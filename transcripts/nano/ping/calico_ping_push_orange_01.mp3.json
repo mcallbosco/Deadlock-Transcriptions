@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_push_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "07ac9ef87561c64b31a192b84571ca358c83f4993fcda249b2f8bc9a06a00188",
+      "sha256": [
+        "07ac9ef87561c64b31a192b84571ca358c83f4993fcda249b2f8bc9a06a00188",
+        "5395272f3e29ddafe4751873a6efd9bb02c4ded556564a606ed6b0747ffb63db"
+      ],
       "text": "Let's push orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5395272f3e29ddafe4751873a6efd9bb02c4ded556564a606ed6b0747ffb63db",
-      "text": "Let's push Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

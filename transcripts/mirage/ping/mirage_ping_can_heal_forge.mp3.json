@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_can_heal_forge.mp3",
   "revisions": [
     {
-      "sha256": "f6ce9561ca1608f8a50549986626418f3a6e8c25b6185db55ab6a4acc8bbe001",
+      "sha256": [
+        "f6ce9561ca1608f8a50549986626418f3a6e8c25b6185db55ab6a4acc8bbe001"
+      ],
       "text": "I want that can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "50715ec76f9072222fdb5cf51e215924ecacd86b6911b6428e85787380ed5fbd",
+      "sha256": [
+        "50715ec76f9072222fdb5cf51e215924ecacd86b6911b6428e85787380ed5fbd",
+        "8bb1621fcb5312bf667d3ba695da6e48b627da6e0970d76db41c2f6ca4de1fee"
+      ],
       "text": "Forgiveness, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8bb1621fcb5312bf667d3ba695da6e48b627da6e0970d76db41c2f6ca4de1fee",
-      "text": "Forgiveness, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4dd6fe80aa6986dcfa8c92932b8e9533a9f1c4f456434c28e946bb9c59e72b07",
+      "sha256": [
+        "4dd6fe80aa6986dcfa8c92932b8e9533a9f1c4f456434c28e946bb9c59e72b07"
+      ],
       "text": "McGinnis, I can heal you!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_upgrade_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "ba41259166a9561f8afc721126a891f9365925c5c90b4efcfe72ef45c89f2eab",
+      "sha256": [
+        "ba41259166a9561f8afc721126a891f9365925c5c90b4efcfe72ef45c89f2eab"
+      ],
       "text": "I want this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cd6ee976feae30e9a7e2b8442d884397859c22a0ac51734bbce75737bcaff9e9",
+      "sha256": [
+        "cd6ee976feae30e9a7e2b8442d884397859c22a0ac51734bbce75737bcaff9e9"
+      ],
       "text": "I want mis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

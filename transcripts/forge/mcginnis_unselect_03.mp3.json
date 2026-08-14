@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_unselect_03.mp3",
   "revisions": [
     {
-      "sha256": "d49771b5ed6f23cbcd43763fa01e4d6dd7e72089f1cdeed6836a2985d53c8c7f",
+      "sha256": [
+        "d49771b5ed6f23cbcd43763fa01e4d6dd7e72089f1cdeed6836a2985d53c8c7f",
+        "fe15a83fb44d9465d2c122253c00132d73e6264bfcc852a2d91f33335a17d2e0"
+      ],
       "text": "Good luck, buddy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe15a83fb44d9465d2c122253c00132d73e6264bfcc852a2d91f33335a17d2e0",
-      "text": "Good luck, buddy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

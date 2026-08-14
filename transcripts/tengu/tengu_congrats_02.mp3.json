@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_congrats_02.mp3",
   "revisions": [
     {
-      "sha256": "aa6b1e4b83e39686010ea1aa319be6998941e31b641a56bfed2bc3f5ecd1a812",
-      "text": "Good work!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a153c211d7694f54600945a187258b3b856218f7d4f0c19cf2780ac800558c6f",
+      "sha256": [
+        "a153c211d7694f54600945a187258b3b856218f7d4f0c19cf2780ac800558c6f",
+        "aa6b1e4b83e39686010ea1aa319be6998941e31b641a56bfed2bc3f5ecd1a812"
+      ],
       "text": "Good work!",
       "source": "official"
     }

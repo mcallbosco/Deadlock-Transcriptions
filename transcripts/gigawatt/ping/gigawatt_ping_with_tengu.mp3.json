@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_tengu.mp3",
   "revisions": [
     {
-      "sha256": "d48c25e7bb8a322235def7e79c9301766088901c943d82fd4bf0aef8b704d12a",
+      "sha256": [
+        "7bc01f0a3180e9ed05ee230567d11272771b4e36e158d8844b0f292b05d93e6b",
+        "d48c25e7bb8a322235def7e79c9301766088901c943d82fd4bf0aef8b704d12a"
+      ],
       "text": "I'm with you, honey.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7bc01f0a3180e9ed05ee230567d11272771b4e36e158d8844b0f292b05d93e6b",
-      "text": "I'm with you, honey.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ba09e26660bc090d70f1d0216a06b924b5803bbbed7ae39f1c137eeea2205e1",
+      "sha256": [
+        "2ba09e26660bc090d70f1d0216a06b924b5803bbbed7ae39f1c137eeea2205e1"
+      ],
       "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

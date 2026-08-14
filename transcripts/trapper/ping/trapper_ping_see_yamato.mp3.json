@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "c90046308193c18fdc03323524ba13372b2f46b06477553f8712b920683bd69c",
+      "sha256": [
+        "c90046308193c18fdc03323524ba13372b2f46b06477553f8712b920683bd69c"
+      ],
       "text": "I see Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

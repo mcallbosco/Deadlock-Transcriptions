@@ -1,41 +1,32 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_can_heal_orion.mp3",
   "revisions": [
     {
-      "sha256": "4093f00e6f8aaab56e183952dce8899cf8a7425c6eb4257372ca429d86b83958",
+      "sha256": [
+        "4093f00e6f8aaab56e183952dce8899cf8a7425c6eb4257372ca429d86b83958"
+      ],
       "text": "Ryan, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d8488b112f4e2eb4af032bae50b7d116f0de48be59fe60d4295a959d0562659c",
-      "text": "Grey Talon, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "093234b2f1c922c5d0c63138b057d6141b6d498fe011402eea6df0db7f9db50c",
-      "text": "Great talent, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04bd0e805ccae13f2acd4350ebdb95b335429ce009039f1493926252675970b4",
-      "text": "Great talent, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf4fbf0170068efaa9d034d8f043b89e7e53c2ce87d9958d850bcacd56859d92",
-      "text": "Great talent, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28b2bd734e444c0bc9a8fb5bbc5c67b5ff9ea5912f773c37715be0192b855905",
+      "sha256": [
+        "28b2bd734e444c0bc9a8fb5bbc5c67b5ff9ea5912f773c37715be0192b855905",
+        "d8488b112f4e2eb4af032bae50b7d116f0de48be59fe60d4295a959d0562659c"
+      ],
       "text": "Grey Talon, I can heal you!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "04bd0e805ccae13f2acd4350ebdb95b335429ce009039f1493926252675970b4",
+        "093234b2f1c922c5d0c63138b057d6141b6d498fe011402eea6df0db7f9db50c",
+        "bf4fbf0170068efaa9d034d8f043b89e7e53c2ce87d9958d850bcacd56859d92"
+      ],
+      "text": "Great talent, I can heal you.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

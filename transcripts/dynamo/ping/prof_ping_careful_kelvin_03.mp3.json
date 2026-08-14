@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_careful_kelvin_03.mp3",
   "revisions": [
     {
-      "sha256": "b0da81c740511d2427b512e85375346acb7a6815491843fc8d9c8a2d77ae5a06",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b00c6b7bdaf00aed83b880210dc700022bf1c42d6f4f10804998be98ee4a665",
+      "sha256": [
+        "5b00c6b7bdaf00aed83b880210dc700022bf1c42d6f4f10804998be98ee4a665",
+        "b0da81c740511d2427b512e85375346acb7a6815491843fc8d9c8a2d77ae5a06"
+      ],
       "text": "Careful, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_use_metal_skin_01.mp3",
   "revisions": [
     {
-      "sha256": "8dca1b339c100e3b14631e18a89eb495faeb5330fea39623915596515915f888",
+      "sha256": [
+        "5a1a8adc0d4ae1af53d9f29516a4824902be282736a3c7856dd072515894405a",
+        "8dca1b339c100e3b14631e18a89eb495faeb5330fea39623915596515915f888"
+      ],
       "text": "Metal skin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "493a48dd66d55022b23451fef4c41ebdb4aed94cf5377d22da76a476662ae07f",
+      "sha256": [
+        "493a48dd66d55022b23451fef4c41ebdb4aed94cf5377d22da76a476662ae07f",
+        "c9ab89bbef93dde6426022ed8ad7b3e0845e0f8555618aa113986c2ae225792f"
+      ],
       "text": "Mel skin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9ab89bbef93dde6426022ed8ad7b3e0845e0f8555618aa113986c2ae225792f",
-      "text": "MELSKIN!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a1a8adc0d4ae1af53d9f29516a4824902be282736a3c7856dd072515894405a",
-      "text": "Metal skin!",
-      "source": "official"
     }
   ]
 }

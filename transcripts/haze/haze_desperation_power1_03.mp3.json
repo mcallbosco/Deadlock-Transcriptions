@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_desperation_power1_03.mp3",
   "revisions": [
     {
-      "sha256": "cec2260fd27b2a7170eefbdfcc70ecf47c163c26b7c4d3d4ff14896754a37112",
-      "text": "Please land.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "179b802b184772bb95129577c09ee862f9781591e64a38e9fc5b761fc6551035",
-      "text": "Please land.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4194e84875c3da6d4066d2e08965fac47927e6a80edb65d79931746b3e90f4a8",
-      "text": "Cleanse land.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0732f44cf4983a436ce6f978461a2544d17fc7997af976281bc3ae2725fa3c6f",
-      "text": "Cleanse land.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d59738a90d7404fcecfa92cd6d11aebee048efab3dff6213a5c06732842b8ac",
+      "sha256": [
+        "179b802b184772bb95129577c09ee862f9781591e64a38e9fc5b761fc6551035",
+        "9d59738a90d7404fcecfa92cd6d11aebee048efab3dff6213a5c06732842b8ac",
+        "cec2260fd27b2a7170eefbdfcc70ecf47c163c26b7c4d3d4ff14896754a37112"
+      ],
       "text": "Please land…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "0732f44cf4983a436ce6f978461a2544d17fc7997af976281bc3ae2725fa3c6f",
+        "4194e84875c3da6d4066d2e08965fac47927e6a80edb65d79931746b3e90f4a8"
+      ],
+      "text": "Cleanse land.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

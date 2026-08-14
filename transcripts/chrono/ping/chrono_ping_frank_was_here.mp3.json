@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f64b72148f5f47045178038282355bb82f3d8cf3b286b49a35cdf6516e91f4ee",
+      "sha256": [
+        "f64b72148f5f47045178038282355bb82f3d8cf3b286b49a35cdf6516e91f4ee"
+      ],
       "text": "Victor was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

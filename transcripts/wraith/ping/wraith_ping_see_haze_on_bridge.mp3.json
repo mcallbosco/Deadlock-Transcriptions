@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b38c790da92360eef6623978e25f4728b3d213149f941734a4b2713255110bd1",
+      "sha256": [
+        "54bb9c5e41a0b7eef041c8b14f3dabd44d814083a2059a0610505293fcb5562a",
+        "b327c48c1bbfffab95c0e10bd33b2b9a7e3bbdf2938405e6f6d50648bbd13019",
+        "b38c790da92360eef6623978e25f4728b3d213149f941734a4b2713255110bd1"
+      ],
       "text": "Heads on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b327c48c1bbfffab95c0e10bd33b2b9a7e3bbdf2938405e6f6d50648bbd13019",
-      "text": "heads on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54bb9c5e41a0b7eef041c8b14f3dabd44d814083a2059a0610505293fcb5562a",
-      "text": "Heads on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8153861c9227a58fb2ec1077b18d84370e103d8af92acf9de7f9a85a93f1bbf7",
+      "sha256": [
+        "8153861c9227a58fb2ec1077b18d84370e103d8af92acf9de7f9a85a93f1bbf7"
+      ],
       "text": "Haze's on the bridge!",
       "source": "official"
     }

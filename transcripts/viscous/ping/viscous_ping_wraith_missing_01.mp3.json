@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8d1a50deee8d6bce2fe54c08907dcf924b890151c3aff37b4b1eac2c42cb5b93",
+      "sha256": [
+        "8d1a50deee8d6bce2fe54c08907dcf924b890151c3aff37b4b1eac2c42cb5b93"
+      ],
       "text": "Great, it's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "76089d499898223c1119e1725858f11fe1af63c91f836569ecd962e8fae93f87",
+      "sha256": [
+        "76089d499898223c1119e1725858f11fe1af63c91f836569ecd962e8fae93f87"
+      ],
       "text": "Wraith's missing",
       "source": "official"
     }

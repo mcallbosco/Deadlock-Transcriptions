@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "55d6fc95af1c55653192b812cd78f2e6618cbd468c4658296bb96c6716ecd8a6",
+      "sha256": [
+        "55d6fc95af1c55653192b812cd78f2e6618cbd468c4658296bb96c6716ecd8a6"
+      ],
       "text": "Time to get in the scrap.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "17cabe62ff7ae7525fba3358eadd02e6110bf9823777925161b2a0827a170ea9",
+      "sha256": [
+        "17cabe62ff7ae7525fba3358eadd02e6110bf9823777925161b2a0827a170ea9"
+      ],
       "text": "Time to get in a scrap",
       "source": "official"
     }

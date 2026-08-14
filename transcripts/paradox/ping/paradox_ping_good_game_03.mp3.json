@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "f5151582acb6cdb5b82ced5aef3c053cb4f40d3561c1526e6f1ebceebad29aff",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c9147a645f33a420d3dc78deeff3d1e5eb74e37aa6b67331209a0df105594c1",
+      "sha256": [
+        "7c9147a645f33a420d3dc78deeff3d1e5eb74e37aa6b67331209a0df105594c1",
+        "f5151582acb6cdb5b82ced5aef3c053cb4f40d3561c1526e6f1ebceebad29aff"
+      ],
       "text": "Good game.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

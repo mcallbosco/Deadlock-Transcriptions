@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c9af4a21c875f570d4798a7ba1aa9b234e0f76bf5f6ac06f460868f54e99ca0e",
+      "sha256": [
+        "c9af4a21c875f570d4798a7ba1aa9b234e0f76bf5f6ac06f460868f54e99ca0e"
+      ],
       "text": "She's missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b6efa7fa571ab1e82b549b123ee5411005563c0d485d56b0dfff1cc3460ffaf4",
+      "sha256": [
+        "b6efa7fa571ab1e82b549b123ee5411005563c0d485d56b0dfff1cc3460ffaf4"
+      ],
       "text": "Shiv's missing",
       "source": "official"
     }

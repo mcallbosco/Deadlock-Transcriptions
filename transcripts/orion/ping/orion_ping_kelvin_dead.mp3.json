@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "2f65c5e2657dce11b8d74978bbec1bb44e8a3a000d92615ac6b028dd1da09f60",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d24fc62a3d0dcb8968384e27f4d12c15b041f4b25955ea5549fa79ddbcd39b22",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdd78bab5e1ebc7993d8193c48ae9e7d8451424bfd6e04b58ddcc36a38c723e5",
+      "sha256": [
+        "2f65c5e2657dce11b8d74978bbec1bb44e8a3a000d92615ac6b028dd1da09f60",
+        "d24fc62a3d0dcb8968384e27f4d12c15b041f4b25955ea5549fa79ddbcd39b22",
+        "fdd78bab5e1ebc7993d8193c48ae9e7d8451424bfd6e04b58ddcc36a38c723e5"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

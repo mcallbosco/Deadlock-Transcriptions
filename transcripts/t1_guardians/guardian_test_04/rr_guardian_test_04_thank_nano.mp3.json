@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_thank_nano.mp3",
   "revisions": [
     {
-      "sha256": "e96dcdc7812d2fdeb413e7e3731c210f6a05ee38f6916e45020979c9579101fd",
-      "text": "Thanks, Nano.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2cd6e1c519b62321e7610fab8f14720e7b945e3749c425206cf33ad007a1649c",
-      "text": "Thanks, Nano.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5814c75e58b76d700f398ff2f0df1dc5fcf626d93bae3e9a69cb63ac3a4f0833",
+      "sha256": [
+        "2cd6e1c519b62321e7610fab8f14720e7b945e3749c425206cf33ad007a1649c",
+        "5814c75e58b76d700f398ff2f0df1dc5fcf626d93bae3e9a69cb63ac3a4f0833",
+        "e96dcdc7812d2fdeb413e7e3731c210f6a05ee38f6916e45020979c9579101fd"
+      ],
       "text": "Thanks, Nano.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

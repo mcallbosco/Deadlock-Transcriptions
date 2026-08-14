@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "73174466c4caf1f3a8186b730fc58a79ebd36739051a47f4cfaf8858c59846b4",
+      "sha256": [
+        "05cb5d6f72226dcb2ba77a47082bf7be4fd018ac2c7063c80a49631176dd7f2e",
+        "73174466c4caf1f3a8186b730fc58a79ebd36739051a47f4cfaf8858c59846b4"
+      ],
       "text": "I see the golem.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05cb5d6f72226dcb2ba77a47082bf7be4fd018ac2c7063c80a49631176dd7f2e",
-      "text": "I see the Golem.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

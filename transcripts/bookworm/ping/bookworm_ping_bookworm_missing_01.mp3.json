@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_bookworm_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "cd74c7780b2f0b25b1b5a7a6345942c8c44b915ad9eefc7581505ebe99687841",
+      "sha256": [
+        "cd74c7780b2f0b25b1b5a7a6345942c8c44b915ad9eefc7581505ebe99687841"
+      ],
       "text": "The Clockwork's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

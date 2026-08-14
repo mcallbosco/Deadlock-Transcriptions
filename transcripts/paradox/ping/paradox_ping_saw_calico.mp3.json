@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_saw_calico.mp3",
   "revisions": [
     {
-      "sha256": "1e856175ef2edf884da242cab004e213322874669417dd5e87c1ae4e6852bf36",
-      "text": "I saw Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b577e0aaddc24c1824b575d0021a4507b96090ed82a1ca93aa18d46c86708dd1",
+      "sha256": [
+        "1e856175ef2edf884da242cab004e213322874669417dd5e87c1ae4e6852bf36",
+        "b577e0aaddc24c1824b575d0021a4507b96090ed82a1ca93aa18d46c86708dd1"
+      ],
       "text": "I saw Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

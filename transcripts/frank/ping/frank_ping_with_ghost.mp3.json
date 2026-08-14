@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_ghost.mp3",
   "revisions": [
     {
-      "sha256": "91c13db5c1df7709f94ec797eb40a8ff234325190524edb9746c08390cde29c0",
-      "text": "I'm with you, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c88935dbbe2ecb62af9e099904d96764f15ce7082598e0c649c4fc5147e207b8",
+      "sha256": [
+        "91c13db5c1df7709f94ec797eb40a8ff234325190524edb9746c08390cde29c0",
+        "c88935dbbe2ecb62af9e099904d96764f15ce7082598e0c649c4fc5147e207b8"
+      ],
       "text": "I'm with you, Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

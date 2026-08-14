@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_desperation_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "bd624ab63707f87a091ccf26a23f68acf4dbf46c66e7581113c5245752b7ec5a",
+      "sha256": [
+        "1863b61caef67b9c1d9b7b46a60809b94f7bbce2870ffe8809b2b6d009add489",
+        "bd624ab63707f87a091ccf26a23f68acf4dbf46c66e7581113c5245752b7ec5a",
+        "c25016b2fde9a939b07f6d1590bb651c71213cd569baa63dbe8ee873d983020d"
+      ],
       "text": "Cut it in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1863b61caef67b9c1d9b7b46a60809b94f7bbce2870ffe8809b2b6d009add489",
-      "text": "Cut it in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c25016b2fde9a939b07f6d1590bb651c71213cd569baa63dbe8ee873d983020d",
-      "text": "Cut it in!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

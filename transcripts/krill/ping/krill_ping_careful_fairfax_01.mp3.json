@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_fairfax_01.mp3",
   "revisions": [
     {
-      "sha256": "e836e405a79df772dd3118d8b8c2f6820c80fe661d3820f3b110b87f24f53d93",
-      "text": "Careful, Fairfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee6483d70ef97f10d2ab055982e395d13ba5ba2cdd9f1b0f0fa8a7b0a2a939a0",
-      "text": "Careful, Fairfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0a58a01499473e33fc853d8f9daf7f467312e591dbe118dec0f385c4e6859e0b",
+      "sha256": [
+        "0a58a01499473e33fc853d8f9daf7f467312e591dbe118dec0f385c4e6859e0b",
+        "e836e405a79df772dd3118d8b8c2f6820c80fe661d3820f3b110b87f24f53d93",
+        "ee6483d70ef97f10d2ab055982e395d13ba5ba2cdd9f1b0f0fa8a7b0a2a939a0"
+      ],
       "text": "Careful, Fairfax.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_ghost.mp3",
   "revisions": [
     {
-      "sha256": "8b35bb405b245d0dfd8a9169859200d299a0f2e19b07396a27248f9c1cb68b47",
+      "sha256": [
+        "8b35bb405b245d0dfd8a9169859200d299a0f2e19b07396a27248f9c1cb68b47"
+      ],
       "text": "Guys, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d57cef8ee3cdc9a01c8610a1989ebce9d6f9eb304326c9b9aeb6992ed6192cea",
+      "sha256": [
+        "d57cef8ee3cdc9a01c8610a1989ebce9d6f9eb304326c9b9aeb6992ed6192cea"
+      ],
       "text": "Geist, I can heal you!",
       "source": "official"
     }

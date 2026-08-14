@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "78f8e2156f6447808a1d8f3076fecdae0011067e9293b9566dc8fbb647645ca2",
+      "sha256": [
+        "78f8e2156f6447808a1d8f3076fecdae0011067e9293b9566dc8fbb647645ca2"
+      ],
       "text": "Nice missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "89696ee4bdbc27e8b1be63048ff47cfaa5f0cd157c85fb03fb65bee720301cc3",
+      "sha256": [
+        "89696ee4bdbc27e8b1be63048ff47cfaa5f0cd157c85fb03fb65bee720301cc3"
+      ],
       "text": "Geist's missing",
       "source": "official"
     }

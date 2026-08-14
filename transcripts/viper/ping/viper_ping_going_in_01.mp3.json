@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "1c162e8f1b9af09da7788d9c7766a445186b28d4632c22e5ee4f7d7886fcde3b",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "acc4ec0feeadd76e734f30f1853147fab0cb004f0103f5d9662078867f3654dd",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e25dc48afb00e2f3b67c42eca786a34662130ca0219956cd7575cced7783afe",
+      "sha256": [
+        "1c162e8f1b9af09da7788d9c7766a445186b28d4632c22e5ee4f7d7886fcde3b",
+        "1e25dc48afb00e2f3b67c42eca786a34662130ca0219956cd7575cced7783afe",
+        "acc4ec0feeadd76e734f30f1853147fab0cb004f0103f5d9662078867f3654dd"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

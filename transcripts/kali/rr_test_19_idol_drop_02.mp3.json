@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_idol_drop_02.mp3",
   "revisions": [
     {
-      "sha256": "41bad1548ec4c86f77fc546f14fa57409383a627f94018e78623b43a2dd0c998",
-      "text": "Let's get this out.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2514696f4ccb3f5d9c9794271919a96c6bebb5d0f4ea0daf219b2ee6ff53e88",
-      "text": "Let's get this out.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3f4b05d1b6914b3a9b458e399a05d32c855b0a5828e181d14aac47c0ab4a4f2",
+      "sha256": [
+        "41bad1548ec4c86f77fc546f14fa57409383a627f94018e78623b43a2dd0c998",
+        "b2514696f4ccb3f5d9c9794271919a96c6bebb5d0f4ea0daf219b2ee6ff53e88",
+        "b3f4b05d1b6914b3a9b458e399a05d32c855b0a5828e181d14aac47c0ab4a4f2"
+      ],
       "text": "Let's get this out.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

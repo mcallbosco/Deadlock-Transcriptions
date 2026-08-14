@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_synth_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "9819e4c7433008004aeb26956bd6bbf820450173e0ab26d6d0c32f0b6b13e6ad",
+      "sha256": [
+        "9819e4c7433008004aeb26956bd6bbf820450173e0ab26d6d0c32f0b6b13e6ad"
+      ],
       "text": "Talk is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d6d4270967862ebcb4fc85f2f6a9cf19ed0821edc189771dbaf311bd9cec3af0",
+      "sha256": [
+        "d6d4270967862ebcb4fc85f2f6a9cf19ed0821edc189771dbaf311bd9cec3af0"
+      ],
       "text": "Pocket's under the garage!",
       "source": "official"
     }

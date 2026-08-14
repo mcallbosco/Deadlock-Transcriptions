@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_select_04.mp3",
   "revisions": [
     {
-      "sha256": "c7787747098c5c0fde43412ed5c245439dc415d932d6848f49ec377f41589724",
+      "sha256": [
+        "c7787747098c5c0fde43412ed5c245439dc415d932d6848f49ec377f41589724"
+      ],
       "text": "Shelly's taking a nap. I've probably got enough time to contact some godlike creature.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c004c74c0e266be3ba6ba75106687cd1473ce3bb4c4673a4313485ff3aaaae1c",
+      "sha256": [
+        "c004c74c0e266be3ba6ba75106687cd1473ce3bb4c4673a4313485ff3aaaae1c"
+      ],
       "text": "Ms. Shelly's taking a nap, I probably got enough time to contact some god-like creature.",
       "source": "official"
     }

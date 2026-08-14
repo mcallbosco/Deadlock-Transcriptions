@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_wrecker_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "15c735ace0c67e778de5ae2eed0cfd11a903a72ccc5c7b781a98b2dbb6405d39",
+      "sha256": [
+        "15c735ace0c67e778de5ae2eed0cfd11a903a72ccc5c7b781a98b2dbb6405d39"
+      ],
       "text": "Breakers under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "913f9b903799a41b81e07ec504f865c2a696d930f4dbfaac28f9e5dfb4da2712",
-      "text": "Wrecker's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "44deed8425dfcd0c017b550dee2ae52e799fd23bd272b73e12f9797901576e76",
+        "913f9b903799a41b81e07ec504f865c2a696d930f4dbfaac28f9e5dfb4da2712",
+        "da15d8c20cb679102e85a041a26ef7dfdd73205655fc7a36f4833d228cf75699"
+      ],
+      "text": "Wrecker's under the garage!",
+      "source": "official"
     },
     {
-      "sha256": "44deed8425dfcd0c017b550dee2ae52e799fd23bd272b73e12f9797901576e76",
-      "text": "Wreckers under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11e25b0078083c83e1c30e6300e87e71115e4297e370b7e9b619b5ddb9edc6e7",
+      "sha256": [
+        "11e25b0078083c83e1c30e6300e87e71115e4297e370b7e9b619b5ddb9edc6e7"
+      ],
       "text": "Records under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da15d8c20cb679102e85a041a26ef7dfdd73205655fc7a36f4833d228cf75699",
-      "text": "Wrecker's under the garage!",
-      "source": "official"
     }
   ]
 }

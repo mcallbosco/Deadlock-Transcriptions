@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_headed_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "6d68357a6b0e57cd7e1bf2726840452f1720b31bfa8a93464b3aec3c0d7cc893",
-      "text": "Headed to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "125e1619a94a06440ebcf3645e9e1f292fc31fdabd4cad86885f15cfa946a0f2",
+      "sha256": [
+        "125e1619a94a06440ebcf3645e9e1f292fc31fdabd4cad86885f15cfa946a0f2",
+        "6d68357a6b0e57cd7e1bf2726840452f1720b31bfa8a93464b3aec3c0d7cc893"
+      ],
       "text": "Headed to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

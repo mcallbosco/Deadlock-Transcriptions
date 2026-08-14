@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "2910673f9d5660710ccafcd727631792267153fbf32bbcb5a85772c5f9257791",
+      "sha256": [
+        "2910673f9d5660710ccafcd727631792267153fbf32bbcb5a85772c5f9257791"
+      ],
       "text": "You see this?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa40fca811fe5954e82bd5395f80da4d24f5f65962dd0482bc73b63b17cf5ca0",
+      "sha256": [
+        "fa40fca811fe5954e82bd5395f80da4d24f5f65962dd0482bc73b63b17cf5ca0"
+      ],
       "text": "I see Haze",
       "source": "official"
     }

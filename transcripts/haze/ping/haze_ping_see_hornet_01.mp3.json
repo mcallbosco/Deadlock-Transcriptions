@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "baaf28875602e7bf93cf79a82b7fc0a6be8444f97a2e18a2b1e0ffc76b2808c8",
-      "text": "I see Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "39c232bc02d66b440615792a71b01e8fd85710cf39f78649c1f793e1008ad7ca",
+        "b734da30e62621f106a8cab7bd1a51a0a2d3b094bec40b03ea781886c0ecbb7f",
+        "baaf28875602e7bf93cf79a82b7fc0a6be8444f97a2e18a2b1e0ffc76b2808c8",
+        "f160c84cd175265e21a9cd03896a371ea47db2bb9d8cfaf63f2167db551f5916"
+      ],
+      "text": "I see vindicta",
+      "source": "official"
     },
     {
-      "sha256": "f160c84cd175265e21a9cd03896a371ea47db2bb9d8cfaf63f2167db551f5916",
-      "text": "I see Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39c232bc02d66b440615792a71b01e8fd85710cf39f78649c1f793e1008ad7ca",
-      "text": "I see Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ada41b9b9042a14a03e7163861b618bed38237a55e17806cac3cb1eece083f9",
+      "sha256": [
+        "5ada41b9b9042a14a03e7163861b618bed38237a55e17806cac3cb1eece083f9"
+      ],
       "text": "I see Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b734da30e62621f106a8cab7bd1a51a0a2d3b094bec40b03ea781886c0ecbb7f",
-      "text": "I see vindicta",
-      "source": "official"
     }
   ]
 }

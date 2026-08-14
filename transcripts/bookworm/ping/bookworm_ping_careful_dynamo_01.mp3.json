@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "7cb78bdbd5ce6a7c8094afd65343c48c3f8199a0808c5f1a22bd7ed6a32893f9",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "344e0fc0e29ca919d0f76bdc44f5ebe78ba327f384715fcf489261bc76fd8b4a",
+      "sha256": [
+        "344e0fc0e29ca919d0f76bdc44f5ebe78ba327f384715fcf489261bc76fd8b4a",
+        "7cb78bdbd5ce6a7c8094afd65343c48c3f8199a0808c5f1a22bd7ed6a32893f9"
+      ],
       "text": "Careful, Dynamo…",
       "source": "official"
     }

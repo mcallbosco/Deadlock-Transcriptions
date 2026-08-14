@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_stun_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "ad89407c3f5b5e574999b17d61a6696bdb5cb6cd9cacf4acaf2167575f25d70d",
-      "text": "Son Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "757c6b8d850a2ae3076b8e4cdca5d51fd5d30a4dd417fbc0648e307e8f007a65",
-      "text": "Son Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87bccacaa51604c1027a917036b79b0acf2bead47ce883449091b9645b9e51cd",
+      "sha256": [
+        "757c6b8d850a2ae3076b8e4cdca5d51fd5d30a4dd417fbc0648e307e8f007a65",
+        "87bccacaa51604c1027a917036b79b0acf2bead47ce883449091b9645b9e51cd",
+        "ad89407c3f5b5e574999b17d61a6696bdb5cb6cd9cacf4acaf2167575f25d70d"
+      ],
       "text": "Son Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

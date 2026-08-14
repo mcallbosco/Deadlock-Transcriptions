@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "9ef065fae17ba8a4f2d46efd53bd978610d39d383e1e2c74f3cf313a1c0e825b",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "591d7a03bb454c543689169d7fc60c5a8b3531c297c11160429f7a930eb7ae0d",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a89d7ab678d3c1c62180e40a6b3b5a8db4ffd96a123a1cd0cffd67f02d80bd7e",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a337856a6b80e4330925ec8dd333a53671c7a827b698884a4884a192eb7091c9",
+      "sha256": [
+        "591d7a03bb454c543689169d7fc60c5a8b3531c297c11160429f7a930eb7ae0d",
+        "9ef065fae17ba8a4f2d46efd53bd978610d39d383e1e2c74f3cf313a1c0e825b",
+        "a337856a6b80e4330925ec8dd333a53671c7a827b698884a4884a192eb7091c9",
+        "a89d7ab678d3c1c62180e40a6b3b5a8db4ffd96a123a1cd0cffd67f02d80bd7e"
+      ],
       "text": "On my way",
       "source": "official"
     }

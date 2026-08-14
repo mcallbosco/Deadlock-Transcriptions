@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_upgrade_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "cfc586a3986d1f3a1be8ec03b6677561485e1fae76bc5cf9084304b9f9e4e96d",
+      "sha256": [
+        "cfc586a3986d1f3a1be8ec03b6677561485e1fae76bc5cf9084304b9f9e4e96d"
+      ],
       "text": "Hay una razón por la que soy la Ángel Guardiana del barrio.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3e2d2aca4a395ba1f9db7cfa67078988945ab111955f1e76b4977bbed5132a8",
+      "sha256": [
+        "c3e2d2aca4a395ba1f9db7cfa67078988945ab111955f1e76b4977bbed5132a8"
+      ],
       "text": "in spanish \"there's a reason I'm the guardian angel of El Barrio\"",
       "source": "official"
     }

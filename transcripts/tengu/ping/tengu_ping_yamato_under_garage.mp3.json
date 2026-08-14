@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_yamato_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "a6b82d812485f30e5e55bfae8da91c496c3f302f9493a693cb48a67f52a13373",
-      "text": "Yamato's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "326c460a1924a75dd5876d2672407b317a0e1b0eda17458f0ad16e83d58eb5f0",
+      "sha256": [
+        "326c460a1924a75dd5876d2672407b317a0e1b0eda17458f0ad16e83d58eb5f0",
+        "a6b82d812485f30e5e55bfae8da91c496c3f302f9493a693cb48a67f52a13373"
+      ],
       "text": "Yamato's under the garage!",
       "source": "official"
     }

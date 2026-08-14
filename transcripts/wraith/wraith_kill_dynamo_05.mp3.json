@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_dynamo_05.mp3",
   "revisions": [
     {
-      "sha256": "c55081e80a0b17d5de9aa351dc338abb7f0b59073689792fb9e4dc1a31450439",
+      "sha256": [
+        "a8a4239f2b9995538bc445553a06f6d51a1561aea01066ab4f85abfab217b1a3",
+        "c55081e80a0b17d5de9aa351dc338abb7f0b59073689792fb9e4dc1a31450439"
+      ],
       "text": "You should have stayed in the classroom, Professor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a8a4239f2b9995538bc445553a06f6d51a1561aea01066ab4f85abfab217b1a3",
-      "text": "You should have stayed in the classroom, professor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b63ad8fb7a92d233c36fcc9f447244ec983f5d5392d99e1a881d6ac88309e97",
+      "sha256": [
+        "4b63ad8fb7a92d233c36fcc9f447244ec983f5d5392d99e1a881d6ac88309e97"
+      ],
       "text": "Shoulda stayed in the classroom Professor.",
       "source": "official"
     }

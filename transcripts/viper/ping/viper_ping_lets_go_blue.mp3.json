@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "657f1ef2e3f90dc4b8ac32ace7f2ad6904f524be7c9de274660d58bd8cc0eafc",
+      "sha256": [
+        "657f1ef2e3f90dc4b8ac32ace7f2ad6904f524be7c9de274660d58bd8cc0eafc"
+      ],
       "text": "Let's go to blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9c972ac0744a571c31af0e9f4d34df5af89a3561ba01db56fda45a00c4f955cf",
-      "text": "Let's go blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fedbf883f96c665ac8f84712446400f3d4f35a5621493a7413ad78ad6db62579",
+      "sha256": [
+        "9c972ac0744a571c31af0e9f4d34df5af89a3561ba01db56fda45a00c4f955cf",
+        "fedbf883f96c665ac8f84712446400f3d4f35a5621493a7413ad78ad6db62579"
+      ],
       "text": "Let's go blue!",
       "source": "official"
     }

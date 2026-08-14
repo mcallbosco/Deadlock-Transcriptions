@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_enemy_shiv_killing_streak_low_01.mp3",
   "revisions": [
     {
-      "sha256": "276bcac4ba11056610b802033238a97e1c881bf760bc7ac0892b01245c01d9a2",
+      "sha256": [
+        "276bcac4ba11056610b802033238a97e1c881bf760bc7ac0892b01245c01d9a2",
+        "ec20b81aa91acf1bf909197ffc6f164d79827027cbcd0833bdf358bc5e12bacd"
+      ],
       "text": "Shiv hunts us. He must be stopped.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f03dd8a1586b7ca2ad6ed227c9b9eda4d2fbfdd3596faec1b598fe33ebc45ac4",
+      "sha256": [
+        "f03dd8a1586b7ca2ad6ed227c9b9eda4d2fbfdd3596faec1b598fe33ebc45ac4"
+      ],
       "text": "He has us. He must be stopped.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec20b81aa91acf1bf909197ffc6f164d79827027cbcd0833bdf358bc5e12bacd",
-      "text": "Shiv hunts us. He must be stopped.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

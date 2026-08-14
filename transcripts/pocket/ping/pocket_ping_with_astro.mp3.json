@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "90c6e9547f3293f6ed0539e055ea82b67d9516184a4bb2359d0309c5b0f58a96",
-      "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "187af551e60fe7aff9cf19688a2aecc2e610eb7a0393d39fd2b2cf378534ae46",
+      "sha256": [
+        "187af551e60fe7aff9cf19688a2aecc2e610eb7a0393d39fd2b2cf378534ae46",
+        "90c6e9547f3293f6ed0539e055ea82b67d9516184a4bb2359d0309c5b0f58a96"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

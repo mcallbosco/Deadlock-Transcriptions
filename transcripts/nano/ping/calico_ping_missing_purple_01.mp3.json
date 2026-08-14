@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "bd5bea389e68e0a8aea7321d5b97b54631dc502a7a38ffd292dd38268bc73c1e",
-      "text": "Missing purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dfad21332dcf37b4336d8587b10895088f73fd4dd40a46f87e587c69725ff8ed",
+      "sha256": [
+        "bd5bea389e68e0a8aea7321d5b97b54631dc502a7a38ffd292dd38268bc73c1e",
+        "dfad21332dcf37b4336d8587b10895088f73fd4dd40a46f87e587c69725ff8ed"
+      ],
       "text": "Missing purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

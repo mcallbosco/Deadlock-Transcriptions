@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_lash.mp3",
   "revisions": [
     {
-      "sha256": "538894b2a801142f6fa411ad3845b10c5e72f45e45856da70ecd496696ffdedb",
-      "text": "I'm with you, Lash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "791578cf8fa9c89af9a6e202443b9bf7b744023fd80cfca3f3c21773c5172ff0",
-      "text": "I'm with you, Lash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "635fc66b71f6db1ca6b2b2535481bfc29ea8c562e96db63a0a12771b25507514",
+      "sha256": [
+        "538894b2a801142f6fa411ad3845b10c5e72f45e45856da70ecd496696ffdedb",
+        "635fc66b71f6db1ca6b2b2535481bfc29ea8c562e96db63a0a12771b25507514",
+        "791578cf8fa9c89af9a6e202443b9bf7b744023fd80cfca3f3c21773c5172ff0"
+      ],
       "text": "I'm with you, Lash!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

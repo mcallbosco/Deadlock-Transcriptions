@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_need_help_purple.mp3",
   "revisions": [
     {
-      "sha256": "a9bfcd117847b4ae5306225497cdbe4ca226894ff5138ff0306bbf678b5260f5",
+      "sha256": [
+        "a9bfcd117847b4ae5306225497cdbe4ca226894ff5138ff0306bbf678b5260f5",
+        "d89bb5c37596dcb813436c4cd054feea779a67b0389d694a7818411669780c39"
+      ],
       "text": "Need help on purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d89bb5c37596dcb813436c4cd054feea779a67b0389d694a7818411669780c39",
-      "text": "Need help on purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_atlas.mp3",
   "revisions": [
     {
-      "sha256": "24734c296d6d5b401d692e1776548e8290d193c7c658756994b4b95d3a6e8041",
+      "sha256": [
+        "24734c296d6d5b401d692e1776548e8290d193c7c658756994b4b95d3a6e8041"
+      ],
       "text": "Neighbors, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4a9e6fadc01b1217284213eb2c9ca85318a872dc409ff2de02228b31ccaa349e",
+      "sha256": [
+        "4a9e6fadc01b1217284213eb2c9ca85318a872dc409ff2de02228b31ccaa349e"
+      ],
       "text": "Abrams, I can heal you!",
       "source": "official"
     }

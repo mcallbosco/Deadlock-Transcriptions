@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_see_nano.mp3",
   "revisions": [
     {
-      "sha256": "ee26006136efc99ce181c1b9ab756ae73f079cf810d8bbf0df0b8fa457820676",
+      "sha256": [
+        "ee26006136efc99ce181c1b9ab756ae73f079cf810d8bbf0df0b8fa457820676"
+      ],
       "text": "I see Nano.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b7910eb1edd460665670748fdc4c366cfa25d544ae27947cb3f4e5e80a86737c",
+      "sha256": [
+        "b7910eb1edd460665670748fdc4c366cfa25d544ae27947cb3f4e5e80a86737c"
+      ],
       "text": "I see Calico",
       "source": "official"
     }

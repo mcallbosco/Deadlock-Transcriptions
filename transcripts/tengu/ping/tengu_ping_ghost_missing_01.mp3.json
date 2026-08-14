@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3e455ba3b96f2c7c3e7049dada29a2fa2b00dee8229eefc9a9986e3dd23fc89b",
+      "sha256": [
+        "3e455ba3b96f2c7c3e7049dada29a2fa2b00dee8229eefc9a9986e3dd23fc89b"
+      ],
       "text": "This is it!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc814954eed7b84f8e9fe313021cd42021cdf3096f3583fc9b49c1338e70dd93",
+      "sha256": [
+        "cc814954eed7b84f8e9fe313021cd42021cdf3096f3583fc9b49c1338e70dd93"
+      ],
       "text": "Geist's missing",
       "source": "official"
     }

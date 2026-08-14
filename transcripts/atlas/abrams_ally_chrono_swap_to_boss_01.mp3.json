@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_ally_chrono_swap_to_boss_01.mp3",
   "revisions": [
     {
-      "sha256": "66562f4c0450083be8ce61e75805816dc4334f3fa207cfa0c1a13b6e95580c6e",
+      "sha256": [
+        "66562f4c0450083be8ce61e75805816dc4334f3fa207cfa0c1a13b6e95580c6e"
+      ],
       "text": "My name's Bruno.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cae163bf0c7ee19873b5a87e42d10aae95c0b41cd3a3ec5c79eeca0968c4288f",
-      "text": "Nice move, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79ae260f0a24294f0fc5bf88f46b9edda921e01406e15e2110a78980b24b9d74",
+      "sha256": [
+        "79ae260f0a24294f0fc5bf88f46b9edda921e01406e15e2110a78980b24b9d74",
+        "cae163bf0c7ee19873b5a87e42d10aae95c0b41cd3a3ec5c79eeca0968c4288f"
+      ],
       "text": "Nice move, Paradox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

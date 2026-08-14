@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_doorman_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "41fcfeb8b504fb47a5ea688256bc49fef2d013387dc275bb50c55743356b7d40",
-      "text": "The doorman's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff5f692f866ad297a66e9660ea42bb6179c377585d02012cade6827acbfab9ac",
+      "sha256": [
+        "41fcfeb8b504fb47a5ea688256bc49fef2d013387dc275bb50c55743356b7d40",
+        "ff5f692f866ad297a66e9660ea42bb6179c377585d02012cade6827acbfab9ac"
+      ],
       "text": "The Doorman's missing.",
       "source": "official"
     }

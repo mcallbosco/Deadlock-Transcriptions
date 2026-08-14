@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_leave_base_03.mp3",
   "revisions": [
     {
-      "sha256": "51a9955a95391af0c6d198a9a6f8cf86cc5924509c21fb42e9bc4b4eac688e45",
+      "sha256": [
+        "51a9955a95391af0c6d198a9a6f8cf86cc5924509c21fb42e9bc4b4eac688e45",
+        "bc43279a6333cf762c6cf31d719531bbde4c884fcb623a463babce019921477f"
+      ],
       "text": "It's time to complete the ritual!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc43279a6333cf762c6cf31d719531bbde4c884fcb623a463babce019921477f",
-      "text": "It's time to complete the ritual.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "5d4004ce99f0d49902ae4480fbc0f1562b66f430e7658df687f148a041129272",
+      "sha256": [
+        "5d4004ce99f0d49902ae4480fbc0f1562b66f430e7658df687f148a041129272"
+      ],
       "text": "I'm with you, Liz.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

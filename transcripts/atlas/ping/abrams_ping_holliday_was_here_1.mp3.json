@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_holliday_was_here_1.mp3",
   "revisions": [
     {
-      "sha256": "772b3857e60838d096c94b65f494c4c06cc0cc4c11cc345a4fcc9274bd330c43",
+      "sha256": [
+        "772b3857e60838d096c94b65f494c4c06cc0cc4c11cc345a4fcc9274bd330c43"
+      ],
       "text": "Holiday was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4d22cf534b7b53f5e74cb74e6ac22068e84e3424184bdc68760163a575b0e494",
+      "sha256": [
+        "4d22cf534b7b53f5e74cb74e6ac22068e84e3424184bdc68760163a575b0e494"
+      ],
       "text": "Quality was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

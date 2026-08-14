@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "5202dc9ff748fef55827a8bf93d891a083e8b00c5869d637fa0a68bfe664a6a0",
+      "sha256": [
+        "5202dc9ff748fef55827a8bf93d891a083e8b00c5869d637fa0a68bfe664a6a0"
+      ],
       "text": "I see Hayes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9e839d5d536c6400cc407f468130e00fe1efdda9e127a465da6943b8be3abf8a",
-      "text": "I see haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cff4d1ef5def5b1a22715edd0e869904d42173036bf422309dbbdf365925ca6",
+      "sha256": [
+        "1cff4d1ef5def5b1a22715edd0e869904d42173036bf422309dbbdf365925ca6",
+        "9e839d5d536c6400cc407f468130e00fe1efdda9e127a465da6943b8be3abf8a"
+      ],
       "text": "I see haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_push_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "f35228c0f743622df614871184394496490e469550166dd283f991fe0a8390f2",
-      "text": "Let's push blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9e02ea58598a953ac85c728dfffe76b8dc0917b2ea05e38ad96faa1c3502360",
+      "sha256": [
+        "f35228c0f743622df614871184394496490e469550166dd283f991fe0a8390f2",
+        "f9e02ea58598a953ac85c728dfffe76b8dc0917b2ea05e38ad96faa1c3502360"
+      ],
       "text": "Let's push Blue.",
       "source": "official"
     }

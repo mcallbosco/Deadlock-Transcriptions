@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_use_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "433ac0d715e13959ba3277825bce66ad299781c2028f305a3fd517d3334617de",
+      "sha256": [
+        "433ac0d715e13959ba3277825bce66ad299781c2028f305a3fd517d3334617de"
+      ],
       "text": "Done's up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9f44bc3a8b7fb78de4eaa7db6205642a24bd78a19345ce6084119084be8064b",
+      "sha256": [
+        "b9f44bc3a8b7fb78de4eaa7db6205642a24bd78a19345ce6084119084be8064b"
+      ],
       "text": "Bombs out!",
       "source": "official"
     }

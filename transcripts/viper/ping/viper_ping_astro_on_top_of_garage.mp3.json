@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_astro_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "24fb83c8907b31d805e3aa0b8527845b92836d764424a4377c81871bfcb15974",
+      "sha256": [
+        "24fb83c8907b31d805e3aa0b8527845b92836d764424a4377c81871bfcb15974"
+      ],
       "text": "Holliday's on top of the grosh.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e44d5e7d78fc1c8e7b54c3179fd903bc4c4fc6b2bb89c1d698953fd3a3c61fd3",
-      "text": "Holliday's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9ebffac86f31dd89919d12f194bdae5bad41002c92d24ea078e9825c9663ea3",
+      "sha256": [
+        "a9ebffac86f31dd89919d12f194bdae5bad41002c92d24ea078e9825c9663ea3",
+        "e44d5e7d78fc1c8e7b54c3179fd903bc4c4fc6b2bb89c1d698953fd3a3c61fd3"
+      ],
       "text": "Holliday's on top of the garage!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "2fbe9b267b21d552aaabdcf7d6d3a5566004a2a821306a7e99c70fefec4083e1",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32b827af14167411784b84ca2472f6b60d8d0ce0d9683b26e0b1ebf9f3ebcfc1",
-      "text": "Yamato is dead!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ac207d15c11f9244eeacdddc43c757dee26477ba2d6eb73c6cedd16ef38bdf3",
+      "sha256": [
+        "2fbe9b267b21d552aaabdcf7d6d3a5566004a2a821306a7e99c70fefec4083e1",
+        "32b827af14167411784b84ca2472f6b60d8d0ce0d9683b26e0b1ebf9f3ebcfc1",
+        "6ac207d15c11f9244eeacdddc43c757dee26477ba2d6eb73c6cedd16ef38bdf3"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

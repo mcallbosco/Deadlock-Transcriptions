@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_greeting_04.mp3",
   "revisions": [
     {
-      "sha256": "f8749bbb8aa559e63f13fd48f98ec34784451e8c497c1f83f8cc59fd7053adb4",
-      "text": "Ready to defend the lane, I think.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c927b00b6519597f59e9e2bbcf5ee287649273a4773dbe6673a8b022cd23e0f",
-      "text": "Ready to defend the lane, I think.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c74b24a4fa38ca8090fe361cf9ee6449878bf2b224b35343756fe763844f79b5",
+      "sha256": [
+        "3c927b00b6519597f59e9e2bbcf5ee287649273a4773dbe6673a8b022cd23e0f",
+        "c74b24a4fa38ca8090fe361cf9ee6449878bf2b224b35343756fe763844f79b5",
+        "f8749bbb8aa559e63f13fd48f98ec34784451e8c497c1f83f8cc59fd7053adb4"
+      ],
       "text": "Ready to defend the lane, I think.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_good_game_01.mp3",
   "revisions": [
     {
-      "sha256": "edd074dc5da8d44c2d5553347f3039f76ddbd77e03fec9435e93282cf78b96a5",
+      "sha256": [
+        "edd074dc5da8d44c2d5553347f3039f76ddbd77e03fec9435e93282cf78b96a5"
+      ],
       "text": "Hello, fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b92731c834502ebb70158703712c0716ea432a00e5b974701ef8b1bbcc6a4c78",
+      "sha256": [
+        "35165ffeea9c79ee981f18929902d025bbebdb9a7547f9162025342f49227c99",
+        "b92731c834502ebb70158703712c0716ea432a00e5b974701ef8b1bbcc6a4c78"
+      ],
       "text": "hell of a fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35165ffeea9c79ee981f18929902d025bbebdb9a7547f9162025342f49227c99",
-      "text": "Hell of a fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

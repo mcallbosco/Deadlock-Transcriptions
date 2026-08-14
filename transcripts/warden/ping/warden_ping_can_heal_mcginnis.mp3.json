@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_can_heal_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "b512cdad02f2c481b432e3bb1815e329698fa7b531ebdf77be8acb154dad00e0",
-      "text": "McGinnis, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80329af318e179c136a96cc472305fcd59ed8e83b3aa8082087eb6a27be2fe68",
-      "text": "McGinnis, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c462c353570bfd2db4c734ace4b12a885eb1c66a7848a71e8cd768e050c39e9d",
+      "sha256": [
+        "80329af318e179c136a96cc472305fcd59ed8e83b3aa8082087eb6a27be2fe68",
+        "b512cdad02f2c481b432e3bb1815e329698fa7b531ebdf77be8acb154dad00e0",
+        "c462c353570bfd2db4c734ace4b12a885eb1c66a7848a71e8cd768e050c39e9d"
+      ],
       "text": "McGinnis, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

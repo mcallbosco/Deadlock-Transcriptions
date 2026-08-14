@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_win_early_02.mp3",
   "revisions": [
     {
-      "sha256": "0938b5b7cbd9422f2bc0566efc17c3120cf805b08defa9fa8d700a1c5db8294c",
-      "text": "Well, that wrapped up nicely.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e2eee79ae6b20f55a77b24612f672bec2df78f890b759e1a04da4c3d1afb3e3",
-      "text": "Well, that wrapped up nicely.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0553120b1bfda1a528161f5e1593e6babc16de94cc6dbf8e08a01216b4978e89",
+      "sha256": [
+        "0553120b1bfda1a528161f5e1593e6babc16de94cc6dbf8e08a01216b4978e89",
+        "0938b5b7cbd9422f2bc0566efc17c3120cf805b08defa9fa8d700a1c5db8294c",
+        "7e2eee79ae6b20f55a77b24612f672bec2df78f890b759e1a04da4c3d1afb3e3"
+      ],
       "text": "Well, that wrapped up nicely.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_seven_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a79624da88be78b9f9d16c5a5f4919fd532fe2d5c278e8117ac98bddef9a724a",
-      "text": "Seven's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52ee703953c00cb11cb9cedc4957cb041ad4d482f7edeffb4311c03fe43e0cb9",
+      "sha256": [
+        "52ee703953c00cb11cb9cedc4957cb041ad4d482f7edeffb4311c03fe43e0cb9",
+        "a79624da88be78b9f9d16c5a5f4919fd532fe2d5c278e8117ac98bddef9a724a"
+      ],
       "text": "Seven's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

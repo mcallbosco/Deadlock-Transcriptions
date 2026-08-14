@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_need_help_green.mp3",
   "revisions": [
     {
-      "sha256": "b418682033ab81cfbf5166f7c5962dadfafb4675cc2d56b7d46b5ae2ada41db9",
+      "sha256": [
+        "535647847b11ef35f7eb4010a9ca28c5f4fa3d2371b746b7c05cc17f4efd2150",
+        "b418682033ab81cfbf5166f7c5962dadfafb4675cc2d56b7d46b5ae2ada41db9"
+      ],
       "text": "Need help on green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "535647847b11ef35f7eb4010a9ca28c5f4fa3d2371b746b7c05cc17f4efd2150",
-      "text": "Need help on green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

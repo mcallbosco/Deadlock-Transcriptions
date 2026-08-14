@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "57613c1615571f97dc46c82b2c3afa6ab1e939c32a8b029575397b0611e73c3e",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30ce8fa4b735cbc11be80bb653d89777bee7307183873a01fb74c9489a59bbf5",
+      "sha256": [
+        "30ce8fa4b735cbc11be80bb653d89777bee7307183873a01fb74c9489a59bbf5",
+        "57613c1615571f97dc46c82b2c3afa6ab1e939c32a8b029575397b0611e73c3e"
+      ],
       "text": "Careful, Calico…",
       "source": "official"
     }

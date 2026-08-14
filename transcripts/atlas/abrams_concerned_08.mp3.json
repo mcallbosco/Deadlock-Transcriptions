@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_concerned_08.mp3",
   "revisions": [
     {
-      "sha256": "3a955e5403689d7393e7804b05699ca69cd17c66713f8d1169ecea81367f977f",
+      "sha256": [
+        "3a955e5403689d7393e7804b05699ca69cd17c66713f8d1169ecea81367f977f"
+      ],
       "text": "Oh no",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "93ccf56c70be033bf1fb5cd7d893c1458a807ff7b8e7331f50202c262a1a4609",
-      "text": "I don't know about this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f737fdebc9b94700a527fb7c459b03146320370d5446816817d077896b6e5a4",
+      "sha256": [
+        "8f737fdebc9b94700a527fb7c459b03146320370d5446816817d077896b6e5a4",
+        "93ccf56c70be033bf1fb5cd7d893c1458a807ff7b8e7331f50202c262a1a4609"
+      ],
       "text": "I don't know about this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

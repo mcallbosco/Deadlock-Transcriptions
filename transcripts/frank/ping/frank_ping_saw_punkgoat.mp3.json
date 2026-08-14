@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_saw_punkgoat.mp3",
   "revisions": [
     {
-      "sha256": "d8eb64e6476ee7d0e147d121eafbf83a309e49aa95822a16e5e3acf91c3d544c",
+      "sha256": [
+        "d8eb64e6476ee7d0e147d121eafbf83a309e49aa95822a16e5e3acf91c3d544c"
+      ],
       "text": "I saw Billy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_viscous_dead.mp3",
   "revisions": [
     {
-      "sha256": "4b77260604360f4d5c7a8e574df19e8cf4ebf9cac6b94490020558b04c9d1324",
-      "text": "This is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc08ca59472aac175b184718bd0715a929c6a5101396dd3f535c8e1ba0fc8687",
+      "sha256": [
+        "4b77260604360f4d5c7a8e574df19e8cf4ebf9cac6b94490020558b04c9d1324",
+        "bc08ca59472aac175b184718bd0715a929c6a5101396dd3f535c8e1ba0fc8687"
+      ],
       "text": "This is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

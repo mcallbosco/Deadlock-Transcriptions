@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_unicorn_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d1aa267fb6bafb8737671e009b1de2d264bda3d2c0995edca92104dbb32f0f4c",
+      "sha256": [
+        "d1aa267fb6bafb8737671e009b1de2d264bda3d2c0995edca92104dbb32f0f4c"
+      ],
       "text": "Celeste was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

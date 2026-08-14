@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_area_immobilize_03.mp3",
   "revisions": [
     {
-      "sha256": "e31b797cc368e539557e94d0655fe95622ffb1ec3106db557ec92e1d501a2a16",
-      "text": "Stay where you are.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e20872d2fc294269fcd1e30f4f3770d6cb5b05f12429fe2b296b76501b94a6e3",
-      "text": "Stay where you are!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4095d4207420522ee88f34f218d5c98902737fa5461467375d5994a191cd4d1",
+      "sha256": [
+        "e20872d2fc294269fcd1e30f4f3770d6cb5b05f12429fe2b296b76501b94a6e3",
+        "e31b797cc368e539557e94d0655fe95622ffb1ec3106db557ec92e1d501a2a16",
+        "e4095d4207420522ee88f34f218d5c98902737fa5461467375d5994a191cd4d1"
+      ],
       "text": "Stay where you are!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

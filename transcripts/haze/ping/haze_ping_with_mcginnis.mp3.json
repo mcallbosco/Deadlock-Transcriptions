@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_with_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "5830c6298c6107fc16f536fad6bffa088f95afae710522ba57430fc5f694f772",
+      "sha256": [
+        "5830c6298c6107fc16f536fad6bffa088f95afae710522ba57430fc5f694f772"
+      ],
       "text": "I'm a humanist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f8843823ba17136c242f2bd16ec3d7fcd9437b068be8eed2928bc6543cb8e807",
+      "sha256": [
+        "f8843823ba17136c242f2bd16ec3d7fcd9437b068be8eed2928bc6543cb8e807"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7b7adc617f06ae4164aa840c9572738a5c4fec07b961e51c1b0cda92118f544b",
-      "text": "I'm you, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12be9a51902391fa8cf678ee98f452e26b987343a44607186e2818666dbb0281",
+      "sha256": [
+        "12be9a51902391fa8cf678ee98f452e26b987343a44607186e2818666dbb0281",
+        "7b7adc617f06ae4164aa840c9572738a5c4fec07b961e51c1b0cda92118f544b"
+      ],
       "text": "I'm you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

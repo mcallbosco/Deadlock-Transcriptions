@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_smoke_02.mp3",
   "revisions": [
     {
-      "sha256": "e01cc7743cb99750ae9c96e00b260929c0c34d18b43f8a7fc5534290b951112d",
+      "sha256": [
+        "e01cc7743cb99750ae9c96e00b260929c0c34d18b43f8a7fc5534290b951112d"
+      ],
       "text": "That's my cargo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5cd49fe41956ff184db976b6b70f47395e90d06ec985f252865ad77f5c107f00",
+      "sha256": [
+        "5cd49fe41956ff184db976b6b70f47395e90d06ec985f252865ad77f5c107f00",
+        "a32a6a0c62a463722ec36071106a91a167049092b36364aee0c7f87c7f3936e7"
+      ],
       "text": "Activate our move!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a32a6a0c62a463722ec36071106a91a167049092b36364aee0c7f87c7f3936e7",
-      "text": "Activate our move.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

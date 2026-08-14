@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_synth_03.mp3",
   "revisions": [
     {
-      "sha256": "86877e6db61984de7bbf1881757a546b8b35e75db513431863280102b0d0610b",
-      "text": "Careful, Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a60c36c2b5d75b37747854f04175e23af7928eac9081efa2ee3e672567307413",
-      "text": "Careful, pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee707525a323d557fa7705b219cf2f0a1441af60e9cb7fb039c06b2fb907a4af",
-      "text": "Careful, Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "497486f043489d17a57d2aab5d244cea4db97ce2668deaab5ee7c61e8222daea",
+      "sha256": [
+        "497486f043489d17a57d2aab5d244cea4db97ce2668deaab5ee7c61e8222daea",
+        "86877e6db61984de7bbf1881757a546b8b35e75db513431863280102b0d0610b",
+        "a60c36c2b5d75b37747854f04175e23af7928eac9081efa2ee3e672567307413",
+        "ee707525a323d557fa7705b219cf2f0a1441af60e9cb7fb039c06b2fb907a4af"
+      ],
       "text": "Careful, Pocket!",
       "source": "official"
     }

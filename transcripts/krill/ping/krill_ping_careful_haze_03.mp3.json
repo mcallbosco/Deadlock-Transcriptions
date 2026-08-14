@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "d67f056e3a361cb5058de0142544660bc3e061a5c91f9cc3f7f7ccd43342b007",
-      "text": "Careful, Haze!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b499db0e430f59df98365fc0b8a4ddc3cf528277edb9000fadf641ba066bf013",
-      "text": "Careful, Haze!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "428c6c9789479c430c2359358d1801f82070f020f545c991e74933a54ffa564e",
+      "sha256": [
+        "428c6c9789479c430c2359358d1801f82070f020f545c991e74933a54ffa564e",
+        "b499db0e430f59df98365fc0b8a4ddc3cf528277edb9000fadf641ba066bf013",
+        "d67f056e3a361cb5058de0142544660bc3e061a5c91f9cc3f7f7ccd43342b007"
+      ],
       "text": "Careful, Haze!",
       "source": "official"
     }

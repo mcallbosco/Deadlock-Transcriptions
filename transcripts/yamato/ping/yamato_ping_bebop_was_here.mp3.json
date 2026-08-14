@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6ccac99b25e9b77dc8086a6e6936148f1d382f3ffecc089a4b4d7eef13b890d1",
-      "text": "Bebop was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f280d3f55fde8696becc3317bf7b75422c30d3b59a9bfec202af5a1d46b90496",
-      "text": "Bebop was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb4e38c807f6db66df8bf92f6b99c16945674e4511bbad2c0196c2225e8a1575",
+      "sha256": [
+        "6ccac99b25e9b77dc8086a6e6936148f1d382f3ffecc089a4b4d7eef13b890d1",
+        "eb4e38c807f6db66df8bf92f6b99c16945674e4511bbad2c0196c2225e8a1575",
+        "f280d3f55fde8696becc3317bf7b75422c30d3b59a9bfec202af5a1d46b90496"
+      ],
       "text": "Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

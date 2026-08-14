@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_orange_full_health_01.mp3",
   "revisions": [
     {
-      "sha256": "30a5f95e2899e40c2e1890e5b85e399f6a56cee2c372c950ba1db5f0569a2be7",
-      "text": "Orange Guardian has full health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "673a5abf1b5d794c396cb76e6a79e1c76a0834598b6d4b54ad09314fe6b54e0c",
-      "text": "Orange Guardian has full health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c8b227b418623bdcf9d7121942caeb437170df7f28c88eb261e435d1b8a881b5",
+      "sha256": [
+        "30a5f95e2899e40c2e1890e5b85e399f6a56cee2c372c950ba1db5f0569a2be7",
+        "673a5abf1b5d794c396cb76e6a79e1c76a0834598b6d4b54ad09314fe6b54e0c",
+        "c8b227b418623bdcf9d7121942caeb437170df7f28c88eb261e435d1b8a881b5"
+      ],
       "text": "Orange Guardian has full health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

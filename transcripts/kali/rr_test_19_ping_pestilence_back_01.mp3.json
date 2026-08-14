@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_pestilence_back_01.mp3",
   "revisions": [
     {
-      "sha256": "43356bf100678ffdbc62d092bb48e3eea71755e6de75b03a8edbe953d4253b7a",
+      "sha256": [
+        "43356bf100678ffdbc62d092bb48e3eea71755e6de75b03a8edbe953d4253b7a"
+      ],
       "text": "Ashlands, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ffa87ae3c6f41ca87877ecbf6c80c2bf01a6ab19fef6d0351bfbdc06c1534290",
+      "sha256": [
+        "f5225935e4eaf0eaf91b49ff060b87cee29bb60b7ac842417470930c8ddf7925",
+        "ffa87ae3c6f41ca87877ecbf6c80c2bf01a6ab19fef6d0351bfbdc06c1534290"
+      ],
       "text": "Captains! Get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f5225935e4eaf0eaf91b49ff060b87cee29bb60b7ac842417470930c8ddf7925",
-      "text": "Captains, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

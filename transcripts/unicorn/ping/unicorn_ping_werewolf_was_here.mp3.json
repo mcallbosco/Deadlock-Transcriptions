@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_werewolf_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1e07a51025660450975aab68f863dc1bc6f1f9452a457c289fab6b6b3e6c66b8",
+      "sha256": [
+        "1e07a51025660450975aab68f863dc1bc6f1f9452a457c289fab6b6b3e6c66b8"
+      ],
       "text": "Someone was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

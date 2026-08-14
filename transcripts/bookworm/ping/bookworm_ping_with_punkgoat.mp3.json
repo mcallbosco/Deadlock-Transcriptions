@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_punkgoat.mp3",
   "revisions": [
     {
-      "sha256": "c265e21a58cd3dc8799c04d03302c22c56ac438ed7d78e038ab06528c1f4501c",
+      "sha256": [
+        "c265e21a58cd3dc8799c04d03302c22c56ac438ed7d78e038ab06528c1f4501c"
+      ],
       "text": "I'm with you, Billy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

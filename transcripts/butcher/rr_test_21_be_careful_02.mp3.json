@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "4a63be0d60101dc8dfe9340956024a099ec5e9e49fdf647e7358d091f3711ff2",
-      "text": "We need to be careful. They could be anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95b8fb1ce94a1ff98de0bb76983f58e94702d49fa0a6e4059dd9d42e04812001",
-      "text": "We need to be careful. They could be anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee9a2da7d5209022569657875e4d1e5f7b576003955513261f5eeb3a64903b33",
+      "sha256": [
+        "4a63be0d60101dc8dfe9340956024a099ec5e9e49fdf647e7358d091f3711ff2",
+        "95b8fb1ce94a1ff98de0bb76983f58e94702d49fa0a6e4059dd9d42e04812001",
+        "ee9a2da7d5209022569657875e4d1e5f7b576003955513261f5eeb3a64903b33"
+      ],
       "text": "We need to be careful. They could be anywhere.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

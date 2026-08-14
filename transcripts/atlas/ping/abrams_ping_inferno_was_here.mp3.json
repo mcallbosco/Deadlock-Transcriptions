@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_inferno_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c819711b55c6274c43295c4e55fc3935eb377903760719ff91c89fc876bdbb59",
-      "text": "Infernus here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "347531ebe650b28e073a16439eee2e9326d4afe05592db30b54f428f0317d517",
-      "text": "Infernus here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "096a6b553059d5ef4ed47b93fe17a96ab0a542621acd81c74244983fd0334442",
+      "sha256": [
+        "096a6b553059d5ef4ed47b93fe17a96ab0a542621acd81c74244983fd0334442",
+        "347531ebe650b28e073a16439eee2e9326d4afe05592db30b54f428f0317d517",
+        "c819711b55c6274c43295c4e55fc3935eb377903760719ff91c89fc876bdbb59"
+      ],
       "text": "Infernus here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

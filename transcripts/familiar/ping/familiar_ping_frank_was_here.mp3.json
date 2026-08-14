@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fd0bc15c0271026768ce2364e902e22e5970e6f08ba600712db7eea9edc189c3",
+      "sha256": [
+        "fd0bc15c0271026768ce2364e902e22e5970e6f08ba600712db7eea9edc189c3"
+      ],
       "text": "Victor was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

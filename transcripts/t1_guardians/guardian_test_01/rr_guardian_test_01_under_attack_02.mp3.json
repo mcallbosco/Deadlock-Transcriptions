@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_under_attack_02.mp3",
   "revisions": [
     {
-      "sha256": "ef44f6734c053a0474662e687fbf9c30368d1d8369c803e1ea57c2dc45e80a77",
-      "text": "Yellow's under attack!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad2122258e2fd18f8ac39c406f705dd5a04add70e14e80cb7a124e76ed790827",
-      "text": "Yellow's under attack!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46ef223bf5a9d28e1646929da263a64e9c9674390c7e14cd692e6b55e66bd1d1",
+      "sha256": [
+        "46ef223bf5a9d28e1646929da263a64e9c9674390c7e14cd692e6b55e66bd1d1",
+        "ad2122258e2fd18f8ac39c406f705dd5a04add70e14e80cb7a124e76ed790827",
+        "ef44f6734c053a0474662e687fbf9c30368d1d8369c803e1ea57c2dc45e80a77"
+      ],
       "text": "Yellow's under attack!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_ghost.mp3",
   "revisions": [
     {
-      "sha256": "e97115521048002e28f00769f450396a4d51bc1523abe5b72e38575a5455cb17",
+      "sha256": [
+        "340b2756760fd11ca8f66f778727d18ab5285cc9f023c84a7de9a5950a4d7715",
+        "e97115521048002e28f00769f450396a4d51bc1523abe5b72e38575a5455cb17"
+      ],
       "text": "Guys, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "340b2756760fd11ca8f66f778727d18ab5285cc9f023c84a7de9a5950a4d7715",
-      "text": "Guys, I can hear you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "675d85eff61349f25568a3c9777df8c8264532b42361040c69088e10bee7328e",
+      "sha256": [
+        "675d85eff61349f25568a3c9777df8c8264532b42361040c69088e10bee7328e"
+      ],
       "text": "Geist, I can heal you!",
       "source": "official"
     }

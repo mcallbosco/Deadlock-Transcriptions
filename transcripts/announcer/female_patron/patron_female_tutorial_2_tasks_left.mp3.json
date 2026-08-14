@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_2_tasks_left.mp3",
   "revisions": [
     {
-      "sha256": "485f9b92cd1319ca7d14896961e72a10d84ae5a6d41ddf2c3fbba1c55fc5ac43",
+      "sha256": [
+        "485f9b92cd1319ca7d14896961e72a10d84ae5a6d41ddf2c3fbba1c55fc5ac43",
+        "ede03d88f58756b036703f39790b31f91b6cb2d6d30b962a51aa44721c82324a"
+      ],
       "text": "You have two training tasks left.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ede03d88f58756b036703f39790b31f91b6cb2d6d30b962a51aa44721c82324a",
-      "text": "You have two training tasks left.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a5e033942e7a9b4127fd56649a6cebe4402ddec6f721235c425ec4ceba55ba0",
+      "sha256": [
+        "4a5e033942e7a9b4127fd56649a6cebe4402ddec6f721235c425ec4ceba55ba0"
+      ],
       "text": "You have 2 training tasks left",
       "source": "official"
     }

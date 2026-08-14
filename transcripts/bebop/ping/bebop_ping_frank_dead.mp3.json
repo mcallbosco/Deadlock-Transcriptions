@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_frank_dead.mp3",
   "revisions": [
     {
-      "sha256": "1f94639a1c66dafab57c804632950ef1ed8a4530d3874f44e20cdf931d992f1f",
+      "sha256": [
+        "1f94639a1c66dafab57c804632950ef1ed8a4530d3874f44e20cdf931d992f1f"
+      ],
       "text": "Victor is dead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

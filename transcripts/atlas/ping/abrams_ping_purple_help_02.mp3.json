@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_purple_help_02.mp3",
   "revisions": [
     {
-      "sha256": "c950dd22cdf7b9a9add7788c114b54527fbf16067da7a7d6d299aabd068414b0",
+      "sha256": [
+        "3a1993095e7a1500c10b08c2e70a55473c82394531a0c0211e6a5d9b8c8a384d",
+        "c950dd22cdf7b9a9add7788c114b54527fbf16067da7a7d6d299aabd068414b0"
+      ],
       "text": "Park needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a1993095e7a1500c10b08c2e70a55473c82394531a0c0211e6a5d9b8c8a384d",
-      "text": "Park needs help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

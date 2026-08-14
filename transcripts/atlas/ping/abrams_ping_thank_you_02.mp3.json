@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "926cfbda6f1dd5c44e4177f896e99b38b3d0e82aa02abdfd46b5c8320c7c1f47",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04cb1fd1e9fce8f740133498045f11aa1ae771fe64f706cae3b8ae8bfc9f8801",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0204e2faf32b1569da9f447e63291b2dd6de07c008bae43cef2fc255c004975c",
+      "sha256": [
+        "0204e2faf32b1569da9f447e63291b2dd6de07c008bae43cef2fc255c004975c",
+        "04cb1fd1e9fce8f740133498045f11aa1ae771fe64f706cae3b8ae8bfc9f8801",
+        "926cfbda6f1dd5c44e4177f896e99b38b3d0e82aa02abdfd46b5c8320c7c1f47"
+      ],
       "text": "Thank you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

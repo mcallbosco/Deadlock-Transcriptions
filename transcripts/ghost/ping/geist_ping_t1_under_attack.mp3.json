@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_t1_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "d47695e769464ea874139a6cf9d23521b48af5b6148e619cfb20a6307e25f446",
-      "text": "They're taking our Tier 1.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58aa1fd7354d12ec4814751f2b76b77e175741d4df34301d7f1bdb1db640ae6a",
+      "sha256": [
+        "58aa1fd7354d12ec4814751f2b76b77e175741d4df34301d7f1bdb1db640ae6a",
+        "d47695e769464ea874139a6cf9d23521b48af5b6148e619cfb20a6307e25f446"
+      ],
       "text": "They're taking our Tier 1.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

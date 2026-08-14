@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_tengu_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "c04895d87da97cc8c19cd1ee8beafe3e61e5024e7d9eed819b683cf029697759",
+      "sha256": [
+        "bf521703c52df58222145ce6eb40604775f469c6e5c2facebd0c227b65d46756",
+        "c04895d87da97cc8c19cd1ee8beafe3e61e5024e7d9eed819b683cf029697759"
+      ],
       "text": "Hide is in mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dcdf5faea85fea8b912c9f77eb6501c5275013edd56387d86300481754540442",
+      "sha256": [
+        "dcdf5faea85fea8b912c9f77eb6501c5275013edd56387d86300481754540442"
+      ],
       "text": "Hive is in mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bf521703c52df58222145ce6eb40604775f469c6e5c2facebd0c227b65d46756",
-      "text": "Hide is in mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de29b93d9f690501646cd697ef8341f757665f5f134fa61853d621bc3259adde",
+      "sha256": [
+        "de29b93d9f690501646cd697ef8341f757665f5f134fa61853d621bc3259adde"
+      ],
       "text": "ivy's in mid!",
       "source": "official"
     }

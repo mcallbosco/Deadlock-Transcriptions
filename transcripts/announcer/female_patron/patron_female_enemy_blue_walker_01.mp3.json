@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_enemy_blue_walker_01.mp3",
   "revisions": [
     {
-      "sha256": "8dce063c0f145e8ae3fa563360c67798a597fa88eea18287fc0486cb4944390b",
-      "text": "Their blue walker has been defeated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b14fbab8ce5e8a841a1d7d28a7e76b2376025f3beb9ab11df35cccc5bd77738",
+      "sha256": [
+        "3b14fbab8ce5e8a841a1d7d28a7e76b2376025f3beb9ab11df35cccc5bd77738",
+        "8dce063c0f145e8ae3fa563360c67798a597fa88eea18287fc0486cb4944390b"
+      ],
       "text": "Their blue walker has been defeated.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

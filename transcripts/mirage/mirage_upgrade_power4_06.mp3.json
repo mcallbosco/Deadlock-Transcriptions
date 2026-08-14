@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power4_06.mp3",
   "revisions": [
     {
-      "sha256": "be5a2b7883fd6638e35802274896ca789fcccb3347a940b2ee4bd0c4a05e6fa3",
+      "sha256": [
+        "be5a2b7883fd6638e35802274896ca789fcccb3347a940b2ee4bd0c4a05e6fa3"
+      ],
       "text": "I will take my last meal and way out.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2614702874fab0d132d5d50d63f01ce45505d2e1fc840019020e87577d73abd4",
+      "sha256": [
+        "2614702874fab0d132d5d50d63f01ce45505d2e1fc840019020e87577d73abd4",
+        "3f802df617d22a9f06b22289183046936911c102dd05ba5317d7a71478f4e5dd"
+      ],
       "text": "The mob will be subdued.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3f802df617d22a9f06b22289183046936911c102dd05ba5317d7a71478f4e5dd",
-      "text": "The mob will be subdued.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7b96483f9511b1219520a8fe1f0ef23327e18dc112a1c1a5f44f920c97b09f44",
+      "sha256": [
+        "7b96483f9511b1219520a8fe1f0ef23327e18dc112a1c1a5f44f920c97b09f44"
+      ],
       "text": "My enemies will not outrun me",
       "source": "official"
     }

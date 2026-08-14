@@ -1,41 +1,25 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_use_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "23568829107961317dc5033eaf700917ad173f3b1efd23525069b2f76e9e6e8f",
+      "sha256": [
+        "23568829107961317dc5033eaf700917ad173f3b1efd23525069b2f76e9e6e8f",
+        "5ebc96b4f30d758680b57545fb91f9c8cdf80c5fe24bf058de63aac0ffcf2033",
+        "a7218d5009ec71e47c46a66263c80ff939b298f6d6a94c2359d2b0d905b9015a",
+        "b4f41a27dd20fdd402d68728451f84b0217520efe334940cc3bc18cdb36eaab4",
+        "e67d0f75399a5f02103800fec7ab878deaca1247d1774f916aef38c3e06a668c"
+      ],
       "text": "Nighty night.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "e67d0f75399a5f02103800fec7ab878deaca1247d1774f916aef38c3e06a668c",
-      "text": "Nighty night.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7218d5009ec71e47c46a66263c80ff939b298f6d6a94c2359d2b0d905b9015a",
-      "text": "Nighty night.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b4f41a27dd20fdd402d68728451f84b0217520efe334940cc3bc18cdb36eaab4",
-      "text": "Nighty night.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af9c8876d8c287a6e58889b742464dd86b79d23d8133feb38d5aca9181f378de",
+      "sha256": [
+        "af9c8876d8c287a6e58889b742464dd86b79d23d8133feb38d5aca9181f378de"
+      ],
       "text": "Good night.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ebc96b4f30d758680b57545fb91f9c8cdf80c5fe24bf058de63aac0ffcf2033",
-      "text": "Nighty night.",
-      "source": "official"
     }
   ]
 }

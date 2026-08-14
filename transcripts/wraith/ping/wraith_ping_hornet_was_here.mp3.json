@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_hornet_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1dfd7bd1699dafb881492b7ba40a448f71e962748d159493f11a0a2353a8cceb",
+      "sha256": [
+        "1dfd7bd1699dafb881492b7ba40a448f71e962748d159493f11a0a2353a8cceb",
+        "5e3c2ece55d5ca6fb25644bfd3e95158ea080f1d96bf87b6be98e574e065347c",
+        "9f10a9bf0bef6425713e8f3f5f06bb65715d1ec27e7b5713517b8cf9ab4864c2"
+      ],
       "text": "Vindicta was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f10a9bf0bef6425713e8f3f5f06bb65715d1ec27e7b5713517b8cf9ab4864c2",
-      "text": "Vindicta was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e3c2ece55d5ca6fb25644bfd3e95158ea080f1d96bf87b6be98e574e065347c",
-      "text": "Vindicta was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

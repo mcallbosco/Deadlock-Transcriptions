@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "4b3a911ed52149e2e0c13913573081a288346fb51a908116e3320dc66a6cf730",
+      "sha256": [
+        "4b3a911ed52149e2e0c13913573081a288346fb51a908116e3320dc66a6cf730"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_mirage_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "75f1ebbc92963195ee383a9913ca06e65281f1ebb9f0b00d8f0952ba12f56c96",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b83e888fb129232e9915ad44711d8ec79637888b4d1969d89f2f50eb626abdda",
+      "sha256": [
+        "75f1ebbc92963195ee383a9913ca06e65281f1ebb9f0b00d8f0952ba12f56c96",
+        "b83e888fb129232e9915ad44711d8ec79637888b4d1969d89f2f50eb626abdda"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

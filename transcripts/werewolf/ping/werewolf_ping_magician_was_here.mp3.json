@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a20df42b8606cdb8c516479e4dd2daff1cbcfdc4e398b22f211b50e80ee621e9",
+      "sha256": [
+        "a20df42b8606cdb8c516479e4dd2daff1cbcfdc4e398b22f211b50e80ee621e9"
+      ],
       "text": "Sinclair was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

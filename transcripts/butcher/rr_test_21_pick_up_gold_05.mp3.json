@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_pick_up_gold_05.mp3",
   "revisions": [
     {
-      "sha256": "0aac02d9ba8dd867a8526217f325ce211123124547d18c71efa5c03cb32a91bc",
-      "text": "Give me that damn money!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d09ce720da3c2af6e02130f51d42894e38f3799442926476ecb3932373c832da",
-      "text": "Give me that damn money!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b7989cfdde3ddc12e3ae9e0194eec960683afa3690d166c044058ee73711b72f",
+      "sha256": [
+        "0aac02d9ba8dd867a8526217f325ce211123124547d18c71efa5c03cb32a91bc",
+        "b7989cfdde3ddc12e3ae9e0194eec960683afa3690d166c044058ee73711b72f",
+        "d09ce720da3c2af6e02130f51d42894e38f3799442926476ecb3932373c832da"
+      ],
       "text": "Give me that damn money!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_attack_mirage.mp3",
   "revisions": [
     {
-      "sha256": "611963e4531a056f6eb9ad0bbd145a5d73791f0e1633296b9fabaf96d7d33f5c",
+      "sha256": [
+        "611963e4531a056f6eb9ad0bbd145a5d73791f0e1633296b9fabaf96d7d33f5c"
+      ],
       "text": "I think I'm a Mirage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "26f6af5eb5d71c59dff338a7fc00dd30045b10defe6689234f2e19942bd5240a",
+      "sha256": [
+        "26f6af5eb5d71c59dff338a7fc00dd30045b10defe6689234f2e19942bd5240a"
+      ],
       "text": "Let's take out Mirage.",
       "source": "official"
     }

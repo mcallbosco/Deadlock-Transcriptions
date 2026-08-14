@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_attack_bebop.mp3",
   "revisions": [
     {
-      "sha256": "1d5c364a0881d666d1a7c4cac921e35de0ff8908e737629915f47fed5087963c",
+      "sha256": [
+        "1d5c364a0881d666d1a7c4cac921e35de0ff8908e737629915f47fed5087963c"
+      ],
       "text": "Let's pick up Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d2f74fb797856cbca5653622370106cf0b4d7686e244991555300d6599172fb",
+      "sha256": [
+        "16446085d1cf3a1ef9d088387b0a6be5c7adc020c89a2eab85d448a126559267",
+        "7d2f74fb797856cbca5653622370106cf0b4d7686e244991555300d6599172fb"
+      ],
       "text": "Let's take down Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "16446085d1cf3a1ef9d088387b0a6be5c7adc020c89a2eab85d448a126559267",
-      "text": "Let's take down Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec18977171e39bb3f0a1cb580d2c390f5de75e32aa8cbc021173096bc8f28759",
+      "sha256": [
+        "ec18977171e39bb3f0a1cb580d2c390f5de75e32aa8cbc021173096bc8f28759"
+      ],
       "text": "Let's take out Bebop",
       "source": "official"
     }

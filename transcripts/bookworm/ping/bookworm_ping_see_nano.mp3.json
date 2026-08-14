@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_nano.mp3",
   "revisions": [
     {
-      "sha256": "2f840b27a510df0a426923916314b761f8e16d3cf8189a844ab11c53d4be1373",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8050ca8f4cb85619ff5d0db3147b5831b2ca934338568a48814b8544a56c2a05",
+      "sha256": [
+        "2f840b27a510df0a426923916314b761f8e16d3cf8189a844ab11c53d4be1373",
+        "8050ca8f4cb85619ff5d0db3147b5831b2ca934338568a48814b8544a56c2a05"
+      ],
       "text": "I see Calico.",
       "source": "official"
     }

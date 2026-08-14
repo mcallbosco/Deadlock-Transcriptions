@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_forge_02.mp3",
   "revisions": [
     {
-      "sha256": "2e4c420ca7c7d59ea34d0eae3562395aed7e6af83f5425471910a05db63ce70f",
+      "sha256": [
+        "2e4c420ca7c7d59ea34d0eae3562395aed7e6af83f5425471910a05db63ce70f"
+      ],
       "text": "What chance is a laborer against perfection?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "09ee8aa4183ed0d7edd19d4d86b7676addfe43edc26af84ad68b56fa59ab6a85",
-      "text": "What chance does a laborer have against perfection?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "09ee8aa4183ed0d7edd19d4d86b7676addfe43edc26af84ad68b56fa59ab6a85",
+        "bc3ed9e7483d2b995b70331c2be13031bad0ec0366a537d5d83270638941132e"
+      ],
+      "text": "What chance does a laborer have against perfection",
+      "source": "official"
     },
     {
-      "sha256": "411336d80d023c87be8df058c12a9e47aa0ebf704a457bbe4af5f3fc5ee06a11",
+      "sha256": [
+        "411336d80d023c87be8df058c12a9e47aa0ebf704a457bbe4af5f3fc5ee06a11"
+      ],
       "text": "What chance does a labor have against perfection?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc3ed9e7483d2b995b70331c2be13031bad0ec0366a537d5d83270638941132e",
-      "text": "What chance does a laborer have against perfection",
-      "source": "official"
     }
   ]
 }

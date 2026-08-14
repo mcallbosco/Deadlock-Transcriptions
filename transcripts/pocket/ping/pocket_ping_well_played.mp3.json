@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "cc1519b368c2e11e03e0dbf2a6e6ec9222d96c82dcf960803b928d093bf714e4",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c39a9f35ef82d1fdf41e0a1dde28409552ada82e16f6009942e90c35ab014e5b",
+      "sha256": [
+        "c39a9f35ef82d1fdf41e0a1dde28409552ada82e16f6009942e90c35ab014e5b",
+        "cc1519b368c2e11e03e0dbf2a6e6ec9222d96c82dcf960803b928d093bf714e4"
+      ],
       "text": "Well played.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_krill_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "c58e03c3ffd78246570c57fafe1c71a571e4b1673d55babc98a1bc93ed106b73",
+      "sha256": [
+        "c58e03c3ffd78246570c57fafe1c71a571e4b1673d55babc98a1bc93ed106b73"
+      ],
       "text": "There's under the grass!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8cc1a4bd8a7b9c480bbb2e1ab0f966b68538de49517d57074735e15687d5e9d5",
+      "sha256": [
+        "8cc1a4bd8a7b9c480bbb2e1ab0f966b68538de49517d57074735e15687d5e9d5"
+      ],
       "text": "Krill's under the garage!",
       "source": "official"
     }

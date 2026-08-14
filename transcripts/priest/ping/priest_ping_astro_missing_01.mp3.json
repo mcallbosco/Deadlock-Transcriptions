@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_astro_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3e1a5bf0a0c97f15abde13fc45f56c81205016f3674f28d3c58c17a03238287b",
+      "sha256": [
+        "3e1a5bf0a0c97f15abde13fc45f56c81205016f3674f28d3c58c17a03238287b"
+      ],
       "text": "Cowboy's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1b8710427b027c463aeebf2b5b24f240c152fcfdd14146ca951005b8eb779cc9",
+      "sha256": [
+        "1b8710427b027c463aeebf2b5b24f240c152fcfdd14146ca951005b8eb779cc9"
+      ],
       "text": "Holliday's missing.",
       "source": "official"
     }

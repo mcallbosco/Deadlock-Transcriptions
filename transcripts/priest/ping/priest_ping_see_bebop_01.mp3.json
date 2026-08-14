@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_see_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "c37c0c2996fd645120df8326fcb2c6010fff55469062842cde01d28487b7eb7e",
-      "text": "I see Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa137606c5b588a4a5988f9bcedf314f00f98977d86898d4aa768ab2ad07e11c",
+      "sha256": [
+        "aa137606c5b588a4a5988f9bcedf314f00f98977d86898d4aa768ab2ad07e11c",
+        "c37c0c2996fd645120df8326fcb2c6010fff55469062842cde01d28487b7eb7e"
+      ],
       "text": "I see Bebop.",
       "source": "official"
     }

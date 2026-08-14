@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_slork_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0450ac9b10c8390553aab138db7d49b37a0bcaf4381af50cd291e4cc865ca12d",
+      "sha256": [
+        "0450ac9b10c8390553aab138db7d49b37a0bcaf4381af50cd291e4cc865ca12d"
+      ],
       "text": "Scene of the city.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "13ca547157a255fac9c175ae492c8250902ceddbe466dbbbb3df6ad41e2fd3af",
+      "sha256": [
+        "13ca547157a255fac9c175ae492c8250902ceddbe466dbbbb3df6ad41e2fd3af"
+      ],
       "text": "Fathom's missing",
       "source": "official"
     }

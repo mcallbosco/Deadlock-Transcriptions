@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_warden_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "fdc8d28537aab1f15b4aff933f77ca28ce544f5230d1e6460df8b28ffb4a3017",
+      "sha256": [
+        "fdc8d28537aab1f15b4aff933f77ca28ce544f5230d1e6460df8b28ffb4a3017"
+      ],
       "text": "Hoodin's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "039adc88937ca09b988b7ad0000bcb13181108d0cdb73458fb43264c06963fd6",
+      "sha256": [
+        "039adc88937ca09b988b7ad0000bcb13181108d0cdb73458fb43264c06963fd6"
+      ],
       "text": "What is on the roof?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2dcddaf15d3e01151ce6876ede800264e0d8e319d33a81d1142d4199260e0c8b",
+      "sha256": [
+        "2dcddaf15d3e01151ce6876ede800264e0d8e319d33a81d1142d4199260e0c8b"
+      ],
       "text": "Warden's on the roof!",
       "source": "official"
     }

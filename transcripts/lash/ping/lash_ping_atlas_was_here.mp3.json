@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_atlas_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d4ddaf8e54ee51c99d50c2ecd0af487212711bcd37a57307d153db2e440fc6a3",
+      "sha256": [
+        "4ea48c9bc536b0c33dbaa59192e9d8aa4ab18f32fc4807a65f220bcd3b3adffb",
+        "d4ddaf8e54ee51c99d50c2ecd0af487212711bcd37a57307d153db2e440fc6a3"
+      ],
       "text": "Abrams is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "109298b426afda52451dd90cb8847008e9a7d1f8ff58f25240d5ba48a4d885b2",
+      "sha256": [
+        "109298b426afda52451dd90cb8847008e9a7d1f8ff58f25240d5ba48a4d885b2"
+      ],
       "text": "It was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e70ee8f7b7c317015ec26c1a0b17301b8ec0144ffd91f53fba66b0cc241fa892",
+      "sha256": [
+        "e70ee8f7b7c317015ec26c1a0b17301b8ec0144ffd91f53fba66b0cc241fa892"
+      ],
       "text": "It was a year.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ea48c9bc536b0c33dbaa59192e9d8aa4ab18f32fc4807a65f220bcd3b3adffb",
-      "text": "Abrams is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

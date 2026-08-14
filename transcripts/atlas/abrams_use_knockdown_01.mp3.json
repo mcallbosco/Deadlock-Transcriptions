@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_knockdown_01.mp3",
   "revisions": [
     {
-      "sha256": "efc7c32ae61747408bcb1c3359ee77577f40c99e4ef94450f06692f3ec1d461e",
+      "sha256": [
+        "2e705e7679568adce030d0aaf428de413e1f4ea765bd390b07a1b77f0c4e8bcc",
+        "5627c5300e15ba723f0db9862ae95aad7f0ff67ca17d1a920509707413517118",
+        "efc7c32ae61747408bcb1c3359ee77577f40c99e4ef94450f06692f3ec1d461e"
+      ],
       "text": "Knocking them down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5627c5300e15ba723f0db9862ae95aad7f0ff67ca17d1a920509707413517118",
-      "text": "Knocking them down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e705e7679568adce030d0aaf428de413e1f4ea765bd390b07a1b77f0c4e8bcc",
-      "text": "Knocking them down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

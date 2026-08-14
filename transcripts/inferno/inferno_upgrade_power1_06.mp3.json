@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_upgrade_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "9cccbd8674d8bea073b0a3cda18e87381cc48a047d8491a46942766ae2878098",
+      "sha256": [
+        "9cccbd8674d8bea073b0a3cda18e87381cc48a047d8491a46942766ae2878098"
+      ],
       "text": "Always pays to plan ahead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ec8420e4d9dc5c1079145d815df7fe01f7680ee7b5e51f2225270832390d3586",
+      "sha256": [
+        "073b9b3f1514679bcfdfb9c2325582135916cdbb27bd8d2944914bc77cf4914e",
+        "ec8420e4d9dc5c1079145d815df7fe01f7680ee7b5e51f2225270832390d3586"
+      ],
       "text": "Always pays the planet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "073b9b3f1514679bcfdfb9c2325582135916cdbb27bd8d2944914bc77cf4914e",
-      "text": "Always pays the planet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75de8a010f4da475e97a77d6c70cbaaffe4c27dd21ff4c9ccd9f4e8a00be16c7",
+      "sha256": [
+        "75de8a010f4da475e97a77d6c70cbaaffe4c27dd21ff4c9ccd9f4e8a00be16c7"
+      ],
       "text": "It always pays to plan ahead…",
       "source": "official"
     }

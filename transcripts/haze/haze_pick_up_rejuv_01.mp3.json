@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_pick_up_rejuv_01.mp3",
   "revisions": [
     {
-      "sha256": "7f256c57c7f9c473421f7650a1e52215f00ba3b585d67aa85822471c025abf74",
+      "sha256": [
+        "7f256c57c7f9c473421f7650a1e52215f00ba3b585d67aa85822471c025abf74",
+        "83df3c2e01cef5076b1515173195ce803de7afc526ceb52f41725413d3e8d249",
+        "ac6e76204e38579c6c3dd796374a4d753e836d2e758f77aa28a33676f7242b22",
+        "b6d18a4eb5b399e565819ed320a407c548640ca8c5c8564d20d25c62bb5872da"
+      ],
       "text": "I have the Rejuvenator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ac6e76204e38579c6c3dd796374a4d753e836d2e758f77aa28a33676f7242b22",
-      "text": "I have the Rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6d18a4eb5b399e565819ed320a407c548640ca8c5c8564d20d25c62bb5872da",
-      "text": "I have the Rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "83df3c2e01cef5076b1515173195ce803de7afc526ceb52f41725413d3e8d249",
-      "text": "I have the Rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ba519d0f3089ab5b474435a174d500dc0396579b178f2a653c4feefe099b0f7",
+      "sha256": [
+        "1ba519d0f3089ab5b474435a174d500dc0396579b178f2a653c4feefe099b0f7"
+      ],
       "text": "I have the rejuvinator…",
       "source": "official"
     }

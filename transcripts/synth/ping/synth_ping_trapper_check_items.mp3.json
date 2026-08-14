@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_trapper_check_items.mp3",
   "revisions": [
     {
-      "sha256": "62d2629287af1d155c32b59eec486e9f0be8f204bc84507ce6559fc986258b9a",
+      "sha256": [
+        "62d2629287af1d155c32b59eec486e9f0be8f204bc84507ce6559fc986258b9a"
+      ],
       "text": "Check out what Trevor bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

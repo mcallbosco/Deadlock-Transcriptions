@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_warden_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "edbb96b74d81ad3e0df9f94e9c41878978c65364286fe950887115f49c6993a8",
+      "sha256": [
+        "edbb96b74d81ad3e0df9f94e9c41878978c65364286fe950887115f49c6993a8"
+      ],
       "text": "What is on top of the garage?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b74484a0e61383450cddaeb67bfca6259ccbfd4b9ae5c0fe4356edc98c506f61",
+      "sha256": [
+        "b74484a0e61383450cddaeb67bfca6259ccbfd4b9ae5c0fe4356edc98c506f61"
+      ],
       "text": "Warden's on top of the garage!",
       "source": "official"
     }

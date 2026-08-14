@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_tvspirit_01.mp3",
   "revisions": [
     {
-      "sha256": "0bde6bc9311b6f4643d655d3c777c77fbcd34107ae506b10a68083d24a17eaed",
+      "sha256": [
+        "0bde6bc9311b6f4643d655d3c777c77fbcd34107ae506b10a68083d24a17eaed",
+        "6482550e5bdde92b0bc95540cc23305c32f79805d159107a0bb0c3b1d04d4437"
+      ],
       "text": "I see the poltergeist!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6482550e5bdde92b0bc95540cc23305c32f79805d159107a0bb0c3b1d04d4437",
-      "text": "I see the poltergeist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

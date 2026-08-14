@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_viscous_02.mp3",
   "revisions": [
     {
-      "sha256": "7ad9d5864777325e3fbbd49d83d917f344bd59f068a920466ed825ac50494f21",
-      "text": "Careful, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a277b95449c566c5d97f5990b7bf6a6b855fff7230c3d271c75a3ba5a9d7562",
+      "sha256": [
+        "4a277b95449c566c5d97f5990b7bf6a6b855fff7230c3d271c75a3ba5a9d7562",
+        "7ad9d5864777325e3fbbd49d83d917f344bd59f068a920466ed825ac50494f21"
+      ],
       "text": "Careful, Viscous.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

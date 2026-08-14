@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_punkgoat_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "19bc08a7a26e957ed352d86b19b505e0015ac8d269e862bc8a39cd363682a0c8",
+      "sha256": [
+        "19bc08a7a26e957ed352d86b19b505e0015ac8d269e862bc8a39cd363682a0c8"
+      ],
       "text": "The goat is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c4103d624b0a88cc0411eeaf3cb76aa74f40f7969b7d7ac410b5810964278a28",
+      "sha256": [
+        "c4103d624b0a88cc0411eeaf3cb76aa74f40f7969b7d7ac410b5810964278a28"
+      ],
       "text": "Billy's missing.",
       "source": "official"
     }

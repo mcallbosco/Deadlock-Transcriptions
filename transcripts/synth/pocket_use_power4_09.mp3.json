@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_use_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "d358baf7e312747721151983b48246b1ba3fd663e1bdc58437484be4aef1fde7",
-      "text": "This needs to work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c60fcf5f48a1be0c695e2f7cd3507433258679dad10e8f186c1307b2ca43c698",
+      "sha256": [
+        "c60fcf5f48a1be0c695e2f7cd3507433258679dad10e8f186c1307b2ca43c698",
+        "d358baf7e312747721151983b48246b1ba3fd663e1bdc58437484be4aef1fde7"
+      ],
       "text": "This needs to work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

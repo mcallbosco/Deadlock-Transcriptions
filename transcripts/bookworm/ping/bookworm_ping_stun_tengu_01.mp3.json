@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_stun_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "b9ec982b8f5c5e3eb795294a2aca728983f9a95b1c49614afd4328ef4fd5d3a6",
+      "sha256": [
+        "b9ec982b8f5c5e3eb795294a2aca728983f9a95b1c49614afd4328ef4fd5d3a6"
+      ],
       "text": "Stop, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4659721d44893737c40d06b9e76869bbc635f9aa014f05e5d39e2c5aae0d6df6",
+      "sha256": [
+        "4659721d44893737c40d06b9e76869bbc635f9aa014f05e5d39e2c5aae0d6df6"
+      ],
       "text": "Sun Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

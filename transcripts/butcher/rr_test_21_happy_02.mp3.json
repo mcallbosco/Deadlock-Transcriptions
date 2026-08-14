@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_happy_02.mp3",
   "revisions": [
     {
-      "sha256": "2d46c341e3d5f8d14663c252ed58f245732b106daa089bb94437773cb054c0ff",
-      "text": "This is our chance!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed44ef2774645bbdb07f7ff3df52d5d304cecd5da056aa25a41f13b441495cc3",
-      "text": "This is our chance!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2934909404572bec393cb0237eb5e84ba3e1a803b99ef6a7728a710dad79eb85",
+      "sha256": [
+        "2934909404572bec393cb0237eb5e84ba3e1a803b99ef6a7728a710dad79eb85",
+        "2d46c341e3d5f8d14663c252ed58f245732b106daa089bb94437773cb054c0ff",
+        "ed44ef2774645bbdb07f7ff3df52d5d304cecd5da056aa25a41f13b441495cc3"
+      ],
       "text": "This is our chance!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

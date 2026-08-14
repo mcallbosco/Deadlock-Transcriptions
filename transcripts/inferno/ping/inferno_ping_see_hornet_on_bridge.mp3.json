@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_hornet_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "cdd4a798fe07baa797ea1a76c38c8792e625ccb1528f7b00cff1a2aef4c340f9",
+      "sha256": [
+        "472d2c91be7eb4db3278ecaecac2915cb710e0ed1b170df3c5a78c756e2efd9a",
+        "cdd4a798fe07baa797ea1a76c38c8792e625ccb1528f7b00cff1a2aef4c340f9"
+      ],
       "text": "The gate is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "472d2c91be7eb4db3278ecaecac2915cb710e0ed1b170df3c5a78c756e2efd9a",
-      "text": "The gate is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3099fed82dc740dd13ba3e955bb65dc41de69d17c2f875077cf937be3642c7a0",
+      "sha256": [
+        "3099fed82dc740dd13ba3e955bb65dc41de69d17c2f875077cf937be3642c7a0"
+      ],
       "text": "vindicta's on the bridge!",
       "source": "official"
     }

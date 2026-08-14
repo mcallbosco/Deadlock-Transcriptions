@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_stolen_by_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "9c4371da8c3000de9c1c23d27da1febc947de443edb55a57112584a7fdbd0d8a",
+      "sha256": [
+        "9c4371da8c3000de9c1c23d27da1febc947de443edb55a57112584a7fdbd0d8a"
+      ],
       "text": "Dynamo stole the Rejuvenator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

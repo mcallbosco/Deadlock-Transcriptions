@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "058c01be64668c668c7da36d445522910acdf3e62d547edb73b51ad5b31040d5",
-      "text": "They're all my prey.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0153b4f4f8f539d62a4185d6e525627b100ff738fc7c2a7bd9b90e8614c74f0f",
-      "text": "They're all my prey.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5de78c95566485e5f28d3f4a058e6367e3f9211a55a9cdf3a80da39c459c8b09",
+      "sha256": [
+        "0153b4f4f8f539d62a4185d6e525627b100ff738fc7c2a7bd9b90e8614c74f0f",
+        "058c01be64668c668c7da36d445522910acdf3e62d547edb73b51ad5b31040d5",
+        "5de78c95566485e5f28d3f4a058e6367e3f9211a55a9cdf3a80da39c459c8b09"
+      ],
       "text": "They're all my prey.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

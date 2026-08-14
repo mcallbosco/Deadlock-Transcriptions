@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "176d6513aeec6367b970eb9339ae593eb52ca848cc83ca6c573ae84d220f04ea",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04c7d8d6f6c3fc9ac7bd25284b0da7be61b9adc1fd43f283cb3a135a4f15a42e",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9eed284395912720540d5b38d34a6b0db0e85b657cfc643bd56bc5da214d289",
+      "sha256": [
+        "04c7d8d6f6c3fc9ac7bd25284b0da7be61b9adc1fd43f283cb3a135a4f15a42e",
+        "176d6513aeec6367b970eb9339ae593eb52ca848cc83ca6c573ae84d220f04ea",
+        "c9eed284395912720540d5b38d34a6b0db0e85b657cfc643bd56bc5da214d289"
+      ],
       "text": "Careful, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

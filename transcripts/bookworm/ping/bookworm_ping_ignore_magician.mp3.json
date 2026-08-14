@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_magician.mp3",
   "revisions": [
     {
-      "sha256": "06587fb4e098b61f77abea443a05c595b1da3168324ad7a0ecd835d46e5e339c",
+      "sha256": [
+        "06587fb4e098b61f77abea443a05c595b1da3168324ad7a0ecd835d46e5e339c"
+      ],
       "text": "Ignorancing flare.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8c5e966566b207e8533e0e16b3907e2bfabf650dd365f3177e3644480f7817ed",
+      "sha256": [
+        "8c5e966566b207e8533e0e16b3907e2bfabf650dd365f3177e3644480f7817ed"
+      ],
       "text": "Ignore Sinclair.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

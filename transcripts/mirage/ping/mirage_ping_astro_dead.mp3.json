@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_astro_dead.mp3",
   "revisions": [
     {
-      "sha256": "154b218939af8b266edeb2d451bb61d2369d28ad6464cba8efc42a41d2c31231",
+      "sha256": [
+        "154b218939af8b266edeb2d451bb61d2369d28ad6464cba8efc42a41d2c31231",
+        "79dae3b5ab3659f6158720adc8adce6e6e756ddb3db6800412a702f611d78347"
+      ],
       "text": "Holliday's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7337a5c6a547f3e4a7a61ef403690f9e049459a67f6bee4299eff124f0636c15",
+      "sha256": [
+        "7337a5c6a547f3e4a7a61ef403690f9e049459a67f6bee4299eff124f0636c15"
+      ],
       "text": "Holiday's dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79dae3b5ab3659f6158720adc8adce6e6e756ddb3db6800412a702f611d78347",
-      "text": "Holliday's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_be_careful_03.mp3",
   "revisions": [
     {
-      "sha256": "26efc324703c81d63710bbb90b49555f510b62b6c728cc31816baef27013ddaf",
-      "text": "The hunters think they're so clever. They don't even realize they're the prey.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab964bf11b58f5cd38bfe24cd10349e3688221fd748051cd28e58c37de8a1a23",
-      "text": "The hunters think they're so clever. They don't even realize they're the prey.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c1020b8e201b3612cd81f55e1e89d20dbdc980f2a48c7fa31c49d66e233046a",
+      "sha256": [
+        "26efc324703c81d63710bbb90b49555f510b62b6c728cc31816baef27013ddaf",
+        "6c1020b8e201b3612cd81f55e1e89d20dbdc980f2a48c7fa31c49d66e233046a",
+        "ab964bf11b58f5cd38bfe24cd10349e3688221fd748051cd28e58c37de8a1a23"
+      ],
       "text": "The hunters think they're so clever. They don't even realize they're the prey.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

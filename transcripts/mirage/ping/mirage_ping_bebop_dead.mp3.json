@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_bebop_dead.mp3",
   "revisions": [
     {
-      "sha256": "12ccb82e2d93329e8f96706ed1987f0365844cc39b7a60645b9e0587a226b039",
-      "text": "Bebop is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38d2903e54bf5e7b84b27fe72e75cc582a8c681178311db60eda41f7de88caac",
-      "text": "Bebop is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90f10afa00e6897e1485308c013bc9d5dcd3f63b85102bda618db99ad1e0ff2e",
+      "sha256": [
+        "12ccb82e2d93329e8f96706ed1987f0365844cc39b7a60645b9e0587a226b039",
+        "38d2903e54bf5e7b84b27fe72e75cc582a8c681178311db60eda41f7de88caac",
+        "90f10afa00e6897e1485308c013bc9d5dcd3f63b85102bda618db99ad1e0ff2e"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

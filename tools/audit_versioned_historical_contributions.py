@@ -18,6 +18,7 @@ from pathlib import Path, PurePosixPath
 from typing import Any, Iterable
 
 from apply_current_contributions import read_json
+from transcript_schema import revisions_for_hash
 from audit_latest_version_contributions import build_manifest_index, fetch_manifest
 from audit_legacy_contributions import (
     AuditError,
@@ -187,9 +188,7 @@ def classify_records(
             continue
         sha256 = next(iter(manifest_hashes))
         record["manifestEvidence"] = manifest_hashes[sha256]
-        revisions = [
-            value for value in document.get("revisions", []) if value.get("sha256") == sha256
-        ]
+        revisions = revisions_for_hash(document, sha256)
         if len(revisions) != 1:
             record["status"] = (
                 "version_revision_missing" if not revisions else "duplicate_version_revision"

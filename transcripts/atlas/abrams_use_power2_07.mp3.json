@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power2_07.mp3",
   "revisions": [
     {
-      "sha256": "f16262b55f2f3a50ad95fdaafbc1ae042040fc52eaf49d57cfd3fed368bc19c2",
-      "text": "It's you or me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78af3ddd1c350c3925e0c4053b9f5f395d6c327ae37c3ce19725451484094528",
-      "text": "It's you or me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5190a4924e80e002e8d6598c901ff2f420a41a030255203f7ebb67e9b36b84e9",
+      "sha256": [
+        "5190a4924e80e002e8d6598c901ff2f420a41a030255203f7ebb67e9b36b84e9",
+        "78af3ddd1c350c3925e0c4053b9f5f395d6c327ae37c3ce19725451484094528",
+        "f16262b55f2f3a50ad95fdaafbc1ae042040fc52eaf49d57cfd3fed368bc19c2"
+      ],
       "text": "It's you or me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

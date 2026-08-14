@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_stun_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "f73b0c18484a93f11b32d831088e36e2fcd2e681cf450b4521711498fb1f4c7c",
+      "sha256": [
+        "f73b0c18484a93f11b32d831088e36e2fcd2e681cf450b4521711498fb1f4c7c"
+      ],
       "text": "Stonehage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "30db32bed662b3ddaa375b19be594acecf5469e227cb495559f32365f8fc3a88",
+      "sha256": [
+        "30db32bed662b3ddaa375b19be594acecf5469e227cb495559f32365f8fc3a88",
+        "65dddb94edc046f12f4e8ec92e2cea12c202c54678ab337d90978acd5f4e6546"
+      ],
       "text": "Stone haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "65dddb94edc046f12f4e8ec92e2cea12c202c54678ab337d90978acd5f4e6546",
-      "text": "Stone Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

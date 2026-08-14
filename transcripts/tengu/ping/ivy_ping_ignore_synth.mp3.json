@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_ignore_synth.mp3",
   "revisions": [
     {
-      "sha256": "5430c0bca624cd881ed5983f59b15671c13c9ac337ef6cf0ac3a2d5ad99c799c",
+      "sha256": [
+        "5355e225165348b8323e2533edfbdb8f50574663fce9fcc75439616fdb3e0e9d",
+        "5430c0bca624cd881ed5983f59b15671c13c9ac337ef6cf0ac3a2d5ad99c799c"
+      ],
       "text": "Ignore Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5355e225165348b8323e2533edfbdb8f50574663fce9fcc75439616fdb3e0e9d",
-      "text": "Ignore pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

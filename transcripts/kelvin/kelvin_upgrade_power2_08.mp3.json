@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power2_08.mp3",
   "revisions": [
     {
-      "sha256": "eece2d2a78137147561d6df6335020d25e88e218b71c7abc71fd4c553832aaa7",
+      "sha256": [
+        "eece2d2a78137147561d6df6335020d25e88e218b71c7abc71fd4c553832aaa7"
+      ],
       "text": "Simple as that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f3f041ae34328328361eee923c47dfde371142f185151207cd3fc450112d0c7b",
+      "sha256": [
+        "f3f041ae34328328361eee923c47dfde371142f185151207cd3fc450112d0c7b"
+      ],
       "text": "Simple, but effective.",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_green_help_02.mp3",
   "revisions": [
     {
-      "sha256": "02416c5ed77a9317b2b2f6a2226282c9b3eee37ab59257169f81a11276c1cae6",
+      "sha256": [
+        "02416c5ed77a9317b2b2f6a2226282c9b3eee37ab59257169f81a11276c1cae6",
+        "54d1d2c5407845e5ead2f87fb6af0198272bd786c1eabea5df389ace2124ab4a"
+      ],
       "text": "Grenich needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "54d1d2c5407845e5ead2f87fb6af0198272bd786c1eabea5df389ace2124ab4a",
-      "text": "Grenich needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "941bf5719a8a626bfebc35278d8d54f95558718846aeb88f80bb786d369a5e2f",
+      "sha256": [
+        "941bf5719a8a626bfebc35278d8d54f95558718846aeb88f80bb786d369a5e2f"
+      ],
       "text": "Greenwich needs help!",
       "source": "official"
     }

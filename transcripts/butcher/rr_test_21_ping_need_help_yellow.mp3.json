@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_need_help_yellow.mp3",
   "revisions": [
     {
-      "sha256": "9e6b78b0146afc297a8e2c168e2b2a90600ee29f77b96416e5e5f5045aa6b0eb",
+      "sha256": [
+        "9e6b78b0146afc297a8e2c168e2b2a90600ee29f77b96416e5e5f5045aa6b0eb"
+      ],
       "text": "We help on yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "44bae6034ea023f4f1604717a0a512ade5a904767d069db181e796143249fc3c",
+      "sha256": [
+        "44bae6034ea023f4f1604717a0a512ade5a904767d069db181e796143249fc3c"
+      ],
       "text": "Get help on yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5399c81583457fa73fef3ec34d82ff0bcc38534cedf7a9f5b673894d311247ea",
+      "sha256": [
+        "5399c81583457fa73fef3ec34d82ff0bcc38534cedf7a9f5b673894d311247ea"
+      ],
       "text": "We have fun yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

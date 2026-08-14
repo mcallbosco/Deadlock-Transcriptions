@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_defend_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "44fe4d35efda1d8ae5ee0041e343f0f482738382e5239782907d4b63c806697e",
+      "sha256": [
+        "44fe4d35efda1d8ae5ee0041e343f0f482738382e5239782907d4b63c806697e",
+        "5842c173cb7f934ec8569e9191fd74b42275fa842c0fa8dcde25f4ec4e574c40"
+      ],
       "text": "Defend yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5842c173cb7f934ec8569e9191fd74b42275fa842c0fa8dcde25f4ec4e574c40",
-      "text": "Defend yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

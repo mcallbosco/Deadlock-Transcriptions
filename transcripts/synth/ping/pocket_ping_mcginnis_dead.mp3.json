@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_mcginnis_dead.mp3",
   "revisions": [
     {
-      "sha256": "d896c21369a563c110f848dd88cbc8d36c1b18a538caca70fe7469c31c1f4b78",
-      "text": "McGinnis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f5176731c1ba9ca0d2d140018b24378da783106f1e44419effa948cefd51f21",
+      "sha256": [
+        "7f5176731c1ba9ca0d2d140018b24378da783106f1e44419effa948cefd51f21",
+        "d896c21369a563c110f848dd88cbc8d36c1b18a538caca70fe7469c31c1f4b78"
+      ],
       "text": "McGinnis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

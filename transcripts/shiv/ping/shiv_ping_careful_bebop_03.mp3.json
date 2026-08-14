@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_careful_bebop_03.mp3",
   "revisions": [
     {
-      "sha256": "66a05c948c751a06bf172241211acf15cbe790c90ff4b174b01eb65d5fdbed8c",
+      "sha256": [
+        "66a05c948c751a06bf172241211acf15cbe790c90ff4b174b01eb65d5fdbed8c",
+        "941bd7090133ab9c9fd764d8fd3da7819120c5fbdf31953073740b3f79d2bc0d"
+      ],
       "text": "Have a give-up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "941bd7090133ab9c9fd764d8fd3da7819120c5fbdf31953073740b3f79d2bc0d",
-      "text": "Have a give-up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ce07dbbb13b39b238e10eb225741bb0e2c948a9fbf6c4c24fb7cad1e85c19c5",
+      "sha256": [
+        "1ce07dbbb13b39b238e10eb225741bb0e2c948a9fbf6c4c24fb7cad1e85c19c5"
+      ],
       "text": "Careful, Bebop!",
       "source": "official"
     }

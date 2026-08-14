@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "35e98205d87eba0c2795708fb03b708f89e28a29e8938b703d16b5a002a76ce0",
+      "sha256": [
+        "35e98205d87eba0c2795708fb03b708f89e28a29e8938b703d16b5a002a76ce0"
+      ],
       "text": "This is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

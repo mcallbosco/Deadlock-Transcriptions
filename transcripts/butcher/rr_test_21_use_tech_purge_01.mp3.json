@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_tech_purge_01.mp3",
   "revisions": [
     {
-      "sha256": "d41f8cef3ef17a3efe43e066182fca5ae990ebddc6f83a2d1ab295561df9e635",
+      "sha256": [
+        "d41f8cef3ef17a3efe43e066182fca5ae990ebddc6f83a2d1ab295561df9e635"
+      ],
       "text": "Stick it off!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3f2b70a7ae28401acdc0c908bc5c0a8dde49038b3332144a13cb7e8939bcbd0",
-      "text": "Shake it off!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca289b7fcd72d4f8a8defb13dde5988fcb20af14f24e4eb338d485f81acd562e",
+      "sha256": [
+        "c3f2b70a7ae28401acdc0c908bc5c0a8dde49038b3332144a13cb7e8939bcbd0",
+        "ca289b7fcd72d4f8a8defb13dde5988fcb20af14f24e4eb338d485f81acd562e"
+      ],
       "text": "Shake it off!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_use_echo_shard_02.mp3",
   "revisions": [
     {
-      "sha256": "41f14822364c513d67a426bea6f2344349edb18c031c68a1c055a2db06529b50",
-      "text": "I keep going.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4450f6f0832fd5a44d857c54a41b1993c8c0d889502e635861fd50d24b7231f",
+      "sha256": [
+        "41f14822364c513d67a426bea6f2344349edb18c031c68a1c055a2db06529b50",
+        "5fb5459d90a15e17bb0009fadb814533ce2950c9cd18bab7eb574f77cefa804b",
+        "e4450f6f0832fd5a44d857c54a41b1993c8c0d889502e635861fd50d24b7231f"
+      ],
       "text": "I keep going!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5fb5459d90a15e17bb0009fadb814533ce2950c9cd18bab7eb574f77cefa804b",
-      "text": "I keep going!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6570b82c37bb6940831bf91ef58712ca0074d08bf55b2fce2b82db3685c36876",
+      "sha256": [
+        "6570b82c37bb6940831bf91ef58712ca0074d08bf55b2fce2b82db3685c36876"
+      ],
       "text": "I can keep goin!",
       "source": "official"
     }

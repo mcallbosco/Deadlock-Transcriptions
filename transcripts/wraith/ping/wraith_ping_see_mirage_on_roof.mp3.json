@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_mirage_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "f89d065df7e02f314968c75acba61103d08ae4e3f2200f35b16f011fdda5c934",
+      "sha256": [
+        "f89d065df7e02f314968c75acba61103d08ae4e3f2200f35b16f011fdda5c934"
+      ],
       "text": "Mirage is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ffd4121c917d280d2c92ab08ce3dc769bcf42169afff304c8f62c51e012c76a",
+      "sha256": [
+        "0ffd4121c917d280d2c92ab08ce3dc769bcf42169afff304c8f62c51e012c76a",
+        "9b8305ac2645182f9d4ab4b8f73f42dfb8ad149887dc5b5b0f9d06fe2d8d42dc"
+      ],
       "text": "Mirage on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9b8305ac2645182f9d4ab4b8f73f42dfb8ad149887dc5b5b0f9d06fe2d8d42dc",
-      "text": "Mirage on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48d6893cc752e21a1f0b860ec92a195e4bbe4d97dda8fff5bb51198494d568f0",
+      "sha256": [
+        "48d6893cc752e21a1f0b860ec92a195e4bbe4d97dda8fff5bb51198494d568f0"
+      ],
       "text": "Mirage's on the roof!",
       "source": "official"
     }

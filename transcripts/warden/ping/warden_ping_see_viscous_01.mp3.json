@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "c7de62a837953eb605292c5cb6abcf315028eedc7b1eb73dce9dcd2bd303dc9b",
-      "text": "I see Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1496d77997f0662103540ac241e47e4de1ed9098d756429a892b85b837d6308",
-      "text": "I see Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de5b5e6aea2f22f313e8e7f70b8c287dc04109035f177c775fe16f25d7d29ce0",
-      "text": "I see Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56629c44f8a4f8a7e7c734a3d500d50f424dc8a84d19b9601a76d867890241fd",
+      "sha256": [
+        "56629c44f8a4f8a7e7c734a3d500d50f424dc8a84d19b9601a76d867890241fd",
+        "c7de62a837953eb605292c5cb6abcf315028eedc7b1eb73dce9dcd2bd303dc9b",
+        "d1496d77997f0662103540ac241e47e4de1ed9098d756429a892b85b837d6308",
+        "de5b5e6aea2f22f313e8e7f70b8c287dc04109035f177c775fe16f25d7d29ce0"
+      ],
       "text": "I see Viscous",
       "source": "official"
     }

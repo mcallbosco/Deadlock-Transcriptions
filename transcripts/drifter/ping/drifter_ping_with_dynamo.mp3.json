@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "e12dd2d3766a25c5c719c4f27007e59aa06bc2247e8fb1e913b1564c56c8b4c8",
+      "sha256": [
+        "e12dd2d3766a25c5c719c4f27007e59aa06bc2247e8fb1e913b1564c56c8b4c8"
+      ],
       "text": "How are you, Dynamo?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

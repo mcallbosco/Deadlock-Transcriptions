@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_inferno_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f27ac44b65b70a0cb2c675ca6bbe8ccf45644d96876c84d720bad1ad4974e2aa",
+      "sha256": [
+        "f27ac44b65b70a0cb2c675ca6bbe8ccf45644d96876c84d720bad1ad4974e2aa"
+      ],
       "text": "Infernus is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9a34b4a5854705291f3d4a3c24def518e3df3358a87095ecde944be58a3c12ca",
+      "sha256": [
+        "9a34b4a5854705291f3d4a3c24def518e3df3358a87095ecde944be58a3c12ca"
+      ],
       "text": "Infernus was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

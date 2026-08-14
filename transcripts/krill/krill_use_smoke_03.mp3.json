@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_smoke_03.mp3",
   "revisions": [
     {
-      "sha256": "a848ec51093703fbc47b70bd3eeefe65b2c6cf5510a066b30bef679800c2ee64",
-      "text": "We must be clever.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b39ff6dd8eb52d8377cf5bc4c281b0ab814e75acf1dd5f5f12f1bbfa9da80ac7",
-      "text": "We must be clever.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f19b0928c0ca2a0e2d2f522260dac407da88928b7de75c939275ac3dbaeac45",
+      "sha256": [
+        "6f19b0928c0ca2a0e2d2f522260dac407da88928b7de75c939275ac3dbaeac45",
+        "a848ec51093703fbc47b70bd3eeefe65b2c6cf5510a066b30bef679800c2ee64",
+        "b39ff6dd8eb52d8377cf5bc4c281b0ab814e75acf1dd5f5f12f1bbfa9da80ac7"
+      ],
       "text": "We must be clever.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
