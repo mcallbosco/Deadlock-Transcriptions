@@ -10,6 +10,17 @@ source authority (`official`, then `manual`, then `generated`).
 Edit a revision's `text`, set `source` to `manual`, remove `model`, preview locally,
 then commit. Split a hash into a separate revision when one recording needs different text.
 
+To audit the remaining revision groups for near-matching text without modifying any
+transcripts, run:
+
+```powershell
+python tools/audit_fuzzy_transcript_matches.py
+```
+
+The audit compares groups only within the same transcript file and writes complete
+JSON plus a compact Markdown review report under `migration-reports/`. Confidence
+levels are advisory; even high-confidence candidates require human review.
+
 ## Legacy contribution audit
 
 Stage 1 of the legacy migration is an audit only. It reads the legacy and v3 layouts
