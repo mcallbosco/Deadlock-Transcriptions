@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "446366f5a94effbbc82579cd9be68bdbb233792da38556960b701ccf0467888a",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f896e9d7f49517d3c001d0ab106bf3599e30a0d51445790a446b9ead6e167539",
+      "sha256": [
+        "446366f5a94effbbc82579cd9be68bdbb233792da38556960b701ccf0467888a",
+        "f896e9d7f49517d3c001d0ab106bf3599e30a0d51445790a446b9ead6e167539"
+      ],
       "text": "I see Yamato",
       "source": "official"
     }

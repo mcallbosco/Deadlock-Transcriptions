@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_infernus_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "f7ebd203aa9f3714ef9cee3522ade20ea89ebdf2d11d6ea6c57e90611111c17b",
-      "text": "Infernus is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "057c94bffb2436e53319db1653755c054e9ba331e522eafc23f84643dd53ce9d",
+      "sha256": [
+        "057c94bffb2436e53319db1653755c054e9ba331e522eafc23f84643dd53ce9d",
+        "f7ebd203aa9f3714ef9cee3522ade20ea89ebdf2d11d6ea6c57e90611111c17b"
+      ],
       "text": "Infernus is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

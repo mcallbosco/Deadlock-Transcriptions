@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_doorman_01.mp3",
   "revisions": [
     {
-      "sha256": "74abf865cbe69646ace1cd56aacaa7b0bd87f2905d46b90accf55cbaa15b2ea0",
-      "text": "Careful, Doorman.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ffd7b53f9e21a4c9282f581b32c2759a2dedc80c94d8e1371c58275f5c68d501",
+      "sha256": [
+        "74abf865cbe69646ace1cd56aacaa7b0bd87f2905d46b90accf55cbaa15b2ea0",
+        "ffd7b53f9e21a4c9282f581b32c2759a2dedc80c94d8e1371c58275f5c68d501"
+      ],
       "text": "Careful, Doorman.",
       "source": "manual"
     }

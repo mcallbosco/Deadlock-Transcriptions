@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "91ff98034b4f7c5d326d5d619c1e0f314ddcb6a9e08b0e7478c5b5bf1c4c5519",
+      "sha256": [
+        "91ff98034b4f7c5d326d5d619c1e0f314ddcb6a9e08b0e7478c5b5bf1c4c5519"
+      ],
       "text": "Marv is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6327b46cd7d195caf672ff4693c17fbffb6e2c302867020cfb13f3ba48bf2c0e",
+      "sha256": [
+        "6327b46cd7d195caf672ff4693c17fbffb6e2c302867020cfb13f3ba48bf2c0e"
+      ],
       "text": "The virus is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

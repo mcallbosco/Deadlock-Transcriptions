@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_mirage_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c5a64a9a0c3b642b21346730d9cb66fe168cdcb3605a1233d1f1673d77f7117a",
+      "sha256": [
+        "c5a64a9a0c3b642b21346730d9cb66fe168cdcb3605a1233d1f1673d77f7117a"
+      ],
       "text": "Crash is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c46198aabe0f45709a563220c7815c3a075eec56c5f23a66cce9fc162d44821a",
+      "sha256": [
+        "c46198aabe0f45709a563220c7815c3a075eec56c5f23a66cce9fc162d44821a"
+      ],
       "text": "Rush is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "78a8be4506b02e237f7a9afabb087a8d61732ced083883f5d919f196d63e6eda",
+      "sha256": [
+        "5871c27d7bd27062d3577f6545d032f5903c21aeb404ed350185a8c7f1c270db",
+        "78a8be4506b02e237f7a9afabb087a8d61732ced083883f5d919f196d63e6eda"
+      ],
       "text": "Mirage is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5871c27d7bd27062d3577f6545d032f5903c21aeb404ed350185a8c7f1c270db",
-      "text": "Mirage is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bdaac0cecc9a7f84390612484ee362b87802b52cf8d8ac8555f086277a00d838",
+      "sha256": [
+        "bdaac0cecc9a7f84390612484ee362b87802b52cf8d8ac8555f086277a00d838"
+      ],
       "text": "Mirage's on the bridge!",
       "source": "official"
     }

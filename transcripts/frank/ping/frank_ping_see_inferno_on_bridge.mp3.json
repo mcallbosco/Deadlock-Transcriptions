@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_inferno_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "868679d0ef28b36fd8817591e64cd183958d19dffa8fe8c0a941a2d80923d414",
+      "sha256": [
+        "868679d0ef28b36fd8817591e64cd183958d19dffa8fe8c0a941a2d80923d414"
+      ],
       "text": "The furnace is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bdc9ff531b5f897066859a3ff2e240a2075c2f59d635ab7a90ef6eb9f98aa4ec",
+      "sha256": [
+        "bdc9ff531b5f897066859a3ff2e240a2075c2f59d635ab7a90ef6eb9f98aa4ec"
+      ],
       "text": "Infernus's on the bridge!",
       "source": "official"
     }

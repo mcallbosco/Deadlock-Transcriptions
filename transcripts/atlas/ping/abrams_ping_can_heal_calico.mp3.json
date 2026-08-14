@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_calico.mp3",
   "revisions": [
     {
-      "sha256": "853ef236f51106c6dda638615a285bdc65d82c2a34ee875f882cbe4fd74f64a1",
-      "text": "Calico, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a1ecc1416ccf523197aa7b2ae8c4e10f319e3530a4a4978a35e7540cab1c432",
-      "text": "Calico, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25ffc871207e5ad263664440eff5e7c14a18674baaa9d0145bf920a8be64e047",
+      "sha256": [
+        "25ffc871207e5ad263664440eff5e7c14a18674baaa9d0145bf920a8be64e047",
+        "2a1ecc1416ccf523197aa7b2ae8c4e10f319e3530a4a4978a35e7540cab1c432",
+        "853ef236f51106c6dda638615a285bdc65d82c2a34ee875f882cbe4fd74f64a1"
+      ],
       "text": "Calico, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

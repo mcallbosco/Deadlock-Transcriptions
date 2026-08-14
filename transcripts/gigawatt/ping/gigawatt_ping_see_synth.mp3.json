@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_synth.mp3",
   "revisions": [
     {
-      "sha256": "dd70cd254fe5549cb9c3fddf316d67d04e595a4dcddf6e1fcfc6318640c907bd",
-      "text": "I see pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "307789bcb48ee5dc32c4ec73c1b395a98f709d92f8be039220e0b1568b268131",
+      "sha256": [
+        "307789bcb48ee5dc32c4ec73c1b395a98f709d92f8be039220e0b1568b268131",
+        "dd70cd254fe5549cb9c3fddf316d67d04e595a4dcddf6e1fcfc6318640c907bd"
+      ],
       "text": "I see Pocket!",
       "source": "manual"
     }

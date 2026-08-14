@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "f47552c4300534dd05c1d67bdea05305106936179229ac5bee83e2a65caf6977",
+      "sha256": [
+        "5adbbf17497d7def6fc32df006847bbf069dc6c1d019cdf11d524e5eb51365d0",
+        "f47552c4300534dd05c1d67bdea05305106936179229ac5bee83e2a65caf6977"
+      ],
       "text": "Let's go, Orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5adbbf17497d7def6fc32df006847bbf069dc6c1d019cdf11d524e5eb51365d0",
-      "text": "Let's go orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

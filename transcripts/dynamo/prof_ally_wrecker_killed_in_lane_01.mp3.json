@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_ally_wrecker_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "4777604207d8c86677854a934d12d4e0c07ae382492af2667ae38c04a9fdd131",
-      "text": "Could you get Wrecker?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0fecaa3bd2f01f75d18c0f28e0ebafecc1f78754a699c69a4075624716fd2c12",
+      "sha256": [
+        "0fecaa3bd2f01f75d18c0f28e0ebafecc1f78754a699c69a4075624716fd2c12",
+        "4777604207d8c86677854a934d12d4e0c07ae382492af2667ae38c04a9fdd131"
+      ],
       "text": "Could you get Wrecker?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

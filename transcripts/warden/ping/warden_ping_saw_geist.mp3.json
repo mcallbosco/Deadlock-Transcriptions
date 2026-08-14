@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_geist.mp3",
   "revisions": [
     {
-      "sha256": "b8b24107f6f7c2916ce698e2bbf91837a98e009a36d3dd80805a1aa2e5cff3ac",
+      "sha256": [
+        "2c9527024f739bb49e6daaa18ff7051dbae2d6ac5ec7cbdc43625c465b76d5af",
+        "6e0a3e91c86b0073f72764d8b254322dee9a72b057b42822cb36b0a0cb81f8fb",
+        "b8b24107f6f7c2916ce698e2bbf91837a98e009a36d3dd80805a1aa2e5cff3ac"
+      ],
       "text": "I saw Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c9527024f739bb49e6daaa18ff7051dbae2d6ac5ec7cbdc43625c465b76d5af",
-      "text": "I saw Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e0a3e91c86b0073f72764d8b254322dee9a72b057b42822cb36b0a0cb81f8fb",
-      "text": "I saw Geist!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

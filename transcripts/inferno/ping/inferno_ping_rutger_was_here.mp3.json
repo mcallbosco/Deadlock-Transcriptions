@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_rutger_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8ff168701cdd2701b091ff207c5fd784f6b3ac330983a577df8ce446f6d7eeac",
-      "text": "Rucker was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca3bef7d1f6ecd7f22e53a40afe31108a5d315427c04f346013f584546fc5e0c",
+      "sha256": [
+        "8ff168701cdd2701b091ff207c5fd784f6b3ac330983a577df8ce446f6d7eeac",
+        "ca3bef7d1f6ecd7f22e53a40afe31108a5d315427c04f346013f584546fc5e0c"
+      ],
       "text": "Rucker was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

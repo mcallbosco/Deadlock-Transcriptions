@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_slork_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "47979fa170f69c461e6616c72986fb84d18e857600f12db163f8bfbf3021a77c",
-      "text": "fathoms missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ffeeacb9535e3fb227eb07d3a92e14dfbe435b96eb478572ea993130ea5caf37",
+      "sha256": [
+        "47979fa170f69c461e6616c72986fb84d18e857600f12db163f8bfbf3021a77c",
+        "ffeeacb9535e3fb227eb07d3a92e14dfbe435b96eb478572ea993130ea5caf37"
+      ],
       "text": "Fathom's missing.",
       "source": "official"
     }

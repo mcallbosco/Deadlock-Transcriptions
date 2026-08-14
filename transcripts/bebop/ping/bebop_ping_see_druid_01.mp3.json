@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_druid_01.mp3",
   "revisions": [
     {
-      "sha256": "be1b6e51930ef75df47f525ccc22b1bb023d85150e824c700d7314932ec9fd79",
+      "sha256": [
+        "be1b6e51930ef75df47f525ccc22b1bb023d85150e824c700d7314932ec9fd79"
+      ],
       "text": "I'll see the droid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

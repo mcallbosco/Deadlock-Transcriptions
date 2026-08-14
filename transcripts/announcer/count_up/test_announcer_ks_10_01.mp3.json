@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/test_announcer_ks_10_01.mp3",
   "revisions": [
     {
-      "sha256": "aa758215a5252745dca6c1ff6a86f02981ef617173e3f416116e27ddc122c586",
+      "sha256": [
+        "aa758215a5252745dca6c1ff6a86f02981ef617173e3f416116e27ddc122c586"
+      ],
       "text": "Chat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "012805b9914cde37fed972b5d5b5534584cc516d197b7bf4afc86803a9870e3e",
+      "sha256": [
+        "012805b9914cde37fed972b5d5b5534584cc516d197b7bf4afc86803a9870e3e",
+        "807fc81f13d0367b46480107a147f5521159bc1e9e8bacbbc5a091e61af8e19f"
+      ],
       "text": "ChatGPT.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "807fc81f13d0367b46480107a147f5521159bc1e9e8bacbbc5a091e61af8e19f",
-      "text": "ChatGPT",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

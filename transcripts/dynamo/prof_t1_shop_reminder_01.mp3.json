@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_t1_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "2391f2b877914cfbb2f2fc2afd96bae4ff357075dd9a9898dd63aaa6ba2cf300",
+      "sha256": [
+        "2391f2b877914cfbb2f2fc2afd96bae4ff357075dd9a9898dd63aaa6ba2cf300",
+        "c8551b0eec5f7fb3f4b45ab8644c968fce4488eab1954623d9e5dda09d1314e4"
+      ],
       "text": "Google Shopping.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c8551b0eec5f7fb3f4b45ab8644c968fce4488eab1954623d9e5dda09d1314e4",
-      "text": "Google shopping",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

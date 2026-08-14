@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_use_power4_02.mp3",
   "revisions": [
     {
-      "sha256": "de60c091dd2395464affa1f504c8631943ac391e9ef4c18a087d58f29546cb0e",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3d7ffad46bb6456d2567e5bd02c94ba1fbf0aa47dfc4e86d55187dd66e9d5c2",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "359880e3de35aa2c3ab238696d13c30b85339c1f0862ce2de8252d4c55bf0490",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bb54de0e948cd36fd42d5261f62e6ad3f11423046eaf02ae718c5684bda4794b",
+      "sha256": [
+        "359880e3de35aa2c3ab238696d13c30b85339c1f0862ce2de8252d4c55bf0490",
+        "bb54de0e948cd36fd42d5261f62e6ad3f11423046eaf02ae718c5684bda4794b",
+        "d3d7ffad46bb6456d2567e5bd02c94ba1fbf0aa47dfc4e86d55187dd66e9d5c2",
+        "de60c091dd2395464affa1f504c8631943ac391e9ef4c18a087d58f29546cb0e"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

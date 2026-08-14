@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_jar_call_01.mp3",
   "revisions": [
     {
-      "sha256": "fdc37825cc6067518a2850ab50ffb87522fb7329ab665353b583d8840a3f6fcc",
-      "text": "Spiritjar is here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1c7362a709693e5f24faeea44ad774ee00f87bc11894553e4de7a622ec1fe00",
+      "sha256": [
+        "d1c7362a709693e5f24faeea44ad774ee00f87bc11894553e4de7a622ec1fe00",
+        "fdc37825cc6067518a2850ab50ffb87522fb7329ab665353b583d8840a3f6fcc"
+      ],
       "text": "Spirit Jar is here!",
       "source": "official"
     }

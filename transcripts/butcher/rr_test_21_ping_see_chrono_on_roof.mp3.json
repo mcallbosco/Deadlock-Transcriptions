@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_chrono_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "23d7ade5a9436279f83744f039c7de7514fd917913b5119662edbff14a33a08a",
+      "sha256": [
+        "088317185e977d02399af186d0150a41d5f4dfb3d9a9795b16e2d338576f568f",
+        "23d7ade5a9436279f83744f039c7de7514fd917913b5119662edbff14a33a08a"
+      ],
       "text": "Chronos on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "088317185e977d02399af186d0150a41d5f4dfb3d9a9795b16e2d338576f568f",
-      "text": "Chronos on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "298c4aaae3fdc089b317e637bbd7b86abdea7346f4c59b7b777f930a5417f07c",
+      "sha256": [
+        "298c4aaae3fdc089b317e637bbd7b86abdea7346f4c59b7b777f930a5417f07c"
+      ],
       "text": "Kronos on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

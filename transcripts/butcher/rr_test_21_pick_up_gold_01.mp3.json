@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_pick_up_gold_01.mp3",
   "revisions": [
     {
-      "sha256": "731f949345e7e40106420fde25ec85d46417f7ba02b81cfd5096de41bcf684af",
-      "text": "You leave the money lying around, that's your own damn fault.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9e3f4092d5f21ccc62653a2d9194a23c03b366d61cc9515416e7c9dc6dba235",
-      "text": "You leave the money lying around, that's your own damn fault.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "42de610c914d072eff90953df9cbdfdb69a2476decb7ce312e7043ec7dd8b3b0",
+      "sha256": [
+        "42de610c914d072eff90953df9cbdfdb69a2476decb7ce312e7043ec7dd8b3b0",
+        "731f949345e7e40106420fde25ec85d46417f7ba02b81cfd5096de41bcf684af",
+        "a9e3f4092d5f21ccc62653a2d9194a23c03b366d61cc9515416e7c9dc6dba235"
+      ],
       "text": "You leave the money lying around, that's your own damn fault.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

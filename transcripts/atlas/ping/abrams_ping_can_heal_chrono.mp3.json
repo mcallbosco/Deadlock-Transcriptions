@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_chrono.mp3",
   "revisions": [
     {
-      "sha256": "5aa0be22c35c32f61402db6c2e10795cf7242ff634991801ec65ca2ba571887a",
-      "text": "Paradox, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ab465062aaf5d19dbe3fc5f03bd36d871e31755694d8ff3d8e0544ad732251e",
-      "text": "Paradox, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37d1f006e6e913ab28ca7a9140e84b79e3372f0c425796e420baf06ad7bd7894",
+      "sha256": [
+        "37d1f006e6e913ab28ca7a9140e84b79e3372f0c425796e420baf06ad7bd7894",
+        "4ab465062aaf5d19dbe3fc5f03bd36d871e31755694d8ff3d8e0544ad732251e",
+        "5aa0be22c35c32f61402db6c2e10795cf7242ff634991801ec65ca2ba571887a"
+      ],
       "text": "Paradox, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

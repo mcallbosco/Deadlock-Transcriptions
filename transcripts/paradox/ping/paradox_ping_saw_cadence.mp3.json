@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_saw_cadence.mp3",
   "revisions": [
     {
-      "sha256": "4625c280eb5decd9a2d203353a49a7ae14b8423bcfd4a06dd44bdecdc9519a6d",
+      "sha256": [
+        "4625c280eb5decd9a2d203353a49a7ae14b8423bcfd4a06dd44bdecdc9519a6d",
+        "8afc74bdbb0110cb3a9994a4cd1fc94dd85b6037ba5fffa3562f562039710ece"
+      ],
       "text": "I saw cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8afc74bdbb0110cb3a9994a4cd1fc94dd85b6037ba5fffa3562f562039710ece",
-      "text": "I saw cadence!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

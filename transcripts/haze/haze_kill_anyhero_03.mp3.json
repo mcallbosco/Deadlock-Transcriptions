@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_kill_anyhero_03.mp3",
   "revisions": [
     {
-      "sha256": "f637af28c977ccf84cfc96a3f3df65bc0281fc7c814f25efd02b740881b14dd7",
+      "sha256": [
+        "0387b88e28c560615a7dcbaf830c81ae4158d0bbe70c197019f229887ca52973",
+        "cc2f3e64d10f2e4c54bcf579fc0c487d31e0fe5eb1015367cd819529947cea4f",
+        "d6470feee8ad4637fe398ccd23538f2d7b5d79c72eba4d1f8d5177f2f0309929",
+        "f637af28c977ccf84cfc96a3f3df65bc0281fc7c814f25efd02b740881b14dd7"
+      ],
       "text": "Dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "39f3db1c7add176815168b47dfec74115331c082522940e59251a3d2a837a5a5",
+      "sha256": [
+        "39f3db1c7add176815168b47dfec74115331c082522940e59251a3d2a837a5a5"
+      ],
       "text": "Chat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc2f3e64d10f2e4c54bcf579fc0c487d31e0fe5eb1015367cd819529947cea4f",
-      "text": "Dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0387b88e28c560615a7dcbaf830c81ae4158d0bbe70c197019f229887ca52973",
-      "text": "Dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d6470feee8ad4637fe398ccd23538f2d7b5d79c72eba4d1f8d5177f2f0309929",
-      "text": "Dead.",
-      "source": "official"
     }
   ]
 }

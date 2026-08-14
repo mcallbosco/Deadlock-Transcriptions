@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0025fb869a80a71984eb32aaba24ff9e19a3e356ffb70ff97641781d7039f53e",
-      "text": "Grey Talon's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c7ee7dc2231bfec1c0be2c28666b987a390b77c385472c1bdc47247e7ba3b04",
-      "text": "Great talent's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c207edbb49a4ca3438e0803b6106ba0320bc762c71442513c9d1fbcedd22f76b",
-      "text": "Great talent's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3f80166b3d41b4ce36e644d6a34d0908b967d59e9c2957b8bff5f075613a592",
+      "sha256": [
+        "0025fb869a80a71984eb32aaba24ff9e19a3e356ffb70ff97641781d7039f53e",
+        "e3f80166b3d41b4ce36e644d6a34d0908b967d59e9c2957b8bff5f075613a592"
+      ],
       "text": "Grey Talon's missing",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "6c7ee7dc2231bfec1c0be2c28666b987a390b77c385472c1bdc47247e7ba3b04",
+        "c207edbb49a4ca3438e0803b6106ba0320bc762c71442513c9d1fbcedd22f76b"
+      ],
+      "text": "Great talent's missing.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

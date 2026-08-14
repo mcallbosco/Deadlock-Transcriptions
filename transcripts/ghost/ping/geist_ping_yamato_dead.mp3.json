@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "1d0ef038cd39edb324f4bfad8b7069381f5e89ad1c4427e9d9df5a43dc7f89e6",
+      "sha256": [
+        "1d0ef038cd39edb324f4bfad8b7069381f5e89ad1c4427e9d9df5a43dc7f89e6"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "26c49a32eb4c6db51e41ed13645793e80b345a0c6d8457009acc859d482fc764",
+      "sha256": [
+        "26c49a32eb4c6db51e41ed13645793e80b345a0c6d8457009acc859d482fc764"
+      ],
       "text": "Yamajoy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

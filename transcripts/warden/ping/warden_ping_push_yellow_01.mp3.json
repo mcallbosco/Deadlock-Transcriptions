@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "e6371de060a7a46760f91400b911736b4be6703cbf68b5eb6b7e44aa5eb6dac0",
-      "text": "Let's push yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1ec56e74b5e6c08c3ae75e90f4247d7bba754614821cc6bbe619610a299b3c8",
-      "text": "Let's push yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2319573c5ae435667b259a57a54e0a2bda83ac075fdddcbd98498dafb2c91038",
-      "text": "Let's push yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "83ebfaeebb1232dab1170d81ad5bbbc5e11baf8ce6a03fa7338df3624ec896cd",
+      "sha256": [
+        "2319573c5ae435667b259a57a54e0a2bda83ac075fdddcbd98498dafb2c91038",
+        "83ebfaeebb1232dab1170d81ad5bbbc5e11baf8ce6a03fa7338df3624ec896cd",
+        "c1ec56e74b5e6c08c3ae75e90f4247d7bba754614821cc6bbe619610a299b3c8",
+        "e6371de060a7a46760f91400b911736b4be6703cbf68b5eb6b7e44aa5eb6dac0"
+      ],
       "text": "Let's push Yellow",
       "source": "official"
     }

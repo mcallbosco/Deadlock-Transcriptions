@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_use_phantom_strike_01.mp3",
   "revisions": [
     {
-      "sha256": "ce65a53f240c758b1ea27e67ac30496280019493e49223d10cfba37b8b8edb7d",
-      "text": "Phantom strike!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "82cb09ee2b331f850254f57a49a6a12f5d1e6fe8637455880c8712dd026f1d57",
+        "ce65a53f240c758b1ea27e67ac30496280019493e49223d10cfba37b8b8edb7d"
+      ],
+      "text": "Phantom Strike!",
+      "source": "official"
     },
     {
-      "sha256": "c5b71740b7c744f136d563a6a927a9f61978c54e183f00de4d63a68c1f7f0657",
+      "sha256": [
+        "1cae90a58708a3adef806aeb29ac8c326d97b7e7fc7d3d355f6b825fcb313891",
+        "c5b71740b7c744f136d563a6a927a9f61978c54e183f00de4d63a68c1f7f0657"
+      ],
       "text": "Threat of Strike!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cae90a58708a3adef806aeb29ac8c326d97b7e7fc7d3d355f6b825fcb313891",
-      "text": "Threat of strike!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82cb09ee2b331f850254f57a49a6a12f5d1e6fe8637455880c8712dd026f1d57",
-      "text": "Phantom Strike!",
-      "source": "official"
     }
   ]
 }

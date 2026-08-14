@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "c297c122a036ec59966aaece285aec52f1a12af3750db7aad8540d722fcd038b",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62a3248777f4c254c056ed93cbe74cbeea0ad714a18ceccf02763beb84e1032c",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab6e50aa8b837414888715404fc21d1f1c6bd023e748b822a6438a8746870a96",
+      "sha256": [
+        "62a3248777f4c254c056ed93cbe74cbeea0ad714a18ceccf02763beb84e1032c",
+        "ab6e50aa8b837414888715404fc21d1f1c6bd023e748b822a6438a8746870a96",
+        "c297c122a036ec59966aaece285aec52f1a12af3750db7aad8540d722fcd038b"
+      ],
       "text": "Careful, Haze…",
       "source": "official"
     }

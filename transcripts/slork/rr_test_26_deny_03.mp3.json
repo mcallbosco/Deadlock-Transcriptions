@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_deny_03.mp3",
   "revisions": [
     {
-      "sha256": "e4e531c2db786b8d6f0b98ef35fe98028047090e2f6d21151a39a58cb76d93ca",
+      "sha256": [
+        "e4e531c2db786b8d6f0b98ef35fe98028047090e2f6d21151a39a58cb76d93ca"
+      ],
       "text": "Can I get that money?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "85b2d7216159b22a98378c4229ef76228191553c77f9bb1efcba7807fcfdaa98",
+      "sha256": [
+        "85b2d7216159b22a98378c4229ef76228191553c77f9bb1efcba7807fcfdaa98"
+      ],
       "text": "Can I get my money?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

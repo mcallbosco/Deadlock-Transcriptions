@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_t2_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "79c34c3f0fa41f1a1e6d5a8639d607e149557a99c3ce04516ee8b314249142cb",
+      "sha256": [
+        "79c34c3f0fa41f1a1e6d5a8639d607e149557a99c3ce04516ee8b314249142cb"
+      ],
       "text": "I want to get a new item.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1783a859024d0cc4fa6c89d69bf7b44a81e3afa906c50fa685d09aab4cadb526",
+      "sha256": [
+        "1783a859024d0cc4fa6c89d69bf7b44a81e3afa906c50fa685d09aab4cadb526"
+      ],
       "text": "You might want to get a new item.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b3b6393222e4275146fe0fead6e5db1d4b5849cdfb9e8b3b26a80a3c8a917ddc",
+      "sha256": [
+        "b3b6393222e4275146fe0fead6e5db1d4b5849cdfb9e8b3b26a80a3c8a917ddc"
+      ],
       "text": "Tonight want to get a new item.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ae4a9b8bedd00b4ff98e6ab3dc9d99e5688a7061b6a1a6d1765731c1c0652491",
-      "text": "Might want to get a new item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "650c85a0355c455d43ea696d59800349717fda55750062e8e79721b9dec82685",
+      "sha256": [
+        "650c85a0355c455d43ea696d59800349717fda55750062e8e79721b9dec82685",
+        "ae4a9b8bedd00b4ff98e6ab3dc9d99e5688a7061b6a1a6d1765731c1c0652491"
+      ],
       "text": "Might want to get a new item….",
       "source": "official"
     }

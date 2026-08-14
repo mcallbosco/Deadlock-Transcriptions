@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "46b2b98d1cbf2674bb59a3b775d89969df2a050812afb4233b063553b6eaf77e",
-      "text": "Hey, he's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a36bbfba3e6df5f98fab77519eeba28d91212e9a99ece4e6a53840cca28302be",
-      "text": "Hey, he's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb1d834afb2e3e744a8aa75256c5167309c5ad0aea0f87f9c861ddce5bcd7e72",
+      "sha256": [
+        "46b2b98d1cbf2674bb59a3b775d89969df2a050812afb4233b063553b6eaf77e",
+        "a36bbfba3e6df5f98fab77519eeba28d91212e9a99ece4e6a53840cca28302be",
+        "cb1d834afb2e3e744a8aa75256c5167309c5ad0aea0f87f9c861ddce5bcd7e72"
+      ],
       "text": "Hey, he's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

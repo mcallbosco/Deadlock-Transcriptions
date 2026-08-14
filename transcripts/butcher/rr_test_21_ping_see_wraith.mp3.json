@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_wraith.mp3",
   "revisions": [
     {
-      "sha256": "3f86eca597e3c44b3d7ec7c4e233331bcff6afb126952e3787f9c748d2be20f4",
-      "text": "I see Wraith!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8d899740da76e5c8de3f6e9cb06264957a4eccc370edb2818054d029518d19ad",
-      "text": "I see Wraith!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25cadcace9cd5d23fbf182e9b5548cce5a8606f5d422e47207dd8b818f083c4e",
+      "sha256": [
+        "25cadcace9cd5d23fbf182e9b5548cce5a8606f5d422e47207dd8b818f083c4e",
+        "3f86eca597e3c44b3d7ec7c4e233331bcff6afb126952e3787f9c748d2be20f4",
+        "8d899740da76e5c8de3f6e9cb06264957a4eccc370edb2818054d029518d19ad"
+      ],
       "text": "I see Wraith!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

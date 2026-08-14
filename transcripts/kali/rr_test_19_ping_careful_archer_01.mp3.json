@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_archer_01.mp3",
   "revisions": [
     {
-      "sha256": "a50fd9e73c8ebb003d1e1342ec8b8bf3124d290db26ae192a20a143844a71a8b",
-      "text": "Careful, Archer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d881f5ef2b5b079bde1ea24bd50c83dcf28cd45bfc74c506c23c3a274b1e78ed",
-      "text": "Careful, Archer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ebfdd5fd51d49f79e8616d556d4ff622773cf30bcd93203ee1a4d91fb0e99b5",
+      "sha256": [
+        "3ebfdd5fd51d49f79e8616d556d4ff622773cf30bcd93203ee1a4d91fb0e99b5",
+        "a50fd9e73c8ebb003d1e1342ec8b8bf3124d290db26ae192a20a143844a71a8b",
+        "d881f5ef2b5b079bde1ea24bd50c83dcf28cd45bfc74c506c23c3a274b1e78ed"
+      ],
       "text": "Careful, Archer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "c65a43ae751556dbf60c40ba530346e5f81fe6bf1c3bbcd337c02e2721e878eb",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "161fc40b0c56a9a6e2fc78c1b9344d4c0cca601d3dda6ae41c8b1bb1ced367d2",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80f32529123ad86f6167f562481700f480a4a9a9dd2169ace672651578b9b974",
+      "sha256": [
+        "161fc40b0c56a9a6e2fc78c1b9344d4c0cca601d3dda6ae41c8b1bb1ced367d2",
+        "80f32529123ad86f6167f562481700f480a4a9a9dd2169ace672651578b9b974",
+        "c65a43ae751556dbf60c40ba530346e5f81fe6bf1c3bbcd337c02e2721e878eb"
+      ],
       "text": "It's dangerous here",
       "source": "official"
     }

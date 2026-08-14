@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_with_cadence.mp3",
   "revisions": [
     {
-      "sha256": "c73a3d7ce3494416e2d2d0f77b8f2a55557d909db71071e688142bf2c2651c6c",
+      "sha256": [
+        "c73a3d7ce3494416e2d2d0f77b8f2a55557d909db71071e688142bf2c2651c6c"
+      ],
       "text": "I'm with you, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

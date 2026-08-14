@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_use_echo_shard_01.mp3",
   "revisions": [
     {
-      "sha256": "53be7f038b8fd634d734659f3510c94b984885147e6943853f99862610a3cc86",
-      "text": "Echo shard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac9bb507be78e86c7a53087aeeb039f728d93921d4094977c62c81dd5bac96d5",
-      "text": "Echo charge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90c17985020df726bbdd1561545c0ad06ed7cc9586f3da37bfc518202822775e",
-      "text": "Echo charge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c5ac53cc11e6cfa366161d6da9827873a613bb08137092497b949f086efc139",
+      "sha256": [
+        "53be7f038b8fd634d734659f3510c94b984885147e6943853f99862610a3cc86",
+        "9c5ac53cc11e6cfa366161d6da9827873a613bb08137092497b949f086efc139"
+      ],
       "text": "Echo shard!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "90c17985020df726bbdd1561545c0ad06ed7cc9586f3da37bfc518202822775e",
+        "ac9bb507be78e86c7a53087aeeb039f728d93921d4094977c62c81dd5bac96d5"
+      ],
+      "text": "Echo charge.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

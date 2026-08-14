@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_upgrade_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "a6c659294e3b5e03782c2b840c7be0ab5e979b36530e7b7b6c1773ad92a9fdb8",
+      "sha256": [
+        "a6c659294e3b5e03782c2b840c7be0ab5e979b36530e7b7b6c1773ad92a9fdb8"
+      ],
       "text": "This time we can get out, hello and thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

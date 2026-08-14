@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_viper_03.mp3",
   "revisions": [
     {
-      "sha256": "502f6ae3849605ead3d519ce1a94ecc42ff65e4e794eef62b62a619e27c2b0af",
+      "sha256": [
+        "502f6ae3849605ead3d519ce1a94ecc42ff65e4e794eef62b62a619e27c2b0af"
+      ],
       "text": "Careful, Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "690f2ae4d5956f2af22863a7d97b463308a9ecaf3fb4b215c2089db00d2141d9",
+      "sha256": [
+        "690f2ae4d5956f2af22863a7d97b463308a9ecaf3fb4b215c2089db00d2141d9"
+      ],
       "text": "Careful, Vyper!",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_haze_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "95a1ac80fb9ba146f45b48eb1531fba5c0acac572b528fa9f5b42b1bac537d8a",
+      "sha256": [
+        "5da5a17f96c7d0be410598dabf4dd346dc355450c7888cfad3892cfd20311924",
+        "95a1ac80fb9ba146f45b48eb1531fba5c0acac572b528fa9f5b42b1bac537d8a"
+      ],
       "text": "Hey, this is on top of me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5da5a17f96c7d0be410598dabf4dd346dc355450c7888cfad3892cfd20311924",
-      "text": "Hey, this is on top of me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

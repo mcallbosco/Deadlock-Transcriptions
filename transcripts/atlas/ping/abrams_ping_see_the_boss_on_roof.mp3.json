@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_the_boss_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "d5d8f99db26c61e22edd12bdbfe6d8b5a37a035cf9dabf16c6a301f3db744951",
+      "sha256": [
+        "d5d8f99db26c61e22edd12bdbfe6d8b5a37a035cf9dabf16c6a301f3db744951"
+      ],
       "text": "Kabos is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fb360c58af187646bb01bb48bd9126e07d56fdb2d29b332256e6f04ca775ec6b",
+      "sha256": [
+        "fb360c58af187646bb01bb48bd9126e07d56fdb2d29b332256e6f04ca775ec6b"
+      ],
       "text": "The boss is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

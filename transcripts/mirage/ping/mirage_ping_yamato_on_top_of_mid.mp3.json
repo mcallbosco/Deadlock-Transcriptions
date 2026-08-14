@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_yamato_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "48dc2a968baf152cd201ddfbb31475ea43d552b4a74a53261e0beebafc38271a",
+      "sha256": [
+        "48dc2a968baf152cd201ddfbb31475ea43d552b4a74a53261e0beebafc38271a"
+      ],
       "text": "Come out of the mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4e70916f730dee899b218a97d58f096c6d1acbfeb762877b8c396a8926aa4f22",
+      "sha256": [
+        "4e70916f730dee899b218a97d58f096c6d1acbfeb762877b8c396a8926aa4f22",
+        "c852966bb85503ca182da37e0bc669e0b4203e48a514b35e59a21637f4180eac"
+      ],
       "text": "Yama'sos on top of mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c852966bb85503ca182da37e0bc669e0b4203e48a514b35e59a21637f4180eac",
-      "text": "Yama'sos on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de4fb74c094db86a2f83026498cf9f8ee5efceabdad8792b4ed704865142ac40",
+      "sha256": [
+        "de4fb74c094db86a2f83026498cf9f8ee5efceabdad8792b4ed704865142ac40"
+      ],
       "text": "Yamato's on top of mid!",
       "source": "official"
     }

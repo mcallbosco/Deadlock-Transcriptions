@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_use_item.mp3",
   "revisions": [
     {
-      "sha256": "8413ac87f33a49398d37e6b8f5a85a56f32bba0434275a134ffed588e452277d",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "243a3bf4421131faa82baaacdb7a1b3361781c85d09de1b12e0217f350351cc3",
-      "text": "Ready-to-use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28229b295958d6c5608fa9998f7b2f3073a0958b60726b7aaed47cc76d24ad73",
-      "text": "Ready-to-use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2255100da909fc1148d84fe6ec85ede630a029d8fa6a27bfba35d4aa66c21b68",
+      "sha256": [
+        "2255100da909fc1148d84fe6ec85ede630a029d8fa6a27bfba35d4aa66c21b68",
+        "243a3bf4421131faa82baaacdb7a1b3361781c85d09de1b12e0217f350351cc3",
+        "28229b295958d6c5608fa9998f7b2f3073a0958b60726b7aaed47cc76d24ad73",
+        "8413ac87f33a49398d37e6b8f5a85a56f32bba0434275a134ffed588e452277d"
+      ],
       "text": "Ready to use Item",
       "source": "official"
     }

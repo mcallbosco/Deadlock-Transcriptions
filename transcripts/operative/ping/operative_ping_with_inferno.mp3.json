@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_with_inferno.mp3",
   "revisions": [
     {
-      "sha256": "c770c1774b23df6a946c035f39c7f1b011a043017c540681621feaa64497446e",
+      "sha256": [
+        "c770c1774b23df6a946c035f39c7f1b011a043017c540681621feaa64497446e"
+      ],
       "text": "I am where you are.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

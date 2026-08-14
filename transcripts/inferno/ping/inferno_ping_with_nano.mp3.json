@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "908c5a95d80300c1376c5db1823e8ff113e033fbc81319c3a310c6c27024246e",
-      "text": "I'm with you, Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1abb37ea0992a9368f544bedb6f06b3472bec37f1347454269aecf5d8864cebb",
-      "text": "I'm with you, Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66c442c1355c0520e312291bb40ceaed23addb2be5607e965a2a9766fce9de34",
+      "sha256": [
+        "1abb37ea0992a9368f544bedb6f06b3472bec37f1347454269aecf5d8864cebb",
+        "66c442c1355c0520e312291bb40ceaed23addb2be5607e965a2a9766fce9de34",
+        "908c5a95d80300c1376c5db1823e8ff113e033fbc81319c3a310c6c27024246e"
+      ],
       "text": "I'm with you, Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_can_heal_forge.mp3",
   "revisions": [
     {
-      "sha256": "f17f8e34d28e075b1d2646800b9b1265d41aa1374376ff58baf43dcaca0fd1de",
+      "sha256": [
+        "f17f8e34d28e075b1d2646800b9b1265d41aa1374376ff58baf43dcaca0fd1de"
+      ],
       "text": "Yes, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6fbf9204abde0089f4103384c21498fde6167f2f4dfa6b7b234412a686d102ab",
+      "sha256": [
+        "6fbf9204abde0089f4103384c21498fde6167f2f4dfa6b7b234412a686d102ab",
+        "e334707390b98c68f8bf684367c8c7061fb9044f620ecddd33e6a1b1b5e527a0",
+        "f7d47ca6bd379a73d65cb3ae4c2586e8c957a29a6f8205037623aa324b84a931"
+      ],
       "text": "Nekris, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f7d47ca6bd379a73d65cb3ae4c2586e8c957a29a6f8205037623aa324b84a931",
-      "text": "Nekris, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e334707390b98c68f8bf684367c8c7061fb9044f620ecddd33e6a1b1b5e527a0",
-      "text": "Nekris, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81edae53ea631d4088713fee12170db6ebe059048e9aa4a0afc68d5aa5b09f6b",
+      "sha256": [
+        "81edae53ea631d4088713fee12170db6ebe059048e9aa4a0afc68d5aa5b09f6b"
+      ],
       "text": "McGinnis, I can heal you!",
       "source": "official"
     }

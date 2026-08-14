@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_warden_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b2e30d582c04d2dd00f039a13ccd3833ae1aa8196fa99f06dfaa15e6c6f63000",
+      "sha256": [
+        "ad2c92bf8be56805f21b8cd8de18c601863671520553711319ee3571e3769235",
+        "b2e30d582c04d2dd00f039a13ccd3833ae1aa8196fa99f06dfaa15e6c6f63000"
+      ],
       "text": "Wardens under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad2c92bf8be56805f21b8cd8de18c601863671520553711319ee3571e3769235",
-      "text": "Wardens under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

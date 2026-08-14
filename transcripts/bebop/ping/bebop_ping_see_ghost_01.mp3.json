@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "0f498f61b269cbdf760011d6e615ed5ae10fb23bf776868119b9197416da2aa4",
+      "sha256": [
+        "0f498f61b269cbdf760011d6e615ed5ae10fb23bf776868119b9197416da2aa4"
+      ],
       "text": "I'll see you guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f691ea748e73b513a478b9614a44f0beb2540f9783f6b1129278e6b97eeba407",
+      "sha256": [
+        "f691ea748e73b513a478b9614a44f0beb2540f9783f6b1129278e6b97eeba407"
+      ],
       "text": "I see Geist",
       "source": "official"
     }

@@ -1,27 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e8601b000b8315835f49634a0ab9f0fa6f485f4bf2171da70950a6c9b82d1e18",
+      "sha256": [
+        "e8601b000b8315835f49634a0ab9f0fa6f485f4bf2171da70950a6c9b82d1e18"
+      ],
       "text": "Beepop is singing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5d67b021e7769c17252dbaf4150fa11b0c5155a25b7151f69fbe986f771abbc7",
+      "sha256": [
+        "5d67b021e7769c17252dbaf4150fa11b0c5155a25b7151f69fbe986f771abbc7"
+      ],
       "text": "Give up his name.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a165fb5914311313b62b46b1395ee00261d23c5a82b48c2de8db7a50b51770b5",
+      "sha256": [
+        "a165fb5914311313b62b46b1395ee00261d23c5a82b48c2de8db7a50b51770b5"
+      ],
       "text": "Keep out of my way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6c4f2723096f965175c8ae3737f271264a8f5fd717a9f6ab975911d6a488dd74",
+      "sha256": [
+        "6c4f2723096f965175c8ae3737f271264a8f5fd717a9f6ab975911d6a488dd74"
+      ],
       "text": "Bebop's missing",
       "source": "official"
     }

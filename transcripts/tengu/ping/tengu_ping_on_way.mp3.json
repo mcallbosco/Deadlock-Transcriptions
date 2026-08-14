@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "fa8e0981c29b3666645ac13912342edfcf46554427e7609837c419e73b69abe3",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9963c74b2f2a7d09d052e38e72e94f5187836f3879ab8f003d50031e8af5614",
+      "sha256": [
+        "e9963c74b2f2a7d09d052e38e72e94f5187836f3879ab8f003d50031e8af5614",
+        "fa8e0981c29b3666645ac13912342edfcf46554427e7609837c419e73b69abe3"
+      ],
       "text": "On my way",
       "source": "official"
     }

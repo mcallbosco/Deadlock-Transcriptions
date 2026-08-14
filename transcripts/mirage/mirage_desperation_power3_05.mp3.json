@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_desperation_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "2807b2e9776563a72a35767a03ea74eddc8d5943d305d28ec8c5cfde474a7d02",
+      "sha256": [
+        "2807b2e9776563a72a35767a03ea74eddc8d5943d305d28ec8c5cfde474a7d02"
+      ],
       "text": "I'm not going down without a fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a1ff8c427c25cdb0995fb29fd8a0b52ebd94b5f65acf635ae1adc03c96da51d1",
+      "sha256": [
+        "5dd7801c0b573b6f753c099dbcab30cd2c486d297fcb12ea611afd891740af50",
+        "a1ff8c427c25cdb0995fb29fd8a0b52ebd94b5f65acf635ae1adc03c96da51d1"
+      ],
       "text": "I'll give it all I can.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5dd7801c0b573b6f753c099dbcab30cd2c486d297fcb12ea611afd891740af50",
-      "text": "I'll give it all I can.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "219d20d1ef0abf73482270baadbe5a5bdb1db070d370ef2abbbb7cad2664380d",
+      "sha256": [
+        "219d20d1ef0abf73482270baadbe5a5bdb1db070d370ef2abbbb7cad2664380d"
+      ],
       "text": "You haven't won yet!",
       "source": "official"
     }

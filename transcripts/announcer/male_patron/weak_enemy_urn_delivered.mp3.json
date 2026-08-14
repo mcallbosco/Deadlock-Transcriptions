@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/weak_enemy_urn_delivered.mp3",
   "revisions": [
     {
-      "sha256": "cefb00b1232ef74d64ccab8e1bb09f236ef27b6d583e6e21d07eb608a705050a",
+      "sha256": [
+        "cefb00b1232ef74d64ccab8e1bb09f236ef27b6d583e6e21d07eb608a705050a"
+      ],
       "text": "They delivered the urn.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

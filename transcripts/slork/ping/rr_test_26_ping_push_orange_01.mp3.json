@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_push_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "e0aef79bc40cd33c11168d736695bfa357c3f1eeecdba616631bde3e141521e4",
+      "sha256": [
+        "17a68605e3024581c25fe2f9354afed51f3214a33a62b564ca5ee0d4e4d48ce1",
+        "e0aef79bc40cd33c11168d736695bfa357c3f1eeecdba616631bde3e141521e4"
+      ],
       "text": "Let's push orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17a68605e3024581c25fe2f9354afed51f3214a33a62b564ca5ee0d4e4d48ce1",
-      "text": "Let's push Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

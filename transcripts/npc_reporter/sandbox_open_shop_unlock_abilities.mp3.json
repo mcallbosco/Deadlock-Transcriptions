@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/sandbox_open_shop_unlock_abilities.mp3",
   "revisions": [
     {
-      "sha256": "f42751df9dbbd0b0a32071df926e953b6e9fc09915cdf9813ba39a8f4ef75de8",
+      "sha256": [
+        "c0415240723698bb48ccf33ea0721fd46a3addfc502b563985ede59ea6801039",
+        "f42751df9dbbd0b0a32071df926e953b6e9fc09915cdf9813ba39a8f4ef75de8"
+      ],
       "text": "Open the shop screen to unlock new abilities. You can unlock abilities anywhere; everything else requires proximity to the shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0415240723698bb48ccf33ea0721fd46a3addfc502b563985ede59ea6801039",
-      "text": "Open the shop screen to unlock new abilities. You can unlock abilities anywhere. Everything else requires proximity to the shop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

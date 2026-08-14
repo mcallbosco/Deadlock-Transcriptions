@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_headed_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "a9b5cf3eeb7d63d566835afc272e358b933700708c2a0132c9788e2b09d43cb8",
-      "text": "Headed to purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20ff908003774a65920f9e1a36321e78619c371f131fa638280d36de7ac5f951",
+      "sha256": [
+        "20ff908003774a65920f9e1a36321e78619c371f131fa638280d36de7ac5f951",
+        "a9b5cf3eeb7d63d566835afc272e358b933700708c2a0132c9788e2b09d43cb8"
+      ],
       "text": "Headed to purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

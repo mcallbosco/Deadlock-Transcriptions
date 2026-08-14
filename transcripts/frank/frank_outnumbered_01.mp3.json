@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_outnumbered_01.mp3",
   "revisions": [
     {
-      "sha256": "5ef00fa0e76e59139507e8265426dc3c0724ec6ddc1290c1c530adeaaa98fd9d",
+      "sha256": [
+        "5ef00fa0e76e59139507e8265426dc3c0724ec6ddc1290c1c530adeaaa98fd9d"
+      ],
       "text": "Because I am.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

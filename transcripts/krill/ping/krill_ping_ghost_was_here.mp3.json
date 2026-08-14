@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_ghost_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b888a8c86f4bc117ec82e779ac6aa4cc4e1cb2a9ee561f4743d021619687e020",
-      "text": "Geist was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7df1d52db6ff2176954f7035241d49b73646c2452b49a4b7f55c40b6d8058fc7",
-      "text": "Geist was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aae7bc67971e5b22aabcf98b486c06f3628a50b7ba0287e896fd0b5f2125437e",
+      "sha256": [
+        "7df1d52db6ff2176954f7035241d49b73646c2452b49a4b7f55c40b6d8058fc7",
+        "aae7bc67971e5b22aabcf98b486c06f3628a50b7ba0287e896fd0b5f2125437e",
+        "b888a8c86f4bc117ec82e779ac6aa4cc4e1cb2a9ee561f4743d021619687e020"
+      ],
       "text": "Geist was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

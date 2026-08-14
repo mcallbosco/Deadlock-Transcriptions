@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "c0535c27188857691598b80c3f46dabf66a1351e1d5fb2d25d7099677e7001f6",
-      "text": "Careful, Haze!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b3ebe847550f0331178293bca8bba98da32aed7bba14f6ffad5f99ad6978204",
+      "sha256": [
+        "4b3ebe847550f0331178293bca8bba98da32aed7bba14f6ffad5f99ad6978204",
+        "c0535c27188857691598b80c3f46dabf66a1351e1d5fb2d25d7099677e7001f6"
+      ],
       "text": "Careful, Haze!",
       "source": "official"
     }

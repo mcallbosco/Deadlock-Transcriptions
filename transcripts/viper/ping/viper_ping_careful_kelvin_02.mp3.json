@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_kelvin_02.mp3",
   "revisions": [
     {
-      "sha256": "c33e577807328becbdea6c051e9ff9f1fc4f84328552220eb0d3548ffdb1bdeb",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9bcb007388292c641f93b695da2580f0acdc5f34db16fa9d8f515f27b92dd5c7",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "255aab5fb20489cee9d076a1a8569d38d2c6b74b4f05d27cdbe84473dd8423e3",
+      "sha256": [
+        "255aab5fb20489cee9d076a1a8569d38d2c6b74b4f05d27cdbe84473dd8423e3",
+        "9bcb007388292c641f93b695da2580f0acdc5f34db16fa9d8f515f27b92dd5c7",
+        "c33e577807328becbdea6c051e9ff9f1fc4f84328552220eb0d3548ffdb1bdeb"
+      ],
       "text": "Careful, Kelvin",
       "source": "official"
     }

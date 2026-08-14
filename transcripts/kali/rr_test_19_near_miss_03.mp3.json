@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_near_miss_03.mp3",
   "revisions": [
     {
-      "sha256": "baa14cd5d1d6b393fa77e0246bdfbcc13589ef0f57bb28e28da612885ceafd36",
+      "sha256": [
+        "baa14cd5d1d6b393fa77e0246bdfbcc13589ef0f57bb28e28da612885ceafd36"
+      ],
       "text": "Next time, they will get so lucky.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "27f5b52600adba66a3247628bd43a863dbf101be69a51ba8d13bda76e8691d6c",
-      "text": "Next time, they won't get so lucky.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d1d3b75381fc70c5ace52d741eea7e603d3b2688a190239ba271d867ff534cc",
+      "sha256": [
+        "27f5b52600adba66a3247628bd43a863dbf101be69a51ba8d13bda76e8691d6c",
+        "4d1d3b75381fc70c5ace52d741eea7e603d3b2688a190239ba271d867ff534cc"
+      ],
       "text": "Next time, they won't get so lucky.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

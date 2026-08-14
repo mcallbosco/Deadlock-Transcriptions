@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "f87125dc0884b99bdaa7647a22f9f3c9db0ffd975dd40aa964c22c2cd7c49da5",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ecee48a025601b156ab80d40b6b5bd80c3d98b2090b10487c561c8af0b660c5c",
+      "sha256": [
+        "ecee48a025601b156ab80d40b6b5bd80c3d98b2090b10487c561c8af0b660c5c",
+        "f87125dc0884b99bdaa7647a22f9f3c9db0ffd975dd40aa964c22c2cd7c49da5"
+      ],
       "text": "It's dangerous here",
       "source": "official"
     }

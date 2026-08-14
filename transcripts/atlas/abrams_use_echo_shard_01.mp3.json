@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_echo_shard_01.mp3",
   "revisions": [
     {
-      "sha256": "382e9e8c1bb60e9ae6ffe9259d057d1a343ddd815ca65221e86be7770ac3b725",
-      "text": "Echo shard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6cebe299cc808e6c4cec711e12cde0def56a356c945daef19a4f6d6101bd4589",
-      "text": "Echo shard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9224e991faa74a0ce035822d2e3a190f43854b28cd8d76bdf8d3d917878b1309",
+      "sha256": [
+        "382e9e8c1bb60e9ae6ffe9259d057d1a343ddd815ca65221e86be7770ac3b725",
+        "6cebe299cc808e6c4cec711e12cde0def56a356c945daef19a4f6d6101bd4589",
+        "9224e991faa74a0ce035822d2e3a190f43854b28cd8d76bdf8d3d917878b1309"
+      ],
       "text": "Echo shard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

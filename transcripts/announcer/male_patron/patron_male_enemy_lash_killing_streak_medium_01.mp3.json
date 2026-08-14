@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_enemy_lash_killing_streak_medium_01.mp3",
   "revisions": [
     {
-      "sha256": "3bbf756f6a064cd15bddd26eb17732528d04b20a769c52461bf7f8f2ac8204a4",
+      "sha256": [
+        "3bbf756f6a064cd15bddd26eb17732528d04b20a769c52461bf7f8f2ac8204a4"
+      ],
       "text": "Flash learned a painful lesson in humility.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "25cd6f2316485148739ba9c9e0a3e154af7edaa65a6d49bb30b93aac36326a12",
-      "text": "Humble lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "25cd6f2316485148739ba9c9e0a3e154af7edaa65a6d49bb30b93aac36326a12",
+        "c964ca49bf21764b4a24b8762280a54530df6d575d1ec1be0e91431dca165851"
+      ],
+      "text": "Humble Lash",
+      "source": "official"
     },
     {
-      "sha256": "021b5264a6efb85e59962f2e82ad7db3e2b12ba38c0ae5ed4225fcbc4ccf3f3c",
+      "sha256": [
+        "021b5264a6efb85e59962f2e82ad7db3e2b12ba38c0ae5ed4225fcbc4ccf3f3c"
+      ],
       "text": "Tumble Lash!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c964ca49bf21764b4a24b8762280a54530df6d575d1ec1be0e91431dca165851",
-      "text": "Humble Lash",
-      "source": "official"
     }
   ]
 }

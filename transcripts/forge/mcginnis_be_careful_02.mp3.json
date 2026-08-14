@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "b53552925e8d3bdb07a25403f5ba7029a8f7a83d5a105282ba144cf1613b437b",
-      "text": "Where is everybody?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3837b6a4c007a38e0dc43b13f9b70deb4d2f5dd5dae973ac23feb1d28193b94c",
+      "sha256": [
+        "3837b6a4c007a38e0dc43b13f9b70deb4d2f5dd5dae973ac23feb1d28193b94c",
+        "b53552925e8d3bdb07a25403f5ba7029a8f7a83d5a105282ba144cf1613b437b"
+      ],
       "text": "Where is everybody?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

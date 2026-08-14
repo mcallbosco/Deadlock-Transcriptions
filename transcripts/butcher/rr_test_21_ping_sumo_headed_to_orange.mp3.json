@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_sumo_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "2bc7b13b5eb02c7abfc3f755e222087d61d5caebfd7199757f50f767b77a82a9",
+      "sha256": [
+        "2bc7b13b5eb02c7abfc3f755e222087d61d5caebfd7199757f50f767b77a82a9",
+        "79881883684cf0a2457afccdc998e5ddfbb698f2459b4db4eaa8778c4eb1e11e",
+        "e9cc851a94313d393306436cd255ad4ff4857f5509b8e63441e6d0d82b74bb8d"
+      ],
       "text": "Sumo's headed to orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9cc851a94313d393306436cd255ad4ff4857f5509b8e63441e6d0d82b74bb8d",
-      "text": "Sumos headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79881883684cf0a2457afccdc998e5ddfbb698f2459b4db4eaa8778c4eb1e11e",
-      "text": "Sumo's headed to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

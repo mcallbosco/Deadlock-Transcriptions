@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_select_04.mp3",
   "revisions": [
     {
-      "sha256": "4eaa99a29e1c85666c23e9e9957ad2fa36582d93a13290c3830ca632ef779077",
+      "sha256": [
+        "4eaa99a29e1c85666c23e9e9957ad2fa36582d93a13290c3830ca632ef779077"
+      ],
       "text": "I'm not proud of everything I've done, but I am of this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "73dea837be9bd2ec272f8a1b9f215803c11819e5f03f0af15d49b9c9de7f88ff",
+      "sha256": [
+        "73dea837be9bd2ec272f8a1b9f215803c11819e5f03f0af15d49b9c9de7f88ff"
+      ],
       "text": "I'm not proud of everything I've done, but I'm proud of this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_lose_early_02.mp3",
   "revisions": [
     {
-      "sha256": "66529ae8acef628dba8e5c0a753e47ccd9b3f57cf0fcc2ec69c6bf3fe0d64e78",
+      "sha256": [
+        "4563d1a1c8448699d9e91e3c7721387660a9c64e72e268b5bc03827071858476",
+        "66529ae8acef628dba8e5c0a753e47ccd9b3f57cf0fcc2ec69c6bf3fe0d64e78"
+      ],
       "text": "We'll fight again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e624ff618d88d11b8745e707b79aa8890d621c7b6383cdb5deb1e089cb5080fd",
+      "sha256": [
+        "e624ff618d88d11b8745e707b79aa8890d621c7b6383cdb5deb1e089cb5080fd"
+      ],
       "text": "Real fight again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4563d1a1c8448699d9e91e3c7721387660a9c64e72e268b5bc03827071858476",
-      "text": "We'll fight again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

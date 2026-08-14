@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_with_inferno.mp3",
   "revisions": [
     {
-      "sha256": "f91b5e7f583fa2fe722df6cd98f74499ec0c99273dfff911f1570ffb9cdba1bb",
+      "sha256": [
+        "f91b5e7f583fa2fe722df6cd98f74499ec0c99273dfff911f1570ffb9cdba1bb"
+      ],
       "text": "I want no falão.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ea1d07a41a919396c62a211f7f0863452e4bcc78aa52ec1814a50f54450081e2",
+      "sha256": [
+        "ca8ec76af688dce4db40b368555f5b3d5bf9ecede5b286176398dd1c58edc7be",
+        "ea1d07a41a919396c62a211f7f0863452e4bcc78aa52ec1814a50f54450081e2"
+      ],
       "text": "I'm with you, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bb8331a80155e4178c9cf7f5949f6e6765ab4632d40b233ac3fc4c06b76ece70",
+      "sha256": [
+        "bb8331a80155e4178c9cf7f5949f6e6765ab4632d40b233ac3fc4c06b76ece70"
+      ],
       "text": "I bid you, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca8ec76af688dce4db40b368555f5b3d5bf9ecede5b286176398dd1c58edc7be",
-      "text": "I'm with you, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_rutger.mp3",
   "revisions": [
     {
-      "sha256": "439506a5c5a24f7702e5b2440ba9db6affa130a337998db701c4ec6d3e2e3fd1",
-      "text": "I'm with you, Wicker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d67828923ca61a74b3b3536c14a0eff5d519558dbec1ba94e3a6b489524b3aa",
+      "sha256": [
+        "439506a5c5a24f7702e5b2440ba9db6affa130a337998db701c4ec6d3e2e3fd1",
+        "9d67828923ca61a74b3b3536c14a0eff5d519558dbec1ba94e3a6b489524b3aa"
+      ],
       "text": "I'm with you, Wicker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

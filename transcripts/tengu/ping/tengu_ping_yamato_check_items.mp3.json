@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_yamato_check_items.mp3",
   "revisions": [
     {
-      "sha256": "794c689d2c1c8635b161f33dd46bf12954daec6856c7fbc09cc954595826ea1e",
+      "sha256": [
+        "794c689d2c1c8635b161f33dd46bf12954daec6856c7fbc09cc954595826ea1e",
+        "79d0086de02460e6fb9e40bffb630d8ac3cbe8cdb433f22fa184a7aa582fc975"
+      ],
       "text": "Check out what Yamato bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79d0086de02460e6fb9e40bffb630d8ac3cbe8cdb433f22fa184a7aa582fc975",
-      "text": "Check out what Yamato bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

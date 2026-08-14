@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_krill_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b7ca5bce33432b11b91c8b66be99833ba22d77911ca0bdf9a20760241b7f4ae1",
-      "text": "Krill's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "35a1444ed1dbe74bafa80a61167b6698669b08fb88d8ffa5df4867bf6a4f1674",
+        "7b721f606fe72ad53e2f07afc76b245a1aa887bf25923f180a6c0e9c7b06cfa9",
+        "b7ca5bce33432b11b91c8b66be99833ba22d77911ca0bdf9a20760241b7f4ae1"
+      ],
+      "text": "Krill's on the bridge!",
+      "source": "official"
     },
     {
-      "sha256": "7b721f606fe72ad53e2f07afc76b245a1aa887bf25923f180a6c0e9c7b06cfa9",
-      "text": "Krill's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "579155f4051dada6fe7d2a7094ffb529c679715dbd42342c812596d688d474c8",
+      "sha256": [
+        "579155f4051dada6fe7d2a7094ffb529c679715dbd42342c812596d688d474c8"
+      ],
       "text": "Crew's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35a1444ed1dbe74bafa80a61167b6698669b08fb88d8ffa5df4867bf6a4f1674",
-      "text": "Krill's on the bridge!",
-      "source": "official"
     }
   ]
 }

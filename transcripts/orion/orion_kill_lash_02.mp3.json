@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_lash_02.mp3",
   "revisions": [
     {
-      "sha256": "7cc6274d7164451e15bdd4a6c4a220837c8a3c275b4d7ce8d48d87a6b79fa1ca",
-      "text": "Lash is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69b1ba45c785087ffd04fc5def14054a1224735bb4fad43787eb9eb7fe92137d",
-      "text": "Lash is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0af1475e0780b59f9a26d0297ace475f5152d0872e8592f470443ba0a506fa06",
+      "sha256": [
+        "0af1475e0780b59f9a26d0297ace475f5152d0872e8592f470443ba0a506fa06",
+        "69b1ba45c785087ffd04fc5def14054a1224735bb4fad43787eb9eb7fe92137d",
+        "7cc6274d7164451e15bdd4a6c4a220837c8a3c275b4d7ce8d48d87a6b79fa1ca"
+      ],
       "text": "Lash is dead",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "155977417d1e7c2f60d403b0e18c6fb58472d74ca18a68a5132eb2795ab7ff50",
+      "sha256": [
+        "155977417d1e7c2f60d403b0e18c6fb58472d74ca18a68a5132eb2795ab7ff50"
+      ],
       "text": "Victor was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

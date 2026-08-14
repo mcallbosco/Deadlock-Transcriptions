@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_with_orion.mp3",
   "revisions": [
     {
-      "sha256": "7c941ae8845656c8009e89f6090d3f6bc2628225d872a2aabb1a881c72e889d0",
+      "sha256": [
+        "7c941ae8845656c8009e89f6090d3f6bc2628225d872a2aabb1a881c72e889d0"
+      ],
       "text": "How many, Orion?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0813cd403adda80569ec31cf033d900ee3b85fb63cec9517ea9ce15ee223d7da",
+      "sha256": [
+        "0813cd403adda80569ec31cf033d900ee3b85fb63cec9517ea9ce15ee223d7da"
+      ],
       "text": "I'm with you, Great Talon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

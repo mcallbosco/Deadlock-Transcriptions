@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_metal_skin_02.mp3",
   "revisions": [
     {
-      "sha256": "596e0911829e40d54c2196823ac2433e60ad51ca76cb24cd61317411485e227d",
+      "sha256": [
+        "596e0911829e40d54c2196823ac2433e60ad51ca76cb24cd61317411485e227d",
+        "bfa6e2e152c4ce14b16957b74d187df7cb89f18fdcec0cf518b5b0f88aebe268"
+      ],
       "text": "Ha! Shoot us all you want.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9030723ae4c25b3dfe82e5dc712e0a201e22c0e0cf9fa67ba5fcc4c619b49927",
+      "sha256": [
+        "9030723ae4c25b3dfe82e5dc712e0a201e22c0e0cf9fa67ba5fcc4c619b49927"
+      ],
       "text": "Hah! Shoot us all you want.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bfa6e2e152c4ce14b16957b74d187df7cb89f18fdcec0cf518b5b0f88aebe268",
-      "text": "Ha! Shoot us all you want.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb793c9f4b2f97423bcfdc8b38a38796eee661fccc9ac3f1115684ccf6ec38bb",
+      "sha256": [
+        "fb793c9f4b2f97423bcfdc8b38a38796eee661fccc9ac3f1115684ccf6ec38bb"
+      ],
       "text": "Shoot us all you want!",
       "source": "official"
     }

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_see_lash_02.mp3",
   "revisions": [
     {
-      "sha256": "a4f16f7291a5b3756675417bfb33698d7bc3ddc8d6b06f978be0d8132abbb019",
+      "sha256": [
+        "2269903291b09234e388d485c5970cac2e0c96ad4b2baf34b4101e88c16e9c53",
+        "a4f16f7291a5b3756675417bfb33698d7bc3ddc8d6b06f978be0d8132abbb019"
+      ],
       "text": "Look at that!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "91aae88aced0bdabbe90cb530e07dee76f9d859dff43470d32261d17ac36dbf0",
+      "sha256": [
+        "91aae88aced0bdabbe90cb530e07dee76f9d859dff43470d32261d17ac36dbf0"
+      ],
       "text": "Look out, Flash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2269903291b09234e388d485c5970cac2e0c96ad4b2baf34b4101e88c16e9c53",
-      "text": "Look at that!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

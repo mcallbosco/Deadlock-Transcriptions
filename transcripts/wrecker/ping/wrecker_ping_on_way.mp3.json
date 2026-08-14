@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "b904f26f7067567629fff7ad2936177a14735bfa764577c86f4f9c03f1e0279c",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ca77c58eaadff0cc7abfd9244d97644dabba984127c3f6e31f21e87f21f8e4e",
+      "sha256": [
+        "1ca77c58eaadff0cc7abfd9244d97644dabba984127c3f6e31f21e87f21f8e4e",
+        "b904f26f7067567629fff7ad2936177a14735bfa764577c86f4f9c03f1e0279c"
+      ],
       "text": "On my way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

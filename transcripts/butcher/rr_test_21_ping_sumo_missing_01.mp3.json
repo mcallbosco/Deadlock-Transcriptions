@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_sumo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4e3b61be0b9b1342de3993ed664b1a7f5571db7f9b3c9275986acf534dc6e485",
-      "text": "Someone was missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72c8f14cb10bb12fdb80118de2263522cefd6fa05727af1165e56c4da2653391",
-      "text": "Someone was missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fae947b1be8332b87c8328f2f409e5ee4b4b583f843b867db0586665aa58ca98",
+      "sha256": [
+        "4e3b61be0b9b1342de3993ed664b1a7f5571db7f9b3c9275986acf534dc6e485",
+        "72c8f14cb10bb12fdb80118de2263522cefd6fa05727af1165e56c4da2653391",
+        "fae947b1be8332b87c8328f2f409e5ee4b4b583f843b867db0586665aa58ca98"
+      ],
       "text": "Someone was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_kelvin_03.mp3",
   "revisions": [
     {
-      "sha256": "8d7005d75fda12f3d065d51c325b85c5ee2fdf12a69e4ccf85bcbaf5c6dbc540",
+      "sha256": [
+        "8d7005d75fda12f3d065d51c325b85c5ee2fdf12a69e4ccf85bcbaf5c6dbc540"
+      ],
       "text": "Ha ha ha ha ha ha ha!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "219dad65ef4b8754f14923cd384b98c91dba2f2609fec0e9b199d7e1bca2e1b5",
+      "sha256": [
+        "1845ac0a2cd40721d26247069272b0d5a9686d0673a9e82333227875de49c2be",
+        "219dad65ef4b8754f14923cd384b98c91dba2f2609fec0e9b199d7e1bca2e1b5"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1845ac0a2cd40721d26247069272b0d5a9686d0673a9e82333227875de49c2be",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1058a40bacf2d01a019d845cc4cb1331fa2e189ee0e24ea853dbd85a5822ed8",
+      "sha256": [
+        "d1058a40bacf2d01a019d845cc4cb1331fa2e189ee0e24ea853dbd85a5822ed8"
+      ],
       "text": "<laughs>",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_pocket_check_items.mp3",
   "revisions": [
     {
-      "sha256": "cbbb96dd2635a8d6af74df3725a6a14b62ed9734399613836076edb313de94ce",
+      "sha256": [
+        "68c71b94c554fd94db245c15d4612ea38c7f173ce0668f1bc157abf852edc6f7",
+        "cbbb96dd2635a8d6af74df3725a6a14b62ed9734399613836076edb313de94ce"
+      ],
       "text": "Check out what Pocket bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68c71b94c554fd94db245c15d4612ea38c7f173ce0668f1bc157abf852edc6f7",
-      "text": "Check out what Pocket bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

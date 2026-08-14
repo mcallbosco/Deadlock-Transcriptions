@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_t3_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "bb4745bdb0e274d8f674e3ea7f4ecf249497a6d927c3a4c1a2dfa0b145f84f37",
-      "text": "Let me see what I can afford.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e1a373dc27c01a06124117c8d36add634b624a56294d1f4ab34129892b6f77d",
-      "text": "Let me see what I can afford.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6c282f4aba660122fd9fbe63cf900a27ac96ab30f5a3f5757580df47d78ddc7",
+      "sha256": [
+        "7e1a373dc27c01a06124117c8d36add634b624a56294d1f4ab34129892b6f77d",
+        "b6c282f4aba660122fd9fbe63cf900a27ac96ab30f5a3f5757580df47d78ddc7",
+        "bb4745bdb0e274d8f674e3ea7f4ecf249497a6d927c3a4c1a2dfa0b145f84f37"
+      ],
       "text": "Let me see what I can afford.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

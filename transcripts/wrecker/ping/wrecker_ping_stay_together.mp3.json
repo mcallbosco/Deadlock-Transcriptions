@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_stay_together.mp3",
   "revisions": [
     {
-      "sha256": "6ad27e0c044f094de01aec15d425f1c40f316fac7cec977f79fb6be77741ae9a",
+      "sha256": [
+        "50f7dda22ba8cee9ff4a7c5acd91349547f42d81f48dde53d199c6e1cc6c382e",
+        "6ad27e0c044f094de01aec15d425f1c40f316fac7cec977f79fb6be77741ae9a"
+      ],
       "text": "Stay together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50f7dda22ba8cee9ff4a7c5acd91349547f42d81f48dde53d199c6e1cc6c382e",
-      "text": "Stay together!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

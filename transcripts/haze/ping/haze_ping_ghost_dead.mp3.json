@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_ghost_dead.mp3",
   "revisions": [
     {
-      "sha256": "75fd174aa4a1c91dc6e490beb41cde5db021140e8d688f6a1810d8666b43f7d1",
+      "sha256": [
+        "75fd174aa4a1c91dc6e490beb41cde5db021140e8d688f6a1810d8666b43f7d1",
+        "bebd8811c2130bc19d83ff6c0b658fe2927f5e2dcfbeda05c48669e64fb62e67",
+        "d389608d4fd7efc55c43d835c39cbe7a948d8ab2bbb7e583a53b7a12c0f2a39b"
+      ],
       "text": "Geist is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d389608d4fd7efc55c43d835c39cbe7a948d8ab2bbb7e583a53b7a12c0f2a39b",
-      "text": "Geist is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bebd8811c2130bc19d83ff6c0b658fe2927f5e2dcfbeda05c48669e64fb62e67",
-      "text": "Geist is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa5b5016d503b01f534294a481f55d5d3dd259f13cb6f311e33dff7b96967b44",
+      "sha256": [
+        "aa5b5016d503b01f534294a481f55d5d3dd259f13cb6f311e33dff7b96967b44"
+      ],
       "text": "The geist is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "667ad60bbf588904d8bcafbdc96ba75da59adfd70cb821812b1501a474d9bb4c",
+      "sha256": [
+        "667ad60bbf588904d8bcafbdc96ba75da59adfd70cb821812b1501a474d9bb4c"
+      ],
       "text": "Case to Chat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

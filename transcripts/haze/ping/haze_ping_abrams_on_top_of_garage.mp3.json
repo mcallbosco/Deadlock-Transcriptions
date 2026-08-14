@@ -1,28 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_abrams_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "f33191cee3488f033f1cbc3c8389672dd44a7dfeeaa562e17f80dd5ee1629613",
+      "sha256": [
+        "0ef52fa5875b9c6f6d31a5a89ac44ffb30171cf6db4d0134ed6510c2574bd04f",
+        "bcbd8d607b0a9020fdeb889e090e2ebf8de41f9a1d2b78752bdc91e286a12372",
+        "c2ad9b850e3694159c795c0e7294afb783cc41f047aa53b01b961356739f3ff4",
+        "f33191cee3488f033f1cbc3c8389672dd44a7dfeeaa562e17f80dd5ee1629613"
+      ],
       "text": "Abrams is on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bcbd8d607b0a9020fdeb889e090e2ebf8de41f9a1d2b78752bdc91e286a12372",
-      "text": "Abrams is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ef52fa5875b9c6f6d31a5a89ac44ffb30171cf6db4d0134ed6510c2574bd04f",
-      "text": "Abrams is on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c2ad9b850e3694159c795c0e7294afb783cc41f047aa53b01b961356739f3ff4",
-      "text": "Abrams is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

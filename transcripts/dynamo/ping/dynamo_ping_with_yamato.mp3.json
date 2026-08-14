@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "ae1833c3c979308626712f6a76eb2322ba3864c412aa5063de14ae69a9829524",
+      "sha256": [
+        "ae1833c3c979308626712f6a76eb2322ba3864c412aa5063de14ae69a9829524"
+      ],
       "text": "I'm missing out.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "d6e9a44b4efc75ba4fdb132814e2f3d1e88f5aab3d6a10f15df31c6013eeb1c6",
+      "sha256": [
+        "d6e9a44b4efc75ba4fdb132814e2f3d1e88f5aab3d6a10f15df31c6013eeb1c6"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

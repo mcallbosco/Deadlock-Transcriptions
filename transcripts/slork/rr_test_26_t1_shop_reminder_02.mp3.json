@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_t1_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "c64de2f05393be5b9eb2c4c7aa18423d1f566a0582c463ce9be9efaef89cdf2f",
+      "sha256": [
+        "c64de2f05393be5b9eb2c4c7aa18423d1f566a0582c463ce9be9efaef89cdf2f"
+      ],
       "text": "I need to get gear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "97ba18cb6da83b9ea7d420493c6cf08e30f2bea9a54b01eca558e3fd0e42a9e6",
+      "sha256": [
+        "97ba18cb6da83b9ea7d420493c6cf08e30f2bea9a54b01eca558e3fd0e42a9e6"
+      ],
       "text": "We need to get gear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

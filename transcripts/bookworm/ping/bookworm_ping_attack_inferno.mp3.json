@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_inferno.mp3",
   "revisions": [
     {
-      "sha256": "b56137d833cf35f5b861a48838e50a3d38b47301f7f3cc7aa408748a58725235",
-      "text": "Let's take out Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5244f34710cf1f4945045cb75c84cd18537b5e8cb78609d169d5a1aefd0ddde7",
+      "sha256": [
+        "5244f34710cf1f4945045cb75c84cd18537b5e8cb78609d169d5a1aefd0ddde7",
+        "b56137d833cf35f5b861a48838e50a3d38b47301f7f3cc7aa408748a58725235"
+      ],
       "text": "Let's take out Infernus.",
       "source": "official"
     }

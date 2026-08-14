@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_destroyed_02.mp3",
   "revisions": [
     {
-      "sha256": "a6464ae11c4359d07c172add508dc6cf58e48a01949a41ca7303abbc88ab7bc9",
-      "text": "Blue Guardian destroyed!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64d4b17263200a687ec8b399600ba59428a3e70d8c84310e809918161cabae33",
-      "text": "Blue Guardian destroyed!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1bb8b78a57b780532d6d93f2aa67d8be7e65cc8dd769c9aba8c0c6039cbb9b10",
+      "sha256": [
+        "1bb8b78a57b780532d6d93f2aa67d8be7e65cc8dd769c9aba8c0c6039cbb9b10",
+        "64d4b17263200a687ec8b399600ba59428a3e70d8c84310e809918161cabae33",
+        "a6464ae11c4359d07c172add508dc6cf58e48a01949a41ca7303abbc88ab7bc9"
+      ],
       "text": "Blue Guardian destroyed!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

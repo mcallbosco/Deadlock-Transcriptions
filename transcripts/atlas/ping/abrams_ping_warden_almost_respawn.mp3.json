@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_warden_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "d91a2c92c168716afff1c7c19122671e9973ae501d42384f1ec5a1384171c204",
-      "text": "Warden is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28531292edd4779a4c6b12377623ab46847166561fa10f28f66254fbbb4765dc",
-      "text": "Warden is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4eb355694bb94b827bd8b30aa508a04b614baf77678b41c9040d37da9dd4a66",
+      "sha256": [
+        "28531292edd4779a4c6b12377623ab46847166561fa10f28f66254fbbb4765dc",
+        "d4eb355694bb94b827bd8b30aa508a04b614baf77678b41c9040d37da9dd4a66",
+        "d91a2c92c168716afff1c7c19122671e9973ae501d42384f1ec5a1384171c204"
+      ],
       "text": "Warden is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_inferno_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "037e2e2e3ba25c7942e723338336cbd9bf4296c53d11739110fe7a43227adb78",
-      "text": "Inferno's headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "477f6bbe8dc0720c26dd45e45f6d30909c7df725afd7c28be063b00fbefaa255",
-      "text": "Inferno's headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9f4ceca67ecd2e878aed060cb65d861d643b0983ce1a581971f43a60f6e7e3b",
+      "sha256": [
+        "037e2e2e3ba25c7942e723338336cbd9bf4296c53d11739110fe7a43227adb78",
+        "477f6bbe8dc0720c26dd45e45f6d30909c7df725afd7c28be063b00fbefaa255",
+        "e9f4ceca67ecd2e878aed060cb65d861d643b0983ce1a581971f43a60f6e7e3b"
+      ],
       "text": "Inferno's headed to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

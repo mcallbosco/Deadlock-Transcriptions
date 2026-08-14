@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "78a141fb6111ee4070b42ba16707f968a9ee09c806d6faecf944730c0e9ddd92",
-      "text": "I see pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4ed03735b8ea1a4cf6b05e7d68c81e156eaff6e06863fbb2b1fb2bce77ba4da",
-      "text": "I see pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e42e142228a048409c1aa250daa6cd33fdaa9ae2521658c0cd9da19b68908dce",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ec21ee8449027cd223188aec97df89ccd474893b45f4e8480718bffc367a476",
+      "sha256": [
+        "2ec21ee8449027cd223188aec97df89ccd474893b45f4e8480718bffc367a476",
+        "78a141fb6111ee4070b42ba16707f968a9ee09c806d6faecf944730c0e9ddd92",
+        "d4ed03735b8ea1a4cf6b05e7d68c81e156eaff6e06863fbb2b1fb2bce77ba4da",
+        "e42e142228a048409c1aa250daa6cd33fdaa9ae2521658c0cd9da19b68908dce"
+      ],
       "text": "I see Pocket",
       "source": "official"
     }

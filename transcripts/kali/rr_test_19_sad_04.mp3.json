@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_sad_04.mp3",
   "revisions": [
     {
-      "sha256": "909d0a255ef90bf1afaf82ef7c1020b38799f21ac78a9a5313df139ea2db1660",
+      "sha256": [
+        "909d0a255ef90bf1afaf82ef7c1020b38799f21ac78a9a5313df139ea2db1660"
+      ],
       "text": "Cut the taxi.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "549358630b427109d602a755afbc82993c7d90365eec1b0cb707f1bc5ba7c7ed",
-      "text": "Cut the chatter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6daea20c5cfe42aa89c7de849b9b78922ca572fa022d85072973838fc529ec7a",
+      "sha256": [
+        "549358630b427109d602a755afbc82993c7d90365eec1b0cb707f1bc5ba7c7ed",
+        "6daea20c5cfe42aa89c7de849b9b78922ca572fa022d85072973838fc529ec7a"
+      ],
       "text": "Cut the chatter.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

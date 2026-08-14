@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ab80b69f34c9dc3d55d340e9cece415706eae20ebac047874b84d67d294d593f",
-      "text": "Gigawatt was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d30d82e281aca1a18186027e29b5fcfdb0fe57b09c6acd71dab5b285a8be9b6",
+      "sha256": [
+        "3d30d82e281aca1a18186027e29b5fcfdb0fe57b09c6acd71dab5b285a8be9b6",
+        "ab80b69f34c9dc3d55d340e9cece415706eae20ebac047874b84d67d294d593f"
+      ],
       "text": "Gigawatt was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

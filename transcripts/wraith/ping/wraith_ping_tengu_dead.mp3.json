@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_tengu_dead.mp3",
   "revisions": [
     {
-      "sha256": "94b8956425e33dfc3e422e477f1a308f5c690c77a58a500927606e6f1ea019e8",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b04daf003c0dae141a72c3ab9c2c3a806ebc180750a1dded096ac28b5e7b9d7",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f43f1ccf2600360dc83c9ed7cd68f74dd3c6c6cbb8d3eb91ed9f36cfc686f8e0",
+      "sha256": [
+        "0b04daf003c0dae141a72c3ab9c2c3a806ebc180750a1dded096ac28b5e7b9d7",
+        "94b8956425e33dfc3e422e477f1a308f5c690c77a58a500927606e6f1ea019e8",
+        "f43f1ccf2600360dc83c9ed7cd68f74dd3c6c6cbb8d3eb91ed9f36cfc686f8e0"
+      ],
       "text": "Ivy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

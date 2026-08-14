@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "4717c74489f90160fd0df5be6f5a3e67adb0506d22bb6018e4432913bc176287",
+      "sha256": [
+        "4717c74489f90160fd0df5be6f5a3e67adb0506d22bb6018e4432913bc176287"
+      ],
       "text": "真の戦いが始まるな。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4231c12f64678a9d36877cd1998a8139c9fb401cb5ab8be83e532314c47ad5a4",
+      "sha256": [
+        "4231c12f64678a9d36877cd1998a8139c9fb401cb5ab8be83e532314c47ad5a4"
+      ],
       "text": "It's time to make a stand.",
       "source": "official"
     }

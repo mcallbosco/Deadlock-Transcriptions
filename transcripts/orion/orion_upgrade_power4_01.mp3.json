@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "99e2b5d521b0dadf545aa46c7b97262441527f2a12e86372ca430b1f4a9f2f91",
+      "sha256": [
+        "8c70c79a2bc47c52497ecdff02cb8945ca0ff8de667a8f80955f7d02ef289d1b",
+        "99e2b5d521b0dadf545aa46c7b97262441527f2a12e86372ca430b1f4a9f2f91",
+        "da7b143501ad639bee305c6c70e9386748bacb70cc8a2f2114fe64f2698215be"
+      ],
       "text": "You will have no place to hide.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "da7b143501ad639bee305c6c70e9386748bacb70cc8a2f2114fe64f2698215be",
-      "text": "You will have no place to hide.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c70c79a2bc47c52497ecdff02cb8945ca0ff8de667a8f80955f7d02ef289d1b",
-      "text": "You will have no place to hide.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0fb43999266e0fd5c70b65d8aaf62d410e4cdc3f85ed3901fc4b7fd09a848792",
+      "sha256": [
+        "0fb43999266e0fd5c70b65d8aaf62d410e4cdc3f85ed3901fc4b7fd09a848792"
+      ],
       "text": "They will have no place to hide.",
       "source": "official"
     }

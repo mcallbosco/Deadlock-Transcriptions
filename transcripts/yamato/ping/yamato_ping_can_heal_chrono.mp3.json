@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_chrono.mp3",
   "revisions": [
     {
-      "sha256": "04330b74e807a634b4a7fdfb813a0fc8aea7f3ec11d38dfbee066478e6340bc1",
+      "sha256": [
+        "04330b74e807a634b4a7fdfb813a0fc8aea7f3ec11d38dfbee066478e6340bc1",
+        "b96d3d63ecb6ca2b59733f15cfdd93516bd53da4ab31f10f01228e2ce78c94fa"
+      ],
       "text": "Paradox, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b96d3d63ecb6ca2b59733f15cfdd93516bd53da4ab31f10f01228e2ce78c94fa",
-      "text": "Paradox, I can hear you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9c71018a41f858730e2499920483f45778a4b6e552c8f851510ac8ed091c978",
+      "sha256": [
+        "a9c71018a41f858730e2499920483f45778a4b6e552c8f851510ac8ed091c978"
+      ],
       "text": "Paradox, I can heal you!",
       "source": "official"
     }

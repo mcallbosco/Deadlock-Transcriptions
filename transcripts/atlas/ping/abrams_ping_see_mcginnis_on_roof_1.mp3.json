@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_mcginnis_on_roof_1.mp3",
   "revisions": [
     {
-      "sha256": "689bc5e01adf50059db6ca8e385542d5ae8e866faec1ed03e7932f4cb4680318",
-      "text": "McGinnis is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55cf7538cef40e5ce7a7903c064de1991f7f3844526c1c862c65dc1a1024fdfa",
+      "sha256": [
+        "55cf7538cef40e5ce7a7903c064de1991f7f3844526c1c862c65dc1a1024fdfa",
+        "689bc5e01adf50059db6ca8e385542d5ae8e866faec1ed03e7932f4cb4680318"
+      ],
       "text": "McGinnis is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "66583717c8cbe5daa1176a2f181f66cdd10ecfa688724265a25e4d26c0bc6332",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3a90834aca456ea7b8021485fe2c198f9c0c184609be89038c063476a27d1f3",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d10b40393932b00ad3b5f42ad2d832cd90fa373bbf95f8d6105b73b5855a9bf1",
+      "sha256": [
+        "66583717c8cbe5daa1176a2f181f66cdd10ecfa688724265a25e4d26c0bc6332",
+        "d10b40393932b00ad3b5f42ad2d832cd90fa373bbf95f8d6105b73b5855a9bf1",
+        "e3a90834aca456ea7b8021485fe2c198f9c0c184609be89038c063476a27d1f3"
+      ],
       "text": "I see the enemy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

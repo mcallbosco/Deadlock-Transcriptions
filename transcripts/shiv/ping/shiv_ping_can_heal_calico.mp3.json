@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_can_heal_calico.mp3",
   "revisions": [
     {
-      "sha256": "c29e079d80c359e86917ccb11a5de4173e83f011a84bd13887c2ea221f5fa764",
+      "sha256": [
+        "c29e079d80c359e86917ccb11a5de4173e83f011a84bd13887c2ea221f5fa764"
+      ],
       "text": "I kill you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "092d1e3ffd63077e34d347c13ba195cf25ab3a103be185041c6cd3adac2715dd",
+      "sha256": [
+        "092d1e3ffd63077e34d347c13ba195cf25ab3a103be185041c6cd3adac2715dd"
+      ],
       "text": "I'll kill you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ignore_kelvin_1.mp3",
   "revisions": [
     {
-      "sha256": "ec5b61713d84dbd13e0846fe057e900370f0eec57a6027c5bb621588e2d83733",
-      "text": "Ignore Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64f30d44cfec4f82d7f4efa379829727c7b1a27748fd4e42a003cb1440e10ef2",
+      "sha256": [
+        "64f30d44cfec4f82d7f4efa379829727c7b1a27748fd4e42a003cb1440e10ef2",
+        "ec5b61713d84dbd13e0846fe057e900370f0eec57a6027c5bb621588e2d83733"
+      ],
       "text": "Ignore Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

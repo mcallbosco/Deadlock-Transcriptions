@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_with_wraith.mp3",
   "revisions": [
     {
-      "sha256": "979f1b6bed67128e1817b2ee6f4e0fb62b1b87c44ef38b82a3e4b9a29e081acc",
+      "sha256": [
+        "979f1b6bed67128e1817b2ee6f4e0fb62b1b87c44ef38b82a3e4b9a29e081acc",
+        "c4075e0f54f9cf8322849423929d92de676cf480f0d5eabe0499639f878ddef6"
+      ],
       "text": "I'm with you, Rafe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4075e0f54f9cf8322849423929d92de676cf480f0d5eabe0499639f878ddef6",
-      "text": "I'm with you, Rafe!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

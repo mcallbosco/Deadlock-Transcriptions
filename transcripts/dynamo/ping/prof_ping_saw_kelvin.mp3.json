@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_saw_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "fb489bced808473e6e8cee98ab4c1fa59de9c24ce3f98747c4b469f5f059d540",
-      "text": "I saw Calvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f30aea997368e6ccf8f80bddaff10c166a8d3c5c35fc45c9b5b5ea1264b710fd",
+      "sha256": [
+        "f30aea997368e6ccf8f80bddaff10c166a8d3c5c35fc45c9b5b5ea1264b710fd",
+        "fb489bced808473e6e8cee98ab4c1fa59de9c24ce3f98747c4b469f5f059d540"
+      ],
       "text": "I saw Calvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

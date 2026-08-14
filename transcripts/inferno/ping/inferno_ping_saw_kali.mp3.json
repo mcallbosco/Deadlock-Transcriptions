@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_kali.mp3",
   "revisions": [
     {
-      "sha256": "eed04f0be0665d791bed86e3a460ee9caee7eece2467bac8907bf14c28a8ded8",
-      "text": "I saw Kelly.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7436996e0afc5580c2c12bba160ef093f020a5099f79fe3ef273005abb27654f",
+      "sha256": [
+        "7436996e0afc5580c2c12bba160ef093f020a5099f79fe3ef273005abb27654f",
+        "eed04f0be0665d791bed86e3a460ee9caee7eece2467bac8907bf14c28a8ded8"
+      ],
       "text": "I saw Kelly.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

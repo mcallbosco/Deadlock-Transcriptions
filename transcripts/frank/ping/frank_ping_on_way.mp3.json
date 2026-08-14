@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "ebf7362faef9a4cbebcc26bd9064ae6fe8e8d5009eef0e44a18af8c63f2dde6f",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c36adca0c158c6071ae50e092b0ec64cc8c64861e8c47f7fe0b9e391ba27e669",
+      "sha256": [
+        "c36adca0c158c6071ae50e092b0ec64cc8c64861e8c47f7fe0b9e391ba27e669",
+        "ebf7362faef9a4cbebcc26bd9064ae6fe8e8d5009eef0e44a18af8c63f2dde6f"
+      ],
       "text": "On my way.",
       "source": "official"
     }

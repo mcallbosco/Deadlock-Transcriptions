@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_upgrade_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "ebd872e5c191a7e014a620fe3a8255415d4ec2496748a2cddb30b515f901b3b1",
+      "sha256": [
+        "ebd872e5c191a7e014a620fe3a8255415d4ec2496748a2cddb30b515f901b3b1"
+      ],
       "text": "Can we get this?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa11e5ec7bd9e51dd3e34be120e1dd827143e24e4e8e01b57e057edcb65144fe",
-      "text": "Can we get through this?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6fc9ced4f095216dcb32efda9c4d7e3861443413ef7fdd5b8f567f3307205c71",
+      "sha256": [
+        "6fc9ced4f095216dcb32efda9c4d7e3861443413ef7fdd5b8f567f3307205c71",
+        "fa11e5ec7bd9e51dd3e34be120e1dd827143e24e4e8e01b57e057edcb65144fe"
+      ],
       "text": "Can we get through this?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

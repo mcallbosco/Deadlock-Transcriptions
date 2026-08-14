@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_wraith.mp3",
   "revisions": [
     {
-      "sha256": "7a23fafcf18788e1b64678530d4d37472912585bd7e2d62c73bd971b89929b77",
+      "sha256": [
+        "7a23fafcf18788e1b64678530d4d37472912585bd7e2d62c73bd971b89929b77"
+      ],
       "text": "I'm with you, Rick.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e0ffb48d027e57903bfa3f6c08f70e5733a3d47e045e3666c8b0fbb791620cfc",
+      "sha256": [
+        "e0ffb48d027e57903bfa3f6c08f70e5733a3d47e045e3666c8b0fbb791620cfc"
+      ],
       "text": "I'm with you, Raven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

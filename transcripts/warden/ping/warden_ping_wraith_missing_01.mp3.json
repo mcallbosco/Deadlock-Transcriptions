@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "140ee3e08f7ec4395c735522cfb9fd335e93c88b5111c4c6477f3a05e6556556",
+      "sha256": [
+        "11d3a470eb5afe56d6fb8a03bf4cf6b6ccfc9152209004c97478a01dc6dfdb4a",
+        "140ee3e08f7ec4395c735522cfb9fd335e93c88b5111c4c6477f3a05e6556556",
+        "a4e4d3887b2d6788f9efae08dd85686e6be947fef76abd5e8dd2c04e59376e8d"
+      ],
       "text": "Wraith is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a4e4d3887b2d6788f9efae08dd85686e6be947fef76abd5e8dd2c04e59376e8d",
-      "text": "Wraith is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11d3a470eb5afe56d6fb8a03bf4cf6b6ccfc9152209004c97478a01dc6dfdb4a",
-      "text": "Wraith is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2cc48dc41eddd6a52f43ea1e030022388fc5f83b9aec94823772f19030ef7786",
+      "sha256": [
+        "2cc48dc41eddd6a52f43ea1e030022388fc5f83b9aec94823772f19030ef7786"
+      ],
       "text": "Wraith's missing",
       "source": "official"
     }

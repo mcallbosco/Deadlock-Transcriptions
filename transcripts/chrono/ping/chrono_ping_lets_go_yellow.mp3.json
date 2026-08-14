@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "f5f716d1054ff057d045bcae0cc008d71f05b1648cfafdb0be77956c59112f52",
-      "text": "Let's go, yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f80dfc82c160fd09b43266516af4b39a58f98b93aa34da0de3b5d023ef344865",
+      "sha256": [
+        "f5f716d1054ff057d045bcae0cc008d71f05b1648cfafdb0be77956c59112f52",
+        "f80dfc82c160fd09b43266516af4b39a58f98b93aa34da0de3b5d023ef344865"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

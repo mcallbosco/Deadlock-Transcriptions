@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_yamato_check_items.mp3",
   "revisions": [
     {
-      "sha256": "8541dc46107bde6a2de156d308c97ac2a40268e721216ace982ff004c99bc5b2",
-      "text": "Check out what Yamato bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "348f6c4c6cc64bd995a2a0bb6f1eb4a8a45512c1606113dee51f7c88d1ea7041",
+      "sha256": [
+        "348f6c4c6cc64bd995a2a0bb6f1eb4a8a45512c1606113dee51f7c88d1ea7041",
+        "8541dc46107bde6a2de156d308c97ac2a40268e721216ace982ff004c99bc5b2"
+      ],
       "text": "Check out what Yamato bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_ghost_check_items.mp3",
   "revisions": [
     {
-      "sha256": "dc9b2a01f91dc5b8a7b7941ff8d6d075283c7f0da7a1c824199902c724884454",
+      "sha256": [
+        "805ef026ae527db68a7408d03e1a90ff8d72ae2e31cec474511e6c8530e52b7d",
+        "dc9b2a01f91dc5b8a7b7941ff8d6d075283c7f0da7a1c824199902c724884454"
+      ],
       "text": "Check out what guys bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "805ef026ae527db68a7408d03e1a90ff8d72ae2e31cec474511e6c8530e52b7d",
-      "text": "Check out what guys bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

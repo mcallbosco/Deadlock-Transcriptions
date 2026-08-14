@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_atlas_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "7aa41bc2db2494228175fbf4a0fa0acb70489d8dcfa8d733f9b0b98f0245d1ab",
-      "text": "Abrams in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "487fe86a979ee57381b923976b277a573b6827d2128a7341a28ab325eb6b5325",
+      "sha256": [
+        "487fe86a979ee57381b923976b277a573b6827d2128a7341a28ab325eb6b5325",
+        "7aa41bc2db2494228175fbf4a0fa0acb70489d8dcfa8d733f9b0b98f0245d1ab"
+      ],
       "text": "Abrams in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

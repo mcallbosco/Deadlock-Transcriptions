@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "1ab7d4c0f4351c10ee9b969aebc0a09b7169f3d52c1e75e7ca63418a4acd990d",
+      "sha256": [
+        "1ab7d4c0f4351c10ee9b969aebc0a09b7169f3d52c1e75e7ca63418a4acd990d"
+      ],
       "text": "I saw them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

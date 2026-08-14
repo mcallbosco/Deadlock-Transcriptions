@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_kncokdown_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "579612634b9ebd7361aca5c412a45729102ea90244f5ce7ca32b26670ccb2794",
-      "text": "Knockdown's on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cbb6635eddbb125e2c8cebb9083efa945e78617f0695acdfbb84032d00812c60",
+      "sha256": [
+        "579612634b9ebd7361aca5c412a45729102ea90244f5ce7ca32b26670ccb2794",
+        "cbb6635eddbb125e2c8cebb9083efa945e78617f0695acdfbb84032d00812c60"
+      ],
       "text": "Knockdown's on cooldown.",
       "source": "official"
     }

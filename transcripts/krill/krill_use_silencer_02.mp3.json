@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_silencer_02.mp3",
   "revisions": [
     {
-      "sha256": "f67bc51d6f4d664816ffc5faac0cc53ac17c7a4e3c416eb28174569373bb8cf8",
-      "text": "I'll silence them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d604a302be97838fab5e8d753bdc99661ab5cd7fca27220a299d6bd78aa42ff",
-      "text": "I'll silence them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc6dcde2b70541c2572a99fe417fa6189e3f622335a6c81294e3da9216672991",
+      "sha256": [
+        "6d604a302be97838fab5e8d753bdc99661ab5cd7fca27220a299d6bd78aa42ff",
+        "cc6dcde2b70541c2572a99fe417fa6189e3f622335a6c81294e3da9216672991",
+        "f67bc51d6f4d664816ffc5faac0cc53ac17c7a4e3c416eb28174569373bb8cf8"
+      ],
       "text": "I'll silence them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

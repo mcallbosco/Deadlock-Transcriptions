@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_lash_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "93b7e6155b8a2873b39ae5bbd1151f7dcd0e820b4475e4a022c100fedd2fe7c9",
+      "sha256": [
+        "93b7e6155b8a2873b39ae5bbd1151f7dcd0e820b4475e4a022c100fedd2fe7c9"
+      ],
       "text": "Last one to the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fe51d95db9f3d4c424c1cf966bee0334028eb9a474409275a8c69d2fb3b82fd6",
+      "sha256": [
+        "c0f3d8ef4e7374bb4ed1632f6dadb4275ecc5f10d21e7f11361104146f548c42",
+        "fe51d95db9f3d4c424c1cf966bee0334028eb9a474409275a8c69d2fb3b82fd6"
+      ],
       "text": "Blast under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0f3d8ef4e7374bb4ed1632f6dadb4275ecc5f10d21e7f11361104146f548c42",
-      "text": "Blast under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

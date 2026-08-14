@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_engineer_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "12ed63ae27b6812ac879a72fc777dcbb30d2ba556352bc601ddfd626eaa5b860",
-      "text": "Engineers on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1dcebe4fbbc5cc7f6d0e53ec84e491a4a2bc15a5fcf614203abdfc4648fd29b",
+      "sha256": [
+        "12ed63ae27b6812ac879a72fc777dcbb30d2ba556352bc601ddfd626eaa5b860",
+        "a1dcebe4fbbc5cc7f6d0e53ec84e491a4a2bc15a5fcf614203abdfc4648fd29b"
+      ],
       "text": "Engineers on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

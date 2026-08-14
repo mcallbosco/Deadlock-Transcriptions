@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "573d846c74033c6d99e93ab2acc16b23fe3cc3e61359003750ad561b6c9ed19b",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5fdd8a93091f68d399f9ee7c12f992f07c42a4f5dcca290d7e4191d03b38fe0",
+      "sha256": [
+        "573d846c74033c6d99e93ab2acc16b23fe3cc3e61359003750ad561b6c9ed19b",
+        "e5fdd8a93091f68d399f9ee7c12f992f07c42a4f5dcca290d7e4191d03b38fe0"
+      ],
       "text": "I'm going in!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

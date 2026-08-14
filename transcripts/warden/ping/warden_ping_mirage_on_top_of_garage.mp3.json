@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_mirage_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "3666f726bdda39550679760e244555e7834be5f939452f9ae202e7ed3a18cea1",
+      "sha256": [
+        "28eef6f2dd46a0734a4590c393335ac6f3f7434c55a63f7146b3206247d3d9bb",
+        "3666f726bdda39550679760e244555e7834be5f939452f9ae202e7ed3a18cea1",
+        "a611b7d74bf3fc813ed960dcb7220b27f2cdf22fa093925532c7af88ff99d91b"
+      ],
       "text": "Mirage is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a611b7d74bf3fc813ed960dcb7220b27f2cdf22fa093925532c7af88ff99d91b",
-      "text": "Mirage is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28eef6f2dd46a0734a4590c393335ac6f3f7434c55a63f7146b3206247d3d9bb",
-      "text": "Mirage is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4798f1c098a65a24af2ee4d043217767d2bd2dfa7fee004d4fa1ff9c3ea7873",
+      "sha256": [
+        "d4798f1c098a65a24af2ee4d043217767d2bd2dfa7fee004d4fa1ff9c3ea7873"
+      ],
       "text": "Mirage's on top of the garage!",
       "source": "official"
     }

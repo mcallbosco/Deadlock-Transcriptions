@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_vindicta_was_here_1.mp3",
   "revisions": [
     {
-      "sha256": "b292f0cd2d5d36ee2096d02ac1080444b782c8ac296587db79ce20c8ce14842d",
+      "sha256": [
+        "b292f0cd2d5d36ee2096d02ac1080444b782c8ac296587db79ce20c8ce14842d"
+      ],
       "text": "Vendicta was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fd91b313d6f8827d5103ec2679f0b1d02cbe5559b19eed877f804f089e8629e6",
+      "sha256": [
+        "fd91b313d6f8827d5103ec2679f0b1d02cbe5559b19eed877f804f089e8629e6"
+      ],
       "text": "Vendetta was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

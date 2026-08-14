@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "f7221452a5225580aa0963254534fdb0d09aea6bbf9707b445b1d5eae9bb6882",
+      "sha256": [
+        "f7221452a5225580aa0963254534fdb0d09aea6bbf9707b445b1d5eae9bb6882"
+      ],
       "text": "Careful, Battlebox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8ce07459af0dd31cfcc4def7d8556f10baef3150aa69cbe0ad310d67abb04d21",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4570aa213d5cda02de3d245d9039e6d17064097a7db3a2b5db85f48576817725",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88b4ba10e114aa3124847ad35918f95a765f332f07b854833b56ee7d59ee61f8",
+      "sha256": [
+        "4570aa213d5cda02de3d245d9039e6d17064097a7db3a2b5db85f48576817725",
+        "88b4ba10e114aa3124847ad35918f95a765f332f07b854833b56ee7d59ee61f8",
+        "8ce07459af0dd31cfcc4def7d8556f10baef3150aa69cbe0ad310d67abb04d21"
+      ],
       "text": "Careful, Dynamo…",
       "source": "official"
     }

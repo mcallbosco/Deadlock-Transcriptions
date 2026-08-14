@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_chrono_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "892f0fe77ebc4d1fa2be840cf48cad9b8dc3fa376c7eeb6c9a85b7547283e364",
+      "sha256": [
+        "892f0fe77ebc4d1fa2be840cf48cad9b8dc3fa376c7eeb6c9a85b7547283e364"
+      ],
       "text": "Paradox is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "646e5ddae1d81f334c3eeb44c3514dffb206813c61357d1f49239fdc2df81058",
+      "sha256": [
+        "646e5ddae1d81f334c3eeb44c3514dffb206813c61357d1f49239fdc2df81058",
+        "da869fc5feb5b5a213b395fcc1118d59c327530788016cca1075dfe2269f7d74"
+      ],
       "text": "Paradox on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da869fc5feb5b5a213b395fcc1118d59c327530788016cca1075dfe2269f7d74",
-      "text": "Paradox on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

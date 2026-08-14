@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "fddcc24910d2323fe9fcce14ed06df68aa9ec12162edb6b7cb3eb1e4e04c2fea",
-      "text": "I need to heal!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e74cf75d20ba0f47c2d06e13c051e5c48e83516d0d6c42217a5e51a326ba24f",
+      "sha256": [
+        "3e74cf75d20ba0f47c2d06e13c051e5c48e83516d0d6c42217a5e51a326ba24f",
+        "fddcc24910d2323fe9fcce14ed06df68aa9ec12162edb6b7cb3eb1e4e04c2fea"
+      ],
       "text": "I need to heal!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

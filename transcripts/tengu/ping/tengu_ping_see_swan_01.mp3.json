@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_swan_01.mp3",
   "revisions": [
     {
-      "sha256": "0e68806352ee30420044f9b8152ddead7511fea1025fe43b60e8f834faa5b906",
+      "sha256": [
+        "0e68806352ee30420044f9b8152ddead7511fea1025fe43b60e8f834faa5b906"
+      ],
       "text": "I see one!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

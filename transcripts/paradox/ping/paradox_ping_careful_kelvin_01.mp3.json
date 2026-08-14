@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "b606ced53ff176a6f15baa6a8dbc53c7e8ef15fd91c98f6d1c95a5a033f17114",
+      "sha256": [
+        "b606ced53ff176a6f15baa6a8dbc53c7e8ef15fd91c98f6d1c95a5a033f17114",
+        "e77425512ece161050c3097dfe8c1173d0741fca93c9d3b302f578c85170589f"
+      ],
       "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e77425512ece161050c3097dfe8c1173d0741fca93c9d3b302f578c85170589f",
-      "text": "Careful, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

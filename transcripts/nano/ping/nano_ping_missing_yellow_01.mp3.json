@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "1c7c55118b0604455f380cb75fdd669efcf417507f62b50fb3ce0803598ad7e8",
+      "sha256": [
+        "1c7c55118b0604455f380cb75fdd669efcf417507f62b50fb3ce0803598ad7e8"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_t2_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "75affbff5869b5d33a2696c6e542cd67af735ee3a088adb53c3a2e61bd217d8d",
+      "sha256": [
+        "75affbff5869b5d33a2696c6e542cd67af735ee3a088adb53c3a2e61bd217d8d"
+      ],
       "text": "They're taking our tier 2!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f100924d0ab52e8f1cb155c6ff01267e90f6c0dd4adc08e198dab7cf53e30828",
-      "text": "They're taking our tier two!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "346b817f7fb6c93f8cfdaa1514bd8c64e31a611558fbd20aa8677c8f43f59444",
+      "sha256": [
+        "346b817f7fb6c93f8cfdaa1514bd8c64e31a611558fbd20aa8677c8f43f59444",
+        "f100924d0ab52e8f1cb155c6ff01267e90f6c0dd4adc08e198dab7cf53e30828"
+      ],
       "text": "They're taking our tier two!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

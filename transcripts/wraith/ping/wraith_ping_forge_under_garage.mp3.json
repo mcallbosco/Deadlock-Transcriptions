@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_forge_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "667895d65fa702501b70b4356985f62de7f1a41a727097fd8d09f090d2a5fe09",
+      "sha256": [
+        "667895d65fa702501b70b4356985f62de7f1a41a727097fd8d09f090d2a5fe09",
+        "acb273610fe1858c0c6c148b0d3aa0175ce7d9e58c1f96c23d711794ef56b0cf",
+        "cd492558e6cf889187fd6459d0e8533c546561fe9d7a1fee740a9adf007f758c"
+      ],
       "text": "McGinnis is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "acb273610fe1858c0c6c148b0d3aa0175ce7d9e58c1f96c23d711794ef56b0cf",
-      "text": "McGinnis is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd492558e6cf889187fd6459d0e8533c546561fe9d7a1fee740a9adf007f758c",
-      "text": "McGinnis is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2190db2e2981341f3b8fd347a8d10a91ff561832e7235863d75e7b1587f6ce88",
+      "sha256": [
+        "2190db2e2981341f3b8fd347a8d10a91ff561832e7235863d75e7b1587f6ce88"
+      ],
       "text": "McGinnis's under the garage!",
       "source": "official"
     }

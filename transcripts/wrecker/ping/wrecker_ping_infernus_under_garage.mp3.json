@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_infernus_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "75315e647ca5c26276711e4f3ce79e4bd68ebbc706097432e41fba00196e797e",
-      "text": "Infernus under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6daea58156230f79819c3378758b6a499ea46354c4cf2ebf62bf959f3ea3997c",
+      "sha256": [
+        "6daea58156230f79819c3378758b6a499ea46354c4cf2ebf62bf959f3ea3997c",
+        "75315e647ca5c26276711e4f3ce79e4bd68ebbc706097432e41fba00196e797e"
+      ],
       "text": "Infernus under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

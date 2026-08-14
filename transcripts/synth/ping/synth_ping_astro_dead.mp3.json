@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_astro_dead.mp3",
   "revisions": [
     {
-      "sha256": "1c006a4220321dbd7324ee27bb27e085f3cb139188be9ce5dbeb823a1b97a728",
+      "sha256": [
+        "1c006a4220321dbd7324ee27bb27e085f3cb139188be9ce5dbeb823a1b97a728"
+      ],
       "text": "Holliday is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

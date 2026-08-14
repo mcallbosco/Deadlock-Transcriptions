@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_bebop_start_01.mp3",
   "revisions": [
     {
-      "sha256": "ff99932f733877d9198c423872b841dddf4b772b103e14fb0108652509bf7c09",
+      "sha256": [
+        "ff99932f733877d9198c423872b841dddf4b772b103e14fb0108652509bf7c09"
+      ],
       "text": "Crush time, Bebop. Impose your law on them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "05d4131ae4278017aaf6ea74b3153ef9e47cacc840bf48e462f8b75804ad241b",
-      "text": "Ms. Shelly is counting on you, Bebop. Only you can save her.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "05d4131ae4278017aaf6ea74b3153ef9e47cacc840bf48e462f8b75804ad241b",
+        "b31c74702f56c4ddc0b212e9cdb9be0afa29075e020527ce6b1eaea2fc8aa9b7"
+      ],
+      "text": "Ms Shelly is counting on you Bebop.  Only you can save her.",
+      "source": "official"
     },
     {
-      "sha256": "dcaf253154f4b25a4ae09f411c6b7e5863cfe1222d80db94842cab3a4df4648f",
+      "sha256": [
+        "dcaf253154f4b25a4ae09f411c6b7e5863cfe1222d80db94842cab3a4df4648f"
+      ],
       "text": "Miss Shelly is counting on you, Bebop. Only you can save her.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b31c74702f56c4ddc0b212e9cdb9be0afa29075e020527ce6b1eaea2fc8aa9b7",
-      "text": "Ms Shelly is counting on you Bebop.  Only you can save her.",
-      "source": "official"
     }
   ]
 }

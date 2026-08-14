@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_forge.mp3",
   "revisions": [
     {
-      "sha256": "97ccdafda9b01a5b8334c9478953fdd3cd5962b9e9658c19894cdae88b9146cf",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69ed2a577f24016b891e0e83aa0c378782d400d26d4f0ceb4d1c3e80783f62c9",
+      "sha256": [
+        "69ed2a577f24016b891e0e83aa0c378782d400d26d4f0ceb4d1c3e80783f62c9",
+        "97ccdafda9b01a5b8334c9478953fdd3cd5962b9e9658c19894cdae88b9146cf"
+      ],
       "text": "I see McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

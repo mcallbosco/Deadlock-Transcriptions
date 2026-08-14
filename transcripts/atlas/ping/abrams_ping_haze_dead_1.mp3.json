@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_haze_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "256e35d3cf8dbc6ffc45f96c3ee2f2c749af082d70dfd5aa11b4624b6ab9a4d1",
-      "text": "Haze is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3440a8a95abe03518e04b24e467c9c443996ed832ac172f5c068b197135ffebc",
+      "sha256": [
+        "256e35d3cf8dbc6ffc45f96c3ee2f2c749af082d70dfd5aa11b4624b6ab9a4d1",
+        "3440a8a95abe03518e04b24e467c9c443996ed832ac172f5c068b197135ffebc"
+      ],
       "text": "Haze is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

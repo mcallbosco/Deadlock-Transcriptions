@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "820b65a4d2194ee6e1cc58d2ee1cbf532f9ce1b62af16ba82e29d6c5459d61e7",
-      "text": "Atlas is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46fa6b5da8f45b6e61ad3aa83e25daed53c97d3076ac72b32739b15271731472",
+      "sha256": [
+        "46fa6b5da8f45b6e61ad3aa83e25daed53c97d3076ac72b32739b15271731472",
+        "820b65a4d2194ee6e1cc58d2ee1cbf532f9ce1b62af16ba82e29d6c5459d61e7"
+      ],
       "text": "Atlas is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

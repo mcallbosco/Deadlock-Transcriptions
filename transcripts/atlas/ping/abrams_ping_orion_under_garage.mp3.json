@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_orion_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "581ee4b9741537eed4a5c8f724eb9002172dffe7c68374c1bf25518e28856323",
-      "text": "Great talents under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99acc88602412bba714fa8611420c665bd55588c7785725a30b8d9cbaf77eb64",
-      "text": "Great talent's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4cff68d8f47ea4abceac0024a93cb4dc5f9eed25ec64676b44a006895ee066d0",
+      "sha256": [
+        "4cff68d8f47ea4abceac0024a93cb4dc5f9eed25ec64676b44a006895ee066d0",
+        "581ee4b9741537eed4a5c8f724eb9002172dffe7c68374c1bf25518e28856323",
+        "99acc88602412bba714fa8611420c665bd55588c7785725a30b8d9cbaf77eb64"
+      ],
       "text": "Great talent's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

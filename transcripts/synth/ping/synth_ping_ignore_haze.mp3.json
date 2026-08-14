@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_ignore_haze.mp3",
   "revisions": [
     {
-      "sha256": "325259d78a3211c5f6534ebe6dfd72892c35169fd1ba212da319c5956a3b7b67",
+      "sha256": [
+        "325259d78a3211c5f6534ebe6dfd72892c35169fd1ba212da319c5956a3b7b67"
+      ],
       "text": "Ignore Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

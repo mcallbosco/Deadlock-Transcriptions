@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_health_nova_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "f7e8217c8ba9d8183cbb54a2f9acd787ec5726e473eccb1ce1911087adb4ecfc",
+      "sha256": [
+        "f7e8217c8ba9d8183cbb54a2f9acd787ec5726e473eccb1ce1911087adb4ecfc"
+      ],
       "text": "Health node is almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ce302e15607f06a776ed453e02d66b71da1ff50b641c1a665d7c38a392fe0997",
+      "sha256": [
+        "ce302e15607f06a776ed453e02d66b71da1ff50b641c1a665d7c38a392fe0997"
+      ],
       "text": "Health Nova's almost ready.",
       "source": "official"
     }

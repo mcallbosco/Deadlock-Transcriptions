@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_inferno.mp3",
   "revisions": [
     {
-      "sha256": "5a4cae6f4b9e969d92edb7ced8a5c6d1bd88707db8ad8c21fb0c9a9c3955ff34",
+      "sha256": [
+        "28f385a85705fc504cb38f86167dcf2c27e86292ad463b4a95762f7baa0f7f30",
+        "5a4cae6f4b9e969d92edb7ced8a5c6d1bd88707db8ad8c21fb0c9a9c3955ff34"
+      ],
       "text": "I saw Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28f385a85705fc504cb38f86167dcf2c27e86292ad463b4a95762f7baa0f7f30",
-      "text": "I saw Infernus!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

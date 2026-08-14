@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_operative_dead.mp3",
   "revisions": [
     {
-      "sha256": "6146832cb61cf10b00dea0b116a1d104aa5de059f1d4aacc5ff689b61643ebc8",
+      "sha256": [
+        "6146832cb61cf10b00dea0b116a1d104aa5de059f1d4aacc5ff689b61643ebc8"
+      ],
       "text": "Raven is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,28 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "4641eb5a2c4469b8db6d10105ab53d14f7be06a8da5136ec06df78d96fb92e8d",
+      "sha256": [
+        "45c63de9dfb569377af89278e8f731ac6eed01a74aace03bc59aa32e6ec20a36",
+        "4641eb5a2c4469b8db6d10105ab53d14f7be06a8da5136ec06df78d96fb92e8d",
+        "c695f5818a7f483825bab4293968a869ce26425ffe73c0bdecba5ef6b36a274b",
+        "cb931efdaf4171e38c6c80afa030663345d1e13a3a6f55ae29e0257d3159b8b5"
+      ],
       "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c695f5818a7f483825bab4293968a869ce26425ffe73c0bdecba5ef6b36a274b",
-      "text": "I saw Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45c63de9dfb569377af89278e8f731ac6eed01a74aace03bc59aa32e6ec20a36",
-      "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb931efdaf4171e38c6c80afa030663345d1e13a3a6f55ae29e0257d3159b8b5",
-      "text": "I saw Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

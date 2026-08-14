@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_lash.mp3",
   "revisions": [
     {
-      "sha256": "32ba66e4a6c6653701d1f5aa6f849ff2b9c1d75141bb7c53d810bf709acd9f80",
+      "sha256": [
+        "32ba66e4a6c6653701d1f5aa6f849ff2b9c1d75141bb7c53d810bf709acd9f80",
+        "6e4b7621f67ca6e510f94cb5e34226be888683857ed7ad1948bd9a3670cfe38e"
+      ],
       "text": "I'm with you, Lash!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6e4b7621f67ca6e510f94cb5e34226be888683857ed7ad1948bd9a3670cfe38e",
-      "text": "I'm with you, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3b893374feb31ddaa1ae6ed82882c9b3a1773b098ddcd1b5a3d0cba286abded",
+      "sha256": [
+        "d3b893374feb31ddaa1ae6ed82882c9b3a1773b098ddcd1b5a3d0cba286abded"
+      ],
       "text": "I'm raising lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

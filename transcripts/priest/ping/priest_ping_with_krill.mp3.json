@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "559697e6f584b318e3e19e82bf7daff3cbedd225eefa13f0d1e2003b04ecd70b",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02afc8e58c3fa23874bbff269345e30dc3135a1502410b0f2d1e6296eef7c9ce",
+      "sha256": [
+        "02afc8e58c3fa23874bbff269345e30dc3135a1502410b0f2d1e6296eef7c9ce",
+        "559697e6f584b318e3e19e82bf7daff3cbedd225eefa13f0d1e2003b04ecd70b"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

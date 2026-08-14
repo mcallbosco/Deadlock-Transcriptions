@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_warden_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b2b256c31e24e155a347aa05f257c8c6b528db0700b3a37c08b8e06048b84751",
+      "sha256": [
+        "b2b256c31e24e155a347aa05f257c8c6b528db0700b3a37c08b8e06048b84751"
+      ],
       "text": "All hands, on to the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "80d28689784a572445e99f7e12232ec90a2479a2064f70e135a863a73f61e569",
+      "sha256": [
+        "80d28689784a572445e99f7e12232ec90a2479a2064f70e135a863a73f61e569"
+      ],
       "text": "What is under the garage?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3722d4e2b0456827e816c0c72b600d8a2206e9c62fe2e94ae7ef8d562682b9ef",
+      "sha256": [
+        "3722d4e2b0456827e816c0c72b600d8a2206e9c62fe2e94ae7ef8d562682b9ef"
+      ],
       "text": "Warden's under the garage!",
       "source": "official"
     }

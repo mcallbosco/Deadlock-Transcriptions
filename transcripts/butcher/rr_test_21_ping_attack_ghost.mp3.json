@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_attack_ghost.mp3",
   "revisions": [
     {
-      "sha256": "c9d802cdf2237b4b0f66da2ad1086570b42ea40dbd8e774df498ed8c512b923f",
-      "text": "Let's take out Ghost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d734ac4a6954b2910e8e2e90a1cb31c82bda7aa993886a7fa588a4e1d8d6cbc5",
-      "text": "Let's take out Ghost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6df410bf89a9b8fc3ca9eaf52748954fb1819b0a32b3cd1d22ce3aa2bff5ca7b",
+      "sha256": [
+        "6df410bf89a9b8fc3ca9eaf52748954fb1819b0a32b3cd1d22ce3aa2bff5ca7b",
+        "c9d802cdf2237b4b0f66da2ad1086570b42ea40dbd8e774df498ed8c512b923f",
+        "d734ac4a6954b2910e8e2e90a1cb31c82bda7aa993886a7fa588a4e1d8d6cbc5"
+      ],
       "text": "Let's take out Ghost.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

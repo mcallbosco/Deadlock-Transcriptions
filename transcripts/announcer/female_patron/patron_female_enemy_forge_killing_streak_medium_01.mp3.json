@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_enemy_forge_killing_streak_medium_01.mp3",
   "revisions": [
     {
-      "sha256": "80a8d4d1e40cb8e621d40bb8201442fe22d91bd848da913e0b7e7725c9e5204a",
+      "sha256": [
+        "80a8d4d1e40cb8e621d40bb8201442fe22d91bd848da913e0b7e7725c9e5204a"
+      ],
       "text": "Break forges machines.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ecf48aa5c0b3d79f6599700c2829689a954e521b49725f9ae3ebb6d281ab83eb",
-      "text": "Don't let McGinnis lure you into a trap.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "330c2d0063405c571c8b591d32bfeea21302ab4adcc313f6445514d8fd1b9b39",
+      "sha256": [
+        "330c2d0063405c571c8b591d32bfeea21302ab4adcc313f6445514d8fd1b9b39",
+        "ecf48aa5c0b3d79f6599700c2829689a954e521b49725f9ae3ebb6d281ab83eb"
+      ],
       "text": "Don't let McGinnis lure you into a trap!",
       "source": "official"
     }

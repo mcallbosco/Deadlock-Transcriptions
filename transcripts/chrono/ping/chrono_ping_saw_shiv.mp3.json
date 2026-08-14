@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_saw_shiv.mp3",
   "revisions": [
     {
-      "sha256": "25b795c7ef2c2b103bb28fddbdfb865a97434524743a156d1594d797f3698613",
+      "sha256": [
+        "25b795c7ef2c2b103bb28fddbdfb865a97434524743a156d1594d797f3698613",
+        "8157795bab10a778f29cfb674ea4e2d7ee48f04ada10a027c5eef52ff395f75b"
+      ],
       "text": "I saw Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8157795bab10a778f29cfb674ea4e2d7ee48f04ada10a027c5eef52ff395f75b",
-      "text": "I saw Shiv!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

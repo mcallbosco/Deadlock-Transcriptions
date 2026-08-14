@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_warden_03.mp3",
   "revisions": [
     {
-      "sha256": "e303ee0b16c21c7f46d298a3397071765a8484bc36e5159c4c811b848eb1e583",
-      "text": "Wardens not a threat.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d119df1db2003adb5b5b5f7ecdeddc350cb5a34669719c321f5d0802c6bae39e",
-      "text": "Wardens not a threat.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7fa4015c9546c8cb910138c79ef295d72b2a921ded16452e585a94a5d47b6ffd",
+      "sha256": [
+        "7fa4015c9546c8cb910138c79ef295d72b2a921ded16452e585a94a5d47b6ffd",
+        "d119df1db2003adb5b5b5f7ecdeddc350cb5a34669719c321f5d0802c6bae39e",
+        "e303ee0b16c21c7f46d298a3397071765a8484bc36e5159c4c811b848eb1e583"
+      ],
       "text": "Warden's not a threat",
       "source": "official"
     }

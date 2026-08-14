@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_lets_go_purple.mp3",
   "revisions": [
     {
-      "sha256": "282334e3f233fa94db4d4f3adb05cccfd4cfd04d92c381cbc188312c096576da",
-      "text": "Let's go purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0850d95ed8a28b794a331fe285facf9825f693c562c2399f7c27a43a319ae32b",
-      "text": "Let's go purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d27c5462ebb6a0540c403a32bbcc21d9b0658c054efaf6dd47f036b066e77487",
-      "text": "Let's go purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49c9c22b4a7ced4982a59b0435ff36f9f26378dee7b13c252687bedec4eda4cf",
+      "sha256": [
+        "0850d95ed8a28b794a331fe285facf9825f693c562c2399f7c27a43a319ae32b",
+        "282334e3f233fa94db4d4f3adb05cccfd4cfd04d92c381cbc188312c096576da",
+        "49c9c22b4a7ced4982a59b0435ff36f9f26378dee7b13c252687bedec4eda4cf",
+        "d27c5462ebb6a0540c403a32bbcc21d9b0658c054efaf6dd47f036b066e77487"
+      ],
       "text": "Let's go purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

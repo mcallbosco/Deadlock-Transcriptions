@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_ignore_chrono.mp3",
   "revisions": [
     {
-      "sha256": "06796c83768a371714d639a61b2daed26c75cd535fba9db39d0d55fa6cedcb51",
+      "sha256": [
+        "06796c83768a371714d639a61b2daed26c75cd535fba9db39d0d55fa6cedcb51",
+        "54415f84d63d8b5b44d9c253faf02a6c6f135b9b900c125ffd157aefaa1ff0bf",
+        "f55edd95ac04d394feb2ddc4dc60fafec9d6395fd17dcd0e53b44d2f0bf21358"
+      ],
       "text": "Ignore Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f55edd95ac04d394feb2ddc4dc60fafec9d6395fd17dcd0e53b44d2f0bf21358",
-      "text": "Ignore Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54415f84d63d8b5b44d9c253faf02a6c6f135b9b900c125ffd157aefaa1ff0bf",
-      "text": "Ignore Paradox!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

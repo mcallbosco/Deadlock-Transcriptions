@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_need_help_purple.mp3",
   "revisions": [
     {
-      "sha256": "d2104ac34b650933d6689a68466c9a4c73f2f1b88f38cf9902cf576129fa1458",
-      "text": "I need help on purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9bd9a9eb19f1d9f1a4531e19eb2bae5b06f0d93c6f057b1c86836c00a85b1db9",
-      "text": "I need help on purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2c40d4970a002c14ffb54582aa11f07c726a4e3e771c7f0ddd8816e950a6d45",
+      "sha256": [
+        "9bd9a9eb19f1d9f1a4531e19eb2bae5b06f0d93c6f057b1c86836c00a85b1db9",
+        "b2c40d4970a002c14ffb54582aa11f07c726a4e3e771c7f0ddd8816e950a6d45",
+        "d2104ac34b650933d6689a68466c9a4c73f2f1b88f38cf9902cf576129fa1458"
+      ],
       "text": "I need help on purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

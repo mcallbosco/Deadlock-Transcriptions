@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_mcginnis_was_here.mp3",
   "revisions": [
     {
-      "sha256": "42d99696992dc1b15909553c04015a9826ff2566154a9a5dbf71c55bd8782a1c",
+      "sha256": [
+        "42d99696992dc1b15909553c04015a9826ff2566154a9a5dbf71c55bd8782a1c"
+      ],
       "text": "McGinnis was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

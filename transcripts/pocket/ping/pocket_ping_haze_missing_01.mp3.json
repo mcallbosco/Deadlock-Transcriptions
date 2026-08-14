@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "57bbdf4291a1b9788ceef1f07b8f646a8bb78f2315d9c3caf2e6023ede44b4c1",
-      "text": "Case is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbee61bdb18d5cef6aa85be5dbc98e6ff3eebe161d84661f295726dd41ad3832",
+      "sha256": [
+        "57bbdf4291a1b9788ceef1f07b8f646a8bb78f2315d9c3caf2e6023ede44b4c1",
+        "fbee61bdb18d5cef6aa85be5dbc98e6ff3eebe161d84661f295726dd41ad3832"
+      ],
       "text": "Case is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

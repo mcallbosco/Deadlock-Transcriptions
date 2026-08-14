@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_near_miss_02.mp3",
   "revisions": [
     {
-      "sha256": "215ad050a24c9d83fc39ebb4ae41550bb27d748808eb322d617c1502fe05d54f",
-      "text": "You got lucky.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0a76559f299930ef144bb8dd37306f67bc2e71090059f16eae1fd429cfc9caec",
+      "sha256": [
+        "0a76559f299930ef144bb8dd37306f67bc2e71090059f16eae1fd429cfc9caec",
+        "215ad050a24c9d83fc39ebb4ae41550bb27d748808eb322d617c1502fe05d54f"
+      ],
       "text": "You got lucky.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

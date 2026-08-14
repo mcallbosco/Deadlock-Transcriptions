@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_stun_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "183a3663d91f98ee3a0b8ad97f84ae50a5476da84bd29f0ae71014d47c3612fb",
+      "sha256": [
+        "183a3663d91f98ee3a0b8ad97f84ae50a5476da84bd29f0ae71014d47c3612fb"
+      ],
       "text": "Stone Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dfe857d856046cd8085718caf23b9bfe3a38fb5016a0567a363a56f78bfdbe75",
+      "sha256": [
+        "8aedc54a18e22d60a1781082412ced6f8510bd7f3b47d366b4b09fe9dff1b05b",
+        "dfe857d856046cd8085718caf23b9bfe3a38fb5016a0567a363a56f78bfdbe75"
+      ],
       "text": "Sunwarden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8aedc54a18e22d60a1781082412ced6f8510bd7f3b47d366b4b09fe9dff1b05b",
-      "text": "Sun Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36389824384b812c7e4e5c38ef3ca9747091134ecb9ad929e577295b7964ec95",
+      "sha256": [
+        "36389824384b812c7e4e5c38ef3ca9747091134ecb9ad929e577295b7964ec95"
+      ],
       "text": "Stun Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

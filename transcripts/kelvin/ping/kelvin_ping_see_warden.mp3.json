@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_see_warden.mp3",
   "revisions": [
     {
-      "sha256": "baab7fc490aa4bd92fedd03a7dda3f4e3b1288afe861b5eeea2d8cbc301ed923",
+      "sha256": [
+        "baab7fc490aa4bd92fedd03a7dda3f4e3b1288afe861b5eeea2d8cbc301ed923"
+      ],
       "text": "I see both of them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "72b5660b271e259c840ebd8b2eef41d1c9253a9ace03fd288812fa8fb6d6826c",
+      "sha256": [
+        "72b5660b271e259c840ebd8b2eef41d1c9253a9ace03fd288812fa8fb6d6826c"
+      ],
       "text": "I see Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

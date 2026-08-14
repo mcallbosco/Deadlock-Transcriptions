@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_dynamo_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a3bee0d832c33f0d62c7755970711f516a63c79ac1068bf5f240b686655c49b2",
-      "text": "Dynamo's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a65e875c96bc6db00f734ef8115863e041417d844d3f2eae1660d188b0c7b28d",
-      "text": "Dynamo's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8562c068f0bc504bcfdd75db5ee40a65adaa5f6782eddab2d4add0c10deaaf6b",
-      "text": "Dynamo's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "681fc9e8deec162c1911133474a895b8f99ab00f972d66fe9edf6b5e251cd820",
+      "sha256": [
+        "681fc9e8deec162c1911133474a895b8f99ab00f972d66fe9edf6b5e251cd820",
+        "8562c068f0bc504bcfdd75db5ee40a65adaa5f6782eddab2d4add0c10deaaf6b",
+        "a3bee0d832c33f0d62c7755970711f516a63c79ac1068bf5f240b686655c49b2",
+        "a65e875c96bc6db00f734ef8115863e041417d844d3f2eae1660d188b0c7b28d"
+      ],
       "text": "Dynamo's on the bridge!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "f25af5af6922c4cda2a94756d12dd61a3d2a84ab0e19b6256ee2ef3ae7c8afd4",
-      "text": "Careful, Hornet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e0596068d618f3b0b424f56d7e90725dc66414f7ec3261f51b9c52454fce8f0",
-      "text": "Careful, Hornet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab3cd7c21798d1bb7ca4e94cef0bf9089d8822347d6e008b554101e148ff54e5",
+      "sha256": [
+        "4e0596068d618f3b0b424f56d7e90725dc66414f7ec3261f51b9c52454fce8f0",
+        "ab3cd7c21798d1bb7ca4e94cef0bf9089d8822347d6e008b554101e148ff54e5",
+        "f25af5af6922c4cda2a94756d12dd61a3d2a84ab0e19b6256ee2ef3ae7c8afd4"
+      ],
       "text": "Careful, Hornet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

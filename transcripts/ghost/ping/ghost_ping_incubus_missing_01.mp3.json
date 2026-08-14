@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_incubus_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3dd6d813c68401bae3f431da62964ef953944002e77b859822839e730c58fd63",
+      "sha256": [
+        "3dd6d813c68401bae3f431da62964ef953944002e77b859822839e730c58fd63"
+      ],
       "text": "The incubus is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

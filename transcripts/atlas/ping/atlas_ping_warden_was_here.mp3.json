@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c5d8ad915db8b8ef93c6d800c1dd250bf20494cb36082a829de7f3d4dc953836",
+      "sha256": [
+        "c5d8ad915db8b8ef93c6d800c1dd250bf20494cb36082a829de7f3d4dc953836"
+      ],
       "text": "Warden was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

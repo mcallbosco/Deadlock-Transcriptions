@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_sad_04.mp3",
   "revisions": [
     {
-      "sha256": "becbffd61fb84e0d4266dc2fd8d58e8ae3f976bcb55e07128f22215d6fe8d235",
-      "text": "I don't know how it's going so wrong.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4943569af9617ed6e485f5e116a679601e9c72109bf3744af8f8933172925de5",
+      "sha256": [
+        "4943569af9617ed6e485f5e116a679601e9c72109bf3744af8f8933172925de5",
+        "becbffd61fb84e0d4266dc2fd8d58e8ae3f976bcb55e07128f22215d6fe8d235"
+      ],
       "text": "I don't know how it's going so wrong.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

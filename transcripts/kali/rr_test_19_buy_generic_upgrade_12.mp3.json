@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_buy_generic_upgrade_12.mp3",
   "revisions": [
     {
-      "sha256": "00825caa089e623b6996da1e38919958745728812252a6542337a5d4da375b9b",
+      "sha256": [
+        "00825caa089e623b6996da1e38919958745728812252a6542337a5d4da375b9b",
+        "4188c936b0e12d6be7e2fa77d181ca9325e7b0c490d5efbc8f915c03aad82434"
+      ],
       "text": "This is what I was looking for.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4188c936b0e12d6be7e2fa77d181ca9325e7b0c490d5efbc8f915c03aad82434",
-      "text": "This is what I was looking for.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6535894d55efb748c611219958425c71b54743a4f0c7674fc6e49ac3a6c21066",
+      "sha256": [
+        "6535894d55efb748c611219958425c71b54743a4f0c7674fc6e49ac3a6c21066"
+      ],
       "text": "This is what was the cover.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

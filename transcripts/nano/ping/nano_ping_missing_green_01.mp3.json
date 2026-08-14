@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "89b37b0a454e01b81ceede7aee19ee12105e8183c87e53b0bdeec60dad668b76",
+      "sha256": [
+        "89b37b0a454e01b81ceede7aee19ee12105e8183c87e53b0bdeec60dad668b76"
+      ],
       "text": "Missing green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

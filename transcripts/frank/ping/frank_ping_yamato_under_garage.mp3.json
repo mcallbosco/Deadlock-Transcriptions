@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_yamato_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "1fd549f78715e336d0db744e26a77c04de86951a19e0ca64af3fe17d6a9df56b",
+      "sha256": [
+        "1fd549f78715e336d0db744e26a77c04de86951a19e0ca64af3fe17d6a9df56b"
+      ],
       "text": "Jamrozonzu de groż.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "174c831cda37d428f8e0c378ad4caea7137a7807363f151bf6d68788efbd0cf1",
+      "sha256": [
+        "174c831cda37d428f8e0c378ad4caea7137a7807363f151bf6d68788efbd0cf1"
+      ],
       "text": "Yamato's under the garage!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/paradox_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "da1bf603090ff467cda385cb466b5e3070e9d64898591c0294178cf08bf51e26",
+      "sha256": [
+        "da1bf603090ff467cda385cb466b5e3070e9d64898591c0294178cf08bf51e26"
+      ],
       "text": "That was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

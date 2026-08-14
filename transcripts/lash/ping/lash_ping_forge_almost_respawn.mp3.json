@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_forge_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "b4c01bc3b4791c0ff54e0f2aac3a1ffd85ee40e2921130ef986ddace0c1828e3",
+      "sha256": [
+        "370acd007bf693aaa8ae07e88b3dcf91a6a5c2d08bb3a16b1e1c38f7d433c902",
+        "b4c01bc3b4791c0ff54e0f2aac3a1ffd85ee40e2921130ef986ddace0c1828e3"
+      ],
       "text": "McGinnis is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b4f547d1a75f7fb75ce0faf3795627e11d8a0f0689f4b827c7ff539d79f19c97",
+      "sha256": [
+        "b4f547d1a75f7fb75ce0faf3795627e11d8a0f0689f4b827c7ff539d79f19c97"
+      ],
       "text": "The Guinness is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "370acd007bf693aaa8ae07e88b3dcf91a6a5c2d08bb3a16b1e1c38f7d433c902",
-      "text": "McGinnis is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

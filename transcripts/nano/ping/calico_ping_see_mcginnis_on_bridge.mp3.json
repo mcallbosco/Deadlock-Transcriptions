@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_mcginnis_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b524d5b7757bfa3f9f9063efb0f143bd325e476c415a3c6559f97ec121d23fd8",
+      "sha256": [
+        "b524d5b7757bfa3f9f9063efb0f143bd325e476c415a3c6559f97ec121d23fd8"
+      ],
       "text": "McKinnis is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e071fac0edc813ede20f7453949472570a7b4cb0344d973aa867d60d1baa0032",
+      "sha256": [
+        "e071fac0edc813ede20f7453949472570a7b4cb0344d973aa867d60d1baa0032"
+      ],
       "text": "McKinnon's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_can_heal_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "43b778279504eca0ac2dd302adbb2601093a63ed5368065b5d715a427e837cca",
+      "sha256": [
+        "43b778279504eca0ac2dd302adbb2601093a63ed5368065b5d715a427e837cca"
+      ],
       "text": "Hey, Jack, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_ignore_mirage.mp3",
   "revisions": [
     {
-      "sha256": "7a86ee68ce756781df616a3f57464b508d603b70bb54612f3d126e9d3f8db1a0",
+      "sha256": [
+        "7a86ee68ce756781df616a3f57464b508d603b70bb54612f3d126e9d3f8db1a0",
+        "cac56cc8045e6c386a07b055e812fd93d8d6cb64eb43cf797299b5a618672d37"
+      ],
       "text": "Ignore Nash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cac56cc8045e6c386a07b055e812fd93d8d6cb64eb43cf797299b5a618672d37",
-      "text": "Ignore Nash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

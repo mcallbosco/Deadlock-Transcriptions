@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_match_start_chrono_wraith_convo03_05.mp3",
   "revisions": [
     {
-      "sha256": "bf077301542cb57fd5a0c3d6a299bb084489d2ebd2d30859cb025c37d84675b1",
-      "text": "I thought that was at the Met.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "53be377af65578a94d5b35a64fbc61a8097db32d0954f9873568196e5820a9bf",
+        "bf077301542cb57fd5a0c3d6a299bb084489d2ebd2d30859cb025c37d84675b1"
+      ],
+      "text": "I thought that was at the MET.",
+      "source": "official"
     },
     {
-      "sha256": "552f4a56d8d3a0e45da4d1cd5b0f4ddeedbcbee71bb73dfc2f46e439bf84c309",
+      "sha256": [
+        "552f4a56d8d3a0e45da4d1cd5b0f4ddeedbcbee71bb73dfc2f46e439bf84c309"
+      ],
       "text": "I thought I was at the Met.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "53be377af65578a94d5b35a64fbc61a8097db32d0954f9873568196e5820a9bf",
-      "text": "I thought that was at the MET.",
-      "source": "official"
     }
   ]
 }

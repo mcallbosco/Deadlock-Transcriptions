@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "049fdfe5f1627c67f2a0342dd5a8cfdc61a784b7c13b0f85270e39b52a620437",
+      "sha256": [
+        "049fdfe5f1627c67f2a0342dd5a8cfdc61a784b7c13b0f85270e39b52a620437"
+      ],
       "text": "Careful, Gadget!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "827c583e75efa7e307e9f5da70f44b012db33b8e70051efd7ecc7a122f1ff2d1",
+      "sha256": [
+        "827c583e75efa7e307e9f5da70f44b012db33b8e70051efd7ecc7a122f1ff2d1"
+      ],
       "text": "Careful, Kelvin…",
       "source": "official"
     }

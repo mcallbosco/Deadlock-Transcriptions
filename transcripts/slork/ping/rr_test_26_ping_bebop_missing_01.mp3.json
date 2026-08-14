@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "05055852713abf08843c93e8214f2380e531a278cc27410970968064472869f3",
+      "sha256": [
+        "05055852713abf08843c93e8214f2380e531a278cc27410970968064472869f3"
+      ],
       "text": "Be Bob is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4543b051106d008dc54d104d73b8c65038bcf58bc76a494c31c6677bedd4d26f",
+      "sha256": [
+        "4543b051106d008dc54d104d73b8c65038bcf58bc76a494c31c6677bedd4d26f"
+      ],
       "text": "Keep up with me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "53c0f668bbe17cff7da70166c6de2ca78d4d7d5baccfb5d3e49a6825cb69edc7",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc52cd0021fde58c3b6f0b7d4555293f3b5401a94342ebbc64c7cf46c7613ed5",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aed003c18efb05bbe021e9dfec13e825d1ef0efa470b53256cafad59924ccdb7",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "85f9b3f781f55f569da9a94c8b7028c73037cb547378ba0fd3312fc8a0b71543",
+      "sha256": [
+        "53c0f668bbe17cff7da70166c6de2ca78d4d7d5baccfb5d3e49a6825cb69edc7",
+        "85f9b3f781f55f569da9a94c8b7028c73037cb547378ba0fd3312fc8a0b71543",
+        "aed003c18efb05bbe021e9dfec13e825d1ef0efa470b53256cafad59924ccdb7",
+        "fc52cd0021fde58c3b6f0b7d4555293f3b5401a94342ebbc64c7cf46c7613ed5"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

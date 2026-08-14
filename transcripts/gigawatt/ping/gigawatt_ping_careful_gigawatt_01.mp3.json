@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "6d0bfa167c817c0bb5a4e8f1e3fc2e7bddb10eb3dfd8cf4db78ba6d0e4b61c37",
+      "sha256": [
+        "6d0bfa167c817c0bb5a4e8f1e3fc2e7bddb10eb3dfd8cf4db78ba6d0e4b61c37"
+      ],
       "text": "Careful there, lot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3985bbb89875532b17a279fc95adcf28e0e76f11b2a2352c5f848f9de019eb46",
+      "sha256": [
+        "3985bbb89875532b17a279fc95adcf28e0e76f11b2a2352c5f848f9de019eb46",
+        "a0d7a687cd28cd3031a38ab03df843141a4e4efffc707e67f4da461b19402e7b"
+      ],
       "text": "Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0d7a687cd28cd3031a38ab03df843141a4e4efffc707e67f4da461b19402e7b",
-      "text": "GigaWatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_pocket.mp3",
   "revisions": [
     {
-      "sha256": "156e3ab44132eac517b16f358e99b71e5323fb7be1c7eea09d990eba7271a50a",
-      "text": "I saw Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d27ce1588fe09c0a5e1f5c6eb6e9bf70800a09ca7a60f7f156db2ecd4d0f0e89",
-      "text": "I saw Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1aa9ccac953ed142702f582434d46b83a8c0b5000bd54ef7e75f6db5afe4cc34",
+      "sha256": [
+        "156e3ab44132eac517b16f358e99b71e5323fb7be1c7eea09d990eba7271a50a",
+        "1aa9ccac953ed142702f582434d46b83a8c0b5000bd54ef7e75f6db5afe4cc34",
+        "d27ce1588fe09c0a5e1f5c6eb6e9bf70800a09ca7a60f7f156db2ecd4d0f0e89"
+      ],
       "text": "I saw Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

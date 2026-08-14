@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_concerned_04.mp3",
   "revisions": [
     {
-      "sha256": "097f939239963f31a12df3b2d88d914458b11edf9ffa130c9131f74bd715ee95",
-      "text": "We're giving away our lead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d04dad8e70c7327b099181b63bc37e63582d2e3e6ca776952cc4d733acda367d",
-      "text": "We're giving away our lead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "633e6cbe8ffc9b1ffd6914a82e92fc1c1b2df595ee9323def556759f48cc1307",
+      "sha256": [
+        "097f939239963f31a12df3b2d88d914458b11edf9ffa130c9131f74bd715ee95",
+        "633e6cbe8ffc9b1ffd6914a82e92fc1c1b2df595ee9323def556759f48cc1307",
+        "d04dad8e70c7327b099181b63bc37e63582d2e3e6ca776952cc4d733acda367d"
+      ],
       "text": "We're giving away our lead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

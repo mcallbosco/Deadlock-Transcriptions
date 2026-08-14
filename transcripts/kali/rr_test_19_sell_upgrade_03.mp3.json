@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_sell_upgrade_03.mp3",
   "revisions": [
     {
-      "sha256": "c5704c4054d4725928b841c22327cb52dd60c14b9366b9732cf76ecae92eb852",
-      "text": "This ain't working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a71955919e2b33080fcfe10bfb41782277823609a3caeaff746571777c1080a4",
-      "text": "This ain't working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5fc80454db3a59779abb013df5caabc5ae6cc977425b9822c594c0758e97c99e",
+      "sha256": [
+        "5fc80454db3a59779abb013df5caabc5ae6cc977425b9822c594c0758e97c99e",
+        "a71955919e2b33080fcfe10bfb41782277823609a3caeaff746571777c1080a4",
+        "c5704c4054d4725928b841c22327cb52dd60c14b9366b9732cf76ecae92eb852"
+      ],
       "text": "This ain't working.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_stim_pack_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "52b9f9ae279a0fbeffcbc79a20c2f2d7ee422758b59365b736a130eee1710d49",
+      "sha256": [
+        "52b9f9ae279a0fbeffcbc79a20c2f2d7ee422758b59365b736a130eee1710d49",
+        "baa16371fb721881437386d9da8aef72e014847f268a273510c5379603685e42"
+      ],
       "text": "Healing right on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "baa16371fb721881437386d9da8aef72e014847f268a273510c5379603685e42",
-      "text": "Healing right on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cacdd6c93a840ab57f5b48091fdc902cde89949f73f10d9c27122719584a8511",
+      "sha256": [
+        "cacdd6c93a840ab57f5b48091fdc902cde89949f73f10d9c27122719584a8511"
+      ],
       "text": "healing rite's on cooldown",
       "source": "official"
     }

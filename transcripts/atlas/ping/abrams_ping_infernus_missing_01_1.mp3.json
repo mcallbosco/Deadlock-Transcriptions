@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_infernus_missing_01_1.mp3",
   "revisions": [
     {
-      "sha256": "c5d97142e91504079cef93ed9b5ef09fcf7da7fcc6715e9ad034614a464c2f10",
-      "text": "Infernus is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87c1a6eef3b9ddc68e9ab6b2adb8e88adf07af34d3dc003a099d7d5702b96874",
+      "sha256": [
+        "87c1a6eef3b9ddc68e9ab6b2adb8e88adf07af34d3dc003a099d7d5702b96874",
+        "c5d97142e91504079cef93ed9b5ef09fcf7da7fcc6715e9ad034614a464c2f10"
+      ],
       "text": "Infernus is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

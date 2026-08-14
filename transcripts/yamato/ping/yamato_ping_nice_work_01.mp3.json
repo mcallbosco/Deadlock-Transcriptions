@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "63a55fd56100bfb890162f6d3a2801fc1c9367947bc70f3f09b15e3404b714b1",
-      "text": "Nice work!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b621620f5c1f4f71f3c860fb38c42dc71632cc5bba0d434b663af546cb60974",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8ff1bd1fc5eac3da1a01a319f0af025be305dd15194fb12a0def242598adbf9",
+      "sha256": [
+        "5b621620f5c1f4f71f3c860fb38c42dc71632cc5bba0d434b663af546cb60974",
+        "63a55fd56100bfb890162f6d3a2801fc1c9367947bc70f3f09b15e3404b714b1",
+        "a8ff1bd1fc5eac3da1a01a319f0af025be305dd15194fb12a0def242598adbf9"
+      ],
       "text": "Nice work!",
       "source": "official"
     }

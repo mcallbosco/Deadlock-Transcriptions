@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power3_04.mp3",
   "revisions": [
     {
-      "sha256": "54e6636943b30a8c672af3589e1c425111c4ac87706da7f31e49e45be5753108",
+      "sha256": [
+        "54e6636943b30a8c672af3589e1c425111c4ac87706da7f31e49e45be5753108"
+      ],
       "text": "What's the one from my ass, cunt?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "869571fc15c9d0546fad3b12b45bf66c397dff7d135f53df857cda0ba7286b0b",
+      "sha256": [
+        "4a550b6eba16910eb32c5b883c98a187c774d1ae15ce07536d0ce7b62a0c1fe0",
+        "869571fc15c9d0546fad3b12b45bf66c397dff7d135f53df857cda0ba7286b0b"
+      ],
       "text": "I am a man of action.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4a550b6eba16910eb32c5b883c98a187c774d1ae15ce07536d0ce7b62a0c1fe0",
-      "text": "I am a man of action.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d5bf7fc4d2fe1346e049d65a1ec99a120f994ea7e1f33dd9b9ce02954c89931",
+      "sha256": [
+        "0d5bf7fc4d2fe1346e049d65a1ec99a120f994ea7e1f33dd9b9ce02954c89931"
+      ],
       "text": "Death will find them",
       "source": "official"
     }

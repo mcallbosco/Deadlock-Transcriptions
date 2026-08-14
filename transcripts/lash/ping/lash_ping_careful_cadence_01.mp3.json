@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_careful_cadence_01.mp3",
   "revisions": [
     {
-      "sha256": "f049e2d7f73fbb5888ac33877bd42c76bb891d558f5a2d232cf179116e957c49",
+      "sha256": [
+        "8a7db43acc2b964ab17d989fe11511571ecc27dbfb0cfb00a733dc9dd8160ace",
+        "f049e2d7f73fbb5888ac33877bd42c76bb891d558f5a2d232cf179116e957c49"
+      ],
       "text": "Careful, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ebf47ce35b49f957dc64830acfc5d14b9356c013aa8a04fbc0ec7e97f8c802bf",
+      "sha256": [
+        "cd378f652005602a973de29d6c0c22b524d11dabf3b32c2ecb1cd25d2bf37d26",
+        "ebf47ce35b49f957dc64830acfc5d14b9356c013aa8a04fbc0ec7e97f8c802bf"
+      ],
       "text": "Careful, kid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd378f652005602a973de29d6c0c22b524d11dabf3b32c2ecb1cd25d2bf37d26",
-      "text": "Careful, kid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a7db43acc2b964ab17d989fe11511571ecc27dbfb0cfb00a733dc9dd8160ace",
-      "text": "Careful, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

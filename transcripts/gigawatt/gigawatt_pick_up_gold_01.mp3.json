@@ -1,27 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_pick_up_gold_01.mp3",
   "revisions": [
     {
-      "sha256": "7b7fbd6db5e0ac2206d63b44031a58370d1b36680f42dac7b44f1e72879c6f68",
+      "sha256": [
+        "7b7fbd6db5e0ac2206d63b44031a58370d1b36680f42dac7b44f1e72879c6f68"
+      ],
       "text": "Access granted.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2cccd9fe793b20ff8a53311e56d55912d48b1eee315e554fa0535308c29bb709",
+      "sha256": [
+        "2cccd9fe793b20ff8a53311e56d55912d48b1eee315e554fa0535308c29bb709"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5b7d23b4a7714aba64613578e1cc39fadc17f78e8dc5a04d073c81391c94ea75",
+      "sha256": [
+        "5b7d23b4a7714aba64613578e1cc39fadc17f78e8dc5a04d073c81391c94ea75"
+      ],
       "text": "ChatGPT.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5f112907d703c56bdd4f308c17ecc6695aaf27d28bc0561c3fed9593ed2755d1",
+      "sha256": [
+        "5f112907d703c56bdd4f308c17ecc6695aaf27d28bc0561c3fed9593ed2755d1"
+      ],
       "text": "Excellent.",
       "source": "official"
     }

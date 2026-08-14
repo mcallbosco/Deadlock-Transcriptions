@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_attack_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "bbe311551aa111f431c8ce122713b0dc59eb68ab56ecd6ff786cec401d6367ea",
+      "sha256": [
+        "bbe311551aa111f431c8ce122713b0dc59eb68ab56ecd6ff786cec401d6367ea"
+      ],
       "text": "Let's take out Booker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

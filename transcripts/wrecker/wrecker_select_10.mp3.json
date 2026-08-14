@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_select_10.mp3",
   "revisions": [
     {
-      "sha256": "f145d8a1b3a8e87fde0ffb64b45ca8deae0943b3ed78eb47cd0cbd8c78d72dc0",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a38251f688aeedfddec8e324a4d256830ef3c9c64396bdf1bb1bf456d41ab5a",
+      "sha256": [
+        "7a38251f688aeedfddec8e324a4d256830ef3c9c64396bdf1bb1bf456d41ab5a",
+        "f145d8a1b3a8e87fde0ffb64b45ca8deae0943b3ed78eb47cd0cbd8c78d72dc0"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

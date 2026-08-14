@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_with_trapper.mp3",
   "revisions": [
     {
-      "sha256": "111098a31fbdace39cd61ea7538bb5599b7c718dd34e60cfe119610013c80ab0",
+      "sha256": [
+        "111098a31fbdace39cd61ea7538bb5599b7c718dd34e60cfe119610013c80ab0"
+      ],
       "text": "I'm with you, Trapper!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

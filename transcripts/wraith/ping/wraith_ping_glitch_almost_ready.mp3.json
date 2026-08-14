@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_glitch_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "eb11d34ab19202d996fdc391033d91c76ea897e6526c6c8a7c163a405d465de1",
-      "text": "curse is almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "465231059c023cc08aad571399300ce3164f9b465925659a9a47f28dd0e9b7fb",
+        "eb11d34ab19202d996fdc391033d91c76ea897e6526c6c8a7c163a405d465de1"
+      ],
+      "text": "curse is almost ready",
+      "source": "official"
     },
     {
-      "sha256": "6a56a3f8ec71c579a9224dbb8ec5acdbdbd86ae9caa9d624ba91582adcb75952",
+      "sha256": [
+        "6a56a3f8ec71c579a9224dbb8ec5acdbdbd86ae9caa9d624ba91582adcb75952"
+      ],
       "text": "The curse is almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "465231059c023cc08aad571399300ce3164f9b465925659a9a47f28dd0e9b7fb",
-      "text": "curse is almost ready",
-      "source": "official"
     }
   ]
 }

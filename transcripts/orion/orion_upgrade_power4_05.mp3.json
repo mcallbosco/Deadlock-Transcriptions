@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "015caa2db48df5f121f8314cf2c0664c8976aba693bb22aecdde394ecbae9a7e",
+      "sha256": [
+        "015caa2db48df5f121f8314cf2c0664c8976aba693bb22aecdde394ecbae9a7e"
+      ],
       "text": "I spare you to guide my hand.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "608119e1e9daa55b547c1047d5bf87d53278388918b9d29a36b3739fe7285e20",
+      "sha256": [
+        "608119e1e9daa55b547c1047d5bf87d53278388918b9d29a36b3739fe7285e20",
+        "8dc0dbcd7bb33dbccb32689e7518dbc8d47ecf7de4e3e0cdd9b5cd5dbe8bd63e"
+      ],
       "text": "The spirits will guide my hand.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8dc0dbcd7bb33dbccb32689e7518dbc8d47ecf7de4e3e0cdd9b5cd5dbe8bd63e",
-      "text": "The spirits will guide my hand.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2aa33fbd71487af9a77a565793015ab7fa282ae5260011f32e3e28999141cfc5",
+      "sha256": [
+        "2aa33fbd71487af9a77a565793015ab7fa282ae5260011f32e3e28999141cfc5"
+      ],
       "text": "Their spirits will guide my hand",
       "source": "official"
     }

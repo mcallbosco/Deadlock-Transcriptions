@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_inferno_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "4f68c3c66a0a6e1813175872ba794021aea351b216c5f9a8ec7e3bb2a301f2cb",
+      "sha256": [
+        "4f68c3c66a0a6e1813175872ba794021aea351b216c5f9a8ec7e3bb2a301f2cb"
+      ],
       "text": "Conor is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8bbbbdb2027719779def909fd8b5cd1c94e5c320d32a7953a679b0ff7fc1664c",
+      "sha256": [
+        "8bbbbdb2027719779def909fd8b5cd1c94e5c320d32a7953a679b0ff7fc1664c"
+      ],
       "text": "Infernus's under the garage!",
       "source": "official"
     }

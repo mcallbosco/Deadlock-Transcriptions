@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power1_10.mp3",
   "revisions": [
     {
-      "sha256": "53935dab2e3e22d356961ffd421d05456a140270e32a77366c63b10874a85515",
+      "sha256": [
+        "53935dab2e3e22d356961ffd421d05456a140270e32a77366c63b10874a85515"
+      ],
       "text": "Great job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c00fe71e70ff08ec6ab20c7e607756ab39570fd1a5b699b61fd641f6f941191c",
-      "text": "Ready to hunt?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "acb3cd6168f4963504a4cc4c9c223333ad465ca702a0e90a55479452f521dd2e",
-      "text": "Ready to hunt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96f3c7bcfd10ab120bb0045e53a8709718dd32baaf16ad900b15815bedc83ab1",
+      "sha256": [
+        "96f3c7bcfd10ab120bb0045e53a8709718dd32baaf16ad900b15815bedc83ab1",
+        "acb3cd6168f4963504a4cc4c9c223333ad465ca702a0e90a55479452f521dd2e",
+        "c00fe71e70ff08ec6ab20c7e607756ab39570fd1a5b699b61fd641f6f941191c"
+      ],
       "text": "Ready to hunt.",
       "source": "official"
     }

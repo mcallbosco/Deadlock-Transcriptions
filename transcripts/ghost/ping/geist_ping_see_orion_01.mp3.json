@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "86d0396e1f99c408866199d2b46d4ffce493241fa978a56ad41944a55c191be0",
-      "text": "I see Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77b9496636f262ad1b209a7b3a5a963f4b301576f3a6d2eaae31ca5f5281c6fb",
+      "sha256": [
+        "77b9496636f262ad1b209a7b3a5a963f4b301576f3a6d2eaae31ca5f5281c6fb",
+        "86d0396e1f99c408866199d2b46d4ffce493241fa978a56ad41944a55c191be0"
+      ],
       "text": "I see Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

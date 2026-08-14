@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_area_immobilize_01.mp3",
   "revisions": [
     {
-      "sha256": "57f115bb3fe0fd96b512754efd9a1f5d6e0ba28205c26ab1a847c9f39f1153c6",
+      "sha256": [
+        "57f115bb3fe0fd96b512754efd9a1f5d6e0ba28205c26ab1a847c9f39f1153c6"
+      ],
       "text": "They're hell.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0c7977f8ae58858454a8bbe7d58c83b58f9d3afab361bf0e58a888274e72a04f",
-      "text": "Their health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ebcb1e435f01c181f9f6ca83d48b32989834b0fe5bdee3f3d2c54906aea6058d",
+      "sha256": [
+        "0c7977f8ae58858454a8bbe7d58c83b58f9d3afab361bf0e58a888274e72a04f",
+        "ebcb1e435f01c181f9f6ca83d48b32989834b0fe5bdee3f3d2c54906aea6058d"
+      ],
       "text": "Their health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

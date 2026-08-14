@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "43f29183dd156f7bc3b705f584ebc1bbaed0ced5f2e72f78c16cca9a747796d4",
-      "text": "I see yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c251fbe8ee8d99e1b57e20a27f64861e6dd0337bf2c59c3b4e51b228b7aa546f",
+      "sha256": [
+        "43f29183dd156f7bc3b705f584ebc1bbaed0ced5f2e72f78c16cca9a747796d4",
+        "c251fbe8ee8d99e1b57e20a27f64861e6dd0337bf2c59c3b4e51b228b7aa546f"
+      ],
       "text": "I see yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_calico_was_here_1.mp3",
   "revisions": [
     {
-      "sha256": "9d728f7dc88a9bfffa053c569bc5b2efbc655329b53312ebbeab0e16e7f5797d",
-      "text": "Calico was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b3b442e04b563470994e68e8a3dbbefd3a99304bd7bd471ae241a9c0fc76e33",
+      "sha256": [
+        "2b3b442e04b563470994e68e8a3dbbefd3a99304bd7bd471ae241a9c0fc76e33",
+        "9d728f7dc88a9bfffa053c569bc5b2efbc655329b53312ebbeab0e16e7f5797d"
+      ],
       "text": "Calico was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

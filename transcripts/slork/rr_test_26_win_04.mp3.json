@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_win_04.mp3",
   "revisions": [
     {
-      "sha256": "881fa02c231615cf02ca404d11b654f2b24b1430004987f555c10e5deb3f24e1",
-      "text": "Victory was the only option.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d2680006efd94a36990265355b1725680adc2e325ee9f6df36a1cfb647df82e",
+      "sha256": [
+        "6d2680006efd94a36990265355b1725680adc2e325ee9f6df36a1cfb647df82e",
+        "881fa02c231615cf02ca404d11b654f2b24b1430004987f555c10e5deb3f24e1"
+      ],
       "text": "Victory was the only option.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

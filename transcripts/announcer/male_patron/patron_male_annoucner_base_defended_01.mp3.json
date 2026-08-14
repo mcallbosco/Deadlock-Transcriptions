@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_annoucner_base_defended_01.mp3",
   "revisions": [
     {
-      "sha256": "a1461e227e71733debb098aa2392b8a194c10863ee4ae20c8fa74ad537e53598",
+      "sha256": [
+        "a1461e227e71733debb098aa2392b8a194c10863ee4ae20c8fa74ad537e53598"
+      ],
       "text": "You've defended the shrine. In time, it will be made whole again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_lose_01.mp3",
   "revisions": [
     {
-      "sha256": "7dfa590f1769bd2f98dfc25075e4b937438d18d7eb096ae573953fb3ac86983d",
+      "sha256": [
+        "7dfa590f1769bd2f98dfc25075e4b937438d18d7eb096ae573953fb3ac86983d"
+      ],
       "text": "Blood will be spilled.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c2d2918162231a951207daa069e800344287975877b05cb8204c4d43f16a3f00",
+      "sha256": [
+        "c2d2918162231a951207daa069e800344287975877b05cb8204c4d43f16a3f00"
+      ],
       "text": "Blood will be spilled this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

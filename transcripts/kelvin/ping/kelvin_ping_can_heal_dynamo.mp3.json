@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_can_heal_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "4ba7360bcf1c38b64c35d90463a690d71c4c5c93702d8707878f5fe19f88777f",
+      "sha256": [
+        "4ba7360bcf1c38b64c35d90463a690d71c4c5c93702d8707878f5fe19f88777f"
+      ],
       "text": "I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3af52286c5db59560dc55822b052f35362bd09d6dc028d8bc9b01260fe70118f",
+      "sha256": [
+        "3af52286c5db59560dc55822b052f35362bd09d6dc028d8bc9b01260fe70118f"
+      ],
       "text": "Dynamo, I can heal you!",
       "source": "official"
     }

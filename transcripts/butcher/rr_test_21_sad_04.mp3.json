@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_sad_04.mp3",
   "revisions": [
     {
-      "sha256": "69d25632fe07ca2bbb84429f887257a02863618f57926b9a3fc5b6d3f8921d85",
+      "sha256": [
+        "69d25632fe07ca2bbb84429f887257a02863618f57926b9a3fc5b6d3f8921d85"
+      ],
       "text": "This will be a piece, explain to my people.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7895ce78ffcaa61f1ba1b0ce7cc38709aada715050b78faf2cc8f26ac829289e",
+      "sha256": [
+        "7895ce78ffcaa61f1ba1b0ce7cc38709aada715050b78faf2cc8f26ac829289e"
+      ],
       "text": "This will be a bitch to explain to my people.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d8cc38811dd50a4ffc06bc93c9e3880519bf47e54fe9b496f91fcfaa2dc7716",
+      "sha256": [
+        "6d8cc38811dd50a4ffc06bc93c9e3880519bf47e54fe9b496f91fcfaa2dc7716"
+      ],
       "text": "This will be a pitch to explain to my people.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

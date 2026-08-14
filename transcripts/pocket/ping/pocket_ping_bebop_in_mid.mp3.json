@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_bebop_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "99ec0e7d0fda5b48343123724313fcaa150e1370d8463e4b4fe312c4deeddabd",
-      "text": "Bebop's in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58b176248960276a52c46a7ab56390383fec532e541ad0570c921dc02c20ae18",
+      "sha256": [
+        "58b176248960276a52c46a7ab56390383fec532e541ad0570c921dc02c20ae18",
+        "99ec0e7d0fda5b48343123724313fcaa150e1370d8463e4b4fe312c4deeddabd"
+      ],
       "text": "Bebop's in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

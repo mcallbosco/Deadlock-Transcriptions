@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_wraith_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "08865a828948b0da97bd878b9772d13f585f80104574bad637a0b8f9e996f3cc",
+      "sha256": [
+        "08865a828948b0da97bd878b9772d13f585f80104574bad637a0b8f9e996f3cc"
+      ],
       "text": "Nice and top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d4fd6722951f15b0cf266b94b623b91e66ae3ac9a76b280671248d5a3278f370",
+      "sha256": [
+        "d4fd6722951f15b0cf266b94b623b91e66ae3ac9a76b280671248d5a3278f370"
+      ],
       "text": "Wraith's on top of the garage!",
       "source": "official"
     }

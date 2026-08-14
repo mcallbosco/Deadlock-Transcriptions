@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "5ec38be74d8159c61bdab9918cfe0a8fe606676ca6c5e7c2b8d1d017d0da55f7",
-      "text": "I see Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e71604f313b021fa188307a8dcaa526f452a419d116eda48f3ecc3f583f45025",
+      "sha256": [
+        "5ec38be74d8159c61bdab9918cfe0a8fe606676ca6c5e7c2b8d1d017d0da55f7",
+        "e71604f313b021fa188307a8dcaa526f452a419d116eda48f3ecc3f583f45025"
+      ],
       "text": "I see Warden",
       "source": "official"
     }

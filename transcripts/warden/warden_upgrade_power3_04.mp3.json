@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_upgrade_power3_04.mp3",
   "revisions": [
     {
-      "sha256": "2d047266203fb90945724a77e5a9c8f5559f0d2fdbf8ca12380138a895b0660f",
+      "sha256": [
+        "2d047266203fb90945724a77e5a9c8f5559f0d2fdbf8ca12380138a895b0660f"
+      ],
       "text": "They'll try one. It won't go well for them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d8dd3388cfbcdabe6f4f225962d07a7dd84b1cf6342ce434b8dfce00ab980cf",
+      "sha256": [
+        "36e569134441fc8e7a92ed5070406d91c7766e44989efd987f485dc6d6fe2703",
+        "6d8dd3388cfbcdabe6f4f225962d07a7dd84b1cf6342ce434b8dfce00ab980cf"
+      ],
       "text": "They'll try one more. It won't go well for them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "36e569134441fc8e7a92ed5070406d91c7766e44989efd987f485dc6d6fe2703",
-      "text": "They'll try one more. It won't go well for them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30f18a025680df1c35e2d95fa819f80d3defe416d8f2bc9619634ce6dedd6e4b",
+      "sha256": [
+        "30f18a025680df1c35e2d95fa819f80d3defe416d8f2bc9619634ce6dedd6e4b"
+      ],
       "text": "They'll try to run. It won't go well for them.",
       "source": "official"
     }

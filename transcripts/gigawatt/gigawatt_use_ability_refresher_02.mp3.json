@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_ability_refresher_02.mp3",
   "revisions": [
     {
-      "sha256": "58da308c7d1696eb205bd107b62faf9b1a2582f81c43d1b37ca4ca59ffcc07d2",
+      "sha256": [
+        "58da308c7d1696eb205bd107b62faf9b1a2582f81c43d1b37ca4ca59ffcc07d2"
+      ],
       "text": "Question.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4f36d43c2c23f9a3baeb279c80098182c0d68f9144d9ef5be958dc4772475afc",
+      "sha256": [
+        "4f36d43c2c23f9a3baeb279c80098182c0d68f9144d9ef5be958dc4772475afc",
+        "6bb141a0d02949c51a04175b53d97ae04ecf93d63e070e0adb636f8daa2d3611"
+      ],
       "text": "Crashing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6bb141a0d02949c51a04175b53d97ae04ecf93d63e070e0adb636f8daa2d3611",
-      "text": "Crashing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd11d38f937a720638538af71e02ce7f1f866d9cce04d36d77f1892247406805",
+      "sha256": [
+        "cd11d38f937a720638538af71e02ce7f1f866d9cce04d36d77f1892247406805"
+      ],
       "text": "Refreshing",
       "source": "official"
     }

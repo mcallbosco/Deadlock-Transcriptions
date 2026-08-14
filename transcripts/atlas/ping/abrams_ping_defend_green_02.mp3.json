@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_defend_green_02.mp3",
   "revisions": [
     {
-      "sha256": "4abe0c1c9f74eb80c622245da12375798cacc2a2221783803017cd8b29125361",
-      "text": "Defend Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d18ef28d9806a39fd42e83ed3ff094db9ca9d04dfc946dee28fd9309f801298",
+      "sha256": [
+        "0d18ef28d9806a39fd42e83ed3ff094db9ca9d04dfc946dee28fd9309f801298",
+        "4abe0c1c9f74eb80c622245da12375798cacc2a2221783803017cd8b29125361"
+      ],
       "text": "Defend Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

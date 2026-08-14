@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "1d6e64eca18ba802a05c54f7f386f5649e50018fac7db381ad4bbfc12853427a",
+      "sha256": [
+        "1d6e64eca18ba802a05c54f7f386f5649e50018fac7db381ad4bbfc12853427a"
+      ],
       "text": "I'm with you, Ymarco.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b37b443296a7e39ca7c9334318eba4d3482a3851cef401a9acf683c7a986346d",
-      "text": "I'm with you, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd3f9678a650a3ef30aab5b16bb00b20d468dcd934d1779ea1aa77d29d0ce7d7",
-      "text": "I'm with you, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "89a4901148ec4d7b75ed651e0fe569ee97531766aaaa7b505d4774cf2efca737",
+      "sha256": [
+        "89a4901148ec4d7b75ed651e0fe569ee97531766aaaa7b505d4774cf2efca737",
+        "b37b443296a7e39ca7c9334318eba4d3482a3851cef401a9acf683c7a986346d",
+        "cd3f9678a650a3ef30aab5b16bb00b20d468dcd934d1779ea1aa77d29d0ce7d7"
+      ],
       "text": "I'm with you, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "214ad951522c983f4eebb95d396f6329a6c013749c2bde5eb91395f497097347",
+      "sha256": [
+        "214ad951522c983f4eebb95d396f6329a6c013749c2bde5eb91395f497097347"
+      ],
       "text": "Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

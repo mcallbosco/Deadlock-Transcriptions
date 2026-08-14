@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "9fa7c77c8d1832be394bec0db8a3cfc0414eb560e6b4709456bc56da81526c43",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e90ea0915fd9c981e185441a9ccde1f263df8f73ca18ba524b01470194201fec",
+      "sha256": [
+        "9fa7c77c8d1832be394bec0db8a3cfc0414eb560e6b4709456bc56da81526c43",
+        "e90ea0915fd9c981e185441a9ccde1f263df8f73ca18ba524b01470194201fec"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

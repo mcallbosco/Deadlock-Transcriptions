@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_inferno_was_here.mp3",
   "revisions": [
     {
-      "sha256": "66e5ba02470d237e584294ab6e787c9782ed237a5584c18d80138ead1425420a",
+      "sha256": [
+        "66e5ba02470d237e584294ab6e787c9782ed237a5584c18d80138ead1425420a"
+      ],
       "text": "Informer was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

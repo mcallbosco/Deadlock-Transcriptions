@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "eb0b3bac08bac7837713ae056ab505b8da9f0f355d1a293b66142704370a0493",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "577b7ff464404133fe6cf73b03a9fcae5189684732a3838be29e0d038d92aa71",
+      "sha256": [
+        "577b7ff464404133fe6cf73b03a9fcae5189684732a3838be29e0d038d92aa71",
+        "eb0b3bac08bac7837713ae056ab505b8da9f0f355d1a293b66142704370a0493"
+      ],
       "text": "Thank you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

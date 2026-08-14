@@ -1,33 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_lets_go_yellow_alt.mp3",
   "revisions": [
     {
-      "sha256": "c21ea067ae17651fa69e157f8f1f6799bcc294020d6a3ebbc5095635b31b43e7",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b4de543f31cafc1bc38e2ec57d33a68f76d7866023b0e4b92f300d678351342",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc2d85be1d1da05d7be18e23a79f9cfcde00083f2ee83528f374bd37bfe37ded",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f03f0277a96b166ea32f8a179212cf3f81e730eb3d8e34e1fb48ad99bed46829",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59a9b3b4c8e220c0e277c4f91d6b9f9b38d1ce7d317bca4f2e92567d9fd66f7e",
+      "sha256": [
+        "59a9b3b4c8e220c0e277c4f91d6b9f9b38d1ce7d317bca4f2e92567d9fd66f7e",
+        "6b4de543f31cafc1bc38e2ec57d33a68f76d7866023b0e4b92f300d678351342",
+        "bc2d85be1d1da05d7be18e23a79f9cfcde00083f2ee83528f374bd37bfe37ded",
+        "c21ea067ae17651fa69e157f8f1f6799bcc294020d6a3ebbc5095635b31b43e7",
+        "f03f0277a96b166ea32f8a179212cf3f81e730eb3d8e34e1fb48ad99bed46829"
+      ],
       "text": "Let's go to York!",
       "source": "official"
     }

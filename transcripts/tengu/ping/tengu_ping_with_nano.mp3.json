@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "377f52b4e1dbdaa1cf585d7a994b70e71d174b2b9857a1dacf49f3cdb8c535e8",
+      "sha256": [
+        "377f52b4e1dbdaa1cf585d7a994b70e71d174b2b9857a1dacf49f3cdb8c535e8"
+      ],
       "text": "I'm with you, Catacull.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d1e1a7d0adeb8229cf68e55776811ddaa865fc6adb105a8007f0d2beecf398d6",
+      "sha256": [
+        "d1e1a7d0adeb8229cf68e55776811ddaa865fc6adb105a8007f0d2beecf398d6"
+      ],
       "text": "I'm with you, Catacall!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

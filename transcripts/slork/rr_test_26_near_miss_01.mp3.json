@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_near_miss_01.mp3",
   "revisions": [
     {
-      "sha256": "c08c9ee79a1e7a8f2fdf2445f54b0f3aca8cdd69b841f9598d34f7643e32aa18",
-      "text": "I'll get the next one.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "94c65b65a13bd6a8ea4052fa5715cd9754661786da1b8476e98b2592c9763599",
+      "sha256": [
+        "94c65b65a13bd6a8ea4052fa5715cd9754661786da1b8476e98b2592c9763599",
+        "c08c9ee79a1e7a8f2fdf2445f54b0f3aca8cdd69b841f9598d34f7643e32aa18"
+      ],
       "text": "I'll get the next one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

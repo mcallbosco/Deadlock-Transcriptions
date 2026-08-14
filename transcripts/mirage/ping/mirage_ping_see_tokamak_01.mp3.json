@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_tokamak_01.mp3",
   "revisions": [
     {
-      "sha256": "270065fabba59327193283aa2d80653d19a8a0aee76718941ddf97ed119b20a8",
+      "sha256": [
+        "270065fabba59327193283aa2d80653d19a8a0aee76718941ddf97ed119b20a8"
+      ],
       "text": "That's it for the map.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

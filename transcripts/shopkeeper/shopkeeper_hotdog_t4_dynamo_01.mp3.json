@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_t4_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "36615197aa2a1526a41fe0c5d21b842aff23ff5a87bdea6dfbfaf777d1a198bc",
+      "sha256": [
+        "36615197aa2a1526a41fe0c5d21b842aff23ff5a87bdea6dfbfaf777d1a198bc"
+      ],
       "text": "How's Marla doing, fessor?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4e5f493c8cde6034f15185c52bb15413363caf2fd0994a5ea9d1b59321e2e978",
-      "text": "How's Marla doing, Professor?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dde88a372149b24d08366bfbe8d54f5bbba2927ab4700f4a013edfe67e0ee613",
+      "sha256": [
+        "4e5f493c8cde6034f15185c52bb15413363caf2fd0994a5ea9d1b59321e2e978",
+        "dde88a372149b24d08366bfbe8d54f5bbba2927ab4700f4a013edfe67e0ee613"
+      ],
       "text": "How's Marla doing professor?",
       "source": "official"
     }

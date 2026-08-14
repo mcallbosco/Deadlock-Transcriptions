@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_kelvin_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "7599e367554debb69cf2fc4cae1797ba61552b7300bd59665784c9d8ece12e5f",
+      "sha256": [
+        "7599e367554debb69cf2fc4cae1797ba61552b7300bd59665784c9d8ece12e5f"
+      ],
       "text": "Calvin's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6c71af95515d95c24b4339d40f6ce96f97d859880df7435313e561b17e0f0dcc",
-      "text": "Kelvin's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a8e894d7b39e91c917c555b9870864778aa99eb250644ae94596597173916ee",
+      "sha256": [
+        "6c71af95515d95c24b4339d40f6ce96f97d859880df7435313e561b17e0f0dcc",
+        "7a8e894d7b39e91c917c555b9870864778aa99eb250644ae94596597173916ee"
+      ],
       "text": "Kelvin's on the bridge!",
       "source": "official"
     }

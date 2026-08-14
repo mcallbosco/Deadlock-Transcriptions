@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_chrono_dead.mp3",
   "revisions": [
     {
-      "sha256": "0cc124c94c0f30fde91748a0c512dbfd1e0d1f92681f7f79e787aa41fe2eb4ed",
+      "sha256": [
+        "0cc124c94c0f30fde91748a0c512dbfd1e0d1f92681f7f79e787aa41fe2eb4ed",
+        "dbbbb6a3a3744cd3e14c557e1ff28c52e939480e5d9ee4702cccff2c0a3abbb3"
+      ],
       "text": "Deadlock's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dbbbb6a3a3744cd3e14c557e1ff28c52e939480e5d9ee4702cccff2c0a3abbb3",
-      "text": "Deadlock's dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2f36e7f496afd5670b46f47de7711a2a12825280419221baa34c6cc0e50cc13",
+      "sha256": [
+        "e2f36e7f496afd5670b46f47de7711a2a12825280419221baa34c6cc0e50cc13"
+      ],
       "text": "Perldox is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

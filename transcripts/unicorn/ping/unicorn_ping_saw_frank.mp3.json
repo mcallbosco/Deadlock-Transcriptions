@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_saw_frank.mp3",
   "revisions": [
     {
-      "sha256": "2229a1cdb3104579e2b40de892a02f44f19820385d1116c22da076e54c4afbc0",
+      "sha256": [
+        "2229a1cdb3104579e2b40de892a02f44f19820385d1116c22da076e54c4afbc0"
+      ],
       "text": "That's all Victor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

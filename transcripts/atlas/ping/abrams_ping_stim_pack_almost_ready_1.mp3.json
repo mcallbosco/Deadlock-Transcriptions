@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stim_pack_almost_ready_1.mp3",
   "revisions": [
     {
-      "sha256": "aba6946f7dffb7cd1557b995d40628c5e85b16298229faaa0c1d42eda08fc09f",
+      "sha256": [
+        "aba6946f7dffb7cd1557b995d40628c5e85b16298229faaa0c1d42eda08fc09f"
+      ],
       "text": "Stimpack's almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "964d927eb49727fa74750565f49e65ac15fe6d86efbb9e2ceac1f89927ddf272",
+      "sha256": [
+        "964d927eb49727fa74750565f49e65ac15fe6d86efbb9e2ceac1f89927ddf272"
+      ],
       "text": "Stem pack's almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

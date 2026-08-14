@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_hunt_02.mp3",
   "revisions": [
     {
-      "sha256": "07ca3f26e4abc1478fda5bf6d7d933d78f5fff1f6386ed40b3dd8d312e2dc581",
+      "sha256": [
+        "07ca3f26e4abc1478fda5bf6d7d933d78f5fff1f6386ed40b3dd8d312e2dc581"
+      ],
       "text": "We are forever.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7b444eaedb39f96a758ab5fc50d8e425372a80f08cf1e69dce7d4b3312976505",
+      "sha256": [
+        "69dbd1de83f7ab08795317ada6ea310324a03fa6beb2bf76db279d86c9a09062",
+        "7b444eaedb39f96a758ab5fc50d8e425372a80f08cf1e69dce7d4b3312976505"
+      ],
       "text": "Kick it out forever.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69dbd1de83f7ab08795317ada6ea310324a03fa6beb2bf76db279d86c9a09062",
-      "text": "Kick it out forever.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e928a872208588d663ac1ab15c5fbf50c86452e00b584c582662028b8709d07",
+      "sha256": [
+        "8e928a872208588d663ac1ab15c5fbf50c86452e00b584c582662028b8709d07"
+      ],
       "text": "They can't hide forever",
       "source": "official"
     }

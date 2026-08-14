@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_use_ability1.mp3",
   "revisions": [
     {
-      "sha256": "d61362e6e95f9b8e61d50232d7f2101115c980e08af372723897c3dcaee02e42",
+      "sha256": [
+        "d61362e6e95f9b8e61d50232d7f2101115c980e08af372723897c3dcaee02e42"
+      ],
       "text": "Katzu is ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6e3a97ee5b259f09b1759305f39fc723c81a5629474f73594100fd750066f511",
+      "sha256": [
+        "6e3a97ee5b259f09b1759305f39fc723c81a5629474f73594100fd750066f511"
+      ],
       "text": "Kudzu's ready",
       "source": "official"
     }

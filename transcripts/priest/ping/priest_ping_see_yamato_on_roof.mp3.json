@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_see_yamato_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "5051f7da503af9764002c03c693145d1ccb02a0f16ca01ccf74919a1b8581d29",
+      "sha256": [
+        "5051f7da503af9764002c03c693145d1ccb02a0f16ca01ccf74919a1b8581d29"
+      ],
       "text": "You have a toast on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8605aeac3cde83e0d4b146ec42a42983dac595a9fa8cbcc9a2afe7e4f34b47ec",
+      "sha256": [
+        "8605aeac3cde83e0d4b146ec42a42983dac595a9fa8cbcc9a2afe7e4f34b47ec"
+      ],
       "text": "Yamato's on the roof!",
       "source": "official"
     }

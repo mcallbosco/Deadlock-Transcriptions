@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_murphy_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "829e86bf38a207c5058c690bfd86541cfa2e294d0ffb61d7c174a3e5fbfc33ec",
+      "sha256": [
+        "829e86bf38a207c5058c690bfd86541cfa2e294d0ffb61d7c174a3e5fbfc33ec"
+      ],
       "text": "This is this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "df56e9c94bd7af1d1082382294cad8120d0969ce6bdde1d7a9e19f3666e057d1",
+      "sha256": [
+        "df56e9c94bd7af1d1082382294cad8120d0969ce6bdde1d7a9e19f3666e057d1"
+      ],
       "text": "That's just this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

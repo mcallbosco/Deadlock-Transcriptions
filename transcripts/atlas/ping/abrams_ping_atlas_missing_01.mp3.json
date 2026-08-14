@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1de7aa616048ac57bb79485bb29533a3119877526e7dadb68d946df0fafb4ff3",
+      "sha256": [
+        "1de7aa616048ac57bb79485bb29533a3119877526e7dadb68d946df0fafb4ff3",
+        "4a36fc5c27a260b1210eba3502e09c0aba366434c6fd44f73e865156f71732b0"
+      ],
       "text": "That was missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a36fc5c27a260b1210eba3502e09c0aba366434c6fd44f73e865156f71732b0",
-      "text": "That was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

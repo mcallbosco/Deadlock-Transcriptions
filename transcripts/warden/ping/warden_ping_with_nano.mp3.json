@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "ffe67d43ff50b42679bc6ebaf346b148edf4f3e2eca6dfd54090643eda6e70e2",
+      "sha256": [
+        "ffe67d43ff50b42679bc6ebaf346b148edf4f3e2eca6dfd54090643eda6e70e2"
+      ],
       "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

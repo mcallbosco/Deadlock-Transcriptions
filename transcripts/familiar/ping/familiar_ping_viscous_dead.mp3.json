@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_viscous_dead.mp3",
   "revisions": [
     {
-      "sha256": "812b12e7784a9e574fad6453ce4a4442d89c9925574c33e3494179aa970c82fb",
+      "sha256": [
+        "812b12e7784a9e574fad6453ce4a4442d89c9925574c33e3494179aa970c82fb"
+      ],
       "text": "This is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

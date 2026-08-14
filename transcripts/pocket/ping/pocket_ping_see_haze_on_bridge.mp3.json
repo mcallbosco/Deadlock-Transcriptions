@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "571a93f5e31dcc2988fcc05a1f84b2efdd65ffc6d6169769723ce29f2f39de14",
+      "sha256": [
+        "571a93f5e31dcc2988fcc05a1f84b2efdd65ffc6d6169769723ce29f2f39de14"
+      ],
       "text": "Phaez is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d959c97e52116a5713a00b488f23dc427cbd2234652d854e84b700b6de0dd1da",
+      "sha256": [
+        "d959c97e52116a5713a00b488f23dc427cbd2234652d854e84b700b6de0dd1da"
+      ],
       "text": "Hazes on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

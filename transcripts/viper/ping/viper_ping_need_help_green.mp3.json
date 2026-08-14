@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_need_help_green.mp3",
   "revisions": [
     {
-      "sha256": "82e9fff02e3dff8f83c91e35cfa783bf0ad5e527e0b098f751bccfec71afeeda",
+      "sha256": [
+        "82e9fff02e3dff8f83c91e35cfa783bf0ad5e527e0b098f751bccfec71afeeda",
+        "c548a36dfeb1a010cabc772a88a4f0621c40e6700fb836e52006a99baeb6c247"
+      ],
       "text": "Need help on green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c548a36dfeb1a010cabc772a88a4f0621c40e6700fb836e52006a99baeb6c247",
-      "text": "Need help on green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b4521bb9d2a6481bb677cca842039ff515702e720984f0668486c742db08b46d",
+      "sha256": [
+        "b4521bb9d2a6481bb677cca842039ff515702e720984f0668486c742db08b46d"
+      ],
       "text": "Need help on Greenwich!",
       "source": "official"
     }

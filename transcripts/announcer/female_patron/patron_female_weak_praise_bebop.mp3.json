@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_weak_praise_bebop.mp3",
   "revisions": [
     {
-      "sha256": "c1961ffe174060c043fe66ec3bdeff909789ceb1ecf038710766d90c5461fab7",
+      "sha256": [
+        "c1961ffe174060c043fe66ec3bdeff909789ceb1ecf038710766d90c5461fab7"
+      ],
       "text": "Well done, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

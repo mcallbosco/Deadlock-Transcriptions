@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_forge_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "a5e022be48ce7c31c5819d49387dc5338f7f5385eada77f2499cd786b5eaae96",
+      "sha256": [
+        "344e40e18b915ce31297a128f0537227f431ab81f55071f76a1254a818dd7c52",
+        "a5e022be48ce7c31c5819d49387dc5338f7f5385eada77f2499cd786b5eaae96"
+      ],
       "text": "McGinnis is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "344e40e18b915ce31297a128f0537227f431ab81f55071f76a1254a818dd7c52",
-      "text": "McGinnis is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9138ecd7e095bb4d7f633d57748cfe67c764a9be93bcbf9458c5541ab7d03b18",
+      "sha256": [
+        "9138ecd7e095bb4d7f633d57748cfe67c764a9be93bcbf9458c5541ab7d03b18"
+      ],
       "text": "McGinnis's on top of mid!",
       "source": "official"
     }

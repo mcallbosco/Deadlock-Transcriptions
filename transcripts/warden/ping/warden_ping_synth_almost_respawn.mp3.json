@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_synth_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "33e0b3fec76e89a3a4f0d39058327b496fa41853c66d87c04e1a3566bc2267cb",
-      "text": "Pocket is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2273d413be6dcb912855a02b1a5d47c5b8583ffa3fc09161168b7edbf0f7ced9",
-      "text": "Pocket is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28d07e323dbe314479a8bc9c6aabe53b526c933b42a746835772a9eebd16ccf4",
-      "text": "Pocket is almost back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b6050c04b1c71e9960496df2d43997430d12c8075a0bd84ee72aafb1562065c",
+      "sha256": [
+        "2273d413be6dcb912855a02b1a5d47c5b8583ffa3fc09161168b7edbf0f7ced9",
+        "28d07e323dbe314479a8bc9c6aabe53b526c933b42a746835772a9eebd16ccf4",
+        "33e0b3fec76e89a3a4f0d39058327b496fa41853c66d87c04e1a3566bc2267cb",
+        "4b6050c04b1c71e9960496df2d43997430d12c8075a0bd84ee72aafb1562065c"
+      ],
       "text": "Pocket is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

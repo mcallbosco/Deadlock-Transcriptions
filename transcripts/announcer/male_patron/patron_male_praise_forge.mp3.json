@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_praise_forge.mp3",
   "revisions": [
     {
-      "sha256": "7e2daeda5a508d172c368adc99b6396e32156ee31423b5fdec0e5c3c247c8836",
+      "sha256": [
+        "7e2daeda5a508d172c368adc99b6396e32156ee31423b5fdec0e5c3c247c8836"
+      ],
       "text": "Well done, Forge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2711aeeda2690343b977f9bba7f05e0989fe73b154c5f7309de70c12e60c3772",
-      "text": "Brilliant as always, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e7269559b4d1600f480066c90905ab94f68a2d2444dee56d60db8d97addda65b",
-      "text": "Brilliant as always, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "103ad7aef18d8a36a8a4198a94a0a825de2d8e923e1dda40909b21d76943f10a",
+      "sha256": [
+        "103ad7aef18d8a36a8a4198a94a0a825de2d8e923e1dda40909b21d76943f10a",
+        "2711aeeda2690343b977f9bba7f05e0989fe73b154c5f7309de70c12e60c3772",
+        "e7269559b4d1600f480066c90905ab94f68a2d2444dee56d60db8d97addda65b"
+      ],
       "text": "Brilliant as always McGinnis",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_outnumbered_01.mp3",
   "revisions": [
     {
-      "sha256": "d4471c4591b3e5246bc0cdd3f87e50e95fe86b1f84390bcbf3bf9f030e99f20f",
+      "sha256": [
+        "d4471c4591b3e5246bc0cdd3f87e50e95fe86b1f84390bcbf3bf9f030e99f20f"
+      ],
       "text": "I don't like these odds.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

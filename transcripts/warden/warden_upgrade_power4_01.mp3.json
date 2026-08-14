@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_upgrade_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "e431698c92c9725e7faeb84863a738459f8f08d148d838d089f215abcab2907c",
-      "text": "They will try to kill me, and they will fail.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd3edc828d0d93b911a4120c09c675f116b8e173ba53fa8362d77456b9895508",
-      "text": "They will try to kill me, and they will fail.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12db86e2a24231a874c0f63ff69f806b76fbf1d44d779ce3a38110b41c884eaf",
-      "text": "They will try to kill me, and they will fail.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7b5bb82e25b5b47b5163ad026b05a7fbb43fd95e14bbbcbd42d76a4daebbcaa",
+      "sha256": [
+        "12db86e2a24231a874c0f63ff69f806b76fbf1d44d779ce3a38110b41c884eaf",
+        "a7b5bb82e25b5b47b5163ad026b05a7fbb43fd95e14bbbcbd42d76a4daebbcaa",
+        "dd3edc828d0d93b911a4120c09c675f116b8e173ba53fa8362d77456b9895508",
+        "e431698c92c9725e7faeb84863a738459f8f08d148d838d089f215abcab2907c"
+      ],
       "text": "They will try to kill me, and they will fail.",
       "source": "official"
     }

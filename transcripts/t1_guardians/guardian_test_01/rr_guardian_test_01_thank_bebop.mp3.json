@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_thank_bebop.mp3",
   "revisions": [
     {
-      "sha256": "f6372df807bc5ccab6c2133dd7085b95ce800d2699810a16e4de5d6307b417ea",
-      "text": "Thanks, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3965e6cc3588cee32ab64b1eb208fe7b7cba8fc0da154484fe153ea2d4e05c1a",
-      "text": "Thanks, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03b969696e84b3e2e91b3cfb44348d1cac2da1ffbd8add2870369ee9ade126b1",
+      "sha256": [
+        "03b969696e84b3e2e91b3cfb44348d1cac2da1ffbd8add2870369ee9ade126b1",
+        "3965e6cc3588cee32ab64b1eb208fe7b7cba8fc0da154484fe153ea2d4e05c1a",
+        "f6372df807bc5ccab6c2133dd7085b95ce800d2699810a16e4de5d6307b417ea"
+      ],
       "text": "Thanks, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

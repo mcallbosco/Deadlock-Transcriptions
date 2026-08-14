@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "d760a6c7fca0d176b903b5aa48e20651d58bdeca2a6539b7b0b38f9a6ce94b3a",
+      "sha256": [
+        "d760a6c7fca0d176b903b5aa48e20651d58bdeca2a6539b7b0b38f9a6ce94b3a"
+      ],
       "text": "Let's go, orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

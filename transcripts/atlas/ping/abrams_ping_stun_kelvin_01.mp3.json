@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stun_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "7aa653e3a46b329cd6e85a95fa06d97b12e8ccf52094f653c1a9e4aa87489b02",
+      "sha256": [
+        "6d492cdbdac1d2f3c2ec230a72fff42982f60ff12a347ab85f33aeae9ef731d0",
+        "7aa653e3a46b329cd6e85a95fa06d97b12e8ccf52094f653c1a9e4aa87489b02"
+      ],
       "text": "Sun Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d492cdbdac1d2f3c2ec230a72fff42982f60ff12a347ab85f33aeae9ef731d0",
-      "text": "Sun Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbab7f6c2eba5a509ce68ba73decdc8a012f02a175e43115a13f2b79526cd6c1",
+      "sha256": [
+        "fbab7f6c2eba5a509ce68ba73decdc8a012f02a175e43115a13f2b79526cd6c1"
+      ],
       "text": "Son Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

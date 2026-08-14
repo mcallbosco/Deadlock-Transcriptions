@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "9c7e93f5b5ab1e36bd9d243f260bc5d27467c1ec0036ae01c8737a000bbefe40",
+      "sha256": [
+        "16014966f39caee85b4a47a3b4c0ec5489ab0f58965e880aa562e4f07525769b",
+        "9c7e93f5b5ab1e36bd9d243f260bc5d27467c1ec0036ae01c8737a000bbefe40"
+      ],
       "text": "I'm with you, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b628315f98d733a94c4b96415c2f9b4313fc524fe1a8dd7ae4400ccbce4f88f",
+      "sha256": [
+        "0b628315f98d733a94c4b96415c2f9b4313fc524fe1a8dd7ae4400ccbce4f88f"
+      ],
       "text": "I'm with you, Haste.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16014966f39caee85b4a47a3b4c0ec5489ab0f58965e880aa562e4f07525769b",
-      "text": "I'm with you, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

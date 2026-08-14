@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_duo_01.mp3",
   "revisions": [
     {
-      "sha256": "c3cc2e36e898463057e96753a1d20983021ca4ffcf32e87ecb73c4286d3e7e87",
+      "sha256": [
+        "c3cc2e36e898463057e96753a1d20983021ca4ffcf32e87ecb73c4286d3e7e87"
+      ],
       "text": "Как дела?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52330aee798126459b142061b49761703031db4672dad0cbfcf7b34514bc1e13",
+      "sha256": [
+        "19ec691f3c6efb48efb0b6ac7536125b00bf1fdb596f18daef93ec9c73f8f948",
+        "52330aee798126459b142061b49761703031db4672dad0cbfcf7b34514bc1e13"
+      ],
       "text": "good deal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "19ec691f3c6efb48efb0b6ac7536125b00bf1fdb596f18daef93ec9c73f8f948",
-      "text": "Good deal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_viscous_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "40d0474a03b0eff9f53a29d1b0211d0d642c82a6ad354bf7a68acc62b9f2eaaf",
+      "sha256": [
+        "40d0474a03b0eff9f53a29d1b0211d0d642c82a6ad354bf7a68acc62b9f2eaaf"
+      ],
       "text": "This case is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7cfbb1f650b6ef10ce62550cd5423ffba7fd63d26f7330951d67e640ebeee113",
+      "sha256": [
+        "7cfbb1f650b6ef10ce62550cd5423ffba7fd63d26f7330951d67e640ebeee113"
+      ],
       "text": "Viscous's on the roof!",
       "source": "official"
     }

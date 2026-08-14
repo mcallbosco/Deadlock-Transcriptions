@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "6e804737f603e4202502eddff9f7b8bef753bf817a4fd30ec00f9dd14020ef74",
-      "text": "Careful, Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b7ab0b6498f75aa3892b0a8578abd69194c070f61d0721a625af82ce8113fdc",
+      "sha256": [
+        "1b7ab0b6498f75aa3892b0a8578abd69194c070f61d0721a625af82ce8113fdc",
+        "6e804737f603e4202502eddff9f7b8bef753bf817a4fd30ec00f9dd14020ef74"
+      ],
       "text": "Careful, Grey Talon…",
       "source": "official"
     }

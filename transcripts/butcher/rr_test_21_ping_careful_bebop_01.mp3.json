@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "0cde5dc7fad08b47fa5ee498d36f052fabe06ce7b5276dbfd464288e014f3ac5",
-      "text": "Careful, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f04d1ceeeb9bece733eb238dcf3bc22d519ae3b4c5ef0f80b2f4c892ec201ac",
-      "text": "Careful, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5274ec641c0591f3fffee1fd2c9ae6951643acf986ad5ce1626893cc835a303",
+      "sha256": [
+        "0cde5dc7fad08b47fa5ee498d36f052fabe06ce7b5276dbfd464288e014f3ac5",
+        "6f04d1ceeeb9bece733eb238dcf3bc22d519ae3b4c5ef0f80b2f4c892ec201ac",
+        "c5274ec641c0591f3fffee1fd2c9ae6951643acf986ad5ce1626893cc835a303"
+      ],
       "text": "Careful, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

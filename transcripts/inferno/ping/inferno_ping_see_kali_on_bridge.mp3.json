@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_kali_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a97f9a1a043843c9d76127a55728624a007c634bcd66219ad75eca549003f462",
+      "sha256": [
+        "a97f9a1a043843c9d76127a55728624a007c634bcd66219ad75eca549003f462",
+        "fe806e112f7bdc795416dc64482b5645331c836966e02b04716417364bac6e97"
+      ],
       "text": "Callie's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe806e112f7bdc795416dc64482b5645331c836966e02b04716417364bac6e97",
-      "text": "Callie's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

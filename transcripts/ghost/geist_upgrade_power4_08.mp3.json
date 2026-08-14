@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_upgrade_power4_08.mp3",
   "revisions": [
     {
-      "sha256": "0157ac6ad50d45e7d92aa43ffa93a498db519d47b57f5357a5c79f68095761bc",
+      "sha256": [
+        "0157ac6ad50d45e7d92aa43ffa93a498db519d47b57f5357a5c79f68095761bc"
+      ],
       "text": "We stand in the middle between life and death.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a5683141a18461469c8fcaf5b4485d2cf61f1fe99ce658e40c8eb7e17050e073",
+      "sha256": [
+        "a5683141a18461469c8fcaf5b4485d2cf61f1fe99ce658e40c8eb7e17050e073"
+      ],
       "text": "we stand between life and death.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

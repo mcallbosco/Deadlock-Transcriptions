@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_select_02.mp3",
   "revisions": [
     {
-      "sha256": "44ff0c4ee03927c2ec7904e736c06e68991f7bb55d7f4c0419bea01d57dba82e",
-      "text": "Looks like I'm missing that job interview.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "329a298bfbba82762695921c506fd30b0d08bb6a121b9261df35fb3387397c15",
+      "sha256": [
+        "329a298bfbba82762695921c506fd30b0d08bb6a121b9261df35fb3387397c15",
+        "44ff0c4ee03927c2ec7904e736c06e68991f7bb55d7f4c0419bea01d57dba82e"
+      ],
       "text": "Looks like I'm missing that job interview.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

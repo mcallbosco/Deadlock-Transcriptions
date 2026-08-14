@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_murphy_02.mp3",
   "revisions": [
     {
-      "sha256": "026a59cda77476ce48369d00bdad50a7e46362a0c3822cc142e62dba6ed335c2",
-      "text": "Careful, Murphy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c166afe1350671b023148dae9d3456dc0668ed4b51820cb71f45cc441b1925b3",
-      "text": "Careful, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5576825909053950cb3a053ab867807a1bf523a162aba91eecd14cfabf4ec8d0",
+      "sha256": [
+        "026a59cda77476ce48369d00bdad50a7e46362a0c3822cc142e62dba6ed335c2",
+        "5576825909053950cb3a053ab867807a1bf523a162aba91eecd14cfabf4ec8d0",
+        "c166afe1350671b023148dae9d3456dc0668ed4b51820cb71f45cc441b1925b3"
+      ],
       "text": "Careful, Murphy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

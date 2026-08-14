@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "777e885663de81647fccf25433231c4700ab8cd1b57e3269212169678011f88e",
+      "sha256": [
+        "777e885663de81647fccf25433231c4700ab8cd1b57e3269212169678011f88e"
+      ],
       "text": "Victor was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

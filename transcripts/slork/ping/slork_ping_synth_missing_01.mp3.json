@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0c7352c37445ff6da003297d0efe1f0c452f077b13ed318c09661854aa1640d9",
+      "sha256": [
+        "0c7352c37445ff6da003297d0efe1f0c452f077b13ed318c09661854aa1640d9"
+      ],
       "text": "Target's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

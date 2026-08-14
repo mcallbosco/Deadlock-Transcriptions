@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_bebop_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "4f7929fb2660d739aede62636034da296b7e15a0ba8be71e33f3b341a6a756cd",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fd9b60c4225867b8200a6ff56b763b2a11ddc7ab84a17c784d9a0b56179669b",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e0d765448e56976d20976344869267916deb1eb46e298af5b6cb7dbc190f7b78",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca294d00db0a69d9fab8bbdb7aeeab1dc2c52ef4adf5b7c3d310a24d4628abf4",
+      "sha256": [
+        "3fd9b60c4225867b8200a6ff56b763b2a11ddc7ab84a17c784d9a0b56179669b",
+        "4f7929fb2660d739aede62636034da296b7e15a0ba8be71e33f3b341a6a756cd",
+        "ca294d00db0a69d9fab8bbdb7aeeab1dc2c52ef4adf5b7c3d310a24d4628abf4",
+        "e0d765448e56976d20976344869267916deb1eb46e298af5b6cb7dbc190f7b78"
+      ],
       "text": "Bebop's on the roof!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_with_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "a1f07973c80a820579965199b94ceb35280636f98c7f50726f9689dd8c0da462",
+      "sha256": [
+        "a1f07973c80a820579965199b94ceb35280636f98c7f50726f9689dd8c0da462"
+      ],
       "text": "I'm with you, Wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

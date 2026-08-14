@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_grey_talon_03.mp3",
   "revisions": [
     {
-      "sha256": "28d1fbb1ea40d39f20068b581911b23bbfef1e6da437710a7f984d0b3ca5b990",
-      "text": "Careful, Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d100a9edf2711323220fb4d93a6c5db1ce749f64fe89bb52ac28558593f5f3da",
+      "sha256": [
+        "28d1fbb1ea40d39f20068b581911b23bbfef1e6da437710a7f984d0b3ca5b990",
+        "d100a9edf2711323220fb4d93a6c5db1ce749f64fe89bb52ac28558593f5f3da"
+      ],
       "text": "Careful, Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

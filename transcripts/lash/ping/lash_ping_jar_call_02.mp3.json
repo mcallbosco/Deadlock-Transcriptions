@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_jar_call_02.mp3",
   "revisions": [
     {
-      "sha256": "fafac9a0437275d3080192fc6de9505d100923b33e77c71afba46f7b7db8f990",
+      "sha256": [
+        "93487b178be85118d484d040b01e4bfc960d4ae8b83fe34160db022394d63f2d",
+        "fafac9a0437275d3080192fc6de9505d100923b33e77c71afba46f7b7db8f990"
+      ],
       "text": "There's a soul jar here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "93487b178be85118d484d040b01e4bfc960d4ae8b83fe34160db022394d63f2d",
-      "text": "There's a soul jar here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "40286cba36321c98d52c7fcd50f3fb1df576693ddf79eb8d4c0addf6aba7d2b7",
+      "sha256": [
+        "40286cba36321c98d52c7fcd50f3fb1df576693ddf79eb8d4c0addf6aba7d2b7"
+      ],
       "text": "There's a Soul Jar is here!",
       "source": "official"
     }

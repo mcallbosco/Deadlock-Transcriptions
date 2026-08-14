@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_butcher_headed_to_purple.mp3",
   "revisions": [
     {
-      "sha256": "512207bf1515bbc6da59791781c74be50d56de61e86847a9daa4ce4ce4628351",
-      "text": "Switch is headed to purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d5c8150726bec6a0ce20399f8bf4b1a211a5e9e539db6c9244590a580b3e03d",
-      "text": "Switch is headed to purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "191d3705e873e94f68997d67c8a1cad5ea239c3420a622631bd419b8410aeb35",
+      "sha256": [
+        "191d3705e873e94f68997d67c8a1cad5ea239c3420a622631bd419b8410aeb35",
+        "512207bf1515bbc6da59791781c74be50d56de61e86847a9daa4ce4ce4628351",
+        "7d5c8150726bec6a0ce20399f8bf4b1a211a5e9e539db6c9244590a580b3e03d"
+      ],
       "text": "Switch is headed to purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

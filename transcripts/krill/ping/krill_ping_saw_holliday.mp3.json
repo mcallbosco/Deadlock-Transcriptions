@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_holliday.mp3",
   "revisions": [
     {
-      "sha256": "bc4937570e920990fb67c61b300e7012b162077a2cd55bfc93d7ff0e4070226e",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddd0915149c9bb2c449cdec5ffd963caf6fd445d671136620ac701d40432b99d",
+      "sha256": [
+        "bc4937570e920990fb67c61b300e7012b162077a2cd55bfc93d7ff0e4070226e",
+        "ddd0915149c9bb2c449cdec5ffd963caf6fd445d671136620ac701d40432b99d"
+      ],
       "text": "I saw Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

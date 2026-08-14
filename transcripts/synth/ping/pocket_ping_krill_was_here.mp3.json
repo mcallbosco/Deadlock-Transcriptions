@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_krill_was_here.mp3",
   "revisions": [
     {
-      "sha256": "001a13aaffba0ee499c07d5ffb465672a52d3d7d9def1dd7e7d3a8a5bf4eddda",
-      "text": "Crew is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01998df25f0eeed302a94bedaf370f5aa2f3e24030643e79577eec73aa90de97",
+      "sha256": [
+        "001a13aaffba0ee499c07d5ffb465672a52d3d7d9def1dd7e7d3a8a5bf4eddda",
+        "01998df25f0eeed302a94bedaf370f5aa2f3e24030643e79577eec73aa90de97"
+      ],
       "text": "Crew is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

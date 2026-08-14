@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "6288101b64dcccbab0cf6e59a7eda5bf42fb010cb6ed4bc13548e9ea70bfc86b",
+      "sha256": [
+        "6288101b64dcccbab0cf6e59a7eda5bf42fb010cb6ed4bc13548e9ea70bfc86b",
+        "f30565921ef58f4844c170ec53b2a1fd788f40d222f249dd189cda6b67762b58"
+      ],
       "text": "Crew is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "845439ae18160002355bfd259263cb8139d38c1a3041efc1357da5fee2d4e6a5",
+      "sha256": [
+        "845439ae18160002355bfd259263cb8139d38c1a3041efc1357da5fee2d4e6a5"
+      ],
       "text": "Crew's dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f30565921ef58f4844c170ec53b2a1fd788f40d222f249dd189cda6b67762b58",
-      "text": "Crew is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

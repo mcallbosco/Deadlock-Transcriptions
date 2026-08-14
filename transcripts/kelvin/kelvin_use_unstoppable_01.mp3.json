@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_use_unstoppable_01.mp3",
   "revisions": [
     {
-      "sha256": "a11491ed5bf2473e3a90b911789941d0970188f9d2c98d723e6991445569ee19",
+      "sha256": [
+        "a11491ed5bf2473e3a90b911789941d0970188f9d2c98d723e6991445569ee19"
+      ],
       "text": "Attack, stop me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "81c99224c1003ea52af60b51bc1c434d0a54a4daabb26874b21eeb6097e8d381",
+      "sha256": [
+        "81c99224c1003ea52af60b51bc1c434d0a54a4daabb26874b21eeb6097e8d381"
+      ],
       "text": "They can't stop me!",
       "source": "official"
     }

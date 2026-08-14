@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "809639ac7519b83c9eeea95aac151b98f1812bb57eb11d20b3c6492120a8d831",
-      "text": "Krill is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a65b8613415bd9873626e93249addc564ceaf1a660f05b2b256a7830c1a2ea79",
+      "sha256": [
+        "809639ac7519b83c9eeea95aac151b98f1812bb57eb11d20b3c6492120a8d831",
+        "a65b8613415bd9873626e93249addc564ceaf1a660f05b2b256a7830c1a2ea79"
+      ],
       "text": "Krill is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

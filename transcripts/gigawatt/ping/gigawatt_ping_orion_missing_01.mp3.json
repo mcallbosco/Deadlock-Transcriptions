@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4ca138b1345b281307444fb467cb8dde300d2c46d0d8cdf8b3b01e904c20b119",
+      "sha256": [
+        "4ca138b1345b281307444fb467cb8dde300d2c46d0d8cdf8b3b01e904c20b119",
+        "94941f761bd6f2e529c195625a8fb37f4a2c1c999ddaccc12e6d66a5fd32542a"
+      ],
       "text": "Great challenge, missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "94941f761bd6f2e529c195625a8fb37f4a2c1c999ddaccc12e6d66a5fd32542a",
-      "text": "Great challenge missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9fe2ddacfac48575ec565205c930045c2fa9d05fa6cbe390a0ed1e383b4b622",
+      "sha256": [
+        "b9fe2ddacfac48575ec565205c930045c2fa9d05fa6cbe390a0ed1e383b4b622"
+      ],
       "text": "Grey Talon's missing",
       "source": "official"
     }

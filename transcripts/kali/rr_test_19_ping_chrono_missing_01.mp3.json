@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ccb317a5306cad528b93e9093ce622651276afb21b9054691401004dc0117932",
+      "sha256": [
+        "21ef21a4353b64351e56e4ab6bc154443f5681db2f7854df37c5b84c4a27f044",
+        "ccb317a5306cad528b93e9093ce622651276afb21b9054691401004dc0117932"
+      ],
       "text": "Crow is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "21ef21a4353b64351e56e4ab6bc154443f5681db2f7854df37c5b84c4a27f044",
-      "text": "Crow is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c5d958366cd00fd6744201aa06804dfda564087b894859f38a2b80b685ab4b9",
+      "sha256": [
+        "0c5d958366cd00fd6744201aa06804dfda564087b894859f38a2b80b685ab4b9"
+      ],
       "text": "Cow is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

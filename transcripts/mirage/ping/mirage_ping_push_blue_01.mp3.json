@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_push_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "5266c964d9cc833cb845b037178d77998920624c58d541c0c3c998bdfcc1234b",
+      "sha256": [
+        "5266c964d9cc833cb845b037178d77998920624c58d541c0c3c998bdfcc1234b"
+      ],
       "text": "Let's push through.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "68c351f3caff51b3c511f674acb3e6b401c177d73a20a908c7be8f75685e1a5c",
+      "sha256": [
+        "1caadc78fc2468fd4aafe2a2d56d488d5b54489c95ac59c15fa66a023cbaa7bb",
+        "68c351f3caff51b3c511f674acb3e6b401c177d73a20a908c7be8f75685e1a5c"
+      ],
       "text": "Les fouches bleues.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1caadc78fc2468fd4aafe2a2d56d488d5b54489c95ac59c15fa66a023cbaa7bb",
-      "text": "Les fouches bleues !",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25c11c15ed1f46639a9b1fca5cc882cd5eeec70da599f9f11e0a6fac99ccf9c3",
+      "sha256": [
+        "25c11c15ed1f46639a9b1fca5cc882cd5eeec70da599f9f11e0a6fac99ccf9c3"
+      ],
       "text": "Let's push Blue",
       "source": "official"
     }

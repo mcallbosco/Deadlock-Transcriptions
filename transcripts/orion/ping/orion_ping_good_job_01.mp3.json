@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "af24e5554157bfb77d6b6fe1b18a8145a3f74c814f12dad42cba84ff296d90c5",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b808b6d6e2555f535415360a9f85698514fe666110550fd16cfe1ee1756aa94",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7bc30905cb58687636c559a92d4d0b3cd44dfd184c1a693e7a7633893435d665",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96ea7d054fc632db485f9af2b27d2434a0b9dd82019ba01b6014c49ac27ae522",
+      "sha256": [
+        "2b808b6d6e2555f535415360a9f85698514fe666110550fd16cfe1ee1756aa94",
+        "7bc30905cb58687636c559a92d4d0b3cd44dfd184c1a693e7a7633893435d665",
+        "96ea7d054fc632db485f9af2b27d2434a0b9dd82019ba01b6014c49ac27ae522",
+        "af24e5554157bfb77d6b6fe1b18a8145a3f74c814f12dad42cba84ff296d90c5"
+      ],
       "text": "Good job.",
       "source": "official"
     }

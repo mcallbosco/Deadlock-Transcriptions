@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "6934c99d045de9975f52569f32f1f0872fdc2fb14de43e33d9a0c29511100413",
-      "text": "I see Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df871ef75ee267bf1f656a7aef2dcd7ed5c0885b70b277f902e7d9bbef0c78e5",
+      "sha256": [
+        "6934c99d045de9975f52569f32f1f0872fdc2fb14de43e33d9a0c29511100413",
+        "df871ef75ee267bf1f656a7aef2dcd7ed5c0885b70b277f902e7d9bbef0c78e5"
+      ],
       "text": "I see Grey Talon",
       "source": "official"
     }

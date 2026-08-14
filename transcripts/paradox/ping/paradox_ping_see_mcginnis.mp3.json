@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "8189c10b7fb6835729e8f7e711ca0d2455a96e433d2e1f51f7c9b6bf7721d5d7",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1947fec0e67b643d5d8cf3281708f619ae76ac2c542931c606320cf5b46d7c45",
+      "sha256": [
+        "1947fec0e67b643d5d8cf3281708f619ae76ac2c542931c606320cf5b46d7c45",
+        "8189c10b7fb6835729e8f7e711ca0d2455a96e433d2e1f51f7c9b6bf7721d5d7"
+      ],
       "text": "I see McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_forge_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a01f90733a4a2db361bc5fd9ef012695ebf0807e93c1fceda43d7eed231d9c0f",
+      "sha256": [
+        "618551dc389f66ab8b1f146f1a2a9a8011846dcec0b71608ff118c98a6887b42",
+        "a01f90733a4a2db361bc5fd9ef012695ebf0807e93c1fceda43d7eed231d9c0f",
+        "a2d6b4d32fee22f38c6ffe509e0c12359b7fc1a2c94bc79f6130b39c144fb711"
+      ],
       "text": "McGinnis is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "618551dc389f66ab8b1f146f1a2a9a8011846dcec0b71608ff118c98a6887b42",
-      "text": "McGinnis is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a2d6b4d32fee22f38c6ffe509e0c12359b7fc1a2c94bc79f6130b39c144fb711",
-      "text": "McGinnis is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea127bcee9bcc8a547f23ed68fd748ef8e9c8514a19da817a64a96c1c9473a28",
+      "sha256": [
+        "ea127bcee9bcc8a547f23ed68fd748ef8e9c8514a19da817a64a96c1c9473a28"
+      ],
       "text": "McGinnis's on the bridge!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_haze_02.mp3",
   "revisions": [
     {
-      "sha256": "09201ea31299d64059f3c82ad4adedeaeed4baacc2af247eaa98e6e1989ecfdb",
+      "sha256": [
+        "09201ea31299d64059f3c82ad4adedeaeed4baacc2af247eaa98e6e1989ecfdb"
+      ],
       "text": "Careful, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cb107ff8bdb50e6eb93787b9ae34bbb75b0c637ef6fb6e5445cbd583d14341d8",
+      "sha256": [
+        "cb107ff8bdb50e6eb93787b9ae34bbb75b0c637ef6fb6e5445cbd583d14341d8"
+      ],
       "text": "Careful, Hayes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_abrams_01.mp3",
   "revisions": [
     {
-      "sha256": "6768f341572bcff19d0df1ae9ae26e1a13f7552555d071efc38dad1b1b3c4c74",
+      "sha256": [
+        "6768f341572bcff19d0df1ae9ae26e1a13f7552555d071efc38dad1b1b3c4c74"
+      ],
       "text": "I see Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

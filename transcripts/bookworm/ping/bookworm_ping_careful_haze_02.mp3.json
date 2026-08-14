@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_haze_02.mp3",
   "revisions": [
     {
-      "sha256": "640f7ecd94f462db3bb040582f8bee9540d027a57ab8703e113f265a88d75c83",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "26231e2f245234fe26975c3754d6afc2fdfdd7b4d5a7be52b90b6c2a7a518708",
+      "sha256": [
+        "26231e2f245234fe26975c3754d6afc2fdfdd7b4d5a7be52b90b6c2a7a518708",
+        "640f7ecd94f462db3bb040582f8bee9540d027a57ab8703e113f265a88d75c83"
+      ],
       "text": "Careful, Haze.",
       "source": "official"
     }

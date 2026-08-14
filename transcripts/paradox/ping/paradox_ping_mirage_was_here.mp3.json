@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a96a2afbc9ab72bd787a5c8497e89a49ba9970902e7ae416d521d377fc14ca46",
+      "sha256": [
+        "8e270abbaf900769180f733460657f9acb923f63ef809c188fe186339afe3168",
+        "a96a2afbc9ab72bd787a5c8497e89a49ba9970902e7ae416d521d377fc14ca46"
+      ],
       "text": "Mirage was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e270abbaf900769180f733460657f9acb923f63ef809c188fe186339afe3168",
-      "text": "Mirage was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

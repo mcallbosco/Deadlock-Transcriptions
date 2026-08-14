@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_atlas.mp3",
   "revisions": [
     {
-      "sha256": "03ccc1479c57f5c62bcd04f4868cf50c999c32c59f79bbe773e82bb8a5a4adc6",
+      "sha256": [
+        "03ccc1479c57f5c62bcd04f4868cf50c999c32c59f79bbe773e82bb8a5a4adc6",
+        "7ea2a1efb601575ae7f9faffbe3ac503038d594708c8b15ed9f9aa1c11e34603"
+      ],
       "text": "Atlas, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ea2a1efb601575ae7f9faffbe3ac503038d594708c8b15ed9f9aa1c11e34603",
-      "text": "Atlas, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

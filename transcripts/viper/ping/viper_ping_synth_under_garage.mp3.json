@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_synth_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "438fd560ded6fd59ca1882c3e0cf33d567d40042bed693ec5b52ae54105d7d70",
-      "text": "Pockets under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "438fd560ded6fd59ca1882c3e0cf33d567d40042bed693ec5b52ae54105d7d70",
+        "ca718bb751040571d73c899332c522c5e796a4f25aea161d2a9279f90d1206d9"
+      ],
+      "text": "Pocket's under the garage!",
+      "source": "official"
     },
     {
-      "sha256": "556cb3cab1c7f16c00e1318851b44efd447492b69d8e923c2a0a8aca7266c00d",
+      "sha256": [
+        "556cb3cab1c7f16c00e1318851b44efd447492b69d8e923c2a0a8aca7266c00d"
+      ],
       "text": "Take it down to the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca718bb751040571d73c899332c522c5e796a4f25aea161d2a9279f90d1206d9",
-      "text": "Pocket's under the garage!",
-      "source": "official"
     }
   ]
 }

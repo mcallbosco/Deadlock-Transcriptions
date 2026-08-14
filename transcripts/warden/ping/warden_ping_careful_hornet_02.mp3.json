@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_careful_hornet_02.mp3",
   "revisions": [
     {
-      "sha256": "40e72cfee0727aaa3173b7b5c33d8c5f9a061a43ff4a3225733e8f7bf4b3f8d7",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "2ad17a54e26028217a657609803c8c8df024358b1fe2aabe3794784aa342a1f8",
+        "3a084931c798c54ea5d2f47d5bc3d470dee9d8cd301b02b55b4512672e537e74",
+        "40e72cfee0727aaa3173b7b5c33d8c5f9a061a43ff4a3225733e8f7bf4b3f8d7"
+      ],
+      "text": "Careful, vindicta",
+      "source": "official"
     },
     {
-      "sha256": "3a084931c798c54ea5d2f47d5bc3d470dee9d8cd301b02b55b4512672e537e74",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16037b7dd8ed4b2e236214936da81141aa94ad47f39422e2c3f90d48841af00a",
+      "sha256": [
+        "16037b7dd8ed4b2e236214936da81141aa94ad47f39422e2c3f90d48841af00a"
+      ],
       "text": "Careful, Vendicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ad17a54e26028217a657609803c8c8df024358b1fe2aabe3794784aa342a1f8",
-      "text": "Careful, vindicta",
-      "source": "official"
     }
   ]
 }

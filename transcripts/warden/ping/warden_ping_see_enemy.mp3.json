@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "50c3745edce107b71d41157be4d031b78f027069a09cd97c2025f1736b319fb3",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dfe1ddb47776de4049aba6e159ae6640973c44d518683dcf09a49f4882a1baca",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d72c316d467709788c2ea91ff1d38716c0075028e76c41dfd84ea1700f1f2ca",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b343fc839df2bae6f137978caeab96869129e7e913b5dd57af1a946f3908860c",
+      "sha256": [
+        "50c3745edce107b71d41157be4d031b78f027069a09cd97c2025f1736b319fb3",
+        "6d72c316d467709788c2ea91ff1d38716c0075028e76c41dfd84ea1700f1f2ca",
+        "b343fc839df2bae6f137978caeab96869129e7e913b5dd57af1a946f3908860c",
+        "dfe1ddb47776de4049aba6e159ae6640973c44d518683dcf09a49f4882a1baca"
+      ],
       "text": "I see the enemy!",
       "source": "official"
     }

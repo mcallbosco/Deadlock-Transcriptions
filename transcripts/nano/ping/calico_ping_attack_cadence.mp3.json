@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_attack_cadence.mp3",
   "revisions": [
     {
-      "sha256": "ae3f409a71338f81b7d38311104897251441e4911017979c209de164e14b03e0",
+      "sha256": [
+        "5f9ab9b24a95790e260b5fdecec0e539d8e66e6900086bcfef90c94fd9e89a90",
+        "ae3f409a71338f81b7d38311104897251441e4911017979c209de164e14b03e0"
+      ],
       "text": "Let's take out cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f9ab9b24a95790e260b5fdecec0e539d8e66e6900086bcfef90c94fd9e89a90",
-      "text": "Let's take out Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

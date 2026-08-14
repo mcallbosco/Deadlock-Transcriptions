@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_ignore_synth.mp3",
   "revisions": [
     {
-      "sha256": "c18b5f122d88d7e67fe142ed6f0fa5f54d951bc41d262c86062c0a6010cfb9dd",
-      "text": "Ignore Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "706ce5d0f3f2c268cee78695e027e866fdaf4287f3cd0033225bbe8996f3a3af",
+      "sha256": [
+        "706ce5d0f3f2c268cee78695e027e866fdaf4287f3cd0033225bbe8996f3a3af",
+        "c18b5f122d88d7e67fe142ed6f0fa5f54d951bc41d262c86062c0a6010cfb9dd"
+      ],
       "text": "Ignore Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

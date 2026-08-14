@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_the_boss_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3300a695baff844557fb01f46181dd9a9130c1784bf3e9a2a25614054e0c6daa",
-      "text": "The boss was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c1252de05057683293a2ff1af9cd548d184b8e4e6927499bf8f871b20d37735",
+      "sha256": [
+        "2c1252de05057683293a2ff1af9cd548d184b8e4e6927499bf8f871b20d37735",
+        "3300a695baff844557fb01f46181dd9a9130c1784bf3e9a2a25614054e0c6daa"
+      ],
       "text": "The boss was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

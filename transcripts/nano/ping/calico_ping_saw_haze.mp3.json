@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "251bbc10ddcd659a291a932fc4d73f6d88af6571417e11b5e70f5fb5477a86b7",
-      "text": "Hey, Zoe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07bd08860909d45ada2459732c7058a9924b73e9bd5b3a3675ae2b0ed9c396fc",
+      "sha256": [
+        "07bd08860909d45ada2459732c7058a9924b73e9bd5b3a3675ae2b0ed9c396fc",
+        "251bbc10ddcd659a291a932fc4d73f6d88af6571417e11b5e70f5fb5477a86b7"
+      ],
       "text": "Hey, Zoe.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

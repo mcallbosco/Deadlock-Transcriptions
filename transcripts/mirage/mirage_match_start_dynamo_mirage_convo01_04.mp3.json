@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_match_start_dynamo_mirage_convo01_04.mp3",
   "revisions": [
     {
-      "sha256": "ec2d4a10119bb031779c4215562403a622e937c1125d653d5e637e14e7448024",
-      "text": "What does that word mean?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49dee23e1a4947a6a96e2a7d30f112bde333983b104559991762ec89ed4baa91",
-      "text": "What does that word mean?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e488430f0f86a1c8438f7ebfc8a5756a5bf6a9d7ad2c7b170ddc04e638cb317c",
+      "sha256": [
+        "49dee23e1a4947a6a96e2a7d30f112bde333983b104559991762ec89ed4baa91",
+        "e488430f0f86a1c8438f7ebfc8a5756a5bf6a9d7ad2c7b170ddc04e638cb317c",
+        "ec2d4a10119bb031779c4215562403a622e937c1125d653d5e637e14e7448024"
+      ],
       "text": "What does that word mean?",
       "source": "official"
     }

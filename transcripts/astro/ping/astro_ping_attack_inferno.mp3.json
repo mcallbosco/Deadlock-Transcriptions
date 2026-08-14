@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_attack_inferno.mp3",
   "revisions": [
     {
-      "sha256": "744a96161aba951704120251c4f08ae348da0e54a35bfcf908589c95e62162e3",
-      "text": "Let's take out Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cfcda9efa45af1ec6222d5a0f614fde0673590ed64885582cdd44773fece159",
+      "sha256": [
+        "5cfcda9efa45af1ec6222d5a0f614fde0673590ed64885582cdd44773fece159",
+        "744a96161aba951704120251c4f08ae348da0e54a35bfcf908589c95e62162e3"
+      ],
       "text": "Let's take out Infernus",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_upgrade_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "eb60a96381efdc101b4ba023773c6524ed7877b76773e9d2e3d3c9f630d911a5",
-      "text": "They will hear my agony.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e79f20590e87bf525b684c5da01c2bf97a57eeb4b2311abc7dc8bf9ebf5f23f5",
+      "sha256": [
+        "e79f20590e87bf525b684c5da01c2bf97a57eeb4b2311abc7dc8bf9ebf5f23f5",
+        "eb60a96381efdc101b4ba023773c6524ed7877b76773e9d2e3d3c9f630d911a5"
+      ],
       "text": "They will hear my agony.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

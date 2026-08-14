@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_haze.mp3",
   "revisions": [
     {
-      "sha256": "debc0a5f41c5d9cb809a20e7490bbb1d10a6ff98d55710b48d0c6f37edca1043",
+      "sha256": [
+        "debc0a5f41c5d9cb809a20e7490bbb1d10a6ff98d55710b48d0c6f37edca1043"
+      ],
       "text": "Hey, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b6cd78ea553b158429a9e7925aa9a5d46661f20f68548198eb382fa4d07a2f9b",
+      "sha256": [
+        "b6cd78ea553b158429a9e7925aa9a5d46661f20f68548198eb382fa4d07a2f9b"
+      ],
       "text": "Haze, I can heal you!",
       "source": "official"
     }

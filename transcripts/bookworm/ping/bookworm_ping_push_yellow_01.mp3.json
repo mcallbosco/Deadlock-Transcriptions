@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "2db1019dc9ab2d9017d549fcc995df6f7d911d9d3f3f87027b2e3647661b293a",
+      "sha256": [
+        "2db1019dc9ab2d9017d549fcc995df6f7d911d9d3f3f87027b2e3647661b293a"
+      ],
       "text": "That was yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7c828d0a4cbea0e9d355a29b2ec6b156b2ac7e262b53d5eb1774002799430294",
+      "sha256": [
+        "7c828d0a4cbea0e9d355a29b2ec6b156b2ac7e262b53d5eb1774002799430294"
+      ],
       "text": "Let's push Yellow.",
       "source": "official"
     }

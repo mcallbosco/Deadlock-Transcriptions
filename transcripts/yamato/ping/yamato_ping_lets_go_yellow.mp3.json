@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "8f506b22d3d3496c39eaeddc9d2452280566fa883493b7eeb9698e3dc4db8b7b",
-      "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3048bb53deb99293ec3490aee42f38504e59f753b0aea7d007820d5529bd31c5",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e9816beab00f3a363da9373fae4c2ff6cbc8f8fc24a8e4653b5815dbe5ac961",
+      "sha256": [
+        "3048bb53deb99293ec3490aee42f38504e59f753b0aea7d007820d5529bd31c5",
+        "4e9816beab00f3a363da9373fae4c2ff6cbc8f8fc24a8e4653b5815dbe5ac961",
+        "8f506b22d3d3496c39eaeddc9d2452280566fa883493b7eeb9698e3dc4db8b7b"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

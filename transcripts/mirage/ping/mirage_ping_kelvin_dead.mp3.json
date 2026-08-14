@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "144055f504c480889047c9bd71e64d13e70fa020150dd03d6490f2f2e56fa3b9",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a93fe3df7458b26dc99a57cc5ed30f4e9f509e77d38f16d1f947d1157a7757d",
-      "text": "Kelvin is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e25fe0423c0eef2627e20066ec92950e7066f10e2e325f4d37c002b6d43dc07",
+      "sha256": [
+        "144055f504c480889047c9bd71e64d13e70fa020150dd03d6490f2f2e56fa3b9",
+        "2e25fe0423c0eef2627e20066ec92950e7066f10e2e325f4d37c002b6d43dc07",
+        "4a93fe3df7458b26dc99a57cc5ed30f4e9f509e77d38f16d1f947d1157a7757d"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

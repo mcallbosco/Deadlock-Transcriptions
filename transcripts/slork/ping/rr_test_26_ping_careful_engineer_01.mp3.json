@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_engineer_01.mp3",
   "revisions": [
     {
-      "sha256": "a711333c1cac637f36d78346699404293dcf1e236689309c1e4d15f4b1492f42",
-      "text": "Careful, Engineer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59dd7f9c7c4b2ba0e49f8c206d678a3b4582f2a631f8e05912bc69c5d757862a",
+      "sha256": [
+        "59dd7f9c7c4b2ba0e49f8c206d678a3b4582f2a631f8e05912bc69c5d757862a",
+        "a711333c1cac637f36d78346699404293dcf1e236689309c1e4d15f4b1492f42"
+      ],
       "text": "Careful, Engineer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

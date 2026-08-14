@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_negative_01.mp3",
   "revisions": [
     {
-      "sha256": "62c5c05088c8e0e8477fcc123b5eb16031eccc667fe5e0efda822a19c6e27944",
-      "text": "No!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c55769861447fec235940dcc5fef6983f61f690b34e295135e7e89aaaffd0b47",
-      "text": "No.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b129a6472d040775c09a6c57748118b464bd50035c7c6c2ca7c9858ecb3144f3",
-      "text": "No.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "29d858870c79afd46c1e0010d2e6ad71db2d48d5b5b62da4ccbb1dfcc153971f",
+      "sha256": [
+        "29d858870c79afd46c1e0010d2e6ad71db2d48d5b5b62da4ccbb1dfcc153971f",
+        "62c5c05088c8e0e8477fcc123b5eb16031eccc667fe5e0efda822a19c6e27944",
+        "b129a6472d040775c09a6c57748118b464bd50035c7c6c2ca7c9858ecb3144f3",
+        "c55769861447fec235940dcc5fef6983f61f690b34e295135e7e89aaaffd0b47"
+      ],
       "text": "No",
       "source": "official"
     }

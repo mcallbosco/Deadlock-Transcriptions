@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_leave_base_01.mp3",
   "revisions": [
     {
-      "sha256": "c94ba104abf5cb1002f23347c7faa0e2d88334b027cc7258a559e2af3f9de704",
-      "text": "Returning to the field.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af40aebe0c8d19bf406fe26d444db2aa9daec606f6b2cf47a61b321e980f4f1b",
+      "sha256": [
+        "af40aebe0c8d19bf406fe26d444db2aa9daec606f6b2cf47a61b321e980f4f1b",
+        "c94ba104abf5cb1002f23347c7faa0e2d88334b027cc7258a559e2af3f9de704"
+      ],
       "text": "Returning to the field.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

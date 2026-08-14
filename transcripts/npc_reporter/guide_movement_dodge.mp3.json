@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_movement_dodge.mp3",
   "revisions": [
     {
-      "sha256": "d73f6e224463fd6f8f6366bf86db1e62232cc9138f36622d0532b3d781b13a7f",
-      "text": "While moving, press left shift to dash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "192631cc3c923e93a7a8f51c19b7b3d29a82f642527b9c3460eebeb3020265c1",
+      "sha256": [
+        "192631cc3c923e93a7a8f51c19b7b3d29a82f642527b9c3460eebeb3020265c1",
+        "d73f6e224463fd6f8f6366bf86db1e62232cc9138f36622d0532b3d781b13a7f"
+      ],
       "text": "While moving, press left shift to dash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

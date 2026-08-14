@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_win_01.mp3",
   "revisions": [
     {
-      "sha256": "a96d9f54835907ce3f465469e9c3482822169774847d92a610948181be521c6f",
+      "sha256": [
+        "a96d9f54835907ce3f465469e9c3482822169774847d92a610948181be521c6f"
+      ],
       "text": "You got the wrong guy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5696ae640a3c1138b379469b27afe626c5b6462dab2c0a5978aa50f3779d9b30",
+      "sha256": [
+        "5696ae640a3c1138b379469b27afe626c5b6462dab2c0a5978aa50f3779d9b30"
+      ],
       "text": "I fear nothing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b9bee5546e648051a91c39818eed06780ab84f0f8ec24bc910f92ab3da18f94",
+      "sha256": [
+        "4b9bee5546e648051a91c39818eed06780ab84f0f8ec24bc910f92ab3da18f94"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

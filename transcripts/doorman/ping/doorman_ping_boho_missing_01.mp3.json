@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_boho_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d9de57018452d366e7c2b7c52865bc98a83cc612370ec0a9dd4c39be62261cc3",
+      "sha256": [
+        "d9de57018452d366e7c2b7c52865bc98a83cc612370ec0a9dd4c39be62261cc3"
+      ],
       "text": "The witch is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

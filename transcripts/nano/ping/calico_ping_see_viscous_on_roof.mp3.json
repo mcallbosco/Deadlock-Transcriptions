@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_viscous_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "cd1b226f53f536cc9710da1af61afaf9b59ebb7d4f7fedb289a8477893a9acab",
-      "text": "This is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50d45304e66a83f0b50c471d37a8c6047fa7fd06e80ac0868b25c9ddfed2fa0b",
+      "sha256": [
+        "50d45304e66a83f0b50c471d37a8c6047fa7fd06e80ac0868b25c9ddfed2fa0b",
+        "cd1b226f53f536cc9710da1af61afaf9b59ebb7d4f7fedb289a8477893a9acab"
+      ],
       "text": "This is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

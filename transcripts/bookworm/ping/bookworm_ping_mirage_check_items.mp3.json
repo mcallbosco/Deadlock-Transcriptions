@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_mirage_check_items.mp3",
   "revisions": [
     {
-      "sha256": "2713777f8437e072a0edc649b653acaefeb1e5a510ac1bc676dd27ffdedb34f5",
-      "text": "Check out what Mirage bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46e63e3af4eb011996fca2ec9d07170957d6f0148693a83b7325ae67ba73960f",
+      "sha256": [
+        "2713777f8437e072a0edc649b653acaefeb1e5a510ac1bc676dd27ffdedb34f5",
+        "46e63e3af4eb011996fca2ec9d07170957d6f0148693a83b7325ae67ba73960f"
+      ],
       "text": "Check out what Mirage bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

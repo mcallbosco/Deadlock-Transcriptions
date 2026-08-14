@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "d8424fd26b715a1ff043adffa5261a7bc749ec797ea7050402a76b52ff724bf1",
+      "sha256": [
+        "d8424fd26b715a1ff043adffa5261a7bc749ec797ea7050402a76b52ff724bf1"
+      ],
       "text": "I get that shot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "da78f60a65690d574f6b6174dc25fdb0a852c67e5867b844c19bfa909163b9f3",
+      "sha256": [
+        "bdb3996daa8ba43d564fc1d6ee6133041bf6693b4076af4115ef1c98d6a5fb24",
+        "da78f60a65690d574f6b6174dc25fdb0a852c67e5867b844c19bfa909163b9f3"
+      ],
       "text": "I gotta get patched up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bdb3996daa8ba43d564fc1d6ee6133041bf6693b4076af4115ef1c98d6a5fb24",
-      "text": "I gotta get patched up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39b5a8e2ab08a566efed6aab55968d5713e1b2eef56855e113cc2a16e963419d",
+      "sha256": [
+        "39b5a8e2ab08a566efed6aab55968d5713e1b2eef56855e113cc2a16e963419d"
+      ],
       "text": "I'll get you patched up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

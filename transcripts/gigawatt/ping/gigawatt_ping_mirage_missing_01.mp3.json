@@ -1,27 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "fa7fb587b83fc5b6fc06492a9869f1c28e8cf02029d5e5b9aeaa6e58fe58276d",
+      "sha256": [
+        "fa7fb587b83fc5b6fc06492a9869f1c28e8cf02029d5e5b9aeaa6e58fe58276d"
+      ],
       "text": "Watch me speak.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "009f85c20fff3e62335def88f8a992524e3236ff65970e3b06d016955dcb8ee3",
+      "sha256": [
+        "009f85c20fff3e62335def88f8a992524e3236ff65970e3b06d016955dcb8ee3"
+      ],
       "text": "The bar is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f353c53bd5b729a840b8a8829c58fea3d072ad6c643c77813f3083e52794c4d7",
+      "sha256": [
+        "f353c53bd5b729a840b8a8829c58fea3d072ad6c643c77813f3083e52794c4d7"
+      ],
       "text": "The body is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69440d37605beb196222528c8f90f27433461e127b3cab16ca3e7cd31040846d",
+      "sha256": [
+        "69440d37605beb196222528c8f90f27433461e127b3cab16ca3e7cd31040846d"
+      ],
       "text": "Mirage's missing",
       "source": "official"
     }

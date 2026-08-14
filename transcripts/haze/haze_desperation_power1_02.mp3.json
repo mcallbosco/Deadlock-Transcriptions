@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_desperation_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "0d5f056a546be5ce4c33a31a638b1cb44a3efb2be8d219bbe9c2b977f5acc820",
-      "text": "Sleep, damn it!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "963771cecad4b57716daeb2741d9b03990ef2f76dd56c0755ec1c2d8dfedb973",
-      "text": "Sleep, dammit!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0624eb40ccd7dbdd11a4ccdf5b33b2c766819ebd67bc7c399d2f2cb4b59ca75f",
-      "text": "Sleep, dammit!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb35a05a74b822822a2eafba986892d153f2c3a5eb5e6ecdd8e2a606980019f8",
-      "text": "Sleep, damn it!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c609dfa3a32d43539fff6597ab7e319fe90798934251612dd1180fcdba6b4279",
+      "sha256": [
+        "0d5f056a546be5ce4c33a31a638b1cb44a3efb2be8d219bbe9c2b977f5acc820",
+        "c609dfa3a32d43539fff6597ab7e319fe90798934251612dd1180fcdba6b4279",
+        "eb35a05a74b822822a2eafba986892d153f2c3a5eb5e6ecdd8e2a606980019f8"
+      ],
       "text": "Sleep damn it!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "0624eb40ccd7dbdd11a4ccdf5b33b2c766819ebd67bc7c399d2f2cb4b59ca75f",
+        "963771cecad4b57716daeb2741d9b03990ef2f76dd56c0755ec1c2d8dfedb973"
+      ],
+      "text": "Sleep, dammit!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

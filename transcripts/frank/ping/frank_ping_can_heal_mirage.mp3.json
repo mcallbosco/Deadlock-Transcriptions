@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "23b00e1a56dde331741bd67cad1a14fd1dcfa41f233f078a2914d6b056070c51",
+      "sha256": [
+        "23b00e1a56dde331741bd67cad1a14fd1dcfa41f233f078a2914d6b056070c51"
+      ],
       "text": "Rush, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dccbdd923a726b86ae2e4223d40b915ac377da35e809f2d05c35b46718a040cc",
+      "sha256": [
+        "dccbdd923a726b86ae2e4223d40b915ac377da35e809f2d05c35b46718a040cc"
+      ],
       "text": "Mirage, I can heal you!",
       "source": "official"
     }

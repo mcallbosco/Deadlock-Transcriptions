@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_missing_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "cb4dddb3eaf218b1b597349d6826555f15064548051f2c39e614c54e3fb1975c",
+      "sha256": [
+        "599c1c1f97cca27cfecf75326095260749ed3b9785ca484b1f933132cbbb00ca",
+        "cb4dddb3eaf218b1b597349d6826555f15064548051f2c39e614c54e3fb1975c"
+      ],
       "text": "Missing park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "599c1c1f97cca27cfecf75326095260749ed3b9785ca484b1f933132cbbb00ca",
-      "text": "Missing Park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_lash_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5c113e23ae7812d934260c998685f6939850297dfba2a759a363d8c7a4840def",
+      "sha256": [
+        "5c113e23ae7812d934260c998685f6939850297dfba2a759a363d8c7a4840def"
+      ],
       "text": "Math is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1e1fcf42b503d8a3f18379c57b05bead030255d76216c2e626a45be3b6ecfa88",
+      "sha256": [
+        "1e1fcf42b503d8a3f18379c57b05bead030255d76216c2e626a45be3b6ecfa88"
+      ],
       "text": "Lash's missing",
       "source": "official"
     }

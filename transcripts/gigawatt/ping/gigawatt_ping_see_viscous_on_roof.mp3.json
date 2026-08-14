@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_viscous_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "289d598bd6b046edfaada99e713db483be373d05fb85d528a27f23e9e79bb5cf",
+      "sha256": [
+        "289d598bd6b046edfaada99e713db483be373d05fb85d528a27f23e9e79bb5cf"
+      ],
       "text": "Yes, because I'm the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6f61b1c99ee22c40ab920d37a8393f8d74c725a4ea086a17606a27a9b2b4f36d",
+      "sha256": [
+        "14612fa1c7276c4953b4f2b4d2b90665bf51357250960dd4406f818016ef4643",
+        "6f61b1c99ee22c40ab920d37a8393f8d74c725a4ea086a17606a27a9b2b4f36d"
+      ],
       "text": "This guess is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "14612fa1c7276c4953b4f2b4d2b90665bf51357250960dd4406f818016ef4643",
-      "text": "This guess is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a8bd53f48096f543092a9c8acad6c316275cbecfa7fccf14ef8caff96a5fc3c",
+      "sha256": [
+        "1a8bd53f48096f543092a9c8acad6c316275cbecfa7fccf14ef8caff96a5fc3c"
+      ],
       "text": "Viscous is on the roof!",
       "source": "manual"
     }

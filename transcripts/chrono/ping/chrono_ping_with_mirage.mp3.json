@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "bbfb49a4c0d21d275c7a2f67239758b8958dda453914a2d32e4f8617d1a35346",
+      "sha256": [
+        "bbfb49a4c0d21d275c7a2f67239758b8958dda453914a2d32e4f8617d1a35346"
+      ],
       "text": "I wish you were right.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dafc7325bf5d090858e5244d246712862ec193a55ae0f870a912d17e0d51161a",
+      "sha256": [
+        "dafc7325bf5d090858e5244d246712862ec193a55ae0f870a912d17e0d51161a"
+      ],
       "text": "I wish you were ash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

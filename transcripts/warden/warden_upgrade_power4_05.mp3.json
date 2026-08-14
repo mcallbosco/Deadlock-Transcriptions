@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_upgrade_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "8e0c63cbf8c2bf5ba254cbaec10fd5febe55f19033411af223eb98715f116d49",
-      "text": "I will stand resolute.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dba0f7839c048cdbe66ef35e1f529d356e0a088be247e196bbd8d04122454281",
-      "text": "I will stand resolute.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41c9b84e6c7bc4b0fe094d3b65efa945c91cecbb86cc309509f0fcf823b2070d",
-      "text": "I will stand resolute.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50691d16b1477ee16d3c266cab86b28ff6661364bd0210927765c005b559277a",
+      "sha256": [
+        "41c9b84e6c7bc4b0fe094d3b65efa945c91cecbb86cc309509f0fcf823b2070d",
+        "50691d16b1477ee16d3c266cab86b28ff6661364bd0210927765c005b559277a",
+        "8e0c63cbf8c2bf5ba254cbaec10fd5febe55f19033411af223eb98715f116d49",
+        "dba0f7839c048cdbe66ef35e1f529d356e0a088be247e196bbd8d04122454281"
+      ],
       "text": "I will stand resolute.",
       "source": "official"
     }

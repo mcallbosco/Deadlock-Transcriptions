@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "7405e15e1c10c804915d5fffe960e257391fe7f8c04e5efecc9d16adcf1effa9",
+      "sha256": [
+        "2ac2854a4d272b1eeedeadae27c433ae22a66e233dee32c09d7ca77f299a9912",
+        "7405e15e1c10c804915d5fffe960e257391fe7f8c04e5efecc9d16adcf1effa9"
+      ],
       "text": "I see chrono!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ac2854a4d272b1eeedeadae27c433ae22a66e233dee32c09d7ca77f299a9912",
-      "text": "I see Chrono.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

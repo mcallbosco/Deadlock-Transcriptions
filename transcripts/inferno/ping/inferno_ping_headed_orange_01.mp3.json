@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_headed_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "c4d5ac490fe33fe729a047480f2529d210103294fe4988612c93ae61af64a6b9",
+      "sha256": [
+        "c4d5ac490fe33fe729a047480f2529d210103294fe4988612c93ae61af64a6b9"
+      ],
       "text": "Get to work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "59c4d4b549a1f1a1c2c7a3f2ca9befde45b88fa5b916f20a959ca146b6bde9fb",
+      "sha256": [
+        "59c4d4b549a1f1a1c2c7a3f2ca9befde45b88fa5b916f20a959ca146b6bde9fb",
+        "ba7de3c1651d0d9b4619cb810ac0aad2ca1aca86b80b635f14eda0ba061f2a50"
+      ],
       "text": "Headed to Orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba7de3c1651d0d9b4619cb810ac0aad2ca1aca86b80b635f14eda0ba061f2a50",
-      "text": "Headed to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

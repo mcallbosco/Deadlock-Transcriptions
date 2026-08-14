@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_ignore_haze.mp3",
   "revisions": [
     {
-      "sha256": "cda3ed7b62736bd8dbdab088aa49c2d5bed25f9bf87dc456a6702e4128205d6e",
+      "sha256": [
+        "71594f59b56b3399a6396d15688fceba3eac962ea02d39c5e680a66f257c2c33",
+        "cda3ed7b62736bd8dbdab088aa49c2d5bed25f9bf87dc456a6702e4128205d6e",
+        "e59c604369f98a41cb1744e2bc7087b0bffd82007e10d276068b640385fb61a7"
+      ],
       "text": "Ignore haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71594f59b56b3399a6396d15688fceba3eac962ea02d39c5e680a66f257c2c33",
-      "text": "Ignore haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e59c604369f98a41cb1744e2bc7087b0bffd82007e10d276068b640385fb61a7",
-      "text": "Ignore Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

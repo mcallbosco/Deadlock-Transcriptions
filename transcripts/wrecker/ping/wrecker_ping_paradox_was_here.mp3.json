@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_paradox_was_here.mp3",
   "revisions": [
     {
-      "sha256": "156a17d7e6c6564fd27a6edef32fb722cc265b85e48b068eeea1baee57089831",
-      "text": "Paradox was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e70514d468be66ddb07ee31d5fc416ccb6014050128adf3ee07a636451a39986",
+      "sha256": [
+        "156a17d7e6c6564fd27a6edef32fb722cc265b85e48b068eeea1baee57089831",
+        "e70514d468be66ddb07ee31d5fc416ccb6014050128adf3ee07a636451a39986"
+      ],
       "text": "Paradox was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

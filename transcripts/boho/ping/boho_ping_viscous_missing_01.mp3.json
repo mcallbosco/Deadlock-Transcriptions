@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b9ceb67aef94c11027fb78d753990c95108d6df01319ba3fb352b9abc243b073",
+      "sha256": [
+        "b9ceb67aef94c11027fb78d753990c95108d6df01319ba3fb352b9abc243b073"
+      ],
       "text": "This case is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_doorman.mp3",
   "revisions": [
     {
-      "sha256": "0856981fec6c2a5871453df233ed4121f733098584933c2b7ab4d7f99937855c",
+      "sha256": [
+        "0856981fec6c2a5871453df233ed4121f733098584933c2b7ab4d7f99937855c"
+      ],
       "text": "Ignore the doorman!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

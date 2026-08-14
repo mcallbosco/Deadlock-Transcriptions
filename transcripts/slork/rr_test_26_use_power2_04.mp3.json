@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_use_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "2fc97761a3dbdf2e6a5418f0b795dca2b82a0bf09dc8092424438f0bfacd422b",
+      "sha256": [
+        "2fc97761a3dbdf2e6a5418f0b795dca2b82a0bf09dc8092424438f0bfacd422b"
+      ],
       "text": "No one pointed a gun at me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0d2fe8559b0a8e553510453d4413294feb9132a9245746e48305153a64da3515",
+      "sha256": [
+        "0d2fe8559b0a8e553510453d4413294feb9132a9245746e48305153a64da3515"
+      ],
       "text": "No one points a gun at me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

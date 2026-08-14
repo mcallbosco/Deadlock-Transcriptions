@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_ally_hornet_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "3753d695b40b5e88053cd138ad2ceaed75cfe0c102a9cd6efa9bc895b28d0f22",
+      "sha256": [
+        "0049df3475cc52b6942d6ca18c2df3c4a7a7f9e07131765fed630cdebed1995f",
+        "3753d695b40b5e88053cd138ad2ceaed75cfe0c102a9cd6efa9bc895b28d0f22"
+      ],
       "text": "And they took out Vendicta!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0049df3475cc52b6942d6ca18c2df3c4a7a7f9e07131765fed630cdebed1995f",
-      "text": "And they took out Vendicta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6cc7043f8fb3bf081e0d0e80a01c6d63467f44b298892c83b843b33e1b1940a8",
+      "sha256": [
+        "6cc7043f8fb3bf081e0d0e80a01c6d63467f44b298892c83b843b33e1b1940a8"
+      ],
       "text": "They took out Vindicta!",
       "source": "official"
     }

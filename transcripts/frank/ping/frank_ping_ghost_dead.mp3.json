@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_ghost_dead.mp3",
   "revisions": [
     {
-      "sha256": "1d5bc7c8ee03010c4e75c8b2bf217a3280451ec7fcedda99708a3ce92d8746b7",
+      "sha256": [
+        "1d5bc7c8ee03010c4e75c8b2bf217a3280451ec7fcedda99708a3ce92d8746b7"
+      ],
       "text": "Crest is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3020a37a49d4481c01d595d69558ee4e1b112a42487969f100b38a0edecd4325",
+      "sha256": [
+        "3020a37a49d4481c01d595d69558ee4e1b112a42487969f100b38a0edecd4325"
+      ],
       "text": "Gracis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

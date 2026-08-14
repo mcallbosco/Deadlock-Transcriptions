@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "ec2979cfa385d59ac81d1634461b36653f122880c373e2422e609b7b0a1ff3f7",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db1838229784e8c3ea7776461ea9b29c6f0bbeb31e05710907d9cb434b1122c9",
+      "sha256": [
+        "db1838229784e8c3ea7776461ea9b29c6f0bbeb31e05710907d9cb434b1122c9",
+        "ec2979cfa385d59ac81d1634461b36653f122880c373e2422e609b7b0a1ff3f7"
+      ],
       "text": "Item's on cooldown.",
       "source": "official"
     }

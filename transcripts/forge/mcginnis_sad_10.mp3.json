@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_sad_10.mp3",
   "revisions": [
     {
-      "sha256": "f83c9c908ea9ab25e078891103df2be4f14791230c1230a683032cd4d278e2e4",
+      "sha256": [
+        "4f59caba061d3759d1afc44b0ca3fa3af92c3e2798fe928430597087941dca53",
+        "f83c9c908ea9ab25e078891103df2be4f14791230c1230a683032cd4d278e2e4"
+      ],
       "text": "The sooner the sentence, the better!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f59caba061d3759d1afc44b0ca3fa3af92c3e2798fe928430597087941dca53",
-      "text": "The sooner the sentence, the better.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

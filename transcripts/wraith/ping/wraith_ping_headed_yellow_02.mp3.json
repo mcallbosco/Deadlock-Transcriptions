@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_headed_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "ccbada863f9236244f8804d84e46944457180e7915c88f22b5e69e1dd302cd87",
-      "text": "Headed to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2fe578be7b89eb635aa7e15fe4a8b586612010d258026e53c15bbbb0097db87",
-      "text": "Headed to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d64d5b16e423d094f2bc9cdfc90cde74334ddbdfb5886903834631b329ed430",
+      "sha256": [
+        "7d64d5b16e423d094f2bc9cdfc90cde74334ddbdfb5886903834631b329ed430",
+        "ccbada863f9236244f8804d84e46944457180e7915c88f22b5e69e1dd302cd87",
+        "e2fe578be7b89eb635aa7e15fe4a8b586612010d258026e53c15bbbb0097db87"
+      ],
       "text": "Headed to York",
       "source": "official"
     }

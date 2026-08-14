@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_push_green_02.mp3",
   "revisions": [
     {
-      "sha256": "c826b10a017fdeeabc6127d9b522f49e79fb2d4684306f286e87694b4f116cd8",
+      "sha256": [
+        "c826b10a017fdeeabc6127d9b522f49e79fb2d4684306f286e87694b4f116cd8"
+      ],
       "text": "Let's push Granite!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f05b207df39f08a667a21634210e9cf324a4aa68686e976b979a32f85221083a",
+      "sha256": [
+        "f05b207df39f08a667a21634210e9cf324a4aa68686e976b979a32f85221083a"
+      ],
       "text": "Let's push Greenwich",
       "source": "official"
     }

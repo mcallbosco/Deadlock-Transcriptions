@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_viscous_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c142cdb2e22657d85edcd4fc4dacf2a50e8e0fa61b0aa14c12aef8df1d75a8a4",
-      "text": "This is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82922253ecc86390b08af68d9bc37089b8d4d817e46542780567b773ddc2d120",
+      "sha256": [
+        "82922253ecc86390b08af68d9bc37089b8d4d817e46542780567b773ddc2d120",
+        "c142cdb2e22657d85edcd4fc4dacf2a50e8e0fa61b0aa14c12aef8df1d75a8a4"
+      ],
       "text": "This is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

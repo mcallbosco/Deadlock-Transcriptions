@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_mcginnis_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c469974c6bf6426dd51d3c8dfc774836194f3d78a144d06511e801f510712339",
-      "text": "This is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2134c7d3796130a286d8bf4e141843625fc69dabd6f383074ad1420afbe13a33",
+      "sha256": [
+        "2134c7d3796130a286d8bf4e141843625fc69dabd6f383074ad1420afbe13a33",
+        "c469974c6bf6426dd51d3c8dfc774836194f3d78a144d06511e801f510712339"
+      ],
       "text": "This is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

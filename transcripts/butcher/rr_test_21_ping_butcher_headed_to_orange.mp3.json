@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_butcher_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "6e34c3b7edec6718fd943d078e699d0ab2608b320e85b83775964d73c61c6e8d",
+      "sha256": [
+        "6e34c3b7edec6718fd943d078e699d0ab2608b320e85b83775964d73c61c6e8d"
+      ],
       "text": "Switch is headed to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "682957a6fdf19cd2341353bb0d212669bf8415058cc58dd7e0c5bc70364c775e",
-      "text": "Push is headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a446405720259ec7fd70067617d556ebc2d6c3e0c89ea962c8969e8f36e87726",
+      "sha256": [
+        "682957a6fdf19cd2341353bb0d212669bf8415058cc58dd7e0c5bc70364c775e",
+        "a446405720259ec7fd70067617d556ebc2d6c3e0c89ea962c8969e8f36e87726"
+      ],
       "text": "Push is headed to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

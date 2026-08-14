@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_idol_score_05.mp3",
   "revisions": [
     {
-      "sha256": "32dffb27ac54effd43ab7bdf1298974409bba75fdb9594bb720b29c4f58af567",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17fca8ac1443fa59d336833f1bcd2b9f91deb5580479606ac47b39c21409b9b3",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70b35296f8962d566b26c666478e81daaa7970cb881b6e5c21d0a0da1626e73e",
+      "sha256": [
+        "17fca8ac1443fa59d336833f1bcd2b9f91deb5580479606ac47b39c21409b9b3",
+        "32dffb27ac54effd43ab7bdf1298974409bba75fdb9594bb720b29c4f58af567",
+        "70b35296f8962d566b26c666478e81daaa7970cb881b6e5c21d0a0da1626e73e"
+      ],
       "text": "Yes!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_stun_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "15e30de46d0dea6db2a0bf3ff14e1038a27410ca992b1c860033b0e36cd3ad14",
+      "sha256": [
+        "080de7f7412b8a9c1ba40a0e3421bb301406586ee2ebe8acb7b03762224ce133",
+        "15e30de46d0dea6db2a0bf3ff14e1038a27410ca992b1c860033b0e36cd3ad14"
+      ],
       "text": "Stand Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "080de7f7412b8a9c1ba40a0e3421bb301406586ee2ebe8acb7b03762224ce133",
-      "text": "Standwarden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

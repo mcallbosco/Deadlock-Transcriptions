@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3807bb7539ccf815c2c47a504316f76e53db978511d1dff4881595cf0883992c",
+      "sha256": [
+        "3807bb7539ccf815c2c47a504316f76e53db978511d1dff4881595cf0883992c"
+      ],
       "text": "This is it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0f20525161613d707d09198018b2a564cc6077602a90c070ef9bd83a1e7ab6e9",
+      "sha256": [
+        "0f20525161613d707d09198018b2a564cc6077602a90c070ef9bd83a1e7ab6e9",
+        "803c911d9a4e2ba69ee2c680138a847525447097d939d5ab1405f01c42f28cf1"
+      ],
       "text": "Give me",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "803c911d9a4e2ba69ee2c680138a847525447097d939d5ab1405f01c42f28cf1",
-      "text": "Give me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f728b8e2638acfb7fe0297b96be6a09863e52825f019bc907a326c809cbd43b",
+      "sha256": [
+        "3f728b8e2638acfb7fe0297b96be6a09863e52825f019bc907a326c809cbd43b"
+      ],
       "text": "Shiv's missing",
       "source": "official"
     }

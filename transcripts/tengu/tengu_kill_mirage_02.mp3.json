@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_kill_mirage_02.mp3",
   "revisions": [
     {
-      "sha256": "b5dd5265cd87b182d7744e6f7b05ae7e55c314895ac63b9ef9cee4d4b4867956",
+      "sha256": [
+        "b5dd5265cd87b182d7744e6f7b05ae7e55c314895ac63b9ef9cee4d4b4867956"
+      ],
       "text": "Stop that Mirage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52477dd79312bd332aebac4e1c168ffd82baec16714e7970bc0958fa8f8fc90d",
+      "sha256": [
+        "52477dd79312bd332aebac4e1c168ffd82baec16714e7970bc0958fa8f8fc90d"
+      ],
       "text": "Took down Mirage!",
       "source": "official"
     }

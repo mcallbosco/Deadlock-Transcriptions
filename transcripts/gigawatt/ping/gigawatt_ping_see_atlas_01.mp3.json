@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "7abceef3a4fca873d4aae2307d609ed35b87eb84e7888b6cd99dbc67ed0df35d",
+      "sha256": [
+        "7abceef3a4fca873d4aae2307d609ed35b87eb84e7888b6cd99dbc67ed0df35d"
+      ],
       "text": "Question marks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b3bf610495ce2a4acf86d86f163210b5ed6319671335a706e91f32b5c37ffc68",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0490726eebca265440ee28e4d9d85eb8e573bdada76add0506adec1b794a0b96",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b90c6f8d544e68e029133df8d34d7d2840c303cd33ddafd4e9eaf71179ac165c",
+      "sha256": [
+        "0490726eebca265440ee28e4d9d85eb8e573bdada76add0506adec1b794a0b96",
+        "b3bf610495ce2a4acf86d86f163210b5ed6319671335a706e91f32b5c37ffc68",
+        "b90c6f8d544e68e029133df8d34d7d2840c303cd33ddafd4e9eaf71179ac165c"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_incubus_01.mp3",
   "revisions": [
     {
-      "sha256": "0b6872b84236fdbc3e43178e2edfbe85250f6c4f264324c2d450fd0a56932559",
+      "sha256": [
+        "0b6872b84236fdbc3e43178e2edfbe85250f6c4f264324c2d450fd0a56932559"
+      ],
       "text": "We save the incubus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4906b806f486b587febb14166efc20051eba219542c548c2ee950402cd39e3fa",
+      "sha256": [
+        "4906b806f486b587febb14166efc20051eba219542c548c2ee950402cd39e3fa"
+      ],
       "text": "I see the Incubus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

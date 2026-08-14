@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/holliday_hunt_01.mp3",
   "revisions": [
     {
-      "sha256": "2a4a608f97970e005a0000f808e395604db130fb9cfeafea80fde79c7a80ee3c",
+      "sha256": [
+        "2a4a608f97970e005a0000f808e395604db130fb9cfeafea80fde79c7a80ee3c"
+      ],
       "text": "Go here somewhere.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_stun_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "ce93d81afb73331b1158c85dc30c5fe081a906cda4ab53570fd05160d412da48",
+      "sha256": [
+        "ce93d81afb73331b1158c85dc30c5fe081a906cda4ab53570fd05160d412da48"
+      ],
       "text": "Sun Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power4_06.mp3",
   "revisions": [
     {
-      "sha256": "fdebb555cb5fa98e02c6e781e709f5c6b4ac2d20137383e4238983ab75edd5cc",
-      "text": "Oh, you think you can take me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "121bb1cd6e64ea02329e1b4e2679361b30f5972ef6525f2606dd3e8ded68a1cd",
-      "text": "Oh, you think you can take me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71b675b90d2638a57f949f89c56f858089da02eb820c3b5c8e1017342d086d03",
+      "sha256": [
+        "121bb1cd6e64ea02329e1b4e2679361b30f5972ef6525f2606dd3e8ded68a1cd",
+        "71b675b90d2638a57f949f89c56f858089da02eb820c3b5c8e1017342d086d03",
+        "fdebb555cb5fa98e02c6e781e709f5c6b4ac2d20137383e4238983ab75edd5cc"
+      ],
       "text": "Oh, you think you can take me?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

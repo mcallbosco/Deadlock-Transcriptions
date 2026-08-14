@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_chrono_02.mp3",
   "revisions": [
     {
-      "sha256": "ace449020ab2b1fa5bb54d158d24bcf1e2844ec304a376f598886e3cdb131690",
-      "text": "Careful, Paradox!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e191a69b7d4dc37e9d655c6af024cf15fa00e43df571e08911b984501a71139a",
-      "text": "Careful, paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "980bb48f12f39f3049f3da162ae071d769a926a6fe7a40b223d2da9943536188",
+      "sha256": [
+        "980bb48f12f39f3049f3da162ae071d769a926a6fe7a40b223d2da9943536188",
+        "ace449020ab2b1fa5bb54d158d24bcf1e2844ec304a376f598886e3cdb131690",
+        "e191a69b7d4dc37e9d655c6af024cf15fa00e43df571e08911b984501a71139a"
+      ],
       "text": "Careful, Paradox",
       "source": "official"
     }

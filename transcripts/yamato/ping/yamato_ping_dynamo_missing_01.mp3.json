@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1352e1053aaab5159f08e78311767bc59c8ddd28ad4ee3e476cde2ac2be04c89",
-      "text": "Dynamo's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34f5b4a4f26c328c4bea82541570c55b0e209fd5413e6caf8a6b168999a0a225",
-      "text": "Dynamo's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "335c973bb977cf20e30ccfe96eb647d28f8d786217542de9c202c9cb8f29244f",
+      "sha256": [
+        "1352e1053aaab5159f08e78311767bc59c8ddd28ad4ee3e476cde2ac2be04c89",
+        "335c973bb977cf20e30ccfe96eb647d28f8d786217542de9c202c9cb8f29244f",
+        "34f5b4a4f26c328c4bea82541570c55b0e209fd5413e6caf8a6b168999a0a225"
+      ],
       "text": "Dynamo's missing",
       "source": "official"
     }

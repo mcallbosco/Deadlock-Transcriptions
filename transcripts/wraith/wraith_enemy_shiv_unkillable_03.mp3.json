@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_enemy_shiv_unkillable_03.mp3",
   "revisions": [
     {
-      "sha256": "f366ce7ffb3de0752291e364115b896f9eb2d884748da63d43998a44eaabbc75",
+      "sha256": [
+        "30160c889b78de9fcdeb556f6bdf5d121221c6bd750612f0fc33786b874a07da",
+        "f366ce7ffb3de0752291e364115b896f9eb2d884748da63d43998a44eaabbc75"
+      ],
       "text": "Shift here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "30160c889b78de9fcdeb556f6bdf5d121221c6bd750612f0fc33786b874a07da",
-      "text": "Shift here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec1f997e202b49ed44009940e9b9aa2aa944d8760258043fffcc0a4eefd63407",
+      "sha256": [
+        "ec1f997e202b49ed44009940e9b9aa2aa944d8760258043fffcc0a4eefd63407"
+      ],
       "text": "Shiv's here!",
       "source": "official"
     }

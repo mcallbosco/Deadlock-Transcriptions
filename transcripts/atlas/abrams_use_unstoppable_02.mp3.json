@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_unstoppable_02.mp3",
   "revisions": [
     {
-      "sha256": "5adf837c9e4657bdc96aac2eac52f785ddd65e7ab48d375383fd65aee448fab0",
-      "text": "unstoppable!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d075a86cd507c09c822a32fc315a846236c3e4274cdf6573a1349e1d68a2698",
-      "text": "Unstoppable!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4963ccf5dc57bf27fa6a0301cf912fb9833bb423f383e6c0c98449a56cb77da2",
+      "sha256": [
+        "4963ccf5dc57bf27fa6a0301cf912fb9833bb423f383e6c0c98449a56cb77da2",
+        "5adf837c9e4657bdc96aac2eac52f785ddd65e7ab48d375383fd65aee448fab0",
+        "5d075a86cd507c09c822a32fc315a846236c3e4274cdf6573a1349e1d68a2698"
+      ],
       "text": "Unstoppable!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

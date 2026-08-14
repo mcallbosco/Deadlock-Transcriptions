@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_warden_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "3b6daae43e53926dac45b0916b41557ad8cd7370247c6e51fce6ba32991f34ea",
-      "text": "Who is on the bridge?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "405c66dfdf3b94f9d9cc8e4cdbf53953fd461193cf6ba379b68e6ee22248f9d1",
+      "sha256": [
+        "3b6daae43e53926dac45b0916b41557ad8cd7370247c6e51fce6ba32991f34ea",
+        "405c66dfdf3b94f9d9cc8e4cdbf53953fd461193cf6ba379b68e6ee22248f9d1"
+      ],
       "text": "Who is on the bridge?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

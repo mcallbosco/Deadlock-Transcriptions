@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a553fd00401e9b5dad0dc006471edb54167d9e9a98eede4ad78d1c049b650b0c",
+      "sha256": [
+        "675828b0530e7dd18246ffd41852dbaefd0c0a8b27b9b88fa6c4ae87872f3786",
+        "a553fd00401e9b5dad0dc006471edb54167d9e9a98eede4ad78d1c049b650b0c"
+      ],
       "text": "Packet's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "675828b0530e7dd18246ffd41852dbaefd0c0a8b27b9b88fa6c4ae87872f3786",
-      "text": "Packet's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69aba0c3f3b45680e73ca4e2f26208a90383b0263f58af0f047c6314a4fd18be",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f548144ee71635200330c37f4ab9fd3a363edc4b9d4149486a6a5e30cff2112",
+      "sha256": [
+        "5f548144ee71635200330c37f4ab9fd3a363edc4b9d4149486a6a5e30cff2112",
+        "69aba0c3f3b45680e73ca4e2f26208a90383b0263f58af0f047c6314a4fd18be"
+      ],
       "text": "Pocket's missing",
       "source": "official"
     }

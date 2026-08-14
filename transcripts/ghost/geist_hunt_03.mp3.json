@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_hunt_03.mp3",
   "revisions": [
     {
-      "sha256": "d16dc2aceec237e3eb4ab3e9a2215b9a5e9e4e014fbcd6d929fed324f1a457f8",
-      "text": "When I find you, you will suffer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c5efe76f45b8a0e2c0b5436441e38a78038b2c866ada605dd500958a9a82050",
+      "sha256": [
+        "9c5efe76f45b8a0e2c0b5436441e38a78038b2c866ada605dd500958a9a82050",
+        "d16dc2aceec237e3eb4ab3e9a2215b9a5e9e4e014fbcd6d929fed324f1a457f8"
+      ],
       "text": "When I find you, you will suffer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

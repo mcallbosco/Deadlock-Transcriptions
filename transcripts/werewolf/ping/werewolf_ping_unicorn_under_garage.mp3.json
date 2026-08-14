@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_unicorn_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "ef45dbbee6023442d4dcab369a83307006fada872c75b8de96ae011bff1642aa",
+      "sha256": [
+        "ef45dbbee6023442d4dcab369a83307006fada872c75b8de96ae011bff1642aa"
+      ],
       "text": "The left is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

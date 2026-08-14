@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "49a68a44f683b6f87e605b5c927ed2356e51814a9b1705010a778178a89207fb",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a63393075b9d00301b20f59d4018a1e059ec4bf86e3a269c3d77bcc5af588d1",
+      "sha256": [
+        "49a68a44f683b6f87e605b5c927ed2356e51814a9b1705010a778178a89207fb",
+        "4a63393075b9d00301b20f59d4018a1e059ec4bf86e3a269c3d77bcc5af588d1"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_enemy_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "880bbcc81e189d5466d9458b930f3c54cf61974a1505f554c36f84ea349d989e",
-      "text": "Enemies on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5698c80dcae53d8452083694129d6cd084e02d46a5bacbfba42bb93079879e72",
-      "text": "Enemies on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9489615690d1552e3c612b72e0ff07adcd31c3f8e5862d2a3dc042945e091838",
+      "sha256": [
+        "5698c80dcae53d8452083694129d6cd084e02d46a5bacbfba42bb93079879e72",
+        "880bbcc81e189d5466d9458b930f3c54cf61974a1505f554c36f84ea349d989e",
+        "9489615690d1552e3c612b72e0ff07adcd31c3f8e5862d2a3dc042945e091838"
+      ],
       "text": "Enemies on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

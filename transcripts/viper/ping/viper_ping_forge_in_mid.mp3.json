@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_forge_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "8bc651b1b0c2998d843e77eb61870b03cc71120a96eb0aca20f2fb9f14a230ec",
+      "sha256": [
+        "76a6f6fedf8b4240206023078f58d4af7e0c2fce37e6b3b166439f7c864e76e1",
+        "8bc651b1b0c2998d843e77eb61870b03cc71120a96eb0aca20f2fb9f14a230ec"
+      ],
       "text": "McGinnis is in mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "76a6f6fedf8b4240206023078f58d4af7e0c2fce37e6b3b166439f7c864e76e1",
-      "text": "McGinnis is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "980a9f3afd39af3565c07928e61511ed77c6419cd92c6db4cb30a48a499f46a3",
+      "sha256": [
+        "980a9f3afd39af3565c07928e61511ed77c6419cd92c6db4cb30a48a499f46a3"
+      ],
       "text": "McGinnis's in mid!",
       "source": "official"
     }

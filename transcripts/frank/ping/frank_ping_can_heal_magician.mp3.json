@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_magician.mp3",
   "revisions": [
     {
-      "sha256": "ecb1e3df601cf054ee811da3677795c9518a70e33c4e4f02ec43817ebf3760dc",
-      "text": "Sinclair, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "157024c212de1c3ed2825baabe90df4b14e4201c54e2b4978ee457197461b5b5",
+      "sha256": [
+        "157024c212de1c3ed2825baabe90df4b14e4201c54e2b4978ee457197461b5b5",
+        "ecb1e3df601cf054ee811da3677795c9518a70e33c4e4f02ec43817ebf3760dc"
+      ],
       "text": "Sinclair, I can heal you!",
       "source": "official"
     }

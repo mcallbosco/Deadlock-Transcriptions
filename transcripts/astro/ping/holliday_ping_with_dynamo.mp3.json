@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "8d2c06fc87a6eec059a5af0393e8ed93016c68f2c3dd07e5a03512d8fca2c9e9",
+      "sha256": [
+        "8d2c06fc87a6eec059a5af0393e8ed93016c68f2c3dd07e5a03512d8fca2c9e9"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

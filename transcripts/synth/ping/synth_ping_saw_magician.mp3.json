@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_saw_magician.mp3",
   "revisions": [
     {
-      "sha256": "0d8e1e1792ebd13c4e4aaffacf0db8e1b61eeec1aece42bfec1b782f26d0a81a",
+      "sha256": [
+        "0d8e1e1792ebd13c4e4aaffacf0db8e1b61eeec1aece42bfec1b782f26d0a81a"
+      ],
       "text": "I saw some flair.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

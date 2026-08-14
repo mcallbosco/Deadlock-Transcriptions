@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_select_02.mp3",
   "revisions": [
     {
-      "sha256": "1b2a3266e9c1947c5abd9808aa3edc0d2c8651b1b7a669dc8681621db01e8216",
-      "text": "Technology is a means to an end, nothing more.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82428055e2ae086df6c9df142717bce4be85e32f8712cda84519087f5f871669",
-      "text": "Technology is a means to an end, nothing more.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "811d062472613ecf5f323075fd7c07012b48ff12ac94befc699170a394ea129b",
+      "sha256": [
+        "1b2a3266e9c1947c5abd9808aa3edc0d2c8651b1b7a669dc8681621db01e8216",
+        "811d062472613ecf5f323075fd7c07012b48ff12ac94befc699170a394ea129b",
+        "82428055e2ae086df6c9df142717bce4be85e32f8712cda84519087f5f871669"
+      ],
       "text": "Technology is a means to an end, nothing more.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

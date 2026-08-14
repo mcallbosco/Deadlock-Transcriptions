@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_calico.mp3",
   "revisions": [
     {
-      "sha256": "7b799ed6e30e7843ad0a4ac12eeaa4367ad8df1d136ca45a341f75ff18bc9218",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0abe5d272d37656caebd87682154e83484b7e333088cbb74976b2b2f1b05b82",
+      "sha256": [
+        "7b799ed6e30e7843ad0a4ac12eeaa4367ad8df1d136ca45a341f75ff18bc9218",
+        "b0abe5d272d37656caebd87682154e83484b7e333088cbb74976b2b2f1b05b82"
+      ],
       "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

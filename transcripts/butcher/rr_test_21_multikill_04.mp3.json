@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_multikill_04.mp3",
   "revisions": [
     {
-      "sha256": "97d6d8c26cac22a792019d03840439aedc7ceaf4bbb2e56ee1fb582698d857c8",
-      "text": "Ah, they're making this too easy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e61e46548ad89be9e3b93a8e518f5b188dafe48c8b1f0207e64f041367b5184e",
-      "text": "Ah, they're making this too easy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84ec7184ab4f79627512fca8612cdc7b8297f93ae6cd4213507e10764a1bf9e7",
+      "sha256": [
+        "84ec7184ab4f79627512fca8612cdc7b8297f93ae6cd4213507e10764a1bf9e7",
+        "97d6d8c26cac22a792019d03840439aedc7ceaf4bbb2e56ee1fb582698d857c8",
+        "e61e46548ad89be9e3b93a8e518f5b188dafe48c8b1f0207e64f041367b5184e"
+      ],
       "text": "Ah, they're making this too easy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

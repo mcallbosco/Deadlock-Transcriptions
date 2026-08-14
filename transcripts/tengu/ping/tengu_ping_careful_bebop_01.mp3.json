@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "69e8c0da6386ddd5d085a7effe08a6c5a3f34f5488e5898d48e459ef3750baa1",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3170e56c540ec7e6a583ba0d9c5117a49687d9d21feb9a16318c441e2c1d44b2",
+      "sha256": [
+        "3170e56c540ec7e6a583ba0d9c5117a49687d9d21feb9a16318c441e2c1d44b2",
+        "69e8c0da6386ddd5d085a7effe08a6c5a3f34f5488e5898d48e459ef3750baa1"
+      ],
       "text": "Careful, Bebop…",
       "source": "official"
     }

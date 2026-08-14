@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "afd040fe98528b47e024bac1fe8f6a7a78801db9d1328c8b618a86eef39e7058",
+      "sha256": [
+        "afd040fe98528b47e024bac1fe8f6a7a78801db9d1328c8b618a86eef39e7058"
+      ],
       "text": "Jesus, Mystic.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2be15c9d24e2856e4a62119e9c5bcd208d8d4544b2f5124124b3c9cb3a06a749",
+      "sha256": [
+        "2be15c9d24e2856e4a62119e9c5bcd208d8d4544b2f5124124b3c9cb3a06a749",
+        "a02a03c93fd7240a3a004a673ffe7f3f9118b7f8edc1b8a1ead159746ff8fbe2"
+      ],
       "text": "Hey, this is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a02a03c93fd7240a3a004a673ffe7f3f9118b7f8edc1b8a1ead159746ff8fbe2",
-      "text": "Hey, this is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f8ae8232a6c3c60931d9ecd056b8bd8bb1e9810cc4528cd3ce1e8d6cd84356b",
+      "sha256": [
+        "8f8ae8232a6c3c60931d9ecd056b8bd8bb1e9810cc4528cd3ce1e8d6cd84356b"
+      ],
       "text": "Haze's missing",
       "source": "official"
     }

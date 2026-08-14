@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "fd3f1d28e9c7f31369722e0c1cb2189d4d08fe228bde57c194e0611ebf110d80",
+      "sha256": [
+        "fd3f1d28e9c7f31369722e0c1cb2189d4d08fe228bde57c194e0611ebf110d80"
+      ],
       "text": "I see kill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4198272f98cb5dd657dbf8e1096ab8e66d04abda10c53a837446545751f06505",
+      "sha256": [
+        "4198272f98cb5dd657dbf8e1096ab8e66d04abda10c53a837446545751f06505"
+      ],
       "text": "I see Kelvin.",
       "source": "official"
     }

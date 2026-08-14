@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_calico_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "8936ebc964646d36d1474a806442262f72223cc381f7c937c0d0e8162bff1316",
-      "text": "Calico's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18e7eaf730dcff4de98a536aea834ba8209fd67fd5e146133cc951904cb41088",
+      "sha256": [
+        "18e7eaf730dcff4de98a536aea834ba8209fd67fd5e146133cc951904cb41088",
+        "8936ebc964646d36d1474a806442262f72223cc381f7c937c0d0e8162bff1316"
+      ],
       "text": "Calico's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

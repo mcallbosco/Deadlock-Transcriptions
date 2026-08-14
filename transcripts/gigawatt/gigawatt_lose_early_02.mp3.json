@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_lose_early_02.mp3",
   "revisions": [
     {
-      "sha256": "9af15d2a89cfcea60257f330bb5baa62669f2426f776ff1ec14639d5d1a0cbc4",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b227f97d8b5801cb9935a0c98b67121fd813eb4fd13b09e39c6f5c9f7dd1183a",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b5d36cda4fb0af237390079936d783b17b44f3b718e11259b6605ab1dc922e49",
+      "sha256": [
+        "9af15d2a89cfcea60257f330bb5baa62669f2426f776ff1ec14639d5d1a0cbc4",
+        "b227f97d8b5801cb9935a0c98b67121fd813eb4fd13b09e39c6f5c9f7dd1183a",
+        "b5d36cda4fb0af237390079936d783b17b44f3b718e11259b6605ab1dc922e49"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

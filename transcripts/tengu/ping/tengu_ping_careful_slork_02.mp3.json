@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_slork_02.mp3",
   "revisions": [
     {
-      "sha256": "b5ad1fc985a1316a69fc935a5cf8a5eaebde76f11c56e64bc8b9f8ac758fc2e9",
+      "sha256": [
+        "b5ad1fc985a1316a69fc935a5cf8a5eaebde76f11c56e64bc8b9f8ac758fc2e9"
+      ],
       "text": "Careful, Slork.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b15d8568100daee5e75ea6ccb7b75ba18691abd4bc2a99e930874c5f348ffe6d",
+      "sha256": [
+        "b15d8568100daee5e75ea6ccb7b75ba18691abd4bc2a99e930874c5f348ffe6d"
+      ],
       "text": "Careful, Fathom.",
       "source": "official"
     }

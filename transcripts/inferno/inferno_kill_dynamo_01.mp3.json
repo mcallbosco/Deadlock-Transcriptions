@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_kill_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "85fb62e8b76376045072b7bfe21da8d0071b2c4894cbcb79210048abd054b2ac",
+      "sha256": [
+        "85fb62e8b76376045072b7bfe21da8d0071b2c4894cbcb79210048abd054b2ac"
+      ],
       "text": "So long, mercs.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a15e09d29ea4549843949b93e6be83af9b912a588d8b5e65c62d85788da2fda5",
+      "sha256": [
+        "a15e09d29ea4549843949b93e6be83af9b912a588d8b5e65c62d85788da2fda5",
+        "cd550a3a1905c56ce7d8576edd316c18e3012e2dc02d94220b4bdebd2151caef"
+      ],
       "text": "So long, Chris.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cd550a3a1905c56ce7d8576edd316c18e3012e2dc02d94220b4bdebd2151caef",
-      "text": "So long, Chris.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "901f18222433cf7dc035c3c643070db1db642ebc5638dcb88aa4691936d8582f",
+      "sha256": [
+        "901f18222433cf7dc035c3c643070db1db642ebc5638dcb88aa4691936d8582f"
+      ],
       "text": "So long professor…",
       "source": "official"
     }

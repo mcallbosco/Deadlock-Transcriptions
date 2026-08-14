@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_saw_mirage.mp3",
   "revisions": [
     {
-      "sha256": "5825f610e0ffdf1bf48022d458ed47965e0224898fb30349395649fc531f0dbe",
+      "sha256": [
+        "5825f610e0ffdf1bf48022d458ed47965e0224898fb30349395649fc531f0dbe"
+      ],
       "text": "I saw Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_vampiric_burst_02.mp3",
   "revisions": [
     {
-      "sha256": "a96568726147dc89aae944e598bfaa8dbad7e6b7896e8d2b88682ec7d313d1a9",
+      "sha256": [
+        "8e9fa701e62c2b704cabbe78396c6a952316eccb00a740ee64751e070677a6fc",
+        "a96568726147dc89aae944e598bfaa8dbad7e6b7896e8d2b88682ec7d313d1a9"
+      ],
       "text": "I can't let up!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e9fa701e62c2b704cabbe78396c6a952316eccb00a740ee64751e070677a6fc",
-      "text": "I can't let up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

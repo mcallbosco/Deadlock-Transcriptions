@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "155ff0777149c489758ceccfe9699a686eda2862adb589144a83b64777201e8d",
+      "sha256": [
+        "155ff0777149c489758ceccfe9699a686eda2862adb589144a83b64777201e8d"
+      ],
       "text": "I'm with you, Tanimo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8fba85d4a4cc5a7f5ab38131b8f56da122005cd4d76f3c7a53da49e1e9d5da2d",
+      "sha256": [
+        "8fba85d4a4cc5a7f5ab38131b8f56da122005cd4d76f3c7a53da49e1e9d5da2d"
+      ],
       "text": "I'm with you, Dynamo!",
       "source": "manual"
     }

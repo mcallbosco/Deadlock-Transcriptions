@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6ab0c1f322536da04f246ed5e3e00cb42174b903bd175c775dda87a8601ba105",
+      "sha256": [
+        "6ab0c1f322536da04f246ed5e3e00cb42174b903bd175c775dda87a8601ba105"
+      ],
       "text": "The Dolmen was there!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

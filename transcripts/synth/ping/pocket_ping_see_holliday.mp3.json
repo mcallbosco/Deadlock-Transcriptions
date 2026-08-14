@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_see_holliday.mp3",
   "revisions": [
     {
-      "sha256": "ce6622ade71258e4fea7faf93f81eb7b73acf3f508e54f1524cae07c238dce20",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "825bcd348e46759788e9e85bb0136d9071139f7999f326c917d77eee2f09e110",
+      "sha256": [
+        "825bcd348e46759788e9e85bb0136d9071139f7999f326c917d77eee2f09e110",
+        "ce6622ade71258e4fea7faf93f81eb7b73acf3f508e54f1524cae07c238dce20"
+      ],
       "text": "I see Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

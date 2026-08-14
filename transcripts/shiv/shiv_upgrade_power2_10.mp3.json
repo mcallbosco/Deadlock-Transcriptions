@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_upgrade_power2_10.mp3",
   "revisions": [
     {
-      "sha256": "41c28b198830322c87b5e66a7a11bfadf307603e00c69efb10fd44e5120f7202",
+      "sha256": [
+        "41c28b198830322c87b5e66a7a11bfadf307603e00c69efb10fd44e5120f7202"
+      ],
       "text": "They will not run me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6686f3b1b0ba5f8f671d67a4d7f38897d041fb95d648bd2fd813c2f273faac56",
+      "sha256": [
+        "6686f3b1b0ba5f8f671d67a4d7f38897d041fb95d648bd2fd813c2f273faac56"
+      ],
       "text": "They won't uprun me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bce6768170b6d9c51e65f1699b6aef6fda58058997d64a9ebdb2ac53a44a2cf2",
+      "sha256": [
+        "bce6768170b6d9c51e65f1699b6aef6fda58058997d64a9ebdb2ac53a44a2cf2"
+      ],
       "text": "They won't outrun me",
       "source": "official"
     }

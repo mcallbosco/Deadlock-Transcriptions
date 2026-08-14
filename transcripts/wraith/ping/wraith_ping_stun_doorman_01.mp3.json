@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_stun_doorman_01.mp3",
   "revisions": [
     {
-      "sha256": "66d0755b93e2a35303c40ef32f54a0ffb36270c8013946573def1aea5f819acb",
+      "sha256": [
+        "66d0755b93e2a35303c40ef32f54a0ffb36270c8013946573def1aea5f819acb"
+      ],
       "text": "Done, Doorman.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

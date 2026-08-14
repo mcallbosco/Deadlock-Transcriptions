@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_saw_orion.mp3",
   "revisions": [
     {
-      "sha256": "dd4d09145bcd148746ca00d63895b6b509246f1c62b31f43896a416aa4be67a7",
-      "text": "This will Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c89d5825f201ba873bf071f560f34478e7af45ce2935be7868516e35fdeb543c",
+      "sha256": [
+        "c89d5825f201ba873bf071f560f34478e7af45ce2935be7868516e35fdeb543c",
+        "dd4d09145bcd148746ca00d63895b6b509246f1c62b31f43896a416aa4be67a7"
+      ],
       "text": "This will Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

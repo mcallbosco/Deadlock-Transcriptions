@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_slork_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "dad3b268222cca7bc1905d5c7ec81c4fadd813ae776b6e74c41d8c819ca730ee",
-      "text": "Fathom's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e9906f2b6e237ba31746ef215f19863c4a8b285695b251c72b279b6bf0d1fc0",
+      "sha256": [
+        "2e9906f2b6e237ba31746ef215f19863c4a8b285695b251c72b279b6bf0d1fc0",
+        "dad3b268222cca7bc1905d5c7ec81c4fadd813ae776b6e74c41d8c819ca730ee"
+      ],
       "text": "Fathom's missing.",
       "source": "official"
     }

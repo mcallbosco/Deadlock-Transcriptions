@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "1f8fb666220f58ef4ec874f673d8a78f7ba2c94b07808ca5af3e6c922505f89f",
+      "sha256": [
+        "06a979eb48c754b573fc4d0dc6aa4dc3b66315f4e84d1a78cfd75dae7edb3c59",
+        "1f8fb666220f58ef4ec874f673d8a78f7ba2c94b07808ca5af3e6c922505f89f"
+      ],
       "text": "The Genesis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "06a979eb48c754b573fc4d0dc6aa4dc3b66315f4e84d1a78cfd75dae7edb3c59",
-      "text": "The Genesis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "562ff8bac023d95fa2d1040ce197a8f9e4f93cedc58b96ef2f7b21ac1dd3f395",
+      "sha256": [
+        "562ff8bac023d95fa2d1040ce197a8f9e4f93cedc58b96ef2f7b21ac1dd3f395"
+      ],
       "text": "Magenius is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_select_01.mp3",
   "revisions": [
     {
-      "sha256": "779ae80c810540c99a22fcfb657e76c2bdead5279cbfb4fb2655b43136c40ea3",
-      "text": "The patrons must be stopped, no matter the cost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6400220874fd72f05b55b61d60fee589269c374e4849c7616b3f9f9adb14b02",
-      "text": "The Patrons must be stopped, no matter the cost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "47ca5d025626d80b11081bf9f7f1314e282662c47b93e88373f2daccadc51ad7",
-      "text": "The patrons must be stopped, no matter the cost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16615abe69bba80d35c7211e440d8475a6f7b2800e054d687832dd7f513a9962",
+      "sha256": [
+        "16615abe69bba80d35c7211e440d8475a6f7b2800e054d687832dd7f513a9962",
+        "47ca5d025626d80b11081bf9f7f1314e282662c47b93e88373f2daccadc51ad7",
+        "779ae80c810540c99a22fcfb657e76c2bdead5279cbfb4fb2655b43136c40ea3",
+        "e6400220874fd72f05b55b61d60fee589269c374e4849c7616b3f9f9adb14b02"
+      ],
       "text": "The patrons must be stopped, no matter the cost.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

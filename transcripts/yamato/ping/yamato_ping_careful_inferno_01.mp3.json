@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_inferno_01.mp3",
   "revisions": [
     {
-      "sha256": "55253da564355967091b1336b2dcf9cc105d6a972f586032192d630ed24c7016",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "52ac4e2b0ef260e4fa9ffb475c083fdedc2e05fb02583540612ba58c8e984953",
+        "55253da564355967091b1336b2dcf9cc105d6a972f586032192d630ed24c7016"
+      ],
+      "text": "Careful, Infernus…",
+      "source": "official"
     },
     {
-      "sha256": "e4e425d26806069252cafcba24b1559fc9f5d2bb75794b4f9b799cd7600cf818",
+      "sha256": [
+        "e4e425d26806069252cafcba24b1559fc9f5d2bb75794b4f9b799cd7600cf818"
+      ],
       "text": "Kya po Ivanes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52ac4e2b0ef260e4fa9ffb475c083fdedc2e05fb02583540612ba58c8e984953",
-      "text": "Careful, Infernus…",
-      "source": "official"
     }
   ]
 }

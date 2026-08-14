@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_atlas_02.mp3",
   "revisions": [
     {
-      "sha256": "1e8daf41f33cc971d3ff3b09b8513f93b10f9eda449394e3613e83671b690f1f",
+      "sha256": [
+        "1e8daf41f33cc971d3ff3b09b8513f93b10f9eda449394e3613e83671b690f1f"
+      ],
       "text": "That's not it!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "56b11bc5a594446e421a5f95fed224cbc18ca1b7e2434d4506a4a65829f51861",
+      "sha256": [
+        "56b11bc5a594446e421a5f95fed224cbc18ca1b7e2434d4506a4a65829f51861"
+      ],
       "text": "There's the detective!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_mcginnis_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fa046e4e0049a76eb0e95156b91980561b2187da393e4bc23a6f269e79d87782",
+      "sha256": [
+        "fa046e4e0049a76eb0e95156b91980561b2187da393e4bc23a6f269e79d87782"
+      ],
       "text": "Mickin is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd051b3f1bdca1f18e87bd573b973f2c42b30700742539d52ecd3ba6ba5d9ff8",
+      "sha256": [
+        "bd051b3f1bdca1f18e87bd573b973f2c42b30700742539d52ecd3ba6ba5d9ff8"
+      ],
       "text": "McGinnis was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

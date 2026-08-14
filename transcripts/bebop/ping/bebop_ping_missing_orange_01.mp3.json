@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "5aaeef0e4347525a64b5ef96aea1de8794957de636929f04739dfee064bdda56",
+      "sha256": [
+        "5aaeef0e4347525a64b5ef96aea1de8794957de636929f04739dfee064bdda56"
+      ],
       "text": "This is an orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9eb34c8637c02e1cfa5bb8b366660c844bddf0f99ab21e093ac3059e5813598c",
+      "sha256": [
+        "9eb34c8637c02e1cfa5bb8b366660c844bddf0f99ab21e093ac3059e5813598c"
+      ],
       "text": "Visit Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

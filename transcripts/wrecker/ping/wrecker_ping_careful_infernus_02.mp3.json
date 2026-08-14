@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_infernus_02.mp3",
   "revisions": [
     {
-      "sha256": "d3c1072befc11bd25a2f77bc82f6cdc44c139b37499505a4865b4f28911be301",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d9ac53522de910f957970a1cffa0aab6a37c064cac1e5a022891fbc37c9ef01",
+      "sha256": [
+        "4d9ac53522de910f957970a1cffa0aab6a37c064cac1e5a022891fbc37c9ef01",
+        "d3c1072befc11bd25a2f77bc82f6cdc44c139b37499505a4865b4f28911be301"
+      ],
       "text": "Careful, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

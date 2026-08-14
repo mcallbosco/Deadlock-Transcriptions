@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_lets_go_blue_alt.mp3",
   "revisions": [
     {
-      "sha256": "1d0e2a44e434d710a4d33df94b64925a42d1c6e62b5feb31b42d6d2a60f098f1",
-      "text": "Let's go to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "edb6791a48510103be405d435cb09b9f29b3b1c75c712ffce1c5afa3a037b9ed",
-      "text": "Let's go to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "51a988f8d62de7da5ad4d2307457c25df2eb3aacda7cc44b52a59c9c407e0a1c",
+      "sha256": [
+        "1d0e2a44e434d710a4d33df94b64925a42d1c6e62b5feb31b42d6d2a60f098f1",
+        "51a988f8d62de7da5ad4d2307457c25df2eb3aacda7cc44b52a59c9c407e0a1c",
+        "edb6791a48510103be405d435cb09b9f29b3b1c75c712ffce1c5afa3a037b9ed"
+      ],
       "text": "Let's go to Broadway!",
       "source": "official"
     }

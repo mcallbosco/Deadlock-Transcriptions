@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_with_tengu.mp3",
   "revisions": [
     {
-      "sha256": "5241cdb2e06ead0d3ccb51f928aaab537bfc212adde590d386f86a640474b1c9",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "662bb27a567841a39a9ee8eead515d675b5d64ea41233e90a9f88aa474bcb284",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f0800c2cb07e30e177ecae57b7d8e9a81af9959760a1f9aad7a0f0fa82da34f",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4487418c163eba967377d4cb63fd0b022d918a0c3a0a484d28bb28fcac92ea90",
+      "sha256": [
+        "4487418c163eba967377d4cb63fd0b022d918a0c3a0a484d28bb28fcac92ea90",
+        "5241cdb2e06ead0d3ccb51f928aaab537bfc212adde590d386f86a640474b1c9",
+        "662bb27a567841a39a9ee8eead515d675b5d64ea41233e90a9f88aa474bcb284",
+        "6f0800c2cb07e30e177ecae57b7d8e9a81af9959760a1f9aad7a0f0fa82da34f"
+      ],
       "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

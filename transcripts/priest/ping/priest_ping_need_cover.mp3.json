@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "3e5488d86b8f63c3063e9e8e3c0fdc72357ba14844531c8530e9e534a8b2a521",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c65742eff148290ea69a9d67354c4672c2eb56acdfeef1e97ec8490bfc3dce1b",
+      "sha256": [
+        "3e5488d86b8f63c3063e9e8e3c0fdc72357ba14844531c8530e9e534a8b2a521",
+        "c65742eff148290ea69a9d67354c4672c2eb56acdfeef1e97ec8490bfc3dce1b"
+      ],
       "text": "Cover me.",
       "source": "official"
     }

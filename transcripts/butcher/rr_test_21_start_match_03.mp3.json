@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_start_match_03.mp3",
   "revisions": [
     {
-      "sha256": "6803dbb4831fd976871cca91d7913b15dddfcc836fd5b3d344cc0fa2528d4db3",
-      "text": "Let's get it done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a37acf260015c07c4463aea0e2cb376a0df0eaafc5bf8cbc2bf2be3ae49bc254",
-      "text": "Let's get it done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30a5edeedfd1f3c1f7098c6ad58146cb1de34f206f978e270020feb140395357",
+      "sha256": [
+        "30a5edeedfd1f3c1f7098c6ad58146cb1de34f206f978e270020feb140395357",
+        "6803dbb4831fd976871cca91d7913b15dddfcc836fd5b3d344cc0fa2528d4db3",
+        "a37acf260015c07c4463aea0e2cb376a0df0eaafc5bf8cbc2bf2be3ae49bc254"
+      ],
       "text": "Let's get it done.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "14634c750f8b57f2be927b3d37ce59c968811a95c817024d9d985959fb0fd7db",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ea70bc3aaafcfc25917a2d347ab074315bd5f08fed5f920a52563b89145c3c4",
+      "sha256": [
+        "0ea70bc3aaafcfc25917a2d347ab074315bd5f08fed5f920a52563b89145c3c4",
+        "14634c750f8b57f2be927b3d37ce59c968811a95c817024d9d985959fb0fd7db"
+      ],
       "text": "I see Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

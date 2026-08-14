@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_desperation_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "d506c3ff8cc6238ee8fb7ca47c8deeddcb8589de43457dce7431a58e1df2ef2d",
+      "sha256": [
+        "d506c3ff8cc6238ee8fb7ca47c8deeddcb8589de43457dce7431a58e1df2ef2d"
+      ],
       "text": "You are winning this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cdc6e2a0b3f147f35d50466916e05de846eb1c56fcc2c9f5f8167667a657fc13",
+      "sha256": [
+        "cdc6e2a0b3f147f35d50466916e05de846eb1c56fcc2c9f5f8167667a657fc13"
+      ],
       "text": "You are not winning this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

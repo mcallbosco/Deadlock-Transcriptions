@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_match_start_gigawatt_mirage_convo02_02.mp3",
   "revisions": [
     {
-      "sha256": "8e07c832600e265952fd4e10955174dc9a743a68ae0f6549ad1508df38cf02bd",
+      "sha256": [
+        "8e07c832600e265952fd4e10955174dc9a743a68ae0f6549ad1508df38cf02bd"
+      ],
       "text": "Yeah, I know.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9b7005c6b145b02cb35c0d0a1b4f5e1b5d642c3083aa18a9d6a675b8bc6be58f",
-      "text": "I know.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1f8132e61c5dd4ee8c23a52747f64dab3cf4506167831f25a2aabab14c372b7",
+      "sha256": [
+        "9b7005c6b145b02cb35c0d0a1b4f5e1b5d642c3083aa18a9d6a675b8bc6be58f",
+        "e1f8132e61c5dd4ee8c23a52747f64dab3cf4506167831f25a2aabab14c372b7"
+      ],
       "text": "I know.",
       "source": "official"
     }

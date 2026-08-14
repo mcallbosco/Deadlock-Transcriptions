@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_nano.mp3",
   "revisions": [
     {
-      "sha256": "5e48d153097d07c45985aed10a5abf0e60c041df84a6f24ae2259090b8ac8438",
+      "sha256": [
+        "5e48d153097d07c45985aed10a5abf0e60c041df84a6f24ae2259090b8ac8438"
+      ],
       "text": "I see teleco.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c36b570d345abb39c7cff0c35fcbf3c4b5524e3514ab10aafbcfa1b97c0b9585",
+      "sha256": [
+        "c36b570d345abb39c7cff0c35fcbf3c4b5524e3514ab10aafbcfa1b97c0b9585"
+      ],
       "text": "I see telecode.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa77d182532449f054f8177a193d5f85383ed06c322df93cff0ee85bf90bcc17",
+      "sha256": [
+        "fa77d182532449f054f8177a193d5f85383ed06c322df93cff0ee85bf90bcc17"
+      ],
       "text": "I see Calico",
       "source": "official"
     }

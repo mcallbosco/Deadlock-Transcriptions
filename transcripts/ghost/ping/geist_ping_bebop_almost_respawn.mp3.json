@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_bebop_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "59af101b683bf3c6eff2f9a29ad0c7bd595f34640c1f98a1403a04d50b53f72b",
-      "text": "Bebop is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b09ced85834fa8f90c8ef888e8dc8f4487e4daefa7df48f7c4463e58c3a6ccd",
+      "sha256": [
+        "0b09ced85834fa8f90c8ef888e8dc8f4487e4daefa7df48f7c4463e58c3a6ccd",
+        "59af101b683bf3c6eff2f9a29ad0c7bd595f34640c1f98a1403a04d50b53f72b"
+      ],
       "text": "Bebop is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

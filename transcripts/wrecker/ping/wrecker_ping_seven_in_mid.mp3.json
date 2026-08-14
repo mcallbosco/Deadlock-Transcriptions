@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_seven_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "b6cd49ca25bb8c139ae5d8aca408afe34836ce3be16b5baeb6cd111f42e9af86",
+      "sha256": [
+        "6b85fa92fce8d81026bc9307d2a00847c2d20e870c2aa575095d59740dbe9c49",
+        "b6cd49ca25bb8c139ae5d8aca408afe34836ce3be16b5baeb6cd111f42e9af86"
+      ],
       "text": "Seven's in mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b85fa92fce8d81026bc9307d2a00847c2d20e870c2aa575095d59740dbe9c49",
-      "text": "Seven's in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

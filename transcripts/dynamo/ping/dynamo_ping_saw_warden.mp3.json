@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "91351663913e4c5e0dab4c471623ed8b10f7b84b58ba38cc0b931a06602603e9",
+      "sha256": [
+        "91351663913e4c5e0dab4c471623ed8b10f7b84b58ba38cc0b931a06602603e9"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

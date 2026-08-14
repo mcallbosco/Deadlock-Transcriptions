@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_multikill_03.mp3",
   "revisions": [
     {
-      "sha256": "7d9fb45ad259e91976f988811e2704fba0c8030bce7e07e96e9d897c948102ec",
-      "text": "Did you see that?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "19bd753d3af127104faeccc40a1e90935d52eeb6656afff3404fd7bf3733fb74",
-      "text": "Did you see that?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01c384ea7724eb50e6fb69672fc9c0a27e4a680cc2b129708da02809609c00e2",
+      "sha256": [
+        "01c384ea7724eb50e6fb69672fc9c0a27e4a680cc2b129708da02809609c00e2",
+        "19bd753d3af127104faeccc40a1e90935d52eeb6656afff3404fd7bf3733fb74",
+        "7d9fb45ad259e91976f988811e2704fba0c8030bce7e07e96e9d897c948102ec"
+      ],
       "text": "Did you see that?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

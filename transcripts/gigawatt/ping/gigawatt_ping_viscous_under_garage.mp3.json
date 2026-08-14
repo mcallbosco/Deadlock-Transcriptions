@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_viscous_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "48e2b618e7c39e9bb2644afa7dfa077817921ee645eb21f058893ea3ecb40582",
+      "sha256": [
+        "48e2b618e7c39e9bb2644afa7dfa077817921ee645eb21f058893ea3ecb40582"
+      ],
       "text": "This is another garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "44f466e84b4d9bf528ae92858b75696e00536ba614a3291300f5f6f860b96efd",
+      "sha256": [
+        "0a96b1d8facf42ecc775ed94ae220a856041a4c8aeeabe2c43e427b9cad2913d",
+        "44f466e84b4d9bf528ae92858b75696e00536ba614a3291300f5f6f860b96efd"
+      ],
       "text": "This is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a96b1d8facf42ecc775ed94ae220a856041a4c8aeeabe2c43e427b9cad2913d",
-      "text": "This is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c2ccf55349566f8506ecc5859f922211770f5a11287a82f65b4265b45db8001",
+      "sha256": [
+        "6c2ccf55349566f8506ecc5859f922211770f5a11287a82f65b4265b45db8001"
+      ],
       "text": "Viscous is under the garage!",
       "source": "manual"
     }

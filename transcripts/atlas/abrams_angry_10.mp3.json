@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_angry_10.mp3",
   "revisions": [
     {
-      "sha256": "988578fcd23d929d506b1daaf4ce2434b6278215f443f843c6361e8150e50dd6",
-      "text": "Don't you get it? You can't win!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a12d86bf9be714f63ba50c8103f87d9949308fea6725ddf66a65f558d007aaf",
-      "text": "Don't you get it? You can't win!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1edeac6ec05f8bda4979877b5b11eb70d42bfd8f2e8ee952d27dec4018d8e7be",
+      "sha256": [
+        "1edeac6ec05f8bda4979877b5b11eb70d42bfd8f2e8ee952d27dec4018d8e7be",
+        "7a12d86bf9be714f63ba50c8103f87d9949308fea6725ddf66a65f558d007aaf",
+        "988578fcd23d929d506b1daaf4ce2434b6278215f443f843c6361e8150e50dd6"
+      ],
       "text": "Don't you get it? You can't win!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

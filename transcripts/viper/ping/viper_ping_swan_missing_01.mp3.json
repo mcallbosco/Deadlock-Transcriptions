@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_swan_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8f771c09b816afc9ed1da710795b5e305ec9becd24d3f2a18fdaf42fce535898",
+      "sha256": [
+        "8f771c09b816afc9ed1da710795b5e305ec9becd24d3f2a18fdaf42fce535898"
+      ],
       "text": "Something's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "ff1a815bf833f51c16156edee42418f3118fa5301a01d60b30c05a0d5f806db2",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a767baf251dce771401dcae0df802da194792f0efafc8008a71d043f1cc416e2",
+      "sha256": [
+        "a767baf251dce771401dcae0df802da194792f0efafc8008a71d043f1cc416e2",
+        "ff1a815bf833f51c16156edee42418f3118fa5301a01d60b30c05a0d5f806db2"
+      ],
       "text": "Good game.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

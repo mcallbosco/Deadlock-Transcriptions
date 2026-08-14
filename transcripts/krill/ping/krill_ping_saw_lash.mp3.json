@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_lash.mp3",
   "revisions": [
     {
-      "sha256": "f777a1efe6c19d25e07d8744c90c2b8922b5a3fcad92a9257a2f3ca9c497e454",
+      "sha256": [
+        "a5caecb86988706fb8e6a73973aedbeabf08950c5ade0efbbd1afe6fe4c58481",
+        "f777a1efe6c19d25e07d8744c90c2b8922b5a3fcad92a9257a2f3ca9c497e454"
+      ],
       "text": "I saw that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a5caecb86988706fb8e6a73973aedbeabf08950c5ade0efbbd1afe6fe4c58481",
-      "text": "I saw that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "184f915786096009ca8b02979f4136ccb01827538ede48e7b507d5b55ce063ef",
+      "sha256": [
+        "184f915786096009ca8b02979f4136ccb01827538ede48e7b507d5b55ce063ef"
+      ],
       "text": "I saw Las!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

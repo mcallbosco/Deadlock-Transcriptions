@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_inferno_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b1a6f3c7c0a42ad6eecabc5c811cd40560a5a26a7b2ccdcfcc8d4937378d4fdf",
+      "sha256": [
+        "b1a6f3c7c0a42ad6eecabc5c811cd40560a5a26a7b2ccdcfcc8d4937378d4fdf"
+      ],
       "text": "The furnace is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0f71fe064f7a162a9ceedab546b1f200ca422a117652bccf51750d6dcc623bc5",
+      "sha256": [
+        "0f71fe064f7a162a9ceedab546b1f200ca422a117652bccf51750d6dcc623bc5"
+      ],
       "text": "Watchfulness is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "883186f7f13d115aec5833da866391934e25ae8efa82302c17bbef274b84ea1c",
+      "sha256": [
+        "883186f7f13d115aec5833da866391934e25ae8efa82302c17bbef274b84ea1c",
+        "ee467e761ee583ee4aa1566d157d5b938503ea069ec51201487dd264c8116986"
+      ],
       "text": "Infernus is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ee467e761ee583ee4aa1566d157d5b938503ea069ec51201487dd264c8116986",
-      "text": "Infernus is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4f882385db5e878297440aad9db564fb9c0fe32a2d75ab59801090584093755",
+      "sha256": [
+        "e4f882385db5e878297440aad9db564fb9c0fe32a2d75ab59801090584093755"
+      ],
       "text": "Infernus's on the bridge!",
       "source": "official"
     }

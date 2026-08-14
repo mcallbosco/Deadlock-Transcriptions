@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b9880ff46906fa0ca1a5937a16dedc85fe9550ee1ec4e5cc5d5efd683f88c791",
+      "sha256": [
+        "b9880ff46906fa0ca1a5937a16dedc85fe9550ee1ec4e5cc5d5efd683f88c791",
+        "c05a15b6fcc6559c87c35249afea9d2440af6cf2bafee15e044b1c73a286ca59"
+      ],
       "text": "Ugh, Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b36e36d02a8186191a905acb6d25d0995bd12d26e166a1133bae2655b5189039",
+      "sha256": [
+        "b36e36d02a8186191a905acb6d25d0995bd12d26e166a1133bae2655b5189039"
+      ],
       "text": "Uh, Bebop is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8fd4d5e9d9ed5de38e5a2c682bac18c6265b7f189b3a5ba8c853f39a1ae2caa6",
+      "sha256": [
+        "8fd4d5e9d9ed5de38e5a2c682bac18c6265b7f189b3a5ba8c853f39a1ae2caa6"
+      ],
       "text": "Uh, Bebop's here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c05a15b6fcc6559c87c35249afea9d2440af6cf2bafee15e044b1c73a286ca59",
-      "text": "Ugh, Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

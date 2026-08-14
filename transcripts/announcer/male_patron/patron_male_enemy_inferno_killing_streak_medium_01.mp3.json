@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_enemy_inferno_killing_streak_medium_01.mp3",
   "revisions": [
     {
-      "sha256": "b39f5d1952bb008d8848fffaf51f8ad7f9aa678999704a4a648757152c1dade9",
+      "sha256": [
+        "b39f5d1952bb008d8848fffaf51f8ad7f9aa678999704a4a648757152c1dade9"
+      ],
       "text": "Inferno has become a problem.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87e6d3b563f927e72391cfd54aefe87bb79294e713ada14bac7e7acecaf88c6d",
-      "text": "The Ixian needs to be stopped before it's too late!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "87e6d3b563f927e72391cfd54aefe87bb79294e713ada14bac7e7acecaf88c6d",
+        "b3c2817cecdd818dd656ea74b831cd4149a4046d36f9e5c32dcab3ae2929f248"
+      ],
+      "text": "The ixian needs to be stopped before it's too late",
+      "source": "official"
     },
     {
-      "sha256": "ef336d6f1f35423eb7a29e96f97a95aacba1b1cd0d4bee36475823f8fd8696f2",
+      "sha256": [
+        "ef336d6f1f35423eb7a29e96f97a95aacba1b1cd0d4bee36475823f8fd8696f2"
+      ],
       "text": "The Ixion needs to be stopped before it's too late!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3c2817cecdd818dd656ea74b831cd4149a4046d36f9e5c32dcab3ae2929f248",
-      "text": "The ixian needs to be stopped before it's too late",
-      "source": "official"
     }
   ]
 }

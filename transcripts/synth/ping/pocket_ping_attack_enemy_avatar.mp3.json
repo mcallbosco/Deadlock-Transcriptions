@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_attack_enemy_avatar.mp3",
   "revisions": [
     {
-      "sha256": "1e0c3db7537ab8299ea57bfe6c6e9d94430a5df76d035c0e2af52aa28a68413c",
+      "sha256": [
+        "1e0c3db7537ab8299ea57bfe6c6e9d94430a5df76d035c0e2af52aa28a68413c",
+        "80bf4bb4987b1c61e569a89f56ac84144e8902b0ae7f8d74e79c3f8816e0d5e8"
+      ],
       "text": "Let's take their avatar!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80bf4bb4987b1c61e569a89f56ac84144e8902b0ae7f8d74e79c3f8816e0d5e8",
-      "text": "Let's take their avatar.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

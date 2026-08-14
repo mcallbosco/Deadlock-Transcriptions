@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_missing_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "d3d062aa5001ae67e8a448cea42c4cab8091c8a669c1319b77b21f9761cffe9d",
-      "text": "Missing York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18c3174332f16c7f9c71052eab832007cfd56b437926d0a3c797719e77197205",
+      "sha256": [
+        "18c3174332f16c7f9c71052eab832007cfd56b437926d0a3c797719e77197205",
+        "d3d062aa5001ae67e8a448cea42c4cab8091c8a669c1319b77b21f9761cffe9d"
+      ],
       "text": "Missing York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

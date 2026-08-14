@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_upgrade_power2_01.mp3",
   "revisions": [
     {
-      "sha256": "047b846b9a7b096b2be81409a6f6113486df6f52bba2e2caa686bfffbd303656",
+      "sha256": [
+        "047b846b9a7b096b2be81409a6f6113486df6f52bba2e2caa686bfffbd303656"
+      ],
       "text": "One, five, ten, I don't care how many there are. I'll stand up for them all.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b4186c5b1d847ea98b3fe094be9902d3753d755dcfec4cf4f6ed105dc81e545a",
-      "text": "One, five, ten, I don't care how many there are, I'll stand up to them all.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "766992fc6d4dd2c3ee1fe9cc4a578f0da5ab5e450ad255f06f600ddafc4a53b1",
+      "sha256": [
+        "766992fc6d4dd2c3ee1fe9cc4a578f0da5ab5e450ad255f06f600ddafc4a53b1",
+        "b4186c5b1d847ea98b3fe094be9902d3753d755dcfec4cf4f6ed105dc81e545a"
+      ],
       "text": "One, five, ten, I don't care how many there are, I'll stand up to them all.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

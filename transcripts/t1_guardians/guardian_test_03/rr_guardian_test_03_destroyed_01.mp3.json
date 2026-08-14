@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_destroyed_01.mp3",
   "revisions": [
     {
-      "sha256": "f8f705ab83994303165b5af7f50085d9a2edcd72515fd344aec2ce9ebd7331c5",
+      "sha256": [
+        "443209435e1909794833d50cd73bc0862ddd2ff13bff94a00699d4ed9adde3af",
+        "f8f705ab83994303165b5af7f50085d9a2edcd72515fd344aec2ce9ebd7331c5"
+      ],
       "text": "Who's going now?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "443209435e1909794833d50cd73bc0862ddd2ff13bff94a00699d4ed9adde3af",
-      "text": "Who's going now?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d3a3974c32073a3a83940d7fcde437115193cec974cfbd67cd6f270654d17b1",
+      "sha256": [
+        "0d3a3974c32073a3a83940d7fcde437115193cec974cfbd67cd6f270654d17b1"
+      ],
       "text": "Who's goin' now?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

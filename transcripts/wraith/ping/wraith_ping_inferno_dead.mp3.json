@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_inferno_dead.mp3",
   "revisions": [
     {
-      "sha256": "1ac0c8421ff70f74b228deca20919a5f955736774149e1cff2c788689057769f",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b201074d903add6a0ac56e4c589541589da9c1ad10783acb7c0773eb16c5cd8c",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f130879a89282cc2934c306b950fbc778570e7358ffdb306a54a79d3bf8c463",
+      "sha256": [
+        "1ac0c8421ff70f74b228deca20919a5f955736774149e1cff2c788689057769f",
+        "9f130879a89282cc2934c306b950fbc778570e7358ffdb306a54a79d3bf8c463",
+        "b201074d903add6a0ac56e4c589541589da9c1ad10783acb7c0773eb16c5cd8c"
+      ],
       "text": "Infernus is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

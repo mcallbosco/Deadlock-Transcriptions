@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_select_04.mp3",
   "revisions": [
     {
-      "sha256": "ff79c03d449a145fb2b7405d273d6b0d51ac742a54013df368beb1d0fca261f7",
-      "text": "Who do you want me to maul?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8bc985e71689566d33826557d1c232cff5a9fc9cb192fa7b45e4bdf8a74aa88",
-      "text": "Who do you want me to maul?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4aa7f112cf0b7ed5c5fe2ad8aa267f1b40150efe6c0fd50e772d4d19dd92ce30",
+      "sha256": [
+        "4aa7f112cf0b7ed5c5fe2ad8aa267f1b40150efe6c0fd50e772d4d19dd92ce30",
+        "f8bc985e71689566d33826557d1c232cff5a9fc9cb192fa7b45e4bdf8a74aa88",
+        "ff79c03d449a145fb2b7405d273d6b0d51ac742a54013df368beb1d0fca261f7"
+      ],
       "text": "Who do you want me to maul?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

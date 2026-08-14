@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_upgrade_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "02a60a8910777f2f6fa24b3a2f67b7c7318d74eb293c61bec733f158e5c4af83",
+      "sha256": [
+        "02a60a8910777f2f6fa24b3a2f67b7c7318d74eb293c61bec733f158e5c4af83"
+      ],
       "text": "Victory comes on the wind.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "27ca2514e9c188a09cbb45a4a21e9eb427d1ab90eba781763e67af3152c8395b",
+      "sha256": [
+        "27ca2514e9c188a09cbb45a4a21e9eb427d1ab90eba781763e67af3152c8395b",
+        "785b678b6d7b610c05366a57b472113596cc381893c79ca66cade40201f76a59"
+      ],
       "text": "Victory comes on the wing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "785b678b6d7b610c05366a57b472113596cc381893c79ca66cade40201f76a59",
-      "text": "victory comes on the wing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

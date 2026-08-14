@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_ignore_unicorn.mp3",
   "revisions": [
     {
-      "sha256": "2bf42c64f69770b957736fe34d952652457c8230d3d7ee126dc352b1ff258de9",
+      "sha256": [
+        "2bf42c64f69770b957736fe34d952652457c8230d3d7ee126dc352b1ff258de9"
+      ],
       "text": "Ignore select!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_interrupt_01.mp3",
   "revisions": [
     {
-      "sha256": "ea1a1866a1c379b32b9d1c8f036f14fe8cea5950935ffbd5594a4b0124439328",
-      "text": "Not happening.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4bc77b58c09081365f80902545b04f30011d6da4674ee07ff33234879ceacfb4",
-      "text": "Not happening.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "778203c68a298c48c294866dccc11d13c63bd23506f3b42a9d9278fc8e653d6c",
+      "sha256": [
+        "4bc77b58c09081365f80902545b04f30011d6da4674ee07ff33234879ceacfb4",
+        "778203c68a298c48c294866dccc11d13c63bd23506f3b42a9d9278fc8e653d6c",
+        "ea1a1866a1c379b32b9d1c8f036f14fe8cea5950935ffbd5594a4b0124439328"
+      ],
       "text": "Not happening.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

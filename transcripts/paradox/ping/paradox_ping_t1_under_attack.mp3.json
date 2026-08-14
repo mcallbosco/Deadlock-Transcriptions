@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_t1_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "609fd32d2ebee20b92456125fc6bbcbf0e41fe8a401f17d6cd60eaa7b7a348f7",
+      "sha256": [
+        "609fd32d2ebee20b92456125fc6bbcbf0e41fe8a401f17d6cd60eaa7b7a348f7",
+        "f153d997207e5c32db31f4e15faf50d41039380444e9de72331282ee14a426d8"
+      ],
       "text": "They're taking our Tier 1!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f153d997207e5c32db31f4e15faf50d41039380444e9de72331282ee14a426d8",
-      "text": "They're taking our Tier 1.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "9a7a41d205dc7240df680dcb3f16febcfb3efc9325fe470d9cbde255542625a7",
+      "sha256": [
+        "2418402685dcfe06889591ca097b2a56506353578823965e4a03004b2e812489",
+        "9a7a41d205dc7240df680dcb3f16febcfb3efc9325fe470d9cbde255542625a7"
+      ],
       "text": "Kill the swordsman.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2418402685dcfe06889591ca097b2a56506353578823965e4a03004b2e812489",
-      "text": "Kill the swordsman.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59f67061398697665b5a8d8b8e730298dff4ba5dc0d6da9eaf41b389063db0c2",
+      "sha256": [
+        "59f67061398697665b5a8d8b8e730298dff4ba5dc0d6da9eaf41b389063db0c2"
+      ],
       "text": "Killed the swordsman",
       "source": "official"
     }

@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_kelvin_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "ebaa1e5b5f0e8836b5f2e5c7db4b9a95e3cf9a749ce9c21df4aeda53d64ec921",
+      "sha256": [
+        "0159e641e2ebab0a203894b5de2743be06a7a9a73ed2d37522658d34efaef2d9",
+        "ebaa1e5b5f0e8836b5f2e5c7db4b9a95e3cf9a749ce9c21df4aeda53d64ec921"
+      ],
       "text": "Kelvin's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "02ebb64b6f8e1d09f59462a99196bd2b992fa2974196f6ff069ae4614d187c0e",
+      "sha256": [
+        "02ebb64b6f8e1d09f59462a99196bd2b992fa2974196f6ff069ae4614d187c0e"
+      ],
       "text": "That is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0159e641e2ebab0a203894b5de2743be06a7a9a73ed2d37522658d34efaef2d9",
-      "text": "Kelvin's on top of the garage!",
-      "source": "official"
     }
   ]
 }

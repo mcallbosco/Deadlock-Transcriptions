@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "neutral_gremlin/neutral_gremlin_surprise_21.mp3",
   "revisions": [
     {
-      "sha256": "885652a0d3ffed9e9e501b747598b7aea57fcf1aec8ca154a11edfafecdc38e7",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d1fc9b92fea97896f62892ebe205e7d52c4c80e8d8073e443e786c52d47e742",
+      "sha256": [
+        "4d1fc9b92fea97896f62892ebe205e7d52c4c80e8d8073e443e786c52d47e742",
+        "885652a0d3ffed9e9e501b747598b7aea57fcf1aec8ca154a11edfafecdc38e7"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

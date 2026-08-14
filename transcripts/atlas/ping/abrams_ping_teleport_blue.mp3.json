@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_teleport_blue.mp3",
   "revisions": [
     {
-      "sha256": "a50a04c9843996e9b6dbeeaab00d717df996fc07084ba68d555129d03a811e34",
+      "sha256": [
+        "64cf36e436492fee42bac831625b4bbe6eb12592286d294f57f42b4cb65c017a",
+        "a50a04c9843996e9b6dbeeaab00d717df996fc07084ba68d555129d03a811e34"
+      ],
       "text": "Teleporting to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64cf36e436492fee42bac831625b4bbe6eb12592286d294f57f42b4cb65c017a",
-      "text": "Teleporting to Blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

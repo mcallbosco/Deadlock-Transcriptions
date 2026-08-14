@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "19b2dd3804c71ce46ebde806c8e887ed4a321e3af77781e004306f8719b4bbb8",
-      "text": "Wardens missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b5e5f3e4594a7feeb3285098012b79c3b18d5b19732c978a017ea8604006d69c",
+      "sha256": [
+        "19b2dd3804c71ce46ebde806c8e887ed4a321e3af77781e004306f8719b4bbb8",
+        "b5e5f3e4594a7feeb3285098012b79c3b18d5b19732c978a017ea8604006d69c"
+      ],
       "text": "Wardens missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_meet_here.mp3",
   "revisions": [
     {
-      "sha256": "7964502c8de0328622d1671542cf952c489ab93ac1b42a0a3bce0884e3bca01a",
-      "text": "Let's meet here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6a940c0c961fbd7b9c2e4de6543977c36f9f87ac4dfea2d14464a40b4d54295",
+      "sha256": [
+        "7964502c8de0328622d1671542cf952c489ab93ac1b42a0a3bce0884e3bca01a",
+        "e6a940c0c961fbd7b9c2e4de6543977c36f9f87ac4dfea2d14464a40b4d54295"
+      ],
       "text": "Let's meet here.",
       "source": "official"
     }

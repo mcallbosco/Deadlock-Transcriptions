@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_heavy_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9114cf45c89241ac68a6b3e8ec33463dbe4c04fc3b3e17dfe67345d1a2ae4077",
-      "text": "Heavy is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06697de62fdabce846f1e4d7c1d1cc0ad00e072a47f1d7fa81207cde874602ba",
+      "sha256": [
+        "06697de62fdabce846f1e4d7c1d1cc0ad00e072a47f1d7fa81207cde874602ba",
+        "9114cf45c89241ac68a6b3e8ec33463dbe4c04fc3b3e17dfe67345d1a2ae4077"
+      ],
       "text": "Heavy is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

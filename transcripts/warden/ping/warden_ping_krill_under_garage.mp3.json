@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_krill_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "18770a2692c85d1dd584648feccecd498277e7162b637f98078d61dfbec8ee8c",
+      "sha256": [
+        "18770a2692c85d1dd584648feccecd498277e7162b637f98078d61dfbec8ee8c"
+      ],
       "text": "Crills under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "79be50acd0c1442ea55f06b0b7a070547ba34f702967b3329dd331e5daed3d52",
+      "sha256": [
+        "79be50acd0c1442ea55f06b0b7a070547ba34f702967b3329dd331e5daed3d52",
+        "9954dc66bb0fa5fa84535ea48e928af948b13d01a995315ec6084f062faf5c2f"
+      ],
       "text": "Grill's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9954dc66bb0fa5fa84535ea48e928af948b13d01a995315ec6084f062faf5c2f",
-      "text": "Grill's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb42e5aa39f8e6cc4091f80655ba18179df8c8647a8190b28cbbb4c9a77da778",
+      "sha256": [
+        "cb42e5aa39f8e6cc4091f80655ba18179df8c8647a8190b28cbbb4c9a77da778"
+      ],
       "text": "Krill's under the garage!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "00c0cedde619a4708e52a87b4d291abb92767d9bd0ae91c319f247b815b44992",
+      "sha256": [
+        "00c0cedde619a4708e52a87b4d291abb92767d9bd0ae91c319f247b815b44992"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

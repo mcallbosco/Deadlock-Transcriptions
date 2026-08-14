@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_cadence_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "a9649f47b702df80a8dd47902fdba47efb083084d304ebbc6600f25e89b10377",
+      "sha256": [
+        "a9649f47b702df80a8dd47902fdba47efb083084d304ebbc6600f25e89b10377"
+      ],
       "text": "Cadence is on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3fa533a9ff3855d39c251059e382b48ebecdd6c0ea28fcfd0fb31c9729db02aa",
+      "sha256": [
+        "3fa533a9ff3855d39c251059e382b48ebecdd6c0ea28fcfd0fb31c9729db02aa"
+      ],
       "text": "Cannons is on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

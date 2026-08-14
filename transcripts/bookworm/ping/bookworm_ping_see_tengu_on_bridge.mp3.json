@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_tengu_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a0762d311cfb388a3938dff4076b0a9965070ed3a279ef7245d9c658372ea4ae",
-      "text": "Ivy's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "295eaedae459aa4110cb142e67d2b358995f88428c273af9f94c5743d2de417a",
+      "sha256": [
+        "295eaedae459aa4110cb142e67d2b358995f88428c273af9f94c5743d2de417a",
+        "a0762d311cfb388a3938dff4076b0a9965070ed3a279ef7245d9c658372ea4ae"
+      ],
       "text": "Ivy's on the bridge!",
       "source": "official"
     }

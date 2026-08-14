@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_butcher.mp3",
   "revisions": [
     {
-      "sha256": "731d1cdebf580b89cb657e14f2175ed74b50ce62affcc8932d021e88adc890c7",
+      "sha256": [
+        "731d1cdebf580b89cb657e14f2175ed74b50ce62affcc8932d021e88adc890c7",
+        "9cfd7345b6b995266dedaaf3733a43a1510ebe2ff398007a1c14a4fb9a524f03",
+        "e54dc84c338e9c15ae9e7aa2bccf4106aead68c2b2f0d3218df88726de2e87b6"
+      ],
       "text": "Thanks, butcher!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e54dc84c338e9c15ae9e7aa2bccf4106aead68c2b2f0d3218df88726de2e87b6",
-      "text": "Thanks, Butcher.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cfd7345b6b995266dedaaf3733a43a1510ebe2ff398007a1c14a4fb9a524f03",
-      "text": "Thanks, butcher.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

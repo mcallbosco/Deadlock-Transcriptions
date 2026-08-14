@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_atlas_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e00aa090b4bd398e7c1e96b65dbb4a8a3f0c3b2660fe899c925ffa6c2e167c88",
-      "text": "Abrams is here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b6aaa4dce565b736db74a2ddbbe8e4887d00472c1796499025b8275e224deb0",
+      "sha256": [
+        "5b6aaa4dce565b736db74a2ddbbe8e4887d00472c1796499025b8275e224deb0",
+        "e00aa090b4bd398e7c1e96b65dbb4a8a3f0c3b2660fe899c925ffa6c2e167c88"
+      ],
       "text": "Abrams is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

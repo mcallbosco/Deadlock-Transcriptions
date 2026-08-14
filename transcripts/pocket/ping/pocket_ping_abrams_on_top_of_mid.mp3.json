@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_abrams_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "bc7312f130ece3218590ad20a48c7e906c32428ab8f58b9ce6d3c3b7d81a7680",
-      "text": "Abrams is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "850ece9453b3dee2c849cc8c920d38addbed66cd9e9e82720772fbcdf960a3c3",
+      "sha256": [
+        "850ece9453b3dee2c849cc8c920d38addbed66cd9e9e82720772fbcdf960a3c3",
+        "bc7312f130ece3218590ad20a48c7e906c32428ab8f58b9ce6d3c3b7d81a7680"
+      ],
       "text": "Abrams is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

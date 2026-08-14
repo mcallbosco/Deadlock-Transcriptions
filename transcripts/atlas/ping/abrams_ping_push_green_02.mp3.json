@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_push_green_02.mp3",
   "revisions": [
     {
-      "sha256": "b25c0824418bf313adb8b856e57073a2a022cacf688fd2aab6eac9cf878d886c",
-      "text": "Let's push Krenich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cd7377566aea28e75bda81dea3b9277be1af044d6cbe4b88ffab574e30f9d8e",
+      "sha256": [
+        "5cd7377566aea28e75bda81dea3b9277be1af044d6cbe4b88ffab574e30f9d8e",
+        "b25c0824418bf313adb8b856e57073a2a022cacf688fd2aab6eac9cf878d886c"
+      ],
       "text": "Let's push Krenich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

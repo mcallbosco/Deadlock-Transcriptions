@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_astro_was_here.mp3",
   "revisions": [
     {
-      "sha256": "07a2785dc6f925c9c058d3c5ed2d1f4951ead25601f83b472895e832f672588b",
-      "text": "Holliday was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c40b27120179dd03662837f38c1371ba3476552b380bb9ac0b085a77c079c0ac",
+      "sha256": [
+        "07a2785dc6f925c9c058d3c5ed2d1f4951ead25601f83b472895e832f672588b",
+        "c40b27120179dd03662837f38c1371ba3476552b380bb9ac0b085a77c079c0ac"
+      ],
       "text": "Holliday was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

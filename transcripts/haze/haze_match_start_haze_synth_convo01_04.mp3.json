@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_match_start_haze_synth_convo01_04.mp3",
   "revisions": [
     {
-      "sha256": "d4be21b6081ab52c3a8dcfef79828bac66ec80d1951865b1ff094e2504180894",
+      "sha256": [
+        "d4be21b6081ab52c3a8dcfef79828bac66ec80d1951865b1ff094e2504180894"
+      ],
       "text": "I'm a Sandman, not a curator. I'm not expected to recognize what you're holding, and I can't report what I don't know. Now, what were you about to tell me?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

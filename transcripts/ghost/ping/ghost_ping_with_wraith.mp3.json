@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_with_wraith.mp3",
   "revisions": [
     {
-      "sha256": "aa58f03fab2a0d1db9aa863cd7ae9afbe77cb5f4c96bba2a1142c6c1a484a59a",
+      "sha256": [
+        "aa58f03fab2a0d1db9aa863cd7ae9afbe77cb5f4c96bba2a1142c6c1a484a59a"
+      ],
       "text": "I'm with you, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_repeat_blackhole_01.mp3",
   "revisions": [
     {
-      "sha256": "fa08fe52fc2afcd68ca9ebe7a32aedb03b31018014cd9e411230bfd9d5be2b63",
-      "text": "What's down there?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f23374962eb31b909d62823254b3d68c9d52e7145a30de1288a1c51e78e4007",
+      "sha256": [
+        "2f23374962eb31b909d62823254b3d68c9d52e7145a30de1288a1c51e78e4007",
+        "fa08fe52fc2afcd68ca9ebe7a32aedb03b31018014cd9e411230bfd9d5be2b63"
+      ],
       "text": "What's down there?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

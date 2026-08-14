@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_abrams.mp3",
   "revisions": [
     {
-      "sha256": "5da19b1aa3fe460daef017f41e451d1f8c3157e6798a6530dbc03dbd9fa7edb2",
-      "text": "I saw Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a4da39b704326b5f1411cf08def784b0b23d5542048c7fcac8c5a73f13c8a54",
+      "sha256": [
+        "5da19b1aa3fe460daef017f41e451d1f8c3157e6798a6530dbc03dbd9fa7edb2",
+        "9a4da39b704326b5f1411cf08def784b0b23d5542048c7fcac8c5a73f13c8a54"
+      ],
       "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

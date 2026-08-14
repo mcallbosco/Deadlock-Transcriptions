@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "22921e1c9d3ce22074138f93a6ada562c79aed14e01b918f56acee078abbc9ea",
+      "sha256": [
+        "22921e1c9d3ce22074138f93a6ada562c79aed14e01b918f56acee078abbc9ea"
+      ],
       "text": "Dynamo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

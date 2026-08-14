@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_upgrade_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "4c8232d7090d2990d9a54025273c00c45cce5c7c79f1ddd5db90c8557d8d9ea6",
+      "sha256": [
+        "4c8232d7090d2990d9a54025273c00c45cce5c7c79f1ddd5db90c8557d8d9ea6"
+      ],
       "text": "You seek the power of the stars.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e416110b3cc05fc731ea30b7bc2ab0e5e86d0dc0366f636af1e440633da8fa6b",
+      "sha256": [
+        "e416110b3cc05fc731ea30b7bc2ab0e5e86d0dc0366f636af1e440633da8fa6b"
+      ],
       "text": "Corsatja sokrnat",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

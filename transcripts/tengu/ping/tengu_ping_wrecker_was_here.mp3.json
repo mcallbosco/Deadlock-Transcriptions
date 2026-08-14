@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_wrecker_was_here.mp3",
   "revisions": [
     {
-      "sha256": "85fecf91396bddff18aa2299b5287498f817f5ef175adeefcfcdd1384a5a3431",
+      "sha256": [
+        "85fecf91396bddff18aa2299b5287498f817f5ef175adeefcfcdd1384a5a3431"
+      ],
       "text": "Back to the chair.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b06679b44bfd46d4b6592b1001bf1e91c0605433252dae08b0d232c994e59f3b",
+      "sha256": [
+        "b06679b44bfd46d4b6592b1001bf1e91c0605433252dae08b0d232c994e59f3b"
+      ],
       "text": "Wrecker was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

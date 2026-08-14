@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a96b9db3b257d6872048149803dbb8e8c0109058c4eea9f714ce8c8f7f4d7b57",
+      "sha256": [
+        "a96b9db3b257d6872048149803dbb8e8c0109058c4eea9f714ce8c8f7f4d7b57"
+      ],
       "text": "Victor was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

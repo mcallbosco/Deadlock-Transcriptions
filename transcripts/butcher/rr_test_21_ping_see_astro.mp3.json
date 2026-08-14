@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_astro.mp3",
   "revisions": [
     {
-      "sha256": "d86b26f8dfa338e0dc8315d406b626f0ea6c6f23d507385ec6dfa979c09a9e65",
+      "sha256": [
+        "d86b26f8dfa338e0dc8315d406b626f0ea6c6f23d507385ec6dfa979c09a9e65"
+      ],
       "text": "I see Astro.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "32130d344c46dd310a267814ae9173ed9ae23950c29557d92b3eaa4c5b64ec19",
-      "text": "I'll see you, Astro.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af8bb720f22f243e4f7134e434d8d193c8419e25f412fa26e660ca4c2d362503",
+      "sha256": [
+        "32130d344c46dd310a267814ae9173ed9ae23950c29557d92b3eaa4c5b64ec19",
+        "af8bb720f22f243e4f7134e434d8d193c8419e25f412fa26e660ca4c2d362503"
+      ],
       "text": "I'll see you, Astro.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

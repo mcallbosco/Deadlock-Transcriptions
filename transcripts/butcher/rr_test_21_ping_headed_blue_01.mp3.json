@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "f9d1d50915bf3c78129432d901d7e07837202a5b0754d9fc728879be350c6df1",
-      "text": "Get it to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e23e966a73d2f3ff13ee80a2fdf22e156ba58b3d837c691f049a8619f0ee587a",
-      "text": "Get it to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71762a891e88a2079ff5f580ee4673d34d28d3b865e73e9a61081d94a37880b2",
+      "sha256": [
+        "71762a891e88a2079ff5f580ee4673d34d28d3b865e73e9a61081d94a37880b2",
+        "e23e966a73d2f3ff13ee80a2fdf22e156ba58b3d837c691f049a8619f0ee587a",
+        "f9d1d50915bf3c78129432d901d7e07837202a5b0754d9fc728879be350c6df1"
+      ],
       "text": "Get it to blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

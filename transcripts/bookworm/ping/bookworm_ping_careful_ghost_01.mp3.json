@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "999d7a1630f32d40fbea3c3b2f50d6516796f960fd9c8eb0063d77517a97fa39",
-      "text": "Careful, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8180de41e9f5c32a450a86ded3338d686adc93610a37cc1232e16229fd408bde",
+      "sha256": [
+        "8180de41e9f5c32a450a86ded3338d686adc93610a37cc1232e16229fd408bde",
+        "999d7a1630f32d40fbea3c3b2f50d6516796f960fd9c8eb0063d77517a97fa39"
+      ],
       "text": "Careful, Geist…",
       "source": "official"
     }

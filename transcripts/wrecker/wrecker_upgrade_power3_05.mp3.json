@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "5d226ec6c746789134bd0850f9f3e715c9ac145187968787a33f4569f9d5f6d5",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2418e3c6ab128d667aec87b5e31ad4ccd922027dedf59f609f783e954622f85",
+      "sha256": [
+        "5d226ec6c746789134bd0850f9f3e715c9ac145187968787a33f4569f9d5f6d5",
+        "f2418e3c6ab128d667aec87b5e31ad4ccd922027dedf59f609f783e954622f85"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

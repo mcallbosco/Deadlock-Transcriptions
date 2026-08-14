@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_lash_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "e579f0e69776929a2310a371af76432a3376822d059308ba41e94d1f665c7dac",
-      "text": "Lash is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "440096745007ff6383c62db99868d6d41195426ddb920ca18a27dc35ecc5b9f5",
+      "sha256": [
+        "440096745007ff6383c62db99868d6d41195426ddb920ca18a27dc35ecc5b9f5",
+        "e579f0e69776929a2310a371af76432a3376822d059308ba41e94d1f665c7dac"
+      ],
       "text": "Lash is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

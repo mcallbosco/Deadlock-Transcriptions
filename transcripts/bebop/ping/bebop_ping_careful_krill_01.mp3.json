@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "9432ef219fbec89b65002e3eb6d8d873d6832a5abdfd51776198ac2bdc3a7f17",
+      "sha256": [
+        "9432ef219fbec89b65002e3eb6d8d873d6832a5abdfd51776198ac2bdc3a7f17"
+      ],
       "text": "Careful, crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "15c2dfaedb1afff6103ce14255f519b5beeab750c20b4d902b61b22429d6fe8d",
+      "sha256": [
+        "15c2dfaedb1afff6103ce14255f519b5beeab750c20b4d902b61b22429d6fe8d"
+      ],
       "text": "Careful, Krill…",
       "source": "official"
     }

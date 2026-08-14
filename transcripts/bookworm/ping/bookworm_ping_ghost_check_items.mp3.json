@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ghost_check_items.mp3",
   "revisions": [
     {
-      "sha256": "1e46a8de6b7efe38977aa38c165d57bc7d7a78014e8c6e8c08b127f483922823",
+      "sha256": [
+        "1e46a8de6b7efe38977aa38c165d57bc7d7a78014e8c6e8c08b127f483922823"
+      ],
       "text": "Check out what Geist bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "75f982429daa38d88cc5d23f27266d2a053f33d87c94c4da87d44eaa23b01c4f",
+      "sha256": [
+        "75f982429daa38d88cc5d23f27266d2a053f33d87c94c4da87d44eaa23b01c4f"
+      ],
       "text": "Check out what I spot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

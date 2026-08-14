@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "744a632ac46a392fd96b0a8d426b515c6aa8a445f7c58158c4702413a24fd4ac",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b3e54ddc81d3bd9cc46d635fe33205042fc61b6b17d12fb3ef79a0fba5a1e30",
+      "sha256": [
+        "4b3e54ddc81d3bd9cc46d635fe33205042fc61b6b17d12fb3ef79a0fba5a1e30",
+        "744a632ac46a392fd96b0a8d426b515c6aa8a445f7c58158c4702413a24fd4ac"
+      ],
       "text": "Well played.",
       "source": "official"
     }

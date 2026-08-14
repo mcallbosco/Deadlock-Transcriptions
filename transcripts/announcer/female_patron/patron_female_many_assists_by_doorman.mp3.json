@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_many_assists_by_doorman.mp3",
   "revisions": [
     {
-      "sha256": "8829ebc7869fc4e50ae2e02806463859cab74765e1a012e4ddfa74f98cfd99ce",
-      "text": "The doorman is facilitating our victory.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f1c465851062042add8da610be1a98b27949a160efc07176e891cf6ad6c6d97",
+      "sha256": [
+        "3f1c465851062042add8da610be1a98b27949a160efc07176e891cf6ad6c6d97",
+        "8829ebc7869fc4e50ae2e02806463859cab74765e1a012e4ddfa74f98cfd99ce"
+      ],
       "text": "The Doorman is facilitating our victory",
       "source": "official"
     }

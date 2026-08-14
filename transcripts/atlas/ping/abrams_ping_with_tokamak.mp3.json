@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_tokamak.mp3",
   "revisions": [
     {
-      "sha256": "21f6e121b5d52983b79f5ab4430ac4b17126856f102efb1fa65bad07f094b762",
-      "text": "I'm with you, Tokamak.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "066e37a5c8ef10d4a8510eaf48a37f7316511104356e7dbc7a802edf59fb24d4",
+      "sha256": [
+        "066e37a5c8ef10d4a8510eaf48a37f7316511104356e7dbc7a802edf59fb24d4",
+        "21f6e121b5d52983b79f5ab4430ac4b17126856f102efb1fa65bad07f094b762"
+      ],
       "text": "I'm with you, Tokamak.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

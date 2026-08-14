@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_glitch_03.mp3",
   "revisions": [
     {
-      "sha256": "02b61ab2066ecb40c9f37a0fe8d2151d02bb30044fa3f8c40d0985668188da52",
+      "sha256": [
+        "02b61ab2066ecb40c9f37a0fe8d2151d02bb30044fa3f8c40d0985668188da52"
+      ],
       "text": "This is your last chance.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3eeae2201ca86dc02f7e635d0bd6ca696635e7f70c10c057da3aec0c3cbe8692",
+      "sha256": [
+        "3eeae2201ca86dc02f7e635d0bd6ca696635e7f70c10c057da3aec0c3cbe8692"
+      ],
       "text": "It does not compute.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "24ece18a8179b35469a27ed41665f4296f0328076adef4c7790c0729efa0f552",
+      "sha256": [
+        "24ece18a8179b35469a27ed41665f4296f0328076adef4c7790c0729efa0f552"
+      ],
       "text": "You have a nice day.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "20b65459a15ed94e0a1da9b5fcf8353dedf4814c375c72526648d51f67e55b36",
+      "sha256": [
+        "20b65459a15ed94e0a1da9b5fcf8353dedf4814c375c72526648d51f67e55b36"
+      ],
       "text": "Missing Green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/test_announcer_ks_09_02.mp3",
   "revisions": [
     {
-      "sha256": "d69706c4d86136ad8eafbef13fb9a5a6bac4a84dd8f927a1ee164c5a136e1b55",
+      "sha256": [
+        "238d10a29ef07f77913915a59a18a5ff5b1a91f14ede4c08137cd42d5ee5c75e",
+        "6e59231f98d361088685a0de97eaf210d75234b454bacb6b24864474bf23c0ab",
+        "d69706c4d86136ad8eafbef13fb9a5a6bac4a84dd8f927a1ee164c5a136e1b55"
+      ],
       "text": "None!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "238d10a29ef07f77913915a59a18a5ff5b1a91f14ede4c08137cd42d5ee5c75e",
-      "text": "None!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e59231f98d361088685a0de97eaf210d75234b454bacb6b24864474bf23c0ab",
-      "text": "None.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

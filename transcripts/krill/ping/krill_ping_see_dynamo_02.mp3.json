@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "27c14609ea21cde147ba7cef8198b0608f7d1986b772b49c0e27e801f6c79619",
-      "text": "I see the professor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b5a56d02972940754b3557fc45109daccc7ffbc9b26fb04e0f297224235fb0e8",
-      "text": "I see the professor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd1e7c2c0b196d07249e7c109f1d3cfc0ba3ff756abbc1e8c2f07e83a23cb439",
+      "sha256": [
+        "27c14609ea21cde147ba7cef8198b0608f7d1986b772b49c0e27e801f6c79619",
+        "b5a56d02972940754b3557fc45109daccc7ffbc9b26fb04e0f297224235fb0e8",
+        "fd1e7c2c0b196d07249e7c109f1d3cfc0ba3ff756abbc1e8c2f07e83a23cb439"
+      ],
       "text": "I see the professor…",
       "source": "official"
     }

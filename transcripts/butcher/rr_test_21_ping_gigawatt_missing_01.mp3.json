@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_gigawatt_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "14d7682f597a2fc2b57a27103129a48d1ce84829d40da88025f9a49a7b9a459b",
-      "text": "Gigawatt is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11c5802063c8dd55e26dc4bcd0d5f3f0d6ca46b373a2877dd6c1d7b07cdf2e89",
-      "text": "Gigawatt is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66ebe73a2833888e0ba76b60344abc9c66f24f892cd056a15809bd4262f2d3ae",
+      "sha256": [
+        "11c5802063c8dd55e26dc4bcd0d5f3f0d6ca46b373a2877dd6c1d7b07cdf2e89",
+        "14d7682f597a2fc2b57a27103129a48d1ce84829d40da88025f9a49a7b9a459b",
+        "66ebe73a2833888e0ba76b60344abc9c66f24f892cd056a15809bd4262f2d3ae"
+      ],
       "text": "Gigawatt is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

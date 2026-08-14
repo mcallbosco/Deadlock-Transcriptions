@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_happy_09.mp3",
   "revisions": [
     {
-      "sha256": "aff9595fe5eb9fb7792d39babaac33ec14f38c5b8b2a1291acaed1f00b278a84",
-      "text": "We were well together!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e25e793b319bf78a5c8a68152c4befca449e86f1ca604ec8aa19c0a1e3147782",
-      "text": "We were well together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb7ef03716a4c55b3eb9387eef0263a862addceacf0806ce56ee5e7a74d090d4",
+      "sha256": [
+        "aff9595fe5eb9fb7792d39babaac33ec14f38c5b8b2a1291acaed1f00b278a84",
+        "e25e793b319bf78a5c8a68152c4befca449e86f1ca604ec8aa19c0a1e3147782",
+        "fb7ef03716a4c55b3eb9387eef0263a862addceacf0806ce56ee5e7a74d090d4"
+      ],
       "text": "We were well together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

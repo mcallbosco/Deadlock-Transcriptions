@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_missing_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "123081fca99e0a27f14a37216a1528b92ca4b1c4cc220152c4270a94ef5a004e",
+      "sha256": [
+        "123081fca99e0a27f14a37216a1528b92ca4b1c4cc220152c4270a94ef5a004e",
+        "65db34bca48c0ccff58b3c450ebe40f7966ccc76382f60492a9b3064c1c1c7be"
+      ],
       "text": "Missing Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "65db34bca48c0ccff58b3c450ebe40f7966ccc76382f60492a9b3064c1c1c7be",
-      "text": "Missing orchard!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

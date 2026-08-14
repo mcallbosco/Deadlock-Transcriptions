@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_use_rupture.mp3",
   "revisions": [
     {
-      "sha256": "70f9ee268b88b62741fd02e349057fa8181153250f2f11a9e5e2b643793e63eb",
+      "sha256": [
+        "70f9ee268b88b62741fd02e349057fa8181153250f2f11a9e5e2b643793e63eb"
+      ],
       "text": "Ready to use the K.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8907c6906aabb167e62457bbb40d5673c2a4c5836cbef4480e4846dff1ebb5bc",
+      "sha256": [
+        "8907c6906aabb167e62457bbb40d5673c2a4c5836cbef4480e4846dff1ebb5bc"
+      ],
       "text": "Ready to use Decay.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_help_with_idol.mp3",
   "revisions": [
     {
-      "sha256": "787e14be62581cc86014e9c7832686231f5520865102efdd1964e41796412daa",
-      "text": "Help me deliver this thing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f1c40caef2fdf426078c4466bdd03b04e79097016242f7274a5953ca30692d9",
+      "sha256": [
+        "1f1c40caef2fdf426078c4466bdd03b04e79097016242f7274a5953ca30692d9",
+        "787e14be62581cc86014e9c7832686231f5520865102efdd1964e41796412daa"
+      ],
       "text": "Help me deliver this thing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

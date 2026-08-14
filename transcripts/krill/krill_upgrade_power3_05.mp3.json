@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "0433bed99153cda45c41dee8878467e5ed76203f2d6b9ddc91082db6fb105519",
+      "sha256": [
+        "0433bed99153cda45c41dee8878467e5ed76203f2d6b9ddc91082db6fb105519"
+      ],
       "text": "It's hard to fight with their sand in your eyes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "320875f7ca12c827620bca64450c76487e66d5a6d2d839cdc1c83de95fe99f46",
+      "sha256": [
+        "320875f7ca12c827620bca64450c76487e66d5a6d2d839cdc1c83de95fe99f46",
+        "796bace9f274c2ed8f3568e776bb8547abc52c92e3b207a783abf499144bb37a"
+      ],
       "text": "Hard to fight with their sand in your eyes!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "796bace9f274c2ed8f3568e776bb8547abc52c92e3b207a783abf499144bb37a",
-      "text": "Hard to fight with their sand in your eyes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "19214c7f9c52790263d7896f9ba1a43dc9553d4ee23302c112a372ec0bba4b69",
+      "sha256": [
+        "19214c7f9c52790263d7896f9ba1a43dc9553d4ee23302c112a372ec0bba4b69"
+      ],
       "text": "Hard to fight when theres sand in your eyes…",
       "source": "official"
     }

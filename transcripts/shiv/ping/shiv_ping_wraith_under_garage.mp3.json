@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_wraith_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "561522f8c87dcfe87646ec2874a2af3e96e3fb7636ca727bcc52d8c20254099d",
+      "sha256": [
+        "561522f8c87dcfe87646ec2874a2af3e96e3fb7636ca727bcc52d8c20254099d",
+        "59a3ff3b0940e6748eb6c1c05df1e44d245c992c6bbe01f8b6c47c62e2a6edd4"
+      ],
       "text": "I saw the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "59a3ff3b0940e6748eb6c1c05df1e44d245c992c6bbe01f8b6c47c62e2a6edd4",
-      "text": "I saw the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4500dff5b02fbd4e6a19159e501e4f4c4fff80f2724569a8345279e861d3e6e8",
+      "sha256": [
+        "4500dff5b02fbd4e6a19159e501e4f4c4fff80f2724569a8345279e861d3e6e8"
+      ],
       "text": "Wraith's under the garage!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "99edf38b11e9cd519e6dbd115285dd7198e77c92ed444ef967fa53b426944f3c",
+      "sha256": [
+        "99edf38b11e9cd519e6dbd115285dd7198e77c92ed444ef967fa53b426944f3c"
+      ],
       "text": "The player was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

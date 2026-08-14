@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/werewolf_be_careful_01.mp3",
   "revisions": [
     {
-      "sha256": "e6b041410135037d283dd7a60aed2bf99db741dd2d91df2fa5ab4101822de558",
+      "sha256": [
+        "e6b041410135037d283dd7a60aed2bf99db741dd2d91df2fa5ab4101822de558"
+      ],
       "text": "I feel like I'm walking into a trap.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

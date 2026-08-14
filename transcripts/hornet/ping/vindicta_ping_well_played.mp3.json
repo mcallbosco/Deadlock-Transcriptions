@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "1b48c54ac56bef9da5392fa3055748c482e3004a369e036fe105fde1ef62b006",
-      "text": "Well played!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "15cc19b7f7313968e36041899fb359a4b290f303fabcce6bc44bf2a4e4c235e9",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dea5513848e893464ee1dfdce3fc523a7ff799962d9594c16a7263e6e814d1f4",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0aa0495b8c4a05cff9a82d625ec6b2f9ea10ba2db422ae5925e01e8a9b9dd364",
+      "sha256": [
+        "0aa0495b8c4a05cff9a82d625ec6b2f9ea10ba2db422ae5925e01e8a9b9dd364",
+        "15cc19b7f7313968e36041899fb359a4b290f303fabcce6bc44bf2a4e4c235e9",
+        "1b48c54ac56bef9da5392fa3055748c482e3004a369e036fe105fde1ef62b006",
+        "dea5513848e893464ee1dfdce3fc523a7ff799962d9594c16a7263e6e814d1f4"
+      ],
       "text": "Well played.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

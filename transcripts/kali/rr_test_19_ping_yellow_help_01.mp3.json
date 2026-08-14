@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_yellow_help_01.mp3",
   "revisions": [
     {
-      "sha256": "b202703a176e3265915c1d44df3a641cfc0c3918137650543c212361c31c5177",
-      "text": "Yellow needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0db415a6b3e834211f3a2cbe5b6ac621b7947593a1cc0e0712ad3b6d9e945216",
-      "text": "Yellow needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28fdbc0f4420a5cc486a1df211963d352a32d0faa16ec97a46a51323d63b867d",
+      "sha256": [
+        "0db415a6b3e834211f3a2cbe5b6ac621b7947593a1cc0e0712ad3b6d9e945216",
+        "28fdbc0f4420a5cc486a1df211963d352a32d0faa16ec97a46a51323d63b867d",
+        "b202703a176e3265915c1d44df3a641cfc0c3918137650543c212361c31c5177"
+      ],
       "text": "Yellow needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

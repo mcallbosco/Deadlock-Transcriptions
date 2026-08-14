@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_holliday_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9b6aa0099201648fe87bda64d4ce4502c788185e3253e12cf490a06e3d35ef35",
+      "sha256": [
+        "9b6aa0099201648fe87bda64d4ce4502c788185e3253e12cf490a06e3d35ef35"
+      ],
       "text": "Holliday's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "788bf3be84c11703529825afd89dff2dd24bb5acbc14e3041eccca7c21bfd288",
+      "sha256": [
+        "788bf3be84c11703529825afd89dff2dd24bb5acbc14e3041eccca7c21bfd288"
+      ],
       "text": "Holly's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

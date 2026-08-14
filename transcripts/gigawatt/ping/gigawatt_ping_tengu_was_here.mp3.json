@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "15fc568c2f11b0cfd9b6317db1673a9cbfd690c556a45d56ae25f4f073936b4b",
+      "sha256": [
+        "07683f1b8d1c5aca6926ff0837f553cbcdb89d0eac968824b6178e3681068515",
+        "15fc568c2f11b0cfd9b6317db1673a9cbfd690c556a45d56ae25f4f073936b4b",
+        "59c79a7d89afd0c4f5f62a2270dd17ff08d95f5171b3c6fdf62d5a8fd10816a0"
+      ],
       "text": "Ivy was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07683f1b8d1c5aca6926ff0837f553cbcdb89d0eac968824b6178e3681068515",
-      "text": "Ivy was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59c79a7d89afd0c4f5f62a2270dd17ff08d95f5171b3c6fdf62d5a8fd10816a0",
-      "text": "IVY was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

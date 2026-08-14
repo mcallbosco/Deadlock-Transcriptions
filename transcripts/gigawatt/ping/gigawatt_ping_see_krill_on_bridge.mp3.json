@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_krill_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "65f7b2cc3c323592c89711a8b242b627c8a5c37ded94e7ffa241e5d48ba3ff1e",
+      "sha256": [
+        "65f7b2cc3c323592c89711a8b242b627c8a5c37ded94e7ffa241e5d48ba3ff1e"
+      ],
       "text": "Crail on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cd03c3d4cb803014b89b0fcd319498dc501e8807b275c2ca871baadaa0fa994c",
+      "sha256": [
+        "3ed9ebf47f504236aee233820b7ded5e3d563dface87d87296be580d89061388",
+        "cd03c3d4cb803014b89b0fcd319498dc501e8807b275c2ca871baadaa0fa994c"
+      ],
       "text": "Crowds on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3ed9ebf47f504236aee233820b7ded5e3d563dface87d87296be580d89061388",
-      "text": "Crowds on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c4fec79964a0e4dfbfae74f92905b99487b1dd1b1e61fcdfa0924398b11cebb",
+      "sha256": [
+        "3c4fec79964a0e4dfbfae74f92905b99487b1dd1b1e61fcdfa0924398b11cebb"
+      ],
       "text": "Krill's on the bridge!",
       "source": "official"
     }

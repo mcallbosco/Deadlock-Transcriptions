@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_drifter_dead.mp3",
   "revisions": [
     {
-      "sha256": "8c1f3579f15495a37d86beb49a731c4e1826d2ec8641c085051ae0cd956e961c",
+      "sha256": [
+        "8c1f3579f15495a37d86beb49a731c4e1826d2ec8641c085051ae0cd956e961c"
+      ],
       "text": "Captain's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

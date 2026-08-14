@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ivy_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "0cb6e127cd05a3c4345cfdf54f9bf4e46b9be31fb39ba7d75c09b8cbaf79d6ea",
+      "sha256": [
+        "0cb6e127cd05a3c4345cfdf54f9bf4e46b9be31fb39ba7d75c09b8cbaf79d6ea"
+      ],
       "text": "Tybie is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a4f3e34e3c3b9c9c87257d4c489b69d20b92974889b84a5b07ab0ed50facad14",
+      "sha256": [
+        "a4f3e34e3c3b9c9c87257d4c489b69d20b92974889b84a5b07ab0ed50facad14"
+      ],
       "text": "Ivy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

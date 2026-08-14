@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f7e63d14fbb280d27e16ed1d7143f9b08b1b63fc0fcc27c9a291604c88292653",
+      "sha256": [
+        "f7e63d14fbb280d27e16ed1d7143f9b08b1b63fc0fcc27c9a291604c88292653"
+      ],
       "text": "This is my sin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d13b85b2eb6054bba52151277ccce2154c38b03e29af6200b027e07939198f5",
+      "sha256": [
+        "6d13b85b2eb6054bba52151277ccce2154c38b03e29af6200b027e07939198f5"
+      ],
       "text": "Viscous's missing.",
       "source": "official"
     }

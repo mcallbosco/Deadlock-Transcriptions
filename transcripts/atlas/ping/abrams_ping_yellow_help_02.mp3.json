@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_yellow_help_02.mp3",
   "revisions": [
     {
-      "sha256": "0614a307323a7696ffd916b33e4bd9d0bf533aa1e287359eccb998c12a9023a4",
+      "sha256": [
+        "0614a307323a7696ffd916b33e4bd9d0bf533aa1e287359eccb998c12a9023a4",
+        "46b9f674af674d61c0cd907349b73815b4655c565ba8b0f6e638d473c4d1af12"
+      ],
       "text": "York needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46b9f674af674d61c0cd907349b73815b4655c565ba8b0f6e638d473c4d1af12",
-      "text": "York needs help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

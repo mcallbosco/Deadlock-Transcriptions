@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4fdb6f96e61446e529818187b8d188671c2fce17312b0eec98447e4a6945e310",
-      "text": "Kelvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd197a70bd7fe57eb9ca936a7fd6627487d4c8b906472c6febee61d73962782b",
+      "sha256": [
+        "4fdb6f96e61446e529818187b8d188671c2fce17312b0eec98447e4a6945e310",
+        "fd197a70bd7fe57eb9ca936a7fd6627487d4c8b906472c6febee61d73962782b"
+      ],
       "text": "Kelvin's missing.",
       "source": "official"
     }

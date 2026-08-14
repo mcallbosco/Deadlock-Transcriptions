@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_t3_shop_reminder_03.mp3",
   "revisions": [
     {
-      "sha256": "3c423e487a5cca57864446b67db73aad1813e24ca62c6ef66d08aba32ac4dbdf",
+      "sha256": [
+        "3c423e487a5cca57864446b67db73aad1813e24ca62c6ef66d08aba32ac4dbdf",
+        "c2aed7ef0cb521e6cb8e3c7d86a9035cc2d68b033cc1ba208971d4987f0b5767",
+        "f19c03a285a103f371854ce06913f660a0fdc4b5ce79019501c87619db182927"
+      ],
       "text": "Finally, I can buy some T3 gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c2aed7ef0cb521e6cb8e3c7d86a9035cc2d68b033cc1ba208971d4987f0b5767",
-      "text": "Finally, I can buy some T3 gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f19c03a285a103f371854ce06913f660a0fdc4b5ce79019501c87619db182927",
-      "text": "Finally, I can buy some T3 gear!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

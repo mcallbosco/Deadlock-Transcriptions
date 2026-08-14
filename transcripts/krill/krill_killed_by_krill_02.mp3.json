@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_killed_by_krill_02.mp3",
   "revisions": [
     {
-      "sha256": "8b5c90c721c7d485b6c2e6e5fc1172e194e72d4b0901bdb75a59f0694da6684e",
+      "sha256": [
+        "8b5c90c721c7d485b6c2e6e5fc1172e194e72d4b0901bdb75a59f0694da6684e",
+        "ab1740eb08aa82e7e43fb0aed7f13fc3aec45871950b2512f60045921acd504a"
+      ],
       "text": "Mole people, what can you do?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "962bbb58300deac251710699cb8bc3b52042390cb9033c19d17badd892820a73",
+      "sha256": [
+        "962bbb58300deac251710699cb8bc3b52042390cb9033c19d17badd892820a73"
+      ],
       "text": "Hole people, what can you do?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab1740eb08aa82e7e43fb0aed7f13fc3aec45871950b2512f60045921acd504a",
-      "text": "Mole people, what can you do?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_tokamak.mp3",
   "revisions": [
     {
-      "sha256": "2d1f446447df73b258c47df47943b38fd627c8acacf9a95905457151608ca1b7",
+      "sha256": [
+        "2d1f446447df73b258c47df47943b38fd627c8acacf9a95905457151608ca1b7"
+      ],
       "text": "I need your tokenack.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

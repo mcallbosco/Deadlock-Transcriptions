@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/hornet_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0df38004ff99fd2712f4f47725264bfc102f2e552c16b23e0389bbf2b657d80b",
+      "sha256": [
+        "0df38004ff99fd2712f4f47725264bfc102f2e552c16b23e0389bbf2b657d80b"
+      ],
       "text": "Good evening.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

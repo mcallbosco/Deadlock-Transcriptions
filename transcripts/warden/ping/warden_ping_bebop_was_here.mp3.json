@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b47ba25cf00373b36916d368e8484ed24feb99f574fae81c2c8ef6f4982e96b3",
-      "text": "Bebop was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8972f5bad98fde40653f032e352cab3b6f493be8143b9da900cd28b56f67af03",
-      "text": "Bebop was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2214aef84294dd3259aacca318cb1e64c5c8ac517ed7704e7c9fa7876dc6fe95",
-      "text": "Bebop was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24efb287510cf627490b7c03886b49b4dab6b16b1ef43a2c6b1ebd64cd672a66",
+      "sha256": [
+        "2214aef84294dd3259aacca318cb1e64c5c8ac517ed7704e7c9fa7876dc6fe95",
+        "24efb287510cf627490b7c03886b49b4dab6b16b1ef43a2c6b1ebd64cd672a66",
+        "8972f5bad98fde40653f032e352cab3b6f493be8143b9da900cd28b56f67af03",
+        "b47ba25cf00373b36916d368e8484ed24feb99f574fae81c2c8ef6f4982e96b3"
+      ],
       "text": "Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

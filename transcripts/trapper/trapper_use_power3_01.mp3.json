@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/trapper_use_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "b4287ca2fd9d737b4b8c729e2b51d5d091e3e54d079037ed2eb4419a2182cbfa",
+      "sha256": [
+        "b4287ca2fd9d737b4b8c729e2b51d5d091e3e54d079037ed2eb4419a2182cbfa"
+      ],
       "text": "Test barrier!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

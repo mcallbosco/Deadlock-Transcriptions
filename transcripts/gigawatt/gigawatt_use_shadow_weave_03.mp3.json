@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_shadow_weave_03.mp3",
   "revisions": [
     {
-      "sha256": "ccb9ad3ddf664d2b3a38ffdfc222e487b86b7b72406585776af13e51cc3976b1",
-      "text": "And now I disappear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa9a57deb1becb9b251c7cc3eb45ab45cde9cdd3df84a84bc84f07ea85043d43",
-      "text": "And now I disappear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18e8e6c0c14a8b9c1eec5ce488eb4d0175eea0d3f20055ecede067d7d8454bc2",
+      "sha256": [
+        "18e8e6c0c14a8b9c1eec5ce488eb4d0175eea0d3f20055ecede067d7d8454bc2",
+        "ccb9ad3ddf664d2b3a38ffdfc222e487b86b7b72406585776af13e51cc3976b1",
+        "fa9a57deb1becb9b251c7cc3eb45ab45cde9cdd3df84a84bc84f07ea85043d43"
+      ],
       "text": "And now I disappear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_bebop_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "41884f1acaa9000deb2b8fde4c167adc0431d53da8bcd07e0cf9bef095323e70",
-      "text": "Bebop is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0b47dc4c9d5560d62dd61cf263fd411afc24c0f3eea7d4ea7f7d936445e843d",
+      "sha256": [
+        "41884f1acaa9000deb2b8fde4c167adc0431d53da8bcd07e0cf9bef095323e70",
+        "f0b47dc4c9d5560d62dd61cf263fd411afc24c0f3eea7d4ea7f7d936445e843d"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

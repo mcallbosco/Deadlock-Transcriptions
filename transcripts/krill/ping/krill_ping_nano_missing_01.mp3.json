@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_nano_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "66f605de52d3284700352831f10d1fa86b4080937d99885d061d3566dda9acd2",
+      "sha256": [
+        "6564d75fd115ef67045aa9f78c8d2c0639d60b94fd4d69ac2f840aefd7162ea0",
+        "66f605de52d3284700352831f10d1fa86b4080937d99885d061d3566dda9acd2",
+        "7764500416d6fd14aea9ae31290036e3be8f9536d098964cc95c2dcac7595523"
+      ],
       "text": "Nano is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7764500416d6fd14aea9ae31290036e3be8f9536d098964cc95c2dcac7595523",
-      "text": "Nano is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6564d75fd115ef67045aa9f78c8d2c0639d60b94fd4d69ac2f840aefd7162ea0",
-      "text": "Nano is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9bee120b768a6a83da959565ce7069a53857ef589db23067533105d1adf4acbd",
+      "sha256": [
+        "9bee120b768a6a83da959565ce7069a53857ef589db23067533105d1adf4acbd"
+      ],
       "text": "Calico's missing",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_holliday.mp3",
   "revisions": [
     {
-      "sha256": "e459e43d9c77c39646e6ced2ec72b9b4276e500500622726ffc9e510102dd92c",
+      "sha256": [
+        "e459e43d9c77c39646e6ced2ec72b9b4276e500500622726ffc9e510102dd92c"
+      ],
       "text": "I'm with you, Holiday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cf4bd3d93e154a780b12c26dd389c1727203b79d5dd9130d484375d6c1b5e2d7",
+      "sha256": [
+        "cf4bd3d93e154a780b12c26dd389c1727203b79d5dd9130d484375d6c1b5e2d7"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

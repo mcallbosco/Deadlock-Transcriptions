@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_unselect_10.mp3",
   "revisions": [
     {
-      "sha256": "b55ebcb9d6fc567843bff4a26afddffc2d69eddc1f6bdd40b4510dc084e4d55b",
-      "text": "I really need a job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ff2c09ea211a9c299803d81925685688c6fe4c25d7ca7e2366a387ca9dda3ff",
-      "text": "I really need a job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2729fe802b9afd6a897f54f47a5e157a0973e77be0ab0335e57c062b456f8957",
+      "sha256": [
+        "2729fe802b9afd6a897f54f47a5e157a0973e77be0ab0335e57c062b456f8957",
+        "2ff2c09ea211a9c299803d81925685688c6fe4c25d7ca7e2366a387ca9dda3ff",
+        "b55ebcb9d6fc567843bff4a26afddffc2d69eddc1f6bdd40b4510dc084e4d55b"
+      ],
       "text": "I really need a job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_cadence_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "879dce2429b61afca85659d118185ac25f358586c383b458081f0f796c6b26cb",
+      "sha256": [
+        "879dce2429b61afca85659d118185ac25f358586c383b458081f0f796c6b26cb"
+      ],
       "text": "Kate is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "90c08c9a4f8e5cfaf404b66081291b3d32b78f75aed39720877564458ed2c503",
+      "sha256": [
+        "17bf62da0cea0b158eb1b02f388157b225889043799d4b7c8134125ac0aee10b",
+        "90c08c9a4f8e5cfaf404b66081291b3d32b78f75aed39720877564458ed2c503"
+      ],
       "text": "King's is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5e110d59b4306029b76aa2bc80b3414b9bb8a5e97ee858da3f6b45e55cfbc994",
+      "sha256": [
+        "5e110d59b4306029b76aa2bc80b3414b9bb8a5e97ee858da3f6b45e55cfbc994"
+      ],
       "text": "Tanks is under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17bf62da0cea0b158eb1b02f388157b225889043799d4b7c8134125ac0aee10b",
-      "text": "King's is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

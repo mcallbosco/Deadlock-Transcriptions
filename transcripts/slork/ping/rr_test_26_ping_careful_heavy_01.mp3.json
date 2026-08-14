@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_heavy_01.mp3",
   "revisions": [
     {
-      "sha256": "4ea7278d76215c054bc468063bd9468d8f713992e515877a7de76a618641b914",
-      "text": "Careful, heavy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91459a6e6317ffadfbd6eee71128e9cd5794295d8ee3152e2219f5c8220ccf74",
+      "sha256": [
+        "4ea7278d76215c054bc468063bd9468d8f713992e515877a7de76a618641b914",
+        "91459a6e6317ffadfbd6eee71128e9cd5794295d8ee3152e2219f5c8220ccf74"
+      ],
       "text": "Careful, heavy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

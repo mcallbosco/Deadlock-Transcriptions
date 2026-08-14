@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_geist_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "591c2791bf9c170b1f10061e1ca3dbb98e6f389303bc929f558f2811eaa7f6e5",
+      "sha256": [
+        "591c2791bf9c170b1f10061e1ca3dbb98e6f389303bc929f558f2811eaa7f6e5",
+        "f2379176a37a5eb3325e53cf16c77ad0560968d7dd8c21516f2944bf1724095c"
+      ],
       "text": "Guy's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2379176a37a5eb3325e53cf16c77ad0560968d7dd8c21516f2944bf1724095c",
-      "text": "guys under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_warden.mp3",
   "revisions": [
     {
-      "sha256": "b9fe63395ab427a19b020aca5fc1a4388acddb72e898884124cd9012959b78ab",
-      "text": "Gordon, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e914a20248846bfefa12af979a9bcfe5dad819e32953fcfbe418a0909a2fbb5e",
-      "text": "Gordon, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81b7e9eb078b254f18fa543f1a4f615b318c6bdaa6aac413e40db5017aab4cba",
+      "sha256": [
+        "81b7e9eb078b254f18fa543f1a4f615b318c6bdaa6aac413e40db5017aab4cba",
+        "b9fe63395ab427a19b020aca5fc1a4388acddb72e898884124cd9012959b78ab",
+        "e914a20248846bfefa12af979a9bcfe5dad819e32953fcfbe418a0909a2fbb5e"
+      ],
       "text": "Gordon, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

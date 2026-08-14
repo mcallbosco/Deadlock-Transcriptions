@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_thank_you_01.mp3",
   "revisions": [
     {
-      "sha256": "f4b203331e368bd902f2f94dcdc379935b94ee52e10d41a3af60af0a2c28e703",
-      "text": "Please.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "815cdcec76cf80ffefe7cc9f41d9813a281ad605bca2c415e794c105dd2fe576",
+      "sha256": [
+        "815cdcec76cf80ffefe7cc9f41d9813a281ad605bca2c415e794c105dd2fe576",
+        "f4b203331e368bd902f2f94dcdc379935b94ee52e10d41a3af60af0a2c28e703"
+      ],
       "text": "Please.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

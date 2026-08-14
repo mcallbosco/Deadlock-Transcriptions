@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_angry_09.mp3",
   "revisions": [
     {
-      "sha256": "bc974162968e123b57023b49324a42be6feca2a3f790b7835132f879adecb740",
+      "sha256": [
+        "bc974162968e123b57023b49324a42be6feca2a3f790b7835132f879adecb740",
+        "cfbd7b03c6be2e0ed060f162a178b185bac98773e5afb50a7532d4e356f3242c"
+      ],
       "text": "¡ellos van a pagar!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cfbd7b03c6be2e0ed060f162a178b185bac98773e5afb50a7532d4e356f3242c",
-      "text": "¡Ellos van a pagar!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

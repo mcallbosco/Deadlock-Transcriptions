@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_yamato_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "ffe7954c933c713c6d0da71cd6d5bae9590ba058072558f6d60d87ad21e46a1d",
-      "text": "Yamato is mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04634f6e210d3a86e95aaffaa0b3433b515bee9c58bb170f8eb05738dd99a104",
+      "sha256": [
+        "04634f6e210d3a86e95aaffaa0b3433b515bee9c58bb170f8eb05738dd99a104",
+        "ffe7954c933c713c6d0da71cd6d5bae9590ba058072558f6d60d87ad21e46a1d"
+      ],
       "text": "Yamato is mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

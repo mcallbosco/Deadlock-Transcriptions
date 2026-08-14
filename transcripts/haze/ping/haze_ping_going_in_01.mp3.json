@@ -1,33 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "b173deab4d5aadea0d0ac2027ff19a97b0a89787238ba0316b003c76db264f96",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1f6b1d97d1c4b124f31c8279f8f4ddea5086cd8f4d5473cfdfe842f803dd425",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6d47f0bab6ca7c76be110332b09cefdb24492b8489bb1f5edf4233567dcadc5",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "444887d9341f688cd5561277af2919bdf1ff7905fb166f5f1bb6bb261442bb5d",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05c7b7fd0e26ed2d690a2d3f14b57e6a43892dc95af5b7e4eb0fc33e82e9d56a",
+      "sha256": [
+        "05c7b7fd0e26ed2d690a2d3f14b57e6a43892dc95af5b7e4eb0fc33e82e9d56a",
+        "444887d9341f688cd5561277af2919bdf1ff7905fb166f5f1bb6bb261442bb5d",
+        "b173deab4d5aadea0d0ac2027ff19a97b0a89787238ba0316b003c76db264f96",
+        "d1f6b1d97d1c4b124f31c8279f8f4ddea5086cd8f4d5473cfdfe842f803dd425",
+        "f6d47f0bab6ca7c76be110332b09cefdb24492b8489bb1f5edf4233567dcadc5"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

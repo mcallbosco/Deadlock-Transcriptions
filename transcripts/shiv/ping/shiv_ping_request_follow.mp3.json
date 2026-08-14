@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_request_follow.mp3",
   "revisions": [
     {
-      "sha256": "717c583b5c420489449b40311ee6ced4e269d9e84a0a520532686834b2ce614a",
+      "sha256": [
+        "717c583b5c420489449b40311ee6ced4e269d9e84a0a520532686834b2ce614a",
+        "f00e905996fd8b80f07aae21f5314663cef8aebf93d770214628662b278c5bd0"
+      ],
       "text": "Trust me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f00e905996fd8b80f07aae21f5314663cef8aebf93d770214628662b278c5bd0",
-      "text": "Trust me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ece1091d3a58038f046b7f2c04014af370d782999a8be944a1f5d9b8d386d36f",
+      "sha256": [
+        "ece1091d3a58038f046b7f2c04014af370d782999a8be944a1f5d9b8d386d36f"
+      ],
       "text": "Come with me",
       "source": "official"
     }

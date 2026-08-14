@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_use_silence.mp3",
   "revisions": [
     {
-      "sha256": "68a81a0b2ac4c6e3868bd83d0843edb7037ff66e5b42327a7c702290c4f23e96",
+      "sha256": [
+        "68a81a0b2ac4c6e3868bd83d0843edb7037ff66e5b42327a7c702290c4f23e96"
+      ],
       "text": "Ready to silence cliff.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c134c5c13794f9d495f6b64df449954a8c2ba38d8ea579f5aaee85cfcf0e0e4e",
+      "sha256": [
+        "c134c5c13794f9d495f6b64df449954a8c2ba38d8ea579f5aaee85cfcf0e0e4e"
+      ],
       "text": "Ready to use Silence Glyph",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_infernus_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "17eb9ba927a53d5dfe3a77ffb5895a78feccff185fd15525d60194cf8d3b9d1a",
-      "text": "Infernus is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08d872aeadd7937e7c45aaf56a0cc60120971ea8103ed7110ae376486095ad03",
+      "sha256": [
+        "08d872aeadd7937e7c45aaf56a0cc60120971ea8103ed7110ae376486095ad03",
+        "17eb9ba927a53d5dfe3a77ffb5895a78feccff185fd15525d60194cf8d3b9d1a"
+      ],
       "text": "Infernus is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

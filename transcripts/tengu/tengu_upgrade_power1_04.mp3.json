@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_upgrade_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "d1e784f5b2c16625a242d71a93106bf8c876ff646172906c568b658184d1aff1",
-      "text": "I like plants.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d2318fe9878237aa0dad1eaeedfd98edfe5e994a5afc4781d1ff64cd1e1f71c",
+      "sha256": [
+        "7d2318fe9878237aa0dad1eaeedfd98edfe5e994a5afc4781d1ff64cd1e1f71c",
+        "d1e784f5b2c16625a242d71a93106bf8c876ff646172906c568b658184d1aff1"
+      ],
       "text": "I like plants.",
       "source": "official"
     }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "296a28ca3201f94aab4e9262047c4b3dffa5faae7bcf969fae1dd543f1a446bb",
+      "sha256": [
+        "296a28ca3201f94aab4e9262047c4b3dffa5faae7bcf969fae1dd543f1a446bb"
+      ],
       "text": "I see through.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "079156d93638256d7426b7930db925aefd3bc627460ee9671e437447d204a5eb",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71e15d475efffda44623917c11e3d1fa54c3ea0004f36ca3bdff6875641b2197",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6926a30aa152d33c3ad903c94465d1be378160ba36fdc784f1275a48562486aa",
+      "sha256": [
+        "079156d93638256d7426b7930db925aefd3bc627460ee9671e437447d204a5eb",
+        "6926a30aa152d33c3ad903c94465d1be378160ba36fdc784f1275a48562486aa",
+        "71e15d475efffda44623917c11e3d1fa54c3ea0004f36ca3bdff6875641b2197"
+      ],
       "text": "I see Krill",
       "source": "official"
     }

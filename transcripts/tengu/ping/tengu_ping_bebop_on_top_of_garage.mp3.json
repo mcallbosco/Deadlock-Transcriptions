@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_bebop_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "2f3479698721379098b521b37dafb84aa8c8c1b377cab51ce3845c4c1dc9c25c",
+      "sha256": [
+        "2f3479698721379098b521b37dafb84aa8c8c1b377cab51ce3845c4c1dc9c25c"
+      ],
       "text": "This one's on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d4d33585e164da05295f753e5a3f7e5e92f592b7cd0079ce90d8010f1c91ce44",
+      "sha256": [
+        "d4d33585e164da05295f753e5a3f7e5e92f592b7cd0079ce90d8010f1c91ce44"
+      ],
       "text": "Bebop's on top of the garage!",
       "source": "official"
     }

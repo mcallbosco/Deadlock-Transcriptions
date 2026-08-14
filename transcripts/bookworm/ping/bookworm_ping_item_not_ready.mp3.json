@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "fb45149a3b2d7328c469a85e3b0d3f107ffc532013db55d097e1f7826d498d93",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6196cdf533dcece42b670eae4f0a7cf0862cbe6f6c40bb5d0399991362273f03",
+      "sha256": [
+        "6196cdf533dcece42b670eae4f0a7cf0862cbe6f6c40bb5d0399991362273f03",
+        "fb45149a3b2d7328c469a85e3b0d3f107ffc532013db55d097e1f7826d498d93"
+      ],
       "text": "Item's on cooldown.",
       "source": "official"
     }

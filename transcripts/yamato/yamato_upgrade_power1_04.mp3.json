@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "7ea0991088c261e185077d2627abe9314ae2f00b3a6ee92f66bc885193a6afef",
+      "sha256": [
+        "7ea0991088c261e185077d2627abe9314ae2f00b3a6ee92f66bc885193a6afef"
+      ],
       "text": "彼らはこの刃を恐れることを学ぶでしょう。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1bf4e6884482b5e6ad628e537103c35eab1d4f5e0aebf8f2495dba6bab5562dc",
+      "sha256": [
+        "1bf4e6884482b5e6ad628e537103c35eab1d4f5e0aebf8f2495dba6bab5562dc"
+      ],
       "text": "この切れ味に奴らは恐れおののくこととなろう。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b252e03533ea4f654a44a5100f4c6c8860180410e38b5598b142302b86156303",
+      "sha256": [
+        "b252e03533ea4f654a44a5100f4c6c8860180410e38b5598b142302b86156303"
+      ],
       "text": "They will learn to fear this blade.",
       "source": "official"
     }

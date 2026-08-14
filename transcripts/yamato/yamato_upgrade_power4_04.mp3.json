@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power4_04.mp3",
   "revisions": [
     {
-      "sha256": "36641ef2515fa99118646d9b806cef55d6c56063e171a6c77722b0eeaf8146ab",
+      "sha256": [
+        "36641ef2515fa99118646d9b806cef55d6c56063e171a6c77722b0eeaf8146ab"
+      ],
       "text": "そう簡単には死なないよ。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b0b75777dc1ebb7483282f2c9408df411bf36831c2560cc1d4bac9dd77644ea7",
+      "sha256": [
+        "b0b75777dc1ebb7483282f2c9408df411bf36831c2560cc1d4bac9dd77644ea7"
+      ],
       "text": "そう簡単に私を殺せると思うな。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3f4ce20fc913764a4e951a920798aa4407e9e1a88ef6018729da1fd7f2a76ef1",
+      "sha256": [
+        "3f4ce20fc913764a4e951a920798aa4407e9e1a88ef6018729da1fd7f2a76ef1"
+      ],
       "text": "I won't die so easily.",
       "source": "official"
     }

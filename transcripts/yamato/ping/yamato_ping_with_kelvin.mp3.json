@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "3bc04fc4667c74b8774006ac65fafdb25d1efa3d41d93e785f7485f8725b21fc",
+      "sha256": [
+        "3bc04fc4667c74b8774006ac65fafdb25d1efa3d41d93e785f7485f8725b21fc"
+      ],
       "text": "I'm with you, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3c56de7dba20cae3bd5b9b791a0dbe576642e2e116a9bd8e970f21f84db8329",
-      "text": "I'm with you, Cherubim.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76e7581c6088d76afcdedc02086babf710530668fdac6e180bb99bccee6add51",
+      "sha256": [
+        "76e7581c6088d76afcdedc02086babf710530668fdac6e180bb99bccee6add51",
+        "c3c56de7dba20cae3bd5b9b791a0dbe576642e2e116a9bd8e970f21f84db8329"
+      ],
       "text": "I'm with you, Cherubim.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

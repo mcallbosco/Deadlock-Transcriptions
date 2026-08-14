@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_see_enemy_metal_skin_02.mp3",
   "revisions": [
     {
-      "sha256": "61d52632e248bb60b3021a35712792ebfd203d27233773f284674f86446513f9",
-      "text": "They have metal skin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fc8d5fbd626566afae06c2261cf84f11b484013c66582dd3edcb67a99f0a53a",
-      "text": "They have metal skin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1990385fcb77735505b6ad71a812d812ee5aa1dd96c5dea962b8e3b1388f8da6",
+      "sha256": [
+        "1990385fcb77735505b6ad71a812d812ee5aa1dd96c5dea962b8e3b1388f8da6",
+        "4fc8d5fbd626566afae06c2261cf84f11b484013c66582dd3edcb67a99f0a53a",
+        "61d52632e248bb60b3021a35712792ebfd203d27233773f284674f86446513f9"
+      ],
       "text": "They have metal skin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

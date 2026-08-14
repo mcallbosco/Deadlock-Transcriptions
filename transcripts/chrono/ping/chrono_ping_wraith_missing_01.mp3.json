@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e581cff8f9bf5bdaa0fba28af69b0a207b6d4831848879711fef44d1084980d8",
+      "sha256": [
+        "e581cff8f9bf5bdaa0fba28af69b0a207b6d4831848879711fef44d1084980d8"
+      ],
       "text": "Race missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ce6da024bb17033ef6b5fd1576473b8902c87ff68b0de36aa60a951c505f3329",
+      "sha256": [
+        "ce6da024bb17033ef6b5fd1576473b8902c87ff68b0de36aa60a951c505f3329"
+      ],
       "text": "Wraith's missing",
       "source": "official"
     }

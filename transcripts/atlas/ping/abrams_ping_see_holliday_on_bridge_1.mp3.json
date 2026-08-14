@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_holliday_on_bridge_1.mp3",
   "revisions": [
     {
-      "sha256": "e1027e1af847170bf521e307b1f26d55bd8328b019287d0c66d0ee2ca01ee3b8",
+      "sha256": [
+        "e1027e1af847170bf521e307b1f26d55bd8328b019287d0c66d0ee2ca01ee3b8"
+      ],
       "text": "Holiday's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "021a65c0f670ef85402ec3dfee172b1ddf6b3a821656ca08444a6a27c14aa6d5",
+      "sha256": [
+        "021a65c0f670ef85402ec3dfee172b1ddf6b3a821656ca08444a6a27c14aa6d5"
+      ],
       "text": "Holliday's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

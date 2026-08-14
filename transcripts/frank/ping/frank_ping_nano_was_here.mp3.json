@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_nano_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ec0ffe27bd7e1a1ab88d9ee53219769fb7c03c422f67ef8601180c33ca10775b",
-      "text": "Calico was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b850268534f7c456e3ab218b257e35c4f81dc2bfceeef1f28a5dbaacd7e603b9",
+      "sha256": [
+        "b850268534f7c456e3ab218b257e35c4f81dc2bfceeef1f28a5dbaacd7e603b9",
+        "ec0ffe27bd7e1a1ab88d9ee53219769fb7c03c422f67ef8601180c33ca10775b"
+      ],
       "text": "Calico was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

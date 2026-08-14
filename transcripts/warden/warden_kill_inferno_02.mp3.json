@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_kill_inferno_02.mp3",
   "revisions": [
     {
-      "sha256": "8205a4626357b59d62f40756df065c4ca870af4f434c59911b042d304af7420d",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54a5b15a46ba72607ee15419b5b11642a0be231879840b19310edd2e607829c5",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32968948163d3dfc0d7198b0a0256891e89f229298ea9ff85f77eebc4d25734a",
-      "text": "Infernus is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "659ec4937106ba8bb3114293f76bcab07bdcf517ba927c5a3069e09982ecd0f8",
+      "sha256": [
+        "32968948163d3dfc0d7198b0a0256891e89f229298ea9ff85f77eebc4d25734a",
+        "54a5b15a46ba72607ee15419b5b11642a0be231879840b19310edd2e607829c5",
+        "659ec4937106ba8bb3114293f76bcab07bdcf517ba927c5a3069e09982ecd0f8",
+        "8205a4626357b59d62f40756df065c4ca870af4f434c59911b042d304af7420d"
+      ],
       "text": "Infernus is dead!",
       "source": "official"
     }

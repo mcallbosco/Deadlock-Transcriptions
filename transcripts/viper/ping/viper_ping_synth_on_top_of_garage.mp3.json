@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_synth_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "1b8360ef132c8f0076486057728acef0d4e67640b7743a28d3f357e0daad3b59",
-      "text": "Pocket's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "1b8360ef132c8f0076486057728acef0d4e67640b7743a28d3f357e0daad3b59",
+        "b6be4bf44958ab1b602c744020dfb3c2be65ce856707c0d8d0ec14e81b8af02d"
+      ],
+      "text": "Pocket's on top of the garage!",
+      "source": "official"
     },
     {
-      "sha256": "d775a8bac8afc3f20f20b41ed24d92ff92a6912e94f499d4b630f4b2336e768e",
+      "sha256": [
+        "d775a8bac8afc3f20f20b41ed24d92ff92a6912e94f499d4b630f4b2336e768e"
+      ],
       "text": "Packet's on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6be4bf44958ab1b602c744020dfb3c2be65ce856707c0d8d0ec14e81b8af02d",
-      "text": "Pocket's on top of the garage!",
-      "source": "official"
     }
   ]
 }

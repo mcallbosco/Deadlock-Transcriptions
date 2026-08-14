@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_enemy_titan_01.mp3",
   "revisions": [
     {
-      "sha256": "fa34a35e695e367186e292263e7dbc998647a1ae58e6bfed89b91504e0b359c0",
-      "text": "Their patron's avatar is being destroyed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9bd3973a1febebac8b6f22305c2695d96c76ae2d65fee79d5d0876898b314275",
+      "sha256": [
+        "9bd3973a1febebac8b6f22305c2695d96c76ae2d65fee79d5d0876898b314275",
+        "fa34a35e695e367186e292263e7dbc998647a1ae58e6bfed89b91504e0b359c0"
+      ],
       "text": "Their patron's avatar is being destroyed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

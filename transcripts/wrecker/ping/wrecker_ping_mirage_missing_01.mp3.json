@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6d476923fbc706ccd75e97d2f488e3f0c713a6416a8b9877723fc3c07a5b6ae2",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f3acea81c1d4c73517e4c90474405a105ddc276a2864bcb4a5c0be093793e35b",
+      "sha256": [
+        "6d476923fbc706ccd75e97d2f488e3f0c713a6416a8b9877723fc3c07a5b6ae2",
+        "f3acea81c1d4c73517e4c90474405a105ddc276a2864bcb4a5c0be093793e35b"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

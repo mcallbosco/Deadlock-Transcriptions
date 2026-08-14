@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "c6b033ae46fb8af714ba823f638be4fd52f0d59cafc5174cc7d8f313ed04f16a",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e6b5677c60a24c5e6fc1733e8a0dc6b125e4ad695e821d8d9be36e4818fa7da",
-      "text": "I'm with you, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91d0ce6b402f4d6c24b2bced97b1560be4b5c6799cb155b1c3e133f26366f36d",
-      "text": "I'm with you, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93bddad75a1b1964cb7bc3af75a7335daa2a5e59f018b987390787c921aaaee0",
+      "sha256": [
+        "91d0ce6b402f4d6c24b2bced97b1560be4b5c6799cb155b1c3e133f26366f36d",
+        "93bddad75a1b1964cb7bc3af75a7335daa2a5e59f018b987390787c921aaaee0",
+        "9e6b5677c60a24c5e6fc1733e8a0dc6b125e4ad695e821d8d9be36e4818fa7da",
+        "c6b033ae46fb8af714ba823f638be4fd52f0d59cafc5174cc7d8f313ed04f16a"
+      ],
       "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

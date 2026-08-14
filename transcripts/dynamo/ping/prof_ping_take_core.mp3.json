@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_take_core.mp3",
   "revisions": [
     {
-      "sha256": "80b8056bb038523d34afb2c2996b116c945feb853e58a4befd397f2abb0d02fe",
+      "sha256": [
+        "80b8056bb038523d34afb2c2996b116c945feb853e58a4befd397f2abb0d02fe"
+      ],
       "text": "this is the core.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6fa02dbaa347d2beeb50bf8b83622e721d2bfc348d14c7150a8d79e034cc5abd",
+      "sha256": [
+        "6fa02dbaa347d2beeb50bf8b83622e721d2bfc348d14c7150a8d79e034cc5abd"
+      ],
       "text": "Consume core.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

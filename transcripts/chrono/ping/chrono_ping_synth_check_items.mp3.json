@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_synth_check_items.mp3",
   "revisions": [
     {
-      "sha256": "84f99dbd39c5d57ea1e09676f6d23cf53abd8b9c0c87b911a19df7c531e6f7d8",
+      "sha256": [
+        "2aa02308c9a020a01a43d4c886a1b73db55ad00fe167bb111d368765ae63b9a8",
+        "84f99dbd39c5d57ea1e09676f6d23cf53abd8b9c0c87b911a19df7c531e6f7d8",
+        "c92409496129bf7bb41f1a1ca29f21753fd3504cc4818c71f06430f4da4561d5"
+      ],
       "text": "Check out what Pocket bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c92409496129bf7bb41f1a1ca29f21753fd3504cc4818c71f06430f4da4561d5",
-      "text": "Check out what Pocket bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2aa02308c9a020a01a43d4c886a1b73db55ad00fe167bb111d368765ae63b9a8",
-      "text": "Check out what pocket bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

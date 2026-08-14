@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_bebop_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "1290599da0800d15bfaffcfd44305a36bc114b51e61c25e11504a7c4eae9bd59",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4e241816fc26dec034d7c4900575e7f2fe7343441841f95b0b52afb296fd61a",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d17b2b199914f57a512e0c4bdd07613bb512bc14528276c26cf8f47f6139d46a",
+      "sha256": [
+        "1290599da0800d15bfaffcfd44305a36bc114b51e61c25e11504a7c4eae9bd59",
+        "d17b2b199914f57a512e0c4bdd07613bb512bc14528276c26cf8f47f6139d46a",
+        "f4e241816fc26dec034d7c4900575e7f2fe7343441841f95b0b52afb296fd61a"
+      ],
       "text": "Bebop's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

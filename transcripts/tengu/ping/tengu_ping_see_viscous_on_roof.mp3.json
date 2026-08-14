@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_viscous_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "99f5326122cb26f8312dc19cb4bbacc8665d34e146473baf45934f973a53950a",
+      "sha256": [
+        "99f5326122cb26f8312dc19cb4bbacc8665d34e146473baf45934f973a53950a"
+      ],
       "text": "This is an announcement!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9a17381344d17cb326f5e291fc840be20832c0c96eb929c0e38568f03437f96e",
+      "sha256": [
+        "9a17381344d17cb326f5e291fc840be20832c0c96eb929c0e38568f03437f96e"
+      ],
       "text": "Viscous's on the roof!",
       "source": "official"
     }

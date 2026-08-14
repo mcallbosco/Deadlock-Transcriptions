@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_select_03.mp3",
   "revisions": [
     {
-      "sha256": "f103cfd683b243fb376999525cdef6d85c50c25e5af7d4a0d8a7dcb4394fb35d",
+      "sha256": [
+        "f103cfd683b243fb376999525cdef6d85c50c25e5af7d4a0d8a7dcb4394fb35d",
+        "f84d034c3cd015216b3a6bf91f43778c16524c3814b41d68773a8a6ee32da3a7"
+      ],
       "text": "I'm feeling good about this, yes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f84d034c3cd015216b3a6bf91f43778c16524c3814b41d68773a8a6ee32da3a7",
-      "text": "I'm feeling good about this, yes?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

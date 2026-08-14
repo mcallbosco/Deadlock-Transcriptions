@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_ignore_inferno.mp3",
   "revisions": [
     {
-      "sha256": "498c32a6124dd6824a17eeb093a98063b4be9ef6d762120212939de4b001275e",
+      "sha256": [
+        "498c32a6124dd6824a17eeb093a98063b4be9ef6d762120212939de4b001275e",
+        "c38c9c7832d99529340fc02d5e92d07eb5043eb2ede757fad3bee6799dd82984"
+      ],
       "text": "Ignore Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c38c9c7832d99529340fc02d5e92d07eb5043eb2ede757fad3bee6799dd82984",
-      "text": "Ignore Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

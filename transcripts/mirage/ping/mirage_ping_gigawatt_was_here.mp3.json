@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8e737be66a77cf327b8c6abcf0799ad10478b03f06134db43d833db25c40b860",
+      "sha256": [
+        "8e737be66a77cf327b8c6abcf0799ad10478b03f06134db43d833db25c40b860"
+      ],
       "text": "I go up a zip.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3756338619311db4a1248896db99496d68bfeadf8a455b82c1d8f799d313ca07",
+      "sha256": [
+        "268a1a4e380b1032e510e81dd5508937c532bb41665239f47b6176e558343e0d",
+        "3756338619311db4a1248896db99496d68bfeadf8a455b82c1d8f799d313ca07",
+        "8a5a7775cc7bd48492bfa9c446717acde74f925f1875141d509e04b127a69e67"
+      ],
       "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "268a1a4e380b1032e510e81dd5508937c532bb41665239f47b6176e558343e0d",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a5a7775cc7bd48492bfa9c446717acde74f925f1875141d509e04b127a69e67",
-      "text": "Seven was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

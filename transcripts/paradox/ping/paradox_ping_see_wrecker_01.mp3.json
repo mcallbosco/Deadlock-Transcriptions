@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "4f0355bf7383bceca45114dfd0aed2a7aeaebfbdd4679c7f6c931df89f47b86a",
+      "sha256": [
+        "4f0355bf7383bceca45114dfd0aed2a7aeaebfbdd4679c7f6c931df89f47b86a"
+      ],
       "text": "I see Reka.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "58f991e29003f94e66188e168a703cc6159a4f8753e3d28ffc7a040384557f72",
+      "sha256": [
+        "58f991e29003f94e66188e168a703cc6159a4f8753e3d28ffc7a040384557f72"
+      ],
       "text": "I see Recker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

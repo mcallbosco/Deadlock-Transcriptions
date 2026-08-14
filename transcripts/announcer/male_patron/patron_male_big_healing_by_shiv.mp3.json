@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_big_healing_by_shiv.mp3",
   "revisions": [
     {
-      "sha256": "db41877d41a776122df913599eb70f21f304052e58a01799462717cc58bbc1aa",
+      "sha256": [
+        "db41877d41a776122df913599eb70f21f304052e58a01799462717cc58bbc1aa"
+      ],
       "text": "She endures, so we all may survive.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "299d5d69a4571ab2c96ed5826a40ea16cbc3821105adfeb1bb680507d7847ede",
-      "text": "shiv endures, so we all may survive.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "299d5d69a4571ab2c96ed5826a40ea16cbc3821105adfeb1bb680507d7847ede",
+        "543a5e585e6e2453db9ea0f15dd0c3437a56d3b26013570331c60bd5e363489a"
+      ],
+      "text": "Shiv endures, so we all may survive…",
+      "source": "official"
     },
     {
-      "sha256": "86d658f7668faa4c14f914a91dba3aa401bd6298e84c7d7286b89508a8a27e2b",
+      "sha256": [
+        "86d658f7668faa4c14f914a91dba3aa401bd6298e84c7d7286b89508a8a27e2b"
+      ],
       "text": "To endures so we all may survive.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "543a5e585e6e2453db9ea0f15dd0c3437a56d3b26013570331c60bd5e363489a",
-      "text": "Shiv endures, so we all may survive…",
-      "source": "official"
     }
   ]
 }

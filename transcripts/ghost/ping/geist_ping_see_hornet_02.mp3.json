@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_hornet_02.mp3",
   "revisions": [
     {
-      "sha256": "d949d57cc4705dcbbef8af8cdcec3a5e3fdc9266d51628e18105eb6a75406e98",
-      "text": "I see that sniper!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "021d382a34da9a88e4edfb317b6196854739b5912a98e80450bd75624500b68b",
+      "sha256": [
+        "021d382a34da9a88e4edfb317b6196854739b5912a98e80450bd75624500b68b",
+        "d949d57cc4705dcbbef8af8cdcec3a5e3fdc9266d51628e18105eb6a75406e98"
+      ],
       "text": "I see that sniper!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

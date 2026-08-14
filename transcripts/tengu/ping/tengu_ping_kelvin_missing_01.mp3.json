@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "798e5c765691cfb23c432d2874a9697af830e25dd3ab01c9d4ef2cc22418bca6",
+      "sha256": [
+        "798e5c765691cfb23c432d2874a9697af830e25dd3ab01c9d4ef2cc22418bca6"
+      ],
       "text": "Because it's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b76b29448791fb8c2f3efa37f7f701b78fe139d8a38b37c22c88ccfc7ce39a5",
+      "sha256": [
+        "0b76b29448791fb8c2f3efa37f7f701b78fe139d8a38b37c22c88ccfc7ce39a5"
+      ],
       "text": "Kelvin's missing",
       "source": "official"
     }

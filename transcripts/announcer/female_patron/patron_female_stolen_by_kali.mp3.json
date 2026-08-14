@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_stolen_by_kali.mp3",
   "revisions": [
     {
-      "sha256": "6e7044f258bd981bbe1320c9ca54f074b7553642fed944e6f15f758a7f6b8189",
+      "sha256": [
+        "57db2bf07cc97b7cce250201ac613d37f873beaf3feabba08809739a0c7502b4",
+        "6e7044f258bd981bbe1320c9ca54f074b7553642fed944e6f15f758a7f6b8189"
+      ],
       "text": "Kali stole the rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "57db2bf07cc97b7cce250201ac613d37f873beaf3feabba08809739a0c7502b4",
-      "text": "Kali stole the rejuvenator!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_butcher_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "fc31230b0fa01d05fe556aa47c83d837ee42e64d407d7bac601407037be17105",
+      "sha256": [
+        "52670c87e51e297824d7d23d1c8d5a63ebc32870519f7282cd5224c77288f746",
+        "fc31230b0fa01d05fe556aa47c83d837ee42e64d407d7bac601407037be17105"
+      ],
       "text": "But she's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dfbddca134a2fb05447adcdc2037fe0c4ecfa957f229cc5b63824d917e82d5e7",
+      "sha256": [
+        "dfbddca134a2fb05447adcdc2037fe0c4ecfa957f229cc5b63824d917e82d5e7"
+      ],
       "text": "Bitches on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52670c87e51e297824d7d23d1c8d5a63ebc32870519f7282cd5224c77288f746",
-      "text": "But she's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

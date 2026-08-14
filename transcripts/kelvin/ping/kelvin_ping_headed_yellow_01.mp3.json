@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "dace9cf65f4eac1fb248977c3aff5e767883c8e98f94b2367d979b063cb74166",
+      "sha256": [
+        "dace9cf65f4eac1fb248977c3aff5e767883c8e98f94b2367d979b063cb74166"
+      ],
       "text": "I feel love!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4f7a28e74cbac369e30ad62c20a708dd2ae006a722bde8f68a2e8987f54c353d",
+      "sha256": [
+        "4f7a28e74cbac369e30ad62c20a708dd2ae006a722bde8f68a2e8987f54c353d"
+      ],
       "text": "Headed to Yellow",
       "source": "official"
     }

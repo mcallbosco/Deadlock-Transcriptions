@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "7e3626da489e3cb90077b5b4984bd0682c87dc5a3572bead5a8c8f1e107b80d1",
+      "sha256": [
+        "7e3626da489e3cb90077b5b4984bd0682c87dc5a3572bead5a8c8f1e107b80d1"
+      ],
       "text": "I like to call it home.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2120c0748911796b103e75656320a71274404c7c42c822f52a4ff833b1851ade",
+      "sha256": [
+        "2120c0748911796b103e75656320a71274404c7c42c822f52a4ff833b1851ade"
+      ],
       "text": "I'm with you, Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

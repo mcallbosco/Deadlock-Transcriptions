@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "876be762a03e332ae78254514f2211a59ff9e70bed597dbd0c1c1ab1d6096614",
-      "text": "Paradox is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69534f4cf467b6fbd86f1c85a5114357b7deefeb93cd3327a76f3039953c5024",
-      "text": "Paradox is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b45c0b211e173594ab66a66d155c189d54318ccdb8a20b8c78e62e8b2fb62929",
+      "sha256": [
+        "69534f4cf467b6fbd86f1c85a5114357b7deefeb93cd3327a76f3039953c5024",
+        "876be762a03e332ae78254514f2211a59ff9e70bed597dbd0c1c1ab1d6096614",
+        "b45c0b211e173594ab66a66d155c189d54318ccdb8a20b8c78e62e8b2fb62929"
+      ],
       "text": "Paradox is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

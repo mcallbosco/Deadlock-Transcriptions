@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/unicorn_upgrade_power4_02_02.mp3",
   "revisions": [
     {
-      "sha256": "4654040bc3f3ad7c15832fb6d832115492a4222541f67eea8e13c6365658603e",
+      "sha256": [
+        "4654040bc3f3ad7c15832fb6d832115492a4222541f67eea8e13c6365658603e"
+      ],
       "text": "Now this is how you end a show.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

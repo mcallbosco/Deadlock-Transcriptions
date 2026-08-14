@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_viscous_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "4021440fdb61cdef0dfb5b52352c9baad02115fbd01b629328f308b0e96c1b29",
+      "sha256": [
+        "4021440fdb61cdef0dfb5b52352c9baad02115fbd01b629328f308b0e96c1b29"
+      ],
       "text": "This is the meat!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5239f3bf3a8f704533bf66bc4b88cae4b2712b61b6d8941749e6fe026b2ff47e",
+      "sha256": [
+        "5239f3bf3a8f704533bf66bc4b88cae4b2712b61b6d8941749e6fe026b2ff47e"
+      ],
       "text": "This isn't meat!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f24927dfe12dcd398372a71ddfd733370a47cadd20fad0f2091bb3ee424f3710",
+      "sha256": [
+        "f24927dfe12dcd398372a71ddfd733370a47cadd20fad0f2091bb3ee424f3710"
+      ],
       "text": "This doesn't need.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

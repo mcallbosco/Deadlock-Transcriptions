@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_attack_engineer.mp3",
   "revisions": [
     {
-      "sha256": "0eee69078af26628098fc3c7fcfa7a939fcfb1e6d114db7af2798654afe94a52",
+      "sha256": [
+        "0eee69078af26628098fc3c7fcfa7a939fcfb1e6d114db7af2798654afe94a52"
+      ],
       "text": "Let's take out Engineer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b02354a253cb81c164a02aba7c76ea7bfe504746a01fb719d41ec33cfe507f0a",
-      "text": "Let's take our engineer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c004dc40a8585fa24376b6754e8bd7d6d761183c75585ed7e2a29b056f242ff",
+      "sha256": [
+        "4c004dc40a8585fa24376b6754e8bd7d6d761183c75585ed7e2a29b056f242ff",
+        "b02354a253cb81c164a02aba7c76ea7bfe504746a01fb719d41ec33cfe507f0a"
+      ],
       "text": "Let's take our engineer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

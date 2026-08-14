@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_need_help_yellow_alt.mp3",
   "revisions": [
     {
-      "sha256": "0a10390260395b68b075a4adb33ebfa63a4a873f0d7d1fe8efd22cd433c200ab",
+      "sha256": [
+        "0a10390260395b68b075a4adb33ebfa63a4a873f0d7d1fe8efd22cd433c200ab"
+      ],
       "text": "Need help on your walk?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e77de674f18c347fc77212bc889a4e11d09fb0251d9da5067dd0e82fdfd9dd2b",
+      "sha256": [
+        "e77de674f18c347fc77212bc889a4e11d09fb0251d9da5067dd0e82fdfd9dd2b"
+      ],
       "text": "Need help on York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

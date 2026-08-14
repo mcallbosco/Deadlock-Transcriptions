@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "8a724e2c997e1dd23b8778a1099e4e758a08c21efcfb150149133cbf750ac551",
-      "text": "Yeah.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b64aefac1821990ac795bac77b8c663f59ff3bf29a092176bcc7e74494ec28eb",
-      "text": "Yeah.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6fa75aee2a889ee3a760f4e468dc05ee2ceb3b60dea6f6370c30d5e00a8f0e90",
+      "sha256": [
+        "6fa75aee2a889ee3a760f4e468dc05ee2ceb3b60dea6f6370c30d5e00a8f0e90",
+        "8a724e2c997e1dd23b8778a1099e4e758a08c21efcfb150149133cbf750ac551",
+        "b64aefac1821990ac795bac77b8c663f59ff3bf29a092176bcc7e74494ec28eb"
+      ],
       "text": "Yeah.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

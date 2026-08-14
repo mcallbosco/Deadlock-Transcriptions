@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_take_mid.mp3",
   "revisions": [
     {
-      "sha256": "43969d1ff22c54ba8b75dd1d42fb65da493ac01997b2884c2edd2b7105bb63bd",
+      "sha256": [
+        "43969d1ff22c54ba8b75dd1d42fb65da493ac01997b2884c2edd2b7105bb63bd"
+      ],
       "text": "Let's do it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3227b9175b82d061fd2c54b0c2db304ddc6326a75a2457eb109372d4930fedbc",
+      "sha256": [
+        "0b96531895b72ce6178e7e330bdca0f104be64c174b0654ebb9295fdb52c88c2",
+        "3227b9175b82d061fd2c54b0c2db304ddc6326a75a2457eb109372d4930fedbc"
+      ],
       "text": "Let's go, mate.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b96531895b72ce6178e7e330bdca0f104be64c174b0654ebb9295fdb52c88c2",
-      "text": "Let's go, mate.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5959caf8e982997a18697e2ef03cef95ae8d0d6e9beb2f20f93372cb3312eec2",
+      "sha256": [
+        "5959caf8e982997a18697e2ef03cef95ae8d0d6e9beb2f20f93372cb3312eec2"
+      ],
       "text": "Let's go mid",
       "source": "official"
     }

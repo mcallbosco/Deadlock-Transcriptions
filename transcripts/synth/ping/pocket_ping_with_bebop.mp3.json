@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "8ff0edf3c1533f272feb5bc0b43883e347aa3527d50b8f13bf8b5dca3b5c0959",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8889d9304c3ecc2582931de3da1702b70215bb30af6d94fe69d0d4ca3022b7a7",
+      "sha256": [
+        "8889d9304c3ecc2582931de3da1702b70215bb30af6d94fe69d0d4ca3022b7a7",
+        "8ff0edf3c1533f272feb5bc0b43883e347aa3527d50b8f13bf8b5dca3b5c0959"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

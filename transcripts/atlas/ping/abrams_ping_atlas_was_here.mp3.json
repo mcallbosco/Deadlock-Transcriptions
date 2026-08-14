@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_atlas_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ff020132753ab5e640ce0141d6d6bc7071ef219907812398ec3832ec960b78fd",
-      "text": "That list was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88cfc61298a9393963d73a9d53a30b12313cea44b7d7232457da948f5d4509f9",
+      "sha256": [
+        "88cfc61298a9393963d73a9d53a30b12313cea44b7d7232457da948f5d4509f9",
+        "ff020132753ab5e640ce0141d6d6bc7071ef219907812398ec3832ec960b78fd"
+      ],
       "text": "That list was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

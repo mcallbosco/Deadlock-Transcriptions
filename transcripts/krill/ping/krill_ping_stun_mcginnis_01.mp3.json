@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_stun_mcginnis_01.mp3",
   "revisions": [
     {
-      "sha256": "e55cf7208ae3168afa0e37dbc9553555adb87364354a34cb4ab164598ad30062",
-      "text": "Stop McGinnis!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4229e2db21d3b1b72b0e18b6537ef8815a777e7479e07f5c37ca77d95e68002",
+      "sha256": [
+        "e4229e2db21d3b1b72b0e18b6537ef8815a777e7479e07f5c37ca77d95e68002",
+        "e55cf7208ae3168afa0e37dbc9553555adb87364354a34cb4ab164598ad30062"
+      ],
       "text": "Stop McGinnis!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

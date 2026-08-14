@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_magician.mp3",
   "revisions": [
     {
-      "sha256": "2537ae2f7f18f70ed6991c91c1a0772d5c60d2e5e2a96ffc67f86b769c96f57f",
+      "sha256": [
+        "2537ae2f7f18f70ed6991c91c1a0772d5c60d2e5e2a96ffc67f86b769c96f57f"
+      ],
       "text": "What you think, player?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

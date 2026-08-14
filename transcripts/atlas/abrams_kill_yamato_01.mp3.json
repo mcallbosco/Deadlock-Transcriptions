@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "d82b00ffa8c42e76250180903e1a44c69f3d9975c1f77a8f2f84ca29077a389f",
+      "sha256": [
+        "01a64868fbbfd4c66a2d8f5fec0cbcb5896767972ad6ea0ff6cfc205c1cdaf78",
+        "d82b00ffa8c42e76250180903e1a44c69f3d9975c1f77a8f2f84ca29077a389f"
+      ],
       "text": "I'll put a stop to the Seventh Moon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01a64868fbbfd4c66a2d8f5fec0cbcb5896767972ad6ea0ff6cfc205c1cdaf78",
-      "text": "I'll put a stop to the seventh moon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

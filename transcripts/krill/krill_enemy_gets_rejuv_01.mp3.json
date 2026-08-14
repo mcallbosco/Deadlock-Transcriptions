@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_enemy_gets_rejuv_01.mp3",
   "revisions": [
     {
-      "sha256": "3acc6e113e41fd967256d8a2fcf28c3c9b5f9ad96bcec522a94c9d754a5bfd56",
+      "sha256": [
+        "3acc6e113e41fd967256d8a2fcf28c3c9b5f9ad96bcec522a94c9d754a5bfd56"
+      ],
       "text": "They got the retreat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aa5bccb878cb4d2daea9f9b276611dc176b226afc111a9912a4c3195ee70b76d",
+      "sha256": [
+        "aa5bccb878cb4d2daea9f9b276611dc176b226afc111a9912a4c3195ee70b76d",
+        "d884a46aedaec836893d222b1ed9e64ddd87685da7fba6ab44e25ff9b1bdc9ad"
+      ],
       "text": "They got the regen.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d884a46aedaec836893d222b1ed9e64ddd87685da7fba6ab44e25ff9b1bdc9ad",
-      "text": "They got the regen.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66fcd506b313dcf029b4cc3ee9d2c0c87cc10207949f92107ab3ba791ac5ff79",
+      "sha256": [
+        "66fcd506b313dcf029b4cc3ee9d2c0c87cc10207949f92107ab3ba791ac5ff79"
+      ],
       "text": "They got the rejuv!",
       "source": "official"
     }

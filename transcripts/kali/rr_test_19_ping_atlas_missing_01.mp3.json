@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "39647d397e087e0ded168871a84ca19bcf20806a06a5ecb4063c0635ed262282",
+      "sha256": [
+        "39647d397e087e0ded168871a84ca19bcf20806a06a5ecb4063c0635ed262282",
+        "4b121be7ef1d6870c47ec8a8fbeaca67717346ba8150039344cdc1328299c8b1"
+      ],
       "text": "This is easy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b121be7ef1d6870c47ec8a8fbeaca67717346ba8150039344cdc1328299c8b1",
-      "text": "This is easy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "793dedcda83ee050cd475be90cac32c65fb21cba3a1238c482d7a1109b463583",
+      "sha256": [
+        "793dedcda83ee050cd475be90cac32c65fb21cba3a1238c482d7a1109b463583"
+      ],
       "text": "This is it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

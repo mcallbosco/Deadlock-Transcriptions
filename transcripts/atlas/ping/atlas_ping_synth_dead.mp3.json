@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "2a2724a761037512010bcceafa2663027cecc937b3ee40fef5e6e9878e9c6af0",
+      "sha256": [
+        "2a2724a761037512010bcceafa2663027cecc937b3ee40fef5e6e9878e9c6af0"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

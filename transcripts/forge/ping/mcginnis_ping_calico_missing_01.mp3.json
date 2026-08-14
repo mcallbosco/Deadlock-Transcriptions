@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_calico_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f8a527a3ce2f95b38ff1515babfbe29d732dd13af1262240ffcf0817b350bf7c",
+      "sha256": [
+        "3123e4455abb581b015bbc748a917f74a386b94b849ad6af8bf914663a464b47",
+        "f8a527a3ce2f95b38ff1515babfbe29d732dd13af1262240ffcf0817b350bf7c"
+      ],
       "text": "Calico's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3123e4455abb581b015bbc748a917f74a386b94b849ad6af8bf914663a464b47",
-      "text": "Calico's missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

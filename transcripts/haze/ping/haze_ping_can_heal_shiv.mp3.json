@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_can_heal_shiv.mp3",
   "revisions": [
     {
-      "sha256": "30a1828bee519fbe75c6d5e89717f6911926a1957b6d3173332d5b75ae1cacb3",
+      "sha256": [
+        "30a1828bee519fbe75c6d5e89717f6911926a1957b6d3173332d5b75ae1cacb3",
+        "db12533526e87a87f2121d57efeafd1d37f3e037e1a575e852a19b4a563c5470",
+        "f0d802cbb65ea5400768e9952d210f305e5e8ec397a566626400bb19b7ce9839"
+      ],
       "text": "Chef, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7ecbea9e892cb3dab32afcb88fec8326717bb888d78361079a601705cdd60527",
+      "sha256": [
+        "7ecbea9e892cb3dab32afcb88fec8326717bb888d78361079a601705cdd60527"
+      ],
       "text": "Shit, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0d802cbb65ea5400768e9952d210f305e5e8ec397a566626400bb19b7ce9839",
-      "text": "Chef, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db12533526e87a87f2121d57efeafd1d37f3e037e1a575e852a19b4a563c5470",
-      "text": "Chef, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d4c2d65d8f8b1b6682ceceed8d1c9af2af93ca1ecfd0e1cc7b44d90f17a1adc",
+      "sha256": [
+        "7d4c2d65d8f8b1b6682ceceed8d1c9af2af93ca1ecfd0e1cc7b44d90f17a1adc"
+      ],
       "text": "Shiv, I can heal you!",
       "source": "official"
     }

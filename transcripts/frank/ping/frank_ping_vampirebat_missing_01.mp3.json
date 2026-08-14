@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_vampirebat_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5b01555ac4393eeb8624bcc783ebd883cea95690d96f43230cf63334a10aa095",
+      "sha256": [
+        "5b01555ac4393eeb8624bcc783ebd883cea95690d96f43230cf63334a10aa095"
+      ],
       "text": "The vampire's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "02924c24b7cc7bf9efb8b46ca15591ba34e8e3047cd9f67190bbdced35a6a633",
+      "sha256": [
+        "02924c24b7cc7bf9efb8b46ca15591ba34e8e3047cd9f67190bbdced35a6a633"
+      ],
       "text": "Mina's missing.",
       "source": "official"
     }

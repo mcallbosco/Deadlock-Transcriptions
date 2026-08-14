@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_vindicta_02.mp3",
   "revisions": [
     {
-      "sha256": "10dc598250a84f05e662fa06bb2887ac054df9f5194edc2696eab212f9929fda",
+      "sha256": [
+        "10dc598250a84f05e662fa06bb2887ac054df9f5194edc2696eab212f9929fda"
+      ],
       "text": "Careful, Vendetta!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "184fc3e2b3e5d0bbdee6f317ef3395a142dc745ecda9c76b7e9b76c8b48d7ccf",
+      "sha256": [
+        "184fc3e2b3e5d0bbdee6f317ef3395a142dc745ecda9c76b7e9b76c8b48d7ccf",
+        "976fd4bcd9531ce83ae494a5031054ffd5ff17d077e5f114504196a884a7a1f6"
+      ],
       "text": "Careful, Vindicta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "976fd4bcd9531ce83ae494a5031054ffd5ff17d077e5f114504196a884a7a1f6",
-      "text": "Careful, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

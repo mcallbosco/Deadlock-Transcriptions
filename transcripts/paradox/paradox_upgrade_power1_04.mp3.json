@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/paradox_upgrade_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "378175b590c19a8b41a7b310c330dd0127b869f0a6cee61cb5b8475be97b5bf7",
+      "sha256": [
+        "378175b590c19a8b41a7b310c330dd0127b869f0a6cee61cb5b8475be97b5bf7",
+        "6f2a2260961e865f99d699325b2101683157d85664acf0215710d6db5c3043c3"
+      ],
       "text": "Sometimes you need time tricks, other times you just need explosives.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f2a2260961e865f99d699325b2101683157d85664acf0215710d6db5c3043c3",
-      "text": "Sometimes you need time tricks. Other times, you just need explosives.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

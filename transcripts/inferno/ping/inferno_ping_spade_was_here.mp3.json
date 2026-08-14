@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_spade_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5afdabfa380162c7401d785c8831360370cea9a6e21fb307a187289e54833499",
-      "text": "Spade was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70caec4212426b229885f6abda579ab18fb008634fba12bb7edb8a6f590bd897",
+      "sha256": [
+        "5afdabfa380162c7401d785c8831360370cea9a6e21fb307a187289e54833499",
+        "70caec4212426b229885f6abda579ab18fb008634fba12bb7edb8a6f590bd897"
+      ],
       "text": "Spade was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

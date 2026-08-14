@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "3e71f9b3e02770f8cd46c545844c75bf14bd702ccc6680496db83088fb66c0af",
+      "sha256": [
+        "3e71f9b3e02770f8cd46c545844c75bf14bd702ccc6680496db83088fb66c0af",
+        "d8c2275dbdda43526ebf2d6268f945c2e73ed215bdc62d5d933b83f38f1b86d3"
+      ],
       "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d8c2275dbdda43526ebf2d6268f945c2e73ed215bdc62d5d933b83f38f1b86d3",
-      "text": "Let's go, Yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

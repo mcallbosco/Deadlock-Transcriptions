@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_druid_01.mp3",
   "revisions": [
     {
-      "sha256": "da2159e653c4a2826cde317419af4b3012b34af6bf10eb44a84f4fbd61c84233",
-      "text": "I see the druid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58b3e7a4dabd22a71734b3e765d1567fecb0bd5deb9a404f387e52fbec449f7a",
+      "sha256": [
+        "58b3e7a4dabd22a71734b3e765d1567fecb0bd5deb9a404f387e52fbec449f7a",
+        "da2159e653c4a2826cde317419af4b3012b34af6bf10eb44a84f4fbd61c84233"
+      ],
       "text": "I see the druid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

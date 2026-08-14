@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_viscous.mp3",
   "revisions": [
     {
-      "sha256": "97f405a1cda7e10322d294a45f542f815f20afac435b3a29513362d7e370c14b",
+      "sha256": [
+        "97f405a1cda7e10322d294a45f542f815f20afac435b3a29513362d7e370c14b"
+      ],
       "text": "I saw this chest.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b3f9bc815d7fb27d2c3ae82adecbd9b9e7c3c30706543e23d3ca65df87a73781",
-      "text": "I saw this",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "500b311c1e4b98fc6c8ea6166fa6d20382641ff9fcde5bc3e1c8ff295393c46e",
+      "sha256": [
+        "500b311c1e4b98fc6c8ea6166fa6d20382641ff9fcde5bc3e1c8ff295393c46e",
+        "b3f9bc815d7fb27d2c3ae82adecbd9b9e7c3c30706543e23d3ca65df87a73781"
+      ],
       "text": "I saw this",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

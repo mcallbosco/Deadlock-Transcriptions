@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_zealot_back_01.mp3",
   "revisions": [
     {
-      "sha256": "56b14ba4a17ac59d8b07ed8e2d56b721bc810ca609bdb9e88406b4df24836b03",
-      "text": "Sally, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a7f24aa92acbce98d4cfac7ce9d0d2a5fad5da96600cf2266f6f41d7984e587",
-      "text": "Sally, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58d5afe03b7a34a069c566ef0a9382b9861eaf77143f127d8728e73c6a905e8b",
+      "sha256": [
+        "3a7f24aa92acbce98d4cfac7ce9d0d2a5fad5da96600cf2266f6f41d7984e587",
+        "56b14ba4a17ac59d8b07ed8e2d56b721bc810ca609bdb9e88406b4df24836b03",
+        "58d5afe03b7a34a069c566ef0a9382b9861eaf77143f127d8728e73c6a905e8b"
+      ],
       "text": "Sally, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

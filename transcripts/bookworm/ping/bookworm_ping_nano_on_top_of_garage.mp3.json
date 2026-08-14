@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_nano_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "92d68c172bd0907f44fa8353860b18a871511a27cbce7b1086da1246deb65159",
-      "text": "Calico's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "83460d648ba7e0a522f1fddb2292c9cf87dbf5621e940719075361f299290166",
+      "sha256": [
+        "83460d648ba7e0a522f1fddb2292c9cf87dbf5621e940719075361f299290166",
+        "92d68c172bd0907f44fa8353860b18a871511a27cbce7b1086da1246deb65159"
+      ],
       "text": "Calico's on top of the garage!",
       "source": "official"
     }

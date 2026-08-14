@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_gigawatt_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "5d6949f899b6c61c7e1ad48cddcc8af5cbde1e88958869efaa05263d7f0531f2",
-      "text": "Seven's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f0039e86353c71db98ccdaf04f8efb52319dcff31740f95ed34a400b075585d",
+      "sha256": [
+        "4f0039e86353c71db98ccdaf04f8efb52319dcff31740f95ed34a400b075585d",
+        "5d6949f899b6c61c7e1ad48cddcc8af5cbde1e88958869efaa05263d7f0531f2"
+      ],
       "text": "Seven's on the roof!",
       "source": "official"
     }

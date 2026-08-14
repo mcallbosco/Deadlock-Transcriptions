@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_tengu_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "4a9f9e2dc489847905444e63e48a3f2c56674beaf6475c33b1242c63920bc5df",
+      "sha256": [
+        "4a9f9e2dc489847905444e63e48a3f2c56674beaf6475c33b1242c63920bc5df"
+      ],
       "text": "Hivey's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5c54f78f4b4dc1c26eeecca925c257560e30bf676206ea1ab2bf6f4ffe4b6c94",
-      "text": "Ivy's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3e47f4d72bb5d53721e7170d4fbb629f0917f9fba9aeebe0138efe42a0df2f6",
-      "text": "Ivy's on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "512280cbe0bc9b7015f4c0a47ed4b3f56ef572f80d70f9caa9021697ec9cf52d",
+      "sha256": [
+        "512280cbe0bc9b7015f4c0a47ed4b3f56ef572f80d70f9caa9021697ec9cf52d",
+        "5c54f78f4b4dc1c26eeecca925c257560e30bf676206ea1ab2bf6f4ffe4b6c94",
+        "d3e47f4d72bb5d53721e7170d4fbb629f0917f9fba9aeebe0138efe42a0df2f6"
+      ],
       "text": "ivy's on top of mid!",
       "source": "official"
     }

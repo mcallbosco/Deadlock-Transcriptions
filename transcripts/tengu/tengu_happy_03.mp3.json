@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_happy_03.mp3",
   "revisions": [
     {
-      "sha256": "dc42ae0cc3fefd91db7849c6a5b1fd78a768b553d972cce7bc8d0d854c1da8ee",
+      "sha256": [
+        "dc42ae0cc3fefd91db7849c6a5b1fd78a768b553d972cce7bc8d0d854c1da8ee",
+        "e0fc66938513c3322a7bb20e2f8308e43f6707fc3cf83ed1878cfaec304ff3a3"
+      ],
       "text": "I knew this was going to work out.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e0fc66938513c3322a7bb20e2f8308e43f6707fc3cf83ed1878cfaec304ff3a3",
-      "text": "I knew this was going to work out!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

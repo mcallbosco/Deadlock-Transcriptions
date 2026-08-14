@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_punkgoat_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1c980833f70e5966dca4c49aecbe69234c9cb6bb3961765b7ae3c618e4304eff",
+      "sha256": [
+        "1c980833f70e5966dca4c49aecbe69234c9cb6bb3961765b7ae3c618e4304eff"
+      ],
       "text": "Billy was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

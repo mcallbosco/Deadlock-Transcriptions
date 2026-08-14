@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_careful_infernus_01.mp3",
   "revisions": [
     {
-      "sha256": "376dc5db5c5ef87b9fb4ae45e060adf3c19f17e9c2ca0376efeb422b27d3753f",
+      "sha256": [
+        "376dc5db5c5ef87b9fb4ae45e060adf3c19f17e9c2ca0376efeb422b27d3753f"
+      ],
       "text": "That's the furnace.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ca1ebe1da510fbbb7728dd3a26c5e633204e12649349220f6873da26827024ab",
+      "sha256": [
+        "ca1ebe1da510fbbb7728dd3a26c5e633204e12649349220f6873da26827024ab"
+      ],
       "text": "This is the furnace.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

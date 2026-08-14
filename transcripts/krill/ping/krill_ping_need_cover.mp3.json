@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "3ad6546bb78f04add539124da3faabf268593399bddfdad8ad9ee14d8e655111",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "292bc09f922432b61dc22a42d24c5bd380db4aeb461e2a71ec4db331fa7ec48f",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d6d5af094263907c2379992182ccc49dcd59277230784c04476b7c84f423c11",
+      "sha256": [
+        "292bc09f922432b61dc22a42d24c5bd380db4aeb461e2a71ec4db331fa7ec48f",
+        "3ad6546bb78f04add539124da3faabf268593399bddfdad8ad9ee14d8e655111",
+        "3d6d5af094263907c2379992182ccc49dcd59277230784c04476b7c84f423c11"
+      ],
       "text": "Cover me",
       "source": "official"
     }

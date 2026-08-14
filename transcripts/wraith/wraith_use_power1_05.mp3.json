@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_use_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "20415fffc8b496dd2918a971bca57511d5d815ffd1f37580bb14f39ab6b3d8b1",
+      "sha256": [
+        "20415fffc8b496dd2918a971bca57511d5d815ffd1f37580bb14f39ab6b3d8b1"
+      ],
       "text": "I almost missed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "995f633a96951e1eb25a7a29623deae317a7dd3c920a2bb87f1b1855010a8312",
+      "sha256": [
+        "3b48ba38f9aaac1cd81e9768cc7f0b1133c1fdbe534b9a6b8bb58bf51e80d7d3",
+        "995f633a96951e1eb25a7a29623deae317a7dd3c920a2bb87f1b1855010a8312"
+      ],
       "text": "I am this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3b48ba38f9aaac1cd81e9768cc7f0b1133c1fdbe534b9a6b8bb58bf51e80d7d3",
-      "text": "I am this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf53f5cf568dc89249a1e08391eda75505eef0e388276865213fae42b36ca3ba",
+      "sha256": [
+        "cf53f5cf568dc89249a1e08391eda75505eef0e388276865213fae42b36ca3ba"
+      ],
       "text": "I don't miss.",
       "source": "official"
     }

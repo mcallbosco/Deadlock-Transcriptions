@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_nano_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "69e6d00e9aaf4e1c6736d6129c35219525011cf93698e64410dfad8a95324ba8",
+      "sha256": [
+        "69e6d00e9aaf4e1c6736d6129c35219525011cf93698e64410dfad8a95324ba8"
+      ],
       "text": "Calcode is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "093acefadbe02c1a93f4e0aa64670c7d4468b391fba5950bb9f882788e9965f3",
+      "sha256": [
+        "093acefadbe02c1a93f4e0aa64670c7d4468b391fba5950bb9f882788e9965f3"
+      ],
       "text": "Calico's missing.",
       "source": "official"
     }

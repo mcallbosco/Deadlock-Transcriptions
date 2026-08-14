@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_many_assists_by_synth.mp3",
   "revisions": [
     {
-      "sha256": "f6bc2b5e935b9835edfee62c08743b814dac4e59d138f0a54ec3ee259d6aa4ea",
+      "sha256": [
+        "f6bc2b5e935b9835edfee62c08743b814dac4e59d138f0a54ec3ee259d6aa4ea"
+      ],
       "text": "Your humility is noted, Pocket, but you deserve a claim for your help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6e726b65fd325f9b995a5f3d2e552067008c629245fd7d313599402bf8d1fe35",
+      "sha256": [
+        "6e726b65fd325f9b995a5f3d2e552067008c629245fd7d313599402bf8d1fe35"
+      ],
       "text": "Your humility is noted Pocket, but you deserve acclaim for your help",
       "source": "official"
     }

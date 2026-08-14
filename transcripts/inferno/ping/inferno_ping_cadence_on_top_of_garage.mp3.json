@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_cadence_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "c1c495502d4c50f279a017c2bf49ff5e3ba5867935e94202231a468f1e17e434",
+      "sha256": [
+        "48747578d43ce09b60b3e1ea78d02429313718fd3da5aa558aa6752d9aae5e66",
+        "c1c495502d4c50f279a017c2bf49ff5e3ba5867935e94202231a468f1e17e434"
+      ],
       "text": "Cadence is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9316d9323dac65b53b14ad27ac038b4eb0c21b42482c6043dabc491cda616c0",
+      "sha256": [
+        "b9316d9323dac65b53b14ad27ac038b4eb0c21b42482c6043dabc491cda616c0"
+      ],
       "text": "Kade is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48747578d43ce09b60b3e1ea78d02429313718fd3da5aa558aa6752d9aae5e66",
-      "text": "Cadence is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_see_bookworm_01.mp3",
   "revisions": [
     {
-      "sha256": "3f2f2a9934b8b3c3e35ae983acb5b87f6ff24d2ee2f6ff96eb0ab95318a10d4b",
+      "sha256": [
+        "3f2f2a9934b8b3c3e35ae983acb5b87f6ff24d2ee2f6ff96eb0ab95318a10d4b"
+      ],
       "text": "I see Paige.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

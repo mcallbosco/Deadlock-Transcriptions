@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_attack_enemy.mp3",
   "revisions": [
     {
-      "sha256": "804b35c36269ffc8fa9daed777bb9a53777358ea70d8e7d77778dbf602e76110",
-      "text": "Let's take out the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abbbcc5264a741d94710eed76c62556ff197cc3fecbc2ed912c44cedc49cd0a0",
-      "text": "Let's take out the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55802742e1af9ce97c55138115849933bf9fdca6566e4a2d4d14bef8d6752e2b",
+      "sha256": [
+        "55802742e1af9ce97c55138115849933bf9fdca6566e4a2d4d14bef8d6752e2b",
+        "804b35c36269ffc8fa9daed777bb9a53777358ea70d8e7d77778dbf602e76110",
+        "abbbcc5264a741d94710eed76c62556ff197cc3fecbc2ed912c44cedc49cd0a0"
+      ],
       "text": "Let's take out the enemy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

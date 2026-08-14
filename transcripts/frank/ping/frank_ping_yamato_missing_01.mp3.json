@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "db6958630059e136fa012b38e8de847665b3a1809e47a7448a122bf8515567a1",
+      "sha256": [
+        "db6958630059e136fa012b38e8de847665b3a1809e47a7448a122bf8515567a1"
+      ],
       "text": "Yammer was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7abe717768fbcfa94414930251ea395b6b29bc558c05b88845839d31ccdaecfa",
+      "sha256": [
+        "7abe717768fbcfa94414930251ea395b6b29bc558c05b88845839d31ccdaecfa"
+      ],
       "text": "Yamato's missing.",
       "source": "official"
     }

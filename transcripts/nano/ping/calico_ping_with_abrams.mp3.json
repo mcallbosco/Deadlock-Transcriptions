@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_with_abrams.mp3",
   "revisions": [
     {
-      "sha256": "284c70371e1055b3b529a654b99a3cb7b09b825969587bbddbdd3d6ee63dde3e",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d87bbca74f73423c492438434fc77544778f14c89dac82175775a483f0edc3b4",
+      "sha256": [
+        "284c70371e1055b3b529a654b99a3cb7b09b825969587bbddbdd3d6ee63dde3e",
+        "d87bbca74f73423c492438434fc77544778f14c89dac82175775a483f0edc3b4"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

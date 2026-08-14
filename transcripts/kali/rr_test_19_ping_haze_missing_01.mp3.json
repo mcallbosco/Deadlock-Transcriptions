@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "77a98923a0ffcc80bd4e01662e611b34182708361e7a5f77aa5b30a5e3f533d6",
-      "text": "Haze is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "656632bd463ff3a4193256c5c4d1f131455de23c4a27985a81886ac7b4aa208d",
-      "text": "Haze is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31951d205199a8a48480f85b7d63c5f1347cfcbd721d65fdf8fde8e208353260",
+      "sha256": [
+        "31951d205199a8a48480f85b7d63c5f1347cfcbd721d65fdf8fde8e208353260",
+        "656632bd463ff3a4193256c5c4d1f131455de23c4a27985a81886ac7b4aa208d",
+        "77a98923a0ffcc80bd4e01662e611b34182708361e7a5f77aa5b30a5e3f533d6"
+      ],
       "text": "Haze is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

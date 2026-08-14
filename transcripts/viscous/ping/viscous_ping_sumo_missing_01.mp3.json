@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_sumo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d543b700642730c4d253fa2064d8d323ff899c36160d03f7127910252349d146",
+      "sha256": [
+        "d543b700642730c4d253fa2064d8d323ff899c36160d03f7127910252349d146"
+      ],
       "text": "Simmer is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

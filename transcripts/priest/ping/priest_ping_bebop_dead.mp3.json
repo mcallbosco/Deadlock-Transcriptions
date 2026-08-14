@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_bebop_dead.mp3",
   "revisions": [
     {
-      "sha256": "f5e07375be0d5e01b4dbdb52f77e5c2bf66d407e80ec53b2aa3bbfc90db54aad",
-      "text": "Bebop is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd46318f53fbf92d1a0492d6a15c9bc20fc732455c277945e8d30f52f8ebbbd3",
+      "sha256": [
+        "dd46318f53fbf92d1a0492d6a15c9bc20fc732455c277945e8d30f52f8ebbbd3",
+        "f5e07375be0d5e01b4dbdb52f77e5c2bf66d407e80ec53b2aa3bbfc90db54aad"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

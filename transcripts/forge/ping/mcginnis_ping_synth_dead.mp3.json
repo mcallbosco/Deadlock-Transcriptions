@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "f98f09061efc4e3a47c7651c50c7dd90eaaf586d58a6201e80c1e580be1f92e5",
-      "text": "Pocket is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5957864344abf869d4dd813e9620513588df8b006892380bbb552da6fc87404a",
+      "sha256": [
+        "5957864344abf869d4dd813e9620513588df8b006892380bbb552da6fc87404a",
+        "f98f09061efc4e3a47c7651c50c7dd90eaaf586d58a6201e80c1e580be1f92e5"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

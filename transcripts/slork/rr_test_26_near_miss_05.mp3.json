@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_near_miss_05.mp3",
   "revisions": [
     {
-      "sha256": "c7c416d90f3155c780f6b86b7ce5ea46069ff7e5b53745dc0d179d16de4219bb",
+      "sha256": [
+        "c7c416d90f3155c780f6b86b7ce5ea46069ff7e5b53745dc0d179d16de4219bb"
+      ],
       "text": "Call me again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "30ba05c1b71c709246087fee77a1548f5810b17973bedcda6e20e0f6087afdc0",
+      "sha256": [
+        "30ba05c1b71c709246087fee77a1548f5810b17973bedcda6e20e0f6087afdc0"
+      ],
       "text": "Me again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

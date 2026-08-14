@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "bd9168e877e4eb4dbf0881aa4c02db440c5198bac3a87e3298f14fa289e9601e",
-      "text": "Careful, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3e7834254768e5b03b0c4b9c3094c2f564c76b4f0ec5559e1c562729cd1fb2b",
+      "sha256": [
+        "bd9168e877e4eb4dbf0881aa4c02db440c5198bac3a87e3298f14fa289e9601e",
+        "e3e7834254768e5b03b0c4b9c3094c2f564c76b4f0ec5559e1c562729cd1fb2b"
+      ],
       "text": "Careful, Viscous.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

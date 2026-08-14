@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/countup_01_01.mp3",
   "revisions": [
     {
-      "sha256": "e23dd2ceffcedf94fc31e5dd90d86d6193e227dcc35d197259ffaa9e9c20bc37",
+      "sha256": [
+        "e23dd2ceffcedf94fc31e5dd90d86d6193e227dcc35d197259ffaa9e9c20bc37"
+      ],
       "text": "==== Transcription by www.subsedit.com ====",
       "source": "generated",
       "model": "whisper-1"
     },
     {
-      "sha256": "463d84d5c322dd0ad2319db8505762637a88383ab7bc7cab0ab1a1c573cbb33e",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dafab266843eda44b862882c39f0d09fe65514ad313d3cbc3e48bd823b432d82",
+      "sha256": [
+        "463d84d5c322dd0ad2319db8505762637a88383ab7bc7cab0ab1a1c573cbb33e",
+        "dafab266843eda44b862882c39f0d09fe65514ad313d3cbc3e48bd823b432d82"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

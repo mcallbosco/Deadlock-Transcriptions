@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "2ecc43fd964df992a7c939dfea52a9391d597770a5dd4eb28de3988e3d1816db",
-      "text": "We work well together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a760ad899ab4764778c471e1b071f00269c4da9d29c494f8e68d3b257b65c3a",
-      "text": "We work well together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a54354c0f0b598f7dd31e2b52b0d6f907f5919383229626a533f6d0d3e8bd916",
-      "text": "We work well together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de30710358b576ce26bd3ce6e33f8acaae4a09f66fd28c6e6c91300ff927b7de",
+      "sha256": [
+        "1a760ad899ab4764778c471e1b071f00269c4da9d29c494f8e68d3b257b65c3a",
+        "2ecc43fd964df992a7c939dfea52a9391d597770a5dd4eb28de3988e3d1816db",
+        "a54354c0f0b598f7dd31e2b52b0d6f907f5919383229626a533f6d0d3e8bd916",
+        "de30710358b576ce26bd3ce6e33f8acaae4a09f66fd28c6e6c91300ff927b7de"
+      ],
       "text": "We work well together…",
       "source": "official"
     }

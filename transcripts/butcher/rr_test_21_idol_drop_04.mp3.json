@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_idol_drop_04.mp3",
   "revisions": [
     {
-      "sha256": "52e834a9685957c3580df71e2b008c232aa68c57e03047dd9ea135d05d885f7c",
-      "text": "Let's get that money.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6d0e27f15d9d1cc8e4fde2c1c8104497c3b750722b4be4fc56a6da939af921b",
-      "text": "Let's get that money.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "149ddf7a398538fb3b80e159b5ce6f20d0cb3b94e425ad21fd0b188f4bcf1c18",
+      "sha256": [
+        "149ddf7a398538fb3b80e159b5ce6f20d0cb3b94e425ad21fd0b188f4bcf1c18",
+        "52e834a9685957c3580df71e2b008c232aa68c57e03047dd9ea135d05d885f7c",
+        "a6d0e27f15d9d1cc8e4fde2c1c8104497c3b750722b4be4fc56a6da939af921b"
+      ],
       "text": "Let's get that money.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

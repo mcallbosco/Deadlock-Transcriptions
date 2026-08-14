@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "4d15188d0c63861f4b8e519921d791fb267f5510740376806c09482c49bea56f",
-      "text": "Careful, Nano!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86820bad20e30e1ac395d7b316864595eb6c8be48da90fb0aecb8fd2e95c1f5b",
-      "text": "Careful, Nano.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbfce23c17391d45a329c9ac507d7d6532f343aabd43ae8d8c16f4f919d7c004",
+      "sha256": [
+        "4d15188d0c63861f4b8e519921d791fb267f5510740376806c09482c49bea56f",
+        "86820bad20e30e1ac395d7b316864595eb6c8be48da90fb0aecb8fd2e95c1f5b",
+        "bbfce23c17391d45a329c9ac507d7d6532f343aabd43ae8d8c16f4f919d7c004"
+      ],
       "text": "Careful, Nano.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

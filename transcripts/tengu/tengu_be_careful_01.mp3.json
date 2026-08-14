@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_be_careful_01.mp3",
   "revisions": [
     {
-      "sha256": "b7165616a0bbca1c80b53db138e706b910ff16cdeb1a9634b4eafaae8b6d71d5",
-      "text": "They could be anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "42d6428280c46f1f8c3648488b64f69eb095d3692319a3cbbd5ec8afef37f490",
+      "sha256": [
+        "42d6428280c46f1f8c3648488b64f69eb095d3692319a3cbbd5ec8afef37f490",
+        "b7165616a0bbca1c80b53db138e706b910ff16cdeb1a9634b4eafaae8b6d71d5"
+      ],
       "text": "They could be anywhere...",
       "source": "official"
     }

@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_stun_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "90bb7d4a489bdcb4c89bcf84af5790dfebe2be5375426b83fb4f8fac9c4b85c7",
+      "sha256": [
+        "90bb7d4a489bdcb4c89bcf84af5790dfebe2be5375426b83fb4f8fac9c4b85c7"
+      ],
       "text": "Stop your mouth!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7e659041841b0b97df04e767ecbfa01b499c2e0e2ef59c4b7e4922d399a4a83d",
+      "sha256": [
+        "2f62c8cbc4bda8be01945ce26a78c55802f2a5dc4554c7c1ab559c1b0983976c",
+        "7e659041841b0b97df04e767ecbfa01b499c2e0e2ef59c4b7e4922d399a4a83d"
+      ],
       "text": "Son Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ffe8afe27f528b639ec8dfec6cdfb53c24669f28ce531051e7200b5efc3b1df4",
+      "sha256": [
+        "ffe8afe27f528b639ec8dfec6cdfb53c24669f28ce531051e7200b5efc3b1df4"
+      ],
       "text": "Stron Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f62c8cbc4bda8be01945ce26a78c55802f2a5dc4554c7c1ab559c1b0983976c",
-      "text": "Son Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

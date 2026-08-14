@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_ally_kelvin_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "1caae0a71be009efbdcd7a48bab252689ba1aae3c3b5c9592b79e3998118f072",
+      "sha256": [
+        "1caae0a71be009efbdcd7a48bab252689ba1aae3c3b5c9592b79e3998118f072"
+      ],
       "text": "Did you kill Kelvin?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d37f78671e794f8ba6cd9e1bd39271bd18de5586969b43c967f5da041e400fc3",
+      "sha256": [
+        "d37f78671e794f8ba6cd9e1bd39271bd18de5586969b43c967f5da041e400fc3"
+      ],
       "text": "They took out Kelvin!",
       "source": "official"
     }

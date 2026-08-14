@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_use_power4_03_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "55912d02e92b0a445ab9e6288b7ef60696bdfcb5555a15484fd03f73c1c162f8",
+      "sha256": [
+        "55912d02e92b0a445ab9e6288b7ef60696bdfcb5555a15484fd03f73c1c162f8",
+        "9bd555b445d97b6b185589d666f540a43a8e08d2b874cd89aca4e5af1cb824af"
+      ],
       "text": "Woo-hoo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9bd555b445d97b6b185589d666f540a43a8e08d2b874cd89aca4e5af1cb824af",
-      "text": "Woohoo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

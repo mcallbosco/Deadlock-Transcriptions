@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_sell_upgrade_07.mp3",
   "revisions": [
     {
-      "sha256": "391e766f782f60cd82b54a85f04b40d1812617c863764e9dd699a8f86d2d401f",
+      "sha256": [
+        "391e766f782f60cd82b54a85f04b40d1812617c863764e9dd699a8f86d2d401f"
+      ],
       "text": "Keep this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6c621b263d2f83532139e1cbd4a50991e408cbdf6555322c9841f7b8f0c1de6c",
+      "sha256": [
+        "6c621b263d2f83532139e1cbd4a50991e408cbdf6555322c9841f7b8f0c1de6c",
+        "80c24bafde7d51f353eedcd9097efea540af05c51fd543a8d4cb0df15b4dfb27"
+      ],
       "text": "Take this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80c24bafde7d51f353eedcd9097efea540af05c51fd543a8d4cb0df15b4dfb27",
-      "text": "Take this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

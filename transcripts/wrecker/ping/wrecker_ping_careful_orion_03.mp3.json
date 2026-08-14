@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_orion_03.mp3",
   "revisions": [
     {
-      "sha256": "a5a0e7c5466dd7a3d09c38e8e3ce14f7a6ec0e7dae32a4ded420b6845a01cc14",
-      "text": "Careful, Orion!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0522fb3b7e5b81b69ba5764c53ea2b8e6b5174ad3a6b1218525e2ba5445ff260",
+      "sha256": [
+        "0522fb3b7e5b81b69ba5764c53ea2b8e6b5174ad3a6b1218525e2ba5445ff260",
+        "a5a0e7c5466dd7a3d09c38e8e3ce14f7a6ec0e7dae32a4ded420b6845a01cc14"
+      ],
       "text": "Careful, Orion!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

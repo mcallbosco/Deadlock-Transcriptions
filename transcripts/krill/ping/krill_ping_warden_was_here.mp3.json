@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4d509061b9f4d83819b20f3cbb7304a810c354f6ecd21bb5793ff57d1d9e2ab4",
+      "sha256": [
+        "484fdc3275faf616e87f06bbaa3a34fbd07e1419a6ed72d886bd55a696b37e5a",
+        "4d509061b9f4d83819b20f3cbb7304a810c354f6ecd21bb5793ff57d1d9e2ab4"
+      ],
       "text": "Gordon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "484fdc3275faf616e87f06bbaa3a34fbd07e1419a6ed72d886bd55a696b37e5a",
-      "text": "Gordon was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de8a1758809d9029afaf7a0fbf9daaa33a3ad680a9a4245ea284d9dcad91ae0b",
+      "sha256": [
+        "de8a1758809d9029afaf7a0fbf9daaa33a3ad680a9a4245ea284d9dcad91ae0b"
+      ],
       "text": "Gooden was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "36202a43799cf38443e4d2b31a74f0bcc6abef3410a980e0b2ae337ce8b400e6",
+      "sha256": [
+        "36202a43799cf38443e4d2b31a74f0bcc6abef3410a980e0b2ae337ce8b400e6"
+      ],
       "text": "This ain't gonna end some fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c0729291718a7cd7d727c6dad55354d1f5315abc657c269304bc99ad9136c806",
+      "sha256": [
+        "c0729291718a7cd7d727c6dad55354d1f5315abc657c269304bc99ad9136c806"
+      ],
       "text": "This thing'll end some fights…",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_tengu_03.mp3",
   "revisions": [
     {
-      "sha256": "5634f88b0070bdc014569e9c137ec933624668796dd3853d6f577c5e7ee38845",
-      "text": "Careful, Ivy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b63feed3d1d653a0a1f5ec848f7965171b7335494f14bf6e42c0665ed75ad45",
-      "text": "Careful, Ivy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5353f84fb22e5c4ef1f17774a86c8cb3e440ec18fa35cfde09a52ffb68497531",
+      "sha256": [
+        "5353f84fb22e5c4ef1f17774a86c8cb3e440ec18fa35cfde09a52ffb68497531",
+        "5634f88b0070bdc014569e9c137ec933624668796dd3853d6f577c5e7ee38845",
+        "5b63feed3d1d653a0a1f5ec848f7965171b7335494f14bf6e42c0665ed75ad45"
+      ],
       "text": "Careful, ivy!",
       "source": "official"
     }

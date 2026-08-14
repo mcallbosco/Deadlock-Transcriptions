@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power4_04.mp3",
   "revisions": [
     {
-      "sha256": "34bff84cac63b4fe6e11b7acb24bcff871307afae87640f51274e2ce78b81e06",
+      "sha256": [
+        "34bff84cac63b4fe6e11b7acb24bcff871307afae87640f51274e2ce78b81e06"
+      ],
       "text": "That this is a proper laser.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8da4b8276bacca2fbe1ab5d7eb5aae09751776e9710645fcb1b598d616aa0fa7",
+      "sha256": [
+        "8da4b8276bacca2fbe1ab5d7eb5aae09751776e9710645fcb1b598d616aa0fa7"
+      ],
       "text": "Now THIS is a proper laser.",
       "source": "official"
     }

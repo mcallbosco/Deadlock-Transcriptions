@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "d9ca3e5d2b2a2da6df82f6248a617f655268797885182b60ed1969d617f37cf1",
+      "sha256": [
+        "d9ca3e5d2b2a2da6df82f6248a617f655268797885182b60ed1969d617f37cf1",
+        "f8988855bd70e15691db9e43614f3f91aae736d6d9fb23affc0fbfc1855c83f1"
+      ],
       "text": "Well played.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f8988855bd70e15691db9e43614f3f91aae736d6d9fb23affc0fbfc1855c83f1",
-      "text": "Well played!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48ee5c7d9367900943765b43c367b38de9412e2ca6c1dea80b16ca6617ee2ecb",
+      "sha256": [
+        "48ee5c7d9367900943765b43c367b38de9412e2ca6c1dea80b16ca6617ee2ecb"
+      ],
       "text": "Robade!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

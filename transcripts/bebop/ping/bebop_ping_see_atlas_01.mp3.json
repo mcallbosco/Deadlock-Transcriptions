@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "e70191fde6259b50bfb84f1363e7743f367bd4ecba83677323f29f024dd1e4f2",
+      "sha256": [
+        "e70191fde6259b50bfb84f1363e7743f367bd4ecba83677323f29f024dd1e4f2"
+      ],
       "text": "I'll see you cybers.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "34ade3928d7f8f5a2e9b1ae6c750f6b5f78386435a737cec36bbff2c3f8841d3",
+      "sha256": [
+        "34ade3928d7f8f5a2e9b1ae6c750f6b5f78386435a737cec36bbff2c3f8841d3"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

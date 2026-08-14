@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_tower_got_denied_03.mp3",
   "revisions": [
     {
-      "sha256": "11e92874089b0cc99d693a2a36ad721a22896ebd1acb2ad77f137f45f9ba94ee",
-      "text": "We keep this up, it'll be over soon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "550b98f2b5925c7d2ad57413719a8960b83a31a91d92e5dc572695440b2ebd21",
-      "text": "If we keep this up, it'll be over soon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1770a82e487b1b728371ff12bfd77fb647fccfd2054b9047eec8866df3b831c5",
-      "text": "If we keep this up, it'll be over soon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc7e324d9cd67a35b08beaaa130bb930c47d7aaeeefe1c5e90314b768142f37e",
+      "sha256": [
+        "11e92874089b0cc99d693a2a36ad721a22896ebd1acb2ad77f137f45f9ba94ee",
+        "cc7e324d9cd67a35b08beaaa130bb930c47d7aaeeefe1c5e90314b768142f37e"
+      ],
       "text": "We keep this up it'll be over soon",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "1770a82e487b1b728371ff12bfd77fb647fccfd2054b9047eec8866df3b831c5",
+        "550b98f2b5925c7d2ad57413719a8960b83a31a91d92e5dc572695440b2ebd21"
+      ],
+      "text": "If we keep this up, it'll be over soon.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "2013315025897586bac15121d1268e82b8f7f9838afe88cec6cb8b0f051cd59b",
-      "text": "Good job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a68a7bc4d456196ecdd3e8a91ac87296d976bc1852c1fe168a32612da754881d",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "008d9f4d482224334c8de647fa263d9199c973038b7357c7f3e726357d3061eb",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dea3bb0d823a5522064a7eeeab889a4d9ee14cd99c8b4f39fec949364d125257",
+      "sha256": [
+        "008d9f4d482224334c8de647fa263d9199c973038b7357c7f3e726357d3061eb",
+        "2013315025897586bac15121d1268e82b8f7f9838afe88cec6cb8b0f051cd59b",
+        "a68a7bc4d456196ecdd3e8a91ac87296d976bc1852c1fe168a32612da754881d",
+        "dea3bb0d823a5522064a7eeeab889a4d9ee14cd99c8b4f39fec949364d125257"
+      ],
       "text": "Good job.",
       "source": "official"
     }

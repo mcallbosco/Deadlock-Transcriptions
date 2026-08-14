@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_tech_purge_02.mp3",
   "revisions": [
     {
-      "sha256": "eed92f036842a721dbd1999e1e134f94410cdbb5402f7ffcb3066fe267465974",
-      "text": "Gotta push through.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc0efe9c923e1c1bda8a7cdafc7a5fe109427472d36af97ba9ef56332f6c5b03",
-      "text": "Gotta push through.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3004b4381edbe09ec23cd58ca52b53dfbe4f83e8f03ebfa0d2cc355dffb751c0",
+      "sha256": [
+        "3004b4381edbe09ec23cd58ca52b53dfbe4f83e8f03ebfa0d2cc355dffb751c0",
+        "eed92f036842a721dbd1999e1e134f94410cdbb5402f7ffcb3066fe267465974",
+        "fc0efe9c923e1c1bda8a7cdafc7a5fe109427472d36af97ba9ef56332f6c5b03"
+      ],
       "text": "Gotta push through.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

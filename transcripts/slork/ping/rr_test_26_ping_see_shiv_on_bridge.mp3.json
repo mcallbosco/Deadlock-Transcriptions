@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_shiv_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "97e19f0356cc643a0c6881276a1b819aacec6994ce39b486ffec5683e8043c94",
-      "text": "Ships on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "948e8634cfca726a0fd610160321c9c736bc9f73f769f3a4521bb10d52ccb091",
+      "sha256": [
+        "948e8634cfca726a0fd610160321c9c736bc9f73f769f3a4521bb10d52ccb091",
+        "97e19f0356cc643a0c6881276a1b819aacec6994ce39b486ffec5683e8043c94"
+      ],
       "text": "Ships on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

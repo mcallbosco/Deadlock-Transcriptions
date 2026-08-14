@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "bf9edc68ff0448baa36afd7f1fc97e07f70a4a7ca6b0e23a990b50df9806c499",
-      "text": "Dynamo's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7fbfe3fa6ff78e068464dad7d349b0f4ecdf6b8e7dafcc45ef3dacace3629ff7",
-      "text": "Dynamo's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1367fc4e694330a21352c0aa5f82904612b4bd75b62fb6e1a252f674c52b5a5f",
+      "sha256": [
+        "1367fc4e694330a21352c0aa5f82904612b4bd75b62fb6e1a252f674c52b5a5f",
+        "7fbfe3fa6ff78e068464dad7d349b0f4ecdf6b8e7dafcc45ef3dacace3629ff7",
+        "bf9edc68ff0448baa36afd7f1fc97e07f70a4a7ca6b0e23a990b50df9806c499"
+      ],
       "text": "Dynamo's missing",
       "source": "official"
     }

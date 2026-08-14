@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_ghost_was_here.mp3",
   "revisions": [
     {
-      "sha256": "cb0eeba838929af63682d85f000f358c14ad0f028a334975ef1a993c4d1bd3dd",
+      "sha256": [
+        "7cc216bba82a9d835e2d46d8d944aa238e950fb1dae38fcf26428e8745873e3b",
+        "cb0eeba838929af63682d85f000f358c14ad0f028a334975ef1a993c4d1bd3dd"
+      ],
       "text": "Guys was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7cc216bba82a9d835e2d46d8d944aa238e950fb1dae38fcf26428e8745873e3b",
-      "text": "Guys was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ghost_check_items_1.mp3",
   "revisions": [
     {
-      "sha256": "51c666b393751cd58f3226ac3d51c923afab8ecbf4540f32646f16cb5987815f",
+      "sha256": [
+        "4cda4311c44310f51c062788e3e037af739dbb782cab424ef7828e7278c3b503",
+        "51c666b393751cd58f3226ac3d51c923afab8ecbf4540f32646f16cb5987815f"
+      ],
       "text": "Check out what Geistbot...",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4cda4311c44310f51c062788e3e037af739dbb782cab424ef7828e7278c3b503",
-      "text": "Check out what Geistbot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

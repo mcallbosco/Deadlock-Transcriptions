@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a1c1e37265cf54c3e4468080f9d48978f3c7b8a7b90770e3a3ae3646238c651e",
+      "sha256": [
+        "3ed629a6c8dbdd7f853b8fdea04f0627ad34b134ee475e02b77a753fafd6448a",
+        "58a3a84b9a5646163fe364fff339877e5af2c7e386e7c9afec88782bb75fa128",
+        "a1c1e37265cf54c3e4468080f9d48978f3c7b8a7b90770e3a3ae3646238c651e"
+      ],
       "text": "Warden was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "58a3a84b9a5646163fe364fff339877e5af2c7e386e7c9afec88782bb75fa128",
-      "text": "Warden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ed629a6c8dbdd7f853b8fdea04f0627ad34b134ee475e02b77a753fafd6448a",
-      "text": "Warden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0eb6053b6647a6facf65917346bb4c93d4da13fdfac533f8b69b488e31267f5",
+      "sha256": [
+        "c0eb6053b6647a6facf65917346bb4c93d4da13fdfac533f8b69b488e31267f5"
+      ],
       "text": "Wardman was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

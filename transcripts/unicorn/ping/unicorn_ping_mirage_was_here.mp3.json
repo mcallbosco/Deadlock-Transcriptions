@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d87d8e222d7e0e458c605f958eef4f38bc606df6d33fd7e4cfa4132b391e3a0a",
+      "sha256": [
+        "d87d8e222d7e0e458c605f958eef4f38bc606df6d33fd7e4cfa4132b391e3a0a"
+      ],
       "text": "Mirage is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "0dfe98e036290b044bcf94c3c832cb10024b535a5787459b0b10b6689701c326",
+      "sha256": [
+        "0dfe98e036290b044bcf94c3c832cb10024b535a5787459b0b10b6689701c326"
+      ],
       "text": "Hi, Sequel.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "36d15216e61b11d81d661f6837b7dbf55a6e1f4c63067261b08cd04a50892b3d",
+      "sha256": [
+        "36d15216e61b11d81d661f6837b7dbf55a6e1f4c63067261b08cd04a50892b3d"
+      ],
       "text": "I see Krill.",
       "source": "official"
     }

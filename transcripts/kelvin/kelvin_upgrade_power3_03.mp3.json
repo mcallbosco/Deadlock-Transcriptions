@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "ed358663e2b4f2247fda535553587b3b32051a1e9037c39569bacbacd9486802",
+      "sha256": [
+        "ed358663e2b4f2247fda535553587b3b32051a1e9037c39569bacbacd9486802"
+      ],
       "text": "I must be ready to begin chase.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ffdd65fc102758a1059c67bbda901231b1b904f2acac6a4e7534ddd0126e56d8",
+      "sha256": [
+        "ffdd65fc102758a1059c67bbda901231b1b904f2acac6a4e7534ddd0126e56d8"
+      ],
       "text": "I must be ready to give chase.",
       "source": "official"
     }

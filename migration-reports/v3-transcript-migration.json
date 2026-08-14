@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "targetTranscriptSchemaVersion": 3,
+  "applied": true,
+  "normalization": {
+    "caseInsensitive": true,
+    "ignoreUnicodePunctuation": true,
+    "ignoreWhitespace": true
+  },
+  "sourcePriority": [
+    "official",
+    "manual",
+    "generated"
+  ],
+  "statistics": {
+    "files": 98944,
+    "beforeRevisionGroups": 176051,
+    "afterRevisionGroups": 128187,
+    "hashes": 176051,
+    "changedFiles": 98944
+  },
+  "sourceTransitions": {
+    "generated->manual": 99,
+    "generated->official": 15990,
+    "manual->official": 21
+  }
+}

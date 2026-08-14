@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "4903732e40e3cfd6083d767c8663ff5663c1d5219143c5089e2007bfa1d91d4e",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa52c015fd8c6e8a2de1326f1c52335a6262a2287002da44116b7a683ffa65a8",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6bcd5d4e70f6e44d6f2bba669fd6abd7f27ccf2c8f7ccc624436c8499fd705dc",
-      "text": "Well played!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b66712668f18b9dcb6e7fb1dfdede5ddfa6b9c350670231b737a1b5810728d2",
+      "sha256": [
+        "4903732e40e3cfd6083d767c8663ff5663c1d5219143c5089e2007bfa1d91d4e",
+        "6b66712668f18b9dcb6e7fb1dfdede5ddfa6b9c350670231b737a1b5810728d2",
+        "6bcd5d4e70f6e44d6f2bba669fd6abd7f27ccf2c8f7ccc624436c8499fd705dc",
+        "fa52c015fd8c6e8a2de1326f1c52335a6262a2287002da44116b7a683ffa65a8"
+      ],
       "text": "Well played",
       "source": "official"
     }

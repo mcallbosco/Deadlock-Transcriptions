@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power1_04.mp3",
   "revisions": [
     {
-      "sha256": "9912ea8cd3a0e57054b24591a7c6f375ea94f1c6588ae4e37c1189da08a255ca",
-      "text": "You can't stop me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "57ad9ed3d3c5d883e6004df9376271d911b26add99bea8d12e76a862b303a58c",
-      "text": "You can't stop me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f89a5625ebe2ff16030f47e396e9c091982739c0e128659c30767929a1a8e66",
+      "sha256": [
+        "1f89a5625ebe2ff16030f47e396e9c091982739c0e128659c30767929a1a8e66",
+        "57ad9ed3d3c5d883e6004df9376271d911b26add99bea8d12e76a862b303a58c",
+        "9912ea8cd3a0e57054b24591a7c6f375ea94f1c6588ae4e37c1189da08a255ca"
+      ],
       "text": "You can't stop me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

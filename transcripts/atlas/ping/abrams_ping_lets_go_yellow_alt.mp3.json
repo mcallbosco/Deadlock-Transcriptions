@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_lets_go_yellow_alt.mp3",
   "revisions": [
     {
-      "sha256": "a004696362937951b4b0d8201d3eae417aae19b5710dd0eb896966a17088da1b",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50fb585e9489c11727920982fec33eff72dd7c02f47095d1e3402a731f0ad539",
+      "sha256": [
+        "50fb585e9489c11727920982fec33eff72dd7c02f47095d1e3402a731f0ad539",
+        "a004696362937951b4b0d8201d3eae417aae19b5710dd0eb896966a17088da1b"
+      ],
       "text": "Let's go to York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

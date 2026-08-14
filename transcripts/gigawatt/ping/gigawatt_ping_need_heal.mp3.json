@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "603e6b9fee80606f34d173190a95d5a34626c464cde66bb5bd38adf1c0e19fb0",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eec77d245cff7e3fed031c06fb1dd3b1d5a3a710c9bf87be203f276d18a0f710",
-      "text": "Do you have a hero?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc89251e5d96af648958db0d1ab3a6f0c9b0e1be339af7d8780f42b66951f117",
-      "text": "Do you have a hero?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1be985857a7be5ae2c8bd686027ab2434bcd4bbb2a76171c7658f28b28536224",
+      "sha256": [
+        "1be985857a7be5ae2c8bd686027ab2434bcd4bbb2a76171c7658f28b28536224",
+        "603e6b9fee80606f34d173190a95d5a34626c464cde66bb5bd38adf1c0e19fb0"
+      ],
       "text": "Do you have a heal?",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "eec77d245cff7e3fed031c06fb1dd3b1d5a3a710c9bf87be203f276d18a0f710",
+        "fc89251e5d96af648958db0d1ab3a6f0c9b0e1be339af7d8780f42b66951f117"
+      ],
+      "text": "Do you have a hero?",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

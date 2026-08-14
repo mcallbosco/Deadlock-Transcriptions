@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_refresher_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "9aa7c9eb94d9d692b61f77009627f4db628fce1463c0a9653ee27eff71d71a7d",
+      "sha256": [
+        "9aa7c9eb94d9d692b61f77009627f4db628fce1463c0a9653ee27eff71d71a7d"
+      ],
       "text": "Refresh is on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b2a620fb102c5bc6bab26d7b630b3971f9e08602ef8a8fd306c1d36f2d326447",
+      "sha256": [
+        "b2a620fb102c5bc6bab26d7b630b3971f9e08602ef8a8fd306c1d36f2d326447"
+      ],
       "text": "Refresher's on cooldown.",
       "source": "official"
     }

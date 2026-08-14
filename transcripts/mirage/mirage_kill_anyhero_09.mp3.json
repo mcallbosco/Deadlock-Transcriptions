@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_kill_anyhero_09.mp3",
   "revisions": [
     {
-      "sha256": "9b0054ddb2d61e26690d810e641b3c321da6264ed7af228765ba3c237e8c5bec",
+      "sha256": [
+        "9b0054ddb2d61e26690d810e641b3c321da6264ed7af228765ba3c237e8c5bec"
+      ],
       "text": "I don't die today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9915fe6de6278c4de0669ff2b5e463b7ee04dba84e605c6cb7148485735c8dc6",
-      "text": "I won't die today.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50c084b8211cb785ba5b8a00c4324f53410572bc79b021e2e08358eeb8c15260",
-      "text": "I won't die today.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07c03a43237dda8d3446ed5da530ec40deaa31fddf59da42940d1676ee8a23bd",
+      "sha256": [
+        "07c03a43237dda8d3446ed5da530ec40deaa31fddf59da42940d1676ee8a23bd",
+        "50c084b8211cb785ba5b8a00c4324f53410572bc79b021e2e08358eeb8c15260",
+        "9915fe6de6278c4de0669ff2b5e463b7ee04dba84e605c6cb7148485735c8dc6"
+      ],
       "text": "I won't die today.",
       "source": "official"
     }

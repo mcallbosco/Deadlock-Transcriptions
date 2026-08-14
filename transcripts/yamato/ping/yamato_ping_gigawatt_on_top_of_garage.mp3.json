@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_gigawatt_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "9544abd392ffebaa97723b68c15b86d573a5ad4d6c1ae7728416dfb65cc526f8",
-      "text": "Seven's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6fcabe326306cc8f27ce639ad96ebc39c33fa7b98380d71607dba56e4a4db50",
-      "text": "Seven's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76e9aa1e4fe676f26a28524b4fa6eee1594d4ef76261618d596e5dbe6b99c60a",
+      "sha256": [
+        "76e9aa1e4fe676f26a28524b4fa6eee1594d4ef76261618d596e5dbe6b99c60a",
+        "9544abd392ffebaa97723b68c15b86d573a5ad4d6c1ae7728416dfb65cc526f8",
+        "e6fcabe326306cc8f27ce639ad96ebc39c33fa7b98380d71607dba56e4a4db50"
+      ],
       "text": "Seven's on top of the garage!",
       "source": "official"
     }

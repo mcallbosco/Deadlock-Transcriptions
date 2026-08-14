@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_ghost_1.mp3",
   "revisions": [
     {
-      "sha256": "f4e5ef9e44a404591f5195453bdc5e51338480c5898a2943f3a1cc488b07ea41",
-      "text": "I'm with you, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0dfb962b1dabcfee4936ff643c1dde8d5f3cb547dbcddb7f2033f33b2349bf75",
+      "sha256": [
+        "0dfb962b1dabcfee4936ff643c1dde8d5f3cb547dbcddb7f2033f33b2349bf75",
+        "f4e5ef9e44a404591f5195453bdc5e51338480c5898a2943f3a1cc488b07ea41"
+      ],
       "text": "I'm with you, Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

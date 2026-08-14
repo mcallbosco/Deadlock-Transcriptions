@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_careful_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "a30d737569b8482e2d57cf9401198489d6029b4939796adf8f7c051add727d0d",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4256a850954e1c76ea90469add0af3e54c657c46d899fa293ff0a653bcff2079",
+      "sha256": [
+        "4256a850954e1c76ea90469add0af3e54c657c46d899fa293ff0a653bcff2079",
+        "a30d737569b8482e2d57cf9401198489d6029b4939796adf8f7c051add727d0d"
+      ],
       "text": "Careful, Pocket…",
       "source": "official"
     }

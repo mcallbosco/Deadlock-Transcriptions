@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_use_glitch_01.mp3",
   "revisions": [
     {
-      "sha256": "094ded4b1b4278cec650d8162ee71b713cbcfcac003a5e3ab0ee16c15590c1d5",
-      "text": "They glitched.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99fea8b30f425298161ccdd6188996f4fb5da599277484101a1def03c70d4e09",
-      "text": "They glitched.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c48d9b32a65e782a008b037e3ce3b02642895f87a89ab8349c0dfe9dc1470ddf",
+      "sha256": [
+        "094ded4b1b4278cec650d8162ee71b713cbcfcac003a5e3ab0ee16c15590c1d5",
+        "99fea8b30f425298161ccdd6188996f4fb5da599277484101a1def03c70d4e09",
+        "c48d9b32a65e782a008b037e3ce3b02642895f87a89ab8349c0dfe9dc1470ddf"
+      ],
       "text": "They glitched.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

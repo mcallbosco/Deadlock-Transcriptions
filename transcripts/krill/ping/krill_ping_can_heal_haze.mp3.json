@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_can_heal_haze.mp3",
   "revisions": [
     {
-      "sha256": "a2c43766cfdc1320ca7d4fe5caacaf039252145d3129531f79fbf80d1366187b",
-      "text": "Haze, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "83b208c540e77c9bd5d6dd7926d97c64eb88d5287f81b4422db51fa4a5155f75",
-      "text": "Haze, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3832b0598cb363a73303ed84d057f7d93794241b98e15eb0fe66bc43f1b91577",
+      "sha256": [
+        "3832b0598cb363a73303ed84d057f7d93794241b98e15eb0fe66bc43f1b91577",
+        "83b208c540e77c9bd5d6dd7926d97c64eb88d5287f81b4422db51fa4a5155f75",
+        "a2c43766cfdc1320ca7d4fe5caacaf039252145d3129531f79fbf80d1366187b"
+      ],
       "text": "Haze, I can heal you!",
       "source": "official"
     }

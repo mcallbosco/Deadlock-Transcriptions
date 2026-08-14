@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_cadence_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "ebeba0ca1f1cb9875f28540d11710c861e1fb4f9f79c79e2978d7e676e2be5d2",
+      "sha256": [
+        "950d2ae1199243a5ac7c02b7c678f67c70f57dbde02d160aea44741d84498436",
+        "ebeba0ca1f1cb9875f28540d11710c861e1fb4f9f79c79e2978d7e676e2be5d2"
+      ],
       "text": "Cadence is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "950d2ae1199243a5ac7c02b7c678f67c70f57dbde02d160aea44741d84498436",
-      "text": "Cadence is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

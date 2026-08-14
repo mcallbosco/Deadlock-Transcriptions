@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_start_match_01.mp3",
   "revisions": [
     {
-      "sha256": "99e00a18ae06147afcb8cbe37c7d67afe54e5e600649244aa89dbaf7e1f4b064",
+      "sha256": [
+        "6837665826821440437a229eac7f562eddd59ed345b5833101b89f6e2e1e68b5",
+        "99e00a18ae06147afcb8cbe37c7d67afe54e5e600649244aa89dbaf7e1f4b064"
+      ],
       "text": "Everyone's making a phone today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6837665826821440437a229eac7f562eddd59ed345b5833101b89f6e2e1e68b5",
-      "text": "Everyone's making a phone today.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "323f1ce0582508aaa2661bb7925fa3da06e18ce380262c5c47148e00c2033862",
+      "sha256": [
+        "323f1ce0582508aaa2661bb7925fa3da06e18ce380262c5c47148e00c2033862"
+      ],
       "text": "Everyone's making a home today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

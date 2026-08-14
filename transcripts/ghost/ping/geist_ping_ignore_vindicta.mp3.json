@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_ignore_vindicta.mp3",
   "revisions": [
     {
-      "sha256": "89bcf20ccc554741756fe74be750bb435a798b015be78a549e2f019eddd8718b",
-      "text": "Ignore Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "74a3ed0c557f49aabbf6ef54c4f1c04dd4063e8f4c6e1ee7a0661ea51552aca4",
+      "sha256": [
+        "74a3ed0c557f49aabbf6ef54c4f1c04dd4063e8f4c6e1ee7a0661ea51552aca4",
+        "89bcf20ccc554741756fe74be750bb435a798b015be78a549e2f019eddd8718b"
+      ],
       "text": "Ignore Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

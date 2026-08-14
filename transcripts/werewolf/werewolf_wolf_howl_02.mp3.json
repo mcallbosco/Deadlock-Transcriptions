@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/werewolf_wolf_howl_02.mp3",
   "revisions": [
     {
-      "sha256": "21b04b47006e5b71f799aec2b2dc53cb244d56fe77089713d1308165ef854c59",
+      "sha256": [
+        "21b04b47006e5b71f799aec2b2dc53cb244d56fe77089713d1308165ef854c59"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

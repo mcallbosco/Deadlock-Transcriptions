@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "d2b22712aea82148168a19ff07657a1259b6c27a6f6dccbe509da6bc29308ae1",
+      "sha256": [
+        "d2b22712aea82148168a19ff07657a1259b6c27a6f6dccbe509da6bc29308ae1"
+      ],
       "text": "I'm away!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

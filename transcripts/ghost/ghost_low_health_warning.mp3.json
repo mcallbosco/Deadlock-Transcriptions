@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ghost_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "97a7caefb5535577bc558d8e447c3916de4affb79bc5ba578241247fb8b3cb13",
+      "sha256": [
+        "97a7caefb5535577bc558d8e447c3916de4affb79bc5ba578241247fb8b3cb13"
+      ],
       "text": "I need to heal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

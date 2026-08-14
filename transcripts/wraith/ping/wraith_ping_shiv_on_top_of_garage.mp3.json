@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_shiv_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "8687f9a950e58b17a2077741fca98569b246b75f38e5ea084f9574d89ce921fb",
+      "sha256": [
+        "8687f9a950e58b17a2077741fca98569b246b75f38e5ea084f9574d89ce921fb"
+      ],
       "text": "Shiv is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d2254e21600437a8b89c2159236fe0a5aeb2d1b64c1674cb0d10ac8861f30c7",
+      "sha256": [
+        "3c9b4a4092dda3e5000a45357d7b8831d2874c072cbf0b336f2566e9a8c02df9",
+        "7d2254e21600437a8b89c2159236fe0a5aeb2d1b64c1674cb0d10ac8861f30c7"
+      ],
       "text": "She was on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3c9b4a4092dda3e5000a45357d7b8831d2874c072cbf0b336f2566e9a8c02df9",
-      "text": "She was on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13b6e1c0cdf97fd1afec285c13fd5beb6ef5e46210f83cd5fe3f52a1a3827ba7",
+      "sha256": [
+        "13b6e1c0cdf97fd1afec285c13fd5beb6ef5e46210f83cd5fe3f52a1a3827ba7"
+      ],
       "text": "Shiv's on top of the garage!",
       "source": "official"
     }

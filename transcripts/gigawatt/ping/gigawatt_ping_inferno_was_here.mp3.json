@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_inferno_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1c0d7f9b4f3a4a3b7c93cff81cfca9cdac0cb6233796cdb784dc2036921b92ab",
+      "sha256": [
+        "1c0d7f9b4f3a4a3b7c93cff81cfca9cdac0cb6233796cdb784dc2036921b92ab",
+        "eb6378c650b6cfe9d9af4d7603c4685b45ace79f844eda23b59ef22155499743"
+      ],
       "text": "Infernus was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "eb6378c650b6cfe9d9af4d7603c4685b45ace79f844eda23b59ef22155499743",
-      "text": "Infernus was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9bb762b26f9c6a49361447bf91fd8d3f6147a7c59e1bb6f9f08f951a4448e2e5",
+      "sha256": [
+        "9bb762b26f9c6a49361447bf91fd8d3f6147a7c59e1bb6f9f08f951a4448e2e5"
+      ],
       "text": "You found a switch here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

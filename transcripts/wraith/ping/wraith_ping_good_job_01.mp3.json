@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "8d64af2ce8617b302599895cc5755766f964829ae37b609a20ad951b1b3c2051",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81dd1b7aa687fb451dc744c85ecfdb0b41dc76e82aaa3ba9ca88be3559fb3d2a",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08b22660cfed9661dfcea2a26513314518feb45d57010350cd5e36336da8d809",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b5040c4edeed45ccbc40a6083a99042fbc064d8c4f1e3cad730ef66453530dc",
+      "sha256": [
+        "08b22660cfed9661dfcea2a26513314518feb45d57010350cd5e36336da8d809",
+        "81dd1b7aa687fb451dc744c85ecfdb0b41dc76e82aaa3ba9ca88be3559fb3d2a",
+        "8d64af2ce8617b302599895cc5755766f964829ae37b609a20ad951b1b3c2051",
+        "9b5040c4edeed45ccbc40a6083a99042fbc064d8c4f1e3cad730ef66453530dc"
+      ],
       "text": "Good job.",
       "source": "official"
     }

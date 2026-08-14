@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_push_green_02.mp3",
   "revisions": [
     {
-      "sha256": "0ff3eeaf6378c5858917e6125a074feca767730f0c075715392edda9918e321c",
-      "text": "Let's push Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ccf493841857c41213d57a24d3e394c3962421dbe91d9e5c0ff01bfa638e4299",
-      "text": "Let's push Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93d3203a5777826fa32c420ad1f5ae491bbc6732ae846e8db7280bc499c795a7",
+      "sha256": [
+        "0ff3eeaf6378c5858917e6125a074feca767730f0c075715392edda9918e321c",
+        "93d3203a5777826fa32c420ad1f5ae491bbc6732ae846e8db7280bc499c795a7",
+        "ccf493841857c41213d57a24d3e394c3962421dbe91d9e5c0ff01bfa638e4299"
+      ],
       "text": "Let's push Greenwich",
       "source": "official"
     }

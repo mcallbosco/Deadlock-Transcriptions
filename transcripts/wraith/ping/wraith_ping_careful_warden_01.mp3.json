@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "f89d0cc43668c19432776fd414558debaaf46e2e6e872c6fc2952c11db11d4d6",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "85f8ac98d726de52a014e2a342bf3914be022639f4ee41c4ac9cdfcd6874660b",
+        "f89d0cc43668c19432776fd414558debaaf46e2e6e872c6fc2952c11db11d4d6"
+      ],
+      "text": "Careful, Warden…",
+      "source": "official"
     },
     {
-      "sha256": "68851ed5602b0e0d1c4cd17ccf89c6f16591232c5801c2249a8aec4240cdef02",
+      "sha256": [
+        "68851ed5602b0e0d1c4cd17ccf89c6f16591232c5801c2249a8aec4240cdef02",
+        "d9337c8fb6340c63bf8dea763990bf367383a1493e38aefb63e6643bdee72c63"
+      ],
       "text": "キャフォード。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9337c8fb6340c63bf8dea763990bf367383a1493e38aefb63e6643bdee72c63",
-      "text": "キャフォード",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "85f8ac98d726de52a014e2a342bf3914be022639f4ee41c4ac9cdfcd6874660b",
-      "text": "Careful, Warden…",
-      "source": "official"
     }
   ]
 }

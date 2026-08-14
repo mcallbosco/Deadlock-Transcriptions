@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_see_krill.mp3",
   "revisions": [
     {
-      "sha256": "a900f5ec0bbffc376c49016b66cfe965003da534f0349bdefa0d61327d2fe729",
+      "sha256": [
+        "a900f5ec0bbffc376c49016b66cfe965003da534f0349bdefa0d61327d2fe729"
+      ],
       "text": "I see crew!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5469376048ee41129293a361d33714fad86e4da120b02069385feeb302a04970",
+      "sha256": [
+        "5469376048ee41129293a361d33714fad86e4da120b02069385feeb302a04970"
+      ],
       "text": "I see Krill!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

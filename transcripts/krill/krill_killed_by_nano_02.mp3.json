@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_killed_by_nano_02.mp3",
   "revisions": [
     {
-      "sha256": "cace4caa812073f4b7f9e6056de8a569940290f9f66ce544f29b54915246c8b2",
+      "sha256": [
+        "cace4caa812073f4b7f9e6056de8a569940290f9f66ce544f29b54915246c8b2"
+      ],
       "text": "She's just so hard to pin down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ec5b9d1ab1755bd6a5da0cd82ecaeb7a21d1822410b5b41761375b88f28556f6",
+      "sha256": [
+        "2cc776fd956ee884ad1c5e123d544a4e59689b8231bca0a76589e9b539c707f4",
+        "ec5b9d1ab1755bd6a5da0cd82ecaeb7a21d1822410b5b41761375b88f28556f6"
+      ],
       "text": "He's just so hard to pin down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2cc776fd956ee884ad1c5e123d544a4e59689b8231bca0a76589e9b539c707f4",
-      "text": "He's just so hard to pin down!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

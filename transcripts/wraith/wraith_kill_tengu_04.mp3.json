@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_tengu_04.mp3",
   "revisions": [
     {
-      "sha256": "42c82385b04fccb86388bd16d237aa7fa8a522027d1309565ec43c6955e6d7b2",
+      "sha256": [
+        "42c82385b04fccb86388bd16d237aa7fa8a522027d1309565ec43c6955e6d7b2",
+        "ba6c482217434aa6695ebb87ede68c677659000302a4553c1b28733265795bde"
+      ],
       "text": "Check out the gargoyle.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ba6c482217434aa6695ebb87ede68c677659000302a4553c1b28733265795bde",
-      "text": "Check out the gargoyle.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0896e4697c5ca2e8827f87ee52a7e459e56240888b04c6429e2c855758f7dd03",
+      "sha256": [
+        "0896e4697c5ca2e8827f87ee52a7e459e56240888b04c6429e2c855758f7dd03"
+      ],
       "text": "Took out the gargoyle",
       "source": "official"
     }

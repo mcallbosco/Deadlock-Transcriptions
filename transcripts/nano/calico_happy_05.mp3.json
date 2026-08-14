@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_happy_05.mp3",
   "revisions": [
     {
-      "sha256": "114cda20936a6bd8036aadf99f0388dcd3e3dd30a4fafb3d8eca3f6f3b02fdfa",
+      "sha256": [
+        "114cda20936a6bd8036aadf99f0388dcd3e3dd30a4fafb3d8eca3f6f3b02fdfa"
+      ],
       "text": "This is easy, then I told it be.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a64902f568f238b0cffd77ca439a09967abecf21bfde754fe57b26bec13c5e2",
+      "sha256": [
+        "0a64902f568f238b0cffd77ca439a09967abecf21bfde754fe57b26bec13c5e2"
+      ],
       "text": "This is easier than I thought it'd be.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/pocket_unselect_03.mp3",
   "revisions": [
     {
-      "sha256": "9ba4d1ac0eb843cca819d17d08cac957795b348c2291ec613eb047e674f9ed9d",
-      "text": "I can't go through with this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a2bb2848f6fea624a3cfd201f80a8f9cf9b69e311797af9e72803f286934c0e",
+      "sha256": [
+        "9a2bb2848f6fea624a3cfd201f80a8f9cf9b69e311797af9e72803f286934c0e",
+        "9ba4d1ac0eb843cca819d17d08cac957795b348c2291ec613eb047e674f9ed9d"
+      ],
       "text": "I can't go through with this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_ally_rutger_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "6c7942992cd23d743bfbd29e5388216fbbd0633e5d2457d85258e1b43445ae5c",
+      "sha256": [
+        "6c7942992cd23d743bfbd29e5388216fbbd0633e5d2457d85258e1b43445ae5c"
+      ],
       "text": "We forgot Rutgers.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c2adc6ffc6c9c9f93302357d0b8d14cd736294ab1190fa305c5a5bad78c1778c",
-      "text": "They took out Rutger!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a09d0777bab6f8e24693d4611ee71ba6cc2c7dc4c327538b611bb81d6659f825",
+      "sha256": [
+        "a09d0777bab6f8e24693d4611ee71ba6cc2c7dc4c327538b611bb81d6659f825",
+        "c2adc6ffc6c9c9f93302357d0b8d14cd736294ab1190fa305c5a5bad78c1778c"
+      ],
       "text": "They took out Rutger!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

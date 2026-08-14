@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "bbe76c58c5f026ba5b8fec1d33b60b6baaa390563435c77407066cba3f2ee2da",
+      "sha256": [
+        "bbe76c58c5f026ba5b8fec1d33b60b6baaa390563435c77407066cba3f2ee2da"
+      ],
       "text": "He's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

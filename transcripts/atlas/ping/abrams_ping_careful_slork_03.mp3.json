@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_slork_03.mp3",
   "revisions": [
     {
-      "sha256": "dd41f72f6a46dabaebb18c0760ac282e77c65e1df01a224ec93a3b918795455f",
+      "sha256": [
+        "3e63b82487b1b1aaf879d777b99d109df8c21326820b165af3e22b879b29d735",
+        "dd41f72f6a46dabaebb18c0760ac282e77c65e1df01a224ec93a3b918795455f"
+      ],
       "text": "Careful, Slark!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e63b82487b1b1aaf879d777b99d109df8c21326820b165af3e22b879b29d735",
-      "text": "Careful, Slark.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

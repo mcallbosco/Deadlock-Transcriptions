@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "c805c7d73ec284656a6dd2365729b042b7d7f9794d81cd91246ae500114b7fc4",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d635b80d4a25697c7b6779211d4797cfdbcd3360bb11233472674717f4fd0c39",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "515bc24aeef21b3121ce1372bfd923bb770a0c5381e8cdd4bcf5486a1f37c4d0",
+      "sha256": [
+        "515bc24aeef21b3121ce1372bfd923bb770a0c5381e8cdd4bcf5486a1f37c4d0",
+        "c805c7d73ec284656a6dd2365729b042b7d7f9794d81cd91246ae500114b7fc4",
+        "d635b80d4a25697c7b6779211d4797cfdbcd3360bb11233472674717f4fd0c39"
+      ],
       "text": "It's dangerous here",
       "source": "official"
     }

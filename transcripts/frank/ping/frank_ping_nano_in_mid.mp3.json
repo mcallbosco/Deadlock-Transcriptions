@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_nano_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "6f7f11615d6e6cfdfbef3ba130a0cb0cf210e5df34b3203f89c7c3b992c9198c",
-      "text": "Calico's in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3db6b1da488d39cbcd97a4d291031004f40791609777e79db9402643c71ef38e",
+      "sha256": [
+        "3db6b1da488d39cbcd97a4d291031004f40791609777e79db9402643c71ef38e",
+        "6f7f11615d6e6cfdfbef3ba130a0cb0cf210e5df34b3203f89c7c3b992c9198c"
+      ],
       "text": "Calico's in mid!",
       "source": "official"
     }

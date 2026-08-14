@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power2_02_alt.mp3",
   "revisions": [
     {
-      "sha256": "0437979a8cdd16cc51b313142026653f3ca4f9c3da41152b136fb60b56848dee",
+      "sha256": [
+        "0437979a8cdd16cc51b313142026653f3ca4f9c3da41152b136fb60b56848dee",
+        "92a4886f2875a14df2bc5d4246f6e3ed08f35f1858368e2c1b4c77581e15df7f"
+      ],
       "text": "I'll let the beasts do the work for me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "92a4886f2875a14df2bc5d4246f6e3ed08f35f1858368e2c1b4c77581e15df7f",
-      "text": "I'll let the beasts do the work for me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cdda6d9ac9d1594ece5b84852c13bddbbd7cfb29b169861a8185a2954b95caa",
+      "sha256": [
+        "5cdda6d9ac9d1594ece5b84852c13bddbbd7cfb29b169861a8185a2954b95caa"
+      ],
       "text": "I'll let the Beatles do the work for me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

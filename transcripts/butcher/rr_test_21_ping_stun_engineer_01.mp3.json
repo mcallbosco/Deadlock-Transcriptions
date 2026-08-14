@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_stun_engineer_01.mp3",
   "revisions": [
     {
-      "sha256": "36e82cad38a1abe11dd58a3c4cb04d074ec264a15cd0df63c642d0871b54c25d",
+      "sha256": [
+        "36e82cad38a1abe11dd58a3c4cb04d074ec264a15cd0df63c642d0871b54c25d"
+      ],
       "text": "Sun Engineer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "040c4a220711985351f5d258ff72b0b7f63f3b7466977db9b9fc3e08920fb445",
+      "sha256": [
+        "040c4a220711985351f5d258ff72b0b7f63f3b7466977db9b9fc3e08920fb445",
+        "98d51cfcb85b4c746d52a1659e383614827e44f21dc659b03441843ef39ea430"
+      ],
       "text": "son engineer.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "98d51cfcb85b4c746d52a1659e383614827e44f21dc659b03441843ef39ea430",
-      "text": "Son Engineer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

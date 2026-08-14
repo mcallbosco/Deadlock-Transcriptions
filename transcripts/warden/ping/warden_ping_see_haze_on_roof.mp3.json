@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_haze_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "2b6eacae4479186ac25a1db5d49a983581c662ae6e9c28b2419c6f99cf9aa303",
+      "sha256": [
+        "2b6eacae4479186ac25a1db5d49a983581c662ae6e9c28b2419c6f99cf9aa303",
+        "e77a943d9dad8d27a13b2f367cb42a77db4cce4cc20acaadd67634ec926a39a7"
+      ],
       "text": "Case is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e77a943d9dad8d27a13b2f367cb42a77db4cce4cc20acaadd67634ec926a39a7",
-      "text": "Case is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "51f2a7da5518da82ee9038bffca2c32b3d9675b239bee49ecd1d9ac4390a15c9",
+      "sha256": [
+        "51f2a7da5518da82ee9038bffca2c32b3d9675b239bee49ecd1d9ac4390a15c9"
+      ],
       "text": "Cases on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "80f22e5626a1c7f5a85f8229913ff330558f30c1439f1e9ee081e70ac908c900",
+      "sha256": [
+        "80f22e5626a1c7f5a85f8229913ff330558f30c1439f1e9ee081e70ac908c900"
+      ],
       "text": "Haze's on the roof!",
       "source": "official"
     }

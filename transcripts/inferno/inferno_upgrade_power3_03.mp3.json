@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_upgrade_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "8a8246fb5d68fa53fd08ee19dd9a75b5232b92a80e1d99190f107768c2d45490",
+      "sha256": [
+        "8a8246fb5d68fa53fd08ee19dd9a75b5232b92a80e1d99190f107768c2d45490"
+      ],
       "text": "There'll be nothing but ash, I'm sure.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3fe36f73235fa4d18cd29a95f53dd6181eb2e623054864d24bb27fd3ad1817f3",
+      "sha256": [
+        "1f62ad254c566e0ddffd4ad1fd2e8952c0199ea9d0be3ff3d233fd5bf19c17b8",
+        "3fe36f73235fa4d18cd29a95f53dd6181eb2e623054864d24bb27fd3ad1817f3"
+      ],
       "text": "There'll be nothing but ash when I'm through.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f62ad254c566e0ddffd4ad1fd2e8952c0199ea9d0be3ff3d233fd5bf19c17b8",
-      "text": "There'll be nothing but ash when I'm through.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b7d8d2e1e5be478c4849bc4cc1840ce99cb9730d04fd137ef39fa4dea4143a2b",
+      "sha256": [
+        "b7d8d2e1e5be478c4849bc4cc1840ce99cb9730d04fd137ef39fa4dea4143a2b"
+      ],
       "text": "They'll be nothing but ash when I'm through…",
       "source": "official"
     }

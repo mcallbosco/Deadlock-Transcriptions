@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "cb3e267e78df1e3ad9a3ffdaa963e27f15d85f4bf8c7bf61a357a0ee2eba576a",
+      "sha256": [
+        "cb3e267e78df1e3ad9a3ffdaa963e27f15d85f4bf8c7bf61a357a0ee2eba576a"
+      ],
       "text": "Krill is dead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

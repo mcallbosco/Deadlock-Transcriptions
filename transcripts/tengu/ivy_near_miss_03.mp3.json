@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_near_miss_03.mp3",
   "revisions": [
     {
-      "sha256": "6c30d3cde439a30bf063c1cad2ca60335db42d24c7cfb7b60ed50b309ce30b74",
+      "sha256": [
+        "6c30d3cde439a30bf063c1cad2ca60335db42d24c7cfb7b60ed50b309ce30b74",
+        "d7d3b802abaea86cce8174a7596814311f33c75e5b305fa81dec2416927412f4"
+      ],
       "text": "¡Y no te vuelves!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7d3b802abaea86cce8174a7596814311f33c75e5b305fa81dec2416927412f4",
-      "text": "Y no te vuelves.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

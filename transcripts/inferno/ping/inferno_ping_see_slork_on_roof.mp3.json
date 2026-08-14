@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_slork_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "6669ebe3a0f476c7da600125559a7b7c2ecc696446b7614609d3a7205a23f122",
-      "text": "Slork's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a6a84cd6da4ea2a159a67b21db190c15ee7a576dcc78137176c24355d8c0c23",
+      "sha256": [
+        "5a6a84cd6da4ea2a159a67b21db190c15ee7a576dcc78137176c24355d8c0c23",
+        "6669ebe3a0f476c7da600125559a7b7c2ecc696446b7614609d3a7205a23f122"
+      ],
       "text": "Slork's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

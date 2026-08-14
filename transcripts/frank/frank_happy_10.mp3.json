@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_happy_10.mp3",
   "revisions": [
     {
-      "sha256": "2c6bc1b2a143c600e16aa8141e19e9daa45ff2a9dcee4bcf07c3f1d3f417005b",
+      "sha256": [
+        "2c6bc1b2a143c600e16aa8141e19e9daa45ff2a9dcee4bcf07c3f1d3f417005b"
+      ],
       "text": "It was a good day.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

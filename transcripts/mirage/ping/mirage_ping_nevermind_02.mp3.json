@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_nevermind_02.mp3",
   "revisions": [
     {
-      "sha256": "3bc1e49763a9c2fe53dab87ad4708c389c3fb0b971ef9e074d9a0602bf084470",
+      "sha256": [
+        "3bc1e49763a9c2fe53dab87ad4708c389c3fb0b971ef9e074d9a0602bf084470"
+      ],
       "text": "I got that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2e7323e63f7c79ce70459062c17223cea38fb5a599bcf5d3a4ba12146c380a0c",
-      "text": "Forget what I said.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fef7b32b5745fd19d1e327b40eeff42690a38bce947e0fd6769f57f2bb21d9aa",
-      "text": "Forget what I said.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "122ed1e395feac1d158684de24d492dbaef4f047cc710075327fb93a4abcf089",
+      "sha256": [
+        "122ed1e395feac1d158684de24d492dbaef4f047cc710075327fb93a4abcf089",
+        "2e7323e63f7c79ce70459062c17223cea38fb5a599bcf5d3a4ba12146c380a0c",
+        "fef7b32b5745fd19d1e327b40eeff42690a38bce947e0fd6769f57f2bb21d9aa"
+      ],
       "text": "Forget what I said.",
       "source": "official"
     }

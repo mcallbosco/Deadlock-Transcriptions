@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_warp_stone_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "dd66a9d9b3510dd7c43ac9f61e189a805f9a596278f26d0facf9ce6be7555ec3",
+      "sha256": [
+        "dd66a9d9b3510dd7c43ac9f61e189a805f9a596278f26d0facf9ce6be7555ec3"
+      ],
       "text": "What's John's on cooldown?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f668f1375b7a6b8a1f56ad20a98ddbc30bc00cc79b3cb13904a97fec860f6c0a",
+      "sha256": [
+        "f668f1375b7a6b8a1f56ad20a98ddbc30bc00cc79b3cb13904a97fec860f6c0a"
+      ],
       "text": "What's Jones on cooldown?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

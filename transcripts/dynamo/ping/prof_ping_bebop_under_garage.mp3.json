@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_bebop_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b86ada7a3a46a2475ccf71d6eea597367abf04e6453ff84b148eef7e6a89788d",
+      "sha256": [
+        "b86ada7a3a46a2475ccf71d6eea597367abf04e6453ff84b148eef7e6a89788d"
+      ],
       "text": "Take us under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "727759c3c50f90bb24ec7a27409a16fed5b256dadcaccfd66d12e986cc4bd8c1",
+      "sha256": [
+        "727759c3c50f90bb24ec7a27409a16fed5b256dadcaccfd66d12e986cc4bd8c1"
+      ],
       "text": "Take us on to the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

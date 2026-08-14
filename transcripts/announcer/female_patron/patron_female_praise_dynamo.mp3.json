@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "4ac9fd0808566cd4d5beeadcd9656e285ed91fc56902fe5c6748ec5f24bef572",
-      "text": "Well done, Professor Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f829eb3a4596c502fa682f9ae0a544fd57ef0974c7c9b90b6e3756447cf8b93",
-      "text": "Well done, Professor Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f3ad0b14b9245528822b985fbf41e4b1b1e65d8b51a95a0b0887eb6a6a8c430",
+      "sha256": [
+        "1f829eb3a4596c502fa682f9ae0a544fd57ef0974c7c9b90b6e3756447cf8b93",
+        "4ac9fd0808566cd4d5beeadcd9656e285ed91fc56902fe5c6748ec5f24bef572",
+        "7f3ad0b14b9245528822b985fbf41e4b1b1e65d8b51a95a0b0887eb6a6a8c430"
+      ],
       "text": "Well done Professor Dynamo",
       "source": "official"
     }

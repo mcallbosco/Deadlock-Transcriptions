@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_calico_02_1.mp3",
   "revisions": [
     {
-      "sha256": "b4388119d80b17a7adb2447cbb876d059954000d3f61b9463398715c483e8bf2",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcbcabc4929e6234ccc7e485b2ea5a8cb85be5d96caa8652720f9e3e31f1dcf4",
+      "sha256": [
+        "b4388119d80b17a7adb2447cbb876d059954000d3f61b9463398715c483e8bf2",
+        "dcbcabc4929e6234ccc7e485b2ea5a8cb85be5d96caa8652720f9e3e31f1dcf4"
+      ],
       "text": "Careful, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_atlas_02.mp3",
   "revisions": [
     {
-      "sha256": "b0444d7d5fedd29d12c4e70a918287a7ec3fcd5caad72fb8afe8b43bf0edc377",
-      "text": "Careful, Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3ab927dde67967ffa1c50bdc8b5a7236b18d385de4a5f23d55647301b14e7f5",
-      "text": "Careful, Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3594ef52913c07f76f85b033aa8777f53ea73c8c1d1013a0cbb7081ca7908d30",
+      "sha256": [
+        "3594ef52913c07f76f85b033aa8777f53ea73c8c1d1013a0cbb7081ca7908d30",
+        "b0444d7d5fedd29d12c4e70a918287a7ec3fcd5caad72fb8afe8b43bf0edc377",
+        "b3ab927dde67967ffa1c50bdc8b5a7236b18d385de4a5f23d55647301b14e7f5"
+      ],
       "text": "Careful, Abrams.",
       "source": "official"
     }

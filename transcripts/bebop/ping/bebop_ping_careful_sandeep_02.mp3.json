@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_sandeep_02.mp3",
   "revisions": [
     {
-      "sha256": "d162f409d362ba444b4a3dee3d0ee48b2f8dc2367b8b3846ab63c1621c52b844",
-      "text": "Careful, Sandy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a6821ac61e834af9376c9797a4fe5aa72a2393bf00f00b04dd6eae4985c3ffb",
+      "sha256": [
+        "2a6821ac61e834af9376c9797a4fe5aa72a2393bf00f00b04dd6eae4985c3ffb",
+        "d162f409d362ba444b4a3dee3d0ee48b2f8dc2367b8b3846ab63c1621c52b844"
+      ],
       "text": "Careful, Sandy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

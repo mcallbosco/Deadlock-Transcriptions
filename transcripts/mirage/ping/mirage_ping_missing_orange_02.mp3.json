@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_missing_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "72d3cf3aacad93ff5ac40977a234d4efa060188733e43e13458e4050db1e9814",
+      "sha256": [
+        "72d3cf3aacad93ff5ac40977a234d4efa060188733e43e13458e4050db1e9814",
+        "e6f165aa44a9d0f8ffd909cd764e46b686dea1d25c1b5dafd3d3a5fd80505715"
+      ],
       "text": "This is bullshit.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6f165aa44a9d0f8ffd909cd764e46b686dea1d25c1b5dafd3d3a5fd80505715",
-      "text": "This is bullshit!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

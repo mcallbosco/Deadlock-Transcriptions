@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_negative_02.mp3",
   "revisions": [
     {
-      "sha256": "4173f0aacd58ce0d9c1ee760c55e467cead4e6806633c327b6bce9c5c63b0b5c",
+      "sha256": [
+        "4173f0aacd58ce0d9c1ee760c55e467cead4e6806633c327b6bce9c5c63b0b5c"
+      ],
       "text": "No, no.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dce2553b06295b530607bea52bf786cdc83933d5959b967edbc2ed6655106f9a",
+      "sha256": [
+        "dce2553b06295b530607bea52bf786cdc83933d5959b967edbc2ed6655106f9a"
+      ],
       "text": "I don't know.",
       "source": "official"
     }

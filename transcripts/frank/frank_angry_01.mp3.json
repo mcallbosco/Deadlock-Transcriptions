@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_angry_01.mp3",
   "revisions": [
     {
-      "sha256": "b789645e06959a9b58f872a403cebb21f6877b4df59fe2caa48429c37a1429e2",
+      "sha256": [
+        "b789645e06959a9b58f872a403cebb21f6877b4df59fe2caa48429c37a1429e2"
+      ],
       "text": "Damn you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

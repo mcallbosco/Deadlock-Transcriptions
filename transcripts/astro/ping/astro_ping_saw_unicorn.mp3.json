@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_saw_unicorn.mp3",
   "revisions": [
     {
-      "sha256": "29f497afdb485b11af33bc0a2ade12da64fbc2b078aa583d0debd4f308334a7d",
+      "sha256": [
+        "29f497afdb485b11af33bc0a2ade12da64fbc2b078aa583d0debd4f308334a7d"
+      ],
       "text": "I saw Celeste.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

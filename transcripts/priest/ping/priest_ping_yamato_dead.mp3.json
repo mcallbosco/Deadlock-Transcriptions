@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "f8f517125201f95fa97f580221d6c1d907f6bc6769e827b9aff8d5563c343d88",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cfc5bb0eace4f3baaa926cdcf7f733fe87e2194b1b20ad21454fd4cf0050fe99",
+      "sha256": [
+        "cfc5bb0eace4f3baaa926cdcf7f733fe87e2194b1b20ad21454fd4cf0050fe99",
+        "f8f517125201f95fa97f580221d6c1d907f6bc6769e827b9aff8d5563c343d88"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

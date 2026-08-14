@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_see_wrecker_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "fa74656db33a829db80ce8b6a5e3c0b2b09510b59624e59f8605e9a0eefdc130",
-      "text": "Records on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a492435ac84d67b3f0a7af47946171b524a0433ad7f7c136133583ccd15ab23",
+      "sha256": [
+        "5a492435ac84d67b3f0a7af47946171b524a0433ad7f7c136133583ccd15ab23",
+        "fa74656db33a829db80ce8b6a5e3c0b2b09510b59624e59f8605e9a0eefdc130"
+      ],
       "text": "Records on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

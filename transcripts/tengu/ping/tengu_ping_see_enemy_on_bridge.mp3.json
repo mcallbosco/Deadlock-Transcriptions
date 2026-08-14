@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_enemy_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c52568e53ad5d8110665cb6c9e096907d804685a0706690551a751210d2e9f4f",
-      "text": "Enemy's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "549882504d8f978bd2932c09e41fe33dbfe3609165c5b60c7c556083e84c7052",
+      "sha256": [
+        "549882504d8f978bd2932c09e41fe33dbfe3609165c5b60c7c556083e84c7052",
+        "c52568e53ad5d8110665cb6c9e096907d804685a0706690551a751210d2e9f4f"
+      ],
       "text": "Enemy's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_lash_was_here.mp3",
   "revisions": [
     {
-      "sha256": "cd9b2c52957cedcd1ffa19ad7814b4316c401f91f36707c160ca5841e45959cb",
+      "sha256": [
+        "cd9b2c52957cedcd1ffa19ad7814b4316c401f91f36707c160ca5841e45959cb"
+      ],
       "text": "Lash was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

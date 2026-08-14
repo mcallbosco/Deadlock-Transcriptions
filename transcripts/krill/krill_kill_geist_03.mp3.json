@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_geist_03.mp3",
   "revisions": [
     {
-      "sha256": "de3518da7a97bfbf28bb4c6a56a44a50d9072177d4cc98681cbb52782af12aa0",
-      "text": "Lady Geist was a monster that needed to be put down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b777e00065df592def7b63f0bd4008fce18f3d4cf274bc8c9cf45079da61f43f",
+      "sha256": [
+        "b777e00065df592def7b63f0bd4008fce18f3d4cf274bc8c9cf45079da61f43f",
+        "de3518da7a97bfbf28bb4c6a56a44a50d9072177d4cc98681cbb52782af12aa0"
+      ],
       "text": "Lady Geist was a monster that needed to be put down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

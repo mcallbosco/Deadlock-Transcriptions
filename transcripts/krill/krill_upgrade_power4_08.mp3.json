@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_upgrade_power4_08.mp3",
   "revisions": [
     {
-      "sha256": "ca5c61b675b68aa17e69045a12327fbdad151ea1fb3d3795a7b7145d9721f647",
+      "sha256": [
+        "1db99e17758dc7372cb42b5f00917fb3bcc5fed5e8c54504796c9f4805e52a43",
+        "ca5c61b675b68aa17e69045a12327fbdad151ea1fb3d3795a7b7145d9721f647",
+        "d7ab80d2ae22d86aa092546c5a637aa553d22065b88e24d9cd800e478bb00920"
+      ],
       "text": "Maurice will make short work of anyone.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1db99e17758dc7372cb42b5f00917fb3bcc5fed5e8c54504796c9f4805e52a43",
-      "text": "Maurice will make short work of anyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7ab80d2ae22d86aa092546c5a637aa553d22065b88e24d9cd800e478bb00920",
-      "text": "Maurice will make short work of anyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d005b8cda4a27d4ea67855100fbf9db4c23a044ef4d6081d188c3ddda367f741",
+      "sha256": [
+        "d005b8cda4a27d4ea67855100fbf9db4c23a044ef4d6081d188c3ddda367f741"
+      ],
       "text": "Maurice'll make short work of anyone.",
       "source": "official"
     }

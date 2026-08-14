@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_careful_the_boss_01.mp3",
   "revisions": [
     {
-      "sha256": "557079631fb59944365a575f8a516838c9d7e0b7e0a82d78db8ac7a57b121447",
-      "text": "Careful boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d84a36d70d5aa6886240c37b5fc3a7dc61783ef58e536f50fc44be1e18a7ce1",
+      "sha256": [
+        "4d84a36d70d5aa6886240c37b5fc3a7dc61783ef58e536f50fc44be1e18a7ce1",
+        "557079631fb59944365a575f8a516838c9d7e0b7e0a82d78db8ac7a57b121447"
+      ],
       "text": "Careful boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

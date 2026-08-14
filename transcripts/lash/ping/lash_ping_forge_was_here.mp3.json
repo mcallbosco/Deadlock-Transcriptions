@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_forge_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c438539b8738b8c7ff794a79964993fd4440557b782848c7f8ee9237b05ac186",
+      "sha256": [
+        "c438539b8738b8c7ff794a79964993fd4440557b782848c7f8ee9237b05ac186",
+        "eabad0c56b82f5c6631cd90dd5ac54c700b85782430bd38c41b09e117f930e6f"
+      ],
       "text": "McGinnis is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6bc29371a8e0843401b9a69cc3f2e0d210b57961a6cfc3550055d83806c30a50",
+      "sha256": [
+        "6bc29371a8e0843401b9a69cc3f2e0d210b57961a6cfc3550055d83806c30a50",
+        "a3af27b10cb1848ac63186423f5531ac56b4cbf700278a3bad9eaf41e42bf441"
+      ],
       "text": "Again this year.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a3af27b10cb1848ac63186423f5531ac56b4cbf700278a3bad9eaf41e42bf441",
-      "text": "Again this year.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eabad0c56b82f5c6631cd90dd5ac54c700b85782430bd38c41b09e117f930e6f",
-      "text": "McGinnis is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

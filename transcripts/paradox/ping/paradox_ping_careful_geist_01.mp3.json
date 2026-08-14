@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_geist_01.mp3",
   "revisions": [
     {
-      "sha256": "c14992b739860828b11a69a136a1b3dd98131080d1abc850629af1d7b383b4d0",
-      "text": "Careful, guys.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91c18efc5088423d5e42b9752116a7c250df31f9db6b75fec91af5b50b6745c6",
+      "sha256": [
+        "91c18efc5088423d5e42b9752116a7c250df31f9db6b75fec91af5b50b6745c6",
+        "c14992b739860828b11a69a136a1b3dd98131080d1abc850629af1d7b383b4d0"
+      ],
       "text": "Careful, guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

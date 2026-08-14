@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_use_smoke_02.mp3",
   "revisions": [
     {
-      "sha256": "621f9fe04831ac2d92fed3657477c3b1f9fd883e7eda1a9f4d2a3f6569b814ea",
-      "text": "Time to be a little sneaky.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc89a3066a7f3213a59735eb3c9cef57652110a68f347c60a8592b7566aa988a",
-      "text": "Time to be a little sneaky.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0859bb4d17a0555032a4daa5c364708f7be95c9192cb5cbc92d19092706d70a2",
+      "sha256": [
+        "0859bb4d17a0555032a4daa5c364708f7be95c9192cb5cbc92d19092706d70a2",
+        "621f9fe04831ac2d92fed3657477c3b1f9fd883e7eda1a9f4d2a3f6569b814ea",
+        "fc89a3066a7f3213a59735eb3c9cef57652110a68f347c60a8592b7566aa988a"
+      ],
       "text": "Time to be a little sneaky.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_see_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "7613445a6bf11b39fb6410e01734f2571936f1c37d9b97ef5e907b077ff1e355",
-      "text": "I see Forge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "713b29752a8e77b204db73d9fffe7597ba8ac5b3182345aec426b0642ff2534a",
+      "sha256": [
+        "713b29752a8e77b204db73d9fffe7597ba8ac5b3182345aec426b0642ff2534a",
+        "7613445a6bf11b39fb6410e01734f2571936f1c37d9b97ef5e907b077ff1e355"
+      ],
       "text": "I see Forge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

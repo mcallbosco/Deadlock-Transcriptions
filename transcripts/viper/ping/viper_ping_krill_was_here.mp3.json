@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_krill_was_here.mp3",
   "revisions": [
     {
-      "sha256": "22ea8c3010e5dc500cf648751973316f43a1a6282cd13d3cea5d562adf1467a4",
+      "sha256": [
+        "22ea8c3010e5dc500cf648751973316f43a1a6282cd13d3cea5d562adf1467a4"
+      ],
       "text": "Krill was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9745b7f4cc6c0edcc7d66c75f81421974ad7e6ecf93519b06c2323a19c568122",
-      "text": "Crow was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f239b2298b429429f3900c8830c9f2d78bac458e3b96d531c8a5d8c078d64d7",
+      "sha256": [
+        "7f239b2298b429429f3900c8830c9f2d78bac458e3b96d531c8a5d8c078d64d7",
+        "9745b7f4cc6c0edcc7d66c75f81421974ad7e6ecf93519b06c2323a19c568122"
+      ],
       "text": "Crow was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

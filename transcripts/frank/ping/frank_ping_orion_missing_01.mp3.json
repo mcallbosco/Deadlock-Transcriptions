@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "fd320155fa78b023a62c68d2554ab840ef3a83cacee30efe56cc7b21f6862a15",
-      "text": "Grey Talon's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ced783c342eb30a6b37cff0e0d5cb28a49229d3164e8e079a89b7c98c483636",
+      "sha256": [
+        "3ced783c342eb30a6b37cff0e0d5cb28a49229d3164e8e079a89b7c98c483636",
+        "fd320155fa78b023a62c68d2554ab840ef3a83cacee30efe56cc7b21f6862a15"
+      ],
       "text": "Grey Talon's missing.",
       "source": "official"
     }

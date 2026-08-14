@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_careful_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "8f9fd852c63df8f37fefc5f06a49a117abf418d7bb1c38677bfbd885a5685edb",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "42ee794a79fe28af4567436fe8e75f906e84aa4a4ea8979eff4d455b257285ef",
+      "sha256": [
+        "42ee794a79fe28af4567436fe8e75f906e84aa4a4ea8979eff4d455b257285ef",
+        "8f9fd852c63df8f37fefc5f06a49a117abf418d7bb1c38677bfbd885a5685edb"
+      ],
       "text": "Careful, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

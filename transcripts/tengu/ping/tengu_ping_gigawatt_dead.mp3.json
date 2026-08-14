@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_gigawatt_dead.mp3",
   "revisions": [
     {
-      "sha256": "3d256ba0c4b0a7dd583fc7e112223d966a5433c378c7f8d236e77a842564c9a1",
-      "text": "Seven is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "215a6947baa2cd13010e59e82644873f5d8c9767f6d427ad9c7b70e54646eb5e",
+      "sha256": [
+        "215a6947baa2cd13010e59e82644873f5d8c9767f6d427ad9c7b70e54646eb5e",
+        "3d256ba0c4b0a7dd583fc7e112223d966a5433c378c7f8d236e77a842564c9a1"
+      ],
       "text": "Seven is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

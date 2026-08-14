@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "bb1b07fa77212f5207aebcf39f0ba3d755e5f507065ccc1959ce08615ae8e64f",
-      "text": "Warden's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "a444a4a0e40c7d05903ffd28292a2477093c6518c61447621b1d3a4b01ebb3e3",
+        "bb1b07fa77212f5207aebcf39f0ba3d755e5f507065ccc1959ce08615ae8e64f"
+      ],
+      "text": "Warden's missing",
+      "source": "official"
     },
     {
-      "sha256": "dc25c7a42d8c6c6044591bf71809bf874c587f20f5d6e61fcf6239cf617dd7c9",
+      "sha256": [
+        "dc25c7a42d8c6c6044591bf71809bf874c587f20f5d6e61fcf6239cf617dd7c9"
+      ],
       "text": "What is missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a444a4a0e40c7d05903ffd28292a2477093c6518c61447621b1d3a4b01ebb3e3",
-      "text": "Warden's missing",
-      "source": "official"
     }
   ]
 }

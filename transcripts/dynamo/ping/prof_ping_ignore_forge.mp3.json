@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_ignore_forge.mp3",
   "revisions": [
     {
-      "sha256": "7c2d86ac61fcfd8a49b8ce16315064ff6ec436ae6829ad476f68450fb8aa86ba",
+      "sha256": [
+        "6b547409dbf470d4ff1272f58a99177859e203fc1273705fae8cd47561a6241f",
+        "7c2d86ac61fcfd8a49b8ce16315064ff6ec436ae6829ad476f68450fb8aa86ba"
+      ],
       "text": "Ignore McGinnis!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b547409dbf470d4ff1272f58a99177859e203fc1273705fae8cd47561a6241f",
-      "text": "Ignore McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

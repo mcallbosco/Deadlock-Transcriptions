@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_cadence_02.mp3",
   "revisions": [
     {
-      "sha256": "661dc57a65edc278d79bca929b354804c1035595aec5a252fb797073b7303b19",
+      "sha256": [
+        "661dc57a65edc278d79bca929b354804c1035595aec5a252fb797073b7303b19"
+      ],
       "text": "I see Candace, a table, whatever.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6e5ec4e571c80f5b0c059831e3defb23c34c4939d8997da51558be3500c8fc04",
+      "sha256": [
+        "6e5ec4e571c80f5b0c059831e3defb23c34c4939d8997da51558be3500c8fc04"
+      ],
       "text": "I see Candace, like Tavis, whatever.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

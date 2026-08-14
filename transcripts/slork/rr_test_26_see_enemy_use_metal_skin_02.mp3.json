@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_see_enemy_use_metal_skin_02.mp3",
   "revisions": [
     {
-      "sha256": "b8eb82cbf9e648469cde86d91ffd9851bdc3adbf6b7f11c6e3bd1d1a25ad8e23",
+      "sha256": [
+        "a5aee5c020ed657547d5f47ec8b3e9e2819d9357d4bd6f701ded7a8e8e734ad2",
+        "b8eb82cbf9e648469cde86d91ffd9851bdc3adbf6b7f11c6e3bd1d1a25ad8e23"
+      ],
       "text": "They have metal skin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5aee5c020ed657547d5f47ec8b3e9e2819d9357d4bd6f701ded7a8e8e734ad2",
-      "text": "They have metal skin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

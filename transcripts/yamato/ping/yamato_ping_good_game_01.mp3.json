@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_good_game_01.mp3",
   "revisions": [
     {
-      "sha256": "f70e985d2de56355fa71e88b6417c79113c13f40858724b560a4bc1b0e5f667e",
+      "sha256": [
+        "f70e985d2de56355fa71e88b6417c79113c13f40858724b560a4bc1b0e5f667e"
+      ],
       "text": "You fought well.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "93ce0587896fbb06157320dbe26f291aa2582e44178295045f82b3482add6a4b",
-      "text": "Well fought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67022e16fdb61fce14d7c5cccc07b646ef2f80c51ab67bcfded8ef5f5c76586d",
+      "sha256": [
+        "67022e16fdb61fce14d7c5cccc07b646ef2f80c51ab67bcfded8ef5f5c76586d",
+        "93ce0587896fbb06157320dbe26f291aa2582e44178295045f82b3482add6a4b"
+      ],
       "text": "Well fought.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_atlas.mp3",
   "revisions": [
     {
-      "sha256": "9fcebf61928556c96cdb3b28b7306fc8e98a4585ddce54cd75c0e090b361c8c2",
+      "sha256": [
+        "9fcebf61928556c96cdb3b28b7306fc8e98a4585ddce54cd75c0e090b361c8c2"
+      ],
       "text": "Hey, Boonzak, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f489fea53c0c3f128c3ddbacc1d310bbd435faa39f97f7d6969bb873b795447f",
+      "sha256": [
+        "f489fea53c0c3f128c3ddbacc1d310bbd435faa39f97f7d6969bb873b795447f"
+      ],
       "text": "Abrams, I can heal you!",
       "source": "official"
     }

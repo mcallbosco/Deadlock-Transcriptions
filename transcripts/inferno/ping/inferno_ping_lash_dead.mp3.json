@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_lash_dead.mp3",
   "revisions": [
     {
-      "sha256": "8194c30ffcaba9358047ce75a2f97c198eb5b023869b8f765e3ef6f5e3e11e99",
+      "sha256": [
+        "68d1f3c4b91380de881781ab1799dc57df4fc123fbb0ab71e793365de743aca8",
+        "8194c30ffcaba9358047ce75a2f97c198eb5b023869b8f765e3ef6f5e3e11e99"
+      ],
       "text": "Slash is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "738cd2a9cc72444868f11e03f17a4b11998b303a601dce32a25a02b73436edb7",
+      "sha256": [
+        "738cd2a9cc72444868f11e03f17a4b11998b303a601dce32a25a02b73436edb7"
+      ],
       "text": "Flash is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68d1f3c4b91380de881781ab1799dc57df4fc123fbb0ab71e793365de743aca8",
-      "text": "Slash is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "b98c9b341e71449f940601223cdccc93471226b8154bd0781a49193fbc3d04cb",
-      "text": "I see that animal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95cd9de92b379d34883b2ed6f1906c06e8f688f467d8a39dc386129073a8a789",
+      "sha256": [
+        "95cd9de92b379d34883b2ed6f1906c06e8f688f467d8a39dc386129073a8a789",
+        "b98c9b341e71449f940601223cdccc93471226b8154bd0781a49193fbc3d04cb"
+      ],
       "text": "I see that animal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

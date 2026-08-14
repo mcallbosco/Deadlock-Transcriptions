@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "a23acbb84bfcad6161b40292517f4ebd363089c03e1b046a46a591ac9ae878e4",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09e52da4d701c50ad5bff245a9cd1aeb5291b4ff443ae4fbd77a1cde3e6412f4",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3dd313f0acace4306fb5133676fb7c0204b643fe9a89d694b599a2f31a811439",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b7f7f6f12f50a84cc1f0a4f53562db280d25158e189d8d6c0e07773a8d0f3618",
+      "sha256": [
+        "09e52da4d701c50ad5bff245a9cd1aeb5291b4ff443ae4fbd77a1cde3e6412f4",
+        "3dd313f0acace4306fb5133676fb7c0204b643fe9a89d694b599a2f31a811439",
+        "a23acbb84bfcad6161b40292517f4ebd363089c03e1b046a46a591ac9ae878e4",
+        "b7f7f6f12f50a84cc1f0a4f53562db280d25158e189d8d6c0e07773a8d0f3618"
+      ],
       "text": "Good job.",
       "source": "official"
     }

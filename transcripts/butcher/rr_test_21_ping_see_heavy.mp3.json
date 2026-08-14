@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_heavy.mp3",
   "revisions": [
     {
-      "sha256": "f3494254ff017e05e3ba8194cc50bf600a565a54d443eee742a113e9c8424595",
-      "text": "That's the heavy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4add38b523652c0e6b9cd128c6434241fdcaab98d0c7172f15c4522e2dad27e1",
-      "text": "That's the heavy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "320196c73963202a3830d2e8b7ae3331ca659e80bafd65cfad3a9567527b9b12",
+      "sha256": [
+        "320196c73963202a3830d2e8b7ae3331ca659e80bafd65cfad3a9567527b9b12",
+        "4add38b523652c0e6b9cd128c6434241fdcaab98d0c7172f15c4522e2dad27e1",
+        "f3494254ff017e05e3ba8194cc50bf600a565a54d443eee742a113e9c8424595"
+      ],
       "text": "That's the heavy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

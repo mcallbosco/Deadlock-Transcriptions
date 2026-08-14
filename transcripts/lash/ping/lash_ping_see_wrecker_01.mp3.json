@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "e384ead38450dcd7f95a1f35115e9ada0472222637d51cbe3d826615ec2dc564",
-      "text": "I see Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "14ef8311225a560175d192aea1ef643cbd5afa6ccbe93b45c0c0dbf144315b41",
-      "text": "I see Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce782045982c0e5d102cb2c33c54867cd2d56d41bbf76f9b64852bbab1ed9696",
-      "text": "I see wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "002e77f903a99123b4ff8267e279cc94b91ebcd191ee18b315aab97d65d3c7cf",
+      "sha256": [
+        "002e77f903a99123b4ff8267e279cc94b91ebcd191ee18b315aab97d65d3c7cf",
+        "14ef8311225a560175d192aea1ef643cbd5afa6ccbe93b45c0c0dbf144315b41",
+        "ce782045982c0e5d102cb2c33c54867cd2d56d41bbf76f9b64852bbab1ed9696",
+        "e384ead38450dcd7f95a1f35115e9ada0472222637d51cbe3d826615ec2dc564"
+      ],
       "text": "I see Wrecker",
       "source": "official"
     }

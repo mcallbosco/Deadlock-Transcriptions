@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_right_back_01.mp3",
   "revisions": [
     {
-      "sha256": "fbd52e6397939831cf4ff9c25917d02ea4e12a3161a4803eefb3cd40a9d937cd",
-      "text": "I'll be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f5f33e5fd6fc0fd37a1b30da3d5e66becc8dc59b89af85c34cb3c7ef4174004",
+      "sha256": [
+        "3f5f33e5fd6fc0fd37a1b30da3d5e66becc8dc59b89af85c34cb3c7ef4174004",
+        "fbd52e6397939831cf4ff9c25917d02ea4e12a3161a4803eefb3cd40a9d937cd"
+      ],
       "text": "I'll be right back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

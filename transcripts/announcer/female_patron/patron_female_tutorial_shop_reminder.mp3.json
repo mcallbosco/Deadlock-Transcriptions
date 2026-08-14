@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_shop_reminder.mp3",
   "revisions": [
     {
-      "sha256": "b37e3e5d564eea907056dc0003f2ee9e8f1a5c18b53eec8cc0a7544c4d3590ce",
-      "text": "Don't forget to use that money you saved up to buy some gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a036bb084d51a034fc1ff5fcb46c5edf4d79478681be4d09cbd58e7f5afea79a",
+      "sha256": [
+        "a036bb084d51a034fc1ff5fcb46c5edf4d79478681be4d09cbd58e7f5afea79a",
+        "b37e3e5d564eea907056dc0003f2ee9e8f1a5c18b53eec8cc0a7544c4d3590ce"
+      ],
       "text": "Don't forget to use that money you saved up to buy some gear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

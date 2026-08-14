@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "f8ea2dbcdf64255f2e386ed853b97c6033f1839a69dc571de1e39094cc7bcbda",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "749cd03c9ffcc55122797367eb3d91de17b3d57d0e947a8b042c15f224a33a04",
+      "sha256": [
+        "749cd03c9ffcc55122797367eb3d91de17b3d57d0e947a8b042c15f224a33a04",
+        "f8ea2dbcdf64255f2e386ed853b97c6033f1839a69dc571de1e39094cc7bcbda"
+      ],
       "text": "I see Yamato",
       "source": "official"
     }

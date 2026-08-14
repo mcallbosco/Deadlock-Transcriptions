@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_haze_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "6a34f5249a586ab57f587ea6fad1178073c3ed9dba48b4b073563c3477fa4ae5",
+      "sha256": [
+        "6a34f5249a586ab57f587ea6fad1178073c3ed9dba48b4b073563c3477fa4ae5"
+      ],
       "text": "He's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0cbe76645f15f43e19169d1a4901ef8728e0d811d8ed29d9be9f949ff3152fc",
-      "text": "Hey, he's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7600ffea658062d7053d23995f23fa4a143d5e3d39b3dc7c6fd5b85153566d94",
+      "sha256": [
+        "7600ffea658062d7053d23995f23fa4a143d5e3d39b3dc7c6fd5b85153566d94",
+        "f0cbe76645f15f43e19169d1a4901ef8728e0d811d8ed29d9be9f949ff3152fc"
+      ],
       "text": "Hey, he's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

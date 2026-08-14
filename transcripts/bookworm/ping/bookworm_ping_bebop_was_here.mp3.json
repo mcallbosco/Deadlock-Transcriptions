@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "80a1e3a6498a81c6c51688dcd0e304ff552bb1be2c5851662a53113fd6b4f8e3",
-      "text": "Bebop was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd033f73d6bbd64f4b2b707c6d559e42c28fde7f14b37838e39cbb16766af183",
+      "sha256": [
+        "80a1e3a6498a81c6c51688dcd0e304ff552bb1be2c5851662a53113fd6b4f8e3",
+        "bd033f73d6bbd64f4b2b707c6d559e42c28fde7f14b37838e39cbb16766af183"
+      ],
       "text": "Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

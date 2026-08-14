@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "e60dca579e7a6f0ab4a534d32f93d696d1e36dc6bac3423d108554d41fd4d70c",
+      "sha256": [
+        "e60dca579e7a6f0ab4a534d32f93d696d1e36dc6bac3423d108554d41fd4d70c"
+      ],
       "text": "I saw a diamond.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b904a22fe9da8bffbce3831dc66b6c778f2c8c423face60aabc08a5197899128",
-      "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbdb954c6c3ce832c0bec924965910cada6b18ed58a35a588c109a0ce7ba7913",
-      "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab62297ea0dfd479fa11248f2ac550aa75e2d090cb79df95d66eff0da3ac2680",
+      "sha256": [
+        "ab62297ea0dfd479fa11248f2ac550aa75e2d090cb79df95d66eff0da3ac2680",
+        "b904a22fe9da8bffbce3831dc66b6c778f2c8c423face60aabc08a5197899128",
+        "fbdb954c6c3ce832c0bec924965910cada6b18ed58a35a588c109a0ce7ba7913"
+      ],
       "text": "I saw Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

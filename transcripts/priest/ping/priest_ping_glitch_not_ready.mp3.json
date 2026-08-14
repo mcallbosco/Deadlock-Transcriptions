@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_glitch_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "fc12f607180be5d29c06a4192bfa151b58f59e3e7976eae560fbff7d66fe34fa",
-      "text": "Curse is on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "887da90a5c27328b6fad768b55ee8faad64cf17e4e584328ac9e4a71d294b266",
+      "sha256": [
+        "887da90a5c27328b6fad768b55ee8faad64cf17e4e584328ac9e4a71d294b266",
+        "fc12f607180be5d29c06a4192bfa151b58f59e3e7976eae560fbff7d66fe34fa"
+      ],
       "text": "Curse is on cooldown.",
       "source": "official"
     }

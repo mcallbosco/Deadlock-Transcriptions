@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ca3eea984844243a6287c21c4c91bb9cdb24d9a220caed8af4c224e0719fc828",
+      "sha256": [
+        "1ce2e1a115d5feb087781545e0124191543ec883b32e9b5b2e0926934eee23cf",
+        "ca3eea984844243a6287c21c4c91bb9cdb24d9a220caed8af4c224e0719fc828"
+      ],
       "text": "Gordon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0c88b8ee08599a7f45d4618563c41df7695d6f645f1d1fb95523bb1fce43c19c",
+      "sha256": [
+        "0c88b8ee08599a7f45d4618563c41df7695d6f645f1d1fb95523bb1fce43c19c",
+        "910a40ab32592d586236f6f425470104f8b3265a2e28fd95093b752ae6ab49ab"
+      ],
       "text": "Warden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "910a40ab32592d586236f6f425470104f8b3265a2e28fd95093b752ae6ab49ab",
-      "text": "Warden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ce2e1a115d5feb087781545e0124191543ec883b32e9b5b2e0926934eee23cf",
-      "text": "Gordon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

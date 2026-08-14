@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_wraith_02.mp3",
   "revisions": [
     {
-      "sha256": "46d6c63b59d0202d3f822c602ea0184866a499aa1934da0ee52b8d556a7cc71b",
+      "sha256": [
+        "46d6c63b59d0202d3f822c602ea0184866a499aa1934da0ee52b8d556a7cc71b"
+      ],
       "text": "Grace is approaching.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ed178887cb1acda06b9e104ebc6257b169ddab5bff76bde0695ea76fc8ef711",
+      "sha256": [
+        "4ed178887cb1acda06b9e104ebc6257b169ddab5bff76bde0695ea76fc8ef711"
+      ],
       "text": "We are is about.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "02b8a5c34a3e43bdc23ce2266f76b7edeb7484e0123a7ed2eb8c8cf806d2562b",
+      "sha256": [
+        "02b8a5c34a3e43bdc23ce2266f76b7edeb7484e0123a7ed2eb8c8cf806d2562b",
+        "19cbb1df39ee474e461fc83cae2ac7ddaea55fc29251b2f9bc5ecfd337a9ed41"
+      ],
       "text": "Rage is about.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "19cbb1df39ee474e461fc83cae2ac7ddaea55fc29251b2f9bc5ecfd337a9ed41",
-      "text": "Rage is about.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86d2de5f8ecb2099d5412957dd9bb889739be84aba128479136e316d3084f45d",
+      "sha256": [
+        "86d2de5f8ecb2099d5412957dd9bb889739be84aba128479136e316d3084f45d"
+      ],
       "text": "There's the gambler",
       "source": "official"
     }

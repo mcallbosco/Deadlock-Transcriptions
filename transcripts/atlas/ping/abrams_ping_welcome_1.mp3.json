@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_welcome_1.mp3",
   "revisions": [
     {
-      "sha256": "85bdaadabfc39f1f5f69ac8323372b20df92df73ec9594f187a25a27944079fc",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f65ba07bde54304fbd20378dd4c279cc8a6a92e47d02d7720a13ada62d84d56",
+      "sha256": [
+        "85bdaadabfc39f1f5f69ac8323372b20df92df73ec9594f187a25a27944079fc",
+        "8f65ba07bde54304fbd20378dd4c279cc8a6a92e47d02d7720a13ada62d84d56"
+      ],
       "text": "You're welcome.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

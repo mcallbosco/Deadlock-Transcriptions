@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_careful_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "b4acb12338bf0749927e033076edebd4a3dba9f39c43ee81529be33850f2cefa",
+      "sha256": [
+        "b4acb12338bf0749927e033076edebd4a3dba9f39c43ee81529be33850f2cefa"
+      ],
       "text": "Careful, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

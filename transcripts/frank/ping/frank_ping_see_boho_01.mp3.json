@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_boho_01.mp3",
   "revisions": [
     {
-      "sha256": "8b6dea7d0c2dac3fc8f10972784450af6a31e3a80ea149d58b6bce22535944d5",
-      "text": "I see the witch.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36c5abd3ffa203a90a2fd6f08bb120f663cdacb8892c43f4778625572aff3da9",
+      "sha256": [
+        "36c5abd3ffa203a90a2fd6f08bb120f663cdacb8892c43f4778625572aff3da9",
+        "8b6dea7d0c2dac3fc8f10972784450af6a31e3a80ea149d58b6bce22535944d5"
+      ],
       "text": "I see the witch.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

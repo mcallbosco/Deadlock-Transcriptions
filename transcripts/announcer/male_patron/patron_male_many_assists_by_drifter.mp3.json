@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_many_assists_by_drifter.mp3",
   "revisions": [
     {
-      "sha256": "a5437e10960685d05aba4c7362d47ecec1574d81b3020546e7ccc0582561d923",
+      "sha256": [
+        "a5437e10960685d05aba4c7362d47ecec1574d81b3020546e7ccc0582561d923"
+      ],
       "text": "Grifter, your hand is felt across the battlefield.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "db545eb34fab64c11e402ddac9467faf31c9c2398d8c630ce6090121d83369d2",
+      "sha256": [
+        "db545eb34fab64c11e402ddac9467faf31c9c2398d8c630ce6090121d83369d2"
+      ],
       "text": "Drifter, your hand is felt across the battlefield",
       "source": "official"
     }

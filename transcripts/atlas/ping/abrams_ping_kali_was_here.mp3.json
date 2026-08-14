@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_kali_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e3e3e92975c7ae1bb53a6775b78d22d774d7237a7f81797c214cc750294196e4",
-      "text": "Call was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88fc98198dcedf4ac3006af6a8f16b0b7e15b71bd33dc381cc0a1eebb5f59f5d",
+      "sha256": [
+        "88fc98198dcedf4ac3006af6a8f16b0b7e15b71bd33dc381cc0a1eebb5f59f5d",
+        "e3e3e92975c7ae1bb53a6775b78d22d774d7237a7f81797c214cc750294196e4"
+      ],
       "text": "Call was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

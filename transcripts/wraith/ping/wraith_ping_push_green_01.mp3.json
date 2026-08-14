@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_push_green_01.mp3",
   "revisions": [
     {
-      "sha256": "ca961bdbba175298051b4e6917010224786c4063fdbfb0a6b71f9a712320de40",
-      "text": "Let's push green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56ba31767eee452701b262bf685f85435e7abd2ee88defc797a0af767d9ad154",
-      "text": "Let's push green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "588e44d44e5c6b2db44338cdfd30334a8a13ff75a86c11ff55d911e376768d46",
+      "sha256": [
+        "56ba31767eee452701b262bf685f85435e7abd2ee88defc797a0af767d9ad154",
+        "588e44d44e5c6b2db44338cdfd30334a8a13ff75a86c11ff55d911e376768d46",
+        "ca961bdbba175298051b4e6917010224786c4063fdbfb0a6b71f9a712320de40"
+      ],
       "text": "Let's push Green",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_deny_01.mp3",
   "revisions": [
     {
-      "sha256": "dcce8792173d7a120b8c8bb4ab39e14aa00b855625078897486e590dad636118",
-      "text": "Sorry, buddy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a92b6b83181fdfa5f59ebe7a2dc9721284e1423aeac6cc16b9eaf4e0192ffb5",
+      "sha256": [
+        "1a92b6b83181fdfa5f59ebe7a2dc9721284e1423aeac6cc16b9eaf4e0192ffb5",
+        "dcce8792173d7a120b8c8bb4ab39e14aa00b855625078897486e590dad636118"
+      ],
       "text": "Sorry, buddy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

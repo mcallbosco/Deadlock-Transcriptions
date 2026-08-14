@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_stun_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "8d30e7da508d889146d74e5aad22371f213c619719f45005471a4b90dd440d88",
+      "sha256": [
+        "8d30e7da508d889146d74e5aad22371f213c619719f45005471a4b90dd440d88"
+      ],
       "text": "Sun Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

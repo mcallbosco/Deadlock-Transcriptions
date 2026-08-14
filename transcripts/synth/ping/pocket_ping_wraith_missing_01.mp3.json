@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6b515cba4c7cb86a10ab846c6b06def3883a3192aaea7d7d0f87acffa4c02e72",
-      "text": "Wraith's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe20f5b4d127834fc8b24b6e3a40d2001f194b2cd4487e074baa9114fd168e36",
+      "sha256": [
+        "6b515cba4c7cb86a10ab846c6b06def3883a3192aaea7d7d0f87acffa4c02e72",
+        "fe20f5b4d127834fc8b24b6e3a40d2001f194b2cd4487e074baa9114fd168e36"
+      ],
       "text": "Wraith's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

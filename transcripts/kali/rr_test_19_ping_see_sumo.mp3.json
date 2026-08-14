@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_see_sumo.mp3",
   "revisions": [
     {
-      "sha256": "ed8438d142123ccdffb9f0bb1d0b00cc492e4e31a76e62c3cd1f101ab8090a3c",
+      "sha256": [
+        "ed8438d142123ccdffb9f0bb1d0b00cc492e4e31a76e62c3cd1f101ab8090a3c"
+      ],
       "text": "Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52ad8925ec397799c7ccf7751daa35550f986a5e9653380443411bb4c6f2ed96",
+      "sha256": [
+        "52ad8925ec397799c7ccf7751daa35550f986a5e9653380443411bb4c6f2ed96"
+      ],
       "text": "Hello, my name is Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bb12af2d461a7684c92c954c4667e8d2cecf24d437b475f3df0db746ca27b7f4",
+      "sha256": [
+        "bb12af2d461a7684c92c954c4667e8d2cecf24d437b475f3df0db746ca27b7f4"
+      ],
       "text": "context: ###\nTranscribe this Deadlock voice line in English exactly. Preserve all spoken words. Do not add commentary or quotation marks. The following JSON contains authoritative Deadlock spellings, terminology, and transcription guidelines. Follow it when applicable: {\"Characters\":[\"Holliday\",\"Shelly Fisher\",\"Geist\",\"Marla\",\"Marlowe\",\"Troubadour\",\"Nashala Dion\",\"Viscous\",\"John Hathorne\",\"Edrick\",\"Captain Murphy\",\"Holliday\",\"Infernus\",\"Kelvin\",\"Abrams\",\"Vindicta\",\"Operative\",\"Bebop\",\"Cadence\",\"Paradox\",\"Dynamo\",\"McGinnis\",\"Lady Geist\",\"Seven\",\"Haze\",\"Krill\",\"Lash\",\"Magician\",\"Mirage\",\"Nano\",\"Grey Talon\",\"Shiv\",\"Slork\",\"Pocket\",\"Ivy\",\"Trapper\",\"Vyper\",\"Viscous\",\"Warden\",\"Wraith\",\"Wrecker\",\"Yamato\",\"Fern\",\"Mina Ha\",\"Doorman\",\"Paige\",\"Rem\",\"Apollo\",\"Graves\",\"Pepper\",\"Silver\",\"Venator\"],\"Groups\":[\"Djinn\"],\"Places\":[\"Ixia\",\"Blackmore\"],\"Abilities\":[\"Ping\"],\"Game Terms\":[\"Mid\",\"Mid-Boss\",\"Gank\",\"Payload\",\"Capture\",\"Control\",\"Escort\"],\"Transcription Guidelines\":[\"Use sentence case for all transcriptions.\",\"Use standard punctuation.\",\"Follow the above spelling for ambiguous names.\",\"Do not include extra whitespace at the beginning or end of transcriptions.\"]}\n###",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

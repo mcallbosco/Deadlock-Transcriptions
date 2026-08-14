@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_ignore_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "9ae493d317e43dc906a1f657c61ab72c4854ef54b5546804ce7023410ff952bf",
+      "sha256": [
+        "9ae493d317e43dc906a1f657c61ab72c4854ef54b5546804ce7023410ff952bf"
+      ],
       "text": "Ignore Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

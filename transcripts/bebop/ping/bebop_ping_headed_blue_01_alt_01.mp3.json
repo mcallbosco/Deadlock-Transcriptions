@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_headed_blue_01_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "446cfedd61de7435fdca5655d496824a03f346c60a85011221cfaafd903d3f87",
-      "text": "Heading to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "257819c5304ebd83d67693e48c878c2bfb1631dc90b5a67ade5add929ddc4ee4",
+      "sha256": [
+        "257819c5304ebd83d67693e48c878c2bfb1631dc90b5a67ade5add929ddc4ee4",
+        "446cfedd61de7435fdca5655d496824a03f346c60a85011221cfaafd903d3f87"
+      ],
       "text": "Heading to blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

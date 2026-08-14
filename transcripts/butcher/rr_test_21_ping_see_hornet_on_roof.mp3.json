@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_hornet_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "fba1cbfbce990921f8e5e1122cc11449c49caa69f649e36f9c96fa0c9cf68b18",
-      "text": "Party's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0e05d1eed28684e90959401ad519519b8249e4442436466fcf1628fb27205d4",
-      "text": "Party's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "630ff02da664010d0f11720f5586b6ece8e046066adfd156202678802bf621c5",
+      "sha256": [
+        "630ff02da664010d0f11720f5586b6ece8e046066adfd156202678802bf621c5",
+        "f0e05d1eed28684e90959401ad519519b8249e4442436466fcf1628fb27205d4",
+        "fba1cbfbce990921f8e5e1122cc11449c49caa69f649e36f9c96fa0c9cf68b18"
+      ],
       "text": "Party's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

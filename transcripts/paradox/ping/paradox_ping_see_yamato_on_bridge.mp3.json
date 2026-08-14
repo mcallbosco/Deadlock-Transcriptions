@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "da99473f17653e6e8788193302ff20fae0afe5a6ebb23a76fdd66aa57cf0fb6c",
-      "text": "Yamato is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "143eb9a2078694737c003ff62b8c347b768d7c27678c7ff3bf45c54fabfd31e7",
+      "sha256": [
+        "143eb9a2078694737c003ff62b8c347b768d7c27678c7ff3bf45c54fabfd31e7",
+        "da99473f17653e6e8788193302ff20fae0afe5a6ebb23a76fdd66aa57cf0fb6c"
+      ],
       "text": "Yamato is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_viper.mp3",
   "revisions": [
     {
-      "sha256": "3f2a364f769f9ae7217b9737593597131af25803c7d704931bf465b50b075d03",
+      "sha256": [
+        "3f2a364f769f9ae7217b9737593597131af25803c7d704931bf465b50b075d03"
+      ],
       "text": "I'm with you, Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

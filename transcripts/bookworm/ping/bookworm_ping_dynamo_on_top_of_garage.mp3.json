@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_dynamo_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "b11c2820a5366cdb15b2001dd805b15d25831d354f8f0236b3f29bf3ca392fbb",
-      "text": "Dynamo's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5af7cda1ef319f253eb31760a4186bc61cc0c3f12046fa6dfe77e9e06beb78c3",
+      "sha256": [
+        "5af7cda1ef319f253eb31760a4186bc61cc0c3f12046fa6dfe77e9e06beb78c3",
+        "b11c2820a5366cdb15b2001dd805b15d25831d354f8f0236b3f29bf3ca392fbb"
+      ],
       "text": "Dynamo's on top of the garage!",
       "source": "official"
     }

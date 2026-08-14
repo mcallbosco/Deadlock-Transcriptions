@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_lash.mp3",
   "revisions": [
     {
-      "sha256": "549046387c011bff28045e47526222c2d38d7a885d8d8daf2c97053ceaa5acd8",
+      "sha256": [
+        "549046387c011bff28045e47526222c2d38d7a885d8d8daf2c97053ceaa5acd8"
+      ],
       "text": "I'm with Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ed7a3468850dc844262eb8877d13b8b6e4549e6480e50b8772f81f06e499aff",
+      "sha256": [
+        "0ed7a3468850dc844262eb8877d13b8b6e4549e6480e50b8772f81f06e499aff"
+      ],
       "text": "I'm with you, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

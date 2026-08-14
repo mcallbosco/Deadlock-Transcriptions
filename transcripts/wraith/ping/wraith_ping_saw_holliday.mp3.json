@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_holliday.mp3",
   "revisions": [
     {
-      "sha256": "92c7a392ba78f4b309bdafbd36f5c09b0579d4135af2732abc3dc86b6f92567e",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd6c3948853ddeb5aef2d22c6e02bab1cd75fcddd423f138d8f8e8898c797d67",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae3f4582e701075ee1ae5cb2a686dd3713f1390578f809f0eedcaa315523d426",
+      "sha256": [
+        "92c7a392ba78f4b309bdafbd36f5c09b0579d4135af2732abc3dc86b6f92567e",
+        "ae3f4582e701075ee1ae5cb2a686dd3713f1390578f809f0eedcaa315523d426",
+        "cd6c3948853ddeb5aef2d22c6e02bab1cd75fcddd423f138d8f8e8898c797d67"
+      ],
       "text": "I saw Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

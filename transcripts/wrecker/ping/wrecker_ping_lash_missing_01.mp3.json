@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_lash_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "54c912df2acea121d00ecc3a16ec51f1acad0321146d3580304fbfabd748693e",
-      "text": "Lash is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59f45514ed5df76b427fab5b0f95e8636bd5fc382071ce46a297ab0b47a2fe74",
+      "sha256": [
+        "54c912df2acea121d00ecc3a16ec51f1acad0321146d3580304fbfabd748693e",
+        "59f45514ed5df76b427fab5b0f95e8636bd5fc382071ce46a297ab0b47a2fe74"
+      ],
       "text": "Lash is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

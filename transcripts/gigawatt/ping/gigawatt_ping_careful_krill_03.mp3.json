@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_krill_03.mp3",
   "revisions": [
     {
-      "sha256": "70bff6c986b6680918ccdb2ac49841602e3b12561cafeb32f3fd5c4224712735",
+      "sha256": [
+        "70bff6c986b6680918ccdb2ac49841602e3b12561cafeb32f3fd5c4224712735"
+      ],
       "text": "Careful, crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ede9ffb48a11af106f533d75d4e64e0bf6cffed525b128e9b7badcfbf48d5f4",
+      "sha256": [
+        "4ede9ffb48a11af106f533d75d4e64e0bf6cffed525b128e9b7badcfbf48d5f4",
+        "61f1888edf905e62a5dc78c2e80ac3ce9d14ccedbcc29d27f83e93e36d48fe87"
+      ],
       "text": "Terrible crown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "61f1888edf905e62a5dc78c2e80ac3ce9d14ccedbcc29d27f83e93e36d48fe87",
-      "text": "Terrible crown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f477b6110e21eae55979b5547a2a97dfe94b4714f3f2e9bf15038c139605977",
+      "sha256": [
+        "0f477b6110e21eae55979b5547a2a97dfe94b4714f3f2e9bf15038c139605977"
+      ],
       "text": "Careful, Krill!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_idol_drop_04.mp3",
   "revisions": [
     {
-      "sha256": "79ea576b5fc59abc6dbb53c5623284163159e1fdefda844b03ffbae36749aa50",
+      "sha256": [
+        "79ea576b5fc59abc6dbb53c5623284163159e1fdefda844b03ffbae36749aa50"
+      ],
       "text": "Do we want to collect the spirit urn?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f40f2867e25ac42fb9e00f79eb387e9cad159a3f040fd4a39a5e25b2fe401de1",
-      "text": "Do we want to collect this spirit urn?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aab4749521db00a0ea79f27eeb7aa279a7caa0f57a7def863fe3c5220fb0c563",
+      "sha256": [
+        "aab4749521db00a0ea79f27eeb7aa279a7caa0f57a7def863fe3c5220fb0c563",
+        "f40f2867e25ac42fb9e00f79eb387e9cad159a3f040fd4a39a5e25b2fe401de1"
+      ],
       "text": "Do we want to collect this spirit urn?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

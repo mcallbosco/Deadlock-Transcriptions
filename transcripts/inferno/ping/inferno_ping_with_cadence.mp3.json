@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_with_cadence.mp3",
   "revisions": [
     {
-      "sha256": "398e26cf68ad2e747dc2538cb3dc5efcc4325b7c05b385a7d5f404c32b8ca6eb",
+      "sha256": [
+        "398e26cf68ad2e747dc2538cb3dc5efcc4325b7c05b385a7d5f404c32b8ca6eb",
+        "b9aef317cb8408fe137a0bc9b6cbc6d17031cc11fbd2c1393e09cc0f8f617bf3"
+      ],
       "text": "I'm with you, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9aef317cb8408fe137a0bc9b6cbc6d17031cc11fbd2c1393e09cc0f8f617bf3",
-      "text": "I'm with you, Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d758f772d6da616ed2b4f3d43fb76d85b56403317166138aab1031d0f145539",
+      "sha256": [
+        "9d758f772d6da616ed2b4f3d43fb76d85b56403317166138aab1031d0f145539"
+      ],
       "text": "I'm with you, Cacus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

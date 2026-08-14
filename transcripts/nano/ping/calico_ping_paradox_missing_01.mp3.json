@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_paradox_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "60e618593289539ef2fe3723aeac1cd4dafbbb90dbd0d1eb5992e47013ac2aaa",
+      "sha256": [
+        "0906dd9796b5419c9c4b7f80cad468a0a8ce8c5949eafe8320a141f187fe2a06",
+        "60e618593289539ef2fe3723aeac1cd4dafbbb90dbd0d1eb5992e47013ac2aaa"
+      ],
       "text": "Paradox missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0906dd9796b5419c9c4b7f80cad468a0a8ce8c5949eafe8320a141f187fe2a06",
-      "text": "paradox missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,33 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_good_game_01.mp3",
   "revisions": [
     {
-      "sha256": "c45ef367a02cf3417cb2dbfe64a3f4cde2fe80251e4b18efaa8d43a9859fc02b",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa26aa1b1b46c9209df0d7bbd906f7ee69fafb444407df890a2f3c8dd6e063bc",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ec643209697c6a99fc46ebda1cb9f050fa5fb9eb83076e0f8320f880ff9de03",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e0e280a466c3b9bd4f9fe58766c7d3300ead55729c1b6ee3ff629fccd004c245",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16c99e1538dee696786a8a0ce48910123028f552e4b798c6f8586dad3b2499e2",
+      "sha256": [
+        "16c99e1538dee696786a8a0ce48910123028f552e4b798c6f8586dad3b2499e2",
+        "7ec643209697c6a99fc46ebda1cb9f050fa5fb9eb83076e0f8320f880ff9de03",
+        "aa26aa1b1b46c9209df0d7bbd906f7ee69fafb444407df890a2f3c8dd6e063bc",
+        "c45ef367a02cf3417cb2dbfe64a3f4cde2fe80251e4b18efaa8d43a9859fc02b",
+        "e0e280a466c3b9bd4f9fe58766c7d3300ead55729c1b6ee3ff629fccd004c245"
+      ],
       "text": "good game",
       "source": "official"
     }

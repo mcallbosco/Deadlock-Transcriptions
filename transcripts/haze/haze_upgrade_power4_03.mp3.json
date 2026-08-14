@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_upgrade_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "fd2bad6b8631e9d7c85323f52f4d1194b907df8ba79611e93c7c1cd593f0650c",
+      "sha256": [
+        "fd2bad6b8631e9d7c85323f52f4d1194b907df8ba79611e93c7c1cd593f0650c"
+      ],
       "text": "This was an matter feared.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "743ec06fa54f9885f7a4b3429e214593495ed50e8139a7caa080179459f7b2ca",
+      "sha256": [
+        "743ec06fa54f9885f7a4b3429e214593495ed50e8139a7caa080179459f7b2ca"
+      ],
       "text": "This is the sentiment I feared.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9acec69c77f7f52ee4b479fde47c7b4ee3b79ff4e6ecd3235164eadd6952f68c",
-      "text": "This is why Sandmen are feared.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdbc03c20797ba0e81990df36113ebae66705bd8b9ea4e5b95c9db826b50a351",
-      "text": "This is why Sandmen are feared.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "263b40933cce1fa629fddb7fd42ea97b48a1c55a9115fe1f51b6f9273cef24fa",
+      "sha256": [
+        "263b40933cce1fa629fddb7fd42ea97b48a1c55a9115fe1f51b6f9273cef24fa",
+        "9acec69c77f7f52ee4b479fde47c7b4ee3b79ff4e6ecd3235164eadd6952f68c",
+        "fdbc03c20797ba0e81990df36113ebae66705bd8b9ea4e5b95c9db826b50a351"
+      ],
       "text": "This is why sandmen are feared",
       "source": "official"
     }

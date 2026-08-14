@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "a4eca905f167443f96dd3b46b6aab943a2e3d07d4a8b346ad2aa2e37c254fcb2",
-      "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31fd4d6f7035669f2991242e1bdd0b4a814f775ee62b343e70332179cd7046ea",
+      "sha256": [
+        "31fd4d6f7035669f2991242e1bdd0b4a814f775ee62b343e70332179cd7046ea",
+        "a4eca905f167443f96dd3b46b6aab943a2e3d07d4a8b346ad2aa2e37c254fcb2"
+      ],
       "text": "I see Paradox.",
       "source": "official"
     }

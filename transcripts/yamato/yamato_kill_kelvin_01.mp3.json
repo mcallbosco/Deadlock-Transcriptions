@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_kill_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "e390878d3fd3e4c585ba15b23148b07af8c9904e2a6a91dc39a5f54572f3cb27",
+      "sha256": [
+        "e390878d3fd3e4c585ba15b23148b07af8c9904e2a6a91dc39a5f54572f3cb27"
+      ],
       "text": "お前は死体のままでいるのがお似合いだ、ケルビン。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0900d26b0dee61bb661ed8fa226eb673f3ac7aa3020058146e22ed13f626fcf5",
+      "sha256": [
+        "0900d26b0dee61bb661ed8fa226eb673f3ac7aa3020058146e22ed13f626fcf5"
+      ],
       "text": "You don't belong among the living Kelvin",
       "source": "official"
     }

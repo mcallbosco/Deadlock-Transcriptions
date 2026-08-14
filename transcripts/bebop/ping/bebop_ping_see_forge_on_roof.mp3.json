@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_forge_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "2d1d5a0198bd5c0abf9a5308735c73fb3bb7f5e6ed3c17ffeec51b2c3b514cdc",
+      "sha256": [
+        "2d1d5a0198bd5c0abf9a5308735c73fb3bb7f5e6ed3c17ffeec51b2c3b514cdc"
+      ],
       "text": "The disc is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b8abad7fdf218c13fa234b0dd8daaf6554380e54eeb365129abb1472a5447f58",
+      "sha256": [
+        "b8abad7fdf218c13fa234b0dd8daaf6554380e54eeb365129abb1472a5447f58"
+      ],
       "text": "McGinnis's on the roof!",
       "source": "official"
     }

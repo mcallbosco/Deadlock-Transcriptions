@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_headed_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "7e09c00592f0609545c8a88469bf92d967215614b30bbae54d64c8fc7952793a",
-      "text": "Headed to orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f0c788ea32446663db8e25c41bf87e3e515632a94641ace0b4b32ff1a6004e5",
-      "text": "Headed to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "524f26026076c9d7ade65da40096829a173bf5cb446731c7f76371fba7f262d9",
+      "sha256": [
+        "524f26026076c9d7ade65da40096829a173bf5cb446731c7f76371fba7f262d9",
+        "7e09c00592f0609545c8a88469bf92d967215614b30bbae54d64c8fc7952793a",
+        "8f0c788ea32446663db8e25c41bf87e3e515632a94641ace0b4b32ff1a6004e5"
+      ],
       "text": "Headed to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

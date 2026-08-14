@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "fencer/ping/fencer_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "4882754859167ee47059528e125358e1db6e070ece38d3330ea250e831ffeb83",
+      "sha256": [
+        "4882754859167ee47059528e125358e1db6e070ece38d3330ea250e831ffeb83"
+      ],
       "text": "I'm with you, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

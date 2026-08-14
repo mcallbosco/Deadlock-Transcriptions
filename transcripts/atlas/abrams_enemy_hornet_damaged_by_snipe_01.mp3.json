@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_enemy_hornet_damaged_by_snipe_01.mp3",
   "revisions": [
     {
-      "sha256": "670465e6ccefe03b349e65698da01e994c57c1c248cc480d0af659ab146e4608",
-      "text": "Sniper.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ad7e20d9ed45d51f94987f2276d0399f7a17caf449cc4ddd16fd8cec380c447",
-      "text": "Sniper!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2fccf9db89f451596dbe89b61a74bbda2e9aec50c6601ba3815e9597a77bbad1",
+      "sha256": [
+        "2ad7e20d9ed45d51f94987f2276d0399f7a17caf449cc4ddd16fd8cec380c447",
+        "2fccf9db89f451596dbe89b61a74bbda2e9aec50c6601ba3815e9597a77bbad1",
+        "670465e6ccefe03b349e65698da01e994c57c1c248cc480d0af659ab146e4608"
+      ],
       "text": "Sniper!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

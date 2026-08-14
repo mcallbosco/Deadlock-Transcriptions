@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "76735aca170215ffe897b60bef8423a6ecec6b2b2c1540104fe9beebf1563cf5",
+      "sha256": [
+        "67ae01405bb14b7246eda4cc5f938f95ff3661367dad6de8f856c92536a8245f",
+        "76735aca170215ffe897b60bef8423a6ecec6b2b2c1540104fe9beebf1563cf5"
+      ],
       "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b6425e300ba531b1eab488a472ae5755417060968fb1267181294345491e3a5b",
+      "sha256": [
+        "b6425e300ba531b1eab488a472ae5755417060968fb1267181294345491e3a5b"
+      ],
       "text": "I saw evidence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "71fbc07aefa836e13a544bd5ef9d0c893874d772b33d5821d2bf37a249995d62",
+      "sha256": [
+        "71fbc07aefa836e13a544bd5ef9d0c893874d772b33d5821d2bf37a249995d62"
+      ],
       "text": "I saw influence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67ae01405bb14b7246eda4cc5f938f95ff3661367dad6de8f856c92536a8245f",
-      "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

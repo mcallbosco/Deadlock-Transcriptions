@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_see_forge.mp3",
   "revisions": [
     {
-      "sha256": "c6e71cc6e06b8a682741416945d3074cdab863062dd960884c429637ae6b84ef",
+      "sha256": [
+        "c6e71cc6e06b8a682741416945d3074cdab863062dd960884c429637ae6b84ef"
+      ],
       "text": "I see Forge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d61704f8febedc99d0279f5939bd85c7347499663365a825ba51acf2673481ba",
+      "sha256": [
+        "d61704f8febedc99d0279f5939bd85c7347499663365a825ba51acf2673481ba"
+      ],
       "text": "I see McGinnis",
       "source": "official"
     }

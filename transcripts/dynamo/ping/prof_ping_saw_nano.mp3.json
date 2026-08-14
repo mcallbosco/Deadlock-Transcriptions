@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_saw_nano.mp3",
   "revisions": [
     {
-      "sha256": "bf2738fdebf2bd5e75f1714cd95226fcd820ec24173c77b103b17f6dccece92c",
-      "text": "I saw Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "348453976827284250b2ff255e86c387e85c483d0ee0b287ba2fc147979b959f",
+      "sha256": [
+        "348453976827284250b2ff255e86c387e85c483d0ee0b287ba2fc147979b959f",
+        "bf2738fdebf2bd5e75f1714cd95226fcd820ec24173c77b103b17f6dccece92c"
+      ],
       "text": "I saw Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

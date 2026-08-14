@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_missing_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "df46308949a87b534f91543ccf62e72293000692d82ca62b31c5f3eabcde2eb3",
-      "text": "Missing Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "085f779f5a660324b6bf3dbcc1933e38c8011ebe8b54d8518313a09189024cb3",
+      "sha256": [
+        "085f779f5a660324b6bf3dbcc1933e38c8011ebe8b54d8518313a09189024cb3",
+        "df46308949a87b534f91543ccf62e72293000692d82ca62b31c5f3eabcde2eb3"
+      ],
       "text": "Missing Broadway.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

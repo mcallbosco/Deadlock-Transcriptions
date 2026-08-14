@@ -1,28 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "b2db215e12f2627a26a6ec98d0190b17a8a1755b1d592290f4e1ba8a11a8a659",
+      "sha256": [
+        "3370e008dff9f13cef730c03cacbf2510575599238dcec00c1c03775baa07816",
+        "4b64b63cbb96739760109e418d579aa45d58c1febb3ec47238820eed65272d81",
+        "b2db215e12f2627a26a6ec98d0190b17a8a1755b1d592290f4e1ba8a11a8a659",
+        "bf3c2cc32d6ee4c17e9a8458fe9c2a20ca2df2f6dd06a25ba838df263ca7a1cc"
+      ],
       "text": "I'm with you, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b64b63cbb96739760109e418d579aa45d58c1febb3ec47238820eed65272d81",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3370e008dff9f13cef730c03cacbf2510575599238dcec00c1c03775baa07816",
-      "text": "I'm with you, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf3c2cc32d6ee4c17e9a8458fe9c2a20ca2df2f6dd06a25ba838df263ca7a1cc",
-      "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

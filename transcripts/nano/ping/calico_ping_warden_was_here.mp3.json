@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "bf49928320202e7745d419f3210f0d09fdc377831f8f433d99987d65a1d362dd",
+      "sha256": [
+        "bf49928320202e7745d419f3210f0d09fdc377831f8f433d99987d65a1d362dd"
+      ],
       "text": "What do we see?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "70e8592805394698cf60cfc008d3dde12bceb05b52f4935b8ee3f998e66f7210",
+      "sha256": [
+        "70e8592805394698cf60cfc008d3dde12bceb05b52f4935b8ee3f998e66f7210"
+      ],
       "text": "Кожингси.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

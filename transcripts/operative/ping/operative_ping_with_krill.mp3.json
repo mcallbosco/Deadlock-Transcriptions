@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "d1a016f944b3d6bb30cd79ff176017a3e86c4b487d9490148e84370989c569cc",
+      "sha256": [
+        "d1a016f944b3d6bb30cd79ff176017a3e86c4b487d9490148e84370989c569cc"
+      ],
       "text": "I'm with you, kid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

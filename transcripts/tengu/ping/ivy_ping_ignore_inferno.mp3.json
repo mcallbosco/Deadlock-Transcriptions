@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_ignore_inferno.mp3",
   "revisions": [
     {
-      "sha256": "2b74f5ca49de9c48e8d17d9b5712e91daccec66a297ad7c2aea228f23d09042f",
+      "sha256": [
+        "2b74f5ca49de9c48e8d17d9b5712e91daccec66a297ad7c2aea228f23d09042f",
+        "4fb428fc0e0915b6261cb0838aeff4f5a4dd47fd0c8b9edb24518c29bf948cf4"
+      ],
       "text": "Ignore Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fb428fc0e0915b6261cb0838aeff4f5a4dd47fd0c8b9edb24518c29bf948cf4",
-      "text": "Ignore Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

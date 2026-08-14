@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_bebop_dead.mp3",
   "revisions": [
     {
-      "sha256": "d853b3496c53bf3bb8f761082c8cf60af27097cef404d2d90ca4738bb9894d72",
-      "text": "Bebop is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da9624d30a8a4fe0c325f7a47f54c4317694228170611d1c1175add700d63cce",
+      "sha256": [
+        "d853b3496c53bf3bb8f761082c8cf60af27097cef404d2d90ca4738bb9894d72",
+        "da9624d30a8a4fe0c325f7a47f54c4317694228170611d1c1175add700d63cce"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

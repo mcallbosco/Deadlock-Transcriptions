@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_use_silence.mp3",
   "revisions": [
     {
-      "sha256": "c67bb65618dcf0c439dbb17700aa1a4b70ed88b02756064a3573763d08fa6853",
-      "text": "Ready to use silence glyph.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "52d8bec14034a6ca965646738e87b8c9dc240d147dbf5f3b629f7576e7e9e9f8",
+        "c67bb65618dcf0c439dbb17700aa1a4b70ed88b02756064a3573763d08fa6853"
+      ],
+      "text": "Ready to use Silence Glyph",
+      "source": "official"
     },
     {
-      "sha256": "2f15fed52e9f5af414ef84297f34df6e0353da51379aca5b756fb1493eb897e2",
+      "sha256": [
+        "2f15fed52e9f5af414ef84297f34df6e0353da51379aca5b756fb1493eb897e2"
+      ],
       "text": "Ready to use silent glyph.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52d8bec14034a6ca965646738e87b8c9dc240d147dbf5f3b629f7576e7e9e9f8",
-      "text": "Ready to use Silence Glyph",
-      "source": "official"
     }
   ]
 }

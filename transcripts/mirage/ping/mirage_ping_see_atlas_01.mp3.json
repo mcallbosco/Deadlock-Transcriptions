@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "a1359321a0b85ea1e331a198c4deac4a4d9ff1afb9aec871e303a50d9093360e",
+      "sha256": [
+        "a1359321a0b85ea1e331a198c4deac4a4d9ff1afb9aec871e303a50d9093360e"
+      ],
       "text": "I see how it is.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "43623af41cd27fc5eca0c62c0d5fec10e9c999226901370248ba81ad2404d4fa",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cf145c29ac40aff0b1eb7ad38098dfbad62075398fce3a85a46a14e4b2cf5d0",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ce12c32dd2226bfc8cfc39b81830b956bc8fbc4867ebc65912910180d0e35ab",
+      "sha256": [
+        "1cf145c29ac40aff0b1eb7ad38098dfbad62075398fce3a85a46a14e4b2cf5d0",
+        "43623af41cd27fc5eca0c62c0d5fec10e9c999226901370248ba81ad2404d4fa",
+        "9ce12c32dd2226bfc8cfc39b81830b956bc8fbc4867ebc65912910180d0e35ab"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

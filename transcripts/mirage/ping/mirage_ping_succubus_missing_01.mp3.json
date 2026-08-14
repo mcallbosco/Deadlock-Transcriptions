@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_succubus_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d00d31fc5e31749cdb41ab9210178495967fe9aefb91c5544548b090e1719807",
+      "sha256": [
+        "d00d31fc5e31749cdb41ab9210178495967fe9aefb91c5544548b090e1719807"
+      ],
       "text": "The succubus is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

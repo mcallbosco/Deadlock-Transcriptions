@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_leaving_area_01.mp3",
   "revisions": [
     {
-      "sha256": "d70477dc9638931ce4f0eb126362ec42d1867eddc6d842f7f574381d52d09c36",
-      "text": "You're on your own.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c15daf28881eb2c562308b9437acd717ba22fd015edbac47a978485957cab3f6",
-      "text": "You're on your own.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0648defd4b839f0d5ccaf43f5a0ef4f26b93babfbd1ed52da2b68d3ec07eaf84",
+      "sha256": [
+        "0648defd4b839f0d5ccaf43f5a0ef4f26b93babfbd1ed52da2b68d3ec07eaf84",
+        "c15daf28881eb2c562308b9437acd717ba22fd015edbac47a978485957cab3f6",
+        "d70477dc9638931ce4f0eb126362ec42d1867eddc6d842f7f574381d52d09c36"
+      ],
       "text": "You're on your own",
       "source": "official"
     }

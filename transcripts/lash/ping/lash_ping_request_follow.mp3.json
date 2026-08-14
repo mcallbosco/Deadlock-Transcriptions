@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_request_follow.mp3",
   "revisions": [
     {
-      "sha256": "8064b6b0d830445aaff37ec85dbb6d4ef7f49a860be4cdeccc2d35dc5ad3e8b6",
+      "sha256": [
+        "8064b6b0d830445aaff37ec85dbb6d4ef7f49a860be4cdeccc2d35dc5ad3e8b6"
+      ],
       "text": "Count me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8760ad2241fd8996bc6c3103337e4ce703ee321de981c161672769b38bdaba04",
-      "text": "Come with me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e34a8a9cbd516b9af13f0735f91d3137cdf81219f9a31a2d55fa89a7fd4e6c9c",
-      "text": "Come with me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "962992eb299121989c54a7b38b33528994280ff20ce9e5485e78cbc6a3f51f3f",
+      "sha256": [
+        "8760ad2241fd8996bc6c3103337e4ce703ee321de981c161672769b38bdaba04",
+        "962992eb299121989c54a7b38b33528994280ff20ce9e5485e78cbc6a3f51f3f",
+        "e34a8a9cbd516b9af13f0735f91d3137cdf81219f9a31a2d55fa89a7fd4e6c9c"
+      ],
       "text": "Come with me",
       "source": "official"
     }

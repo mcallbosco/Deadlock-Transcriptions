@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_kill_wraith_05.mp3",
   "revisions": [
     {
-      "sha256": "69cde0968e0225c175b03ebfd21074a8b025b2fb952fde77ed0836ffe77231d3",
+      "sha256": [
+        "69cde0968e0225c175b03ebfd21074a8b025b2fb952fde77ed0836ffe77231d3"
+      ],
       "text": "You should have run, Ras.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "de73b2c090327790cad0b91a273d893153283b49d6039e34e6d7deff894d774d",
+      "sha256": [
+        "de73b2c090327790cad0b91a273d893153283b49d6039e34e6d7deff894d774d"
+      ],
       "text": "You should have run, Riss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "205b20ac9602835c95ae9234d872c4c96de708b9325e429f039da1c50a2bd6f4",
-      "text": "You should have run, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0fdd49c386cbc8d2b2064ed33118fb023afff66b5a636f0b659f902c36938405",
-      "text": "You should have run, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c75714e6556e2e0c2aaaddb675f9c37855ddfce70ab21d8fc884f01f5842730",
+      "sha256": [
+        "0fdd49c386cbc8d2b2064ed33118fb023afff66b5a636f0b659f902c36938405",
+        "1c75714e6556e2e0c2aaaddb675f9c37855ddfce70ab21d8fc884f01f5842730",
+        "205b20ac9602835c95ae9234d872c4c96de708b9325e429f039da1c50a2bd6f4"
+      ],
       "text": "You should have run, Wraith.",
       "source": "official"
     }

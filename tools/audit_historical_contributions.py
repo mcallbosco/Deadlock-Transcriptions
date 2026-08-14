@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Audit superseded and deleted legacy corrections against v2 audio revisions.
+"""Audit superseded and deleted legacy corrections against v3 audio revisions.
 
 This is Stage 1B of the migration. It finds contiguous epochs of human,
 text-only corrections that no longer represent the legacy branch's current
 state, then requires a one-to-one exact-text relationship between an epoch and
-a generated v2 audio-SHA revision. It only writes reports.
+a generated v3 audio-SHA group. It only writes reports.
 """
 
 from __future__ import annotations
@@ -202,14 +202,18 @@ def add_target_evidence(
                 )
                 if not positions:
                     continue
-                sha256 = revision.get("sha256")
-                revision_id = f"{document['path']}@{sha256 or revision_index}"
+                hashes = revision.get("sha256")
+                if not isinstance(hashes, list):
+                    hashes = []
+                sha256 = hashes[0] if hashes else None
+                revision_id = f"{document['path']}@{','.join(hashes) or revision_index}"
                 source = revision["source"]
                 match = {
                     "revisionId": revision_id,
                     "path": document["path"],
                     "filename": document["filename"],
                     "sha256": sha256,
+                    "groupSha256": hashes,
                     "source": source,
                     "statePositions": positions,
                     "proposedAction": "protected" if source == "official" else "review",

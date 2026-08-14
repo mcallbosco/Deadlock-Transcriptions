@@ -1,34 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "5eacce092def9dd1261409ef4521970405f530bcf94ca04b0273f522e1774e25",
+      "sha256": [
+        "080a4a0e6f1bf8c2a8edf79dad4af5f30ac65de0519fef9ff19a1b03a6de8eee",
+        "0a05f5fac9b484051232ed09d6f3042e54e8c2e282227770315b804e7287d059",
+        "3a60d407f966757f06bb18b9b9a446ba79e195eb9bd30ba5a9c0682212383b97",
+        "5eacce092def9dd1261409ef4521970405f530bcf94ca04b0273f522e1774e25"
+      ],
       "text": "Missing green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "080a4a0e6f1bf8c2a8edf79dad4af5f30ac65de0519fef9ff19a1b03a6de8eee",
-      "text": "Missing green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0a05f5fac9b484051232ed09d6f3042e54e8c2e282227770315b804e7287d059",
-      "text": "Missing green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "507c7ec45e84bd8b6a8bc60cb10b36e6dd6cfd7dcc6efbbd0ac99946c38868ab",
+      "sha256": [
+        "507c7ec45e84bd8b6a8bc60cb10b36e6dd6cfd7dcc6efbbd0ac99946c38868ab"
+      ],
       "text": "This in green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a60d407f966757f06bb18b9b9a446ba79e195eb9bd30ba5a9c0682212383b97",
-      "text": "Missing green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

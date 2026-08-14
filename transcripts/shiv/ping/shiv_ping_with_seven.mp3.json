@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_with_seven.mp3",
   "revisions": [
     {
-      "sha256": "d6903e2deaf36be2d33e68138d5e8964ae3814158057160e6acd23a1baecebe5",
-      "text": "I'm with you, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21acef1a52361a30ca46213c7a9481ddd97ab2480c28c7539d1acdbaf066b290",
+      "sha256": [
+        "21acef1a52361a30ca46213c7a9481ddd97ab2480c28c7539d1acdbaf066b290",
+        "d6903e2deaf36be2d33e68138d5e8964ae3814158057160e6acd23a1baecebe5"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

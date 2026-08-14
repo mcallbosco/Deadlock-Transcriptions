@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_idol_grab_01.mp3",
   "revisions": [
     {
-      "sha256": "9d4fde2e477b9a291267459ff940232f44f9b04355bbea5e91b18da86e4edc9a",
+      "sha256": [
+        "9d4fde2e477b9a291267459ff940232f44f9b04355bbea5e91b18da86e4edc9a"
+      ],
       "text": "I got jammed!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f881f2139b6d1cce07cc3999395ecbb00e22fccde4f9c6263c717cead71516d9",
+      "sha256": [
+        "f881f2139b6d1cce07cc3999395ecbb00e22fccde4f9c6263c717cead71516d9"
+      ],
       "text": "I got the title!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a7a6d368b39c591b9d284be59577330a992a9494589a15bf127bb8b1ba15f6e5",
+      "sha256": [
+        "a7a6d368b39c591b9d284be59577330a992a9494589a15bf127bb8b1ba15f6e5"
+      ],
       "text": "I got the ammo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power2_06.mp3",
   "revisions": [
     {
-      "sha256": "f1269a273c00983ed731bc84e5db084b8c28d9a8afa9614a3267811b294fd092",
-      "text": "Run!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a701642c278d1a1b536e31f65b5ab5f70d60aa00adb4a8f9f31cc18a19acc9e4",
-      "text": "Run!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "602cec6335855410593d9a34677ccbbe9c36d3b64d54450dd8972f9fa590d23f",
+      "sha256": [
+        "602cec6335855410593d9a34677ccbbe9c36d3b64d54450dd8972f9fa590d23f",
+        "a701642c278d1a1b536e31f65b5ab5f70d60aa00adb4a8f9f31cc18a19acc9e4",
+        "f1269a273c00983ed731bc84e5db084b8c28d9a8afa9614a3267811b294fd092"
+      ],
       "text": "Run!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

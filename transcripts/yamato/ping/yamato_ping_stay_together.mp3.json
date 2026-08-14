@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_stay_together.mp3",
   "revisions": [
     {
-      "sha256": "bc9409467f1068bc84660b2e4ade585a8a6b5932b733967b55cb3c40411565ce",
-      "text": "Stay together!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcd0f5bf4a27c273dde0aff95542da5c50caccedfab9941e42c00ef4d614cf61",
-      "text": "Stay together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01c43451a144421b162698648683b9db2064a20efad11be3cdffe7cf29c43a5e",
+      "sha256": [
+        "01c43451a144421b162698648683b9db2064a20efad11be3cdffe7cf29c43a5e",
+        "bc9409467f1068bc84660b2e4ade585a8a6b5932b733967b55cb3c40411565ce",
+        "dcd0f5bf4a27c273dde0aff95542da5c50caccedfab9941e42c00ef4d614cf61"
+      ],
       "text": "Stay together!",
       "source": "official"
     }

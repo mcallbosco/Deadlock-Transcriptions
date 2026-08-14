@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "706496bcb2ddcf157ce3b29e6d67ece9467924b2a02ba3b5e44caa2c118316b5",
-      "text": "Careful, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a879d55685f18e8a6c6af09072821a941f692d0a488dd94aa62a67843bd4b0a",
+      "sha256": [
+        "4a879d55685f18e8a6c6af09072821a941f692d0a488dd94aa62a67843bd4b0a",
+        "706496bcb2ddcf157ce3b29e6d67ece9467924b2a02ba3b5e44caa2c118316b5"
+      ],
       "text": "Careful, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

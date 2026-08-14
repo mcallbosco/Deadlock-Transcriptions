@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_stasis_01.mp3",
   "revisions": [
     {
-      "sha256": "283230515dec60fe37f582c36b4f28b439b0f742747d84e0d29ba64911dfe4d6",
+      "sha256": [
+        "283230515dec60fe37f582c36b4f28b439b0f742747d84e0d29ba64911dfe4d6"
+      ],
       "text": "This is a deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e2daf44319a98219828ea38c13ed6be7e6497d054b8412b039560e15acd9c45c",
+      "sha256": [
+        "e2daf44319a98219828ea38c13ed6be7e6497d054b8412b039560e15acd9c45c"
+      ],
       "text": "I am Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e772f68f8722dcdd3879e9eede44337140b4a79b9910494a547160d10fcb4195",
+      "sha256": [
+        "e772f68f8722dcdd3879e9eede44337140b4a79b9910494a547160d10fcb4195"
+      ],
       "text": "This is what you get when you mess with the best.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

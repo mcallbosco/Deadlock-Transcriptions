@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_magician.mp3",
   "revisions": [
     {
-      "sha256": "1c473a4e8966dc079c2d537a983855d69ae6805ad81393db39091035d33ec5c6",
+      "sha256": [
+        "1c473a4e8966dc079c2d537a983855d69ae6805ad81393db39091035d33ec5c6"
+      ],
       "text": "I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fdbc39fb6cdcb92b4a8292cf9ff244d0b48b981ff385b16f9d170cd400dc5dcc",
+      "sha256": [
+        "fdbc39fb6cdcb92b4a8292cf9ff244d0b48b981ff385b16f9d170cd400dc5dcc"
+      ],
       "text": "Sinclair, I can heal you!",
       "source": "official"
     }

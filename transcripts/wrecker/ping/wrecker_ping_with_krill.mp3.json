@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "c291bccf375f60158a2d8fe6eadcafcc636eafdb1b9b162ee62aba1856e26a68",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "417b356929ed5f6ab19f14872e747c9cf374f3c4f187802b1d2b5c3178698798",
+      "sha256": [
+        "417b356929ed5f6ab19f14872e747c9cf374f3c4f187802b1d2b5c3178698798",
+        "c291bccf375f60158a2d8fe6eadcafcc636eafdb1b9b162ee62aba1856e26a68"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

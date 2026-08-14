@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_yamato_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "db59b8747ba37b3543489b73b17248cba5bd092305f1f3f78a4a51632d4d1fc3",
+      "sha256": [
+        "db59b8747ba37b3543489b73b17248cba5bd092305f1f3f78a4a51632d4d1fc3"
+      ],
       "text": "Yamato is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "70ab0a74044dc215b9f1bf8e2c5733783e427424664f8a35b7b4506f8aaf2960",
+      "sha256": [
+        "70ab0a74044dc215b9f1bf8e2c5733783e427424664f8a35b7b4506f8aaf2960"
+      ],
       "text": "Yamato's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_need_help_green.mp3",
   "revisions": [
     {
-      "sha256": "db1135e9855788cf9e12b4a65fbc6b2ec346b3b72683b28b0899f29421034646",
-      "text": "Need help on green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6947bda79220c11863b0cedb937e3037b32f1e268b819c63ee9d0213ccd6cbad",
+      "sha256": [
+        "6947bda79220c11863b0cedb937e3037b32f1e268b819c63ee9d0213ccd6cbad",
+        "db1135e9855788cf9e12b4a65fbc6b2ec346b3b72683b28b0899f29421034646"
+      ],
       "text": "Need help on green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

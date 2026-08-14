@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "85e95ef46ea2b3d58b739826c3930de3f169f67d9b442da47c5d09cb0199278e",
-      "text": "Wrecker's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4bb48092147c1d9ed6600225a0ad6f8a87a29ecd7a92b7c34693b5ab6936962",
-      "text": "Records missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46dfb68b989366d7df65302e19424d7486f16c956bf5ff6df19d663e51186ca7",
-      "text": "Records missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2dc71a3a25d8648e74d040351933fa90dbc17e84c43f55e279bb9a720ad7564e",
+      "sha256": [
+        "2dc71a3a25d8648e74d040351933fa90dbc17e84c43f55e279bb9a720ad7564e",
+        "85e95ef46ea2b3d58b739826c3930de3f169f67d9b442da47c5d09cb0199278e"
+      ],
       "text": "Wrecker's missing",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "46dfb68b989366d7df65302e19424d7486f16c956bf5ff6df19d663e51186ca7",
+        "a4bb48092147c1d9ed6600225a0ad6f8a87a29ecd7a92b7c34693b5ab6936962"
+      ],
+      "text": "Records missing.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

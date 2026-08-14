@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "e5d7038a4f09c8553145304cbb1d87aae59634446dcab5da165d85176022d203",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ff2599ec75d04d3aca22379d56ec9fd523cba7f57953f49b18993ea8460c458",
+      "sha256": [
+        "3ff2599ec75d04d3aca22379d56ec9fd523cba7f57953f49b18993ea8460c458",
+        "e5d7038a4f09c8553145304cbb1d87aae59634446dcab5da165d85176022d203"
+      ],
       "text": "Nice work!",
       "source": "official"
     }

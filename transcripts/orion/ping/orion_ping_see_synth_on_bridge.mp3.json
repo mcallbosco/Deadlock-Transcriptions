@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_synth_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "7fe75742822d98ca70b4c2db767db1e2c1d1ea0eaeca14fa2b00b8eda43568a3",
-      "text": "Pockets on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4295149fb3a5684c5e525ac5ffc854bf861349b041faa07f5dc47a18f71ea0e",
-      "text": "Targets on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9dfcf61828e9fd99b661d8d7b779439b630781eaab09d58563dffab3639b30f",
-      "text": "Targets on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56a313159034bef586628e0978265162dfe528999af5336ef38eec0b09203a52",
+      "sha256": [
+        "56a313159034bef586628e0978265162dfe528999af5336ef38eec0b09203a52",
+        "7fe75742822d98ca70b4c2db767db1e2c1d1ea0eaeca14fa2b00b8eda43568a3"
+      ],
       "text": "Pocket's on the bridge!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "c9dfcf61828e9fd99b661d8d7b779439b630781eaab09d58563dffab3639b30f",
+        "d4295149fb3a5684c5e525ac5ffc854bf861349b041faa07f5dc47a18f71ea0e"
+      ],
+      "text": "Targets on the bridge!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

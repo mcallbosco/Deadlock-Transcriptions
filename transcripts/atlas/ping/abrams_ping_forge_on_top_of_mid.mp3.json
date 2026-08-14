@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_forge_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "540521eb854645d1982714a6941ed6b47f189a05fa58037e2c1a0e3cc298ace2",
-      "text": "McGinnis is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3aff9a7ab90d8e0d6bb3c529be967dc4ff645be6de1342bd64a83048a6578d05",
-      "text": "McGinnis is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "daf4cf87afcf841ca1afbe51683a4078b9e91515548e496bedbcb7ff253505bd",
+      "sha256": [
+        "3aff9a7ab90d8e0d6bb3c529be967dc4ff645be6de1342bd64a83048a6578d05",
+        "540521eb854645d1982714a6941ed6b47f189a05fa58037e2c1a0e3cc298ace2",
+        "daf4cf87afcf841ca1afbe51683a4078b9e91515548e496bedbcb7ff253505bd"
+      ],
       "text": "McGinnis is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

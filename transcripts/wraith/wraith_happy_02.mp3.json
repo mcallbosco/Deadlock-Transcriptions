@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_happy_02.mp3",
   "revisions": [
     {
-      "sha256": "568c5b0de67f19f7fc7e135d64ef55e7f202d6b74f7bb6bb3bc98884d8624a45",
-      "text": "Now that's a job well done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f32a2e93be6afc07480554081a29a897f3fe00c7f0f53c4c320d776e70bd785",
-      "text": "Now that's a job well done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec835e625156050b35483a40decc0eca00de2dcb9b22126d420c879b1eb44a5b",
-      "text": "Now that's a job well done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ec1a6bf6c29649a4864e973947dab2f03bee00e7e352cfbd0e2c24ab90004c8",
+      "sha256": [
+        "568c5b0de67f19f7fc7e135d64ef55e7f202d6b74f7bb6bb3bc98884d8624a45",
+        "7f32a2e93be6afc07480554081a29a897f3fe00c7f0f53c4c320d776e70bd785",
+        "9ec1a6bf6c29649a4864e973947dab2f03bee00e7e352cfbd0e2c24ab90004c8",
+        "ec835e625156050b35483a40decc0eca00de2dcb9b22126d420c879b1eb44a5b"
+      ],
       "text": "Now that's a job well done.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_attack_yamato.mp3",
   "revisions": [
     {
-      "sha256": "7eede2702597bd1dbc5b3c133e549d8879c2b835dbd6d75469293a689a912409",
-      "text": "Let's take out Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0e2668f659f85ef3e9dc03e6b9e1717e4179d06ec3376c326cafdede9e99349",
-      "text": "Let's take out Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7361f892b2f3bf3b74663c788c286648bfc05f8ef4c930e67839e7a1b3ccc568",
+      "sha256": [
+        "7361f892b2f3bf3b74663c788c286648bfc05f8ef4c930e67839e7a1b3ccc568",
+        "7eede2702597bd1dbc5b3c133e549d8879c2b835dbd6d75469293a689a912409",
+        "b0e2668f659f85ef3e9dc03e6b9e1717e4179d06ec3376c326cafdede9e99349"
+      ],
       "text": "Let's take out Yamato",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_bebop_back_01.mp3",
   "revisions": [
     {
-      "sha256": "7307eab9e9ad05f684a0847e9a74a56013180ba7723b924b7b2d52ea0ba148d8",
-      "text": "Bebop, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ba9f8ef75d244e82f4b54143239ca4273bcbdfa0d93441f5fead0d062e181de",
-      "text": "Bebop! Get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c058aa594be099ea75ed982cb30f00cb6ef87d475cc62734b9d662b8663f9962",
+      "sha256": [
+        "6ba9f8ef75d244e82f4b54143239ca4273bcbdfa0d93441f5fead0d062e181de",
+        "7307eab9e9ad05f684a0847e9a74a56013180ba7723b924b7b2d52ea0ba148d8",
+        "c058aa594be099ea75ed982cb30f00cb6ef87d475cc62734b9d662b8663f9962"
+      ],
       "text": "Bebop, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_need_help_blue_alt.mp3",
   "revisions": [
     {
-      "sha256": "d02f06269af0f69a655afdfe09c76b07e4c365e113d0fe757ad88758b299a000",
+      "sha256": [
+        "29bd0743ca152b3309995b0b4336eed9c00c126729bce6dda190eef9b3f06d44",
+        "d02f06269af0f69a655afdfe09c76b07e4c365e113d0fe757ad88758b299a000"
+      ],
       "text": "We help on Broadway!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ac9346dedc2e3b9efcce43d920ca6e4b1adff854cb911fabe096b28f64e864de",
+      "sha256": [
+        "ac9346dedc2e3b9efcce43d920ca6e4b1adff854cb911fabe096b28f64e864de"
+      ],
       "text": "Read help on Broadway!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "29bd0743ca152b3309995b0b4336eed9c00c126729bce6dda190eef9b3f06d44",
-      "text": "We help on Broadway!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

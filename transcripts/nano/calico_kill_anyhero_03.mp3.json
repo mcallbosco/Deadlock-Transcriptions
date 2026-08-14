@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_kill_anyhero_03.mp3",
   "revisions": [
     {
-      "sha256": "cefa19e8d229622830fa6e18019866ce8b8da040ee7a32de771620f3b271d17a",
-      "text": "Another one's down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5767ddd01e535577484df7b08c8be0da5b2d35912c6a87d5d7cdd8c4e46df5d1",
+      "sha256": [
+        "5767ddd01e535577484df7b08c8be0da5b2d35912c6a87d5d7cdd8c4e46df5d1",
+        "cefa19e8d229622830fa6e18019866ce8b8da040ee7a32de771620f3b271d17a"
+      ],
       "text": "Another one's down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

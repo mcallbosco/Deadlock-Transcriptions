@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "9a3628f55a846e86032766e3f977543681375ade65eb133832723169e50d0e37",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56b2af2cbc26d5d32e1bc9cfe0d41aa99287e1e1eed3274d1c5fe418d7aca342",
+      "sha256": [
+        "56b2af2cbc26d5d32e1bc9cfe0d41aa99287e1e1eed3274d1c5fe418d7aca342",
+        "9a3628f55a846e86032766e3f977543681375ade65eb133832723169e50d0e37"
+      ],
       "text": "On my way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

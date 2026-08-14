@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_tengu_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "035238e0b819dfbdda7543fae17e82317ac93dd29543bd9d5bb8d04769628457",
+      "sha256": [
+        "035238e0b819dfbdda7543fae17e82317ac93dd29543bd9d5bb8d04769628457",
+        "30eb482720636c97f94769ad853f1618212f4a97b329bcbdd2c9f5afd63aa28b"
+      ],
       "text": "Ivy is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30eb482720636c97f94769ad853f1618212f4a97b329bcbdd2c9f5afd63aa28b",
-      "text": "Ivy is almost back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

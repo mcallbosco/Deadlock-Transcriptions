@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_echo_shard_02.mp3",
   "revisions": [
     {
-      "sha256": "ed4541169fa05d918afa3dce80be2061afd9459c32d7d1032edc67b4ec982a98",
-      "text": "Abilities ready!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2fa59ac8f2a8643b316c5394827b1577bfdc99dcbc9a796ce51f5f7ca2baff61",
-      "text": "Abilities ready!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ffc27f91b0099fdd9d480dedf9dd80e00798989ca785a4dc42866729527d64f9",
-      "text": "Abilities ready!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cde86cba22c060e1ca3b8ab1e0815ee8c511211a946d1bcb00e7f1b00225bed2",
+      "sha256": [
+        "2fa59ac8f2a8643b316c5394827b1577bfdc99dcbc9a796ce51f5f7ca2baff61",
+        "cde86cba22c060e1ca3b8ab1e0815ee8c511211a946d1bcb00e7f1b00225bed2",
+        "ed4541169fa05d918afa3dce80be2061afd9459c32d7d1032edc67b4ec982a98",
+        "ffc27f91b0099fdd9d480dedf9dd80e00798989ca785a4dc42866729527d64f9"
+      ],
       "text": "Abilities ready",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_graf_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e39bf25f752d8cec48ca513e543ca7bc09081fe996be2981137cffa4fd290026",
+      "sha256": [
+        "e39bf25f752d8cec48ca513e543ca7bc09081fe996be2981137cffa4fd290026"
+      ],
       "text": "Graph is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "f3e64fd7f8c7330e2b91268c956a030677874ab7d8c91e322e23805efcdb7964",
+      "sha256": [
+        "f3e64fd7f8c7330e2b91268c956a030677874ab7d8c91e322e23805efcdb7964"
+      ],
       "text": "You are the last one standing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bde7fb122f40f4bf2263360e61d576967aabd801cf7c1d31278389d6e8cb0d85",
-      "text": "You",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "74ebea4ef5c8b16e192739935f447924c4e7dec90899b7583114e0b284bd4835",
+      "sha256": [
+        "74ebea4ef5c8b16e192739935f447924c4e7dec90899b7583114e0b284bd4835",
+        "bde7fb122f40f4bf2263360e61d576967aabd801cf7c1d31278389d6e8cb0d85"
+      ],
       "text": "You",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

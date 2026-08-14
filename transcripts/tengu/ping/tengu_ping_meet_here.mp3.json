@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_meet_here.mp3",
   "revisions": [
     {
-      "sha256": "2052f7ec2cf1cf5ff143432f24cfa6d1ca945e4457f0591a4dc46f11d31dc998",
+      "sha256": [
+        "2052f7ec2cf1cf5ff143432f24cfa6d1ca945e4457f0591a4dc46f11d31dc998"
+      ],
       "text": "Let me hear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bed7dbe14a5eef23843072c6701eb9e12aaa2766181e5006d73a5cc76e0540db",
+      "sha256": [
+        "bed7dbe14a5eef23843072c6701eb9e12aaa2766181e5006d73a5cc76e0540db"
+      ],
       "text": "Let's meet here",
       "source": "official"
     }

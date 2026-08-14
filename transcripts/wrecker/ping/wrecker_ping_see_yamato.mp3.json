@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "67d62fd22a3901cef1ea911a15cbb955c424756bf63065166a44ef9ac41ff729",
-      "text": "I see, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a28e5867764e9587308604ad39fa174bc79a3ba2a8fa6c0f4dcc1d9eacea3a96",
+      "sha256": [
+        "67d62fd22a3901cef1ea911a15cbb955c424756bf63065166a44ef9ac41ff729",
+        "a28e5867764e9587308604ad39fa174bc79a3ba2a8fa6c0f4dcc1d9eacea3a96"
+      ],
       "text": "I see, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

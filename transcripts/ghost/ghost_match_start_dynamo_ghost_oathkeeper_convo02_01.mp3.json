@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ghost_match_start_dynamo_ghost_oathkeeper_convo02_01.mp3",
   "revisions": [
     {
-      "sha256": "a88c98e40da77af42a65e5adef20b6d076b4a94706a3df7c1df05aed6936f7bb",
+      "sha256": [
+        "a88c98e40da77af42a65e5adef20b6d076b4a94706a3df7c1df05aed6936f7bb",
+        "d08212b6b4873c97f4025104255de30fa46090a85745dd9bdb65bdc210ea34fe"
+      ],
       "text": "You're a man of science, Professor. Do you think what they say about the patrons is true?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d08212b6b4873c97f4025104255de30fa46090a85745dd9bdb65bdc210ea34fe",
-      "text": "You're a man of science, professor. Do you think what they say about the patrons is true?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

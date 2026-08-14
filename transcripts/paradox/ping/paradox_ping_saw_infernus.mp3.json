@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_saw_infernus.mp3",
   "revisions": [
     {
-      "sha256": "4bc488ab870373b8b6743a748e39a3454e7cf0b193a5cc0402adf3a050ef4daf",
-      "text": "I saw Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5df64051fc9ee97e39ba65a51465c9945598c377724bac4ecac8c4cf49e4d0da",
+      "sha256": [
+        "4bc488ab870373b8b6743a748e39a3454e7cf0b193a5cc0402adf3a050ef4daf",
+        "5df64051fc9ee97e39ba65a51465c9945598c377724bac4ecac8c4cf49e4d0da"
+      ],
       "text": "I saw Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

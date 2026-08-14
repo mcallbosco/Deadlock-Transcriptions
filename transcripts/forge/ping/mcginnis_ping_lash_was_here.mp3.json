@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_lash_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9a5f977ae6ae5eaf7057443ab83e3268134a347fd65183b76be1c93e6704d118",
+      "sha256": [
+        "77327358604c664126b8ce160f6f30068f52a95cd031d039aa06201263ece8cf",
+        "9a5f977ae6ae5eaf7057443ab83e3268134a347fd65183b76be1c93e6704d118"
+      ],
       "text": "Last was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77327358604c664126b8ce160f6f30068f52a95cd031d039aa06201263ece8cf",
-      "text": "Last was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

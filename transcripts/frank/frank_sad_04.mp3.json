@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_sad_04.mp3",
   "revisions": [
     {
-      "sha256": "acce76c51c2870d8583dcc0172e71b1977aaa44997b04183d130527bf2a0502a",
+      "sha256": [
+        "acce76c51c2870d8583dcc0172e71b1977aaa44997b04183d130527bf2a0502a"
+      ],
       "text": "It won't end this way next time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

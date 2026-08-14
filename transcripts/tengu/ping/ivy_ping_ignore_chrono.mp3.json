@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_ignore_chrono.mp3",
   "revisions": [
     {
-      "sha256": "efe9b9c318fa144026ffff922a158fdeb94f6a60e6eb8459b6dcb0daa48dedeb",
-      "text": "Ignore parrots.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "210c37d85347a4733ee18556561c76eda6cd2ef5bf4b198ea082b59b66af29e0",
+      "sha256": [
+        "210c37d85347a4733ee18556561c76eda6cd2ef5bf4b198ea082b59b66af29e0",
+        "efe9b9c318fa144026ffff922a158fdeb94f6a60e6eb8459b6dcb0daa48dedeb"
+      ],
       "text": "Ignore parrots.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

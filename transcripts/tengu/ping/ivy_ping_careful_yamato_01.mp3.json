@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "b257f8f7601bbad25e5342229137c1d437873a81b1503527ccc9e4dff10d38ce",
+      "sha256": [
+        "b257f8f7601bbad25e5342229137c1d437873a81b1503527ccc9e4dff10d38ce"
+      ],
       "text": "Here for Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8615e84747cc063bc643103f10890ca0d23150582285f3639f73b474324670cf",
+      "sha256": [
+        "8032e77104cbd7e30399aafd7e802c129f8826cf2c4b62dcb4469d3ca31929d4",
+        "8615e84747cc063bc643103f10890ca0d23150582285f3639f73b474324670cf"
+      ],
       "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8032e77104cbd7e30399aafd7e802c129f8826cf2c4b62dcb4469d3ca31929d4",
-      "text": "Careful, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

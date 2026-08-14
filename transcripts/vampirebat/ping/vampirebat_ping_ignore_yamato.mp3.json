@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_ignore_yamato.mp3",
   "revisions": [
     {
-      "sha256": "3b023d64f51550499443bf2f3723469a45f5aa4549cf33eb361736b2ae5b3eb8",
+      "sha256": [
+        "291f96f9ae2fb7588fcbf690e17ce83550a7caa0d6160a4df6b7fea7e92e756b",
+        "3b023d64f51550499443bf2f3723469a45f5aa4549cf33eb361736b2ae5b3eb8"
+      ],
       "text": "Ignore Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "291f96f9ae2fb7588fcbf690e17ce83550a7caa0d6160a4df6b7fea7e92e756b",
-      "text": "Ignore Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

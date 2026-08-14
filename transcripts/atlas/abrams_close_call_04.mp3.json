@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_close_call_04.mp3",
   "revisions": [
     {
-      "sha256": "5b8007367111038750ff9d9f4df077192bd9d23c8fdb352958fac7ad57c68dba",
+      "sha256": [
+        "5b8007367111038750ff9d9f4df077192bd9d23c8fdb352958fac7ad57c68dba"
+      ],
       "text": "Gotta go heal, then I'll be back in the fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3e0f8df6364675420b009f9a633c422a36c06e6559ccd726e502ff840070f757",
-      "text": "Gonna go heal, then I'll be back in the fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f3e59eea9895ecb5ad76744f9fd8fe42e2d94906a550c2dade62e63838fd7ae",
+      "sha256": [
+        "3e0f8df6364675420b009f9a633c422a36c06e6559ccd726e502ff840070f757",
+        "9f3e59eea9895ecb5ad76744f9fd8fe42e2d94906a550c2dade62e63838fd7ae"
+      ],
       "text": "Gonna go heal, then I'll be back in the fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

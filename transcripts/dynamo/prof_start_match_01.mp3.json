@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_start_match_01.mp3",
   "revisions": [
     {
-      "sha256": "7b108bfffb2cae2227618bbf4a424788d5eca37fa1def8bfd41442409c44416d",
-      "text": "The time has come.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b80fad3103581979013d2cb9b18bb6ef350c0eb3ec53d6993aecf642c8a6867",
+      "sha256": [
+        "4b80fad3103581979013d2cb9b18bb6ef350c0eb3ec53d6993aecf642c8a6867",
+        "7b108bfffb2cae2227618bbf4a424788d5eca37fa1def8bfd41442409c44416d"
+      ],
       "text": "The time has come.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "bbcf5740aaf1c60d6643b3faba5714b8d7b76fdfe0e6efd64a358969e1948b5c",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7318f133fe4b5d52253e8ea5343794b6d0fd0c3330c4aa01b4b455d80773a668",
+      "sha256": [
+        "7318f133fe4b5d52253e8ea5343794b6d0fd0c3330c4aa01b4b455d80773a668",
+        "bbcf5740aaf1c60d6643b3faba5714b8d7b76fdfe0e6efd64a358969e1948b5c"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "f1c2ca2a0471e5fccba2179206a8a90da4d6c83a10aa43819464dae5b65457f7",
+      "sha256": [
+        "f1c2ca2a0471e5fccba2179206a8a90da4d6c83a10aa43819464dae5b65457f7"
+      ],
       "text": "I saw them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0cb9ca280b7208e107247a144f2d5976266182ad2f17a1c7290e64040106e60b",
+      "sha256": [
+        "0cb9ca280b7208e107247a144f2d5976266182ad2f17a1c7290e64040106e60b",
+        "d197e1d3d8a6eb5f4d0543f782f86792abd5333211c32ee51df4447f07417d06"
+      ],
       "text": "We show them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d197e1d3d8a6eb5f4d0543f782f86792abd5333211c32ee51df4447f07417d06",
-      "text": "We show them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3bbe74d16f8d5db8bbfca64f03dcd2809ceaa7895c67c1e04db13d520bb63e99",
+      "sha256": [
+        "3bbe74d16f8d5db8bbfca64f03dcd2809ceaa7895c67c1e04db13d520bb63e99"
+      ],
       "text": "I show them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_saw_nano.mp3",
   "revisions": [
     {
-      "sha256": "13f0d5b089d842caa4d74af444049c195470b11d837dd58c8f1d81a974535550",
+      "sha256": [
+        "13f0d5b089d842caa4d74af444049c195470b11d837dd58c8f1d81a974535550"
+      ],
       "text": "I saw Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

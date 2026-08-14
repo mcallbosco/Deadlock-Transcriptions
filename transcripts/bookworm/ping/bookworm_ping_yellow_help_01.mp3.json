@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_yellow_help_01.mp3",
   "revisions": [
     {
-      "sha256": "83d6eb5577ef0d45f580c69e0be30bb410cb67148d544d2513c08c93477889d1",
-      "text": "Yellow needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22d5bd091ec48999f97d09db3247ff850fc479d30424d8d3fc42f8bf16fa4086",
+      "sha256": [
+        "22d5bd091ec48999f97d09db3247ff850fc479d30424d8d3fc42f8bf16fa4086",
+        "83d6eb5577ef0d45f580c69e0be30bb410cb67148d544d2513c08c93477889d1"
+      ],
       "text": "Yellow needs help!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_careful_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "bd5ea86754d68af9bc845f4cbfcc3136b18f8c5c61ed11756dbde69595da5844",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c6b547258ee5690aa3433f3d33877a5f0303a2c5f8460b391f92cfd679d213c",
+      "sha256": [
+        "1c6b547258ee5690aa3433f3d33877a5f0303a2c5f8460b391f92cfd679d213c",
+        "bd5ea86754d68af9bc845f4cbfcc3136b18f8c5c61ed11756dbde69595da5844"
+      ],
       "text": "Careful, Pocket…",
       "source": "official"
     }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_upgrade_power3_04.mp3",
   "revisions": [
     {
-      "sha256": "46cd99789d5b19f106d47a74c01b8162ef4e854951f2dc491a7bb97d68baecc5",
+      "sha256": [
+        "46cd99789d5b19f106d47a74c01b8162ef4e854951f2dc491a7bb97d68baecc5"
+      ],
       "text": "He'll be lit up in no time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "675bca65a397ef330fd6bc4b8ed9abb915346328b750688860618353aeb4291b",
-      "text": "They'll be lit up in no time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e36a587a6d697e2c6414becfd52af5ea6fcc606e99897531819d55268ea8f031",
-      "text": "They'll be lit up in no time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5286540249b22522c97ce3e0a1d94acf71dc0d632c4ba51e0b960881eb59a2c3",
+      "sha256": [
+        "5286540249b22522c97ce3e0a1d94acf71dc0d632c4ba51e0b960881eb59a2c3",
+        "675bca65a397ef330fd6bc4b8ed9abb915346328b750688860618353aeb4291b",
+        "e36a587a6d697e2c6414becfd52af5ea6fcc606e99897531819d55268ea8f031"
+      ],
       "text": "They'll be lit up in no time…",
       "source": "official"
     }

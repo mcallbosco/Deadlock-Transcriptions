@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_t2_under_attack.mp3",
   "revisions": [
     {
-      "sha256": "d3cc4617a0f0c01132219cbd1d831eb314cfe47f424b0bd7dd1eb9cafba27306",
+      "sha256": [
+        "33ade3f881266fbf8bf5ce3682642d3d8c0531ea5bcb72561ad4d8c615d99a94",
+        "d3cc4617a0f0c01132219cbd1d831eb314cfe47f424b0bd7dd1eb9cafba27306"
+      ],
       "text": "They're taking our tier two.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33ade3f881266fbf8bf5ce3682642d3d8c0531ea5bcb72561ad4d8c615d99a94",
-      "text": "They're taking our tier two!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

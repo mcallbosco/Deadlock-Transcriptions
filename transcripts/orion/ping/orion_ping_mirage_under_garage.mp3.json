@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "687b6401e18b72c21a48dfc2f5204f30d0bb0632805058053f58a2d7892439f5",
+      "sha256": [
+        "687b6401e18b72c21a48dfc2f5204f30d0bb0632805058053f58a2d7892439f5"
+      ],
       "text": "Mirage is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "465b1b6230a2cec5ff069e8098c7196f5873314903e815291177893d0b0cddfa",
+      "sha256": [
+        "23ed78c9b7bf5b82fd5a51647ab42efd1f7e38276897717050f9a950d35a69c4",
+        "465b1b6230a2cec5ff069e8098c7196f5873314903e815291177893d0b0cddfa"
+      ],
       "text": "Garage, it's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "23ed78c9b7bf5b82fd5a51647ab42efd1f7e38276897717050f9a950d35a69c4",
-      "text": "Garage, it's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "562c832645f72a5dc4324abc416010ab1812f8d161d405e7a1484277a3986439",
+      "sha256": [
+        "562c832645f72a5dc4324abc416010ab1812f8d161d405e7a1484277a3986439"
+      ],
       "text": "Mirage's under the garage!",
       "source": "official"
     }

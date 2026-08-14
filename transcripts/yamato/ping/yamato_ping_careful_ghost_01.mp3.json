@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "7523205ee8e12ccb1cd6133d6e146e34e344636e5620f170f816b145ddd40153",
-      "text": "Careful, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d0c30c2471fd4c5cbbfc365e572bfb588aafa71a88ddd57551b128ddb3883eb",
-      "text": "Careful, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13ba5cfadef665dcfe256c501ea43bd8f972c1963561b13668817c6c5a70c828",
+      "sha256": [
+        "13ba5cfadef665dcfe256c501ea43bd8f972c1963561b13668817c6c5a70c828",
+        "7523205ee8e12ccb1cd6133d6e146e34e344636e5620f170f816b145ddd40153",
+        "9d0c30c2471fd4c5cbbfc365e572bfb588aafa71a88ddd57551b128ddb3883eb"
+      ],
       "text": "Careful, Geist…",
       "source": "official"
     }

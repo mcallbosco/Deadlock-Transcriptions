@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_upgrade_power3_07.mp3",
   "revisions": [
     {
-      "sha256": "d76191379a1f67680e7b68e5c329f3e59308678589ef26069a78fd2b915da658",
+      "sha256": [
+        "85afe93c138f5c3a1e14204a53d3e99aaa8047f6450af8cf55179878e52932c7",
+        "d76191379a1f67680e7b68e5c329f3e59308678589ef26069a78fd2b915da658"
+      ],
       "text": "Blood will be spilled today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "85afe93c138f5c3a1e14204a53d3e99aaa8047f6450af8cf55179878e52932c7",
-      "text": "Blood will be spilled today.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "47fe9525f0f2eb9831dd582d37f2c19b0251e93797ffa2a03154b8df635aaa75",
+      "sha256": [
+        "47fe9525f0f2eb9831dd582d37f2c19b0251e93797ffa2a03154b8df635aaa75"
+      ],
       "text": "life will be spelled today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d7e105fdd9d546b8dfd309528e8347af45007f5f0a30f471fd447fbf6bc245bd",
+      "sha256": [
+        "d7e105fdd9d546b8dfd309528e8347af45007f5f0a30f471fd447fbf6bc245bd"
+      ],
       "text": "Life will be stopped today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9994d93916c7ab54fb701119545e5065d78d29a3ec874d1f1e6891f858749427",
+      "sha256": [
+        "9994d93916c7ab54fb701119545e5065d78d29a3ec874d1f1e6891f858749427"
+      ],
       "text": "Blood will be spilt today",
       "source": "official"
     }

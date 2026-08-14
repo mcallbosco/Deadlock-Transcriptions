@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_killstreak_high_01.mp3",
   "revisions": [
     {
-      "sha256": "1314313a34659a30d5c464015af4c8ddc9f39bd3b64fb95478ce52e9f2c324a8",
+      "sha256": [
+        "1314313a34659a30d5c464015af4c8ddc9f39bd3b64fb95478ce52e9f2c324a8"
+      ],
       "text": "New York is my city!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ed3e5abdd4b1f81fb048a85004ac660aa0c2607a0f010cb92c6ba236c5de9be3",
+      "sha256": [
+        "ed3e5abdd4b1f81fb048a85004ac660aa0c2607a0f010cb92c6ba236c5de9be3"
+      ],
       "text": "New York is under my protection!",
       "source": "official"
     }

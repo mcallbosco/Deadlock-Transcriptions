@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_calico_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a3dfeb42e8c5d8b1a7833fde001465c5f4fa350fa7dd783b5572ea02ea959ef7",
-      "text": "Calico's here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf6ec8a1eddac69b9d6aeaf65333c72c312e60978af575da101675cf07b46320",
-      "text": "Calico's here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e87db2106ca36a266d72bfc980ce47c3dbc6253df93aba3505e6b03480a9376b",
+      "sha256": [
+        "a3dfeb42e8c5d8b1a7833fde001465c5f4fa350fa7dd783b5572ea02ea959ef7",
+        "cf6ec8a1eddac69b9d6aeaf65333c72c312e60978af575da101675cf07b46320",
+        "e87db2106ca36a266d72bfc980ce47c3dbc6253df93aba3505e6b03480a9376b"
+      ],
       "text": "Calico's here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

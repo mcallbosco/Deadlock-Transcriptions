@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_sorry_03.mp3",
   "revisions": [
     {
-      "sha256": "b417188b344103d835fc4cfae90ae40b95f5e0a245129e0f1dec05efc3c52eb7",
+      "sha256": [
+        "b417188b344103d835fc4cfae90ae40b95f5e0a245129e0f1dec05efc3c52eb7"
+      ],
       "text": "My vote.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2f09a9bb1bcaa371c988a52228dc4478eab1cc10b27984d54bc9bd47145c9303",
-      "text": "My fault.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7f43d6f98ebc4ac6cebbd6cefceb3fd82945ea706bd9628c075db484e791f91",
+      "sha256": [
+        "2f09a9bb1bcaa371c988a52228dc4478eab1cc10b27984d54bc9bd47145c9303",
+        "d7f43d6f98ebc4ac6cebbd6cefceb3fd82945ea706bd9628c075db484e791f91"
+      ],
       "text": "My fault",
       "source": "official"
     }

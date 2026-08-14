@@ -17,6 +17,7 @@ from apply_versioned_historical_contributions import (
     require_clean_transcript_worktree,
 )
 from audit_legacy_contributions import AuditError, git, normalize_text, valid_sha256
+from transcript_schema import revision_group_identity, revisions_for_hash
 
 
 def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
@@ -49,6 +50,7 @@ def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
         if record.get("status") == "candidate_historical_version_review"
     ]
     selected: set[tuple[str, str]] = set()
+    selected_groups: set[tuple[str, tuple[str, ...]]] = set()
     documents: dict[Path, dict[str, Any]] = {}
     official_before: dict[Path, list[dict[str, Any]]] = {}
     changes: list[dict[str, Any]] = []
@@ -83,12 +85,14 @@ def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
                 [value for value in document.get("revisions", []) if value.get("source") == "official"]
             ),
         )
-        revisions = [
-            value for value in document.get("revisions", []) if value.get("sha256") == sha256
-        ]
+        revisions = revisions_for_hash(document, sha256)
         if len(revisions) != 1:
             raise AuditError(f"Expected one current revision {identity}; found {len(revisions)}.")
         revision = revisions[0]
+        group_identity = revision_group_identity(str(target["path"]), revision)
+        if group_identity in selected_groups:
+            raise AuditError(f"Multiple candidates target the same transcript group: {group_identity}")
+        selected_groups.add(group_identity)
         if revision.get("source") == "official":
             raise AuditError(f"Refusing to modify official revision {identity}.")
         if revision.get("source") != "generated" or revision.get("text") != target.get(

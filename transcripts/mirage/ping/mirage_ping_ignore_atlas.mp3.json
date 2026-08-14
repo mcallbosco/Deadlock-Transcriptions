@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_ignore_atlas.mp3",
   "revisions": [
     {
-      "sha256": "f2013557daf9499148d8e1dba3068e2e18a003abf243d28d04ba23328d0fb4a1",
-      "text": "Ignore Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7acefbb69e44c499f7c6911ecdd30af387a3e8c5357f53875a2aa9f25dc9ac0e",
-      "text": "Ignore Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73c3f9000a5fb22071b5ee4726d03f9d4f99ff4c4ee0d1b578d93616f36b2a0b",
+      "sha256": [
+        "73c3f9000a5fb22071b5ee4726d03f9d4f99ff4c4ee0d1b578d93616f36b2a0b",
+        "7acefbb69e44c499f7c6911ecdd30af387a3e8c5357f53875a2aa9f25dc9ac0e",
+        "f2013557daf9499148d8e1dba3068e2e18a003abf243d28d04ba23328d0fb4a1"
+      ],
       "text": "Ignore Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

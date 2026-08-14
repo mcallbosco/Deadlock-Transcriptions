@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_start_match_03.mp3",
   "revisions": [
     {
-      "sha256": "9fcd03eb782821402d05fe382d133bd36c1d0e3f94ea03980b1a2723f5e9d35b",
+      "sha256": [
+        "3844551d589ac3fa1e313eb718aa112c1428ab84762f7fe6dcaadc0eccfd3729",
+        "9fcd03eb782821402d05fe382d133bd36c1d0e3f94ea03980b1a2723f5e9d35b"
+      ],
       "text": "We have your back now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3844551d589ac3fa1e313eb718aa112c1428ab84762f7fe6dcaadc0eccfd3729",
-      "text": "We have your back now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa40c00f23e6984cc14b3803be8c0343b53f4125f33a92382b8392fd8d688d3e",
+      "sha256": [
+        "aa40c00f23e6984cc14b3803be8c0343b53f4125f33a92382b8392fd8d688d3e"
+      ],
       "text": "I have your back now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

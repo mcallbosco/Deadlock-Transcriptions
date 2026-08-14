@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_select_01.mp3",
   "revisions": [
     {
-      "sha256": "d576edab03653e74682e71cd6d4d8bcf835c099286a192490473fa202e0a573d",
-      "text": "Of course you picked me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afb3ce1da604eec320700667013fabbd485bbcdfa918d4567a14c726a78a55b5",
+      "sha256": [
+        "afb3ce1da604eec320700667013fabbd485bbcdfa918d4567a14c726a78a55b5",
+        "d576edab03653e74682e71cd6d4d8bcf835c099286a192490473fa202e0a573d"
+      ],
       "text": "Of course you picked me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

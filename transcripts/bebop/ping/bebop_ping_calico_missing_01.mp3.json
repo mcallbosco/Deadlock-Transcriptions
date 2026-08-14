@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_calico_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4b9ca674bd5335a0412db644b4b6de3efeee949b38a7c833a5db9ee3dc8d02e5",
+      "sha256": [
+        "4b9ca674bd5335a0412db644b4b6de3efeee949b38a7c833a5db9ee3dc8d02e5"
+      ],
       "text": "Cataclysm is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "28f169e0f12239658567cf54d6f364df1ec2795dac564200726382b757ec6b36",
+      "sha256": [
+        "28f169e0f12239658567cf54d6f364df1ec2795dac564200726382b757ec6b36"
+      ],
       "text": "Calico's missing",
       "source": "official"
     }

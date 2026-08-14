@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_krill_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "40fd6f96fc42d45d11fe4108f8eff7bb00d601920ab64c3009606e89ff4777cb",
+      "sha256": [
+        "40fd6f96fc42d45d11fe4108f8eff7bb00d601920ab64c3009606e89ff4777cb"
+      ],
       "text": "Please, listen!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "26f5b600e4fc73d42188d4ae417e3613f686e28c0e590577215383899e6be702",
+      "sha256": [
+        "26f5b600e4fc73d42188d4ae417e3613f686e28c0e590577215383899e6be702"
+      ],
       "text": "Crew is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c138450ce270f3893dd1c5c438c8c607516d44798c6069607bf4297b3575653f",
+      "sha256": [
+        "c138450ce270f3893dd1c5c438c8c607516d44798c6069607bf4297b3575653f"
+      ],
       "text": "Krill's missing",
       "source": "official"
     }

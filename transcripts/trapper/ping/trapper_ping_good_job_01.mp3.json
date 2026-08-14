@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "ae4f63d9429a52273939162a31ed71279cc2060916d742b846fbd16f9277dd40",
+      "sha256": [
+        "ae4f63d9429a52273939162a31ed71279cc2060916d742b846fbd16f9277dd40"
+      ],
       "text": "Good job!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

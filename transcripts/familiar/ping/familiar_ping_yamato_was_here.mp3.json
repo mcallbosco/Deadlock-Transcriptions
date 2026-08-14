@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "familiar/ping/familiar_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e4501887590c9f4e90c82038764d44cf845d772dd2a2b25c240aa02e83390824",
+      "sha256": [
+        "e4501887590c9f4e90c82038764d44cf845d772dd2a2b25c240aa02e83390824"
+      ],
       "text": "Yamato was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_nevermind_03.mp3",
   "revisions": [
     {
-      "sha256": "93cc61ad6e600d1895e2ce620805d7de5a02cff0f350841e867f9470d37f12cc",
+      "sha256": [
+        "93cc61ad6e600d1895e2ce620805d7de5a02cff0f350841e867f9470d37f12cc"
+      ],
       "text": "I'll talk to you soon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ac92c76416c7aa93e839460cb9f8ceca638b17aa40fbf2253bb001c128d6d75f",
-      "text": "I spoke too soon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c81d57d0a21f408fed7f86dc87c367b957c0620926ef6861c95d88aa5b26f16",
+      "sha256": [
+        "6c81d57d0a21f408fed7f86dc87c367b957c0620926ef6861c95d88aa5b26f16",
+        "ac92c76416c7aa93e839460cb9f8ceca638b17aa40fbf2253bb001c128d6d75f"
+      ],
       "text": "I spoke too soon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

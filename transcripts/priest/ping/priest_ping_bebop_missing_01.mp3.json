@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ac9ad9393806c14438b3542876d7e4453638128ee20096a1b8247957fe684c72",
+      "sha256": [
+        "ac9ad9393806c14438b3542876d7e4453638128ee20096a1b8247957fe684c72"
+      ],
       "text": "We are prison.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "559a1335038a07a64cb24229c6b013b6577ec4f14894b11582fed143d29f1a3b",
+      "sha256": [
+        "559a1335038a07a64cb24229c6b013b6577ec4f14894b11582fed143d29f1a3b"
+      ],
       "text": "Bebop's missing.",
       "source": "official"
     }

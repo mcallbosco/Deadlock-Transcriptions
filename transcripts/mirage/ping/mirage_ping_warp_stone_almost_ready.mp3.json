@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_warp_stone_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "e6772de54507af486f5d7c024981a8ad50661fcdfdd8e897eb3ab2cbedf2a4e7",
-      "text": "Warpstone's almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4bb8c461af1c7a965992e0e1d49539540443a69552d342e46109ef6249f02135",
-      "text": "Warp stones almost ready!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0edfb5807a6448b1d393c35152770b9a599bee56fbef26610b2e5085f2cbaede",
+      "sha256": [
+        "0edfb5807a6448b1d393c35152770b9a599bee56fbef26610b2e5085f2cbaede",
+        "4bb8c461af1c7a965992e0e1d49539540443a69552d342e46109ef6249f02135",
+        "e6772de54507af486f5d7c024981a8ad50661fcdfdd8e897eb3ab2cbedf2a4e7"
+      ],
       "text": "Warp Stone's almost ready",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_many_assists_by_ghost.mp3",
   "revisions": [
     {
-      "sha256": "c6d7f069754f893044571db3e03029e053f94b05037b49817026040c2c378280",
-      "text": "Thank you for your assistance, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59c4fed1243bbaec1a4b7c9a1ee29f59d8c9f150df1d2041a953919b172ddbca",
-      "text": "Thank you for your assistance, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c0779e2846e8c573c54b66a907c1ab0b14fe100918acb3d683ee7f73f2c00e6",
+      "sha256": [
+        "1c0779e2846e8c573c54b66a907c1ab0b14fe100918acb3d683ee7f73f2c00e6",
+        "59c4fed1243bbaec1a4b7c9a1ee29f59d8c9f150df1d2041a953919b172ddbca",
+        "c6d7f069754f893044571db3e03029e053f94b05037b49817026040c2c378280"
+      ],
       "text": "Thank you for your assistance Geist",
       "source": "official"
     }

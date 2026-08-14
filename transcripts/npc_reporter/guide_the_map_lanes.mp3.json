@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_the_map_lanes.mp3",
   "revisions": [
     {
-      "sha256": "1a60a065efa932ee78ed652287f2ec9c7853791d4eda9c2e520913b6064bdf71",
-      "text": "There are four lanes, each with a hyperline that players can ride to move quickly.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3c1cdc5b49fe4de2418e7fc3236ebc9e9f7bd865619911e6cc682738bdf779b",
+      "sha256": [
+        "1a60a065efa932ee78ed652287f2ec9c7853791d4eda9c2e520913b6064bdf71",
+        "c3c1cdc5b49fe4de2418e7fc3236ebc9e9f7bd865619911e6cc682738bdf779b"
+      ],
       "text": "There are four lanes, each with a hyperline that players can ride to move quickly.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

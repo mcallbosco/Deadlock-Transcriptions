@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_akimbo_01.mp3",
   "revisions": [
     {
-      "sha256": "8b6eb55ec55d2b9ec7b1ea85b46622cdcc549adc9e29f5c952aa0acb57c1c103",
-      "text": "Careful, Akimbo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00745757804c000a5b771dc4982e82ffb3105a114a5004289d632c7de256f395",
-      "text": "Careful, Akimbo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c1c8ffa52c219f033939190598e537c7535392f4da88caba674d179643c88ff",
+      "sha256": [
+        "00745757804c000a5b771dc4982e82ffb3105a114a5004289d632c7de256f395",
+        "7c1c8ffa52c219f033939190598e537c7535392f4da88caba674d179643c88ff",
+        "8b6eb55ec55d2b9ec7b1ea85b46622cdcc549adc9e29f5c952aa0acb57c1c103"
+      ],
       "text": "Careful, Akimbo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

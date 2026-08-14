@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "d89eabfccc3e490a805cccf8e677b6c31ba3b8100c7910cfe9134e446c2ba7ed",
+      "sha256": [
+        "d89eabfccc3e490a805cccf8e677b6c31ba3b8100c7910cfe9134e446c2ba7ed"
+      ],
       "text": "I'm with you, Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

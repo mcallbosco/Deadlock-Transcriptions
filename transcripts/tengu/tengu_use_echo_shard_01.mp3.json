@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_use_echo_shard_01.mp3",
   "revisions": [
     {
-      "sha256": "70ed6a24ded3c792d0f13333d90c55d8985f9ac226551ba3173d2ed84da28b0e",
-      "text": "Echo shard!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e25adcf80f64b69480a00a906f3f418e8cf022d89d8d12b248c0677b25cc6327",
+      "sha256": [
+        "70ed6a24ded3c792d0f13333d90c55d8985f9ac226551ba3173d2ed84da28b0e",
+        "e25adcf80f64b69480a00a906f3f418e8cf022d89d8d12b248c0677b25cc6327"
+      ],
       "text": "Echo shard!",
       "source": "official"
     }

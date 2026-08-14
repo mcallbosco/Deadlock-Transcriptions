@@ -19,6 +19,7 @@ from pathlib import Path
 from typing import Any
 
 from audit_legacy_contributions import AuditError, git, normalize_text, valid_sha256
+from transcript_schema import revision_group_identity, revisions_for_hash
 
 
 def read_json(path: Path) -> dict[str, Any]:
@@ -71,7 +72,7 @@ def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
 
     target_prefix = str(report["target"]["prefix"]).strip("/")
     candidates = [record for record in report.get("records", []) if record.get("status") == "candidate_manual"]
-    selected_ids: set[tuple[str, str]] = set()
+    selected_ids: set[tuple[str, tuple[str, ...]]] = set()
     documents: dict[Path, dict[str, Any]] = {}
     original_official: dict[Path, list[dict[str, Any]]] = {}
     changes: list[dict[str, Any]] = []
@@ -99,13 +100,14 @@ def plan_changes(repo: Path, report: dict[str, Any]) -> list[dict[str, Any]]:
         if not valid_sha256(sha256):
             raise AuditError(f"Candidate has no addressable audio SHA-256: {match.get('path')}")
         identity = (str(match["path"]), str(sha256))
-        if identity in selected_ids:
-            raise AuditError(f"Multiple candidates target the same audio revision: {identity}")
-        selected_ids.add(identity)
-        found = [value for value in revisions if value.get("sha256") == sha256]
+        found = revisions_for_hash(document, sha256)
         if len(found) != 1:
             raise AuditError(f"Expected one revision with SHA-256 {sha256} in {path}; found {len(found)}.")
         revision = found[0]
+        group_identity = revision_group_identity(str(match["path"]), revision)
+        if group_identity in selected_ids:
+            raise AuditError(f"Multiple candidates target the same transcript group: {group_identity}")
+        selected_ids.add(group_identity)
         if revision.get("source") == "official":
             raise AuditError(f"Refusing to modify official revision {identity}.")
 
@@ -146,7 +148,7 @@ def apply_changes(changes: list[dict[str, Any]]) -> None:
         if path not in documents:
             documents[path] = read_json(path)
         revisions = documents[path]["revisions"]
-        found = [value for value in revisions if value.get("sha256") == change["sha256"]]
+        found = revisions_for_hash(documents[path], change["sha256"])
         if len(found) != 1 or found[0].get("source") == "official":
             raise AuditError(f"Target changed between planning and writing: {path}@{change['sha256']}")
         found[0].clear()

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_attack_yamato.mp3",
   "revisions": [
     {
-      "sha256": "ae16ffd9838a6664218eb70118f61e6d20dbb00e58ab0babaf0b8bf9311d2b3c",
-      "text": "Let's take out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca533dbddb454d2ad261501d67755e6e9e96a9a7b60eb2df730e0ed016196542",
-      "text": "Let's check out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e85f7450bef247efffd9e1d159ec3bcfab4f33d4b914b0edc1b29b1b6cddb200",
-      "text": "Let's check out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21b991095b8a2a233c63e5a71c26c7f242fb47eb1a5fbbc602886384613356fc",
+      "sha256": [
+        "21b991095b8a2a233c63e5a71c26c7f242fb47eb1a5fbbc602886384613356fc",
+        "ae16ffd9838a6664218eb70118f61e6d20dbb00e58ab0babaf0b8bf9311d2b3c"
+      ],
       "text": "Let's take out Yamato",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "ca533dbddb454d2ad261501d67755e6e9e96a9a7b60eb2df730e0ed016196542",
+        "e85f7450bef247efffd9e1d159ec3bcfab4f33d4b914b0edc1b29b1b6cddb200"
+      ],
+      "text": "Let's check out Yamato.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

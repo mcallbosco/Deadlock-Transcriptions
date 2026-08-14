@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "432cb40395f650690d2f099a16e5ea932d491a4a080e0f9e6562be4dbb7af720",
-      "text": "McGinnis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f775de32006bd1bd6db42b0c009d0bfcedac066c583042a8577bdce07f25c26d",
-      "text": "McGinnis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed16fbf9842a37eb56a675539558f1a1efb4be617ab5a32f1193ec852ea4b724",
+      "sha256": [
+        "432cb40395f650690d2f099a16e5ea932d491a4a080e0f9e6562be4dbb7af720",
+        "ed16fbf9842a37eb56a675539558f1a1efb4be617ab5a32f1193ec852ea4b724",
+        "f775de32006bd1bd6db42b0c009d0bfcedac066c583042a8577bdce07f25c26d"
+      ],
       "text": "McGinnis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

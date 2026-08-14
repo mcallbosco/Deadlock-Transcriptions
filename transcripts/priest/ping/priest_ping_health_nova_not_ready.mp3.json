@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_health_nova_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "af4bc85730b68921544ac5ff0401e86933b3425dcbd3e8e2e9916d0a5cc9068d",
-      "text": "Health Nova's on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "217f6890569225d1c6760628ebbcb18e1dc0175967a8ee9d125db14f125a4199",
+      "sha256": [
+        "217f6890569225d1c6760628ebbcb18e1dc0175967a8ee9d125db14f125a4199",
+        "af4bc85730b68921544ac5ff0401e86933b3425dcbd3e8e2e9916d0a5cc9068d"
+      ],
       "text": "Health Nova's on cooldown.",
       "source": "official"
     }

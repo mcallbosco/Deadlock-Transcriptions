@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_careful_wrecker_03.mp3",
   "revisions": [
     {
-      "sha256": "c512dd6eb4692099c1fce980aaf52436816f53e1a7bc2d56936dc181abfbb008",
+      "sha256": [
+        "c512dd6eb4692099c1fce980aaf52436816f53e1a7bc2d56936dc181abfbb008"
+      ],
       "text": "Hello, Walker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a582c7f63a12d8f367185c85f30b2f073e6948005c307ca8b0fe105a535f349d",
+      "sha256": [
+        "a582c7f63a12d8f367185c85f30b2f073e6948005c307ca8b0fe105a535f349d"
+      ],
       "text": "Hello, Wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

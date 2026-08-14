@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_wrecker_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "3c296eafd7633a57713cae5b4854b3ca9a19f6d9df9a120be940a4b5fad05926",
+      "sha256": [
+        "3c296eafd7633a57713cae5b4854b3ca9a19f6d9df9a120be940a4b5fad05926",
+        "65c7dd9dde5e1821189482f01898f627c56e78b6ebcb195f18f60d13a20dd60e"
+      ],
       "text": "Wrecker's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "4a41d5ee64142762feaf7c67ead14a61586d8323fc4f4523ea98d21fb1f641ec",
+      "sha256": [
+        "4a41d5ee64142762feaf7c67ead14a61586d8323fc4f4523ea98d21fb1f641ec"
+      ],
       "text": "Make us on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "65c7dd9dde5e1821189482f01898f627c56e78b6ebcb195f18f60d13a20dd60e",
-      "text": "Wrecker's on the bridge!",
-      "source": "official"
     }
   ]
 }

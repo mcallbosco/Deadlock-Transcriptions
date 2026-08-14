@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "b816f24b0abe60745cad61ff9bbe829f5535f1fb8464886953687a7d94dbf514",
-      "text": "If things go bad, we need an exit strategy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2bb7e33f2528cd355e8149df66537744f6ba3240a76a6be9528ca5344ba06172",
-      "text": "If things go bad, we need an exit strategy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "665bcc180cb61f72f85dac920e6381fa38222645dfbef632554cd1887294f9f8",
-      "text": "If things go bad, we need an exit strategy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "15de399961d162cae3e5f9688371ec679076af2f2a17eb74fea76406e345245c",
+      "sha256": [
+        "15de399961d162cae3e5f9688371ec679076af2f2a17eb74fea76406e345245c",
+        "2bb7e33f2528cd355e8149df66537744f6ba3240a76a6be9528ca5344ba06172",
+        "665bcc180cb61f72f85dac920e6381fa38222645dfbef632554cd1887294f9f8",
+        "b816f24b0abe60745cad61ff9bbe829f5535f1fb8464886953687a7d94dbf514"
+      ],
       "text": "If things go bad we need an exit strategy",
       "source": "official"
     }

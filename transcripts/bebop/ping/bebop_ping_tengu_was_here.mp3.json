@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b0ae064d930663e4a591f5c61d12422abce99acc23090bdf70b541c48a4c2b4f",
+      "sha256": [
+        "b0ae064d930663e4a591f5c61d12422abce99acc23090bdf70b541c48a4c2b4f"
+      ],
       "text": "Are you there?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c6cf2516b4ef8c2c53e185fb22f1ade2a1215e235aa55a896a809575c41060c2",
+      "sha256": [
+        "c6cf2516b4ef8c2c53e185fb22f1ade2a1215e235aa55a896a809575c41060c2"
+      ],
       "text": "Ivy was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

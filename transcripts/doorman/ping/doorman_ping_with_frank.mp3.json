@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_with_frank.mp3",
   "revisions": [
     {
-      "sha256": "652cdd42f61d12e40c4f6d8dde3d32799b4ec02ba18f785ef0b34e9fb7c2397f",
+      "sha256": [
+        "652cdd42f61d12e40c4f6d8dde3d32799b4ec02ba18f785ef0b34e9fb7c2397f"
+      ],
       "text": "I'm with you, Victor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

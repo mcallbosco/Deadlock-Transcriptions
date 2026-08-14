@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_need_help_purple_alt.mp3",
   "revisions": [
     {
-      "sha256": "ed5a9ff5424186856b95de8d441fa01ef6e6f056f06ca90792b36094991bc859",
-      "text": "Need help on park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a97a53e10561c25c1ae54f4eda930ae8c390815018f15df0209f2cbefb1378b3",
-      "text": "Need help on park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f64acf20fd3ce664161308825391c294d2b21495b6401745050435d65fa22502",
+      "sha256": [
+        "a97a53e10561c25c1ae54f4eda930ae8c390815018f15df0209f2cbefb1378b3",
+        "ed5a9ff5424186856b95de8d441fa01ef6e6f056f06ca90792b36094991bc859",
+        "f64acf20fd3ce664161308825391c294d2b21495b6401745050435d65fa22502"
+      ],
       "text": "Need help on park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

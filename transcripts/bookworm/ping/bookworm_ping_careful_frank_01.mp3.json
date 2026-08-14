@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_frank_01.mp3",
   "revisions": [
     {
-      "sha256": "5babc112f6bfe19f3255c898c75e87ee5a2c4194594059efdb080d6c3886ae4a",
+      "sha256": [
+        "5babc112f6bfe19f3255c898c75e87ee5a2c4194594059efdb080d6c3886ae4a"
+      ],
       "text": "Careful, Frank.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b986cea332f96f0ca8de7de9bd8b2edf700be2eba2c8b4e791b1ba3b8db68d5",
+      "sha256": [
+        "0b986cea332f96f0ca8de7de9bd8b2edf700be2eba2c8b4e791b1ba3b8db68d5"
+      ],
       "text": "Careful, Victor…",
       "source": "official"
     }

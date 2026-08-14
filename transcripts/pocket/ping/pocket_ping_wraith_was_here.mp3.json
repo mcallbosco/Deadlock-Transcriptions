@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_wraith_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8c01afa5bb30a26d957634aca7e923c0e5e81389ae16040e2b17c67eb6f86f82",
-      "text": "Wraith was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad9c0ce90fdfb6e06a9fd922b1e8045e824d792c6f5de54d1c63746192fd0094",
+      "sha256": [
+        "8c01afa5bb30a26d957634aca7e923c0e5e81389ae16040e2b17c67eb6f86f82",
+        "ad9c0ce90fdfb6e06a9fd922b1e8045e824d792c6f5de54d1c63746192fd0094"
+      ],
       "text": "Wraith was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

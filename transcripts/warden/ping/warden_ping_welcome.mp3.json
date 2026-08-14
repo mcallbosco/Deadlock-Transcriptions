@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "7af2a07334fe61a42da36b71cd8d45d63e9cff3d9d39925bc98415d252a6b605",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee47bc4b45b363308f4d4a489d5448f89cc0905026dc9358c26453462ad7e194",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3cfb90da482e7faf87c1772ac9343feda717305af6d8372e93fac9e86942965",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e8482cf919855e7dd5dfe1ea5b5264eccab2de2759164ed7851570957e4e93af",
+      "sha256": [
+        "7af2a07334fe61a42da36b71cd8d45d63e9cff3d9d39925bc98415d252a6b605",
+        "b3cfb90da482e7faf87c1772ac9343feda717305af6d8372e93fac9e86942965",
+        "e8482cf919855e7dd5dfe1ea5b5264eccab2de2759164ed7851570957e4e93af",
+        "ee47bc4b45b363308f4d4a489d5448f89cc0905026dc9358c26453462ad7e194"
+      ],
       "text": "You're welcome",
       "source": "official"
     }

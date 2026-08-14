@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "87883f7b720839b9d1fbe79f6ebd97e202ef0f8ba74425e957115451a26005b7",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b66fec92b669630018ba4a1df47f43d384c1c4432557dbca35e955fa4cf4cae6",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "128b668964ef7e94faa0db0157f2e874206fc0a274a04945d381b0998d83b9e1",
+      "sha256": [
+        "128b668964ef7e94faa0db0157f2e874206fc0a274a04945d381b0998d83b9e1",
+        "87883f7b720839b9d1fbe79f6ebd97e202ef0f8ba74425e957115451a26005b7",
+        "b66fec92b669630018ba4a1df47f43d384c1c4432557dbca35e955fa4cf4cae6"
+      ],
       "text": "Good job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

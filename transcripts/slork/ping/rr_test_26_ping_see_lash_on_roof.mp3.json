@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_lash_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "f1b685ed9edd75a63d77703298df85f7e23250c60e322820998c7d28edaedbc3",
-      "text": "Lashes on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "381233d160935db2159f612c384103ddbdd249457ec6276944fa01f79de8aa72",
+      "sha256": [
+        "381233d160935db2159f612c384103ddbdd249457ec6276944fa01f79de8aa72",
+        "f1b685ed9edd75a63d77703298df85f7e23250c60e322820998c7d28edaedbc3"
+      ],
       "text": "Lashes on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_krill_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9ab8c0e923ee4bb2a77d02b86800f168911c5eb098efb9b16555b49b0158bdbc",
+      "sha256": [
+        "9ab8c0e923ee4bb2a77d02b86800f168911c5eb098efb9b16555b49b0158bdbc"
+      ],
       "text": "Crow's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0f490b80a1bca9d9ba353ef45474a4dc08084594e93b98b9d80e05ed3b8e448d",
+      "sha256": [
+        "0f490b80a1bca9d9ba353ef45474a4dc08084594e93b98b9d80e05ed3b8e448d"
+      ],
       "text": "Krill's missing.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_geist_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "cf514425c445a80985ae08b20c89b175bc900bd588e397dbca6c1952474fbb8c",
-      "text": "Guys on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cccad6215cace7ababb78d0f47b4df5358ef7245bb55305992a0608e2974fa23",
+      "sha256": [
+        "cccad6215cace7ababb78d0f47b4df5358ef7245bb55305992a0608e2974fa23",
+        "cf514425c445a80985ae08b20c89b175bc900bd588e397dbca6c1952474fbb8c"
+      ],
       "text": "Guys on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

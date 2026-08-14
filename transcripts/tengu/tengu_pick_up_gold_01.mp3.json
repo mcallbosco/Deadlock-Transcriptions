@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_pick_up_gold_01.mp3",
   "revisions": [
     {
-      "sha256": "4e86fc08e63da49c0b9174f1bff14b43690460d5f3b116278e2ba21f5056ddcc",
+      "sha256": [
+        "4e86fc08e63da49c0b9174f1bff14b43690460d5f3b116278e2ba21f5056ddcc"
+      ],
       "text": "Give me this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "119031e0003f8561e56411a8290075185944f43d8085839cd7ca6f8782e1f371",
+      "sha256": [
+        "119031e0003f8561e56411a8290075185944f43d8085839cd7ca6f8782e1f371"
+      ],
       "text": "I needed this...",
       "source": "official"
     }

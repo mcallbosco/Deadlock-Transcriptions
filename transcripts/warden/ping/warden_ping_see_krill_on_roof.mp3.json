@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_krill_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "f3be6893d006b7f6a8262f725083f8ce18a5f8a9f3472b6d564004072c6cd86b",
+      "sha256": [
+        "c3222ad4385f26c784f1852ec668edab1b48887e929105e29a68d7b62ddf023d",
+        "f3be6893d006b7f6a8262f725083f8ce18a5f8a9f3472b6d564004072c6cd86b"
+      ],
       "text": "Crew's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa05fbe1712179b3befe489f8162c9dbe5e228436e5a3f8ab384571d61fb0111",
+      "sha256": [
+        "fa05fbe1712179b3befe489f8162c9dbe5e228436e5a3f8ab384571d61fb0111"
+      ],
       "text": "Cruise on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3222ad4385f26c784f1852ec668edab1b48887e929105e29a68d7b62ddf023d",
-      "text": "Crew's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8121f47d3d37ce5653e3cf3e102a4f7079e8f4a2992ab7845ba0c1dd5b85f9b0",
+      "sha256": [
+        "8121f47d3d37ce5653e3cf3e102a4f7079e8f4a2992ab7845ba0c1dd5b85f9b0"
+      ],
       "text": "Krill's on the roof!",
       "source": "official"
     }

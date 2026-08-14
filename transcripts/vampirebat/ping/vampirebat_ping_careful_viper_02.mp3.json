@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_careful_viper_02.mp3",
   "revisions": [
     {
-      "sha256": "6b6156ea39730e546eac3fc5e1b076702c28397e14c7774162f68bb1ddb4d721",
+      "sha256": [
+        "6b6156ea39730e546eac3fc5e1b076702c28397e14c7774162f68bb1ddb4d721"
+      ],
       "text": "Careful, Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e5f985d62cc81b61740ef903aeddfc2f7fa72dbe0ffd5e7fbc6ef0acf7defc78",
+      "sha256": [
+        "e5f985d62cc81b61740ef903aeddfc2f7fa72dbe0ffd5e7fbc6ef0acf7defc78"
+      ],
       "text": "Careful, Vyper.",
       "source": "manual"
     }

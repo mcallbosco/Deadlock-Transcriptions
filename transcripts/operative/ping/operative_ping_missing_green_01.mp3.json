@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "6b156e9551c2168e9cbe05d1f00f412555176f9a23cd7cb79d49d0066af78845",
+      "sha256": [
+        "6b156e9551c2168e9cbe05d1f00f412555176f9a23cd7cb79d49d0066af78845"
+      ],
       "text": "Missing green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_use_ice_blast_01.mp3",
   "revisions": [
     {
-      "sha256": "527dde1e01f790204a542ccc15ffc7a194a0b94014531fcfa3fedf470106b45e",
-      "text": "Nice blast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31a6456ffb620db309aad5a957c17c15aa05b6b96dd8d770a4638288f75d215a",
+      "sha256": [
+        "31a6456ffb620db309aad5a957c17c15aa05b6b96dd8d770a4638288f75d215a",
+        "527dde1e01f790204a542ccc15ffc7a194a0b94014531fcfa3fedf470106b45e"
+      ],
       "text": "Nice blast.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

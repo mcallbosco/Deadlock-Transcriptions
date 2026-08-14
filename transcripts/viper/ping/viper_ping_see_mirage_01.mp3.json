@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "6ad70d5b266c89de4dfa775c9f03f4ab3b98afabed2fefd0812c565fb59b2087",
-      "text": "I see Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f5bc293588bfaf1ad1f4dd3be04c0d920ab3d9943685991f4564d187cbbfd53",
-      "text": "I see Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b8a5b7697cbcc0a69fcfb419862e4f9f8429d22cd2f5e2c7088a62a968e90f2c",
+      "sha256": [
+        "6ad70d5b266c89de4dfa775c9f03f4ab3b98afabed2fefd0812c565fb59b2087",
+        "6f5bc293588bfaf1ad1f4dd3be04c0d920ab3d9943685991f4564d187cbbfd53",
+        "b8a5b7697cbcc0a69fcfb419862e4f9f8429d22cd2f5e2c7088a62a968e90f2c"
+      ],
       "text": "I see Mirage",
       "source": "official"
     }

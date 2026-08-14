@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_enemy_yamato_starts_ult_01.mp3",
   "revisions": [
     {
-      "sha256": "4578684064b183a3f40ee799ccdfc41fbd5c22a3d7b5b4e079e394daa91f02c5",
+      "sha256": [
+        "4578684064b183a3f40ee799ccdfc41fbd5c22a3d7b5b4e079e394daa91f02c5"
+      ],
       "text": "Call back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fe13f131ae4b054ec9b4c8113c505263e046d6ec25d52935e160bc2ddeb05ebb",
-      "text": "Pull back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "007f3ba7409e939849986b1ae8eae4816b8e83aaa1d38237703ce48e7b421363",
-      "text": "Come back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d8527028eb7bbce3a45066e4313ec3ad485cad96b78d91f811e27cc4c38c5f6",
-      "text": "Come back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81baed01e85e7e9fc5ce67c90482c9fcee96643003a8cce37c2155f373458c09",
+      "sha256": [
+        "81baed01e85e7e9fc5ce67c90482c9fcee96643003a8cce37c2155f373458c09",
+        "fe13f131ae4b054ec9b4c8113c505263e046d6ec25d52935e160bc2ddeb05ebb"
+      ],
       "text": "Pull back!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "007f3ba7409e939849986b1ae8eae4816b8e83aaa1d38237703ce48e7b421363",
+        "2d8527028eb7bbce3a45066e4313ec3ad485cad96b78d91f811e27cc4c38c5f6"
+      ],
+      "text": "Come back!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

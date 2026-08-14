@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_kill_yamato_03.mp3",
   "revisions": [
     {
-      "sha256": "692284e5dd07f88fd019ea8546f3c3e9dabf89d6e92ea189639be0849b26314c",
+      "sha256": [
+        "692284e5dd07f88fd019ea8546f3c3e9dabf89d6e92ea189639be0849b26314c"
+      ],
       "text": "You can't buy me, Miles.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9bf9eda8041508a619cd545be9555cb41db426e70db0c5d7a3b08155f4f695d",
-      "text": "You can't buy me, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54cb586332e6a03c3de884333ffbd2ef70ea2b5a504f2965c7d012f4c73fc056",
-      "text": "You can't buy me, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e8a85b5044ac31c6b6a1d69eb14bd59e20ed14ec79eb099cb8334bfc9c158d3",
+      "sha256": [
+        "2e8a85b5044ac31c6b6a1d69eb14bd59e20ed14ec79eb099cb8334bfc9c158d3",
+        "54cb586332e6a03c3de884333ffbd2ef70ea2b5a504f2965c7d012f4c73fc056",
+        "b9bf9eda8041508a619cd545be9555cb41db426e70db0c5d7a3b08155f4f695d"
+      ],
       "text": "You can't buy me Yamato!",
       "source": "official"
     }

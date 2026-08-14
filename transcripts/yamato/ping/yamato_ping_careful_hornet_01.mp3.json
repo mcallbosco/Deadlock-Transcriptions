@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "e8a44d44c44e4c97389f332aafe5c3b2460233ed0933322ad0e2501eb7c9e177",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43f76eb51a5898821ae036d02d5eae9d72dd15f9bbacd322f5a1aa6794ee8ac0",
+      "sha256": [
+        "43f76eb51a5898821ae036d02d5eae9d72dd15f9bbacd322f5a1aa6794ee8ac0",
+        "e8a44d44c44e4c97389f332aafe5c3b2460233ed0933322ad0e2501eb7c9e177"
+      ],
       "text": "Careful, vindicta…",
       "source": "official"
     }

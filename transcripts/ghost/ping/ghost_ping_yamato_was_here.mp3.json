@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e84c7efa0a7c516bf624aead434a7763a470a0634e2bdd780369fb60d274fb91",
+      "sha256": [
+        "e84c7efa0a7c516bf624aead434a7763a470a0634e2bdd780369fb60d274fb91"
+      ],
       "text": "Your mother was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7cf632ab862100ac61865868d237b3d313cfa638a922fdf1a0c72714a787d54d",
+      "sha256": [
+        "7cf632ab862100ac61865868d237b3d313cfa638a922fdf1a0c72714a787d54d"
+      ],
       "text": "You have over here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

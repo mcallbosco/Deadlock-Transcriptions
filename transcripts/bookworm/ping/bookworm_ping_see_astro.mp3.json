@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_astro.mp3",
   "revisions": [
     {
-      "sha256": "9aff91791f74ba9c6f49dcabd1e7a6fc8dca1fdfffcfe9eb851e17fd2afe1a17",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1bcbcd7389f49b53b64eec77a81b65acfcee8fa18936a253b8d924228275e7b4",
+      "sha256": [
+        "1bcbcd7389f49b53b64eec77a81b65acfcee8fa18936a253b8d924228275e7b4",
+        "9aff91791f74ba9c6f49dcabd1e7a6fc8dca1fdfffcfe9eb851e17fd2afe1a17"
+      ],
       "text": "I see Holliday.",
       "source": "official"
     }

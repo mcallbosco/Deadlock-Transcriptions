@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_help_out_haze.mp3",
   "revisions": [
     {
-      "sha256": "6d8d5c03f4631f6b5268356a6f0681f0bd7b384033fd38df91babb7c916c8c7e",
-      "text": "Haze needs assistance.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b675bf5e751da7080709ae8637046d6ec317bbd20f53c08e40ecf0a82f36a24",
+      "sha256": [
+        "4b675bf5e751da7080709ae8637046d6ec317bbd20f53c08e40ecf0a82f36a24",
+        "6d8d5c03f4631f6b5268356a6f0681f0bd7b384033fd38df91babb7c916c8c7e"
+      ],
       "text": "Haze needs assistance.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_missing_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "ca054d4d71a7bc1c29a8a497f06ba777a38f2c247663086e33c957121eb232d9",
+      "sha256": [
+        "a473bfce2dc44300b6a5863920bcfd4524d8ddca21fb0444c44bed71ca9bf74d",
+        "ca054d4d71a7bc1c29a8a497f06ba777a38f2c247663086e33c957121eb232d9"
+      ],
       "text": "Missing orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a473bfce2dc44300b6a5863920bcfd4524d8ddca21fb0444c44bed71ca9bf74d",
-      "text": "Missing Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

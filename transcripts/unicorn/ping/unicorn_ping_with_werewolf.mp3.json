@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_werewolf.mp3",
   "revisions": [
     {
-      "sha256": "d1ee380b66878682f312d97c44a981e2ac46e08019772ab30fcc8fd91183a906",
+      "sha256": [
+        "d1ee380b66878682f312d97c44a981e2ac46e08019772ab30fcc8fd91183a906"
+      ],
       "text": "I'm with you, Silver.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

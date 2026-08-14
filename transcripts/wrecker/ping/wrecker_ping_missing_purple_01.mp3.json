@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "8656954c6d14e2025003450ccdbcc5660cf6b401152d8e8adb7e216c0e00f98e",
-      "text": "Missing purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "664f2997efa36f6b672df2d67434dff63d61b38c12873715dd4fd533260fab7c",
+      "sha256": [
+        "664f2997efa36f6b672df2d67434dff63d61b38c12873715dd4fd533260fab7c",
+        "8656954c6d14e2025003450ccdbcc5660cf6b401152d8e8adb7e216c0e00f98e"
+      ],
       "text": "Missing purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

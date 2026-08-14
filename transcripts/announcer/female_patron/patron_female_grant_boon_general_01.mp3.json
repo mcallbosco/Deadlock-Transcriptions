@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_grant_boon_general_01.mp3",
   "revisions": [
     {
-      "sha256": "99c9f0ec794604fbb945b52da7c66b909ce90d077206a23878627c2099e30b4d",
-      "text": "a boon from your patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff5ac81ec03b50aa23bafe7f004401a6d2a15d8b2211a7007070180e109b1a21",
-      "text": "a boon from your patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95ab3037a6ef61f077abf53baaaedb3a2d2ded377c6b9aaa893e3f3c105bb581",
+      "sha256": [
+        "95ab3037a6ef61f077abf53baaaedb3a2d2ded377c6b9aaa893e3f3c105bb581",
+        "99c9f0ec794604fbb945b52da7c66b909ce90d077206a23878627c2099e30b4d",
+        "ff5ac81ec03b50aa23bafe7f004401a6d2a15d8b2211a7007070180e109b1a21"
+      ],
       "text": "A boon from your patron",
       "source": "official"
     }

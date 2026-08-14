@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_stay_together.mp3",
   "revisions": [
     {
-      "sha256": "cfe1c9fe01367236b15c3664fe13c48e5969eb21ba603a1f68cd508aef571621",
-      "text": "Stay together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ab708c451e59cfc5ec114963d40e2f5ff87281dc4eac6a28dc57164129b5238",
+      "sha256": [
+        "2ab708c451e59cfc5ec114963d40e2f5ff87281dc4eac6a28dc57164129b5238",
+        "cfe1c9fe01367236b15c3664fe13c48e5969eb21ba603a1f68cd508aef571621"
+      ],
       "text": "Stay together!",
       "source": "official"
     }

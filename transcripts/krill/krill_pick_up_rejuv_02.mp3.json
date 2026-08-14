@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_pick_up_rejuv_02.mp3",
   "revisions": [
     {
-      "sha256": "5809dfe95092577ab3aaf3b51dda4e48d44820d2652d356a5e247967d580546d",
+      "sha256": [
+        "5809dfe95092577ab3aaf3b51dda4e48d44820d2652d356a5e247967d580546d",
+        "85c63967c0544bde83529aaf0f75b3a7e590d0687c96f894c4cb80f7a46b8e2a",
+        "bcfceffd39041e0c5e11724a1bf9e2bcbee8e33286acd9f6d8c454f49d54879a"
+      ],
       "text": "We picked up the resume.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "85c63967c0544bde83529aaf0f75b3a7e590d0687c96f894c4cb80f7a46b8e2a",
-      "text": "We picked up the resume.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bcfceffd39041e0c5e11724a1bf9e2bcbee8e33286acd9f6d8c454f49d54879a",
-      "text": "We picked up the resume.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da7580fb790f719c18e12b3db89a1fc2face56bf3844f0c782a23c5ee501be0f",
+      "sha256": [
+        "da7580fb790f719c18e12b3db89a1fc2face56bf3844f0c782a23c5ee501be0f"
+      ],
       "text": "We picked up the rejuv!",
       "source": "official"
     }

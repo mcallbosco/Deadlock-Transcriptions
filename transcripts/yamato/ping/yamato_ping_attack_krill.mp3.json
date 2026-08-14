@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_attack_krill.mp3",
   "revisions": [
     {
-      "sha256": "fe8fe923b38cb0e2b4b172f9aee78125fbf55855aeb5ece9d48cc5ed1b8b427c",
-      "text": "Let's take out Krill!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "beea7e9b9186f72696701552cd0ce2c755859c93944d30200770c218d95133af",
+        "fe8fe923b38cb0e2b4b172f9aee78125fbf55855aeb5ece9d48cc5ed1b8b427c"
+      ],
+      "text": "Let's take out Krill",
+      "source": "official"
     },
     {
-      "sha256": "2dc2e222fa7d8efa8daa1337bbf058d042866b2da0e1f1feed42af5a562305b8",
+      "sha256": [
+        "2dc2e222fa7d8efa8daa1337bbf058d042866b2da0e1f1feed42af5a562305b8"
+      ],
       "text": "Let's take out crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "beea7e9b9186f72696701552cd0ce2c755859c93944d30200770c218d95133af",
-      "text": "Let's take out Krill",
-      "source": "official"
     }
   ]
 }

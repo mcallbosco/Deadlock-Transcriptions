@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_pocket_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "4f51e59a8b086ddb764f793022101e2fba28a3d433b10269b61c09592bb125bc",
+      "sha256": [
+        "4f51e59a8b086ddb764f793022101e2fba28a3d433b10269b61c09592bb125bc"
+      ],
       "text": "Clock, it's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7bfda376497e322773ef4b233db6fed4d620e74d0a9099ad325281fd0148a330",
+      "sha256": [
+        "7bfda376497e322773ef4b233db6fed4d620e74d0a9099ad325281fd0148a330"
+      ],
       "text": "Clock is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

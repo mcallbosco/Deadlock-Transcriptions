@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_see_enemy_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "83f86c01c49e08cc2c25550fee52f4216934fa9a82ea56ab56e5e4af3e65d127",
+      "sha256": [
+        "83f86c01c49e08cc2c25550fee52f4216934fa9a82ea56ab56e5e4af3e65d127"
+      ],
       "text": "That enemy's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

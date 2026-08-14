@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_abrams_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7add5106f9379e18d06b1798656fec0368bc38702256f3249e525d7d9cd522c9",
+      "sha256": [
+        "7add5106f9379e18d06b1798656fec0368bc38702256f3249e525d7d9cd522c9"
+      ],
       "text": "There was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

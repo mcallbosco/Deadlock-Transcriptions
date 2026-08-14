@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_haze_check_items.mp3",
   "revisions": [
     {
-      "sha256": "7da5a62b4fe8ae9edbea05eb9c008e6f3f92bb31bf4274e37c8455c214a380e7",
-      "text": "Check out what Haze bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7868341451e88912a88f5a91722371016a1deab707ad4b089b426a6cd67147d5",
+      "sha256": [
+        "7868341451e88912a88f5a91722371016a1deab707ad4b089b426a6cd67147d5",
+        "7da5a62b4fe8ae9edbea05eb9c008e6f3f92bb31bf4274e37c8455c214a380e7"
+      ],
       "text": "Check out what Haze bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_can_heal_inferno.mp3",
   "revisions": [
     {
-      "sha256": "c252ccbb8f75ae04db75ebef63a7fcd93884aceb4c2527a3ac75c0694df7b6a7",
+      "sha256": [
+        "c252ccbb8f75ae04db75ebef63a7fcd93884aceb4c2527a3ac75c0694df7b6a7"
+      ],
       "text": "Of course, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5a948af68622bb4a29fe91afc7407e6c0726de5b52601f274d7015d1055106a0",
+      "sha256": [
+        "5a948af68622bb4a29fe91afc7407e6c0726de5b52601f274d7015d1055106a0"
+      ],
       "text": "Infernus, I can heal you!",
       "source": "official"
     }

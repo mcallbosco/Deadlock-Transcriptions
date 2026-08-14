@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7e48abcbc88e498599fc16c29497ab82d6e0858f7317f85c3ee8d4b40231b07a",
-      "text": "Kelvin is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7cf3271c431e2a48e6669efeb98f8828e8d6eb0eb7ad5952bae598099e06c2c4",
-      "text": "Kelvin is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1cac39054402e576d8605adb761ed26f6f9605b1e1e2fccf6e117cc8fd6e1d76",
+      "sha256": [
+        "1cac39054402e576d8605adb761ed26f6f9605b1e1e2fccf6e117cc8fd6e1d76",
+        "7cf3271c431e2a48e6669efeb98f8828e8d6eb0eb7ad5952bae598099e06c2c4",
+        "7e48abcbc88e498599fc16c29497ab82d6e0858f7317f85c3ee8d4b40231b07a"
+      ],
       "text": "Kelvin is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

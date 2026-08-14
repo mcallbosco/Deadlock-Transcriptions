@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "be76d5b2c8aebd9ea4ebaca50c06428bb493082cc87c0a8c56021c1a5b1a98b3",
+      "sha256": [
+        "be76d5b2c8aebd9ea4ebaca50c06428bb493082cc87c0a8c56021c1a5b1a98b3"
+      ],
       "text": "Come chou Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

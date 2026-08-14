@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "5897050456b171e9fcfa8a532b3a87ce8c0524080c1eb66314ee7d48a561c8ee",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcd48f7e994c3739e7c424fd92ce88317a7ab902e224ec29313281054c145014",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f02ce048f4ca12a6986446485da495381788ca9503d98cca19bedc876c45255",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b81d504097b7069e386b2c9db4134f03f5a1b29622187968bb1d96231a86a8a1",
+      "sha256": [
+        "5897050456b171e9fcfa8a532b3a87ce8c0524080c1eb66314ee7d48a561c8ee",
+        "6f02ce048f4ca12a6986446485da495381788ca9503d98cca19bedc876c45255",
+        "b81d504097b7069e386b2c9db4134f03f5a1b29622187968bb1d96231a86a8a1",
+        "dcd48f7e994c3739e7c424fd92ce88317a7ab902e224ec29313281054c145014"
+      ],
       "text": "Let's go blue!",
       "source": "official"
     }

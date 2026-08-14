@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_abrams_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "338c926caaa3e6fa945787af59f23fa8092ab372a9674f5752835fa4e99f360a",
+      "sha256": [
+        "338c926caaa3e6fa945787af59f23fa8092ab372a9674f5752835fa4e99f360a"
+      ],
       "text": "Abrams is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

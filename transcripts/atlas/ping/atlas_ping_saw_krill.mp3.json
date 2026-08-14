@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_saw_krill.mp3",
   "revisions": [
     {
-      "sha256": "3624b5f9b6f300c6252f660eada47630f5741b7a62085d9984292c6fe480b047",
+      "sha256": [
+        "3624b5f9b6f300c6252f660eada47630f5741b7a62085d9984292c6fe480b047"
+      ],
       "text": "I saw Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

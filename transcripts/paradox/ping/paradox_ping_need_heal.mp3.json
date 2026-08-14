@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "ccad7a164c11aafc29e88c79596a0c5a2fa870d2a74d962d5b6b55342e3f5f9d",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be4798b5c1a590cfe181d522109e6b4e7e6e1a498908ee454079ebdd2980fe67",
+      "sha256": [
+        "be4798b5c1a590cfe181d522109e6b4e7e6e1a498908ee454079ebdd2980fe67",
+        "ccad7a164c11aafc29e88c79596a0c5a2fa870d2a74d962d5b6b55342e3f5f9d"
+      ],
       "text": "Do you have a heal?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

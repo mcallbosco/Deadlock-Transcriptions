@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "cf28c346653658ab459f406e200cdef632b156898232703aeeb9d2e59500d872",
+      "sha256": [
+        "cf28c346653658ab459f406e200cdef632b156898232703aeeb9d2e59500d872"
+      ],
       "text": "Mean blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "491a5ba14d9c4d57c3b787334f9659d352ba4430d719bfbbf936a63d36f9da76",
+      "sha256": [
+        "3d8e4a15b4d010d6a12a278faa5fac96f3c6e5710307a7af94d418ba5209732e",
+        "491a5ba14d9c4d57c3b787334f9659d352ba4430d719bfbbf936a63d36f9da76"
+      ],
       "text": "Machine blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d8e4a15b4d010d6a12a278faa5fac96f3c6e5710307a7af94d418ba5209732e",
-      "text": "Machine blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b29b9abadd6e6e43e88cc0b6f9819f2097569fa6b2cebe0731d2ed9aa0c22819",
+      "sha256": [
+        "b29b9abadd6e6e43e88cc0b6f9819f2097569fa6b2cebe0731d2ed9aa0c22819"
+      ],
       "text": "Make him blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

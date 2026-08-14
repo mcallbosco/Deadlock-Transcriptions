@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "08fc7fc68f60d611c98fb7f925b460307e15663241a8eac15fa1973a1ba93e67",
-      "text": "Thanks, Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c82e4824dfa362b8b62db076c3471740246714d4969d7497162ed503e16ce3fa",
-      "text": "Thanks, Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77b187966f7b3f6e015d86541f9bf8bfc143243629b69ef174798f532e25faf5",
+      "sha256": [
+        "08fc7fc68f60d611c98fb7f925b460307e15663241a8eac15fa1973a1ba93e67",
+        "77b187966f7b3f6e015d86541f9bf8bfc143243629b69ef174798f532e25faf5",
+        "c82e4824dfa362b8b62db076c3471740246714d4969d7497162ed503e16ce3fa"
+      ],
       "text": "Thanks, Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

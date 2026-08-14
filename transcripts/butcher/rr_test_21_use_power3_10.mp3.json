@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power3_10.mp3",
   "revisions": [
     {
-      "sha256": "ea2eb3f219b5accccbb3f545b8978e9a39eb6a4bbb7b2f39a8223f8048f99d67",
-      "text": "Yes, I feel invigorated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "97eb36a229e5152becedac9d84f77685a3cf12266304a6fe592670934b78faed",
-      "text": "Yes, I feel invigorated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbcc02d6bf69c7d2bea4c8a63ffbcb8c3e7a7af1f0ebc4dfeb75f1d7647c55d4",
+      "sha256": [
+        "97eb36a229e5152becedac9d84f77685a3cf12266304a6fe592670934b78faed",
+        "dbcc02d6bf69c7d2bea4c8a63ffbcb8c3e7a7af1f0ebc4dfeb75f1d7647c55d4",
+        "ea2eb3f219b5accccbb3f545b8978e9a39eb6a4bbb7b2f39a8223f8048f99d67"
+      ],
       "text": "Yes, I feel invigorated.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

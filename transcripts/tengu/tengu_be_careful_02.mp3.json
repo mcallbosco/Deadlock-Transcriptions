@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "e3ac852c0173a9ce38ffa6eaf2a44ae4248064fc817a7bf767f1997020441546",
-      "text": "Might want to get with the others.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b23a5c0cf8d4c7f9050b100c1bdd9f2cdd71b73934dd78f4fed3263d40885f4",
+      "sha256": [
+        "2b23a5c0cf8d4c7f9050b100c1bdd9f2cdd71b73934dd78f4fed3263d40885f4",
+        "e3ac852c0173a9ce38ffa6eaf2a44ae4248064fc817a7bf767f1997020441546"
+      ],
       "text": "Might want to get with the others...",
       "source": "official"
     }

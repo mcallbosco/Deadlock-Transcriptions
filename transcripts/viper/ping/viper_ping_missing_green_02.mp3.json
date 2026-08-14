@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_missing_green_02.mp3",
   "revisions": [
     {
-      "sha256": "c5f9da2e60003e068d619e34196287b11806f2c4c33680db35c248e8e92798e9",
+      "sha256": [
+        "c5f9da2e60003e068d619e34196287b11806f2c4c33680db35c248e8e92798e9"
+      ],
       "text": "Missing Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd8a8c60547e159721aa605b49d16ffa0002d0ad5404c15e80785cb0fab60c04",
-      "text": "This is Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2134394d17dbd424ed081e043b8e793e06c2a45a6bfc4f1316c8528e82b50adc",
+      "sha256": [
+        "2134394d17dbd424ed081e043b8e793e06c2a45a6bfc4f1316c8528e82b50adc",
+        "bd8a8c60547e159721aa605b49d16ffa0002d0ad5404c15e80785cb0fab60c04"
+      ],
       "text": "This is Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

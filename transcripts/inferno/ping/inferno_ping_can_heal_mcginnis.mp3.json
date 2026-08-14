@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_can_heal_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "dd0f4437f7ef5d1af59330ce9c225365ebf02d395c9751f2af8224e1b75b59e4",
+      "sha256": [
+        "d1e146c7e77b4348237bf42ea9004ec74efbeae5587a0a36edb00d45e2c54df9",
+        "dd0f4437f7ef5d1af59330ce9c225365ebf02d395c9751f2af8224e1b75b59e4"
+      ],
       "text": "The Guinness I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1e146c7e77b4348237bf42ea9004ec74efbeae5587a0a36edb00d45e2c54df9",
-      "text": "The Guinness, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

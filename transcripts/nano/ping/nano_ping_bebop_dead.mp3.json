@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_bebop_dead.mp3",
   "revisions": [
     {
-      "sha256": "05363a714d0c7f67ace64f766799cd8522937db1d9682596059217d92f2d7fa7",
+      "sha256": [
+        "05363a714d0c7f67ace64f766799cd8522937db1d9682596059217d92f2d7fa7"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

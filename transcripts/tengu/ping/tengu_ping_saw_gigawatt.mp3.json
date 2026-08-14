@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_saw_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "1754b4f0f6bc89212b5fa806c866e6f91a022dc5d1ab7ae46e15104bc3c7bf22",
+      "sha256": [
+        "1754b4f0f6bc89212b5fa806c866e6f91a022dc5d1ab7ae46e15104bc3c7bf22"
+      ],
       "text": "It's so scenic!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "656f6df3c003611c116996eee69874af1b21bd23b01aa7abb962ce8e060ed62c",
+      "sha256": [
+        "656f6df3c003611c116996eee69874af1b21bd23b01aa7abb962ce8e060ed62c"
+      ],
       "text": "I saw Seven!",
       "source": "manual"
     }

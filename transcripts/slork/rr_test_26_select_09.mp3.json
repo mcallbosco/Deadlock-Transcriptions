@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_select_09.mp3",
   "revisions": [
     {
-      "sha256": "e2cd3406b54b3a24eefcaabcde5a998f67105fb9873eec0284611f2105de297b",
-      "text": "I know what I have to do.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be405196044ecb650d1b19c3de1f2a909876e9402dfacf481f34c705021aca8a",
+      "sha256": [
+        "be405196044ecb650d1b19c3de1f2a909876e9402dfacf481f34c705021aca8a",
+        "e2cd3406b54b3a24eefcaabcde5a998f67105fb9873eec0284611f2105de297b"
+      ],
       "text": "I know what I have to do.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

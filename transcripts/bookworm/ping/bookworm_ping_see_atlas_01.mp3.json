@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "af9a688d8ee46d9c36985a3899b65b6acb8b3d66a8fe7ebdd9607efbd5e44143",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71ce489b2f734ada2abc7311b40feca75af2da90ab8a98422a9873f9ebb3ebe7",
+      "sha256": [
+        "71ce489b2f734ada2abc7311b40feca75af2da90ab8a98422a9873f9ebb3ebe7",
+        "af9a688d8ee46d9c36985a3899b65b6acb8b3d66a8fe7ebdd9607efbd5e44143"
+      ],
       "text": "I see Abrams.",
       "source": "official"
     }

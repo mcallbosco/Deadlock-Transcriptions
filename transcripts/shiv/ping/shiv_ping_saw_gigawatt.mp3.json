@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_saw_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "620bcfc8e81cb9bfee5195062f5e5de2641896f480301b91209f0e34f8fff786",
+      "sha256": [
+        "620bcfc8e81cb9bfee5195062f5e5de2641896f480301b91209f0e34f8fff786",
+        "a3e16009954641b41595bda7f51d65424fd18d43c58ef432e350c1698908e995"
+      ],
       "text": "I saw you walk.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a3e16009954641b41595bda7f51d65424fd18d43c58ef432e350c1698908e995",
-      "text": "I saw you walk.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "187fb5ea78dfe69e17a3f8d8b984462643a4e201b58cd96af587bb77d07a7af2",
+      "sha256": [
+        "187fb5ea78dfe69e17a3f8d8b984462643a4e201b58cd96af587bb77d07a7af2"
+      ],
       "text": "I saw Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

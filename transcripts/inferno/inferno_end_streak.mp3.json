@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_end_streak.mp3",
   "revisions": [
     {
-      "sha256": "4fa2ea7c6bb3cee6d2d51b676779dbed717bd1c0cfe41259fb6c87e7dd1a06cc",
+      "sha256": [
+        "4fa2ea7c6bb3cee6d2d51b676779dbed717bd1c0cfe41259fb6c87e7dd1a06cc"
+      ],
       "text": "This creature is",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "554fec63e50798c640e2e016bf9c0b71cce2e974d60a661ec92050f8f35f1334",
+      "sha256": [
+        "554fec63e50798c640e2e016bf9c0b71cce2e974d60a661ec92050f8f35f1334",
+        "73aaef07ff4a7b3fcb523f81a00f0c5f04baa44b34dfc5531bfa29f2db1bdec1"
+      ],
       "text": "This race is over.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "73aaef07ff4a7b3fcb523f81a00f0c5f04baa44b34dfc5531bfa29f2db1bdec1",
-      "text": "This race is over.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0250909bea1460d795fa4ff00bc574c09ce2ef76d7091601f46086e6e238ed98",
+      "sha256": [
+        "0250909bea1460d795fa4ff00bc574c09ce2ef76d7091601f46086e6e238ed98"
+      ],
       "text": "Their streaks over…",
       "source": "official"
     }

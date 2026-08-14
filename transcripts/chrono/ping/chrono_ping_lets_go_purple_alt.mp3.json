@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_lets_go_purple_alt.mp3",
   "revisions": [
     {
-      "sha256": "87949d202a9458f8e51fb832181c78fa14430c76619bb035cbdc1ea08d9a65a5",
-      "text": "Let's go to park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64bb62eaece1f2a31706562d8435cfde484a228d55f37024d0086289e47edf11",
+      "sha256": [
+        "64bb62eaece1f2a31706562d8435cfde484a228d55f37024d0086289e47edf11",
+        "87949d202a9458f8e51fb832181c78fa14430c76619bb035cbdc1ea08d9a65a5"
+      ],
       "text": "Let's go to park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

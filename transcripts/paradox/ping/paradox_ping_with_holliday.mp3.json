@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_holliday.mp3",
   "revisions": [
     {
-      "sha256": "e459e5e62d1e9daf938f0cb519435cefdbc4cf002c1b7aa5175cb1af25701e1b",
-      "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ec485b6a7723520ebc248d5a655d96e2ed63a7969a78a6727aafcf44eca3498",
+      "sha256": [
+        "3ec485b6a7723520ebc248d5a655d96e2ed63a7969a78a6727aafcf44eca3498",
+        "e459e5e62d1e9daf938f0cb519435cefdbc4cf002c1b7aa5175cb1af25701e1b"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

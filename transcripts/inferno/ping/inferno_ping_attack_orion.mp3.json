@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_attack_orion.mp3",
   "revisions": [
     {
-      "sha256": "b9dfaaf4450533d219af230e4fbf0b29f73aa6c25fbf79df78e5fe92914e9a9e",
-      "text": "Let's take out Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "7c79889ec5b8553fd806e19741fe2dd0d7419ec924914199a0f172e0b1322e52",
+        "b9dfaaf4450533d219af230e4fbf0b29f73aa6c25fbf79df78e5fe92914e9a9e"
+      ],
+      "text": "Let's take out Grey Talon",
+      "source": "official"
     },
     {
-      "sha256": "1a86b0bd5d137204f225200e7184090f9e7ab4d923aced4acbaa6912e416d965",
+      "sha256": [
+        "1a86b0bd5d137204f225200e7184090f9e7ab4d923aced4acbaa6912e416d965"
+      ],
       "text": "Let's take out Great Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c79889ec5b8553fd806e19741fe2dd0d7419ec924914199a0f172e0b1322e52",
-      "text": "Let's take out Grey Talon",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_priest_01.mp3",
   "revisions": [
     {
-      "sha256": "1dd7e4cb6020af129be13c6d1385eb708a180b1d1b59c56b105c52cb5ee02769",
+      "sha256": [
+        "1dd7e4cb6020af129be13c6d1385eb708a180b1d1b59c56b105c52cb5ee02769"
+      ],
       "text": "Careful, Priest.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "396b4be9d313a7116f4b985fb470c3c0611fdff158a11ae607c0c43139ebf85b",
+      "sha256": [
+        "396b4be9d313a7116f4b985fb470c3c0611fdff158a11ae607c0c43139ebf85b"
+      ],
       "text": "Careful, Father…",
       "source": "official"
     }

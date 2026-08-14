@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "a1e4dcc0826c4fa2657fc417e94a61e293b7f776a696e4996e3ff0c62fd0a202",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a24cfd9bc4fc3211587423b9438a660c3a745f42447e8b8a26b19cee7ca3f8bb",
+      "sha256": [
+        "a1e4dcc0826c4fa2657fc417e94a61e293b7f776a696e4996e3ff0c62fd0a202",
+        "a24cfd9bc4fc3211587423b9438a660c3a745f42447e8b8a26b19cee7ca3f8bb"
+      ],
       "text": "Item's on cooldown.",
       "source": "official"
     }

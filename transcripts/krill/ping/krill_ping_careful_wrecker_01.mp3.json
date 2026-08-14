@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "0e6cb90aad4d98d71e48316eb64434f4ba5c28c408476ab8e7c4f09f75850e41",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cafaec4ed50d23c338a56513c78c8844191319ba7e1d7b688fb74151b7a46cef",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a11fabc6160addcb7ad672d64322afbc5fd90278225356d81174fa309e667db7",
+      "sha256": [
+        "0e6cb90aad4d98d71e48316eb64434f4ba5c28c408476ab8e7c4f09f75850e41",
+        "a11fabc6160addcb7ad672d64322afbc5fd90278225356d81174fa309e667db7",
+        "cafaec4ed50d23c338a56513c78c8844191319ba7e1d7b688fb74151b7a46cef"
+      ],
       "text": "Careful, Wrecker…",
       "source": "official"
     }

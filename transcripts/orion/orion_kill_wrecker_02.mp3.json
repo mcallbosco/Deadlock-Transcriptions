@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_wrecker_02.mp3",
   "revisions": [
     {
-      "sha256": "fa3c1a6ab5ca750671ef57b624dfac361c229a7c0461c0f5e53f7c9800b6f4d9",
-      "text": "You're an abomination!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed42ef43fd6dd06be1824447302a942e308fe4f472d719e2d6286d4e9cab664b",
-      "text": "You're an abomination!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9102f24ad6313a47f385b937f07d56a37e6e37c3dece6ecb29376b70c65df2d2",
+      "sha256": [
+        "9102f24ad6313a47f385b937f07d56a37e6e37c3dece6ecb29376b70c65df2d2",
+        "ed42ef43fd6dd06be1824447302a942e308fe4f472d719e2d6286d4e9cab664b",
+        "fa3c1a6ab5ca750671ef57b624dfac361c229a7c0461c0f5e53f7c9800b6f4d9"
+      ],
       "text": "You're an abomination",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "magician/ping/magician_henry_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "cdbbfdf6d15ad5b46bb8cf8a63e4266decb930047d8aa1e86b62bc3fdfb6166e",
+      "sha256": [
+        "cdbbfdf6d15ad5b46bb8cf8a63e4266decb930047d8aa1e86b62bc3fdfb6166e"
+      ],
       "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

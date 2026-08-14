@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "61d7eacbba05d2ede2e2d5f39661978d3fd93affbf6677b868e9b9fe709fb7c3",
+      "sha256": [
+        "61d7eacbba05d2ede2e2d5f39661978d3fd93affbf6677b868e9b9fe709fb7c3"
+      ],
       "text": "That's the process.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b26d87e4ded9e371a51e57d47d17a621f870557cfdc0c187aa62606c612b517e",
-      "text": "There's the professor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a35f465153f2724eb0387eaea4b37a84de67b62447536f498f90e12cc8bae4cb",
-      "text": "There's the professor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a4f0b8bd7a16e2347ca1f2ff71f5a0b655ee5790c8ace4caf773d78c51801e9",
+      "sha256": [
+        "7a4f0b8bd7a16e2347ca1f2ff71f5a0b655ee5790c8ace4caf773d78c51801e9",
+        "a35f465153f2724eb0387eaea4b37a84de67b62447536f498f90e12cc8bae4cb",
+        "b26d87e4ded9e371a51e57d47d17a621f870557cfdc0c187aa62606c612b517e"
+      ],
       "text": "There's the professor",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "b79348a9767637cc02c7e7cc5f8deeb3ac82abb44c7b2450a6ef7d92ee57597d",
+      "sha256": [
+        "b79348a9767637cc02c7e7cc5f8deeb3ac82abb44c7b2450a6ef7d92ee57597d"
+      ],
       "text": "Missing orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

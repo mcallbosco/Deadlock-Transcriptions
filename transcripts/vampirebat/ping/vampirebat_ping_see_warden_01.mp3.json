@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "ea424a6692df01d6fba475ad7a332525804d5898d38c935b260c42a6e769cb15",
-      "text": "I see Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bebc7fc367fbe6618c54533f45e8ada91157d77dc6923eaa605fa82f174a893b",
+      "sha256": [
+        "bebc7fc367fbe6618c54533f45e8ada91157d77dc6923eaa605fa82f174a893b",
+        "ea424a6692df01d6fba475ad7a332525804d5898d38c935b260c42a6e769cb15"
+      ],
       "text": "I see Warden.",
       "source": "official"
     }

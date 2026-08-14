@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "11bb1f81809c000bf30a624170c19a22d6f74d032b19b9a4e882a8ba62b2ed85",
+      "sha256": [
+        "11bb1f81809c000bf30a624170c19a22d6f74d032b19b9a4e882a8ba62b2ed85"
+      ],
       "text": "Head it to blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "97e92b8ba1d254703b7f8c8748cd8c8c0ae252006a31b94da42689a606ae71c5",
+      "sha256": [
+        "97e92b8ba1d254703b7f8c8748cd8c8c0ae252006a31b94da42689a606ae71c5"
+      ],
       "text": "Headed to Blue",
       "source": "official"
     }

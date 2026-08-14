@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_happy_04.mp3",
   "revisions": [
     {
-      "sha256": "9ddc7eace6baf94158baa5bcca0ea3f52dc321311d9f90c15372cdfc984a2b4f",
+      "sha256": [
+        "0da94dc632852a76c5a4398f8d7beca257ad47247502b47e1a3386aa1e7e78da",
+        "9ddc7eace6baf94158baa5bcca0ea3f52dc321311d9f90c15372cdfc984a2b4f"
+      ],
       "text": "I don't love my job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0da94dc632852a76c5a4398f8d7beca257ad47247502b47e1a3386aa1e7e78da",
-      "text": "I don't love my job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbe522539cd5651d64e1221733944544a8933ae0fc2713edcfea02e142eede50",
-      "text": "I love my job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08587793d8f16ddb61b2e100da8ee6389a0fd5ca1bf029205a34309e0e021ac5",
-      "text": "I love my job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "044c911bb48350c8b2c208014f689c502546f2f368c9b070fe60094c953e8c82",
+      "sha256": [
+        "044c911bb48350c8b2c208014f689c502546f2f368c9b070fe60094c953e8c82",
+        "08587793d8f16ddb61b2e100da8ee6389a0fd5ca1bf029205a34309e0e021ac5",
+        "bbe522539cd5651d64e1221733944544a8933ae0fc2713edcfea02e142eede50"
+      ],
       "text": "I love my job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

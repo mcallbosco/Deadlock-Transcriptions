@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_with_lash.mp3",
   "revisions": [
     {
-      "sha256": "aca0543bb7282f77f7e3ddad9032ec099a9fbb54654dd173206e4e5452bdf90f",
-      "text": "I'm with you, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43ea958f0714e939dbd6f3eb18647245c65fa7bb15666fb9dc280ad3c8c6c25d",
+      "sha256": [
+        "43ea958f0714e939dbd6f3eb18647245c65fa7bb15666fb9dc280ad3c8c6c25d",
+        "aca0543bb7282f77f7e3ddad9032ec099a9fbb54654dd173206e4e5452bdf90f"
+      ],
       "text": "I'm with you, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

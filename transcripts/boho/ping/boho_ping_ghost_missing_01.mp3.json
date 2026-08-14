@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a791307c9c6bd94604fd607c12e7e253ddb711cafd67c3cc04e4e0caf2691e77",
+      "sha256": [
+        "a791307c9c6bd94604fd607c12e7e253ddb711cafd67c3cc04e4e0caf2691e77"
+      ],
       "text": "Guy's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "1dd4158a84fbf165c8b6a9466e921b601c6ad9524a0c9e03af80f7a7dd8dcff9",
-      "text": "I see Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1c7f3ca1f70edd572e281185e51095784a7cc6d598ddeda07b7693c876939d2",
-      "text": "I see wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ca79ef4db111b316db7b5c303d8991452d3c9cde2b3a89c2f1e2a8ff6f695ab",
+      "sha256": [
+        "1ca79ef4db111b316db7b5c303d8991452d3c9cde2b3a89c2f1e2a8ff6f695ab",
+        "1dd4158a84fbf165c8b6a9466e921b601c6ad9524a0c9e03af80f7a7dd8dcff9",
+        "c1c7f3ca1f70edd572e281185e51095784a7cc6d598ddeda07b7693c876939d2"
+      ],
       "text": "I see Wrecker",
       "source": "official"
     }

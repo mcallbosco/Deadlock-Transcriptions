@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_inferno.mp3",
   "revisions": [
     {
-      "sha256": "905c72d8d51b2bce284d1ce3973d34168d6fe52845538e4d44f366c9dd113864",
-      "text": "I'm with you, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f3748d4b64974bc301b0b2d6228392cff9b654209b9ed6eb4b294a4cb32480d",
-      "text": "I'm with you, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86c177adc11da27a0bcbf0705c9aef6850099805436b00bdf2c898b15c52976a",
+      "sha256": [
+        "1f3748d4b64974bc301b0b2d6228392cff9b654209b9ed6eb4b294a4cb32480d",
+        "86c177adc11da27a0bcbf0705c9aef6850099805436b00bdf2c898b15c52976a",
+        "905c72d8d51b2bce284d1ce3973d34168d6fe52845538e4d44f366c9dd113864"
+      ],
       "text": "I'm with you, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

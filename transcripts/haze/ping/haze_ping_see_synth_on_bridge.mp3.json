@@ -1,35 +1,38 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_synth_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c776f88602e851d0e141b660fa18eb3d346cd445c11e7969d89ca9c0d4fb3dcf",
-      "text": "Pockets on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3a3277333765c863dc20ee603082545e746723a9770bf5b8f5817e4c8aa16e1a",
+        "c776f88602e851d0e141b660fa18eb3d346cd445c11e7969d89ca9c0d4fb3dcf"
+      ],
+      "text": "Pocket's on the bridge!",
+      "source": "official"
     },
     {
-      "sha256": "4a2bde27865a9fa851329c1311e6b4e90abd1c50c5d7043a8407946d92150216",
+      "sha256": [
+        "4a2bde27865a9fa851329c1311e6b4e90abd1c50c5d7043a8407946d92150216"
+      ],
       "text": "Target's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2f6e6c1ca00e46ad10400c42104c74d14a6460c94fbc478e7602f13c3e6cf812",
+      "sha256": [
+        "2f6e6c1ca00e46ad10400c42104c74d14a6460c94fbc478e7602f13c3e6cf812"
+      ],
       "text": "Puck is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f836a90cb0b39bcd49efbaa853c6f29ad5711ba6f1f5a02c96b9282d81051d6f",
+      "sha256": [
+        "f836a90cb0b39bcd49efbaa853c6f29ad5711ba6f1f5a02c96b9282d81051d6f"
+      ],
       "text": "Tug is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a3277333765c863dc20ee603082545e746723a9770bf5b8f5817e4c8aa16e1a",
-      "text": "Pocket's on the bridge!",
-      "source": "official"
     }
   ]
 }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power2_06.mp3",
   "revisions": [
     {
-      "sha256": "1dd4c70c260dbfb9da97e710bffe699cdd27b13facf688fbbe45730636195006",
+      "sha256": [
+        "1dd4c70c260dbfb9da97e710bffe699cdd27b13facf688fbbe45730636195006"
+      ],
       "text": "Don't let them catch me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cd3735aa489a59d27b712e9d591c74ee15333c3fd6356e0037d7be5e4a5d2b3a",
-      "text": "I won't let them catch me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c8b4b91edc6791a2dc4b7302bfb2c28d7f98e2c591a32918d040e6f14ab45a15",
-      "text": "I won't let them catch me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7da259fd27282f12aaec0ee31507149647bb902653c0da2a6bd34c18d2cda898",
+      "sha256": [
+        "7da259fd27282f12aaec0ee31507149647bb902653c0da2a6bd34c18d2cda898",
+        "c8b4b91edc6791a2dc4b7302bfb2c28d7f98e2c591a32918d040e6f14ab45a15",
+        "cd3735aa489a59d27b712e9d591c74ee15333c3fd6356e0037d7be5e4a5d2b3a"
+      ],
       "text": "I won't let them catch me…",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "6aaa0184e898015b00a2335a21a6f25937eb22c8dd1d49008ebb5792d41ee0cb",
+      "sha256": [
+        "6aaa0184e898015b00a2335a21a6f25937eb22c8dd1d49008ebb5792d41ee0cb"
+      ],
       "text": "Mirage, I can heal ya!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c114e38a78b40973e3f7992a8d3b678b3a724377f25f3c760a57bdd37a203ffb",
+      "sha256": [
+        "c114e38a78b40973e3f7992a8d3b678b3a724377f25f3c760a57bdd37a203ffb"
+      ],
       "text": "Mirage, I can heal you!",
       "source": "official"
     }

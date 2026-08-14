@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_need_help_yellow_alt.mp3",
   "revisions": [
     {
-      "sha256": "1cac7e372f27b37187c5ca6945f7e4ed1fe57832743aef4c6d0c62b62ec953b0",
+      "sha256": [
+        "1cac7e372f27b37187c5ca6945f7e4ed1fe57832743aef4c6d0c62b62ec953b0",
+        "355e7af47ec055db8765ba5e395c446e47dba3259cf33f1a3d0e11ca8aec5829"
+      ],
       "text": "Need help on York!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "355e7af47ec055db8765ba5e395c446e47dba3259cf33f1a3d0e11ca8aec5829",
-      "text": "Need help on York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

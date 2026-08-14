@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_frank_01.mp3",
   "revisions": [
     {
-      "sha256": "bca46e81205391fe02837244835273390ae55d7889ada1d2451c3791064928c9",
+      "sha256": [
+        "bca46e81205391fe02837244835273390ae55d7889ada1d2451c3791064928c9"
+      ],
       "text": "I see Frank.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a1ac26ac9b2bd10fc771868432c330829af0d69a691cc10b2cec52dddde15367",
+      "sha256": [
+        "a1ac26ac9b2bd10fc771868432c330829af0d69a691cc10b2cec52dddde15367"
+      ],
       "text": "I see Victor.",
       "source": "official"
     }

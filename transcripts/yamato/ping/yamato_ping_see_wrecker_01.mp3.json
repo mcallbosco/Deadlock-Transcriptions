@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "9fce71e44e7fdbc7e673a477d801367a453ec1bb24beeb8ba91a9d5450a91623",
+      "sha256": [
+        "9fce71e44e7fdbc7e673a477d801367a453ec1bb24beeb8ba91a9d5450a91623"
+      ],
       "text": "I see Rekka.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7fe36977499dd4db3fa0a61fab590b90cca2d0ecab1cbd2ddbb97e5c9bb57d09",
+      "sha256": [
+        "7fe36977499dd4db3fa0a61fab590b90cca2d0ecab1cbd2ddbb97e5c9bb57d09"
+      ],
       "text": "I see Weka.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ee862686535e270c3f8ef59aa0dc68a262157155a8cb95568aba83c631295dbb",
+      "sha256": [
+        "ee862686535e270c3f8ef59aa0dc68a262157155a8cb95568aba83c631295dbb"
+      ],
       "text": "I see Wrecker",
       "source": "official"
     }

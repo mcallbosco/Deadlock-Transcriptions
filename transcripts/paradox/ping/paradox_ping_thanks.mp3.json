@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "dc9493acd15801fa964e5a5cc95f3a3c0dfd4dd95457bc9a917b9ffc83512c21",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9b187aa70a28314f5d078187f9c27acf1c7cdb1b09ea496867776aec8acdb1f",
+      "sha256": [
+        "a9b187aa70a28314f5d078187f9c27acf1c7cdb1b09ea496867776aec8acdb1f",
+        "dc9493acd15801fa964e5a5cc95f3a3c0dfd4dd95457bc9a917b9ffc83512c21"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

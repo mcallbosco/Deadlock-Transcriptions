@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_ally_mirage_pass_on_zipline_01.mp3",
   "revisions": [
     {
-      "sha256": "cec086da88cf00954ff77cca854cd5cb9cafe0e9152d674d3abe40965dc8c49c",
-      "text": "Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "29e0cf36662b520987e0f4451730d85cf8713e1dfe5a754c8d4161b01957d770",
+      "sha256": [
+        "29e0cf36662b520987e0f4451730d85cf8713e1dfe5a754c8d4161b01957d770",
+        "cec086da88cf00954ff77cca854cd5cb9cafe0e9152d674d3abe40965dc8c49c"
+      ],
       "text": "Mirage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

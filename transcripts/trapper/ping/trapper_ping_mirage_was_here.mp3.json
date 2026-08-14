@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "fd8f58d7468724ff1ab7cb444b76ed9a37477d7a5f1460b4d5b301c510efee8e",
+      "sha256": [
+        "fd8f58d7468724ff1ab7cb444b76ed9a37477d7a5f1460b4d5b301c510efee8e"
+      ],
       "text": "Mirage was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

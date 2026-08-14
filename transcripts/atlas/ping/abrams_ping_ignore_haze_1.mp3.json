@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ignore_haze_1.mp3",
   "revisions": [
     {
-      "sha256": "d23d6db459802075021ca4b497b68e9ffd8b4e860f790c7c9187b28d80ec0db5",
-      "text": "Ignore Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e52e6e030611ca90f6025851a47decacb1fe56078ac87e8ab2fd346ae8e75100",
+      "sha256": [
+        "d23d6db459802075021ca4b497b68e9ffd8b4e860f790c7c9187b28d80ec0db5",
+        "e52e6e030611ca90f6025851a47decacb1fe56078ac87e8ab2fd346ae8e75100"
+      ],
       "text": "Ignore Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

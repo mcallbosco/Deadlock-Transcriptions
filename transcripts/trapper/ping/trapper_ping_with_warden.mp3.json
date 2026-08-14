@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "a57de84feb3323e507fb4a1e4dc90b7b920a91937ead5c89677dfa9f77fe36e8",
+      "sha256": [
+        "a57de84feb3323e507fb4a1e4dc90b7b920a91937ead5c89677dfa9f77fe36e8"
+      ],
       "text": "I'm with you, Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_use_power2_06.mp3",
   "revisions": [
     {
-      "sha256": "c8c92b6d40771c60bf89c7c307af1fcf31e7ff2e83ee714ac43cd3a0df62d0f7",
+      "sha256": [
+        "c8c92b6d40771c60bf89c7c307af1fcf31e7ff2e83ee714ac43cd3a0df62d0f7"
+      ],
       "text": "Ahelia!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "710ffd626baed1ee4cca08d57db2e37a0b3296ddf1186656a179b0c78445f257",
+      "sha256": [
+        "710ffd626baed1ee4cca08d57db2e37a0b3296ddf1186656a179b0c78445f257"
+      ],
       "text": "Feel better?",
       "source": "official"
     }

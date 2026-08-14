@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_haze_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "744d4b4dc41b59b2bade7e03fdb6ed93b9ef44b1fc3f1a1023610574c30fcf7c",
+      "sha256": [
+        "744d4b4dc41b59b2bade7e03fdb6ed93b9ef44b1fc3f1a1023610574c30fcf7c"
+      ],
       "text": "Here's the mint!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7e92de4bcc3c252b6a0dcf70008eb18897ca4094de85cc222db1e280f25360ca",
+      "sha256": [
+        "7e92de4bcc3c252b6a0dcf70008eb18897ca4094de85cc222db1e280f25360ca"
+      ],
       "text": "Haze's in mid!",
       "source": "official"
     }

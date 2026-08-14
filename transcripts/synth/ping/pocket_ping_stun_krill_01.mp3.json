@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_stun_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "71d06e7aa5ff93ad7288cae46e07b313dab6a1b03e3a21cd40df829c73339c77",
+      "sha256": [
+        "2ac4598a6f76abd28c5f2bd829108b896800d3d2122f570b43d350fd5cc272c1",
+        "71d06e7aa5ff93ad7288cae46e07b313dab6a1b03e3a21cd40df829c73339c77"
+      ],
       "text": "Stun Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ac4598a6f76abd28c5f2bd829108b896800d3d2122f570b43d350fd5cc272c1",
-      "text": "Stunkrill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

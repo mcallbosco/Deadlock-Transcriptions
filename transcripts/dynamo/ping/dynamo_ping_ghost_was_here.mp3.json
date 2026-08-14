@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_ghost_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ffb0269f465fef08fbf02943abd5223b33c7e7c9aeb454e1ad6f892abfd39c3c",
+      "sha256": [
+        "ffb0269f465fef08fbf02943abd5223b33c7e7c9aeb454e1ad6f892abfd39c3c"
+      ],
       "text": "Nice was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

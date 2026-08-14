@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_yellow_help_01.mp3",
   "revisions": [
     {
-      "sha256": "6291cc8f6a4c509303671c3ce5eacdc9a9b06f5d897b3edd7badd55e580c14d2",
+      "sha256": [
+        "6291cc8f6a4c509303671c3ce5eacdc9a9b06f5d897b3edd7badd55e580c14d2"
+      ],
       "text": "Clown this up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c95ec92a9f920aa04427ef620938e73f09b7eade104f1d8eb88d2013ea62ab31",
+      "sha256": [
+        "9a0e63e839fd063eaddfde078681add7531815210e2bf8420895b4da452bfb95",
+        "c95ec92a9f920aa04427ef620938e73f09b7eade104f1d8eb88d2013ea62ab31"
+      ],
       "text": "You need help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9a0e63e839fd063eaddfde078681add7531815210e2bf8420895b4da452bfb95",
-      "text": "You need help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2c54e245d1972bd4f5de86b5d27c6cb5e83c710de620b1c4d235a557aa2957e",
+      "sha256": [
+        "f2c54e245d1972bd4f5de86b5d27c6cb5e83c710de620b1c4d235a557aa2957e"
+      ],
       "text": "Yellow needs help!",
       "source": "official"
     }

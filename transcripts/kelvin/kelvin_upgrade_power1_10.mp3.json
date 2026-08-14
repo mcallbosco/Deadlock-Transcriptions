@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power1_10.mp3",
   "revisions": [
     {
-      "sha256": "520ba4b08d9cab61b314396c6ab5ac0d6ed4f913dcc34a2e5666fe7a2d58335e",
+      "sha256": [
+        "520ba4b08d9cab61b314396c6ab5ac0d6ed4f913dcc34a2e5666fe7a2d58335e"
+      ],
       "text": "Science.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2d46cdbc745c2c7d0204b8b7eac990bf3bd5672ce11570aa4bc61fe899c7a3d2",
+      "sha256": [
+        "2d46cdbc745c2c7d0204b8b7eac990bf3bd5672ce11570aa4bc61fe899c7a3d2"
+      ],
       "text": "God I love science.",
       "source": "official"
     }

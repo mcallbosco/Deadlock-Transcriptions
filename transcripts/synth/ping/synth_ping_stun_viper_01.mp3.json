@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_stun_viper_01.mp3",
   "revisions": [
     {
-      "sha256": "a9e1e6b25741b314340db4246adce03578358f73431a104917e1afe7762bba38",
+      "sha256": [
+        "a9e1e6b25741b314340db4246adce03578358f73431a104917e1afe7762bba38"
+      ],
       "text": "Sun Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

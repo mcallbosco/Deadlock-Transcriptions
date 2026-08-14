@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_heavy_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "39b9945aab736c10450c5baccb00f909cb0c062510abc26d05b9de975df2dcc0",
-      "text": "Heavy's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a334ff5056e5b0fc358b9a77d35a2f4241c61d55602f40c5c51f4300c43a7b7",
-      "text": "Heavy's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8b04119568a4a328c870742fafaaf5372e253078677dbc878f3020eab4b009dd",
+      "sha256": [
+        "1a334ff5056e5b0fc358b9a77d35a2f4241c61d55602f40c5c51f4300c43a7b7",
+        "39b9945aab736c10450c5baccb00f909cb0c062510abc26d05b9de975df2dcc0",
+        "8b04119568a4a328c870742fafaaf5372e253078677dbc878f3020eab4b009dd"
+      ],
       "text": "Heavy's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

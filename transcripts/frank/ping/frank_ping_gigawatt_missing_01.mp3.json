@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_gigawatt_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e6d6c3d6b6aac3b00eb12d556fa8f96b032fecf6b08777f4d8f7028a63204da2",
-      "text": "Seven's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f10af10346db747396421b08ec4f67a903b383a17e99d497f37e274e23438894",
+      "sha256": [
+        "e6d6c3d6b6aac3b00eb12d556fa8f96b032fecf6b08777f4d8f7028a63204da2",
+        "f10af10346db747396421b08ec4f67a903b383a17e99d497f37e274e23438894"
+      ],
       "text": "Seven's missing.",
       "source": "official"
     }

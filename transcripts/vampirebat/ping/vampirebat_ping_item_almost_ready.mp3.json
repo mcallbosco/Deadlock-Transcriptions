@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_item_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "ea9fcb1e41ca3e1a1064e0528b1469b69995e99f7055d6dad483491bb1883c02",
-      "text": "Item's almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "637bb1fc4faf573c975a66cccd4c107de9847d16b47f4d9c0feab79ccf34d673",
+      "sha256": [
+        "637bb1fc4faf573c975a66cccd4c107de9847d16b47f4d9c0feab79ccf34d673",
+        "ea9fcb1e41ca3e1a1064e0528b1469b69995e99f7055d6dad483491bb1883c02"
+      ],
       "text": "Item's almost ready.",
       "source": "official"
     }

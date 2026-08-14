@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_greeting_10.mp3",
   "revisions": [
     {
-      "sha256": "3ea5985ca21fe265a80910554a039e0dbd619f7954ab045667d011c0b5e21c16",
-      "text": "Let's keep the lane safe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c484e409a62866d18e49deb8ede508bfb9814e3cc3562e63d58c3312bed7a41a",
-      "text": "Let's keep the lane safe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b92d29f17f87201598b816569602a0a0b543820be6e96549697b430270ecfa0e",
+      "sha256": [
+        "3ea5985ca21fe265a80910554a039e0dbd619f7954ab045667d011c0b5e21c16",
+        "b92d29f17f87201598b816569602a0a0b543820be6e96549697b430270ecfa0e",
+        "c484e409a62866d18e49deb8ede508bfb9814e3cc3562e63d58c3312bed7a41a"
+      ],
       "text": "Let's keep the lane safe.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

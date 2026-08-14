@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_inferno_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "3b217974c9b261b960e14c069451b2d76129ce23072d7ecc3abd016bfcc67cda",
+      "sha256": [
+        "3b217974c9b261b960e14c069451b2d76129ce23072d7ecc3abd016bfcc67cda",
+        "a212b018c25abcb9beca76a7b365b76540c05e2be161b8862aab2fed6ddd119b",
+        "dab94fd3a4b8389921b6295498b0ef609537d0c6f8e0319b96c44a5bde5a3824"
+      ],
       "text": "Infernus is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a212b018c25abcb9beca76a7b365b76540c05e2be161b8862aab2fed6ddd119b",
-      "text": "Infernus is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dab94fd3a4b8389921b6295498b0ef609537d0c6f8e0319b96c44a5bde5a3824",
-      "text": "Infernus is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25ca0ee539e5bd71cf5f20b99210a31400936ae876edbb3ad029f8bc03aa17ad",
+      "sha256": [
+        "25ca0ee539e5bd71cf5f20b99210a31400936ae876edbb3ad029f8bc03aa17ad"
+      ],
       "text": "Infernus's on the roof!",
       "source": "official"
     }

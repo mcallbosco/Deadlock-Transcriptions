@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_kill_orion_02.mp3",
   "revisions": [
     {
-      "sha256": "494f178df95a3c69daace1a2ec881f6c895c69d47813333f5373b5587877a198",
+      "sha256": [
+        "494f178df95a3c69daace1a2ec881f6c895c69d47813333f5373b5587877a198",
+        "5576d87cc566e15c282faa1c11a5bd3f83ddcccef6460fdd0e9ca0d1d03c768b",
+        "8259efd2c7e95b5ab154e83faa196fb536937d94f7b33a3dfd887fbb40aecffc",
+        "beab46c66242e530a46f49bd7afaade182be65eb6f0d0b3918fa3b167c285af9"
+      ],
       "text": "Your hunt's ended.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "c309c04276da8286cbd6572d93ea86c14f23fbd1000b11dfe09711b18c29f7a9",
+      "sha256": [
+        "c309c04276da8286cbd6572d93ea86c14f23fbd1000b11dfe09711b18c29f7a9"
+      ],
       "text": "Your heart is ended.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "beab46c66242e530a46f49bd7afaade182be65eb6f0d0b3918fa3b167c285af9",
-      "text": "Your hunts ended.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8259efd2c7e95b5ab154e83faa196fb536937d94f7b33a3dfd887fbb40aecffc",
-      "text": "Your hunts ended.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5576d87cc566e15c282faa1c11a5bd3f83ddcccef6460fdd0e9ca0d1d03c768b",
-      "text": "Your hunt's ended.",
-      "source": "official"
     }
   ]
 }

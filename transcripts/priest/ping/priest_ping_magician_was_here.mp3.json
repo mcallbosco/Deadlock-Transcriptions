@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a9a31d6741662cf6dc386c76a1525d7e84cac0ab0bca4dfe29dc1d332710b7d3",
+      "sha256": [
+        "a9a31d6741662cf6dc386c76a1525d7e84cac0ab0bca4dfe29dc1d332710b7d3",
+        "b224462659ff47dd92d29fe70d576524365b88ed126350fcd5059fe9d6aa04be"
+      ],
       "text": "Sinclair was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b224462659ff47dd92d29fe70d576524365b88ed126350fcd5059fe9d6aa04be",
-      "text": "Sinclair was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

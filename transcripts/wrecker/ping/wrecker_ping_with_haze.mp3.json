@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "049d020fa794c3fa6a5f1423ea27782d2be82916d029c4b3f53de1bae10e30ea",
-      "text": "I'm with you, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb77cf907e8ae6bf08533cc7a5b9c24ac7f4369805dbfbfd254e59ef9722eacd",
+      "sha256": [
+        "049d020fa794c3fa6a5f1423ea27782d2be82916d029c4b3f53de1bae10e30ea",
+        "fb77cf907e8ae6bf08533cc7a5b9c24ac7f4369805dbfbfd254e59ef9722eacd"
+      ],
       "text": "I'm with you, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

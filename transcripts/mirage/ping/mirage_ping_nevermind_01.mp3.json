@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_nevermind_01.mp3",
   "revisions": [
     {
-      "sha256": "b16946e3ac67b276e905fefabd4f5a8c18adfd14e378256ab51e448b6b0685ee",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd9da03ea5d18da6d758b088f53f2dce0bd938dcce47af74357bc49836ebf0e9",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b1467d741d867797448a1ed9ad6755ccc921c35112f224c13c8da985766562b6",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "daba0014dc2738637d589462ed5e7dac80dba3604abe3b6d2cc6f94a2e16c928",
+      "sha256": [
+        "b1467d741d867797448a1ed9ad6755ccc921c35112f224c13c8da985766562b6",
+        "b16946e3ac67b276e905fefabd4f5a8c18adfd14e378256ab51e448b6b0685ee",
+        "daba0014dc2738637d589462ed5e7dac80dba3604abe3b6d2cc6f94a2e16c928",
+        "dd9da03ea5d18da6d758b088f53f2dce0bd938dcce47af74357bc49836ebf0e9"
+      ],
       "text": "Never mind.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0d3eef923ce96ef0a6e3aff953250203bf208d9a22541e0820a22368f955c24d",
+      "sha256": [
+        "0d3eef923ce96ef0a6e3aff953250203bf208d9a22541e0820a22368f955c24d"
+      ],
       "text": "Mirage was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8dd53ccb85b489e1dca5d90015e4536e0678819f1acd9deda48fb959f2939e55",
+      "sha256": [
+        "8dd53ccb85b489e1dca5d90015e4536e0678819f1acd9deda48fb959f2939e55"
+      ],
       "text": "Garage was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

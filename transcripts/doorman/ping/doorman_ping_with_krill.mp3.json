@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "53bd6c7ac3bf0a60c18404b3d435862f15e0e2da32c319bbf5def6bce4563acd",
+      "sha256": [
+        "53bd6c7ac3bf0a60c18404b3d435862f15e0e2da32c319bbf5def6bce4563acd"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

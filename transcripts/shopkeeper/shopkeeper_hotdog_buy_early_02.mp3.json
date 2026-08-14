@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_buy_early_02.mp3",
   "revisions": [
     {
-      "sha256": "df67090967606e5bf58dcf1d3afad33f419562f2ae83297c356778f6949a7ff0",
+      "sha256": [
+        "785f0ae9012a90de535b8f37d9f7bf5962d4d3577c82215c69221ee62e011b63",
+        "df67090967606e5bf58dcf1d3afad33f419562f2ae83297c356778f6949a7ff0"
+      ],
       "text": "What can I do for you?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "785f0ae9012a90de535b8f37d9f7bf5962d4d3577c82215c69221ee62e011b63",
-      "text": "What can I do for you?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ae113dc23e6efd11ce9b2ad41b3dedc42f9452c3c4eed6604b17c3ee4a592ba",
+      "sha256": [
+        "8ae113dc23e6efd11ce9b2ad41b3dedc42f9452c3c4eed6604b17c3ee4a592ba"
+      ],
       "text": "And what can I do for you…",
       "source": "official"
     }

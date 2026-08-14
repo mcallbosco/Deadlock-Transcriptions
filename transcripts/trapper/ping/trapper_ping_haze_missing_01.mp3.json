@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8ce357f506ed739c3ffcf8606afa7458612c245cfd340ae60f22f52ea4520b10",
+      "sha256": [
+        "8ce357f506ed739c3ffcf8606afa7458612c245cfd340ae60f22f52ea4520b10"
+      ],
       "text": "Haze is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "009b443a69b543fa2827d3d0504392f6e9abfc129d9aed36213299e46ca275c1",
+      "sha256": [
+        "009b443a69b543fa2827d3d0504392f6e9abfc129d9aed36213299e46ca275c1"
+      ],
       "text": "Kyamato's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b99aa6d45fbbd216beee61b338b14c233bc7e93c5e16847764786694f71cb2b8",
+      "sha256": [
+        "b99aa6d45fbbd216beee61b338b14c233bc7e93c5e16847764786694f71cb2b8"
+      ],
       "text": "Yamato's missing",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_pick_up_gold_04.mp3",
   "revisions": [
     {
-      "sha256": "e4a8fb0beda8bb6021f03fff32855f2a0e188cb9c10722ab348fa1cb28b2ef80",
-      "text": "It's mine now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a57c78c7230c176657e2302a74a3b4afb2faecec7f599b86411532e294224851",
+      "sha256": [
+        "a57c78c7230c176657e2302a74a3b4afb2faecec7f599b86411532e294224851",
+        "e4a8fb0beda8bb6021f03fff32855f2a0e188cb9c10722ab348fa1cb28b2ef80"
+      ],
       "text": "It's mine now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

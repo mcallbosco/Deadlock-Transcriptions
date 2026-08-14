@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "933b527b6dbe0a0a753e45f8b613a00fc600d373ab08c876303aa9bb8a2dfe47",
+      "sha256": [
+        "933b527b6dbe0a0a753e45f8b613a00fc600d373ab08c876303aa9bb8a2dfe47"
+      ],
       "text": "You're vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e8b07292124dbd3650ea2aeaa5c07d0a5398e63187dda2ec753d026e84c0203c",
+      "sha256": [
+        "e8b07292124dbd3650ea2aeaa5c07d0a5398e63187dda2ec753d026e84c0203c"
+      ],
       "text": "Careful, Vindicta…",
       "source": "official"
     }

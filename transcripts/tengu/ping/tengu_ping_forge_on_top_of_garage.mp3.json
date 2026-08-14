@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_forge_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "617490a4b9a26df10fa6d47be5aa3e8f8c8ce64d1b4c9120dc195dcb91cbdebd",
+      "sha256": [
+        "617490a4b9a26df10fa6d47be5aa3e8f8c8ce64d1b4c9120dc195dcb91cbdebd"
+      ],
       "text": "McGinnis is on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "83c95f497684a723e6b661f3bc78bbc2c52d5e92cf0b324f8020e953167dac80",
+      "sha256": [
+        "83c95f497684a723e6b661f3bc78bbc2c52d5e92cf0b324f8020e953167dac80"
+      ],
       "text": "McGinnis's on top of the garage!",
       "source": "official"
     }

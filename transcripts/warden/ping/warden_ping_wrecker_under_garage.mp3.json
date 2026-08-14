@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_wrecker_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "4252bb91cfaad0691e09d8ac269484dc4cb7f617f3e9064e734aa252138602c5",
+      "sha256": [
+        "4252bb91cfaad0691e09d8ac269484dc4cb7f617f3e9064e734aa252138602c5",
+        "84fda9c00a26f47b7707fe5eef5a3ee22a2d64d0659ae2f202e2130fb92eb9bc",
+        "9677bbb29f8bda6e8f3189b1aa5d5b25609307675376947b4badbcdd83e1b8d2"
+      ],
       "text": "Records under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9677bbb29f8bda6e8f3189b1aa5d5b25609307675376947b4badbcdd83e1b8d2",
-      "text": "Records under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84fda9c00a26f47b7707fe5eef5a3ee22a2d64d0659ae2f202e2130fb92eb9bc",
-      "text": "Records under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f90f4ec3bccdbed67d0b8f6421213b3cd00a26cb1bf69520063f53c717421915",
+      "sha256": [
+        "f90f4ec3bccdbed67d0b8f6421213b3cd00a26cb1bf69520063f53c717421915"
+      ],
       "text": "Wrecker's under the garage!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b5a4a4d088c36ec3dc1bc8cfd817508df0359b3ab9beafe044d9eace885f03ec",
+      "sha256": [
+        "b5a4a4d088c36ec3dc1bc8cfd817508df0359b3ab9beafe044d9eace885f03ec"
+      ],
       "text": "Shift thising.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e26f0cb0823061f67d92579895614783af1a298f6461ec3ce73715eaf085f016",
-      "text": "Shift missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "025a245da1338659591eaac7a52a50d7ae73bcead64b0018e6f875d54a4d71b8",
+      "sha256": [
+        "025a245da1338659591eaac7a52a50d7ae73bcead64b0018e6f875d54a4d71b8",
+        "e26f0cb0823061f67d92579895614783af1a298f6461ec3ce73715eaf085f016"
+      ],
       "text": "Shift missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

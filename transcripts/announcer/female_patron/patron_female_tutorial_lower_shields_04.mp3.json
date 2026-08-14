@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_lower_shields_04.mp3",
   "revisions": [
     {
-      "sha256": "a8887918cefcb585188c760e69c2e2bdf232f83ece31bb04d03274893b2f99ed",
-      "text": "We need the troopers to lower the Guardian's shield.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3b21a60dcccfa03aa1868b33cabf6195e28e0b8b52309e2e4178f409b10d16d9",
+        "a8887918cefcb585188c760e69c2e2bdf232f83ece31bb04d03274893b2f99ed"
+      ],
+      "text": "We need the troopers to lower the guardian's shield",
+      "source": "official"
     },
     {
-      "sha256": "e7f18d2bed0ad31c48a9b90b4144a2cfae64e6e0f6600cd308b72b678f69fd17",
+      "sha256": [
+        "e7f18d2bed0ad31c48a9b90b4144a2cfae64e6e0f6600cd308b72b678f69fd17"
+      ],
       "text": "We need the troopers to lower the guardian shield.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b21a60dcccfa03aa1868b33cabf6195e28e0b8b52309e2e4178f409b10d16d9",
-      "text": "We need the troopers to lower the guardian's shield",
-      "source": "official"
     }
   ]
 }

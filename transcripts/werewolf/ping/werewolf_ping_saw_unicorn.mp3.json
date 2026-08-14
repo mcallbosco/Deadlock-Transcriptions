@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_saw_unicorn.mp3",
   "revisions": [
     {
-      "sha256": "a33953ce1fc19b4790d082c023ad826971a597c24159963367c7e1579f312ab8",
+      "sha256": [
+        "a33953ce1fc19b4790d082c023ad826971a597c24159963367c7e1579f312ab8"
+      ],
       "text": "I saw the list.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

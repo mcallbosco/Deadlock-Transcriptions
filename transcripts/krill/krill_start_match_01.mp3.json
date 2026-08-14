@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_start_match_01.mp3",
   "revisions": [
     {
-      "sha256": "1cc9a34251188817e56ef123a5febff0b88ebfbdbb5ef60f3cf7f563f9f322b6",
-      "text": "This city will be ours.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b45f700b2b37752d6235d157ee72406152dfeea2be5f46720121f487045a89ca",
-      "text": "This city will be ours.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1fbfc88a26825d5e2605b6112c52c94d579dbc610cd917f73a7811f2ddb4a8f",
+      "sha256": [
+        "1cc9a34251188817e56ef123a5febff0b88ebfbdbb5ef60f3cf7f563f9f322b6",
+        "b45f700b2b37752d6235d157ee72406152dfeea2be5f46720121f487045a89ca",
+        "d1fbfc88a26825d5e2605b6112c52c94d579dbc610cd917f73a7811f2ddb4a8f"
+      ],
       "text": "This city will be ours.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

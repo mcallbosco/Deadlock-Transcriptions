@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_astro_01.mp3",
   "revisions": [
     {
-      "sha256": "fa210dbeda05ee0a4049a95df3674e081ff8541103f9120592df81f48bd2cd17",
-      "text": "Careful, Astro!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "943f9099795b1b025cfafb93110f5c1d1b8baf40e1a814151812e1160a82c7d4",
-      "text": "Careful, Astro!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76f82c1878cb514ec4c810238d8e799f1f3f502b2024adeb60d2441f55346648",
+      "sha256": [
+        "76f82c1878cb514ec4c810238d8e799f1f3f502b2024adeb60d2441f55346648",
+        "943f9099795b1b025cfafb93110f5c1d1b8baf40e1a814151812e1160a82c7d4",
+        "fa210dbeda05ee0a4049a95df3674e081ff8541103f9120592df81f48bd2cd17"
+      ],
       "text": "Careful, Astro!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

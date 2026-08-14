@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_fairfax.mp3",
   "revisions": [
     {
-      "sha256": "d8cd2aa8377ae9fc3855f4de5d1a1eb47af0801fc1341f3234fd27a0a05f1c91",
-      "text": "I saw Fairfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0c2d78898344723360777b6568e7eafcfb2ae5f43b88ff09b70a5a75e9b827c",
-      "text": "I saw Fairfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82aca2ead22e1a1f70cfff40b93f2a53e7c18169a40be2c4ec920cb53e534d46",
+      "sha256": [
+        "82aca2ead22e1a1f70cfff40b93f2a53e7c18169a40be2c4ec920cb53e534d46",
+        "d8cd2aa8377ae9fc3855f4de5d1a1eb47af0801fc1341f3234fd27a0a05f1c91",
+        "f0c2d78898344723360777b6568e7eafcfb2ae5f43b88ff09b70a5a75e9b827c"
+      ],
       "text": "I saw Fairfax.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

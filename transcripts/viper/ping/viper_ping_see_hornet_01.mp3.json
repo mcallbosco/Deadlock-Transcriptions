@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "4160473fa5468e66770bd0699342fec2b3c016c84922ca2e74be993005424fb8",
-      "text": "I see Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "4160473fa5468e66770bd0699342fec2b3c016c84922ca2e74be993005424fb8",
+        "80f3e217f0796ba2b73f06923af2e1d1d9fe0c5e8a47e4008233678f344fd54b"
+      ],
+      "text": "I see vindicta",
+      "source": "official"
     },
     {
-      "sha256": "541b0732fcecb533d2cfd84bf5602bbd3630518c37b3647429f2d545ccdad834",
+      "sha256": [
+        "541b0732fcecb533d2cfd84bf5602bbd3630518c37b3647429f2d545ccdad834"
+      ],
       "text": "I see Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80f3e217f0796ba2b73f06923af2e1d1d9fe0c5e8a47e4008233678f344fd54b",
-      "text": "I see vindicta",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_yamato_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "d3363c7756ca0349c9e45d0f500b4326355941f52a693235c58620eaa88355d4",
+      "sha256": [
+        "d3363c7756ca0349c9e45d0f500b4326355941f52a693235c58620eaa88355d4"
+      ],
       "text": "Yamero is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f16f9a7038fa0bf7b7db1032d8af482875c5e19a3d6b127f285caccdc01cedf1",
+      "sha256": [
+        "f16f9a7038fa0bf7b7db1032d8af482875c5e19a3d6b127f285caccdc01cedf1"
+      ],
       "text": "Yamato's on the roof!",
       "source": "official"
     }

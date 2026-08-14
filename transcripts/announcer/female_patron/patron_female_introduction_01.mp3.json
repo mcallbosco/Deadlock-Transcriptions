@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_introduction_01.mp3",
   "revisions": [
     {
-      "sha256": "9969ae1670a9a384f856d20b7a4e4643b991049a737d3c88c7ec51e7978f4114",
-      "text": "I am the whisper in the wind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "329aade079f4212eb0558567c5be3701433a13b119eb676bb753d7ad9ffb6887",
+      "sha256": [
+        "329aade079f4212eb0558567c5be3701433a13b119eb676bb753d7ad9ffb6887",
+        "9969ae1670a9a384f856d20b7a4e4643b991049a737d3c88c7ec51e7978f4114"
+      ],
       "text": "I am the whisper in the wind.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

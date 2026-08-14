@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_gigawatt_03_1.mp3",
   "revisions": [
     {
-      "sha256": "47c9bd8d77bcb812e4f564dd3e1ee983d66131582818dae99a2c1784e6e0b787",
-      "text": "Terrible seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d133a55ec811d190ce407d505202f203ebf233fbd65f69dd592bdd8b818e6eb",
+      "sha256": [
+        "2d133a55ec811d190ce407d505202f203ebf233fbd65f69dd592bdd8b818e6eb",
+        "47c9bd8d77bcb812e4f564dd3e1ee983d66131582818dae99a2c1784e6e0b787"
+      ],
       "text": "Terrible seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "6ee7caebb948319b363d56cc86b6c1378f2a0f42cce4da3a97ea9259e91e39d2",
-      "text": "I see Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d0bb4d45e69aa9ac990543f97ecdc006fc6bc6b1f2941935b2b4fe35d347bab",
+      "sha256": [
+        "5d0bb4d45e69aa9ac990543f97ecdc006fc6bc6b1f2941935b2b4fe35d347bab",
+        "6ee7caebb948319b363d56cc86b6c1378f2a0f42cce4da3a97ea9259e91e39d2"
+      ],
       "text": "I see Lash",
       "source": "official"
     }

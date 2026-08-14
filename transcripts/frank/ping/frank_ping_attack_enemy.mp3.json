@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_attack_enemy.mp3",
   "revisions": [
     {
-      "sha256": "74168d1278ae8565392ef9b6737a06d67d47460ea9d80d1c612bf9a0bedac5e2",
-      "text": "Let's take out the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cd5f7ee98402c1079a6bf5843228c35670a9149ca3f52d5fc0fd8093e76e67d",
+      "sha256": [
+        "5cd5f7ee98402c1079a6bf5843228c35670a9149ca3f52d5fc0fd8093e76e67d",
+        "74168d1278ae8565392ef9b6737a06d67d47460ea9d80d1c612bf9a0bedac5e2"
+      ],
       "text": "Let's take out the enemy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

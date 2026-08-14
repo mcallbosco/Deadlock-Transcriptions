@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "e06c820525a6580620352bb354b68d0345a6021756221be6fca6cfa702b528b0",
+      "sha256": [
+        "e06c820525a6580620352bb354b68d0345a6021756221be6fca6cfa702b528b0"
+      ],
       "text": "I am a small deviless.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "06def2e67084f67a09682ac51ff92b2fcc87a4e37a779d64083bdf4c4e1619d7",
-      "text": "Hope my team can capitalize on this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e76e194b37dc153e3cfcbabee99187687c0c4572b8c7b5db2c3f566e6f863280",
-      "text": "Hope my team can capitalize on this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11c0a45a238a1c7ac0c5add52076f0b3c7f5e6dd54091c9ba567d0e956f4c9f6",
+      "sha256": [
+        "06def2e67084f67a09682ac51ff92b2fcc87a4e37a779d64083bdf4c4e1619d7",
+        "11c0a45a238a1c7ac0c5add52076f0b3c7f5e6dd54091c9ba567d0e956f4c9f6",
+        "e76e194b37dc153e3cfcbabee99187687c0c4572b8c7b5db2c3f566e6f863280"
+      ],
       "text": "Hope my team can capitalize on this…",
       "source": "official"
     }

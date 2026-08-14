@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "8e80024cc44c376f9eae9a74bda9b98465f8329716bf21fbe077d1ff8500bb8a",
+      "sha256": [
+        "8e80024cc44c376f9eae9a74bda9b98465f8329716bf21fbe077d1ff8500bb8a"
+      ],
       "text": "I see you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "12f8fa1e4e25b975cd0179265fe00db0b77509e23ddb2754b45d50bff817afe0",
+      "sha256": [
+        "12f8fa1e4e25b975cd0179265fe00db0b77509e23ddb2754b45d50bff817afe0"
+      ],
       "text": "I see you, Marama.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87ef5e3dd991ed9c72ed848e37d0d95f3fc2e24d8b8d73c1ecb9017a07d8100f",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b1b1aa1da2f6b6ee9abab679749db232e0467adf8f2b2cd07d53431bce90bdf4",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39f1d7c2fa2fcee0bf6ac0d5e39404f63c55f5fcbddc74ef8cc4449a44868a9d",
+      "sha256": [
+        "39f1d7c2fa2fcee0bf6ac0d5e39404f63c55f5fcbddc74ef8cc4449a44868a9d",
+        "87ef5e3dd991ed9c72ed848e37d0d95f3fc2e24d8b8d73c1ecb9017a07d8100f",
+        "b1b1aa1da2f6b6ee9abab679749db232e0467adf8f2b2cd07d53431bce90bdf4"
+      ],
       "text": "I see Yamato",
       "source": "official"
     }

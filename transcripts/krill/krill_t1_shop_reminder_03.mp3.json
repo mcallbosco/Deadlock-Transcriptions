@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_t1_shop_reminder_03.mp3",
   "revisions": [
     {
-      "sha256": "58f11f886fdeae171ac93e87b4ef71272d5990d150c1b56b8090452a8fb15a58",
-      "text": "Can't forget to check out the store!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96fd80db8dcb09395c480f6785f86c074d8830f5bfac0cfccf405fbf5bf57814",
-      "text": "Can't forget to check out the store!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71c4e77128e22434b45aa682d210c14e4f8bc54614610e7d3e2ecf8703312f0b",
+      "sha256": [
+        "58f11f886fdeae171ac93e87b4ef71272d5990d150c1b56b8090452a8fb15a58",
+        "71c4e77128e22434b45aa682d210c14e4f8bc54614610e7d3e2ecf8703312f0b",
+        "96fd80db8dcb09395c480f6785f86c074d8830f5bfac0cfccf405fbf5bf57814"
+      ],
       "text": "Can't forget to check out the store…",
       "source": "official"
     }

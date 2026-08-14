@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_digger_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "37090229c57706196b12fe87075e7de30f5795cf5f0b3507369c51de17c67cba",
+      "sha256": [
+        "37090229c57706196b12fe87075e7de30f5795cf5f0b3507369c51de17c67cba",
+        "780d2fcd5e526034ffb96ea374dc26075d3a04919fff3283a888e0211e146302"
+      ],
       "text": "Ticket's headed to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2768585f0169d00c0726fb96d22f21319f5d04c95e605eb624b727d6c35b2ad0",
+      "sha256": [
+        "2768585f0169d00c0726fb96d22f21319f5d04c95e605eb624b727d6c35b2ad0"
+      ],
       "text": "Diggers headed to yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "780d2fcd5e526034ffb96ea374dc26075d3a04919fff3283a888e0211e146302",
-      "text": "Ticket's headed to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "040366ac1f5a0ea0c7521f94dff77b1cb38f142809798247632ba5c02f4d2d55",
+      "sha256": [
+        "040366ac1f5a0ea0c7521f94dff77b1cb38f142809798247632ba5c02f4d2d55"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "38071c7e2e117d0d2a2605445350fae772f3c5d505af9bc5d58273a3b77d39d8",
+      "sha256": [
+        "38071c7e2e117d0d2a2605445350fae772f3c5d505af9bc5d58273a3b77d39d8"
+      ],
       "text": "I thought Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

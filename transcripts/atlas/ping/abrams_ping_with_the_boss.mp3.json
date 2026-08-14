@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_the_boss.mp3",
   "revisions": [
     {
-      "sha256": "1b5ee4af8efaad9875c4a20d39be4f729383f10d72066334524b823d9f3fbb2f",
-      "text": "I'm with you, boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5db6f0300ddf5b7ec7be6aa57bc7bec5e3f1d156582df47d234dfaf652f14db",
+      "sha256": [
+        "1b5ee4af8efaad9875c4a20d39be4f729383f10d72066334524b823d9f3fbb2f",
+        "e5db6f0300ddf5b7ec7be6aa57bc7bec5e3f1d156582df47d234dfaf652f14db"
+      ],
       "text": "I'm with you, boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

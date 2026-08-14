@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_use_item.mp3",
   "revisions": [
     {
-      "sha256": "f3ce79f6b16d3b24950372f961c05ff333e970706a41268cf7d42d81e459ad2e",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "103e4ba3d2b5b300ea173b41b3448a43b9c6ddec754cf2e9ce6b72336806db70",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb7486081f1de0bb8b801f02b54f959b75a2192568567b7fbca2defcc2c96030",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "27241437c465cd0eb7eeb68fdacc09f301048a6f65a2baf394ffbff36b3fa50b",
+      "sha256": [
+        "103e4ba3d2b5b300ea173b41b3448a43b9c6ddec754cf2e9ce6b72336806db70",
+        "27241437c465cd0eb7eeb68fdacc09f301048a6f65a2baf394ffbff36b3fa50b",
+        "eb7486081f1de0bb8b801f02b54f959b75a2192568567b7fbca2defcc2c96030",
+        "f3ce79f6b16d3b24950372f961c05ff333e970706a41268cf7d42d81e459ad2e"
+      ],
       "text": "Ready to use Item",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_ignore_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "8ed46a841b86f2c7235d1e2d9a02e95e7fb77c61a64d5abc4daf2c7ccce7e1e2",
-      "text": "Ignore McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58fff58862a6ccae49515d4669c1b2e55ddd9417c819b47c8dc6969a6a47f6ff",
+      "sha256": [
+        "58fff58862a6ccae49515d4669c1b2e55ddd9417c819b47c8dc6969a6a47f6ff",
+        "8ed46a841b86f2c7235d1e2d9a02e95e7fb77c61a64d5abc4daf2c7ccce7e1e2"
+      ],
       "text": "Ignore McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

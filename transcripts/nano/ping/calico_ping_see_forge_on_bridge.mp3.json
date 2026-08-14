@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_forge_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "0014d7317cbcbbc7f702a4ea1cf4274a2cb95398b4708c6c714b56b7f51b0eee",
+      "sha256": [
+        "0014d7317cbcbbc7f702a4ea1cf4274a2cb95398b4708c6c714b56b7f51b0eee"
+      ],
       "text": "Torch is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "73196a83808ed1dc701c0c637815a1c2058b10c54a76efc6bb84f2aa2607d733",
+      "sha256": [
+        "73196a83808ed1dc701c0c637815a1c2058b10c54a76efc6bb84f2aa2607d733"
+      ],
       "text": "Twitch is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

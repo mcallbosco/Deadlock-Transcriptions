@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8573c276ef167a94c953ba1c4e13ed46bf066426fd5f1e7f7e20526cb2c326ba",
+      "sha256": [
+        "8573c276ef167a94c953ba1c4e13ed46bf066426fd5f1e7f7e20526cb2c326ba"
+      ],
       "text": "Death is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d2e86fb7c0e38a417a88827079ceca79e3db734a206a6d766ca5f97a11358e3b",
+      "sha256": [
+        "6576321d8969193201b788b8be2492364d3abda692a192ee93df4fa2c3e7955c",
+        "d2e86fb7c0e38a417a88827079ceca79e3db734a206a6d766ca5f97a11358e3b",
+        "fda199857e7caafb885313d84d953ad069dbd8a086c376a1556f27e19ee0e181"
+      ],
       "text": "Calvin's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6576321d8969193201b788b8be2492364d3abda692a192ee93df4fa2c3e7955c",
-      "text": "Calvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fda199857e7caafb885313d84d953ad069dbd8a086c376a1556f27e19ee0e181",
-      "text": "Calvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ebce5a2987b4509100d0aff33239fc750dcb7a3476ed9b8b9eabbb84f9925b3d",
+      "sha256": [
+        "ebce5a2987b4509100d0aff33239fc750dcb7a3476ed9b8b9eabbb84f9925b3d"
+      ],
       "text": "Kelvin's missing",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "9b6827234e971193441fed1c5edb8ee117393e6a79bc24a15842bc167f6385bd",
-      "text": "I saw these!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd2b4ae29f011bcf13226cf36d577de773c3e024d46fb1ec9756636b79bb3c2c",
+      "sha256": [
+        "9b6827234e971193441fed1c5edb8ee117393e6a79bc24a15842bc167f6385bd",
+        "bd2b4ae29f011bcf13226cf36d577de773c3e024d46fb1ec9756636b79bb3c2c"
+      ],
       "text": "I saw these!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

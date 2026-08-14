@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_blue_guardian_attack_01.mp3",
   "revisions": [
     {
-      "sha256": "42f2cc33af4136f1ccf2c9941ea4a059321a2182fa9d47140b07b3d02ef706a7",
-      "text": "Our blue guardian is under attack.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef1aa8a4b34bc9afbe0f89ae9677ddc8b94b81622e0e9ef90189d0c0a2faae7b",
-      "text": "Our blue guardian is under attack.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b7167d0ff4341b5d5990c8022997fce80f04dcace2b21abfadfbfd27ab1af246",
+      "sha256": [
+        "42f2cc33af4136f1ccf2c9941ea4a059321a2182fa9d47140b07b3d02ef706a7",
+        "b7167d0ff4341b5d5990c8022997fce80f04dcace2b21abfadfbfd27ab1af246",
+        "ef1aa8a4b34bc9afbe0f89ae9677ddc8b94b81622e0e9ef90189d0c0a2faae7b"
+      ],
       "text": "Our blue guardian is under attack.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

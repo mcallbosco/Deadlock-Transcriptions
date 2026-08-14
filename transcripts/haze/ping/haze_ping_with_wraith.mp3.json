@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_with_wraith.mp3",
   "revisions": [
     {
-      "sha256": "811f1ddf850bb29a6dbe391c7c9166fc59198b55630415c803be2e40ab36262b",
+      "sha256": [
+        "811f1ddf850bb29a6dbe391c7c9166fc59198b55630415c803be2e40ab36262b",
+        "b2f5edd6c4969b4297e649b7d34b0139c8685e626aab642743f0a6bb84f2251c",
+        "b45016ca48c9bd6f1099632b095cd8140d3bd07a341b3a74b7d1b18753086f79"
+      ],
       "text": "I'm with you, Raze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "35bc3f7a3a754e0f7467d1d42686e7d93e7476b29c46b634f9fe3ef80650d7a0",
+      "sha256": [
+        "35bc3f7a3a754e0f7467d1d42686e7d93e7476b29c46b634f9fe3ef80650d7a0"
+      ],
       "text": "I'm with you, Reece.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b45016ca48c9bd6f1099632b095cd8140d3bd07a341b3a74b7d1b18753086f79",
-      "text": "I'm with you, Raze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2f5edd6c4969b4297e649b7d34b0139c8685e626aab642743f0a6bb84f2251c",
-      "text": "I'm with you, Raze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4bc5b5c37429414e191463a6c18d9f4bf5e7e10e20a5ff501a27e9f05dfe34a7",
+      "sha256": [
+        "4bc5b5c37429414e191463a6c18d9f4bf5e7e10e20a5ff501a27e9f05dfe34a7"
+      ],
       "text": "I'm with you, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e4c74e5ea40d763b89c51bc860edb608ce7a84150cb9ddd405f9587a3249b88b",
+      "sha256": [
+        "e4c74e5ea40d763b89c51bc860edb608ce7a84150cb9ddd405f9587a3249b88b"
+      ],
       "text": "Call is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2ec15a867b077553256ebf106075ac1cafb275cb0f13309183b44a798b081f28",
+      "sha256": [
+        "2ec15a867b077553256ebf106075ac1cafb275cb0f13309183b44a798b081f28"
+      ],
       "text": "Pocket's missing",
       "source": "official"
     }

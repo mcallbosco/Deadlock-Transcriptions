@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "c012c28b971529a827350af90c72a84033354a54eb37ba23bde73bb512173da0",
-      "text": "Careful, Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "868d805d3e0f99769aed11f36be7be7bf6be16813f3b63ee0926e973d61a360b",
-      "text": "Careful, Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bca2720c3dd3e14f18c1cd62c9a28870c22449e55f73eedb04cfc01446f3afce",
+      "sha256": [
+        "868d805d3e0f99769aed11f36be7be7bf6be16813f3b63ee0926e973d61a360b",
+        "bca2720c3dd3e14f18c1cd62c9a28870c22449e55f73eedb04cfc01446f3afce",
+        "c012c28b971529a827350af90c72a84033354a54eb37ba23bde73bb512173da0"
+      ],
       "text": "Careful, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

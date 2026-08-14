@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_lash_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "52a89d29a2d967a2dff27cc0103de824c0aef377826f7eecdb7d33a723bd2273",
+      "sha256": [
+        "52a89d29a2d967a2dff27cc0103de824c0aef377826f7eecdb7d33a723bd2273"
+      ],
       "text": "Flash is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d20b9fd1605589758362d3fb8ffa9bd64e714fb257d44171c971d25a18c817f",
+      "sha256": [
+        "3d20b9fd1605589758362d3fb8ffa9bd64e714fb257d44171c971d25a18c817f"
+      ],
       "text": "Lash's on top of the garage!",
       "source": "official"
     }

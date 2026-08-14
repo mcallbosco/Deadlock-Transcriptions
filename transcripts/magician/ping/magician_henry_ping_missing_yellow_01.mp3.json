@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "magician/ping/magician_henry_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "f3f42e2e3a30e85ce4f06995d90525e320e38be71686d6583fc83a4457f4d819",
+      "sha256": [
+        "f3f42e2e3a30e85ce4f06995d90525e320e38be71686d6583fc83a4457f4d819"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

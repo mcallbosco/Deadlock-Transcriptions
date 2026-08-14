@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_astro_was_here.mp3",
   "revisions": [
     {
-      "sha256": "41de780b93a6a625a59e5b92e55787fb61da4778d67a383c51e1c11797b70848",
+      "sha256": [
+        "41de780b93a6a625a59e5b92e55787fb61da4778d67a383c51e1c11797b70848"
+      ],
       "text": "Holliday was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

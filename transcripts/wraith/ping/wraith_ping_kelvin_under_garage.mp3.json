@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_kelvin_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "c37fa711fd85477038441262d7181230f8cbfba7ce5088bb7a94a8082e5885d0",
-      "text": "Kelvin's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f450ca5b2749cbba34e2dea8eb103ac84fe2f37a89cece680624dcede10ef8ea",
-      "text": "Coming under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1712eb5796bbb9c912bb89df1361cea079df3ee5cc02f0f2eb2dca8f69dbdf4a",
-      "text": "Coming under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca592afe18efc1715504881b084e3d5ec4771ec56f550f3bd1e3dfcbea254490",
+      "sha256": [
+        "c37fa711fd85477038441262d7181230f8cbfba7ce5088bb7a94a8082e5885d0",
+        "ca592afe18efc1715504881b084e3d5ec4771ec56f550f3bd1e3dfcbea254490"
+      ],
       "text": "Kelvin's under the garage!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "1712eb5796bbb9c912bb89df1361cea079df3ee5cc02f0f2eb2dca8f69dbdf4a",
+        "f450ca5b2749cbba34e2dea8eb103ac84fe2f37a89cece680624dcede10ef8ea"
+      ],
+      "text": "Coming under the garage.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

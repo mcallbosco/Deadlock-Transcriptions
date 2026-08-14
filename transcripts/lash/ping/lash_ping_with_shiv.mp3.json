@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "befba212c732f1e65c13a3d221b599ecbfa31d050cccca0df654d99d8d624722",
+      "sha256": [
+        "afb41d6ee91f821d3795915257f640f9e59950afd31753009170adf71e71f95c",
+        "befba212c732f1e65c13a3d221b599ecbfa31d050cccca0df654d99d8d624722"
+      ],
       "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7483e0a3cfbe013b2637d0e5b7faf82195d980e64f7df802f15530317f896d8a",
+      "sha256": [
+        "7483e0a3cfbe013b2637d0e5b7faf82195d980e64f7df802f15530317f896d8a",
+        "ec4eadbab169d546bf669aea8c117220fc0e7c471a7b3f4a7cd8ee166fbcb501"
+      ],
       "text": "I'm with you, Chef.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec4eadbab169d546bf669aea8c117220fc0e7c471a7b3f4a7cd8ee166fbcb501",
-      "text": "I'm with you, Chef.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afb41d6ee91f821d3795915257f640f9e59950afd31753009170adf71e71f95c",
-      "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

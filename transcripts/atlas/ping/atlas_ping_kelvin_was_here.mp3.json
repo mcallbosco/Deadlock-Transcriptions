@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "174d653c24ff9e07218bd7de98488dcaf88536dca66fc654c36447a3f7f79a88",
+      "sha256": [
+        "174d653c24ff9e07218bd7de98488dcaf88536dca66fc654c36447a3f7f79a88"
+      ],
       "text": "Kelvin was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

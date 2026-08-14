@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "6be3ead05da5044a12253f7c014138a631140fad3c28094f48e986f038965b9c",
+      "sha256": [
+        "6be3ead05da5044a12253f7c014138a631140fad3c28094f48e986f038965b9c"
+      ],
       "text": "Message in blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

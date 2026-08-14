@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_yamato.mp3",
   "revisions": [
     {
-      "sha256": "56b9c9b5c400fee7e5a2e193b48c0d0185312b549a57baea436785f484eb8744",
-      "text": "Ignore Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0aec9f45b61a5c5b624fc2637ce173782b1f34439b953e40ef42ee21be736e80",
+      "sha256": [
+        "0aec9f45b61a5c5b624fc2637ce173782b1f34439b953e40ef42ee21be736e80",
+        "56b9c9b5c400fee7e5a2e193b48c0d0185312b549a57baea436785f484eb8744"
+      ],
       "text": "Ignore Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_can_heal_shiv.mp3",
   "revisions": [
     {
-      "sha256": "01228cb1ad3ea7325935f7d54b54c537528c228f60db1266f68baf9f4bcb32b9",
+      "sha256": [
+        "01228cb1ad3ea7325935f7d54b54c537528c228f60db1266f68baf9f4bcb32b9",
+        "01d5f680c2e9ba85dbccee71ad64af0fa918f9b1d52178044a9ff5d2956459e3"
+      ],
       "text": "Sure, if I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8392f39965dc7d0a9544d59dc42e171fad9295079773c85a84543221ccc6a8bd",
+      "sha256": [
+        "8392f39965dc7d0a9544d59dc42e171fad9295079773c85a84543221ccc6a8bd"
+      ],
       "text": "I'll see if I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "01d5f680c2e9ba85dbccee71ad64af0fa918f9b1d52178044a9ff5d2956459e3",
-      "text": "Sure if I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37a7754e2b48f58e7336567dc38e95a4c9865766379bc1f443fd9a7e0e2010e1",
+      "sha256": [
+        "37a7754e2b48f58e7336567dc38e95a4c9865766379bc1f443fd9a7e0e2010e1"
+      ],
       "text": "Shiv, I can heal you!",
       "source": "official"
     }

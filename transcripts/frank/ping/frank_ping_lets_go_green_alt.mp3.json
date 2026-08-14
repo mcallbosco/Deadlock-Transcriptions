@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_lets_go_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "47ce6e3628f75369156f53d1beb1df31966d0ec53f6f7f2ea5e4d534b0e2b35f",
+      "sha256": [
+        "47ce6e3628f75369156f53d1beb1df31966d0ec53f6f7f2ea5e4d534b0e2b35f"
+      ],
       "text": "Let's go to Grish.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e20a4f2a266f0fb2326e67b012598c5edaf0517b9193263386a9660c427bac1c",
+      "sha256": [
+        "e20a4f2a266f0fb2326e67b012598c5edaf0517b9193263386a9660c427bac1c"
+      ],
       "text": "Let's go to Greenwich!",
       "source": "official"
     }

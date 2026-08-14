@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "80a708a8fc7c5f83ac832cade7e8a0a30db84dee63dbbfad1781392ab12448ea",
-      "text": "We are ascending.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b60b77450e2e4ccc13dda1405cd0f953073b7fcb79fd8244c6f060f9ef4fbd7",
-      "text": "We are ascending.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "679e148e2394fdce147d6a3b86bb32ada26112d13245d5f5a39364d2b040498c",
+      "sha256": [
+        "4b60b77450e2e4ccc13dda1405cd0f953073b7fcb79fd8244c6f060f9ef4fbd7",
+        "679e148e2394fdce147d6a3b86bb32ada26112d13245d5f5a39364d2b040498c",
+        "80a708a8fc7c5f83ac832cade7e8a0a30db84dee63dbbfad1781392ab12448ea"
+      ],
       "text": "We are ascending.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

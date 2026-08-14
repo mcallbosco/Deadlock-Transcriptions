@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_see_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "51d212e5bd7b19d39ac1b4d77d5c99b6b3ea6d89f250eab1e7d386ad5abdeff0",
+      "sha256": [
+        "51d212e5bd7b19d39ac1b4d77d5c99b6b3ea6d89f250eab1e7d386ad5abdeff0"
+      ],
       "text": "I see Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

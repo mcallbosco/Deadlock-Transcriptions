@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_synth_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "8edb2b9c3e2b7424c75a4deba8379329b2baaac863c22d7c07f91c4fdcde0afc",
+      "sha256": [
+        "8edb2b9c3e2b7424c75a4deba8379329b2baaac863c22d7c07f91c4fdcde0afc"
+      ],
       "text": "Go get under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "af34a1476aad5c55f8f1543469be2f8cb5df4f9c1eb045c138514085db92c023",
+      "sha256": [
+        "af34a1476aad5c55f8f1543469be2f8cb5df4f9c1eb045c138514085db92c023"
+      ],
       "text": "Pocket's under the garage!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_good_game_02.mp3",
   "revisions": [
     {
-      "sha256": "a78f9709e37bde21887ee1a18f605468f4d8cf0af0e60b924efa06a6da4829ad",
+      "sha256": [
+        "a78f9709e37bde21887ee1a18f605468f4d8cf0af0e60b924efa06a6da4829ad"
+      ],
       "text": "You boy put up a fight!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4bb85eb91c65698c49e8e2822ec1f50b945819af1570442bd6c9c60155e75b82",
+      "sha256": [
+        "4bb85eb91c65698c49e8e2822ec1f50b945819af1570442bd6c9c60155e75b82"
+      ],
       "text": "I'll remember that one",
       "source": "official"
     }

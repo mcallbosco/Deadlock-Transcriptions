@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "8f2b059e14ce6c0dd583020627cc1248b61b32fa95b02d32aa782f64597a3a8e",
+      "sha256": [
+        "8f2b059e14ce6c0dd583020627cc1248b61b32fa95b02d32aa782f64597a3a8e"
+      ],
       "text": "I see Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "50b520ce2768922124ef2fe10d949f317230bee548909810fb0b2e6ed8c372c6",
+      "sha256": [
+        "50b520ce2768922124ef2fe10d949f317230bee548909810fb0b2e6ed8c372c6"
+      ],
       "text": "I see vindicta",
       "source": "official"
     }

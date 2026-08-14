@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "48d6bd3acc68279e1a68c770121428ce7b627bc5dc176b6055531284f5d9e3b6",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3bdc1a0ae3b8d95f46f37c089aa6eb0057a9bf82aeb0499592109c814baf8338",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "198e36c1fa6f5f2f1897fe12a113bb00b0233cfbc8ee90f66ce44b6a06e0eead",
+      "sha256": [
+        "198e36c1fa6f5f2f1897fe12a113bb00b0233cfbc8ee90f66ce44b6a06e0eead",
+        "3bdc1a0ae3b8d95f46f37c089aa6eb0057a9bf82aeb0499592109c814baf8338",
+        "48d6bd3acc68279e1a68c770121428ce7b627bc5dc176b6055531284f5d9e3b6"
+      ],
       "text": "Careful, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_saw_synth.mp3",
   "revisions": [
     {
-      "sha256": "fe2265a7f2799f3752b46e8730648fbd6e85d6db9a675c3625945074e09fa620",
-      "text": "That's no pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20ed93824578612a8a1bc2710c6a5fe3603eba8bfaeabaca03cf7671af7aa368",
+      "sha256": [
+        "20ed93824578612a8a1bc2710c6a5fe3603eba8bfaeabaca03cf7671af7aa368",
+        "fe2265a7f2799f3752b46e8730648fbd6e85d6db9a675c3625945074e09fa620"
+      ],
       "text": "That's no pocket!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

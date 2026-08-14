@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_can_heal_ghost.mp3",
   "revisions": [
     {
-      "sha256": "b2d44cc3ddfcf7ec88a5506cd9182022ce10d0ee4f05b34375bdcda46ed55352",
+      "sha256": [
+        "b2d44cc3ddfcf7ec88a5506cd9182022ce10d0ee4f05b34375bdcda46ed55352"
+      ],
       "text": "I stuck and heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8dd7d310a8ccb10e9b9aabbed8905a77c1765b661b93f10a55e342cb95b304bf",
+      "sha256": [
+        "7d8b893352b36a1b9d1bc3521777085d3b16de9f3691f688927821faaf5a409e",
+        "8dd7d310a8ccb10e9b9aabbed8905a77c1765b661b93f10a55e342cb95b304bf"
+      ],
       "text": "Guys, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d8b893352b36a1b9d1bc3521777085d3b16de9f3691f688927821faaf5a409e",
-      "text": "Guys, I can hear you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed0583d012439225a49e4f7ae67e4015b884fc6ab5b875c747482494e9969f10",
+      "sha256": [
+        "ed0583d012439225a49e4f7ae67e4015b884fc6ab5b875c747482494e9969f10"
+      ],
       "text": "Geist, I can heal you!",
       "source": "official"
     }

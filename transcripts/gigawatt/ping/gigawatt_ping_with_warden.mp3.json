@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "4fb6f94f7c139a4b1b845cc6853f6fbb8f76f73a5565abe0a069d8873d2b71ed",
+      "sha256": [
+        "4fb6f94f7c139a4b1b845cc6853f6fbb8f76f73a5565abe0a069d8873d2b71ed"
+      ],
       "text": "Time with you, warrior.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d69e4571451692d0bc26d2cc6e9188236fd478ca2b9f337ae7cbeb70fc93cc28",
+      "sha256": [
+        "d69e4571451692d0bc26d2cc6e9188236fd478ca2b9f337ae7cbeb70fc93cc28",
+        "fe5be25faedae3b5afbdf95c3939d9ad4a79ab64298fe23256f061fb831d193f"
+      ],
       "text": "I'm with you one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fe5be25faedae3b5afbdf95c3939d9ad4a79ab64298fe23256f061fb831d193f",
-      "text": "I'm with you one.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f74d9edc804e6a3b2e5196d4b647ce70cc39ae20cb0c6381ae7a50fd15d0c4a",
+      "sha256": [
+        "0f74d9edc804e6a3b2e5196d4b647ce70cc39ae20cb0c6381ae7a50fd15d0c4a"
+      ],
       "text": "I wish you, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

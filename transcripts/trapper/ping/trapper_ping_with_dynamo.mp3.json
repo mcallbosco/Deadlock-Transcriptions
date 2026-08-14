@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "8544485613df47a1d546413d8bb47451556ad1c30ad114cf1badd76c483d16a8",
+      "sha256": [
+        "8544485613df47a1d546413d8bb47451556ad1c30ad114cf1badd76c483d16a8"
+      ],
       "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "cb1aa55a180b7ee77fa191a1c965c212251e606370b0ee1393de15df05725763",
-      "text": "Pace was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "959f026bd9e20eb2af1d37c6ddaab5a96f588a30aa0c4ef10c4491753111164c",
+      "sha256": [
+        "959f026bd9e20eb2af1d37c6ddaab5a96f588a30aa0c4ef10c4491753111164c",
+        "cb1aa55a180b7ee77fa191a1c965c212251e606370b0ee1393de15df05725763"
+      ],
       "text": "Pace was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

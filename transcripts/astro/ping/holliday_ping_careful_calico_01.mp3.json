@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_careful_calico_01.mp3",
   "revisions": [
     {
-      "sha256": "dcdf1e850e8add15b696925f8c4f9755597dbd88556647ab169f29b4a2d16525",
+      "sha256": [
+        "dcdf1e850e8add15b696925f8c4f9755597dbd88556647ab169f29b4a2d16525"
+      ],
       "text": "Careful, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_cadence_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "a20d78550587b74c05d07807c30029ac53efafecc3947c09ddff97056075d53c",
+      "sha256": [
+        "1f5b940be9f2efcc07d768174357cd34f052ffed14f781fa54328986d0974059",
+        "a20d78550587b74c05d07807c30029ac53efafecc3947c09ddff97056075d53c"
+      ],
       "text": "Kid is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f5b940be9f2efcc07d768174357cd34f052ffed14f781fa54328986d0974059",
-      "text": "Kid is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6016751c53fbaa97027db39f5528159850ff6c87fd136466b02d96c0ce95cb64",
+      "sha256": [
+        "6016751c53fbaa97027db39f5528159850ff6c87fd136466b02d96c0ce95cb64"
+      ],
       "text": "Caden's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

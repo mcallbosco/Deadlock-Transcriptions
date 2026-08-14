@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "1adef960a05ae0dedbef1522db88794c679b69fe9cbbee27655739128efe9ca4",
+      "sha256": [
+        "1adef960a05ae0dedbef1522db88794c679b69fe9cbbee27655739128efe9ca4",
+        "f97707fef12119b1d6f9f34d6da03a3e9fadd903dec0336e3c9b5dae55679b07"
+      ],
       "text": "you",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b1edcae635554911a9fb5e4f96b95c6772989450013e7545a3e1c2d0e1e83883",
+      "sha256": [
+        "b1edcae635554911a9fb5e4f96b95c6772989450013e7545a3e1c2d0e1e83883"
+      ],
       "text": "I am Deadlock.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f97707fef12119b1d6f9f34d6da03a3e9fadd903dec0336e3c9b5dae55679b07",
-      "text": "You",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

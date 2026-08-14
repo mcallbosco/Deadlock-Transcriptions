@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6856deee2d6fdeae25db872f7bf8f105cb29851e85cc309e5b934276360a53c8",
-      "text": "Bebop was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f0c380faef1de2a666402a43aaae4d8a8b2610efa4634e1cfa8a32d7cfe8381e",
-      "text": "Bebop was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eeb238e2e3a324c8317803f68f6585f2f0425e92280374ce3475c0dd3626edc3",
+      "sha256": [
+        "6856deee2d6fdeae25db872f7bf8f105cb29851e85cc309e5b934276360a53c8",
+        "eeb238e2e3a324c8317803f68f6585f2f0425e92280374ce3475c0dd3626edc3",
+        "f0c380faef1de2a666402a43aaae4d8a8b2610efa4634e1cfa8a32d7cfe8381e"
+      ],
       "text": "Bebop was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

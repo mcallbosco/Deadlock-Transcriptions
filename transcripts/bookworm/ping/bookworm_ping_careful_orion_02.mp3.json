@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_orion_02.mp3",
   "revisions": [
     {
-      "sha256": "5259071ba2cd3fb4933e59a6391c44dc72a174d1b1e5cb66662d74cb75e2faef",
+      "sha256": [
+        "5259071ba2cd3fb4933e59a6391c44dc72a174d1b1e5cb66662d74cb75e2faef"
+      ],
       "text": "Capital Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c82bebb5ff6b24f124049f7e5f998334d30358c9221119182246e17af6772fb4",
+      "sha256": [
+        "c82bebb5ff6b24f124049f7e5f998334d30358c9221119182246e17af6772fb4"
+      ],
       "text": "Careful, Grey Talon.",
       "source": "official"
     }

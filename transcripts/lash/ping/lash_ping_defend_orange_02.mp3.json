@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_defend_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "a99158c78bf27fdbad6429fb5b2be291574851a76e32a7f1938aa6554c4af4ef",
+      "sha256": [
+        "a99158c78bf27fdbad6429fb5b2be291574851a76e32a7f1938aa6554c4af4ef",
+        "fd0b45ee08e829feff9f506287f85b3abd0ff1eefc57fca006829c42a2ab5519"
+      ],
       "text": "Defend Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd0b45ee08e829feff9f506287f85b3abd0ff1eefc57fca006829c42a2ab5519",
-      "text": "Defend orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

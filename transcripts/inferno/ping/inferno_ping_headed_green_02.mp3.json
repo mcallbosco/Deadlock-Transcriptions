@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_headed_green_02.mp3",
   "revisions": [
     {
-      "sha256": "69f27a37562a8befa076c04d98cae55525a69617da6a95eb3fb41b82c0b916c6",
-      "text": "Headed to Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f47188a6477fe9a38048fc64afcdef4e3e21db6b3d8cebe5129fa0e2fcf0e9d",
-      "text": "Headed to Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a2c25bf50a8c10e657bdf380daa16f9dcb6d007a17224450cfce72cf79d598a",
+      "sha256": [
+        "0f47188a6477fe9a38048fc64afcdef4e3e21db6b3d8cebe5129fa0e2fcf0e9d",
+        "2a2c25bf50a8c10e657bdf380daa16f9dcb6d007a17224450cfce72cf79d598a",
+        "69f27a37562a8befa076c04d98cae55525a69617da6a95eb3fb41b82c0b916c6"
+      ],
       "text": "Headed to Greenwich",
       "source": "official"
     }

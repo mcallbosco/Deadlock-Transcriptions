@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_upgrade_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "51ba8cc44cceb8101452bf80aede5ad070019347595ee69122396dffcf2382a5",
+      "sha256": [
+        "51ba8cc44cceb8101452bf80aede5ad070019347595ee69122396dffcf2382a5"
+      ],
       "text": "winning is enough. You gotta do it with finesse.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "25a4a1db01441fc49aa267511355fcd434e07320284fb561fabe11759724a0d6",
+      "sha256": [
+        "25a4a1db01441fc49aa267511355fcd434e07320284fb561fabe11759724a0d6",
+        "a41e372b3cabf5d8ad044a069dba2c49264fc182aaff0155f2c0d572039e0cd2"
+      ],
       "text": "Winning isn't enough. You gotta do it with panache.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a41e372b3cabf5d8ad044a069dba2c49264fc182aaff0155f2c0d572039e0cd2",
-      "text": "Winning isn't enough. You gotta do it with panache.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "340beb2960f277155dcb9a796abd891c1e74b6f24f2afb4a2c4fff51c9978a8a",
+      "sha256": [
+        "340beb2960f277155dcb9a796abd891c1e74b6f24f2afb4a2c4fff51c9978a8a"
+      ],
       "text": "Winning isn't enough. You gotta do it with pinache",
       "source": "official"
     }

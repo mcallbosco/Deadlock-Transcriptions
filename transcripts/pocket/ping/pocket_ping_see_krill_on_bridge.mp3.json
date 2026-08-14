@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_krill_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "46b2cd6bb9972d3b07c8f56b4c6db49b2f659f7a730f3f3b01292aa2f3a30423",
+      "sha256": [
+        "46b2cd6bb9972d3b07c8f56b4c6db49b2f659f7a730f3f3b01292aa2f3a30423"
+      ],
       "text": "Cross on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "23d26679da2f4a619916c094aacc8f7ce7990f324f0a202a5c1a38d1a6fb2e26",
+      "sha256": [
+        "23d26679da2f4a619916c094aacc8f7ce7990f324f0a202a5c1a38d1a6fb2e26"
+      ],
       "text": "Close on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

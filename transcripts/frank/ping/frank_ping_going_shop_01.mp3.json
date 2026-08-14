@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_going_shop_01.mp3",
   "revisions": [
     {
-      "sha256": "e7235752a76419d08d1cdde3481abe6ddca4ca91bb33ff187c8349198b525a55",
-      "text": "Going to shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa7c87ba739d245453d31bad2ff245fc5faa09aae3c3cae8e25717e67f84c7c4",
+      "sha256": [
+        "e7235752a76419d08d1cdde3481abe6ddca4ca91bb33ff187c8349198b525a55",
+        "fa7c87ba739d245453d31bad2ff245fc5faa09aae3c3cae8e25717e67f84c7c4"
+      ],
       "text": "Going to shop.",
       "source": "official"
     }

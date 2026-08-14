@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_happy_05.mp3",
   "revisions": [
     {
-      "sha256": "51233e8b19d3371eb3018edd73b8bf9f0ed43764a17d43328039db9afe91a64a",
+      "sha256": [
+        "51233e8b19d3371eb3018edd73b8bf9f0ed43764a17d43328039db9afe91a64a"
+      ],
       "text": "It's time for the patrons to live up to their end of the bargain.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

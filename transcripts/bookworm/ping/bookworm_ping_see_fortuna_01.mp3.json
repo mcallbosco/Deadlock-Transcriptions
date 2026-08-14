@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_fortuna_01.mp3",
   "revisions": [
     {
-      "sha256": "d25bd452ab90cb91b201673a93a6d2d986a18930cb5e3886dc3b78c5625f84ef",
+      "sha256": [
+        "d25bd452ab90cb91b201673a93a6d2d986a18930cb5e3886dc3b78c5625f84ef",
+        "e76ee2b70862046841e87ca342cabe598cec02df0fd0080b2b062d037968bdc3"
+      ],
       "text": "I see Fortuna!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e76ee2b70862046841e87ca342cabe598cec02df0fd0080b2b062d037968bdc3",
-      "text": "I see Fortuna.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

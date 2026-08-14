@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_congrats_krill.mp3",
   "revisions": [
     {
-      "sha256": "880844920a8d56c4d49b5062c548fe9669087149f6430fee8a6a4fcb71832079",
+      "sha256": [
+        "880844920a8d56c4d49b5062c548fe9669087149f6430fee8a6a4fcb71832079"
+      ],
       "text": "Good job, Krill!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f78d1ede988f633e315e17c20d4336589a5f2718b49a3ca56388beabf1e3983f",
-      "text": "Good job, crew!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6659a9c08358fc7d60df66f64cdff89d13112cb2b16788a76f2cffa3c1e30d1b",
+      "sha256": [
+        "6659a9c08358fc7d60df66f64cdff89d13112cb2b16788a76f2cffa3c1e30d1b",
+        "f78d1ede988f633e315e17c20d4336589a5f2718b49a3ca56388beabf1e3983f"
+      ],
       "text": "Good job, crew!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

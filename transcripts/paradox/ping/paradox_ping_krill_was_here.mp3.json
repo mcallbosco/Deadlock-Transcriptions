@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_krill_was_here.mp3",
   "revisions": [
     {
-      "sha256": "00c32d577363546cb004dc4ad848548f1e9a4f0a79fbdb0de811ca62e522e95e",
-      "text": "Krill was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "337021e756f70af17e7fcc022f972d1853767345e21c7f79e21fbdff725d94c0",
+      "sha256": [
+        "00c32d577363546cb004dc4ad848548f1e9a4f0a79fbdb0de811ca62e522e95e",
+        "337021e756f70af17e7fcc022f972d1853767345e21c7f79e21fbdff725d94c0"
+      ],
       "text": "Krill was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_parry_02.mp3",
   "revisions": [
     {
-      "sha256": "cb47cea4892f318d65edf6a5b7a519cc409f9826408e34d3ba69ef6dfb0197b6",
+      "sha256": [
+        "53f75352b2b01513258046d83f8f76997523765ec752ffa71c19b71069276a6e",
+        "cb47cea4892f318d65edf6a5b7a519cc409f9826408e34d3ba69ef6dfb0197b6"
+      ],
       "text": "Nice try.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "53f75352b2b01513258046d83f8f76997523765ec752ffa71c19b71069276a6e",
-      "text": "Nice try.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df6db14d598b8d4a22f2eacd0d5c9f718deb19986758d8111fb09872a7ce9f8c",
+      "sha256": [
+        "df6db14d598b8d4a22f2eacd0d5c9f718deb19986758d8111fb09872a7ce9f8c"
+      ],
       "text": "That's right.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

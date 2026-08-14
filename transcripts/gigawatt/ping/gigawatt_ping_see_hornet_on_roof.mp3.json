@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_hornet_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "51fb56bcde62135ea1b5f1c7496d6acb51e70ca99f70e71c2080d304bcb2f4e8",
-      "text": "Vindicta's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "51fb56bcde62135ea1b5f1c7496d6acb51e70ca99f70e71c2080d304bcb2f4e8",
+        "6984e363062a81250fa732744ce3bd4c86a4357b8576e828e4cbad4aa8dbcfb7"
+      ],
+      "text": "vindicta's on the roof!",
+      "source": "official"
     },
     {
-      "sha256": "5f5344016588e2fc7c3a1c489c3e04ca04025eedc6e5be5647081727e7a2f991",
+      "sha256": [
+        "5f5344016588e2fc7c3a1c489c3e04ca04025eedc6e5be5647081727e7a2f991"
+      ],
       "text": "I think he's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6984e363062a81250fa732744ce3bd4c86a4357b8576e828e4cbad4aa8dbcfb7",
-      "text": "vindicta's on the roof!",
-      "source": "official"
     }
   ]
 }

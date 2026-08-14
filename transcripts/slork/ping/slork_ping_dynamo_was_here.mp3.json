@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1e9d38c585d185b7129dd52cd2de6e96025bc858737da955200a1e195afff207",
+      "sha256": [
+        "1e9d38c585d185b7129dd52cd2de6e96025bc858737da955200a1e195afff207"
+      ],
       "text": "Dynamo was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

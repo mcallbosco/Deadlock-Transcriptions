@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "8a59fbf75661e6b2bf3d14fae529e8fee2f506f340d97fbea7d70f94463c948b",
-      "text": "Here I come!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e957a19413779fc5eb4574c9b1ac55677e5dac5d355f5788b034b19386427863",
-      "text": "Here I come!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8860a4885ff8d4d9e6478e102c5fa67610ec5a94b122c9930be21ba2d5ad44a2",
+      "sha256": [
+        "8860a4885ff8d4d9e6478e102c5fa67610ec5a94b122c9930be21ba2d5ad44a2",
+        "8a59fbf75661e6b2bf3d14fae529e8fee2f506f340d97fbea7d70f94463c948b",
+        "e957a19413779fc5eb4574c9b1ac55677e5dac5d355f5788b034b19386427863"
+      ],
       "text": "Here I come!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

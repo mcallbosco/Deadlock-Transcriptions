@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/countup_01_10.mp3",
   "revisions": [
     {
-      "sha256": "01e0b9e7f9a8971309723c6a17e850b415ca05dfe444c87bbc071450de7e147d",
+      "sha256": [
+        "01e0b9e7f9a8971309723c6a17e850b415ca05dfe444c87bbc071450de7e147d"
+      ],
       "text": "you",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b7f549c55eec9325ff6eab71eccfff96c1781e80c599a8c94e9b5d7cbabdf029",
+      "sha256": [
+        "b7f549c55eec9325ff6eab71eccfff96c1781e80c599a8c94e9b5d7cbabdf029"
+      ],
       "text": "This is your moment.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5507b131da3223da6bfd45fb1e7b56034d177f2df598b944e3d2d8e4e1a620fc",
+      "sha256": [
+        "5507b131da3223da6bfd45fb1e7b56034d177f2df598b944e3d2d8e4e1a620fc"
+      ],
       "text": "What is that?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

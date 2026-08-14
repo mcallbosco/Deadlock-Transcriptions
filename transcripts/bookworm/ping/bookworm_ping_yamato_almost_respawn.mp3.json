@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_yamato_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "eb8bb9dc44125c5398f015e7def3272c52eabe37220e086a96ade44fdbf4f76e",
-      "text": "Yamato is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86ff16b24cd4fb6eb8d36d44fcbf380b7b89b8f192dc498150bfde5fc99c9e94",
+      "sha256": [
+        "86ff16b24cd4fb6eb8d36d44fcbf380b7b89b8f192dc498150bfde5fc99c9e94",
+        "eb8bb9dc44125c5398f015e7def3272c52eabe37220e086a96ade44fdbf4f76e"
+      ],
       "text": "Yamato is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

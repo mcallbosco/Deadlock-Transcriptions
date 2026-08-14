@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_cadence_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "86b0d8b5dd73e7663ce0e4ba962f5ca5e969ed39f4075bddc33e64cf2af3e52e",
+      "sha256": [
+        "86b0d8b5dd73e7663ce0e4ba962f5ca5e969ed39f4075bddc33e64cf2af3e52e",
+        "ff097a17e44ff636eba9a7a08a334f55d526e4a1aa994e2426b9d29404ce5115"
+      ],
       "text": "Pins on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff097a17e44ff636eba9a7a08a334f55d526e4a1aa994e2426b9d29404ce5115",
-      "text": "Pins on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

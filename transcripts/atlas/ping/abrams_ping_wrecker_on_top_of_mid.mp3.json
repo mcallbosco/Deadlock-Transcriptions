@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_wrecker_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "e884c1c0867fc434e4be1910f931321fc6254d03803f205a18b5846169fdae4b",
+      "sha256": [
+        "e884c1c0867fc434e4be1910f931321fc6254d03803f205a18b5846169fdae4b"
+      ],
       "text": "Records on top of men.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1028bdca0d2072e709281e96fcc65a95d10b4ea8a4915a84d92d43647789cfa1",
+      "sha256": [
+        "1028bdca0d2072e709281e96fcc65a95d10b4ea8a4915a84d92d43647789cfa1",
+        "dce3530efa4512ec2b5ad2c50bfbdbbf4f9a769c4027435bd42d950e6eb252a4"
+      ],
       "text": "Records on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dce3530efa4512ec2b5ad2c50bfbdbbf4f9a769c4027435bd42d950e6eb252a4",
-      "text": "Records on top of Mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

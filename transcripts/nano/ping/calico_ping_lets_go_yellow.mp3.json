@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "c6713bbff966f713b252bcce55e329090aa242c70a27b60f280833286af8521f",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1b9c7a397b5e9a2f8e6dc203905c0205ab27d36e4896b6a3838bf9c8f4c5339",
+      "sha256": [
+        "c6713bbff966f713b252bcce55e329090aa242c70a27b60f280833286af8521f",
+        "e1b9c7a397b5e9a2f8e6dc203905c0205ab27d36e4896b6a3838bf9c8f4c5339"
+      ],
       "text": "Let's go yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

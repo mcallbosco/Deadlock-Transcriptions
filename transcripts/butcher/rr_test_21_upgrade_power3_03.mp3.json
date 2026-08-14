@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power3_03.mp3",
   "revisions": [
     {
-      "sha256": "3185983768af355d652d849ba0c253246dad082de53abaeb48f6c1255e61b464",
-      "text": "The lesser feed the strong.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c85264d31f916a1ce3d808d543d2be163b264fc26f22be7cbecd52d1d0dde393",
-      "text": "The lesser feed the strong.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0038b24f8bd957f2123b5e75ae6fab28d0651e8bc2c0562fed9f2448435abce1",
+      "sha256": [
+        "0038b24f8bd957f2123b5e75ae6fab28d0651e8bc2c0562fed9f2448435abce1",
+        "3185983768af355d652d849ba0c253246dad082de53abaeb48f6c1255e61b464",
+        "c85264d31f916a1ce3d808d543d2be163b264fc26f22be7cbecd52d1d0dde393"
+      ],
       "text": "The lesser feed the strong.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

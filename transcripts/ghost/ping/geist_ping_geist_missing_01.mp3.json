@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_geist_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9eeecc8d8fe73696490b132c7cdb6003bf692e7bc5b307547dab61acedd52a73",
-      "text": "That's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4a497c3a23e6e001af90c41f744f7a2fcfd2867871d93557ca2febc0d7b9b40",
+      "sha256": [
+        "9eeecc8d8fe73696490b132c7cdb6003bf692e7bc5b307547dab61acedd52a73",
+        "c4a497c3a23e6e001af90c41f744f7a2fcfd2867871d93557ca2febc0d7b9b40"
+      ],
       "text": "That's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

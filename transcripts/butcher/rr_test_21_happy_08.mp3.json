@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_happy_08.mp3",
   "revisions": [
     {
-      "sha256": "eb274f5433317e40eba21c50b70bef177c6c6749e39d4e17fe80ff8b2f8e9c1b",
-      "text": "A new day comes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d07158543cec0a0e0d2dc40175fd78e84e5664bb23b1c12207b7a85d59de0194",
-      "text": "A new day comes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa1b1ab8aa1bd81cc8acb9687f3354ede7e66b072bcaa90727df2531d1631f21",
+      "sha256": [
+        "aa1b1ab8aa1bd81cc8acb9687f3354ede7e66b072bcaa90727df2531d1631f21",
+        "d07158543cec0a0e0d2dc40175fd78e84e5664bb23b1c12207b7a85d59de0194",
+        "eb274f5433317e40eba21c50b70bef177c6c6749e39d4e17fe80ff8b2f8e9c1b"
+      ],
       "text": "A new day comes!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

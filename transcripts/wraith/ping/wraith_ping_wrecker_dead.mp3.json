@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_wrecker_dead.mp3",
   "revisions": [
     {
-      "sha256": "bb7215666f7c520a36149b539df99d694b2d19bd12932671ef77e16e48b8812b",
-      "text": "Wrecker is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb450f89e9a6f339ff2dcea4be701f773c660dbc063272a1842b99f39e71f5dc",
-      "text": "Wrecker is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcc2113369c2d31424008bc343b9edf53913f8348bd4b51d689a35ef86d40d07",
+      "sha256": [
+        "bb7215666f7c520a36149b539df99d694b2d19bd12932671ef77e16e48b8812b",
+        "dcc2113369c2d31424008bc343b9edf53913f8348bd4b51d689a35ef86d40d07",
+        "eb450f89e9a6f339ff2dcea4be701f773c660dbc063272a1842b99f39e71f5dc"
+      ],
       "text": "Wrecker is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

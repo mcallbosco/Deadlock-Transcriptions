@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_careful_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "caed1b483f84c45e6c24374c1e6065767d783a6c75d22214abd0d34b15d7957d",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7abf27f12a61d857649fe3e499dcb98c8810229697de15cfed0a382335a34eee",
+      "sha256": [
+        "7abf27f12a61d857649fe3e499dcb98c8810229697de15cfed0a382335a34eee",
+        "caed1b483f84c45e6c24374c1e6065767d783a6c75d22214abd0d34b15d7957d"
+      ],
       "text": "Careful, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

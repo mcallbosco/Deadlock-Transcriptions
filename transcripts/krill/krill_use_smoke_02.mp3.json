@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_smoke_02.mp3",
   "revisions": [
     {
-      "sha256": "68fc7cb4d2f6d3d80096fb8821fc0f4eb56e1ec95d4dd9b6e6f20e942a1c3604",
-      "text": "Smoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d85c4f91bf7e1bc0453e03494e2a13b2d25294eb0f62d2e6a807e25a5bf1613",
-      "text": "Smoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66bbd9014ba0773a4954aad99e06b038be7d8857c66f8e80cd3ac877e056e939",
+      "sha256": [
+        "0d85c4f91bf7e1bc0453e03494e2a13b2d25294eb0f62d2e6a807e25a5bf1613",
+        "66bbd9014ba0773a4954aad99e06b038be7d8857c66f8e80cd3ac877e056e939",
+        "68fc7cb4d2f6d3d80096fb8821fc0f4eb56e1ec95d4dd9b6e6f20e942a1c3604"
+      ],
       "text": "Smoke.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

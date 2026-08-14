@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_inferno_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "0dc5b7fa5428f17bcd5babc2c81588919a128eca8398fb93a257870ca988fdd7",
+      "sha256": [
+        "0dc5b7fa5428f17bcd5babc2c81588919a128eca8398fb93a257870ca988fdd7"
+      ],
       "text": "Furnace is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "36c32689b82c5d62c3ccedfa9966451eb69396d6169c6f7e89badf17645b6c68",
+      "sha256": [
+        "36c32689b82c5d62c3ccedfa9966451eb69396d6169c6f7e89badf17645b6c68",
+        "e75c949b821cb303e5942d298cf8229a792350db45f2596e853b7a8dc0684562"
+      ],
       "text": "Infernus is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e75c949b821cb303e5942d298cf8229a792350db45f2596e853b7a8dc0684562",
-      "text": "Infernus is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69128f279511c7fe2846fa051f1b6e5554f3a7615f0cea499a569da695cafb3e",
+      "sha256": [
+        "69128f279511c7fe2846fa051f1b6e5554f3a7615f0cea499a569da695cafb3e"
+      ],
       "text": "Infernus's on the bridge!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_lower_shields_02.mp3",
   "revisions": [
     {
-      "sha256": "0bea912fab01c2e46b6ce874f4f3281dc9b182f50a67cdab4e9e490d1728554d",
+      "sha256": [
+        "0bea912fab01c2e46b6ce874f4f3281dc9b182f50a67cdab4e9e490d1728554d",
+        "31861b45b32a7a8a23c145d280fe234563179b0f81c97fe42d5aed46e96d7276"
+      ],
       "text": "Our troopers can lower the Guardian shields.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "31861b45b32a7a8a23c145d280fe234563179b0f81c97fe42d5aed46e96d7276",
-      "text": "Our troopers can lower the guardian shields.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3371ed830a5fea49d60955e5ac5e835c008d1a1bee0e810248d554d96906a98a",
+      "sha256": [
+        "3371ed830a5fea49d60955e5ac5e835c008d1a1bee0e810248d554d96906a98a"
+      ],
       "text": "Our troopers can lower the guardian's shields",
       "source": "official"
     }

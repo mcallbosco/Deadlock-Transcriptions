@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_lets_go_purple.mp3",
   "revisions": [
     {
-      "sha256": "e7eabcb72a6d6233a2019660e8e060edce936461f98358e93057ff86fe4858ff",
-      "text": "Let's go purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fd6270a2a2b4a0cc99c46c4659e4836af40d78b2e893fa87de869b3b8238ad6",
+      "sha256": [
+        "4fd6270a2a2b4a0cc99c46c4659e4836af40d78b2e893fa87de869b3b8238ad6",
+        "e7eabcb72a6d6233a2019660e8e060edce936461f98358e93057ff86fe4858ff"
+      ],
       "text": "Let's go purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

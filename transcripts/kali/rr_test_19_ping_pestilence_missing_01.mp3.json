@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_pestilence_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d976f0fe5dc76de664e5b00d4642d95f2bfc01b3c504d82ccfd5d340741d50b9",
-      "text": "Castle is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba10bf3754d3b6da7db8d048ca40ff9abeaf2f52f4ca1ae8fa90b4bfd961f444",
-      "text": "Castle is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3883554ebfe6711ad8e6e51b00143db5318613bd2bd2d9406eac048e151adb8",
+      "sha256": [
+        "ba10bf3754d3b6da7db8d048ca40ff9abeaf2f52f4ca1ae8fa90b4bfd961f444",
+        "c3883554ebfe6711ad8e6e51b00143db5318613bd2bd2d9406eac048e151adb8",
+        "d976f0fe5dc76de664e5b00d4642d95f2bfc01b3c504d82ccfd5d340741d50b9"
+      ],
       "text": "Castle is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

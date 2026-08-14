@@ -1,34 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_saw_hornet.mp3",
   "revisions": [
     {
-      "sha256": "02c6f088336098f04b4e648473c23d179385229bd1ee201f9cab02e6f2d61901",
+      "sha256": [
+        "02c6f088336098f04b4e648473c23d179385229bd1ee201f9cab02e6f2d61901",
+        "feb9aae2c752090ed9f58c9cdbad28e9e0d56f771b0aec8e93d44f4bfead0bed"
+      ],
       "text": "I saw Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "038a0b957a92fb64a86cefd1b50ee49a248e094c0f7f32190c75854b82b21174",
+      "sha256": [
+        "038a0b957a92fb64a86cefd1b50ee49a248e094c0f7f32190c75854b82b21174",
+        "c5dc636259512b4cf51153ddfb1e09d3c544f46e2c625d598f54e8a783842ad1"
+      ],
       "text": "I saw Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c5dc636259512b4cf51153ddfb1e09d3c544f46e2c625d598f54e8a783842ad1",
-      "text": "I saw Vendetta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6293ba8cfb6c2127fddd92f89f9e113775dcabfb60d9a198e2463a312462c0d1",
+      "sha256": [
+        "6293ba8cfb6c2127fddd92f89f9e113775dcabfb60d9a198e2463a312462c0d1"
+      ],
       "text": "I saw Vindicator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "feb9aae2c752090ed9f58c9cdbad28e9e0d56f771b0aec8e93d44f4bfead0bed",
-      "text": "I saw Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

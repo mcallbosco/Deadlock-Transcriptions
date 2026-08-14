@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_druid_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1876ae3e82ee0d3436d7c24d7e112b8067cc4dd0ed2f6f2ff97d78088ee47819",
+      "sha256": [
+        "1876ae3e82ee0d3436d7c24d7e112b8067cc4dd0ed2f6f2ff97d78088ee47819"
+      ],
       "text": "The jury is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_astro_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "266954e9dc7ff5a91821a8aeccd06e381f35c1b10abcc056549f1477e99f0628",
+      "sha256": [
+        "266954e9dc7ff5a91821a8aeccd06e381f35c1b10abcc056549f1477e99f0628"
+      ],
       "text": "Holliday's on the loose!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "30db839a852b7801088cb00025440ea8b61ca7951a83c7c4ce57f660e78a0eb9",
+      "sha256": [
+        "30db839a852b7801088cb00025440ea8b61ca7951a83c7c4ce57f660e78a0eb9"
+      ],
       "text": "Holliday's on the roof!",
       "source": "official"
     }

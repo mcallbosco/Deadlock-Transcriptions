@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "2233a1638f634d25cccf300b116343842d4b0d1a1b90d5cbd518c3b2fcc49d7e",
+      "sha256": [
+        "2233a1638f634d25cccf300b116343842d4b0d1a1b90d5cbd518c3b2fcc49d7e"
+      ],
       "text": "Raze is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1d16c680aff11d86478c991a2f3efc066abf9a87cc5115b35488f02cb2cb325a",
+      "sha256": [
+        "1d16c680aff11d86478c991a2f3efc066abf9a87cc5115b35488f02cb2cb325a"
+      ],
       "text": "Grace is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3f8e36b0ae471424c529d1b8e025ce013082eb623fb476754cb5bcb67fd8862",
+      "sha256": [
+        "c3f8e36b0ae471424c529d1b8e025ce013082eb623fb476754cb5bcb67fd8862"
+      ],
       "text": "Wraith's missing",
       "source": "official"
     }

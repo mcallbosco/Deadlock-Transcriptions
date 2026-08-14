@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_upgrade_power4_06.mp3",
   "revisions": [
     {
-      "sha256": "a15920dc2b52eaf1ad8ca6128156a32ad4fa1c0cd0a446b4b35b00300fd3b77d",
+      "sha256": [
+        "a15920dc2b52eaf1ad8ca6128156a32ad4fa1c0cd0a446b4b35b00300fd3b77d"
+      ],
       "text": "That's gonna be my voice.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3094b40dd517f409244292a80246dc4661a93a531299dbf5c8725e5107132cae",
+      "sha256": [
+        "3094b40dd517f409244292a80246dc4661a93a531299dbf5c8725e5107132cae"
+      ],
       "text": "That's gonna be a boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

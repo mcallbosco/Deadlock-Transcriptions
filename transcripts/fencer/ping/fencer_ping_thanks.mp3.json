@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "fencer/ping/fencer_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "000c671cc3d45dbdbf7c2405b16f128e05906e82ba3411837e23a9c2ba9bcc78",
+      "sha256": [
+        "000c671cc3d45dbdbf7c2405b16f128e05906e82ba3411837e23a9c2ba9bcc78"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

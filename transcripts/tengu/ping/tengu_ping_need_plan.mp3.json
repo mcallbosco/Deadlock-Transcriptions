@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_need_plan.mp3",
   "revisions": [
     {
-      "sha256": "a14ee80dc23b7c80294c36c9aefff64916edeef2b05daae2f61929b8902574bc",
-      "text": "What's the plan?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70a6abec2587844a2974ab9a58a68101de399924d59b08557f3a3275fe85b0a4",
+      "sha256": [
+        "70a6abec2587844a2974ab9a58a68101de399924d59b08557f3a3275fe85b0a4",
+        "a14ee80dc23b7c80294c36c9aefff64916edeef2b05daae2f61929b8902574bc"
+      ],
       "text": "What's the plan?",
       "source": "official"
     }

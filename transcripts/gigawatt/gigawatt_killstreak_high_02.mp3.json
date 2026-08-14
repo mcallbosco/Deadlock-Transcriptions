@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_killstreak_high_02.mp3",
   "revisions": [
     {
-      "sha256": "eb59bd530a3f7a75b2db4b18cf2b9938150d8eae467c6ca335035f392a4a4df6",
-      "text": "This city belongs to me now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a4dba47dfce98e2ea4105ad82aa74b5940812f9c376cb8ece289fdc21638b5b",
-      "text": "The city belongs to me now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c9054611206630ff78584c4b10577b83fe8020af2721be1ba083b11ad39594f",
-      "text": "The city belongs to me now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b21611ef6bca2a187411db0e69b3f92cf1c3259354b87b5039a3ea6701e98699",
+      "sha256": [
+        "b21611ef6bca2a187411db0e69b3f92cf1c3259354b87b5039a3ea6701e98699",
+        "eb59bd530a3f7a75b2db4b18cf2b9938150d8eae467c6ca335035f392a4a4df6"
+      ],
       "text": "This city belongs to me now!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "2c9054611206630ff78584c4b10577b83fe8020af2721be1ba083b11ad39594f",
+        "9a4dba47dfce98e2ea4105ad82aa74b5940812f9c376cb8ece289fdc21638b5b"
+      ],
+      "text": "The city belongs to me now.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_wrecker_dead_1.mp3",
   "revisions": [
     {
-      "sha256": "d4e06787976619b66f621e6102580b344251b9020d66ec21f3a495783970dcf6",
-      "text": "Wrecker is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21be2ab9b6f57089faf2aec89ec4a13f0aeedc9b70e57a83e76d3478d899a095",
+      "sha256": [
+        "21be2ab9b6f57089faf2aec89ec4a13f0aeedc9b70e57a83e76d3478d899a095",
+        "d4e06787976619b66f621e6102580b344251b9020d66ec21f3a495783970dcf6"
+      ],
       "text": "Wrecker is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

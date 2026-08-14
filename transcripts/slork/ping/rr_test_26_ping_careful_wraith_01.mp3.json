@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "1993c14097e8a397878ff71f5a13f62d35074e83d6794f64c91de4464361e7d3",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0feb27d78b9f3f8d7ac42d2c0a7fcf61a23f3aef69f18c0123ce92646bfb297d",
+      "sha256": [
+        "0feb27d78b9f3f8d7ac42d2c0a7fcf61a23f3aef69f18c0123ce92646bfb297d",
+        "1993c14097e8a397878ff71f5a13f62d35074e83d6794f64c91de4464361e7d3"
+      ],
       "text": "Careful, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

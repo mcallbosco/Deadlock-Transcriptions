@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_buy_early_05.mp3",
   "revisions": [
     {
-      "sha256": "dd241400c438d209bb917d017d9bcf1794883d49c56681735eda6f331ae32c71",
+      "sha256": [
+        "dd241400c438d209bb917d017d9bcf1794883d49c56681735eda6f331ae32c71"
+      ],
       "text": "How may I be of use?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "597bc94c5ef4dc4726253ffe747f44cd06ecc8583bbb892155986db0250f72a4",
-      "text": "How may I be of service?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5492c2df857d5fe5f63ee8b6760fb4b94a7b94854d2533e94d593f78318a3e23",
+      "sha256": [
+        "5492c2df857d5fe5f63ee8b6760fb4b94a7b94854d2533e94d593f78318a3e23",
+        "597bc94c5ef4dc4726253ffe747f44cd06ecc8583bbb892155986db0250f72a4"
+      ],
       "text": "How may I be of service?",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power2_10.mp3",
   "revisions": [
     {
-      "sha256": "422222972fa2445e31227b03c91885aa8bf63fc704b685aa0d751c2f9e479465",
-      "text": "Oh, you can't outrun this!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64fd9c5a1334797fb3764fc5c2b2c15747c7dd58efa187e5a1c882dbb18d064d",
-      "text": "Oh, you can't outrun this!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afa85b3ec53727ba9851a43be77942c6d0ada0f43fa91ec41e3fb7e69d79019b",
+      "sha256": [
+        "422222972fa2445e31227b03c91885aa8bf63fc704b685aa0d751c2f9e479465",
+        "64fd9c5a1334797fb3764fc5c2b2c15747c7dd58efa187e5a1c882dbb18d064d",
+        "afa85b3ec53727ba9851a43be77942c6d0ada0f43fa91ec41e3fb7e69d79019b"
+      ],
       "text": "Oh, you can't outrun this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

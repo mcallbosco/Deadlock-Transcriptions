@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_stun_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "09d5594035cf832d6d07688533ac1bdde3679ca2dc4b823d2ea8dc70b5398457",
+      "sha256": [
+        "09d5594035cf832d6d07688533ac1bdde3679ca2dc4b823d2ea8dc70b5398457"
+      ],
       "text": "Stun seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9af31e4a1f16f87ff9edd6294701ddcb7dfacf7455d00a5556c0d70ef62b7b6",
+      "sha256": [
+        "b9af31e4a1f16f87ff9edd6294701ddcb7dfacf7455d00a5556c0d70ef62b7b6"
+      ],
       "text": "Stand seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

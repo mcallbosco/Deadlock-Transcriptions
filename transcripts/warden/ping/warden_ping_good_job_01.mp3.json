@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "6d7594613e5e74ee92ffad5dc46f975284fa1b5a07db81f205df745e115e2325",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95ed10cf245506aa66e9a20cc4c53399c56ed392d82218bd4dec22c6dbba54ea",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8fd5a92e3159a78b26b97675497573c740fa0657e220f5da09c864a893097c79",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03a5426f422f21ec2744320bdca6ea33052483e657329a58f7ec8eeb4e687229",
+      "sha256": [
+        "03a5426f422f21ec2744320bdca6ea33052483e657329a58f7ec8eeb4e687229",
+        "6d7594613e5e74ee92ffad5dc46f975284fa1b5a07db81f205df745e115e2325",
+        "8fd5a92e3159a78b26b97675497573c740fa0657e220f5da09c864a893097c79",
+        "95ed10cf245506aa66e9a20cc4c53399c56ed392d82218bd4dec22c6dbba54ea"
+      ],
       "text": "Good job.",
       "source": "official"
     }

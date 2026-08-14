@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_careful_calico_01.mp3",
   "revisions": [
     {
-      "sha256": "852e13573f402c4aab7731f79b2fdf122c6a89c8396f4ed797a7a748d164abca",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad7ba838e9d6f102837289542b363fca738c933347953505c0c8942cc95c85c3",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfa08f52166beeb9866eba11190d723f8920e52d7c64672948a3f3bed3f163b8",
+      "sha256": [
+        "852e13573f402c4aab7731f79b2fdf122c6a89c8396f4ed797a7a748d164abca",
+        "ad7ba838e9d6f102837289542b363fca738c933347953505c0c8942cc95c85c3",
+        "bfa08f52166beeb9866eba11190d723f8920e52d7c64672948a3f3bed3f163b8"
+      ],
       "text": "Careful, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

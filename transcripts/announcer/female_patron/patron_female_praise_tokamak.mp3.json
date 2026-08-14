@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_tokamak.mp3",
   "revisions": [
     {
-      "sha256": "42f132b145a292634ec9c0f1480eaa53dcb0bd7c1cb4739eaba5a96b980ff93e",
-      "text": "Well done, Tokamak.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d290114531fd4f41baff0a5899e7cd1c55e37a963903ceb8311e9c608b19869",
+      "sha256": [
+        "42f132b145a292634ec9c0f1480eaa53dcb0bd7c1cb4739eaba5a96b980ff93e",
+        "9d290114531fd4f41baff0a5899e7cd1c55e37a963903ceb8311e9c608b19869"
+      ],
       "text": "Well done, Tokamak.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

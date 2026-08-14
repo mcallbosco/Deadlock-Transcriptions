@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_can_heal_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "2906c6dbe14e0bf2e8a4a52f50122840f64b06defdbc43d000020cf22ca98644",
+      "sha256": [
+        "2906c6dbe14e0bf2e8a4a52f50122840f64b06defdbc43d000020cf22ca98644"
+      ],
       "text": "That way I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b47bccdef0a50bb5614dda2f96eea122cbb9ca9b4e70fcf977b7f4c021cf9eb6",
+      "sha256": [
+        "b47bccdef0a50bb5614dda2f96eea122cbb9ca9b4e70fcf977b7f4c021cf9eb6"
+      ],
       "text": "Wrecker, I can heal you!",
       "source": "official"
     }

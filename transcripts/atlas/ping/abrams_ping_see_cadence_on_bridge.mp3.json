@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_cadence_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "81c4aadd5a9f1a538fd3c3b39f269052a4277c57c45383ebc6535b74485afc6c",
+      "sha256": [
+        "81c4aadd5a9f1a538fd3c3b39f269052a4277c57c45383ebc6535b74485afc6c"
+      ],
       "text": "Kane on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "62ee590374007e1291f27b23338107657e46ba6af9c09f5b814989bb18757df6",
+      "sha256": [
+        "62ee590374007e1291f27b23338107657e46ba6af9c09f5b814989bb18757df6"
+      ],
       "text": "Kay's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

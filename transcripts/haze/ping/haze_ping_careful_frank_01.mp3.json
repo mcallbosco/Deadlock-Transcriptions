@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_frank_01.mp3",
   "revisions": [
     {
-      "sha256": "8b8b280612abf0b5d6eed8a74ade3138b3c15447a1202af4bc2d09499e740a51",
+      "sha256": [
+        "8b8b280612abf0b5d6eed8a74ade3138b3c15447a1202af4bc2d09499e740a51"
+      ],
       "text": "Careful, Frank.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "887c314a076bcec70b380e4b34058eef14984d0cb70507888e408d3b7070db4d",
+      "sha256": [
+        "887c314a076bcec70b380e4b34058eef14984d0cb70507888e408d3b7070db4d"
+      ],
       "text": "Careful, Victor…",
       "source": "official"
     }

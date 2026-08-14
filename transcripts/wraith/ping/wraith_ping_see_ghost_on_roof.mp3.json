@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_ghost_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "20e184ec6c9835c5f2dc9377766ddd4dc4c1ab94839d837a97c4f3c55c716dfd",
+      "sha256": [
+        "20e184ec6c9835c5f2dc9377766ddd4dc4c1ab94839d837a97c4f3c55c716dfd",
+        "6d07427c55b5584addf1c1aa0857ddcf9e0aeea1c1aab05cfcf5bf7a0ab3b4f4"
+      ],
       "text": "Guys, he's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d6f16a5851a51dba8336115e4ddc5c2cd30af4c2931e71b0c28f079ce081e924",
+      "sha256": [
+        "d6f16a5851a51dba8336115e4ddc5c2cd30af4c2931e71b0c28f079ce081e924"
+      ],
       "text": "Guy's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d07427c55b5584addf1c1aa0857ddcf9e0aeea1c1aab05cfcf5bf7a0ab3b4f4",
-      "text": "Guys, he's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73c712a7d7f2a5aabf2a8f31f84f4317d3f74d6b73f992d81742880c08eb19d5",
+      "sha256": [
+        "73c712a7d7f2a5aabf2a8f31f84f4317d3f74d6b73f992d81742880c08eb19d5"
+      ],
       "text": "Geist's on the roof!",
       "source": "official"
     }

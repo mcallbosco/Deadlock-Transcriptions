@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "4626e30bbf361c490606846ce868a6317e2bceb3c14f0f261ff997b44f16aa17",
+      "sha256": [
+        "4626e30bbf361c490606846ce868a6317e2bceb3c14f0f261ff997b44f16aa17"
+      ],
       "text": "I'm a human being.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "08eddb5800713c86a6d837961a50860f103a7ce15df1ae57716ec314c48b8644",
-      "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d86587ed9d0cada6e41db7dcb8c6e5105a0ce03d5d3a90dae281dcfaaa7517db",
-      "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70aba39ebbaa2ddbe97ea1b1702d2e41303e47f66838a16178eaea4151f21a44",
+      "sha256": [
+        "08eddb5800713c86a6d837961a50860f103a7ce15df1ae57716ec314c48b8644",
+        "70aba39ebbaa2ddbe97ea1b1702d2e41303e47f66838a16178eaea4151f21a44",
+        "d86587ed9d0cada6e41db7dcb8c6e5105a0ce03d5d3a90dae281dcfaaa7517db"
+      ],
       "text": "I'm with you, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

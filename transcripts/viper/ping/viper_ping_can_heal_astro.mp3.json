@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_can_heal_astro.mp3",
   "revisions": [
     {
-      "sha256": "b9a88e10f665f4e02479e3f40ef5aa90962d86a98c8494f56641494d41efea30",
-      "text": "Holliday, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "6a4609726385bc8b6ff0fdcfc68d83ca5345be0a9c25a2db4f7f54301923218d",
+        "b9a88e10f665f4e02479e3f40ef5aa90962d86a98c8494f56641494d41efea30"
+      ],
+      "text": "Holliday, I can heal you!",
+      "source": "official"
     },
     {
-      "sha256": "9a8c0b4662fbaa137a96e1bf12252750165785b08be902cc15cd8f5fbf21c980",
+      "sha256": [
+        "9a8c0b4662fbaa137a96e1bf12252750165785b08be902cc15cd8f5fbf21c980"
+      ],
       "text": "Holiday, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6a4609726385bc8b6ff0fdcfc68d83ca5345be0a9c25a2db4f7f54301923218d",
-      "text": "Holliday, I can heal you!",
-      "source": "official"
     }
   ]
 }

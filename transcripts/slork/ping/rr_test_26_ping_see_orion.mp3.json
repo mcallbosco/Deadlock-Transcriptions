@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_orion.mp3",
   "revisions": [
     {
-      "sha256": "e6cbb42f65b7cfe56c26a15a262d1684bc94a03a0fd1253c3019a8e72a98609c",
-      "text": "I see Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "163f49ddea6c2237debda2cd8edc6f64fbb581f79d237bed8fa2971d519e2402",
+      "sha256": [
+        "163f49ddea6c2237debda2cd8edc6f64fbb581f79d237bed8fa2971d519e2402",
+        "e6cbb42f65b7cfe56c26a15a262d1684bc94a03a0fd1253c3019a8e72a98609c"
+      ],
       "text": "I see Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

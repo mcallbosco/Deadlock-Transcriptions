@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "09bddf1f437262254834142341ae6a94dac42f50cd94d39d09ea3c5c516ff3a7",
+      "sha256": [
+        "09bddf1f437262254834142341ae6a94dac42f50cd94d39d09ea3c5c516ff3a7"
+      ],
       "text": "Dynamo is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aa673e847be9d4dbef19e72f75e3a66ac7469fe19b00645c84349f389dd7a1b1",
+      "sha256": [
+        "aa673e847be9d4dbef19e72f75e3a66ac7469fe19b00645c84349f389dd7a1b1"
+      ],
       "text": "Dynamo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

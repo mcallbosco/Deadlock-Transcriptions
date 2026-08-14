@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_use_power2_10.mp3",
   "revisions": [
     {
-      "sha256": "4004caae90441a2584d97d0dd1560cec0ea7589001893fc543f2709082faa288",
+      "sha256": [
+        "4004caae90441a2584d97d0dd1560cec0ea7589001893fc543f2709082faa288"
+      ],
       "text": "No one's dying today!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "95c6fb8860ad1b5300baf2ee06377122704eeeee1aa5411ae4f50e4a036f9d2c",
+      "sha256": [
+        "95c6fb8860ad1b5300baf2ee06377122704eeeee1aa5411ae4f50e4a036f9d2c"
+      ],
       "text": "Keep going!",
       "source": "official"
     }

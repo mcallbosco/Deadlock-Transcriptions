@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_vampirebat_01.mp3",
   "revisions": [
     {
-      "sha256": "5c4215145e97bcc4579e37d3963afdb1710569906471d3a56b4c1a0b368684c1",
+      "sha256": [
+        "5c4215145e97bcc4579e37d3963afdb1710569906471d3a56b4c1a0b368684c1"
+      ],
       "text": "I see the vampire.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a50959a6dfbd015eac14cfb422addce1b3b9bac60ba09aff37d56fa65b363d3f",
+      "sha256": [
+        "a50959a6dfbd015eac14cfb422addce1b3b9bac60ba09aff37d56fa65b363d3f"
+      ],
       "text": "I see Mina.",
       "source": "official"
     }

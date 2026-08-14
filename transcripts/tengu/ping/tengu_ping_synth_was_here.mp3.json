@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "aedf9e1660e1aff78a98cdde1ef620b166329c6ac3a9d33d22a969eb21ad57fd",
+      "sha256": [
+        "aedf9e1660e1aff78a98cdde1ef620b166329c6ac3a9d33d22a969eb21ad57fd"
+      ],
       "text": "Talk in here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4295c84ee7965b8a4e5bcc9f1f93566b516487a3fb12d0675dd7652508ca88f7",
+      "sha256": [
+        "4295c84ee7965b8a4e5bcc9f1f93566b516487a3fb12d0675dd7652508ca88f7"
+      ],
       "text": "Talk in my ear!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

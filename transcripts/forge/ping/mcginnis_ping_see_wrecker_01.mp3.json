@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "0e9578043a6b4558e224c7692cafb5303a11be851c3d4adb961c41eab9450158",
+      "sha256": [
+        "0e9578043a6b4558e224c7692cafb5303a11be851c3d4adb961c41eab9450158",
+        "4ccf198576ba127adfbeb2c9585cb39c7ed35ba6bc00bba9f235b54fdbe6f12d"
+      ],
       "text": "I see Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ccf198576ba127adfbeb2c9585cb39c7ed35ba6bc00bba9f235b54fdbe6f12d",
-      "text": "I see wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

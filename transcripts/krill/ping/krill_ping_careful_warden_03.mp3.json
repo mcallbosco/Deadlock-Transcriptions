@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_warden_03.mp3",
   "revisions": [
     {
-      "sha256": "c03efbe1d7a664e9f4982d8f5ce1fd7e332ebcc9959249893cadb6a67657776c",
-      "text": "Careful, Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f3e38c9d5824180365fd0c8969452b360823f171878fc385a882bdc3cf89b4aa",
-      "text": "Careful, Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ef0527f41f6adc828b8b98aa2af4ca9cf3e4adcc7d753133c281fdd22bc429a",
+      "sha256": [
+        "2ef0527f41f6adc828b8b98aa2af4ca9cf3e4adcc7d753133c281fdd22bc429a",
+        "c03efbe1d7a664e9f4982d8f5ce1fd7e332ebcc9959249893cadb6a67657776c",
+        "f3e38c9d5824180365fd0c8969452b360823f171878fc385a882bdc3cf89b4aa"
+      ],
       "text": "Careful, Warden!",
       "source": "official"
     }

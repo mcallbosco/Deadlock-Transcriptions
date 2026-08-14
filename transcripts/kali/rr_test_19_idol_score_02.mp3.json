@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_idol_score_02.mp3",
   "revisions": [
     {
-      "sha256": "08899faf9a9395035ba264a64d61497f0bbe316ad6e67daba7460b3d8edc4be1",
+      "sha256": [
+        "08899faf9a9395035ba264a64d61497f0bbe316ad6e67daba7460b3d8edc4be1",
+        "db00766dcd8b5c5fa4cea5e0eced8f818b5f5b6f8cea78f214cba30bb5dbd305"
+      ],
       "text": "We did it!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b87788c6be54caae2e97ce7716802e6e90e725d9657c53f3e086a12805602b3",
+      "sha256": [
+        "4b87788c6be54caae2e97ce7716802e6e90e725d9657c53f3e086a12805602b3"
+      ],
       "text": "Good game!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db00766dcd8b5c5fa4cea5e0eced8f818b5f5b6f8cea78f214cba30bb5dbd305",
-      "text": "We did it!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_careful_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "a41092d142451bf6123af00255df9e26efa6c0332e805d687e70348efca54df1",
+      "sha256": [
+        "474ecbeefe01a5e20a4389dbe2a01756222c150344b42c68d250e103d9a5b326",
+        "a41092d142451bf6123af00255df9e26efa6c0332e805d687e70348efca54df1"
+      ],
       "text": "That's the best.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "474ecbeefe01a5e20a4389dbe2a01756222c150344b42c68d250e103d9a5b326",
-      "text": "That's the best.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "85da473e05712778c22f2ac6a6f52f38a46b74ea33e318b09411571029a7332e",
+      "sha256": [
+        "85da473e05712778c22f2ac6a6f52f38a46b74ea33e318b09411571029a7332e"
+      ],
       "text": "Careful, Lash…",
       "source": "official"
     }

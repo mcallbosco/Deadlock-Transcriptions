@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_concerned_06.mp3",
   "revisions": [
     {
-      "sha256": "39394fe0383cd7f383f011eec2dfd7e4956927b9df682fd8b4759e34aa9b1089",
-      "text": "We're not using the right strategy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62c085687009da17c0c38716804d2cf7d3974e8629959020ef43aadb80290d32",
-      "text": "We're not using the right strategy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "043f8f8c1d456aea5613c95fed18e70b7003c1684fe79b3cac83e16b8f1f1ba6",
+      "sha256": [
+        "043f8f8c1d456aea5613c95fed18e70b7003c1684fe79b3cac83e16b8f1f1ba6",
+        "39394fe0383cd7f383f011eec2dfd7e4956927b9df682fd8b4759e34aa9b1089",
+        "62c085687009da17c0c38716804d2cf7d3974e8629959020ef43aadb80290d32"
+      ],
       "text": "We're not using the right strategy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

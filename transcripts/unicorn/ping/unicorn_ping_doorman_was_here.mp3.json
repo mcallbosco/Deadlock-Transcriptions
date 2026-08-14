@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c62e75cb2db7e950ce44daa67033ddda4f2f4c5bd6aa5d2590b0d06c932af409",
+      "sha256": [
+        "c62e75cb2db7e950ce44daa67033ddda4f2f4c5bd6aa5d2590b0d06c932af409"
+      ],
       "text": "Do I mean was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

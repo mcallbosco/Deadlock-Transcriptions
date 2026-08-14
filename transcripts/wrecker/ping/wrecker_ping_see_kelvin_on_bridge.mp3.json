@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_kelvin_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "85312e1c04e0ca70ae1c7d6aa182f5ae1a0a1f3275128ac629e03002aa21c78a",
+      "sha256": [
+        "85312e1c04e0ca70ae1c7d6aa182f5ae1a0a1f3275128ac629e03002aa21c78a"
+      ],
       "text": "Kirvil is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d517cd04009c1c5523eec827b025633b0dcf05f98d32b80e2ad3a84dd9956f9b",
+      "sha256": [
+        "d517cd04009c1c5523eec827b025633b0dcf05f98d32b80e2ad3a84dd9956f9b"
+      ],
       "text": "Gilvil is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

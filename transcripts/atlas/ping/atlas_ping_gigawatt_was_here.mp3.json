@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ea5630db028e2bf811b6d02998bd8bd0b69b43c3cd0533499828a4d0a50d3e31",
+      "sha256": [
+        "ea5630db028e2bf811b6d02998bd8bd0b69b43c3cd0533499828a4d0a50d3e31"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

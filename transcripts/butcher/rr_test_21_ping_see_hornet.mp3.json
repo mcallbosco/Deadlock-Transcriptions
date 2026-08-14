@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_hornet.mp3",
   "revisions": [
     {
-      "sha256": "73df8130f54e3b47ba24d8a78ea5dd677d6c9f3afb465be0feab1e01bd816c98",
-      "text": "I see on it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "188de2b111adf22054334d101fd36731978bc30aa84d3b842089f91b471e1df4",
-      "text": "I see on it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a7e6ad9b6b3f46c4b5d9e5d6ecd2b51dc090e3dcf916e5a37e6ab76d523cf19",
+      "sha256": [
+        "188de2b111adf22054334d101fd36731978bc30aa84d3b842089f91b471e1df4",
+        "5a7e6ad9b6b3f46c4b5d9e5d6ecd2b51dc090e3dcf916e5a37e6ab76d523cf19",
+        "73df8130f54e3b47ba24d8a78ea5dd677d6c9f3afb465be0feab1e01bd816c98"
+      ],
       "text": "I see on it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

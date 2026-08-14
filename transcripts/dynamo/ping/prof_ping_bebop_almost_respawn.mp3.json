@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_bebop_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "39d1877246e7a83d05887ee83829520c90474bc2219a0e7f776bdfbce61c143b",
+      "sha256": [
+        "39d1877246e7a83d05887ee83829520c90474bc2219a0e7f776bdfbce61c143b",
+        "3df09a3485da9e5974debd91e9799ca6a0267f549649dc4ad0fc0320faaa048e"
+      ],
       "text": "Bebop is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3df09a3485da9e5974debd91e9799ca6a0267f549649dc4ad0fc0320faaa048e",
-      "text": "Bebop is almost back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

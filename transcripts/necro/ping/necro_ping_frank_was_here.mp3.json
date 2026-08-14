@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "necro/ping/necro_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "db7443b5fc3a2ff33748ea49939982ba4dace4aa531567ecfbd3a738e0131fde",
+      "sha256": [
+        "db7443b5fc3a2ff33748ea49939982ba4dace4aa531567ecfbd3a738e0131fde"
+      ],
       "text": "Victor is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

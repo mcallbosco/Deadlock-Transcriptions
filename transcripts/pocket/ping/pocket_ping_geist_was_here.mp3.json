@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_geist_was_here.mp3",
   "revisions": [
     {
-      "sha256": "85c4549d6c4d1a999dfb3d8f5b3d2f9055eb66c0c855fc978c3896201ab1876f",
-      "text": "Geist was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35d502f4b62b4775efcec7db87a1519bc0dd1a0ae5249bb164429a58a6fc6ad1",
+      "sha256": [
+        "35d502f4b62b4775efcec7db87a1519bc0dd1a0ae5249bb164429a58a6fc6ad1",
+        "85c4549d6c4d1a999dfb3d8f5b3d2f9055eb66c0c855fc978c3896201ab1876f"
+      ],
       "text": "Geist was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

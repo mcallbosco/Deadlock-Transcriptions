@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_shiv_02_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "deb75dda518dfdac9e833565a5626ba886cbb27273cee4f9c0ad8eb15f849769",
+      "sha256": [
+        "deb75dda518dfdac9e833565a5626ba886cbb27273cee4f9c0ad8eb15f849769"
+      ],
       "text": "Fixer is over here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "474b5ccc5c3a05a9ac4285e6e1efe0dad013be2563b19b08b1b0fe54553b48ca",
+      "sha256": [
+        "14df4b03af850c935e26802d356bb4f767fc7db16389136b124d1cbf0bfd85c3",
+        "474b5ccc5c3a05a9ac4285e6e1efe0dad013be2563b19b08b1b0fe54553b48ca"
+      ],
       "text": "Fancy hairs over here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "14df4b03af850c935e26802d356bb4f767fc7db16389136b124d1cbf0bfd85c3",
-      "text": "Fancy hair's over here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

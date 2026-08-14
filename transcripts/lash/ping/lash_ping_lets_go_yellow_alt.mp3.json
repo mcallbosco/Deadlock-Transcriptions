@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_lets_go_yellow_alt.mp3",
   "revisions": [
     {
-      "sha256": "6e9a20eeb1be7ad8bc4ab3d3a8ee0c6e5ee8d5f29378ad7d0f0928b6093e8497",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0315a95f9687dc80e5013753ee395c25e76a1ae4694c037bb740115dfdb463f",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d9cb49122b8aa47f5ba69587378e04db071addfcee613d552200ff40633a21b",
+      "sha256": [
+        "4d9cb49122b8aa47f5ba69587378e04db071addfcee613d552200ff40633a21b",
+        "6e9a20eeb1be7ad8bc4ab3d3a8ee0c6e5ee8d5f29378ad7d0f0928b6093e8497",
+        "c0315a95f9687dc80e5013753ee395c25e76a1ae4694c037bb740115dfdb463f"
+      ],
       "text": "Let's go to York!",
       "source": "official"
     }

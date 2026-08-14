@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_careful_gigawatt_02.mp3",
   "revisions": [
     {
-      "sha256": "71f66012981ff3099c503f035c98de0db9fbd5a74bd4d63f5287cd6c848af4e7",
+      "sha256": [
+        "71f66012981ff3099c503f035c98de0db9fbd5a74bd4d63f5287cd6c848af4e7",
+        "9f0b85b6eebb85c8b2175a0b7cfb854c3341ab2478e03ff4ea2789c626a7f9ef"
+      ],
       "text": "Have a good one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9f0b85b6eebb85c8b2175a0b7cfb854c3341ab2478e03ff4ea2789c626a7f9ef",
-      "text": "Have a good one.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e759b49c214b9b7354a86b02ee33d23d3f4eca08ad851d42e17a8e170890adc5",
+      "sha256": [
+        "e759b49c214b9b7354a86b02ee33d23d3f4eca08ad851d42e17a8e170890adc5"
+      ],
       "text": "Careful, Seven",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_drifter_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7faccf004d2033252b228b6699a634b7c7ee45cf84a51aa5707fd8ce395f0d68",
+      "sha256": [
+        "7faccf004d2033252b228b6699a634b7c7ee45cf84a51aa5707fd8ce395f0d68"
+      ],
       "text": "The director's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "31947af1c333daa539376512dac8b005d48de994ce9b794500c728fda47261b7",
+      "sha256": [
+        "31947af1c333daa539376512dac8b005d48de994ce9b794500c728fda47261b7"
+      ],
       "text": "The Drifter's missing.",
       "source": "official"
     }

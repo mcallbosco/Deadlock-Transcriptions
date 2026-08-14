@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_can_heal_wraith.mp3",
   "revisions": [
     {
-      "sha256": "59b111763e18bf2efac134309848f972a124012f7733ebcf1e80d93dee88459e",
+      "sha256": [
+        "59b111763e18bf2efac134309848f972a124012f7733ebcf1e80d93dee88459e"
+      ],
       "text": "Great, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dc17842772c03c1361c26db819bca0be2a673c0852ffd6fc440c8e92c744a799",
+      "sha256": [
+        "75b12e00a36e1afa2cd174e29f9bb305eca3af626591dfb51d3fbf2d0e0d1331",
+        "dc17842772c03c1361c26db819bca0be2a673c0852ffd6fc440c8e92c744a799"
+      ],
       "text": "Great, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "75b12e00a36e1afa2cd174e29f9bb305eca3af626591dfb51d3fbf2d0e0d1331",
-      "text": "Great, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1608c1fac959ba28d0475ba78a05b6290e6afbcbd30050931038023df5962106",
+      "sha256": [
+        "1608c1fac959ba28d0475ba78a05b6290e6afbcbd30050931038023df5962106"
+      ],
       "text": "Wraith, I can heal you!",
       "source": "official"
     }

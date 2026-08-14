@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_need_help_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "3018728e33146c6a74db094169b55a3636a35c2d5a3202458dc13aaa5e37c21c",
-      "text": "Need help on Greenwich!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f93118944353b109c2ad6e75aa34e085edfb9fb055ffff67f0f35e170d5b68e6",
-      "text": "Need help on Greenwich?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "53306ad49e7a09c999ccbec8f28f0e83110733fb3638a1f088ebffb0fd32adad",
+      "sha256": [
+        "3018728e33146c6a74db094169b55a3636a35c2d5a3202458dc13aaa5e37c21c",
+        "53306ad49e7a09c999ccbec8f28f0e83110733fb3638a1f088ebffb0fd32adad",
+        "f93118944353b109c2ad6e75aa34e085edfb9fb055ffff67f0f35e170d5b68e6"
+      ],
       "text": "Need help on Greenwich!",
       "source": "official"
     }

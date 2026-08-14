@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_item_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "3928a1409645b88d77b3643db58dc338513df2ea647a5906bed3cef58da29a0f",
-      "text": "Items almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e51aadbafd2f85b19f56071c692941c7e6d6a809c482df2a8d03ae82c918747d",
+      "sha256": [
+        "3928a1409645b88d77b3643db58dc338513df2ea647a5906bed3cef58da29a0f",
+        "e51aadbafd2f85b19f56071c692941c7e6d6a809c482df2a8d03ae82c918747d"
+      ],
       "text": "Item's almost ready.",
       "source": "official"
     }

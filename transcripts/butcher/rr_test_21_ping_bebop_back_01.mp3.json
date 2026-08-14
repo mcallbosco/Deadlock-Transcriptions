@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_bebop_back_01.mp3",
   "revisions": [
     {
-      "sha256": "59e3da121facb17a2a3619cdda807fa0b9f59caa1a18f85bd3000381081a9647",
-      "text": "Bebop, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11edca0b121e3c2e92d70ecdcabbbbdc30a833f3bee8ab1f9813c8368b847091",
-      "text": "Bebop, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96d277c2202fde613b65602cac736eae2a30f338960c1fc11996093ffaed135a",
+      "sha256": [
+        "11edca0b121e3c2e92d70ecdcabbbbdc30a833f3bee8ab1f9813c8368b847091",
+        "59e3da121facb17a2a3619cdda807fa0b9f59caa1a18f85bd3000381081a9647",
+        "96d277c2202fde613b65602cac736eae2a30f338960c1fc11996093ffaed135a"
+      ],
       "text": "Bebop, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

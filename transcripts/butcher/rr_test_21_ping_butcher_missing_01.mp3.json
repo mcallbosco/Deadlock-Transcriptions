@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_butcher_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f19d5c98314ac11bd9453ef2f70eb0a51b3b97c0ee16ddec061d73975b3e95d2",
-      "text": "Butcher is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a5b77e5fa4a435b1f64370da7fa79eaff9fd423e2d1306e420834fd6f0dcb03",
-      "text": "Butcher is missing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2e3d9f027ef262b298ed085f9b178209b2c2e435bcec948fcd2019482711605",
+      "sha256": [
+        "8a5b77e5fa4a435b1f64370da7fa79eaff9fd423e2d1306e420834fd6f0dcb03",
+        "f19d5c98314ac11bd9453ef2f70eb0a51b3b97c0ee16ddec061d73975b3e95d2",
+        "f2e3d9f027ef262b298ed085f9b178209b2c2e435bcec948fcd2019482711605"
+      ],
       "text": "Butcher is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

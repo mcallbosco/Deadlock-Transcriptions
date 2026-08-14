@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_haze.mp3",
   "revisions": [
     {
-      "sha256": "d251fa7049751e5c6312763fe894d34a2322908200dcc6b14a8633bb072e59b0",
-      "text": "Well done, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38d5f8b7aed43eedc59e5a02d43a0ba466689bda1ee76548121549e94ebb9ddb",
-      "text": "Well done, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16a7a4b7933eb8a14d301edbf914d86da0e435bd87ca2227970d0e3c73108111",
+      "sha256": [
+        "16a7a4b7933eb8a14d301edbf914d86da0e435bd87ca2227970d0e3c73108111",
+        "38d5f8b7aed43eedc59e5a02d43a0ba466689bda1ee76548121549e94ebb9ddb",
+        "d251fa7049751e5c6312763fe894d34a2322908200dcc6b14a8633bb072e59b0"
+      ],
       "text": "Well done Haze",
       "source": "official"
     }

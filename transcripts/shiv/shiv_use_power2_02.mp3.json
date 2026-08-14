@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_use_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "760253b89d4ea4422aada460930139d1c7ae7996e8883b17473d2b563c0f8798",
+      "sha256": [
+        "34d79102014045603700820ca277b149f48064d6f9dfb1c143fcc296861fcb6b",
+        "760253b89d4ea4422aada460930139d1c7ae7996e8883b17473d2b563c0f8798"
+      ],
       "text": "Stress with me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "34d79102014045603700820ca277b149f48064d6f9dfb1c143fcc296861fcb6b",
-      "text": "Stress with me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "026fca875db29482d45cd087f570ad3921075fb9e4527cfc9242e42cd9f78250",
+      "sha256": [
+        "026fca875db29482d45cd087f570ad3921075fb9e4527cfc9242e42cd9f78250"
+      ],
       "text": "Strike swiftly.",
       "source": "official"
     }

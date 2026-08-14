@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_careful_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "8194823a0b5b81fb9d165539cc598bb53aa9bde95a28d8365c701ae604ed05b0",
-      "text": "Careful, Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb6317ce0cdaea5aff2756162673294b3d6477ce4428471d98625c1de1070f6a",
+      "sha256": [
+        "8194823a0b5b81fb9d165539cc598bb53aa9bde95a28d8365c701ae604ed05b0",
+        "cb6317ce0cdaea5aff2756162673294b3d6477ce4428471d98625c1de1070f6a"
+      ],
       "text": "Careful, Warden",
       "source": "official"
     }

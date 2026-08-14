@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_infernus_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f257427237c6c60e19890f96fb958bcc91be305f65703b34197a445fc4b0c80a",
+      "sha256": [
+        "f257427237c6c60e19890f96fb958bcc91be305f65703b34197a445fc4b0c80a"
+      ],
       "text": "This is it!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8f275bbcc38c42eb3ab4d4c2976eb2165d6a0c90731bd8ad97077dbbdc85c0f4",
+      "sha256": [
+        "8f275bbcc38c42eb3ab4d4c2976eb2165d6a0c90731bd8ad97077dbbdc85c0f4"
+      ],
       "text": "This was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

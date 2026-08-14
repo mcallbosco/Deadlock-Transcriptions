@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "632ba9646c22d531da395793bcd26b018716a07190d21b155fb325a057396edc",
+      "sha256": [
+        "632ba9646c22d531da395793bcd26b018716a07190d21b155fb325a057396edc"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

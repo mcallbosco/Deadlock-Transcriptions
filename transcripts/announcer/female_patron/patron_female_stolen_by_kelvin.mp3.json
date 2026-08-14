@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_stolen_by_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "c975c342f811018b2cf89eadc997e1172126403171fba54f151ec76d485cba63",
-      "text": "Kelvin stole the Rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ecfeacbbe4ec45e90b7aec7c08d22a0ab7231476d28449fd8d281fa1da85820",
+      "sha256": [
+        "9ecfeacbbe4ec45e90b7aec7c08d22a0ab7231476d28449fd8d281fa1da85820",
+        "c975c342f811018b2cf89eadc997e1172126403171fba54f151ec76d485cba63"
+      ],
       "text": "Kelvin stole the Rejuvenator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

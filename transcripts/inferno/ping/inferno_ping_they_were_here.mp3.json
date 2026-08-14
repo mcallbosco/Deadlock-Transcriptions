@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "fab84806130904f42dc592d54715d552e855a5ea8a169a321ad0fb39b4d5a985",
-      "text": "They were here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1008920869582f334776c9e8efa9a60ab0f2aa488159b019b0a0ac8f362f32d5",
-      "text": "They were here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd7003583625ade09baa70e31d483f0cf8e153d5f7e79f1696d9b26043bf749d",
-      "text": "They were here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92cd4d4d4de617032e6d861c1f687d55ca5ec9225406dae5b34673f55349f1f1",
+      "sha256": [
+        "1008920869582f334776c9e8efa9a60ab0f2aa488159b019b0a0ac8f362f32d5",
+        "92cd4d4d4de617032e6d861c1f687d55ca5ec9225406dae5b34673f55349f1f1",
+        "dd7003583625ade09baa70e31d483f0cf8e153d5f7e79f1696d9b26043bf749d",
+        "fab84806130904f42dc592d54715d552e855a5ea8a169a321ad0fb39b4d5a985"
+      ],
       "text": "They were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

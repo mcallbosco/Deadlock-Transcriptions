@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b33d78a27403de3a181831bab5852012cf43e1a4abf2cd4ba888969e807001ef",
-      "text": "Yamato's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4841cfa31e59fc6b66f971813fc943ef09bc0e9b7d99acfbf1993d4ea5bd604",
-      "text": "Yamato's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca0d05cb6946380ee577fb40e69ec93b560e2788274e82cb21b0460ffa3609fa",
-      "text": "Yamato's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f43458ca3d482c1974b86d7cb24096691654571bd5330c3baa451fbe253d7f3",
+      "sha256": [
+        "1f43458ca3d482c1974b86d7cb24096691654571bd5330c3baa451fbe253d7f3",
+        "b33d78a27403de3a181831bab5852012cf43e1a4abf2cd4ba888969e807001ef",
+        "ca0d05cb6946380ee577fb40e69ec93b560e2788274e82cb21b0460ffa3609fa",
+        "e4841cfa31e59fc6b66f971813fc943ef09bc0e9b7d99acfbf1993d4ea5bd604"
+      ],
       "text": "Yamato's on the bridge!",
       "source": "official"
     }

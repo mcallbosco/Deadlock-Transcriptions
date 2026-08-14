@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "0244a8f7161865456c7f73069599546b1e0807b07bca807d7d7666f4d572c1dd",
+      "sha256": [
+        "0244a8f7161865456c7f73069599546b1e0807b07bca807d7d7666f4d572c1dd"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

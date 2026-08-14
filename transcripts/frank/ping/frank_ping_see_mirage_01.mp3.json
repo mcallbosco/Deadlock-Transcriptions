@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "052e12afdcde0e0cd90a335e6661a074df4ff6fd179cd5a364ec2a8f338553f5",
+      "sha256": [
+        "052e12afdcde0e0cd90a335e6661a074df4ff6fd179cd5a364ec2a8f338553f5"
+      ],
       "text": "Passive rush.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "39efc6a9dc4717ae5e6b5aa78e8fd8260ddf8135f384a0b6dad8b850d58f46d0",
+      "sha256": [
+        "39efc6a9dc4717ae5e6b5aa78e8fd8260ddf8135f384a0b6dad8b850d58f46d0"
+      ],
       "text": "I see Mirage.",
       "source": "official"
     }

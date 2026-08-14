@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_ignore_forge.mp3",
   "revisions": [
     {
-      "sha256": "c0f0ab48f9fbf897a30f0045b32a9da95a20f145a075abcd694f98dc26375a78",
-      "text": "Ignore McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86940d1cdeb9dcf80c875c8fe9027d79b6ce09439a61d336f7590e6d6fff7d51",
+      "sha256": [
+        "86940d1cdeb9dcf80c875c8fe9027d79b6ce09439a61d336f7590e6d6fff7d51",
+        "c0f0ab48f9fbf897a30f0045b32a9da95a20f145a075abcd694f98dc26375a78"
+      ],
       "text": "Ignore McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

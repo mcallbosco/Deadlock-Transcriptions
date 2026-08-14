@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_inferno_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "b16cfa79422dcde4dd8a9131b078571cfc47369ee6909a565b5e2fb3fde5c04a",
+      "sha256": [
+        "60df55ed2a3eddc53f4e07758b827c6260f579db134999be06dde08a2f9684e5",
+        "b16cfa79422dcde4dd8a9131b078571cfc47369ee6909a565b5e2fb3fde5c04a",
+        "be96a9a59214471340c23b4222b9de305703dd2983232cd3fc7e030d8c452b00"
+      ],
       "text": "Infernus is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "be96a9a59214471340c23b4222b9de305703dd2983232cd3fc7e030d8c452b00",
-      "text": "Infernus is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60df55ed2a3eddc53f4e07758b827c6260f579db134999be06dde08a2f9684e5",
-      "text": "Infernus is on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "785c57dab8bf869f38c27a2b45449286a9a2886d4d05dbe0d288c255a62f0e08",
+      "sha256": [
+        "785c57dab8bf869f38c27a2b45449286a9a2886d4d05dbe0d288c255a62f0e08"
+      ],
       "text": "Infernus's on top of the garage!",
       "source": "official"
     }

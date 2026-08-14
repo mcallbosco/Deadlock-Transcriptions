@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_yellow_help_01.mp3",
   "revisions": [
     {
-      "sha256": "7a89c3031416225a0b81fc78c906a7d363b861d28747010560f48a8f33eb4610",
-      "text": "Yellow needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4057f46751e66617e5e80674f88c6a0c22ff82b3548d2ccae228ec302e6d6932",
+      "sha256": [
+        "4057f46751e66617e5e80674f88c6a0c22ff82b3548d2ccae228ec302e6d6932",
+        "7a89c3031416225a0b81fc78c906a7d363b861d28747010560f48a8f33eb4610"
+      ],
       "text": "Yellow needs help!",
       "source": "official"
     }

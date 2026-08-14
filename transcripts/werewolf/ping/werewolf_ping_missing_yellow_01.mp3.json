@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "96c7a50776cd5ce3b66e1bc107aa83a41def9ec4101fd1286a3e1d9400018625",
+      "sha256": [
+        "96c7a50776cd5ce3b66e1bc107aa83a41def9ec4101fd1286a3e1d9400018625"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

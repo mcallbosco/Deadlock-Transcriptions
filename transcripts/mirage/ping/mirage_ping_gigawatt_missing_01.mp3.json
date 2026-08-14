@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_gigawatt_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d0755bd38f8dccf2784c2e00079492c8f82dadb161826877319a38b51f22de96",
+      "sha256": [
+        "d0755bd38f8dccf2784c2e00079492c8f82dadb161826877319a38b51f22de96"
+      ],
       "text": "I don't know what's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f09136efa4a201742b81dc20494d5edbdf24ce9d36c4ee9db8ce49e8ccdb3c68",
-      "text": "Seven's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f98d2ea4486559a7dc9e0c851af8c67af6081eb7b029824fad741c386ae412d",
-      "text": "Seven's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6e26afb8d9d696243d8356020f6a1922c507f093ebb4fed33af4c2c4db884e2",
+      "sha256": [
+        "0f98d2ea4486559a7dc9e0c851af8c67af6081eb7b029824fad741c386ae412d",
+        "a6e26afb8d9d696243d8356020f6a1922c507f093ebb4fed33af4c2c4db884e2",
+        "f09136efa4a201742b81dc20494d5edbdf24ce9d36c4ee9db8ce49e8ccdb3c68"
+      ],
       "text": "Seven's missing",
       "source": "official"
     }

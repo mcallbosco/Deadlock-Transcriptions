@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "8fc936b5c9d334619da0d5b3ddec5ca2fdc8b16b18b84f779052af60b45eab24",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "141b33df888bbe7d90de1c953d9cb212f2f98cf527a58de6a7a59594ce301077",
+      "sha256": [
+        "141b33df888bbe7d90de1c953d9cb212f2f98cf527a58de6a7a59594ce301077",
+        "8fc936b5c9d334619da0d5b3ddec5ca2fdc8b16b18b84f779052af60b45eab24"
+      ],
       "text": "Yes",
       "source": "official"
     }

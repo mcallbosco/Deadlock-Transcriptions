@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_bespoke_for_forge.mp3",
   "revisions": [
     {
-      "sha256": "9268cf0479507eb1ca4452185cfad5f3016d4eb1e678944274dd3d9d8ea74c44",
+      "sha256": [
+        "9268cf0479507eb1ca4452185cfad5f3016d4eb1e678944274dd3d9d8ea74c44"
+      ],
       "text": "Your machines are running rampant on the battlefield!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

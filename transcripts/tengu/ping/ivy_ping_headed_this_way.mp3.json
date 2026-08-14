@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "d809049d5887532bcc2dc84e168c6a2b15ef7a46e0f9e64bbfd9769df7932aa5",
+      "sha256": [
+        "05376300a2613db2e378d1e3e5566cb00a39d0376779899ed2b6ffc3c3cb5c2a",
+        "d809049d5887532bcc2dc84e168c6a2b15ef7a46e0f9e64bbfd9769df7932aa5",
+        "df32e5158b0246e40f42ea61a1a3283c9c158540e1b428d712854d87d301b639"
+      ],
       "text": "Hey, this way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05376300a2613db2e378d1e3e5566cb00a39d0376779899ed2b6ffc3c3cb5c2a",
-      "text": "Hey, this way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df32e5158b0246e40f42ea61a1a3283c9c158540e1b428d712854d87d301b639",
-      "text": "Hey this way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

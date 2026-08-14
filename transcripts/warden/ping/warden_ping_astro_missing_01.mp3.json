@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_astro_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "19ab7fede44ba964cc118c0e6ac9ad2ef150abc885c7e3aea99fca4d06394fea",
+      "sha256": [
+        "19ab7fede44ba964cc118c0e6ac9ad2ef150abc885c7e3aea99fca4d06394fea"
+      ],
       "text": "Holiday's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d9de52beb99641ca86234afb42e94875f2601d3f7839bb6f6cb667cab86ff9a9",
-      "text": "Holliday's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "778c24a109de2a87704f68bbe29f867f15bcce21a23a441d650fcc4290e33bfe",
-      "text": "Holliday's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a7d685c8921e8a889a86652d396ab96c0dd1cab658318a854b80e352ae2268f",
+      "sha256": [
+        "2a7d685c8921e8a889a86652d396ab96c0dd1cab658318a854b80e352ae2268f",
+        "778c24a109de2a87704f68bbe29f867f15bcce21a23a441d650fcc4290e33bfe",
+        "d9de52beb99641ca86234afb42e94875f2601d3f7839bb6f6cb667cab86ff9a9"
+      ],
       "text": "Holliday's missing",
       "source": "official"
     }

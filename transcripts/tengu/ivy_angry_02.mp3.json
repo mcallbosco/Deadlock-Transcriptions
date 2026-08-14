@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_angry_02.mp3",
   "revisions": [
     {
-      "sha256": "bb8905ac5006ae0376b5ebef843e95d0eeb5f43c0c275656d7825c77f6af5dd3",
-      "text": "That's not right!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ef92a90181d6e7cadddd0c4dd5273048c5708559983d9df12485e3c621de9f5",
+      "sha256": [
+        "6ef92a90181d6e7cadddd0c4dd5273048c5708559983d9df12485e3c621de9f5",
+        "bb8905ac5006ae0376b5ebef843e95d0eeb5f43c0c275656d7825c77f6af5dd3"
+      ],
       "text": "That's not right!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

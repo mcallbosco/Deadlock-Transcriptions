@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_combat_parry.mp3",
   "revisions": [
     {
-      "sha256": "f2dac157430aeb830dfcb0037247a81835ddaf2036e9435923ec21c2b66f1b06",
-      "text": "Press F to parry an enemy's melee attack. They will be stunned and will receive increased melee damage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ade5c4bbc04f268c4c8ee49a60c3cb8b12d16af91d2b1ef3b22abfc6ea878412",
-      "text": "Press F to parry an enemy's melee attack. They will be stunned and will receive increased melee damage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e0183f2a1685572a906f23ef351f5724cea9adf510677184111748206660cdb",
+      "sha256": [
+        "6e0183f2a1685572a906f23ef351f5724cea9adf510677184111748206660cdb",
+        "ade5c4bbc04f268c4c8ee49a60c3cb8b12d16af91d2b1ef3b22abfc6ea878412",
+        "f2dac157430aeb830dfcb0037247a81835ddaf2036e9435923ec21c2b66f1b06"
+      ],
       "text": "Press F to parry an enemy's melee attack. They will be stunned and will receive increased melee damage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

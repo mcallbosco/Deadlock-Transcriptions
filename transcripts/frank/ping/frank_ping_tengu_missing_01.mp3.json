@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_tengu_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "da037c2a6c01215d8d70546b7a1fd9210faf2540343c1e99fdd3aff40db56293",
-      "text": "Ivy's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c29ea4d65b7a58f89e3430fca9c6ffd87715b623d82aa6a8704a4e4c898afe86",
+      "sha256": [
+        "c29ea4d65b7a58f89e3430fca9c6ffd87715b623d82aa6a8704a4e4c898afe86",
+        "da037c2a6c01215d8d70546b7a1fd9210faf2540343c1e99fdd3aff40db56293"
+      ],
       "text": "Ivy's missing.",
       "source": "official"
     }

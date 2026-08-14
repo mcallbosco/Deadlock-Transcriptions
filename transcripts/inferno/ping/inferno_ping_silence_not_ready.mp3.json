@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_silence_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "5c5e4d54d97eaac0fea1c3bfb5813aac987a0434051d68ff3a59be6db35faab0",
-      "text": "Silence Glyphs on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "49412592d8102756d612a0ae89f05ce7cb444584c60201ccb1392817a939cad4",
+        "5c5e4d54d97eaac0fea1c3bfb5813aac987a0434051d68ff3a59be6db35faab0"
+      ],
+      "text": "Silence Glyph's on cooldown",
+      "source": "official"
     },
     {
-      "sha256": "53a63b8b488d1ec7ad10dbb36972c3f3a778570b23a95392b6db17de1c68750b",
+      "sha256": [
+        "53a63b8b488d1ec7ad10dbb36972c3f3a778570b23a95392b6db17de1c68750b"
+      ],
       "text": "Silence clip on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49412592d8102756d612a0ae89f05ce7cb444584c60201ccb1392817a939cad4",
-      "text": "Silence Glyph's on cooldown",
-      "source": "official"
     }
   ]
 }

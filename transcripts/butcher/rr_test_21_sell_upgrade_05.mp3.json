@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_sell_upgrade_05.mp3",
   "revisions": [
     {
-      "sha256": "8ab884c3678a4f7c3fb7147c1bba4159f8e6d07b01431e34ee907895c5f2705f",
-      "text": "I don't want this anymore.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4aa7ed05bac4924bd2d1d706171eb35b49dc78ad0dd6db19e5df30e37ef9bc1a",
-      "text": "I don't want this anymore.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8243cc39bcf85ffb0a5b6eb0d56263bea05bba6d6fad13e013a970c9c83079a5",
+      "sha256": [
+        "4aa7ed05bac4924bd2d1d706171eb35b49dc78ad0dd6db19e5df30e37ef9bc1a",
+        "8243cc39bcf85ffb0a5b6eb0d56263bea05bba6d6fad13e013a970c9c83079a5",
+        "8ab884c3678a4f7c3fb7147c1bba4159f8e6d07b01431e34ee907895c5f2705f"
+      ],
       "text": "I don't want this anymore.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

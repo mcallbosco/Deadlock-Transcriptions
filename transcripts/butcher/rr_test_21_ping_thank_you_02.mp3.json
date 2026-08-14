@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "2a4c5c55beda6720e37f0427427a7c38c18fc8f6c2e1ab13ead97ede31c328da",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "174e65787fb1adc22b98560321f4c5a0fb70fbfb43871f26ca2308c26e9a057b",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "baf53caf90f29f94d80320a79b545f296abcd0d57debe02e17b45cbcda64eaba",
+      "sha256": [
+        "174e65787fb1adc22b98560321f4c5a0fb70fbfb43871f26ca2308c26e9a057b",
+        "2a4c5c55beda6720e37f0427427a7c38c18fc8f6c2e1ab13ead97ede31c328da",
+        "baf53caf90f29f94d80320a79b545f296abcd0d57debe02e17b45cbcda64eaba"
+      ],
       "text": "Thank you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d2b6ece4a7e0ff3b8384887ec4a6173f6ba02d3073f0861de8fcfc450a638609",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5104e9f044d763ccf9a942480bba215be1b71fa08282cabdebdc2bce0ab316f8",
+      "sha256": [
+        "5104e9f044d763ccf9a942480bba215be1b71fa08282cabdebdc2bce0ab316f8",
+        "d2b6ece4a7e0ff3b8384887ec4a6173f6ba02d3073f0861de8fcfc450a638609"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

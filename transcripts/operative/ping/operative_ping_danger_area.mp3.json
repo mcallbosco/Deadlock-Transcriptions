@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "6bd6269f8be3f5c9deecb0ec522b957a1ff3e4a19dcebb3f2b13bd0a98d15de7",
+      "sha256": [
+        "6bd6269f8be3f5c9deecb0ec522b957a1ff3e4a19dcebb3f2b13bd0a98d15de7"
+      ],
       "text": "This danger is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

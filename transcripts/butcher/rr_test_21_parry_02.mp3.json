@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_parry_02.mp3",
   "revisions": [
     {
-      "sha256": "86e447834baafb26ff90eb17a27e85a1baf3a7f6ca9111d326845d1553c6ffe8",
-      "text": "Come on!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "84f2537b7b820fa7cab8462e4b0b55baf45746724a936f6031ed5fb9e4735303",
-      "text": "Come on!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a94fee40899303deceef6ed6ebb704641fea68fc6f4e9027789bdfded2c44f3",
+      "sha256": [
+        "4a94fee40899303deceef6ed6ebb704641fea68fc6f4e9027789bdfded2c44f3",
+        "84f2537b7b820fa7cab8462e4b0b55baf45746724a936f6031ed5fb9e4735303",
+        "86e447834baafb26ff90eb17a27e85a1baf3a7f6ca9111d326845d1553c6ffe8"
+      ],
       "text": "Come on!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

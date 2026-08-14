@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_meet_here.mp3",
   "revisions": [
     {
-      "sha256": "09caababbf61699c288552cce7c1100bc7a2bf6e66fad3d9135d3f4d55a3dce5",
+      "sha256": [
+        "09caababbf61699c288552cce7c1100bc7a2bf6e66fad3d9135d3f4d55a3dce5"
+      ],
       "text": "Let's meet here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1ef9a7fefe8be23ddedb317122b35f01ef82b72e8ed6d2eba0ca6adc75d6d42f",
-      "text": "Let me hear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "15c68882c2477781a87cd56892af40532a21cd0efa853e4bd4046a39d289d248",
+      "sha256": [
+        "15c68882c2477781a87cd56892af40532a21cd0efa853e4bd4046a39d289d248",
+        "1ef9a7fefe8be23ddedb317122b35f01ef82b72e8ed6d2eba0ca6adc75d6d42f"
+      ],
       "text": "Let me hear.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

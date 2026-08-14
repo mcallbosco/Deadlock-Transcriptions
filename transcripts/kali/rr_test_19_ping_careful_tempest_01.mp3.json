@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_tempest_01.mp3",
   "revisions": [
     {
-      "sha256": "ab0e722be95a914ce4265c3247aa2b055fc6dc771032125f10e9aa783f2abea2",
+      "sha256": [
+        "ab0e722be95a914ce4265c3247aa2b055fc6dc771032125f10e9aa783f2abea2"
+      ],
       "text": "Can't resist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ccfd581957762d7ef74299c9359393306b629bfe46f051e769d2630fbe776d59",
-      "text": "Cancel this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f8dbb632407357e4656e958cfab0757cc3b2cf6105a42ed8d219b802a900730",
+      "sha256": [
+        "4f8dbb632407357e4656e958cfab0757cc3b2cf6105a42ed8d219b802a900730",
+        "ccfd581957762d7ef74299c9359393306b629bfe46f051e769d2630fbe776d59"
+      ],
       "text": "Cancel this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

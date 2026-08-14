@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "4770f7c422d2c0875ac06fc5980f6de50f38e8894ce963989a1bbe66b08afca3",
-      "text": "I saw them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0776feff466267c18936c7ba4e187915e72d3f211c53f2392205812815e59f80",
+      "sha256": [
+        "0776feff466267c18936c7ba4e187915e72d3f211c53f2392205812815e59f80",
+        "4770f7c422d2c0875ac06fc5980f6de50f38e8894ce963989a1bbe66b08afca3"
+      ],
       "text": "I saw them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

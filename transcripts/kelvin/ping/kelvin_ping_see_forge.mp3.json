@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_see_forge.mp3",
   "revisions": [
     {
-      "sha256": "28fa1556c4e0cdcc299d0933640fbce83e8859c5f79f4f248e1f4327f7b6d00d",
+      "sha256": [
+        "28fa1556c4e0cdcc299d0933640fbce83e8859c5f79f4f248e1f4327f7b6d00d"
+      ],
       "text": "I see my goodness.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b52c235e0fc48e0fc5b9ce3a632743f8c3ac5b3f0afc35a382e1a21f195de2ce",
+      "sha256": [
+        "b52c235e0fc48e0fc5b9ce3a632743f8c3ac5b3f0afc35a382e1a21f195de2ce"
+      ],
       "text": "I see McGinnis",
       "source": "official"
     }

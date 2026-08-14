@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "fe54c600d5d56722113f7fcb7b4897b54b184b59bdfe30d38af0995369be2ac7",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d77f7900e07d30066ebe4c344be74bf7f78b0396c78f85fa24f1315ba6987ab7",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df450992ded3d31ace7baa0516e27b1acbb96c8f86acb4802d3286e077291cee",
+      "sha256": [
+        "d77f7900e07d30066ebe4c344be74bf7f78b0396c78f85fa24f1315ba6987ab7",
+        "df450992ded3d31ace7baa0516e27b1acbb96c8f86acb4802d3286e077291cee",
+        "fe54c600d5d56722113f7fcb7b4897b54b184b59bdfe30d38af0995369be2ac7"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

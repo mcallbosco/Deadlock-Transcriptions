@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_pocket.mp3",
   "revisions": [
     {
-      "sha256": "67b5bc272c225289e1fd70a0e355657a62186af49a0c7f4920dd04d1b8600059",
-      "text": "I'm with you, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abeb793d2b1ba3b5269809b3075e1f2e562b6e92caeba577276548083a6b353f",
+      "sha256": [
+        "67b5bc272c225289e1fd70a0e355657a62186af49a0c7f4920dd04d1b8600059",
+        "abeb793d2b1ba3b5269809b3075e1f2e562b6e92caeba577276548083a6b353f"
+      ],
       "text": "I'm with you, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

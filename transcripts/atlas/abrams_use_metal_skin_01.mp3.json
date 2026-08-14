@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_metal_skin_01.mp3",
   "revisions": [
     {
-      "sha256": "6e3753d76213b7ca21931cb46f721c2a77ee7b9c28e9fd40fdce3a77778c5cf9",
-      "text": "Metal skin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a185dc1178c7234ed4fa0c32a38a6d2c1ab947210360e5c23a6705dcc341eb4",
-      "text": "Metal skin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e368ddb3cf2f6ca9713fc5ed27fa6feadb3591ccaa1de992acf6171778cbf394",
+      "sha256": [
+        "2a185dc1178c7234ed4fa0c32a38a6d2c1ab947210360e5c23a6705dcc341eb4",
+        "6e3753d76213b7ca21931cb46f721c2a77ee7b9c28e9fd40fdce3a77778c5cf9",
+        "e368ddb3cf2f6ca9713fc5ed27fa6feadb3591ccaa1de992acf6171778cbf394"
+      ],
       "text": "Metal skin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

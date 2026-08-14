@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_hornet_was_here.mp3",
   "revisions": [
     {
-      "sha256": "451e2b6d5668e23364201659f8f029d5379dcf608a4c9b8a6ed254ef50cb3a2c",
+      "sha256": [
+        "451e2b6d5668e23364201659f8f029d5379dcf608a4c9b8a6ed254ef50cb3a2c"
+      ],
       "text": "Now we're here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6ed72b9015cc37f3ac8a852204db04df214ca7d06811b2ac120a4dce74b36899",
+      "sha256": [
+        "31b5727ccb7e4428952cee3aaaa0511af9ccf65c7299f08a7c6dbb274186028b",
+        "6ed72b9015cc37f3ac8a852204db04df214ca7d06811b2ac120a4dce74b36899"
+      ],
       "text": "We didn't think it was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "31b5727ccb7e4428952cee3aaaa0511af9ccf65c7299f08a7c6dbb274186028b",
-      "text": "We didn't think it was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea4cb7020acf1865139d44a72c347d3f6a8d7a8882a63eeb39df3b9c6abbac4a",
+      "sha256": [
+        "ea4cb7020acf1865139d44a72c347d3f6a8d7a8882a63eeb39df3b9c6abbac4a"
+      ],
       "text": "Vindicta was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

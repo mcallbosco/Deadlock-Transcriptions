@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_kelvin_03.mp3",
   "revisions": [
     {
-      "sha256": "3dc32c3e406c94a396fd9dcb00fcd97bbb74ea25d34b4cae648b5e6849807224",
+      "sha256": [
+        "3dc32c3e406c94a396fd9dcb00fcd97bbb74ea25d34b4cae648b5e6849807224",
+        "9a9a4c42ba16932aee7c72c7f40b3a55cbdb4393f44baebe405b23a9ca4c3608"
+      ],
       "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "eade92e918df1ee84d8f81fefa78e45a464e2bd612b0ef6e9d83b32c0afbc186",
+      "sha256": [
+        "eade92e918df1ee84d8f81fefa78e45a464e2bd612b0ef6e9d83b32c0afbc186"
+      ],
       "text": "Caple Kevin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a9a4c42ba16932aee7c72c7f40b3a55cbdb4393f44baebe405b23a9ca4c3608",
-      "text": "Careful, Kelvin!",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_astro_check_items.mp3",
   "revisions": [
     {
-      "sha256": "ddd61b2c6e18559934d78cc23a1db9a5268aa2d00e96e449f2cd483b0a309281",
-      "text": "Check out what Holliday bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ffeab8c67e0284c971f80af4393246dc2d1bee17d3025e6fd2872fc22a6ddb1",
+      "sha256": [
+        "8ffeab8c67e0284c971f80af4393246dc2d1bee17d3025e6fd2872fc22a6ddb1",
+        "ddd61b2c6e18559934d78cc23a1db9a5268aa2d00e96e449f2cd483b0a309281"
+      ],
       "text": "Check out what Holliday bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

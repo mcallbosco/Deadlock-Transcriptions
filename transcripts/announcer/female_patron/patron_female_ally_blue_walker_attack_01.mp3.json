@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_blue_walker_attack_01.mp3",
   "revisions": [
     {
-      "sha256": "a7171bca0de080e84fe16e0085aba5fb311f6b30968b3017f718be4845ef92cd",
-      "text": "Our blue walker is under attack!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2dbb37c319942900f14f76d8774167738eee92602f4ddab5de910f09ac0ab066",
-      "text": "Our blue walker is under attack.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef96a8d460d6f61f0c11ce82b4d15f8ffbe4f8a4bb0482f2d139216a6b0c24b1",
+      "sha256": [
+        "2dbb37c319942900f14f76d8774167738eee92602f4ddab5de910f09ac0ab066",
+        "a7171bca0de080e84fe16e0085aba5fb311f6b30968b3017f718be4845ef92cd",
+        "ef96a8d460d6f61f0c11ce82b4d15f8ffbe4f8a4bb0482f2d139216a6b0c24b1"
+      ],
       "text": "Our blue walker is under attack",
       "source": "official"
     }

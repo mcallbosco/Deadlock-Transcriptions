@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_push_green_01.mp3",
   "revisions": [
     {
-      "sha256": "3bdd1f8a1e79b9f5ab767cf6b6d84a3658cb6a6f61746e2a983b294ed351b6c0",
+      "sha256": [
+        "3bdd1f8a1e79b9f5ab767cf6b6d84a3658cb6a6f61746e2a983b294ed351b6c0"
+      ],
       "text": "Let's push lane!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d334b65080eaf02375d3cf5cea99bbb2bb6a67b325b6711b5b301a4dc7ee7716",
+      "sha256": [
+        "d334b65080eaf02375d3cf5cea99bbb2bb6a67b325b6711b5b301a4dc7ee7716"
+      ],
       "text": "Let's push C!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a40dc34c6c8ad50e6dc144380c83e077304b32d838eea82dece80ffa56ef578e",
+      "sha256": [
+        "a40dc34c6c8ad50e6dc144380c83e077304b32d838eea82dece80ffa56ef578e"
+      ],
       "text": "Let's push Green",
       "source": "official"
     }

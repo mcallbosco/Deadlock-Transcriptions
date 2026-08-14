@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_gigawatt_1.mp3",
   "revisions": [
     {
-      "sha256": "780e14c8a5a47dda22e16d419c315bfc1b80bceb3acc3b7d745377ecf1f22bb8",
-      "text": "I saw Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b7267fdd5ef7512d8ce69e8c69478fbb17ecda038712ef4efeb41e6eaf81f3d1",
+      "sha256": [
+        "780e14c8a5a47dda22e16d419c315bfc1b80bceb3acc3b7d745377ecf1f22bb8",
+        "b7267fdd5ef7512d8ce69e8c69478fbb17ecda038712ef4efeb41e6eaf81f3d1"
+      ],
       "text": "I saw Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

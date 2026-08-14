@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_use_echo_shard_01.mp3",
   "revisions": [
     {
-      "sha256": "5a31588eeb67fc9da65da36ef31aa109c12068b14faaefb459383a787d3613e8",
+      "sha256": [
+        "5a31588eeb67fc9da65da36ef31aa109c12068b14faaefb459383a787d3613e8"
+      ],
       "text": "Echo shards.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4bcd7d1385d07089f16a0063ffae87f9262e5f3202df28b0048b591cb09acf6b",
-      "text": "Echo shard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a3655749709eae7de66d15dc39aac5c33d73e3c52c7f36736add74a328c32224",
-      "text": "Echo shard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f36d4b6864da5a31189455199d1c553cee65f3c49593438778296abb06486863",
-      "text": "EchoShard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "baa07ba0ec9eea7e6f75f6740a11a5effa306cf1d09db7ac1fc946ac94cfd597",
+      "sha256": [
+        "4bcd7d1385d07089f16a0063ffae87f9262e5f3202df28b0048b591cb09acf6b",
+        "a3655749709eae7de66d15dc39aac5c33d73e3c52c7f36736add74a328c32224",
+        "baa07ba0ec9eea7e6f75f6740a11a5effa306cf1d09db7ac1fc946ac94cfd597",
+        "f36d4b6864da5a31189455199d1c553cee65f3c49593438778296abb06486863"
+      ],
       "text": "Echo shard!",
       "source": "official"
     }

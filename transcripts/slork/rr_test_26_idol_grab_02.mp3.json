@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_idol_grab_02.mp3",
   "revisions": [
     {
-      "sha256": "34e831a72af774896782fdb853214cb558c2d937269bd65df026eed46b5304d4",
-      "text": "Got the idol!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a25df64871150e792310cc0c3e73264125a8e5d9638f7fc5d4f8e59f8144674",
+      "sha256": [
+        "1a25df64871150e792310cc0c3e73264125a8e5d9638f7fc5d4f8e59f8144674",
+        "34e831a72af774896782fdb853214cb558c2d937269bd65df026eed46b5304d4"
+      ],
       "text": "Got the idol!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

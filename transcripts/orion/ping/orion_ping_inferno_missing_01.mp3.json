@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "db725b7db66c11437fef7c4667af142c79436f450e4b8c519d298069f80918a5",
+      "sha256": [
+        "db725b7db66c11437fef7c4667af142c79436f450e4b8c519d298069f80918a5"
+      ],
       "text": "Infernus mech.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa4e9dd5239e70d6bff9d227ef06818a586f760527388877550ee0e9616a4f48",
+      "sha256": [
+        "c1da80fa88ee2f25b2a08b8b74ee0c25afb4b13f6136c0a0327f6adb3d4e5ba6",
+        "fa4e9dd5239e70d6bff9d227ef06818a586f760527388877550ee0e9616a4f48"
+      ],
       "text": "Infernus is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c1da80fa88ee2f25b2a08b8b74ee0c25afb4b13f6136c0a0327f6adb3d4e5ba6",
-      "text": "Infernus is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ff5580c1baf5b0dbf226d23957b6520ba750fe77d64a2d8f55f7d2c27d2faa8",
+      "sha256": [
+        "0ff5580c1baf5b0dbf226d23957b6520ba750fe77d64a2d8f55f7d2c27d2faa8"
+      ],
       "text": "Infernus's missing",
       "source": "official"
     }

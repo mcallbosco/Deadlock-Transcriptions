@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_synth_was_here_1.mp3",
   "revisions": [
     {
-      "sha256": "0f67903093b0d67f65d9a6dfc029d167f790af2afc6e8c444191862c07e745ee",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5437151a237080c79c47e446fe6269b990be3df26be9475266d0701e1a2db2f",
+      "sha256": [
+        "0f67903093b0d67f65d9a6dfc029d167f790af2afc6e8c444191862c07e745ee",
+        "a5437151a237080c79c47e446fe6269b990be3df26be9475266d0701e1a2db2f"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

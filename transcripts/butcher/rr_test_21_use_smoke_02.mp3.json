@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_smoke_02.mp3",
   "revisions": [
     {
-      "sha256": "a6a0140f5546ab222ff31045000200e145c3f02f080bbeab5ff06bba90a0c097",
-      "text": "Smoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08d19850b6ad21d688a04fe4e48ecaf7eeb150b06170d380fe4d24cf81a5e52b",
-      "text": "Smoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71579d273e350c64d378ddabb86bfb518d8f5858c2c013320655afecf641100c",
+      "sha256": [
+        "08d19850b6ad21d688a04fe4e48ecaf7eeb150b06170d380fe4d24cf81a5e52b",
+        "71579d273e350c64d378ddabb86bfb518d8f5858c2c013320655afecf641100c",
+        "a6a0140f5546ab222ff31045000200e145c3f02f080bbeab5ff06bba90a0c097"
+      ],
       "text": "Smoke.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

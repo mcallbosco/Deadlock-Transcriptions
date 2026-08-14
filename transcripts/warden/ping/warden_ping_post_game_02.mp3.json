@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_post_game_02.mp3",
   "revisions": [
     {
-      "sha256": "d99b370d8494565a95293f600a2c13d0cc8b6c03c2b3f43087c4e1583e787b9f",
-      "text": "We did it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "01a8332fdbd28b2555585f76a959f702a8bba4e8fd3d46ed8e0da936cdf5883c",
-      "text": "We did it!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc721bb05df3c3803e7406d8f00c77b30f9882bdff14bd284fd004c55676d76e",
-      "text": "We did it!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "119188f7db5a424938bf327310ced6f1d8f8646b723efc9047febff58cd03d3b",
+      "sha256": [
+        "01a8332fdbd28b2555585f76a959f702a8bba4e8fd3d46ed8e0da936cdf5883c",
+        "119188f7db5a424938bf327310ced6f1d8f8646b723efc9047febff58cd03d3b",
+        "bc721bb05df3c3803e7406d8f00c77b30f9882bdff14bd284fd004c55676d76e",
+        "d99b370d8494565a95293f600a2c13d0cc8b6c03c2b3f43087c4e1583e787b9f"
+      ],
       "text": "We did it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

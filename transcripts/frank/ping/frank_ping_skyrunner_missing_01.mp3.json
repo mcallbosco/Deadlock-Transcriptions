@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_skyrunner_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "67f3e1198033f810c6fb4a2743e964227a85b9aef33e40c142ff6dee6317f82b",
-      "text": "Skyrunner's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2fcf86ea8f8df5a0c3672fa2bbd02edc6639b172dd3fa7abb5b00e2bbd021db",
+      "sha256": [
+        "67f3e1198033f810c6fb4a2743e964227a85b9aef33e40c142ff6dee6317f82b",
+        "e2fcf86ea8f8df5a0c3672fa2bbd02edc6639b172dd3fa7abb5b00e2bbd021db"
+      ],
       "text": "Skyrunner's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "cbe6ec3305409e5dd168f34f5ab3499539c34bd502672607f966341d855247cf",
+      "sha256": [
+        "cbe6ec3305409e5dd168f34f5ab3499539c34bd502672607f966341d855247cf"
+      ],
       "text": "They were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "c6cca2e39c91093adda4db5f0f751e01d774466c3cc2e6eb1295d179a18d866c",
+      "sha256": [
+        "c6cca2e39c91093adda4db5f0f751e01d774466c3cc2e6eb1295d179a18d866c"
+      ],
       "text": "I'm with you, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

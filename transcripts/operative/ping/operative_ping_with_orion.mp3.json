@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_with_orion.mp3",
   "revisions": [
     {
-      "sha256": "16b536696cfc80c3903da460bd9081b7999fa721d0e83591db04a974678f69d3",
+      "sha256": [
+        "16b536696cfc80c3903da460bd9081b7999fa721d0e83591db04a974678f69d3"
+      ],
       "text": "I'm with you, Greta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

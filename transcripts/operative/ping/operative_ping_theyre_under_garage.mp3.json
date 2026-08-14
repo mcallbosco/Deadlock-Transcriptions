@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_theyre_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "92dc3be67f20e3d9344fc05f47672af20d9e4356dd08aa08d94ae65cedfeb809",
+      "sha256": [
+        "92dc3be67f20e3d9344fc05f47672af20d9e4356dd08aa08d94ae65cedfeb809"
+      ],
       "text": "They're on the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

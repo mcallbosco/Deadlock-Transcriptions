@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power1_01.mp3",
   "revisions": [
     {
-      "sha256": "fcbbf2db689b112eaa1d52bb2454b35c2f00299b54c0bb5cdac8c6b20ba257ab",
-      "text": "Now look what I got here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a2a8fbcafe515d7a2ab617e1a76b27c3c39c44596dd764efdc9b595297b6a7a",
-      "text": "Now look what I got here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "57480e2b5ff36f36537d5a8a5f3f2e80532d2602a1f595fad5bf5487210023f7",
+      "sha256": [
+        "2a2a8fbcafe515d7a2ab617e1a76b27c3c39c44596dd764efdc9b595297b6a7a",
+        "57480e2b5ff36f36537d5a8a5f3f2e80532d2602a1f595fad5bf5487210023f7",
+        "fcbbf2db689b112eaa1d52bb2454b35c2f00299b54c0bb5cdac8c6b20ba257ab"
+      ],
       "text": "Now look what I got here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

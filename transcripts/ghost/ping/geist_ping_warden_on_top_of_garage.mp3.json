@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_warden_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "8ad912300a0238116e7bc85170e314f79125d9d1a4027e25b41b2d950ce1256c",
-      "text": "What is on top of the garage?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a6c7549390da08f40974c79368858ed9201ab4083e3f496ebd0248a714cbe8f",
+      "sha256": [
+        "2a6c7549390da08f40974c79368858ed9201ab4083e3f496ebd0248a714cbe8f",
+        "8ad912300a0238116e7bc85170e314f79125d9d1a4027e25b41b2d950ce1256c"
+      ],
       "text": "What is on top of the garage?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

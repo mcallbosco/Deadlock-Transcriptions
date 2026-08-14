@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_defend_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "cf2ac01265fdd4a0f9ac29b756d8e9612841bbfacd65636a69d434bf77b6ec75",
+      "sha256": [
+        "cf2ac01265fdd4a0f9ac29b756d8e9612841bbfacd65636a69d434bf77b6ec75",
+        "f59781178811337f31001cb533f0cb54ec472a6c68a19047838094bb04d1d365"
+      ],
       "text": "Defend Yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f59781178811337f31001cb533f0cb54ec472a6c68a19047838094bb04d1d365",
-      "text": "Defend yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

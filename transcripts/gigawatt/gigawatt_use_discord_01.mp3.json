@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_discord_01.mp3",
   "revisions": [
     {
-      "sha256": "bbf0df71c4a53b88c168bcc790d46e52f38a47d4682a96c0bf0994272a99d5af",
-      "text": "Discord.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a220ecd44f5e62bc696207b313bb968262dd595fb5a6c25ddd09a0e82831594",
-      "text": "Discord.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd0e13931eb9300a21a15fa5baaadc15534668521ec5d49e7b7852e260c6e1eb",
+      "sha256": [
+        "2a220ecd44f5e62bc696207b313bb968262dd595fb5a6c25ddd09a0e82831594",
+        "bbf0df71c4a53b88c168bcc790d46e52f38a47d4682a96c0bf0994272a99d5af",
+        "cd0e13931eb9300a21a15fa5baaadc15534668521ec5d49e7b7852e260c6e1eb"
+      ],
       "text": "Discord.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

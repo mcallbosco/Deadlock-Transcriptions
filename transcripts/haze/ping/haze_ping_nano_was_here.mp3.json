@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_nano_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5149d14e97ea55ca6c92c414b42329cba31bd0f52d09e829ed98c573884cfd55",
+      "sha256": [
+        "5149d14e97ea55ca6c92c414b42329cba31bd0f52d09e829ed98c573884cfd55",
+        "7744e33a66464a1e80f2d486a32bb96baafc0ad10259fff422fb64badcbc1d65"
+      ],
       "text": "Calico was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b229dc65578ad75c8a3869bb84078a1ccfbd80c0660b956a98e27af1b8c9cb21",
+      "sha256": [
+        "b229dc65578ad75c8a3869bb84078a1ccfbd80c0660b956a98e27af1b8c9cb21",
+        "fe46543c4a2e9bcde8e3831b00eb4a90c9dbf2e0b50ba71a98064679b8dcdfe0"
+      ],
       "text": "Calico is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe46543c4a2e9bcde8e3831b00eb4a90c9dbf2e0b50ba71a98064679b8dcdfe0",
-      "text": "Calico is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7744e33a66464a1e80f2d486a32bb96baafc0ad10259fff422fb64badcbc1d65",
-      "text": "Calico was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

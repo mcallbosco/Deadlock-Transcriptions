@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "5aec7ca33b6adadb96dc6d8c54838e2d7b9ec60737c59c1b3b591f9052843fe8",
+      "sha256": [
+        "5aec7ca33b6adadb96dc6d8c54838e2d7b9ec60737c59c1b3b591f9052843fe8"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

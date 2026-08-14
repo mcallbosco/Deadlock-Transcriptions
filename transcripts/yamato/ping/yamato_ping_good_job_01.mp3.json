@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "6ca055987abb8f37fe14c5ea51b6b8537ef5e650bc1292b5d81af6ddd264a290",
-      "text": "Good job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "057637f58aea60c09afff0ab08ae6aa6356b3d1e91ce9a4d3dc7daf9526f7b49",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2d3a8c44349cb0879f13c0240fa6a2d0a07eeea8a4db1e4bc1fd6364110ad3d",
+      "sha256": [
+        "057637f58aea60c09afff0ab08ae6aa6356b3d1e91ce9a4d3dc7daf9526f7b49",
+        "6ca055987abb8f37fe14c5ea51b6b8537ef5e650bc1292b5d81af6ddd264a290",
+        "f2d3a8c44349cb0879f13c0240fa6a2d0a07eeea8a4db1e4bc1fd6364110ad3d"
+      ],
       "text": "Good job.",
       "source": "official"
     }

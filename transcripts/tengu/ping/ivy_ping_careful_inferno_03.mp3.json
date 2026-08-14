@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_inferno_03.mp3",
   "revisions": [
     {
-      "sha256": "a15bf71949a52b00a9e99101109b9c37e6708bd5df34c4e892962b3282d52c8f",
-      "text": "Careful, Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30513fd3add2b9bff2864aeb40103b4139b5d43a40cc40c58422e1286c20fa8d",
+      "sha256": [
+        "30513fd3add2b9bff2864aeb40103b4139b5d43a40cc40c58422e1286c20fa8d",
+        "a15bf71949a52b00a9e99101109b9c37e6708bd5df34c4e892962b3282d52c8f"
+      ],
       "text": "Careful, Infernus!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

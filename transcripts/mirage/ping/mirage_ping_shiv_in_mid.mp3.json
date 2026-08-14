@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_shiv_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "be3beafa936cdfcdad0beaa5cfe2b3f4ba062e1def98e59a6c698199d433dab3",
+      "sha256": [
+        "be3beafa936cdfcdad0beaa5cfe2b3f4ba062e1def98e59a6c698199d433dab3"
+      ],
       "text": "Is that right?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a8938e81d18d68b7e47dea636d703e40d1f335253f6f653415fcb76419b912b5",
+      "sha256": [
+        "67172dba40e6e7d651b74d9a1d3cda5c6131602d741e867af3d8306ee650ccf0",
+        "a8938e81d18d68b7e47dea636d703e40d1f335253f6f653415fcb76419b912b5"
+      ],
       "text": "Seasoned.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "67172dba40e6e7d651b74d9a1d3cda5c6131602d741e867af3d8306ee650ccf0",
-      "text": "Seasoned!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "366788a52b864dfb57f25615ba65a1a4ca7f7afa6f31a16399c8b7a2bc371054",
+      "sha256": [
+        "366788a52b864dfb57f25615ba65a1a4ca7f7afa6f31a16399c8b7a2bc371054"
+      ],
       "text": "Shiv's in mid!",
       "source": "official"
     }

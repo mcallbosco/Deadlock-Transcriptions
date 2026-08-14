@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_kill_04.mp3",
   "revisions": [
     {
-      "sha256": "972e4a092be68e5e343e0780bf112aff920b17170643d03a1c63d35a7ff64f67",
+      "sha256": [
+        "71f2b13d9cc01e3584e68abf2db5e3e56d2d5955e5b224aa64c185dd17910a63",
+        "972e4a092be68e5e343e0780bf112aff920b17170643d03a1c63d35a7ff64f67",
+        "ca71435a90f54d2c068158f2737d1dcd43d56cbd503599e27827715ff6de0f70"
+      ],
       "text": "Still standing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71f2b13d9cc01e3584e68abf2db5e3e56d2d5955e5b224aa64c185dd17910a63",
-      "text": "Still standing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca71435a90f54d2c068158f2737d1dcd43d56cbd503599e27827715ff6de0f70",
-      "text": "Still standing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_take_shrine.mp3",
   "revisions": [
     {
-      "sha256": "726a431d31ba2f7a71c704eebcc75174fdce3d6d82195e11fb5f401fdd755017",
+      "sha256": [
+        "726a431d31ba2f7a71c704eebcc75174fdce3d6d82195e11fb5f401fdd755017",
+        "7e16dcf2bd7cf242b20638e84fe46c0f834824666a10f00bf85d7f8ab2bd0c96"
+      ],
       "text": "It's time to end this!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e16dcf2bd7cf242b20638e84fe46c0f834824666a10f00bf85d7f8ab2bd0c96",
-      "text": "It's time to end this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

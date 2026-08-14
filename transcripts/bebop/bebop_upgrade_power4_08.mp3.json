@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power4_08.mp3",
   "revisions": [
     {
-      "sha256": "d0b8efcbda381be36f13cbcf0359d9525f84385f39cec30b821b0aa32c23eed2",
-      "text": "This'll send 'em running.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c27c6a73a563af149c23ec5bfe48ae18d3aa3ca05f9b1d0e45c6a95d841535e6",
+      "sha256": [
+        "c27c6a73a563af149c23ec5bfe48ae18d3aa3ca05f9b1d0e45c6a95d841535e6",
+        "d0b8efcbda381be36f13cbcf0359d9525f84385f39cec30b821b0aa32c23eed2"
+      ],
       "text": "This'll send 'em running…",
       "source": "official"
     }

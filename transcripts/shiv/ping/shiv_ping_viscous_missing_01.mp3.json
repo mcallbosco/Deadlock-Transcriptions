@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a2776141a03026555c73f7063d98972b3e884eb2f6123ae338110c89949ecabe",
+      "sha256": [
+        "9ead3eeeeb108a26f5c5f3df6c45d9772498b210def11037c5d6edc0d4002aba",
+        "a2776141a03026555c73f7063d98972b3e884eb2f6123ae338110c89949ecabe"
+      ],
       "text": "This is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9ead3eeeeb108a26f5c5f3df6c45d9772498b210def11037c5d6edc0d4002aba",
-      "text": "This is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0941eb9f126c02a9b0d10be6f2614b9fdbc4f75be96f44c5711b4996bda95130",
+      "sha256": [
+        "0941eb9f126c02a9b0d10be6f2614b9fdbc4f75be96f44c5711b4996bda95130"
+      ],
       "text": "Viscous's missing",
       "source": "official"
     }

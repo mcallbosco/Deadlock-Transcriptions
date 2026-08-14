@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_tengu_02.mp3",
   "revisions": [
     {
-      "sha256": "97b5a14ff21e66b313390aab97c473acaf506e6a366629f826c0376df80eaae2",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ced9d3c390db0c34419fc5056e0a9f510e4066da11f8fe447d345863703e7a04",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7c140b098c2459636820df32b293a500794ed0df27f499d7edcc253c2139eef",
+      "sha256": [
+        "97b5a14ff21e66b313390aab97c473acaf506e6a366629f826c0376df80eaae2",
+        "a7c140b098c2459636820df32b293a500794ed0df27f499d7edcc253c2139eef",
+        "ced9d3c390db0c34419fc5056e0a9f510e4066da11f8fe447d345863703e7a04"
+      ],
       "text": "Careful, ivy",
       "source": "official"
     }

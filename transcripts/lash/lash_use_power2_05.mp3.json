@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_use_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "e41eeee138d5be76db193e09587c491a714f6385a9a9b0d96df31e9cbd12e4f4",
+      "sha256": [
+        "0f59a17e452cf27d24b3ce6f34f1265a63ab3c4833f9534656f776f50b3b071a",
+        "1f24a2e140318c41aa6c962d8a98948807a8ee8f0cde9951ff7b1fe35f66945a",
+        "e41eeee138d5be76db193e09587c491a714f6385a9a9b0d96df31e9cbd12e4f4"
+      ],
       "text": "I can do this all day!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f24a2e140318c41aa6c962d8a98948807a8ee8f0cde9951ff7b1fe35f66945a",
-      "text": "I can do this all day!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f59a17e452cf27d24b3ce6f34f1265a63ab3c4833f9534656f776f50b3b071a",
-      "text": "I can do this all day!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "450b2b18860eae4d4b836b1392454553fd588f616c2327ca7de936f12b3c9ba6",
+      "sha256": [
+        "450b2b18860eae4d4b836b1392454553fd588f616c2327ca7de936f12b3c9ba6"
+      ],
       "text": "I could do this all day…",
       "source": "official"
     }

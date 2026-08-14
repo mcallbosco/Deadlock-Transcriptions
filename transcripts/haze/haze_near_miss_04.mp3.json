@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_near_miss_04.mp3",
   "revisions": [
     {
-      "sha256": "4add3464f7776d3a21651a877b6ade56e2454c0c6355a9cf02e54fd48ac815f6",
+      "sha256": [
+        "170461c3df61ad12143cef7faec6dc93934847cb32b7f5077798d907ecad7e7f",
+        "3a34684343811b76f5554fc9cbe80f8d31016f1430998d72cdecf9dda4a326eb",
+        "4add3464f7776d3a21651a877b6ade56e2454c0c6355a9cf02e54fd48ac815f6",
+        "4c8bfd455d328ec1133deabcf9b06af3c0e6b1f087fb2dc985f32c52f09bf4f4"
+      ],
       "text": "They knew they were outmatched.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "c91b0c350ac52ccadd5a54c3e7cd32c890be6fd21f7a9a6df40980e6f94a678d",
+      "sha256": [
+        "c91b0c350ac52ccadd5a54c3e7cd32c890be6fd21f7a9a6df40980e6f94a678d"
+      ],
       "text": "I knew they were outmatched.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c8bfd455d328ec1133deabcf9b06af3c0e6b1f087fb2dc985f32c52f09bf4f4",
-      "text": "They knew they were outmatched.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a34684343811b76f5554fc9cbe80f8d31016f1430998d72cdecf9dda4a326eb",
-      "text": "They knew they were outmatched.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "170461c3df61ad12143cef7faec6dc93934847cb32b7f5077798d907ecad7e7f",
-      "text": "They knew they were outmatched.",
-      "source": "official"
     }
   ]
 }

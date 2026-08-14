@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a3a47d9c1b56801518dc1f500c2440b057b60c53fa048364b292faa5125575d4",
-      "text": "Seven was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce72ffffef6981c773599d527a4df5bddbd6b7209b1936f75023ea6f6f0299ce",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21c1387f0f667373488d068fb5ef8fa1fa4d84a5122c122289f2fb597ad27df4",
+      "sha256": [
+        "21c1387f0f667373488d068fb5ef8fa1fa4d84a5122c122289f2fb597ad27df4",
+        "a3a47d9c1b56801518dc1f500c2440b057b60c53fa048364b292faa5125575d4",
+        "ce72ffffef6981c773599d527a4df5bddbd6b7209b1936f75023ea6f6f0299ce"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

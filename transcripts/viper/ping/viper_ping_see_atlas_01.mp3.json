@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "c8cf5b17c6422c91efe6f7fbd5c7e52a65d0d8214fc19aea906af4920561fd62",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "761c2c44b05c39c6586fc385cf29ddca6e976a19a4349166945888d75226f5bb",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ea7110d8b3ee9d4d029f8f34e2132cdf9ddf242d1e1881ad8e23882aeb04eb4",
+      "sha256": [
+        "2ea7110d8b3ee9d4d029f8f34e2132cdf9ddf242d1e1881ad8e23882aeb04eb4",
+        "761c2c44b05c39c6586fc385cf29ddca6e976a19a4349166945888d75226f5bb",
+        "c8cf5b17c6422c91efe6f7fbd5c7e52a65d0d8214fc19aea906af4920561fd62"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

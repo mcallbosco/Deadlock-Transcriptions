@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power2_06.mp3",
   "revisions": [
     {
-      "sha256": "9e468c5c6e9a53046e7d0f2b066121a6a21967dc2d33bf88d13d9b77dddb3f95",
-      "text": "Run, cowards!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7afd5463eaa0fb067de4d6712907539d127b3d30174982ef3b5bced3c8e9cef9",
-      "text": "Run, cowards!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1ac24fc00a787a8cc56ed5f4ef0f5979751e607b54c40ea7a4a2707a3c4483f",
+      "sha256": [
+        "7afd5463eaa0fb067de4d6712907539d127b3d30174982ef3b5bced3c8e9cef9",
+        "9e468c5c6e9a53046e7d0f2b066121a6a21967dc2d33bf88d13d9b77dddb3f95",
+        "e1ac24fc00a787a8cc56ed5f4ef0f5979751e607b54c40ea7a4a2707a3c4483f"
+      ],
       "text": "Run, cowards!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

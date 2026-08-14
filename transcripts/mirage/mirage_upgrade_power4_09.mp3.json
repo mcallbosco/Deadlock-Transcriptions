@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "3afde853d8fb9c1ce0bca273f6ba9a43aed7874df535a83930652d890cab7360",
+      "sha256": [
+        "3afde853d8fb9c1ce0bca273f6ba9a43aed7874df535a83930652d890cab7360"
+      ],
       "text": "I solve the business and that's not.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e275c2a73ddade36d3b47b565410865301d5f576b2d65661fef33f04781e8b23",
+      "sha256": [
+        "cf0deefa02755eb3afbef3bd712032e8077991b31012f96d94cc1e47eae369a6",
+        "e275c2a73ddade36d3b47b565410865301d5f576b2d65661fef33f04781e8b23"
+      ],
       "text": "They will taste the wrath of the Djinn.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cf0deefa02755eb3afbef3bd712032e8077991b31012f96d94cc1e47eae369a6",
-      "text": "They will taste the wrath of the Djinn.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b3f12cfef973c5c5974859b607f1ef1aa2dca146412bf5a7546eb16b995f31f",
+      "sha256": [
+        "2b3f12cfef973c5c5974859b607f1ef1aa2dca146412bf5a7546eb16b995f31f"
+      ],
       "text": "Nashala will take me where I need to go",
       "source": "official"
     }

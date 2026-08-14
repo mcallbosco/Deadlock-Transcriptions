@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_orion_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "bc9817b86cb5370a849f64f3a1638b6a0455dd14b4ae1e52dc5e2427b8437c49",
+      "sha256": [
+        "bc9817b86cb5370a849f64f3a1638b6a0455dd14b4ae1e52dc5e2427b8437c49",
+        "cfb8bc0a84e6db052d9f9d53fe4e8b22ed2df432858cfb1669986c722268630b"
+      ],
       "text": "Grey Talon is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b8b92fd1d680fc6a3022465dad256e41b7b76203407d09b51c79f296ce33fe8a",
+      "sha256": [
+        "b8b92fd1d680fc6a3022465dad256e41b7b76203407d09b51c79f296ce33fe8a"
+      ],
       "text": "Great talent is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cfb8bc0a84e6db052d9f9d53fe4e8b22ed2df432858cfb1669986c722268630b",
-      "text": "Grey Talon is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

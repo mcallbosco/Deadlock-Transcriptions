@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "c8eb671e858c20bdebfcfaf5eb075c11c33ed0da0cedd26f7c8ad596b9e93ae7",
+      "sha256": [
+        "c8eb671e858c20bdebfcfaf5eb075c11c33ed0da0cedd26f7c8ad596b9e93ae7"
+      ],
       "text": "I'm with the Mirage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

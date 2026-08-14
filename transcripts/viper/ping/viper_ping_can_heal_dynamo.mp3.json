@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_can_heal_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "5589a5ecacba2af22cc655d9ef8b2975e100a36df54c4ad5812a36a6f35e187c",
-      "text": "Dynamo, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0256d7c174982dd00b624146df975d75138eef3cc76187a96ceadb3cf280f290",
-      "text": "Dynamo, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58ebdf22d7b4136c43f08564925f09471171da42a1aad0d2b8a86ef6f9636a8f",
+      "sha256": [
+        "0256d7c174982dd00b624146df975d75138eef3cc76187a96ceadb3cf280f290",
+        "5589a5ecacba2af22cc655d9ef8b2975e100a36df54c4ad5812a36a6f35e187c",
+        "58ebdf22d7b4136c43f08564925f09471171da42a1aad0d2b8a86ef6f9636a8f"
+      ],
       "text": "Dynamo, I can heal you!",
       "source": "official"
     }

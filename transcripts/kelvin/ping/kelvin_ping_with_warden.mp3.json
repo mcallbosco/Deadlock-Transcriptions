@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "94e2a04eafc25606c0fcd58893472c54adcf621a8f40b1dc45ddc9b1b8b37e8b",
+      "sha256": [
+        "94e2a04eafc25606c0fcd58893472c54adcf621a8f40b1dc45ddc9b1b8b37e8b"
+      ],
       "text": "I'm with you, Holden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "018395b23f7c9f4cb4205baaae0ef1e48e1421a8f07aecc9eafc45ff057cd903",
+      "sha256": [
+        "018395b23f7c9f4cb4205baaae0ef1e48e1421a8f07aecc9eafc45ff057cd903"
+      ],
       "text": "I'm with you, Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

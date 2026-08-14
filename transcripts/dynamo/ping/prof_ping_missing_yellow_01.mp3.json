@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "326967d543ba6ccfd9933665e572d334456187cbc5f855c28827c3591d624867",
-      "text": "Missing yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f7c3fdeb2ba34d68568c65e212a240baf84a905771d16a6f24edcb9605ed5e6",
+      "sha256": [
+        "2f7c3fdeb2ba34d68568c65e212a240baf84a905771d16a6f24edcb9605ed5e6",
+        "326967d543ba6ccfd9933665e572d334456187cbc5f855c28827c3591d624867"
+      ],
       "text": "Missing yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

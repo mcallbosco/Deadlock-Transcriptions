@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_the_boss_was_here.mp3",
   "revisions": [
     {
-      "sha256": "e20f7f676352d6cdf6cde87c88adf079738d700269584aaeab25e7d13c5aa07e",
+      "sha256": [
+        "e20f7f676352d6cdf6cde87c88adf079738d700269584aaeab25e7d13c5aa07e"
+      ],
       "text": "The boss is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

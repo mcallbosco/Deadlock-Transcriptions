@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_ignore_haze.mp3",
   "revisions": [
     {
-      "sha256": "ab9a2c2f5fca6069c2f639766134388e6897235758e0c79af419bd74fa5224c2",
-      "text": "Ignore Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3cf9d3afbc031f98e8907b1082ab368cfba4f0c27cab20c517602c0434a56487",
+      "sha256": [
+        "3cf9d3afbc031f98e8907b1082ab368cfba4f0c27cab20c517602c0434a56487",
+        "ab9a2c2f5fca6069c2f639766134388e6897235758e0c79af419bd74fa5224c2"
+      ],
       "text": "Ignore Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

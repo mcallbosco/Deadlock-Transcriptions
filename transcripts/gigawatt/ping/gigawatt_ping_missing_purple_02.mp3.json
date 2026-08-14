@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_missing_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "39429b5b01aaf0956ef6a6efae69e541dec053aa238729f46ace547a4c40dcd7",
+      "sha256": [
+        "39429b5b01aaf0956ef6a6efae69e541dec053aa238729f46ace547a4c40dcd7",
+        "746307bc6d14a57eb363dc3e477b23494c096be01a86f93288299d3ac5de9030"
+      ],
       "text": "Missing park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "746307bc6d14a57eb363dc3e477b23494c096be01a86f93288299d3ac5de9030",
-      "text": "Missing Park.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f6399d3c40029f760a2ea1b5363aeb9e3c374e79919dad410d9925b4c30b886",
+      "sha256": [
+        "4f6399d3c40029f760a2ea1b5363aeb9e3c374e79919dad410d9925b4c30b886"
+      ],
       "text": "Getting dark.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

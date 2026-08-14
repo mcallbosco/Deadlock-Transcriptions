@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_use_glitch_03.mp3",
   "revisions": [
     {
-      "sha256": "fd4b572cf23fe379d33159d9da8f46f22b455d35ec39467dc462492ae5ed4597",
-      "text": "Glitch.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce09f513e6fdbf42fe1def5f8ccdfcaed98cbc31db18bea5100fdeca200b231c",
+      "sha256": [
+        "ce09f513e6fdbf42fe1def5f8ccdfcaed98cbc31db18bea5100fdeca200b231c",
+        "fd4b572cf23fe379d33159d9da8f46f22b455d35ec39467dc462492ae5ed4597"
+      ],
       "text": "Glitch.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

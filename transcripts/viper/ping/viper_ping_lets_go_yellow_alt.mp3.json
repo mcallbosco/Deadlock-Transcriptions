@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_lets_go_yellow_alt.mp3",
   "revisions": [
     {
-      "sha256": "c466d5da4e77570888ae2ed3b5dd41e5667b5ba8b3ca97cad4164f386833309f",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a2683ca0c66be2e1536b413cd557ea095fa66151eb7d46eadf77287b442cae0a",
-      "text": "Let's go to York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d96eea9cf4fb7b48021b5949b8e3fa7c9233ac4f937e0f51abf122e2f536a545",
+      "sha256": [
+        "a2683ca0c66be2e1536b413cd557ea095fa66151eb7d46eadf77287b442cae0a",
+        "c466d5da4e77570888ae2ed3b5dd41e5667b5ba8b3ca97cad4164f386833309f",
+        "d96eea9cf4fb7b48021b5949b8e3fa7c9233ac4f937e0f51abf122e2f536a545"
+      ],
       "text": "Let's go to York!",
       "source": "official"
     }

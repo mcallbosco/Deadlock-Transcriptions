@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_fairfax_03.mp3",
   "revisions": [
     {
-      "sha256": "509c76d7e9a462555935fec22bbdcbb851ed9ed76324d51094c6116a254f87be",
+      "sha256": [
+        "493790f4d836a0d355411aa9d84cad7475d5a7331bb954ccab4035df4e9f81a2",
+        "509c76d7e9a462555935fec22bbdcbb851ed9ed76324d51094c6116a254f87be",
+        "d4b6f4d2a550f5b16edb50a6fe3c5b91c63daf7c885f10e191a2f704e2d37128"
+      ],
       "text": "Careful, Fairfax!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4b6f4d2a550f5b16edb50a6fe3c5b91c63daf7c885f10e191a2f704e2d37128",
-      "text": "Careful, Fairfax!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "493790f4d836a0d355411aa9d84cad7475d5a7331bb954ccab4035df4e9f81a2",
-      "text": "Careful, Fairfax.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

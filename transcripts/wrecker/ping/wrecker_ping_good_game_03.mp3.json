@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "3cdde2d3e69177a80918dbe8c5b31555a0ee5b57c5ea613a89454308dfc440a3",
-      "text": "Good game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b56b6b018cb908f29f7a069ac7b33dc568b9fdbbf4be0fddb48684eca9e9a95f",
+      "sha256": [
+        "3cdde2d3e69177a80918dbe8c5b31555a0ee5b57c5ea613a89454308dfc440a3",
+        "b56b6b018cb908f29f7a069ac7b33dc568b9fdbbf4be0fddb48684eca9e9a95f"
+      ],
       "text": "Good game.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

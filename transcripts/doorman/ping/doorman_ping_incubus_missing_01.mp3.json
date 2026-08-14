@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_incubus_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f332b1d55bed707c48308798c4881755b71ad73d9314c982ce3243088941fef1",
+      "sha256": [
+        "f332b1d55bed707c48308798c4881755b71ad73d9314c982ce3243088941fef1"
+      ],
       "text": "The incubus is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

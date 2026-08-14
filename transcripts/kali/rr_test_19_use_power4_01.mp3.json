@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "234f49ee86464432c038e037114961d96c60511fbff20a82416b33469ef0f69b",
-      "text": "You're not on my level.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e99213efdb69ded0f70a8db91774f0288ad16447ec4b732482caddbcaeab5433",
-      "text": "You're not on my level.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9b1a262bb86110084a3eac30b8d4cd653b744e80560e7619904544b425a3c59",
+      "sha256": [
+        "234f49ee86464432c038e037114961d96c60511fbff20a82416b33469ef0f69b",
+        "b9b1a262bb86110084a3eac30b8d4cd653b744e80560e7619904544b425a3c59",
+        "e99213efdb69ded0f70a8db91774f0288ad16447ec4b732482caddbcaeab5433"
+      ],
       "text": "You're not on my level.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power4_07.mp3",
   "revisions": [
     {
-      "sha256": "fc80c5ad0feb7cb1c0d597b5f52f3f76eed67f426836d6198be2a43f4c4bbafc",
+      "sha256": [
+        "fc80c5ad0feb7cb1c0d597b5f52f3f76eed67f426836d6198be2a43f4c4bbafc"
+      ],
       "text": "All right, fine for me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3f24ddd181b97d6305598ef11cbf50304af026fc46e52939913ee2c646fd97ed",
+      "sha256": [
+        "3f24ddd181b97d6305598ef11cbf50304af026fc46e52939913ee2c646fd97ed",
+        "fe27222e982899d33af5ad26ce929a96b026c9dc041a48906a834fa6cea53a53"
+      ],
       "text": "The shell will bind them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fe27222e982899d33af5ad26ce929a96b026c9dc041a48906a834fa6cea53a53",
-      "text": "The shell will bind them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59ae0d670089f05ddda0c14f21f735a89117d6b97237dd2b8022455eacdd5e0f",
+      "sha256": [
+        "59ae0d670089f05ddda0c14f21f735a89117d6b97237dd2b8022455eacdd5e0f"
+      ],
       "text": "I'm always ready to support my allies",
       "source": "official"
     }

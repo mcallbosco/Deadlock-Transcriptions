@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "f8123e7e56022617e591001c3a596e355c4ac708c6adc3ff331dee9216b6a6f4",
+      "sha256": [
+        "f8123e7e56022617e591001c3a596e355c4ac708c6adc3ff331dee9216b6a6f4"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b025e514a45842942bf2e043c25b6905778c3ec041a74a0745e55e43fc6e9fe8",
+      "sha256": [
+        "b025e514a45842942bf2e043c25b6905778c3ec041a74a0745e55e43fc6e9fe8"
+      ],
       "text": "I see you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_wraith.mp3",
   "revisions": [
     {
-      "sha256": "b84da5a722e85f90ba6f4ad1270b2465b7a5a32fd91837edd9f72a7262aa1975",
+      "sha256": [
+        "4e18574b7a1b866a4f5bc62e8cb4a81cdb3a2bc1594032463ec9e915b069060d",
+        "b84da5a722e85f90ba6f4ad1270b2465b7a5a32fd91837edd9f72a7262aa1975",
+        "d38fa272de01dcdc3896b5ddf38292c873aa09839ca91ecde6aa2a0b6ab5f268"
+      ],
       "text": "I'm with you, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4e18574b7a1b866a4f5bc62e8cb4a81cdb3a2bc1594032463ec9e915b069060d",
-      "text": "I'm with you, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d38fa272de01dcdc3896b5ddf38292c873aa09839ca91ecde6aa2a0b6ab5f268",
-      "text": "I'm with you, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6a3d8c8b36d535a40af042a278e264150926595995d1c0d321afb9bd6a28ce1f",
+      "sha256": [
+        "6a3d8c8b36d535a40af042a278e264150926595995d1c0d321afb9bd6a28ce1f"
+      ],
       "text": "I'm with you, Rafe.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

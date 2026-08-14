@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "9d7cf4c411f6a3bbce1ad9b050945cd697970f374bdb553097142864644706a6",
+      "sha256": [
+        "9d7cf4c411f6a3bbce1ad9b050945cd697970f374bdb553097142864644706a6",
+        "b65ba8fb91ff705e797bb2300291f4a63d04b5cb358281ef1f941b67179559d3"
+      ],
       "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b65ba8fb91ff705e797bb2300291f4a63d04b5cb358281ef1f941b67179559d3",
-      "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power3_07.mp3",
   "revisions": [
     {
-      "sha256": "87ead01c2bb5d05328c7039e7cd923ce4976efb94ffc86e21b15793431948a5f",
-      "text": "With every victory, I grow stronger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe9d8a36920554df1eeac5cb873fc07a209bf699dac9b743c6c62f611e1b301c",
-      "text": "With every victory, I grow stronger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5bce5571b92c148447091338894dbe98258c6143bb38ed2281222642a03fc6f",
+      "sha256": [
+        "87ead01c2bb5d05328c7039e7cd923ce4976efb94ffc86e21b15793431948a5f",
+        "d5bce5571b92c148447091338894dbe98258c6143bb38ed2281222642a03fc6f",
+        "fe9d8a36920554df1eeac5cb873fc07a209bf699dac9b743c6c62f611e1b301c"
+      ],
       "text": "With every victory, I grow stronger.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

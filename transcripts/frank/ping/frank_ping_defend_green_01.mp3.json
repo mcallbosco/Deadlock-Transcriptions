@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_defend_green_01.mp3",
   "revisions": [
     {
-      "sha256": "bcf0763af5272e03d204181b8d7c65e8b3b52475ccf9ee82b7942dc2ef2a3fd6",
-      "text": "Defend green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90453eca94eb4658bc04320305ce88bba2d848d480f284a1aa62f46a9a6ffaf5",
+      "sha256": [
+        "90453eca94eb4658bc04320305ce88bba2d848d480f284a1aa62f46a9a6ffaf5",
+        "bcf0763af5272e03d204181b8d7c65e8b3b52475ccf9ee82b7942dc2ef2a3fd6"
+      ],
       "text": "Defend Green.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_good_game_02.mp3",
   "revisions": [
     {
-      "sha256": "6707ddfca7b062e95746be9eaaf8a9716db37029ef94659ddaceaa3067cef412",
-      "text": "That was fun!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c53f7f00fb971e94721ca5a2bd222f36d5c4d3d702b8c0840da0f7e0645f6a9",
+      "sha256": [
+        "5c53f7f00fb971e94721ca5a2bd222f36d5c4d3d702b8c0840da0f7e0645f6a9",
+        "6707ddfca7b062e95746be9eaaf8a9716db37029ef94659ddaceaa3067cef412"
+      ],
       "text": "That was fun",
       "source": "official"
     }

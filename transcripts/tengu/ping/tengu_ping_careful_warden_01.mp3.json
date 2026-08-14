@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "ba849f0baf77c127cffa77c0d0689be2a374b601eb656a27abfc13b17e242ae1",
+      "sha256": [
+        "ba849f0baf77c127cffa77c0d0689be2a374b601eb656a27abfc13b17e242ae1"
+      ],
       "text": "Careful watching.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "803c3bb7bd51b0dab88e2c80ea73b6da996a3eb5b31b6edbc21bdfbcc04caab5",
+      "sha256": [
+        "803c3bb7bd51b0dab88e2c80ea73b6da996a3eb5b31b6edbc21bdfbcc04caab5"
+      ],
       "text": "Careful, Warden…",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_infernus_check_items.mp3",
   "revisions": [
     {
-      "sha256": "1a73ced1686c86426daea28306b1ea4cd29637a51928b6ea1faeee964ed989cc",
-      "text": "Check out what Infernus bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a50a11ccc8ba0ba5abd06ae0a2a70a5100da6b64ceff8fa19262d1aa5ebdc083",
+      "sha256": [
+        "1a73ced1686c86426daea28306b1ea4cd29637a51928b6ea1faeee964ed989cc",
+        "a50a11ccc8ba0ba5abd06ae0a2a70a5100da6b64ceff8fa19262d1aa5ebdc083"
+      ],
       "text": "Check out what Infernus bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

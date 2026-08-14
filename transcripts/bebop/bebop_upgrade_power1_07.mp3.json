@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power1_07.mp3",
   "revisions": [
     {
-      "sha256": "8bd9139df2e19adc0f70fa8a141ebd0b0dd8b67bd088bfb39abc80949c83336a",
+      "sha256": [
+        "8bd9139df2e19adc0f70fa8a141ebd0b0dd8b67bd088bfb39abc80949c83336a"
+      ],
       "text": "The old left hand won me a lot of purses, know what I mean?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cb31756c0b23f294c8421095cb4c5ea176054a046ac478ba64609b2ab03f9367",
+      "sha256": [
+        "cb31756c0b23f294c8421095cb4c5ea176054a046ac478ba64609b2ab03f9367"
+      ],
       "text": "The ol' left hand won me a lot of purses.",
       "source": "official"
     }

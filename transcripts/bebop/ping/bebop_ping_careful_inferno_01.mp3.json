@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_inferno_01.mp3",
   "revisions": [
     {
-      "sha256": "6a8aff70949aa7551680e29cc8af8e4af64275e6ee8d4be39d70145d590bcc67",
+      "sha256": [
+        "6a8aff70949aa7551680e29cc8af8e4af64275e6ee8d4be39d70145d590bcc67"
+      ],
       "text": "Get the latest letters.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cbd45a20f76bc84c38c956a320116f67972339a2b370bcf081636b2db5454996",
+      "sha256": [
+        "cbd45a20f76bc84c38c956a320116f67972339a2b370bcf081636b2db5454996"
+      ],
       "text": "Careful, Infernus…",
       "source": "official"
     }

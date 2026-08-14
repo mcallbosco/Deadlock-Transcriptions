@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_ballista.mp3",
   "revisions": [
     {
-      "sha256": "2908f41e6c5659aa450e464c73e065725f5a91a10a69bdb5f0203cacbefb01d3",
+      "sha256": [
+        "2908f41e6c5659aa450e464c73e065725f5a91a10a69bdb5f0203cacbefb01d3",
+        "44030b14eec796a6cd9a6cd31995248258387eaad991ac775c7aa7ea16a08f93",
+        "e6ebc4a46b5d5cbbe55654eb7a15fedd3f7a2c8a4eafd186b1d76caa938563cf"
+      ],
       "text": "Thanks, Melissa.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6ebc4a46b5d5cbbe55654eb7a15fedd3f7a2c8a4eafd186b1d76caa938563cf",
-      "text": "Thanks, Melissa.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44030b14eec796a6cd9a6cd31995248258387eaad991ac775c7aa7ea16a08f93",
-      "text": "Thanks, Melissa!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

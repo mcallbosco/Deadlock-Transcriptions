@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_atlas.mp3",
   "revisions": [
     {
-      "sha256": "8044a9ca5734e6c0bb871f1ef437898cd09e2507eab17903f456d97816460a2b",
+      "sha256": [
+        "62ad9734efa145f1518ca29a68f7d6a2e09c4fff1d73cbeabbf52bb54a5f0495",
+        "8044a9ca5734e6c0bb871f1ef437898cd09e2507eab17903f456d97816460a2b"
+      ],
       "text": "Abrams, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "62ad9734efa145f1518ca29a68f7d6a2e09c4fff1d73cbeabbf52bb54a5f0495",
-      "text": "Abrams, I can hear you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "701d71c81b595de36c98694ce19b83d308e0bb29d30305dfb0effdcff9614c07",
+      "sha256": [
+        "701d71c81b595de36c98694ce19b83d308e0bb29d30305dfb0effdcff9614c07"
+      ],
       "text": "Abrams, I can heal you!",
       "source": "official"
     }

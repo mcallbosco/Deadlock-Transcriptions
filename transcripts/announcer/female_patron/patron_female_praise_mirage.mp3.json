@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_mirage.mp3",
   "revisions": [
     {
-      "sha256": "942b293a0a7078fc421f4fe025bf728c0e943f5bf6c7a32660d4a59eab757087",
-      "text": "Well done, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "27e812fcc3114ff02e1f61b44e4ac541aa7e931b83deb01c31e40365da42c55c",
-      "text": "Well done, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac41a59e80eafa0728c21d374f9bbd57fb8bcffe69aa9e8e952478d22c1c08d9",
+      "sha256": [
+        "27e812fcc3114ff02e1f61b44e4ac541aa7e931b83deb01c31e40365da42c55c",
+        "942b293a0a7078fc421f4fe025bf728c0e943f5bf6c7a32660d4a59eab757087",
+        "ac41a59e80eafa0728c21d374f9bbd57fb8bcffe69aa9e8e952478d22c1c08d9"
+      ],
       "text": "Well done Mirage",
       "source": "official"
     }

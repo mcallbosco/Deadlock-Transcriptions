@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "3296c1ce9d0de3f9dc9f09c98e4fbd2b7f7c6d7cdd58ae19273aedff991f099b",
-      "text": "Let's find me a victim.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08f2766a63b8ccb07275437fef6d6fe9895fae96f44e3fed964a838a2889e528",
-      "text": "Let's find me a victim.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdc030c02ef22cc56ac445a0305dfafe9f417ebb30246a1cf8f1c61241daa9ed",
+      "sha256": [
+        "08f2766a63b8ccb07275437fef6d6fe9895fae96f44e3fed964a838a2889e528",
+        "3296c1ce9d0de3f9dc9f09c98e4fbd2b7f7c6d7cdd58ae19273aedff991f099b",
+        "fdc030c02ef22cc56ac445a0305dfafe9f417ebb30246a1cf8f1c61241daa9ed"
+      ],
       "text": "Let's find me a victim.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

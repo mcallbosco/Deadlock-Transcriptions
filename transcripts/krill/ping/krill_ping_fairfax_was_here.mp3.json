@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_fairfax_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4fb28d7f5d8430d9b81b82f87b8a2bb1bbba829e0b1048a534aa537f09fc4f78",
+      "sha256": [
+        "096270002f36fa2537e34a023302e4c4cb5ed3fef16b81d4c77a97e2888fede8",
+        "4fb28d7f5d8430d9b81b82f87b8a2bb1bbba829e0b1048a534aa537f09fc4f78"
+      ],
       "text": "Fairfax was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "096270002f36fa2537e34a023302e4c4cb5ed3fef16b81d4c77a97e2888fede8",
-      "text": "Fairfax was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "207ae973462238ff24716ef9a7c919b8f4daa514b0b990c7bd8ea2b938a05830",
+      "sha256": [
+        "207ae973462238ff24716ef9a7c919b8f4daa514b0b990c7bd8ea2b938a05830"
+      ],
       "text": "Terrapax was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

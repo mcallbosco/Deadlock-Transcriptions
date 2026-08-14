@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_pick_up_rejuv_01.mp3",
   "revisions": [
     {
-      "sha256": "431400a1dbe672aa726c6f21f61e56f123f58d34e8d5b8a5432f551dfb911011",
-      "text": "We have the Rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "47e58c5021629d38db8d78b570fefaa76bbf5f62ae75dd15639541c7417ba608",
-      "text": "We have the rejuvenator.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ea02afe0a13e28ee6f9d4660bc31590dc5fb61c4a7e5bd50d59b1a93fe521f0",
+      "sha256": [
+        "2ea02afe0a13e28ee6f9d4660bc31590dc5fb61c4a7e5bd50d59b1a93fe521f0",
+        "431400a1dbe672aa726c6f21f61e56f123f58d34e8d5b8a5432f551dfb911011",
+        "47e58c5021629d38db8d78b570fefaa76bbf5f62ae75dd15639541c7417ba608"
+      ],
       "text": "We have the Rejuvenator.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

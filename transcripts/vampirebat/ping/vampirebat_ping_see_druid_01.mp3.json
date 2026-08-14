@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_druid_01.mp3",
   "revisions": [
     {
-      "sha256": "3add1e34fcdcfe1c68d88b38d8529b8d739ba5c59d9bf74947fb2b123e9d0438",
-      "text": "I see the druid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f71c01b9a7232479f3438c31e123034ede16efeb6e87b5112462e9551fd6107",
+      "sha256": [
+        "0f71c01b9a7232479f3438c31e123034ede16efeb6e87b5112462e9551fd6107",
+        "3add1e34fcdcfe1c68d88b38d8529b8d739ba5c59d9bf74947fb2b123e9d0438"
+      ],
       "text": "I see the druid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_vindicta_1.mp3",
   "revisions": [
     {
-      "sha256": "19654b78c902264f72d8807344f1840731b9c31bf1d203d273b878986c4149a4",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c383b1bd6a66fdb1dcda8a6e440af6f4e7309201bce7cc607f81598dfae04b8",
+      "sha256": [
+        "19654b78c902264f72d8807344f1840731b9c31bf1d203d273b878986c4149a4",
+        "6c383b1bd6a66fdb1dcda8a6e440af6f4e7309201bce7cc607f81598dfae04b8"
+      ],
       "text": "I'm with you, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

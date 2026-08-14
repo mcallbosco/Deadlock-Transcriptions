@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_thank_atlas.mp3",
   "revisions": [
     {
-      "sha256": "9d7c97089d5e8b14a88d11ee895158c141fc0a734562ba0ba5f262390d436ed4",
+      "sha256": [
+        "012266f5bcb053b8b6f7b9e2e528ea3210da457eec644c90b60e8a59e1f2cf9b",
+        "9d7c97089d5e8b14a88d11ee895158c141fc0a734562ba0ba5f262390d436ed4",
+        "a882ef1d7912a617eadb4cba3079a49ce0b1712da591a23913f2226c415cd5b7"
+      ],
       "text": "Thanks, Atlas.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a882ef1d7912a617eadb4cba3079a49ce0b1712da591a23913f2226c415cd5b7",
-      "text": "Thanks, Atlas.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "012266f5bcb053b8b6f7b9e2e528ea3210da457eec644c90b60e8a59e1f2cf9b",
-      "text": "Thanks, Atlas!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

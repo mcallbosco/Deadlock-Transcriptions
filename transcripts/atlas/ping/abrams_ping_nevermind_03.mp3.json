@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_nevermind_03.mp3",
   "revisions": [
     {
-      "sha256": "55b1579cc2a84596f4d7858201fcaec1e9efa4ad8dbc17ac29eccdc25abbd916",
+      "sha256": [
+        "55b1579cc2a84596f4d7858201fcaec1e9efa4ad8dbc17ac29eccdc25abbd916",
+        "c1a2927a7cd4b85bcf5f288e9048fc8314fc39f9c25d7fd4c7cfd97333b284ec"
+      ],
       "text": "Nah, nah, nah.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "346c110c80f07989acfdd3ebe97959bfd5417fbf994acc087c19e6c467ebd6e9",
+      "sha256": [
+        "346c110c80f07989acfdd3ebe97959bfd5417fbf994acc087c19e6c467ebd6e9"
+      ],
       "text": "No, no, no.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1a2927a7cd4b85bcf5f288e9048fc8314fc39f9c25d7fd4c7cfd97333b284ec",
-      "text": "Nah, nah, nah.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

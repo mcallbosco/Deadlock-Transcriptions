@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_match_win_01.mp3",
   "revisions": [
     {
-      "sha256": "b13320fd845ac35bc8131e4b134683cdefde75408399ba11168e4fa81fd089ae",
+      "sha256": [
+        "b13320fd845ac35bc8131e4b134683cdefde75408399ba11168e4fa81fd089ae",
+        "f3397ee634712ffab37aa45bf87dfd672ef81cdd844e0d5f3dcb0c8256320d85"
+      ],
       "text": "Victory!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f3397ee634712ffab37aa45bf87dfd672ef81cdd844e0d5f3dcb0c8256320d85",
-      "text": "Victory.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

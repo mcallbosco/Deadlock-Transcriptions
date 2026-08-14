@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3aeccc5966f47f3460c47de3ea46f5e3d2799e3ae61cb06fb19225a2881980c4",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "379cf0dd1dce7c3daf7406a6af7a8b6455cf0bda8cfd60736482e70928f8de9a",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "287f43c65c43edc1d3ed935f1a68d9c492d4b0afd60ca08387ce367329ab8526",
+      "sha256": [
+        "287f43c65c43edc1d3ed935f1a68d9c492d4b0afd60ca08387ce367329ab8526",
+        "379cf0dd1dce7c3daf7406a6af7a8b6455cf0bda8cfd60736482e70928f8de9a",
+        "3aeccc5966f47f3460c47de3ea46f5e3d2799e3ae61cb06fb19225a2881980c4"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "fbd78ab12efedf9e07f238f49c25821917dad36bc148e843706416efefff970b",
-      "text": "Let's go, Orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c6e27aa04a363bcb95b86c33047cd51af1b912772a3b6ea9519a333d3bf70e6",
+      "sha256": [
+        "4c6e27aa04a363bcb95b86c33047cd51af1b912772a3b6ea9519a333d3bf70e6",
+        "fbd78ab12efedf9e07f238f49c25821917dad36bc148e843706416efefff970b"
+      ],
       "text": "Let's go, Orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

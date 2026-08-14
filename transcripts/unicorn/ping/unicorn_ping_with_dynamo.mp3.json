@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "d10dc23864c5a1e20686623f987d0321c443df06737cfb5c56936618c16d7d8b",
+      "sha256": [
+        "d10dc23864c5a1e20686623f987d0321c443df06737cfb5c56936618c16d7d8b"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

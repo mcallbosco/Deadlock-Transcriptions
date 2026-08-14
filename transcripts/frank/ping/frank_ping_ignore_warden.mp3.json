@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_ignore_warden.mp3",
   "revisions": [
     {
-      "sha256": "c755f43a85e83ddeec8b613adc94e12d8a4e9d26ad87028f03c74b4b52169df1",
-      "text": "Ignore Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d8a9f6f9bea7361cf7b92025032f81da715ee4a0ca44e1589c9ff71923e80ad",
+      "sha256": [
+        "2d8a9f6f9bea7361cf7b92025032f81da715ee4a0ca44e1589c9ff71923e80ad",
+        "c755f43a85e83ddeec8b613adc94e12d8a4e9d26ad87028f03c74b4b52169df1"
+      ],
       "text": "Ignore Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

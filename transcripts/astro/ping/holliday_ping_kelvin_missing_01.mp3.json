@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8fbeedebc2c8bc54c68012ca5887730b6e2751602e1bf8c3906b7973e909600d",
+      "sha256": [
+        "8fbeedebc2c8bc54c68012ca5887730b6e2751602e1bf8c3906b7973e909600d"
+      ],
       "text": "Calvin is missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

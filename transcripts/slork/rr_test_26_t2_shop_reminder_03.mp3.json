@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_t2_shop_reminder_03.mp3",
   "revisions": [
     {
-      "sha256": "b27dcf0c078633200e81315d82b65b9c66443ba15d8fbd323697e5fc73fea92b",
-      "text": "I should hit the shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2fc8620537223dbe2e1b418de516a97eb5cc924947064f21ea5097c3f2640159",
+      "sha256": [
+        "2fc8620537223dbe2e1b418de516a97eb5cc924947064f21ea5097c3f2640159",
+        "b27dcf0c078633200e81315d82b65b9c66443ba15d8fbd323697e5fc73fea92b"
+      ],
       "text": "I should hit the shop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

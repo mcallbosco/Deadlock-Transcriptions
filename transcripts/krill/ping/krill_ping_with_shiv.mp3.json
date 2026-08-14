@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "55d4495e8a9652a92696fcfa828219a50b99403d3db974df5818ebce00e16196",
-      "text": "I'm with you, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be5e29343f481742e81472874771a1a84a2385639192ac02d71298962ecb3426",
-      "text": "I'm with you, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39c2f9e31b99c88730742e18c40c1789c45ab67cd08388229e1876ba31d5c5d5",
+      "sha256": [
+        "39c2f9e31b99c88730742e18c40c1789c45ab67cd08388229e1876ba31d5c5d5",
+        "55d4495e8a9652a92696fcfa828219a50b99403d3db974df5818ebce00e16196",
+        "be5e29343f481742e81472874771a1a84a2385639192ac02d71298962ecb3426"
+      ],
       "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

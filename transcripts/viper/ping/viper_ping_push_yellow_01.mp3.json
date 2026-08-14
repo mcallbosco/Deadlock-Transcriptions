@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "7673a3bfdc4ed4091c54c6390b24f63075c0e408b322eef4792cf8e0aab0fcd4",
-      "text": "Let's push yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4146306d2353aeb9019249a907fa16c0b3fc710f60107e4434638e7a2c23f602",
-      "text": "Let's push yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc0873f53d244274be4806a5c51f70fbb1a706d40f6e6c640ad9cfa83255ea56",
+      "sha256": [
+        "4146306d2353aeb9019249a907fa16c0b3fc710f60107e4434638e7a2c23f602",
+        "7673a3bfdc4ed4091c54c6390b24f63075c0e408b322eef4792cf8e0aab0fcd4",
+        "cc0873f53d244274be4806a5c51f70fbb1a706d40f6e6c640ad9cfa83255ea56"
+      ],
       "text": "Let's push Yellow",
       "source": "official"
     }

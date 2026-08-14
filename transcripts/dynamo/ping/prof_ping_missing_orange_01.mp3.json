@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "56f7af81e986c9a1c0d3a1964fd251085beb6900a5cb3e9a67882589cff8d687",
+      "sha256": [
+        "56f7af81e986c9a1c0d3a1964fd251085beb6900a5cb3e9a67882589cff8d687"
+      ],
       "text": "Make orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "616d0a0b23a4a40ff98efe8ec863a57170e2ada4d918e75a164ed97634cc9014",
+      "sha256": [
+        "616d0a0b23a4a40ff98efe8ec863a57170e2ada4d918e75a164ed97634cc9014"
+      ],
       "text": "Melee orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

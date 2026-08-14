@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_murphy.mp3",
   "revisions": [
     {
-      "sha256": "5618e9d877bc14f8b32a502011131be698ee53f43cfecd8745f669c4ea18017b",
+      "sha256": [
+        "5618e9d877bc14f8b32a502011131be698ee53f43cfecd8745f669c4ea18017b",
+        "7caa5980eac8b742584a6b2e9cb485ef780af4ea80343630a99054c04a50967f"
+      ],
       "text": "I'll see Murphy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7caa5980eac8b742584a6b2e9cb485ef780af4ea80343630a99054c04a50967f",
-      "text": "I'll see Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

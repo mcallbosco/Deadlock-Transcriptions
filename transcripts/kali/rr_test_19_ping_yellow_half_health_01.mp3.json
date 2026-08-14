@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_yellow_half_health_01.mp3",
   "revisions": [
     {
-      "sha256": "1420164486a8b8d2103881181257490adb495f3d88bede13b98c171d38a474fd",
-      "text": "Yellow Guardian has half health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41d1ac013135724b1d065a41cd1c69055ccd6db62902be048d74d8cb27c65db0",
-      "text": "Yellow Guardian has half health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b5f7f3481ee58846ae646a11008a1779222428c8724ccef75cec09c6dfd4d2d",
+      "sha256": [
+        "1420164486a8b8d2103881181257490adb495f3d88bede13b98c171d38a474fd",
+        "41d1ac013135724b1d065a41cd1c69055ccd6db62902be048d74d8cb27c65db0",
+        "4b5f7f3481ee58846ae646a11008a1779222428c8724ccef75cec09c6dfd4d2d"
+      ],
       "text": "Yellow Guardian has half health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

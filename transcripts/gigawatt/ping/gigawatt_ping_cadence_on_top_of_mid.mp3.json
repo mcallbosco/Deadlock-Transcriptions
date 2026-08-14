@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_cadence_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "01bf1001fe67e874871f6cd1f016fea8fca89e311f06b101870223e4aeb84b6a",
+      "sha256": [
+        "01bf1001fe67e874871f6cd1f016fea8fca89e311f06b101870223e4aeb84b6a",
+        "3dc8928c016d8dcf789b77e97b89cbd2157f30d45794723500c0db725d9709d4"
+      ],
       "text": "It is on top of me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3dc8928c016d8dcf789b77e97b89cbd2157f30d45794723500c0db725d9709d4",
-      "text": "It is on top of me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a36216dee90bb67a9aaac277a29a2e41272b5d5d0036d9b2bdda12fc7984180c",
+      "sha256": [
+        "a36216dee90bb67a9aaac277a29a2e41272b5d5d0036d9b2bdda12fc7984180c"
+      ],
       "text": "This is total",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

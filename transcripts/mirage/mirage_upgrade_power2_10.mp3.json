@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power2_10.mp3",
   "revisions": [
     {
-      "sha256": "fa3e36753fdb534bf80433b2b2033c513e8f94f7d846c32504fd90f4b0070345",
+      "sha256": [
+        "fa3e36753fdb534bf80433b2b2033c513e8f94f7d846c32504fd90f4b0070345"
+      ],
       "text": "The team was never nice.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87819db2781de73dc8b1dff16ae3ff9f2dadd339e2f526e8750bfecd505db57e",
+      "sha256": [
+        "87819db2781de73dc8b1dff16ae3ff9f2dadd339e2f526e8750bfecd505db57e",
+        "c3f10a3189ea6018ffdc2f01a74c3c6c4d4dfe3074dd11912aea9e08952b67e5"
+      ],
       "text": "I must have lost my enemies.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3f10a3189ea6018ffdc2f01a74c3c6c4d4dfe3074dd11912aea9e08952b67e5",
-      "text": "I must have lost my enemies.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b4093991d8a8d7d913284b01c89a9cc8902b60e16e83373fb135f86e1a8b5c5",
+      "sha256": [
+        "4b4093991d8a8d7d913284b01c89a9cc8902b60e16e83373fb135f86e1a8b5c5"
+      ],
       "text": "I must outlast my enemies.",
       "source": "official"
     }

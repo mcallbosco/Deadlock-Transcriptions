@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_need_help_blue.mp3",
   "revisions": [
     {
-      "sha256": "b2a9df622eedc92eb655c032cf2ddacdbd38ce172d6aefe4b51bac5eaf4769ba",
+      "sha256": [
+        "4480fe1d53d40fb0cf13007822f270c9f7ae39a4e967aeb11bde2e29a64e09f9",
+        "b2a9df622eedc92eb655c032cf2ddacdbd38ce172d6aefe4b51bac5eaf4769ba"
+      ],
       "text": "Need help, I'm blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4480fe1d53d40fb0cf13007822f270c9f7ae39a4e967aeb11bde2e29a64e09f9",
-      "text": "Need help, I'm blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee894f5085d97f05bf5b976eecdf17f5438aae074a9ab2753badaa57feaa08b1",
+      "sha256": [
+        "ee894f5085d97f05bf5b976eecdf17f5438aae074a9ab2753badaa57feaa08b1"
+      ],
       "text": "Need help on move!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

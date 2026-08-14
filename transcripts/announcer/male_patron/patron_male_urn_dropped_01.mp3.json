@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_urn_dropped_01.mp3",
   "revisions": [
     {
-      "sha256": "190ed2e2e57503e201158b1bc9a9e813fe7a4cc070282e53a5c5acecf17dd232",
-      "text": "The urn has been dropped.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c6cd2c573c2494998b91afcd42831f56a9740ef8168c5403fa2d9873a5cf586",
-      "text": "The urn has been dropped.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78c1a9febb0a039b21d129d101043190cde6a3062a29d66c14ee160df30a2279",
-      "text": "The urn has been dropped.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05c7a0f812a34c50713ecc4b7d09a726d3581b60b0b33daf70ac57811c2ccba4",
+      "sha256": [
+        "05c7a0f812a34c50713ecc4b7d09a726d3581b60b0b33daf70ac57811c2ccba4",
+        "190ed2e2e57503e201158b1bc9a9e813fe7a4cc070282e53a5c5acecf17dd232",
+        "1c6cd2c573c2494998b91afcd42831f56a9740ef8168c5403fa2d9873a5cf586",
+        "78c1a9febb0a039b21d129d101043190cde6a3062a29d66c14ee160df30a2279"
+      ],
       "text": "The Urn has been dropped",
       "source": "official"
     }

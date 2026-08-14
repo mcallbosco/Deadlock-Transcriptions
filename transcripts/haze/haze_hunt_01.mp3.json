@@ -1,35 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_hunt_01.mp3",
   "revisions": [
     {
-      "sha256": "c85543137161b01985daa8fbbe59882fe907e98e45fd3ecd387fdfb045af287c",
-      "text": "You can't run from fate.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c570b947e8b5ceacd63922cb867e5a49f28dd005149603850528b2d4f30ee260",
-      "text": "You can't run from fate.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7b7e3b464332cd441a5f82b50672a98b5b29eca7bae27739d086895a885a5beb",
-      "text": "You can't run from the beast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f845c04a3c16ba7ab1568d8aafc478506bc8f4449d3dc5f527f8f97c21574064",
-      "text": "You can't run from the beast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c73666a98d2d78ed042f0d5399ac7ef1a68293f3668faf11df54502e66bf01a3",
+      "sha256": [
+        "c570b947e8b5ceacd63922cb867e5a49f28dd005149603850528b2d4f30ee260",
+        "c73666a98d2d78ed042f0d5399ac7ef1a68293f3668faf11df54502e66bf01a3",
+        "c85543137161b01985daa8fbbe59882fe907e98e45fd3ecd387fdfb045af287c"
+      ],
       "text": "You can't run from fate…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "7b7e3b464332cd441a5f82b50672a98b5b29eca7bae27739d086895a885a5beb",
+        "f845c04a3c16ba7ab1568d8aafc478506bc8f4449d3dc5f527f8f97c21574064"
+      ],
+      "text": "You can't run from the beast.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

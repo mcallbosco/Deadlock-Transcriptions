@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_be_careful_02.mp3",
   "revisions": [
     {
-      "sha256": "416f25b666a92a323025331c3437b17aeadd3248527b6e586e417544c2c9f681",
-      "text": "It's dangerous to be alone out here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e854865b157dfdbf85e03dcbcbcfa7629e39126556e9b0ce533293c1d6472a13",
+      "sha256": [
+        "416f25b666a92a323025331c3437b17aeadd3248527b6e586e417544c2c9f681",
+        "e854865b157dfdbf85e03dcbcbcfa7629e39126556e9b0ce533293c1d6472a13"
+      ],
       "text": "It's dangerous to be alone out here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

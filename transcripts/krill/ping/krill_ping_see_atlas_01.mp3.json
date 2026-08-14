@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "32fb9fdc200cac8e8b537ba8af68911fffc44ec8d9fbe88567ef9db63f251ae3",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f4dc6e9afb761e8b5ef97e2e87f62124e8bc3dc4bb172f6142b7a18cb71d06d",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4bd940f43bfc8849d1d8dd3b173e3ccfc8e18babc6b572d8ec922abd78699a03",
+      "sha256": [
+        "0f4dc6e9afb761e8b5ef97e2e87f62124e8bc3dc4bb172f6142b7a18cb71d06d",
+        "32fb9fdc200cac8e8b537ba8af68911fffc44ec8d9fbe88567ef9db63f251ae3",
+        "4bd940f43bfc8849d1d8dd3b173e3ccfc8e18babc6b572d8ec922abd78699a03"
+      ],
       "text": "I see Abrams",
       "source": "official"
     }

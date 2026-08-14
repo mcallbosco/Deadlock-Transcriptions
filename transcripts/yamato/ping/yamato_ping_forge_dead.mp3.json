@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "2fce65f4d232f9679c479e3a3a6d221ce9eb5d0d9c849c34588ea9f12df23249",
+      "sha256": [
+        "2fce65f4d232f9679c479e3a3a6d221ce9eb5d0d9c849c34588ea9f12df23249"
+      ],
       "text": "That game is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dc60a1fb78ed76d3ed62877136e96b5d4af1e92b0e357de023a2fba7458df7d1",
+      "sha256": [
+        "dc60a1fb78ed76d3ed62877136e96b5d4af1e92b0e357de023a2fba7458df7d1"
+      ],
       "text": "Nothing is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

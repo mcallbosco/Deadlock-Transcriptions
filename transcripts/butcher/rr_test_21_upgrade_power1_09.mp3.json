@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "a52beb9efcfa8f725cd48066c069574911f0627461cd69d7d2b67dd5f1f0a5bf",
+      "sha256": [
+        "a52beb9efcfa8f725cd48066c069574911f0627461cd69d7d2b67dd5f1f0a5bf"
+      ],
       "text": "They'll be runnin' like hell in no time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "27252886c07d2d4b004bdd09789091e8502931b897a1b56143896167ac4bd340",
-      "text": "They'll be running like hell in no time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a0a2715e608c67fd9bfb861accdf619d27cacef9381a1d424573425fb02f01f",
+      "sha256": [
+        "27252886c07d2d4b004bdd09789091e8502931b897a1b56143896167ac4bd340",
+        "4a0a2715e608c67fd9bfb861accdf619d27cacef9381a1d424573425fb02f01f"
+      ],
       "text": "They'll be running like hell in no time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

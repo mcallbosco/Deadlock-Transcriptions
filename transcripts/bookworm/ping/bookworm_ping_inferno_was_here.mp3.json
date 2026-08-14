@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_inferno_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1b38259ba2f534037fd7923ed9826f1137b6468c09fe8b9d54a9f3dda76abfca",
+      "sha256": [
+        "1b38259ba2f534037fd7923ed9826f1137b6468c09fe8b9d54a9f3dda76abfca"
+      ],
       "text": "Confarnus was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4529774d701695787c62ad3ca91226899182178031b9b5727973b6a69257acf3",
+      "sha256": [
+        "4529774d701695787c62ad3ca91226899182178031b9b5727973b6a69257acf3"
+      ],
       "text": "Infernus was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

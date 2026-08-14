@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_forge_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5a31a94949a4940b442f82d450cdbb10a379b45a9271d4f9657ceb1fc290647b",
-      "text": "McGinnis was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "919786afd48e5439f80442773770fa1f417359964d27b8edb4994464d0e37126",
-      "text": "McGinnis was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9edd6af37ab6fa52664c4b9a1cc865e9a62bf0aac67169da3c61827f9bc4a0d",
-      "text": "McGinnis was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "333e3da72389ac880740710b5a91823e4c10400e70f3e6c5f29b575dbff358da",
+      "sha256": [
+        "333e3da72389ac880740710b5a91823e4c10400e70f3e6c5f29b575dbff358da",
+        "5a31a94949a4940b442f82d450cdbb10a379b45a9271d4f9657ceb1fc290647b",
+        "919786afd48e5439f80442773770fa1f417359964d27b8edb4994464d0e37126",
+        "f9edd6af37ab6fa52664c4b9a1cc865e9a62bf0aac67169da3c61827f9bc4a0d"
+      ],
       "text": "McGinnis was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

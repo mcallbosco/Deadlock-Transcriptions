@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/hornet_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "dd8e7869245864e291b6bab67e228c3bdbe3abfba817096b17336c2d4cad8f94",
+      "sha256": [
+        "dd8e7869245864e291b6bab67e228c3bdbe3abfba817096b17336c2d4cad8f94"
+      ],
       "text": "I need to go heal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

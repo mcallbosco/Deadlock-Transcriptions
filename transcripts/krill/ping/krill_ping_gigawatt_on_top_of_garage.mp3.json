@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_gigawatt_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "fd8f326dff924788779d70798e27cbdf8e53489f4c3de0c1492378b27b3478ef",
+      "sha256": [
+        "abf065c758e2ecf2d1e980a1ad26dc6be64b4318d1991ca624f5681062209e2f",
+        "d7fee4ce9c9c08137f91b5d1b1cfa3c6dcee995827abc62825efce7caf431e65",
+        "fd8f326dff924788779d70798e27cbdf8e53489f4c3de0c1492378b27b3478ef"
+      ],
       "text": "Seven's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "abf065c758e2ecf2d1e980a1ad26dc6be64b4318d1991ca624f5681062209e2f",
-      "text": "Seven's on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd207c9b2720b547554a145133a35c7f8732c0daee478b1ec3c2c2dc5e8dec19",
+      "sha256": [
+        "bd207c9b2720b547554a145133a35c7f8732c0daee478b1ec3c2c2dc5e8dec19"
+      ],
       "text": "Gigawatts on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7fee4ce9c9c08137f91b5d1b1cfa3c6dcee995827abc62825efce7caf431e65",
-      "text": "Seven's on top of the garage!",
-      "source": "official"
     }
   ]
 }

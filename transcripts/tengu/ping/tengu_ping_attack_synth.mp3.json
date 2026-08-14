@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_attack_synth.mp3",
   "revisions": [
     {
-      "sha256": "f0e8a7ac9b8315bb331f2c88d6cf33e5b3f6733cacb17e2d5e9ac29169ab80bf",
-      "text": "Let's take out Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "643e2a65e6a9e6034f9327ac9788314440837e6d643a695bf8ec228b3cd05343",
+      "sha256": [
+        "643e2a65e6a9e6034f9327ac9788314440837e6d643a695bf8ec228b3cd05343",
+        "f0e8a7ac9b8315bb331f2c88d6cf33e5b3f6733cacb17e2d5e9ac29169ab80bf"
+      ],
       "text": "Let's take out Pocket",
       "source": "official"
     }

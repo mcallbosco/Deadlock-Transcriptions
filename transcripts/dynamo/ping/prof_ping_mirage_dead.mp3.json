@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "eb27da4ca312b1b1c032c6bdaed2b86e8f310b5f89fdb287e64c94c391860eac",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ee1e0d0e986b44d747feaac0627730084b1b4a49230196568e01f3efe0623bc",
+      "sha256": [
+        "3ee1e0d0e986b44d747feaac0627730084b1b4a49230196568e01f3efe0623bc",
+        "eb27da4ca312b1b1c032c6bdaed2b86e8f310b5f89fdb287e64c94c391860eac"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

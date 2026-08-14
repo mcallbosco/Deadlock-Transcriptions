@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_jar_call_01.mp3",
   "revisions": [
     {
-      "sha256": "1f3acb816ef5e6d456985482b83394b6204c057514cc4c35bd1b9bb41c1240c0",
+      "sha256": [
+        "1f3acb816ef5e6d456985482b83394b6204c057514cc4c35bd1b9bb41c1240c0"
+      ],
       "text": "Spirit join us here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a7f461bfe4510e85c019a0622cab49f80dc9d539319af29fc33971b5db4d083",
+      "sha256": [
+        "0a7f461bfe4510e85c019a0622cab49f80dc9d539319af29fc33971b5db4d083"
+      ],
       "text": "Spirit Jar is here!",
       "source": "official"
     }

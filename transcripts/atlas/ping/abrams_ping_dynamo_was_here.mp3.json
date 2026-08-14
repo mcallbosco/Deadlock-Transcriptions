@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "169686e93c3e96220f6b22219210a865cd95dfb3d707264e7c864abf89a053b6",
+      "sha256": [
+        "169686e93c3e96220f6b22219210a865cd95dfb3d707264e7c864abf89a053b6"
+      ],
       "text": "I am always here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "800bf5fa3338269b62bf2e3731263b0e86583da014cb7911848e328adfd0eeda",
-      "text": "Time I was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "270ebebc0a95c454a8fc75a2f2ef75728aedb832954a615df4640d37dfc58e3d",
+      "sha256": [
+        "270ebebc0a95c454a8fc75a2f2ef75728aedb832954a615df4640d37dfc58e3d",
+        "800bf5fa3338269b62bf2e3731263b0e86583da014cb7911848e328adfd0eeda"
+      ],
       "text": "Time I was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

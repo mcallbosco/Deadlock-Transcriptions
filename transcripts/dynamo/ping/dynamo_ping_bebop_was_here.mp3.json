@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9146b4d2b6fffd30997e6bdf2c8991c94ac0801fc9fb642bce5d28a1a9327f95",
+      "sha256": [
+        "9146b4d2b6fffd30997e6bdf2c8991c94ac0801fc9fb642bce5d28a1a9327f95"
+      ],
       "text": "That was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

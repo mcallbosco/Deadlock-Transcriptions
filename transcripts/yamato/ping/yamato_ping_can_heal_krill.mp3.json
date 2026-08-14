@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_krill.mp3",
   "revisions": [
     {
-      "sha256": "788bc6f7576d32a8de6efd84f2b990977b411d470b5bd6624dcfd0ef0b9eb8af",
+      "sha256": [
+        "788bc6f7576d32a8de6efd84f2b990977b411d470b5bd6624dcfd0ef0b9eb8af"
+      ],
       "text": "Krill, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4598ea4c774d3690f08326ff0e64a49dd42dac684231c93bb0a10db4a46de4b5",
+      "sha256": [
+        "4598ea4c774d3690f08326ff0e64a49dd42dac684231c93bb0a10db4a46de4b5"
+      ],
       "text": "Clear, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "01d78696e36bd5fe62fe057b227b08e3eabdb6429e4ad76691273e5a54aa8b5e",
+      "sha256": [
+        "01d78696e36bd5fe62fe057b227b08e3eabdb6429e4ad76691273e5a54aa8b5e"
+      ],
       "text": "Krill, I can heal you!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_atlas_check_items.mp3",
   "revisions": [
     {
-      "sha256": "dae135e27731fe4b47a88c92deb372c3fad7f69401e32afa8b47cb89912427e1",
-      "text": "Check out what Abrams bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e8b8964acb5aec15ca21c2e7da3e283e5039bb54cfd809ac42826fd18b3d84f3",
-      "text": "Check out what Abrams bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61f5ecbf8b1228d3faab5af84381e94f439486af03d3fa1d839526c2c3fa9cd5",
+      "sha256": [
+        "61f5ecbf8b1228d3faab5af84381e94f439486af03d3fa1d839526c2c3fa9cd5",
+        "dae135e27731fe4b47a88c92deb372c3fad7f69401e32afa8b47cb89912427e1",
+        "e8b8964acb5aec15ca21c2e7da3e283e5039bb54cfd809ac42826fd18b3d84f3"
+      ],
       "text": "Check out what Abrams bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

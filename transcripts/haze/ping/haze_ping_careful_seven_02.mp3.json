@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_seven_02.mp3",
   "revisions": [
     {
-      "sha256": "0b2300f04c8bc343e4c8be9274afef984568d935df2dce92cd73a84cbc71837c",
+      "sha256": [
+        "0b2300f04c8bc343e4c8be9274afef984568d935df2dce92cd73a84cbc71837c",
+        "23771d8447e92a0accb09fa218bacc90a36fdac4223ce9381b2c2cf07ee2a23a",
+        "8a6221408a37c29dd545bfba906f2af1e80785ee2c6a1175c31ee137e339b1a2"
+      ],
       "text": "Careful, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4f6796152f765b08b56a28157a394128904c340bcb3a45e44cb81fdfc93d61c8",
+      "sha256": [
+        "4f6796152f765b08b56a28157a394128904c340bcb3a45e44cb81fdfc93d61c8"
+      ],
       "text": "Care seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23771d8447e92a0accb09fa218bacc90a36fdac4223ce9381b2c2cf07ee2a23a",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a6221408a37c29dd545bfba906f2af1e80785ee2c6a1175c31ee137e339b1a2",
-      "text": "Careful, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

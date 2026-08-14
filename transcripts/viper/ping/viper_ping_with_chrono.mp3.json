@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_chrono.mp3",
   "revisions": [
     {
-      "sha256": "0540c3d3427fa8625085ef6ad9f76aa347ca9f02be5c02535c1b54f1fa5f456f",
-      "text": "I'm with you, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e0d53b2b5954848a8c13d900173e7381c467780d357d500d512e9d63ec287fb4",
-      "text": "I'm with you, Paradox!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "63bd45a49578d6b4d1dc11001fa31d8be74b0bcafdf33b905030a7a1cd771db0",
+      "sha256": [
+        "0540c3d3427fa8625085ef6ad9f76aa347ca9f02be5c02535c1b54f1fa5f456f",
+        "63bd45a49578d6b4d1dc11001fa31d8be74b0bcafdf33b905030a7a1cd771db0",
+        "e0d53b2b5954848a8c13d900173e7381c467780d357d500d512e9d63ec287fb4"
+      ],
       "text": "I'm with you, Paradox!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

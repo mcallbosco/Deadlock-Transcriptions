@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_outnumbered_01.mp3",
   "revisions": [
     {
-      "sha256": "1b476c5675c7086a3489abd4cc2b62ca7c2d758e40826a0b279e05a0b20af0a0",
+      "sha256": [
+        "1b476c5675c7086a3489abd4cc2b62ca7c2d758e40826a0b279e05a0b20af0a0",
+        "d4bde1d7a3d7302eb570d68277cd5b46f394aa7ac720c02ac4af6615d14f2a72"
+      ],
       "text": "There's too many of them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4bde1d7a3d7302eb570d68277cd5b46f394aa7ac720c02ac4af6615d14f2a72",
-      "text": "There's too many of them!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

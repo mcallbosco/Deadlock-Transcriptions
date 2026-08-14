@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9e04aa6f55e69a838fb95a985f0664c6af7a815509c4350459181d2d9da94bba",
+      "sha256": [
+        "9e04aa6f55e69a838fb95a985f0664c6af7a815509c4350459181d2d9da94bba"
+      ],
       "text": "Nice here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "befc60b0ece11277f1493b1c836352d63cef1c605e43267588a9ec70ae96d7c9",
+      "sha256": [
+        "befc60b0ece11277f1493b1c836352d63cef1c605e43267588a9ec70ae96d7c9"
+      ],
       "text": "Mirage was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

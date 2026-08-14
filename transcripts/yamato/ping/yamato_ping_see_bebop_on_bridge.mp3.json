@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_bebop_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "7e96c8595018a01af6523972eb3faa457aeeb6750118184b3626882f9c2c5fbf",
-      "text": "Bebop's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdf7574174a87b56a9b1e302859c7746442ed61133a987ef2320d5c22ff00386",
-      "text": "Bebop's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afb0d2661050c47d63aede535f0bc595ecf3fe420986278d2219cbe287d1994b",
+      "sha256": [
+        "7e96c8595018a01af6523972eb3faa457aeeb6750118184b3626882f9c2c5fbf",
+        "afb0d2661050c47d63aede535f0bc595ecf3fe420986278d2219cbe287d1994b",
+        "cdf7574174a87b56a9b1e302859c7746442ed61133a987ef2320d5c22ff00386"
+      ],
       "text": "Bebop's on the bridge!",
       "source": "official"
     }

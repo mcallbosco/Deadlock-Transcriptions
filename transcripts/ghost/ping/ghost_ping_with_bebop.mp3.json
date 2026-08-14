@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "8c0733703b421913d73e3ed94cf815af1db447659a7e4e609a89c7cda2dc1709",
+      "sha256": [
+        "8c0733703b421913d73e3ed94cf815af1db447659a7e4e609a89c7cda2dc1709"
+      ],
       "text": "I miss you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

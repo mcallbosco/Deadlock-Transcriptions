@@ -68,7 +68,7 @@ def epoch(name: str, events: list[dict[str, object]]) -> dict[str, object]:
 
 
 def target(name: str, text: str, source: str, sha: str) -> dict[str, object]:
-    revision: dict[str, object] = {"sha256": sha, "text": text, "source": source}
+    revision: dict[str, object] = {"sha256": [sha], "text": text, "source": source}
     if source == "generated":
         revision["model"] = "test-model"
     return {
@@ -209,11 +209,11 @@ class CrossVersionHistoricalAuditTests(unittest.TestCase):
             path.parent.mkdir(parents=True)
             sha = "a" * 64
             document = {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "hero/line.mp3",
                 "revisions": [
                     {
-                        "sha256": sha,
+                        "sha256": [sha],
                         "text": "Wrong",
                         "source": "generated",
                         "model": "test-model",
@@ -279,11 +279,11 @@ class CrossVersionHistoricalAuditTests(unittest.TestCase):
             path.parent.mkdir(parents=True)
             sha = "4" * 64
             document = {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "hero/line.mp3",
                 "revisions": [
                     {
-                        "sha256": sha,
+                        "sha256": [sha],
                         "text": "Stun seven!",
                         "source": "generated",
                         "model": "test-model",
@@ -416,17 +416,17 @@ class SemanticDeltaApplyTests(unittest.TestCase):
             selected_sha = "1" * 64
             official_sha = "2" * 64
             document = {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "bebop/ping/line.mp3",
                 "revisions": [
                     {
-                        "sha256": selected_sha,
+                        "sha256": [selected_sha],
                         "text": "Stan Abrams!",
                         "source": "generated",
                         "model": "test-model",
                     },
                     {
-                        "sha256": official_sha,
+                        "sha256": [official_sha],
                         "text": "Official line",
                         "source": "official",
                     },
@@ -507,11 +507,11 @@ class SemanticDeltaApplyTests(unittest.TestCase):
             path.write_text(
                 json.dumps(
                     {
-                        "schemaVersion": 2,
+                        "schemaVersion": 3,
                         "filename": "bebop/line.mp3",
                         "revisions": [
                             {
-                                "sha256": selected_sha,
+                                "sha256": [selected_sha],
                                 "text": "Stop Viper.",
                                 "source": "generated",
                                 "model": "test-model",
@@ -526,11 +526,11 @@ class SemanticDeltaApplyTests(unittest.TestCase):
             suspicious_path.write_text(
                 json.dumps(
                     {
-                        "schemaVersion": 2,
+                        "schemaVersion": 3,
                         "filename": "tengu/line.mp3",
                         "revisions": [
                             {
-                                "sha256": suspicious_sha,
+                                "sha256": [suspicious_sha],
                                 "text": "Nadie amenaza a mis amigos.",
                                 "source": "generated",
                                 "model": "test-model",
@@ -634,11 +634,11 @@ class SemanticDeltaApplyTests(unittest.TestCase):
             path.parent.mkdir(parents=True)
             selected_sha = "3" * 64
             document = {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "krill/line.mp3",
                 "revisions": [
                     {
-                        "sha256": selected_sha,
+                        "sha256": [selected_sha],
                         "text": "I like pocket too!",
                         "source": "generated",
                         "model": "test-model",
@@ -763,17 +763,17 @@ class VersionedHistoricalApplyTests(unittest.TestCase):
             selected_sha = "1" * 64
             official_sha = "2" * 64
             document = {
-                "schemaVersion": 2,
+                "schemaVersion": 3,
                 "filename": "hero/line.mp3",
                 "revisions": [
                     {
-                        "sha256": selected_sha,
+                        "sha256": [selected_sha],
                         "text": "Wrong line",
                         "source": "generated",
                         "model": "test-model",
                     },
                     {
-                        "sha256": official_sha,
+                        "sha256": [official_sha],
                         "text": "Official line",
                         "source": "official",
                     },

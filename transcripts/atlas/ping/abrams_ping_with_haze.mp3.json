@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "82a3e41dbdf397d8ebf6f192cd8ff39167548e9631b0a2822d20a4f00022b93a",
+      "sha256": [
+        "82a3e41dbdf397d8ebf6f192cd8ff39167548e9631b0a2822d20a4f00022b93a"
+      ],
       "text": "How would you raise?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "574bd237a01371f622ff033b9cccfac2ca9f5cbdffb4111016388bf4c928d23b",
-      "text": "I'm with you, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f17e630f54acbe247c1a111564fd43af4b3244fdcc2df2226a17c6d40fc9e2a8",
+      "sha256": [
+        "574bd237a01371f622ff033b9cccfac2ca9f5cbdffb4111016388bf4c928d23b",
+        "f17e630f54acbe247c1a111564fd43af4b3244fdcc2df2226a17c6d40fc9e2a8"
+      ],
       "text": "I'm with you, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

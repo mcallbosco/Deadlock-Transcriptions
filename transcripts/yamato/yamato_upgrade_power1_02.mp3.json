@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "7dc7cc5502895716828838ca8094caae43034d4ba5713e40ef42f1612081b689",
+      "sha256": [
+        "7dc7cc5502895716828838ca8094caae43034d4ba5713e40ef42f1612081b689"
+      ],
       "text": "これで彼らは倒せるだろう。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1b965a3115af370542de9623569be9de63812a5bf35bdc791fcab8636fed2818",
+      "sha256": [
+        "1b965a3115af370542de9623569be9de63812a5bf35bdc791fcab8636fed2818"
+      ],
       "text": "切り裂いてやろうではないか。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9db0b09e389084d20e6a2f7b423e718a3d7ea5df077dd33b99b7045aa5486507",
+      "sha256": [
+        "9db0b09e389084d20e6a2f7b423e718a3d7ea5df077dd33b99b7045aa5486507"
+      ],
       "text": "This will cut through them",
       "source": "official"
     }

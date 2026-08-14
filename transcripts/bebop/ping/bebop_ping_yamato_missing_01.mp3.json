@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ac85e9a7eb738d02c9a7ff18a13d5ed297a32212a0cc00ba62dd000a646c40ba",
+      "sha256": [
+        "ac85e9a7eb738d02c9a7ff18a13d5ed297a32212a0cc00ba62dd000a646c40ba"
+      ],
       "text": "Sabotage missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "db2f831c58ac7ead102c117b047dca15ce93bbf364fe2f7fed9a462f89dd73c0",
+      "sha256": [
+        "db2f831c58ac7ead102c117b047dca15ce93bbf364fe2f7fed9a462f89dd73c0"
+      ],
       "text": "Yamato's missing",
       "source": "official"
     }

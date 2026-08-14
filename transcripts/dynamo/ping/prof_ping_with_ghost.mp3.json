@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_with_ghost.mp3",
   "revisions": [
     {
-      "sha256": "95ba15fd4f77b6ed8fc44b423225450d24d63994a1681a2523794fcad04cbb8c",
-      "text": "I'm with you, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "131be2b60af6195f5708362aea837a895b76b88db802eb4c0ca9b6c7bdc04ba8",
+      "sha256": [
+        "131be2b60af6195f5708362aea837a895b76b88db802eb4c0ca9b6c7bdc04ba8",
+        "95ba15fd4f77b6ed8fc44b423225450d24d63994a1681a2523794fcad04cbb8c"
+      ],
       "text": "I'm with you, Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

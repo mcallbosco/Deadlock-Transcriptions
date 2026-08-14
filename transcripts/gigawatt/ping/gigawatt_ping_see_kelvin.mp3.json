@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "f6e78f3b614e0560baedbcebcd5c333c992bfcef280a3a4361ad2ee8d6af6a5e",
+      "sha256": [
+        "f6e78f3b614e0560baedbcebcd5c333c992bfcef280a3a4361ad2ee8d6af6a5e"
+      ],
       "text": "I see children!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2e74212b946c446c2e6a07f8f2cebe139467b0e621363faf6c2214eb878f6ae4",
+      "sha256": [
+        "2e74212b946c446c2e6a07f8f2cebe139467b0e621363faf6c2214eb878f6ae4",
+        "effffd529afefa03c0f795520a2bab01215bdfb5a494381a79016b7970961df7"
+      ],
       "text": "I see talent.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a056deba32758d8839e9a7a2ed022675f707823a80e735aee7811a4566fb5d0",
+      "sha256": [
+        "3a056deba32758d8839e9a7a2ed022675f707823a80e735aee7811a4566fb5d0"
+      ],
       "text": "I speak, tell me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "effffd529afefa03c0f795520a2bab01215bdfb5a494381a79016b7970961df7",
-      "text": "I see talent.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

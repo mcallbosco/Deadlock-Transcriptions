@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "0600ed58614020b60bc3720e0db3e689b6447a9beea394412fdcd799cbd96930",
+      "sha256": [
+        "0600ed58614020b60bc3720e0db3e689b6447a9beea394412fdcd799cbd96930"
+      ],
       "text": "Your time has passed, Ghost.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f5ae5781d45fad553119945f0430acc471d17c601589f912793f572e2917c126",
+      "sha256": [
+        "2cd282a53a88a9542fe9833658bfe54a3f2082b2a36daa3db3bfe19cde1acca8",
+        "f5ae5781d45fad553119945f0430acc471d17c601589f912793f572e2917c126"
+      ],
       "text": "Your natural life has come to an end.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2cd282a53a88a9542fe9833658bfe54a3f2082b2a36daa3db3bfe19cde1acca8",
-      "text": "Your natural life has come to an end.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d4c6d673e0f7cd8ccadc523796f6a5c547257da2ca90f4394dd07524ded5765",
+      "sha256": [
+        "1d4c6d673e0f7cd8ccadc523796f6a5c547257da2ca90f4394dd07524ded5765"
+      ],
       "text": "Your unnatural life has come to an end…",
       "source": "official"
     }

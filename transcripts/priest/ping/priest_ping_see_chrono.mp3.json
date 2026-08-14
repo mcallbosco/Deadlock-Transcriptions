@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "257fa7a60076dc67d65b66cc4e0161f1b05e003ac5701ced7cce52f476b5e612",
-      "text": "I see Paradox!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b2f446d72548c9916474bd3eb4598dc62a1dc3899e2086d99b991a83b175af9",
+      "sha256": [
+        "1b2f446d72548c9916474bd3eb4598dc62a1dc3899e2086d99b991a83b175af9",
+        "257fa7a60076dc67d65b66cc4e0161f1b05e003ac5701ced7cce52f476b5e612"
+      ],
       "text": "I see Paradox.",
       "source": "official"
     }

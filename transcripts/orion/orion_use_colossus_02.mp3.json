@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_use_colossus_02.mp3",
   "revisions": [
     {
-      "sha256": "7f54396bdd474ff180b94c0b6f10dececf80f94c283bacb8ec5171e1c2f87be3",
-      "text": "I will endure!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2619c5b4bd9ac5dc0672c6bd1db2033f79a32b1830c37caeb56bdd98995e0c45",
-      "text": "I will endure!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "294cba72832b1a230eac1de3968043ca5398e7f00d5b49d8bdcca174ba19f4f8",
+      "sha256": [
+        "2619c5b4bd9ac5dc0672c6bd1db2033f79a32b1830c37caeb56bdd98995e0c45",
+        "294cba72832b1a230eac1de3968043ca5398e7f00d5b49d8bdcca174ba19f4f8",
+        "7f54396bdd474ff180b94c0b6f10dececf80f94c283bacb8ec5171e1c2f87be3"
+      ],
       "text": "I will endure",
       "source": "official"
     }

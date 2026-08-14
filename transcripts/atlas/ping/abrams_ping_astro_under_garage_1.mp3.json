@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_astro_under_garage_1.mp3",
   "revisions": [
     {
-      "sha256": "f56ec6041f6898dbfadcd452880cc5dfbdfb0031ef5903eb44d840a731c52d4c",
-      "text": "Holiday's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44b7d1b9bf20a78d4fbdaafd38cfcf0ebcfbcfdc0a136024f97334d78d2573cb",
+      "sha256": [
+        "44b7d1b9bf20a78d4fbdaafd38cfcf0ebcfbcfdc0a136024f97334d78d2573cb",
+        "f56ec6041f6898dbfadcd452880cc5dfbdfb0031ef5903eb44d840a731c52d4c"
+      ],
       "text": "Holiday's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

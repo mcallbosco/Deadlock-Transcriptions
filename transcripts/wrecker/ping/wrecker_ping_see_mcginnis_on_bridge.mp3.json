@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_mcginnis_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "4383db02407a63efd194ef479604e282fca8817a14aa4219e27a655d196e097b",
-      "text": "McGinnis is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1825ac9d693e085f936c026d1b6493cf8629436872433a4f8ff270ba33a3f1c",
+      "sha256": [
+        "4383db02407a63efd194ef479604e282fca8817a14aa4219e27a655d196e097b",
+        "c1825ac9d693e085f936c026d1b6493cf8629436872433a4f8ff270ba33a3f1c"
+      ],
       "text": "McGinnis is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

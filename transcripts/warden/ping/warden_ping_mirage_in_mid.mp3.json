@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_mirage_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "d669f1e6704e4d668d9a11e7c428054eef179a403119d79faffaac8c98dabedc",
+      "sha256": [
+        "d669f1e6704e4d668d9a11e7c428054eef179a403119d79faffaac8c98dabedc",
+        "e5f7786d8cbf0ba5dd21f12245058c8e19a63fcc9629c133712ee5e29ff01248",
+        "ef9e1bf008a799d3bd9385ebf2fe9588a86e476ca9e83b8742d06dd4d8bc9f38"
+      ],
       "text": "Mirage is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e5f7786d8cbf0ba5dd21f12245058c8e19a63fcc9629c133712ee5e29ff01248",
-      "text": "Mirage is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef9e1bf008a799d3bd9385ebf2fe9588a86e476ca9e83b8742d06dd4d8bc9f38",
-      "text": "Mirage is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f1990b2ba7b5fff6488c922ef51daa3d5adf95d10a177fa19bb9957995c9a78",
+      "sha256": [
+        "1f1990b2ba7b5fff6488c922ef51daa3d5adf95d10a177fa19bb9957995c9a78"
+      ],
       "text": "Mirage's in mid!",
       "source": "official"
     }

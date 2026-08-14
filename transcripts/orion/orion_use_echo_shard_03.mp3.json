@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_use_echo_shard_03.mp3",
   "revisions": [
     {
-      "sha256": "de3c0beaae6027a825d819d40cd1a1448998892c1fafb464e04d6658ce4622b3",
-      "text": "I'm not finished yet!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e02e9c0591157953c0343a3568e8d84f4f06c8e5331cd865e04663390c980aa9",
-      "text": "I'm not finished yet!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "517f77613fdb5e053be0953d1d0fa6b1978d86e9d72a6eedad8541f5740664e2",
-      "text": "I'm not finished yet!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3675bb9544d5ce2469dbcd07cedfda511422347e60458ee84047de9dc4356342",
+      "sha256": [
+        "3675bb9544d5ce2469dbcd07cedfda511422347e60458ee84047de9dc4356342",
+        "517f77613fdb5e053be0953d1d0fa6b1978d86e9d72a6eedad8541f5740664e2",
+        "de3c0beaae6027a825d819d40cd1a1448998892c1fafb464e04d6658ce4622b3",
+        "e02e9c0591157953c0343a3568e8d84f4f06c8e5331cd865e04663390c980aa9"
+      ],
       "text": "I'm not finished yet.",
       "source": "official"
     }

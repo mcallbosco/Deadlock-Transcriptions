@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_stamina_reminder.mp3",
   "revisions": [
     {
-      "sha256": "fabf86038a7aaee3aec9a94b5ac9a36d10c8dc1634e380a64fe88136a90f59aa",
-      "text": "You're out of stamina, but don't worry, it'll recover over time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "535da170391b73e046b439b4591459d4e8d21cab92bdfea30c866796a01e9dd3",
-      "text": "You're out of stamina, but don't worry, it'll recover over time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44003440b2f6706d3bb8e09e54b4cd08803ef1332304d14909e2ef4b80a5fe31",
+      "sha256": [
+        "44003440b2f6706d3bb8e09e54b4cd08803ef1332304d14909e2ef4b80a5fe31",
+        "535da170391b73e046b439b4591459d4e8d21cab92bdfea30c866796a01e9dd3",
+        "fabf86038a7aaee3aec9a94b5ac9a36d10c8dc1634e380a64fe88136a90f59aa"
+      ],
       "text": "You're out of stamina, but don't worry, it'll recover over time.",
       "source": "official"
     }

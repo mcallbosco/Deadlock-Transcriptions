@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "bee5640e53de0f1afd4a005e971bc4117f60c44a4c91da9de13c9ab3c5bcb8d4",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "69343640e86ec70b44c935c0954b045ea0afdd80496e0bc645a311149a62140a",
+        "bee5640e53de0f1afd4a005e971bc4117f60c44a4c91da9de13c9ab3c5bcb8d4"
+      ],
+      "text": "Careful, vindicta…",
+      "source": "official"
     },
     {
-      "sha256": "c7b46be681746d6742a7ff51cb41eeea536955d03d15ca6f79a3ed117d7be321",
+      "sha256": [
+        "c7b46be681746d6742a7ff51cb41eeea536955d03d15ca6f79a3ed117d7be321"
+      ],
       "text": "Careful, Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "69343640e86ec70b44c935c0954b045ea0afdd80496e0bc645a311149a62140a",
-      "text": "Careful, vindicta…",
-      "source": "official"
     }
   ]
 }

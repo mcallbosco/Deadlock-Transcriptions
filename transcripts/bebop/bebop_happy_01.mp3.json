@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_happy_01.mp3",
   "revisions": [
     {
-      "sha256": "d6a78bc7729fdde4933f4978527cabd93392eb633279ef2881672b68e06fc79b",
-      "text": "That is bloody great!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "edea215e5780a5005e9492e08a639392a3a4305db58d9c24b11816953c6365a4",
+      "sha256": [
+        "d6a78bc7729fdde4933f4978527cabd93392eb633279ef2881672b68e06fc79b",
+        "edea215e5780a5005e9492e08a639392a3a4305db58d9c24b11816953c6365a4"
+      ],
       "text": "That is bloody great!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

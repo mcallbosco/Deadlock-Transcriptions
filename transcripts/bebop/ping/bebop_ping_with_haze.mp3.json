@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "b33483e349f3df222262140a7e2393cfb8a39ae1edfb11b81333df8c72408327",
+      "sha256": [
+        "b33483e349f3df222262140a7e2393cfb8a39ae1edfb11b81333df8c72408327"
+      ],
       "text": "How are you, Hayes?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "73f9b27f0e1abbeae6e3008636dbd6637eb4ab58a98b9f4806b1e7881c155f8b",
+      "sha256": [
+        "73f9b27f0e1abbeae6e3008636dbd6637eb4ab58a98b9f4806b1e7881c155f8b"
+      ],
       "text": "I love you, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

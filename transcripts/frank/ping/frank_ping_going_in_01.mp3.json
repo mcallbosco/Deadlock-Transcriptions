@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "8b083a8e315a0cd6082a3406ea9fdcf4643a77dfa72d0916a395a789c55fbeab",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24ad0eee1cca8ae73c8a97b7dee337d69f760c9d93e68f1aa501cc2f5338a9ee",
+      "sha256": [
+        "24ad0eee1cca8ae73c8a97b7dee337d69f760c9d93e68f1aa501cc2f5338a9ee",
+        "8b083a8e315a0cd6082a3406ea9fdcf4643a77dfa72d0916a395a789c55fbeab"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

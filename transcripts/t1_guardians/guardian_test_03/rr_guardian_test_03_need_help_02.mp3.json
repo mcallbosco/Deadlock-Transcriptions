@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_need_help_02.mp3",
   "revisions": [
     {
-      "sha256": "e50b14170c08360ed06da32915bc4ad65df009244b1842c01abcdfd3e4a33adf",
+      "sha256": [
+        "834b19d682fd2f19362e0ea548a5594c5cd6641ce2421884017c63e67d3e370a",
+        "e50b14170c08360ed06da32915bc4ad65df009244b1842c01abcdfd3e4a33adf"
+      ],
       "text": "Who's going down if you don't get here soon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7fe1af4247ac22839ce1b47ac4285ebaad80f2f286707076e312cc083d8dffe4",
+      "sha256": [
+        "7fe1af4247ac22839ce1b47ac4285ebaad80f2f286707076e312cc083d8dffe4"
+      ],
       "text": "You're going down if you don't get here soon!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "834b19d682fd2f19362e0ea548a5594c5cd6641ce2421884017c63e67d3e370a",
-      "text": "Who's going down if you don't get here soon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

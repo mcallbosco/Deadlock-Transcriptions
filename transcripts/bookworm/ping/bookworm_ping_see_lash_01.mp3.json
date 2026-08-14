@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "6c073e427d43d8c0df8aa095bad3b221e014dc0590db7f7fa2003b3ef22afeab",
-      "text": "I seelash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1b672ba791fccdf42812626bc6c2f498de69b7ecc34dd8e45f9c6a976fef99a3",
+      "sha256": [
+        "1b672ba791fccdf42812626bc6c2f498de69b7ecc34dd8e45f9c6a976fef99a3",
+        "6c073e427d43d8c0df8aa095bad3b221e014dc0590db7f7fa2003b3ef22afeab"
+      ],
       "text": "I see Lash.",
       "source": "official"
     }

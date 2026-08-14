@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_leave_base_01.mp3",
   "revisions": [
     {
-      "sha256": "2a25f1464e44527bcd23c07c8bd977e17378883ec956ebc7a46f2dc0fd47b09e",
+      "sha256": [
+        "2a25f1464e44527bcd23c07c8bd977e17378883ec956ebc7a46f2dc0fd47b09e"
+      ],
       "text": "Time to end this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

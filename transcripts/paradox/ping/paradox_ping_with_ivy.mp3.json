@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_ivy.mp3",
   "revisions": [
     {
-      "sha256": "e6ad3b319c268396ced0c98de8c3c9522a3e827a88b0805e848527a790222e73",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52d7e6664bd67b69ae1a474cbf8ea019efa3ce175ea79a7b9d9d484b8798d7db",
+      "sha256": [
+        "52d7e6664bd67b69ae1a474cbf8ea019efa3ce175ea79a7b9d9d484b8798d7db",
+        "e6ad3b319c268396ced0c98de8c3c9522a3e827a88b0805e848527a790222e73"
+      ],
       "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

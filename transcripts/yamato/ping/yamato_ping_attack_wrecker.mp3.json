@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_attack_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "fe623b0310ff77b719389c124892da2c79381d6e9125e093a1bfa102b8e4a7e3",
-      "text": "Let's take out Wrecker!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "e9fe4405ae5f2c3f447ea707a2602258fc88ba72b045769e76b8ad4601ee8d39",
+        "fe623b0310ff77b719389c124892da2c79381d6e9125e093a1bfa102b8e4a7e3"
+      ],
+      "text": "Let's take out Wrecker",
+      "source": "official"
     },
     {
-      "sha256": "ffa1fddf8aa129beb4444e66d14e48f01e8a8de8ed72a22c159d96752255fff1",
+      "sha256": [
+        "ffa1fddf8aa129beb4444e66d14e48f01e8a8de8ed72a22c159d96752255fff1"
+      ],
       "text": "Let's take out the Wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9fe4405ae5f2c3f447ea707a2602258fc88ba72b045769e76b8ad4601ee8d39",
-      "text": "Let's take out Wrecker",
-      "source": "official"
     }
   ]
 }

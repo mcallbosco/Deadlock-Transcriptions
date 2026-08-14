@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_can_heal_orion.mp3",
   "revisions": [
     {
-      "sha256": "65080af990719c7ac28b489d9343aaf22359e8c1fa31d74d1fb5f2fbc60d3df9",
+      "sha256": [
+        "65080af990719c7ac28b489d9343aaf22359e8c1fa31d74d1fb5f2fbc60d3df9",
+        "7861f9341cf50703adf59c38b768ab40d7de5e83d40ab0bc4eda7f8c61e195df"
+      ],
       "text": "Great talent, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7861f9341cf50703adf59c38b768ab40d7de5e83d40ab0bc4eda7f8c61e195df",
-      "text": "Great talent, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "26fb771055e4db622b4b9d50079ce030914f0470ae7a79adfe7026fe69350fa9",
+      "sha256": [
+        "26fb771055e4db622b4b9d50079ce030914f0470ae7a79adfe7026fe69350fa9"
+      ],
       "text": "Grey Talon, I can heal you!",
       "source": "official"
     }

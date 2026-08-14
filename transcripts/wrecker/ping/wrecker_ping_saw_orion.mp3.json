@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_orion.mp3",
   "revisions": [
     {
-      "sha256": "459d5f797130f18b26433ea5129d44dcbfb0ae6d978734ee0a538a3845124be8",
-      "text": "I saw Ryan.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd26fcc14769cf911b0c162d4ad06e985398ea7894ca0a08363e2406eea084dc",
+      "sha256": [
+        "459d5f797130f18b26433ea5129d44dcbfb0ae6d978734ee0a538a3845124be8",
+        "bd26fcc14769cf911b0c162d4ad06e985398ea7894ca0a08363e2406eea084dc"
+      ],
       "text": "I saw Ryan.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

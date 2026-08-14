@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_tengu_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "47df7517312bbf4f9895b7df649df552ccb3fb23b9c122a3b567cd4e8b6470a4",
+      "sha256": [
+        "47df7517312bbf4f9895b7df649df552ccb3fb23b9c122a3b567cd4e8b6470a4"
+      ],
       "text": "Time is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "852c403714bbf26c3d83b5e70b848f3ed7114893c6569f0c7e6014b2100c0139",
+      "sha256": [
+        "852c403714bbf26c3d83b5e70b848f3ed7114893c6569f0c7e6014b2100c0139"
+      ],
       "text": "Ivy's missing.",
       "source": "official"
     }

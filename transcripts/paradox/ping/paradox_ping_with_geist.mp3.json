@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_geist.mp3",
   "revisions": [
     {
-      "sha256": "b2b9154295a90e6b844ffb5c149c5975036a4e0ec1590b3b3c4e643dd966521f",
-      "text": "I'm with you, Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c07c3152d13db623310e7e4ca1e310097184996be6ce3a04f2305010ddba614",
+      "sha256": [
+        "4c07c3152d13db623310e7e4ca1e310097184996be6ce3a04f2305010ddba614",
+        "b2b9154295a90e6b844ffb5c149c5975036a4e0ec1590b3b3c4e643dd966521f"
+      ],
       "text": "I'm with you, Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

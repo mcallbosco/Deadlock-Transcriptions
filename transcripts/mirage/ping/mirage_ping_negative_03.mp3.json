@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_negative_03.mp3",
   "revisions": [
     {
-      "sha256": "102cd00798bc8b2b9755824143a568c20640f9235ce1372668cd173a7ed5cbf2",
+      "sha256": [
+        "102cd00798bc8b2b9755824143a568c20640f9235ce1372668cd173a7ed5cbf2"
+      ],
       "text": "Let's go.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ace73e7eb63102c8add78fcdd7140ec577d20876cd726c39500f87945122ab80",
-      "text": "You sure?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91c5433d2635447692b396cf494ac9044170ce4f35d80427fd7bf514f369930d",
-      "text": "You sure?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca668b9098f053467ba8c73b531002f3b21e7cbf236e71f26b64c295208b67e9",
+      "sha256": [
+        "91c5433d2635447692b396cf494ac9044170ce4f35d80427fd7bf514f369930d",
+        "ace73e7eb63102c8add78fcdd7140ec577d20876cd726c39500f87945122ab80",
+        "ca668b9098f053467ba8c73b531002f3b21e7cbf236e71f26b64c295208b67e9"
+      ],
       "text": "You sure?",
       "source": "official"
     }

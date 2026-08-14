@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "37c6cf630bc1d03c1ea291e2a4d8c7609a695d3268628daf23cf2068705f6955",
+      "sha256": [
+        "37c6cf630bc1d03c1ea291e2a4d8c7609a695d3268628daf23cf2068705f6955",
+        "3a4fdd1984622e3db2f96f411b6835600cdb7306cd39e6d174e2aac62c832fb4"
+      ],
       "text": "This is green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a4fdd1984622e3db2f96f411b6835600cdb7306cd39e6d174e2aac62c832fb4",
-      "text": "This is green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b3c9670a7dbb822d288470e514bff705887571ee3a55aa702b915fb05f55789",
+      "sha256": [
+        "9b3c9670a7dbb822d288470e514bff705887571ee3a55aa702b915fb05f55789"
+      ],
       "text": "This in green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

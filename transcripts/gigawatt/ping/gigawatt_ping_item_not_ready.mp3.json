@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "62e75a81d6bc10b96f0c74fd295a7d610481e320b8aafb1d046d8c86147e1671",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f101255326454c7dfe1e117d462fd7d0747a725bcf65470292f470cd0f1c8a6",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1fabcd2cf7696cecc3935cddfd3a8e04c39af4a64d1e9b350405692dacf51a6",
+      "sha256": [
+        "1f101255326454c7dfe1e117d462fd7d0747a725bcf65470292f470cd0f1c8a6",
+        "62e75a81d6bc10b96f0c74fd295a7d610481e320b8aafb1d046d8c86147e1671",
+        "e1fabcd2cf7696cecc3935cddfd3a8e04c39af4a64d1e9b350405692dacf51a6"
+      ],
       "text": "Item's on cooldown",
       "source": "official"
     }

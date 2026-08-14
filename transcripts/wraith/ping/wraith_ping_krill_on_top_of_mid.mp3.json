@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_krill_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "f21ed6deeb962e4259f1b11e33c18f4239926dd153ddfc0d854e6eaccba17b90",
-      "text": "Krill's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "626623d85374bee99f7b1e005ef989dd7059381fa1cf6850807e1e27f70479bd",
-      "text": "Crow's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "943daba7411f2be99db9b907104d2c455fb3a11f81e4f67349c7aa6fd1f41005",
-      "text": "Crow's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "531e718950f3212c2931914f0172c8b459d1cb27dd5af28c7f30e4ef3b7a4e25",
+      "sha256": [
+        "531e718950f3212c2931914f0172c8b459d1cb27dd5af28c7f30e4ef3b7a4e25",
+        "f21ed6deeb962e4259f1b11e33c18f4239926dd153ddfc0d854e6eaccba17b90"
+      ],
       "text": "Krill's on top of mid!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "626623d85374bee99f7b1e005ef989dd7059381fa1cf6850807e1e27f70479bd",
+        "943daba7411f2be99db9b907104d2c455fb3a11f81e4f67349c7aa6fd1f41005"
+      ],
+      "text": "Crow's on top of mid.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

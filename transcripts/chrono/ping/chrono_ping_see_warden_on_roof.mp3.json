@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_warden_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "910a413c43d515ae4ea540bfab6930b7075e6881a09c08ad2ff7e22e806dad26",
+      "sha256": [
+        "910a413c43d515ae4ea540bfab6930b7075e6881a09c08ad2ff7e22e806dad26"
+      ],
       "text": "War is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8e6183caa86f3edd79a1c512b5a49fb93a4cc6ad99a9566a0925d5ec87db7dd6",
+      "sha256": [
+        "8e6183caa86f3edd79a1c512b5a49fb93a4cc6ad99a9566a0925d5ec87db7dd6"
+      ],
       "text": "Warden's on the roof!",
       "source": "official"
     }

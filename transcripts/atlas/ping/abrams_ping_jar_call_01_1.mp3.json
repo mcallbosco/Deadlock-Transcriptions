@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_jar_call_01_1.mp3",
   "revisions": [
     {
-      "sha256": "7d864bc76232700fd97f06205f07827e07483c0d61a9316b57d4c95e6f463dc0",
-      "text": "Spirit urn is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b57921408277f95008b9cb83e7119a15a7c78f34934140eab6666daccd81c5c",
+      "sha256": [
+        "3b57921408277f95008b9cb83e7119a15a7c78f34934140eab6666daccd81c5c",
+        "7d864bc76232700fd97f06205f07827e07483c0d61a9316b57d4c95e6f463dc0"
+      ],
       "text": "Spirit urn is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

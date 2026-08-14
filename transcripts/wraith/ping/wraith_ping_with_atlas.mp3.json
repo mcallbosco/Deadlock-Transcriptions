@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_with_atlas.mp3",
   "revisions": [
     {
-      "sha256": "a46ab9efd7d573590c28b02135d12a6d2ed943143a55e7a2cd14e7249be66529",
+      "sha256": [
+        "a46ab9efd7d573590c28b02135d12a6d2ed943143a55e7a2cd14e7249be66529",
+        "e9aed114ed404168f5fb10ea205d2dc26fa9b9d313148ac426934b9d58de5542"
+      ],
       "text": "I'm with you, Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bfca19957323e4372255aba65be93e9d6f96fa45c620983228d871d697615bc7",
+      "sha256": [
+        "bfca19957323e4372255aba65be93e9d6f96fa45c620983228d871d697615bc7"
+      ],
       "text": "I'm with you, apebrains.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b8b326c8bac4fcab84f7788d08e3cb05f8dc80a2e039471a6dacb0f66f85dddb",
+      "sha256": [
+        "b8b326c8bac4fcab84f7788d08e3cb05f8dc80a2e039471a6dacb0f66f85dddb"
+      ],
       "text": "I'm with you, Aprils.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9aed114ed404168f5fb10ea205d2dc26fa9b9d313148ac426934b9d58de5542",
-      "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

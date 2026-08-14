@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_headed_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "49a98c76fd1a928750423b9dc1295b1cbc48b5e2362285b854d3d01de504b06f",
-      "text": "Headed to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fbe347531c39542dcdc9855c8be211c0fac442c706954b960f5d8b1bef804ba",
+      "sha256": [
+        "3fbe347531c39542dcdc9855c8be211c0fac442c706954b960f5d8b1bef804ba",
+        "49a98c76fd1a928750423b9dc1295b1cbc48b5e2362285b854d3d01de504b06f"
+      ],
       "text": "Headed to Blue.",
       "source": "official"
     }

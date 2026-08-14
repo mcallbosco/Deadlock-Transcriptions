@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_attack_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "0fc8d17f8e28f69ac1d243a94bb714958bdefdaae386894e3aefc67194c82f11",
+      "sha256": [
+        "0fc8d17f8e28f69ac1d243a94bb714958bdefdaae386894e3aefc67194c82f11",
+        "73659529d5f34b93d5c8cfc0074eeb074445c145976e18fdc32a3d1d3da1e8d4"
+      ],
       "text": "Kill Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73659529d5f34b93d5c8cfc0074eeb074445c145976e18fdc32a3d1d3da1e8d4",
-      "text": "Kill Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

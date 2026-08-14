@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "3c62c96c49cb294b0603f35229083917ea75427de4cc38784accea78ca4675f3",
+      "sha256": [
+        "3c62c96c49cb294b0603f35229083917ea75427de4cc38784accea78ca4675f3"
+      ],
       "text": "I'm with you, Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7c6c10c06620b11f94edf65a67c13331c6f3e740a0dab9adb234adc82e5b1982",
+      "sha256": [
+        "7c6c10c06620b11f94edf65a67c13331c6f3e740a0dab9adb234adc82e5b1982",
+        "b540a3e2dfa8be1e158fefaee9a23c2693a765d885e4027a0bb48ca2e1994976"
+      ],
       "text": "I'm really warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b540a3e2dfa8be1e158fefaee9a23c2693a765d885e4027a0bb48ca2e1994976",
-      "text": "I'm really Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

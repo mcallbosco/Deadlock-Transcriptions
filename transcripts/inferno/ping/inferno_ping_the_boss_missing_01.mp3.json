@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_the_boss_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f6f85dec1673508d739b5548546a96ace55db1f8d7c0ea9150df2bc78687ce52",
-      "text": "The boss is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3647a9788d020ac39d4d81d812e70b87ee68948b5b2111e074560cd550d0686",
+      "sha256": [
+        "c3647a9788d020ac39d4d81d812e70b87ee68948b5b2111e074560cd550d0686",
+        "f6f85dec1673508d739b5548546a96ace55db1f8d7c0ea9150df2bc78687ce52"
+      ],
       "text": "The boss is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

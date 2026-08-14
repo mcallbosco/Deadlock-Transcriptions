@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_close_call_02.mp3",
   "revisions": [
     {
-      "sha256": "0d9232bd7e8e91732aec293da9ba425d974fdc125c479fc8ef7d5d34d89db2fb",
-      "text": "My training saved me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1d2e26d7e692b75484618923431d0e2fba0442555c96cf39691ea97a2a9e7cd",
-      "text": "My training saved me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b85237a3ccb701638497d68981ead28ad6f109e9c642a3c1df0edfd67ebe7235",
-      "text": "My training saved me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddc0be2663e55301353088a0e47c4ecb551c35103426799b8b42a687de8a03ea",
+      "sha256": [
+        "0d9232bd7e8e91732aec293da9ba425d974fdc125c479fc8ef7d5d34d89db2fb",
+        "b85237a3ccb701638497d68981ead28ad6f109e9c642a3c1df0edfd67ebe7235",
+        "d1d2e26d7e692b75484618923431d0e2fba0442555c96cf39691ea97a2a9e7cd",
+        "ddc0be2663e55301353088a0e47c4ecb551c35103426799b8b42a687de8a03ea"
+      ],
       "text": "My training saved me…",
       "source": "official"
     }

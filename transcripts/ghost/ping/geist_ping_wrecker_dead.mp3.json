@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_wrecker_dead.mp3",
   "revisions": [
     {
-      "sha256": "86e307e3906800f0674b4b200ca4a0790ee31885e3feb5cb7f73856c699798b4",
-      "text": "Wrecker is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "89761c728e853085638bad51d5066b1110fdb537a302814ad74e5a1958279165",
+      "sha256": [
+        "86e307e3906800f0674b4b200ca4a0790ee31885e3feb5cb7f73856c699798b4",
+        "89761c728e853085638bad51d5066b1110fdb537a302814ad74e5a1958279165"
+      ],
       "text": "Wrecker is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

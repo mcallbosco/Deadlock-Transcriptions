@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "cff78a79f05855ba8793f6ebd19c671d31a8fdb42b7090c445571cd93de3a14a",
+      "sha256": [
+        "cff78a79f05855ba8793f6ebd19c671d31a8fdb42b7090c445571cd93de3a14a"
+      ],
       "text": "Make purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

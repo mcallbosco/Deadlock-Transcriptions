@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_use_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "f52e35657d7ce2b17faf35781fba7048ea4ea797b349f4b09936f0bd4d9c12a7",
+      "sha256": [
+        "f52e35657d7ce2b17faf35781fba7048ea4ea797b349f4b09936f0bd4d9c12a7"
+      ],
       "text": "I'm tougher than I was earlier!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3e805d3bf4959ec90067373873bcb469166a622ca72faf7c87fafa3cd3b0a6c2",
+      "sha256": [
+        "3e805d3bf4959ec90067373873bcb469166a622ca72faf7c87fafa3cd3b0a6c2"
+      ],
       "text": "Conjuring!",
       "source": "official"
     }

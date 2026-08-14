@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/synth_ap_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "ad09f08c52cbc13afbe76a392bd02b60cc113a83cc8bc9894e095528c6b8bdc8",
+      "sha256": [
+        "ad09f08c52cbc13afbe76a392bd02b60cc113a83cc8bc9894e095528c6b8bdc8"
+      ],
       "text": "I should train my abilities.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

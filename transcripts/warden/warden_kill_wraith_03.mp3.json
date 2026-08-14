@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_kill_wraith_03.mp3",
   "revisions": [
     {
-      "sha256": "12776f8e056e28614fb47d6e1fd227587741609545e6a6ec6c6a711857df02cb",
-      "text": "Money won't keep you warm in the coffin, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5aa6ec6f08322618145cbfce24609328a8804cbfaaa32e6ad21626c5a593f64",
-      "text": "Money won't keep you warm in the coffin, Rave.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3443c25cda6228411200b58d12115ebe627284c2cba6bc89c392bac3162e3d4",
-      "text": "Money won't keep you warm in the coffin, Rave.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b70bfe06016bf4ef715da833f9f608e57d4413346089db27350a4390af349325",
+      "sha256": [
+        "12776f8e056e28614fb47d6e1fd227587741609545e6a6ec6c6a711857df02cb",
+        "b70bfe06016bf4ef715da833f9f608e57d4413346089db27350a4390af349325"
+      ],
       "text": "Money won't keep you warm in the coffin Wraith",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "a5aa6ec6f08322618145cbfce24609328a8804cbfaaa32e6ad21626c5a593f64",
+        "d3443c25cda6228411200b58d12115ebe627284c2cba6bc89c392bac3162e3d4"
+      ],
+      "text": "Money won't keep you warm in the coffin, Rave.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

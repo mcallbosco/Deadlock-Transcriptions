@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "10fa47a4075e550b9068a716e898dd0caca75b8d3feb4e01f5b9abbe27ca2322",
+      "sha256": [
+        "10fa47a4075e550b9068a716e898dd0caca75b8d3feb4e01f5b9abbe27ca2322",
+        "1e11484e4bc8500a27f0952633f94d384548e0837573f60f9c53c070659197d2"
+      ],
       "text": "I see you, then.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e11484e4bc8500a27f0952633f94d384548e0837573f60f9c53c070659197d2",
-      "text": "I see you then.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

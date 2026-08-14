@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_forge_01.mp3",
   "revisions": [
     {
-      "sha256": "06c217a6dbd217b1cce020b3a0557d5897b0bb98196d38395a8e63000b51ab88",
+      "sha256": [
+        "06c217a6dbd217b1cce020b3a0557d5897b0bb98196d38395a8e63000b51ab88",
+        "37d9b340c7cfa6cfa554f6c9de32178b12a60bdd1aa168342c0fe23b4b776309"
+      ],
       "text": "Careful with this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "37d9b340c7cfa6cfa554f6c9de32178b12a60bdd1aa168342c0fe23b4b776309",
-      "text": "Careful with this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8863bd007faa17def06f3e586fad6f6aa8960978c969b558889c2f41e519fdee",
+      "sha256": [
+        "8863bd007faa17def06f3e586fad6f6aa8960978c969b558889c2f41e519fdee"
+      ],
       "text": "Careful, McGinnis…",
       "source": "official"
     }

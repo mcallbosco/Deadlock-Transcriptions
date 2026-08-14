@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "bb4a500ffcd12788e6b991878d5e57f059c7f2d3942da93a83c9533fad8a022f",
+      "sha256": [
+        "bb4a500ffcd12788e6b991878d5e57f059c7f2d3942da93a83c9533fad8a022f"
+      ],
       "text": "You won't catch me, Leftwood.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "77808ef7c3a227df124659060c6f6c4d1130254e77a7362f130ee42aa5bd505d",
-      "text": "They won't catch me flat-footed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f23221b49f20c808d3dedb7cb607450e354b53b568a6c4967bc2805ea9013706",
-      "text": "They won't catch me flat-footed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b52daadad31e17806820afdef2b6381b7811838f0c705f3db14ef0dec17f1a1",
+      "sha256": [
+        "2b52daadad31e17806820afdef2b6381b7811838f0c705f3db14ef0dec17f1a1",
+        "77808ef7c3a227df124659060c6f6c4d1130254e77a7362f130ee42aa5bd505d",
+        "f23221b49f20c808d3dedb7cb607450e354b53b568a6c4967bc2805ea9013706"
+      ],
       "text": "They won't catch me flat footed.",
       "source": "official"
     }

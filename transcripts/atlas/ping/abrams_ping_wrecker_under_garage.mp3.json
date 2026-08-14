@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_wrecker_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "39a22582f5536db57b62fc7ba908b7f55b5daddce0a955f3088a2d322eb5d685",
+      "sha256": [
+        "39a22582f5536db57b62fc7ba908b7f55b5daddce0a955f3088a2d322eb5d685"
+      ],
       "text": "Weapon's on the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7493f45fac670b8bd4a0975cc0ec46663f85e386c698ec20235bd4b5b79ee533",
+      "sha256": [
+        "7493f45fac670b8bd4a0975cc0ec46663f85e386c698ec20235bd4b5b79ee533",
+        "e49d4a649599d3e3f480dbcfcf2b02cb14e477069bb09fdacd5cb5f9e2a8eb7a"
+      ],
       "text": "Record's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e49d4a649599d3e3f480dbcfcf2b02cb14e477069bb09fdacd5cb5f9e2a8eb7a",
-      "text": "Records under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

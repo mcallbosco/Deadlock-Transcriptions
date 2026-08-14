@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "60144e52311601462e294bfba645fbd359214aaf260fcb18375162ab16bf91c7",
+      "sha256": [
+        "60144e52311601462e294bfba645fbd359214aaf260fcb18375162ab16bf91c7"
+      ],
       "text": "That's good.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "60a4ed841bfa67b1c5ec1ffea651e13cd9028d05ea5c7cd8af9d60e88b91cc42",
-      "text": "Sounds good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e1af0d3e91168376be7a8e7720b03aa90b878028f10026f99f62883775d1282",
-      "text": "Sounds good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "049dfd5b54b543cc9541c4e24c25adce6b77b0e66ce4d0b12b47c3c714f326bb",
+      "sha256": [
+        "049dfd5b54b543cc9541c4e24c25adce6b77b0e66ce4d0b12b47c3c714f326bb",
+        "60a4ed841bfa67b1c5ec1ffea651e13cd9028d05ea5c7cd8af9d60e88b91cc42",
+        "7e1af0d3e91168376be7a8e7720b03aa90b878028f10026f99f62883775d1282"
+      ],
       "text": "Sounds good",
       "source": "official"
     }

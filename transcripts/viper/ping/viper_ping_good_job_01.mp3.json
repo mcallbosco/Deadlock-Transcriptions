@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "a9cdec78081c66c4dbcdff27834519f06aa9142fc7eb69821323ae2026ca5635",
-      "text": "Good job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e944b84d862cd9f5a4198627fa3f72659ffd165460a79c77bea7ee49f0a2a68",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca3d0f150e2cab82a514d139c1898bbb9afecddeb5251ef256eb8e16db2ebcea",
+      "sha256": [
+        "0e944b84d862cd9f5a4198627fa3f72659ffd165460a79c77bea7ee49f0a2a68",
+        "a9cdec78081c66c4dbcdff27834519f06aa9142fc7eb69821323ae2026ca5635",
+        "ca3d0f150e2cab82a514d139c1898bbb9afecddeb5251ef256eb8e16db2ebcea"
+      ],
       "text": "Good job.",
       "source": "official"
     }

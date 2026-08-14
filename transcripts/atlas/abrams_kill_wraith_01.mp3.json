@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "37fc7b7914c6941e25d2db4f6ce0859ce10c58b241355bdba194161c263581eb",
+      "sha256": [
+        "37fc7b7914c6941e25d2db4f6ce0859ce10c58b241355bdba194161c263581eb",
+        "cf664686c6e59648893d444b53caca41259a9893ffb72fbf199bec80aa32306e"
+      ],
       "text": "Took out the Gambler.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf664686c6e59648893d444b53caca41259a9893ffb72fbf199bec80aa32306e",
-      "text": "Took out the gambler.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

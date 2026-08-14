@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "fe7a69a9fe6360f65d9bb5d96cf7b07f49278f29a056bb00b91f17632d78ec2a",
+      "sha256": [
+        "fe7a69a9fe6360f65d9bb5d96cf7b07f49278f29a056bb00b91f17632d78ec2a"
+      ],
       "text": "Careful, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2c3a016da76f2fcf4e35226f91b3368d8d87228d19941993e9d9978d07fd16e9",
-      "text": "Careful, Greytalon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28dd3de5e76350341cb6bc8692f83628807e05d09a6fd63cff478e83449525a6",
+      "sha256": [
+        "28dd3de5e76350341cb6bc8692f83628807e05d09a6fd63cff478e83449525a6",
+        "2c3a016da76f2fcf4e35226f91b3368d8d87228d19941993e9d9978d07fd16e9"
+      ],
       "text": "Careful, Grey Talon…",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_refresher_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "8b30216956fd62c9a49ef73b2387e57d43502a85c67067532d0be34c175e6a05",
+      "sha256": [
+        "8b30216956fd62c9a49ef73b2387e57d43502a85c67067532d0be34c175e6a05",
+        "bac0fd52c776498086841463a60d4bf3b1a3aa59da05c438d037dd8bdb5de053"
+      ],
       "text": "Refresh yours on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bac0fd52c776498086841463a60d4bf3b1a3aa59da05c438d037dd8bdb5de053",
-      "text": "Refresh yours on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a9ca9ce9ebdb83d0d3f77f791fd42fa49507135e7b10c51028334979e3a95ee",
+      "sha256": [
+        "5a9ca9ce9ebdb83d0d3f77f791fd42fa49507135e7b10c51028334979e3a95ee"
+      ],
       "text": "Refresher's on cooldown",
       "source": "official"
     }

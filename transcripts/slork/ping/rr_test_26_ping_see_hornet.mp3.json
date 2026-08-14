@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_hornet.mp3",
   "revisions": [
     {
-      "sha256": "e0661020201b7518ea05800535333af37b1d52acc6a1614a1139e40b82aad5fb",
-      "text": "I see Hornet.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28546f42a8e18d4e0ad73e59f9b1750d90194f03406535e62349f9142391d2b4",
+      "sha256": [
+        "28546f42a8e18d4e0ad73e59f9b1750d90194f03406535e62349f9142391d2b4",
+        "e0661020201b7518ea05800535333af37b1d52acc6a1614a1139e40b82aad5fb"
+      ],
       "text": "I see Hornet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

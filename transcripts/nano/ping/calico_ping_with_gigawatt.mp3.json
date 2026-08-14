@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "fc4a72b76c3e685ecf41c108a6c02aad5b3c0a109418f278dfb1ba0c3554b673",
-      "text": "I'm with you, Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2abb54666bd69e64942d90bce0bd2a1a2753556e5ef26d66620439d69fba8161",
+      "sha256": [
+        "2abb54666bd69e64942d90bce0bd2a1a2753556e5ef26d66620439d69fba8161",
+        "fc4a72b76c3e685ecf41c108a6c02aad5b3c0a109418f278dfb1ba0c3554b673"
+      ],
       "text": "I'm with you, Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

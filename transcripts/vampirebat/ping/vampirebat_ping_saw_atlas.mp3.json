@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "e860a5dc622b9bcaeea79ef07796cb2692ee6fe552b67fd32ad7c8a496da3e21",
-      "text": "I saw Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "781051f86361501365fe00f3b872a6e343a5f7175c16bbe45668db81e0af8066",
+      "sha256": [
+        "781051f86361501365fe00f3b872a6e343a5f7175c16bbe45668db81e0af8066",
+        "e860a5dc622b9bcaeea79ef07796cb2692ee6fe552b67fd32ad7c8a496da3e21"
+      ],
       "text": "I saw Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

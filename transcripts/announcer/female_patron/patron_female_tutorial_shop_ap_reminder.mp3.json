@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_shop_ap_reminder.mp3",
   "revisions": [
     {
-      "sha256": "843484f3804c97e70df0c2ae3cf234d50335b51e77bb707a8e60aed2c2933792",
+      "sha256": [
+        "843484f3804c97e70df0c2ae3cf234d50335b51e77bb707a8e60aed2c2933792",
+        "9dbea8155e41b53825046d4d0ccda96ee90f380500c196c479c7418d2526657e"
+      ],
       "text": "Don't forget to use your AP at the store.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9dbea8155e41b53825046d4d0ccda96ee90f380500c196c479c7418d2526657e",
-      "text": "Don't forget to use your AP at the store!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

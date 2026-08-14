@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_synth_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "bbeb40153d3ab920fb883e22f574b31a4f30d0298f2699e7b754384ee9ac1292",
-      "text": "Pocket's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3b0b06ea4ed96555ea37f623abed9b1e1451eaae7113f8982dd5a9106d2e9f1",
-      "text": "Pockets on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e1d7355996899bc7ddc414f664ef0e796bdbda3cb607da81d1dc2e05e31fabf",
+      "sha256": [
+        "4e1d7355996899bc7ddc414f664ef0e796bdbda3cb607da81d1dc2e05e31fabf",
+        "bbeb40153d3ab920fb883e22f574b31a4f30d0298f2699e7b754384ee9ac1292",
+        "c3b0b06ea4ed96555ea37f623abed9b1e1451eaae7113f8982dd5a9106d2e9f1"
+      ],
       "text": "Pocket's on the roof!",
       "source": "official"
     }

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_ap_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "f95bb80fde1bb6d5a3c628d7395f63fe69e758d4d3f71fc8ecc3f4bc5d8e4d19",
+      "sha256": [
+        "f95bb80fde1bb6d5a3c628d7395f63fe69e758d4d3f71fc8ecc3f4bc5d8e4d19"
+      ],
       "text": "I should trade my pose.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "35af7b210b80205b786dbf9cb582121d07041494ba496985918980b1d26c4b12",
+      "sha256": [
+        "22aa480b8978fbddcf953683ca8396c5eddc0cb44f2bfc4abcc80f069bf8b072",
+        "35af7b210b80205b786dbf9cb582121d07041494ba496985918980b1d26c4b12"
+      ],
       "text": "I should train my powers.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "22aa480b8978fbddcf953683ca8396c5eddc0cb44f2bfc4abcc80f069bf8b072",
-      "text": "I should train my powers.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3111b3f33b9387e0fc316e79560ac8b1bcfb5d11cd96bb802eb8b10cb14435fc",
+      "sha256": [
+        "3111b3f33b9387e0fc316e79560ac8b1bcfb5d11cd96bb802eb8b10cb14435fc"
+      ],
       "text": "I could trade my powers.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_viscous_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "7a017b7e7ee13f8360afbba2f6971c77fa85575bd9deb45e8640df3061b7d61b",
+      "sha256": [
+        "665ac6228078dcc7759dae235a50f44f9fcf145356ba76fe3f03d9e8967fbc56",
+        "7a017b7e7ee13f8360afbba2f6971c77fa85575bd9deb45e8640df3061b7d61b"
+      ],
       "text": "This is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "540371c042cb68bf33e98c847c26c633711ff6fcbfd19b34c2452f1e866a5f38",
+      "sha256": [
+        "540371c042cb68bf33e98c847c26c633711ff6fcbfd19b34c2452f1e866a5f38"
+      ],
       "text": "This guess is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "665ac6228078dcc7759dae235a50f44f9fcf145356ba76fe3f03d9e8967fbc56",
-      "text": "This is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71dcc6be94f060e821dc7e01151f6a59534239ffd0d6373bc7464db863cd8921",
+      "sha256": [
+        "71dcc6be94f060e821dc7e01151f6a59534239ffd0d6373bc7464db863cd8921"
+      ],
       "text": "Viscous's on the roof!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_sad_10.mp3",
   "revisions": [
     {
-      "sha256": "4272aa77b1a4b8cd3bc8fead5a56980728410266fb8bac1b32ba693ad565e643",
+      "sha256": [
+        "4272aa77b1a4b8cd3bc8fead5a56980728410266fb8bac1b32ba693ad565e643"
+      ],
       "text": "Ojalá Carlos estuviera aquí.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0209a74c98779293aa73282821b1554f5f7ab270c7af3e3430fa3b1670421f19",
+      "sha256": [
+        "0209a74c98779293aa73282821b1554f5f7ab270c7af3e3430fa3b1670421f19"
+      ],
       "text": "Ojalá Carros estuviera aquí.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "41974127986c777a86327e4048d60efa8510cbfda39a1cf50896fd0d84b3fe4f",
+      "sha256": [
+        "41974127986c777a86327e4048d60efa8510cbfda39a1cf50896fd0d84b3fe4f"
+      ],
       "text": "Seven was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

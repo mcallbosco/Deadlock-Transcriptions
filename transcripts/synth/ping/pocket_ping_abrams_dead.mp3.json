@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_abrams_dead.mp3",
   "revisions": [
     {
-      "sha256": "9b05d3b11c3d4b10f6dbf06246754aba2840a244606655e49978cb7764eeaeb9",
-      "text": "Abrams is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48746b1c31416cb9f1a7abcd5bbe0cd3edaefaca84c4ed524f764e6f1ed4ba07",
+      "sha256": [
+        "48746b1c31416cb9f1a7abcd5bbe0cd3edaefaca84c4ed524f764e6f1ed4ba07",
+        "9b05d3b11c3d4b10f6dbf06246754aba2840a244606655e49978cb7764eeaeb9"
+      ],
       "text": "Abrams is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

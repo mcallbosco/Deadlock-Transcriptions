@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_holliday.mp3",
   "revisions": [
     {
-      "sha256": "6814a6d6ba16a86c5f2d8b9fe46c43980e945b990f828c2c487a0a01ecf568a5",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3766db06026343e083418d6ddaed3b8c35e961279902c5868674a110637e50fb",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7d8f385852a58098aa605509ee9bf975aa08864817b216bf0eeab99f9d1e3d1",
+      "sha256": [
+        "3766db06026343e083418d6ddaed3b8c35e961279902c5868674a110637e50fb",
+        "6814a6d6ba16a86c5f2d8b9fe46c43980e945b990f828c2c487a0a01ecf568a5",
+        "a7d8f385852a58098aa605509ee9bf975aa08864817b216bf0eeab99f9d1e3d1"
+      ],
       "text": "I saw Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

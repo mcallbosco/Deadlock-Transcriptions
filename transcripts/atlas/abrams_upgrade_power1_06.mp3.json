@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_upgrade_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "4a00d648fc13d5ad312c23d292af0601c0d84b5a988bc4a9173068e5375b075b",
-      "text": "I'll run them down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7aed81d14d9f7877906910ef5f5e0d7a5697bdb19b1d065b84a31d336450c623",
-      "text": "I'll run them down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2322d753810a406aea1eeea9056cf37556d75739286b92f47cedcca10e4ddce0",
+      "sha256": [
+        "2322d753810a406aea1eeea9056cf37556d75739286b92f47cedcca10e4ddce0",
+        "4a00d648fc13d5ad312c23d292af0601c0d84b5a988bc4a9173068e5375b075b",
+        "7aed81d14d9f7877906910ef5f5e0d7a5697bdb19b1d065b84a31d336450c623"
+      ],
       "text": "I'll run them down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

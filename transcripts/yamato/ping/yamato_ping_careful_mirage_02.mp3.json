@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_mirage_02.mp3",
   "revisions": [
     {
-      "sha256": "9b8b96cb6df8fc4d1cf82ffb273729f13acc77b979e199c3f97b8d6de705ce1b",
-      "text": "Careful, Mirage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "2a2c268b50d5c1a6136081fc9990efd1875651ee3d2909e22f41cd1fd2c71793",
+        "9b8b96cb6df8fc4d1cf82ffb273729f13acc77b979e199c3f97b8d6de705ce1b"
+      ],
+      "text": "Careful, Mirage",
+      "source": "official"
     },
     {
-      "sha256": "2ea21a13bb68509325850bf84c17dc7bc54b47a5dd1c8d1ee6a0b7eab9840a61",
+      "sha256": [
+        "2ea21a13bb68509325850bf84c17dc7bc54b47a5dd1c8d1ee6a0b7eab9840a61"
+      ],
       "text": "Kavomirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a2c268b50d5c1a6136081fc9990efd1875651ee3d2909e22f41cd1fd2c71793",
-      "text": "Careful, Mirage",
-      "source": "official"
     }
   ]
 }

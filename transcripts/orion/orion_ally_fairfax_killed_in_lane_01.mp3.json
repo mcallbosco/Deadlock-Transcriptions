@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_ally_fairfax_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "4e47173b9fea110ebeed7fe409cb52904caa40ca05654e53eb12a795f5aad972",
+      "sha256": [
+        "4e47173b9fea110ebeed7fe409cb52904caa40ca05654e53eb12a795f5aad972"
+      ],
       "text": "I killed Fairfax!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7b9848679f983a0af558e8f408f4ba95e6176875afa3a5a246962f9592360b8f",
-      "text": "They killed Fairfax!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6fbf8c96266ec0d8936960eca84d978a56a21e734d7530a614929f90a0451a6e",
+      "sha256": [
+        "6fbf8c96266ec0d8936960eca84d978a56a21e734d7530a614929f90a0451a6e",
+        "7b9848679f983a0af558e8f408f4ba95e6176875afa3a5a246962f9592360b8f"
+      ],
       "text": "They killed Fairfax!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

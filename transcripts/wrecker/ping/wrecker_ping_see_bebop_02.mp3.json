@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_bebop_02.mp3",
   "revisions": [
     {
-      "sha256": "48885721ca6f31c82c9bbc3cfdd1195169fea9769f938f8d5581cd33ac03158b",
+      "sha256": [
+        "0e19b75b8b932939dc7538d4bdf47979d0258746ea3acf8b22d323222cbff078",
+        "48885721ca6f31c82c9bbc3cfdd1195169fea9769f938f8d5581cd33ac03158b"
+      ],
       "text": "I see Metal Man.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e19b75b8b932939dc7538d4bdf47979d0258746ea3acf8b22d323222cbff078",
-      "text": "I see metal man.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

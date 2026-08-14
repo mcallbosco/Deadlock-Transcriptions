@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_krill_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8def62ecc72bc3dbbeaea7cd421976aa45f1810b2b85cd6aca9ffd7129558176",
+      "sha256": [
+        "8def62ecc72bc3dbbeaea7cd421976aa45f1810b2b85cd6aca9ffd7129558176"
+      ],
       "text": "Crew is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

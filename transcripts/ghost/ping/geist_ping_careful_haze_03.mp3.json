@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "827fa90473a0793e52503482519288dffaf0b0ef6ea070a65369bdc544e46d8f",
-      "text": "Careful, Haze!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7b5a71540ed85c908b4d8d6df8a6d66fa245108450cd9cbb1b254f9fff5b8f0a",
+      "sha256": [
+        "7b5a71540ed85c908b4d8d6df8a6d66fa245108450cd9cbb1b254f9fff5b8f0a",
+        "827fa90473a0793e52503482519288dffaf0b0ef6ea070a65369bdc544e46d8f"
+      ],
       "text": "Careful, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

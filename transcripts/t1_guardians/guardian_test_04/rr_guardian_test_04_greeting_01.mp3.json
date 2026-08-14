@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_greeting_01.mp3",
   "revisions": [
     {
-      "sha256": "70bdb4040d4df8f1423f2438ee7cf860ae272ac9b1715419ce9bb79b7a55cfc4",
-      "text": "Welcome to the purple lane.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32358a40db131d5a1f0b6d55df4da4309e3575c1f66cb9e168992a92633ba004",
-      "text": "Welcome to the purple lane.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a60c1cd199a5a15dd2ede33ed409f7bc63322189511b287016b9a06078a8b166",
+      "sha256": [
+        "32358a40db131d5a1f0b6d55df4da4309e3575c1f66cb9e168992a92633ba004",
+        "70bdb4040d4df8f1423f2438ee7cf860ae272ac9b1715419ce9bb79b7a55cfc4",
+        "a60c1cd199a5a15dd2ede33ed409f7bc63322189511b287016b9a06078a8b166"
+      ],
       "text": "Welcome to the purple lane.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

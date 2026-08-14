@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_bebop_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "9048be1198edbf169a2d8c47927c2722a81881d241570aee8ce84eece654f534",
-      "text": "Bebop's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a6631e4016cb23fc382c9cbbcbd1a69b9fa5d310be74fea8cc411bcd2687efc",
-      "text": "Be back on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ae14daedf896e176e72cc42a67b528d3bf5c15df7c6d35965b2447fe125330e",
-      "text": "Be back on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "589d1520625555762185e765d057fb7224a51d7398dde45d68919e6401b2330c",
+      "sha256": [
+        "589d1520625555762185e765d057fb7224a51d7398dde45d68919e6401b2330c",
+        "9048be1198edbf169a2d8c47927c2722a81881d241570aee8ce84eece654f534"
+      ],
       "text": "Bebop's on the roof!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "2a6631e4016cb23fc382c9cbbcbd1a69b9fa5d310be74fea8cc411bcd2687efc",
+        "8ae14daedf896e176e72cc42a67b528d3bf5c15df7c6d35965b2447fe125330e"
+      ],
+      "text": "Be back on the roof.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

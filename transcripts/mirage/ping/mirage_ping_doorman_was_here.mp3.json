@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "2214a7ee2de55c9f9610244893bbb7a2249bfd7872735a6e21d3180b297c7e2b",
+      "sha256": [
+        "2214a7ee2de55c9f9610244893bbb7a2249bfd7872735a6e21d3180b297c7e2b"
+      ],
       "text": "The doorman was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "98536664c1a669630ab642474425eabb33b38162c1f19a53c63c7f45cdc0661b",
+      "sha256": [
+        "98536664c1a669630ab642474425eabb33b38162c1f19a53c63c7f45cdc0661b"
+      ],
       "text": "That's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d86a384d5385cb665b19edf73972799527c73d4b74100d2741bd1ab055e8757f",
+      "sha256": [
+        "65ce4523adbef96274f2f4d0ac5f08c53fb653536a819ce0a940c8c617287124",
+        "d86a384d5385cb665b19edf73972799527c73d4b74100d2741bd1ab055e8757f"
+      ],
       "text": "Hey, she's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "65ce4523adbef96274f2f4d0ac5f08c53fb653536a819ce0a940c8c617287124",
-      "text": "Hey, she's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0dd74723bbf214ea594c370d136aa57d84b316424d362e6ea3fca5a100e207fd",
+      "sha256": [
+        "0dd74723bbf214ea594c370d136aa57d84b316424d362e6ea3fca5a100e207fd"
+      ],
       "text": "Haze's on the bridge!",
       "source": "official"
     }

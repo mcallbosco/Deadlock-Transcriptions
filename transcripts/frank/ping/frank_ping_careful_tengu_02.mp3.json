@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_tengu_02.mp3",
   "revisions": [
     {
-      "sha256": "4de328ce72fd70139d150abbde6e9ce51327fefbc4d7cdd8b7ee12eba6c52280",
-      "text": "Careful, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddb4d36279999fb90b219714a28c7df46de9f9435f86a395dd8149b87b1c9c10",
+      "sha256": [
+        "4de328ce72fd70139d150abbde6e9ce51327fefbc4d7cdd8b7ee12eba6c52280",
+        "ddb4d36279999fb90b219714a28c7df46de9f9435f86a395dd8149b87b1c9c10"
+      ],
       "text": "Careful, Ivy.",
       "source": "official"
     }

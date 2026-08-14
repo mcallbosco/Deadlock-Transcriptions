@@ -1,33 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "050a6b72b44c4d6b9ec3fcbce9e22b9d7c31676a0e00b6c8a3bc92b066f233c9",
+      "sha256": [
+        "050a6b72b44c4d6b9ec3fcbce9e22b9d7c31676a0e00b6c8a3bc92b066f233c9",
+        "5a2ccf2f8a71ddf8723edd89c966871a97263b0ece082c2f9dbc5e43c19065ee",
+        "8bb25b7176db8a7b56f63ee9b3510e7ebf7076ff79321dab125d1e797e059eea",
+        "e3f030ffa57637d01e20b24b72266641e2868f01ff63dc6108636177ffe0e3ed"
+      ],
       "text": "Paradox is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e3f030ffa57637d01e20b24b72266641e2868f01ff63dc6108636177ffe0e3ed",
-      "text": "Paradox is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a2ccf2f8a71ddf8723edd89c966871a97263b0ece082c2f9dbc5e43c19065ee",
-      "text": "Paradox is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8bb25b7176db8a7b56f63ee9b3510e7ebf7076ff79321dab125d1e797e059eea",
-      "text": "Paradox is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "031357ebab8c111fa1117824c787700c14aa91dd8cd4b260978990b570c8d800",
+      "sha256": [
+        "031357ebab8c111fa1117824c787700c14aa91dd8cd4b260978990b570c8d800"
+      ],
       "text": "Paradox's missing",
       "source": "official"
     }

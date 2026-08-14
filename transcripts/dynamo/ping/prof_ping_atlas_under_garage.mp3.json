@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_atlas_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "b71a2e24bafca7bad1fecd4413e8f8905c2831e407e49a24adacb75077037a06",
-      "text": "Abrams under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a41c84bfeb067c556501063abee5963d4af70a40b5257fa130a612e0de9426f7",
+      "sha256": [
+        "a41c84bfeb067c556501063abee5963d4af70a40b5257fa130a612e0de9426f7",
+        "b71a2e24bafca7bad1fecd4413e8f8905c2831e407e49a24adacb75077037a06"
+      ],
       "text": "Abrams under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

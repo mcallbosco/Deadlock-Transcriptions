@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_returning_to_base.mp3",
   "revisions": [
     {
-      "sha256": "4103bab8bf16912cfb4ad09794b7bc194acff904c199460185ad418c60ae2825",
-      "text": "Headed back to base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24e16fa7d311857b8d0909e26c26db15e41b1b160694133c25fa5ee7cec0b2d1",
-      "text": "Headed back to base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "53caf12c8e96c09a7d9a672676e64f75dc8086b21ad8c082a0649f72655776c2",
+      "sha256": [
+        "24e16fa7d311857b8d0909e26c26db15e41b1b160694133c25fa5ee7cec0b2d1",
+        "4103bab8bf16912cfb4ad09794b7bc194acff904c199460185ad418c60ae2825",
+        "53caf12c8e96c09a7d9a672676e64f75dc8086b21ad8c082a0649f72655776c2"
+      ],
       "text": "Headed back to base.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

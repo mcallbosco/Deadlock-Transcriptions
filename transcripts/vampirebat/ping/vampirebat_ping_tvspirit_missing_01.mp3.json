@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_tvspirit_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f74055c873695665df1452d13970243548db2c972cff9f88aaee29cfb0999fc4",
+      "sha256": [
+        "c477509205e7ad8631051ca15fbfba76366ac13ab47c92ee7cdeb81930f42321",
+        "f74055c873695665df1452d13970243548db2c972cff9f88aaee29cfb0999fc4"
+      ],
       "text": "The poltergeist is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c477509205e7ad8631051ca15fbfba76366ac13ab47c92ee7cdeb81930f42321",
-      "text": "The Poltergeist is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

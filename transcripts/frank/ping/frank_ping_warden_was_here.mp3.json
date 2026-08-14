@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "971b570e9b4ed0e55f3a3b43ec9ef955bdfa07fd6ec9f148d3da10588d004a31",
-      "text": "Warden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cb94462e1071c134b58ea97ec7ed2a66ada33d5969fbec6128103a9b52d3be3e",
+      "sha256": [
+        "971b570e9b4ed0e55f3a3b43ec9ef955bdfa07fd6ec9f148d3da10588d004a31",
+        "cb94462e1071c134b58ea97ec7ed2a66ada33d5969fbec6128103a9b52d3be3e"
+      ],
       "text": "Warden was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

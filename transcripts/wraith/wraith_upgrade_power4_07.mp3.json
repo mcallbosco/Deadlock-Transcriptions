@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_upgrade_power4_07.mp3",
   "revisions": [
     {
-      "sha256": "0ca08a9567ed0507f8e8582a3821ebf012dc2442c58b6c5d31f3dc5d2c8c78b5",
-      "text": "I catch 'em alone, they're all mine.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "0ca08a9567ed0507f8e8582a3821ebf012dc2442c58b6c5d31f3dc5d2c8c78b5",
+        "64faf94736ce969ff86518797a71c4355a8d82e8fa566aa2782c0f8549a91b39",
+        "68350286fa004531333272ba3702a5c4488f3fd84658e39319b64789646db08d"
+      ],
+      "text": "I catch 'em alone they're all mine…",
+      "source": "official"
     },
     {
-      "sha256": "5b45bc34ca96a095d604fc83de3684aa3e8e420419c361ac15303a5d034a628b",
+      "sha256": [
+        "5b45bc34ca96a095d604fc83de3684aa3e8e420419c361ac15303a5d034a628b"
+      ],
       "text": "I catch them alone, they're all mine.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64faf94736ce969ff86518797a71c4355a8d82e8fa566aa2782c0f8549a91b39",
-      "text": "I catch 'em alone, they're all mine.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68350286fa004531333272ba3702a5c4488f3fd84658e39319b64789646db08d",
-      "text": "I catch 'em alone they're all mine…",
-      "source": "official"
     }
   ]
 }

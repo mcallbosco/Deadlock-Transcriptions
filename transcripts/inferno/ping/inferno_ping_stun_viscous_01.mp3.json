@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_stun_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "44602993826b5b5f7027202d392aea8b17cba66a54f6226b074c0d5a86d93af8",
+      "sha256": [
+        "44602993826b5b5f7027202d392aea8b17cba66a54f6226b074c0d5a86d93af8"
+      ],
       "text": "This is good.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8c0450a7d063975724a08fbd9cae6398668b48e68bc0d81d42c67aac15e074fc",
+      "sha256": [
+        "0ae47b6daf075ac85ddd07776134b594eced17a96a2539df9aea0aa9f9a8b51b",
+        "8c0450a7d063975724a08fbd9cae6398668b48e68bc0d81d42c67aac15e074fc"
+      ],
       "text": "Stop this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6da864948ab4e1614efe46007b9f86b64b0a83d8f5733e4dca9008e83aa4d770",
+      "sha256": [
+        "6da864948ab4e1614efe46007b9f86b64b0a83d8f5733e4dca9008e83aa4d770"
+      ],
       "text": "Stop this game.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ae47b6daf075ac85ddd07776134b594eced17a96a2539df9aea0aa9f9a8b51b",
-      "text": "Stop this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

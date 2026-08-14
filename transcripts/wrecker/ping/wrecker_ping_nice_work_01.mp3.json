@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "93dbb5669d30ba6cd6b73865eeb69ffea551d166a4d4b50f1d05e7322436161f",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e4118a5162733702dc6a827c9be8aefa9f46a6b13285182dcb734161d0ca9f8b",
+      "sha256": [
+        "93dbb5669d30ba6cd6b73865eeb69ffea551d166a4d4b50f1d05e7322436161f",
+        "e4118a5162733702dc6a827c9be8aefa9f46a6b13285182dcb734161d0ca9f8b"
+      ],
       "text": "Nice work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

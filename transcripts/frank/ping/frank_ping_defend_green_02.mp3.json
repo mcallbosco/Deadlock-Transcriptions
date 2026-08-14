@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_defend_green_02.mp3",
   "revisions": [
     {
-      "sha256": "731ccb82ae9b82694668842a2ff41179031befaf70c6ef14d8e32998a5d14af5",
+      "sha256": [
+        "731ccb82ae9b82694668842a2ff41179031befaf70c6ef14d8e32998a5d14af5"
+      ],
       "text": "Is that great.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2801567bebd6e381950bd0bf2b6021ac3803afcd1defc9ee785d2679900d6d6d",
+      "sha256": [
+        "2801567bebd6e381950bd0bf2b6021ac3803afcd1defc9ee785d2679900d6d6d"
+      ],
       "text": "Defend Greenwich.",
       "source": "official"
     }

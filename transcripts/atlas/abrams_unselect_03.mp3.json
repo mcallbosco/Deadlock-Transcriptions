@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_unselect_03.mp3",
   "revisions": [
     {
-      "sha256": "175c04f18b31b6f8ed6a230ef80b9e3be255cf4f4174db8f74267cb4952c9d10",
+      "sha256": [
+        "175c04f18b31b6f8ed6a230ef80b9e3be255cf4f4174db8f74267cb4952c9d10",
+        "a48982fe3d6dd563b9ec28d85b82b88c853f90f0d3f90d9f4e02ce52f9d322fb",
+        "c72c2ac4fd5730720c2bf436f92186ca7e5b5cf1509546bde70d904b9ba3ec8d"
+      ],
       "text": "Time to find me a bar.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ce0666abda6eec5b4d5dacab3bbf541214ce065648814348c890c0ac282e2394",
+      "sha256": [
+        "ce0666abda6eec5b4d5dacab3bbf541214ce065648814348c890c0ac282e2394"
+      ],
       "text": "Come to find me a bar.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c72c2ac4fd5730720c2bf436f92186ca7e5b5cf1509546bde70d904b9ba3ec8d",
-      "text": "Time to find me a bar.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a48982fe3d6dd563b9ec28d85b82b88c853f90f0d3f90d9f4e02ce52f9d322fb",
-      "text": "Time to find me a bar.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

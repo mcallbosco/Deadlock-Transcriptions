@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_ignore_synth.mp3",
   "revisions": [
     {
-      "sha256": "3a40bb4eaf401de7c5a4d4bd16703db5267e5e649d4e6bca1161c0dd4c046ae4",
+      "sha256": [
+        "3a40bb4eaf401de7c5a4d4bd16703db5267e5e649d4e6bca1161c0dd4c046ae4",
+        "3af49e766a7ab11d780acc0ad82448375afa1fef0872b20946c2e7c20eb38a2c",
+        "96327075d97e10c0803398ec163c6e4974861c66d710df58099570433172274b"
+      ],
       "text": "Ignore Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96327075d97e10c0803398ec163c6e4974861c66d710df58099570433172274b",
-      "text": "Ignore Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3af49e766a7ab11d780acc0ad82448375afa1fef0872b20946c2e7c20eb38a2c",
-      "text": "Ignore Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

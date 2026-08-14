@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_grey_talon_03_01.mp3",
   "revisions": [
     {
-      "sha256": "e9b6694c4144a35c92e858a6a1c2311ca7688c5afea32397f11d55fac3197ee8",
-      "text": "Careful, Talon!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2017e719af64fdbe932e2abd58ca43842c7c94b13cba28c56da6abe4a3c42d5b",
+      "sha256": [
+        "2017e719af64fdbe932e2abd58ca43842c7c94b13cba28c56da6abe4a3c42d5b",
+        "e9b6694c4144a35c92e858a6a1c2311ca7688c5afea32397f11d55fac3197ee8"
+      ],
       "text": "Careful, Talon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

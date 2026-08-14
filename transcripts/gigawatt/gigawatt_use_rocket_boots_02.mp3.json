@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_rocket_boots_02.mp3",
   "revisions": [
     {
-      "sha256": "b6861b0ec050657353b054a753ba267f83054fe87440dd61cd5e84dbd7d26a94",
-      "text": "Moving.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "a97df60e9f477260cc9ab82ffe0fd23c351eddb48518180eddf97f19ad5bd14f",
+        "b6861b0ec050657353b054a753ba267f83054fe87440dd61cd5e84dbd7d26a94"
+      ],
+      "text": "Moving!",
+      "source": "official"
     },
     {
-      "sha256": "fa391895e4aa1114efe571c26abc8863ef869bed0b2c31464380e326c1ce365e",
+      "sha256": [
+        "fa391895e4aa1114efe571c26abc8863ef869bed0b2c31464380e326c1ce365e"
+      ],
       "text": "Go here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f98845263d1e134fccaed7b3ee03e1de0dca9f5271da797d187c9c3955799cc1",
+      "sha256": [
+        "f98845263d1e134fccaed7b3ee03e1de0dca9f5271da797d187c9c3955799cc1"
+      ],
       "text": "Go in.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a97df60e9f477260cc9ab82ffe0fd23c351eddb48518180eddf97f19ad5bd14f",
-      "text": "Moving!",
-      "source": "official"
     }
   ]
 }

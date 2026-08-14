@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_magician_check_items.mp3",
   "revisions": [
     {
-      "sha256": "5806317738da1723e36c171b3367bf427c4bd706f56d00d2360b67bc28e3c11f",
-      "text": "Check out what Sinclair bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "75b7a5b6ed23942017a2db181d4396cafc1a4f9681cdb55edf483a5edf5b684b",
+      "sha256": [
+        "5806317738da1723e36c171b3367bf427c4bd706f56d00d2360b67bc28e3c11f",
+        "75b7a5b6ed23942017a2db181d4396cafc1a4f9681cdb55edf483a5edf5b684b"
+      ],
       "text": "Check out what Sinclair bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

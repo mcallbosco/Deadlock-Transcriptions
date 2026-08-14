@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "29b14cce690b4f1bbdd1e29f2b13d4b3637ac6c27e2e19abf0e1faa5f9ce3c41",
-      "text": "Seven was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37a2acfc59bb4b4ada48bfe752a5550c836844761fb1cbc76f4647c265f264c8",
+      "sha256": [
+        "29b14cce690b4f1bbdd1e29f2b13d4b3637ac6c27e2e19abf0e1faa5f9ce3c41",
+        "37a2acfc59bb4b4ada48bfe752a5550c836844761fb1cbc76f4647c265f264c8"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

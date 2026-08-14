@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_magician_dead.mp3",
   "revisions": [
     {
-      "sha256": "05ca2259f798cce703206e5d1752033408d643654df65a2de470db7800ba6051",
+      "sha256": [
+        "05ca2259f798cce703206e5d1752033408d643654df65a2de470db7800ba6051"
+      ],
       "text": "Magician is dead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

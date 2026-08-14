@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_happy_07.mp3",
   "revisions": [
     {
-      "sha256": "dc9fef76afe7ce239ba2019887143ba224cb37d9fd2c82bed5995a39af01289c",
-      "text": "Things are looking up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "daefb596645b4b9bb4fec040848e8f87c3d5da93c9f59ad0431f9b3a523391b4",
+      "sha256": [
+        "daefb596645b4b9bb4fec040848e8f87c3d5da93c9f59ad0431f9b3a523391b4",
+        "dc9fef76afe7ce239ba2019887143ba224cb37d9fd2c82bed5995a39af01289c"
+      ],
       "text": "Things are looking up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

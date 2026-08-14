@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_fall_back.mp3",
   "revisions": [
     {
-      "sha256": "6c128d6ae6f93f5540c468ff3faea227633014cdecad2acb9f8a77230b0b8f50",
+      "sha256": [
+        "6c128d6ae6f93f5540c468ff3faea227633014cdecad2acb9f8a77230b0b8f50"
+      ],
       "text": "Be careful, you're exposed out there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc51f925b42cc8157db6dfcd58eb1f66158199a6b91e93f00165f6e293bbaa80",
-      "text": "Be careful, you're exposed up there.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "355a1ec0276fdb99aea9db0296feb247f88075dfcd7cc296a16ed0794cfe58b9",
+      "sha256": [
+        "355a1ec0276fdb99aea9db0296feb247f88075dfcd7cc296a16ed0794cfe58b9",
+        "bc51f925b42cc8157db6dfcd58eb1f66158199a6b91e93f00165f6e293bbaa80"
+      ],
       "text": "Be careful, you're exposed up there!",
       "source": "official"
     }

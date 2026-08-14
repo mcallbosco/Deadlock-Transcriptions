@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_tengu_check_items.mp3",
   "revisions": [
     {
-      "sha256": "ffdc58f6ccfb0b76493087acf5ab3c7561ef357068922caa9db0c86877faad3b",
+      "sha256": [
+        "ffdc58f6ccfb0b76493087acf5ab3c7561ef357068922caa9db0c86877faad3b"
+      ],
       "text": "Check out what Ivy bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d20ac3150cb4e26af79d44dc8b734552718abb7fde095589b06e39f2f8577aac",
+      "sha256": [
+        "d20ac3150cb4e26af79d44dc8b734552718abb7fde095589b06e39f2f8577aac"
+      ],
       "text": "Check out what Ivy built.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

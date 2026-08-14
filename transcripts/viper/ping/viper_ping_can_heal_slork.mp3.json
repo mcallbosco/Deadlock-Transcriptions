@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_can_heal_slork.mp3",
   "revisions": [
     {
-      "sha256": "a7e87d4eed098e0cd85f610784986762e6ed1c78272e2a509aa256eea9c186e8",
+      "sha256": [
+        "a7e87d4eed098e0cd85f610784986762e6ed1c78272e2a509aa256eea9c186e8"
+      ],
       "text": "BDM, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f700cfcb50721cce575ea9452cf7cbcce4e3acf8b76be1f59ebdfd80e40f1fba",
+      "sha256": [
+        "f700cfcb50721cce575ea9452cf7cbcce4e3acf8b76be1f59ebdfd80e40f1fba"
+      ],
       "text": "Fathom, I can heal you!",
       "source": "official"
     }

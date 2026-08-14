@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_good_game_01.mp3",
   "revisions": [
     {
-      "sha256": "a1bea5c46a04c49b62b4ab66a70be8500c7b19d1d263b48cc00d37759f3e1f09",
+      "sha256": [
+        "a1bea5c46a04c49b62b4ab66a70be8500c7b19d1d263b48cc00d37759f3e1f09"
+      ],
       "text": "Good game.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b21b7f3fa6a1311d5482445b010b7235cdcf4857dbaffa67ee6377bcfac3b3ea",
+      "sha256": [
+        "202eab1bb41d84879afcedbdee25364b1b89d547427155369e1917b8187052a8",
+        "b21b7f3fa6a1311d5482445b010b7235cdcf4857dbaffa67ee6377bcfac3b3ea"
+      ],
       "text": "Good job.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "202eab1bb41d84879afcedbdee25364b1b89d547427155369e1917b8187052a8",
-      "text": "Good job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce6fd90bce9eb6676735e775f786cdf3383039292140e50edc6507ebb83043f2",
+      "sha256": [
+        "ce6fd90bce9eb6676735e775f786cdf3383039292140e50edc6507ebb83043f2"
+      ],
       "text": "Good times.",
       "source": "official"
     }

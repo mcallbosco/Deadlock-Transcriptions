@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_see_krill.mp3",
   "revisions": [
     {
-      "sha256": "fd7f34d98183f1c8ea6829764a2da8d1c229fe249800eb55d75789029435582d",
-      "text": "That's it, Krill!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0375aa879a9f94ff7661e933b6118d59bca43599afbb59b0f7446622f36d34a",
+      "sha256": [
+        "c0375aa879a9f94ff7661e933b6118d59bca43599afbb59b0f7446622f36d34a",
+        "fd7f34d98183f1c8ea6829764a2da8d1c229fe249800eb55d75789029435582d"
+      ],
       "text": "That's it, Krill!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

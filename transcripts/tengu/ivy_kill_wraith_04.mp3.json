@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_kill_wraith_04.mp3",
   "revisions": [
     {
-      "sha256": "804873aae904860dee71d87b912fd1a2ee8e1db0bd7dc1cf68d3a4413706cc6a",
-      "text": "I stopped Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2fca69fc730988a601904a08d1e46f316f65a71c8d24c221ff0d1f0f36ea3913",
+      "sha256": [
+        "2fca69fc730988a601904a08d1e46f316f65a71c8d24c221ff0d1f0f36ea3913",
+        "804873aae904860dee71d87b912fd1a2ee8e1db0bd7dc1cf68d3a4413706cc6a"
+      ],
       "text": "I stopped Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

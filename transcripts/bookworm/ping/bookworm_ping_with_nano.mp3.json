@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "526cf60e2fd42f3605d67671ac350eaad54d052f9f25e19ffc024d94c195795f",
+      "sha256": [
+        "526cf60e2fd42f3605d67671ac350eaad54d052f9f25e19ffc024d94c195795f",
+        "ed6427d31caa12b4b7274e067063644bb0c546b000a7829ce7065556817446c9"
+      ],
       "text": "I'm with you, Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed6427d31caa12b4b7274e067063644bb0c546b000a7829ce7065556817446c9",
-      "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

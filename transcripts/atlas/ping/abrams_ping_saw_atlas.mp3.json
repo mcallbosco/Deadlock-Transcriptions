@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "50121289896d13c44e672b7a4e39c5cf8b75f68a232a97d56ae005e14ed00056",
-      "text": "I saw Atlas.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fefd8d38986094a01b13b4d4249399aaa541710ece2242719c94795289982aae",
+      "sha256": [
+        "50121289896d13c44e672b7a4e39c5cf8b75f68a232a97d56ae005e14ed00056",
+        "fefd8d38986094a01b13b4d4249399aaa541710ece2242719c94795289982aae"
+      ],
       "text": "I saw Atlas.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

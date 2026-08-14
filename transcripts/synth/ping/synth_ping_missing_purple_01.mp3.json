@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "3eec1eeeb4dcdf5e063a250e4a786c749713b98520bbe75dd5cb922140f4d74e",
+      "sha256": [
+        "3eec1eeeb4dcdf5e063a250e4a786c749713b98520bbe75dd5cb922140f4d74e"
+      ],
       "text": "Missing purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

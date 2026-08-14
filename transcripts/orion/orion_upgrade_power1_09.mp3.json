@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_upgrade_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "c2c335662668ba120ebfcdb62d3c8b161d7bc2f764aa909e54224e7f994229dc",
-      "text": "They'll be dead before they know it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e12bcf128768b26480602c304aecbafbfeaadef11ad853349dd7410687b9a29",
-      "text": "They'll be dead before they know it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eace555a306e9d2ff93fee737098eb558f23f5d4edb8bf7efcd247a106537353",
-      "text": "They'll be dead before they know it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55c8180334e95595cd745fafa9a93d36e655df7c749810313acaf52ff2e85cbe",
+      "sha256": [
+        "55c8180334e95595cd745fafa9a93d36e655df7c749810313acaf52ff2e85cbe",
+        "7e12bcf128768b26480602c304aecbafbfeaadef11ad853349dd7410687b9a29",
+        "c2c335662668ba120ebfcdb62d3c8b161d7bc2f764aa909e54224e7f994229dc",
+        "eace555a306e9d2ff93fee737098eb558f23f5d4edb8bf7efcd247a106537353"
+      ],
       "text": "They'll be dead before they know it.",
       "source": "official"
     }

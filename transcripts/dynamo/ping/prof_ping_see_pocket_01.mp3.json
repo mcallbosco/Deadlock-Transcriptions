@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_pocket_01.mp3",
   "revisions": [
     {
-      "sha256": "a3c6e2b2aaf2f1b8fe7b61e8f728c9868a705f3ff91f975b3f672bdde5b73cb6",
-      "text": "I see Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77e495f76d6d1321d2a0ba5bd0107d285f4fffd76c11ed61d4fd43f2f7e63f88",
+      "sha256": [
+        "77e495f76d6d1321d2a0ba5bd0107d285f4fffd76c11ed61d4fd43f2f7e63f88",
+        "a3c6e2b2aaf2f1b8fe7b61e8f728c9868a705f3ff91f975b3f672bdde5b73cb6"
+      ],
       "text": "I see Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

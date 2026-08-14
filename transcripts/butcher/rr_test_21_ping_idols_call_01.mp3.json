@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_idols_call_01.mp3",
   "revisions": [
     {
-      "sha256": "67188aa3414328fb7e6221dff33a7bb2e0cbc514e2f5a4357cbde384bb669b19",
-      "text": "Idles here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "146562572336be714332a6c0f1f861c1b2bf605920e90029f286d2707de1d73b",
-      "text": "Idles here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd10f7837e3a04ea30407c3acf2d9a9f3ca080baf7ad52469e25956592c09433",
+      "sha256": [
+        "146562572336be714332a6c0f1f861c1b2bf605920e90029f286d2707de1d73b",
+        "67188aa3414328fb7e6221dff33a7bb2e0cbc514e2f5a4357cbde384bb669b19",
+        "cd10f7837e3a04ea30407c3acf2d9a9f3ca080baf7ad52469e25956592c09433"
+      ],
       "text": "Idles here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

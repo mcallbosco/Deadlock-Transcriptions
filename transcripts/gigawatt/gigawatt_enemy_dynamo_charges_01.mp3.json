@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_enemy_dynamo_charges_01.mp3",
   "revisions": [
     {
-      "sha256": "4ee6ddfb43605c10349b4cba8e3e90f0148cf88313a1c6c9c0f57990d7176595",
+      "sha256": [
+        "4ee6ddfb43605c10349b4cba8e3e90f0148cf88313a1c6c9c0f57990d7176595"
+      ],
       "text": "Target must charging.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "107f1e83ddce6ee34d9bfd9cfacc0bb3f6f63f9399045369e8dd10c6bb919768",
+      "sha256": [
+        "107f1e83ddce6ee34d9bfd9cfacc0bb3f6f63f9399045369e8dd10c6bb919768",
+        "f3316727ac7a04479bb7a5853cdd764bf3a5ae6612393d2e639a5ea784f65838"
+      ],
       "text": "Target lock charging.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f3316727ac7a04479bb7a5853cdd764bf3a5ae6612393d2e639a5ea784f65838",
-      "text": "Target lock charging.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "44b9b68779c409889df9076f3eaa21d41349ce4beaaf89a82bbd04b1f5af0494",
+      "sha256": [
+        "44b9b68779c409889df9076f3eaa21d41349ce4beaaf89a82bbd04b1f5af0494"
+      ],
       "text": "Dynamo's charging!",
       "source": "official"
     }

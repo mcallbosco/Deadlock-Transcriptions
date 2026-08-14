@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "83a08cd9fa5227d1b56b526b1bd287699d19e6d760bfadc851114156f5f34183",
-      "text": "That was weird.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a0de0a1c3261d4c1a38d8531bbece71f2fd8da5a6fa0dc8fbe6224e10cd7c5a",
-      "text": "That was weird.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "042a75be74779ff64e89b9a02478238ef1f250b770e07fc0d9a8034045f3fb20",
+      "sha256": [
+        "042a75be74779ff64e89b9a02478238ef1f250b770e07fc0d9a8034045f3fb20",
+        "1a0de0a1c3261d4c1a38d8531bbece71f2fd8da5a6fa0dc8fbe6224e10cd7c5a",
+        "83a08cd9fa5227d1b56b526b1bd287699d19e6d760bfadc851114156f5f34183"
+      ],
       "text": "That was weird.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

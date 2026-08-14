@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_negative_03.mp3",
   "revisions": [
     {
-      "sha256": "690f965ff6768571485cd6a98468ee10a5150668ccc88c0bee9aca3c0708a99d",
+      "sha256": [
+        "690f965ff6768571485cd6a98468ee10a5150668ccc88c0bee9aca3c0708a99d"
+      ],
       "text": "Bah!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0526fcaf51025afcb864d131ece7e53931776392967523c2ede1e74818c399cf",
+      "sha256": [
+        "0526fcaf51025afcb864d131ece7e53931776392967523c2ede1e74818c399cf"
+      ],
       "text": "Nuh-uh",
       "source": "official"
     }

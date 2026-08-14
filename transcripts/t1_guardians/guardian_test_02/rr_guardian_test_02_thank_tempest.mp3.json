@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_tempest.mp3",
   "revisions": [
     {
-      "sha256": "8fa36b7817447d7acf0a73d4853326b0c130485736174acd76486bf65384e54d",
-      "text": "Thanks, Tempest.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a5347ec05ae1c1f7b774ea0b8ee24476e76cf7dc9180e39eb08ae98c62a577f",
-      "text": "Thanks, Tempest.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "777b0f45981a7606b95668440234ffabd8781c6336150ed5250874a5c4758896",
+      "sha256": [
+        "3a5347ec05ae1c1f7b774ea0b8ee24476e76cf7dc9180e39eb08ae98c62a577f",
+        "777b0f45981a7606b95668440234ffabd8781c6336150ed5250874a5c4758896",
+        "8fa36b7817447d7acf0a73d4853326b0c130485736174acd76486bf65384e54d"
+      ],
       "text": "Thanks, Tempest.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_many_assists_by_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "a0922d8ccaa18c1a6ca666fdc2c99f1f43e4c43a6a20e2d6be2ea955cede422b",
-      "text": "Kelvin continues to be a powerful ally.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "285f5a9266834a1105905b310b52c09c6bdd7af5f16d8047bd06e53134a284a2",
+        "a0922d8ccaa18c1a6ca666fdc2c99f1f43e4c43a6a20e2d6be2ea955cede422b"
+      ],
+      "text": "Kelvin continues to be a powerful ally…",
+      "source": "official"
     },
     {
-      "sha256": "d4d45db075717e50edb3c0b50c39f05ddd990f85a42ba996ed674e000556c135",
+      "sha256": [
+        "d4d45db075717e50edb3c0b50c39f05ddd990f85a42ba996ed674e000556c135"
+      ],
       "text": "Caravan continues to be a powerful ally.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "285f5a9266834a1105905b310b52c09c6bdd7af5f16d8047bd06e53134a284a2",
-      "text": "Kelvin continues to be a powerful ally…",
-      "source": "official"
     }
   ]
 }

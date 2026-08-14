@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_cadence_02.mp3",
   "revisions": [
     {
-      "sha256": "81bce4dbf55a8bbf32249d561e676a5d290fa615ef0b1abc7b5e1100f9f3e3b3",
+      "sha256": [
+        "81bce4dbf55a8bbf32249d561e676a5d290fa615ef0b1abc7b5e1100f9f3e3b3",
+        "84ca5feb053a2896f3756daaad50bff792a66c48d872264f9807584e8479b9f8"
+      ],
       "text": "Kill Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "84ca5feb053a2896f3756daaad50bff792a66c48d872264f9807584e8479b9f8",
-      "text": "Kill Cadence!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fee54df5d9ae3c9ebac0c799a17665c7f7aeb3c2f624b58622d05f6771cb1419",
+      "sha256": [
+        "fee54df5d9ae3c9ebac0c799a17665c7f7aeb3c2f624b58622d05f6771cb1419"
+      ],
       "text": "Cattle cadence!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

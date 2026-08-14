@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_careful_fairfax_03.mp3",
   "revisions": [
     {
-      "sha256": "e161aab6b90804f96007706459e461678aa2483e0d546de81281c115ae8c2176",
-      "text": "Careful, Fairfax!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e49ab6cd0f53a0e36062c7531c2e7bc2b81767f633f7e4cdccb87800d33d8fb",
+      "sha256": [
+        "1e49ab6cd0f53a0e36062c7531c2e7bc2b81767f633f7e4cdccb87800d33d8fb",
+        "e161aab6b90804f96007706459e461678aa2483e0d546de81281c115ae8c2176"
+      ],
       "text": "Careful, Fairfax!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

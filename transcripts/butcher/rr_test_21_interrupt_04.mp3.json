@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_interrupt_04.mp3",
   "revisions": [
     {
-      "sha256": "d075461e31d4b97b005c8cc7481522b954f12608aaefc02042832433cb23d3f4",
-      "text": "You think you can try that around me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d92d4cf27989b316f7034fb39c44b6cb671ba987a779c8ac27fcdbf0d9560e2",
-      "text": "You think you can try that around me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bec2d61cdf1316d2d0ea9c3cdfd87b19c522a6728794252c3bcf70182823f5d9",
+      "sha256": [
+        "0d92d4cf27989b316f7034fb39c44b6cb671ba987a779c8ac27fcdbf0d9560e2",
+        "bec2d61cdf1316d2d0ea9c3cdfd87b19c522a6728794252c3bcf70182823f5d9",
+        "d075461e31d4b97b005c8cc7481522b954f12608aaefc02042832433cb23d3f4"
+      ],
       "text": "You think you can try that around me?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

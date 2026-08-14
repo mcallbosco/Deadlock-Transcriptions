@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_slork_01.mp3",
   "revisions": [
     {
-      "sha256": "b47bc107e8b66bfcb6be22eb5219a74e1896975bb55f6e784fcc20749b45153e",
+      "sha256": [
+        "b47bc107e8b66bfcb6be22eb5219a74e1896975bb55f6e784fcc20749b45153e"
+      ],
       "text": "Cruciana.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c630241cfa33bbe91d300074b214d3bec3842e4b82592e57c03c99670c4ab1e3",
+      "sha256": [
+        "c630241cfa33bbe91d300074b214d3bec3842e4b82592e57c03c99670c4ab1e3"
+      ],
       "text": "I see Fathom.",
       "source": "official"
     }

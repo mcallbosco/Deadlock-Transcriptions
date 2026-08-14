@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_saw_murphy.mp3",
   "revisions": [
     {
-      "sha256": "bf192250563316dced8095c9f0663cad5b09f92f045fe6536f02e22b7fbc9afa",
-      "text": "I saw nothing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c221b6593bfaf892fb1f97709d7b2c53495f8a7dd47ffb044c530f2f0026a4e0",
+      "sha256": [
+        "bf192250563316dced8095c9f0663cad5b09f92f045fe6536f02e22b7fbc9afa",
+        "c221b6593bfaf892fb1f97709d7b2c53495f8a7dd47ffb044c530f2f0026a4e0"
+      ],
       "text": "I saw nothing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

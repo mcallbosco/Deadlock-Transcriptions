@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "160fc05fd5b2e1cf7dbb0d1a6c15674311f2e060c8a86739f669be3c33dd8be5",
+      "sha256": [
+        "160fc05fd5b2e1cf7dbb0d1a6c15674311f2e060c8a86739f669be3c33dd8be5"
+      ],
       "text": "Gammato is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "83e8f004dbe051c5f371d41740e498661ffd6b394f599555d9516f1c600f468c",
+      "sha256": [
+        "83e8f004dbe051c5f371d41740e498661ffd6b394f599555d9516f1c600f468c",
+        "c1b2008f483781f5be0cf9b2495002f5a8d8dae8bd3e6962372511d32f93c094"
+      ],
       "text": "Yamato was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c1b2008f483781f5be0cf9b2495002f5a8d8dae8bd3e6962372511d32f93c094",
-      "text": "Yamato was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "74505ac1f938a79eaf51ec3a04be58a92d5dd88167d31cea3ab27eabf3b06edf",
+      "sha256": [
+        "74505ac1f938a79eaf51ec3a04be58a92d5dd88167d31cea3ab27eabf3b06edf"
+      ],
       "text": "Yamato is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "09d8393a1e2da51ed92c62fda93030dd565397dd5c9ebd5d0bf2264afce008ab",
+      "sha256": [
+        "09d8393a1e2da51ed92c62fda93030dd565397dd5c9ebd5d0bf2264afce008ab"
+      ],
       "text": "Gamatow is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

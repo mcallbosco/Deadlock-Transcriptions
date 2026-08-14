@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_grant_boon_magic_05.mp3",
   "revisions": [
     {
-      "sha256": "b5a6ac2f1d2b652dd861779b6b419856baa3470fa3449d2ee93469243e9697da",
+      "sha256": [
+        "a12cef238f91acfadf008d764df855092ba388666e9b5acbe15778da469ad3b6",
+        "b5a6ac2f1d2b652dd861779b6b419856baa3470fa3449d2ee93469243e9697da"
+      ],
       "text": "My power is yours to wield.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a12cef238f91acfadf008d764df855092ba388666e9b5acbe15778da469ad3b6",
-      "text": "My power is yours to wield.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "492dc2ba158d1be509910091798b8396345893fd9849011fa8b97db1b1f546a4",
+      "sha256": [
+        "492dc2ba158d1be509910091798b8396345893fd9849011fa8b97db1b1f546a4"
+      ],
       "text": "The Archmother extends her hand to you",
       "source": "official"
     }

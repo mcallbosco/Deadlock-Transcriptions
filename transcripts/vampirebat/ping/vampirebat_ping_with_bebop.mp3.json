@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "5e86c0a7a66de52490103479a0ebd2b0d06e6b051af0d9b021b25cdfd56ad8df",
+      "sha256": [
+        "351192f59c0a8eaf6f664287683e7854277c207aa93011c68d79b4e7edd44ce7",
+        "5e86c0a7a66de52490103479a0ebd2b0d06e6b051af0d9b021b25cdfd56ad8df"
+      ],
       "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "351192f59c0a8eaf6f664287683e7854277c207aa93011c68d79b4e7edd44ce7",
-      "text": "I'm with you, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

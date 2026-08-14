@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_got_denied_02.mp3",
   "revisions": [
     {
-      "sha256": "e9871668acb998df1954c56e39aca4e4bd4bb90cc7cfe4072d217a546e0d3689",
-      "text": "Hate them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d39b55eaddb35cc89c98751378f6916d78a5b9f72db481829f1fda030445e19",
+      "sha256": [
+        "9d39b55eaddb35cc89c98751378f6916d78a5b9f72db481829f1fda030445e19",
+        "e9871668acb998df1954c56e39aca4e4bd4bb90cc7cfe4072d217a546e0d3689"
+      ],
       "text": "Hate them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

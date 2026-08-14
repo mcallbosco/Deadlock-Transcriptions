@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "018de0c9a193eaf71ecf7c74ad625c9b3120488db0b89f936ea107c5c2ee5acf",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "48df25a3f211561310245fdd6c1186af46f193c7d5bac16d7e0b772610d53b27",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "965ddbe0e54aaa531bace709df261298317642f5a5d35394626af08b387fef71",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f935c5ead3e380484dff04c89251b60e936b79e1f029635cc916457c32df13e",
+      "sha256": [
+        "018de0c9a193eaf71ecf7c74ad625c9b3120488db0b89f936ea107c5c2ee5acf",
+        "3f935c5ead3e380484dff04c89251b60e936b79e1f029635cc916457c32df13e",
+        "48df25a3f211561310245fdd6c1186af46f193c7d5bac16d7e0b772610d53b27",
+        "965ddbe0e54aaa531bace709df261298317642f5a5d35394626af08b387fef71"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

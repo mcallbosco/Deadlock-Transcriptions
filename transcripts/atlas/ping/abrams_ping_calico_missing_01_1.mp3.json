@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_calico_missing_01_1.mp3",
   "revisions": [
     {
-      "sha256": "77176aeffa89a5032173db1fdcb0db07834972094968a432b679c2099601bd80",
-      "text": "Calico's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9504583848d330fe61afa741ab202eb8000b34e00793a24e06642012e5889b2c",
+      "sha256": [
+        "77176aeffa89a5032173db1fdcb0db07834972094968a432b679c2099601bd80",
+        "9504583848d330fe61afa741ab202eb8000b34e00793a24e06642012e5889b2c"
+      ],
       "text": "Calico's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

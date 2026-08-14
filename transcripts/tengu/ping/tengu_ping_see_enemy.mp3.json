@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "df4dedd75ca158c32e3b80b73af39e99464647e6bc305de4116bf72221b9ce8e",
-      "text": "I see the enemy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95be4c864f73e6176135b922ce03cdf4537da029ade19939b51f9ab3f524c454",
+      "sha256": [
+        "95be4c864f73e6176135b922ce03cdf4537da029ade19939b51f9ab3f524c454",
+        "df4dedd75ca158c32e3b80b73af39e99464647e6bc305de4116bf72221b9ce8e"
+      ],
       "text": "I see the enemy!",
       "source": "official"
     }

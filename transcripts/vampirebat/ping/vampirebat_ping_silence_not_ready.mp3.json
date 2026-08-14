@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_silence_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "2f9656d1aaaa90bfcb14b9beee861e85a829dbda3bb8f9ef4cf6fa310860785b",
-      "text": "Silence glyphs on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "086ef4c691a277872a62d90995811c2198344a5e9791286211d084ea271cca0f",
+      "sha256": [
+        "086ef4c691a277872a62d90995811c2198344a5e9791286211d084ea271cca0f",
+        "2f9656d1aaaa90bfcb14b9beee861e85a829dbda3bb8f9ef4cf6fa310860785b"
+      ],
       "text": "Silence Glyph's on cooldown.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_lets_go_purple.mp3",
   "revisions": [
     {
-      "sha256": "1a1163477885feb3616531fd92365c8fabf09677917f3c90d9fae6428e3d8f72",
-      "text": "Let's go purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9df9b68b3cd90cd18385d30e74200837abf234ec5278b2eda18d20eb5d07099c",
+      "sha256": [
+        "1a1163477885feb3616531fd92365c8fabf09677917f3c90d9fae6428e3d8f72",
+        "9df9b68b3cd90cd18385d30e74200837abf234ec5278b2eda18d20eb5d07099c"
+      ],
       "text": "Let's go purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

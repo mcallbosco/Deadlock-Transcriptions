@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_the_boss_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "0b6a90cba1235cc9611dae8443e6bca673769fa2a3fcc14be502ae075a96e867",
+      "sha256": [
+        "0b6a90cba1235cc9611dae8443e6bca673769fa2a3fcc14be502ae075a96e867",
+        "c129b6175473418f360503a6da70caca0b845955e8e0c918a7f6fa6715eb1f67"
+      ],
       "text": "The boss is on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c129b6175473418f360503a6da70caca0b845955e8e0c918a7f6fa6715eb1f67",
-      "text": "The boss is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

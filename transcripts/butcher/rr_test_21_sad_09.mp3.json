@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_sad_09.mp3",
   "revisions": [
     {
-      "sha256": "c8a5b84443401758d79767f553f822fff36f664725109122d13c78496f80a55a",
-      "text": "I didn't expect this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a309fbea3630d5b06e45c62ee3da4fd2d66b4aa9696ddff36ddf995fac054281",
-      "text": "I didn't expect this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "964e51bbdb8f9b1c68905063d103b21d38f9a5ebb3a7e8bd502bcd2d98a3469b",
+      "sha256": [
+        "964e51bbdb8f9b1c68905063d103b21d38f9a5ebb3a7e8bd502bcd2d98a3469b",
+        "a309fbea3630d5b06e45c62ee3da4fd2d66b4aa9696ddff36ddf995fac054281",
+        "c8a5b84443401758d79767f553f822fff36f664725109122d13c78496f80a55a"
+      ],
       "text": "I didn't expect this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

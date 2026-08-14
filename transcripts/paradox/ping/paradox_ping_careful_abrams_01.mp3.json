@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_abrams_01.mp3",
   "revisions": [
     {
-      "sha256": "34a7e143cf8d37fe70c4e8920f9a99fb961c96a4489649ab91fc94f4506fe114",
-      "text": "Careful, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e446d4e95b006860c3b91455aacea556ef144d010921582ed32ab16a444318a8",
+      "sha256": [
+        "34a7e143cf8d37fe70c4e8920f9a99fb961c96a4489649ab91fc94f4506fe114",
+        "e446d4e95b006860c3b91455aacea556ef144d010921582ed32ab16a444318a8"
+      ],
       "text": "Careful, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

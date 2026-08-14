@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "77bd37c6234649b04a8799d0440f2410212ff02ac63f440a8d00c04e503f767a",
+      "sha256": [
+        "77bd37c6234649b04a8799d0440f2410212ff02ac63f440a8d00c04e503f767a"
+      ],
       "text": "I'm with you, Grill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7a2f901b4a0293e2965fd05bbea3a9ef120e39c30574b253d49bb7318817e27c",
+      "sha256": [
+        "7a2f901b4a0293e2965fd05bbea3a9ef120e39c30574b253d49bb7318817e27c"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

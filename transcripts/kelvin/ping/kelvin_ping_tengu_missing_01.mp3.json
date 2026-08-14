@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_tengu_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8399b8467886006bac0ca3458f0756e4875a191bd4c30270096b899fc374783c",
+      "sha256": [
+        "8399b8467886006bac0ca3458f0756e4875a191bd4c30270096b899fc374783c"
+      ],
       "text": "I vis disim.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d92e5b5a28786cc5f1a1dbef3f2cf41e300f97978175415e10b3ab55501a081e",
+      "sha256": [
+        "d92e5b5a28786cc5f1a1dbef3f2cf41e300f97978175415e10b3ab55501a081e"
+      ],
       "text": "ivy's missing",
       "source": "official"
     }

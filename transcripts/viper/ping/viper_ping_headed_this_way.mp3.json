@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "cd19f7c6867f727d8e3ba22cbf9ae32aa97a707832f5965631d0f0fefc7dac3f",
+      "sha256": [
+        "cd19f7c6867f727d8e3ba22cbf9ae32aa97a707832f5965631d0f0fefc7dac3f"
+      ],
       "text": "Head it this way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5433362f779f4e2a16f037b4407e1e57cac0f830f4a4c6a1960d303e6e63ce43",
-      "text": "Headed this way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "913c675d938a3b4e133215aa5344459611aa9930930afc3705807271ef9fe3fe",
+      "sha256": [
+        "5433362f779f4e2a16f037b4407e1e57cac0f830f4a4c6a1960d303e6e63ce43",
+        "913c675d938a3b4e133215aa5344459611aa9930930afc3705807271ef9fe3fe"
+      ],
       "text": "Headed this way",
       "source": "official"
     }

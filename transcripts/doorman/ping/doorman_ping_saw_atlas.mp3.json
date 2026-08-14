@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "b4e1a9fc79b38bcc9ecb45ce7c7472f4822f5e940bd9a582fb0f1fb2dc4abc4d",
+      "sha256": [
+        "b4e1a9fc79b38bcc9ecb45ce7c7472f4822f5e940bd9a582fb0f1fb2dc4abc4d"
+      ],
       "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

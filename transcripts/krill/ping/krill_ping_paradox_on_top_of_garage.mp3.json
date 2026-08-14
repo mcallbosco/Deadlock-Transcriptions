@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_paradox_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "c88cf5693dba6a04aa80b2125315909301ae5dc1f1e7a1bb856ccc4036eb5de5",
-      "text": "Paradox is on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5fc607036ca6a66801c18923724303a44ec3b31a252c3dbfeca6a3ba7419d70f",
+      "sha256": [
+        "5fc607036ca6a66801c18923724303a44ec3b31a252c3dbfeca6a3ba7419d70f",
+        "c88cf5693dba6a04aa80b2125315909301ae5dc1f1e7a1bb856ccc4036eb5de5"
+      ],
       "text": "Paradox is on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

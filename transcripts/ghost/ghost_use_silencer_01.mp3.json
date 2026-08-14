@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ghost_use_silencer_01.mp3",
   "revisions": [
     {
-      "sha256": "17ff9957e5a4cffaaf41d1dbd1c81526fa5a28db6d8d0b8f17e2c1e704be5ece",
+      "sha256": [
+        "17ff9957e5a4cffaaf41d1dbd1c81526fa5a28db6d8d0b8f17e2c1e704be5ece"
+      ],
       "text": "Silence!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

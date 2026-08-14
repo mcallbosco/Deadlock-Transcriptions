@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "7c3c38ecf1ccc405404b0fc59fe4a103acc7ddde880a0b6a67f721bdeb3be3c0",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "816b75dbbc064a3f7fb7bd5e2bd0a855a96b417d08f36e972eb7d38c54ef8517",
-      "text": "Careful there, mom.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8d2b1b0684f1714d9661513d503102a9f71a94c4b7bee4faf3a0d15ba3c3c85d",
-      "text": "Careful there, mom.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f9f0446a85ef2cfe7f617492e8344f3b9d2377570f79f17bc2bcba1b40f9526",
+      "sha256": [
+        "5f9f0446a85ef2cfe7f617492e8344f3b9d2377570f79f17bc2bcba1b40f9526",
+        "7c3c38ecf1ccc405404b0fc59fe4a103acc7ddde880a0b6a67f721bdeb3be3c0"
+      ],
       "text": "Careful, Dynamo…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "816b75dbbc064a3f7fb7bd5e2bd0a855a96b417d08f36e972eb7d38c54ef8517",
+        "8d2b1b0684f1714d9661513d503102a9f71a94c4b7bee4faf3a0d15ba3c3c85d"
+      ],
+      "text": "Careful there, mom.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

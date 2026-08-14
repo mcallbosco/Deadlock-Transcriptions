@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_calico.mp3",
   "revisions": [
     {
-      "sha256": "74179b4822e524ff6b0a2061fa46dfcd308f8068f7f2feac9c150c7099c81c2f",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b25adfcf9d11a94bb95025e574b4e541b84f8541d5ef38af0afeed641803a319",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f2bfcd8d051714a545dd7b2f12143dfed6d2bb472ed9efcb29ac0e6cd1f88c1",
+      "sha256": [
+        "2f2bfcd8d051714a545dd7b2f12143dfed6d2bb472ed9efcb29ac0e6cd1f88c1",
+        "74179b4822e524ff6b0a2061fa46dfcd308f8068f7f2feac9c150c7099c81c2f",
+        "b25adfcf9d11a94bb95025e574b4e541b84f8541d5ef38af0afeed641803a319"
+      ],
       "text": "I see Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

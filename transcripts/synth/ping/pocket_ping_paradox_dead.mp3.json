@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_paradox_dead.mp3",
   "revisions": [
     {
-      "sha256": "fbdd8b2eaf3ffef19938aa8b4b607e1baef80fd93c66e3f88e2127866b44ee73",
-      "text": "Paradox is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a2f46e53b0ea09f2ed98c64513cb203a058328fe5197f4b8f6928aafd57a1a10",
+      "sha256": [
+        "a2f46e53b0ea09f2ed98c64513cb203a058328fe5197f4b8f6928aafd57a1a10",
+        "fbdd8b2eaf3ffef19938aa8b4b607e1baef80fd93c66e3f88e2127866b44ee73"
+      ],
       "text": "Paradox is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

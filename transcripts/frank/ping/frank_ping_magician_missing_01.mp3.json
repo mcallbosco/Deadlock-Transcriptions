@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_magician_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "4b338fd41c3ff863590fe25be30fd34cabdc7100911bc7fd0ad471bfce5cd776",
+      "sha256": [
+        "4b338fd41c3ff863590fe25be30fd34cabdc7100911bc7fd0ad471bfce5cd776"
+      ],
       "text": "Sinclair is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "061ab52b55fa46b6738a71c8090184c351ba067182db7ea63eda71e064453162",
+      "sha256": [
+        "061ab52b55fa46b6738a71c8090184c351ba067182db7ea63eda71e064453162"
+      ],
       "text": "Sinclair's missing.",
       "source": "official"
     }

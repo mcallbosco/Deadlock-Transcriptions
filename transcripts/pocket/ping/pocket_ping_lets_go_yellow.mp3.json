@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "9486590bf6fab1430ece0c98da3cd991bc0861968a771ea317b7a56d903e2a94",
-      "text": "Let's go yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12e358ef07d7f281e72864c590bd58aecd64c9ab6715f316104fd769e44d0091",
+      "sha256": [
+        "12e358ef07d7f281e72864c590bd58aecd64c9ab6715f316104fd769e44d0091",
+        "9486590bf6fab1430ece0c98da3cd991bc0861968a771ea317b7a56d903e2a94"
+      ],
       "text": "Let's go yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

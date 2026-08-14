@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_hornet.mp3",
   "revisions": [
     {
-      "sha256": "23b564a8404b6ac4fd6a809bb417ede799c784aa47ad051e9eb4efb2b20249c2",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4b01e15aaacd2e852fd8f055e99586fd013b0d9fd48553903e105f96ab82d31",
+      "sha256": [
+        "23b564a8404b6ac4fd6a809bb417ede799c784aa47ad051e9eb4efb2b20249c2",
+        "c4b01e15aaacd2e852fd8f055e99586fd013b0d9fd48553903e105f96ab82d31"
+      ],
       "text": "I'm with you, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

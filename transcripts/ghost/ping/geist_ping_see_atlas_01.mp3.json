@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_atlas_01.mp3",
   "revisions": [
     {
-      "sha256": "4fb97389960f9c01b553d413ff0dbbf6ec21e4006c78259ca8b4cee19490f019",
-      "text": "I see Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7aa8ffd84fc5a019ab5e606024bca82d26ebdbcd9cca65bc2256866d5ec44def",
+      "sha256": [
+        "4fb97389960f9c01b553d413ff0dbbf6ec21e4006c78259ca8b4cee19490f019",
+        "7aa8ffd84fc5a019ab5e606024bca82d26ebdbcd9cca65bc2256866d5ec44def"
+      ],
       "text": "I see Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,14 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_stun_chrono_01.mp3",
   "revisions": [
     {
-      "sha256": "bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724",
+      "sha256": [
+        "bfd45da9104f294993ec8b709191fc7a25d8e0f2fcc7246374fcbc82939bc724"
+      ],
       "text": "Stun Paradox!",
       "source": "manual"
     },
     {
-      "sha256": "c535192a5d67950da8cca4801d88aadcc8c645173370967f9e077d8dedbc41d6",
+      "sha256": [
+        "c535192a5d67950da8cca4801d88aadcc8c645173370967f9e077d8dedbc41d6"
+      ],
       "text": "Stone Paradox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

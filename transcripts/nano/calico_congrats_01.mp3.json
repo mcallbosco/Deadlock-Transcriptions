@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "c94e212c6e332978eba017e42f23964099396d834904b46dce16f8dee8048989",
-      "text": "You played your part well.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fcc3f06ebce175c6d3f380f1a763910edc41910bec88887385e3985dd1e75b4",
+      "sha256": [
+        "3fcc3f06ebce175c6d3f380f1a763910edc41910bec88887385e3985dd1e75b4",
+        "c94e212c6e332978eba017e42f23964099396d834904b46dce16f8dee8048989"
+      ],
       "text": "You played your part well.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

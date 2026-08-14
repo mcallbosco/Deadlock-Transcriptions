@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "f35fe0d287e5e6fdd1b03a96f2165c02bce977afeff41aae36291e8604009efb",
-      "text": "Careful, Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "402242dd823c546eac11bb8e45c55987e597a56c6ac4cf80281347f0a0b0aafe",
+      "sha256": [
+        "402242dd823c546eac11bb8e45c55987e597a56c6ac4cf80281347f0a0b0aafe",
+        "f35fe0d287e5e6fdd1b03a96f2165c02bce977afeff41aae36291e8604009efb"
+      ],
       "text": "Careful, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

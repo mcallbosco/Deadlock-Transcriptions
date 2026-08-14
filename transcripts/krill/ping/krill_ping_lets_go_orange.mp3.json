@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "6e8a87d6cab941d5dae330357b0463e1dfbe9844f402c3bba46f9c980ce20030",
-      "text": "Let's go, Orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce4dbd5c58aae40ed839566b7712b337dcddffbe2766882e165e4886093cdb1f",
-      "text": "Let's go, Orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49f0f82f04ceb0126a25672be91ae84efb69b837741a9aaff41252b6fb0b0263",
+      "sha256": [
+        "49f0f82f04ceb0126a25672be91ae84efb69b837741a9aaff41252b6fb0b0263",
+        "6e8a87d6cab941d5dae330357b0463e1dfbe9844f402c3bba46f9c980ce20030",
+        "ce4dbd5c58aae40ed839566b7712b337dcddffbe2766882e165e4886093cdb1f"
+      ],
       "text": "Let's go, Orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

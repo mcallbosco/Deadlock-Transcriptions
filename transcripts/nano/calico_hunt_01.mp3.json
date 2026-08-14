@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_hunt_01.mp3",
   "revisions": [
     {
-      "sha256": "e2e8192a11ec52f7ae173e59cb88eb709d7923b7fcd40907d26232f4d836c3eb",
-      "text": "Now where did they go?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00e803f72707e9bc790381cbcbac209ba9ba52475923e80982a1702f95ac3b5a",
+      "sha256": [
+        "00e803f72707e9bc790381cbcbac209ba9ba52475923e80982a1702f95ac3b5a",
+        "e2e8192a11ec52f7ae173e59cb88eb709d7923b7fcd40907d26232f4d836c3eb"
+      ],
       "text": "Now where did they go?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

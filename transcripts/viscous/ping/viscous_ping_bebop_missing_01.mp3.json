@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f554c19a6b1c525fc0376d46f56dd0b03006a12fba91019cf45b3a4446b5b331",
+      "sha256": [
+        "f554c19a6b1c525fc0376d46f56dd0b03006a12fba91019cf45b3a4446b5b331"
+      ],
       "text": "Viva Brazil!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc831fda7cf98be49a9f16da68950cff742418de84829680b59ddb87aaed2cf3",
+      "sha256": [
+        "cc831fda7cf98be49a9f16da68950cff742418de84829680b59ddb87aaed2cf3"
+      ],
       "text": "Bebop's missing",
       "source": "official"
     }

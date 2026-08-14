@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "f631d41772d58ee7024fed35670392a8297a14448db20403cc50cbd917f734c9",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "14d3a3bbfbc8e639da22158e42c2f8ebfd827def9cf99ad2a6f226f6285fa0d7",
+      "sha256": [
+        "14d3a3bbfbc8e639da22158e42c2f8ebfd827def9cf99ad2a6f226f6285fa0d7",
+        "f631d41772d58ee7024fed35670392a8297a14448db20403cc50cbd917f734c9"
+      ],
       "text": "Careful, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

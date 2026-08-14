@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "14f733c4fb3cb24b48af3499fc21dcf6ff416c9b1ffa15bceba1a0f897f7696e",
+      "sha256": [
+        "14f733c4fb3cb24b48af3499fc21dcf6ff416c9b1ffa15bceba1a0f897f7696e"
+      ],
       "text": "I'm with Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5ee8784b028f8b59d1bb9cf6150f99fe6f49f6872ae5694d58397a1da26544b7",
+      "sha256": [
+        "5ee8784b028f8b59d1bb9cf6150f99fe6f49f6872ae5694d58397a1da26544b7"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

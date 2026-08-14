@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_infernus.mp3",
   "revisions": [
     {
-      "sha256": "a6cf7c965a3b858ddc098eb231b4a8303a95116b87033dcf1a5964b749c11dff",
-      "text": "I saw Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2da99903e941897f9b380116c252d07b46b10491dc7be34f52f366076056b61d",
+      "sha256": [
+        "2da99903e941897f9b380116c252d07b46b10491dc7be34f52f366076056b61d",
+        "a6cf7c965a3b858ddc098eb231b4a8303a95116b87033dcf1a5964b749c11dff"
+      ],
       "text": "I saw Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_use_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "d23484f2e63ba6672b0cc3ccf0df87d5d2cfe6ffd1572061097235fdb030a326",
+      "sha256": [
+        "d23484f2e63ba6672b0cc3ccf0df87d5d2cfe6ffd1572061097235fdb030a326"
+      ],
       "text": "AOE thing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ad0139b504840aea302882982c28054c8f5802230eebcba7735248fae7d0074e",
+      "sha256": [
+        "ad0139b504840aea302882982c28054c8f5802230eebcba7735248fae7d0074e"
+      ],
       "text": "Have I got a story for you",
       "source": "official"
     }

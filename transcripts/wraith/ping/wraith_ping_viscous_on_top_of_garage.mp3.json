@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_viscous_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "1cb36e33a1780aa0f57065daf84aa422ff2e2bbd8e142625469578385bf9c42d",
+      "sha256": [
+        "1cb36e33a1780aa0f57065daf84aa422ff2e2bbd8e142625469578385bf9c42d"
+      ],
       "text": "This case is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7add6e40e60c6f3707d9870ac709dbb458a33bb6fd0a1db542b3b4e6192abdba",
+      "sha256": [
+        "7add6e40e60c6f3707d9870ac709dbb458a33bb6fd0a1db542b3b4e6192abdba",
+        "d81da3909e0c61b579c267b72ab9fb34c79fd96df685b7c71a047e06eea59e8e"
+      ],
       "text": "Viscous is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d81da3909e0c61b579c267b72ab9fb34c79fd96df685b7c71a047e06eea59e8e",
-      "text": "Viscous is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e657390a27dc50c8c84ecf13e586ded92887bc179438a7b4a5a19b1ef2017e6",
+      "sha256": [
+        "3e657390a27dc50c8c84ecf13e586ded92887bc179438a7b4a5a19b1ef2017e6"
+      ],
       "text": "Viscous's on top of the garage!",
       "source": "official"
     }

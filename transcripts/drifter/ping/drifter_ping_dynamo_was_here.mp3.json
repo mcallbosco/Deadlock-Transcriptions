@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "98f51a47e9ee359528fb24eea7cc7d4704684e404ade705ee554ad80401ad8bf",
+      "sha256": [
+        "98f51a47e9ee359528fb24eea7cc7d4704684e404ade705ee554ad80401ad8bf"
+      ],
       "text": "Genome was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

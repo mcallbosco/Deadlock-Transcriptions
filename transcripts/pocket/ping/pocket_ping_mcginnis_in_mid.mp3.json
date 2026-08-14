@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_mcginnis_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "6afe2ca0fddcf2decbcc5e3363c9703bd9e4b6f8fd2ee12e9a8d5b7b041ee9f2",
-      "text": "McGinnis is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60d0852461a1bedc798fa79b8189a8454c42508cc71fdd28d51c3306d8ed99e5",
+      "sha256": [
+        "60d0852461a1bedc798fa79b8189a8454c42508cc71fdd28d51c3306d8ed99e5",
+        "6afe2ca0fddcf2decbcc5e3363c9703bd9e4b6f8fd2ee12e9a8d5b7b041ee9f2"
+      ],
       "text": "McGinnis is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

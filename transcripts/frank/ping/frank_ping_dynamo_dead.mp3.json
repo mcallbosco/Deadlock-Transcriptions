@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "9362e0df85c96e5678e47ae8e2f89fbeb6d68171394735daebfd3f999921ca26",
+      "sha256": [
+        "9362e0df85c96e5678e47ae8e2f89fbeb6d68171394735daebfd3f999921ca26"
+      ],
       "text": "That was dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5cf61a8ab0ce0ed7e6c201d70fc446e6aab11b12068fc431722bcef6bd3db9be",
+      "sha256": [
+        "5cf61a8ab0ce0ed7e6c201d70fc446e6aab11b12068fc431722bcef6bd3db9be"
+      ],
       "text": "ダーマ・カステア",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

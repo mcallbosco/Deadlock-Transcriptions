@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_flank_1.mp3",
   "revisions": [
     {
-      "sha256": "07348e1e44f196b1140b25f3d2fb6cb6314282667afb4342c5b141c6357f82fa",
+      "sha256": [
+        "07348e1e44f196b1140b25f3d2fb6cb6314282667afb4342c5b141c6357f82fa"
+      ],
       "text": "I'll flank them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "587a448b05e08994bbec5a54ac0819c7d0498b3da766748fa29fc6d245f22ddd",
+      "sha256": [
+        "587a448b05e08994bbec5a54ac0819c7d0498b3da766748fa29fc6d245f22ddd"
+      ],
       "text": "I'll flank 'em.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

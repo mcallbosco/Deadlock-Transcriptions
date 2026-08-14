@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_10.mp3",
   "revisions": [
     {
-      "sha256": "537562129c3ab389b1b433211cee97d04ddfddf1dbdd7c09bdd44b7a6054f0fa",
+      "sha256": [
+        "537562129c3ab389b1b433211cee97d04ddfddf1dbdd7c09bdd44b7a6054f0fa"
+      ],
       "text": "I like those vibes. I like the melodic flavor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d2539d3aebd27170f52b005e966cef74b6f203eafb8ebf8e3cf66b5fe7f91fd0",
-      "text": "The Djinn blessed me with many gifts.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ea218991f90628aab3ccd4e768b2032aad9308084a5d018a1c09678fcce3f6e",
-      "text": "The Djinn blessed me with many gifts.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1da123a82a57a015a7550a00d911d35f1caa197432df544f273cdb30e687239",
+      "sha256": [
+        "4ea218991f90628aab3ccd4e768b2032aad9308084a5d018a1c09678fcce3f6e",
+        "a1da123a82a57a015a7550a00d911d35f1caa197432df544f273cdb30e687239",
+        "d2539d3aebd27170f52b005e966cef74b6f203eafb8ebf8e3cf66b5fe7f91fd0"
+      ],
       "text": "The djinn blessed me with many gifts…",
       "source": "official"
     }

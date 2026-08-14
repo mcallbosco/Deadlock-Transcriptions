@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_with_lash.mp3",
   "revisions": [
     {
-      "sha256": "e9c4b46a327f7900ed3ffbeb7c33f7f523db0ff1d15783e427802b2533d32b84",
-      "text": "I'm with you, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "83ec878b3edcb9487dd1cdac95e476a6fc866ca8f2222f519d1baae20967025a",
+      "sha256": [
+        "83ec878b3edcb9487dd1cdac95e476a6fc866ca8f2222f519d1baae20967025a",
+        "e9c4b46a327f7900ed3ffbeb7c33f7f523db0ff1d15783e427802b2533d32b84"
+      ],
       "text": "I'm with you, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

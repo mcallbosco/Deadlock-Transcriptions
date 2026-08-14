@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "274add9766bbda0ce69844400961627f785e6c4ba74d457ac8e6dfa6beea1ac7",
+      "sha256": [
+        "274add9766bbda0ce69844400961627f785e6c4ba74d457ac8e6dfa6beea1ac7"
+      ],
       "text": "Kill the Braggart.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1c4911e02d95c4fa2dc863f9cd508291d843c736a072022db720bd5101095599",
-      "text": "Killed the Braggart.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c2769b28827260eea7f7b2a9ac053370ceaf34fce4114a81ac9f6cea16979c25",
+      "sha256": [
+        "1c4911e02d95c4fa2dc863f9cd508291d843c736a072022db720bd5101095599",
+        "c2769b28827260eea7f7b2a9ac053370ceaf34fce4114a81ac9f6cea16979c25"
+      ],
       "text": "Killed the braggart",
       "source": "official"
     }

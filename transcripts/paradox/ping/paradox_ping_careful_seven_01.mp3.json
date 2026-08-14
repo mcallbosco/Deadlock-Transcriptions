@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_seven_01.mp3",
   "revisions": [
     {
-      "sha256": "b6428a900f9a455b7ce28d18f8dbb620696683d52687b6a0fbc1c93e0cfec611",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "983cc9c86904e5d56f966afc5a02ad50437eea6bc22400fd3eff784f945533d8",
+      "sha256": [
+        "983cc9c86904e5d56f966afc5a02ad50437eea6bc22400fd3eff784f945533d8",
+        "b6428a900f9a455b7ce28d18f8dbb620696683d52687b6a0fbc1c93e0cfec611"
+      ],
       "text": "Careful, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

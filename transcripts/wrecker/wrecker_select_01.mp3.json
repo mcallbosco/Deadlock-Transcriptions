@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_select_01.mp3",
   "revisions": [
     {
-      "sha256": "585d2c7f5f2a944231a00f3963bc5f77a601e7d7f79601819d56e26c05be06cd",
-      "text": "I hunger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0701096231997fa3dcf8f472e80da9e4a57522686adc17a00cdbe2dcb081d62",
+      "sha256": [
+        "585d2c7f5f2a944231a00f3963bc5f77a601e7d7f79601819d56e26c05be06cd",
+        "b0701096231997fa3dcf8f472e80da9e4a57522686adc17a00cdbe2dcb081d62"
+      ],
       "text": "I hunger.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

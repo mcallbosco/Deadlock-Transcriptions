@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_engineer.mp3",
   "revisions": [
     {
-      "sha256": "ddf2324815e34846963a2c03a5b7da3ba189f1ad07a97e7b825fc5da8a207509",
-      "text": "Thanks, Engineer!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "507553f0fc9ea122afcabcd355b691830b801f34ee44d3aef73471ecaac6d39f",
-      "text": "Thanks, Engineer!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "496fb26d1c1238246cb74a09e0a5c2ea64e877f77c349945ff1ede93579f76e3",
+      "sha256": [
+        "496fb26d1c1238246cb74a09e0a5c2ea64e877f77c349945ff1ede93579f76e3",
+        "507553f0fc9ea122afcabcd355b691830b801f34ee44d3aef73471ecaac6d39f",
+        "ddf2324815e34846963a2c03a5b7da3ba189f1ad07a97e7b825fc5da8a207509"
+      ],
       "text": "Thanks, Engineer!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

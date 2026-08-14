@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/pocket_select_10.mp3",
   "revisions": [
     {
-      "sha256": "980601c32b0389a4db606e44f2d2f07687bf32b29708bcf7597a964dce56e1e2",
-      "text": "I wish there was another way, but my father gave me no choice.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d5d9d0d76ddadd55607f811f93ff86f20ae660420c667987909c9fe809d35b0",
+      "sha256": [
+        "3d5d9d0d76ddadd55607f811f93ff86f20ae660420c667987909c9fe809d35b0",
+        "980601c32b0389a4db606e44f2d2f07687bf32b29708bcf7597a964dce56e1e2"
+      ],
       "text": "I wish there was another way, but my father gave me no choice.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

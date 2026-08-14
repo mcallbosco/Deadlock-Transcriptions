@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_doorman_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c750a7057874dd1d0ef9e713ff41fb1ccf9f4942d432b3f407335639a12dba5a",
-      "text": "The doorman's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7aa0cbb697757971637a89899bd836fe332178458a3b2eb2d2221e4b792044d8",
+      "sha256": [
+        "7aa0cbb697757971637a89899bd836fe332178458a3b2eb2d2221e4b792044d8",
+        "c750a7057874dd1d0ef9e713ff41fb1ccf9f4942d432b3f407335639a12dba5a"
+      ],
       "text": "The Doorman's missing.",
       "source": "manual"
     }

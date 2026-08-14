@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_synth_02.mp3",
   "revisions": [
     {
-      "sha256": "8b606f1fc7a00025583a58a2db9773e59035f09a5c6ec49ecf06a009e5bfd086",
+      "sha256": [
+        "8b606f1fc7a00025583a58a2db9773e59035f09a5c6ec49ecf06a009e5bfd086"
+      ],
       "text": "This will punk it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "221294ce52f04977fed8dd16e74065762ca860f4cab5babcd88e2e008aa0ec3c",
+      "sha256": [
+        "221294ce52f04977fed8dd16e74065762ca860f4cab5babcd88e2e008aa0ec3c"
+      ],
       "text": "Careful, Pocket",
       "source": "official"
     }

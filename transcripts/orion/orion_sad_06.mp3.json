@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_sad_06.mp3",
   "revisions": [
     {
-      "sha256": "cc2847cce6a4e56e9470b9a9c228e601af2e427c09a657a6a17f290275ead0b4",
-      "text": "I tried, but it wasn't enough.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "433cd6b43037e23d8f3214b337a0be34a8e8f3de0f24d70953b47966eefed4f7",
-      "text": "I tried, but it wasn't enough.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ca6ba1e7a9017d655166b4160ec28759e97782dba9825b3647f66e1f5d53d67",
-      "text": "I tried, but it wasn't enough.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87e6ea5616d7e080201fa998cdfc25d43078b5388b462113cf535243d7671ff4",
+      "sha256": [
+        "3ca6ba1e7a9017d655166b4160ec28759e97782dba9825b3647f66e1f5d53d67",
+        "433cd6b43037e23d8f3214b337a0be34a8e8f3de0f24d70953b47966eefed4f7",
+        "87e6ea5616d7e080201fa998cdfc25d43078b5388b462113cf535243d7671ff4",
+        "cc2847cce6a4e56e9470b9a9c228e601af2e427c09a657a6a17f290275ead0b4"
+      ],
       "text": "I tried, but it wasn't enough.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

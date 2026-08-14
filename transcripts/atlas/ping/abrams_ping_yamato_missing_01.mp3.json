@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "060d119bf77cc370bd1ee8a1740ef6c8a615692fa5206a44748b48d66f26bc28",
+      "sha256": [
+        "060d119bf77cc370bd1ee8a1740ef6c8a615692fa5206a44748b48d66f26bc28",
+        "549ae516d81b0311ef2c0c91af9bf599b959e462aaca7f5b6182d1fbc51a74b7"
+      ],
       "text": "Yamato's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "549ae516d81b0311ef2c0c91af9bf599b959e462aaca7f5b6182d1fbc51a74b7",
-      "text": "Yamato's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "268c121715835d7630e503e10feaed34efa354dc6e638965923a012a6ff551f8",
+      "sha256": [
+        "268c121715835d7630e503e10feaed34efa354dc6e638965923a012a6ff551f8"
+      ],
       "text": "Yamato is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

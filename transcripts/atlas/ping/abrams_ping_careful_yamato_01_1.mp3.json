@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_yamato_01_1.mp3",
   "revisions": [
     {
-      "sha256": "e06a4282f0a9952050a53f973f6052c3728bc75b7262e0cf64d3105b0d0d7c85",
-      "text": "Careful, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc77e7185e6ea8fc7f0e903aa7e6b67ad31ae4d0ca1b0d90177344be5d0e74e9",
+      "sha256": [
+        "e06a4282f0a9952050a53f973f6052c3728bc75b7262e0cf64d3105b0d0d7c85",
+        "fc77e7185e6ea8fc7f0e903aa7e6b67ad31ae4d0ca1b0d90177344be5d0e74e9"
+      ],
       "text": "Careful, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

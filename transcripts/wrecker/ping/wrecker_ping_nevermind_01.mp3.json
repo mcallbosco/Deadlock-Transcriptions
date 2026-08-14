@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_nevermind_01.mp3",
   "revisions": [
     {
-      "sha256": "c074a3dc9f5fab6b0b80d0884fb5d34ed62eccd10ce729aa366fb5c4da4d3d06",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e923b44f22c06c242984cbe84167e94b50bd2256cf1dce11c6926add9ed41bd3",
+      "sha256": [
+        "c074a3dc9f5fab6b0b80d0884fb5d34ed62eccd10ce729aa366fb5c4da4d3d06",
+        "e923b44f22c06c242984cbe84167e94b50bd2256cf1dce11c6926add9ed41bd3"
+      ],
       "text": "Never mind.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

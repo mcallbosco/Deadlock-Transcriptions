@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ba5d86ea50b635a3666080790ef014b6346c66a56eb92f2d76abad7b1ff60dd7",
+      "sha256": [
+        "2993bc7eb6a2515f30009a7a7938a90cf36caddf14b8a6f0b14610db8fbee352",
+        "ba5d86ea50b635a3666080790ef014b6346c66a56eb92f2d76abad7b1ff60dd7",
+        "d704b1a237993b4e41ddc12687400898d0a353c13354695c18a76cc546300134"
+      ],
       "text": "Haze is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2993bc7eb6a2515f30009a7a7938a90cf36caddf14b8a6f0b14610db8fbee352",
-      "text": "Haze is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b4bd5371b74e2cc8cb080c9173023ea37b76820e721e74674009e60d8e1d424",
+      "sha256": [
+        "0b4bd5371b74e2cc8cb080c9173023ea37b76820e721e74674009e60d8e1d424"
+      ],
       "text": "Hazes here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d704b1a237993b4e41ddc12687400898d0a353c13354695c18a76cc546300134",
-      "text": "Haze is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

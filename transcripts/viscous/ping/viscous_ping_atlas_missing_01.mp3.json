@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_atlas_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "38388b69113de79f1aa1f552bdb6813ee6d594dd9cebdcbe7379bdcd7e2a1f0e",
+      "sha256": [
+        "38388b69113de79f1aa1f552bdb6813ee6d594dd9cebdcbe7379bdcd7e2a1f0e"
+      ],
       "text": "Atlas is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "509e5c96cc7fa2b9df92786c1f8199e534b9849712fbb854e7a4bb26b3d8cc19",
+      "sha256": [
+        "509e5c96cc7fa2b9df92786c1f8199e534b9849712fbb854e7a4bb26b3d8cc19"
+      ],
       "text": "Abrams's missing",
       "source": "official"
     }

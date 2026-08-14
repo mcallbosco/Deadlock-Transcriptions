@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_congrats_viscous.mp3",
   "revisions": [
     {
-      "sha256": "63e0f5b9db75ec0f330e2a5da543769187a23be092882eab182eb8803860e14e",
+      "sha256": [
+        "52ba52ffabd2f06ba00c6321ead7d5d62375ab6ed3dd5a18c4d59d7a28a37287",
+        "63e0f5b9db75ec0f330e2a5da543769187a23be092882eab182eb8803860e14e"
+      ],
       "text": "Good job, Viscous.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52ba52ffabd2f06ba00c6321ead7d5d62375ab6ed3dd5a18c4d59d7a28a37287",
-      "text": "Good job, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9b642e1721e075fc7733e848d75a37cd75b8113843f135859d2dce1c07b2ba9",
+      "sha256": [
+        "f9b642e1721e075fc7733e848d75a37cd75b8113843f135859d2dce1c07b2ba9"
+      ],
       "text": "Good job, Viscus!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

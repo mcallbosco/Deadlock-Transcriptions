@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "a6e282a0622314c419f3fa9c2cb71659a5299cbc25d514aa18654ce6a526530f",
+      "sha256": [
+        "a6e282a0622314c419f3fa9c2cb71659a5299cbc25d514aa18654ce6a526530f"
+      ],
       "text": "Listen blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_danger_area.mp3",
   "revisions": [
     {
-      "sha256": "3365cfc6be759fc38cd346fbaaae16a420ebf176ce5e94fb7189cf53cfb861f5",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c683b9fa776eae737ebb844119d5b4801165c9b8b9bf0949b81f139c531e2317",
-      "text": "It's dangerous here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77ec66d89f294159a72aadcb778f244b9727217c7a56a48eae7b26708ea202e9",
+      "sha256": [
+        "3365cfc6be759fc38cd346fbaaae16a420ebf176ce5e94fb7189cf53cfb861f5",
+        "77ec66d89f294159a72aadcb778f244b9727217c7a56a48eae7b26708ea202e9",
+        "c683b9fa776eae737ebb844119d5b4801165c9b8b9bf0949b81f139c531e2317"
+      ],
       "text": "It's dangerous here",
       "source": "official"
     }

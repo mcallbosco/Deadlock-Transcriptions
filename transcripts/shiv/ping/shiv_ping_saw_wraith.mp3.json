@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_saw_wraith.mp3",
   "revisions": [
     {
-      "sha256": "9c8f8f3f2040f1271a651664d82a4a7a6b93d2aad4544da8592af066f8197128",
+      "sha256": [
+        "9c8f8f3f2040f1271a651664d82a4a7a6b93d2aad4544da8592af066f8197128",
+        "e3cda153d356ace591ae834a3e9cb0d8cf94c0cffd0d3b51ee45e3c7d409ce1f"
+      ],
       "text": "The Sorceress.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e3cda153d356ace591ae834a3e9cb0d8cf94c0cffd0d3b51ee45e3c7d409ce1f",
-      "text": "The Sorceress.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c8b867f1e600c87f7ec750de3eed597f1fa5e51b435b8cd8580c5415fc69cd7",
+      "sha256": [
+        "3c8b867f1e600c87f7ec750de3eed597f1fa5e51b435b8cd8580c5415fc69cd7"
+      ],
       "text": "Assault wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

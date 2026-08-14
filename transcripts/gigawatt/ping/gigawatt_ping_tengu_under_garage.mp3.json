@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_tengu_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "899716a6d5a9be07dfed28d046408303efd0e893639b83968df4ca6a13e78e59",
+      "sha256": [
+        "899716a6d5a9be07dfed28d046408303efd0e893639b83968df4ca6a13e78e59"
+      ],
       "text": "Hive is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7364d2a278a5fb556bbf92d51f691be48d2054589e8f3871b8ff34f102f7d93a",
-      "text": "Ivy's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f5ada10c550a9797673df747f8e1700e1f92381844066619a37cce65394557b",
+      "sha256": [
+        "7364d2a278a5fb556bbf92d51f691be48d2054589e8f3871b8ff34f102f7d93a",
+        "9f5ada10c550a9797673df747f8e1700e1f92381844066619a37cce65394557b"
+      ],
       "text": "ivy's under the garage!",
       "source": "official"
     }

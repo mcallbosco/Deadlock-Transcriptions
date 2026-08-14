@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_saw_shiv.mp3",
   "revisions": [
     {
-      "sha256": "7a593726fd5f55179ac978b6a204f09e7a036f62bfe88f320dce1785dd0c7676",
-      "text": "I saw Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5b885bda04d7294d8b6118642cca4404f60f0314b14af1c6a5790494f0ecbad",
+      "sha256": [
+        "7a593726fd5f55179ac978b6a204f09e7a036f62bfe88f320dce1785dd0c7676",
+        "d5b885bda04d7294d8b6118642cca4404f60f0314b14af1c6a5790494f0ecbad"
+      ],
       "text": "I saw Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

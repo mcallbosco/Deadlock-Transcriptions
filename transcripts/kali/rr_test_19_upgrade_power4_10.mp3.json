@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_upgrade_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "f22d14c771f71e007dff69ddf798f3787a0be9d5308ea8ade6f868ddf463fadf",
+      "sha256": [
+        "f22d14c771f71e007dff69ddf798f3787a0be9d5308ea8ade6f868ddf463fadf"
+      ],
       "text": "Good evening, how are you?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8d685519137d8570f543878c491f09d816e5ef2ae372fba4bb2dc7a6b3b34112",
+      "sha256": [
+        "8d685519137d8570f543878c491f09d816e5ef2ae372fba4bb2dc7a6b3b34112"
+      ],
       "text": "Greeting. How are you?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4f75deea937a4dc9f4257d6a671801bb75f83b69327b7156a122e91ad0df7433",
+      "sha256": [
+        "4f75deea937a4dc9f4257d6a671801bb75f83b69327b7156a122e91ad0df7433"
+      ],
       "text": "Ready to have a plan.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

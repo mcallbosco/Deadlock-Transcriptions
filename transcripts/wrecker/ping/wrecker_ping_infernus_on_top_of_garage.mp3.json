@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_infernus_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "ee21943feb264c55e0ec41732168c48f14dff38fccc9c9147f8403a3e726271f",
-      "text": "Infernus on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08d1b541a7b67c65d24d7a2731dfa3e737cca280df943fd632423a6af56d07e4",
+      "sha256": [
+        "08d1b541a7b67c65d24d7a2731dfa3e737cca280df943fd632423a6af56d07e4",
+        "ee21943feb264c55e0ec41732168c48f14dff38fccc9c9147f8403a3e726271f"
+      ],
       "text": "Infernus on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

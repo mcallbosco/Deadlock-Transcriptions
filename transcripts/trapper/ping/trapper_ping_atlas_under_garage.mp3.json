@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_atlas_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "6d1b3bcea2845b08c8660301ba3a786bbb6b405f3a2ddfd347eac8576ea62d92",
+      "sha256": [
+        "6d1b3bcea2845b08c8660301ba3a786bbb6b405f3a2ddfd347eac8576ea62d92"
+      ],
       "text": "Abrams is out of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

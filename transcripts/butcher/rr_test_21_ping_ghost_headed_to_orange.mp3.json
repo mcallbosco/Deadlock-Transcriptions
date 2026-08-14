@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_ghost_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "fc557e9fd6ccf791097902c6e1b79d1ea94873e28518f865d6dcafc9eb5fcbb6",
+      "sha256": [
+        "fc557e9fd6ccf791097902c6e1b79d1ea94873e28518f865d6dcafc9eb5fcbb6"
+      ],
       "text": "Coast headed to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d475038b80f38264ef1942fcd5aa124f9b31a6e2200ddfdd92b43c121c01b0cb",
-      "text": "Cool's headed to orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f1c97846f32c9ae67b32bfa7a01833cb5f3d2051a33c04f021371003532d7f8",
+      "sha256": [
+        "4f1c97846f32c9ae67b32bfa7a01833cb5f3d2051a33c04f021371003532d7f8",
+        "d475038b80f38264ef1942fcd5aa124f9b31a6e2200ddfdd92b43c121c01b0cb"
+      ],
       "text": "Cool's headed to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

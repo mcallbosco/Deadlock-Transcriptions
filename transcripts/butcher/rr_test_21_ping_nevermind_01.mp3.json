@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_nevermind_01.mp3",
   "revisions": [
     {
-      "sha256": "a5090c4455e8cc3b901571b2fe1b8f4b8c267347948b4a9ca7baad157a92d108",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20ba0f337f57ef91de1b21f42537767ada0315a524886e91aca4a776698dec1d",
-      "text": "Never mind.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6d06d4c69985e7be9b95a55996e269cd4d4d73566c90260783159e2fae25566",
+      "sha256": [
+        "20ba0f337f57ef91de1b21f42537767ada0315a524886e91aca4a776698dec1d",
+        "a5090c4455e8cc3b901571b2fe1b8f4b8c267347948b4a9ca7baad157a92d108",
+        "a6d06d4c69985e7be9b95a55996e269cd4d4d73566c90260783159e2fae25566"
+      ],
       "text": "Never mind.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_negative_03.mp3",
   "revisions": [
     {
-      "sha256": "1d4425a2881774910e9f5e6c0093cdf1a1f269fb61d1983cf28a48f82c990ac0",
+      "sha256": [
+        "1d4425a2881774910e9f5e6c0093cdf1a1f269fb61d1983cf28a48f82c990ac0"
+      ],
       "text": "Sure?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "68cdd73799d9769091e543cb87e37e2d18bf4efdfc0161a5d56f95fc6a8f6e3e",
+      "sha256": [
+        "68cdd73799d9769091e543cb87e37e2d18bf4efdfc0161a5d56f95fc6a8f6e3e"
+      ],
       "text": "You sure?",
       "source": "official"
     }

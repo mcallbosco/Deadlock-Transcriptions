@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_werewolf_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f699568eb6ee334059bb6da4f58660f114c09895fd8f84695db6a9cf282d832a",
+      "sha256": [
+        "f699568eb6ee334059bb6da4f58660f114c09895fd8f84695db6a9cf282d832a"
+      ],
       "text": "Silver was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

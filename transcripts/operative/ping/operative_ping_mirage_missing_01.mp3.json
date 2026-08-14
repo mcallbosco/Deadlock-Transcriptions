@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "13ade9cc86e27c18b48199370d4679caee6081413be9f6d5962719d452bf9536",
+      "sha256": [
+        "13ade9cc86e27c18b48199370d4679caee6081413be9f6d5962719d452bf9536"
+      ],
       "text": "We are Shesmisk.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

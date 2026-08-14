@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_kill_anyhero_01.mp3",
   "revisions": [
     {
-      "sha256": "fb953ee9a2b637286c9ccd525f6a368be976d3b2ebab277d4e8a5987c2a33599",
+      "sha256": [
+        "fb953ee9a2b637286c9ccd525f6a368be976d3b2ebab277d4e8a5987c2a33599"
+      ],
       "text": "Start up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e8c0f37c82e30830f0c35c45be8f69e23ef165cfa60a1b25a2d246a06376e1e2",
-      "text": "Sorry, pal.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "da741878ab11beffc8b6c326db8a4abce65cc2683a3222e17fd7c438c6851bc5",
+        "e8c0f37c82e30830f0c35c45be8f69e23ef165cfa60a1b25a2d246a06376e1e2"
+      ],
+      "text": "Sorry pal.",
+      "source": "official"
     },
     {
-      "sha256": "a18f5a081134378dae136be76e6ca1e27ba86ec9a094e2e71669008a610d185d",
+      "sha256": [
+        "a18f5a081134378dae136be76e6ca1e27ba86ec9a094e2e71669008a610d185d"
+      ],
       "text": "Start now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da741878ab11beffc8b6c326db8a4abce65cc2683a3222e17fd7c438c6851bc5",
-      "text": "Sorry pal.",
-      "source": "official"
     }
   ]
 }

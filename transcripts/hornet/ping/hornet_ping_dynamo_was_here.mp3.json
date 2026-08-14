@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/hornet_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "db24c3f75c9b64d10cf75fe9e3ceb6e6f3b4224328380341a4a9b7dd2d8f5a56",
+      "sha256": [
+        "db24c3f75c9b64d10cf75fe9e3ceb6e6f3b4224328380341a4a9b7dd2d8f5a56"
+      ],
       "text": "Dynamo is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

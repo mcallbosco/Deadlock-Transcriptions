@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_happy_09_02.mp3",
   "revisions": [
     {
-      "sha256": "dbd41adca69926559f60e0646bd576474b882372f96b546f8981807bc60bb557",
+      "sha256": [
+        "dbd41adca69926559f60e0646bd576474b882372f96b546f8981807bc60bb557"
+      ],
       "text": "Hahaha!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e45e1fdc1de0b9ff73fb50c43d267bf263415cb9b803815f2b4496a4c5736fa1",
+      "sha256": [
+        "3ae4181c320d5d54ebd412ddd657f881cb08c68497a54b35df44ec44314f8d04",
+        "e45e1fdc1de0b9ff73fb50c43d267bf263415cb9b803815f2b4496a4c5736fa1"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3ae4181c320d5d54ebd412ddd657f881cb08c68497a54b35df44ec44314f8d04",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d58cafbc8a7d6dc2d03296d43d78907db491df1980662f13ecfc31998c809ede",
+      "sha256": [
+        "d58cafbc8a7d6dc2d03296d43d78907db491df1980662f13ecfc31998c809ede"
+      ],
       "text": "Ha ha ha ha ha!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d4b608a4d49e4d613057def07f1abf85e83ab84878bcd71792afb3877ecc3f07",
+      "sha256": [
+        "d4b608a4d49e4d613057def07f1abf85e83ab84878bcd71792afb3877ecc3f07"
+      ],
       "text": "Bebop was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

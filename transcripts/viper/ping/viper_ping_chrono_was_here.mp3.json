@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_chrono_was_here.mp3",
   "revisions": [
     {
-      "sha256": "95e7d499a459456917a777b2a5dcab422099e4be8f907808e3a68bca4b51c1f0",
+      "sha256": [
+        "95e7d499a459456917a777b2a5dcab422099e4be8f907808e3a68bca4b51c1f0",
+        "b6a55aa0aa0aac757bc4e431a220987ffd7710827edbdda3057d259a252d7825"
+      ],
       "text": "Paradox was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b6a55aa0aa0aac757bc4e431a220987ffd7710827edbdda3057d259a252d7825",
-      "text": "Paradox was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f578eec9bd2ee396fa29101c53af524c76a292cbafd524a4d889ab711211c6e",
+      "sha256": [
+        "6f578eec9bd2ee396fa29101c53af524c76a292cbafd524a4d889ab711211c6e"
+      ],
       "text": "Parallax was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

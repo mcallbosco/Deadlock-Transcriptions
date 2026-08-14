@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_tengu_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "a2dcacb8c09e3f835c082e26b026ed5ef8445f046c72ee2233cae23e2b8e61a5",
+      "sha256": [
+        "a2dcacb8c09e3f835c082e26b026ed5ef8445f046c72ee2233cae23e2b8e61a5"
+      ],
       "text": "I'll be shunted to the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c3388f3af7bd690040749e214008d8380a07c6d1de56b40c05903aef911a1283",
+      "sha256": [
+        "c3388f3af7bd690040749e214008d8380a07c6d1de56b40c05903aef911a1283"
+      ],
       "text": "Ivy's under the garage!",
       "source": "official"
     }

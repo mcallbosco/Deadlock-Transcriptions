@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_headed_blue_02_02.mp3",
   "revisions": [
     {
-      "sha256": "9d61263d83f601183887738af55ddf0ca9c87e92e6f984c2dd00992e18f7c09c",
-      "text": "Headed to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d2996d800da0b501f5ca3bbf0f54fb53ce23f5f254919da5429be0b69bf2549",
-      "text": "Headed to Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9255e5d774b5e5a15d299ab594a36fb1baf9c0e352c1a8251085f4d9c789ef3c",
+      "sha256": [
+        "2d2996d800da0b501f5ca3bbf0f54fb53ce23f5f254919da5429be0b69bf2549",
+        "9255e5d774b5e5a15d299ab594a36fb1baf9c0e352c1a8251085f4d9c789ef3c",
+        "9d61263d83f601183887738af55ddf0ca9c87e92e6f984c2dd00992e18f7c09c"
+      ],
       "text": "Headed to Broadway.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

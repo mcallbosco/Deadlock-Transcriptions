@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_with_viper.mp3",
   "revisions": [
     {
-      "sha256": "bcd20b9ef1e4769e932a89488f0602b04a8a0da6c2c6bab921ca9f9213689332",
+      "sha256": [
+        "bcd20b9ef1e4769e932a89488f0602b04a8a0da6c2c6bab921ca9f9213689332"
+      ],
       "text": "I'm a true Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

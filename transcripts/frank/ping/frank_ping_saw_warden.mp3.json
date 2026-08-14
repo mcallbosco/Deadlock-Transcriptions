@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "55eac405a30b9f5d91e751f4eccb51e27868aea1db0c697f8b3b2c6cfe59b4aa",
+      "sha256": [
+        "55eac405a30b9f5d91e751f4eccb51e27868aea1db0c697f8b3b2c6cfe59b4aa"
+      ],
       "text": "Press onward.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "001d379e1b9a59b20e96a54bf09614d28941d8d9797d0393ce5e8a7325d45919",
+      "sha256": [
+        "001d379e1b9a59b20e96a54bf09614d28941d8d9797d0393ce5e8a7325d45919"
+      ],
       "text": "I saw a warning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

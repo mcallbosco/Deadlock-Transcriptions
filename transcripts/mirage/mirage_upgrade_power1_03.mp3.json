@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_03.mp3",
   "revisions": [
     {
-      "sha256": "1ce32311f7c3017de3c00541452eccb7cb67b14ecf4b5c9852f7b78ca137d158",
+      "sha256": [
+        "1ce32311f7c3017de3c00541452eccb7cb67b14ecf4b5c9852f7b78ca137d158"
+      ],
       "text": "That's what that means.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ee029824c5befd7eaa9e6c77c282127a2a634c42d85d3ad9ddfb6f759bc3c7cc",
-      "text": "The wind will howl.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93b417f1d2876e905a8d823baec2b23c5dabcb97735d36697219233703d8e54a",
-      "text": "The wind will howl.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca24d0e2e7904cdcdeb73b509fa4f593cbbee63e726eaaa86697e8b6444536e6",
+      "sha256": [
+        "93b417f1d2876e905a8d823baec2b23c5dabcb97735d36697219233703d8e54a",
+        "ca24d0e2e7904cdcdeb73b509fa4f593cbbee63e726eaaa86697e8b6444536e6",
+        "ee029824c5befd7eaa9e6c77c282127a2a634c42d85d3ad9ddfb6f759bc3c7cc"
+      ],
       "text": "The wind will howl…",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_push_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "fc77d1f57b623798c7d3b9d55039a8968800500fccb2c106100c40d58219e97b",
+      "sha256": [
+        "fc77d1f57b623798c7d3b9d55039a8968800500fccb2c106100c40d58219e97b"
+      ],
       "text": "That's my cello!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7cdcc7b4c6eae028f02dd5af63643fc9e9c07049a05b193e90399b3c392aabf9",
+      "sha256": [
+        "7cdcc7b4c6eae028f02dd5af63643fc9e9c07049a05b193e90399b3c392aabf9"
+      ],
       "text": "Let's push Yellow",
       "source": "official"
     }

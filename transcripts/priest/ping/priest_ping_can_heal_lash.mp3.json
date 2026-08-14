@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_lash.mp3",
   "revisions": [
     {
-      "sha256": "29ace5a7ecc038434f42bab9a3a7456f8fa1d2982a7d3e7c4ffced6d8d35f036",
+      "sha256": [
+        "29ace5a7ecc038434f42bab9a3a7456f8fa1d2982a7d3e7c4ffced6d8d35f036"
+      ],
       "text": "Blast, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ca5ab7b5ae33fea9dbc4d7d03b858a3b5c3650fe0575bd3d958baa4ec20e8222",
+      "sha256": [
+        "ca5ab7b5ae33fea9dbc4d7d03b858a3b5c3650fe0575bd3d958baa4ec20e8222"
+      ],
       "text": "Lash, I can heal you!",
       "source": "official"
     }

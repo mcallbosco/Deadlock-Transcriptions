@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_viper_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8651119c3ed77e2050751bf059b05737b31236839e9246a8e6614ee32e66338c",
+      "sha256": [
+        "8651119c3ed77e2050751bf059b05737b31236839e9246a8e6614ee32e66338c"
+      ],
       "text": "Viper was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

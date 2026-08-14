@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_sad_03.mp3",
   "revisions": [
     {
-      "sha256": "7f30672f6109fc00b143e1665a23749cafcc430f7f13eb11ec2fb2f42cd7d16a",
+      "sha256": [
+        "153ca96796eb49b48998d6f5a9a2472a4bdc30653bef07317e2f570cae99eed0",
+        "7f30672f6109fc00b143e1665a23749cafcc430f7f13eb11ec2fb2f42cd7d16a"
+      ],
       "text": "I need a hug!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "153ca96796eb49b48998d6f5a9a2472a4bdc30653bef07317e2f570cae99eed0",
-      "text": "I need a hug.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

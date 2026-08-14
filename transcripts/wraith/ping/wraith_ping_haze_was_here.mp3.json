@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ba478021f32cc1b3240f040601f053bc50242d2c3c2f0033662dc652becb01d0",
+      "sha256": [
+        "ba478021f32cc1b3240f040601f053bc50242d2c3c2f0033662dc652becb01d0"
+      ],
       "text": "He's was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1c818022a6c56e46048125779fc398179c154bd3a4493226b6d3f84a27e82f1e",
+      "sha256": [
+        "1c818022a6c56e46048125779fc398179c154bd3a4493226b6d3f84a27e82f1e",
+        "5af2a9a08cb595bc0ea2bf5045dda8686d41836ebc374f81ba57c24375ba1adb"
+      ],
       "text": "Hazel's here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a2e5f6b4b10d7b33c0085e1b3f96f2b135b32179155f0a8be346641425cca2a3",
+      "sha256": [
+        "a2e5f6b4b10d7b33c0085e1b3f96f2b135b32179155f0a8be346641425cca2a3"
+      ],
       "text": "He's here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5af2a9a08cb595bc0ea2bf5045dda8686d41836ebc374f81ba57c24375ba1adb",
-      "text": "Hazel's here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_shiv_03.mp3",
   "revisions": [
     {
-      "sha256": "a834c66887c2660e95dde081da0d2afc203a8f78c0387e65196213c7539da182",
-      "text": "Careful, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2607effa1e456ca1f136fdbd6437f45abf69c16a79b3a8366ce495da9469e3ce",
+      "sha256": [
+        "2607effa1e456ca1f136fdbd6437f45abf69c16a79b3a8366ce495da9469e3ce",
+        "a834c66887c2660e95dde081da0d2afc203a8f78c0387e65196213c7539da182"
+      ],
       "text": "Careful, Shiv!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

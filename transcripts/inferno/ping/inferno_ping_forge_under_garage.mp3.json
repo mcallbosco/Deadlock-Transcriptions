@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_forge_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "bf523cc95bb142f015f924365b350bddf93c837cb3013194a0be945a7d7422b7",
+      "sha256": [
+        "1203dda9723820dbc39ff9c2386506961b3026405402e33adeb03f49df7c4142",
+        "bf523cc95bb142f015f924365b350bddf93c837cb3013194a0be945a7d7422b7"
+      ],
       "text": "My guess is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1203dda9723820dbc39ff9c2386506961b3026405402e33adeb03f49df7c4142",
-      "text": "My guess is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef772495817178685bb552e32427ac488882e372c53d74b301d5546e3c0018e0",
+      "sha256": [
+        "ef772495817178685bb552e32427ac488882e372c53d74b301d5546e3c0018e0"
+      ],
       "text": "McGinnis's under the garage!",
       "source": "official"
     }

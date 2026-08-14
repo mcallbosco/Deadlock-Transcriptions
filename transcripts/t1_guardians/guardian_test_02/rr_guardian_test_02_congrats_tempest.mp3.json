@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_congrats_tempest.mp3",
   "revisions": [
     {
-      "sha256": "8e0c82f8a54ab892bd083399f936adf3dfb649c712474003cd250094f0b96369",
-      "text": "Good job, Tempest!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d10691119905d7b3332d7a1482e080e13b91c309ee444a362deca04b943ed04",
-      "text": "Good job, Tempest.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39ef0c2fbbb97499355ed1a0a6a173eb42d3c0cb5ac22d2ed2e7d1944ed21c0a",
+      "sha256": [
+        "39ef0c2fbbb97499355ed1a0a6a173eb42d3c0cb5ac22d2ed2e7d1944ed21c0a",
+        "8e0c82f8a54ab892bd083399f936adf3dfb649c712474003cd250094f0b96369",
+        "9d10691119905d7b3332d7a1482e080e13b91c309ee444a362deca04b943ed04"
+      ],
       "text": "Good job, Tempest.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_win_04.mp3",
   "revisions": [
     {
-      "sha256": "dac9b3b7ae8bd7b5d2cfc2ee13994d1b84ecfa6e5401a6c39c05341ebf35d22a",
-      "text": "We came together as a team.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd8808ede93c776772f06562dba7065e3ecc39f43c6487a33aaaa8129d3e81eb",
-      "text": "We came together as a team.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa374c3651c21f53cdca5e4b76eb84569b037e5898d93f4ea87d99d26265af71",
+      "sha256": [
+        "aa374c3651c21f53cdca5e4b76eb84569b037e5898d93f4ea87d99d26265af71",
+        "dac9b3b7ae8bd7b5d2cfc2ee13994d1b84ecfa6e5401a6c39c05341ebf35d22a",
+        "dd8808ede93c776772f06562dba7065e3ecc39f43c6487a33aaaa8129d3e81eb"
+      ],
       "text": "We came together as a team.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

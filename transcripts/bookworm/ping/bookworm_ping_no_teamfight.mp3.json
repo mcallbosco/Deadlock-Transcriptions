@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_no_teamfight.mp3",
   "revisions": [
     {
-      "sha256": "f9af2d60666bebc339b4252a1ab36be1397a28b08b401e759d036e3614ec95e7",
-      "text": "I'm not ready for a team fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f7c874f6519856a84ce96487380f7541b2291d78f7125d577dd756195e1e185",
+      "sha256": [
+        "8f7c874f6519856a84ce96487380f7541b2291d78f7125d577dd756195e1e185",
+        "f9af2d60666bebc339b4252a1ab36be1397a28b08b401e759d036e3614ec95e7"
+      ],
       "text": "I'm not ready for a team fight.",
       "source": "official"
     }

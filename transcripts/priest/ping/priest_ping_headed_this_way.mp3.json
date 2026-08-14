@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "6ceeb584b2a6805b2b890f7218ae8821ee702c4505d7554026861dd4a1527f99",
-      "text": "Headed this way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "268b31faee4e0af135cdf6617034ecf214145a7f8e61374980de35b9aacec6f5",
+      "sha256": [
+        "268b31faee4e0af135cdf6617034ecf214145a7f8e61374980de35b9aacec6f5",
+        "6ceeb584b2a6805b2b890f7218ae8821ee702c4505d7554026861dd4a1527f99"
+      ],
       "text": "Headed this way.",
       "source": "official"
     }

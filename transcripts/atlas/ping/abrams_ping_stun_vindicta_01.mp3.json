@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stun_vindicta_01.mp3",
   "revisions": [
     {
-      "sha256": "3a269f3f247a7c10af7824df6a279662db2239bd23838f88b11e53711a9b728c",
+      "sha256": [
+        "1e7d335922845a53c46fb35a70ed5cfc8c807c2a69845b6dfc35944861769292",
+        "3a269f3f247a7c10af7824df6a279662db2239bd23838f88b11e53711a9b728c"
+      ],
       "text": "Stun Vindicta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e7d335922845a53c46fb35a70ed5cfc8c807c2a69845b6dfc35944861769292",
-      "text": "Stun vindicta!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

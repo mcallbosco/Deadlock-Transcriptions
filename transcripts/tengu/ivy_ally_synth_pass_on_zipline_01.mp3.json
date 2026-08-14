@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_ally_synth_pass_on_zipline_01.mp3",
   "revisions": [
     {
-      "sha256": "ca893a73d4895e59c3abd087eed2397ca83aacaab93bc337b9b0f0fb56e79d73",
+      "sha256": [
+        "3ba77897820398996e5ec8ec907071c3a9e1c50613e4b8a7339b50a62f27738e",
+        "ca893a73d4895e59c3abd087eed2397ca83aacaab93bc337b9b0f0fb56e79d73"
+      ],
       "text": "Stay safe out there, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ba77897820398996e5ec8ec907071c3a9e1c50613e4b8a7339b50a62f27738e",
-      "text": "Stay safe out there, pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

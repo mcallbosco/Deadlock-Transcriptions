@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "d0d1bbef7f1f21bb855f22a2568fa6bb5efad9544548b74e32f23719fd72c3da",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62a0cca8360faced22ff318b49dfa2d5575aae40313598f08d518310f29ffa83",
-      "text": "Yamato is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df9cc35e8b982e6420daf21a680703776880025686594785e2629466dac912f6",
+      "sha256": [
+        "62a0cca8360faced22ff318b49dfa2d5575aae40313598f08d518310f29ffa83",
+        "d0d1bbef7f1f21bb855f22a2568fa6bb5efad9544548b74e32f23719fd72c3da",
+        "df9cc35e8b982e6420daf21a680703776880025686594785e2629466dac912f6"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

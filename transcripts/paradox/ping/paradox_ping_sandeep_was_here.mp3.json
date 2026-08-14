@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_sandeep_was_here.mp3",
   "revisions": [
     {
-      "sha256": "dec9291d5c59193b74c43aa0f3497ed39d1f8c57cdff9a4a995b4960954e9cb2",
+      "sha256": [
+        "dec9291d5c59193b74c43aa0f3497ed39d1f8c57cdff9a4a995b4960954e9cb2"
+      ],
       "text": "Sanjeev is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "22e1224fb7ca54e967a349df8fc9f80ff96e7f406250fed06624868e6a423465",
+      "sha256": [
+        "22e1224fb7ca54e967a349df8fc9f80ff96e7f406250fed06624868e6a423465"
+      ],
       "text": "Sanji was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

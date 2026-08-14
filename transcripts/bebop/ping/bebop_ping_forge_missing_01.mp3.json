@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "75dc1e2e56c075faa0b4d3f234d01687f9daad5b2d2800b0a3b308a3d042230e",
+      "sha256": [
+        "75dc1e2e56c075faa0b4d3f234d01687f9daad5b2d2800b0a3b308a3d042230e"
+      ],
       "text": "The menace is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "91cc2b97a372bc0427e67dbbf94a0eb4f0129bf4e4870b167ce0ff9b764dbf46",
+      "sha256": [
+        "91cc2b97a372bc0427e67dbbf94a0eb4f0129bf4e4870b167ce0ff9b764dbf46"
+      ],
       "text": "McGinnis's missing",
       "source": "official"
     }

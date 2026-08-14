@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_push_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "dbe7cae84b7977f5ec52b60fe944b679788d45c0206b441db4ce6b223c416a07",
-      "text": "Let's push York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "556cc529ab1d2a5bc7f85bf52bea7cb72755c40e988d94dd6e33f64a058f90a0",
+      "sha256": [
+        "556cc529ab1d2a5bc7f85bf52bea7cb72755c40e988d94dd6e33f64a058f90a0",
+        "dbe7cae84b7977f5ec52b60fe944b679788d45c0206b441db4ce6b223c416a07"
+      ],
       "text": "Let's push York.",
       "source": "official"
     }

@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "fc25fb5291f04cb8a415943e42b71fe3201d18ea857f0bbbeb6e51795ed150a8",
+      "sha256": [
+        "fc25fb5291f04cb8a415943e42b71fe3201d18ea857f0bbbeb6e51795ed150a8"
+      ],
       "text": "Chat plays.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2d6019d95080232affc49b24ff6a5bed7e344d3ace125a3fb247eeee6325fbde",
+      "sha256": [
+        "2d6019d95080232affc49b24ff6a5bed7e344d3ace125a3fb247eeee6325fbde",
+        "abf052ac4342704c2a23649149d16500ee532fc756a8ee8e31024c78b541d7ca"
+      ],
       "text": "Careful, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "620f2269404e1a668a554c822a5ed67b5f0850f204170a0e0ce6e7d83c165525",
+      "sha256": [
+        "620f2269404e1a668a554c822a5ed67b5f0850f204170a0e0ce6e7d83c165525"
+      ],
       "text": "Careful, Hayes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abf052ac4342704c2a23649149d16500ee532fc756a8ee8e31024c78b541d7ca",
-      "text": "Careful, Haze!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "fe7610d9e3a9732338148395a797ac6337ab894ce1484384c466a84a7606139c",
+      "sha256": [
+        "c0158cac062bf3c1b0d20395ca836f2fbdcdd06efadd45c33c519c081b7c3415",
+        "fe7610d9e3a9732338148395a797ac6337ab894ce1484384c466a84a7606139c"
+      ],
       "text": "Their screams with an echo through the burrows.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7292041fb9d6d0c5dd5cfaaf203880d65a2e57063eb28397d07a06fc025cf2d8",
+      "sha256": [
+        "7292041fb9d6d0c5dd5cfaaf203880d65a2e57063eb28397d07a06fc025cf2d8"
+      ],
       "text": "Their screams with an echo through the birds.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0158cac062bf3c1b0d20395ca836f2fbdcdd06efadd45c33c519c081b7c3415",
-      "text": "Their screams with an echo through the burrows.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

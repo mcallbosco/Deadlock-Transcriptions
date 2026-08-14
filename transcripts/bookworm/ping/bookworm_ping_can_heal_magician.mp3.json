@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_can_heal_magician.mp3",
   "revisions": [
     {
-      "sha256": "432a29c2125458d69fb81d2b9c9a0875759c352e72dc4eb611ccdc00f5cebee3",
-      "text": "Sinclair, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0da9467c1d85cd98128974b8fde82a7f5a42aef7ceaf1bc9449b83a482acaa23",
+      "sha256": [
+        "0da9467c1d85cd98128974b8fde82a7f5a42aef7ceaf1bc9449b83a482acaa23",
+        "432a29c2125458d69fb81d2b9c9a0875759c352e72dc4eb611ccdc00f5cebee3"
+      ],
       "text": "Sinclair, I can heal you!",
       "source": "official"
     }

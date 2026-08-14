@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_can_heal_murphy.mp3",
   "revisions": [
     {
-      "sha256": "cc20a068739cae8a7874863b52a66fa7b01aec7abc1d9f675fcdb73f5d347f56",
+      "sha256": [
+        "cc20a068739cae8a7874863b52a66fa7b01aec7abc1d9f675fcdb73f5d347f56"
+      ],
       "text": "I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d00a9b36ddb905deeb21b182721a4cf9095440b254f0e45d33ab2be23b647e1f",
+      "sha256": [
+        "d00a9b36ddb905deeb21b182721a4cf9095440b254f0e45d33ab2be23b647e1f"
+      ],
       "text": "Mercy, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c8393298aae5266a946350ceefc274237fafa358c0282934f05acf64b9b97ff9",
-      "text": "Murphy, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fe9464e0c62874dbcbd61243b498debacf242892c4ab15737ce1880209fc41e",
+      "sha256": [
+        "4fe9464e0c62874dbcbd61243b498debacf242892c4ab15737ce1880209fc41e",
+        "c8393298aae5266a946350ceefc274237fafa358c0282934f05acf64b9b97ff9"
+      ],
       "text": "Murphy, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

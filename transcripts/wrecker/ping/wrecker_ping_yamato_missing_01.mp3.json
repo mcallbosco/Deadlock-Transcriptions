@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7e9bee0688993b7b6197f1e89e401da0dc1b9a57d8bb224c37eae0cf8e168449",
-      "text": "Yamato's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c13a7e742297cac85b6e2fb295b6ea78d5a7e7439e1b27686a0984a7cfbf7f74",
+      "sha256": [
+        "7e9bee0688993b7b6197f1e89e401da0dc1b9a57d8bb224c37eae0cf8e168449",
+        "c13a7e742297cac85b6e2fb295b6ea78d5a7e7439e1b27686a0984a7cfbf7f74"
+      ],
       "text": "Yamato's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

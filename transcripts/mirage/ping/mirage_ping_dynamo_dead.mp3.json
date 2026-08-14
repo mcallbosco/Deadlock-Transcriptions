@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "b863eac2e014f4c495e3fc7b7b13e0c1c24e30b718be75af059e408a41732571",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "105453187ab06a4d5aa36138b74d1d7db2ce36da579f2a0fa302064a1487be9c",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ed4c429ec636d4dac9b30c6804fb2dc50fbdcb895379739de35c25258382d33",
+      "sha256": [
+        "105453187ab06a4d5aa36138b74d1d7db2ce36da579f2a0fa302064a1487be9c",
+        "9ed4c429ec636d4dac9b30c6804fb2dc50fbdcb895379739de35c25258382d33",
+        "b863eac2e014f4c495e3fc7b7b13e0c1c24e30b718be75af059e408a41732571"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

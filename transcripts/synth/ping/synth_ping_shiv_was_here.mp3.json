@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "453ff23a8494de4821ca8fcc7d9f6892a0cd2759522c6bc461d63913eb6e8dd6",
+      "sha256": [
+        "453ff23a8494de4821ca8fcc7d9f6892a0cd2759522c6bc461d63913eb6e8dd6"
+      ],
       "text": "She was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

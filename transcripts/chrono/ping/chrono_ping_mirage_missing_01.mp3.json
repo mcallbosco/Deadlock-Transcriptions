@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5e67e37409ca69f2c4434e2da45f752e45ffdfc5e5094d6bfd012cf759087a3d",
+      "sha256": [
+        "5e67e37409ca69f2c4434e2da45f752e45ffdfc5e5094d6bfd012cf759087a3d"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e73c8372c72cf7e2166c47fed0538e4a7528aa8f40bee92856f51940480fec5c",
+      "sha256": [
+        "e73c8372c72cf7e2166c47fed0538e4a7528aa8f40bee92856f51940480fec5c"
+      ],
       "text": "Mirage's missing",
       "source": "official"
     }

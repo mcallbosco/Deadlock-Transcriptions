@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_inferno_start_01.mp3",
   "revisions": [
     {
-      "sha256": "fd59fcc897801b23627c7d1727b49ee7622753617907306184c3acd8d0cb6c6d",
+      "sha256": [
+        "fd59fcc897801b23627c7d1727b49ee7622753617907306184c3acd8d0cb6c6d"
+      ],
       "text": "You are more than your past, Inferno.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ac669effe67d41a5a1820631266a456669290897d2c4b3bbb13adb905f951ffa",
-      "text": "You're a loyal friend, Infernus. Don't let Hank down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "82d63b616210c0d2c9c56e3289b0d8edb1fa7594dcf35363ceb806a3badf2ea6",
+        "ac669effe67d41a5a1820631266a456669290897d2c4b3bbb13adb905f951ffa"
+      ],
+      "text": "You're a loyal friend Infernus… don't let Hank down.",
+      "source": "official"
     },
     {
-      "sha256": "09df713895d40618085bfc7eefe20824cb5012e2a1176daaa3a9a7853cf00547",
+      "sha256": [
+        "09df713895d40618085bfc7eefe20824cb5012e2a1176daaa3a9a7853cf00547"
+      ],
       "text": "You are your friend in furnace. Don't let Hank down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82d63b616210c0d2c9c56e3289b0d8edb1fa7594dcf35363ceb806a3badf2ea6",
-      "text": "You're a loyal friend Infernus… don't let Hank down.",
-      "source": "official"
     }
   ]
 }

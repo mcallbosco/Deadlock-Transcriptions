@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_upgrade_power3_05.mp3",
   "revisions": [
     {
-      "sha256": "a1c5ae9f9c087fceb6e36dbd075104662108d4428db82e56b6d0507280481e28",
-      "text": "My power comes at a cost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b603e3627f518268971f1fc2b1eb4db4ae2c5bb8cff77ed2825f09a88734cf4",
+      "sha256": [
+        "6b603e3627f518268971f1fc2b1eb4db4ae2c5bb8cff77ed2825f09a88734cf4",
+        "a1c5ae9f9c087fceb6e36dbd075104662108d4428db82e56b6d0507280481e28"
+      ],
       "text": "My power comes at a cost.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

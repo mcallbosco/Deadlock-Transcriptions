@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_krill_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "df8e6de7883fecf13bc01495be89b9a3283e69cac66e7b769a29af63857ed1cd",
-      "text": "Crew's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b84039f9bbe913acad30af934a2c07358b0373d6423e0e2ff3427c3efc6200f5",
+      "sha256": [
+        "b62803a2cae054a5123e8e083191b9c1d79eb38e572363cb53446053a7d30dce",
+        "b84039f9bbe913acad30af934a2c07358b0373d6423e0e2ff3427c3efc6200f5",
+        "df8e6de7883fecf13bc01495be89b9a3283e69cac66e7b769a29af63857ed1cd"
+      ],
       "text": "Crew's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b62803a2cae054a5123e8e083191b9c1d79eb38e572363cb53446053a7d30dce",
-      "text": "Crew's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c451af27d27333ece4404239e4a2ab559cd26814da6f25b23ed46c7a2cf3c3a",
+      "sha256": [
+        "7c451af27d27333ece4404239e4a2ab559cd26814da6f25b23ed46c7a2cf3c3a"
+      ],
       "text": "Krill's on the bridge!",
       "source": "official"
     }

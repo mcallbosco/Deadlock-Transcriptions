@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3ec3c0b852cdeb21adf2e76aa12d5558fdb0813a504111a43a285f7574e711d4",
-      "text": "This case is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "053e1128459330dbd13bec732a946683fdab2e342856702cdc6e4195b3b02748",
+      "sha256": [
+        "053e1128459330dbd13bec732a946683fdab2e342856702cdc6e4195b3b02748",
+        "3ec3c0b852cdeb21adf2e76aa12d5558fdb0813a504111a43a285f7574e711d4"
+      ],
       "text": "This case is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/vindicta_kill_anyhero_04.mp3",
   "revisions": [
     {
-      "sha256": "1c3f36417d95501c89a0879bf9c604a01379385c8ae4821d722424be3da4086b",
+      "sha256": [
+        "1c3f36417d95501c89a0879bf9c604a01379385c8ae4821d722424be3da4086b"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1011740d686e308b611968af5dffe064e6206c4711fd17ad496dd588a6c812d4",
+      "sha256": [
+        "1011740d686e308b611968af5dffe064e6206c4711fd17ad496dd588a6c812d4",
+        "845132af0e838caafe5f05b3c411e46a3594b54b8ac1b55dd7daf200027b3357"
+      ],
       "text": "Cool.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3dbc74bee405c440e18f492e4a3c5f3de0cd068fbace558cc9368b777ffd0f66",
+      "sha256": [
+        "3dbc74bee405c440e18f492e4a3c5f3de0cd068fbace558cc9368b777ffd0f66"
+      ],
       "text": "So...",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "845132af0e838caafe5f05b3c411e46a3594b54b8ac1b55dd7daf200027b3357",
-      "text": "Cool.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

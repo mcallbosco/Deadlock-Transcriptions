@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_shiv_01.mp3",
   "revisions": [
     {
-      "sha256": "fd0f867b4031f12db489f880f52e4ab6fdb38886e9f73a165d02815aa0bd0e4e",
-      "text": "Careful, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1963f5f6eddd6415e943cb9d35f0c5439f5c501f8b1ac9f964dd7af780f67b0c",
+      "sha256": [
+        "1963f5f6eddd6415e943cb9d35f0c5439f5c501f8b1ac9f964dd7af780f67b0c",
+        "fd0f867b4031f12db489f880f52e4ab6fdb38886e9f73a165d02815aa0bd0e4e"
+      ],
       "text": "Careful, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "8463f312e54db78a468a3cb493e6f7a7c0d82034c0a14782f33f688b703ad93d",
-      "text": "I see Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "effe90bf2564efbe90c727c8140a20332fe20596b29f63b96077f0895ac77641",
-      "text": "I see Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "83a0cb70daeb9cc61ee37bcd1d436508125ec8c4e80c21e9ba5a728edd3ac247",
-      "text": "I see Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d15b9a6eebfcae6a6256c4925cd3b4ac8442e8899e0c373480debaa99ac009a",
+      "sha256": [
+        "83a0cb70daeb9cc61ee37bcd1d436508125ec8c4e80c21e9ba5a728edd3ac247",
+        "8463f312e54db78a468a3cb493e6f7a7c0d82034c0a14782f33f688b703ad93d",
+        "9d15b9a6eebfcae6a6256c4925cd3b4ac8442e8899e0c373480debaa99ac009a",
+        "effe90bf2564efbe90c727c8140a20332fe20596b29f63b96077f0895ac77641"
+      ],
       "text": "I see Mirage",
       "source": "official"
     }

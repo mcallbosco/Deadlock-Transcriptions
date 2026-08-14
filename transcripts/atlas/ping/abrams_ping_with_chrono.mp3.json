@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_chrono.mp3",
   "revisions": [
     {
-      "sha256": "e70f72c022cfb418af4cdbfe5798756aa360c0f1b7fece779d5c291b35c497fd",
-      "text": "I'm with you, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "639719cff7839d0ba7d3d54a5a2a1ec487c6ed8c35cb91d1fcaa175db8b3758f",
-      "text": "I'm with you, Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cb15f2d9466d935344410c35aed53dc770865c1aa1367db313fff65427555a4",
+      "sha256": [
+        "5cb15f2d9466d935344410c35aed53dc770865c1aa1367db313fff65427555a4",
+        "639719cff7839d0ba7d3d54a5a2a1ec487c6ed8c35cb91d1fcaa175db8b3758f",
+        "e70f72c022cfb418af4cdbfe5798756aa360c0f1b7fece779d5c291b35c497fd"
+      ],
       "text": "I'm with you, Paradox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

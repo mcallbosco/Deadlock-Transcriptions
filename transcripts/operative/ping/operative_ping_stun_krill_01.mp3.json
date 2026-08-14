@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_stun_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "0b202fbb65356801119944672978584bd5ef969d3c965333bd43b40cf8f2e331",
+      "sha256": [
+        "0b202fbb65356801119944672978584bd5ef969d3c965333bd43b40cf8f2e331"
+      ],
       "text": "Stan Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

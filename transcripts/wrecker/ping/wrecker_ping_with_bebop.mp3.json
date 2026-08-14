@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "6aeadb49caca309f5808fe6585f044d0e3713c92dd1c9c6533e9284c520aa34d",
-      "text": "I'm with you, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33e10b56601cf99c9623429d0365c9eeaa131ff7b2b004acfc033884c1f9611c",
+      "sha256": [
+        "33e10b56601cf99c9623429d0365c9eeaa131ff7b2b004acfc033884c1f9611c",
+        "6aeadb49caca309f5808fe6585f044d0e3713c92dd1c9c6533e9284c520aa34d"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

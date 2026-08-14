@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_cadence_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5e86932a76d4d49e5e256c082d64b21e1f2e493508c8fd94f5bf5d5fa8010d47",
+      "sha256": [
+        "5e86932a76d4d49e5e256c082d64b21e1f2e493508c8fd94f5bf5d5fa8010d47"
+      ],
       "text": "Cage was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b8729b888f4341d94091da79aa47ad260de0019d8a66f25b647740d47aebd50d",
-      "text": "Hades was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2928cf0b0af23ddfaf9ff2a186d5646fc2df9507cf70edd6bcf38809f56bde3d",
+      "sha256": [
+        "2928cf0b0af23ddfaf9ff2a186d5646fc2df9507cf70edd6bcf38809f56bde3d",
+        "b8729b888f4341d94091da79aa47ad260de0019d8a66f25b647740d47aebd50d"
+      ],
       "text": "Hades was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

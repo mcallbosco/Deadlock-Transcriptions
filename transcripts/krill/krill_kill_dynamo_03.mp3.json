@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_dynamo_03.mp3",
   "revisions": [
     {
-      "sha256": "763fc51ce357bbe9a83257420ca7d99ed4d6d353a0949d639fd6aa40cebffb9f",
-      "text": "Dynamo's down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a58adb91bddd8148352eb080c68018ede9ef5dc11082fb5878bbd92bd1a61c58",
-      "text": "Dynamo's down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4082e72e696dcd7caca3eaa72393f6d1589df3db868e3264b872a79468e45aa0",
-      "text": "Dynamo's down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6bc65425e84f18d80616e54c1c8517b46357081f400c9a1ecb83713064a367ae",
+      "sha256": [
+        "4082e72e696dcd7caca3eaa72393f6d1589df3db868e3264b872a79468e45aa0",
+        "6bc65425e84f18d80616e54c1c8517b46357081f400c9a1ecb83713064a367ae",
+        "763fc51ce357bbe9a83257420ca7d99ed4d6d353a0949d639fd6aa40cebffb9f",
+        "a58adb91bddd8148352eb080c68018ede9ef5dc11082fb5878bbd92bd1a61c58"
+      ],
       "text": "Dynamo's down!",
       "source": "official"
     }

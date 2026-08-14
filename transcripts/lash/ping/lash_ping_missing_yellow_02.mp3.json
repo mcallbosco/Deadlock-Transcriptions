@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_missing_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "d0e6859b8497f9d982dd3cfa6e0c033cb7ba75597b5a50e3136a8d98d2c944bd",
+      "sha256": [
+        "1508e577b1c88c8df3332c07872a12fcef9d663f468b679063f5df2b384b8ef5",
+        "d0e6859b8497f9d982dd3cfa6e0c033cb7ba75597b5a50e3136a8d98d2c944bd"
+      ],
       "text": "Miss New York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1508e577b1c88c8df3332c07872a12fcef9d663f468b679063f5df2b384b8ef5",
-      "text": "Miss New York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8500b4adc26af746bc533f81f2d8f4ac73512b1acf4cf40cf7e2e2b5e0d60275",
+      "sha256": [
+        "8500b4adc26af746bc533f81f2d8f4ac73512b1acf4cf40cf7e2e2b5e0d60275"
+      ],
       "text": "Miss York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

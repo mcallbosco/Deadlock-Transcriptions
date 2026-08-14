@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_atlas.mp3",
   "revisions": [
     {
-      "sha256": "120674d2c5884015b6a335f01503f36b4144756aea23c120293d793d8608d353",
-      "text": "I'm with you, Atlas.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db3d562e77e1681db8dc85394ae3ff0acfd3f299a82803dc25166b11f9cefe7e",
+      "sha256": [
+        "120674d2c5884015b6a335f01503f36b4144756aea23c120293d793d8608d353",
+        "db3d562e77e1681db8dc85394ae3ff0acfd3f299a82803dc25166b11f9cefe7e"
+      ],
       "text": "I'm with you, Atlas.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

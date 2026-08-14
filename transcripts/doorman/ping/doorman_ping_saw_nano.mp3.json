@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_saw_nano.mp3",
   "revisions": [
     {
-      "sha256": "663f8e1262077252957e2a2f7046caa3b8472aa12f1c15d962b2c25cfd25abf4",
+      "sha256": [
+        "663f8e1262077252957e2a2f7046caa3b8472aa12f1c15d962b2c25cfd25abf4"
+      ],
       "text": "I saw Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

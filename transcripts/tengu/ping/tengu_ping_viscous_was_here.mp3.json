@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_viscous_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b0e54889e7d5639f81a01a86fbe860ce1cb7833231c2212ee8c3e254502d3db6",
+      "sha256": [
+        "b0e54889e7d5639f81a01a86fbe860ce1cb7833231c2212ee8c3e254502d3db6"
+      ],
       "text": "This is the cheer!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a89c7854dcebb71571fd2404a9df8a2d805210a12be4684ed0aad655e932059f",
+      "sha256": [
+        "a89c7854dcebb71571fd2404a9df8a2d805210a12be4684ed0aad655e932059f"
+      ],
       "text": "This guy's here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

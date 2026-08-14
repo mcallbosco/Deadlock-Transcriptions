@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "17b2467d150683737e5def85e676916151c0a26097d5f21f988bd6b90619216b",
+      "sha256": [
+        "17b2467d150683737e5def85e676916151c0a26097d5f21f988bd6b90619216b",
+        "5d8b2b1d2d4dc32cc31d0465f5fc3bf5eb7cf832d97a57c31e929df79b2c5045"
+      ],
       "text": "caddy yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d8b2b1d2d4dc32cc31d0465f5fc3bf5eb7cf832d97a57c31e929df79b2c5045",
-      "text": "Caddy Yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

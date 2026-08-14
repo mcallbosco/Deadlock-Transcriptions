@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ap_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "e75ed9bbfcb8d108b7ae01762fa98e7207954f727d04b238a8ecaa19e0663cf3",
-      "text": "I need to train my abilities.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4c70e40676f0f836e7b5163e755295592805572a182569789909dca84c4458b",
-      "text": "I need to train my abilities.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5233629af0039bf0b2ca3f0dab15f97e5ce4715bf11b71f4c6e06d386a8eb1f",
+      "sha256": [
+        "a5233629af0039bf0b2ca3f0dab15f97e5ce4715bf11b71f4c6e06d386a8eb1f",
+        "d4c70e40676f0f836e7b5163e755295592805572a182569789909dca84c4458b",
+        "e75ed9bbfcb8d108b7ae01762fa98e7207954f727d04b238a8ecaa19e0663cf3"
+      ],
       "text": "I need to train my abilities.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

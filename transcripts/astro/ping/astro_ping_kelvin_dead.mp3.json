@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "b8d6f0f525b1d09bebb4a35c27abb5e33a14daccbcf5aca6867f55356aa586ad",
+      "sha256": [
+        "b8d6f0f525b1d09bebb4a35c27abb5e33a14daccbcf5aca6867f55356aa586ad"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_shiv_check_items.mp3",
   "revisions": [
     {
-      "sha256": "0d1def229582376fced7b7488d3e3087f1f117404e1c91a800ef90322d17e1ff",
+      "sha256": [
+        "0d1def229582376fced7b7488d3e3087f1f117404e1c91a800ef90322d17e1ff"
+      ],
       "text": "Check out what Shiv bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc1c8026b09c4e9b95c8fb3403d01dd43ef92f45d0c57f11a11c029b355c6090",
-      "text": "Check out what Shiv got.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "40c1f638cdcbe212bdde81db1fd3bf45b810986ce8909ac3fc3cd4bc2a36738e",
+      "sha256": [
+        "40c1f638cdcbe212bdde81db1fd3bf45b810986ce8909ac3fc3cd4bc2a36738e",
+        "cc1c8026b09c4e9b95c8fb3403d01dd43ef92f45d0c57f11a11c029b355c6090"
+      ],
       "text": "Check out what Shiv got.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

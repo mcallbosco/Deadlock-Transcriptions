@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_careful_wraith_03.mp3",
   "revisions": [
     {
-      "sha256": "05586e00f6a0a659c69460f058f7fcfc3b8b03a9ef8a21053a326fabffa0ea27",
+      "sha256": [
+        "05586e00f6a0a659c69460f058f7fcfc3b8b03a9ef8a21053a326fabffa0ea27",
+        "e33a6525253f9fa9aa4bc612d5be90766d29bed1334a9dd1acf60779e4ff9876"
+      ],
       "text": "Cancel race!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e33a6525253f9fa9aa4bc612d5be90766d29bed1334a9dd1acf60779e4ff9876",
-      "text": "Cancel race.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

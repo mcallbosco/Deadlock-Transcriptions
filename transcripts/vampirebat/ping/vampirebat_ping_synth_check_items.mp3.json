@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_synth_check_items.mp3",
   "revisions": [
     {
-      "sha256": "647f934f546f37f461c368079991d7bf5d3f213ac3ffb02bd7afbe7be071fe02",
+      "sha256": [
+        "42887b1ed1eea4b2487ae515988c116596671ef49a49bb4fc50018ac55245f48",
+        "647f934f546f37f461c368079991d7bf5d3f213ac3ffb02bd7afbe7be071fe02"
+      ],
       "text": "Check out with pocketbot.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "42887b1ed1eea4b2487ae515988c116596671ef49a49bb4fc50018ac55245f48",
-      "text": "Check out with Pocketbot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

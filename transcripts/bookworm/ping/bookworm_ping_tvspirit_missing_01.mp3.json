@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_tvspirit_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b1578d2c1d91b14907efb5728463caa541e37839e415d885608809eef7e73f8e",
+      "sha256": [
+        "b1578d2c1d91b14907efb5728463caa541e37839e415d885608809eef7e73f8e"
+      ],
       "text": "The Poltergeist is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4fff53645fb2dada7a3214051bb76dda9e4f7beeb2b547a53f245a47df6af164",
+      "sha256": [
+        "4fff53645fb2dada7a3214051bb76dda9e4f7beeb2b547a53f245a47df6af164"
+      ],
       "text": "The courier is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

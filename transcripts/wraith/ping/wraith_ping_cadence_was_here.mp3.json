@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_cadence_was_here.mp3",
   "revisions": [
     {
-      "sha256": "dc5fbd77de794571ef8232f41b9d1be573eb4a869b52858c087912a54f7ad0ac",
+      "sha256": [
+        "41e1b0c5cbc15462efcd114724f2731220f45dfd9a9d3135e80ac2e3636f040f",
+        "dc5fbd77de794571ef8232f41b9d1be573eb4a869b52858c087912a54f7ad0ac"
+      ],
       "text": "Cadence was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1ee408aaa186e196d184b616872e5d0c2ade0ffb07eaa4c60ce9cd4f3024d52d",
+      "sha256": [
+        "1ee408aaa186e196d184b616872e5d0c2ade0ffb07eaa4c60ce9cd4f3024d52d"
+      ],
       "text": "Talon's was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "17c8c437253dc22ea4b659b560acb485121b8bf4c2c6c9638fc194ee52989599",
+      "sha256": [
+        "17c8c437253dc22ea4b659b560acb485121b8bf4c2c6c9638fc194ee52989599"
+      ],
       "text": "Kagan's was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41e1b0c5cbc15462efcd114724f2731220f45dfd9a9d3135e80ac2e3636f040f",
-      "text": "Cadence was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_post_game_01.mp3",
   "revisions": [
     {
-      "sha256": "2d8c4f98f04a1c5a97bf05fd75c5bbf69c89aaee738dc1fa73242e09d1f34ca1",
-      "text": "Good work, everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa049536c88e2fed32a897496a5cb22f7197c43fcb6eda7ee7599443f6601740",
-      "text": "Good work, everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c38e564c212acf45ad531a64acd99aade3ef01264d1be7ad4431210250e4da0",
+      "sha256": [
+        "2c38e564c212acf45ad531a64acd99aade3ef01264d1be7ad4431210250e4da0",
+        "2d8c4f98f04a1c5a97bf05fd75c5bbf69c89aaee738dc1fa73242e09d1f34ca1",
+        "fa049536c88e2fed32a897496a5cb22f7197c43fcb6eda7ee7599443f6601740"
+      ],
       "text": "Good work, everyone.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

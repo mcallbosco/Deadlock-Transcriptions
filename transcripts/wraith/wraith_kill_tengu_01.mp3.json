@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "c49dedab2bb7bddf8aadcfadef72e9f57dadf9799955bbae6e347b49f28389e0",
+      "sha256": [
+        "2687f79f2ab9894d2c3197e05d4f526fac4612a837717d92e725f9b77425c357",
+        "c49dedab2bb7bddf8aadcfadef72e9f57dadf9799955bbae6e347b49f28389e0"
+      ],
       "text": "I am not Mendoza Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2687f79f2ab9894d2c3197e05d4f526fac4612a837717d92e725f9b77425c357",
-      "text": "I am not Mendoza Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d79571b9a6dd03cfb3f8a0ed4b8f185d749dec87136300113566d37661cf3357",
+      "sha256": [
+        "d79571b9a6dd03cfb3f8a0ed4b8f185d749dec87136300113566d37661cf3357"
+      ],
       "text": "I'm not Mendoza Ivy",
       "source": "official"
     }

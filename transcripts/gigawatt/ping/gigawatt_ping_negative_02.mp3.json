@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_negative_02.mp3",
   "revisions": [
     {
-      "sha256": "e982cace85b17ec2f4445b710251abddafbc73356442154fd7060fc5de376b79",
+      "sha256": [
+        "e982cace85b17ec2f4445b710251abddafbc73356442154fd7060fc5de376b79"
+      ],
       "text": "I have fixed you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8b3de34024ec41f2122aa075812678186a3bfc431da35b92b8119972e8fc9437",
+      "sha256": [
+        "8b3de34024ec41f2122aa075812678186a3bfc431da35b92b8119972e8fc9437",
+        "f178185ec18faaf537fe6dd2ccf50bca9936e08e97fcd5b92b4aae465f65d06d"
+      ],
       "text": "I am Jamestown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f178185ec18faaf537fe6dd2ccf50bca9936e08e97fcd5b92b4aae465f65d06d",
-      "text": "I am Jamestown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff80dd59d0fdf62614dac47581b8b277138ff07d8462b62ff9cddbfc743317d4",
+      "sha256": [
+        "ff80dd59d0fdf62614dac47581b8b277138ff07d8462b62ff9cddbfc743317d4"
+      ],
       "text": "I don't think so.",
       "source": "official"
     }

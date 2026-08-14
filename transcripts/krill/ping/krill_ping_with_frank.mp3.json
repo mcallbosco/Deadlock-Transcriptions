@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_frank.mp3",
   "revisions": [
     {
-      "sha256": "e31db6c6cd6d248a66a342f60632b346600bd0738deb33a68725287ed4807237",
+      "sha256": [
+        "e31db6c6cd6d248a66a342f60632b346600bd0738deb33a68725287ed4807237"
+      ],
       "text": "I'm with you, Victor.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

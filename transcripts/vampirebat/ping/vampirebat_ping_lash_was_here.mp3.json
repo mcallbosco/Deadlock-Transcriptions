@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_lash_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4c9dad68c6741e5670e517f7340ffbda651acaec1c3586c9e2c5bb366dd120ea",
+      "sha256": [
+        "4c9dad68c6741e5670e517f7340ffbda651acaec1c3586c9e2c5bb366dd120ea",
+        "605ddbd1664ce8494ed3cc6407c21b7ebca7d6c01c974ad59e8c6a4ec39bf76c"
+      ],
       "text": "Blast was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "605ddbd1664ce8494ed3cc6407c21b7ebca7d6c01c974ad59e8c6a4ec39bf76c",
-      "text": "Blast was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

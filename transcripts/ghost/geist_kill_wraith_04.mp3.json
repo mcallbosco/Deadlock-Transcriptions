@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_kill_wraith_04.mp3",
   "revisions": [
     {
-      "sha256": "8bf0b4d8be4d733c4b7c83a75f9bbc940a7eb9f2202e7f27406713c8214ece02",
+      "sha256": [
+        "22451a947f9f6108a6c0e89a763b83f2eadbb82cf807afedf7c9a0b961244a55",
+        "8bf0b4d8be4d733c4b7c83a75f9bbc940a7eb9f2202e7f27406713c8214ece02"
+      ],
       "text": "Your act's been canceled.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22451a947f9f6108a6c0e89a763b83f2eadbb82cf807afedf7c9a0b961244a55",
-      "text": "Your acts been canceled.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

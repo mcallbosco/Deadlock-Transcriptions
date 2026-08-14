@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_affermative_03.mp3",
   "revisions": [
     {
-      "sha256": "ddf8df91d6e376ef5363e6869994172c67ee0b745e5cd1c0e03ca5ec7ad42069",
-      "text": "Okay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41af8678633a01d192a9f9260d60668cef10c7cf2b90e4ea4506c45e709d5768",
+      "sha256": [
+        "41af8678633a01d192a9f9260d60668cef10c7cf2b90e4ea4506c45e709d5768",
+        "ddf8df91d6e376ef5363e6869994172c67ee0b745e5cd1c0e03ca5ec7ad42069"
+      ],
       "text": "Okay.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

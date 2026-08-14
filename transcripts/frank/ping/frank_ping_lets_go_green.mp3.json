@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_lets_go_green.mp3",
   "revisions": [
     {
-      "sha256": "4376f134631504b4c3f35850c62794cb3bcff09d8fd8fc1eaeedb00d8a5a667b",
-      "text": "Let's go green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9cc761659a41a35571b765ef8c2c529e9ee24b199bd2ebe7ddbe2a064f4f815",
+      "sha256": [
+        "4376f134631504b4c3f35850c62794cb3bcff09d8fd8fc1eaeedb00d8a5a667b",
+        "a9cc761659a41a35571b765ef8c2c529e9ee24b199bd2ebe7ddbe2a064f4f815"
+      ],
       "text": "Let's go Green!",
       "source": "official"
     }

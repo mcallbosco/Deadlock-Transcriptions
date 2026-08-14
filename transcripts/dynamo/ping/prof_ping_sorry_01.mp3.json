@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_sorry_01.mp3",
   "revisions": [
     {
-      "sha256": "812879bba56968844c73a5c0f71743eb8b8950bc5022177f93148ec4c6da7165",
-      "text": "I'm sick.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ae765e03df0c5120f7357608c5c583e58401d0864d094d611fab8bf26f71203",
+      "sha256": [
+        "7ae765e03df0c5120f7357608c5c583e58401d0864d094d611fab8bf26f71203",
+        "812879bba56968844c73a5c0f71743eb8b8950bc5022177f93148ec4c6da7165"
+      ],
       "text": "I'm sick.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

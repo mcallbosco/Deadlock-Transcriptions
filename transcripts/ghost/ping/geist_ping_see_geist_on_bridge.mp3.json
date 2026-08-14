@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_geist_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b11f68ba9118b320663695ca594e5f622906c17b82d3ea277cf46bf55feb9800",
-      "text": "Cassie's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76cda01b613f18dc72ce1c16225df47c074bfef049fc7e425c7907140d599511",
+      "sha256": [
+        "76cda01b613f18dc72ce1c16225df47c074bfef049fc7e425c7907140d599511",
+        "b11f68ba9118b320663695ca594e5f622906c17b82d3ea277cf46bf55feb9800"
+      ],
       "text": "Cassie's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

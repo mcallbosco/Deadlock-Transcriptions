@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_abrams_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c3832e4efed48f34e72281cbd62d537de88b59eaa491c6cd226a71791ca60eba",
-      "text": "Abrams was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3309d03bc81b14a8f3241d14505f7072d5d0f02978e1aed361a716e61a1cb25",
+      "sha256": [
+        "c3832e4efed48f34e72281cbd62d537de88b59eaa491c6cd226a71791ca60eba",
+        "e3309d03bc81b14a8f3241d14505f7072d5d0f02978e1aed361a716e61a1cb25"
+      ],
       "text": "Abrams was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_right_back_01.mp3",
   "revisions": [
     {
-      "sha256": "1ff149786726e74884cff96859f0061f06bbba97a5499056c26a764028e9cbef",
-      "text": "I'll be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d5b4cdc5c988368c6d02bd5078305e77af05d2391e490500150f2c16327e062",
-      "text": "I'll be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbdf06c436ff2578941b8744e4c1719db6759b5c8f5e20f164f3ef9cff7a726e",
-      "text": "I'll be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d390c20014cbbca8e5713df52a489de8e7c42a052542ebe0aa473e61bbcaf5df",
+      "sha256": [
+        "1d5b4cdc5c988368c6d02bd5078305e77af05d2391e490500150f2c16327e062",
+        "1ff149786726e74884cff96859f0061f06bbba97a5499056c26a764028e9cbef",
+        "d390c20014cbbca8e5713df52a489de8e7c42a052542ebe0aa473e61bbcaf5df",
+        "dbdf06c436ff2578941b8744e4c1719db6759b5c8f5e20f164f3ef9cff7a726e"
+      ],
       "text": "I'll be right back",
       "source": "official"
     }

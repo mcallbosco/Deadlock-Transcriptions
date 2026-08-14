@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power1_01.mp3",
   "revisions": [
     {
-      "sha256": "dcd6342f2fd97753daa62ef3b60890683c7cc8217116fa2dcd537646a2cf9325",
+      "sha256": [
+        "dcd6342f2fd97753daa62ef3b60890683c7cc8217116fa2dcd537646a2cf9325"
+      ],
       "text": "Hello, my friend.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a41cd3fc627334956df8ee08dd0bc2dec6bf12ce345cfc5f49855785d8572de5",
-      "text": "This should slow them down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "316ecd7580a66f19b56f8e15204ed868a22844535932cb1961e63f68b6f70c4b",
-      "text": "This should slow them down.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee8fe2168ce2dca993349bbf8b929c491353791449c695e571bc14591be7ca88",
+      "sha256": [
+        "316ecd7580a66f19b56f8e15204ed868a22844535932cb1961e63f68b6f70c4b",
+        "a41cd3fc627334956df8ee08dd0bc2dec6bf12ce345cfc5f49855785d8572de5",
+        "ee8fe2168ce2dca993349bbf8b929c491353791449c695e571bc14591be7ca88"
+      ],
       "text": "This should slow them down…",
       "source": "official"
     }

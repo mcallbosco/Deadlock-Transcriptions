@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "8a571250a4796825a9547cc611c89afac8d34f3914a9b312b6840635ca29742d",
+      "sha256": [
+        "8a571250a4796825a9547cc611c89afac8d34f3914a9b312b6840635ca29742d",
+        "da2eb0d4c7d567465030387d9d5e35bc0e2682d5fb422beb1ed8b92231d6393b"
+      ],
       "text": "I saw Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ea5e7af0f74aac9a0bf8418064dcb6f5d92b7776f4c2faca01fde88d7cd785ad",
+      "sha256": [
+        "1242ff6dedd6c6bf3b7c8f6afb5b73dfeed41e1b4d2d52ec7b1a0360f3cf3501",
+        "ea5e7af0f74aac9a0bf8418064dcb6f5d92b7776f4c2faca01fde88d7cd785ad"
+      ],
       "text": "I saw his.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1242ff6dedd6c6bf3b7c8f6afb5b73dfeed41e1b4d2d52ec7b1a0360f3cf3501",
-      "text": "I saw his.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da2eb0d4c7d567465030387d9d5e35bc0e2682d5fb422beb1ed8b92231d6393b",
-      "text": "I saw haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

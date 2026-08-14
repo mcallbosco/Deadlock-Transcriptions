@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_lash.mp3",
   "revisions": [
     {
-      "sha256": "b437f1e5021940f216bbc69bec43687aa71f0fd9b9d4dc129a8153efa0a741d7",
-      "text": "I see lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25d5c7e5ca6b6bfd57fc5df33df046efd96af6aab2554125a0a15202bfddd426",
+      "sha256": [
+        "25d5c7e5ca6b6bfd57fc5df33df046efd96af6aab2554125a0a15202bfddd426",
+        "b437f1e5021940f216bbc69bec43687aa71f0fd9b9d4dc129a8153efa0a741d7"
+      ],
       "text": "I see lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "4362f2c7c9f0f945372283ec9e2d3553c80a2d5d84fd540dd60fdce017f90486",
-      "text": "Haze is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87673632d423e4136d31a90b9c61ce038ed930554fb73fcb9f8fee02f24dd73e",
-      "text": "Haze is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c956691c21fa83dafa02b45c3eab9612bbc7ca2f6a7e2d74750490c14bcec14",
+      "sha256": [
+        "4362f2c7c9f0f945372283ec9e2d3553c80a2d5d84fd540dd60fdce017f90486",
+        "6c956691c21fa83dafa02b45c3eab9612bbc7ca2f6a7e2d74750490c14bcec14",
+        "87673632d423e4136d31a90b9c61ce038ed930554fb73fcb9f8fee02f24dd73e"
+      ],
       "text": "Haze is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

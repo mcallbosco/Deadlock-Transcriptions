@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_post_game_01.mp3",
   "revisions": [
     {
-      "sha256": "32680431279b6fa07642d2f8b83c25f1b187b10c53d7f3487a5def283f8506a3",
-      "text": "Glad we made it out in one piece.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b4cb65d12db37fb95a97a310ba247a85569c74ab04a477bf4bd8f38821cc22e7",
-      "text": "Glad we made it out in one piece.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "180fce5cac6f189ac0d94b41b65d9dc05d8e2eabc2651a43d87fca8b2aa2f345",
+      "sha256": [
+        "180fce5cac6f189ac0d94b41b65d9dc05d8e2eabc2651a43d87fca8b2aa2f345",
+        "32680431279b6fa07642d2f8b83c25f1b187b10c53d7f3487a5def283f8506a3",
+        "b4cb65d12db37fb95a97a310ba247a85569c74ab04a477bf4bd8f38821cc22e7"
+      ],
       "text": "Glad we made it out in one piece.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

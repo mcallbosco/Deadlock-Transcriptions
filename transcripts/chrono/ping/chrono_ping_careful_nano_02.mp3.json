@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_careful_nano_02.mp3",
   "revisions": [
     {
-      "sha256": "e7b38e5dd3547d578c22ec59f2de706b240bda17228deedb303c9c34f003d561",
-      "text": "Careful Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cde118a93bb5d4d717da91901ffe90a8f300149aca9e3c7ce93bf4cbdfbfdcf4",
+      "sha256": [
+        "cde118a93bb5d4d717da91901ffe90a8f300149aca9e3c7ce93bf4cbdfbfdcf4",
+        "e7b38e5dd3547d578c22ec59f2de706b240bda17228deedb303c9c34f003d561"
+      ],
       "text": "Careful, Calico",
       "source": "official"
     }

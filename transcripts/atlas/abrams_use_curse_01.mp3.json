@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_curse_01.mp3",
   "revisions": [
     {
-      "sha256": "d3616d01e21cef78e29fdc09f261172bbf608170cadfb22be3092a927f1800fc",
-      "text": "First!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8efc85f25b15375439060fa5b7dd1a0de8da0d623de345599de145f4ee07b802",
+      "sha256": [
+        "8efc85f25b15375439060fa5b7dd1a0de8da0d623de345599de145f4ee07b802",
+        "d3616d01e21cef78e29fdc09f261172bbf608170cadfb22be3092a927f1800fc"
+      ],
       "text": "First!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

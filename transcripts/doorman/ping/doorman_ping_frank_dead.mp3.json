@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_frank_dead.mp3",
   "revisions": [
     {
-      "sha256": "db14e7ac8c0f488546255893a91c458ad0134bf860d7f9b47e37a9e657a9ef93",
+      "sha256": [
+        "db14e7ac8c0f488546255893a91c458ad0134bf860d7f9b47e37a9e657a9ef93"
+      ],
       "text": "Victor is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

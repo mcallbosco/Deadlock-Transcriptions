@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_haze_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "2156d06414bef46f54746eae3dd33a13ef9be60d15485542611b47e71eb8f406",
+      "sha256": [
+        "2156d06414bef46f54746eae3dd33a13ef9be60d15485542611b47e71eb8f406"
+      ],
       "text": "Hades is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "135db83d15807cc7fdde00ac516d44b83e8ee85641f41809764919b6428da2ec",
+      "sha256": [
+        "135db83d15807cc7fdde00ac516d44b83e8ee85641f41809764919b6428da2ec"
+      ],
       "text": "Haze is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

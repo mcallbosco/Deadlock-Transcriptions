@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_be_careful_01.mp3",
   "revisions": [
     {
-      "sha256": "147ee360ca8f2ec82ed70718c0551a22d2cea1f55be0f3ceaf11d193fb85cc3e",
-      "text": "An ambush could be coming from anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac6aee91c214a6efa590e30ca533aff6ec92c5bfcb8844c7491cd2d64ff264c3",
-      "text": "An ambush could be coming from anywhere.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8a5f9a6296fbde7a0befa7a4d161392531905080adfa22b6333e08310f4984a",
+      "sha256": [
+        "147ee360ca8f2ec82ed70718c0551a22d2cea1f55be0f3ceaf11d193fb85cc3e",
+        "a8a5f9a6296fbde7a0befa7a4d161392531905080adfa22b6333e08310f4984a",
+        "ac6aee91c214a6efa590e30ca533aff6ec92c5bfcb8844c7491cd2d64ff264c3"
+      ],
       "text": "An ambush could be coming from anywhere.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

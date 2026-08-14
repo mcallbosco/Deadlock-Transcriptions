@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_see_calico.mp3",
   "revisions": [
     {
-      "sha256": "7222b97733dc7e37eebada703b0b41d198f985e87cca79e162916670a41b8aca",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f86e19ee3d11e52dc2e722c951309fb78b3bfa2283f8d7976abc8aa6908010c",
+      "sha256": [
+        "0f86e19ee3d11e52dc2e722c951309fb78b3bfa2283f8d7976abc8aa6908010c",
+        "7222b97733dc7e37eebada703b0b41d198f985e87cca79e162916670a41b8aca"
+      ],
       "text": "I see Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

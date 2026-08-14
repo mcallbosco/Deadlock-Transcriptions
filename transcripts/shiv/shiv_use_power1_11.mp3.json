@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_use_power1_11.mp3",
   "revisions": [
     {
-      "sha256": "41a391fc8f65d92b05f2e3d539cd103d5a13fb7933a24355f9a22316a88009c3",
+      "sha256": [
+        "41a391fc8f65d92b05f2e3d539cd103d5a13fb7933a24355f9a22316a88009c3",
+        "ddc13e3111bf7face4a0ff7de76ce9329a00d5b14584b22eed4ddffa1dc8b4cc"
+      ],
       "text": "Cold lakes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ddc13e3111bf7face4a0ff7de76ce9329a00d5b14584b22eed4ddffa1dc8b4cc",
-      "text": "Cold Lakes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "847fe846da1870ce1b52576511188e4d9bfc83e5b38f1782ac3ac26e16f54c91",
+      "sha256": [
+        "847fe846da1870ce1b52576511188e4d9bfc83e5b38f1782ac3ac26e16f54c91"
+      ],
       "text": "Throwin' blades.",
       "source": "official"
     }

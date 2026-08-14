@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_sandeep_02.mp3",
   "revisions": [
     {
-      "sha256": "fbb9771380dae2e67e786a40fcbd96d1f65862bac524d08b307d5c68ca0cea27",
-      "text": "Careful, Sandeep.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5b0db15a5f193389bacb3f9029190aa594a418775a4104a0e4bf88cd51d67f1",
+      "sha256": [
+        "d5b0db15a5f193389bacb3f9029190aa594a418775a4104a0e4bf88cd51d67f1",
+        "fbb9771380dae2e67e786a40fcbd96d1f65862bac524d08b307d5c68ca0cea27"
+      ],
       "text": "Careful, Sandeep.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

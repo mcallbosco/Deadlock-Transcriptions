@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_ally_krill_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "01ea8bfcdb5422d006778fea2a5bd6dd544a5bc333428002349f9182be8c3339",
+      "sha256": [
+        "01ea8bfcdb5422d006778fea2a5bd6dd544a5bc333428002349f9182be8c3339"
+      ],
       "text": "We don't got crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cc17a647c26632c63cad21e83f1264896a60d07161b37847fd0466766be85bc6",
-      "text": "They took out Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "b8d4e53ef70f29e2ed90bd12ce85dd843b342a3f04399d1fafc15c9c9bc36128",
+        "cc17a647c26632c63cad21e83f1264896a60d07161b37847fd0466766be85bc6"
+      ],
+      "text": "They took out Krill",
+      "source": "official"
     },
     {
-      "sha256": "277c5c5b2e4479dd3e3bcf49b5cbeb39d53d2472d83544b973fe3284eefa878d",
+      "sha256": [
+        "277c5c5b2e4479dd3e3bcf49b5cbeb39d53d2472d83544b973fe3284eefa878d"
+      ],
       "text": "I took out Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b8d4e53ef70f29e2ed90bd12ce85dd843b342a3f04399d1fafc15c9c9bc36128",
-      "text": "They took out Krill",
-      "source": "official"
     }
   ]
 }

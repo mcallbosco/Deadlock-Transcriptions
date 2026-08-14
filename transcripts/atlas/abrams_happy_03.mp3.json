@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_happy_03.mp3",
   "revisions": [
     {
-      "sha256": "09dfa0b866c8c12cd3dd392504c9c106c6759eaa1b5578c57189807a021c7d81",
-      "text": "Nothing is gonna stop us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61a37df2e48b56a158159d264208333057180f2dba1225082d940963fd28017c",
-      "text": "Nothing is gonna stop us!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "264bbe520166bd55c16dba17838aefcc6c91a750c3b260a73229b3be8a333534",
+      "sha256": [
+        "09dfa0b866c8c12cd3dd392504c9c106c6759eaa1b5578c57189807a021c7d81",
+        "264bbe520166bd55c16dba17838aefcc6c91a750c3b260a73229b3be8a333534",
+        "61a37df2e48b56a158159d264208333057180f2dba1225082d940963fd28017c"
+      ],
       "text": "Nothing is gonna stop us!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

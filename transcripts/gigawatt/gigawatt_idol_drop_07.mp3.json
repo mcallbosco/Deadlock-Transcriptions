@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_idol_drop_07.mp3",
   "revisions": [
     {
-      "sha256": "c37acb3c785fa2396ca8f1f63d8bf6f121944c8bbd74701e248162c52a513b45",
+      "sha256": [
+        "22288a07de4d9b508e5e5f30866ec228da341a9e54b11ca2d1baa894e3e38ad1",
+        "c37acb3c785fa2396ca8f1f63d8bf6f121944c8bbd74701e248162c52a513b45"
+      ],
       "text": "Final inbound!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22288a07de4d9b508e5e5f30866ec228da341a9e54b11ca2d1baa894e3e38ad1",
-      "text": "Final inbound.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

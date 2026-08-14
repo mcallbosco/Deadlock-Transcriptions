@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "0e5b6d834882532eae07b100ffa50b757c662009603f974c06f194f5ca7c8302",
+      "sha256": [
+        "0e5b6d834882532eae07b100ffa50b757c662009603f974c06f194f5ca7c8302"
+      ],
       "text": "This in green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3dd7ab3d758640109649fe4509deac522c57f610271f82fb79815b972664c56e",
+      "sha256": [
+        "3dd7ab3d758640109649fe4509deac522c57f610271f82fb79815b972664c56e"
+      ],
       "text": "Missing green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

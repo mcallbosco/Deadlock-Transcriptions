@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_hornet_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c52cc0850fde545116dffb0958418959dbd775cd5890d53920dd2d4dfcce54ae",
+      "sha256": [
+        "c20e094910793b2568e94ccc43ec09d7e51c8b9bd2fbf947340a532cdd52f8b2",
+        "c52cc0850fde545116dffb0958418959dbd775cd5890d53920dd2d4dfcce54ae"
+      ],
       "text": "Vindictive missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c20e094910793b2568e94ccc43ec09d7e51c8b9bd2fbf947340a532cdd52f8b2",
-      "text": "Vindictive missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76fe6b94853652693eb364c947e3d76d587989612f8e375a20ef50be6a95e072",
+      "sha256": [
+        "76fe6b94853652693eb364c947e3d76d587989612f8e375a20ef50be6a95e072"
+      ],
       "text": "vindicta's missing",
       "source": "official"
     }

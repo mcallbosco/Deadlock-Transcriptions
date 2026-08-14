@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_lets_go_purple.mp3",
   "revisions": [
     {
-      "sha256": "b5fd53249ff4c739f107a1140c60d4121cf01c00de97308a8aa8f45deb4d36bd",
-      "text": "Let's go purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72dd071f6fb8977c09921776f42b4ac6c5ef5669cbd6a0cfd65c77a0dc8b6253",
+      "sha256": [
+        "72dd071f6fb8977c09921776f42b4ac6c5ef5669cbd6a0cfd65c77a0dc8b6253",
+        "b5fd53249ff4c739f107a1140c60d4121cf01c00de97308a8aa8f45deb4d36bd"
+      ],
       "text": "Let's go purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

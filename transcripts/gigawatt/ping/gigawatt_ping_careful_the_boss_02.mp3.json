@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_the_boss_02.mp3",
   "revisions": [
     {
-      "sha256": "bc9ad5274e92062b8c578ec3b742b501ba0cc1c3a16e7dbfd69dded615acf62a",
-      "text": "Careful, boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "614c706a19fa7fb6e1b070f4a90b1883eb0705226f56aa1be7eeeb1799d0f755",
+      "sha256": [
+        "614c706a19fa7fb6e1b070f4a90b1883eb0705226f56aa1be7eeeb1799d0f755",
+        "bc9ad5274e92062b8c578ec3b742b501ba0cc1c3a16e7dbfd69dded615acf62a"
+      ],
       "text": "Careful, boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

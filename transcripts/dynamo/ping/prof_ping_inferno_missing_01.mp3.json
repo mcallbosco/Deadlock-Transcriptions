@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8ebec04d88c07948d78216345b28488a15d77c27ef7d0abd3142930ef65b88c5",
-      "text": "Infernus missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f926e04fabf17404925335248845b6b9389e88d6d77d7e38389190ce8b6c542",
+      "sha256": [
+        "5f926e04fabf17404925335248845b6b9389e88d6d77d7e38389190ce8b6c542",
+        "8ebec04d88c07948d78216345b28488a15d77c27ef7d0abd3142930ef65b88c5"
+      ],
       "text": "Infernus missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

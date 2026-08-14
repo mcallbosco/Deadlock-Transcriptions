@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_krill.mp3",
   "revisions": [
     {
-      "sha256": "07f7eecf539aaf44b416747b1ef61f61762c7da1c6c0c58f6bc6040a2a943a4c",
-      "text": "I see Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc0e2bb0c50ffb67c2b5a17fdebf40b044f8c32cbcbb4eff3d43a1be459a8510",
+      "sha256": [
+        "07f7eecf539aaf44b416747b1ef61f61762c7da1c6c0c58f6bc6040a2a943a4c",
+        "dc0e2bb0c50ffb67c2b5a17fdebf40b044f8c32cbcbb4eff3d43a1be459a8510"
+      ],
       "text": "I see Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_can_heal_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "208bb0fafc3b5bbaaf5985d07093f1f948097567e206086515c7a6d9cefda9a5",
-      "text": "Wrecker, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7af9149740ba517d20472a967cae8f75bdb72300adfc686411e6fb3fd1ed3130",
-      "text": "Wrecker, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec84c932ef85a0580dfba86d379ce0ae219d231b5dcd0603f0dcc74c98f94a37",
-      "text": "Wrecker, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "172e8c9ce297da821b24fca5c68460a1ce0fe8e3870eba47cbfb9cd69475f0dd",
+      "sha256": [
+        "172e8c9ce297da821b24fca5c68460a1ce0fe8e3870eba47cbfb9cd69475f0dd",
+        "208bb0fafc3b5bbaaf5985d07093f1f948097567e206086515c7a6d9cefda9a5",
+        "7af9149740ba517d20472a967cae8f75bdb72300adfc686411e6fb3fd1ed3130",
+        "ec84c932ef85a0580dfba86d379ce0ae219d231b5dcd0603f0dcc74c98f94a37"
+      ],
       "text": "Wrecker, I can heal you!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "83d7a0e8623d60cfc2d7ebd0350e6a612f4216c084999c927cf75b37ac30f95a",
+      "sha256": [
+        "83d7a0e8623d60cfc2d7ebd0350e6a612f4216c084999c927cf75b37ac30f95a"
+      ],
       "text": "Gordon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

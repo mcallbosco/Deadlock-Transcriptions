@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "00ed7dcdb21f5bb088986c9b3481d0bf2f3326da45fe6f751a2edc2e01ceffce",
+      "sha256": [
+        "00ed7dcdb21f5bb088986c9b3481d0bf2f3326da45fe6f751a2edc2e01ceffce",
+        "b57a73dd0fdb096bd74677952758c7ac38239ddbbe5dcccbe7bfd297661ffcbf"
+      ],
       "text": "Hazes on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1a9f4670cb40b3fa42b14fc6f3afa0378522c3dee015b715ec76d0f93cd9cf72",
+      "sha256": [
+        "1a9f4670cb40b3fa42b14fc6f3afa0378522c3dee015b715ec76d0f93cd9cf72"
+      ],
       "text": "Haze is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b57a73dd0fdb096bd74677952758c7ac38239ddbbe5dcccbe7bfd297661ffcbf",
-      "text": "Hazes on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

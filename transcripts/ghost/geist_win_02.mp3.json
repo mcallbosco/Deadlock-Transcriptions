@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_win_02.mp3",
   "revisions": [
     {
-      "sha256": "249cd5dc8250d2b298387b219be8efb6aedeaaebc36c00c7841b02a5b051ad9a",
-      "text": "My time has only just begun.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f8bd2868d3011ad52ce0fc3fa7c37aea50e794c3c5b448f815f6c08a8464a78",
+      "sha256": [
+        "249cd5dc8250d2b298387b219be8efb6aedeaaebc36c00c7841b02a5b051ad9a",
+        "6f8bd2868d3011ad52ce0fc3fa7c37aea50e794c3c5b448f815f6c08a8464a78"
+      ],
       "text": "My time has only just begun.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

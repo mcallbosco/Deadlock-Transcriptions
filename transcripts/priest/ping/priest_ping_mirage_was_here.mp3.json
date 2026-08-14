@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0c4a8c1e3bec323c96071f454feadeea4e2932243fd9d211cbb7f371046f9ca3",
+      "sha256": [
+        "0c4a8c1e3bec323c96071f454feadeea4e2932243fd9d211cbb7f371046f9ca3"
+      ],
       "text": "Mirage machine!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cf4fef095b2c3ce8f169e056c651354a1db1e4c7949befcd5297e387632a288f",
+      "sha256": [
+        "cf4fef095b2c3ce8f169e056c651354a1db1e4c7949befcd5297e387632a288f"
+      ],
       "text": "Mirage was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

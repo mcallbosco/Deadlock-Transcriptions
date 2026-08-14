@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_orion_dead.mp3",
   "revisions": [
     {
-      "sha256": "8461ab4b80d2a5b01e505d5cecadccf09987dda0e64da534b80d204769777687",
-      "text": "Grey Talon is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "588a96dce9ad53841a9202a5754f4c89c8e0e0e1b94520a4f05262f8afc3eee3",
-      "text": "Grey Talon is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8802a7bf2f216fc252c66fa252b1f4946fa927a0413c78447c4a621d0a25fb64",
+      "sha256": [
+        "588a96dce9ad53841a9202a5754f4c89c8e0e0e1b94520a4f05262f8afc3eee3",
+        "8461ab4b80d2a5b01e505d5cecadccf09987dda0e64da534b80d204769777687",
+        "8802a7bf2f216fc252c66fa252b1f4946fa927a0413c78447c4a621d0a25fb64"
+      ],
       "text": "Grey Talon is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

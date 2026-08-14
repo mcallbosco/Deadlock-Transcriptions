@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_calico.mp3",
   "revisions": [
     {
-      "sha256": "7b0f06beabb15b5b8e45913d4e0ffd17f5f276070ce61d0464be077e122f00d0",
-      "text": "I saw Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbd234fb0f69985099104d15d0446d35131fc3310bcbb225647e567c0b062156",
-      "text": "I saw Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "645ece12a2873fb94f9edc9ceddee4ae92c6c2458c86914f6c9df748cd49fd01",
+      "sha256": [
+        "645ece12a2873fb94f9edc9ceddee4ae92c6c2458c86914f6c9df748cd49fd01",
+        "7b0f06beabb15b5b8e45913d4e0ffd17f5f276070ce61d0464be077e122f00d0",
+        "bbd234fb0f69985099104d15d0446d35131fc3310bcbb225647e567c0b062156"
+      ],
       "text": "I saw Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "b2f4a6f18d45b32858eef92d71003bea8521c31240888e70a02e7097007a0a7e",
+      "sha256": [
+        "b2f4a6f18d45b32858eef92d71003bea8521c31240888e70a02e7097007a0a7e"
+      ],
       "text": "I see this dust.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "322a78bd09704345438cf6bbfb439a8c627bb40fa756083507d3886c5c680c7f",
-      "text": "I see Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "19185b2c70280acd113f91caa32e4cb108442da5c3b62cd6191e60c2154c8142",
+      "sha256": [
+        "19185b2c70280acd113f91caa32e4cb108442da5c3b62cd6191e60c2154c8142",
+        "322a78bd09704345438cf6bbfb439a8c627bb40fa756083507d3886c5c680c7f"
+      ],
       "text": "I see Viscous",
       "source": "official"
     }

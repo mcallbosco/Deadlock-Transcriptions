@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_lash_03.mp3",
   "revisions": [
     {
-      "sha256": "2cb3b919dece348a46209cd8bf44d509657112100220fd464db6c506ddf29ae4",
+      "sha256": [
+        "2cb3b919dece348a46209cd8bf44d509657112100220fd464db6c506ddf29ae4",
+        "6cc74dbc909d37db69ed2cb22c124088bfaf8c97b798cc04b902cb5b892aeacf"
+      ],
       "text": "You can't outrun hubris, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6cc74dbc909d37db69ed2cb22c124088bfaf8c97b798cc04b902cb5b892aeacf",
-      "text": "You can't outrun hubris, Lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5e4af5155efd2fe9291d0dea07e9c9b87ab6d11e4a3de92543af13410f342d1",
+      "sha256": [
+        "a5e4af5155efd2fe9291d0dea07e9c9b87ab6d11e4a3de92543af13410f342d1"
+      ],
       "text": "Your hubris got you killed, Lash.",
       "source": "official"
     }

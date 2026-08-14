@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_kali_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5c9437afec7f101fb670f9c979c570a1970a8f4262b86089280f3c64b3a0be35",
-      "text": "Tali is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d72968e1a23d105b0a5b682fce8a9f1ed29707e65a9d69d646c0912346d74b3f",
-      "text": "Tali is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b11f54c32ab85f5167326760e309599a43c86eb146b63868e30d2d61b49adb99",
+      "sha256": [
+        "5c9437afec7f101fb670f9c979c570a1970a8f4262b86089280f3c64b3a0be35",
+        "b11f54c32ab85f5167326760e309599a43c86eb146b63868e30d2d61b49adb99",
+        "d72968e1a23d105b0a5b682fce8a9f1ed29707e65a9d69d646c0912346d74b3f"
+      ],
       "text": "Tali is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

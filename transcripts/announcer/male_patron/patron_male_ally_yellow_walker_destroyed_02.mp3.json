@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_yellow_walker_destroyed_02.mp3",
   "revisions": [
     {
-      "sha256": "fb6e763341d327828ba72d6ef73fd4d5f8f6cf70d406f017e480a2525dd1e943",
+      "sha256": [
+        "fb6e763341d327828ba72d6ef73fd4d5f8f6cf70d406f017e480a2525dd1e943"
+      ],
       "text": "Our yellow walker has been defeated.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "abb2a4fc1d6a6294ddb4df6628a1723a312a464f8fd8261ef4266e8cd8328033",
+      "sha256": [
+        "abb2a4fc1d6a6294ddb4df6628a1723a312a464f8fd8261ef4266e8cd8328033"
+      ],
       "text": "They destroyed the Walker on yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d714ec92ec6b6bd3ae4b3d2ac02c59e938e2e876b82a27d6f7304ba3eda723d9",
-      "text": "They destroyed our yellow walker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99ad93f4b7a0adb5be13552bd7d7be00cc26c21df4c4a3a884eb82a71212830a",
+      "sha256": [
+        "99ad93f4b7a0adb5be13552bd7d7be00cc26c21df4c4a3a884eb82a71212830a",
+        "d714ec92ec6b6bd3ae4b3d2ac02c59e938e2e876b82a27d6f7304ba3eda723d9"
+      ],
       "text": "They destroyed our Yellow walker",
       "source": "official"
     }

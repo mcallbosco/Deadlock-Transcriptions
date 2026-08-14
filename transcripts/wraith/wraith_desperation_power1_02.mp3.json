@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_desperation_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "e96faa9589cec4b90b2f91c67ed43490f6b6cb3e03c0bfba8c1e0f66b78d6eb7",
-      "text": "I need these to land.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4046d37ee2314d8636f3229b819fe671dc5e360c26c34e592a4127493ca4fcd0",
-      "text": "I need this to land.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78ff27de632c6db3abc699f51f08df6c148694857f5e5b42df676a7f6adc7ca2",
-      "text": "I need this to land.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae55641f4b1ac34a95b3daacc4424c001526cbec6b1e14290d5d1810e6eeaaca",
+      "sha256": [
+        "ae55641f4b1ac34a95b3daacc4424c001526cbec6b1e14290d5d1810e6eeaaca",
+        "e96faa9589cec4b90b2f91c67ed43490f6b6cb3e03c0bfba8c1e0f66b78d6eb7"
+      ],
       "text": "I need these to land…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "4046d37ee2314d8636f3229b819fe671dc5e360c26c34e592a4127493ca4fcd0",
+        "78ff27de632c6db3abc699f51f08df6c148694857f5e5b42df676a7f6adc7ca2"
+      ],
+      "text": "I need this to land.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "1d34ff0dc611b66020fb4ca52560cf9ef08214a550f249ded0002c264e0edf93",
-      "text": "I'm with you, Calico!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdb5f1733f429d3074009e043b6041f37fafffa567beaa60dc61a3ae07cfb7eb",
+      "sha256": [
+        "1d34ff0dc611b66020fb4ca52560cf9ef08214a550f249ded0002c264e0edf93",
+        "cdb5f1733f429d3074009e043b6041f37fafffa567beaa60dc61a3ae07cfb7eb"
+      ],
       "text": "I'm with you, Calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

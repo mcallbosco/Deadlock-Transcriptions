@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_forge_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "17e00a0505cea02f37725eac16caa4c3f3d01f93e23392d3196a8b846ff828ab",
+      "sha256": [
+        "17e00a0505cea02f37725eac16caa4c3f3d01f93e23392d3196a8b846ff828ab",
+        "47762f8cac484b8a6e693b1701610d6d32ca24199dcd93f1109d6049ff402bf0",
+        "81e607f4eed812e8e135b6b7caff392b379b4666e9dfa0df8968fad526527144"
+      ],
       "text": "McGinnis is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "81e607f4eed812e8e135b6b7caff392b379b4666e9dfa0df8968fad526527144",
-      "text": "McGinnis is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "47762f8cac484b8a6e693b1701610d6d32ca24199dcd93f1109d6049ff402bf0",
-      "text": "McGinnis is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4eb0fa7bd472532287a994c7f903a5ead67d664f686337f1e9cad8a7263829bc",
+      "sha256": [
+        "4eb0fa7bd472532287a994c7f903a5ead67d664f686337f1e9cad8a7263829bc"
+      ],
       "text": "McGinnis's on top of the garage!",
       "source": "official"
     }

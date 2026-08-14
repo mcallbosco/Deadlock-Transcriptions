@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/guide_melee_alt.mp3",
   "revisions": [
     {
-      "sha256": "19fc86bd48328781602e0048bec71a5e1d2d46add2c2d85be89fe16fb75d6bf7",
+      "sha256": [
+        "19fc86bd48328781602e0048bec71a5e1d2d46add2c2d85be89fe16fb75d6bf7"
+      ],
       "text": "Press Q to make a quick attack. Hold Q to deliver a powerful charging attack.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

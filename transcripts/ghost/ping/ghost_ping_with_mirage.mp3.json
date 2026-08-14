@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "9502a84fae3d3dc6e7dd64334e895608536aadb252c89efd9ab741d8cb090853",
+      "sha256": [
+        "9502a84fae3d3dc6e7dd64334e895608536aadb252c89efd9ab741d8cb090853"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

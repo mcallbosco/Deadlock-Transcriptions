@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_push_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "a9a7d8dbc305354ff36a507b9d199a46cb68ecbfb362c1297bdd1aa38bd3d1b8",
-      "text": "Let's push blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "823ff48f9f15e98c04049640558e5e482fc6c8c117c4148ff791386842f969dd",
-      "text": "Let's push blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45a784b092fa00aba701b4330c6c6883ce0317a9dbdcc1b929abd142eee3198c",
+      "sha256": [
+        "45a784b092fa00aba701b4330c6c6883ce0317a9dbdcc1b929abd142eee3198c",
+        "823ff48f9f15e98c04049640558e5e482fc6c8c117c4148ff791386842f969dd",
+        "a9a7d8dbc305354ff36a507b9d199a46cb68ecbfb362c1297bdd1aa38bd3d1b8"
+      ],
       "text": "Let's push Blue",
       "source": "official"
     }

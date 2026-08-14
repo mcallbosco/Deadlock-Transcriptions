@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "e42c2de72b3945ef0cd2aab308471216fe211966ec5bb32c801c34723d23b346",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b9efb6c726da6a9060156ab1bc4eb44b36ba5f549aa3cba50ff67ff94d63c99",
+      "sha256": [
+        "6b9efb6c726da6a9060156ab1bc4eb44b36ba5f549aa3cba50ff67ff94d63c99",
+        "e42c2de72b3945ef0cd2aab308471216fe211966ec5bb32c801c34723d23b346"
+      ],
       "text": "I see Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

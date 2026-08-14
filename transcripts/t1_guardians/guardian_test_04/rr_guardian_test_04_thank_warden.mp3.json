@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_thank_warden.mp3",
   "revisions": [
     {
-      "sha256": "8b34548eb7ab1094ea54efd8eaecc2456d547e5e92ae6ae453598cc60d2ec479",
-      "text": "Thanks, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6291f5f8679ce08ee6ac829936d672395c46216db870bbf43abe84245f6bfbfa",
-      "text": "Thanks, Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a27b3c0eee87e0bbb87787cf3373a694b4f354898cfd9bc17038797bd76130cd",
+      "sha256": [
+        "6291f5f8679ce08ee6ac829936d672395c46216db870bbf43abe84245f6bfbfa",
+        "8b34548eb7ab1094ea54efd8eaecc2456d547e5e92ae6ae453598cc60d2ec479",
+        "a27b3c0eee87e0bbb87787cf3373a694b4f354898cfd9bc17038797bd76130cd"
+      ],
       "text": "Thanks, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

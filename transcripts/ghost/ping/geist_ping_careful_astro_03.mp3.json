@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_astro_03.mp3",
   "revisions": [
     {
-      "sha256": "1f48f9f39198399b3c19a839fc8a754d61f1aa61d443383f3b85037f7b556543",
+      "sha256": [
+        "1f48f9f39198399b3c19a839fc8a754d61f1aa61d443383f3b85037f7b556543",
+        "4c1f00604b520b2bf4059ae3a80b43e1508c980a664bc2965bb6420ba2b063b6"
+      ],
       "text": "Careful, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c1f00604b520b2bf4059ae3a80b43e1508c980a664bc2965bb6420ba2b063b6",
-      "text": "Careful, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

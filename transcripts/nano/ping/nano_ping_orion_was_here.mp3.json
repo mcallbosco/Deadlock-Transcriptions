@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_orion_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6e67ed41dccca997aee1fdaefe877e2f3259bf14b509dcc473a516914e1ec794",
+      "sha256": [
+        "6e67ed41dccca997aee1fdaefe877e2f3259bf14b509dcc473a516914e1ec794"
+      ],
       "text": "Grey Talon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

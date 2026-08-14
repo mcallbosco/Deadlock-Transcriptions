@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "ccec2d0e8e148c4d14f27a85e3b0bdde6d4481516e0247723d40ba4a93cf0d68",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3303baaa8465bfc23b00afe34c68d1cabdcdb596d7293b30c57cfbdf5d1310f9",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a37ce0dfed6d9aada84a1b7814d44f18e280f3f63e378e8d771e53ea0a490e1d",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f157194e744fd99ff01edaefbe7da21f0fe42cbe88e8278ce7385183d3aec3cd",
+      "sha256": [
+        "3303baaa8465bfc23b00afe34c68d1cabdcdb596d7293b30c57cfbdf5d1310f9",
+        "a37ce0dfed6d9aada84a1b7814d44f18e280f3f63e378e8d771e53ea0a490e1d",
+        "ccec2d0e8e148c4d14f27a85e3b0bdde6d4481516e0247723d40ba4a93cf0d68",
+        "f157194e744fd99ff01edaefbe7da21f0fe42cbe88e8278ce7385183d3aec3cd"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

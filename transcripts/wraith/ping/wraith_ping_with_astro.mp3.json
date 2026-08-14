@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "d236d09b0f08c6178380a8b2bbcc8f363b0fcaaaa76b5d20de61b74dc98c24c7",
-      "text": "I'm with you, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b94f696ce365839aa46cb72926b5b82ce1a8b04a2e55628e12af84133ef48480",
+      "sha256": [
+        "b94f696ce365839aa46cb72926b5b82ce1a8b04a2e55628e12af84133ef48480",
+        "d236d09b0f08c6178380a8b2bbcc8f363b0fcaaaa76b5d20de61b74dc98c24c7"
+      ],
       "text": "I'm with you, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

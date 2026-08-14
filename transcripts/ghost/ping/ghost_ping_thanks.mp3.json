@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "895c4e1a91103ae6ba8ce8e248c65cac7ccaff3587fd8ba0df8b98ef1c689718",
+      "sha256": [
+        "895c4e1a91103ae6ba8ce8e248c65cac7ccaff3587fd8ba0df8b98ef1c689718"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

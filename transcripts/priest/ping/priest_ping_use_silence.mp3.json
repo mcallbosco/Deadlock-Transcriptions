@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_use_silence.mp3",
   "revisions": [
     {
-      "sha256": "77db067225745fb154352e5b11c8763fffe355f72967ce210f7d254df7f35861",
+      "sha256": [
+        "77db067225745fb154352e5b11c8763fffe355f72967ce210f7d254df7f35861"
+      ],
       "text": "Ready to silence Cliff.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5ccca4abdf1a2cb29b48063546323b34daf5688f3404e91f208e4f24def807e2",
+      "sha256": [
+        "5ccca4abdf1a2cb29b48063546323b34daf5688f3404e91f208e4f24def807e2"
+      ],
       "text": "Ready to use Silence Glyph.",
       "source": "official"
     }

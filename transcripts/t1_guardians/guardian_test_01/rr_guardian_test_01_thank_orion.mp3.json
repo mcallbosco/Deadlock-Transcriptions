@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_thank_orion.mp3",
   "revisions": [
     {
-      "sha256": "d53e5e979617c06fc556840cf62cd06eda41cb266b3fbec6da7cf964076ab0a0",
-      "text": "Thanks, Orion!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1490ce5382f7ef8926519b9f9fac7d044a86943286e3f2111caade3f409ffde",
-      "text": "Thanks, Orion!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66f6975fb18d370781ccbd02570a4132191e327cbbfd18c07b7be8f5320fe9f8",
+      "sha256": [
+        "66f6975fb18d370781ccbd02570a4132191e327cbbfd18c07b7be8f5320fe9f8",
+        "a1490ce5382f7ef8926519b9f9fac7d044a86943286e3f2111caade3f409ffde",
+        "d53e5e979617c06fc556840cf62cd06eda41cb266b3fbec6da7cf964076ab0a0"
+      ],
       "text": "Thanks, Orion!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_defend_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "14def7b467574135ed21cafb424ebde0b1844f2e5479859cda6ef70d35e4f849",
+      "sha256": [
+        "14def7b467574135ed21cafb424ebde0b1844f2e5479859cda6ef70d35e4f849",
+        "bd6f836fc8311a1757be33b4efb91471947d97a76f993e0a6785435c400850b4"
+      ],
       "text": "Defend purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd6f836fc8311a1757be33b4efb91471947d97a76f993e0a6785435c400850b4",
-      "text": "Defend purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

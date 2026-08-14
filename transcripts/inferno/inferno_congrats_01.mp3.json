@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "f7e55d2c89d4cdf57e1507e4f969ebee9781d0e4e4503b9b27d933b50e1b527c",
-      "text": "Nice job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9aad823570976fa1234dd2534b317385d85a68b3f4906d4e15173ba4d6117c0d",
-      "text": "Nice job.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ffb16435716d034f7ef7a426312df1b8e8162ac939c6ebd79293b4f9b4fad35",
-      "text": "Nice job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1381845cedee1da6d6a552fe04d67e7bd43da9b92ce8574f6fe12cf0ab401c3",
+      "sha256": [
+        "7ffb16435716d034f7ef7a426312df1b8e8162ac939c6ebd79293b4f9b4fad35",
+        "9aad823570976fa1234dd2534b317385d85a68b3f4906d4e15173ba4d6117c0d",
+        "d1381845cedee1da6d6a552fe04d67e7bd43da9b92ce8574f6fe12cf0ab401c3",
+        "f7e55d2c89d4cdf57e1507e4f969ebee9781d0e4e4503b9b27d933b50e1b527c"
+      ],
       "text": "Nice job!",
       "source": "official"
     }

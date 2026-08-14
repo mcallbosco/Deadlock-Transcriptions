@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_ally_haze_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "643c40b831c8a007f178d5f8b2f5df92632192f1289378a2fce23ba469de7295",
+      "sha256": [
+        "643c40b831c8a007f178d5f8b2f5df92632192f1289378a2fce23ba469de7295"
+      ],
       "text": "They took out his.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d9ce8e46962ed4d76d3f73d8de0b02f3b8e0985956d2a46e572e06f1a25608c2",
+      "sha256": [
+        "d9ce8e46962ed4d76d3f73d8de0b02f3b8e0985956d2a46e572e06f1a25608c2"
+      ],
       "text": "They took out Haze!",
       "source": "official"
     }

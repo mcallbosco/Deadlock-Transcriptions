@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_punkgoat_01.mp3",
   "revisions": [
     {
-      "sha256": "a7e91e52e0b3d9d31ec3a1dff74126a8f657a8be84bda64e1b4848b6cac9c8fa",
+      "sha256": [
+        "a7e91e52e0b3d9d31ec3a1dff74126a8f657a8be84bda64e1b4848b6cac9c8fa"
+      ],
       "text": "I see the goat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "83604587aed1c61e1ed2ae4cd99bf85bb7325b2cc6424779dd006c6f5f38acb5",
+      "sha256": [
+        "83604587aed1c61e1ed2ae4cd99bf85bb7325b2cc6424779dd006c6f5f38acb5"
+      ],
       "text": "I see Billy",
       "source": "official"
     }

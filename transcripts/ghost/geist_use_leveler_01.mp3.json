@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_use_leveler_01.mp3",
   "revisions": [
     {
-      "sha256": "5d0cb61c70825fd25077a0c57657413224e36b81d81f184b571094a0aad03fe5",
+      "sha256": [
+        "5d0cb61c70825fd25077a0c57657413224e36b81d81f184b571094a0aad03fe5",
+        "666b966ec30175480916e89bf3dd765dd7f687d004c5599035c95d3c8ac7743c"
+      ],
       "text": "Groove!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "666b966ec30175480916e89bf3dd765dd7f687d004c5599035c95d3c8ac7743c",
-      "text": "Groove.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

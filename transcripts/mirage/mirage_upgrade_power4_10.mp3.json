@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "779a28cadcde2a197a37014c1c9a5be714a0dec8c8790d9146407ff6c89cd9fc",
+      "sha256": [
+        "779a28cadcde2a197a37014c1c9a5be714a0dec8c8790d9146407ff6c89cd9fc"
+      ],
       "text": "Oh, it's the week.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "00ac0956bca5d9148518d381b47764b88f5a17be9fd35ecd4665a619acb51447",
+      "sha256": [
+        "00ac0956bca5d9148518d381b47764b88f5a17be9fd35ecd4665a619acb51447",
+        "768308936b31aa92ffa4c12cad9915a9e26212a9a5d37ff4b477842fe3762fba"
+      ],
       "text": "Their allies will become their liability.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "768308936b31aa92ffa4c12cad9915a9e26212a9a5d37ff4b477842fe3762fba",
-      "text": "Their allies will become their liability.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9804625f4037b1ee1e2bf93e42bceb398d7aae88328a0d50ebeb4172b146bf53",
+      "sha256": [
+        "9804625f4037b1ee1e2bf93e42bceb398d7aae88328a0d50ebeb4172b146bf53"
+      ],
       "text": "No one will be denied my aid.",
       "source": "official"
     }

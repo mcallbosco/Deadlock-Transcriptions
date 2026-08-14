@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_wrecker_02.mp3",
   "revisions": [
     {
-      "sha256": "f782835a7e0ad59bacba77fc71231e11e44ea5d22060b0c4ee96e2bbf041e3db",
-      "text": "Careful, Wrecker!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "980657ffbd7b9ab72c9c71df824cdbf0d7c064596c0a8e0f47931a3675d97db0",
+      "sha256": [
+        "980657ffbd7b9ab72c9c71df824cdbf0d7c064596c0a8e0f47931a3675d97db0",
+        "f782835a7e0ad59bacba77fc71231e11e44ea5d22060b0c4ee96e2bbf041e3db"
+      ],
       "text": "Careful, Wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

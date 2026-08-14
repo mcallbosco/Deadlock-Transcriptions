@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_bebop_01.mp3",
   "revisions": [
     {
-      "sha256": "cc0386889c02f5043705bb87b2485b11359c17e348c1b395f748e958c21e7c36",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1ae68b00ae60a642aa89e291faada25fa8c3d267d28c27b7ce72b696d6f674d",
+      "sha256": [
+        "cc0386889c02f5043705bb87b2485b11359c17e348c1b395f748e958c21e7c36",
+        "d1ae68b00ae60a642aa89e291faada25fa8c3d267d28c27b7ce72b696d6f674d"
+      ],
       "text": "Careful, Bebop…",
       "source": "official"
     }

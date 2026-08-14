@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_kill_lash_05.mp3",
   "revisions": [
     {
-      "sha256": "32f27c91cef0c614ed7c0a676036c87ca34b6464b49e88ba2e57e155ac4f9388",
+      "sha256": [
+        "32f27c91cef0c614ed7c0a676036c87ca34b6464b49e88ba2e57e155ac4f9388",
+        "dff41ac45a013a3f91b8106704b158ed15cea66c359f82b598172ad87ad273a1"
+      ],
       "text": "Keep running your mouth, Lash. It's only gonna get worse for you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dff41ac45a013a3f91b8106704b158ed15cea66c359f82b598172ad87ad273a1",
-      "text": "Keep running your mouth, Lash. It's only gonna get worse for you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0520935cd1d85b3538a6b15dbc911332b63273dcd7f63a0d1168d2be853e9960",
+      "sha256": [
+        "0520935cd1d85b3538a6b15dbc911332b63273dcd7f63a0d1168d2be853e9960"
+      ],
       "text": "Keep running your mouth Lash, it's only going to get worse for you",
       "source": "official"
     }

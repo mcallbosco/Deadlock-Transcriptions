@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "4857fec01509b7cedab905a0af9e50a1d4b79008a2685b3d2d78393efe926753",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5da806537cca9feebf2453df94939d1ae2c35d6723ff518d5cdfccbce7b30c09",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "439010dc7ffa7fc82ec875104756042891043801992403d796a1d78ae4ae087e",
+      "sha256": [
+        "439010dc7ffa7fc82ec875104756042891043801992403d796a1d78ae4ae087e",
+        "4857fec01509b7cedab905a0af9e50a1d4b79008a2685b3d2d78393efe926753",
+        "5da806537cca9feebf2453df94939d1ae2c35d6723ff518d5cdfccbce7b30c09"
+      ],
       "text": "Thank you.",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_careful_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "6bcfd6201e0c1b07bfe3cdf195cde998a4fbacc7d0777ca3aee84a8574c464af",
+      "sha256": [
+        "08c790c308fc3506d709273ab229a45ec7a2dbc930d3ab30a6c7e3948832a927",
+        "6bcfd6201e0c1b07bfe3cdf195cde998a4fbacc7d0777ca3aee84a8574c464af"
+      ],
       "text": "Careful, crew.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08c790c308fc3506d709273ab229a45ec7a2dbc930d3ab30a6c7e3948832a927",
-      "text": "careful, crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "ec7c8ba425562c79a78ef18eafd3a8a10bf0bfa348a5d345ebb9c627d673f92e",
-      "text": "Careful, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cee5f65939a9dc16d8fcb31a84d0221f8d384b92fbbe1701b01fabdd341561b9",
+      "sha256": [
+        "cee5f65939a9dc16d8fcb31a84d0221f8d384b92fbbe1701b01fabdd341561b9",
+        "ec7c8ba425562c79a78ef18eafd3a8a10bf0bfa348a5d345ebb9c627d673f92e"
+      ],
       "text": "Careful, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "aaa7d5b7a245b1b8313816907cbabc252f1a3d3e5e875bf56489e79ec2cec29c",
+      "sha256": [
+        "aaa7d5b7a245b1b8313816907cbabc252f1a3d3e5e875bf56489e79ec2cec29c"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

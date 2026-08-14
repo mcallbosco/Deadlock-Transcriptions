@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a7d11b2d441c059e5d0f5d9ae77eba5ca7ea9dc92b92bd963d8afbd38380ecc6",
+      "sha256": [
+        "a7d11b2d441c059e5d0f5d9ae77eba5ca7ea9dc92b92bd963d8afbd38380ecc6"
+      ],
       "text": "The doorman was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

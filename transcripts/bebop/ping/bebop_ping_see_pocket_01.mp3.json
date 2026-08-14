@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_pocket_01.mp3",
   "revisions": [
     {
-      "sha256": "193a13bcdae2263b5deb7108895aa45293fd20252afe0f08de30765d745bd5ff",
+      "sha256": [
+        "193a13bcdae2263b5deb7108895aa45293fd20252afe0f08de30765d745bd5ff"
+      ],
       "text": "I see Pocket!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

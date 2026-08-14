@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_saw_nano.mp3",
   "revisions": [
     {
-      "sha256": "4098f686f660a492230e952d256ede22bfa7bed10cd4212cb607dd3417fea4db",
+      "sha256": [
+        "4098f686f660a492230e952d256ede22bfa7bed10cd4212cb607dd3417fea4db"
+      ],
       "text": "I saw a calico!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4dbb0033ed4bebb94006a2bd612970a3218d6ee64c1a74ed8d8e2b0ddc23b433",
+      "sha256": [
+        "4dbb0033ed4bebb94006a2bd612970a3218d6ee64c1a74ed8d8e2b0ddc23b433"
+      ],
       "text": "I suck calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

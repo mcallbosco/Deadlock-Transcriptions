@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "133eb15acd6b5fe547cd27fa33720f942baf0babb1221bcf03143d0ab1f4effd",
-      "text": "Mirage was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4708a1ec269d7be50f510496e5bee5300fbdb23a354015e89dc15a857a8f7cd",
+      "sha256": [
+        "133eb15acd6b5fe547cd27fa33720f942baf0babb1221bcf03143d0ab1f4effd",
+        "a4708a1ec269d7be50f510496e5bee5300fbdb23a354015e89dc15a857a8f7cd"
+      ],
       "text": "Mirage was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

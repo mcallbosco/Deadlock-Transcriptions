@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_the_boss.mp3",
   "revisions": [
     {
-      "sha256": "fe2e5dbb85173419e0d29fa99fc2a4586be8a73e17e720afef51c8622474d55a",
-      "text": "I'm with the boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24b688a6e7e08878d33c27280a850c03a48edbd0e3891aca31904c12fc4accbd",
+      "sha256": [
+        "24b688a6e7e08878d33c27280a850c03a48edbd0e3891aca31904c12fc4accbd",
+        "fe2e5dbb85173419e0d29fa99fc2a4586be8a73e17e720afef51c8622474d55a"
+      ],
       "text": "I'm with the boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

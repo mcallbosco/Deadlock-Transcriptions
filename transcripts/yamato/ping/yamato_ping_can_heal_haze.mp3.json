@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_haze.mp3",
   "revisions": [
     {
-      "sha256": "33e45ae906488e5eb7222e9ad027a7fee5ca6824824aee5ffcc0626ef0c6c7a3",
+      "sha256": [
+        "33e45ae906488e5eb7222e9ad027a7fee5ca6824824aee5ffcc0626ef0c6c7a3"
+      ],
       "text": "Haze, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fce84205843434df7a5f0bc64c055859f9ce38b5e22b14306895540cf1ff59d4",
+      "sha256": [
+        "fce84205843434df7a5f0bc64c055859f9ce38b5e22b14306895540cf1ff59d4"
+      ],
       "text": "Hey, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e618754c2feaacc4e830be788140d3a84a584ec059305153b3e5f1e8c0090055",
+      "sha256": [
+        "e618754c2feaacc4e830be788140d3a84a584ec059305153b3e5f1e8c0090055"
+      ],
       "text": "Haze, I can heal you!",
       "source": "official"
     }

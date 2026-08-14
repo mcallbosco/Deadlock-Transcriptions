@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_select_07.mp3",
   "revisions": [
     {
-      "sha256": "860d5eb4cd17b0c055f0589554e115ebcd8fbe67ef0f7a79fcdcb10d3aeef258",
-      "text": "Hello, darlings.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8092bc857392dc16fe5932c681e689fd92988901e398cb218caaded7b6fcd3a0",
+      "sha256": [
+        "8092bc857392dc16fe5932c681e689fd92988901e398cb218caaded7b6fcd3a0",
+        "860d5eb4cd17b0c055f0589554e115ebcd8fbe67ef0f7a79fcdcb10d3aeef258"
+      ],
       "text": "Hello, darlings.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

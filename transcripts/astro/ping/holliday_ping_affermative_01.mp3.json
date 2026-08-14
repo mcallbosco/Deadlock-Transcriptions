@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "1a906d6516d6ff3539cdfcd7835cd554064fb94b421abfc5f837bad43f569550",
+      "sha256": [
+        "1a906d6516d6ff3539cdfcd7835cd554064fb94b421abfc5f837bad43f569550"
+      ],
       "text": "Yeah!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_frank_was_here.mp3",
   "revisions": [
     {
-      "sha256": "803f5d91d3cef3c5ec15e961f0af2f0ab6f6dd111bfe00e4c75b2fb25d4561a9",
+      "sha256": [
+        "803f5d91d3cef3c5ec15e961f0af2f0ab6f6dd111bfe00e4c75b2fb25d4561a9"
+      ],
       "text": "Victor was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

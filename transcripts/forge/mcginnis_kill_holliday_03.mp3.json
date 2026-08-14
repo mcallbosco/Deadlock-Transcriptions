@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_kill_holliday_03.mp3",
   "revisions": [
     {
-      "sha256": "35aa1de740c5a9dd90fb279f5cdc1303fda8dc0bde81d1ee6ed20eeece85ed7c",
-      "text": "Another person, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1208ab72474000a72758c0c83c6df2aaea09fc2086181c045bf2b5519c998b0f",
+      "sha256": [
+        "1208ab72474000a72758c0c83c6df2aaea09fc2086181c045bf2b5519c998b0f",
+        "35aa1de740c5a9dd90fb279f5cdc1303fda8dc0bde81d1ee6ed20eeece85ed7c"
+      ],
       "text": "Another person, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

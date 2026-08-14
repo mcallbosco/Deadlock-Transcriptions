@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_atlas_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "4f032ba3d876e8be405c2980b4e8d2377d474b1fad2fed00b8e2bc557a17c278",
+      "sha256": [
+        "4f032ba3d876e8be405c2980b4e8d2377d474b1fad2fed00b8e2bc557a17c278"
+      ],
       "text": "Abrams is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2b7f1cd94a1a4cbb3ea04daa4520704d3d1a956e4a40327d011bed0f99850117",
+      "sha256": [
+        "2b7f1cd94a1a4cbb3ea04daa4520704d3d1a956e4a40327d011bed0f99850117"
+      ],
       "text": "Averis is on to the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ead3b460b3ec216f9d1f8a185363b68a65744297e0a365698cdfbb03ba777d12",
+      "sha256": [
+        "ead3b460b3ec216f9d1f8a185363b68a65744297e0a365698cdfbb03ba777d12"
+      ],
       "text": "Abrams's under the garage!",
       "source": "official"
     }

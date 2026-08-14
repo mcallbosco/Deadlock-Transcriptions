@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "ed7494ac1cf643f4403079d325f984fd4bcb5931662495ffae4b40b9f0b9e5bd",
-      "text": "There's a fine line between devotion and obsession, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "543c91b0dd5664e1cf5c6f80afb94a1fdc1e70d4ce07d4e2ea90e6192020743c",
+      "sha256": [
+        "543c91b0dd5664e1cf5c6f80afb94a1fdc1e70d4ce07d4e2ea90e6192020743c",
+        "ed7494ac1cf643f4403079d325f984fd4bcb5931662495ffae4b40b9f0b9e5bd"
+      ],
       "text": "There's a fine line between devotion and obsession, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

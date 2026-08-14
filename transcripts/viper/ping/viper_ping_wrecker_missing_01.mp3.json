@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b807d094725830beadfc172fe85ae40b87cc63fb227bffadad633b2f12a9baea",
+      "sha256": [
+        "b807d094725830beadfc172fe85ae40b87cc63fb227bffadad633b2f12a9baea"
+      ],
       "text": "Records missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ff9f49accd754b818b37304a90917401757029029b2a308f8658e9d975ca165",
+      "sha256": [
+        "4ff9f49accd754b818b37304a90917401757029029b2a308f8658e9d975ca165"
+      ],
       "text": "Crack is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "82cc4f4bbd5cb47636087c82232d654f5795aef78a303722cd35918117e15aa7",
+      "sha256": [
+        "82cc4f4bbd5cb47636087c82232d654f5795aef78a303722cd35918117e15aa7"
+      ],
       "text": "Wrecker's missing",
       "source": "official"
     }

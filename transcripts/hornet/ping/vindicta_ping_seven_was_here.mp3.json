@@ -1,27 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_seven_was_here.mp3",
   "revisions": [
     {
-      "sha256": "502abbac8ec75a63bcdac20d3b4ad500731040b55cbee9a2c52be0233ab09fbf",
+      "sha256": [
+        "502abbac8ec75a63bcdac20d3b4ad500731040b55cbee9a2c52be0233ab09fbf"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "df2656c56fd52092007161cbcde1c38b1339185553e513f33ec20646b7296738",
+      "sha256": [
+        "df2656c56fd52092007161cbcde1c38b1339185553e513f33ec20646b7296738"
+      ],
       "text": "Seven was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "150e777a0f1eaef2fa46d1a64af45bb9e53991f261719e808e7475e0827daeac",
+      "sha256": [
+        "150e777a0f1eaef2fa46d1a64af45bb9e53991f261719e808e7475e0827daeac"
+      ],
       "text": "セブンシア!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9d764b23e0d37eaf8190270813a913de3972e79e8d30bf3036b2ce81d8b7d53f",
+      "sha256": [
+        "9d764b23e0d37eaf8190270813a913de3972e79e8d30bf3036b2ce81d8b7d53f"
+      ],
       "text": "Setamoscia.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stun_yamato_01_1.mp3",
   "revisions": [
     {
-      "sha256": "0ca551cd666d7fb3e2098e704afd36765f03693a3c8d7836858999ff1ecc6d42",
+      "sha256": [
+        "0ca551cd666d7fb3e2098e704afd36765f03693a3c8d7836858999ff1ecc6d42"
+      ],
       "text": "Good start, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6604a22c24255efb1a7cece16539a1686688e47eb4c8eac3578d189e50650dde",
+      "sha256": [
+        "6604a22c24255efb1a7cece16539a1686688e47eb4c8eac3578d189e50650dde"
+      ],
       "text": "It's done, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

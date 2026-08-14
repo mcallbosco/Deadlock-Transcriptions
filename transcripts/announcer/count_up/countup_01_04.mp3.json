@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/count_up/countup_01_04.mp3",
   "revisions": [
     {
-      "sha256": "265c449ebf887baa4f6d3785021aa754c7d56d597f694d3f7c7230a12fb83595",
+      "sha256": [
+        "265c449ebf887baa4f6d3785021aa754c7d56d597f694d3f7c7230a12fb83595"
+      ],
       "text": "So.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5eefbeaea8a9e01a0c20b1979b7a51fcc1af19bca22a7c4e6bf7ec983edf345e",
+      "sha256": [
+        "5eefbeaea8a9e01a0c20b1979b7a51fcc1af19bca22a7c4e6bf7ec983edf345e"
+      ],
       "text": "No one else can fill my shoes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6d26e1983b846dc8b7141f1278e86d377b46aeaf85552e475e6df7207dd77307",
+      "sha256": [
+        "6d26e1983b846dc8b7141f1278e86d377b46aeaf85552e475e6df7207dd77307"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

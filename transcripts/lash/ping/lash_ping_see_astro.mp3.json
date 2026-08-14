@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_astro.mp3",
   "revisions": [
     {
-      "sha256": "b158e84f11ce5dba89c2b52951feaf20da9876ca34520e4ccff8735e5422d617",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "11ec26ed279fdf57a26c9e4a4cc0668a639b21cb516fe16a81a9d155ce34c7e4",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d72c365bad356e57137705bcbbddb513d7926dc7dc1c6968a339cd7bfbe21fa7",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "131104d8dd3b7c82a003ed66b3aeb266cb9fec17db92ee374ec576565092bef3",
+      "sha256": [
+        "11ec26ed279fdf57a26c9e4a4cc0668a639b21cb516fe16a81a9d155ce34c7e4",
+        "131104d8dd3b7c82a003ed66b3aeb266cb9fec17db92ee374ec576565092bef3",
+        "b158e84f11ce5dba89c2b52951feaf20da9876ca34520e4ccff8735e5422d617",
+        "d72c365bad356e57137705bcbbddb513d7926dc7dc1c6968a339cd7bfbe21fa7"
+      ],
       "text": "I see Holliday",
       "source": "official"
     }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_inferno_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "1fc2b7b31decd8f15d8518cecd9b74c8c6c4482bf1e4b4b9714a09074593c35b",
+      "sha256": [
+        "1fc2b7b31decd8f15d8518cecd9b74c8c6c4482bf1e4b4b9714a09074593c35b",
+        "a647986f6bec5bd1cab6116d6b18c6b29cab575e5b40b2c32aa1e308195fed10",
+        "b3edfadfafc0e3e4cd093cd1f4d9a6d9843b4bf7a00a0650d72a109968423f1c"
+      ],
       "text": "Infernus is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b3edfadfafc0e3e4cd093cd1f4d9a6d9843b4bf7a00a0650d72a109968423f1c",
-      "text": "Infernus is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a647986f6bec5bd1cab6116d6b18c6b29cab575e5b40b2c32aa1e308195fed10",
-      "text": "Infernus is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f76e58cda52c2c140a79ef745380c1871d5f257f916fd61990f3e0c482207cc",
+      "sha256": [
+        "0f76e58cda52c2c140a79ef745380c1871d5f257f916fd61990f3e0c482207cc"
+      ],
       "text": "Infernus's on the bridge!",
       "source": "official"
     }

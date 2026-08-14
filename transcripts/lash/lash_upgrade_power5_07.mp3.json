@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_upgrade_power5_07.mp3",
   "revisions": [
     {
-      "sha256": "8db0a06ab0000f2a13991cd6aa3739257cda73cd98be6c4ac788ef389635c9d8",
+      "sha256": [
+        "8db0a06ab0000f2a13991cd6aa3739257cda73cd98be6c4ac788ef389635c9d8"
+      ],
       "text": "Kanashoma masu.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "92b736f1fbde04f3f0fb33d9abe55e7ef27316053277b945a39214980c5e405b",
+      "sha256": [
+        "92b736f1fbde04f3f0fb33d9abe55e7ef27316053277b945a39214980c5e405b",
+        "e6dfe42565820aaa75ce4bb29f8bd9a35f9083cd8293f06835590d105c8d68f3"
+      ],
       "text": "I'm sure I'm not messing around.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e6dfe42565820aaa75ce4bb29f8bd9a35f9083cd8293f06835590d105c8d68f3",
-      "text": "I'm sure I'm not messing around.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e39f69ea9f08b3425e0b9e86d67bc248bd5356df8a5ceba67c41f9e7c477905e",
+      "sha256": [
+        "e39f69ea9f08b3425e0b9e86d67bc248bd5356df8a5ceba67c41f9e7c477905e"
+      ],
       "text": "Time to show 'em I'm not messin' around.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_headed_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "819a0567efbdcaeef25f95442785db791699005db0bf5c36e8f43a66b040c717",
-      "text": "Headed to orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b1e68c5c1927af0a6b718d7aa4966887fbca47b52b639b7fc7031a6360adee2b",
-      "text": "Headed to orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fe826a1784b94d73efb61cc4df82e6cd0c60270dd41b7d44e3dfa9f24a48145",
+      "sha256": [
+        "3fe826a1784b94d73efb61cc4df82e6cd0c60270dd41b7d44e3dfa9f24a48145",
+        "819a0567efbdcaeef25f95442785db791699005db0bf5c36e8f43a66b040c717",
+        "b1e68c5c1927af0a6b718d7aa4966887fbca47b52b639b7fc7031a6360adee2b"
+      ],
       "text": "Headed to orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

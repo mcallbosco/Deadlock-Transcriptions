@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_fairfax_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b59e6718fff8dcc077cf950b15af25fa9aac1462ac80fcd7728975f6d61f091a",
-      "text": "Fairfax is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ab432e707c9a6c329f284b207659b2898577d3baf5559f5372fffa5d86f062b",
-      "text": "Fairfax is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b163453c1ea06f97717fd68af112a3f5d1eb198003e5e474c1a9a230b63603d4",
-      "text": "Fairfax is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f7c3d58e50aad66894e0e01ca394d255acd08ff100642669bf6f584ff818fc4",
+      "sha256": [
+        "4f7c3d58e50aad66894e0e01ca394d255acd08ff100642669bf6f584ff818fc4",
+        "7ab432e707c9a6c329f284b207659b2898577d3baf5559f5372fffa5d86f062b",
+        "b163453c1ea06f97717fd68af112a3f5d1eb198003e5e474c1a9a230b63603d4",
+        "b59e6718fff8dcc077cf950b15af25fa9aac1462ac80fcd7728975f6d61f091a"
+      ],
       "text": "Fairfax is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

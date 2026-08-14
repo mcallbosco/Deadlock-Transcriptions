@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_kncokdown_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "e9415d3df5e59172e40308ed1b0067a837c4a2dc30e5d9c4fff6e01daa8262b6",
-      "text": "Knockdown's on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5f279a057325abe66fb62c62c95dad55d03b5a5f0eec324f0fa956e86cf232e",
+      "sha256": [
+        "d5f279a057325abe66fb62c62c95dad55d03b5a5f0eec324f0fa956e86cf232e",
+        "e9415d3df5e59172e40308ed1b0067a837c4a2dc30e5d9c4fff6e01daa8262b6"
+      ],
       "text": "Knockdown's on cooldown.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1dca02ab428d6df4c65f2ca935375711212ea425390cf690e19c501d7e6179e2",
+      "sha256": [
+        "1dca02ab428d6df4c65f2ca935375711212ea425390cf690e19c501d7e6179e2"
+      ],
       "text": "What's the most here?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "58a054d92f8e0bf647af2895a2c6f520c24f5a8bfb4becb799c481caaff1539a",
+      "sha256": [
+        "58a054d92f8e0bf647af2895a2c6f520c24f5a8bfb4becb799c481caaff1539a"
+      ],
       "text": "Warden was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

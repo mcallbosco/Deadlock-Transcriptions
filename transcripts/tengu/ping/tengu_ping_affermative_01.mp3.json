@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "a7a2251f7ce611efbe421a209c2dea1bbb71fbf06c7fbd8126e14f453cf41bef",
+      "sha256": [
+        "a7a2251f7ce611efbe421a209c2dea1bbb71fbf06c7fbd8126e14f453cf41bef"
+      ],
       "text": "Sound door!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bb98b89c2b054ad8fc5d71861e52430786a70e1ae751ede1de21bfafca7e38a8",
+      "sha256": [
+        "bb98b89c2b054ad8fc5d71861e52430786a70e1ae751ede1de21bfafca7e38a8"
+      ],
       "text": "Sounds good",
       "source": "official"
     }

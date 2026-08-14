@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_with_synth.mp3",
   "revisions": [
     {
-      "sha256": "dff840613820ee91678abcfd8070a124fad66a4dfd0bb4a634b042b330e322bb",
-      "text": "I'm with you, pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32182da0f42488402e2234d24a5837448b3eb15e6182333416e0f796ec75ea14",
-      "text": "I'm with you, pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a64747386329b534476ea1f0f306a6b42ac40afab9f68290a5bfbcdca0aa78c3",
-      "text": "I'm with you, pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "436b1b5a8b9078e3ffb4f493b44c38c44f7ad2c0e3fcc472171a2f9b7fa2e3b2",
+      "sha256": [
+        "32182da0f42488402e2234d24a5837448b3eb15e6182333416e0f796ec75ea14",
+        "436b1b5a8b9078e3ffb4f493b44c38c44f7ad2c0e3fcc472171a2f9b7fa2e3b2",
+        "a64747386329b534476ea1f0f306a6b42ac40afab9f68290a5bfbcdca0aa78c3",
+        "dff840613820ee91678abcfd8070a124fad66a4dfd0bb4a634b042b330e322bb"
+      ],
       "text": "I'm with you, pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

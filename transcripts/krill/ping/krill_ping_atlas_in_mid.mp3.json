@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_atlas_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "a885a4a00e09461743c8e779d9408ae968149e369086fee65c0ba4822dce94fa",
+      "sha256": [
+        "3c4ebe19b152df956d5d4815f986442c9a12252af1a8fb2efb51c7a629ac6de8",
+        "a885a4a00e09461743c8e779d9408ae968149e369086fee65c0ba4822dce94fa"
+      ],
       "text": "Abrams is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3c4ebe19b152df956d5d4815f986442c9a12252af1a8fb2efb51c7a629ac6de8",
-      "text": "Abrams is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "686ae9f9a240e75f3023006a3047ddb1819e862c59257510ac4979c51fcc1578",
+      "sha256": [
+        "686ae9f9a240e75f3023006a3047ddb1819e862c59257510ac4979c51fcc1578"
+      ],
       "text": "Abrams's in mid!",
       "source": "official"
     }

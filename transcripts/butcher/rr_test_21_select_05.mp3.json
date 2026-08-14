@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_select_05.mp3",
   "revisions": [
     {
-      "sha256": "6389e183db573c0de9fb52fe94c90515f2d24f7f4ef8f145f170b0dd180b0c4e",
+      "sha256": [
+        "6389e183db573c0de9fb52fe94c90515f2d24f7f4ef8f145f170b0dd180b0c4e",
+        "9974ea0bad4700fe1e8905f3fa15c6c86a65da90422372bea9c87ff2eb757674",
+        "f57152c13c6d342cc655dbd60350752cf57ff8b51b64e4a838d6d5190c18a5f8"
+      ],
       "text": "I don't care who sits in the ivory tower. I just want my people to be left alone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9974ea0bad4700fe1e8905f3fa15c6c86a65da90422372bea9c87ff2eb757674",
-      "text": "I don't care who sits in the ivory tower, I just want my people to be left alone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f57152c13c6d342cc655dbd60350752cf57ff8b51b64e4a838d6d5190c18a5f8",
-      "text": "I don't care who sits in the Ivory Tower. I just want my people to be left alone.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

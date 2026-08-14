@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_krill.mp3",
   "revisions": [
     {
-      "sha256": "fa8c85acf0a51974aa561d5f2884fc170b2d8a85b9cd93df39bcbade64351031",
-      "text": "I saw Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e44a49720ab58df1e6b9af30a731a15c279daeda4cee16c0285f30691fda1b34",
+      "sha256": [
+        "e44a49720ab58df1e6b9af30a731a15c279daeda4cee16c0285f30691fda1b34",
+        "fa8c85acf0a51974aa561d5f2884fc170b2d8a85b9cd93df39bcbade64351031"
+      ],
       "text": "I saw Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

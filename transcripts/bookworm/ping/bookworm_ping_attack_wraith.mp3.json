@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_attack_wraith.mp3",
   "revisions": [
     {
-      "sha256": "f329e8acf60f720046dc3062f110f4472719eff8d048501a80399abd7d6676e5",
-      "text": "Let's take out Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5cb3e3c39d57fc5b6c173859b7d0eb5900aeb6d1794776db93081742cb45b1d7",
+      "sha256": [
+        "5cb3e3c39d57fc5b6c173859b7d0eb5900aeb6d1794776db93081742cb45b1d7",
+        "f329e8acf60f720046dc3062f110f4472719eff8d048501a80399abd7d6676e5"
+      ],
       "text": "Let's take out Wraith.",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_cadence_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "2923a7e30aedae7d33f7c52bb365ab6618f5cbe648370bc158222d6944453597",
+      "sha256": [
+        "2923a7e30aedae7d33f7c52bb365ab6618f5cbe648370bc158222d6944453597",
+        "661a46bd66b4563dc887a990849b5842e6ff4ceb2bb13cfcdc3d5f6789309713"
+      ],
       "text": "Take this item to the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "661a46bd66b4563dc887a990849b5842e6ff4ceb2bb13cfcdc3d5f6789309713",
-      "text": "Take this item to the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f2c470f3891ca438be68d7b320ecfb0495830a8da6f2c493907d269d5f2b0d7",
+      "sha256": [
+        "8f2c470f3891ca438be68d7b320ecfb0495830a8da6f2c493907d269d5f2b0d7"
+      ],
       "text": "This is the cargo garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

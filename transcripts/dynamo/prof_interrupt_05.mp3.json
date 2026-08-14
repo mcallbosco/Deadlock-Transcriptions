@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_interrupt_05.mp3",
   "revisions": [
     {
-      "sha256": "5ce4adf6a2ce64793010fd02b62aa274de357fc5bcb105bc0ff74ed28104d0f0",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59effc54aa159683433b38ab247e634ff049a0a75aa3f31f583b99f2a7224bad",
+      "sha256": [
+        "59effc54aa159683433b38ab247e634ff049a0a75aa3f31f583b99f2a7224bad",
+        "5ce4adf6a2ce64793010fd02b62aa274de357fc5bcb105bc0ff74ed28104d0f0"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

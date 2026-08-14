@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_viscous_02.mp3",
   "revisions": [
     {
-      "sha256": "ea0f0c01ab83fb6f31a1b9de339f524656d939680cd680f0795bd6793b5cdf50",
+      "sha256": [
+        "ea0f0c01ab83fb6f31a1b9de339f524656d939680cd680f0795bd6793b5cdf50"
+      ],
       "text": "Capital biscuits.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e2e33fcb300aa85dbbff50cf4ab159363987b5ac4cf863671cedda39f1fdeee4",
+      "sha256": [
+        "e2e33fcb300aa85dbbff50cf4ab159363987b5ac4cf863671cedda39f1fdeee4"
+      ],
       "text": "Careful, Viscous.",
       "source": "official"
     }

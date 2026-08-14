@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "2c347bdce4fe70f984884607f67abc9f62fd5528b91b05e4752d4d7523484bf2",
+      "sha256": [
+        "2c347bdce4fe70f984884607f67abc9f62fd5528b91b05e4752d4d7523484bf2"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e892695a051c7b2a2c2bf02d670184c7995999c8234a605d268073d3340ecb62",
+      "sha256": [
+        "e892695a051c7b2a2c2bf02d670184c7995999c8234a605d268073d3340ecb62"
+      ],
       "text": "It's our Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

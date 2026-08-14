@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_upgrade_power2_08.mp3",
   "revisions": [
     {
-      "sha256": "6c0c863d534c48076f5d48e8be7748fd775aaab9bafce6ca003c0a11552a4b7e",
+      "sha256": [
+        "6c0c863d534c48076f5d48e8be7748fd775aaab9bafce6ca003c0a11552a4b7e"
+      ],
       "text": "We won't fight me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e890b54a1b186dde90528ff8f6cc18192f10b5b55bca89e932c7941a6508f715",
+      "sha256": [
+        "56efe9280b9b09db0ce61e866c1348b7858a83065eaea95887c7378fe5660fde",
+        "e890b54a1b186dde90528ff8f6cc18192f10b5b55bca89e932c7941a6508f715"
+      ],
       "text": "We will wanna follow me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "56efe9280b9b09db0ce61e866c1348b7858a83065eaea95887c7378fe5660fde",
-      "text": "We will wanna follow me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c86b5c8b324226e6ce43d8d9f81b119a0a4fb1e07c6056fc52b1b87861ec5b01",
+      "sha256": [
+        "c86b5c8b324226e6ce43d8d9f81b119a0a4fb1e07c6056fc52b1b87861ec5b01"
+      ],
       "text": "They won't want to follow me…",
       "source": "official"
     }

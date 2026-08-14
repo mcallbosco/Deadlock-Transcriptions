@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_orange_walker_attack_01.mp3",
   "revisions": [
     {
-      "sha256": "e0812398cc22638387d9281dbc2dbd48291cf365f6f388b67617c19315cf6432",
+      "sha256": [
+        "4639d0791962772d55cd104bab4f7bfd7919de87951e16f952c58d4c3837be24",
+        "e0812398cc22638387d9281dbc2dbd48291cf365f6f388b67617c19315cf6432"
+      ],
       "text": "Our Orange Walker is under attack.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4639d0791962772d55cd104bab4f7bfd7919de87951e16f952c58d4c3837be24",
-      "text": "Our orange walker is under attack.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

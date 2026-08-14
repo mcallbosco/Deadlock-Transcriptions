@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_calico_02.mp3",
   "revisions": [
     {
-      "sha256": "a4b55e0c33b1b4f27a82115153d3eecbd44692cf0f262bd59dbbdf8f9ef5a3dc",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c89c12d5e148bf48b3b135f2eeba35d1e4276fd803ba487a4210a313f64996b9",
+      "sha256": [
+        "a4b55e0c33b1b4f27a82115153d3eecbd44692cf0f262bd59dbbdf8f9ef5a3dc",
+        "c89c12d5e148bf48b3b135f2eeba35d1e4276fd803ba487a4210a313f64996b9"
+      ],
       "text": "Careful, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

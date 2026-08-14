@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_graf_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "b59447dc0267dfec8fbb0c2b8f5efd679c519e86bc128d2e95d210d074ae2def",
+      "sha256": [
+        "b59447dc0267dfec8fbb0c2b8f5efd679c519e86bc128d2e95d210d074ae2def"
+      ],
       "text": "Good evening!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

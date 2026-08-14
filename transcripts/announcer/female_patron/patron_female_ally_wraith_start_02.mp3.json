@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_wraith_start_02.mp3",
   "revisions": [
     {
-      "sha256": "634ff2c480a2b9bd100f8c901ba354fe5ad2c882e8ac772d3d6897f3f34d28dc",
+      "sha256": [
+        "049baa7b76a6d77b640676666331373edaac7f607512f21feed2da1fcab86be3",
+        "634ff2c480a2b9bd100f8c901ba354fe5ad2c882e8ac772d3d6897f3f34d28dc"
+      ],
       "text": "I can help you find your father, summon me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "049baa7b76a6d77b640676666331373edaac7f607512f21feed2da1fcab86be3",
-      "text": "I can help you find your father. Summon me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eba483d6662a03aee10669e90b11cb359b91f25b67f66158e24050ca8d46983d",
+      "sha256": [
+        "eba483d6662a03aee10669e90b11cb359b91f25b67f66158e24050ca8d46983d"
+      ],
       "text": "Wraith. Summon The Archmother so that she may guide you to a new era of prosperity and strength.",
       "source": "official"
     }

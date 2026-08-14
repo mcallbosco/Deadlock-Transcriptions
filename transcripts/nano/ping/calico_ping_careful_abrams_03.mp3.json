@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_abrams_03.mp3",
   "revisions": [
     {
-      "sha256": "f9d7981f1c18f036b7b909bb9a5c73d54c98d9abbf2ffda94c34d0434a61d3bd",
-      "text": "Careful, Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f2708cd57355f4fb964c98469729f652499fd02653bcd18255001b0d4b9fb4a",
+      "sha256": [
+        "9f2708cd57355f4fb964c98469729f652499fd02653bcd18255001b0d4b9fb4a",
+        "f9d7981f1c18f036b7b909bb9a5c73d54c98d9abbf2ffda94c34d0434a61d3bd"
+      ],
       "text": "Careful, Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

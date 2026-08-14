@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_use_hook_07_02.mp3",
   "revisions": [
     {
-      "sha256": "dde3ccdce79fc58b84e70e0dd7a10dfe3110616d089973e054a38221eaef4837",
-      "text": "Ha ha!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bb4d7be6e2c53232072288ada9100ce27d77937b47e8fe86ce7f93fb0e1e0d9f",
+      "sha256": [
+        "bb4d7be6e2c53232072288ada9100ce27d77937b47e8fe86ce7f93fb0e1e0d9f",
+        "dde3ccdce79fc58b84e70e0dd7a10dfe3110616d089973e054a38221eaef4837"
+      ],
       "text": "Ha ha!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

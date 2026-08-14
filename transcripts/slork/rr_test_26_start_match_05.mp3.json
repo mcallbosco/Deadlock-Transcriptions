@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_start_match_05.mp3",
   "revisions": [
     {
-      "sha256": "2ba9fd1c4be2b2680e86f752d3f025c62b1782708b42deeb7bb1477336172040",
+      "sha256": [
+        "2ba9fd1c4be2b2680e86f752d3f025c62b1782708b42deeb7bb1477336172040"
+      ],
       "text": "It's quiet. That one last one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "baf4386f6af6ce24ab997f3a0b98d67ad6931957d8e13e3614def11f90027918",
+      "sha256": [
+        "baf4386f6af6ce24ab997f3a0b98d67ad6931957d8e13e3614def11f90027918"
+      ],
       "text": "It's quiet. That won't last long.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

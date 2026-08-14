@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "dbe77c4bcffda742f02bab210550fbd7f0b334af6d504f0c23c45e381b73cb21",
+      "sha256": [
+        "dbe77c4bcffda742f02bab210550fbd7f0b334af6d504f0c23c45e381b73cb21"
+      ],
       "text": "Let's go blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

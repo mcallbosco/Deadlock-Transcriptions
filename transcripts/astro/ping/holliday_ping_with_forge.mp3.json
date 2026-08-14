@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "0648b0c658e7802090c93c3f6ae865250b6394c35119abca94827839fedde279",
+      "sha256": [
+        "0648b0c658e7802090c93c3f6ae865250b6394c35119abca94827839fedde279"
+      ],
       "text": "I'm with you, McGinnis!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

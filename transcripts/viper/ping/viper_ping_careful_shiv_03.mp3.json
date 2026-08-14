@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_shiv_03.mp3",
   "revisions": [
     {
-      "sha256": "a881ea433c36994ac40d834d93f723bab7f7900101e6099f9f2d29fc4890448a",
-      "text": "Careful, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdc6d2932db4c711b8cf27c17eebd1414199a10ac95c3dd9928717984e41f49b",
-      "text": "Careful, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "89c1ab096dbd89b05bf52b6dde3230c9c6cd94a0cceae556e77cfd127e21f8b4",
+      "sha256": [
+        "89c1ab096dbd89b05bf52b6dde3230c9c6cd94a0cceae556e77cfd127e21f8b4",
+        "a881ea433c36994ac40d834d93f723bab7f7900101e6099f9f2d29fc4890448a",
+        "cdc6d2932db4c711b8cf27c17eebd1414199a10ac95c3dd9928717984e41f49b"
+      ],
       "text": "Careful, Shiv!",
       "source": "official"
     }

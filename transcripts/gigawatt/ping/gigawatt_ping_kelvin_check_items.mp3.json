@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_kelvin_check_items.mp3",
   "revisions": [
     {
-      "sha256": "fad8fb4729cc693914d57d62a87180e29ca87ba71fc7fc498c13ff0522fd1666",
+      "sha256": [
+        "fad8fb4729cc693914d57d62a87180e29ca87ba71fc7fc498c13ff0522fd1666",
+        "ff321de2a1a4bd4f98cc8ab6a1941a5b880ce3c24b9689ee55bb6c4d99245c1d"
+      ],
       "text": "Shut up with Kelvin, boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ff321de2a1a4bd4f98cc8ab6a1941a5b880ce3c24b9689ee55bb6c4d99245c1d",
-      "text": "Shut up with Kelvin, boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a202feded1c8e65b0cdda08c54db3d5368f0ddb9857313132a60a8cdc8a36029",
+      "sha256": [
+        "a202feded1c8e65b0cdda08c54db3d5368f0ddb9857313132a60a8cdc8a36029"
+      ],
       "text": "Check out what Kelvin bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_kill_murphy_04.mp3",
   "revisions": [
     {
-      "sha256": "26312ebf19cbab43dea65ad23d6f4326898beede337414c344308aaac44de048",
+      "sha256": [
+        "26312ebf19cbab43dea65ad23d6f4326898beede337414c344308aaac44de048",
+        "fa5fbc1bc33bc881f8bc45b3205e00661c5bb45354e7d1a66b48b750b61dec56"
+      ],
       "text": "I stopped Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa5fbc1bc33bc881f8bc45b3205e00661c5bb45354e7d1a66b48b750b61dec56",
-      "text": "I stopped Murphy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

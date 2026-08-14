@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "f113b8a1b2ed06ac0fe3fe29e16be95859cc98e6f170199139e286a3b3e4c084",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59faac6582de68341d63402494520343fbde23dcb524486dd84a1e86cfd67ca7",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eae5cfb3564482ad70d98aefa49cd5b27775ab8c46d4cb8705ab6650ac72e24f",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "606525d8bdae548d9767c3680e9301018ce893c54c543b7d83970fa287a05878",
+      "sha256": [
+        "59faac6582de68341d63402494520343fbde23dcb524486dd84a1e86cfd67ca7",
+        "606525d8bdae548d9767c3680e9301018ce893c54c543b7d83970fa287a05878",
+        "eae5cfb3564482ad70d98aefa49cd5b27775ab8c46d4cb8705ab6650ac72e24f",
+        "f113b8a1b2ed06ac0fe3fe29e16be95859cc98e6f170199139e286a3b3e4c084"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

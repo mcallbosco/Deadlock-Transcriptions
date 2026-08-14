@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_infernus_was_here.mp3",
   "revisions": [
     {
-      "sha256": "51d6960959678367b4657037de37d8df4124179fc4967a73191e260ee610641f",
-      "text": "Infernus was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68d02d708f57aff2fcfed8262589ce068bc529f97e34089822da7f3b77ee87fb",
+      "sha256": [
+        "51d6960959678367b4657037de37d8df4124179fc4967a73191e260ee610641f",
+        "68d02d708f57aff2fcfed8262589ce068bc529f97e34089822da7f3b77ee87fb"
+      ],
       "text": "Infernus was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

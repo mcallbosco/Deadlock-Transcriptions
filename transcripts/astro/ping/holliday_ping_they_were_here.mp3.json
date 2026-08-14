@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "2c670cacd96ce698b9c8d716b1cf190dbd47c2ecab7b9526704363fd5d23fdda",
+      "sha256": [
+        "2c670cacd96ce698b9c8d716b1cf190dbd47c2ecab7b9526704363fd5d23fdda"
+      ],
       "text": "They were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

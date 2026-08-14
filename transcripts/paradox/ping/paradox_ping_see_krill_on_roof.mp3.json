@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_krill_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "ebf28d2c618c48cdb9dc09d82ed013c880a855afabff07af749a9931042c2c3b",
-      "text": "Crow's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f0396c84439780493f555588e98beff56ec88421647501c8dac4eb30b69dfcb",
+      "sha256": [
+        "2f0396c84439780493f555588e98beff56ec88421647501c8dac4eb30b69dfcb",
+        "ebf28d2c618c48cdb9dc09d82ed013c880a855afabff07af749a9931042c2c3b"
+      ],
       "text": "Crow's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

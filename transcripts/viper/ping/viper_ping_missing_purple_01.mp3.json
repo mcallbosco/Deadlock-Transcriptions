@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_missing_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "a5c419cb9e1eb1ad08edddbf710993e14d84966bbcc8c9b5d5152d48e271d5fc",
+      "sha256": [
+        "a5c419cb9e1eb1ad08edddbf710993e14d84966bbcc8c9b5d5152d48e271d5fc"
+      ],
       "text": "Missing purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ed8f60dfaceea1d8c040c6ed098e258658d413abfa8b8ac314a6191363e514e5",
+      "sha256": [
+        "1d0bd8c15976516ae507b3aa406194f3cfb6d5058c5e168255bbc501ec54d621",
+        "ed8f60dfaceea1d8c040c6ed098e258658d413abfa8b8ac314a6191363e514e5"
+      ],
       "text": "This is purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d0bd8c15976516ae507b3aa406194f3cfb6d5058c5e168255bbc501ec54d621",
-      "text": "This is purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

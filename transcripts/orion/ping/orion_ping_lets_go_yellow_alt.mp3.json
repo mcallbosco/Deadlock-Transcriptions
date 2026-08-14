@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_lets_go_yellow_alt.mp3",
   "revisions": [
     {
-      "sha256": "dae15679d3a868784150d7009885e0c50d976579455ffee2da12f1bc3a2f72bf",
-      "text": "Let's go to York!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "409119fce03b47e1266c9e0d6d05a5f70436dbc98e7b8bf9669194b04dce8347",
-      "text": "Let's go to York!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eba067eda9bd809548a5a9cb21c6b8fecd09497e2e3c460f8e5e42970151e225",
+      "sha256": [
+        "409119fce03b47e1266c9e0d6d05a5f70436dbc98e7b8bf9669194b04dce8347",
+        "dae15679d3a868784150d7009885e0c50d976579455ffee2da12f1bc3a2f72bf",
+        "eba067eda9bd809548a5a9cb21c6b8fecd09497e2e3c460f8e5e42970151e225"
+      ],
       "text": "Let's go to York!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "f17590f1c1eefa163b381f1f5cae082eb6a80c1865bfb03630d3f06c74c8adae",
+      "sha256": [
+        "f17590f1c1eefa163b381f1f5cae082eb6a80c1865bfb03630d3f06c74c8adae"
+      ],
       "text": "I got you, seven!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b0c685c0b6d1a0c0a52da57515e03fe954383ecaceff0d5de88d8ddd6f654ddd",
+      "sha256": [
+        "b0c685c0b6d1a0c0a52da57515e03fe954383ecaceff0d5de88d8ddd6f654ddd"
+      ],
       "text": "I need your seven!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

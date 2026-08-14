@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "ac9cbe409a0247a4964a6e1f4672c177821418ae1bdb61207fdba990c6022a06",
-      "text": "Mirage, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87e97ae40b4de70611d9fd0e5098471beca0e752668270495b4d9365dda182db",
+      "sha256": [
+        "87e97ae40b4de70611d9fd0e5098471beca0e752668270495b4d9365dda182db",
+        "ac9cbe409a0247a4964a6e1f4672c177821418ae1bdb61207fdba990c6022a06"
+      ],
       "text": "Mirage, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

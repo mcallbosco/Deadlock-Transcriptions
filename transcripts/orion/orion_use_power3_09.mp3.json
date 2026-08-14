@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_use_power3_09.mp3",
   "revisions": [
     {
-      "sha256": "53e55b9e8f328e978d1be850a6098c15f66ee36adf702d7f0e9097ad85b7b173",
-      "text": "They won't know what hit them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6990d72fcbd50a654c9eb4de7cac50093033d422e422f31b476c8b40ea80b572",
-      "text": "We won't know what hit them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "26e4328695ad753245586542ef2db512763c319eeaa9758588f69e9b950c09d5",
-      "text": "We won't know what hit them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5f28682b8092d89bdc324ae7a9ab91a609f98e9477c7f7b11c40d7ecb341e8e6",
+      "sha256": [
+        "53e55b9e8f328e978d1be850a6098c15f66ee36adf702d7f0e9097ad85b7b173",
+        "5f28682b8092d89bdc324ae7a9ab91a609f98e9477c7f7b11c40d7ecb341e8e6"
+      ],
       "text": "They won't know what hit them…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "26e4328695ad753245586542ef2db512763c319eeaa9758588f69e9b950c09d5",
+        "6990d72fcbd50a654c9eb4de7cac50093033d422e422f31b476c8b40ea80b572"
+      ],
+      "text": "We won't know what hit them.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

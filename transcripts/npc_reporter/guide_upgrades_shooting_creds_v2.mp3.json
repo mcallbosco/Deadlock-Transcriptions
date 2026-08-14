@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_upgrades_shooting_creds_v2.mp3",
   "revisions": [
     {
-      "sha256": "43ee718aea8122a7f54ff83b079aa48b584852c35a12d1a0cfa202a563c0f98a",
+      "sha256": [
+        "43ee718aea8122a7f54ff83b079aa48b584852c35a12d1a0cfa202a563c0f98a"
+      ],
       "text": "When a player kills a trooper, extra creds pop out. Red creds can be stolen from enemies. Yellow creds belong to you if they hit the ground, but you can shoot them to prevent an enemy stealing them from you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

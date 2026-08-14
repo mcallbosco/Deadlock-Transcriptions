@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_take_core.mp3",
   "revisions": [
     {
-      "sha256": "327909ce964b35e1d293d0d3313ab04b311d04b9d70d93bff71e38b4410a2271",
+      "sha256": [
+        "327909ce964b35e1d293d0d3313ab04b311d04b9d70d93bff71e38b4410a2271",
+        "8bb2608f79862350ae819dbe8d1c4edf66654c040204f5bf6835cf90846eaf42"
+      ],
       "text": "Let's go for a drive!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ec15b8687db0f29ae0c652bd70e949e94d7ef0bf54bdfb11243d49b64abdd1ea",
+      "sha256": [
+        "ec15b8687db0f29ae0c652bd70e949e94d7ef0bf54bdfb11243d49b64abdd1ea"
+      ],
       "text": "Let's go for a ride!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8bb2608f79862350ae819dbe8d1c4edf66654c040204f5bf6835cf90846eaf42",
-      "text": "Let's go for a drive.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_lose_04.mp3",
   "revisions": [
     {
-      "sha256": "ebe826e1ea26494ca3bd4748f1cef444441aaf5db59a612c841b1c5b75672fe9",
-      "text": "This... this is a problem.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c47687ddd95622bea59e8c79c48e194614ae08095117b413db0a51a1486346fa",
+      "sha256": [
+        "c47687ddd95622bea59e8c79c48e194614ae08095117b413db0a51a1486346fa",
+        "ebe826e1ea26494ca3bd4748f1cef444441aaf5db59a612c841b1c5b75672fe9"
+      ],
       "text": "This... this is a problem.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

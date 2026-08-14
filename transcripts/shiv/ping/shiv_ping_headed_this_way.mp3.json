@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "d5651f3083593aba582b2aff01541b736c32274c26b3ad1ccadf4c79960fa142",
+      "sha256": [
+        "0ee2ad881e334455b563500e65a9b95a72c2afe95457f9844e81d4bc88404447",
+        "d5651f3083593aba582b2aff01541b736c32274c26b3ad1ccadf4c79960fa142"
+      ],
       "text": "Get this way!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ee2ad881e334455b563500e65a9b95a72c2afe95457f9844e81d4bc88404447",
-      "text": "Get this way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bdfacf4ccd685623a11d054fba7782f9e3dd43f2f91dd8e81171703cc1339ea6",
+      "sha256": [
+        "bdfacf4ccd685623a11d054fba7782f9e3dd43f2f91dd8e81171703cc1339ea6"
+      ],
       "text": "Headed this way",
       "source": "official"
     }

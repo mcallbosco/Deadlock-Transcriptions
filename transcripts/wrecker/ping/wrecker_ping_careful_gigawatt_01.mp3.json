@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "b16c74bea5991ae1b027c601c0ef7aed06e823493748afac572443f5d46e66e3",
-      "text": "Careful, Gigawatt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee972377de7794919638323501a7cd2c7fb9f8b6f829a316a0b83788f502fae5",
+      "sha256": [
+        "b16c74bea5991ae1b027c601c0ef7aed06e823493748afac572443f5d46e66e3",
+        "ee972377de7794919638323501a7cd2c7fb9f8b6f829a316a0b83788f502fae5"
+      ],
       "text": "Careful, Gigawatt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

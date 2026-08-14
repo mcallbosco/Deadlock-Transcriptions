@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_atlas_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "50864ffebe416c8f9e1e124765f1d9b4ab97cecb0821a03cb65e3f3fcf022509",
+      "sha256": [
+        "231dc32abac3283f27e515db5863ee68d16378e68fa484869ebce7ff2b64328f",
+        "50864ffebe416c8f9e1e124765f1d9b4ab97cecb0821a03cb65e3f3fcf022509",
+        "a431e8912d29ccb4362117b972565bb3ef4f61fc69c4614783f623f1aa042a0d"
+      ],
       "text": "Abrams is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a431e8912d29ccb4362117b972565bb3ef4f61fc69c4614783f623f1aa042a0d",
-      "text": "Abrams is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "231dc32abac3283f27e515db5863ee68d16378e68fa484869ebce7ff2b64328f",
-      "text": "Abrams is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5168de3cd784f204e7a6dc910811ea5edf3060446f6da473756319ba7581de03",
+      "sha256": [
+        "5168de3cd784f204e7a6dc910811ea5edf3060446f6da473756319ba7581de03"
+      ],
       "text": "Abrams's on the bridge!",
       "source": "official"
     }

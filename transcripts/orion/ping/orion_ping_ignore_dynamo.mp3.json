@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_ignore_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "635d078d5d1598a9410b45b23fe563d917789db3c0b59eb560dca5efb98f213e",
+      "sha256": [
+        "635d078d5d1598a9410b45b23fe563d917789db3c0b59eb560dca5efb98f213e",
+        "f87b95eb2636b3a385115e33d3424dae51ccbdfbf80b253c498f8b69bfc2c23e",
+        "fe2164008453199466bd2fc72ac748c6e38a704fa6e2173ac1b9a3f6a839c33a"
+      ],
       "text": "Ignore Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f87b95eb2636b3a385115e33d3424dae51ccbdfbf80b253c498f8b69bfc2c23e",
-      "text": "Ignore Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe2164008453199466bd2fc72ac748c6e38a704fa6e2173ac1b9a3f6a839c33a",
-      "text": "Ignore Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

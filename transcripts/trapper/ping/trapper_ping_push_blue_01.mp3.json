@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_push_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "5aa502bb863cfc1b26d99b6a558bb132577f42802593891617fb0493a23a8216",
+      "sha256": [
+        "5aa502bb863cfc1b26d99b6a558bb132577f42802593891617fb0493a23a8216"
+      ],
       "text": "Let's push blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

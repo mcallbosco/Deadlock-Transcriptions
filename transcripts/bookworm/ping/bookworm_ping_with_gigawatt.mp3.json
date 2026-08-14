@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "cecfe6031e2045c4ad3a300b1cddae4d770d0f212e16d9d4e97a916b2d3017dc",
-      "text": "I'm with you, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b7cbc4e97bc508533431cc1f2ce7397f52ec9dd47cc2cc4c6158a5a53e2de9d",
+      "sha256": [
+        "6b7cbc4e97bc508533431cc1f2ce7397f52ec9dd47cc2cc4c6158a5a53e2de9d",
+        "cecfe6031e2045c4ad3a300b1cddae4d770d0f212e16d9d4e97a916b2d3017dc"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

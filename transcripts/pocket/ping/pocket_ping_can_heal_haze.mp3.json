@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_can_heal_haze.mp3",
   "revisions": [
     {
-      "sha256": "d6b27844ca0d20f03453a87bb925289cd713b6967fb36d512bedb56e04460b8a",
-      "text": "Hey, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b6e5f0266029566a8c86d5874eb932cac81eb7bcb223e90d1928fe366e8cc21",
+      "sha256": [
+        "3b6e5f0266029566a8c86d5874eb932cac81eb7bcb223e90d1928fe366e8cc21",
+        "d6b27844ca0d20f03453a87bb925289cd713b6967fb36d512bedb56e04460b8a"
+      ],
       "text": "Hey, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

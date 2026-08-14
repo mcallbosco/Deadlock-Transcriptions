@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_buy_weapon_upgrade_01.mp3",
   "revisions": [
     {
-      "sha256": "666a20f138da9e801d20348b5cf648cd059b81c6ed6942f0e063313357391c5f",
+      "sha256": [
+        "13d0a8af38588887a519506b7dfafe4919e0a7c0047b58bd51f4623340cba982",
+        "666a20f138da9e801d20348b5cf648cd059b81c6ed6942f0e063313357391c5f"
+      ],
       "text": "Hmm, getting stronger.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b3c5b41802a986f4331ed6ea9b7efa36497dc051fffe773ebb1ee8f3635871c3",
+      "sha256": [
+        "b3c5b41802a986f4331ed6ea9b7efa36497dc051fffe773ebb1ee8f3635871c3"
+      ],
       "text": "Mm, getting stronger.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13d0a8af38588887a519506b7dfafe4919e0a7c0047b58bd51f4623340cba982",
-      "text": "Hmm, getting stronger.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

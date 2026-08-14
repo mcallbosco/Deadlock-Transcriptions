@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_saw_hornet.mp3",
   "revisions": [
     {
-      "sha256": "998121f73f433e74d16655846b62f5ef1f1573bad642314eb5c21c00c12bb8f8",
+      "sha256": [
+        "998121f73f433e74d16655846b62f5ef1f1573bad642314eb5c21c00c12bb8f8"
+      ],
       "text": "I saw Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e7f5007f44cb84f2da3dcfcc98d80b1f3a3976345a9fb2a6088f695e84805993",
+      "sha256": [
+        "e7f5007f44cb84f2da3dcfcc98d80b1f3a3976345a9fb2a6088f695e84805993"
+      ],
       "text": "I saw a Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "66f9a934fa8a1ab9c5c7856436eed39f922301f011fd18f985a78dea82307b9a",
+      "sha256": [
+        "66f9a934fa8a1ab9c5c7856436eed39f922301f011fd18f985a78dea82307b9a"
+      ],
       "text": "I saw a Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

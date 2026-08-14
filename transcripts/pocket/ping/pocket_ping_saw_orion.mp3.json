@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_saw_orion.mp3",
   "revisions": [
     {
-      "sha256": "cd2d46e3964fb1f8e971dd47d0383ac2a223768ac4bd7009a92cb304944adc0f",
+      "sha256": [
+        "cd2d46e3964fb1f8e971dd47d0383ac2a223768ac4bd7009a92cb304944adc0f"
+      ],
       "text": "I saw Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e57b1c284a8d557286b848aae1d0655d21831c9d47aa577fb49834db2a818643",
+      "sha256": [
+        "e57b1c284a8d557286b848aae1d0655d21831c9d47aa577fb49834db2a818643"
+      ],
       "text": "I saw Great Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

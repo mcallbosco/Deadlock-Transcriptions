@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_calico.mp3",
   "revisions": [
     {
-      "sha256": "7bd15bbc272564b9a05113323860e434d3951a7e4b08de416e0d75c7714687ef",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5bad4850166d45f2792e72d91fedc64d2ac90e5f184fa81e1cd5457288d5020",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ffbdc6062b148e442261645f5b4c0a394534f8ea8898714f3aacb308d03e8f7c",
-      "text": "I see Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d031aecd9a739b276db1dcb36cd7304eeac9f3154210dd6cbcfc1ac4e560df1",
+      "sha256": [
+        "5d031aecd9a739b276db1dcb36cd7304eeac9f3154210dd6cbcfc1ac4e560df1",
+        "7bd15bbc272564b9a05113323860e434d3951a7e4b08de416e0d75c7714687ef",
+        "e5bad4850166d45f2792e72d91fedc64d2ac90e5f184fa81e1cd5457288d5020",
+        "ffbdc6062b148e442261645f5b4c0a394534f8ea8898714f3aacb308d03e8f7c"
+      ],
       "text": "I see Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c86542202124a874688649d5b59d082ae72edc78873401c61a8a9bcaacf6fb45",
+      "sha256": [
+        "c86542202124a874688649d5b59d082ae72edc78873401c61a8a9bcaacf6fb45"
+      ],
       "text": "This was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

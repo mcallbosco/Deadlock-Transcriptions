@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_tengu_03.mp3",
   "revisions": [
     {
-      "sha256": "0c441733ae46b8e7f15b046b3a907f19f41b87862d5dd217f0f0f7debdca7a1e",
-      "text": "Careful, Ivy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fb004a699714dab5c27c7d9c7dfe1a528f36de76b4521b3814661b8d563cb21f",
-      "text": "Where will I be?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a28a911981dd331a7b7b34ca6b920dbf33c867158d06f0d8b753a46fe847ea09",
-      "text": "Where will I be?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d5b6c5cc83532e708e987d3c84d19cdf32c86593a2b2c8ea1ab2e7a67e6bc08",
+      "sha256": [
+        "0c441733ae46b8e7f15b046b3a907f19f41b87862d5dd217f0f0f7debdca7a1e",
+        "7d5b6c5cc83532e708e987d3c84d19cdf32c86593a2b2c8ea1ab2e7a67e6bc08"
+      ],
       "text": "Careful, ivy!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "a28a911981dd331a7b7b34ca6b920dbf33c867158d06f0d8b753a46fe847ea09",
+        "fb004a699714dab5c27c7d9c7dfe1a528f36de76b4521b3814661b8d563cb21f"
+      ],
+      "text": "Where will I be?",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

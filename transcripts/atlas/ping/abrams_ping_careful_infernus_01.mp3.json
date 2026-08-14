@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_infernus_01.mp3",
   "revisions": [
     {
-      "sha256": "d25dbf33e2d9f9a831b50ecc70c9508d02c7f75ee584e3d8ed5c84f3b3175fa9",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "08b7e026f30a8479d07b96f16a1501472ed034e528666df32fb89616090ede48",
+      "sha256": [
+        "08b7e026f30a8479d07b96f16a1501472ed034e528666df32fb89616090ede48",
+        "d25dbf33e2d9f9a831b50ecc70c9508d02c7f75ee584e3d8ed5c84f3b3175fa9"
+      ],
       "text": "Careful, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

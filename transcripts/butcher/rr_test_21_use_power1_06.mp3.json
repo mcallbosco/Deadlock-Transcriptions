@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "fe63be71472cfc1a5793c17d2cc07a6266bdc7f2c6b9c12f67c2ac9d493c74bb",
-      "text": "This thing is getting heavy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "856502f6a926bb6bbcf1c3293a112c346ba4c39ed217967b0a8079c1fa239441",
-      "text": "This thing is getting heavy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddb6580dbcd68701a69ca7a0da3938191d43ba244461388815a2a0aa5f025871",
+      "sha256": [
+        "856502f6a926bb6bbcf1c3293a112c346ba4c39ed217967b0a8079c1fa239441",
+        "ddb6580dbcd68701a69ca7a0da3938191d43ba244461388815a2a0aa5f025871",
+        "fe63be71472cfc1a5793c17d2cc07a6266bdc7f2c6b9c12f67c2ac9d493c74bb"
+      ],
       "text": "This thing is getting heavy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "98c39515768022e0174a9b0286fd559705fd407bce4831795c0abff86528ba72",
-      "text": "Good job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "36ba604344cdbf8d6436d3ce57d76ea42925186f62ea195d27c8ea1346ddff06",
+      "sha256": [
+        "36ba604344cdbf8d6436d3ce57d76ea42925186f62ea195d27c8ea1346ddff06",
+        "98c39515768022e0174a9b0286fd559705fd407bce4831795c0abff86528ba72"
+      ],
       "text": "Good job.",
       "source": "official"
     }

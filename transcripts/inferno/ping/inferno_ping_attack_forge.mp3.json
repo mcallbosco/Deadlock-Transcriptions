@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_attack_forge.mp3",
   "revisions": [
     {
-      "sha256": "b83500e6e0a01ebc93a95d94b4cac9bbf71d08f515e5320ea934991a101fb362",
+      "sha256": [
+        "0572f0b5b402e04e5fa5cf447065478fd8740b1a144b77198bc4756518b668d8",
+        "b83500e6e0a01ebc93a95d94b4cac9bbf71d08f515e5320ea934991a101fb362"
+      ],
       "text": "Let's take out Forge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0572f0b5b402e04e5fa5cf447065478fd8740b1a144b77198bc4756518b668d8",
-      "text": "Let's take out Forge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e53d5fd69050b573d3005c96c1a54cd6859f825d37c416a55a5b4bead4b184e4",
+      "sha256": [
+        "e53d5fd69050b573d3005c96c1a54cd6859f825d37c416a55a5b4bead4b184e4"
+      ],
       "text": "Let's take out McGinnis",
       "source": "official"
     }

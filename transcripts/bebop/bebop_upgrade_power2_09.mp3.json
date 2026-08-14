@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power2_09.mp3",
   "revisions": [
     {
-      "sha256": "f7d3e2b29c57b827befc3b0c549a762c01906bfbe308ab65cd6c19268abc408e",
+      "sha256": [
+        "f7d3e2b29c57b827befc3b0c549a762c01906bfbe308ab65cd6c19268abc408e"
+      ],
       "text": "Me and me mics are ready to pick a fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "719d54356f71fa07eff0a31196c8fdcf4283b243684e7a804c5fb90194138ae0",
+      "sha256": [
+        "719d54356f71fa07eff0a31196c8fdcf4283b243684e7a804c5fb90194138ae0"
+      ],
       "text": "Me and my mates are bout to pick a fight.",
       "source": "official"
     }

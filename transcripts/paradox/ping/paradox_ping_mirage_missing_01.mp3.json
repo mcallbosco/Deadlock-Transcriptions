@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_mirage_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "0b7618c7333a459a715ca153c1d365edf43a3b1b42e461ebcaec4862251c25d8",
-      "text": "Mirage is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f876a9d8cf7a269e10b26600b1c1a6f360fad61a6c7b77cf9c99866872b55ee2",
+      "sha256": [
+        "0b7618c7333a459a715ca153c1d365edf43a3b1b42e461ebcaec4862251c25d8",
+        "f876a9d8cf7a269e10b26600b1c1a6f360fad61a6c7b77cf9c99866872b55ee2"
+      ],
       "text": "Mirage is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

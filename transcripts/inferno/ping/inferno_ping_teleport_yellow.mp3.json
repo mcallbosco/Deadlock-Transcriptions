@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_teleport_yellow.mp3",
   "revisions": [
     {
-      "sha256": "e45965de463c3ad9802b0758d0e416ca797cfbfd22a1825b59395bb6f3de2594",
+      "sha256": [
+        "e45965de463c3ad9802b0758d0e416ca797cfbfd22a1825b59395bb6f3de2594"
+      ],
       "text": "California yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b6966c4dfe5ddaf1f1bd7f758a2899d8ca670ef1e791507cea8616d4a51ba799",
-      "text": "Teleport to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d0dd2d32e758eec8d57a6c0414585932edf2194fa4e2f6e1369665b5198851b",
+      "sha256": [
+        "1d0dd2d32e758eec8d57a6c0414585932edf2194fa4e2f6e1369665b5198851b",
+        "b6966c4dfe5ddaf1f1bd7f758a2899d8ca670ef1e791507cea8616d4a51ba799"
+      ],
       "text": "Teleport to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

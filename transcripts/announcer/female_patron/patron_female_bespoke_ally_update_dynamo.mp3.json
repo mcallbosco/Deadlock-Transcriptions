@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_bespoke_ally_update_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "8ee0d1e90fa6f1e8472c428629a7dc0f24c038ab61e05fd33acb65691d5afbfd",
+      "sha256": [
+        "8ee0d1e90fa6f1e8472c428629a7dc0f24c038ab61e05fd33acb65691d5afbfd"
+      ],
       "text": "The professor is keeping us on our feet.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

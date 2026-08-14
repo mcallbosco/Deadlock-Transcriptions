@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_wraith_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "222c066f7a705aa1137da9b9a02c1ad29a33b7a38d58e5303aeee4aef862c894",
+      "sha256": [
+        "222c066f7a705aa1137da9b9a02c1ad29a33b7a38d58e5303aeee4aef862c894"
+      ],
       "text": "What's missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e1f69bd225002ef25df49bb610424df86fce107590eb96071c6224512ec99b86",
+      "sha256": [
+        "e1f69bd225002ef25df49bb610424df86fce107590eb96071c6224512ec99b86"
+      ],
       "text": "Wraith's missing.",
       "source": "official"
     }

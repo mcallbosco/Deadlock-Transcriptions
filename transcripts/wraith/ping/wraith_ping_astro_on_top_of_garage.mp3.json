@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_astro_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "660042b34efb455e1b92b29d1cf9e0ad6d5800135b8e5d71de7e744fc2adb55c",
+      "sha256": [
+        "660042b34efb455e1b92b29d1cf9e0ad6d5800135b8e5d71de7e744fc2adb55c"
+      ],
       "text": "Holiday's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd40395b5d2fe86b99efb047306b531982f24ace6c6a48bc04d64a15403fe994",
+      "sha256": [
+        "bd40395b5d2fe86b99efb047306b531982f24ace6c6a48bc04d64a15403fe994"
+      ],
       "text": "Holliday's on top of the garage!",
       "source": "official"
     }

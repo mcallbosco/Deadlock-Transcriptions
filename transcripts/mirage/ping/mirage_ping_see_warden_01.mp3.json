@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "ac023af51c0b84cb18b1f60bddc1bd196cec8fa75d6be6c6687adca397428262",
+      "sha256": [
+        "ac023af51c0b84cb18b1f60bddc1bd196cec8fa75d6be6c6687adca397428262"
+      ],
       "text": "I see water.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "615eb64d746770d751edfd93efab5bcfff34a9c9a41bfca3db670afc99cb8ea6",
-      "text": "I see Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "615eb64d746770d751edfd93efab5bcfff34a9c9a41bfca3db670afc99cb8ea6",
+        "ca7526784c121067092a167534676b7170324aa5b4d8028cfe05d8ce98a8f447"
+      ],
+      "text": "I see Warden",
+      "source": "official"
     },
     {
-      "sha256": "395351ba9c7577d7e05fab958afcd1e77f622d086f76d2c0e8383f141333bd6a",
+      "sha256": [
+        "395351ba9c7577d7e05fab958afcd1e77f622d086f76d2c0e8383f141333bd6a"
+      ],
       "text": "Nicey Warden!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca7526784c121067092a167534676b7170324aa5b4d8028cfe05d8ce98a8f447",
-      "text": "I see Warden",
-      "source": "official"
     }
   ]
 }

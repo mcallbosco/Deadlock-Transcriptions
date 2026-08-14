@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_greeting_02.mp3",
   "revisions": [
     {
-      "sha256": "bf3797f1bfba91529816c51166723448bca7afcb146f5dbfaa15dea8b3cb505f",
+      "sha256": [
+        "496f815817f62064d4ed0d00bce85129a6d1dd4f005e77a20a52b4d7e637fa2a",
+        "8d64611b0d0da106667d84261a1859ee0f0927d5786cb2ce2f761f6af746b6a2",
+        "bf3797f1bfba91529816c51166723448bca7afcb146f5dbfaa15dea8b3cb505f"
+      ],
       "text": "Hi, I'm Ava! It's my first day. Please don't let me die.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8d64611b0d0da106667d84261a1859ee0f0927d5786cb2ce2f761f6af746b6a2",
-      "text": "Hi, I'm Ava! It's my first day. Please don't let me die.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "496f815817f62064d4ed0d00bce85129a6d1dd4f005e77a20a52b4d7e637fa2a",
-      "text": "Hi, I'm Ava. It's my first day. Please don't let me die.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_vindicta_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "e38c6978587ded6a0a4b70680069930908770afc81059264f42c05925d8669e4",
-      "text": "Vindicta's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "418e2236b3038355c55a312d2812c0a149b6c271891ca32163b464c6095687a5",
+      "sha256": [
+        "418e2236b3038355c55a312d2812c0a149b6c271891ca32163b464c6095687a5",
+        "e38c6978587ded6a0a4b70680069930908770afc81059264f42c05925d8669e4"
+      ],
       "text": "Vindicta's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

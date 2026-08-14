@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_synth_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "e1aceb1a0985766a5dc4fa0d3a6301549a3c4301149d17970f7552ecbeb0a0c0",
-      "text": "This is us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc7e092461d94e60b914172e2d0e728b96eee3d1ca3460104ed231c5ea8e3e6d",
+      "sha256": [
+        "bc7e092461d94e60b914172e2d0e728b96eee3d1ca3460104ed231c5ea8e3e6d",
+        "e1aceb1a0985766a5dc4fa0d3a6301549a3c4301149d17970f7552ecbeb0a0c0"
+      ],
       "text": "This is us.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

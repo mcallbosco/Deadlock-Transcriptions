@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power4_06.mp3",
   "revisions": [
     {
-      "sha256": "723f2886d00eb3d1c9e552ba1540df0e56aa711161a4827d8ccf12762e60c6c6",
-      "text": "Coming in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f28d529bf152cce6c7c2c03312cdbc45a18a51ea0da6f896012af4d9e3673992",
-      "text": "Coming in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93496c8d09c6766b155634b09b60257160a92e2f45d0f3aa17e1c046d31dc043",
+      "sha256": [
+        "723f2886d00eb3d1c9e552ba1540df0e56aa711161a4827d8ccf12762e60c6c6",
+        "93496c8d09c6766b155634b09b60257160a92e2f45d0f3aa17e1c046d31dc043",
+        "f28d529bf152cce6c7c2c03312cdbc45a18a51ea0da6f896012af4d9e3673992"
+      ],
       "text": "Coming in!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

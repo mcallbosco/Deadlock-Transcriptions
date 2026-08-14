@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_see_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "a574a1d5031775fa20170837d4ac9254b2c82a914bdfec1bcc3c0aa0bb50a029",
-      "text": "I see this!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be42ed2b080f56d026479d72a8bb4d2a119cf56d203c19bb5f1507754c996fd9",
-      "text": "I see this!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "faf63ab6d947d4064db6d67a53ee0085dba9ba268e98f00739f4449046469723",
+      "sha256": [
+        "a574a1d5031775fa20170837d4ac9254b2c82a914bdfec1bcc3c0aa0bb50a029",
+        "be42ed2b080f56d026479d72a8bb4d2a119cf56d203c19bb5f1507754c996fd9",
+        "faf63ab6d947d4064db6d67a53ee0085dba9ba268e98f00739f4449046469723"
+      ],
       "text": "I see this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

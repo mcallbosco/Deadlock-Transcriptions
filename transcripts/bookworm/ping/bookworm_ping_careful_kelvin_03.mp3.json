@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_kelvin_03.mp3",
   "revisions": [
     {
-      "sha256": "774c4f74e985e5a8dc2aef911d570e6a121636ce73de8de54874146291f1cf37",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c40b3af0cbcc093e1dfa03e8d3c8a1e86cf88f9c09450847fa9dbfde57d340de",
+      "sha256": [
+        "774c4f74e985e5a8dc2aef911d570e6a121636ce73de8de54874146291f1cf37",
+        "c40b3af0cbcc093e1dfa03e8d3c8a1e86cf88f9c09450847fa9dbfde57d340de"
+      ],
       "text": "Careful, Kelvin!",
       "source": "official"
     }

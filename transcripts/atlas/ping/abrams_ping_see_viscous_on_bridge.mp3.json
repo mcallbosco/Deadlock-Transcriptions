@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_viscous_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "4ce8aad43bd0379298902c1f57c537826ffbc3d14ce4f2743cb78fa9babf6bb5",
-      "text": "This is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0acdaa7a0972e676e6373a8fe74a0d3c60c71c1ddcec6a6274a315d8f9d5634d",
-      "text": "This is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d12cb083b96950a2fd24e5ddf84d9e32b578de9ea0bde0999a1941f5b763400",
+      "sha256": [
+        "0acdaa7a0972e676e6373a8fe74a0d3c60c71c1ddcec6a6274a315d8f9d5634d",
+        "0d12cb083b96950a2fd24e5ddf84d9e32b578de9ea0bde0999a1941f5b763400",
+        "4ce8aad43bd0379298902c1f57c537826ffbc3d14ce4f2743cb78fa9babf6bb5"
+      ],
       "text": "This is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

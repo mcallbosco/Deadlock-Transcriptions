@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "2309be751b3b888e55d71ea9874557b1b9f9cfd770d71e4009c7090c26072089",
-      "text": "Ghost is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c1ee81f9813af6ac78792ddf732517b29d040d86286b2c2aa0c6f13a74e4c0e",
-      "text": "Ghost is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81943d25767ba429b6098502db8b604c2e32208e1edaa2de7efc3997cdace257",
+      "sha256": [
+        "1c1ee81f9813af6ac78792ddf732517b29d040d86286b2c2aa0c6f13a74e4c0e",
+        "2309be751b3b888e55d71ea9874557b1b9f9cfd770d71e4009c7090c26072089",
+        "81943d25767ba429b6098502db8b604c2e32208e1edaa2de7efc3997cdace257"
+      ],
       "text": "Ghost is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

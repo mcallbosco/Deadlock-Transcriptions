@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_missing_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "f6b97cc87e1e397ee205051973157ecacdb356612c26e568be3a303d28123de6",
+      "sha256": [
+        "626a8206bd70f0acf7104e5adb7b7064c04ec28b7d63e00c15302a6cb952884a",
+        "f6b97cc87e1e397ee205051973157ecacdb356612c26e568be3a303d28123de6"
+      ],
       "text": "Missing blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1f6b0ffbb1ca6513e9940b487fb9bc5a8ab465047a9e40dcc5d7e7a9a3481ddf",
+      "sha256": [
+        "0b7ca854c43a045fdfd93e6dc44b59f48254b2930d9410707a8046ce8d762048",
+        "1f6b0ffbb1ca6513e9940b487fb9bc5a8ab465047a9e40dcc5d7e7a9a3481ddf"
+      ],
       "text": "Listen blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0b7ca854c43a045fdfd93e6dc44b59f48254b2930d9410707a8046ce8d762048",
-      "text": "Listen blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "626a8206bd70f0acf7104e5adb7b7064c04ec28b7d63e00c15302a6cb952884a",
-      "text": "Missing blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

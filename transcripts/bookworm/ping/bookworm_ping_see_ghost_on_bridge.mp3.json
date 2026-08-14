@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_ghost_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "07603f6c2085dfb95f3d79a790c6bd4140c62579f5ad994d0c06f04c2ec1d696",
+      "sha256": [
+        "07603f6c2085dfb95f3d79a790c6bd4140c62579f5ad994d0c06f04c2ec1d696"
+      ],
       "text": "Crisis on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "42d8245dccff6e16fac00b34f2d3faa613fe2eda2ed33dbc174a8afcad8f1130",
+      "sha256": [
+        "42d8245dccff6e16fac00b34f2d3faa613fe2eda2ed33dbc174a8afcad8f1130"
+      ],
       "text": "Geist's on the bridge!",
       "source": "official"
     }

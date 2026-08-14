@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "677ded8385fe773a1871902a04a7d363045ecce2e1cfab85826dd040af153cd6",
+      "sha256": [
+        "677ded8385fe773a1871902a04a7d363045ecce2e1cfab85826dd040af153cd6"
+      ],
       "text": "You have one thing in common.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69cfbda57d5a4e965365045012c4ef8e3a6ec449f9494476dda6c5ede1701d62",
+      "sha256": [
+        "69cfbda57d5a4e965365045012c4ef8e3a6ec449f9494476dda6c5ede1701d62"
+      ],
       "text": "I have a message for you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e4d2227cf6ade4a000fe4e56043c5a6f71b18a6977d86dd6babd0e165c057463",
+      "sha256": [
+        "e4d2227cf6ade4a000fe4e56043c5a6f71b18a6977d86dd6babd0e165c057463"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

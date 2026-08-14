@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_wraith_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "7612d1b91ac133fe0a79d2151845c660edbc53cb97f5dda3bad04ea4bc725808",
+      "sha256": [
+        "7612d1b91ac133fe0a79d2151845c660edbc53cb97f5dda3bad04ea4bc725808"
+      ],
       "text": "I saw the wolf!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9f082129a3d6068bf5959ef10bee0fec473066c9ca7c5fd03da371a4cc99638f",
+      "sha256": [
+        "9f082129a3d6068bf5959ef10bee0fec473066c9ca7c5fd03da371a4cc99638f"
+      ],
       "text": "Wraith's on the roof!",
       "source": "official"
     }

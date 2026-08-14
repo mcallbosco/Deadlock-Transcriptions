@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power2_03.mp3",
   "revisions": [
     {
-      "sha256": "b8eba5a2f645ec2f04b67ac7d6130995519e2bcb8738ade96f1f77a18956fb7d",
+      "sha256": [
+        "b8eba5a2f645ec2f04b67ac7d6130995519e2bcb8738ade96f1f77a18956fb7d"
+      ],
       "text": "Mmm, my crew.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3c1ce9054c28ec433c97de78f6662e4e1fd35b808905328f9a32bb234c0b5c83",
+      "sha256": [
+        "3c1ce9054c28ec433c97de78f6662e4e1fd35b808905328f9a32bb234c0b5c83"
+      ],
       "text": "My bread and butter.",
       "source": "official"
     }

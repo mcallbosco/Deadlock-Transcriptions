@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_gigawatt_03.mp3",
   "revisions": [
     {
-      "sha256": "72bd3e5f7ea533a25c2955f174d7d62e08ab58ae2df2adc1d2b833821ea29f12",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9463cf497a5a94e5f35ab3d0003a7358f0eaecd814ddbb29c0b97d96c533b0c",
+      "sha256": [
+        "72bd3e5f7ea533a25c2955f174d7d62e08ab58ae2df2adc1d2b833821ea29f12",
+        "c9463cf497a5a94e5f35ab3d0003a7358f0eaecd814ddbb29c0b97d96c533b0c"
+      ],
       "text": "Careful, Seven!",
       "source": "official"
     }

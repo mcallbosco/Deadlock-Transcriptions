@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_use_rupture.mp3",
   "revisions": [
     {
-      "sha256": "fa635a9aca56b6c94444df73fe582270698646bd350a775007ec019438cea00d",
+      "sha256": [
+        "fa635a9aca56b6c94444df73fe582270698646bd350a775007ec019438cea00d"
+      ],
       "text": "Ready use the cam.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5c1496082dd558595b41c3f0ad7b187bb9341ca2b1780fabea22e575e0175fc3",
+      "sha256": [
+        "5c1496082dd558595b41c3f0ad7b187bb9341ca2b1780fabea22e575e0175fc3"
+      ],
       "text": "Ready to use Decay.",
       "source": "official"
     }

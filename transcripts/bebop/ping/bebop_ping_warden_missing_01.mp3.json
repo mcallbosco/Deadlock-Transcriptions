@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "8ebf1f1b5079ddcf1db38f67a9075eb57807172e0510454e40c9ec0d383dea9b",
+      "sha256": [
+        "8ebf1f1b5079ddcf1db38f67a9075eb57807172e0510454e40c9ec0d383dea9b"
+      ],
       "text": "Warden is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52e2aec8913abc534fee28159bcea99701df33833c75c05c996bbeebe94ed5c2",
+      "sha256": [
+        "52e2aec8913abc534fee28159bcea99701df33833c75c05c996bbeebe94ed5c2"
+      ],
       "text": "Warden's missing",
       "source": "official"
     }

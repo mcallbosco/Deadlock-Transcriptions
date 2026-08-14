@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_mirage_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "0e6e4079170698f00a18ec51fdf5ed9165562e82c88f665788fb2921bb62c8ff",
+      "sha256": [
+        "0e6e4079170698f00a18ec51fdf5ed9165562e82c88f665788fb2921bb62c8ff"
+      ],
       "text": "Mirage is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d0dfdc63215f8f673d4fd2bc6c3e6e1d309521fa4457c6a03b91d455b7edb93",
+      "sha256": [
+        "7d0dfdc63215f8f673d4fd2bc6c3e6e1d309521fa4457c6a03b91d455b7edb93"
+      ],
       "text": "Mirage's on top of the garage!",
       "source": "official"
     }

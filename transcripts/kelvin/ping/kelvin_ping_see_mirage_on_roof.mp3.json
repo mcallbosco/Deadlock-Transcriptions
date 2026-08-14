@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_see_mirage_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "a35854910929b7e1a3cb42708fb0b937d4f51143854c0d98ca67e6fcd4241965",
+      "sha256": [
+        "a35854910929b7e1a3cb42708fb0b937d4f51143854c0d98ca67e6fcd4241965"
+      ],
       "text": "What is on the roof?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "236ba815bf6907fe2fb011ee856a101b2538f2f36d1289f5bd28365eb4c4f18f",
+      "sha256": [
+        "236ba815bf6907fe2fb011ee856a101b2538f2f36d1289f5bd28365eb4c4f18f"
+      ],
       "text": "Mirage's on the roof!",
       "source": "official"
     }

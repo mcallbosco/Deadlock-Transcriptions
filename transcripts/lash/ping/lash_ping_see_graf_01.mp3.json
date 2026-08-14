@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_graf_01.mp3",
   "revisions": [
     {
-      "sha256": "9aa5208c4ecb459db0163866d937f66cb11b7bfbbacd4c0b7ddf73d110e96deb",
+      "sha256": [
+        "9aa5208c4ecb459db0163866d937f66cb11b7bfbbacd4c0b7ddf73d110e96deb"
+      ],
       "text": "I see grass.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

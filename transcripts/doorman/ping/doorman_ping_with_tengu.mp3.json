@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_with_tengu.mp3",
   "revisions": [
     {
-      "sha256": "efd200367ac1295165963bda3091591c4ce8b051db2de32a352733543059b94f",
+      "sha256": [
+        "efd200367ac1295165963bda3091591c4ce8b051db2de32a352733543059b94f"
+      ],
       "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

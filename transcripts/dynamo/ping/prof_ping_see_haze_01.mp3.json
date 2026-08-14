@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "9f6e735ff239beab72e3ea28beea7904bb51ba62f75d8f45c262e79299e9cef0",
-      "text": "I see haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "26c8c37cba5841fc6a7b9a91a864e288e25eef4649b0b9f7c8bfa40c072df37d",
+      "sha256": [
+        "26c8c37cba5841fc6a7b9a91a864e288e25eef4649b0b9f7c8bfa40c072df37d",
+        "9f6e735ff239beab72e3ea28beea7904bb51ba62f75d8f45c262e79299e9cef0"
+      ],
       "text": "I see haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

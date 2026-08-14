@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/guide_controls_zipline.mp3",
   "revisions": [
     {
-      "sha256": "222b662b97f48e88a4f19d944f90171ed8af3a6cae9f288fdb10ae0184c45860",
+      "sha256": [
+        "222b662b97f48e88a4f19d944f90171ed8af3a6cae9f288fdb10ae0184c45860"
+      ],
       "text": "Hold space to get on the line. You can jump off by pressing space.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

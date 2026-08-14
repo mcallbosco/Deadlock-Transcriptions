@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_help_with_idol.mp3",
   "revisions": [
     {
-      "sha256": "54735f9428d706240d7a3d264866f058e90f091985b06dd9b9cf8069ccf33ade",
-      "text": "Help me deliver this thing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f480075c2cebc92a9c6baaeac935dfca1edcffb125ca9815436ca45d32d7534e",
-      "text": "Help me deliver this thing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "da7873055d1239c3687ae958357da2c01b00871d0c28df47b94411cfc9e5b01d",
+      "sha256": [
+        "54735f9428d706240d7a3d264866f058e90f091985b06dd9b9cf8069ccf33ade",
+        "da7873055d1239c3687ae958357da2c01b00871d0c28df47b94411cfc9e5b01d",
+        "f480075c2cebc92a9c6baaeac935dfca1edcffb125ca9815436ca45d32d7534e"
+      ],
       "text": "Help me deliver this thing!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_multikill_04.mp3",
   "revisions": [
     {
-      "sha256": "a6ef4f5de81a9d5df42c1ae56b6ffcd1671e883a721f899f0fb2934e800e61d7",
+      "sha256": [
+        "77fb95487c7fe2bc060201506e38889d953a7ee23793f26ab66958a6692e044c",
+        "a6ef4f5de81a9d5df42c1ae56b6ffcd1671e883a721f899f0fb2934e800e61d7"
+      ],
       "text": "What have you done?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "77fb95487c7fe2bc060201506e38889d953a7ee23793f26ab66958a6692e044c",
-      "text": "What have you done?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "94d7e39c386cef64a93a316a51b8160b150fd8e1f3560dce6e2bc961ebb38ed5",
+      "sha256": [
+        "94d7e39c386cef64a93a316a51b8160b150fd8e1f3560dce6e2bc961ebb38ed5"
+      ],
       "text": "What happened?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

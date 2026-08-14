@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_see_enemy_metal_skin_03.mp3",
   "revisions": [
     {
-      "sha256": "4fc4579219165cf0a6f983ae0f50fd3d8995b2fe80f356c2e0b710afeaede34f",
-      "text": "Bullets aren't working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49524876032b5bdd822f11e8f197b546db4a2d7ffa4a79607639f3128f0f49b6",
-      "text": "Well, it's not working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f5f6675feaec3d468493ed758009335b3fdc8621b088b1238293e07de2e1ac83",
-      "text": "Well, it's not working.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d959da022b90d5b079279fb2760fe0aad58a484c8b344e82f64feb8c7b44429",
+      "sha256": [
+        "4fc4579219165cf0a6f983ae0f50fd3d8995b2fe80f356c2e0b710afeaede34f",
+        "6d959da022b90d5b079279fb2760fe0aad58a484c8b344e82f64feb8c7b44429"
+      ],
       "text": "Bullet's aren't working!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "49524876032b5bdd822f11e8f197b546db4a2d7ffa4a79607639f3128f0f49b6",
+        "f5f6675feaec3d468493ed758009335b3fdc8621b088b1238293e07de2e1ac83"
+      ],
+      "text": "Well, it's not working.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

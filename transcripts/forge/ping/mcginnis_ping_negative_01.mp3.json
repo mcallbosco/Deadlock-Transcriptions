@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_negative_01.mp3",
   "revisions": [
     {
-      "sha256": "7970ca4288dc5b25bb6fcf73d4dede3e100e308f87620bb5d60a243487eddad0",
+      "sha256": [
+        "7970ca4288dc5b25bb6fcf73d4dede3e100e308f87620bb5d60a243487eddad0",
+        "93b379dd725b9d31802a55bb02b170d6309312d263a415b32342039cc01ca00f"
+      ],
       "text": "Na.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93b379dd725b9d31802a55bb02b170d6309312d263a415b32342039cc01ca00f",
-      "text": "Na!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

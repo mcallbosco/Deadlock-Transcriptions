@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_wraith_03.mp3",
   "revisions": [
     {
-      "sha256": "ffc90c71255a9f680210e9e3bef613bb9734c8d3616f4f6494987c04b1f2e446",
-      "text": "You're good at one-on-one fights, Wraith. Too bad there's two of us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "56df3b23a296218b3f72d2f4aa9f7fe08631dd48f3b68b1ff6825cad2b02033f",
-      "text": "You're good at one-on-one fights, Raze. Too bad there's two of us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d3c88598d80e3ea5fd18fa5f45e0e6221cdff825c45cb15eada011a243d90d5",
-      "text": "You're good at one-on-one fights, Raze. Too bad there's two of us.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "42f3271be3543dcb4aa3ce605dcb17dae0f63392f0d4217429383d7049016d9e",
+      "sha256": [
+        "42f3271be3543dcb4aa3ce605dcb17dae0f63392f0d4217429383d7049016d9e",
+        "ffc90c71255a9f680210e9e3bef613bb9734c8d3616f4f6494987c04b1f2e446"
+      ],
       "text": "You're good at one-on-one fights wraith… too bad there's two of us.",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "56df3b23a296218b3f72d2f4aa9f7fe08631dd48f3b68b1ff6825cad2b02033f",
+        "7d3c88598d80e3ea5fd18fa5f45e0e6221cdff825c45cb15eada011a243d90d5"
+      ],
+      "text": "You're good at one-on-one fights, Raze. Too bad there's two of us.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

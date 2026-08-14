@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_with_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "cecdc07913f78d8dd504ede0ff0d24ff70a7c77268a407e4bd1441bec3bc41ae",
-      "text": "I'm with you, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "642a774d679ef2be0d55d559324b88c36cad78d73a5c41ffe180cad6f0d53fa2",
+      "sha256": [
+        "642a774d679ef2be0d55d559324b88c36cad78d73a5c41ffe180cad6f0d53fa2",
+        "cecdc07913f78d8dd504ede0ff0d24ff70a7c77268a407e4bd1441bec3bc41ae"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_viper_03.mp3",
   "revisions": [
     {
-      "sha256": "87ba49a6912af3a39fff21f180e0aa55dd78e640d49db9f958c6bab1bd286c32",
+      "sha256": [
+        "87ba49a6912af3a39fff21f180e0aa55dd78e640d49db9f958c6bab1bd286c32"
+      ],
       "text": "Careful, Viper!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1108d6e50316a1f681b8a1d480fcd312634a7cfbd568fda87a2004770b71dca0",
+      "sha256": [
+        "1108d6e50316a1f681b8a1d480fcd312634a7cfbd568fda87a2004770b71dca0"
+      ],
       "text": "Careful, Vyper!",
       "source": "official"
     }

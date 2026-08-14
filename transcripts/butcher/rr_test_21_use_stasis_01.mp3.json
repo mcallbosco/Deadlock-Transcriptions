@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_stasis_01.mp3",
   "revisions": [
     {
-      "sha256": "75aa75171a26aa01583ab4d3e107f4337f4b59905792631149a8a91e2bc07117",
-      "text": "Out of play.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e3e9215f27ad083502eeb28a395f54507e22937b18f51d8c4e6bd862f0f0031",
-      "text": "Out of play.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f9bd712a259e91ddb99184d7be3eb69575cb445c691fa961c4334fa6058e410",
+      "sha256": [
+        "1e3e9215f27ad083502eeb28a395f54507e22937b18f51d8c4e6bd862f0f0031",
+        "4f9bd712a259e91ddb99184d7be3eb69575cb445c691fa961c4334fa6058e410",
+        "75aa75171a26aa01583ab4d3e107f4337f4b59905792631149a8a91e2bc07117"
+      ],
       "text": "Out of play.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

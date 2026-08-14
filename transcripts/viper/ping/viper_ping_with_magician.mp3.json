@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_magician.mp3",
   "revisions": [
     {
-      "sha256": "880dff15482eb18e491f0ca67a4896057bd2b657b1fb92e0f3ae61cd935512b8",
+      "sha256": [
+        "880dff15482eb18e491f0ca67a4896057bd2b657b1fb92e0f3ae61cd935512b8"
+      ],
       "text": "I'm with you, Magician!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a710999eab97074f232971484c515d1374826b6cedabfdf67444656b5221743f",
+      "sha256": [
+        "a710999eab97074f232971484c515d1374826b6cedabfdf67444656b5221743f"
+      ],
       "text": "I'm with you, Sinclair!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

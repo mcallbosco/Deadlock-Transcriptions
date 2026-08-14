@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_press_advantage.mp3",
   "revisions": [
     {
-      "sha256": "985e9961a6329e37e3a68069c387b7417d04b7b58d6c9d533e8848969cf9ddf4",
-      "text": "We need to press the advantage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e3a9b3b2878ab71ada8f4307597861b1a0702ff94fce2fb61198a918c7c9220",
+      "sha256": [
+        "7e3a9b3b2878ab71ada8f4307597861b1a0702ff94fce2fb61198a918c7c9220",
+        "985e9961a6329e37e3a68069c387b7417d04b7b58d6c9d533e8848969cf9ddf4"
+      ],
       "text": "We need to press the advantage!",
       "source": "official"
     }

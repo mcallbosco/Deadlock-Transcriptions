@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_cadence_01.mp3",
   "revisions": [
     {
-      "sha256": "793ef93f924ed31c20d9c534621eff96b1eecd73c9683ce200bb03b1b29da9ca",
-      "text": "Careful guidance.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "07f10cb90c5351846da07ed8ca7d8f38b586aad5943d884135a1bf4e18f7e188",
+      "sha256": [
+        "07f10cb90c5351846da07ed8ca7d8f38b586aad5943d884135a1bf4e18f7e188",
+        "793ef93f924ed31c20d9c534621eff96b1eecd73c9683ce200bb03b1b29da9ca"
+      ],
       "text": "Careful guidance.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

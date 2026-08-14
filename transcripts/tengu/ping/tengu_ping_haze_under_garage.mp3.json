@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_haze_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "7cc53b3495a21152d4c8227051634f41577e60403ba1968552d63a6ebfb7df77",
+      "sha256": [
+        "7cc53b3495a21152d4c8227051634f41577e60403ba1968552d63a6ebfb7df77"
+      ],
       "text": "Hey, sound of a garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4a0e39f27343912163f302d07c85a2a864a4b025a47d93e5861b0ab029ca8a7e",
+      "sha256": [
+        "4a0e39f27343912163f302d07c85a2a864a4b025a47d93e5861b0ab029ca8a7e"
+      ],
       "text": "Haze's under the garage!",
       "source": "official"
     }

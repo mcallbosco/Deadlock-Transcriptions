@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_ghost_02.mp3",
   "revisions": [
     {
-      "sha256": "7152f41e6abde7978db70b2811dcc38b1deed0a76b8a7ab86428ec3d5c9ddc33",
+      "sha256": [
+        "7152f41e6abde7978db70b2811dcc38b1deed0a76b8a7ab86428ec3d5c9ddc33"
+      ],
       "text": "Capo Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e210a9d846b55994f68aac83302395e4dea6940423e5b2f939f321785d6fc4ed",
+      "sha256": [
+        "e210a9d846b55994f68aac83302395e4dea6940423e5b2f939f321785d6fc4ed"
+      ],
       "text": "Careful, Geist.",
       "source": "official"
     }

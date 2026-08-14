@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_happy_10.mp3",
   "revisions": [
     {
-      "sha256": "ce93147ea5e701c88da5e54cf1b6a55d0c8261a38895629e85eea9004b3740c6",
-      "text": "We have the advantage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3930f3ca4da0ae254cc78c5ad4232c5c05a5e86cde7a26b859396a122b3acf27",
-      "text": "We have the advantage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "edb3314851f3c38c46c220d4f91bf8479988f27945a80c05d67cdb110baa9fc0",
-      "text": "We have the advantage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96f46c426c1eb99e2ad1153454aed3158b124a9c950bce13e35c728e65029a9f",
+      "sha256": [
+        "3930f3ca4da0ae254cc78c5ad4232c5c05a5e86cde7a26b859396a122b3acf27",
+        "96f46c426c1eb99e2ad1153454aed3158b124a9c950bce13e35c728e65029a9f",
+        "ce93147ea5e701c88da5e54cf1b6a55d0c8261a38895629e85eea9004b3740c6",
+        "edb3314851f3c38c46c220d4f91bf8479988f27945a80c05d67cdb110baa9fc0"
+      ],
       "text": "We have the advantage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

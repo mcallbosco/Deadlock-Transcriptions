@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_orange_guardian_destroyed_02.mp3",
   "revisions": [
     {
-      "sha256": "eb0f68f10c58fb8d76a1c9ef35ec5874a505c3a87741553ff680871b65b5f81a",
+      "sha256": [
+        "ba7ffbde3d965c4c2cae1cd0cf8fe2252888d4af36f44958fb3f5ef16e0474c3",
+        "eb0f68f10c58fb8d76a1c9ef35ec5874a505c3a87741553ff680871b65b5f81a"
+      ],
       "text": "Our orange guardian has been defeated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba7ffbde3d965c4c2cae1cd0cf8fe2252888d4af36f44958fb3f5ef16e0474c3",
-      "text": "Our orange Guardian has been defeated.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

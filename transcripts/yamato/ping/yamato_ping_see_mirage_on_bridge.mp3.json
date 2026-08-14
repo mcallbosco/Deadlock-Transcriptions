@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_mirage_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "6a7ac3d5fabe9629f8b3773aaf0e264475c292085958557f2d1217b05c36d693",
+      "sha256": [
+        "6a7ac3d5fabe9629f8b3773aaf0e264475c292085958557f2d1217b05c36d693"
+      ],
       "text": "Maraji's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bc2875d85bd35165ed1382d6a5956f9ecb65ef389c4c10d199d567d5e62a7df9",
+      "sha256": [
+        "bc2875d85bd35165ed1382d6a5956f9ecb65ef389c4c10d199d567d5e62a7df9"
+      ],
       "text": "The manager is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7ad75441738d152f3eab8b9f5cbeb8e832650a23f55be8d8f17506862adcf0ec",
+      "sha256": [
+        "7ad75441738d152f3eab8b9f5cbeb8e832650a23f55be8d8f17506862adcf0ec"
+      ],
       "text": "Mirage's on the bridge!",
       "source": "official"
     }

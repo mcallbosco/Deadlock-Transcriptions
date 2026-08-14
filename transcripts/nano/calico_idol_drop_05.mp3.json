@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_idol_drop_05.mp3",
   "revisions": [
     {
-      "sha256": "e739515f1bf687ad05b91556084f2f379144f500796eac19b0071c3acf533c6c",
-      "text": "Do we want to take the urn?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2a5d77eedcb9ba0d188a214e2335b6d4a7fa6d8750d6f0c7d0da8a0b59227ef",
+      "sha256": [
+        "e2a5d77eedcb9ba0d188a214e2335b6d4a7fa6d8750d6f0c7d0da8a0b59227ef",
+        "e739515f1bf687ad05b91556084f2f379144f500796eac19b0071c3acf533c6c"
+      ],
       "text": "Do we want to take the urn?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

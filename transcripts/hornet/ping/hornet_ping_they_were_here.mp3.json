@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/hornet_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "a13d5eeb3f91539816202dca121a770f651da1b3ee495b8a5e76870b59aab13b",
+      "sha256": [
+        "a13d5eeb3f91539816202dca121a770f651da1b3ee495b8a5e76870b59aab13b"
+      ],
       "text": "They were here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

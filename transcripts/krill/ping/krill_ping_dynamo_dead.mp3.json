@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "080a9791e0374f0b9c2d048cf9a9b447c39fffbdac4163eb42df3ce838ff1669",
+      "sha256": [
+        "080a9791e0374f0b9c2d048cf9a9b447c39fffbdac4163eb42df3ce838ff1669"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

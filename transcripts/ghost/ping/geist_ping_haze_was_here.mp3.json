@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "658328479ea6825f432f52bd6821c77b3d331d7092b86c5bf984d3d84e1521b5",
+      "sha256": [
+        "658328479ea6825f432f52bd6821c77b3d331d7092b86c5bf984d3d84e1521b5"
+      ],
       "text": "Hey, we're here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "09082fb266f95db45b7e263b6647cd5b39c94ce12662cbde3db288410e33a950",
+      "sha256": [
+        "09082fb266f95db45b7e263b6647cd5b39c94ce12662cbde3db288410e33a950"
+      ],
       "text": "Pay for here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

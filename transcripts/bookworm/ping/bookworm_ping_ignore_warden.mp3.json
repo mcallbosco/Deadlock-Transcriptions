@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_warden.mp3",
   "revisions": [
     {
-      "sha256": "6db2df650ed87690c1e0b34e309738ed2b5ab0a721587f62d707e2ea4bdbb2b9",
-      "text": "Ignore Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "038b1c218e3e7b4a5e470cf9b5c8040729ad6a1ac70b5527b9cadf0c0d9b1e2b",
+      "sha256": [
+        "038b1c218e3e7b4a5e470cf9b5c8040729ad6a1ac70b5527b9cadf0c0d9b1e2b",
+        "6db2df650ed87690c1e0b34e309738ed2b5ab0a721587f62d707e2ea4bdbb2b9"
+      ],
       "text": "Ignore Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "32332c9fc403c24ca8292663cbde8aabf84a011497a87060424e25c3869c17d3",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d90b2bc64818d5ca2c38babcc6a0b7a204bc68335871a512c8e628a9180c188",
+      "sha256": [
+        "32332c9fc403c24ca8292663cbde8aabf84a011497a87060424e25c3869c17d3",
+        "7d90b2bc64818d5ca2c38babcc6a0b7a204bc68335871a512c8e628a9180c188"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

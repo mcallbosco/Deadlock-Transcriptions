@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_mcginnis_03.mp3",
   "revisions": [
     {
-      "sha256": "bd27c9552336aa587d8325ce9677713739938ecdf9361f6e801b579e392c3cc2",
-      "text": "Careful, McGinnis!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50a798eb9c33804688276793edb6361f108aa0657200c708c9c5e1efba6fa78d",
+      "sha256": [
+        "50a798eb9c33804688276793edb6361f108aa0657200c708c9c5e1efba6fa78d",
+        "bd27c9552336aa587d8325ce9677713739938ecdf9361f6e801b579e392c3cc2"
+      ],
       "text": "Careful, McGinnis!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

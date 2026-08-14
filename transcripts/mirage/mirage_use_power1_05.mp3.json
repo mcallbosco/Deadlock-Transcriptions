@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_use_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "7c2f875c88e2085725bf3a1311d0b1d092633152678ac9e52c010045107f4289",
+      "sha256": [
+        "7c2f875c88e2085725bf3a1311d0b1d092633152678ac9e52c010045107f4289"
+      ],
       "text": "I'll stop you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e043411f8484d482b6ea118418222fc98dfe0b630bbed36242860246de57e9cc",
-      "text": "The elements obey me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fcbfef84c37162c6474a6bf32c2684adb355470ff795a3d29a0dd9ec9e48e5c7",
-      "text": "The elements obey me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32270b3d63eaf680175ae5ed1c6c7988fff94f772c53df41fd68627d8d1e632d",
+      "sha256": [
+        "32270b3d63eaf680175ae5ed1c6c7988fff94f772c53df41fd68627d8d1e632d",
+        "e043411f8484d482b6ea118418222fc98dfe0b630bbed36242860246de57e9cc",
+        "fcbfef84c37162c6474a6bf32c2684adb355470ff795a3d29a0dd9ec9e48e5c7"
+      ],
       "text": "the elements obey me…",
       "source": "official"
     }

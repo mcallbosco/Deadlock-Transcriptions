@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_grant_boon_general_07.mp3",
   "revisions": [
     {
-      "sha256": "24ba5d5bc6e2fa587ea3cc2514da5a76222fd4cec0a322858c93dc4dd2f9ef49",
+      "sha256": [
+        "24ba5d5bc6e2fa587ea3cc2514da5a76222fd4cec0a322858c93dc4dd2f9ef49",
+        "4583aad42cf412f22025b50be3f6185b9e5caa2c45467f3a26dac477f2098f00"
+      ],
       "text": "Your patron gives freely.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4583aad42cf412f22025b50be3f6185b9e5caa2c45467f3a26dac477f2098f00",
-      "text": "Your patron gives freely.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7e0cd5dbcf0e549718aaed2f4870dba59111b0069a7dd96d3d99de7103dcc62",
+      "sha256": [
+        "d7e0cd5dbcf0e549718aaed2f4870dba59111b0069a7dd96d3d99de7103dcc62"
+      ],
       "text": "You have been favored by The Archmother",
       "source": "official"
     }

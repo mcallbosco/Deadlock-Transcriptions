@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "c208d4abb581b352528ca99f1b55023c4582944ca4386ee099fdebafd883f40e",
-      "text": "I see wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "c208d4abb581b352528ca99f1b55023c4582944ca4386ee099fdebafd883f40e",
+        "d41c97d5eb69afe793fcf3f6823128f48b7d7c56244157ed532307787684de69",
+        "fdfe40f83707e2dba3f7156754ab65ee899b28e07c7c5b82b8348ed05af35e7e"
+      ],
+      "text": "I see Wrecker",
+      "source": "official"
     },
     {
-      "sha256": "691f354e62bcf0a596f4a4d94271298a85296d4ddc7b3e6691ac340064e54786",
+      "sha256": [
+        "691f354e62bcf0a596f4a4d94271298a85296d4ddc7b3e6691ac340064e54786"
+      ],
       "text": "Machine wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdfe40f83707e2dba3f7156754ab65ee899b28e07c7c5b82b8348ed05af35e7e",
-      "text": "I see wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d41c97d5eb69afe793fcf3f6823128f48b7d7c56244157ed532307787684de69",
-      "text": "I see Wrecker",
-      "source": "official"
     }
   ]
 }

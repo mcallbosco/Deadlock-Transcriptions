@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "641b004a9ecfd90ed58cfbd5b714d55dafc7a7108f6bbfc0ba6bb758347d361f",
-      "text": "Forge is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6081e5bbec4e48c2b70e23f6f8fecf352a9230e596aceb2bea28a8e71b6003db",
-      "text": "Forge is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25d8d13be693817c45c3a6491fd5b0ab1f0e394187631c11e3598e75e14f297b",
+      "sha256": [
+        "25d8d13be693817c45c3a6491fd5b0ab1f0e394187631c11e3598e75e14f297b",
+        "6081e5bbec4e48c2b70e23f6f8fecf352a9230e596aceb2bea28a8e71b6003db",
+        "641b004a9ecfd90ed58cfbd5b714d55dafc7a7108f6bbfc0ba6bb758347d361f"
+      ],
       "text": "Forge is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

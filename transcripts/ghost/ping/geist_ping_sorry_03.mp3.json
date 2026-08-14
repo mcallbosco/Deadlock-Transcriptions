@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_sorry_03.mp3",
   "revisions": [
     {
-      "sha256": "e17c3ad8e2a6390e9a96d72a8b1c690edda223f313f55ebd0359f55c346273fe",
-      "text": "My fault.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00f404ded0573abba0022632a8d0eb654072ce13a421241983faa1e1e3c81aea",
+      "sha256": [
+        "00f404ded0573abba0022632a8d0eb654072ce13a421241983faa1e1e3c81aea",
+        "e17c3ad8e2a6390e9a96d72a8b1c690edda223f313f55ebd0359f55c346273fe"
+      ],
       "text": "My fault.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

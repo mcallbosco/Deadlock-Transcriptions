@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_help_out_yamato.mp3",
   "revisions": [
     {
-      "sha256": "786876cd644ccdc2f2900e21edb6477907fd5f7bebfe72f43715a954c4c048ab",
-      "text": "Yamato needs assistance.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "74c08f9cdf4ff4a8702afbfc6081274dfb2de6e915c93aa5884ee728ecf50455",
+      "sha256": [
+        "74c08f9cdf4ff4a8702afbfc6081274dfb2de6e915c93aa5884ee728ecf50455",
+        "786876cd644ccdc2f2900e21edb6477907fd5f7bebfe72f43715a954c4c048ab"
+      ],
       "text": "Yamato needs assistance.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

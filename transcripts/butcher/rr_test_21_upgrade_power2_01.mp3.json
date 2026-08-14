@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power2_01.mp3",
   "revisions": [
     {
-      "sha256": "1dfdf2ee331722ccec59e01d9ee12beeea8b662838043897fd634682112b6ec8",
-      "text": "I'll keep them at bay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8798a84e8990563d8fe729e697ce009e13b6856910baf12fcda006aa8ca656c",
-      "text": "I'll keep them at bay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87dde634dbb57e8b5e4628f40f183f1f5ed1a9c3102073bc939b132f04e5f897",
+      "sha256": [
+        "1dfdf2ee331722ccec59e01d9ee12beeea8b662838043897fd634682112b6ec8",
+        "87dde634dbb57e8b5e4628f40f183f1f5ed1a9c3102073bc939b132f04e5f897",
+        "a8798a84e8990563d8fe729e697ce009e13b6856910baf12fcda006aa8ca656c"
+      ],
       "text": "I'll keep them at bay.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

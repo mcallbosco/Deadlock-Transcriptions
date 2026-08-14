@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/guide_the_map_welcome.mp3",
   "revisions": [
     {
-      "sha256": "5a0e0c1fee9e01777c9c1f51a5e43d8a9e610eeb1a710a005629448f705ffc12",
+      "sha256": [
+        "5a0e0c1fee9e01777c9c1f51a5e43d8a9e610eeb1a710a005629448f705ffc12"
+      ],
       "text": "Welcome to the Cursed Apple. If your team wants to emerge victorious, you'll need to wield both guns and supernatural powers to lay siege to the enemy base.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

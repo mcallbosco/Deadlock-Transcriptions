@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_forge_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c00f95bd980b63d9004121adef5a81b9526b50d53af5d7d69c2c8b46d4e85a4d",
-      "text": "McGinnis is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05b94684a4988c19781a7adfa7e5234110531e399a0a8ec026f84e072ea44b67",
+      "sha256": [
+        "05b94684a4988c19781a7adfa7e5234110531e399a0a8ec026f84e072ea44b67",
+        "c00f95bd980b63d9004121adef5a81b9526b50d53af5d7d69c2c8b46d4e85a4d"
+      ],
       "text": "McGinnis is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

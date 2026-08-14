@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "6dc7b7c00a85a9d3ff313931df5308cf3e7c76065be2aef2e5b86c23b71c37e0",
-      "text": "I saw Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "096f905bac2ff3ffacf5fda6bd5bf86c5ff1e110dc16abd79c3113583d5f537c",
-      "text": "I saw Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8d281059a0a3d9a322cf138d3cbb2915efeba66e3e054e377442d24eb64652b6",
+      "sha256": [
+        "096f905bac2ff3ffacf5fda6bd5bf86c5ff1e110dc16abd79c3113583d5f537c",
+        "6dc7b7c00a85a9d3ff313931df5308cf3e7c76065be2aef2e5b86c23b71c37e0",
+        "8d281059a0a3d9a322cf138d3cbb2915efeba66e3e054e377442d24eb64652b6"
+      ],
       "text": "I saw Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

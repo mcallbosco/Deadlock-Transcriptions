@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "0e7f2f6b2a2823b15ebcf53536d90a70d819c55da9d271065723512328be693d",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "713cb51d7aa2c0decfebb4b8e2349ded52e21c9fda3df88b557b3e9ff5b8b1f3",
+      "sha256": [
+        "0e7f2f6b2a2823b15ebcf53536d90a70d819c55da9d271065723512328be693d",
+        "713cb51d7aa2c0decfebb4b8e2349ded52e21c9fda3df88b557b3e9ff5b8b1f3"
+      ],
       "text": "I see Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

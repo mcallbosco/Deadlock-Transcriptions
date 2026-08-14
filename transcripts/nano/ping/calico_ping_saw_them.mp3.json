@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "7663fc7eb5e8752bc6d60f8f21c857687a67e3ed9d55392090386be0ab05bbc4",
-      "text": "I saw them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fee47e8653f6d607318184bbdfee9b9fb6214caae2d4d6951dbd22c8070f57b5",
+      "sha256": [
+        "7663fc7eb5e8752bc6d60f8f21c857687a67e3ed9d55392090386be0ab05bbc4",
+        "fee47e8653f6d607318184bbdfee9b9fb6214caae2d4d6951dbd22c8070f57b5"
+      ],
       "text": "I saw them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

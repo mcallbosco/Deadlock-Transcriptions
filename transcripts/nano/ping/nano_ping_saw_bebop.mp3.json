@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "4a108444a93063219b8819be087a2080872962bd63a1723b6fd4920cda1313e6",
+      "sha256": [
+        "4a108444a93063219b8819be087a2080872962bd63a1723b6fd4920cda1313e6"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

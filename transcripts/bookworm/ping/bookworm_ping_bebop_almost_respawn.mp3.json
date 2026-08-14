@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_bebop_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "426d65ad340f4b3ce607b19b014a44280754ef4369f7971f870a57446e8e82dc",
+      "sha256": [
+        "426d65ad340f4b3ce607b19b014a44280754ef4369f7971f870a57446e8e82dc"
+      ],
       "text": "Bebop is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dd6089f39650a5cef67efeb4717f6802d041419396f14e9c934c996aeb299242",
+      "sha256": [
+        "dd6089f39650a5cef67efeb4717f6802d041419396f14e9c934c996aeb299242"
+      ],
       "text": "Viva, somos back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

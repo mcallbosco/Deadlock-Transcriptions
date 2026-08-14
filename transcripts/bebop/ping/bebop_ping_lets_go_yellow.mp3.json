@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_lets_go_yellow.mp3",
   "revisions": [
     {
-      "sha256": "7a39522c9e5d60fb9803078ee183489c4a4d931d1684353c0ba6b212890348f3",
-      "text": "Let's go yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d79cd1dd93002db725fe5317371b5ec337e129fafef3381a0e3bcece259282b",
+      "sha256": [
+        "2d79cd1dd93002db725fe5317371b5ec337e129fafef3381a0e3bcece259282b",
+        "7a39522c9e5d60fb9803078ee183489c4a4d931d1684353c0ba6b212890348f3"
+      ],
       "text": "Let's go yellow!",
       "source": "official"
     }

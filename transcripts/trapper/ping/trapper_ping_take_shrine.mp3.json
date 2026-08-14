@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_take_shrine.mp3",
   "revisions": [
     {
-      "sha256": "6e204cbce493ddbf3338eb032ad2b87534a9a6e65d199dfc2555db831f36d565",
+      "sha256": [
+        "6e204cbce493ddbf3338eb032ad2b87534a9a6e65d199dfc2555db831f36d565"
+      ],
       "text": "It's time to end this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

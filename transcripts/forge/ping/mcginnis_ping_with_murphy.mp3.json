@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "6cd859c72f82f3bbdac5fcd9b02253ad36e267b7ddd4475346403ed365195509",
+      "sha256": [
+        "6b402a1650c8f908fd05d029c93b9cfd5e63d14aff94f90e1730e3e8324b3cb9",
+        "6cd859c72f82f3bbdac5fcd9b02253ad36e267b7ddd4475346403ed365195509"
+      ],
       "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b402a1650c8f908fd05d029c93b9cfd5e63d14aff94f90e1730e3e8324b3cb9",
-      "text": "I'm with you, Murphy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

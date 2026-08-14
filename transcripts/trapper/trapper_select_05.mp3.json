@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/trapper_select_05.mp3",
   "revisions": [
     {
-      "sha256": "27dbecdf774d1324067b44c810593aa646538735e684dcc7c6c000cfb7eac96c",
+      "sha256": [
+        "27dbecdf774d1324067b44c810593aa646538735e684dcc7c6c000cfb7eac96c"
+      ],
       "text": "God, I love New York!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

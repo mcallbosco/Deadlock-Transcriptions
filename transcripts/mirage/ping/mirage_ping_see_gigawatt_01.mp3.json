@@ -1,26 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "4867107e969f58ef7e1cb9f6f2b941ad55ebea8dfb79426dbb6133f785c7c8da",
+      "sha256": [
+        "4867107e969f58ef7e1cb9f6f2b941ad55ebea8dfb79426dbb6133f785c7c8da"
+      ],
       "text": "I seek it all.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "db08c996d77c5e6ea69d5efe7c86b175b5bf5766060a4f905742611ee9379cbb",
+      "sha256": [
+        "db08c996d77c5e6ea69d5efe7c86b175b5bf5766060a4f905742611ee9379cbb"
+      ],
       "text": "Ashi7!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1357f63f961b3e1125871b45f6df75c278606de15a2395c4ee48a1c86016793c",
-      "text": "I see Seven!",
-      "source": "manual"
-    },
-    {
-      "sha256": "5c44751feabcc23fd3151e05a83ed33e6779adf14f6e29853019674755e683a0",
+      "sha256": [
+        "1357f63f961b3e1125871b45f6df75c278606de15a2395c4ee48a1c86016793c",
+        "5c44751feabcc23fd3151e05a83ed33e6779adf14f6e29853019674755e683a0"
+      ],
       "text": "I see Seven",
       "source": "official"
     }

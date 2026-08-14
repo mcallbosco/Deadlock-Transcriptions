@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_synth_03.mp3",
   "revisions": [
     {
-      "sha256": "ed7267f23cf134ebddfbfab674bdc0e7bf48b804d9efac4619044ecb09c130b6",
+      "sha256": [
+        "ed7267f23cf134ebddfbfab674bdc0e7bf48b804d9efac4619044ecb09c130b6"
+      ],
       "text": "Careful, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b1c8e54509a0311c7af8625dde67c0e04242ef58627f3a9af84e8936b4e4e165",
-      "text": "Careful, pockets.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "073c04f91e83a96d134c8f2a9d703b1cc487a52c7fe8e40fdeeaa4167464f44b",
+      "sha256": [
+        "073c04f91e83a96d134c8f2a9d703b1cc487a52c7fe8e40fdeeaa4167464f44b",
+        "b1c8e54509a0311c7af8625dde67c0e04242ef58627f3a9af84e8936b4e4e165"
+      ],
       "text": "Careful, pockets.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

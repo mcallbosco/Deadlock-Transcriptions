@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_saw_mirage.mp3",
   "revisions": [
     {
-      "sha256": "e24704f02b682c60629aef0df8654af10e31ec41dcb75f9863ab1f2a4627889f",
+      "sha256": [
+        "3a8d2ef0c6e6e8982491f4eb8e2004d65b57f0ecf2769026836d41324c86b9fc",
+        "e24704f02b682c60629aef0df8654af10e31ec41dcb75f9863ab1f2a4627889f"
+      ],
       "text": "Summarize.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a8d2ef0c6e6e8982491f4eb8e2004d65b57f0ecf2769026836d41324c86b9fc",
-      "text": "Summarize.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73edb83ed6cba5c0569d0de8c632e87fc7ed0b34855170770c0b8466af8985a6",
+      "sha256": [
+        "73edb83ed6cba5c0569d0de8c632e87fc7ed0b34855170770c0b8466af8985a6"
+      ],
       "text": "Assomarage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

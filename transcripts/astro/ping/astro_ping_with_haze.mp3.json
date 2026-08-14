@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "350f60bd4a49b3a62515760a0715a98ac63f87375c1bd0a4b6c0d34e0650f7ca",
+      "sha256": [
+        "350f60bd4a49b3a62515760a0715a98ac63f87375c1bd0a4b6c0d34e0650f7ca"
+      ],
       "text": "Come with you, Haze?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

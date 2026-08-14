@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_geist_check_items.mp3",
   "revisions": [
     {
-      "sha256": "e7d8a9988ebfcd2ed36d5b788fd63b9fa59433f1a933a574f1516cb1f658b086",
-      "text": "Check out what McGinnis bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b887f332abe790f535366efeb2851ccc73f01fcaa5d3e61de06b6a924b6e2852",
+      "sha256": [
+        "b887f332abe790f535366efeb2851ccc73f01fcaa5d3e61de06b6a924b6e2852",
+        "e7d8a9988ebfcd2ed36d5b788fd63b9fa59433f1a933a574f1516cb1f658b086"
+      ],
       "text": "Check out what McGinnis bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

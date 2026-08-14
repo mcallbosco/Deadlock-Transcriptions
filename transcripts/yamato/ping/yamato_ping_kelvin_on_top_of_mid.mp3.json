@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_kelvin_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "069a61f5b86443f18b7b4b386f1effba4ca3f881246f20c1232b7413b05ab9e3",
+      "sha256": [
+        "069a61f5b86443f18b7b4b386f1effba4ca3f881246f20c1232b7413b05ab9e3",
+        "9b954fbdbbb04184fee53a3892047c5d35210ddd21a357f524fbf5f081016a54"
+      ],
       "text": "Kelvin's on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "fd0cb2603214d086644a6c1d5b81adc55573bd30625112a3227fd21122afb3c3",
+      "sha256": [
+        "fd0cb2603214d086644a6c1d5b81adc55573bd30625112a3227fd21122afb3c3"
+      ],
       "text": "Carebear is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b954fbdbbb04184fee53a3892047c5d35210ddd21a357f524fbf5f081016a54",
-      "text": "Kelvin's on top of mid!",
-      "source": "official"
     }
   ]
 }

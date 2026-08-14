@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0a880d76f3fdb2ccbf3e14537ed73cf7ce69c3aa9799483e6bd669f4f1c3c73e",
+      "sha256": [
+        "0a880d76f3fdb2ccbf3e14537ed73cf7ce69c3aa9799483e6bd669f4f1c3c73e"
+      ],
       "text": "Hey, it's right here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

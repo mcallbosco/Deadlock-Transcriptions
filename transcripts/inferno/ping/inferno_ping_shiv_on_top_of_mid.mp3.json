@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_shiv_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "32d576f49e8f125019900475bd32b24c1b9cb6764fd7b08e03caa57bc98b7967",
+      "sha256": [
+        "32d576f49e8f125019900475bd32b24c1b9cb6764fd7b08e03caa57bc98b7967"
+      ],
       "text": "She was on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "849b9f56e19513cfb2525f109976608a52a951f86970321393e45803aec5873c",
+      "sha256": [
+        "849b9f56e19513cfb2525f109976608a52a951f86970321393e45803aec5873c",
+        "dde9700376aaac03130f1b2f4d32b0fa46351bbd9f660107e6cd189984f8bf54"
+      ],
       "text": "Shiv's on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "7c47dee42f1e9e1efe1efcf5c3051f10e580283de7987d5e7bc51da276968ce0",
+      "sha256": [
+        "7c47dee42f1e9e1efe1efcf5c3051f10e580283de7987d5e7bc51da276968ce0"
+      ],
       "text": "Ship's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dde9700376aaac03130f1b2f4d32b0fa46351bbd9f660107e6cd189984f8bf54",
-      "text": "Shiv's on top of mid!",
-      "source": "official"
     }
   ]
 }

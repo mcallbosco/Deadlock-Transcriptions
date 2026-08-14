@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_need_plan.mp3",
   "revisions": [
     {
-      "sha256": "1819ff3d3cf5e762ca53fb69e1e54d56e35280952df8dcf3124899f9f26a8696",
-      "text": "What's the plan?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1780e5757389b9f7e01738110931cb66b8e99d3ccddceb17a3b27a5ae5ca6f84",
+      "sha256": [
+        "1780e5757389b9f7e01738110931cb66b8e99d3ccddceb17a3b27a5ae5ca6f84",
+        "1819ff3d3cf5e762ca53fb69e1e54d56e35280952df8dcf3124899f9f26a8696"
+      ],
       "text": "What's the plan?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

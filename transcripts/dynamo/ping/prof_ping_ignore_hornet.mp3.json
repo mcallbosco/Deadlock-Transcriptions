@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_ignore_hornet.mp3",
   "revisions": [
     {
-      "sha256": "ca0a457e39474c028a1a045d8f599ed872a06237cd8d909859d3063549563b18",
+      "sha256": [
+        "ca0a457e39474c028a1a045d8f599ed872a06237cd8d909859d3063549563b18",
+        "dbe37d1e98db18ccc9df39531cd51a33b473f717df9dd88242b870bed4158eea"
+      ],
       "text": "Ignore Vindicta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbe37d1e98db18ccc9df39531cd51a33b473f717df9dd88242b870bed4158eea",
-      "text": "Ignore Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

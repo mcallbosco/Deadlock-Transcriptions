@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_forge.mp3",
   "revisions": [
     {
-      "sha256": "d5008c7e535439e263ab8677232fe815891e4075985a673a0c742a3714c4f2ce",
+      "sha256": [
+        "d5008c7e535439e263ab8677232fe815891e4075985a673a0c742a3714c4f2ce"
+      ],
       "text": "I'm with you, Miguin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

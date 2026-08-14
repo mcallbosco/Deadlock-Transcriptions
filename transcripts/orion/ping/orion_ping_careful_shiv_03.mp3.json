@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_careful_shiv_03.mp3",
   "revisions": [
     {
-      "sha256": "3b231fc8b5cf72f06a3ab33a68e0bb23751dcc2ae2ab731b6a9751b29f6adee2",
+      "sha256": [
+        "3b231fc8b5cf72f06a3ab33a68e0bb23751dcc2ae2ab731b6a9751b29f6adee2",
+        "73901097e4cef8a87f87df9347d1cc1294da43e93c62f724d36037f83fbe3bf9"
+      ],
       "text": "Careful, ship!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "73901097e4cef8a87f87df9347d1cc1294da43e93c62f724d36037f83fbe3bf9",
-      "text": "Careful, ship!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b65f78c115a525a608c83c84f493c06e5a190426982a6bd8c7ff9c2be90a703c",
-      "text": "Careful, Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81b35814d04c625e49aeff18476a1c7fa58e68f6ecd2e8ea5f7ad65394461048",
+      "sha256": [
+        "81b35814d04c625e49aeff18476a1c7fa58e68f6ecd2e8ea5f7ad65394461048",
+        "b65f78c115a525a608c83c84f493c06e5a190426982a6bd8c7ff9c2be90a703c"
+      ],
       "text": "Careful, Shiv!",
       "source": "official"
     }

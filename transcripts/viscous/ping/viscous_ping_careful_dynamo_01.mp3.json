@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "15be521063b6866e2142933ecc29491e218de44909a1516a611bf41d6b001d10",
+      "sha256": [
+        "15be521063b6866e2142933ecc29491e218de44909a1516a611bf41d6b001d10"
+      ],
       "text": "That's a Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "80d7b985b6dafdff3c7ac0e91b14a9ab58a69641c68b67fc460806a657c72ba6",
+      "sha256": [
+        "80d7b985b6dafdff3c7ac0e91b14a9ab58a69641c68b67fc460806a657c72ba6"
+      ],
       "text": "Careful, Dynamo…",
       "source": "official"
     }

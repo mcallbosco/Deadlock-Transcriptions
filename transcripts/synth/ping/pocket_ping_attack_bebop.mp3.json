@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_attack_bebop.mp3",
   "revisions": [
     {
-      "sha256": "53ef30ea67b79aa7057772107e97be6f30331db73be118057c32292ef4d2e50d",
-      "text": "Let's take out Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1afeb098d8a39875d28f7cfdf6b421f0cf690a9636b6c580d1bd02f35db83152",
+      "sha256": [
+        "1afeb098d8a39875d28f7cfdf6b421f0cf690a9636b6c580d1bd02f35db83152",
+        "53ef30ea67b79aa7057772107e97be6f30331db73be118057c32292ef4d2e50d"
+      ],
       "text": "Let's take out Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

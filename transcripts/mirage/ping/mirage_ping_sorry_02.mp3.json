@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_sorry_02.mp3",
   "revisions": [
     {
-      "sha256": "0aeaf77ca469aaa90d32191f024a851a4d9659d584db18dc5a72e3643c10a214",
-      "text": "Apologies.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "536dc8923eb39b2edd013c177ccf1d84a4af42939aaaa6a16ae60c4e6e64e9c0",
-      "text": "Catalegis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a550b8810204558545f856de3dce3045adce929c8f4f47532ddedbd33676958",
-      "text": "Catalegis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f883a92126132687b3bba5b21549c2cce7294d69355123d5957c9372ac73a6c4",
+      "sha256": [
+        "0aeaf77ca469aaa90d32191f024a851a4d9659d584db18dc5a72e3643c10a214",
+        "f883a92126132687b3bba5b21549c2cce7294d69355123d5957c9372ac73a6c4"
+      ],
       "text": "Apologies",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "4a550b8810204558545f856de3dce3045adce929c8f4f47532ddedbd33676958",
+        "536dc8923eb39b2edd013c177ccf1d84a4af42939aaaa6a16ae60c4e6e64e9c0"
+      ],
+      "text": "Catalegis.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

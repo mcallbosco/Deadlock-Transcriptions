@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8019fd595008980b7e8c7b8f67e8e96b27b83eb9b3f9142734d955fca2dc7e8e",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "757080e866e2bda0d279738e3e0ed3aa41ef991677f13aaf92674a8370b14f5a",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f7c97ab40aa4d8d3324484e01bc0a8c5ac57f3534396e9596fd70ebf487ed2f9",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b49275036d4a349c7764b1564ed357fe2bdc3e37d15b5c8f800f9edc3724994d",
+      "sha256": [
+        "757080e866e2bda0d279738e3e0ed3aa41ef991677f13aaf92674a8370b14f5a",
+        "8019fd595008980b7e8c7b8f67e8e96b27b83eb9b3f9142734d955fca2dc7e8e",
+        "b49275036d4a349c7764b1564ed357fe2bdc3e37d15b5c8f800f9edc3724994d",
+        "f7c97ab40aa4d8d3324484e01bc0a8c5ac57f3534396e9596fd70ebf487ed2f9"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

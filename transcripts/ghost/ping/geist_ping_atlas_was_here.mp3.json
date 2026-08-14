@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_atlas_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ba0725ff1e795fc67901d8afdc1768820f5afdb35f9e552604e01836d0b7dedc",
-      "text": "Take a look at",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "96990aaff9f67e9393a5df3e2572c66ff73869c1a353196bb8a0ac1399ad00bf",
+      "sha256": [
+        "96990aaff9f67e9393a5df3e2572c66ff73869c1a353196bb8a0ac1399ad00bf",
+        "ba0725ff1e795fc67901d8afdc1768820f5afdb35f9e552604e01836d0b7dedc"
+      ],
       "text": "Take a look at",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_punkgoat_dead.mp3",
   "revisions": [
     {
-      "sha256": "209bfa3c9c8d11247c816256445964f2dbfa21ce247b5f91813c15daa1e101ce",
+      "sha256": [
+        "209bfa3c9c8d11247c816256445964f2dbfa21ce247b5f91813c15daa1e101ce"
+      ],
       "text": "Billy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

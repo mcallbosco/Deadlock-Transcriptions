@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "db226af78ea5c698f7a7d67ee5ba9694cab1e0a475494663cebe68abe1b85b68",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32ec05689cd38e14b93b53fae6e6e93612a3fe5c1f29d7103130914762c60730",
+      "sha256": [
+        "32ec05689cd38e14b93b53fae6e6e93612a3fe5c1f29d7103130914762c60730",
+        "db226af78ea5c698f7a7d67ee5ba9694cab1e0a475494663cebe68abe1b85b68"
+      ],
       "text": "Going to gank.",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_haze_check_items.mp3",
   "revisions": [
     {
-      "sha256": "2a413b860678a6685e77155c1fb1629ecd4d0b88a06fedc2ae44296e6105c6ef",
+      "sha256": [
+        "2a413b860678a6685e77155c1fb1629ecd4d0b88a06fedc2ae44296e6105c6ef",
+        "c0148314a5bfda679a6d50521fb0e8c18dbfbd98e1c3577cfe9605ac1d539636"
+      ],
       "text": "Check out what he's bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0148314a5bfda679a6d50521fb0e8c18dbfbd98e1c3577cfe9605ac1d539636",
-      "text": "Check out what he's bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "book/oathkeeper/vn_geist_scene03c_01.mp3",
   "revisions": [
     {
-      "sha256": "5ae32bdd49162b5ee8a1c48243efabf63aa731eeb483f6bb247ef10ebbfc8074",
+      "sha256": [
+        "5ae32bdd49162b5ee8a1c48243efabf63aa731eeb483f6bb247ef10ebbfc8074",
+        "ac4c1e4b1f5c18096cd7d5ae4cb7849dea2b5a28d65e986d699b98297d8e439d"
+      ],
       "text": "Gen Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac4c1e4b1f5c18096cd7d5ae4cb7849dea2b5a28d65e986d699b98297d8e439d",
-      "text": "Gengeist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

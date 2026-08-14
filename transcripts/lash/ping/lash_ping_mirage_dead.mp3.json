@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "d699ffb75796482c277ef0ca1e3414400428edcda638d204eb6530d331eac589",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc66769499a2a82383bf96b255549926e8332b622fd28031b9c546b9f30f49cf",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c0ee31cc5332e475170778672ab588a792515f90478952de1ec06abb9bd774e",
+      "sha256": [
+        "2c0ee31cc5332e475170778672ab588a792515f90478952de1ec06abb9bd774e",
+        "cc66769499a2a82383bf96b255549926e8332b622fd28031b9c546b9f30f49cf",
+        "d699ffb75796482c277ef0ca1e3414400428edcda638d204eb6530d331eac589"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_bebop_03.mp3",
   "revisions": [
     {
-      "sha256": "78cdb0d005ff8685c7b8201dd1ace1a67f3a46c82587dbf14a9fafebbc843ccd",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae64d7fc794f1e997b2486f63bea789f4b7392db1b6e3636fa818ee48ead2049",
-      "text": "Careful, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca3bd3d40ceff1923d1b80da1ffa6de85573a35d80b698d59297b6e13e5dc3af",
+      "sha256": [
+        "78cdb0d005ff8685c7b8201dd1ace1a67f3a46c82587dbf14a9fafebbc843ccd",
+        "ae64d7fc794f1e997b2486f63bea789f4b7392db1b6e3636fa818ee48ead2049",
+        "ca3bd3d40ceff1923d1b80da1ffa6de85573a35d80b698d59297b6e13e5dc3af"
+      ],
       "text": "Careful, Bebop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "b44cab7fca4b4fdfbfa073464e3ceeb76aa0d1c274f997ee2bc5abd87ff83849",
+      "sha256": [
+        "b44cab7fca4b4fdfbfa073464e3ceeb76aa0d1c274f997ee2bc5abd87ff83849"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

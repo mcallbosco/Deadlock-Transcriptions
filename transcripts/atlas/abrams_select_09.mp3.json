@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_select_09.mp3",
   "revisions": [
     {
-      "sha256": "5f1e36fc4748a76d8c93fcbbf512f92858d3ab7a40eac7667a19f4e11ab5341d",
-      "text": "One day I'm gonna die, but it ain't gonna be today.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fc04644df5fcae6376ce543b014d0cea99e476f2cce803cb59fe550a42e1e830",
-      "text": "One day I'm gonna die, but it ain't gonna be today.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa2a1c4084f5546bdcf41a65a56d5abc9878278abfb627c425419ab4e1452302",
-      "text": "One day I'm gonna die, but it ain't gonna be today.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9dbcddb51aca18cd24a67cf1bc71232be30b1a504d59ca7e11a80f4189d36ebb",
+      "sha256": [
+        "5f1e36fc4748a76d8c93fcbbf512f92858d3ab7a40eac7667a19f4e11ab5341d",
+        "9dbcddb51aca18cd24a67cf1bc71232be30b1a504d59ca7e11a80f4189d36ebb",
+        "fa2a1c4084f5546bdcf41a65a56d5abc9878278abfb627c425419ab4e1452302",
+        "fc04644df5fcae6376ce543b014d0cea99e476f2cce803cb59fe550a42e1e830"
+      ],
       "text": "One day I'm gonna die, but it ain't gonna be today.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

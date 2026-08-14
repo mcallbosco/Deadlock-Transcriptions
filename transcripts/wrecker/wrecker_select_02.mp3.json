@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_select_02.mp3",
   "revisions": [
     {
-      "sha256": "c1e437b3a0ab6a6acd46a815798d2a49f502baea3f3cac8f392eed3ac671acf5",
-      "text": "I will feast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b4b8a71b038bc9204be32d6a70dbde6c86a245b60eaaee49e98502fa6da58173",
+      "sha256": [
+        "b4b8a71b038bc9204be32d6a70dbde6c86a245b60eaaee49e98502fa6da58173",
+        "c1e437b3a0ab6a6acd46a815798d2a49f502baea3f3cac8f392eed3ac671acf5"
+      ],
       "text": "I will feast.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

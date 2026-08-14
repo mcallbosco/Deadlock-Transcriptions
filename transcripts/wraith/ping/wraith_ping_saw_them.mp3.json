@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_them.mp3",
   "revisions": [
     {
-      "sha256": "a5ec813774c25d574f3aa9d31d5a902ba6a2ee0458a267c1e4d363517edeb289",
-      "text": "I saw them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b1ce0d8b03d10c9a1f4eee3fca5098945f92be0d4245f4a20b0ccad32ba491b9",
-      "text": "I saw them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46ec7b879ffb990303b7377f31ece62fecdc2bc9b413c36c579b583ea2841eed",
-      "text": "I saw them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0502b7190afb422936e67e4ff841809d9af40b8753b15fc2465285081d63c334",
+      "sha256": [
+        "0502b7190afb422936e67e4ff841809d9af40b8753b15fc2465285081d63c334",
+        "46ec7b879ffb990303b7377f31ece62fecdc2bc9b413c36c579b583ea2841eed",
+        "a5ec813774c25d574f3aa9d31d5a902ba6a2ee0458a267c1e4d363517edeb289",
+        "b1ce0d8b03d10c9a1f4eee3fca5098945f92be0d4245f4a20b0ccad32ba491b9"
+      ],
       "text": "I saw them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_missing_orange_02.mp3",
   "revisions": [
     {
-      "sha256": "2d1fd15985a482187994d45e4f938adbea6a6a939b7328ea9f53206d34ea8b2b",
-      "text": "This an orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8cf02b028c862b0b43f6808ef5819442f4eaff5cc5a4fc93501935f307bf1d64",
+      "sha256": [
+        "2d1fd15985a482187994d45e4f938adbea6a6a939b7328ea9f53206d34ea8b2b",
+        "8cf02b028c862b0b43f6808ef5819442f4eaff5cc5a4fc93501935f307bf1d64"
+      ],
       "text": "This an orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

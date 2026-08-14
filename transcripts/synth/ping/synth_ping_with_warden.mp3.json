@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "b6186cf5b5032184c6f348a314b07471e89c2598a944cd6b33e68d6f8bfd6f31",
+      "sha256": [
+        "b6186cf5b5032184c6f348a314b07471e89c2598a944cd6b33e68d6f8bfd6f31"
+      ],
       "text": "I'm with you, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

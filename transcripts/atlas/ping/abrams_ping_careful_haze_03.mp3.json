@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_haze_03.mp3",
   "revisions": [
     {
-      "sha256": "2ba9063cc8e9edadad8d7788f4f3f760a8f52de6def6390650ae2202a567cc62",
+      "sha256": [
+        "2ba9063cc8e9edadad8d7788f4f3f760a8f52de6def6390650ae2202a567cc62"
+      ],
       "text": "Tackle Hayes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a8349860c71aae9517469efb1520793f5f35fda0801119c520f65fab2dfd57ad",
+      "sha256": [
+        "54b49ad51d225d667066b634852615cf6909896decd959fa663b352ba30260b5",
+        "a8349860c71aae9517469efb1520793f5f35fda0801119c520f65fab2dfd57ad"
+      ],
       "text": "Careful haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "54b49ad51d225d667066b634852615cf6909896decd959fa663b352ba30260b5",
-      "text": "Careful, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

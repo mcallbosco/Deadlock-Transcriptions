@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a836b8b65e4ed14c6af8708585cf19fb669f5cbb6de9a5d1df783bc2c748a7cd",
+      "sha256": [
+        "a836b8b65e4ed14c6af8708585cf19fb669f5cbb6de9a5d1df783bc2c748a7cd"
+      ],
       "text": "Pocket smashing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "991334389afd59bd8b337e96bf9709434ce0cc69ef166924290ff2878c439c8e",
+      "sha256": [
+        "9422fd7b7a57ccda5203c4a0c9a24e45b920134fffdb7499f6a1581978ced5c9",
+        "991334389afd59bd8b337e96bf9709434ce0cc69ef166924290ff2878c439c8e"
+      ],
       "text": "Target's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9422fd7b7a57ccda5203c4a0c9a24e45b920134fffdb7499f6a1581978ced5c9",
-      "text": "Target's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a31e9f892d898139c768b9f0aa6592c395188ff0da4ca8c06d23e7d65c2d7d5",
+      "sha256": [
+        "7a31e9f892d898139c768b9f0aa6592c395188ff0da4ca8c06d23e7d65c2d7d5"
+      ],
       "text": "Pocket's missing",
       "source": "official"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_close_call_03.mp3",
   "revisions": [
     {
-      "sha256": "96c4f73916cefec0d4552f627ae8742d370d9c34c9c8ec0255c35434ec5bce00",
-      "text": "That will wake you up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8af13ec4a2e73b50097dacc47e7699660c8d095b1210fe4e17aea142e67e8ae4",
-      "text": "That will wake you up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0ad6099db832e3b1bec580c62eed5cc20b4ca30305962cfe1927c289fbd308b",
-      "text": "That will wake you up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4aa15a5933f0202df2ca0a6e504f161c5b26f108632d0a1480ce5af5568f4ae0",
+      "sha256": [
+        "4aa15a5933f0202df2ca0a6e504f161c5b26f108632d0a1480ce5af5568f4ae0",
+        "8af13ec4a2e73b50097dacc47e7699660c8d095b1210fe4e17aea142e67e8ae4",
+        "96c4f73916cefec0d4552f627ae8742d370d9c34c9c8ec0255c35434ec5bce00",
+        "a0ad6099db832e3b1bec580c62eed5cc20b4ca30305962cfe1927c289fbd308b"
+      ],
       "text": "That will wake you up…",
       "source": "official"
     }

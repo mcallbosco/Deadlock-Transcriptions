@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "ee4a372850da7cdaa969caa19e979743d48081082b5b3e63a580de08fd8de263",
-      "text": "Headed to green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ec21a1b9ae168312ce0cc3995ef12d684b8d5f2b6fc9acd8935145aa2bef8d67",
-      "text": "Headed to green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba703fc794d46ce6154204f46bc36f7dc83c3b8722e08fa24f96257b4cf0f104",
+      "sha256": [
+        "ba703fc794d46ce6154204f46bc36f7dc83c3b8722e08fa24f96257b4cf0f104",
+        "ec21a1b9ae168312ce0cc3995ef12d684b8d5f2b6fc9acd8935145aa2bef8d67",
+        "ee4a372850da7cdaa969caa19e979743d48081082b5b3e63a580de08fd8de263"
+      ],
       "text": "Headed to Green",
       "source": "official"
     }

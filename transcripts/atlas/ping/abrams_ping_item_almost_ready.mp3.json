@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_item_almost_ready.mp3",
   "revisions": [
     {
-      "sha256": "6c9f9d5b5405374b92260d4366e2c23ca912b445f3da377de3311f005335bea6",
-      "text": "Items almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80f083cb82c283f696fbd63c40bd81b3627fe217dd0ebee61a905e41ac88681e",
-      "text": "Items almost ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d6f41d729864cac5dbed5968db1a16ee5b107c7ed205ef34450d7eb3393f50d",
+      "sha256": [
+        "6c9f9d5b5405374b92260d4366e2c23ca912b445f3da377de3311f005335bea6",
+        "7d6f41d729864cac5dbed5968db1a16ee5b107c7ed205ef34450d7eb3393f50d",
+        "80f083cb82c283f696fbd63c40bd81b3627fe217dd0ebee61a905e41ac88681e"
+      ],
       "text": "Items almost ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

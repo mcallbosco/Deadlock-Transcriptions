@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_nevermind_02.mp3",
   "revisions": [
     {
-      "sha256": "4a0c15b209b1295db0571b3ed13aca1292b969d75092970ebf3fc3ed15912889",
-      "text": "Forget I said that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "188e06f83470df9461f9214776d2970f84eeaf299ce7f29c497236aa128fde90",
-      "text": "Forget I said that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88c6969a20ec0311d2a93997270ea1ff7879d0ca20e33938a29fe52354fdb91d",
+      "sha256": [
+        "188e06f83470df9461f9214776d2970f84eeaf299ce7f29c497236aa128fde90",
+        "4a0c15b209b1295db0571b3ed13aca1292b969d75092970ebf3fc3ed15912889",
+        "88c6969a20ec0311d2a93997270ea1ff7879d0ca20e33938a29fe52354fdb91d"
+      ],
       "text": "Forget I said that.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

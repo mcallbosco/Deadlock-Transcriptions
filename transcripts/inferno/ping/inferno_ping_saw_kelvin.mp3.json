@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "d34858e16ab941f90bac25af15841027e78b3c9e521a2bd07478e86d141c421e",
-      "text": "I saw Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ceb12d15f3db188094273f7438159f3d37881364ab56f663f4c69f608d1c40af",
-      "text": "I saw Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f75c3d2f2ec0400a177bee0085c99de63b1d805d3ff41df8859031e4efc43c6",
-      "text": "I saw Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce745777050d9394813c4bf48c58b9b134dede3915948138d6b8d786bbdcdc95",
+      "sha256": [
+        "1f75c3d2f2ec0400a177bee0085c99de63b1d805d3ff41df8859031e4efc43c6",
+        "ce745777050d9394813c4bf48c58b9b134dede3915948138d6b8d786bbdcdc95",
+        "ceb12d15f3db188094273f7438159f3d37881364ab56f663f4c69f608d1c40af",
+        "d34858e16ab941f90bac25af15841027e78b3c9e521a2bd07478e86d141c421e"
+      ],
       "text": "I saw Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

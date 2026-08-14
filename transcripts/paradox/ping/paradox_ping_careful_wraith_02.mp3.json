@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_careful_wraith_02.mp3",
   "revisions": [
     {
-      "sha256": "6c5bdf6ecda84a95d9d58680c4600dea8bcb47cc5ff49588161cdadbea5dbf74",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06a9a373d026895b98cfc3899fcad8b69d84dbf1e422f91d9b44052fcfdf6fbb",
+      "sha256": [
+        "06a9a373d026895b98cfc3899fcad8b69d84dbf1e422f91d9b44052fcfdf6fbb",
+        "6c5bdf6ecda84a95d9d58680c4600dea8bcb47cc5ff49588161cdadbea5dbf74"
+      ],
       "text": "Careful, Wraith.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

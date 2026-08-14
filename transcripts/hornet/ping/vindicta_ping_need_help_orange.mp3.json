@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_need_help_orange.mp3",
   "revisions": [
     {
-      "sha256": "f3acfb871b58db3aeffb0697be247b108620d0ecab104efbbc165828a7db84ab",
+      "sha256": [
+        "f3acfb871b58db3aeffb0697be247b108620d0ecab104efbbc165828a7db84ab"
+      ],
       "text": "Me help for orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "330dfebf03e8a30b9faedff75c9a6e5ad2a118e4de6f34b5872a9662568a4352",
+      "sha256": [
+        "330dfebf03e8a30b9faedff75c9a6e5ad2a118e4de6f34b5872a9662568a4352",
+        "3dc703d6e8631aee53bb12157146648ab4eb066430e75d0a4ea162efb7d63fae",
+        "c6e0925b43c6aa2f0522e368f5f458a072249e9c057b64ff830c7dee6a034c8f"
+      ],
       "text": "Need help on orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6e0925b43c6aa2f0522e368f5f458a072249e9c057b64ff830c7dee6a034c8f",
-      "text": "Need help on orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3dc703d6e8631aee53bb12157146648ab4eb066430e75d0a4ea162efb7d63fae",
-      "text": "Need help on orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

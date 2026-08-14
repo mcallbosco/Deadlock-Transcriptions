@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_atlas_dead.mp3",
   "revisions": [
     {
-      "sha256": "d8636b81a74d6dbf1e5ca538d1595aa284ab267233eadbaaef7f1356e92b1aef",
-      "text": "Abrams is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f10e70f4b36212fc73ca8af7a95ba082df4f0768fe3339995752661d42a9111b",
-      "text": "Abrams is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5802f02eea4e353b6a80b815702d594b28f5d734cfa2dc831c19cfd9fae87acd",
-      "text": "Abrams is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91ee63e022c21f9f1d679486b4b9ab9c675d0cc6cfc10d87e790702f1256b01b",
+      "sha256": [
+        "5802f02eea4e353b6a80b815702d594b28f5d734cfa2dc831c19cfd9fae87acd",
+        "91ee63e022c21f9f1d679486b4b9ab9c675d0cc6cfc10d87e790702f1256b01b",
+        "d8636b81a74d6dbf1e5ca538d1595aa284ab267233eadbaaef7f1356e92b1aef",
+        "f10e70f4b36212fc73ca8af7a95ba082df4f0768fe3339995752661d42a9111b"
+      ],
       "text": "Abrams is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

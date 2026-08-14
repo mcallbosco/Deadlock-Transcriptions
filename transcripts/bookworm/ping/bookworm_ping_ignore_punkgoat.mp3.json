@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_punkgoat.mp3",
   "revisions": [
     {
-      "sha256": "bfa1ca264640b3dab92e96b3b31dbd4592b3124f74bbca2c496e39d80622525b",
+      "sha256": [
+        "bfa1ca264640b3dab92e96b3b31dbd4592b3124f74bbca2c496e39d80622525b"
+      ],
       "text": "Ignore Billy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

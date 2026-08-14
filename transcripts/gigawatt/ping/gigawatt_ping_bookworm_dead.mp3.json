@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_bookworm_dead.mp3",
   "revisions": [
     {
-      "sha256": "7e9cf4436346d4285a4a87799983c2421393e3f86c26c5e4518d6ae031a87941",
+      "sha256": [
+        "7e9cf4436346d4285a4a87799983c2421393e3f86c26c5e4518d6ae031a87941"
+      ],
       "text": "It is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_ghost.mp3",
   "revisions": [
     {
-      "sha256": "aa1bd33b2beb75118adce4eef8f5d8239d0618410ebb819a0be9660997c5142f",
-      "text": "Thanks, Ghost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a18495a75943d681c1b8a2c382626816563db9ef4b8c747b477005b9221c582f",
-      "text": "Thanks, Ghost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5f4cf4b23c2ea764bad1a800f3e0b7263e197e5aa24dbcdfd6efb2a4b06f9dd",
+      "sha256": [
+        "a18495a75943d681c1b8a2c382626816563db9ef4b8c747b477005b9221c582f",
+        "aa1bd33b2beb75118adce4eef8f5d8239d0618410ebb819a0be9660997c5142f",
+        "e5f4cf4b23c2ea764bad1a800f3e0b7263e197e5aa24dbcdfd6efb2a4b06f9dd"
+      ],
       "text": "Thanks, Ghost.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

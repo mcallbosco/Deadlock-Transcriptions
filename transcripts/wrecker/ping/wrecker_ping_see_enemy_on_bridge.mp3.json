@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_see_enemy_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "6edf97000bc3204aa4c41254777e9b37a304820024cf264c4fdbbe93e6af2ede",
+      "sha256": [
+        "6edf97000bc3204aa4c41254777e9b37a304820024cf264c4fdbbe93e6af2ede"
+      ],
       "text": "Enemy's on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "77161a017211caeb12b04a94069690a3c860d1e0c1cc2a6c6328d9d4041071b5",
+      "sha256": [
+        "77161a017211caeb12b04a94069690a3c860d1e0c1cc2a6c6328d9d4041071b5"
+      ],
       "text": "The enemy's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

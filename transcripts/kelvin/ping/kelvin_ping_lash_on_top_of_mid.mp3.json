@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_lash_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "0c642145382ec1fbc1f5d8ddcad97cbc6aa5f79123d600106042447cc77f3226",
+      "sha256": [
+        "0c642145382ec1fbc1f5d8ddcad97cbc6aa5f79123d600106042447cc77f3226"
+      ],
       "text": "This is not double mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "22c4beba4be7b7993aa30f2f2aea22f6514db5c87b31385f9053353b6ed8c682",
+      "sha256": [
+        "22c4beba4be7b7993aa30f2f2aea22f6514db5c87b31385f9053353b6ed8c682"
+      ],
       "text": "Lash's on top of mid!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "554f922247c0a4856db89cc5bf510cf7e441ba736e948e8a45578941397c8bdc",
-      "text": "Good game!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d6153aeef14fabed137c31361010990791cbd4732a6063cd3ae37de6a3e6146",
+      "sha256": [
+        "4d6153aeef14fabed137c31361010990791cbd4732a6063cd3ae37de6a3e6146",
+        "554f922247c0a4856db89cc5bf510cf7e441ba736e948e8a45578941397c8bdc"
+      ],
       "text": "Good game.",
       "source": "official"
     }

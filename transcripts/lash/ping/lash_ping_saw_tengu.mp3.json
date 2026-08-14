@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_saw_tengu.mp3",
   "revisions": [
     {
-      "sha256": "b6adfed7f039baf4a66f7461b0daf3782e7a1b71587c4744d31c7956993c9150",
+      "sha256": [
+        "17e8601981fefd6f140c5b3b2422378cf08306964e23272bfb99c073bf591df5",
+        "b6adfed7f039baf4a66f7461b0daf3782e7a1b71587c4744d31c7956993c9150"
+      ],
       "text": "I saw Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e2c13a0cb4b115e8ca56f9fe478e91589f2c8d4a15b32e37986e4b8ba2100d25",
+      "sha256": [
+        "8c3a0e125c197f158a2687123860aee825919293374f46b4c6e6c65d738cd388",
+        "e2c13a0cb4b115e8ca56f9fe478e91589f2c8d4a15b32e37986e4b8ba2100d25"
+      ],
       "text": "Saw Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c3a0e125c197f158a2687123860aee825919293374f46b4c6e6c65d738cd388",
-      "text": "saw Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17e8601981fefd6f140c5b3b2422378cf08306964e23272bfb99c073bf591df5",
-      "text": "I saw Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

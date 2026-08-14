@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_attack_nano.mp3",
   "revisions": [
     {
-      "sha256": "3e13c85cb3f269f7368c052cef561b020262666e70bc7b8c3ab3cb11ef708dbe",
+      "sha256": [
+        "3e13c85cb3f269f7368c052cef561b020262666e70bc7b8c3ab3cb11ef708dbe"
+      ],
       "text": "Let's take our Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ce14ea6c784e3e513fe6010a9e4b9d2ad3137dc5479515d1ab953131cf89796a",
+      "sha256": [
+        "ce14ea6c784e3e513fe6010a9e4b9d2ad3137dc5479515d1ab953131cf89796a"
+      ],
       "text": "Let's take out Calico.",
       "source": "official"
     }

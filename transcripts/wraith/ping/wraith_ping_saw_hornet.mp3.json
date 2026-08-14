@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_hornet.mp3",
   "revisions": [
     {
-      "sha256": "cbad1acd62747c98054d7e2b7f6989fe1f2b9d4d925539b5879ee11e4f9de525",
+      "sha256": [
+        "cbad1acd62747c98054d7e2b7f6989fe1f2b9d4d925539b5879ee11e4f9de525"
+      ],
       "text": "I saw Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "342f3a5a45ce53d646af2976a99049b30f7c53f4425ca2c537e42a62cf270bb7",
-      "text": "I saw Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25aaf9b8d22a441a48c3ff47fc74d0db410f35c2958c332c152e592cc0f2b3ff",
+      "sha256": [
+        "25aaf9b8d22a441a48c3ff47fc74d0db410f35c2958c332c152e592cc0f2b3ff",
+        "342f3a5a45ce53d646af2976a99049b30f7c53f4425ca2c537e42a62cf270bb7"
+      ],
       "text": "I saw Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

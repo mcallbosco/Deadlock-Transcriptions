@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_happy_05.mp3",
   "revisions": [
     {
-      "sha256": "30823e5d9ec604f38de5b3ec1a1275c728e8dd361670a635e1b885aa9a54e5b6",
-      "text": "The ritual will be over in no time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "17b265b26231f60507acf89023726565329ec8ee3ea4226cdffba329f8244678",
-      "text": "The ritual will be over in no time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ebc3e80cc73b481f04c27521993c93dfb2f31147ea88f10d140478246888a154",
+      "sha256": [
+        "17b265b26231f60507acf89023726565329ec8ee3ea4226cdffba329f8244678",
+        "30823e5d9ec604f38de5b3ec1a1275c728e8dd361670a635e1b885aa9a54e5b6",
+        "ebc3e80cc73b481f04c27521993c93dfb2f31147ea88f10d140478246888a154"
+      ],
       "text": "The ritual will be over in no time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

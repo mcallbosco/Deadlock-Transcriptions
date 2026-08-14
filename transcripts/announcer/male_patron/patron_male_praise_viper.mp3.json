@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_praise_viper.mp3",
   "revisions": [
     {
-      "sha256": "3806c27f89f92f37583703831575459944635f3fe4e872540488b7ddc537a751",
+      "sha256": [
+        "3806c27f89f92f37583703831575459944635f3fe4e872540488b7ddc537a751"
+      ],
       "text": "Well done, Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3a42159354e277770a9db1d20917166a3e354b03be5ec2a759c3fa76ad8b53d8",
+      "sha256": [
+        "3a42159354e277770a9db1d20917166a3e354b03be5ec2a759c3fa76ad8b53d8"
+      ],
       "text": "Naughty naughty, Viper",
       "source": "official"
     }

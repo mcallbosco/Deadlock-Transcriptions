@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_astro.mp3",
   "revisions": [
     {
-      "sha256": "1c392b171bef90eab4edb7020e59daf5527b471019a4c20698d8fd33faea157a",
+      "sha256": [
+        "1c392b171bef90eab4edb7020e59daf5527b471019a4c20698d8fd33faea157a"
+      ],
       "text": "Holliday, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "91fe86440615964c9f14cbf49e3da27cb7af8144b5dd13a5761e022fa57b3bfd",
+      "sha256": [
+        "91fe86440615964c9f14cbf49e3da27cb7af8144b5dd13a5761e022fa57b3bfd"
+      ],
       "text": "Holliday, I can feel you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3811918e96b17519444d4a5f48d12ca8bfba1dffd58c900670d01f4efb25e999",
+      "sha256": [
+        "3811918e96b17519444d4a5f48d12ca8bfba1dffd58c900670d01f4efb25e999"
+      ],
       "text": "Holiday, I can feel you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

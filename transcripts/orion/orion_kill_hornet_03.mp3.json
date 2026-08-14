@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_kill_hornet_03.mp3",
   "revisions": [
     {
-      "sha256": "cbad2e9258e612f815c2d951f991388a88dc5fa0c196482d0fbacb9f2838d896",
-      "text": "I didn't want to do this, Vindicta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "6e8359671cb8840a2979769b47d9284ed54b03e7119d09231c69bd11d48fb5f8",
+        "cbad2e9258e612f815c2d951f991388a88dc5fa0c196482d0fbacb9f2838d896"
+      ],
+      "text": "I didn't want to do this Vindicta",
+      "source": "official"
     },
     {
-      "sha256": "aec9b16d8dd24ea892d85ce1b7a0dc0212d84feb058e47f3bb7a6e16b13d4c33",
+      "sha256": [
+        "aec9b16d8dd24ea892d85ce1b7a0dc0212d84feb058e47f3bb7a6e16b13d4c33"
+      ],
       "text": "I didn't want to do this, Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e8359671cb8840a2979769b47d9284ed54b03e7119d09231c69bd11d48fb5f8",
-      "text": "I didn't want to do this Vindicta",
-      "source": "official"
     }
   ]
 }

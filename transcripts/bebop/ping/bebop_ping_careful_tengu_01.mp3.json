@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "8f2d967ade90d084299a1c7279c0326017bfe2723cd297b41d25913dc9dbe5dd",
+      "sha256": [
+        "8f2d967ade90d084299a1c7279c0326017bfe2723cd297b41d25913dc9dbe5dd"
+      ],
       "text": "Guess what I say.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "50a81034c89da9d2e9a6449b76229cf8ed85c43f02bbb6e73b5916ab6f1fa469",
+      "sha256": [
+        "50a81034c89da9d2e9a6449b76229cf8ed85c43f02bbb6e73b5916ab6f1fa469"
+      ],
       "text": "Careful, ivy…",
       "source": "official"
     }

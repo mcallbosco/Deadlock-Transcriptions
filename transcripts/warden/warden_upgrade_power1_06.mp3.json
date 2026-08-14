@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_upgrade_power1_06.mp3",
   "revisions": [
     {
-      "sha256": "7f361b103f96d5f41c16857c387f1ccaa4f5f56147fef06714b1fe3c069ce084",
-      "text": "They won't get past me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1e6d7216c5757cfc68fdae6343b0137522ef28ae9465d74d9c0b5193f1835c1",
-      "text": "They won't get past me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cbb279f87b036b28def6c70f4baeca86915601c70c3f4a16850c58442a3d3b05",
-      "text": "They won't get past me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e7b4d43719ec8d1314555dda3368a07fef3d2ac239a1dccb0eb089e03484dfb0",
+      "sha256": [
+        "7f361b103f96d5f41c16857c387f1ccaa4f5f56147fef06714b1fe3c069ce084",
+        "cbb279f87b036b28def6c70f4baeca86915601c70c3f4a16850c58442a3d3b05",
+        "e1e6d7216c5757cfc68fdae6343b0137522ef28ae9465d74d9c0b5193f1835c1",
+        "e7b4d43719ec8d1314555dda3368a07fef3d2ac239a1dccb0eb089e03484dfb0"
+      ],
       "text": "They wont get past me.",
       "source": "official"
     }

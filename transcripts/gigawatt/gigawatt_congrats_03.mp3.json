@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_congrats_03.mp3",
   "revisions": [
     {
-      "sha256": "d3f21c3b6dcf6fb293d5859d2851b79db418d34b4f16a60f15cc6c867a5f5ab4",
+      "sha256": [
+        "d3f21c3b6dcf6fb293d5859d2851b79db418d34b4f16a60f15cc6c867a5f5ab4"
+      ],
       "text": "Now, well around me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e8a650eebc75b64c95d88cd9a3f5e0dcfd369c34a8501f7621042365e0346245",
+      "sha256": [
+        "96da17eaff57f62ea2f82fc4008ddf297879e97b5b62bd44cad4bad2537b376f",
+        "e8a650eebc75b64c95d88cd9a3f5e0dcfd369c34a8501f7621042365e0346245"
+      ],
       "text": "You're a well-oiled machine.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "96da17eaff57f62ea2f82fc4008ddf297879e97b5b62bd44cad4bad2537b376f",
-      "text": "You're a well-oiled machine.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "018fa883feee356f7e28e9a7115fc4ae1704058530846d58230f786f2a5216c9",
+      "sha256": [
+        "018fa883feee356f7e28e9a7115fc4ae1704058530846d58230f786f2a5216c9"
+      ],
       "text": "We're a well oiled machine",
       "source": "official"
     }

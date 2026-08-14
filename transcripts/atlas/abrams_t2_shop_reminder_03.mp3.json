@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_t2_shop_reminder_03.mp3",
   "revisions": [
     {
-      "sha256": "bfa69a739fad659e4fdf9f2504a13dd886db6130b5cdb77231956d11c2b0865e",
-      "text": "Let's check out that shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3eeb898e2491041cc4002b79d1d1b1428f4b84f3fbe6ca400be75d4688ca6143",
-      "text": "Let's check out that shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ad614b74aa271df87bc37012fc634cf3782621d6730f740847dc2d67032959a",
+      "sha256": [
+        "1ad614b74aa271df87bc37012fc634cf3782621d6730f740847dc2d67032959a",
+        "3eeb898e2491041cc4002b79d1d1b1428f4b84f3fbe6ca400be75d4688ca6143",
+        "bfa69a739fad659e4fdf9f2504a13dd886db6130b5cdb77231956d11c2b0865e"
+      ],
       "text": "Let's check out that shop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

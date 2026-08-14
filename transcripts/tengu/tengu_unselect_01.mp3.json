@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_unselect_01.mp3",
   "revisions": [
     {
-      "sha256": "b267a0c10f7a6c4d7e83f0c2b483f0942964827d9f470e987b33edb8e3361eae",
+      "sha256": [
+        "b267a0c10f7a6c4d7e83f0c2b483f0942964827d9f470e987b33edb8e3361eae"
+      ],
       "text": "Hey, maybe I'll make that interview after all!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "29df3dc7ef47b31691a82628842bda9a7a2897048bfd81087d1d517576898a80",
+      "sha256": [
+        "29df3dc7ef47b31691a82628842bda9a7a2897048bfd81087d1d517576898a80"
+      ],
       "text": "Hey, maybe I'll make that dinner after all!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

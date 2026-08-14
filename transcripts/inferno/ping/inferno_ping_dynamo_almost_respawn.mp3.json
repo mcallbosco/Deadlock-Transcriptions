@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_dynamo_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "22ff0f5e80c276cf3780869a0ce25c64e976cb03ad95648a339630f7db8ed2fe",
+      "sha256": [
+        "22ff0f5e80c276cf3780869a0ce25c64e976cb03ad95648a339630f7db8ed2fe",
+        "de6c74b04ddeb4ba17fded3a272813aa60ca8487dff149f2f21ebca67c26d98b"
+      ],
       "text": "Dynamo was almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a9dcc0168b71648f61540ece6edbbd015d6b77aef68b0f4e61ee64b65016bcda",
+      "sha256": [
+        "a9dcc0168b71648f61540ece6edbbd015d6b77aef68b0f4e61ee64b65016bcda"
+      ],
       "text": "Dino was almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de6c74b04ddeb4ba17fded3a272813aa60ca8487dff149f2f21ebca67c26d98b",
-      "text": "Dynamo was almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_tutorial_go_forth_my_child.mp3",
   "revisions": [
     {
-      "sha256": "944b8f58d82412b1d1781055eb080089281633675b2a81e6d6ef972e659fc4b1",
+      "sha256": [
+        "944b8f58d82412b1d1781055eb080089281633675b2a81e6d6ef972e659fc4b1",
+        "c954a7e947bd18fc5113b53242c12a809e3ddb46c81a824cfac908c64bc5347a"
+      ],
       "text": "You've completed lane training. If you're ready to join the ritual, hop into matchmaking. Good luck, and I'll see you on the field.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c954a7e947bd18fc5113b53242c12a809e3ddb46c81a824cfac908c64bc5347a",
-      "text": "You've completed lane training. If you're ready to join the ritual, hop into matchmaking. Good luck, and I'll see you on the field.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db1a3f3fbd1d90da7ccd006e7eb6cfad48fdf227548d0a1107ba8ccd45fd1c56",
+      "sha256": [
+        "db1a3f3fbd1d90da7ccd006e7eb6cfad48fdf227548d0a1107ba8ccd45fd1c56"
+      ],
       "text": "You've completed lane training: if you're ready to join the ritual, hop into matchmaking. good luck, and I'll see you out on the field",
       "source": "official"
     }

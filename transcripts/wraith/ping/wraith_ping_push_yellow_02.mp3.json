@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_push_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "deca9327962809cdd4e549aa756d0b2204b5ecd5dc1c3106a220eb60f8104570",
-      "text": "Let's push York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea494c06eb505cb5b94cbe3056abd15b2cb8b3be847f5c4ccdcf0dc1626b4678",
-      "text": "Let's push York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "692a128d7a41ce910a6a1dd7a009bfe1e7a8d31872ab83428bbe5dddd8a032eb",
+      "sha256": [
+        "692a128d7a41ce910a6a1dd7a009bfe1e7a8d31872ab83428bbe5dddd8a032eb",
+        "deca9327962809cdd4e549aa756d0b2204b5ecd5dc1c3106a220eb60f8104570",
+        "ea494c06eb505cb5b94cbe3056abd15b2cb8b3be847f5c4ccdcf0dc1626b4678"
+      ],
       "text": "Let's push York",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_sumo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c73814a1e1509ccf455a1c67dc037bd3cf665e78083afa58f0e8100498db7db4",
-      "text": "Sumo is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12b1f2b0e132e2416b208abe35d174fdebaca24b3d1de9ac6d53ac5207e67cef",
+      "sha256": [
+        "12b1f2b0e132e2416b208abe35d174fdebaca24b3d1de9ac6d53ac5207e67cef",
+        "c73814a1e1509ccf455a1c67dc037bd3cf665e78083afa58f0e8100498db7db4"
+      ],
       "text": "Sumo is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

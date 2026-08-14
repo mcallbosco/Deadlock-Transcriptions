@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_pocket_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "96a6143fb420d19ac59fd16965ca8b3c1d98e9918d520a474bc2acf4e6c5de34",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7e6f82884786b64037807fae2fde040b614f628105966cb794c93753093de517",
+      "sha256": [
+        "7e6f82884786b64037807fae2fde040b614f628105966cb794c93753093de517",
+        "96a6143fb420d19ac59fd16965ca8b3c1d98e9918d520a474bc2acf4e6c5de34"
+      ],
       "text": "Pocket's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

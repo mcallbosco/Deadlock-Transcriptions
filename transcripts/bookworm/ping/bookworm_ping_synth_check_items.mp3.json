@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_synth_check_items.mp3",
   "revisions": [
     {
-      "sha256": "3281d8424d424d2310c1dee624c937ca4c0fafe5f72d9d0f9e6fbd79ffebed5b",
+      "sha256": [
+        "3281d8424d424d2310c1dee624c937ca4c0fafe5f72d9d0f9e6fbd79ffebed5b"
+      ],
       "text": "Check out my pocketbook.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "92248db147213a41c17a67710578d74b97c93c0a03bf731096599ed339f4f3bc",
+      "sha256": [
+        "92248db147213a41c17a67710578d74b97c93c0a03bf731096599ed339f4f3bc"
+      ],
       "text": "Check out what Pocket bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "6b30a00dd53618232676c6e727632e516a3e70e27ad39d362d53d080f94d5413",
-      "text": "Headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6aa99e0ff394e5feb61ebda59042a4bf7e183ec2cfd02c840d6b14504f1ccf8c",
+      "sha256": [
+        "6aa99e0ff394e5feb61ebda59042a4bf7e183ec2cfd02c840d6b14504f1ccf8c",
+        "6b30a00dd53618232676c6e727632e516a3e70e27ad39d362d53d080f94d5413"
+      ],
       "text": "Headed to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

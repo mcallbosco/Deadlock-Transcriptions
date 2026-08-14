@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_ap_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "df6ced37d643ac97b4f6451c0f077f1ee8445618007337533fa9bf34a546e8f7",
+      "sha256": [
+        "b3073b308dec48cd866ac5eee28482c43272fad46d3180918ee5ef607aa10e7c",
+        "df6ced37d643ac97b4f6451c0f077f1ee8445618007337533fa9bf34a546e8f7"
+      ],
       "text": "Can't forget to train my abilities.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3073b308dec48cd866ac5eee28482c43272fad46d3180918ee5ef607aa10e7c",
-      "text": "Can't forget to train my abilities!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

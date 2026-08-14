@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_stun_shiv_01.mp3",
   "revisions": [
     {
-      "sha256": "c8290d67b3043d1486d9293c085e4d0d4b4482806101a26d7072fe76684458f1",
+      "sha256": [
+        "c8290d67b3043d1486d9293c085e4d0d4b4482806101a26d7072fe76684458f1"
+      ],
       "text": "Stone ship.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "409681343ca3f7b984115437daada92542a44da7959d1472811b735402c12f65",
+      "sha256": [
+        "409681343ca3f7b984115437daada92542a44da7959d1472811b735402c12f65"
+      ],
       "text": "Sunshare.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

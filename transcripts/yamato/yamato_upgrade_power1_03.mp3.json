@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power1_03.mp3",
   "revisions": [
     {
-      "sha256": "db44eb7fda60ef3fed2eb8556d633b4ca2c1161677873d047d1d591c622c0007",
+      "sha256": [
+        "db44eb7fda60ef3fed2eb8556d633b4ca2c1161677873d047d1d591c622c0007"
+      ],
       "text": "刃はただの象徴。本当の武器は私の意志。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7da1a8688c2828c6bf6de08e9c82237c87ae60729758149d47e3c24915e54960",
+      "sha256": [
+        "7da1a8688c2828c6bf6de08e9c82237c87ae60729758149d47e3c24915e54960"
+      ],
       "text": "剣は触媒に過ぎん。私の意志こそが真の武器となろう。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "75e5c4e4e6ffb3112889d45e9a11874181189c9da2694a5f3c6affcae50725f9",
+      "sha256": [
+        "75e5c4e4e6ffb3112889d45e9a11874181189c9da2694a5f3c6affcae50725f9"
+      ],
       "text": "THe blade is just a focus, the real weapon is my will.",
       "source": "official"
     }

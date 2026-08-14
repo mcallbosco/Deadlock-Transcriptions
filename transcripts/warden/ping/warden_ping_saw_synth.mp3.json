@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_saw_synth.mp3",
   "revisions": [
     {
-      "sha256": "79a2fb1e1fa0779d84f20a3e2bc80032b09ece1684031db935268bbbf4ad1a94",
+      "sha256": [
+        "79a2fb1e1fa0779d84f20a3e2bc80032b09ece1684031db935268bbbf4ad1a94"
+      ],
       "text": "I saw Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

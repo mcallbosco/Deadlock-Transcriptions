@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_enemy_headed_to_orange.mp3",
   "revisions": [
     {
-      "sha256": "51136fb6fe81335cf11c69d6ecfa0d5676fce173a4c9dd28d1fd9a1ddb613b52",
-      "text": "Enemy headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67478ed7100ae3cf1c07eb2ab2476f96dc037c0552552913faf930de4cb1586f",
-      "text": "Enemy headed to orange!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f11160f7824facc7d5031a3ecd220373bf08f387f23581f5ec350f7fa0152c03",
+      "sha256": [
+        "51136fb6fe81335cf11c69d6ecfa0d5676fce173a4c9dd28d1fd9a1ddb613b52",
+        "67478ed7100ae3cf1c07eb2ab2476f96dc037c0552552913faf930de4cb1586f",
+        "f11160f7824facc7d5031a3ecd220373bf08f387f23581f5ec350f7fa0152c03"
+      ],
       "text": "Enemy headed to orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

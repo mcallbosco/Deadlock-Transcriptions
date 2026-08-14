@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_ally_punkgoat_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "b54c4716f14cb90022de3e180714098b7c5133163dc35b5a869e6cb5076832de",
+      "sha256": [
+        "b54c4716f14cb90022de3e180714098b7c5133163dc35b5a869e6cb5076832de"
+      ],
       "text": "They took out the goat guy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0d80851f906b3e64f35db1ce62c9dc5b9538137e91ab8592b1b2ad9d35b9653a",
+      "sha256": [
+        "0d80851f906b3e64f35db1ce62c9dc5b9538137e91ab8592b1b2ad9d35b9653a"
+      ],
       "text": "They took out Billy!",
       "source": "official"
     }

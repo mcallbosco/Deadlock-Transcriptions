@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_ally_shiv_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "bf1793c67bbfc21e179b2b86b2e792661bd330f540e4604964dc0ec3a805c0d5",
-      "text": "They took out Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "51cc89c269e4300a9d385a59168de15e3b3bbf911674bc254cd6a4e97b23d0d3",
-      "text": "They took out Shiv!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d5937982e186932c02d18f2c1a04f80095db0be62d3b9dccb5be4f7561f9048c",
+      "sha256": [
+        "51cc89c269e4300a9d385a59168de15e3b3bbf911674bc254cd6a4e97b23d0d3",
+        "bf1793c67bbfc21e179b2b86b2e792661bd330f540e4604964dc0ec3a805c0d5",
+        "d5937982e186932c02d18f2c1a04f80095db0be62d3b9dccb5be4f7561f9048c"
+      ],
       "text": "They took out Shiv!",
       "source": "official"
     }

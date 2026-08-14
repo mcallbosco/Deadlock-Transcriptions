@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_saw_inferno.mp3",
   "revisions": [
     {
-      "sha256": "dac6b0edc77381b6b0cda0a601aad26302a90a4a5d1af7e7d69944de76a8ca31",
-      "text": "I saw Infernus!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aaf1251d1ed21c3a771449f00a3ae527993ad4d040fa240328ff688e0df14918",
+      "sha256": [
+        "aaf1251d1ed21c3a771449f00a3ae527993ad4d040fa240328ff688e0df14918",
+        "dac6b0edc77381b6b0cda0a601aad26302a90a4a5d1af7e7d69944de76a8ca31"
+      ],
       "text": "I saw Infernus!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

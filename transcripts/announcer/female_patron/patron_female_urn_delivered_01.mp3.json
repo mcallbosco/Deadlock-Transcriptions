@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_urn_delivered_01.mp3",
   "revisions": [
     {
-      "sha256": "2bdd15d54dc01ebbd434a7a738082294635ae7b04425cb312d60c7ee74ca1d8a",
+      "sha256": [
+        "2bdd15d54dc01ebbd434a7a738082294635ae7b04425cb312d60c7ee74ca1d8a"
+      ],
       "text": "The urn has been delivered.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a3ca30b0fee5af05479e2b9fd850bb5280dab23f1d8727c6555fae75e822fa2e",
+      "sha256": [
+        "a3ca30b0fee5af05479e2b9fd850bb5280dab23f1d8727c6555fae75e822fa2e"
+      ],
       "text": "The urn is being delivered.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

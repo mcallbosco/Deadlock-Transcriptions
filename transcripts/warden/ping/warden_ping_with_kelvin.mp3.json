@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "723dee706e65d55c5985cefb10e4abeffb0adea718964141390952422a564df4",
-      "text": "I'm with you, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "103bb81a013240876504aa822ccbd258ddbaebcae60cf5969e94361f3880ca78",
-      "text": "I'm with you, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea3dc94e2a2424a386e6bb7d9357e51754a790ecf83dbcf8f92682ac81d96c77",
-      "text": "I'm with you, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "078dbfdc78115b5a8a2102d36d9bb5dcbd5a0e87871a71cb3f57fddcbc84d0ba",
+      "sha256": [
+        "078dbfdc78115b5a8a2102d36d9bb5dcbd5a0e87871a71cb3f57fddcbc84d0ba",
+        "103bb81a013240876504aa822ccbd258ddbaebcae60cf5969e94361f3880ca78",
+        "723dee706e65d55c5985cefb10e4abeffb0adea718964141390952422a564df4",
+        "ea3dc94e2a2424a386e6bb7d9357e51754a790ecf83dbcf8f92682ac81d96c77"
+      ],
       "text": "I'm with you, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

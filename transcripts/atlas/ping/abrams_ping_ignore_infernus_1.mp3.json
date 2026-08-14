@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ignore_infernus_1.mp3",
   "revisions": [
     {
-      "sha256": "cbcefc65129496cd585d6fc8679edb83ae8b6456db9b68452d8d18bdf153df9c",
-      "text": "Ignore Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c0acd8eff9bc6f5c1f4fd49bead399062bd76b492f8e6bb68105fadc7adc4e9c",
+      "sha256": [
+        "c0acd8eff9bc6f5c1f4fd49bead399062bd76b492f8e6bb68105fadc7adc4e9c",
+        "cbcefc65129496cd585d6fc8679edb83ae8b6456db9b68452d8d18bdf153df9c"
+      ],
       "text": "Ignore Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

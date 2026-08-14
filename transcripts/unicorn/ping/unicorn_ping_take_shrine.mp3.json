@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_take_shrine.mp3",
   "revisions": [
     {
-      "sha256": "f0c499b9d1898281bfb12981327ff94f980dc5cd7a81ba5fec46b88d6889d00b",
+      "sha256": [
+        "f0c499b9d1898281bfb12981327ff94f980dc5cd7a81ba5fec46b88d6889d00b"
+      ],
       "text": "It's time to end this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

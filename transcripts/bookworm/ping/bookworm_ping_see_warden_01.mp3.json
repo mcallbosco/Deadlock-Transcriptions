@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "0e8b7a56710c3c46e72048413b9f3c895e423753abc46a13f3254cd57f0877b8",
-      "text": "I see Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3177751dd6682872d77fa65b414710051c94bfdee6cf57bf03e36bad0d46e0f8",
+      "sha256": [
+        "0e8b7a56710c3c46e72048413b9f3c895e423753abc46a13f3254cd57f0877b8",
+        "3177751dd6682872d77fa65b414710051c94bfdee6cf57bf03e36bad0d46e0f8"
+      ],
       "text": "I see Warden.",
       "source": "official"
     }

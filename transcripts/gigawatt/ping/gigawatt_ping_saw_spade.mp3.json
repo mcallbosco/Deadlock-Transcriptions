@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_saw_spade.mp3",
   "revisions": [
     {
-      "sha256": "b26afd0185b2c1826db04ba4bb5a716be3edacd983709ad07597089df025a107",
+      "sha256": [
+        "b26afd0185b2c1826db04ba4bb5a716be3edacd983709ad07597089df025a107",
+        "e3f85d8def0d63f7e444f420561ce7353254500054a8353145df1616a000b14b"
+      ],
       "text": "Crush the speed!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3f85d8def0d63f7e444f420561ce7353254500054a8353145df1616a000b14b",
-      "text": "Crush the speed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

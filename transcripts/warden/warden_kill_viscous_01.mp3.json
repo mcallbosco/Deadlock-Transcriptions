@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_kill_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "35bb03e78354f01fa867c4c88b51398139f745fb4980ad51496bbe1c3df8ecb0",
+      "sha256": [
+        "35bb03e78354f01fa867c4c88b51398139f745fb4980ad51496bbe1c3df8ecb0"
+      ],
       "text": "That was a while ago.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "85db039e47f4dac1448fc600baf2765cf2fd98b1579ac7a8415be94e208c9716",
+      "sha256": [
+        "7646a18103f79ee8abc85bb95675522eb3e3308efbb6d19ebe739ab172af2ad1",
+        "85db039e47f4dac1448fc600baf2765cf2fd98b1579ac7a8415be94e208c9716"
+      ],
       "text": "That was a lot of goo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7646a18103f79ee8abc85bb95675522eb3e3308efbb6d19ebe739ab172af2ad1",
-      "text": "That was a lot of goo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbd7baeef552093fe65d42148691f2e8896f92548c75d9e42c505ea6df20191a",
+      "sha256": [
+        "dbd7baeef552093fe65d42148691f2e8896f92548c75d9e42c505ea6df20191a"
+      ],
       "text": "That was a lotta goo…",
       "source": "official"
     }

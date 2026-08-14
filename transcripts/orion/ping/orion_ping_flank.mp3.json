@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_flank.mp3",
   "revisions": [
     {
-      "sha256": "a89f28fe4d8f69ee012157bd1fb13175029892f3e6ac5f70f3c8017b6b6c54b9",
-      "text": "I'll flank 'em.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ade81269f134c1da9c6f868866e31298f70327f9891dd66559ddb1d3a9fc634",
-      "text": "I'll flank 'em.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6436c2ff6e9bfacd03a2f93c1f23b7dd87bd0799707554bc78ac970e4b578f80",
+      "sha256": [
+        "6436c2ff6e9bfacd03a2f93c1f23b7dd87bd0799707554bc78ac970e4b578f80",
+        "6ade81269f134c1da9c6f868866e31298f70327f9891dd66559ddb1d3a9fc634",
+        "a89f28fe4d8f69ee012157bd1fb13175029892f3e6ac5f70f3c8017b6b6c54b9"
+      ],
       "text": "I'll flank 'em",
       "source": "official"
     }

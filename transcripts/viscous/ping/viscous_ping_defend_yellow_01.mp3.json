@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_defend_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "d333dae03bbf376804c60c8ccfb01e0c7d2a04c825f0009ac58c09afb75ed80a",
+      "sha256": [
+        "d333dae03bbf376804c60c8ccfb01e0c7d2a04c825f0009ac58c09afb75ed80a",
+        "f8e65c8e665b0274cb2d340070d066552adc4747d2745b0fc63e5c3118b56e5e"
+      ],
       "text": "Defend yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8e65c8e665b0274cb2d340070d066552adc4747d2745b0fc63e5c3118b56e5e",
-      "text": "defend yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_no_teamfight.mp3",
   "revisions": [
     {
-      "sha256": "eefbf373783dce4b3e44e912ebf1bd0ef4598b59ab973f417c09c49d5fa99a9a",
-      "text": "I'm not ready to teamfight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a50a9c0531489a7a876b1eef63abe8fad0cb96b3f80bc99bcec9c1a3d1cdc57f",
-      "text": "I'm not ready to team fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0c453cfb3b8a42028c12ee7e7d0d2ea3ca6faa70bde49bdb9c375783e43de3a",
+      "sha256": [
+        "a0c453cfb3b8a42028c12ee7e7d0d2ea3ca6faa70bde49bdb9c375783e43de3a",
+        "a50a9c0531489a7a876b1eef63abe8fad0cb96b3f80bc99bcec9c1a3d1cdc57f",
+        "eefbf373783dce4b3e44e912ebf1bd0ef4598b59ab973f417c09c49d5fa99a9a"
+      ],
       "text": "I'm not ready to team fight",
       "source": "official"
     }

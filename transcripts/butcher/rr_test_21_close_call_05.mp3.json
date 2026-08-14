@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_close_call_05.mp3",
   "revisions": [
     {
-      "sha256": "01a3f175d7d091a535a347cd4ddfe8260968589d186b8fd09462201dce333692",
+      "sha256": [
+        "016d0e441ed7ba7c69e49f7860663691bb9150f2773f9ec2aaaa97ea7e139861",
+        "01a3f175d7d091a535a347cd4ddfe8260968589d186b8fd09462201dce333692",
+        "b646e0844758f7b90e9ba738e1e80d3b91874d661da1b90f2cbe3cef88274b73"
+      ],
       "text": "That was serendipitous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b646e0844758f7b90e9ba738e1e80d3b91874d661da1b90f2cbe3cef88274b73",
-      "text": "That was serendipitous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "016d0e441ed7ba7c69e49f7860663691bb9150f2773f9ec2aaaa97ea7e139861",
-      "text": "That was serendipitous!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

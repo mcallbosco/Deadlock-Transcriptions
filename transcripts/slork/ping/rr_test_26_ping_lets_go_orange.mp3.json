@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_lets_go_orange.mp3",
   "revisions": [
     {
-      "sha256": "8b54386807f6f8019a09395bc709b4309651289f775f5de016cd80523a0e8963",
-      "text": "Let's go orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d6ace84dd39f6d82d4bf390bd43eda8d6e495924fe1402f8bebddf4de412045",
+      "sha256": [
+        "1d6ace84dd39f6d82d4bf390bd43eda8d6e495924fe1402f8bebddf4de412045",
+        "8b54386807f6f8019a09395bc709b4309651289f775f5de016cd80523a0e8963"
+      ],
       "text": "Let's go orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

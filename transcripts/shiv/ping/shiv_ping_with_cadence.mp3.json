@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_with_cadence.mp3",
   "revisions": [
     {
-      "sha256": "ab97c880ad055b194667e1c5f399a1386516feff6198a809006b39b3d9cca885",
+      "sha256": [
+        "4222589ad6f4364649e8fec40da10f4614165858e63603d3992e69a100aedfa2",
+        "ab97c880ad055b194667e1c5f399a1386516feff6198a809006b39b3d9cca885"
+      ],
       "text": "Come with me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4222589ad6f4364649e8fec40da10f4614165858e63603d3992e69a100aedfa2",
-      "text": "Come with me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f9452c5a5294c097d4766297aaec46a05a3fad674a0e8fb34f94761b012234d",
+      "sha256": [
+        "2f9452c5a5294c097d4766297aaec46a05a3fad674a0e8fb34f94761b012234d"
+      ],
       "text": "I'm with the cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

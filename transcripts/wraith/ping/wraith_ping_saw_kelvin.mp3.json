@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "a545847f6d04e1cf76139614c409ef791292652bd50ad7fe00725b1f9e8be6bc",
-      "text": "I saw Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a93fad8458822dd9018ee4a7368a17900d2bd38b8377e37f5ef5154028d40136",
-      "text": "I saw Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78643002d89480e34c5444d155a547572d6e354a2326d30f3ff1dc12fbe134a6",
-      "text": "I saw Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13ed7a160caaecad073a2a753812602f9841c068a14a9924d3e823b81620e66a",
+      "sha256": [
+        "13ed7a160caaecad073a2a753812602f9841c068a14a9924d3e823b81620e66a",
+        "78643002d89480e34c5444d155a547572d6e354a2326d30f3ff1dc12fbe134a6",
+        "a545847f6d04e1cf76139614c409ef791292652bd50ad7fe00725b1f9e8be6bc",
+        "a93fad8458822dd9018ee4a7368a17900d2bd38b8377e37f5ef5154028d40136"
+      ],
       "text": "I saw Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

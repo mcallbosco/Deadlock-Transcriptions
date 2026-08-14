@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "cf4d49b2155feb9ec2b019dbcf9bcde47712e51981c34741c6cea733adffb000",
+      "sha256": [
+        "cf4d49b2155feb9ec2b019dbcf9bcde47712e51981c34741c6cea733adffb000"
+      ],
       "text": "Mira's was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

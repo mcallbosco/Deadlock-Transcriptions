@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "magician/ping/magician_henry_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "30265f561d1daa267adbcc5f326356ae92ebc5402385273adbe703f447dbe485",
+      "sha256": [
+        "30265f561d1daa267adbcc5f326356ae92ebc5402385273adbe703f447dbe485"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

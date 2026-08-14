@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_right_back_01.mp3",
   "revisions": [
     {
-      "sha256": "131bc41868f96c03af1ea82ec732df08c678123b84c84c1c364bb3c06848b5af",
-      "text": "I'll be right back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "290789ca14d7985ac010eb1707af3cf3b64e4e2f36c3d70ae8e71bcdebc066b8",
+      "sha256": [
+        "131bc41868f96c03af1ea82ec732df08c678123b84c84c1c364bb3c06848b5af",
+        "290789ca14d7985ac010eb1707af3cf3b64e4e2f36c3d70ae8e71bcdebc066b8"
+      ],
       "text": "I'll be right back.",
       "source": "official"
     }

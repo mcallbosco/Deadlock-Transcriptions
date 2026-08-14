@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "21b241d7e69a67d41849e8fcf54404baedb3e3e139a829eabdba953fbea5c504",
+      "sha256": [
+        "21b241d7e69a67d41849e8fcf54404baedb3e3e139a829eabdba953fbea5c504",
+        "a6ce036c96a6dd45ea695d11b4778be1b698c552682862674494359ebcebfa18",
+        "abad3d3a9cd1c1618082ada012d21ae81dfb0609ce094660a24bbb758a2fb643"
+      ],
       "text": "Ships missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "abad3d3a9cd1c1618082ada012d21ae81dfb0609ce094660a24bbb758a2fb643",
-      "text": "Ships missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6ce036c96a6dd45ea695d11b4778be1b698c552682862674494359ebcebfa18",
-      "text": "Ships missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92c33c9e0e196251a8ef11a1709b7777b37cd310c256ec7b8e19ac9809d449e3",
+      "sha256": [
+        "92c33c9e0e196251a8ef11a1709b7777b37cd310c256ec7b8e19ac9809d449e3"
+      ],
       "text": "Shiv's missing",
       "source": "official"
     }

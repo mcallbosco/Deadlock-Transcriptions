@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_kill_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "8aedd4bbb32534ce207448199deead3beab2259c5bb81b6a61da7c7de0f104c7",
-      "text": "Stop the gargoyle.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1167f9fd61690877e5ec77161ef73ebe2d5cad0fd29fbcd96afb5747faf412d2",
+      "sha256": [
+        "1167f9fd61690877e5ec77161ef73ebe2d5cad0fd29fbcd96afb5747faf412d2",
+        "8aedd4bbb32534ce207448199deead3beab2259c5bb81b6a61da7c7de0f104c7"
+      ],
       "text": "Stop the gargoyle.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

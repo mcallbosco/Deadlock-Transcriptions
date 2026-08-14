@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "baeb9d0c4348e2cfff188fe1ef1144472acb81787da0cba6b08e2d525bd62446",
-      "text": "Kelvin was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6679a039339b67b5df409825b2d107297db34cce76d1144f14d8aae4b2a28cc8",
-      "text": "Kelvin was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50bb0dc0e67c430f954b439cf66e25cb88a921733d581742c2ef231cd28b68b5",
-      "text": "Kelvin was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a2d52cb0aaa497ca059873b658ae6e88de7a416e11e3a522b866d4672c68642f",
+      "sha256": [
+        "50bb0dc0e67c430f954b439cf66e25cb88a921733d581742c2ef231cd28b68b5",
+        "6679a039339b67b5df409825b2d107297db34cce76d1144f14d8aae4b2a28cc8",
+        "a2d52cb0aaa497ca059873b658ae6e88de7a416e11e3a522b866d4672c68642f",
+        "baeb9d0c4348e2cfff188fe1ef1144472acb81787da0cba6b08e2d525bd62446"
+      ],
       "text": "Kelvin was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

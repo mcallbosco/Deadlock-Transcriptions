@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_astro_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "762a87d76bc15867277a789502317e181330f2d76936e7bced4435626d8425bb",
-      "text": "Holliday's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9e8e09c20ee2163ad6222fe17cadcdd082005fa90bd634bd624d1dfc6d97bae",
-      "text": "Holliday's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "055f969d40bd29d25e8da92fb86ffdd01f8dab0ac4d3f774d02b33e2a071fcf8",
+      "sha256": [
+        "055f969d40bd29d25e8da92fb86ffdd01f8dab0ac4d3f774d02b33e2a071fcf8",
+        "762a87d76bc15867277a789502317e181330f2d76936e7bced4435626d8425bb",
+        "d9e8e09c20ee2163ad6222fe17cadcdd082005fa90bd634bd624d1dfc6d97bae"
+      ],
       "text": "Holliday's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

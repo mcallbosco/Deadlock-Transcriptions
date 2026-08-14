@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_congrats_04.mp3",
   "revisions": [
     {
-      "sha256": "ff005db263b5a67579ea2ae800d8ec68f7c5eb58bdb76cf162ef47c9a1981bae",
-      "text": "And there we will not fall.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a258ae00d914657622dd4d1b5efa5772eb8c865fc4bf72fd909f4c6d5bb623d",
+      "sha256": [
+        "7a258ae00d914657622dd4d1b5efa5772eb8c865fc4bf72fd909f4c6d5bb623d",
+        "ff005db263b5a67579ea2ae800d8ec68f7c5eb58bdb76cf162ef47c9a1981bae"
+      ],
       "text": "And there we will not fall.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

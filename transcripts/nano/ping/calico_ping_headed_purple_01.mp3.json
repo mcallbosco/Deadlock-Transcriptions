@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_headed_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "f07ab17973ec4673d724df2a4dde50f8455144846c2122f5ecb737d7f8350b02",
-      "text": "Headed to purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4dd19d5403ad6770a883674803ce453a0a7f8f9457b96ad48b2f1a855867eb3b",
+      "sha256": [
+        "4dd19d5403ad6770a883674803ce453a0a7f8f9457b96ad48b2f1a855867eb3b",
+        "f07ab17973ec4673d724df2a4dde50f8455144846c2122f5ecb737d7f8350b02"
+      ],
       "text": "Headed to purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

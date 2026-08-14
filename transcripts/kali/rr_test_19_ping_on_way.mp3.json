@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "a479d3de7df63ab5e2cdedbe9563417dfea422e9425bb8d9d8dcbbd5319ec8d5",
+      "sha256": [
+        "a479d3de7df63ab5e2cdedbe9563417dfea422e9425bb8d9d8dcbbd5319ec8d5"
+      ],
       "text": "You are something else, DJinn.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9c0b8ebb92f60916542b73064c89d5effdeb8e28232d61ec5bb5c1463d7ca842",
+      "sha256": [
+        "9c0b8ebb92f60916542b73064c89d5effdeb8e28232d61ec5bb5c1463d7ca842"
+      ],
       "text": "What the hell are you doing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "69f1abd7d9eb3f44ff4a185509782134d53bf1714c4f1eed3a98430fed0d16f2",
+      "sha256": [
+        "69f1abd7d9eb3f44ff4a185509782134d53bf1714c4f1eed3a98430fed0d16f2"
+      ],
       "text": "context: ###\nTranscribe this Deadlock voice line in English exactly. Preserve all spoken words. Do not add commentary or quotation marks. The following JSON contains authoritative Deadlock spellings, terminology, and transcription guidelines. Follow it when applicable: {\"Characters\":[\"Holliday\",\"Shelly Fisher\",\"Geist\",\"Marla\",\"Marlowe\",\"Troubadour\",\"Nashala Dion\",\"Viscous\",\"John Hathorne\",\"Edrick\",\"Captain Murphy\",\"Holliday\",\"Infernus\",\"Kelvin\",\"Abrams\",\"Vindicta\",\"Operative\",\"Bebop\",\"Cadence\",\"Paradox\",\"Dynamo\",\"McGinnis\",\"Lady Geist\",\"Seven\",\"Haze\",\"Krill\",\"Lash\",\"Magician\",\"Mirage\",\"Nano\",\"Grey Talon\",\"Shiv\",\"Slork\",\"Pocket\",\"Ivy\",\"Trapper\",\"Vyper\",\"Viscous\",\"Warden\",\"Wraith\",\"Wrecker\",\"Yamato\",\"Fern\",\"Mina Ha\",\"Doorman\",\"Paige\",\"Rem\",\"Apollo\",\"Graves\",\"Pepper\",\"Silver\",\"Venator\"],\"Groups\":[\"Djinn\"],\"Places\":[\"Ixia\",\"Blackmore\"],\"Abilities\":[\"Ping\"],\"Game Terms\":[\"Mid\",\"Mid-Boss\",\"Gank\",\"Payload\",\"Capture\",\"Control\",\"Escort\"],\"Transcription Guidelines\":[\"Use sentence case for all transcriptions.\",\"Use standard punctuation.\",\"Follow the above spelling for ambiguous names.\",\"Do not include extra whitespace at the beginning or end of transcriptions.\"]}\n###",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

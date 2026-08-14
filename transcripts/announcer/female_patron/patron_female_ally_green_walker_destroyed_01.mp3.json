@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_green_walker_destroyed_01.mp3",
   "revisions": [
     {
-      "sha256": "cdfe54230ba278cac7052c1b70e3115635e35087c57c79fc8b5748c26fec679b",
-      "text": "Our green walker has been destroyed!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5bb0f8734f000da60bc49aeee1a9e6898f8a2fae4fdecbc56258badb54fec22",
+      "sha256": [
+        "c5bb0f8734f000da60bc49aeee1a9e6898f8a2fae4fdecbc56258badb54fec22",
+        "cdfe54230ba278cac7052c1b70e3115635e35087c57c79fc8b5748c26fec679b"
+      ],
       "text": "Our green walker has been destroyed",
       "source": "official"
     }

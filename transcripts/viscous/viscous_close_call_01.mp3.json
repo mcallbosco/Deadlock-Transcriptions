@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/viscous_close_call_01.mp3",
   "revisions": [
     {
-      "sha256": "5952b3277494985131a3e9893b15e2c763c9ffb37e88c24e8a40a4340019a99d",
-      "text": "That was close.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9db650c1a4ae49bd300665ca7b1233f6bff321a98daf0f58d9a3769da1f05c7c",
+      "sha256": [
+        "5952b3277494985131a3e9893b15e2c763c9ffb37e88c24e8a40a4340019a99d",
+        "9db650c1a4ae49bd300665ca7b1233f6bff321a98daf0f58d9a3769da1f05c7c"
+      ],
       "text": "That was close.",
       "source": "official"
     }

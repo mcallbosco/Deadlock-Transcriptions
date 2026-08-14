@@ -1,28 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_kill_murphy_03.mp3",
   "revisions": [
     {
-      "sha256": "a311bc0efe51d18ef28effbe80fc93736e3ffebe8c317dafcdf00aaa405801f2",
+      "sha256": [
+        "0035850ddb4e98e55f828e5f7732c8820306f02fc04e86d02ca731f4d1fb6ff3",
+        "0e52256eefcb2fad7c098a28b91c0b66fc5ee1368bd69d653fb32204b4b5a41c",
+        "a311bc0efe51d18ef28effbe80fc93736e3ffebe8c317dafcdf00aaa405801f2",
+        "f4288824d3cae52ec4b8eb62cb35e54c2c51259df941b9df2be650b7d46c894b"
+      ],
       "text": "Stop Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e52256eefcb2fad7c098a28b91c0b66fc5ee1368bd69d653fb32204b4b5a41c",
-      "text": "Stop, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4288824d3cae52ec4b8eb62cb35e54c2c51259df941b9df2be650b7d46c894b",
-      "text": "Stop Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0035850ddb4e98e55f828e5f7732c8820306f02fc04e86d02ca731f4d1fb6ff3",
-      "text": "Stop Murphy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

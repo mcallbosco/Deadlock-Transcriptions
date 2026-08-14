@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_haze_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "ca5d94022e3b854d6bbdb50c099b2641c743331404baaa21982abca19b47e6d6",
+      "sha256": [
+        "ca5d94022e3b854d6bbdb50c099b2641c743331404baaa21982abca19b47e6d6"
+      ],
       "text": "Haze is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "024d1caa181b7d54fc38c001ba6744e83a49614b7369a2df37b688f85ff37654",
+      "sha256": [
+        "024d1caa181b7d54fc38c001ba6744e83a49614b7369a2df37b688f85ff37654",
+        "ad496ab9e6e72c893ecca4fa05a5532cb13d350405f970d7b59c6971779c82d1"
+      ],
       "text": "Ace in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ad496ab9e6e72c893ecca4fa05a5532cb13d350405f970d7b59c6971779c82d1",
-      "text": "Ace in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d8a036741a284095096c89bb922b3002edf47a5bed333ef71725b52f478d316",
+      "sha256": [
+        "1d8a036741a284095096c89bb922b3002edf47a5bed333ef71725b52f478d316"
+      ],
       "text": "Haze's in mid!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_viscous_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "a849d341d283ad3d431caeb9a156a1d7ac0357625ad5e3ee89d487defe727f1b",
-      "text": "This is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d06130b7b532e9ab1091eaaed0c140d6d3e8891f1cfa4e4b57ef17735fe747e",
+      "sha256": [
+        "3d06130b7b532e9ab1091eaaed0c140d6d3e8891f1cfa4e4b57ef17735fe747e",
+        "a849d341d283ad3d431caeb9a156a1d7ac0357625ad5e3ee89d487defe727f1b"
+      ],
       "text": "This is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

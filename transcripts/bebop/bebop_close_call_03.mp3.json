@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_close_call_03.mp3",
   "revisions": [
     {
-      "sha256": "de60462537d6f6af628620017a32c753c6a1ae3c0622743c17f0ee9481a9f671",
+      "sha256": [
+        "de60462537d6f6af628620017a32c753c6a1ae3c0622743c17f0ee9481a9f671"
+      ],
       "text": "Now wake up!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "76930003e6b04de819535d707ed92727b94927a5390503cc5826c927b26f98f9",
+      "sha256": [
+        "76930003e6b04de819535d707ed92727b94927a5390503cc5826c927b26f98f9"
+      ],
       "text": "That'll wake ya up…",
       "source": "official"
     }

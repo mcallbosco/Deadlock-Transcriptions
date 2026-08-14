@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_bebop_dead.mp3",
   "revisions": [
     {
-      "sha256": "fdc5e896efb76118b4e70517190f099c6897a74b01ddd7416e5d89cfa6f19bba",
-      "text": "Bebop is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7b84844683d8b08f0f726851ab7eeba5d4e39047902aa80a0907bab8707291e",
+      "sha256": [
+        "d7b84844683d8b08f0f726851ab7eeba5d4e39047902aa80a0907bab8707291e",
+        "fdc5e896efb76118b4e70517190f099c6897a74b01ddd7416e5d89cfa6f19bba"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

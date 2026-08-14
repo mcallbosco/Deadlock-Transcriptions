@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_use_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "9a01a650ab464672918c9ed8b4a252d326dab89c814ed3581591090b52ebad7d",
-      "text": "Time to die.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38fde31759790d9b1fd52e1a77cd1c022083732bea9768b41206eba6044e7cea",
+      "sha256": [
+        "38fde31759790d9b1fd52e1a77cd1c022083732bea9768b41206eba6044e7cea",
+        "9a01a650ab464672918c9ed8b4a252d326dab89c814ed3581591090b52ebad7d"
+      ],
       "text": "Time to die.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

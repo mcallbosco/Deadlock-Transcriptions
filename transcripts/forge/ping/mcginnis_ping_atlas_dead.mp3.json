@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_atlas_dead.mp3",
   "revisions": [
     {
-      "sha256": "b4aebe7a83a3c3eda92dbdae1d469ec0819926f9275ee77392c750a313e589e8",
-      "text": "Abrams is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "844ec396060f74cf9f99f6b53f91f8874f8ef698d052f1984b1641836524a793",
+      "sha256": [
+        "844ec396060f74cf9f99f6b53f91f8874f8ef698d052f1984b1641836524a793",
+        "b4aebe7a83a3c3eda92dbdae1d469ec0819926f9275ee77392c750a313e589e8"
+      ],
       "text": "Abrams is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

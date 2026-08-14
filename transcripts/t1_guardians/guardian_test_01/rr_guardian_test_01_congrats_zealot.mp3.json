@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_congrats_zealot.mp3",
   "revisions": [
     {
-      "sha256": "69840ded325bc6efb07b0bc63de11f7d86d50c25e5918ef140ec0deb1aa613f5",
+      "sha256": [
+        "69840ded325bc6efb07b0bc63de11f7d86d50c25e5918ef140ec0deb1aa613f5",
+        "79e33e9816ee2cf0d006c1e574407b2fe5f95e75dec7ee6427609073978eefb1"
+      ],
       "text": "Good job, zealot!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dcdf4470e29c00599a649df8fca23d4e3c0fd0b690e391133208855aa170c553",
+      "sha256": [
+        "dcdf4470e29c00599a649df8fca23d4e3c0fd0b690e391133208855aa170c553"
+      ],
       "text": "Good job, Zelot!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "79e33e9816ee2cf0d006c1e574407b2fe5f95e75dec7ee6427609073978eefb1",
-      "text": "Good job, Zealot!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

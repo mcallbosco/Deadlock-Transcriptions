@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "0e776b77cc169e63d4f902fe678404ffed74cc73de33ab652bba1dd61c3fbf61",
+      "sha256": [
+        "0e776b77cc169e63d4f902fe678404ffed74cc73de33ab652bba1dd61c3fbf61",
+        "baed63f061c854f56cfd87015c86f0c09faae400ac1cd66fa057f11d31e79626"
+      ],
       "text": "I'm with you, wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "baed63f061c854f56cfd87015c86f0c09faae400ac1cd66fa057f11d31e79626",
-      "text": "I'm with you, Wrecker.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

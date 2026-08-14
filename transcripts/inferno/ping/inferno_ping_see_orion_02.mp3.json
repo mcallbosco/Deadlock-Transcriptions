@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_orion_02.mp3",
   "revisions": [
     {
-      "sha256": "76b981299ca0f1204153bb72e43ab8e4b0811915e2bce53c16e91ec69c40aecc",
-      "text": "Look out for Orion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7120c217f128d6b0c153fcfd32a47351000dc8bc2a9f684ac37e4cd7c597e32f",
+      "sha256": [
+        "7120c217f128d6b0c153fcfd32a47351000dc8bc2a9f684ac37e4cd7c597e32f",
+        "76b981299ca0f1204153bb72e43ab8e4b0811915e2bce53c16e91ec69c40aecc"
+      ],
       "text": "Look out for Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

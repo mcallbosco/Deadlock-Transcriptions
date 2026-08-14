@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_mirage_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "99d017fd0a64ba4d73e76d807b0e962252a8d3764feee89a3e892108480e4579",
-      "text": "Mirage is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5637c6af05ce5ba83b09be62efa27af4079d2969d2e33024476f0e47670d088f",
+      "sha256": [
+        "5637c6af05ce5ba83b09be62efa27af4079d2969d2e33024476f0e47670d088f",
+        "99d017fd0a64ba4d73e76d807b0e962252a8d3764feee89a3e892108480e4579"
+      ],
       "text": "Mirage is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

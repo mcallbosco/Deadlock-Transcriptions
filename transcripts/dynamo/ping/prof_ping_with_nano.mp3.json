@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_with_nano.mp3",
   "revisions": [
     {
-      "sha256": "d38798b3eae8feab13da0b0a5268f451116bd966e243df7d66fb038a04347297",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a69bc8914d41c8bd931d2ab67eb4a29ce3e35cb4b10b866c19a7cf91251d0b73",
+      "sha256": [
+        "a69bc8914d41c8bd931d2ab67eb4a29ce3e35cb4b10b866c19a7cf91251d0b73",
+        "d38798b3eae8feab13da0b0a5268f451116bd966e243df7d66fb038a04347297"
+      ],
       "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

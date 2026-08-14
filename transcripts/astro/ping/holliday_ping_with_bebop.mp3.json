@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_with_bebop.mp3",
   "revisions": [
     {
-      "sha256": "4028c398b371c4fcb3d80d4b0a78e4e965cbc0be06b2603e38a4977580efd927",
+      "sha256": [
+        "4028c398b371c4fcb3d80d4b0a78e4e965cbc0be06b2603e38a4977580efd927"
+      ],
       "text": "I'm with you, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

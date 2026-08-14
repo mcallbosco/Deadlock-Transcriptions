@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "83af09500cadd32e63e6441d63ed1831fba36bc2ae021434008141272ec453a3",
-      "text": "Krill is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13be2fd8f9a99771bddf346bf8f98b4a8bf3d4b08c4430513601795837009d80",
+      "sha256": [
+        "13be2fd8f9a99771bddf346bf8f98b4a8bf3d4b08c4430513601795837009d80",
+        "83af09500cadd32e63e6441d63ed1831fba36bc2ae021434008141272ec453a3"
+      ],
       "text": "Krill is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

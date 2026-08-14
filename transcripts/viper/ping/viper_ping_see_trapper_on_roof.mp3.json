@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_trapper_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "efc4fd4f0d9e320d209852d00ce27eb424cc0d478e557cc67ab1ce590255e410",
-      "text": "Trapper's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13cde5d60f4012302633e123bce984d613499ad882b42b8f8778fb63b475d359",
+      "sha256": [
+        "13cde5d60f4012302633e123bce984d613499ad882b42b8f8778fb63b475d359",
+        "efc4fd4f0d9e320d209852d00ce27eb424cc0d478e557cc67ab1ce590255e410"
+      ],
       "text": "Trapper's on the roof!",
       "source": "official"
     }

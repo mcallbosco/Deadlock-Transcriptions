@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "355b58fa58089f44e158e2f263aab13dda8b3a86199010f06571477da14e85ac",
+      "sha256": [
+        "355b58fa58089f44e158e2f263aab13dda8b3a86199010f06571477da14e85ac"
+      ],
       "text": "I'm with you, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

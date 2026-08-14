@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power4_02.mp3",
   "revisions": [
     {
-      "sha256": "4b46fed3f4b5a6f0dff58462a2ee214a5dfdfc68b4a6355a56ffc02d1ae1f10d",
+      "sha256": [
+        "4b46fed3f4b5a6f0dff58462a2ee214a5dfdfc68b4a6355a56ffc02d1ae1f10d"
+      ],
       "text": "I'll go wait and burn this thing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "20b85edbb01dc86646f87972be11bcdca0f6a7e942d10d835cf12885542cd6c0",
+      "sha256": [
+        "20b85edbb01dc86646f87972be11bcdca0f6a7e942d10d835cf12885542cd6c0"
+      ],
       "text": "I can't wait to fire this thing.",
       "source": "official"
     }

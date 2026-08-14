@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_heavy_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "3d793742587e401acff929fe1164c349e845512233175817e3eb343553c96e56",
-      "text": "Heavy's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e763af20d8035125fbfd2214aa75aa38291c69981727c62ea0b48d8a3e7f6b41",
-      "text": "Heavy's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "de27effde27ce239e368ba162dde9a33b1ab365c72cc601e8c7461a9be25d2ac",
+      "sha256": [
+        "3d793742587e401acff929fe1164c349e845512233175817e3eb343553c96e56",
+        "de27effde27ce239e368ba162dde9a33b1ab365c72cc601e8c7461a9be25d2ac",
+        "e763af20d8035125fbfd2214aa75aa38291c69981727c62ea0b48d8a3e7f6b41"
+      ],
       "text": "Heavy's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

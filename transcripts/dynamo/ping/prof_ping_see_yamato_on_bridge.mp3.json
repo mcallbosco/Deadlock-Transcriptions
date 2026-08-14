@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_yamato_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "fea4f601fe4778e36aaa876c50161ac01e5da411d97d0272e8036bf60f8adcec",
+      "sha256": [
+        "fea4f601fe4778e36aaa876c50161ac01e5da411d97d0272e8036bf60f8adcec"
+      ],
       "text": "Now is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e9b032bbc85f57750d696e37ecd6e1d6f8167f10fe87cbf238ef071f2252a1b9",
+      "sha256": [
+        "e9b032bbc85f57750d696e37ecd6e1d6f8167f10fe87cbf238ef071f2252a1b9"
+      ],
       "text": "Cowder's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

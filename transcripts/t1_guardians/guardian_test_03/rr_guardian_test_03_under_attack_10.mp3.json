@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_under_attack_10.mp3",
   "revisions": [
     {
-      "sha256": "d96551a397767324776bf0fb2a5f6e0094b13249d8dd21dda68d5da1939332c4",
+      "sha256": [
+        "497339737cfe9b0d22194fc0a0cb8d7ccfa27a52715b46bf1ea8f36a2124fde5",
+        "d96551a397767324776bf0fb2a5f6e0094b13249d8dd21dda68d5da1939332c4"
+      ],
       "text": "That's called the blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5c219894d4f3dc19563082a16e3ee4602db0ace900a4e1cda35818165705df5d",
+      "sha256": [
+        "5c219894d4f3dc19563082a16e3ee4602db0ace900a4e1cda35818165705df5d"
+      ],
       "text": "That's got the blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "497339737cfe9b0d22194fc0a0cb8d7ccfa27a52715b46bf1ea8f36a2124fde5",
-      "text": "That's called the blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

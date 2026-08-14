@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_saw_tengu.mp3",
   "revisions": [
     {
-      "sha256": "fc6b68f1c923b7cdf24bbd7f2c266e5b61536fadec71f4b936c6382927a0c01b",
+      "sha256": [
+        "b07e522f26e4a144daa8a54253e3dab140c9f04e2ae1d412c4a619ce67a56610",
+        "fc6b68f1c923b7cdf24bbd7f2c266e5b61536fadec71f4b936c6382927a0c01b"
+      ],
       "text": "Poseidon!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b07e522f26e4a144daa8a54253e3dab140c9f04e2ae1d412c4a619ce67a56610",
-      "text": "Poseidon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

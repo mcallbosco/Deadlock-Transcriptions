@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_wraith_dead.mp3",
   "revisions": [
     {
-      "sha256": "c8ab5a45bd1d3974aedd4d02e5e3c55fe9a320ff8b760dc3561d345f2dd278e1",
+      "sha256": [
+        "c8ab5a45bd1d3974aedd4d02e5e3c55fe9a320ff8b760dc3561d345f2dd278e1"
+      ],
       "text": "Grey is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1ae97cf300f7e44ca44bab55ed72aa2e793c05e296cfd761dad32c2ae8aed992",
+      "sha256": [
+        "1ae97cf300f7e44ca44bab55ed72aa2e793c05e296cfd761dad32c2ae8aed992"
+      ],
       "text": "Grays dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

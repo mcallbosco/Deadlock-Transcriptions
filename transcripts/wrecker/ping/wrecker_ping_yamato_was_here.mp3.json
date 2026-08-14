@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "7f75d442a064ea3e155ac6540487a14b0f737b79939e70f36fa5f95c469c91a8",
-      "text": "Yamato was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "011c56f249ea18d55f453c0079a074bf00b1c6030d723a905ede2522cc64b523",
+      "sha256": [
+        "011c56f249ea18d55f453c0079a074bf00b1c6030d723a905ede2522cc64b523",
+        "7f75d442a064ea3e155ac6540487a14b0f737b79939e70f36fa5f95c469c91a8"
+      ],
       "text": "Yamato was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

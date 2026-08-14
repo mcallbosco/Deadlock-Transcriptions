@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "71953fe6d3a2049f3653f1d2e65e29c5d3d6a2287f0b84ef1c35bdceb5be07ca",
+      "sha256": [
+        "71953fe6d3a2049f3653f1d2e65e29c5d3d6a2287f0b84ef1c35bdceb5be07ca"
+      ],
       "text": "Hi, there was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

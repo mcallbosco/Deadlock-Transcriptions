@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "c6c54b3b5ef8072fc0ea409f055b7ed44d5341970bd840398701c8f3de81260e",
+      "sha256": [
+        "c6c54b3b5ef8072fc0ea409f055b7ed44d5341970bd840398701c8f3de81260e"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

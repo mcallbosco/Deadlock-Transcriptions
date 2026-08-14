@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_gigawatt_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8369c20921880829378527648986845ca277057791f258bbbb42840c443beed7",
+      "sha256": [
+        "8369c20921880829378527648986845ca277057791f258bbbb42840c443beed7"
+      ],
       "text": "Seven's here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b78eec1e8e90134faefca150d5386c12a8d009b84b86d41a7c4d2e2cc1728c20",
+      "sha256": [
+        "b78eec1e8e90134faefca150d5386c12a8d009b84b86d41a7c4d2e2cc1728c20"
+      ],
       "text": "Seven was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "91f7be8ab6daddc4901e883516a410d93f3a3ee5dc53cadf87ee2fd53b864040",
+      "sha256": [
+        "91f7be8ab6daddc4901e883516a410d93f3a3ee5dc53cadf87ee2fd53b864040"
+      ],
       "text": "Seven's not here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

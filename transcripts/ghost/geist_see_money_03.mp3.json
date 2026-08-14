@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_see_money_03.mp3",
   "revisions": [
     {
-      "sha256": "3afa32403c5a3907a373ecaa2219766cf0b2d7e03e665385a40022cf89cdfe99",
-      "text": "I shouldn't leave money lying around.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d92c20d011bda47996254b972ef4e36a3dc9fdd06248bb4b94e690fcf6083e0",
+      "sha256": [
+        "2d92c20d011bda47996254b972ef4e36a3dc9fdd06248bb4b94e690fcf6083e0",
+        "3afa32403c5a3907a373ecaa2219766cf0b2d7e03e665385a40022cf89cdfe99"
+      ],
       "text": "I shouldn't leave money lying around.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

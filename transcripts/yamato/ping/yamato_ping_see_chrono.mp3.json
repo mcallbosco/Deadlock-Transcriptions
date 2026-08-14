@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "18ff6634a6f35afb917845aaadde56fe07add09a66d711a88c46cfa693628c2f",
+      "sha256": [
+        "18ff6634a6f35afb917845aaadde56fe07add09a66d711a88c46cfa693628c2f",
+        "8f25f358f6d220a06a5d51dcf691f1901c7c970962cf644173641ad6021d7aeb"
+      ],
       "text": "I see Paradox.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "manual"
     },
     {
-      "sha256": "a92c07b19b694648e2d81f7f17fea49a2c26eba98591c039c953601a94e5dcb4",
+      "sha256": [
+        "a92c07b19b694648e2d81f7f17fea49a2c26eba98591c039c953601a94e5dcb4"
+      ],
       "text": "아이스 팔라독스.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f25f358f6d220a06a5d51dcf691f1901c7c970962cf644173641ad6021d7aeb",
-      "text": "I see Paradox.",
-      "source": "manual"
     }
   ]
 }

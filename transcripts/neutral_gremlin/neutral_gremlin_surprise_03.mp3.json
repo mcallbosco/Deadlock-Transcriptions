@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "neutral_gremlin/neutral_gremlin_surprise_03.mp3",
   "revisions": [
     {
-      "sha256": "898f58ca8bbf69af338fa89406f1c17ac4ccdb5830f4aac46d1be09833752a68",
+      "sha256": [
+        "898f58ca8bbf69af338fa89406f1c17ac4ccdb5830f4aac46d1be09833752a68"
+      ],
       "text": "Hello, this is ChatGPT.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a22d78d8373cf1b8d081baee84f60c6231695172dbf5e351087e4f93e8d5cc49",
+      "sha256": [
+        "a22d78d8373cf1b8d081baee84f60c6231695172dbf5e351087e4f93e8d5cc49"
+      ],
       "text": "Hello, ChatGPT.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

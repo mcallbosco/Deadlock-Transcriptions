@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9a7f5c230ea368c8f3c5dd039691bd697147b5383dba86d0d2c441c67b6c8376",
-      "text": "Haze is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d825ad6740e1f42c0e06f730d92287e312e7e54dcd12cdcd0f2b6f8c9b4c8b8e",
+      "sha256": [
+        "9a7f5c230ea368c8f3c5dd039691bd697147b5383dba86d0d2c441c67b6c8376",
+        "d825ad6740e1f42c0e06f730d92287e312e7e54dcd12cdcd0f2b6f8c9b4c8b8e"
+      ],
       "text": "Haze is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

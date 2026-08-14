@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_lets_go_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "1aca732115a2da1f7346ef97cd6bd9914e8381017b07ca7f8a976614e753eb14",
+      "sha256": [
+        "1aca732115a2da1f7346ef97cd6bd9914e8381017b07ca7f8a976614e753eb14",
+        "a72addbf461380e13cb15b62bd7ca769a155d9fc2a69284c847da175b5a77eb5"
+      ],
       "text": "Let's go to Gratch.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a72addbf461380e13cb15b62bd7ca769a155d9fc2a69284c847da175b5a77eb5",
-      "text": "Let's go to Gratch.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1395ef3bd18d2f8c3ff18979fafea00f6516165ce0d3c66dcbc4f312a7cd89d1",
+      "sha256": [
+        "1395ef3bd18d2f8c3ff18979fafea00f6516165ce0d3c66dcbc4f312a7cd89d1"
+      ],
       "text": "Let's go to Greenwich!",
       "source": "official"
     }

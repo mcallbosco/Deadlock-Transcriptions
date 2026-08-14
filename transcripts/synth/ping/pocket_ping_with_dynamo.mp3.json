@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "3417454d14a979689cf5cd4e9dd742193f6a7d676e77399ea01b19e348658de6",
-      "text": "I'm with you, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be0748883405100f10c5284ce9547e7334d9ab294551a61f2b5cabb46042e7d3",
+      "sha256": [
+        "3417454d14a979689cf5cd4e9dd742193f6a7d676e77399ea01b19e348658de6",
+        "be0748883405100f10c5284ce9547e7334d9ab294551a61f2b5cabb46042e7d3"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

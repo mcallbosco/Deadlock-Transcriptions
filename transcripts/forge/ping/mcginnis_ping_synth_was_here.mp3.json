@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "7bd1a81cc167f31376b6a193850530f458fb2cb7b8021820afcafc5d7a72b788",
-      "text": "Pocket was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ebe1cf0a2e367667bf389590e43a674fc353e42a225c348ef64fedd0b744cec",
+      "sha256": [
+        "0ebe1cf0a2e367667bf389590e43a674fc353e42a225c348ef64fedd0b744cec",
+        "7bd1a81cc167f31376b6a193850530f458fb2cb7b8021820afcafc5d7a72b788"
+      ],
       "text": "Pocket was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

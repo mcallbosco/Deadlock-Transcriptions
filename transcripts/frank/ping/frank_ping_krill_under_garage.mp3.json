@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_krill_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "473988b17001f4f7dbdd9abe630f9c3a2c7085ecf926910cd7986b7237a5c045",
+      "sha256": [
+        "473988b17001f4f7dbdd9abe630f9c3a2c7085ecf926910cd7986b7237a5c045"
+      ],
       "text": "Crows under the grass.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "915f99efcda708caed84a79a41727809ccfb1c4868a804862b483e57701adff0",
+      "sha256": [
+        "915f99efcda708caed84a79a41727809ccfb1c4868a804862b483e57701adff0"
+      ],
       "text": "Krill's under the garage!",
       "source": "official"
     }

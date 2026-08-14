@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_kelvin_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "657ce5f00f3b6c96d2445db98f5bafaf0ab3b539e0ea0e8ec5489e4d8d4deda8",
+      "sha256": [
+        "3d1911a2fe87bc1efd0aae873461c44cb4688dc280b3bbc9e0c66fa244687abc",
+        "657ce5f00f3b6c96d2445db98f5bafaf0ab3b539e0ea0e8ec5489e4d8d4deda8",
+        "87c749fd06ffd19f4bc74b442b5b1e1a870a393af4403eb4ec556bcf0a406ed4"
+      ],
       "text": "Kelvin is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87c749fd06ffd19f4bc74b442b5b1e1a870a393af4403eb4ec556bcf0a406ed4",
-      "text": "Kelvin is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d1911a2fe87bc1efd0aae873461c44cb4688dc280b3bbc9e0c66fa244687abc",
-      "text": "Kelvin is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0061e9173db2ab8d066242dafec61f3cfa48a748be76297a48f0e7ac045f6d3b",
+      "sha256": [
+        "0061e9173db2ab8d066242dafec61f3cfa48a748be76297a48f0e7ac045f6d3b"
+      ],
       "text": "Kelvin's on the bridge!",
       "source": "official"
     }

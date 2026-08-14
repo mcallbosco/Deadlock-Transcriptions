@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_orion_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "92da8969347c6be1ebc7692a3f14bbdf2e4095b579468546af1042252550f012",
-      "text": "Orion's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff186a362b079910803aa04cd55ab777a4f5c5fee0705bbeed7ecf2c39c0969e",
+      "sha256": [
+        "92da8969347c6be1ebc7692a3f14bbdf2e4095b579468546af1042252550f012",
+        "ff186a362b079910803aa04cd55ab777a4f5c5fee0705bbeed7ecf2c39c0969e"
+      ],
       "text": "Orion's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

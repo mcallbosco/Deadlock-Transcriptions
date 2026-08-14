@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "dad4befdccb50ada8fc7f16f098ee566ec1d8ed66b18b28455263b5abc38c838",
-      "text": "She was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "588ef9784e32c5969a391905d1cdd6db5e8f6ff11da13d2d3df568e382d0a66a",
-      "text": "She was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e96957492e960f12ba2a455cf264bc4e1bfd7a2a4339ccb0e9c757230b3692d9",
-      "text": "She was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e80bb2d2e085bb02d0e01d0abbda080eb19eea09227223b57ef4dcd8047027b",
+      "sha256": [
+        "3e80bb2d2e085bb02d0e01d0abbda080eb19eea09227223b57ef4dcd8047027b",
+        "588ef9784e32c5969a391905d1cdd6db5e8f6ff11da13d2d3df568e382d0a66a",
+        "dad4befdccb50ada8fc7f16f098ee566ec1d8ed66b18b28455263b5abc38c838",
+        "e96957492e960f12ba2a455cf264bc4e1bfd7a2a4339ccb0e9c757230b3692d9"
+      ],
       "text": "She was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

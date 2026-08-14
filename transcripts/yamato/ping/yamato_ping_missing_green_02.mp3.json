@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_missing_green_02.mp3",
   "revisions": [
     {
-      "sha256": "6c16677bab3dc20bda7503367f02aef8f05eb5c1d6ed45f91ca4be6fc100db13",
-      "text": "Missing Greenwich.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d9510d9920b56360e6f019a548dcffda62fd94928d6fb1362f82042ef085ba3",
+      "sha256": [
+        "4d9510d9920b56360e6f019a548dcffda62fd94928d6fb1362f82042ef085ba3",
+        "6c16677bab3dc20bda7503367f02aef8f05eb5c1d6ed45f91ca4be6fc100db13"
+      ],
       "text": "Missing Greenwich.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

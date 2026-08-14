@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_tower_got_denied_02.mp3",
   "revisions": [
     {
-      "sha256": "615a29224a7c4a86f0fed32cc115b214ab429ab0a891170e4dc6c293a86b8493",
+      "sha256": [
+        "615a29224a7c4a86f0fed32cc115b214ab429ab0a891170e4dc6c293a86b8493",
+        "eb2247278b780d1425439fb2f51a34710c7ccffc3592bbda935c4d56a12062f7"
+      ],
       "text": "We got the job done!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb2247278b780d1425439fb2f51a34710c7ccffc3592bbda935c4d56a12062f7",
-      "text": "We got the job done.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

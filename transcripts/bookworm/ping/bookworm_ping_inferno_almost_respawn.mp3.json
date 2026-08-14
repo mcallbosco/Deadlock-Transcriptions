@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_inferno_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "b7b26e8a4bf0d74c113787a62ae079a0ee22ce96fa403efa8ba6e339b2ddcab5",
+      "sha256": [
+        "b7b26e8a4bf0d74c113787a62ae079a0ee22ce96fa403efa8ba6e339b2ddcab5"
+      ],
       "text": "The furnace is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cbc0464d574b75bb2be726e5454110a88923fb6c25cd859d82625860d5d0d620",
+      "sha256": [
+        "cbc0464d574b75bb2be726e5454110a88923fb6c25cd859d82625860d5d0d620"
+      ],
       "text": "And Venice is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

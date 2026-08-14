@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_upgrade_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "b4b1077757023cffb54fd3b68bcb013a6a6dbf5e7e17687d31650970db323681",
+      "sha256": [
+        "b4b1077757023cffb54fd3b68bcb013a6a6dbf5e7e17687d31650970db323681"
+      ],
       "text": "何が私を勝利へと導くだろう。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "54f87cfbecbd65c1a7dae6f5ce3a11c2b3c7c1fdf3a6f98a4b986e34e896919d",
+      "sha256": [
+        "54f87cfbecbd65c1a7dae6f5ce3a11c2b3c7c1fdf3a6f98a4b986e34e896919d"
+      ],
       "text": "My brother will guide me to victory",
       "source": "official"
     }

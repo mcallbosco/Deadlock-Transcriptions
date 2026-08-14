@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "88548bd5988531d0a51768bb872787a538e4ea17d95ae39304fdaf87ac118eb7",
-      "text": "I saw Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9b90fb72eac033b615728d6fba1c639bea7ca92865f55e0245f08166abce198",
-      "text": "I saw Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "819e8ed5f8a636ea13f0884ddb996193e69e62f324a3ca72b43ff3077341bca3",
+      "sha256": [
+        "819e8ed5f8a636ea13f0884ddb996193e69e62f324a3ca72b43ff3077341bca3",
+        "88548bd5988531d0a51768bb872787a538e4ea17d95ae39304fdaf87ac118eb7",
+        "a9b90fb72eac033b615728d6fba1c639bea7ca92865f55e0245f08166abce198"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

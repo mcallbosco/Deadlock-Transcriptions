@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_can_heal_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "fafbe07b978bdc327510e40c20b4580b2b26f3a7fcc92bd06174771eba24676d",
-      "text": "Kelvin, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfbb6b9db22ed12533befdfa8d14f46590920f5b23b712c7ba45f1614798537d",
+      "sha256": [
+        "bfbb6b9db22ed12533befdfa8d14f46590920f5b23b712c7ba45f1614798537d",
+        "fafbe07b978bdc327510e40c20b4580b2b26f3a7fcc92bd06174771eba24676d"
+      ],
       "text": "Kelvin, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

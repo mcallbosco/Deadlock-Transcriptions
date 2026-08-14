@@ -1,34 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_missing_yellow_02.mp3",
   "revisions": [
     {
-      "sha256": "f186d4785e1d11462df9b6485592e048f775642c41bbf426eff7e8bfba787bf0",
+      "sha256": [
+        "0462dcb3e9b9e06ac7151c8577ca2e4307aeb2920e32d004e1dc82c6e4447f1a",
+        "55559260c5a93ad4fba5112b7364bda35777c5fd975a6452bbc548ea29fec62f",
+        "c9faeaf86251293df392980d1084bd77176c377fe771ef42cb8eb2df67c39a57",
+        "f186d4785e1d11462df9b6485592e048f775642c41bbf426eff7e8bfba787bf0"
+      ],
       "text": "Missing York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "55559260c5a93ad4fba5112b7364bda35777c5fd975a6452bbc548ea29fec62f",
-      "text": "Missing York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c9faeaf86251293df392980d1084bd77176c377fe771ef42cb8eb2df67c39a57",
-      "text": "Missing York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "97131fc0a91e05d263dc81e9464782dc135e409d917582e75469fca82056fa41",
+      "sha256": [
+        "97131fc0a91e05d263dc81e9464782dc135e409d917582e75469fca82056fa41"
+      ],
       "text": "Missing New York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0462dcb3e9b9e06ac7151c8577ca2e4307aeb2920e32d004e1dc82c6e4447f1a",
-      "text": "Missing York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

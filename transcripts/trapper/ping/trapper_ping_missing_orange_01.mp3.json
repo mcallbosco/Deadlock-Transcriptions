@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_missing_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "a98a5a3cae8e2b49b27c2b6008a38463cdf0041514f665deeb69ba1ce32386f4",
+      "sha256": [
+        "a98a5a3cae8e2b49b27c2b6008a38463cdf0041514f665deeb69ba1ce32386f4"
+      ],
       "text": "Missing orange!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

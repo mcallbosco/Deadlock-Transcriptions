@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_haze_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "95b4bef3f453ced08354eb8f8379d65360dba5f1aa03ed82073dec2103ddd080",
+      "sha256": [
+        "95b4bef3f453ced08354eb8f8379d65360dba5f1aa03ed82073dec2103ddd080"
+      ],
       "text": "Hey's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "26674f75f8f9bc3fe206971a9851ca687656b97582f9e555a96c8336a0dd0276",
+      "sha256": [
+        "26674f75f8f9bc3fe206971a9851ca687656b97582f9e555a96c8336a0dd0276"
+      ],
       "text": "Haze's on top of the garage!",
       "source": "official"
     }

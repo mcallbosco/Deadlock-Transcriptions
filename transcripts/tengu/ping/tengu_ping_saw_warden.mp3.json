@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "11a5e3247cf1e267f5a49878585a7c635477cbbcf1380a6c71f941ddf4ed83dc",
+      "sha256": [
+        "11a5e3247cf1e267f5a49878585a7c635477cbbcf1380a6c71f941ddf4ed83dc"
+      ],
       "text": "It's so warning!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "55411de6f2ebebcfbb6322f6df1209fadb12f97523a108c3a2b26d6baa609248",
+      "sha256": [
+        "55411de6f2ebebcfbb6322f6df1209fadb12f97523a108c3a2b26d6baa609248"
+      ],
       "text": "That's all, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

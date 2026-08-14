@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_kelvin_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "9b86211fb7e268982c92264647eda746ffabb4e442c360f56de8570a2d1fa2ff",
-      "text": "Calvin's on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "232ad49478f3ef87eb765d75c443634ed3a438ed7033cd72e554531372fadaa5",
+      "sha256": [
+        "232ad49478f3ef87eb765d75c443634ed3a438ed7033cd72e554531372fadaa5",
+        "9b86211fb7e268982c92264647eda746ffabb4e442c360f56de8570a2d1fa2ff"
+      ],
       "text": "Calvin's on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

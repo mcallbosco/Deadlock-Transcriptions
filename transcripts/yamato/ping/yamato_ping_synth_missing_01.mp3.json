@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_synth_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "f8512612484b344ad26b969ed385bf88ae5772844d82192a1479c50731d4056d",
+      "sha256": [
+        "f8512612484b344ad26b969ed385bf88ae5772844d82192a1479c50731d4056d"
+      ],
       "text": "Tuck is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3607827d2ab213cd45d8dc75c8bb4ab41a1b8bd9a6c3c4e8a9ea324ba2cfcf6a",
-      "text": "Pocket's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00d1ed74f001cd82a14fe055a9977c52797440f9dc10a1913d616266fe0f4917",
+      "sha256": [
+        "00d1ed74f001cd82a14fe055a9977c52797440f9dc10a1913d616266fe0f4917",
+        "3607827d2ab213cd45d8dc75c8bb4ab41a1b8bd9a6c3c4e8a9ea324ba2cfcf6a"
+      ],
       "text": "Pocket's missing",
       "source": "official"
     }

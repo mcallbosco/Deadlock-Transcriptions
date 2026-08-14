@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "d45523a3e4a20cd00f9a209093ebdf16f44026488cc7582b56fe53132d4caa08",
-      "text": "I see wrecker!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "99738b7c878bada0189e84391bfe4e748b0d03d622f817beac674e6cb3a913ad",
+      "sha256": [
+        "99738b7c878bada0189e84391bfe4e748b0d03d622f817beac674e6cb3a913ad",
+        "d45523a3e4a20cd00f9a209093ebdf16f44026488cc7582b56fe53132d4caa08"
+      ],
       "text": "I see Wrecker",
       "source": "official"
     }

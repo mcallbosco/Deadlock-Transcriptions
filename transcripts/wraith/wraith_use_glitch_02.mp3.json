@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_use_glitch_02.mp3",
   "revisions": [
     {
-      "sha256": "aa558c1a7b13e57b662999d87712f2b77f56dc5acbf92263c59d322df940be6d",
-      "text": "They're glitched!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab44952e743d1554dcedfe9a168a1544fc86bd17757339fe797d7601b22e019e",
-      "text": "They're glitched!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86569ab33f1e8bf54587989fe586f86d0d78267a8b53c540e258f438dd82f013",
+      "sha256": [
+        "86569ab33f1e8bf54587989fe586f86d0d78267a8b53c540e258f438dd82f013",
+        "aa558c1a7b13e57b662999d87712f2b77f56dc5acbf92263c59d322df940be6d",
+        "ab44952e743d1554dcedfe9a168a1544fc86bd17757339fe797d7601b22e019e"
+      ],
       "text": "They're glitched!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

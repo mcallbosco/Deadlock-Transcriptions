@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_with_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "b82472008fcbdbe6d56a12d87af4f6933a40f2ff2ed67da5be1bf1f63ff45519",
+      "sha256": [
+        "b82472008fcbdbe6d56a12d87af4f6933a40f2ff2ed67da5be1bf1f63ff45519"
+      ],
       "text": "I'm with you, Wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

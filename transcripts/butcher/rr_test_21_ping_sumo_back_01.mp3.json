@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_sumo_back_01.mp3",
   "revisions": [
     {
-      "sha256": "eaed5cdf3af859125ac45523a45001e34a3903bf97338214de6eeada2fd48832",
-      "text": "Sumo, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f461a87865f587a993c3d694095450b5f3e8ea3548508fb49523f9cb627f21b",
-      "text": "Sumo, get back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8a9c2c6a75300161d92000eb06fd1433aecb2141bcd0f3398965657b34097123",
+      "sha256": [
+        "2f461a87865f587a993c3d694095450b5f3e8ea3548508fb49523f9cb627f21b",
+        "8a9c2c6a75300161d92000eb06fd1433aecb2141bcd0f3398965657b34097123",
+        "eaed5cdf3af859125ac45523a45001e34a3903bf97338214de6eeada2fd48832"
+      ],
       "text": "Sumo, get back!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

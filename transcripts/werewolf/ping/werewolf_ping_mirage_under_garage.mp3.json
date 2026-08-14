@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "38029eabb1423070bcc90541f5f06975d828ef8aba66335082648c575b31306b",
+      "sha256": [
+        "38029eabb1423070bcc90541f5f06975d828ef8aba66335082648c575b31306b"
+      ],
       "text": "Garage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

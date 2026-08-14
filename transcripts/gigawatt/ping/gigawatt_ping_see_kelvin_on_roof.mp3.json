@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_kelvin_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "47658f48d906151be24b2e5a416dcfa8bf5410b0a72b9b1b4a2d1b4055e45c20",
+      "sha256": [
+        "47658f48d906151be24b2e5a416dcfa8bf5410b0a72b9b1b4a2d1b4055e45c20"
+      ],
       "text": "Caverns on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd95c6f64843b6a8e76887e09ae335affe301d9e784b817e14f8163adb49e29f",
+      "sha256": [
+        "7b057305a353d801b55cb8abf3510ee23d06599cdccd7fc72d60154aa244008d",
+        "bd95c6f64843b6a8e76887e09ae335affe301d9e784b817e14f8163adb49e29f"
+      ],
       "text": "Salvage on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7b057305a353d801b55cb8abf3510ee23d06599cdccd7fc72d60154aa244008d",
-      "text": "Salvage on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e025d36a037025daefbd466e091b98e1fb66bbd6eccd7deadc12decd2b239d3",
+      "sha256": [
+        "9e025d36a037025daefbd466e091b98e1fb66bbd6eccd7deadc12decd2b239d3"
+      ],
       "text": "Kelvin's on the roof!",
       "source": "official"
     }

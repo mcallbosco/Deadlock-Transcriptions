@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "fd530c3c57aca400b19790ddb8f091867b6757333159672896a01ee5a541b974",
+      "sha256": [
+        "e234af6330ad0f61cde83449a3920d5ce968486de3e87519d0cf0a91b1d31350",
+        "fd530c3c57aca400b19790ddb8f091867b6757333159672896a01ee5a541b974"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e234af6330ad0f61cde83449a3920d5ce968486de3e87519d0cf0a91b1d31350",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "932717c476b3c63fca3608f04cf8f74b0567820666ca37562957c4c9092dba02",
+      "sha256": [
+        "932717c476b3c63fca3608f04cf8f74b0567820666ca37562957c4c9092dba02"
+      ],
       "text": "Nice saw, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

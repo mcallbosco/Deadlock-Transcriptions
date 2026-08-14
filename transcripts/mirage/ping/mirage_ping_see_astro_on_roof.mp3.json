@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_astro_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "a0cabfc1a1976a7ee900e155f7e3d630de1bdfd862ea549aea8fa97e23ec15aa",
+      "sha256": [
+        "a0cabfc1a1976a7ee900e155f7e3d630de1bdfd862ea549aea8fa97e23ec15aa"
+      ],
       "text": "That's the one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "67e50a5c2c3ac8dd6e89f6e508f256d7ad9ce3a54fd2f7e2c79ba5f1053da5ff",
+      "sha256": [
+        "0c4e333626157027f94a6a9260b8ddd4136fff49bafc228483c212716918ef32",
+        "67e50a5c2c3ac8dd6e89f6e508f256d7ad9ce3a54fd2f7e2c79ba5f1053da5ff"
+      ],
       "text": "Holiday's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0c4e333626157027f94a6a9260b8ddd4136fff49bafc228483c212716918ef32",
-      "text": "Holidays on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6217b0f149e84b3ef56c518f6fdf55cbd81009cae627c089d0c9b434270fe969",
+      "sha256": [
+        "6217b0f149e84b3ef56c518f6fdf55cbd81009cae627c089d0c9b434270fe969"
+      ],
       "text": "Holliday's on the roof!",
       "source": "official"
     }

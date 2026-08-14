@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_warden_02.mp3",
   "revisions": [
     {
-      "sha256": "c2854c08f3cdeaf5753c2d06901886306fb137f45cd2db12b084ed7a373730b0",
+      "sha256": [
+        "c2854c08f3cdeaf5753c2d06901886306fb137f45cd2db12b084ed7a373730b0"
+      ],
       "text": "Tower boarding.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cfd3247b646fb6695e692112c3c49d67b2a3d11f610daec325f62197a82b9abe",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8d85e4e091a82b7f53b6f42dc9ba716bdd511cc7c31df3de46bd29080b4d9fa",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7a0458075fc418ea217a0a9bf6f8c8bf4ede2ad2d0ad030bc7ab0e4d11a4c8a0",
+      "sha256": [
+        "7a0458075fc418ea217a0a9bf6f8c8bf4ede2ad2d0ad030bc7ab0e4d11a4c8a0",
+        "a8d85e4e091a82b7f53b6f42dc9ba716bdd511cc7c31df3de46bd29080b4d9fa",
+        "cfd3247b646fb6695e692112c3c49d67b2a3d11f610daec325f62197a82b9abe"
+      ],
       "text": "Careful, Warden",
       "source": "official"
     }

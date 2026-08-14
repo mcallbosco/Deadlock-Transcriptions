@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_close_shop_03.mp3",
   "revisions": [
     {
-      "sha256": "ce3b520ffc8872a03bd17087b293c466b2661e685a9187b2c133c87fab1de14b",
-      "text": "Time to close up shop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d47ffb210fafc5d6b95b900c9f14d8be18980a8d1f3b4f9b9e93f630fd2d9a4d",
-      "text": "Time to close up shop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "305f75ef7e3584971ce3c5fb1f13fb80b45c6c57c9266db6cfce082cd8d6dd14",
+      "sha256": [
+        "305f75ef7e3584971ce3c5fb1f13fb80b45c6c57c9266db6cfce082cd8d6dd14",
+        "ce3b520ffc8872a03bd17087b293c466b2661e685a9187b2c133c87fab1de14b",
+        "d47ffb210fafc5d6b95b900c9f14d8be18980a8d1f3b4f9b9e93f630fd2d9a4d"
+      ],
       "text": "Time to close up shop!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

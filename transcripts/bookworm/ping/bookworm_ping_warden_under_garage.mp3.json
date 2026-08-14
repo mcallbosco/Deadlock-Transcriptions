@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_warden_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "c08fe7546442d7a719d41fdea60e48516aff6617cf8344fd87535181a61f51b1",
+      "sha256": [
+        "c08fe7546442d7a719d41fdea60e48516aff6617cf8344fd87535181a61f51b1"
+      ],
       "text": "Wooden under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "287e592bc21f1fa4f19de19bba5b5956c4b41090b2dae917e4da1777b014c599",
+      "sha256": [
+        "287e592bc21f1fa4f19de19bba5b5956c4b41090b2dae917e4da1777b014c599"
+      ],
       "text": "Warden's under the garage!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_angry_08.mp3",
   "revisions": [
     {
-      "sha256": "bafd658d789aef99b558225b357034d57519ed13045517e09858ebd4f8a294b8",
-      "text": "I hate you get around.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e1ab6be0915cdb7ca65e3d5de8700f09fad9a8c666c2c2a659ae2ed3595e00d",
-      "text": "I hate you, get around.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0ac4135e24e7dde1d1431b0c9a29b507a2348ab34a011a012ebddf6ca35dc932",
+      "sha256": [
+        "0ac4135e24e7dde1d1431b0c9a29b507a2348ab34a011a012ebddf6ca35dc932",
+        "8e1ab6be0915cdb7ca65e3d5de8700f09fad9a8c666c2c2a659ae2ed3595e00d",
+        "bafd658d789aef99b558225b357034d57519ed13045517e09858ebd4f8a294b8"
+      ],
       "text": "I hate you, get around.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "d6ce6eaeb85904c7519ca494f75b3674dbe8e2292cf984cc2537db57a753f744",
+      "sha256": [
+        "d6ce6eaeb85904c7519ca494f75b3674dbe8e2292cf984cc2537db57a753f744"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

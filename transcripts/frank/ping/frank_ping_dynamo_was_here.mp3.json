@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1abd5f0d22ac3c261b6a1c8945748996f1a38e4e4b54206bcfe9c151399375be",
+      "sha256": [
+        "1abd5f0d22ac3c261b6a1c8945748996f1a38e4e4b54206bcfe9c151399375be"
+      ],
       "text": "Dynamo is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0923b334d5271754350fc8aac9471440d285ff764e29744a086f843b4121b308",
+      "sha256": [
+        "0923b334d5271754350fc8aac9471440d285ff764e29744a086f843b4121b308"
+      ],
       "text": "Dynamo was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

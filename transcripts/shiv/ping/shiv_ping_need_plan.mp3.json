@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_need_plan.mp3",
   "revisions": [
     {
-      "sha256": "03f0d40eae43a459dca62130fabc394498d5c8881081b12db077e4c1dd342723",
+      "sha256": [
+        "03f0d40eae43a459dca62130fabc394498d5c8881081b12db077e4c1dd342723"
+      ],
       "text": "Push the button.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b92919d867ed67d6bf8555d11d4a56073472ee7653fec85d60aa028be858f187",
-      "text": "What's the plan?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b0eaa2951206b6ad5e4070b21fdcf9dd5dd207405e93c56327af6be4d00b091",
+      "sha256": [
+        "2b0eaa2951206b6ad5e4070b21fdcf9dd5dd207405e93c56327af6be4d00b091",
+        "b92919d867ed67d6bf8555d11d4a56073472ee7653fec85d60aa028be858f187"
+      ],
       "text": "What's the plan?",
       "source": "official"
     }

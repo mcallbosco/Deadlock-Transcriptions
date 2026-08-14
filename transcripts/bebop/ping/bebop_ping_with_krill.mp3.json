@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "701f19589cfdd3cbab08da90576939d6feb088c03a2de43adb4cce1035c73355",
+      "sha256": [
+        "701f19589cfdd3cbab08da90576939d6feb088c03a2de43adb4cce1035c73355"
+      ],
       "text": "I love you, Krill!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "86e8f315dcfdac45c9adfd90d4c6a998b683a602023a90b1a590a8a9728f54e6",
+      "sha256": [
+        "86e8f315dcfdac45c9adfd90d4c6a998b683a602023a90b1a590a8a9728f54e6"
+      ],
       "text": "I'm with you, crew!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

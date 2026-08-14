@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_saw_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "9e44f2f0dd217424f0e368a4aa604a5dbe2e3bc0df309a639804bd491f0005c4",
-      "text": "A summoner.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30b95b146f5818ef66691f6db139ca65925212b1a6c44ee67f53ab4aba2fa2d6",
+      "sha256": [
+        "30b95b146f5818ef66691f6db139ca65925212b1a6c44ee67f53ab4aba2fa2d6",
+        "9e44f2f0dd217424f0e368a4aa604a5dbe2e3bc0df309a639804bd491f0005c4"
+      ],
       "text": "A summoner.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

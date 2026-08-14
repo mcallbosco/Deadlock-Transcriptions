@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_zealot.mp3",
   "revisions": [
     {
-      "sha256": "0d2e973689f7fc2e0467928a218bf9fd9acc4e676860cc7cc3daa980f4b05894",
+      "sha256": [
+        "0d2e973689f7fc2e0467928a218bf9fd9acc4e676860cc7cc3daa980f4b05894"
+      ],
       "text": "Thanks, Zelek.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "652fddfc3dcee8420f245c9b95517562043b7c0ccef492e77fa97d89bc6779aa",
+      "sha256": [
+        "4e214f8a1d54208bef57f5bfac3990183358687b11c905e14c7cfc8bacbbd79c",
+        "652fddfc3dcee8420f245c9b95517562043b7c0ccef492e77fa97d89bc6779aa"
+      ],
       "text": "Thanks, villain.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4e214f8a1d54208bef57f5bfac3990183358687b11c905e14c7cfc8bacbbd79c",
-      "text": "Thanks, villain!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

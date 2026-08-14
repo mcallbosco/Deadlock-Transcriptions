@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "d0452fb0672f455864f8c21b7a97e0997f74bd9454176b77a19dfbdc896ee554",
+      "sha256": [
+        "d0452fb0672f455864f8c21b7a97e0997f74bd9454176b77a19dfbdc896ee554"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fe7606a3ff2f48d408e0f601830c309acadf80a8916207e2498d90257d701721",
+      "sha256": [
+        "fe7606a3ff2f48d408e0f601830c309acadf80a8916207e2498d90257d701721"
+      ],
       "text": "Daimo was dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

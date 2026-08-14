@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_see_orion.mp3",
   "revisions": [
     {
-      "sha256": "0e0e662e6b7f8664214797eea1ba7ffd5a0e6ebd5ccf591bb7178fabf5bc1c39",
+      "sha256": [
+        "0e0e662e6b7f8664214797eea1ba7ffd5a0e6ebd5ccf591bb7178fabf5bc1c39"
+      ],
       "text": "I don't care what you do. Just get it done.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0747d1cb906901c0deca9bf67e0e436f73fd1cfc9aaa4b48f771d72ca19ec42a",
+      "sha256": [
+        "0747d1cb906901c0deca9bf67e0e436f73fd1cfc9aaa4b48f771d72ca19ec42a",
+        "bff0a451dbea00a549ecd5f7aff67bbb375d6650ab063a8d833655833fe9cac9"
+      ],
       "text": "This is the deadlock voice line in English exactly.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bff0a451dbea00a549ecd5f7aff67bbb375d6650ab063a8d833655833fe9cac9",
-      "text": "This is the Deadlock voice line in English exactly.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "d88aaa5cf4acb712713b98b083a5ef3d0dda9461b1922bafd5a85a0e73039f2c",
+      "sha256": [
+        "d88aaa5cf4acb712713b98b083a5ef3d0dda9461b1922bafd5a85a0e73039f2c"
+      ],
       "text": "They're here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

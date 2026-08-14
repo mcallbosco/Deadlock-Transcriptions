@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_grant_boon_general_01.mp3",
   "revisions": [
     {
-      "sha256": "61381b9393d1e4a885c531d2ad5a19789801ed03bd50f8140f4c87d4b0581692",
-      "text": "A boon from your patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd7925157149335cb33b96b1dae864c080dd92e9c573820195feb40d099ac959",
-      "text": "a boon from your patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "375b524fa30d46557e897d0ddafe3b75a872687ab4420487d9045c3e87dbc5a3",
-      "text": "A boon from your patron.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f148aaf71773aa6c35aa08b93bee8401e282fdff7d50c8462783019f8fe96a3a",
+      "sha256": [
+        "375b524fa30d46557e897d0ddafe3b75a872687ab4420487d9045c3e87dbc5a3",
+        "61381b9393d1e4a885c531d2ad5a19789801ed03bd50f8140f4c87d4b0581692",
+        "bd7925157149335cb33b96b1dae864c080dd92e9c573820195feb40d099ac959",
+        "f148aaf71773aa6c35aa08b93bee8401e282fdff7d50c8462783019f8fe96a3a"
+      ],
       "text": "A boon from your patron",
       "source": "official"
     }

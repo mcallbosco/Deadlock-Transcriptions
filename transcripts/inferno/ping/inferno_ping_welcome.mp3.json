@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "e6f796a53534214fa40dd973cbf7a5cf20506f1a024b5f93eba21984ff762b53",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "682e42a0d72e6aa4c5b70b04d31cf34e4414a8cf58913747ea3fb4e2e5db1fca",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b781d17af08e345d3cb908f3ece9a4b31d470b32449f9defd48a188c7d671c2d",
+      "sha256": [
+        "682e42a0d72e6aa4c5b70b04d31cf34e4414a8cf58913747ea3fb4e2e5db1fca",
+        "b781d17af08e345d3cb908f3ece9a4b31d470b32449f9defd48a188c7d671c2d",
+        "e6f796a53534214fa40dd973cbf7a5cf20506f1a024b5f93eba21984ff762b53"
+      ],
       "text": "You're welcome",
       "source": "official"
     }

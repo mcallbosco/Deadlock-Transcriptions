@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "a725b23d047a4a646d384c239bae7734f3acf138e3fbb5b6e19d508948e5d9d8",
-      "text": "You're welcome!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d0b838f3881f6db32ea0487a78a02e1bb2ef4fc00ff429bf5ad75ac89fce081",
+      "sha256": [
+        "6d0b838f3881f6db32ea0487a78a02e1bb2ef4fc00ff429bf5ad75ac89fce081",
+        "a725b23d047a4a646d384c239bae7734f3acf138e3fbb5b6e19d508948e5d9d8"
+      ],
       "text": "You're welcome",
       "source": "official"
     }

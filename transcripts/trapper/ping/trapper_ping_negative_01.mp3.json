@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_negative_01.mp3",
   "revisions": [
     {
-      "sha256": "1c3288d4269538a3b7512c2422cdee70cabec13bfdcd8dbf9c4c3f98d2de9523",
+      "sha256": [
+        "1c3288d4269538a3b7512c2422cdee70cabec13bfdcd8dbf9c4c3f98d2de9523"
+      ],
       "text": "No!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

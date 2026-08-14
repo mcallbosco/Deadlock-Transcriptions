@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_saw_atlas.mp3",
   "revisions": [
     {
-      "sha256": "cca4b259a5dd30525345adb16f8b663aa31c8a39bd7d4468cb227cd0740574e1",
+      "sha256": [
+        "cca4b259a5dd30525345adb16f8b663aa31c8a39bd7d4468cb227cd0740574e1"
+      ],
       "text": "That's all, miss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c4010d1d47211cdbc309da3b09b4f32f2c005064bb93540b0c56306af554e1fe",
+      "sha256": [
+        "c4010d1d47211cdbc309da3b09b4f32f2c005064bb93540b0c56306af554e1fe"
+      ],
       "text": "Marshal Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "346486b1fb9250fbcfb23bcd38a1cdc6422ed82d93408aa08ea0207b643267bf",
+      "sha256": [
+        "346486b1fb9250fbcfb23bcd38a1cdc6422ed82d93408aa08ea0207b643267bf",
+        "f3eb43b9cbe09bf5eb4693a6e27ba32a0bf6bcfa643a099af0b6ece78355bbdb"
+      ],
       "text": "I saw Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f3eb43b9cbe09bf5eb4693a6e27ba32a0bf6bcfa643a099af0b6ece78355bbdb",
-      "text": "I saw Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

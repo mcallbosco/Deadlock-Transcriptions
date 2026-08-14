@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_angry_02.mp3",
   "revisions": [
     {
-      "sha256": "f901914340ba351b5fab62fcf1d78e7264298971f48d1a31cc83085c064d8a97",
-      "text": "This is the end.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3ae1fc54a0270cdb8e44d154c20d8c964348789784ed4f9c0dda5abc63b9cfd6",
-      "text": "This is the end.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05f85fc12c418e8ccc54f2901e3e063adcc5f07b3d837fa606dad76fa4972bb5",
-      "text": "This is the end.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77498e3260dae286bf0d4e91ab63aeaa60b2742a6c4c7b3b9cd7c59186cf3fd4",
+      "sha256": [
+        "05f85fc12c418e8ccc54f2901e3e063adcc5f07b3d837fa606dad76fa4972bb5",
+        "3ae1fc54a0270cdb8e44d154c20d8c964348789784ed4f9c0dda5abc63b9cfd6",
+        "77498e3260dae286bf0d4e91ab63aeaa60b2742a6c4c7b3b9cd7c59186cf3fd4",
+        "f901914340ba351b5fab62fcf1d78e7264298971f48d1a31cc83085c064d8a97"
+      ],
       "text": "This is the end.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

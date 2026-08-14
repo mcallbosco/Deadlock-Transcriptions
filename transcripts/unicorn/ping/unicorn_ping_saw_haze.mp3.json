@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "7ac9b2027ec971e816a0aa8f5a3796876450d278458ac288607fefc08ffba421",
+      "sha256": [
+        "7ac9b2027ec971e816a0aa8f5a3796876450d278458ac288607fefc08ffba421"
+      ],
       "text": "I saw Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

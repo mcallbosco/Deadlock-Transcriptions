@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_trapper_dead.mp3",
   "revisions": [
     {
-      "sha256": "f3739b247f71e843eb053e272f11047b9b9cb24f04dfc2e6e85f36eb81bd621c",
+      "sha256": [
+        "f3739b247f71e843eb053e272f11047b9b9cb24f04dfc2e6e85f36eb81bd621c"
+      ],
       "text": "Trapper is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

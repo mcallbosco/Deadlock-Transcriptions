@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_dynamo_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3ab5fe843193e76bf78df5ade906b57cb3f494b7549b2b5b205f22f9b388e2b9",
-      "text": "Dynamic's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "25bec8128296c32345ffaa93be7bcd6194beaf91de621c049d90258dbe61555a",
+      "sha256": [
+        "25bec8128296c32345ffaa93be7bcd6194beaf91de621c049d90258dbe61555a",
+        "3ab5fe843193e76bf78df5ade906b57cb3f494b7549b2b5b205f22f9b388e2b9"
+      ],
       "text": "Dynamic's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

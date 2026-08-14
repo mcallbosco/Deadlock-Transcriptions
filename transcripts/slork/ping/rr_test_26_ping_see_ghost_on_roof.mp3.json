@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_ghost_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "8607922d99ca9d5976057ef6206c16e67d1c9928645a293d4c24ea32cac548a9",
+      "sha256": [
+        "8607922d99ca9d5976057ef6206c16e67d1c9928645a293d4c24ea32cac548a9",
+        "97014a221bbc8d88476c8eefd89cd3b52d091aea2c3099f0d7b8024fedba09ee"
+      ],
       "text": "Goes on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "97014a221bbc8d88476c8eefd89cd3b52d091aea2c3099f0d7b8024fedba09ee",
-      "text": "goes on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

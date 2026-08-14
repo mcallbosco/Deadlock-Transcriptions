@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "051d17bbedc26233bfba0ec546f501e81f358fbf6791e04ff5fa08c8b7f43763",
+      "sha256": [
+        "051d17bbedc26233bfba0ec546f501e81f358fbf6791e04ff5fa08c8b7f43763"
+      ],
       "text": "Dynamo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

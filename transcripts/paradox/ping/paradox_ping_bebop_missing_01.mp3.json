@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "445865b639f533c00adec9e004051c60541e6d64cf6356f18bbcea2e7d31af60",
-      "text": "Bebop's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e96dd5a9d19e4a97c5921e198d0c3b0871b4d3114606941c971e25d3dd517240",
+      "sha256": [
+        "445865b639f533c00adec9e004051c60541e6d64cf6356f18bbcea2e7d31af60",
+        "e96dd5a9d19e4a97c5921e198d0c3b0871b4d3114606941c971e25d3dd517240"
+      ],
       "text": "Bebop's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/chrono_match_start_astro_chrono_convo01_03.mp3",
   "revisions": [
     {
-      "sha256": "12af18a07387bc60f23ac8b7f1f8dd22ed32fbf28f53f0229089e2de323fbf9d",
+      "sha256": [
+        "12af18a07387bc60f23ac8b7f1f8dd22ed32fbf28f53f0229089e2de323fbf9d"
+      ],
       "text": "And that is welcome to New York.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8de0d8e67ff9f36fa7958db4ac56d9d03f54858df8540866cc3ba406d0c9fabb",
-      "text": "In that case, welcome to New York.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d2353d899a42ab8555a1344939d7a6bb042818b5902f8cd5b9a207aa04c2da9",
+      "sha256": [
+        "7d2353d899a42ab8555a1344939d7a6bb042818b5902f8cd5b9a207aa04c2da9",
+        "8de0d8e67ff9f36fa7958db4ac56d9d03f54858df8540866cc3ba406d0c9fabb"
+      ],
       "text": "In that case: Welcome to New York",
       "source": "official"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_krill_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "cf1125ca480e095a10e3b0e37747b4df37818a68b28f2d87e248b7db961cedce",
-      "text": "Krill's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6986c28c916c61706fa3a15bf33eab11820b5713de13b1812f17f3e1e404943",
-      "text": "Krill's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "093a98aabb4f7e81ae895e67384443a45226dacf89171a845a5975fc61c94488",
-      "text": "Krill's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ff6f3f4ea9670464a64911e2eb952e668c45dd593d97368f19e97c003618298",
+      "sha256": [
+        "093a98aabb4f7e81ae895e67384443a45226dacf89171a845a5975fc61c94488",
+        "7ff6f3f4ea9670464a64911e2eb952e668c45dd593d97368f19e97c003618298",
+        "a6986c28c916c61706fa3a15bf33eab11820b5713de13b1812f17f3e1e404943",
+        "cf1125ca480e095a10e3b0e37747b4df37818a68b28f2d87e248b7db961cedce"
+      ],
       "text": "Krill's missing",
       "source": "official"
     }

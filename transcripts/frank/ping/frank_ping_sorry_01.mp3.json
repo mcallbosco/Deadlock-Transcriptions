@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_sorry_01.mp3",
   "revisions": [
     {
-      "sha256": "c999cf5f8f3df296a3e6855892ef26f021609a64a1601fe84a512c54b89020a7",
-      "text": "My mistake.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c3c9eb96c4c00ee60bd59606333156e19b3745c6a80db191a42dbe20165eb2f",
+      "sha256": [
+        "3c3c9eb96c4c00ee60bd59606333156e19b3745c6a80db191a42dbe20165eb2f",
+        "c999cf5f8f3df296a3e6855892ef26f021609a64a1601fe84a512c54b89020a7"
+      ],
       "text": "My mistake.",
       "source": "official"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_synth_03.mp3",
   "revisions": [
     {
-      "sha256": "8a8624ed0c3d68a725c85ae7977c9637aa6fd3592eae26d91d95b8dfb2cf0b28",
-      "text": "Careful pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c6b810091facd0c5ad92f75e55c0fe30d08015fe2f28479a38523713b3a671d",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b38a1f71503bd384db9386d991d11a704efc6718949a9df038438753cf542bb4",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45fb28de2a272c415728d5a58080164e8684f143d8948a62d23d999c91b66610",
+      "sha256": [
+        "45fb28de2a272c415728d5a58080164e8684f143d8948a62d23d999c91b66610",
+        "5c6b810091facd0c5ad92f75e55c0fe30d08015fe2f28479a38523713b3a671d",
+        "8a8624ed0c3d68a725c85ae7977c9637aa6fd3592eae26d91d95b8dfb2cf0b28",
+        "b38a1f71503bd384db9386d991d11a704efc6718949a9df038438753cf542bb4"
+      ],
       "text": "Careful, Pocket!",
       "source": "official"
     }

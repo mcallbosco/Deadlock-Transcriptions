@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/chrono_upgrade_power2_05.mp3",
   "revisions": [
     {
-      "sha256": "be08e1b09de03e7fd740f2e6d11e96e296df595bef37825ea954eabf59e78688",
-      "text": "This will buy us time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "85cca90fa4897a3322ee178386a49651ef9a9e0384863436625e17f001781b53",
+      "sha256": [
+        "85cca90fa4897a3322ee178386a49651ef9a9e0384863436625e17f001781b53",
+        "be08e1b09de03e7fd740f2e6d11e96e296df595bef37825ea954eabf59e78688"
+      ],
       "text": "This will buy us time…",
       "source": "official"
     }

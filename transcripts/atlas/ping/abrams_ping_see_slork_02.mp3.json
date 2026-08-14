@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_slork_02.mp3",
   "revisions": [
     {
-      "sha256": "fe3418bfbe4e055522c3fa1106b21b417a0a99505bfdf438cf15089be57b5803",
+      "sha256": [
+        "e160443668c5f8068a9cbca37f5a7367d21b9a767174fd2c46d4178cab2c3b1f",
+        "fe3418bfbe4e055522c3fa1106b21b417a0a99505bfdf438cf15089be57b5803"
+      ],
       "text": "Don't let Fort jump on you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e160443668c5f8068a9cbca37f5a7367d21b9a767174fd2c46d4178cab2c3b1f",
-      "text": "Don't let fort jump on you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

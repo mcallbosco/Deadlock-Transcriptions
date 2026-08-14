@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_haze_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "33598ea5d10e679d26c474dfe7da00329729b34225b13f5699a87fa9bcfce07e",
+      "sha256": [
+        "33598ea5d10e679d26c474dfe7da00329729b34225b13f5699a87fa9bcfce07e"
+      ],
       "text": "This is a cop mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aa06584823e13be4ef0ad9a2bcd350da93ce6f4df2a66c0efc19c5e098687fef",
-      "text": "Cave's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a61ae7a71cd37c71378e65a6e7d06a143251301627b408ff7269f6bc664d98bd",
+      "sha256": [
+        "a61ae7a71cd37c71378e65a6e7d06a143251301627b408ff7269f6bc664d98bd",
+        "aa06584823e13be4ef0ad9a2bcd350da93ce6f4df2a66c0efc19c5e098687fef"
+      ],
       "text": "Cave's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_krill_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8ad3a38661912ec3c7470939498c81e572a4c511ed5313c70abc8ad767ee2e01",
+      "sha256": [
+        "8ad3a38661912ec3c7470939498c81e572a4c511ed5313c70abc8ad767ee2e01"
+      ],
       "text": "Crew is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

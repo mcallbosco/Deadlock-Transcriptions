@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/viscous_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "6fbd5186c6d6b7e0b182f1224f1a731635f7f21d89de9ae759ff37a10e4fe4dc",
-      "text": "Nice job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b0943281e8a7f6da2d35eea975af2e149bddd1e896c0f3a4bdcaa06825df084",
+      "sha256": [
+        "2b0943281e8a7f6da2d35eea975af2e149bddd1e896c0f3a4bdcaa06825df084",
+        "6fbd5186c6d6b7e0b182f1224f1a731635f7f21d89de9ae759ff37a10e4fe4dc"
+      ],
       "text": "Nice job.",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_unicorn.mp3",
   "revisions": [
     {
-      "sha256": "393c4e003c428d35660cc7a135b67195f7694f6e9796bb6ab1dec5fab8d25179",
+      "sha256": [
+        "393c4e003c428d35660cc7a135b67195f7694f6e9796bb6ab1dec5fab8d25179"
+      ],
       "text": "I was useless.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

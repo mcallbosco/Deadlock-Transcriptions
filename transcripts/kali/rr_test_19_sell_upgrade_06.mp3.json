@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_sell_upgrade_06.mp3",
   "revisions": [
     {
-      "sha256": "603ad92ddfe41fa57ca6fb0aaed63d51ff4cfa1e28ef9f5be48d5d94a1827894",
+      "sha256": [
+        "603ad92ddfe41fa57ca6fb0aaed63d51ff4cfa1e28ef9f5be48d5d94a1827894",
+        "6cfc330ca163256c2da4866b8fd027cecc1f04880ac0791b77bd05bef82fa7fa"
+      ],
       "text": "This game is money.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6cfc330ca163256c2da4866b8fd027cecc1f04880ac0791b77bd05bef82fa7fa",
-      "text": "This game is money.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "70e2fc6632fb0b2b9e2b8b671c1c95fe67d80aa5385cdf5abc2de6d105ef054d",
+      "sha256": [
+        "70e2fc6632fb0b2b9e2b8b671c1c95fe67d80aa5385cdf5abc2de6d105ef054d"
+      ],
       "text": "This game is mine.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

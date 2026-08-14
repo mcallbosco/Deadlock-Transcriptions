@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_theyre_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "9c68f10239051ea04d72cd9d147988f6447a5be47b4640ea37b7106bfc08cee0",
-      "text": "They're on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6555a9489b6c72641714dbca2f7138c2ecd3e3b42fbf168695c405a6971f4785",
+      "sha256": [
+        "6555a9489b6c72641714dbca2f7138c2ecd3e3b42fbf168695c405a6971f4785",
+        "9c68f10239051ea04d72cd9d147988f6447a5be47b4640ea37b7106bfc08cee0"
+      ],
       "text": "They're on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

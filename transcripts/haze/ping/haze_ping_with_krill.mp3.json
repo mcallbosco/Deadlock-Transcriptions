@@ -1,34 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "807da556a2e14e831db33d5a4546d353e6eea7ddb98ddc0092e6083fb4de8f20",
+      "sha256": [
+        "807da556a2e14e831db33d5a4546d353e6eea7ddb98ddc0092e6083fb4de8f20",
+        "a8040aab1c621f766a31ac9af1cf523573104aa3e2728cb696fe3dfed1492d21",
+        "bbd24955929fe111d1f2a4aa6595f19376846284b2503c0a8cffd7708baec108",
+        "efe4bcc47c7b6b5e8f39a6bfca8a964fa3ed384d7ee788cd04aefc2bf3748537"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "efe4bcc47c7b6b5e8f39a6bfca8a964fa3ed384d7ee788cd04aefc2bf3748537",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55c99b80e568d6d821ee56ff2b7562beb8484229e44b3fd5c89450e13cb13da3",
+      "sha256": [
+        "55c99b80e568d6d821ee56ff2b7562beb8484229e44b3fd5c89450e13cb13da3"
+      ],
       "text": "I am with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8040aab1c621f766a31ac9af1cf523573104aa3e2728cb696fe3dfed1492d21",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bbd24955929fe111d1f2a4aa6595f19376846284b2503c0a8cffd7708baec108",
-      "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

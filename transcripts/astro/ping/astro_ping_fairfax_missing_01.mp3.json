@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_fairfax_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "2f19c50942cd4b1eaf73586a43ae153cf306201fec217d45a4ac3f222371ef5c",
+      "sha256": [
+        "2f19c50942cd4b1eaf73586a43ae153cf306201fec217d45a4ac3f222371ef5c"
+      ],
       "text": "That's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

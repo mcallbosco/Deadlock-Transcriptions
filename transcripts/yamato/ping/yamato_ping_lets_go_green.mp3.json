@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_lets_go_green.mp3",
   "revisions": [
     {
-      "sha256": "11c488d64f066dafb118733227ef93d273c5989289b0b23d35b4dae91e5c4382",
-      "text": "Let's go green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9231c0509b7e68bd19461759f6093ef5716ae8664b3d9021d4632b504255fb0",
+      "sha256": [
+        "11c488d64f066dafb118733227ef93d273c5989289b0b23d35b4dae91e5c4382",
+        "f9231c0509b7e68bd19461759f6093ef5716ae8664b3d9021d4632b504255fb0"
+      ],
       "text": "Let's go green!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "78a31041026297ed29c966c8618ad6519253a9f80341b766391c353118bc64d4",
+      "sha256": [
+        "78a31041026297ed29c966c8618ad6519253a9f80341b766391c353118bc64d4"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

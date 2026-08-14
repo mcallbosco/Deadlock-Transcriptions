@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_astro_01.mp3",
   "revisions": [
     {
-      "sha256": "61591cc2983f0bf81fea741e5b2c28f2cda468d76ce0a509cb34e1d02bac0e1f",
-      "text": "Careful, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "40e1a515714b150665f7939c8d4a359e8f95bd1ee98a732e8ea01e5e82a3b1a4",
+      "sha256": [
+        "40e1a515714b150665f7939c8d4a359e8f95bd1ee98a732e8ea01e5e82a3b1a4",
+        "61591cc2983f0bf81fea741e5b2c28f2cda468d76ce0a509cb34e1d02bac0e1f"
+      ],
       "text": "Careful, Holliday…",
       "source": "official"
     }

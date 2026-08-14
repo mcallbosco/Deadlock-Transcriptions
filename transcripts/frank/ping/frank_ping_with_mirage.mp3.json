@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "9546164c6595e9a7cbaee708ec66785fc6887fa731b95bc49c08f52ba0f33042",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "545f0d405fce60ee29adaf5c2c190f97884ba215fc1d034d6424256a0f383fa9",
+      "sha256": [
+        "545f0d405fce60ee29adaf5c2c190f97884ba215fc1d034d6424256a0f383fa9",
+        "9546164c6595e9a7cbaee708ec66785fc6887fa731b95bc49c08f52ba0f33042"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

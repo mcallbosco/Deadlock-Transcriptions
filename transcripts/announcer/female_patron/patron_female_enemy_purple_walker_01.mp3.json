@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_enemy_purple_walker_01.mp3",
   "revisions": [
     {
-      "sha256": "3cc0c521c2ad8333d5dd8baccd218de5f51e7c1a03edf02b59b7f51efee3769f",
-      "text": "Their purple walker has been defeated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0978e8629fd1a099bd84a757614eb4bd093acdfea1a532bbc98b4e34f208d959",
+      "sha256": [
+        "0978e8629fd1a099bd84a757614eb4bd093acdfea1a532bbc98b4e34f208d959",
+        "3cc0c521c2ad8333d5dd8baccd218de5f51e7c1a03edf02b59b7f51efee3769f"
+      ],
       "text": "Their purple walker has been defeated.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

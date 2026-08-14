@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_idol_score_02.mp3",
   "revisions": [
     {
-      "sha256": "a7923e0c9308c2efd5759f46add751eb3992ff2608c33e4d027b66891ab99ac4",
-      "text": "Title delivered.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86e27cd7b12257ca3a087d7f2e364b83541f5bf962cd8e6bd1f6d4c5df282b74",
+      "sha256": [
+        "86e27cd7b12257ca3a087d7f2e364b83541f5bf962cd8e6bd1f6d4c5df282b74",
+        "a7923e0c9308c2efd5759f46add751eb3992ff2608c33e4d027b66891ab99ac4"
+      ],
       "text": "Title delivered.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

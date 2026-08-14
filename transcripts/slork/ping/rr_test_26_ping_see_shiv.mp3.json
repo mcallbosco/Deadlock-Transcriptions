@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_shiv.mp3",
   "revisions": [
     {
-      "sha256": "9582b9cf04c731eb8409fb4a4711a1ad86c481b36c1c5ba940aea0bfdea19a29",
-      "text": "I see Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "744bab8dacbf124a300354d7b94dc7e472cac964b913fc0cd5f5b0eb2bdfec4b",
+      "sha256": [
+        "744bab8dacbf124a300354d7b94dc7e472cac964b913fc0cd5f5b0eb2bdfec4b",
+        "9582b9cf04c731eb8409fb4a4711a1ad86c481b36c1c5ba940aea0bfdea19a29"
+      ],
       "text": "I see Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

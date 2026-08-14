@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_near_miss_05.mp3",
   "revisions": [
     {
-      "sha256": "56d63a0f17d0354784a27caa002b1186c63fe1f89e014a3d11eea7903b4ef5a8",
+      "sha256": [
+        "56d63a0f17d0354784a27caa002b1186c63fe1f89e014a3d11eea7903b4ef5a8",
+        "791d4a9d1b0127a39a3a5c777d7c0a3e253031c10422f9cf163d47481cb2da24"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9a7c4cd7f79920da3bad57dc5dca9c5ca85323277c77ebea1b46f6ce0a31df44",
-      "text": "Damn.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "791d4a9d1b0127a39a3a5c777d7c0a3e253031c10422f9cf163d47481cb2da24",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1b1f65caececaae4974bd4aba026ee3a81ddd066892b69f1d4c9fc5fc0906fd",
+      "sha256": [
+        "9a7c4cd7f79920da3bad57dc5dca9c5ca85323277c77ebea1b46f6ce0a31df44",
+        "c1b1f65caececaae4974bd4aba026ee3a81ddd066892b69f1d4c9fc5fc0906fd"
+      ],
       "text": "Damn!",
       "source": "official"
     }

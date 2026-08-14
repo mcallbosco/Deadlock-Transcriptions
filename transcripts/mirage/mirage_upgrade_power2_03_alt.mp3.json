@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power2_03_alt.mp3",
   "revisions": [
     {
-      "sha256": "05088be843403aa28681f4a03bfd1e5c899213b8a7f4afdf0b206d9c8c40d579",
-      "text": "The weapons of the Djinn are unconventional.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c1fbf428e08dbf14389affcde9b6821049369ac7d1fd4f9ba87c45511dab91f",
-      "text": "The weapons of the Djinn are... unconventional.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1898cb7b4bfe7c9d16ae43cb847579ba79765ab4d1fadd028f0a70a53b534cc2",
+      "sha256": [
+        "05088be843403aa28681f4a03bfd1e5c899213b8a7f4afdf0b206d9c8c40d579",
+        "0c1fbf428e08dbf14389affcde9b6821049369ac7d1fd4f9ba87c45511dab91f",
+        "1898cb7b4bfe7c9d16ae43cb847579ba79765ab4d1fadd028f0a70a53b534cc2"
+      ],
       "text": "The weapons of the Djinn are unconventional.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

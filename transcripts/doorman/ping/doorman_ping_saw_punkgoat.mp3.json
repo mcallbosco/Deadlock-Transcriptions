@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_saw_punkgoat.mp3",
   "revisions": [
     {
-      "sha256": "0cb8a4d439696e28c5694435dda783b9257b792df05db4a063a601d616ce7cea",
+      "sha256": [
+        "0cb8a4d439696e28c5694435dda783b9257b792df05db4a063a601d616ce7cea"
+      ],
       "text": "I saw the goat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

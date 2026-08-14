@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "ef8a76e9cab0a459f272c08f8b504054a86ec788751b5cbda8558a400427a444",
-      "text": "I see Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f850f2b24aa2f126a7d924bcbd4d967c0cc995daba476cdabfaf76a9b11394ee",
-      "text": "I see Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e1e1792ce1a81b7f804a5518ab8661f3ffd828b57621be33e90581a82f30f853",
+      "sha256": [
+        "e1e1792ce1a81b7f804a5518ab8661f3ffd828b57621be33e90581a82f30f853",
+        "ef8a76e9cab0a459f272c08f8b504054a86ec788751b5cbda8558a400427a444",
+        "f850f2b24aa2f126a7d924bcbd4d967c0cc995daba476cdabfaf76a9b11394ee"
+      ],
       "text": "I see Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

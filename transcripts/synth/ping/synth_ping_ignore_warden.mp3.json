@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_ignore_warden.mp3",
   "revisions": [
     {
-      "sha256": "4f9c1160d278a7676a82acae3ab6a2286f37668b56d55a3842c7b31e5f3d8e8c",
+      "sha256": [
+        "4f9c1160d278a7676a82acae3ab6a2286f37668b56d55a3842c7b31e5f3d8e8c"
+      ],
       "text": "Ignore Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

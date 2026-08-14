@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_upgrades_last_hit.mp3",
   "revisions": [
     {
-      "sha256": "ee1aec73501dfa879d7559519d0eee53bc78a6e26cec9c729552093532a547d2",
-      "text": "Get creds by killing troopers and players. You can also get creds by killing neutrals located throughout the map. Creds are shared among allies nearby.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78f5ecd477eeb02cc851b30b70d0ef6bb977669aa1cd6440bd1fc15c3296c675",
+      "sha256": [
+        "78f5ecd477eeb02cc851b30b70d0ef6bb977669aa1cd6440bd1fc15c3296c675",
+        "ee1aec73501dfa879d7559519d0eee53bc78a6e26cec9c729552093532a547d2"
+      ],
       "text": "Get creds by killing troopers and players. You can also get creds by killing neutrals located throughout the map. Creds are shared among allies nearby.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

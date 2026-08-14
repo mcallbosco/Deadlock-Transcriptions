@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_warden_check_items.mp3",
   "revisions": [
     {
-      "sha256": "e4cc3fb765b0b308c3291b024e479820483568c692471ddcdb649189e184749a",
-      "text": "Check out what Warden bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "547bd0844038a968bb74470bf1eb9cdfc9492540b59f2afb774aaf41ab721755",
+      "sha256": [
+        "547bd0844038a968bb74470bf1eb9cdfc9492540b59f2afb774aaf41ab721755",
+        "e4cc3fb765b0b308c3291b024e479820483568c692471ddcdb649189e184749a"
+      ],
       "text": "Check out what Warden bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

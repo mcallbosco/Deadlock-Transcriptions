@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_green_help_02.mp3",
   "revisions": [
     {
-      "sha256": "ea329c6ab46a78f0f824e1e78184406b080bc684ecea2b7d80f9319bf1488b9f",
+      "sha256": [
+        "2e111e423bb5f750cb5b73d03419a57e9e622b0f4b338c9b9397f94b0a2da81b",
+        "ea329c6ab46a78f0f824e1e78184406b080bc684ecea2b7d80f9319bf1488b9f"
+      ],
       "text": "Gretch needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2e111e423bb5f750cb5b73d03419a57e9e622b0f4b338c9b9397f94b0a2da81b",
-      "text": "Gretch needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c410b83645cd60cb641733659190df9a429099449d99bfc3da0c83cb89c07025",
+      "sha256": [
+        "c410b83645cd60cb641733659190df9a429099449d99bfc3da0c83cb89c07025"
+      ],
       "text": "Greenwich needs help!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_kelvin_dead.mp3",
   "revisions": [
     {
-      "sha256": "aea4c1cc1090d50bcb81311dd185dc49f5a45af9bf1cce1ce7e7d7c9d61f4eb0",
+      "sha256": [
+        "aea4c1cc1090d50bcb81311dd185dc49f5a45af9bf1cce1ce7e7d7c9d61f4eb0"
+      ],
       "text": "Calvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3760a25f4eb46a971864f04d6b976c482e83d4846b40fee470110abd3f3bb143",
+      "sha256": [
+        "3760a25f4eb46a971864f04d6b976c482e83d4846b40fee470110abd3f3bb143"
+      ],
       "text": "Kelvin is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

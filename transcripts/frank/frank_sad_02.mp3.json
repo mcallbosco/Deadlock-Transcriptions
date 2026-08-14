@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_sad_02.mp3",
   "revisions": [
     {
-      "sha256": "653e63e7175dc17be64de5c25d5098a8a464505a931816d29ff32f7dd850e316",
+      "sha256": [
+        "653e63e7175dc17be64de5c25d5098a8a464505a931816d29ff32f7dd850e316"
+      ],
       "text": "This would deter me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_careful_druid_01.mp3",
   "revisions": [
     {
-      "sha256": "ee6ee97fb7671b9681b93d31a0380dad3974f8b748fbe62feedddb169117dae2",
+      "sha256": [
+        "c91392b18527816609ea5b483278c296196e9a161bd104ef38d38ed1acf876fa",
+        "ee6ee97fb7671b9681b93d31a0380dad3974f8b748fbe62feedddb169117dae2"
+      ],
       "text": "Careful, Druid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c91392b18527816609ea5b483278c296196e9a161bd104ef38d38ed1acf876fa",
-      "text": "Careful, druid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

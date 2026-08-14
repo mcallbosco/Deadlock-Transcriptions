@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_lash.mp3",
   "revisions": [
     {
-      "sha256": "9a1c16d5642447f3a3c5ab26d3060339e606f7d4b92cdb21ce1a6d80d566c58c",
+      "sha256": [
+        "9a1c16d5642447f3a3c5ab26d3060339e606f7d4b92cdb21ce1a6d80d566c58c"
+      ],
       "text": "I'm with you, lush.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8fc77881866bb7f975efa9da9b61fdc231144b70e1477e2f6649294ae7363614",
+      "sha256": [
+        "8fc77881866bb7f975efa9da9b61fdc231144b70e1477e2f6649294ae7363614"
+      ],
       "text": "I'm with you, Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

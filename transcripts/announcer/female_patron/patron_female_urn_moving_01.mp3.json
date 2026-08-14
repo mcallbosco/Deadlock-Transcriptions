@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_urn_moving_01.mp3",
   "revisions": [
     {
-      "sha256": "6407c63bb11363fc0102d50bb3cadd58360c7df4e9f6af07635a0d85368a11ee",
+      "sha256": [
+        "6407c63bb11363fc0102d50bb3cadd58360c7df4e9f6af07635a0d85368a11ee"
+      ],
       "text": "The onion's in motion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aa1acf2cfee3ac9054dfd919d197660e66ac13b77ac549c223b994717c536545",
-      "text": "The urn is in motion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3649a081bd8e5a0ca69873808240089908b0f1b9932df110fd2c3823a5d83390",
+      "sha256": [
+        "3649a081bd8e5a0ca69873808240089908b0f1b9932df110fd2c3823a5d83390",
+        "aa1acf2cfee3ac9054dfd919d197660e66ac13b77ac549c223b994717c536545"
+      ],
       "text": "The urn is in motion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "bba349c645072d88e6189d194fa5b6f62bfb10342463d592f94ea4984b98b6db",
-      "text": "I'm with you, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c3806ef6a1e657a92944ef6bb687ca2202a692acbdbe4c762a4cdb960a61379",
+      "sha256": [
+        "8c3806ef6a1e657a92944ef6bb687ca2202a692acbdbe4c762a4cdb960a61379",
+        "bba349c645072d88e6189d194fa5b6f62bfb10342463d592f94ea4984b98b6db"
+      ],
       "text": "I'm with you, Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

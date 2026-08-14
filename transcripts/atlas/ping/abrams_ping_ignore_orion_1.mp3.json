@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ignore_orion_1.mp3",
   "revisions": [
     {
-      "sha256": "4cd4f27c96b5311341a434881972bc6d1443db31824a607e5f3e4c717602d265",
-      "text": "Ignore Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f9258439fe575ace53af74e19bbc6f81befe57022156c3d92eb4db7d4462ee1",
+      "sha256": [
+        "1f9258439fe575ace53af74e19bbc6f81befe57022156c3d92eb4db7d4462ee1",
+        "4cd4f27c96b5311341a434881972bc6d1443db31824a607e5f3e4c717602d265"
+      ],
       "text": "Ignore Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

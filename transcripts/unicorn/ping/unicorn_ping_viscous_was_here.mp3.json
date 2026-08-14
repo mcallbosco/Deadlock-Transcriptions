@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_viscous_was_here.mp3",
   "revisions": [
     {
-      "sha256": "7b04c8b010772f7d04896caee00888cb6c9734bf147c966ea734e2cbda4cdf75",
+      "sha256": [
+        "7b04c8b010772f7d04896caee00888cb6c9734bf147c966ea734e2cbda4cdf75"
+      ],
       "text": "This was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

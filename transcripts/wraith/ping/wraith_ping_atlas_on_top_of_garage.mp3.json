@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_atlas_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "e582c72eb0739d6a1e2d0a5756071aab524140bc608c0586700116e6b3efa87e",
+      "sha256": [
+        "29a0228ce89cacd4409ca9ec0df18199f7c0d61e21b1dbb3a1cc44fded1b96ed",
+        "86d7256de23c27b4553cc474925e93cee4cd19f60c092972f52d4c0a386360f0",
+        "e582c72eb0739d6a1e2d0a5756071aab524140bc608c0586700116e6b3efa87e"
+      ],
       "text": "Abrams is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "29a0228ce89cacd4409ca9ec0df18199f7c0d61e21b1dbb3a1cc44fded1b96ed",
-      "text": "Abrams is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86d7256de23c27b4553cc474925e93cee4cd19f60c092972f52d4c0a386360f0",
-      "text": "Abrams is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7eb2daa06ba9dfae8ee944a75a55715a9a128aeb2690e0b6b23cedc4e9d4d19a",
+      "sha256": [
+        "7eb2daa06ba9dfae8ee944a75a55715a9a128aeb2690e0b6b23cedc4e9d4d19a"
+      ],
       "text": "Abrams's on top of the garage!",
       "source": "official"
     }

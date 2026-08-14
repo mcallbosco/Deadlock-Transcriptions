@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_chrono_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "85be4ad2acc29250925e2f3a9e74c1172c09237a748c9d0cbcc60baa4592c623",
+      "sha256": [
+        "689bf5da0101321d4d85765aa17b70499d976dc12dcbe0051f41af03113c58f1",
+        "85be4ad2acc29250925e2f3a9e74c1172c09237a748c9d0cbcc60baa4592c623",
+        "bd6677eb1b167e12fcfc25863eb72c7cb9b79183916fa4b04090cd0297ced3d9"
+      ],
       "text": "Paradox is on top of the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "689bf5da0101321d4d85765aa17b70499d976dc12dcbe0051f41af03113c58f1",
-      "text": "Paradox is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bd6677eb1b167e12fcfc25863eb72c7cb9b79183916fa4b04090cd0297ced3d9",
-      "text": "Paradox is on top of the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "42d50af916e9c11771bf7fcfbfce2331a245cb34e52b3d0910a6eb8b625e251a",
+      "sha256": [
+        "42d50af916e9c11771bf7fcfbfce2331a245cb34e52b3d0910a6eb8b625e251a"
+      ],
       "text": "Paradox's on top of the garage!",
       "source": "official"
     }

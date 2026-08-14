@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_seven_01.mp3",
   "revisions": [
     {
-      "sha256": "713c4ac0a53d5a0005ca29e36cc7589875224b3750e69b4422f8fb61da40ccee",
+      "sha256": [
+        "713c4ac0a53d5a0005ca29e36cc7589875224b3750e69b4422f8fb61da40ccee"
+      ],
       "text": "Castle 7.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fa28169fb594714628a7ad82b7439949ed0ac9f5230129f606142a5302e4d326",
-      "text": "Careful, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "57f5f0a2edb41c73197f29f3c058a3356a156a2966a7b977228dee9fdb0de426",
+      "sha256": [
+        "57f5f0a2edb41c73197f29f3c058a3356a156a2966a7b977228dee9fdb0de426",
+        "fa28169fb594714628a7ad82b7439949ed0ac9f5230129f606142a5302e4d326"
+      ],
       "text": "Careful, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

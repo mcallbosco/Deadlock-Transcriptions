@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_can_heal_orion.mp3",
   "revisions": [
     {
-      "sha256": "21ef7a7da69c142778b1cdf04f2591f2e93a00cd2ae97f4cad94b5fe4ef438a9",
+      "sha256": [
+        "21ef7a7da69c142778b1cdf04f2591f2e93a00cd2ae97f4cad94b5fe4ef438a9",
+        "7dcb84946db5d4c27ee3eb1581475f4485380bd11577f45b9f2f8ee5133ae6c7"
+      ],
       "text": "All right, I hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7dcb84946db5d4c27ee3eb1581475f4485380bd11577f45b9f2f8ee5133ae6c7",
-      "text": "All right, I hear you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90d1522d5470b9bc768a9226e0fa6fa0d5494bc534afadd64dc33fc59e14e0df",
+      "sha256": [
+        "90d1522d5470b9bc768a9226e0fa6fa0d5494bc534afadd64dc33fc59e14e0df"
+      ],
       "text": "Grey Talon, I can heal you!",
       "source": "official"
     }

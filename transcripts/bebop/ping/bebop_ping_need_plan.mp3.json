@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_need_plan.mp3",
   "revisions": [
     {
-      "sha256": "f24d267d2da6d64f49bba3e5f283b79762b1c2df5af2dccc047bb09f73f1e780",
-      "text": "What's the plan?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77a6bf271a4d3edc0d4e5f42202a1aa60a3eebc162c36e86fe77718aeda024ca",
+      "sha256": [
+        "77a6bf271a4d3edc0d4e5f42202a1aa60a3eebc162c36e86fe77718aeda024ca",
+        "f24d267d2da6d64f49bba3e5f283b79762b1c2df5af2dccc047bb09f73f1e780"
+      ],
       "text": "What's the plan?",
       "source": "official"
     }

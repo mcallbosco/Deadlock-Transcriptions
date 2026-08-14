@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_t3_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "a02c7a82d801e67a8893d58bd69a888fd94b6abf7fd6ff6190ca6663ba4d18e0",
-      "text": "There has to be something at the shop I can use.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6dd184eeecd5c1fb5d5f51b59cb975d59ce590219ff051c740892034e3899e68",
-      "text": "Perhaps there's something at the shop I can use.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f511ec20b159707113535c21e44de5ab5863387dcf6a671af53741cf9fb3c56",
-      "text": "Perhaps there's something at the shop I can use.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77e3b22e874a4fcfe64caacf2a871e1e3133c76d64386b220b87953f125ff66c",
+      "sha256": [
+        "77e3b22e874a4fcfe64caacf2a871e1e3133c76d64386b220b87953f125ff66c",
+        "a02c7a82d801e67a8893d58bd69a888fd94b6abf7fd6ff6190ca6663ba4d18e0"
+      ],
       "text": "There has to be something at the shop I can use…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "6dd184eeecd5c1fb5d5f51b59cb975d59ce590219ff051c740892034e3899e68",
+        "7f511ec20b159707113535c21e44de5ab5863387dcf6a671af53741cf9fb3c56"
+      ],
+      "text": "Perhaps there's something at the shop I can use.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

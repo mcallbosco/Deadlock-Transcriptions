@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_saw_ivy.mp3",
   "revisions": [
     {
-      "sha256": "8b4f5c50a8c049d063d2f57c171156031e3e640c2312eed591d0a8439aa9ae9d",
+      "sha256": [
+        "8b4f5c50a8c049d063d2f57c171156031e3e640c2312eed591d0a8439aa9ae9d"
+      ],
       "text": "I saw Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d7b06dd50e27d0e62d36373e54edecdaa9533e162aeffe37f6ffe5da95d3c7ba",
+      "sha256": [
+        "d7b06dd50e27d0e62d36373e54edecdaa9533e162aeffe37f6ffe5da95d3c7ba"
+      ],
       "text": "That's all righty.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

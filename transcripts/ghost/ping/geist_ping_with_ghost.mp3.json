@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_ghost.mp3",
   "revisions": [
     {
-      "sha256": "5a3d97159d2cafa8487c3a6bd1530ee655afe6b08c107f9f6d5bfcb678df0c62",
-      "text": "I miss you guys.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b8643c1800b856de582fba8c5bd5f524cb12d34081d8316f87d997cc7a02222e",
+      "sha256": [
+        "5a3d97159d2cafa8487c3a6bd1530ee655afe6b08c107f9f6d5bfcb678df0c62",
+        "b8643c1800b856de582fba8c5bd5f524cb12d34081d8316f87d997cc7a02222e"
+      ],
       "text": "I miss you guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

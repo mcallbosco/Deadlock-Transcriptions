@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "df7ce812f7cccf390a4d55d76d9037a0ca4d59f4603b9c6440a38d089ca3e0da",
-      "text": "I see wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc95c331f508fc4f93d60a3db8754379006156157d526589e485ce9192f216f6",
-      "text": "I see wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "71d2d591a26f1b9fcc3a81b6090d01e8a0f9829aa7a9e18204ad3ead92e61f9d",
-      "text": "I see wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "126d3f14d0ac799c33cf10e1ec859cd062f42eac3e84792da790777c4e6c21d2",
+      "sha256": [
+        "126d3f14d0ac799c33cf10e1ec859cd062f42eac3e84792da790777c4e6c21d2",
+        "71d2d591a26f1b9fcc3a81b6090d01e8a0f9829aa7a9e18204ad3ead92e61f9d",
+        "cc95c331f508fc4f93d60a3db8754379006156157d526589e485ce9192f216f6",
+        "df7ce812f7cccf390a4d55d76d9037a0ca4d59f4603b9c6440a38d089ca3e0da"
+      ],
       "text": "I see Wrecker",
       "source": "official"
     }

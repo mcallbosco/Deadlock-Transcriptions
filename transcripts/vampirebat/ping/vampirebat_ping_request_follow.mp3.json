@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_request_follow.mp3",
   "revisions": [
     {
-      "sha256": "a3b8d17f4eca45754458cacf30d469f837269ff44d483b24a058e93937f27587",
-      "text": "Come with me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "32acbc7339f3388613057683e809d7ecb110844d0eb9e38c41dbe9cf84e6de16",
+      "sha256": [
+        "32acbc7339f3388613057683e809d7ecb110844d0eb9e38c41dbe9cf84e6de16",
+        "a3b8d17f4eca45754458cacf30d469f837269ff44d483b24a058e93937f27587"
+      ],
       "text": "Come with me.",
       "source": "official"
     }

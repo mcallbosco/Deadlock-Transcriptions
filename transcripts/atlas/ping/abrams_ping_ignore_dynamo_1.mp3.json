@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_ignore_dynamo_1.mp3",
   "revisions": [
     {
-      "sha256": "57926ca301ecba76097c85c2b75fb0fc9c7e7647f019c758e0b85c77a5779b33",
-      "text": "Ignore Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "29894983bd09bf72d6fd716979d686da213e4702368df4eb3c2d22970729a16b",
+      "sha256": [
+        "29894983bd09bf72d6fd716979d686da213e4702368df4eb3c2d22970729a16b",
+        "57926ca301ecba76097c85c2b75fb0fc9c7e7647f019c758e0b85c77a5779b33"
+      ],
       "text": "Ignore Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

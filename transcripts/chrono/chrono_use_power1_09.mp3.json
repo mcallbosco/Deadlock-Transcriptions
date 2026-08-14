@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/chrono_use_power1_09.mp3",
   "revisions": [
     {
-      "sha256": "b56075a7cfda2428a43ee9493a7fd90ef4a45a5fa9367d63b1ac1f97d735ef3e",
+      "sha256": [
+        "b56075a7cfda2428a43ee9493a7fd90ef4a45a5fa9367d63b1ac1f97d735ef3e"
+      ],
       "text": "Tom's ready.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d51b1f6146161fd0f7f41951511f59b9812cb320b8ef9808f7c3c1f6895c94bf",
+      "sha256": [
+        "d51b1f6146161fd0f7f41951511f59b9812cb320b8ef9808f7c3c1f6895c94bf"
+      ],
       "text": "Bombs ready",
       "source": "official"
     }

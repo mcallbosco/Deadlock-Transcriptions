@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_careful_wraith_01.mp3",
   "revisions": [
     {
-      "sha256": "8b5811d376861db363fd4968f5b138f8d32bf4d978989f67fad10db76a7f8d79",
-      "text": "Careful, Wraith.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34b2656c3cd7180eeb486c2aa8f8c26b83f7d7d0b0df38195ac8ec5a5682af2d",
-      "text": "Careful, Rafe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80122185d4a010a553094c8ea6f935fd55b48fa54036a869d75a285f5914fb75",
-      "text": "Careful, Rafe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c5d08a8594cf2467ddf70214d378b9669ba29b9d1744e65d6012871388b38df",
+      "sha256": [
+        "1c5d08a8594cf2467ddf70214d378b9669ba29b9d1744e65d6012871388b38df",
+        "8b5811d376861db363fd4968f5b138f8d32bf4d978989f67fad10db76a7f8d79"
+      ],
       "text": "Careful, Wraith…",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "34b2656c3cd7180eeb486c2aa8f8c26b83f7d7d0b0df38195ac8ec5a5682af2d",
+        "80122185d4a010a553094c8ea6f935fd55b48fa54036a869d75a285f5914fb75"
+      ],
+      "text": "Careful, Rafe.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

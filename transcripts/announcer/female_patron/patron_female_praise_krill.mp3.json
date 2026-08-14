@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_krill.mp3",
   "revisions": [
     {
-      "sha256": "b0cccd828473cbfbcd57e10e7c1f1037b6de6861ba89d4e5cf2447a058ea5ed7",
-      "text": "Well done, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6a7ff7dfb4ba163cd3ca1bcd2970744c997e0d65817d824b64d73b972ead4363",
-      "text": "Well done, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9fa0ccb905576d9a411877c4c254b0328d7b9c42cc100e68142b8ec740485fd",
+      "sha256": [
+        "6a7ff7dfb4ba163cd3ca1bcd2970744c997e0d65817d824b64d73b972ead4363",
+        "b0cccd828473cbfbcd57e10e7c1f1037b6de6861ba89d4e5cf2447a058ea5ed7",
+        "f9fa0ccb905576d9a411877c4c254b0328d7b9c42cc100e68142b8ec740485fd"
+      ],
       "text": "Well done Krill",
       "source": "official"
     }

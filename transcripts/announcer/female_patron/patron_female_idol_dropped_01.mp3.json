@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_idol_dropped_01.mp3",
   "revisions": [
     {
-      "sha256": "977c496d2fe7fdf1128df7960151c3209187d2896160d501738447440c3b628b",
+      "sha256": [
+        "977c496d2fe7fdf1128df7960151c3209187d2896160d501738447440c3b628b"
+      ],
       "text": "The idol has been brought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "97f1ad845c986528d469285985670b1ebbd8df5e96105656da265ebce083aa3f",
+      "sha256": [
+        "97f1ad845c986528d469285985670b1ebbd8df5e96105656da265ebce083aa3f"
+      ],
       "text": "The idol has been dropped.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

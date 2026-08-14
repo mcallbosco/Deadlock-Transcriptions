@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_refresher_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "b88bb96b3bf9551e364201713830142179e0d8ba84d8f6da125c9e2d18d0bd07",
+      "sha256": [
+        "b88bb96b3bf9551e364201713830142179e0d8ba84d8f6da125c9e2d18d0bd07"
+      ],
       "text": "Differential on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9514525cbb62c9e8494ffa18557a6a70794e1cf63c99b8e701ee8d1424fa4113",
+      "sha256": [
+        "9514525cbb62c9e8494ffa18557a6a70794e1cf63c99b8e701ee8d1424fa4113"
+      ],
       "text": "Refresher's on cooldown",
       "source": "official"
     }

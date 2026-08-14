@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_near_miss_01.mp3",
   "revisions": [
     {
-      "sha256": "9190a4c06a50caee98e8099c62c23bf52fb5427d3ee19cef8b8db0d28f86f9bf",
-      "text": "Almost there.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09f5d59c4318aef2875cde867c8dcb88554c4b2c518c0da7fdb46378c4656b4d",
-      "text": "Almost there.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8be60955e4baeec8c19edc69d90024733a45dd306bea815bc63f34cdfd19b7d2",
+      "sha256": [
+        "09f5d59c4318aef2875cde867c8dcb88554c4b2c518c0da7fdb46378c4656b4d",
+        "8be60955e4baeec8c19edc69d90024733a45dd306bea815bc63f34cdfd19b7d2",
+        "9190a4c06a50caee98e8099c62c23bf52fb5427d3ee19cef8b8db0d28f86f9bf"
+      ],
       "text": "Almost there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

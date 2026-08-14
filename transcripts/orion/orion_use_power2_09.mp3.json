@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_use_power2_09.mp3",
   "revisions": [
     {
-      "sha256": "ff69ed9c31bb334f73054e5fe435bc3ecfe8d74b55901975dc0480dba9b3252c",
+      "sha256": [
+        "ff69ed9c31bb334f73054e5fe435bc3ecfe8d74b55901975dc0480dba9b3252c"
+      ],
       "text": "Call fire from above.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "000bd0dffebff9353d2fda0f995528349ef8f265e2d4ad0e98680b76a683173b",
+      "sha256": [
+        "000bd0dffebff9353d2fda0f995528349ef8f265e2d4ad0e98680b76a683173b",
+        "8cd4fe0534ee6371630c62275c5444cd0ada833f414d93b7db23f32e83336041"
+      ],
       "text": "A fire from above.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8cd4fe0534ee6371630c62275c5444cd0ada833f414d93b7db23f32e83336041",
-      "text": "A fire from above.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "373fbfc1095af8e533769b7f257a0a2b16664c6a9dc1d64ac7326b4db50ac695",
+      "sha256": [
+        "373fbfc1095af8e533769b7f257a0a2b16664c6a9dc1d64ac7326b4db50ac695"
+      ],
       "text": "I'll fire from above…",
       "source": "official"
     }

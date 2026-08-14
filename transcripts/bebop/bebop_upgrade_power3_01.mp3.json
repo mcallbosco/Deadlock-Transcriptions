@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power3_01.mp3",
   "revisions": [
     {
-      "sha256": "febd870eae14f469fa5f01ba2e4168af4836d69829d5534027f44960ca29ef1e",
+      "sha256": [
+        "febd870eae14f469fa5f01ba2e4168af4836d69829d5534027f44960ca29ef1e"
+      ],
       "text": "Oh, I love using these.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "38d17b7f7676653f337d0bfad778d2265740b56a69f92504d8209de9421084ff",
+      "sha256": [
+        "38d17b7f7676653f337d0bfad778d2265740b56a69f92504d8209de9421084ff"
+      ],
       "text": "I love using these…",
       "source": "official"
     }

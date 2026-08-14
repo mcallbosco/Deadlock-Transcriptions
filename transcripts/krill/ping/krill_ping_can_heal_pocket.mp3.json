@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_can_heal_pocket.mp3",
   "revisions": [
     {
-      "sha256": "725494ab3a26812dcf8f3b543057370c2eb22806decfe292734b54415f6beee6",
+      "sha256": [
+        "725494ab3a26812dcf8f3b543057370c2eb22806decfe292734b54415f6beee6",
+        "77b8f6dc28fb8c114acce3d2a4175b3021c353bf8ce3483a19947069a039ac4a"
+      ],
       "text": "Talk it! I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "77b8f6dc28fb8c114acce3d2a4175b3021c353bf8ce3483a19947069a039ac4a",
-      "text": "Talk it! I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b87483d31a0559300f0c6a0b2cac4df3a2219422af5b3697b852dec1fa4af795",
+      "sha256": [
+        "b87483d31a0559300f0c6a0b2cac4df3a2219422af5b3697b852dec1fa4af795"
+      ],
       "text": "Pocket, I can heal you!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "7a70ad4e1ce6925c4c1b82e74a7641db820835c7294ce68d5ead12e31a366948",
-      "text": "I'm with you, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f03c7378c7429e0f767d71696dc6174025b91bc69e340136adbca28ea6897086",
-      "text": "I'm with you, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e97fc8d8991f62e72ed395cfad38304cf94bc70670c4195dff4f56c01f9f5723",
+      "sha256": [
+        "7a70ad4e1ce6925c4c1b82e74a7641db820835c7294ce68d5ead12e31a366948",
+        "e97fc8d8991f62e72ed395cfad38304cf94bc70670c4195dff4f56c01f9f5723",
+        "f03c7378c7429e0f767d71696dc6174025b91bc69e340136adbca28ea6897086"
+      ],
       "text": "I'm with you, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

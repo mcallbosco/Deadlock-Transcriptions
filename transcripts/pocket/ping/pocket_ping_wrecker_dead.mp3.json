@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_wrecker_dead.mp3",
   "revisions": [
     {
-      "sha256": "0dd595ad201b6f72eaa4eef06d6ad231e23208d1b20bdaf5d7e4adc76f789677",
-      "text": "Wrecker is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76c9ad18646b7e838703de4c2df49b1da9b83ec1400ae1586e1ec496c7824fdb",
+      "sha256": [
+        "0dd595ad201b6f72eaa4eef06d6ad231e23208d1b20bdaf5d7e4adc76f789677",
+        "76c9ad18646b7e838703de4c2df49b1da9b83ec1400ae1586e1ec496c7824fdb"
+      ],
       "text": "Wrecker is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

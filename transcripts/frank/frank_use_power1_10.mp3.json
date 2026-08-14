@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_use_power1_10.mp3",
   "revisions": [
     {
-      "sha256": "a892ab516443eac063052132d0427383b4b3d1a1cdd04c56c4becb025e4322a9",
+      "sha256": [
+        "a892ab516443eac063052132d0427383b4b3d1a1cdd04c56c4becb025e4322a9"
+      ],
       "text": "This will sting.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c9565a3dcd5867c2bf6c94d46f4e65d9c378c11eb1a9ddba0a1fc6a6503a107e",
+      "sha256": [
+        "c9565a3dcd5867c2bf6c94d46f4e65d9c378c11eb1a9ddba0a1fc6a6503a107e"
+      ],
       "text": "This'll sting",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_need_help_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "dd42324d0a09874367e690013a7abf64bd5d2f59de8fbce676fa1823f4093698",
-      "text": "Need help on Greenwich?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4b911c794227188d741f2e4b568ef51bc9968b5cff2d3f4da9dc7eff9a4e3b3b",
+      "sha256": [
+        "4b911c794227188d741f2e4b568ef51bc9968b5cff2d3f4da9dc7eff9a4e3b3b",
+        "dd42324d0a09874367e690013a7abf64bd5d2f59de8fbce676fa1823f4093698"
+      ],
       "text": "Need help on Greenwich!",
       "source": "official"
     }

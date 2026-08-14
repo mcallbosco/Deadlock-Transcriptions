@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_astro_02.mp3",
   "revisions": [
     {
-      "sha256": "46e52241dba8fe3bfbb0a9308442e6dd84d8892602baacace0ed2689b30aca85",
-      "text": "Careful, Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3acd0ab7cebaee7f4ecf01696149e02d834061fef7d7fd33f85519db910eee42",
+      "sha256": [
+        "3acd0ab7cebaee7f4ecf01696149e02d834061fef7d7fd33f85519db910eee42",
+        "46e52241dba8fe3bfbb0a9308442e6dd84d8892602baacace0ed2689b30aca85"
+      ],
       "text": "Careful, Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

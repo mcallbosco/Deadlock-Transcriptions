@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_with_yamato.mp3",
   "revisions": [
     {
-      "sha256": "dada141c6acc258111bc094433dd02b5eeabd486abdeaf18999a8d8d4d52726a",
-      "text": "I'm with you, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8eb100cd63751c013674f341ecfe9b840f23b760aca84ada94b193fe37822555",
+      "sha256": [
+        "8eb100cd63751c013674f341ecfe9b840f23b760aca84ada94b193fe37822555",
+        "dada141c6acc258111bc094433dd02b5eeabd486abdeaf18999a8d8d4d52726a"
+      ],
       "text": "I'm with you, Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_synth_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "d3d24bfe2329c22e2f6a3aebc5934d2eb69b7b2265d2d44f1f1d80fde0014e11",
-      "text": "Pocket's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "3754f39d5c39383568ce6468c22114fe16fe160a596f13bc5a59e9c062f35196",
+        "d3d24bfe2329c22e2f6a3aebc5934d2eb69b7b2265d2d44f1f1d80fde0014e11"
+      ],
+      "text": "Pocket's on top of mid!",
+      "source": "official"
     },
     {
-      "sha256": "44b7146a384efc1281a2c834d2dec66a6b93e5ac2ba730c05115ea79ee173a9b",
+      "sha256": [
+        "44b7146a384efc1281a2c834d2dec66a6b93e5ac2ba730c05115ea79ee173a9b"
+      ],
       "text": "Togit's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3754f39d5c39383568ce6468c22114fe16fe160a596f13bc5a59e9c062f35196",
-      "text": "Pocket's on top of mid!",
-      "source": "official"
     }
   ]
 }

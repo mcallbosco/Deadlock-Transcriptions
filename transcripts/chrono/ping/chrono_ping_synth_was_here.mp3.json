@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "2fa0283c21d0b05f3051708f3b9ceebef00cc9910f17a3d69f676e0a4aab9eb6",
+      "sha256": [
+        "2fa0283c21d0b05f3051708f3b9ceebef00cc9910f17a3d69f676e0a4aab9eb6"
+      ],
       "text": "Clockit was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ca089411e6beb1c5b0a29eb210f41890116a2f0ce780610b299bc97f2db51267",
+      "sha256": [
+        "ca089411e6beb1c5b0a29eb210f41890116a2f0ce780610b299bc97f2db51267"
+      ],
       "text": "Pocket was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

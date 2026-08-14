@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_happy_10.mp3",
   "revisions": [
     {
-      "sha256": "93ce94c12fd2aaf5d3a1a26f2b2d3502f6decfd88363625e39cf34c4287299f3",
-      "text": "We're untouchable!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f7a8febae80ab8dd3cf9b3e64d5cc0711b06e5e3014a786b550d3e6c064204b2",
-      "text": "We're untouchable!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "833931bc4ff412c4c629bb8be49c8c452d34f00008b28002e045e2051847d948",
+      "sha256": [
+        "833931bc4ff412c4c629bb8be49c8c452d34f00008b28002e045e2051847d948",
+        "93ce94c12fd2aaf5d3a1a26f2b2d3502f6decfd88363625e39cf34c4287299f3",
+        "f7a8febae80ab8dd3cf9b3e64d5cc0711b06e5e3014a786b550d3e6c064204b2"
+      ],
       "text": "We're untouchable!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

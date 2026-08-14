@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_stun_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "608d6cd43ae996424406c09100f2ec9d93d7e45be7aa3d7b4d2f1428ed5d4474",
+      "sha256": [
+        "608d6cd43ae996424406c09100f2ec9d93d7e45be7aa3d7b4d2f1428ed5d4474"
+      ],
       "text": "Stonewarden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c5e989e6fedc9fc8184c5d89f1d7267b2100479fe609f9f6e25ae539d22ea94a",
+      "sha256": [
+        "c5e989e6fedc9fc8184c5d89f1d7267b2100479fe609f9f6e25ae539d22ea94a"
+      ],
       "text": "Stun Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

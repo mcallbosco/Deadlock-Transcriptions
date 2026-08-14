@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_viscous_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "3cf4b2a0c6f59a02ce9e2dee9d2f98ed66c5e9e25cbbcdefd224d246f8d42f4a",
+      "sha256": [
+        "3cf4b2a0c6f59a02ce9e2dee9d2f98ed66c5e9e25cbbcdefd224d246f8d42f4a"
+      ],
       "text": "The rescue is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "93c9ada576f306b082b3906a200185787898cd497cf82f980c5bfca2d984cf1c",
+      "sha256": [
+        "93c9ada576f306b082b3906a200185787898cd497cf82f980c5bfca2d984cf1c"
+      ],
       "text": "Viscous's on the bridge!",
       "source": "official"
     }

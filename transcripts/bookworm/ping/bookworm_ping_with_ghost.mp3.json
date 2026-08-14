@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_ghost.mp3",
   "revisions": [
     {
-      "sha256": "b7bb1cab6e1505c3605ad3e9a0af8a4f2f67bff493cbb555557d15849f1428b8",
+      "sha256": [
+        "b7bb1cab6e1505c3605ad3e9a0af8a4f2f67bff493cbb555557d15849f1428b8",
+        "c54c77de7e25a629d1760b427372426a89685502795f401a6412f76d88e7474b"
+      ],
       "text": "I'm with you, Geist!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c54c77de7e25a629d1760b427372426a89685502795f401a6412f76d88e7474b",
-      "text": "I'm with you, Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

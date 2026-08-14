@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_affermative_02.mp3",
   "revisions": [
     {
-      "sha256": "2cd509102bd5b24e67656f218f4931c4b2901df2bc4011c40e708feddb540a69",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dfc21e27729731d4c5799d7ab43994142abfb35a6e906523eb30f4647265302c",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e8eb885835cc70ec0cbce5fdc28f6acef65cf88c3e86a12c01d6b963875809a",
-      "text": "I like it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "886e1809865f24e4415c0f7dc4a3cc33b13dc4befd04ef15ba0ad4d24377f11a",
+      "sha256": [
+        "2cd509102bd5b24e67656f218f4931c4b2901df2bc4011c40e708feddb540a69",
+        "5e8eb885835cc70ec0cbce5fdc28f6acef65cf88c3e86a12c01d6b963875809a",
+        "886e1809865f24e4415c0f7dc4a3cc33b13dc4befd04ef15ba0ad4d24377f11a",
+        "dfc21e27729731d4c5799d7ab43994142abfb35a6e906523eb30f4647265302c"
+      ],
       "text": "I like it",
       "source": "official"
     }

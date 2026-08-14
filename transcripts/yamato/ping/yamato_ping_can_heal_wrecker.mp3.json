@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_can_heal_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "8ed7a53b6253d813ab29d137b3d801d9e68986069a5fe2825c6ba1d38e6c000c",
+      "sha256": [
+        "8ed7a53b6253d813ab29d137b3d801d9e68986069a5fe2825c6ba1d38e6c000c"
+      ],
       "text": "Brecca, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a1669460fc4b7da9aa4105d2eed6f6866a023f961d8d74a65f5f2c01402d860",
+      "sha256": [
+        "0a1669460fc4b7da9aa4105d2eed6f6866a023f961d8d74a65f5f2c01402d860"
+      ],
       "text": "Mecha, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "931ec22b322b4991b637092fd0fe15249bff9380ef65cb18ce9e4dea53a961bd",
+      "sha256": [
+        "931ec22b322b4991b637092fd0fe15249bff9380ef65cb18ce9e4dea53a961bd"
+      ],
       "text": "Wrecker, I can heal you!",
       "source": "official"
     }

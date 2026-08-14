@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "bc5ddb52c0d595a812702c1236ebe96747e0a1dc1babea5c522b0e49ecd6c540",
-      "text": "I see Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "bc5ddb52c0d595a812702c1236ebe96747e0a1dc1babea5c522b0e49ecd6c540",
+        "d1135aa15b84290875dfd0bf2330ff705cbed8d5914c1e4e7bdf2363d7f443c2"
+      ],
+      "text": "I see Mirage",
+      "source": "official"
     },
     {
-      "sha256": "c02f38a838efdddcb1454f90306e35b70c0bd87e71404556c92a04e4e8e8ae04",
+      "sha256": [
+        "c02f38a838efdddcb1454f90306e35b70c0bd87e71404556c92a04e4e8e8ae04"
+      ],
       "text": "I see what.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bd19255f9f57132c219609f60eeaa7c49f3a68c9d342ad265aada7f5f9741caf",
+      "sha256": [
+        "bd19255f9f57132c219609f60eeaa7c49f3a68c9d342ad265aada7f5f9741caf"
+      ],
       "text": "I see much.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1135aa15b84290875dfd0bf2330ff705cbed8d5914c1e4e7bdf2363d7f443c2",
-      "text": "I see Mirage",
-      "source": "official"
     }
   ]
 }

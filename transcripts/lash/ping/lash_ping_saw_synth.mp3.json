@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_saw_synth.mp3",
   "revisions": [
     {
-      "sha256": "a68800c6c2e03e93660c06a2ee033c05a023e70194e87dd0d0fdbd3a652e5883",
+      "sha256": [
+        "a68800c6c2e03e93660c06a2ee033c05a023e70194e87dd0d0fdbd3a652e5883"
+      ],
       "text": "I saw parking.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "faf863b483bf9da89697dee31b1679d5a88e4bc8c01a808ad865cd727d0e4579",
+      "sha256": [
+        "faf863b483bf9da89697dee31b1679d5a88e4bc8c01a808ad865cd727d0e4579"
+      ],
       "text": "Stop talking.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

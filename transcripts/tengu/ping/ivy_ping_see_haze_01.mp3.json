@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_see_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "5e7d30bd0d9eafe721091e054a1e498b7d0ed2695c0eb9db8e93f506e1369bfd",
+      "sha256": [
+        "5e7d30bd0d9eafe721091e054a1e498b7d0ed2695c0eb9db8e93f506e1369bfd"
+      ],
       "text": "I see heads!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0794d38e55fde6a6fa08bea4ac54efb32d338b46d020bf25be05f3dffc2b8698",
+      "sha256": [
+        "0794d38e55fde6a6fa08bea4ac54efb32d338b46d020bf25be05f3dffc2b8698"
+      ],
       "text": "Let's see this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a15bc6c74c8fe5ef88a8fd794903f923a396d9e13548637f22e78f1b252200a9",
+      "sha256": [
+        "a15bc6c74c8fe5ef88a8fd794903f923a396d9e13548637f22e78f1b252200a9"
+      ],
       "text": "I see ends.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_forge_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ffb6f4272b7dbfe2363f606a7e434aa8093a4801aeb9d1c37b472fa421f11084",
+      "sha256": [
+        "ffb6f4272b7dbfe2363f606a7e434aa8093a4801aeb9d1c37b472fa421f11084"
+      ],
       "text": "Take it as sheer.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

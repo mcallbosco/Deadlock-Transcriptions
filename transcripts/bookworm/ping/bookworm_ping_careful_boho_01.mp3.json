@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_boho_01.mp3",
   "revisions": [
     {
-      "sha256": "c49bb49afd40751a9656b983c49db8b1711caf1f446590538ff6892422317b95",
+      "sha256": [
+        "91ec586f9ce0aa979d2e15b8b87d020fe456da347559e09f5ccccbaa3e59ebab",
+        "c49bb49afd40751a9656b983c49db8b1711caf1f446590538ff6892422317b95"
+      ],
       "text": "Careful, Witch.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91ec586f9ce0aa979d2e15b8b87d020fe456da347559e09f5ccccbaa3e59ebab",
-      "text": "Careful, witch.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

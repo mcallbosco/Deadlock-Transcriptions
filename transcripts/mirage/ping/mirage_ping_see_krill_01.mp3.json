@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_krill_01.mp3",
   "revisions": [
     {
-      "sha256": "2ea299c4c03ccd15a4deae9acf35ace978c115a2ed08351e3871b2fc21261847",
+      "sha256": [
+        "2ea299c4c03ccd15a4deae9acf35ace978c115a2ed08351e3871b2fc21261847"
+      ],
       "text": "I see friend.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "622399a09f18da1c59e243f5bc62319856761d19539c97f50b0852966c814fea",
+      "sha256": [
+        "52571546f2b720c04fd94b197b93afa29ed8b42e96619b087af3cb3de0a646b1",
+        "622399a09f18da1c59e243f5bc62319856761d19539c97f50b0852966c814fea"
+      ],
       "text": "Каксиклер.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "52571546f2b720c04fd94b197b93afa29ed8b42e96619b087af3cb3de0a646b1",
-      "text": "Каксиклер!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0bccc33e2d51ffdc5e281d2007437faf0c504d67b367236c4b7ab71d83f0a262",
+      "sha256": [
+        "0bccc33e2d51ffdc5e281d2007437faf0c504d67b367236c4b7ab71d83f0a262"
+      ],
       "text": "I see Krill",
       "source": "official"
     }

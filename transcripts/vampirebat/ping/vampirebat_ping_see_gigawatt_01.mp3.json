@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "3c9e7122ce023935df5ca11d8302240ad168d509c8fb402d26f88ba8bc7abc1d",
-      "text": "I see seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c21239768afba389bacf90f31d6e78fc44e259fa37eb74941d62b887c3a2579",
+      "sha256": [
+        "3c9e7122ce023935df5ca11d8302240ad168d509c8fb402d26f88ba8bc7abc1d",
+        "6c21239768afba389bacf90f31d6e78fc44e259fa37eb74941d62b887c3a2579"
+      ],
       "text": "I see Seven.",
       "source": "official"
     }

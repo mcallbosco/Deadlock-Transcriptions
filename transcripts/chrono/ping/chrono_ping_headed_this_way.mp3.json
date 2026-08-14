@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_headed_this_way.mp3",
   "revisions": [
     {
-      "sha256": "4f50fffc2b59fd1566d4b48303efd34078bda30288453b5929690c149805b946",
-      "text": "Headed this way!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0de4cae01ab0a1319d447951df802ae35385e526decc45b31f95681ec3360c9a",
+      "sha256": [
+        "0de4cae01ab0a1319d447951df802ae35385e526decc45b31f95681ec3360c9a",
+        "4f50fffc2b59fd1566d4b48303efd34078bda30288453b5929690c149805b946"
+      ],
       "text": "Headed this way",
       "source": "official"
     }

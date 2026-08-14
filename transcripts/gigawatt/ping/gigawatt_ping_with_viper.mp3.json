@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_with_viper.mp3",
   "revisions": [
     {
-      "sha256": "df258e66449865127ebc5e782a0b403c5cfda21fd960669fd625517e734ad764",
+      "sha256": [
+        "df258e66449865127ebc5e782a0b403c5cfda21fd960669fd625517e734ad764"
+      ],
       "text": "I will show Viper!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_praise_krill.mp3",
   "revisions": [
     {
-      "sha256": "c7294e89c03de120ae83b3487dbe71efc39a48a3925e5dc0f59a22f34cd07cf9",
+      "sha256": [
+        "c7294e89c03de120ae83b3487dbe71efc39a48a3925e5dc0f59a22f34cd07cf9"
+      ],
       "text": "Well done, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d3e34824e8d7c2fd785868fd1123db458b2460fa7e7cebda09eba7df5f5f93ce",
-      "text": "Exquisite, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1774335379b68688b4de93871dfe6f88861357567c79b054e73ae1946aaa556e",
-      "text": "Exquisite Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "72c4a9aeaa5010a9ffe271e2f0ef3803cdeb5bc6ec7c418fadbe3cd7ba8700b7",
+      "sha256": [
+        "1774335379b68688b4de93871dfe6f88861357567c79b054e73ae1946aaa556e",
+        "72c4a9aeaa5010a9ffe271e2f0ef3803cdeb5bc6ec7c418fadbe3cd7ba8700b7",
+        "d3e34824e8d7c2fd785868fd1123db458b2460fa7e7cebda09eba7df5f5f93ce"
+      ],
       "text": "Exquisite Krill",
       "source": "official"
     }

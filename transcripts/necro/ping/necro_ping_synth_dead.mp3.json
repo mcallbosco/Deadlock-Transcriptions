@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "necro/ping/necro_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "044bef4edf6dee0294cb0c6464782ecf3ef9bf7774a506c8389a60063bd9e181",
+      "sha256": [
+        "044bef4edf6dee0294cb0c6464782ecf3ef9bf7774a506c8389a60063bd9e181"
+      ],
       "text": "Target is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

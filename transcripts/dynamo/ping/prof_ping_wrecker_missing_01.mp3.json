@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "d13f5347c5569feee1da1bf48348ee859b7b4072fb3eb95718c6df5a9f5f0854",
+      "sha256": [
+        "d13f5347c5569feee1da1bf48348ee859b7b4072fb3eb95718c6df5a9f5f0854"
+      ],
       "text": "Where is missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7d5ee06c51316fe4667ab46af80b9dd6d68684189cfcaf96c806037260c1111d",
+      "sha256": [
+        "7d5ee06c51316fe4667ab46af80b9dd6d68684189cfcaf96c806037260c1111d"
+      ],
       "text": "Where is Mason?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "book/oathkeeper/vn_geist_scene05i_03.mp3",
   "revisions": [
     {
-      "sha256": "073e03001122bf1f2002c61f4655ff5401d3b71a7e3d8606d9534a2f3ff0bc7c",
+      "sha256": [
+        "073e03001122bf1f2002c61f4655ff5401d3b71a7e3d8606d9534a2f3ff0bc7c"
+      ],
       "text": "Very well.",
       "source": "generated",
       "model": "whisper-1"
     },
     {
-      "sha256": "50b1f1ab3635e33ab4e7bcdb05eb78d3dd9ef6c2ef9b9b591dd9a44670657c51",
+      "sha256": [
+        "50b1f1ab3635e33ab4e7bcdb05eb78d3dd9ef6c2ef9b9b591dd9a44670657c51"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

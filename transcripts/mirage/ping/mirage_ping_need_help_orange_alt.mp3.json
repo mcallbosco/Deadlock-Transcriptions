@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_need_help_orange_alt.mp3",
   "revisions": [
     {
-      "sha256": "84c8ca9bba1d1e38fb3976b3e9af88cd9f3ecc6b1c83a8f51489cc3636fa7319",
-      "text": "Ich help an Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f8ee4fe6766262ed9ba7527c3e9bce35912d0f17510990213bdf6bfbe4e559b",
+      "sha256": [
+        "7f8ee4fe6766262ed9ba7527c3e9bce35912d0f17510990213bdf6bfbe4e559b",
+        "84c8ca9bba1d1e38fb3976b3e9af88cd9f3ecc6b1c83a8f51489cc3636fa7319"
+      ],
       "text": "Ich help an Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

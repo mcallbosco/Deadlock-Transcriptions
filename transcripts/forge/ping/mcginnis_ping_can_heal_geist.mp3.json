@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_can_heal_geist.mp3",
   "revisions": [
     {
-      "sha256": "4f41f6893de485674485570ef0a70429f5b4530fa716f3dd79ece79a8df26bd7",
+      "sha256": [
+        "4f41f6893de485674485570ef0a70429f5b4530fa716f3dd79ece79a8df26bd7",
+        "5a2d177b0a69d8706ce2e03f9f68ba166ef9e7fa331540431735f3dd07b9c55e"
+      ],
       "text": "Guys, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5a2d177b0a69d8706ce2e03f9f68ba166ef9e7fa331540431735f3dd07b9c55e",
-      "text": "Guys, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

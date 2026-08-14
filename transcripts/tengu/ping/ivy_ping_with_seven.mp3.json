@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_with_seven.mp3",
   "revisions": [
     {
-      "sha256": "4db7c63eb5ce42905d879f2e4685036c51309c354e95d31740acf93ba49826dd",
+      "sha256": [
+        "4db7c63eb5ce42905d879f2e4685036c51309c354e95d31740acf93ba49826dd"
+      ],
       "text": "I'm gonna just set it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

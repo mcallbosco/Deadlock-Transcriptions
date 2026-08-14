@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_attack_fairfax.mp3",
   "revisions": [
     {
-      "sha256": "7f1b7600824e4e90ec0a648b3bd859feea41d6937215dfb2f098894329bc5c44",
+      "sha256": [
+        "7f1b7600824e4e90ec0a648b3bd859feea41d6937215dfb2f098894329bc5c44",
+        "ad791cf02bbd77669090429ea917463e1939b4f5f1cef5418e0e37e99236aec0"
+      ],
       "text": "Let's take out Fairfax!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad791cf02bbd77669090429ea917463e1939b4f5f1cef5418e0e37e99236aec0",
-      "text": "Let's take out Fairfax.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

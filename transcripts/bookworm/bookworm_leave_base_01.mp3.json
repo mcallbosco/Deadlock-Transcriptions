@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_leave_base_01.mp3",
   "revisions": [
     {
-      "sha256": "113cf7a70b2d0f30cf944698c6adda3f7abca0c9bff2cb8ee036048863a2a4d4",
+      "sha256": [
+        "113cf7a70b2d0f30cf944698c6adda3f7abca0c9bff2cb8ee036048863a2a4d4"
+      ],
       "text": "I gotta get back out there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

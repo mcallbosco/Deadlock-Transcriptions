@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "822db969e1f0205ddd14eeaa17c9539ed5782aac96da33ab8e6b32543f491919",
-      "text": "I see Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef4dab8b2e94012eb15d31d3ff9f1edab9a9a8912f280704aef0ef8bdcf1a925",
+      "sha256": [
+        "822db969e1f0205ddd14eeaa17c9539ed5782aac96da33ab8e6b32543f491919",
+        "ef4dab8b2e94012eb15d31d3ff9f1edab9a9a8912f280704aef0ef8bdcf1a925"
+      ],
       "text": "I see Yamato.",
       "source": "official"
     }

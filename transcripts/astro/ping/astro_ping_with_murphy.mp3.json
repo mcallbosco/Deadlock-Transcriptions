@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "74a1cbf3a650b55c5b03d34e90d54b34cb5f9df4e32bb00212628f2c7cd9350c",
+      "sha256": [
+        "74a1cbf3a650b55c5b03d34e90d54b34cb5f9df4e32bb00212628f2c7cd9350c"
+      ],
       "text": "I'm with you, Murphy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

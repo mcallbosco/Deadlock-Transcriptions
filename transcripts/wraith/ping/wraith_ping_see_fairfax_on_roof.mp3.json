@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_see_fairfax_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "d38350c3f8063eb17240a116587d6417ee38c75ff4a8cf5e164fab4b648220e5",
+      "sha256": [
+        "d38350c3f8063eb17240a116587d6417ee38c75ff4a8cf5e164fab4b648220e5"
+      ],
       "text": "Verify access is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b170b8c2d39419b937bd38ed5339bd845ccc4d128587930d111eb255e8abfe6e",
-      "text": "There are faxes on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3060c08425fd255684d0a15466bd3cc138c953408e531cfc58fc1d29686fbcfe",
+      "sha256": [
+        "3060c08425fd255684d0a15466bd3cc138c953408e531cfc58fc1d29686fbcfe",
+        "b170b8c2d39419b937bd38ed5339bd845ccc4d128587930d111eb255e8abfe6e"
+      ],
       "text": "There are faxes on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

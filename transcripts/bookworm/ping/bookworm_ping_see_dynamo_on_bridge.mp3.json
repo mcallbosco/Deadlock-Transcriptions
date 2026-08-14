@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_dynamo_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "c917e501e4c076cf25c3d25de2bb0fa189387d8e316af2193c3a4e1f58bb840a",
-      "text": "Dynamo's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4099ab044b258008e3208887fc2700eed1817148dbdbc033a41896eec191ed05",
+      "sha256": [
+        "4099ab044b258008e3208887fc2700eed1817148dbdbc033a41896eec191ed05",
+        "c917e501e4c076cf25c3d25de2bb0fa189387d8e316af2193c3a4e1f58bb840a"
+      ],
       "text": "Dynamo's on the bridge!",
       "source": "official"
     }

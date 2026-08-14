@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "7cf788469c77cd5910e486c685c9c0d7d5b7b70a623a40746c764c677090a637",
-      "text": "Nice work!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a7cfe211e7c832cd7a063993423a66566c0cd8174b81be37900ac5d5dbdd3988",
-      "text": "Nice work!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ae6add2bbfaa2f05d52cdeb6d065c14d100a5d48b2fe8aa467cc725311077af",
+      "sha256": [
+        "4ae6add2bbfaa2f05d52cdeb6d065c14d100a5d48b2fe8aa467cc725311077af",
+        "7cf788469c77cd5910e486c685c9c0d7d5b7b70a623a40746c764c677090a637",
+        "a7cfe211e7c832cd7a063993423a66566c0cd8174b81be37900ac5d5dbdd3988"
+      ],
       "text": "Nice work!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_atlas_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "78829bffe79790af4f844f629727f08587ab2d0aed4ebb49ef332a7f2a1998f3",
-      "text": "Abrams, under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d837bbffb0ece7ff53757da5cfa19d1ea1204d09aeaf8e8f0d469a934e1b82f3",
+      "sha256": [
+        "78829bffe79790af4f844f629727f08587ab2d0aed4ebb49ef332a7f2a1998f3",
+        "b2518ba875ea253cc831a7eb4045c92a256775a6ec84f86da40d5dcdae6dd2f1",
+        "d837bbffb0ece7ff53757da5cfa19d1ea1204d09aeaf8e8f0d469a934e1b82f3"
+      ],
       "text": "Abram's under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b2518ba875ea253cc831a7eb4045c92a256775a6ec84f86da40d5dcdae6dd2f1",
-      "text": "Abram's under the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed4147c0d732907ecfe32e5b49e3021adf8ba588f2486517898267ad8f0d7aa5",
+      "sha256": [
+        "ed4147c0d732907ecfe32e5b49e3021adf8ba588f2486517898267ad8f0d7aa5"
+      ],
       "text": "Abrams's under the garage!",
       "source": "official"
     }

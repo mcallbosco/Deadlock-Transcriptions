@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_tengu.mp3",
   "revisions": [
     {
-      "sha256": "3adfcdce3bebe91f4c5186741a57a854228af214196b4d1c28b5d72a337a9c8c",
+      "sha256": [
+        "3adfcdce3bebe91f4c5186741a57a854228af214196b4d1c28b5d72a337a9c8c"
+      ],
       "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

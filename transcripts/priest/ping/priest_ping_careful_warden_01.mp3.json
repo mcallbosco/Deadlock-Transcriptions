@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_careful_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "17c9c83bfa12a554e1c33f73e4c448af588485e339b1f723b570a68615866d91",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16f005af139a74e1768f1a3faeb4635ad45076e9308922e856e47e5b6c49b71b",
+      "sha256": [
+        "16f005af139a74e1768f1a3faeb4635ad45076e9308922e856e47e5b6c49b71b",
+        "17c9c83bfa12a554e1c33f73e4c448af588485e339b1f723b570a68615866d91"
+      ],
       "text": "Careful, Warden…",
       "source": "official"
     }

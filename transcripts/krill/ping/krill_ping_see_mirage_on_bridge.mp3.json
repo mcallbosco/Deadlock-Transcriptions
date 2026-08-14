@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_mirage_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "bc64f738c4c92d83376e419085954f060f179ea2eafb2c5e153ec40fc0ec305c",
+      "sha256": [
+        "0b97a4def613249c5bde5517295fede32ec1ea8c144905dace70960078fda9c7",
+        "bc64f738c4c92d83376e419085954f060f179ea2eafb2c5e153ec40fc0ec305c"
+      ],
       "text": "Mirage is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0b97a4def613249c5bde5517295fede32ec1ea8c144905dace70960078fda9c7",
-      "text": "Mirage is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "558436e4ec001ebfcf9380b013a10fdcbfcc446a4383f08735a922d7669767d9",
+      "sha256": [
+        "558436e4ec001ebfcf9380b013a10fdcbfcc446a4383f08735a922d7669767d9"
+      ],
       "text": "Mirage's on the bridge!",
       "source": "official"
     }

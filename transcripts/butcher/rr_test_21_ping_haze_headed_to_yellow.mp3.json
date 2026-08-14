@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_haze_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "7291ad118743f34ce0f1ad46804a124845bb7accff34bd57cde5dacaf03786ea",
+      "sha256": [
+        "7291ad118743f34ce0f1ad46804a124845bb7accff34bd57cde5dacaf03786ea"
+      ],
       "text": "This head is yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1da791e9cc3a9e303311c93a676166e5d2b7826d4164367e454732c44535fd5b",
-      "text": "His head is yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f41c7a9b71f15e1d3388ad49740c6656298e37f43250c2e5e25c41d5fcbaab7b",
+      "sha256": [
+        "1da791e9cc3a9e303311c93a676166e5d2b7826d4164367e454732c44535fd5b",
+        "f41c7a9b71f15e1d3388ad49740c6656298e37f43250c2e5e25c41d5fcbaab7b"
+      ],
       "text": "His head is yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

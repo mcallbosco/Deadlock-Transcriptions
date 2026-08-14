@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "c86775dae66532e2169d1e726a4ffa8b02ee4f474102c00cdad04c26baa9e8d4",
-      "text": "I'm going in.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b99b8d59cf536c4b1680887e19e9f31323a28ec15663da8decc8ae2ab47bc419",
+      "sha256": [
+        "b99b8d59cf536c4b1680887e19e9f31323a28ec15663da8decc8ae2ab47bc419",
+        "c86775dae66532e2169d1e726a4ffa8b02ee4f474102c00cdad04c26baa9e8d4"
+      ],
       "text": "I'm going in.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

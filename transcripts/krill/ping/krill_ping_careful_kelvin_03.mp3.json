@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_kelvin_03.mp3",
   "revisions": [
     {
-      "sha256": "8d68adf3850b97d82b06bb184a96132170c7deab217c0ff262f612d51c850683",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac00e10e50d0d75914a137c416dc414719d402c8c8fa0334ef71f3373b737276",
-      "text": "Careful, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a0ee77cbc64c38fe17c6f607a4145a5237168a6539693257daaec564fc7f0d2",
+      "sha256": [
+        "3a0ee77cbc64c38fe17c6f607a4145a5237168a6539693257daaec564fc7f0d2",
+        "8d68adf3850b97d82b06bb184a96132170c7deab217c0ff262f612d51c850683",
+        "ac00e10e50d0d75914a137c416dc414719d402c8c8fa0334ef71f3373b737276"
+      ],
       "text": "Careful, Kelvin!",
       "source": "official"
     }

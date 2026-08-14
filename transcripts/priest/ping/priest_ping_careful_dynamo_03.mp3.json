@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_careful_dynamo_03.mp3",
   "revisions": [
     {
-      "sha256": "efdd4cb1df7e46589052b1a7e20365516e0d75085974ac996a094a746d3fee8e",
-      "text": "Careful, Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6d8b6da8bd144da449d9e5d9ed041ad3ba459d7ec4413f966679cf6b7c82a652",
+      "sha256": [
+        "6d8b6da8bd144da449d9e5d9ed041ad3ba459d7ec4413f966679cf6b7c82a652",
+        "efdd4cb1df7e46589052b1a7e20365516e0d75085974ac996a094a746d3fee8e"
+      ],
       "text": "Careful, Dynamo!",
       "source": "official"
     }

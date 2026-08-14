@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_jar_call_01.mp3",
   "revisions": [
     {
-      "sha256": "e2a93c30ea5e09a89a18ab1a2ea6015e7393a8a16d6e66874b00fe022072281b",
-      "text": "Spirit jar is here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9290988876b8d61aac29c21090cee47589b1e44fb9ac181ad4f3cf94294c2e74",
+      "sha256": [
+        "9290988876b8d61aac29c21090cee47589b1e44fb9ac181ad4f3cf94294c2e74",
+        "e2a93c30ea5e09a89a18ab1a2ea6015e7393a8a16d6e66874b00fe022072281b"
+      ],
       "text": "Spirit Jar is here!",
       "source": "official"
     }

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "cad0c8d9c12dcbef824dfa3cab4b38386296efd9f1d7cbe8f77661aece5bee7d",
-      "text": "Headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "2b9a4037c6b2b44b88d93ee518629cd7792ed01f9cc81478e0782c6f2034bcd0",
+        "6eafc3c939135fe0bebcf9f03a54f6b2340d6a11176a98a99f0b7233c35c0ee3",
+        "cad0c8d9c12dcbef824dfa3cab4b38386296efd9f1d7cbe8f77661aece5bee7d"
+      ],
+      "text": "Headed to Yellow",
+      "source": "official"
     },
     {
-      "sha256": "9548e48717ddbd5c5f88c5e7e93e305ea05eda90b80a910b215672e217ec27c1",
+      "sha256": [
+        "9548e48717ddbd5c5f88c5e7e93e305ea05eda90b80a910b215672e217ec27c1"
+      ],
       "text": "Heading to yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6eafc3c939135fe0bebcf9f03a54f6b2340d6a11176a98a99f0b7233c35c0ee3",
-      "text": "Headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b9a4037c6b2b44b88d93ee518629cd7792ed01f9cc81478e0782c6f2034bcd0",
-      "text": "Headed to Yellow",
-      "source": "official"
     }
   ]
 }

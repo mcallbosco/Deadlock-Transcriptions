@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_calico_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6e8d2b783468b1976d7c1006ad3f4ec8f934824380af960b8b95fb5f3a2b4d24",
+      "sha256": [
+        "6e8d2b783468b1976d7c1006ad3f4ec8f934824380af960b8b95fb5f3a2b4d24"
+      ],
       "text": "Deadlock is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "74abec791e338704c6e4f03c84d7ede6059907f91508b129208a8a062e839755",
+      "sha256": [
+        "74abec791e338704c6e4f03c84d7ede6059907f91508b129208a8a062e839755"
+      ],
       "text": "Malako is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

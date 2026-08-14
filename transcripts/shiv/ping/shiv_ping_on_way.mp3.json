@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_on_way.mp3",
   "revisions": [
     {
-      "sha256": "54fcb1105a385fe14c5015ae2c7288f3b886183f7525ffd224fd18f51c9e46de",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30f761b69f3bb19ed388cbd53c7dcf4b927a99a8bf910232dfb3179331a7725d",
-      "text": "On my way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5976c36b7fdf880befba845b164fdd1a8c5da9f578ee6b3d87b549397d36ec81",
+      "sha256": [
+        "30f761b69f3bb19ed388cbd53c7dcf4b927a99a8bf910232dfb3179331a7725d",
+        "54fcb1105a385fe14c5015ae2c7288f3b886183f7525ffd224fd18f51c9e46de",
+        "5976c36b7fdf880befba845b164fdd1a8c5da9f578ee6b3d87b549397d36ec81"
+      ],
       "text": "On my way",
       "source": "official"
     }

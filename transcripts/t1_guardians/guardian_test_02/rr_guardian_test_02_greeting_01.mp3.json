@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_greeting_01.mp3",
   "revisions": [
     {
-      "sha256": "41d5efb82a1b6b22d70c746dca1bdcd4156b303fe7ad460fd4e7880a2ab00ac4",
-      "text": "Welcome to the Orange Lane.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "134696612a85a317eaba6b79d8d61b6dee4b266e46cc57a155a2cb5891b52ca6",
-      "text": "Welcome to the orange lane.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe883c9d0aa6c28f51f8871dfedb4a8e0d525598f56f7480bdda8e31dea23821",
+      "sha256": [
+        "134696612a85a317eaba6b79d8d61b6dee4b266e46cc57a155a2cb5891b52ca6",
+        "41d5efb82a1b6b22d70c746dca1bdcd4156b303fe7ad460fd4e7880a2ab00ac4",
+        "fe883c9d0aa6c28f51f8871dfedb4a8e0d525598f56f7480bdda8e31dea23821"
+      ],
       "text": "Welcome to the Orange Lane.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

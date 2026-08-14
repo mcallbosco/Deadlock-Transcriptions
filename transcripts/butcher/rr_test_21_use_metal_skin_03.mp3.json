@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_metal_skin_03.mp3",
   "revisions": [
     {
-      "sha256": "77ac327ff685686ef99b234cfe7c4583f26af5b904152335396dd485333eb628",
-      "text": "I'm not afraid of bullets.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e15c809db25e40db63b3cd572e59ce71a71bbbab5307116badb2df844140ebe0",
-      "text": "I'm not afraid of bullets.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9bf76edffeff1ef7ab59ddb28015f8a103fbfee96774a001b7b2b164e2b4f10",
+      "sha256": [
+        "77ac327ff685686ef99b234cfe7c4583f26af5b904152335396dd485333eb628",
+        "d9bf76edffeff1ef7ab59ddb28015f8a103fbfee96774a001b7b2b164e2b4f10",
+        "e15c809db25e40db63b3cd572e59ce71a71bbbab5307116badb2df844140ebe0"
+      ],
       "text": "I'm not afraid of bullets.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

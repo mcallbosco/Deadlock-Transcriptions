@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_inferno_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "ea8d6d4fa78e3e731c52cff4f546fd3d77434d241cb4f09e3a8706014bad2ae5",
+      "sha256": [
+        "ea8d6d4fa78e3e731c52cff4f546fd3d77434d241cb4f09e3a8706014bad2ae5"
+      ],
       "text": "Access is through the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a57b9f8fb8ba0083144472cabb711fd31a488f629abc692034f3547cade7b434",
+      "sha256": [
+        "a57b9f8fb8ba0083144472cabb711fd31a488f629abc692034f3547cade7b434"
+      ],
       "text": "Answer is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e2590ca79df5937cdade33a2aca5e4f3b2a2b50200e450d8bae1343a65427589",
+      "sha256": [
+        "2553756df743c869d165e26295daa05aa1f349d1d2f0f15ecc99425ae8de0bee",
+        "e2590ca79df5937cdade33a2aca5e4f3b2a2b50200e450d8bae1343a65427589"
+      ],
       "text": "Infernus is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2553756df743c869d165e26295daa05aa1f349d1d2f0f15ecc99425ae8de0bee",
-      "text": "Infernus is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d7215b4fa0e93f5b9ef7c069219aa622887ad002bdea2c482f9e1750ed4cd37",
+      "sha256": [
+        "2d7215b4fa0e93f5b9ef7c069219aa622887ad002bdea2c482f9e1750ed4cd37"
+      ],
       "text": "Infernus's under the garage!",
       "source": "official"
     }

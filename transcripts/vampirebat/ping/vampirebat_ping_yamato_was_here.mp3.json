@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "f4e289a02b1f995c3a268c582fdaf5d3ba4bbce10203ad76149d553a0fa24dd5",
+      "sha256": [
+        "4a120756a877500f88a5f9bd8b97e7abe8b058e74e38edff7ac2c9f78c11d35c",
+        "f4e289a02b1f995c3a268c582fdaf5d3ba4bbce10203ad76149d553a0fa24dd5"
+      ],
       "text": "Yamato was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4a120756a877500f88a5f9bd8b97e7abe8b058e74e38edff7ac2c9f78c11d35c",
-      "text": "Yamato was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

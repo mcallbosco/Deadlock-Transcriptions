@@ -1,28 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_saw_forge.mp3",
   "revisions": [
     {
-      "sha256": "92d87e172651b759048c19f66b9d41ea44dc44abdf0aeced3537f3431f00948f",
+      "sha256": [
+        "92d87e172651b759048c19f66b9d41ea44dc44abdf0aeced3537f3431f00948f"
+      ],
       "text": "I some Guinness.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e75b540e9bea1acec3b559fcd476c2779d0f5cb169e8d11849c6cc9c38fe3a7c",
+      "sha256": [
+        "4d8c157d755782321a437b24292fb3fca7e8cbcda314a89abb2a2fb378b24eb1",
+        "e75b540e9bea1acec3b559fcd476c2779d0f5cb169e8d11849c6cc9c38fe3a7c"
+      ],
       "text": "I sum Guinness.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4c4b894b5ca76a45208a3d282f61e5815b4539de0e9d1b2a40ac5d34af383f06",
+      "sha256": [
+        "4c4b894b5ca76a45208a3d282f61e5815b4539de0e9d1b2a40ac5d34af383f06"
+      ],
       "text": "I summoned Guinness.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d8c157d755782321a437b24292fb3fca7e8cbcda314a89abb2a2fb378b24eb1",
-      "text": "I sum Guinness.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "f642e9234d3474caae98b87c1d96fb1566bbd73c1f08de52c077ce5eefbcab21",
-      "text": "I'm with you, Krill.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c20969f14e6a573ba8ff6e182ac5078154d90b224cf2dca6bb3a41e46e0c49f3",
+      "sha256": [
+        "c20969f14e6a573ba8ff6e182ac5078154d90b224cf2dca6bb3a41e46e0c49f3",
+        "f642e9234d3474caae98b87c1d96fb1566bbd73c1f08de52c077ce5eefbcab21"
+      ],
       "text": "I'm with you, Krill.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_slork_was_here.mp3",
   "revisions": [
     {
-      "sha256": "024e6f40c77a2eb99942eae9eac6ffb2382cf97cf0d07154724198e44588e935",
-      "text": "Slork was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38e00d8bc00753be45839d283d21cdff4744d22146934120387f6f1799173471",
+      "sha256": [
+        "024e6f40c77a2eb99942eae9eac6ffb2382cf97cf0d07154724198e44588e935",
+        "38e00d8bc00753be45839d283d21cdff4744d22146934120387f6f1799173471"
+      ],
       "text": "Slork was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

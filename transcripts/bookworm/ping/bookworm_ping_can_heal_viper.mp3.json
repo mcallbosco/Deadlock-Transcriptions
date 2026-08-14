@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_can_heal_viper.mp3",
   "revisions": [
     {
-      "sha256": "9fcbe3870521f1318d1516f322f5776604d8e92878451fc8e4d5222795e8ea9a",
+      "sha256": [
+        "9fcbe3870521f1318d1516f322f5776604d8e92878451fc8e4d5222795e8ea9a"
+      ],
       "text": "Viper, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "46944d84b64bb1bcc8f2c31bba78c9e5bcc3424948a8d0a7caf74ba17cacff22",
+      "sha256": [
+        "46944d84b64bb1bcc8f2c31bba78c9e5bcc3424948a8d0a7caf74ba17cacff22"
+      ],
       "text": "Vyper, I can heal you!",
       "source": "official"
     }

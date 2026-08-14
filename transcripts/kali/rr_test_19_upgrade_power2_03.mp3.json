@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_upgrade_power2_03.mp3",
   "revisions": [
     {
-      "sha256": "2e089f355aee17539a1e7bd1355f0d8eaee916333011302969b60c2d5aed0626",
+      "sha256": [
+        "2e089f355aee17539a1e7bd1355f0d8eaee916333011302969b60c2d5aed0626"
+      ],
       "text": "Hello, how are you?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ae7eccd43ab043f538e0df6fe89adfd779ad2b98169b869142b9c4c7fd6ffb30",
+      "sha256": [
+        "ae7eccd43ab043f538e0df6fe89adfd779ad2b98169b869142b9c4c7fd6ffb30"
+      ],
       "text": "Lover.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5770f5a4bf2a37cdf833e7a8759a9a02c13e66b2aad29785cdb7db20106d2f59",
+      "sha256": [
+        "5770f5a4bf2a37cdf833e7a8759a9a02c13e66b2aad29785cdb7db20106d2f59"
+      ],
       "text": "Hello there.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

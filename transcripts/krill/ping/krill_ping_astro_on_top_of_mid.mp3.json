@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_astro_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "132643eec031dc1454fc6c1f0dc632edc5ed6262b026cbdc0203b5030527711e",
+      "sha256": [
+        "132643eec031dc1454fc6c1f0dc632edc5ed6262b026cbdc0203b5030527711e",
+        "a4f43384c56e18ffaa06e3140cabcc0552d6b4d580ea93d1df051469b5fe542c"
+      ],
       "text": "Holliday's on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "70881418ca888f79186099635bf6f2ec975e9fe0673ceca06e128d031ea07b72",
+      "sha256": [
+        "70881418ca888f79186099635bf6f2ec975e9fe0673ceca06e128d031ea07b72"
+      ],
       "text": "Holiday's on top of mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4f43384c56e18ffaa06e3140cabcc0552d6b4d580ea93d1df051469b5fe542c",
-      "text": "Holliday's on top of mid!",
-      "source": "official"
     }
   ]
 }

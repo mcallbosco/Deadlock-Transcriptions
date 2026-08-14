@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_buy_generic_upgrade_08.mp3",
   "revisions": [
     {
-      "sha256": "167f0943849bf3b0e738a5d904a293559f313ed6a733f7289716bff608346cdc",
-      "text": "Let's see if this makes a difference.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aa04c4eeb7081468eb8d81b2b491c05e7b3ffa938b45c21e778b7d53cab84a36",
-      "text": "Let's see if this makes a difference.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f849700f6b55237e095f228ab9f850eca6748831996844695e0548d186ee265",
+      "sha256": [
+        "167f0943849bf3b0e738a5d904a293559f313ed6a733f7289716bff608346cdc",
+        "2f849700f6b55237e095f228ab9f850eca6748831996844695e0548d186ee265",
+        "aa04c4eeb7081468eb8d81b2b491c05e7b3ffa938b45c21e778b7d53cab84a36"
+      ],
       "text": "Let's see if this makes a difference.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

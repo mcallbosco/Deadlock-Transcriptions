@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_fairfax_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "cec4df2ef63b940d070e96002f975793265b48fe9a0c5d3cb497213861d86234",
-      "text": "Fairfax is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9c13194a2c02ecf00bef4ecbef68a45f15964c593bb09ecaefead4dd93099e3",
-      "text": "Fairfax is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2337ef11a5e4b66925e2b8d85feb410180dfd0e04b18117f75625e74b1b6b3f8",
+      "sha256": [
+        "2337ef11a5e4b66925e2b8d85feb410180dfd0e04b18117f75625e74b1b6b3f8",
+        "cec4df2ef63b940d070e96002f975793265b48fe9a0c5d3cb497213861d86234",
+        "d9c13194a2c02ecf00bef4ecbef68a45f15964c593bb09ecaefead4dd93099e3"
+      ],
       "text": "Fairfax is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

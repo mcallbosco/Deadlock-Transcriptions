@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_krill_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "ef34e8fc607a01a9928735bca152a10808a3b6559c0080cad7addef21dc73121",
-      "text": "Press under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfd1e8a9cedcdb51c8b7123625a36c6b6a6f3c0c5fac5978b70abf3f45d646fc",
+      "sha256": [
+        "bfd1e8a9cedcdb51c8b7123625a36c6b6a6f3c0c5fac5978b70abf3f45d646fc",
+        "ef34e8fc607a01a9928735bca152a10808a3b6559c0080cad7addef21dc73121"
+      ],
       "text": "Press under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

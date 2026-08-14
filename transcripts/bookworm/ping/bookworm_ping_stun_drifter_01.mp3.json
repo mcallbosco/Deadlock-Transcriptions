@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_stun_drifter_01.mp3",
   "revisions": [
     {
-      "sha256": "bb975c18bab21bf2331c4410377cceb9f135aab431ebb8d4c282cfb891e84a39",
+      "sha256": [
+        "bb975c18bab21bf2331c4410377cceb9f135aab431ebb8d4c282cfb891e84a39"
+      ],
       "text": "Sun Drifter.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

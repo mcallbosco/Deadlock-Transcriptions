@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_ap_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "580d2d034085a22512d7498a1d9a713b53e59474c8f5890802a97303a16f4ec0",
-      "text": "Ready to train.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbd09ce9e4c091468fe336e7d16400f2b838706c02292e9a8f330aa5835d3060",
-      "text": "Ready to train.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e47b14dc8f78fa07a9e075c1eea32a9379185256d3138b0354d233db8695ae23",
-      "text": "Ready to train.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a2985918686e5db211a085bf5c15054c2348882ba809bda250639009719e9de8",
+      "sha256": [
+        "580d2d034085a22512d7498a1d9a713b53e59474c8f5890802a97303a16f4ec0",
+        "a2985918686e5db211a085bf5c15054c2348882ba809bda250639009719e9de8",
+        "dbd09ce9e4c091468fe336e7d16400f2b838706c02292e9a8f330aa5835d3060",
+        "e47b14dc8f78fa07a9e075c1eea32a9379185256d3138b0354d233db8695ae23"
+      ],
       "text": "Ready to train.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_unselect_08.mp3",
   "revisions": [
     {
-      "sha256": "eeb255b3797caef5adba9086022484529be84f40a2ac06299785ab72ee2f513b",
+      "sha256": [
+        "eeb255b3797caef5adba9086022484529be84f40a2ac06299785ab72ee2f513b",
+        "fa75ee139bd6299f3b96ee56bc9475c6fb285aeb7b8c70a3775a9e9ba6fc0133"
+      ],
       "text": "To hell with Fairfax Industries, I just want peace.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fa75ee139bd6299f3b96ee56bc9475c6fb285aeb7b8c70a3775a9e9ba6fc0133",
-      "text": "To hell with Fairfax Industries. I just want peace.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

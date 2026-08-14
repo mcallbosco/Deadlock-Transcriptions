@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_ignore_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "6cfed4143d1d4ef3f5877f81ebb553478434d5f8c8e2f0229a4db5e65adcedbf",
+      "sha256": [
+        "277ef35b056cb24f706e513376c65d8206c450bf93213d44389dd37272130ae6",
+        "6cfed4143d1d4ef3f5877f81ebb553478434d5f8c8e2f0229a4db5e65adcedbf",
+        "73b850e073238ad7398ac9f0c4c046b0d813715652457e7a2d52085063697d2d"
+      ],
       "text": "Ignore Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "73b850e073238ad7398ac9f0c4c046b0d813715652457e7a2d52085063697d2d",
-      "text": "Ignore Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "277ef35b056cb24f706e513376c65d8206c450bf93213d44389dd37272130ae6",
-      "text": "Ignore Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

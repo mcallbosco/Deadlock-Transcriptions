@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_upgrade_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "1d3a1499af3670909306d4b03e256e5f5902f3064e10127ef80aaca06cf5f4aa",
-      "text": "I pay this price gladly.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1165342a7917c81087206aebb3c230e2e8636b0ea43d3a1114669ca182aae8bd",
+      "sha256": [
+        "1165342a7917c81087206aebb3c230e2e8636b0ea43d3a1114669ca182aae8bd",
+        "1d3a1499af3670909306d4b03e256e5f5902f3064e10127ef80aaca06cf5f4aa"
+      ],
       "text": "I pay this price gladly.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

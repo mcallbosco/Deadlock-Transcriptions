@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_frank_dead.mp3",
   "revisions": [
     {
-      "sha256": "f9e4b7cf8b5b2ee672a601385055825a7f6737b8059f26ed72cc8ee6eaedc792",
+      "sha256": [
+        "f9e4b7cf8b5b2ee672a601385055825a7f6737b8059f26ed72cc8ee6eaedc792"
+      ],
       "text": "Victor is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

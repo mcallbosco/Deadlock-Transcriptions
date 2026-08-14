@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "159f8ca6151fe1974f6d12238668b4d7d1922421ed4aadf567200b2b49efa008",
+      "sha256": [
+        "159f8ca6151fe1974f6d12238668b4d7d1922421ed4aadf567200b2b49efa008"
+      ],
       "text": "Dynamo is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

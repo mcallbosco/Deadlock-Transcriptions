@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/paradox_upgrade_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "c9c0383aab578b68632caedff9efde50224da56fca1cf745d31df389c1f531b2",
-      "text": "This should do some work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5090a3bb8cda22bd5ec7d25563474ad2030d3309879d3c95a73ab95e819c800b",
+      "sha256": [
+        "5090a3bb8cda22bd5ec7d25563474ad2030d3309879d3c95a73ab95e819c800b",
+        "c9c0383aab578b68632caedff9efde50224da56fca1cf745d31df389c1f531b2"
+      ],
       "text": "This should do some work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

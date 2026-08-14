@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_unselect_10.mp3",
   "revisions": [
     {
-      "sha256": "f60fe6cb5d4c1470a7361e2290da671df495be1d7a4de287ed1b1bb200036c86",
-      "text": "I don't want to fight.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "050f01fdd5028e55274539d3e74149e687999c3acbffc3c24ef915aad6e02220",
+      "sha256": [
+        "050f01fdd5028e55274539d3e74149e687999c3acbffc3c24ef915aad6e02220",
+        "f60fe6cb5d4c1470a7361e2290da671df495be1d7a4de287ed1b1bb200036c86"
+      ],
       "text": "I don't want to fight.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

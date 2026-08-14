@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_use_smoke_03.mp3",
   "revisions": [
     {
-      "sha256": "1568c4f9c85662bbac0ad04cb49f73cfe64655fd0d134d239480d067636d6d95",
+      "sha256": [
+        "1568c4f9c85662bbac0ad04cb49f73cfe64655fd0d134d239480d067636d6d95"
+      ],
       "text": "It was here's coming.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e29dd966e7378d4c100d4904e1590294b2be05165d0d8de0943702e3a3b6a8b5",
+      "sha256": [
+        "e29dd966e7378d4c100d4904e1590294b2be05165d0d8de0943702e3a3b6a8b5"
+      ],
       "text": "He was here's coming.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_sorry_03.mp3",
   "revisions": [
     {
-      "sha256": "ccaf9c5756209b02c8048b11eeea338c262d95d05f05a15e87fd55f37f3fa7fa",
-      "text": "My fault.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "edce8806358ccac3a65a8c4dda7072c5e6eb98949ae15d5a4bb24d2e422e6eb2",
-      "text": "Marvel.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd3d6fce7adbece5e950d6a51953078e25646fc987a4e5967e6ac836598ad890",
-      "text": "Marvel.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f14efc4f28fa457b972eaac326fcd6a5df1632e3ee4c0c962ebe0e117aaf0e43",
+      "sha256": [
+        "ccaf9c5756209b02c8048b11eeea338c262d95d05f05a15e87fd55f37f3fa7fa",
+        "f14efc4f28fa457b972eaac326fcd6a5df1632e3ee4c0c962ebe0e117aaf0e43"
+      ],
       "text": "My fault",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "edce8806358ccac3a65a8c4dda7072c5e6eb98949ae15d5a4bb24d2e422e6eb2",
+        "fd3d6fce7adbece5e950d6a51953078e25646fc987a4e5967e6ac836598ad890"
+      ],
+      "text": "Marvel.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

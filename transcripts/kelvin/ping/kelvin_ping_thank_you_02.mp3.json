@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "8e4078657a1bfd53ac95ab926100840be212e91205c0ed984baa47f3597d32eb",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4bf7bcd5739ec5553fe064c3a9f6b923f6ae15cb917166b8d773305850b2fdf0",
+      "sha256": [
+        "4bf7bcd5739ec5553fe064c3a9f6b923f6ae15cb917166b8d773305850b2fdf0",
+        "8e4078657a1bfd53ac95ab926100840be212e91205c0ed984baa47f3597d32eb"
+      ],
       "text": "Thank you.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_mirage_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "b3d4998c5f38225615185f61fbb27a43a314ad73e4f8f6b8c3562d6f6422d41b",
+      "sha256": [
+        "b3d4998c5f38225615185f61fbb27a43a314ad73e4f8f6b8c3562d6f6422d41b"
+      ],
       "text": "Mirage is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f5aedbea2df99211b9b4dac09462d260e4364ca8eb09f7fd40bfbc66e3cb774e",
+      "sha256": [
+        "f5aedbea2df99211b9b4dac09462d260e4364ca8eb09f7fd40bfbc66e3cb774e"
+      ],
       "text": "Mirage's on the roof!",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_infernus_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "8f1865fe708ee6213e8a208e0d633c2a8dd6ef161b39df9526f3b802d7f08231",
+      "sha256": [
+        "8f1865fe708ee6213e8a208e0d633c2a8dd6ef161b39df9526f3b802d7f08231"
+      ],
       "text": "Infernus is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a57e5b50980ad9c3f114f5376bcb74901494ac32819ce4b1158878b3f6026406",
+      "sha256": [
+        "a57e5b50980ad9c3f114f5376bcb74901494ac32819ce4b1158878b3f6026406"
+      ],
       "text": "In furnace is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

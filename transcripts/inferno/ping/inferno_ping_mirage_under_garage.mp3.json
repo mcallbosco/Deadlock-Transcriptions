@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "d93f33bf95a0215b329aad86674c20a24c4d8b77e14c5a803db569f5efafbd6f",
+      "sha256": [
+        "d93f33bf95a0215b329aad86674c20a24c4d8b77e14c5a803db569f5efafbd6f"
+      ],
       "text": "Crisis under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "808eabf44061548eb42dd0a40cf70ae2afefdb27235e6b7b24cb2e0acc5ea3b6",
+      "sha256": [
+        "808eabf44061548eb42dd0a40cf70ae2afefdb27235e6b7b24cb2e0acc5ea3b6",
+        "b9dfc3c1b95cc293577d775c92ddef080a6aca029e3a9a3a409bab4cf9f08fe6"
+      ],
       "text": "Garage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b9dfc3c1b95cc293577d775c92ddef080a6aca029e3a9a3a409bab4cf9f08fe6",
-      "text": "Garage is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8dda17c6fc754266a16cadabe5e0853a94855fb1a19696606da29e36ce763e22",
+      "sha256": [
+        "8dda17c6fc754266a16cadabe5e0853a94855fb1a19696606da29e36ce763e22"
+      ],
       "text": "Mirage's under the garage!",
       "source": "official"
     }

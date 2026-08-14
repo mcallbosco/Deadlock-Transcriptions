@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_inferno.mp3",
   "revisions": [
     {
-      "sha256": "532c1aa628a308c48f64a6c93f95a0cca9adfbe64a60ca5ae00e8681e62c1e10",
-      "text": "I see Inferno.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4d760d491d0216545b6a405ea05636d93b981cfa5b1a90e68a176f8da4523d21",
+      "sha256": [
+        "4d760d491d0216545b6a405ea05636d93b981cfa5b1a90e68a176f8da4523d21",
+        "532c1aa628a308c48f64a6c93f95a0cca9adfbe64a60ca5ae00e8681e62c1e10"
+      ],
       "text": "I see Inferno.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

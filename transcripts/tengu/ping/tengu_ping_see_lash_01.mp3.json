@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_lash_01.mp3",
   "revisions": [
     {
-      "sha256": "caa313e678dd7dfcb1046c57e03d2705e5572da0db1d347bac2bb68b459631a0",
+      "sha256": [
+        "caa313e678dd7dfcb1046c57e03d2705e5572da0db1d347bac2bb68b459631a0"
+      ],
       "text": "I see you, Ash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c931a31b3b8da3654bbc3cd92ba9086149da07e71b670683c4097c60f5066739",
+      "sha256": [
+        "c931a31b3b8da3654bbc3cd92ba9086149da07e71b670683c4097c60f5066739"
+      ],
       "text": "I see Lash",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "c897363bb836cf537f0c3c83d87920a1c360f98dcae5dfcb3ff7574b37026954",
-      "text": "Sounds good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e646d35e4b04a95dff78c08b88ca2f0a1bdaeddc9451defa7798469c1c5f296a",
-      "text": "Sounds good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ac58cae17170d60a02395d51b25c6400e49cbfbe24ca54be19947892dc45d38",
+      "sha256": [
+        "4ac58cae17170d60a02395d51b25c6400e49cbfbe24ca54be19947892dc45d38",
+        "c897363bb836cf537f0c3c83d87920a1c360f98dcae5dfcb3ff7574b37026954",
+        "e646d35e4b04a95dff78c08b88ca2f0a1bdaeddc9451defa7798469c1c5f296a"
+      ],
       "text": "Sounds good.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

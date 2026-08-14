@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_abrams_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0d0b98a1d4f96b0b721677f67e55e857c152f080e94c08b4a0db8719393a6ed8",
+      "sha256": [
+        "0d0b98a1d4f96b0b721677f67e55e857c152f080e94c08b4a0db8719393a6ed8"
+      ],
       "text": "Everything is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e7a550a7303f522a87a6b5119f95b2a105acb07dc34fd2978743341390a6cbfb",
+      "sha256": [
+        "e7a550a7303f522a87a6b5119f95b2a105acb07dc34fd2978743341390a6cbfb"
+      ],
       "text": "Everything's here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_kelvin_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "5f4cfb3892ab6d28b4ffda1810f1b9e83a5a1d41336253d67d653dc70286dcf4",
-      "text": "Kelvin's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f418607a7c0557e6a8744d51dcf9dcf5dd019f86200e832b19eb4e38b1fc1786",
+      "sha256": [
+        "5f4cfb3892ab6d28b4ffda1810f1b9e83a5a1d41336253d67d653dc70286dcf4",
+        "f418607a7c0557e6a8744d51dcf9dcf5dd019f86200e832b19eb4e38b1fc1786"
+      ],
       "text": "Kelvin's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

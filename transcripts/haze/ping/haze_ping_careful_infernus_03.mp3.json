@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_careful_infernus_03.mp3",
   "revisions": [
     {
-      "sha256": "4e11caba724e038a35a4598c3f957c115ea90e484d380dcaae7c2f5ada93f50d",
-      "text": "Careful Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e7ee22e22faa6fcece95676fda70062a01b4d022cdc0289c57630dbb6e280cc7",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c91b4e1ec89cfb9b3df37093a8ce4d00caae307155268c0dceb2309e085d3f97",
-      "text": "Careful, Infernus.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3b83ee7d7a3c889305d3dd6812b0136193c91b920613ae1f1a3fbe3ecc84708",
+      "sha256": [
+        "4e11caba724e038a35a4598c3f957c115ea90e484d380dcaae7c2f5ada93f50d",
+        "c3b83ee7d7a3c889305d3dd6812b0136193c91b920613ae1f1a3fbe3ecc84708",
+        "c91b4e1ec89cfb9b3df37093a8ce4d00caae307155268c0dceb2309e085d3f97",
+        "e7ee22e22faa6fcece95676fda70062a01b4d022cdc0289c57630dbb6e280cc7"
+      ],
       "text": "Careful, Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

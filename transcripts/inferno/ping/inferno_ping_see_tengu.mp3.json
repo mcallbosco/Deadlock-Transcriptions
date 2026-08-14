@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_tengu.mp3",
   "revisions": [
     {
-      "sha256": "903503ed156db862a3f92a52ed67085f076db6324f209c7f5fce7a111cac59d3",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1debe1f70856452593a15bd13cc51e820845080ce7446163425135504511aaee",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6c31e165f037c0495cf44e0a83e27f529396fb8be17d26b3bbd84889d7794021",
+      "sha256": [
+        "1debe1f70856452593a15bd13cc51e820845080ce7446163425135504511aaee",
+        "6c31e165f037c0495cf44e0a83e27f529396fb8be17d26b3bbd84889d7794021",
+        "903503ed156db862a3f92a52ed67085f076db6324f209c7f5fce7a111cac59d3"
+      ],
       "text": "I see ivy",
       "source": "official"
     }

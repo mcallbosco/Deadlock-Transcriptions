@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_hornet_02.mp3",
   "revisions": [
     {
-      "sha256": "3d55727ada3f241a0b6ebb821b9f9bd1a35ed05248116c9117cbdb84a1bc116c",
-      "text": "I see Goody Proctor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f652acdb67da5baee843c8b504447ed13dcef98cdb0deff34e0ceb5c7b5bd5d",
-      "text": "I see Goody Proctor.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33fd83b1a547092f3ff876f17eac38e85d92deab38c21ad109d95c8206fbff37",
+      "sha256": [
+        "33fd83b1a547092f3ff876f17eac38e85d92deab38c21ad109d95c8206fbff37",
+        "3d55727ada3f241a0b6ebb821b9f9bd1a35ed05248116c9117cbdb84a1bc116c",
+        "9f652acdb67da5baee843c8b504447ed13dcef98cdb0deff34e0ceb5c7b5bd5d"
+      ],
       "text": "I see goody proctor",
       "source": "official"
     }

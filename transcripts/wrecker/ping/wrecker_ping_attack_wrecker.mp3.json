@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_attack_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "b1e3ae31ca68e5671f3278fc593d51476d3f552b90ea4853a6244be497710d47",
+      "sha256": [
+        "b1e3ae31ca68e5671f3278fc593d51476d3f552b90ea4853a6244be497710d47",
+        "cca5f7995396ad94d57a5703b5322ec3185391ccd3f8a15f8c7f058c5d5cf9bb"
+      ],
       "text": "Kill wrecker!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cca5f7995396ad94d57a5703b5322ec3185391ccd3f8a15f8c7f058c5d5cf9bb",
-      "text": "Killwrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

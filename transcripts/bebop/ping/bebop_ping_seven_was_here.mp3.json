@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_seven_was_here.mp3",
   "revisions": [
     {
-      "sha256": "924fa363f8a8a3adc97c5e141c5709be34537c375f68c34c7e51640ad2b574ac",
+      "sha256": [
+        "924fa363f8a8a3adc97c5e141c5709be34537c375f68c34c7e51640ad2b574ac"
+      ],
       "text": "Seven was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

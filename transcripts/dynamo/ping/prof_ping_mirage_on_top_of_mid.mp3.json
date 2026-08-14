@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_mirage_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "8709dae1441fe009cbc709d9f442c7da9263e207bb30742e84de02930bca1bec",
+      "sha256": [
+        "2c23c9bb7e42be266139ec584e61ff5875738ec579d963e9b57c09aea0351513",
+        "8709dae1441fe009cbc709d9f442c7da9263e207bb30742e84de02930bca1bec"
+      ],
       "text": "Mirage don't have a mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c23c9bb7e42be266139ec584e61ff5875738ec579d963e9b57c09aea0351513",
-      "text": "Mirage don't have a mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

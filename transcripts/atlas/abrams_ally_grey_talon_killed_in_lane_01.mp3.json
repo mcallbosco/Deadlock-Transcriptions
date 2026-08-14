@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_ally_grey_talon_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "d9c914c3bfd86bacda8aa44a7d50f4964cdc0a79c8ba53a07faef43fc877f5b8",
-      "text": "They took out Grey Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7537a3334c2223622938dc7191044d185395b5e4f9d286fa2f6cbef68e3032e0",
+      "sha256": [
+        "7537a3334c2223622938dc7191044d185395b5e4f9d286fa2f6cbef68e3032e0",
+        "d9c914c3bfd86bacda8aa44a7d50f4964cdc0a79c8ba53a07faef43fc877f5b8"
+      ],
       "text": "They took out Grey Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

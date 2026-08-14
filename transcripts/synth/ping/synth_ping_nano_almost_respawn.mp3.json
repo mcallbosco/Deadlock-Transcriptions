@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_nano_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "c14d30b416bb3be669ff5a54003f773f956052355805793342e09f5abb963ff5",
+      "sha256": [
+        "c14d30b416bb3be669ff5a54003f773f956052355805793342e09f5abb963ff5"
+      ],
       "text": "Calico is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

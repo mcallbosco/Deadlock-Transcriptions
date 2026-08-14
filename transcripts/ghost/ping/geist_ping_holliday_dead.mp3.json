@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_holliday_dead.mp3",
   "revisions": [
     {
-      "sha256": "5ef73b77772a7cfb68a32ca886ac55d0526792e07aaf4f42c39e0ace7f5fb9d4",
-      "text": "Holliday is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5f0434c4ad326b14e3c1bf219fcebe2ccb8071ff30312e06e61946adc6545a7",
+      "sha256": [
+        "5ef73b77772a7cfb68a32ca886ac55d0526792e07aaf4f42c39e0ace7f5fb9d4",
+        "c5f0434c4ad326b14e3c1bf219fcebe2ccb8071ff30312e06e61946adc6545a7"
+      ],
       "text": "Holliday is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

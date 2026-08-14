@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_stay_together.mp3",
   "revisions": [
     {
-      "sha256": "10fbe6efeff3e73b57cd63527d17e1ee0eb676b3af399991599777d665818d4f",
-      "text": "Stay together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a3c2f16ae0967b176587db3c9b584384259323df3e9729b5cf32b4f903426219",
-      "text": "Stay together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8adb3f96d764c8e64863bc68ec1ec8503a3d119f86a82f12c3960e4c8d7953d",
+      "sha256": [
+        "10fbe6efeff3e73b57cd63527d17e1ee0eb676b3af399991599777d665818d4f",
+        "a3c2f16ae0967b176587db3c9b584384259323df3e9729b5cf32b4f903426219",
+        "a8adb3f96d764c8e64863bc68ec1ec8503a3d119f86a82f12c3960e4c8d7953d"
+      ],
       "text": "Stay together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

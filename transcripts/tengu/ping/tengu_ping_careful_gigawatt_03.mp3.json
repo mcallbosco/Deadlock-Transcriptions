@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_gigawatt_03.mp3",
   "revisions": [
     {
-      "sha256": "45eca7a06a35f9b6a51cf4ce61fd06c2d0d0ad2bcd0b6f2bd0ef457e3f057f1c",
+      "sha256": [
+        "45eca7a06a35f9b6a51cf4ce61fd06c2d0d0ad2bcd0b6f2bd0ef457e3f057f1c"
+      ],
       "text": "Get to seven!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "abd82a85fe219494a3afc9d2759647f4151e0cbdffd2eba3c0e5f35c42a4d07b",
+      "sha256": [
+        "abd82a85fe219494a3afc9d2759647f4151e0cbdffd2eba3c0e5f35c42a4d07b"
+      ],
       "text": "Careful, Seven!",
       "source": "official"
     }

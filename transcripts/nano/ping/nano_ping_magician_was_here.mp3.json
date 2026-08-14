@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/nano_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c3a4c9e785c8651636a4d891beb54be8179801f688164cd2cd1f320642ad431c",
+      "sha256": [
+        "c3a4c9e785c8651636a4d891beb54be8179801f688164cd2cd1f320642ad431c"
+      ],
       "text": "Sinclair was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

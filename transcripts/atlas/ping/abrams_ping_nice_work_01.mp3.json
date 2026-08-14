@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "416d3bff82deb527f00a4f2d317050940388453b863a5d5b6496f92a86514527",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ffe827e4c3a8692128fe68229cc28c99cc937d33134e7a0439f5a4bc56e5ca6",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7e8b5c0be0e5b88a9c9ed08a4cfce37cf4e5185a9629de2a99c2a05c78e946d",
+      "sha256": [
+        "416d3bff82deb527f00a4f2d317050940388453b863a5d5b6496f92a86514527",
+        "9ffe827e4c3a8692128fe68229cc28c99cc937d33134e7a0439f5a4bc56e5ca6",
+        "d7e8b5c0be0e5b88a9c9ed08a4cfce37cf4e5185a9629de2a99c2a05c78e946d"
+      ],
       "text": "Nice work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

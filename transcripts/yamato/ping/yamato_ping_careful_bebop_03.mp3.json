@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_careful_bebop_03.mp3",
   "revisions": [
     {
-      "sha256": "52562ff15398f96cbb92be0385773a11b714a9e0a71d0ef11a01c84ccdaa838d",
-      "text": "Careful, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddcf1ac37329165850cdc18aa5d3d23a8909eb496b941b5a392b1500da8af9d0",
-      "text": "Careful, Bebop!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "113b33fbaefcae9c2b880ebb028861ad13a4139f6131264ad1e54829a132a3f0",
+      "sha256": [
+        "113b33fbaefcae9c2b880ebb028861ad13a4139f6131264ad1e54829a132a3f0",
+        "52562ff15398f96cbb92be0385773a11b714a9e0a71d0ef11a01c84ccdaa838d",
+        "ddcf1ac37329165850cdc18aa5d3d23a8909eb496b941b5a392b1500da8af9d0"
+      ],
       "text": "Careful, Bebop!",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "e6fa6f493dbdedc93c70577ed9642131966764efb463d2dcc5f21bdf54a4b288",
-      "text": "I see ghosts.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d4059152bb3ce439a06f0a9089f23bc8f8eca1ccda63c50ab6d9585a5661196",
+      "sha256": [
+        "2d4059152bb3ce439a06f0a9089f23bc8f8eca1ccda63c50ab6d9585a5661196",
+        "e6fa6f493dbdedc93c70577ed9642131966764efb463d2dcc5f21bdf54a4b288"
+      ],
       "text": "I see ghosts.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

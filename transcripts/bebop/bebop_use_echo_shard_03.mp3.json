@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_use_echo_shard_03.mp3",
   "revisions": [
     {
-      "sha256": "ea5d6407ed7891a494cf560a9135266d3a330d2cc1e52a39c5982d2c259e2e97",
-      "text": "Let's go again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7aa85f4cd9ebc42387f25ab1ca5f214f07757336db2677866854bbfcbb6735c3",
+      "sha256": [
+        "7aa85f4cd9ebc42387f25ab1ca5f214f07757336db2677866854bbfcbb6735c3",
+        "ea5d6407ed7891a494cf560a9135266d3a330d2cc1e52a39c5982d2c259e2e97"
+      ],
       "text": "Let's go again…",
       "source": "official"
     }

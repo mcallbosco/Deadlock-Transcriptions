@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_lets_go_blue.mp3",
   "revisions": [
     {
-      "sha256": "cd762cdbbc0ce7d58d5f9f3b86801eba523a7cfc679fd56c6f6c8875a737461c",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3a3aac14eb0b4f825e46c5c35fc292d5c2f722fa0633ac380720d2035c20126d",
-      "text": "Let's go, Blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3406b4c5aa1bc1e9495c50753c194ba97dcb5d4a95b6e144f8684936db6c8ddd",
-      "text": "Let's go blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e1b98ac03e422029855c22ca1852a82e6529b089775f15a8097fa739a0465b6",
+      "sha256": [
+        "2e1b98ac03e422029855c22ca1852a82e6529b089775f15a8097fa739a0465b6",
+        "3406b4c5aa1bc1e9495c50753c194ba97dcb5d4a95b6e144f8684936db6c8ddd",
+        "3a3aac14eb0b4f825e46c5c35fc292d5c2f722fa0633ac380720d2035c20126d",
+        "cd762cdbbc0ce7d58d5f9f3b86801eba523a7cfc679fd56c6f6c8875a737461c"
+      ],
       "text": "Let's go blue!",
       "source": "official"
     }

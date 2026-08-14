@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "6d262f199b9b86047b22bdd099b5507f6d215785c063c0e1de6991789ffdd1dc",
-      "text": "Mama's hungry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0bb00394d67a2f42dd8b2c05252cceda66e71028deed26254fefe3ed3b23d40d",
-      "text": "Mama's hungry.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92af00bb71a03896027f1a4ac8b26fcebe68ec8c4692112b245f141c89ccad70",
+      "sha256": [
+        "0bb00394d67a2f42dd8b2c05252cceda66e71028deed26254fefe3ed3b23d40d",
+        "6d262f199b9b86047b22bdd099b5507f6d215785c063c0e1de6991789ffdd1dc",
+        "92af00bb71a03896027f1a4ac8b26fcebe68ec8c4692112b245f141c89ccad70"
+      ],
       "text": "Mama's hungry.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_use_silencer_01.mp3",
   "revisions": [
     {
-      "sha256": "a0da58f15dd85b8a810903c8f7b36d401646e7c435917868caabd4567d9e67a1",
-      "text": "Ready to silence them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "50f8fb25e44ce3cf608da3460bcb6f3c39f0d85148fc44bc530e0039287595b9",
+      "sha256": [
+        "50f8fb25e44ce3cf608da3460bcb6f3c39f0d85148fc44bc530e0039287595b9",
+        "a0da58f15dd85b8a810903c8f7b36d401646e7c435917868caabd4567d9e67a1"
+      ],
       "text": "Ready to silence them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_careful_holliday_03.mp3",
   "revisions": [
     {
-      "sha256": "7bd2b3f45ff2b6f00ab53788f70185c23b9195ed4c16d4a024bb9e0a5da7ceba",
-      "text": "Careful, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "584cb7253b3ff4d37a1709979fd138c8c97ab0bdc7f1bbe6e31b5e3ad797a7a1",
+      "sha256": [
+        "584cb7253b3ff4d37a1709979fd138c8c97ab0bdc7f1bbe6e31b5e3ad797a7a1",
+        "7bd2b3f45ff2b6f00ab53788f70185c23b9195ed4c16d4a024bb9e0a5da7ceba"
+      ],
       "text": "Careful, Holliday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "6e252db61bc6808122af92245ab5d25ce7b02cc78386a53954328c296357192c",
+      "sha256": [
+        "6e252db61bc6808122af92245ab5d25ce7b02cc78386a53954328c296357192c"
+      ],
       "text": "Cover me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

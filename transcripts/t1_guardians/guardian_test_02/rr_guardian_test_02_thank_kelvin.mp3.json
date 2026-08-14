@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_thank_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "d8538a6ae23769fb078d832c6eedf10ac57324be2cb444c9e59334b5a3a40466",
-      "text": "Thanks, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fee774fcf7af26211fcba9922c244f534a0cee15a9276a4829a6a12f0512b35b",
-      "text": "Thanks, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43e59de8d354d189ee029469c281593affe9474adc4cc445de7a70f034269bb5",
+      "sha256": [
+        "43e59de8d354d189ee029469c281593affe9474adc4cc445de7a70f034269bb5",
+        "d8538a6ae23769fb078d832c6eedf10ac57324be2cb444c9e59334b5a3a40466",
+        "fee774fcf7af26211fcba9922c244f534a0cee15a9276a4829a6a12f0512b35b"
+      ],
       "text": "Thanks, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

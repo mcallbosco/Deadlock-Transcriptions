@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power4_01.mp3",
   "revisions": [
     {
-      "sha256": "4c34ae4eee59e1e6feb7a91a8b165abdb49e8a9662f3d5cd2827caa2abbff194",
+      "sha256": [
+        "4c34ae4eee59e1e6feb7a91a8b165abdb49e8a9662f3d5cd2827caa2abbff194"
+      ],
       "text": "My size would be fantastic.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2be0777bb263e9c5061183f2b82f8217f24284b3cc1b53ce5cd767dd0b83e983",
+      "sha256": [
+        "2be0777bb263e9c5061183f2b82f8217f24284b3cc1b53ce5cd767dd0b83e983"
+      ],
       "text": "My friends will be protected.",
       "source": "official"
     }

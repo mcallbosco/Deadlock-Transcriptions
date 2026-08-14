@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/pocket_idol_drop_01.mp3",
   "revisions": [
     {
-      "sha256": "05d9da4491b0441e63ee05977539c91bc4918b08423b5eb0ee9f63bcd096b66a",
+      "sha256": [
+        "05d9da4491b0441e63ee05977539c91bc4918b08423b5eb0ee9f63bcd096b66a",
+        "897d019fc190ee486973a877479ff997b4700c59a2650200d8163d2b0ce1d5f6"
+      ],
       "text": "The spirit urn is almost ready to be delivered.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "897d019fc190ee486973a877479ff997b4700c59a2650200d8163d2b0ce1d5f6",
-      "text": "The Spirit urn is almost ready to be delivered.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

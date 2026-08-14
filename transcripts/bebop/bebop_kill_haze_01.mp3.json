@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_kill_haze_01.mp3",
   "revisions": [
     {
-      "sha256": "e39f538bd1015ada68ef5b9469976e92be0137f31de520ce3dd1ea6d1bf676eb",
-      "text": "Hazes down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d7303744858fceb85948d8f51de842a3b8866859fca7e1e9faa7548e14143056",
+      "sha256": [
+        "d7303744858fceb85948d8f51de842a3b8866859fca7e1e9faa7548e14143056",
+        "e39f538bd1015ada68ef5b9469976e92be0137f31de520ce3dd1ea6d1bf676eb"
+      ],
       "text": "Haze's down!",
       "source": "official"
     }

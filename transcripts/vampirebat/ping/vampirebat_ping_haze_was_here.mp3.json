@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "7f653b7a7b322f00468fc8b8497ffa8c001631eeb007fa35636c536b9f7f8e9d",
+      "sha256": [
+        "7f653b7a7b322f00468fc8b8497ffa8c001631eeb007fa35636c536b9f7f8e9d"
+      ],
       "text": "Hey, he's here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3dc8163a1efb9b073dbd5eee0817fa6d0fca4eaaf8890eed6f9d787198d7ad38",
+      "sha256": [
+        "3dc8163a1efb9b073dbd5eee0817fa6d0fca4eaaf8890eed6f9d787198d7ad38"
+      ],
       "text": "Paste was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

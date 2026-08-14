@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_nice_work_01.mp3",
   "revisions": [
     {
-      "sha256": "1775fbf40b8c1a8b1fea46428365302d880205e2b18410114d4065aec80b8c12",
-      "text": "Nice work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ad19f1308b8533d907f71f2fa672c21423f4b467506d7c4562a5e690891aab1",
+      "sha256": [
+        "1775fbf40b8c1a8b1fea46428365302d880205e2b18410114d4065aec80b8c12",
+        "4ad19f1308b8533d907f71f2fa672c21423f4b467506d7c4562a5e690891aab1"
+      ],
       "text": "Nice work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

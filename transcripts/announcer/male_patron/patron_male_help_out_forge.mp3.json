@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_help_out_forge.mp3",
   "revisions": [
     {
-      "sha256": "7cca712d1d11665ea148542d33c388dcf010957281ad171f4375bc2edf5f8b31",
-      "text": "McGinnis needs backup.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "faae6ba2e9f0a7b8304fce6908515d18507e51fc7b4b4e01ba0ad6d0b804b53c",
+      "sha256": [
+        "7cca712d1d11665ea148542d33c388dcf010957281ad171f4375bc2edf5f8b31",
+        "faae6ba2e9f0a7b8304fce6908515d18507e51fc7b4b4e01ba0ad6d0b804b53c"
+      ],
       "text": "McGinnis needs backup.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

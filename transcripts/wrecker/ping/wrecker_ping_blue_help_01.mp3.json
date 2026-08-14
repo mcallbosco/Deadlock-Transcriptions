@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_blue_help_01.mp3",
   "revisions": [
     {
-      "sha256": "337feaa92554f1c1b93b8bd6387357edbe8923da1016da2c7cec522bd5560e2e",
-      "text": "Blue needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "154cd48a57aabfc9b92c7e4509b994762be3f9f8e30e925cdd4e5bce5062a9e7",
+      "sha256": [
+        "154cd48a57aabfc9b92c7e4509b994762be3f9f8e30e925cdd4e5bce5062a9e7",
+        "337feaa92554f1c1b93b8bd6387357edbe8923da1016da2c7cec522bd5560e2e"
+      ],
       "text": "Blue needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

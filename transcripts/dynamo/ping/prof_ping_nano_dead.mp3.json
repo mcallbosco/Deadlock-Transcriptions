@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_nano_dead.mp3",
   "revisions": [
     {
-      "sha256": "acc6ec59ed9810ac905fc2e04bd0aaf71027fbad1cc6c0e85d7451b37a744f30",
-      "text": "Calico is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3f46c94be55e6baabf36d8211041015a7d47781929119244c552cc62587f7e99",
+      "sha256": [
+        "3f46c94be55e6baabf36d8211041015a7d47781929119244c552cc62587f7e99",
+        "acc6ec59ed9810ac905fc2e04bd0aaf71027fbad1cc6c0e85d7451b37a744f30"
+      ],
       "text": "Calico is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

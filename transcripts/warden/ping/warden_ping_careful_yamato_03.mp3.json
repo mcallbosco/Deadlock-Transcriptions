@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_careful_yamato_03.mp3",
   "revisions": [
     {
-      "sha256": "5a442c346810a8098c90fef1cd8029bf7be428904b6d46f1f64af68640259c59",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce84fdfca020803e9b2e3efacf0a9a256121f4dd975f9454d9f3bae86c99b51a",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba76028db5a4d9c288ff5acdec18e60879f0091958bfba8a44cd9d3b28f5926e",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdc42b0a1d524d13a5aef692998901c482d129dec865db7cbbd267074d89f013",
+      "sha256": [
+        "5a442c346810a8098c90fef1cd8029bf7be428904b6d46f1f64af68640259c59",
+        "ba76028db5a4d9c288ff5acdec18e60879f0091958bfba8a44cd9d3b28f5926e",
+        "ce84fdfca020803e9b2e3efacf0a9a256121f4dd975f9454d9f3bae86c99b51a",
+        "fdc42b0a1d524d13a5aef692998901c482d129dec865db7cbbd267074d89f013"
+      ],
       "text": "Careful, Yamato!",
       "source": "official"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_start_match_04.mp3",
   "revisions": [
     {
-      "sha256": "cba4c817bf40b9f36e114e20a3a388b4caeacab5a15d6df55e4a4c8f9e451fbc",
-      "text": "Are we gonna win this?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e92c86885dff35262e4511f027c03b9a8c266d918c531bd94631610ff00828f",
-      "text": "Are we gonna win this?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cbdaa049320cecdeff147a111ca8d5fe0debe4b350cf7d4dda2a8f19119cd028",
+      "sha256": [
+        "9e92c86885dff35262e4511f027c03b9a8c266d918c531bd94631610ff00828f",
+        "cba4c817bf40b9f36e114e20a3a388b4caeacab5a15d6df55e4a4c8f9e451fbc",
+        "cbdaa049320cecdeff147a111ca8d5fe0debe4b350cf7d4dda2a8f19119cd028"
+      ],
       "text": "Are we gonna win this?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

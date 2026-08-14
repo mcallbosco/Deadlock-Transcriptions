@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_purple_help_02.mp3",
   "revisions": [
     {
-      "sha256": "30b4ed62e7cd96eeaeb5a295c10c1f9bf47fef442553478149faff03dd8233ee",
+      "sha256": [
+        "30b4ed62e7cd96eeaeb5a295c10c1f9bf47fef442553478149faff03dd8233ee",
+        "c426da0526d85c50c4255971c7f5b89febfe12ab85f176cc76b3100c4ab397dd"
+      ],
       "text": "Cart needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ce192c5f57f8618392293399aa06188f78d114fe7c5616ba2f171e4e58359371",
+      "sha256": [
+        "ce192c5f57f8618392293399aa06188f78d114fe7c5616ba2f171e4e58359371"
+      ],
       "text": "Tart needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c426da0526d85c50c4255971c7f5b89febfe12ab85f176cc76b3100c4ab397dd",
-      "text": "Cart needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

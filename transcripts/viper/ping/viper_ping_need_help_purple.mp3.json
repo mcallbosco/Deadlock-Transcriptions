@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_need_help_purple.mp3",
   "revisions": [
     {
-      "sha256": "93feaf67dc414724006e7f8cf3aa143b652629b3c653a646e91e79fb7e089527",
+      "sha256": [
+        "93feaf67dc414724006e7f8cf3aa143b652629b3c653a646e91e79fb7e089527",
+        "f0ce7bbd6332ba0d7d08edbfd3799afd1971447bc89518aa414eb7e08ae1db78"
+      ],
       "text": "Need help on purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0ce7bbd6332ba0d7d08edbfd3799afd1971447bc89518aa414eb7e08ae1db78",
-      "text": "Need help on purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41470a748bc19a2875b13518407ba69f29c3527bbb8dfb9d45aa618c58f100ae",
+      "sha256": [
+        "41470a748bc19a2875b13518407ba69f29c3527bbb8dfb9d45aa618c58f100ae"
+      ],
       "text": "Need help? I'm purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

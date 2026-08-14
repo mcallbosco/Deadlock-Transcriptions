@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "2ebe110ca17d9f660af809ca2963d2776532927e56a71e8148c5fa4d3ae2dcea",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a5d815a12b0b220804e03a027bc98e05fafbad7082eb1b9fd9f46defb3bc30c4",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "792a7a2dfbebf7634a68e78e70eda56ad353fbff6b2882214057aa433add245a",
+      "sha256": [
+        "2ebe110ca17d9f660af809ca2963d2776532927e56a71e8148c5fa4d3ae2dcea",
+        "792a7a2dfbebf7634a68e78e70eda56ad353fbff6b2882214057aa433add245a",
+        "a5d815a12b0b220804e03a027bc98e05fafbad7082eb1b9fd9f46defb3bc30c4"
+      ],
       "text": "You're welcome",
       "source": "official"
     }

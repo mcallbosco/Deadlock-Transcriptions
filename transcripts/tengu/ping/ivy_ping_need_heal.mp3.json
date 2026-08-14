@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_need_heal.mp3",
   "revisions": [
     {
-      "sha256": "44b1e4c95268e31ff8f3d42f88f8ab118b7a8944609697af2a4c64aee93f11c1",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "26cc14adb9d0de2ebd80c968773be4a98d979b5e6a31ad0b7ef1a26261c756a8",
-      "text": "Do you have a heal?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c762434910d9429a66a8b4a7678fa29ef303512c61d5bde0f99c58dd93e36d5c",
+      "sha256": [
+        "26cc14adb9d0de2ebd80c968773be4a98d979b5e6a31ad0b7ef1a26261c756a8",
+        "44b1e4c95268e31ff8f3d42f88f8ab118b7a8944609697af2a4c64aee93f11c1",
+        "c762434910d9429a66a8b4a7678fa29ef303512c61d5bde0f99c58dd93e36d5c"
+      ],
       "text": "Do you have a heal?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

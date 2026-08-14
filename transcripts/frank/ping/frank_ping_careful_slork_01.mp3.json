@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_slork_01.mp3",
   "revisions": [
     {
-      "sha256": "86aefdba974253c0b9085c747b10e9566ed9c515c8c44980ce83ada63ebfc6b7",
+      "sha256": [
+        "86aefdba974253c0b9085c747b10e9566ed9c515c8c44980ce83ada63ebfc6b7"
+      ],
       "text": "Careful, fella.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c6cc61dca1bb7256de51942ef0125c3ae8f823be5d5eeef2ae44de5dd74db710",
+      "sha256": [
+        "c6cc61dca1bb7256de51942ef0125c3ae8f823be5d5eeef2ae44de5dd74db710"
+      ],
       "text": "Careful, Fathom…",
       "source": "official"
     }

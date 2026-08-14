@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ae4d596d11b592dbf8c786937cf4f5960de18d1c9856323be82495820d6d045c",
-      "text": "Warden was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e7544a08be7fbae88560f3062adbaaa4a1b4a6de005b7b66a337b5991a94e12",
+      "sha256": [
+        "5e7544a08be7fbae88560f3062adbaaa4a1b4a6de005b7b66a337b5991a94e12",
+        "ae4d596d11b592dbf8c786937cf4f5960de18d1c9856323be82495820d6d045c"
+      ],
       "text": "Warden was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

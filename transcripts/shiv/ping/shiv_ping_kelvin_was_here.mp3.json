@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6625fe7b371b7caf4aad3e75ae549cff3616cfab0b1e47c4997ee4688c13f26e",
+      "sha256": [
+        "6625fe7b371b7caf4aad3e75ae549cff3616cfab0b1e47c4997ee4688c13f26e",
+        "c5550d218d83c8fe1c044eec3ff3f3934b3da09da9bf7ead0bf1a8f3be19b0e1"
+      ],
       "text": "How is it?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c5550d218d83c8fe1c044eec3ff3f3934b3da09da9bf7ead0bf1a8f3be19b0e1",
-      "text": "How is it?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "49cc303666f487a2398b32423852d97e886a9c7ea3ba170d6a0d253e70b7f6db",
+      "sha256": [
+        "49cc303666f487a2398b32423852d97e886a9c7ea3ba170d6a0d253e70b7f6db"
+      ],
       "text": "Kelvin was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "1e8d02cd3748206cbe6a97d9e237daf5de3d972c7a72f94d88e1152e6f995d17",
+      "sha256": [
+        "1e8d02cd3748206cbe6a97d9e237daf5de3d972c7a72f94d88e1152e6f995d17"
+      ],
       "text": "Lock it is dead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5634f1aae46cf7e627e1742ebe527b6431a1070146743b30ae46e09b670db520",
+      "sha256": [
+        "5634f1aae46cf7e627e1742ebe527b6431a1070146743b30ae46e09b670db520"
+      ],
       "text": "Bucket is dead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_upgrade_power3_10.mp3",
   "revisions": [
     {
-      "sha256": "2553523b381da9f52c7c2b7598b19538d5bbc454263eae26543b32efe8a963c0",
+      "sha256": [
+        "2553523b381da9f52c7c2b7598b19538d5bbc454263eae26543b32efe8a963c0"
+      ],
       "text": "I am ready for battle.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "9d66e09b88b4ea02102b4d8115884b8c5447a7db53ce0f63a0d535369da98cca",
+      "sha256": [
+        "9d66e09b88b4ea02102b4d8115884b8c5447a7db53ce0f63a0d535369da98cca"
+      ],
       "text": "I am Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "475bed46526bdf04ec5fdf63cb94250d069c58621a7bed644af6560012bee6cc",
+      "sha256": [
+        "475bed46526bdf04ec5fdf63cb94250d069c58621a7bed644af6560012bee6cc"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

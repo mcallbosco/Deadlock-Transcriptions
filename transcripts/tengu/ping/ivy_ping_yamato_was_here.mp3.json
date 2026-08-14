@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8a50bf52026307b93fbc881054096dbe0e2055aa0c725d0dc543ba9613b02f2b",
+      "sha256": [
+        "8a50bf52026307b93fbc881054096dbe0e2055aa0c725d0dc543ba9613b02f2b"
+      ],
       "text": "Yamato's here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "508bfd14b267d7c10ecc4c92686f00f23bdd314f9f89e4618c4fd0baf00fff8f",
+      "sha256": [
+        "508bfd14b267d7c10ecc4c92686f00f23bdd314f9f89e4618c4fd0baf00fff8f"
+      ],
       "text": "Yamato is here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3933e5f33858ad6f020822f6a65eea7897671136e041e3fd2a885ec2666ae6ff",
+      "sha256": [
+        "3933e5f33858ad6f020822f6a65eea7897671136e041e3fd2a885ec2666ae6ff"
+      ],
       "text": "ヤマトは消える!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

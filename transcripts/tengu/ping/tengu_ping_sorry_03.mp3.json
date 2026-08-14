@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_sorry_03.mp3",
   "revisions": [
     {
-      "sha256": "e6120814b28eba98340a49aeb0b18a821200a954b1d4356ddf9395f88d5bc64f",
-      "text": "My fault.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dbdbf4ab946249ccdd866bb70b26eeb618c14d6ab7282b8fba4877989d1ca015",
+      "sha256": [
+        "dbdbf4ab946249ccdd866bb70b26eeb618c14d6ab7282b8fba4877989d1ca015",
+        "e6120814b28eba98340a49aeb0b18a821200a954b1d4356ddf9395f88d5bc64f"
+      ],
       "text": "My fault",
       "source": "official"
     }

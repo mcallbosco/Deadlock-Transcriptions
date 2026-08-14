@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_lets_go_orange_alt.mp3",
   "revisions": [
     {
-      "sha256": "dc259855adf3a6d64877406dc949745f4575b33a036c442bfab9f4c52eeb5fee",
-      "text": "Let's go to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5c0d7f6da61177a1e527ab9e0564294abd1e2c3374bda31627b3733b13992f5",
-      "text": "Let's go to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1188d9d15070ff0b1a3d34f36f99f774c8001b1783834eead320e114727141ac",
+      "sha256": [
+        "1188d9d15070ff0b1a3d34f36f99f774c8001b1783834eead320e114727141ac",
+        "dc259855adf3a6d64877406dc949745f4575b33a036c442bfab9f4c52eeb5fee",
+        "e5c0d7f6da61177a1e527ab9e0564294abd1e2c3374bda31627b3733b13992f5"
+      ],
       "text": "Let's go to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

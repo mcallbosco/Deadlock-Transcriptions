@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_use_power3_06.mp3",
   "revisions": [
     {
-      "sha256": "78395ac558b491f9d341b2a3a9a936e6d20c6712eed905cdc9d027c5025c3a73",
+      "sha256": [
+        "78395ac558b491f9d341b2a3a9a936e6d20c6712eed905cdc9d027c5025c3a73"
+      ],
       "text": "Got it, John.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8ae8b61e13cc4fdd0441cc03214ec8f13102ed13f373c398604234e0ee269038",
+      "sha256": [
+        "3d703fb5e7fb86ed1a9f513d9cdfec254d11a986634d07727f48256e892948f7",
+        "8ae8b61e13cc4fdd0441cc03214ec8f13102ed13f373c398604234e0ee269038"
+      ],
       "text": "I am the eye of the storm.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d703fb5e7fb86ed1a9f513d9cdfec254d11a986634d07727f48256e892948f7",
-      "text": "I am the eye of the storm.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7051935b7767b6abaa64bea0bdbc6762902d38f0146448abe4e3729af252847a",
+      "sha256": [
+        "7051935b7767b6abaa64bea0bdbc6762902d38f0146448abe4e3729af252847a"
+      ],
       "text": "It was inevitable",
       "source": "official"
     }

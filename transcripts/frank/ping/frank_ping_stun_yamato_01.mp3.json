@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_stun_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "ad592a9ebf32f3d04b0d2bd299a03e46c70615ba6a6fd742a326cbd4d2fcca1f",
+      "sha256": [
+        "ad592a9ebf32f3d04b0d2bd299a03e46c70615ba6a6fd742a326cbd4d2fcca1f"
+      ],
       "text": "Stop Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "aebe7f089a2cd63955e450ae69c9c954d56a61346f4860bc11e9db137390c8a3",
+      "sha256": [
+        "aebe7f089a2cd63955e450ae69c9c954d56a61346f4860bc11e9db137390c8a3"
+      ],
       "text": "Still Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

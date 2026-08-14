@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_lets_go_green_alt.mp3",
   "revisions": [
     {
-      "sha256": "4517d2fdbad67d985140c909f1fc3c9029eb9d504e5499f903ec1df2996cd729",
-      "text": "Let's go to Greenwich!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea59d811be020ff29f6140dfc301cdfe74086163c8571a50c6fb948165069b81",
+      "sha256": [
+        "4517d2fdbad67d985140c909f1fc3c9029eb9d504e5499f903ec1df2996cd729",
+        "ea59d811be020ff29f6140dfc301cdfe74086163c8571a50c6fb948165069b81"
+      ],
       "text": "Let's go to Greenwich!",
       "source": "official"
     }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_upgrade_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "3709dd0c44c29495d13306849f4d3de1581af09b805571de2754071f673a88c2",
+      "sha256": [
+        "3709dd0c44c29495d13306849f4d3de1581af09b805571de2754071f673a88c2",
+        "405f55466301d1a9ed21e9af15d3ed1889bbd33e201cd5f02fa9503059abab8f",
+        "8dcc10da97a278c45cb9a6be11d123efded4b9f7f2589f9d3c5639944dd9c642"
+      ],
       "text": "They can try to run. It's not gonna work out well for them, but they can try.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8dcc10da97a278c45cb9a6be11d123efded4b9f7f2589f9d3c5639944dd9c642",
-      "text": "They can try to run. It's not gonna work out well for them, but they can try.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "405f55466301d1a9ed21e9af15d3ed1889bbd33e201cd5f02fa9503059abab8f",
-      "text": "They can try to run. It's not gonna work out well for them, but they can try.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b9a9149834b613b4e7d5b62db7526d887686f114dae7a9dfaa52d34d1bfc7d54",
+      "sha256": [
+        "b9a9149834b613b4e7d5b62db7526d887686f114dae7a9dfaa52d34d1bfc7d54"
+      ],
       "text": "They can try to run… not gonna work well for them, but they can try.",
       "source": "official"
     }

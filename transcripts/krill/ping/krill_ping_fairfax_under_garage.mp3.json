@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_fairfax_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "5b12204040f440aafd649cd83ccc7f972f23ca64226d48cffc2721212e2c903a",
+      "sha256": [
+        "5b12204040f440aafd649cd83ccc7f972f23ca64226d48cffc2721212e2c903a",
+        "803571b740a4a31edc1ee6befb35d7cf30ab42d00e521c3681f7814dad79d3bd",
+        "a589df5c88adff5cb665899720d19e26d2aedde7a686c51994fb58ef13044657"
+      ],
       "text": "Fairfax is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "803571b740a4a31edc1ee6befb35d7cf30ab42d00e521c3681f7814dad79d3bd",
-      "text": "Fairfax is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a589df5c88adff5cb665899720d19e26d2aedde7a686c51994fb58ef13044657",
-      "text": "Fairfax is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

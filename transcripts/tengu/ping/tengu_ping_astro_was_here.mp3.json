@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_astro_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1823f983bfc43e826ca150874a453e1aa40ed2f7526b86ba7f6df0e7f0c4df33",
+      "sha256": [
+        "1823f983bfc43e826ca150874a453e1aa40ed2f7526b86ba7f6df0e7f0c4df33"
+      ],
       "text": "Holliday was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "251835bcce47cf1eb40700d5f079565ca026f3ba25dabec982480f400c3c228f",
+      "sha256": [
+        "251835bcce47cf1eb40700d5f079565ca026f3ba25dabec982480f400c3c228f"
+      ],
       "text": "Holiday was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

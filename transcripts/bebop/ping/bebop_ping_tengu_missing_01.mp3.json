@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_tengu_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "6c1f0cf551b365e7323e2f0f59f8848eaea089a5cba112ad00e344aa3f963afa",
+      "sha256": [
+        "6c1f0cf551b365e7323e2f0f59f8848eaea089a5cba112ad00e344aa3f963afa"
+      ],
       "text": "Body's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4909a1a7bee8a49018c4be6d4984b84cc8ecf2ad4036c1a923bb7efd795ddb2c",
+      "sha256": [
+        "4909a1a7bee8a49018c4be6d4984b84cc8ecf2ad4036c1a923bb7efd795ddb2c"
+      ],
       "text": "ivy's missing",
       "source": "official"
     }

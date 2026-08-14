@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_missing_green_01.mp3",
   "revisions": [
     {
-      "sha256": "b666bb8eef239731de89024477a80a0dabfd4616dd66464dd3d32f1fca4f9d73",
+      "sha256": [
+        "b666bb8eef239731de89024477a80a0dabfd4616dd66464dd3d32f1fca4f9d73",
+        "eab97b0858e02f4689a43f4890dca9ea29cad8c7f43ca2ff8feff69a29176dbb"
+      ],
       "text": "Missing Green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eab97b0858e02f4689a43f4890dca9ea29cad8c7f43ca2ff8feff69a29176dbb",
-      "text": "Missing Green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

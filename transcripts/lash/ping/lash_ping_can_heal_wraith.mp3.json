@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_can_heal_wraith.mp3",
   "revisions": [
     {
-      "sha256": "3c8186f501c64c165b4525a09334db89e9f726d3d99d5db3ee0333f7e3b282d5",
+      "sha256": [
+        "3c8186f501c64c165b4525a09334db89e9f726d3d99d5db3ee0333f7e3b282d5"
+      ],
       "text": "Brace, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5362631ade431f483dfa6eec8d404efb298dd95e4cd718fdb50fd6d1414d2b53",
+      "sha256": [
+        "5362631ade431f483dfa6eec8d404efb298dd95e4cd718fdb50fd6d1414d2b53",
+        "8cea44c9cfdf7fb9d9d115a357fc8976a1b3675de5d9a6ad18c1dfaf4652d53b"
+      ],
       "text": "Grace, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8cea44c9cfdf7fb9d9d115a357fc8976a1b3675de5d9a6ad18c1dfaf4652d53b",
-      "text": "Grace, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d82dc9ed5dd32d6526b9beadcc520dc6b33460f45ae604c76018d74fe71111ff",
+      "sha256": [
+        "d82dc9ed5dd32d6526b9beadcc520dc6b33460f45ae604c76018d74fe71111ff"
+      ],
       "text": "Wraith, I can heal you!",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/atlas_use_silencer_03.mp3",
   "revisions": [
     {
-      "sha256": "b112a419790d0e474d1ae78bec4973a1307b05ef8ebfba189bd05577c3841b2a",
+      "sha256": [
+        "b112a419790d0e474d1ae78bec4973a1307b05ef8ebfba189bd05577c3841b2a"
+      ],
       "text": "Be silent.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

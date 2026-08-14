@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "b0ea3fae1a14020502ab394d44630f3b406e8fce28ff694e76b05311b9d2acdc",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fff41fe58ab03fadba193cde36dd838d16131e780d50f5ad3c06fa1d838b2b2a",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d0c1328a46f091eb132fa42a5a7ea36e03bdb50962fc76527c32c53b08652aa",
-      "text": "I saw Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fa668224a94ce9f64b388130b777891d797e75e1130af053a58d4ccfc87a446",
+      "sha256": [
+        "3fa668224a94ce9f64b388130b777891d797e75e1130af053a58d4ccfc87a446",
+        "7d0c1328a46f091eb132fa42a5a7ea36e03bdb50962fc76527c32c53b08652aa",
+        "b0ea3fae1a14020502ab394d44630f3b406e8fce28ff694e76b05311b9d2acdc",
+        "fff41fe58ab03fadba193cde36dd838d16131e780d50f5ad3c06fa1d838b2b2a"
+      ],
       "text": "I saw Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

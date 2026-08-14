@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_cadence_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a6d31f83ea22c9b2806c66dfdd07cc81ca62e21aede62c1c568ef1b03929abf4",
-      "text": "Cadence is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d2d7f357b51745108b6277122646463f23e3bab85fb8a88b30dfb1579279ebf",
+      "sha256": [
+        "2d2d7f357b51745108b6277122646463f23e3bab85fb8a88b30dfb1579279ebf",
+        "a6d31f83ea22c9b2806c66dfdd07cc81ca62e21aede62c1c568ef1b03929abf4"
+      ],
       "text": "Cadence is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

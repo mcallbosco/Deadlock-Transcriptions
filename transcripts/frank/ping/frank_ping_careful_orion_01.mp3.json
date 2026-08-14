@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "8cb63e1b93c9fc169149a0978419ba9df08c87474b3caa1a91a6696b598a36e4",
+      "sha256": [
+        "8cb63e1b93c9fc169149a0978419ba9df08c87474b3caa1a91a6696b598a36e4"
+      ],
       "text": "Careful, Graytail.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ba31e816f2d6f687b6ac21667916d4c0a9d67d37f13b40728c9b2ade718a9cc4",
+      "sha256": [
+        "ba31e816f2d6f687b6ac21667916d4c0a9d67d37f13b40728c9b2ade718a9cc4"
+      ],
       "text": "Careful, Grey Talon…",
       "source": "official"
     }

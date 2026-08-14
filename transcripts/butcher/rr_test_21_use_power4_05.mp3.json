@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "bf2402565a16e28052289c3e5eead938bd531cbd2b0da84703f5b444fde34a2d",
-      "text": "I'm on the hunt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "24e24f307e76d410c52bc694484bbdffb93da765d2e72126903cb44c9c0e9ccc",
-      "text": "I'm on the hunt.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdf2a4bae94536ed2f6985bf25dd39b227880478b9f093da0c927f7114d16fe8",
+      "sha256": [
+        "24e24f307e76d410c52bc694484bbdffb93da765d2e72126903cb44c9c0e9ccc",
+        "bf2402565a16e28052289c3e5eead938bd531cbd2b0da84703f5b444fde34a2d",
+        "cdf2a4bae94536ed2f6985bf25dd39b227880478b9f093da0c927f7114d16fe8"
+      ],
       "text": "I'm on the hunt.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

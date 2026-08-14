@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_kill_anyhero_01.mp3",
   "revisions": [
     {
-      "sha256": "7c045fd04e4df8865862babe27235bc7bccc7d4d2f2fbe4fb66c72604ed593a8",
-      "text": "Dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ece73665dae066c78f2015238560a0639663ee76dc51b06148e0d961cc526099",
-      "text": "Dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a49aa8fa0f4b316a78353dd3a2de4f2184fd8786ccddbaf25218e6332b850be2",
+      "sha256": [
+        "7c045fd04e4df8865862babe27235bc7bccc7d4d2f2fbe4fb66c72604ed593a8",
+        "a49aa8fa0f4b316a78353dd3a2de4f2184fd8786ccddbaf25218e6332b850be2",
+        "ece73665dae066c78f2015238560a0639663ee76dc51b06148e0d961cc526099"
+      ],
       "text": "Dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

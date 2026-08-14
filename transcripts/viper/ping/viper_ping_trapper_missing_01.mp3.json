@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_trapper_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "dfd56d5e0b0f5fd4e1d9c396b0e42a6a3479ceb57c4cf9c06d2a5b0e80847ea6",
-      "text": "Trapper's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0668a66203d7872467d39e2ec7b1092c2695041c596a9fd5b0d2cf517fd3cba1",
+      "sha256": [
+        "0668a66203d7872467d39e2ec7b1092c2695041c596a9fd5b0d2cf517fd3cba1",
+        "dfd56d5e0b0f5fd4e1d9c396b0e42a6a3479ceb57c4cf9c06d2a5b0e80847ea6"
+      ],
       "text": "Trapper's missing",
       "source": "official"
     }

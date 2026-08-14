@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/dynamo_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ceeff2de184c729b713720e6e263e704968390332f2689f581168465589a7aa5",
+      "sha256": [
+        "ceeff2de184c729b713720e6e263e704968390332f2689f581168465589a7aa5"
+      ],
       "text": "The machine was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "b5e341b1cdcab92c7376a1f10bd07cdf776fc0e893303bd9f5adff048d9e7e4b",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3d9afa5c787038864951b8f8cbb5bcd85c0397d6ab330c01e1d488b4913b7beb",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8cfb200e20249d34575440637607610fb0636767897c918b6ca0a7ce33b0c251",
+      "sha256": [
+        "3d9afa5c787038864951b8f8cbb5bcd85c0397d6ab330c01e1d488b4913b7beb",
+        "8cfb200e20249d34575440637607610fb0636767897c918b6ca0a7ce33b0c251",
+        "b5e341b1cdcab92c7376a1f10bd07cdf776fc0e893303bd9f5adff048d9e7e4b"
+      ],
       "text": "Item's on cooldown",
       "source": "official"
     }

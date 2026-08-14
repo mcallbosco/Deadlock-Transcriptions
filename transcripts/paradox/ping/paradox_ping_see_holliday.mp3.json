@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_see_holliday.mp3",
   "revisions": [
     {
-      "sha256": "f0b75bbcc4742926e4c788446091e9b098bc497e6609996fdfdd3cc2b04898de",
-      "text": "I see Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b96623220839f8d27891a2a759ff998f01287ea66b5fcd43933b0b07be93f2a3",
+      "sha256": [
+        "b96623220839f8d27891a2a759ff998f01287ea66b5fcd43933b0b07be93f2a3",
+        "f0b75bbcc4742926e4c788446091e9b098bc497e6609996fdfdd3cc2b04898de"
+      ],
       "text": "I see Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

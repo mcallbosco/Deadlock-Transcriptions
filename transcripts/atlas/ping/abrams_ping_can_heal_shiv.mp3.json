@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_can_heal_shiv.mp3",
   "revisions": [
     {
-      "sha256": "99ae77d5d9332ed40e37f40636c523455c1e279c25d4f6a0a68be5e7c4aed36c",
+      "sha256": [
+        "99ae77d5d9332ed40e37f40636c523455c1e279c25d4f6a0a68be5e7c4aed36c"
+      ],
       "text": "Shit, I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ebacbd6336af7cf531460c9fbb9656152e1943868b8bcfcc6bff93862f86db32",
-      "text": "Shiv, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "178397296cbafc5d35bd1933554938d56e0c675849a9fbb0004fcf5c34170a24",
+      "sha256": [
+        "178397296cbafc5d35bd1933554938d56e0c675849a9fbb0004fcf5c34170a24",
+        "ebacbd6336af7cf531460c9fbb9656152e1943868b8bcfcc6bff93862f86db32"
+      ],
       "text": "Shiv, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

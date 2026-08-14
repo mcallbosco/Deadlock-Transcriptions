@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_tengu_was_here.mp3",
   "revisions": [
     {
-      "sha256": "6568d9190022623dbe22e9ade766eb86506699cddca940fadfef7bceacb389b3",
+      "sha256": [
+        "6568d9190022623dbe22e9ade766eb86506699cddca940fadfef7bceacb389b3"
+      ],
       "text": "Hi, do we see you?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

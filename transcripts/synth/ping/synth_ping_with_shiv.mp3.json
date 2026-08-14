@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_shiv.mp3",
   "revisions": [
     {
-      "sha256": "058459c98c846c6c394bda5c14af26b4edb6b0f94d37b44ab637ed8152ff1f4d",
+      "sha256": [
+        "058459c98c846c6c394bda5c14af26b4edb6b0f94d37b44ab637ed8152ff1f4d"
+      ],
       "text": "А мы тише.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

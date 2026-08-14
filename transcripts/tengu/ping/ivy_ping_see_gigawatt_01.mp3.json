@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_see_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "d801ba2372f6230f6f68fc08f3a49d5a7352f33141ffd0e75d44b48af0dd1b88",
+      "sha256": [
+        "d801ba2372f6230f6f68fc08f3a49d5a7352f33141ffd0e75d44b48af0dd1b88"
+      ],
       "text": "This is seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "041e65c666f7e505f9383f73f37d545209a0cf26f092cbb59dd0f7c047f5d7e8",
+      "sha256": [
+        "041e65c666f7e505f9383f73f37d545209a0cf26f092cbb59dd0f7c047f5d7e8"
+      ],
       "text": "That's the seven!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "360801a436db56eb029cf589db3c3155e8826efc2b7483156a91d75e1e855af3",
+      "sha256": [
+        "360801a436db56eb029cf589db3c3155e8826efc2b7483156a91d75e1e855af3"
+      ],
       "text": "I see seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

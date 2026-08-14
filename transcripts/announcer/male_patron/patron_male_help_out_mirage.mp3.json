@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_help_out_mirage.mp3",
   "revisions": [
     {
-      "sha256": "4dfc960381bf8eff6be9fc7708412d317c26999754dae0c56b13bba87819baac",
-      "text": "Mirage needs backup.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e28d0285c897d481b21557b6ff73f53265d0bd7293e27f8fda29ed439001e7a0",
+      "sha256": [
+        "4dfc960381bf8eff6be9fc7708412d317c26999754dae0c56b13bba87819baac",
+        "e28d0285c897d481b21557b6ff73f53265d0bd7293e27f8fda29ed439001e7a0"
+      ],
       "text": "Mirage needs backup.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

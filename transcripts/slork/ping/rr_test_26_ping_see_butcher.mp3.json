@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_butcher.mp3",
   "revisions": [
     {
-      "sha256": "816b91e8090920fc3fd2f4451e782a9968e1ed61aa48a40fea14aba3b0fd1135",
+      "sha256": [
+        "287601e7c84a123aaf3982ba97160020ec0d50d0bd7312b9749fa9e52e73d019",
+        "816b91e8090920fc3fd2f4451e782a9968e1ed61aa48a40fea14aba3b0fd1135"
+      ],
       "text": "I see butcher.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "287601e7c84a123aaf3982ba97160020ec0d50d0bd7312b9749fa9e52e73d019",
-      "text": "I see Butcher.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

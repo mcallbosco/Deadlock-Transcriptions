@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_ally_haze_pass_on_zipline_01.mp3",
   "revisions": [
     {
-      "sha256": "b97bffb8534b354476b58d79073ede7de39e39200a03a4200b006cef9c9e6554",
+      "sha256": [
+        "b97bffb8534b354476b58d79073ede7de39e39200a03a4200b006cef9c9e6554",
+        "f4437c0ec45bb5d6b0148476f478bb4df9ef7e88711c5c9bb3d635720f2f6064"
+      ],
       "text": "Have fun, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "19cadf4c41e884de0fa848c2420559826cb3fd6cc4f9bb9226819489b551ebe1",
+      "sha256": [
+        "19cadf4c41e884de0fa848c2420559826cb3fd6cc4f9bb9226819489b551ebe1"
+      ],
       "text": "Have fun, Ace.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f4437c0ec45bb5d6b0148476f478bb4df9ef7e88711c5c9bb3d635720f2f6064",
-      "text": "Have fun, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

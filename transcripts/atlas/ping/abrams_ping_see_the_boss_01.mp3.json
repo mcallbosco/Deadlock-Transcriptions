@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_the_boss_01.mp3",
   "revisions": [
     {
-      "sha256": "2d97009e8b8f593019cf05cb8a122885636242ba222c55f3ce228e8bc4a913e2",
-      "text": "I see the boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ca6decfb4466c9d030e29259475517d1e41b5b8e9cc79cf01356f9fdb4b3ca1",
+      "sha256": [
+        "2d97009e8b8f593019cf05cb8a122885636242ba222c55f3ce228e8bc4a913e2",
+        "8ca6decfb4466c9d030e29259475517d1e41b5b8e9cc79cf01356f9fdb4b3ca1"
+      ],
       "text": "I see the boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

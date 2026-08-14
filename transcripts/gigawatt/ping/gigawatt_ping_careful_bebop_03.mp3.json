@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_bebop_03.mp3",
   "revisions": [
     {
-      "sha256": "3f62972cbf2ad9808d809a1d6af55d249a0ac79db432af75b669248cceb3da5c",
+      "sha256": [
+        "3f62972cbf2ad9808d809a1d6af55d249a0ac79db432af75b669248cceb3da5c"
+      ],
       "text": "That's Groovy, Doc.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "de4ec265eaf935aefe3e32ac6941c526b7b2a956661d8e15509b3d3a263ae82a",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "921b3c2be620545b9626f7119f3ef311aa9bcff08dc8145972e043bed4b901a5",
-      "text": "Careful, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86ca4823abe9ddab3ac8ab216a4e41387d00fa6ef38f9e3c1e4e830523c0e388",
+      "sha256": [
+        "86ca4823abe9ddab3ac8ab216a4e41387d00fa6ef38f9e3c1e4e830523c0e388",
+        "921b3c2be620545b9626f7119f3ef311aa9bcff08dc8145972e043bed4b901a5",
+        "de4ec265eaf935aefe3e32ac6941c526b7b2a956661d8e15509b3d3a263ae82a"
+      ],
       "text": "Careful, Bebop!",
       "source": "official"
     }

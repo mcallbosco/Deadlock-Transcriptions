@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_use_power4_07.mp3",
   "revisions": [
     {
-      "sha256": "0699a9ffd5d4bc04b12aef87b8cf5bb955ba147fd7d4b76fff98a3dfa29be9b7",
+      "sha256": [
+        "0699a9ffd5d4bc04b12aef87b8cf5bb955ba147fd7d4b76fff98a3dfa29be9b7",
+        "5948270dbe4b1176cc01e2e7f744694d797919bafa74404ba546f652799b2390"
+      ],
       "text": "Shenanigans!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5948270dbe4b1176cc01e2e7f744694d797919bafa74404ba546f652799b2390",
-      "text": "Shenanigans.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

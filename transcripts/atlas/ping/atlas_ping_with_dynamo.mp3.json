@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_with_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "03c127e0d8ba40129ab0c51b0b4f4a1df359be8bda26dafbe025a7b96a546c42",
+      "sha256": [
+        "03c127e0d8ba40129ab0c51b0b4f4a1df359be8bda26dafbe025a7b96a546c42"
+      ],
       "text": "I'm with you, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

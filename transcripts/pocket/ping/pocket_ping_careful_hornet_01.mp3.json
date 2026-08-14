@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_careful_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "b4bfefdce099c3ec127e73280f783ddad52e781056aac26aefe7f57153cd9d06",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "482bfdf215b27637c00cb2c5f0f909145a3e6dc70d509e8629bb69b75b02148d",
+      "sha256": [
+        "482bfdf215b27637c00cb2c5f0f909145a3e6dc70d509e8629bb69b75b02148d",
+        "b4bfefdce099c3ec127e73280f783ddad52e781056aac26aefe7f57153cd9d06"
+      ],
       "text": "Careful, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

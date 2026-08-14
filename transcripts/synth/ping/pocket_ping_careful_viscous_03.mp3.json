@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_viscous_03.mp3",
   "revisions": [
     {
-      "sha256": "bde61bbdfda89746ac86a12b521ac67cb430815ebf46c66cd9400372bec11301",
-      "text": "Careful, Viscous.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a25403c668ec2528960f75c371e58ee5c583441adb26fd5952f3fabababb366b",
+      "sha256": [
+        "a25403c668ec2528960f75c371e58ee5c583441adb26fd5952f3fabababb366b",
+        "bde61bbdfda89746ac86a12b521ac67cb430815ebf46c66cd9400372bec11301"
+      ],
       "text": "Careful, Viscous.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

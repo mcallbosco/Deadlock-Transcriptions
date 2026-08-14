@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_atlas_02.mp3",
   "revisions": [
     {
-      "sha256": "39f47f08bbd225e46e002994861c32dff1a68bdbb871d94c87b987166cffd816",
-      "text": "Careful, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "144a0d5ff40ac09a36109d02f4152fe07e3ba60c58681b97816b7a0c62b237fc",
-      "text": "Careful, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00727c5c9494c1559503915c862010ee0edd878e256cd6e7eddb196cc7e297a6",
+      "sha256": [
+        "00727c5c9494c1559503915c862010ee0edd878e256cd6e7eddb196cc7e297a6",
+        "144a0d5ff40ac09a36109d02f4152fe07e3ba60c58681b97816b7a0c62b237fc",
+        "39f47f08bbd225e46e002994861c32dff1a68bdbb871d94c87b987166cffd816"
+      ],
       "text": "Careful, Abrams.",
       "source": "official"
     }

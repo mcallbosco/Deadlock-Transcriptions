@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_kelvin_check_items_1.mp3",
   "revisions": [
     {
-      "sha256": "deee979260f16fc8ffa71194b374f0dbaa8f31f22337a688f6b0fe7fad1d9190",
-      "text": "Check out what Kelvin bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0fd1ad77b346f638fdba86b3c30cc64bff1c5e6d306968ff73f38dc2b9254987",
+      "sha256": [
+        "0fd1ad77b346f638fdba86b3c30cc64bff1c5e6d306968ff73f38dc2b9254987",
+        "deee979260f16fc8ffa71194b374f0dbaa8f31f22337a688f6b0fe7fad1d9190"
+      ],
       "text": "Check out what Kelvin bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

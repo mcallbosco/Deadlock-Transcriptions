@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_sad_03.mp3",
   "revisions": [
     {
-      "sha256": "fae861d546fbe46dc321b5d26b9d1c88c24edc479cae4ab475cd966b8a1ca244",
-      "text": "Finally.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be28d15f8b2da112d0213b8ddb920b259f384e7b62c1ab6b430dd698f0ee24cb",
-      "text": "Finally.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "502548090943d54ff1aa879d86c5a99d3df5a9da4015577b4f982686d5d8f458",
+      "sha256": [
+        "502548090943d54ff1aa879d86c5a99d3df5a9da4015577b4f982686d5d8f458",
+        "be28d15f8b2da112d0213b8ddb920b259f384e7b62c1ab6b430dd698f0ee24cb",
+        "fae861d546fbe46dc321b5d26b9d1c88c24edc479cae4ab475cd966b8a1ca244"
+      ],
       "text": "Finally.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

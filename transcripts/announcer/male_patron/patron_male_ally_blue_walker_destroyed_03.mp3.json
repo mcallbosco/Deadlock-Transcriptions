@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_ally_blue_walker_destroyed_03.mp3",
   "revisions": [
     {
-      "sha256": "5c416e4ea2a5f9510fad31dc93ad9121809c3db68113d36da1ae7f5bf24191a3",
+      "sha256": [
+        "4ce3dfd96f03c4671b46a271e13a9bf0a281018edcff3b813b52584052e9f654",
+        "5c416e4ea2a5f9510fad31dc93ad9121809c3db68113d36da1ae7f5bf24191a3"
+      ],
       "text": "They destroyed the Walker on Broadway!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ce3dfd96f03c4671b46a271e13a9bf0a281018edcff3b813b52584052e9f654",
-      "text": "They destroyed the walker on Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "31d187d0fddd597ca0ff8b2f5647e85bc7227eeacdd4755ea02b0ec9666f8665",
+      "sha256": [
+        "31d187d0fddd597ca0ff8b2f5647e85bc7227eeacdd4755ea02b0ec9666f8665"
+      ],
       "text": "They've destroyed the walker on Broadway!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

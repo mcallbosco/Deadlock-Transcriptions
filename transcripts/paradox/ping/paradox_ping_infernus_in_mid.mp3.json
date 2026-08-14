@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_infernus_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "b2d4748c44fe432ab257eb9b16356d6b6b7c4577e72c011ee161707eb7dbedec",
-      "text": "Infernus is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "82678468ebdc4694c6e393a08d021aeea34c785d4eb837fe43f91e2a4a27ff1b",
+      "sha256": [
+        "82678468ebdc4694c6e393a08d021aeea34c785d4eb837fe43f91e2a4a27ff1b",
+        "b2d4748c44fe432ab257eb9b16356d6b6b7c4577e72c011ee161707eb7dbedec"
+      ],
       "text": "Infernus is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

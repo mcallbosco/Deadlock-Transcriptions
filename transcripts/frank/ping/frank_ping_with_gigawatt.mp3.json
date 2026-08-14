@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_with_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "e1c0cf20de4a6b2c71e8524efedb9f349ca08b8f1ddbf2c9a18d11c1bd0e0d3b",
+      "sha256": [
+        "23d5ff79d796d07e9b3fd4b693a3d30b4b0177cb68eea2e6defd5757a6544de5",
+        "e1c0cf20de4a6b2c71e8524efedb9f349ca08b8f1ddbf2c9a18d11c1bd0e0d3b"
+      ],
       "text": "I'm with you, seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23d5ff79d796d07e9b3fd4b693a3d30b4b0177cb68eea2e6defd5757a6544de5",
-      "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

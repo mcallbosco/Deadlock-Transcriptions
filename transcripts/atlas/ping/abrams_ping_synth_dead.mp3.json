@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "c9ddb9e4c87d3791ac34792802788e8194f869cf2ff42c23199bdb52f6fc20ee",
-      "text": "Pocket is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb36a0d7b53d62b25d179b06e993f72512a147b4bbcfc0085916eee9acacbe1e",
-      "text": "Pocket is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b885b10abf281ebdc6a85737f96fd2b6544993356358976028de4cde45585ac4",
+      "sha256": [
+        "b885b10abf281ebdc6a85737f96fd2b6544993356358976028de4cde45585ac4",
+        "c9ddb9e4c87d3791ac34792802788e8194f869cf2ff42c23199bdb52f6fc20ee",
+        "eb36a0d7b53d62b25d179b06e993f72512a147b4bbcfc0085916eee9acacbe1e"
+      ],
       "text": "Pocket is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

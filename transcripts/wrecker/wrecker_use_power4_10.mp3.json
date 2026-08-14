@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/wrecker_use_power4_10.mp3",
   "revisions": [
     {
-      "sha256": "4213a8d6878982b6393f75730c436086c375b508c71978e9eb818153802da05b",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "faac66776e5a16c0901daefc9d480cc22fcda41b51af9078ed8a22b59b3896ef",
+      "sha256": [
+        "4213a8d6878982b6393f75730c436086c375b508c71978e9eb818153802da05b",
+        "faac66776e5a16c0901daefc9d480cc22fcda41b51af9078ed8a22b59b3896ef"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

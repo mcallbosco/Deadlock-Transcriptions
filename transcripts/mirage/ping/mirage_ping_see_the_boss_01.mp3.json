@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_the_boss_01.mp3",
   "revisions": [
     {
-      "sha256": "c28c6ab52263cdc22582d454d5a903378582326563a3b93fb50aae93a5b617f3",
+      "sha256": [
+        "c28c6ab52263cdc22582d454d5a903378582326563a3b93fb50aae93a5b617f3"
+      ],
       "text": "I said boss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

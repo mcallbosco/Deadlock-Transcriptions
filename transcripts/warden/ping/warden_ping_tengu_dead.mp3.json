@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_tengu_dead.mp3",
   "revisions": [
     {
-      "sha256": "d3069ae301157cc6b8508ed8e920d64b7e232fa56dec321a81ee3396c5392286",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "870e4e7b829f5d1e7eee044ae71a8cbcb572ffb159db68b5220c0a55245788d7",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1a391a5b16b2cd1f9ed81638aab2f497067d6b3ce05c0e263fde4b4cf83d664",
-      "text": "Ivy is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac91a0248abfc620c0a8d4af5bbc4bea726426284cfa39e9a7dba0522d047889",
+      "sha256": [
+        "870e4e7b829f5d1e7eee044ae71a8cbcb572ffb159db68b5220c0a55245788d7",
+        "ac91a0248abfc620c0a8d4af5bbc4bea726426284cfa39e9a7dba0522d047889",
+        "c1a391a5b16b2cd1f9ed81638aab2f497067d6b3ce05c0e263fde4b4cf83d664",
+        "d3069ae301157cc6b8508ed8e920d64b7e232fa56dec321a81ee3396c5392286"
+      ],
       "text": "Ivy is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

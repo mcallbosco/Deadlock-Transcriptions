@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "2ba7b3ca23563300920eba40f0bab4e6cafe006a993ff329d26605779ccabcd7",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3850ef51c7e7b803ec8aa7e6d794808fe2f750a65135680acedca75e3b25ab98",
+      "sha256": [
+        "2ba7b3ca23563300920eba40f0bab4e6cafe006a993ff329d26605779ccabcd7",
+        "3850ef51c7e7b803ec8aa7e6d794808fe2f750a65135680acedca75e3b25ab98"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

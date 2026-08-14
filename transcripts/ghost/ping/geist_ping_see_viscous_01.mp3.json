@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "461372d35e3ea1ebe1a150ef08975f73ba1b1c7255c35adfafd469fa4ac370f5",
+      "sha256": [
+        "461372d35e3ea1ebe1a150ef08975f73ba1b1c7255c35adfafd469fa4ac370f5"
+      ],
       "text": "I see these.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "95d5665459685ad499137906ce8011757343ada8d76fe85a055bd8b5a110e1b2",
+      "sha256": [
+        "95d5665459685ad499137906ce8011757343ada8d76fe85a055bd8b5a110e1b2"
+      ],
       "text": "I see you,",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

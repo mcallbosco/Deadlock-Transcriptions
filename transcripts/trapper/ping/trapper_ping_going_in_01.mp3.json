@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "600458f6a5892f19f49e6b27cdf4f45e8aebf5bf232deca815fc712085837cd1",
+      "sha256": [
+        "600458f6a5892f19f49e6b27cdf4f45e8aebf5bf232deca815fc712085837cd1"
+      ],
       "text": "I'm going in!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

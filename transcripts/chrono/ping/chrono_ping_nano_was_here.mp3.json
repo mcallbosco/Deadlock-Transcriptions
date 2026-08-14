@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_nano_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3a6474ba4183f8edf458e1d423326b91225fb85dbf5582028d5fb70f829d66aa",
+      "sha256": [
+        "3a6474ba4183f8edf458e1d423326b91225fb85dbf5582028d5fb70f829d66aa"
+      ],
       "text": "Calico is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "395fae640b8d0f4ed50bb85e876666da39ca1087018b2dbc665a455f97777e58",
+      "sha256": [
+        "395fae640b8d0f4ed50bb85e876666da39ca1087018b2dbc665a455f97777e58"
+      ],
       "text": "Calico was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

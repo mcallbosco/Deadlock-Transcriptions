@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit surviving legacy transcript corrections against the v2 transcript tree.
+"""Audit surviving legacy transcript corrections against the v3 transcript tree.
 
 This command is intentionally read-only with respect to transcript and category
 content. It reads both layouts from Git objects, identifies surviving text-only
@@ -19,6 +19,8 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path, PurePosixPath
 from typing import Any, Iterable
+
+from transcript_schema import TRANSCRIPT_SCHEMA_VERSION
 
 
 REPORT_SCHEMA_VERSION = 1
@@ -322,7 +324,11 @@ def build_target_index(
     for path, document in target_documents.items():
         filename = document.get("filename")
         values = document.get("revisions")
-        if document.get("schemaVersion") != 2 or not isinstance(filename, str) or not isinstance(values, list):
+        if (
+            document.get("schemaVersion") != TRANSCRIPT_SCHEMA_VERSION
+            or not isinstance(filename, str)
+            or not isinstance(values, list)
+        ):
             raise AuditError(f"Unsupported target transcript structure: {path}")
         expected = f"{target_prefix.rstrip('/')}/{filename}.json"
         if path.casefold() != expected.casefold():
@@ -333,6 +339,9 @@ def build_target_index(
                 raise AuditError(f"Target revision {index} is not an object: {path}")
             if not isinstance(revision.get("text"), str) or not isinstance(revision.get("source"), str):
                 raise AuditError(f"Target revision {index} has an invalid text/source: {path}")
+            hashes = revision.get("sha256")
+            if not isinstance(hashes, list) or any(not valid_sha256(value) for value in hashes):
+                raise AuditError(f"Target revision {index} has invalid SHA-256 values: {path}")
             normalized_revisions.append(revision)
             revisions += 1
             official_revisions += revision.get("source") == "official"
@@ -382,7 +391,16 @@ def target_matches(record: dict[str, Any], target_index: dict[str, list[dict[str
                 {
                     "path": document["path"],
                     "filename": document["filename"],
-                    "sha256": revision.get("sha256"),
+                    "sha256": (
+                        revision["sha256"][0]
+                        if isinstance(revision.get("sha256"), list) and revision["sha256"]
+                        else None
+                    ),
+                    "groupSha256": (
+                        revision["sha256"]
+                        if isinstance(revision.get("sha256"), list)
+                        else []
+                    ),
                     "source": source,
                     "match": match_kind,
                     "proposedAction": action,

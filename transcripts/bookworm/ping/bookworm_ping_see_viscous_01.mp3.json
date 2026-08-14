@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_viscous_01.mp3",
   "revisions": [
     {
-      "sha256": "dc10968ed1ade5a734f5d96e9956be234bb3c874678261c0744b4ea8661d7b20",
+      "sha256": [
+        "dc10968ed1ade5a734f5d96e9956be234bb3c874678261c0744b4ea8661d7b20"
+      ],
       "text": "I see success.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1cf12d4dc7be020f76bbd732cd3de73097c2fba604fd3794e24342009f3c7b75",
+      "sha256": [
+        "1cf12d4dc7be020f76bbd732cd3de73097c2fba604fd3794e24342009f3c7b75"
+      ],
       "text": "I see Viscous.",
       "source": "official"
     }

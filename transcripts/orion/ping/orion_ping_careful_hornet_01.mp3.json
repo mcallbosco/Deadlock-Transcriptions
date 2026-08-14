@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_careful_hornet_01.mp3",
   "revisions": [
     {
-      "sha256": "2491709edab449ea07908f30b8b184667dbc68ad809b2f98fe5cb44954659a9d",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "2491709edab449ea07908f30b8b184667dbc68ad809b2f98fe5cb44954659a9d",
+        "f6296ed54b703c8d3ad0119e5e9b158a8b2f3e5aca5d4e686b9605fd1b309237",
+        "fbd9ff5cd26cf76b7628ed4b8989cea097e346d4f9726c32b79a6f504fc4804d"
+      ],
+      "text": "Careful, vindicta…",
+      "source": "official"
     },
     {
-      "sha256": "7eb615a675a04e1256d54d2cc3e0511527fb2c52546927c0be145cac1aaf94b0",
+      "sha256": [
+        "7eb615a675a04e1256d54d2cc3e0511527fb2c52546927c0be145cac1aaf94b0"
+      ],
       "text": "Careful, Vendetta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fbd9ff5cd26cf76b7628ed4b8989cea097e346d4f9726c32b79a6f504fc4804d",
-      "text": "Careful, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f6296ed54b703c8d3ad0119e5e9b158a8b2f3e5aca5d4e686b9605fd1b309237",
-      "text": "Careful, vindicta…",
-      "source": "official"
     }
   ]
 }

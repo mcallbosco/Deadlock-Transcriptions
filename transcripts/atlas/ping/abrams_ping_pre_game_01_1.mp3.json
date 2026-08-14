@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_pre_game_01_1.mp3",
   "revisions": [
     {
-      "sha256": "83708b4878b16ffca1116ebc8cd2ade5c1110601f1402228215dec3be422fb95",
-      "text": "I'm on the case.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "673219fce3471b7ed31a29abf06ccfbc969263dafd0f6c727de3656548ea92b6",
+      "sha256": [
+        "673219fce3471b7ed31a29abf06ccfbc969263dafd0f6c727de3656548ea92b6",
+        "83708b4878b16ffca1116ebc8cd2ade5c1110601f1402228215dec3be422fb95"
+      ],
       "text": "I'm on the case.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

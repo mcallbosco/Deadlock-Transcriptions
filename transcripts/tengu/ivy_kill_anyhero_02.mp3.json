@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_kill_anyhero_02.mp3",
   "revisions": [
     {
-      "sha256": "c9609526332aa118ba379024395a1d7c8b07ee9524ba1abdd7043772e959c2ab",
-      "text": "This is my city.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "af19fa07076f0f6844b6c69f100d8c2d2d2cdba4416bcc15852a7d6812a188ee",
-      "text": "This is my city.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "63fd751d33e730b261dae03b6b1c8c08d99050ad6b563d3fff0847126be2d2bf",
+      "sha256": [
+        "63fd751d33e730b261dae03b6b1c8c08d99050ad6b563d3fff0847126be2d2bf",
+        "af19fa07076f0f6844b6c69f100d8c2d2d2cdba4416bcc15852a7d6812a188ee",
+        "c9609526332aa118ba379024395a1d7c8b07ee9524ba1abdd7043772e959c2ab"
+      ],
       "text": "This is my city.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

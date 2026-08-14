@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_vindicta_01.mp3",
   "revisions": [
     {
-      "sha256": "78c75354daf43c417345200f57158f5438e6043f653e7f8a3aeef3b7b62ac682",
-      "text": "I see Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c9923be520b7234a1b2830219f556c4a912cba54f3148ec3bd6f37c575e5464",
+      "sha256": [
+        "2c9923be520b7234a1b2830219f556c4a912cba54f3148ec3bd6f37c575e5464",
+        "78c75354daf43c417345200f57158f5438e6043f653e7f8a3aeef3b7b62ac682"
+      ],
       "text": "I see Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

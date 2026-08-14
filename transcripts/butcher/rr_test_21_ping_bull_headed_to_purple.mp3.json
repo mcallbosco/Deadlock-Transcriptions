@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_bull_headed_to_purple.mp3",
   "revisions": [
     {
-      "sha256": "9a984ed37578c2de6ae9638a991bab13774f9f56aa6f3447f71eeb899668107a",
+      "sha256": [
+        "9a984ed37578c2de6ae9638a991bab13774f9f56aa6f3447f71eeb899668107a",
+        "dc7f92857e1138c8c9e47009730170f60ef74dc965db67976df2944496757b2d"
+      ],
       "text": "Pulls headed to purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b63a457e6d570d6c5fbb2fc82271ec32702ba92ed4ccb2b68703cc53d4213f34",
+      "sha256": [
+        "b63a457e6d570d6c5fbb2fc82271ec32702ba92ed4ccb2b68703cc53d4213f34"
+      ],
       "text": "Pulse headed to purple!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc7f92857e1138c8c9e47009730170f60ef74dc965db67976df2944496757b2d",
-      "text": "Pulls headed to purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_theyre_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "f3b311ad7c8ed2633c3a88ee318a523f0cbf68aa02d49a2e1ba2aff87eab799e",
-      "text": "They're on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37c62d309b1309a815ea6531febc513e104653178cb5ab434f8ddb44d54959c9",
-      "text": "They're on top of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5b1d47891210fa2ff9f9ff4e7f6deb71a71bf9072a2bc2736051dbab6a77fac8",
+      "sha256": [
+        "37c62d309b1309a815ea6531febc513e104653178cb5ab434f8ddb44d54959c9",
+        "5b1d47891210fa2ff9f9ff4e7f6deb71a71bf9072a2bc2736051dbab6a77fac8",
+        "f3b311ad7c8ed2633c3a88ee318a523f0cbf68aa02d49a2e1ba2aff87eab799e"
+      ],
       "text": "They're on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

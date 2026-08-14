@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_upgrade_power2_07.mp3",
   "revisions": [
     {
-      "sha256": "acd319731377a702eb7b757ce365b028cebb97c5aa76f652a64640b277d2d3b8",
+      "sha256": [
+        "acd319731377a702eb7b757ce365b028cebb97c5aa76f652a64640b277d2d3b8",
+        "ef44cd331674ecf715c5b57c7ad8a4bb69aff8dfb79dd2f6879049e49648b9f7"
+      ],
       "text": "I'll be gone for the new year.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ef44cd331674ecf715c5b57c7ad8a4bb69aff8dfb79dd2f6879049e49648b9f7",
-      "text": "I'll be gone for the new year.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "61bdfd79c74d9aa4ee67c595e0b1c5f1ddb5d3b7bb76c7e598874ad70dcaa2b0",
+      "sha256": [
+        "61bdfd79c74d9aa4ee67c595e0b1c5f1ddb5d3b7bb76c7e598874ad70dcaa2b0"
+      ],
       "text": "I'll be gone before they know what hit 'em",
       "source": "official"
     }

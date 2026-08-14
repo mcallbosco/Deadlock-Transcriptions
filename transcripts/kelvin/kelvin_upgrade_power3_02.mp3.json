@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_upgrade_power3_02.mp3",
   "revisions": [
     {
-      "sha256": "ba5bd65a0a36c4966952321a56f9095ec72bb106c2093aea3dea4f84c189337b",
+      "sha256": [
+        "ba5bd65a0a36c4966952321a56f9095ec72bb106c2093aea3dea4f84c189337b"
+      ],
       "text": "A grave is key.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4f78b0118f27d73f9e8270498d34efc69305093bd01d2432041104e8d747353f",
+      "sha256": [
+        "4f78b0118f27d73f9e8270498d34efc69305093bd01d2432041104e8d747353f"
+      ],
       "text": "Mobility is key.",
       "source": "official"
     }

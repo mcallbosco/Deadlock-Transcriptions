@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_yamato_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d68b7e660fc9b5f5c0669b0538472c66e1c2caf39cea86a39ba29be95ccf19e3",
-      "text": "Yamato was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ae97ffa0cf5d1598f0ecfa117884755fa1372792790d1c39aa1eed25a5f2e5b",
+      "sha256": [
+        "9ae97ffa0cf5d1598f0ecfa117884755fa1372792790d1c39aa1eed25a5f2e5b",
+        "d68b7e660fc9b5f5c0669b0538472c66e1c2caf39cea86a39ba29be95ccf19e3"
+      ],
       "text": "Yamato was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

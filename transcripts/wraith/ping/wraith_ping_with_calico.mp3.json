@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_with_calico.mp3",
   "revisions": [
     {
-      "sha256": "d07a576beff7449d3ee4543d55ec06d9a877e77f36f52b8a6ca20d20235a795c",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c266c97b54afdc003006dc1f4d81568193b20181ff80b946f4774af08657b890",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f2949859385dc311e30ca4f5d63521af60a5384bbb3e40d338dc1f09feeb6d78",
+      "sha256": [
+        "c266c97b54afdc003006dc1f4d81568193b20181ff80b946f4774af08657b890",
+        "d07a576beff7449d3ee4543d55ec06d9a877e77f36f52b8a6ca20d20235a795c",
+        "f2949859385dc311e30ca4f5d63521af60a5384bbb3e40d338dc1f09feeb6d78"
+      ],
       "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

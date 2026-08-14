@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_saw_inferno.mp3",
   "revisions": [
     {
-      "sha256": "d31ae1338bb2d08aa48d91d6f2d4d265bd4077db19a8751eece6d8e9ea5b7969",
+      "sha256": [
+        "d31ae1338bb2d08aa48d91d6f2d4d265bd4077db19a8751eece6d8e9ea5b7969"
+      ],
       "text": "My song first.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "00b6ecd41994e765f00ee465c5d0817a3c16c3cf462f5e7f92ebbf27b1fdff93",
+      "sha256": [
+        "00b6ecd41994e765f00ee465c5d0817a3c16c3cf462f5e7f92ebbf27b1fdff93"
+      ],
       "text": "I saw Infernus.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

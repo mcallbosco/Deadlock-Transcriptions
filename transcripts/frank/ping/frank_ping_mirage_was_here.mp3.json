@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "ecccfd8cd65d6765283a2de981737be8183e638eecd6e3ec1bb2b18b4915bc51",
-      "text": "Mirage was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e301ac370f083909d4a743a41f49cbdf14f867104b79a7e8534b2a3c13eccd4e",
+      "sha256": [
+        "e301ac370f083909d4a743a41f49cbdf14f867104b79a7e8534b2a3c13eccd4e",
+        "ecccfd8cd65d6765283a2de981737be8183e638eecd6e3ec1bb2b18b4915bc51"
+      ],
       "text": "Mirage was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

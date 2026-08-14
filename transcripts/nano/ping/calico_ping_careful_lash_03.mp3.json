@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_careful_lash_03.mp3",
   "revisions": [
     {
-      "sha256": "d31157a72b8852a397e31080ab9d071fcdd34aea0e88b61467d6e1b08a5803fc",
+      "sha256": [
+        "9d33988bb5c87a7685c72ea57bf0d8168652157f08fd3714fcd1915876a162a1",
+        "d31157a72b8852a397e31080ab9d071fcdd34aea0e88b61467d6e1b08a5803fc"
+      ],
       "text": "Careful lash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9d33988bb5c87a7685c72ea57bf0d8168652157f08fd3714fcd1915876a162a1",
-      "text": "Careful Lash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

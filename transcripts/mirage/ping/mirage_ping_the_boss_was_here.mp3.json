@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_the_boss_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0433eeff21ab8e260d7264fb70dfa8b182a675c85b9e4812d660cab9fb17adec",
+      "sha256": [
+        "0433eeff21ab8e260d7264fb70dfa8b182a675c85b9e4812d660cab9fb17adec"
+      ],
       "text": "The buff was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

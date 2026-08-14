@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_shiv_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3af5e2a3d6f8bc53cd027732acf752e16945e3039b2e8f24021172b98644a30e",
+      "sha256": [
+        "3af5e2a3d6f8bc53cd027732acf752e16945e3039b2e8f24021172b98644a30e"
+      ],
       "text": "She's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "81a4328ceae5c1882cda5bd589dbe8c3169d5de22ab37ad40d59de5b731f4c12",
+      "sha256": [
+        "81a4328ceae5c1882cda5bd589dbe8c3169d5de22ab37ad40d59de5b731f4c12"
+      ],
       "text": "Shiv's missing.",
       "source": "official"
     }

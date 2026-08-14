@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_infernus_was_here.mp3",
   "revisions": [
     {
-      "sha256": "217ee9d801318a1873447b1cf6f8ecfed29156e1d224e2ccb67d63a29adaa6f6",
-      "text": "Infernus was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4623ab74c6e32f845d021b4d4cff5dafe33ad10752de99223271f94be91d30cf",
+      "sha256": [
+        "217ee9d801318a1873447b1cf6f8ecfed29156e1d224e2ccb67d63a29adaa6f6",
+        "4623ab74c6e32f845d021b4d4cff5dafe33ad10752de99223271f94be91d30cf"
+      ],
       "text": "Infernus was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "9be22de9db25a66539a7eaf6a30edfc4b984207d0c9c79c32c83cd5fcb4d5b9d",
+      "sha256": [
+        "2f0bb6bf7b74f61f750c44739f574640dbcbab86d29a9415382346c55da88a84",
+        "9be22de9db25a66539a7eaf6a30edfc4b984207d0c9c79c32c83cd5fcb4d5b9d",
+        "ae56624e9c5016e9e86d91e69699d5922134e1f1b061f279fa20e9d0033b2301"
+      ],
       "text": "He's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ae56624e9c5016e9e86d91e69699d5922134e1f1b061f279fa20e9d0033b2301",
-      "text": "He's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f0bb6bf7b74f61f750c44739f574640dbcbab86d29a9415382346c55da88a84",
-      "text": "He's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9b23bd92ad031834396e26b369a1fbdcd3ac2dd24ee2b1d701c5569511b2ca8c",
+      "sha256": [
+        "9b23bd92ad031834396e26b369a1fbdcd3ac2dd24ee2b1d701c5569511b2ca8c"
+      ],
       "text": "Haze's missing",
       "source": "official"
     }

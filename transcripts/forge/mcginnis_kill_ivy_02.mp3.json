@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_kill_ivy_02.mp3",
   "revisions": [
     {
-      "sha256": "18b37897381c1cd576b4c4bab90aa7f22b3cb5bede89ccce103e3e4305081a91",
+      "sha256": [
+        "18b37897381c1cd576b4c4bab90aa7f22b3cb5bede89ccce103e3e4305081a91",
+        "7d0d5f4fc015338c153adcd0c9deed80f488116e4f22e09468f2590e49a84002"
+      ],
       "text": "Stop driving.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d0d5f4fc015338c153adcd0c9deed80f488116e4f22e09468f2590e49a84002",
-      "text": "Stop driving!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

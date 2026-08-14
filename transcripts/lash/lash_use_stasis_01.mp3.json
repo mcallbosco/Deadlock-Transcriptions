@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_use_stasis_01.mp3",
   "revisions": [
     {
-      "sha256": "02678c70a9bd32ea3d6570ca12c5ecbb2b57dab821acc148bf1fba96317a7b9e",
-      "text": "Lockdown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4e705cbd60eb7a77c800ff1bf03c334c936854dac885292badd9689a3d7f3f7",
-      "text": "Lockdown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "89e229c3690b3c06cd6f972595a1a6595fe850ce51108c437095862a565922ea",
+      "sha256": [
+        "02678c70a9bd32ea3d6570ca12c5ecbb2b57dab821acc148bf1fba96317a7b9e",
+        "89e229c3690b3c06cd6f972595a1a6595fe850ce51108c437095862a565922ea",
+        "c4e705cbd60eb7a77c800ff1bf03c334c936854dac885292badd9689a3d7f3f7"
+      ],
       "text": "Lockdown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

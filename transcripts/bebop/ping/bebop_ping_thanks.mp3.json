@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "aa45e24c42286c13daf45272126be36c6bbc92bdc744604959a8b57c1e2d46e8",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0869e122768c6fdcf32f74a6584ead765d1dba1965301321b49c88c862a9e324",
+      "sha256": [
+        "0869e122768c6fdcf32f74a6584ead765d1dba1965301321b49c88c862a9e324",
+        "aa45e24c42286c13daf45272126be36c6bbc92bdc744604959a8b57c1e2d46e8"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

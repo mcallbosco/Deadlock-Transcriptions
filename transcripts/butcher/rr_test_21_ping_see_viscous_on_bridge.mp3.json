@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_viscous_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "4eea9d5b8127e0a8aa4c5b1e6433c5791692a94010699a8e78298f66b86b14a3",
-      "text": "Viscous is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18eebe4a5ee50e16f6c035de5ba799eed36a3a79cc688da19142345af080771d",
-      "text": "Viscous is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aad40398679dd66ce74887bed3626ddc09176822fa429d7e694af768a320c70c",
+      "sha256": [
+        "18eebe4a5ee50e16f6c035de5ba799eed36a3a79cc688da19142345af080771d",
+        "4eea9d5b8127e0a8aa4c5b1e6433c5791692a94010699a8e78298f66b86b14a3",
+        "aad40398679dd66ce74887bed3626ddc09176822fa429d7e694af768a320c70c"
+      ],
       "text": "Viscous is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

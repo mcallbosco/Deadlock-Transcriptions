@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_infernus_check_items.mp3",
   "revisions": [
     {
-      "sha256": "e40cf5f6134d312a00fe6ca551157f8f21b86541d6b0e80ee517c90faffa6cc6",
-      "text": "Check out what Infernus bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "acc0c9b8fe57ea493f786bf93b6bdfd9f35dd9f0941976912ec7e90db8a6e243",
+      "sha256": [
+        "acc0c9b8fe57ea493f786bf93b6bdfd9f35dd9f0941976912ec7e90db8a6e243",
+        "e40cf5f6134d312a00fe6ca551157f8f21b86541d6b0e80ee517c90faffa6cc6"
+      ],
       "text": "Check out what Infernus bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

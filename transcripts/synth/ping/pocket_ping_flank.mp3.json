@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_flank.mp3",
   "revisions": [
     {
-      "sha256": "f462e4c0f78f08a91f52d9a01da57cb29426332a3b24ca13d9af51bce41230ed",
-      "text": "I'll flank him.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6678376309d02f044020e22a8e17133e8a5a1b45bdbe897912de80a1e3fa70bd",
+      "sha256": [
+        "6678376309d02f044020e22a8e17133e8a5a1b45bdbe897912de80a1e3fa70bd",
+        "f462e4c0f78f08a91f52d9a01da57cb29426332a3b24ca13d9af51bce41230ed"
+      ],
       "text": "I'll flank him.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

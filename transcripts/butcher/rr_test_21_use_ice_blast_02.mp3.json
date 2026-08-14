@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_ice_blast_02.mp3",
   "revisions": [
     {
-      "sha256": "5da729d8ae076c7ce124ff963672ff64a972bb476e9f21b78e1d7b31141ef258",
-      "text": "I'll kill all around me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a222aed6932df2d112d5d13960bf90accff7a36e2fe27019826abe830b2068ee",
-      "text": "I'll kill all around me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7c1e1808e537eff0dcfb41054ac8484ac459c96f14cfbe0e6f03671e6e558891",
+      "sha256": [
+        "5da729d8ae076c7ce124ff963672ff64a972bb476e9f21b78e1d7b31141ef258",
+        "7c1e1808e537eff0dcfb41054ac8484ac459c96f14cfbe0e6f03671e6e558891",
+        "a222aed6932df2d112d5d13960bf90accff7a36e2fe27019826abe830b2068ee"
+      ],
       "text": "I'll kill all around me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

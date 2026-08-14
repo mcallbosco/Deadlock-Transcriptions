@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_headed_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "c5883b2f6c4c13cd30b97e3f9a252b964e950ef6c24bfe7d3827635c378a252b",
+      "sha256": [
+        "c5883b2f6c4c13cd30b97e3f9a252b964e950ef6c24bfe7d3827635c378a252b"
+      ],
       "text": "Count the purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f14bd399ff188c4972211f737ae347be37e077ca5d33ed6d1b6b13fdfa3468a1",
+      "sha256": [
+        "f14bd399ff188c4972211f737ae347be37e077ca5d33ed6d1b6b13fdfa3468a1"
+      ],
       "text": "Kill the purple!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

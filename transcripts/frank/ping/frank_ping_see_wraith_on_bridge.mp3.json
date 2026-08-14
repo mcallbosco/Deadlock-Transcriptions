@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_wraith_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "5ab94d6dfa43ddf6c1e3224643fe82932c4c6f6917d765c6af3efe536af7d8a4",
+      "sha256": [
+        "5ab94d6dfa43ddf6c1e3224643fe82932c4c6f6917d765c6af3efe536af7d8a4"
+      ],
       "text": "Grace on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "28d6dcc04a08ed4eded40b5e54e8c012ec73b56b1f28f06c6f01de55c48de019",
+      "sha256": [
+        "28d6dcc04a08ed4eded40b5e54e8c012ec73b56b1f28f06c6f01de55c48de019"
+      ],
       "text": "Wraith's on the bridge!",
       "source": "official"
     }

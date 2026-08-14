@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_careful_mirage_02.mp3",
   "revisions": [
     {
-      "sha256": "7af4bc6533032b3b06235cab08bdcf8adfe338918a7d49e53899cb9e30edfd64",
-      "text": "Careful, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a66b6367c15f78621d05b59c63d11acdf9474a212ee4e2dba1d8d7632fced3d",
+      "sha256": [
+        "7af4bc6533032b3b06235cab08bdcf8adfe338918a7d49e53899cb9e30edfd64",
+        "9a66b6367c15f78621d05b59c63d11acdf9474a212ee4e2dba1d8d7632fced3d"
+      ],
       "text": "Careful, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

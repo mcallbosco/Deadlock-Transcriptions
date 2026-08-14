@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/sandbox_test_your_controls.mp3",
   "revisions": [
     {
-      "sha256": "5918b893773f207e002bae7419d235e269fb858e64fb481c9f6861f8993dce23",
-      "text": "Use this area to test out your controls.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23e89b5c4f6fb572c0195732ca8293b8d0501a3ef15ea626a878c2a0c6639d04",
+      "sha256": [
+        "23e89b5c4f6fb572c0195732ca8293b8d0501a3ef15ea626a878c2a0c6639d04",
+        "5918b893773f207e002bae7419d235e269fb858e64fb481c9f6861f8993dce23"
+      ],
       "text": "Use this area to test out your controls.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

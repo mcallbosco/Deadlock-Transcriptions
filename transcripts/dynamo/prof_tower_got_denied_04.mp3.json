@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/prof_tower_got_denied_04.mp3",
   "revisions": [
     {
-      "sha256": "c87b99e1d0feb3b7ce15fa3ba6468b920d75a7a748187ff2dd36870c76e53689",
+      "sha256": [
+        "c87b99e1d0feb3b7ce15fa3ba6468b920d75a7a748187ff2dd36870c76e53689",
+        "fe8bdc78446968c2c7fc17feca597b460b687a8597f44ba533e0c4634459f062"
+      ],
       "text": "Okay, objective's down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe8bdc78446968c2c7fc17feca597b460b687a8597f44ba533e0c4634459f062",
-      "text": "Okay, objective's down.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

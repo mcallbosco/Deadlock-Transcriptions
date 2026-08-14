@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_gigawatt.mp3",
   "revisions": [
     {
-      "sha256": "86e8b4b005cfab83e758c6719ddcb5cb79a3036784939c4f947301145bbda0e2",
+      "sha256": [
+        "86e8b4b005cfab83e758c6719ddcb5cb79a3036784939c4f947301145bbda0e2"
+      ],
       "text": "I see gigawatts!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "acde78cb0a6c05581ab8e890d55a6739257776f08c2534b745a0feaefc1ee1cc",
+      "sha256": [
+        "115f940a6e26ad47f3e3d890b7253e91bee7f99c58f431fdb5d11530fef2100c",
+        "acde78cb0a6c05581ab8e890d55a6739257776f08c2534b745a0feaefc1ee1cc"
+      ],
       "text": "I see big a lot.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "115f940a6e26ad47f3e3d890b7253e91bee7f99c58f431fdb5d11530fef2100c",
-      "text": "I see big a lot!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_seven_missing_01_1.mp3",
   "revisions": [
     {
-      "sha256": "9c7789ec419456dbcc811a70f8077b156bb93ba98bf9b03962df8c4b2a72194a",
-      "text": "Seven's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1f02fd81a1f38d900da1f76587f7023dd90e7f11e64fe9eb087fc1a8335f9e8f",
+      "sha256": [
+        "1f02fd81a1f38d900da1f76587f7023dd90e7f11e64fe9eb087fc1a8335f9e8f",
+        "9c7789ec419456dbcc811a70f8077b156bb93ba98bf9b03962df8c4b2a72194a"
+      ],
       "text": "Seven's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

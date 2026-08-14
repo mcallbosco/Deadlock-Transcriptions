@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_attack_yamato.mp3",
   "revisions": [
     {
-      "sha256": "0ff9c2923feaa05cff96a833e09273b6d5f687c78e9539444d8d330c0725216f",
-      "text": "Let's take out Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b63e562bb379f71c90d64422c90bdcd67bb9de0147454b814b531c8855f6c46f",
+      "sha256": [
+        "0ff9c2923feaa05cff96a833e09273b6d5f687c78e9539444d8d330c0725216f",
+        "b63e562bb379f71c90d64422c90bdcd67bb9de0147454b814b531c8855f6c46f"
+      ],
       "text": "Let's take out Yamato.",
       "source": "official"
     }

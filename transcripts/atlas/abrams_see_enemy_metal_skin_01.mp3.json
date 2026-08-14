@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_see_enemy_metal_skin_01.mp3",
   "revisions": [
     {
-      "sha256": "6204a0a893f78d086fc24dacb02c22356181a45ab1fe0d9ca626ccf840aa3ff2",
+      "sha256": [
+        "6204a0a893f78d086fc24dacb02c22356181a45ab1fe0d9ca626ccf840aa3ff2",
+        "ca91114157530af1759db15bb0ee3e946a41f8c3a9853e27c3334def6f43a577",
+        "d041b05ea3988611cc94e4e12f8d7429db04a019826824c6c6c64594fe751d0b"
+      ],
       "text": "Don't shoot them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d041b05ea3988611cc94e4e12f8d7429db04a019826824c6c6c64594fe751d0b",
-      "text": "Don't shoot them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca91114157530af1759db15bb0ee3e946a41f8c3a9853e27c3334def6f43a577",
-      "text": "Don't shoot them.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

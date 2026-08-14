@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_forge.mp3",
   "revisions": [
     {
-      "sha256": "9dbf5810c2abb67d33e3c969eb0daf88c68dace17afa964563afc3b7cdd96820",
-      "text": "I see Forge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41743cb5a22a45342604e65d0a7fbfc3b1a7281c98d94e8d417ebac2da148738",
+      "sha256": [
+        "41743cb5a22a45342604e65d0a7fbfc3b1a7281c98d94e8d417ebac2da148738",
+        "9dbf5810c2abb67d33e3c969eb0daf88c68dace17afa964563afc3b7cdd96820"
+      ],
       "text": "I see Forge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

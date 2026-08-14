@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/bebop_upgrade_power4_06.mp3",
   "revisions": [
     {
-      "sha256": "1c8795d62fc934b8fa2d492252ca92dfea599f6a3cd56c02c3c5f2f23781deff",
+      "sha256": [
+        "1c8795d62fc934b8fa2d492252ca92dfea599f6a3cd56c02c3c5f2f23781deff"
+      ],
       "text": "What's not to love about a joint laser, eh?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4984bfef313e8af3cf445b1545e1b1079d796759dfab82bee928b4933bf94a13",
+      "sha256": [
+        "4984bfef313e8af3cf445b1545e1b1079d796759dfab82bee928b4933bf94a13"
+      ],
       "text": "What's not to love about a giant laser.",
       "source": "official"
     }

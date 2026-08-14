@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_ghost_01.mp3",
   "revisions": [
     {
-      "sha256": "b0ee43bf13cdc1379a43c170f23dd20b874e2041477ed96262b3d9520741d1ee",
-      "text": "Careful, Ghost!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4dd400eebb1d61b24ddd35179c5a635e674c42fda1ca2a13fd567e67c5ebb92d",
-      "text": "Careful, ghost!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ae2f724ddb5fda73e6c994ef101aecae4c17beae5e60465d92dad14a1e773eb3",
+      "sha256": [
+        "4dd400eebb1d61b24ddd35179c5a635e674c42fda1ca2a13fd567e67c5ebb92d",
+        "ae2f724ddb5fda73e6c994ef101aecae4c17beae5e60465d92dad14a1e773eb3",
+        "b0ee43bf13cdc1379a43c170f23dd20b874e2041477ed96262b3d9520741d1ee"
+      ],
       "text": "Careful, ghost!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

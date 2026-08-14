@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_leaving_area_01.mp3",
   "revisions": [
     {
-      "sha256": "ec69bea8d2e93e069f5c62e671eabfd76003be01ecdc61809c8fe925548c8b24",
+      "sha256": [
+        "ec69bea8d2e93e069f5c62e671eabfd76003be01ecdc61809c8fe925548c8b24"
+      ],
       "text": "I'll be back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "889559f852e2339e389005c1476fe46282c3e55d64294b5e28d5ea9b1a25b2ec",
+      "sha256": [
+        "2a22b4c5221ba597dd04eed18873ed7661f809057216d435a67107df0278168d",
+        "889559f852e2339e389005c1476fe46282c3e55d64294b5e28d5ea9b1a25b2ec"
+      ],
       "text": "I'll be back again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2a22b4c5221ba597dd04eed18873ed7661f809057216d435a67107df0278168d",
-      "text": "I'll be back again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9e445a86211c50a7b3a3e29572346bcfdee8e92d5479a234852311626850fa62",
+      "sha256": [
+        "9e445a86211c50a7b3a3e29572346bcfdee8e92d5479a234852311626850fa62"
+      ],
       "text": "I'll be back when I can.",
       "source": "official"
     }

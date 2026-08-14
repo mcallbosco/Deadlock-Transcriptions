@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_can_heal_pocket.mp3",
   "revisions": [
     {
-      "sha256": "df794241ee349d8e155f0be4d08de081973f6bdd3758bfb29fc2f295420c29da",
-      "text": "Pocket, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "abd6e5fe3aef1a03dfdff908ef098b7967833f81a719b0144d3c4ce6da4e9ee9",
+      "sha256": [
+        "abd6e5fe3aef1a03dfdff908ef098b7967833f81a719b0144d3c4ce6da4e9ee9",
+        "df794241ee349d8e155f0be4d08de081973f6bdd3758bfb29fc2f295420c29da"
+      ],
       "text": "Pocket, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

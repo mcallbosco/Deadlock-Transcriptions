@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_attack_abrams.mp3",
   "revisions": [
     {
-      "sha256": "839457fbc0b9c5861f9bb9360333373580fb6894fc0cebcad19ef36a9062d13a",
-      "text": "Let's take out Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c952d7247195161c27e7d288c0635b698f13b04bc332897d2488a750100bfd5c",
-      "text": "Let's take out Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6dd890bd6b6a5bf932119c134e39694adeae46f6a079c1a5254c9af506d4db2f",
+      "sha256": [
+        "6dd890bd6b6a5bf932119c134e39694adeae46f6a079c1a5254c9af506d4db2f",
+        "839457fbc0b9c5861f9bb9360333373580fb6894fc0cebcad19ef36a9062d13a",
+        "c952d7247195161c27e7d288c0635b698f13b04bc332897d2488a750100bfd5c"
+      ],
       "text": "Let's take out Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

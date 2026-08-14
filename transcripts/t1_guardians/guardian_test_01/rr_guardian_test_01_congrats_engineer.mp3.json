@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_congrats_engineer.mp3",
   "revisions": [
     {
-      "sha256": "32b1724bc413b2453f67efd3a6b1461116b32329aaf411e1266e5894d0f2eb6d",
-      "text": "Good job, Engineer!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "099507b4d6808b5dc1d3b0d3bc8ce5b35fc84edc40c4675ba5ca1918733834fa",
-      "text": "Good job, Engineer!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c86fd17ce3fecfea869eae9d9b09cf061d0c46c29b87a6623facf3e998e6f2ba",
+      "sha256": [
+        "099507b4d6808b5dc1d3b0d3bc8ce5b35fc84edc40c4675ba5ca1918733834fa",
+        "32b1724bc413b2453f67efd3a6b1461116b32329aaf411e1266e5894d0f2eb6d",
+        "c86fd17ce3fecfea869eae9d9b09cf061d0c46c29b87a6623facf3e998e6f2ba"
+      ],
       "text": "Good job, Engineer!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

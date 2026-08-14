@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_see_kelvin_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "e130011296d6362beadff2623c1bf258031706efc09456db19369fb1075e7a6c",
+      "sha256": [
+        "e130011296d6362beadff2623c1bf258031706efc09456db19369fb1075e7a6c"
+      ],
       "text": "Cover on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "319c7aec2f0a50512cc7006e2d7ffa9b4b5b5a34a4a130c2642dacd008f4319c",
-      "text": "Kelvin's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6e7d8cb7e7dc900b08533ef22307f88520fcb8b735a450b5b22abaf75d1dd2df",
-      "text": "Kelvin's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02915d060b3ff2653dde415cdbde737844785a2c04a44ae69a6af25b59c4e412",
+      "sha256": [
+        "02915d060b3ff2653dde415cdbde737844785a2c04a44ae69a6af25b59c4e412",
+        "319c7aec2f0a50512cc7006e2d7ffa9b4b5b5a34a4a130c2642dacd008f4319c",
+        "6e7d8cb7e7dc900b08533ef22307f88520fcb8b735a450b5b22abaf75d1dd2df"
+      ],
       "text": "Kelvin's on the bridge!",
       "source": "official"
     }

@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_retreat_01.mp3",
   "revisions": [
     {
-      "sha256": "ffcf003e798d3cd86cccdbabf856c2f2b70d9b4b26c2151739cbc3043997a5ca",
+      "sha256": [
+        "3b4e43e36a96783f1e51dadf57d513fa55611365010f5507eade1216ffd853be",
+        "920cd103a398bc70f7c0348c1c4cc520f85bf70d056651d9f00aa8aa9e58fc86",
+        "ffcf003e798d3cd86cccdbabf856c2f2b70d9b4b26c2151739cbc3043997a5ca"
+      ],
       "text": "Go back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "920cd103a398bc70f7c0348c1c4cc520f85bf70d056651d9f00aa8aa9e58fc86",
-      "text": "Go back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b4e43e36a96783f1e51dadf57d513fa55611365010f5507eade1216ffd853be",
-      "text": "Go back!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "13f08a4a5d5bdab9a46b235c8aafda118e686e03d1981eb5e8c97a6bee3272c5",
+      "sha256": [
+        "13f08a4a5d5bdab9a46b235c8aafda118e686e03d1981eb5e8c97a6bee3272c5"
+      ],
       "text": "Pull back!",
       "source": "official"
     }

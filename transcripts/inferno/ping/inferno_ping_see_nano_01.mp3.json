@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_see_nano_01.mp3",
   "revisions": [
     {
-      "sha256": "28f1b6c409b75f22d11c3f3cd6c2516ca2f34861cfcbc9ed1614b84b0ebb62da",
-      "text": "I see now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20c77eb173802a2a0be1606ed41e9565c6fbbc039115614ad2aee18b1b3320e8",
+      "sha256": [
+        "20c77eb173802a2a0be1606ed41e9565c6fbbc039115614ad2aee18b1b3320e8",
+        "28f1b6c409b75f22d11c3f3cd6c2516ca2f34861cfcbc9ed1614b84b0ebb62da"
+      ],
       "text": "I see now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

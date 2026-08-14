@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_sad_03.mp3",
   "revisions": [
     {
-      "sha256": "63513f1cb8b9dde416b65f76217d360985f1f5726c6ac2fdff2735f44cb89cad",
+      "sha256": [
+        "63513f1cb8b9dde416b65f76217d360985f1f5726c6ac2fdff2735f44cb89cad"
+      ],
       "text": "You should never take the miss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6cd7a485e43e2929a8f7b18a27a8baaab0c922bc2e48ab9f80dbc73837b6e426",
-      "text": "I should have never taken this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0e3e0bc761c61e37955864b26df71936c0d35261933d03a9b3cde9b5c0eb1cd4",
+      "sha256": [
+        "0e3e0bc761c61e37955864b26df71936c0d35261933d03a9b3cde9b5c0eb1cd4",
+        "6cd7a485e43e2929a8f7b18a27a8baaab0c922bc2e48ab9f80dbc73837b6e426"
+      ],
       "text": "I should have never taken this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

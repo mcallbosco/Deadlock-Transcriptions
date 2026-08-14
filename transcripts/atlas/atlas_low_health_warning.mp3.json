@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/atlas_low_health_warning.mp3",
   "revisions": [
     {
-      "sha256": "9b09babeae82add5cc7a3ced1afdb226d74a6de7a4c59bc66a3c391daacd6354",
+      "sha256": [
+        "9b09babeae82add5cc7a3ced1afdb226d74a6de7a4c59bc66a3c391daacd6354"
+      ],
       "text": "I need to heal.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_haze.mp3",
   "revisions": [
     {
-      "sha256": "c45f13876e05f2a4193ce5955983a576087b1873f3fc5a31932d9e87b3dcdd8f",
+      "sha256": [
+        "c45f13876e05f2a4193ce5955983a576087b1873f3fc5a31932d9e87b3dcdd8f"
+      ],
       "text": "I call haste.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4e59f2e76cd3d507aa79aa7ae49bf0487db52fd0ad81ef73a2eb56c7d0ad1e1e",
-      "text": "I saw haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fd9189e6e28fa00eb544acff5f8a9cef7afb4241a7bf86c4b4c0a9400dc5617c",
+      "sha256": [
+        "4e59f2e76cd3d507aa79aa7ae49bf0487db52fd0ad81ef73a2eb56c7d0ad1e1e",
+        "fd9189e6e28fa00eb544acff5f8a9cef7afb4241a7bf86c4b4c0a9400dc5617c"
+      ],
       "text": "I saw haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

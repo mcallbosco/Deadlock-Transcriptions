@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "drifter/ping/drifter_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "04ae827e8eccc1a31129459025e90b0145b9576ca3df09830721cc6d7b7eae4e",
+      "sha256": [
+        "04ae827e8eccc1a31129459025e90b0145b9576ca3df09830721cc6d7b7eae4e"
+      ],
       "text": "Hey, this is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

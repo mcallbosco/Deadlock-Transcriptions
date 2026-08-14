@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_ghost_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "b0a8d4009ca55811bf39af52e638a7a3d0ea539d284030191effc92744ba9e77",
+      "sha256": [
+        "b0a8d4009ca55811bf39af52e638a7a3d0ea539d284030191effc92744ba9e77"
+      ],
       "text": "Guy's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0496271bd586acac6dd73b1a7f9d8099b395166667cf163638e1ccc331ad7805",
+      "sha256": [
+        "0496271bd586acac6dd73b1a7f9d8099b395166667cf163638e1ccc331ad7805"
+      ],
       "text": "Geist's on the roof!",
       "source": "official"
     }

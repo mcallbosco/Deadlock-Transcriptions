@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_kelvin_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "596907188e4f4bbaa8bdc86e6aa3d3548d631ec7d760bf4c9f58bc23b092729d",
-      "text": "Kelvin's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "596907188e4f4bbaa8bdc86e6aa3d3548d631ec7d760bf4c9f58bc23b092729d",
+        "c1a39caf55859ced04a8f3d03c2196973ac73647ab330292616e25af091819a9"
+      ],
+      "text": "Kelvin's under the garage!",
+      "source": "official"
     },
     {
-      "sha256": "d471e756ac5093c14eaf8fd2dbe7e7b59739c74834b91e6033fab13fab3a9f9a",
+      "sha256": [
+        "d471e756ac5093c14eaf8fd2dbe7e7b59739c74834b91e6033fab13fab3a9f9a"
+      ],
       "text": "Calvin's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1a39caf55859ced04a8f3d03c2196973ac73647ab330292616e25af091819a9",
-      "text": "Kelvin's under the garage!",
-      "source": "official"
     }
   ]
 }

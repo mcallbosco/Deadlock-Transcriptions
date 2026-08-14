@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_killed_by_anyhero_05.mp3",
   "revisions": [
     {
-      "sha256": "a8adfb61d94f3fed2b717263251c8cb3eada6b26275db939787479cbdf1e93a5",
-      "text": "Damn it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "953ef9e80282e33a0e3ea68314609232d21692c4052376873d82de1e11736c7e",
+      "sha256": [
+        "953ef9e80282e33a0e3ea68314609232d21692c4052376873d82de1e11736c7e",
+        "a8adfb61d94f3fed2b717263251c8cb3eada6b26275db939787479cbdf1e93a5"
+      ],
       "text": "Damn it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

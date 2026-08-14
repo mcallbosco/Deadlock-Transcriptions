@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_viper_01.mp3",
   "revisions": [
     {
-      "sha256": "7efb16c7bb0ea05c6d565179e4e3a05405cb731b72258e4467ff9b4c8f632261",
+      "sha256": [
+        "7efb16c7bb0ea05c6d565179e4e3a05405cb731b72258e4467ff9b4c8f632261"
+      ],
       "text": "I see Viper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4b58bbd8490978f455978a479ea481aaa76359f769d60760cc11877f7c7b6859",
+      "sha256": [
+        "4b58bbd8490978f455978a479ea481aaa76359f769d60760cc11877f7c7b6859"
+      ],
       "text": "I see Vyper.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_doorman_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "1640c5c957a82f8d4ee9948fc2a95f4c87d25617dbb1d69d91361a9dd09f68a7",
+      "sha256": [
+        "1640c5c957a82f8d4ee9948fc2a95f4c87d25617dbb1d69d91361a9dd09f68a7"
+      ],
       "text": "The doorman missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fdadf24e03e18d94fc2bddbe744aa861f45585a99d90b9f9ae85dfb51c873bf2",
+      "sha256": [
+        "fdadf24e03e18d94fc2bddbe744aa861f45585a99d90b9f9ae85dfb51c873bf2"
+      ],
       "text": "The Doorman's missing.",
       "source": "official"
     }

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/doorman_happy_06.mp3",
   "revisions": [
     {
-      "sha256": "d1fe684b91989b44e038db00eb98a5cba0b9813ee652564bb871ed057ca445ff",
+      "sha256": [
+        "d1fe684b91989b44e038db00eb98a5cba0b9813ee652564bb871ed057ca445ff"
+      ],
       "text": "Well, it looks like my work here is done.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_defend_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "0d207f846ee9b96915475eb1692751d0b768c34a678a49c3c1b336c3878e695d",
+      "sha256": [
+        "0d207f846ee9b96915475eb1692751d0b768c34a678a49c3c1b336c3878e695d"
+      ],
       "text": "Send Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1004d616bc5d80b2177eac403b0bcf34721804c608c2b511c7671734ea1142c4",
+      "sha256": [
+        "1004d616bc5d80b2177eac403b0bcf34721804c608c2b511c7671734ea1142c4",
+        "5d32701cafb6e61543766c5f4ebd7f089220734fcd818ca27c7591bd52f68f4c",
+        "f7534d553170f4e43459415c9c46bb7c5fa823e809de14f14809815a612ccbb9"
+      ],
       "text": "Defend orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f7534d553170f4e43459415c9c46bb7c5fa823e809de14f14809815a612ccbb9",
-      "text": "Defend orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d32701cafb6e61543766c5f4ebd7f089220734fcd818ca27c7591bd52f68f4c",
-      "text": "Defend Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

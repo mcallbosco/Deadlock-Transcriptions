@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_zealot_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "c46039cfd601068338ec17b577ab3c2d0818d978d7ca672ab37cf73c69007d62",
-      "text": "Zealot's headed to yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca19a31c5c434909b9346de1d6040ad1fa873a65ebda91c27a9d4d9352baa042",
-      "text": "Zealot's headed to yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "912fa8c088245ec990ee78fa1dd79b2f6796c87236bf7dafed8529a72dfa934d",
+      "sha256": [
+        "912fa8c088245ec990ee78fa1dd79b2f6796c87236bf7dafed8529a72dfa934d",
+        "c46039cfd601068338ec17b577ab3c2d0818d978d7ca672ab37cf73c69007d62",
+        "ca19a31c5c434909b9346de1d6040ad1fa873a65ebda91c27a9d4d9352baa042"
+      ],
       "text": "Zealot's headed to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

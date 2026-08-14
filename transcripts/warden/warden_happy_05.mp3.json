@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_happy_05.mp3",
   "revisions": [
     {
-      "sha256": "e3f53b95ae4e3fd1716966987b7e6be2aa26eef15b523bd3b2413b6e236a7070",
-      "text": "Great work, everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c9195aef84b25b6f01f70f30e0564beec55806d635d416c39d40a43670206a3",
-      "text": "Great work, everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3fa03ef82d07d36d3f7a4d762851fb79dcfb3b8da09ca9abd1d61decc9593aa7",
-      "text": "Great work, everyone.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "10fa40d6e6fb44d773b1724e1be2a5fff4fcb1a9fe34fc34a0fa1d2d5ff2a366",
+      "sha256": [
+        "10fa40d6e6fb44d773b1724e1be2a5fff4fcb1a9fe34fc34a0fa1d2d5ff2a366",
+        "1c9195aef84b25b6f01f70f30e0564beec55806d635d416c39d40a43670206a3",
+        "3fa03ef82d07d36d3f7a4d762851fb79dcfb3b8da09ca9abd1d61decc9593aa7",
+        "e3f53b95ae4e3fd1716966987b7e6be2aa26eef15b523bd3b2413b6e236a7070"
+      ],
       "text": "Great work, everyone.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

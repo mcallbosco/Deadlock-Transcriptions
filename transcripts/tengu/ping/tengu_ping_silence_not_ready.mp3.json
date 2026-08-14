@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_silence_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "9a0af25f1acb6b58d5168e487645fdab63b48a1a837f3d2623cb20fdc25ffdc5",
+      "sha256": [
+        "9a0af25f1acb6b58d5168e487645fdab63b48a1a837f3d2623cb20fdc25ffdc5"
+      ],
       "text": "Silence Gliss on cooldown!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3bfae4f7fc656eab36578a91eb32cc19e9c00c2bc9fd0529ab8b8db76f6e0326",
+      "sha256": [
+        "3bfae4f7fc656eab36578a91eb32cc19e9c00c2bc9fd0529ab8b8db76f6e0326"
+      ],
       "text": "Silence Glyph's on cooldown",
       "source": "official"
     }

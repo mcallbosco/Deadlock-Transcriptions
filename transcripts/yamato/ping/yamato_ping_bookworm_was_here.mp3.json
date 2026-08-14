@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_bookworm_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b08480e93d65a647b155462b5108c2e118e30a9c53506f443d8bafeb3de5c2fb",
+      "sha256": [
+        "b08480e93d65a647b155462b5108c2e118e30a9c53506f443d8bafeb3de5c2fb"
+      ],
       "text": "It was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

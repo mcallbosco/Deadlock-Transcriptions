@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_t2_shop_reminder_01.mp3",
   "revisions": [
     {
-      "sha256": "0911f159bdb0f2d38dcee63e002ca2b21e664c2cf9245c410ea2eabdbe81fc3f",
+      "sha256": [
+        "0911f159bdb0f2d38dcee63e002ca2b21e664c2cf9245c410ea2eabdbe81fc3f"
+      ],
       "text": "I guess I'm the better.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b5e51a554a8a9babda62e75f6dc4c10ff0a99f2b2152522780fe2700138948eb",
+      "sha256": [
+        "0c4cf8b03af720c39bc8363a014ffd68b1c05a855053bafb61f8be469136f3cd",
+        "b5e51a554a8a9babda62e75f6dc4c10ff0a99f2b2152522780fe2700138948eb"
+      ],
       "text": "I guess I'm better.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0c4cf8b03af720c39bc8363a014ffd68b1c05a855053bafb61f8be469136f3cd",
-      "text": "I guess I'm better.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "23596967a1f09ee09f6b3941422edfeb1d384e677af2347d50ff009f9b4b490e",
+      "sha256": [
+        "23596967a1f09ee09f6b3941422edfeb1d384e677af2347d50ff009f9b4b490e"
+      ],
       "text": "I can get something better",
       "source": "official"
     }

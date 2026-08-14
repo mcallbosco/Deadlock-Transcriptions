@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_ghost_02.mp3",
   "revisions": [
     {
-      "sha256": "8379f46e4418001226662962659b86e95f9809d4785f560472bb2e10251d2df8",
+      "sha256": [
+        "8379f46e4418001226662962659b86e95f9809d4785f560472bb2e10251d2df8"
+      ],
       "text": "It's over, ghost.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fb4f1cd2030f62ccf67aa2cd498190525c6443f1d180f2db7b98625056897085",
+      "sha256": [
+        "089a98db845e8d767f9dedf10f4b7ea48f7a7185b4e6eb6b519b48c74a57d821",
+        "fb4f1cd2030f62ccf67aa2cd498190525c6443f1d180f2db7b98625056897085"
+      ],
       "text": "Hello, Lady Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "089a98db845e8d767f9dedf10f4b7ea48f7a7185b4e6eb6b519b48c74a57d821",
-      "text": "Hello, Lady Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9bb46fd89fdfe6a4db48e6bc00caae5def5ec503e6cd6ca4ecfd31ca3fba803e",
+      "sha256": [
+        "9bb46fd89fdfe6a4db48e6bc00caae5def5ec503e6cd6ca4ecfd31ca3fba803e"
+      ],
       "text": "Farewell Lady Geist",
       "source": "official"
     }

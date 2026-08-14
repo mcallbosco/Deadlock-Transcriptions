@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "7ff06eedd8e17067dd383593349e410ffd059488be956f3d2bb564984341f9a2",
+      "sha256": [
+        "7ff06eedd8e17067dd383593349e410ffd059488be956f3d2bb564984341f9a2"
+      ],
       "text": "Dynamo, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0391d74750b13c8912a1aca420b18f8d60e047519bdf9bc68e5d6c7a204e8ba1",
+      "sha256": [
+        "0391d74750b13c8912a1aca420b18f8d60e047519bdf9bc68e5d6c7a204e8ba1"
+      ],
       "text": "Dynamo, I can heal you!",
       "source": "official"
     }

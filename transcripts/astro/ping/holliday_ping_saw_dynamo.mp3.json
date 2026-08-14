@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "1e4a489cc0fdc44fe43e9222d60a262b10093f8929c70fb817d4a458717436e8",
+      "sha256": [
+        "1e4a489cc0fdc44fe43e9222d60a262b10093f8929c70fb817d4a458717436e8"
+      ],
       "text": "I saw Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

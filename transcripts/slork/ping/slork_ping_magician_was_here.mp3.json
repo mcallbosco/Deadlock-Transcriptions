@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/slork_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "73d6dd821d522193c48be22d70949a439618f516aaf8d08e896abc25bbf60430",
+      "sha256": [
+        "73d6dd821d522193c48be22d70949a439618f516aaf8d08e896abc25bbf60430"
+      ],
       "text": "The magician was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

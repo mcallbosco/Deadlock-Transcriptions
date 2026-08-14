@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "0547f6054fb21cf3e0851ead7c5048ed3530031bf74047baf8423df62aeaec5e",
-      "text": "I see Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a63311b12fe922d457faa8e76e65b1821964863e4623279a46b1365d3bd6ce3c",
-      "text": "I see Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aec5a081b38538afbbc0ee06c6a427e2ba4e6abeacda526a57f13e4791b46363",
+      "sha256": [
+        "0547f6054fb21cf3e0851ead7c5048ed3530031bf74047baf8423df62aeaec5e",
+        "a63311b12fe922d457faa8e76e65b1821964863e4623279a46b1365d3bd6ce3c",
+        "aec5a081b38538afbbc0ee06c6a427e2ba4e6abeacda526a57f13e4791b46363"
+      ],
       "text": "I see Wrecker",
       "source": "official"
     }

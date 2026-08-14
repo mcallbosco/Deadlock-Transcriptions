@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_use_refresher.mp3",
   "revisions": [
     {
-      "sha256": "8924a8b51dd8291278e4b63c62f455737297c7798bb470f728e9f34527af8a2b",
+      "sha256": [
+        "8924a8b51dd8291278e4b63c62f455737297c7798bb470f728e9f34527af8a2b",
+        "fb3d93efe3afce14da66c1b7ecee79e47e973997237f0bc47d9847efd898b8cd"
+      ],
       "text": "Ready to use refresher.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "fb3d93efe3afce14da66c1b7ecee79e47e973997237f0bc47d9847efd898b8cd",
-      "text": "Ready to use refresher.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eefa715b0a4d47fd6a968d582d343cfcf23b3fdd4e6f91ef910adfbec16c32ad",
+      "sha256": [
+        "eefa715b0a4d47fd6a968d582d343cfcf23b3fdd4e6f91ef910adfbec16c32ad"
+      ],
       "text": "Ready to get fresher.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

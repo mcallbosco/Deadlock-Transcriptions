@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_krill_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "1ed85b99eb5238cad62c8b0f04aa9faf7e8195c7d9fdcb84f397288055c17f14",
-      "text": "Crows on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1e84f578acb0f5748d7213be34a97493c797376739e155d8353c72a2dc393c9f",
+      "sha256": [
+        "1e84f578acb0f5748d7213be34a97493c797376739e155d8353c72a2dc393c9f",
+        "1ed85b99eb5238cad62c8b0f04aa9faf7e8195c7d9fdcb84f397288055c17f14"
+      ],
       "text": "Crows on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

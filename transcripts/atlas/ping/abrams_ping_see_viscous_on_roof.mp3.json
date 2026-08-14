@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_viscous_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "c94cc38a745b24b8fd99060ee522ba9dd4f7b913f1d76efa45198854a32125d9",
+      "sha256": [
+        "c94cc38a745b24b8fd99060ee522ba9dd4f7b913f1d76efa45198854a32125d9"
+      ],
       "text": "This is unnecessary.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d57e51a1b7d50c22fe813b1135ba294f0c47ff1aca8e32edc226ab1b6bc5b9f7",
-      "text": "This is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1659e95b6146e8bc1671dd166d5e3587e7125eefa561c94469dc0b06340fba3c",
+      "sha256": [
+        "1659e95b6146e8bc1671dd166d5e3587e7125eefa561c94469dc0b06340fba3c",
+        "d57e51a1b7d50c22fe813b1135ba294f0c47ff1aca8e32edc226ab1b6bc5b9f7"
+      ],
       "text": "This is on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

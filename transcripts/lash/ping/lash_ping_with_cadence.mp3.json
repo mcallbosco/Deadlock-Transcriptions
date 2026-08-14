@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_with_cadence.mp3",
   "revisions": [
     {
-      "sha256": "5905747e0fc055bb894a60284f3bca5db55f20285711ab0cc26d98ccd663430f",
-      "text": "I'm with you, Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3bb182cf5c8d4927447d6ada0ac42535db2ecc9b37d68c27c803d6ed17ee3b06",
-      "text": "I'm with you, Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8e9d1008d592db4c43d1f6b753cfafcbd47f944af47d7ac48c2524dea76c5d9",
-      "text": "I'm with you, Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "720874bac55773faa75c01ecde387790cfa888d0c570d33e7aa1fcd295e65a06",
+      "sha256": [
+        "3bb182cf5c8d4927447d6ada0ac42535db2ecc9b37d68c27c803d6ed17ee3b06",
+        "5905747e0fc055bb894a60284f3bca5db55f20285711ab0cc26d98ccd663430f",
+        "720874bac55773faa75c01ecde387790cfa888d0c570d33e7aa1fcd295e65a06",
+        "f8e9d1008d592db4c43d1f6b753cfafcbd47f944af47d7ac48c2524dea76c5d9"
+      ],
       "text": "I'm with you, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

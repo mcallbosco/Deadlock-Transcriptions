@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_affermative_03.mp3",
   "revisions": [
     {
-      "sha256": "bfe2fa8f59ba23aba8144df3d1c1c6b07f5e1d559ea8a8eccdf0d428e69d4f92",
-      "text": "OK.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "98db8fb71376167fc12fb3f9d13ba33916177409c6958ba141f0cc9ed6e0024c",
-      "text": "Okay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "91863b65b8ccd3622188f53bf0817a9bb723aeec437a604e339b2d5216736563",
-      "text": "Okay.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2279dba662ce97d3e0586382a0fe637d9ef3a1dd3e70c85af2e686483e084a64",
+      "sha256": [
+        "2279dba662ce97d3e0586382a0fe637d9ef3a1dd3e70c85af2e686483e084a64",
+        "bfe2fa8f59ba23aba8144df3d1c1c6b07f5e1d559ea8a8eccdf0d428e69d4f92"
+      ],
       "text": "OK",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "91863b65b8ccd3622188f53bf0817a9bb723aeec437a604e339b2d5216736563",
+        "98db8fb71376167fc12fb3f9d13ba33916177409c6958ba141f0cc9ed6e0024c"
+      ],
+      "text": "Okay.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

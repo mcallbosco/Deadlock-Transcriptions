@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "9abbf8c422b0fda4d780087fcf0eaf456084647c149070827b8c3030537e5b09",
-      "text": "Dynamo was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a429d8a40490556bf7f4e633d22c08ef51e7a77f2f62c29e49a4c7adaafb5d18",
+      "sha256": [
+        "9abbf8c422b0fda4d780087fcf0eaf456084647c149070827b8c3030537e5b09",
+        "a429d8a40490556bf7f4e633d22c08ef51e7a77f2f62c29e49a4c7adaafb5d18"
+      ],
       "text": "Dynamo was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

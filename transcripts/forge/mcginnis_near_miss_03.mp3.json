@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/mcginnis_near_miss_03.mp3",
   "revisions": [
     {
-      "sha256": "800160b78779d12a88f31bc36e629db628fd29c5887817c1ce0375e379c2bbfe",
-      "text": "Hey, we're just starting to have fun!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "377b16a2dd2c95539ebbb3a8278656f6f094bf8ed9f7ad0260e49252af67d107",
+      "sha256": [
+        "377b16a2dd2c95539ebbb3a8278656f6f094bf8ed9f7ad0260e49252af67d107",
+        "800160b78779d12a88f31bc36e629db628fd29c5887817c1ce0375e379c2bbfe"
+      ],
       "text": "Hey, we're just starting to have fun!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

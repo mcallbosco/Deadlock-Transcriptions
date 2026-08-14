@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "10424b61cb38f80f61624854de6b4dc72d745a892977d1fbcc29d182bb5bbf09",
+      "sha256": [
+        "10424b61cb38f80f61624854de6b4dc72d745a892977d1fbcc29d182bb5bbf09"
+      ],
       "text": "Magician was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_use_emp_wave_01.mp3",
   "revisions": [
     {
-      "sha256": "28e8d349ac34438ecb3a4e70bc3a55d1d3bc89ce00542062600ee5d00237b749",
+      "sha256": [
+        "28e8d349ac34438ecb3a4e70bc3a55d1d3bc89ce00542062600ee5d00237b749",
+        "78423138fc0637ba4d0f13f21916c8815b35cf97f1919971d07cb7aa49a36eae"
+      ],
       "text": "AMP wave!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "78423138fc0637ba4d0f13f21916c8815b35cf97f1919971d07cb7aa49a36eae",
-      "text": "AMP wave.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

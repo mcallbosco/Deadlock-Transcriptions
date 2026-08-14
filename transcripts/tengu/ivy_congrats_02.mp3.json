@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_congrats_02.mp3",
   "revisions": [
     {
-      "sha256": "343546220ef553c6446a093411fef3332194ac71ebf950e2b5876c780bcac3e4",
-      "text": "Good work!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "137c86487439af8615b38c75cd2ddf95bff1c6257e12cf8c3b9bf934085c936f",
+      "sha256": [
+        "137c86487439af8615b38c75cd2ddf95bff1c6257e12cf8c3b9bf934085c936f",
+        "343546220ef553c6446a093411fef3332194ac71ebf950e2b5876c780bcac3e4"
+      ],
       "text": "Good work!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

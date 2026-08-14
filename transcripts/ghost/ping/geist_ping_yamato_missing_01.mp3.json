@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_yamato_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "502c67d7d17920d5a020d757ca6dcc32096b6e4b96684b51f4713049f5c3a28c",
-      "text": "Yamato missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6326f356f84100e2055e6e4085b6fae6810dcc7c7b10b2dc4b31ef4d6dc20e2b",
+      "sha256": [
+        "502c67d7d17920d5a020d757ca6dcc32096b6e4b96684b51f4713049f5c3a28c",
+        "6326f356f84100e2055e6e4085b6fae6810dcc7c7b10b2dc4b31ef4d6dc20e2b"
+      ],
       "text": "Yamato missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

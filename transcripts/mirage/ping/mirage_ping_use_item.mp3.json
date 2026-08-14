@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_use_item.mp3",
   "revisions": [
     {
-      "sha256": "b06f6ed3ad18ea693282944a1a0b4cc0b0cf66864478006873dec9b85ed8cd1f",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cfaa6551069bb0f1518f6294714f3b6d66fa551b31e96b692c63deafcf0a13c",
-      "text": "Ready to use item.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59ba2b433971295495799a4fec7255fdb2f6efcd5acef366025df3d87ce87f3a",
+      "sha256": [
+        "59ba2b433971295495799a4fec7255fdb2f6efcd5acef366025df3d87ce87f3a",
+        "9cfaa6551069bb0f1518f6294714f3b6d66fa551b31e96b692c63deafcf0a13c",
+        "b06f6ed3ad18ea693282944a1a0b4cc0b0cf66864478006873dec9b85ed8cd1f"
+      ],
       "text": "Ready to use Item",
       "source": "official"
     }

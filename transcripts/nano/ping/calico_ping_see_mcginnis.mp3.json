@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_see_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "ae13d4ff849647771f9d17f0b8ce91974f48320bb9bf83c7e62466d4c4ce01dc",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f198c990638cf16a2d1339b0eb756724b8f5e5e7be096d4064a5ee4775f4d6ee",
+      "sha256": [
+        "ae13d4ff849647771f9d17f0b8ce91974f48320bb9bf83c7e62466d4c4ce01dc",
+        "f198c990638cf16a2d1339b0eb756724b8f5e5e7be096d4064a5ee4775f4d6ee"
+      ],
       "text": "I see McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

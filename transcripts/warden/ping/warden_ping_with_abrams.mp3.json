@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_abrams.mp3",
   "revisions": [
     {
-      "sha256": "cbf513176c92d1cf56c48c05bc8ea571a01ecf4a41358ed1dc411cdb0318d872",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c59973844ad3fe746a5029d9000af75d7a08d1c12bea4cb0bb6bb2d691b45d89",
-      "text": "I'm with you, Abrams.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f96cac5af00e77e656dc3e97a006f64f2667764c0773956b8e1b337cb4d2e874",
+      "sha256": [
+        "c59973844ad3fe746a5029d9000af75d7a08d1c12bea4cb0bb6bb2d691b45d89",
+        "cbf513176c92d1cf56c48c05bc8ea571a01ecf4a41358ed1dc411cdb0318d872",
+        "f96cac5af00e77e656dc3e97a006f64f2667764c0773956b8e1b337cb4d2e874"
+      ],
       "text": "I'm with you, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_mirage_check_items.mp3",
   "revisions": [
     {
-      "sha256": "39cef888438b1f736f1d2fe55462d15aca2fd01d939fe76f4109b409d11ce321",
-      "text": "Check out what Mirage bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff1b3bb15a91f03a1b31453c4def5f47be5cb0fb96a9f11252d9f39408e83f15",
-      "text": "Check out what Mirage bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a16a8ad36dd9e70a65e24d73026245c5643bfdf36e4e44321b6103e7364bcd1b",
+      "sha256": [
+        "39cef888438b1f736f1d2fe55462d15aca2fd01d939fe76f4109b409d11ce321",
+        "a16a8ad36dd9e70a65e24d73026245c5643bfdf36e4e44321b6103e7364bcd1b",
+        "ff1b3bb15a91f03a1b31453c4def5f47be5cb0fb96a9f11252d9f39408e83f15"
+      ],
       "text": "Check out what Mirage bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

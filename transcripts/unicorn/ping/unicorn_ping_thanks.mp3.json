@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_thanks.mp3",
   "revisions": [
     {
-      "sha256": "39ee1346dc6bfaaf49ea1653da223f8f2fb4c3e508e7f040a735ae7a93d24ce6",
+      "sha256": [
+        "39ee1346dc6bfaaf49ea1653da223f8f2fb4c3e508e7f040a735ae7a93d24ce6"
+      ],
       "text": "Thanks.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

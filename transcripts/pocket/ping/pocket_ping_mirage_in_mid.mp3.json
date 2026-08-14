@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_mirage_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "bef89cb2b6d5e17b8deea1f4d79230ba976141926d46763c585116cd6059bf3a",
-      "text": "Brush is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16bc1cc794a1ee6ec8d0acaa9ed9b402a7cf1fa0a78411cd2979e9ad602bfdb0",
+      "sha256": [
+        "16bc1cc794a1ee6ec8d0acaa9ed9b402a7cf1fa0a78411cd2979e9ad602bfdb0",
+        "bef89cb2b6d5e17b8deea1f4d79230ba976141926d46763c585116cd6059bf3a"
+      ],
       "text": "Brush is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

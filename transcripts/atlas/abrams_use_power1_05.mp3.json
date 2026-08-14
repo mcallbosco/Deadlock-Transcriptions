@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_use_power1_05.mp3",
   "revisions": [
     {
-      "sha256": "7de477d37a82653585fd4fa22440438b2c3821c711138d0b36b46b0b1c46f7fc",
-      "text": "Charge again.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "452fa63c3ce44d1578cd7f47cc4e2f54c49091c9a46c8983ec191d2f4af1e90a",
-      "text": "Charge again!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1f3711236ecc8d3f713e81fdc5ff13783054db41e1375bb1754c0cd16fb3dc6",
+      "sha256": [
+        "452fa63c3ce44d1578cd7f47cc4e2f54c49091c9a46c8983ec191d2f4af1e90a",
+        "7de477d37a82653585fd4fa22440438b2c3821c711138d0b36b46b0b1c46f7fc",
+        "c1f3711236ecc8d3f713e81fdc5ff13783054db41e1375bb1754c0cd16fb3dc6"
+      ],
       "text": "Charge again!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_use_smoke_01.mp3",
   "revisions": [
     {
-      "sha256": "90347529c3d74a58044f4364c014754d27a82521537bd082b4d110f4303ca5f0",
-      "text": "Smoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2d24a7b944968cf09a298e5d0a8206f7d001406d74dfb7ada1618bea400a385e",
-      "text": "Smoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4ee97bdc29fc5cc346b42ce06ac8f611d90830bb3986b345a9b3d50c5f60329",
+      "sha256": [
+        "2d24a7b944968cf09a298e5d0a8206f7d001406d74dfb7ada1618bea400a385e",
+        "90347529c3d74a58044f4364c014754d27a82521537bd082b4d110f4303ca5f0",
+        "a4ee97bdc29fc5cc346b42ce06ac8f611d90830bb3986b345a9b3d50c5f60329"
+      ],
       "text": "Smoke.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_ignore_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "1776a125e88f27f1b87827c4088028e2b179a046de77341e34dcd04df9d92aaf",
+      "sha256": [
+        "1776a125e88f27f1b87827c4088028e2b179a046de77341e34dcd04df9d92aaf",
+        "be61991195374de2dc7100c577eed4bc27ffa42499a36a7410cdd3732be7bec3"
+      ],
       "text": "Ignore Dynamo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "be61991195374de2dc7100c577eed4bc27ffa42499a36a7410cdd3732be7bec3",
-      "text": "Ignore Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

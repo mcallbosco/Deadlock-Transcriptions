@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_use_ability2.mp3",
   "revisions": [
     {
-      "sha256": "67cc38b0b4f2a7d2c78fef621bb51d6aba05216df3aed1ffe210938348e978f4",
+      "sha256": [
+        "67cc38b0b4f2a7d2c78fef621bb51d6aba05216df3aed1ffe210938348e978f4"
+      ],
       "text": "Dogs ready!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "de96a52865ec0b2335785b13c002e343d35e5062f34b71956c4168c5f92e8aa6",
-      "text": "Bomb's ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a606a510f9d90f60b3428c6077eb00de496e13a8c8123fc0c98ce2ce216db027",
-      "text": "Hooks's ready",
+      "sha256": [
+        "45e5d4f11fd37ceac92a5c1230b98574697eae50faa6c3ab3517e06c7ffebcd4",
+        "de96a52865ec0b2335785b13c002e343d35e5062f34b71956c4168c5f92e8aa6"
+      ],
+      "text": "Bomb's ready",
       "source": "official"
     },
     {
-      "sha256": "45e5d4f11fd37ceac92a5c1230b98574697eae50faa6c3ab3517e06c7ffebcd4",
-      "text": "Bomb's ready",
+      "sha256": [
+        "a606a510f9d90f60b3428c6077eb00de496e13a8c8123fc0c98ce2ce216db027"
+      ],
+      "text": "Hooks's ready",
       "source": "official"
     }
   ]

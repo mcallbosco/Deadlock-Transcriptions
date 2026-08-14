@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7de32b4cccf41b1b4f68e450c10f13d2dcc9e90a0da56a5875c32494ea7922b3",
+      "sha256": [
+        "7de32b4cccf41b1b4f68e450c10f13d2dcc9e90a0da56a5875c32494ea7922b3"
+      ],
       "text": "The wrecker is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

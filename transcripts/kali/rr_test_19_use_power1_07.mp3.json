@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_use_power1_07.mp3",
   "revisions": [
     {
-      "sha256": "2002590824ac26d8c8b19cd1259caf8fb51f45bdafc5a3007ff34129acc0c64a",
+      "sha256": [
+        "2002590824ac26d8c8b19cd1259caf8fb51f45bdafc5a3007ff34129acc0c64a"
+      ],
       "text": "This is the way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6945861b7c4cf24a04dfc7ad089696b448c9989fe4ebfc133ddffc81119445e5",
+      "sha256": [
+        "6945861b7c4cf24a04dfc7ad089696b448c9989fe4ebfc133ddffc81119445e5"
+      ],
       "text": "context: ###\nTranscribe this Deadlock voice line in English exactly. Preserve all spoken words. Do not add commentary or quotation marks. The following JSON contains authoritative Deadlock spellings, terminology, and transcription guidelines. Follow it when applicable: {\"Characters\":[\"Holliday\",\"Shelly Fisher\",\"Geist\",\"Marla\",\"Marlowe\",\"Troubadour\",\"Nashala Dion\",\"Viscous\",\"John Hathorne\",\"Edrick\",\"Captain Murphy\",\"Holliday\",\"Infernus\",\"Kelvin\",\"Abrams\",\"Vindicta\",\"Operative\",\"Bebop\",\"Cadence\",\"Paradox\",\"Dynamo\",\"McGinnis\",\"Lady Geist\",\"Seven\",\"Haze\",\"Krill\",\"Lash\",\"Magician\",\"Mirage\",\"Nano\",\"Grey Talon\",\"Shiv\",\"Slork\",\"Pocket\",\"Ivy\",\"Trapper\",\"Vyper\",\"Viscous\",\"Warden\",\"Wraith\",\"Wrecker\",\"Yamato\",\"Fern\",\"Mina Ha\",\"Doorman\",\"Paige\",\"Rem\",\"Apollo\",\"Graves\",\"Pepper\",\"Silver\",\"Venator\"],\"Groups\":[\"Djinn\"],\"Places\":[\"Ixia\",\"Blackmore\"],\"Abilities\":[\"Ping\"],\"Game Terms\":[\"Mid\",\"Mid-Boss\",\"Gank\",\"Payload\",\"Capture\",\"Control\",\"Escort\"],\"Transcription Guidelines\":[\"Use sentence case for all transcriptions.\",\"Use standard punctuation.\",\"Follow the above spelling for ambiguous names.\",\"Do not include extra whitespace at the beginning or end of transcriptions.\"]}\n###",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e863aee460d6d534b82b9f3cb9472d8f646d4abd812380b333e3336df8265ee0",
+      "sha256": [
+        "e863aee460d6d534b82b9f3cb9472d8f646d4abd812380b333e3336df8265ee0"
+      ],
       "text": "Hello, I'm ChatGPT.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_use_colossus_01.mp3",
   "revisions": [
     {
-      "sha256": "f92c6a5f4e6f5cd4645e8caec5fda4388d4c49d82859a42549dea2cacc861e4d",
+      "sha256": [
+        "f92c6a5f4e6f5cd4645e8caec5fda4388d4c49d82859a42549dea2cacc861e4d"
+      ],
       "text": "Goodnight!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "650dd6828bf4744d10902ba170a4a577dfb068772ea48677bb9117010110aa6e",
+      "sha256": [
+        "650dd6828bf4744d10902ba170a4a577dfb068772ea48677bb9117010110aa6e"
+      ],
       "text": "Colossus!",
       "source": "official"
     }

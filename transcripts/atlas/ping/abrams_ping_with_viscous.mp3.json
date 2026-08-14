@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_viscous.mp3",
   "revisions": [
     {
-      "sha256": "7d7ed21a419890e650027449c168d8de0351ff3c87f4b0b89db417aa6b14f2d2",
+      "sha256": [
+        "7d7ed21a419890e650027449c168d8de0351ff3c87f4b0b89db417aa6b14f2d2"
+      ],
       "text": "How much you wish?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c2ed01e1826e0b46d24263749886848b329e3cf6124565505eb9659d08ba13ec",
-      "text": "I'm with you, Viss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "53f17f17e3ad16d64900528ffd8960715e19cea670dac28170313f3f61593a6d",
+      "sha256": [
+        "53f17f17e3ad16d64900528ffd8960715e19cea670dac28170313f3f61593a6d",
+        "c2ed01e1826e0b46d24263749886848b329e3cf6124565505eb9659d08ba13ec"
+      ],
       "text": "I'm with you, Viss.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

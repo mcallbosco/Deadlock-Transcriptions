@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_doorman_was_here.mp3",
   "revisions": [
     {
-      "sha256": "8267096d2ef41df7bbd720bfc480b01dbe6af78f4991293a8cbba52c81fd291b",
+      "sha256": [
+        "8267096d2ef41df7bbd720bfc480b01dbe6af78f4991293a8cbba52c81fd291b"
+      ],
       "text": "The doorman was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

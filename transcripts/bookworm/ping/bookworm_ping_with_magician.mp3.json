@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_with_magician.mp3",
   "revisions": [
     {
-      "sha256": "5670a534870221abbd22315901bce280879c84acc39efd460e9f380dd8c21181",
+      "sha256": [
+        "5670a534870221abbd22315901bce280879c84acc39efd460e9f380dd8c21181",
+        "eb6c5065fc89adb60703f3ddac4bd45438d54d1301e63434683b64472c5d83d5"
+      ],
       "text": "I'm with you, Sinclair!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb6c5065fc89adb60703f3ddac4bd45438d54d1301e63434683b64472c5d83d5",
-      "text": "I'm with you, Sinclair.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

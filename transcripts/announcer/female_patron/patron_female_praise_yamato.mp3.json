@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_yamato.mp3",
   "revisions": [
     {
-      "sha256": "98b97407e80d27ee698f39fbf63966c5c5b8c960488cf6e86a53bda8cc6ac932",
-      "text": "Well done, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8b7aa34910fd51e741c24ada463257d48ac9966fddbf1397cda0b82d075988b3",
-      "text": "Well done, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a8a31ddfc52250ad4f19fb111c1f6106694edf445719065b2eb85c662ec508b4",
+      "sha256": [
+        "8b7aa34910fd51e741c24ada463257d48ac9966fddbf1397cda0b82d075988b3",
+        "98b97407e80d27ee698f39fbf63966c5c5b8c960488cf6e86a53bda8cc6ac932",
+        "a8a31ddfc52250ad4f19fb111c1f6106694edf445719065b2eb85c662ec508b4"
+      ],
       "text": "Well done Yamato",
       "source": "official"
     }

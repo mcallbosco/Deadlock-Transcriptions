@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_nano_was_here.mp3",
   "revisions": [
     {
-      "sha256": "36db43f6ca87b6ccd77e72b7423eb5b89cdb22713523b533a449b86e7b8b1f7b",
+      "sha256": [
+        "36db43f6ca87b6ccd77e72b7423eb5b89cdb22713523b533a449b86e7b8b1f7b"
+      ],
       "text": "Calico is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "39ee4e311b65fd273a984e44f7a95571d8407c53bbc72510391dac43e3151588",
+      "sha256": [
+        "39ee4e311b65fd273a984e44f7a95571d8407c53bbc72510391dac43e3151588"
+      ],
       "text": "Calico here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

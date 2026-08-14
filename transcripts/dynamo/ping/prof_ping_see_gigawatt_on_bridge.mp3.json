@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_gigawatt_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "71bca79b0c31260cfd7646976b8ecb4e4cdbc8a4f8d61b10b59b9d4edaff9ca0",
+      "sha256": [
+        "257ba072fcb52040f7b5473fac2b44e4e7f4e866271949c087f0b963a0ad82cb",
+        "71bca79b0c31260cfd7646976b8ecb4e4cdbc8a4f8d61b10b59b9d4edaff9ca0"
+      ],
       "text": "Seven's on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "257ba072fcb52040f7b5473fac2b44e4e7f4e866271949c087f0b963a0ad82cb",
-      "text": "Seven's on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

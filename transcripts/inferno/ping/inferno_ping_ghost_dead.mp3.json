@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_ghost_dead.mp3",
   "revisions": [
     {
-      "sha256": "a3e552c0a2725a27bc51b2df6ed8db07ed582eeda9af782777a13febc6ebbe9d",
+      "sha256": [
+        "0ae267daa48532f01d2f2b38240f7d61ccdb106cc796e2b5f668a700d96e3768",
+        "a3e552c0a2725a27bc51b2df6ed8db07ed582eeda9af782777a13febc6ebbe9d"
+      ],
       "text": "Guy's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0ae267daa48532f01d2f2b38240f7d61ccdb106cc796e2b5f668a700d96e3768",
-      "text": "Guy's dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7db33eebe6e8d4c8a5fb625f67b65cc1826da2106c0d2e1c5c932b559e14dc01",
+      "sha256": [
+        "7db33eebe6e8d4c8a5fb625f67b65cc1826da2106c0d2e1c5c932b559e14dc01"
+      ],
       "text": "Got dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

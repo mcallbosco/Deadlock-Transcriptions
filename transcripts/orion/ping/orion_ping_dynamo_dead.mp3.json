@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_dynamo_dead.mp3",
   "revisions": [
     {
-      "sha256": "9564343c697c2c9a4fde8859ba5db03930cfa530c4e32140f9099396f0af673a",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b843655b21b58da69ee2ca76e05ac2f093da566fabab807de957e8dbcfe7f61a",
-      "text": "Dynamo is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "737ca8a25c5889d6d1163bc57c63d6fc3e41dbc0b37c33344b976c72f3188813",
+      "sha256": [
+        "737ca8a25c5889d6d1163bc57c63d6fc3e41dbc0b37c33344b976c72f3188813",
+        "9564343c697c2c9a4fde8859ba5db03930cfa530c4e32140f9099396f0af673a",
+        "b843655b21b58da69ee2ca76e05ac2f093da566fabab807de957e8dbcfe7f61a"
+      ],
       "text": "Dynamo is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

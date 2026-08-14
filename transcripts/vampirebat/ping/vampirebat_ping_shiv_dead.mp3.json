@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_shiv_dead.mp3",
   "revisions": [
     {
-      "sha256": "ed74ec971768c89691780250d22c8dafbd0ceec6bc066f4f68909878351f86aa",
-      "text": "Shiv is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4cf6991b6d35e270fe6ba599528c32c310d6efe157b200bcb4756f71fc33876b",
+      "sha256": [
+        "4cf6991b6d35e270fe6ba599528c32c310d6efe157b200bcb4756f71fc33876b",
+        "ed74ec971768c89691780250d22c8dafbd0ceec6bc066f4f68909878351f86aa"
+      ],
       "text": "Shiv is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

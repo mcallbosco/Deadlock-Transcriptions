@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_dynamo_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "6a119b0e3973b9b5ca11fadb4e5c066e11e05c3c2fca40e9d6a473857d7479bd",
+      "sha256": [
+        "6a119b0e3973b9b5ca11fadb4e5c066e11e05c3c2fca40e9d6a473857d7479bd"
+      ],
       "text": "Item on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d6f87583d25924921554237596852076763a9b32fe1addfeac4c66862d85b67e",
-      "text": "Time to move on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "80f9342150e1d186840c086602d04fa4073d74b2260f6231885155ecdaa0995c",
+      "sha256": [
+        "80f9342150e1d186840c086602d04fa4073d74b2260f6231885155ecdaa0995c",
+        "d6f87583d25924921554237596852076763a9b32fe1addfeac4c66862d85b67e"
+      ],
       "text": "Time to move on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

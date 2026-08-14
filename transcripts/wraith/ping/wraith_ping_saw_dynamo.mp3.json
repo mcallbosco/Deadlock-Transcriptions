@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "c140773e899f4f53a2b0633b64849cb8ab76add18779b2f2bb6a5bc1feb79760",
-      "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9ea24aabd547af57e6f37277cafb3655a48246befc492f7df154e0647b45658b",
-      "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a4a45561b3a6a4f7ea40df7713a8509f3aa3a706edb90e4f31213eb21ddb9a9f",
-      "text": "I saw Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ef80fa91f7b63f309ed9dcfc1d2794f879150320ebacdc0c66a297ff32cdd534",
+      "sha256": [
+        "9ea24aabd547af57e6f37277cafb3655a48246befc492f7df154e0647b45658b",
+        "a4a45561b3a6a4f7ea40df7713a8509f3aa3a706edb90e4f31213eb21ddb9a9f",
+        "c140773e899f4f53a2b0633b64849cb8ab76add18779b2f2bb6a5bc1feb79760",
+        "ef80fa91f7b63f309ed9dcfc1d2794f879150320ebacdc0c66a297ff32cdd534"
+      ],
       "text": "I saw Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

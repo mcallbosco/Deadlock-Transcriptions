@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_astro_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "b53cfed083e588984c47783e99f1150d263cdb3fa999ffe1ad931018cb3ad1ff",
+      "sha256": [
+        "b53cfed083e588984c47783e99f1150d263cdb3fa999ffe1ad931018cb3ad1ff"
+      ],
       "text": "That's confirmed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "695984ed71e9875abb0a63d6c370bf0748a812fee717a6ca20c5b8ca656eac98",
+      "sha256": [
+        "143d84c29e9f14e9eff3da642d44d5ca99b74f73bc0d5e0447505e94e5342c58",
+        "695984ed71e9875abb0a63d6c370bf0748a812fee717a6ca20c5b8ca656eac98"
+      ],
       "text": "Holliday's in mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "81f48fb4c6307810d956c187a355078616bb42ae7c4b9df06cdfe5dc6c778a32",
+      "sha256": [
+        "81f48fb4c6307810d956c187a355078616bb42ae7c4b9df06cdfe5dc6c778a32"
+      ],
       "text": "Holiday's in mid!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "143d84c29e9f14e9eff3da642d44d5ca99b74f73bc0d5e0447505e94e5342c58",
-      "text": "Holliday's in mid!",
-      "source": "official"
     }
   ]
 }

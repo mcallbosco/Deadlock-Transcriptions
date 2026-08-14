@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "43bf81a2361da0cb7a4045b0ce24e568d68451bb39f2bb59066464436dc36007",
-      "text": "Mirage is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77e3c3f84e574c1326177a348b9b5b96449b9d74aa4da230cfd2f9bcfca6a5bb",
+      "sha256": [
+        "43bf81a2361da0cb7a4045b0ce24e568d68451bb39f2bb59066464436dc36007",
+        "77e3c3f84e574c1326177a348b9b5b96449b9d74aa4da230cfd2f9bcfca6a5bb"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

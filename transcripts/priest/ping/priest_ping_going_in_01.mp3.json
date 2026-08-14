@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_going_in_01.mp3",
   "revisions": [
     {
-      "sha256": "26fc88af70fd129081543728e0de895fb57ef8104b5220a974f42d2eaec76aef",
-      "text": "I'm going in!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f9c272a4c4ed31248bdf219d6c22bb113d512ae649c773e9ae0dfcd7ac25015",
+      "sha256": [
+        "26fc88af70fd129081543728e0de895fb57ef8104b5220a974f42d2eaec76aef",
+        "8f9c272a4c4ed31248bdf219d6c22bb113d512ae649c773e9ae0dfcd7ac25015"
+      ],
       "text": "I'm going in!",
       "source": "official"
     }

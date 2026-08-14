@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_kelvin_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "0996655c15ad6c4156ce80e474902fe50f53eb792202ab3c29ae0367ae33f974",
+      "sha256": [
+        "0996655c15ad6c4156ce80e474902fe50f53eb792202ab3c29ae0367ae33f974"
+      ],
       "text": "Kill things on top of me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5959e2ff2b98286f39e2e9bfd6a5ae4cfb7707e4430ec3bd217ad8379cacf6dc",
-      "text": "Kelvin's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "693f6bff66b166e338a4a09b2157a8b99ae1fc9fc8806b073f1ad8f48de7d240",
-      "text": "Kelvin's on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "37bcab00a3dfce144d650560a2d528db66aff5e4acea5cef21ac8763b2d9be82",
+      "sha256": [
+        "37bcab00a3dfce144d650560a2d528db66aff5e4acea5cef21ac8763b2d9be82",
+        "5959e2ff2b98286f39e2e9bfd6a5ae4cfb7707e4430ec3bd217ad8379cacf6dc",
+        "693f6bff66b166e338a4a09b2157a8b99ae1fc9fc8806b073f1ad8f48de7d240"
+      ],
       "text": "Kelvin's on top of mid!",
       "source": "official"
     }

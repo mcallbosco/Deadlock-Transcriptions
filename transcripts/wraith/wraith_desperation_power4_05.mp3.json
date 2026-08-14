@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_desperation_power4_05.mp3",
   "revisions": [
     {
-      "sha256": "fa7bd9a05ec2f0cd9dc458266c31aa38353ae67afb06bfb18f5c892eef25235a",
-      "text": "Lifting!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d0e0a306e494b4f1248def2f2021eda598fec86f655d1e944583ec6d8c1181fd",
-      "text": "Listen!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1b188e8c0b64e2448afad81da1c8206badcf9cf6cde3798d10ca2b9d1374f3b",
-      "text": "Listen!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cdb7f44ddf30f0a76169756e45e0386b23970a0d9e390a8339c70add47a30839",
+      "sha256": [
+        "cdb7f44ddf30f0a76169756e45e0386b23970a0d9e390a8339c70add47a30839",
+        "fa7bd9a05ec2f0cd9dc458266c31aa38353ae67afb06bfb18f5c892eef25235a"
+      ],
       "text": "Lifting!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "a1b188e8c0b64e2448afad81da1c8206badcf9cf6cde3798d10ca2b9d1374f3b",
+        "d0e0a306e494b4f1248def2f2021eda598fec86f655d1e944583ec6d8c1181fd"
+      ],
+      "text": "Listen!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

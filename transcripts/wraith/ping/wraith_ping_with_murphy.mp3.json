@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "e5c79878c4a1ad8c7773c23f485778716e5970115916751d7dfce0c2caa31f88",
-      "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1ed4189b84fae99c0abb62d2957b507ba9706bb0d1a777e602ba02c51d47e13f",
-      "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3000ef0066409876595bdfa44ce87968ff2c16fa2db5db538963e1098dc9982",
+      "sha256": [
+        "1ed4189b84fae99c0abb62d2957b507ba9706bb0d1a777e602ba02c51d47e13f",
+        "d3000ef0066409876595bdfa44ce87968ff2c16fa2db5db538963e1098dc9982",
+        "e5c79878c4a1ad8c7773c23f485778716e5970115916751d7dfce0c2caa31f88"
+      ],
       "text": "I'm with you, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

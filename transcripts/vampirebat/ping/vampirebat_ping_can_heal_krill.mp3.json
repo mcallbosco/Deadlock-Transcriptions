@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_can_heal_krill.mp3",
   "revisions": [
     {
-      "sha256": "5b60c51c151c1bd4454f37fbbff0a0f39d7ddcd2484a7dbe70f8b20f06ee6eac",
+      "sha256": [
+        "5b60c51c151c1bd4454f37fbbff0a0f39d7ddcd2484a7dbe70f8b20f06ee6eac"
+      ],
       "text": "Quill, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ecf547600692366559d019c9e00f3d222280b5cc24922e3d4b1b46b483e266e8",
+      "sha256": [
+        "ecf547600692366559d019c9e00f3d222280b5cc24922e3d4b1b46b483e266e8"
+      ],
       "text": "Krill, I can heal you!",
       "source": "official"
     }

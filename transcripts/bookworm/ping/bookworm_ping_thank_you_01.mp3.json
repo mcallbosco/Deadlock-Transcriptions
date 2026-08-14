@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_thank_you_01.mp3",
   "revisions": [
     {
-      "sha256": "b2899a251b7ef726337913cdc2fee42d3a326bf993dee407f63b459a2d55c77b",
-      "text": "Thanks.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8740602ef6df4f01e7d197cae3df5558d3210d5c7f8b8de556d9dff3b0fe4d20",
+      "sha256": [
+        "8740602ef6df4f01e7d197cae3df5558d3210d5c7f8b8de556d9dff3b0fe4d20",
+        "b2899a251b7ef726337913cdc2fee42d3a326bf993dee407f63b459a2d55c77b"
+      ],
       "text": "Thanks.",
       "source": "official"
     }

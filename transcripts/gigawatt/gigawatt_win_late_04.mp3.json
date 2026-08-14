@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_win_late_04.mp3",
   "revisions": [
     {
-      "sha256": "349de0b55745bf4b7ac810688b9a02784d2525d088c379b8b1e4743ddf26e8a4",
+      "sha256": [
+        "349de0b55745bf4b7ac810688b9a02784d2525d088c379b8b1e4743ddf26e8a4"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4eaa909eaf31ba009636fd3d1c1cccc1df075c03d1029aff443a04fe78f2755e",
-      "text": "They fought like hell, but it wasn't enough.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e541ebb57a83e8cba14b97dd6773fbc1b85a57d8038bc4b3131870f69148d1f",
+      "sha256": [
+        "3e541ebb57a83e8cba14b97dd6773fbc1b85a57d8038bc4b3131870f69148d1f",
+        "4eaa909eaf31ba009636fd3d1c1cccc1df075c03d1029aff443a04fe78f2755e"
+      ],
       "text": "They fought like hell, but it wasn't enough.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

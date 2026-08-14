@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_angry_03.mp3",
   "revisions": [
     {
-      "sha256": "49ca240a22b5121de4db205702e2968cf3db683f72f60e6c396949ad64512e44",
-      "text": "No mercy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "294ab377839e835eefdb41e59e36d0171ecd57d2eef1cf9b3f32f916ef5a7197",
-      "text": "No mercy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1de829da23611f301392c068b4986c71ac5380530f59994b7860a05882a4a6f5",
+      "sha256": [
+        "1de829da23611f301392c068b4986c71ac5380530f59994b7860a05882a4a6f5",
+        "294ab377839e835eefdb41e59e36d0171ecd57d2eef1cf9b3f32f916ef5a7197",
+        "49ca240a22b5121de4db205702e2968cf3db683f72f60e6c396949ad64512e44"
+      ],
       "text": "No mercy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

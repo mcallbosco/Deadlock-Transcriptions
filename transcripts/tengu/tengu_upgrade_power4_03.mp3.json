@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_upgrade_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "d0929d8f5c443ffdf9def2eea9f3e7c15456b9caf0657b73cb04b0e9a210a289",
+      "sha256": [
+        "d0929d8f5c443ffdf9def2eea9f3e7c15456b9caf0657b73cb04b0e9a210a289"
+      ],
       "text": "I hate your size.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "93153b4e739a328a6df6967a5310b9c6b46813c86c0ee26cd2606f828dc6568d",
+      "sha256": [
+        "93153b4e739a328a6df6967a5310b9c6b46813c86c0ee26cd2606f828dc6568d"
+      ],
       "text": "I'll take to the skies...",
       "source": "official"
     }

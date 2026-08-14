@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_saw_yamato.mp3",
   "revisions": [
     {
-      "sha256": "e552e76629ba5a27e60243276dc44f7946d093e2cbd2b7684f9848ae7f34c97e",
-      "text": "I saw Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62ee46d16b7098e2c51e156444f252656be73eaf6bd6e0569bde1ef5071e2289",
+      "sha256": [
+        "62ee46d16b7098e2c51e156444f252656be73eaf6bd6e0569bde1ef5071e2289",
+        "e552e76629ba5a27e60243276dc44f7946d093e2cbd2b7684f9848ae7f34c97e"
+      ],
       "text": "I saw Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

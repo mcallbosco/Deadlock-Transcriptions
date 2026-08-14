@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_lets_hide.mp3",
   "revisions": [
     {
-      "sha256": "a8ffd132716ed045933c74643d1ffa7ec5729945a36f1da102db9598d46d5e67",
-      "text": "Let's hide here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "859bb99860556cae91b647e50a480521a0d1da1e173f620bdf98ad491042a3d7",
+      "sha256": [
+        "859bb99860556cae91b647e50a480521a0d1da1e173f620bdf98ad491042a3d7",
+        "a8ffd132716ed045933c74643d1ffa7ec5729945a36f1da102db9598d46d5e67"
+      ],
       "text": "Let's hide here",
       "source": "official"
     }

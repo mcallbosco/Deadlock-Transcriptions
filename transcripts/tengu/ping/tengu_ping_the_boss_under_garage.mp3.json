@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_the_boss_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "d900b0ed36d800b01545f0bda00725442ef3b121b3c5e621e7f26d97fc6a1e26",
+      "sha256": [
+        "d900b0ed36d800b01545f0bda00725442ef3b121b3c5e621e7f26d97fc6a1e26"
+      ],
       "text": "The boss is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

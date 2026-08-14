@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_see_wraith_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "7ca600d854df544be5f99ee3ea391884440de0bd817857b5faa0a69f1e699fbd",
-      "text": "Wraith is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4ff50b6820a344f131a07814976c7db85ce075d8b529a4075c222ead10525204",
+      "sha256": [
+        "4ff50b6820a344f131a07814976c7db85ce075d8b529a4075c222ead10525204",
+        "7ca600d854df544be5f99ee3ea391884440de0bd817857b5faa0a69f1e699fbd"
+      ],
       "text": "Wraith is on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_careful_shiv_02.mp3",
   "revisions": [
     {
-      "sha256": "a74065969ac52b3a9161701aedcd833e1c60f745754a152a2be31fde47762e8b",
-      "text": "Careful, Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "954bc07e5efbfdc592d721f12ed62458020b2dc4aa9a69d04cf0a3d7f0c30133",
+        "a74065969ac52b3a9161701aedcd833e1c60f745754a152a2be31fde47762e8b"
+      ],
+      "text": "Careful, Shiv",
+      "source": "official"
     },
     {
-      "sha256": "7a103e284aba968ecbf262ace92bf2b72681c0cfacea574c3e58157332d996b8",
+      "sha256": [
+        "7a103e284aba968ecbf262ace92bf2b72681c0cfacea574c3e58157332d996b8"
+      ],
       "text": "Careful, chef.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "30cae9c5104deb8d55c3454fcd0f1da840389b3220868a567670805e6a4df0a1",
+      "sha256": [
+        "30cae9c5104deb8d55c3454fcd0f1da840389b3220868a567670805e6a4df0a1"
+      ],
       "text": "Careful, Shaz.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "954bc07e5efbfdc592d721f12ed62458020b2dc4aa9a69d04cf0a3d7f0c30133",
-      "text": "Careful, Shiv",
-      "source": "official"
     }
   ]
 }

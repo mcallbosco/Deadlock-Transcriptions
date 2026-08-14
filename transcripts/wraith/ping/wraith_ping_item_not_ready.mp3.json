@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_item_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "be8136ea01b1da967e67d7422504d85e4e4089204b5d19bfd8c539e3639eb453",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2ba3094bae22b89dfb346369b08e8af387883d31a13b6f776ce4ccea19a4df81",
-      "text": "Items on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6560fcba9d1d01009082a9ab4d77c36a1dd56eda0f171cd22263f7253813ab58",
+      "sha256": [
+        "2ba3094bae22b89dfb346369b08e8af387883d31a13b6f776ce4ccea19a4df81",
+        "6560fcba9d1d01009082a9ab4d77c36a1dd56eda0f171cd22263f7253813ab58",
+        "be8136ea01b1da967e67d7422504d85e4e4089204b5d19bfd8c539e3639eb453"
+      ],
       "text": "Item's on cooldown",
       "source": "official"
     }

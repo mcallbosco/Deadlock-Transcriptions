@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_magician_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "80026bacc10a71d71756524f06285a720c453ae6c1be41031c341c14e204c96c",
+      "sha256": [
+        "80026bacc10a71d71756524f06285a720c453ae6c1be41031c341c14e204c96c"
+      ],
       "text": "Sinclair is under the grudge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c16b3e532050da9ec75403fac88c7c75827fc67353829c80580d9fbd43a0c5cb",
+      "sha256": [
+        "c16b3e532050da9ec75403fac88c7c75827fc67353829c80580d9fbd43a0c5cb"
+      ],
       "text": "Sinclair's under the garage!",
       "source": "official"
     }

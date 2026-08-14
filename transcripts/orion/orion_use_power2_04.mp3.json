@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/orion_use_power2_04.mp3",
   "revisions": [
     {
-      "sha256": "a75b3a58b29fdfdbec7de5592eb2056a9452f1aa2f31169cbd99cb3661725bf5",
+      "sha256": [
+        "a75b3a58b29fdfdbec7de5592eb2056a9452f1aa2f31169cbd99cb3661725bf5"
+      ],
       "text": "Stay on the ground, dude.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a08d5e9aa3f16b3d374f0544d2673f11c72b932c77400700a36e6d83c05f86eb",
+      "sha256": [
+        "047b2025397109c79d256493102f98ac89abad21822abc641df2894f24e75022",
+        "a08d5e9aa3f16b3d374f0544d2673f11c72b932c77400700a36e6d83c05f86eb"
+      ],
       "text": "Stay on the ground and dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "047b2025397109c79d256493102f98ac89abad21822abc641df2894f24e75022",
-      "text": "Stay on the ground and dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "76e9cccaa12ffee79dd84de80efa439eaa4ee848563447eea9f198ebb67b2237",
+      "sha256": [
+        "76e9cccaa12ffee79dd84de80efa439eaa4ee848563447eea9f198ebb67b2237"
+      ],
       "text": "If I stay on the ground, I'm dead…",
       "source": "official"
     }

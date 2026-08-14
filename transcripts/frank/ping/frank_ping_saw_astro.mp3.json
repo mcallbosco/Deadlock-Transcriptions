@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_saw_astro.mp3",
   "revisions": [
     {
-      "sha256": "18288eb05966aca7ad657cff25f1d7c37a6d4256a8ec0cda522b5790ef5a478c",
+      "sha256": [
+        "18288eb05966aca7ad657cff25f1d7c37a6d4256a8ec0cda522b5790ef5a478c"
+      ],
       "text": "It's the holiday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4a8915647bff863ee28e147370d6b79baf08f299ced2f935e966c464062441cc",
+      "sha256": [
+        "4a8915647bff863ee28e147370d6b79baf08f299ced2f935e966c464062441cc"
+      ],
       "text": "Nice to holiday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

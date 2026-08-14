@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_can_heal_forge.mp3",
   "revisions": [
     {
-      "sha256": "2494cea298cf179c64def70ab9206da6736b7ec5661b50384d3473dcf0582a46",
-      "text": "McGinnis, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f20a4e0dbea2b1de75c76ad3d97de24b2735565aa59bd0d79252fb8f60b43991",
+      "sha256": [
+        "2494cea298cf179c64def70ab9206da6736b7ec5661b50384d3473dcf0582a46",
+        "f20a4e0dbea2b1de75c76ad3d97de24b2735565aa59bd0d79252fb8f60b43991"
+      ],
       "text": "McGinnis, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

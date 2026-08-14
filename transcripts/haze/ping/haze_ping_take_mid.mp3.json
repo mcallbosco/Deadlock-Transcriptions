@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_take_mid.mp3",
   "revisions": [
     {
-      "sha256": "7d545a2c9236eecc2419009e884bda0a82d0ec37d7b7bf73f7a062849f3b9ad9",
+      "sha256": [
+        "7d545a2c9236eecc2419009e884bda0a82d0ec37d7b7bf73f7a062849f3b9ad9"
+      ],
       "text": "What's going on?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b1eafa77e4f386c9543c6764278d3ca289f7d29f0cc3a78b32c9ce94f107147d",
+      "sha256": [
+        "b1eafa77e4f386c9543c6764278d3ca289f7d29f0cc3a78b32c9ce94f107147d"
+      ],
       "text": "Welcome mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1181829e8a6e0643b15561651bf7e3b40ff1f09799cd243c001bad0093190f73",
+      "sha256": [
+        "03bfc91ec426a801ed82f7fc10569647f556204231f1893e8dd0c32ad18a3dc7",
+        "1181829e8a6e0643b15561651bf7e3b40ff1f09799cd243c001bad0093190f73"
+      ],
       "text": "Let's commit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "03bfc91ec426a801ed82f7fc10569647f556204231f1893e8dd0c32ad18a3dc7",
-      "text": "Let's commit.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c69dfe1939e9f09eb68468010887e90ac8652a793c79de71c212507534744b5b",
+      "sha256": [
+        "c69dfe1939e9f09eb68468010887e90ac8652a793c79de71c212507534744b5b"
+      ],
       "text": "Let's go mid",
       "source": "official"
     }

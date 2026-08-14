@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_careful_gigawatt_02.mp3",
   "revisions": [
     {
-      "sha256": "4cb23a3e8648f51437f8e95b4a0f4cf025a944d99d28f1a4144d7845b916efb9",
+      "sha256": [
+        "4cb23a3e8648f51437f8e95b4a0f4cf025a944d99d28f1a4144d7845b916efb9"
+      ],
       "text": "Careful, Gigawatch!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87081534b947b7a37743ae2346c22dc6c49464674fe267c01aeb45a675e908df",
+      "sha256": [
+        "87081534b947b7a37743ae2346c22dc6c49464674fe267c01aeb45a675e908df"
+      ],
       "text": "Careful, Seven",
       "source": "official"
     }

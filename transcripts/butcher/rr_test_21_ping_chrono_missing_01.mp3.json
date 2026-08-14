@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3e12a8b2b5dbe94461ee1637e23d00cbd91f254bd66f79112a6c49bbaaa144e8",
-      "text": "Corona was missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5ec3724818e2061dd1408968ddbe91ef41d9d49068ac947ff40be45de6c7a681",
-      "text": "Corona was missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c425dc85578b11d3730c041ce6dbf6709802e4abd42305cf20967f19d893fcd",
+      "sha256": [
+        "1c425dc85578b11d3730c041ce6dbf6709802e4abd42305cf20967f19d893fcd",
+        "3e12a8b2b5dbe94461ee1637e23d00cbd91f254bd66f79112a6c49bbaaa144e8",
+        "5ec3724818e2061dd1408968ddbe91ef41d9d49068ac947ff40be45de6c7a681"
+      ],
       "text": "Corona was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

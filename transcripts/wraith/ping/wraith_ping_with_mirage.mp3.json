@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "4c41ae1fbc37340f02a4cc7884cafd5c5f5e14e625e020affba4ae63f3253697",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "719704b24f28e2d0cf7611d750c41bb4025ed6c1836acd36a1b75902fc7878c4",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "63efbadb370d6451c74b4fae0e5ad2cf2057eadd44b39235799e57779524702a",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c08bb9f1ed562535761d29437cbb45420ccc45d447f623ea669b5be87ec47f0",
+      "sha256": [
+        "2c08bb9f1ed562535761d29437cbb45420ccc45d447f623ea669b5be87ec47f0",
+        "4c41ae1fbc37340f02a4cc7884cafd5c5f5e14e625e020affba4ae63f3253697",
+        "63efbadb370d6451c74b4fae0e5ad2cf2057eadd44b39235799e57779524702a",
+        "719704b24f28e2d0cf7611d750c41bb4025ed6c1836acd36a1b75902fc7878c4"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

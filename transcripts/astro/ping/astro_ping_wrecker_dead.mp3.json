@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_wrecker_dead.mp3",
   "revisions": [
     {
-      "sha256": "b630e701d3533800a3cc31a84f82100394d9f7c3ab1fcd0815cfdb6d6c69c0a5",
+      "sha256": [
+        "b630e701d3533800a3cc31a84f82100394d9f7c3ab1fcd0815cfdb6d6c69c0a5"
+      ],
       "text": "Gregor is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

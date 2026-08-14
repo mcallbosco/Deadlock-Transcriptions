@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_happy_06.mp3",
   "revisions": [
     {
-      "sha256": "407b2048d34d163d99c961b3892af2b7c8932f1007688496729dce3dc22ff86d",
-      "text": "This is a good day!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c7373f0ce7644468e3ffb8b702d85e898d7d6eccf8579e0b1c84c2b916b3f62f",
+      "sha256": [
+        "407b2048d34d163d99c961b3892af2b7c8932f1007688496729dce3dc22ff86d",
+        "c7373f0ce7644468e3ffb8b702d85e898d7d6eccf8579e0b1c84c2b916b3f62f"
+      ],
       "text": "This is a good day!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

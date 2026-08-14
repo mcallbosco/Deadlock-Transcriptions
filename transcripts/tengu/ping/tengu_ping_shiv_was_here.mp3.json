@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_shiv_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c64b07c2c838c8155372c11db41ccbd71de4f3db35ac42b4e357019603ba5a6e",
-      "text": "Shiver here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3866f0a2f602178a709051b2636b8c51921e432a6f15f973f7e5feff055ed096",
+      "sha256": [
+        "3866f0a2f602178a709051b2636b8c51921e432a6f15f973f7e5feff055ed096",
+        "c64b07c2c838c8155372c11db41ccbd71de4f3db35ac42b4e357019603ba5a6e"
+      ],
       "text": "Shiver here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_bebop_check_items.mp3",
   "revisions": [
     {
-      "sha256": "0ff31b9315b59bf4a5e15c0926fe9130f6067699ec3ca055ea734ad45321f536",
+      "sha256": [
+        "0ff31b9315b59bf4a5e15c0926fe9130f6067699ec3ca055ea734ad45321f536"
+      ],
       "text": "Check out my bebop bot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_shiv_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "882a91a33e83291976161b2e83ed594f4c67f65403a420d1b4871ce93a4cf008",
-      "text": "Ship is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "04865331e658a09bd396d0fdd25c88d5edd785cfbb85fc617cd325f7c199c882",
+      "sha256": [
+        "04865331e658a09bd396d0fdd25c88d5edd785cfbb85fc617cd325f7c199c882",
+        "882a91a33e83291976161b2e83ed594f4c67f65403a420d1b4871ce93a4cf008"
+      ],
       "text": "Ship is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

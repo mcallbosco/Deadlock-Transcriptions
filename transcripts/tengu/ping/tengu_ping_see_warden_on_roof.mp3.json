@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_warden_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "323c2040fcd91ab880494f9990e4de0f96cd4a1e7aa0a3398d4afafc6dc22966",
+      "sha256": [
+        "323c2040fcd91ab880494f9990e4de0f96cd4a1e7aa0a3398d4afafc6dc22966"
+      ],
       "text": "What is the now?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2b3f06e140143a8e7c7888b2597d7d4ab579db704ce64804ddf29a42b616df48",
+      "sha256": [
+        "2b3f06e140143a8e7c7888b2597d7d4ab579db704ce64804ddf29a42b616df48"
+      ],
       "text": "Warden's on the roof!",
       "source": "official"
     }

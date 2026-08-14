@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/astro_enemy_shiv_unkillable_01.mp3",
   "revisions": [
     {
-      "sha256": "8ac35fffb7982890b1113e19f2560f04d57702f9fec4c79d5f2b71a870ee4531",
+      "sha256": [
+        "8ac35fffb7982890b1113e19f2560f04d57702f9fec4c79d5f2b71a870ee4531"
+      ],
       "text": "Help me kill this thing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ce762d2ef336d9b07e12b9218bf121edb33c693294556ac49ed3a1a9582a343f",
+      "sha256": [
+        "ce762d2ef336d9b07e12b9218bf121edb33c693294556ac49ed3a1a9582a343f"
+      ],
       "text": "Help me kill shiv!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_use_power1_02.mp3",
   "revisions": [
     {
-      "sha256": "00659abd4d02502109647fa853076677cfb25dd9e7a7443f8c81bbf627aed8bc",
+      "sha256": [
+        "00659abd4d02502109647fa853076677cfb25dd9e7a7443f8c81bbf627aed8bc",
+        "e9ebab8b5cb9668a3be27fc51459fb5de081b48a01eed40d75f7d5c969434f24"
+      ],
       "text": "That's play.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e9ebab8b5cb9668a3be27fc51459fb5de081b48a01eed40d75f7d5c969434f24",
-      "text": "That's play.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "55ee086e3cdf6f064f060bd21ee397573637db9f9f38235068aae1a6bfdba87d",
+      "sha256": [
+        "55ee086e3cdf6f064f060bd21ee397573637db9f9f38235068aae1a6bfdba87d"
+      ],
       "text": "Let's play.",
       "source": "official"
     }

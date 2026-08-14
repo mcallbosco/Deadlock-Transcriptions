@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_doorman_dead.mp3",
   "revisions": [
     {
-      "sha256": "72eca03fb6b239d1ede45ae0092dc1c34f1f4530ae0d20221442130078d6192f",
+      "sha256": [
+        "72eca03fb6b239d1ede45ae0092dc1c34f1f4530ae0d20221442130078d6192f"
+      ],
       "text": "The domain is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

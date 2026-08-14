@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_saw_dynamo.mp3",
   "revisions": [
     {
-      "sha256": "ec94a5da4a6794f60e38e79e63768b2e1058f801eec88e650fa6f91dbe01d0fc",
+      "sha256": [
+        "1436550e2b06f2f9e68d5ce5b2ab778f2713ed4e0bc9331061b4e43ceddd410f",
+        "ec94a5da4a6794f60e38e79e63768b2e1058f801eec88e650fa6f91dbe01d0fc"
+      ],
       "text": "I saw Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "398e1d53177859008666cbad4c55506bb197955336cf96001beb985d834dabe7",
+      "sha256": [
+        "398e1d53177859008666cbad4c55506bb197955336cf96001beb985d834dabe7",
+        "81c3d04c3a4e559609e69bb0aee4c6aa90c46cead44139463be1407373e649ae"
+      ],
       "text": "I sold Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "81c3d04c3a4e559609e69bb0aee4c6aa90c46cead44139463be1407373e649ae",
-      "text": "I sold Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1436550e2b06f2f9e68d5ce5b2ab778f2713ed4e0bc9331061b4e43ceddd410f",
-      "text": "I saw Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

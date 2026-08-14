@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_careful_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "bb491151f5adb2601c7075efbff6d823870fc8a4e714a476f45436fd085e3495",
-      "text": "Careful, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4674f6af3bec1328a45d75bc2acbe31358a11dd3432500c2ba869819fda6e9c7",
+      "sha256": [
+        "4674f6af3bec1328a45d75bc2acbe31358a11dd3432500c2ba869819fda6e9c7",
+        "bb491151f5adb2601c7075efbff6d823870fc8a4e714a476f45436fd085e3495"
+      ],
       "text": "Careful, Pocket…",
       "source": "official"
     }

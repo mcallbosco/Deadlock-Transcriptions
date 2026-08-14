@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "8b399c209a11172dbe8d436ce89aa0243cff9216c99adc7eda8a73736709f461",
-      "text": "Careful, Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6b5f41136b0b9556eb00feca47ff813c187d1325648407f3cdea6d42f506443b",
-      "text": "Careful, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2249fa19e90ba3df3bfbe23a80104be4d6f45a2dd85af0f9f90a344cb7693832",
+      "sha256": [
+        "2249fa19e90ba3df3bfbe23a80104be4d6f45a2dd85af0f9f90a344cb7693832",
+        "6b5f41136b0b9556eb00feca47ff813c187d1325648407f3cdea6d42f506443b",
+        "8b399c209a11172dbe8d436ce89aa0243cff9216c99adc7eda8a73736709f461"
+      ],
       "text": "Careful, Yamato",
       "source": "official"
     }

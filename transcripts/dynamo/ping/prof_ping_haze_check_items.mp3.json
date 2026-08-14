@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_haze_check_items.mp3",
   "revisions": [
     {
-      "sha256": "fea94dd57b19853ee560f7b9ebe9e964f53c20936d3bbda9a4a3f15ee143fd9e",
+      "sha256": [
+        "318c85bd52dd1ad929df5d8cfb67314aae45dbcb555c0163c3026e292c24b451",
+        "fea94dd57b19853ee560f7b9ebe9e964f53c20936d3bbda9a4a3f15ee143fd9e"
+      ],
       "text": "Check out what Haze bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "318c85bd52dd1ad929df5d8cfb67314aae45dbcb555c0163c3026e292c24b451",
-      "text": "Check out what Haze bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

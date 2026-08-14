@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "29645529ac3a5d70a56c537efc97bbbac8199c0db74ddda532c2c9c656f1dd0f",
+      "sha256": [
+        "29645529ac3a5d70a56c537efc97bbbac8199c0db74ddda532c2c9c656f1dd0f"
+      ],
       "text": "Die Smash.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "27134328d3e6563d305dc9c7683e02c525833cd9e3e6d92f3d4bf217f7c37618",
+      "sha256": [
+        "27134328d3e6563d305dc9c7683e02c525833cd9e3e6d92f3d4bf217f7c37618",
+        "a187bea96deae53a95622e3bf64ea76fe71e5014abcc55d70928c5bf3f22b4e5"
+      ],
       "text": "Crushing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a187bea96deae53a95622e3bf64ea76fe71e5014abcc55d70928c5bf3f22b4e5",
-      "text": "Crushing",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00f286f556ff71ef5b9b368b2aa13acd21310b747257accaa24fbdc8dcef8962",
+      "sha256": [
+        "00f286f556ff71ef5b9b368b2aa13acd21310b747257accaa24fbdc8dcef8962"
+      ],
       "text": "Geist's missing",
       "source": "official"
     }

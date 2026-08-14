@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_02/rr_guardian_test_02_congrats_ghost.mp3",
   "revisions": [
     {
-      "sha256": "aebdbc750e30023bb75ed44cd75d77e75bcecf1abc3d5690eed695cde1d5db3e",
-      "text": "Good job, Ghost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d0e7d57fd63ed5234511f56442e9a1c7280f2984b801c320dba3f2ab3e36c6d",
-      "text": "Good job, Ghost!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac67930d354acab488ada32f11dbbd9c3a4196e31b9cfa5b633390d064f39aa5",
+      "sha256": [
+        "1d0e7d57fd63ed5234511f56442e9a1c7280f2984b801c320dba3f2ab3e36c6d",
+        "ac67930d354acab488ada32f11dbbd9c3a4196e31b9cfa5b633390d064f39aa5",
+        "aebdbc750e30023bb75ed44cd75d77e75bcecf1abc3d5690eed695cde1d5db3e"
+      ],
       "text": "Good job, Ghost.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "8004b638ca566d2ec90f8fe36414e769f53ddc336cbdf189d8aa089a14ea9cc0",
+      "sha256": [
+        "8004b638ca566d2ec90f8fe36414e769f53ddc336cbdf189d8aa089a14ea9cc0"
+      ],
       "text": "That's the rock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "071618436b6716ecb9d489a60a2d3380145c7c388650b43fa5629599df864fbe",
+      "sha256": [
+        "071618436b6716ecb9d489a60a2d3380145c7c388650b43fa5629599df864fbe"
+      ],
       "text": "That's the wrong one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "923435857ba28b81a47315964ea821a2576ef89b7241531ef0ae61647bfabc14",
+      "sha256": [
+        "923435857ba28b81a47315964ea821a2576ef89b7241531ef0ae61647bfabc14"
+      ],
       "text": "Careful, Grey Talon…",
       "source": "official"
     }

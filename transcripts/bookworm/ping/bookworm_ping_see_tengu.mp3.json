@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_tengu.mp3",
   "revisions": [
     {
-      "sha256": "8379e011694d565c0d76668a33e3b86fb06c88cef04e9ea689c27b14cd4d47ef",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0574c8160052b86c6deb364d53e22d83b8c6831e47bdcee0da597478c4da568b",
+      "sha256": [
+        "0574c8160052b86c6deb364d53e22d83b8c6831e47bdcee0da597478c4da568b",
+        "8379e011694d565c0d76668a33e3b86fb06c88cef04e9ea689c27b14cd4d47ef"
+      ],
       "text": "I see Ivy.",
       "source": "official"
     }

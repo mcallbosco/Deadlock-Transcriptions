@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_hunt_03.mp3",
   "revisions": [
     {
-      "sha256": "cd272b00738c5515b7d6911a7d0df1b75003886b1b60d3673ad53b33c02d6f47",
+      "sha256": [
+        "cd272b00738c5515b7d6911a7d0df1b75003886b1b60d3673ad53b33c02d6f47"
+      ],
       "text": "Good evening.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "de9e7851296c6bcf733863bd5159285589ea4d68e4708ec5b53e9fb46af8afc1",
+      "sha256": [
+        "6ae937311f0bf2284f91d42ffe6994e418764b45fdaf1e28c7833fa5f9937d68",
+        "de9e7851296c6bcf733863bd5159285589ea4d68e4708ec5b53e9fb46af8afc1"
+      ],
       "text": "Conclusion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6ae937311f0bf2284f91d42ffe6994e418764b45fdaf1e28c7833fa5f9937d68",
-      "text": "Conclusion.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8e679e7006f69bed4a2dd091a78e25d6272727b583ec90b482d6da75e2c6639e",
+      "sha256": [
+        "8e679e7006f69bed4a2dd091a78e25d6272727b583ec90b482d6da75e2c6639e"
+      ],
       "text": "Did we lose them?",
       "source": "official"
     }

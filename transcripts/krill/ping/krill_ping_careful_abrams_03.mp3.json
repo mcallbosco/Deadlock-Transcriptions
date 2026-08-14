@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_careful_abrams_03.mp3",
   "revisions": [
     {
-      "sha256": "ddc655d081e5d8482a20a1c08f8332b69247394434a6db562445c1fd56d5dbbc",
-      "text": "Careful, Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "59faad81491464622eacab3e474287e0011ea1c0bdb32b2a5e03852d4c97410b",
+      "sha256": [
+        "59faad81491464622eacab3e474287e0011ea1c0bdb32b2a5e03852d4c97410b",
+        "ddc655d081e5d8482a20a1c08f8332b69247394434a6db562445c1fd56d5dbbc"
+      ],
       "text": "Careful, Abrams!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

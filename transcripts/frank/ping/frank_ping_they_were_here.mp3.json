@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "7c0a91e792f3111fc25fb49b72d6bd3b458b6c59a082821a4a7a63ea796b2fde",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "35bb58cc263d26710e85af67106f1d68623ac9a6f594fdc2278305a8077f13e8",
+      "sha256": [
+        "35bb58cc263d26710e85af67106f1d68623ac9a6f594fdc2278305a8077f13e8",
+        "7c0a91e792f3111fc25fb49b72d6bd3b458b6c59a082821a4a7a63ea796b2fde"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

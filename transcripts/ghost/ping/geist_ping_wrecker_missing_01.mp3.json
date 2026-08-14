@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c5e0234509506efe849260a7c2fbdef084dc1bdc8d7fc85efcb39e688c9b2ba1",
+      "sha256": [
+        "c5e0234509506efe849260a7c2fbdef084dc1bdc8d7fc85efcb39e688c9b2ba1"
+      ],
       "text": "What am I missing?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "727b5ffc0bbb817395cf596d79f14573e0a22acf0a2bc1b91f368243f1a7cb16",
+      "sha256": [
+        "727b5ffc0bbb817395cf596d79f14573e0a22acf0a2bc1b91f368243f1a7cb16"
+      ],
       "text": "That guy's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

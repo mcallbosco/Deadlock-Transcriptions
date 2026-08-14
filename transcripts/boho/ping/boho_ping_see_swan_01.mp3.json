@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_see_swan_01.mp3",
   "revisions": [
     {
-      "sha256": "a3295281071f38657a69e8ebfa427ef7d6ded234e3c6036dedff2c2cf0843328",
+      "sha256": [
+        "a3295281071f38657a69e8ebfa427ef7d6ded234e3c6036dedff2c2cf0843328"
+      ],
       "text": "I see one.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

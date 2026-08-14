@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_mid_spawn_01.mp3",
   "revisions": [
     {
-      "sha256": "6cfbd4cc7c24b5e10338ab82b6deda8b4482a0c934d886ab7ea44d87bbecea2b",
-      "text": "Mid-boss has arrived.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "799d0810f15f9770bab6c4dd40c72d01186850e7f9de8ec9d4ef50984d85f5e1",
-      "text": "Mid boss has arrived.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "27ac523d0e94e74a9b40453d6b222a556a4e82edeab50b52f2e54016f1b1ab46",
-      "text": "Mid-boss has arrived.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02d3bb9980120b174ea10da1f437f568fa15fa4fc0a1da5528bc1c324d7f04b5",
+      "sha256": [
+        "02d3bb9980120b174ea10da1f437f568fa15fa4fc0a1da5528bc1c324d7f04b5",
+        "27ac523d0e94e74a9b40453d6b222a556a4e82edeab50b52f2e54016f1b1ab46",
+        "6cfbd4cc7c24b5e10338ab82b6deda8b4482a0c934d886ab7ea44d87bbecea2b",
+        "799d0810f15f9770bab6c4dd40c72d01186850e7f9de8ec9d4ef50984d85f5e1"
+      ],
       "text": "Mid boss has arrived",
       "source": "official"
     }

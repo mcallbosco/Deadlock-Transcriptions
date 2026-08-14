@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_yamato_01.mp3",
   "revisions": [
     {
-      "sha256": "f0a1d85967286d1bb2f2d91d5efe5214af85a42ba000c9d27a258343fd9238d1",
-      "text": "Careful, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bc8e56e985deb395a861b2ea8576d5284da0036bfdc91b05fa44bb3835e9e82c",
-      "text": "Careful, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "09ca2bf1d30ca33baacf67195b66d11469428a5bfc737f9260a8623067b3e5d8",
+      "sha256": [
+        "09ca2bf1d30ca33baacf67195b66d11469428a5bfc737f9260a8623067b3e5d8",
+        "bc8e56e985deb395a861b2ea8576d5284da0036bfdc91b05fa44bb3835e9e82c",
+        "f0a1d85967286d1bb2f2d91d5efe5214af85a42ba000c9d27a258343fd9238d1"
+      ],
       "text": "Careful, Yamato…",
       "source": "official"
     }

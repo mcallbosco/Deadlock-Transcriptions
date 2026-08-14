@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_see_enemy.mp3",
   "revisions": [
     {
-      "sha256": "c5509e88bb8dd37f3b48807a8c113ca996a34159ae35a98b29a881ad8f42c5c1",
-      "text": "I see the enemy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "234df11ebc4cc978082c14b0f752c372e4318cbc423de5077f45d0195f7ab11a",
+      "sha256": [
+        "234df11ebc4cc978082c14b0f752c372e4318cbc423de5077f45d0195f7ab11a",
+        "c5509e88bb8dd37f3b48807a8c113ca996a34159ae35a98b29a881ad8f42c5c1"
+      ],
       "text": "I see the enemy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

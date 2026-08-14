@@ -1,27 +1,35 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_krill_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ebc768da07dc9105be83c8f5005021c21e326419d6201104ee55073c0808afcc",
+      "sha256": [
+        "ebc768da07dc9105be83c8f5005021c21e326419d6201104ee55073c0808afcc"
+      ],
       "text": "Hello, my friend.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d6999212dbc66b12ecc44f19d26e95de6c3f65ab29cb578842fb060b1b3900d",
+      "sha256": [
+        "3d6999212dbc66b12ecc44f19d26e95de6c3f65ab29cb578842fb060b1b3900d"
+      ],
       "text": "クレズメシン",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e92434cf7706b57f4a5b315428be3a4ff9661506f0bb39dec4081f3999af3f17",
+      "sha256": [
+        "e92434cf7706b57f4a5b315428be3a4ff9661506f0bb39dec4081f3999af3f17"
+      ],
       "text": "クリズミシン",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0252cbb74614a1f503b290af3147a983401f43bc8847eb643709548c39c6081",
+      "sha256": [
+        "f0252cbb74614a1f503b290af3147a983401f43bc8847eb643709548c39c6081"
+      ],
       "text": "Krill's missing",
       "source": "official"
     }

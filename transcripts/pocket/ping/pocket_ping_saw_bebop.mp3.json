@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_saw_bebop.mp3",
   "revisions": [
     {
-      "sha256": "f79da49357f0f78ef903929797a6fc3f6b102759ca87fafb13576645487202e9",
-      "text": "I saw Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "87a81bdc1ce688acd8788e810cd2737531ecb5ee87a3a2f003a20878e34758a0",
+      "sha256": [
+        "87a81bdc1ce688acd8788e810cd2737531ecb5ee87a3a2f003a20878e34758a0",
+        "f79da49357f0f78ef903929797a6fc3f6b102759ca87fafb13576645487202e9"
+      ],
       "text": "I saw Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

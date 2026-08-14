@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_ghost_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "570c9cd2bfc11b73b49b658f06c647054ca4812d05f4a9854f4cbb89d904caf1",
+      "sha256": [
+        "570c9cd2bfc11b73b49b658f06c647054ca4812d05f4a9854f4cbb89d904caf1",
+        "bbeaad162228b4396462f56744d2e8bbfa9b524ab71f200f84a60e0facf6b9f3"
+      ],
       "text": "Guy's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bbeaad162228b4396462f56744d2e8bbfa9b524ab71f200f84a60e0facf6b9f3",
-      "text": "Guy's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28a7e3d0dcdca05951487950e39697444e988e3a23dbd5cf88b0d18bc51cbde0",
+      "sha256": [
+        "28a7e3d0dcdca05951487950e39697444e988e3a23dbd5cf88b0d18bc51cbde0"
+      ],
       "text": "Geist's missing",
       "source": "official"
     }

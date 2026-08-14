@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_abrams_was_here.mp3",
   "revisions": [
     {
-      "sha256": "b76dfd73a8c9f0dfad6cf669ccb69da49c9bd64232c99f56c2de7c8bc8e8f1cb",
+      "sha256": [
+        "b76dfd73a8c9f0dfad6cf669ccb69da49c9bd64232c99f56c2de7c8bc8e8f1cb"
+      ],
       "text": "Abras is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_use_ice_blast_01.mp3",
   "revisions": [
     {
-      "sha256": "69b686693edbf08fcdcf768a0103efa760f4a255df84b3e6be1428621aaa9c20",
+      "sha256": [
+        "28b1f9d46bd6c1db363f31889aa702c73310087b898851d29eb7226de68ddf45",
+        "69b686693edbf08fcdcf768a0103efa760f4a255df84b3e6be1428621aaa9c20"
+      ],
       "text": "Nice blast!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "28b1f9d46bd6c1db363f31889aa702c73310087b898851d29eb7226de68ddf45",
-      "text": "Nice blast.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_push_green_02.mp3",
   "revisions": [
     {
-      "sha256": "9ddcc3aeaa95e82897655ab91095aa3dd70e6de9e4d68a3b997d0d31335fce09",
+      "sha256": [
+        "9ddcc3aeaa95e82897655ab91095aa3dd70e6de9e4d68a3b997d0d31335fce09",
+        "c8b3dcc2441bf11ea8fa9a1c36619160d097cff3f0d9227b019288e218af1173"
+      ],
       "text": "Let's push Gresh.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c8b3dcc2441bf11ea8fa9a1c36619160d097cff3f0d9227b019288e218af1173",
-      "text": "Let's push Gresh.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "06a54f861e50746ab7d3d609f93dbed8ea51201ba7e02dc1af2ab9450e6eb18a",
+      "sha256": [
+        "06a54f861e50746ab7d3d609f93dbed8ea51201ba7e02dc1af2ab9450e6eb18a"
+      ],
       "text": "Let's push Greenwich",
       "source": "official"
     }

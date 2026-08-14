@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_stun_heavy_01.mp3",
   "revisions": [
     {
-      "sha256": "7941ee1bc226e20030a3099302668a8eece2193b9ae52812fe223f12c017d9d4",
-      "text": "Stun heavy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6ee3ce8ac36b763ee49f868f5911674aac8addd1134e0cc1b70d0b60612ac5e7",
-      "text": "Stun heavy!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3c14b19098d4decb013621488faccd8b4c814bfa76f5410d7b545a27263bbff7",
+      "sha256": [
+        "3c14b19098d4decb013621488faccd8b4c814bfa76f5410d7b545a27263bbff7",
+        "6ee3ce8ac36b763ee49f868f5911674aac8addd1134e0cc1b70d0b60612ac5e7",
+        "7941ee1bc226e20030a3099302668a8eece2193b9ae52812fe223f12c017d9d4"
+      ],
       "text": "Stun heavy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

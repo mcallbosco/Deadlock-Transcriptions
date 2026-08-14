@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_careful_orion_01.mp3",
   "revisions": [
     {
-      "sha256": "8111e53fd3b995cd5472c0a071ad9aecb2d04849c05cd1327730cbc1a650ce4a",
-      "text": "Careful, Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bfd41ffa75fa9dc6e9bd8314e1e1cd5d9a190006fc93cc5728f4da7fb06596b4",
+      "sha256": [
+        "8111e53fd3b995cd5472c0a071ad9aecb2d04849c05cd1327730cbc1a650ce4a",
+        "bfd41ffa75fa9dc6e9bd8314e1e1cd5d9a190006fc93cc5728f4da7fb06596b4"
+      ],
       "text": "Careful, Talon.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

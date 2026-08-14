@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_mirage_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "f5fa7d39d1e8babbd7084c1b540345283a21905d4e39c02d40f5fd08b3172ad4",
+      "sha256": [
+        "f5fa7d39d1e8babbd7084c1b540345283a21905d4e39c02d40f5fd08b3172ad4"
+      ],
       "text": "Mirage is on double decker",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "36e3a7fe274116fca693dc9a2fd4511b99c3384a8bf393e54c7f000aef54bee1",
+      "sha256": [
+        "36e3a7fe274116fca693dc9a2fd4511b99c3384a8bf393e54c7f000aef54bee1"
+      ],
       "text": "Mirage is a double-decker",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

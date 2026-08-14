@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_haze_on_top_of_garage.mp3",
   "revisions": [
     {
-      "sha256": "7fc6eb01560d9fa040ef86daa08ee39db7bfc9c813f6cdff2c63ae1122081248",
+      "sha256": [
+        "7fc6eb01560d9fa040ef86daa08ee39db7bfc9c813f6cdff2c63ae1122081248"
+      ],
       "text": "Hey, he's on top of the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3e037928085fbeb6739c763af14c2834bb92947c6e4845dddf2c486e497539a5",
+      "sha256": [
+        "3e037928085fbeb6739c763af14c2834bb92947c6e4845dddf2c486e497539a5"
+      ],
       "text": "Cass is on top of that garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_kill_synth_01.mp3",
   "revisions": [
     {
-      "sha256": "36dad4866be8f9b43ad010d5a9fec974d5b3c7ac520bac965597b2d30a4391d2",
+      "sha256": [
+        "36dad4866be8f9b43ad010d5a9fec974d5b3c7ac520bac965597b2d30a4391d2"
+      ],
       "text": "Sorry about that, Pocky.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3da521695e59934b2a37b153a9998acb2f6797853a89c23e1399f9bfc1091a38",
+      "sha256": [
+        "3da521695e59934b2a37b153a9998acb2f6797853a89c23e1399f9bfc1091a38"
+      ],
       "text": "Sorry about that Pocket.",
       "source": "official"
     }

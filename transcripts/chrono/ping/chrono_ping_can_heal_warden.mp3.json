@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_can_heal_warden.mp3",
   "revisions": [
     {
-      "sha256": "996c34dbe305c87245de70cf12d973f25a8531497362d9664a1de903463199a7",
-      "text": "Warden, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4def5e9928c3eadaa742a0d1e5ec732089aeb05c7948ee8b4b5e029a79a64206",
+      "sha256": [
+        "4def5e9928c3eadaa742a0d1e5ec732089aeb05c7948ee8b4b5e029a79a64206",
+        "996c34dbe305c87245de70cf12d973f25a8531497362d9664a1de903463199a7"
+      ],
       "text": "Warden, I can heal you!",
       "source": "official"
     }

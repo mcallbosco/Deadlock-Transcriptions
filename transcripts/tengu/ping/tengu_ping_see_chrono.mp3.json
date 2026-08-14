@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_see_chrono.mp3",
   "revisions": [
     {
-      "sha256": "e4a3d86948cab5ea0042dae08538797e40151872d24ff2ab14d74b09182037fc",
+      "sha256": [
+        "e4a3d86948cab5ea0042dae08538797e40151872d24ff2ab14d74b09182037fc"
+      ],
       "text": "You see paradox.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1b8e2aca9e5402db5bbf0024dbe8c830edce5e11f84cad461cbba09f582aec43",
+      "sha256": [
+        "1b8e2aca9e5402db5bbf0024dbe8c830edce5e11f84cad461cbba09f582aec43"
+      ],
       "text": "I see Paradox",
       "source": "official"
     }

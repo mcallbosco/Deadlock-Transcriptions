@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_saw_the_boss.mp3",
   "revisions": [
     {
-      "sha256": "99d8ca945fd6f8a789c450d08fd77fb161d2af5e411012bd9a2ec4b32327f518",
-      "text": "I saw the boss!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9f7837608104836606f6ba0714b74ba267073636dbe8aaf6a029671ec9f6e96",
+      "sha256": [
+        "99d8ca945fd6f8a789c450d08fd77fb161d2af5e411012bd9a2ec4b32327f518",
+        "e9f7837608104836606f6ba0714b74ba267073636dbe8aaf6a029671ec9f6e96"
+      ],
       "text": "I saw the boss!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

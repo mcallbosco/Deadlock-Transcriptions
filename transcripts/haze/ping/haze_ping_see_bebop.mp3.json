@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_bebop.mp3",
   "revisions": [
     {
-      "sha256": "60f4f4d5c4fee36a6038e1d8681248a03b2ea053180d320d403e27be44fad2a7",
+      "sha256": [
+        "60f4f4d5c4fee36a6038e1d8681248a03b2ea053180d320d403e27be44fad2a7"
+      ],
       "text": "I see bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

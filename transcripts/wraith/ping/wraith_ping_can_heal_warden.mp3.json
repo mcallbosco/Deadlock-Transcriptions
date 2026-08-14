@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_can_heal_warden.mp3",
   "revisions": [
     {
-      "sha256": "af22b5b354b9001f2e4520dd5d89aa3ece345b19d5022f407243ed2cc7bf1b7b",
-      "text": "Warden, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "327becea8e273b1396a2f37bbfbae244ae6a3d2608eec70682b1e39ba87ca6f2",
+        "af22b5b354b9001f2e4520dd5d89aa3ece345b19d5022f407243ed2cc7bf1b7b",
+        "b33406480f00456dcb031099441a5a7583107d74f550225a9fe4de7fe6d5ce2d"
+      ],
+      "text": "Warden, I can heal you!",
+      "source": "official"
     },
     {
-      "sha256": "327becea8e273b1396a2f37bbfbae244ae6a3d2608eec70682b1e39ba87ca6f2",
-      "text": "Warden, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "691cc1d6c1bc9d6b940b906629274ddc3a65ed9e47ff100f80f5585dc29dbb3c",
+      "sha256": [
+        "691cc1d6c1bc9d6b940b906629274ddc3a65ed9e47ff100f80f5585dc29dbb3c"
+      ],
       "text": "Wharton, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b33406480f00456dcb031099441a5a7583107d74f550225a9fe4de7fe6d5ce2d",
-      "text": "Warden, I can heal you!",
-      "source": "official"
     }
   ]
 }

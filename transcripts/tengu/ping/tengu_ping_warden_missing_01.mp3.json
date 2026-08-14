@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "53cde32245637c7e74f3ffe7051b8766f5339f4a4762faf8619d72e42822b76b",
+      "sha256": [
+        "53cde32245637c7e74f3ffe7051b8766f5339f4a4762faf8619d72e42822b76b"
+      ],
       "text": "Gordon's missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4bf937791c37e0217e084729207e90619b01b61a134cb50ac6626b3a9bf18169",
+      "sha256": [
+        "4bf937791c37e0217e084729207e90619b01b61a134cb50ac6626b3a9bf18169"
+      ],
       "text": "Warden's missing",
       "source": "official"
     }

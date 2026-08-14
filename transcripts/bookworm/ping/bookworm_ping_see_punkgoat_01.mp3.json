@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_see_punkgoat_01.mp3",
   "revisions": [
     {
-      "sha256": "25003af64ad1566c322a392d01df7fd24215b9c27219f9e8f575c1468103ebf1",
+      "sha256": [
+        "25003af64ad1566c322a392d01df7fd24215b9c27219f9e8f575c1468103ebf1"
+      ],
       "text": "I see the goat guy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3876f937a4aa6dc1fad0ae77f5f708473782b148ec43c773c0351598ce1af920",
+      "sha256": [
+        "3876f937a4aa6dc1fad0ae77f5f708473782b148ec43c773c0351598ce1af920"
+      ],
       "text": "I see the goat.",
       "source": "official"
     }

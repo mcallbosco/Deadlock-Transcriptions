@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_careful_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "c769066b827d104802a650116097d82b78b2cd9200565ff45ac98b6af5db576b",
+      "sha256": [
+        "c769066b827d104802a650116097d82b78b2cd9200565ff45ac98b6af5db576b"
+      ],
       "text": "Careful, Dynamo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

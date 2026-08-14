@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/yamato_kill_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "f55e06155794e673a137d5a388c04c723982e040a0f98c89cd855061e2f047c4",
+      "sha256": [
+        "f55e06155794e673a137d5a388c04c723982e040a0f98c89cd855061e2f047c4"
+      ],
       "text": "お前に私は止められんさ、ボーデン。",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cbd0e6113f6f68463258d225a225a9278d8a15a9c2b65e6d0e314a230a11ba5f",
+      "sha256": [
+        "cbd0e6113f6f68463258d225a225a9278d8a15a9c2b65e6d0e314a230a11ba5f"
+      ],
       "text": "You will never stop me Warden.",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_ally_doorman_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "d935a5609d78480566604ca17b9163b49919efe2ac9f81bd9f3b310de15c347c",
-      "text": "They took out the doorman!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5b8e7de387ea9d6f8620a3619b2aea5304303c22d338cd715540aa36bf860fe",
+      "sha256": [
+        "c5b8e7de387ea9d6f8620a3619b2aea5304303c22d338cd715540aa36bf860fe",
+        "d935a5609d78480566604ca17b9163b49919efe2ac9f81bd9f3b310de15c347c"
+      ],
       "text": "They took out the Doorman!",
       "source": "manual"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "27041d9f5ae3f4e7c479d219ad3b67777ae58e9349c42f6c11f8e6017108ad39",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d9fc0cd94209faec49e6cb0e47ac3c9c1646bbb3df99458df8a25380f2e53cfe",
-      "text": "Careful, Wrecker.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ecf8c2b005c97a4a03b6a59eec0d0250d10b3b1197aa56b965a3a7f9f0be2f1",
+      "sha256": [
+        "27041d9f5ae3f4e7c479d219ad3b67777ae58e9349c42f6c11f8e6017108ad39",
+        "8ecf8c2b005c97a4a03b6a59eec0d0250d10b3b1197aa56b965a3a7f9f0be2f1",
+        "d9fc0cd94209faec49e6cb0e47ac3c9c1646bbb3df99458df8a25380f2e53cfe"
+      ],
       "text": "Careful, Wrecker…",
       "source": "official"
     }

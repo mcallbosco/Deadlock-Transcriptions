@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_bookworm_was_here_alt.mp3",
   "revisions": [
     {
-      "sha256": "0b00ab9af75c47e386999316d96f882a9f250eff82395386ceb18139fab43822",
+      "sha256": [
+        "0b00ab9af75c47e386999316d96f882a9f250eff82395386ceb18139fab43822"
+      ],
       "text": "Paige was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

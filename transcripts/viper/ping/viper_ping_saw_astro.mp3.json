@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_saw_astro.mp3",
   "revisions": [
     {
-      "sha256": "7c4999c45e6907d20ca63969e94201bc4d70beefa9be96464cfa8e1b0a767df9",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c682a52c8c2987bda58bf49627388f139742b294c15d72bbdf8a71d55022b20",
-      "text": "I saw Holliday.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "565b25f47c22d94800d3441e43a023a9b97e227355c4f82068ec9e35949b6e6e",
+      "sha256": [
+        "565b25f47c22d94800d3441e43a023a9b97e227355c4f82068ec9e35949b6e6e",
+        "7c4999c45e6907d20ca63969e94201bc4d70beefa9be96464cfa8e1b0a767df9",
+        "8c682a52c8c2987bda58bf49627388f139742b294c15d72bbdf8a71d55022b20"
+      ],
       "text": "I saw Holliday.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

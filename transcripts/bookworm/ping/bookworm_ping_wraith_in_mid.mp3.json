@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_wraith_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "77696b9118366bc4ebbb43daa6262f980241dafed3b4aa3a295f8107678c0fd3",
+      "sha256": [
+        "77696b9118366bc4ebbb43daa6262f980241dafed3b4aa3a295f8107678c0fd3"
+      ],
       "text": "Great sin mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3cc0cb128c84d5ef8606c44d112f213349a3bdad8a5e4a8e5d06b5f98ea23502",
+      "sha256": [
+        "3cc0cb128c84d5ef8606c44d112f213349a3bdad8a5e4a8e5d06b5f98ea23502"
+      ],
       "text": "Wraith's in mid!",
       "source": "official"
     }

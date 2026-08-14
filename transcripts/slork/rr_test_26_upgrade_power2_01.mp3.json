@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_upgrade_power2_01.mp3",
   "revisions": [
     {
-      "sha256": "fc9c9e6ba7ebb9a0b155c2fb94a9ec9d22c74256b43fc20a192b6003000e6857",
-      "text": "They're not shooting me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2aa2a52b8bb5347505373bc5a23d492962e6145f3fc9ad665e497a49fe14fcab",
+      "sha256": [
+        "2aa2a52b8bb5347505373bc5a23d492962e6145f3fc9ad665e497a49fe14fcab",
+        "fc9c9e6ba7ebb9a0b155c2fb94a9ec9d22c74256b43fc20a192b6003000e6857"
+      ],
       "text": "They're not shooting me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

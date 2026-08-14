@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_pre_game_03.mp3",
   "revisions": [
     {
-      "sha256": "5b5d4f2d9d1c8e62b545b702ee51baa0828276736dcbf60ee2add41e7fec215e",
+      "sha256": [
+        "5b5d4f2d9d1c8e62b545b702ee51baa0828276736dcbf60ee2add41e7fec215e",
+        "c48dcf907c939f860d97bf0ef58207a1ff36c99f5d9c59d434724c0029f66c9b"
+      ],
       "text": "The only way we win is if we work together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c48dcf907c939f860d97bf0ef58207a1ff36c99f5d9c59d434724c0029f66c9b",
-      "text": "The only way we win is if we work together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "158e78edf23ae0ec26de0ec5102b0f7f2ee1bdb8e122983b9a2a8c64fb23ed99",
+      "sha256": [
+        "158e78edf23ae0ec26de0ec5102b0f7f2ee1bdb8e122983b9a2a8c64fb23ed99"
+      ],
       "text": "Only way we win is if we work together",
       "source": "official"
     }

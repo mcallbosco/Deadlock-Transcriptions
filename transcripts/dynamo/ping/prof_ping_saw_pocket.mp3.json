@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_saw_pocket.mp3",
   "revisions": [
     {
-      "sha256": "47ce63bad565af3774c71b76c55eba6c35e56409c4a167e6d1aa2cb69cd92f14",
-      "text": "I saw Pocket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b0c94a3a726bd2c94286a43b424be82772058ba7664a22cb94a1369e07bfff0",
+      "sha256": [
+        "3b0c94a3a726bd2c94286a43b424be82772058ba7664a22cb94a1369e07bfff0",
+        "47ce63bad565af3774c71b76c55eba6c35e56409c4a167e6d1aa2cb69cd92f14"
+      ],
       "text": "I saw Pocket!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

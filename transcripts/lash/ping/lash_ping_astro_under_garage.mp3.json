@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_astro_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "2b4b7685a6d73a208bea5bae68c53ebedadfeb840b884abed43f0bac6b99ac74",
-      "text": "Holliday's under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "22ee202309d81fee46b7b94d568d74b6a03a0d323af42e0cfe26962770c72834",
-      "text": "I'll meet you under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "357135b8bba92bde9f3cbc2e10a6721bd507aab25540b36526a658d255714596",
-      "text": "I'll meet you under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f1d042ad298b8a9650257516b630fb18fc74a57a86385da58fc5b8a2e78d11c1",
+      "sha256": [
+        "2b4b7685a6d73a208bea5bae68c53ebedadfeb840b884abed43f0bac6b99ac74",
+        "f1d042ad298b8a9650257516b630fb18fc74a57a86385da58fc5b8a2e78d11c1"
+      ],
       "text": "Holliday's under the garage!",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "22ee202309d81fee46b7b94d568d74b6a03a0d323af42e0cfe26962770c72834",
+        "357135b8bba92bde9f3cbc2e10a6721bd507aab25540b36526a658d255714596"
+      ],
+      "text": "I'll meet you under the garage.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

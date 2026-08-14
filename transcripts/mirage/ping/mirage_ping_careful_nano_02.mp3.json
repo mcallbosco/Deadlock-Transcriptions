@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_careful_nano_02.mp3",
   "revisions": [
     {
-      "sha256": "2dff03f472f6662e1ed8f6e70357b336c252c55ca36d0d15b09fdb0b6ae4e0e7",
+      "sha256": [
+        "2dff03f472f6662e1ed8f6e70357b336c252c55ca36d0d15b09fdb0b6ae4e0e7"
+      ],
       "text": "I don't wanna know.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c79ab1cc2cb6f927c407a31bad3f1397a37339a6fc8e0cd622731792a66ed0f7",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "52a35cf7268b29302d8fec97d235020569775b4778c732af5319255f1a6ca4aa",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc48e29ee17bb76dd80f63df37287ec1e4c359dde58d71a80581cf6b12f251a3",
+      "sha256": [
+        "52a35cf7268b29302d8fec97d235020569775b4778c732af5319255f1a6ca4aa",
+        "c79ab1cc2cb6f927c407a31bad3f1397a37339a6fc8e0cd622731792a66ed0f7",
+        "cc48e29ee17bb76dd80f63df37287ec1e4c359dde58d71a80581cf6b12f251a3"
+      ],
       "text": "Careful, Calico",
       "source": "official"
     }

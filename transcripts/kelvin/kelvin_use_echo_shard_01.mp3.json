@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/kelvin_use_echo_shard_01.mp3",
   "revisions": [
     {
-      "sha256": "34e389f6573f0a2d02e56ea2165be3cc54c36a56579753f3dcca7094d345b4e4",
+      "sha256": [
+        "34e389f6573f0a2d02e56ea2165be3cc54c36a56579753f3dcca7094d345b4e4"
+      ],
       "text": "Attack on God!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7696bb7e92e53f5c441be4fc2234cb2d07d0a122dcd82107822af0e8b9afcc94",
+      "sha256": [
+        "7696bb7e92e53f5c441be4fc2234cb2d07d0a122dcd82107822af0e8b9afcc94"
+      ],
       "text": "Echo shard!",
       "source": "official"
     }

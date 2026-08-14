@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_defend_purple_02.mp3",
   "revisions": [
     {
-      "sha256": "0dbf142b9b52b69d01bc9c4ce938e30b69b5d70a55204c8bc83776aed6a17313",
+      "sha256": [
+        "0dbf142b9b52b69d01bc9c4ce938e30b69b5d70a55204c8bc83776aed6a17313"
+      ],
       "text": "Defend Cork!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "18c5f4f9638db91409940e2390e95e0f4d78f0e229848a53e11fe941cbab2af5",
-      "text": "Defend port!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0c0641fbd2b6fb1f47e77d169e24ac8db461479779c76b03fd511acc9c11eb2a",
+      "sha256": [
+        "0c0641fbd2b6fb1f47e77d169e24ac8db461479779c76b03fd511acc9c11eb2a",
+        "18c5f4f9638db91409940e2390e95e0f4d78f0e229848a53e11fe941cbab2af5"
+      ],
       "text": "Defend port!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

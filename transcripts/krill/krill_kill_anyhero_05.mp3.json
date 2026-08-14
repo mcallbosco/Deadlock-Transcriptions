@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_kill_anyhero_05.mp3",
   "revisions": [
     {
-      "sha256": "537d8145e8ab41a17862d9077b336a6cf43e6d4a3e9b7623bda0111f20d2661d",
+      "sha256": [
+        "537d8145e8ab41a17862d9077b336a6cf43e6d4a3e9b7623bda0111f20d2661d",
+        "e2fb81c20e69a90d6a1434f8bacee5783cb5ddb43b955437ff226431f187da50",
+        "feb0bab69ba06d285e61b31c51fccb510ebd7dbd5392f003d52aac951ba0b49f"
+      ],
       "text": "Woo-hoo-hoo-hoo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "feb0bab69ba06d285e61b31c51fccb510ebd7dbd5392f003d52aac951ba0b49f",
-      "text": "Woo-hoo-hoo-hoo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2fb81c20e69a90d6a1434f8bacee5783cb5ddb43b955437ff226431f187da50",
-      "text": "Woo-hoo-hoo-hoo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "14fd700bd16b058a85d28778805cdf9a298b06ac61a5942e41255d23437cd2f7",
+      "sha256": [
+        "14fd700bd16b058a85d28778805cdf9a298b06ac61a5942e41255d23437cd2f7"
+      ],
       "text": "laughs",
       "source": "official"
     }

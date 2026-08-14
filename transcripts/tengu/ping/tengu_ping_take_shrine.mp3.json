@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_take_shrine.mp3",
   "revisions": [
     {
-      "sha256": "da16c97df6c54e1bdead4350ccb6af7cbbbd39b52b65f4f5ea042b829a7002fb",
+      "sha256": [
+        "aae9ac40123dfb81fbaa873f63f7647cd0f2712cb67f2836c4caa375a1a91504",
+        "da16c97df6c54e1bdead4350ccb6af7cbbbd39b52b65f4f5ea042b829a7002fb"
+      ],
       "text": "It's time to end this.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "aae9ac40123dfb81fbaa873f63f7647cd0f2712cb67f2836c4caa375a1a91504",
-      "text": "It's time to end this!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

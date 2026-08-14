@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_bebop_check_items.mp3",
   "revisions": [
     {
-      "sha256": "bc67658d160518faa91e297d21cb638bbe04f340eb3e20ec21e66f1361575d4e",
-      "text": "Check out what Bebop bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "274de09e0c1cf6f899798768f33d1b1ce8b4d97906fb538337e21e94009cda88",
+      "sha256": [
+        "274de09e0c1cf6f899798768f33d1b1ce8b4d97906fb538337e21e94009cda88",
+        "bc67658d160518faa91e297d21cb638bbe04f340eb3e20ec21e66f1361575d4e"
+      ],
       "text": "Check out what Bebop bought!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_geist_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "ad9d8ea211258bda7d8dd318897320ebba1268320d7214a2e188d523ad83d40d",
+      "sha256": [
+        "ad9d8ea211258bda7d8dd318897320ebba1268320d7214a2e188d523ad83d40d"
+      ],
       "text": "That's missing!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

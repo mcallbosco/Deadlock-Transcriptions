@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_with_pocket.mp3",
   "revisions": [
     {
-      "sha256": "81bb342a97d63dc1fa4b69067716de3bdd30a53102f8d904e6cd6f222f425af2",
-      "text": "I'm with you, Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1498fedbf24b990218031c2c180c0c214e590bea2c2b6cd70c0434228cad605b",
+      "sha256": [
+        "1498fedbf24b990218031c2c180c0c214e590bea2c2b6cd70c0434228cad605b",
+        "81bb342a97d63dc1fa4b69067716de3bdd30a53102f8d904e6cd6f222f425af2"
+      ],
       "text": "I'm with you, Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

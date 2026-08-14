@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shopkeeper/shopkeeper_hotdog_t4_geist_03.mp3",
   "revisions": [
     {
-      "sha256": "a6d40ab2d41d9dd191628bed52268341056e66dd829f8565671a2dab99d0cd0a",
+      "sha256": [
+        "a6d40ab2d41d9dd191628bed52268341056e66dd829f8565671a2dab99d0cd0a"
+      ],
       "text": "That lock on your arm's looking a little rusty. I wanna get that checked out later.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f88380d92203fe59e5bb441e8e70dc7cc3aca106759e4874712aac571ecb26d8",
-      "text": "That lock on your arms looking a little rusty. Might wanna get that checked out later.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "68515d8f12d15f609d787e9cbede4912ac31b8858dfe33df7f983b42855121ad",
+      "sha256": [
+        "68515d8f12d15f609d787e9cbede4912ac31b8858dfe33df7f983b42855121ad",
+        "f88380d92203fe59e5bb441e8e70dc7cc3aca106759e4874712aac571ecb26d8"
+      ],
       "text": "That lock on your arms looking a little rusty, might wanna get that checked out later.",
       "source": "official"
     }

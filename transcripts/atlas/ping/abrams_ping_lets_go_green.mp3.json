@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_lets_go_green.mp3",
   "revisions": [
     {
-      "sha256": "4e520c0464964d739921e16c52d177ae2ea3126b0fa3dd72f48f37b06651286d",
-      "text": "Let's go green.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d234d76086fa880c5d39cf3d4c53ee97d7696e3d401f48d69540f3b7e42f97b1",
+      "sha256": [
+        "4e520c0464964d739921e16c52d177ae2ea3126b0fa3dd72f48f37b06651286d",
+        "d234d76086fa880c5d39cf3d4c53ee97d7696e3d401f48d69540f3b7e42f97b1"
+      ],
       "text": "Let's go green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

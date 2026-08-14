@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_nano_dead.mp3",
   "revisions": [
     {
-      "sha256": "0896f5c10ec3f4ef49b5c24adf492a1e9335bbfe8fe043873a31714b9e7763f5",
-      "text": "Calico is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f75e980683f913ffd251bc76217fc4a277ff16845a12ac69dff50b67ff7c19d",
-      "text": "Calico is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d885f31b530915f87cb90023a94f198ee466a3c82694540aa4d9c98549d804ab",
-      "text": "Calico is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a9be11e74f70cf468c5320ddd3f6dbbf20300fcceb0a1872952dd2b991e9f0d",
+      "sha256": [
+        "0896f5c10ec3f4ef49b5c24adf492a1e9335bbfe8fe043873a31714b9e7763f5",
+        "7f75e980683f913ffd251bc76217fc4a277ff16845a12ac69dff50b67ff7c19d",
+        "9a9be11e74f70cf468c5320ddd3f6dbbf20300fcceb0a1872952dd2b991e9f0d",
+        "d885f31b530915f87cb90023a94f198ee466a3c82694540aa4d9c98549d804ab"
+      ],
       "text": "Calico is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

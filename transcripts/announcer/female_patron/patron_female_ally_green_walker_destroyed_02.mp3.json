@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_ally_green_walker_destroyed_02.mp3",
   "revisions": [
     {
-      "sha256": "8054b0c045d237ba91a56ddf55278bf483746557be17d66e537dd8b81554a8c6",
-      "text": "Our Greenwalker has been defeated.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7be8dd354acce286063b0ba32c1aa31153ca95218a5bc04c8211f3579a843e3c",
+      "sha256": [
+        "7be8dd354acce286063b0ba32c1aa31153ca95218a5bc04c8211f3579a843e3c",
+        "8054b0c045d237ba91a56ddf55278bf483746557be17d66e537dd8b81554a8c6"
+      ],
       "text": "Our green walker has been defeated",
       "source": "official"
     }

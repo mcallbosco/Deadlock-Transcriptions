@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "262e5f2a6b249265055b44960035635f3d217e580590dbdc169fd1a1efc3085b",
+      "sha256": [
+        "262e5f2a6b249265055b44960035635f3d217e580590dbdc169fd1a1efc3085b"
+      ],
       "text": "I see you, Marama!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "cf08b271407f28fa7ae6a06d57b0ed7685ad9fb1f9091f5267e787de02919a7d",
+      "sha256": [
+        "cf08b271407f28fa7ae6a06d57b0ed7685ad9fb1f9091f5267e787de02919a7d"
+      ],
       "text": "I see you, mada!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "af4656d64bdcca8531f0a77663f1b3c8ddcddf128c458c53e2c7975031e8c8f6",
+      "sha256": [
+        "af4656d64bdcca8531f0a77663f1b3c8ddcddf128c458c53e2c7975031e8c8f6"
+      ],
       "text": "See you later!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_grant_boon_weapon_07.mp3",
   "revisions": [
     {
-      "sha256": "5ec723c6408e79140349e0b7c2bb31d2c78dadf588f94b0ad60f821d0402f80c",
-      "text": "Kill them all.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "43ca4cb77a9244fdfc406e65cd07cb462ccfd5a346d2abfd5a58aa99f500cfb3",
+        "5ec723c6408e79140349e0b7c2bb31d2c78dadf588f94b0ad60f821d0402f80c"
+      ],
+      "text": "Kill them all",
+      "source": "official"
     },
     {
-      "sha256": "9554ec86712d3ad906ca60816212574fce9197d739ddaeada0f24d2d51917a42",
+      "sha256": [
+        "9554ec86712d3ad906ca60816212574fce9197d739ddaeada0f24d2d51917a42"
+      ],
       "text": "Care of them all.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43ca4cb77a9244fdfc406e65cd07cb462ccfd5a346d2abfd5a58aa99f500cfb3",
-      "text": "Kill them all",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "a4cca5bca75b151316d2d8625214d18de85c39c9e3deb0768c5dd02c830fb117",
-      "text": "Bebop's missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a45ecb373297018693ac3a3c129174cd7573ffe699b0aad97253ccf209c1521c",
+      "sha256": [
+        "a45ecb373297018693ac3a3c129174cd7573ffe699b0aad97253ccf209c1521c",
+        "a4cca5bca75b151316d2d8625214d18de85c39c9e3deb0768c5dd02c830fb117"
+      ],
       "text": "Bebop's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

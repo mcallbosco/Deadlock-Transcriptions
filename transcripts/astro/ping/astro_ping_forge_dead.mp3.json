@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "90539b9fb16c0623fb3860b8978cc55d6daccd3a48c39f64db2f831bb124238e",
+      "sha256": [
+        "90539b9fb16c0623fb3860b8978cc55d6daccd3a48c39f64db2f831bb124238e"
+      ],
       "text": "McGinnis is dead!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_win_01.mp3",
   "revisions": [
     {
-      "sha256": "ecf7bfbdffca064ae1687e8e92a4a3c49bc9558161fc9e79736edef59ebad001",
+      "sha256": [
+        "ecf7bfbdffca064ae1687e8e92a4a3c49bc9558161fc9e79736edef59ebad001"
+      ],
       "text": "Won't belong to the great cause on me again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bad9c33396c901fa03b26b5f7f4d20ca233dc69f342de5685570aed983f732cc",
+      "sha256": [
+        "bad9c33396c901fa03b26b5f7f4d20ca233dc69f342de5685570aed983f732cc"
+      ],
       "text": "Won't belong to the Great Halls on me again.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

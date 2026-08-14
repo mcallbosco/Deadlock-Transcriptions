@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_hornet.mp3",
   "revisions": [
     {
-      "sha256": "afb508271e6700d247583a26ef7932cd292e9f1473ecedbd1b88a498132e99b5",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "39627c05a126017fe0a0ca4c4763fa3dac896713fa898569595af3b7b51ecb3c",
+      "sha256": [
+        "39627c05a126017fe0a0ca4c4763fa3dac896713fa898569595af3b7b51ecb3c",
+        "afb508271e6700d247583a26ef7932cd292e9f1473ecedbd1b88a498132e99b5"
+      ],
       "text": "I'm with you, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

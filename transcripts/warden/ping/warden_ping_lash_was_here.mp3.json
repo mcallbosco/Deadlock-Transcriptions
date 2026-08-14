@@ -1,28 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_lash_was_here.mp3",
   "revisions": [
     {
-      "sha256": "10465a9339775883f36accf267bdcf27fccc693d027d4a4c3d7d6ace4f78a6c2",
+      "sha256": [
+        "10465a9339775883f36accf267bdcf27fccc693d027d4a4c3d7d6ace4f78a6c2",
+        "58758e0d2eb03b32beacacc382c1c8f5711216bbc95d1dc88ee1e2885c179284",
+        "62268611a500d7e2ea5201ed7856d4aac6cf3452c75b2651b3fcaa46fbd4134f",
+        "d2afd8cc16c4b43a92154f5b63a4f93bcff474090b5985f10086565b103a1521"
+      ],
       "text": "Flash was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d2afd8cc16c4b43a92154f5b63a4f93bcff474090b5985f10086565b103a1521",
-      "text": "Flash was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "62268611a500d7e2ea5201ed7856d4aac6cf3452c75b2651b3fcaa46fbd4134f",
-      "text": "Flash was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "58758e0d2eb03b32beacacc382c1c8f5711216bbc95d1dc88ee1e2885c179284",
-      "text": "Flash was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

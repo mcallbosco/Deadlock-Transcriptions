@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_need_help_purple_alt.mp3",
   "revisions": [
     {
-      "sha256": "70869951a0f8fbd88c852112d66a82433639ec72dae7536072a399e05cf72d11",
+      "sha256": [
+        "18add9bb72c894232d01127c5194104a8f00163250a1355a8592251b3a0d197d",
+        "70869951a0f8fbd88c852112d66a82433639ec72dae7536072a399e05cf72d11",
+        "cba77fac62d4dc50aa22d33feb366901d82f7e686e06a09cce89625a787b60f9"
+      ],
       "text": "Hey, I need help on Park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18add9bb72c894232d01127c5194104a8f00163250a1355a8592251b3a0d197d",
-      "text": "Hey! I need help on Park!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cba77fac62d4dc50aa22d33feb366901d82f7e686e06a09cce89625a787b60f9",
-      "text": "Hey, I need help on park.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_seven_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "9b938679ee2352e23449c74b8338e785f6b17881320bb8837977035fa2b4a459",
+      "sha256": [
+        "9b938679ee2352e23449c74b8338e785f6b17881320bb8837977035fa2b4a459"
+      ],
       "text": "Steppin' on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0df85c9dc41ed14ce730000af8c84a6f9edd00c8ad978988d9f1bdec0a4e4168",
-      "text": "Something's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c10eb3f39e42f11463a1b395b50fed13bbbdf5333f8c46ab1b4e0796b829e4b7",
+      "sha256": [
+        "0df85c9dc41ed14ce730000af8c84a6f9edd00c8ad978988d9f1bdec0a4e4168",
+        "c10eb3f39e42f11463a1b395b50fed13bbbdf5333f8c46ab1b4e0796b829e4b7"
+      ],
       "text": "Something's on the roof!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

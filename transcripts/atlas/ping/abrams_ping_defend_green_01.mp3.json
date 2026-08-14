@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_defend_green_01.mp3",
   "revisions": [
     {
-      "sha256": "ca9afef4472a27181c470e0f6104e8468f2d70deb7dff829e4db0a6f4eabed49",
-      "text": "Defend green!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "65d2ace7d9e1c7f2943e72648da82219d3b82f4221cb1681d93d1168ce50a460",
+      "sha256": [
+        "65d2ace7d9e1c7f2943e72648da82219d3b82f4221cb1681d93d1168ce50a460",
+        "ca9afef4472a27181c470e0f6104e8468f2d70deb7dff829e4db0a6f4eabed49"
+      ],
       "text": "Defend green!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

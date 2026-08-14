@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_driller_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c9b4d7be53ef3ea0d234ba35cb3fb2efdc6492f32914f04b57da1a6ccc32100a",
-      "text": "Griller is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0389134b5b76ee3203e4873dfe3546cfc0705a3ed58becc7d52f6f5a0c306750",
+      "sha256": [
+        "0389134b5b76ee3203e4873dfe3546cfc0705a3ed58becc7d52f6f5a0c306750",
+        "c9b4d7be53ef3ea0d234ba35cb3fb2efdc6492f32914f04b57da1a6ccc32100a"
+      ],
       "text": "Griller is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

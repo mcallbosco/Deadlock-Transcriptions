@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_use_ice_blast_01.mp3",
   "revisions": [
     {
-      "sha256": "733a9ee9bf0051e3c351747ddf52709318434f28bb7a8a712c9f09434be05909",
-      "text": "Radiating ice.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "4c006d881422cdd2bc8e1df957f4c87ca9cab12d27b104727dfb94c366f6c7d1",
+        "733a9ee9bf0051e3c351747ddf52709318434f28bb7a8a712c9f09434be05909"
+      ],
+      "text": "Radiating ice",
+      "source": "official"
     },
     {
-      "sha256": "4a559c94a7178d6cff2d3b013e438e613d70dbff96b45e7194083b21044d4580",
+      "sha256": [
+        "4a559c94a7178d6cff2d3b013e438e613d70dbff96b45e7194083b21044d4580"
+      ],
       "text": "We have a nice.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2fa7649212e047b71de0666e88cb70965a21954bf656b99e367323eb775c1cb0",
+      "sha256": [
+        "2fa7649212e047b71de0666e88cb70965a21954bf656b99e367323eb775c1cb0"
+      ],
       "text": "Reginalice.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c006d881422cdd2bc8e1df957f4c87ca9cab12d27b104727dfb94c366f6c7d1",
-      "text": "Radiating ice",
-      "source": "official"
     }
   ]
 }

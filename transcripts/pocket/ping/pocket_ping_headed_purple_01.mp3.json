@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_headed_purple_01.mp3",
   "revisions": [
     {
-      "sha256": "cc45fafc5d260076108e56eff7507dd113c6d364a98e5396bac99a89de3d8b90",
-      "text": "Headed to purple.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8d0583d513fbf55dc37da013c9ac5e78da3f3e05711f61f1ce2eed716f2a3b87",
+      "sha256": [
+        "8d0583d513fbf55dc37da013c9ac5e78da3f3e05711f61f1ce2eed716f2a3b87",
+        "cc45fafc5d260076108e56eff7507dd113c6d364a98e5396bac99a89de3d8b90"
+      ],
       "text": "Headed to purple.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

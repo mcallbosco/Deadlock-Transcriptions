@@ -1,33 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_can_heal_mirage.mp3",
   "revisions": [
     {
-      "sha256": "09e14d5a22f0113b967812a5a2b0450cf7a5ee218c2874541cf503cc40f29122",
+      "sha256": [
+        "09254dc017d627e27e76ce2c9f76e7a63afe1364671e8496f1429f2e584799fe",
+        "09e14d5a22f0113b967812a5a2b0450cf7a5ee218c2874541cf503cc40f29122"
+      ],
       "text": "Rush, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "09254dc017d627e27e76ce2c9f76e7a63afe1364671e8496f1429f2e584799fe",
-      "text": "Rush, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b0a70725292e26a187d889445d131aa275a9376c87eded26cd111f9bcf0ad630",
+      "sha256": [
+        "3f303c533b5f73c5bd56b8cd29c8541421ed0b5fb1448e50433a8d03d4d1d8a7",
+        "b0a70725292e26a187d889445d131aa275a9376c87eded26cd111f9bcf0ad630"
+      ],
       "text": "All right, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3f303c533b5f73c5bd56b8cd29c8541421ed0b5fb1448e50433a8d03d4d1d8a7",
-      "text": "All right, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a0d398c40503e60c36f3769ccaf7f001a74f5bcb3733acf97f4d461c66639803",
+      "sha256": [
+        "a0d398c40503e60c36f3769ccaf7f001a74f5bcb3733acf97f4d461c66639803"
+      ],
       "text": "Mirage, I can heal you!",
       "source": "official"
     }

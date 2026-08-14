@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_with_mcginnis.mp3",
   "revisions": [
     {
-      "sha256": "1099e8da1f8304b884faf53b2fb137fb05fe45c84a48d9512bd3a670dbe56494",
-      "text": "I'm with you, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e6a4663d137dc2bf50ffcc402900508b820f301d171721e7f73fe0f846e090a9",
-      "text": "I'm with you, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dddfb15d0de221233e05316a582f1abffc6de9adcaf9907768e7611a8477fc0b",
+      "sha256": [
+        "1099e8da1f8304b884faf53b2fb137fb05fe45c84a48d9512bd3a670dbe56494",
+        "dddfb15d0de221233e05316a582f1abffc6de9adcaf9907768e7611a8477fc0b",
+        "e6a4663d137dc2bf50ffcc402900508b820f301d171721e7f73fe0f846e090a9"
+      ],
       "text": "I'm with you, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

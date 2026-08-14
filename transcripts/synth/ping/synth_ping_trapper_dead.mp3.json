@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_trapper_dead.mp3",
   "revisions": [
     {
-      "sha256": "7237fc6ddc25598f74b779d418952212dbd7bce14ae2185e3d30026d7e5e2ec8",
+      "sha256": [
+        "7237fc6ddc25598f74b779d418952212dbd7bce14ae2185e3d30026d7e5e2ec8"
+      ],
       "text": "Trevor's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

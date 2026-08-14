@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_thank_you_02.mp3",
   "revisions": [
     {
-      "sha256": "484840906db9769109faf29c2bbeb036f5a8e9057e755ccee7e1508b80a7405b",
-      "text": "Thank you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2fd764c65a44d79c2efb96bed5d0206318abc5cd203c417ca14411fcb632e2b",
+      "sha256": [
+        "484840906db9769109faf29c2bbeb036f5a8e9057e755ccee7e1508b80a7405b",
+        "e2fd764c65a44d79c2efb96bed5d0206318abc5cd203c417ca14411fcb632e2b"
+      ],
       "text": "Thank you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

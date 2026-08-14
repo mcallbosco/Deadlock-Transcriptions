@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_meet_here.mp3",
   "revisions": [
     {
-      "sha256": "4f3ffb3b17bb906132b1cbc0d731e14a6307785411bda394ab6062ac6b1edc30",
-      "text": "Let's meet here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b0eb8a4d64644df8a94f3b177908693ab990ef67bfbb8d7f3525e073b11d901",
+      "sha256": [
+        "2b0eb8a4d64644df8a94f3b177908693ab990ef67bfbb8d7f3525e073b11d901",
+        "4f3ffb3b17bb906132b1cbc0d731e14a6307785411bda394ab6062ac6b1edc30"
+      ],
       "text": "Let's meet here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

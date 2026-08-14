@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_sad_03.mp3",
   "revisions": [
     {
-      "sha256": "f2ac8385bcb8d53327c1eb9ef2d08e1d9d9a2ebd7afbb7a71ab1acfc5d87b392",
-      "text": "I need a hug!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d4fbfffd3b43e91ff04ca0f0def06283ca3032aa3c5a941e92220172584c2cb3",
+      "sha256": [
+        "d4fbfffd3b43e91ff04ca0f0def06283ca3032aa3c5a941e92220172584c2cb3",
+        "f2ac8385bcb8d53327c1eb9ef2d08e1d9d9a2ebd7afbb7a71ab1acfc5d87b392"
+      ],
       "text": "I need a hug!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

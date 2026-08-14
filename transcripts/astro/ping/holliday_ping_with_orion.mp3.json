@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_with_orion.mp3",
   "revisions": [
     {
-      "sha256": "2a99d17a99eac9598bdda72865f94fa6ac31727df16b284e84dfb5e3e2b8311f",
+      "sha256": [
+        "2a99d17a99eac9598bdda72865f94fa6ac31727df16b284e84dfb5e3e2b8311f"
+      ],
       "text": "I'm with you, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

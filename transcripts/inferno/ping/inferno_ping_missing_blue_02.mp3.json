@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_missing_blue_02.mp3",
   "revisions": [
     {
-      "sha256": "b788d94e4aae1766f84a214b45716bf77d490bace6f0376b5a2501b7af787f08",
+      "sha256": [
+        "16756195aac262ff0b5cf023578f799efa10622d166a33b215224161f6cf3fc7",
+        "b788d94e4aae1766f84a214b45716bf77d490bace6f0376b5a2501b7af787f08"
+      ],
       "text": "Missing Broadway.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "16756195aac262ff0b5cf023578f799efa10622d166a33b215224161f6cf3fc7",
-      "text": "missing Broadway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a47c50346a4144427e9ca038fe6577c23aafe155a4bda28ffc06e86fef715497",
+      "sha256": [
+        "a47c50346a4144427e9ca038fe6577c23aafe155a4bda28ffc06e86fef715497"
+      ],
       "text": "This is Broadway.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

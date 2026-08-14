@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_push_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "316354f25d22224e1b58a3bb7353c4c070e7f0829cae7df3e86eb5fb32e77e95",
+      "sha256": [
+        "251852e830b5f9c7a9002504f9c59d96f21f710aa8c6813c3461582f6cd2e5fd",
+        "316354f25d22224e1b58a3bb7353c4c070e7f0829cae7df3e86eb5fb32e77e95",
+        "bcd4ac9edb4c2321264d423c929b92005734744f6283e0eb31ceff320f01d422"
+      ],
       "text": "Let's push orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bcd4ac9edb4c2321264d423c929b92005734744f6283e0eb31ceff320f01d422",
-      "text": "Let's push orange.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "251852e830b5f9c7a9002504f9c59d96f21f710aa8c6813c3461582f6cd2e5fd",
-      "text": "Let's push Orange.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

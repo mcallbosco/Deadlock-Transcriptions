@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_doorman_check_items.mp3",
   "revisions": [
     {
-      "sha256": "ec977d6c2c17109aecf7ebd54be6cfcbbb610e7640005fc224502f224b64fa8c",
+      "sha256": [
+        "ec977d6c2c17109aecf7ebd54be6cfcbbb610e7640005fc224502f224b64fa8c"
+      ],
       "text": "Check out what the doorman bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

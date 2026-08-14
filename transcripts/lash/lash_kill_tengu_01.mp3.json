@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_kill_tengu_01.mp3",
   "revisions": [
     {
-      "sha256": "ed4050c7c32450cb668e0f11662cd48396cf4559731bbcc0a62b0daca6754b1a",
+      "sha256": [
+        "7e35aa9896a142e6209dcbc0460d8eb65616c915ce81f53a5a5c8b156a654be2",
+        "ed4050c7c32450cb668e0f11662cd48396cf4559731bbcc0a62b0daca6754b1a"
+      ],
       "text": "Stop the gargoyle.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7e35aa9896a142e6209dcbc0460d8eb65616c915ce81f53a5a5c8b156a654be2",
-      "text": "Stop the gargoyle.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d58ad7fabcd2145ba791b5e5056ff39645f7109db7f35b1967b173e79da2cd9",
+      "sha256": [
+        "1d58ad7fabcd2145ba791b5e5056ff39645f7109db7f35b1967b173e79da2cd9"
+      ],
       "text": "Stopped the Gargoyle",
       "source": "official"
     }

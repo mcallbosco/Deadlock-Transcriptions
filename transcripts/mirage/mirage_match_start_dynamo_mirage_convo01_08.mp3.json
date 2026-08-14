@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_match_start_dynamo_mirage_convo01_08.mp3",
   "revisions": [
     {
-      "sha256": "299eb86505e8fd22ee51f38065ca80b7d8d3632a3678119edf5c6ad94991729a",
+      "sha256": [
+        "299eb86505e8fd22ee51f38065ca80b7d8d3632a3678119edf5c6ad94991729a",
+        "c895657d0c70e561dae34656b2b031c1a89c6894928a9ab8ec365c561b5725a1"
+      ],
       "text": "Yes, asshole. Some are fascinating, some are assholes.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c895657d0c70e561dae34656b2b031c1a89c6894928a9ab8ec365c561b5725a1",
-      "text": "Yes, asshole. Some are fascinating, some are assholes.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "110d0af31db06efba012ab5ddd430f86b94523ff0c963700dfb335f955894b11",
+      "sha256": [
+        "110d0af31db06efba012ab5ddd430f86b94523ff0c963700dfb335f955894b11"
+      ],
       "text": "Yes!  Asshole.  Some are facinating.  Some are assholes.",
       "source": "official"
     }

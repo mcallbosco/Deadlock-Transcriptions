@@ -1,34 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_stun_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "52d3349d7ec49c87ea200fb9451b5df54aa811bf3488a2419ac09ef5e4df4d67",
+      "sha256": [
+        "52d3349d7ec49c87ea200fb9451b5df54aa811bf3488a2419ac09ef5e4df4d67"
+      ],
       "text": "Stop Calvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a0c3fffbec491d58880ac47f49141c7cf470d119826fd379e66f625447d109c",
+      "sha256": [
+        "29595d2d87fd8a81853fb2e5dd8dc0d18eaf862410d7047ff60eab3812f3d255",
+        "8a0c3fffbec491d58880ac47f49141c7cf470d119826fd379e66f625447d109c",
+        "b2b31c95feaaf91805227b26b8bfcfa7d516bdbf594e13caf2e6341c0a100545"
+      ],
       "text": "Stand, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0beec04a207ce7170a8a73957f8987e48048ba689fbb6506d243f1f6032791a9",
+      "sha256": [
+        "0beec04a207ce7170a8a73957f8987e48048ba689fbb6506d243f1f6032791a9"
+      ],
       "text": "stun Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2b31c95feaaf91805227b26b8bfcfa7d516bdbf594e13caf2e6341c0a100545",
-      "text": "Stand, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "29595d2d87fd8a81853fb2e5dd8dc0d18eaf862410d7047ff60eab3812f3d255",
-      "text": "Stand, Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

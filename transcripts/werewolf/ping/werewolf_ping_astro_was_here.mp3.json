@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "werewolf/ping/werewolf_ping_astro_was_here.mp3",
   "revisions": [
     {
-      "sha256": "084a967b29b94a041346a3d7014382fa06749bec52958f7c75ea2cb6660c92e8",
+      "sha256": [
+        "084a967b29b94a041346a3d7014382fa06749bec52958f7c75ea2cb6660c92e8"
+      ],
       "text": "Holliday was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

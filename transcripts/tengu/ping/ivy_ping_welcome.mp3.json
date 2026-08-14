@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_welcome.mp3",
   "revisions": [
     {
-      "sha256": "058b9f1e487035416c367869bb6b433c287efd438338f988e9962403252c5aee",
-      "text": "You're welcome.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d6b4d3f3462c6cc0f9d2d413d94d03f87b8d008b92138e8358e13c92baa4034a",
+      "sha256": [
+        "058b9f1e487035416c367869bb6b433c287efd438338f988e9962403252c5aee",
+        "d6b4d3f3462c6cc0f9d2d413d94d03f87b8d008b92138e8358e13c92baa4034a"
+      ],
       "text": "You're welcome.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

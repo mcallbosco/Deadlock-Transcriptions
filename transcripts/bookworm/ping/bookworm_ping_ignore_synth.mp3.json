@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_synth.mp3",
   "revisions": [
     {
-      "sha256": "f35b8b9cce8f1adcd9a88d244c60f6d893b1234e6768fabf8b56ee5dfc3a1b1a",
+      "sha256": [
+        "d1c9060c729b00610fc612931853bc842d8ede247307e2ef58e5c5537ca5af62",
+        "f35b8b9cce8f1adcd9a88d244c60f6d893b1234e6768fabf8b56ee5dfc3a1b1a"
+      ],
       "text": "Ignore pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1c9060c729b00610fc612931853bc842d8ede247307e2ef58e5c5537ca5af62",
-      "text": "Ignore Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

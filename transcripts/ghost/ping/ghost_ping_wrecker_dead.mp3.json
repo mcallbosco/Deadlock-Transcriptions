@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/ghost_ping_wrecker_dead.mp3",
   "revisions": [
     {
-      "sha256": "72f8fc889056712742a1342c504907e046d879c003c6d20ebd8ff0d83d25fcb3",
+      "sha256": [
+        "72f8fc889056712742a1342c504907e046d879c003c6d20ebd8ff0d83d25fcb3"
+      ],
       "text": "Wrecker is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

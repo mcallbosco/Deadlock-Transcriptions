@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_happy_03.mp3",
   "revisions": [
     {
-      "sha256": "9cd1c7518da68b2977866953ef21b0254f79266070893e22492e1f2b136438cb",
+      "sha256": [
+        "9cd1c7518da68b2977866953ef21b0254f79266070893e22492e1f2b136438cb"
+      ],
       "text": "We did it!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

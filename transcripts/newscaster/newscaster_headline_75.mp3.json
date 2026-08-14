@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/newscaster_headline_75.mp3",
   "revisions": [
     {
-      "sha256": "a3a9ea139de37156caae9d003f76fa48ab8ebbdcc10bdb38e0624492f9994350",
+      "sha256": [
+        "a17b8286d6e96edefab2914676c0bd71b793d71a7d3ba06b5de8cfb5138c540e",
+        "a3a9ea139de37156caae9d003f76fa48ab8ebbdcc10bdb38e0624492f9994350"
+      ],
       "text": "Could your neighbor be a shapeshifter? Read all about the telltale signs of lycanthropy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a17b8286d6e96edefab2914676c0bd71b793d71a7d3ba06b5de8cfb5138c540e",
-      "text": "Could your neighbor be a shapeshifter? Read all about the telltale signs of lycanthropy!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

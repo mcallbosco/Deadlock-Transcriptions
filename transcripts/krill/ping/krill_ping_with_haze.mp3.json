@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_haze.mp3",
   "revisions": [
     {
-      "sha256": "4efeadfb600181802b65fe7d768f799f1fcd98a1b4451c13764ee8314dce39b1",
+      "sha256": [
+        "065083409891da27a5d6a24c120a1cf3729771780319fddc9e521f06d883e9cd",
+        "4efeadfb600181802b65fe7d768f799f1fcd98a1b4451c13764ee8314dce39b1"
+      ],
       "text": "I'm with you, Haze.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "065083409891da27a5d6a24c120a1cf3729771780319fddc9e521f06d883e9cd",
-      "text": "I'm with you, Haze.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7cdeedf10b2ee11222380e7088849a2195833c680b4eed7078e709a46c428930",
+      "sha256": [
+        "7cdeedf10b2ee11222380e7088849a2195833c680b4eed7078e709a46c428930"
+      ],
       "text": "I'm with you, Ace.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

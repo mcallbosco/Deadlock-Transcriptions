@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_bebop_almost_respawn_1.mp3",
   "revisions": [
     {
-      "sha256": "d4d295a0aad29a7d75dac26a642882c567fe599f183db324d4a303844fb8173a",
-      "text": "Bebop is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab2212785c78305be4c0c87f58b44fa3ce0d35b9c3fe19042f85887238493289",
+      "sha256": [
+        "ab2212785c78305be4c0c87f58b44fa3ce0d35b9c3fe19042f85887238493289",
+        "d4d295a0aad29a7d75dac26a642882c567fe599f183db324d4a303844fb8173a"
+      ],
       "text": "Bebop is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

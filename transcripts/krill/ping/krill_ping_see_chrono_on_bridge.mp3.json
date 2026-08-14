@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_chrono_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b9f353cc214b6f29c0166713536f0e3037f9013d558ad2cd06a6677a7015bfc3",
+      "sha256": [
+        "816550a6712c87c98db879c660f3831e991f24488e0d6cce780d34e02ed88ecd",
+        "b9f353cc214b6f29c0166713536f0e3037f9013d558ad2cd06a6677a7015bfc3"
+      ],
       "text": "Paradox is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "816550a6712c87c98db879c660f3831e991f24488e0d6cce780d34e02ed88ecd",
-      "text": "Paradox is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c3b0dbdd04b4dc071613c7f1c52acd686af2bebb2a2d39417d485413acbe671",
+      "sha256": [
+        "4c3b0dbdd04b4dc071613c7f1c52acd686af2bebb2a2d39417d485413acbe671"
+      ],
       "text": "Paradox's on the bridge!",
       "source": "official"
     }

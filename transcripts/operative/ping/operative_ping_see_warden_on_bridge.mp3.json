@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_see_warden_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a191c92c21600a8d47d04273f3e4c674e103c448f164755b8870512916591a15",
+      "sha256": [
+        "a191c92c21600a8d47d04273f3e4c674e103c448f164755b8870512916591a15"
+      ],
       "text": "Gordon is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

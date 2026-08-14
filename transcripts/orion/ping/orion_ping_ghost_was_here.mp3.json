@@ -1,28 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_ghost_was_here.mp3",
   "revisions": [
     {
-      "sha256": "aaee493327464e9c62e0ae7c13a4610d52b385ba0a3f5c8767221eccebf178ad",
-      "text": "Guys was here.",
+      "sha256": [
+        "002b1f882454d1d9944110abc6b202ca53bba85f8e38918aa5e735315aef901b",
+        "90fcb09787fd85fffb418f5f4383c25253ec822ded42a8567b000a22405f52b7",
+        "aaee493327464e9c62e0ae7c13a4610d52b385ba0a3f5c8767221eccebf178ad"
+      ],
+      "text": "Guys was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8a48f001589782f456a1a98b305e559f47343ee1649d0eafa836092c0ed71e77",
+      "sha256": [
+        "8a48f001589782f456a1a98b305e559f47343ee1649d0eafa836092c0ed71e77"
+      ],
       "text": "Guy was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "002b1f882454d1d9944110abc6b202ca53bba85f8e38918aa5e735315aef901b",
-      "text": "Guys was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "90fcb09787fd85fffb418f5f4383c25253ec822ded42a8567b000a22405f52b7",
-      "text": "Guys was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_kill_astro_01.mp3",
   "revisions": [
     {
-      "sha256": "d16d622e778d503200d33896d99dd4cab95b1ebff70a37a42258b5dfb2f444e8",
-      "text": "Good night, Sheriff.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "0d157aa3825ec17e28c4ee9f72ef0e86cf3c252860c44897aa2c69bf95c3e138",
+        "84054cee7ea8e64ed43bdfac0bf41f751d632971eec8ba7e3df7bdad7ea5ba4a",
+        "d16d622e778d503200d33896d99dd4cab95b1ebff70a37a42258b5dfb2f444e8"
+      ],
+      "text": "Good night Sheriff.",
+      "source": "official"
     },
     {
-      "sha256": "84054cee7ea8e64ed43bdfac0bf41f751d632971eec8ba7e3df7bdad7ea5ba4a",
-      "text": "Good night, Sheriff.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed6f363aa5435c78bc089a2d02accd52357aecc028caa58cd9520946e9f256f9",
+      "sha256": [
+        "ed6f363aa5435c78bc089a2d02accd52357aecc028caa58cd9520946e9f256f9"
+      ],
       "text": "Good night, Sherriff.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d157aa3825ec17e28c4ee9f72ef0e86cf3c252860c44897aa2c69bf95c3e138",
-      "text": "Good night Sheriff.",
-      "source": "official"
     }
   ]
 }

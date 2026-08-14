@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_yamato.mp3",
   "revisions": [
     {
-      "sha256": "113647f23d21b0c367c24f1e67cdae97e4db42b150c212bff392ccb6e6cf18a4",
-      "text": "Thank you, Maro!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a1d5b6374f9dd04d1429ae863725e6dea5340373adcd0cbe3f6c280a667bbcdb",
-      "text": "Thank you, Maro!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "051f302c0ec8b999ad59c55ae96306c792e525dd6a6c521038d623a30342eac2",
+      "sha256": [
+        "051f302c0ec8b999ad59c55ae96306c792e525dd6a6c521038d623a30342eac2",
+        "113647f23d21b0c367c24f1e67cdae97e4db42b150c212bff392ccb6e6cf18a4",
+        "a1d5b6374f9dd04d1429ae863725e6dea5340373adcd0cbe3f6c280a667bbcdb"
+      ],
       "text": "Thank you, Maro!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

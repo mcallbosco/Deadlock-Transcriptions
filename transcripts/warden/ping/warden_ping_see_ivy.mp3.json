@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_see_ivy.mp3",
   "revisions": [
     {
-      "sha256": "d079d5e132405682a2c8079add1192c9a13d393ffbcefb01a7b7bb28f1adbb0e",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f113531dcd53bdc33a8e9cd1232bd3fccec3f3f58946deb13e0096639c1c1f80",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7ccf2f6713a14d18a49c0871ccae822137bf33ed96ea43b268f8325abaaa50e9",
+      "sha256": [
+        "7ccf2f6713a14d18a49c0871ccae822137bf33ed96ea43b268f8325abaaa50e9",
+        "d079d5e132405682a2c8079add1192c9a13d393ffbcefb01a7b7bb28f1adbb0e",
+        "f113531dcd53bdc33a8e9cd1232bd3fccec3f3f58946deb13e0096639c1c1f80"
+      ],
       "text": "I see Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

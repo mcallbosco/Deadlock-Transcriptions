@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_orange_help_01.mp3",
   "revisions": [
     {
-      "sha256": "aa044398639b4943e12fc2b0474507b5707a251ffef49e8524e5cf555762eeaa",
-      "text": "Orange needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7d071132b6256bc41aaac1addf813006086863dce4b987a244f5990e31042b28",
-      "text": "Orange needs help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b20b0853cc9152f4eb66577adb1796c8c3821eace550f4d7477ea67d796ca70",
+      "sha256": [
+        "2b20b0853cc9152f4eb66577adb1796c8c3821eace550f4d7477ea67d796ca70",
+        "7d071132b6256bc41aaac1addf813006086863dce4b987a244f5990e31042b28",
+        "aa044398639b4943e12fc2b0474507b5707a251ffef49e8524e5cf555762eeaa"
+      ],
       "text": "Orange needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

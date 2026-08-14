@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_use_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "8b21e66aad72ee4f7a2a0bf02d6b16efd2d37ed1e22b0169c51010a6bbcc6f0c",
+      "sha256": [
+        "8b21e66aad72ee4f7a2a0bf02d6b16efd2d37ed1e22b0169c51010a6bbcc6f0c"
+      ],
       "text": "A storm comes in.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "83c97c28ae280c819d813c3625d15b585af639746c6eacd8cdce01b5b44bc851",
-      "text": "Your life is my life.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8f5d3ac4dabdbbb71a5edcb3ef39cb1d6fde6efcb3eb9e88043621de1baf7320",
-      "text": "Your life is my life.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77d4de6f3f46772668990eeee59987f52624d2ec2736c87e8e6c4503e40c9fc8",
+      "sha256": [
+        "77d4de6f3f46772668990eeee59987f52624d2ec2736c87e8e6c4503e40c9fc8",
+        "83c97c28ae280c819d813c3625d15b585af639746c6eacd8cdce01b5b44bc851",
+        "8f5d3ac4dabdbbb71a5edcb3ef39cb1d6fde6efcb3eb9e88043621de1baf7320"
+      ],
       "text": "Your life is my life.",
       "source": "official"
     }

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_vampirebat_01.mp3",
   "revisions": [
     {
-      "sha256": "4314c69ba8bbddb903db3063eb3f4e6c92e332184fecc014c3f62b2f89a86688",
+      "sha256": [
+        "4314c69ba8bbddb903db3063eb3f4e6c92e332184fecc014c3f62b2f89a86688"
+      ],
       "text": "Careful, vampire.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b2b82ce12d4a0acaaf946ae1af98c00ad9a51c232e0d76bf1d9f54b6a0ef23c0",
+      "sha256": [
+        "b2b82ce12d4a0acaaf946ae1af98c00ad9a51c232e0d76bf1d9f54b6a0ef23c0"
+      ],
       "text": "Careful, Mina…",
       "source": "official"
     }

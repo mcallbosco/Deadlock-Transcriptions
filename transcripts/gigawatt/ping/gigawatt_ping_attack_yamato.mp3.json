@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_attack_yamato.mp3",
   "revisions": [
     {
-      "sha256": "33ebc627c9a26f3757171e7436e97c5b3dd8afddc2ab8045040c4909560e31fa",
-      "text": "Let's take out Yamato!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "33ebc627c9a26f3757171e7436e97c5b3dd8afddc2ab8045040c4909560e31fa",
+        "b6253390b1eb5b220b1c552e0fd97d3013bfb358f22743715af90c9f731522d1"
+      ],
+      "text": "Let's take out Yamato",
+      "source": "official"
     },
     {
-      "sha256": "cbdea0ff3b37138cb09492eed7ba88548f89bbf200cacf57f05531640b52bbc8",
+      "sha256": [
+        "cbdea0ff3b37138cb09492eed7ba88548f89bbf200cacf57f05531640b52bbc8"
+      ],
       "text": "Let's take out your model!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b6253390b1eb5b220b1c552e0fd97d3013bfb358f22743715af90c9f731522d1",
-      "text": "Let's take out Yamato",
-      "source": "official"
     }
   ]
 }

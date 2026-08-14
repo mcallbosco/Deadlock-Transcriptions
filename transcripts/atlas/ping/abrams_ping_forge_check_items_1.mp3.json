@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_forge_check_items_1.mp3",
   "revisions": [
     {
-      "sha256": "eff2e2b358fa6b398911ff217ef40728eef0b02c7e8feb5688a0513938f3a1d9",
-      "text": "Check out what McGinnis bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "42a900e924f5bc1319248ad6ffc4b56c2a97a66ab90ddcc691188ee946ac4d8e",
+      "sha256": [
+        "42a900e924f5bc1319248ad6ffc4b56c2a97a66ab90ddcc691188ee946ac4d8e",
+        "eff2e2b358fa6b398911ff217ef40728eef0b02c7e8feb5688a0513938f3a1d9"
+      ],
       "text": "Check out what McGinnis bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

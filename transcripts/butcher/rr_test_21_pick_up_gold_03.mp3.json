@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_pick_up_gold_03.mp3",
   "revisions": [
     {
-      "sha256": "07f4c452512e6680902b03252b0a020c3d6c3871292426f4a176a3545545e41d",
-      "text": "That money's mine now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "025be5f6281fe22d854001b513da38b528afe15140c06ef8b92bf882f4f67ef4",
-      "text": "That money's mine now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a6afcaca8eab5e57c2fc7266d3394e6dd04f59c02c1b920b24a12bc74b4eca0a",
+      "sha256": [
+        "025be5f6281fe22d854001b513da38b528afe15140c06ef8b92bf882f4f67ef4",
+        "07f4c452512e6680902b03252b0a020c3d6c3871292426f4a176a3545545e41d",
+        "a6afcaca8eab5e57c2fc7266d3394e6dd04f59c02c1b920b24a12bc74b4eca0a"
+      ],
       "text": "That money's mine now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_congrats_01.mp3",
   "revisions": [
     {
-      "sha256": "d326ccace464bdf3e8ec6afc5a5beb0fac17fba853de154998b442aa10e1dee5",
+      "sha256": [
+        "6f0a69ac22b06aa578896270db619bb839c6b4ff56dededa0c46ef753e0304c5",
+        "d326ccace464bdf3e8ec6afc5a5beb0fac17fba853de154998b442aa10e1dee5"
+      ],
       "text": "Good work!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6f0a69ac22b06aa578896270db619bb839c6b4ff56dededa0c46ef753e0304c5",
-      "text": "Good work.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

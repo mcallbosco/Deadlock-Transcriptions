@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_purple_half_health_01.mp3",
   "revisions": [
     {
-      "sha256": "9194ca714e8397729ca4ed5d19d9bfd5536d228ffaddb49fcead5ecd946ecc92",
-      "text": "Purple Guardian has half health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8883418759fb8b488f9cc6a4deefc8f92a46ff073d184f578e5a5ed9cc7a68fe",
-      "text": "Purple Guardian has half health.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cd9c37dfedf5a3348d639d4f7964bcdf98926763ee2de52675b9f5683cdd561",
+      "sha256": [
+        "0cd9c37dfedf5a3348d639d4f7964bcdf98926763ee2de52675b9f5683cdd561",
+        "8883418759fb8b488f9cc6a4deefc8f92a46ff073d184f578e5a5ed9cc7a68fe",
+        "9194ca714e8397729ca4ed5d19d9bfd5536d228ffaddb49fcead5ecd946ecc92"
+      ],
       "text": "Purple Guardian has half health.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

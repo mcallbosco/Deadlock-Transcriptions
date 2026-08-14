@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "ddac057c208de6c36d2b31e118c1b295b62137fbfbfd44eb5b2b24ea2fb1e41a",
+      "sha256": [
+        "ddac057c208de6c36d2b31e118c1b295b62137fbfbfd44eb5b2b24ea2fb1e41a"
+      ],
       "text": "Garage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

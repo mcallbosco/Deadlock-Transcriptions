@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_well_played.mp3",
   "revisions": [
     {
-      "sha256": "2be6bf340137b3fb513b4b296b4de1e2bc128c94bd3a81107109208dc1d8afdb",
+      "sha256": [
+        "2be6bf340137b3fb513b4b296b4de1e2bc128c94bd3a81107109208dc1d8afdb"
+      ],
       "text": "Good morning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7e5a48212eb966a1c96bdc83c542d2d11b1dfb687c71cf65ddfc6696f180b79d",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "57417d2678e884423082bad37909ae96f8bcaa0e4cc770d2dbd10f78fd7b9aa4",
-      "text": "Well played.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b16e43a3931605d9abc1d710f0653e39512cfdb9093f5a46e8aaef73daa71865",
+      "sha256": [
+        "57417d2678e884423082bad37909ae96f8bcaa0e4cc770d2dbd10f78fd7b9aa4",
+        "7e5a48212eb966a1c96bdc83c542d2d11b1dfb687c71cf65ddfc6696f180b79d",
+        "b16e43a3931605d9abc1d710f0653e39512cfdb9093f5a46e8aaef73daa71865"
+      ],
       "text": "Well played",
       "source": "official"
     }

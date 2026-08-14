@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "pocket/ping/pocket_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "b1d00ef0d93ba05711b58a82c429fa9f46da33c226e3af1fc4c5d74c1e5d4cd0",
-      "text": "I saw Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2efea61b3636aa626b935c9fc55aa975b757ea4b0dc0bc50b75622e7d3619b4f",
+      "sha256": [
+        "2efea61b3636aa626b935c9fc55aa975b757ea4b0dc0bc50b75622e7d3619b4f",
+        "b1d00ef0d93ba05711b58a82c429fa9f46da33c226e3af1fc4c5d74c1e5d4cd0"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

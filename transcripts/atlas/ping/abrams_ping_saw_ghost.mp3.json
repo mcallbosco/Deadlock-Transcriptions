@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_saw_ghost.mp3",
   "revisions": [
     {
-      "sha256": "56999dfb340dd314ecbe5c7585105f00c68307481bf3c5955ca60ebba4649b3f",
-      "text": "I saw Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fe5fe538a1e6bd994d93e4f5c091e569fd5b1df7fc4eef8a70967b48f4576b52",
-      "text": "I saw Geist.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d3032e2a1c280c3d361a56db4942e98c01fbf3e99da2c39e52af0c5cbe3c18da",
+      "sha256": [
+        "56999dfb340dd314ecbe5c7585105f00c68307481bf3c5955ca60ebba4649b3f",
+        "d3032e2a1c280c3d361a56db4942e98c01fbf3e99da2c39e52af0c5cbe3c18da",
+        "fe5fe538a1e6bd994d93e4f5c091e569fd5b1df7fc4eef8a70967b48f4576b52"
+      ],
       "text": "I saw Geist.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

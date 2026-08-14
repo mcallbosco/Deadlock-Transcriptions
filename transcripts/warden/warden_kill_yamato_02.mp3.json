@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/warden_kill_yamato_02.mp3",
   "revisions": [
     {
-      "sha256": "43ee60f71034c2ae7a44d5b582ec1cc74b52d8193ef91050e76ef100e553c9cf",
-      "text": "Your training failed you, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc150d69efb19650ca095170cb01939798ab0915b2f9460ba4a34f157123b7ba",
-      "text": "Your training failed you, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb39b5166e049dadae5584f16984f04b9b4c5ca89e39e2591b220707cd5cdc44",
-      "text": "Your training failed you, Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "461697cdbbbdecc6fdd2b5b50e286202e86bbdf3682cea85784c5667b4551980",
+      "sha256": [
+        "43ee60f71034c2ae7a44d5b582ec1cc74b52d8193ef91050e76ef100e553c9cf",
+        "461697cdbbbdecc6fdd2b5b50e286202e86bbdf3682cea85784c5667b4551980",
+        "dc150d69efb19650ca095170cb01939798ab0915b2f9460ba4a34f157123b7ba",
+        "eb39b5166e049dadae5584f16984f04b9b4c5ca89e39e2591b220707cd5cdc44"
+      ],
       "text": "Your training failed you Yamato.",
       "source": "official"
     }

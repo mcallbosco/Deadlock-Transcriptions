@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_upgrade_power4_04.mp3",
   "revisions": [
     {
-      "sha256": "09a2ce940da333404c165e8ec715286cef149b84dfb237756728a59812e2190e",
+      "sha256": [
+        "09a2ce940da333404c165e8ec715286cef149b84dfb237756728a59812e2190e"
+      ],
       "text": "It doesn't get much better than King Arthur.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

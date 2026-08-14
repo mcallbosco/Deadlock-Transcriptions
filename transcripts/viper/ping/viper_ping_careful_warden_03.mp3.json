@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_careful_warden_03.mp3",
   "revisions": [
     {
-      "sha256": "d60f8ce055f9be0b18cfe1be00eadf5ff8e5e39daf463ff00fb91a5ed9823716",
-      "text": "Careful, Warden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a666340b72c6fbf30a04a07dccc2dd186ccec4c19908f026fe817ee073490e39",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6eecbf249bc85049c6c472157d520f15e05ea5bcb6d420f268298fed11b0619d",
+      "sha256": [
+        "6eecbf249bc85049c6c472157d520f15e05ea5bcb6d420f268298fed11b0619d",
+        "a666340b72c6fbf30a04a07dccc2dd186ccec4c19908f026fe817ee073490e39",
+        "d60f8ce055f9be0b18cfe1be00eadf5ff8e5e39daf463ff00fb91a5ed9823716"
+      ],
       "text": "Careful, Warden!",
       "source": "official"
     }

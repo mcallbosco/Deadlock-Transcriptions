@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_zealot_headed_to_blue.mp3",
   "revisions": [
     {
-      "sha256": "2021a9f61107ec66012b324238d23655ef86d349944575aa2c4bda6e2e152daf",
+      "sha256": [
+        "2021a9f61107ec66012b324238d23655ef86d349944575aa2c4bda6e2e152daf"
+      ],
       "text": "I see the blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e9aa7475a87d70a2b472337f1b0fe28dca2a5d3397b65b34fd37286177b10460",
+      "sha256": [
+        "e9aa7475a87d70a2b472337f1b0fe28dca2a5d3397b65b34fd37286177b10460"
+      ],
       "text": "I can't hear the blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8b6c6d09c33bcef67838c58e7e0cf457a59c0e106f690f6230cc81b0a0ea9672",
+      "sha256": [
+        "8b6c6d09c33bcef67838c58e7e0cf457a59c0e106f690f6230cc81b0a0ea9672"
+      ],
       "text": "I'll tear the blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_near_miss_02.mp3",
   "revisions": [
     {
-      "sha256": "cbb0c6793afc2c58e21940c5762a09dc519a679e309420deffe73fe42ac46f9d",
-      "text": "I just need a little more time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2c2771cc2d4b47ab61758519956b6aa9c44b2e0fc18482bd25c27c02d08a34eb",
-      "text": "I just need a little more time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "908bc60deb3ba5f26c5fec2e96b0080d9921bfee63d4e6bf1848e94156866a2e",
+      "sha256": [
+        "2c2771cc2d4b47ab61758519956b6aa9c44b2e0fc18482bd25c27c02d08a34eb",
+        "908bc60deb3ba5f26c5fec2e96b0080d9921bfee63d4e6bf1848e94156866a2e",
+        "cbb0c6793afc2c58e21940c5762a09dc519a679e309420deffe73fe42ac46f9d"
+      ],
       "text": "I just need a little more time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

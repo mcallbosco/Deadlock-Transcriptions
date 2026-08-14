@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_headed_green_01.mp3",
   "revisions": [
     {
-      "sha256": "db501ab409b9fc38549dcd4fcc9ca0535dd80ea3803c3c2bd307401d73057e5c",
+      "sha256": [
+        "db501ab409b9fc38549dcd4fcc9ca0535dd80ea3803c3c2bd307401d73057e5c"
+      ],
       "text": "Head it to green.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "542a6b28b1bcd449ad0dced849805c61b539532f8aed9e333fb778e59ca4aaf1",
+      "sha256": [
+        "542a6b28b1bcd449ad0dced849805c61b539532f8aed9e333fb778e59ca4aaf1"
+      ],
       "text": "Headed to Green",
       "source": "official"
     }

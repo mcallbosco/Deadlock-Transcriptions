@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_see_kelvin_01.mp3",
   "revisions": [
     {
-      "sha256": "ea6d6f7ec0620d0dc4d684aaba0d877f35260150e943b429c8790c3c9c40289b",
-      "text": "I see Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d7f6376f2d033f949868b585c845f9721bb0e3ad56cdb373a8b4f2c448ec1fd",
+      "sha256": [
+        "1d7f6376f2d033f949868b585c845f9721bb0e3ad56cdb373a8b4f2c448ec1fd",
+        "ea6d6f7ec0620d0dc4d684aaba0d877f35260150e943b429c8790c3c9c40289b"
+      ],
       "text": "I see Kelvin.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

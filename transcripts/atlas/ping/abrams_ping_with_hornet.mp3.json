@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_with_hornet.mp3",
   "revisions": [
     {
-      "sha256": "19654b78c902264f72d8807344f1840731b9c31bf1d203d273b878986c4149a4",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8163053d85335c5188f49364bfe37ec1ee3374a20517cf131bba1543befc552",
-      "text": "I'm with you, Vindicta.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f32bd96f3e2c9b7fdfd04f9f6e50123c573caf8512e8277da178cf74b135dd3f",
+      "sha256": [
+        "19654b78c902264f72d8807344f1840731b9c31bf1d203d273b878986c4149a4",
+        "f32bd96f3e2c9b7fdfd04f9f6e50123c573caf8512e8277da178cf74b135dd3f",
+        "f8163053d85335c5188f49364bfe37ec1ee3374a20517cf131bba1543befc552"
+      ],
       "text": "I'm with you, Vindicta.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

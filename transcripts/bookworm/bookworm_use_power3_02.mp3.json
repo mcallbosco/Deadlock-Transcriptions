@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_use_power3_02.mp3",
   "revisions": [
     {
-      "sha256": "472cf3de0d6f0f0309e2cb6a66b2f0729ee80923d0dd577984474d75f97f33a8",
+      "sha256": [
+        "472cf3de0d6f0f0309e2cb6a66b2f0729ee80923d0dd577984474d75f97f33a8"
+      ],
       "text": "This power did something!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "76ce853495e537d19396f7415c24b53280ee92f2f4a8cf17493030b9c561907c",
+      "sha256": [
+        "76ce853495e537d19396f7415c24b53280ee92f2f4a8cf17493030b9c561907c"
+      ],
       "text": "Who doesn't love a little arthurian fantasy",
       "source": "official"
     }

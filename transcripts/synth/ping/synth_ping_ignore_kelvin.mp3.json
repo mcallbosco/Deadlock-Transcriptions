@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_ignore_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "317206c42b91898d32aac869b5f34f648be24e5c419110cc247b8a06465bd33d",
+      "sha256": [
+        "317206c42b91898d32aac869b5f34f648be24e5c419110cc247b8a06465bd33d"
+      ],
       "text": "Do you know Kelvin?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

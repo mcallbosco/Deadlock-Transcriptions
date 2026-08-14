@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_bebop.mp3",
   "revisions": [
     {
-      "sha256": "750f90d47483842d6930b8df92d4e22ed65fbdcb5cb9613f2cad0bcd466354ba",
-      "text": "I see Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c2831658b2e89235920198379a3ed70db3a95884bb31e1eabc62e5c1ad563b9e",
-      "text": "I see Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7f9d6b73da6dd24cc332caff6d318f99a9417f7d7bbd30736de48c8dfeb63d98",
-      "text": "I see Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64183d3b51b97ef338e0bd15bf024d6ae035bd034a441e287234a17e3e1b1a93",
+      "sha256": [
+        "64183d3b51b97ef338e0bd15bf024d6ae035bd034a441e287234a17e3e1b1a93",
+        "750f90d47483842d6930b8df92d4e22ed65fbdcb5cb9613f2cad0bcd466354ba",
+        "7f9d6b73da6dd24cc332caff6d318f99a9417f7d7bbd30736de48c8dfeb63d98",
+        "c2831658b2e89235920198379a3ed70db3a95884bb31e1eabc62e5c1ad563b9e"
+      ],
       "text": "I see Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

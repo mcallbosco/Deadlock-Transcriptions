@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_careful_orion_03.mp3",
   "revisions": [
     {
-      "sha256": "770396a4cd3e88957c0c56cb328978b02d997be4ccc2557f82ad2cde3eaf399c",
+      "sha256": [
+        "770396a4cd3e88957c0c56cb328978b02d997be4ccc2557f82ad2cde3eaf399c"
+      ],
       "text": "Capable Grey Talon!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4ccc1d7665e8ca4970d4b8eefb9c26847dadea3609fcb6cb9c9fa02ab7956692",
+      "sha256": [
+        "4ccc1d7665e8ca4970d4b8eefb9c26847dadea3609fcb6cb9c9fa02ab7956692"
+      ],
       "text": "Careful, Grey Talon!",
       "source": "official"
     }

@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_purple_help_02.mp3",
   "revisions": [
     {
-      "sha256": "b1c23bf30de313ca4879d9d6b7356d40a81d70f1fbd36087e03636861dafcfdb",
+      "sha256": [
+        "215adeb4981862ed1286ef8a4a056bc622eac9f87184d8e70018ebb9e0fb5064",
+        "b1c23bf30de313ca4879d9d6b7356d40a81d70f1fbd36087e03636861dafcfdb"
+      ],
       "text": "Cart needs help.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a26d9865d368bfee5e14a699fd5fc297e6a0628fb407b1345465d14f8c9c3eea",
+      "sha256": [
+        "a26d9865d368bfee5e14a699fd5fc297e6a0628fb407b1345465d14f8c9c3eea"
+      ],
       "text": "Tark needs help.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "215adeb4981862ed1286ef8a4a056bc622eac9f87184d8e70018ebb9e0fb5064",
-      "text": "Cart needs help!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

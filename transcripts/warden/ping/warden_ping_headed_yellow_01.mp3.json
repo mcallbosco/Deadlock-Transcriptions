@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_headed_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "0db6b336cee1b4a14fb9127776b2d4c54238db4550d00fa70a258c0525f1177a",
-      "text": "Headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "009c0a1d2e6eecf76af99e2d25a41f1ee68c8b6591f901d167e600eee6e06cdb",
-      "text": "Headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d40bfa099d5d12252a6a81aa2c078aa52fdedb56666c1b123cc09347b5b1f65e",
-      "text": "Headed to yellow.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7551f65c1dfe7e1f11e3ca1b28fc3a04054f0093f4ac034e9b697a32e7da7320",
+      "sha256": [
+        "009c0a1d2e6eecf76af99e2d25a41f1ee68c8b6591f901d167e600eee6e06cdb",
+        "0db6b336cee1b4a14fb9127776b2d4c54238db4550d00fa70a258c0525f1177a",
+        "7551f65c1dfe7e1f11e3ca1b28fc3a04054f0093f4ac034e9b697a32e7da7320",
+        "d40bfa099d5d12252a6a81aa2c078aa52fdedb56666c1b123cc09347b5b1f65e"
+      ],
       "text": "Headed to Yellow",
       "source": "official"
     }

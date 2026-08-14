@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_can_heal_grey_talon.mp3",
   "revisions": [
     {
-      "sha256": "2d81bec72f9c675f6ae1253b3f1c0cd539894027ca86016427949ec23ba318a1",
-      "text": "Talon, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ea4c5d2cf81fc7b928da83ecd2458d4c0ca519d5fd5e2159c0bc2d81cfee539f",
+      "sha256": [
+        "2d81bec72f9c675f6ae1253b3f1c0cd539894027ca86016427949ec23ba318a1",
+        "ea4c5d2cf81fc7b928da83ecd2458d4c0ca519d5fd5e2159c0bc2d81cfee539f"
+      ],
       "text": "Talon, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

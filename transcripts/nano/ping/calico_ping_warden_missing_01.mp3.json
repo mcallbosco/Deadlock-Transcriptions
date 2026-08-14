@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/ping/calico_ping_warden_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3ac220ed6ef43c5aefa943c03e305e3de1a3f26bce13876073fcaa4a35916e46",
-      "text": "Gordon is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1c2245f1b1a09d9244c73e789a36f9aa096b4487c7021b053d24fae3c7d3ef41",
+      "sha256": [
+        "1c2245f1b1a09d9244c73e789a36f9aa096b4487c7021b053d24fae3c7d3ef41",
+        "3ac220ed6ef43c5aefa943c03e305e3de1a3f26bce13876073fcaa4a35916e46"
+      ],
       "text": "Gordon is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

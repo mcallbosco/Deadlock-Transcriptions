@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_tengu_dead.mp3",
   "revisions": [
     {
-      "sha256": "a9d74f150fa4e1826b50ac09ff9ffcd265a0e11d47a41b2a355cd5b3fa565d67",
+      "sha256": [
+        "a9d74f150fa4e1826b50ac09ff9ffcd265a0e11d47a41b2a355cd5b3fa565d67"
+      ],
       "text": "IV is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ee1eb26297c3dbbbdee326aa3f9c79549daab7f47b61c883893e592fd6bb4a2e",
+      "sha256": [
+        "ee1eb26297c3dbbbdee326aa3f9c79549daab7f47b61c883893e592fd6bb4a2e"
+      ],
       "text": "I've used it.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

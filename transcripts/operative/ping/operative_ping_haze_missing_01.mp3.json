@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_haze_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c2ac19a87784bd74a7c1f1d01298b1b94e52fb8da017051e3ec2894b6f435298",
+      "sha256": [
+        "c2ac19a87784bd74a7c1f1d01298b1b94e52fb8da017051e3ec2894b6f435298"
+      ],
       "text": "Grace is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

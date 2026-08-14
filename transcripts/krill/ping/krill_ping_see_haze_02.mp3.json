@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_see_haze_02.mp3",
   "revisions": [
     {
-      "sha256": "a3b6448f0df37847993560679a51fe018c4fdf215be51ec6a9240b35f8669e24",
-      "text": "I see the Sandman.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7195f8b2858e37257c83daa2eebb8a0a0c50652e2ead13c43a219c85cb6e94cc",
-      "text": "I see the Sandman.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f8f7cc4c351d20884c236ec08a624f7816af4112582c14a7ab0710ba7cd405b9",
+      "sha256": [
+        "7195f8b2858e37257c83daa2eebb8a0a0c50652e2ead13c43a219c85cb6e94cc",
+        "a3b6448f0df37847993560679a51fe018c4fdf215be51ec6a9240b35f8669e24",
+        "f8f7cc4c351d20884c236ec08a624f7816af4112582c14a7ab0710ba7cd405b9"
+      ],
       "text": "I see the sandman",
       "source": "official"
     }

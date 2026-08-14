@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_bookworm.mp3",
   "revisions": [
     {
-      "sha256": "dc28785aad8d609fe054a1eefda20edf63325e937bc399cf1956d73517459efc",
+      "sha256": [
+        "dc28785aad8d609fe054a1eefda20edf63325e937bc399cf1956d73517459efc"
+      ],
       "text": "I saw Paige.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

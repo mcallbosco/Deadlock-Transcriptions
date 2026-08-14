@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_wrecker_on_roof.mp3",
   "revisions": [
     {
-      "sha256": "30cf70d3e602f58c2a17b01a28cd04b67a74ed278dad47f34ab685bc6084bb4c",
+      "sha256": [
+        "30cf70d3e602f58c2a17b01a28cd04b67a74ed278dad47f34ab685bc6084bb4c",
+        "e5e3428a23d0b9fb874be990024bf20a8d296ae507f7484aa7d3f920662b8361"
+      ],
       "text": "Wrecker's on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
-      "sha256": "da376cf2cb3f049aeda6d4196bc461287c7b04d866bf0b15d05b8aba5ad7b2a0",
+      "sha256": [
+        "da376cf2cb3f049aeda6d4196bc461287c7b04d866bf0b15d05b8aba5ad7b2a0"
+      ],
       "text": "Cracker's on the roof.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e5e3428a23d0b9fb874be990024bf20a8d296ae507f7484aa7d3f920662b8361",
-      "text": "Wrecker's on the roof!",
-      "source": "official"
     }
   ]
 }

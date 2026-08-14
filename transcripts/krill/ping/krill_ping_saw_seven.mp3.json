@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_saw_seven.mp3",
   "revisions": [
     {
-      "sha256": "45c339ffe21d9816a680b40101b958a7e6d04a27660083e2cd09fc232f7d758c",
-      "text": "I saw Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "643a2b5f63c8e1f5217b07511ac889d5b37056995e0f4a1c98ab5e2278b57e2b",
-      "text": "I saw Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "60a8469f38232ec51576792b50b75fcc5fe837ca3e0544237867c571f1556b2b",
+      "sha256": [
+        "45c339ffe21d9816a680b40101b958a7e6d04a27660083e2cd09fc232f7d758c",
+        "60a8469f38232ec51576792b50b75fcc5fe837ca3e0544237867c571f1556b2b",
+        "643a2b5f63c8e1f5217b07511ac889d5b37056995e0f4a1c98ab5e2278b57e2b"
+      ],
       "text": "I saw Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

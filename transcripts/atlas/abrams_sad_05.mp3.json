@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_sad_05.mp3",
   "revisions": [
     {
-      "sha256": "beb64791984c9a81bcf448610612d3ae0225fbce7ec5a17fdd72c0ded1c2999e",
-      "text": "Nothing is going right.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fca4e6b8d9cbc77dc79f867e75bd0699591f67d5683bdbd9f923d4de89cdc0f4",
-      "text": "Nothing is going right.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "93252562f93cb736a7901c7562f01ad7e055ad652df2734764ed26b328122738",
+      "sha256": [
+        "93252562f93cb736a7901c7562f01ad7e055ad652df2734764ed26b328122738",
+        "beb64791984c9a81bcf448610612d3ae0225fbce7ec5a17fdd72c0ded1c2999e",
+        "fca4e6b8d9cbc77dc79f867e75bd0699591f67d5683bdbd9f923d4de89cdc0f4"
+      ],
       "text": "Nothing is going right.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

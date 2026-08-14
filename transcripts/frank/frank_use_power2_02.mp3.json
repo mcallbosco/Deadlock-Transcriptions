@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/frank_use_power2_02.mp3",
   "revisions": [
     {
-      "sha256": "9a31e58236e002f3f931c184d06a394b984b023c61491c2dfe341c8af403391e",
-      "text": "Need a pick-me-up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "21a6ece1788387f3045430c414215a0aafb3ff9dfa8cb47cb56ebe442dfbd0f0",
+      "sha256": [
+        "21a6ece1788387f3045430c414215a0aafb3ff9dfa8cb47cb56ebe442dfbd0f0",
+        "9a31e58236e002f3f931c184d06a394b984b023c61491c2dfe341c8af403391e"
+      ],
       "text": "Need a pick me up",
       "source": "official"
     }

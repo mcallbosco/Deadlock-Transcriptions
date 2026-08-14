@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b31d1dd7df680108665fc8ca1fd52704cb7bd69f0876d68bab1b0eb35b3fae4f",
+      "sha256": [
+        "b31d1dd7df680108665fc8ca1fd52704cb7bd69f0876d68bab1b0eb35b3fae4f"
+      ],
       "text": "He's on break.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8e0e2dd2ef92c29b422d304e9895ed190e6ec3470d0adced0a4f8abde1013f3b",
+      "sha256": [
+        "8e0e2dd2ef92c29b422d304e9895ed190e6ec3470d0adced0a4f8abde1013f3b",
+        "8ed8b482814da446c985e951446c62b4b5d68fdb38e850b5109f8d510fdbeac6"
+      ],
       "text": "Haze is on the breach.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8ed8b482814da446c985e951446c62b4b5d68fdb38e850b5109f8d510fdbeac6",
-      "text": "Haze is on the breach.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64fd0027af62d33c4e8cca0ae9b5644229e775056f9f4252985055631517d008",
+      "sha256": [
+        "64fd0027af62d33c4e8cca0ae9b5644229e775056f9f4252985055631517d008"
+      ],
       "text": "Haze's on the bridge!",
       "source": "official"
     }

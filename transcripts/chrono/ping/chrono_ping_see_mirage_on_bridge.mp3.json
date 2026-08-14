@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_mirage_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "8cd560821cdbbbec4047050b068c1cfbf202421fd61b1e111c5eb523d648e6b5",
+      "sha256": [
+        "8cd560821cdbbbec4047050b068c1cfbf202421fd61b1e111c5eb523d648e6b5"
+      ],
       "text": "Mirage is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "8961817de1749bdd4792b0c66b4182023e827988199b34ef5728cb4caffa77d5",
+      "sha256": [
+        "8961817de1749bdd4792b0c66b4182023e827988199b34ef5728cb4caffa77d5"
+      ],
       "text": "Mirage's on the bridge!",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_see_cadence_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "91f8351206189a40e7dd3007bc55fef1868cd75383a09c1aaf429a5c9bddde9b",
+      "sha256": [
+        "0f14603334e73538827212ae84294470c63206d45960d1f9cdd4954cac57b57e",
+        "91f8351206189a40e7dd3007bc55fef1868cd75383a09c1aaf429a5c9bddde9b"
+      ],
       "text": "Cadence is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0f14603334e73538827212ae84294470c63206d45960d1f9cdd4954cac57b57e",
-      "text": "Cadence is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

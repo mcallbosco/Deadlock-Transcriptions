@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/astro_ping_mirage_dead.mp3",
   "revisions": [
     {
-      "sha256": "a9a12a5647e0e514e128af15a459e995ba3b4524fa6d7a3084c83d7bb6da7886",
+      "sha256": [
+        "a9a12a5647e0e514e128af15a459e995ba3b4524fa6d7a3084c83d7bb6da7886"
+      ],
       "text": "Mirage is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

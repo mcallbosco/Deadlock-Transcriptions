@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_ability1_not_ready.mp3",
   "revisions": [
     {
-      "sha256": "62bcb066f7d8bfa17db50327f60a3efb4a03af9b6ce18bb960ea9e008bb16d09",
+      "sha256": [
+        "62bcb066f7d8bfa17db50327f60a3efb4a03af9b6ce18bb960ea9e008bb16d09",
+        "a2baad4fe2480d04d5304371b68a9d100c41a29950cee93df8ec1906daf61860"
+      ],
       "text": "Score's on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c20e2ce46925c33aa00f05fc5882e156728c6ef88149703c7713cd156e54153d",
+      "sha256": [
+        "c20e2ce46925c33aa00f05fc5882e156728c6ef88149703c7713cd156e54153d"
+      ],
       "text": "Scorpion's on cooldown.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a2baad4fe2480d04d5304371b68a9d100c41a29950cee93df8ec1906daf61860",
-      "text": "Score's on cooldown!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "45fd4e30b32cd7e2185ee548e971af04903feaf6003c4c62e3c7cb20c6a14c30",
+      "sha256": [
+        "45fd4e30b32cd7e2185ee548e971af04903feaf6003c4c62e3c7cb20c6a14c30"
+      ],
       "text": "Scorn's on cooldown",
       "source": "official"
     }

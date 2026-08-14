@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_ping_careful_astro_01.mp3",
   "revisions": [
     {
-      "sha256": "4fc13ff09833c453c9290498cdadc400e8e77e433fee18647370214e3497f6f1",
+      "sha256": [
+        "4fc13ff09833c453c9290498cdadc400e8e77e433fee18647370214e3497f6f1",
+        "72eeca0619f3f62b67bfd15ed670f188e79e7bef2a7659ad8db543e41ae86fc6"
+      ],
       "text": "Careful, Estro.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "72eeca0619f3f62b67bfd15ed670f188e79e7bef2a7659ad8db543e41ae86fc6",
-      "text": "Careful, Estro.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd140b6dd6ef5780a12f412497f70a0289e2ae255a3e02c8bbb7c53eed4b2a89",
+      "sha256": [
+        "cd140b6dd6ef5780a12f412497f70a0289e2ae255a3e02c8bbb7c53eed4b2a89"
+      ],
       "text": "Careful, Astro.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

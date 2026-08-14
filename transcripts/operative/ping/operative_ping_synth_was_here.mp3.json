@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a6e959771da428ff25f2bdc579a8b1023b9bbf18a552d7b2dcf10fbba400201b",
+      "sha256": [
+        "a6e959771da428ff25f2bdc579a8b1023b9bbf18a552d7b2dcf10fbba400201b"
+      ],
       "text": "Cockpit was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

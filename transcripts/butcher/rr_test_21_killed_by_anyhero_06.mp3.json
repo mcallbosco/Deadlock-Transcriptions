@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_killed_by_anyhero_06.mp3",
   "revisions": [
     {
-      "sha256": "53c66df25dce1272404245e003a528d52ae475829b415b0d46df49b5d068a710",
-      "text": "Oh, I'll be back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c02379a4dd5110cdcd929100adc1b516cd9aa4abf4c1486bf836acc026a3db82",
-      "text": "Oh, I'll be back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a29d13560b88fc5c5aa6fba9c74ad247f975659434144a78c28f130bfca1efa7",
+      "sha256": [
+        "53c66df25dce1272404245e003a528d52ae475829b415b0d46df49b5d068a710",
+        "a29d13560b88fc5c5aa6fba9c74ad247f975659434144a78c28f130bfca1efa7",
+        "c02379a4dd5110cdcd929100adc1b516cd9aa4abf4c1486bf836acc026a3db82"
+      ],
       "text": "Oh, I'll be back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

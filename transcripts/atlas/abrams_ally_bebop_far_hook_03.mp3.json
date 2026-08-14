@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_ally_bebop_far_hook_03.mp3",
   "revisions": [
     {
-      "sha256": "4dc9c2667eb3f94588e4d1334d8664acd12daf56ece14bbeecda6dd67e763596",
-      "text": "I'm ready for him, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d04a2a8b589e8d8b57d6d1790f167ba92a1f549ce49d48924c7f43160d7bca82",
-      "text": "I'm ready for him, Bebop.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c3b280e6c901ea8a0765325d98d634a746c259068e84a1cbdc79c9387cf0def8",
+      "sha256": [
+        "4dc9c2667eb3f94588e4d1334d8664acd12daf56ece14bbeecda6dd67e763596",
+        "c3b280e6c901ea8a0765325d98d634a746c259068e84a1cbdc79c9387cf0def8",
+        "d04a2a8b589e8d8b57d6d1790f167ba92a1f549ce49d48924c7f43160d7bca82"
+      ],
       "text": "I'm ready for him, Bebop.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

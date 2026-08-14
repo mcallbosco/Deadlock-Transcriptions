@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "9a78a0b552f4628073ce4adfe67220d9d5dcbf5a5d5959c8ad2130576162ee6c",
+      "sha256": [
+        "9a78a0b552f4628073ce4adfe67220d9d5dcbf5a5d5959c8ad2130576162ee6c"
+      ],
       "text": "Mirage is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3d0c609c189daeb8f16921798b0b99a66f3e41286b482051e15d136348e73ab7",
+      "sha256": [
+        "3d0c609c189daeb8f16921798b0b99a66f3e41286b482051e15d136348e73ab7"
+      ],
       "text": "Mirage's under the garage!",
       "source": "official"
     }

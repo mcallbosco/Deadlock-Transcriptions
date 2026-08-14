@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "paradox/ping/paradox_ping_krill_on_top_of_mid.mp3",
   "revisions": [
     {
-      "sha256": "82155875b8bb77303687cc8746e0c7f39638e9e072a433914637301069fbdd8d",
+      "sha256": [
+        "82155875b8bb77303687cc8746e0c7f39638e9e072a433914637301069fbdd8d",
+        "ed96e0dddc455f7139dfd286d25ce545793c077cd9488718473f7a4c62c390ef"
+      ],
       "text": "Crow's on top of mid!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed96e0dddc455f7139dfd286d25ce545793c077cd9488718473f7a4c62c390ef",
-      "text": "Crow's on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

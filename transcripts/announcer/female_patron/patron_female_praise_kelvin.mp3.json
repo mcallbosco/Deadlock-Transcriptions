@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_praise_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "16ef68f3f5693cca48ba8ff3588cb951443a65ad625d36ecf7ae536983201c41",
-      "text": "Well done, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30757df5729eff7d58e0003ec38ee8a4cfdbc13d9fde9b332acd8ef120ee0f51",
-      "text": "Well done, Kelvin.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c5a2b6909d1b5331a71f3bc3ac4c49c96d88a84cd3ec19fe6000a476af2cb7f",
+      "sha256": [
+        "16ef68f3f5693cca48ba8ff3588cb951443a65ad625d36ecf7ae536983201c41",
+        "30757df5729eff7d58e0003ec38ee8a4cfdbc13d9fde9b332acd8ef120ee0f51",
+        "9c5a2b6909d1b5331a71f3bc3ac4c49c96d88a84cd3ec19fe6000a476af2cb7f"
+      ],
       "text": "Well done Kelvin",
       "source": "official"
     }

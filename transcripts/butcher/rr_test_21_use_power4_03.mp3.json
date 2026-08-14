@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_use_power4_03.mp3",
   "revisions": [
     {
-      "sha256": "dae559e554ec61c9108d3dc5d76e1db97558808d20bcbd16cf07fb015243ab3c",
-      "text": "Come to me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3cbcd8a30e9623e13486d9248c28e8cf3b6ec01699be5e1740ae9cf30793a965",
-      "text": "Come to me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ac3b250343ba8a221f3ab592d44f1e9b282d004a702035acbbe47df8c247f42e",
+      "sha256": [
+        "3cbcd8a30e9623e13486d9248c28e8cf3b6ec01699be5e1740ae9cf30793a965",
+        "ac3b250343ba8a221f3ab592d44f1e9b282d004a702035acbbe47df8c247f42e",
+        "dae559e554ec61c9108d3dc5d76e1db97558808d20bcbd16cf07fb015243ab3c"
+      ],
       "text": "Come to me!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

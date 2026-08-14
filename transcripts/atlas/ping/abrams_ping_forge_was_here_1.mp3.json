@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_forge_was_here_1.mp3",
   "revisions": [
     {
-      "sha256": "969314506595835af2beb09b7be40a9876a9014b58eaa815055fae652cad3144",
-      "text": "McGinnis was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ab7dbeffb69915858d070ea1c0a0732f895e3deb4f7222dbd5c0925863a777fc",
+      "sha256": [
+        "969314506595835af2beb09b7be40a9876a9014b58eaa815055fae652cad3144",
+        "ab7dbeffb69915858d070ea1c0a0732f895e3deb4f7222dbd5c0925863a777fc"
+      ],
       "text": "McGinnis was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

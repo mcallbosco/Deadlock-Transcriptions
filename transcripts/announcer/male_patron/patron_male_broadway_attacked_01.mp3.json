@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_broadway_attacked_01.mp3",
   "revisions": [
     {
-      "sha256": "6ea2ff4f29022e6f1aa715d443a033db89e935019a2be1d461800a1c5ba737c8",
-      "text": "Broadway is under attack.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "43c16ef3be7a92bef47e63795febec2af539225744824ade691d3b2b111fb480",
-      "text": "Broadway is under attack!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ddfa190efa98af4c2c0118ddc5a339e124f2a71d9f41758ac07a16243f2b093d",
-      "text": "Broadway is under attack.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5c4369a9aa5d05537e12f2c62e8a480708ee09b7c57d4cfb6600e8698291ede7",
+      "sha256": [
+        "43c16ef3be7a92bef47e63795febec2af539225744824ade691d3b2b111fb480",
+        "5c4369a9aa5d05537e12f2c62e8a480708ee09b7c57d4cfb6600e8698291ede7",
+        "6ea2ff4f29022e6f1aa715d443a033db89e935019a2be1d461800a1c5ba737c8",
+        "ddfa190efa98af4c2c0118ddc5a339e124f2a71d9f41758ac07a16243f2b093d"
+      ],
       "text": "Broadway is under attack.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/mirage_upgrade_power4_08.mp3",
   "revisions": [
     {
-      "sha256": "1ab2ce252aad54a3eb1170fefdcb48864fe24ed8d205d911222cfe8d80b7eb02",
+      "sha256": [
+        "1ab2ce252aad54a3eb1170fefdcb48864fe24ed8d205d911222cfe8d80b7eb02"
+      ],
       "text": "Now is not the time to be timid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "03b3e90b948065778299fd9ebef6c4f49bae8715ea54d0ca9f3a8f0331914f3d",
+      "sha256": [
+        "03b3e90b948065778299fd9ebef6c4f49bae8715ea54d0ca9f3a8f0331914f3d",
+        "554b84f3849d1a69aeec680798fd1a2b5a7983cc5efc9ed4497a19b759851bb2"
+      ],
       "text": "If I together, they'll die together.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "554b84f3849d1a69aeec680798fd1a2b5a7983cc5efc9ed4497a19b759851bb2",
-      "text": "If I together, they'll die together.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "acdf3e9667e2c263b669762e4873f8e10daaf69cfeb39a256e87aa5c64e40aef",
+      "sha256": [
+        "acdf3e9667e2c263b669762e4873f8e10daaf69cfeb39a256e87aa5c64e40aef"
+      ],
       "text": "I'll travel the city on my terms",
       "source": "official"
     }

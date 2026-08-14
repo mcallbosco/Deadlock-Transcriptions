@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_chrono_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "6745fc0cdf0eb994580f9a64257c94f84d795c4a1198edcbbd5983b009bc7ade",
+      "sha256": [
+        "6745fc0cdf0eb994580f9a64257c94f84d795c4a1198edcbbd5983b009bc7ade"
+      ],
       "text": "There are on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d718247cf3f6df7e5f415ff11fbf529b693f6ec76a00487ffd27373dd3556f2b",
+      "sha256": [
+        "d718247cf3f6df7e5f415ff11fbf529b693f6ec76a00487ffd27373dd3556f2b"
+      ],
       "text": "Paradox's on the bridge!",
       "source": "official"
     }

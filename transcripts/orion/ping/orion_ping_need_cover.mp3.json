@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_need_cover.mp3",
   "revisions": [
     {
-      "sha256": "183a8481e03bbdf9ac48f2378c622bb0043843c589e07d468c41a7674fee99b4",
-      "text": "Cover me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "02aa1628fac38d2e51fe65efe8732eb0471e8838120aac19f27be7d882630d7d",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d495a04acd5d46034db399dd66dc260b444e4b278ba96397d2c11ca302306ef",
-      "text": "Cover me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c5de539307b7e580697ec4f54e888bb5ac6801f7c169c16909f5c74cdada3b43",
+      "sha256": [
+        "02aa1628fac38d2e51fe65efe8732eb0471e8838120aac19f27be7d882630d7d",
+        "0d495a04acd5d46034db399dd66dc260b444e4b278ba96397d2c11ca302306ef",
+        "183a8481e03bbdf9ac48f2378c622bb0043843c589e07d468c41a7674fee99b4",
+        "c5de539307b7e580697ec4f54e888bb5ac6801f7c169c16909f5c74cdada3b43"
+      ],
       "text": "Cover me",
       "source": "official"
     }

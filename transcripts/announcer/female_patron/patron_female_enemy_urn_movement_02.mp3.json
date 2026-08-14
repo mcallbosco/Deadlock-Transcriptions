@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_enemy_urn_movement_02.mp3",
   "revisions": [
     {
-      "sha256": "5cee56e64694892c5ffa54343c5a904452a55e9014de52edb422bc10fa57d5be",
+      "sha256": [
+        "5cee56e64694892c5ffa54343c5a904452a55e9014de52edb422bc10fa57d5be",
+        "ba823710c23a24a9846c0accac35a842ddcace58e57149cbfaaae69ffa63a1d6"
+      ],
       "text": "The Amber Hand is trying to deliver the urn!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ba823710c23a24a9846c0accac35a842ddcace58e57149cbfaaae69ffa63a1d6",
-      "text": "The Amberhand is trying to deliver the urn!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

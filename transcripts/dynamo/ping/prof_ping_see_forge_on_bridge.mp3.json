@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_forge_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "a77f7047ec5e42d3b8f26b734798490e176765968c5292ba7751754ae26cc18e",
-      "text": "McGinnis is on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cfd731a9df5ba46a726e3173589056a304986274acde7c199ee963a575680493",
+      "sha256": [
+        "a77f7047ec5e42d3b8f26b734798490e176765968c5292ba7751754ae26cc18e",
+        "cfd731a9df5ba46a726e3173589056a304986274acde7c199ee963a575680493"
+      ],
       "text": "McGinnis is on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

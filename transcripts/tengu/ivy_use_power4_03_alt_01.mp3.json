@@ -1,23 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_use_power4_03_alt_01.mp3",
   "revisions": [
     {
-      "sha256": "ba2183eaf8672e125bcda0e50e9ced2951b5eabe63d014baa302006a119901a1",
+      "sha256": [
+        "ba2183eaf8672e125bcda0e50e9ced2951b5eabe63d014baa302006a119901a1",
+        "bf0b870debfed24123b8cba9bf1b25ea491bc2beed1bf1f0d4aeb3340f430f09"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "37df232b6efe61efd1742b8bce69129bd08f231b9d90136ea2e3bec6b4318da5",
+      "sha256": [
+        "37df232b6efe61efd1742b8bce69129bd08f231b9d90136ea2e3bec6b4318da5"
+      ],
       "text": "Woohoo!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bf0b870debfed24123b8cba9bf1b25ea491bc2beed1bf1f0d4aeb3340f430f09",
-      "text": "",
-      "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     }
   ]

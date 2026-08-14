@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_the_boss_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "c8b9667f408c70ba934d8839aedbdadb5e27d201c1ec41ac23c1f338fecf7b67",
-      "text": "The boss is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "86b4298dd1d7707f8807b14dc9d7e286d90b13b3820a14ac260b69ed129f7071",
+      "sha256": [
+        "86b4298dd1d7707f8807b14dc9d7e286d90b13b3820a14ac260b69ed129f7071",
+        "c8b9667f408c70ba934d8839aedbdadb5e27d201c1ec41ac23c1f338fecf7b67"
+      ],
       "text": "The boss is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

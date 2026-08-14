@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ivy_use_power5_05.mp3",
   "revisions": [
     {
-      "sha256": "608b359dca36c621dd2dc12dd82ae606b2a95b51974aa89607ec79d7ce49cf3c",
+      "sha256": [
+        "608b359dca36c621dd2dc12dd82ae606b2a95b51974aa89607ec79d7ce49cf3c",
+        "c1844730b50ffb79f537c18be3ec6c2297c3cfa81a2ba0b8191cfa3d38a8d618"
+      ],
       "text": "Hope you don't mind the pick-up!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1844730b50ffb79f537c18be3ec6c2297c3cfa81a2ba0b8191cfa3d38a8d618",
-      "text": "Hope you don't mind the pickup.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_see_haze_02.mp3",
   "revisions": [
     {
-      "sha256": "79a3793f5a74bfd8a395b6dae6df3ab0882b1f3fa1b71e18321998cfccd444d2",
-      "text": "The staff's over here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6879d903ff940c3a902eb2efe2ac2a0cce4055ba6b2130a374f40231e00c7e82",
-      "text": "The staff's over here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "67235f20e69bca6c926620e7c20a934b8f8a7c894343edceba5a99663bcf0124",
+      "sha256": [
+        "67235f20e69bca6c926620e7c20a934b8f8a7c894343edceba5a99663bcf0124",
+        "6879d903ff940c3a902eb2efe2ac2a0cce4055ba6b2130a374f40231e00c7e82",
+        "79a3793f5a74bfd8a395b6dae6df3ab0882b1f3fa1b71e18321998cfccd444d2"
+      ],
       "text": "The staff's over here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

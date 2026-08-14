@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viscous/ping/viscous_ping_bebop_was_here.mp3",
   "revisions": [
     {
-      "sha256": "0e92e49563aa1d8b4d0462fac260e659cf5416c2690e41011d2909bf5f93ff14",
+      "sha256": [
+        "0e92e49563aa1d8b4d0462fac260e659cf5416c2690e41011d2909bf5f93ff14"
+      ],
       "text": "Bebop was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

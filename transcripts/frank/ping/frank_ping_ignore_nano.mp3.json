@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_ignore_nano.mp3",
   "revisions": [
     {
-      "sha256": "d48df74e55a8c9be2f336dcfc73aa10b13aa64ad862bbe1b7af21120cd95854f",
-      "text": "Ignore Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c000efc4f9b032246b1841b909ac2435735c066bd756496524e2d20d67d30e4",
+      "sha256": [
+        "9c000efc4f9b032246b1841b909ac2435735c066bd756496524e2d20d67d30e4",
+        "d48df74e55a8c9be2f336dcfc73aa10b13aa64ad862bbe1b7af21120cd95854f"
+      ],
       "text": "Ignore Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

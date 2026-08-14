@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_ignore_shiv.mp3",
   "revisions": [
     {
-      "sha256": "f05ee60a0fc1b30518abfa8d1713696ea6dc6574795355823d105662f854bfb8",
-      "text": "Ignore Shiv.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4fefa5a6e43f4c64172335f12e084782c9ac6497f9e4fa6bba5616f7b53455c5",
+      "sha256": [
+        "4fefa5a6e43f4c64172335f12e084782c9ac6497f9e4fa6bba5616f7b53455c5",
+        "f05ee60a0fc1b30518abfa8d1713696ea6dc6574795355823d105662f854bfb8"
+      ],
       "text": "Ignore Shiv.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

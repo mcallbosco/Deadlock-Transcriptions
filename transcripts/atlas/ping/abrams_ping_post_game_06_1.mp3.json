@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_post_game_06_1.mp3",
   "revisions": [
     {
-      "sha256": "8ea231c1ee59f0e82976f8812b131bbc8b0b9038cdf7eb4ca1de522e035f940c",
-      "text": "Drinks are on me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8d71def0ae7de675d50d107a36c59ee33c2ebe81857136824e339086bc4989ad",
+      "sha256": [
+        "8d71def0ae7de675d50d107a36c59ee33c2ebe81857136824e339086bc4989ad",
+        "8ea231c1ee59f0e82976f8812b131bbc8b0b9038cdf7eb4ca1de522e035f940c"
+      ],
       "text": "Drinks are on me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

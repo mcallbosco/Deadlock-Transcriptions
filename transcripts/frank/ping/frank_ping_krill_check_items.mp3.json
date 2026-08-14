@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_krill_check_items.mp3",
   "revisions": [
     {
-      "sha256": "c9bc227f06607d47c918155ae49017642e233d077ffa2138e7b2d897207b5c85",
-      "text": "Check out what Krill bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a9f807f5adb921e0e1672e2a58d2141a37352a4966728db9060372c03997b09f",
+      "sha256": [
+        "a9f807f5adb921e0e1672e2a58d2141a37352a4966728db9060372c03997b09f",
+        "c9bc227f06607d47c918155ae49017642e233d077ffa2138e7b2d897207b5c85"
+      ],
       "text": "Check out what Krill bought.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

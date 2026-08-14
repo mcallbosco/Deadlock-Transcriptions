@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_see_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "14038865c955c9744d968a4fb198fc59b5849fe48544238691784ad9a76491c2",
+      "sha256": [
+        "14038865c955c9744d968a4fb198fc59b5849fe48544238691784ad9a76491c2",
+        "d8e58b35064f7a445ec0bfa4452978d63fb18f45cc04446b07e14948a7f643b9"
+      ],
       "text": "I see the professor!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d8e58b35064f7a445ec0bfa4452978d63fb18f45cc04446b07e14948a7f643b9",
-      "text": "I see the professor!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6970159e52663d6298c3987207029775e912fdbd134a996faccd5740aaad4e73",
+      "sha256": [
+        "6970159e52663d6298c3987207029775e912fdbd134a996faccd5740aaad4e73"
+      ],
       "text": "I see you, professor!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

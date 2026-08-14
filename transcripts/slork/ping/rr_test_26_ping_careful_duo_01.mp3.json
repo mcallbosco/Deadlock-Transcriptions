@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_duo_01.mp3",
   "revisions": [
     {
-      "sha256": "e72ded2ee73f52360440790436defe1cc229e19e6ac29caeca30fe3196b6c5f4",
+      "sha256": [
+        "4f52a1a9fc4fcf6fb39a43edee5c42ff3371083e6fe48bb4b9f05f573de9c7d2",
+        "e72ded2ee73f52360440790436defe1cc229e19e6ac29caeca30fe3196b6c5f4"
+      ],
       "text": "Careful, Duo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4f52a1a9fc4fcf6fb39a43edee5c42ff3371083e6fe48bb4b9f05f573de9c7d2",
-      "text": "Careful, duo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

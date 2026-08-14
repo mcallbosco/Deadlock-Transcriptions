@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "boho/ping/boho_ping_kelvin_was_here.mp3",
   "revisions": [
     {
-      "sha256": "a380f741eb67c1684f584282a9bb16b714d48c00636b1b12afb144f5662ebeda",
+      "sha256": [
+        "a380f741eb67c1684f584282a9bb16b714d48c00636b1b12afb144f5662ebeda"
+      ],
       "text": "Kelvin was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

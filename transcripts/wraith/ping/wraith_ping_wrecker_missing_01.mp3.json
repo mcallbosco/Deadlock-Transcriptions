@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "7364519e27d2a672f557add62657bfacd4b33b21be0f05ea50c44a60943ce8e3",
+      "sha256": [
+        "7364519e27d2a672f557add62657bfacd4b33b21be0f05ea50c44a60943ce8e3"
+      ],
       "text": "Reckless missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "46dc44eca6768a8e5e1b54c127b3338654ecc4052440df8278f5cb857da1febe",
+      "sha256": [
+        "46dc44eca6768a8e5e1b54c127b3338654ecc4052440df8278f5cb857da1febe",
+        "a6a7b093a982c3628582c0449bf7e95e869f6eda66acfadbc6f348498e8d377a"
+      ],
       "text": "Records missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a6a7b093a982c3628582c0449bf7e95e869f6eda66acfadbc6f348498e8d377a",
-      "text": "Records missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8224309d919e5021b259f8ffde59d1b7476f2bfdbf91c378f436a42fb5163e61",
+      "sha256": [
+        "8224309d919e5021b259f8ffde59d1b7476f2bfdbf91c378f436a42fb5163e61"
+      ],
       "text": "Wrecker's missing",
       "source": "official"
     }

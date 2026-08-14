@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_select_07.mp3",
   "revisions": [
     {
-      "sha256": "17104f2679ed767911b3a30c84b48ff09604917a2a41a1b4405763205838e728",
-      "text": "I can take whatever they throw at me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df8cbc8670d3bb678c231d2ccf9a015179745d99e109d12e3760e4d03a8f031a",
-      "text": "I can take whatever they throw at me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0cd74394df314f5d5ad8d2763fd21829da7c846e7ec45b3b3e40948c20b0e202",
-      "text": "I can take whatever they throw at me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e2446f9124c7f124fae2a3925af1a72f825a6edf01cf9437efc78ee962a2f91b",
+      "sha256": [
+        "0cd74394df314f5d5ad8d2763fd21829da7c846e7ec45b3b3e40948c20b0e202",
+        "17104f2679ed767911b3a30c84b48ff09604917a2a41a1b4405763205838e728",
+        "df8cbc8670d3bb678c231d2ccf9a015179745d99e109d12e3760e4d03a8f031a",
+        "e2446f9124c7f124fae2a3925af1a72f825a6edf01cf9437efc78ee962a2f91b"
+      ],
       "text": "I can take whatever they throw at me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

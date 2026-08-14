@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_viscous_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e2f5ac5012a3a1aec9ee2c5408f4ecb576edd64293770c332714bd390d66e6b3",
+      "sha256": [
+        "e2f5ac5012a3a1aec9ee2c5408f4ecb576edd64293770c332714bd390d66e6b3"
+      ],
       "text": "This case is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "24061eb247e03e81682901f6235505853d173cc9069948fc81090a9c8d72be69",
+      "sha256": [
+        "24061eb247e03e81682901f6235505853d173cc9069948fc81090a9c8d72be69",
+        "7762a13c1b36c9fddb38bd656bc5a7fc5afe8662dbb5a9ee39a58256771b3de2"
+      ],
       "text": "This kiss is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7762a13c1b36c9fddb38bd656bc5a7fc5afe8662dbb5a9ee39a58256771b3de2",
-      "text": "This kiss is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f9afdf8c4d452b30dfaa13005b39e0a21a1e2adb21629b6d60f95db31398955d",
+      "sha256": [
+        "f9afdf8c4d452b30dfaa13005b39e0a21a1e2adb21629b6d60f95db31398955d"
+      ],
       "text": "Viscous's missing",
       "source": "official"
     }

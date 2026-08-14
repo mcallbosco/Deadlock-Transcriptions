@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_infernus_on_top_of_mid_1.mp3",
   "revisions": [
     {
-      "sha256": "f76b35c7cda80427e48aeb01387b9210a022fce80f2a0b3d5a5665b753bfa555",
-      "text": "Infernus is on top of mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d985da0a30722dddb72dbac00226ed881b5b79176e8dc81ba9ff434b44711ae",
+      "sha256": [
+        "5d985da0a30722dddb72dbac00226ed881b5b79176e8dc81ba9ff434b44711ae",
+        "f76b35c7cda80427e48aeb01387b9210a022fce80f2a0b3d5a5665b753bfa555"
+      ],
       "text": "Infernus is on top of mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

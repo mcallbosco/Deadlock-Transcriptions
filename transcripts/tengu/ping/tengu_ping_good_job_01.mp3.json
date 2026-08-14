@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_good_job_01.mp3",
   "revisions": [
     {
-      "sha256": "c2c058130b3df479e2e8d23739ce9d84971bf3cfff85690a0f3a6d14493fd16b",
-      "text": "Good job!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "df780ac652f33b4be45b23d1357826d821be7f655eb7cf4a3e94f4545ad6168b",
+      "sha256": [
+        "c2c058130b3df479e2e8d23739ce9d84971bf3cfff85690a0f3a6d14493fd16b",
+        "df780ac652f33b4be45b23d1357826d821be7f655eb7cf4a3e94f4545ad6168b"
+      ],
       "text": "Good job.",
       "source": "official"
     }

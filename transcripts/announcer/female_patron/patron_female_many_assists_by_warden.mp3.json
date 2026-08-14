@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_many_assists_by_warden.mp3",
   "revisions": [
     {
-      "sha256": "d61051276b6aa9ae67fdf6bffe687c4429be22c349323b77dd2c9a01b9bc3e7c",
+      "sha256": [
+        "d61051276b6aa9ae67fdf6bffe687c4429be22c349323b77dd2c9a01b9bc3e7c"
+      ],
       "text": "One, your heroism is inspiring!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4eeef92fc3b719f3e7486f8551b601077609a82873de889b15b0feb6c0a77ad4",
+      "sha256": [
+        "4eeef92fc3b719f3e7486f8551b601077609a82873de889b15b0feb6c0a77ad4"
+      ],
       "text": "Warden, your heroism is inspiring!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d8b56dd7f1df26e21391846d6029430c160a5a843dbec048a51457d5a2081741",
+      "sha256": [
+        "d8b56dd7f1df26e21391846d6029430c160a5a843dbec048a51457d5a2081741"
+      ],
       "text": "Warden, your herorism is inspiring…",
       "source": "official"
     }

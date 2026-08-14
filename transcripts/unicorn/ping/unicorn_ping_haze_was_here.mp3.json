@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_haze_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c3ff9b0ea8b076bc3b41ea6358e68b350ae25acf07c6b52f106a5216b77974fd",
+      "sha256": [
+        "c3ff9b0ea8b076bc3b41ea6358e68b350ae25acf07c6b52f106a5216b77974fd"
+      ],
       "text": "Hey, was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,35 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/haze_match_start_atlas_haze_convo02_01.mp3",
   "revisions": [
     {
-      "sha256": "52ad510e26ab726d833ee067352a2596214e49801ab91bf0358f4eec723c559e",
-      "text": "You should consider working for the OSIC.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "52ad510e26ab726d833ee067352a2596214e49801ab91bf0358f4eec723c559e",
+        "dd0d2826af5b619ad8cd96eb7af6a39172e777d0f5a1dbbfb20a385b567d9e5e",
+        "f61b2219bc471cf3ceba40f63d1a4e0d770d2bd1ff5456d106146fada6adc7ff"
+      ],
+      "text": "You should consider working for the OSIC",
+      "source": "official"
     },
     {
-      "sha256": "9e2e40ea008e88d5afa8593743907d80bc0a0ef7d90b6f0d5c7dbe4ec9621dd5",
+      "sha256": [
+        "9e2e40ea008e88d5afa8593743907d80bc0a0ef7d90b6f0d5c7dbe4ec9621dd5"
+      ],
       "text": "You should consider working for the OFIC.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4e2437317219fc3752e668d138db27971cec7364b75c66c6f1d239b9a82702bf",
+      "sha256": [
+        "4e2437317219fc3752e668d138db27971cec7364b75c66c6f1d239b9a82702bf"
+      ],
       "text": "You should consider working for the OFC.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dd0d2826af5b619ad8cd96eb7af6a39172e777d0f5a1dbbfb20a385b567d9e5e",
-      "text": "You should consider working for the OSIC.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f61b2219bc471cf3ceba40f63d1a4e0d770d2bd1ff5456d106146fada6adc7ff",
-      "text": "You should consider working for the OSIC",
-      "source": "official"
     }
   ]
 }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_dynamo_was_here.mp3",
   "revisions": [
     {
-      "sha256": "1cab8c946c30fcfe996d55a6541f833e74707f87078fd94c6ff8c02a1d0baa23",
-      "text": "Dynamo was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8ed5249a40638f11aa643dd7bd8a395c525336ba065f9ac34fe83e0c4e2d5b4c",
+      "sha256": [
+        "1cab8c946c30fcfe996d55a6541f833e74707f87078fd94c6ff8c02a1d0baa23",
+        "8ed5249a40638f11aa643dd7bd8a395c525336ba065f9ac34fe83e0c4e2d5b4c"
+      ],
       "text": "Dynamo was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

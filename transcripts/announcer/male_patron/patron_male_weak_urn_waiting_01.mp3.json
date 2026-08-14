@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_weak_urn_waiting_01.mp3",
   "revisions": [
     {
-      "sha256": "b35453f1d4a58d191118cc42be8deb8a8a267d905c490a76b06c2150df643e73",
+      "sha256": [
+        "b35453f1d4a58d191118cc42be8deb8a8a267d905c490a76b06c2150df643e73"
+      ],
       "text": "The spirit urn is waiting to be claimed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

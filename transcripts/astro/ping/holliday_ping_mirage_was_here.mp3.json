@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_mirage_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c2e9204a617d3790fe334031024610be9ff1bcfbb46eb9d8e87055fd97129933",
+      "sha256": [
+        "c2e9204a617d3790fe334031024610be9ff1bcfbb46eb9d8e87055fd97129933"
+      ],
       "text": "Gravitas here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

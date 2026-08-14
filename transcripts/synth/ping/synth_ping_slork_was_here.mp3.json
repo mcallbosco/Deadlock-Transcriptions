@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_slork_was_here.mp3",
   "revisions": [
     {
-      "sha256": "d761e1cd16eadefc093582a6adf60bfe83a53a971f4064bc3651509344a39ecc",
+      "sha256": [
+        "d761e1cd16eadefc093582a6adf60bfe83a53a971f4064bc3651509344a39ecc"
+      ],
       "text": "I don't see her.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

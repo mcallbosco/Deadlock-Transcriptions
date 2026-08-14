@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "npc_reporter/guide_upgrades_shooting_creds.mp3",
   "revisions": [
     {
-      "sha256": "8cf3f93eac0d0370b2502e954eb6b3cef2b07c6f6c351fd090cca7eaf957b09a",
-      "text": "When a player kills a trooper, extra creds pop out. You can shoot the creds to claim them. Otherwise, if they touch the ground, they go to the team that killed the trooper.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "89bfa0adf792833d92f4393b7e75d7dccf4c15e171d71c07389064e19246d3a1",
+      "sha256": [
+        "89bfa0adf792833d92f4393b7e75d7dccf4c15e171d71c07389064e19246d3a1",
+        "8cf3f93eac0d0370b2502e954eb6b3cef2b07c6f6c351fd090cca7eaf957b09a"
+      ],
       "text": "When a player kills a trooper, extra creds pop out. You can shoot the creds to claim them. Otherwise, if they touch the ground, they go to the team that killed the trooper.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_kelvin_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "d1af227e84bcce27f70de3ba1b0e81f141fe334c29848605175761773979c8a9",
+      "sha256": [
+        "d1af227e84bcce27f70de3ba1b0e81f141fe334c29848605175761773979c8a9"
+      ],
       "text": "Go into the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3866f2beebcec0285ff951499668520c1e26c10d1aa521a58827388dd3cc1383",
+      "sha256": [
+        "3866f2beebcec0285ff951499668520c1e26c10d1aa521a58827388dd3cc1383"
+      ],
       "text": "Kelvin's under the garage!",
       "source": "official"
     }

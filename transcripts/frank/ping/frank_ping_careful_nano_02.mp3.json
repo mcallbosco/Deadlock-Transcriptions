@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_careful_nano_02.mp3",
   "revisions": [
     {
-      "sha256": "267149ed075caba62e523560bb286a4b961374f931d1e9bff581db9e52c99dcd",
-      "text": "Careful, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03c7c2dd8a52c6d755c923dfee5986e96c9f19b4d25215b8094739b6ffe34897",
+      "sha256": [
+        "03c7c2dd8a52c6d755c923dfee5986e96c9f19b4d25215b8094739b6ffe34897",
+        "267149ed075caba62e523560bb286a4b961374f931d1e9bff581db9e52c99dcd"
+      ],
       "text": "Careful, Calico.",
       "source": "official"
     }

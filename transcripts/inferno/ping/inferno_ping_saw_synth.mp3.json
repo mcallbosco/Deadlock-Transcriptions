@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_saw_synth.mp3",
   "revisions": [
     {
-      "sha256": "0a6f633c69c2e93c258a1517bdca066076cd7002b5bd41ef6766e72defd91b26",
+      "sha256": [
+        "0a6f633c69c2e93c258a1517bdca066076cd7002b5bd41ef6766e72defd91b26",
+        "221dd482ec12208d44b8415b1ed930a79cf822f5115cc52cf2aa70ff08cd1dcb"
+      ],
       "text": "I saw a pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "221dd482ec12208d44b8415b1ed930a79cf822f5115cc52cf2aa70ff08cd1dcb",
-      "text": "I saw a pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "db276ce7d5d5b26b079cb4208291bc14a95ee93decee322ee7dd49720d4d2aba",
-      "text": "I saw Pocket.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cc03427d0660ad5e9dcb24ce2dc0482c95fd07784fcb254dbbe53b4c2374c634",
+      "sha256": [
+        "cc03427d0660ad5e9dcb24ce2dc0482c95fd07784fcb254dbbe53b4c2374c634",
+        "db276ce7d5d5b26b079cb4208291bc14a95ee93decee322ee7dd49720d4d2aba"
+      ],
       "text": "I saw Pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

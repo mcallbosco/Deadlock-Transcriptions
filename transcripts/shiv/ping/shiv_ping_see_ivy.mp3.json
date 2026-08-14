@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_see_ivy.mp3",
   "revisions": [
     {
-      "sha256": "c3841f07be2cc092b999888ba97a3081e0b4502bc8fbc1906a4e3a102070bc5c",
-      "text": "I see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5424b7e11b23a2426749f9b6bb2258d2a660cc6eadf37905194f0534171a5b9e",
+      "sha256": [
+        "5424b7e11b23a2426749f9b6bb2258d2a660cc6eadf37905194f0534171a5b9e",
+        "c3841f07be2cc092b999888ba97a3081e0b4502bc8fbc1906a4e3a102070bc5c"
+      ],
       "text": "I see Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

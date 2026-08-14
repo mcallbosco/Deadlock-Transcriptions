@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_meet_here.mp3",
   "revisions": [
     {
-      "sha256": "eb6bc4f2126eabad2c8377a945dff3a6893e18fbdaed8cad5221c36e0862ab92",
-      "text": "Let's meet here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b19ab688b4567dbbdc3e61c12ab8468afb0ceee48f9a7c49b2d528e853a1eeb4",
-      "text": "Let's meet here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5d0c348501a9ed4ea4337de4193225e81c30bab9b08a2b49dafc606d37f75bac",
-      "text": "Let's meet here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9020b8882e469208d93e523a19178f40a0ead7b7f073cad80268af73f21a07f9",
+      "sha256": [
+        "5d0c348501a9ed4ea4337de4193225e81c30bab9b08a2b49dafc606d37f75bac",
+        "9020b8882e469208d93e523a19178f40a0ead7b7f073cad80268af73f21a07f9",
+        "b19ab688b4567dbbdc3e61c12ab8468afb0ceee48f9a7c49b2d528e853a1eeb4",
+        "eb6bc4f2126eabad2c8377a945dff3a6893e18fbdaed8cad5221c36e0862ab92"
+      ],
       "text": "Let's meet here",
       "source": "official"
     }

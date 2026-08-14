@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stun_gigawatt_01_1.mp3",
   "revisions": [
     {
-      "sha256": "d02000dd0c59f31ad24b4bd1bb21214394e15c68a7271a375386fbb2eb90203c",
-      "text": "Stun seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a07121d98086f7ed0fdb17a5a6a983812d68f1f3e84a0a2e244cf7a8a158c4a",
+      "sha256": [
+        "2a07121d98086f7ed0fdb17a5a6a983812d68f1f3e84a0a2e244cf7a8a158c4a",
+        "d02000dd0c59f31ad24b4bd1bb21214394e15c68a7271a375386fbb2eb90203c"
+      ],
       "text": "Stun seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

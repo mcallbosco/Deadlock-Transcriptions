@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_synth_dead.mp3",
   "revisions": [
     {
-      "sha256": "f5c2f075f4ca654ca2a910c14bc8cdda76e27e4ffeca0ba0a27dfb7e4bc196f1",
+      "sha256": [
+        "f5c2f075f4ca654ca2a910c14bc8cdda76e27e4ffeca0ba0a27dfb7e4bc196f1"
+      ],
       "text": "Target is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

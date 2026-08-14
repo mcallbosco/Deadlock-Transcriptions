@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_sandeep_was_here.mp3",
   "revisions": [
     {
-      "sha256": "5b882ab4dd38ae723689d0957553d6c4c54a9eca85629379c8e034ad5480ded9",
-      "text": "Sandy was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1d557945b82ff8467e999c26986027e21ecb308fc17f3b0c4d1472ddc07956c8",
-      "text": "Sandy was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bb41a5745903e4dd1afe5edb854bc9b34fa2d95eb73948a59e9251baa122543e",
+      "sha256": [
+        "1d557945b82ff8467e999c26986027e21ecb308fc17f3b0c4d1472ddc07956c8",
+        "5b882ab4dd38ae723689d0957553d6c4c54a9eca85629379c8e034ad5480ded9",
+        "bb41a5745903e4dd1afe5edb854bc9b34fa2d95eb73948a59e9251baa122543e"
+      ],
       "text": "Sandy was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

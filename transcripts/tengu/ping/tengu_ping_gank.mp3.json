@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "a58f6e34908a49449c1425344222c6e7457790eecadabd23d3241bf8b902f778",
-      "text": "Going to gank!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "41530cb2c813763b477c87df436b4b01e05f7f4874ec15878d2d5a7bf6ea0c8c",
+      "sha256": [
+        "41530cb2c813763b477c87df436b4b01e05f7f4874ec15878d2d5a7bf6ea0c8c",
+        "a58f6e34908a49449c1425344222c6e7457790eecadabd23d3241bf8b902f778"
+      ],
       "text": "Going to gank",
       "source": "official"
     }

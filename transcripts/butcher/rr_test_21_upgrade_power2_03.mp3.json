@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_upgrade_power2_03.mp3",
   "revisions": [
     {
-      "sha256": "0c4697be8518eeb14319d668c218b5dacae98b56faff1e62fe4c59c1a1761203",
+      "sha256": [
+        "0c4697be8518eeb14319d668c218b5dacae98b56faff1e62fe4c59c1a1761203"
+      ],
       "text": "Oh, you're gonna run from me.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "3f073de47232f2363b2697ec410b5286b13efc24401c8f7706a0d2bb3525e12f",
-      "text": "Or are you gonna run from me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d277b32516cf24224d3f5a6fd2756a5c1714124edb47703cea41c927e65e5973",
+      "sha256": [
+        "3f073de47232f2363b2697ec410b5286b13efc24401c8f7706a0d2bb3525e12f",
+        "d277b32516cf24224d3f5a6fd2756a5c1714124edb47703cea41c927e65e5973"
+      ],
       "text": "Or are you gonna run from me?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

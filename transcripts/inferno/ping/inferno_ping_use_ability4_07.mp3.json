@@ -1,29 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/ping/inferno_ping_use_ability4_07.mp3",
   "revisions": [
     {
-      "sha256": "fe0c1c830a70cf1f1298b1c0f83377ab0bb4e1e4bf49b2f263e769843b8ff828",
+      "sha256": [
+        "fe0c1c830a70cf1f1298b1c0f83377ab0bb4e1e4bf49b2f263e769843b8ff828"
+      ],
       "text": "I stand by the future I trust.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ec093393cbe392d20d85c4c9cfe3d9d83da5110052f819e58f2e5742d14e067b",
-      "text": "My stun bomb's recharged.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "sha256": [
+        "03dc0235b680ae956900a87223c7eab662bb36f5452ab1d413562801ec604886",
+        "ec093393cbe392d20d85c4c9cfe3d9d83da5110052f819e58f2e5742d14e067b"
+      ],
+      "text": "My stun bomb's recharged",
+      "source": "official"
     },
     {
-      "sha256": "e332154deb32fc7b891d74fabe5af074287e8da15c1bb77760c37285b77b98ec",
+      "sha256": [
+        "e332154deb32fc7b891d74fabe5af074287e8da15c1bb77760c37285b77b98ec"
+      ],
       "text": "My stun dog's recharged.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "03dc0235b680ae956900a87223c7eab662bb36f5452ab1d413562801ec604886",
-      "text": "My stun bomb's recharged",
-      "source": "official"
     }
   ]
 }

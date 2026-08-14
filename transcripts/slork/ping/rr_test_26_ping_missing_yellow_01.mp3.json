@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_missing_yellow_01.mp3",
   "revisions": [
     {
-      "sha256": "b7045fd4e5d320b6c2a0926b152ee7816660d68223695d131b842ab16bae7b65",
+      "sha256": [
+        "b7045fd4e5d320b6c2a0926b152ee7816660d68223695d131b842ab16bae7b65"
+      ],
       "text": "Missin yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0987a3bdbbf35d3102bd5f453575111e77fa59b27848ebc5f3a747343d6177ce",
+      "sha256": [
+        "0987a3bdbbf35d3102bd5f453575111e77fa59b27848ebc5f3a747343d6177ce"
+      ],
       "text": "Missing yellow.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

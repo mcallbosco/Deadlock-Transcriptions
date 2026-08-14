@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/pocket_ping_haze_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "772da0c1e88811d5ebaa337313f437e8b83dead6a19b38403acca40a5a48075b",
-      "text": "Case is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "92fb9f1ef2845afc05807190e5f690a981beca1a8e78c08b89eb977de13cc1e2",
+      "sha256": [
+        "772da0c1e88811d5ebaa337313f437e8b83dead6a19b38403acca40a5a48075b",
+        "92fb9f1ef2845afc05807190e5f690a981beca1a8e78c08b89eb977de13cc1e2"
+      ],
       "text": "Case is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

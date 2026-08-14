@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_seven.mp3",
   "revisions": [
     {
-      "sha256": "fa90488f7911768228387f02acf639935334136d365cca344f0e1dfb05a9bdf2",
-      "text": "I'm with you, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "16a337f07d5aaae014ad35711032e3dc3d8d12363ad42ec301a8b1a6ccd050e8",
-      "text": "I'm with you, Seven.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "777a6d39ead52722b24087e1f0df374a2614d66753e8c8b229c71262517126d5",
+      "sha256": [
+        "16a337f07d5aaae014ad35711032e3dc3d8d12363ad42ec301a8b1a6ccd050e8",
+        "777a6d39ead52722b24087e1f0df374a2614d66753e8c8b229c71262517126d5",
+        "fa90488f7911768228387f02acf639935334136d365cca344f0e1dfb05a9bdf2"
+      ],
       "text": "I'm with you, Seven.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

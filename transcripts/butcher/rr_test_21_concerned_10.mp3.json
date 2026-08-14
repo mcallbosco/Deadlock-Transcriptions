@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_concerned_10.mp3",
   "revisions": [
     {
-      "sha256": "960132e1ee5d06ddcf5b7b78d42588710ac1571425c95c14988d480718f48b34",
-      "text": "Yeah, this could go either way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "05f81d0cd1100d7b34a289f0a60206287086aea8e98b9bd7c729e6805dd05e3e",
-      "text": "Yeah, this could go either way.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "afe297a24b89afc81cf526ea8c787bd9a01b95c57fa636949b1f8c31a66597b9",
+      "sha256": [
+        "05f81d0cd1100d7b34a289f0a60206287086aea8e98b9bd7c729e6805dd05e3e",
+        "960132e1ee5d06ddcf5b7b78d42588710ac1571425c95c14988d480718f48b34",
+        "afe297a24b89afc81cf526ea8c787bd9a01b95c57fa636949b1f8c31a66597b9"
+      ],
       "text": "Yeah, this could go either way.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

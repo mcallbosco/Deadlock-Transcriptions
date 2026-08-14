@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_abrams_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "64c18534cc2a0257a018788c53a9295166f7c0cc46a8cf4b7de6a635b7057396",
+      "sha256": [
+        "64c18534cc2a0257a018788c53a9295166f7c0cc46a8cf4b7de6a635b7057396"
+      ],
       "text": "Hey, Bruce, this is.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "37472fe73535485da5fd47c7b2745e993d150227a8ef8450b8c5d24e6c381895",
+      "sha256": [
+        "37472fe73535485da5fd47c7b2745e993d150227a8ef8450b8c5d24e6c381895"
+      ],
       "text": "Abruptly.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

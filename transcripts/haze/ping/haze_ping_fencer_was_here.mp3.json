@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_fencer_was_here.mp3",
   "revisions": [
     {
-      "sha256": "c2437416181be15abd86673736329238c6148e34ee7e73970b772c3ccaa42334",
+      "sha256": [
+        "c2437416181be15abd86673736329238c6148e34ee7e73970b772c3ccaa42334"
+      ],
       "text": "Apollo is here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

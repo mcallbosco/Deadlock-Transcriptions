@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_idol_score_02.mp3",
   "revisions": [
     {
-      "sha256": "c37e951e4dffcbdda60b87103181dfe976b8bb45e9c8bc903cf6764993d4829d",
-      "text": "The idol is safe!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "051e5adf58e9e07234f33d6f89260728b172e484e188dfd55560459395797f88",
-      "text": "The idol is safe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3e2b604625db4aa386f310ba4eb6046f889b383dd956593d43d58093e2f27e6e",
+      "sha256": [
+        "051e5adf58e9e07234f33d6f89260728b172e484e188dfd55560459395797f88",
+        "3e2b604625db4aa386f310ba4eb6046f889b383dd956593d43d58093e2f27e6e",
+        "c37e951e4dffcbdda60b87103181dfe976b8bb45e9c8bc903cf6764993d4829d"
+      ],
       "text": "The idol is safe.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

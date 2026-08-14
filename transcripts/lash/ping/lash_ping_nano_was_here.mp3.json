@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_nano_was_here.mp3",
   "revisions": [
     {
-      "sha256": "bb8f12f2bd653bf14ea30b9da498b3922f96ffebbe195f571b550701b174794d",
+      "sha256": [
+        "bb8f12f2bd653bf14ea30b9da498b3922f96ffebbe195f571b550701b174794d"
+      ],
       "text": "Galico's here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "neutral_gremlin/neutral_gremlin_attack_22.mp3",
   "revisions": [
     {
-      "sha256": "555f38a5110231e37ec03b1b075a6b8fc4d65bdc0123f96c13b7a577bb538e78",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ff3480fbfec5246c3e51764c4c31322930bb602a1789e03ee0d6c73d0a5d461f",
+      "sha256": [
+        "555f38a5110231e37ec03b1b075a6b8fc4d65bdc0123f96c13b7a577bb538e78",
+        "ff3480fbfec5246c3e51764c4c31322930bb602a1789e03ee0d6c73d0a5d461f"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

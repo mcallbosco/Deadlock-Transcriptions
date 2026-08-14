@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "fd8cb789c25673105179e36308162e6d2ed150c87e8a8b0859bcadda8c8eb238",
+      "sha256": [
+        "fd8cb789c25673105179e36308162e6d2ed150c87e8a8b0859bcadda8c8eb238"
+      ],
       "text": "I see Yamero.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "dec5b54fc3b8126fe821881c724c15f25ab13fee1becca310f13918a055b9a07",
+      "sha256": [
+        "dec5b54fc3b8126fe821881c724c15f25ab13fee1becca310f13918a055b9a07"
+      ],
       "text": "I see Yamato.",
       "source": "official"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_careful_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "af64cde5061390cabac719da8cf2d5f0729cec5726eb11ed26db73a81a95705d",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ed7bd5b68885d6f6c0fa195967cb293d49419460b63f799fc5a01ba6870b8cec",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d4785f84f3aa5a809512ed36137076dbcf687d1ab4dfe67b1cbad60453ce8a6",
-      "text": "Careful, Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b75e1c495f6d1d6e160c9cf902f8c8c253beed5facd5ae1396a393cd2df02a92",
+      "sha256": [
+        "0d4785f84f3aa5a809512ed36137076dbcf687d1ab4dfe67b1cbad60453ce8a6",
+        "af64cde5061390cabac719da8cf2d5f0729cec5726eb11ed26db73a81a95705d",
+        "b75e1c495f6d1d6e160c9cf902f8c8c253beed5facd5ae1396a393cd2df02a92",
+        "ed7bd5b68885d6f6c0fa195967cb293d49419460b63f799fc5a01ba6870b8cec"
+      ],
       "text": "Careful, Warden…",
       "source": "official"
     }

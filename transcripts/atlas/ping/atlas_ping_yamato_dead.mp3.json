@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/atlas_ping_yamato_dead.mp3",
   "revisions": [
     {
-      "sha256": "ad98e6ec66de6ce9f79a1f531ab80835e5295f7bacac5835bf596273a220f5ac",
+      "sha256": [
+        "ad98e6ec66de6ce9f79a1f531ab80835e5295f7bacac5835bf596273a220f5ac"
+      ],
       "text": "Yamato is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

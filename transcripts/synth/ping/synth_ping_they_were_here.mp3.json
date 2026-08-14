@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "fb0c96761cf72b5313662f102989087ec8ffc8de3bc06fb554e7f5af168bef1d",
+      "sha256": [
+        "fb0c96761cf72b5313662f102989087ec8ffc8de3bc06fb554e7f5af168bef1d"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

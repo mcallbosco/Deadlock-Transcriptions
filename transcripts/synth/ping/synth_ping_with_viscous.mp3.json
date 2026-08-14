@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "synth/ping/synth_ping_with_viscous.mp3",
   "revisions": [
     {
-      "sha256": "b83ee5bdcc4863a377078865bf9311f8fded2716eb6befb3887f696d0363f4fc",
+      "sha256": [
+        "b83ee5bdcc4863a377078865bf9311f8fded2716eb6befb3887f696d0363f4fc"
+      ],
       "text": "Come with you as this.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_see_warden_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "b3c5e141db22ab08da7c784a756071c0ac378d5b4649653f2d88ee4aaed1ae40",
+      "sha256": [
+        "b3c5e141db22ab08da7c784a756071c0ac378d5b4649653f2d88ee4aaed1ae40"
+      ],
       "text": "Warnings on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a150577ae4ea1755ac416fb7fe148004f72bf5240e7518d3447a0d7b75ed6eb0",
+      "sha256": [
+        "a150577ae4ea1755ac416fb7fe148004f72bf5240e7518d3447a0d7b75ed6eb0",
+        "c9a082758ca33116b0da7ff40adc898841005daa71178f8233264951a47538b9"
+      ],
       "text": "What is on the bridge?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c9a082758ca33116b0da7ff40adc898841005daa71178f8233264951a47538b9",
-      "text": "What is on the bridge?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "add1a1b36d5996bdcc626d0adc1ccb36923f85af3cdabe4c82552fa56402a7be",
+      "sha256": [
+        "add1a1b36d5996bdcc626d0adc1ccb36923f85af3cdabe4c82552fa56402a7be"
+      ],
       "text": "Warden's on the bridge!",
       "source": "official"
     }

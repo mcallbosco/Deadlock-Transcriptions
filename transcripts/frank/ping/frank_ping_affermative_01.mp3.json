@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "frank/ping/frank_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "da79c38952f587e6dbb5bf2af4982dee4a3f7b957e982256a2f06ea4b8aa9639",
-      "text": "Sounds good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8bd48ab5dc824ed871760c1ca57d572a466c0e7668560f28dd860ded6509bc27",
+      "sha256": [
+        "8bd48ab5dc824ed871760c1ca57d572a466c0e7668560f28dd860ded6509bc27",
+        "da79c38952f587e6dbb5bf2af4982dee4a3f7b957e982256a2f06ea4b8aa9639"
+      ],
       "text": "Sounds good.",
       "source": "official"
     }

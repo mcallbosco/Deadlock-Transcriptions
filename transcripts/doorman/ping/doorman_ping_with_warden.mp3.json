@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_with_warden.mp3",
   "revisions": [
     {
-      "sha256": "247563cc32d28fa4e435cf551dcbc5ed436c486a2d5b923a75a13bbde56ee233",
+      "sha256": [
+        "247563cc32d28fa4e435cf551dcbc5ed436c486a2d5b923a75a13bbde56ee233"
+      ],
       "text": "I'm with you, Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

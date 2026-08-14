@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "viper/ping/viper_ping_see_forge.mp3",
   "revisions": [
     {
-      "sha256": "c0d8094d30a4360c7f779ab219ed335c00ec211d35e48b3424049b61345fd1c4",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c949960f41636585b015ae8998f6c75fa7d6d565ce8a7a9f76dc19680d1688d8",
-      "text": "I see McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "455c938c91eeab7b87c163632a9486c6c532deba4d6dc5faf073998fd450b7d0",
+      "sha256": [
+        "455c938c91eeab7b87c163632a9486c6c532deba4d6dc5faf073998fd450b7d0",
+        "c0d8094d30a4360c7f779ab219ed335c00ec211d35e48b3424049b61345fd1c4",
+        "c949960f41636585b015ae8998f6c75fa7d6d565ce8a7a9f76dc19680d1688d8"
+      ],
       "text": "I see McGinnis",
       "source": "official"
     }

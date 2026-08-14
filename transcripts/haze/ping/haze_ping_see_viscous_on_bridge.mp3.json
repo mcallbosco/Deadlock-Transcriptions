@@ -1,33 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_viscous_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "51d478c710c466297357c5bbe5aa80702ba2c697e69ffa693eaa71e8cd177aa1",
+      "sha256": [
+        "51d478c710c466297357c5bbe5aa80702ba2c697e69ffa693eaa71e8cd177aa1"
+      ],
       "text": "This gets on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "6dafc1fe83bd3541ce2ecd40c3d2dc2e0c1a30bd6adee852ebf32c1cb8405b51",
+      "sha256": [
+        "6dafc1fe83bd3541ce2ecd40c3d2dc2e0c1a30bd6adee852ebf32c1cb8405b51"
+      ],
       "text": "This gets us on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "44efe36ac73596be5e8bdbe7389f0a7ea0d540af30e65af7e84d9f9d12eed303",
+      "sha256": [
+        "44efe36ac73596be5e8bdbe7389f0a7ea0d540af30e65af7e84d9f9d12eed303",
+        "ed950bd9477ad569c75c5235fcbc4a6239149bf0a94f6a58694f4032754a57a9"
+      ],
       "text": "Viscous is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ed950bd9477ad569c75c5235fcbc4a6239149bf0a94f6a58694f4032754a57a9",
-      "text": "Viscous is on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0d07cfa92faf0e7bea1822121f17a036ddfa640a2cf322c7d78a0acf00a3e4e6",
+      "sha256": [
+        "0d07cfa92faf0e7bea1822121f17a036ddfa640a2cf322c7d78a0acf00a3e4e6"
+      ],
       "text": "Viscous's on the bridge!",
       "source": "official"
     }

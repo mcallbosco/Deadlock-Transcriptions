@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kali/rr_test_19_idol_grab_04.mp3",
   "revisions": [
     {
-      "sha256": "369777401d974a1b018f56f100d0abad24d912f699aada87a26d778cad25b886",
-      "text": "Good morning.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f4959e71e62d8b113f1cdc5f88f51d24698c409da67676d0a44b588ea6cf53e",
-      "text": "Good morning.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e3912999e3ca0944494d674c46d769118c712264c06159e5955e3d725663a4cf",
+      "sha256": [
+        "2f4959e71e62d8b113f1cdc5f88f51d24698c409da67676d0a44b588ea6cf53e",
+        "369777401d974a1b018f56f100d0abad24d912f699aada87a26d778cad25b886",
+        "e3912999e3ca0944494d674c46d769118c712264c06159e5955e3d725663a4cf"
+      ],
       "text": "Good morning.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

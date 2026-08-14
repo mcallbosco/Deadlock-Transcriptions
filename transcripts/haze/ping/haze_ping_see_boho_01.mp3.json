@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "haze/ping/haze_ping_see_boho_01.mp3",
   "revisions": [
     {
-      "sha256": "bb1c95da93e6ea91de9e22bc5ce657cddca075fe55091ca043499158bac0c840",
+      "sha256": [
+        "bb1c95da93e6ea91de9e22bc5ce657cddca075fe55091ca043499158bac0c840"
+      ],
       "text": "I see the witch.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

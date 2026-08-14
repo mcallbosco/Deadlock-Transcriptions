@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_defend_blue_01.mp3",
   "revisions": [
     {
-      "sha256": "0426bfc11556ddbb86f04d4ce10b60057f4ffe5d48e885d7b88cd66723a3ab62",
+      "sha256": [
+        "0426bfc11556ddbb86f04d4ce10b60057f4ffe5d48e885d7b88cd66723a3ab62",
+        "7869397f5f7c90ccec6927ad23276c19f260c6da546c2b9b266c6e0c1d2084b7"
+      ],
       "text": "Given blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7869397f5f7c90ccec6927ad23276c19f260c6da546c2b9b266c6e0c1d2084b7",
-      "text": "Given Blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

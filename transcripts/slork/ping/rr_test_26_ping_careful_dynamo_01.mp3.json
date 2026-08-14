@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_careful_dynamo_01.mp3",
   "revisions": [
     {
-      "sha256": "c6799788c21bd697e971314a3c7ec87ca4bc92137cf02be05363f1416c6a6262",
-      "text": "Careful, Dynamo.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b3bc5e3f8d2f88727219090ec50d8caec43a90b655658153f15c1a469634dd1d",
+      "sha256": [
+        "b3bc5e3f8d2f88727219090ec50d8caec43a90b655658153f15c1a469634dd1d",
+        "c6799788c21bd697e971314a3c7ec87ca4bc92137cf02be05363f1416c6a6262"
+      ],
       "text": "Careful, Dynamo.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

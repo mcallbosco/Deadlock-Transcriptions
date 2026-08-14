@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_gank.mp3",
   "revisions": [
     {
-      "sha256": "48344d5478a466fe3336775f94d3d7d429f48254d026145a788a3272c8f92445",
-      "text": "Going to gank.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9f0402534378fcfdd8a28488fec7aaad216be423d4f61e39abc0257bc0545c83",
+      "sha256": [
+        "48344d5478a466fe3336775f94d3d7d429f48254d026145a788a3272c8f92445",
+        "9f0402534378fcfdd8a28488fec7aaad216be423d4f61e39abc0257bc0545c83"
+      ],
       "text": "Going to gank",
       "source": "official"
     }

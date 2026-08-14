@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "54f8545d1159a92892a111dcdab120ca99685941f39fd82793931358ff72a8af",
+      "sha256": [
+        "227dd891b67674f16bd4c267fd8fefe26a7df4a6a67990d67527011fd8a5dba5",
+        "54f8545d1159a92892a111dcdab120ca99685941f39fd82793931358ff72a8af",
+        "bcaf56bac43a201a044ed3a2940391bbe499f07aa42e4364aef48bbbc90dc5f1"
+      ],
       "text": "Records missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bcaf56bac43a201a044ed3a2940391bbe499f07aa42e4364aef48bbbc90dc5f1",
-      "text": "Records missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "227dd891b67674f16bd4c267fd8fefe26a7df4a6a67990d67527011fd8a5dba5",
-      "text": "Records missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca67db380ba497aed1fe9e0d255893452778ed38128436a26b2fd4b26f460e0a",
+      "sha256": [
+        "ca67db380ba497aed1fe9e0d255893452778ed38128436a26b2fd4b26f460e0a"
+      ],
       "text": "Wrecker's missing",
       "source": "official"
     }

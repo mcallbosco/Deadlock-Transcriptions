@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_t2_shop_reminder_02.mp3",
   "revisions": [
     {
-      "sha256": "320de5d26de53684936e1b3c84bc5eeeefd131e22339f03cc4c0d4bf9921fba8",
+      "sha256": [
+        "320de5d26de53684936e1b3c84bc5eeeefd131e22339f03cc4c0d4bf9921fba8",
+        "bdfef0cd739901c550aa6973dfb83aa8661b6079f9c087728eb887392e58b2b9"
+      ],
       "text": "You're still...",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bdfef0cd739901c550aa6973dfb83aa8661b6079f9c087728eb887392e58b2b9",
-      "text": "You're still...",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2f050a4581439a65759b85c9a4e472876de592158b4acd95210b5c266fa812ee",
+      "sha256": [
+        "2f050a4581439a65759b85c9a4e472876de592158b4acd95210b5c266fa812ee"
+      ],
       "text": "should hit up the store…",
       "source": "official"
     }

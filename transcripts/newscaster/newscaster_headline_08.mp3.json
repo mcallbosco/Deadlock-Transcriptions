@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "newscaster/newscaster_headline_08.mp3",
   "revisions": [
     {
-      "sha256": "f3f8f0b1ba91c525f1ab9015f1057f91ab52c21aaa78c2470e1f435ab70dfc32",
-      "text": "Today in Science Watch, researchers discover a parallel universe where spirit boards are nothing more than a child's toy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "15bb0829cf83aa2198b086fe9968f67d22c5700ea53ea14a288ed112df3b2abb",
+      "sha256": [
+        "15bb0829cf83aa2198b086fe9968f67d22c5700ea53ea14a288ed112df3b2abb",
+        "f3f8f0b1ba91c525f1ab9015f1057f91ab52c21aaa78c2470e1f435ab70dfc32"
+      ],
       "text": "Today in Science Watch, researchers discover a parallel universe where spirit boards are nothing more than a child's toy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

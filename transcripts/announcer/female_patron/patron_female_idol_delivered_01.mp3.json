@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/female_patron/patron_female_idol_delivered_01.mp3",
   "revisions": [
     {
-      "sha256": "5f78422e4cd1feaea7a71bdb5a286e9aa4890c94ffe5565042117726b6fe6b90",
-      "text": "The idol has been delivered.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e83cdf54bffd9ff1baaecdeb4596d6695937b42c130c911f6de4228a29bd7c4d",
+      "sha256": [
+        "5f78422e4cd1feaea7a71bdb5a286e9aa4890c94ffe5565042117726b6fe6b90",
+        "e83cdf54bffd9ff1baaecdeb4596d6695937b42c130c911f6de4228a29bd7c4d"
+      ],
       "text": "The idol has been delivered.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

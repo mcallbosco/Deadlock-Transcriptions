@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_krill_dead.mp3",
   "revisions": [
     {
-      "sha256": "42a2f515bcfb33c9e8b4cbbc3d6790fb3060626d8c533b4b49c717333bea315a",
-      "text": "Krill is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7295758d7bfb3ea5d436a9304a396b0e93b14ea3d8ca66f55b58ad656b25e630",
-      "text": "Krill is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2a75dc49d6f2d18f30ee16d3458724eef680d044a9e1e404d79a3bbf8c9c474",
+      "sha256": [
+        "42a2f515bcfb33c9e8b4cbbc3d6790fb3060626d8c533b4b49c717333bea315a",
+        "7295758d7bfb3ea5d436a9304a396b0e93b14ea3d8ca66f55b58ad656b25e630",
+        "b2a75dc49d6f2d18f30ee16d3458724eef680d044a9e1e404d79a3bbf8c9c474"
+      ],
       "text": "Krill is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

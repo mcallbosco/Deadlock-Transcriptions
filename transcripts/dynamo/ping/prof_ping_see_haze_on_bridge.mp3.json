@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_haze_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "590eea146964dd607c14f613bae4564ddcad31aafbe2374522ab276617e6115b",
-      "text": "Clear on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5352c25a2364cc558b9a9ab8a43b3def53bd30a715bc53119558ddd3836a6235",
+      "sha256": [
+        "5352c25a2364cc558b9a9ab8a43b3def53bd30a715bc53119558ddd3836a6235",
+        "590eea146964dd607c14f613bae4564ddcad31aafbe2374522ab276617e6115b"
+      ],
       "text": "Clear on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

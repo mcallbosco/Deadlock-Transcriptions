@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_ignore_fortuna.mp3",
   "revisions": [
     {
-      "sha256": "ae56732f22b858986e48bd5b3e079980a0e25fe01a12942b7228448147506693",
+      "sha256": [
+        "ae56732f22b858986e48bd5b3e079980a0e25fe01a12942b7228448147506693"
+      ],
       "text": "Take no fortuna!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

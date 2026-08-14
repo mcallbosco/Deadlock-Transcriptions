@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_careful_astro_03.mp3",
   "revisions": [
     {
-      "sha256": "79d13d592d66173bd1c7c6b02d42a4d34f1243ededa0942745d16b04a9529c16",
+      "sha256": [
+        "79d13d592d66173bd1c7c6b02d42a4d34f1243ededa0942745d16b04a9529c16",
+        "87c4aed8040658761a7bfc309d36973e5d17210aa52860498b15013031e05676"
+      ],
       "text": "Careful, Holligan.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "87c4aed8040658761a7bfc309d36973e5d17210aa52860498b15013031e05676",
-      "text": "Careful, Holligan.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ca36858a4edc866e56ef73c50890600975f5749aa886ede48ff2e811c1decaac",
+      "sha256": [
+        "ca36858a4edc866e56ef73c50890600975f5749aa886ede48ff2e811c1decaac"
+      ],
       "text": "Careful, Holliday!",
       "source": "manual"
     }

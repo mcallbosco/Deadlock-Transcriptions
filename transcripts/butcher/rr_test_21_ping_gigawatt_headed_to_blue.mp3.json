@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_gigawatt_headed_to_blue.mp3",
   "revisions": [
     {
-      "sha256": "e6e337dec232341fdc10e2c6f85d77721f99704fd16a45136bf0b17f12d22c35",
-      "text": "You go out headed to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "40a1a69466b062d87eccca267caa3280a1d8500714584375a975a5acf5d63f48",
-      "text": "You go out headed to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f07ef19cc1565c86f67d6fb6f1d0c7ff2fd9e746155e0729ed3ef263e2f9683d",
+      "sha256": [
+        "40a1a69466b062d87eccca267caa3280a1d8500714584375a975a5acf5d63f48",
+        "e6e337dec232341fdc10e2c6f85d77721f99704fd16a45136bf0b17f12d22c35",
+        "f07ef19cc1565c86f67d6fb6f1d0c7ff2fd9e746155e0729ed3ef263e2f9683d"
+      ],
       "text": "You go out headed to blue.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

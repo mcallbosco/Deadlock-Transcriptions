@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_outnumbered_01.mp3",
   "revisions": [
     {
-      "sha256": "52e3bc4aed8bcb148aea3ff6f6d8994032f696a05ff92ba874f87c706a6ce709",
-      "text": "I'm outnumbered.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cda0bea44c321ad8e0c66ba1d6304bf23938b79d71c57dc3612ac2a436f15c9a",
+      "sha256": [
+        "52e3bc4aed8bcb148aea3ff6f6d8994032f696a05ff92ba874f87c706a6ce709",
+        "cda0bea44c321ad8e0c66ba1d6304bf23938b79d71c57dc3612ac2a436f15c9a"
+      ],
       "text": "I'm outnumbered.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

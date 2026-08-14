@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "warden/ping/warden_ping_help_with_idol.mp3",
   "revisions": [
     {
-      "sha256": "92577c8e3c0a677a7d74dd427e1daa2af973b0fcf1591418648cba61d1afe8ce",
-      "text": "Help me deliver this thing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5e2e5614b039b1f2c1617fdb15ffbf0f44b9e0826eb6593eadc63ef00dbdb9e6",
-      "text": "Help me deliver this thing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b848ccc77ff35d781fdcf5d732537d08347a83a5d64faa59b4dab8b1d6c44ff9",
-      "text": "Help me deliver this thing!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "65fa5101ad3f371dc48c39455dcc56ae08f72922ea2e93ecbe3e1a2fb2d924de",
+      "sha256": [
+        "5e2e5614b039b1f2c1617fdb15ffbf0f44b9e0826eb6593eadc63ef00dbdb9e6",
+        "65fa5101ad3f371dc48c39455dcc56ae08f72922ea2e93ecbe3e1a2fb2d924de",
+        "92577c8e3c0a677a7d74dd427e1daa2af973b0fcf1591418648cba61d1afe8ce",
+        "b848ccc77ff35d781fdcf5d732537d08347a83a5d64faa59b4dab8b1d6c44ff9"
+      ],
       "text": "Help me deliver this thing!",
       "source": "official"
     }

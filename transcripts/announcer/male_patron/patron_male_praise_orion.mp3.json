@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_praise_orion.mp3",
   "revisions": [
     {
-      "sha256": "d03a8bfbbad6668e96189a5b4342e7f831daeb1148bf6f8abf771c9530dc4709",
+      "sha256": [
+        "d03a8bfbbad6668e96189a5b4342e7f831daeb1148bf6f8abf771c9530dc4709"
+      ],
       "text": "Well done, Orion.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c4d89f4286edf6bf4cf82bd8b0dd2be4f0d4d1518137e15f87836122137b5d54",
+      "sha256": [
+        "c4d89f4286edf6bf4cf82bd8b0dd2be4f0d4d1518137e15f87836122137b5d54"
+      ],
       "text": "You still have a talent.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "754a8b06d7d412ed2520fce3ba8fbdcfd0f300ba4845c045d8fb37eda22e4978",
-      "text": "You still have it, Talon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "30ef3f873cf3758d67d0594038b1239167da3292472e622f2de5b2ad737ee607",
+      "sha256": [
+        "30ef3f873cf3758d67d0594038b1239167da3292472e622f2de5b2ad737ee607",
+        "754a8b06d7d412ed2520fce3ba8fbdcfd0f300ba4845c045d8fb37eda22e4978"
+      ],
       "text": "You still have it Talon",
       "source": "official"
     }

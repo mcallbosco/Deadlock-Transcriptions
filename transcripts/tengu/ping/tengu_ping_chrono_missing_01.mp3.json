@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "3b355dc1c0ab8adf3d26a9bcb693fb763795cf229cd45a5dc2e4aa2140dd83bb",
+      "sha256": [
+        "3b355dc1c0ab8adf3d26a9bcb693fb763795cf229cd45a5dc2e4aa2140dd83bb"
+      ],
       "text": "I don't know what's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1354d322860c69662b472f39813f8bbf5cffdf858a6a0143e259fade79803c2f",
+      "sha256": [
+        "1354d322860c69662b472f39813f8bbf5cffdf858a6a0143e259fade79803c2f"
+      ],
       "text": "Paradox's missing",
       "source": "official"
     }

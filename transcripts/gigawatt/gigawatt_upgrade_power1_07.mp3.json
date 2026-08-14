@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/gigawatt_upgrade_power1_07.mp3",
   "revisions": [
     {
-      "sha256": "2345e322e7028209c4e6ddcf04fdb72d15a76fd2bd06945025c987f717beba29",
+      "sha256": [
+        "2345e322e7028209c4e6ddcf04fdb72d15a76fd2bd06945025c987f717beba29"
+      ],
       "text": "If I don't move, I'll be dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a861fa53c54f71b10d1f933a0581346950887bd2e77fe6571531a1f960f967b",
-      "text": "If they don't move, they'll be dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9cf84eb6cfa834e6ce0468bba5d1007ee55c7f55b9499d6b417f19f57a03f1ab",
-      "text": "If they don't move, they'll be dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9a4a9696fe346ab6b24fdd2662054348d60de5aafdbea0a0ed2906301dfe5b96",
+      "sha256": [
+        "0a861fa53c54f71b10d1f933a0581346950887bd2e77fe6571531a1f960f967b",
+        "9a4a9696fe346ab6b24fdd2662054348d60de5aafdbea0a0ed2906301dfe5b96",
+        "9cf84eb6cfa834e6ce0468bba5d1007ee55c7f55b9499d6b417f19f57a03f1ab"
+      ],
       "text": "If they don't move they'll be dead",
       "source": "official"
     }

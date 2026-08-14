@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_magician_was_here.mp3",
   "revisions": [
     {
-      "sha256": "4ec2514c654dd2dabde611c6e8e726b3d0ff00045a9df659d17d691574a9867a",
+      "sha256": [
+        "4ec2514c654dd2dabde611c6e8e726b3d0ff00045a9df659d17d691574a9867a"
+      ],
       "text": "The Claire was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ebdd9075de2320e3e1ea9c4446eb42ba1cf2d61058bd335a592cade364e72ee1",
+      "sha256": [
+        "ebdd9075de2320e3e1ea9c4446eb42ba1cf2d61058bd335a592cade364e72ee1"
+      ],
       "text": "I think Blair was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

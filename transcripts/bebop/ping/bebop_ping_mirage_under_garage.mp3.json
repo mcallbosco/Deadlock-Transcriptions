@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bebop/ping/bebop_ping_mirage_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "946fb1b81d649fc604c1bf9ab623d3db32bf13932a184c60aafb5c4d7f3e998e",
+      "sha256": [
+        "946fb1b81d649fc604c1bf9ab623d3db32bf13932a184c60aafb5c4d7f3e998e"
+      ],
       "text": "The garage is under the garage!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5594c30e8e18678d1db5cfdb6c06b586693b4848ea17402161668732b0e7f396",
+      "sha256": [
+        "5594c30e8e18678d1db5cfdb6c06b586693b4848ea17402161668732b0e7f396"
+      ],
       "text": "Mirage's under the garage!",
       "source": "official"
     }

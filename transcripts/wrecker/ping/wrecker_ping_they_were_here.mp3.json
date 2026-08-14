@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_they_were_here.mp3",
   "revisions": [
     {
-      "sha256": "c4b1d150b811c863dfb9ebc9a5a450a6cada458334f6dc31cca6744b68728d20",
-      "text": "They were here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8de3d40900c08da503d778cb45a4dbe3fb4e95e08fad0a186bd414337781b5dc",
+      "sha256": [
+        "8de3d40900c08da503d778cb45a4dbe3fb4e95e08fad0a186bd414337781b5dc",
+        "c4b1d150b811c863dfb9ebc9a5a450a6cada458334f6dc31cca6744b68728d20"
+      ],
       "text": "They were here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "inferno/inferno_use_unstoppable_01.mp3",
   "revisions": [
     {
-      "sha256": "4b1ff8957d3a9c153682d6ba67c131b3075f02856b7a249070399462f8c8d1ca",
-      "text": "I'm unstoppable.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dcdf23918f44fcd9589e47935fe9ee3981cfe39a45bb1bdd838010c9e1fcf55a",
-      "text": "I'm unstoppable!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7b4d434889b3cd76154bff334f2352c37517ea936b116d9e8bd619392718d4f7",
-      "text": "I'm unstoppable!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2e5342469f18eabf2fad099be78980edde812de59439f766ba5f660d29f89c8f",
+      "sha256": [
+        "2e5342469f18eabf2fad099be78980edde812de59439f766ba5f660d29f89c8f",
+        "4b1ff8957d3a9c153682d6ba67c131b3075f02856b7a249070399462f8c8d1ca",
+        "7b4d434889b3cd76154bff334f2352c37517ea936b116d9e8bd619392718d4f7",
+        "dcdf23918f44fcd9589e47935fe9ee3981cfe39a45bb1bdd838010c9e1fcf55a"
+      ],
       "text": "I'm unstoppable!",
       "source": "official"
     }

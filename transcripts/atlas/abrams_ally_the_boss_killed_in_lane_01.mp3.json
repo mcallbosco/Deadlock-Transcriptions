@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/abrams_ally_the_boss_killed_in_lane_01.mp3",
   "revisions": [
     {
-      "sha256": "702afbcf1ac6bd2268e67d91108c4c9853f82de049ed81a458988e3b9b6f1888",
+      "sha256": [
+        "702afbcf1ac6bd2268e67d91108c4c9853f82de049ed81a458988e3b9b6f1888"
+      ],
       "text": "Did you got the balls?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "25be0dd2e2226791b735790957e00f2c06913101c899434b20cdc82ced6c344b",
+      "sha256": [
+        "25be0dd2e2226791b735790957e00f2c06913101c899434b20cdc82ced6c344b",
+        "8c2dc61b347d015d223ae7ed006e1d5c68ed7baee38a1a5e731700fe7399f58b"
+      ],
       "text": "Did you got the boss!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "8c2dc61b347d015d223ae7ed006e1d5c68ed7baee38a1a5e731700fe7399f58b",
-      "text": "Did you got the boss?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

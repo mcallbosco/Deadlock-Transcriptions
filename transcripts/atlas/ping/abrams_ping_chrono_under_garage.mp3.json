@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_chrono_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "cff83c2fc3c818b2524b6527f94a73e66df792f586632d2d2eb211ed3b23d1d2",
+      "sha256": [
+        "cff83c2fc3c818b2524b6527f94a73e66df792f586632d2d2eb211ed3b23d1d2"
+      ],
       "text": "Paradox is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4fee08ec99568927b30acd1ad7fb8a4f67f3fa427eb666a4eff9a851137515a3",
+      "sha256": [
+        "4fee08ec99568927b30acd1ad7fb8a4f67f3fa427eb666a4eff9a851137515a3"
+      ],
       "text": "Kardox is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e5555bb3d584d45cf279523981c2000e5f59066cd7d458a0dc81d323a57f6fcf",
+      "sha256": [
+        "e5555bb3d584d45cf279523981c2000e5f59066cd7d458a0dc81d323a57f6fcf"
+      ],
       "text": "Car docks is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_bull_headed_to_blue.mp3",
   "revisions": [
     {
-      "sha256": "ff462e89f6e26a763f2f1130e5b98486f6d1a90bc03c25c091ce1c59502b8bd5",
-      "text": "Close head to blue!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ee2a8c6fd950939d77fdb5d9179e95deec2d09a773500a7d6a36dcc704102c2b",
-      "text": "Close head to blue.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "eb9a7593f3260a519602099775778fdaad67b320163b812b64abca7c0e0e1edd",
+      "sha256": [
+        "eb9a7593f3260a519602099775778fdaad67b320163b812b64abca7c0e0e1edd",
+        "ee2a8c6fd950939d77fdb5d9179e95deec2d09a773500a7d6a36dcc704102c2b",
+        "ff462e89f6e26a763f2f1130e5b98486f6d1a90bc03c25c091ce1c59502b8bd5"
+      ],
       "text": "Close head to blue!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_haze_under_garage.mp3",
   "revisions": [
     {
-      "sha256": "2996f6014d66ce38f7854707256fea97254555c417cab971ac94b10d8970da73",
+      "sha256": [
+        "108c3a461e9f034505bddb938138b474a7589763f9f6cf4e9e9f3b517ddfad69",
+        "2996f6014d66ce38f7854707256fea97254555c417cab971ac94b10d8970da73"
+      ],
       "text": "Haz is under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "491838b99458faf861fc91d0f56578e5016b8c56efe309e1813c93fca31cca16",
+      "sha256": [
+        "491838b99458faf861fc91d0f56578e5016b8c56efe309e1813c93fca31cca16"
+      ],
       "text": "Hazel's under the garage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "108c3a461e9f034505bddb938138b474a7589763f9f6cf4e9e9f3b517ddfad69",
-      "text": "Haz is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0420671512366dfcb5345a321d22caba4f10c6e7137832909c14d449d21990c8",
+      "sha256": [
+        "0420671512366dfcb5345a321d22caba4f10c6e7137832909c14d449d21990c8"
+      ],
       "text": "Haze's under the garage!",
       "source": "official"
     }

@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "gigawatt/ping/gigawatt_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c131f6640094f1741af62af153379ae8441d2e76a6ec1a21df56d6ecf8c9068a",
+      "sha256": [
+        "c131f6640094f1741af62af153379ae8441d2e76a6ec1a21df56d6ecf8c9068a",
+        "f10163dfc3362ccfc9aa64193dd5b39fb4ea6eabcd38e42e1043ebd215451e55"
+      ],
       "text": "Infernus is mine.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f10163dfc3362ccfc9aa64193dd5b39fb4ea6eabcd38e42e1043ebd215451e55",
-      "text": "Infernus is mine.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "bced26bfa96aba9d2b64fdafd489d1008e6a1821176d6943c6ea1685cdff0b1b",
+      "sha256": [
+        "bced26bfa96aba9d2b64fdafd489d1008e6a1821176d6943c6ea1685cdff0b1b"
+      ],
       "text": "Infernus's missing",
       "source": "official"
     }

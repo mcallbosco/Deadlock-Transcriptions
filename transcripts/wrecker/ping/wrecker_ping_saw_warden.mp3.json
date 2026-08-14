@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_saw_warden.mp3",
   "revisions": [
     {
-      "sha256": "2e2bb25a6d085e6dca564f0c5e4f0354b08b48c09bab1bf5101742f4d9956100",
-      "text": "I saw Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "752424f0a48ef93fddd52fe7f3ebbbdae32006ddfd691b3d07cb7a932c64fb74",
+      "sha256": [
+        "2e2bb25a6d085e6dca564f0c5e4f0354b08b48c09bab1bf5101742f4d9956100",
+        "752424f0a48ef93fddd52fe7f3ebbbdae32006ddfd691b3d07cb7a932c64fb74"
+      ],
       "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_chrono_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "cc32b848d1c12db7e641500b1a67264cf712211eb0924bb2fc8e02046e406ccc",
-      "text": "Paradox is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "9c90c9a67eceef9c923911c454e243b947c790d275db781c1e161a4d15813965",
+      "sha256": [
+        "9c90c9a67eceef9c923911c454e243b947c790d275db781c1e161a4d15813965",
+        "cc32b848d1c12db7e641500b1a67264cf712211eb0924bb2fc8e02046e406ccc"
+      ],
       "text": "Paradox is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

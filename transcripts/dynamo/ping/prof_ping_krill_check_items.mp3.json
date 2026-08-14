@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_krill_check_items.mp3",
   "revisions": [
     {
-      "sha256": "f12b513aeee80d3fd33711831917c78d6af61f48f027eee819ec5529b5b70634",
-      "text": "Check out what Krill bought!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc783f0c3211cd475f5304192a7147daedc72069ab7f27ef06714ff832c30ca7",
+      "sha256": [
+        "dc783f0c3211cd475f5304192a7147daedc72069ab7f27ef06714ff832c30ca7",
+        "f12b513aeee80d3fd33711831917c78d6af61f48f027eee819ec5529b5b70634"
+      ],
       "text": "Check out what Krill bought!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

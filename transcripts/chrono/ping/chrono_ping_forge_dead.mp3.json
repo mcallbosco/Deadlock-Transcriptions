@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_forge_dead.mp3",
   "revisions": [
     {
-      "sha256": "a25fd88e26f6fec21421a573309534addeb846e20be44672d057e946bd39bdaf",
-      "text": "McGinnis is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "18e41e546f03e0c47e5a8fda0181a40abf57140e4b52dd8781ecd11d51ec75b5",
+      "sha256": [
+        "18e41e546f03e0c47e5a8fda0181a40abf57140e4b52dd8781ecd11d51ec75b5",
+        "a25fd88e26f6fec21421a573309534addeb846e20be44672d057e946bd39bdaf"
+      ],
       "text": "McGinnis is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

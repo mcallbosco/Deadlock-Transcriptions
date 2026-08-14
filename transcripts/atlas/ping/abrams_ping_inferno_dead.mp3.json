@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_inferno_dead.mp3",
   "revisions": [
     {
-      "sha256": "8ea4d79e4723648e87379aa2885c21aa338a8ca11551dcd8e5725fb03fca0c05",
+      "sha256": [
+        "8ea4d79e4723648e87379aa2885c21aa338a8ca11551dcd8e5725fb03fca0c05"
+      ],
       "text": "Infernus is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "98fed1c8f25475b2cdd25721551f5a39d76d6d0af2648cfdd8700315e37dddd7",
-      "text": "The forest is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c1279c51e1e310b663d6da98635cbadd194ec5019a05755ec2be78d89b4fd9a6",
+      "sha256": [
+        "98fed1c8f25475b2cdd25721551f5a39d76d6d0af2648cfdd8700315e37dddd7",
+        "c1279c51e1e310b663d6da98635cbadd194ec5019a05755ec2be78d89b4fd9a6"
+      ],
       "text": "The forest is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

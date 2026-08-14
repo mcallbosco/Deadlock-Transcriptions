@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3f74cd1210b9ab0343de8a51c5d83855f15bdb159d40e23907b12bea9eb3d496",
-      "text": "Pocket was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "512acc06f84811d2b0f1043bfc8e6aa41f775a09d3ba36928480513f6f530f47",
+      "sha256": [
+        "3f74cd1210b9ab0343de8a51c5d83855f15bdb159d40e23907b12bea9eb3d496",
+        "512acc06f84811d2b0f1043bfc8e6aa41f775a09d3ba36928480513f6f530f47"
+      ],
       "text": "Pocket was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

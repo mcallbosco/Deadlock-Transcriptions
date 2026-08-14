@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_careful_dynamo_02.mp3",
   "revisions": [
     {
-      "sha256": "3ae38ba39690de7cfefb8156d4797020ba62b17d83683ca49f2eb358d21d1ac7",
+      "sha256": [
+        "3ae38ba39690de7cfefb8156d4797020ba62b17d83683ca49f2eb358d21d1ac7"
+      ],
       "text": "Careful, Deadlock.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7a10a4ed022e19440d36c6799239c24437085d52a249167874c97adaca5be834",
+      "sha256": [
+        "7a10a4ed022e19440d36c6799239c24437085d52a249167874c97adaca5be834"
+      ],
       "text": "Careful, Dynamo",
       "source": "official"
     }

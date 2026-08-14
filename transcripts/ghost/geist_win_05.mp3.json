@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_win_05.mp3",
   "revisions": [
     {
-      "sha256": "c52d384528151d67c22e433bebb9360fd9c0d8671e2c1dd7a40ab1c07358627f",
-      "text": "I always get what I want.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "4c0a51d196d1329ad97257151d0a74a6b4439c13ac9937ff8efcf4b650442f30",
+      "sha256": [
+        "4c0a51d196d1329ad97257151d0a74a6b4439c13ac9937ff8efcf4b650442f30",
+        "c52d384528151d67c22e433bebb9360fd9c0d8671e2c1dd7a40ab1c07358627f"
+      ],
       "text": "I always get what I want.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

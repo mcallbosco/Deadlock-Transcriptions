@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "operative/ping/operative_ping_warden_was_here.mp3",
   "revisions": [
     {
-      "sha256": "96c36f8d414f1ec27e612b444b2b57b0a8d77b5bfee66f2214d78c42aac20974",
+      "sha256": [
+        "96c36f8d414f1ec27e612b444b2b57b0a8d77b5bfee66f2214d78c42aac20974"
+      ],
       "text": "Gordon was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

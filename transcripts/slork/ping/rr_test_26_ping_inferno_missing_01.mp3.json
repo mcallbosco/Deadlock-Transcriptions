@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/ping/rr_test_26_ping_inferno_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "c19bd715841033cd7959bd528c4d0c2f8ae45023268f0b2a938d1a015194b345",
-      "text": "Conferno was missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1879f4e768bd648d5be569e38211505f5e9d3d55f2186d0345ea1cf09ba8035d",
+      "sha256": [
+        "1879f4e768bd648d5be569e38211505f5e9d3d55f2186d0345ea1cf09ba8035d",
+        "c19bd715841033cd7959bd528c4d0c2f8ae45023268f0b2a938d1a015194b345"
+      ],
       "text": "Conferno was missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

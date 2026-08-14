@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_calico.mp3",
   "revisions": [
     {
-      "sha256": "25ee231beb44a9b4b865fdbf15de0695814804040ccb8e7009876c7990ceae58",
-      "text": "I'm with you, Calico.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ce64b109dedab9272faa4dfd7aa704f024fda7e5a4a9ecbfa528948c152599f2",
+      "sha256": [
+        "25ee231beb44a9b4b865fdbf15de0695814804040ccb8e7009876c7990ceae58",
+        "ce64b109dedab9272faa4dfd7aa704f024fda7e5a4a9ecbfa528948c152599f2"
+      ],
       "text": "I'm with you, Calico.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_headed_orange_01.mp3",
   "revisions": [
     {
-      "sha256": "3e734095fb9e450c297228ab8a8d37a3fd46191800652b3e8410a50c1c474e9d",
+      "sha256": [
+        "3e734095fb9e450c297228ab8a8d37a3fd46191800652b3e8410a50c1c474e9d",
+        "e9c085db761657bf87d3e41b3dc7f1134ac6679695624218603c21bf654a8d8c"
+      ],
       "text": "The doors!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9c085db761657bf87d3e41b3dc7f1134ac6679695624218603c21bf654a8d8c",
-      "text": "The doors.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

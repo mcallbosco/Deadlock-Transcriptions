@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "t1_guardians/guardian_test_01/rr_guardian_test_01_thank_akimbo.mp3",
   "revisions": [
     {
-      "sha256": "c77f968690821b8b5b89656264ed82f4af618b9d2cf9576b9462865723a91364",
-      "text": "Thanks, Akimbo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdfcdeecc395c751107f594e932c61226f8c7dec183fcc314c8f09aa8be96418",
-      "text": "Thanks, Akimbo!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12bdeba548241f3ed9d91370d3f8fdc116af1e1a093bd8eb33e34d6406988ed7",
+      "sha256": [
+        "12bdeba548241f3ed9d91370d3f8fdc116af1e1a093bd8eb33e34d6406988ed7",
+        "c77f968690821b8b5b89656264ed82f4af618b9d2cf9576b9462865723a91364",
+        "fdfcdeecc395c751107f594e932c61226f8c7dec183fcc314c8f09aa8be96418"
+      ],
       "text": "Thanks, Akimbo!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_the_boss_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3975ca9ebe407d685cb6d62a1925278d0a9eebb17be805fc5175440e76a3c4c7",
-      "text": "The boss was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c6c18a0f09c123401c9cb4e00b32cf1fc0962fcdce6c7de0534da286f159fc1e",
+      "sha256": [
+        "3975ca9ebe407d685cb6d62a1925278d0a9eebb17be805fc5175440e76a3c4c7",
+        "c6c18a0f09c123401c9cb4e00b32cf1fc0962fcdce6c7de0534da286f159fc1e"
+      ],
       "text": "The boss was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

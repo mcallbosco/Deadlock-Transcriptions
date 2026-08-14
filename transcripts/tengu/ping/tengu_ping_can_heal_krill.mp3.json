@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_can_heal_krill.mp3",
   "revisions": [
     {
-      "sha256": "23c4d3df17a1f575561b8f3493e1069a41b7a98a990a7a898ad77a1990fa3fc9",
+      "sha256": [
+        "23c4d3df17a1f575561b8f3493e1069a41b7a98a990a7a898ad77a1990fa3fc9"
+      ],
       "text": "Really, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a1cdb8ab8e49a3033a7679a5ba7b559bd0d87a36f46199315f1a65e408f25906",
+      "sha256": [
+        "a1cdb8ab8e49a3033a7679a5ba7b559bd0d87a36f46199315f1a65e408f25906"
+      ],
       "text": "Krill, I can heal you!",
       "source": "official"
     }

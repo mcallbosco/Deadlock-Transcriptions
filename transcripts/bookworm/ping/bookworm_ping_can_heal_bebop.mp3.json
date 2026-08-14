@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_can_heal_bebop.mp3",
   "revisions": [
     {
-      "sha256": "29c696485a212eeb59d0c14b651714e34134333472c6abd0dbfa8d3f06bbb357",
-      "text": "Bebop, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3de04894ec678ad7f2ca0689432cbdba7af1cb6d5e9a7e23415cdd210ab274bd",
+      "sha256": [
+        "29c696485a212eeb59d0c14b651714e34134333472c6abd0dbfa8d3f06bbb357",
+        "3de04894ec678ad7f2ca0689432cbdba7af1cb6d5e9a7e23415cdd210ab274bd"
+      ],
       "text": "Bebop, I can heal you!",
       "source": "official"
     }

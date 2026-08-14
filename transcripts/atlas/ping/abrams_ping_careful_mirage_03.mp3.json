@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_careful_mirage_03.mp3",
   "revisions": [
     {
-      "sha256": "f2421c319f6dd01511fdc20a80110717bf6c7bae862f8a60497e4b40a171a2fa",
+      "sha256": [
+        "f2421c319f6dd01511fdc20a80110717bf6c7bae862f8a60497e4b40a171a2fa"
+      ],
       "text": "Drop it away.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4f0a798ec2dc802db172dd20ae757b81d8ef6546809b8ce479216ed90f9a1629",
-      "text": "Careful Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c86349a56ec5e361aea37b17e3eab67ac1d71ff1a1149e7bfe8270ff9eb5991a",
+      "sha256": [
+        "4f0a798ec2dc802db172dd20ae757b81d8ef6546809b8ce479216ed90f9a1629",
+        "c86349a56ec5e361aea37b17e3eab67ac1d71ff1a1149e7bfe8270ff9eb5991a"
+      ],
       "text": "Careful Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

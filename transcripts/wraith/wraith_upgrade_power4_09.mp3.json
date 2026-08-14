@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/wraith_upgrade_power4_09.mp3",
   "revisions": [
     {
-      "sha256": "f89d99d1a95c5f8ed493b0279500209f8136420dff527e1c9d94bc6edb1ef451",
+      "sha256": [
+        "2f276254eaba8f0f84b44d9a552e4dac044208ff7c2312b2e305001009666466",
+        "e9d0c7b5834357b5ab6fa75970425ab499811051c865e7b5e9689ad7bf1090bf",
+        "f89d99d1a95c5f8ed493b0279500209f8136420dff527e1c9d94bc6edb1ef451"
+      ],
       "text": "I don't have a lot of time, but it'll be enough.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2f276254eaba8f0f84b44d9a552e4dac044208ff7c2312b2e305001009666466",
-      "text": "I don't have a lot of time, but it'll be enough.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9d0c7b5834357b5ab6fa75970425ab499811051c865e7b5e9689ad7bf1090bf",
-      "text": "I don't have a lot of time, but it'll be enough.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "836d766da2d17588422eb8733ba35935ec985b4c2b53f61c6dd5974ec8fff114",
+      "sha256": [
+        "836d766da2d17588422eb8733ba35935ec985b4c2b53f61c6dd5974ec8fff114"
+      ],
       "text": "I won't have a lot of time, but it'll be enough…",
       "source": "official"
     }

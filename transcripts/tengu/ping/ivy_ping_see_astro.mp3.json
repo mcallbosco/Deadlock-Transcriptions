@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_see_astro.mp3",
   "revisions": [
     {
-      "sha256": "9b8ac58cbddeaf702523b8a8a4a9f24a6c845b5f2b453ae6585e8fc97ad68ab8",
-      "text": "I see Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "804be3392630af3172feb0ce8cc47e2d81081c76eb11852b3bb25dd5655d7eaf",
+      "sha256": [
+        "804be3392630af3172feb0ce8cc47e2d81081c76eb11852b3bb25dd5655d7eaf",
+        "9b8ac58cbddeaf702523b8a8a4a9f24a6c845b5f2b453ae6585e8fc97ad68ab8"
+      ],
       "text": "I see Holliday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

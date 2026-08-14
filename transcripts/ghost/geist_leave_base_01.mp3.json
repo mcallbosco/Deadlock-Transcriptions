@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_leave_base_01.mp3",
   "revisions": [
     {
-      "sha256": "2dfdc625e9a3d6dc09e8bb4bbc55e1011f79e2f7d8dd2df891e4cd409aedf9f0",
+      "sha256": [
+        "2dfdc625e9a3d6dc09e8bb4bbc55e1011f79e2f7d8dd2df891e4cd409aedf9f0",
+        "896658f357f5cccada304776e3253dca3b44d89b3bd6f8cdcf162a078b43a8fc"
+      ],
       "text": "We all come with",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "896658f357f5cccada304776e3253dca3b44d89b3bd6f8cdcf162a078b43a8fc",
-      "text": "We all come with.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

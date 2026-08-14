@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_stun_warden_01.mp3",
   "revisions": [
     {
-      "sha256": "bf8271aa465398c938cce3747886053900de0a1c35406d57d692d9eae5689be3",
+      "sha256": [
+        "bf8271aa465398c938cce3747886053900de0a1c35406d57d692d9eae5689be3"
+      ],
       "text": "Strong Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f0767fa5ba1aac4c8e57e85dd5adb1d00f5c12bd84b93847bd6a0df85ede33cc",
-      "text": "Sun Warden.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e9422a623271165a617b5ca0386294f4a0c1c73d29f0d36cc782f4a7abec3fba",
+      "sha256": [
+        "e9422a623271165a617b5ca0386294f4a0c1c73d29f0d36cc782f4a7abec3fba",
+        "f0767fa5ba1aac4c8e57e85dd5adb1d00f5c12bd84b93847bd6a0df85ede33cc"
+      ],
       "text": "Sun Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

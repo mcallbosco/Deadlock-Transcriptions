@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_with_astro.mp3",
   "revisions": [
     {
-      "sha256": "ed689f9271a2fb05e0550f5590f7bcca9ced45ca3d6c08766331ce476fff603c",
-      "text": "I'm with you, Holliday!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "781aa54debf702d9661864b5dcfdc0f3a0539bb8bdc56da1b830a66432a0720f",
+      "sha256": [
+        "781aa54debf702d9661864b5dcfdc0f3a0539bb8bdc56da1b830a66432a0720f",
+        "ed689f9271a2fb05e0550f5590f7bcca9ced45ca3d6c08766331ce476fff603c"
+      ],
       "text": "I'm with you, Holliday!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

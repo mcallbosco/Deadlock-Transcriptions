@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/ping/bookworm_ping_frank_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "05f87458bed0100e97948a65ebb8df9592d01f7f7f0a6818218454acfd6a0426",
+      "sha256": [
+        "05f87458bed0100e97948a65ebb8df9592d01f7f7f0a6818218454acfd6a0426"
+      ],
       "text": "Frank's missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "5150d376932e6e01e1323794c7c3843eb8cdfbd1b8f4254acdceeaae2b19c940",
+      "sha256": [
+        "5150d376932e6e01e1323794c7c3843eb8cdfbd1b8f4254acdceeaae2b19c940"
+      ],
       "text": "Victor's missing.",
       "source": "official"
     }

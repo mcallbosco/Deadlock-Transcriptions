@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "announcer/male_patron/patron_male_tutorial_stamina_reminder.mp3",
   "revisions": [
     {
-      "sha256": "57e739e244925f7706eda9f73d71c5202e1ae4e814bd9803dec18d9058787fa4",
+      "sha256": [
+        "57e739e244925f7706eda9f73d71c5202e1ae4e814bd9803dec18d9058787fa4"
+      ],
       "text": "You're out of stamina, but don't worry, it'll recover over time.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

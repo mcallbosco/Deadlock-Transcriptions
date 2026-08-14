@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_can_heal_holliday.mp3",
   "revisions": [
     {
-      "sha256": "edd28955bc0ff0145bf745916aa960e02c059e02deee68849059c235638da10c",
+      "sha256": [
+        "0a01abbe78f9481d6e42b6e3d9f9c664917651b5e0eba5f4356b69876d052d33",
+        "edd28955bc0ff0145bf745916aa960e02c059e02deee68849059c235638da10c"
+      ],
       "text": "Holliday, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "0a01abbe78f9481d6e42b6e3d9f9c664917651b5e0eba5f4356b69876d052d33",
-      "text": "Holliday, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "66fcad4fd811e1b32df3507989dc9aea8e65a24586ad427c970347c311769dc6",
+      "sha256": [
+        "66fcad4fd811e1b32df3507989dc9aea8e65a24586ad427c970347c311769dc6"
+      ],
       "text": "Holiday, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

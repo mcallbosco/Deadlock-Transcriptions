@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "trapper/ping/trapper_ping_synth_was_here.mp3",
   "revisions": [
     {
-      "sha256": "63d690ad2ac5ed58ee457b94b91df13c9f8d6c8340a4114e46af4506fba01ba2",
+      "sha256": [
+        "63d690ad2ac5ed58ee457b94b91df13c9f8d6c8340a4114e46af4506fba01ba2"
+      ],
       "text": "Tarkin was here!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

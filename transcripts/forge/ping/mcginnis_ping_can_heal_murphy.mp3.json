@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_can_heal_murphy.mp3",
   "revisions": [
     {
-      "sha256": "a9634fa980a021c6c06c2b452a75d0445998be4359fe2a189cc164b0d0d762ec",
-      "text": "Murphy, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "041fd2eaa5d4aa18cba25f0b5dbe55c9dc025e9a73cf5c828baf29a53928a3f1",
+      "sha256": [
+        "041fd2eaa5d4aa18cba25f0b5dbe55c9dc025e9a73cf5c828baf29a53928a3f1",
+        "a9634fa980a021c6c06c2b452a75d0445998be4359fe2a189cc164b0d0d762ec"
+      ],
       "text": "Murphy, I can heal you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

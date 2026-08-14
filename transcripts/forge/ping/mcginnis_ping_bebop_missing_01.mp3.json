@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_bebop_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "019adda9333715ca5b6556085d1b0424aaa37e55086e040fbb88c9adb2bab18c",
-      "text": "Bebop is missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "862dded9832e7ef9f175615541d31661297503b0612391016ff7173f224db109",
+      "sha256": [
+        "019adda9333715ca5b6556085d1b0424aaa37e55086e040fbb88c9adb2bab18c",
+        "862dded9832e7ef9f175615541d31661297503b0612391016ff7173f224db109"
+      ],
       "text": "Bebop is missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

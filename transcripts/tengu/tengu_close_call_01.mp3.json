@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_close_call_01.mp3",
   "revisions": [
     {
-      "sha256": "25ef806c172b79c8746ad2e0d6c69a85c6c27364001c20a8eec0b59ffca3db1d",
-      "text": "That was a close one.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "ad57830727cf72d48f285c4a7367bf4d060a6a73149524e5b057b5b60d13e9a8",
+      "sha256": [
+        "25ef806c172b79c8746ad2e0d6c69a85c6c27364001c20a8eec0b59ffca3db1d",
+        "ad57830727cf72d48f285c4a7367bf4d060a6a73149524e5b057b5b60d13e9a8"
+      ],
       "text": "That was a close one…",
       "source": "official"
     }

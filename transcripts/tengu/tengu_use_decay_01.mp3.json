@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/tengu_use_decay_01.mp3",
   "revisions": [
     {
-      "sha256": "d6cba852bd470cc31a6e14e870eab7cabbdc578ae5a7c66283b27eec5cd54451",
-      "text": "Decay!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "95693351338ba9fb5b9048558ea88e2229975ebfa5f9f703f25307e2c8ea20dc",
+      "sha256": [
+        "95693351338ba9fb5b9048558ea88e2229975ebfa5f9f703f25307e2c8ea20dc",
+        "d6cba852bd470cc31a6e14e870eab7cabbdc578ae5a7c66283b27eec5cd54451"
+      ],
       "text": "Decay!",
       "source": "official"
     }

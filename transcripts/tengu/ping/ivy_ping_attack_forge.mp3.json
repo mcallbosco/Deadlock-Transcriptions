@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_attack_forge.mp3",
   "revisions": [
     {
-      "sha256": "21295c1372dd9ef20089129c2b49ab23a48b9893907caffaf01f5cfda92839ed",
+      "sha256": [
+        "21295c1372dd9ef20089129c2b49ab23a48b9893907caffaf01f5cfda92839ed",
+        "5866b652ae236a01eebd73add45ab23612fd88824212746b0feb7d2e6dd4791e"
+      ],
       "text": "Let's take out McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "5866b652ae236a01eebd73add45ab23612fd88824212746b0feb7d2e6dd4791e",
-      "text": "Let's take out McGinnis!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

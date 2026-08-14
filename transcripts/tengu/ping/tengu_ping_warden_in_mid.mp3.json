@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/tengu_ping_warden_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "74392a590f1f91f336d3127341027888d32ea8b0817cb08dbd8a9f657cf4f705",
+      "sha256": [
+        "74392a590f1f91f336d3127341027888d32ea8b0817cb08dbd8a9f657cf4f705"
+      ],
       "text": "What do you mean?",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a163f62c7c489c72484aa41d12fe7760134e0956b91714be8815ec8cc9d3dfc2",
+      "sha256": [
+        "a163f62c7c489c72484aa41d12fe7760134e0956b91714be8815ec8cc9d3dfc2"
+      ],
       "text": "Warden's in mid!",
       "source": "official"
     }

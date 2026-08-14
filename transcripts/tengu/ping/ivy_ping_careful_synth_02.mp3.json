@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "tengu/ping/ivy_ping_careful_synth_02.mp3",
   "revisions": [
     {
-      "sha256": "21c3b6e1afcabddd265dcea15820448a78f3831f860fc4b785809955c6e93f6c",
+      "sha256": [
+        "21c3b6e1afcabddd265dcea15820448a78f3831f860fc4b785809955c6e93f6c"
+      ],
       "text": "Careful, pocket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "82da91800af9000429444222a0cebed452c684b6098194ccf3314343111f7f2e",
+      "sha256": [
+        "6867f183385942b94f4655589996251891930c8846d4a5ff7dc8ffb93603b7a3",
+        "82da91800af9000429444222a0cebed452c684b6098194ccf3314343111f7f2e"
+      ],
       "text": "Careful, Bucket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "6867f183385942b94f4655589996251891930c8846d4a5ff7dc8ffb93603b7a3",
-      "text": "Careful, Bucket.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wrecker/ping/wrecker_ping_mirage_in_mid.mp3",
   "revisions": [
     {
-      "sha256": "0d612cd129ba15eedc72831091052fd7a8b2264f43cae200654227bc0159a7b2",
-      "text": "Mirage is in mid.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cf9658a2e0699f2e49e1ebca9982d84e309a8d4a6d63570b4561ae9a12a18474",
+      "sha256": [
+        "0d612cd129ba15eedc72831091052fd7a8b2264f43cae200654227bc0159a7b2",
+        "cf9658a2e0699f2e49e1ebca9982d84e309a8d4a6d63570b4561ae9a12a18474"
+      ],
       "text": "Mirage is in mid.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

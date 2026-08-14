@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/krill_use_silencer_01.mp3",
   "revisions": [
     {
-      "sha256": "0dc76525cb1f621ab546d91e409c38f5c741f4fadb23eed06a43a99e305aaab4",
+      "sha256": [
+        "0dc76525cb1f621ab546d91e409c38f5c741f4fadb23eed06a43a99e305aaab4",
+        "135228c654d7859a50796939863ca7f9bf0b4b47a7a8d714d09be14d3dba816c",
+        "2a6240f66d2b935cebbed0f85884fa56053b22509628af51b7be2b4b3578ca51"
+      ],
       "text": "I'll deal with their magic!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "135228c654d7859a50796939863ca7f9bf0b4b47a7a8d714d09be14d3dba816c",
-      "text": "I'll deal with their magic!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2a6240f66d2b935cebbed0f85884fa56053b22509628af51b7be2b4b3578ca51",
-      "text": "I'll deal with their magic.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

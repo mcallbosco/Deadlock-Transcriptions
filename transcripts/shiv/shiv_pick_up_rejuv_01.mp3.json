@@ -1,21 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/shiv_pick_up_rejuv_01.mp3",
   "revisions": [
     {
-      "sha256": "3860e501c91b8b413b35b9f655aee934c3f89c1b4e55a9e752d4cacb8d35724f",
+      "sha256": [
+        "3860e501c91b8b413b35b9f655aee934c3f89c1b4e55a9e752d4cacb8d35724f"
+      ],
       "text": "Gather a unit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "a932ef77c96bb26a7c43c35d77011db816d2698c9c11da5ef6684a2473c77cf8",
+      "sha256": [
+        "a932ef77c96bb26a7c43c35d77011db816d2698c9c11da5ef6684a2473c77cf8"
+      ],
       "text": "Gather the unit.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "425998e3c635752b7e6dcd326dc9afb8fee7563cca8a69f100221e7b5f4cba7f",
+      "sha256": [
+        "425998e3c635752b7e6dcd326dc9afb8fee7563cca8a69f100221e7b5f4cba7f"
+      ],
       "text": "Got the rejuvinator!",
       "source": "official"
     }

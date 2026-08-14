@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "astro/ping/holliday_ping_see_yamato.mp3",
   "revisions": [
     {
-      "sha256": "a90a93f790991c764303da93669f1eae71657466c67ac35956e416626776ddb7",
+      "sha256": [
+        "a90a93f790991c764303da93669f1eae71657466c67ac35956e416626776ddb7"
+      ],
       "text": "I see Yamato.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

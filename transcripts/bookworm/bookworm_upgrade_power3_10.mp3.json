@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "bookworm/bookworm_upgrade_power3_10.mp3",
   "revisions": [
     {
-      "sha256": "153ab579a6e7795c9fdaa43f79ae31b5c1abaa8b59c1d58ca00f9950baf43efe",
+      "sha256": [
+        "153ab579a6e7795c9fdaa43f79ae31b5c1abaa8b59c1d58ca00f9950baf43efe"
+      ],
       "text": "Everyone's got a plan until the Lady of the Lake shows up.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

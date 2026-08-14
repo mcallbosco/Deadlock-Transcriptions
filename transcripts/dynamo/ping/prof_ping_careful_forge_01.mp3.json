@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_careful_forge_01.mp3",
   "revisions": [
     {
-      "sha256": "855a7c60752bd90bc4ec43e2be35bc37ea4759c6be386fa1805c68e53291c20f",
-      "text": "Careful, McGinnis.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "7bb7880a0d4a67f6a515ecae14c70f3a305c6ac8ecdcd0f3acdbed55ab745ed9",
+      "sha256": [
+        "7bb7880a0d4a67f6a515ecae14c70f3a305c6ac8ecdcd0f3acdbed55ab745ed9",
+        "855a7c60752bd90bc4ec43e2be35bc37ea4759c6be386fa1805c68e53291c20f"
+      ],
       "text": "Careful, McGinnis.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

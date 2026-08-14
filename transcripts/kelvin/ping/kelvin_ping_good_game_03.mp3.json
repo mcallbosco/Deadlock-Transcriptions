@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "kelvin/ping/kelvin_ping_good_game_03.mp3",
   "revisions": [
     {
-      "sha256": "daacf207b9e440ed9d620e3ef83610fae64030b909e6c0ca2630e77ad7661ef0",
-      "text": "That was fun.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "3b2eae9abe95c9c0484c99b9038fcf898797edc736474462767684956ceac6ca",
+      "sha256": [
+        "3b2eae9abe95c9c0484c99b9038fcf898797edc736474462767684956ceac6ca",
+        "daacf207b9e440ed9d620e3ef83610fae64030b909e6c0ca2630e77ad7661ef0"
+      ],
       "text": "That was fun",
       "source": "official"
     }

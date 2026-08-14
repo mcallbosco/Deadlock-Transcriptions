@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "priest/ping/priest_ping_can_heal_shiv.mp3",
   "revisions": [
     {
-      "sha256": "3abc7586376b2fc51081bca26a79398779af0a34e0b41687bf582ef942bd07e7",
+      "sha256": [
+        "3abc7586376b2fc51081bca26a79398779af0a34e0b41687bf582ef942bd07e7"
+      ],
       "text": "Chief, I can hear you!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d36783eaf1982787a2f7e3f851ad2b913ca69facdfd417d87b554af1fe13a889",
+      "sha256": [
+        "d36783eaf1982787a2f7e3f851ad2b913ca69facdfd417d87b554af1fe13a889"
+      ],
       "text": "Shiv, I can heal you!",
       "source": "official"
     }

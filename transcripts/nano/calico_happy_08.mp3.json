@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "nano/calico_happy_08.mp3",
   "revisions": [
     {
-      "sha256": "27a210bde51938c3bf17ba14fc1302db50b226da7b03e1a910d411dbbaf01ff4",
+      "sha256": [
+        "27a210bde51938c3bf17ba14fc1302db50b226da7b03e1a910d411dbbaf01ff4",
+        "d1a8a791dcb6cbb2038e91f6fc666f78f6245ddcd5b6ae333c6f892a128dcc7e"
+      ],
       "text": "Wonderful!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d1a8a791dcb6cbb2038e91f6fc666f78f6245ddcd5b6ae333c6f892a128dcc7e",
-      "text": "Wonderful.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

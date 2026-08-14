@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "hornet/ping/vindicta_ping_with_ivy.mp3",
   "revisions": [
     {
-      "sha256": "6de054c1b42e518280515be9859ab51535c13b851e853483ba37e6b1cb091019",
+      "sha256": [
+        "6de054c1b42e518280515be9859ab51535c13b851e853483ba37e6b1cb091019"
+      ],
       "text": "I'm ready!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "4865128d0d40c04be539a046ef38263b92d237fdbe60fe4057294985fccd4629",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "64721cbf266d4ed942159a050dde5507dbe3ce7da866e7bbb2634cca47dc1d2a",
-      "text": "I'm with you, Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2b7736a3dd3525af796dd4a933f3382155f3209a07361ceb2ab4b9be0fa6af3d",
+      "sha256": [
+        "2b7736a3dd3525af796dd4a933f3382155f3209a07361ceb2ab4b9be0fa6af3d",
+        "4865128d0d40c04be539a046ef38263b92d237fdbe60fe4057294985fccd4629",
+        "64721cbf266d4ed942159a050dde5507dbe3ce7da866e7bbb2634cca47dc1d2a"
+      ],
       "text": "I'm with you, Ivy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

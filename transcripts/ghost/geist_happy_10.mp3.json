@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/geist_happy_10.mp3",
   "revisions": [
     {
-      "sha256": "d2bf72d3d9dbdc4303672160693d1736039f4798093e883f97e08ecf05efe52f",
-      "text": "Everyone's doing their part.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "88534bf861116e90028ae3ba66d444fecbdeb46744acd80b871d796975a75549",
+      "sha256": [
+        "88534bf861116e90028ae3ba66d444fecbdeb46744acd80b871d796975a75549",
+        "d2bf72d3d9dbdc4303672160693d1736039f4798093e883f97e08ecf05efe52f"
+      ],
       "text": "Everyone's doing their part.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

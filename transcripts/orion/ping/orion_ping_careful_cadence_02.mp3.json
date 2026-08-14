@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_careful_cadence_02.mp3",
   "revisions": [
     {
-      "sha256": "f608b9f68aa49330cbd6f4e7386c7b322c7e9c3dc1b0bc30c95e2ff5c8beab86",
+      "sha256": [
+        "f608b9f68aa49330cbd6f4e7386c7b322c7e9c3dc1b0bc30c95e2ff5c8beab86"
+      ],
       "text": "Careful, Kings.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "c721ecaf22a25744eeeff8e82d3d69ce66dbaa0411dee76865085d56f6774239",
+      "sha256": [
+        "2e211e0b41b055624f663664065269700523a7bfff52f3f8136b2d94078b4dfb",
+        "c721ecaf22a25744eeeff8e82d3d69ce66dbaa0411dee76865085d56f6774239"
+      ],
       "text": "Careful, Cadence.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "2e211e0b41b055624f663664065269700523a7bfff52f3f8136b2d94078b4dfb",
-      "text": "Careful, Cadence.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a106564679a0cae71aafdcd24727564bc69e8911d41a988810d0fac420c6725d",
+      "sha256": [
+        "a106564679a0cae71aafdcd24727564bc69e8911d41a988810d0fac420c6725d"
+      ],
       "text": "Careful, kids.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_with_mirage.mp3",
   "revisions": [
     {
-      "sha256": "7fe5b92db0e938a50180f28d414d01a93048b243d9ed366cb8d2483bc787319f",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d8d8f6f92cc8b1e629ff33d1fc64c1c0c7d371db17eebf908b544ec1778169ea",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "769976f36efb33c1a9c0609bd659b5bfd37ebb93a0864f0bd19e92ffd4469a08",
-      "text": "I'm with you, Mirage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "33591b51c1d3a3fc91abf772627f1f7975756d6792bc674143e8b1cf92c8ace3",
+      "sha256": [
+        "33591b51c1d3a3fc91abf772627f1f7975756d6792bc674143e8b1cf92c8ace3",
+        "769976f36efb33c1a9c0609bd659b5bfd37ebb93a0864f0bd19e92ffd4469a08",
+        "7fe5b92db0e938a50180f28d414d01a93048b243d9ed366cb8d2483bc787319f",
+        "d8d8f6f92cc8b1e629ff33d1fc64c1c0c7d371db17eebf908b544ec1778169ea"
+      ],
       "text": "I'm with you, Mirage.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

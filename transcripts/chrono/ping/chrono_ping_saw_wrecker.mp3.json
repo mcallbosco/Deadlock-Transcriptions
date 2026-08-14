@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_saw_wrecker.mp3",
   "revisions": [
     {
-      "sha256": "f73958e570123570fb84dce4cadf36b105fdf32b7bb8496f274bc45c340f8e00",
-      "text": "I saw Wrecker!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "b2861ab2afde68c88ae46f459e88fea8f823d7bda2c08ff433713d48475eb926",
+      "sha256": [
+        "b2861ab2afde68c88ae46f459e88fea8f823d7bda2c08ff433713d48475eb926",
+        "f73958e570123570fb84dce4cadf36b105fdf32b7bb8496f274bc45c340f8e00"
+      ],
       "text": "I saw Wrecker!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

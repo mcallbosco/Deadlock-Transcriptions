@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "slork/rr_test_26_concerned_08.mp3",
   "revisions": [
     {
-      "sha256": "93c8086b392acce95970d005328f59ff8276f7225ecad744520695c96f6013b4",
+      "sha256": [
+        "93c8086b392acce95970d005328f59ff8276f7225ecad744520695c96f6013b4",
+        "c4df6cc857f10be072ce000d776a896a928bdab3c2d9b018a9c2fe1c30aa2c15"
+      ],
       "text": "We need to make changes, fast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "c4df6cc857f10be072ce000d776a896a928bdab3c2d9b018a9c2fe1c30aa2c15",
-      "text": "We need to make changes fast.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

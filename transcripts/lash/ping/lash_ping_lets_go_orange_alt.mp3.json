@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_lets_go_orange_alt.mp3",
   "revisions": [
     {
-      "sha256": "3f694bf3e50909fcff8481598336244e8b7a1e98f51134bc138593ebfd258509",
-      "text": "Let's go to Orchard.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2fdae99e650d99e824303fe2345ca1d100efeb26f527d5c7160a612db93f8093",
+      "sha256": [
+        "2fdae99e650d99e824303fe2345ca1d100efeb26f527d5c7160a612db93f8093",
+        "3f694bf3e50909fcff8481598336244e8b7a1e98f51134bc138593ebfd258509"
+      ],
       "text": "Let's go to Orchard.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

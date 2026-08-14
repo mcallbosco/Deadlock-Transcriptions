@@ -1,29 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/lash_ally_bebop_killed_in_lane_02.mp3",
   "revisions": [
     {
-      "sha256": "9ede420a7be328ffd987f019197f6c06841bd219187b7261d0e314d6737ea5ab",
-      "text": "They took out Bebop! I'm cool with it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "cd176ecb81b86432e0fef5937af196cbbbe762e08fe19d804b53eeeca7f3bc90",
-      "text": "If you got Bebop, I'm cool with it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1fab005a66730e66ac55b4d5a3c0595a9401d1f2e6a3652bc85c4d1ce8daaabb",
-      "text": "If you got Bebop, I'm cool with it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a2727f23144d147a333004421c787e325211c897aab8231fc197da27bf371b4a",
+      "sha256": [
+        "9ede420a7be328ffd987f019197f6c06841bd219187b7261d0e314d6737ea5ab",
+        "a2727f23144d147a333004421c787e325211c897aab8231fc197da27bf371b4a"
+      ],
       "text": "They took out Bebop, I'm cool with it.",
       "source": "official"
+    },
+    {
+      "sha256": [
+        "1fab005a66730e66ac55b4d5a3c0595a9401d1f2e6a3652bc85c4d1ce8daaabb",
+        "cd176ecb81b86432e0fef5937af196cbbbe762e08fe19d804b53eeeca7f3bc90"
+      ],
+      "text": "If you got Bebop, I'm cool with it.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

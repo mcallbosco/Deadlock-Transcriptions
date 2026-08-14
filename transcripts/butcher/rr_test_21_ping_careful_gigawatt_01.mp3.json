@@ -1,22 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_careful_gigawatt_01.mp3",
   "revisions": [
     {
-      "sha256": "e28abcc656c0298084b0878b63cac8f2e9be86b27f308565ee82c82d70b3ceb6",
+      "sha256": [
+        "20a42ee337e451ec07ba997d8620111973e9b17b5165197b50b11c0c29c83bd8",
+        "e28abcc656c0298084b0878b63cac8f2e9be86b27f308565ee82c82d70b3ceb6",
+        "fdb60b8096beca8836d65b8e7f1d7c71f1af4c857f25a13a1acd4cb5a534366d"
+      ],
       "text": "Careful, Gigawatt!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "20a42ee337e451ec07ba997d8620111973e9b17b5165197b50b11c0c29c83bd8",
-      "text": "Careful, Gigawatt!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "fdb60b8096beca8836d65b8e7f1d7c71f1af4c857f25a13a1acd4cb5a534366d",
-      "text": "Careful, gigawatt!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -1,27 +1,14 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_affermative_01.mp3",
   "revisions": [
     {
-      "sha256": "ba5dc2bfac4039c17dc1d04e99959fab21bb8f2cd88bdc8a88aea8ddcf76f973",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "00960c3060350558ccc4139b6aa8ccb67b54a4b857e2df4d5c3024c1858afc70",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "38530f42c47835eb52b7542613925a5c2123d89ebb4e72eb8cf8daa7dd4b03cc",
-      "text": "Yes!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "0bba6a0b7cdcc598177148a48bc6456809578b32f7e2394b9e65e237b815b512",
+      "sha256": [
+        "00960c3060350558ccc4139b6aa8ccb67b54a4b857e2df4d5c3024c1858afc70",
+        "0bba6a0b7cdcc598177148a48bc6456809578b32f7e2394b9e65e237b815b512",
+        "38530f42c47835eb52b7542613925a5c2123d89ebb4e72eb8cf8daa7dd4b03cc",
+        "ba5dc2bfac4039c17dc1d04e99959fab21bb8f2cd88bdc8a88aea8ddcf76f973"
+      ],
       "text": "Yes",
       "source": "official"
     }

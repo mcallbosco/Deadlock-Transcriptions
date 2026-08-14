@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/dynamo_win_late_04.mp3",
   "revisions": [
     {
-      "sha256": "368f71682753670a0a25082a41c82743677e8725fec745671109814f9984ef85",
+      "sha256": [
+        "368f71682753670a0a25082a41c82743677e8725fec745671109814f9984ef85"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"

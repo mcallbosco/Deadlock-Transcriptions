@@ -1,22 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_bebop_dead.mp3",
   "revisions": [
     {
-      "sha256": "e93bd27947590984073463cd23c7ef6675a16b4564b541bfb25e04dedf85d643",
+      "sha256": [
+        "737948b138350712ab8779a74893f462145e0cfa30e2e02c0053daa71a5d58f8",
+        "e93bd27947590984073463cd23c7ef6675a16b4564b541bfb25e04dedf85d643"
+      ],
       "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "1ec4919530bb83b1f7cb395a54f3493265ba7be4401aa8688384d108cf5145ee",
+      "sha256": [
+        "1ec4919530bb83b1f7cb395a54f3493265ba7be4401aa8688384d108cf5145ee"
+      ],
       "text": "Beep-bop is dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "737948b138350712ab8779a74893f462145e0cfa30e2e02c0053daa71a5d58f8",
-      "text": "Bebop is dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

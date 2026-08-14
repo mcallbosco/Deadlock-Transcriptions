@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_punkgoat_was_here.mp3",
   "revisions": [
     {
-      "sha256": "3719bb31ec16db4c8c72c349e5947255ca03129ecaf1e9a04cf68d7715a61e4c",
+      "sha256": [
+        "3719bb31ec16db4c8c72c349e5947255ca03129ecaf1e9a04cf68d7715a61e4c"
+      ],
       "text": "It was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

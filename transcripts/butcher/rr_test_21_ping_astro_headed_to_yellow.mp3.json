@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "butcher/rr_test_21_ping_astro_headed_to_yellow.mp3",
   "revisions": [
     {
-      "sha256": "c24dff9c62c0bb0e4f5b6a1f6a4087bd194ff266014c1d1bb1ead6e0b97a06a5",
+      "sha256": [
+        "c24dff9c62c0bb0e4f5b6a1f6a4087bd194ff266014c1d1bb1ead6e0b97a06a5"
+      ],
       "text": "Astral's headed to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d47e59b5faf40ed8d7c5bb9967e8fde352ec88a738d69e5392d19470f746c409",
-      "text": "Astros headed to yellow!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a419fc656de6fcf955432525ea59a0dcff32595a5f6431f928f08fecc7ede736",
+      "sha256": [
+        "a419fc656de6fcf955432525ea59a0dcff32595a5f6431f928f08fecc7ede736",
+        "d47e59b5faf40ed8d7c5bb9967e8fde352ec88a738d69e5392d19470f746c409"
+      ],
       "text": "Astros headed to yellow!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

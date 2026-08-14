@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "shiv/ping/shiv_ping_careful_wrecker_01.mp3",
   "revisions": [
     {
-      "sha256": "6e52282f5340537da4bff2db674de0bb1028a618d151bc73e4619ef141f0d649",
+      "sha256": [
+        "6e52282f5340537da4bff2db674de0bb1028a618d151bc73e4619ef141f0d649",
+        "f023e6a16d1c9eb47f7d933047ef0f76d9bbe8a30b0d511553cd6b0b173f1e8f"
+      ],
       "text": "",
       "source": "skippednonspeech",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "f023e6a16d1c9eb47f7d933047ef0f76d9bbe8a30b0d511553cd6b0b173f1e8f",
-      "text": "",
-      "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "dc8f83beefc14fac62527edcde592fb3f030dcc78f0cf3b405936554b9c61633",
+      "sha256": [
+        "dc8f83beefc14fac62527edcde592fb3f030dcc78f0cf3b405936554b9c61633"
+      ],
       "text": "Careful, Wrecker…",
       "source": "official"
     }

@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "chrono/ping/chrono_ping_ignore_yamato.mp3",
   "revisions": [
     {
-      "sha256": "80ce70f8b2d3bf70487fcb354784a9e0adf447440ed2317aa3534946adc3620a",
+      "sha256": [
+        "77c3eda90062f307859f3e5c5bbf1d62007bf5a85e3ea88c27e2f404568b4f87",
+        "80ce70f8b2d3bf70487fcb354784a9e0adf447440ed2317aa3534946adc3620a"
+      ],
       "text": "Ignore Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "77c3eda90062f307859f3e5c5bbf1d62007bf5a85e3ea88c27e2f404568b4f87",
-      "text": "Ignore Yamato!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

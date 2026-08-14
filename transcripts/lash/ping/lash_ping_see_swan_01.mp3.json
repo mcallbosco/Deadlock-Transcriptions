@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "lash/ping/lash_ping_see_swan_01.mp3",
   "revisions": [
     {
-      "sha256": "38483c6c91eb05a285998a1af015dad9b8c4334deb01cb7493a7d84590336911",
+      "sha256": [
+        "38483c6c91eb05a285998a1af015dad9b8c4334deb01cb7493a7d84590336911"
+      ],
       "text": "I see Swan.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "forge/ping/mcginnis_ping_with_kelvin.mp3",
   "revisions": [
     {
-      "sha256": "ed9f040ed23838eefad9a2b1830c185fb8a84ec36132c9fdb9b95ba30713e359",
-      "text": "I'm with you, Kelvin!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "34cf65c23a47bf9c1ae0b017fa40d1aa785e5ecb387e42b14e34934e39a8d5e5",
+      "sha256": [
+        "34cf65c23a47bf9c1ae0b017fa40d1aa785e5ecb387e42b14e34934e39a8d5e5",
+        "ed9f040ed23838eefad9a2b1830c185fb8a84ec36132c9fdb9b95ba30713e359"
+      ],
       "text": "I'm with you, Kelvin!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

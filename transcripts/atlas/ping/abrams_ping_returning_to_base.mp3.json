@@ -1,21 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "atlas/ping/abrams_ping_returning_to_base.mp3",
   "revisions": [
     {
-      "sha256": "4bd6ed24c5bfdcb290f47b5e1a64de14962af93bfd8c0f283e146f7a98c242a4",
-      "text": "Headed back to base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e603f559f34e5b1a7dc62a2e8dacfb2ab3ee2726119a578013f84c35907e0beb",
-      "text": "Headed back to base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "46812bc90549a996a12f805ff8e3e3ecb0cc629e5b5dfcc23c418f3f616f6b05",
+      "sha256": [
+        "46812bc90549a996a12f805ff8e3e3ecb0cc629e5b5dfcc23c418f3f616f6b05",
+        "4bd6ed24c5bfdcb290f47b5e1a64de14962af93bfd8c0f283e146f7a98c242a4",
+        "e603f559f34e5b1a7dc62a2e8dacfb2ab3ee2726119a578013f84c35907e0beb"
+      ],
       "text": "Headed back to base.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

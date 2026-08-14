@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "unicorn/ping/unicorn_ping_with_ghost.mp3",
   "revisions": [
     {
-      "sha256": "91680204bdd5fe912152a1746f823e55fd5bebaa05bb387b158da67b533ee892",
+      "sha256": [
+        "91680204bdd5fe912152a1746f823e55fd5bebaa05bb387b158da67b533ee892"
+      ],
       "text": "I'm with you guys.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

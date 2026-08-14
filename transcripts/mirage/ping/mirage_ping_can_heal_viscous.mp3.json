@@ -1,27 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "mirage/ping/mirage_ping_can_heal_viscous.mp3",
   "revisions": [
     {
-      "sha256": "886759455272dd75526c4cc198b2ee9b31ac935f134eadb504ec8599fdcebf4f",
+      "sha256": [
+        "886759455272dd75526c4cc198b2ee9b31ac935f134eadb504ec8599fdcebf4f"
+      ],
       "text": "This is I can hear you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "7f128b1b723677206e508caaa888c28068b37692e3b9666ec23adb46486841a8",
+      "sha256": [
+        "7f128b1b723677206e508caaa888c28068b37692e3b9666ec23adb46486841a8",
+        "ddf36298989bed011120e67539e7614408c8a54201169305ae2eb3f41d83325e"
+      ],
       "text": "This is, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "ddf36298989bed011120e67539e7614408c8a54201169305ae2eb3f41d83325e",
-      "text": "This is, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "f97192559530b231f193765f5537f0c519827817d0e83c216e2b568ab82845d8",
+      "sha256": [
+        "f97192559530b231f193765f5537f0c519827817d0e83c216e2b568ab82845d8"
+      ],
       "text": "Viscous, I can heal you!",
       "source": "official"
     }

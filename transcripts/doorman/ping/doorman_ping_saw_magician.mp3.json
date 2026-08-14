@@ -1,9 +1,11 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "doorman/ping/doorman_ping_saw_magician.mp3",
   "revisions": [
     {
-      "sha256": "fc375bcc449961427892c1d862306eaad336b13d7edb16d898ec12485e88441b",
+      "sha256": [
+        "fc375bcc449961427892c1d862306eaad336b13d7edb16d898ec12485e88441b"
+      ],
       "text": "I saw Sinclair.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

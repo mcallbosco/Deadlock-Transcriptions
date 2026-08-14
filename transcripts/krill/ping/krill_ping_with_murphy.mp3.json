@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "krill/ping/krill_ping_with_murphy.mp3",
   "revisions": [
     {
-      "sha256": "3c83a071b4022f67a9be5c21486f550f7202f5e47637eff76e0bd899b36f8226",
+      "sha256": [
+        "3c83a071b4022f67a9be5c21486f550f7202f5e47637eff76e0bd899b36f8226",
+        "d214e22e26af4941ecb2a6e584bb83dadc4d2afd0be38d110832f32caa6669a3"
+      ],
       "text": "I'm with you, Murphy.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "d214e22e26af4941ecb2a6e584bb83dadc4d2afd0be38d110832f32caa6669a3",
-      "text": "I'm with you, Murphy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "12f8f6082faa780d55c16463453dd7ec62ec3fb74bb2fe9de9f195d49ce50f0b",
+      "sha256": [
+        "12f8f6082faa780d55c16463453dd7ec62ec3fb74bb2fe9de9f195d49ce50f0b"
+      ],
       "text": "I'm with you, Marie.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

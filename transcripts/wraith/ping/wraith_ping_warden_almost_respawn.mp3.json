@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_warden_almost_respawn.mp3",
   "revisions": [
     {
-      "sha256": "eeebc4c73bbe8c9f6ac5c68af1968eb0a8c0cf181034d30964f25338d1a09f10",
+      "sha256": [
+        "eeebc4c73bbe8c9f6ac5c68af1968eb0a8c0cf181034d30964f25338d1a09f10"
+      ],
       "text": "Gordon is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "e5ab25eea416c0c5529cd1ece75dc40cc81c99512d2e0d35bdd937f72e56af44",
-      "text": "Warden is almost back.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a043dc0de156076c98b1524271993185b8a0c2699736b547d8b955cad4880a5c",
+      "sha256": [
+        "a043dc0de156076c98b1524271993185b8a0c2699736b547d8b955cad4880a5c",
+        "e5ab25eea416c0c5529cd1ece75dc40cc81c99512d2e0d35bdd937f72e56af44"
+      ],
       "text": "Warden is almost back.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

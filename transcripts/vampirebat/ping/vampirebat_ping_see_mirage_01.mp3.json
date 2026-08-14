@@ -1,15 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "vampirebat/ping/vampirebat_ping_see_mirage_01.mp3",
   "revisions": [
     {
-      "sha256": "c3067748c4b1c268ca52641d6d9651a7fb74f57b8c51e1e6de722898a374c200",
+      "sha256": [
+        "c3067748c4b1c268ca52641d6d9651a7fb74f57b8c51e1e6de722898a374c200"
+      ],
       "text": "I see Marat.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "bcd8a1e4f118c87fca669d20248063f4fc8ece43efdc568b3b76d5e6b94cf415",
+      "sha256": [
+        "bcd8a1e4f118c87fca669d20248063f4fc8ece43efdc568b3b76d5e6b94cf415"
+      ],
       "text": "I see Mirage.",
       "source": "official"
     }

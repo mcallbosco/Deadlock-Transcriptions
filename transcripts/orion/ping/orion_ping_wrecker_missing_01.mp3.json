@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "orion/ping/orion_ping_wrecker_missing_01.mp3",
   "revisions": [
     {
-      "sha256": "e2481384db934d2e7898fa4e8ec842e61b1d81425905265ff039a8d2eca6fb8d",
+      "sha256": [
+        "343bb5370a0cf30527c480c15a5f7bf16c7a49d06c7bfbd25f1d8a68c2d3ede4",
+        "b5fe9abac0eef6666bde8b56c7ed85a6b225e50c6056cd31d8ef799dd56d225c",
+        "e2481384db934d2e7898fa4e8ec842e61b1d81425905265ff039a8d2eca6fb8d"
+      ],
       "text": "Records missing.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "b5fe9abac0eef6666bde8b56c7ed85a6b225e50c6056cd31d8ef799dd56d225c",
-      "text": "Records missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "343bb5370a0cf30527c480c15a5f7bf16c7a49d06c7bfbd25f1d8a68c2d3ede4",
-      "text": "Records missing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "a00f2731fb417ba4ec92218c2dcde7030dd1eb27a5782f38bfa07e7c8235d367",
+      "sha256": [
+        "a00f2731fb417ba4ec92218c2dcde7030dd1eb27a5782f38bfa07e7c8235d367"
+      ],
       "text": "Wrecker's missing",
       "source": "official"
     }

@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "ghost/ping/geist_ping_haze_dead.mp3",
   "revisions": [
     {
-      "sha256": "4f62e3346db21519605b7bfdbd23475d9fc30192111a3ad9c35d80f6d82b4e86",
-      "text": "Hazy's dead.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "738a28f5269be520fa2e0d497808274499940bec0ee81281486884ec35f4054f",
+      "sha256": [
+        "4f62e3346db21519605b7bfdbd23475d9fc30192111a3ad9c35d80f6d82b4e86",
+        "738a28f5269be520fa2e0d497808274499940bec0ee81281486884ec35f4054f"
+      ],
       "text": "Hazy's dead.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"

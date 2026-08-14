@@ -1,27 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "wraith/ping/wraith_ping_can_heal_haze.mp3",
   "revisions": [
     {
-      "sha256": "a6de05ed96e39bf1f050be7feeaa0cccd833675f91cf1939f9a30dd063be0dfb",
+      "sha256": [
+        "2baacd4a710750b563dd113f5bed9a125f9984818803c035413cc2ef54bd2317",
+        "689d973c621c42fabae04177e9a810ec96bfdf96fb5cbd7bde10fe56ce2e2605",
+        "a6de05ed96e39bf1f050be7feeaa0cccd833675f91cf1939f9a30dd063be0dfb"
+      ],
       "text": "Hey, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "689d973c621c42fabae04177e9a810ec96bfdf96fb5cbd7bde10fe56ce2e2605",
-      "text": "Hey, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "2baacd4a710750b563dd113f5bed9a125f9984818803c035413cc2ef54bd2317",
-      "text": "Hey, I can heal you.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "1a4789df706fc42a1b3613705fa78ff06cc2f15bad17f2921c3447046766703a",
+      "sha256": [
+        "1a4789df706fc42a1b3613705fa78ff06cc2f15bad17f2921c3447046766703a"
+      ],
       "text": "Haze, I can heal you!",
       "source": "official"
     }

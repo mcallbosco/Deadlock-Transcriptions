@@ -1,16 +1,13 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "dynamo/ping/prof_ping_see_warden_on_bridge.mp3",
   "revisions": [
     {
-      "sha256": "d0461df4c7aec73025514599dc0d31f6b927e9628fafe98ffce2a64c45a86095",
+      "sha256": [
+        "d0461df4c7aec73025514599dc0d31f6b927e9628fafe98ffce2a64c45a86095",
+        "e0df577b1a200c4335d7e131a86877928366fa5ceec5beb4b690a32f2d17d0fa"
+      ],
       "text": "Warden's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "e0df577b1a200c4335d7e131a86877928366fa5ceec5beb4b690a32f2d17d0fa",
-      "text": "Wardens on the bridge!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

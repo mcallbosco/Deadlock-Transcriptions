@@ -1,21 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "filename": "yamato/ping/yamato_ping_with_krill.mp3",
   "revisions": [
     {
-      "sha256": "58b1b5b0370a98327050fb70676932cde5f0ebd0dc509a7ac4c58518e903511b",
+      "sha256": [
+        "58b1b5b0370a98327050fb70676932cde5f0ebd0dc509a7ac4c58518e903511b"
+      ],
       "text": "I'm with you, Krill!",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     },
     {
-      "sha256": "812aaa5be227d7647bf17732b953f50bcc6194914714d4f9b153e73725e6b460",
-      "text": "I'm with you, Creed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": "d01a6ceea843ff99e79465456450684677b168266654eaa00c40a1036d845120",
+      "sha256": [
+        "812aaa5be227d7647bf17732b953f50bcc6194914714d4f9b153e73725e6b460",
+        "d01a6ceea843ff99e79465456450684677b168266654eaa00c40a1036d845120"
+      ],
       "text": "I'm with you, Creed.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
