@@ -361,7 +361,11 @@ class SyncPlan:
             "summary": {
                 "matchedRecords": self.matched_records,
                 "recordUpdates": sum(
-                    item.get("status") in {"update", "baseline_update"}
+                    item.get("status") in {"update", "approved_update", "baseline_update"}
+                    for item in self.record_changes
+                ),
+                "approvedConflictUpdates": sum(
+                    item.get("status") == "approved_update"
                     for item in self.record_changes
                 ),
                 "recordNoops": self.noop_records,
@@ -393,6 +397,7 @@ class SyncPlan:
             f"- Changed paths: **{len(self.changed_paths):,}**",
             f"- Matched published records: **{summary['matchedRecords']:,}**",
             f"- Record updates: **{summary['recordUpdates']:,}**",
+            f"- Approved conflict overwrites: **{summary['approvedConflictUpdates']:,}**",
             f"- Record no-ops: **{summary['recordNoops']:,}**",
             f"- Conflicts: **{summary['conflicts']:,}**",
             f"- Affected versions: **{summary['affectedVersions']:,}**",
@@ -423,7 +428,7 @@ class SyncPlan:
         updates = [
             item
             for item in self.record_changes
-            if item.get("status") in {"update", "baseline_update"}
+            if item.get("status") in {"update", "approved_update", "baseline_update"}
         ]
         if updates:
             lines.extend(["## Transcript updates", ""])
@@ -1189,6 +1194,75 @@ def state_json(state: tuple[Any, bool] | TranscriptState | None) -> dict[str, An
     return {"text": state[0], "officialtranscription": state[1]}
 
 
+@dataclass(frozen=True)
+class ConflictApproval:
+    version: str
+    key: str
+    json_path: str
+    sha256: str
+    current_text: Any
+    current_official: bool
+    desired_text: Any
+    desired_official: bool
+
+    @classmethod
+    def from_json(cls, value: Any, index: int) -> "ConflictApproval":
+        if not isinstance(value, dict):
+            raise ContentSyncError(f"Conflict approval {index} must be an object.")
+        required = {"version", "key", "jsonPath", "sha256", "current", "desired"}
+        if set(value) != required:
+            raise ContentSyncError(
+                f"Conflict approval {index} must contain exactly: {', '.join(sorted(required))}."
+            )
+        current = value["current"]
+        desired = value["desired"]
+        for label, state in (("current", current), ("desired", desired)):
+            if not isinstance(state, dict) or set(state) != {
+                "text",
+                "officialtranscription",
+            }:
+                raise ContentSyncError(
+                    f"Conflict approval {index} {label} must contain exactly text and officialtranscription."
+                )
+            if not isinstance(state["officialtranscription"], bool):
+                raise ContentSyncError(
+                    f"Conflict approval {index} {label}.officialtranscription must be boolean."
+                )
+        strings = (value["version"], value["key"], value["jsonPath"], value["sha256"])
+        if not all(isinstance(item, str) and item for item in strings):
+            raise ContentSyncError(f"Conflict approval {index} has an invalid identity field.")
+        if not TRANSCRIPT_SHA_RE.fullmatch(value["sha256"]):
+            raise ContentSyncError(f"Conflict approval {index} has an invalid SHA-256.")
+        return cls(
+            version=value["version"],
+            key=value["key"],
+            json_path=value["jsonPath"],
+            sha256=value["sha256"],
+            current_text=current["text"],
+            current_official=current["officialtranscription"],
+            desired_text=desired["text"],
+            desired_official=desired["officialtranscription"],
+        )
+
+
+def load_conflict_approvals(path: Path | None) -> frozenset[ConflictApproval]:
+    if path is None:
+        return frozenset()
+    try:
+        value = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ContentSyncError(f"Could not read conflict approvals from {path}: {exc}") from exc
+    if not isinstance(value, dict) or value.get("schemaVersion") != 1:
+        raise ContentSyncError("Conflict approvals must use schemaVersion 1.")
+    raw = value.get("approvals")
+    if not isinstance(raw, list):
+        raise ContentSyncError("Conflict approvals must contain an approvals array.")
+    approvals = [ConflictApproval.from_json(item, index) for index, item in enumerate(raw)]
+    if len(set(approvals)) != len(approvals):
+        raise ContentSyncError("Conflict approvals contain duplicate entries.")
+    return frozenset(approvals)
+
+
 class ContentSyncPlanner:
     def __init__(
         self,
@@ -1196,11 +1270,13 @@ class ContentSyncPlanner:
         store: PublicJsonStore | R2JsonStore,
         game: str = "deadlock",
         cdn_base_url: str = "https://cdn.vlviewer.com",
+        conflict_approvals: Iterable[ConflictApproval] = (),
     ) -> None:
         self.repo = Path(repo).expanduser().resolve()
         self.store = store
         self.game = game
         self.cdn_base_url = cdn_base_url.rstrip("/")
+        self.conflict_approvals = frozenset(conflict_approvals)
         self.loaded: dict[str, StoredJson] = {}
 
     def load(self, key: str) -> StoredJson:
@@ -1249,7 +1325,7 @@ class ContentSyncPlanner:
         base: str | None,
         baseline: bool,
         plan: SyncPlan,
-    ) -> dict[str, tuple[TranscriptState | None, TranscriptState]]:
+    ) -> dict[str, tuple[tuple[TranscriptState, ...], TranscriptState]]:
         if baseline:
             selected = set(validation.by_sha)
             old_by_sha: dict[str, list[TranscriptState]] = {}
@@ -1281,7 +1357,7 @@ class ContentSyncPlanner:
                     if old is not None:
                         old_by_sha.setdefault(sha, []).append(old)
 
-        changes: dict[str, tuple[TranscriptState | None, TranscriptState]] = {}
+        changes: dict[str, tuple[tuple[TranscriptState, ...], TranscriptState]] = {}
         for sha in sorted(selected):
             candidates = validation.by_sha.get(sha, [])
             desired_states = {item.state.published for item in candidates}
@@ -1296,14 +1372,18 @@ class ContentSyncPlanner:
                 continue
             desired = candidates[0].state
             old_candidates = old_by_sha.get(sha, [])
-            old_states = {item.published for item in old_candidates}
-            if len(old_states) > 1:
-                plan.errors.append(
-                    f"Recording SHA-256 {sha} has conflicting base transcript states."
-                )
-                continue
-            old = old_candidates[0] if old_candidates else None
-            changes[sha] = old, desired
+            # A duplicated hash may have conflicting states in the base tree. A
+            # target that converges those aliases is safe to plan as long as the
+            # live CDN record matches any observed base state (or already matches
+            # the unique desired state). Preserve every candidate for that check.
+            old_by_published = {
+                item.published: item for item in old_candidates
+            }
+            expected_old = tuple(
+                old_by_published[published]
+                for published in sorted(old_by_published)
+            )
+            changes[sha] = expected_old, desired
         return changes
 
     def _direct_config_paths(self, paths: Iterable[str], baseline: bool) -> list[str]:
@@ -1412,7 +1492,8 @@ class ContentSyncPlanner:
                         selected = revision_changes.get(sha)
                         if selected is None:
                             continue
-                        old, desired = selected
+                        expected_old, desired = selected
+                        old = expected_old[0] if len(expected_old) == 1 else None
                         current = published_state(record)
                         matched_hashes.add(sha)
                         plan.matched_records += 1
@@ -1426,12 +1507,27 @@ class ContentSyncPlanner:
                         elif baseline:
                             status = "baseline_update"
                             object_updates += 1
-                        elif old is not None and current == old.published:
+                        elif any(current == candidate.published for candidate in expected_old):
                             status = "update"
                             object_updates += 1
                         else:
-                            status = "conflict"
-                            reason = "CDN record matches neither the expected base nor desired target state"
+                            approval = ConflictApproval(
+                                version=version_id,
+                                key=key,
+                                json_path=json_path,
+                                sha256=sha,
+                                current_text=current[0],
+                                current_official=current[1],
+                                desired_text=desired_published[0],
+                                desired_official=desired_published[1],
+                            )
+                            if approval in self.conflict_approvals:
+                                status = "approved_update"
+                                reason = "Exact CDN conflict state explicitly approved for overwrite"
+                                object_updates += 1
+                            else:
+                                status = "conflict"
+                                reason = "CDN record matches neither the expected base nor desired target state"
                         if status != "noop" or not baseline:
                             plan.record_changes.append(
                                 {
@@ -1443,10 +1539,13 @@ class ContentSyncPlanner:
                                     "sha256": sha,
                                     "current": state_json(current),
                                     "expectedOld": state_json(old),
+                                    "expectedOldStates": [
+                                        state_json(candidate) for candidate in expected_old
+                                    ],
                                     "desired": state_json(desired),
                                 }
                             )
-                        if status in {"update", "baseline_update"}:
+                        if status in {"update", "approved_update", "baseline_update"}:
                             record["transcription"] = desired.text
                             if desired.official:
                                 record["officialtranscription"] = True
@@ -1862,6 +1961,7 @@ def write_backups(plan: SyncPlan, backup_dir: Path | None) -> None:
 
 __all__ = [
     "ContentSyncError",
+    "ConflictApproval",
     "ContentSyncPlanner",
     "PublicJsonStore",
     "R2JsonStore",
@@ -1872,6 +1972,7 @@ __all__ = [
     "SyncPlan",
     "TranscriptState",
     "deploy_plan",
+    "load_conflict_approvals",
     "resolve_commit",
     "validate_repository",
     "write_reports",

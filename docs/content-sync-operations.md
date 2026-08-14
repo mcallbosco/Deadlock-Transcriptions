@@ -56,6 +56,27 @@ python -m tools.content_sync_cli plan `
 Planning requires the transcript/config tree to be committed and clean so the reported
 target commit always identifies the exact content that was evaluated.
 
+## Exact conflict approvals
+
+An incremental plan normally blocks when a live CDN record matches neither the Git base
+nor the desired target. A reviewed approval file may authorize an individual overwrite by
+pinning all of its identity and state fields: version, object key, JSON path, recording
+SHA-256, current published text/status, and desired published text/status. Any change to
+one of those fields remains a conflict; this is not a global force switch.
+
+Both pull-request planning and production deployment use
+`migration-reports/fuzzy-cdn-conflict-approvals.json` for the reviewed fuzzy-transcript
+migration. Once those records hold the desired state, the entries are harmless no-ops.
+Generate a reviewed set from a saved blocked plan with:
+
+```powershell
+python -m tools.create_content_sync_conflict_approvals `
+  plan.json `
+  migration-reports/fuzzy-cdn-conflict-approvals.json `
+  --expected-count <reviewed-count> `
+  --source-run-url <github-actions-run-url>
+```
+
 Initialization refuses to run if the cursor already exists. A failed initialization is
 safe to rerun: desired-state objects become no-ops, metadata retains the target deployment
 identity, and the cursor is written only after public verification.

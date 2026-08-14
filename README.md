@@ -10,6 +10,31 @@ source authority (`official`, then `manual`, then `generated`).
 Edit a revision's `text`, set `source` to `manual`, remove `model`, preview locally,
 then commit. Split a hash into a separate revision when one recording needs different text.
 
+To audit the remaining revision groups for near-matching text without modifying any
+transcripts, run:
+
+```powershell
+python tools/audit_fuzzy_transcript_matches.py
+```
+
+The audit compares groups only within the same transcript file and writes complete
+JSON plus a compact Markdown review report under `migration-reports/`. Confidence
+levels are advisory; even high-confidence candidates require human review.
+
+After reviewing the generated/official candidates, merge them with the official group
+as the survivor using:
+
+```powershell
+python tools/apply_fuzzy_generated_official_matches.py
+python tools/apply_fuzzy_generated_official_matches.py --apply
+```
+
+The first command is a dry run. The apply command preserves all hashes and excludes
+official text mentioning Hidden King or Archmother, recording every exclusion in JSON
+and Markdown under `migration-reports/`. It also propagates each promoted official
+state to alias filenames that contain the same audio hash, splitting revision groups
+when necessary so unrelated hashes retain their existing transcript state.
+
 ## Legacy contribution audit
 
 Stage 1 of the legacy migration is an audit only. It reads the legacy and v3 layouts

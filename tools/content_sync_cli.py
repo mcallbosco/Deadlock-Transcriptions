@@ -14,6 +14,7 @@ from .content_sync import (
     PublicJsonStore,
     R2JsonStore,
     deploy_plan,
+    load_conflict_approvals,
     require_checked_out_target,
     validate_repository,
     write_backups,
@@ -38,6 +39,11 @@ def add_common(parser: argparse.ArgumentParser) -> None:
     )
     parser.add_argument("--output-json", type=Path)
     parser.add_argument("--output-markdown", type=Path)
+    parser.add_argument(
+        "--conflict-approvals",
+        type=Path,
+        help="Exact, reviewed CDN conflict states that may be overwritten",
+    )
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -103,7 +109,13 @@ def plan_command(args: argparse.Namespace) -> int:
     if not args.baseline and not args.base:
         raise ContentSyncError("Pass --base for an incremental plan or --baseline.")
     public = PublicJsonStore(args.cdn_base_url)
-    planner = ContentSyncPlanner(args.repo, public, args.game, args.cdn_base_url)
+    planner = ContentSyncPlanner(
+        args.repo,
+        public,
+        args.game,
+        args.cdn_base_url,
+        load_conflict_approvals(args.conflict_approvals),
+    )
     plan = planner.build(
         target=args.target,
         base=args.base,
@@ -152,7 +164,13 @@ def deploy_command(args: argparse.Namespace) -> int:
         baseline = False
 
     public = PublicJsonStore(args.cdn_base_url)
-    planner = ContentSyncPlanner(args.repo, r2, args.game, args.cdn_base_url)
+    planner = ContentSyncPlanner(
+        args.repo,
+        r2,
+        args.game,
+        args.cdn_base_url,
+        load_conflict_approvals(args.conflict_approvals),
+    )
     plan = planner.build(
         target=target_commit,
         base=base,
