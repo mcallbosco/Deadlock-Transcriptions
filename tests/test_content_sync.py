@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from tools.content_sync import (
+    ConflictApproval,
     ContentSyncError,
     ContentSyncPlanner,
     PlannedWrite,
@@ -18,6 +19,7 @@ from tools.content_sync import (
     SyncPlan,
     canonical_json,
     deploy_plan,
+    load_conflict_approvals,
     validate_repository,
     verify_public_writes,
 )
@@ -202,6 +204,99 @@ class ContentSyncTests(unittest.TestCase):
 
         self.assertFalse(plan.deployable)
         self.assertEqual(plan.conflict_count, 1)
+
+    def test_exact_conflict_approval_allows_overwrite(self) -> None:
+        values = self.published()
+        values["deadlock/versions/v1/conversations.json"]["conversations"][0]["lines"][0][
+            "transcription"
+        ] = "out-of-band edit"
+        self.write_transcript("corrected text", "manual")
+        self.commit("correct transcript")
+
+        blocked = ContentSyncPlanner(
+            self.repo, MemoryStore(values), cdn_base_url=CDN
+        ).build(base=self.base)
+        conflict = next(item for item in blocked.record_changes if item["status"] == "conflict")
+        approval = ConflictApproval.from_json(
+            {
+                **{
+                    field: conflict[field]
+                    for field in ("version", "key", "jsonPath", "sha256")
+                },
+                "current": conflict["current"],
+                "desired": {
+                    "text": conflict["desired"]["text"],
+                    "officialtranscription": conflict["desired"]["officialtranscription"],
+                },
+            },
+            0,
+        )
+        approved = ContentSyncPlanner(
+            self.repo,
+            MemoryStore(values),
+            cdn_base_url=CDN,
+            conflict_approvals=[approval],
+        ).build(base=self.base)
+
+        self.assertTrue(approved.deployable, approved.to_markdown())
+        self.assertEqual(approved.conflict_count, 0)
+        self.assertEqual(
+            sum(item["status"] == "approved_update" for item in approved.record_changes),
+            1,
+        )
+        conversation = next(
+            write.value
+            for write in approved.writes
+            if write.key == "deadlock/versions/v1/conversations.json"
+        )
+        record = conversation["conversations"][0]["lines"][0]
+        self.assertEqual(record["transcription"], "corrected text")
+
+    def test_changed_conflict_state_is_not_approved(self) -> None:
+        values = self.published()
+        values["deadlock/versions/v1/conversations.json"]["conversations"][0]["lines"][0][
+            "transcription"
+        ] = "new third state"
+        self.write_transcript("corrected text", "manual")
+        self.commit("correct transcript")
+        approval = ConflictApproval(
+            version="v1",
+            key="deadlock/versions/v1/conversations.json",
+            json_path="$/conversations/0/lines/0",
+            sha256=SHA,
+            current_text="different approved state",
+            current_official=False,
+            desired_text="corrected text",
+            desired_official=False,
+        )
+
+        plan = ContentSyncPlanner(
+            self.repo,
+            MemoryStore(values),
+            cdn_base_url=CDN,
+            conflict_approvals=[approval],
+        ).build(base=self.base)
+
+        self.assertFalse(plan.deployable)
+        self.assertEqual(plan.conflict_count, 1)
+
+    def test_conflict_approval_loader_rejects_duplicates(self) -> None:
+        approval = {
+            "version": "v1",
+            "key": "deadlock/versions/v1/conversations.json",
+            "jsonPath": "$/conversations/0/lines/0",
+            "sha256": SHA,
+            "current": {"text": "third state", "officialtranscription": False},
+            "desired": {"text": "corrected text", "officialtranscription": False},
+        }
+        path = self.repo / "approvals.json"
+        path.write_text(
+            json.dumps({"schemaVersion": 1, "approvals": [approval, approval]}),
+            encoding="utf-8",
+        )
+
+        with self.assertRaisesRegex(ContentSyncError, "duplicate"):
+            load_conflict_approvals(path)
 
     def test_ambiguous_base_may_converge_to_one_target_state(self) -> None:
         alias_path = self.repo / "transcripts" / "hero" / "line_alias.mp3.json"
