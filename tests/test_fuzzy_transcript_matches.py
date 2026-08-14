@@ -19,6 +19,7 @@ from tools.reconcile_fuzzy_official_aliases import (
     official_targets,
     reconcile_document,
 )
+from tools.review_generated_fuzzy_batch import apply_operation
 
 
 def revision(digest: str, text: str, source: str = "generated") -> dict[str, object]:
@@ -203,6 +204,53 @@ class FuzzyTranscriptMatchTests(unittest.TestCase):
                     },
                 ]
             )
+
+    def test_reviewed_generated_merge_preserves_unrelated_revisions_and_hashes(self) -> None:
+        left = revision("1", "Flash grows stronger.")
+        right = revision("2", "Lash grows stronger.")
+        right["model"] = "test-model"
+        official = revision("3", "The Hidden King calls to Lash.", "official")
+        document = {
+            "schemaVersion": 3,
+            "filename": "patron_male_enemy_lash.mp3",
+            "revisions": [left, right, official],
+        }
+        result_revision = dict(right)
+        result_revision["sha256"] = ["1" * 64, "2" * 64]
+        operation = {
+            "path": "transcripts/patron_male_enemy_lash.mp3.json",
+            "members": [
+                {"revisionIndex": 0, "revision": left},
+                {"revisionIndex": 1, "revision": right},
+            ],
+            "result": result_revision,
+        }
+
+        updated, status = apply_operation(document, operation)
+
+        self.assertEqual(status, "update")
+        self.assertEqual(updated["revisions"], [result_revision, official])
+
+    def test_reviewed_generated_merge_requires_exact_member_state(self) -> None:
+        left = revision("1", "Original generated text.")
+        target = revision("2", "Target.")
+        target["sha256"] = ["1" * 64, "2" * 64]
+        document = {
+            "schemaVersion": 3,
+            "filename": "line.mp3",
+            "revisions": [revision("1", "Changed generated text."), revision("2", "Target.")],
+        }
+        operation = {
+            "path": "transcripts/line.mp3.json",
+            "members": [
+                {"revisionIndex": 0, "revision": left},
+                {"revisionIndex": 1, "revision": revision("2", "Target.")},
+            ],
+            "result": target,
+        }
+
+        with self.assertRaisesRegex(ValueError, "not found exactly once"):
+            apply_operation(document, operation)
 
 
 if __name__ == "__main__":

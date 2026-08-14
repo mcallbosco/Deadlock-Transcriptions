@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "batch": 1,
+  "sourceCandidateReport": "migration-reports/fuzzy-transcript-candidates.json",
+  "sourceCandidateReportSha256": "eb9fbb5fe137d8a9f7def3a0a4b9d3e83561bd321fcca6e29375d876b7335d30",
+  "reviewDecisions": "migration-reports/fuzzy-generated-generated-review-decisions-batch-01.json",
+  "reviewDecisionsSha256": "7484ad1412ee7f32133ec054774b1c5f1e98474a3af54bd249bc8f2b9a96ee2d",
+  "selection": "first 40 independent high-confidence generated/generated components",
+  "decision": "needs user review",
+  "statistics": {
+    "components": 6
+  },
+  "candidates": [
+    {
+      "candidateIndex": 5,
+      "path": "transcripts/newscaster/newscaster_headline_53.mp3.json",
+      "filename": "newscaster/newscaster_headline_53.mp3",
+      "candidateConfidence": "high",
+      "similarity": 0.995169,
+      "recommendation": "right",
+      "evidence": "Totten is the more conventional surname spelling, but repository vocabulary does not establish this fictional name.",
+      "members": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "5ebc431e83995a44cfac9f07167df7294fd66c4ed8ee1e2d312c37c0fdb4be88"
+            ],
+            "text": "Is Trinity Church an undead time bomb waiting to explode? We talked with premier necromancer Frederick Toten to get his take.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "1ecad9998ba21a10be879bde1a526295d364e69a1579b5c5b2f37443a463b9ca"
+            ],
+            "text": "Is Trinity Church an undead time bomb waiting to explode? We talked with premier necromancer Frederick Totten to get his take.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ],
+      "selectedRevisionIndex": 1,
+      "result": {
+        "sha256": [
+          "1ecad9998ba21a10be879bde1a526295d364e69a1579b5c5b2f37443a463b9ca",
+          "5ebc431e83995a44cfac9f07167df7294fd66c4ed8ee1e2d312c37c0fdb4be88"
+        ],
+        "text": "Is Trinity Church an undead time bomb waiting to explode? We talked with premier necromancer Frederick Totten to get his take.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      }
+    },
+    {
+      "candidateIndex": 11,
+      "path": "transcripts/newscaster/newscaster_headline_81.mp3.json",
+      "filename": "newscaster/newscaster_headline_81.mp3",
+      "candidateConfidence": "high",
+      "similarity": 0.993988,
+      "recommendation": "right",
+      "evidence": "Queen & Coven appears to be title styling, but the repository has no authoritative title reference.",
+      "members": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "a42d4df4f46e050b1ffd3d6bcf20e0db251264844f52d47bb7aa3a5328fc3623"
+            ],
+            "text": "The international bestseller for queen and coven, highlighting the daring exploits of the queen's own 13th airborne assault coven, is under fire as representatives of the crown claim that some of the operations detailed in the tell-all violate the nation's scrying laws and pose a national security risk.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "26163a281c909a42a71ce03f12e95cd2c9abe18991bfe303a7204ddc2d2ae62a"
+            ],
+            "text": "The international bestseller for Queen & Coven, highlighting the daring exploits of the queen's own 13th airborne assault coven, is under fire as representatives of the crown claim that some of the operations detailed in the tell-all violate the nation's scrying laws and pose a national security risk.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ],
+      "selectedRevisionIndex": 1,
+      "result": {
+        "sha256": [
+          "26163a281c909a42a71ce03f12e95cd2c9abe18991bfe303a7204ddc2d2ae62a",
+          "a42d4df4f46e050b1ffd3d6bcf20e0db251264844f52d47bb7aa3a5328fc3623"
+        ],
+        "text": "The international bestseller for Queen & Coven, highlighting the daring exploits of the queen's own 13th airborne assault coven, is under fire as representatives of the crown claim that some of the operations detailed in the tell-all violate the nation's scrying laws and pose a national security risk.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      }
+    },
+    {
+      "candidateIndex": 12,
+      "path": "transcripts/synth/pocket_select_04.mp3.json",
+      "filename": "synth/pocket_select_04.mp3",
+      "candidateConfidence": "high",
+      "similarity": 0.993548,
+      "recommendation": "left",
+      "evidence": "A parallel Pocket file uses 'Today's my chance', but these hashes may still contain a distinct contraction.",
+      "members": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "6e34b36779680e1d9d989b0d891e437cbdbafc1cd387c2084b78886577b8c58f"
+            ],
+            "text": "My father's gift for my 18th birthday was a bullet to the chest. Today's my chance to say thank you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "12a139aacfd9cf078bf58c56372f0c3e974ec38c526499ce295eec87ea1952e7"
+            ],
+            "text": "My father's gift for my 18th birthday was a bullet to the chest. Today is my chance to say thank you.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ],
+      "selectedRevisionIndex": 0,
+      "result": {
+        "sha256": [
+          "12a139aacfd9cf078bf58c56372f0c3e974ec38c526499ce295eec87ea1952e7",
+          "6e34b36779680e1d9d989b0d891e437cbdbafc1cd387c2084b78886577b8c58f"
+        ],
+        "text": "My father's gift for my 18th birthday was a bullet to the chest. Today's my chance to say thank you.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      }
+    },
+    {
+      "candidateIndex": 14,
+      "path": "transcripts/shopkeeper/guide_the_map_core.mp3.json",
+      "filename": "shopkeeper/guide_the_map_core.mp3",
+      "candidateConfidence": "high",
+      "similarity": 0.993197,
+      "recommendation": "right",
+      "evidence": "The right reading fixes the comma splice, but it also changes an audible contraction.",
+      "members": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "a75d2893be317872c8f5b53b2d900aebbe38d7f90c0640ccf21a106acb5a4cea"
+            ],
+            "text": "There's a shrine at the back of each team's base, destroying the enemy's shrine wins the game.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "2100e097e5cc79f28dfcb157a3b2f378e6f223b577556a60ad5e62f8c52136c1",
+              "294b9becbbe1cc5f6d2c8359e3d7fe9cd9b1363fa1bbd9d8576bca85d3e8fd1d"
+            ],
+            "text": "There is a shrine at the back of each team's base. Destroying the enemy's shrine wins the game.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ],
+      "selectedRevisionIndex": 1,
+      "result": {
+        "sha256": [
+          "2100e097e5cc79f28dfcb157a3b2f378e6f223b577556a60ad5e62f8c52136c1",
+          "294b9becbbe1cc5f6d2c8359e3d7fe9cd9b1363fa1bbd9d8576bca85d3e8fd1d",
+          "a75d2893be317872c8f5b53b2d900aebbe38d7f90c0640ccf21a106acb5a4cea"
+        ],
+        "text": "There is a shrine at the back of each team's base. Destroying the enemy's shrine wins the game.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      }
+    },
+    {
+      "candidateIndex": 22,
+      "path": "transcripts/gigawatt/gigawatt_select_10.mp3.json",
+      "filename": "gigawatt/gigawatt_select_10.mp3",
+      "candidateConfidence": "high",
+      "similarity": 0.991304,
+      "recommendation": "right",
+      "evidence": "Past-tense 'freed' fits the sentence and has three hashes, but present-tense 'free' remains grammatical.",
+      "members": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "9ecce7f149cf0ce27983ee70916133be4c86d57499c1199c6c898e417ba40310"
+            ],
+            "text": "I free myself from the shackles of the past, and my future looks bright.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "37b22eb2deb4950b9c2ff6a844959edfb4fcd69da19c0415334308d062e5c5e0",
+              "8139aec31a37284d9d7432a5bcaaad4154fe730bb8397ccd9f92f87752dae0e7",
+              "dbf6665a1da36857d391d3c5362c92ffb44bce63fa3e5bda6cc217681353e841"
+            ],
+            "text": "I freed myself from the shackles of the past, and my future looks bright.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ],
+      "selectedRevisionIndex": 1,
+      "result": {
+        "sha256": [
+          "37b22eb2deb4950b9c2ff6a844959edfb4fcd69da19c0415334308d062e5c5e0",
+          "8139aec31a37284d9d7432a5bcaaad4154fe730bb8397ccd9f92f87752dae0e7",
+          "9ecce7f149cf0ce27983ee70916133be4c86d57499c1199c6c898e417ba40310",
+          "dbf6665a1da36857d391d3c5362c92ffb44bce63fa3e5bda6cc217681353e841"
+        ],
+        "text": "I freed myself from the shackles of the past, and my future looks bright.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      }
+    },
+    {
+      "candidateIndex": 37,
+      "path": "transcripts/newscaster/newscaster_headline_20.mp3.json",
+      "filename": "newscaster/newscaster_headline_20.mp3",
+      "candidateConfidence": "high",
+      "similarity": 0.988142,
+      "recommendation": "right",
+      "evidence": "Cindermaw and singular spirit form a coherent legal headline, but neither name nor number has an authoritative repository reference.",
+      "members": [
+        {
+          "revisionIndex": 0,
+          "revision": {
+            "sha256": [
+              "e631f2a910d49ea9954aefe9428d05f19d34d3df5d7a04ffd0c807cc9ccb76d3"
+            ],
+            "text": "The Supreme Court today upheld Cindermar vs. the State of Alabama, paving the way for the spirits' congressional bid. Read all about it in the New York Oracle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        },
+        {
+          "revisionIndex": 1,
+          "revision": {
+            "sha256": [
+              "a772a311f75c7db805effd67fae8e6d5e44c378520c384a28a62d7491c88f0b8"
+            ],
+            "text": "The Supreme Court today upheld Cindermaw v. the State of Alabama, paving the way for the spirit's congressional bid. Read all about it in the New York Oracle.",
+            "source": "generated",
+            "model": "gpt-4o-mini-transcribe"
+          }
+        }
+      ],
+      "selectedRevisionIndex": 1,
+      "result": {
+        "sha256": [
+          "a772a311f75c7db805effd67fae8e6d5e44c378520c384a28a62d7491c88f0b8",
+          "e631f2a910d49ea9954aefe9428d05f19d34d3df5d7a04ffd0c807cc9ccb76d3"
+        ],
+        "text": "The Supreme Court today upheld Cindermaw v. the State of Alabama, paving the way for the spirit's congressional bid. Read all about it in the New York Oracle.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      }
+    }
+  ]
+}
