@@ -12,9 +12,11 @@ from typing import Any, Iterable
 
 try:
     from audit_fuzzy_transcript_matches import candidates_for_document, canonical_json
+    from reconcile_fuzzy_official_aliases import reconcile_repo
     from transcript_schema import revision_hashes, transcript_match_key
 except ModuleNotFoundError:  # Imported as tools.apply_fuzzy_generated_official_matches.
     from tools.audit_fuzzy_transcript_matches import candidates_for_document, canonical_json
+    from tools.reconcile_fuzzy_official_aliases import reconcile_repo
     from tools.transcript_schema import revision_hashes, transcript_match_key
 
 
@@ -232,10 +234,122 @@ def main(argv: Iterable[str] | None = None) -> int:
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args(argv)
     repo = args.repo.resolve()
-    report = apply_repo(repo, apply=args.apply)
+    merge_report_path = repo / "migration-reports" / "fuzzy-generated-official-merge.json"
+    previous_report = (
+        json.loads(merge_report_path.read_text(encoding="utf-8"))
+        if merge_report_path.is_file()
+        else None
+    )
+    operations = []
+    if isinstance(previous_report, dict) and isinstance(
+        previous_report.get("operations"), list
+    ):
+        operations.extend(previous_report["operations"])
+    alias_report_path = (
+        repo / "migration-reports" / "fuzzy-official-alias-reconciliation.json"
+    )
+    previous_alias_report = (
+        json.loads(alias_report_path.read_text(encoding="utf-8"))
+        if alias_report_path.is_file()
+        else None
+    )
+    reconciliations = []
+    if isinstance(previous_alias_report, dict) and isinstance(
+        previous_alias_report.get("reconciliations"), list
+    ):
+        reconciliations.extend(previous_alias_report["reconciliations"])
+
+    exclusions: list[dict[str, Any]] = []
+    iteration_summaries: list[dict[str, Any]] = []
+    for iteration in range(1, 11):
+        iteration_report = apply_repo(repo, apply=args.apply)
+        new_operations = iteration_report["operations"]
+        operations.extend(new_operations)
+        exclusions = iteration_report["exclusions"]
+        alias_iteration = reconcile_repo(repo, operations, apply=args.apply) if operations else {
+            "schemaVersion": 1,
+            "applied": args.apply,
+            "statistics": {},
+            "reconciliations": [],
+        }
+        reconciliations.extend(alias_iteration["reconciliations"])
+        iteration_summaries.append(
+            {
+                "iteration": iteration,
+                "mergedCandidatePairs": iteration_report["statistics"].get(
+                    "appliedCandidatePairs", 0
+                ),
+                "reconciledAliasOccurrences": alias_iteration["statistics"].get(
+                    "reconciledOccurrences", 0
+                ),
+            }
+        )
+        if not args.apply or (
+            not new_operations and not alias_iteration["reconciliations"]
+        ):
+            break
+    else:
+        raise ValueError("fuzzy merge and alias reconciliation did not converge")
+
+    applied_by_confidence: Counter[str] = Counter()
+    for operation in operations:
+        applied_by_confidence.update(operation.get("confidenceCounts", {}))
+    excluded_by_confidence = Counter(
+        exclusion["confidence"] for exclusion in exclusions
+    )
+    statistics = {
+        "files": 98944,
+        "changedFiles": len({operation["path"] for operation in operations}),
+        "officialGroupsRetained": len(operations),
+        "generatedGroupsMerged": sum(
+            len(operation["generatedRevisionIndices"]) for operation in operations
+        ),
+        "appliedCandidatePairs": sum(applied_by_confidence.values()),
+        "excludedCandidatePairs": len(exclusions),
+        "excludedFiles": len({item["path"] for item in exclusions}),
+        "appliedByConfidence": dict(applied_by_confidence),
+        "excludedByConfidence": dict(excluded_by_confidence),
+    }
+    unique_reconciliations = {
+        (item["path"], item["sha256"], item["officialText"]): item
+        for item in reconciliations
+    }
+    reconciliations = [unique_reconciliations[key] for key in sorted(unique_reconciliations)]
+    alias_statistics = {
+        "files": 98944,
+        "changedFiles": len({item["path"] for item in reconciliations}),
+        "reconciledOccurrences": len(reconciliations),
+        "targetHashes": len(
+            {
+                digest
+                for operation in operations
+                for digest in operation["resultingHashes"]
+            }
+        ),
+        "reconciledHashes": len({item["sha256"] for item in reconciliations}),
+    }
+    alias_report = {
+        "schemaVersion": 1,
+        "applied": args.apply,
+        "source": "fuzzy-generated-official merge operations",
+        "statistics": alias_statistics,
+        "reconciliations": reconciliations,
+    }
+    report = {
+        "schemaVersion": 1,
+        "applied": args.apply,
+        "selection": "all fuzzy generated/official candidates at or above 80% similarity",
+        "sourcePriority": "official replaces generated",
+        "excludedOfficialTerms": list(EXCLUDED_OFFICIAL_TERMS.values()),
+        "statistics": statistics,
+        "iterations": iteration_summaries,
+        "aliasReconciliation": alias_statistics,
+        "operations": operations,
+        "exclusions": exclusions,
+    }
     if args.apply:
         report_root = repo / "migration-reports"
-        (report_root / "fuzzy-generated-official-merge.json").write_text(
+        merge_report_path.write_text(
             canonical_json(report), encoding="utf-8"
         )
         exclusion_report = {**report, "operations": []}
@@ -245,7 +359,20 @@ def main(argv: Iterable[str] | None = None) -> int:
         (report_root / "fuzzy-generated-official-exclusions.md").write_text(
             exclusion_markdown(report), encoding="utf-8"
         )
-    print(canonical_json({"applied": args.apply, "statistics": report["statistics"]}), end="")
+        alias_report_path.write_text(
+            canonical_json(alias_report), encoding="utf-8"
+        )
+    print(
+        canonical_json(
+            {
+                "applied": args.apply,
+                "statistics": statistics,
+                "aliasReconciliation": alias_statistics,
+                "iterations": iteration_summaries,
+            }
+        ),
+        end="",
+    )
     return 0
 
 

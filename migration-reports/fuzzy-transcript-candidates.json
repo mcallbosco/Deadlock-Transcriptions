@@ -19,18 +19,18 @@
   },
   "statistics": {
     "files": 98944,
-    "revisionGroups": 122663,
-    "withinFilePairs": 30486,
+    "revisionGroups": 122573,
+    "withinFilePairs": 30344,
     "blankPairsSkipped": 180,
-    "fuzzyPairsCompared": 30306,
-    "lowConfidenceCandidates": 4170,
-    "mediumConfidenceCandidates": 1914,
-    "highConfidenceCandidates": 1158,
-    "candidates": 7242,
+    "fuzzyPairsCompared": 30164,
+    "lowConfidenceCandidates": 4110,
+    "mediumConfidenceCandidates": 1893,
+    "highConfidenceCandidates": 1128,
+    "candidates": 7131,
     "exactNormalizedPairsSkipped": 0
   },
   "candidatesBySourcePair": {
-    "generated + generated": 7066,
+    "generated + generated": 6955,
     "generated + manual": 63,
     "generated + official": 106,
     "manual + official": 3,
@@ -38,18 +38,18 @@
   },
   "candidatesByConfidenceAndSourcePair": {
     "high": {
-      "generated + generated": 1145,
+      "generated + generated": 1115,
       "generated + manual": 7,
       "generated + official": 4,
       "manual + official": 2
     },
     "medium": {
-      "generated + generated": 1845,
+      "generated + generated": 1824,
       "generated + manual": 25,
       "generated + official": 44
     },
     "low": {
-      "generated + generated": 4076,
+      "generated + generated": 4016,
       "generated + manual": 31,
       "generated + official": 58,
       "manual + official": 1,
@@ -3525,40 +3525,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_holliday_03.mp3.json",
-      "filename": "haze/haze_kill_holliday_03.mp3",
-      "confidence": "high",
-      "similarity": 0.981818,
-      "normalizedLengths": [
-        27,
-        28
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "0e859f348f0d524db4ed5df285095a6ead47dc0e2bea053a9b1e4bf46ab9ba90",
-          "c18358543e764d9680bb6a3010a7a3a9fc72864eef8f961251cac4357a5efd8a"
-        ],
-        "text": "You're out of your depth, Holliday.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "9f99f624a6eff97ffad08d9a31a1364d1565cf1cb5e718c046b16c47d26d8b5f",
-          "bb616d4aca487516e00e7cce7467dc030dd76ff991301a28df6c98d129c7886f"
-        ],
-        "text": "You're out of your depths, Holliday.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/kelvin/kelvin_ally_bebop_uppercut_towards_boss_02.mp3.json",
       "filename": "kelvin/kelvin_ally_bebop_uppercut_towards_boss_02.mp3",
       "confidence": "high",
@@ -5020,38 +4986,6 @@
       }
     },
     {
-      "path": "transcripts/bebop/bebop_upgrade_power_01.mp3.json",
-      "filename": "bebop/bebop_upgrade_power_01.mp3",
-      "confidence": "high",
-      "similarity": 0.98,
-      "normalizedLengths": [
-        51,
-        49
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "e2b7c1c2933a10565bece46783682c555550e6df585d03eebe42d2ee676933e8"
-        ],
-        "text": "If they think they can run away, well, I've got a surprise for them.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "ef3b8bc04970e6e0d4280e39ccb7c813550fa13da04c0d45ab76dc03a1781845"
-        ],
-        "text": "If they think they can run away, well, I've got a surprise for 'em.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/lash/lash_ally_orion_pass_on_zipline_01.mp3.json",
       "filename": "lash/lash_ally_orion_pass_on_zipline_01.mp3",
       "confidence": "high",
@@ -5900,39 +5834,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_holliday_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_under_garage.mp3",
-      "confidence": "high",
-      "similarity": 0.978723,
-      "normalizedLengths": [
-        23,
-        24
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "08a2dd275509b818cf9c4656622e8e5047ece0cc0c2795e4f1848abacb6564dc",
-          "e838a6305bdaffd9dfb49235e35df1b0cd2926415a3695288149ec54bd55f9ee"
-        ],
-        "text": "Holliday's under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "b66c55de0edfec1fe5a9b8bf3333df6b40c3cf6221c4f17312a48dc19d3c356f"
-        ],
-        "text": "Holliday is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/hornet/ping/vindicta_ping_see_lash_02.mp3.json",
       "filename": "hornet/ping/vindicta_ping_see_lash_02.mp3",
       "confidence": "high",
@@ -6609,71 +6510,6 @@
           "81a607f9a508322474d0480e0b041becbe9849e8e4e1bb8048468ea2263fa25d"
         ],
         "text": "I can improve my technique.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_holliday_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_under_garage.mp3",
-      "confidence": "high",
-      "similarity": 0.977778,
-      "normalizedLengths": [
-        23,
-        22
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "08a2dd275509b818cf9c4656622e8e5047ece0cc0c2795e4f1848abacb6564dc",
-          "e838a6305bdaffd9dfb49235e35df1b0cd2926415a3695288149ec54bd55f9ee"
-        ],
-        "text": "Holliday's under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "5d86a221445259675ef722fd0ca2032575d420353b9305af917e6ab684b76b43"
-        ],
-        "text": "Holiday's under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_garage.mp3",
-      "confidence": "high",
-      "similarity": 0.977778,
-      "normalizedLengths": [
-        23,
-        22
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "8693b5f84919e7b56e0cfbc24a706e1231f4f0ffb84c37b359270c2f1ac51bdf"
-        ],
-        "text": "Pocket's on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "3d791e8035a84faaa63ca1117bb8b498ed05392a7ee5016b1af70056b152f37c"
-        ],
-        "text": "Pocket on top of the garage.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -7419,38 +7255,6 @@
           "b3dc482c6e17d0edb2c4bf76338efd8e85800bafd2901ef9be934fde14f4415a"
         ],
         "text": "Your pursuit of sanity is as pathetic as it is cliche.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_seven_03.mp3.json",
-      "filename": "haze/haze_kill_seven_03.mp3",
-      "confidence": "high",
-      "similarity": 0.976744,
-      "normalizedLengths": [
-        42,
-        44
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "1c4f4f1f48d7e959afa2b734c92c83ef07c3d395e53def9bcd1c7e5782ac730d"
-        ],
-        "text": "I'll tell you a secret, Seven. I've dreamed this moment.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "9df18176b5a88be301a9ca3ff1bd5915dd5eba0d9f4d64bbda5ad80b0f899aa8"
-        ],
-        "text": "I'll tell you a secret, Seven. I've dreamed of this moment.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -10109,40 +9913,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_see_holliday_on_bridge.mp3.json",
-      "filename": "haze/ping/haze_ping_see_holliday_on_bridge.mp3",
-      "confidence": "high",
-      "similarity": 0.974359,
-      "normalizedLengths": [
-        20,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "3b6d861c23b4002e187598ee32581072a0fc8af1004572081fe51110d4af7f6b",
-          "3c128065cb746f1a55ed365be7f8582f94f5e4da641674310cf7e7d2ba5243cc",
-          "69670a08b2245f58375119ffe507cc0a5c5b265cb6e7aa1f814f91f22b552eef"
-        ],
-        "text": "Holliday's on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "204b86f0d3fcea7b1921ac136eebab67d202bc9c6b480b449a2de8f5ca70c5ac"
-        ],
-        "text": "Holiday's on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/inferno/inferno_ally_lash_see_massive_stomp_02.mp3.json",
       "filename": "inferno/inferno_ally_lash_see_massive_stomp_02.mp3",
       "confidence": "high",
@@ -10334,38 +10104,6 @@
           "d4ff6631276a6aabb45dd01692441dfa0d4a32824b59cfcc843e1b12534c9068"
         ],
         "text": "Can we please kill Forth?",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/krill/ping/krill_ping_see_holliday_on_bridge.mp3.json",
-      "filename": "krill/ping/krill_ping_see_holliday_on_bridge.mp3",
-      "confidence": "high",
-      "similarity": 0.974359,
-      "normalizedLengths": [
-        20,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "da29bb264ba8bec4b4ce55ec01633ff9b49fa50396c269d2f604759d818a4f23"
-        ],
-        "text": "Holliday's on the bridge!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "5a5f45d4b981622601ffd79d3a88029289d80af7df744436231e585400b5a244"
-        ],
-        "text": "Holiday's on the bridge!",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -11408,40 +11146,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_paradox_05.mp3.json",
-      "filename": "haze/haze_kill_paradox_05.mp3",
-      "confidence": "high",
-      "similarity": 0.972973,
-      "normalizedLengths": [
-        18,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "ca2ccaa7c2fa085411d1f22072e638c2fd5031de4f72ffdc4afa57bdedb4d837"
-        ],
-        "text": "Such disappointment.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "42d1f00cf9a5b9a51b26a12a1984911198a786494beff65731afbbe30f9c11a4",
-          "7bf6a46e064d73d1a0090dd2b8c9e5a8fbec8a6a9ece274505f8d72d37d1509a",
-          "80eca487b64a74f739123a32f53f175290b2db4ecfed5353913f2ce5b4b00014"
-        ],
-        "text": "Such a disappointment.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_attack_sandeep.mp3.json",
       "filename": "haze/ping/haze_ping_attack_sandeep.mp3",
       "confidence": "high",
@@ -11470,74 +11174,6 @@
           "683224be97da7de06f77e97cedb44221a66da9b74bfa05c641f3cc155497a18b"
         ],
         "text": "Let's take out Sandeep.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_holliday.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_holliday.mp3",
-      "confidence": "high",
-      "similarity": 0.972973,
-      "normalizedLengths": [
-        19,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "2fed6be2f100295b1774f278f9454780a8ed82971202ec77a636357b797212f2",
-          "b5e24d57199127687e6d2e90823e015c7562f3813235777c9cdb30e92db8836d"
-        ],
-        "text": "Holliday, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "292e9b4338910b4cf5d9ac69fe36bf0c92fa5ecb00965bfc7a3b9f6dad6d2064",
-          "47e3655a5d7e7e7d7634d7b3430d682316f95c238987488cef4a013cdeacf191"
-        ],
-        "text": "Holiday, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_holliday_on_top_of_mid.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_on_top_of_mid.mp3",
-      "confidence": "high",
-      "similarity": 0.972973,
-      "normalizedLengths": [
-        19,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "3132c9641772043d735d012d534ca368ad29d1d600201dda025f63f12f1b0942"
-        ],
-        "text": "Holliday's on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "47fd2c1030c4e6ac92baa7b5da1e97d07e2f0e2e2f58ace9745ab2d9282b92be",
-          "729be25b73ba07f428eb26b7c1507780e3ccba56bba231e860839cfac6384f6c",
-          "ff70a8efd290b5f042af76daf0906cd66ef842e6a04cde4c2503f7823d55ed44"
-        ],
-        "text": "Holiday's on top of mid.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -11836,38 +11472,6 @@
       }
     },
     {
-      "path": "transcripts/kelvin/ping/kelvin_ping_attack_holliday.mp3.json",
-      "filename": "kelvin/ping/kelvin_ping_attack_holliday.mp3",
-      "confidence": "high",
-      "similarity": 0.972973,
-      "normalizedLengths": [
-        18,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "da2d4a0f381736d8468462172fe9a0fa904587b26f41ec58513ac93256a73357"
-        ],
-        "text": "Let's take out Holiday!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "4ddbfcd94ade3c7905e6630f8627c99bd8d5da9a74988256adbf93199b63cbc0"
-        ],
-        "text": "Let's take out Holliday!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/krill/krill_unselect_02.mp3.json",
       "filename": "krill/krill_unselect_02.mp3",
       "confidence": "high",
@@ -11902,38 +11506,6 @@
       }
     },
     {
-      "path": "transcripts/krill/ping/krill_ping_holliday_on_top_of_mid.mp3.json",
-      "filename": "krill/ping/krill_ping_holliday_on_top_of_mid.mp3",
-      "confidence": "high",
-      "similarity": 0.972973,
-      "normalizedLengths": [
-        19,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "132643eec031dc1454fc6c1f0dc632edc5ed6262b026cbdc0203b5030527711e"
-        ],
-        "text": "Holliday's on top of mid!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "70881418ca888f79186099635bf6f2ec975e9fe0673ceca06e128d031ea07b72"
-        ],
-        "text": "Holiday's on top of mid!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/lash/ping/lash_ping_astro_almost_respawn.mp3.json",
       "filename": "lash/ping/lash_ping_astro_almost_respawn.mp3",
       "confidence": "high",
@@ -11962,38 +11534,6 @@
           "b669e98ce0f9a8dc916239165087f4597f6dc338fba3a3d6af9a64f069826206"
         ],
         "text": "Holiday's almost back!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/mirage/ping/mirage_ping_ability1_not_ready.mp3.json",
-      "filename": "mirage/ping/mirage_ping_ability1_not_ready.mp3",
-      "confidence": "high",
-      "similarity": 0.972973,
-      "normalizedLengths": [
-        18,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "61585b58515f6ada1704686294c8fd2e3801c02daeb4f114b761dc3bdf34e756"
-        ],
-        "text": "Tornados on cooldown.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "f7e5b923e9003c774e6898778ea31e9221c32f2ffef186b85404d69c2a488276"
-        ],
-        "text": "Tornadoes on cooldown.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -12640,39 +12180,6 @@
           "66fcad4fd811e1b32df3507989dc9aea8e65a24586ad427c970347c311769dc6"
         ],
         "text": "Holiday, I can heal you!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/wraith/ping/wraith_ping_holliday_on_top_of_mid.mp3.json",
-      "filename": "wraith/ping/wraith_ping_holliday_on_top_of_mid.mp3",
-      "confidence": "high",
-      "similarity": 0.972973,
-      "normalizedLengths": [
-        18,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "95bf8d02a358e229f0b3afc1cf0bb1ed4d3afed693f834b39e2a5aa69071adde"
-        ],
-        "text": "Holiday's on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "3853d0380e744e33ba582319d7d388caafb71cdc42ee44a104974a530e8ca29a",
-          "64ddc76981b20a42584f5927297ca3323ad12a5108c4986653d0886c737a4a99"
-        ],
-        "text": "Holiday is on top of mid.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -13842,38 +13349,6 @@
       }
     },
     {
-      "path": "transcripts/krill/ping/krill_ping_ivy_under_garage.mp3.json",
-      "filename": "krill/ping/krill_ping_ivy_under_garage.mp3",
-      "confidence": "high",
-      "similarity": 0.971429,
-      "normalizedLengths": [
-        17,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "571869b9484c25517acd4e412771f87d891e0e185bc9cb8915c42d8a30dc36ba"
-        ],
-        "text": "IVs under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "458bca5ec622524a245bf9b49fb7ce522e183b0e7633e48b5a0de497b5b20806"
-        ],
-        "text": "Ivy's under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/mirage/ping/mirage_ping_kelvin_almost_respawn.mp3.json",
       "filename": "mirage/ping/mirage_ping_kelvin_almost_respawn.mp3",
       "confidence": "high",
@@ -14126,39 +13601,6 @@
           "8e262354adf2c6d93ac15b4aa76307b4197426ce8827449ff4f0d3ba5392876d"
         ],
         "text": "Purple's under attack!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/wraith/ping/wraith_ping_see_holliday_on_roof.mp3.json",
-      "filename": "wraith/ping/wraith_ping_see_holliday_on_roof.mp3",
-      "confidence": "high",
-      "similarity": 0.971429,
-      "normalizedLengths": [
-        17,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "a0283bde9febf044bd8abaeeb6e0b3d83cfc32827522a9f6fb2677c46f6443ca",
-          "a6a58a4c10e10af4fc720013b0a59fabae7a409d60982b5970bc40afbb472c48"
-        ],
-        "text": "Holiday's on the roof.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "23f414fff19e2e152fdd828ac770924f340d75dc3ea674a829ad45fa276492bd"
-        ],
-        "text": "Holliday's on the roof.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -15105,39 +14547,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_holliday_missing_01.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_missing_01.mp3",
-      "confidence": "high",
-      "similarity": 0.969697,
-      "normalizedLengths": [
-        16,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "03f8015d93087f2967e0208685455944a3b31c7f2516dcb96c7f679ed12cd301",
-          "426be159fffdd1377c7da0738a2e878b980c0e0c398d2de6015b804ee47a29ff"
-        ],
-        "text": "Holliday's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "0056333e00fc1c43520777d49f936c0681595132ed019da1f5db4e2436efb9f5"
-        ],
-        "text": "Holliday is missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_lash_almost_respawn.mp3.json",
       "filename": "haze/ping/haze_ping_lash_almost_respawn.mp3",
       "confidence": "high",
@@ -15976,38 +15385,6 @@
           "9c7cb6034125e9163078406410374dfa859ef422c0e7b85afc2b75994791ebfb"
         ],
         "text": "Lasher's almost back!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/wraith/ping/wraith_ping_holliday_missing_01.mp3.json",
-      "filename": "wraith/ping/wraith_ping_holliday_missing_01.mp3",
-      "confidence": "high",
-      "similarity": 0.969697,
-      "normalizedLengths": [
-        17,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "c6807df862ec1abe80a186178967fe0926e0defe3cf3fe18b2055af376458324"
-        ],
-        "text": "Holliday is missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "86fc7adb5ab5a169ad5f564ed85a1afaa0dfdfe5cf8be19b5c339cf1da302024"
-        ],
-        "text": "Holliday's missing.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -16985,39 +16362,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_holliday_missing_01.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_missing_01.mp3",
-      "confidence": "high",
-      "similarity": 0.967742,
-      "normalizedLengths": [
-        16,
-        15
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "03f8015d93087f2967e0208685455944a3b31c7f2516dcb96c7f679ed12cd301",
-          "426be159fffdd1377c7da0738a2e878b980c0e0c398d2de6015b804ee47a29ff"
-        ],
-        "text": "Holliday's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "0497bf6921cc7cb7c8dc8d45641f1415b025a473d8ac7dea02e46e91310c2e4d"
-        ],
-        "text": "Holiday's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_with_pocket.mp3.json",
       "filename": "haze/ping/haze_ping_with_pocket.mp3",
       "confidence": "high",
@@ -17824,38 +17168,6 @@
           "d7922ebbd36cd970918e78ac0d36a610e78b1a67529c6b4611c4e1c3e71033cd"
         ],
         "text": "I need help on green!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/wraith/ping/wraith_ping_holliday_missing_01.mp3.json",
-      "filename": "wraith/ping/wraith_ping_holliday_missing_01.mp3",
-      "confidence": "high",
-      "similarity": 0.967742,
-      "normalizedLengths": [
-        15,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "2f9bf13f9be2d7e80bf086c262a3a4c0559ee041f7134a1bf77312ec41b36707"
-        ],
-        "text": "Holiday's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "86fc7adb5ab5a169ad5f564ed85a1afaa0dfdfe5cf8be19b5c339cf1da302024"
-        ],
-        "text": "Holliday's missing.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -22074,108 +21386,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_careful_pocket_01.mp3.json",
-      "filename": "haze/ping/haze_ping_careful_pocket_01.mp3",
-      "confidence": "high",
-      "similarity": 0.962963,
-      "normalizedLengths": [
-        14,
-        13
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "3e67d6ac4a10759d0ece5d002e25f95eb6952e70e65d8f64e1a71e3064096e71"
-        ],
-        "text": "Careful, Pockets.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "34534961884a5a86fd265a8329de968c2606cc7e0664bc632b53b416c6bd6eef",
-          "e3daa1decbd163fcea603c235a85c9558b0795aa148a120dfcf9587a54be1b2a",
-          "fdc9dd22c2a9afc30f5f4278db83c6adbc3e83dbcb59d1da5b7cc85cc1716b18"
-        ],
-        "text": "Careful, Pocket.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_careful_pocket_02.mp3.json",
-      "filename": "haze/ping/haze_ping_careful_pocket_02.mp3",
-      "confidence": "high",
-      "similarity": 0.962963,
-      "normalizedLengths": [
-        14,
-        13
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "8681554143e172c55e81ff9805fc8cb4966ec1f9e66ab06171997766cdf5d3d2"
-        ],
-        "text": "Careful pockets.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "1de10768abce646b59778e3b8543142c5e3ba75da4efa072b5def2d0e2b24cea",
-          "ba6bc32ac1e8f691088f18268f2f47635f967ce34489e89edef7adff94eb7ae0",
-          "cda21b0a999ce94f3adca9d814e421263d05bed2771ef5de09e1d8de6bf34f75"
-        ],
-        "text": "Careful, Pocket.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_careful_pocket_03.mp3.json",
-      "filename": "haze/ping/haze_ping_careful_pocket_03.mp3",
-      "confidence": "high",
-      "similarity": 0.962963,
-      "normalizedLengths": [
-        14,
-        13
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "8bb1e2c8773e5999505f42e0be11485637f04fb43ceefaa1757eeaac4ecdfee1"
-        ],
-        "text": "Careful, Pockets.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "a0fae8de0baf6511a4ebbe84f0a38c34b03792ce99cf99bef10dd482573454ee",
-          "cf7d78cd2a3ca828f192524742896868aafe06aed6301ae0ee448eca2121dad0",
-          "d9ef9fc085864f7099d36dd262fcf424ff780e079a7c4704b30f0893702618b7"
-        ],
-        "text": "Careful, Pocket.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_murphy_missing_01.mp3.json",
       "filename": "haze/ping/haze_ping_murphy_missing_01.mp3",
       "confidence": "high",
@@ -24052,40 +23262,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_seven_05.mp3.json",
-      "filename": "haze/haze_kill_seven_05.mp3",
-      "confidence": "high",
-      "similarity": 0.961538,
-      "normalizedLengths": [
-        27,
-        25
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "c42b7e060af0e7fa33b4858ee15aa5665337424e879186bd81928a005fbb690f"
-        ],
-        "text": "Your nightmare has come to an end.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "2dd7704f5a712dbd9a948db6fa78ff2b2bb6f62a9767ce0c719adefac594b977",
-          "7fe350a565fd3dfdf0408eecd8979404c36cdb9299342ba2c9126fc18c971f09",
-          "af317875b4884e81f7c06a877546468496312ed6f45aaa81eb72460ec682fd76"
-        ],
-        "text": "Your nightmares come to an end.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/haze_sad_04.mp3.json",
       "filename": "haze/haze_sad_04.mp3",
       "confidence": "high",
@@ -25733,38 +24909,6 @@
           "0c5d958366cd00fd6744201aa06804dfda564087b894859f38a2b80b685ab4b9"
         ],
         "text": "Cow is missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/krill/ping/krill_ping_vindicta_on_top_of_garage.mp3.json",
-      "filename": "krill/ping/krill_ping_vindicta_on_top_of_garage.mp3",
-      "confidence": "high",
-      "similarity": 0.96,
-      "normalizedLengths": [
-        25,
-        25
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "be0f9cc20f1b371cb838679f976d2beb707e9cbf12359baa86245625ef12c605"
-        ],
-        "text": "Vindictus on top of the garage!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "e6d15e5a6f4c47854282a3d019b39cb644777e5229886ba758fca39b3d836ca1"
-        ],
-        "text": "Vindicta's on top of the garage!",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -28810,38 +27954,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_holliday_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_under_garage.mp3",
-      "confidence": "high",
-      "similarity": 0.956522,
-      "normalizedLengths": [
-        24,
-        22
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "b66c55de0edfec1fe5a9b8bf3333df6b40c3cf6221c4f17312a48dc19d3c356f"
-        ],
-        "text": "Holliday is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "5d86a221445259675ef722fd0ca2032575d420353b9305af917e6ab684b76b43"
-        ],
-        "text": "Holiday's under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_krill_was_here.mp3.json",
       "filename": "haze/ping/haze_ping_krill_was_here.mp3",
       "confidence": "high",
@@ -29366,38 +28478,6 @@
           "9f09572eb1905748b2b069e9bd7540d9300a6b98d4d76e7127f4911935b3bbee"
         ],
         "text": "I saw a wrecker!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/krill/ping/krill_ping_vindicta_under_garage.mp3.json",
-      "filename": "krill/ping/krill_ping_vindicta_under_garage.mp3",
-      "confidence": "high",
-      "similarity": 0.956522,
-      "normalizedLengths": [
-        23,
-        23
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "31a6e20d34fab894478735252adfdb9cb6bfda21b35dccf1192cb497155963d9"
-        ],
-        "text": "Vindictus under the garage!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "20a3de4edba180daddf13bfd3b96f24f31358f6e3ad171ec4a49587bbba185a3"
-        ],
-        "text": "Vendictus under the garage!",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -32149,40 +31229,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_geist_04.mp3.json",
-      "filename": "haze/haze_kill_geist_04.mp3",
-      "confidence": "high",
-      "similarity": 0.953846,
-      "normalizedLengths": [
-        33,
-        32
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "5006ef95f9060056ab42437bcb06c3aad34738681bac6ef7d204b934b5f3aae8",
-          "d0050a747dec7ebba136c49953225feb076c3c5924fd33e88f4053cdac2efe71",
-          "fca77a94d3735499394ccbcd9c1ed176ab537bce5cc4acaf26bf1e1931e708b1"
-        ],
-        "text": "Getting on our radar was a mistake, Geist.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "419a7cbfbe4c05a2fcdff3d2d02593a8adeff93a665c1ad99ee65e4d3af42b1c"
-        ],
-        "text": "Getting on our radar is a mistake, Geist.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/announcer/female_patron/patron_female_ally_krill_start_05.mp3.json",
       "filename": "announcer/female_patron/patron_female_ally_krill_start_05.mp3",
       "confidence": "high",
@@ -33469,40 +32515,6 @@
           "858023319b77a4877b393bfb7ceda5d9df3601f68e4a9a38a1c55d4bf81252a9"
         ],
         "text": "Your time has passed, Orion.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_pocket_01.mp3.json",
-      "filename": "haze/ping/haze_ping_see_pocket_01.mp3",
-      "confidence": "high",
-      "similarity": 0.952381,
-      "normalizedLengths": [
-        11,
-        10
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "4d893a1092f1f945fde132f00d5e49e47d30221bff54e3e6c25fc7b3f3af3e78",
-          "59b03faf39c7fb0dc6f8a47137f4f63d3b4fa9ab6391c3ff3df8be9a80bc146d",
-          "6844ad8f9374ce55664c53ab98b1e0f6edf2ce013096a85301e90dabdd8ae304"
-        ],
-        "text": "I see pockets.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "8bf77be9372a74e4133463d8b0b350a3c0c1aa34b4740507adf005338955713e"
-        ],
-        "text": "I see Pocket.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -39869,39 +38881,6 @@
       }
     },
     {
-      "path": "transcripts/krill/ping/krill_ping_attack_vindicta.mp3.json",
-      "filename": "krill/ping/krill_ping_attack_vindicta.mp3",
-      "confidence": "medium",
-      "similarity": 0.947368,
-      "normalizedLengths": [
-        19,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "1a0ae764f58522ef040e598aa005b455eb25f043a93a13d86b566be98ecd7a5f"
-        ],
-        "text": "Let's take out Vendicta!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "1d3d94044cc7025bb8e92ba2bf5c4d03c40aee410cda7fd5f8cf48fc9023591c",
-          "8d995da172ee9d511f4850a47a7f2d4dd5246ac6b72f7dd2cc0093bed77b6307"
-        ],
-        "text": "Let's take out Vindicta!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/krill/ping/krill_ping_stun_dynamo_01.mp3.json",
       "filename": "krill/ping/krill_ping_stun_dynamo_01.mp3",
       "confidence": "medium",
@@ -41714,40 +40693,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_holliday_04.mp3.json",
-      "filename": "haze/haze_kill_holliday_04.mp3",
-      "confidence": "medium",
-      "similarity": 0.945455,
-      "normalizedLengths": [
-        28,
-        27
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "80f9f7122c817f7e4dca80899688d1dfb930be3627685650d343f4e896d8eca7"
-        ],
-        "text": "Please the Troubadour to the OSIC.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "1867498e1c08c7b5b5c3af02bf43d4d74987be2ce7a585ec1f81ddc51cdf97b6",
-          "29e67221dd534bb37665188434f9140576242795b2dd5ee17f9463a0a3e1d044",
-          "a2ff478056eb635c0994abad75ca70caa158a9482c4606cb479aa2e823bea160"
-        ],
-        "text": "Leave the Troubadour to the OSIC.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/nano/calico_be_careful_01.mp3.json",
       "filename": "nano/calico_be_careful_01.mp3",
       "confidence": "medium",
@@ -42583,40 +41528,6 @@
           "683224be97da7de06f77e97cedb44221a66da9b74bfa05c641f3cc155497a18b"
         ],
         "text": "Let's take out Sandeep.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_abrams_02.mp3.json",
-      "filename": "haze/ping/haze_ping_see_abrams_02.mp3",
-      "confidence": "medium",
-      "similarity": 0.944444,
-      "normalizedLengths": [
-        18,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "d4f387876001e458e8e9797ead72d6afb9e4c70e3b85b96deb47b55c5f922db1"
-        ],
-        "text": "There's the detective.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "a6b0573cca6732876cd37f3f2df09235fd5e3416ed503a26f2ff8fe37b3d2947",
-          "ba843a7645fe824995a6c6dd79b09f39019f9d6356b63984f07368a3e82e4ee0",
-          "be77206ee19e910899a182adaa9877c0ad7d379affad533d191d46a9102309a6"
-        ],
-        "text": "Where's the detective?",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -44563,38 +43474,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_mcginnis_04.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_04.mp3",
-      "confidence": "medium",
-      "similarity": 0.942529,
-      "normalizedLengths": [
-        44,
-        43
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "c31d20a7d06089d26ebd107b232aadf07f1bbfae35f5b335dcf9a89f6e887012"
-        ],
-        "text": "Nicholas, you had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "c28526db09cf70b7ca82df7a039637bc94129a2900e9377baf54687d3e4958ea"
-        ],
-        "text": "Nicodus, you had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/lash/lash_select_13.mp3.json",
       "filename": "lash/lash_select_13.mp3",
       "confidence": "medium",
@@ -46268,39 +45147,6 @@
           "f66b5562f9ffb7ae3fbe998100f0bbbfe6a3392bf08c1faefc9f9003ae2f01a6"
         ],
         "text": "Calico's on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_paradox_on_roof.mp3.json",
-      "filename": "haze/ping/haze_ping_see_paradox_on_roof.mp3",
-      "confidence": "medium",
-      "similarity": 0.941176,
-      "normalizedLengths": [
-        16,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "eb1763b508abb7a3ae1d318e01bee106df9eb3a72f276b0694ea94db371bef68"
-        ],
-        "text": "Paradox on the roof.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "1dd40000bac5587b763057daa61a49fcbe1e52120c40cab1b48398f246a62266",
-          "d43cae777da80e05403a3190962b03b445ad1045ffb6ba5a02c1156f2fb9ee80"
-        ],
-        "text": "Paradox is on the roof.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -50079,70 +48925,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_geist.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_geist.mp3",
-      "confidence": "medium",
-      "similarity": 0.9375,
-      "normalizedLengths": [
-        16,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "07632dbdeaaf5109a47b0ecb0a7c553a2cfa55cd13d55f420e2cad0a53ca12c3"
-        ],
-        "text": "Taste, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "ace7d459109b1c6f7ced59236ee54c9bc118bd3612ca3b52db2460bdd37024b6"
-        ],
-        "text": "Caste, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_holliday_missing_01.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_missing_01.mp3",
-      "confidence": "medium",
-      "similarity": 0.9375,
-      "normalizedLengths": [
-        17,
-        15
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "0056333e00fc1c43520777d49f936c0681595132ed019da1f5db4e2436efb9f5"
-        ],
-        "text": "Holliday is missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "0497bf6921cc7cb7c8dc8d45641f1415b025a473d8ac7dea02e46e91310c2e4d"
-        ],
-        "text": "Holiday's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_with_sandeep.mp3.json",
       "filename": "haze/ping/haze_ping_with_sandeep.mp3",
       "confidence": "medium",
@@ -51205,38 +49987,6 @@
           "81fb44a9d95c12ef2efb66e91dae0ef22c25cd54fa0b7ed7dcb013f9f86c5437"
         ],
         "text": "Pyde is almost back!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/wraith/ping/wraith_ping_holliday_missing_01.mp3.json",
-      "filename": "wraith/ping/wraith_ping_holliday_missing_01.mp3",
-      "confidence": "medium",
-      "similarity": 0.9375,
-      "normalizedLengths": [
-        15,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "2f9bf13f9be2d7e80bf086c262a3a4c0559ee041f7134a1bf77312ec41b36707"
-        ],
-        "text": "Holiday's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "c6807df862ec1abe80a186178967fe0926e0defe3cf3fe18b2055af376458324"
-        ],
-        "text": "Holliday is missing.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -52369,39 +51119,6 @@
           "dbc4353be1ccaf029f9f806bbbb6ff7a8b2f6289a3f50f7e216b4427254f0410"
         ],
         "text": "I think I'll like the surface.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/wraith/ping/wraith_ping_holliday_under_garage.mp3.json",
-      "filename": "wraith/ping/wraith_ping_holliday_under_garage.mp3",
-      "confidence": "medium",
-      "similarity": 0.93617,
-      "normalizedLengths": [
-        25,
-        22
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "1153f3960a91c9b131b82afb22dffad338b7ebd3e7ad2c36af0ae853cb31ec88"
-        ],
-        "text": "The holiday's under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "078ae6dde71dad9b3b21eb2eeaf1e5fd7dd73f82b2e33175d02c07cd6453f754",
-          "72feca483a6a51d802013cfef8a9732976db5d34e7d9bb93c14e8296e7364f33"
-        ],
-        "text": "Holiday's under the garage.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -60082,70 +58799,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_calico_missing_01.mp3.json",
-      "filename": "haze/ping/haze_ping_calico_missing_01.mp3",
-      "confidence": "medium",
-      "similarity": 0.928571,
-      "normalizedLengths": [
-        14,
-        14
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "0f6226b3c420ad9b469e7c59f039d7a9a1a61799e8979f27694165b6ddeac319"
-        ],
-        "text": "Calicus missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "4a610bab21bbdcbbce118ff36c59a7a9bb49daaa8f3699d916134e6a16e5fe3c"
-        ],
-        "text": "Calico's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_calico_missing_01.mp3.json",
-      "filename": "haze/ping/haze_ping_calico_missing_01.mp3",
-      "confidence": "medium",
-      "similarity": 0.928571,
-      "normalizedLengths": [
-        14,
-        14
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "a0e119a39b1d2f571f97bc956f297f8e2c11d45b3c60021f71d38e77e38a23ff"
-        ],
-        "text": "Kalako's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "1719372c7039df473521663f4cf15620216f0fbb18f13ca45da8328065038416"
-        ],
-        "text": "Kaliko's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_ignore_hornet.mp3.json",
       "filename": "haze/ping/haze_ping_ignore_hornet.mp3",
       "confidence": "medium",
@@ -60210,40 +58863,6 @@
           "35db3de2c2c4cb4803314ee8a234d2480af902a34950cecdb48bef341de37589"
         ],
         "text": "Infernis is dead.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_paradox_in_mid.mp3.json",
-      "filename": "haze/ping/haze_ping_paradox_in_mid.mp3",
-      "confidence": "medium",
-      "similarity": 0.928571,
-      "normalizedLengths": [
-        14,
-        14
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "18f0e3135e670f2ce2cf2927148377fae036a6e8c1ffffcf533d3b2fd50a7ccf",
-          "93001b56442e6aaf417b0364844a01ededa1b46f1ce0a28179d41bb293ab2af9",
-          "f2449ad1be65d895627055ff7318ac8ed9f70dfe7dd92439424d79fca6141abe"
-        ],
-        "text": "Paradox is in mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "0a83b8c3e67c443e1a4ff36a5d47a571bdf059300cfcdc80e744b3e469887bbd"
-        ],
-        "text": "Paradoxes in mid.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -60861,38 +59480,6 @@
           "eef0330f6ac66b5d084fb3c389882ce2b29c95a581cb1903362d2059c1ea66cf"
         ],
         "text": "Kills on the roof!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/krill/ping/krill_ping_vindicta_in_mid.mp3.json",
-      "filename": "krill/ping/krill_ping_vindicta_in_mid.mp3",
-      "confidence": "medium",
-      "similarity": 0.928571,
-      "normalizedLengths": [
-        14,
-        14
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "67adb94393b8153648d9e1eebb2974381f9ced58f02a43cb8eb800ffab573b1e"
-        ],
-        "text": "Vendictus in mid!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "270b5581f99a98f419db92c9552dab5108cf965496a07f787df06d28ad3d9e1d"
-        ],
-        "text": "Vendicta's in mid!",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -66232,39 +64819,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_pocket_05.mp3.json",
-      "filename": "haze/haze_kill_pocket_05.mp3",
-      "confidence": "medium",
-      "similarity": 0.923077,
-      "normalizedLengths": [
-        20,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "6ab0386c9cc6e05df6014dc299d78ec0c9f0b22a39ffc5d929cb344c62b81f15"
-        ],
-        "text": "I sang pocket of lullaby.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "7ad8bde185be9559ad259d4d9a20abdbe8dd5e1ef502c19c51c341bde79a9f32",
-          "adad1697696a9e0fe567de8b30daf7a23cfdb8c7845000037e0d4a8aa64e49de"
-        ],
-        "text": "I sang Pocket a lullaby.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/haze_see_money_02.mp3.json",
       "filename": "haze/haze_see_money_02.mp3",
       "confidence": "medium",
@@ -66292,40 +64846,6 @@
           "9d514e9ef4643168f8f0c2f6a3dfd1bd321f8ea12ff626872cff8556406d30b4"
         ],
         "text": "Shouldn't leave your souls lying around.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_careful_seven_03.mp3.json",
-      "filename": "haze/ping/haze_ping_careful_seven_03.mp3",
-      "confidence": "medium",
-      "similarity": 0.923077,
-      "normalizedLengths": [
-        14,
-        12
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "4954437bb97e5ff3254189d1ada575097917e52cda5102a109ac72f521ef5421"
-        ],
-        "text": "Careful, Seventy.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "0e59c628526d26b8f86121a4c241f8e5f89759f77cb7f556b63703e4525c50cc",
-          "1fcc12187c1249bb3330192707519ac14d4b4994b1472d03b0d55e1eed4e6eb5",
-          "631dab9585f242245bbe4544592924c6cf829934c36c4f36159c7d1a78903f9d"
-        ],
-        "text": "Careful, Seven.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -72179,38 +70699,6 @@
       }
     },
     {
-      "path": "transcripts/orion/ping/orion_ping_attack_paradox.mp3.json",
-      "filename": "orion/ping/orion_ping_attack_paradox.mp3",
-      "confidence": "medium",
-      "similarity": 0.918919,
-      "normalizedLengths": [
-        19,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "ee0da266299b7f89857064b0cc18da5e1ae1948d43edfac9e99b2746f66c79a3"
-        ],
-        "text": "Let's shake out Paradox.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "a04df80ad1e5bd4fb2d1c5bd224433c8da5259f5ebda0b130fb7cf5d3b4c4416"
-        ],
-        "text": "Let's take out Paradox.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/orion/ping/orion_ping_cadence_on_top_of_mid.mp3.json",
       "filename": "orion/ping/orion_ping_cadence_on_top_of_mid.mp3",
       "confidence": "medium",
@@ -74796,39 +73284,6 @@
           "e8d2640e1b0dc085319b24d098a60b75c045da1238b3a9dcf5b8a63b9cf98b44"
         ],
         "text": "I saw furnace.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_seven_02.mp3.json",
-      "filename": "haze/ping/haze_ping_see_seven_02.mp3",
-      "confidence": "medium",
-      "similarity": 0.916667,
-      "normalizedLengths": [
-        11,
-        13
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "d687600cc63fe216b103fe1000aee552560f10821240b07a8ad75fd884adc1f3"
-        ],
-        "text": "Seven stalks.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "76a8a6d1b1f3230fbbbaa574ba93b7c4c4ccb59100f3e1c5f4f1be7de1a28526",
-          "d324dd9f829df4b670a771e483a22f183543b5f92d5042b87cc0624252dc65fb"
-        ],
-        "text": "Seven stalks us.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -78312,40 +76767,6 @@
           "aef8582967fd86699c4fa4e699442ff7cc9c4c71bdd875cb162855f2fde9e600"
         ],
         "text": "Careful for your facts.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_abrams_on_bridge.mp3.json",
-      "filename": "haze/ping/haze_ping_see_abrams_on_bridge.mp3",
-      "confidence": "medium",
-      "similarity": 0.914286,
-      "normalizedLengths": [
-        16,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "ab4d001df08c2358b27c12dcd8aa80a4f99efe4d1e341f7cae5fbb518d160df0"
-        ],
-        "text": "Abrams on the ridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "95623fe14a01c38bc584cc2b69c2085bfe9ff058c7679ee7dbfb9965ea5d5302",
-          "96603542edc44646f9ab9d5ab1557aeb99a82710624b29e31432525d93830ff0",
-          "f452a0a3b616af1cbdb4c9a47dff68c6b6a90b20dd9345a88d639c74076d344c"
-        ],
-        "text": "Abrams is on the bridge.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -84400,39 +82821,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_mid.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_mid.mp3",
-      "confidence": "medium",
-      "similarity": 0.909091,
-      "normalizedLengths": [
-        16,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "9ad7d56259129abae8d867d410c4202868ebeb7c91b0415b6a1813b7e779bd2d"
-        ],
-        "text": "Packed on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "95e37ac79922e733c897eabb4eaac0db6a0d06bdfeca49f838e7201cda0cdd73",
-          "9b9d34c112c533d8d127ce6b3e1ba91c368eb90023ac6a767ab84028d13949c1"
-        ],
-        "text": "Packet's on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_see_cadence_on_roof.mp3.json",
       "filename": "haze/ping/haze_ping_see_cadence_on_roof.mp3",
       "confidence": "medium",
@@ -84463,38 +82851,6 @@
           "4e6b535621d085cd31a029238aa2d9e1109920114e2f234da4f2384bdd5ef0dc"
         ],
         "text": "Cade is on the roof.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_geist_on_bridge.mp3.json",
-      "filename": "haze/ping/haze_ping_see_geist_on_bridge.mp3",
-      "confidence": "medium",
-      "similarity": 0.909091,
-      "normalizedLengths": [
-        15,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "6d00efd1bddc730d897ea8176ec64ca87fbef457805605810ecdecdf2b3b2a3b"
-        ],
-        "text": "guys on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "e6322cdb1adf86f8bf16d4cfafbdf0ec0547bc4eb51865b7c974d08eaecca858"
-        ],
-        "text": "guys, it's on the bridge.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -97138,38 +95494,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_pocket_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_under_garage.mp3",
-      "confidence": "medium",
-      "similarity": 0.9,
-      "normalizedLengths": [
-        20,
-        20
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "09ab30b346240c4a48128a8918bef2e16183700c92ddede97f5f421ec72e5663"
-        ],
-        "text": "Park it under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "fab7b752af096873b650e41a247512bf31df0afcb1465b6c8165d67e61f614f1"
-        ],
-        "text": "Walk it under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_see_geist_02.mp3.json",
       "filename": "haze/ping/haze_ping_see_geist_02.mp3",
       "confidence": "medium",
@@ -99627,38 +97951,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_geist_02.mp3.json",
-      "filename": "haze/haze_kill_geist_02.mp3",
-      "confidence": "low",
-      "similarity": 0.898551,
-      "normalizedLengths": [
-        35,
-        34
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "146c5dc7a6a81a9ddbe635f936bb8a6683d6468ab8700ced11b99300df68bccb"
-        ],
-        "text": "geist and her shackle specter will be back.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "105cdb50b29168799dd0312e7912f092b50a29663c9a65c4e3f1a76e5c13edbc"
-        ],
-        "text": "Geist and her shadow specter will be back.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/orion/orion_outnumbered_03.mp3.json",
       "filename": "orion/orion_outnumbered_03.mp3",
       "confidence": "low",
@@ -101715,38 +100007,6 @@
           "17b019d79c7a6f068d7e6e808ed197c9a8b882d403586a89afb33381dec504ea"
         ],
         "text": "I'm with you, lass.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_mcginnis_05.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_05.mp3",
-      "confidence": "low",
-      "similarity": 0.896552,
-      "normalizedLengths": [
-        30,
-        28
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "42ea6b550ccea6fc3e03afbe2148e3008a572c7ab6b0db8b2c3adfb048937d62"
-        ],
-        "text": "Today you reap what you sow, McKinnis.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "a23c7d4ad592d0a7c71fed6ebcbe56d8248174684ce1b64146c3f9c6b03e2fa9"
-        ],
-        "text": "Today you reap what you sow, McKenz.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -105687,38 +103947,6 @@
           "95fd71cfdfbbbbcf6feb96c9223988e50cf22c99fa0c253cc706f56f1cb69fe1"
         ],
         "text": "God, you know, I probably shouldn't have had those six mimosas before his life.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_mcginnis_04.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_04.mp3",
-      "confidence": "low",
-      "similarity": 0.894118,
-      "normalizedLengths": [
-        42,
-        43
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "632fa42f48342ab2a3839928361a96a9b4fcf12c9543d0ac7cf0fb7d95fee2e9"
-        ],
-        "text": "McKiss, you had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "c28526db09cf70b7ca82df7a039637bc94129a2900e9377baf54687d3e4958ea"
-        ],
-        "text": "Nicodus, you had your chance to make the right choice.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -110210,40 +108438,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_ally_mcginnis_killed_in_lane_01.mp3.json",
-      "filename": "haze/haze_ally_mcginnis_killed_in_lane_01.mp3",
-      "confidence": "low",
-      "similarity": 0.888889,
-      "normalizedLengths": [
-        17,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "6660e7daaba4833e4444af6ff294ed75d552c9efd242b8111e9394026ae803e3"
-        ],
-        "text": "We took out McGinnis.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "551e328739d38c9e9c9b4f98d32c37d8c7aa5d292f9531a8696b719d2a2cc8be",
-          "70f801052970810c6533f7e86f2496f8686200c1b466696bc1bb15c711f5367a",
-          "b66c1725adc19d74e75c3e515d4f587e9f56d4a19ed4114d66882cf66a4782f6"
-        ],
-        "text": "They took out McGinnis.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/haze_angry_07.mp3.json",
       "filename": "haze/haze_angry_07.mp3",
       "confidence": "low",
@@ -110405,73 +108599,6 @@
           "412df278c2a8e304cccd2b23d60037bf18145bcd41323984a0692ac4b3ad5d20"
         ],
         "text": "guys, it's just no longer an issue.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_paradox_01.mp3.json",
-      "filename": "haze/haze_kill_paradox_01.mp3",
-      "confidence": "low",
-      "similarity": 0.888889,
-      "normalizedLengths": [
-        18,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "7a4a079a9fbdb01bba024bb236fe418fb2a67a16a2c5dceb5021ee96a0507457"
-        ],
-        "text": "No style, no substance.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "8d4c97bc77d6747eab28244d86682ab893ea8e2000e96b2a0a4b7604bea6bc68",
-          "9a40556e0ea5289da26d63816288761b2eba288d04388eec6b8225519e106c3e"
-        ],
-        "text": "Hostile, no substance.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_pocket_03.mp3.json",
-      "filename": "haze/haze_kill_pocket_03.mp3",
-      "confidence": "low",
-      "similarity": 0.888889,
-      "normalizedLengths": [
-        22,
-        23
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "4ce57c25e6298f3f676c3ad324598b6f1a6215600d2907cda74c58262595cec4",
-          "6691a1a066fd9e48dd6be2f99179877f6a20c200be96f5d788fbcf309ee1ae50",
-          "ad2165ac0f7616009715bbe1779cdcd5c47dd951b6fb2a633193e6f64832dd5e"
-        ],
-        "text": "Pocket has been dealt with.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "b5dd50dfd884eee77d1d63b3dc1be5bca4204219b4fdd2b7024f3ca73cadcf67"
-        ],
-        "text": "Package has been dealt with.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -110674,38 +108801,6 @@
           "add02f5952fc05d2fe36af67c326ff528366a87ae2738b0210a842ff0dbd10eb"
         ],
         "text": "Murphy's on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.888889,
-      "normalizedLengths": [
-        23,
-        22
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "119c7ed3e8ca434400a093c220ab928d3bcdcfe1b24fff641204c7122b1d9a5e"
-        ],
-        "text": "Package on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "3d791e8035a84faaa63ca1117bb8b498ed05392a7ee5016b1af70056b152f37c"
-        ],
-        "text": "Pocket on top of the garage.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -117076,70 +115171,6 @@
           "7623b23032df585a9b17a9b10e13466040ca30ccdb757bcef1e26dd8b9b6c010"
         ],
         "text": "You won't escape me, Calvin.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_mcginnis_04.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_04.mp3",
-      "confidence": "low",
-      "similarity": 0.883721,
-      "normalizedLengths": [
-        42,
-        44
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "632fa42f48342ab2a3839928361a96a9b4fcf12c9543d0ac7cf0fb7d95fee2e9"
-        ],
-        "text": "McKiss, you had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "cce5d090ce65db1174204b0e2c0f252082cf71d192f920c60f8280cb6621d12a"
-        ],
-        "text": "Nekets, you've had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_mcginnis_04.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_04.mp3",
-      "confidence": "low",
-      "similarity": 0.883721,
-      "normalizedLengths": [
-        42,
-        44
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "632fa42f48342ab2a3839928361a96a9b4fcf12c9543d0ac7cf0fb7d95fee2e9"
-        ],
-        "text": "McKiss, you had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "c31d20a7d06089d26ebd107b232aadf07f1bbfae35f5b335dcf9a89f6e887012"
-        ],
-        "text": "Nicholas, you had your chance to make the right choice.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -128989,70 +127020,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_mcginnis_05.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_05.mp3",
-      "confidence": "low",
-      "similarity": 0.875,
-      "normalizedLengths": [
-        34,
-        30
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "6f7db2ccc9f4745a12f1f447fab6c1ad3179a8aa56302694cbaea395a3445a62"
-        ],
-        "text": "Today you reap what you sowed, mechanical.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "f3ad091a3c52cd4bb8ab503e3d54ad59dd021b57f81354206d8ee400ffd9f02d"
-        ],
-        "text": "Today you reap what you sowed, McCabe.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_geist.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_geist.mp3",
-      "confidence": "low",
-      "similarity": 0.875,
-      "normalizedLengths": [
-        16,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "8a309dbd650c2b4cdddc6d203fe949fd0d1d5a458f10be1dd360da8a577d033a"
-        ],
-        "text": "Crest, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "ace7d459109b1c6f7ced59236ee54c9bc118bd3612ca3b52db2460bdd37024b6"
-        ],
-        "text": "Caste, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_see_calico_on_roof.mp3.json",
       "filename": "haze/ping/haze_ping_see_calico_on_roof.mp3",
       "confidence": "low",
@@ -129601,39 +127568,6 @@
           "257d29d4e1a15f34829abbdf9a0f753d6d53a81c9489c4dbdf2ad5f8e0216a17"
         ],
         "text": "Sorryly!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/inferno/ping/inferno_ping_attack_pocket.mp3.json",
-      "filename": "inferno/ping/inferno_ping_attack_pocket.mp3",
-      "confidence": "low",
-      "similarity": 0.875,
-      "normalizedLengths": [
-        15,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "a20ddcffdfaa2c7b80f268c0a0ad4598c47083e36b380eebe035418667ea6f52"
-        ],
-        "text": "Let's take out Puck.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "0fca97cc74893bbd70ec52305a5839ed5cf4537fb85d7b537dab585ea023027d",
-          "d41ecc370dab294e4cf9de4806b6b8fff3871db942e0c5342909905ef9c7277d"
-        ],
-        "text": "Let's take out Pocket.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -132093,38 +130027,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_mcginnis_04.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_04.mp3",
-      "confidence": "low",
-      "similarity": 0.873563,
-      "normalizedLengths": [
-        44,
-        43
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "cce5d090ce65db1174204b0e2c0f252082cf71d192f920c60f8280cb6621d12a"
-        ],
-        "text": "Nekets, you've had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "c28526db09cf70b7ca82df7a039637bc94129a2900e9377baf54687d3e4958ea"
-        ],
-        "text": "Nicodus, you had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/hornet/vindicta_upgrade_power1_07.mp3.json",
       "filename": "hornet/vindicta_upgrade_power1_07.mp3",
       "confidence": "low",
@@ -133122,40 +131024,6 @@
           "7687123a35a58169ea638bcf10142600b7d665576409d0087f668082b3b77e1a"
         ],
         "text": "But you're fearless, Murphy.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_abrams_04.mp3.json",
-      "filename": "haze/haze_kill_abrams_04.mp3",
-      "confidence": "low",
-      "similarity": 0.871795,
-      "normalizedLengths": [
-        22,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "5071f3fcdf84c493c588bb48e475ff192f411c7f79ee86824b022b23596f29f3",
-          "7b5b3373eb3df12c2979a444ef384d23ecb81e8665130fa3ab15c4190d925bf3",
-          "ba5e9c3e8ccb9d5f873067b1eb4f557b61378dcdb7e8c58976b350803d1caec9"
-        ],
-        "text": "Tough, but not tough enough.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "6f11fcba69fb987aaa72fc2bd1bad7c26e575f75663edc3ac176994c975fa305"
-        ],
-        "text": "But not tough enough.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -135299,38 +133167,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_geist_02.mp3.json",
-      "filename": "haze/haze_kill_geist_02.mp3",
-      "confidence": "low",
-      "similarity": 0.869565,
-      "normalizedLengths": [
-        34,
-        35
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "23cbe398bbafe8f2d57cea6f90675502a0dde6dc0652ccc0910ac191c85e5395"
-        ],
-        "text": "guys and her shackle's vector will be back.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "146c5dc7a6a81a9ddbe635f936bb8a6683d6468ab8700ced11b99300df68bccb"
-        ],
-        "text": "geist and her shackle specter will be back.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_bebop_was_here.mp3.json",
       "filename": "haze/ping/haze_ping_bebop_was_here.mp3",
       "confidence": "low",
@@ -135458,38 +133294,6 @@
           "4d72f986da6652660fcd3bb3ab560b3ea639d5555a046278fa79e63ca20605cc"
         ],
         "text": "Krill was here.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.869565,
-      "normalizedLengths": [
-        23,
-        23
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "8693b5f84919e7b56e0cfbc24a706e1231f4f0ffb84c37b359270c2f1ac51bdf"
-        ],
-        "text": "Pocket's on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "119c7ed3e8ca434400a093c220ab928d3bcdcfe1b24fff641204c7122b1d9a5e"
-        ],
-        "text": "Package on top of the garage.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -143049,38 +140853,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_abrams_03.mp3.json",
-      "filename": "haze/haze_kill_abrams_03.mp3",
-      "confidence": "low",
-      "similarity": 0.864865,
-      "normalizedLengths": [
-        19,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "2ea26ee5e6723c176ff832512f346879350f21de829bb61d3530aebaf83e2430"
-        ],
-        "text": "Abrams was put to sleep.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "8d00a03c856f86bc21d53cc3eeb691de4c32def1b9989d790cd8e4a64073ccc7"
-        ],
-        "text": "Abrams was but a sleep.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_see_fairfax_on_bridge.mp3.json",
       "filename": "haze/ping/haze_ping_see_fairfax_on_bridge.mp3",
       "confidence": "low",
@@ -144628,38 +142400,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_mcginnis_04.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_04.mp3",
-      "confidence": "low",
-      "similarity": 0.863636,
-      "normalizedLengths": [
-        44,
-        44
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "cce5d090ce65db1174204b0e2c0f252082cf71d192f920c60f8280cb6621d12a"
-        ],
-        "text": "Nekets, you've had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "c31d20a7d06089d26ebd107b232aadf07f1bbfae35f5b335dcf9a89f6e887012"
-        ],
-        "text": "Nicholas, you had your chance to make the right choice.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/haze_upgrade_power3_07.mp3.json",
       "filename": "haze/haze_upgrade_power3_07.mp3",
       "confidence": "low",
@@ -144754,38 +142494,6 @@
           "e56679ee17161cf02c2aec5212790169e642e11bc58a64d846d0c1933ed4ca54"
         ],
         "text": "Great Hall is almost back.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.863636,
-      "normalizedLengths": [
-        22,
-        22
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "b9effd4fd5723e7e2a8a2bdc587f89f8c83ae794736487a06e01c97eb242ec04"
-        ],
-        "text": "Park it on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "3d791e8035a84faaa63ca1117bb8b498ed05392a7ee5016b1af70056b152f37c"
-        ],
-        "text": "Pocket on top of the garage.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -145753,38 +143461,6 @@
           "decf87513d84ee7c2beefa299d08c35a257985e340bdd4d2ab47a85c7b9cae5e"
         ],
         "text": "There's work to be done at the junkyard.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_mcginnis_05.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_05.mp3",
-      "confidence": "low",
-      "similarity": 0.862069,
-      "normalizedLengths": [
-        28,
-        30
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "a23c7d4ad592d0a7c71fed6ebcbe56d8248174684ce1b64146c3f9c6b03e2fa9"
-        ],
-        "text": "Today you reap what you sow, McKenz.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "f3ad091a3c52cd4bb8ab503e3d54ad59dd021b57f81354206d8ee400ffd9f02d"
-        ],
-        "text": "Today you reap what you sowed, McCabe.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -149977,40 +147653,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_ally_infernus_killed_in_lane_01.mp3.json",
-      "filename": "haze/haze_ally_infernus_killed_in_lane_01.mp3",
-      "confidence": "low",
-      "similarity": 0.857143,
-      "normalizedLengths": [
-        16,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "9ecbb04a0734884fac7e15508b50c83b6253c568dc0d4c8dd067d2a11fb73bba"
-        ],
-        "text": "I took out Infernus.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "95f1e08acc546afe594a5d459f3eef8b81dee412e8bc768aba77183b4c8711cc",
-          "c7c2404579dbd771e258ed727b1d81bb48828c9dbe586b98494bc358199d7c16",
-          "cec7fafbb211eda70e03cf5144e68bd6d4ef55d324d9053613bd9e28baaed5ab"
-        ],
-        "text": "They took out Infernus.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/haze_ally_orion_missile_stops_ult_03.mp3.json",
       "filename": "haze/haze_ally_orion_missile_stops_ult_03.mp3",
       "confidence": "low",
@@ -150342,38 +147984,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_calico_missing_01.mp3.json",
-      "filename": "haze/ping/haze_ping_calico_missing_01.mp3",
-      "confidence": "low",
-      "similarity": 0.857143,
-      "normalizedLengths": [
-        14,
-        14
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "4a610bab21bbdcbbce118ff36c59a7a9bb49daaa8f3699d916134e6a16e5fe3c"
-        ],
-        "text": "Calico's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "1719372c7039df473521663f4cf15620216f0fbb18f13ca45da8328065038416"
-        ],
-        "text": "Kaliko's missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_calico_on_top_of_garage.mp3.json",
       "filename": "haze/ping/haze_ping_calico_on_top_of_garage.mp3",
       "confidence": "low",
@@ -150403,40 +148013,6 @@
           "255b437e589f30ad9234edc611ecb0d4b44189f11b637230e5090c88aa7360eb"
         ],
         "text": "Calico's on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_careful_seven_02.mp3.json",
-      "filename": "haze/ping/haze_ping_careful_seven_02.mp3",
-      "confidence": "low",
-      "similarity": 0.857143,
-      "normalizedLengths": [
-        12,
-        9
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "0b2300f04c8bc343e4c8be9274afef984568d935df2dce92cd73a84cbc71837c",
-          "23771d8447e92a0accb09fa218bacc90a36fdac4223ce9381b2c2cf07ee2a23a",
-          "8a6221408a37c29dd545bfba906f2af1e80785ee2c6a1175c31ee137e339b1a2"
-        ],
-        "text": "Careful, Seven.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "4f6796152f765b08b56a28157a394128904c340bcb3a45e44cb81fdfc93d61c8"
-        ],
-        "text": "Care seven.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -150505,39 +148081,6 @@
           "adeddec8a02027d6c02e59c26ef415eb2f353fa086c975c156374e33746932b4"
         ],
         "text": "Again it was here.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_geist_on_top_of_mid.mp3.json",
-      "filename": "haze/ping/haze_ping_geist_on_top_of_mid.mp3",
-      "confidence": "low",
-      "similarity": 0.857143,
-      "normalizedLengths": [
-        14,
-        14
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "9ccd589ecfcb8305001a141272f4c3158bfcbc0c7a04811b6645ec7e71ddcea5"
-        ],
-        "text": "Guys, on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "49258d0973187811bfcb65b2f6d548a7195e7b2fac4b38108518951798a6f2f1",
-          "baa23f2fc657209ec4a41746477d6a66bcbe4fcf0a61e696d1112111791f9b4c"
-        ],
-        "text": "Guys, I'm top of mid.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -150709,38 +148252,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_mcginnis_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_mcginnis_under_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.857143,
-      "normalizedLengths": [
-        24,
-        25
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "a05295e8fdbe99f2147261abd62376611e65a919e58a562f574ce95e9d52ec6c"
-        ],
-        "text": "McGinnis is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "7015a5fca15e23ebff3bb38566d03d837ec2230a6f0aede7ad6f73a42cb3cc87"
-        ],
-        "text": "Nickannis is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_mcginnis_was_here.mp3.json",
       "filename": "haze/ping/haze_ping_mcginnis_was_here.mp3",
       "confidence": "low",
@@ -150833,70 +148344,6 @@
           "6fe65795a0e70ee15e52a940a12bdfeaa11f2f22947188a1cf251157523456fa"
         ],
         "text": "Standeep's on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_geist_02.mp3.json",
-      "filename": "haze/ping/haze_ping_see_geist_02.mp3",
-      "confidence": "low",
-      "similarity": 0.857143,
-      "normalizedLengths": [
-        11,
-        10
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "d88809b1706ab5786dcfc5f25bd20a5db2634018d37a8a2751513e6a342fca82"
-        ],
-        "text": "There's Geist.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "f3567019037c0d3669838f955d91cfeed1d7c1cd3a1c3c3a329c5c62219135e5"
-        ],
-        "text": "Ceresgeist.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_pocket_on_bridge.mp3.json",
-      "filename": "haze/ping/haze_ping_see_pocket_on_bridge.mp3",
-      "confidence": "low",
-      "similarity": 0.857143,
-      "normalizedLengths": [
-        18,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "c776f88602e851d0e141b660fa18eb3d346cd445c11e7969d89ca9c0d4fb3dcf"
-        ],
-        "text": "Pockets on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "2f6e6c1ca00e46ad10400c42104c74d14a6460c94fbc478e7602f13c3e6cf812"
-        ],
-        "text": "Puck is on the bridge.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -160161,38 +157608,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_infernus.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_infernus.mp3",
-      "confidence": "low",
-      "similarity": 0.85,
-      "normalizedLengths": [
-        21,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "5f6b278e4825ec9714eab71b175e4900c374e41c1de731730408332f887885b7"
-        ],
-        "text": "In fairness, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "5eae0d25e7f1336a88fa34e2d84c9745e60f8e50444f2c7072bcae2b24143530"
-        ],
-        "text": "Infernus, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_hornet_almost_respawn.mp3.json",
       "filename": "haze/ping/haze_ping_hornet_almost_respawn.mp3",
       "confidence": "low",
@@ -161908,38 +159323,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_infernus_missing_01.mp3.json",
-      "filename": "haze/ping/haze_ping_infernus_missing_01.mp3",
-      "confidence": "low",
-      "similarity": 0.848485,
-      "normalizedLengths": [
-        16,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "e5614f3392df9d1acff682a10fe93f2504c1905dc1cb0e9e2c10d1ddc0d36950"
-        ],
-        "text": "Confernus missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "e68fb8683b7c03ec06d3e8dffa7fde7830ab799705134fcb7035c5d4711898cb"
-        ],
-        "text": "Infernus is missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_mcginnis_missing_01.mp3.json",
       "filename": "haze/ping/haze_ping_mcginnis_missing_01.mp3",
       "confidence": "low",
@@ -161967,71 +159350,6 @@
           "945e4fe99a52a09aa11781c21651053117ed1abf52f03759951af72eff82e0b3"
         ],
         "text": "A Genesis missing.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_mid.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_mid.mp3",
-      "confidence": "low",
-      "similarity": 0.848485,
-      "normalizedLengths": [
-        16,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "4d67ef9204298b37402618c01e797093c20c355203e930aee5303d8f40635e2c"
-        ],
-        "text": "Puck is on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "95e37ac79922e733c897eabb4eaac0db6a0d06bdfeca49f838e7201cda0cdd73",
-          "9b9d34c112c533d8d127ce6b3e1ba91c368eb90023ac6a767ab84028d13949c1"
-        ],
-        "text": "Packet's on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_pocket_on_bridge.mp3.json",
-      "filename": "haze/ping/haze_ping_see_pocket_on_bridge.mp3",
-      "confidence": "low",
-      "similarity": 0.848485,
-      "normalizedLengths": [
-        17,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 2,
-        "sha256": [
-          "2f6e6c1ca00e46ad10400c42104c74d14a6460c94fbc478e7602f13c3e6cf812"
-        ],
-        "text": "Puck is on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "f836a90cb0b39bcd49efbaa853c6f29ad5711ba6f1f5a02c96b9282d81051d6f"
-        ],
-        "text": "Tug is on the bridge.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -167596,70 +164914,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.844444,
-      "normalizedLengths": [
-        22,
-        23
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "b9effd4fd5723e7e2a8a2bdc587f89f8c83ae794736487a06e01c97eb242ec04"
-        ],
-        "text": "Park it on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "8693b5f84919e7b56e0cfbc24a706e1231f4f0ffb84c37b359270c2f1ac51bdf"
-        ],
-        "text": "Pocket's on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.844444,
-      "normalizedLengths": [
-        22,
-        23
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "b9effd4fd5723e7e2a8a2bdc587f89f8c83ae794736487a06e01c97eb242ec04"
-        ],
-        "text": "Park it on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "119c7ed3e8ca434400a093c220ab928d3bcdcfe1b24fff641204c7122b1d9a5e"
-        ],
-        "text": "Package on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_shiv_check_items.mp3.json",
       "filename": "haze/ping/haze_ping_shiv_check_items.mp3",
       "confidence": "low",
@@ -170609,39 +167863,6 @@
       }
     },
     {
-      "path": "transcripts/lash/ping/lash_ping_attack_vindicta.mp3.json",
-      "filename": "lash/ping/lash_ping_attack_vindicta.mp3",
-      "confidence": "low",
-      "similarity": 0.842105,
-      "normalizedLengths": [
-        19,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "470ce7c321ca7ff5f84945e1b21b7e63e8e588c686d402ecda9c4ceb347e3aea",
-          "97a95a04b6e4430dd1f27834b66dc7555282ea1e3f2fc729f867b5324bdc438d"
-        ],
-        "text": "Let's take out Vindicta.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "017eb8a0263f8e583b24c5ebf558cfbe2241dc507659b906af3ddedef16634b2"
-        ],
-        "text": "Let's seek out Vindicta.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/lash/ping/lash_ping_cadence_in_mid.mp3.json",
       "filename": "lash/ping/lash_ping_cadence_in_mid.mp3",
       "confidence": "low",
@@ -170995,38 +168216,6 @@
           "20c950f2fa71504cc88973542772d169313b0cc74a5bbe0b73f7c229adf6a4be"
         ],
         "text": "Sonic chrono.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/orion/ping/orion_ping_attack_paradox.mp3.json",
-      "filename": "orion/ping/orion_ping_attack_paradox.mp3",
-      "confidence": "low",
-      "similarity": 0.842105,
-      "normalizedLengths": [
-        19,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "ee0da266299b7f89857064b0cc18da5e1ae1948d43edfac9e99b2746f66c79a3"
-        ],
-        "text": "Let's shake out Paradox.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "e81b768cf98b2fbad926a98e9caf29d0ccb318612cf2cbfe50c7bf657f582a02"
-        ],
-        "text": "Let's check out Paradox.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -174287,40 +171476,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_see_pocket_on_roof.mp3.json",
-      "filename": "haze/ping/haze_ping_see_pocket_on_roof.mp3",
-      "confidence": "low",
-      "similarity": 0.83871,
-      "normalizedLengths": [
-        16,
-        15
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "183bb0c3657b29b32a2d3c18f53f9c29e597f8c606f4bff18546759540d3e5eb",
-          "481764c04f314360c3b848de7ce1170161ba13464a24b471f8b40b49476d77ae",
-          "a42d787f8e96b9c8b6d71159e636f4269468ad47bd92740b675ffaa90ca20da2"
-        ],
-        "text": "Pockets on the roof.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "87aa703de446392a261ac06088dd7e9813e2162e5412e53dd8aac36828566e3f"
-        ],
-        "text": "Pack is on the roof.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_with_astro.mp3.json",
       "filename": "haze/ping/haze_ping_with_astro.mp3",
       "confidence": "low",
@@ -174776,38 +171931,6 @@
       }
     },
     {
-      "path": "transcripts/kelvin/ping/kelvin_ping_attack_geist.mp3.json",
-      "filename": "kelvin/ping/kelvin_ping_attack_geist.mp3",
-      "confidence": "low",
-      "similarity": 0.83871,
-      "normalizedLengths": [
-        15,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "2083968bba2ce4d246d7b070bf5c4db2d3471776a1c03c7d15144c71a6f0bca1"
-        ],
-        "text": "Let's take out guys.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "392299b457aaa0172bb3eb2275f2d5700c526b7a07785b7a8ed1d3b58f6921f8"
-        ],
-        "text": "Let's take out Geist!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/kelvin/ping/kelvin_ping_with_viscous.mp3.json",
       "filename": "kelvin/ping/kelvin_ping_with_viscous.mp3",
       "confidence": "low",
@@ -174835,38 +171958,6 @@
           "23f5d9cbf1811c4181a2b7b06a67b4b94f744f219d2e8e9c48bc71dcf294b7e4"
         ],
         "text": "I'm with you, Viscous.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/krill/ping/krill_ping_can_heal_geist.mp3.json",
-      "filename": "krill/ping/krill_ping_can_heal_geist.mp3",
-      "confidence": "low",
-      "similarity": 0.83871,
-      "normalizedLengths": [
-        16,
-        15
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "c385700ae1c043b272fe0a5a6def028285694e05d6b39b8ab43e1f7df4812f36"
-        ],
-        "text": "geist, I can heal you!",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "f93744f7b697f6ed155e439b26d273b733dcfba00d4c6d1e081616ec5c921cf2"
-        ],
-        "text": "Guys, I can heal you!",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -185786,72 +182877,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_infernus.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_infernus.mp3",
-      "confidence": "low",
-      "similarity": 0.829268,
-      "normalizedLengths": [
-        21,
-        20
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "5f6b278e4825ec9714eab71b175e4900c374e41c1de731730408332f887885b7"
-        ],
-        "text": "In fairness, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "2cefdd9db5b3028d27e39f0dae12ea1fb452a30d60fb1adcfdad4d6a90bb5291",
-          "41802dd34f0a94f5f12c99fb5b8cb10ac3942384df56a2c4e0e73f3219816111"
-        ],
-        "text": "In furnace, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_under_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.829268,
-      "normalizedLengths": [
-        20,
-        21
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "09ab30b346240c4a48128a8918bef2e16183700c92ddede97f5f421ec72e5663"
-        ],
-        "text": "Park it under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "04cf8a3c391bbabc280c8d79dbc04870372592c5aeca2bb1e1335254c57d4201",
-          "ca230413eea4fab07e00d2696516b81cc4efab3b9dfbc1fa8ef1df9f63a6fed6"
-        ],
-        "text": "Pocket's under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_see_fairfax_on_bridge.mp3.json",
       "filename": "haze/ping/haze_ping_see_fairfax_on_bridge.mp3",
       "confidence": "low",
@@ -186777,38 +183802,6 @@
           "0b5e281e230b779b8346b5e14bc93ff7d16c6dcb5f85d5fc166fa4989511ce51"
         ],
         "text": "Check out what Lash bought.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_geist_02.mp3.json",
-      "filename": "haze/haze_kill_geist_02.mp3",
-      "confidence": "low",
-      "similarity": 0.828571,
-      "normalizedLengths": [
-        36,
-        34
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "541b191a88c28b49a13e2ab2e2c38dc2a01230fa77213066e5466731fc6c456d"
-        ],
-        "text": "guessed in her shadows, Spectre will be back.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "105cdb50b29168799dd0312e7912f092b50a29663c9a65c4e3f1a76e5c13edbc"
-        ],
-        "text": "Geist and her shadow specter will be back.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -190099,39 +187092,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_infernus_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_infernus_under_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.826087,
-      "normalizedLengths": [
-        22,
-        24
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "a57b9f8fb8ba0083144472cabb711fd31a488f629abc692034f3547cade7b434"
-        ],
-        "text": "Answer is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "2553756df743c869d165e26295daa05aa1f349d1d2f0f15ecc99425ae8de0bee",
-          "e2590ca79df5937cdade33a2aca5e4f3b2a2b50200e450d8bae1343a65427589"
-        ],
-        "text": "Infernus is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_wraith_check_items.mp3.json",
       "filename": "haze/ping/haze_ping_wraith_check_items.mp3",
       "confidence": "low",
@@ -192645,40 +189605,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_pocket.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_pocket.mp3",
-      "confidence": "low",
-      "similarity": 0.823529,
-      "normalizedLengths": [
-        17,
-        17
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "49c01872281cf51450ac8354864f1517a2f17f7618f97fc36c73df73cbe2376e"
-        ],
-        "text": "Packet, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "0cdd3f727bf72e06e9c8f484e29f342ca01b757525f07cacff9d7a8ecf903b6a",
-          "30aff7c376871b6a02e1d6cfc2c1b6080e08cd8872c34ed634f296f91be2a0b4",
-          "fb8778ab9df152971b5d2c92f956eb4c03a8427a07b80aa4f0270bfe51b410d5"
-        ],
-        "text": "Target, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_defend_purple_02.mp3.json",
       "filename": "haze/ping/haze_ping_defend_purple_02.mp3",
       "confidence": "low",
@@ -192781,39 +189707,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_mcginnis_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_mcginnis_under_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.823529,
-      "normalizedLengths": [
-        24,
-        27
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "a05295e8fdbe99f2147261abd62376611e65a919e58a562f574ce95e9d52ec6c"
-        ],
-        "text": "McGinnis is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "673808092c489f3283d57f9774ad594df68385b399138584a7575fcc3758521f",
-          "e779698523ab13655e9bcb2f05c038fde8af33a3519dbe361b149da8c4c76a26"
-        ],
-        "text": "The Guinness is under the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_orion_was_here.mp3.json",
       "filename": "haze/ping/haze_ping_orion_was_here.mp3",
       "confidence": "low",
@@ -192905,7 +189798,7 @@
         "model": "gpt-4o-mini-transcribe"
       },
       "right": {
-        "revisionIndex": 3,
+        "revisionIndex": 2,
         "sha256": [
           "f836a90cb0b39bcd49efbaa853c6f29ad5711ba6f1f5a02c96b9282d81051d6f"
         ],
@@ -196890,39 +193783,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_mcginnis_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_mcginnis_on_top_of_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.821429,
-      "normalizedLengths": [
-        27,
-        29
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "47bcba4e1161c5f1cda9e8cc314f06f95e00b6a6e2053899bcc5958473dc38c0"
-        ],
-        "text": "The cannon is on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "6b96096a9f5f288ed73411a239280ec2479e5be068277207b96446b575e0e446",
-          "f0eb2a790ca5317588e2b6a8f8edd2d4e34d21b917354737d8df2f1f0b42f601"
-        ],
-        "text": "The Guinness is on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/mirage/mirage_select_06.mp3.json",
       "filename": "mirage/mirage_select_06.mp3",
       "confidence": "low",
@@ -197563,39 +194423,6 @@
           "a0c9ef3cca51abc91ef73cb5d488469413d93f0485b4430d242285b1f29d2884"
         ],
         "text": "We make a good team, Raze.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_infernus.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_infernus.mp3",
-      "confidence": "low",
-      "similarity": 0.820513,
-      "normalizedLengths": [
-        19,
-        20
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "5eae0d25e7f1336a88fa34e2d84c9745e60f8e50444f2c7072bcae2b24143530"
-        ],
-        "text": "Infernus, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "2cefdd9db5b3028d27e39f0dae12ea1fb452a30d60fb1adcfdad4d6a90bb5291",
-          "41802dd34f0a94f5f12c99fb5b8cb10ac3942384df56a2c4e0e73f3219816111"
-        ],
-        "text": "In furnace, I can heal you.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -198860,38 +195687,6 @@
         ],
         "text": "You honor The Hidden King by standing with us today.",
         "source": "official"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_seven_03.mp3.json",
-      "filename": "haze/haze_kill_seven_03.mp3",
-      "confidence": "low",
-      "similarity": 0.819277,
-      "normalizedLengths": [
-        39,
-        44
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "677c902294f32d22289c286bb43a6b94b2278c078444723a41a92a93a1dffc31"
-        ],
-        "text": "At last, secret seven, I've dreamed of this moment.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "9df18176b5a88be301a9ca3ff1bd5915dd5eba0d9f4d64bbda5ad80b0f899aa8"
-        ],
-        "text": "I'll tell you a secret, Seven. I've dreamed of this moment.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -205168,39 +201963,6 @@
       }
     },
     {
-      "path": "transcripts/haze/ping/haze_ping_holliday_in_mid.mp3.json",
-      "filename": "haze/ping/haze_ping_holliday_in_mid.mp3",
-      "confidence": "low",
-      "similarity": 0.814815,
-      "normalizedLengths": [
-        14,
-        13
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "30369b7cfb5b4b681ccd99e76638ed1d9da5443cebf441c51673cca0c70c755d"
-        ],
-        "text": "Holidays in myth.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "7d721e51400ef6ddf3c408410ccaaca2811d2e310ba35b105cffdae50c897a49",
-          "f2d22ca3a9253a5d9aa3d46706170e75c986ee5e2445922a7c80723ae955cee2"
-        ],
-        "text": "Holidays in mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_mirage_was_here.mp3.json",
       "filename": "haze/ping/haze_ping_mirage_was_here.mp3",
       "confidence": "low",
@@ -209049,70 +205811,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_mcginnis_05.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_05.mp3",
-      "confidence": "low",
-      "similarity": 0.8125,
-      "normalizedLengths": [
-        30,
-        34
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "42ea6b550ccea6fc3e03afbe2148e3008a572c7ab6b0db8b2c3adfb048937d62"
-        ],
-        "text": "Today you reap what you sow, McKinnis.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "6f7db2ccc9f4745a12f1f447fab6c1ad3179a8aa56302694cbaea395a3445a62"
-        ],
-        "text": "Today you reap what you sowed, mechanical.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_can_heal_geist.mp3.json",
-      "filename": "haze/ping/haze_ping_can_heal_geist.mp3",
-      "confidence": "low",
-      "similarity": 0.8125,
-      "normalizedLengths": [
-        16,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "8a309dbd650c2b4cdddc6d203fe949fd0d1d5a458f10be1dd360da8a577d033a"
-        ],
-        "text": "Crest, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "07632dbdeaaf5109a47b0ecb0a7c553a2cfa55cd13d55f420e2cad0a53ca12c3"
-        ],
-        "text": "Taste, I can heal you.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/ping/haze_ping_ignore_orion.mp3.json",
       "filename": "haze/ping/haze_ping_ignore_orion.mp3",
       "confidence": "low",
@@ -209173,38 +205871,6 @@
           "c81c265b5609ae7e94285da90d26e3dfcbe6eab7e9c06b87d54f518a030ed260"
         ],
         "text": "Ignore Grey Talon.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_pocket_on_top_of_mid.mp3.json",
-      "filename": "haze/ping/haze_ping_pocket_on_top_of_mid.mp3",
-      "confidence": "low",
-      "similarity": 0.8125,
-      "normalizedLengths": [
-        16,
-        16
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "4d67ef9204298b37402618c01e797093c20c355203e930aee5303d8f40635e2c"
-        ],
-        "text": "Puck is on top of mid.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "9ad7d56259129abae8d867d410c4202868ebeb7c91b0415b6a1813b7e779bd2d"
-        ],
-        "text": "Packed on top of mid.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -212180,39 +208846,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_paradox_01.mp3.json",
-      "filename": "haze/haze_kill_paradox_01.mp3",
-      "confidence": "low",
-      "similarity": 0.810811,
-      "normalizedLengths": [
-        19,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "6a9d37701028fc94af3ba7c546a89fba80291f5c6fc6b09f9e0922bd768cb19d"
-        ],
-        "text": "Hostile. No subsystems.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "8d4c97bc77d6747eab28244d86682ab893ea8e2000e96b2a0a4b7604bea6bc68",
-          "9a40556e0ea5289da26d63816288761b2eba288d04388eec6b8225519e106c3e"
-        ],
-        "text": "Hostile, no substance.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/haze_use_power2_04.mp3.json",
       "filename": "haze/haze_use_power2_04.mp3",
       "confidence": "low",
@@ -212240,38 +208873,6 @@
           "78d0eb8c5e8fd375e43f25b51bf50d85f31adef28598c632df8f32a2b031a6de"
         ],
         "text": "I'll let it sit, passage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_geist_on_bridge.mp3.json",
-      "filename": "haze/ping/haze_ping_see_geist_on_bridge.mp3",
-      "confidence": "low",
-      "similarity": 0.810811,
-      "normalizedLengths": [
-        22,
-        15
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "de0ad086ca092595479911657f7fd7217877af13a784f169e0cd002a50ed8a2a"
-        ],
-        "text": "The guy's just on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "6d00efd1bddc730d897ea8176ec64ca87fbef457805605810ecdecdf2b3b2a3b"
-        ],
-        "text": "guys on the bridge.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -212795,38 +209396,6 @@
           "253b2b13231df7215da59514b851654c877f6f1dfde35e7f4fd9360f6202e6a3"
         ],
         "text": "Let's take out Fairfax.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/orion/ping/orion_ping_attack_paradox.mp3.json",
-      "filename": "orion/ping/orion_ping_attack_paradox.mp3",
-      "confidence": "low",
-      "similarity": 0.810811,
-      "normalizedLengths": [
-        19,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "e81b768cf98b2fbad926a98e9caf29d0ccb318612cf2cbfe50c7bf657f582a02"
-        ],
-        "text": "Let's check out Paradox.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "a04df80ad1e5bd4fb2d1c5bd224433c8da5259f5ebda0b130fb7cf5d3b4c4416"
-        ],
-        "text": "Let's take out Paradox.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -213762,40 +210331,6 @@
           "907479235eedf21e3b2e2eb03c7404796cc78525a5700b69e071c491e8b93e2b"
         ],
         "text": "Ryan came through again.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_geist_on_top_of_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_geist_on_top_of_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.809524,
-      "normalizedLengths": [
-        22,
-        20
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "499256996c4058ef1b6ed9c916a1f57dbced908049fe7cea48806e55ea8574d6"
-        ],
-        "text": "Stacks on top of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "3b0aa52424fcadaddf4f7c6bab7a0e9a24f030d135f5da6ad5de075f1bd93ba9",
-          "80cd02e0d30a2bbbc2028a8c02cb7fb6cf1e186cf88cd6ec0faa90d833127180",
-          "aacf7b274a1db0a6f5bb2b0b4ed135315dd00f247d6419a771f1a1c3e1f4a225"
-        ],
-        "text": "Guy's on top of the garage.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -216055,38 +212590,6 @@
           "ae0ac0a17cd5a9e1d66481938bd7acbd26dad36683448c90262a501cbf8db53b"
         ],
         "text": "And then I will run through them all.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/haze_kill_mcginnis_05.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_05.mp3",
-      "confidence": "low",
-      "similarity": 0.806452,
-      "normalizedLengths": [
-        28,
-        34
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 1,
-        "sha256": [
-          "a23c7d4ad592d0a7c71fed6ebcbe56d8248174684ce1b64146c3f9c6b03e2fa9"
-        ],
-        "text": "Today you reap what you sow, McKenz.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 2,
-        "sha256": [
-          "6f7db2ccc9f4745a12f1f447fab6c1ad3179a8aa56302694cbaea395a3445a62"
-        ],
-        "text": "Today you reap what you sowed, mechanical.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -222823,38 +219326,6 @@
       }
     },
     {
-      "path": "transcripts/haze/haze_kill_mcginnis_05.mp3.json",
-      "filename": "haze/haze_kill_mcginnis_05.mp3",
-      "confidence": "low",
-      "similarity": 0.8,
-      "normalizedLengths": [
-        30,
-        30
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "42ea6b550ccea6fc3e03afbe2148e3008a572c7ab6b0db8b2c3adfb048937d62"
-        ],
-        "text": "Today you reap what you sow, McKinnis.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "f3ad091a3c52cd4bb8ab503e3d54ad59dd021b57f81354206d8ee400ffd9f02d"
-        ],
-        "text": "Today you reap what you sowed, McCabe.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
       "path": "transcripts/haze/haze_kill_paradox_04.mp3.json",
       "filename": "haze/haze_kill_paradox_04.mp3",
       "confidence": "low",
@@ -223343,72 +219814,6 @@
           "153b0935a775a1088288350d956e9b38a3b13580c74bf23106ffb98fa6a8d65f"
         ],
         "text": "I saw San Deep.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_see_geist_on_bridge.mp3.json",
-      "filename": "haze/ping/haze_ping_see_geist_on_bridge.mp3",
-      "confidence": "low",
-      "similarity": 0.8,
-      "normalizedLengths": [
-        22,
-        18
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "de0ad086ca092595479911657f7fd7217877af13a784f169e0cd002a50ed8a2a"
-        ],
-        "text": "The guy's just on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 3,
-        "sha256": [
-          "e6322cdb1adf86f8bf16d4cfafbdf0ec0547bc4eb51865b7c974d08eaecca858"
-        ],
-        "text": "guys, it's on the bridge.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/haze/ping/haze_ping_seven_under_garage.mp3.json",
-      "filename": "haze/ping/haze_ping_seven_under_garage.mp3",
-      "confidence": "low",
-      "similarity": 0.8,
-      "normalizedLengths": [
-        20,
-        20
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "00730d4b9264cb7eb1dd0433676a0ac4c0ce0146a7159835e289eda98f94b730"
-        ],
-        "text": "Seven's out of the garage.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "35b3091d479363c1856817a60d2d6ff17c639c3db1274978b5e2d3e3b3e40742",
-          "4893fd5de329d331f6453ccd66ef9215ca87572e8e47437314eb240243cdde7f",
-          "7f4211aa8267794b31c6381543be0a468026bb22206339207ce1c7226864e1e4"
-        ],
-        "text": "Seven's under the garage.",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }
@@ -226522,38 +222927,6 @@
           "8711fdc18f601c19d521545dce5a39c759c3bd0466c92b32b6df3400a0e67cb6"
         ],
         "text": "I love working with you, Infernus.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "path": "transcripts/kelvin/ping/kelvin_ping_attack_infernus.mp3.json",
-      "filename": "kelvin/ping/kelvin_ping_attack_infernus.mp3",
-      "confidence": "low",
-      "similarity": 0.8,
-      "normalizedLengths": [
-        21,
-        19
-      ],
-      "sourcePair": [
-        "generated",
-        "generated"
-      ],
-      "left": {
-        "revisionIndex": 0,
-        "sha256": [
-          "84bb69c0cc56255817aa26ed4bd5d3226b2b8df70e3ee2200e63d02ce358f320"
-        ],
-        "text": "Let's take out his runners.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      },
-      "right": {
-        "revisionIndex": 1,
-        "sha256": [
-          "51398980a2abcad98e2599eb7d6c7f92b1feb8a19bf4b124f3c8bd05e643aa9f"
-        ],
-        "text": "Let's take out Infernus!",
         "source": "generated",
         "model": "gpt-4o-mini-transcribe"
       }

@@ -9,22 +9,41 @@
   ],
   "statistics": {
     "files": 98944,
-    "changedFiles": 4688,
-    "officialGroupsRetained": 4688,
-    "generatedGroupsMerged": 5524,
-    "appliedCandidatePairs": 5524,
+    "changedFiles": 4707,
+    "officialGroupsRetained": 4707,
+    "generatedGroupsMerged": 5543,
+    "appliedCandidatePairs": 5543,
     "excludedCandidatePairs": 106,
     "excludedFiles": 91,
     "appliedByConfidence": {
-      "high": 1663,
-      "medium": 1322,
-      "low": 2539
+      "high": 1670,
+      "medium": 1328,
+      "low": 2545
     },
     "excludedByConfidence": {
       "medium": 44,
       "low": 58,
       "high": 4
     }
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "mergedCandidatePairs": 19,
+      "reconciledAliasOccurrences": 1
+    },
+    {
+      "iteration": 2,
+      "mergedCandidatePairs": 0,
+      "reconciledAliasOccurrences": 0
+    }
+  ],
+  "aliasReconciliation": {
+    "files": 98944,
+    "changedFiles": 359,
+    "reconciledOccurrences": 566,
+    "targetHashes": 14009,
+    "reconciledHashes": 566
   },
   "operations": [
     {
@@ -80938,6 +80957,334 @@
       "resultingHashes": [
         "0b73b8bd0d278e3b5597cfbd6f63c6c59f7390fcc5655b6b70e4db24282e52a6",
         "fa320068c581457a90fb881cf4d892a875ee35d3127f2ad850ffbd05823dce43"
+      ]
+    },
+    {
+      "path": "transcripts/bebop/bebop_upgrade_power_01.mp3.json",
+      "filename": "bebop/bebop_upgrade_power_01.mp3",
+      "officialRevisionIndex": 0,
+      "generatedRevisionIndices": [
+        1
+      ],
+      "officialText": "If they think they can run away, well, I got a surprise for them…",
+      "confidenceCounts": {
+        "high": 1
+      },
+      "resultingHashes": [
+        "e2b7c1c2933a10565bece46783682c555550e6df585d03eebe42d2ee676933e8",
+        "ef3b8bc04970e6e0d4280e39ccb7c813550fa13da04c0d45ab76dc03a1781845"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_geist_02.mp3.json",
+      "filename": "haze/haze_kill_geist_02.mp3",
+      "officialRevisionIndex": 2,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Geist and her shackled spectre will be back",
+      "confidenceCounts": {
+        "low": 1
+      },
+      "resultingHashes": [
+        "105cdb50b29168799dd0312e7912f092b50a29663c9a65c4e3f1a76e5c13edbc",
+        "146c5dc7a6a81a9ddbe635f936bb8a6683d6468ab8700ced11b99300df68bccb",
+        "23cbe398bbafe8f2d57cea6f90675502a0dde6dc0652ccc0910ac191c85e5395"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_holliday_04.mp3.json",
+      "filename": "haze/haze_kill_holliday_04.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Leave The Troubador to the OSIC",
+      "confidenceCounts": {
+        "medium": 1
+      },
+      "resultingHashes": [
+        "1867498e1c08c7b5b5c3af02bf43d4d74987be2ce7a585ec1f81ddc51cdf97b6",
+        "29e67221dd534bb37665188434f9140576242795b2dd5ee17f9463a0a3e1d044",
+        "80f9f7122c817f7e4dca80899688d1dfb930be3627685650d343f4e896d8eca7",
+        "a2ff478056eb635c0994abad75ca70caa158a9482c4606cb479aa2e823bea160"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_infernus_04.mp3.json",
+      "filename": "haze/haze_kill_infernus_04.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Leaving that bar was the last mistake you'd ever make",
+      "confidenceCounts": {
+        "high": 1
+      },
+      "resultingHashes": [
+        "24b2b237607ec26f00921bae95598e4fa106c8e87a8c49a47d9d8ae74205326f",
+        "57701a02d64140def2bc32058e752f07e462f7c48d6ec7c99792212761c43486",
+        "65de84fdb34a77b8f98108a408734c20e594416adcd8bcfa63d60145fbb2baf1",
+        "791f79964d435f3fdb52782bda6de81e343467968324bfe77fac18cbe715b6f1"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_mcginnis_04.mp3.json",
+      "filename": "haze/haze_kill_mcginnis_04.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "McGinnis: you had your chance to make the right choice.",
+      "confidenceCounts": {
+        "medium": 1
+      },
+      "resultingHashes": [
+        "632fa42f48342ab2a3839928361a96a9b4fcf12c9543d0ac7cf0fb7d95fee2e9",
+        "c28526db09cf70b7ca82df7a039637bc94129a2900e9377baf54687d3e4958ea",
+        "c31d20a7d06089d26ebd107b232aadf07f1bbfae35f5b335dcf9a89f6e887012",
+        "cce5d090ce65db1174204b0e2c0f252082cf71d192f920c60f8280cb6621d12a"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_mcginnis_05.mp3.json",
+      "filename": "haze/haze_kill_mcginnis_05.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Today you reap what you sowed, McGinnis",
+      "confidenceCounts": {
+        "medium": 1
+      },
+      "resultingHashes": [
+        "42ea6b550ccea6fc3e03afbe2148e3008a572c7ab6b0db8b2c3adfb048937d62",
+        "6f7db2ccc9f4745a12f1f447fab6c1ad3179a8aa56302694cbaea395a3445a62",
+        "a23c7d4ad592d0a7c71fed6ebcbe56d8248174684ce1b64146c3f9c6b03e2fa9",
+        "f3ad091a3c52cd4bb8ab503e3d54ad59dd021b57f81354206d8ee400ffd9f02d"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_paradox_05.mp3.json",
+      "filename": "haze/haze_kill_paradox_05.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Such a dissapointment.",
+      "confidenceCounts": {
+        "medium": 1
+      },
+      "resultingHashes": [
+        "42d1f00cf9a5b9a51b26a12a1984911198a786494beff65731afbbe30f9c11a4",
+        "7bf6a46e064d73d1a0090dd2b8c9e5a8fbec8a6a9ece274505f8d72d37d1509a",
+        "80eca487b64a74f739123a32f53f175290b2db4ecfed5353913f2ce5b4b00014",
+        "ca2ccaa7c2fa085411d1f22072e638c2fd5031de4f72ffdc4afa57bdedb4d837"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_seven_03.mp3.json",
+      "filename": "haze/haze_kill_seven_03.mp3",
+      "officialRevisionIndex": 2,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "I'll tell you a secret Seven… I've dreamed of this moment.",
+      "confidenceCounts": {
+        "low": 1
+      },
+      "resultingHashes": [
+        "1c4f4f1f48d7e959afa2b734c92c83ef07c3d395e53def9bcd1c7e5782ac730d",
+        "677c902294f32d22289c286bb43a6b94b2278c078444723a41a92a93a1dffc31",
+        "9df18176b5a88be301a9ca3ff1bd5915dd5eba0d9f4d64bbda5ad80b0f899aa8"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_calico_missing_01.mp3.json",
+      "filename": "haze/ping/haze_ping_calico_missing_01.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Calico's missing",
+      "confidenceCounts": {
+        "medium": 1
+      },
+      "resultingHashes": [
+        "0f6226b3c420ad9b469e7c59f039d7a9a1a61799e8979f27694165b6ddeac319",
+        "1719372c7039df473521663f4cf15620216f0fbb18f13ca45da8328065038416",
+        "4a610bab21bbdcbbce118ff36c59a7a9bb49daaa8f3699d916134e6a16e5fe3c"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_see_pocket_01.mp3.json",
+      "filename": "haze/ping/haze_ping_see_pocket_01.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "I see Pocket",
+      "confidenceCounts": {
+        "high": 1
+      },
+      "resultingHashes": [
+        "4d893a1092f1f945fde132f00d5e49e47d30221bff54e3e6c25fc7b3f3af3e78",
+        "59b03faf39c7fb0dc6f8a47137f4f63d3b4fa9ab6391c3ff3df8be9a80bc146d",
+        "6844ad8f9374ce55664c53ab98b1e0f6edf2ce013096a85301e90dabdd8ae304",
+        "8bf77be9372a74e4133463d8b0b350a3c0c1aa34b4740507adf005338955713e"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_attack_vindicta.mp3.json",
+      "filename": "lash/ping/lash_ping_attack_vindicta.mp3",
+      "officialRevisionIndex": 0,
+      "generatedRevisionIndices": [
+        1
+      ],
+      "officialText": "Let's take out vindicta",
+      "confidenceCounts": {
+        "low": 1
+      },
+      "resultingHashes": [
+        "017eb8a0263f8e583b24c5ebf558cfbe2241dc507659b906af3ddedef16634b2",
+        "470ce7c321ca7ff5f84945e1b21b7e63e8e588c686d402ecda9c4ceb347e3aea",
+        "97a95a04b6e4430dd1f27834b66dc7555282ea1e3f2fc729f867b5324bdc438d"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_attack_infernus.mp3.json",
+      "filename": "orion/ping/orion_ping_attack_infernus.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Let's take out Infernus",
+      "confidenceCounts": {
+        "low": 1
+      },
+      "resultingHashes": [
+        "3e2f2c40d4931f40d82575689750f6076ced4158b77ddec5f28decc63e227c3f",
+        "7ddda5eddfc98e9f0b4c568f20386161a15d66f4f355f5fbd05fc7b3b3431e46",
+        "adfdc2953a1fb49cbf44a409a15f618e58868b7472d09f0156b12d5836186b83"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_attack_paradox.mp3.json",
+      "filename": "orion/ping/orion_ping_attack_paradox.mp3",
+      "officialRevisionIndex": 0,
+      "generatedRevisionIndices": [
+        1
+      ],
+      "officialText": "Let's take out Paradox",
+      "confidenceCounts": {
+        "low": 1
+      },
+      "resultingHashes": [
+        "a04df80ad1e5bd4fb2d1c5bd224433c8da5259f5ebda0b130fb7cf5d3b4c4416",
+        "e81b768cf98b2fbad926a98e9caf29d0ccb318612cf2cbfe50c7bf657f582a02",
+        "ee0da266299b7f89857064b0cc18da5e1ae1948d43edfac9e99b2746f66c79a3"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_attack_vindicta.mp3.json",
+      "filename": "orion/ping/orion_ping_attack_vindicta.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Let's take out vindicta",
+      "confidenceCounts": {
+        "low": 1
+      },
+      "resultingHashes": [
+        "aafb76b0d0d6a31246888be9a081c1ee98fedadde0a50d37bd96b6882d160418",
+        "dd364985a944e98b2e625edabea3f93f5943ae66d347f559b3d25661ef4cdba8",
+        "fbe218be4a67c2bd1f1f376b30d47e470343bac389b0771ef795857d612b18c9"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_holliday_missing_01.mp3.json",
+      "filename": "wraith/ping/wraith_ping_holliday_missing_01.mp3",
+      "officialRevisionIndex": 0,
+      "generatedRevisionIndices": [
+        1
+      ],
+      "officialText": "Holliday's missing",
+      "confidenceCounts": {
+        "high": 1
+      },
+      "resultingHashes": [
+        "2f9bf13f9be2d7e80bf086c262a3a4c0559ee041f7134a1bf77312ec41b36707",
+        "86fc7adb5ab5a169ad5f564ed85a1afaa0dfdfe5cf8be19b5c339cf1da302024",
+        "c6807df862ec1abe80a186178967fe0926e0defe3cf3fe18b2055af376458324"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_holliday_on_top_of_garage.mp3.json",
+      "filename": "wraith/ping/wraith_ping_holliday_on_top_of_garage.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Holliday's on top of the garage!",
+      "confidenceCounts": {
+        "high": 1
+      },
+      "resultingHashes": [
+        "660042b34efb455e1b92b29d1cf9e0ad6d5800135b8e5d71de7e744fc2adb55c",
+        "70fbe9c7226c423dff24803d71c15f8675d746e8ea0736a185630d5b183dfd40",
+        "97167ccdd3e4a98e6dc53c0b5d255b77196800d2fe2cbe906e01f9efe38cc5e3"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_holliday_on_top_of_mid.mp3.json",
+      "filename": "wraith/ping/wraith_ping_holliday_on_top_of_mid.mp3",
+      "officialRevisionIndex": 0,
+      "generatedRevisionIndices": [
+        1
+      ],
+      "officialText": "Holliday's on top of mid!",
+      "confidenceCounts": {
+        "medium": 1
+      },
+      "resultingHashes": [
+        "3853d0380e744e33ba582319d7d388caafb71cdc42ee44a104974a530e8ca29a",
+        "64ddc76981b20a42584f5927297ca3323ad12a5108c4986653d0886c737a4a99",
+        "95bf8d02a358e229f0b3afc1cf0bb1ed4d3afed693f834b39e2a5aa69071adde"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_holliday_under_garage.mp3.json",
+      "filename": "wraith/ping/wraith_ping_holliday_under_garage.mp3",
+      "officialRevisionIndex": 0,
+      "generatedRevisionIndices": [
+        1
+      ],
+      "officialText": "Holliday's under the garage!",
+      "confidenceCounts": {
+        "high": 1
+      },
+      "resultingHashes": [
+        "078ae6dde71dad9b3b21eb2eeaf1e5fd7dd73f82b2e33175d02c07cd6453f754",
+        "1153f3960a91c9b131b82afb22dffad338b7ebd3e7ad2c36af0ae853cb31ec88",
+        "72feca483a6a51d802013cfef8a9732976db5d34e7d9bb93c14e8296e7364f33"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_see_holliday_on_roof.mp3.json",
+      "filename": "wraith/ping/wraith_ping_see_holliday_on_roof.mp3",
+      "officialRevisionIndex": 1,
+      "generatedRevisionIndices": [
+        0
+      ],
+      "officialText": "Holliday's on the roof!",
+      "confidenceCounts": {
+        "high": 1
+      },
+      "resultingHashes": [
+        "23f414fff19e2e152fdd828ac770924f340d75dc3ea674a829ad45fa276492bd",
+        "a0283bde9febf044bd8abaeeb6e0b3d83cfc32827522a9f6fb2677c46f6443ca",
+        "a6a58a4c10e10af4fc720013b0a59fabae7a409d60982b5970bc40afbb472c48"
       ]
     }
   ],

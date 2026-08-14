@@ -8,9 +8,9 @@ matches are excluded because they are already grouped.
 
 | Confidence | Similarity | Candidates |
 | --- | ---: | ---: |
-| High | ≥ 95% | 1,158 |
-| Medium | ≥ 90% | 1,914 |
-| Low | ≥ 80% | 4,170 |
+| High | ≥ 95% | 1,128 |
+| Medium | ≥ 90% | 1,893 |
+| Low | ≥ 80% | 4,110 |
 
 Similarity is the `difflib.SequenceMatcher` ratio after ignoring case, Unicode
 punctuation, and whitespace. Even high-confidence pairs require human review because
@@ -19,10 +19,10 @@ small changes can alter names, subjects, negation, or gameplay meaning.
 ## Coverage
 
 - Transcript files: 98,944
-- Revision groups: 122,663
-- Within-file pairs: 30,486
-- Nonblank, non-exact pairs compared: 30,306
-- Candidates: 7,242
+- Revision groups: 122,573
+- Within-file pairs: 30,344
+- Nonblank, non-exact pairs compared: 30,164
+- Candidates: 7,131
 
 The complete candidate set, including hashes and normalized lengths, is in
 `fuzzy-transcript-candidates.json`.
@@ -31,7 +31,7 @@ The complete candidate set, including hashes and normalized lengths, is in
 
 | Sources | High | Medium | Low | Total |
 | --- | ---: | ---: | ---: | ---: |
-| generated + generated | 1,145 | 1,845 | 4,076 | 7,066 |
+| generated + generated | 1,115 | 1,824 | 4,016 | 6,955 |
 | generated + manual | 7 | 25 | 31 | 63 |
 | generated + official | 4 | 44 | 58 | 106 |
 | manual + official | 2 | 0 | 1 | 3 |
@@ -39,7 +39,7 @@ The complete candidate set, including hashes and normalized lengths, is in
 
 ## High confidence
 
-Showing 100 of 1,158 candidates.
+Showing 100 of 1,128 candidates.
 
 | Similarity | Path | Sources | Left text | Right text |
 | ---: | --- | --- | --- | --- |
@@ -146,7 +146,7 @@ Showing 100 of 1,158 candidates.
 
 ## Medium confidence
 
-Showing 100 of 1,914 candidates.
+Showing 100 of 1,893 candidates.
 
 | Similarity | Path | Sources | Left text | Right text |
 | ---: | --- | --- | --- | --- |
@@ -220,7 +220,6 @@ Showing 100 of 1,914 candidates.
 | 94.74% | `transcripts/krill/krill_killed_by_chrono_03.mp3.json` | generated / generated | Stupid bee with her stupid time manipulation! | Stupid bee with our stupid time manipulation! |
 | 94.74% | `transcripts/krill/krill_killed_by_ghost_04.mp3.json` | generated / generated | It would seem the powers of the eighth son aren't an overexaggeration. | It would seem the powers of the Aether Son aren't an overexaggeration. |
 | 94.74% | `transcripts/krill/krill_killed_by_gigawatt_01.mp3.json` | generated / generated | Gigawatts cunning! We must be cutting too much. | Gigawatts cutting! We must be cutting too much. |
-| 94.74% | `transcripts/krill/ping/krill_ping_attack_vindicta.mp3.json` | generated / generated | Let's take out Vendicta! | Let's take out Vindicta! |
 | 94.74% | `transcripts/krill/ping/krill_ping_stun_dynamo_01.mp3.json` | generated / generated | stun Dynamo! | Sun Dynamo. |
 | 94.74% | `transcripts/krill/ping/krill_ping_stun_mirage_01.mp3.json` | generated / generated | Stun Mirage! | Sun Mirage! |
 | 94.74% | `transcripts/lash/lash_upgrade_power5_08.mp3.json` | generated / generated | Ready to take them apart. | Ready to take 'em apart. |
@@ -250,10 +249,11 @@ Showing 100 of 1,914 candidates.
 | 94.74% | `transcripts/tengu/ivy_tower_got_denied_05.mp3.json` | generated / generated | They can keep the money! We've got what we came for. | We can keep the money. We've got what we came for. |
 | 94.74% | `transcripts/tengu/ivy_unselect_08.mp3.json` | generated / generated | Can I at least have a hug? | Can I at least have a hog? |
 | 94.74% | `transcripts/tengu/ping/ivy_ping_see_kelvin_01.mp3.json` | generated / generated | I see Kelvin! | I see Kevin. |
+| 94.74% | `transcripts/tengu/ping/tengu_ping_ignore_lash.mp3.json` | generated / generated | Ignorelash! | Ignore las |
 
 ## Low confidence
 
-Showing 100 of 4,170 candidates.
+Showing 100 of 4,110 candidates.
 
 | Similarity | Path | Sources | Left text | Right text |
 | ---: | --- | --- | --- | --- |
@@ -262,7 +262,6 @@ Showing 100 of 4,170 candidates.
 | 89.86% | `transcripts/announcer/female_patron/patron_female_ally_viscous_start_10.mp3.json` | generated / generated | Don't discount what you bring to the table, Viscous, but I see you for what you are. | Only a fool would discount what you bring to the table, Viscous, but I see you for what you are. |
 | 89.86% | `transcripts/bebop/bebop_killed_by_akimbo_04.mp3.json` | generated / generated | Kemba has become a stooge of the organics. | The Kenba's become a stooge of the organics! |
 | 89.86% | `transcripts/gigawatt/gigawatt_enemy_hornet_killed_mid_air_03.mp3.json` | generated / generated | Indeed, I learned a valuable lesson today. | Vindicta learned a valuable lesson today. |
-| 89.86% | `transcripts/haze/haze_kill_geist_02.mp3.json` | generated / generated | geist and her shackle specter will be back. | Geist and her shadow specter will be back. |
 | 89.86% | `transcripts/orion/orion_outnumbered_03.mp3.json` | generated / generated | I couldn't help anyone if I threw my life away. | I can't help anyone if I throw my life away. |
 | 89.86% | `transcripts/shiv/shiv_ally_geist_killed_in_lane_02_02.mp3.json` | generated / generated | This is it. That's me, but probably next time. | That's it, that's me, but probably next time we |
 | 89.86% | `transcripts/tengu/ivy_kill_forge_03.mp3.json` | generated / generated | I thought you were supposed to be some genius. | But you were supposed to be some genius! |
@@ -327,7 +326,6 @@ Showing 100 of 4,170 candidates.
 | 89.66% | `transcripts/gigawatt/ping/gigawatt_ping_tengu_missing_01.mp3.json` | generated / generated | I've been missing. | I've eaten missing. |
 | 89.66% | `transcripts/gigawatt/ping/gigawatt_ping_with_dynamo.mp3.json` | generated / generated | I'm with you, Dynamo. | I wish you dynamo. |
 | 89.66% | `transcripts/gigawatt/ping/gigawatt_ping_with_lash.mp3.json` | generated / generated | Time with you lasts. | I'm with you, lass. |
-| 89.66% | `transcripts/haze/haze_kill_mcginnis_05.mp3.json` | generated / generated | Today you reap what you sow, McKinnis. | Today you reap what you sow, McKenz. |
 | 89.66% | `transcripts/haze/ping/haze_ping_fairfax_in_mid.mp3.json` | generated / generated | Fairfax is in mid. | Fairfax is in Mitt. |
 | 89.66% | `transcripts/haze/ping/haze_ping_sandeep_in_mid.mp3.json` | generated / generated | Send deep and mid. | Send deep, send mid. |
 | 89.66% | `transcripts/hornet/ping/vindicta_ping_attack_tengu.mp3.json` | generated / generated | Let's see that item. | Let's see that ice! |
@@ -357,3 +355,5 @@ Showing 100 of 4,170 candidates.
 | 89.66% | `transcripts/paradox/ping/paradox_ping_can_heal_haze.mp3.json` | generated / generated | Haze, I can heal you! | Hey, I can heal you! |
 | 89.66% | `transcripts/paradox/ping/paradox_ping_sandeep_in_mid.mp3.json` | generated / generated | Sound DPS in mid. | Sounds deeps in mid. |
 | 89.66% | `transcripts/paradox/ping/paradox_ping_see_enemy_on_roof.mp3.json` | generated / generated | Damn is on the roof! | Demi's on the roof! |
+| 89.66% | `transcripts/paradox/ping/paradox_ping_with_pocket.mp3.json` | generated / generated | I'm with you, Pocket. | I wish you pocket. |
+| 89.66% | `transcripts/pocket/ping/pocket_ping_jar_call_01.mp3.json` | generated / generated | Spirit urn is here. | Spirit on is here. |

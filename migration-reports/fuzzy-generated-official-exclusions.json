@@ -9,22 +9,41 @@
   ],
   "statistics": {
     "files": 98944,
-    "changedFiles": 4688,
-    "officialGroupsRetained": 4688,
-    "generatedGroupsMerged": 5524,
-    "appliedCandidatePairs": 5524,
+    "changedFiles": 4707,
+    "officialGroupsRetained": 4707,
+    "generatedGroupsMerged": 5543,
+    "appliedCandidatePairs": 5543,
     "excludedCandidatePairs": 106,
     "excludedFiles": 91,
     "appliedByConfidence": {
-      "high": 1663,
-      "medium": 1322,
-      "low": 2539
+      "high": 1670,
+      "medium": 1328,
+      "low": 2545
     },
     "excludedByConfidence": {
       "medium": 44,
       "low": 58,
       "high": 4
     }
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "mergedCandidatePairs": 19,
+      "reconciledAliasOccurrences": 1
+    },
+    {
+      "iteration": 2,
+      "mergedCandidatePairs": 0,
+      "reconciledAliasOccurrences": 0
+    }
+  ],
+  "aliasReconciliation": {
+    "files": 98944,
+    "changedFiles": 359,
+    "reconciledOccurrences": 566,
+    "targetHashes": 14009,
+    "reconciledHashes": 566
   },
   "operations": [],
   "exclusions": [

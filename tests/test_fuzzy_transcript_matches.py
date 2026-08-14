@@ -15,6 +15,10 @@ from tools.apply_fuzzy_generated_official_matches import (
     excluded_official_terms,
     plan_document,
 )
+from tools.reconcile_fuzzy_official_aliases import (
+    official_targets,
+    reconcile_document,
+)
 
 
 def revision(digest: str, text: str, source: str = "generated") -> dict[str, object]:
@@ -141,6 +145,64 @@ class FuzzyTranscriptMatchTests(unittest.TestCase):
                 self.assertEqual(len(exclusions), 1)
                 self.assertEqual(exclusions[0]["matchedTerms"], [term])
                 self.assertEqual(excluded_official_terms(official_text), [term])
+
+    def test_alias_reconciliation_splits_only_the_matching_hash(self) -> None:
+        source_path = "transcripts/hero/legacy_name.mp3.json"
+        alias_path = "transcripts/hero/current_name.mp3.json"
+        operations = [
+            {
+                "path": source_path,
+                "officialText": "Holliday's missing",
+                "resultingHashes": ["1" * 64],
+            }
+        ]
+        targets = official_targets(operations)
+        document = {
+            "schemaVersion": 3,
+            "filename": "current_name.mp3",
+            "revisions": [
+                {
+                    "sha256": ["1" * 64, "2" * 64],
+                    "text": "Holliday is missing.",
+                    "source": "generated",
+                    "model": "test-model",
+                }
+            ],
+        }
+
+        updated, reconciliations = reconcile_document(document, alias_path, targets)
+
+        self.assertEqual(len(reconciliations), 1)
+        self.assertEqual(len(updated["revisions"]), 2)
+        by_source = {item["source"]: item for item in updated["revisions"]}
+        self.assertEqual(by_source["official"]["sha256"], ["1" * 64])
+        self.assertEqual(by_source["official"]["text"], "Holliday's missing")
+        self.assertEqual(by_source["generated"]["sha256"], ["2" * 64])
+        self.assertEqual(by_source["generated"]["model"], "test-model")
+
+        source_document, source_changes = reconcile_document(
+            document, source_path, targets
+        )
+        self.assertEqual(source_document, document)
+        self.assertEqual(source_changes, [])
+
+    def test_alias_targets_reject_conflicting_official_text(self) -> None:
+        digest = "1" * 64
+        with self.assertRaisesRegex(ValueError, "conflicting official merge targets"):
+            official_targets(
+                [
+                    {
+                        "path": "transcripts/hero/one.mp3.json",
+                        "officialText": "First official text.",
+                        "resultingHashes": [digest],
+                    },
+                    {
+                        "path": "transcripts/hero/two.mp3.json",
+                        "officialText": "Second official text.",
+                        "resultingHashes": [digest],
+                    },
+                ]
+            )
 
 
 if __name__ == "__main__":

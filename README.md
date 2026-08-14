@@ -31,7 +31,9 @@ python tools/apply_fuzzy_generated_official_matches.py --apply
 
 The first command is a dry run. The apply command preserves all hashes and excludes
 official text mentioning Hidden King or Archmother, recording every exclusion in JSON
-and Markdown under `migration-reports/`.
+and Markdown under `migration-reports/`. It also propagates each promoted official
+state to alias filenames that contain the same audio hash, splitting revision groups
+when necessary so unrelated hashes retain their existing transcript state.
 
 ## Legacy contribution audit
 
