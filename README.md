@@ -21,6 +21,18 @@ The audit compares groups only within the same transcript file and writes comple
 JSON plus a compact Markdown review report under `migration-reports/`. Confidence
 levels are advisory; even high-confidence candidates require human review.
 
+After reviewing the generated/official candidates, merge them with the official group
+as the survivor using:
+
+```powershell
+python tools/apply_fuzzy_generated_official_matches.py
+python tools/apply_fuzzy_generated_official_matches.py --apply
+```
+
+The first command is a dry run. The apply command preserves all hashes and excludes
+official text mentioning Hidden King or Archmother, recording every exclusion in JSON
+and Markdown under `migration-reports/`.
+
 ## Legacy contribution audit
 
 Stage 1 of the legacy migration is an audit only. It reads the legacy and v3 layouts

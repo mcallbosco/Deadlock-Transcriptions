@@ -11,6 +11,10 @@ from tools.audit_fuzzy_transcript_matches import (
     fuzzy_similarity,
     markdown_report,
 )
+from tools.apply_fuzzy_generated_official_matches import (
+    excluded_official_terms,
+    plan_document,
+)
 
 
 def revision(digest: str, text: str, source: str = "generated") -> dict[str, object]:
@@ -81,6 +85,62 @@ class FuzzyTranscriptMatchTests(unittest.TestCase):
         rendered = markdown_report(report)
         self.assertIn("advisory only", rendered)
         self.assertIn("require human review", rendered)
+
+    def test_generated_group_merges_into_one_official_group(self) -> None:
+        document = {
+            "schemaVersion": 3,
+            "filename": "hero_line.mp3",
+            "revisions": [
+                revision("1", "Dynamo turned the tide.", "generated"),
+                revision("2", "Dynamo turned the tides.", "official"),
+            ],
+        }
+
+        updated, operations, exclusions = plan_document(
+            document, "transcripts/hero/hero_line.mp3.json"
+        )
+
+        self.assertEqual(len(updated["revisions"]), 1)
+        self.assertEqual(updated["revisions"][0]["source"], "official")
+        self.assertEqual(updated["revisions"][0]["text"], "Dynamo turned the tides.")
+        self.assertEqual(updated["revisions"][0]["sha256"], ["1" * 64, "2" * 64])
+        self.assertEqual(len(operations), 1)
+        self.assertEqual(exclusions, [])
+
+    def test_hidden_king_and_archmother_official_groups_are_excluded(self) -> None:
+        for term, official_text in (
+            (
+                "Hidden King",
+                "Complete the ritual, and let the Hidden King guide you to victory.",
+            ),
+            (
+                "Archmother",
+                "Complete the ritual, and let the Archmother guide you to victory.",
+            ),
+        ):
+            with self.subTest(term=term):
+                document = {
+                    "schemaVersion": 3,
+                    "filename": "hero_line.mp3",
+                    "revisions": [
+                        revision(
+                            "1",
+                            "Complete the ritual, and let me guide you to victory.",
+                            "generated",
+                        ),
+                        revision("2", official_text, "official"),
+                    ],
+                }
+
+                updated, operations, exclusions = plan_document(
+                    document, "transcripts/hero/hero_line.mp3.json"
+                )
+
+                self.assertEqual(updated, document)
+                self.assertEqual(operations, [])
+                self.assertEqual(len(exclusions), 1)
+                self.assertEqual(exclusions[0]["matchedTerms"], [term])
+                self.assertEqual(excluded_official_terms(official_text), [term])
 
 
 if __name__ == "__main__":
