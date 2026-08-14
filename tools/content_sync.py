@@ -1249,7 +1249,7 @@ class ContentSyncPlanner:
         base: str | None,
         baseline: bool,
         plan: SyncPlan,
-    ) -> dict[str, tuple[TranscriptState | None, TranscriptState]]:
+    ) -> dict[str, tuple[tuple[TranscriptState, ...], TranscriptState]]:
         if baseline:
             selected = set(validation.by_sha)
             old_by_sha: dict[str, list[TranscriptState]] = {}
@@ -1281,7 +1281,7 @@ class ContentSyncPlanner:
                     if old is not None:
                         old_by_sha.setdefault(sha, []).append(old)
 
-        changes: dict[str, tuple[TranscriptState | None, TranscriptState]] = {}
+        changes: dict[str, tuple[tuple[TranscriptState, ...], TranscriptState]] = {}
         for sha in sorted(selected):
             candidates = validation.by_sha.get(sha, [])
             desired_states = {item.state.published for item in candidates}
@@ -1296,14 +1296,18 @@ class ContentSyncPlanner:
                 continue
             desired = candidates[0].state
             old_candidates = old_by_sha.get(sha, [])
-            old_states = {item.published for item in old_candidates}
-            if len(old_states) > 1:
-                plan.errors.append(
-                    f"Recording SHA-256 {sha} has conflicting base transcript states."
-                )
-                continue
-            old = old_candidates[0] if old_candidates else None
-            changes[sha] = old, desired
+            # A duplicated hash may have conflicting states in the base tree. A
+            # target that converges those aliases is safe to plan as long as the
+            # live CDN record matches any observed base state (or already matches
+            # the unique desired state). Preserve every candidate for that check.
+            old_by_published = {
+                item.published: item for item in old_candidates
+            }
+            expected_old = tuple(
+                old_by_published[published]
+                for published in sorted(old_by_published)
+            )
+            changes[sha] = expected_old, desired
         return changes
 
     def _direct_config_paths(self, paths: Iterable[str], baseline: bool) -> list[str]:
@@ -1412,7 +1416,8 @@ class ContentSyncPlanner:
                         selected = revision_changes.get(sha)
                         if selected is None:
                             continue
-                        old, desired = selected
+                        expected_old, desired = selected
+                        old = expected_old[0] if len(expected_old) == 1 else None
                         current = published_state(record)
                         matched_hashes.add(sha)
                         plan.matched_records += 1
@@ -1426,7 +1431,7 @@ class ContentSyncPlanner:
                         elif baseline:
                             status = "baseline_update"
                             object_updates += 1
-                        elif old is not None and current == old.published:
+                        elif any(current == candidate.published for candidate in expected_old):
                             status = "update"
                             object_updates += 1
                         else:
@@ -1443,6 +1448,9 @@ class ContentSyncPlanner:
                                     "sha256": sha,
                                     "current": state_json(current),
                                     "expectedOld": state_json(old),
+                                    "expectedOldStates": [
+                                        state_json(candidate) for candidate in expected_old
+                                    ],
                                     "desired": state_json(desired),
                                 }
                             )

@@ -203,6 +203,51 @@ class ContentSyncTests(unittest.TestCase):
         self.assertFalse(plan.deployable)
         self.assertEqual(plan.conflict_count, 1)
 
+    def test_ambiguous_base_may_converge_to_one_target_state(self) -> None:
+        alias_path = self.repo / "transcripts" / "hero" / "line_alias.mp3.json"
+        self.write_json(
+            alias_path,
+            {
+                "schemaVersion": 3,
+                "filename": "hero/line_alias.mp3",
+                "revisions": [
+                    {
+                        "sha256": [SHA],
+                        "text": "generated base text",
+                        "source": "generated",
+                        "model": "test-model",
+                    }
+                ],
+            },
+            indent=2,
+        )
+        self.commit("add conflicting hash alias")
+        ambiguous_base = self.git("rev-parse", "HEAD").strip()
+
+        self.write_transcript("corrected text", "official")
+        self.write_json(
+            alias_path,
+            {
+                "schemaVersion": 3,
+                "filename": "hero/line_alias.mp3",
+                "revisions": [
+                    {"sha256": [SHA], "text": "corrected text", "source": "official"}
+                ],
+            },
+            indent=2,
+        )
+        self.commit("converge hash aliases")
+
+        plan = ContentSyncPlanner(
+            self.repo, MemoryStore(self.published()), cdn_base_url=CDN
+        ).build(base=ambiguous_base)
+
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertEqual(plan.conflict_count, 0)
+        self.assertEqual(len(plan.record_changes), 2)
+        for change in plan.record_changes:
+            self.assertEqual(len(change["expectedOldStates"]), 2)
+
     def test_formatting_only_direct_config_change_is_source_noop(self) -> None:
         path = self.repo / "config" / "deadlock" / "versions" / "v1" / "character-names.json"
         value = {"schemaVersion": 1, "game": "deadlock", "names": {"hero": "Hero"}}
