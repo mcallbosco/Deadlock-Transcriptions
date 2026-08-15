@@ -1121,9 +1121,9 @@ def validate_repository(repo: Path, game: str = "deadlock") -> RepositoryValidat
         if len({item.state.published for item in values}) > 1
     ]
     if ambiguous:
-        report.warnings.append(
+        report.errors.append(
             f"{len(ambiguous):,} recording SHA-256 values have conflicting repository states. "
-            "They block only when that SHA is selected for synchronization."
+            "Reconcile every duplicate hash before planning or deployment."
         )
     return report
 

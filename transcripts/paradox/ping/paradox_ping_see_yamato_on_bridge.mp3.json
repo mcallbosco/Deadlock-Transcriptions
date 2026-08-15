@@ -4,10 +4,17 @@
   "revisions": [
     {
       "sha256": [
-        "143eb9a2078694737c003ff62b8c347b768d7c27678c7ff3bf45c54fabfd31e7",
-        "da99473f17653e6e8788193302ff20fae0afe5a6ebb23a76fdd66aa57cf0fb6c"
+        "143eb9a2078694737c003ff62b8c347b768d7c27678c7ff3bf45c54fabfd31e7"
       ],
       "text": "Yamato's on the bridge!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
+    },
+    {
+      "sha256": [
+        "da99473f17653e6e8788193302ff20fae0afe5a6ebb23a76fdd66aa57cf0fb6c"
+      ],
+      "text": "Yamato is on the bridge.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

@@ -93,6 +93,36 @@ class ApplyOgnbTranscriptReviewTests(unittest.TestCase):
         with self.assertRaisesRegex(ReviewError, "no longer matches"):
             apply_review(self.transcripts, self.review, apply=False)
 
+    def test_splits_grouped_revision_without_changing_sibling_hash(self):
+        sibling = "b" * 64
+        path = self.write_transcript()
+        document = json.loads(path.read_text(encoding="utf-8"))
+        document["revisions"][0]["sha256"] = [SHA, sibling]
+        path.write_text(json.dumps(document), encoding="utf-8")
+        self.write_review()
+
+        statistics = apply_review(self.transcripts, self.review, apply=True)
+
+        revisions = json.loads(path.read_text(encoding="utf-8"))["revisions"]
+        self.assertEqual(statistics["splitRevisionGroups"], 1)
+        self.assertEqual(
+            revisions,
+            [
+                {
+                    "sha256": [SHA],
+                    "text": "good",
+                    "source": "generated",
+                    "model": "test-model",
+                },
+                {
+                    "sha256": [sibling],
+                    "text": "bad",
+                    "source": "generated",
+                    "model": "test-model",
+                },
+            ],
+        )
+
     def test_rejects_selected_manual_review_row(self):
         self.write_transcript()
         self.write_review(decision="manual_review", needs_manual_review="true")

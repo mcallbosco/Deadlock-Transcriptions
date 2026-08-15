@@ -228,6 +228,10 @@ categories, and character display names are deployable in Phase 1. Changes to ma
 alias, grouping, conversation-override, or per-version audio-override inputs fail with
 `regeneration required` until the deterministic generator is available.
 
+CI also requires every recording SHA-256 to resolve to one published transcript state.
+Duplicate states are reconciled by `official` > `manual` > `generated`, with the most
+recent Git edit breaking ties at the same authority.
+
 After the one-time baseline is initialized, qualifying pushes to protected `main`
 automatically recalculate from the private deployment cursor and conditionally update R2.
 The workflow publishes version content and metadata first, the public game manifest last,

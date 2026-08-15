@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import csv
 import json
 import re
@@ -64,7 +65,7 @@ def plan_changes(
 ) -> tuple[dict[Path, dict[str, Any]], dict[str, int]]:
     found: Counter[str] = Counter()
     changes: dict[Path, dict[str, Any]] = {}
-    selected_groups: dict[tuple[Path, int], list[dict[str, str]]] = defaultdict(list)
+    selected_groups: dict[tuple[Path, int], dict[str, dict[str, str]]] = defaultdict(dict)
 
     for path in sorted(transcripts.rglob("*.json")):
         document = json.loads(path.read_text(encoding="utf-8"))
@@ -77,16 +78,16 @@ def plan_changes(
                         f"{path}: {row['sha256']} no longer matches current_transcript"
                     )
                 if row["apply_recommended"] == "true":
-                    selected_groups[(path, index)].append(row)
+                    selected_groups[(path, index)][row["sha256"]] = row
 
     missing = sorted(set(review) - set(found))
     if missing:
         raise ReviewError(f"Review SHA-256 values not found in transcripts: {missing[:5]}")
 
-    for (path, index), rows in selected_groups.items():
-        recommendations = {row["recommended_transcript"] for row in rows}
-        if len(recommendations) != 1:
-            raise ReviewError(f"{path}: grouped hashes have conflicting recommendations")
+    split_revisions = 0
+    for (path, index), selected in sorted(
+        selected_groups.items(), key=lambda item: (str(item[0][0]), -item[0][1])
+    ):
         document = changes.setdefault(
             path, json.loads(path.read_text(encoding="utf-8"))
         )
@@ -97,7 +98,21 @@ def plan_changes(
             raise ReviewError(
                 f"{path}: selected revision source is {revision.get('source')!r}, not generated"
             )
-        revision["text"] = recommendations.pop()
+
+        grouped: dict[str, list[str]] = defaultdict(list)
+        for digest in revision["sha256"]:
+            row = selected.get(digest)
+            text = row["recommended_transcript"] if row else revision["text"]
+            grouped[text].append(digest)
+        replacements: list[dict[str, Any]] = []
+        for text, hashes in grouped.items():
+            replacement = copy.deepcopy(revision)
+            replacement["sha256"] = hashes
+            replacement["text"] = text
+            replacements.append(replacement)
+        if len(replacements) > 1:
+            split_revisions += 1
+        document["revisions"][index : index + 1] = replacements
 
     return changes, {
         "reviewRows": len(review),
@@ -108,6 +123,7 @@ def plan_changes(
             row["needs_manual_review"] == "true" for row in review.values()
         ),
         "duplicateFilenameAliases": sum(count - 1 for count in found.values()),
+        "splitRevisionGroups": split_revisions,
         "changedFiles": len(changes),
     }
 

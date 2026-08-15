@@ -56,6 +56,12 @@ python -m tools.content_sync_cli plan `
 Planning requires the transcript/config tree to be committed and clean so the reported
 target commit always identifies the exact content that was evaluated.
 
+Repository validation treats conflicting published states for the same recording SHA-256
+as a hard error. Resolve duplicate hashes before merge using this authority order:
+`official`, then `manual`, then `generated`; when candidates have the same authority, use
+the file version most recently edited in Git. The pull-request workflow runs this invariant
+check explicitly before contacting the public CDN, and the planner validates it again.
+
 ## Exact conflict approvals
 
 An incremental plan normally blocks when a live CDN record matches neither the Git base

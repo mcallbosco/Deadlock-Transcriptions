@@ -396,6 +396,27 @@ class ContentSyncTests(unittest.TestCase):
         self.assertTrue(any("unexpected fields" in item for item in report.errors))
         self.assertTrue(any("missing source" in item for item in report.errors))
 
+    def test_validation_rejects_conflicting_duplicate_hash_states(self) -> None:
+        duplicate = self.repo / "transcripts" / "hero" / "alias.mp3.json"
+        self.write_json(
+            duplicate,
+            {
+                "schemaVersion": 3,
+                "filename": "hero/alias.mp3",
+                "revisions": [
+                    {"sha256": [SHA], "text": "different", "source": "manual"}
+                ],
+            },
+            indent=2,
+        )
+
+        report = validate_repository(self.repo)
+
+        self.assertFalse(report.valid)
+        self.assertTrue(
+            any("conflicting repository states" in item for item in report.errors)
+        )
+
     def test_r2_writes_use_create_and_replace_preconditions(self) -> None:
         client = FakeR2Client()
         store = R2JsonStore("bucket", "https://account.r2.example", client=client)
