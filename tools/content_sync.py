@@ -737,10 +737,15 @@ def _transcript_files(root: Path) -> Iterator[Path]:
 def _document_states(
     document: dict[str, Any] | None,
     context: str,
+    *,
+    allow_legacy_v2: bool = False,
 ) -> dict[str, TranscriptState]:
     if document is None:
         return {}
-    if document.get("schemaVersion") != TRANSCRIPT_SCHEMA_VERSION:
+    schema_version = document.get("schemaVersion")
+    if schema_version != TRANSCRIPT_SCHEMA_VERSION and not (
+        allow_legacy_v2 and schema_version == 2
+    ):
         raise ContentSyncError(
             f"Transcript schemaVersion must be {TRANSCRIPT_SCHEMA_VERSION}: {context}"
         )
@@ -770,6 +775,11 @@ def _document_states(
         if model is not None and (not isinstance(model, str) or not model):
             raise ContentSyncError(f"{context} revisions[{index}] has invalid model")
         hashes = revision.get("sha256")
+        if schema_version == 2:
+            if isinstance(hashes, str):
+                hashes = [hashes]
+            elif hashes is None:
+                hashes = []
         if not isinstance(hashes, list):
             raise ContentSyncError(f"{context} revisions[{index}] SHA-256 must be an array")
         for sha in hashes:
@@ -1338,7 +1348,11 @@ class ContentSyncPlanner:
                 old_document = read_git_json(self.repo, base or "", path) if base else None
                 new_document = read_worktree_json(self.repo, path)
                 try:
-                    old_states = _document_states(old_document, f"{base}:{path}")
+                    old_states = _document_states(
+                        old_document,
+                        f"{base}:{path}",
+                        allow_legacy_v2=True,
+                    )
                     new_states = _document_states(new_document, path)
                 except ContentSyncError as exc:
                     plan.errors.append(str(exc))

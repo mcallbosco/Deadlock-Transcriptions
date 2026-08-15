@@ -343,6 +343,37 @@ class ContentSyncTests(unittest.TestCase):
         for change in plan.record_changes:
             self.assertEqual(len(change["expectedOldStates"]), 2)
 
+    def test_incremental_plan_accepts_schema_v2_only_in_historical_base(self) -> None:
+        value = json.loads(self.transcript_path.read_text(encoding="utf-8"))
+        value["schemaVersion"] = 2
+        value["revisions"][0]["sha256"] = SHA
+        self.write_json(self.transcript_path, value, indent=2)
+        self.commit("legacy v2 base")
+        legacy_base = self.git("rev-parse", "HEAD").strip()
+
+        self.write_transcript("corrected text", "official")
+        self.commit("migrate and correct transcript")
+
+        plan = ContentSyncPlanner(
+            self.repo, MemoryStore(self.published()), cdn_base_url=CDN
+        ).build(base=legacy_base)
+
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertEqual(plan.conflict_count, 0)
+        self.assertEqual(len(plan.record_changes), 2)
+        self.assertTrue(all(change["status"] == "update" for change in plan.record_changes))
+
+    def test_current_worktree_still_rejects_schema_v2(self) -> None:
+        value = json.loads(self.transcript_path.read_text(encoding="utf-8"))
+        value["schemaVersion"] = 2
+        value["revisions"][0]["sha256"] = SHA
+        self.write_json(self.transcript_path, value, indent=2)
+
+        report = validate_repository(self.repo)
+
+        self.assertFalse(report.valid)
+        self.assertTrue(any("schemaVersion must be 3" in item for item in report.errors))
+
     def test_formatting_only_direct_config_change_is_source_noop(self) -> None:
         path = self.repo / "config" / "deadlock" / "versions" / "v1" / "character-names.json"
         value = {"schemaVersion": 1, "game": "deadlock", "names": {"hero": "Hero"}}
