@@ -459,8 +459,16 @@ class SyncPlan:
 class PublicJsonStore:
     """Read JSON through the public content Worker."""
 
-    def __init__(self, base_url: str = "https://cdn.vlviewer.com") -> None:
+    def __init__(
+        self,
+        base_url: str = "https://cdn.vlviewer.com",
+        *,
+        read_attempts: int = 3,
+        retry_delay_seconds: float = 1.0,
+    ) -> None:
         self.base_url = base_url.rstrip("/")
+        self.read_attempts = max(1, read_attempts)
+        self.retry_delay_seconds = max(0.0, retry_delay_seconds)
 
     def url(self, key: str) -> str:
         encoded = "/".join(urllib.parse.quote(part) for part in key.split("/"))
@@ -475,16 +483,23 @@ class PublicJsonStore:
                 "User-Agent": "VLViewer-Content-Sync/1.0",
             },
         )
-        try:
-            with urllib.request.urlopen(request, timeout=60) as response:
-                body = response.read()
-                etag = response.headers.get("ETag")
-        except urllib.error.HTTPError as exc:
-            if exc.code == 404:
-                return StoredJson(key, None, None, None)
-            raise ContentSyncError(f"Could not read {self.url(key)}: HTTP {exc.code}") from exc
-        except (urllib.error.URLError, TimeoutError) as exc:
-            raise ContentSyncError(f"Could not read {self.url(key)}: {exc}") from exc
+        for attempt in range(1, self.read_attempts + 1):
+            try:
+                with urllib.request.urlopen(request, timeout=60) as response:
+                    body = response.read()
+                    etag = response.headers.get("ETag")
+                break
+            except urllib.error.HTTPError as exc:
+                if exc.code == 404:
+                    return StoredJson(key, None, None, None)
+                if exc.code not in {408, 429, 500, 502, 503, 504} or attempt == self.read_attempts:
+                    raise ContentSyncError(
+                        f"Could not read {self.url(key)}: HTTP {exc.code}"
+                    ) from exc
+            except (urllib.error.URLError, TimeoutError) as exc:
+                if attempt == self.read_attempts:
+                    raise ContentSyncError(f"Could not read {self.url(key)}: {exc}") from exc
+            time.sleep(self.retry_delay_seconds * attempt)
         try:
             value = json.loads(body.decode("utf-8-sig"))
         except (UnicodeDecodeError, json.JSONDecodeError) as exc:

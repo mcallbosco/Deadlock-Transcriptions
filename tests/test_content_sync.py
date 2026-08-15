@@ -7,12 +7,14 @@ import tempfile
 import unittest
 from pathlib import Path
 from typing import Any
+from unittest import mock
 
 from tools.content_sync import (
     ConflictApproval,
     ContentSyncError,
     ContentSyncPlanner,
     PlannedWrite,
+    PublicJsonStore,
     R2JsonStore,
     RepositoryValidation,
     StoredJson,
@@ -27,6 +29,28 @@ from tools.content_sync import (
 
 SHA = "a" * 64
 CDN = "https://cdn.example.test"
+
+
+class PublicJsonStoreTests(unittest.TestCase):
+    def test_retries_transient_read_timeout(self) -> None:
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = b'{"value": 1}'
+        response.__enter__.return_value.headers = {"ETag": '"etag"'}
+        with (
+            mock.patch(
+                "tools.content_sync.urllib.request.urlopen",
+                side_effect=[TimeoutError("slow CDN"), response],
+            ) as urlopen,
+            mock.patch("tools.content_sync.time.sleep") as sleep,
+        ):
+            stored = PublicJsonStore(
+                CDN, read_attempts=2, retry_delay_seconds=0.25
+            ).get_json("deadlock/release.json")
+
+        self.assertEqual(stored.value, {"value": 1})
+        self.assertEqual(stored.etag, '"etag"')
+        self.assertEqual(urlopen.call_count, 2)
+        sleep.assert_called_once_with(0.25)
 
 
 class MemoryStore:
