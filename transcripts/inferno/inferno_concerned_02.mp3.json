@@ -13,10 +13,17 @@
     {
       "sha256": [
         "b6d478f03b1d8a5361943bb7399919d099d9e7135f6f2b5440241aae5651dbac",
-        "cd7a2afe9b5cd868f69dd7e15fd5b5768714ae949cbfe7becb28a7d56292010d",
-        "d3d6fd5cad18bd911aa9c19c6126d6b60df2cc24f6e983aa1547bc66b53bda5d"
+        "cd7a2afe9b5cd868f69dd7e15fd5b5768714ae949cbfe7becb28a7d56292010d"
       ],
       "text": "This is good.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
+    },
+    {
+      "sha256": [
+        "d3d6fd5cad18bd911aa9c19c6126d6b60df2cc24f6e983aa1547bc66b53bda5d"
+      ],
+      "text": "This isn't good.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

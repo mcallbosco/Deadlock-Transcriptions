@@ -4,10 +4,17 @@
   "revisions": [
     {
       "sha256": [
-        "37c9da466cc2b3557ba46de07a799db4fb4248f2030af70dd2f57e381c944a6c",
-        "e031b3140c9557c95e977369d3d683fd53e9d7a6a9de93bf342c8155777bfaed"
+        "37c9da466cc2b3557ba46de07a799db4fb4248f2030af70dd2f57e381c944a6c"
       ],
       "text": "This guest was here.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
+    },
+    {
+      "sha256": [
+        "e031b3140c9557c95e977369d3d683fd53e9d7a6a9de93bf342c8155777bfaed"
+      ],
+      "text": "Viscous was here.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

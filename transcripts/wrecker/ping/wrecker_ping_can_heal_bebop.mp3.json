@@ -4,10 +4,17 @@
   "revisions": [
     {
       "sha256": [
-        "0cdf5b969fa0d21453ed67e51e4ec2f32a5291ca02cbedadd018476877ddfeb2",
-        "b0abd9b424bed961da6db777974c5e15feab9ea14ad7b956adfe74c44712f3ec"
+        "0cdf5b969fa0d21453ed67e51e4ec2f32a5291ca02cbedadd018476877ddfeb2"
       ],
       "text": "Bebop, I can hear you.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
+    },
+    {
+      "sha256": [
+        "b0abd9b424bed961da6db777974c5e15feab9ea14ad7b956adfe74c44712f3ec"
+      ],
+      "text": "Bebop. I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }
