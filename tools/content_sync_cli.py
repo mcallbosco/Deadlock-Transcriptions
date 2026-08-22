@@ -14,7 +14,9 @@ from .content_sync import (
     ContentSyncPlanner,
     PublicJsonStore,
     R2JsonStore,
+    changed_paths,
     deploy_plan,
+    hash_preservation_errors,
     load_conflict_approvals,
     require_checked_out_target,
     validate_repository,
@@ -58,6 +60,10 @@ def build_parser() -> argparse.ArgumentParser:
     validate.add_argument("--repo", type=Path, default=Path.cwd())
     validate.add_argument("--game", default="deadlock")
     validate.add_argument("--output-json", type=Path)
+    validate.add_argument(
+        "--base",
+        help="Optional base commit whose recording hashes must remain in the target tree",
+    )
 
     plan = commands.add_parser("plan", help="Build a credential-free public-CDN plan")
     add_common(plan)
@@ -101,6 +107,11 @@ def build_parser() -> argparse.ArgumentParser:
 
 def validate_command(args: argparse.Namespace) -> int:
     report = validate_repository(args.repo, args.game)
+    if args.base:
+        paths = changed_paths(args.repo.resolve(), args.base, "HEAD")
+        report.errors.extend(
+            hash_preservation_errors(args.repo.resolve(), args.base, report, paths)
+        )
     payload = report.to_json()
     if args.output_json:
         args.output_json.parent.mkdir(parents=True, exist_ok=True)

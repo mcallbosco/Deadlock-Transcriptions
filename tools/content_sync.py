@@ -806,6 +806,42 @@ def _document_states(
     return result
 
 
+def hash_preservation_errors(
+    repo: Path,
+    base: str,
+    validation: RepositoryValidation,
+    paths: Iterable[str],
+) -> list[str]:
+    """Reject removal of the final target occurrence of any recording hash."""
+    removed_from: dict[str, list[str]] = {}
+    errors: list[str] = []
+    for path in paths:
+        if not path.startswith("transcripts/") or not path.endswith(".json"):
+            continue
+        try:
+            old_states = _document_states(
+                read_git_json(repo, base, path),
+                f"{base}:{path}",
+                allow_legacy_v2=True,
+            )
+            new_states = _document_states(read_worktree_json(repo, path), path)
+        except ContentSyncError as exc:
+            errors.append(str(exc))
+            continue
+        for sha in sorted(set(old_states) - set(new_states)):
+            removed_from.setdefault(sha, []).append(path)
+
+    for sha, source_paths in sorted(removed_from.items()):
+        if sha in validation.by_sha:
+            continue
+        examples = ", ".join(source_paths[:4])
+        errors.append(
+            f"Recording SHA-256 {sha} was removed from the transcript tree ({examples}). "
+            "Recording hashes may be moved between files or revisions, but must not be deleted."
+        )
+    return errors
+
+
 def _string_array_mapping_errors(value: dict[str, Any], label: str) -> list[str]:
     errors: list[str] = []
     aliases_seen: dict[str, str] = {}
@@ -1351,12 +1387,18 @@ class ContentSyncPlanner:
         baseline: bool,
         plan: SyncPlan,
     ) -> dict[str, tuple[tuple[TranscriptState, ...], TranscriptState]]:
+        paths = list(paths)
         if baseline:
             selected = set(validation.by_sha)
             old_by_sha: dict[str, list[TranscriptState]] = {}
         else:
             selected: set[str] = set()
             old_by_sha = {}
+            for error in hash_preservation_errors(
+                self.repo, base or "", validation, paths
+            ):
+                if error not in plan.errors:
+                    plan.errors.append(error)
             for path in paths:
                 if not path.startswith("transcripts/") or not path.endswith(".json"):
                     continue
@@ -1370,21 +1412,18 @@ class ContentSyncPlanner:
                     )
                     new_states = _document_states(new_document, path)
                 except ContentSyncError as exc:
-                    plan.errors.append(str(exc))
+                    if str(exc) not in plan.errors:
+                        plan.errors.append(str(exc))
                     continue
                 for sha in sorted(set(old_states) | set(new_states)):
                     old = old_states.get(sha)
                     new = new_states.get(sha)
+                    if old is not None:
+                        old_by_sha.setdefault(sha, []).append(old)
                     if new is None:
-                        if old is not None:
-                            plan.warnings.append(
-                                f"Removed transcript revision {sha} in {path}; CDN deletion is out of scope."
-                            )
                         continue
                     if old is None or old.published != new.published:
                         selected.add(sha)
-                    if old is not None:
-                        old_by_sha.setdefault(sha, []).append(old)
 
         changes: dict[str, tuple[tuple[TranscriptState, ...], TranscriptState]] = {}
         for sha in sorted(selected):

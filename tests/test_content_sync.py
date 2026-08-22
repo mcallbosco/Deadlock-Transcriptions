@@ -447,6 +447,49 @@ class ContentSyncTests(unittest.TestCase):
                 self.repo, MemoryStore(self.published()), cdn_base_url=CDN
             ).build(base=self.base)
 
+    def test_incremental_plan_rejects_removed_recording_hash(self) -> None:
+        value = json.loads(self.transcript_path.read_text(encoding="utf-8"))
+        value["revisions"] = []
+        self.write_json(self.transcript_path, value, indent=2)
+        self.commit("remove recording hash")
+
+        plan = ContentSyncPlanner(
+            self.repo, MemoryStore(self.published()), cdn_base_url=CDN
+        ).build(base=self.base)
+
+        self.assertFalse(plan.deployable)
+        self.assertTrue(
+            any(
+                "Recording hashes may be moved" in error and SHA in error
+                for error in plan.errors
+            )
+        )
+
+    def test_incremental_plan_allows_recording_hash_move(self) -> None:
+        original = json.loads(self.transcript_path.read_text(encoding="utf-8"))
+        original["revisions"] = []
+        self.write_json(self.transcript_path, original, indent=2)
+        moved = self.repo / "transcripts" / "hero" / "moved.mp3.json"
+        self.write_json(
+            moved,
+            {
+                "schemaVersion": 3,
+                "filename": "hero/moved.mp3",
+                "revisions": [
+                    {"sha256": [SHA], "text": "old text", "source": "official"}
+                ],
+            },
+            indent=2,
+        )
+        self.commit("move recording hash")
+
+        plan = ContentSyncPlanner(
+            self.repo, MemoryStore(self.published()), cdn_base_url=CDN
+        ).build(base=self.base)
+
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertFalse(any("must not be deleted" in error for error in plan.errors))
+
     def test_validation_enforces_transcript_schema(self) -> None:
         value = json.loads(self.transcript_path.read_text(encoding="utf-8"))
         value["extra"] = True

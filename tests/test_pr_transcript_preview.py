@@ -124,7 +124,7 @@ class PreviewRenderingTests(unittest.TestCase):
         self.assertIn("Unique recordings changed: **1**", body)
         self.assertEqual(body.count("▶ Play audio"), 1)
 
-    def test_shows_three_way_state_when_cdn_differs_from_base(self) -> None:
+    def test_hides_live_cdn_state_when_it_differs_from_base(self) -> None:
         plan = {
             "deployable": False,
             "recordChanges": [
@@ -140,7 +140,7 @@ class PreviewRenderingTests(unittest.TestCase):
             workflow_conclusion="failure",
         )
         self.assertIn("**Before:**", body)
-        self.assertIn("**Live CDN:**", body)
+        self.assertNotIn("Live CDN", body)
         self.assertIn("**After:**", body)
         self.assertIn("CDN conflict; this change is blocked", body)
 

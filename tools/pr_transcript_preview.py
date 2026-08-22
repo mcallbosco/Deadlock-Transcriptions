@@ -257,10 +257,6 @@ def _change_block(
         summary += f" · {aliases:,} more path{'s' if aliases != 1 else ''}"
     lines = ["<details" + (" open" if expanded else "") + ">", f"<summary>{summary}</summary>", ""]
     lines.extend(_state_lines("Before", change.get("before") or []))
-    if change.get("current") and {
-        _json_key(item) for item in change["current"]
-    } != {_json_key(item) for item in change.get("before") or []}:
-        lines.extend(_state_lines("Live CDN", change["current"]))
     lines.extend(_state_lines("After", change.get("desired") or []))
     versions = change.get("versions") or []
     if versions:
