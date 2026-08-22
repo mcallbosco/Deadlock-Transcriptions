@@ -421,6 +421,7 @@ def _api_request(
     body: dict[str, Any] | None = None,
     *,
     accept: str = "application/vnd.github+json",
+    decode_json: bool = True,
 ) -> tuple[Any, dict[str, str]]:
     payload = None if body is None else json.dumps(body).encode("utf-8")
     request = urllib.request.Request(
@@ -454,7 +455,7 @@ def _api_request(
         raise PreviewError(f"GitHub API request failed: {method} {url}: {exc}") from exc
     if len(data) > MAX_ARTIFACT_BYTES:
         raise PreviewError("GitHub API response exceeded the safety limit")
-    if accept == "application/vnd.github+json":
+    if decode_json:
         try:
             return json.loads(data.decode("utf-8")) if data else None, headers
         except (UnicodeDecodeError, json.JSONDecodeError) as exc:
@@ -580,7 +581,7 @@ def _download_reports(
     url = artifact.get("archive_download_url")
     if not isinstance(size, int) or size > MAX_ARTIFACT_BYTES or not isinstance(url, str):
         raise PreviewError("Plan artifact metadata failed validation")
-    data, _ = _api_request("GET", url, token, accept="application/octet-stream")
+    data, _ = _api_request("GET", url, token, decode_json=False)
     if not isinstance(data, bytes):
         raise PreviewError("Plan artifact download was not binary")
     return _load_artifact_reports(data)
