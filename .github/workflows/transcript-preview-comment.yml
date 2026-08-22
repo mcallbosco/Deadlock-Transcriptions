@@ -1,0 +1,47 @@
+name: Transcript preview comment
+
+on:
+  workflow_run:
+    workflows: [Content sync plan]
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: transcript-preview-${{ github.event.workflow_run.head_repository.id }}-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: true
+
+jobs:
+  comment:
+    name: Update pull-request transcript preview
+    if: github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out trusted preview code
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Render and update the sticky preview comment
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CDN_BASE_URL: ${{ vars.CDN_BASE_URL || 'https://cdn.vlviewer.com' }}
+        run: >-
+          python -m tools.pr_transcript_preview
+          --event "$GITHUB_EVENT_PATH"
+          --repository "$GITHUB_REPOSITORY"
+          --api-url "$GITHUB_API_URL"
+          --server-url "$GITHUB_SERVER_URL"
+          --cdn-base-url "$CDN_BASE_URL"
+          --game deadlock

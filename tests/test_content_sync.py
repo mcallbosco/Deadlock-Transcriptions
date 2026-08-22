@@ -196,6 +196,12 @@ class ContentSyncTests(unittest.TestCase):
         self.assertTrue(plan.deployable, plan.to_markdown())
         self.assertEqual(plan.matched_records, 2)
         self.assertEqual(len(plan.record_changes), 2)
+        self.assertTrue(
+            all(
+                change["sourcePaths"] == ["transcripts/hero/line.mp3.json"]
+                for change in plan.record_changes
+            )
+        )
         self.assertEqual(plan.affected_versions, ["v1"])
         self.assertEqual(
             [write.phase for write in plan.sorted_writes()],

@@ -82,6 +82,7 @@ jobs:
               --cdn-base-url "$CDN_BASE_URL" \
               --conflict-approvals migration-reports/fuzzy-cdn-conflict-approvals.json \
               --output-json "$RUNNER_TEMP/content-sync/plan.json" \
+              --output-preview-json "$RUNNER_TEMP/content-sync/preview.json" \
               --output-markdown "$RUNNER_TEMP/content-sync/plan.md"
           fi
 

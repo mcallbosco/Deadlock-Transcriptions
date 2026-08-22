@@ -1566,6 +1566,12 @@ class ContentSyncPlanner:
                                     "key": key,
                                     "jsonPath": json_path,
                                     "sha256": sha,
+                                    "sourcePaths": sorted(
+                                        {
+                                            occurrence.path
+                                            for occurrence in validation.by_sha.get(sha, [])
+                                        }
+                                    ),
                                     "current": state_json(current),
                                     "expectedOld": state_json(old),
                                     "expectedOldStates": [

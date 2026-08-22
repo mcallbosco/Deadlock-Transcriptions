@@ -21,6 +21,7 @@ from .content_sync import (
     write_backups,
     write_reports,
 )
+from .pr_transcript_preview import build_preview_payload
 
 
 DEFAULT_CURSOR = "deadlock/_internal/transcript-sync.json"
@@ -62,6 +63,11 @@ def build_parser() -> argparse.ArgumentParser:
     add_common(plan)
     plan.add_argument("--base", help="Base Git commit for an incremental plan")
     plan.add_argument("--baseline", action="store_true", help="Reconcile the full target tree")
+    plan.add_argument(
+        "--output-preview-json",
+        type=Path,
+        help="Write a compact unique-recording report for the PR comment workflow",
+    )
 
     deploy = commands.add_parser("deploy", help="Build and conditionally deploy an R2 plan")
     add_common(deploy)
@@ -124,6 +130,13 @@ def plan_command(args: argparse.Namespace) -> int:
         repository_name=args.repository_name,
     )
     write_reports(plan, args.output_json, args.output_markdown)
+    if args.output_preview_json:
+        args.output_preview_json.parent.mkdir(parents=True, exist_ok=True)
+        args.output_preview_json.write_text(
+            json.dumps(build_preview_payload(plan.to_json()), indent=2, ensure_ascii=False)
+            + "\n",
+            encoding="utf-8",
+        )
     print(plan.to_markdown())
     return 0 if plan.deployable else 1
 
