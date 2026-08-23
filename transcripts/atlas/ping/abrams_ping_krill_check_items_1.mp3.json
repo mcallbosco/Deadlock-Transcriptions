@@ -1,12 +1,15 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 2,
   "filename": "atlas/ping/abrams_ping_krill_check_items_1.mp3",
   "revisions": [
     {
-      "sha256": [
-        "9cefb0828b26ef88454e29e2ff410f9b54e7d989c8eedf7ca1931207ad820642",
-        "e119c8ea187a1a08991466f8c000c1076f3940a8261baaf158fb559fa90e79ff"
-      ],
+      "sha256": "9cefb0828b26ef88454e29e2ff410f9b54e7d989c8eedf7ca1931207ad820642",
+      "text": "Check out what Krill bought.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
+    },
+    {
+      "sha256": "e119c8ea187a1a08991466f8c000c1076f3940a8261baaf158fb559fa90e79ff",
       "text": "Check out what Krillbot.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
