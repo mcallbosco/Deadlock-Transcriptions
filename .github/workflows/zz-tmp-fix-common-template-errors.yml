@@ -1,0 +1,32 @@
+name: Temporary common transcript-error correction
+
+on:
+  push:
+    branches:
+      - codex/fix-common-template-transcript-errors-20260823
+
+permissions:
+  contents: write
+
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out correction branch
+        uses: actions/checkout@v4
+        with:
+          ref: codex/fix-common-template-transcript-errors-20260823
+          fetch-depth: 0
+
+      - name: Apply repeated template-backed corrections
+        run: python tools/_tmp_fix_common_template_errors.py
+
+      - name: Commit transcript-only result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add transcripts
+          git rm tools/_tmp_fix_common_template_errors.py .github/workflows/zz-tmp-fix-common-template-errors.yml
+          git status --short
+          git commit -m "Fix common template-backed transcript errors"
+          git push origin HEAD:codex/fix-common-template-transcript-errors-20260823
