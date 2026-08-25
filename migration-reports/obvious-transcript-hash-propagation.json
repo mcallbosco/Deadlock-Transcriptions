@@ -1,0 +1,4900 @@
+{
+  "changedFilesFromCorrectionPass": 249,
+  "desiredHashCount": 523,
+  "propagatedFileCount": 31,
+  "mergedGroupCount": 10,
+  "desiredStates": [
+    {
+      "path": "transcripts/astro/holliday_ally_atlas_big_stun_01.mp3.json",
+      "sha256": "d6d5178aa5ca1464fcf1d12df4b864f1095d9ece6a0c2ccbbfc0b4820f92eee9",
+      "state": [
+        "Good work Abrams!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/astro/holliday_ally_atlas_killed_in_lane_01.mp3.json",
+      "sha256": "8b9e49b8f9dfee1b07edd6d9059cee6d4204adc6a938ed44589840d6a4b0f275",
+      "state": [
+        "They took out Abrams.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/astro/holliday_ally_chrono_swap_to_boss_03.mp3.json",
+      "sha256": "8d23b90458bbc3cb3d3463afc6bc1e5559514de8955f76a61d762c325e9d6f33",
+      "state": [
+        "Paradox swapped them.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/astro/holliday_ally_forge_clutch_heal_02.mp3.json",
+      "sha256": "f01fbd59780edcaf31e45e6c98c4d522d8dfad20ecde2df33597acea3d01b457",
+      "state": [
+        "I was getting worried.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/astro/holliday_ally_kelvin_clutch_heal_03.mp3.json",
+      "sha256": "f85d2a705e6f7c12c28d9601dbd9a809e890710b55ca10ef7e328dd91c91fdcd",
+      "state": [
+        "Owe ya, Kelvin!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/astro/holliday_ally_krill_grab_mid_enemy_ult_02.mp3.json",
+      "sha256": "8713a9e80de1a84b35afc8d58af58b3adc92a855212be6c9f32312114abf7267",
+      "state": [
+        "Mo & Krill got 'em!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/abrams_enemy_wraith_lifts_01.mp3.json",
+      "sha256": "7885b1ac35bb617bca2d96425cd3a58355506828edd5e1c901ad90e084ce4c61",
+      "state": [
+        "cut me down, Wraith!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/abrams_enemy_wraith_lifts_01.mp3.json",
+      "sha256": "dc06bf36ff83348fd024e346d6bc0fb4d68cbd925009c1ba8b13ba8bc09f2c98",
+      "state": [
+        "cut me down, Wraith!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/abrams_upgrade_power2_03.mp3.json",
+      "sha256": "cddb67b06c29dbf1f8eee1c2c7d9ba46e7ba3874b38ee06fb7b07be1a6a19849",
+      "state": [
+        "This book is dangerous. I can't let it fall into the wrong hands.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/abrams_upgrade_power2_03.mp3.json",
+      "sha256": "dcae24ace67050e2b50b76373874d5e97686a40d4910343e21d636d202152368",
+      "state": [
+        "This book is dangerous. I can't let it fall into the wrong hands.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/abrams_upgrade_power2_03.mp3.json",
+      "sha256": "eb53130cc9f0bd3919dbdaba051483d0ff2de6f5fb6f7104e405199640af06d3",
+      "state": [
+        "This book is dangerous. I can't let it fall into the wrong hands.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/abrams_use_tech_purge_02.mp3.json",
+      "sha256": "16373814650b2d4a6d3f62039f0912108ecbacd23b0abef006d930b63b980b44",
+      "state": [
+        "Nothing will hinder me.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_attack_kelvin.mp3.json",
+      "sha256": "667ec8947317b3a05d8907373ad15b658bb22dc743896ec7a91e3db10dfd238c",
+      "state": [
+        "Let's take out Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_attack_kelvin.mp3.json",
+      "sha256": "868f8f08f8fe9f5c4818a8934ba607321b47346efaffd772edc8289245f00ca1",
+      "state": [
+        "Let's take out Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_attack_kelvin.mp3.json",
+      "sha256": "9928e5cbab98f2f99469ec00589b0f13c8d61c1cde137eafee8cdd0066369076",
+      "state": [
+        "Let's take out Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_jar_call_01.mp3.json",
+      "sha256": "6c803832b818c1a066153b628283fbfa2a5805616a79b22efe4aa769fdde477d",
+      "state": [
+        "Spirit urn is here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_jar_call_01.mp3.json",
+      "sha256": "7d864bc76232700fd97f06205f07827e07483c0d61a9316b57d4c95e6f463dc0",
+      "state": [
+        "Spirit urn is here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_jar_call_01.mp3.json",
+      "sha256": "d60fb77d1925269ca561edbad78fc0584eedc2f2789d0c9e8e8ecb265c4bb070",
+      "state": [
+        "Spirit urn is here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_kali_missing_01.mp3.json",
+      "sha256": "9223ae0667621fa5c48525b27e6ad23289f54536c83c7892b88bad638c8aa15a",
+      "state": [
+        "Holly's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_kali_missing_01.mp3.json",
+      "sha256": "10eff5d4b5d3111cc8824865aa57c7a45bf5541a6881a0244c831309d9074fee",
+      "state": [
+        "Holliday's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_saw_orion.mp3.json",
+      "sha256": "41d416f7a91be25e668ba79b5dd9e8e63f76f4c0d4211c28a671cf0ea829d64d",
+      "state": [
+        "I saw Grey Talon.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_saw_orion.mp3.json",
+      "sha256": "7d359d49d672172349e777f52230ba4c2aa4352a28f68c6f251b94426c6dc573",
+      "state": [
+        "I saw Grey Talon.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/atlas/ping/abrams_ping_saw_orion.mp3.json",
+      "sha256": "9dab685537cdf1490988ddba092bbef0cc716a58744dc574f1bacd216df07d71",
+      "state": [
+        "I saw Grey Talon.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/bebop/bebop_use_amp_grenade_03.mp3.json",
+      "sha256": "26447df6c3c1fbf3f148dfab6c76b2e3563a409af2ff390713a4211bf3acdd3b",
+      "state": [
+        "Throw an anti-magic!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/bebop/bebop_use_amp_grenade_03.mp3.json",
+      "sha256": "6508d9f0f96cbc3cef869382c915b0167c2d2ae6dfdbfa77ea8f6de31c5da4d8",
+      "state": [
+        "Throw an anti-magic!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/boho/boho_ally_viper_killed_in_lane_01.mp3.json",
+      "sha256": "607f9582ae29fd191cc9a6c6061da0e13e3e4559252353a9d37fed47d2cafbea",
+      "state": [
+        "I'm with you, Viper!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/boho/ping/boho_ping_careful_gigawatt_02.mp3.json",
+      "sha256": "016b623486d2358576bece4b0eb4f24ae01d269853e3435fca454861e65ded37",
+      "state": [
+        "Careful, Seven.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/boho/ping/boho_ping_headed_yellow_01.mp3.json",
+      "sha256": "de3a819e69bc68f534042e767e3c02c0b231e392eb620936d9bea20b87c42433",
+      "state": [
+        "Headed to Yellow.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/boho/ping/boho_ping_jar_call_02.mp3.json",
+      "sha256": "68753a4852b92520916c85b9bf460aeab59c41c99df2bccc7a4a92682af5260b",
+      "state": [
+        "Soul Jar is here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/boho/ping/boho_ping_saw_slork.mp3.json",
+      "sha256": "ab9c98cf7764ba6184720dbe30dedee5aa63cf5a4031cd123eb7a291b115c65f",
+      "state": [
+        "I saw Fathom!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/boho/ping/boho_ping_saw_synth.mp3.json",
+      "sha256": "f5037ce19dec0de8a574d89d2134d58b1bbb08a939259486b79c6b6d88a48e26",
+      "state": [
+        "I saw Pocket!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/boho/ping/boho_ping_saw_viper.mp3.json",
+      "sha256": "7756750b040ea09c50e09b119e5fb6b37529e54f7fd61191e0db89979c139bc1",
+      "state": [
+        "I saw Vyper!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_buy_armor_upgrade_14.mp3.json",
+      "sha256": "88266150bdc8e6ff505d84143a593bd0584b38a396fc73f704b4737c60d3a276",
+      "state": [
+        "Combat is what forges us, and I will not shy from it.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_buy_armor_upgrade_14.mp3.json",
+      "sha256": "ae9058f01c557884961393d8b88a380bb19253b59b7137be54cd137accb51ec7",
+      "state": [
+        "Combat is what forges us, and I will not shy from it.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_buy_armor_upgrade_14.mp3.json",
+      "sha256": "bb50e06facc15d69f9bfe27622f300153e08d3b442a8cdd0965e2ff7762586e1",
+      "state": [
+        "Combat is what forges us, and I will not shy from it.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_attack_bebop.mp3.json",
+      "sha256": "0581a2155d494b44af0ece5b021681a3af44679e0df9dd7d3844996f9421f9fe",
+      "state": [
+        "Let's take out Bebop.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_attack_bebop.mp3.json",
+      "sha256": "267f0c603243be6568c5e01970ff608d6beb7b5f9637652085db821d8da275c3",
+      "state": [
+        "Let's take out Bebop.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_attack_bebop.mp3.json",
+      "sha256": "8294187d13fa89b595308ede4abda68e3392abf63c887220119a2d827116da7f",
+      "state": [
+        "Let's take out Bebop.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_attack_kelvin.mp3.json",
+      "sha256": "047b7531c9aa2e543ecb59160e0f4f9539dc1419064eb306348b049eac70e76f",
+      "state": [
+        "Let's take out Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_attack_yamato.mp3.json",
+      "sha256": "5b068e11034782b4eed41d8a2a986e8d42557884b40c054fd036a5972f1dcabf",
+      "state": [
+        "Let's take out Yamato.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_attack_yamato.mp3.json",
+      "sha256": "76954a467a61eb269500b9b065360a68545d34d75d2a4a4b619f276e43507149",
+      "state": [
+        "Let's take out Yamato.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_attack_yamato.mp3.json",
+      "sha256": "904d0061abc92b9778ae57e54735580f047c06b37c920d58e9bca300803ddcb7",
+      "state": [
+        "Let's take out Yamato.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/chrono/paradox_select_04.mp3.json",
+      "sha256": "c252a52bd1c95978d08fecd82f97f928310ce50098cb7effa081f20e8080c957",
+      "state": [
+        "Time travel isn't a thing... yet.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/chrono/paradox_use_power4_06.mp3.json",
+      "sha256": "dc9dd4cac9f9d446a15862710907cfed76bb7145945855dbffb55e90fef687f2",
+      "state": [
+        "I'll catch 'em",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/chrono/ping/chrono_ping_with_wraith.mp3.json",
+      "sha256": "5803aff91896a2bf8c5d8d5f6cae922dd5118e1cc6e57df9b4101a85dab770eb",
+      "state": [
+        "I'm with you, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/chrono/ping/chrono_ping_with_wraith.mp3.json",
+      "sha256": "9d92447b655273e52c78a3eb2d5a828217675142ba2afafff7d916b2f6bee0ba",
+      "state": [
+        "I'm with you, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/chrono/ping/paradox_ping_can_heal_calico.mp3.json",
+      "sha256": "a7d4945ebec5ff62c36f0fbdac9dde5c0e833b35a7717acb8afb0ddcc528ea14",
+      "state": [
+        "Calico, I can heal you.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/chrono/ping/paradox_ping_careful_krill_01.mp3.json",
+      "sha256": "1572acc429a03d8518f812990890a4b93ff9a26abfb3e69cdc01af7cf8df520a",
+      "state": [
+        "Krill.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/chrono/ping/paradox_ping_see_atlas_01.mp3.json",
+      "sha256": "2274898cae6b71a9d7dbd4e390f69940c65ad4c6f7451195d13a1bdbbb22fc26",
+      "state": [
+        "I see you, Atlas.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_astro_lasso_victim_02.mp3.json",
+      "sha256": "580504c48d95bc43cca795f6ed88a21c17da0cea996f04740a36fcf483437708",
+      "state": [
+        "Help Holliday!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_astro_lasso_victim_02.mp3.json",
+      "sha256": "ef330d4cd239015dbe9651b44515af5d4568001cfa7170e24d1e70ac844058eb",
+      "state": [
+        "Help Holliday!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_atlas_big_stun_03.mp3.json",
+      "sha256": "e7c472660c5f208da1563e757508398faca89ebadd9095ae2c83c199de521d8d",
+      "state": [
+        "The blue guy stunned them!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_atlas_big_stun_03.mp3.json",
+      "sha256": "f48da398ec93db4566007e5b47e981db112152e0711a02dd96c4382fd5201dbc",
+      "state": [
+        "The blue guy stunned them!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_forge_clutch_heal_03.mp3.json",
+      "sha256": "09bb1993388c66ba86555fe0ee9a38a09f7a33555ea1511cacf5362f40350894",
+      "state": [
+        "Appreciate the help, McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_forge_clutch_heal_03.mp3.json",
+      "sha256": "5a83ba26949493add7506c0ca91e2646dfd74230bd601c730e5271631f3b99fd",
+      "state": [
+        "Appreciate the help, McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_hornet_killed_in_lane_01.mp3.json",
+      "sha256": "9be2a21309057810ad05b7df991e0f276a71af8a53f11ddae652bc1d9b229d0a",
+      "state": [
+        "Did you get Vindicta?",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/dynamo/prof_ally_hornet_killed_in_lane_01.mp3.json",
+      "sha256": "9ff4b1e03c7b019c9ed2357c5053c61c84e1db6fb5ec314c7d340bd467cc8f26",
+      "state": [
+        "Did you get Vindicta?",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/fencer/fencer_match_start_fencer_viscous_convo01_04.mp3.json",
+      "sha256": "32197c670dae1a093202bad003e2bc073b2edc11120d7c38798d63a5327cc6ee",
+      "state": [
+        "That's, um, that wasn't an invitation.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/forge/mcginnis_kill_dynamo_03.mp3.json",
+      "sha256": "6a40268fef5c15e96f58f61f8994bd1d02d73ec458959194eb8cb6750d7df484",
+      "state": [
+        "Stop the professor.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/forge/mcginnis_kill_dynamo_03.mp3.json",
+      "sha256": "7b91c1f0304af41f1a92c82086348994d2bc498ca6feefda3a5506d6e64cfea1",
+      "state": [
+        "Stop the professor.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/forge/ping/mcginnis_ping_see_wraith_on_bridge.mp3.json",
+      "sha256": "5a4d34e8df3475c15fe5fdc7af967ae8f45b9a2ecdba2252d275f5496ae588bb",
+      "state": [
+        "Wraith on the bridge!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/frank/frank_ally_astro_killed_in_lane_01.mp3.json",
+      "sha256": "a9d2723c561abb2a023dd6abd1104bc5adaf8e5a3217f80dfe23c19f37abd916",
+      "state": [
+        "They took out Holliday!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/frank/frank_ally_graf_killed_in_lane_01.mp3.json",
+      "sha256": "870db7b7a6c622a7b1ae3d5955d3000d8c7a422f0907d28be823126cbe126f6d",
+      "state": [
+        "They took out Graf.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/frank/frank_ally_graf_killed_in_lane_01.mp3.json",
+      "sha256": "f2ba75fd7c39bd30ed740ab5c5ee305edc9f0f6d08e81deefd67b283927a14ad",
+      "state": [
+        "They took out Graf.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/frank/frank_ally_punkgoat_killed_in_lane_01.mp3.json",
+      "sha256": "bc965b6fabb61287d2ad06f9710eaefbe0c7e22563be7ec6223b24d7eb1c125a",
+      "state": [
+        "They took out Billy!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/frank/frank_ally_slork_killed_in_lane_01.mp3.json",
+      "sha256": "5e7d5b54d42ff1c9e7241878e6dbb2fa888ccf8516134a72ff4d80c02428d029",
+      "state": [
+        "They took out Fathom!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/frank/frank_ally_synth_killed_in_lane_01.mp3.json",
+      "sha256": "d4ead2e51b1504d5d92561a52a6868c52da832b717a92e7be38f61af55dade14",
+      "state": [
+        "They took out Pocket!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/frank/frank_ally_vampirebat_killed_in_lane_01.mp3.json",
+      "sha256": "22cc02234c3a68cd76fb9371c11d415d07a1c1c93305d230071c8390baa7cd18",
+      "state": [
+        "They took out Mina!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/frank/ping/frank_ping_atlas_dead.mp3.json",
+      "sha256": "5fd5e821c96c202a6001559259b708b2fb988e159de99a5adf0852ddf04babdb",
+      "state": [
+        "Abrams is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/frank/ping/frank_ping_atlas_dead.mp3.json",
+      "sha256": "f0f05d03bf9ed51cd1618898ea7c8e354364a290028d6e68782a177abba3dcc1",
+      "state": [
+        "Abrams is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/ghost/geist_kill_wraith_03.mp3.json",
+      "sha256": "1cadb1c3d5014d670a6b91a0b2cb7e2f3d6dcc774617dd9608f1aa454473deb3",
+      "state": [
+        "Stop the Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/ghost/geist_kill_wraith_03.mp3.json",
+      "sha256": "69e87c4a9d43ced91f6832a2566ff44d256462dc619808242fe57ac5be1f2ebb",
+      "state": [
+        "Stop the Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/ghost/geist_upgrade_power3_02.mp3.json",
+      "sha256": "27b44ba1d8e8129f25f0576439829135f727465440682f4acb02f1fe5b8d2dce",
+      "state": [
+        "Pain is the price of victory.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/ghost/geist_upgrade_power3_02.mp3.json",
+      "sha256": "57a0440b4de46e5ae8d82aa1e39dc82c723bfd166e180a1de0117a08eb12ac98",
+      "state": [
+        "Pain is the price of victory.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/ghost/ping/geist_ping_careful_wraith_02.mp3.json",
+      "sha256": "ea2e5106519d3ebecc66b760c421c62503c9d8b062cf6ecfc4af33a983375be3",
+      "state": [
+        "Careful, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/gigawatt_ally_wraith_kill_in_lift_02.mp3.json",
+      "sha256": "011c74b815e8d61772fbd964c7619d023d1f2863f652a9ba6995841a99bbbf84",
+      "state": [
+        "Well done, Wraith!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/gigawatt_ally_wraith_kill_in_lift_02.mp3.json",
+      "sha256": "2c0965598d17214495df67b527dbe057ff6891540f9ec18ae73a8fae886cadc7",
+      "state": [
+        "Well done, Wraith!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/gigawatt_ally_wraith_kill_in_lift_02.mp3.json",
+      "sha256": "6f2623d2a2bd0b510345efc0a9e2004f4dc021f579c7314b73d4d7a09b478a2a",
+      "state": [
+        "Well done, Wraith!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_attack_inferno.mp3.json",
+      "sha256": "26bf5fa2ce8a35e3c3ea3530ccac118a0ec611fa314c50570acbc590c4a996f3",
+      "state": [
+        "Let's take out Infernus",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_ghost_almost_respawn.mp3.json",
+      "sha256": "2ceeb4b92ad44c2d3037f3209ad4f50cb950a0d9e729107de94c51d441427317",
+      "state": [
+        "Geist is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_ghost_almost_respawn.mp3.json",
+      "sha256": "9be10c5d10fb6232d31980349b87c2b9c56e0e7f0def7ba34ae320bcfc3b43b4",
+      "state": [
+        "Geist is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_ignore_inferno.mp3.json",
+      "sha256": "a15dc971a2e72cbb8e64ae26b5b41b68ea1976f7311ac223bbe20dc4cee8c6af",
+      "state": [
+        "Ignore Infernus!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_ignore_inferno.mp3.json",
+      "sha256": "ae90d2561b2f4cddea62f0cad4a3a2cdbacc449935bb17417c9389bd6bcdd6cd",
+      "state": [
+        "Ignore Infernus!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_kelvin_was_here.mp3.json",
+      "sha256": "1f4505c2eb4e73f3a1f2437621f478fba9bec4f2f2037ad4ae40ef99fc07cbb0",
+      "state": [
+        "Kelvin was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_kelvin_was_here.mp3.json",
+      "sha256": "864f574e41ef0924e3e6af59f63fa7cae6cb2aa1b22609cd26b2bb6939bc2697",
+      "state": [
+        "Kelvin was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_kelvin_was_here.mp3.json",
+      "sha256": "d96d4c130212593f70b37ed0480954caab1f338280a9931d28f2b594a995d2e6",
+      "state": [
+        "Kelvin was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_orion_almost_respawn.mp3.json",
+      "sha256": "4a41c645fe1e8dbaef4526a8ff70d864739fd386f0964769c152e9bf1ccf4c0e",
+      "state": [
+        "Grey Talon is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_orion_almost_respawn.mp3.json",
+      "sha256": "7f17263e8af2d495f60f7cff550af32220ac4facd8a6541690d037ac99845b02",
+      "state": [
+        "Grey Talon is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_orion_almost_respawn.mp3.json",
+      "sha256": "82a81efd12c5d5d464858d08a54fb0cc4ad31206ae1192ed1378f99ee0abf294",
+      "state": [
+        "Grey Talon is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_saw_kelvin.mp3.json",
+      "sha256": "457ee7e13216eae5fa3438e8499840b7c97360b38dbef6261147b2a4f82a215b",
+      "state": [
+        "I saw Kelvin!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_saw_kelvin.mp3.json",
+      "sha256": "89a7561c3866eb9c18c4734bcba5dc8edf3a1bd5631eaa2d37af4dd1223d28e1",
+      "state": [
+        "I saw Kelvin!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_saw_kelvin.mp3.json",
+      "sha256": "935d37e15584878cb00463f9f8619966b4fcf97643c7adcc0d355813f3658fdb",
+      "state": [
+        "I saw Kelvin!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_wraith_almost_respawn.mp3.json",
+      "sha256": "68ca92f8e4c39544d481d93b1cab079327154313f55f2506fc54963465a9821a",
+      "state": [
+        "Wraith is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_wraith_almost_respawn.mp3.json",
+      "sha256": "9a9a64ca005926b648e0dff1235d0f65e52821052af507c252c75aeeed561d34",
+      "state": [
+        "Wraith is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_ally_atlas_unkillable_03.mp3.json",
+      "sha256": "67215a63fe38a5cebf057854f302cf7c3f94e44492c9942dba03bb44a039627b",
+      "state": [
+        "Abrams is relentless.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_ally_atlas_unkillable_03.mp3.json",
+      "sha256": "81352f40dc35416a24d07c3e7f4722642c6c131f18c95e4b6a9e86bcc77990eb",
+      "state": [
+        "Abrams is relentless.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_ally_atlas_unkillable_03.mp3.json",
+      "sha256": "829ce5fdfe59050528392cdac967484748cd155c90585ae2d182481f514a4a82",
+      "state": [
+        "Abrams is relentless.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_ally_atlas_unkillable_03.mp3.json",
+      "sha256": "fcb1ca1dda8f3d81e9b4b463e4579097a3129ae19127ab798faddccb282b1790",
+      "state": [
+        "Abrams is relentless.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_ally_forge_clutch_heal_03.mp3.json",
+      "sha256": "0759219203958e3e54812b5d0213d102558a860087f4a7cf0136c623bf58eb3d",
+      "state": [
+        "Thanks McGinnis",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_ally_forge_clutch_heal_03.mp3.json",
+      "sha256": "cbd8e9b13f1a335322e589776d5870fcdca1ba61ba2e48a4ea0360ff20b73a03",
+      "state": [
+        "Thanks McGinnis",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_ally_forge_clutch_heal_03.mp3.json",
+      "sha256": "fffd9888181a3b70e44ce232d6556990e3951cbea79ee72eb49901d746fa3a1a",
+      "state": [
+        "Thanks McGinnis",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_cadence_05.mp3.json",
+      "sha256": "6aba783764bde86995540d236a11ba14629174bdae9cfccd2e4922e0623dcb87",
+      "state": [
+        "The cadence issue has been resolved.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_cadence_05.mp3.json",
+      "sha256": "859bf0e2fc9a373ec3554085c94cc8d73d4a926ebad8a85efea8a6e1833efea9",
+      "state": [
+        "The cadence issue has been resolved.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_cadence_05.mp3.json",
+      "sha256": "926bad6e69ecf8887a69a2e02a6189e208fef072e8abc611c2cd4749979d803e",
+      "state": [
+        "The cadence issue has been resolved.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_cadence_05.mp3.json",
+      "sha256": "b529976b3e9e030de8e54d7c788c50bb2178192ab67dd9101f3ada11a292e819",
+      "state": [
+        "The cadence issue has been resolved.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_cadence_05.mp3.json",
+      "sha256": "f368fbca228179ecd14bd203c2d3f545d6eb396bfaa96443f67c94b023c4409d",
+      "state": [
+        "The cadence issue has been resolved.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/haze_kill_calico_03.mp3.json",
+      "sha256": "1fd983d360f9f66dbb1baec00d115603bf5ff4358b227a81b420f44870b395c2",
+      "state": [
+        "Calico could only evade me for so long",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_ignore_kelvin.mp3.json",
+      "sha256": "0b4a0028f7ebb349906759666e439150a4675a74b71917043955085be111882d",
+      "state": [
+        "Ignore Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_ignore_kelvin.mp3.json",
+      "sha256": "3f912f7ea203a5c1f54039bd72cb2af03d19adcebd008184a028fed38ea8b48f",
+      "state": [
+        "Ignore Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_ignore_kelvin.mp3.json",
+      "sha256": "8d5cafb6de1155e4bea8da68da608a430df1b45563ac78439b436d461d887270",
+      "state": [
+        "Ignore Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_ignore_kelvin.mp3.json",
+      "sha256": "c02cbef06299b30ced2c96c1d0232422fe2edacb48106f4246098fcfb80a342f",
+      "state": [
+        "Ignore Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_ignore_kelvin.mp3.json",
+      "sha256": "e7abd19c5ca87c3ce900854ae96684d25d32aa1e939b0245f42ba62cd058e2b8",
+      "state": [
+        "Ignore Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_saw_viscous.mp3.json",
+      "sha256": "0be9e91f685db7a79e7eecaf74b21ea6a43b01613d55ee509ebb26a491518602",
+      "state": [
+        "I saw Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_saw_viscous.mp3.json",
+      "sha256": "26ba099de9efa48f960c71fe2c67d583fab9137a14afa1d1e7c778b352b31609",
+      "state": [
+        "I saw Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_saw_viscous.mp3.json",
+      "sha256": "65392264d4d0ccca5a67c64311605fbd02c46f314bac19e20a77ff4df7859935",
+      "state": [
+        "I saw Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_saw_viscous.mp3.json",
+      "sha256": "7eeb51f0f3bd0fb5529da02063255fcac224a0ed9322186ca431d00c53da06ea",
+      "state": [
+        "I saw Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_saw_viscous.mp3.json",
+      "sha256": "dc5e79358d25b33b768048b98daa86d427b8f1254d7384a674203367690c2fe3",
+      "state": [
+        "I saw Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "sha256": "021e3919cf0fa5d78a951ea2d033fcf879ccc61ea46163ed3886a3764072a858",
+      "state": [
+        "Shiv is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "sha256": "1d2347ea3ea2aa3885b707e2bc38fafacb6de17b24b912cf576da819dd48e9d3",
+      "state": [
+        "Shiv is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "sha256": "223e74b9e0f5fa52bdccc46db7318a1c39cc4465472d82f9df7d64d63a6feca5",
+      "state": [
+        "Shiv is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "sha256": "9a4abae7ba4837f9e639e8d549238791199e357bd2cb46696cfc47593ae87cd9",
+      "state": [
+        "Shiv is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "sha256": "9bdfbb10698de80091658aed6810963579c1e3ba42cceec7488e985a056dbde1",
+      "state": [
+        "Shiv is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_synth_almost_respawn.mp3.json",
+      "sha256": "03450d7870d354ad6c556b58393634e5edc1f36b099a71b533655f888031ab49",
+      "state": [
+        "Pocket is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_synth_almost_respawn.mp3.json",
+      "sha256": "052c381fd3790f13bd6715de7074b67f93da2bb62fd1366b434913a9717ffbb4",
+      "state": [
+        "Pocket is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_synth_almost_respawn.mp3.json",
+      "sha256": "2f715ef76a82f81b3fa845433257a256631af1c9e4493ff80c32c4043491cd3a",
+      "state": [
+        "Pocket is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_synth_almost_respawn.mp3.json",
+      "sha256": "9534b15ec2c270483e01fe944a68e9f58dd53fcd691d2e224081ecbdd428d4f8",
+      "state": [
+        "Pocket is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_synth_almost_respawn.mp3.json",
+      "sha256": "ec0b87e0ebc593f653c381d35ce3551344551489a04f56b349e3ddf625424ca3",
+      "state": [
+        "Pocket is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_wraith_was_here.mp3.json",
+      "sha256": "2a66d1ddd4452711547569bdb5fd66045c7ccc72fd54a38ac41b0c9847654e4a",
+      "state": [
+        "The Wraith was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_wraith_was_here.mp3.json",
+      "sha256": "63c620032d4edb5619001e18179a465b6a02e3c3a727ff094c1b424d636c0325",
+      "state": [
+        "The Wraith was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "sha256": "4b8838393e67d588573631a60fb15cf93beb507a292851a2ff2fdb963f75ca1c",
+      "state": [
+        "Wrecker was here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "sha256": "4e28ec70315d4026c87f699f837bdf7893e1d3176e1954b6a88d7213b1dbafed",
+      "state": [
+        "Wrecker was here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "sha256": "4eb3676b7e1f59203365b1f366461f325f95c02bf2c5dc6461fa7ab451a6622c",
+      "state": [
+        "Wrecker was here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "sha256": "7bb409c4f8081b23b9d9c7ed8c233655628b94a0b9682220608cccf17c36a7f1",
+      "state": [
+        "Grecker was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "sha256": "d58b41be22041f1a2c0106f51d09060d5c2bf241fc22ef533613963dda1cbf61",
+      "state": [
+        "Grecker was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_yamato_was_here.mp3.json",
+      "sha256": "160fc05fd5b2e1cf7dbb0d1a6c15674311f2e060c8a86739f669be3c33dd8be5",
+      "state": [
+        "Yamato is here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/haze/ping/haze_ping_yamato_was_here.mp3.json",
+      "sha256": "74505ac1f938a79eaf51ec3a04be58a92d5dd88167d31cea3ab27eabf3b06edf",
+      "state": [
+        "Yamato is here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_astro_on_top_of_mid.mp3.json",
+      "sha256": "0abc9a29b4271ec26d659167ea7f161b34ef49e34d964f66dfc388f4b6fad78b",
+      "state": [
+        "Holliday's on top of mid.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_astro_on_top_of_mid.mp3.json",
+      "sha256": "ada43fc4e809f9e02d6cc9bf219487618eeb02b498c5db516a67900be88f0f52",
+      "state": [
+        "Holliday's on top of mid.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_calico_missing_01.mp3.json",
+      "sha256": "1438433077dcefe835601afcde94a63e3bff6ff28838e8741792634897a72c83",
+      "state": [
+        "Calico's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_calico_missing_01.mp3.json",
+      "sha256": "a8d63d17d4b3cbb09b40b9b57fbe29840acc9651ee50787878b04c3c372924fb",
+      "state": [
+        "Calico's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_calico_missing_01.mp3.json",
+      "sha256": "d681a3169f7a742d3bb8873a3a3335a754925a0e180da23bd5a62761c882915e",
+      "state": [
+        "Calico's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_dynamo_missing_01.mp3.json",
+      "sha256": "44704f69ae6eb965ea93de7380b861c70231fc0619f07d43fd5481eff8086705",
+      "state": [
+        "Dynamo's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_dynamo_missing_01.mp3.json",
+      "sha256": "aadb8a79a8d8dcbf8580d411e1d29789040f4b30018fbec7ee0a78c3307db2a0",
+      "state": [
+        "Dynamo's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_dynamo_missing_01.mp3.json",
+      "sha256": "b9264a76d7a1a5e017b1d475595b71ab9a74a40b222f221b25d0502abb1b9e78",
+      "state": [
+        "Dynamo's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_dynamo_missing_01.mp3.json",
+      "sha256": "d3700d9c08ca1464f26aeffff40794b96582fa1956a7f9983d7f12238ed0d7f1",
+      "state": [
+        "Dynamo's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_paradox_missing_01.mp3.json",
+      "sha256": "9554542b07aaff7cf302c535daa1fee74efd0e920e6ba6e1784f2ec37660a97d",
+      "state": [
+        "Paradox is missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_paradox_missing_01.mp3.json",
+      "sha256": "b196434b49fab2915bf680371d54c8b7ce94982a5b9202b2134670b4ed81913e",
+      "state": [
+        "Paradox is missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_paradox_missing_01.mp3.json",
+      "sha256": "b6eed73c918182af67aa8a309b21c6a215b978ed5068a9d2cb06de830e2a0670",
+      "state": [
+        "Paradox is missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "sha256": "532119bead52402b5089e0a27b5d11045427eeb165ae1835e76d336a16bbccd8",
+      "state": [
+        "Lash is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "sha256": "8c9f97cac72f327ab43fa1e1ca5bc4d4bfdebe800c225896252c4f921b28e636",
+      "state": [
+        "Lash is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "sha256": "bd6370db48fbfad199211c4c54c680094c033b95361982cf6080bc109b73d720",
+      "state": [
+        "Lash is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "sha256": "df7c79bc7107f8b6059ed6f6d4e791b308718c896e821cfc1f83e05b01bdd890",
+      "state": [
+        "Lash is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_stun_calico_01.mp3.json",
+      "sha256": "41565501f8be4346ec9f9fe6e4ad058741839cef215f4b65478560ca96310336",
+      "state": [
+        "Stun Calico.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_stun_calico_01.mp3.json",
+      "sha256": "48a91d231b86520c7073064f5755e394618121fa18a395e2551726058d8bc360",
+      "state": [
+        "Stun Calico.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_stun_calico_01.mp3.json",
+      "sha256": "c5d40bb6f78c2bf9375cc57c3717c904cedf8103bf983fe9f5ae9b01d471feb8",
+      "state": [
+        "Stun Calico.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/hornet/ping/vindicta_ping_with_tengu.mp3.json",
+      "sha256": "e8648b357365c2b108c66d52d74c0a6fc7f74e22b8f26bec67735b9a001c39e5",
+      "state": [
+        "I'm with you, Ivy.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_kelvin_clutch_heal_02.mp3.json",
+      "sha256": "68f025584d323165b37fa4eda49ca595a50d13130e952fbff573b487bd07604a",
+      "state": [
+        "That's a void job.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_kelvin_clutch_heal_02.mp3.json",
+      "sha256": "4dade3790060829235688bcbd6f34fad5b9a8ace4a991f8e9f2ca30d2f02c3e0",
+      "state": [
+        "I was getting worried Kelvin\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_kelvin_clutch_heal_02.mp3.json",
+      "sha256": "858ebceb6fb45c8bb6558ada722c2547556d4b563c8b64d71f388cb18acf37a1",
+      "state": [
+        "I was getting worried Kelvin\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_kelvin_clutch_heal_02.mp3.json",
+      "sha256": "921e8d6ac1c669bcfcbf3102a671760ae8b726d97aa799d866c6690c4c8c39f9",
+      "state": [
+        "I was getting worried Kelvin\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_shiv_killed_in_lane_01.mp3.json",
+      "sha256": "9474af279fd9ade2099cf8176083d813d9bd1cb5d6e8d76196e43b4aaa8c2fc5",
+      "state": [
+        "They took out Shiv!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_shiv_killed_in_lane_01.mp3.json",
+      "sha256": "ff3cdbb73fe1246061d425386cf6ee9dd352266ec1fa81cf6f54a63abfbbc233",
+      "state": [
+        "They took out Shiv!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_viscous_killed_in_lane_01.mp3.json",
+      "sha256": "1442f4e978594fa8dc5d9f42b35c895c22b4eb1b6df3592f1e7626273371c932",
+      "state": [
+        "They took out Viscous!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_ally_viscous_killed_in_lane_01.mp3.json",
+      "sha256": "7bd6195f57ad84e50245d63d8cbf4a2c8bbb8271c470ba16dac1bb08b5e87369",
+      "state": [
+        "They took out Viscous!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_desperation_power1_03.mp3.json",
+      "sha256": "00f744c30a25e2875d56d26d72f3889fd04bd2d853172d2f2f092c0a5a64f6e5",
+      "state": [
+        "Escape route.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_desperation_power1_03.mp3.json",
+      "sha256": "740b7587e8368b76a0833fb511f89ae1759624d7e29d53e14d897585ff4b1d87",
+      "state": [
+        "I can still burn 'em down\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_desperation_power1_03.mp3.json",
+      "sha256": "a5f31421662cee4c42354f1b8be1aa5d0cbc150001f4270d740082511ff3bf5b",
+      "state": [
+        "I can still burn 'em down\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_desperation_power1_03.mp3.json",
+      "sha256": "ab4853ff1b0eee46eae7e2f90c09ab72753f70b895151f8fc72471fc30ad2534",
+      "state": [
+        "I can still burn 'em down\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_enemy_wraith_lifts_02.mp3.json",
+      "sha256": "7ce0b5b1c78ed28ebfb099e57c7f630d61752f3144c690ac1b54f3f350286291",
+      "state": [
+        "Wraith's got me!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_enemy_wraith_lifts_02.mp3.json",
+      "sha256": "e81f0b6810d27fc7373be64d8d54bec2a8c9e3652391477fa0d843c4cecaeb8a",
+      "state": [
+        "Wraith's got me!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_t1_shop_reminder_02.mp3.json",
+      "sha256": "e9a446de721b0089cfae1cc1679248bcc5f3f536166f840e0ff9a1c9a256cd24",
+      "state": [
+        "You might want to fix the money.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_t1_shop_reminder_02.mp3.json",
+      "sha256": "0b85e1efe7c183a2146a7b704cec0e668d176119acecd1e6d2d0b5d6214f2f94",
+      "state": [
+        "Might want to spend some money\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_t1_shop_reminder_02.mp3.json",
+      "sha256": "57dfff3cc3d1208740a366c891547a2f567037c79cdbf208b0acaef506db09de",
+      "state": [
+        "Might want to spend some money\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/inferno_t1_shop_reminder_02.mp3.json",
+      "sha256": "9576242bae1a7c88af63c2c146abd7cd5eccea6053ca079b8050681359b8336f",
+      "state": [
+        "Might want to spend some money\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_haze_almost_respawn.mp3.json",
+      "sha256": "47366b764ae9cbf2d74a1b416d60a3de9ff2dbed9b49cd932a6f783ca328d51c",
+      "state": [
+        "Haze is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_haze_almost_respawn.mp3.json",
+      "sha256": "9547ea8971e0275d11c8887624edb0c9e78c5965b6ea6783e769a40a7fc5ee9c",
+      "state": [
+        "Haze is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_hornet_was_here.mp3.json",
+      "sha256": "3f98a501b074977495ab10acbc71cb49515acc469762a5b24935b456ba15e174",
+      "state": [
+        "Vindicta was here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_hornet_was_here.mp3.json",
+      "sha256": "7c20e4077ccfb028cd8b53058b19f726faf529eaa5a80bcb8fddab1cadcc4008",
+      "state": [
+        "Vindicta was here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_ignore_shiv.mp3.json",
+      "sha256": "4f931bd494c7021e32a6511b85b5860c5341083c3ea832961bc725834b9fe36f",
+      "state": [
+        "Ignore Shiv!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_ignore_shiv.mp3.json",
+      "sha256": "c183e1ebee347d7ad9b82a288afb09ecd7be502d0baffd944abf26c463f19c7e",
+      "state": [
+        "Ignore Shiv!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_ignore_shiv.mp3.json",
+      "sha256": "e8fe31672186558bc915bb7a17e735ef8c606b30161f85de9850f7db376be381",
+      "state": [
+        "Ignore Shiv!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_saw_lash.mp3.json",
+      "sha256": "5c6e855bb3b326a58dd74d9a850c93fba76eee6de7a4bfb39164f9ca3282a8e8",
+      "state": [
+        "I saw lash.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_saw_lash.mp3.json",
+      "sha256": "9c1af099956c189b2913715846b7e671a84e36ed28462973adfa9ae8ad90f1ee",
+      "state": [
+        "I saw lash.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_saw_lash.mp3.json",
+      "sha256": "9ca95537db723c547021342b71a45a3d30d8472193600dab517a63152838aa19",
+      "state": [
+        "I saw lash.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_stun_shiv_01.mp3.json",
+      "sha256": "3a9113541b2d92bb6103b5b8ad1792bd9bcee65bd41445a410c9558849de9052",
+      "state": [
+        "Stun Shiv.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_stun_shiv_01.mp3.json",
+      "sha256": "41672f3e283be560239044869e177ace199516e8f0919f6685b69eeb7ccde888",
+      "state": [
+        "Stun Shiv.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_stun_shiv_01.mp3.json",
+      "sha256": "7fbdeae86419ee2576467589e34b3d89e3b14dbcff98a51a2fb8864d9523a890",
+      "state": [
+        "Stun Shiv.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_stun_shiv_01.mp3.json",
+      "sha256": "b060419f1d10448d4cb2ffe41ed83a331b4480cf3e8902de9185f1878943a759",
+      "state": [
+        "Stun Shiv.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_with_kali.mp3.json",
+      "sha256": "04a02854bdbffad30048f4cd17c6d003847e9779289ac0fed31b015f99c16e30",
+      "state": [
+        "I'm with you, Kali.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/inferno/ping/inferno_ping_with_kali.mp3.json",
+      "sha256": "dddd83bb6fcef6e74d2f3cc65aa1241cffa30d20030f00651020675f003328cb",
+      "state": [
+        "I'm with you, Kali.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/kelvin_enemy_haze_kill_when_invisible_02.mp3.json",
+      "sha256": "f2993e0df9b7e2095df2f0a61026b47501fd60c8ea5d0bcc8b5cf500126d9967",
+      "state": [
+        "You can't escape me Haze",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_chrono_on_top_of_mid.mp3.json",
+      "sha256": "b0b3ff26b4db0d9e7d49d0412a445a5e16221cea01b8fe34b5593d6f88308f0e",
+      "state": [
+        "Paradox's on top of mid!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_saw_forge.mp3.json",
+      "sha256": "a2fa115959c9621bcc45e576af941edfbe4f55f805c057f6c943a3a31f7c5283",
+      "state": [
+        "I saw McGinnis!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_saw_forge.mp3.json",
+      "sha256": "ef7de62735d0dd866c2974003cc77319a10559b12decc0d0208fd81f72d52a1b",
+      "state": [
+        "I saw McGinnis!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_stun_astro_01.mp3.json",
+      "sha256": "7149d8c19fcc484263db1e39272f81e276688fd876a05762e95e2ed1319407ef",
+      "state": [
+        "Stun Holliday!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_stun_astro_01.mp3.json",
+      "sha256": "ba83260588d9a463f347f8fc7ff01a9c2e2f3e0ffbed90e6f2f89b262e58574a",
+      "state": [
+        "Stun Holliday!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_stun_synth_01.mp3.json",
+      "sha256": "25206cf17e79819494af6fe7d7ba792d025912c4c4870a4e1d0c0d85114e7083",
+      "state": [
+        "Stun Pocket!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_stun_synth_01.mp3.json",
+      "sha256": "b27ace7e41c9cab22fbd6e1cfc4ef6a419f0f5de2172db237b8aa9bf52051842",
+      "state": [
+        "Stun Pocket!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_with_wraith.mp3.json",
+      "sha256": "8dfd447210802ef8fc9be6cb5c7b5ba3b34bcc6897df592f7f5fff32ca718419",
+      "state": [
+        "I'm with you, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_with_wraith.mp3.json",
+      "sha256": "f67664e0b8e66b16ed70b33bf54ba8b8545874a5d7a75d6772823924a68ed8c5",
+      "state": [
+        "I'm with you, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_enemy_shiv_unkillable_01.mp3.json",
+      "sha256": "58c3c1fb4542ff01844b3580674cbcd5dadff1216a9d023b5d041d5c0f6ae3d6",
+      "state": [
+        "Help us with Shiv!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_enemy_shiv_unkillable_01.mp3.json",
+      "sha256": "9326b4b63ccab9c4e61403f255daea13aa07527edad3e3fe2b4bda132a398c36",
+      "state": [
+        "Help us with Shiv!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_killed_by_hornet_03.mp3.json",
+      "sha256": "2a9e9e72348cbab546cf83c0fd4e40eaa5978610be899bd0ca3d63071937ea1f",
+      "state": [
+        "Hornet can't fly around and hide forever.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_killed_by_hornet_03.mp3.json",
+      "sha256": "2c1cbbfbd4c4bb8e06d2c1a3c1266033a6b05a9edd53dcfdc2dd6728f717dc0e",
+      "state": [
+        "Hornet can't fly around and hide forever.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_killed_by_hornet_03.mp3.json",
+      "sha256": "c966fcb83b10c0e6b5ba1d4413d5fc35c15e36f449c384907675f8d6a6ba9a46",
+      "state": [
+        "Hornet can't fly around and hide forever.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_killed_by_wraith_05.mp3.json",
+      "sha256": "4c3f832599bb115515fb1333216db18134c634e368452cdb8162a076565807ae",
+      "state": [
+        "This isn't over, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_killed_by_wraith_05.mp3.json",
+      "sha256": "acc73bf593bfd47c30ae16046fc62d492f9681e0cd8d78ee989f92965f820dd5",
+      "state": [
+        "This isn't over, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_killed_by_wraith_05.mp3.json",
+      "sha256": "c27d06fbea8ea517b871388295652a7eea6a8b677a62e2bd0645da05e1b5dcad",
+      "state": [
+        "This isn't over, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_use_area_immobilize_01.mp3.json",
+      "sha256": "24fc5af3e9f9a3bb4f7f9de114ac7c5bf8a98a8a518ac7c4e39827899c915964",
+      "state": [
+        "Paralysis!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_use_area_immobilize_01.mp3.json",
+      "sha256": "b3396c1cb1552df1e7ead186d1fb754d17441edd923299b75a53dc68e0c178c1",
+      "state": [
+        "Paralysis!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_use_area_immobilize_01.mp3.json",
+      "sha256": "d6979d432efda70e4026ae0f009d0eba28a5390393e902534c8397881c5d1db8",
+      "state": [
+        "Paralysis!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_use_surging_power_01.mp3.json",
+      "sha256": "1ae2a2209750c7cc1a849dbced2ae199f1337729ae0b2214402f72aa4707ee5d",
+      "state": [
+        "Surging power!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_use_surging_power_01.mp3.json",
+      "sha256": "3ed908f82c77f3d89eb029ad6328207ade0bd33f0c94f748efb571db67cac6b0",
+      "state": [
+        "Surging power!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/krill_use_surging_power_01.mp3.json",
+      "sha256": "fc04183ac04ea2189e0cb0dd4d7a8dd139615f09d04ada1dc36da3887f235b52",
+      "state": [
+        "Surging power!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/krill/ping/krill_ping_wraith_on_top_of_mid.mp3.json",
+      "sha256": "2fb8d9ab4e6f9b7283fe8781d431bed58132879ca67276c49592088a067494f8",
+      "state": [
+        "Wraith's on top of mid!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/krill/ping/krill_ping_wraith_on_top_of_mid.mp3.json",
+      "sha256": "5c7386215e453cb107982322f8bdd75a02db899956c7371530c283c1faaefae0",
+      "state": [
+        "Wraith's on top of mid!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/lash/lash_interrupt_warden_01.mp3.json",
+      "sha256": "084c33a6186418f72dc21cd0e01649113e9897bbdae99e3138bb4c3e284c792a",
+      "state": [
+        "Stopping Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/lash_interrupt_warden_01.mp3.json",
+      "sha256": "604eeadb3a6d151d3538ecac35b1cb861a631b3abbce8cd062afd74df567128b",
+      "state": [
+        "Stopping Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/lash_interrupt_warden_01.mp3.json",
+      "sha256": "7f3ffa0775275092fff18f4d399620d8706b36b9115c07dc4ea61cf3cbc95c3b",
+      "state": [
+        "Stopping Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/lash_interrupt_warden_01.mp3.json",
+      "sha256": "e2794b19d5d514806b0954892d778b973ea52e3d8a6f1bfecef137c8382d3497",
+      "state": [
+        "Stopping Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_bebop_almost_respawn.mp3.json",
+      "sha256": "5f7b9bdb4bfdb95f4579d3c8a962b596ded7f91a0b82e7546514db3bf4fdc3f2",
+      "state": [
+        "Bebop is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_bebop_almost_respawn.mp3.json",
+      "sha256": "69de4fe445fdb45671fec3513724897582633108033a37baed233d4bfefdfd95",
+      "state": [
+        "Bebop is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_bebop_almost_respawn.mp3.json",
+      "sha256": "9fc0ef9a186c9378d6daba34d3c747b28fa19663dbd92c3c9bd767be25ba2eab",
+      "state": [
+        "Bebop is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_forge_dead.mp3.json",
+      "sha256": "502fdb19301cdb5112100a4680741893f11845aac48e8f8d0d328a66362a19f6",
+      "state": [
+        "McGinnis is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_forge_dead.mp3.json",
+      "sha256": "c63c32cf74408b628d373d44adcc33da0b13ea3eac608fe2f753434bda7485ac",
+      "state": [
+        "McGinnis is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_haze_almost_respawn.mp3.json",
+      "sha256": "02cac4c30a93a078772251c6561816f7879891c84229824995d7cca60bf44616",
+      "state": [
+        "Haze is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_haze_almost_respawn.mp3.json",
+      "sha256": "8a6b038b4d683772b24c266dc2c74fb359962ec0de42c108e1ba533f88e7334b",
+      "state": [
+        "Haze is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_haze_almost_respawn.mp3.json",
+      "sha256": "abbc6ca8c3408b2b602ea9a584e0e8dc55c523b875ac0981774c65a7b3c1214d",
+      "state": [
+        "Haze is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_hornet_01.mp3.json",
+      "sha256": "78c003d23ff22d4485655e9a2ea91a954dc627f9aef9b46069b4ae291a222fec",
+      "state": [
+        "Stun Vindicta.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_hornet_01.mp3.json",
+      "sha256": "84fb0b329c8d53bb8a37867760c04757063812c56a6910af6be242ae1d4f8de9",
+      "state": [
+        "Stun Vindicta.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_hornet_01.mp3.json",
+      "sha256": "c1bb6e28a66786e393929dcb323dc58366df7e305c9a630fa0a6751d6daabf05",
+      "state": [
+        "Stun Vindicta.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_hornet_01.mp3.json",
+      "sha256": "c95558a1ce5594d9931e8eebb961a910ee71c21193613d63ab3cc0363e7e6333",
+      "state": [
+        "Stun Vindicta.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_inferno_01.mp3.json",
+      "sha256": "2d261036c3eebc4fe4690995d90b4d52b25db53f9a22c1e01e5c258f2dc9cef0",
+      "state": [
+        "Stun Infernus.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_inferno_01.mp3.json",
+      "sha256": "5a03586f2c7f070aa3503b0265013e1e9a95fecada1e7258ee1b5b33f2cb62ab",
+      "state": [
+        "Stun Infernus.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_inferno_01.mp3.json",
+      "sha256": "ae45950e7b1d19cd7dac02576dc34230bef66a8ea3f2bca28d57581ca5812392",
+      "state": [
+        "Stun Infernus.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_stun_inferno_01.mp3.json",
+      "sha256": "cb7cdf79cfdcc24dde303f7c051b1c658b49d59cb17becbf219c17cb4527bbc0",
+      "state": [
+        "Stun Infernus.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_viscous_was_here.mp3.json",
+      "sha256": "36e7358e2ea06213b0b5023149a0fbe177105fab3d9a7725fc67d5a3591df446",
+      "state": [
+        "Yeah, Viscous was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_viscous_was_here.mp3.json",
+      "sha256": "9639b7a554d611e0bc588e1723425849cc8ffabd8431f925f4fbfdb1888fae08",
+      "state": [
+        "Yeah, Viscous was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_wraith_check_items.mp3.json",
+      "sha256": "3dda262ddcd6d48b7ba42e09fe1339dc9fc1442d16766dae4844394b23ecf0bd",
+      "state": [
+        "Now, check out what Wraith bought.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/lash/ping/lash_ping_wraith_check_items.mp3.json",
+      "sha256": "c55753d65cfcaa85804edf5d33e7b0a1a502de74379f334754d2274bd010a6c1",
+      "state": [
+        "Now, check out what Wraith bought.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_forge_under_garage.mp3.json",
+      "sha256": "b54f5020140f0b148c296fb35a9486eeeb3343463b78d56ff073b29ab2d00d56",
+      "state": [
+        "McGinnis, on the grosh!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_see_astro.mp3.json",
+      "sha256": "df5225968895a3b94b5bb432c95200032bf06204cb66460d1b4157ad5c9f209f",
+      "state": [
+        "I see Holliday",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_stun_nano_01.mp3.json",
+      "sha256": "25c5c72274afd1f432a8a0d63d9be7328754264ae51579de2478ebf5c1ebb89a",
+      "state": [
+        "Stun Calico!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_stun_nano_01.mp3.json",
+      "sha256": "96d51506526a0c4710246a032ecff680e70181089f9d085e418e36c8f954274a",
+      "state": [
+        "Stun Calico!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_stun_nano_01.mp3.json",
+      "sha256": "b79271735054f0373ebc17d7d998a93050227b0a14cbc6aec99ae7babf4c1fcb",
+      "state": [
+        "Stun Calico!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_synth_almost_respawn.mp3.json",
+      "sha256": "25262faf43004fb1f46313ea7e4dbf5eb127905826dee2da8d28d2af2fd6e1d5",
+      "state": [
+        "Pocket is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_synth_almost_respawn.mp3.json",
+      "sha256": "4ec57e40914c5d2b2623b9450e67cdacb9088f8970034a6c4649cfe7b6f25bf2",
+      "state": [
+        "Pocket is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_tengu_dead.mp3.json",
+      "sha256": "03e3513f176334379c813aefad1c9ac8d1443e48b9a41e805ceced3bbae74449",
+      "state": [
+        "Ivy's dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_tengu_dead.mp3.json",
+      "sha256": "718c95682573831a9b44a65e6b6d149e6f1ea4743dc99898fc0b7271a62baab3",
+      "state": [
+        "Ivy's dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_tengu_dead.mp3.json",
+      "sha256": "b0c6df493e3710c18cc7d40126ce62f64914d1d64f0a05c2a2bff660710c03e3",
+      "state": [
+        "Ivy's dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_with_warden.mp3.json",
+      "sha256": "1ca5d0b64847cf9d0003c24fd153477499a6f28ffaeaa43d42b309cf7f4830e2",
+      "state": [
+        "I'm with you, Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_with_warden.mp3.json",
+      "sha256": "37c07453ce06fcef4f7d2f3f5ccb0425b619d243589f688b6a43e9fc018875f0",
+      "state": [
+        "I'm with you, Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_with_warden.mp3.json",
+      "sha256": "8464d68124ad9172c18c1cbe887c63b8a6af9d9f6bf4dae0fe455fb9b5cea15d",
+      "state": [
+        "I'm with you, Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_with_warden.mp3.json",
+      "sha256": "b59987f3991319eee22a975ee57feb6f1eb4a9599c7ed5d11d75328262818e45",
+      "state": [
+        "I'm with you, Warden.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_with_wraith.mp3.json",
+      "sha256": "04b8f57d6adc5624d8a577b07653f25933a6a3bddb07aa4faed2aa62620ab4fb",
+      "state": [
+        "I'm with you, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_with_wraith.mp3.json",
+      "sha256": "3021e0d9cb1a97e702e292114a67603df62f6e99b0324ad802417854aa26e33e",
+      "state": [
+        "I'm with you, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_with_wraith.mp3.json",
+      "sha256": "7ff40383ac0dbd5cdf40dc96aa8fdaf0a95463b3356a3385d083e3c91b02e4c5",
+      "state": [
+        "I'm with you, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_wraith_almost_respawn.mp3.json",
+      "sha256": "287d72cea0cc626e235f6fb1e91fd217a3cde256c2e7d84c98bfb7a2fcffa704",
+      "state": [
+        "Wraith is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_wraith_almost_respawn.mp3.json",
+      "sha256": "f2bd58b721ef60c40705be44c1dcca6a1001007ebad77eec27995c96549f6128",
+      "state": [
+        "Wraith is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_yamato_was_here.mp3.json",
+      "sha256": "4a44eb1954158246be48f82c8c8518684acc0b62e3f34644d0eb3ce29bfd497f",
+      "state": [
+        "Yamato was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_yamato_was_here.mp3.json",
+      "sha256": "ad2d8a7d662e6539460dfb3ac57efc6572624c824c885aaf8fbcdfbbff770356",
+      "state": [
+        "Yamato was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/mirage/ping/mirage_ping_yamato_was_here.mp3.json",
+      "sha256": "f48f70825c609311958f4ab7d4dde35ff37d73236bb204f91af01ddfbbcab476",
+      "state": [
+        "Yamato was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/nano/calico_ally_bebop_killed_in_lane_01.mp3.json",
+      "sha256": "672c6b11792a3f815d699713eaa3cd08f80af9a479c1c917226bacbc4860df99",
+      "state": [
+        "They took out Bebop.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/nano/calico_ally_bebop_killed_in_lane_01.mp3.json",
+      "sha256": "777efd32ee8695634f50dd24b9b38bb51b1ea660a92acd05958af41c7bb4afad",
+      "state": [
+        "They took out Bebop.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/nano/calico_ally_krill_killed_in_lane_01.mp3.json",
+      "sha256": "b16be593bbe507fe163ed9f70986728ba98f104851121d6dc7b369c2caf52044",
+      "state": [
+        "They took out Krill.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/nano/calico_use_tech_purge_03.mp3.json",
+      "sha256": "6ff7e19ec4db0232e340b70fc1eb74735818d356c999bb9348b658ad0d2a312c",
+      "state": [
+        "Their tricks won't work on me.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/nano/calico_use_tech_purge_03.mp3.json",
+      "sha256": "a532b3b69b6e105c33919b98e3b35efb6fde957faf11d5b2b5e74b603ea3e5a7",
+      "state": [
+        "Their tricks won't work on me.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/nano/ping/calico_ping_see_wraith_on_bridge.mp3.json",
+      "sha256": "3474d99667609158b8d16626f5519f493815b6ccba22a0fff2e142c7b7826acc",
+      "state": [
+        "Wraith is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/nano/ping/calico_ping_see_wraith_on_bridge.mp3.json",
+      "sha256": "7e54bd2fe581883a2d7235dd046b975718c19793d722b911c6cd0129c2ece99b",
+      "state": [
+        "Wraith is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/newscaster/newscaster_headline_34.mp3.json",
+      "sha256": "390628306dc0b9bb3b3326f5b7f678fc6a5b47b6792897dc133bda455b0a5deb",
+      "state": [
+        "The Grey Coven leaves audiences spellbound. Read the New York Oracle's review of the latest off-Broadway sensation.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/newscaster/newscaster_headline_34.mp3.json",
+      "sha256": "5c4a372dc663363e0f8314fcb33d4edf9c8dc4699d65c6a6b8572839d104f8f9",
+      "state": [
+        "The Grey Coven leaves audiences spellbound. Read the New York Oracle's review of the latest off-Broadway sensation.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/operative/ping/operative_ping_can_heal_dynamo.mp3.json",
+      "sha256": "c66ba8ba6821672f2abe4aa7fddbd2647b102f8198c47d2ca100a5fc36bfcffa",
+      "state": [
+        "Dynamo, I can heal you.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/operative/ping/operative_ping_careful_tengu_03.mp3.json",
+      "sha256": "4c0eeff8b04de23a82b7b69396115917ec896da9aff15dd1732a58b260d220bd",
+      "state": [
+        "Careful, Ivy.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/orion_ally_mcginnis_killed_in_lane_01.mp3.json",
+      "sha256": "7a6debda717cfd43548d6d881cc8b4daca2122ebc6b5eccc19f6df6ce7bec3d3",
+      "state": [
+        "McGinnis was taken out!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/orion_ally_mcginnis_killed_in_lane_01.mp3.json",
+      "sha256": "8b01f84c612498a08f0da86818c2b5fa348240c5c2a7393c696077ed7e0dda97",
+      "state": [
+        "McGinnis was taken out!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_forge_in_mid.mp3.json",
+      "sha256": "37ec14b8b5fdbc88c559ae4460570943a118581c7eb65d7d636ac3dd717d50a5",
+      "state": [
+        "McGinnis's in mid!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_forge_in_mid.mp3.json",
+      "sha256": "516345b8ba0f8438430a8275a932cc279f2049c6cbca1543c5e1a42a3a28a69a",
+      "state": [
+        "McGinnis's in mid!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_forge_in_mid.mp3.json",
+      "sha256": "e67934db2dd342498665af2eb544b2958b76defdd3c8d429a2c0432403a0783a",
+      "state": [
+        "McGinnis's in mid!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_hornet_dead.mp3.json",
+      "sha256": "70e0b95d14fe95b8ddbe996277808d5828476c782d83a3e99fbe5a5a66a58183",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_hornet_dead.mp3.json",
+      "sha256": "7e9280a7702c837e426fa07e2fa69e7640c6dd4ddd58361fdcf13d50dd1a4bc4",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_hornet_dead.mp3.json",
+      "sha256": "ddc50bcde13af75549ab5c59000e4d6ef279fb46551acae9020534e63bc5b8e7",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_ignore_hornet.mp3.json",
+      "sha256": "38027f71a45618dd87ab01f190fa471ec133dadf30f79be0042f5d445c51bb1c",
+      "state": [
+        "Ignore Vindicta!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_ignore_hornet.mp3.json",
+      "sha256": "3d1434400e9c0442195d1a94470b2ffa4e633fa8b9a4b9ad58333195198f72e0",
+      "state": [
+        "Ignore Vindicta!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_ignore_hornet.mp3.json",
+      "sha256": "489abdce42572627202559e718a195569688871e5549062821cfb17bd91d331c",
+      "state": [
+        "Ignore Vindicta!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_kelvin_was_here.mp3.json",
+      "sha256": "5d57d5258783fd23f85be9bb26a8719fbc23aec67a71810b80632fae8a710826",
+      "state": [
+        "Kelvin was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_kelvin_was_here.mp3.json",
+      "sha256": "743ed7ace0abbe7698fa1a9897c83c4707958b6d0168738ff3e095f21d2829e4",
+      "state": [
+        "Kelvin was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_kelvin_was_here.mp3.json",
+      "sha256": "dc5f14797de289a762ca0fbc0e8d68d933d9c9a644aec0205968d16d154ec926",
+      "state": [
+        "Kelvin was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_see_astro.mp3.json",
+      "sha256": "15c5a6fc8266b927eeb9424bcc1b38a90a7971a011f12dc66d031ad53a8d2b1f",
+      "state": [
+        "I see Holliday",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_see_astro.mp3.json",
+      "sha256": "425abf010b6d6a80ae6f4dd25f0874adb260ba951b61e7a05d122699b498da8e",
+      "state": [
+        "I see Holliday",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "sha256": "74b7e8e6677659524768a8bc6be82a1e212209da204bcc5cfac7238a35d17e70",
+      "state": [
+        "McGinnis's on the roof!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "sha256": "ca62602518e010c78e1078acb40097d8b70ab922cfc77cff5c22bc6919707c65",
+      "state": [
+        "I'm gonna get it! It's on the roof!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "sha256": "e842dbe7f0772be1e44833749bc851968e16f9b17a4aa83b12b34798197323ef",
+      "state": [
+        "I'm gonna get it! It's on the roof!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_see_yamato.mp3.json",
+      "sha256": "56c41545988bd02d33b62602757cdce3fd855b8ba156aed982956417c4a3444b",
+      "state": [
+        "I see Yamato",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_see_yamato.mp3.json",
+      "sha256": "b416a0838ff54be90719148acee8a7ab1349df511b0081c639794b56ce16f598",
+      "state": [
+        "I see Yamato",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "sha256": "4c2e929061b7306c241e83c3bce47c50ddf317a8e8630f0dcbeebb34f0a4bfe7",
+      "state": [
+        "Stun Krill!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "sha256": "bc20d80bab79022373b35381ca0138011ee792b7e3e622a6b20d833ee01cced0",
+      "state": [
+        "Stun Krill!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "sha256": "db11bee612a975b54cf10fa329687ddf389beb090cb3de4bcffb17b4a74434d1",
+      "state": [
+        "Stun Krill!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "sha256": "f6b5cc49e076eaa42830397ee3170862ed1953e0e6274bd3de59e79bddae330b",
+      "state": [
+        "Stun Krill!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "sha256": "185f6f0e3ccf39be19832a57ac5e92598cd126a600b359712ba31e05ad09455c",
+      "state": [
+        "Stun Viscous!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "sha256": "3411a4ddb59cfc7e468f4192abb8e3631608de6df20ac7729a2898e77162b559",
+      "state": [
+        "Stun Viscous!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "sha256": "acfce2caa34a056a7d0c160ff47a4936ff9f5e049519e6ce115914ad9438c4ea",
+      "state": [
+        "Stun Viscous!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "sha256": "d62a13825cae68200655d87c3e8f7949818cfcdb4ee815e7198dec2ea009edf4",
+      "state": [
+        "Stun Viscous!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_viscous_check_items.mp3.json",
+      "sha256": "2525f4d2e96ad94c2299e158eace8d3b0a1058f7d4ce7a58535956868bca3ce9",
+      "state": [
+        "Check out what Viscous bought.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_viscous_check_items.mp3.json",
+      "sha256": "26b4d3f0668cb025cc2de00d4a047dc1316b249a2460cc522c960eb68d92b611",
+      "state": [
+        "Check out what Viscous bought.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/orion/ping/orion_ping_viscous_check_items.mp3.json",
+      "sha256": "e04b0c34d9546b5f81002ba875e3064bba1ca2514b35e134ce96beb9eb80056f",
+      "state": [
+        "Check out what Viscous bought.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/paradox/ping/paradox_ping_jar_call_01.mp3.json",
+      "sha256": "077b25dbb8bf9d085ca2288917bef21b577ebf912f9ee91d23ff6a5c0224df96",
+      "state": [
+        "Spirit Jar is here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/paradox/ping/paradox_ping_jar_call_01.mp3.json",
+      "sha256": "e44cb42d5b2a89aee1f1d555ccdc8c42889a1d0aa5e532d5d732898a2f2f562a",
+      "state": [
+        "Spirit Jar is here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/paradox/ping/paradox_ping_stun_lash_01.mp3.json",
+      "sha256": "3695d27ecaeee6d2929f32b1de6d83fd9711f51fadf4a53c980c93b857c6993f",
+      "state": [
+        "Stun Lash.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/paradox/ping/paradox_ping_stun_lash_01.mp3.json",
+      "sha256": "cda759c31d0cf05202288e21bcf053f94a2682047c25e2b7cfa829f3a5191c88",
+      "state": [
+        "Stun Lash.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/paradox/ping/paradox_ping_with_haze.mp3.json",
+      "sha256": "7d11723f60771d682003c9a044f2fa37bd2c5bc455b804a76459382319aea0a9",
+      "state": [
+        "I'm with you, Haze.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/paradox/ping/paradox_ping_with_haze.mp3.json",
+      "sha256": "d124fc1379da858b6219649fe1f8534c1ac3cdb410352d3e12eda1d321dfdb29",
+      "state": [
+        "I'm with you, Haze.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_careful_viscous_02.mp3.json",
+      "sha256": "125f71c0c8c7d235ee82ad169abd22e7280f671159d8730c1258c6f24d04bd96",
+      "state": [
+        "Careful, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_careful_viscous_02.mp3.json",
+      "sha256": "a065fdc08404ceb41caecf26d9547d3bbe637927a6c570c38176e6e3a60cfc3d",
+      "state": [
+        "Careful, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_gank.mp3.json",
+      "sha256": "87989f17f5576012e66cc0b7f63980c77a9c0680f694b4313913411a4ad73e21",
+      "state": [
+        "Going to gank.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_gank.mp3.json",
+      "sha256": "fc429900cf353b35d1f9c33ac623fe55e8ecc323db2d2be4b48bc8bbd41f2229",
+      "state": [
+        "Going to gank.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_rejuv_drop.mp3.json",
+      "sha256": "543c387d041eb3002d660ce84336bdd6983dae77daef8d199f290d384089830d",
+      "state": [
+        "Rejuv's dropping!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_rejuv_drop.mp3.json",
+      "sha256": "7684d408ad0b8a94c2e1fa0db3a0bd9761c33460c1862caa53a11f792f38d880",
+      "state": [
+        "Rejuv's dropping!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_shiv_dead.mp3.json",
+      "sha256": "7b184d6d7dfc59b02e16369b1ddeabcbca2f8e8e4c152f7a78c47f8a59d4d621",
+      "state": [
+        "Shiv is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/pocket_idol_drop_01.mp3.json",
+      "sha256": "6e372244ab1f6a9e672e887d64a31445a52d654d8bb3197c014f684ed6d11ee8",
+      "state": [
+        "The Spearhead armor is almost ready to be delivered.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/pocket/pocket_idol_drop_01.mp3.json",
+      "sha256": "acb68261e942753abf7e10309cd9002feb36dc2bd7ce053e88a5574775a7211b",
+      "state": [
+        "The Spearhead armor is almost ready to be delivered.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/priest/ping/priest_ping_wraith_almost_respawn.mp3.json",
+      "sha256": "d7d921a71230bf7c8709214e56402d2e24a208543db04a1cce99c624ef2b42e5",
+      "state": [
+        "Wraith is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/priest/ping/priest_ping_wraith_almost_respawn.mp3.json",
+      "sha256": "dc343dc2930261fc31a69d36bdfab1feacc2e0ece8c845da229f66d029679b6f",
+      "state": [
+        "Wraith is almost back!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shiv/ping/shiv_ping_attack_bebop.mp3.json",
+      "sha256": "2bdbb495a91feb4b99aee940a59de37cd08957a7995c0e617e83a1b25f34543e",
+      "state": [
+        "Let's take out Bebop",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/ping/shiv_ping_attack_wraith.mp3.json",
+      "sha256": "ffb1693985f27e1437fd9c0ab8ac61386ea8413f608242b785d134a3d0c1fe4e",
+      "state": [
+        "Let's take out Wraith",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/ping/shiv_ping_can_heal_dynamo.mp3.json",
+      "sha256": "361cd656b96404915740bcc91d5047dc3eb3b508971a2cad4e77128fcfdc8bc4",
+      "state": [
+        "I give you.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shiv/ping/shiv_ping_wraith_missing_01.mp3.json",
+      "sha256": "f16e25c86bf471ba1cd30ac969992a903bd9bb9fc8d6b90f3a436b06514a7da9",
+      "state": [
+        "Wraith's missing",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_ally_bebop_killed_in_lane_01.mp3.json",
+      "sha256": "c1332ecf90b510b5f5d7f1fd9505d195dc06f528d2295e376c12dfccaf1acdee",
+      "state": [
+        "They took out Bebop",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_ally_dynamo_killed_in_lane_01.mp3.json",
+      "sha256": "5ab9a9fcaa1d4c035853de1c9a1fd5f9af393a2591d78ff54f6b68f74a936900",
+      "state": [
+        "They took out Dynamo",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_ally_wraith_killed_in_lane_01.mp3.json",
+      "sha256": "b5832c60024bd76fc7f43f1d908840894ac202458e0cb60591d9eec2bdf62ee3",
+      "state": [
+        "They took out Wraith",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_ally_wraith_killed_in_lane_01.mp3.json",
+      "sha256": "e2908789d5ba66a0865940f802ddae69b76583b5c9a134b7fc2d443cdd51d88a",
+      "state": [
+        "They took out Wraith",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_close_call_03.mp3.json",
+      "sha256": "1142d1f54dd4c301fdff1e6fc3c0755e5d1221d52006ed72ea44546314bfc27f",
+      "state": [
+        "If I were a lesser man, I'd be dead\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_close_call_03.mp3.json",
+      "sha256": "a300c227c16d153b43f25621b8cf1d145e0aa0ebb377b570c6b92b6648bea990",
+      "state": [
+        "If I were a lesser man, I'd be dead\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_close_call_03.mp3.json",
+      "sha256": "a70a12a05a19696abf7df8a37e8cf0d2cc87dd298dfe78d677eddf1d6e50aac2",
+      "state": [
+        "C\u00f3mo les mana bittere.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_interrupt_01.mp3.json",
+      "sha256": "1e36a271d1a25132160c7b9cac6ee5ade891d62b778b757a104b5b6646176366",
+      "state": [
+        "Sorry friend\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_interrupt_01.mp3.json",
+      "sha256": "83b080526ddcf462417e3a4b6bf3dca9bc32f3adbdb6fc5825377b603304d550",
+      "state": [
+        "Sorry friend\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_interrupt_01.mp3.json",
+      "sha256": "f0113dcc13575c0a7e8262ca47e86f917c7375ce6bb95310511adead3934e0bc",
+      "state": [
+        "Sorry friend\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_kill_bebop_05.mp3.json",
+      "sha256": "5ae7922105992630a459f42fc10567221bcfc32a838417941c99367b374e1e0c",
+      "state": [
+        "Bebop's out of commission for a while\u2026.",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shiv/shiv_kill_bebop_05.mp3.json",
+      "sha256": "f252263caffead40af7b680e0f1c544c78bcce310593b707bd2007469e3fe248",
+      "state": [
+        "Bebop's out of commission for a while\u2026.",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_jump.mp3.json",
+      "sha256": "1e3215b588dca050f5e663e49ec9c4776efd1b191fd5e88c8c3141768057d841",
+      "state": [
+        "Press space to jump.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_jump.mp3.json",
+      "sha256": "86b63badf9d0c6007ea9889b69f12494ea5e941a4419c1945fffa1eb56354f74",
+      "state": [
+        "Press space to jump.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_jump.mp3.json",
+      "sha256": "e24c60162ed60e290849c054d304837cf945ab255a2c6cc34bf0500a0be672ab",
+      "state": [
+        "Press space to jump.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_mantle.mp3.json",
+      "sha256": "4ff0cd2058da3143313286f00f6145fbc10a054cb2fb95419b910af665be63ac",
+      "state": [
+        "Pulse face when they're alleged to man up!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_mantle.mp3.json",
+      "sha256": "74d59aebe4ae51eace2274909c78a61db7d53ce2585505b73d981334d5114fe2",
+      "state": [
+        "Call space when they're alleged to man up.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_mantle.mp3.json",
+      "sha256": "ace6b2e024a8090e5ae7c43a0e85723d461b9a27a172100322ee59a28e924a5e",
+      "state": [
+        "Call space when they're alleged to man up.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_shoot.mp3.json",
+      "sha256": "5c12028815ecd92b1ad7f6656b7190594a99599b4cc25ad3bd4ef4599a98696d",
+      "state": [
+        "Press mouse 1 to shoot. Gun damage falls off at longer ranges.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_shoot.mp3.json",
+      "sha256": "6d782f02d5ec7ad24188dcab04afe394e4a1b88858bba6a3eea4265077d80176",
+      "state": [
+        "Press mouse 1 to shoot. Gun damage falls off at longer ranges.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_controls_shoot.mp3.json",
+      "sha256": "f7194bc719da6227a4f838cf8c435f1c7929c82710b9513fe2b308c1b3ac88cd",
+      "state": [
+        "Press mouse 1 to shoot. Gun damage falls off at longer ranges.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_power_mods.mp3.json",
+      "sha256": "4d37a06bc4a9e123f7cba61dbafc9a5ab215f637b954cefc57b6312cc487a03a",
+      "state": [
+        "Spence sells to buy ice.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_power_mods.mp3.json",
+      "sha256": "9a1935cde70b1c384b1061ad877ad07b330527b8ccccffa93f3cd0353122699c",
+      "state": [
+        "Spence sells to buy ice.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_power_mods.mp3.json",
+      "sha256": "11a54fa288e68ef21e257a42d10d91a1ecc09efd0089275e0a1eba498574ea80",
+      "state": [
+        "Spence solds to buy Ibs.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_power_secure.mp3.json",
+      "sha256": "d1b11486d7bd0344ff935f765f78d40f6af39ef621ed5f78d259db9f0328b455",
+      "state": [
+        "land a killing blow, extra souls appear.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_the_map_core_2.mp3.json",
+      "sha256": "259cba159d05385e3251b71c7263223d58d2a93250eafb2745b7b0aede4a8405",
+      "state": [
+        "There's a shrine at the back of each team's base. Destroying the enemy shrine completes the ritual and wins the game.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_the_map_core_2.mp3.json",
+      "sha256": "732e6fd6a315744c8e0eb039490e128a4492158fb30b34969b58cbfa2142e16a",
+      "state": [
+        "There's a shrine at the back of each team's base. Destroying the enemy shrine completes the ritual and wins the game.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_the_map_core_2.mp3.json",
+      "sha256": "dede13799aa217e307c01ec1d9a7d8d4d1550ac1c31bc3fab4f2ddcfab25bb6a",
+      "state": [
+        "There's a shrine at the back of each team's base. Destroying the enemy shrine completes the ritual and wins the game.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_the_map_walkers.mp3.json",
+      "sha256": "124747762abd0ed26dc0890698fe5c63aa0dc39d41ea1a81d1510f2f73ddc8da",
+      "state": [
+        "Walkers lie deeper in the lanes and have an arsenal of defensive moves.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_the_map_walkers.mp3.json",
+      "sha256": "7988d78efd38bcd765cd96d2b100c1786f603b0b3b174da6cbe9a1a35ce6d535",
+      "state": [
+        "Walkers lie deeper in the lanes and have an arsenal of defensive moves.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/guide_the_map_walkers.mp3.json",
+      "sha256": "ddff968e798dae99c4c20e160d0e550468e2d34fcc347a203003aaaad9b1ee68",
+      "state": [
+        "Walkers lie deeper in the lanes and have an arsenal of defensive moves.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_early_10.mp3.json",
+      "sha256": "cb2751f75a2f66efcc270115e1a74354a2bb428cdca1f7893b02a21500db94e9",
+      "state": [
+        "Allow me to pique your curiosity",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_glass_cannon_01.mp3.json",
+      "sha256": "0471fac665246526697fc4525e7822847cd468f30a8096c8a90e52b95d246a71",
+      "state": [
+        "High risk, high reward\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_glass_cannon_01.mp3.json",
+      "sha256": "52f53472b30604e8019f84ae34b6dd7b86873a699edfb7772a8119cddb428fc7",
+      "state": [
+        "High risk, high reward\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_glass_cannon_01.mp3.json",
+      "sha256": "e49f4325b04a4bd8c9020869817272124558dfc036f38b2e51b553d9f0afa781",
+      "state": [
+        "High risk, high reward\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_gun_04.mp3.json",
+      "sha256": "90898cfb3357452eb4d5e5d96ad28400e24cebb97d8693f0df492c25f664a8c0",
+      "state": [
+        "There you are, I'll throw in a free keychain.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_gun_04.mp3.json",
+      "sha256": "af606a0f8b6d34ed5d8057acfdeffaaa5585201387f043c59de90719a867eb4a",
+      "state": [
+        "There you are, I'll throw in a free keychain.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_gun_12.mp3.json",
+      "sha256": "4e1214dfa14565895767a52b4ae759f46956ac567517af231f4ad93fc150f13f",
+      "state": [
+        "You wanna buy a mug to go with your gun?",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_tech_02.mp3.json",
+      "sha256": "ffaebeb44414da66619392b7d13fb083e09cd686c5b7092ebc62b08e0e18a884",
+      "state": [
+        "deserved/descerning taste",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_tech_02.mp3.json",
+      "sha256": "77e7438a6677cb96b72ba35fbeeee11ad77dee4ca33274b9f5338291b177d530",
+      "state": [
+        "ahhh you have descerning taste\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_tech_02.mp3.json",
+      "sha256": "ddaeda84c070090e21cfcb3bf12fe0a888dd9a50cae8e9af252820ec338663d6",
+      "state": [
+        "ahhh you have descerning taste\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_buy_tech_14.mp3.json",
+      "sha256": "c92aed26ae097fd51dbc79c8e2df1aded65a7f8c7d049d8fec4c68914eae8347",
+      "state": [
+        "Here's your chance to shape your destiny",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_call_out_09.mp3.json",
+      "sha256": "4d660ae93ad9a32954e95bae9fd7963c8fe4760f9de680b50db80c2a023cf90d",
+      "state": [
+        "Guns! Get your guns over here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_call_out_09.mp3.json",
+      "sha256": "8687d0b70f163103dcd1525fed2afdc438cca1f1db7c1bb775b6cbb741a1ea91",
+      "state": [
+        "Guns! Get your guns over here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_call_out_09.mp3.json",
+      "sha256": "b7486822263a6cf477650564fc58ac282e9f8365cb2e02124baefb90342d1a3d",
+      "state": [
+        "Guns! Get your guns over here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_close_shop_02.mp3.json",
+      "sha256": "3e375ce6cc44ab335ffdbb4a4207896149f28f03fc512fb2b9e87aa1376a5d0f",
+      "state": [
+        "That's my cue to leave.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_close_shop_02.mp3.json",
+      "sha256": "b718e3af0fddd57afcc4d9eb93d1b6aaeee3f7c32c99f128778218835762f478",
+      "state": [
+        "That's my cue to leave.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_close_shop_02.mp3.json",
+      "sha256": "cbe8331135d27830c9a531972b5baa1f83acbbef32025d099e311f45d1be5443",
+      "state": [
+        "That's my cue to leave.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_03.mp3.json",
+      "sha256": "9c1c4835ff4618777867e83cb13f9a045285f99c472a84c3c24a6cdc3a38266f",
+      "state": [
+        "Fun fact about ghosts: Like humans, they don't like getting shot.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_03.mp3.json",
+      "sha256": "bb54e718ab9e8ef86080e825333c806aad781e8ad3dc977ef7c48ba566ceeb38",
+      "state": [
+        "Fun fact about ghosts: Like humans, they don't like getting shot.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_03.mp3.json",
+      "sha256": "e2714b4037374fb4ba192bfc9b9d39df656ccf56ac7fcb543c8285ef528cc526",
+      "state": [
+        "Fun fact about ghosts: Like humans, they don't like getting shot.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_04.mp3.json",
+      "sha256": "145880db2bdf86cbf106bd433bcccd8768e38bbfb0db0eb22cc58069912bb1a7",
+      "state": [
+        "You ever see a gun shoot enchanted bullets? Buddy, it is a sight to behold!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_04.mp3.json",
+      "sha256": "6ef09256e4fe461bbb67c90f660ca2978e3442715fe978b558b77149d32d927b",
+      "state": [
+        "You ever see a gun shoot enchanted bullets? Buddy, it is a sight to behold!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_04.mp3.json",
+      "sha256": "6fa33af7727d7683011175169eaa223e09df1bfe85461df65d39d24f870f1755",
+      "state": [
+        "You ever see a gun shoot enchanted bullets? Buddy, it is a sight to behold!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_t4_inferno_01.mp3.json",
+      "sha256": "5be58271638ea354ecff1a4ae68f5454fefafdbcf58a4fc3b5c7f4986a64fe93",
+      "state": [
+        "Fern, catch you at Jezebel's later?",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_t4_inferno_01.mp3.json",
+      "sha256": "ddc4f9d2271496bf41f2423ddddebbacb6acb09f400eb58b23a472a408e2e497",
+      "state": [
+        "Fern, catch you at Jezebel's later?",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_t4_wraith_01.mp3.json",
+      "sha256": "169cf32e8e57f5275f3a43af65e94b9d757665120f70e022fa277721090c22aa",
+      "state": [
+        "Big fan of your operation, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_t4_wraith_01.mp3.json",
+      "sha256": "cbc767b9fe844393adf863659233c9c9d101e6f1dc24b9bfcf16347d6053c233",
+      "state": [
+        "Big fan of your operation, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/shopkeeper/shopkeeper_hotdog_t4_wraith_01.mp3.json",
+      "sha256": "f8da802e74c5a1dd286c5da85d412a62bd6d42e7ca5c172f55229ddb1e2bf3ac",
+      "state": [
+        "Big fan of your operation, Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/slork/ping/slork_ping_see_wraith_on_bridge.mp3.json",
+      "sha256": "fd59826376d6458e6ebea0014ee6f5c96ef45611cd7c247f06d1897978aa227c",
+      "state": [
+        "Wraith on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_mirage_dead.mp3.json",
+      "sha256": "2bf370e7db45c3f93eaf462dc3d4f2102b308b1e38f9e2af449547587741dbf9",
+      "state": [
+        "Mirage is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_mirage_dead.mp3.json",
+      "sha256": "ed898e4e79743d1a7961ac168d36a3664ad5f1ee986c18c7476d455bac2940f7",
+      "state": [
+        "Mirage is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_saw_inferno.mp3.json",
+      "sha256": "08d4ace194b699c752802843a8edf59724f2c204e8382aa9e8d50dbd583f5675",
+      "state": [
+        "I sawin furnace.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_saw_inferno.mp3.json",
+      "sha256": "493da88b3f818a113934217fc3d813e67f8c497e0de0ee93fffd1243df963b9b",
+      "state": [
+        "I sawin furnace.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_see_chrono_on_roof.mp3.json",
+      "sha256": "202ed187a8e15370144ba619a7a9520acc41f912a268936ab67a343957181ef3",
+      "state": [
+        "Paradox is on the roof.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_see_chrono_on_roof.mp3.json",
+      "sha256": "4f3fc6dd8452d18adb0cbb5079e4c8976d9ca3acdcd3beb8da7c667406c98b92",
+      "state": [
+        "Paradox is on the roof.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_stun_viscous_01.mp3.json",
+      "sha256": "9c3e1ea2ec5bd52fc59d98e4598801d6cefa5d8eae80fc201508f430258295a5",
+      "state": [
+        "Stun Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_stun_viscous_01.mp3.json",
+      "sha256": "f761d82b1d9ca7ffb85c9dbad2bd449fdd27dc8fecba3f20bd73d5fcf5f8a1f7",
+      "state": [
+        "Stun Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_with_viscous.mp3.json",
+      "sha256": "1259b5414e92c451b35c51a08f1bd5f8fb6ab3093cd65836314b47da762092e2",
+      "state": [
+        "I'm with you, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_with_viscous.mp3.json",
+      "sha256": "b7081c6819b118098234a3030a8d0367c2cb47f9fc2c73c1d2f9244a39d3e43a",
+      "state": [
+        "I'm with you, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_ally_forge_clutch_heal_02.mp3.json",
+      "sha256": "0f6432e2602e6594a6b255e8e8b47f57a9c76e70a72c12fc8153d82f8f0ffe08",
+      "state": [
+        "I needed that McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_ally_forge_clutch_heal_02.mp3.json",
+      "sha256": "bbe2e8397e5ebd8c617c1d4089e80487055d2e9a09a75196f579c927a614781c",
+      "state": [
+        "I needed that McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_ally_forge_pass_on_zipline_01.mp3.json",
+      "sha256": "6bd1c1eb8785327d09bfb9985321d2c431e5d4d4c39a15d332dc46adb91124ab",
+      "state": [
+        "Thanks for the help, McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_ally_forge_pass_on_zipline_01.mp3.json",
+      "sha256": "c662944a89ff9dee34299e379f512675a217411075a1ae12024297a3677bf253",
+      "state": [
+        "Thanks for the help, McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_ally_orion_pass_on_zipline_01.mp3.json",
+      "sha256": "2c4d986c902fdaff8fcb24d341369042160735d60c26844f7ac7c406b190068a",
+      "state": [
+        "Stay safe, Graytalon.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_ally_orion_pass_on_zipline_01.mp3.json",
+      "sha256": "adef206c734ffab7e596f9d645fddab5964bab59f0d7ff02a1782fc1c255af9c",
+      "state": [
+        "Stay safe, Krystalyn.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_enemy_dynamo_charges_02.mp3.json",
+      "sha256": "2c163343106c3240237dd2e92387cbe25203c9e0fb78aa6a5f88da4a39a4cf35",
+      "state": [
+        "Here comes Dynamo!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_enemy_dynamo_charges_02.mp3.json",
+      "sha256": "5913931ab8ab6aa3374e27179439506f93a47fdcb7e335c04d004139e2cb5389",
+      "state": [
+        "Here comes Dynamo!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ivy_enemy_hornet_killed_mid_air_03.mp3.json",
+      "sha256": "061b86dafb60abc9b190e7cf77ff4f90a8efd00b55d144a73cecd66ba8754811",
+      "state": [
+        "And she thought she was safe.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/ivy_ping_careful_kelvin_03.mp3.json",
+      "sha256": "9b06e35b7b376998229ba011389da8f67ce72d5d5751e89364ff4b4aa21fd359",
+      "state": [
+        "Careful, Kelvin!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/ivy_ping_chrono_on_top_of_mid.mp3.json",
+      "sha256": "50e624e8ec50e645a2a3d4020ed9373e8c3b3eb9edd95b8024aa140b558990f5",
+      "state": [
+        "tear us on top of mid.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/ivy_ping_chrono_was_here.mp3.json",
+      "sha256": "afa790a630fbf7440fd812c1ab1d0a52d4e1e75eaf7d8531967b96c50d46501b",
+      "state": [
+        "Paradox is here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/ivy_ping_chrono_was_here.mp3.json",
+      "sha256": "fd8f726f94080b51aadcaa6f52a6f680d86d32934b8fe70ee51d1f1386b183df",
+      "state": [
+        "Paradox is here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/ivy_ping_kelvin_missing_01.mp3.json",
+      "sha256": "f41dd5865c691617387c81e6ae515aa9df8e730e50fa010fbde2674e61c0bca6",
+      "state": [
+        "Kelvin's missing.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/ivy_ping_see_kelvin_02.mp3.json",
+      "sha256": "e0fd9ba298e05bf9a063b25606945f5056ff88534c328e6b498422e54e6d8b5e",
+      "state": [
+        "Kelvin here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/tengu_ping_careful_wrecker_03.mp3.json",
+      "sha256": "d1a951dc5519d8fbfdf5aeabc0c394f995bf0371cb8a32e5ffe61a8b206f3da5",
+      "state": [
+        "Careful, Wrecker!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/tengu/ping/tengu_ping_see_wrecker_on_roof.mp3.json",
+      "sha256": "198d4ea03930a61f9f31d4790f8f455a265229215e69a97ae4c87955966ece95",
+      "state": [
+        "That's no!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_attack_hornet.mp3.json",
+      "sha256": "50da3a6fe3616cf5f36fa55961bc4b3c19b668ad801d7ae0395873a2cf830220",
+      "state": [
+        "take out Vindicta.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_attack_wraith.mp3.json",
+      "sha256": "e40271d942804d6108fc0cb22b733e041011c14b9fed28baf9b7498f826ae153",
+      "state": [
+        "take out Wraith.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_careful_synth_02.mp3.json",
+      "sha256": "54f2b25e91856fe887e7ecc05a17934797f806c9ab455b699af732083aa8441f",
+      "state": [
+        "Careful, Pocket.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_defend_green_01.mp3.json",
+      "sha256": "87d350badb4688051c6b16d6d5162c9220e21806fce6a5547b131e5fb2d4d530",
+      "state": [
+        "Defend Green.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_enemy_take_mid.mp3.json",
+      "sha256": "4b7c59d7343ee65eb76ddff88d57445bdf974766dceced8a97695bd4e38c3343",
+      "state": [
+        "They're taking mid!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_jar_call_01.mp3.json",
+      "sha256": "b831224e4eba19a6108e8058ef2ba419bc46b23b9e7335d7a75dfc33f9e118f4",
+      "state": [
+        "Spirit Jar is here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_rejuv_drop.mp3.json",
+      "sha256": "b177ece3c2faf27d350d1f6629d35c885b46a1bb8a750991e63416639e4f6a1e",
+      "state": [
+        "Rejuv's dropping!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_shiv_was_here.mp3.json",
+      "sha256": "4edb264cbf71750f62e5d2a2809dde67823b39ae14082b93ce8203f31e6c8ae8",
+      "state": [
+        "Shiv was here!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/trapper/ping/trapper_ping_wraith_missing_01.mp3.json",
+      "sha256": "f668be86a83bce925146e904a7668dbf927acc28fcf7084bcf32625b10f53df6",
+      "state": [
+        "Wraith missing!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/unicorn/unicorn_unselect_01.mp3.json",
+      "sha256": "6668afbfc3c60adb201f085ed4fec441abde17755afc6ac8285f02f4b4eb6e5e",
+      "state": [
+        "audience members",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/ping/vampirebat_ping_attack_inferno.mp3.json",
+      "sha256": "d773b7b472f1d5283141572335047c8548f0554677479489028fc3d2d165be90",
+      "state": [
+        "Let's take out Infernus.",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/ping/vampirebat_ping_attack_viscous.mp3.json",
+      "sha256": "6bc359d1f5980af3b3fe269a4c8076041f3268ae6b98007d4c62bf04a41c1696",
+      "state": [
+        "Let's take out Viscous.",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/ping/vampirebat_ping_dynamo_missing_01.mp3.json",
+      "sha256": "66ffcd12607782d4f8f8459f05925f16dc0eac88770898c19abf3fc2debcee8c",
+      "state": [
+        "Dynamo's missing.",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/ping/vampirebat_ping_see_slork_on_bridge.mp3.json",
+      "sha256": "a01c59c69bd4fc4ce037124305eb0548f3ab27d11ad2988c0de7079019e9ba41",
+      "state": [
+        "Fathom's on the bridge!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/vampirebat_ally_doorman_killed_in_lane_01.mp3.json",
+      "sha256": "b06fffd16b45fb8adf64e7ea4b604558786d960661d8a8087566be5e7af3d343",
+      "state": [
+        "They took out the Doorman!",
+        "manual",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/vampirebat_ally_frank_killed_in_lane_01.mp3.json",
+      "sha256": "be7fe297bbd139b6ff24adfb0c81b5fc30f26db02b81becefc7db91b89ab502b",
+      "state": [
+        "They took out Victor!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/vampirebat_ally_inferno_killed_in_lane_01.mp3.json",
+      "sha256": "f86d77e763d44df2b215ea1292d98a158313cfc1bcabd378ac6a03f9a1055117",
+      "state": [
+        "They took out Infernus!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/vampirebat_ally_magician_killed_in_lane_01.mp3.json",
+      "sha256": "f9f1c4b9212d513d86461e3e02716e581c4b1bab4204e75709b5d51cdebb6ce0",
+      "state": [
+        "They took out Sinclair!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/vampirebat_ally_mirage_killed_in_lane_01.mp3.json",
+      "sha256": "dd1da9cdf8771836d106e05cb9945c117e5630a629b33d998b43eb2afacd7941",
+      "state": [
+        "They took out Mirage!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/vampirebat_ally_punkgoat_killed_in_lane_01.mp3.json",
+      "sha256": "706691c14d063d6593616d1d60ef20639cda8af7156ca664e541c2c42dab32e8",
+      "state": [
+        "They took out Billy!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/vampirebat/vampirebat_ally_viscous_killed_in_lane_01.mp3.json",
+      "sha256": "0e6beb163fddba7238b9d62373420b41620926d88e3db0cc3a3e1a6df2ef7308",
+      "state": [
+        "They took out Viscous!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viper/ping/viper_ping_wraith_on_top_of_mid.mp3.json",
+      "sha256": "a45a3c1e83692e2cef035a97a65541ee244fb29027021f0753d2dd9498c00066",
+      "state": [
+        "Wraith's on top of mid!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/ping/viscous_ping_ability2_not_ready.mp3.json",
+      "sha256": "3e6eec74a9f3a637494a1ce1b6e191719749510232e7369db77fe9a9b19ad19e",
+      "state": [
+        "Cube's on cooldown",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/ping/viscous_ping_careful_astro_01.mp3.json",
+      "sha256": "25328ab3f6a57e050981400486e6d2dcf42486d33a381cc7d86641aa1c27c491",
+      "state": [
+        "Careful, Holliday\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/ping/viscous_ping_careful_astro_01.mp3.json",
+      "sha256": "b4b51b15722a2410f1482e484b2fac12975712e65881b557bdc0113771609b04",
+      "state": [
+        "Careful, Holliday\u2026",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/ping/viscous_ping_see_orion_on_bridge.mp3.json",
+      "sha256": "1ca7d9696213fd5fa56755550df98c1fdff603a39432152ff053f8fd111edb1f",
+      "state": [
+        "Grey Talon's on the bridge!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/ping/viscous_ping_see_yamato_on_roof.mp3.json",
+      "sha256": "12445676a70d55cb9ea49a05926414d6aa8e9327c9544456b087a5b828ae62db",
+      "state": [
+        "Yamato's on the roof!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_angry_01.mp3.json",
+      "sha256": "073e64b20d0c713d36e6500dba2d9606cc1be07ac1ee646a93c219b8c3b08727",
+      "state": [
+        "This isn't fair.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_angry_01.mp3.json",
+      "sha256": "11ff7ee5cc0b0edbc1ce39b8abb898e8faf17136787b8019d8e59fffc34b9c52",
+      "state": [
+        "This isn't fair.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_happy_10.mp3.json",
+      "sha256": "2f8cec8f43b0d93c5e52d0e891e020bb88c0b90f17c29d785f34f51ede799250",
+      "state": [
+        "Splendid!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_happy_10.mp3.json",
+      "sha256": "896cd2b12e10e0e6e9a4235838b32efa696990302450b76b58e2bfe7b4b669f7",
+      "state": [
+        "Splendid!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_see_enemy_metal_skin_02.mp3.json",
+      "sha256": "25fc636bb7c2d7bd7252807f26431e803aa55730e470beb85ea2ad0243a126b8",
+      "state": [
+        "They have metal skin!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_select_02.mp3.json",
+      "sha256": "79df02e05443c12b14d145318a2467f16111af4f4fd846cdc0f676d3c814c717",
+      "state": [
+        "This host will serve me well.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_select_02.mp3.json",
+      "sha256": "ba3f177575e95e6935f7478ea1f65d72817b70dd37252dc6e145ca909861c8b7",
+      "state": [
+        "This host will serve me well.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_select_02.mp3.json",
+      "sha256": "d9d119ba6d691dbc024fc3fcfc44c9d914764495e540fcf044cd20d1a2034d31",
+      "state": [
+        "This host will serve me well.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_t1_shop_reminder_01.mp3.json",
+      "sha256": "2e303cc583652a894627e97e9ad6cdf0f034ed743868be6a0befcaa0359a44ee",
+      "state": [
+        "I should shop",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_upgrade_power1_04.mp3.json",
+      "sha256": "47beaf907fd54bb89fc26a769b7ed5497ad15cfacb9c23bfe871196d72045486",
+      "state": [
+        "Weaponizing suit",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/viscous/viscous_use_ice_blast_02.mp3.json",
+      "sha256": "faff8985572c49d21b9425af14063537ce8c32936feeada8961cae9092644322",
+      "state": [
+        "Sending ice!",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_astro_dead.mp3.json",
+      "sha256": "1453f4feaf4edaa8f2374aa9b873523a71be5c7f3221f0d7c1fd751364e08cb4",
+      "state": [
+        "Holliday is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_astro_dead.mp3.json",
+      "sha256": "2448e803af699b54a51a54d36895265a98fc7e402162e67d1da647bf54a6fadb",
+      "state": [
+        "Holliday is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_astro_dead.mp3.json",
+      "sha256": "fb2b5cd13a327245774e87c2306b210903d17aa0304fd1128471f74f1092bead",
+      "state": [
+        "Holliday is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_careful_atlas_02.mp3.json",
+      "sha256": "436a09f770d32e1a0c60e4da892dcd6f61dc2fa4254a19e1fceb3583008159c2",
+      "state": [
+        "Careful, Abrams.",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_careful_wrecker_02.mp3.json",
+      "sha256": "127408cf1e1e75fd9d42d8327d9ec3345bb28579cb3ddad24dcf03de0c3f6132",
+      "state": [
+        "Careful, Wrecker",
+        "official",
+        null
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_chrono_almost_respawn.mp3.json",
+      "sha256": "70dd6b67fb0b6a1e11b94026d61e9ae8df6814961c4c0bf966e701c1c0fb7501",
+      "state": [
+        "Paradox is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_chrono_almost_respawn.mp3.json",
+      "sha256": "7bf8aa0f8f46f04cb4b60bae320e140401948e8555079a8d61b441c23f9d0dc3",
+      "state": [
+        "Paradox is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_chrono_almost_respawn.mp3.json",
+      "sha256": "b429baf95e63b8e5972b43573d0f4eaff9a3e7c32aa50cfd2dae87c36313220b",
+      "state": [
+        "Paradox is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_forge_in_mid.mp3.json",
+      "sha256": "07be17bb2e8b215d7295906b44979d591e2a9778873ff666f095ca6755dba6d0",
+      "state": [
+        "The Guinness is in mid.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_forge_in_mid.mp3.json",
+      "sha256": "49c16baf5b8b2db5b8611f84d5e9a904087ab73cd47fa4274c693ae387ab15ce",
+      "state": [
+        "The goodness is in mid.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_forge_in_mid.mp3.json",
+      "sha256": "9282f05c7a36510c56990f5a7b6f41bce3a9a430f1368f341d22bfc5b03e262b",
+      "state": [
+        "The goodness is in mid.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_hornet_dead.mp3.json",
+      "sha256": "3e3e4390004b3b68a0e006a074a691df3eec476f9053a4d1443c459a2daf415b",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_hornet_dead.mp3.json",
+      "sha256": "48e2f86392f49e9d2b312be91cad06486a941b79aeb7396a95493d16a2491abd",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_hornet_dead.mp3.json",
+      "sha256": "89f6dfe5a0d734e3578303eadd825321e3e09b6037bf89d28a38dd9b75ce5766",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_lash_dead.mp3.json",
+      "sha256": "102911fd841408e5b498ff44b5b767a0924651fa33b5a3a163f4e19f1ba9be62",
+      "state": [
+        "Lash is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_lash_dead.mp3.json",
+      "sha256": "38330f764c1b17fbc303b0d0fbdf9b00fd808367db8d1c2c648c5b16de1ada03",
+      "state": [
+        "Lash is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_lash_dead.mp3.json",
+      "sha256": "40459925f51f575a841abf79c51550c505901550ae6dc31181efa0c1d02b038e",
+      "state": [
+        "Lash is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_see_cadence_on_bridge.mp3.json",
+      "sha256": "57364142c378e34d0bc6b6b130fc0007c09192e89f46d33fb7ef012e4ad6c914",
+      "state": [
+        "Cadence is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_see_cadence_on_bridge.mp3.json",
+      "sha256": "6cc082db77245b5547e6e0a798a053841762ffed497a0ece10efec3a0e9f1a43",
+      "state": [
+        "Cadence is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_see_cadence_on_bridge.mp3.json",
+      "sha256": "6f91b3e32af531557a5275108c2b188e3b0f96a80f6563a20656818003f490cd",
+      "state": [
+        "Cadence is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_see_cadence_on_bridge.mp3.json",
+      "sha256": "d624b4e77473e19062c2375e48a6f35da4f72b5245c38c0c87401226e5c055c6",
+      "state": [
+        "Cadence is on the bridge.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "sha256": "c69545d5ac5fd241c38326ffc4b6db6cd5d0c29649358d0063bc7e66b6d4a08f",
+      "state": [
+        "Stun Haze!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "sha256": "e039070cbb74ab878ced88ab589ccdcfc4ad3a50f37b4220840dd13c9ec5ff64",
+      "state": [
+        "Stun Haze!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "sha256": "e6afb76f8122e092f8b9d79a445fefbd46d015d229b8c094dbc055802edd5360",
+      "state": [
+        "Stun Haze!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "sha256": "e9ef5fe49f1587c3e9d496c17aa820890e948440424a5139e74af9a05e385453",
+      "state": [
+        "Stun Haze!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_kelvin_01.mp3.json",
+      "sha256": "a22d180fb52d580e2527c02a286d38344754257ea4e71026cefdc5e511a5f806",
+      "state": [
+        "Stun Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_kelvin_01.mp3.json",
+      "sha256": "ae2e6567682e03cf81035014f3e7809ad1c0db4eab42e98886aa7ad844569f11",
+      "state": [
+        "Stun Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_kelvin_01.mp3.json",
+      "sha256": "d0ca94bc1031a04c64fa4a11115f1fbaa58aa544414ab57468e19421653d3dd7",
+      "state": [
+        "Stun Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_stun_kelvin_01.mp3.json",
+      "sha256": "da00dd27f4a80cbf020266e2447ef74a81618acf4480a3b43c667dd161d5f3d8",
+      "state": [
+        "Stun Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_krill.mp3.json",
+      "sha256": "26e2bd2f1aa8ee4e15a6cafaae0c027449bfc02222c31c5212da3599929b8f28",
+      "state": [
+        "I'm with you, Krill.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_krill.mp3.json",
+      "sha256": "5ab95dcf775c08c5a4b1a587de5eb0b4bc50ea51cc70dc4ec3d673f9fa326f8c",
+      "state": [
+        "I'm with you, Krill.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_krill.mp3.json",
+      "sha256": "bd791f732910ed890a87b49e4635f8628bb9fe905425b41e72b1b5358e6674bf",
+      "state": [
+        "I'm with you, Krill.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_krill.mp3.json",
+      "sha256": "f97a5e875ca1f98501da2fdefcb8cadf03c6fefa9604468b8778af9fd1698d5f",
+      "state": [
+        "I'm with you, Krill.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_viscous.mp3.json",
+      "sha256": "415881d6c8c8f9591e220b76acd93438e800efbd42f44220fac83ccb8797d7e7",
+      "state": [
+        "I'm with you, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_viscous.mp3.json",
+      "sha256": "7a2fbee8b32d6422301b2f50634af180acc95991bad6b702b7bd6f389eb83e8b",
+      "state": [
+        "I'm with you, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_viscous.mp3.json",
+      "sha256": "b6fa4e17dc4e9b3973cd9c6667b875fc6bcdad98b803d19d2cded7f5ba8446ea",
+      "state": [
+        "I'm with you, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_with_viscous.mp3.json",
+      "sha256": "eca53e478addc51496a7673eca2cfe30d3925ec38fe483d1e7bb9f26b9991ff5",
+      "state": [
+        "I'm with you, Viscous.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_yamato_almost_respawn.mp3.json",
+      "sha256": "59b79ca10eaf8c27924159f563a2a96682f8ee2eeabf7d931d786969e51c4da3",
+      "state": [
+        "Yamato is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_yamato_almost_respawn.mp3.json",
+      "sha256": "8c9adab9bf7aab4f6fd1f59a704c6d1d617c1232520ac2e9b45198b0fd17d3b5",
+      "state": [
+        "Yamato is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wraith/ping/wraith_ping_yamato_almost_respawn.mp3.json",
+      "sha256": "8dcb5a998762c4065b54bcda5064e1f7d3e2616618546497b15a0b736558e9b1",
+      "state": [
+        "Yamato is almost back.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wrecker/ping/wrecker_ping_holliday_was_here.mp3.json",
+      "sha256": "6ddd40f0a370b2db0d857dcc22831fec72694037a650e30ea7e5291637fa1f85",
+      "state": [
+        "Holliday was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/wrecker/ping/wrecker_ping_holliday_was_here.mp3.json",
+      "sha256": "97a5d9138014d5e6ffbcf873b26b57dbc7b982149e3e4eedf6b4279c1d7b9ec9",
+      "state": [
+        "Holliday was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_hornet_dead.mp3.json",
+      "sha256": "02aa7bc71495945d0d43347f8934c21d74ad54d9ef7259cfef2a012f37b8c045",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_hornet_dead.mp3.json",
+      "sha256": "cb207b9fb07ab173381ab6dd34a9bde3164416dca889851b25a4b72445e1da2e",
+      "state": [
+        "Vindicta is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_forge.mp3.json",
+      "sha256": "2bf65961c2ca63bd60023bb49c34f3cf19abdd37b6b6c003ff88c75acd7bdb34",
+      "state": [
+        "Ignore McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_forge.mp3.json",
+      "sha256": "ab2addcfef354de48403c41b0ed40d45b209123dc35ee956bab41526ea0ecc87",
+      "state": [
+        "Ignore McGinnis.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_kelvin.mp3.json",
+      "sha256": "1013038f4be91cf01b9bde6f349515670f530676d53be5ba3112d272379a4514",
+      "state": [
+        "Ignore Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_kelvin.mp3.json",
+      "sha256": "82692438d0f80fc531da017e30db91053d52d39bb53600164bb99c83062eb159",
+      "state": [
+        "Ignore Kelvin.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_nano.mp3.json",
+      "sha256": "5819970d0e08746f4eaef799edf9158b10ca6ebe234e37e70c3081743aef746f",
+      "state": [
+        "Ignore Calico.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_nano.mp3.json",
+      "sha256": "d47746336ddeff0abd759961a0f30bcfa380f1f6183dc572907dc49fa967b83e",
+      "state": [
+        "Ignore Calico.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_orion.mp3.json",
+      "sha256": "6672ac7ea12d2fee87464ce614c1c563b36da580dcf3ec9e87e30b7e18f88701",
+      "state": [
+        "Ignore Grey Talon.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_ignore_orion.mp3.json",
+      "sha256": "e3a5ec493f2a24b4863814bf9d593444c26b03ae70c3db58999a6ab76e27125b",
+      "state": [
+        "Ignore Grey Talon.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_kelvin_dead.mp3.json",
+      "sha256": "0f275007af87bfb7f4f3ac902193637f8f779cb94ec15b287c1e4f937d0d52c7",
+      "state": [
+        "Kelvin is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_kelvin_dead.mp3.json",
+      "sha256": "babec3145b1c8c20ef71326cfdafcf037af5ff055033b9b9ed16a70337db1cc3",
+      "state": [
+        "Kelvin is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_mirage_was_here.mp3.json",
+      "sha256": "2d5ac58f0eaa47f8d51a28b3869030f9217c23fe3bb90d9214281a7891090eec",
+      "state": [
+        "Mirage was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_mirage_was_here.mp3.json",
+      "sha256": "5b0d321808a76e131e27956ee1668522a2a5a7e4f58a001cf3c4570c9b3fbf60",
+      "state": [
+        "Mirage was here.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_nano_dead.mp3.json",
+      "sha256": "2cc2020d815a0df8e54637abf56e4aa4336068baa3788137601b5e7ce181660c",
+      "state": [
+        "Calico is dead!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_nano_dead.mp3.json",
+      "sha256": "804a30d3c3e878049d0cd9009be4bbad1eeffa41fde0357deab31ae02342d935",
+      "state": [
+        "Calico is dead!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_saw_inferno.mp3.json",
+      "sha256": "ae5d5b0b059c95ce302021f0506d84796ba5c3004b4f6a6abca8dd7addb2233d",
+      "state": [
+        "I saw Infernus!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_saw_inferno.mp3.json",
+      "sha256": "c68436c79cde1cd5d76ffb9079b5b4afb084a5cd309e8913ff37652c9fa34a16",
+      "state": [
+        "I saw Infernus!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_saw_inferno.mp3.json",
+      "sha256": "ceaf7b1313aaab1f16201117288e89a2db5bebb806dcc4bad4b413dd6e870e40",
+      "state": [
+        "I saw Infernus!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_haze.mp3.json",
+      "sha256": "0b628315f98d733a94c4b96415c2f9b4313fc524fe1a8dd7ae4400ccbce4f88f",
+      "state": [
+        "I'm with you, Haze!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_haze.mp3.json",
+      "sha256": "16014966f39caee85b4a47a3b4c0ec5489ab0f58965e880aa562e4f07525769b",
+      "state": [
+        "I'm with you, Haze!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_haze.mp3.json",
+      "sha256": "9c7e93f5b5ab1e36bd9d243f260bc5d27467c1ec0036ae01c8737a000bbefe40",
+      "state": [
+        "I'm with you, Haze!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_viscous.mp3.json",
+      "sha256": "81902c0df0adccbc8c8ed9dfab82da6fddd91e6abeb5b3f3284b4189bc21e965",
+      "state": [
+        "I'm with you, Viscous!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_viscous.mp3.json",
+      "sha256": "94d4bd46962120b4da062338e05498231b86ee10e245905ed3c61477c5b98871",
+      "state": [
+        "I'm with you, Viscous!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_viscous.mp3.json",
+      "sha256": "bea669a78a7b10cc8db3bf90c9471bef06f669a465ffd9892439b43d14a8cb23",
+      "state": [
+        "I'm with you, Viscous!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_wrecker.mp3.json",
+      "sha256": "6d12ccaeab7f57c10418eb87e0401c4cc264ea12aa70854c4ee068cbef808c52",
+      "state": [
+        "I'm with you, Wrecker!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_wrecker.mp3.json",
+      "sha256": "e2f438762733c1b12be4b0ccefc71e3b138538bd2a3bb8bfac6a873288bca8f1",
+      "state": [
+        "I'm with you, Wrecker!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_with_wrecker.mp3.json",
+      "sha256": "e67da46ab172a9648ce0388ff873d6f55de92f479143139d4299bc1778112020",
+      "state": [
+        "I'm with you, Wrecker!",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_wraith_dead.mp3.json",
+      "sha256": "834effa06caf4759be1d1277abee437066a119c22ef0672fc569fcdb440c373b",
+      "state": [
+        "Wraith is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    },
+    {
+      "path": "transcripts/yamato/ping/yamato_ping_wraith_dead.mp3.json",
+      "sha256": "d99add48e393b3c8993a4db6c5ea800a2352d860fcc9bf5bfa7dcaf57c0009f0",
+      "state": [
+        "Wraith is dead.",
+        "generated",
+        "gpt-4o-mini-transcribe"
+      ]
+    }
+  ],
+  "propagatedPaths": [
+    "transcripts/astro/holliday_ally_abrams_killed_in_lane_01.mp3.json",
+    "transcripts/atlas/ping/abrams_ping_jar_call_01_1.mp3.json",
+    "transcripts/atlas/ping/abrams_ping_saw_grey_talon.mp3.json",
+    "transcripts/atlas/ping/abrams_ping_saw_grey_talon_1.mp3.json",
+    "transcripts/atlas/ping/abrams_ping_saw_orion_1.mp3.json",
+    "transcripts/chrono/ping/paradox_ping_see_abrams_01.mp3.json",
+    "transcripts/hornet/ping/vindicta_ping_holliday_on_top_of_mid.mp3.json",
+    "transcripts/kelvin/ping/kelvin_ping_paradox_on_top_of_mid.mp3.json",
+    "transcripts/kelvin/ping/kelvin_ping_saw_mcginnis.mp3.json",
+    "transcripts/kelvin/ping/kelvin_ping_stun_holliday_01.mp3.json",
+    "transcripts/kelvin/ping/kelvin_ping_stun_pocket_01.mp3.json",
+    "transcripts/lash/ping/lash_ping_stun_infernus_01.mp3.json",
+    "transcripts/lash/ping/lash_ping_stun_vindicta_01.mp3.json",
+    "transcripts/orion/ping/orion_ping_mcginnis_in_mid.mp3.json",
+    "transcripts/orion/ping/orion_ping_see_holliday.mp3.json",
+    "transcripts/orion/ping/orion_ping_see_mcginnis_on_roof.mp3.json",
+    "transcripts/pocket/ping/pocket_ping_mirage_dead.mp3.json",
+    "transcripts/pocket/ping/pocket_ping_saw_inferno.mp3.json",
+    "transcripts/pocket/ping/pocket_ping_saw_infernus.mp3.json",
+    "transcripts/pocket/ping/pocket_ping_see_chrono_on_roof.mp3.json",
+    "transcripts/pocket/ping/pocket_ping_see_paradox_on_roof.mp3.json",
+    "transcripts/pocket/ping/pocket_ping_stun_viscous_01.mp3.json",
+    "transcripts/pocket/ping/pocket_ping_with_viscous.mp3.json",
+    "transcripts/synth/ping/pocket_ping_careful_viscous_02.mp3.json",
+    "transcripts/synth/ping/pocket_ping_gank.mp3.json",
+    "transcripts/synth/ping/pocket_ping_rejuv_drop.mp3.json",
+    "transcripts/synth/ping/pocket_ping_saw_infernus.mp3.json",
+    "transcripts/synth/ping/pocket_ping_see_paradox_on_roof.mp3.json",
+    "transcripts/synth/ping/pocket_ping_shiv_dead.mp3.json",
+    "transcripts/wraith/ping/wraith_ping_mcginnis_in_mid.mp3.json",
+    "transcripts/yamato/ping/yamato_ping_saw_infernus.mp3.json"
+  ],
+  "mergedGroups": [
+    {
+      "path": "transcripts/kelvin/ping/kelvin_ping_paradox_on_top_of_mid.mp3.json",
+      "groupKey": [
+        "text",
+        "paradoxsontopofmid"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "Paradox's on top of mid!",
+      "source": "official"
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_mirage_dead.mp3.json",
+      "groupKey": [
+        "text",
+        "mirageisdead"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "Mirage is dead.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_saw_inferno.mp3.json",
+      "groupKey": [
+        "text",
+        "isawinfurnace"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "I sawin furnace.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_saw_infernus.mp3.json",
+      "groupKey": [
+        "text",
+        "isawinfurnace"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "I sawin furnace.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_see_chrono_on_roof.mp3.json",
+      "groupKey": [
+        "text",
+        "paradoxisontheroof"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "Paradox is on the roof.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_see_paradox_on_roof.mp3.json",
+      "groupKey": [
+        "text",
+        "paradoxisontheroof"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "Paradox is on the roof.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_stun_viscous_01.mp3.json",
+      "groupKey": [
+        "text",
+        "stunviscous"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "Stun Viscous.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/pocket/ping/pocket_ping_with_viscous.mp3.json",
+      "groupKey": [
+        "text",
+        "imwithyouviscous"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "I'm with you, Viscous.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_saw_infernus.mp3.json",
+      "groupKey": [
+        "text",
+        "isawinfurnace"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "I sawin furnace.",
+      "source": "manual"
+    },
+    {
+      "path": "transcripts/synth/ping/pocket_ping_see_paradox_on_roof.mp3.json",
+      "groupKey": [
+        "text",
+        "paradoxisontheroof"
+      ],
+      "memberIndices": [
+        0,
+        1
+      ],
+      "survivorIndex": 0,
+      "sha256Count": 2,
+      "text": "Paradox is on the roof.",
+      "source": "manual"
+    }
+  ]
+}
