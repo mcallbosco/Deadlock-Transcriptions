@@ -1,0 +1,5244 @@
+{
+  "suggestionRows": 338,
+  "correctionRows": 296,
+  "skippedRows": 42,
+  "correctionsByPriority": {
+    "High": 251,
+    "Medium": 45
+  },
+  "skippedByReason": {
+    "no unambiguous full-line or same-file sibling correction was found": 33,
+    "current revision already contains the explicit audit target": 3,
+    "audit evidence does not match the current revision text": 6
+  },
+  "changedFiles": 250,
+  "mergedGroups": 186,
+  "merged": [
+    {
+      "transcriptPath": "transcripts/atlas/abrams_upgrade_power2_03.mp3.json",
+      "key": "thisbookisdangerousicantletitfallintothewronghands",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "This book is dangerous. I can't let it fall into the wrong hands.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_attack_kelvin.mp3.json",
+      "key": "letstakeoutkelvin",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Let's take out Kelvin.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_saw_orion.mp3.json",
+      "key": "isawgreytalon",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I saw Grey Talon.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_buy_armor_upgrade_14.mp3.json",
+      "key": "combatiswhatforgesusandiwillnotshyfromit",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Combat is what forges us, and I will not shy from it.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_bebop.mp3.json",
+      "key": "letstakeoutbebop",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Let's take out Bebop.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_yamato.mp3.json",
+      "key": "letstakeoutyamato",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Let's take out Yamato.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_atlas_big_stun_03.mp3.json",
+      "key": "theblueguystunnedthem",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "The blue guy stunned them!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_forge_clutch_heal_03.mp3.json",
+      "key": "appreciatethehelpmcginnis",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Appreciate the help, McGinnis.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_hornet_killed_in_lane_01.mp3.json",
+      "key": "didyougetvindicta",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Did you get Vindicta?",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_astro_killed_in_lane_01.mp3.json",
+      "key": "theytookoutholliday",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Holliday!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_graf_killed_in_lane_01.mp3.json",
+      "key": "theytookoutgraf",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "They took out Graf.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_punkgoat_killed_in_lane_01.mp3.json",
+      "key": "theytookoutbilly",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Billy!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_slork_killed_in_lane_01.mp3.json",
+      "key": "theytookoutfathom",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Fathom!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_synth_killed_in_lane_01.mp3.json",
+      "key": "theytookoutpocket",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Pocket!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_vampirebat_killed_in_lane_01.mp3.json",
+      "key": "theytookoutmina",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Mina!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/frank/ping/frank_ping_atlas_dead.mp3.json",
+      "key": "abramsisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Abrams is dead.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_attack_inferno.mp3.json",
+      "key": "letstakeoutinfernus",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        3
+      ],
+      "source": "official",
+      "text": "Let's take out Infernus",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_ghost_almost_respawn.mp3.json",
+      "key": "geistisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Geist is almost back!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_ignore_inferno.mp3.json",
+      "key": "ignoreinfernus",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Ignore Infernus!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_kelvin_was_here.mp3.json",
+      "key": "kelvinwashere",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Kelvin was here.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_orion_almost_respawn.mp3.json",
+      "key": "greytalonisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Grey Talon is almost back!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_saw_kelvin.mp3.json",
+      "key": "isawkelvin",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "I saw Kelvin!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_ally_atlas_unkillable_03.mp3.json",
+      "key": "abramsisrelentless",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Abrams is relentless.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_kill_calico_03.mp3.json",
+      "key": "calicocouldonlyevademeforsolong",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Calico could only evade me for so long",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_ignore_kelvin.mp3.json",
+      "key": "ignorekelvin",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Ignore Kelvin.",
+      "hashCount": 5
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_saw_viscous.mp3.json",
+      "key": "isawviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I saw Viscous.",
+      "hashCount": 5
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "key": "shivisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Shiv is dead.",
+      "hashCount": 5
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_synth_almost_respawn.mp3.json",
+      "key": "pocketisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Pocket is almost back.",
+      "hashCount": 5
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "key": "wreckerwashere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Wrecker was here!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_yamato_was_here.mp3.json",
+      "key": "yamatoishere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Yamato is here.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_astro_on_top_of_mid.mp3.json",
+      "key": "hollidaysontopofmid",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Holliday's on top of mid.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_calico_missing_01.mp3.json",
+      "key": "calicosmissing",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Calico's missing.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_dynamo_missing_01.mp3.json",
+      "key": "dynamosmissing",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Dynamo's missing.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_paradox_missing_01.mp3.json",
+      "key": "paradoxismissing",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Paradox is missing.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "key": "lashisonthebridge",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Lash is on the bridge.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_stun_calico_01.mp3.json",
+      "key": "stuncalico",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Stun Calico.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_ally_shiv_killed_in_lane_01.mp3.json",
+      "key": "theytookoutshiv",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2,
+        3
+      ],
+      "source": "official",
+      "text": "They took out Shiv!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_ally_viscous_killed_in_lane_01.mp3.json",
+      "key": "theytookoutviscous",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "official",
+      "text": "They took out Viscous!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_haze_almost_respawn.mp3.json",
+      "key": "hazeisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Haze is almost back.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_ignore_shiv.mp3.json",
+      "key": "ignoreshiv",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Ignore Shiv!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_saw_lash.mp3.json",
+      "key": "isawlash",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "I saw lash.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_stun_shiv_01.mp3.json",
+      "key": "stunshiv",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Stun Shiv.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_with_kali.mp3.json",
+      "key": "imwithyoukali",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Kali.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/kelvin_enemy_haze_kill_when_invisible_02.mp3.json",
+      "key": "youcantescapemehaze",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "You can't escape me Haze",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_chrono_on_top_of_mid.mp3.json",
+      "key": "paradoxsontopofmid",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Paradox's on top of mid!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_saw_forge.mp3.json",
+      "key": "isawmcginnis",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I saw McGinnis!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_stun_astro_01.mp3.json",
+      "key": "stunholliday",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stun Holliday!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_stun_synth_01.mp3.json",
+      "key": "stunpocket",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stun Pocket!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_with_wraith.mp3.json",
+      "key": "imwithyouwraith",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Wraith.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_enemy_shiv_unkillable_01.mp3.json",
+      "key": "helpuswithshiv",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Help us with Shiv!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_killed_by_hornet_03.mp3.json",
+      "key": "hornetcantflyaroundandhideforever",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Hornet can't fly around and hide forever.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_killed_by_wraith_05.mp3.json",
+      "key": "thisisntoverwraith",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "This isn't over, Wraith.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_use_area_immobilize_01.mp3.json",
+      "key": "paralysis",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Paralysis!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_use_surging_power_01.mp3.json",
+      "key": "surgingpower",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Surging power!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/lash/lash_interrupt_warden_01.mp3.json",
+      "key": "stoppingwarden",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stopping Warden.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_bebop_almost_respawn.mp3.json",
+      "key": "bebopisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Bebop is almost back!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_forge_dead.mp3.json",
+      "key": "mcginnisisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "McGinnis is dead.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_haze_almost_respawn.mp3.json",
+      "key": "hazeisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Haze is almost back!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_stun_hornet_01.mp3.json",
+      "key": "stunvindicta",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stun Vindicta.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_stun_inferno_01.mp3.json",
+      "key": "stuninfernus",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stun Infernus.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_viscous_was_here.mp3.json",
+      "key": "yeahviscouswashere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Yeah, Viscous was here.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_wraith_check_items.mp3.json",
+      "key": "nowcheckoutwhatwraithbought",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Now, check out what Wraith bought.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_see_astro.mp3.json",
+      "key": "iseeholliday",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "I see Holliday",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_stun_nano_01.mp3.json",
+      "key": "stuncalico",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Stun Calico!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_synth_almost_respawn.mp3.json",
+      "key": "pocketisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Pocket is almost back.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_tengu_dead.mp3.json",
+      "key": "ivysdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Ivy's dead.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_with_warden.mp3.json",
+      "key": "imwithyouwarden",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Warden.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_with_wraith.mp3.json",
+      "key": "imwithyouwraith",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "I'm with you, Wraith.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_yamato_was_here.mp3.json",
+      "key": "yamatowashere",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Yamato was here.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_forge_in_mid.mp3.json",
+      "key": "mcginnissinmid",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "official",
+      "text": "McGinnis's in mid!",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_hornet_dead.mp3.json",
+      "key": "vindictaisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Vindicta is dead.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_ignore_hornet.mp3.json",
+      "key": "ignorevindicta",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Ignore Vindicta!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_kelvin_was_here.mp3.json",
+      "key": "kelvinwashere",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Kelvin was here.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_astro.mp3.json",
+      "key": "iseeholliday",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "official",
+      "text": "I see Holliday",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "key": "mcginnissontheroof",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        3
+      ],
+      "source": "official",
+      "text": "McGinnis's on the roof!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "key": "imgonnagetititsontheroof",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "I'm gonna get it! It's on the roof!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_yamato.mp3.json",
+      "key": "iseeyamato",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2,
+        3
+      ],
+      "source": "official",
+      "text": "I see Yamato",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "key": "stunkrill",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Stun Krill!",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "key": "stunviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Stun Viscous!",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_viscous_check_items.mp3.json",
+      "key": "checkoutwhatviscousbought",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Check out what Viscous bought.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_jar_call_01.mp3.json",
+      "key": "spiritjarishere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Spirit Jar is here!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_stun_lash_01.mp3.json",
+      "key": "stunlash",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stun Lash.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_with_haze.mp3.json",
+      "key": "imwithyouhaze",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Haze.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/pocket/pocket_idol_drop_01.mp3.json",
+      "key": "thespearheadarmorisalmostreadytobedelivered",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "The Spearhead armor is almost ready to be delivered.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shiv/ping/shiv_ping_attack_bebop.mp3.json",
+      "key": "letstakeoutbebop",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Let's take out Bebop",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shiv/ping/shiv_ping_attack_wraith.mp3.json",
+      "key": "letstakeoutwraith",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "official",
+      "text": "Let's take out Wraith",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shiv/ping/shiv_ping_wraith_missing_01.mp3.json",
+      "key": "wraithsmissing",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "Wraith's missing",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_ally_bebop_killed_in_lane_01.mp3.json",
+      "key": "theytookoutbebop",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "They took out Bebop",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_ally_dynamo_killed_in_lane_01.mp3.json",
+      "key": "theytookoutdynamo",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "They took out Dynamo",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_ally_wraith_killed_in_lane_01.mp3.json",
+      "key": "theytookoutwraith",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Wraith",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_close_call_03.mp3.json",
+      "key": "ifiwerealessermanidbedead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "If I were a lesser man, I'd be dead…",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_interrupt_01.mp3.json",
+      "key": "sorryfriend",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Sorry friend…",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_kill_bebop_05.mp3.json",
+      "key": "bebopsoutofcommissionforawhile",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "Bebop's out of commission for a while….",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_controls_jump.mp3.json",
+      "key": "pressspacetojump",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Press space to jump.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_controls_shoot.mp3.json",
+      "key": "pressmouse1toshootgundamagefallsoffatlongerranges",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Press mouse 1 to shoot. Gun damage falls off at longer ranges.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_power_mods.mp3.json",
+      "key": "spencesellstobuyice",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Spence sells to buy ice.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_the_map_core_2.mp3.json",
+      "key": "theresashrineatthebackofeachteamsbasedestroyingtheenemyshrinecompletestheritualandwinsthegame",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "There's a shrine at the back of each team's base. Destroying the enemy shrine completes the ritual and wins the game.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_the_map_walkers.mp3.json",
+      "key": "walkersliedeeperinthelanesandhaveanarsenalofdefensivemoves",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Walkers lie deeper in the lanes and have an arsenal of defensive moves.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_early_10.mp3.json",
+      "key": "allowmetopiqueyourcuriosity",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Allow me to pique your curiosity",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_glass_cannon_01.mp3.json",
+      "key": "highriskhighreward",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "official",
+      "text": "High risk, high reward…",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_gun_04.mp3.json",
+      "key": "thereyouareillthrowinafreekeychain",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "There you are, I'll throw in a free keychain.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_gun_12.mp3.json",
+      "key": "youwannabuyamugtogowithyourgun",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "You wanna buy a mug to go with your gun?",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_tech_14.mp3.json",
+      "key": "heresyourchancetoshapeyourdestiny",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Here's your chance to shape your destiny",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_call_out_09.mp3.json",
+      "key": "gunsgetyourgunsoverhere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Guns! Get your guns over here!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_close_shop_02.mp3.json",
+      "key": "thatsmycuetoleave",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "That's my cue to leave.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_03.mp3.json",
+      "key": "funfactaboutghostslikehumanstheydontlikegettingshot",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Fun fact about ghosts: Like humans, they don't like getting shot.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_04.mp3.json",
+      "key": "youeverseeagunshootenchantedbulletsbuddyitisasighttobehold",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "You ever see a gun shoot enchanted bullets? Buddy, it is a sight to behold!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_inferno_01.mp3.json",
+      "key": "ferncatchyouatjezebelslater",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "official",
+      "text": "Fern, catch you at Jezebel's later?",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_wraith_01.mp3.json",
+      "key": "bigfanofyouroperationwraith",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Big fan of your operation, Wraith.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_mirage_dead.mp3.json",
+      "key": "mirageisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Mirage is dead.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_saw_inferno.mp3.json",
+      "key": "isawinfurnace",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I sawin furnace.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_see_chrono_on_roof.mp3.json",
+      "key": "paradoxisontheroof",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Paradox is on the roof.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_stun_viscous_01.mp3.json",
+      "key": "stunviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stun Viscous.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_with_viscous.mp3.json",
+      "key": "imwithyouviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Viscous.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_ally_forge_clutch_heal_02.mp3.json",
+      "key": "ineededthatmcginnis",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I needed that McGinnis.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_ally_forge_pass_on_zipline_01.mp3.json",
+      "key": "thanksforthehelpmcginnis",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Thanks for the help, McGinnis.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/ivy_ping_chrono_was_here.mp3.json",
+      "key": "paradoxishere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Paradox is here!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_attack_inferno.mp3.json",
+      "key": "letstakeoutinfernus",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Let's take out Infernus.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_attack_viscous.mp3.json",
+      "key": "letstakeoutviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Let's take out Viscous.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_dynamo_missing_01.mp3.json",
+      "key": "dynamosmissing",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Dynamo's missing.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_see_slork_on_bridge.mp3.json",
+      "key": "fathomsonthebridge",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Fathom's on the bridge!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_doorman_killed_in_lane_01.mp3.json",
+      "key": "theytookoutthedoorman",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "They took out the Doorman!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_frank_killed_in_lane_01.mp3.json",
+      "key": "theytookoutvictor",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Victor!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_inferno_killed_in_lane_01.mp3.json",
+      "key": "theytookoutinfernus",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Infernus!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_magician_killed_in_lane_01.mp3.json",
+      "key": "theytookoutsinclair",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Sinclair!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_mirage_killed_in_lane_01.mp3.json",
+      "key": "theytookoutmirage",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Mirage!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_punkgoat_killed_in_lane_01.mp3.json",
+      "key": "theytookoutbilly",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Billy!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_viscous_killed_in_lane_01.mp3.json",
+      "key": "theytookoutviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They took out Viscous!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_ability2_not_ready.mp3.json",
+      "key": "cubesoncooldown",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Cube's on cooldown",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_careful_astro_01.mp3.json",
+      "key": "carefulholliday",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Careful, Holliday…",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_see_orion_on_bridge.mp3.json",
+      "key": "greytalonsonthebridge",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Grey Talon's on the bridge!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_see_yamato_on_roof.mp3.json",
+      "key": "yamatosontheroof",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Yamato's on the roof!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_angry_01.mp3.json",
+      "key": "thisisntfair",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "This isn't fair.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_happy_10.mp3.json",
+      "key": "splendid",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Splendid!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_see_enemy_metal_skin_02.mp3.json",
+      "key": "theyhavemetalskin",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "They have metal skin!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_select_02.mp3.json",
+      "key": "thishostwillservemewell",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "This host will serve me well.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_t1_shop_reminder_01.mp3.json",
+      "key": "ishouldshop",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "I should shop",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_upgrade_power1_04.mp3.json",
+      "key": "weaponizingsuit",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Weaponizing suit",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_use_ice_blast_02.mp3.json",
+      "key": "sendingice",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Sending ice!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_astro_dead.mp3.json",
+      "key": "hollidayisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Holliday is dead.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_careful_wrecker_02.mp3.json",
+      "key": "carefulwrecker",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "Careful, Wrecker",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_chrono_almost_respawn.mp3.json",
+      "key": "paradoxisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Paradox is almost back.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_lash_dead.mp3.json",
+      "key": "lashisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Lash is dead.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_see_cadence_on_bridge.mp3.json",
+      "key": "cadenceisonthebridge",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Cadence is on the bridge.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "key": "stunhaze",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "manual",
+      "text": "Stun Haze!",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_stun_kelvin_01.mp3.json",
+      "key": "stunkelvin",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stun Kelvin.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_with_krill.mp3.json",
+      "key": "imwithyoukrill",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "I'm with you, Krill.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_with_viscous.mp3.json",
+      "key": "imwithyouviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Viscous.",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_yamato_almost_respawn.mp3.json",
+      "key": "yamatoisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Yamato is almost back.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_hornet_dead.mp3.json",
+      "key": "vindictaisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Vindicta is dead.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_forge.mp3.json",
+      "key": "ignoremcginnis",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Ignore McGinnis.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_kelvin.mp3.json",
+      "key": "ignorekelvin",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Ignore Kelvin.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_nano.mp3.json",
+      "key": "ignorecalico",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Ignore Calico.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_orion.mp3.json",
+      "key": "ignoregreytalon",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Ignore Grey Talon.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_kelvin_dead.mp3.json",
+      "key": "kelvinisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Kelvin is dead.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_nano_dead.mp3.json",
+      "key": "calicoisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Calico is dead!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_saw_inferno.mp3.json",
+      "key": "isawinfernus",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "I saw Infernus!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_with_haze.mp3.json",
+      "key": "imwithyouhaze",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Haze!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_with_viscous.mp3.json",
+      "key": "imwithyouviscous",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Viscous!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_with_wrecker.mp3.json",
+      "key": "imwithyouwrecker",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Wrecker!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/atlas/abrams_enemy_wraith_lifts_01.mp3.json",
+      "key": "cutmedownwraith",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "cut me down, Wraith!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_jar_call_01.mp3.json",
+      "key": "spiriturnishere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Spirit urn is here.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/bebop/bebop_use_amp_grenade_03.mp3.json",
+      "key": "throwanantimagic",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Throw an anti-magic!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/chrono/ping/chrono_ping_with_wraith.mp3.json",
+      "key": "imwithyouwraith",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "I'm with you, Wraith.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/forge/mcginnis_kill_dynamo_03.mp3.json",
+      "key": "stoptheprofessor",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Stop the professor.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/ghost/geist_upgrade_power3_02.mp3.json",
+      "key": "painisthepriceofvictory",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Pain is the price of victory.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/gigawatt_ally_wraith_kill_in_lift_02.mp3.json",
+      "key": "welldonewraith",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Well done, Wraith!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_wraith_almost_respawn.mp3.json",
+      "key": "wraithisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Wraith is almost back!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_ally_forge_clutch_heal_03.mp3.json",
+      "key": "thanksmcginnis",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2,
+        3
+      ],
+      "source": "official",
+      "text": "Thanks McGinnis",
+      "hashCount": 4
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_kill_cadence_05.mp3.json",
+      "key": "thecadenceissuehasbeenresolved",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "The cadence issue has been resolved.",
+      "hashCount": 5
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_wraith_was_here.mp3.json",
+      "key": "thewraithwashere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "The Wraith was here.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_enemy_wraith_lifts_02.mp3.json",
+      "key": "wraithsgotme",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        3
+      ],
+      "source": "manual",
+      "text": "Wraith's got me!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_hornet_was_here.mp3.json",
+      "key": "vindictawashere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Vindicta was here!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/krill/ping/krill_ping_wraith_on_top_of_mid.mp3.json",
+      "key": "wraithsontopofmid",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Wraith's on top of mid!",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_wraith_almost_respawn.mp3.json",
+      "key": "wraithisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "manual",
+      "text": "Wraith is almost back!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/newscaster/newscaster_headline_34.mp3.json",
+      "key": "thegreycovenleavesaudiencesspellboundreadthenewyorkoraclesreviewofthelatestoffbroadwaysensation",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "The Grey Coven leaves audiences spellbound. Read the New York Oracle's review of the latest off-Broadway sensation.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/orion/orion_ally_mcginnis_killed_in_lane_01.mp3.json",
+      "key": "mcginniswastakenout",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "McGinnis was taken out!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/priest/ping/priest_ping_wraith_almost_respawn.mp3.json",
+      "key": "wraithisalmostback",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Wraith is almost back!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_enemy_dynamo_charges_02.mp3.json",
+      "key": "herecomesdynamo",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Here comes Dynamo!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/tengu_ping_careful_wrecker_03.mp3.json",
+      "key": "carefulwrecker",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "official",
+      "text": "Careful, Wrecker!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/viper/ping/viper_ping_wraith_on_top_of_mid.mp3.json",
+      "key": "wraithsontopofmid",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "Wraith's on top of mid!",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_careful_atlas_02.mp3.json",
+      "key": "carefulabrams",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        2
+      ],
+      "source": "official",
+      "text": "Careful, Abrams.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_hornet_dead.mp3.json",
+      "key": "vindictaisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Vindicta is dead.",
+      "hashCount": 3
+    },
+    {
+      "transcriptPath": "transcripts/wrecker/ping/wrecker_ping_holliday_was_here.mp3.json",
+      "key": "hollidaywashere",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Holliday was here.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_mirage_was_here.mp3.json",
+      "key": "miragewashere",
+      "firstIndex": 1,
+      "memberIndices": [
+        1,
+        2
+      ],
+      "source": "manual",
+      "text": "Mirage was here.",
+      "hashCount": 2
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_wraith_dead.mp3.json",
+      "key": "wraithisdead",
+      "firstIndex": 0,
+      "memberIndices": [
+        0,
+        1
+      ],
+      "source": "manual",
+      "text": "Wraith is dead.",
+      "hashCount": 2
+    }
+  ],
+  "corrections": [
+    {
+      "transcriptPath": "transcripts/astro/holliday_ally_atlas_big_stun_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Good work, Gabez!",
+      "correctedText": "Good work Abrams!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/astro/holliday_ally_atlas_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "That's a carry voice.",
+      "correctedText": "They took out Abrams.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/astro/holliday_ally_chrono_swap_to_boss_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Paradux swapped them.",
+      "correctedText": "Paradox swapped them.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/astro/holliday_ally_forge_clutch_heal_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Forget marriage.",
+      "correctedText": "I was getting worried.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/astro/holliday_ally_kelvin_clutch_heal_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Hiya, Calvin!",
+      "correctedText": "Owe ya, Kelvin!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/astro/holliday_ally_krill_grab_mid_enemy_ult_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Monk real got him!",
+      "correctedText": "Mo & Krill got 'em!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/abrams_upgrade_power2_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "This book is dangerous, but you have it fall into the wrong hands.",
+      "correctedText": "This book is dangerous. I can't let it fall into the wrong hands.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/abrams_use_tech_purge_02.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Nothinglander me.",
+      "correctedText": "Nothing will hinder me.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_attack_kelvin.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Let's take up Calvin.",
+      "correctedText": "Let's take out Kelvin.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_saw_orion.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I saw Graytalon.",
+      "correctedText": "I saw Grey Talon.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/boho/ping/boho_ping_careful_gigawatt_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Capital Seven.",
+      "correctedText": "Careful, Seven.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/boho/ping/boho_ping_headed_yellow_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Headed to York!",
+      "correctedText": "Headed to Yellow.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/boho/ping/boho_ping_jar_call_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "SOLDIER is here!",
+      "correctedText": "Soul Jar is here!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/boho/ping/boho_ping_saw_slork.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Piss off, Adam.",
+      "correctedText": "I saw Fathom!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/boho/ping/boho_ping_saw_synth.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I sold Pocket!",
+      "correctedText": "I saw Pocket!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/boho/ping/boho_ping_saw_viper.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Passo Vyper.",
+      "correctedText": "I saw Vyper!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_buy_armor_upgrade_14.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Content is my torchesus, and I will not shy from it.",
+      "correctedText": "Combat is what forges us, and I will not shy from it.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_buy_armor_upgrade_14.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Compath is what borders us, and I will not shy from it.",
+      "correctedText": "Combat is what forges us, and I will not shy from it.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_bebop.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Let's make out, Biba.",
+      "correctedText": "Let's take out Bebop.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_bebop.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Let's make out, Bieber.",
+      "correctedText": "Let's take out Bebop.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_kelvin.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Listen here, Calvin!",
+      "correctedText": "Let's take out Kelvin.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_yamato.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Let's take out your model.",
+      "correctedText": "Let's take out Yamato.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_yamato.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Let's take out your motto.",
+      "correctedText": "Let's take out Yamato.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_attack_yamato.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Let's take out your mother.",
+      "correctedText": "Let's take out Yamato.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/chrono/paradox_select_04.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I don't think, yet.",
+      "correctedText": "Time travel isn't a thing... yet.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/chrono/paradox_use_power4_06.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'll castle.",
+      "correctedText": "I'll catch 'em",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_astro_lasso_victim_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Kill Holliday!",
+      "correctedText": "Help Holliday!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_atlas_big_stun_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The book I stand on!",
+      "correctedText": "The blue guy stunned them!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_atlas_big_stun_03.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "The bug has found them!",
+      "correctedText": "The blue guy stunned them!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_forge_clutch_heal_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Appreciate the help, Agnes.",
+      "correctedText": "Appreciate the help, McGinnis.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/dynamo/prof_ally_hornet_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Did you got Vindicta?",
+      "correctedText": "Did you get Vindicta?",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/fencer/fencer_match_start_fencer_viscous_convo01_04.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "That's, um, that that wasn't an invitation.",
+      "correctedText": "That's, um, that wasn't an invitation.",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_astro_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They took our money.",
+      "correctedText": "They took out Holliday!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_graf_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Did you kill Graf?",
+      "correctedText": "They took out Graf.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_punkgoat_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They took out the anarchist.",
+      "correctedText": "They took out Billy!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_slork_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "This we can't fathom.",
+      "correctedText": "They took out Fathom!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_synth_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Take a pocket.",
+      "correctedText": "They took out Pocket!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_vampirebat_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They took out the vampire.",
+      "correctedText": "They took out Mina!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/frank/ping/frank_ping_atlas_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Averis is dead.",
+      "correctedText": "Abrams is dead.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_attack_inferno.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I take out Inferno!",
+      "correctedText": "Let's take out Infernus",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_ghost_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The heist is almost back.",
+      "correctedText": "Geist is almost back!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_ignore_inferno.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignore infants.",
+      "correctedText": "Ignore Infernus!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_kelvin_was_here.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Calvin was here.",
+      "correctedText": "Kelvin was here.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_orion_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "My talent is almost back.",
+      "correctedText": "Grey Talon is almost back!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_saw_kelvin.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "I saw Calvin.",
+      "correctedText": "I saw Kelvin!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_ally_atlas_unkillable_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Aprams is relentless.",
+      "correctedText": "Abrams is relentless.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_kill_calico_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Talico, goodon, you hate me for so long.",
+      "correctedText": "Calico could only evade me for so long",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_ignore_kelvin.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignore Calvin.",
+      "correctedText": "Ignore Kelvin.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_saw_viscous.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I saw biscuits.",
+      "correctedText": "I saw Viscous.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Shit is dead.",
+      "correctedText": "Shiv is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Ship is dead.",
+      "correctedText": "Shiv is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_shiv_dead.mp3.json",
+      "revisionIndex": 3,
+      "priority": "High",
+      "currentText": "The ship is dead.",
+      "correctedText": "Shiv is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_synth_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Packet is almost back.",
+      "correctedText": "Pocket is almost back.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Grecker was here.",
+      "correctedText": "Wrecker was here!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_wrecker_was_here.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Tracker was here.",
+      "correctedText": "Grecker was here.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_yamato_was_here.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Gammato is here.",
+      "correctedText": "Yamato is here.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_astro_on_top_of_mid.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Holiday's onslaught.",
+      "correctedText": "Holliday's on top of mid.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_calico_missing_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Calica's missing.",
+      "correctedText": "Calico's missing.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_dynamo_missing_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Dynamite.",
+      "correctedText": "Dynamo's missing.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_paradox_missing_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Caradoc is missing.",
+      "correctedText": "Paradox is missing.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_paradox_missing_01.mp3.json",
+      "revisionIndex": 3,
+      "priority": "High",
+      "currentText": "Paradigm is missing.",
+      "correctedText": "Paradox is missing.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Last breath.",
+      "correctedText": "Lash is on the bridge.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Last on the bridge!",
+      "correctedText": "Lash is on the bridge.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_see_lash_on_bridge.mp3.json",
+      "revisionIndex": 3,
+      "priority": "High",
+      "currentText": "Last on the breach!",
+      "correctedText": "Lash is on the bridge.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_stun_calico_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stun Caligo!",
+      "correctedText": "Stun Calico.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_stun_calico_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Sun Calico.",
+      "correctedText": "Stun Calico.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_stun_calico_01.mp3.json",
+      "revisionIndex": 3,
+      "priority": "High",
+      "currentText": "San Caligo.",
+      "correctedText": "Stun Calico.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_ally_kelvin_clutch_heal_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "That's a void job job.",
+      "correctedText": "That's a void job.",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_ally_shiv_killed_in_lane_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "They took a shit.",
+      "correctedText": "They took out Shiv!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_ally_shiv_killed_in_lane_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "You took a shit.",
+      "correctedText": "They took out Shiv!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_ally_viscous_killed_in_lane_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "They talk out biscuits.",
+      "correctedText": "They took out Viscous!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_desperation_power1_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Escape route route.",
+      "correctedText": "Escape route.",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_t1_shop_reminder_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "You might want to fix the money money.",
+      "correctedText": "You might want to fix the money.",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_haze_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Phase is almost back.",
+      "correctedText": "Haze is almost back.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_ignore_shiv.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignore ship!",
+      "correctedText": "Ignore Shiv!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_saw_lash.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "I saw last.",
+      "correctedText": "I saw lash.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_stun_shiv_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Stop shift.",
+      "correctedText": "Stun Shiv.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_stun_shiv_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stun ship.",
+      "correctedText": "Stun Shiv.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_with_kali.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm with you, Cali.",
+      "correctedText": "I'm with you, Kali.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/kelvin_enemy_haze_kill_when_invisible_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Don't confiscate me, Hayes.",
+      "correctedText": "You can't escape me Haze",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_chrono_on_top_of_mid.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Caradoc is on top of mid!",
+      "correctedText": "Paradox's on top of mid!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_saw_forge.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I summon Guinness!",
+      "correctedText": "I saw McGinnis!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_stun_astro_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Sun holiday!",
+      "correctedText": "Stun Holliday!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_stun_synth_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Sound bucket.",
+      "correctedText": "Stun Pocket!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/ping/kelvin_ping_with_wraith.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm with you, Ruth.",
+      "correctedText": "I'm with you, Wraith.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_enemy_shiv_unkillable_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Topaz with ship!",
+      "correctedText": "Help us with Shiv!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_killed_by_hornet_03.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Torrent can't fly around and hide forever.",
+      "correctedText": "Hornet can't fly around and hide forever.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_killed_by_wraith_05.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "This isn't over, Rafe.",
+      "correctedText": "This isn't over, Wraith.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_use_area_immobilize_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Toralysis!",
+      "correctedText": "Paralysis!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_use_surging_power_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Searching power!",
+      "correctedText": "Surging power!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/lash_interrupt_warden_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Stopping Warren.",
+      "correctedText": "Stopping Warden.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_bebop_almost_respawn.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "D-Bop is almost back!",
+      "correctedText": "Bebop is almost back!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_forge_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Maginnis is dead.",
+      "correctedText": "McGinnis is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_haze_almost_respawn.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Hayes is almost back!",
+      "correctedText": "Haze is almost back!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_stun_hornet_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stun Vendicta.",
+      "correctedText": "Stun Vindicta.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_stun_inferno_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stun Infernis.",
+      "correctedText": "Stun Infernus.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_viscous_was_here.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Yeah, Viskus was here.",
+      "correctedText": "Yeah, Viscous was here.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_wraith_check_items.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Check out what Rainspot.",
+      "correctedText": "Now, check out what Wraith bought.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_forge_under_garage.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "McGinnis, on the the grosh!",
+      "correctedText": "McGinnis, on the grosh!",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_see_astro.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Nicey Holiday!",
+      "correctedText": "I see Holliday",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_stun_nano_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Strong Galico!",
+      "correctedText": "Stun Calico!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_synth_almost_respawn.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Cocket is almost back.",
+      "correctedText": "Pocket is almost back.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_tengu_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I've eased it.",
+      "correctedText": "Ivy's dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_tengu_dead.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Five is dead.",
+      "correctedText": "Ivy's dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_with_warden.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm with you, Orden.",
+      "correctedText": "I'm with you, Warden.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_with_wraith.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I'm with you, Rith.",
+      "correctedText": "I'm with you, Wraith.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_with_wraith.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "I'm with you, Reed.",
+      "correctedText": "I'm with you, Wraith.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_yamato_was_here.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Yavato was here.",
+      "correctedText": "Yamato was here.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/nano/calico_ally_bebop_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Take a cat, Bebop.",
+      "correctedText": "They took out Bebop.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/nano/calico_ally_krill_killed_in_lane_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I took a pill.",
+      "correctedText": "They took out Krill.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/nano/calico_use_tech_purge_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The tricks will work on me.",
+      "correctedText": "Their tricks won't work on me.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/operative/ping/operative_ping_can_heal_dynamo.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Karma, I can heal you.",
+      "correctedText": "Dynamo, I can heal you.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_forge_in_mid.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Mugeris is in mid.",
+      "correctedText": "McGinnis's in mid!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_forge_in_mid.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "My goodness, he's in mid.",
+      "correctedText": "McGinnis's in mid!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_forge_in_mid.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "My Guinness is in mid.",
+      "correctedText": "McGinnis's in mid!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_hornet_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Vendetta is dead.",
+      "correctedText": "Vindicta is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_ignore_hornet.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignore Vendicta!",
+      "correctedText": "Ignore Vindicta!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_kelvin_was_here.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Calvin was here.",
+      "correctedText": "Kelvin was here.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_kelvin_was_here.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Kellen was here.",
+      "correctedText": "Kelvin was here.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_astro.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Specialty.",
+      "correctedText": "I see Holliday",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_astro.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "A Holiday.",
+      "correctedText": "I see Holliday",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm gonna get it! It's on the roof!",
+      "correctedText": "McGinnis's on the roof!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "The Guinness is on the roof!",
+      "correctedText": "I'm gonna get it! It's on the roof!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_forge_on_roof.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "The goodness is on the roof!",
+      "correctedText": "I'm gonna get it! It's on the roof!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_yamato.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I see you, Magoo.",
+      "correctedText": "I see Yamato",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_yamato.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "We see Yamajo.",
+      "correctedText": "I see Yamato",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Show and kill.",
+      "correctedText": "Stun Krill!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Shun Krill!",
+      "correctedText": "Stun Krill!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "revisionIndex": 3,
+      "priority": "High",
+      "currentText": "Sean Krill.",
+      "correctedText": "Stun Krill!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Stonefisk.",
+      "correctedText": "Stun Viscous!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Stone biscuit.",
+      "correctedText": "Stun Viscous!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_viscous_01.mp3.json",
+      "revisionIndex": 3,
+      "priority": "High",
+      "currentText": "Stun biscuit.",
+      "correctedText": "Stun Viscous!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_viscous_check_items.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Check out what Viskis bought.",
+      "correctedText": "Check out what Viscous bought.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_jar_call_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Sparrow on is here.",
+      "correctedText": "Spirit Jar is here!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_jar_call_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Spare airness here.",
+      "correctedText": "Spirit Jar is here!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_stun_lash_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Standalone.",
+      "correctedText": "Stun Lash.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_with_haze.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm what you hate.",
+      "correctedText": "I'm with you, Haze.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/pocket/ping/pocket_ping_careful_viscous_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Careful, Biscuit.",
+      "correctedText": "Careful, Viscous.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/pocket/ping/pocket_ping_gank.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Tony Gang.",
+      "correctedText": "Going to gank.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/pocket/ping/pocket_ping_rejuv_drop.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Reduce dropping.",
+      "correctedText": "Rejuv's dropping!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/pocket/ping/pocket_ping_shiv_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The ship is dead.",
+      "correctedText": "Shiv is dead.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/pocket/pocket_idol_drop_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The spearardurn is almost ready to be delivered.",
+      "correctedText": "The Spearhead armor is almost ready to be delivered.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/ping/shiv_ping_attack_bebop.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Let's take out Vivat.",
+      "correctedText": "Let's take out Bebop",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/ping/shiv_ping_attack_wraith.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Let's take out Reece.",
+      "correctedText": "Let's take out Wraith",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/ping/shiv_ping_can_heal_dynamo.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I give you you.",
+      "correctedText": "I give you.",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/ping/shiv_ping_wraith_missing_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Grace is missing.",
+      "correctedText": "Wraith's missing",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_ally_bebop_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "This got people.",
+      "correctedText": "They took out Bebop",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_ally_dynamo_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "It's got dynamo.",
+      "correctedText": "They took out Dynamo",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_ally_wraith_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "It's a got race.",
+      "correctedText": "They took out Wraith",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_close_call_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "How was manabit there?",
+      "correctedText": "If I were a lesser man, I'd be dead…",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_interrupt_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Sowresterend.",
+      "correctedText": "Sorry friend…",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_kill_bebop_05.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Bebop's not a commiserate.",
+      "correctedText": "Bebop's out of commission for a while….",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_controls_jump.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Last base to jump.",
+      "correctedText": "Press space to jump.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_controls_mantle.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Call space when they're alleged to man up.",
+      "correctedText": "Pulse face when they're alleged to man up!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_controls_mantle.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Pulse face when they're alleged to man up!",
+      "correctedText": "Call space when they're alleged to man up.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_controls_shoot.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Press mouse 1 to shoot. Ghost damage falls off at longer ranges.",
+      "correctedText": "Press mouse 1 to shoot. Gun damage falls off at longer ranges.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_power_mods.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Specials to buy ice.",
+      "correctedText": "Spence sells to buy ice.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_power_mods.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Spence sells to buy ice.",
+      "correctedText": "Spence solds to buy Ibs.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_power_mods.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Spence solds to buy Ibs.",
+      "correctedText": "Spence sells to buy ice.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_power_secure.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "When you light a killing blow, exit soul's pop out. You can secure these souls by shooting the green orb, tanking them, or letting them float away.",
+      "correctedText": "land a killing blow, extra souls appear.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_the_map_core_2.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "This Fryn at the back of each team's base destroys the enemy's Fryn, completes the ritual, and wins the game.",
+      "correctedText": "There's a shrine at the back of each team's base. Destroying the enemy shrine completes the ritual and wins the game.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_the_map_walkers.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Walkers lie deeper in the lengths and have an arsenal of defensive moves.",
+      "correctedText": "Walkers lie deeper in the lanes and have an arsenal of defensive moves.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_early_10.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Allow me to thank you, curiosity.",
+      "correctedText": "Allow me to pique your curiosity",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_glass_cannon_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I rest, I warm.",
+      "correctedText": "High risk, high reward…",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_glass_cannon_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I'm Risk. I walk.",
+      "correctedText": "High risk, high reward…",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_gun_04.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Tell you what, I'll throw in a freaky tune.",
+      "correctedText": "There you are, I'll throw in a free keychain.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_gun_12.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "You wanna buy a mug, the go again?",
+      "correctedText": "You wanna buy a mug to go with your gun?",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_tech_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ah, you have deserved taste.",
+      "correctedText": "deserved/descerning taste",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_buy_tech_14.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "You can't shape your desk.",
+      "correctedText": "Here's your chance to shape your destiny",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_call_out_09.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Guys, get you guys over here!",
+      "correctedText": "Guns! Get your guns over here!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_close_shop_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "That's my cutlery!",
+      "correctedText": "That's my cue to leave.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Combat about goats. Like humans, they don't like getting shot.",
+      "correctedText": "Fun fact about ghosts: Like humans, they don't like getting shot.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_open_gun_04.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "You ever see a gun shoot a jaded bullet? Buddy, it is a sight to behold.",
+      "correctedText": "You ever see a gun shoot enchanted bullets? Buddy, it is a sight to behold!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_inferno_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Third! Can't you disbelieve?",
+      "correctedText": "Fern, catch you at Jezebel's later?",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_inferno_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Hey, catch you jizzballs later!",
+      "correctedText": "Fern, catch you at Jezebel's later?",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_slork_05.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Anyone ever tell you you look like a Slork?",
+      "correctedText": "Anyone ever tell you look like a Slork?",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_wraith_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Quit any operation, right?",
+      "correctedText": "Big fan of your operation, Wraith.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_wraith_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Big fan of your operation, Rafe.",
+      "correctedText": "Big fan of your operation, Wraith.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_mirage_dead.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Marage is dead.",
+      "correctedText": "Mirage is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_saw_inferno.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I saw furnace.",
+      "correctedText": "I sawin furnace.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_see_chrono_on_roof.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Paradise is on the roof.",
+      "correctedText": "Paradox is on the roof.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_stun_viscous_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stun discus.",
+      "correctedText": "Stun Viscous.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_with_viscous.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm with you, Fiscus.",
+      "correctedText": "I'm with you, Viscous.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_ally_forge_clutch_heal_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I needed that monegas!",
+      "correctedText": "I needed that McGinnis.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_ally_forge_pass_on_zipline_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Thanks for the help, miggins.",
+      "correctedText": "Thanks for the help, McGinnis.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_ally_orion_pass_on_zipline_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Stay safe, Krystalyn.",
+      "correctedText": "Stay safe, Graytalon.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_ally_orion_pass_on_zipline_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stay safe, Graytalon.",
+      "correctedText": "Stay safe, Krystalyn.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_enemy_hornet_killed_mid_air_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm safe, botchim.",
+      "correctedText": "And she thought she was safe.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/ivy_ping_careful_kelvin_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Chatbot Calvin!",
+      "correctedText": "Careful, Kelvin!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/ivy_ping_chrono_on_top_of_mid.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "tear us us on top of mid.",
+      "correctedText": "tear us on top of mid.",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/ivy_ping_chrono_was_here.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Paradux is here!",
+      "correctedText": "Paradox is here!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/ivy_ping_kelvin_missing_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Calvin's missing!",
+      "correctedText": "Kelvin's missing.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/tengu_ping_see_wrecker_on_roof.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "That's no no!",
+      "correctedText": "That's no!",
+      "reason": "removed an adjacent repeated word flagged by the audit",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_attack_hornet.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Let's take our vendetta!",
+      "correctedText": "take out Vindicta.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_attack_wraith.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The stakeout race!",
+      "correctedText": "take out Wraith.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_defend_green_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "To Vanquish!",
+      "correctedText": "Defend Green.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_enemy_take_mid.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The Taken men!",
+      "correctedText": "They're taking mid!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_jar_call_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Spare jars here!",
+      "correctedText": "Spirit Jar is here!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_rejuv_drop.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Regions dropping!",
+      "correctedText": "Rejuv's dropping!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_shiv_was_here.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Shit was him!",
+      "correctedText": "Shiv was here!",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_attack_inferno.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Let's take out Furnace!",
+      "correctedText": "Let's take out Infernus.",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_attack_viscous.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Please take out this kiss.",
+      "correctedText": "Let's take out Viscous.",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_dynamo_missing_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Tardamus missing.",
+      "correctedText": "Dynamo's missing.",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/ping/vampirebat_ping_see_slork_on_bridge.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Seven's on the bridge!",
+      "correctedText": "Fathom's on the bridge!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_doorman_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Please forgot the doorman!",
+      "correctedText": "They took out the Doorman!",
+      "reason": "same-file sibling (manual) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_frank_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They took our blink!",
+      "correctedText": "They took out Victor!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_inferno_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They have unburned us!",
+      "correctedText": "They took out Infernus!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_magician_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Take us to Claire!",
+      "correctedText": "They took out Sinclair!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_mirage_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They took out my rod!",
+      "correctedText": "They took out Mirage!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_punkgoat_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They got the go-bad thing!",
+      "correctedText": "They took out Billy!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/vampirebat/vampirebat_ally_viscous_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Take a biscuit!",
+      "correctedText": "They took out Viscous!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_ability2_not_ready.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Shiv's on cooldown.",
+      "correctedText": "Cube's on cooldown",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_careful_astro_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Careful, Haskell.",
+      "correctedText": "Careful, Holliday…",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_see_orion_on_bridge.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Toran is on the bridge.",
+      "correctedText": "Grey Talon's on the bridge!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/ping/viscous_ping_see_yamato_on_roof.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Yamaha's on the road.",
+      "correctedText": "Yamato's on the roof!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_angry_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "This is a bear.",
+      "correctedText": "This isn't fair.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_happy_10.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Sploanded.",
+      "correctedText": "Splendid!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_see_enemy_metal_skin_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They have no skill.",
+      "correctedText": "They have metal skin!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_select_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Please help us for swiftly well.",
+      "correctedText": "This host will serve me well.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_t1_shop_reminder_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ice sharp.",
+      "correctedText": "I should shop",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_upgrade_power1_04.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Weaponized received.",
+      "correctedText": "Weaponizing suit",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viscous/viscous_use_ice_blast_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Sending eyes.",
+      "correctedText": "Sending ice!",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_astro_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Holly is dead.",
+      "correctedText": "Holliday is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_careful_wrecker_02.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "That's all, Necker.",
+      "correctedText": "Careful, Wrecker",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_chrono_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Parax is almost back.",
+      "correctedText": "Paradox is almost back.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_forge_in_mid.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The goodness is in mid.",
+      "correctedText": "The Guinness is in mid.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_forge_in_mid.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "The Guinness is in mid.",
+      "correctedText": "The goodness is in mid.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_lash_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Vash is dead.",
+      "correctedText": "Lash is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_see_cadence_on_bridge.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Cache is on the bridge.",
+      "correctedText": "Cadence is on the bridge.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_see_cadence_on_bridge.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Danger is on the bridge.",
+      "correctedText": "Cadence is on the bridge.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Stun Haste.",
+      "correctedText": "Stun Haze!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stand down.",
+      "correctedText": "Stun Haze!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_stun_haze_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Standance.",
+      "correctedText": "Stun Haze!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_stun_kelvin_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Stun Calvin.",
+      "correctedText": "Stun Kelvin.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_with_krill.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I'm with you, Krell.",
+      "correctedText": "I'm with you, Krill.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_with_krill.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "I'm with you, Crow.",
+      "correctedText": "I'm with you, Krill.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_with_viscous.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I'm with you, Vicious.",
+      "correctedText": "I'm with you, Viscous.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_yamato_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Yamate was almost back.",
+      "correctedText": "Yamato is almost back.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_yamato_almost_respawn.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Yamichow is almost back.",
+      "correctedText": "Yamato is almost back.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_hornet_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Pindicta is dead.",
+      "correctedText": "Vindicta is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_forge.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignore McGintz.",
+      "correctedText": "Ignore McGinnis.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_kelvin.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignoa Kerbin.",
+      "correctedText": "Ignore Kelvin.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_nano.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignore Carico.",
+      "correctedText": "Ignore Calico.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_ignore_orion.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Ignore Greytown.",
+      "correctedText": "Ignore Grey Talon.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_kelvin_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Kerwin is dead.",
+      "correctedText": "Kelvin is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_nano_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Carico is dead.",
+      "correctedText": "Calico is dead!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_saw_inferno.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I saw Infornus!",
+      "correctedText": "I saw Infernus!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_saw_inferno.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "ISO Infanus.",
+      "correctedText": "I saw Infernus!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_with_haze.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I'm with you, Haste.",
+      "correctedText": "I'm with you, Haze!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_with_viscous.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I'm with you, Biscus.",
+      "correctedText": "I'm with you, Viscous!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_with_wrecker.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I'm with you, Wicker.",
+      "correctedText": "I'm with you, Wrecker!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/abrams_enemy_wraith_lifts_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Cut me down, Raven!",
+      "correctedText": "cut me down, Wraith!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_jar_call_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "Spirit earned is here.",
+      "correctedText": "Spirit urn is here.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_jar_call_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "Medium",
+      "currentText": "Spirit Arnis here.",
+      "correctedText": "Spirit urn is here.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_kali_missing_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Holliday's missing.",
+      "correctedText": "Holly's missing.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/ping/abrams_ping_kali_missing_01.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "Holly's missing.",
+      "correctedText": "Holliday's missing.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/bebop/bebop_use_amp_grenade_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Throw an anti-medic!",
+      "correctedText": "Throw an anti-magic!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/boho/boho_ally_viper_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "I'm with you, Pocket!",
+      "correctedText": "I'm with you, Viper!",
+      "reason": "replaced the wrong named target with Viper",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/chrono/ping/chrono_ping_with_wraith.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "I'm with you, Raven.",
+      "correctedText": "I'm with you, Wraith.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/chrono/ping/paradox_ping_can_heal_calico.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Krill, I can heal you.",
+      "correctedText": "Calico, I can heal you.",
+      "reason": "replaced the wrong named target with Calico",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/chrono/ping/paradox_ping_careful_krill_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Wraith.",
+      "correctedText": "Krill.",
+      "reason": "replaced the wrong named target with Krill",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/chrono/ping/paradox_ping_see_atlas_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "I see you, ghost.",
+      "correctedText": "I see you, Atlas.",
+      "reason": "replaced the wrong named target with Atlas",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/forge/mcginnis_kill_dynamo_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Stop the processor!",
+      "correctedText": "Stop the professor.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/forge/ping/mcginnis_ping_see_wraith_on_bridge.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "Graves on the bridge!",
+      "correctedText": "Wraith on the bridge!",
+      "reason": "replaced the wrong named target with Wraith",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/ghost/geist_kill_wraith_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Stop the Magician.",
+      "correctedText": "Stop the Wraith.",
+      "reason": "replaced the wrong named target with Wraith",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/ghost/geist_upgrade_power3_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Hane is the price of victory.",
+      "correctedText": "Pain is the price of victory.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/ghost/ping/geist_ping_careful_wraith_02.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "Careful, Raven.",
+      "correctedText": "Careful, Wraith.",
+      "reason": "replaced the wrong named target with Wraith",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/gigawatt_ally_wraith_kill_in_lift_02.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "Well done, Raven.",
+      "correctedText": "Well done, Wraith!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_wraith_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves is almost back.",
+      "correctedText": "Wraith is almost back!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_ally_forge_clutch_heal_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Thanks, bigot.",
+      "correctedText": "Thanks McGinnis",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_ally_forge_clutch_heal_03.mp3.json",
+      "revisionIndex": 2,
+      "priority": "Medium",
+      "currentText": "Thanks, Pickett.",
+      "correctedText": "Thanks McGinnis",
+      "reason": "same-file sibling (official) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/haze_kill_cadence_05.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "The latency issue has been resolved.",
+      "correctedText": "The cadence issue has been resolved.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/haze/ping/haze_ping_wraith_was_here.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves is here.",
+      "correctedText": "The Wraith was here.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/hornet/ping/vindicta_ping_with_tengu.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "I'm with you, Holliday.",
+      "correctedText": "I'm with you, Ivy.",
+      "reason": "replaced the wrong named target with Ivy",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_enemy_wraith_lifts_02.mp3.json",
+      "revisionIndex": 3,
+      "priority": "Medium",
+      "currentText": "Graves got me!",
+      "correctedText": "Wraith's got me!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/ping/inferno_ping_hornet_was_here.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Victor was here.",
+      "correctedText": "Vindicta was here!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/krill/ping/krill_ping_wraith_on_top_of_mid.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves on top of mid!",
+      "correctedText": "Wraith's on top of mid!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/mirage/ping/mirage_ping_wraith_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves is almost back!",
+      "correctedText": "Wraith is almost back!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/nano/ping/calico_ping_see_wraith_on_bridge.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves is on the bridge.",
+      "correctedText": "Wraith is on the bridge.",
+      "reason": "replaced the wrong named target with Wraith",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/newscaster/newscaster_headline_34.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "The Gray Coven leaves audiences spellbound. Read the New York Oracle's review of the latest off-Broadway sensation.",
+      "correctedText": "The Grey Coven leaves audiences spellbound. Read the New York Oracle's review of the latest off-Broadway sensation.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/operative/ping/operative_ping_careful_tengu_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Careful, Wraith.",
+      "correctedText": "Careful, Ivy.",
+      "reason": "replaced the wrong named target with Ivy",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/orion/orion_ally_mcginnis_killed_in_lane_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "Medium",
+      "currentText": "McGuinness was taken out!",
+      "correctedText": "McGinnis was taken out!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/priest/ping/priest_ping_wraith_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves is almost back!",
+      "correctedText": "Wraith is almost back!",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/slork/ping/slork_ping_see_wraith_on_bridge.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves on the bridge.",
+      "correctedText": "Wraith on the bridge.",
+      "reason": "replaced the wrong named target with Wraith",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ivy_enemy_dynamo_charges_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Here comes Dynabolt!",
+      "correctedText": "Here comes Dynamo!",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/ivy_ping_see_kelvin_02.mp3.json",
+      "revisionIndex": 2,
+      "priority": "Medium",
+      "currentText": "Cadence here!",
+      "correctedText": "Kelvin here!",
+      "reason": "replaced the wrong named target with Kelvin",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/ping/tengu_ping_careful_wrecker_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Careful, Victor!",
+      "correctedText": "Careful, Wrecker!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_careful_synth_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Careful, Puckin!",
+      "correctedText": "Careful, Pocket.",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_wraith_missing_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves missing!",
+      "correctedText": "Wraith missing!",
+      "reason": "replaced the wrong named target with Wraith",
+      "confidence": "medium"
+    },
+    {
+      "transcriptPath": "transcripts/unicorn/unicorn_unselect_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "I'm working on a new part of my act where I wreathe one of my audience member in ethereal flame. Haven't figured out how to do it without immolating someone yet, but I'm close. Probably.",
+      "correctedText": "audience members",
+      "reason": "applied the explicit full-line audit suggestion",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/viper/ping/viper_ping_wraith_on_top_of_mid.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves on top of mid.",
+      "correctedText": "Wraith's on top of mid!",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_careful_atlas_02.mp3.json",
+      "revisionIndex": 2,
+      "priority": "Medium",
+      "currentText": "Careful, Infernus.",
+      "correctedText": "Careful, Abrams.",
+      "reason": "same-file sibling (official) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wraith/ping/wraith_ping_hornet_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "The dictator is dead.",
+      "correctedText": "Vindicta is dead.",
+      "reason": "same-file sibling (generated) matches the explicit audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/wrecker/ping/wrecker_ping_holliday_was_here.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Kali was here.",
+      "correctedText": "Holliday was here.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_mirage_was_here.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "Mina was here.",
+      "correctedText": "Mirage was here.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_wraith_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Graves is dead.",
+      "correctedText": "Wraith is dead.",
+      "reason": "same-file sibling (generated) matches the audit target",
+      "confidence": "high"
+    }
+  ],
+  "skipped": [
+    {
+      "transcriptPath": "transcripts/astro/holliday_ally_wraith_kill_in_lift_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "You're almost making this too easy, Raze!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/atlas/abrams_use_smoke_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "We need to use realistics.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/bebop/bebop_ally_lash_killed_in_lane_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I killed Lash! Might been an old bad after all.",
+      "reason": "current revision already contains the explicit audit target"
+    },
+    {
+      "transcriptPath": "transcripts/butcher/rr_test_21_ping_t2_under_attack.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "They're taking our care too!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/forge/forge_ally_ghost_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "To kill the professor!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/forge/mcginnis_ally_dynamo_killed_in_lane_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The kill the professor.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/forge/mcginnis_ally_geist_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The kill the professor.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/frank/frank_ally_bookworm_killed_in_lane_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "They took out Bookroom.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_with_yamato.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm with you, Ymarco.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_enemy_astro_lassoed_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Can someone please kill Astro?",
+      "reason": "current revision already contains the explicit audit target"
+    },
+    {
+      "transcriptPath": "transcripts/inferno/inferno_enemy_krill_grabbed_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "So much you trill.",
+      "reason": "audit evidence does not match the current revision text"
+    },
+    {
+      "transcriptPath": "transcripts/kelvin/kelvin_enemy_astro_bounce_escape_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Get back here, Holdy!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/krill/krill_enemy_warden_see_ult_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Murphy's about to charge in!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/lash/ping/lash_ping_cadence_was_here.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Caden's here.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/magician/ping/magician_henry_ping_lash_check_items.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Check out what last bod!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/magician/ping/magician_henry_ping_wrecker_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Wreckers almost back!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/magician/ping/magician_savannah_ping_stun_bebop_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Sun Bebop.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/operative/ping/operative_ping_bebop_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Deadlock is dead.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/operative/ping/operative_ping_careful_bebop_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Careful, Deadlock.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/operative/ping/operative_ping_chrono_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Deadlock is dead.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/operative/ping/operative_ping_with_ghost.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I'm with you, Crest.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_see_yamato.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Let's see how much you.",
+      "reason": "audit evidence does not match the current revision text"
+    },
+    {
+      "transcriptPath": "transcripts/orion/ping/orion_ping_stun_krill_01.mp3.json",
+      "revisionIndex": 2,
+      "priority": "High",
+      "currentText": "Stun Krill!",
+      "reason": "current revision already contains the explicit audit target"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_attack_chrono.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Let's take out Crono.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_attack_orion.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "Let's take care of Ryan.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_can_heal_viscous.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "This kiss! I can heal you!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/paradox/ping/paradox_ping_saw_viscous.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I saw thiskist.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/pocket/ping/pocket_ping_forge_almost_respawn.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The Guinness is almost back.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/pocket/ping/pocket_ping_forge_missing_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "The Guinness is missing.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/shiv/shiv_t2_shop_reminder_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Connoitigar su.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/shopkeeper/guide_power_secure.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "When you land a killing blow, exit souls pop out! You can secure these souls by shooting the green orb containing them, or letting them float away.",
+      "reason": "audit evidence does not match the current revision text"
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_saw_inferno.mp3.json",
+      "revisionIndex": 1,
+      "priority": "High",
+      "currentText": "I sawin furnace.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/trapper/ping/trapper_ping_saw_hornet.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I saw Vendetta!",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/unicorn/unicorn_kill_orion_04_alt_01.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "I don't want any trouble with you, Gary Talon.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/yamato/ping/yamato_ping_lash_dead.mp3.json",
+      "revisionIndex": 0,
+      "priority": "High",
+      "currentText": "Las is dead.",
+      "reason": "audit evidence does not match the current revision text"
+    },
+    {
+      "transcriptPath": "transcripts/forge/ping/mcginnis_ping_ability4_almost_ready.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Mirage is almost ready.",
+      "reason": "audit evidence does not match the current revision text"
+    },
+    {
+      "transcriptPath": "transcripts/ghost/ping/geist_ping_geist_check_items.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Check out what McGinnis bought.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/gigawatt/ping/gigawatt_ping_wraith_almost_respawn.mp3.json",
+      "revisionIndex": 1,
+      "priority": "Medium",
+      "currentText": "Gravy's almost back.",
+      "reason": "audit evidence does not match the current revision text"
+    },
+    {
+      "transcriptPath": "transcripts/operative/ping/operative_ping_sorry_03.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Dynamo.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/synth/ping/pocket_ping_ability1_not_ready.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Mirage is on cooldown.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/tengu/tengu_kill_viscous_02.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Sorry, this ghost.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    },
+    {
+      "transcriptPath": "transcripts/unicorn/unicorn_select_08.mp3.json",
+      "revisionIndex": 0,
+      "priority": "Medium",
+      "currentText": "Kony is safe. Comfortable. But I've outgrown it. And fear can't be the only thing keeping me there.",
+      "reason": "no unambiguous full-line or same-file sibling correction was found"
+    }
+  ]
+}
