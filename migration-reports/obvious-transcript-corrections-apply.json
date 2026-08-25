@@ -1,9 +1,9 @@
 {
   "suggestionRows": 338,
-  "correctionRows": 296,
+  "correctionRows": 295,
   "skippedRows": 42,
   "correctionsByPriority": {
-    "High": 251,
+    "High": 250,
     "Medium": 45
   },
   "skippedByReason": {
@@ -11,7 +11,7 @@
     "current revision already contains the explicit audit target": 3,
     "audit evidence does not match the current revision text": 6
   },
-  "changedFiles": 250,
+  "changedFiles": 249,
   "mergedGroups": 186,
   "merged": [
     {
@@ -3853,15 +3853,6 @@
       "currentText": "Hey, catch you jizzballs later!",
       "correctedText": "Fern, catch you at Jezebel's later?",
       "reason": "same-file sibling (official) matches the audit target",
-      "confidence": "high"
-    },
-    {
-      "transcriptPath": "transcripts/shopkeeper/shopkeeper_hotdog_t4_slork_05.mp3.json",
-      "revisionIndex": 0,
-      "priority": "High",
-      "currentText": "Anyone ever tell you you look like a Slork?",
-      "correctedText": "Anyone ever tell you look like a Slork?",
-      "reason": "removed an adjacent repeated word flagged by the audit",
       "confidence": "high"
     },
     {
