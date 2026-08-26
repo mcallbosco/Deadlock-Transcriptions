@@ -23,23 +23,23 @@
     "deadlock-base"
   ],
   "thresholdsMs": {
-    "0": 6290,
+    "0": 6291,
     "50": 7390,
-    "100": 8271
+    "100": 8274
   },
   "bucketsMs": {
-    "exact": 6290,
-    "1To50": 1100,
-    "51To100": 881
+    "exact": 6291,
+    "1To50": 1099,
+    "51To100": 884
   },
   "exactCandidateAuthoritativeTargets": {
     "official": 2,
-    "manual": 0,
-    "officialOrManual": 2
+    "manual": 2,
+    "officialOrManual": 4
   },
   "stats": {
-    "differentSubtitleDocuments": 15318,
-    "differentSubtitleDocumentsWithManifestHashes": 15318
+    "differentSubtitleDocuments": 15301,
+    "differentSubtitleDocumentsWithManifestHashes": 15301
   },
   "candidates": {
     "0": [
@@ -504,6 +504,17 @@
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
+      },
+      {
+        "path": "transcripts/atlas/abrams_ally_vindicta_killed_in_lane_01.mp3.json",
+        "filename": "atlas/abrams_ally_vindicta_killed_in_lane_01.mp3",
+        "minimumDurationDeltaMs": 0,
+        "hashPair": [
+          "fb754b76e91c8ba3b6e8af9b2323872802af682f90b9d1d17b8dd7efa86ea697",
+          "11dba9b208e5082eb111d602e5b7ce6addfeda508ce552d62f9aec76cc64743a"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": true
       },
       {
         "path": "transcripts/atlas/abrams_ally_viscous_clutch_cube_02.mp3.json",
@@ -2549,7 +2560,7 @@
           "db74125de3a501feb942097504e71e9ed618bf3bbc70d2e38f433875957a3f61"
         ],
         "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
+        "hasExactManualMergeTarget": true
       },
       {
         "path": "transcripts/atlas/ping/abrams_ping_slork_on_top_of_mid.mp3.json",
@@ -70171,6 +70182,17 @@
         "hasExactManualMergeTarget": false
       },
       {
+        "path": "transcripts/atlas/abrams_ally_vindicta_killed_in_lane_01.mp3.json",
+        "filename": "atlas/abrams_ally_vindicta_killed_in_lane_01.mp3",
+        "minimumDurationDeltaMs": 0,
+        "hashPair": [
+          "fb754b76e91c8ba3b6e8af9b2323872802af682f90b9d1d17b8dd7efa86ea697",
+          "11dba9b208e5082eb111d602e5b7ce6addfeda508ce552d62f9aec76cc64743a"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": true
+      },
+      {
         "path": "transcripts/atlas/abrams_ally_viscous_clutch_cube_02.mp3.json",
         "filename": "atlas/abrams_ally_viscous_clutch_cube_02.mp3",
         "minimumDurationDeltaMs": 0,
@@ -72291,7 +72313,7 @@
           "db74125de3a501feb942097504e71e9ed618bf3bbc70d2e38f433875957a3f61"
         ],
         "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
+        "hasExactManualMergeTarget": true
       },
       {
         "path": "transcripts/atlas/ping/abrams_ping_slork_on_top_of_mid.mp3.json",
@@ -75919,17 +75941,6 @@
         "hashPair": [
           "c48bfb5707bd0574ff96ae234a151be8b8a198f3e66e63b5a641304287bd3442",
           "1ccd72c2a559cb7de360858615a620cd50f134c54721c0f7282f71028ff32479"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
-        "path": "transcripts/butcher/rr_test_21_ping_attack_kelvin.mp3.json",
-        "filename": "butcher/rr_test_21_ping_attack_kelvin.mp3",
-        "minimumDurationDeltaMs": 2,
-        "hashPair": [
-          "047b7531c9aa2e543ecb59160e0f4f9539dc1419064eb306348b049eac70e76f",
-          "2b0728f8e07e4f1472025babbf1c30f3e85cda36dde5f1d626013a33d44349c5"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
@@ -136666,17 +136677,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/t1_guardians/guardian_test_03/rr_guardian_test_03_thank_haze.mp3.json",
-        "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_haze.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "1b88bee530a6e04ccd7247cac475e71f71c91de402b8cf5120966f855fdf92ff",
-          "3a864aa246c449fe02a9ad3afe752dd1b84714def3767f069614859aa2cb62bb"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/t1_guardians/guardian_test_03/rr_guardian_test_03_thank_heavy.mp3.json",
         "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_heavy.mp3",
         "minimumDurationDeltaMs": 1,
@@ -137068,6 +137068,17 @@
         "hashPair": [
           "978494d5fc30d1bdc0c147c916c7dcb622822e187945453adab224e66eb8d0e8",
           "eaab233cac30cc61a563091d3f698ae658e07259a329d0162137660c4e1ca552"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": false
+      },
+      {
+        "path": "transcripts/t1_guardians/guardian_test_04/rr_guardian_test_04_thank_haze.mp3.json",
+        "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_thank_haze.mp3",
+        "minimumDurationDeltaMs": 1,
+        "hashPair": [
+          "0ec87ff1adf1d9e1ef93202aed7f419a74ecb5660e89bc76268f9819fcf5f3f2",
+          "c45862341f584255985e3c73ed14917a924d18f080b600e50eeb42a4aa8ccd62"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
@@ -152101,6 +152112,17 @@
         "hasExactManualMergeTarget": false
       },
       {
+        "path": "transcripts/atlas/abrams_ally_vindicta_killed_in_lane_01.mp3.json",
+        "filename": "atlas/abrams_ally_vindicta_killed_in_lane_01.mp3",
+        "minimumDurationDeltaMs": 0,
+        "hashPair": [
+          "fb754b76e91c8ba3b6e8af9b2323872802af682f90b9d1d17b8dd7efa86ea697",
+          "11dba9b208e5082eb111d602e5b7ce6addfeda508ce552d62f9aec76cc64743a"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": true
+      },
+      {
         "path": "transcripts/atlas/abrams_ally_viscous_clutch_cube_02.mp3.json",
         "filename": "atlas/abrams_ally_viscous_clutch_cube_02.mp3",
         "minimumDurationDeltaMs": 0,
@@ -154287,7 +154309,7 @@
           "db74125de3a501feb942097504e71e9ed618bf3bbc70d2e38f433875957a3f61"
         ],
         "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
+        "hasExactManualMergeTarget": true
       },
       {
         "path": "transcripts/atlas/ping/abrams_ping_slork_on_top_of_mid.mp3.json",
@@ -158729,17 +158751,6 @@
         "hashPair": [
           "c48bfb5707bd0574ff96ae234a151be8b8a198f3e66e63b5a641304287bd3442",
           "1ccd72c2a559cb7de360858615a620cd50f134c54721c0f7282f71028ff32479"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
-        "path": "transcripts/butcher/rr_test_21_ping_attack_kelvin.mp3.json",
-        "filename": "butcher/rr_test_21_ping_attack_kelvin.mp3",
-        "minimumDurationDeltaMs": 2,
-        "hashPair": [
-          "047b7531c9aa2e543ecb59160e0f4f9539dc1419064eb306348b049eac70e76f",
-          "2b0728f8e07e4f1472025babbf1c30f3e85cda36dde5f1d626013a33d44349c5"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
@@ -190227,6 +190238,17 @@
         "hasExactManualMergeTarget": false
       },
       {
+        "path": "transcripts/inferno/ping/inferno_ping_cadence_in_mid.mp3.json",
+        "filename": "inferno/ping/inferno_ping_cadence_in_mid.mp3",
+        "minimumDurationDeltaMs": 100,
+        "hashPair": [
+          "e107b95f875c1375a11a20efd4767fa0e1639059fbd76d3a4f1803886693f814",
+          "90465503525a828ceef8b83a7a6d58ee294154dafaea590aff25822490c5aff8"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": false
+      },
+      {
         "path": "transcripts/inferno/ping/inferno_ping_cadence_missing_01.mp3.json",
         "filename": "inferno/ping/inferno_ping_cadence_missing_01.mp3",
         "minimumDurationDeltaMs": 100,
@@ -190651,6 +190673,17 @@
         "hashPair": [
           "c33c363af7a69cb45ace32c1cb5ec2927d167245ceab644114313bed0b777336",
           "b367d97d95903163fb338a8d0394498d977e8826832c60870524bd57ceec9906"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": false
+      },
+      {
+        "path": "transcripts/inferno/ping/inferno_ping_dynamo_almost_respawn.mp3.json",
+        "filename": "inferno/ping/inferno_ping_dynamo_almost_respawn.mp3",
+        "minimumDurationDeltaMs": 100,
+        "hashPair": [
+          "de6c74b04ddeb4ba17fded3a272813aa60ca8487dff149f2f21ebca67c26d98b",
+          "22ff0f5e80c276cf3780869a0ce25c64e976cb03ad95648a339630f7db8ed2fe"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
@@ -192202,6 +192235,17 @@
         "hashPair": [
           "72c82c97a0e09211e9417a86ba391ee706a9c0058035ccd3a1cf21c52dc164f3",
           "4fea8a69b9b6a651c1671a8bc5c269b20264996950f348696db986d9046895ed"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": false
+      },
+      {
+        "path": "transcripts/inferno/ping/inferno_ping_synth_almost_respawn.mp3.json",
+        "filename": "inferno/ping/inferno_ping_synth_almost_respawn.mp3",
+        "minimumDurationDeltaMs": 100,
+        "hashPair": [
+          "45c679805a9f3735463991daa9c8a1cae0c738a78b07c068f4ee13800be0de48",
+          "047dffeeed582029a6200a6d33e1679e0121325aec9e9c3ba2b97292c903421f"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
@@ -226340,17 +226384,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/t1_guardians/guardian_test_03/rr_guardian_test_03_thank_haze.mp3.json",
-        "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_haze.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "1b88bee530a6e04ccd7247cac475e71f71c91de402b8cf5120966f855fdf92ff",
-          "3a864aa246c449fe02a9ad3afe752dd1b84714def3767f069614859aa2cb62bb"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/t1_guardians/guardian_test_03/rr_guardian_test_03_thank_heavy.mp3.json",
         "filename": "t1_guardians/guardian_test_03/rr_guardian_test_03_thank_heavy.mp3",
         "minimumDurationDeltaMs": 1,
@@ -226742,6 +226775,17 @@
         "hashPair": [
           "978494d5fc30d1bdc0c147c916c7dcb622822e187945453adab224e66eb8d0e8",
           "eaab233cac30cc61a563091d3f698ae658e07259a329d0162137660c4e1ca552"
+        ],
+        "hasExactOfficialMergeTarget": false,
+        "hasExactManualMergeTarget": false
+      },
+      {
+        "path": "transcripts/t1_guardians/guardian_test_04/rr_guardian_test_04_thank_haze.mp3.json",
+        "filename": "t1_guardians/guardian_test_04/rr_guardian_test_04_thank_haze.mp3",
+        "minimumDurationDeltaMs": 1,
+        "hashPair": [
+          "0ec87ff1adf1d9e1ef93202aed7f419a74ecb5660e89bc76268f9819fcf5f3f2",
+          "c45862341f584255985e3c73ed14917a924d18f080b600e50eeb42a4aa8ccd62"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
