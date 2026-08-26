@@ -4,27 +4,13 @@
   "revisions": [
     {
       "sha256": [
-        "8544d92ba73bfe3ab0a9ddaf98d86aae3612d5fcbc139d0de1a5af1708d3638d"
+        "2386cced02f617112b1c44e7e9867c82790427168d996bac5490a8153eac6869",
+        "8544d92ba73bfe3ab0a9ddaf98d86aae3612d5fcbc139d0de1a5af1708d3638d",
+        "a0633985f07e76db756c15d520fb350523955399fab790b62171d0104890a204"
       ],
       "text": "",
       "source": "skippednonspeech",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "a0633985f07e76db756c15d520fb350523955399fab790b62171d0104890a204"
-      ],
-      "text": "Hmph!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "2386cced02f617112b1c44e7e9867c82790427168d996bac5490a8153eac6869"
-      ],
-      "text": "Huh-BWAH!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

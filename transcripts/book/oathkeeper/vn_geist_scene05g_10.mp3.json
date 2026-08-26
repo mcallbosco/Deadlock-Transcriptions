@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
-        "183632f9bb6ad8a50c0721bfbeb201c70c7fcd3b0e63c3ddd5512c3e3db5b0b6"
-      ],
-      "text": "</p><p begin=\"00.0407.4333.4667.266\"></p><p begin=\"00.0407.4667.2667.2667\"></p></div></body></tt\">",
-      "source": "generated",
-      "model": "whisper-1"
-    },
-    {
-      "sha256": [
+        "183632f9bb6ad8a50c0721bfbeb201c70c7fcd3b0e63c3ddd5512c3e3db5b0b6",
         "c0c1c654cf64acecb7c95c827a551c9a1337d91959a3cddb8dc3693dc9be6b15"
       ],
-      "text": "Aaaaah!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "text": "",
+      "source": "skippednonspeech",
+      "model": "gpt-transcribe"
     }
   ]
 }
