@@ -240,6 +240,7 @@ python -m pip install --requirement requirements-transcription.txt
 $env:OPENAI_API_KEY='your-project-api-key'
 python tools/gpt_transcribe_duration_review.py run --max-requests 1 --confirm-paid-requests
 python tools/gpt_transcribe_duration_review.py run --confirm-paid-requests
+python tools/gpt_transcribe_duration_review.py summarize
 ```
 
 The prompt and vocabulary match the `DLSoundProjectUtilities` HistoricalContent

@@ -339,6 +339,105 @@ def execute_queue(
     return {"scheduled": len(pending), "successes": successes, "errors": errors}
 
 
+def analyze_results(queue: dict[str, Any], results_path: Path) -> dict[str, Any]:
+    results = [
+        json.loads(line)
+        for line in results_path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    by_recording_id: dict[str, dict[str, Any]] = {}
+    for result in results:
+        recording_id = result.get("recordingId")
+        if not isinstance(recording_id, str) or recording_id in by_recording_id:
+            raise ValueError(f"Invalid or duplicate result recording ID: {recording_id}")
+        by_recording_id[recording_id] = result
+
+    statistics: dict[str, int] = defaultdict(int)
+    exact_candidates: list[dict[str, Any]] = []
+    for recording in queue["recordings"]:
+        result = by_recording_id.get(recording["recordingId"])
+        if result is None:
+            statistics["missingRecordingGroups"] += 1
+            continue
+        if result.get("status") != "success":
+            statistics["errorRecordingGroups"] += 1
+            continue
+        statistics["successfulRecordingGroups"] += 1
+        transcription = result["transcription"]
+        normalized = transcript_match_key(transcription)
+        if not normalized:
+            statistics["blankRecordingGroups"] += 1
+        group_exact = False
+        for item in recording["items"]:
+            matches = sorted(
+                {
+                    option["text"]
+                    for option in item["options"]
+                    if transcript_match_key(option["text"]) == normalized
+                }
+            )
+            if not normalized:
+                category = "blankExactItems" if matches else "blankNovelItems"
+            elif matches:
+                category = "nonblankExactExistingItems"
+                group_exact = True
+                exact_candidates.append(
+                    {
+                        "recordingId": recording["recordingId"],
+                        "representativeSha256": result["representativeSha256"],
+                        "transcription": transcription,
+                        "itemId": item["id"],
+                        "path": item["path"],
+                        "filename": item["filename"],
+                        "durationMs": item["durationMs"],
+                        "matchingTexts": matches,
+                        "options": [
+                            {
+                                "text": option["text"],
+                                "hashes": option["hashes"],
+                                "model": option.get("model"),
+                            }
+                            for option in item["options"]
+                        ],
+                    }
+                )
+            else:
+                category = "nonblankNovelItems"
+                best_similarity = max(
+                    SequenceMatcher(
+                        None, normalized, transcript_match_key(option["text"])
+                    ).ratio()
+                    for option in item["options"]
+                )
+                if best_similarity >= 0.95:
+                    statistics["nonblankNovelAtLeast95SimilarityItems"] += 1
+                elif best_similarity >= 0.90:
+                    statistics["nonblankNovel90To95SimilarityItems"] += 1
+                elif best_similarity >= 0.80:
+                    statistics["nonblankNovel80To90SimilarityItems"] += 1
+                else:
+                    statistics["nonblankNovelBelow80SimilarityItems"] += 1
+            statistics[category] += 1
+        if normalized and group_exact:
+            statistics["nonblankExactExistingRecordingGroups"] += 1
+        elif normalized:
+            statistics["nonblankNovelRecordingGroups"] += 1
+
+    statistics["results"] = len(results)
+    statistics["queueRecordingGroups"] = len(queue["recordings"])
+    statistics["queueReviewItems"] = sum(
+        len(recording["items"]) for recording in queue["recordings"]
+    )
+    return {
+        "schemaVersion": 1,
+        "model": queue["model"],
+        "statistics": dict(sorted(statistics.items())),
+        "nonblankExactExistingCandidates": sorted(
+            exact_candidates, key=lambda candidate: candidate["itemId"]
+        ),
+    }
+
+
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", type=Path, default=Path.cwd())
@@ -356,6 +455,11 @@ def main(argv: Iterable[str] | None = None) -> int:
     run.add_argument("--max-requests", type=int)
     run.add_argument("--confirm-paid-requests", action="store_true")
 
+    summarize = subparsers.add_parser("summarize")
+    summarize.add_argument("--queue", type=Path, default=DEFAULT_OUTPUT_DIR / "queue.json")
+    summarize.add_argument("--results", type=Path, default=DEFAULT_OUTPUT_DIR / "results.jsonl")
+    summarize.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_DIR / "analysis.json")
+
     args = parser.parse_args(argv)
     repo = args.repo.resolve()
     if args.command == "prepare":
@@ -365,6 +469,18 @@ def main(argv: Iterable[str] | None = None) -> int:
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(canonical_json(queue), encoding="utf-8")
         print(canonical_json({"output": str(output), "statistics": queue["statistics"]}), end="")
+        return 0
+
+    if args.command == "summarize":
+        queue_path = args.queue if args.queue.is_absolute() else repo / args.queue
+        results_path = args.results if args.results.is_absolute() else repo / args.results
+        output = args.output if args.output.is_absolute() else repo / args.output
+        analysis = analyze_results(
+            json.loads(queue_path.read_text(encoding="utf-8")), results_path
+        )
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(canonical_json(analysis), encoding="utf-8")
+        print(canonical_json({"output": str(output), "statistics": analysis["statistics"]}), end="")
         return 0
 
     if not args.confirm_paid_requests:

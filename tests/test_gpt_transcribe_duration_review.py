@@ -7,6 +7,7 @@ from pathlib import Path
 
 from tools.gpt_transcribe_duration_review import (
     PROMPT_PREFIX,
+    analyze_results,
     build_transcription_prompt,
     group_review_items,
     option_comparisons,
@@ -96,6 +97,73 @@ class GptTranscribeDurationReviewTests(unittest.TestCase):
 
         self.assertEqual(comparisons[0]["text"], "I see Wrecker!")
         self.assertTrue(comparisons[0]["normalizedExactMatch"])
+
+    def test_analysis_separates_nonblank_exact_and_blank_results(self) -> None:
+        exact_id = digest("d")
+        blank_id = digest("e")
+        queue = {
+            "model": "gpt-transcribe",
+            "recordings": [
+                {
+                    "recordingId": exact_id,
+                    "items": [
+                        {
+                            "id": "exact#1000",
+                            "path": "transcripts/exact.json",
+                            "filename": "exact.mp3",
+                            "durationMs": 1000,
+                            "options": [
+                                {"text": "Wrecker!", "hashes": [digest("f")], "model": "old"},
+                                {"text": "Record.", "hashes": [digest("0")], "model": "old"},
+                            ],
+                        }
+                    ],
+                },
+                {
+                    "recordingId": blank_id,
+                    "items": [
+                        {
+                            "id": "blank#500",
+                            "path": "transcripts/blank.json",
+                            "filename": "blank.mp3",
+                            "durationMs": 500,
+                            "options": [
+                                {"text": "Noise", "hashes": [digest("1")], "model": "old"},
+                                {"text": "", "hashes": [digest("2")], "model": "old"},
+                            ],
+                        }
+                    ],
+                },
+            ],
+        }
+        with tempfile.TemporaryDirectory() as temporary:
+            results = Path(temporary) / "results.jsonl"
+            results.write_text(
+                "\n".join(
+                    json.dumps(result)
+                    for result in [
+                        {
+                            "recordingId": exact_id,
+                            "status": "success",
+                            "representativeSha256": digest("f"),
+                            "transcription": "Wrecker.",
+                        },
+                        {
+                            "recordingId": blank_id,
+                            "status": "success",
+                            "representativeSha256": digest("1"),
+                            "transcription": "",
+                        },
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            analysis = analyze_results(queue, results)
+
+        self.assertEqual(analysis["statistics"]["nonblankExactExistingItems"], 1)
+        self.assertEqual(analysis["statistics"]["blankExactItems"], 1)
+        self.assertEqual(len(analysis["nonblankExactExistingCandidates"]), 1)
 
 
 if __name__ == "__main__":
