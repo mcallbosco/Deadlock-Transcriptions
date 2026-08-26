@@ -3,7 +3,11 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.reconcile_duplicate_hash_states import apply_reconciliation
+from tools.reconcile_duplicate_hash_states import (
+    apply_reconciliation,
+    conflicting_relative_paths,
+    load_documents,
+)
 
 
 SHA = "a" * 64
@@ -134,6 +138,19 @@ class ReconcileDuplicateHashStatesTests(unittest.TestCase):
                     "model": "model",
                 },
             ],
+        )
+
+    def test_recency_scan_is_scoped_to_conflicting_paths(self):
+        self.write("same-a.json", text="same", source="generated", hashes=[SIBLING])
+        self.write("same-b.json", text="same", source="manual", hashes=[SIBLING])
+        self.write("conflict-a.json", text="old", source="generated")
+        self.write("conflict-b.json", text="new", source="manual")
+
+        paths = conflicting_relative_paths(load_documents(self.transcripts), self.repo)
+
+        self.assertEqual(
+            paths,
+            {"transcripts/conflict-a.json", "transcripts/conflict-b.json"},
         )
 
 

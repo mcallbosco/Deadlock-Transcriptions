@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "reviewQueueItems": 6257,
+  "reviewedSelections": {
+    "total": 1638,
+    "existingOption": 175,
+    "novelCorrection": 1463
+  },
+  "crossAudit": {
+    "auditFiles": 6,
+    "rawObjections": 302,
+    "uniqueObjectedItems": 296,
+    "rejectedItems": 6,
+    "sharedHashConflictGroups": 23
+  },
+  "postApply": {
+    "remainingReviewItems": 4538,
+    "eliminatedReviewItems": 1719,
+    "exactDurationCandidateFiles": 4616,
+    "within50MsCandidateFiles": 5783,
+    "within100MsCandidateFiles": 6714
+  },
+  "rebase": {
+    "mainCommit": "3ca0b56c0101b6dd620be47c1098ce0a9a451363",
+    "overlappingTranscriptFiles": 31,
+    "mainTranscriptWins": true
+  },
+  "excludedVersionIds": [
+    "ognb-russian-voice-mod"
+  ]
+}

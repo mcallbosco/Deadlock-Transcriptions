@@ -1,0 +1,4182 @@
+{
+  "schemaVersion": 2,
+  "batch": 9,
+  "decisions": [
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_careful_holliday_03.mp3.json#1253",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Careful, Holliday!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_careful_lash_02.mp3.json#929",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Careful, Lash.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_geist_on_top_of_garage.mp3.json#1400",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_headed_blue_01.mp3.json#816",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_orion_on_top_of_mid.mp3.json#1180",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Grey Talon's on top of mid!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_pocket_in_mid.mp3.json#833",
+      "action": "choose",
+      "selectedRevisionIndex": 0,
+      "selectedText": "Pocket's in mid!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_push_yellow_01.mp3.json#924",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_sandeep_on_top_of_mid.mp3.json#1205",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Sandeep's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_saw_mcginnis.mp3.json#857",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_saw_shiv.mp3.json#791",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_saw_wrecker.mp3.json#820",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_cadence_01.mp3.json#1019",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "I see Cadence.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_enemy_on_roof.mp3.json#1012",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_infernus_on_bridge.mp3.json#1226",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_mcginnis_on_bridge.mp3.json#1095",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_mirage_on_bridge.mp3.json#995",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_warden_on_bridge.mp3.json#979",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_warden_on_roof.mp3.json#1018",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_wrecker_01.mp3.json#914",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "I see Wrecker.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_see_wrecker_on_bridge.mp3.json#967",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_seven_on_top_of_garage.mp3.json#1273",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Seven's on top of the garage.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_shiv_missing_01.mp3.json#840",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Shiv's missing!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_shiv_under_garage.mp3.json#1105",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_shiv_was_here.mp3.json#748",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Shiv was here!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_stun_gigawatt_01.mp3.json#842",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_stun_seven_01.mp3.json#873",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_stun_shiv_01.mp3.json#767",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Stun Shiv.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_stun_viscous_01.mp3.json#809",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Stun Viscous.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_stun_wraith_01.mp3.json#742",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Stun Wraith.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_stun_wrecker_01.mp3.json#869",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Stun Wrecker!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_stun_yamato_01.mp3.json#1073",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Stun Yamato!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_use_ability4_01.mp3.json#892",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_use_ability4_02.mp3.json#940",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_use_ability4_04.mp3.json#1276",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_use_ability4_05.mp3.json#939",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_use_ability4_10.mp3.json#1410",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_viscous_in_mid.mp3.json#1137",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_viscous_missing_01.mp3.json#992",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_viscous_on_top_of_garage.mp3.json#1577",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_viscous_on_top_of_mid.mp3.json#1302",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_warden_on_top_of_garage.mp3.json#1404",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Warden's on top of the garage!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_with_cadence.mp3.json#917",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_with_gigawatt.mp3.json#888",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_with_krill.mp3.json#803",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_with_sandeep.mp3.json#953",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_with_shiv.mp3.json#802",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_with_viscous.mp3.json#967",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_with_wraith.mp3.json#853",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wraith_in_mid.mp3.json#912",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Wraiths in Mid!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wraith_missing_01.mp3.json#769",
+      "action": "choose",
+      "selectedRevisionIndex": 0,
+      "selectedText": "Wraith's missing!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wraith_on_top_of_garage.mp3.json#1241",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Wraith's on top of the garage.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wraith_on_top_of_mid.mp3.json#1063",
+      "action": "choose",
+      "selectedRevisionIndex": 0,
+      "selectedText": "Wraith's on top of mid!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wraith_under_garage.mp3.json#1178",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wraith_was_here.mp3.json#797",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Wraith was here!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wrecker_missing_01.mp3.json#898",
+      "action": "choose",
+      "selectedRevisionIndex": 0,
+      "selectedText": "Wrecker's missing!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wrecker_on_top_of_garage.mp3.json#1375",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Wrecker's on top of the garage!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_wrecker_was_here.mp3.json#866",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Wrecker was here.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_yamato_missing_01.mp3.json#1017",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Yamato's missing!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_yamato_under_garage.mp3.json#1328",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/paradox/ping/paradox_ping_yamato_was_here.mp3.json#1083",
+      "action": "choose",
+      "selectedRevisionIndex": 0,
+      "selectedText": "Yamato was here!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ability1_almost_ready.mp3.json#1144",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_can_heal_viscous.mp3.json#1095",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_dynamo_was_here.mp3.json#849",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Dynamo was here.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_forge_check_items.mp3.json#1094",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_geist_in_mid.mp3.json#819",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_geist_on_top_of_mid.mp3.json#1114",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_geist_under_garage.mp3.json#1302",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ghost_in_mid.mp3.json#819",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ghost_on_top_of_mid.mp3.json#1114",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ghost_under_garage.mp3.json#1302",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ignore_hornet.mp3.json#972",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ignore_vindicta.mp3.json#972",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ivy_almost_respawn.mp3.json#1093",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ivy_on_top_of_garage.mp3.json#1240",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ivy_on_top_of_mid.mp3.json#993",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_ivy_was_here.mp3.json#778",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_jar_call_01.mp3.json#1045",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_krill_in_mid.mp3.json#710",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Krill's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_krill_under_garage.mp3.json#1179",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_lash_almost_respawn.mp3.json#1028",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_lash_missing_01.mp3.json#887",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Lash's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_lash_under_garage.mp3.json#1230",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_mcginnis_check_items.mp3.json#1094",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_mirage_under_garage.mp3.json#1410",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_retreat_02.mp3.json#1032",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_saw_krill.mp3.json#634",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_saw_wraith.mp3.json#672",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_see_geist_on_bridge.mp3.json#1050",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_see_ghost_on_bridge.mp3.json#1050",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_see_haze_on_roof.mp3.json#910",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_see_hornet_on_roof.mp3.json#1121",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_see_krill_on_bridge.mp3.json#959",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_see_lash_01.mp3.json#777",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Lash.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_see_vindicta_on_roof.mp3.json#1121",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_shiv_on_top_of_mid.mp3.json#981",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Shiv's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_take_mid.mp3.json#589",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_tengu_almost_respawn.mp3.json#1093",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_tengu_on_top_of_garage.mp3.json#1240",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_tengu_on_top_of_mid.mp3.json#993",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_tengu_was_here.mp3.json#778",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_use_ability4_01.mp3.json#1666",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_viscous_on_top_of_garage.mp3.json#1534",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_viscous_was_here.mp3.json#848",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_wraith_in_mid.mp3.json#783",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wraith's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_yamato_in_mid.mp3.json#853",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Yamato's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_yamato_under_garage.mp3.json#1228",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_yamato_was_here.mp3.json#832",
+      "action": "choose",
+      "selectedRevisionIndex": 1,
+      "selectedText": "Yamato was here.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/pocket/ping/pocket_ping_yellow_help_01.mp3.json#850",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/pocket_use_power2_06.mp3.json#996",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/pocket_use_power3_04.mp3.json#1378",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/pocket/pocket_use_power4_02.mp3.json#741",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_ability1_not_ready.mp3.json#1327",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_ability2_not_ready.mp3.json#1310",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_ability3_not_ready.mp3.json#2408",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_ability4_not_ready.mp3.json#1672",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_abrams_in_mid.mp3.json#1028",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_abrams_missing_01.mp3.json#1100",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_abrams_on_top_of_garage.mp3.json#1758",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_abrams_on_top_of_mid.mp3.json#1497",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_abrams_under_garage.mp3.json#1538",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_cadence.mp3.json#1313",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Cadence.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_calico.mp3.json#1268",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Calico.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_enemy_avatar.mp3.json#1346",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_fairfax.mp3.json#1455",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Fairfax.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_geist.mp3.json#1223",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Geist.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_infernus.mp3.json#1494",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Infernus.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_ivy.mp3.json#1138",
+      "action": "choose",
+      "selectedRevisionIndex": 0,
+      "selectedText": "Let's take out Ivy.",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_krill.mp3.json#1309",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Krill.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_mirage.mp3.json#1415",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Mirage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_murphy.mp3.json#1145",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Murphy.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_paradox.mp3.json#1455",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Paradox.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_pocket.mp3.json#1062",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Pocket.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_sandeep.mp3.json#1375",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Sandeep.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_attack_seven.mp3.json#1104",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Let's take out Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_avatar_under_attack.mp3.json#1309",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_bebop_in_mid.mp3.json#979",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Bebop's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_bebop_on_top_of_mid.mp3.json#1308",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Bebop's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_bebop_under_garage.mp3.json#1500",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_bebop_was_here.mp3.json#906",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Bebop was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_blue_help_01.mp3.json#848",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_cadence_missing_01.mp3.json#947",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Cadence's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_cadence_on_top_of_garage.mp3.json#1725",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Cadence's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_cadence_on_top_of_mid.mp3.json#1342",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Cadence's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_cadence_under_garage.mp3.json#1500",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_calico_in_mid.mp3.json#1032",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Calico's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_calico_missing_01.mp3.json#1031",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Calico's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_calico_on_top_of_garage.mp3.json#1703",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Calico's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_calico_on_top_of_mid.mp3.json#1372",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Calico's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_calico_under_garage.mp3.json#1413",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_calico_was_here.mp3.json#914",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Calico was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_abrams.mp3.json#1352",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_bebop.mp3.json#1253",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Bebop, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_cadence.mp3.json#1294",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Cadence, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_calico.mp3.json#1352",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Calico, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_dynamo.mp3.json#1346",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Dynamo, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_fairfax.mp3.json#1537",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Fairfax, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_geist.mp3.json#1093",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_gigawatt.mp3.json#1391",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_haze.mp3.json#1316",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Haze, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_infernus.mp3.json#1548",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Infernus, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_ivy.mp3.json#1265",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_kelvin.mp3.json#1311",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Kelvin, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_krill.mp3.json#1258",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Krill, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_mcginnis.mp3.json#1426",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "McGinnis, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_murphy.mp3.json#1289",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Murphy, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_paradox.mp3.json#1454",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Paradox, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_vindicta.mp3.json#1501",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Vindicta, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_viscous.mp3.json#1316",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_wraith.mp3.json#1324",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wraith, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_can_heal_yamato.mp3.json#1381",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Yamato, I can heal you.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_abrams_01.mp3.json#1036",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_abrams_03.mp3.json#1128",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_bebop_01.mp3.json#997",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Bebop.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_bebop_02.mp3.json#933",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Bebop.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_cadence_01.mp3.json#1032",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Cadence.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_cadence_02.mp3.json#1098",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Cadence.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_cadence_03.mp3.json#1087",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Cadence.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_calico_01.mp3.json#1013",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Calico.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_calico_03.mp3.json#1094",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Calico.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_dynamo_01.mp3.json#1041",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Dynamo.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_dynamo_02.mp3.json#1019",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Dynamo.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_dynamo_03.mp3.json#1006",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Dynamo.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_fairfax_01.mp3.json#1174",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Fairfax.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_fairfax_02.mp3.json#1221",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Fairfax.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_fairfax_03.mp3.json#1233",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Fairfax.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_geist_01.mp3.json#916",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Geist.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_geist_02.mp3.json#959",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Geist.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_geist_03.mp3.json#965",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Geist.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_gigawatt_01.mp3.json#1030",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_gigawatt_03.mp3.json#1057",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_haze_01.mp3.json#985",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Haze.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_haze_03.mp3.json#986",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Haze.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_holliday_01.mp3.json#979",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Holliday.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_holliday_02.mp3.json#1072",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Holliday.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_holliday_03.mp3.json#1046",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Holliday.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_infernus_01.mp3.json#1212",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Infernus.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_infernus_02.mp3.json#1180",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Infernus.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_infernus_03.mp3.json#1193",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Infernus.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_ivy_03.mp3.json#933",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Ivy.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_kelvin_01.mp3.json#1023",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Kelvin.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_kelvin_02.mp3.json#998",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Kelvin.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_kelvin_03.mp3.json#1070",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Kelvin.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_krill_02.mp3.json#1005",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Krill.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_krill_03.mp3.json#966",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Krill.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_lash_02.mp3.json#988",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Lash.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_mcginnis_01.mp3.json#1099",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, McGinnis.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_mcginnis_02.mp3.json#1141",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, McGinnis.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_mcginnis_03.mp3.json#1144",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, McGinnis.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_mirage_01.mp3.json#1133",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Mirage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_mirage_03.mp3.json#1106",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Mirage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_murphy_01.mp3.json#931",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Murphy.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_murphy_03.mp3.json#941",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Murphy.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_orion_01.mp3.json#1076",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Grey Talon.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_paradox_01.mp3.json#1190",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Paradox.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_paradox_03.mp3.json#1278",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Paradox.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_pocket_01.mp3.json#912",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Pocket.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_pocket_02.mp3.json#944",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Pocket.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_pocket_03.mp3.json#900",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Pocket.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_sandeep_01.mp3.json#1080",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Sandeep.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_sandeep_03.mp3.json#1112",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Sandeep.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_seven_03.mp3.json#997",
+      "action": "choose",
+      "selectedRevisionIndex": 0,
+      "selectedText": "Careful, Seven!",
+      "confidence": "high",
+      "rationale": "Existing option matches the standard filename and sibling callout pattern."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_vindicta_01.mp3.json#1130",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Vindicta.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_vindicta_02.mp3.json#1132",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Vindicta.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_viscous_02.mp3.json#1135",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Viscous.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_viscous_03.mp3.json#1138",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Viscous.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_warden_02.mp3.json#955",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Warden.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_warden_03.mp3.json#1042",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Warden.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_wraith_02.mp3.json#981",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Wraith.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_wraith_03.mp3.json#988",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Wraith.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_wrecker_02.mp3.json#920",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Wrecker.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_wrecker_03.mp3.json#1006",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Wrecker.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_yamato_01.mp3.json#1031",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Yamato.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_careful_yamato_02.mp3.json#1083",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Careful, Yamato.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_defend_base_01.mp3.json#1036",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_defend_blue_01.mp3.json#794",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_defend_orange_01.mp3.json#1024",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_defend_purple_01.mp3.json#895",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_defend_yellow_01.mp3.json#884",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_dynamo_in_mid.mp3.json#1032",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Dynamo's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_dynamo_missing_01.mp3.json#1103",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Dynamo's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_dynamo_on_top_of_garage.mp3.json#1687",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Dynamo's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_dynamo_on_top_of_mid.mp3.json#1316",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Dynamo's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_dynamo_under_garage.mp3.json#1468",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_dynamo_was_here.mp3.json#918",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Dynamo was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_enemy_take_mid.mp3.json#884",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_fairfax_missing_01.mp3.json#1116",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Fairfax's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_fairfax_on_top_of_garage.mp3.json#1867",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Fairfax's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_fairfax_on_top_of_mid.mp3.json#1560",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Fairfax's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_fairfax_under_garage.mp3.json#1619",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_fairfax_was_here.mp3.json#1071",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Fairfax was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_geist_missing_01.mp3.json#1097",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_geist_on_top_of_garage.mp3.json#1609",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_geist_on_top_of_mid.mp3.json#1290",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Geist's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_geist_under_garage.mp3.json#1387",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_gigawatt_in_mid.mp3.json#1066",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_gigawatt_missing_01.mp3.json#1202",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_gigawatt_on_top_of_garage.mp3.json#1685",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_gigawatt_on_top_of_mid.mp3.json#1348",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_gigawatt_under_garage.mp3.json#1507",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_going_shop_01.mp3.json#842",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_haze_missing_01.mp3.json#1044",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Haze's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_haze_on_top_of_garage.mp3.json#1658",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Haze's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_haze_on_top_of_mid.mp3.json#1285",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Haze's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_haze_was_here.mp3.json#815",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Haze was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_headed_purple_01.mp3.json#1015",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_help_with_idol.mp3.json#1390",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_holliday_in_mid.mp3.json#1045",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Holliday's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_holliday_on_top_of_garage.mp3.json#1746",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Holliday's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_holliday_on_top_of_mid.mp3.json#1353",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Holliday's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_holliday_under_garage.mp3.json#1525",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_holliday_was_here.mp3.json#926",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Holliday was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_infernus_in_mid.mp3.json#1225",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Infernus's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_infernus_missing_01.mp3.json#1194",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Infernus's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_infernus_on_top_of_garage.mp3.json#1923",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Infernus's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_infernus_on_top_of_mid.mp3.json#1533",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Infernus's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_infernus_was_here.mp3.json#1111",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Infernus was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_ivy_on_top_of_garage.mp3.json#1646",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_ivy_on_top_of_mid.mp3.json#1250",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Ivy's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_jar_call_01.mp3.json#1259",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_kelvin_on_top_of_garage.mp3.json#1627",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Kelvin's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_kelvin_on_top_of_mid.mp3.json#1292",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Kelvin's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_kelvin_under_garage.mp3.json#1452",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_krill_in_mid.mp3.json#939",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Krill's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_krill_on_top_of_garage.mp3.json#1547",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Krill's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_krill_on_top_of_mid.mp3.json#1220",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Krill's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_krill_was_here.mp3.json#873",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Krill was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lash_in_mid.mp3.json#1058",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Lash's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lash_on_top_of_garage.mp3.json#1721",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Lash's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lash_on_top_of_mid.mp3.json#1296",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Lash's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lash_under_garage.mp3.json#1521",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lash_was_here.mp3.json#893",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Lash was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lets_go_blue.mp3.json#819",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lets_go_orange.mp3.json#1082",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lets_go_purple.mp3.json#813",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_lets_go_yellow.mp3.json#881",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mcginnis_in_mid.mp3.json#1120",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "McGinnis's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mcginnis_on_top_of_garage.mp3.json#1865",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "McGinnis's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mcginnis_on_top_of_mid.mp3.json#1517",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "McGinnis's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mcginnis_under_garage.mp3.json#1578",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mirage_in_mid.mp3.json#1163",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Mirage's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mirage_on_top_of_garage.mp3.json#1781",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Mirage's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mirage_on_top_of_mid.mp3.json#1435",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Mirage's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mirage_under_garage.mp3.json#1587",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_mirage_was_here.mp3.json#979",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Mirage was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_missing_blue_01.mp3.json#809",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_missing_orange_01.mp3.json#1052",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_missing_purple_01.mp3.json#975",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_missing_yellow_01.mp3.json#824",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_murphy_in_mid.mp3.json#1010",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Murphy's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_murphy_missing_01.mp3.json#1005",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Murphy's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_murphy_on_top_of_garage.mp3.json#1667",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Murphy's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_murphy_on_top_of_mid.mp3.json#1294",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Murphy's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_murphy_under_garage.mp3.json#1492",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_murphy_was_here.mp3.json#920",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Murphy was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_need_cover.mp3.json#549",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_need_heal.mp3.json#945",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_need_help_blue.mp3.json#1081",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_need_help_purple.mp3.json#1156",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_need_help_yellow.mp3.json#1133",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_nevermind_01.mp3.json#762",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_nevermind_02.mp3.json#963",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_nevermind_03.mp3.json#1029",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_nice_work_01.mp3.json#920",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_orange_help_01.mp3.json#1070",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_orion_in_mid.mp3.json#1057",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Grey Talon's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_orion_on_top_of_garage.mp3.json#1689",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Grey Talon's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_orion_on_top_of_mid.mp3.json#1323",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Grey Talon's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_orion_under_garage.mp3.json#1573",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_orion_was_here.mp3.json#1026",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Grey Talon was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_paradox_in_mid.mp3.json#1217",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Paradox's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_paradox_missing_01.mp3.json#1165",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Paradox's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_paradox_on_top_of_garage.mp3.json#1862",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Paradox's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_paradox_on_top_of_mid.mp3.json#1527",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Paradox's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_paradox_under_garage.mp3.json#1623",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_paradox_was_here.mp3.json#1065",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Paradox was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_pocket_missing_01.mp3.json#922",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Pocket's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_pocket_on_top_of_garage.mp3.json#1677",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Pocket's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_pocket_on_top_of_mid.mp3.json#1293",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Pocket's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_pocket_under_garage.mp3.json#1428",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_pocket_was_here.mp3.json#926",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Pocket was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_push_orange_01.mp3.json#1163",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_push_purple_01.mp3.json#992",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_push_yellow_01.mp3.json#969",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_rejuv_drop.mp3.json#1180",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_retreat.mp3.json#684",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_retreat_02.mp3.json#1212",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_returning_to_base.mp3.json#1117",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_sandeep_missing_01.mp3.json#1135",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Sandeep's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_sandeep_on_top_of_garage.mp3.json#1788",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Sandeep's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_sandeep_on_top_of_mid.mp3.json#1421",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Sandeep's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_sandeep_under_garage.mp3.json#1532",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_sandeep_was_here.mp3.json#1026",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Sandeep was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_abrams.mp3.json#1042",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_bebop.mp3.json#809",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_cadence.mp3.json#1070",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_calico.mp3.json#984",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_fairfax.mp3.json#1157",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_geist.mp3.json#917",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_haze.mp3.json#1010",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_krill.mp3.json#832",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_lash.mp3.json#992",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_murphy.mp3.json#879",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_paradox.mp3.json#1175",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_pocket.mp3.json#832",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_sandeep.mp3.json#1003",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_seven.mp3.json#826",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_them.mp3.json#692",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_vindicta.mp3.json#1024",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_viscous.mp3.json#1056",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_saw_wrecker.mp3.json#841",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_abrams_01.mp3.json#1087",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_abrams_on_bridge.mp3.json#1404",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_abrams_on_roof.mp3.json#1259",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_bebop.mp3.json#890",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Bebop.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_bebop_on_bridge.mp3.json#1326",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_bebop_on_roof.mp3.json#1294",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_cadence_on_bridge.mp3.json#1299",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_calico.mp3.json#1014",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Calico.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_calico_on_bridge.mp3.json#1282",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_calico_on_roof.mp3.json#1112",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_dynamo_on_bridge.mp3.json#1471",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_dynamo_on_roof.mp3.json#1168",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_enemy_on_bridge.mp3.json#1177",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_enemy_on_roof.mp3.json#1105",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_fairfax.mp3.json#1240",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Fairfax.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_fairfax_on_bridge.mp3.json#1472",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_fairfax_on_roof.mp3.json#1364",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_geist_01.mp3.json#1009",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Geist.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_geist_on_bridge.mp3.json#1202",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_gigawatt.mp3.json#949",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_gigawatt_on_bridge.mp3.json#1310",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_gigawatt_on_roof.mp3.json#1151",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_haze.mp3.json#1117",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Haze.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_haze_on_bridge.mp3.json#1379",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_holliday_on_bridge.mp3.json#1303",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_holliday_on_roof.mp3.json#1198",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_infernus.mp3.json#1193",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Infernus.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_ivy_on_bridge.mp3.json#1205",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_ivy_on_roof.mp3.json#1040",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_krill.mp3.json#787",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Krill.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_krill_on_bridge.mp3.json#1282",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_krill_on_roof.mp3.json#1088",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_lash.mp3.json#991",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Lash.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_lash_on_roof.mp3.json#1108",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_mcginnis.mp3.json#1114",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see McGinnis.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_mcginnis_on_bridge.mp3.json#1418",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_mcginnis_on_roof.mp3.json#1327",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_mirage_01.mp3.json#1189",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Mirage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_mirage_on_bridge.mp3.json#1379",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_mirage_on_roof.mp3.json#1287",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_murphy.mp3.json#934",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Murphy.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_murphy_on_bridge.mp3.json#1239",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_murphy_on_roof.mp3.json#1103",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_paradox_on_bridge.mp3.json#1481",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_paradox_on_roof.mp3.json#1353",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_pocket_01.mp3.json#871",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Pocket.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_pocket_on_bridge.mp3.json#1208",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_pocket_on_roof.mp3.json#1059",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_sandeep.mp3.json#1090",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Sandeep.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_sandeep_on_roof.mp3.json#1223",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_seven_01.mp3.json#935",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_seven_on_bridge.mp3.json#1247",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_seven_on_roof.mp3.json#1101",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_vindicta_01.mp3.json#1129",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Vindicta.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_vindicta_on_bridge.mp3.json#1459",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_vindicta_on_roof.mp3.json#1330",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_viscous.mp3.json#1093",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Viscous.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_viscous_on_roof.mp3.json#1208",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_warden_on_roof.mp3.json#1137",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_wraith.mp3.json#930",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Wraith.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_wraith_on_bridge.mp3.json#1177",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_wraith_on_roof.mp3.json#990",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_wrecker_01.mp3.json#939",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "I see Wrecker.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_wrecker_on_bridge.mp3.json#1273",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_wrecker_on_roof.mp3.json#1089",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_yamato_on_bridge.mp3.json#1430",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_see_yamato_on_roof.mp3.json#1267",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_seven_in_mid.mp3.json#1006",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_seven_on_top_of_mid.mp3.json#1292",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_seven_under_garage.mp3.json#1477",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_seven_was_here.mp3.json#905",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Seven was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_abrams_01.mp3.json#1073",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_bebop_01.mp3.json#902",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Bebop.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_cadence_01.mp3.json#1111",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Cadence.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_calico_01.mp3.json#998",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Calico.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_dynamo_01.mp3.json#1118",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Dynamo.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_geist_01.mp3.json#954",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Geist.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_gigawatt_01.mp3.json#1039",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_haze_01.mp3.json#1045",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Haze.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_ivy_01.mp3.json#859",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Ivy.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_kelvin_01.mp3.json#943",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Kelvin.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_krill_01.mp3.json#982",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Krill.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_lash_01.mp3.json#1125",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Lash.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_mcginnis_01.mp3.json#1072",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun McGinnis.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_mirage_01.mp3.json#1130",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Mirage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_murphy_01.mp3.json#920",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Murphy.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_paradox_01.mp3.json#1246",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Paradox.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_pocket_01.mp3.json#861",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Pocket.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_sandeep_01.mp3.json#1039",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Sandeep.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_seven_01.mp3.json#905",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Seven.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_vindicta_01.mp3.json#1063",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Vindicta.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_viscous_01.mp3.json#1086",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Viscous.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_warden_01.mp3.json#959",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Warden.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_wraith_01.mp3.json#929",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Wraith.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_wrecker_01.mp3.json#867",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Wrecker.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_stun_yamato_01.mp3.json#960",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Stun Yamato.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_t1_under_attack.mp3.json#1373",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_take_mid.mp3.json#802",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_take_shrine.mp3.json#1586",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_theyre_in_mid.mp3.json#775",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_theyre_on_top_of_garage.mp3.json#1460",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_theyre_on_top_of_mid.mp3.json#1082",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_theyre_under_garage.mp3.json#1309",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_01.mp3.json#1864",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_02.mp3.json#1657",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_03.mp3.json#1875",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_04.mp3.json#2234",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_05.mp3.json#1878",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_06.mp3.json#2044",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_07.mp3.json#2381",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_08.mp3.json#2100",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_09.mp3.json#2229",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_use_ability4_10.mp3.json#1958",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_vindicta_on_top_of_garage.mp3.json#1850",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Vindicta's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_vindicta_on_top_of_mid.mp3.json#1470",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Vindicta's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_vindicta_under_garage.mp3.json#1645",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_vindicta_was_here.mp3.json#1106",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Vindicta was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_viscous_in_mid.mp3.json#1248",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_viscous_on_top_of_garage.mp3.json#1876",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_viscous_on_top_of_mid.mp3.json#1535",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_viscous_under_garage.mp3.json#1690",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_viscous_was_here.mp3.json#1027",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Viscous was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_warden_in_mid.mp3.json#1027",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Warden's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_warden_missing_01.mp3.json#1118",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Warden's missing.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_warden_on_top_of_garage.mp3.json#1703",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Warden's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_warden_on_top_of_mid.mp3.json#1321",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Warden's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_warden_under_garage.mp3.json#1508",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_abrams.mp3.json#1143",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_calico.mp3.json#1182",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_dynamo.mp3.json#1144",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_fairfax.mp3.json#1278",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_geist.mp3.json#1056",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_ivy.mp3.json#985",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_kelvin.mp3.json#1070",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_mcginnis.mp3.json#1326",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_mirage.mp3.json#1262",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_murphy.mp3.json#1061",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_paradox.mp3.json#1351",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_pocket.mp3.json#993",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_sandeep.mp3.json#1144",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_vindicta.mp3.json#1286",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_viscous.mp3.json#1269",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_warden.mp3.json#1231",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_wrecker.mp3.json#1107",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_with_yamato.mp3.json#1241",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_wraith_on_top_of_garage.mp3.json#1574",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wraith's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_wraith_on_top_of_mid.mp3.json#1193",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wraith's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_wrecker_in_mid.mp3.json#1004",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wrecker's in mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_wrecker_on_top_of_garage.mp3.json#1637",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wrecker's on top of the garage.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_wrecker_on_top_of_mid.mp3.json#1293",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wrecker's on top of mid.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_wrecker_under_garage.mp3.json#1424",
+      "action": "review",
+      "selectedRevisionIndex": null,
+      "selectedText": null,
+      "confidence": "low",
+      "rationale": "Insufficient contextual support to resolve this exact-duration conflict."
+    },
+    {
+      "id": "transcripts/shiv/ping/shiv_ping_wrecker_was_here.mp3.json#896",
+      "action": "correct",
+      "selectedRevisionIndex": null,
+      "selectedText": "Wrecker was here.",
+      "confidence": "medium",
+      "rationale": "Filename and repeated same-speaker callout pattern strongly support this standard wording."
+    }
+  ]
+}
