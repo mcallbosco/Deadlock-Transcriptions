@@ -1,0 +1,26 @@
+[
+  {
+    "id": "transcripts/pocket/ping/pocket_ping_saw_geist.mp3.json#758",
+    "path": "transcripts/pocket/ping/pocket_ping_saw_geist.mp3.json",
+    "previousSelectedText": "Sa Geist.",
+    "correctedText": "I saw Geist.",
+    "reason": "The clipped generated phrase conflicts with the repeated Pocket saw-call pattern, which uses ‘I saw <hero>’. ",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/pocket/ping/pocket_ping_see_haze_on_bridge.mp3.json#1017",
+    "path": "transcripts/pocket/ping/pocket_ping_see_haze_on_bridge.mp3.json",
+    "previousSelectedText": "Hazes on the bridge.",
+    "correctedText": "Haze is on the bridge.",
+    "reason": "The selected text drops the verb; same-speaker bridge calls consistently use the named hero followed by ‘is on the bridge’. ",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/shiv/ping/shiv_ping_see_dynamo.mp3.json#992",
+    "path": "transcripts/shiv/ping/shiv_ping_see_dynamo.mp3.json",
+    "previousSelectedText": "I'll see you dynamo!",
+    "correctedText": "I see Dynamo!",
+    "reason": "A sibling revision for this exact line provides the clear standard see-call; the selected wording is a contraction/pronoun mishearing.",
+    "confidence": "high"
+  }
+]

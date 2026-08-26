@@ -1,0 +1,98 @@
+[
+  {
+    "id": "transcripts/hornet/ping/vindicta_ping_can_heal_orion.mp3.json#1677",
+    "recommendedAction": "replace",
+    "replacementText": "Orion, I can heal you.",
+    "reason": "Orion is an explicitly accepted spoken name in the supplied character map. The selected text is already a complete, grammatical can-heal call, so changing it to the later name Grey Talon is unsupported canonicalization."
+  },
+  {
+    "id": "transcripts/hornet/ping/vindicta_ping_gigawatt_on_top_of_garage.mp3.json#1770",
+    "recommendedAction": "replace",
+    "replacementText": "Gigawatt's on top of the garage.",
+    "reason": "Gigawatt is an accepted spoken name, and the selected transcription is already exact and grammatical. The filename's historical codename is not evidence that the audio says Seven."
+  },
+  {
+    "id": "transcripts/hornet/ping/vindicta_ping_gigawatt_on_top_of_mid.mp3.json#1474",
+    "recommendedAction": "replace",
+    "replacementText": "Gigawatt's on top of mid.",
+    "reason": "Gigawatt is an accepted spoken name, and the selected transcription is already exact and grammatical. The filename's historical codename is not evidence that the audio says Seven."
+  },
+  {
+    "id": "transcripts/paradox/ping/paradox_ping_geist_in_mid.mp3.json#831",
+    "recommendedAction": "replace",
+    "replacementText": "Geist is in mid!",
+    "reason": "The selected line already unambiguously says 'Geist is in Mid.'; Paradox's nearby in-mid calls use both contracted and uncontracted forms. Normalizing Mid is justified, but changing the spoken form to a contraction is template-driven."
+  },
+  {
+    "id": "transcripts/ghost/ping/geist_ping_see_yamato_on_bridge.mp3.json#1102",
+    "recommendedAction": "replace",
+    "replacementText": "Yamato's on the bridge.",
+    "reason": "The selected 'yamata's on the bridge' preserves the audible contracted construction and only misspells Yamato. Expanding it to 'Yamato is' is unsupported; same-speaker bridge calls also use contractions."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_astro_back_01.mp3.json#938",
+    "recommendedAction": "replace",
+    "replacementText": "Astro, get back.",
+    "reason": "Astro is explicitly an accepted spoken name. This selected line is complete and grammatical, so replacing the historical spoken codename with Holliday is not a transcription repair."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_astro_missing_01.mp3.json#1073",
+    "recommendedAction": "replace",
+    "replacementText": "Astro's missing.",
+    "reason": "The filename is an Astro missing call and the selected 'Astrosmith' strongly supports the historical spoken name Astro. The map accepts Astro; Holliday is an unsupported name substitution."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_careful_nano_01.mp3.json#793",
+    "recommendedAction": "replace",
+    "replacementText": "Careful, Nano.",
+    "reason": "Nano is explicitly an accepted spoken name and is already what the selected complete line says. The correction changes a valid historical name to Calico without audio evidence."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_ghost_back_01.mp3.json#791",
+    "recommendedAction": "replace",
+    "replacementText": "Ghost, get back.",
+    "reason": "Ghost is an accepted spoken name. 'Ghost Quebec' plausibly reflects 'Ghost, get back'; replacing it with Geist changes the audible character name rather than repairing the malformed command."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_orion_missing_01.mp3.json#1124",
+    "recommendedAction": "replace",
+    "replacementText": "Orion is missing.",
+    "reason": "Orion is an accepted spoken name and the selected text is already a complete, grammatical missing call. The current preferred name Grey Talon should not overwrite a clear historical utterance."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_see_astro.mp3.json#871",
+    "recommendedAction": "replace",
+    "replacementText": "I see Astro.",
+    "reason": "Astro is accepted by the character map and the selected see call is already exact. Replacing it with Holliday is unsupported canonicalization."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_see_chrono_on_bridge.mp3.json#931",
+    "recommendedAction": "replace",
+    "replacementText": "Chrono's on the bridge.",
+    "reason": "Chrono is an accepted spoken name, and the selected 'Chronos on the bridge' supports only spelling/possessive repair. Replacing it with Paradox changes the name and the spoken contraction without evidence."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_see_forge_on_bridge.mp3.json#933",
+    "recommendedAction": "replace",
+    "replacementText": "Forge's on the bridge.",
+    "reason": "Forge is an accepted spoken name. The selected 'Forges on the bridge' supports adding the possessive apostrophe, not substituting McGinnis or expanding the contraction."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_see_forge_on_roof.mp3.json#928",
+    "recommendedAction": "replace",
+    "replacementText": "Forge is on the roof.",
+    "reason": "Forge is an accepted spoken name and the selected text already identifies Forge and the location. The only warranted repair is capitalization; McGinnis is an unsupported substitution."
+  },
+  {
+    "id": "transcripts/slork/ping/rr_test_26_ping_see_inferno_on_roof.mp3.json#1066",
+    "recommendedAction": "replace",
+    "replacementText": "Inferno's on the roof.",
+    "reason": "Inferno is an accepted spoken name and the selected transcription is already exact and grammatical. Replacing it with Infernus is canonicalization rather than transcription."
+  },
+  {
+    "id": "transcripts/tengu/ivy_kill_inferno_01.mp3.json#1882",
+    "recommendedAction": "replace",
+    "replacementText": "Inferno is down!",
+    "reason": "Inferno is explicitly accepted in the supplied map, and the selected kill line is complete and grammatical. The correction changes an established historical spoken name to Infernus without evidence."
+  }
+]

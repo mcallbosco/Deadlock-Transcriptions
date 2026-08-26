@@ -1,0 +1,146 @@
+[
+  {
+    "id": "transcripts/forge/mcginnis_ally_bebop_killed_in_lane_01.mp3.json#1090",
+    "path": "transcripts/forge/mcginnis_ally_bebop_killed_in_lane_01.mp3.json",
+    "previousSelectedText": "Bebop.",
+    "correctedText": "They took out Bebop.",
+    "reason": "The corresponding Forge line supplies the canonical ally-kill wording.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/mcginnis_ally_dynamo_killed_in_lane_01.mp3.json#1210",
+    "path": "transcripts/forge/mcginnis_ally_dynamo_killed_in_lane_01.mp3.json",
+    "previousSelectedText": "It's a dynamo.",
+    "correctedText": "They took out Dynamo.",
+    "reason": "The corresponding Forge line supplies the canonical ally-kill wording.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/mcginnis_ally_gigawatt_killed_in_lane_01.mp3.json#1140",
+    "path": "transcripts/forge/mcginnis_ally_gigawatt_killed_in_lane_01.mp3.json",
+    "previousSelectedText": "This is top seven!",
+    "correctedText": "They took down Seven!",
+    "reason": "The corresponding Forge line identifies Gigawatt as Seven and gives the complete line.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/mcginnis_kill_bebop_02.mp3.json#1247",
+    "path": "transcripts/forge/mcginnis_kill_bebop_02.mp3.json",
+    "previousSelectedText": "Here, bebop.",
+    "correctedText": "Get outta here, Bebop…",
+    "reason": "The corresponding Forge line provides the complete kill quote.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/mcginnis_kill_bebop_03.mp3.json#2010",
+    "path": "transcripts/forge/mcginnis_kill_bebop_03.mp3.json",
+    "previousSelectedText": "It could be useful as a by now, Bebop.",
+    "correctedText": "You should be used to losing by now Bebop.",
+    "reason": "The corresponding Forge line resolves the malformed generated wording.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/mcginnis_kill_holliday_01.mp3.json#1044",
+    "path": "transcripts/forge/mcginnis_kill_holliday_01.mp3.json",
+    "previousSelectedText": "Check out Holliday.",
+    "correctedText": "Took out Holliday",
+    "reason": "The corresponding Forge line gives the matching kill quote.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/mcginnis_kill_ivy_01.mp3.json#867",
+    "path": "transcripts/forge/mcginnis_kill_ivy_01.mp3.json",
+    "previousSelectedText": "To get Ivy.",
+    "correctedText": "Took out Ivy",
+    "reason": "The corresponding Forge line identifies the truncated phrase as a kill quote.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/mcginnis_kill_viscous_03.mp3.json#1673",
+    "path": "transcripts/forge/mcginnis_kill_viscous_03.mp3.json",
+    "previousSelectedText": "You don't wanna mess with me, Viscous.",
+    "correctedText": "You don't want to mess with me Viscous.",
+    "reason": "The corresponding Forge line confirms the contraction and wording.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/ping/mcginnis_ping_careful_wrecker_03.mp3.json#1094",
+    "path": "transcripts/forge/ping/mcginnis_ping_careful_wrecker_03.mp3.json",
+    "previousSelectedText": "Hello, Wrecker!",
+    "correctedText": "Careful, Wrecker!",
+    "reason": "Sibling Forge ping lines establish the careful-call template.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/ping/mcginnis_ping_shiv_in_mid.mp3.json#851",
+    "path": "transcripts/forge/ping/mcginnis_ping_shiv_in_mid.mp3.json",
+    "previousSelectedText": "Shiv's the man.",
+    "correctedText": "Shiv's in mid!",
+    "reason": "Sibling Forge ping line exactly matches this location callout.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/ping/mcginnis_ping_stun_cadence_01.mp3.json#980",
+    "path": "transcripts/forge/ping/mcginnis_ping_stun_cadence_01.mp3.json",
+    "previousSelectedText": "Sun cadence.",
+    "correctedText": "Stun Cadence!",
+    "reason": "Sibling Forge ping line resolves the action and character name.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/ping/mcginnis_ping_stun_gigawatt_01.mp3.json#915",
+    "path": "transcripts/forge/ping/mcginnis_ping_stun_gigawatt_01.mp3.json",
+    "previousSelectedText": "Sub-seven!",
+    "correctedText": "Stun Seven!",
+    "reason": "Sibling Forge ping line resolves the action and Gigawatt/Seven alias.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/forge/ping/mcginnis_ping_stun_seven_01.mp3.json#915",
+    "path": "transcripts/forge/ping/mcginnis_ping_stun_seven_01.mp3.json",
+    "previousSelectedText": "Sub-seven!",
+    "correctedText": "Stun Seven!",
+    "reason": "The shared-hash Gigawatt variant and sibling ping establish this exact callout.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/ghost/geist_ally_atlas_big_stun_02.mp3.json#1462",
+    "path": "transcripts/ghost/geist_ally_atlas_big_stun_02.mp3.json",
+    "previousSelectedText": "Abrams made you move.",
+    "correctedText": "Abrams made his move!",
+    "reason": "The corresponding Ghost line resolves the pronoun and complete wording.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/ghost/geist_ally_bebop_uppercut_towards_boss_03.mp3.json#1790",
+    "path": "transcripts/ghost/geist_ally_bebop_uppercut_towards_boss_03.mp3.json",
+    "previousSelectedText": "Bebop locks them into position.",
+    "correctedText": "Bebop knocked them into position.",
+    "reason": "The corresponding Ghost line supplies the action verb.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/ghost/geist_ally_cadence_killed_in_lane_01.mp3.json#1097",
+    "path": "transcripts/ghost/geist_ally_cadence_killed_in_lane_01.mp3.json",
+    "previousSelectedText": "Take a look at Cadence.",
+    "correctedText": "They took out Cadence!",
+    "reason": "The corresponding Ghost ally-kill line supplies the canonical wording.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/ghost/geist_ally_dynamo_killed_in_lane_01.mp3.json#1125",
+    "path": "transcripts/ghost/geist_ally_dynamo_killed_in_lane_01.mp3.json",
+    "previousSelectedText": "Take a cup dynamo.",
+    "correctedText": "They took out Dynamo!",
+    "reason": "The corresponding official Ghost ally-kill line supplies the canonical wording.",
+    "confidence": "high"
+  },
+  {
+    "id": "transcripts/ghost/geist_ally_yamato_kills_with_hook_03.mp3.json#1673",
+    "path": "transcripts/ghost/geist_ally_yamato_kills_with_hook_03.mp3.json",
+    "previousSelectedText": "You're really just Yamato.",
+    "correctedText": "You're relentless, Yamato.",
+    "reason": "The corresponding Ghost line resolves the garbled quote.",
+    "confidence": "high"
+  }
+]
