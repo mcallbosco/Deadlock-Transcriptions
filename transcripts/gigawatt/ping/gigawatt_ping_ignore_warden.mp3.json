@@ -4,25 +4,17 @@
   "revisions": [
     {
       "sha256": [
-        "fd58cd268cb4a3773d607f95d6b800e2c9d048da13552566d99d89e3d22b9bcb"
-      ],
-      "text": "Ignore our warning.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7ab014f3abbb5af3fe644d88ea713dff42415a054506c05713ab973cb6190165"
-      ],
-      "text": "Take no warning!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
         "dfa933a3a3996a6ad8c361088fdb45e33c2ce6755aabc33281fac64c9177ccf8"
       ],
-      "text": "Ignore Warden!",
+      "text": "Ignore Warden.",
+      "source": "manual"
+    },
+    {
+      "sha256": [
+        "7ab014f3abbb5af3fe644d88ea713dff42415a054506c05713ab973cb6190165",
+        "fd58cd268cb4a3773d607f95d6b800e2c9d048da13552566d99d89e3d22b9bcb"
+      ],
+      "text": "Ignore Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

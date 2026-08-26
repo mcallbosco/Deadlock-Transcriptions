@@ -9,6 +9,7 @@ import json
 import subprocess
 import sys
 from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -35,6 +36,34 @@ def git_recency(
 ) -> dict[str, int]:
     if not relative_paths:
         return {}
+    if len(relative_paths) <= 100:
+        def last_edit(relative_path: str) -> tuple[str, int]:
+            result = subprocess.run(
+                [
+                    "git",
+                    "-C",
+                    str(history_repo),
+                    "log",
+                    "-1",
+                    "--format=%ct",
+                    ref,
+                    "--",
+                    relative_path,
+                ],
+                check=False,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+            )
+            if result.returncode != 0 or not result.stdout.strip():
+                raise ReconciliationError(
+                    f"Git history has no edit timestamp for: {relative_path}"
+                )
+            return relative_path, int(result.stdout.strip())
+
+        with ThreadPoolExecutor(max_workers=min(8, len(relative_paths))) as executor:
+            return dict(executor.map(last_edit, sorted(relative_paths)))
     process = subprocess.Popen(
         [
             "git",
@@ -82,6 +111,24 @@ def load_documents(transcripts: Path) -> dict[Path, dict[str, Any]]:
     return {
         path: json.loads(path.read_text(encoding="utf-8"))
         for path in sorted(transcripts.rglob("*.json"))
+    }
+
+
+def conflicting_relative_paths(
+    documents: dict[Path, dict[str, Any]], repo: Path
+) -> set[str]:
+    occurrences: dict[str, list[tuple[str, tuple[str, bool]]]] = defaultdict(list)
+    for path, document in documents.items():
+        relative = path.relative_to(repo).as_posix()
+        for revision in document.get("revisions", []):
+            state = published_state(revision)
+            for digest in revision.get("sha256", []):
+                occurrences[digest].append((relative, state))
+    return {
+        relative
+        for candidates in occurrences.values()
+        if len({state for _relative, state in candidates}) > 1
+        for relative, _state in candidates
     }
 
 
@@ -225,7 +272,7 @@ def main(argv: Iterable[str] | None = None) -> int:
         repo = args.repo.resolve()
         transcripts = repo / "transcripts"
         documents = load_documents(transcripts)
-        paths = {path.relative_to(repo).as_posix() for path in documents}
+        paths = conflicting_relative_paths(documents, repo)
         history_repo = (args.history_repo or repo).resolve()
         recency = git_recency(history_repo, args.recency_ref, paths)
         report = apply_reconciliation(transcripts, recency, apply=args.apply)

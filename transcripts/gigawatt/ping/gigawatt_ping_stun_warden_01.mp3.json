@@ -12,25 +12,17 @@
     },
     {
       "sha256": [
-        "e4980805e08ab0858bde3f9ab3e284ecbe05419cb9a6058d903811b1d0494d76"
-      ],
-      "text": "Start Morgan.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3f7c1d1e19610cfb3c85043e075d96aaa6016f6966236bbb338e8c47053fec52"
-      ],
-      "text": "Stop walking.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
         "1f5234cf379c1c2aabe680dee930ca4f0d8c22b6362b18381cb1f4872da7f3d7"
       ],
-      "text": "Stun Warden!",
+      "text": "Stun Warden.",
+      "source": "manual"
+    },
+    {
+      "sha256": [
+        "3f7c1d1e19610cfb3c85043e075d96aaa6016f6966236bbb338e8c47053fec52",
+        "e4980805e08ab0858bde3f9ab3e284ecbe05419cb9a6058d903811b1d0494d76"
+      ],
+      "text": "Stun Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

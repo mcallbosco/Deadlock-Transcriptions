@@ -48,6 +48,115 @@ def load_review(review_dir: Path) -> tuple[list[dict[str, Any]], dict[str, dict[
     return items, decisions
 
 
+def reconcile_audit_objections(
+    decisions: dict[str, dict[str, Any]], review_dir: Path
+) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
+    reconciled = copy.deepcopy(decisions)
+    objections: list[dict[str, Any]] = []
+    seen: dict[str, tuple[str, str | None]] = {}
+    for path in sorted(review_dir.glob("audit-*.json")):
+        payload = json.loads(path.read_text(encoding="utf-8-sig"))
+        entries = payload.get("objections", []) if isinstance(payload, dict) else payload
+        if not isinstance(entries, list):
+            raise ValueError(f"{path}: expected an objection array")
+        for entry in entries:
+            item_id = entry.get("id")
+            if not isinstance(item_id, str):
+                raise ValueError(f"{path}: missing objection ID {item_id}")
+            signature = (str(entry.get("recommendedAction")), entry.get("replacementText"))
+            previous_signature = seen.setdefault(item_id, signature)
+            if previous_signature != signature:
+                raise ValueError(f"{path}: conflicting duplicate objection ID {item_id}")
+            if previous_signature == signature and any(
+                objection["id"] == item_id for objection in objections
+            ):
+                objections.append({**entry, "auditFile": path.name})
+                continue
+            decision = reconciled.get(item_id)
+            if decision is None or decision.get("action") not in {"choose", "correct"}:
+                raise ValueError(f"{path}: objection does not target a selected item: {item_id}")
+            action = entry.get("recommendedAction")
+            if action == "reject":
+                decision.update(
+                    {
+                        "action": "review",
+                        "selectedRevisionIndex": None,
+                        "selectedText": None,
+                        "confidence": "low",
+                        "rationale": f"Cross-audit rejected selection: {entry.get('reason', '')}",
+                    }
+                )
+            elif action == "replace":
+                replacement = entry.get("replacementText")
+                if not isinstance(replacement, str) or not replacement.strip():
+                    raise ValueError(f"{path}: replacement text is missing for {item_id}")
+                decision.update(
+                    {
+                        "action": "correct",
+                        "selectedRevisionIndex": None,
+                        "selectedText": replacement,
+                        "confidence": "high",
+                        "rationale": f"Cross-audit replacement: {entry.get('reason', '')}",
+                    }
+                )
+            else:
+                raise ValueError(f"{path}: invalid objection action {action}")
+            objections.append({**entry, "auditFile": path.name})
+    return reconciled, objections
+
+
+def reconcile_target_conflicts(
+    decisions: dict[str, dict[str, Any]], review_dir: Path
+) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
+    path = review_dir / "target-conflict-resolutions.json"
+    if not path.exists():
+        return decisions, []
+    payload = json.loads(path.read_text(encoding="utf-8-sig"))
+    groups = payload.get("groups", [])
+    if not isinstance(groups, list):
+        raise ValueError(f"{path}: expected a conflict-resolution group array")
+    reconciled = copy.deepcopy(decisions)
+    seen_items: set[str] = set()
+    for group in groups:
+        item_ids = group.get("itemIds")
+        if not isinstance(item_ids, list) or not item_ids:
+            raise ValueError(f"{path}: conflict group has no item IDs")
+        if any(not isinstance(item_id, str) or item_id in seen_items for item_id in item_ids):
+            raise ValueError(f"{path}: duplicate or invalid conflict item ID")
+        seen_items.update(item_ids)
+        action = group.get("action")
+        for item_id in item_ids:
+            decision = reconciled.get(item_id)
+            if decision is None or decision.get("action") not in {"choose", "correct"}:
+                raise ValueError(f"{path}: conflict resolution targets unselected item {item_id}")
+            if action == "reject":
+                decision.update(
+                    {
+                        "action": "review",
+                        "selectedRevisionIndex": None,
+                        "selectedText": None,
+                        "confidence": "low",
+                        "rationale": f"Shared-hash conflict rejected: {group.get('reason', '')}",
+                    }
+                )
+            elif action == "resolve":
+                text = group.get("text")
+                if not isinstance(text, str) or not text.strip():
+                    raise ValueError(f"{path}: resolved conflict has no text")
+                decision.update(
+                    {
+                        "action": "correct",
+                        "selectedRevisionIndex": None,
+                        "selectedText": text,
+                        "confidence": "high",
+                        "rationale": f"Shared-hash conflict resolved: {group.get('reason', '')}",
+                    }
+                )
+            else:
+                raise ValueError(f"{path}: invalid conflict action {action}")
+    return reconciled, groups
+
+
 def selected_targets(
     items: list[dict[str, Any]], decisions: dict[str, dict[str, Any]]
 ) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]], Counter[str]]:
@@ -63,6 +172,28 @@ def selected_targets(
         statistics[f"{action}_{confidence}"] += 1
         if action == "review":
             reviewed.append(decision)
+            continue
+        if action == "correct":
+            if decision.get("selectedRevisionIndex") is not None:
+                raise ValueError(f"{item['id']}: corrected text must not select a revision")
+            selected_text = decision.get("selectedText")
+            if not isinstance(selected_text, str) or not selected_text.strip():
+                raise ValueError(f"{item['id']}: corrected text is missing")
+            for option in item["options"]:
+                target = {
+                    "text": selected_text,
+                    "source": "generated",
+                    "model": option.get("model"),
+                    "itemId": item["id"],
+                }
+                for digest in option["hashes"]:
+                    previous = targets.setdefault(digest, target)
+                    if (previous["text"], previous["source"], previous.get("model")) != (
+                        target["text"],
+                        target["source"],
+                        target.get("model"),
+                    ):
+                        raise ValueError(f"SHA-256 {digest} has conflicting reviewed targets")
             continue
         if action != "choose":
             raise ValueError(f"{item['id']}: invalid action {action}")
@@ -85,8 +216,9 @@ def selected_targets(
         for option in item["options"]:
             for digest in option["hashes"]:
                 previous = targets.setdefault(digest, target)
-                if (previous["text"], previous.get("model")) != (
+                if (previous["text"], previous["source"], previous.get("model")) != (
                     target["text"],
+                    target["source"],
                     target.get("model"),
                 ):
                     raise ValueError(f"SHA-256 {digest} has conflicting reviewed targets")
@@ -106,17 +238,17 @@ def apply_targets_to_document(
     changes: list[dict[str, Any]] = []
     for revision in updated["revisions"]:
         retained: list[str] = []
-        replacements: dict[tuple[str, str | None], list[str]] = defaultdict(list)
+        replacements: dict[tuple[str, str, str | None], list[str]] = defaultdict(list)
         for digest in revision_hashes(revision):
             target = targets.get(digest)
             if target is None or (
-                revision.get("source") == "generated"
+                revision.get("source") == target["source"]
                 and revision.get("text") == target["text"]
                 and revision.get("model") == target.get("model")
             ):
                 retained.append(digest)
                 continue
-            replacements[(target["text"], target.get("model"))].append(digest)
+            replacements[(target["text"], target["source"], target.get("model"))].append(digest)
             changes.append(
                 {
                     "path": relative_path,
@@ -130,11 +262,11 @@ def apply_targets_to_document(
             preserved = copy.deepcopy(revision)
             preserved["sha256"] = sorted(retained)
             output.append(preserved)
-        for (text, model), hashes in replacements.items():
+        for (text, source, model), hashes in replacements.items():
             replacement: dict[str, Any] = {
                 "sha256": sorted(hashes),
                 "text": text,
-                "source": "generated",
+                "source": source,
             }
             if model:
                 replacement["model"] = model
@@ -176,6 +308,8 @@ def main(argv: Iterable[str] | None = None) -> int:
     repo = args.repo.resolve()
     review_dir = args.review_dir if args.review_dir.is_absolute() else repo / args.review_dir
     items, decisions = load_review(review_dir)
+    decisions, audit_objections = reconcile_audit_objections(decisions, review_dir)
+    decisions, conflict_resolutions = reconcile_target_conflicts(decisions, review_dir)
     targets, reviewed, statistics = selected_targets(items, decisions)
     changes, changed_files = apply_repo(repo, targets, apply=args.apply)
     report = {
@@ -184,13 +318,21 @@ def main(argv: Iterable[str] | None = None) -> int:
         "reviewItems": len(items),
         "statistics": {
             **dict(statistics),
-            "selectedItems": sum(decision["action"] == "choose" for decision in decisions.values()),
+            "selectedItems": sum(
+                decision["action"] in {"choose", "correct"} for decision in decisions.values()
+            ),
+            "chosenItems": sum(decision["action"] == "choose" for decision in decisions.values()),
+            "correctedItems": sum(
+                decision["action"] == "correct" for decision in decisions.values()
+            ),
             "heldForReviewItems": len(reviewed),
             "targetHashes": len(targets),
             "changedFiles": changed_files,
             "changedHashOccurrences": len(changes),
         },
         "heldForReview": reviewed,
+        "auditObjections": audit_objections,
+        "targetConflictResolutions": conflict_resolutions,
         "changes": changes,
     }
     if args.apply:
