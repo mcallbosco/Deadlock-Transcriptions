@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "05dff8cf37311e486acd09da2530da7e3db8f43426d47e8dc25d33036050f913",
         "63fda7da31c6b6cdec0f1b17ce98e8ee5528b466302b9c3d6ffd6625f340493a"
       ],
-      "text": "I'm with you, breakfast.",
+      "text": "I'm with you, Fairfax.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "05dff8cf37311e486acd09da2530da7e3db8f43426d47e8dc25d33036050f913"
-      ],
-      "text": "I'm with you, Bearfax.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

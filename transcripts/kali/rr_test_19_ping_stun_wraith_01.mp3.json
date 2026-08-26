@@ -5,19 +5,12 @@
     {
       "sha256": [
         "18a1e3f3018892fed087ae9b600c0800ff0573d979b1f652bf895412ce2dbe5a",
+        "edaaf7d6c070fca100bba90ace8e60b9b17d5144fa92b4796022b25d7a2e07e4",
         "f7d7dd5e271e9bbba361e4c31a522da9de0bef38441f43a67a31075ba6ea09dd"
       ],
-      "text": "Stop Wraith!",
+      "text": "Stun Wraith.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "edaaf7d6c070fca100bba90ace8e60b9b17d5144fa92b4796022b25d7a2e07e4"
-      ],
-      "text": "It's not Wraith!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

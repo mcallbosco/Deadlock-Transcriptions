@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "0c2e4d068b1fbfa1008acf7ca3f1fb75cfe0173df5f80806d2126d644f15e92e",
         "7e2bacf0d8fd3a47c8d5d4c078cd1f6e591c60d2f8bea23c6e68b2901ca09e6d"
       ],
-      "text": "Records on the bridge!",
+      "text": "Wrecker's on the bridge!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0c2e4d068b1fbfa1008acf7ca3f1fb75cfe0173df5f80806d2126d644f15e92e"
-      ],
-      "text": "Recognize the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

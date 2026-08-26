@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "65f812b53d8003d9099044190e40b523aa8bc0d7823bdff1874b63feb5738969",
         "755531f9f1feea3a03d8d4893c689d8ae9140c233665291396c307ea456a5009"
       ],
-      "text": "Paddle's gonna be on the bridge.",
+      "text": "Idol's gonna be on the bridge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "65f812b53d8003d9099044190e40b523aa8bc0d7823bdff1874b63feb5738969"
-      ],
-      "text": "Battle's gonna be on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

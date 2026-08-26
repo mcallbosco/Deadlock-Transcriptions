@@ -5,19 +5,12 @@
     {
       "sha256": [
         "37209f2b3db00a6385cfb3dcf47ee506d4a96464771b8a2355217ba6f803b8d9",
+        "8fa1737ebe36bb99383440520939fbaba9f7f2cd0d70f43b04b69f89b039cc0f",
         "a6740b0d3dd30c1b48e7d5db395f2cbd8ce49eeadb94b19b2d0a544ab8abf28a"
       ],
-      "text": "I can smell him.",
+      "text": "I can smell 'em.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "8fa1737ebe36bb99383440520939fbaba9f7f2cd0d70f43b04b69f89b039cc0f"
-      ],
-      "text": "I can smell them.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

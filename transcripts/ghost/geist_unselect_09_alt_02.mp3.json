@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "02bf768f69daa67da4a9ca4f45e32f328eb05ee5d0e97fea4d86922b6dd4642e",
         "04af3fd36e92cd2b77f25b09cf7fd3aae2518579609efc0649f02d86ebdec0e8"
       ],
-      "text": "Keep your name, I'll be at the vent.",
+      "text": "If you need me, I'll be at the Met.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "02bf768f69daa67da4a9ca4f45e32f328eb05ee5d0e97fea4d86922b6dd4642e"
-      ],
-      "text": "If you need me, I'll be at the neck.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

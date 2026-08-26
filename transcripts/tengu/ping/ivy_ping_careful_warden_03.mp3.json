@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "7970080b476f5c10a5c8e128da502f0959f26c0fde24ccede89071976bb0c257",
         "ee7f9c5c16ad8fb0f0a2f03901b3ff80d78efa20bdc406c1a9097f8885c1aa0b"
       ],
-      "text": "Captain warning!",
+      "text": "Careful, Warden!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7970080b476f5c10a5c8e128da502f0959f26c0fde24ccede89071976bb0c257"
-      ],
-      "text": "Careful, Arden!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "2e2d79688a3cba1bc91a3f01aae8df275d70c6db38ea03f32ad1e98414f0d1fc",
         "5cb6f508cd99ba91cab9f5066dab646b53305daa53032bfc0f59f1e8625fe41d"
       ],
-      "text": "That's a close call.",
+      "text": "I was so close.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "2e2d79688a3cba1bc91a3f01aae8df275d70c6db38ea03f32ad1e98414f0d1fc"
-      ],
-      "text": "I'm so close.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

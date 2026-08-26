@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "2ba5543eb251fd74516c6d51976ce4f7d327ba7d432e1cdd0a686b9b51819d51",
         "5093ac4135f5fa2c96042fea179ca08f4a04f408a76666241a2b8d07bb15de03"
       ],
-      "text": "I will stop the healing.",
+      "text": "This will stop their healing.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "2ba5543eb251fd74516c6d51976ce4f7d327ba7d432e1cdd0a686b9b51819d51"
-      ],
-      "text": "Careful stop their healing.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

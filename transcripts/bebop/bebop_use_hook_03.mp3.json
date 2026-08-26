@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "d5fa72ac63d8cf09dcfed19726cda50e40b6a71de7d0b06c74f6821929c3018b",
         "fdd8976e286bd427c927ef7d3ff69455d2ce2c0a63dcd6862b52ea17768fcea3"
       ],
-      "text": "I'm gonna grab him!",
+      "text": "Gonna grab him!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "d5fa72ac63d8cf09dcfed19726cda50e40b6a71de7d0b06c74f6821929c3018b"
-      ],
-      "text": "I'm gonna grab them!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

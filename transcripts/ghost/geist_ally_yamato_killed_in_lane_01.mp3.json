@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "77dd557e57c66f93e1b632a67f9f6dbc89fc02f750cd40471a0bcc1f0b3c4889",
         "ff49743c70e1a97d37270efa0e32ec7a36e01762b0e7452230b74665a21055b9"
       ],
-      "text": "They do catch Yamato.",
+      "text": "They took out Yamato.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "77dd557e57c66f93e1b632a67f9f6dbc89fc02f750cd40471a0bcc1f0b3c4889"
-      ],
-      "text": "They do cut Yamato.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

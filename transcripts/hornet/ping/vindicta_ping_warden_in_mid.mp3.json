@@ -12,27 +12,13 @@
     },
     {
       "sha256": [
+        "50a5bdfeb8d98a0745b795cbc267e313992bdea5c0b332cc7f990c41e2c7f3be",
+        "98e226421881d6bb9a0b0974bd3c0c055445e0ed665c9308e822d2e6889590b8",
         "a14bfe0358f01a5217d6da609a7a01fbc70288894a2032bf2d171a0d164908df"
       ],
-      "text": "Warden's inmate.",
+      "text": "Warden's in mid.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "50a5bdfeb8d98a0745b795cbc267e313992bdea5c0b332cc7f990c41e2c7f3be"
-      ],
-      "text": "More than image.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "98e226421881d6bb9a0b0974bd3c0c055445e0ed665c9308e822d2e6889590b8"
-      ],
-      "text": "Modern Image.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

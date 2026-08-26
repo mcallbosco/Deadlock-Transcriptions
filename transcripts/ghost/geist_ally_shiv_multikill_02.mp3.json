@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "2a5762dbb5f7310e30cd4de288d409e0e4195bb16a02268f6a68b3f8fc2911b1",
         "6586b3cde315cefe5159cba1afb2e021d476e748c94e575f0f80cda0d5421262"
       ],
-      "text": "Razman is a terror.",
+      "text": "That man is a terror.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "2a5762dbb5f7310e30cd4de288d409e0e4195bb16a02268f6a68b3f8fc2911b1"
-      ],
-      "text": "Redman is a terror.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "0bc3e8025897bce43123156a6176d82aeac9f835c420f41c62b50851cb85e439",
         "dbc0259d6c0b9a2f3e81c73ed89691821fa58745e52c5d7ff833e7b5ef27f504"
       ],
-      "text": "We have plenty of time, Warden.",
+      "text": "We have plenty of time for revenge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0bc3e8025897bce43123156a6176d82aeac9f835c420f41c62b50851cb85e439"
-      ],
-      "text": "We have plenty of time, Marlowe.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

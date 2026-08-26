@@ -20,19 +20,12 @@
     },
     {
       "sha256": [
+        "389ddfd09fab6e6e18174887ede64681ae3bb6e107a7be570be094ae51fdb569",
         "43364551fd77593205e1ae4df95d1f3c398d5d2af0c3529a2d95dfe5621c00e6"
       ],
-      "text": "You ask for this, Wrecker.",
+      "text": "You asked for this, Wrecker.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "389ddfd09fab6e6e18174887ede64681ae3bb6e107a7be570be094ae51fdb569"
-      ],
-      "text": "You asked for this, Reckoner.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

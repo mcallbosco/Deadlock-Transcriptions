@@ -12,27 +12,13 @@
     },
     {
       "sha256": [
+        "7ab849ff2893e2c54a35599e89b20b301a40196d9ccb09ee58fd5592ced1df2b",
+        "7fbfc56fd74e4cb41bfe34d76edb2d5ea8e9da96726d38899c10e7e99d0584cc",
         "ed1a21279adeea720903b3c1282e779f4762a72d052f5221de9c4a9341505c35"
       ],
-      "text": "There's a Spearton on the bridge!",
+      "text": "There's a Spirit Jar on the bridge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7fbfc56fd74e4cb41bfe34d76edb2d5ea8e9da96726d38899c10e7e99d0584cc"
-      ],
-      "text": "This is Vision on the breach!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7ab849ff2893e2c54a35599e89b20b301a40196d9ccb09ee58fd5592ced1df2b"
-      ],
-      "text": "This version on the breach!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "10407411345074d18f3016eaf7dc147665e886706ab84c188c5c462433e4dcaf",
         "b3c8361b36f13fe5939816815d688a2757547b83973834a814ebb694e0cd0d62"
       ],
-      "text": "I need this.",
+      "text": "I needed this.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "10407411345074d18f3016eaf7dc147665e886706ab84c188c5c462433e4dcaf"
-      ],
-      "text": "We need a base.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

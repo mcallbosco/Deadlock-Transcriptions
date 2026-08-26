@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "3fb9d4dfe5153e6c67b9d5c6eb0515062320ef5e33e5413fd1074d5e214c9217",
         "dc48d36642a9848cacb7809a164ce966fef948d1f0f5996f640496827bebec30"
       ],
-      "text": "They can keep the money! We've got what we came for.",
+      "text": "They can keep the money. We got what we came for.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3fb9d4dfe5153e6c67b9d5c6eb0515062320ef5e33e5413fd1074d5e214c9217"
-      ],
-      "text": "We can keep the money. We've got what we came for.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }
