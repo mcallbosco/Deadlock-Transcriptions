@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "acc3067b89a55a9eb68b87357a4f005b26652ff22c2052251e9551b9647aa9d6",
         "d3b925e105f1d5f4274d7b8ea98667a405fdb342fa2c49f4f82887c50e95eae5"
       ],
-      "text": "I just get in gear.",
+      "text": "I should get some gear.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "acc3067b89a55a9eb68b87357a4f005b26652ff22c2052251e9551b9647aa9d6"
-      ],
-      "text": "I gettin' gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

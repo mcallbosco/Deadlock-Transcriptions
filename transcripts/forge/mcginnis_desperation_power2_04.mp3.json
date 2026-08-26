@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "2d13f0f18ae5fddb53d2e94f141d477ec92f5b69be06e953ed7df300a8ea2700",
         "54356a743805e67cd6115780b33c3326d45a7cae008688302a31723b0c8914b3"
       ],
-      "text": "This is the way.",
+      "text": "You just need a breather.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "2d13f0f18ae5fddb53d2e94f141d477ec92f5b69be06e953ed7df300a8ea2700"
-      ],
-      "text": "It's not my day.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "8851ca418d70625393702260c784ea4a6793d11b762408b06397e1bdbd3b918a",
         "ec53c2ce2deddbaa068c923490a62037056e605e59d54c70cfce35f3309603e6"
       ],
-      "text": "Kemen is nervous for his dissertation defense.",
+      "text": "I haven't been this nervous since my dissertation defense.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "8851ca418d70625393702260c784ea4a6793d11b762408b06397e1bdbd3b918a"
-      ],
-      "text": "Jim is nervous for his dissertation defense.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

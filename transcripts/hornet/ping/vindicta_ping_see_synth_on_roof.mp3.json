@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "585c380b141875d100ade3e65570039722f64ddadac538d2a7629c4145a9ceb2",
         "a7ca5e9973515190639d395a5d3ae93ab919d67317861a55a289aa1f6147bed5"
       ],
-      "text": "Come as I please!",
+      "text": "Pocket's on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "585c380b141875d100ade3e65570039722f64ddadac538d2a7629c4145a9ceb2"
-      ],
-      "text": "How does that feel?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

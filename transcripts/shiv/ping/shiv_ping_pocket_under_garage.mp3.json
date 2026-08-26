@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "4b3536478982b2edffefb52d86f2bec5894f3f6161a35d86412c31367f8df860",
         "b1f43027ef3012b456ea9e5388a509b17181bceb6dfd9a24a9912c088b0395ca"
       ],
-      "text": "This is the rush.",
+      "text": "Pocket's under the garage!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4b3536478982b2edffefb52d86f2bec5894f3f6161a35d86412c31367f8df860"
-      ],
-      "text": "That's the rush!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

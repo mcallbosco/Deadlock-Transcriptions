@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "49623e10ff48304ea90fc7a99ac1ad84bed979645e855fe4de5367ac59b0af00",
         "dabde6c09584bb46ebe91c8d4d465d97b07d5f91afd54e0603690c5902e31871"
       ],
-      "text": "Get over here!",
+      "text": "Careful, Wrecker!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "49623e10ff48304ea90fc7a99ac1ad84bed979645e855fe4de5367ac59b0af00"
-      ],
-      "text": "Can't break her!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

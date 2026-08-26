@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "44718a4ab01f8ec2eba8b04f900f3377027e8d497d931680402bf52e2e19c408",
         "8ca80eca97d4eb465bd9aca63790ee377498af58a23746314eac131ea2fc71ca"
       ],
-      "text": "That's one tough cookie.",
+      "text": "That one's tough to kill.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "44718a4ab01f8ec2eba8b04f900f3377027e8d497d931680402bf52e2e19c408"
-      ],
-      "text": "That one's just too cute.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

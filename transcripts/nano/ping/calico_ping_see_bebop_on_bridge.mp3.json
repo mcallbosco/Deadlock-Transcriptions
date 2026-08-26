@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "9451069e15623930ef0b42c9cf4281ca9c83ffcbe2df1dfb16d8134a1f4299f6",
         "a5ee87d92f6094f5e0fe587ea798aa0af92210546cf87e39127c32e4ce432256"
       ],
-      "text": "Give up on the bridge!",
+      "text": "Bebop's on the bridge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "9451069e15623930ef0b42c9cf4281ca9c83ffcbe2df1dfb16d8134a1f4299f6"
-      ],
-      "text": "Keep up on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

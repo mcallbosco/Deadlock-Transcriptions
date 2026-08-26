@@ -4,7 +4,6 @@
   "revisions": [
     {
       "sha256": [
-        "2f4c685fbcddf81f0951525152f8ecde1399cb6c73d34a6216dcb0dbb69a3ddf",
         "aa6ae889ef4544582482f047a42bb81163fa05e19555093d140220cc8b5d3e3a"
       ],
       "text": "Felis is on the bridge.",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
+        "2f4c685fbcddf81f0951525152f8ecde1399cb6c73d34a6216dcb0dbb69a3ddf",
         "8e5ea220f57dd04c9d33ed6c57c74d342e5d737cbf6276e64773d297b767ecb3"
       ],
-      "text": "Felix is on the bridge.",
+      "text": "Ballista's on the bridge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

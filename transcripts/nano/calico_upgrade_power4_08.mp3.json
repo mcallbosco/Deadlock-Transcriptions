@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "3f4c1480ce65e7e5e04ee1c49bc20c6183eba9ace43a33c6eb189f8dc89de404",
         "88f5cb2dc9e31cf6daec6fc705ff2edf876d42f1a0d0a907daeae423196d46f1"
       ],
-      "text": "You fell into my trap.",
+      "text": "They'll fall into my trap.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3f4c1480ce65e7e5e04ee1c49bc20c6183eba9ace43a33c6eb189f8dc89de404"
-      ],
-      "text": "You're falling into my trap.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "641d96beb198701256b249f912c29b47c449367ab2e60f1d7e973cb240617d52",
         "a50eb76270eed3e1884fbd068b85b80c9e0f38dea44a72cda536e90fcfc2a47e"
       ],
-      "text": "Attack me, he is.",
+      "text": "I thought we had this.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "641d96beb198701256b249f912c29b47c449367ab2e60f1d7e973cb240617d52"
-      ],
-      "text": "How do we handle this?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

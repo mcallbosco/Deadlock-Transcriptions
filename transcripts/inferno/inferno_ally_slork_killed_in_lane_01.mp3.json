@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "4f7abadbae4396fdf34e56e59408ce9130b86817185c716eedb4f1898bbbef46",
         "54957c779089f129fa1f74cd166016eb45cba629b6e9befa92eef7bf206126d4"
       ],
-      "text": "Get your cows, Slork!",
+      "text": "They took out Slork.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4f7abadbae4396fdf34e56e59408ce9130b86817185c716eedb4f1898bbbef46"
-      ],
-      "text": "Kickoff Slork.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

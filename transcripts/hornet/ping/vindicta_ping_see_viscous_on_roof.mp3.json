@@ -12,27 +12,13 @@
     },
     {
       "sha256": [
+        "468ef80ba7b86e79738a58a81fe84dcec9156408e682f65d3f4b425937ea3fc7",
+        "50abbe47e72a6695d3c1affcc55ef981ed3d32610df79fc1e373752926a47271",
         "b7a655f63ebc7d965922ba0e3f504156fa14201b5ad20bcb1445cbfdcdee09bb"
       ],
-      "text": "This kid's on the roof!",
+      "text": "Viscous is on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "468ef80ba7b86e79738a58a81fe84dcec9156408e682f65d3f4b425937ea3fc7"
-      ],
-      "text": "This is the",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "50abbe47e72a6695d3c1affcc55ef981ed3d32610df79fc1e373752926a47271"
-      ],
-      "text": "Thank you, son of a",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

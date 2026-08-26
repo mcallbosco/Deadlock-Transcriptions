@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "5eb853bbc6c67e8bc6874037b24fd656c36ab65f8209a335c7adde8c4b1b8b11",
         "d9e12bfbd8f81e34fafdd858cd60a98b26009430417b8ca30a44d08db7c0c147"
       ],
-      "text": "This is not your son!",
+      "text": "They took out Yamato.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "5eb853bbc6c67e8bc6874037b24fd656c36ab65f8209a335c7adde8c4b1b8b11"
-      ],
-      "text": "This is a yellow zone!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

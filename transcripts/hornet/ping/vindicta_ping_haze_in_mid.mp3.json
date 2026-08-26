@@ -12,27 +12,13 @@
     },
     {
       "sha256": [
+        "4def41cb06f16e5b39d18eeffada2d212943ce981f68caf951eb5b59c5385ea6",
+        "4e3812b666800613472e91db5ba36d6deb4bae28eecf1266c61d4cc81ee02d0b",
         "a806f617204be5268ead04dfe983c12d1835073a4fd158002eb315b49110b5fd"
       ],
-      "text": "Hey, is this inmate?",
+      "text": "Haze is in mid.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4e3812b666800613472e91db5ba36d6deb4bae28eecf1266c61d4cc81ee02d0b"
-      ],
-      "text": "Hey, see me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4def41cb06f16e5b39d18eeffada2d212943ce981f68caf951eb5b59c5385ea6"
-      ],
-      "text": "Paste me!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

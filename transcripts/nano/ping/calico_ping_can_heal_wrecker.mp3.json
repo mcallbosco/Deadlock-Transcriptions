@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "66aea6feb2d94bf6460e691750f14cc36bc7865e1b0992a2e41de89e93f8a576",
         "8c14ccc1e2e9e2788526f80aae6670de1175ef8eb90556448ba64cdde42314b1"
       ],
-      "text": "Rika, I can heal you.",
+      "text": "Wrecker, I can heal you.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "66aea6feb2d94bf6460e691750f14cc36bc7865e1b0992a2e41de89e93f8a576"
-      ],
-      "text": "Quick, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

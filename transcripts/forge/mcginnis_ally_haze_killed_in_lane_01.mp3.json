@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "e2f0abbd6876d519954e62dfbf885455dd43a610aff098ef5ce28bf032407753",
         "e3b11843fe344bdb000f28bec1d50c39ed6595aeadc28bc14557316831d73039"
       ],
-      "text": "Nice to meet you.",
+      "text": "They took out Haze.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "e2f0abbd6876d519954e62dfbf885455dd43a610aff098ef5ce28bf032407753"
-      ],
-      "text": "Thanks for that, Ace.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

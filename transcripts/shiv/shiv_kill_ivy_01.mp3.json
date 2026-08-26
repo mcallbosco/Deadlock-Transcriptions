@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "80572558989f65d6496dfcc19bce9f8c60265b26fd33132bfea9becfacfbe5b3",
         "b247855571eff6d0802acdd87069d24eff5f98f8740e8569d92516a0cfbd245c"
       ],
-      "text": "You see nice.",
+      "text": "She seemed nice.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "80572558989f65d6496dfcc19bce9f8c60265b26fd33132bfea9becfacfbe5b3"
-      ],
-      "text": "See you next.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

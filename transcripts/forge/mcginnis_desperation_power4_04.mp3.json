@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "8310244a64c8b7b2b9f6002636e8ff7bbbac948b325a93a7fe1717fcd6ba451a",
         "bd64e784e4cbe7d829fd973634bb080575c9a302c1f99a569ae2486fc448d377"
       ],
-      "text": "See you in class.",
+      "text": "Sending barrage.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "8310244a64c8b7b2b9f6002636e8ff7bbbac948b325a93a7fe1717fcd6ba451a"
-      ],
-      "text": "See you in the class!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

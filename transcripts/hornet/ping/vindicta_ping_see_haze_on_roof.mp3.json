@@ -12,27 +12,13 @@
     },
     {
       "sha256": [
+        "00d42a6bae3265b60153956510370ca45787849378419cef305bf1994ec8fa94",
+        "51c3cb2d3acea08432fe1f3096f4331a61ff01d85a6b5474e12ce930190b434f",
         "b2e13a2d6aba5a0efe9360df8cc561e0c8b3d530cfb277b7857e0eb542b50460"
       ],
-      "text": "Hey, this is on the roof!",
+      "text": "Haze is on the roof.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "00d42a6bae3265b60153956510370ca45787849378419cef305bf1994ec8fa94"
-      ],
-      "text": "Peace on the moon.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "51c3cb2d3acea08432fe1f3096f4331a61ff01d85a6b5474e12ce930190b434f"
-      ],
-      "text": "Peace on the move.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

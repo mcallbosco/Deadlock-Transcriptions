@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "4fb8eb28ed65a31543e86220eeb974b956b025418f86423f07253865c5797d8d",
         "af956b63727803edcf9b90c9f74a21ebc2566e81c33ff5e35850eadaaa27050c"
       ],
-      "text": "Tats!",
+      "text": "Curse!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4fb8eb28ed65a31543e86220eeb974b956b025418f86423f07253865c5797d8d"
-      ],
-      "text": "Thanks!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

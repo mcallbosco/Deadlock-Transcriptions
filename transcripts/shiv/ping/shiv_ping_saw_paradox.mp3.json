@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "8418e3c992461da35a6014f0467ea5ec61f2aaf4c3f76c700658848051608a82",
         "ac83662b5a9901430a22f622bc9dbba042d7aff51431ce5d31eca14dae4e6466"
       ],
-      "text": "I saw carrots!",
+      "text": "I saw Paradox.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "8418e3c992461da35a6014f0467ea5ec61f2aaf4c3f76c700658848051608a82"
-      ],
-      "text": "A Sogrex.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

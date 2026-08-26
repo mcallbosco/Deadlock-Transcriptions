@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "6b02afe9a6b3ac23eacb8e81a37c3cac7f49538cb222fc41f6ece0fef95630f7",
         "ce09f35e871980550b8fc78218ffebfeb40e866662b247d0f348f045e9159961"
       ],
-      "text": "Nothing was here.",
+      "text": "Murphy was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "6b02afe9a6b3ac23eacb8e81a37c3cac7f49538cb222fc41f6ece0fef95630f7"
-      ],
-      "text": "Love he was here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "6046e01fdccdaf97d434f4223f4fb5ea61da8922cf44510d6b899b0048003098",
         "8eb46d7c30a27662151c5c6ff4aac4ebe7211015b001fb5420cb5f1cd89edc83"
       ],
-      "text": "I see they have a sword.",
+      "text": "I should see what they have at the store.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "6046e01fdccdaf97d434f4223f4fb5ea61da8922cf44510d6b899b0048003098"
-      ],
-      "text": "I see the other storm.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

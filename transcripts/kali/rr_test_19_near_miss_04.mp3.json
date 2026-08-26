@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "961aad1530cd0065462106aef733af098a25459d8fa0f5bead578b7f86d94089",
         "e9f8957b106610b85ba8a65ab2d8eb3618eee962de02bbffd28d983442208da7"
       ],
-      "text": "I'll be back.",
+      "text": "I'll be ready next time.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "961aad1530cd0065462106aef733af098a25459d8fa0f5bead578b7f86d94089"
-      ],
-      "text": "I'll be waiting, Ash.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "6357ebf27d278bc01a9ba7ada3f9ec12b1693dd17366260fae6ed4e66be5677b",
         "cd2d51ce99796511294250b82f2e299112bfa87ea0e837ae4f982a043c21a846"
       ],
-      "text": "Corrales, over here!",
+      "text": "Krill is over here!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "6357ebf27d278bc01a9ba7ada3f9ec12b1693dd17366260fae6ed4e66be5677b"
-      ],
-      "text": "Please, over here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

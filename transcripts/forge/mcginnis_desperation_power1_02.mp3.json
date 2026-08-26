@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "122580b39cca5a38fea1f3220ccf5568c9f075708c02052eb1cfc51a481b8708",
         "a9e9d425e365d6ad226f8c27e6ba001eb4c1b46c6a5eae0a138458687780dcd3"
       ],
-      "text": "I'll see you later.",
+      "text": "Please kill something.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "122580b39cca5a38fea1f3220ccf5568c9f075708c02052eb1cfc51a481b8708"
-      ],
-      "text": "That's not me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

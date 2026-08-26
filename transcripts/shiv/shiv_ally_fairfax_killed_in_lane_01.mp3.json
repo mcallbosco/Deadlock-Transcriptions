@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "d0395bcb6a0ebfc137a73ce94cd9e6d0fe751daa33903b9f87bc81794b049b1f",
         "dcdde76e26b0d43fe8f9d3c22d3eada7d2694dcd6b71498f49a4232111360757"
       ],
-      "text": "That's the sound.",
+      "text": "Fairfax is down.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "d0395bcb6a0ebfc137a73ce94cd9e6d0fe751daa33903b9f87bc81794b049b1f"
-      ],
-      "text": "Success is now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

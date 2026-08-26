@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "b7947e4cb82ce777ea38fd146064652fd589324775c460ce461a14e1a0007fae",
         "f9a4343ffea4549372eb49f82459f3f2148b149cef807067007cefd6f5f40a7e"
       ],
-      "text": "That doesn't hack it!",
+      "text": "There's the detective!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "b7947e4cb82ce777ea38fd146064652fd589324775c460ce461a14e1a0007fae"
-      ],
-      "text": "That's it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

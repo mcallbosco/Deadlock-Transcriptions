@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "3230e35de65a37d87c8048c1c2959979f78942e1e75c2c2f66a0024a44733e32",
         "a86ee913474aa47137552f9195be4190a0bd6290502697625a166f557d57742f"
       ],
-      "text": "She closed it too fast.",
+      "text": "She closed the distance fast.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3230e35de65a37d87c8048c1c2959979f78942e1e75c2c2f66a0024a44733e32"
-      ],
-      "text": "She calls it the fast.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,7 +4,6 @@
   "revisions": [
     {
       "sha256": [
-        "936abe6cdfa11dc30b52d81cf75969de16d129745addeea92ab8454a00fbc1f0",
         "c692e91720414a87337729c5774c219d96a6d0439d7597b82e87630204c39809"
       ],
       "text": "We need that algo.",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
-        "3c1b4b1ac9b43579bb3463de7adc4fade5d0de67671a600578f3f44b1f761169"
+        "3c1b4b1ac9b43579bb3463de7adc4fade5d0de67671a600578f3f44b1f761169",
+        "936abe6cdfa11dc30b52d81cf75969de16d129745addeea92ab8454a00fbc1f0"
       ],
-      "text": "We need that egg.",
+      "text": "Comms, we need that item.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

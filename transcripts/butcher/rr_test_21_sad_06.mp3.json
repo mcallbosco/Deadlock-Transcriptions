@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "58e3de03db9a26cc4f3f8595687605e33108205628862749105f43ef6a77c967",
         "8307fb15937b9e9f997e5d9fbcbffb33eb31c13262033f0f7b5abcacc1ebcbf2"
       ],
-      "text": "Speak be how it is.",
+      "text": "This can't be how it ends.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "58e3de03db9a26cc4f3f8595687605e33108205628862749105f43ef6a77c967"
-      ],
-      "text": "Ask me how it ends.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

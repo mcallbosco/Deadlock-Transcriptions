@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "11a0e7bc8c9a87994e09c1e266f52579385ada75c14b0ae4f9334cb12b031667",
         "12077da53156bbc23de9a512c2cf6fcd8913ab7d70a123333faee3324b18a89f"
       ],
-      "text": "Sicious bomb!",
+      "text": "Stasis bomb.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "11a0e7bc8c9a87994e09c1e266f52579385ada75c14b0ae4f9334cb12b031667"
-      ],
-      "text": "Sages bomb!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

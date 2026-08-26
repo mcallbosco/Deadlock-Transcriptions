@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "835dbe633ee22d19b3d4ea3f10098007d4ab9a405c6406d86355fe9cff030f53",
         "aa60ca85ade8b7cab7e52ddc19db0909b51d48613c28251f3e484717ed8c1bae"
       ],
-      "text": "Guess you are free.",
+      "text": "Best two out of three.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "835dbe633ee22d19b3d4ea3f10098007d4ab9a405c6406d86355fe9cff030f53"
-      ],
-      "text": "That's what I'm free.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "5889b1828616df0299a1bae64b1a7052be46021dd71077343515d9670335ccd9",
         "d5952a02a3f996b2fc19b2bc829a3b9042d7b16cd17b14cacfb8d07cc0b96b3e"
       ],
-      "text": "That's it, Shiv!",
+      "text": "I see Shiv!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "5889b1828616df0299a1bae64b1a7052be46021dd71077343515d9670335ccd9"
-      ],
-      "text": "That's it!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

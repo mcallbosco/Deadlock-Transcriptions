@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "6de580db2412018070ea4c0462d0a744067e5f71bb53434dc6a09e881cdc99df",
         "eb433e44d375f8428e0a2475f43f367731aa9db549c11626e920a10992e6ccbf"
       ],
-      "text": "Come knock 'em down!",
+      "text": "I'll knock 'em down!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "6de580db2412018070ea4c0462d0a744067e5f71bb53434dc6a09e881cdc99df"
-      ],
-      "text": "Calm that shit down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

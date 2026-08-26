@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "680a62bc68ff1de2fc0852af2db115e57958b9f7e975c1673aaebdd6f8fc2b8a",
         "ab92cc0cf637917757b2b99d19af3637669dd66c1bcaf82ec9179f99235c4d2e"
       ],
-      "text": "This is brass.",
+      "text": "Pocket's on top of the garage.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "680a62bc68ff1de2fc0852af2db115e57958b9f7e975c1673aaebdd6f8fc2b8a"
-      ],
-      "text": "This was rushed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

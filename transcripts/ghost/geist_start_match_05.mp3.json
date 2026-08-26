@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "5174e7a70ad8c466fc2b5f28eecf9cbb669335ef6ff2aa9a14cf2f54ba155855",
         "ebffd5e3b6cdc9ab2b282864d0318718a7454a10dbe521203757c46efcb00245"
       ],
-      "text": "We keep these appointments.",
+      "text": "The eclipse is upon us.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "5174e7a70ad8c466fc2b5f28eecf9cbb669335ef6ff2aa9a14cf2f54ba155855"
-      ],
-      "text": "We keep the season",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

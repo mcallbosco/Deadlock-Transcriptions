@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "173755ce110fa0091b69fe106f8683d4765fc1d8f4454a4f4af6b7c02b1f84c0",
         "cbd3a0f1a40157bd49c11c0a7e6bcfd63eb656ce624983032cf49edd69df5a05"
       ],
-      "text": "Now this lands on me.",
+      "text": "Now this is what I'm talking about.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "173755ce110fa0091b69fe106f8683d4765fc1d8f4454a4f4af6b7c02b1f84c0"
-      ],
-      "text": "Now this one runs on",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "b874475287c741dbfa6fa0777598f296844ae1a7e9f01a761bd32d3f952d0553",
         "d8e040ee5fb3e5e56d9d4c8de655076d113ba9d9174f6d156fccebe92c654153"
       ],
-      "text": "Inside the cave.",
+      "text": "Infernus is on the roof.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "b874475287c741dbfa6fa0777598f296844ae1a7e9f01a761bd32d3f952d0553"
-      ],
-      "text": "Is that a sky?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

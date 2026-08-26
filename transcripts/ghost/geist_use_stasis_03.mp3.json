@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "336ed66bbf9f9dc0f2568f0c34e88132f401b205f0703a078a4fd683bb6f9f79",
         "4c7419a47e79a43b44871eda7c7616ac4ecbd957b3029b2f5ac97d1c20358595"
       ],
-      "text": "What in the streets?",
+      "text": "Nothing gets through this!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "336ed66bbf9f9dc0f2568f0c34e88132f401b205f0703a078a4fd683bb6f9f79"
-      ],
-      "text": "What in the stew is this?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

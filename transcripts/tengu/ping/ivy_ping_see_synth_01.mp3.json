@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "0a6cdb9fd814537f61163968a7e1deea0499247cf5c557a58f0f806bdd431740",
         "9ec9114325165fcaff99eecc24218bb4ee788b8b061d74d32682d1b980be7909"
       ],
-      "text": "That's it, pocket!",
+      "text": "I see Pocket!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0a6cdb9fd814537f61163968a7e1deea0499247cf5c557a58f0f806bdd431740"
-      ],
-      "text": "That's the bucket!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "825c12a856799345ae91b677f3cf72558ab3697d248e169e450899e345e0ca1d",
         "dae8afb9c1289b54494993dc5f5d9d9161387826cc90c312f6259e8aa7de9d99"
       ],
-      "text": "Kill us.",
+      "text": "Careful, Lash.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "825c12a856799345ae91b677f3cf72558ab3697d248e169e450899e345e0ca1d"
-      ],
-      "text": "To laugh.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

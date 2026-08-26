@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "202a402883d2dec63249d101ed6723ebe0929455b19b476aa7f0c8590de4045c",
         "ef47d3c5a61cbb39a46605a0d7afdf2c788f6dccd01fbeddbbc74caf1a253b4f"
       ],
-      "text": "Can you hear that?",
+      "text": "I can do better.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "202a402883d2dec63249d101ed6723ebe0929455b19b476aa7f0c8590de4045c"
-      ],
-      "text": "You can't kill that.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

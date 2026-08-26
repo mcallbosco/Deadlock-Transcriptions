@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "23cbb1a95bbb0506f6a3805b7ba72f4ca97bf349b3cb7fe99cc3c7dfe5e837d1",
         "e39051719854a1dbe8e0fee6e88a919acb427decf88b6090f5af43687064463b"
       ],
-      "text": "Defend the arena.",
+      "text": "Defend yellow.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "23cbb1a95bbb0506f6a3805b7ba72f4ca97bf349b3cb7fe99cc3c7dfe5e837d1"
-      ],
-      "text": "Defend York!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

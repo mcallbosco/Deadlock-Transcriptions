@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "4a28a0efdeb00cd9403a6d51915d9753feb8451ec415aecdde7bf9e9f2aa95f0",
         "686ec6d3e09c1730e3be7bbefaa880448953b560d2f422fa834e81546ce7c25a"
       ],
-      "text": "Sometimes chat's on enough.",
+      "text": "Sometimes turrets aren't enough.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4a28a0efdeb00cd9403a6d51915d9753feb8451ec415aecdde7bf9e9f2aa95f0"
-      ],
-      "text": "Sometimes chat's not enough.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

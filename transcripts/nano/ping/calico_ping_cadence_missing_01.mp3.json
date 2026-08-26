@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "a388de4cfb6c07bebb96b624a1c66352f2fd64bbcb0d17856f33aea6d35a0bd6",
         "efe1ba0a3823cb9e60a47268b9549a4f2acb07bb54e24ad0e61ca5559f08fd1e"
       ],
-      "text": "Can you see me?",
+      "text": "Cadence is missing.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "a388de4cfb6c07bebb96b624a1c66352f2fd64bbcb0d17856f33aea6d35a0bd6"
-      ],
-      "text": "Can you miss me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }
