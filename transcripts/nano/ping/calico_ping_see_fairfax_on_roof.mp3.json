@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "21fe37d3f5c536bd462176d41c512506346e08ff58206d18f0587c8773a22b9c",
         "9b8f667431d1df8e8539945f631d6dca49c7e6c4083038d71967055eb7b61634"
       ],
-      "text": "The hex on the roof.",
+      "text": "Pocket's on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "21fe37d3f5c536bd462176d41c512506346e08ff58206d18f0587c8773a22b9c"
-      ],
-      "text": "The neck's on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "51144e513ab3b3a2c711e82b9c61a1ea9c2a7821973b04a839ba385cafc649df",
         "9bbc3d4f70c16b88036f2b4a6ce3d793792ddec0d6824bcd1e57a1d6cf2a36a7"
       ],
-      "text": "The Chatling, you already received your booth.",
+      "text": "Detective, you already received your boon.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "51144e513ab3b3a2c711e82b9c61a1ea9c2a7821973b04a839ba385cafc649df"
-      ],
-      "text": "The Jetling, you already received your boost.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

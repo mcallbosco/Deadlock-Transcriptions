@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "84ef1aabb1a64a40dcd4d0fed7b721dd6ff9b215b89d34e6c91af552b8509547",
         "ae88376bfb0c1e1edc6471cb495e07c5231895eff1be9d9f773ff2e2c78643bb"
       ],
-      "text": "I'll see you, Ivy.",
+      "text": "I see Ivy.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "84ef1aabb1a64a40dcd4d0fed7b721dd6ff9b215b89d34e6c91af552b8509547"
-      ],
-      "text": "I'll see Ivy.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

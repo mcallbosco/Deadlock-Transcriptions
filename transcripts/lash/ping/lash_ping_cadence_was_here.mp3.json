@@ -13,19 +13,12 @@
     },
     {
       "sha256": [
+        "3215c86fcc9ba87889e8a7f2326f53ffcc30c16cd38b77945de01520b12024b0",
         "e6c2237819147c12123bbb4894f111ba62c03e10d1bbb3edf5aa765497a9764b"
       ],
-      "text": "Cadence here.",
+      "text": "Cadence was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3215c86fcc9ba87889e8a7f2326f53ffcc30c16cd38b77945de01520b12024b0"
-      ],
-      "text": "Caden's here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

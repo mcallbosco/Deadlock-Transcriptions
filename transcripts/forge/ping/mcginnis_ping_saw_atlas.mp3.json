@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "01b7d0d7d10d3b886374bd47c9ceee572280b4b132440751611145b4c8978727",
         "575671a316f9542a7119997c2705f955b84b862972c25215494a493164962bcd"
       ],
-      "text": "I saw you burst.",
+      "text": "I saw you, Abrams.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "01b7d0d7d10d3b886374bd47c9ceee572280b4b132440751611145b4c8978727"
-      ],
-      "text": "I saw you both.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

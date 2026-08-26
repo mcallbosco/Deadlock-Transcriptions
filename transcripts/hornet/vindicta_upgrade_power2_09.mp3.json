@@ -12,20 +12,13 @@
     },
     {
       "sha256": [
+        "69acf3950212fdb5d9c4a491d1b34567348787045bdc9a2d8075a2cec97bcd7e",
+        "c43ad004f0e36f30c21629f56ce9d8de4953120256c1719c5011787348dd9102",
         "fca10b2ad5c0fd7c6123981ff657e111367afb53789980b7062033804ebcd188"
       ],
-      "text": "I will sow and they will die.",
+      "text": "I will soar, and they will die.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "69acf3950212fdb5d9c4a491d1b34567348787045bdc9a2d8075a2cec97bcd7e",
-        "c43ad004f0e36f30c21629f56ce9d8de4953120256c1719c5011787348dd9102"
-      ],
-      "text": "I will soul, and they will die.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

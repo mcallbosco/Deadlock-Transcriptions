@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "34f9f62acc21acefa925b35db9fa954507f0f0cfb5d3a6a821b5550c5f8b2c88",
         "4f69ac73fd3c702fd0db5e56da988ed28d01375daa4a5fd4012689300c487043"
       ],
-      "text": "Start on cooldown.",
+      "text": "Turret's on cooldown.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "34f9f62acc21acefa925b35db9fa954507f0f0cfb5d3a6a821b5550c5f8b2c88"
-      ],
-      "text": "Starts on cooldown.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

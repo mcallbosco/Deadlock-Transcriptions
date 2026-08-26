@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "d6d686301ddec54892d31cdc13000966b486c6f3ed6c11d08e374618098159fe",
         "daaa9e5550590a2f79651e53fc690dae2ed4b50b213c819cab077f604269aa5c"
       ],
-      "text": "I saw give a watch.",
+      "text": "I saw Gigawatt.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "d6d686301ddec54892d31cdc13000966b486c6f3ed6c11d08e374618098159fe"
-      ],
-      "text": "I saw a gigawatch.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

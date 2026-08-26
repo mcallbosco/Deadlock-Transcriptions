@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "3676695efb3589213c5a166012012fc99ed7f142d4ef8f267f82239ee3b138cb",
         "ff415980fbfafbce74f5138c3aa77685aaff8a0d16b47e5f0f0cf6394c8d99b4"
       ],
-      "text": "Ball is not ready.",
+      "text": "Boulder is not ready.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3676695efb3589213c5a166012012fc99ed7f142d4ef8f267f82239ee3b138cb"
-      ],
-      "text": "Boulder's not ready.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "81d13f76372dc41747959c06df6877f1c75151bf905e1da107e09d6150d74b20",
         "d32d63743cb1a4157286ae575ac50f1bb77a1830522dbab036e9c5fa7bc1a68f"
       ],
-      "text": "You need your help!",
+      "text": "Blue needs your help!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "81d13f76372dc41747959c06df6877f1c75151bf905e1da107e09d6150d74b20"
-      ],
-      "text": "You need to help!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

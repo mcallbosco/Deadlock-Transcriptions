@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "bd8f35df4cac586e27177d4c08a264bd67b9b525a983ddeb644e04525fb1823e",
         "c90380a4e8960755a3108451d59511da05f7afce7b0f554579c0c972cadfc5e0"
       ],
-      "text": "Call it on cooldown.",
+      "text": "All those on cooldown.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "bd8f35df4cac586e27177d4c08a264bd67b9b525a983ddeb644e04525fb1823e"
-      ],
-      "text": "Call it on Twitter.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

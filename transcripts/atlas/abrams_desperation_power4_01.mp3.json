@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "389942189eec66ea82c6f4bb11a528b439f23611f920c380f6024863e6f6ba06",
         "fd55d53d55133fd44b4b9cd8c2dd47c22779f4ca0329794ccb89ec53f37adc37"
       ],
-      "text": "I think I'm gonna get me killed.",
+      "text": "This thing's gonna get me killed.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "389942189eec66ea82c6f4bb11a528b439f23611f920c380f6024863e6f6ba06"
-      ],
-      "text": "I think I'm getting killed.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

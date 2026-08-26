@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "b534aae3dd111fcf109492fa65458648be2322f99a6d2f2fdb0873abe9533b3a",
         "eb494098f6eb5ee2efb882fd89830dddcba987e4e1b22fc40a88fe2db1023b52"
       ],
-      "text": "Pin is under the garage.",
+      "text": "Cadence is under the garage.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "b534aae3dd111fcf109492fa65458648be2322f99a6d2f2fdb0873abe9533b3a"
-      ],
-      "text": "Pinned is under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

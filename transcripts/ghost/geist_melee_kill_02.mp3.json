@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "a230fb02d766edfeff75dbdc35591670053b1fcdca05a9b63eb230220cfba04a",
         "e2858247dc72917bd1ecc105f86bc0bde1b41ddc52637fdbbb8d15a30548abf9"
       ],
-      "text": "You'll be nice to me.",
+      "text": "You're beneath me.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "a230fb02d766edfeff75dbdc35591670053b1fcdca05a9b63eb230220cfba04a"
-      ],
-      "text": "You'll beneath me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

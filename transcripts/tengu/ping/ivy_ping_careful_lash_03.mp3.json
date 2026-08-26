@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "226fa549fcc83ec80680e69127bb12e24ab14ea1b950bab85af2ba3d35c70464",
         "551a7ea262812e9a728582230fdccbcc9e5db5645910ee4fddc20444a2f7b414",
         "befa8e6afe0e3e287316fa43db8bc348e21965c9f3bf2a3585cb0b7fa72631b0"
       ],
-      "text": "That's nice.",
+      "text": "Careful, Lash!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "226fa549fcc83ec80680e69127bb12e24ab14ea1b950bab85af2ba3d35c70464"
-      ],
-      "text": "Careful, Ash!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

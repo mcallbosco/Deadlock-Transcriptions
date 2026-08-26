@@ -5,19 +5,12 @@
     {
       "sha256": [
         "29bd0743ca152b3309995b0b4336eed9c00c126729bce6dda190eef9b3f06d44",
+        "ac9346dedc2e3b9efcce43d920ca6e4b1adff854cb911fabe096b28f64e864de",
         "d02f06269af0f69a655afdfe09c76b07e4c365e113d0fe757ad88758b299a000"
       ],
-      "text": "We help on Broadway!",
+      "text": "Need help on Broadway.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "ac9346dedc2e3b9efcce43d920ca6e4b1adff854cb911fabe096b28f64e864de"
-      ],
-      "text": "Read help on Broadway!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

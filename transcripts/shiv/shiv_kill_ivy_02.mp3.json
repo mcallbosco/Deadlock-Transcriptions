@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "c4485cc25a9a8bd12757ac18c074602edee84a44fa8441bed822c726d29e1a34",
         "e25ed53e92f40a3f93423489971e4ca9f54f49adec924be788b26119bf160084"
       ],
-      "text": "I feel bad about the down.",
+      "text": "I feel bad about putting her down.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "c4485cc25a9a8bd12757ac18c074602edee84a44fa8441bed822c726d29e1a34"
-      ],
-      "text": "I feel bad about what you've done.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }
