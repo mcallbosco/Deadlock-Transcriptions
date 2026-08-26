@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "1bf302f2212a5f22c69a22bba8490bd56bdd20af33c07917b30715c1ee37276a",
         "6ace268db8193faf72448a480e80edad1f6352c0577566506accde5e2266c575"
       ],
-      "text": "I saw waste.",
+      "text": "I saw Wraith.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "1bf302f2212a5f22c69a22bba8490bd56bdd20af33c07917b30715c1ee37276a"
-      ],
-      "text": "I saw race.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

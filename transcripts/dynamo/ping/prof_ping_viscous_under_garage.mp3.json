@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "785d83b9537a37c5c98e562281bb7d05907d84cdc9383742969daa92fe6454df",
         "cdb1caefecd0064e2ddfe1e1d08c6c62cfa0dccd039c72559ea807510a8f3b19"
       ],
-      "text": "Welcome to the garage!",
+      "text": "Viscous is under the garage!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "785d83b9537a37c5c98e562281bb7d05907d84cdc9383742969daa92fe6454df"
-      ],
-      "text": "Summon to the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

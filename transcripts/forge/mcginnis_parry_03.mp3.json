@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "7521fec7aeb6b7fdbfe7706e26a1d08e47f9312653d6843175cbf3bc6bee8fd8",
         "f93c9800ade564a34f7d3751a15dc30b9dddac7f73d243c9077addc0cb4ef3e1"
       ],
-      "text": "Get a minute.",
+      "text": "You trying to hit me?",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7521fec7aeb6b7fdbfe7706e26a1d08e47f9312653d6843175cbf3bc6bee8fd8"
-      ],
-      "text": "You done with me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

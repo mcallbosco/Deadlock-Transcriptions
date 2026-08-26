@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "d617a39bb07b9e0f1484ec65dfbed93d09339d43fe81d487d913a69b5e4713b8",
         "f5667775203c4bbae6e0773c0592ce6cc43d1772069c1fe7756af165adb61652"
       ],
-      "text": "That's not enough!",
+      "text": "Lash is on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "d617a39bb07b9e0f1484ec65dfbed93d09339d43fe81d487d913a69b5e4713b8"
-      ],
-      "text": "That's enough!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

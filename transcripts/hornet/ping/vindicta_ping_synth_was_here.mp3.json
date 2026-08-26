@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "70b0c26f19849dc525e271bf8529294273632de713a91ea8251f85da46a05162",
         "e00fe39127c484120a781958aa1372518ab5fcac21dde67cdb65a475b209650e"
       ],
-      "text": "Holy shit!",
+      "text": "Pocket was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "70b0c26f19849dc525e271bf8529294273632de713a91ea8251f85da46a05162"
-      ],
-      "text": "What you see.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "496c8cad58b83a748bf570d4304478c5e5d13cf0315d55921361d77ee2e4e8ac",
         "62b354023111a50d514c29fa2562b436422110123db7ee53a7002d266e4a091c"
       ],
-      "text": "Crackdown!",
+      "text": "Wrecker's down!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "496c8cad58b83a748bf570d4304478c5e5d13cf0315d55921361d77ee2e4e8ac"
-      ],
-      "text": "Break it down!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

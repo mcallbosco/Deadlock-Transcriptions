@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "2eb55183fdaec2151c82357f8661b82250d400743ce2a77b0b7fd67e40a6d454",
         "deee26371217604887db2b3cfd4b684a5116301fec3f7224633b011ef5604288"
       ],
-      "text": "Krebak's is on the bridge!",
+      "text": "Fairfax is on the bridge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "2eb55183fdaec2151c82357f8661b82250d400743ce2a77b0b7fd67e40a6d454"
-      ],
-      "text": "Krebak's on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

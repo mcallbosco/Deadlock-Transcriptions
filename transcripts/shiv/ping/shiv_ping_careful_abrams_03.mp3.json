@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "13f857d4a2f3aa4674cb5403b00def46b5968219b6c6dcb9a4ba015bc01b6ef5",
         "2eddece2fdf1116c9285ce382280455315f664f8ea05fb84378e0590145e35e0"
       ],
-      "text": "Thanks!",
+      "text": "Careful, Abrams!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "13f857d4a2f3aa4674cb5403b00def46b5968219b6c6dcb9a4ba015bc01b6ef5"
-      ],
-      "text": "That's nice.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "0ce007803737d4425afb1a5c6d3c3dc78a1343af38d462b2b545067afb394108",
         "6ebf3546deb94715723a10c21acd44f3004b0cf8143080c01392e6b85453e3f0"
       ],
-      "text": "Speak to the password of this",
+      "text": "Stick to the classroom, Professor.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0ce007803737d4425afb1a5c6d3c3dc78a1343af38d462b2b545067afb394108"
-      ],
-      "text": "This is the password of the system.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

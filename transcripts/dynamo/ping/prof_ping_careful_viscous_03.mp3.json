@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "005bbe5685a6684c5ac0551bab97284391d81f001dcd35a652a2fb9b09280f71",
         "2bc3851f891a3bd4ec1928badeb80a585eadba32fa1f5e1c5fe915707ce7dd74"
       ],
-      "text": "Terrible business.",
+      "text": "Careful, Viscous!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "005bbe5685a6684c5ac0551bab97284391d81f001dcd35a652a2fb9b09280f71"
-      ],
-      "text": "Careful, this is...",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "06d33474f0badb2523095d71f278a6d5f2b673d8bf93df4f604ac7fedbc34ca4",
         "dd3199980dce1080d3f3b55e054cff2521110c14e1ff8807a65b916321e7d1c6"
       ],
-      "text": "This is common!",
+      "text": "It just keeps coming!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "06d33474f0badb2523095d71f278a6d5f2b673d8bf93df4f604ac7fedbc34ca4"
-      ],
-      "text": "This is coming!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

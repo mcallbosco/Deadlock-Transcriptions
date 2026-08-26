@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "059e836caafe283552499b8f9a1ea92929ae9493d6a0b9318c26f6e97cf3a35d",
         "cb2912004491eb317d1e29c90cae4cbe024abc3d4c3d12738bf62953a6cd8a68"
       ],
-      "text": "A soul echo.",
+      "text": "I saw Calico.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "059e836caafe283552499b8f9a1ea92929ae9493d6a0b9318c26f6e97cf3a35d"
-      ],
-      "text": "A slowpoke.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

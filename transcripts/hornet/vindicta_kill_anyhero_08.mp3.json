@@ -12,20 +12,13 @@
     },
     {
       "sha256": [
+        "0b920eafecb65192e0c8e00c63d114061f9df616e194b75880501f04ab899a69",
+        "3ecd40d8c0e8c83b028f63aa077708eb06256d6ce6af0eb16876c59ad69156a2",
         "d6345ff457b104c44a096a71e1290af40e50ab62452efc398e98080407582147"
       ],
-      "text": "I will rest some time.",
+      "text": "I bought us some time.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0b920eafecb65192e0c8e00c63d114061f9df616e194b75880501f04ab899a69",
-        "3ecd40d8c0e8c83b028f63aa077708eb06256d6ce6af0eb16876c59ad69156a2"
-      ],
-      "text": "I was in time.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

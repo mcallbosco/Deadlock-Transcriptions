@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "88cf26c8b2b8d155257c751a7f055dc9c15ecc61c0541b8bd17b5d36ad0b5010",
         "ae2eb5de6401b255eb627dab6e6f458bd84d82aef0c865d282415ef63557feb3"
       ],
-      "text": "Where's the mouse?",
+      "text": "Krill's on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "88cf26c8b2b8d155257c751a7f055dc9c15ecc61c0541b8bd17b5d36ad0b5010"
-      ],
-      "text": "Get off!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

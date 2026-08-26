@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "63d58169637c5db2383447300a0bbe73cb782f02feb726be014b4cb04c854361",
         "fe71b686c73be5afb73fbbbd6abaabd12e14aea9e47ac87a2c8ce1036d17ea30"
       ],
-      "text": "We keep our backs.",
+      "text": "I see Pocket.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "63d58169637c5db2383447300a0bbe73cb782f02feb726be014b4cb04c854361"
-      ],
-      "text": "Wicked packs.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

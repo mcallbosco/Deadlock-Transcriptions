@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "961e575110abbb3dac6b37999ac62748aeea37a6b7802041900222e3e15ada0a",
         "e8de601459dd57e991b51cba79b48f7c923d9822cca579a9d05e422162060d0d"
       ],
-      "text": "Give us.",
+      "text": "Careful, Zealot.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "961e575110abbb3dac6b37999ac62748aeea37a6b7802041900222e3e15ada0a"
-      ],
-      "text": "Give us a",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

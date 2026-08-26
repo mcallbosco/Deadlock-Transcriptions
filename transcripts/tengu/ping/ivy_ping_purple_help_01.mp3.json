@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "67049f4f24b12ed7dfaf74e4828d5564244d4ca166b96c88cb59c4b42e89c6dc",
         "9c8999dd8fb98188d3012ad94647c4efe092507dd93e4b1c337646c97b17c56f"
       ],
-      "text": "Grab the help!",
+      "text": "Purple needs help!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "67049f4f24b12ed7dfaf74e4828d5564244d4ca166b96c88cb59c4b42e89c6dc"
-      ],
-      "text": "Help me out!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

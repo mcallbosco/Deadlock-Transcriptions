@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "7f1ae85361983515070c869c4b871076ee817a95129994b4a38d771200b5742a",
         "e4702d26780c8fcea87d0c8c7b16afa5d902c1a8f68034065561f4b0d5939a9a"
       ],
-      "text": "What's inside of the garage?",
+      "text": "Murphy's under the garage!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7f1ae85361983515070c869c4b871076ee817a95129994b4a38d771200b5742a"
-      ],
-      "text": "Love is out of the garage!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "292825064bc65b6929e80f93ee34db60930f3f240e392acf87a18e7680ad8549",
         "aefa452579673d2dbc7d3e6bcd150a9648bf961a127583474f67509f53d21020"
       ],
-      "text": "Crucia.",
+      "text": "Take a shot.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "292825064bc65b6929e80f93ee34db60930f3f240e392acf87a18e7680ad8549"
-      ],
-      "text": "Goodisha.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

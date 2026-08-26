@@ -4,27 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "6661d37cc3020e6c7833e4b9bedc4a9c1ef615d29ed5d303387fa59cd5a539ab",
+        "7ba12b13678ea2dc7e00c42dfb0aa823d672fa141882a2bf21f2d670fb593aa1",
         "e2d7a797f05be2e2302353dc136643169fd782b7a10ea89060b768f60bedb6d7"
       ],
-      "text": "screeched.",
+      "text": "Three.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7ba12b13678ea2dc7e00c42dfb0aa823d672fa141882a2bf21f2d670fb593aa1"
-      ],
-      "text": "Screech.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "6661d37cc3020e6c7833e4b9bedc4a9c1ef615d29ed5d303387fa59cd5a539ab"
-      ],
-      "text": "Speak.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "75904fada83f65c5059c7a807c1715e20c7e9ed033f4442bd2e77711e3f3f00f",
         "f6bf9b73e8938ea922d5abda924479986e61c9bb975aee11aeecfaef8a84edf7"
       ],
-      "text": "What's the text?",
+      "text": "I saw Fairfax.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "75904fada83f65c5059c7a807c1715e20c7e9ed033f4442bd2e77711e3f3f00f"
-      ],
-      "text": "I'll fix it.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

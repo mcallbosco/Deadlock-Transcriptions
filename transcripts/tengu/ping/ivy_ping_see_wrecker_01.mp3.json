@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "002097ff814720ebf82ad2ac2fc0680ca42c1a6979a50648bb71c816f1de6468",
         "38caada1309ffa4ae87c65a3dea72ee0dd523fad8afb645525d3f259ce7b7c9d"
       ],
-      "text": "Let's see it, then.",
+      "text": "I see Wrecker.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "002097ff814720ebf82ad2ac2fc0680ca42c1a6979a50648bb71c816f1de6468"
-      ],
-      "text": "I see, Edgar.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

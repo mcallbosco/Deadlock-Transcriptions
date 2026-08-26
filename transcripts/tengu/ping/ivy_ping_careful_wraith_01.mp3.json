@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "9fa79e7f787c479437b44b2919b5901ce1b19e03e39cbe4e3bd0312a057dce55",
         "edbff1e79874f28bc633ddb9b30185ac0fa9cf5702620c3600a283d490d2bf57"
       ],
-      "text": "Calculate!",
+      "text": "Careful, Wraith.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "9fa79e7f787c479437b44b2919b5901ce1b19e03e39cbe4e3bd0312a057dce55"
-      ],
-      "text": "Canferate.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

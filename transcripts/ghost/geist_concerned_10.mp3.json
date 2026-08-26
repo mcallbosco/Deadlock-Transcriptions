@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "3b0f3e9db2e531288e12f858ea3ccb67c4b48251f5fb219197bf9422f7b53cfc",
         "82642ed8b44aa449049d8ad2c498ab1e4abf09770e85177c2f7cbd65bdfbaced"
       ],
-      "text": "Time to slip away.",
+      "text": "Time is slipping away.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3b0f3e9db2e531288e12f858ea3ccb67c4b48251f5fb219197bf9422f7b53cfc"
-      ],
-      "text": "Time to slip anyway.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

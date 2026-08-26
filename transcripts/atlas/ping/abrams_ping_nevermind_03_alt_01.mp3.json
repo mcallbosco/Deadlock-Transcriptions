@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "01889d329409e94362b7b286eebc1a39bc6864cdfe8ac7544d86645d8401cd40",
         "02ee9d7e4d53e522b66d82935a3eede57e92cbfc8a45ecba25db4963088952b2"
       ],
-      "text": "Na-na-na, fuck you, Sue.",
+      "text": "No, no, no. Spoke too soon.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "01889d329409e94362b7b286eebc1a39bc6864cdfe8ac7544d86645d8401cd40"
-      ],
-      "text": "Na-na-na, fuck you, too.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

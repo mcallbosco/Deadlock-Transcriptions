@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "26840a9ea2859de391c7c365c815557e8a61b723cad584d4ffdf430dabc84e2e",
         "3537bb626803040c0587b1ee6bb9e45129dac6086a40050c81307e6fe76426f3"
       ],
-      "text": "We've got souls on the bridge.",
+      "text": "We can collect souls on the bridge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "26840a9ea2859de391c7c365c815557e8a61b723cad584d4ffdf430dabc84e2e"
-      ],
-      "text": "Good luck, Sols on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

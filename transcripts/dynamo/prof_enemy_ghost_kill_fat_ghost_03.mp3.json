@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "1340bc8c54a2a08199b29cf8926522cfc84a8d667a47155638d1b65eeb4bc5ef",
         "cab68bb882d68720c87eb973743732f539eba7c0cbef2b1e20223af7cde666ae"
       ],
-      "text": "You stupid monster.",
+      "text": "We stopped that monster.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "1340bc8c54a2a08199b29cf8926522cfc84a8d667a47155638d1b65eeb4bc5ef"
-      ],
-      "text": "I'm a stunt master.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "a5228b02991a21204a9b7da01e8bfe6704c9b4562f403d188ee345b2ab7111bb",
         "b8057ab6ab77a7b7cf6584cc551342e7cf75a78a458e96bed217cf2cde33c321"
       ],
-      "text": "Cry for I want.",
+      "text": "Right where I want 'em.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "a5228b02991a21204a9b7da01e8bfe6704c9b4562f403d188ee345b2ab7111bb"
-      ],
-      "text": "Ripper I want.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

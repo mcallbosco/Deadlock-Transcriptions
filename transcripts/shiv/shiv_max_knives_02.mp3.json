@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "c8f93d0479a301dc705d526e20477efca058916b9617e705352ae0af0c7ba3fe",
         "d91b9189ccf82498f648dcdd9f427cdb6716cc23c728ff7a5d6a4ffdb46ebb35"
       ],
-      "text": "Tell him it's a big doozy.",
+      "text": "Turn him into a pincushion.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "c8f93d0479a301dc705d526e20477efca058916b9617e705352ae0af0c7ba3fe"
-      ],
-      "text": "Tell me to what bit do you?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

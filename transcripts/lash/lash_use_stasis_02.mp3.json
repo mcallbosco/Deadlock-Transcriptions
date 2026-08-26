@@ -4,8 +4,7 @@
   "revisions": [
     {
       "sha256": [
-        "0ee4fc7277b4456402640d788929a13633836d9bdfe983c106d3e615f30e631b",
-        "a9b496e0ef03bbcf48c306a8da2f002c08c11ff01bb73063e2423128865dfcd7"
+        "0ee4fc7277b4456402640d788929a13633836d9bdfe983c106d3e615f30e631b"
       ],
       "text": "This is",
       "source": "generated",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
-        "7f3851b0ef107df0546d76bf0536278306a611ba944aea695e9320feb75527f2"
+        "7f3851b0ef107df0546d76bf0536278306a611ba944aea695e9320feb75527f2",
+        "a9b496e0ef03bbcf48c306a8da2f002c08c11ff01bb73063e2423128865dfcd7"
       ],
-      "text": "Cease.",
+      "text": "Stasis.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

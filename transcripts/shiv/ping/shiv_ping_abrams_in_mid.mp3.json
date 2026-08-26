@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "385783d7e444851b70afc3fe952f96b29d3ab126a4c23840bc3bfffbf0a9c1e9",
         "3f9f9f7d7a18ce8e6d1f14ca0ce8f40468fe7dcd2cda3cfefe49ac7d424fd1cc"
       ],
-      "text": "This is it!",
+      "text": "Abrams is in mid.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "385783d7e444851b70afc3fe952f96b29d3ab126a4c23840bc3bfffbf0a9c1e9"
-      ],
-      "text": "I got this good.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

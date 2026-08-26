@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "026c941717eb62c58c9ad270d80cc732cdd279a0e577c0a46f92b57266e2e9f7",
         "5fa08b73b3e9208f8e1e634ec9bd5ace454be291d4f22b6926dab5d5c9dd02f7"
       ],
-      "text": "I saw evidence.",
+      "text": "I saw Abrams.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "026c941717eb62c58c9ad270d80cc732cdd279a0e577c0a46f92b57266e2e9f7"
-      ],
-      "text": "I saw Evans.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

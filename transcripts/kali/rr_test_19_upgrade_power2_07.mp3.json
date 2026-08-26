@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "74f16564f9a773825dd36bb197009b2b834074b1a5d987f093fed9a9e3663351",
         "a5fdc2cef28cc07951f7185fcb48ba5009d6d610730d5fb2964cc2cc4be059f4"
       ],
-      "text": "This is a good.",
+      "text": "Move faster as a group.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "74f16564f9a773825dd36bb197009b2b834074b1a5d987f093fed9a9e3663351"
-      ],
-      "text": "From the back to the group.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

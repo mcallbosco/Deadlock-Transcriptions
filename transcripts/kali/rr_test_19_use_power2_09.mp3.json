@@ -4,8 +4,7 @@
   "revisions": [
     {
       "sha256": [
-        "080f3b23148462c6016d5996f43f38b9c54d1bf35108fbd9a25b2fce254c0aae",
-        "c6e41fcabb67ecaca02dc59205087488343e90498402b67964b20a68be2087b6"
+        "080f3b23148462c6016d5996f43f38b9c54d1bf35108fbd9a25b2fce254c0aae"
       ],
       "text": "Good job, Ray.",
       "source": "generated",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
-        "a547ac77a3308aab32cf3f0e2cf306322d26f43979b7db81668337822d9d85a8"
+        "a547ac77a3308aab32cf3f0e2cf306322d26f43979b7db81668337822d9d85a8",
+        "c6e41fcabb67ecaca02dc59205087488343e90498402b67964b20a68be2087b6"
       ],
-      "text": "Good job, Vayne.",
+      "text": "We gotta run.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

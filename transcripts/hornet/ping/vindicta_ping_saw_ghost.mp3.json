@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "c69620a019ea1060ba19d030e11f6fdb9342aeede6d9e2b1f02589b92c6a50b3",
         "d511dd373b73cee938c35c323dd0d30855d4357bfa1dffe992a03ee41f05f008"
       ],
-      "text": "I see those!",
+      "text": "I saw Geist.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "c69620a019ea1060ba19d030e11f6fdb9342aeede6d9e2b1f02589b92c6a50b3"
-      ],
-      "text": "I see you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

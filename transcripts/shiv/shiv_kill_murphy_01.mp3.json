@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "3dbadea0dea10206debf1f33b261a3fb0926f282bc0c0a3344792f0b1ef0fda9",
         "863dbac543647e16adcc52d2a44508dd4069d04c1fa1291da87957276102ba05"
       ],
-      "text": "You spy at birth.",
+      "text": "You forced my hand, Murphy.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3dbadea0dea10206debf1f33b261a3fb0926f282bc0c0a3344792f0b1ef0fda9"
-      ],
-      "text": "This might work.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

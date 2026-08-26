@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "550fd8554363bc113ce3eb4c2d094559b94d8e73cd72589ead549d7248814a21",
         "d992b29f2cabb77adec5d4ec92e9655ed49725cdb6aef2dff135493a9ac19692"
       ],
-      "text": "Shut the night.",
+      "text": "Shouldn't have done that.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "550fd8554363bc113ce3eb4c2d094559b94d8e73cd72589ead549d7248814a21"
-      ],
-      "text": "Shut it down now.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,27 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "2698bcd60ca35a65e7af6315c6c8873a5cbc429628d5343e6b5c555f5392c251",
+        "7a4444be768ac31a88a276249e14bc75bae0fe03a361ee0947aebf93e2ce4258",
         "b07101581868ebcc79c2a202b385bbf949f01492d5dc51bee75d07afc9e751bb",
         "cd70afef574a0a9ae00d6b46be820063875f7a9df4893ba29d57332541e5ba5b"
       ],
       "text": "Careful, Warden",
       "source": "official"
-    },
-    {
-      "sha256": [
-        "2698bcd60ca35a65e7af6315c6c8873a5cbc429628d5343e6b5c555f5392c251"
-      ],
-      "text": "No warning.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "7a4444be768ac31a88a276249e14bc75bae0fe03a361ee0947aebf93e2ce4258"
-      ],
-      "text": "You have warned me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "16cacaddfe7297dcc30f5ab36f10f77bd45304923be737455a3abac6cb8e6418",
         "c3c67192833ffbf88bf5fb82dd5bb48d342e2635712b11378108fcef7973c82c"
       ],
-      "text": "I is sick.",
+      "text": "I feel sick.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "16cacaddfe7297dcc30f5ab36f10f77bd45304923be737455a3abac6cb8e6418"
-      ],
-      "text": "I seek.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

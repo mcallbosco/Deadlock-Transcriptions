@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "cf832c0244c5aea05e3cbab425ac972f02d30ed63ddea261668ad6928b983c50",
         "df3ccf5e859daa658ff28cd7378d4611a6e187634bdff2da105cef81e51bcf5d"
       ],
-      "text": "You want to sound the roof.",
+      "text": "Yamato's on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "cf832c0244c5aea05e3cbab425ac972f02d30ed63ddea261668ad6928b983c50"
-      ],
-      "text": "You just on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

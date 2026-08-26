@@ -4,7 +4,6 @@
   "revisions": [
     {
       "sha256": [
-        "a70227d421903435e7731c077ba2f02f8fb43e31927195d8135191e5eba62372",
         "d67789b0a76ead7e13c1b6e3f0f561f06b68a89da64a736947044d4e3420cec3"
       ],
       "text": "It can be idle.",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
-        "6611dedd9fbc90d16d0677864937a678917051bf1baebc5b0c060b56b79b6f74"
+        "6611dedd9fbc90d16d0677864937a678917051bf1baebc5b0c060b56b79b6f74",
+        "a70227d421903435e7731c077ba2f02f8fb43e31927195d8135191e5eba62372"
       ],
-      "text": "It has the idle.",
+      "text": "Here comes the idol.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

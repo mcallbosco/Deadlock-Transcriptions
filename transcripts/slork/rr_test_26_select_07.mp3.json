@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "192c52abc4aa0320314bff9a55501f2f4fe1e24f0f198cbaaded43fb9812e499",
         "e52df9c01285304dd470462759e648feee975ae711bcf50db021ea40a6e4d39b"
       ],
-      "text": "The final fight will have my head.",
+      "text": "If I don't fight, the Gray will have my head.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "192c52abc4aa0320314bff9a55501f2f4fe1e24f0f198cbaaded43fb9812e499"
-      ],
-      "text": "To fight and fight, or will I have my head?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

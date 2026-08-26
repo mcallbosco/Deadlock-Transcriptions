@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "6cb4e5a19f3c97346f8105b6e341afa1a9725b7ad80814c8df028fe9e1e8279e",
         "f5e2fb9ca63d0f167366b0ddc5a9f5993962b5fbea18824801a9c547ffa15130"
       ],
-      "text": "Got your smoke.",
+      "text": "Coughing smoke.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "6cb4e5a19f3c97346f8105b6e341afa1a9725b7ad80814c8df028fe9e1e8279e"
-      ],
-      "text": "Don't be smug.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "432f2aecb8afbaa81019dc16662f284d206468e6ef57583df4bef82588a48a7c",
         "bc31b016edcb6c5cefc883a6e8de29338c0806bbd6a2f56116702b04e275d634"
       ],
-      "text": "Grime's here.",
+      "text": "Grey Talon was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "432f2aecb8afbaa81019dc16662f284d206468e6ef57583df4bef82588a48a7c"
-      ],
-      "text": "Grind here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

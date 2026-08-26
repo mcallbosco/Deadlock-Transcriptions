@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "c8430248b191c6ed712f34299ee9c3b52cc78b0821a612593895e95d0efde552",
         "ffc75fc3124aee011ee1ecf9c1b6a86045fc6c7ffb702a483f078ed5bd1a3566"
       ],
-      "text": "Can you receive the site?",
+      "text": "Have you ever seen such a sight?",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "c8430248b191c6ed712f34299ee9c3b52cc78b0821a612593895e95d0efde552"
-      ],
-      "text": "Can you receive this message?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

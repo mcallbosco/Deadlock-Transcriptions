@@ -4,8 +4,6 @@
   "revisions": [
     {
       "sha256": [
-        "086db403127465ed34189bcbe6529377a2c5d25e3fef9180cfc9df8b92fe5c1e",
-        "639928134aadc30612abdb486cc9b23d8bb160a459a2e2d08f345a0eaa3a05b0",
         "83856f6759d5de2831385a214ad89d85bf6f6e644b6e3e25d53663fc49d127a7"
       ],
       "text": "Deadlock.",
@@ -14,11 +12,13 @@
     },
     {
       "sha256": [
-        "61d03bceb5d74d92c0dc2627708aa11574bfbc79d74cd438804092df4f4ba4ae"
+        "086db403127465ed34189bcbe6529377a2c5d25e3fef9180cfc9df8b92fe5c1e",
+        "61d03bceb5d74d92c0dc2627708aa11574bfbc79d74cd438804092df4f4ba4ae",
+        "639928134aadc30612abdb486cc9b23d8bb160a459a2e2d08f345a0eaa3a05b0"
       ],
-      "text": "Deadwrecker.",
+      "text": "There's Wrecker.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

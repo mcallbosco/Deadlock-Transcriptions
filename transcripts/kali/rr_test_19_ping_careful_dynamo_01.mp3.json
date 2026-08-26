@@ -4,8 +4,7 @@
   "revisions": [
     {
       "sha256": [
-        "929ac58a0d112846479938e999cc7e643434943b01c3dc1b487f1c79a8c1835a",
-        "ae9e3468bd9cc2303634aafe1a36c2c3838cc78e4818835dc27d0a24b1067025"
+        "929ac58a0d112846479938e999cc7e643434943b01c3dc1b487f1c79a8c1835a"
       ],
       "text": "Kill them all.",
       "source": "generated",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
+        "ae9e3468bd9cc2303634aafe1a36c2c3838cc78e4818835dc27d0a24b1067025",
         "d4d245fcd2b1d9c3de2dd9ce58981ae53b05ff0984acb10b79593acbfab7d38d"
       ],
-      "text": "Killed them all.",
+      "text": "Careful, Dynamo.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

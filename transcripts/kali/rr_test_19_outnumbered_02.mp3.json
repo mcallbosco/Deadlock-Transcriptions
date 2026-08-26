@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "42c036b8c015bef4c85e86b94eca2bafc07bd0cb558d6ac13eaf5a14ee531ae6",
         "949da29c69cc5004f95f2e0a3540dae397c4a2ef269d08b00a39abba408a66d4"
       ],
-      "text": "I don't have time to play.",
+      "text": "Don't you think now's the time to make my play?",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "42c036b8c015bef4c85e86b94eca2bafc07bd0cb558d6ac13eaf5a14ee531ae6"
-      ],
-      "text": "I know that I just had it happen.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

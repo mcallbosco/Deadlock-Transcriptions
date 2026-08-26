@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "6278bc8874df1fcb842b98d549a860b1b188a9cf182d71d84203591020d44ea9",
         "d989a74ce00ce21c82a45a71499cd13ee4817ba3f139389c6cd6c63260fabd2b"
       ],
-      "text": "Hello, I'm a pass.",
+      "text": "I'm gonna rip 'em apart.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "6278bc8874df1fcb842b98d549a860b1b188a9cf182d71d84203591020d44ea9"
-      ],
-      "text": "Hello, I'm a boss.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

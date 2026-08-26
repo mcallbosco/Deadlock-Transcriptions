@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "ef0d69c38b8d292b82c4b72a5bc1376527da1232639bc6ee69919eaed912d804",
         "ef50537f09b34f101adc571da5bd895f91ed6aedd9953691f7b43d5c53799696"
       ],
-      "text": "Come on the bridge!",
+      "text": "Tokamak's on the bridge.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "ef0d69c38b8d292b82c4b72a5bc1376527da1232639bc6ee69919eaed912d804"
-      ],
-      "text": "Come across on the bridge.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

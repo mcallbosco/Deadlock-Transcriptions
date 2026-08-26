@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "47de2b8dc4195225218a36df2964055daa6496822531831d9b784c035e0f5371",
         "756005f797eaf7f652f60b47c092d72366da2a4d1cc42500e16226593e00c50c"
       ],
-      "text": "I love you.",
+      "text": "Holliday's on the roof.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "47de2b8dc4195225218a36df2964055daa6496822531831d9b784c035e0f5371"
-      ],
-      "text": "Hello, ladies.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

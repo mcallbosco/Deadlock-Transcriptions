@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "8635186e57018cb45c98aa30bd00994cb60f3e73e1d459f8a9ea708f3cf5e6d2",
         "d1732e39430a973458f04d13eb1b7d1d0dfb33045ba7647257558b93a8499858"
       ],
-      "text": "Send it missing.",
+      "text": "Sandeep's missing.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "8635186e57018cb45c98aa30bd00994cb60f3e73e1d459f8a9ea708f3cf5e6d2"
-      ],
-      "text": "Send it to me.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

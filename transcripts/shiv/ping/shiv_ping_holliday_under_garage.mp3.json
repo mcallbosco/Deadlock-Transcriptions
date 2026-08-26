@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "2e501fa284674b82f6b4a7bcdd5a99aa43850528f275edb84501ae9a1a85eb11",
         "b043a3776ba509e7cee17ebde7f4fb980b57c6c62db39c99cea2fa59c474daa7"
       ],
-      "text": "Hello, I'm the cross.",
+      "text": "Holliday's under the garage.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "2e501fa284674b82f6b4a7bcdd5a99aa43850528f275edb84501ae9a1a85eb11"
-      ],
-      "text": "Hello, Josh.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

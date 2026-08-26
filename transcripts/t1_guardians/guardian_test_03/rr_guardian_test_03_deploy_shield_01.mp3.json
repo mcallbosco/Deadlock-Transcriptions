@@ -4,7 +4,6 @@
   "revisions": [
     {
       "sha256": [
-        "685889d443beae29730c7bd57f517ea296086922deb134787f0f5bfb5913d2ae",
         "86906117bfc10301e22b71e4b270947a6b573c1d58146916bb6bdb691da60285"
       ],
       "text": "See you there!",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
-        "63da3ac11b2ec579dd61c6fe14326fb9777efe74e521a8b5e84bb409453a1965"
+        "63da3ac11b2ec579dd61c6fe14326fb9777efe74e521a8b5e84bb409453a1965",
+        "685889d443beae29730c7bd57f517ea296086922deb134787f0f5bfb5913d2ae"
       ],
-      "text": "Can you hear me there?",
+      "text": "Shields up!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

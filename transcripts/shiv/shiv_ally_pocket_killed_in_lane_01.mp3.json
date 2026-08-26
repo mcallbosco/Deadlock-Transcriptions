@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "74e8e6a94c0334aa135836525f8d1e23720b5ca64cf59474ef6878f3f0c9a985",
         "9d3c58f3d2b71b6d6b275bacd376032f44918823cd18d0a6783046344c2c9087"
       ],
-      "text": "Who's there?",
+      "text": "Pocket is dead!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "74e8e6a94c0334aa135836525f8d1e23720b5ca64cf59474ef6878f3f0c9a985"
-      ],
-      "text": "What is this?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

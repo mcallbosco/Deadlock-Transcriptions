@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "8996c58bee110eb9351448f85c326c84dad4d5a495340aaabe9accf05a6e5897",
         "db196bd2fd8d2728ed62c27a7a6617e8e40b29888fefe6157d50517b0c53e719"
       ],
-      "text": "Check out Abrams!",
+      "text": "Let's take out Abrams.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "8996c58bee110eb9351448f85c326c84dad4d5a495340aaabe9accf05a6e5897"
-      ],
-      "text": "Protect our Abrams!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

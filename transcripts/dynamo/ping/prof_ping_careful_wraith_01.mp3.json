@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "81e13003f929fc6f80c60e0dd7396493c0f9a77415045af1e9c7c51624309df1",
         "85d86036ea18c6ec5098b408dfe20ed1939a7139a7ffdae29bc14114aba9c57d"
       ],
-      "text": "Kill race.",
+      "text": "Careful, Wraith.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "81e13003f929fc6f80c60e0dd7396493c0f9a77415045af1e9c7c51624309df1"
-      ],
-      "text": "Kill Rush.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

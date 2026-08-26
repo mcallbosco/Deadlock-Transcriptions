@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "a52a4d7536e4f3c261f51ec8dc8a8d93961ec67e09e6546367824a8c3698a535",
         "ac7863bd269e41faa6fc9d578ef238cc0a6d7fbe5930241736243b6298ed6b66"
       ],
-      "text": "Capoeira has found an opening.",
+      "text": "The Professor made an opening.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "a52a4d7536e4f3c261f51ec8dc8a8d93961ec67e09e6546367824a8c3698a535"
-      ],
-      "text": "Prepare to sound like an opening.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }
