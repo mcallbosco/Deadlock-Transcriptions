@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "0c07a4e0b45db177d541f892bcaf46604534ba4653cb278c0557f9ec67b0c0bd",
-        "256e35d3cf8dbc6ffc45f96c3ee2f2c749af082d70dfd5aa11b4624b6ab9a4d1",
-        "91270fc6ef106ea9523a524c44e5f2b3664a508ebeb34f9dc7d844173319d191"
+        "256e35d3cf8dbc6ffc45f96c3ee2f2c749af082d70dfd5aa11b4624b6ab9a4d1"
       ],
       "text": "Haze is dead.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "0c07a4e0b45db177d541f892bcaf46604534ba4653cb278c0557f9ec67b0c0bd",
+        "91270fc6ef106ea9523a524c44e5f2b3664a508ebeb34f9dc7d844173319d191"
+      ],
+      "text": "Haze is dead.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

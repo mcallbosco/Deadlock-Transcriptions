@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "5b0f61bc8298fac97f41ea35491d68de156dbc693bbdf37151793e0206b9485f",
+        "5b0f61bc8298fac97f41ea35491d68de156dbc693bbdf37151793e0206b9485f"
+      ],
+      "text": "I see Krill.",
+      "source": "manual"
+    },
+    {
+      "sha256": [
         "a3b343480607654b9723e052bb2b924bd7efeb8c97ab860d0f2ecb79dcc3edc1",
         "fd7e488f799588a28da8036c487b5fb9788c84a814b8ccdc981ed0a2b3e4962e"
       ],
       "text": "I see Krill.",
-      "source": "manual"
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

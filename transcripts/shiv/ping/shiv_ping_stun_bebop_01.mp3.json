@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "825258cf7aedc02cb8b0ce756c9fa3b455bd3966617ac449aba2cb1ee7e9e44d",
-        "b6586cf112fef539917d5a48eb2679d09f0044441c362de0aa92e3820683edcd",
         "f4864b5531086edb745d3e672d06f7fef6937bb34b704d5bc79db15fdd239021"
       ],
       "text": "Stun Bebop.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "825258cf7aedc02cb8b0ce756c9fa3b455bd3966617ac449aba2cb1ee7e9e44d",
+        "b6586cf112fef539917d5a48eb2679d09f0044441c362de0aa92e3820683edcd"
+      ],
+      "text": "Stun Bebop.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

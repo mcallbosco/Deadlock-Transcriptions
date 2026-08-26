@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "074170394e548e115f5f517c7efc1e1a9711cd094c3f72bd05ba4ad2fd40eb1c",
-        "7adc94a0c56d18ac27cc446e7773cf3d3229e26392363da0f03559b8a6889b21",
         "e91b75ad22131c992737750c4db90e4f9b4012516a7f4d821cbcdc1ce6501202"
       ],
       "text": "I'm with you, Lash.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "074170394e548e115f5f517c7efc1e1a9711cd094c3f72bd05ba4ad2fd40eb1c",
+        "7adc94a0c56d18ac27cc446e7773cf3d3229e26392363da0f03559b8a6889b21"
+      ],
+      "text": "I'm with you, Lash.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

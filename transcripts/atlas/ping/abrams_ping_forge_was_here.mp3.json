@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "3d8c2fe771544d48cec38c21e2785fac1163eeed955d472016e97f1e0c7490a5",
-        "58a57d6d74069ee27ea09878acf2694e5871f901de0591eee0204f2ccbea2377",
         "969314506595835af2beb09b7be40a9876a9014b58eaa815055fae652cad3144"
       ],
       "text": "McGinnis was here.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "3d8c2fe771544d48cec38c21e2785fac1163eeed955d472016e97f1e0c7490a5",
+        "58a57d6d74069ee27ea09878acf2694e5871f901de0591eee0204f2ccbea2377"
+      ],
+      "text": "McGinnis was here.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

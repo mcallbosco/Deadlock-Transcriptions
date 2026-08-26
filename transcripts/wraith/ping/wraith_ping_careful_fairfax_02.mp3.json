@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "988d063691f1c24a966cd2f0d5ed40daa9a4f70b3b07ddc5b4f2ec7072f63e1f",
-        "a850ae1dab4927a6912f90d0f73c561416955796bdbc1fc0c6465b913287e358",
         "fb3444e8be0d512a0b5a8c6f8ed603abbdf17b5c58ce4da86993b2a080c3748a"
       ],
       "text": "Careful, Fairfax!",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "988d063691f1c24a966cd2f0d5ed40daa9a4f70b3b07ddc5b4f2ec7072f63e1f",
+        "a850ae1dab4927a6912f90d0f73c561416955796bdbc1fc0c6465b913287e358"
+      ],
+      "text": "Careful, Fairfax!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

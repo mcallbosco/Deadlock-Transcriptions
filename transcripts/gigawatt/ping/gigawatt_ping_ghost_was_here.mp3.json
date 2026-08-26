@@ -12,12 +12,19 @@
     },
     {
       "sha256": [
-        "012691a1abdf8d3fb361cc957a8f481dee7c51dac66c393bafb6cdf35690d486",
-        "4250f460c2f00fc582232ba8f60c80626f2a8b56bf29468045f49db5805a70f8",
         "bee09af7b01afbc63c015493ddf6f3955b25649944fd8d3f129a902da29af49e"
       ],
       "text": "Geist was here.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "012691a1abdf8d3fb361cc957a8f481dee7c51dac66c393bafb6cdf35690d486",
+        "4250f460c2f00fc582232ba8f60c80626f2a8b56bf29468045f49db5805a70f8"
+      ],
+      "text": "Geist was here.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

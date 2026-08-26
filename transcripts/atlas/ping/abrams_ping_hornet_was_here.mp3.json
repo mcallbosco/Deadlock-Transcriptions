@@ -5,11 +5,18 @@
     {
       "sha256": [
         "85eaab11bffa0bc07f705b2c2672246f349fbfc12af1ef3309d16d9ef0db4a2f",
-        "9bc44093fc44b9670d54d71f471a4c3f9b7c4d0f804e5c66241a55744f9ec93b",
-        "b292f0cd2d5d36ee2096d02ac1080444b782c8ac296587db79ce20c8ce14842d"
+        "9bc44093fc44b9670d54d71f471a4c3f9b7c4d0f804e5c66241a55744f9ec93b"
       ],
       "text": "Vindicta was here.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "b292f0cd2d5d36ee2096d02ac1080444b782c8ac296587db79ce20c8ce14842d"
+      ],
+      "text": "Vindicta was here.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "512f065684577a685cf69844508f533c7b0d9929b1ec7a38fe38028267a17f5d",
-        "9802bfa8f0153b2e60c600c5dc436440a90801eea20d8de03e4ef39b2bd01105",
         "d10ca1fdb698a4604e430977eee627656fdf514077e27a41b462c49a24d5333f"
       ],
       "text": "I see Bebop.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "512f065684577a685cf69844508f533c7b0d9929b1ec7a38fe38028267a17f5d",
+        "9802bfa8f0153b2e60c600c5dc436440a90801eea20d8de03e4ef39b2bd01105"
+      ],
+      "text": "I see Bebop.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

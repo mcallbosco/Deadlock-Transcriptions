@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "541a0e9344a55664f604903bbd144ce9f6f6e99a857abf6a59318d354a6708e8",
-        "d5881f6a56a4c056a2f21beb62b6f9c816f69ec377d024945f8c11b6c5bad2f5",
-        "d894226737f9a2a2867fed548efa092573add909a505c05063dff00ce6e163af"
+        "d5881f6a56a4c056a2f21beb62b6f9c816f69ec377d024945f8c11b6c5bad2f5"
       ],
       "text": "Stun Warden.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "541a0e9344a55664f604903bbd144ce9f6f6e99a857abf6a59318d354a6708e8",
+        "d894226737f9a2a2867fed548efa092573add909a505c05063dff00ce6e163af"
+      ],
+      "text": "Stun Warden.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

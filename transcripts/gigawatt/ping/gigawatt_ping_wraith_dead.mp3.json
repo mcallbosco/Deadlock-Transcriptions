@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "43efee79c17c892ba3c291525d18037466080d6212b209a28e9d75f0fbbbff3e",
-        "d519002c8a5ffbe67a4ad38363356e6213ccfdd9fa66dc79e2b816c53723bb32",
-        "eaa2c42a45832081e4d0a39772dd4aec0cc1d3b45d93fecca2e1f0a91a011981"
+        "d519002c8a5ffbe67a4ad38363356e6213ccfdd9fa66dc79e2b816c53723bb32"
       ],
       "text": "Wraith is dead.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "43efee79c17c892ba3c291525d18037466080d6212b209a28e9d75f0fbbbff3e",
+        "eaa2c42a45832081e4d0a39772dd4aec0cc1d3b45d93fecca2e1f0a91a011981"
+      ],
+      "text": "Wraith is dead.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

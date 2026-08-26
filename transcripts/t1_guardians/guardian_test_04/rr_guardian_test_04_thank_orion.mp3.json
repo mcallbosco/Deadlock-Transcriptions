@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "b8e865fbaeac47d7b447697df39e236092c3be4e14c5f4cb74f81a06d5c39212",
-        "bd425d929f3a77abc1c55667991bd3238c0a6dca0c184c63cf3204ace67e502a",
-        "f11501b51295ddb4ee733c2e11c3132bcd0bf58a62c6ec52ec5c885e050b18df"
+        "bd425d929f3a77abc1c55667991bd3238c0a6dca0c184c63cf3204ace67e502a"
       ],
       "text": "Thanks, Orion.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "b8e865fbaeac47d7b447697df39e236092c3be4e14c5f4cb74f81a06d5c39212",
+        "f11501b51295ddb4ee733c2e11c3132bcd0bf58a62c6ec52ec5c885e050b18df"
+      ],
+      "text": "Thanks, Orion.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

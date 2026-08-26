@@ -92,7 +92,7 @@ class ReviewedGeneratedDurationMergeTests(unittest.TestCase):
         self.assertEqual(len(reviewed), 1)
         self.assertEqual(statistics["review_low"], 1)
 
-    def test_novel_correction_becomes_manual_for_every_item_hash(self) -> None:
+    def test_novel_correction_stays_generated_with_its_transcription_model(self) -> None:
         left = digest("e")
         right = digest("f")
         item = {
@@ -129,7 +129,14 @@ class ReviewedGeneratedDurationMergeTests(unittest.TestCase):
         self.assertEqual(len(changes), 2)
         self.assertEqual(
             updated["revisions"],
-            [{"sha256": [left, right], "text": "Shiv's in mid.", "source": "manual"}],
+            [
+                {
+                    "sha256": [left, right],
+                    "text": "Shiv's in mid.",
+                    "source": "generated",
+                    "model": "test",
+                }
+            ],
         )
 
     def test_cross_audit_can_reject_or_replace_a_selection(self) -> None:

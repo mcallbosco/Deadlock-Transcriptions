@@ -179,12 +179,13 @@ def selected_targets(
             selected_text = decision.get("selectedText")
             if not isinstance(selected_text, str) or not selected_text.strip():
                 raise ValueError(f"{item['id']}: corrected text is missing")
-            target = {
-                "text": selected_text,
-                "source": "manual",
-                "itemId": item["id"],
-            }
             for option in item["options"]:
+                target = {
+                    "text": selected_text,
+                    "source": "generated",
+                    "model": option.get("model"),
+                    "itemId": item["id"],
+                }
                 for digest in option["hashes"]:
                     previous = targets.setdefault(digest, target)
                     if (previous["text"], previous["source"], previous.get("model")) != (

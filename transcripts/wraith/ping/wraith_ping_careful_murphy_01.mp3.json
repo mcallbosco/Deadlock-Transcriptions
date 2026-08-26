@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "24d2447166f1e958a1be7437ba3c8aa3cbe20d481d6cc2b54ad32005be4f2276",
-        "67296b9c797f61062368c9ee9133cf386f175f52a2b920f35dec5dcc10454f05",
         "f0645a6b2515a27329f030dfa4faa56120c923725cd6e62208dadd3d3e691d35"
       ],
       "text": "Careful, Murphy!",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "24d2447166f1e958a1be7437ba3c8aa3cbe20d481d6cc2b54ad32005be4f2276",
+        "67296b9c797f61062368c9ee9133cf386f175f52a2b920f35dec5dcc10454f05"
+      ],
+      "text": "Careful, Murphy!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }

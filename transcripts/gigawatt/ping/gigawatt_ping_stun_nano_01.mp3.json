@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "1c1ec2f60daf5e1f6ab4ebfc379b5dbd53b070ee786b1bf3f04015fd400b9e2e",
-        "410c08c57baa2f4318c74324a81eb646374cf3ef5459597c63675ec177bb68fc",
-        "9a1b6debbe3701bbed29a8a329990c1cf7264af73d30254f0ce399efa5435ba3"
+        "410c08c57baa2f4318c74324a81eb646374cf3ef5459597c63675ec177bb68fc"
       ],
       "text": "Stun Calico.",
       "source": "manual"
+    },
+    {
+      "sha256": [
+        "1c1ec2f60daf5e1f6ab4ebfc379b5dbd53b070ee786b1bf3f04015fd400b9e2e",
+        "9a1b6debbe3701bbed29a8a329990c1cf7264af73d30254f0ce399efa5435ba3"
+      ],
+      "text": "Stun Calico.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }
