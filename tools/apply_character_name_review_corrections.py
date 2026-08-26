@@ -87,6 +87,18 @@ CHARACTERS: dict[str, tuple[str, tuple[str, ...]]] = {
 
 
 EXPLICIT_CORRECTIONS = {
+    "transcripts/bebop/ping/bebop_ping_dynamo_was_here.mp3.json": "Dynamo was here.",
+    "transcripts/bebop/ping/bebop_ping_ivy_in_mid.mp3.json": "Ivy's in mid.",
+    "transcripts/bebop/ping/bebop_ping_murphy_in_mid.mp3.json": "Murphy's in mid.",
+    "transcripts/bebop/ping/bebop_ping_purple_help_01.mp3.json": "Purple needs help.",
+    "transcripts/bebop/ping/bebop_ping_with_fairfax.mp3.json": "I'm with you, Fairfax.",
+    "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json": "Careful, Bull!",
+    "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json": "Kelvin's headed to orange!",
+    "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json": "Kelvin's headed to yellow.",
+    "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json": "I see Ghost.",
+    "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json": "Hornet's on the bridge!",
+    "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json": "Careful, Boss.",
+    "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json": "Need help on green.",
     "transcripts/atlas/ping/abrams_ping_astro_dead.mp3.json": "Holliday is dead.",
     "transcripts/atlas/ping/abrams_ping_attack_shiv.mp3.json": "Let's take out Shiv.",
     "transcripts/atlas/ping/abrams_ping_cadence_was_here.mp3.json": "Cadence was here.",

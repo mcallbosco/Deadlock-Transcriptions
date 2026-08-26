@@ -24,12 +24,12 @@
   ],
   "thresholdsMs": {
     "0": 6291,
-    "50": 7390,
-    "100": 8274
+    "50": 7385,
+    "100": 8269
   },
   "bucketsMs": {
     "exact": 6291,
-    "1To50": 1099,
+    "1To50": 1094,
     "51To100": 884
   },
   "exactCandidateAuthoritativeTargets": {
@@ -38,8 +38,8 @@
     "officialOrManual": 4
   },
   "stats": {
-    "differentSubtitleDocuments": 15301,
-    "differentSubtitleDocumentsWithManifestHashes": 15301
+    "differentSubtitleDocuments": 15295,
+    "differentSubtitleDocumentsWithManifestHashes": 15295
   },
   "candidates": {
     "0": [
@@ -76078,17 +76078,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json",
-        "filename": "butcher/rr_test_21_ping_careful_bull_01.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "2842fd20551f53c4d5342c204384eadf334f902182f67db51d45ed1372267467",
-          "0064a94d80ea8b235dba8f14b67e5b830b15da90adaff6436453f1e59a8b28e9"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/butcher/rr_test_21_ping_careful_shiv_01.mp3.json",
         "filename": "butcher/rr_test_21_ping_careful_shiv_01.mp3",
         "minimumDurationDeltaMs": 1,
@@ -76529,28 +76518,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json",
-        "filename": "butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3",
-        "minimumDurationDeltaMs": 2,
-        "hashPair": [
-          "34f9bff1c518567d2994e28766b682438976a1f49eace0bb0c68a62859bf3df6",
-          "0c02e061588ab18739cb81c716c4674e4db1fd6d43d2ec78e927f9aa82441a76"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
-        "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json",
-        "filename": "butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "d4bd3937dd6baaa6faf8021b90b1a9952c8f54823c4a098fe5352f8c7e348f9e",
-          "63d693308ade253485854075fa315fd91c30b373c71c11f297b9a7ea24c8501c"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/butcher/rr_test_21_ping_lash_headed_to_blue.mp3.json",
         "filename": "butcher/rr_test_21_ping_lash_headed_to_blue.mp3",
         "minimumDurationDeltaMs": 2,
@@ -76903,17 +76870,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json",
-        "filename": "butcher/rr_test_21_ping_see_ghost.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "8ba790999b0c5eb0b9442d34312cc5b159763aea2af98ba57f88897d4f6b5055",
-          "54e11316944908d1d4fad513587d93ee5d1d9eaebb7d9d81444181326e1e0ec7"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/butcher/rr_test_21_ping_see_ghost_on_bridge.mp3.json",
         "filename": "butcher/rr_test_21_ping_see_ghost_on_bridge.mp3",
         "minimumDurationDeltaMs": 0,
@@ -76964,17 +76920,6 @@
         "hashPair": [
           "9501c694ae050a93718e4d15a14ebc1bbb705f1e68470cdbd5884b2e0df0100d",
           "01e1b8961535b9e513f817ddf09680163a8d86640376ccfb28026447a571449c"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
-        "path": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json",
-        "filename": "butcher/rr_test_21_ping_see_hornet_on_bridge.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "66030ea4a12ae2a7affc0a670acf456ab1cf42d05d486c0952928ede8e35b417",
-          "17734a81cb68669d3dc6b9dabf82a9556238ede335ae1f2d9a0994438b5082c9"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false
@@ -158888,17 +158833,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json",
-        "filename": "butcher/rr_test_21_ping_careful_bull_01.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "2842fd20551f53c4d5342c204384eadf334f902182f67db51d45ed1372267467",
-          "0064a94d80ea8b235dba8f14b67e5b830b15da90adaff6436453f1e59a8b28e9"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/butcher/rr_test_21_ping_careful_shiv_01.mp3.json",
         "filename": "butcher/rr_test_21_ping_careful_shiv_01.mp3",
         "minimumDurationDeltaMs": 1,
@@ -159339,28 +159273,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json",
-        "filename": "butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3",
-        "minimumDurationDeltaMs": 2,
-        "hashPair": [
-          "34f9bff1c518567d2994e28766b682438976a1f49eace0bb0c68a62859bf3df6",
-          "0c02e061588ab18739cb81c716c4674e4db1fd6d43d2ec78e927f9aa82441a76"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
-        "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json",
-        "filename": "butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "d4bd3937dd6baaa6faf8021b90b1a9952c8f54823c4a098fe5352f8c7e348f9e",
-          "63d693308ade253485854075fa315fd91c30b373c71c11f297b9a7ea24c8501c"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/butcher/rr_test_21_ping_lash_headed_to_blue.mp3.json",
         "filename": "butcher/rr_test_21_ping_lash_headed_to_blue.mp3",
         "minimumDurationDeltaMs": 2,
@@ -159713,17 +159625,6 @@
         "hasExactManualMergeTarget": false
       },
       {
-        "path": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json",
-        "filename": "butcher/rr_test_21_ping_see_ghost.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "8ba790999b0c5eb0b9442d34312cc5b159763aea2af98ba57f88897d4f6b5055",
-          "54e11316944908d1d4fad513587d93ee5d1d9eaebb7d9d81444181326e1e0ec7"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
         "path": "transcripts/butcher/rr_test_21_ping_see_ghost_on_bridge.mp3.json",
         "filename": "butcher/rr_test_21_ping_see_ghost_on_bridge.mp3",
         "minimumDurationDeltaMs": 0,
@@ -159774,17 +159675,6 @@
         "hashPair": [
           "9501c694ae050a93718e4d15a14ebc1bbb705f1e68470cdbd5884b2e0df0100d",
           "01e1b8961535b9e513f817ddf09680163a8d86640376ccfb28026447a571449c"
-        ],
-        "hasExactOfficialMergeTarget": false,
-        "hasExactManualMergeTarget": false
-      },
-      {
-        "path": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json",
-        "filename": "butcher/rr_test_21_ping_see_hornet_on_bridge.mp3",
-        "minimumDurationDeltaMs": 1,
-        "hashPair": [
-          "66030ea4a12ae2a7affc0a670acf456ab1cf42d05d486c0952928ede8e35b417",
-          "17734a81cb68669d3dc6b9dabf82a9556238ede335ae1f2d9a0994438b5082c9"
         ],
         "hasExactOfficialMergeTarget": false,
         "hasExactManualMergeTarget": false

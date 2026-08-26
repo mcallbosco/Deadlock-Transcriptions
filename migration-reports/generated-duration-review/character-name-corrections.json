@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "applied": true,
   "statistics": {
-    "correctedReviewItems": 299,
-    "explicitReviewComments": 28,
-    "agentJudgmentCorrections": 271,
+    "correctedReviewItems": 309,
+    "explicitReviewComments": 40,
+    "agentJudgmentCorrections": 269,
     "rejectedAfterAudit": 8,
-    "targetHashes": 623,
-    "changedFiles": 347,
-    "changedHashOccurrences": 726
+    "targetHashes": 649,
+    "changedFiles": 357,
+    "changedHashOccurrences": 756
   },
   "corrections": [
     {
@@ -1396,22 +1396,6 @@
       ]
     },
     {
-      "id": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json#1802",
-      "path": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json",
-      "previousSelectedText": "Careful boss.",
-      "correctedText": "Careful, The Boss.",
-      "reason": "agent-judgment",
-      "reviewReason": "Canonical character name and standard ping template are established by the supplied review map and matching sibling callouts.",
-      "confidence": "high",
-      "reviewFile": "judgment-corrections-05.json",
-      "auditResolution": null,
-      "auditObjections": [],
-      "hashes": [
-        "5881d7805fd4aec4d3e235f118fa23f086e3bb226fddf64b6d641149f3e0c9e1",
-        "a1b7e1a1d0b1eb7c9833201937d920856a0e4dcf0072a01eaa7a083c54e9f33e"
-      ]
-    },
-    {
       "id": "transcripts/gigawatt/ping/gigawatt_ping_careful_tokamak_02.mp3.json#2081",
       "path": "transcripts/gigawatt/ping/gigawatt_ping_careful_tokamak_02.mp3.json",
       "previousSelectedText": "Careful, Chokomak.",
@@ -1457,22 +1441,6 @@
       "hashes": [
         "b140eb1b2e023b476273456d29520d4f240b2f3573eee02184cd41c08783f8f5",
         "bc3388d2d4417cb816b7963f8eb3561517040e1f223089015c81ad00b504667e"
-      ]
-    },
-    {
-      "id": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json#1791",
-      "path": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json",
-      "previousSelectedText": "Need help on green.",
-      "correctedText": "Green needs help.",
-      "reason": "agent-judgment",
-      "reviewReason": "Canonical character name and standard ping template are established by the supplied review map and matching sibling callouts.",
-      "confidence": "high",
-      "reviewFile": "judgment-corrections-05.json",
-      "auditResolution": null,
-      "auditObjections": [],
-      "hashes": [
-        "8995171789c119ef09ff84229eb161949637b4e789c247f8d86a93594db7657d",
-        "dba674df849f5a39fa472bb783291eaa3fe307f85185d852127270d16b363666"
       ]
     },
     {
@@ -4777,6 +4745,144 @@
         "1d3ebbe587203ee82457e5ceb8f0c1eec42b6f14712bab48f19646c7ca11c9b7",
         "208844fdaeb48d67ff5107b5b692379e2eed8e355b6e3120a52217902e55e0a3",
         "5a61a3429839e127bd5ffe8c2eceab6a29d777746509d459489200a8ab1ab854"
+      ]
+    },
+    {
+      "id": "transcripts/bebop/ping/bebop_ping_dynamo_was_here.mp3.json#1125",
+      "path": "transcripts/bebop/ping/bebop_ping_dynamo_was_here.mp3.json",
+      "previousSelectedText": "Swordma was here.",
+      "correctedText": "Dynamo was here.",
+      "reason": "review-comment",
+      "hashes": [
+        "5ccb4f7028b1ca4a90fe49846d7fdd548bcc93a1b8550841462b70a370084293",
+        "aabe89e297211ddbdfe528149008d1e2f7879cbb21470e69450218156a90b290"
+      ]
+    },
+    {
+      "id": "transcripts/bebop/ping/bebop_ping_ivy_in_mid.mp3.json#1161",
+      "path": "transcripts/bebop/ping/bebop_ping_ivy_in_mid.mp3.json",
+      "previousSelectedText": "I've is in mid.",
+      "correctedText": "Ivy's in mid.",
+      "reason": "review-comment",
+      "hashes": [
+        "3119650876ae4ef44df41011e81f8d9c60711c82ef052bb86520816962604031",
+        "de3e337c45393c46f068c4dae8b8778b56aa30583eaa5c929273d5178f1e7d9c"
+      ]
+    },
+    {
+      "id": "transcripts/bebop/ping/bebop_ping_murphy_in_mid.mp3.json#1243",
+      "path": "transcripts/bebop/ping/bebop_ping_murphy_in_mid.mp3.json",
+      "previousSelectedText": "I was in mid.",
+      "correctedText": "Murphy's in mid.",
+      "reason": "review-comment",
+      "hashes": [
+        "4222f0b8e5b33c17e8c4ab1e579f119c470dea6b48bc17f626b8679f403d8919",
+        "ad6b768fc0400b6ced2d12db5860731db0968384cbde2517be95d752d092510e"
+      ]
+    },
+    {
+      "id": "transcripts/bebop/ping/bebop_ping_purple_help_01.mp3.json#1187",
+      "path": "transcripts/bebop/ping/bebop_ping_purple_help_01.mp3.json",
+      "previousSelectedText": "Trouble needs help.",
+      "correctedText": "Purple needs help.",
+      "reason": "review-comment",
+      "hashes": [
+        "96a81e9f60545e9092b3294af8f8fa0d70081d5ec4b2c4f4e668240372982707",
+        "ad75a48d9ce603280638b0f1b1fc14aee4add2f77a6413656d31a229c4c5f546"
+      ]
+    },
+    {
+      "id": "transcripts/bebop/ping/bebop_ping_with_fairfax.mp3.json#1347",
+      "path": "transcripts/bebop/ping/bebop_ping_with_fairfax.mp3.json",
+      "previousSelectedText": "I want you Fairfax!",
+      "correctedText": "I'm with you, Fairfax.",
+      "reason": "review-comment",
+      "hashes": [
+        "8fab0ead39287deef310367787635a02e74938d4608e47f4161cfed96dafa58b",
+        "af52e3f4945b453262be0dff4607e51c21772846fe724f83ed685ef7bf02189d"
+      ]
+    },
+    {
+      "id": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json#743",
+      "path": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json",
+      "previousSelectedText": "Careful, Bull!",
+      "correctedText": "Careful, Bull!",
+      "reason": "review-comment",
+      "hashes": [
+        "0064a94d80ea8b235dba8f14b67e5b830b15da90adaff6436453f1e59a8b28e9",
+        "1979cff7e9e0b55a71b5cb06453d058cd714df55ba2908dd97191bbbde7cfddc",
+        "2842fd20551f53c4d5342c204384eadf334f902182f67db51d45ed1372267467"
+      ]
+    },
+    {
+      "id": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json#1443",
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json",
+      "previousSelectedText": "Kelvin's headed to orange!",
+      "correctedText": "Kelvin's headed to orange!",
+      "reason": "review-comment",
+      "hashes": [
+        "0c02e061588ab18739cb81c716c4674e4db1fd6d43d2ec78e927f9aa82441a76",
+        "34f9bff1c518567d2994e28766b682438976a1f49eace0bb0c68a62859bf3df6",
+        "80e82797f8dbef2b208fe86fbeb7b33a424abb0370e19df2909f4a8eb9e0b2a3"
+      ]
+    },
+    {
+      "id": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json#1354",
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json",
+      "previousSelectedText": "Kelvin's headed to yellow.",
+      "correctedText": "Kelvin's headed to yellow.",
+      "reason": "review-comment",
+      "hashes": [
+        "63d693308ade253485854075fa315fd91c30b373c71c11f297b9a7ea24c8501c",
+        "765fbb7fe72b1932253319e0c4d23692763664d4b60078b7b4f5dddd8fb826e0",
+        "d4bd3937dd6baaa6faf8021b90b1a9952c8f54823c4a098fe5352f8c7e348f9e"
+      ]
+    },
+    {
+      "id": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json#759",
+      "path": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json",
+      "previousSelectedText": "I see Ghost.",
+      "correctedText": "I see Ghost.",
+      "reason": "review-comment",
+      "hashes": [
+        "54e11316944908d1d4fad513587d93ee5d1d9eaebb7d9d81444181326e1e0ec7",
+        "8ba790999b0c5eb0b9442d34312cc5b159763aea2af98ba57f88897d4f6b5055",
+        "a020630cdb67886a6dbb357e89c116d140b1e8e5050ee88b7828d1658e8d33f1"
+      ]
+    },
+    {
+      "id": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json#956",
+      "path": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json",
+      "previousSelectedText": "Hornet's on the bridge!",
+      "correctedText": "Hornet's on the bridge!",
+      "reason": "review-comment",
+      "hashes": [
+        "17734a81cb68669d3dc6b9dabf82a9556238ede335ae1f2d9a0994438b5082c9",
+        "66030ea4a12ae2a7affc0a670acf456ab1cf42d05d486c0952928ede8e35b417",
+        "67d9b3b741604511d3b5c553f7d1cf951dcabe77456ef3c10c57e36f8c443b60"
+      ]
+    },
+    {
+      "id": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json#1802",
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json",
+      "previousSelectedText": "Careful boss.",
+      "correctedText": "Careful, Boss.",
+      "reason": "review-comment",
+      "hashes": [
+        "5881d7805fd4aec4d3e235f118fa23f086e3bb226fddf64b6d641149f3e0c9e1",
+        "a1b7e1a1d0b1eb7c9833201937d920856a0e4dcf0072a01eaa7a083c54e9f33e"
+      ]
+    },
+    {
+      "id": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json#1791",
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json",
+      "previousSelectedText": "Need help on green.",
+      "correctedText": "Need help on green.",
+      "reason": "review-comment",
+      "hashes": [
+        "0191000f1adc59adbb530562cc2a65f22f7e89d0b9465eaeaaaae4dc230188b7",
+        "8995171789c119ef09ff84229eb161949637b4e789c247f8d86a93594db7657d",
+        "dba674df849f5a39fa472bb783291eaa3fe307f85185d852127270d16b363666"
       ]
     },
     {
@@ -10028,6 +10134,216 @@
       "previousText": "Yamato's in mid.",
       "correctedText": "Yamato's in mid.",
       "itemId": "transcripts/atlas/ping/abrams_ping_yamato_in_mid.mp3.json#1145"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_dynamo_was_here.mp3.json",
+      "sha256": "5ccb4f7028b1ca4a90fe49846d7fdd548bcc93a1b8550841462b70a370084293",
+      "previousText": "Swordma was here.",
+      "correctedText": "Dynamo was here.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_dynamo_was_here.mp3.json#1125"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_dynamo_was_here.mp3.json",
+      "sha256": "aabe89e297211ddbdfe528149008d1e2f7879cbb21470e69450218156a90b290",
+      "previousText": "Swordma was here.",
+      "correctedText": "Dynamo was here.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_dynamo_was_here.mp3.json#1125"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_ivy_in_mid.mp3.json",
+      "sha256": "3119650876ae4ef44df41011e81f8d9c60711c82ef052bb86520816962604031",
+      "previousText": "I've is in mid.",
+      "correctedText": "Ivy's in mid.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_ivy_in_mid.mp3.json#1161"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_ivy_in_mid.mp3.json",
+      "sha256": "de3e337c45393c46f068c4dae8b8778b56aa30583eaa5c929273d5178f1e7d9c",
+      "previousText": "I've is in mid.",
+      "correctedText": "Ivy's in mid.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_ivy_in_mid.mp3.json#1161"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_murphy_in_mid.mp3.json",
+      "sha256": "4222f0b8e5b33c17e8c4ab1e579f119c470dea6b48bc17f626b8679f403d8919",
+      "previousText": "I was in mid.",
+      "correctedText": "Murphy's in mid.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_murphy_in_mid.mp3.json#1243"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_murphy_in_mid.mp3.json",
+      "sha256": "ad6b768fc0400b6ced2d12db5860731db0968384cbde2517be95d752d092510e",
+      "previousText": "I was in mid.",
+      "correctedText": "Murphy's in mid.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_murphy_in_mid.mp3.json#1243"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_purple_help_01.mp3.json",
+      "sha256": "96a81e9f60545e9092b3294af8f8fa0d70081d5ec4b2c4f4e668240372982707",
+      "previousText": "Trouble needs help.",
+      "correctedText": "Purple needs help.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_purple_help_01.mp3.json#1187"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_purple_help_01.mp3.json",
+      "sha256": "ad75a48d9ce603280638b0f1b1fc14aee4add2f77a6413656d31a229c4c5f546",
+      "previousText": "Trouble needs help.",
+      "correctedText": "Purple needs help.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_purple_help_01.mp3.json#1187"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_with_fairfax.mp3.json",
+      "sha256": "8fab0ead39287deef310367787635a02e74938d4608e47f4161cfed96dafa58b",
+      "previousText": "I want you Fairfax!",
+      "correctedText": "I'm with you, Fairfax.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_with_fairfax.mp3.json#1347"
+    },
+    {
+      "path": "transcripts/bebop/ping/bebop_ping_with_fairfax.mp3.json",
+      "sha256": "af52e3f4945b453262be0dff4607e51c21772846fe724f83ed685ef7bf02189d",
+      "previousText": "I want you Fairfax!",
+      "correctedText": "I'm with you, Fairfax.",
+      "itemId": "transcripts/bebop/ping/bebop_ping_with_fairfax.mp3.json#1347"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json",
+      "sha256": "2842fd20551f53c4d5342c204384eadf334f902182f67db51d45ed1372267467",
+      "previousText": "Careful, bub!",
+      "correctedText": "Careful, Bull!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json#743"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json",
+      "sha256": "0064a94d80ea8b235dba8f14b67e5b830b15da90adaff6436453f1e59a8b28e9",
+      "previousText": "Careful, Bull!",
+      "correctedText": "Careful, Bull!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json#743"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json",
+      "sha256": "1979cff7e9e0b55a71b5cb06453d058cd714df55ba2908dd97191bbbde7cfddc",
+      "previousText": "Careful, Bull!",
+      "correctedText": "Careful, Bull!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_careful_bull_01.mp3.json#743"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json",
+      "sha256": "34f9bff1c518567d2994e28766b682438976a1f49eace0bb0c68a62859bf3df6",
+      "previousText": "Calvin's headed to Orange!",
+      "correctedText": "Kelvin's headed to orange!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json#1443"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json",
+      "sha256": "0c02e061588ab18739cb81c716c4674e4db1fd6d43d2ec78e927f9aa82441a76",
+      "previousText": "Kelvin's headed to orange!",
+      "correctedText": "Kelvin's headed to orange!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json#1443"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json",
+      "sha256": "80e82797f8dbef2b208fe86fbeb7b33a424abb0370e19df2909f4a8eb9e0b2a3",
+      "previousText": "Kelvin's headed to orange!",
+      "correctedText": "Kelvin's headed to orange!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_orange.mp3.json#1443"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json",
+      "sha256": "d4bd3937dd6baaa6faf8021b90b1a9952c8f54823c4a098fe5352f8c7e348f9e",
+      "previousText": "Calvin's headed to yellow.",
+      "correctedText": "Kelvin's headed to yellow.",
+      "itemId": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json#1354"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json",
+      "sha256": "63d693308ade253485854075fa315fd91c30b373c71c11f297b9a7ea24c8501c",
+      "previousText": "Kelvin's headed to yellow.",
+      "correctedText": "Kelvin's headed to yellow.",
+      "itemId": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json#1354"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json",
+      "sha256": "765fbb7fe72b1932253319e0c4d23692763664d4b60078b7b4f5dddd8fb826e0",
+      "previousText": "Kelvin's headed to yellow.",
+      "correctedText": "Kelvin's headed to yellow.",
+      "itemId": "transcripts/butcher/rr_test_21_ping_kelvin_headed_to_yellow.mp3.json#1354"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json",
+      "sha256": "8ba790999b0c5eb0b9442d34312cc5b159763aea2af98ba57f88897d4f6b5055",
+      "previousText": "I see ghosts.",
+      "correctedText": "I see Ghost.",
+      "itemId": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json#759"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json",
+      "sha256": "54e11316944908d1d4fad513587d93ee5d1d9eaebb7d9d81444181326e1e0ec7",
+      "previousText": "I see Ghost.",
+      "correctedText": "I see Ghost.",
+      "itemId": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json#759"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json",
+      "sha256": "a020630cdb67886a6dbb357e89c116d140b1e8e5050ee88b7828d1658e8d33f1",
+      "previousText": "I see Ghost.",
+      "correctedText": "I see Ghost.",
+      "itemId": "transcripts/butcher/rr_test_21_ping_see_ghost.mp3.json#759"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json",
+      "sha256": "66030ea4a12ae2a7affc0a670acf456ab1cf42d05d486c0952928ede8e35b417",
+      "previousText": "One is on the bridge!",
+      "correctedText": "Hornet's on the bridge!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json#956"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json",
+      "sha256": "17734a81cb68669d3dc6b9dabf82a9556238ede335ae1f2d9a0994438b5082c9",
+      "previousText": "Hornet's on the bridge!",
+      "correctedText": "Hornet's on the bridge!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json#956"
+    },
+    {
+      "path": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json",
+      "sha256": "67d9b3b741604511d3b5c553f7d1cf951dcabe77456ef3c10c57e36f8c443b60",
+      "previousText": "Hornet's on the bridge!",
+      "correctedText": "Hornet's on the bridge!",
+      "itemId": "transcripts/butcher/rr_test_21_ping_see_hornet_on_bridge.mp3.json#956"
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json",
+      "sha256": "5881d7805fd4aec4d3e235f118fa23f086e3bb226fddf64b6d641149f3e0c9e1",
+      "previousText": "Careful, The Boss.",
+      "correctedText": "Careful, Boss.",
+      "itemId": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json#1802"
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json",
+      "sha256": "a1b7e1a1d0b1eb7c9833201937d920856a0e4dcf0072a01eaa7a083c54e9f33e",
+      "previousText": "Careful, The Boss.",
+      "correctedText": "Careful, Boss.",
+      "itemId": "transcripts/gigawatt/ping/gigawatt_ping_careful_the_boss_01.mp3.json#1802"
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json",
+      "sha256": "8995171789c119ef09ff84229eb161949637b4e789c247f8d86a93594db7657d",
+      "previousText": "Green needs help.",
+      "correctedText": "Need help on green.",
+      "itemId": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json#1791"
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json",
+      "sha256": "dba674df849f5a39fa472bb783291eaa3fe307f85185d852127270d16b363666",
+      "previousText": "Green needs help.",
+      "correctedText": "Need help on green.",
+      "itemId": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json#1791"
+    },
+    {
+      "path": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json",
+      "sha256": "0191000f1adc59adbb530562cc2a65f22f7e89d0b9465eaeaaaae4dc230188b7",
+      "previousText": "Need help on Greenwich?",
+      "correctedText": "Need help on green.",
+      "itemId": "transcripts/gigawatt/ping/gigawatt_ping_need_help_green.mp3.json#1791"
     }
   ]
 }
