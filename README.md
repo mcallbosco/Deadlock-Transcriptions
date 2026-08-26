@@ -220,6 +220,32 @@ $env:PYTHONDONTWRITEBYTECODE='1'
 python -m unittest discover -s tests -v
 ```
 
+## GPT transcription review pass
+
+The unresolved exact-duration generated/generated conflicts can be transcribed once per
+deduplicated recording group using audio from the public VLViewer CDN. Preparing the queue
+does not require credentials or make paid API calls:
+
+```powershell
+python tools/gpt_transcribe_duration_review.py prepare
+```
+
+Running the queue requires a funded OpenAI API project and an API key supplied through the
+environment. ChatGPT subscriptions do not provide API billing. The runner verifies every
+downloaded SHA-256, checkpoints each result for safe resume, and never applies the model
+output directly to repository transcripts:
+
+```powershell
+python -m pip install --requirement requirements-transcription.txt
+$env:OPENAI_API_KEY='your-project-api-key'
+python tools/gpt_transcribe_duration_review.py run --max-requests 1 --confirm-paid-requests
+python tools/gpt_transcribe_duration_review.py run --confirm-paid-requests
+```
+
+The prompt and vocabulary match the `DLSoundProjectUtilities` HistoricalContent
+transcription path. Keep `results.jsonl` as review evidence; a separate reviewed application
+step must decide whether any GPT transcript is trustworthy enough to merge.
+
 ## CDN synchronization
 
 Pull requests targeting `main` validate the complete repository and build a
