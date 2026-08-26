@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "56d37efdf07314229e34d3196123a848c2f839787820ff833ba3a1bc85cdb7b1",
         "9df7470240ac085e28689b826d5b8616492c6c49c07cda6fc29ac69912257a3e"
       ],
-      "text": "Key got under the garage.",
+      "text": "Seven's under the garage.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "56d37efdf07314229e34d3196123a848c2f839787820ff833ba3a1bc85cdb7b1"
-      ],
-      "text": "Key goes under the garage.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

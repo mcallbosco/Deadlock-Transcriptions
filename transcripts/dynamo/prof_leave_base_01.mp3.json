@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "15d562fee18c74c5b97bbe8bfe7e0cc0a6e97ab949306f51664509ea181e1ef3",
         "e30ca31ca8f8b1dd07a6f65cc3982753aab03eb7ed3d8c68f28d07aaf0e562f0"
       ],
-      "text": "And back in the field we go.",
+      "text": "And back into the field we go.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "15d562fee18c74c5b97bbe8bfe7e0cc0a6e97ab949306f51664509ea181e1ef3"
-      ],
-      "text": "Back in the field we go.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

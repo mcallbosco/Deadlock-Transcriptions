@@ -12,27 +12,13 @@
     },
     {
       "sha256": [
+        "567134ebebff92a6b91e052d3ac4998073581078465aef125d0ce09b8f1226d2",
+        "aa3ecf82bf9f2260d7048403a0af2ff0e96abd6246e7d22eb33e1929ceb12f6c",
         "b479aac64c044075576cfcc23f790c512571ce429ee7be66e1748ed238274563"
       ],
-      "text": "Tog is on the roof!",
+      "text": "Pocket's on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "aa3ecf82bf9f2260d7048403a0af2ff0e96abd6246e7d22eb33e1929ceb12f6c"
-      ],
-      "text": "Focus on the freeze!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "567134ebebff92a6b91e052d3ac4998073581078465aef125d0ce09b8f1226d2"
-      ],
-      "text": "Coke is on the roof!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

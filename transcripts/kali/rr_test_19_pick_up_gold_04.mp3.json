@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "0fe528688d3ede32856002f0958b1a635b7df09bb009067792ce7464b2f71240",
         "678d6aed93a830adbb0b4c62a807facb69fb446a774cb91217e5f43e1d9bddc9",
         "83fac000670359b7df5924045bef36c8dc873d48824102497ff0f7a8d2be98b9"
       ],
-      "text": "If they don't got it, I'm gonna pick it up.",
+      "text": "If they gonna drop it, I'm gonna pick it up.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0fe528688d3ede32856002f0958b1a635b7df09bb009067792ce7464b2f71240"
-      ],
-      "text": "If they don't drop it, I'm gonna pick it up.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

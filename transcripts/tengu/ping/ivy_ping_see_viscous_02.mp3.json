@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "39c08d0046819458ee7a55574c4e5dbd5df339b807aca853a1688bc370011be7",
         "e3f7512a56c77f7816e6c5f0964354e292342e31545122425b518464be13ca70"
       ],
-      "text": "Go got here!",
+      "text": "Who got here?",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "39c08d0046819458ee7a55574c4e5dbd5df339b807aca853a1688bc370011be7"
-      ],
-      "text": "Who's got here?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

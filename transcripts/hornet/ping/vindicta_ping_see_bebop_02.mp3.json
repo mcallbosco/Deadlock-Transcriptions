@@ -12,20 +12,13 @@
     },
     {
       "sha256": [
+        "844a97b76edc8b761c4c65ef8d6d5cf81625415d0601619d76927dba3427bd5f",
+        "bf49934539f0fd55964a551c016847cc47c3f9691bdf033b85717d25a2207f20",
         "eabde92714008c47b35fed088dd75e04b72322323f4d78674bb12d39ec62db7a"
       ],
-      "text": "Test that robot.",
+      "text": "There's that robot.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "844a97b76edc8b761c4c65ef8d6d5cf81625415d0601619d76927dba3427bd5f",
-        "bf49934539f0fd55964a551c016847cc47c3f9691bdf033b85717d25a2207f20"
-      ],
-      "text": "Get that robot!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

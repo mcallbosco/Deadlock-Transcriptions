@@ -12,27 +12,13 @@
     },
     {
       "sha256": [
+        "4945b87b53ba2feb2494a23f906a39be887f56819d7a0de4144cb5c0f24dfc31",
+        "823a4c7cb73119ab2b1e7a0b3d4db21318dc51ad3fb482cb5e679ae1ed00ab3b",
         "e3b4beeb5f94e84d9a3a41f4d948a5ddc144ba0a51a50a2b3a523a886845c727"
       ],
-      "text": "Warnings on the roof!",
+      "text": "Warden's on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4945b87b53ba2feb2494a23f906a39be887f56819d7a0de4144cb5c0f24dfc31"
-      ],
-      "text": "Good is on the roof.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "823a4c7cb73119ab2b1e7a0b3d4db21318dc51ad3fb482cb5e679ae1ed00ab3b"
-      ],
-      "text": "Greetings of the Rift!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

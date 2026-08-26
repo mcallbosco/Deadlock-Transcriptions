@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "1e8f8ad5db06ae9aae2f1a0287a5ea32046bbf5e889a6759ac79d38c6aec2970",
         "2db41c7e05c1a9d0635bdf99a51db488c4da2dddf31f2df43b81525e3ef82e8c",
         "cf035ea21e8065908d6a5dd93915d14c9d89fe9aebac76e35efaa61df63327eb"
       ],
-      "text": "Try some gear when you get a chance.",
+      "text": "Buy some gear when you get a chance.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "1e8f8ad5db06ae9aae2f1a0287a5ea32046bbf5e889a6759ac79d38c6aec2970"
-      ],
-      "text": "Slice some gear when you get a chance.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

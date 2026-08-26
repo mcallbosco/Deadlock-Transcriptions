@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "38e5c9ead55b7d4a3b41b8e25f2494495a1dd06bf77b8804486010f87b17498f",
         "de13cd6ca371fa5f25c92ce3db6883ad0a817ec1d2b3f2cf54c38f52864e6825"
       ],
-      "text": "Please take someone better than that to kill me.",
+      "text": "It takes someone better than that to kill me.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "38e5c9ead55b7d4a3b41b8e25f2494495a1dd06bf77b8804486010f87b17498f"
-      ],
-      "text": "Is there someone better than that to kill me?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

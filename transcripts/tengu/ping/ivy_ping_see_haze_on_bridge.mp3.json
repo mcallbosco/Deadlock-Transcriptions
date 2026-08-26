@@ -12,19 +12,12 @@
     },
     {
       "sha256": [
+        "0a8aedd3d7a9cb9dfd01cb046ac96b0534795624ec4ab20d85f301606b33db38",
         "ce3829c2fb9cce13e51b5ae007ec6af15a98ef874aa7bccd3403ea583fe16db4"
       ],
-      "text": "Hey, on the bridge!",
+      "text": "Haze is on the bridge!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0a8aedd3d7a9cb9dfd01cb046ac96b0534795624ec4ab20d85f301606b33db38"
-      ],
-      "text": "Hey, I'm on the bridge!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

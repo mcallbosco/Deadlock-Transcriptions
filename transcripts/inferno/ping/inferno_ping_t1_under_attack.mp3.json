@@ -12,20 +12,13 @@
     },
     {
       "sha256": [
+        "84c8fe23a46be8b688f420cdd81b5f563deff806c7b262485df21d875c15303d",
         "ab49208188c7f0cf5c22e298fe7329b05df25e87887360350d566a85e1e93f9a",
         "b0c51154b8e4876b3dfacf2c2b49d08411e8cb476548ff3fe8ec46f4dde31289"
       ],
-      "text": "They're taking out Tier 1.",
+      "text": "They're taking our tier one.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "84c8fe23a46be8b688f420cdd81b5f563deff806c7b262485df21d875c15303d"
-      ],
-      "text": "We're taking out tier one.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }
