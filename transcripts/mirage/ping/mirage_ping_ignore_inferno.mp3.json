@@ -4,7 +4,6 @@
   "revisions": [
     {
       "sha256": [
-        "7619d73930f446981d1175733f491f8f40151694cb467c67612fce447c6c9a15",
         "abfa5b37dc0f5bde9bccfb6ca41be7e1df8ef8b36bcb31204822aec0679e7b20"
       ],
       "text": "Ignore the furnace!",
@@ -13,11 +12,12 @@
     },
     {
       "sha256": [
+        "7619d73930f446981d1175733f491f8f40151694cb467c67612fce447c6c9a15",
         "8687ee8b6de0e96cd565dab026f6686e6f12f1897802e17ee46750b929df61f5"
       ],
       "text": "Ignore Infernus!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-4o-transcribe"
     }
   ]
 }

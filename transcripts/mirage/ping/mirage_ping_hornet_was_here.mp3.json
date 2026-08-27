@@ -12,7 +12,6 @@
     },
     {
       "sha256": [
-        "31b5727ccb7e4428952cee3aaaa0511af9ccf65c7299f08a7c6dbb274186028b",
         "6ed72b9015cc37f3ac8a852204db04df214ca7d06811b2ac120a4dce74b36899"
       ],
       "text": "We didn't think it was here.",
@@ -21,11 +20,12 @@
     },
     {
       "sha256": [
+        "31b5727ccb7e4428952cee3aaaa0511af9ccf65c7299f08a7c6dbb274186028b",
         "ea4cb7020acf1865139d44a72c347d3f6a8d7a8882a63eeb39df3b9c6abbac4a"
       ],
-      "text": "Vindicta was here!",
+      "text": "Vindicta was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-4o-transcribe"
     }
   ]
 }
