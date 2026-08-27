@@ -4,7 +4,6 @@
   "revisions": [
     {
       "sha256": [
-        "09a2412911ebabe7ed49978cc210aff4a988b300eaa8b6c60a1765cebcaf251a",
         "4967d9433d4d6ae22ec1867a8d1b84b65a1a2f5331197b0eaab6fb53c23828f6"
       ],
       "text": "John Kelvin!",
@@ -13,12 +12,13 @@
     },
     {
       "sha256": [
+        "09a2412911ebabe7ed49978cc210aff4a988b300eaa8b6c60a1765cebcaf251a",
         "1d6015e637711131c617093c246fe65250904e6f6406ddf41c237e3c48517316",
         "b2b034007d06b52b6cf9911ca194984da7bf3068e085dc78da343c6edc21c4ea"
       ],
       "text": "Stun Kelvin",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-4o-transcribe"
     }
   ]
 }
