@@ -4,19 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "db39c9f231d9dba58679ac08b9a9a05c22f04e0bba502919e79008ec8447c5c4"
-      ],
-      "text": "This is a test.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "3c5d9388db70f6c858a147c4bc8c346ed0d61d3b377367775ff7af9e730fcbb4",
         "c179b33310bf0f4363d12068de4b3f65776723b40b9186ab0724405d7e5529d7"
       ],
       "text": "",
       "source": "skippednonspeech"
+    },
+    {
+      "sha256": [
+        "3c5d9388db70f6c858a147c4bc8c346ed0d61d3b377367775ff7af9e730fcbb4",
+        "db39c9f231d9dba58679ac08b9a9a05c22f04e0bba502919e79008ec8447c5c4"
+      ],
+      "text": "I see Kali.",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }
