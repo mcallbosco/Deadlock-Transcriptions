@@ -4,20 +4,20 @@
   "revisions": [
     {
       "sha256": [
-        "01263f40fc01d5ba77221a0238b42d3af3317aafa7b755ce03dee2f1143e016a"
-      ],
-      "text": "Hey, Dallas!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "8e0d076e7b3c878d61250f079b830dc6ec7df111f8b6b0d9ca40bd0a1e3576d0",
         "93acc765620713c8dec98bf1f761215b71a899f67e8827ece8dbee0791c59ca0"
       ],
       "text": "Thanks, Abrams.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
+    },
+    {
+      "sha256": [
+        "01263f40fc01d5ba77221a0238b42d3af3317aafa7b755ce03dee2f1143e016a",
+        "8e0d076e7b3c878d61250f079b830dc6ec7df111f8b6b0d9ca40bd0a1e3576d0"
+      ],
+      "text": "Thanks, Atlas.",
+      "source": "generated",
+      "model": "gpt-4o-transcribe"
     }
   ]
 }
