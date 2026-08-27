@@ -240,6 +240,18 @@ Keyboard shortcuts are available outside text fields: `A` and `B` play either en
 `Space` toggles playback, `J`/`K` navigate, and `T`, `N`, or `H` save a transcript,
 nonspeech, or hold decision respectively.
 
+Once every recording has a decision, validate and apply the review with:
+
+```powershell
+python tools/apply_double_blank_review.py
+python tools/apply_double_blank_review.py --apply
+```
+
+Accepted speech becomes `manual`, confirmed nonspeech becomes `skippednonspeech`, and a
+held decision can be merged into a unique current official revision by mentioning
+`official` in its review note. The applier updates every current occurrence of every
+recording hash and refuses incomplete reviews, unknown hashes, or unresolved holds.
+
 ## CDN synchronization
 
 Pull requests targeting `main` validate the complete repository and build a
