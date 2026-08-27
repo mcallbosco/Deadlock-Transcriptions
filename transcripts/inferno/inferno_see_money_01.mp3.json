@@ -12,7 +12,6 @@
     },
     {
       "sha256": [
-        "3ea530a6beff9af175eb0830827446f5b2286104b7521aadd876d4c9945b5fb5",
         "86312ce945d9d737977ebbf1668ae3e34e9e0bd9de1648609c93adf70f8358b2"
       ],
       "text": "There's some souls laying around.",
@@ -21,11 +20,17 @@
     },
     {
       "sha256": [
+        "3ea530a6beff9af175eb0830827446f5b2286104b7521aadd876d4c9945b5fb5"
+      ],
+      "text": "There's some obols lying around.",
+      "source": "manual"
+    },
+    {
+      "sha256": [
         "de85807ee221c5203cca179d2b267844aeeb2c0a084f05334a7af3dd7f815817"
       ],
       "text": "I think there's some souls nearby.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "manual"
     }
   ]
 }
