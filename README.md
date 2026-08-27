@@ -220,6 +220,26 @@ $env:PYTHONDONTWRITEBYTECODE='1'
 python -m unittest discover -s tests -v
 ```
 
+## Double-blank audio review
+
+Start the local reviewer for recordings that returned blank from both
+`gpt-transcribe` passes:
+
+```powershell
+python tools/double_blank_review_server.py --open
+```
+
+The interface loads both CDN encodes for every held recording, shows earlier transcript
+candidates, and supports transcript, nonspeech, and hold decisions. Decisions are saved
+after every action to
+`migration-reports/gpt-transcribe-double-blank-decisions.json`; they can also be exported
+from the interface. The server listens only on `127.0.0.1` by default and has no external
+package dependencies.
+
+Keyboard shortcuts are available outside text fields: `A` and `B` play either encode,
+`Space` toggles playback, `J`/`K` navigate, and `T`, `N`, or `H` save a transcript,
+nonspeech, or hold decision respectively.
+
 ## CDN synchronization
 
 Pull requests targeting `main` validate the complete repository and build a

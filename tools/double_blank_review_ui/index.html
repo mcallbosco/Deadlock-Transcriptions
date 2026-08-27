@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Deadlock Double-Blank Review</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Deadlock Transcriptions</p>
+        <h1>Double-blank review</h1>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-label"><span id="progress-text">Loading…</span><span id="save-state">Saved locally</span></div>
+        <div class="progress-track"><div id="progress-bar"></div></div>
+      </div>
+    </header>
+
+    <main>
+      <aside class="queue-panel">
+        <div class="filters">
+          <input id="search" type="search" placeholder="Search filename or text" aria-label="Search queue" />
+          <div class="filter-row">
+            <select id="status-filter" aria-label="Filter by status">
+              <option value="all">All recordings</option>
+              <option value="unreviewed">Unreviewed</option>
+              <option value="transcript">Transcript</option>
+              <option value="nonspeech">Nonspeech</option>
+              <option value="hold">Hold</option>
+            </select>
+            <select id="sort-order" aria-label="Sort queue">
+              <option value="report">Report order</option>
+              <option value="longest">Longest first</option>
+              <option value="shortest">Shortest first</option>
+              <option value="filename">Filename</option>
+            </select>
+          </div>
+        </div>
+        <div id="queue" class="queue" aria-label="Review queue"></div>
+      </aside>
+
+      <section class="review-panel">
+        <div id="empty-state" class="empty-state">Select a recording to begin.</div>
+        <article id="review-card" hidden>
+          <div class="recording-heading">
+            <div>
+              <div id="decision-badge" class="decision-badge unreviewed">Unreviewed</div>
+              <h2 id="filename"></h2>
+              <p id="metadata" class="metadata"></p>
+            </div>
+            <div class="navigation">
+              <button id="previous" class="secondary" title="Previous (K)">← Previous</button>
+              <button id="next" class="secondary" title="Next (J)">Next →</button>
+            </div>
+          </div>
+
+          <section class="audio-section" aria-labelledby="audio-heading">
+            <div class="section-title">
+              <div><p class="eyebrow">A/B source check</p><h3 id="audio-heading">Listen to both encodes</h3></div>
+              <div class="speed-controls" aria-label="Playback speed">
+                <button data-speed="0.75">0.75×</button><button data-speed="1" class="active">1×</button><button data-speed="1.25">1.25×</button>
+              </div>
+            </div>
+            <div id="audio-list" class="audio-list"></div>
+          </section>
+
+          <section class="context-section">
+            <div class="section-title"><div><p class="eyebrow">Existing context</p><h3>Earlier transcript candidates</h3></div></div>
+            <p id="reason" class="reason"></p>
+            <div id="candidates" class="candidates"></div>
+          </section>
+
+          <section class="decision-section">
+            <label for="transcript"><span>Final transcript</span><small>Required only when accepting speech</small></label>
+            <textarea id="transcript" rows="3" placeholder="Type what you hear, or choose an earlier candidate above"></textarea>
+            <label for="notes"><span>Review notes</span><small>Optional</small></label>
+            <textarea id="notes" rows="2" placeholder="Uncertainty, audible effects, alternate wording…"></textarea>
+            <div class="decision-actions">
+              <button id="accept" class="accept" title="Accept transcript (T)">Accept transcript</button>
+              <button id="nonspeech" class="nonspeech" title="Mark nonspeech (N)">Mark nonspeech</button>
+              <button id="hold" class="hold" title="Hold for later (H)">Hold / uncertain</button>
+              <button id="clear" class="secondary danger">Clear decision</button>
+            </div>
+          </section>
+
+          <details class="details">
+            <summary>Technical details</summary>
+            <pre id="technical"></pre>
+          </details>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <span><kbd>A</kbd>/<kbd>B</kbd> play encodes · <kbd>Space</kbd> pause/play · <kbd>J</kbd>/<kbd>K</kbd> navigate · <kbd>T</kbd> transcript · <kbd>N</kbd> nonspeech · <kbd>H</kbd> hold</span>
+      <a href="/api/export" download>Export decisions JSON</a>
+    </footer>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
