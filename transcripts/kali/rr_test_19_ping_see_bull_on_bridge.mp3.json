@@ -4,19 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "1611df5051fa5ca90d031dea4a07ea363f0c91c54702d76cc291a13d7acd945b"
-      ],
-      "text": "This is a test.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "594e493db04a1d200d4fcab6ae1c24a8d0b728b2506058b9ad4dc4aadeefb4f5",
         "bc7044802d1d9bee8acf247e09cd600f60b0cc3bab3a49da8061273b484ccb76"
       ],
       "text": "",
       "source": "skippednonspeech"
+    },
+    {
+      "sha256": [
+        "1611df5051fa5ca90d031dea4a07ea363f0c91c54702d76cc291a13d7acd945b",
+        "594e493db04a1d200d4fcab6ae1c24a8d0b728b2506058b9ad4dc4aadeefb4f5"
+      ],
+      "text": "Bull's on the bridge!",
+      "source": "generated",
+      "model": "gpt-4o-mini-transcribe"
     }
   ]
 }
