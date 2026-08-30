@@ -4,11 +4,11 @@
   "revisions": [
     {
       "sha256": [
+        "26b88682b650b088c123592673c03dc0a4f4e37ab3e6c8a2de0384c6c05e6f51",
         "f15e0114200673ab3fdff39f54748844e285a8a3b71a6c0a8ebe0491009db315"
       ],
       "text": "These are mine now.",
-      "source": "generated",
-      "model": "gpt-transcribe"
+      "source": "official"
     },
     {
       "sha256": [
@@ -18,13 +18,6 @@
       "text": "He's your mind now.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "26b88682b650b088c123592673c03dc0a4f4e37ab3e6c8a2de0384c6c05e6f51"
-      ],
-      "text": "These are mine now.",
-      "source": "official"
     }
   ]
 }
