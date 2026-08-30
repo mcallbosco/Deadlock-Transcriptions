@@ -243,3 +243,12 @@ Repository/environment setup and baseline instructions are documented in
 The Phase 1 planner and R2 synchronizer are checked in under `tools/` and are tested in
 the same pull request as transcript and configuration changes. CI therefore does not
 fetch executable publisher code from another repository.
+
+The same deployment now derives official voice-line history from every configured
+official version catalog and the repository's authoritative transcript state. It
+rebuilds the logical dataset on each qualifying deployment, uploads only changed
+content-addressed shards, and publishes the small history manifest last. Custom
+versions are excluded. New hidden game versions are reconciled with the manual
+`history-dry-run` and `history-reconcile` deployment modes before promotion. See
+[`docs/voice-line-history.md`](docs/voice-line-history.md) for the data contract and
+release sequence.

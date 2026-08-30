@@ -190,6 +190,18 @@ class ContentSyncTests(unittest.TestCase):
         self.commit("correct transcript")
         return ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
 
+    def enable_history(self, *version_ids: str) -> None:
+        self.write_json(
+            self.repo / "config" / "deadlock" / "voice-line-history.json",
+            {
+                "schemaVersion": 1,
+                "game": "deadlock",
+                "shardCount": 256,
+                "officialVersions": list(version_ids),
+            },
+            indent=2,
+        )
+
     def test_updates_every_occurrence_and_metadata_once(self) -> None:
         plan = self.target_plan(MemoryStore(self.published()))
 
@@ -218,6 +230,68 @@ class ContentSyncTests(unittest.TestCase):
             self.assertEqual(record["keep"], "unchanged")
         manifest = next(write.value for write in plan.writes if write.key == "deadlock/manifest.json")
         self.assertEqual(manifest["versions"][0]["contentRevision"], 3)
+
+    def test_history_reconciliation_uses_immutable_shards_and_manifest_last(self) -> None:
+        self.enable_history("v0", "v1")
+        self.commit("configure voice-line history")
+        values = self.published()
+        old_record = {
+            "filename": "hero/line.mp3",
+            "audioKey": f"sha256/{SHA[:2]}/{SHA}.mp3",
+            "transcription": "old text",
+            "officialtranscription": True,
+        }
+        values["deadlock/versions/v0/voicelines.json"] = {
+            "hero": {"lines": [old_record]}
+        }
+        values["deadlock/manifest.json"]["versions"].append(
+            {
+                "id": "v0",
+                "label": "Version 0",
+                "contentRevision": 1,
+                "voiceLineUrl": f"{CDN}/deadlock/versions/v0/voicelines.json",
+                "conversationUrl": f"{CDN}/deadlock/versions/v0/conversations.json",
+            }
+        )
+        store = MemoryStore(values)
+
+        plan = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(
+            base=self.base
+        )
+
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertEqual(plan.history["versions"], 2)
+        self.assertEqual(plan.history["lines"], 1)
+        shard = next(write for write in plan.writes if write.phase == "history-content")
+        self.assertRegex(
+            shard.key,
+            r"^deadlock/history/voicelines/shards/[0-9a-f]{64}\.json$",
+        )
+        self.assertEqual(shard.cache_control, "public, max-age=31536000, immutable")
+        history_manifest = next(
+            write for write in plan.writes if write.phase == "history-manifest"
+        )
+        self.assertEqual(
+            next(iter(history_manifest.value["shards"].values()))["url"],
+            f"{CDN}/{shard.key}",
+        )
+        self.assertEqual(
+            [write.phase for write in plan.sorted_writes()],
+            ["history-content", "history-manifest", "manifest"],
+        )
+        root = next(write.value for write in plan.writes if write.phase == "manifest")
+        self.assertEqual(
+            root["voiceLineHistoryManifestUrl"],
+            f"{CDN}/deadlock/history/voicelines/manifest.json",
+        )
+
+        for write in plan.sorted_writes():
+            store.put_json(write)
+        second = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(
+            base=self.git("rev-parse", "HEAD").strip()
+        )
+        self.assertTrue(second.deployable, second.to_markdown())
+        self.assertEqual(second.writes, [])
 
     @staticmethod
     def _walk(value: Any):
@@ -546,6 +620,38 @@ class ContentSyncTests(unittest.TestCase):
             store.put_json(
                 PlannedWrite("replace.json", {"a": 1}, '"etag"', "content", "test")
             )
+
+    def test_immutable_r2_rerun_accepts_identical_existing_object(self) -> None:
+        value = {"schemaVersion": 1, "lines": {}}
+
+        class PreconditionFailed(Exception):
+            response = {
+                "Error": {"Code": "PreconditionFailed"},
+                "ResponseMetadata": {"HTTPStatusCode": 412},
+            }
+
+        class ExistingImmutableClient:
+            @staticmethod
+            def put_object(**_kwargs: Any) -> None:
+                raise PreconditionFailed()
+
+            @staticmethod
+            def get_object(**_kwargs: Any) -> dict[str, Any]:
+                return {"Body": io.BytesIO(canonical_json(value)), "ETag": '"existing"'}
+
+        store = R2JsonStore(
+            "bucket", "https://account.r2.example", client=ExistingImmutableClient()
+        )
+        store.put_json(
+            PlannedWrite(
+                "deadlock/history/voicelines/shards/hash.json",
+                value,
+                None,
+                "history-content",
+                "test retry",
+                cache_control="public, max-age=31536000, immutable",
+            )
+        )
 
     def test_partial_rerun_finishes_metadata_without_second_revision(self) -> None:
         store = MemoryStore(self.published())

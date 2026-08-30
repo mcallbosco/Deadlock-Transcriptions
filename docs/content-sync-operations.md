@@ -96,6 +96,15 @@ identity, and the cursor is written only after public verification.
 - `baseline-deploy`: full reconciliation; requires `approve_baseline`.
 - `initialize`: first full reconciliation and cursor creation; requires
   `approve_baseline` and an absent cursor.
+- `history-dry-run`: rebuild history against current R2 catalogs without writes;
+  requires the private cursor to equal the target transcript commit.
+- `history-reconcile`: publish and verify history after a hidden official version is
+  added; requires the same cursor equality and does not bypass transcript changes.
 
 Do not use an old-history commit as an incremental base. Non-ancestor ranges are rejected
 and must go through a reviewed baseline operation.
+
+For a new official game version, update `config/deadlock/voice-line-history.json`
+first, publish the version as hidden, run the two history modes, verify the exact
+catalog hash in the public history manifest, and only then promote the version. Do not
+run the Historical Content desktop publisher concurrently with this workflow.

@@ -19,6 +19,8 @@ on:
           - baseline-dry-run
           - baseline-deploy
           - initialize
+          - history-dry-run
+          - history-reconcile
       base_commit:
         description: Optional incremental recovery base (defaults to private cursor)
         type: string
@@ -112,6 +114,8 @@ jobs:
             baseline-dry-run) args+=(--reconcile --dry-run) ;;
             baseline-deploy) args+=(--reconcile) ;;
             initialize) args+=(--initialize) ;;
+            history-dry-run) args+=(--history-only --dry-run) ;;
+            history-reconcile) args+=(--history-only) ;;
             *) echo "Unknown deployment mode: $mode" >&2; exit 1 ;;
           esac
 
