@@ -6,9 +6,10 @@ and audio, but it must not write objects below `deadlock/history/voicelines/`.
 
 ## Inputs and identity
 
-The generator joins two authoritative inputs:
+The generator joins three authoritative inputs:
 
-- official `voicelines.json` catalogs read directly from R2; and
+- official `voicelines.json` catalogs read directly from R2;
+- official `conversations.json` catalogs read directly from R2; and
 - transcript states from the checked-out Git commit, resolved by audio SHA-256.
 
 `config/deadlock/voice-line-history.json` declares the immutable official
@@ -34,8 +35,8 @@ deadlock/history/voicelines/manifest.json
 ```
 
 It records the transcript commit, an ordered catalog fingerprint, exact
-per-version voice-line JSON hashes, and a map from two-digit buckets to
-immutable shard objects:
+per-version voice-line and conversation JSON hashes, and a map from two-digit
+buckets to immutable shard objects:
 
 ```text
 deadlock/history/voicelines/shards/<sha256>.json
@@ -77,7 +78,7 @@ the existing object is read back and proven byte-equivalent as JSON.
 5. Run **Deploy content sync** with `history-dry-run` and review the plan.
 6. Run it again with `history-reconcile`.
 7. Verify that the history manifest contains the hidden version's exact
-   `voiceLineSha256`.
+   `voiceLineSha256` and `conversationSha256`.
 8. Unhide or promote the version.
 
 The history-only mode requires the private transcript cursor to equal the

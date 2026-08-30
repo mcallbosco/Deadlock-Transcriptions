@@ -245,7 +245,8 @@ the same pull request as transcript and configuration changes. CI therefore does
 fetch executable publisher code from another repository.
 
 The same deployment now derives official voice-line history from every configured
-official version catalog and the repository's authoritative transcript state. It
+official version's voice-line and conversation catalogs plus the repository's
+authoritative transcript state. It
 rebuilds the logical dataset on each qualifying deployment, uploads only changed
 content-addressed shards, and publishes the small history manifest last. Custom
 versions are excluded. New hidden game versions are reconciled with the manual

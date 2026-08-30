@@ -28,6 +28,8 @@ class OfficialCatalog:
     content_revision: int
     value: dict[str, Any]
     sha256: str
+    conversation_value: dict[str, Any] | None = None
+    conversation_sha256: str | None = None
 
 
 @dataclass(frozen=True)
@@ -88,7 +90,10 @@ def _catalog_index(
     transcript_states: Mapping[str, tuple[str, bool]],
 ) -> dict[str, _Occurrence]:
     result: dict[str, _Occurrence] = {}
-    for record in _walk_records(catalog.value):
+    catalog_values = [catalog.value]
+    if catalog.conversation_value is not None:
+        catalog_values.append(catalog.conversation_value)
+    for record in _walk_records(catalog_values):
         filename = normalize_filename(record["filename"])
         if not filename:
             continue
@@ -167,14 +172,15 @@ def build_history(
                 f"Voice-line history contains duplicate official version ID {catalog.id!r}."
             )
         seen_ids.add(catalog.id)
-        versions.append(
-            {
-                "id": catalog.id,
-                "label": catalog.label,
-                "contentRevision": catalog.content_revision,
-                "voiceLineSha256": catalog.sha256,
-            }
-        )
+        version = {
+            "id": catalog.id,
+            "label": catalog.label,
+            "contentRevision": catalog.content_revision,
+            "voiceLineSha256": catalog.sha256,
+        }
+        if catalog.conversation_sha256 is not None:
+            version["conversationSha256"] = catalog.conversation_sha256
+        versions.append(version)
         for filename, occurrence in _catalog_index(
             catalog, version_index, transcript_states
         ).items():

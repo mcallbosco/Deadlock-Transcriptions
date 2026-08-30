@@ -244,6 +244,9 @@ class ContentSyncTests(unittest.TestCase):
         values["deadlock/versions/v0/voicelines.json"] = {
             "hero": {"lines": [old_record]}
         }
+        values["deadlock/versions/v0/conversations.json"] = {
+            "conversations": []
+        }
         values["deadlock/manifest.json"]["versions"].append(
             {
                 "id": "v0",

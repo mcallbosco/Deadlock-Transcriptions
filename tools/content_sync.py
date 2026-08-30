@@ -1595,7 +1595,7 @@ class ContentSyncPlanner:
             for sha, occurrences in validation.by_sha.items()
             if occurrences
         }
-        catalog_specs: list[tuple[str, dict[str, Any], str, int]] = []
+        catalog_specs: list[tuple[str, dict[str, Any], str, str, int]] = []
         for version_id in configured_ids:
             entry = version_entries.get(version_id)
             if entry is None:
@@ -1609,35 +1609,58 @@ class ContentSyncPlanner:
             if not isinstance(url, str) or not url:
                 plan.errors.append(f"Version {version_id} has no voiceLineUrl for history.")
                 continue
-            key = key_from_url(url, self.cdn_base_url)
+            conversation_url = entry.get("conversationUrl")
+            if not isinstance(conversation_url, str) or not conversation_url:
+                plan.errors.append(f"Version {version_id} has no conversationUrl for history.")
+                continue
+            voice_line_key = key_from_url(url, self.cdn_base_url)
+            conversation_key = key_from_url(conversation_url, self.cdn_base_url)
             try:
                 content_revision = int(entry.get("contentRevision", 0))
             except (TypeError, ValueError):
                 plan.errors.append(f"Version {version_id} has invalid contentRevision for history.")
                 continue
-            catalog_specs.append((version_id, entry, key, content_revision))
+            catalog_specs.append(
+                (version_id, entry, voice_line_key, conversation_key, content_revision)
+            )
         if plan.errors:
             return
 
         def catalog_inputs() -> Iterator[OfficialCatalog]:
-            for version_id, entry, key, content_revision in catalog_specs:
-                write = next((item for item in plan.writes if item.key == key), None)
-                if write is not None:
-                    value = write.value
-                else:
-                    stored = self.store.get_json(key)
-                    self.uncached_reads += 1
-                    value = stored.value
-                if value is None:
-                    raise VoiceLineHistoryError(
-                        f"Published history input does not exist: {key}"
-                    )
+            for (
+                version_id,
+                entry,
+                voice_line_key,
+                conversation_key,
+                content_revision,
+            ) in catalog_specs:
+                values: dict[str, dict[str, Any]] = {}
+                for input_name, key in (
+                    ("voice-line", voice_line_key),
+                    ("conversation", conversation_key),
+                ):
+                    write = next((item for item in plan.writes if item.key == key), None)
+                    if write is not None:
+                        value = write.value
+                    else:
+                        stored = self.store.get_json(key)
+                        self.uncached_reads += 1
+                        value = stored.value
+                    if value is None:
+                        raise VoiceLineHistoryError(
+                            f"Published {input_name} history input does not exist: {key}"
+                        )
+                    values[input_name] = value
                 yield OfficialCatalog(
                     id=version_id,
                     label=str(entry.get("label") or version_id),
                     content_revision=content_revision,
-                    value=value,
-                    sha256=sha256_bytes(canonical_json(value)),
+                    value=values["voice-line"],
+                    sha256=sha256_bytes(canonical_json(values["voice-line"])),
+                    conversation_value=values["conversation"],
+                    conversation_sha256=sha256_bytes(
+                        canonical_json(values["conversation"])
+                    ),
                 )
 
         try:
