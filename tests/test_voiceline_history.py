@@ -28,6 +28,20 @@ def catalog(version_id: str, *records: dict) -> OfficialCatalog:
     )
 
 
+def catalog_with_conversations(version_id: str, *records: dict) -> OfficialCatalog:
+    voice_lines = {"hero": {"lines": []}}
+    conversations = {"conversations": [{"lines": list(records)}]}
+    return OfficialCatalog(
+        id=version_id,
+        label=version_id.upper(),
+        content_revision=1,
+        value=voice_lines,
+        sha256=sha256_bytes(canonical_json(voice_lines)),
+        conversation_value=conversations,
+        conversation_sha256=sha256_bytes(canonical_json(conversations)),
+    )
+
+
 def record(filename: str, sha: str, voiceline_id: str = "duplicate-id") -> dict:
     return {
         "filename": filename,
@@ -38,6 +52,28 @@ def record(filename: str, sha: str, voiceline_id: str = "duplicate-id") -> dict:
 
 
 class VoiceLineHistoryTests(unittest.TestCase):
+    def test_includes_conversation_only_recordings_in_filename_history(self) -> None:
+        result = build_history(
+            [
+                catalog_with_conversations(
+                    "v1", record("hero/conversation_01.mp3", SHA_A)
+                ),
+                catalog_with_conversations(
+                    "v2", record("hero/conversation_01.mp3", SHA_B)
+                ),
+            ],
+            {
+                SHA_A: ("First conversation recording", True),
+                SHA_B: ("Replacement conversation recording", True),
+            },
+        )
+
+        filename = "hero/conversation_01.mp3"
+        line = result.shards[history_shard(filename)]["lines"][filename]
+        self.assertEqual(line["versionCount"], 2)
+        self.assertEqual(len(line["events"]), 2)
+        self.assertIn("conversationSha256", result.versions[0])
+
     def test_builds_filename_history_and_collapses_unchanged_ranges(self) -> None:
         result = build_history(
             [

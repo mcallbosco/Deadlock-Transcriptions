@@ -106,5 +106,6 @@ and must go through a reviewed baseline operation.
 
 For a new official game version, update `config/deadlock/voice-line-history.json`
 first, publish the version as hidden, run the two history modes, verify the exact
-catalog hash in the public history manifest, and only then promote the version. Do not
+voice-line and conversation catalog hashes in the public history manifest, and only
+then promote the version. Do not
 run the Historical Content desktop publisher concurrently with this workflow.
