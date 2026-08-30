@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
-        "8933692e71a5a5cd73f6196cf2d6dca3a2e61bb9cb1537f105950e5ddafda24b"
+        "4ef2f3697faf1beb00b0408fef2f167a03ebcbe6678231637233aacb93bc99ce",
+        "8933692e71a5a5cd73f6196cf2d6dca3a2e61bb9cb1537f105950e5ddafda24b",
+        "b1e01b859ce86ce3d3775de87b34f554a1e4d714a95ffb6586525ce80863b45d"
       ],
       "text": "Check out what Viscous bought.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4ef2f3697faf1beb00b0408fef2f167a03ebcbe6678231637233aacb93bc99ce",
-        "b1e01b859ce86ce3d3775de87b34f554a1e4d714a95ffb6586525ce80863b45d"
-      ],
-      "text": "Check out what this is about.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -5,20 +5,13 @@
     {
       "sha256": [
         "4eb864b685e40038fafd7205af995bb19e50491e32442fbac17f6b7366812e6a",
-        "69654242519e2997b2c5cd602f86925cd184cfb14d34e2f299645aa97ee9eebe"
+        "5fab37a20979e7a2e910ab6a2cd4faadeb751c667f258935c944c8c2f850215f",
+        "69654242519e2997b2c5cd602f86925cd184cfb14d34e2f299645aa97ee9eebe",
+        "8594175f722a8f7db5030195dc94ad5427ccb0649de99b019a7bec1583a95715"
       ],
       "text": "Wrecker was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "5fab37a20979e7a2e910ab6a2cd4faadeb751c667f258935c944c8c2f850215f",
-        "8594175f722a8f7db5030195dc94ad5427ccb0649de99b019a7bec1583a95715"
-      ],
-      "text": "Right over here.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

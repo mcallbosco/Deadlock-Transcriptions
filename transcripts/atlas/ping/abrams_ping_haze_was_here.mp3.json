@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "33677023f025825a04612eec32e78c4b8c029ecbbe42541c0fa76b1a4e772581",
+        "4591114eb4cd4e2ceb0ba5c2b28776253e7169064f9395d7e611fe0c172f635c",
         "e94ac4eb31f16b5c7a0894c13093f435c3d16628ff3d3362b6d77b8045b14a94"
       ],
-      "text": "Hey, was here.",
+      "text": "Haze was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "33677023f025825a04612eec32e78c4b8c029ecbbe42541c0fa76b1a4e772581",
-        "4591114eb4cd4e2ceb0ba5c2b28776253e7169064f9395d7e611fe0c172f635c"
-      ],
-      "text": "Hey, who's here?",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

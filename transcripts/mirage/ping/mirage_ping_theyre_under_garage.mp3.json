@@ -4,20 +4,14 @@
   "revisions": [
     {
       "sha256": [
-        "bdcb1551af7057c1326a68cab590b55bdca0a0c02960d8810991f20f2d5405ab"
-      ],
-      "text": "Target acquired.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
         "0398a727cb68566e134b63947c95d8874c14b99f2148395415c029b4aff3a332",
         "96da390973e6183942ba681e118f0643b5d23645fe057b6799d66d7840da8d5b",
+        "bdcb1551af7057c1326a68cab590b55bdca0a0c02960d8810991f20f2d5405ab",
         "fa3adad320f423d2c6f22ce6a29d0f36b084c2a3b8e4bc33eb71ad39b37df987"
       ],
       "text": "They're under the garage.",
-      "source": "generated"
+      "source": "generated",
+      "model": "gpt-transcribe"
     }
   ]
 }

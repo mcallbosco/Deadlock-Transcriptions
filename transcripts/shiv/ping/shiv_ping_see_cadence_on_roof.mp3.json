@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "ab87519a0caba2bb3641c245ca4926aee59d6498b4975fb434950d546beab005",
         "afb4f346b3ce68bcf12b07cf52a07061d124fbb69d85183ad765a439702ce2ee",
         "fcc4b91319cfd81061c81a210e019d8afdf959efd7250536adb94a8666c44610"
       ],
-      "text": "Stop us!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "ab87519a0caba2bb3641c245ca4926aee59d6498b4975fb434950d546beab005"
-      ],
       "text": "Cadence is on the roof!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

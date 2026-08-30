@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "24269f165fb29656826a7174a2fc8d0c31cfa6c98cbde5eed7fca72ce729bf07",
         "72cde4bc8acdba3cdea461c1e15a97057ce88108d4f124bdff9ea42aae52140d"
-      ],
-      "text": "英語のはポケット。",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "24269f165fb29656826a7174a2fc8d0c31cfa6c98cbde5eed7fca72ce729bf07"
       ],
       "text": "Ignore Pocket.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

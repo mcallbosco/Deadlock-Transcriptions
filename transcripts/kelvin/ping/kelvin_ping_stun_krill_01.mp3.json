@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "631f97034c068ac524250c8948f5dbf79d92a0cb35481f15457f861b6b5357a7",
         "7c583ad7ccca04e81c561517604c9dd45c86bfe144ceade1264c6a7337a7516a"
-      ],
-      "text": "I'm grilled.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "631f97034c068ac524250c8948f5dbf79d92a0cb35481f15457f861b6b5357a7"
       ],
       "text": "Stun Krill!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

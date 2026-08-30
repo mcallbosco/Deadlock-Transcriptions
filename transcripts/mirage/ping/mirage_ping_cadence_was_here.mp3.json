@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "0cef839700a12766e2e660be9ee06cd5b877687dc16afc6f144163525a171387",
         "d41c482e4b6f9b94bed7c5586e9837f6abe2f8b665fb42a73784864a37c0be98"
-      ],
-      "text": "I have the gear.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "0cef839700a12766e2e660be9ee06cd5b877687dc16afc6f144163525a171387"
       ],
       "text": "Cadence was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

@@ -4,19 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "a970819a5682bff545254029cab560fd01dc08837b41b8870d53f85bd42a80fd",
         "f8bd32db2c7ceeebb61258959c9540955da8db0fdb9b0c578f21c68bbb747d51"
       ],
-      "text": "The key is within us.",
+      "text": "McGinnis was here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "a970819a5682bff545254029cab560fd01dc08837b41b8870d53f85bd42a80fd"
-      ],
-      "text": "McGinnis was here!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

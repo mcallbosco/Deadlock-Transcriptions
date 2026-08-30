@@ -4,11 +4,12 @@
   "revisions": [
     {
       "sha256": [
+        "84c95d6d8a4c268451b085ff403c9690fe5ea48d9b410872642a197124d3947a",
         "a920ed901c75637774998a4938e3df0f20bbb457ba0773ea3d348edaddf9957e"
       ],
-      "text": "That's all for me.",
+      "text": "I saw Warden.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     },
     {
       "sha256": [
@@ -16,14 +17,6 @@
         "1d619dcef4b1393c81fffeaac524fe8dedafdae34746da0f03ea371ee018ba7a"
       ],
       "text": "I saw one.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "84c95d6d8a4c268451b085ff403c9690fe5ea48d9b410872642a197124d3947a"
-      ],
-      "text": "I saw Warden.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
     }

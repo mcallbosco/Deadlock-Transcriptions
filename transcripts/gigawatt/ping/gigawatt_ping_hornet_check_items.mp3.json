@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "69507b27203adf24dfcf5ad4f473f23d0f7d87afdbe1f0fa688c4d006834684c",
         "bcb3f0b80fa364c17352a137858487e0a294643a88236fd967df647622bad8d5",
         "d48164a6014e039c15003cc11598b0fd73f4cf9c898aff76b45c93e6aea1c7bf"
       ],
-      "text": "Check out what Vindictus bought.",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "69507b27203adf24dfcf5ad4f473f23d0f7d87afdbe1f0fa688c4d006834684c"
-      ],
       "text": "Check out what Vindicta bought!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

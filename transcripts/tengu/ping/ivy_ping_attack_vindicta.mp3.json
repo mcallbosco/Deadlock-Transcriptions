@@ -4,20 +4,13 @@
   "revisions": [
     {
       "sha256": [
+        "4168ac9182a455b79fc56b51b744e79ed81a37d1d9ac82c0496bc8e762d13120",
+        "7e623a21942414dafe7abcc2a901bcfb54f68f71cc84eac861720d21c4fb8134",
         "e76bd8fc91aa15315222f7300c4bc83bf5c48a7066e744d7cb4c92481f7a2f96"
       ],
-      "text": "Let's take a ninja!",
+      "text": "Let's take out Vindicta!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "4168ac9182a455b79fc56b51b744e79ed81a37d1d9ac82c0496bc8e762d13120",
-        "7e623a21942414dafe7abcc2a901bcfb54f68f71cc84eac861720d21c4fb8134"
-      ],
-      "text": "Let's take out Vendetta!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }

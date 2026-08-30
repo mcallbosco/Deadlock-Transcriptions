@@ -4,12 +4,19 @@
   "revisions": [
     {
       "sha256": [
-        "001a13aaffba0ee499c07d5ffb465672a52d3d7d9def1dd7e7d3a8a5bf4eddda",
+        "001a13aaffba0ee499c07d5ffb465672a52d3d7d9def1dd7e7d3a8a5bf4eddda"
+      ],
+      "text": "Krill was here.",
+      "source": "generated",
+      "model": "gpt-transcribe"
+    },
+    {
+      "sha256": [
         "01998df25f0eeed302a94bedaf370f5aa2f3e24030643e79577eec73aa90de97"
       ],
-      "text": "Crew is here.",
+      "text": "Krill is here.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-transcribe"
     }
   ]
 }
