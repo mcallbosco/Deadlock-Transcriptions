@@ -92,6 +92,14 @@ def build_parser() -> argparse.ArgumentParser:
     deploy.add_argument("--zone-id", default=os.environ.get("CLOUDFLARE_ZONE_ID", ""))
     deploy.add_argument("--initialize", action="store_true")
     deploy.add_argument(
+        "--history-only",
+        action="store_true",
+        help=(
+            "Reconcile history against the current R2 catalogs without requiring a new "
+            "Git range; the transcript cursor must already equal the target commit"
+        ),
+    )
+    deploy.add_argument(
         "--reconcile",
         action="store_true",
         help="Reconcile the complete repository against R2 instead of using the cursor range",
@@ -157,9 +165,23 @@ def deploy_command(args: argparse.Namespace) -> int:
     r2 = R2JsonStore(args.bucket, args.endpoint_url)
     cursor = r2.get_json(args.cursor_key)
 
-    if args.initialize and args.reconcile:
-        raise ContentSyncError("Choose either --initialize or --reconcile, not both.")
-    if args.initialize:
+    selected_modes = sum(bool(value) for value in (args.initialize, args.reconcile, args.history_only))
+    if selected_modes > 1:
+        raise ContentSyncError(
+            "Choose only one of --initialize, --reconcile, or --history-only."
+        )
+    if args.history_only:
+        if not cursor.exists:
+            raise ContentSyncError("History reconciliation requires the deployment cursor.")
+        cursor_commit = cursor.value.get("lastSuccessfulCommit") if cursor.value else None
+        if cursor_commit != target_commit:
+            raise ContentSyncError(
+                "History-only reconciliation requires transcript content to be fully deployed "
+                f"at {target_commit}; the cursor is {cursor_commit or 'missing'}."
+            )
+        base = target_commit
+        baseline = False
+    elif args.initialize:
         if not args.approve_baseline:
             raise ContentSyncError(
                 "Initialization requires --approve-baseline after reviewing a baseline plan."

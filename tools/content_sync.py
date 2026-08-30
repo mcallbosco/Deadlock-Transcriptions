@@ -9,6 +9,7 @@ until the canonical recording-inventory compiler is available.
 from __future__ import annotations
 
 import copy
+import gzip
 import hashlib
 import json
 import os
@@ -24,8 +25,16 @@ from pathlib import Path, PurePosixPath
 from typing import Any, Callable, Iterable, Iterator
 
 from .transcript_schema import TRANSCRIPT_SCHEMA_VERSION
+from .voiceline_history import (
+    HISTORY_SCHEMA_VERSION,
+    SHARD_COUNT,
+    OfficialCatalog,
+    VoiceLineHistoryError,
+    build_history,
+)
 
 MUTABLE_JSON_CACHE_CONTROL = "public, max-age=0, must-revalidate"
+IMMUTABLE_JSON_CACHE_CONTROL = "public, max-age=31536000, immutable"
 TRANSCRIPT_SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 AUDIO_KEY_RE = re.compile(
     r"(?:^|/)sha256/[0-9a-f]{2}/(?P<sha>[0-9a-f]{64})\.mp3$"
@@ -54,9 +63,16 @@ GENERATOR_INPUTS = {
 VALIDATE_ONLY_CONFIG = {
     "transcription-vocabulary.json",
     "version-releases.json",
+    "voice-line-history.json",
     "source-lock.json",
 }
-PHASE_ORDER = {"content": 10, "metadata": 20, "manifest": 30}
+PHASE_ORDER = {
+    "content": 10,
+    "history-content": 15,
+    "metadata": 20,
+    "history-manifest": 25,
+    "manifest": 30,
+}
 
 
 class ContentSyncError(RuntimeError):
@@ -274,6 +290,7 @@ class PlannedWrite:
     phase: str
     reason: str
     public: bool = True
+    cache_control: str = MUTABLE_JSON_CACHE_CONTROL
     previous_value: dict[str, Any] | None = field(default=None, repr=False)
 
     def to_json(self) -> dict[str, Any]:
@@ -292,6 +309,7 @@ class PlannedWrite:
             "bytes": len(body),
             "sha256": sha256_bytes(body),
             "public": self.public,
+            "cacheControl": self.cache_control,
         }
 
 
@@ -316,6 +334,7 @@ class SyncPlan:
     matched_records: int = 0
     affected_versions: list[str] = field(default_factory=list)
     version_revisions: list[dict[str, Any]] = field(default_factory=list)
+    history: dict[str, Any] | None = None
     object_reads: int = 0
     writes: list[PlannedWrite] = field(default_factory=list, repr=False)
 
@@ -378,6 +397,7 @@ class SyncPlan:
             },
             "affectedVersions": self.affected_versions,
             "versionRevisions": self.version_revisions,
+            "history": self.history,
             "recordChanges": self.record_changes,
             "configChanges": self.config_changes,
             "unmatchedHashes": self.unmatched_hashes,
@@ -449,6 +469,19 @@ class SyncPlan:
                 for item in self.config_changes
             )
             lines.append("")
+        if self.history:
+            lines.extend(
+                [
+                    "## Voice-line history",
+                    "",
+                    f"- Official versions represented: **{self.history['versions']:,}**",
+                    f"- Lines with history: **{self.history['lines']:,}**",
+                    f"- History events: **{self.history['events']:,}**",
+                    f"- Changed immutable shards: **{self.history['changedShards']:,}**",
+                    f"- History manifest changed: **{str(self.history['manifestChanged']).lower()}**",
+                    "",
+                ]
+            )
         if self.unmatched_hashes:
             lines.extend(["## Changed recording hashes with no published match", ""])
             lines.extend(f"- `{item}`" for item in self.unmatched_hashes[:200])
@@ -479,7 +512,7 @@ class PublicJsonStore:
             self.url(key),
             headers={
                 "Accept": "application/json",
-                "Accept-Encoding": "identity",
+                "Accept-Encoding": "gzip",
                 "User-Agent": "VLViewer-Content-Sync/1.0",
             },
         )
@@ -488,6 +521,8 @@ class PublicJsonStore:
                 with urllib.request.urlopen(request, timeout=60) as response:
                     body = response.read()
                     etag = response.headers.get("ETag")
+                    if response.headers.get("Content-Encoding", "").casefold() == "gzip":
+                        body = gzip.decompress(body)
                 break
             except urllib.error.HTTPError as exc:
                 if exc.code == 404:
@@ -583,7 +618,7 @@ class R2JsonStore:
             "Key": write.key,
             "Body": body,
             "ContentType": "application/json; charset=utf-8",
-            "CacheControl": MUTABLE_JSON_CACHE_CONTROL,
+            "CacheControl": write.cache_control,
             "Metadata": {"sha256": sha256_bytes(body)},
         }
         if write.expected_etag:
@@ -594,6 +629,12 @@ class R2JsonStore:
             self.client.put_object(**request)
         except Exception as exc:
             if self._status(exc) == 412:
+                if (
+                    write.expected_etag is None
+                    and write.cache_control == IMMUTABLE_JSON_CACHE_CONTROL
+                    and self.get_json(write.key).value == write.value
+                ):
+                    return
                 raise ContentSyncError(
                     f"R2 precondition failed for {write.key}; another writer changed it."
                 ) from exc
@@ -1096,6 +1137,26 @@ def _config_errors(path: Path, value: dict[str, Any], game: str) -> list[str]:
             if until is not None and (not isinstance(until, str) or not until):
                 errors.append(f"versions[{index}].activeUntilExclusive must be a string or null")
         return errors
+    if name == "voice-line-history.json":
+        errors: list[str] = []
+        if set(value) != {"schemaVersion", "game", "shardCount", "officialVersions"}:
+            errors.append(
+                "must contain exactly schemaVersion, game, shardCount, and officialVersions"
+            )
+        if value.get("schemaVersion") != HISTORY_SCHEMA_VERSION or value.get("game") != game:
+            errors.append(
+                f"must have schemaVersion {HISTORY_SCHEMA_VERSION} and game {game!r}"
+            )
+        if value.get("shardCount") != SHARD_COUNT:
+            errors.append(f"shardCount must be {SHARD_COUNT}")
+        versions = value.get("officialVersions")
+        if not isinstance(versions, list) or not versions:
+            errors.append("officialVersions must be a non-empty array")
+        elif any(not isinstance(version, str) or not version for version in versions):
+            errors.append("officialVersions must contain only non-empty strings")
+        elif len(versions) != len(set(versions)):
+            errors.append("officialVersions must not contain duplicate IDs")
+        return errors
     if name == "audio-filename-overrides.json":
         return _audio_override_errors(value)
     if name == "source-lock.json":
@@ -1339,6 +1400,7 @@ class ContentSyncPlanner:
         self.cdn_base_url = cdn_base_url.rstrip("/")
         self.conflict_approvals = frozenset(conflict_approvals)
         self.loaded: dict[str, StoredJson] = {}
+        self.uncached_reads = 0
 
     def load(self, key: str) -> StoredJson:
         if key not in self.loaded:
@@ -1375,8 +1437,27 @@ class ContentSyncPlanner:
             )
         )
 
+    def add_immutable_write(
+        self,
+        plan: SyncPlan,
+        key: str,
+        value: dict[str, Any],
+        reason: str,
+    ) -> bool:
+        plan.writes.append(
+            PlannedWrite(
+                key=key,
+                value=value,
+                expected_etag=None,
+                phase="history-content",
+                reason=reason,
+                cache_control=IMMUTABLE_JSON_CACHE_CONTROL,
+            )
+        )
+        return True
+
     def finish(self, plan: SyncPlan) -> SyncPlan:
-        plan.object_reads = len(self.loaded)
+        plan.object_reads = len(self.loaded) + self.uncached_reads
         return plan
 
     def _revision_changes(
@@ -1468,6 +1549,184 @@ class ContentSyncPlanner:
             for path in paths
             if classify_config_path(path, self.game)[0] == "direct"
         )
+
+    def _plan_voice_line_history(
+        self,
+        plan: SyncPlan,
+        manifest: dict[str, Any],
+        version_entries: dict[str, dict[str, Any]],
+        validation: RepositoryValidation,
+        target_commit: str,
+    ) -> None:
+        config_path = self.repo / "config" / self.game / "voice-line-history.json"
+        if not config_path.is_file():
+            return
+        try:
+            config = json.loads(config_path.read_text(encoding="utf-8-sig"))
+        except (OSError, json.JSONDecodeError) as exc:
+            plan.errors.append(f"Could not read {config_path}: {exc}")
+            return
+        configured_ids = config.get("officialVersions") if isinstance(config, dict) else None
+        if not isinstance(configured_ids, list):
+            plan.errors.append("Voice-line history has no configured officialVersions array.")
+            return
+
+        published_official_ids = {
+            version_id
+            for version_id, entry in version_entries.items()
+            if entry.get("kind") != "custom"
+        }
+        unconfigured = sorted(published_official_ids - set(configured_ids))
+        if unconfigured:
+            plan.errors.append(
+                "Published official versions are missing from voice-line-history.json: "
+                + ", ".join(unconfigured)
+            )
+            return
+        unavailable = [version_id for version_id in configured_ids if version_id not in version_entries]
+        if unavailable:
+            plan.warnings.append(
+                "Configured history versions are not published yet and were skipped: "
+                + ", ".join(unavailable)
+            )
+
+        transcript_states = {
+            sha: occurrences[0].state.published
+            for sha, occurrences in validation.by_sha.items()
+            if occurrences
+        }
+        catalog_specs: list[tuple[str, dict[str, Any], str, int]] = []
+        for version_id in configured_ids:
+            entry = version_entries.get(version_id)
+            if entry is None:
+                continue
+            if entry.get("kind") == "custom":
+                plan.errors.append(
+                    f"Configured voice-line history version {version_id!r} is custom."
+                )
+                continue
+            url = entry.get("voiceLineUrl")
+            if not isinstance(url, str) or not url:
+                plan.errors.append(f"Version {version_id} has no voiceLineUrl for history.")
+                continue
+            key = key_from_url(url, self.cdn_base_url)
+            try:
+                content_revision = int(entry.get("contentRevision", 0))
+            except (TypeError, ValueError):
+                plan.errors.append(f"Version {version_id} has invalid contentRevision for history.")
+                continue
+            catalog_specs.append((version_id, entry, key, content_revision))
+        if plan.errors:
+            return
+
+        def catalog_inputs() -> Iterator[OfficialCatalog]:
+            for version_id, entry, key, content_revision in catalog_specs:
+                write = next((item for item in plan.writes if item.key == key), None)
+                if write is not None:
+                    value = write.value
+                else:
+                    stored = self.store.get_json(key)
+                    self.uncached_reads += 1
+                    value = stored.value
+                if value is None:
+                    raise VoiceLineHistoryError(
+                        f"Published history input does not exist: {key}"
+                    )
+                yield OfficialCatalog(
+                    id=version_id,
+                    label=str(entry.get("label") or version_id),
+                    content_revision=content_revision,
+                    value=value,
+                    sha256=sha256_bytes(canonical_json(value)),
+                )
+
+        try:
+            history = build_history(catalog_inputs(), transcript_states)
+        except (ContentSyncError, VoiceLineHistoryError) as exc:
+            plan.errors.append(str(exc))
+            return
+
+        history_manifest_key = f"{self.game}/history/voicelines/manifest.json"
+        current = self.load(history_manifest_key)
+        referenced_shard_hashes: set[str] = set()
+        if current.value is not None and isinstance(current.value.get("shards"), dict):
+            for shard in current.value["shards"].values():
+                if isinstance(shard, dict) and isinstance(shard.get("sha256"), str):
+                    referenced_shard_hashes.add(shard["sha256"])
+
+        shard_manifest: dict[str, dict[str, Any]] = {}
+        changed_shards = 0
+        for bucket, value in history.shards.items():
+            body = canonical_json(value)
+            digest = sha256_bytes(body)
+            key = f"{self.game}/history/voicelines/shards/{digest}.json"
+            if digest not in referenced_shard_hashes and self.add_immutable_write(
+                plan,
+                key,
+                value,
+                f"Publish immutable voice-line history shard {bucket}",
+            ):
+                changed_shards += 1
+            shard_manifest[bucket] = {
+                "url": f"{self.cdn_base_url}/{key}",
+                "sha256": digest,
+                "bytes": len(body),
+                "lineCount": len(value["lines"]),
+            }
+
+        desired_core: dict[str, Any] = {
+            "schemaVersion": HISTORY_SCHEMA_VERSION,
+            "game": self.game,
+            "identity": "normalized-filename",
+            "shardAlgorithm": "sha256-first-byte",
+            "shardCount": SHARD_COUNT,
+            "sourceTranscriptCommit": target_commit,
+            "catalogFingerprint": history.catalog_fingerprint,
+            "versions": history.versions,
+            "historyLines": history.history_lines,
+            "eventCount": history.events,
+            "shards": shard_manifest,
+        }
+        current_core = None
+        if current.value is not None:
+            current_core = {
+                key: value
+                for key, value in current.value.items()
+                if key not in {"contentRevision", "updatedAt"}
+            }
+        manifest_changed = current_core != desired_core
+        if manifest_changed:
+            current_revision = 0
+            if current.value is not None:
+                try:
+                    current_revision = int(current.value.get("contentRevision", 0))
+                except (TypeError, ValueError):
+                    plan.errors.append("Published voice-line history has invalid contentRevision.")
+                    return
+            desired_manifest = {
+                **desired_core,
+                "contentRevision": current_revision + 1,
+                "updatedAt": plan.created_at,
+            }
+            self.add_write(
+                plan,
+                history_manifest_key,
+                desired_manifest,
+                "history-manifest",
+                "Publish voice-line history manifest after immutable shards",
+            )
+
+        manifest["voiceLineHistoryManifestUrl"] = (
+            f"{self.cdn_base_url}/{history_manifest_key}"
+        )
+        plan.history = {
+            "versions": len(history.versions),
+            "lines": history.history_lines,
+            "events": history.events,
+            "changedShards": changed_shards,
+            "manifestChanged": manifest_changed,
+            "catalogFingerprint": history.catalog_fingerprint,
+        }
 
     def build(
         self,
@@ -1848,7 +2107,21 @@ class ContentSyncPlanner:
         if plan.errors:
             return self.finish(plan)
 
-        public_changes = any(item.public and item.phase != "manifest" for item in plan.writes)
+        self._plan_voice_line_history(
+            plan,
+            manifest,
+            version_entries,
+            validation,
+            target_commit,
+        )
+        if plan.errors:
+            return self.finish(plan)
+
+        public_changes = any(
+            item.public
+            and item.phase not in {"manifest", "history-content", "history-manifest"}
+            for item in plan.writes
+        )
         if public_changes:
             manifest["updatedAt"] = timestamp
         if manifest != manifest_stored.value:
