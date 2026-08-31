@@ -41,6 +41,11 @@ The sync implementation lives in this repository under `tools/content_sync.py`, 
 workflow always runs the exact code reviewed with the transcript/config commit. No
 cross-repository publisher reference is required.
 
+Merges that change the publisher, its command-line entry point, voice-line history
+generation, deployment dependencies, or the deployment workflow also trigger a production
+content sync. This ensures publisher-only fixes take effect without requiring an unrelated
+transcript edit.
+
 For a local validation or credential-free incremental plan:
 
 ```powershell

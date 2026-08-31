@@ -6,6 +6,11 @@ on:
     paths:
       - "transcripts/**"
       - "config/deadlock/**"
+      - "tools/content_sync.py"
+      - "tools/content_sync_cli.py"
+      - "tools/voiceline_history.py"
+      - "requirements-ci.txt"
+      - ".github/workflows/content-sync-deploy.yml"
   workflow_dispatch:
     inputs:
       mode:
