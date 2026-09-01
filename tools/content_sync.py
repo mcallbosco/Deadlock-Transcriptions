@@ -35,6 +35,7 @@ from .voiceline_history import (
     VoiceLineHistoryError,
     build_history,
 )
+from .voiceline_search import SearchCatalog, VoiceLineSearchError, build_search_index
 
 MUTABLE_JSON_CACHE_CONTROL = "public, max-age=0, must-revalidate"
 IMMUTABLE_JSON_CACHE_CONTROL = "public, max-age=31536000, immutable"
@@ -88,6 +89,10 @@ def utc_now() -> str:
 
 def canonical_json(value: Any) -> bytes:
     return (json.dumps(value, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
+
+
+def compact_json(value: Any) -> bytes:
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
 
 
 def sha256_bytes(value: bytes) -> str:
@@ -294,10 +299,14 @@ class PlannedWrite:
     reason: str
     public: bool = True
     cache_control: str = MUTABLE_JSON_CACHE_CONTROL
+    compact: bool = False
     previous_value: dict[str, Any] | None = field(default=None, repr=False)
 
+    def body(self) -> bytes:
+        return compact_json(self.value) if self.compact else canonical_json(self.value)
+
     def to_json(self) -> dict[str, Any]:
-        body = canonical_json(self.value)
+        body = self.body()
         return {
             "key": self.key,
             "phase": self.phase,
@@ -396,7 +405,7 @@ class SyncPlan:
                 "affectedVersions": len(self.affected_versions),
                 "objectsRead": self.object_reads,
                 "writes": len(self.writes),
-                "writeBytes": sum(len(canonical_json(item.value)) for item in self.writes),
+                "writeBytes": sum(len(item.body()) for item in self.writes),
             },
             "affectedVersions": self.affected_versions,
             "versionRevisions": self.version_revisions,
@@ -495,6 +504,10 @@ class SyncPlan:
                     "- Transcript-differences index changed: "
                     f"**{str(self.history['transcriptDifferencesChanged']).lower()}**",
                     f"- History manifest changed: **{str(self.history['manifestChanged']).lower()}**",
+                    f"- Search index lineages: **{self.history['searchIndexLineages']:,}**",
+                    f"- Search index states: **{self.history['searchIndexStates']:,}**",
+                    f"- Search index bytes: **{self.history['searchIndexBytes']:,}**",
+                    f"- Search index changed: **{str(self.history['searchIndexChanged']).lower()}**",
                     "",
                 ]
             )
@@ -628,7 +641,7 @@ class R2JsonStore:
         return StoredJson(key, value, body, response.get("ETag"))
 
     def put_json(self, write: PlannedWrite) -> None:
-        body = canonical_json(write.value)
+        body = write.body()
         request: dict[str, Any] = {
             "Bucket": self.bucket,
             "Key": write.key,
@@ -645,10 +658,11 @@ class R2JsonStore:
             self.client.put_object(**request)
         except Exception as exc:
             if self._status(exc) == 412:
+                existing = self.get_json(write.key) if write.expected_etag is None else None
                 if (
-                    write.expected_etag is None
+                    existing is not None
                     and write.cache_control == IMMUTABLE_JSON_CACHE_CONTROL
-                    and self.get_json(write.key).value == write.value
+                    and existing.body == body
                 ):
                     return
                 raise ContentSyncError(
@@ -1462,6 +1476,7 @@ class ContentSyncPlanner:
         key: str,
         value: dict[str, Any],
         reason: str,
+        compact: bool = False,
     ) -> bool:
         plan.writes.append(
             PlannedWrite(
@@ -1471,6 +1486,7 @@ class ContentSyncPlanner:
                 phase="history-content",
                 reason=reason,
                 cache_control=IMMUTABLE_JSON_CACHE_CONTROL,
+                compact=compact,
             )
         )
         return True
@@ -1683,10 +1699,40 @@ class ContentSyncPlanner:
                 )
 
         try:
-            history = build_history(catalog_inputs(), transcript_states)
-        except (ContentSyncError, VoiceLineHistoryError) as exc:
+            official_catalogs = list(catalog_inputs())
+            history = build_history(official_catalogs, transcript_states)
+            search = build_search_index(
+                [
+                    SearchCatalog(
+                        id=catalog.id,
+                        label=catalog.label,
+                        voice_lines=catalog.value,
+                        conversations=catalog.conversation_value or {"conversations": []},
+                        content_revision=catalog.content_revision,
+                    )
+                    for catalog in official_catalogs
+                ],
+                self.game,
+                transcript_states,
+            )
+        except (ContentSyncError, VoiceLineHistoryError, VoiceLineSearchError) as exc:
             plan.errors.append(str(exc))
             return
+
+        search_body = compact_json(search.value)
+        search_digest = sha256_bytes(search_body)
+        search_key = f"{self.game}/search/voicelines/{search_digest}.json"
+        search_url = f"{self.cdn_base_url}/{search_key}"
+        search_changed = manifest.get("voiceLineSearchIndexUrl") != search_url
+        if search_changed:
+            self.add_immutable_write(
+                plan,
+                search_key,
+                search.value,
+                "Publish immutable site-wide voice-line search index",
+                compact=True,
+            )
+        manifest["voiceLineSearchIndexUrl"] = search_url
 
         history_manifest_key = f"{self.game}/history/voicelines/manifest.json"
         current = self.load(history_manifest_key)
@@ -1835,6 +1881,12 @@ class ContentSyncPlanner:
             "transcriptDifferencesChanged": transcript_differences_changed,
             "manifestChanged": manifest_changed,
             "catalogFingerprint": history.catalog_fingerprint,
+            "searchIndexUrl": search_url,
+            "searchIndexSha256": search_digest,
+            "searchIndexBytes": len(search_body),
+            "searchIndexLineages": search.lineages,
+            "searchIndexStates": search.states,
+            "searchIndexChanged": search_changed,
         }
 
     def build(
@@ -2151,7 +2203,7 @@ class ContentSyncPlanner:
                 relative = PurePosixPath(key).relative_to(prefix).as_posix()
                 write = next((item for item in plan.writes if item.key == key), None)
                 if write:
-                    body = canonical_json(write.value)
+                    body = write.body()
                 else:
                     stored = self.load(key)
                     if stored.body is None:

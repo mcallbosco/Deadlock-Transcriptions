@@ -20,6 +20,7 @@ from tools.content_sync import (
     StoredJson,
     SyncPlan,
     canonical_json,
+    compact_json,
     deploy_plan,
     load_conflict_approvals,
     validate_repository,
@@ -145,7 +146,15 @@ class ContentSyncTests(unittest.TestCase):
         if official:
             record["officialtranscription"] = True
         voice = {"hero": {"lines": [dict(record)]}}
-        conversation = {"conversations": [{"lines": [dict(record)]}]}
+        conversation = {
+            "conversations": [
+                {
+                    "conversation_id": "hero_convo01",
+                    "speakers": ["hero"],
+                    "lines": [dict(record)],
+                }
+            ]
+        }
         inventory_files = {}
         for name, value in (("voicelines.json", voice), ("conversations.json", conversation)):
             body = canonical_json(value)
@@ -333,9 +342,26 @@ class ContentSyncTests(unittest.TestCase):
             history_manifest.value["transcriptDifferences"]["criterion"],
             "transcription-text-differences",
         )
+        search_index = next(
+            write
+            for write in plan.writes
+            if "/search/voicelines/" in write.key
+        )
+        self.assertRegex(
+            search_index.key,
+            r"^deadlock/search/voicelines/[0-9a-f]{64}\.json$",
+        )
+        self.assertTrue(search_index.compact)
+        self.assertEqual(
+            len(search_index.body()),
+            plan.history["searchIndexBytes"],
+        )
+        self.assertEqual(plan.history["searchIndexLineages"], 1)
+        self.assertEqual(plan.history["searchIndexStates"], 2)
         self.assertEqual(
             [write.phase for write in plan.sorted_writes()],
             [
+                "history-content",
                 "history-content",
                 "history-content",
                 "history-content",
@@ -348,6 +374,7 @@ class ContentSyncTests(unittest.TestCase):
             root["voiceLineHistoryManifestUrl"],
             f"{CDN}/deadlock/history/voicelines/manifest.json",
         )
+        self.assertEqual(root["voiceLineSearchIndexUrl"], f"{CDN}/{search_index.key}")
 
         for write in plan.sorted_writes():
             store.put_json(write)
@@ -664,8 +691,19 @@ class ContentSyncTests(unittest.TestCase):
         store = R2JsonStore("bucket", "https://account.r2.example", client=client)
         store.put_json(PlannedWrite("replace.json", {"a": 1}, '"etag"', "content", "test"))
         store.put_json(PlannedWrite("create.json", {"a": 1}, None, "content", "test"))
+        store.put_json(
+            PlannedWrite(
+                "compact.json",
+                {"a": 1},
+                None,
+                "history-content",
+                "test",
+                compact=True,
+            )
+        )
         self.assertEqual(client.puts[0]["IfMatch"], '"etag"')
         self.assertEqual(client.puts[1]["IfNoneMatch"], "*")
+        self.assertEqual(client.puts[2]["Body"], b'{"a":1}')
 
     def test_r2_precondition_failure_stops_the_write(self) -> None:
         class PreconditionFailed(Exception):
@@ -716,6 +754,73 @@ class ContentSyncTests(unittest.TestCase):
                 cache_control="public, max-age=31536000, immutable",
             )
         )
+
+    def test_compact_immutable_r2_rerun_requires_identical_bytes(self) -> None:
+        value = {"schemaVersion": 1, "records": [[1, 2, 3]]}
+
+        class PreconditionFailed(Exception):
+            response = {
+                "Error": {"Code": "PreconditionFailed"},
+                "ResponseMetadata": {"HTTPStatusCode": 412},
+            }
+
+        class ExistingCompactClient:
+            @staticmethod
+            def put_object(**_kwargs: Any) -> None:
+                raise PreconditionFailed()
+
+            @staticmethod
+            def get_object(**_kwargs: Any) -> dict[str, Any]:
+                return {"Body": io.BytesIO(compact_json(value)), "ETag": '"existing"'}
+
+        store = R2JsonStore(
+            "bucket", "https://account.r2.example", client=ExistingCompactClient()
+        )
+        store.put_json(
+            PlannedWrite(
+                "deadlock/search/voicelines/hash.json",
+                value,
+                None,
+                "history-content",
+                "test compact retry",
+                cache_control="public, max-age=31536000, immutable",
+                compact=True,
+            )
+        )
+
+    def test_compact_immutable_r2_rerun_rejects_different_serialization(self) -> None:
+        value = {"schemaVersion": 1, "records": [[1, 2, 3]]}
+
+        class PreconditionFailed(Exception):
+            response = {
+                "Error": {"Code": "PreconditionFailed"},
+                "ResponseMetadata": {"HTTPStatusCode": 412},
+            }
+
+        class ExistingPrettyClient:
+            @staticmethod
+            def put_object(**_kwargs: Any) -> None:
+                raise PreconditionFailed()
+
+            @staticmethod
+            def get_object(**_kwargs: Any) -> dict[str, Any]:
+                return {"Body": io.BytesIO(canonical_json(value)), "ETag": '"existing"'}
+
+        store = R2JsonStore(
+            "bucket", "https://account.r2.example", client=ExistingPrettyClient()
+        )
+        with self.assertRaisesRegex(ContentSyncError, "precondition failed"):
+            store.put_json(
+                PlannedWrite(
+                    "deadlock/search/voicelines/hash.json",
+                    value,
+                    None,
+                    "history-content",
+                    "test mismatched retry",
+                    cache_control="public, max-age=31536000, immutable",
+                    compact=True,
+                )
+            )
 
     def test_partial_rerun_finishes_metadata_without_second_revision(self) -> None:
         store = MemoryStore(self.published())
