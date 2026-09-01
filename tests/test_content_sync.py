@@ -265,7 +265,13 @@ class ContentSyncTests(unittest.TestCase):
         self.assertTrue(plan.deployable, plan.to_markdown())
         self.assertEqual(plan.history["versions"], 2)
         self.assertEqual(plan.history["lines"], 1)
-        shard = next(write for write in plan.writes if write.phase == "history-content")
+        self.assertEqual(plan.history["presenceLines"], 0)
+        self.assertEqual(plan.history["transcriptDifferenceLines"], 0)
+        shard = next(
+            write
+            for write in plan.writes
+            if "/history/voicelines/shards/" in write.key
+        )
         self.assertRegex(
             shard.key,
             r"^deadlock/history/voicelines/shards/[0-9a-f]{64}\.json$",
@@ -278,9 +284,46 @@ class ContentSyncTests(unittest.TestCase):
             next(iter(history_manifest.value["shards"].values()))["url"],
             f"{CDN}/{shard.key}",
         )
+        presence = next(
+            write
+            for write in plan.writes
+            if "/history/voicelines/presence/" in write.key
+        )
+        transcript_differences = next(
+            write
+            for write in plan.writes
+            if "/history/voicelines/transcript-differences/" in write.key
+        )
+        self.assertEqual(presence.cache_control, "public, max-age=31536000, immutable")
+        self.assertEqual(
+            transcript_differences.cache_control,
+            "public, max-age=31536000, immutable",
+        )
+        self.assertEqual(presence.value["filenames"], [])
+        self.assertEqual(transcript_differences.value["filenames"], [])
+        self.assertEqual(
+            history_manifest.value["presence"]["url"], f"{CDN}/{presence.key}"
+        )
+        self.assertEqual(
+            history_manifest.value["presence"]["criterion"], "multiple-events"
+        )
+        self.assertEqual(
+            history_manifest.value["transcriptDifferences"]["url"],
+            f"{CDN}/{transcript_differences.key}",
+        )
+        self.assertEqual(
+            history_manifest.value["transcriptDifferences"]["criterion"],
+            "transcription-text-differences",
+        )
         self.assertEqual(
             [write.phase for write in plan.sorted_writes()],
-            ["history-content", "history-manifest", "manifest"],
+            [
+                "history-content",
+                "history-content",
+                "history-content",
+                "history-manifest",
+                "manifest",
+            ],
         )
         root = next(write.value for write in plan.writes if write.phase == "manifest")
         self.assertEqual(

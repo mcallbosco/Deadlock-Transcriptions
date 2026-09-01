@@ -47,6 +47,29 @@ objects use one-year immutable caching. The manifest uses revalidation and is
 published after all new shard objects. Unchanged shard hashes and URLs are
 reused across complete logical regenerations.
 
+The manifest also references two optional content-addressed filename indexes:
+
+```text
+deadlock/history/voicelines/presence/<sha256>.json
+deadlock/history/voicelines/transcript-differences/<sha256>.json
+```
+
+The `presence` index contains normalized filenames with more than one rendered
+timeline event. Events split when the recording changes or when absence from an
+intermediate official version breaks a range. It intentionally does not use
+`versionCount > 1`, because an unchanged recording across consecutive versions
+renders as one timeline event.
+
+The separate `transcriptDifferences` index contains filenames whose events have
+more than one exact `transcription` string. Case, whitespace, and punctuation
+differences count; changes to `officialtranscription` alone do not. This compares
+the current transcript states of recordings and is not an edit history for
+corrections to one recording SHA-256.
+
+Both indexes use sorted normalized filenames, canonical JSON, SHA-256 object
+names, and one-year immutable caching. Empty indexes are still published with
+an empty `filenames` array so consumers have a stable contract.
+
 The game manifest advertises the optional capability through:
 
 ```json

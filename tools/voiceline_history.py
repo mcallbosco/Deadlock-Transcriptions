@@ -15,6 +15,8 @@ AUDIO_KEY_RE = re.compile(
 )
 HISTORY_SCHEMA_VERSION = 1
 SHARD_COUNT = 256
+MULTIPLE_EVENTS_CRITERION = "multiple-events"
+TRANSCRIPT_DIFFERENCES_CRITERION = "transcription-text-differences"
 
 
 class VoiceLineHistoryError(ValueError):
@@ -37,6 +39,8 @@ class HistoryBuild:
     catalog_fingerprint: str
     versions: list[dict[str, Any]]
     shards: dict[str, dict[str, Any]]
+    presence: dict[str, Any]
+    transcript_differences: dict[str, Any]
     history_lines: int
     events: int
 
@@ -190,6 +194,8 @@ def build_history(
     fingerprint = sha256_bytes(canonical_json({"versions": versions}))
 
     lines_by_shard: dict[str, dict[str, Any]] = {}
+    multiple_event_filenames: list[str] = []
+    transcript_difference_filenames: list[str] = []
     event_count = 0
     for filename in sorted(occurrences_by_filename):
         occurrences = occurrences_by_filename[filename]
@@ -197,6 +203,10 @@ def build_history(
             continue
         events = _events(occurrences)
         event_count += len(events)
+        if len(events) > 1:
+            multiple_event_filenames.append(filename)
+        if len({event["transcription"] for event in events}) > 1:
+            transcript_difference_filenames.append(filename)
         bucket = history_shard(filename)
         lines_by_shard.setdefault(bucket, {})[filename] = {
             "versionCount": len(occurrences),
@@ -211,10 +221,26 @@ def build_history(
         }
         for bucket, lines in sorted(lines_by_shard.items())
     }
+    presence = {
+        "schemaVersion": HISTORY_SCHEMA_VERSION,
+        "identity": "normalized-filename",
+        "criterion": MULTIPLE_EVENTS_CRITERION,
+        "lineCount": len(multiple_event_filenames),
+        "filenames": multiple_event_filenames,
+    }
+    transcript_differences = {
+        "schemaVersion": HISTORY_SCHEMA_VERSION,
+        "identity": "normalized-filename",
+        "criterion": TRANSCRIPT_DIFFERENCES_CRITERION,
+        "lineCount": len(transcript_difference_filenames),
+        "filenames": transcript_difference_filenames,
+    }
     return HistoryBuild(
         catalog_fingerprint=fingerprint,
         versions=versions,
         shards=shards,
+        presence=presence,
+        transcript_differences=transcript_differences,
         history_lines=sum(len(value["lines"]) for value in shards.values()),
         events=event_count,
     )
@@ -222,6 +248,8 @@ def build_history(
 
 __all__ = [
     "HISTORY_SCHEMA_VERSION",
+    "MULTIPLE_EVENTS_CRITERION",
+    "TRANSCRIPT_DIFFERENCES_CRITERION",
     "HistoryBuild",
     "OfficialCatalog",
     "SHARD_COUNT",

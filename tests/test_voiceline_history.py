@@ -89,6 +89,13 @@ class VoiceLineHistoryTests(unittest.TestCase):
 
         filename = "hero/line.mp3"
         line = result.shards[history_shard(filename)]["lines"][filename]
+        self.assertEqual(result.presence["filenames"], [filename])
+        self.assertEqual(result.presence["criterion"], "multiple-events")
+        self.assertEqual(result.transcript_differences["filenames"], [filename])
+        self.assertEqual(
+            result.transcript_differences["criterion"],
+            "transcription-text-differences",
+        )
         self.assertEqual(line["versionCount"], 3)
         self.assertEqual(
             line["events"],
@@ -127,6 +134,63 @@ class VoiceLineHistoryTests(unittest.TestCase):
         self.assertEqual(len(line["events"]), 2)
         self.assertEqual(line["events"][0]["throughVersion"], "v1")
         self.assertEqual(line["events"][1]["fromVersion"], "v3")
+        self.assertEqual(result.presence["filenames"], ["hero/line.mp3"])
+        self.assertEqual(result.transcript_differences["filenames"], [])
+
+    def test_recording_replacement_with_unchanged_text_has_no_transcript_difference(self) -> None:
+        result = build_history(
+            [
+                catalog("v1", record("hero/line.mp3", SHA_A)),
+                catalog("v2", record("hero/line.mp3", SHA_B)),
+            ],
+            {SHA_A: ("Same text", False), SHA_B: ("Same text", True)},
+        )
+
+        self.assertEqual(result.presence["filenames"], ["hero/line.mp3"])
+        self.assertEqual(result.transcript_differences["filenames"], [])
+
+    def test_unchanged_recording_has_empty_indexes(self) -> None:
+        result = build_history(
+            [
+                catalog("v1", record("Hero/Line.mp3", SHA_A)),
+                catalog("v2", record("hero\\line.mp3", SHA_A)),
+            ],
+            {SHA_A: ("Same text", False)},
+        )
+
+        self.assertEqual(result.presence["filenames"], [])
+        self.assertEqual(result.presence["lineCount"], 0)
+        self.assertEqual(result.transcript_differences["filenames"], [])
+        self.assertEqual(result.transcript_differences["lineCount"], 0)
+
+    def test_indexes_use_sorted_normalized_filenames(self) -> None:
+        result = build_history(
+            [
+                catalog(
+                    "v1",
+                    record("Hero/Zed.mp3", SHA_A),
+                    record("Hero\\Alpha.mp3", SHA_B),
+                ),
+                catalog(
+                    "v2",
+                    record("hero/zed.mp3", SHA_B),
+                    record("hero/alpha.mp3", SHA_A),
+                ),
+            ],
+            {SHA_A: ("One", False), SHA_B: ("Two", False)},
+        )
+
+        expected = ["hero/alpha.mp3", "hero/zed.mp3"]
+        self.assertEqual(result.presence["filenames"], expected)
+        self.assertEqual(result.transcript_differences["filenames"], expected)
+
+    def test_empty_catalog_produces_stable_empty_indexes(self) -> None:
+        result = build_history([catalog("v1")], {})
+
+        self.assertEqual(result.presence["filenames"], [])
+        self.assertEqual(result.presence["lineCount"], 0)
+        self.assertEqual(result.transcript_differences["filenames"], [])
+        self.assertEqual(result.transcript_differences["lineCount"], 0)
 
     def test_duplicate_voiceline_ids_do_not_merge_different_filenames(self) -> None:
         result = build_history(
