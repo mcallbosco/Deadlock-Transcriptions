@@ -27,7 +27,9 @@ from typing import Any, Callable, Iterable, Iterator
 from .transcript_schema import TRANSCRIPT_SCHEMA_VERSION
 from .voiceline_history import (
     HISTORY_SCHEMA_VERSION,
+    MULTIPLE_EVENTS_CRITERION,
     SHARD_COUNT,
+    TRANSCRIPT_DIFFERENCES_CRITERION,
     OfficialCatalog,
     VoiceLineHistoryError,
     build_history,
@@ -477,7 +479,14 @@ class SyncPlan:
                     f"- Official versions represented: **{self.history['versions']:,}**",
                     f"- Lines with history: **{self.history['lines']:,}**",
                     f"- History events: **{self.history['events']:,}**",
+                    f"- Lines with multiple events: **{self.history['presenceLines']:,}**",
+                    "- Lines with transcript differences: "
+                    f"**{self.history['transcriptDifferenceLines']:,}**",
                     f"- Changed immutable shards: **{self.history['changedShards']:,}**",
+                    "- Multiple-events index changed: "
+                    f"**{str(self.history['presenceChanged']).lower()}**",
+                    "- Transcript-differences index changed: "
+                    f"**{str(self.history['transcriptDifferencesChanged']).lower()}**",
                     f"- History manifest changed: **{str(self.history['manifestChanged']).lower()}**",
                     "",
                 ]
@@ -1697,6 +1706,55 @@ class ContentSyncPlanner:
                 "lineCount": len(value["lines"]),
             }
 
+        def plan_index(
+            manifest_key: str,
+            directory: str,
+            value: dict[str, Any],
+            criterion: str,
+            reason: str,
+        ) -> tuple[dict[str, Any], bool]:
+            body = canonical_json(value)
+            digest = sha256_bytes(body)
+            key = f"{self.game}/history/voicelines/{directory}/{digest}.json"
+            current_digest = None
+            if current.value is not None:
+                reference = current.value.get(manifest_key)
+                if isinstance(reference, dict) and isinstance(
+                    reference.get("sha256"), str
+                ):
+                    current_digest = reference["sha256"]
+            changed = digest != current_digest
+            if changed:
+                self.add_immutable_write(plan, key, value, reason)
+            return (
+                {
+                    "url": f"{self.cdn_base_url}/{key}",
+                    "sha256": digest,
+                    "bytes": len(body),
+                    "lineCount": value["lineCount"],
+                    "criterion": criterion,
+                },
+                changed,
+            )
+
+        presence_reference, presence_changed = plan_index(
+            "presence",
+            "presence",
+            history.presence,
+            MULTIPLE_EVENTS_CRITERION,
+            "Publish immutable multiple-event voice-line history index",
+        )
+        (
+            transcript_differences_reference,
+            transcript_differences_changed,
+        ) = plan_index(
+            "transcriptDifferences",
+            "transcript-differences",
+            history.transcript_differences,
+            TRANSCRIPT_DIFFERENCES_CRITERION,
+            "Publish immutable transcript-difference voice-line history index",
+        )
+
         desired_core: dict[str, Any] = {
             "schemaVersion": HISTORY_SCHEMA_VERSION,
             "game": self.game,
@@ -1709,6 +1767,8 @@ class ContentSyncPlanner:
             "historyLines": history.history_lines,
             "eventCount": history.events,
             "shards": shard_manifest,
+            "presence": presence_reference,
+            "transcriptDifferences": transcript_differences_reference,
         }
         current_core = None
         if current.value is not None:
@@ -1746,7 +1806,11 @@ class ContentSyncPlanner:
             "versions": len(history.versions),
             "lines": history.history_lines,
             "events": history.events,
+            "presenceLines": history.presence["lineCount"],
+            "transcriptDifferenceLines": history.transcript_differences["lineCount"],
             "changedShards": changed_shards,
+            "presenceChanged": presence_changed,
+            "transcriptDifferencesChanged": transcript_differences_changed,
             "manifestChanged": manifest_changed,
             "catalogFingerprint": history.catalog_fingerprint,
         }
