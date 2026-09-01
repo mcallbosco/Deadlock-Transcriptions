@@ -237,6 +237,32 @@ class _FilenameComponents:
             self.parent[left_root] = right_root
 
 
+def build_filename_lineages(
+    filenames_by_sha: Mapping[str, Iterable[str]],
+) -> dict[str, str]:
+    """Return the deterministic transitive recording lineage for each filename."""
+    filenames = sorted(
+        {
+            normalize_filename(filename)
+            for values in filenames_by_sha.values()
+            for filename in values
+            if normalize_filename(filename)
+        }
+    )
+    components = _FilenameComponents(filenames)
+    for values in filenames_by_sha.values():
+        ordered = sorted(
+            {
+                normalize_filename(filename)
+                for filename in values
+                if normalize_filename(filename)
+            }
+        )
+        for filename in ordered[1:]:
+            components.union(ordered[0], filename)
+    return {filename: components.find(filename) for filename in filenames}
+
+
 def build_history(
     catalogs: Iterable[OfficialCatalog],
     transcript_states: Mapping[str, tuple[str, bool]],
@@ -271,16 +297,12 @@ def build_history(
     for filename, occurrences in occurrences_by_filename.items():
         for occurrence in occurrences:
             filenames_by_sha.setdefault(occurrence.audio_sha256, set()).add(filename)
-    components = _FilenameComponents(occurrences_by_filename)
-    for filenames in filenames_by_sha.values():
-        ordered = sorted(filenames)
-        for filename in ordered[1:]:
-            components.union(ordered[0], filename)
+    components = build_filename_lineages(filenames_by_sha)
 
     occurrences_by_component: dict[str, list[_Occurrence]] = {}
     aliases_by_component: dict[str, list[str]] = {}
     for filename, occurrences in occurrences_by_filename.items():
-        component = components.find(filename)
+        component = components[filename]
         occurrences_by_component.setdefault(component, []).extend(occurrences)
         aliases_by_component.setdefault(component, []).append(filename)
 
@@ -396,6 +418,7 @@ __all__ = [
     "OfficialCatalog",
     "SHARD_COUNT",
     "VoiceLineHistoryError",
+    "build_filename_lineages",
     "build_history",
     "canonical_json",
     "history_shard",
