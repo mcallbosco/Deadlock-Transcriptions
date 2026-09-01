@@ -280,6 +280,22 @@ class ContentSyncTests(unittest.TestCase):
         history_manifest = next(
             write for write in plan.writes if write.phase == "history-manifest"
         )
+        self.assertEqual(history_manifest.value["schemaVersion"], 2)
+        self.assertEqual(
+            history_manifest.value["identity"],
+            "transitive-audio-sha256-lineage",
+        )
+        self.assertEqual(
+            history_manifest.value["lookupIdentity"], "normalized-filename"
+        )
+        self.assertEqual(history_manifest.value["historyLines"], 1)
+        self.assertEqual(history_manifest.value["lineageCount"], 1)
+        self.assertEqual(history_manifest.value["aliasedLineageCount"], 0)
+        self.assertEqual(history_manifest.value["branchedLineageCount"], 0)
+        self.assertEqual(history_manifest.value["transcriptDifferenceLines"], 0)
+        self.assertEqual(history_manifest.value["maxAliasesPerLineage"], 1)
+        self.assertEqual(history_manifest.value["maxVariantsPerPeriod"], 1)
+        self.assertEqual(shard.value["schemaVersion"], 2)
         self.assertEqual(
             next(iter(history_manifest.value["shards"].values()))["url"],
             f"{CDN}/{shard.key}",
@@ -299,6 +315,8 @@ class ContentSyncTests(unittest.TestCase):
             transcript_differences.cache_control,
             "public, max-age=31536000, immutable",
         )
+        self.assertEqual(presence.value["schemaVersion"], 1)
+        self.assertEqual(transcript_differences.value["schemaVersion"], 1)
         self.assertEqual(presence.value["filenames"], [])
         self.assertEqual(transcript_differences.value["filenames"], [])
         self.assertEqual(

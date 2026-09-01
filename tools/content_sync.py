@@ -26,6 +26,7 @@ from typing import Any, Callable, Iterable, Iterator
 
 from .transcript_schema import TRANSCRIPT_SCHEMA_VERSION
 from .voiceline_history import (
+    HISTORY_CONFIG_SCHEMA_VERSION,
     HISTORY_SCHEMA_VERSION,
     MULTIPLE_EVENTS_CRITERION,
     SHARD_COUNT,
@@ -477,13 +478,19 @@ class SyncPlan:
                     "## Voice-line history",
                     "",
                     f"- Official versions represented: **{self.history['versions']:,}**",
-                    f"- Lines with history: **{self.history['lines']:,}**",
-                    f"- History events: **{self.history['events']:,}**",
-                    f"- Lines with multiple events: **{self.history['presenceLines']:,}**",
-                    "- Lines with transcript differences: "
+                    f"- Filename lookups with history: **{self.history['lines']:,}**",
+                    f"- History lineages: **{self.history['lineages']:,}**",
+                    f"- Aliased lineages: **{self.history['aliasedLineages']:,}**",
+                    f"- Branched lineages: **{self.history['branchedLineages']:,}**",
+                    "- Filename lookups with multiple periods: "
+                    f"**{self.history['presenceLines']:,}**",
+                    "- Filename lookups with transcript differences: "
                     f"**{self.history['transcriptDifferenceLines']:,}**",
+                    f"- Largest alias set: **{self.history['maxAliasesPerLineage']:,}**",
+                    f"- Most variants in one period: **{self.history['maxVariantsPerPeriod']:,}**",
+                    f"- History periods: **{self.history['events']:,}**",
                     f"- Changed immutable shards: **{self.history['changedShards']:,}**",
-                    "- Multiple-events index changed: "
+                    "- Multiple-period index changed: "
                     f"**{str(self.history['presenceChanged']).lower()}**",
                     "- Transcript-differences index changed: "
                     f"**{str(self.history['transcriptDifferencesChanged']).lower()}**",
@@ -1152,9 +1159,12 @@ def _config_errors(path: Path, value: dict[str, Any], game: str) -> list[str]:
             errors.append(
                 "must contain exactly schemaVersion, game, shardCount, and officialVersions"
             )
-        if value.get("schemaVersion") != HISTORY_SCHEMA_VERSION or value.get("game") != game:
+        if (
+            value.get("schemaVersion") != HISTORY_CONFIG_SCHEMA_VERSION
+            or value.get("game") != game
+        ):
             errors.append(
-                f"must have schemaVersion {HISTORY_SCHEMA_VERSION} and game {game!r}"
+                f"must have schemaVersion {HISTORY_CONFIG_SCHEMA_VERSION} and game {game!r}"
             )
         if value.get("shardCount") != SHARD_COUNT:
             errors.append(f"shardCount must be {SHARD_COUNT}")
@@ -1742,7 +1752,7 @@ class ContentSyncPlanner:
             "presence",
             history.presence,
             MULTIPLE_EVENTS_CRITERION,
-            "Publish immutable multiple-event voice-line history index",
+            "Publish immutable multiple-period voice-line history index",
         )
         (
             transcript_differences_reference,
@@ -1758,13 +1768,20 @@ class ContentSyncPlanner:
         desired_core: dict[str, Any] = {
             "schemaVersion": HISTORY_SCHEMA_VERSION,
             "game": self.game,
-            "identity": "normalized-filename",
+            "identity": "transitive-audio-sha256-lineage",
+            "lookupIdentity": "normalized-filename",
             "shardAlgorithm": "sha256-first-byte",
             "shardCount": SHARD_COUNT,
             "sourceTranscriptCommit": target_commit,
             "catalogFingerprint": history.catalog_fingerprint,
             "versions": history.versions,
             "historyLines": history.history_lines,
+            "lineageCount": history.lineages,
+            "aliasedLineageCount": history.aliased_lineages,
+            "branchedLineageCount": history.branched_lineages,
+            "transcriptDifferenceLines": history.transcript_difference_lines,
+            "maxAliasesPerLineage": history.max_aliases_per_lineage,
+            "maxVariantsPerPeriod": history.max_variants_per_period,
             "eventCount": history.events,
             "shards": shard_manifest,
             "presence": presence_reference,
@@ -1805,9 +1822,14 @@ class ContentSyncPlanner:
         plan.history = {
             "versions": len(history.versions),
             "lines": history.history_lines,
+            "lineages": history.lineages,
+            "aliasedLineages": history.aliased_lineages,
+            "branchedLineages": history.branched_lineages,
+            "transcriptDifferenceLines": history.transcript_difference_lines,
+            "maxAliasesPerLineage": history.max_aliases_per_lineage,
+            "maxVariantsPerPeriod": history.max_variants_per_period,
             "events": history.events,
             "presenceLines": history.presence["lineCount"],
-            "transcriptDifferenceLines": history.transcript_differences["lineCount"],
             "changedShards": changed_shards,
             "presenceChanged": presence_changed,
             "transcriptDifferencesChanged": transcript_differences_changed,
