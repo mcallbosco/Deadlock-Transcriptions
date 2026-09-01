@@ -16,15 +16,32 @@ The generator joins three authoritative inputs:
 chronology from oldest to newest. Hidden official versions participate. Entries
 whose root-manifest `kind` is `custom` never participate.
 
-History identity is the normalized full filename: trimmed, slash-normalized,
-and case-folded. This matches Historical Content's adjacent-version comparison.
-`voiceline_id` is retained only as display/share metadata because it is not
-unique in published catalogs. A rename is therefore a removal plus an addition
-unless a future explicit lineage mapping says otherwise.
+History lookup identity remains the normalized full filename: trimmed,
+slash-normalized, and case-folded. History itself uses permanent, transitive
+recording lineages. If two filenames contain the same audio SHA-256 in any
+official version, they are aliases in one lineage forever. If A shares a hash
+with B and B later shares another hash with C, all three filenames belong to the
+same lineage. The complete lineage is published below every alias lookup key.
 
-Consecutive versions with the same filename and audio SHA-256 collapse into one
-event range. A transcript correction replaces the text resolved for that audio
-SHA; it does not create a new event or correction-history entry.
+Each lineage has a deterministic `lineageId`, an earliest-observed
+`canonicalFilename`, and a sorted `aliases` array. The canonical filename is a
+technical identity; clients should display the alias active in the selected
+version, or the newest active alias by default. `voiceline_id` values remain
+display/share metadata because they are not unique in published catalogs.
+
+Schema-v2 history is expressed as consecutive version periods. A period lists
+one or more recording variants, and every variant lists the filenames that use
+it. A filename change therefore remains visible even when the audio SHA does
+not change. If aliases that once shared a recording later diverge, the lineage
+remains intact and the period contains parallel variants. Absence from an
+official version breaks a period.
+
+`hasTranscriptDifferences` compares exact transcription text across the whole
+lineage. Filename-only renames, audio changes with identical text, and changes
+only to `officialtranscription` do not qualify. A separate schema-v1 filename
+index using criterion `transcription-text-differences` can therefore retain its
+existing shape: qualifying lineage results are expanded to every alias before
+the filename list is deduplicated and sorted.
 
 ## Published contract
 
@@ -47,28 +64,34 @@ objects use one-year immutable caching. The manifest uses revalidation and is
 published after all new shard objects. Unchanged shard hashes and URLs are
 reused across complete logical regenerations.
 
-The manifest also references two optional content-addressed filename indexes:
+The schema-v2 manifest declares `identity` as
+`transitive-audio-sha256-lineage` and `lookupIdentity` as
+`normalized-filename`. `historyLines` continues to count filename lookup
+entries. `lineageCount` counts unique published lineages and
+`branchedLineageCount` counts lineages with parallel variants in at least one
+version. `transcriptDifferenceLines` is the required `lineCount` of the
+alias-expanded schema-v1 `transcription-text-differences` filename index; its
+compiler should fail rather than publish an index with a different count.
+
+The manifest continues to reference the two schema-v1, content-addressed
+filename indexes used for cheap frontend eligibility checks:
 
 ```text
 deadlock/history/voicelines/presence/<sha256>.json
 deadlock/history/voicelines/transcript-differences/<sha256>.json
 ```
 
-The `presence` index contains normalized filenames with more than one rendered
-timeline event. Events split when the recording changes or when absence from an
-intermediate official version breaks a range. It intentionally does not use
-`versionCount > 1`, because an unchanged recording across consecutive versions
-renders as one timeline event.
+The `presence` index contains every alias of a lineage with more than one
+rendered period. The `transcriptDifferences` index contains every alias of a
+lineage with more than one exact transcription string. Both retain
+`identity: normalized-filename`, sorted unique `filenames`, and a `lineCount`
+equal to the array length. Rename-only lineages can enter `presence` but do not
+enter `transcriptDifferences`, so a frontend that gates its history button on
+transcript differences retains its current behavior.
 
-The separate `transcriptDifferences` index contains filenames whose events have
-more than one exact `transcription` string. Case, whitespace, and punctuation
-differences count; changes to `officialtranscription` alone do not. This compares
-the current transcript states of recordings and is not an edit history for
-corrections to one recording SHA-256.
-
-Both indexes use sorted normalized filenames, canonical JSON, SHA-256 object
-names, and one-year immutable caching. Empty indexes are still published with
-an empty `filenames` array so consumers have a stable contract.
+Both indexes are published as immutable objects before the mutable history
+manifest. Empty indexes are still published so consumers always receive the
+same schema-v1 contract.
 
 The game manifest advertises the optional capability through:
 

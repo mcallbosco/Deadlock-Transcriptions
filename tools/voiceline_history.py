@@ -13,7 +13,9 @@ from typing import Any, Iterable, Iterator, Mapping
 AUDIO_KEY_RE = re.compile(
     r"(?:^|/)sha256/[0-9a-f]{2}/(?P<sha>[0-9a-f]{64})\.mp3$"
 )
-HISTORY_SCHEMA_VERSION = 1
+HISTORY_CONFIG_SCHEMA_VERSION = 1
+HISTORY_INDEX_SCHEMA_VERSION = 1
+HISTORY_SCHEMA_VERSION = 2
 SHARD_COUNT = 256
 MULTIPLE_EVENTS_CRITERION = "multiple-events"
 TRANSCRIPT_DIFFERENCES_CRITERION = "transcription-text-differences"
@@ -43,6 +45,12 @@ class HistoryBuild:
     transcript_differences: dict[str, Any]
     history_lines: int
     events: int
+    lineages: int
+    branched_lineages: int
+    aliased_lineages: int
+    transcript_difference_lines: int
+    max_aliases_per_lineage: int
+    max_variants_per_period: int
 
 
 @dataclass(frozen=True)
@@ -54,6 +62,7 @@ class _Occurrence:
     transcription: str
     official: bool
     voiceline_id: str | None
+    filename: str
 
 
 def canonical_json(value: Any) -> bytes:
@@ -120,6 +129,7 @@ def _catalog_index(
             transcription=transcript[0],
             official=transcript[1],
             voiceline_id=voiceline_id if isinstance(voiceline_id, str) and voiceline_id else None,
+            filename=filename,
         )
         previous = result.get(filename)
         if previous is not None and previous.audio_sha256 != occurrence.audio_sha256:
@@ -132,35 +142,99 @@ def _catalog_index(
     return result
 
 
-def _event(first: _Occurrence, last: _Occurrence) -> dict[str, Any]:
+def _variant(occurrences: list[_Occurrence]) -> dict[str, Any]:
+    """Build one recording variant active under one or more aliases."""
+    first = min(occurrences, key=lambda item: (item.filename, item.audio_key))
     result: dict[str, Any] = {
-        "fromVersion": first.version_id,
-        "throughVersion": last.version_id,
+        "filenames": sorted({item.filename for item in occurrences}),
         "audioKey": first.audio_key,
         "transcription": first.transcription,
     }
     if first.official:
         result["officialtranscription"] = True
-    if first.voiceline_id:
-        result["voicelineId"] = first.voiceline_id
+    voiceline_ids = sorted(
+        {item.voiceline_id for item in occurrences if item.voiceline_id is not None}
+    )
+    if voiceline_ids:
+        result["voicelineIds"] = voiceline_ids
     return result
 
 
-def _events(occurrences: list[_Occurrence]) -> list[dict[str, Any]]:
-    events: list[dict[str, Any]] = []
-    first = occurrences[0]
-    last = first
-    for occurrence in occurrences[1:]:
-        consecutive = occurrence.version_index == last.version_index + 1
-        same_recording = occurrence.audio_sha256 == last.audio_sha256
-        if consecutive and same_recording:
-            last = occurrence
+def _periods(
+    occurrences: list[_Occurrence],
+) -> tuple[list[dict[str, Any]], bool]:
+    """Collapse consecutive versions only when their complete active state matches."""
+    by_version: dict[int, list[_Occurrence]] = {}
+    for occurrence in occurrences:
+        by_version.setdefault(occurrence.version_index, []).append(occurrence)
+
+    version_states: list[tuple[int, str, list[dict[str, Any]]]] = []
+    branched = False
+    for version_index in sorted(by_version):
+        by_sha: dict[str, list[_Occurrence]] = {}
+        for occurrence in by_version[version_index]:
+            by_sha.setdefault(occurrence.audio_sha256, []).append(occurrence)
+        variants = [
+            _variant(by_sha[audio_sha])
+            for audio_sha in sorted(by_sha)
+        ]
+        branched = branched or len(variants) > 1
+        version_states.append(
+            (version_index, by_version[version_index][0].version_id, variants)
+        )
+
+    periods: list[dict[str, Any]] = []
+    first_index, first_version, first_variants = version_states[0]
+    previous_index = first_index
+    through_version = first_version
+    for version_index, version_id, variants in version_states[1:]:
+        if version_index == previous_index + 1 and variants == first_variants:
+            previous_index = version_index
+            through_version = version_id
             continue
-        events.append(_event(first, last))
-        first = occurrence
-        last = occurrence
-    events.append(_event(first, last))
-    return events
+        periods.append(
+            {
+                "fromVersion": first_version,
+                "throughVersion": through_version,
+                "variants": first_variants,
+            }
+        )
+        first_index = version_index
+        first_version = version_id
+        first_variants = variants
+        previous_index = version_index
+        through_version = version_id
+    periods.append(
+        {
+            "fromVersion": first_version,
+            "throughVersion": through_version,
+            "variants": first_variants,
+        }
+    )
+    return periods, branched
+
+
+class _FilenameComponents:
+    def __init__(self, filenames: Iterable[str]) -> None:
+        self.parent = {filename: filename for filename in filenames}
+
+    def find(self, filename: str) -> str:
+        parent = self.parent[filename]
+        if parent != filename:
+            self.parent[filename] = self.find(parent)
+        return self.parent[filename]
+
+    def union(self, left: str, right: str) -> None:
+        left_root = self.find(left)
+        right_root = self.find(right)
+        if left_root == right_root:
+            return
+        # The root is not externally meaningful, but choosing it deterministically
+        # makes complete regenerations easier to reason about.
+        if left_root < right_root:
+            self.parent[right_root] = left_root
+        else:
+            self.parent[left_root] = right_root
 
 
 def build_history(
@@ -193,25 +267,72 @@ def build_history(
         raise VoiceLineHistoryError("Voice-line history requires at least one official catalog.")
     fingerprint = sha256_bytes(canonical_json({"versions": versions}))
 
+    filenames_by_sha: dict[str, set[str]] = {}
+    for filename, occurrences in occurrences_by_filename.items():
+        for occurrence in occurrences:
+            filenames_by_sha.setdefault(occurrence.audio_sha256, set()).add(filename)
+    components = _FilenameComponents(occurrences_by_filename)
+    for filenames in filenames_by_sha.values():
+        ordered = sorted(filenames)
+        for filename in ordered[1:]:
+            components.union(ordered[0], filename)
+
+    occurrences_by_component: dict[str, list[_Occurrence]] = {}
+    aliases_by_component: dict[str, list[str]] = {}
+    for filename, occurrences in occurrences_by_filename.items():
+        component = components.find(filename)
+        occurrences_by_component.setdefault(component, []).extend(occurrences)
+        aliases_by_component.setdefault(component, []).append(filename)
+
     lines_by_shard: dict[str, dict[str, Any]] = {}
     multiple_event_filenames: list[str] = []
     transcript_difference_filenames: list[str] = []
     event_count = 0
-    for filename in sorted(occurrences_by_filename):
-        occurrences = occurrences_by_filename[filename]
-        if len(occurrences) < 2:
+    lineage_count = 0
+    branched_lineage_count = 0
+    aliased_lineage_count = 0
+    transcript_difference_lines = 0
+    max_aliases_per_lineage = 0
+    max_variants_per_period = 0
+    for component in sorted(occurrences_by_component):
+        occurrences = occurrences_by_component[component]
+        version_indices = {item.version_index for item in occurrences}
+        if len(version_indices) < 2:
             continue
-        events = _events(occurrences)
-        event_count += len(events)
-        if len(events) > 1:
-            multiple_event_filenames.append(filename)
-        if len({event["transcription"] for event in events}) > 1:
-            transcript_difference_filenames.append(filename)
-        bucket = history_shard(filename)
-        lines_by_shard.setdefault(bucket, {})[filename] = {
-            "versionCount": len(occurrences),
-            "events": events,
+        aliases = sorted(aliases_by_component[component])
+        earliest_version = min(version_indices)
+        canonical_filename = min(
+            item.filename for item in occurrences if item.version_index == earliest_version
+        )
+        lineage_id = sha256_bytes(
+            f"voice-line-lineage-v2\0{canonical_filename}".encode("utf-8")
+        )
+        periods, branched = _periods(occurrences)
+        has_transcript_differences = len(
+            {item.transcription for item in occurrences}
+        ) > 1
+        line = {
+            "lineageId": lineage_id,
+            "canonicalFilename": canonical_filename,
+            "aliases": aliases,
+            "versionCount": len(version_indices),
+            "hasHistory": True,
+            "hasTranscriptDifferences": has_transcript_differences,
+            "periods": periods,
         }
+        event_count += len(periods)
+        lineage_count += 1
+        branched_lineage_count += int(branched)
+        aliased_lineage_count += int(len(aliases) > 1)
+        transcript_difference_lines += len(aliases) * int(has_transcript_differences)
+        max_aliases_per_lineage = max(max_aliases_per_lineage, len(aliases))
+        max_variants_per_period = max(
+            max_variants_per_period,
+            *(len(period["variants"]) for period in periods),
+        )
+        for filename in aliases:
+            bucket = history_shard(filename)
+            lines_by_shard.setdefault(bucket, {})[filename] = line
 
     shards = {
         bucket: {
@@ -221,20 +342,33 @@ def build_history(
         }
         for bucket, lines in sorted(lines_by_shard.items())
     }
+    presence_filenames = sorted(
+        filename
+        for shard in shards.values()
+        for filename, line in shard["lines"].items()
+        if len(line["periods"]) > 1
+    )
+    transcript_difference_filenames = sorted(
+        filename
+        for shard in shards.values()
+        for filename, line in shard["lines"].items()
+        if line["hasTranscriptDifferences"]
+    )
     presence = {
-        "schemaVersion": HISTORY_SCHEMA_VERSION,
+        "schemaVersion": HISTORY_INDEX_SCHEMA_VERSION,
         "identity": "normalized-filename",
         "criterion": MULTIPLE_EVENTS_CRITERION,
-        "lineCount": len(multiple_event_filenames),
-        "filenames": multiple_event_filenames,
+        "lineCount": len(presence_filenames),
+        "filenames": presence_filenames,
     }
     transcript_differences = {
-        "schemaVersion": HISTORY_SCHEMA_VERSION,
+        "schemaVersion": HISTORY_INDEX_SCHEMA_VERSION,
         "identity": "normalized-filename",
         "criterion": TRANSCRIPT_DIFFERENCES_CRITERION,
         "lineCount": len(transcript_difference_filenames),
         "filenames": transcript_difference_filenames,
     }
+    assert len(transcript_difference_filenames) == transcript_difference_lines
     return HistoryBuild(
         catalog_fingerprint=fingerprint,
         versions=versions,
@@ -243,11 +377,19 @@ def build_history(
         transcript_differences=transcript_differences,
         history_lines=sum(len(value["lines"]) for value in shards.values()),
         events=event_count,
+        lineages=lineage_count,
+        branched_lineages=branched_lineage_count,
+        aliased_lineages=aliased_lineage_count,
+        transcript_difference_lines=transcript_difference_lines,
+        max_aliases_per_lineage=max_aliases_per_lineage,
+        max_variants_per_period=max_variants_per_period,
     )
 
 
 __all__ = [
     "HISTORY_SCHEMA_VERSION",
+    "HISTORY_CONFIG_SCHEMA_VERSION",
+    "HISTORY_INDEX_SCHEMA_VERSION",
     "MULTIPLE_EVENTS_CRITERION",
     "TRANSCRIPT_DIFFERENCES_CRITERION",
     "HistoryBuild",

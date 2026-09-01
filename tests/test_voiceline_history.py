@@ -15,6 +15,7 @@ from tools.voiceline_history import (
 
 SHA_A = "a" * 64
 SHA_B = "b" * 64
+SHA_C = "c" * 64
 
 
 def catalog(version_id: str, *records: dict) -> OfficialCatalog:
@@ -71,7 +72,7 @@ class VoiceLineHistoryTests(unittest.TestCase):
         filename = "hero/conversation_01.mp3"
         line = result.shards[history_shard(filename)]["lines"][filename]
         self.assertEqual(line["versionCount"], 2)
-        self.assertEqual(len(line["events"]), 2)
+        self.assertEqual(len(line["periods"]), 2)
         self.assertIn("conversationSha256", result.versions[0])
 
     def test_builds_filename_history_and_collapses_unchanged_ranges(self) -> None:
@@ -98,25 +99,36 @@ class VoiceLineHistoryTests(unittest.TestCase):
         )
         self.assertEqual(line["versionCount"], 3)
         self.assertEqual(
-            line["events"],
+            line["periods"],
             [
                 {
                     "fromVersion": "v1",
                     "throughVersion": "v2",
-                    "audioKey": f"sha256/aa/{SHA_A}.mp3",
-                    "transcription": "First recording",
-                    "officialtranscription": True,
-                    "voicelineId": "duplicate-id",
+                    "variants": [
+                        {
+                            "filenames": [filename],
+                            "audioKey": f"sha256/aa/{SHA_A}.mp3",
+                            "transcription": "First recording",
+                            "officialtranscription": True,
+                            "voicelineIds": ["duplicate-id"],
+                        }
+                    ],
                 },
                 {
                     "fromVersion": "v3",
                     "throughVersion": "v3",
-                    "audioKey": f"sha256/bb/{SHA_B}.mp3",
-                    "transcription": "Replacement recording",
-                    "voicelineId": "duplicate-id",
+                    "variants": [
+                        {
+                            "filenames": [filename],
+                            "audioKey": f"sha256/bb/{SHA_B}.mp3",
+                            "transcription": "Replacement recording",
+                            "voicelineIds": ["duplicate-id"],
+                        }
+                    ],
                 },
             ],
         )
+        self.assertTrue(line["hasTranscriptDifferences"])
 
     def test_absence_breaks_a_version_range(self) -> None:
         result = build_history(
@@ -131,9 +143,9 @@ class VoiceLineHistoryTests(unittest.TestCase):
         line = result.shards[history_shard("hero/line.mp3")]["lines"][
             "hero/line.mp3"
         ]
-        self.assertEqual(len(line["events"]), 2)
-        self.assertEqual(line["events"][0]["throughVersion"], "v1")
-        self.assertEqual(line["events"][1]["fromVersion"], "v3")
+        self.assertEqual(len(line["periods"]), 2)
+        self.assertEqual(line["periods"][0]["throughVersion"], "v1")
+        self.assertEqual(line["periods"][1]["fromVersion"], "v3")
         self.assertEqual(result.presence["filenames"], ["hero/line.mp3"])
         self.assertEqual(result.transcript_differences["filenames"], [])
 
@@ -191,6 +203,102 @@ class VoiceLineHistoryTests(unittest.TestCase):
         self.assertEqual(result.presence["lineCount"], 0)
         self.assertEqual(result.transcript_differences["filenames"], [])
         self.assertEqual(result.transcript_differences["lineCount"], 0)
+
+    def test_shared_recording_creates_permanent_transitive_lineage(self) -> None:
+        result = build_history(
+            [
+                catalog("v1", record("hero/alpha.mp3", SHA_A)),
+                catalog("v2", record("hero/beta.mp3", SHA_A)),
+                catalog("v3", record("hero/beta.mp3", SHA_B)),
+                catalog("v4", record("hero/gamma.mp3", SHA_B)),
+            ],
+            {
+                SHA_A: ("First text", False),
+                SHA_B: ("Second text", True),
+            },
+        )
+
+        aliases = ["hero/alpha.mp3", "hero/beta.mp3", "hero/gamma.mp3"]
+        lines = [
+            result.shards[history_shard(filename)]["lines"][filename]
+            for filename in aliases
+        ]
+        self.assertTrue(all(line == lines[0] for line in lines[1:]))
+        self.assertEqual(lines[0]["aliases"], aliases)
+        self.assertEqual(lines[0]["canonicalFilename"], "hero/alpha.mp3")
+        self.assertEqual(lines[0]["versionCount"], 4)
+        self.assertTrue(lines[0]["hasTranscriptDifferences"])
+        self.assertEqual(len(lines[0]["periods"]), 4)
+        self.assertEqual(result.history_lines, 3)
+        self.assertEqual(result.lineages, 1)
+        self.assertEqual(result.aliased_lineages, 1)
+        self.assertEqual(result.transcript_difference_lines, 3)
+        self.assertEqual(result.max_aliases_per_lineage, 3)
+        self.assertEqual(result.transcript_differences["schemaVersion"], 1)
+        self.assertEqual(result.transcript_differences["filenames"], aliases)
+
+    def test_simultaneous_aliases_can_diverge_without_splitting_lineage(self) -> None:
+        result = build_history(
+            [
+                catalog(
+                    "v1",
+                    record("hero/alpha.mp3", SHA_A, "alpha"),
+                    record("hero/beta.mp3", SHA_A, "beta"),
+                ),
+                catalog(
+                    "v2",
+                    record("hero/alpha.mp3", SHA_B, "alpha"),
+                    record("hero/beta.mp3", SHA_C, "beta"),
+                ),
+            ],
+            {
+                SHA_A: ("Shared", False),
+                SHA_B: ("Alpha branch", False),
+                SHA_C: ("Beta branch", False),
+            },
+        )
+
+        line = result.shards[history_shard("hero/alpha.mp3")]["lines"][
+            "hero/alpha.mp3"
+        ]
+        self.assertEqual(len(line["periods"][0]["variants"]), 1)
+        self.assertEqual(
+            line["periods"][0]["variants"][0]["filenames"],
+            ["hero/alpha.mp3", "hero/beta.mp3"],
+        )
+        self.assertEqual(len(line["periods"][1]["variants"]), 2)
+        self.assertEqual(result.branched_lineages, 1)
+        self.assertEqual(result.max_variants_per_period, 2)
+
+    def test_rename_only_history_does_not_claim_transcript_difference(self) -> None:
+        result = build_history(
+            [
+                catalog("v1", record("hero/old.mp3", SHA_A)),
+                catalog("v2", record("hero/new.mp3", SHA_A)),
+                catalog("v3", record("hero/new.mp3", SHA_B)),
+            ],
+            {
+                SHA_A: ("Same text", False),
+                SHA_B: ("Same text", True),
+            },
+        )
+
+        line = result.shards[history_shard("hero/new.mp3")]["lines"][
+            "hero/new.mp3"
+        ]
+        self.assertFalse(line["hasTranscriptDifferences"])
+        self.assertEqual(result.transcript_difference_lines, 0)
+        self.assertEqual(
+            result.presence["filenames"], ["hero/new.mp3", "hero/old.mp3"]
+        )
+        self.assertEqual(result.transcript_differences["filenames"], [])
+        self.assertEqual(len(line["periods"]), 3)
+        self.assertEqual(
+            line["periods"][0]["variants"][0]["filenames"], ["hero/old.mp3"]
+        )
+        self.assertEqual(
+            line["periods"][1]["variants"][0]["filenames"], ["hero/new.mp3"]
+        )
 
     def test_duplicate_voiceline_ids_do_not_merge_different_filenames(self) -> None:
         result = build_history(
