@@ -80,9 +80,11 @@ def selected_state(
     available = {left["text"], right["text"]}
     if decision not in available:
         raise ApplyError(f"decision {candidate['id']} must select one audited transcript")
+    winner = left if left["text"] == decision else right
     return {
-        "text": decision,
-        "source": "manual" if left["source"] == "generated" else left["source"],
+        key: winner[key]
+        for key in ("text", "source", "model")
+        if key in winner
     }
 
 

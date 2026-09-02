@@ -12,7 +12,10 @@ from tools.audit_phonetic_lineage_merges import (
 
 
 def revision(digest: str, text: str, source: str = "generated") -> dict[str, object]:
-    return {"sha256": [digest * 64], "text": text, "source": source}
+    value: dict[str, object] = {"sha256": [digest * 64], "text": text, "source": source}
+    if source == "generated":
+        value["model"] = "test-transcriber"
+    return value
 
 
 class PhoneticLineageMergeTests(unittest.TestCase):
@@ -104,7 +107,8 @@ class PhoneticLineageMergeTests(unittest.TestCase):
         self.assertEqual(result["statistics"]["targetRecordingHashes"], 4)
         self.assertEqual(changed["hero/old.mp3"]["revisions"][0]["source"], "official")
         self.assertEqual(changed["hero/old.mp3"]["revisions"][0]["text"], "I'll curse 'em!")
-        self.assertEqual(changed["hero/right.mp3"]["revisions"][0]["source"], "manual")
+        self.assertEqual(changed["hero/right.mp3"]["revisions"][0]["source"], "generated")
+        self.assertEqual(changed["hero/right.mp3"]["revisions"][0]["model"], "test-transcriber")
         self.assertEqual(changed["hero/right.mp3"]["revisions"][0]["text"], "Lives are at stake.")
 
         updated_documents = {**documents, **changed}

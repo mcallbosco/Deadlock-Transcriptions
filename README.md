@@ -25,7 +25,7 @@ normalized spoken equivalents or near-identical wording. The lower-confidence ta
 retains recognizable speech-to-text mishearings and wording variants for review.
 
 Strong same-authority pairs require an explicit decision; generated-only decisions
-become `manual`. Different-authority pairs use `official`, then `manual`, then
+remain `generated` with their transcription model. Different-authority pairs use `official`, then `manual`, then
 `generated`. Validate the reviewed batch first, then apply it with:
 
 ```powershell

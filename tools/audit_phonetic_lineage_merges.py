@@ -102,6 +102,7 @@ class Occurrence:
     text: str
     source: str
     hashes: tuple[str, ...]
+    model: str | None = None
 
 
 def canonical_json(value: Any) -> str:
@@ -254,7 +255,17 @@ def find_candidates(
                 source = str(revision.get("source") or "")
                 hashes = tuple(sorted(revision_hashes(revision)))
                 if text.strip() and source in SOURCE_PRIORITY and hashes:
-                    occurrences.append(Occurrence(filename, revision_index, text, source, hashes))
+                    model = revision.get("model")
+                    occurrences.append(
+                        Occurrence(
+                            filename,
+                            revision_index,
+                            text,
+                            source,
+                            hashes,
+                            model if isinstance(model, str) else None,
+                        )
+                    )
         for left_index, left in enumerate(occurrences):
             for right in occurrences[left_index + 1 :]:
                 if left.filename == right.filename:
@@ -280,6 +291,7 @@ def find_candidates(
                             "text": left.text,
                             "source": left.source,
                             "sha256": list(left.hashes),
+                            **({"model": left.model} if left.model is not None else {}),
                         },
                         "right": {
                             "filename": right.filename,
@@ -287,14 +299,11 @@ def find_candidates(
                             "text": right.text,
                             "source": right.source,
                             "sha256": list(right.hashes),
+                            **({"model": right.model} if right.model is not None else {}),
                         },
                         "proposed": {
                             "text": survivor.text,
-                            "source": (
-                                "manual"
-                                if same_authority and survivor.source == "generated"
-                                else survivor.source
-                            ),
+                            "source": survivor.source,
                             "selectedFrom": survivor.filename,
                             "resolution": (
                                 "review-required" if same_authority else "source-authority"
