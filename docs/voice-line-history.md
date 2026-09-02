@@ -57,6 +57,30 @@ index using criterion `transcription-text-differences` can therefore retain its
 existing shape: qualifying lineage results are expanded to every alias before
 the filename list is deduplicated and sorted.
 
+Correlated filenames can expose punctuation-only transcript differences that
+were previously hidden in separate lineages. Audit them against the cached
+official history catalogs with:
+
+```powershell
+python tools/reconcile_correlated_punctuation.py `
+  --output-json migration-reports/correlated-punctuation-review.json
+```
+
+The audit uses the schema-v3 transcript match key and resolves a unique
+authoritative rendering with `official`, then `manual`, then `generated`
+priority. Generated-only clusters and same-authority ties remain unresolved
+until a reviewed decision file is supplied. Decisions may alter only
+punctuation, whitespace, or casing; accepted review decisions become `manual`.
+The apply mode rewrites only recording hashes present in the official history
+catalogs and preserves unrelated hashes in split revision groups:
+
+```powershell
+python tools/reconcile_correlated_punctuation.py `
+  --decisions migration-reports/correlated-punctuation-decisions.json `
+  --output-json migration-reports/correlated-punctuation-reconciliation.json `
+  --apply --approve-reconciliation
+```
+
 ## Published contract
 
 The mutable capability document is:
