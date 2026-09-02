@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "applied": true,
   "statistics": {
-    "candidatePairs": 170,
-    "appliedPairs": 168,
+    "candidatePairs": 155,
+    "appliedPairs": 153,
     "skippedPairs": 2,
-    "targetRecordingHashes": 454,
-    "changedFiles": 260,
+    "targetRecordingHashes": 398,
+    "changedFiles": 352,
     "targetsBySource": {
-      "generated": 77,
+      "generated": 57,
       "manual": 5,
-      "official": 372
+      "official": 336
     }
   },
   "operations": [
@@ -211,42 +211,6 @@
       }
     },
     {
-      "id": "5987844248a9aa2883c0",
-      "target": {
-        "text": "I may be tough, but I don't wanna take on their whole team alone…",
-        "source": "official"
-      }
-    },
-    {
-      "id": "33a721b8f875784c7af3",
-      "target": {
-        "text": "Outta the way!",
-        "source": "official"
-      }
-    },
-    {
-      "id": "53510583f45e5b62d21a",
-      "target": {
-        "text": "Good. Now we get to kill 'em twice..",
-        "source": "official"
-      }
-    },
-    {
-      "id": "08b927b5084491a36382",
-      "target": {
-        "text": "After we take their shrine, I'm buyin'.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "id": "22d3d288d119a63dcc75",
-      "target": {
-        "text": "I'm gonna find 'em…",
-        "source": "official"
-      }
-    },
-    {
       "id": "e5f864bfc014cb787a75",
       "target": {
         "text": "What did I do to piss of the feds...",
@@ -278,80 +242,6 @@
       "id": "db716217ef1f1a32e497",
       "target": {
         "text": "That cape kinda freaks me out…",
-        "source": "official"
-      }
-    },
-    {
-      "id": "bc4e97fbea5aa6f3e91b",
-      "target": {
-        "text": "I may be tough, but I don't wanna take on their whole team alone…",
-        "source": "official"
-      }
-    },
-    {
-      "id": "cb3ead4fd24c8a45698a",
-      "target": {
-        "text": "There's a lot of 'em.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "id": "69f1636012925b763560",
-      "target": {
-        "text": "Not sure I wanna take 'em all on.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "id": "a8fac3ca77974f97020b",
-      "target": {
-        "text": "You thought you were going to keep me down",
-        "source": "official"
-      }
-    },
-    {
-      "id": "04f185f604547da050df",
-      "target": {
-        "text": "No one's takin' this book from me.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "id": "b7816a25f318771b3e41",
-      "target": {
-        "text": "I got better things to do than gettin' shot at.",
-        "source": "generated",
-        "model": "gpt-4o-mini-transcribe"
-      }
-    },
-    {
-      "id": "a97dc83ea9f22c4b0c7d",
-      "target": {
-        "text": "This book is dangerous, I can't let it fall in the wrong hands…",
-        "source": "official"
-      }
-    },
-    {
-      "id": "dfa849ee289115b6aa05",
-      "target": {
-        "text": "They're not gonna want to get up close.",
-        "source": "official"
-      }
-    },
-    {
-      "id": "3fbb079f1e68aa5bf1ca",
-      "target": {
-        "text": "They don’t make 'em like me.",
-        "source": "official"
-      }
-    },
-    {
-      "id": "6abbbd2171ff079bf107",
-      "target": {
-        "text": "I'll crash into 'em.",
         "source": "official"
       }
     },
