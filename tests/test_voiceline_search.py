@@ -157,6 +157,29 @@ class VoiceLineSearchTests(unittest.TestCase):
         self.assertEqual(strings[variant[0]], "authoritative text")
         self.assertEqual(len(variant[2]), 2)
 
+    def test_manual_correlations_match_history_lineages(self) -> None:
+        atlas = line("hero/atlas_line.mp3", "78" * 32, "prototype", "atlas")
+        abrams = line("hero/abrams_line.mp3", "9a" * 32, "current", "abrams")
+        build = build_search_index(
+            [catalog("v1", [atlas, abrams])],
+            "deadlock",
+            transcript_states(atlas, abrams),
+            [["hero/atlas_line.mp3", "hero/abrams_line.mp3"]],
+        )
+
+        self.assertEqual(build.lineages, 1)
+        self.assertEqual(build.variants, 2)
+        self.assertEqual(
+            build.value["lineageSources"],
+            ["audio-sha256", "manual-correlations"],
+        )
+        strings = build.value["strings"]
+        aliases = [strings[index] for index in build.value["records"][0][1]]
+        self.assertEqual(
+            aliases,
+            ["hero/abrams_line.mp3", "hero/atlas_line.mp3"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

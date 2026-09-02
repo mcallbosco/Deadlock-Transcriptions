@@ -345,6 +345,7 @@ def build_search_index(
     catalogs: Iterable[SearchCatalog],
     game: str,
     transcript_states: Mapping[str, tuple[str, bool]],
+    manual_correlations: Iterable[Iterable[str]] = (),
 ) -> SearchIndexBuild:
     """Build the complete index in oldest-to-newest catalog order."""
     catalog_list = list(catalogs)
@@ -367,7 +368,11 @@ def build_search_index(
                 occurrence.filename
             )
 
-    lineage_for_filename = build_filename_lineages(filenames_by_sha)
+    correlation_groups = [list(group) for group in manual_correlations]
+    lineage_for_filename = build_filename_lineages(
+        filenames_by_sha,
+        correlation_groups,
+    )
     by_lineage: dict[str, list[_Occurrence]] = {}
     aliases_by_lineage: dict[str, set[str]] = {}
     for filename, filename_occurrences in by_filename.items():
@@ -436,6 +441,10 @@ def build_search_index(
         "schemaVersion": SEARCH_INDEX_SCHEMA_VERSION,
         "game": game,
         "identity": "transitive-audio-sha256-lineage",
+        "lineageSources": [
+            "audio-sha256",
+            *(["manual-correlations"] if correlation_groups else []),
+        ],
         "versionOrder": "oldest-to-newest",
         "versions": [
             {

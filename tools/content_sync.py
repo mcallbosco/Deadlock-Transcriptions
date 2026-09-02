@@ -27,6 +27,7 @@ from typing import Any, Callable, Iterable, Iterator
 from .transcript_schema import TRANSCRIPT_SCHEMA_VERSION
 from .voiceline_history import (
     HISTORY_CONFIG_SCHEMA_VERSION,
+    HISTORY_CORRELATIONS_SCHEMA_VERSION,
     HISTORY_SCHEMA_VERSION,
     MULTIPLE_EVENTS_CRITERION,
     SHARD_COUNT,
@@ -34,6 +35,7 @@ from .voiceline_history import (
     OfficialCatalog,
     VoiceLineHistoryError,
     build_history,
+    normalize_filename,
 )
 from .voiceline_search import SearchCatalog, VoiceLineSearchError, build_search_index
 
@@ -68,6 +70,7 @@ VALIDATE_ONLY_CONFIG = {
     "transcription-vocabulary.json",
     "version-releases.json",
     "voice-line-history.json",
+    "voice-line-history-correlations.json",
     "source-lock.json",
 }
 PHASE_ORDER = {
@@ -489,6 +492,8 @@ class SyncPlan:
                     f"- Official versions represented: **{self.history['versions']:,}**",
                     f"- Filename lookups with history: **{self.history['lines']:,}**",
                     f"- History lineages: **{self.history['lineages']:,}**",
+                    "- Reviewed manual correlation groups: "
+                    f"**{self.history['manualCorrelationGroups']:,}**",
                     f"- Aliased lineages: **{self.history['aliasedLineages']:,}**",
                     f"- Branched lineages: **{self.history['branchedLineages']:,}**",
                     "- Filename lookups with multiple periods: "
@@ -1190,6 +1195,52 @@ def _config_errors(path: Path, value: dict[str, Any], game: str) -> list[str]:
         elif len(versions) != len(set(versions)):
             errors.append("officialVersions must not contain duplicate IDs")
         return errors
+    if name == "voice-line-history-correlations.json":
+        errors: list[str] = []
+        if set(value) != {"schemaVersion", "correlations"}:
+            errors.append("must contain exactly schemaVersion and correlations")
+        if value.get("schemaVersion") != HISTORY_CORRELATIONS_SCHEMA_VERSION:
+            errors.append(
+                f"schemaVersion must be {HISTORY_CORRELATIONS_SCHEMA_VERSION}"
+            )
+        correlations = value.get("correlations")
+        if not isinstance(correlations, list):
+            return [*errors, "correlations must be an array"]
+        seen_filenames: dict[str, int] = {}
+        normalized_groups: list[list[str]] = []
+        for index, group in enumerate(correlations):
+            field_name = f"correlations[{index}]"
+            if not isinstance(group, list):
+                errors.append(f"{field_name} must be an array")
+                continue
+            if len(group) < 2:
+                errors.append(f"{field_name} must contain at least two filenames")
+                continue
+            normalized: list[str] = []
+            for filename_index, filename in enumerate(group):
+                item_name = f"{field_name}[{filename_index}]"
+                if not isinstance(filename, str) or not filename.strip():
+                    errors.append(f"{item_name} must be a non-empty string")
+                    continue
+                normalized_filename = normalize_filename(filename)
+                if filename != normalized_filename:
+                    errors.append(f"{item_name} must already be normalized")
+                if not normalized_filename.endswith(".mp3"):
+                    errors.append(f"{item_name} must identify an MP3 filename")
+                previous_group = seen_filenames.get(normalized_filename)
+                if previous_group is not None:
+                    errors.append(
+                        f"{item_name} duplicates a filename from correlations[{previous_group}]"
+                    )
+                else:
+                    seen_filenames[normalized_filename] = index
+                normalized.append(normalized_filename)
+            if len(normalized) != len(set(normalized)):
+                errors.append(f"{field_name} must contain unique filenames")
+            normalized_groups.append(normalized)
+        if normalized_groups != sorted(normalized_groups):
+            errors.append("correlations must be sorted by filename group")
+        return errors
     if name == "audio-filename-overrides.json":
         return _audio_override_errors(value)
     if name == "source-lock.json":
@@ -1606,6 +1657,34 @@ class ContentSyncPlanner:
             plan.errors.append("Voice-line history has no configured officialVersions array.")
             return
 
+        correlations_path = (
+            self.repo / "config" / self.game / "voice-line-history-correlations.json"
+        )
+        manual_correlations: list[list[str]] = []
+        manual_correlation_sha256: str | None = None
+        if correlations_path.is_file():
+            try:
+                correlations_value = json.loads(
+                    correlations_path.read_text(encoding="utf-8-sig")
+                )
+            except (OSError, json.JSONDecodeError) as exc:
+                plan.errors.append(f"Could not read {correlations_path}: {exc}")
+                return
+            correlations = (
+                correlations_value.get("correlations")
+                if isinstance(correlations_value, dict)
+                else None
+            )
+            if not isinstance(correlations, list):
+                plan.errors.append(
+                    "Voice-line history correlations has no correlations array."
+                )
+                return
+            manual_correlations = correlations
+            manual_correlation_sha256 = sha256_bytes(
+                canonical_json(correlations_value)
+            )
+
         published_official_ids = {
             version_id
             for version_id, entry in version_entries.items()
@@ -1700,7 +1779,11 @@ class ContentSyncPlanner:
 
         try:
             official_catalogs = list(catalog_inputs())
-            history = build_history(official_catalogs, transcript_states)
+            history = build_history(
+                official_catalogs,
+                transcript_states,
+                manual_correlations,
+            )
             search = build_search_index(
                 [
                     SearchCatalog(
@@ -1714,6 +1797,7 @@ class ContentSyncPlanner:
                 ],
                 self.game,
                 transcript_states,
+                manual_correlations,
             )
         except (ContentSyncError, VoiceLineHistoryError, VoiceLineSearchError) as exc:
             plan.errors.append(str(exc))
@@ -1815,11 +1899,16 @@ class ContentSyncPlanner:
             "schemaVersion": HISTORY_SCHEMA_VERSION,
             "game": self.game,
             "identity": "transitive-audio-sha256-lineage",
+            "lineageSources": [
+                "audio-sha256",
+                *(["manual-correlations"] if manual_correlations else []),
+            ],
             "lookupIdentity": "normalized-filename",
             "shardAlgorithm": "sha256-first-byte",
             "shardCount": SHARD_COUNT,
             "sourceTranscriptCommit": target_commit,
             "catalogFingerprint": history.catalog_fingerprint,
+            "manualCorrelationGroups": len(manual_correlations),
             "versions": history.versions,
             "historyLines": history.history_lines,
             "lineageCount": history.lineages,
@@ -1833,6 +1922,8 @@ class ContentSyncPlanner:
             "presence": presence_reference,
             "transcriptDifferences": transcript_differences_reference,
         }
+        if manual_correlation_sha256 is not None:
+            desired_core["manualCorrelationSha256"] = manual_correlation_sha256
         current_core = None
         if current.value is not None:
             current_core = {
@@ -1869,6 +1960,7 @@ class ContentSyncPlanner:
             "versions": len(history.versions),
             "lines": history.history_lines,
             "lineages": history.lineages,
+            "manualCorrelationGroups": len(manual_correlations),
             "aliasedLineages": history.aliased_lineages,
             "branchedLineages": history.branched_lineages,
             "transcriptDifferenceLines": history.transcript_difference_lines,

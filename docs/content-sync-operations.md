@@ -114,3 +114,9 @@ first, publish the version as hidden, run the two history modes, verify the exac
 voice-line and conversation catalog hashes in the public history manifest, and only
 then promote the version. Do not
 run the Historical Content desktop publisher concurrently with this workflow.
+
+Reviewed filename lineage overrides live in
+`config/deadlock/voice-line-history-correlations.json`. A change to that file is
+a history-pipeline input: review the filename groups, run `history-dry-run`, then
+run `history-reconcile`. The reconciliation rebuilds history shards and the
+site-wide search index from the same manual lineage edges.

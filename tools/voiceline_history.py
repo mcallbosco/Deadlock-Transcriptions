@@ -14,6 +14,7 @@ AUDIO_KEY_RE = re.compile(
     r"(?:^|/)sha256/[0-9a-f]{2}/(?P<sha>[0-9a-f]{64})\.mp3$"
 )
 HISTORY_CONFIG_SCHEMA_VERSION = 1
+HISTORY_CORRELATIONS_SCHEMA_VERSION = 1
 HISTORY_INDEX_SCHEMA_VERSION = 1
 HISTORY_SCHEMA_VERSION = 2
 SHARD_COUNT = 256
@@ -239,8 +240,13 @@ class _FilenameComponents:
 
 def build_filename_lineages(
     filenames_by_sha: Mapping[str, Iterable[str]],
+    manual_correlations: Iterable[Iterable[str]] = (),
 ) -> dict[str, str]:
-    """Return the deterministic transitive recording lineage for each filename."""
+    """Return the deterministic transitive recording lineage for each filename.
+
+    Shared audio creates the automatic edges. Reviewed manual groups add edges
+    for renamed files whose recordings changed, including simultaneous variants.
+    """
     filenames = sorted(
         {
             normalize_filename(filename)
@@ -260,12 +266,37 @@ def build_filename_lineages(
         )
         for filename in ordered[1:]:
             components.union(ordered[0], filename)
+    known_filenames = set(filenames)
+    for index, values in enumerate(manual_correlations):
+        if isinstance(values, (str, bytes)):
+            raise VoiceLineHistoryError(
+                f"Manual correlation group {index} must be an array of filenames."
+            )
+        raw_values = list(values)
+        if any(not isinstance(value, str) for value in raw_values):
+            raise VoiceLineHistoryError(
+                f"Manual correlation group {index} must contain only filenames."
+            )
+        ordered = sorted({normalize_filename(value) for value in raw_values})
+        if len(ordered) < 2:
+            raise VoiceLineHistoryError(
+                f"Manual correlation group {index} must contain at least two unique filenames."
+            )
+        unknown = sorted(set(ordered) - known_filenames)
+        if unknown:
+            raise VoiceLineHistoryError(
+                f"Manual correlation group {index} references filenames absent from all "
+                f"official catalogs: {', '.join(unknown)}"
+            )
+        for filename in ordered[1:]:
+            components.union(ordered[0], filename)
     return {filename: components.find(filename) for filename in filenames}
 
 
 def build_history(
     catalogs: Iterable[OfficialCatalog],
     transcript_states: Mapping[str, tuple[str, bool]],
+    manual_correlations: Iterable[Iterable[str]] = (),
 ) -> HistoryBuild:
     versions: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
@@ -297,7 +328,7 @@ def build_history(
     for filename, occurrences in occurrences_by_filename.items():
         for occurrence in occurrences:
             filenames_by_sha.setdefault(occurrence.audio_sha256, set()).add(filename)
-    components = build_filename_lineages(filenames_by_sha)
+    components = build_filename_lineages(filenames_by_sha, manual_correlations)
 
     occurrences_by_component: dict[str, list[_Occurrence]] = {}
     aliases_by_component: dict[str, list[str]] = {}
@@ -411,6 +442,7 @@ def build_history(
 __all__ = [
     "HISTORY_SCHEMA_VERSION",
     "HISTORY_CONFIG_SCHEMA_VERSION",
+    "HISTORY_CORRELATIONS_SCHEMA_VERSION",
     "HISTORY_INDEX_SCHEMA_VERSION",
     "MULTIPLE_EVENTS_CRITERION",
     "TRANSCRIPT_DIFFERENCES_CRITERION",

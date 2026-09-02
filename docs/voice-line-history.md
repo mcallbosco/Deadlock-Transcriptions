@@ -16,12 +16,22 @@ The generator joins three authoritative inputs:
 chronology from oldest to newest. Hidden official versions participate. Entries
 whose root-manifest `kind` is `custom` never participate.
 
+`config/deadlock/voice-line-history-correlations.json` contains reviewed groups
+of normalized filenames that belong to the same permanent lineage even when
+their audio SHA-256 values never match. Each group is an array of two or more
+filenames. Groups are unordered and transitive; no ID, direction, reason, or
+explicit canonical filename is required. Every configured filename must exist
+in at least one official catalog. A filename may appear in only one manual
+group.
+
 History lookup identity remains the normalized full filename: trimmed,
 slash-normalized, and case-folded. History itself uses permanent, transitive
 recording lineages. If two filenames contain the same audio SHA-256 in any
 official version, they are aliases in one lineage forever. If A shares a hash
 with B and B later shares another hash with C, all three filenames belong to the
-same lineage. The complete lineage is published below every alias lookup key.
+same lineage. Reviewed correlation groups add equivalent lineage edges for
+renames accompanied by changed recordings. The complete lineage is published
+below every alias lookup key.
 
 Each lineage has a deterministic `lineageId`, an earliest-observed
 `canonicalFilename`, and a sorted `aliases` array. The canonical filename is a
@@ -35,6 +45,10 @@ it. A filename change therefore remains visible even when the audio SHA does
 not change. If aliases that once shared a recording later diverge, the lineage
 remains intact and the period contains parallel variants. Absence from an
 official version breaks a period.
+
+Manually connected filenames may coexist in one official version. Different
+audio hashes remain separate variants within that version; manual correlation
+does not discard or choose between recordings.
 
 `hasTranscriptDifferences` compares exact transcription text across the whole
 lineage. Filename-only renames, audio changes with identical text, and changes
@@ -72,6 +86,10 @@ entries. `lineageCount` counts unique published lineages and
 version. `transcriptDifferenceLines` is the required `lineCount` of the
 alias-expanded schema-v1 `transcription-text-differences` filename index; its
 compiler should fail rather than publish an index with a different count.
+The backward-compatible `lineageSources` field identifies whether reviewed
+manual correlations participated. `manualCorrelationGroups` records the group
+count, and `manualCorrelationSha256` fingerprints the complete canonical config
+so a config-only change produces an auditable history-manifest revision.
 
 The manifest continues to reference the two schema-v1, content-addressed
 filename indexes used for cheap frontend eligibility checks:

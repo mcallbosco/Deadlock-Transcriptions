@@ -23,12 +23,14 @@ from tools.content_sync import (
     compact_json,
     deploy_plan,
     load_conflict_approvals,
+    sha256_bytes,
     validate_repository,
     verify_public_writes,
 )
 
 
 SHA = "a" * 64
+SHA_B = "b" * 64
 CDN = "https://cdn.example.test"
 
 
@@ -384,6 +386,94 @@ class ContentSyncTests(unittest.TestCase):
         self.assertTrue(second.deployable, second.to_markdown())
         self.assertEqual(second.writes, [])
 
+    def test_history_reconciliation_applies_manual_filename_correlations(self) -> None:
+        self.write_json(
+            self.repo / "transcripts" / "hero" / "old_line.mp3.json",
+            {
+                "schemaVersion": 3,
+                "filename": "hero/old_line.mp3",
+                "revisions": [
+                    {
+                        "sha256": [SHA_B],
+                        "text": "prototype text",
+                        "source": "official",
+                    }
+                ],
+            },
+            indent=2,
+        )
+        self.commit("add historical recording transcript")
+        correlation_base = self.git("rev-parse", "HEAD").strip()
+        self.enable_history("v0", "v1")
+        correlations = {
+            "schemaVersion": 1,
+            "correlations": [["hero/line.mp3", "hero/old_line.mp3"]],
+        }
+        self.write_json(
+            self.repo
+            / "config"
+            / "deadlock"
+            / "voice-line-history-correlations.json",
+            correlations,
+            indent=2,
+        )
+        self.commit("configure manual history correlation")
+        values = self.published()
+        values["deadlock/versions/v0/voicelines.json"] = {
+            "hero": {
+                "lines": [
+                    {
+                        "filename": "hero/old_line.mp3",
+                        "audioKey": f"sha256/{SHA_B[:2]}/{SHA_B}.mp3",
+                        "transcription": "prototype text",
+                        "officialtranscription": True,
+                    }
+                ]
+            }
+        }
+        values["deadlock/versions/v0/conversations.json"] = {"conversations": []}
+        values["deadlock/manifest.json"]["versions"].append(
+            {
+                "id": "v0",
+                "label": "Version 0",
+                "contentRevision": 1,
+                "voiceLineUrl": f"{CDN}/deadlock/versions/v0/voicelines.json",
+                "conversationUrl": f"{CDN}/deadlock/versions/v0/conversations.json",
+            }
+        )
+
+        plan = ContentSyncPlanner(
+            self.repo,
+            MemoryStore(values),
+            cdn_base_url=CDN,
+        ).build(base=correlation_base)
+
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertEqual(plan.history["manualCorrelationGroups"], 1)
+        self.assertEqual(plan.history["lineages"], 1)
+        self.assertEqual(plan.history["lines"], 2)
+        history_manifest = next(
+            write.value for write in plan.writes if write.phase == "history-manifest"
+        )
+        self.assertEqual(
+            history_manifest["lineageSources"],
+            ["audio-sha256", "manual-correlations"],
+        )
+        self.assertEqual(history_manifest["manualCorrelationGroups"], 1)
+        self.assertEqual(
+            history_manifest["manualCorrelationSha256"],
+            sha256_bytes(canonical_json(correlations)),
+        )
+        search = next(
+            write.value
+            for write in plan.writes
+            if "/search/voicelines/" in write.key
+        )
+        self.assertEqual(
+            search["lineageSources"],
+            ["audio-sha256", "manual-correlations"],
+        )
+
     @staticmethod
     def _walk(value: Any):
         from tools.content_sync import walk_audio_records
@@ -568,6 +658,29 @@ class ContentSyncTests(unittest.TestCase):
 
         self.assertFalse(report.valid)
         self.assertTrue(any("schemaVersion must be 3" in item for item in report.errors))
+
+    def test_validation_rejects_duplicate_manual_correlation_filenames(self) -> None:
+        self.write_json(
+            self.repo
+            / "config"
+            / "deadlock"
+            / "voice-line-history-correlations.json",
+            {
+                "schemaVersion": 1,
+                "correlations": [
+                    ["hero/first.mp3", "hero/shared.mp3"],
+                    ["hero/second.mp3", "hero/shared.mp3"],
+                ],
+            },
+            indent=2,
+        )
+
+        report = validate_repository(self.repo)
+
+        self.assertFalse(report.valid)
+        self.assertTrue(
+            any("duplicates a filename" in error for error in report.errors)
+        )
 
     def test_formatting_only_direct_config_change_is_source_noop(self) -> None:
         path = self.repo / "config" / "deadlock" / "versions" / "v1" / "character-names.json"

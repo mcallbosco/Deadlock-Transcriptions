@@ -300,6 +300,43 @@ class VoiceLineHistoryTests(unittest.TestCase):
             line["periods"][1]["variants"][0]["filenames"], ["hero/new.mp3"]
         )
 
+    def test_manual_correlation_joins_simultaneous_recording_variants(self) -> None:
+        result = build_history(
+            [
+                catalog(
+                    "v1",
+                    record("hero/atlas_line.mp3", SHA_A, "atlas"),
+                    record("hero/abrams_line.mp3", SHA_B, "abrams"),
+                ),
+                catalog("v2", record("hero/abrams_line.mp3", SHA_B, "abrams")),
+            ],
+            {
+                SHA_A: ("Prototype recording", False),
+                SHA_B: ("Current recording", True),
+            },
+            [["hero/atlas_line.mp3", "hero/abrams_line.mp3"]],
+        )
+
+        line = result.shards[history_shard("hero/atlas_line.mp3")]["lines"][
+            "hero/atlas_line.mp3"
+        ]
+        self.assertEqual(
+            line["aliases"],
+            ["hero/abrams_line.mp3", "hero/atlas_line.mp3"],
+        )
+        self.assertEqual(len(line["periods"]), 2)
+        self.assertEqual(len(line["periods"][0]["variants"]), 2)
+        self.assertEqual(result.lineages, 1)
+        self.assertEqual(result.branched_lineages, 1)
+
+    def test_manual_correlation_rejects_unknown_catalog_filename(self) -> None:
+        with self.assertRaisesRegex(VoiceLineHistoryError, "absent from all official"):
+            build_history(
+                [catalog("v1", record("hero/line.mp3", SHA_A))],
+                {SHA_A: ("Text", False)},
+                [["hero/line.mp3", "hero/missing.mp3"]],
+            )
+
     def test_duplicate_voiceline_ids_do_not_merge_different_filenames(self) -> None:
         result = build_history(
             [
