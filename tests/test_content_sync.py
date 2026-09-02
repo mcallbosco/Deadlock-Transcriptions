@@ -306,6 +306,29 @@ class ContentSyncTests(unittest.TestCase):
         self.assertEqual(history_manifest.value["transcriptDifferenceLines"], 0)
         self.assertEqual(history_manifest.value["maxAliasesPerLineage"], 1)
         self.assertEqual(history_manifest.value["maxVariantsPerPeriod"], 1)
+        transcript_lineage = next(
+            write
+            for write in plan.writes
+            if "/history/voicelines/lineages/" in write.key
+        )
+        self.assertRegex(
+            transcript_lineage.key,
+            r"^deadlock/history/voicelines/lineages/[0-9a-f]{64}\.json$",
+        )
+        self.assertEqual(transcript_lineage.value["schemaVersion"], 1)
+        transcript_lineages = history_manifest.value["transcriptLineages"]
+        self.assertEqual(transcript_lineages["schemaVersion"], 1)
+        self.assertEqual(
+            transcript_lineages["identity"],
+            "transitive-audio-sha256-lineage",
+        )
+        self.assertEqual(transcript_lineages["lookupIdentity"], "normalized-filename")
+        self.assertEqual(transcript_lineages["lineCount"], 1)
+        self.assertEqual(transcript_lineages["lineageCount"], 1)
+        self.assertEqual(
+            next(iter(transcript_lineages["shards"].values()))["url"],
+            f"{CDN}/{transcript_lineage.key}",
+        )
         self.assertEqual(shard.value["schemaVersion"], 2)
         self.assertEqual(
             next(iter(history_manifest.value["shards"].values()))["url"],
@@ -363,6 +386,7 @@ class ContentSyncTests(unittest.TestCase):
         self.assertEqual(
             [write.phase for write in plan.sorted_writes()],
             [
+                "history-content",
                 "history-content",
                 "history-content",
                 "history-content",

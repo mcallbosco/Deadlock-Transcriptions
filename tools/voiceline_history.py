@@ -17,6 +17,7 @@ HISTORY_CONFIG_SCHEMA_VERSION = 1
 HISTORY_CORRELATIONS_SCHEMA_VERSION = 1
 HISTORY_INDEX_SCHEMA_VERSION = 1
 HISTORY_SCHEMA_VERSION = 2
+TRANSCRIPT_LINEAGE_SCHEMA_VERSION = 1
 SHARD_COUNT = 256
 MULTIPLE_EVENTS_CRITERION = "multiple-events"
 TRANSCRIPT_DIFFERENCES_CRITERION = "transcription-text-differences"
@@ -42,6 +43,7 @@ class HistoryBuild:
     catalog_fingerprint: str
     versions: list[dict[str, Any]]
     shards: dict[str, dict[str, Any]]
+    transcript_lineages: dict[str, dict[str, Any]]
     presence: dict[str, Any]
     transcript_differences: dict[str, Any]
     history_lines: int
@@ -52,6 +54,8 @@ class HistoryBuild:
     transcript_difference_lines: int
     max_aliases_per_lineage: int
     max_variants_per_period: int
+    transcript_lineage_lines: int
+    transcript_lineages_count: int
 
 
 @dataclass(frozen=True)
@@ -337,6 +341,40 @@ def build_history(
         occurrences_by_component.setdefault(component, []).extend(occurrences)
         aliases_by_component.setdefault(component, []).append(filename)
 
+    # Transcript editing needs every official filename component, including
+    # components that exist in only one version and are therefore intentionally
+    # omitted from the rendered history timeline below.
+    transcript_lineage_lines_by_shard: dict[str, dict[str, Any]] = {}
+    for component in sorted(occurrences_by_component):
+        occurrences = occurrences_by_component[component]
+        aliases = sorted(aliases_by_component[component])
+        earliest_version = min(item.version_index for item in occurrences)
+        canonical_filename = min(
+            item.filename for item in occurrences if item.version_index == earliest_version
+        )
+        lineage_id = sha256_bytes(
+            f"voice-line-lineage-v2\0{canonical_filename}".encode("utf-8")
+        )
+        membership_sha256 = sha256_bytes(canonical_json(aliases))
+        line = {
+            "lineageId": lineage_id,
+            "membershipSha256": membership_sha256,
+            "canonicalFilename": canonical_filename,
+            "aliases": aliases,
+        }
+        for filename in aliases:
+            bucket = history_shard(filename)
+            transcript_lineage_lines_by_shard.setdefault(bucket, {})[filename] = line
+
+    transcript_lineages = {
+        bucket: {
+            "schemaVersion": TRANSCRIPT_LINEAGE_SCHEMA_VERSION,
+            "bucket": bucket,
+            "lines": lines,
+        }
+        for bucket, lines in sorted(transcript_lineage_lines_by_shard.items())
+    }
+
     lines_by_shard: dict[str, dict[str, Any]] = {}
     multiple_event_filenames: list[str] = []
     transcript_difference_filenames: list[str] = []
@@ -426,6 +464,7 @@ def build_history(
         catalog_fingerprint=fingerprint,
         versions=versions,
         shards=shards,
+        transcript_lineages=transcript_lineages,
         presence=presence,
         transcript_differences=transcript_differences,
         history_lines=sum(len(value["lines"]) for value in shards.values()),
@@ -436,6 +475,10 @@ def build_history(
         transcript_difference_lines=transcript_difference_lines,
         max_aliases_per_lineage=max_aliases_per_lineage,
         max_variants_per_period=max_variants_per_period,
+        transcript_lineage_lines=sum(
+            len(value["lines"]) for value in transcript_lineages.values()
+        ),
+        transcript_lineages_count=len(occurrences_by_component),
     )
 
 
@@ -446,6 +489,7 @@ __all__ = [
     "HISTORY_INDEX_SCHEMA_VERSION",
     "MULTIPLE_EVENTS_CRITERION",
     "TRANSCRIPT_DIFFERENCES_CRITERION",
+    "TRANSCRIPT_LINEAGE_SCHEMA_VERSION",
     "HistoryBuild",
     "OfficialCatalog",
     "SHARD_COUNT",

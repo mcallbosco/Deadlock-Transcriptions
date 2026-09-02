@@ -32,6 +32,7 @@ from .voiceline_history import (
     MULTIPLE_EVENTS_CRITERION,
     SHARD_COUNT,
     TRANSCRIPT_DIFFERENCES_CRITERION,
+    TRANSCRIPT_LINEAGE_SCHEMA_VERSION,
     OfficialCatalog,
     VoiceLineHistoryError,
     build_history,
@@ -1846,6 +1847,44 @@ class ContentSyncPlanner:
                 "lineCount": len(value["lines"]),
             }
 
+        current_transcript_lineages = (
+            current.value.get("transcriptLineages")
+            if current.value is not None
+            and isinstance(current.value.get("transcriptLineages"), dict)
+            else {}
+        )
+        referenced_transcript_lineage_hashes = {
+            reference["sha256"]
+            for reference in (
+                current_transcript_lineages.get("shards", {}).values()
+                if isinstance(current_transcript_lineages.get("shards"), dict)
+                else []
+            )
+            if isinstance(reference, dict) and isinstance(reference.get("sha256"), str)
+        }
+        transcript_lineage_shards: dict[str, dict[str, Any]] = {}
+        changed_transcript_lineage_shards = 0
+        for bucket, value in history.transcript_lineages.items():
+            body = canonical_json(value)
+            digest = sha256_bytes(body)
+            key = f"{self.game}/history/voicelines/lineages/{digest}.json"
+            if (
+                digest not in referenced_transcript_lineage_hashes
+                and self.add_immutable_write(
+                    plan,
+                    key,
+                    value,
+                    f"Publish immutable transcript-lineage lookup shard {bucket}",
+                )
+            ):
+                changed_transcript_lineage_shards += 1
+            transcript_lineage_shards[bucket] = {
+                "url": f"{self.cdn_base_url}/{key}",
+                "sha256": digest,
+                "bytes": len(body),
+                "lineCount": len(value["lines"]),
+            }
+
         def plan_index(
             manifest_key: str,
             directory: str,
@@ -1921,6 +1960,16 @@ class ContentSyncPlanner:
             "shards": shard_manifest,
             "presence": presence_reference,
             "transcriptDifferences": transcript_differences_reference,
+            "transcriptLineages": {
+                "schemaVersion": TRANSCRIPT_LINEAGE_SCHEMA_VERSION,
+                "identity": "transitive-audio-sha256-lineage",
+                "lookupIdentity": "normalized-filename",
+                "shardAlgorithm": "sha256-first-byte",
+                "shardCount": SHARD_COUNT,
+                "lineCount": history.transcript_lineage_lines,
+                "lineageCount": history.transcript_lineages_count,
+                "shards": transcript_lineage_shards,
+            },
         }
         if manual_correlation_sha256 is not None:
             desired_core["manualCorrelationSha256"] = manual_correlation_sha256
@@ -1971,6 +2020,9 @@ class ContentSyncPlanner:
             "changedShards": changed_shards,
             "presenceChanged": presence_changed,
             "transcriptDifferencesChanged": transcript_differences_changed,
+            "transcriptLineageLines": history.transcript_lineage_lines,
+            "transcriptLineages": history.transcript_lineages_count,
+            "changedTranscriptLineageShards": changed_transcript_lineage_shards,
             "manifestChanged": manifest_changed,
             "catalogFingerprint": history.catalog_fingerprint,
             "searchIndexUrl": search_url,
