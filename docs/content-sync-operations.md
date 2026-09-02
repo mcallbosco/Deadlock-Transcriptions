@@ -75,10 +75,9 @@ pinning all of its identity and state fields: version, object key, JSON path, re
 SHA-256, current published text/status, and desired published text/status. Any change to
 one of those fields remains a conflict; this is not a global force switch.
 
-Both pull-request planning and production deployment use
-`migration-reports/fuzzy-cdn-conflict-approvals.json` for the reviewed fuzzy-transcript
-migration. Once those records hold the desired state, the entries are harmless no-ops.
-Generate a reviewed set from a saved blocked plan with:
+Conflict approvals are exceptional, temporary inputs rather than a standing CI policy.
+The pull-request and production workflows do not load an approval file by default. If a
+reviewed recovery requires one, generate it from a saved blocked plan with:
 
 ```powershell
 python -m tools.create_content_sync_conflict_approvals `
@@ -87,6 +86,10 @@ python -m tools.create_content_sync_conflict_approvals `
   --expected-count <reviewed-count> `
   --source-run-url <github-actions-run-url>
 ```
+
+Pass the generated file explicitly with `--conflict-approvals` only for the reviewed
+recovery operation. Normal incremental planning and deployment must remain fail-closed
+when the live CDN differs from both the Git base and target states.
 
 Initialization refuses to run if the cursor already exists. A failed initialization is
 safe to rerun: desired-state objects become no-ops, metadata retains the target deployment
