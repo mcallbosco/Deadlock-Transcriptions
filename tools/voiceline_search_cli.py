@@ -96,6 +96,17 @@ def _catalogs(
     return result
 
 
+def _manual_correlations(repo: Path, game: str) -> list[list[str]]:
+    path = repo / "config" / game / "voice-line-history-correlations.json"
+    if not path.is_file():
+        return []
+    value = json.loads(path.read_text(encoding="utf-8-sig"))
+    correlations = value.get("correlations") if isinstance(value, dict) else None
+    if not isinstance(correlations, list):
+        raise ValueError(f"{path} has no correlations array")
+    return correlations
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", type=Path, default=Path.cwd())
@@ -122,6 +133,7 @@ def main(argv: list[str] | None = None) -> int:
         _catalogs(repo, args.game, args.manifest_url, cache_dir),
         args.game,
         transcript_states,
+        _manual_correlations(repo, args.game),
     )
     body = json.dumps(
         build.value,
