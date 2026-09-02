@@ -135,6 +135,28 @@ Both indexes are published as immutable objects before the mutable history
 manifest. Empty indexes are still published so consumers always receive the
 same schema-v1 contract.
 
+The same manifest also advertises `transcriptLineages`, a compact pre-filter
+for lineage-scoped transcript editing. Its immutable shards are published at:
+
+```text
+deadlock/history/voicelines/lineages/<sha256>.json
+```
+
+Every normalized filename maps to `lineageId`, `membershipSha256`,
+`canonicalFilename`, and the complete sorted `aliases` array. Unlike rendered
+history, this catalog includes components seen in only one official version;
+the editor must be able to discover all current related transcript documents
+even when there is no visible timeline event. `membershipSha256` is SHA-256 of
+the canonical pretty-printed aliases array and changes whenever the editing
+scope changes.
+
+The public transcript Worker resolves one filename through this lookup, then
+loads every transcript JSON document at the manifest's immutable
+`sourceTranscriptCommit`. The lookup remains a pre-filter rather than a second
+transcript store: transcript text and revision ownership continue to come from
+Git. Consumers must reject partial lineages and verify the advertised shard
+hash before presenting or accepting a multi-file edit.
+
 The game manifest advertises the optional capability through:
 
 ```json

@@ -203,6 +203,67 @@ class VoiceLineHistoryTests(unittest.TestCase):
         self.assertEqual(result.presence["lineCount"], 0)
         self.assertEqual(result.transcript_differences["filenames"], [])
         self.assertEqual(result.transcript_differences["lineCount"], 0)
+        self.assertEqual(result.transcript_lineages, {})
+        self.assertEqual(result.transcript_lineage_lines, 0)
+        self.assertEqual(result.transcript_lineages_count, 0)
+
+    def test_transcript_lineages_include_single_version_components(self) -> None:
+        aliases = ["hero/abrams_line.mp3", "hero/atlas_line.mp3"]
+        result = build_history(
+            [
+                catalog(
+                    "v1",
+                    record(aliases[0], SHA_A, "abrams"),
+                    record(aliases[1], SHA_B, "atlas"),
+                )
+            ],
+            {SHA_A: ("Current", True), SHA_B: ("Prototype", False)},
+            [aliases],
+        )
+
+        # A one-version component is not rendered as temporal history.
+        self.assertEqual(result.shards, {})
+        self.assertEqual(result.lineages, 0)
+
+        lines = [
+            result.transcript_lineages[history_shard(filename)]["lines"][filename]
+            for filename in aliases
+        ]
+        self.assertEqual(lines[0], lines[1])
+        self.assertEqual(lines[0]["aliases"], aliases)
+        self.assertEqual(lines[0]["canonicalFilename"], aliases[0])
+        self.assertRegex(lines[0]["lineageId"], r"^[0-9a-f]{64}$")
+        self.assertRegex(lines[0]["membershipSha256"], r"^[0-9a-f]{64}$")
+        self.assertEqual(result.transcript_lineage_lines, 2)
+        self.assertEqual(result.transcript_lineages_count, 1)
+
+    def test_membership_fingerprint_changes_when_an_alias_is_added(self) -> None:
+        first = build_history(
+            [catalog("v1", record("hero/alpha.mp3", SHA_A))],
+            {SHA_A: ("Text", False)},
+        )
+        second = build_history(
+            [
+                catalog(
+                    "v1",
+                    record("hero/alpha.mp3", SHA_A),
+                    record("hero/beta.mp3", SHA_B),
+                )
+            ],
+            {SHA_A: ("Text", False), SHA_B: ("Text", False)},
+            [["hero/alpha.mp3", "hero/beta.mp3"]],
+        )
+
+        first_line = first.transcript_lineages[history_shard("hero/alpha.mp3")][
+            "lines"
+        ]["hero/alpha.mp3"]
+        second_line = second.transcript_lineages[history_shard("hero/alpha.mp3")][
+            "lines"
+        ]["hero/alpha.mp3"]
+        self.assertEqual(first_line["lineageId"], second_line["lineageId"])
+        self.assertNotEqual(
+            first_line["membershipSha256"], second_line["membershipSha256"]
+        )
 
     def test_shared_recording_creates_permanent_transitive_lineage(self) -> None:
         result = build_history(
