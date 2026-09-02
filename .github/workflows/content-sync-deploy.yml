@@ -102,7 +102,6 @@ jobs:
             --bucket "$R2_BUCKET"
             --endpoint-url "$R2_ENDPOINT_URL"
             --cdn-base-url "$CDN_BASE_URL"
-            --conflict-approvals migration-reports/fuzzy-cdn-conflict-approvals.json
             --zone-id "$CLOUDFLARE_ZONE_ID"
             --backup-dir "$RUNNER_TEMP/content-sync/backups"
             --output-json "$RUNNER_TEMP/content-sync/deployment-plan.json"
