@@ -2,14 +2,15 @@
   "schemaVersion": 1,
   "applied": true,
   "statistics": {
-    "candidatePairs": 171,
-    "appliedPairs": 169,
+    "candidatePairs": 170,
+    "appliedPairs": 168,
     "skippedPairs": 2,
-    "targetRecordingHashes": 457,
-    "changedFiles": 285,
+    "targetRecordingHashes": 454,
+    "changedFiles": 260,
     "targetsBySource": {
-      "manual": 82,
-      "official": 375
+      "generated": 77,
+      "manual": 5,
+      "official": 372
     }
   },
   "operations": [
@@ -24,14 +25,16 @@
       "id": "f6920e2e4dc4eef8a946",
       "target": {
         "text": "Your brilliance has gotten you far in life, but you have enough humility to know there are some things beyond even your considerable ability. Summon me, Calico, and together we will do great things.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "2c182d6c38af515e3892",
       "target": {
         "text": "Hathorne's bloodline will pay for his sins. All you need to do is summon me.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -45,7 +48,8 @@
       "id": "a2a3a7a387470cdb573b",
       "target": {
         "text": "You built a life for yourself here in New York, Infernus, but it could be so much more.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -73,7 +77,8 @@
       "id": "a2cbd30dc097d60ec5c8",
       "target": {
         "text": "Takes more than that to stop me, Paradox.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -157,7 +162,8 @@
       "id": "079892bc524123649834",
       "target": {
         "text": "I don't have time to mess around with the ritual. Lives are at stake.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -192,14 +198,16 @@
       "id": "ce950e08c9b97e8d0931",
       "target": {
         "text": "Holliday's got 'em!",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "6dba1690162578ffaa02",
       "target": {
         "text": "Burn 'em down, Fern!",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -227,7 +235,8 @@
       "id": "08b927b5084491a36382",
       "target": {
         "text": "After we take their shrine, I'm buyin'.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -283,14 +292,16 @@
       "id": "cb3ead4fd24c8a45698a",
       "target": {
         "text": "There's a lot of 'em.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "69f1636012925b763560",
       "target": {
         "text": "Not sure I wanna take 'em all on.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -304,14 +315,16 @@
       "id": "04f185f604547da050df",
       "target": {
         "text": "No one's takin' this book from me.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "b7816a25f318771b3e41",
       "target": {
         "text": "I got better things to do than gettin' shot at.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -339,13 +352,6 @@
       "id": "6abbbd2171ff079bf107",
       "target": {
         "text": "I'll crash into 'em.",
-        "source": "official"
-      }
-    },
-    {
-      "id": "fbc97509d6b2bb89fbd3",
-      "target": {
-        "text": "time to punch the hell outta people…",
         "source": "official"
       }
     },
@@ -402,14 +408,16 @@
       "id": "25c3db4cc81955e66dbc",
       "target": {
         "text": "Time's wastin'. That was a little time joke. Not sure if you picked up on that.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "9f3814b2faa0b2aeb365",
       "target": {
         "text": "Time's wastin'. That was a little time joke. Not sure if you picked up on that.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -507,7 +515,8 @@
       "id": "5be7ca0609a77c3f19b5",
       "target": {
         "text": "Ooh, I love using this when they try to run away.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -598,7 +607,8 @@
       "id": "d03a8222ba243efa0e77",
       "target": {
         "text": "Give 'em hell, Shiv!",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -675,7 +685,8 @@
       "id": "92e5eefb3ef2dbdc586c",
       "target": {
         "text": "Oh dear, that's a lot of 'em.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -731,14 +742,16 @@
       "id": "af5cb94abf58f386f77f",
       "target": {
         "text": "I'm with ya, Haze!",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "2b7b87d7877416469e93",
       "target": {
         "text": "I'm with ya, Ivy.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -815,14 +828,16 @@
       "id": "2d017613e17477b725bd",
       "target": {
         "text": "Weapons testing's gonna have to wait.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "ca746088e64c6372104c",
       "target": {
         "text": "There'll be plenty of time for gray area weapons testing later.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-transcribe"
       }
     },
     {
@@ -878,7 +893,8 @@
       "id": "b84b839908813d6bbb58",
       "target": {
         "text": "Abrams is leading the charge!",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -892,7 +908,8 @@
       "id": "d8e3588933cfa2f712b7",
       "target": {
         "text": "If we don't come together, we're doomed.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -1067,7 +1084,8 @@
       "id": "ad718e14d7cef2a3222b",
       "target": {
         "text": "I'm surrounded by incompetence.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
@@ -1144,14 +1162,16 @@
       "id": "8e4e74e3385c8e97efaa",
       "target": {
         "text": "My father's gift for my 18th birthday was a bullet to the chest. Today's my chance to say thank you.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {
       "id": "005fd8eab75c9eddb47a",
       "target": {
         "text": "My father's gift for my 18th birthday was a bullet to the chest. Today's my chance to say thank you.",
-        "source": "manual"
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
       }
     },
     {

@@ -87,6 +87,7 @@ class PhoneticLineageMergeTests(unittest.TestCase):
                     "revisionIndex": 0,
                     "text": "Lives are at stake.",
                     "source": "generated",
+                    "model": "test-transcriber",
                     "sha256": ["3" * 64],
                 },
                 "right": {
@@ -94,6 +95,7 @@ class PhoneticLineageMergeTests(unittest.TestCase):
                     "revisionIndex": 0,
                     "text": "Lines are at stake.",
                     "source": "generated",
+                    "model": "test-transcriber",
                     "sha256": ["4" * 64],
                 },
             },

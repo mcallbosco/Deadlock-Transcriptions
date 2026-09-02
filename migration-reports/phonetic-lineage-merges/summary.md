@@ -7,10 +7,10 @@ from shared recording hashes and 11,519 reviewed manual correlation groups.
 | --- | ---: | --- |
 | Transcript files scanned | 98,944 | Complete repository |
 | Multi-file lineages | 13,013 | Shared-hash and manual edges are transitive |
-| Strong candidate pairs | 171 | 169 applied; 2 withheld after review |
-| Recording hashes reconciled | 457 | 375 official; 5 manual; 77 generated |
-| Transcript files changed | 285 | Every represented hash was preserved |
-| Lower-confidence candidate pairs | 4,594 | Report only; no transcript changes |
+| Strong candidate pairs | 170 | 168 applied; 2 withheld after review |
+| Recording hashes reconciled | 454 | 372 official; 5 manual; 77 generated |
+| Transcript files changed | 260 | Every represented hash was preserved |
+| Lower-confidence candidate pairs | 4,592 | Report only; no transcript changes |
 
 ## Review tables
 
