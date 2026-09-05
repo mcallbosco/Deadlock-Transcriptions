@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "applied": true,
+  "statistics": {
+    "reviewedCandidates": 53,
+    "approvedCandidates": 53,
+    "separateCandidates": 0,
+    "unsureCandidates": 0,
+    "mergedComponents": 31,
+    "restoredSeparateCandidates": 0,
+    "targetRecordingHashes": 116,
+    "changedFiles": 52,
+    "targetsBySource": {
+      "generated": 8,
+      "official": 108
+    }
+  },
+  "operations": [
+    {
+      "candidateIds": [
+        "023dfbd2ab4b8e0758b2",
+        "580be5850ee0122bd0fa",
+        "c214eaa6a194cafdbc80"
+      ],
+      "target": {
+        "text": "Abrams's on top of mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "023dfbd2ab4b8e0758b2",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 6
+    },
+    {
+      "candidateIds": [
+        "023e9197535baeedf20c"
+      ],
+      "target": {
+        "text": "Paradox was here.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "023e9197535baeedf20c",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "098067aa84209c63aab5"
+      ],
+      "target": {
+        "text": "Careful, Geist!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "098067aa84209c63aab5",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "1013ba44f75830410e2f",
+        "fb936249c9d2ff39e321"
+      ],
+      "target": {
+        "text": "Geist, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "fb936249c9d2ff39e321",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "10cf4d5ccd1090e16890",
+        "41a095967d057c28aac7"
+      ],
+      "target": {
+        "text": "Paradox's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "41a095967d057c28aac7",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "1600cbf7d7118aacb105",
+        "1cde5b78808a6a32ecd5",
+        "306fe3a9a2a0e0444435",
+        "c739d536e81a30f28b1f"
+      ],
+      "target": {
+        "text": "Let's take out Geist",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "1cde5b78808a6a32ecd5",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "179422473f9aa38eaa79"
+      ],
+      "target": {
+        "text": "Abrams's on top of mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "179422473f9aa38eaa79",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "27ba64d4d3b4cf4849ee"
+      ],
+      "target": {
+        "text": "Abrams's in mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "27ba64d4d3b4cf4849ee",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "313ab4b1609fb8f69648",
+        "95c29ccdbcc2ff0ce62f"
+      ],
+      "target": {
+        "text": "Geist, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "313ab4b1609fb8f69648",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "32fb9128fd41f219df91",
+        "8829b6b8b55c01b4a6ba"
+      ],
+      "target": {
+        "text": "Abrams's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8829b6b8b55c01b4a6ba",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 6
+    },
+    {
+      "candidateIds": [
+        "3799d46f2372f21486ce"
+      ],
+      "target": {
+        "text": "Paradox's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3799d46f2372f21486ce",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "3c6840b5c4630c9dbdd3"
+      ],
+      "target": {
+        "text": "Careful, Geist…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3c6840b5c4630c9dbdd3",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "3e4eebffd980a5a04356",
+        "e03e0ca1d1c54cef441f"
+      ],
+      "target": {
+        "text": "Paradox was here!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "3e4eebffd980a5a04356",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "70b66d978357f7ac059d",
+        "9a0e0808eb5fc532a3dd"
+      ],
+      "target": {
+        "text": "Abrams's on top of the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "70b66d978357f7ac059d",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 6
+    },
+    {
+      "candidateIds": [
+        "7dcbdb272137b7da4963"
+      ],
+      "target": {
+        "text": "Careful, Geist",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "7dcbdb272137b7da4963",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "85af891c1f41a6489160",
+        "d77327a8dc164b69fad0"
+      ],
+      "target": {
+        "text": "Paradox's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "d77327a8dc164b69fad0",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 6
+    },
+    {
+      "candidateIds": [
+        "893452631a87f5e47bf4",
+        "b2fc93ae7f99831e8a10"
+      ],
+      "target": {
+        "text": "Abrams's in mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "893452631a87f5e47bf4",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "893c7f82856857c291a0",
+        "b7da39952d87b542f6d9"
+      ],
+      "target": {
+        "text": "Careful, Geist…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b7da39952d87b542f6d9",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "8bed3da2952affa5c06e",
+        "e37a47860d4eb1b34ed6"
+      ],
+      "target": {
+        "text": "Careful, Geist…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e37a47860d4eb1b34ed6",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "997d8ecba4ff4d61e3f2",
+        "eda4b3f417420d6739d9"
+      ],
+      "target": {
+        "text": "Abrams's in mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "eda4b3f417420d6739d9",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "9bff8dfe12a39e3cda92",
+        "b5ad0d5acc402ab872b8"
+      ],
+      "target": {
+        "text": "Abrams's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9bff8dfe12a39e3cda92",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 6
+    },
+    {
+      "candidateIds": [
+        "9f96c311cd3a43d12837",
+        "e6152067b70bd3ba3ee9"
+      ],
+      "target": {
+        "text": "Paradox's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e6152067b70bd3ba3ee9",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 6
+    },
+    {
+      "candidateIds": [
+        "abb9ef20925a178dcaf7"
+      ],
+      "target": {
+        "text": "Careful, Geist",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "abb9ef20925a178dcaf7",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "ad488ec1162da8acee49",
+        "c9dd5648a011aa0adfc8",
+        "d8e2154e91a7ea4adf09"
+      ],
+      "target": {
+        "text": "Abrams's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "ad488ec1162da8acee49",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 5
+    },
+    {
+      "candidateIds": [
+        "b91ec1bfd2609bdac44b"
+      ],
+      "target": {
+        "text": "Paradox's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b91ec1bfd2609bdac44b",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "c276b83055f99367e65a"
+      ],
+      "target": {
+        "text": "Careful, Geist!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c276b83055f99367e65a",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "c70b749d2dd23331d705",
+        "eecc08c97c9c24224df8"
+      ],
+      "target": {
+        "text": "Careful, Geist!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c70b749d2dd23331d705",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "c7fa42135d819818f566",
+        "fc7d415d72aa9aef26de"
+      ],
+      "target": {
+        "text": "Abrams's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c7fa42135d819818f566",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "cdce37c2277037a26d1c"
+      ],
+      "target": {
+        "text": "Careful, Geist…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "cdce37c2277037a26d1c",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e0a5a7531696aa060c68"
+      ],
+      "target": {
+        "text": "Paradox's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e0a5a7531696aa060c68",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "fcfd081b6f30c2e91695"
+      ],
+      "target": {
+        "text": "Paradox's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "fcfd081b6f30c2e91695",
+      "reviewedAt": "2026-09-05T03:00:00.000Z",
+      "recordingHashes": 3
+    }
+  ],
+  "restoredSeparateCandidateIds": []
+}
