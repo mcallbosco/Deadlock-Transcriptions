@@ -46,6 +46,13 @@ generation, deployment dependencies, or the deployment workflow also trigger a p
 content sync. This ensures publisher-only fixes take effect without requiring an unrelated
 transcript edit.
 
+Every sync also checks the published mutable JSON across manifest versions and
+automatically minifies formatted files, including files with no transcript edits.
+These corrections use the normal publication flow and advance the affected version's
+content revision; inventories and hashes describe the compact bytes. Already compact,
+unchanged files are skipped. Editable source files and immutable history objects retain
+their existing formatting.
+
 For a local validation or credential-free incremental plan:
 
 ```powershell

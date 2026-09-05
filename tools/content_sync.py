@@ -1502,7 +1502,7 @@ class ContentSyncPlanner:
         public: bool = True,
     ) -> None:
         current = self.load(key)
-        if current.value == value:
+        if current.value == value and current.body == compact_json(value):
             return
         existing = next((item for item in plan.writes if item.key == key), None)
         if existing:
@@ -1518,9 +1518,88 @@ class ContentSyncPlanner:
                 phase=phase,
                 reason=reason,
                 public=public,
-                previous_value=json_copy(current.value),
+                compact=True,
+                previous_value=current.value,
             )
         )
+
+    def _minify_published_json(self, plan: SyncPlan, key: str, phase: str) -> bytes | None:
+        existing = next((item for item in plan.writes if item.key == key), None)
+        if existing:
+            return existing.body()
+        stored = self.load(key)
+        if stored.value is None:
+            plan.errors.append(f"Published object does not exist: {key}")
+            return None
+        self.add_write(plan, key, stored.value, phase, "Minify published JSON")
+        return compact_json(stored.value)
+
+    def _plan_json_minification(
+        self,
+        plan: SyncPlan,
+        manifest: dict[str, Any],
+        version_entries: dict[str, dict[str, Any]],
+        logical_version_keys: dict[str, set[str]],
+    ) -> None:
+        for field in ("defaultCategoriesUrl", "characterNamesUrl"):
+            if url := manifest.get(field):
+                self._minify_published_json(plan, key_from_url(url, self.cdn_base_url), "content")
+
+        for version_id, entry in version_entries.items():
+            prefix = f"{self.game}/versions/{version_id}"
+            inventory_key = f"{prefix}/publish-inventory.json"
+            release_key = f"{prefix}/release.json"
+            for key in (inventory_key, release_key):
+                self._minify_published_json(plan, key, "metadata")
+            inventory = self.load(inventory_key).value
+            release = self.load(release_key).value
+            if inventory is None or release is None:
+                continue
+            files = inventory.get("files")
+            if not isinstance(files, dict):
+                plan.errors.append(f"Version {version_id} inventory has no files object.")
+                continue
+            keys = {
+                f"{prefix}/{name}"
+                for name, info in files.items()
+                if name.endswith(".json") and isinstance(info, dict) and info.get("mutable") is True
+            }
+            for field in ("voiceLineUrl", "conversationUrl", "categoriesUrl", "characterNamesUrl"):
+                if url := entry.get(field):
+                    keys.add(key_from_url(url, self.cdn_base_url))
+            for key in sorted(keys):
+                try:
+                    relative = PurePosixPath(key).relative_to(prefix).as_posix()
+                except ValueError:
+                    plan.errors.append(f"Content key is outside version {version_id}: {key}")
+                    continue
+                if ".." in PurePosixPath(relative).parts or key in (inventory_key, release_key):
+                    plan.errors.append(f"Invalid content inventory key: {key}")
+                    continue
+                body = self._minify_published_json(plan, key, "content")
+                if body is None:
+                    continue
+                info = files.get(relative)
+                if not isinstance(info, dict):
+                    info = {}
+                # Comparing inventory bytes also resumes a run interrupted after a content upload.
+                if (
+                    any(write.key == key for write in plan.writes)
+                    or info.get("size") != len(body)
+                    or info.get("sha256") != sha256_bytes(body)
+                ):
+                    logical_version_keys.setdefault(version_id, set()).add(key)
+
+            metadata_changed = any(
+                write.key in (inventory_key, release_key) for write in plan.writes
+            )
+            # Metadata may already be compact after an interrupted publication.
+            pending_revision = any(
+                item.get("contentRevision", 0) != entry.get("contentRevision", 0)
+                for item in (inventory, release)
+            )
+            if metadata_changed or pending_revision:
+                logical_version_keys.setdefault(version_id, set())
 
     def add_immutable_write(
         self,
@@ -1980,7 +2059,9 @@ class ContentSyncPlanner:
                 for key, value in current.value.items()
                 if key not in {"contentRevision", "updatedAt"}
             }
-        manifest_changed = current_core != desired_core
+        manifest_changed = current_core != desired_core or (
+            current.value is not None and current.body != compact_json(current.value)
+        )
         if manifest_changed:
             current_revision = 0
             if current.value is not None:
@@ -2273,6 +2354,8 @@ class ContentSyncPlanner:
                 else:
                     manifest["characterNamesUrl"] = f"{self.cdn_base_url}/{key}"
 
+        self._plan_json_minification(plan, manifest, version_entries, logical_version_keys)
+
         if plan.conflict_count or plan.errors:
             plan.affected_versions = sorted(logical_version_keys)
             return self.finish(plan)
@@ -2429,14 +2512,13 @@ class ContentSyncPlanner:
         )
         if public_changes:
             manifest["updatedAt"] = timestamp
-        if manifest != manifest_stored.value:
-            self.add_write(
-                plan,
-                manifest_key,
-                manifest,
-                "manifest",
-                "Publish the game manifest after all version content and metadata",
-            )
+        self.add_write(
+            plan,
+            manifest_key,
+            manifest,
+            "manifest",
+            "Publish the game manifest after all version content and metadata",
+        )
         return self.finish(plan)
 
 
@@ -2485,6 +2567,9 @@ def verify_public_writes(
             if observed.value != write.value:
                 failures.append(write)
                 last_errors[write.key] = "public JSON does not match the planned value"
+            elif write.compact and observed.body != write.body():
+                failures.append(write)
+                last_errors[write.key] = "public JSON does not match the planned compact bytes"
             else:
                 last_errors.pop(write.key, None)
         if not failures:
