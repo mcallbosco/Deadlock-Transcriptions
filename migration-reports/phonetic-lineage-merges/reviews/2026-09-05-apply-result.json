@@ -1,0 +1,3100 @@
+{
+  "schemaVersion": 1,
+  "applied": true,
+  "statistics": {
+    "reviewedCandidates": 424,
+    "approvedCandidates": 291,
+    "separateCandidates": 133,
+    "unsureCandidates": 0,
+    "mergedComponents": 247,
+    "restoredSeparateCandidates": 0,
+    "targetRecordingHashes": 505,
+    "changedFiles": 347,
+    "targetsBySource": {
+      "generated": 144,
+      "official": 361
+    }
+  },
+  "operations": [
+    {
+      "candidateIds": [
+        "00279e4e84fddd076fc7"
+      ],
+      "target": {
+        "text": "Dick.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "00279e4e84fddd076fc7",
+      "reviewedAt": "2026-09-05T02:30:14.637Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "00c5b40f5105b0f9f43f"
+      ],
+      "target": {
+        "text": "I'll drag 'em into the fight….",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "00c5b40f5105b0f9f43f",
+      "reviewedAt": "2026-09-05T02:33:38.045Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "018765c7f055f1af886f"
+      ],
+      "target": {
+        "text": "Glad that went my way, Molemen are no joke.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "018765c7f055f1af886f",
+      "reviewedAt": "2026-09-05T02:30:05.957Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "020655f987ef08b6bbd6"
+      ],
+      "target": {
+        "text": "Abrams made his move!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "020655f987ef08b6bbd6",
+      "reviewedAt": "2026-09-03T11:45:07.766Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "02333cbada32ddedebcc"
+      ],
+      "target": {
+        "text": "Gonna go in there and give 'em hell…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "02333cbada32ddedebcc",
+      "reviewedAt": "2026-09-05T02:32:50.886Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "02594a718c2c9aa1396b"
+      ],
+      "target": {
+        "text": "Fairfax, I can heal you!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "02594a718c2c9aa1396b",
+      "reviewedAt": "2026-09-05T02:36:38.669Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "029beef710ce2ac25766"
+      ],
+      "target": {
+        "text": "Careful, Krill!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "029beef710ce2ac25766",
+      "reviewedAt": "2026-09-05T02:38:12.882Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "03856859a946b490fb1a"
+      ],
+      "target": {
+        "text": "You belong in jail, Calico, but I'll settle for you in the dirt…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "03856859a946b490fb1a",
+      "reviewedAt": "2026-09-05T02:30:30.774Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "03dc972c4c8d6b7abf9c"
+      ],
+      "target": {
+        "text": "You failed, Yamato.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "03dc972c4c8d6b7abf9c",
+      "reviewedAt": "2026-09-05T02:30:49.537Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "04167c9997590d59fdea"
+      ],
+      "target": {
+        "text": "God I hope this is a good idea…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "04167c9997590d59fdea",
+      "reviewedAt": "2026-09-03T11:48:20.47Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "0420855fc0be6284b778"
+      ],
+      "target": {
+        "text": "They took out Haze",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "0420855fc0be6284b778",
+      "reviewedAt": "2026-09-03T11:46:26.129Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "04843d9eed868c45b11f"
+      ],
+      "target": {
+        "text": "Never shoulda come after me Haze",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "04843d9eed868c45b11f",
+      "reviewedAt": "2026-09-05T02:29:53.952Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "05a26eb559680acc9acf"
+      ],
+      "target": {
+        "text": "Can't wait to play with these…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "05a26eb559680acc9acf",
+      "reviewedAt": "2026-09-05T02:32:44.712Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "06012f62a2709817d59c",
+        "973368372d31ed0df1ce",
+        "ab9c1f0a9efa47a02a7e",
+        "cf515e5145251411bb7b"
+      ],
+      "target": {
+        "text": "Careful, Pocket…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "06012f62a2709817d59c",
+      "reviewedAt": "2026-09-05T02:37:52.559Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "0c17bc418b5bb2cc8931"
+      ],
+      "target": {
+        "text": "Careful, Shiv",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "0c17bc418b5bb2cc8931",
+      "reviewedAt": "2026-09-05T02:38:28.395Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "0e8313d53df490051892",
+        "38e4547147714ac946d9"
+      ],
+      "target": {
+        "text": "Careful, Infernus",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "0e8313d53df490051892",
+      "reviewedAt": "2026-09-05T02:38:11.671Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1040734ba3e603bc69f6"
+      ],
+      "target": {
+        "text": "A little humility'll do him good…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "1040734ba3e603bc69f6",
+      "reviewedAt": "2026-09-05T02:30:10.511Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "108805af2955bd40cfda",
+        "d11a80039cf722ada6ef"
+      ],
+      "target": {
+        "text": "Paradox's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "108805af2955bd40cfda",
+      "reviewedAt": "2026-09-05T02:38:43.92Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "11252f935e3e47cd6319"
+      ],
+      "target": {
+        "text": "Setting barrel…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "11252f935e3e47cd6319",
+      "reviewedAt": "2026-09-03T11:48:16.856Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "11cdbc3c4e933d6c3b73"
+      ],
+      "target": {
+        "text": "I'll take em down!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "11cdbc3c4e933d6c3b73",
+      "reviewedAt": "2026-09-05T02:34:39.145Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "12ac28d83b85e93f0ceb",
+        "33d8b5f126e30926227c"
+      ],
+      "target": {
+        "text": "Paradox's in mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "12ac28d83b85e93f0ceb",
+      "reviewedAt": "2026-09-05T02:38:37.414Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1712e7f0723505d871a1"
+      ],
+      "target": {
+        "text": "…and I thought I was out of place in New York…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "1712e7f0723505d871a1",
+      "reviewedAt": "2026-09-05T02:29:58.042Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "179b69bc80b7cad90e29"
+      ],
+      "target": {
+        "text": "vindicta, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "179b69bc80b7cad90e29",
+      "reviewedAt": "2026-09-03T11:39:18.418Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1810de0a5815f7f2857e",
+        "b8b123a4c2aa92cfa8be"
+      ],
+      "target": {
+        "text": "Careful, Geist…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b8b123a4c2aa92cfa8be",
+      "reviewedAt": "2026-09-05T02:37:59.152Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "196a7facf5ee1ddf3c1b",
+        "8bb5ab3b1072ec28e22c"
+      ],
+      "target": {
+        "text": "Stay away from me Geist!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8bb5ab3b1072ec28e22c",
+      "reviewedAt": "2026-09-05T02:29:46.187Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "19bc95b51ef6cc092865"
+      ],
+      "target": {
+        "text": "Let's take out Sandeep!",
+        "source": "generated",
+        "model": "gpt-transcribe"
+      },
+      "selectedByLatestCandidate": "19bc95b51ef6cc092865",
+      "reviewedAt": "2026-09-05T02:36:03.109Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1a72eede9f8259357aa1"
+      ],
+      "target": {
+        "text": "Alrightalright…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "1a72eede9f8259357aa1",
+      "reviewedAt": "2026-09-03T11:48:13.872Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1b4087c22aef6df98f0f"
+      ],
+      "target": {
+        "text": "Either they'll get scared and run away, or they'll stay and be in a world of pain.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "1b4087c22aef6df98f0f",
+      "reviewedAt": "2026-09-05T02:33:27.601Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1bfd19ebfd866548b7d3",
+        "60a450407c8cd8b48634"
+      ],
+      "target": {
+        "text": "Abrams's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "1bfd19ebfd866548b7d3",
+      "reviewedAt": "2026-09-05T02:35:22.429Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1e428795fc0c6174c2d4",
+        "b793b154c939dc1366b5"
+      ],
+      "target": {
+        "text": "You're no better than The Troubador, Geist…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "1e428795fc0c6174c2d4",
+      "reviewedAt": "2026-09-05T02:29:44.417Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "1fbf449c4a0c66f4cc11"
+      ],
+      "target": {
+        "text": "Take out that sniper!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "1fbf449c4a0c66f4cc11",
+      "reviewedAt": "2026-09-03T11:43:42.69Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "202d204c533504738727"
+      ],
+      "target": {
+        "text": "Now that was satisfying!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "202d204c533504738727",
+      "reviewedAt": "2026-09-05T02:27:19.536Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "21587b63ebaffd3c41f3"
+      ],
+      "target": {
+        "text": "I'm draggin' em!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "21587b63ebaffd3c41f3",
+      "reviewedAt": "2026-09-05T02:34:43.892Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2298bd1f178b9917f4ac"
+      ],
+      "target": {
+        "text": "We could have worked together Warden…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "2298bd1f178b9917f4ac",
+      "reviewedAt": "2026-09-05T02:30:43.281Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2327b3ddfd3882702bda",
+        "7230430b2ba4486e353c"
+      ],
+      "target": {
+        "text": "Careful, Geist!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "2327b3ddfd3882702bda",
+      "reviewedAt": "2026-09-05T02:38:03.648Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "25c0df0f4715aa4df9e8"
+      ],
+      "target": {
+        "text": "Hathorne's bloodline will pay for his sins. All you need to do is summon me.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "25c0df0f4715aa4df9e8",
+      "reviewedAt": "2026-09-03T11:41:18.825Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "25e323f4ee9058564b48",
+        "cfea9a5e0118d5968ff7"
+      ],
+      "target": {
+        "text": "Careful, McGinnis",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "cfea9a5e0118d5968ff7",
+      "reviewedAt": "2026-09-05T02:37:57.285Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "26d44b5d83ee5c3f409a"
+      ],
+      "target": {
+        "text": "I've gotten out of worse spots.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "26d44b5d83ee5c3f409a",
+      "reviewedAt": "2026-09-03T11:48:05.116Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "274f83dff79ce993c054"
+      ],
+      "target": {
+        "text": "I can get some new items…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "274f83dff79ce993c054",
+      "reviewedAt": "2026-09-05T02:32:17.144Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "275afa664bf062da8043"
+      ],
+      "target": {
+        "text": "Crawl back to whatever hole you were hiding in Paradox…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "275afa664bf062da8043",
+      "reviewedAt": "2026-09-05T02:29:04.911Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2784206d1d16636fa18f"
+      ],
+      "target": {
+        "text": "How's the big guy?",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "2784206d1d16636fa18f",
+      "reviewedAt": "2026-09-03T11:48:35.56Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2887682e6c9337220a5b",
+        "5e73a32cdbd8ecc11657"
+      ],
+      "target": {
+        "text": "Paradox was here!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "2887682e6c9337220a5b",
+      "reviewedAt": "2026-09-05T02:38:48.736Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "289ca4b49806b293c062"
+      ],
+      "target": {
+        "text": "Took out Viscous",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "289ca4b49806b293c062",
+      "reviewedAt": "2026-09-05T02:30:42.134Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "29c5dabfde5703047524"
+      ],
+      "target": {
+        "text": "Nice teamwork!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "29c5dabfde5703047524",
+      "reviewedAt": "2026-09-03T11:48:08.161Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2a49658ca242ce1eed35"
+      ],
+      "target": {
+        "text": "Get back here Ivy…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "2a49658ca242ce1eed35",
+      "reviewedAt": "2026-09-05T02:27:47.596Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2b46c1b3112578b8621b"
+      ],
+      "target": {
+        "text": "The spearjack could be worth a lot.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "2b46c1b3112578b8621b",
+      "reviewedAt": "2026-09-05T02:28:39.474Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2c0dcda77bcb05834406"
+      ],
+      "target": {
+        "text": "I got 'em!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "2c0dcda77bcb05834406",
+      "reviewedAt": "2026-09-05T02:34:40.969Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2cf91b7c6480cf143163"
+      ],
+      "target": {
+        "text": "Is this how it ends?",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "2cf91b7c6480cf143163",
+      "reviewedAt": "2026-09-05T02:31:50.357Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2d1b08cd044262b172fc"
+      ],
+      "target": {
+        "text": "Stop, Vindicta.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "2d1b08cd044262b172fc",
+      "reviewedAt": "2026-09-03T11:39:24.172Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2e9e7f9e256083863ffd",
+        "71ca7dc7505c7f208bfd"
+      ],
+      "target": {
+        "text": "Careful, Infernus…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "71ca7dc7505c7f208bfd",
+      "reviewedAt": "2026-09-05T02:38:09.857Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2f10e73f9ba8d9079445"
+      ],
+      "target": {
+        "text": "Stopped Lash!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "2f10e73f9ba8d9079445",
+      "reviewedAt": "2026-09-05T02:30:07.246Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2f41483e820fcab77198"
+      ],
+      "target": {
+        "text": "Sheriff's not just a fancy title: I know how to back it up.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "2f41483e820fcab77198",
+      "reviewedAt": "2026-09-05T02:33:33.703Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "2ff3ea846bda77dd5b23",
+        "5c902b7d13c6b1cb868f",
+        "6cfff3f1510d7ec24ab3",
+        "b3e7a96a9e68ad09f2d9"
+      ],
+      "target": {
+        "text": "You're never completing the ritual pocket",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "2ff3ea846bda77dd5b23",
+      "reviewedAt": "2026-09-05T02:29:36.205Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "32e01208543a1e9f3f12"
+      ],
+      "target": {
+        "text": "Justice isn't always swift, but it comes for everyone.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "32e01208543a1e9f3f12",
+      "reviewedAt": "2026-09-05T02:32:01.854Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "332c5840a2a418b5bddc"
+      ],
+      "target": {
+        "text": "Maybe I should get back to the others…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "332c5840a2a418b5bddc",
+      "reviewedAt": "2026-09-03T11:47:56.094Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3402e355ae7a78d21c17"
+      ],
+      "target": {
+        "text": "Take 'em out before they escape!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3402e355ae7a78d21c17",
+      "reviewedAt": "2026-09-05T02:34:44.689Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "35366245dcb5933acac8",
+        "865a794ece00d35386b1"
+      ],
+      "target": {
+        "text": "Let's take out Infernus",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "865a794ece00d35386b1",
+      "reviewedAt": "2026-09-05T02:35:56.217Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "3632ff89d3893c71dc74"
+      ],
+      "target": {
+        "text": "Metal skin!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3632ff89d3893c71dc74",
+      "reviewedAt": "2026-09-05T02:33:54.344Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3786b4279c6f909f85ba"
+      ],
+      "target": {
+        "text": "At this rate, this case is never going to get solved.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "3786b4279c6f909f85ba",
+      "reviewedAt": "2026-09-05T02:32:34.788Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "38247b0ae6463463d2d4"
+      ],
+      "target": {
+        "text": "High risk, high reward…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "38247b0ae6463463d2d4",
+      "reviewedAt": "2026-09-05T02:33:37.275Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "38e5f63332f45e52d098"
+      ],
+      "target": {
+        "text": "You don't need to deal the killing blow to be instrumental in their death Vindicta…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "38e5f63332f45e52d098",
+      "reviewedAt": "2026-09-03T11:43:56.43Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "3933780218f6d026f22d"
+      ],
+      "target": {
+        "text": "Took down Bebop…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3933780218f6d026f22d",
+      "reviewedAt": "2026-09-05T02:28:58.774Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3a9bda11c81e5061b644",
+        "663a95a9766440bc6096",
+        "81f5a9e52216d2036e8b",
+        "a5c5969e9f0b3a55d7bb"
+      ],
+      "target": {
+        "text": "Pocket's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "a5c5969e9f0b3a55d7bb",
+      "reviewedAt": "2026-09-05T02:39:06.735Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3ba0a5687343bf97156e"
+      ],
+      "target": {
+        "text": "Cadence is in Mid!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "3ba0a5687343bf97156e",
+      "reviewedAt": "2026-09-05T02:36:28.471Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3bb257bbf86c3cc1e99a"
+      ],
+      "target": {
+        "text": "Get's easier every time…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3bb257bbf86c3cc1e99a",
+      "reviewedAt": "2026-09-05T02:28:55.618Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3c83a26b8b7ac41cc41c"
+      ],
+      "target": {
+        "text": "They're about to have a realll bad day…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3c83a26b8b7ac41cc41c",
+      "reviewedAt": "2026-09-03T11:45:10.543Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3ca18c973422ed1f6923"
+      ],
+      "target": {
+        "text": "Blocking their magic!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "3ca18c973422ed1f6923",
+      "reviewedAt": "2026-09-05T02:33:42.615Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3d86d3267832d4af6be8",
+        "69bcb015f2c48b11c0e7",
+        "91c9e2091a5a6282b678",
+        "c3232bcbeee362c9ab2c"
+      ],
+      "target": {
+        "text": "Let's take out Pocket",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "69bcb015f2c48b11c0e7",
+      "reviewedAt": "2026-09-05T02:35:34.874Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3d87f3ecfff85397a21c",
+        "95db4fa34eea072ec5b6"
+      ],
+      "target": {
+        "text": "Abrams's under the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "95db4fa34eea072ec5b6",
+      "reviewedAt": "2026-09-05T02:35:28.165Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3f188ceb5e80f3d06c2a",
+        "87814e4eb913e873ae3e"
+      ],
+      "target": {
+        "text": "\"Time Thief\", please, you're just a petty crook",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "87814e4eb913e873ae3e",
+      "reviewedAt": "2026-09-05T02:29:03.86Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "3f7b43fe89f44decdfa5",
+        "597a6fa58a233cd2e3ee"
+      ],
+      "target": {
+        "text": "Abrams stole the rejuvenator!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "3f7b43fe89f44decdfa5",
+      "reviewedAt": "2026-09-03T11:27:33.232Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "3fdd97dd684c5524a03b"
+      ],
+      "target": {
+        "text": "Don't shoot 'em they have metal skin!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "3fdd97dd684c5524a03b",
+      "reviewedAt": "2026-09-05T02:31:52.966Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4188426040ff25d2ca4b"
+      ],
+      "target": {
+        "text": "She keeps making those damn turrets!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "4188426040ff25d2ca4b",
+      "reviewedAt": "2026-09-03T11:49:19.43Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "43596517b49b911913ea"
+      ],
+      "target": {
+        "text": "Just in time Professor!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "43596517b49b911913ea",
+      "reviewedAt": "2026-09-03T11:45:25.467Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "43e97188c2d804e493b9"
+      ],
+      "target": {
+        "text": "Careful, Lash!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "43e97188c2d804e493b9",
+      "reviewedAt": "2026-09-05T02:38:14.088Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4592daef9f4b404bc678"
+      ],
+      "target": {
+        "text": "The Professor has them!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "4592daef9f4b404bc678",
+      "reviewedAt": "2026-09-03T11:45:22.4Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "45a27074322691da4895"
+      ],
+      "target": {
+        "text": "Good shot Vindicta!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "45a27074322691da4895",
+      "reviewedAt": "2026-09-03T11:46:33.122Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "477a00c9bede4a9f2ab1",
+        "a64abe47d3474609368a"
+      ],
+      "target": {
+        "text": "Let's take out McGinnis",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "477a00c9bede4a9f2ab1",
+      "reviewedAt": "2026-09-05T02:35:36.713Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4c8dcf76520e12050f66"
+      ],
+      "target": {
+        "text": "Guess I'll do everything myself!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "4c8dcf76520e12050f66",
+      "reviewedAt": "2026-09-05T02:32:16.133Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4c9edcc9acb27cb66e84",
+        "516f9d54e3751564e559"
+      ],
+      "target": {
+        "text": "Geist, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "4c9edcc9acb27cb66e84",
+      "reviewedAt": "2026-09-05T02:36:55.354Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4defbaea32a3e461ce15"
+      ],
+      "target": {
+        "text": "God I'm good.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "4defbaea32a3e461ce15",
+      "reviewedAt": "2026-09-05T02:28:53.492Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4e43b1f43452ad8fc752"
+      ],
+      "target": {
+        "text": "Revolver's not gonna get it done.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "4e43b1f43452ad8fc752",
+      "reviewedAt": "2026-09-03T11:48:46.76Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4e82940afab35571d742"
+      ],
+      "target": {
+        "text": "Time to start gunslinging.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "4e82940afab35571d742",
+      "reviewedAt": "2026-09-05T02:34:57.116Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4f5ea54089bb0b72fd54",
+        "9869271b3535924627dc",
+        "d02865665f6d2062fe94",
+        "dd93828d7326f28c86cc"
+      ],
+      "target": {
+        "text": "Kid, just go home.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "d02865665f6d2062fe94",
+      "reviewedAt": "2026-09-05T02:29:23.769Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "4fc4058dc253afe9187e"
+      ],
+      "target": {
+        "text": "Geist, turn the tables!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "4fc4058dc253afe9187e",
+      "reviewedAt": "2026-09-03T11:45:49.221Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "510753db0c968381d747"
+      ],
+      "target": {
+        "text": "Stopped 'em!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "510753db0c968381d747",
+      "reviewedAt": "2026-09-05T02:28:42.228Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "527ee6371cc11a17353e"
+      ],
+      "target": {
+        "text": "There here somewhere",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "527ee6371cc11a17353e",
+      "reviewedAt": "2026-09-05T02:28:01.068Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "532034e585092f7a7db9"
+      ],
+      "target": {
+        "text": "Eighteen souls joined you in Salem. Today you will have your satisfaction.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "532034e585092f7a7db9",
+      "reviewedAt": "2026-09-03T11:41:44.949Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "53f14a03191621bc71fc"
+      ],
+      "target": {
+        "text": "Let's move!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "53f14a03191621bc71fc",
+      "reviewedAt": "2026-09-05T02:33:45.053Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "5479407372803da7f08a"
+      ],
+      "target": {
+        "text": "Close one…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "5479407372803da7f08a",
+      "reviewedAt": "2026-09-03T11:47:57.158Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "562ffa1c1cce4d580520"
+      ],
+      "target": {
+        "text": "Took 'em out…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "562ffa1c1cce4d580520",
+      "reviewedAt": "2026-09-05T02:28:54.645Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "56722d60f75c28ad10d8"
+      ],
+      "target": {
+        "text": "They'll learn not to mess with me",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "56722d60f75c28ad10d8",
+      "reviewedAt": "2026-09-05T02:33:32.16Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "57a53873f2a0065c36bb"
+      ],
+      "target": {
+        "text": "Lash, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "57a53873f2a0065c36bb",
+      "reviewedAt": "2026-09-05T02:37:01.979Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "58bde95b99ac5cd87272"
+      ],
+      "target": {
+        "text": "That ain't happening",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "58bde95b99ac5cd87272",
+      "reviewedAt": "2026-09-05T02:28:50.469Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "592ef3957031d47a965a"
+      ],
+      "target": {
+        "text": "One less crime lord to deal with…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "592ef3957031d47a965a",
+      "reviewedAt": "2026-09-05T02:30:47.97Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "5ad603229cf946824e58"
+      ],
+      "target": {
+        "text": "Careful, Haze",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "5ad603229cf946824e58",
+      "reviewedAt": "2026-09-05T02:38:05.164Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "5c0c0ba3662ecdce06c3",
+        "61d5af4d798880aa72b9"
+      ],
+      "target": {
+        "text": "Abrams, I hoped it wouldn't come to this…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "5c0c0ba3662ecdce06c3",
+      "reviewedAt": "2026-09-05T02:28:57.829Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "5c5aec1c7e5ed6e7a5d1"
+      ],
+      "target": {
+        "text": "It'll take more than some turrets to stop me…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "5c5aec1c7e5ed6e7a5d1",
+      "reviewedAt": "2026-09-05T02:29:41.752Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "5fda99f3bc1cc8aafbb2"
+      ],
+      "target": {
+        "text": "Took out Calico.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "5fda99f3bc1cc8aafbb2",
+      "reviewedAt": "2026-09-05T02:30:26.61Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "5ff4f0c87cbf9598bae7"
+      ],
+      "target": {
+        "text": "I heard reports another body was found. I need to investigate.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "5ff4f0c87cbf9598bae7",
+      "reviewedAt": "2026-09-05T02:32:24.721Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "60b0be134bf1d026c0fb",
+        "b70e53a6c362c67dc712"
+      ],
+      "target": {
+        "text": "Careful, McGinnis…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "60b0be134bf1d026c0fb",
+      "reviewedAt": "2026-09-05T02:37:54.612Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "60db7e8adbdba23e41e2"
+      ],
+      "target": {
+        "text": "Stopped the Professor!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "60db7e8adbdba23e41e2",
+      "reviewedAt": "2026-09-05T02:29:05.923Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "61893e70b0fe552a6e36"
+      ],
+      "target": {
+        "text": "Sanddeep! I can heal you!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "61893e70b0fe552a6e36",
+      "reviewedAt": "2026-09-05T02:37:15.613Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "6236d062793dd2635b0d"
+      ],
+      "target": {
+        "text": "lasso's on cooldown",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "6236d062793dd2635b0d",
+      "reviewedAt": "2026-09-05T02:35:14.584Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "63386521b3563e6137d0"
+      ],
+      "target": {
+        "text": "Sorry tin man.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "63386521b3563e6137d0",
+      "reviewedAt": "2026-09-05T02:29:00.713Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "63801ad30f26f984430e"
+      ],
+      "target": {
+        "text": "Warden, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "63801ad30f26f984430e",
+      "reviewedAt": "2026-09-05T02:37:34.129Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "63c7a3f777c3c35c634f"
+      ],
+      "target": {
+        "text": "Let's take out Haze",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "63c7a3f777c3c35c634f",
+      "reviewedAt": "2026-09-05T02:35:54.106Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "63ee6076d04161478e39"
+      ],
+      "target": {
+        "text": "Stop the kid genius!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "63ee6076d04161478e39",
+      "reviewedAt": "2026-09-05T02:29:30.323Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "65a5c46a63359cf2d771"
+      ],
+      "target": {
+        "text": "Stopped him just in time…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "65a5c46a63359cf2d771",
+      "reviewedAt": "2026-09-05T02:27:20.986Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "65f02c0a057e91966b6e"
+      ],
+      "target": {
+        "text": "Help out the Professor!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "65f02c0a057e91966b6e",
+      "reviewedAt": "2026-09-03T11:45:19.734Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "665e1717f0af7fa7bb89"
+      ],
+      "target": {
+        "text": "Defend Blue!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "665e1717f0af7fa7bb89",
+      "reviewedAt": "2026-09-05T02:38:51.233Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "682b9d2abda79259eb72"
+      ],
+      "target": {
+        "text": "Bebop's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "682b9d2abda79259eb72",
+      "reviewedAt": "2026-09-05T02:36:22.322Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "69bc1d0f04a0feac719c"
+      ],
+      "target": {
+        "text": "You thought you were safe up there?",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "69bc1d0f04a0feac719c",
+      "reviewedAt": "2026-09-05T02:27:15.678Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "69c245ab198835b632fa"
+      ],
+      "target": {
+        "text": "Wraith, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "69c245ab198835b632fa",
+      "reviewedAt": "2026-09-05T02:37:35.191Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "69f577cb13097637be34"
+      ],
+      "target": {
+        "text": "Shiv won't die!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "69f577cb13097637be34",
+      "reviewedAt": "2026-09-05T02:27:45.442Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "6a8e32e4dcc78df3695b"
+      ],
+      "target": {
+        "text": "Hey gooey. Slink off into a lake or something.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "6a8e32e4dcc78df3695b",
+      "reviewedAt": "2026-09-05T02:30:41.186Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "6c1f724ad7e369fe267d"
+      ],
+      "target": {
+        "text": "Don't have time to mess around with these people…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "6c1f724ad7e369fe267d",
+      "reviewedAt": "2026-09-05T02:33:11.481Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "6c4639e94ee7ca3fa606",
+        "780599c47c4f0dcb7b8f"
+      ],
+      "target": {
+        "text": "I thought you would have left me to die.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "6c4639e94ee7ca3fa606",
+      "reviewedAt": "2026-09-03T11:47:43.716Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "6d311faa4140904235e6"
+      ],
+      "target": {
+        "text": "Shiv, shiv, shiv…when are you gonna wise up.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "6d311faa4140904235e6",
+      "reviewedAt": "2026-09-05T02:30:33.582Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "6eb4a378a07c4f9437c1"
+      ],
+      "target": {
+        "text": "Seven's a monster, but he's our monster…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "6eb4a378a07c4f9437c1",
+      "reviewedAt": "2026-09-03T11:46:09.513Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "6fd0ae15e9a1c74a4aa9",
+        "cb9645e956ef5c5d89d5"
+      ],
+      "target": {
+        "text": "Almost got burned alive…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "6fd0ae15e9a1c74a4aa9",
+      "reviewedAt": "2026-09-05T02:29:55.779Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "70b6e2279bb1789b5eba"
+      ],
+      "target": {
+        "text": "Was never gonna end well for ya…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "70b6e2279bb1789b5eba",
+      "reviewedAt": "2026-09-05T02:31:25.112Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "718d50eff73efdb915ab"
+      ],
+      "target": {
+        "text": "Shouldn't leave those souls lying around.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "718d50eff73efdb915ab",
+      "reviewedAt": "2026-09-05T02:31:59.221Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "724468435edfc3041067"
+      ],
+      "target": {
+        "text": "Throwing a barrel!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "724468435edfc3041067",
+      "reviewedAt": "2026-09-05T02:34:02.162Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "741069f3ee65d795021d"
+      ],
+      "target": {
+        "text": "You'll pay for this, Wraith!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "741069f3ee65d795021d",
+      "reviewedAt": "2026-09-05T02:27:49.903Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "750a7f58f78447d4f66a"
+      ],
+      "target": {
+        "text": "Get out of your element, Fairfax.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "750a7f58f78447d4f66a",
+      "reviewedAt": "2026-09-05T02:29:15.73Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "76538369354cf8df46bd",
+        "7f126e2e78f04718ed5a"
+      ],
+      "target": {
+        "text": "Abrams's on top of the garage!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "76538369354cf8df46bd",
+      "reviewedAt": "2026-09-05T02:35:23.532Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "770e903f970f3d79b19f"
+      ],
+      "target": {
+        "text": "I'll stop their magic!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "770e903f970f3d79b19f",
+      "reviewedAt": "2026-09-05T02:34:54.187Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "777588efbd4ac10023ed"
+      ],
+      "target": {
+        "text": "You tryin to punch me?",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "777588efbd4ac10023ed",
+      "reviewedAt": "2026-09-05T02:31:36.573Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "797e4404d6045abc2d82"
+      ],
+      "target": {
+        "text": "Careful, Gates.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "797e4404d6045abc2d82",
+      "reviewedAt": "2026-09-05T02:37:39.261Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "79c784d3f8f2fece1843"
+      ],
+      "target": {
+        "text": "Gotta get in there, grab 'em, and get out…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "79c784d3f8f2fece1843",
+      "reviewedAt": "2026-09-05T02:33:36.253Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "7a9db4c3c115cfd04f5b"
+      ],
+      "target": {
+        "text": "This stuff's more unstable than my 1st marriage…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "7a9db4c3c115cfd04f5b",
+      "reviewedAt": "2026-09-05T02:32:50.204Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "7bae18bae4bfd3941c02"
+      ],
+      "target": {
+        "text": "Picked up the rejuv!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "7bae18bae4bfd3941c02",
+      "reviewedAt": "2026-09-05T02:31:43.651Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "7e41d203d380e4d12fd3"
+      ],
+      "target": {
+        "text": "They won't be so lucy next time…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "7e41d203d380e4d12fd3",
+      "reviewedAt": "2026-09-05T02:31:32.808Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "800edc52330ddb301e3f"
+      ],
+      "target": {
+        "text": "I owe you Viscous!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "800edc52330ddb301e3f",
+      "reviewedAt": "2026-09-03T11:47:11.144Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "81e5cfe451d8ea224f84",
+        "9ef26096009d8bb526b2"
+      ],
+      "target": {
+        "text": "Abrams's in mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "81e5cfe451d8ea224f84",
+      "reviewedAt": "2026-09-05T02:35:18.69Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "824d54ff2460d1560f9f"
+      ],
+      "target": {
+        "text": "They're held!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "824d54ff2460d1560f9f",
+      "reviewedAt": "2026-09-03T11:48:50.003Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "83384bdc3d4bd56ad310"
+      ],
+      "target": {
+        "text": "I don’t know what that thing is, but he saved my ass…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "83384bdc3d4bd56ad310",
+      "reviewedAt": "2026-09-03T11:47:14.781Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "835bc889d2f9508333a6"
+      ],
+      "target": {
+        "text": "This'll send a message…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "835bc889d2f9508333a6",
+      "reviewedAt": "2026-09-05T02:32:45.558Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "842df2f87d0482ca5788"
+      ],
+      "target": {
+        "text": "Krill, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "842df2f87d0482ca5788",
+      "reviewedAt": "2026-09-05T02:37:00.807Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8609c7e1215713aa6cb5"
+      ],
+      "target": {
+        "text": "You picked a helluva time to visit New York",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8609c7e1215713aa6cb5",
+      "reviewedAt": "2026-09-05T02:30:18.777Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "87015dee75e08c3d091f"
+      ],
+      "target": {
+        "text": "I got 'em grabbed right here!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "87015dee75e08c3d091f",
+      "reviewedAt": "2026-09-03T11:45:02.41Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "87d073f6878319195e2a"
+      ],
+      "target": {
+        "text": "Guess Haze has my back afterall…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "87d073f6878319195e2a",
+      "reviewedAt": "2026-09-03T11:46:22.269Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8ab6ada7fa0597d97182"
+      ],
+      "target": {
+        "text": "Geist is looking to steal someone's health.",
+        "source": "generated",
+        "model": "gpt-transcribe"
+      },
+      "selectedByLatestCandidate": "8ab6ada7fa0597d97182",
+      "reviewedAt": "2026-09-03T11:49:26.66Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8ba85b38938ab4d3c78c"
+      ],
+      "target": {
+        "text": "Careful, Wraith",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8ba85b38938ab4d3c78c",
+      "reviewedAt": "2026-09-05T02:38:32.88Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8c110ce2cae2bb6e927f"
+      ],
+      "target": {
+        "text": "They're making me work for it today…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8c110ce2cae2bb6e927f",
+      "reviewedAt": "2026-09-03T11:47:59.932Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8ce101815012783402c4"
+      ],
+      "target": {
+        "text": "It was you or me, pal…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8ce101815012783402c4",
+      "reviewedAt": "2026-09-05T02:30:25.436Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8d92dd98862f83f2661c"
+      ],
+      "target": {
+        "text": "It's always up to me…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8d92dd98862f83f2661c",
+      "reviewedAt": "2026-09-05T02:31:02.425Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8e88e0229d6dc903efbf"
+      ],
+      "target": {
+        "text": "You're comin' with me!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8e88e0229d6dc903efbf",
+      "reviewedAt": "2026-09-05T02:34:41.982Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8eba88fd96d8b8697ba1"
+      ],
+      "target": {
+        "text": "This'll fund the investigation…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8eba88fd96d8b8697ba1",
+      "reviewedAt": "2026-09-05T02:31:41.061Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8ef67085be29aa4d2563"
+      ],
+      "target": {
+        "text": "Took out another turret!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "8ef67085be29aa4d2563",
+      "reviewedAt": "2026-09-03T11:49:07.112Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8fbdedd35c8e6d560cfe"
+      ],
+      "target": {
+        "text": "That the best you've got?",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "8fbdedd35c8e6d560cfe",
+      "reviewedAt": "2026-09-03T11:49:00.056Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "8fe39fb82ad86c204708"
+      ],
+      "target": {
+        "text": "Hey Yamato; next time you try to lead by example, be compotent.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "8fe39fb82ad86c204708",
+      "reviewedAt": "2026-09-05T02:30:52.741Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "93cd4809ce7e572a5498"
+      ],
+      "target": {
+        "text": "Wraith, I hate you as a person, but love you as a teammate.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "93cd4809ce7e572a5498",
+      "reviewedAt": "2026-09-03T11:47:20.359Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "94cf3fdbbc23fac889b4"
+      ],
+      "target": {
+        "text": "Brave move Infernus. Dumb. But brave.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "94cf3fdbbc23fac889b4",
+      "reviewedAt": "2026-09-05T02:27:22.256Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "94dcc77829b15ee5bf42"
+      ],
+      "target": {
+        "text": "Stick to sight seeing Mirage…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "94dcc77829b15ee5bf42",
+      "reviewedAt": "2026-09-05T02:30:17.29Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "96a5319ebd73f5b3d3c7"
+      ],
+      "target": {
+        "text": "Made an example out of another one",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "96a5319ebd73f5b3d3c7",
+      "reviewedAt": "2026-09-05T02:30:54.583Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "96bac7a1f2c8a380456a"
+      ],
+      "target": {
+        "text": "The rejuv's ours!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "96bac7a1f2c8a380456a",
+      "reviewedAt": "2026-09-05T02:31:44.383Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "98ef61f737aeded6ac40"
+      ],
+      "target": {
+        "text": "I'm lucky Wraith didn’t get the drop on me",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "98ef61f737aeded6ac40",
+      "reviewedAt": "2026-09-05T02:30:45.988Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "990aa473839bf2a2098f"
+      ],
+      "target": {
+        "text": "Just like target practice back home.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "990aa473839bf2a2098f",
+      "reviewedAt": "2026-09-03T11:47:30.325Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "991facd67968e6ed4e05"
+      ],
+      "target": {
+        "text": "Hope I know what I'm doin…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "991facd67968e6ed4e05",
+      "reviewedAt": "2026-09-03T11:48:24.689Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "99efad7f028b7c70a4ea",
+        "c9085b1bac1d356ce96b"
+      ],
+      "target": {
+        "text": "Careful, Geist",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c9085b1bac1d356ce96b",
+      "reviewedAt": "2026-09-05T02:38:02.072Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9a9218b6f5a8bcb2dff3",
+        "c330bd6c8dd00cccf06c"
+      ],
+      "target": {
+        "text": "Paradox's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c330bd6c8dd00cccf06c",
+      "reviewedAt": "2026-09-05T02:38:40.371Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9b5fc5cafa98d7e87379"
+      ],
+      "target": {
+        "text": "I came here to kill The Troubador, but I'll settle for you…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9b5fc5cafa98d7e87379",
+      "reviewedAt": "2026-09-05T02:29:48.251Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9b868414f9be79a6d08b"
+      ],
+      "target": {
+        "text": "Can't shoot through that metal skin!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9b868414f9be79a6d08b",
+      "reviewedAt": "2026-09-05T02:31:54.967Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9bd07f744f18d686d8e8"
+      ],
+      "target": {
+        "text": "Careful fairfax.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "9bd07f744f18d686d8e8",
+      "reviewedAt": "2026-09-05T02:37:41.833Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9dc36c7b7cb89a94426e",
+        "9f3aa0c2832d255a9bdd"
+      ],
+      "target": {
+        "text": "Paradox's on top of mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9f3aa0c2832d255a9bdd",
+      "reviewedAt": "2026-09-05T02:38:42.851Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9de3a2043bd9882c468a"
+      ],
+      "target": {
+        "text": "Took down the tunnel rats!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9de3a2043bd9882c468a",
+      "reviewedAt": "2026-09-05T02:30:02.546Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9e29638cd53a8a459c53"
+      ],
+      "target": {
+        "text": "Nice work, Infernus!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "9e29638cd53a8a459c53",
+      "reviewedAt": "2026-09-03T11:46:45.682Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9e7b30a23a1d9ce256ac"
+      ],
+      "target": {
+        "text": "Lasso's recharged!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9e7b30a23a1d9ce256ac",
+      "reviewedAt": "2026-09-05T02:33:38.948Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9f33535f29f5ff97c4f7"
+      ],
+      "target": {
+        "text": "I didn't come to New York to be a tourist. I got work to do.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "9f33535f29f5ff97c4f7",
+      "reviewedAt": "2026-09-05T02:31:16.022Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "9f64e4812fb459b389d2"
+      ],
+      "target": {
+        "text": "Well done Vindicta",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9f64e4812fb459b389d2",
+      "reviewedAt": "2026-09-03T11:27:25.606Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "9ff3e49d64a25e204def"
+      ],
+      "target": {
+        "text": "Appreciate it McGinnis….",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "9ff3e49d64a25e204def",
+      "reviewedAt": "2026-09-03T11:45:27.477Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "a06a707ce7edd7136fe4"
+      ],
+      "target": {
+        "text": "Geist weakened them!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "a06a707ce7edd7136fe4",
+      "reviewedAt": "2026-09-03T11:46:06.686Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "a41cab0ed8ae7ee54435"
+      ],
+      "target": {
+        "text": "That probably pissed 'em off…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "a41cab0ed8ae7ee54435",
+      "reviewedAt": "2026-09-05T02:32:18.836Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "a4c6188c965dc25d8ff6"
+      ],
+      "target": {
+        "text": "They thought they were invincible",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "a4c6188c965dc25d8ff6",
+      "reviewedAt": "2026-09-03T11:48:53.159Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "a50df80f87bbfa4d93f4"
+      ],
+      "target": {
+        "text": "Cadence is on top of the garage!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "a50df80f87bbfa4d93f4",
+      "reviewedAt": "2026-09-05T02:36:32.657Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "a5ff287adc423c2dfbc3"
+      ],
+      "target": {
+        "text": "Wraith has me!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "a5ff287adc423c2dfbc3",
+      "reviewedAt": "2026-09-05T02:27:55.621Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "a6004dc9db3b19d9bc3e"
+      ],
+      "target": {
+        "text": "Dad gave me the gun, and he damn sure taught me how to use it.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "a6004dc9db3b19d9bc3e",
+      "reviewedAt": "2026-09-05T02:33:20.498Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "a798354132021229e46b"
+      ],
+      "target": {
+        "text": "Setting up a bounce pad",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "a798354132021229e46b",
+      "reviewedAt": "2026-09-05T02:34:06.248Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "aada6e1a5af29ca53632"
+      ],
+      "target": {
+        "text": "Shut down Vindicta!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "aada6e1a5af29ca53632",
+      "reviewedAt": "2026-09-05T02:27:17.621Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "ab2d56bc697990aeef0b"
+      ],
+      "target": {
+        "text": "Damn it, I lost 'em…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "ab2d56bc697990aeef0b",
+      "reviewedAt": "2026-09-05T02:28:03.501Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "ac990d124ec131d2bf63"
+      ],
+      "target": {
+        "text": "You got my hopes up. Hope you're happy.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "ac990d124ec131d2bf63",
+      "reviewedAt": "2026-09-05T02:32:32.427Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b1f43e507273dab6e11f"
+      ],
+      "target": {
+        "text": "Time to go flyin'…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b1f43e507273dab6e11f",
+      "reviewedAt": "2026-09-05T02:34:19.352Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b36d3f3025d797cf06f7"
+      ],
+      "target": {
+        "text": "Took out Bebop!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b36d3f3025d797cf06f7",
+      "reviewedAt": "2026-09-05T02:28:59.432Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b4b628762a743f7b4f61"
+      ],
+      "target": {
+        "text": "Hope the Guardian can help take him out.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "b4b628762a743f7b4f61",
+      "reviewedAt": "2026-09-03T11:45:16.888Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b4febf0c844f34199b58"
+      ],
+      "target": {
+        "text": "Shiv's down!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b4febf0c844f34199b58",
+      "reviewedAt": "2026-09-05T02:30:37.266Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b5131bf46667ae81bb18"
+      ],
+      "target": {
+        "text": "Haze is down…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b5131bf46667ae81bb18",
+      "reviewedAt": "2026-09-05T02:29:51.642Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b5cce42c357bbb7df852"
+      ],
+      "target": {
+        "text": "Gimmie a hand!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b5cce42c357bbb7df852",
+      "reviewedAt": "2026-09-03T11:48:50.987Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b6355f0f19d2bd76fa65"
+      ],
+      "target": {
+        "text": "Spirits are coming to the bridge!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "b6355f0f19d2bd76fa65",
+      "reviewedAt": "2026-09-05T02:28:32.264Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "b7c063131a54dc55266b"
+      ],
+      "target": {
+        "text": "Careful, Warden…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "b7c063131a54dc55266b",
+      "reviewedAt": "2026-09-05T02:38:31.88Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "ba7c0bc4c69ca41d5cb2"
+      ],
+      "target": {
+        "text": "Get him back out there!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "ba7c0bc4c69ca41d5cb2",
+      "reviewedAt": "2026-09-05T02:31:11.421Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "bac481bc89f046afd022"
+      ],
+      "target": {
+        "text": "Calico supports us from the shadows…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "bac481bc89f046afd022",
+      "reviewedAt": "2026-09-03T11:43:53.21Z",
+      "recordingHashes": 4
+    },
+    {
+      "candidateIds": [
+        "bb3673bae79d0bcc9274"
+      ],
+      "target": {
+        "text": "Not so fancy now, are ya Haze…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "bb3673bae79d0bcc9274",
+      "reviewedAt": "2026-09-03T11:49:28.566Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "bb5654f868777bd499bb"
+      ],
+      "target": {
+        "text": "Those machines didn't work out like you'd thought they would, huh…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "bb5654f868777bd499bb",
+      "reviewedAt": "2026-09-05T02:29:40.472Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "bbcdc6028cc5e0187d35"
+      ],
+      "target": {
+        "text": "Viscous, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "bbcdc6028cc5e0187d35",
+      "reviewedAt": "2026-09-05T02:37:32.747Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "bbdfc8018ce391f330e6"
+      ],
+      "target": {
+        "text": "Mo grabbed them!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "bbdfc8018ce391f330e6",
+      "reviewedAt": "2026-09-03T11:46:48.233Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "bc24e2d5469bbef51325"
+      ],
+      "target": {
+        "text": "Blocking their heal!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "bc24e2d5469bbef51325",
+      "reviewedAt": "2026-09-05T02:34:47.634Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "bda67221ce3d7ceeef59"
+      ],
+      "target": {
+        "text": "We have the rejuvinator!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "bda67221ce3d7ceeef59",
+      "reviewedAt": "2026-09-05T02:31:42.942Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "be57703cf8ca73448a03",
+        "f510ef4ac3a7acf4ba4c"
+      ],
+      "target": {
+        "text": "Abrams's on top of mid!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "be57703cf8ca73448a03",
+      "reviewedAt": "2026-09-05T02:35:25.636Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "bec0c2df57fb78d57f7d"
+      ],
+      "target": {
+        "text": "So it looks like Sandmen are as terrifying as the rumors say…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "bec0c2df57fb78d57f7d",
+      "reviewedAt": "2026-09-03T11:46:14.148Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "c2807d4ffd1664ee4425"
+      ],
+      "target": {
+        "text": "Ready to give pursuit",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c2807d4ffd1664ee4425",
+      "reviewedAt": "2026-09-05T02:34:22.365Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "c7238ea670b9dcfc644e"
+      ],
+      "target": {
+        "text": "Will someone shoot 'em already?",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c7238ea670b9dcfc644e",
+      "reviewedAt": "2026-09-05T02:34:43.115Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "c7a6bc934699dcd1d58f"
+      ],
+      "target": {
+        "text": "Start running pal!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "c7a6bc934699dcd1d58f",
+      "reviewedAt": "2026-09-05T02:34:40.097Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "caed3cc329b6b26537d2"
+      ],
+      "target": {
+        "text": "Careful, Haze…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "caed3cc329b6b26537d2",
+      "reviewedAt": "2026-09-05T02:38:04.53Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "cc2201938be840120ab3"
+      ],
+      "target": {
+        "text": "We'll be flying through the air in no time.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "cc2201938be840120ab3",
+      "reviewedAt": "2026-09-05T02:33:01.343Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "cdb7c48f1230fdce7d11"
+      ],
+      "target": {
+        "text": "Stopped Warden!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "cdb7c48f1230fdce7d11",
+      "reviewedAt": "2026-09-05T02:30:44.232Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "ceb53e7513cc7cb2ac92"
+      ],
+      "target": {
+        "text": "Ready to get some airtime.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "ceb53e7513cc7cb2ac92",
+      "reviewedAt": "2026-09-05T02:34:15.729Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "cefc84a99df84288e835"
+      ],
+      "target": {
+        "text": "Throwing a barrel!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "cefc84a99df84288e835",
+      "reviewedAt": "2026-09-05T02:33:56.902Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d0211344c4deaa8bbd08"
+      ],
+      "target": {
+        "text": "Geist is up to that creepy stuff again.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "d0211344c4deaa8bbd08",
+      "reviewedAt": "2026-09-03T11:45:35.722Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d2103f551c3ca3591afc"
+      ],
+      "target": {
+        "text": "By the way: your hair is rediculous.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "d2103f551c3ca3591afc",
+      "reviewedAt": "2026-09-05T02:30:39.694Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d3f6db8291e9e40f951b"
+      ],
+      "target": {
+        "text": "Cadence, I can heal you!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "d3f6db8291e9e40f951b",
+      "reviewedAt": "2026-09-05T02:36:36.172Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d4a3096b4a6111463147"
+      ],
+      "target": {
+        "text": "You're almost making this too easy, Wraith!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "d4a3096b4a6111463147",
+      "reviewedAt": "2026-09-03T11:47:17.819Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d7357f3a4078652f20a6"
+      ],
+      "target": {
+        "text": "I'll give the devil his due, that was something else.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "d7357f3a4078652f20a6",
+      "reviewedAt": "2026-09-03T11:46:59.083Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d73f84cdc51ca83c7c98"
+      ],
+      "target": {
+        "text": "The glitch!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "d73f84cdc51ca83c7c98",
+      "reviewedAt": "2026-09-05T02:33:49.513Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d8c4cdffe2fba4799480",
+        "fb89343651eafdf9bb4c"
+      ],
+      "target": {
+        "text": "Let's take out Geist",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "fb89343651eafdf9bb4c",
+      "reviewedAt": "2026-09-05T02:35:51.76Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "d9892b2d65feb19c8285"
+      ],
+      "target": {
+        "text": "Hope I got this positioned right…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "d9892b2d65feb19c8285",
+      "reviewedAt": "2026-09-05T02:34:09.434Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "db31d1c0b0f9d2a979d7"
+      ],
+      "target": {
+        "text": "It's all fun and games until someone kicks a barrel full of explosives at you…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "db31d1c0b0f9d2a979d7",
+      "reviewedAt": "2026-09-05T02:32:48.904Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "dc2a7cd06ad549b43141"
+      ],
+      "target": {
+        "text": "That is one scary lady…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "dc2a7cd06ad549b43141",
+      "reviewedAt": "2026-09-03T11:46:39.511Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "df09a63c73d2973e1110"
+      ],
+      "target": {
+        "text": "Ready to give chase..",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "df09a63c73d2973e1110",
+      "reviewedAt": "2026-09-05T02:32:52.641Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "dff1dc95932c804ab6a7"
+      ],
+      "target": {
+        "text": "Careful, Sandiv!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "dff1dc95932c804ab6a7",
+      "reviewedAt": "2026-09-05T02:38:21.36Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e05ed587a6171c3e40b8",
+        "e59a9a83de99f70299c3"
+      ],
+      "target": {
+        "text": "Let's take out Seven",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e05ed587a6171c3e40b8",
+      "reviewedAt": "2026-09-05T02:35:53.145Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e082df8a58b324ef973c"
+      ],
+      "target": {
+        "text": "Alright…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e082df8a58b324ef973c",
+      "reviewedAt": "2026-09-05T02:31:42.026Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e0927d52bf5bff9218e4"
+      ],
+      "target": {
+        "text": "Marksman's on cooldown!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "e0927d52bf5bff9218e4",
+      "reviewedAt": "2026-09-05T02:35:02.464Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e0daca653a44ab4059f6"
+      ],
+      "target": {
+        "text": "Picked my target.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e0daca653a44ab4059f6",
+      "reviewedAt": "2026-09-05T02:34:24.159Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e1b60230212d3ffe3635"
+      ],
+      "target": {
+        "text": "Do you think you can skate away from me?",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "e1b60230212d3ffe3635",
+      "reviewedAt": "2026-09-05T02:27:40.322Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e2bb3f49143caad76531"
+      ],
+      "target": {
+        "text": "Clean up the rifle.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "e2bb3f49143caad76531",
+      "reviewedAt": "2026-09-05T02:34:36.265Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e37106e8317e711114d3"
+      ],
+      "target": {
+        "text": "Humbling guys like you never gets old.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "e37106e8317e711114d3",
+      "reviewedAt": "2026-09-05T02:27:43.137Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e3ead171b37dd633e1ee"
+      ],
+      "target": {
+        "text": "Shoulda known the OSIC would be here…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e3ead171b37dd633e1ee",
+      "reviewedAt": "2026-09-05T02:29:52.916Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e4a0fe95a9afa2f5ea5a"
+      ],
+      "target": {
+        "text": "Like shooting an oil can…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e4a0fe95a9afa2f5ea5a",
+      "reviewedAt": "2026-09-03T11:48:54.286Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e5a3376173a4c92ca50d"
+      ],
+      "target": {
+        "text": "Sorry McGinnis…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e5a3376173a4c92ca50d",
+      "reviewedAt": "2026-09-05T02:29:38.618Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e5f2d0c3b39775a3ccb4"
+      ],
+      "target": {
+        "text": "Might want to pull back.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "e5f2d0c3b39775a3ccb4",
+      "reviewedAt": "2026-09-05T02:31:22.596Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e7c1b2a0b4840d73983d"
+      ],
+      "target": {
+        "text": "Spirit Jars almost on the bridge!",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "e7c1b2a0b4840d73983d",
+      "reviewedAt": "2026-09-05T02:28:28.293Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e8215e8886d2b32be064"
+      ],
+      "target": {
+        "text": "Ice blast!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e8215e8886d2b32be064",
+      "reviewedAt": "2026-09-05T02:33:51.697Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "e850e98053e3dbe8f8c3"
+      ],
+      "target": {
+        "text": "Haze, I can heal you!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "e850e98053e3dbe8f8c3",
+      "reviewedAt": "2026-09-05T02:36:56.369Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "eaab2070af0f22b886b8"
+      ],
+      "target": {
+        "text": "Kelvin, you're not ready to fight someone like me.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "eaab2070af0f22b886b8",
+      "reviewedAt": "2026-09-05T02:29:59.727Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "ed7986f0c2529b6e9247"
+      ],
+      "target": {
+        "text": "Pocket stole the Rejuvenator.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "ed7986f0c2529b6e9247",
+      "reviewedAt": "2026-09-03T11:27:44.981Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "edbee5a5a838c18e8eb8"
+      ],
+      "target": {
+        "text": "Careful, Yamato",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "edbee5a5a838c18e8eb8",
+      "reviewedAt": "2026-09-05T02:38:33.991Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "edea6bb986cf9eb1abfa"
+      ],
+      "target": {
+        "text": "Dynamo's missing",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "edea6bb986cf9eb1abfa",
+      "reviewedAt": "2026-09-05T02:38:53.335Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "f0ad10cca34ba6d47f74"
+      ],
+      "target": {
+        "text": "Do we wanna make a move on the spirit jar?",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "f0ad10cca34ba6d47f74",
+      "reviewedAt": "2026-09-05T02:28:34.572Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "f9933928cbeded1640d8"
+      ],
+      "target": {
+        "text": "They have the rejuvinator, regroup!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "f9933928cbeded1640d8",
+      "reviewedAt": "2026-09-03T11:49:21.105Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "f9f1240f20212e9b67f6"
+      ],
+      "target": {
+        "text": "They took the souls, but we took the objective…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "f9f1240f20212e9b67f6",
+      "reviewedAt": "2026-09-05T02:32:17.873Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "fa2f377e62068abbb30b"
+      ],
+      "target": {
+        "text": "Called my shot.",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "fa2f377e62068abbb30b",
+      "reviewedAt": "2026-09-05T02:34:26.473Z",
+      "recordingHashes": 3
+    },
+    {
+      "candidateIds": [
+        "fb2dad27d2b12bf98986"
+      ],
+      "target": {
+        "text": "If I'm gonna stop that sick bastard, I'm gonna need the Patron's help.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "fb2dad27d2b12bf98986",
+      "reviewedAt": "2026-09-05T02:32:07.441Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "fdc3d8bc838cf1c4cf90"
+      ],
+      "target": {
+        "text": "I better not miss…",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "fdc3d8bc838cf1c4cf90",
+      "reviewedAt": "2026-09-03T11:48:18.195Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "ff604fef8a37425e0dd4"
+      ],
+      "target": {
+        "text": "I got 'em!",
+        "source": "official"
+      },
+      "selectedByLatestCandidate": "ff604fef8a37425e0dd4",
+      "reviewedAt": "2026-09-03T11:48:49.527Z",
+      "recordingHashes": 2
+    },
+    {
+      "candidateIds": [
+        "ffdedb1ffb79d270d421"
+      ],
+      "target": {
+        "text": "Careful, Sandeep.",
+        "source": "generated",
+        "model": "gpt-4o-mini-transcribe"
+      },
+      "selectedByLatestCandidate": "ffdedb1ffb79d270d421",
+      "reviewedAt": "2026-09-05T02:38:16.433Z",
+      "recordingHashes": 2
+    }
+  ],
+  "restoredSeparateCandidateIds": []
+}
