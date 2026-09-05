@@ -1,33 +1,31 @@
 # Phonetic lineage merge review
 
-The audit compared transcript revisions across permanent filename lineages built
-from shared recording hashes and 11,519 reviewed manual correlation groups.
+The refreshed audit compared transcript revisions across permanent filename
+lineages built from shared recording hashes and 11,519 reviewed manual
+correlation groups.
 
 | Result | Count | Disposition |
 | --- | ---: | --- |
 | Transcript files scanned | 98,944 | Complete repository |
 | Multi-file lineages | 13,013 | Shared-hash and manual edges are transitive |
-| Strong candidate pairs | 155 | 153 applied; 2 withheld after review |
-| Recording hashes reconciled | 398 | 336 official; 5 manual; 57 generated |
-| Transcript files changed | 352 | Every represented hash was preserved |
-| Lower-confidence candidate pairs | 4,456 | Report only; no transcript changes |
+| Strong candidate pairs | 2 | Review snapshot |
+| Lower-confidence candidate pairs | 4,275 | Review snapshot |
+| Imported judgments still applicable | 424 | Four additional reviewed pairs were already resolved upstream |
+| Approved candidate pairs | 291 | Applied across 247 transitive components |
+| Keep-separate candidate pairs | 133 | Not changed |
+| Recording hashes reconciled | 505 | 361 official; 144 generated |
+| Transcript files changed | 347 | Every represented hash was preserved |
+| Incorrect transcript flags | 50 | Archived with the source export; intentionally not applied |
 
-## Review tables
+## Review artifacts
 
 - [Strong candidates](strong/candidates.md)
 - [Lower-confidence candidates](lower-confidence/candidates.md)
+- [Source review export](reviews/2026-09-05.json)
+- [Applicable decisions](reviews/2026-09-05-applicable.json)
+- [Apply result](reviews/2026-09-05-apply-result.json)
 
-## Representative decisions
-
-| Tier | Left | Right | Decision |
-| --- | --- | --- | --- |
-| Strong | `atlas/abrams_use_curse_03.mp3`: “I'll curse them!” (generated) | `atlas/atlas_use_curse_03.mp3`: “I'll curse 'em!” (official) | Applied the official transcript |
-| Strong STT mishearing | `astro/astro_unselect_01.mp3`: “Lives are at stake.” (generated) | `astro/holliday_unselect_01.mp3`: “Lines are at stake.” (generated) | Selected “Lives are at stake.” and kept it generated |
-| Withheld | `ghost/geist_enemy_kelvin_kill_on_ice_path_01.mp3`: “Kevin” (generated) | `ghost/ghost_enemy_kelvin_kill_on_ice_path_01.mp3`: “Kelvin” (generated) | Kept for review because either name may be what was spoken |
-| Withheld | `announcer/male_patron/patron_male_ally_calico_start_01.mp3`: starts with “Oh” | correlated `nano` filename: same line without “Oh” | Kept separate because the extra spoken word may be real |
-| Lower confidence | `atlas/abrams_use_curse_02.mp3`: “Curse them!” (generated) | `atlas/atlas_use_curse_02.mp3`: “Cursing 'em!” (official) | Listed for review; not changed |
-
-Strong candidates require either the same normalized spoken phrase or at least 98%
-normalized character similarity. The lower-confidence table includes recognizable
-speech-to-text substitutions down to 70% character similarity, but its similarity
-scores are ranking aids rather than merge approvals.
+The candidate tables are the refreshed pre-apply snapshot used to validate the
+review. When approved pairs formed a transitive component, the latest explicit
+judgment in that component selected the transcript. Generated-only selections
+remain generated; official selections retain official provenance.
