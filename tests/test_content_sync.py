@@ -59,16 +59,18 @@ class PublicJsonStoreTests(unittest.TestCase):
 class MemoryStore:
     def __init__(self, values: dict[str, dict[str, Any]]) -> None:
         self.values = values
+        self.bodies: dict[str, bytes] = {}
         self.events: list[str] = []
 
     def get_json(self, key: str) -> StoredJson:
         value = self.values.get(key)
-        body = canonical_json(value) if value is not None else None
+        body = self.bodies.get(key, compact_json(value)) if value is not None else None
         return StoredJson(key, value, body, f'"etag-{key}"' if value is not None else None)
 
     def put_json(self, write: PlannedWrite) -> None:
         self.events.append(write.key)
         self.values[write.key] = write.value
+        self.bodies[write.key] = write.body()
 
 
 class PublicMemoryStore(MemoryStore):
@@ -159,10 +161,10 @@ class ContentSyncTests(unittest.TestCase):
         }
         inventory_files = {}
         for name, value in (("voicelines.json", voice), ("conversations.json", conversation)):
-            body = canonical_json(value)
+            body = compact_json(value)
             inventory_files[name] = {
                 "size": len(body),
-                "sha256": "old-hash",
+                "sha256": sha256_bytes(body),
                 "contentType": "application/json; charset=utf-8",
                 "mutable": True,
             }
@@ -201,6 +203,128 @@ class ContentSyncTests(unittest.TestCase):
         self.commit("correct transcript")
         return ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
 
+    def add_version_metadata(self, values: dict[str, dict[str, Any]], version: str) -> None:
+        entry = next(item for item in values["deadlock/manifest.json"]["versions"] if item["id"] == version)
+        prefix = f"deadlock/versions/{version}"
+        files = {}
+        for name in ("voicelines.json", "conversations.json"):
+            body = compact_json(values[f"{prefix}/{name}"])
+            files[name] = {"size": len(body), "sha256": sha256_bytes(body), "mutable": True}
+        values[f"{prefix}/publish-inventory.json"] = {
+            "contentRevision": entry["contentRevision"], "files": files,
+        }
+        values[f"{prefix}/release.json"] = {
+            **entry, "fileCount": len(files), "totalBytes": sum(item["size"] for item in files.values()),
+        }
+
+    def formatted_store(self) -> MemoryStore:
+        store = MemoryStore(self.published())
+        for key, value in store.values.items():
+            store.bodies[key] = canonical_json(value)
+        inventory = store.values["deadlock/versions/v1/publish-inventory.json"]
+        for name, info in inventory["files"].items():
+            body = store.bodies[f"deadlock/versions/v1/{name}"]
+            info.update(size=len(body), sha256=sha256_bytes(body))
+        release = store.values["deadlock/versions/v1/release.json"]
+        release["totalBytes"] = sum(info["size"] for info in inventory["files"].values())
+        for key in ("deadlock/versions/v1/publish-inventory.json", "deadlock/versions/v1/release.json"):
+            store.bodies[key] = canonical_json(store.values[key])
+        return store
+
+    def test_update_minifies_unchanged_content_and_advances_revision_once(self) -> None:
+        store = self.formatted_store()
+        voice_key = "deadlock/versions/v1/voicelines.json"
+        voice = store.values[voice_key]
+        voice["text"] = '  Héllo 世界 👋 "quote"\n\t  '
+        store.bodies[voice_key] = canonical_json(voice)
+        original = json.loads(store.bodies[voice_key])
+
+        plan = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
+
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertEqual(plan.record_changes, [])
+        self.assertEqual(plan.version_revisions[0]["proposed"], 3)
+        writes = {write.key: write for write in plan.writes}
+        self.assertEqual(json.loads(writes[voice_key].body()), original)
+        self.assertLess(len(writes[voice_key].body()), len(store.bodies[voice_key]))
+        for write in plan.sorted_writes():
+            self.assertEqual(write.body(), compact_json(write.value))
+            store.put_json(write)
+        inventory = store.values["deadlock/versions/v1/publish-inventory.json"]
+        for name, info in inventory["files"].items():
+            body = store.bodies[f"deadlock/versions/v1/{name}"]
+            self.assertEqual(info["size"], len(body))
+            self.assertEqual(info["sha256"], sha256_bytes(body))
+        release = store.values["deadlock/versions/v1/release.json"]
+        self.assertEqual(release["totalBytes"], sum(info["size"] for info in inventory["files"].values()))
+        second = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
+        self.assertTrue(second.deployable, second.to_markdown())
+        self.assertEqual(second.writes, [])
+        self.assertEqual(second.version_revisions, [])
+
+    def test_minification_resumes_after_each_upload_without_another_revision(self) -> None:
+        for completed in range(6):
+            with self.subTest(completed=completed):
+                store = self.formatted_store()
+                first = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
+                self.assertTrue(first.deployable, first.to_markdown())
+                self.assertEqual(len(first.writes), 5)
+                for write in first.sorted_writes()[:completed]:
+                    store.put_json(write)
+                second = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
+                self.assertTrue(second.deployable, second.to_markdown())
+                for write in second.sorted_writes():
+                    store.put_json(write)
+                self.assertEqual(store.values["deadlock/manifest.json"]["versions"][0]["contentRevision"], 3)
+                third = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
+                self.assertTrue(third.deployable, third.to_markdown())
+                self.assertEqual(third.writes, [])
+
+    def test_minification_checks_other_versions_and_mutable_inventory_json(self) -> None:
+        values = self.published()
+        prefix = "deadlock/versions/v0"
+        values[f"{prefix}/voicelines.json"] = {"hero": {"lines": []}}
+        values[f"{prefix}/conversations.json"] = {"conversations": []}
+        values["deadlock/manifest.json"]["versions"].append({
+            "id": "v0", "contentRevision": 1,
+            "voiceLineUrl": f"{CDN}/{prefix}/voicelines.json",
+            "conversationUrl": f"{CDN}/{prefix}/conversations.json",
+        })
+        self.add_version_metadata(values, "v0")
+        names_key = "deadlock/character-names.json"
+        values["deadlock/manifest.json"]["characterNamesUrl"] = f"{CDN}/{names_key}"
+        values[names_key] = {"names": {"hero": "Héro"}}
+        files = values[f"{prefix}/publish-inventory.json"]["files"]
+        for name, mutable in (("localization/english.json", True), ("history.json", False)):
+            value = {"text": "unchanged"}
+            values[f"{prefix}/{name}"] = value
+            body = canonical_json(value)
+            files[name] = {"size": len(body), "sha256": sha256_bytes(body), "mutable": mutable}
+        store = MemoryStore(values)
+        formatted_keys = [names_key, f"{prefix}/voicelines.json", f"{prefix}/localization/english.json", f"{prefix}/history.json"]
+        for key in formatted_keys:
+            store.bodies[key] = canonical_json(values[key])
+
+        plan = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
+
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertEqual(plan.affected_versions, ["v0"])
+        self.assertEqual(plan.version_revisions[0]["proposed"], 2)
+        writes = {write.key: write for write in plan.writes}
+        for key in formatted_keys[:-1]:
+            self.assertEqual(writes[key].body(), compact_json(values[key]))
+        self.assertNotIn(f"{prefix}/history.json", writes)
+        self.assertNotIn("deadlock/versions/v1/voicelines.json", writes)
+
+    def test_public_verification_rejects_formatted_copy_of_compact_write(self) -> None:
+        write = PlannedWrite("deadlock/data.json", {"text": "Héllo"}, None, "content", "minify", compact=True)
+        public = PublicMemoryStore({write.key: write.value})
+        public.bodies[write.key] = canonical_json(write.value)
+        with self.assertRaisesRegex(ContentSyncError, "planned compact bytes"):
+            verify_public_writes([write], public, attempts=1)
+        public.bodies[write.key] = write.body()
+        verify_public_writes([write], public, attempts=1)
+
     def enable_history(self, *version_ids: str) -> None:
         self.write_json(
             self.repo / "config" / "deadlock" / "voice-line-history.json",
@@ -234,6 +358,8 @@ class ContentSyncTests(unittest.TestCase):
             "deadlock/versions/v1/voicelines.json",
             "deadlock/versions/v1/conversations.json",
         ):
+            write = next(write for write in plan.writes if write.key == key)
+            self.assertEqual(write.body(), compact_json(write.value))
             aggregate = next(write.value for write in plan.writes if write.key == key)
             record = next(item for item, _path, _sha in self._walk(aggregate))
             self.assertEqual(record["transcription"], "corrected text")
@@ -267,6 +393,7 @@ class ContentSyncTests(unittest.TestCase):
                 "conversationUrl": f"{CDN}/deadlock/versions/v0/conversations.json",
             }
         )
+        self.add_version_metadata(values, "v0")
         store = MemoryStore(values)
 
         plan = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(
@@ -466,6 +593,7 @@ class ContentSyncTests(unittest.TestCase):
             }
         )
 
+        self.add_version_metadata(values, "v0")
         plan = ContentSyncPlanner(
             self.repo,
             MemoryStore(values),
@@ -964,7 +1092,7 @@ class ContentSyncTests(unittest.TestCase):
         first = self.target_plan(store)
         for write in first.sorted_writes():
             if write.phase == "content" or write.key.endswith("publish-inventory.json"):
-                store.values[write.key] = write.value
+                store.put_json(write)
 
         second = ContentSyncPlanner(self.repo, store, cdn_base_url=CDN).build(base=self.base)
 
