@@ -100,4 +100,4 @@ jobs:
           name: content-sync-plan-${{ github.event.pull_request.number }}
           path: ${{ runner.temp }}/content-sync
           if-no-files-found: warn
-          retention-days: 14
+          retention-days: 1
