@@ -4,11 +4,11 @@
   "revisions": [
     {
       "sha256": [
-        "8ed7a53b6253d813ab29d137b3d801d9e68986069a5fe2825c6ba1d38e6c000c"
+        "8ed7a53b6253d813ab29d137b3d801d9e68986069a5fe2825c6ba1d38e6c000c",
+        "931ec22b322b4991b637092fd0fe15249bff9380ef65cb18ce9e4dea53a961bd"
       ],
       "text": "Wrecker, I can heal you!",
-      "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "source": "official"
     },
     {
       "sha256": [
@@ -17,13 +17,6 @@
       "text": "Mecha, I can heal you.",
       "source": "generated",
       "model": "gpt-4o-mini-transcribe"
-    },
-    {
-      "sha256": [
-        "931ec22b322b4991b637092fd0fe15249bff9380ef65cb18ce9e4dea53a961bd"
-      ],
-      "text": "Wrecker, I can heal you!",
-      "source": "official"
     }
   ]
 }
