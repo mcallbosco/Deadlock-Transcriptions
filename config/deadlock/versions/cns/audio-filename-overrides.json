@@ -1,4 +1,14 @@
 {
   "schemaVersion": 1,
-  "overrides": {}
+  "overrides": {
+    "vampirebat/vampirebat_select_09-imported.mp3": {
+      "parseAs": "vampirebat/vampirebat_select_09.mp3"
+    },
+    "yamato/yamato_select_03-imported.mp3": {
+      "parseAs": "yamato/yamato_select_03.mp3"
+    },
+    "announcer/female_patron/patron_female_praise_nano_dup-filename.mp3": {
+      "parseAs": "announcer/female_patron/patron_female_praise_nano.mp3"
+    }
+  }
 }
