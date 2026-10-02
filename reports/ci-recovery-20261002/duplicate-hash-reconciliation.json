@@ -1,0 +1,938 @@
+{
+  "schemaVersion": 1,
+  "policy": {
+    "sourcePriority": [
+      "official",
+      "manual",
+      "generated"
+    ],
+    "tieBreaker": "most_recent_file_edit_then_path",
+    "winnerProvenanceAppliedToEveryDuplicateHashOccurrence": true
+  },
+  "statistics": {
+    "reconciledHashes": 32,
+    "changedFiles": 34,
+    "splitRevisionGroups": 28,
+    "winnerSources": {
+      "official": 32
+    }
+  },
+  "decisions": [
+    {
+      "sha256": "20a41efef38a554fc108ab652972ddc6d792825948457023f95b71484b3577e6",
+      "winner": {
+        "path": "transcripts/atlas/abrams_kill_high_networth.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "All the money in the world can't buy talent",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_kill_high_networth.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "All the money in the world can't buy talent",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_kill_high_networth.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "All the money in the world can't buy talent.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "28c964ecdbb93bbf6e005c08e7b4bead46b03f40db48f0ac8cbbad1ce6490c94",
+      "winner": {
+        "path": "transcripts/hornet/ping/vindicta_ping_headed_blue_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Headed to Blue",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/hornet/ping/hornet_ping_headed_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Headed to Blue.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/hornet/ping/vindicta_ping_headed_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Headed to Blue",
+          "lastFileEditUnix": 1790976284
+        }
+      ]
+    },
+    {
+      "sha256": "38be4ee2817e7456f2db0673516804e1df534f63d6bfbfe83e35c7e6219138e6",
+      "winner": {
+        "path": "transcripts/hornet/ping/hornet_ping_attack_chrono.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's take out Paradox.",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/hornet/ping/hornet_ping_attack_chrono.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Paradox.",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/hornet/ping/vindicta_ping_attack_chrono.mp3.json",
+          "revisionIndex": 2,
+          "source": "official",
+          "text": "Let's take out Chrono",
+          "lastFileEditUnix": 1790817260
+        }
+      ]
+    },
+    {
+      "sha256": "42d4d3d76f56c5516dca958af51e9f50d6a6b8f51bac6d9046e7c254662fca33",
+      "winner": {
+        "path": "transcripts/atlas/abrams_kill_high_networth.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "All the money in the world can't buy talent",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_kill_high_networth.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "All the money in the world can't buy talent",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_kill_high_networth.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "All the money in the world can't buy talent.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "4865ddeb91ef3afd9213d21a45dcf2c6524ac3d567cc113a7eda97fcb1575a9d",
+      "winner": {
+        "path": "transcripts/krill/krill_ally_ghost_killed_in_lane_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "They took out Geist!",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/krill/krill_ally_geist_killed_in_lane_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "They killed Geist!",
+          "lastFileEditUnix": 1790817260
+        },
+        {
+          "path": "transcripts/krill/krill_ally_ghost_killed_in_lane_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "They took out Geist!",
+          "lastFileEditUnix": 1790976284
+        }
+      ]
+    },
+    {
+      "sha256": "65aa51928cf81dfb22fe42c3fa2a4f7eb4c487782ba0ca83af30ea32f05e7775",
+      "winner": {
+        "path": "transcripts/atlas/abrams_enemy_inferno_killed_mid_ult_01.mp3.json",
+        "revisionIndex": 1,
+        "source": "official",
+        "text": "You never had what it takes Infernus",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_enemy_inferno_killed_mid_ult_01.mp3.json",
+          "revisionIndex": 1,
+          "source": "official",
+          "text": "You never had what it takes Infernus",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_enemy_inferno_killed_mid_ult_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "You never had what it takes Infernus.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "67087c78acac3d96175ae75a2b7d9f18332b3f407643a4fa82f4ae6441ddaef9",
+      "winner": {
+        "path": "transcripts/atlas/abrams_ally_haze_big_ult_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Good lord",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_ally_haze_big_ult_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Good lord",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_ally_haze_big_ult_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Good lord.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "6a5ee2c35986304826fe4f0c6d484ae6521a0cf5123cac74a68fa912a5c61ee5",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_attack_bebop.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's take out Bebop",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_attack_bebop.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Bebop",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_attack_bebop.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Bebop.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "70dc5781245ea0948b3b4a24c9b8c3aace17822f7dca8c7833b446fd0e5a18dc",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_push_blue_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's push Blue",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_push_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's push Blue",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_push_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's push Blue.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "7e373cbf9b563af1eb4db657fac68ab49eda4d4a526e16bffb71266302b03240",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_hornet_missing_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "vindicta's missing",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_hornet_missing_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "vindicta's missing",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_hornet_missing_01_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Vindicta's missing.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_vindicta_missing_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Vindicta's missing.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_vindicta_missing_01_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Vindicta's missing.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_hornet_missing_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Vindicta's missing.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "8b1bbc2319a2e5c3307384b95749c33a1b01276b440ff748511995079f013a95",
+      "winner": {
+        "path": "transcripts/atlas/abrams_upgrade_power2_08.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "You'd think people would know by now that fighting me is a mistake",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_upgrade_power2_08.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "You'd think people would know by now that fighting me is a mistake",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_upgrade_power2_08.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "You'd think people would know by now that fighting me is a mistake.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "8b4990c4ce697aa334e095a42c69e8c8d74ce6b34593143fb7743c1aa59a4375",
+      "winner": {
+        "path": "transcripts/hornet/ping/vindicta_ping_headed_blue_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Headed to Blue",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/hornet/ping/hornet_ping_headed_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Headed to Blue.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/hornet/ping/vindicta_ping_headed_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Headed to Blue",
+          "lastFileEditUnix": 1790976284
+        }
+      ]
+    },
+    {
+      "sha256": "8ea8cb40e83a191fd8713dc69af9bae4f3a12c5b33c773efa8fa31d55c2bcb38",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_push_blue_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's push Blue",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_push_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's push Blue",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_push_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's push Blue.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "91cade55043592b9db36428a505e113372fecfcf7935ee85fa308fe500aa9d71",
+      "winner": {
+        "path": "transcripts/lash/lash_ally_inferno_killed_in_lane_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "They took out Infernus!",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/lash/lash_ally_inferno_killed_in_lane_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "They took out Infernus!",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/lash/lash_ally_infernus_killed_in_lane_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "They killed the bartender!",
+          "lastFileEditUnix": 1790817260
+        }
+      ]
+    },
+    {
+      "sha256": "9780b2c60e14acd1e913a0fa22c3ba60cc8c8cdd2a36928a068748f0b3734160",
+      "winner": {
+        "path": "transcripts/atlas/abrams_ally_hornet_far_snipe_02.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Damn that was pretty",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_ally_hornet_far_snipe_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Damn that was pretty",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_ally_hornet_far_snipe_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Damn that was pretty.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "9c79bffe096c9c3e6d22ecf4dce4c2fbd24109ac8190e36de5a91856241a5f72",
+      "winner": {
+        "path": "transcripts/atlas/abrams_desperation_power2_02.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "This book better save my ass..",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_desperation_power2_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "This book better save my ass..",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_desperation_power2_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "This book better save my ass…",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "acf038b353e22560cb874050689a01d0c01cbb9b41d6e75af3a90852b796067d",
+      "winner": {
+        "path": "transcripts/atlas/abrams_ally_hornet_far_snipe_02.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Damn that was pretty",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_ally_hornet_far_snipe_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Damn that was pretty",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_ally_hornet_far_snipe_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Damn that was pretty.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "b076cacd2f28643697c4f8a242b23e2396639b99e16e261dc1b966cd304cba43",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_careful_inferno_02.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Careful, Infernus",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_careful_inferno_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Careful, Infernus",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_careful_inferno_02_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Careful, Infernus.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_careful_infernus_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Careful, Infernus.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_careful_infernus_02_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Careful, Infernus.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_careful_inferno_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Careful, Infernus.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "b87c52d9e6f649e7a76a5e2bd9fe29dd80cd191a429fb2514ea58dd10ff58313",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_see_dynamo_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "I see Dynamo",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_see_dynamo_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "I see Dynamo",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_see_dynamo_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "I see Dynamo.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "baf272b988941cfdcdbfc812f4b064e5587ff47f6088fbb77f5e3d114b481c37",
+      "winner": {
+        "path": "transcripts/haze/ping/haze_ping_see_abrams_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "I see Abrams.",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/haze/ping/haze_ping_see_abrams_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "I see Abrams.",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/haze/ping/haze_ping_see_atlas.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "I see Abrams",
+          "lastFileEditUnix": 1790723609
+        }
+      ]
+    },
+    {
+      "sha256": "c481b0e74380ba6dba64ee79fc1be618a591ca70ef3c64f691f6564e07526862",
+      "winner": {
+        "path": "transcripts/hornet/ping/vindicta_ping_headed_blue_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Headed to Blue",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/hornet/ping/hornet_ping_headed_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Headed to Blue.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/hornet/ping/vindicta_ping_headed_blue_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Headed to Blue",
+          "lastFileEditUnix": 1790976284
+        }
+      ]
+    },
+    {
+      "sha256": "c5d97142e91504079cef93ed9b5ef09fcf7da7fcc6715e9ad034614a464c2f10",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_inferno_missing_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Infernus's missing.",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_inferno_missing_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Infernus's missing.",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_inferno_missing_01_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Infernus's missing",
+          "lastFileEditUnix": 1789300370
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_infernus_missing_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Infernus's missing",
+          "lastFileEditUnix": 1789300370
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_infernus_missing_01_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Infernus's missing",
+          "lastFileEditUnix": 1789300370
+        }
+      ]
+    },
+    {
+      "sha256": "c652aa3e5f333f9703713041b1436b96c10e9e0eafc1868ae41554f7be301209",
+      "winner": {
+        "path": "transcripts/atlas/abrams_desperation_power2_02.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "This book better save my ass..",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_desperation_power2_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "This book better save my ass..",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_desperation_power2_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "This book better save my ass…",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "cd89bec2ea1fb719e9e188fcf5b0a0dc710900273dd2d02f922a6642a523c3c2",
+      "winner": {
+        "path": "transcripts/bebop/bebop_match_start_bebop_shiv_convo01_02.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "I've found that pit fighting is two parts violence, one part theatrics.  You should give it a try sometime, bet you'd be a natural.",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/bebop/bebop_match_start_bebop_shiv_convo01_02.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "I've found that pit fighting is two parts violence, one part theatrics.  You should give it a try sometime, bet you'd be a natural.",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/bebop/bebop_match_start_bebop_shiv_convo01_03.mp3.json",
+          "revisionIndex": 0,
+          "source": "manual",
+          "text": "I've found that pit fighting is two parts violence, one part theatrics.  You should give it a try sometime, bet you'd be a natural.",
+          "lastFileEditUnix": 1790811156
+        }
+      ]
+    },
+    {
+      "sha256": "d666cf1431398573107b8b3ae85ee45a6118878f64a958411db56f76bde90ba1",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_push_yellow_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's push Yellow",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_push_yellow_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's push Yellow",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_push_yellow_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's push Yellow.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "dc370b266ec3fa985a221e81157ef63b9e530ed46d9c40f98526635e78f0f710",
+      "winner": {
+        "path": "transcripts/atlas/abrams_upgrade_power2_08.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "You'd think people would know by now that fighting me is a mistake",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/abrams_upgrade_power2_08.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "You'd think people would know by now that fighting me is a mistake",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/atlas_upgrade_power2_08.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "You'd think people would know by now that fighting me is a mistake.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "dfbf224079fedf7c227afc7310f7478c8d5a5fc3924d3d22477cd57c7d6656f8",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_see_dynamo_01.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "I see Dynamo",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_see_dynamo_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "I see Dynamo",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_see_dynamo_01.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "I see Dynamo.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "e5e8c26cd9713e08afb4918cc96a468d58dc9f29ed47bd191e2b8300a786fd1d",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_attack_inferno.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's take out Infernus",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_attack_inferno.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Infernus",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_attack_inferno_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Infernus.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_attack_infernus.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Infernus.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_attack_infernus_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Infernus.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_attack_inferno.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Infernus.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "e8889ec063c30e417b7f6306e50ed09c2507405ba0d5625b2ab6cc5450f571b1",
+      "winner": {
+        "path": "transcripts/hornet/ping/hornet_ping_attack_chrono.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's take out Paradox.",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/hornet/ping/hornet_ping_attack_chrono.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Paradox.",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/hornet/ping/vindicta_ping_attack_chrono.mp3.json",
+          "revisionIndex": 2,
+          "source": "official",
+          "text": "Let's take out Chrono",
+          "lastFileEditUnix": 1790817260
+        }
+      ]
+    },
+    {
+      "sha256": "eb10c66f791375a6bebb2d9f5f18e9f66f02e9e435c335b606ee9fc0761c0f64",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_attack_bebop.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Let's take out Bebop",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_attack_bebop.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Bebop",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_attack_bebop.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Let's take out Bebop.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    },
+    {
+      "sha256": "f658331d06f66f20199715eb627398410eadddb3d7b16be9478e3c3b50da0928",
+      "winner": {
+        "path": "transcripts/gigawatt/gigawatt_match_start_gigawatt_inferno_convo02_05.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Please: I don't like murder.  I'm indifferent to it.",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/gigawatt/gigawatt_match_start_gigawatt_inferno_convo02_05.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Please: I don't like murder.  I'm indifferent to it.",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/gigawatt/gigawatt_match_start_gigawatt_inferno_convo02_05gigawatt_match_start_gigawatt_inferno_convo02_05.mp3.json",
+          "revisionIndex": 0,
+          "source": "generated",
+          "text": "Please, I don't like murder. I'm indifferent to it.",
+          "lastFileEditUnix": 1786669824
+        }
+      ]
+    },
+    {
+      "sha256": "fb4caae3074fdac0018461deb8433b8f8e9f3a139563f06c175c554740d7cb10",
+      "winner": {
+        "path": "transcripts/atlas/ping/abrams_ping_ability1_almost_ready.mp3.json",
+        "revisionIndex": 0,
+        "source": "official",
+        "text": "Siphon's almost ready",
+        "lastFileEditUnix": 1790976284
+      },
+      "candidates": [
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_ability1_almost_ready.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Siphon's almost ready",
+          "lastFileEditUnix": 1790976284
+        },
+        {
+          "path": "transcripts/atlas/ping/abrams_ping_ability1_almost_ready_1.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Siphon's almost ready.",
+          "lastFileEditUnix": 1790827683
+        },
+        {
+          "path": "transcripts/atlas/ping/atlas_ping_ability1_almost_ready.mp3.json",
+          "revisionIndex": 0,
+          "source": "official",
+          "text": "Siphon's almost ready.",
+          "lastFileEditUnix": 1790827683
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "approvals": [
+    {
+      "path": "config/deadlock/character-mappings.json",
+      "sha256": "6c25e4b3bf1eca9d443481f491ab89f7c551d90eda3cef08d9441d7f0e03c724",
+      "releases": [
+        {
+          "version": "cns",
+          "publishedAt": "2026-09-29T20:57:45.436691Z",
+          "contentRevision": 21
+        },
+        {
+          "version": "cns-rat",
+          "publishedAt": "2026-10-02T21:20:35.062831Z",
+          "contentRevision": 1
+        }
+      ]
+    },
+    {
+      "path": "config/deadlock/versions/cns/audio-filename-overrides.json",
+      "sha256": "4e325fac91321b9851b59a66657b7cc1d9e8c2035a232b25e22ba74c036c932b",
+      "releases": [
+        {
+          "version": "cns",
+          "publishedAt": "2026-09-29T20:57:45.436691Z",
+          "contentRevision": 21
+        }
+      ]
+    },
+    {
+      "path": "config/deadlock/versions/cns-rat/audio-filename-overrides.json",
+      "sha256": "3aebfe2278e137fcd0d8bac8f38807fd0fb948e6c1f3f16f64dc0b3ca0904a9d",
+      "releases": [
+        {
+          "version": "cns-rat",
+          "publishedAt": "2026-10-02T21:20:35.062831Z",
+          "contentRevision": 1
+        }
+      ]
+    }
+  ]
+}

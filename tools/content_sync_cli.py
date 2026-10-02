@@ -18,6 +18,7 @@ from .content_sync import (
     deploy_plan,
     hash_preservation_errors,
     load_conflict_approvals,
+    load_regeneration_approvals,
     require_checked_out_target,
     validate_repository,
     write_backups,
@@ -41,6 +42,7 @@ def add_common(parser: argparse.ArgumentParser) -> None:
         "--cdn-base-url",
         default=os.environ.get("CDN_BASE_URL", "https://cdn.vlviewer.com"),
     )
+    parser.add_argument("--regeneration-approvals", type=Path, help="Exact generator configs already regenerated and published")
     parser.add_argument("--output-json", type=Path)
     parser.add_argument("--output-markdown", type=Path)
     parser.add_argument(
@@ -141,6 +143,7 @@ def plan_command(args: argparse.Namespace) -> int:
         args.game,
         args.cdn_base_url,
         load_conflict_approvals(args.conflict_approvals),
+        load_regeneration_approvals(args.regeneration_approvals),
     )
     plan = planner.build(
         target=args.target,
@@ -217,6 +220,7 @@ def deploy_command(args: argparse.Namespace) -> int:
         args.game,
         args.cdn_base_url,
         load_conflict_approvals(args.conflict_approvals),
+        load_regeneration_approvals(args.regeneration_approvals),
     )
     plan = planner.build(
         target=target_commit,

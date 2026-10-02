@@ -10,6 +10,7 @@ on:
       - "tools/content_sync_cli.py"
       - "tools/voiceline_history.py"
       - "tools/voiceline_search.py"
+      - "reports/ci-recovery-20261002/regeneration-approvals.json"
       - "requirements-ci.txt"
       - ".github/workflows/content-sync-deploy.yml"
   workflow_dispatch:
@@ -99,6 +100,7 @@ jobs:
             deploy
             --repo "$GITHUB_WORKSPACE"
             --target "$GITHUB_SHA"
+            --regeneration-approvals "reports/ci-recovery-20261002/regeneration-approvals.json"
             --bucket "$R2_BUCKET"
             --endpoint-url "$R2_ENDPOINT_URL"
             --cdn-base-url "$CDN_BASE_URL"

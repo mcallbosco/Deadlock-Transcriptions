@@ -80,6 +80,7 @@ jobs:
               --repo "$GITHUB_WORKSPACE" \
               --base "$BASE_COMMIT" \
               --target "${{ github.event.pull_request.head.sha }}" \
+              --regeneration-approvals "reports/ci-recovery-20261002/regeneration-approvals.json" \
               --cdn-base-url "$CDN_BASE_URL" \
               --output-json "$RUNNER_TEMP/content-sync/plan.json" \
               --output-preview-json "$RUNNER_TEMP/content-sync/preview.json" \
