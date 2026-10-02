@@ -135,8 +135,10 @@ def conflicting_relative_paths(
 def plan_reconciliation(
     transcripts: Path,
     recency: dict[str, int],
+    documents: dict[Path, dict[str, Any]] | None = None,
 ) -> tuple[dict[Path, dict[str, Any]], dict[str, Any]]:
-    documents = load_documents(transcripts)
+    if documents is None:
+        documents = load_documents(transcripts)
     occurrences: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for path, document in documents.items():
         relative = path.relative_to(transcripts.parent).as_posix()
@@ -200,7 +202,9 @@ def plan_reconciliation(
         for document in documents.values():
             groups = defaultdict(list)
             for revision in document.get("revisions", []):
-                groups[transcript_group_key(revision)].extend(revision.get("sha256", []))
+                for digest in revision.get("sha256", []):
+                    desired = winners[digest]["revision"] if digest in winners else revision
+                    groups[transcript_group_key(desired)].append(digest)
             for key, hashes in groups.items():
                 candidates = [winners[digest] for digest in hashes if digest in winners
                               and transcript_group_key(winners[digest]["revision"]) == key]
@@ -291,8 +295,9 @@ def apply_reconciliation(
     recency: dict[str, int],
     *,
     apply: bool,
+    documents: dict[Path, dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
-    changes, report = plan_reconciliation(transcripts, recency)
+    changes, report = plan_reconciliation(transcripts, recency, documents)
     if apply:
         for path, document in changes.items():
             path.write_text(canonical_json(document), encoding="utf-8")
@@ -317,7 +322,7 @@ def main(argv: Iterable[str] | None = None) -> int:
         paths = conflicting_relative_paths(documents, repo)
         history_repo = (args.history_repo or repo).resolve()
         recency = git_recency(history_repo, args.recency_ref, paths)
-        report = apply_reconciliation(transcripts, recency, apply=args.apply)
+        report = apply_reconciliation(transcripts, recency, apply=args.apply, documents=documents)
         if args.output_json:
             output = args.output_json
             if not output.is_absolute():

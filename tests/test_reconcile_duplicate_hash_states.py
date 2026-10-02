@@ -151,6 +151,19 @@ class ReconcileDuplicateHashStatesTests(unittest.TestCase):
         for path in [grouped, newer, sibling]:
             self.assertEqual(self.revision(path)[0]["text"], "vindicta's missing")
 
+    def test_changed_wording_joins_existing_equivalent_group_and_propagates(self):
+        path = self.write("grouped.json", text="Let's take out Chrono", source="official")
+        value = json.loads(path.read_text())
+        value["revisions"].append({"sha256": [SIBLING], "text": "Let's take out Paradox", "source": "official"})
+        path.write_text(json.dumps(value))
+        self.write("newer.json", text="Let's take out Paradox.", source="official")
+        sibling = self.write("sibling.json", text="Let's take out Paradox", source="official", hashes=[SIBLING])
+        apply_reconciliation(self.transcripts, {"transcripts/grouped.json": 100,
+            "transcripts/newer.json": 200, "transcripts/sibling.json": 100}, apply=True)
+        self.assertEqual(len(self.revision(path)), 1)
+        self.assertEqual(self.revision(path)[0]["text"], "Let's take out Paradox.")
+        self.assertEqual(self.revision(sibling)[0]["text"], "Let's take out Paradox.")
+
     def test_recency_scan_is_scoped_to_conflicting_paths(self):
         self.write("same-a.json", text="same", source="generated", hashes=[SIBLING])
         self.write("same-b.json", text="same", source="manual", hashes=[SIBLING])
