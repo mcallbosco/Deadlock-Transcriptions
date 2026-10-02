@@ -4,8 +4,9 @@ The last successful transcript cursor was `22cde42fad75cf5619822a3a84690bfde0a17
 The October 2 import introduced 32 conflicting recording hashes across filename
 aliases. `duplicate-hash-reconciliation.json` records all candidates and the chosen
 state. All candidates are official transcripts; in every decision the most recently
-edited file supplies the state. The correction updates 34 files and splits 28 revision
-groups so unrelated recordings keep their original state. No recording hashes are removed.
+edited file supplies the state. The correction updates 34 files. Newest punctuation and capitalization also
+propagate to equivalent sibling recordings and their aliases (64 hashes); existing
+groups remain together, with zero revision-group splits. No recording hashes are removed.
 
 The owner confirmed that structural content regeneration is already complete.
 The CDN release metadata confirms `cns-rat` was published at
