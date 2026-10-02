@@ -21,3 +21,7 @@ Both CI planning and deployment pass this acknowledgement file explicitly. It do
 not update structural content; that is handled by Historical Content regeneration.
 It lets the transcript updater catch up from the old cursor against the regenerated
 catalogs, including rebuilding history/lineage metadata for the transcript editor.
+
+The published `cns-rat` release is also added to the chronological official history
+version list. Its omission prevented history/lineage regeneration even after resolving
+the transcript conflicts and acknowledging the completed structural regeneration.
