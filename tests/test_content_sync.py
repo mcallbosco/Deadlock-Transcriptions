@@ -23,6 +23,7 @@ from tools.content_sync import (
     compact_json,
     deploy_plan,
     load_conflict_approvals,
+    load_regeneration_approvals,
     sha256_bytes,
     validate_repository,
     verify_public_writes,
@@ -869,6 +870,45 @@ class ContentSyncTests(unittest.TestCase):
             plan.unsupported_paths,
             ["config/deadlock/character-mappings.json"],
         )
+
+    def test_regeneration_acknowledgement_requires_exact_config_and_published_release(self) -> None:
+        config_path = "config/deadlock/character-mappings.json"
+        self.write_json(self.repo / config_path, {})
+        self.commit("regenerated config")
+        evidence = {"version": "v1", "publishedAt": "2026-10-02T21:20:35Z", "contentRevision": 1}
+        approval = {"path": config_path, "sha256": sha256_bytes(canonical_json({})), "releases": [evidence]}
+        published = self.published()
+        published["deadlock/versions/v1/release.json"].update(id="v1", publishedAt=evidence["publishedAt"], contentRevision=2)
+        plan = ContentSyncPlanner(self.repo, MemoryStore(published), cdn_base_url=CDN,
+            regeneration_approvals={config_path: approval}).build(base=self.base)
+        self.assertTrue(plan.deployable, plan.to_markdown())
+        self.assertIn(config_path, plan.ignored_paths)
+        self.assertTrue(any("Regeneration already completed" in item for item in plan.warnings))
+        for field, value in [("publishedAt", "different"), ("contentRevision", 0), ("id", "other")]:
+            with self.subTest(field=field):
+                changed = json.loads(json.dumps(published))
+                changed["deadlock/versions/v1/release.json"][field] = value
+                blocked = ContentSyncPlanner(self.repo, MemoryStore(changed), cdn_base_url=CDN,
+                    regeneration_approvals={config_path: approval}).build(base=self.base)
+                self.assertFalse(blocked.deployable)
+                self.assertIn(config_path, blocked.unsupported_paths)
+        self.write_json(self.repo / config_path, {"newhero": ["newhero"]})
+        self.commit("new config requires another regeneration")
+        blocked = ContentSyncPlanner(self.repo, MemoryStore(published), cdn_base_url=CDN,
+            regeneration_approvals={config_path: approval}).build(base=self.base)
+        self.assertFalse(blocked.deployable)
+        self.assertIn(config_path, blocked.unsupported_paths)
+
+    def test_regeneration_approval_loader_rejects_missing_evidence_and_duplicate_paths(self) -> None:
+        path = self.repo / "approvals.json"
+        entry = {"path": "config/deadlock/character-mappings.json", "sha256": SHA,
+                 "releases": [{"version": "v1", "publishedAt": "2026-10-02", "contentRevision": 1}]}
+        self.write_json(path, {"schemaVersion": 1, "approvals": [entry]})
+        self.assertEqual(load_regeneration_approvals(path), {entry["path"]: entry})
+        for entries in [[entry, entry], [{**entry, "releases": []}], [{**entry, "sha256": "bad"}]]:
+            self.write_json(path, {"schemaVersion": 1, "approvals": entries})
+            with self.assertRaises(ContentSyncError):
+                load_regeneration_approvals(path)
 
     def test_planning_rejects_uncommitted_content(self) -> None:
         self.write_transcript("uncommitted", "manual")

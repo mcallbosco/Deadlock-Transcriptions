@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any, Iterable
 
-from tools.transcript_schema import SOURCE_PRIORITY
+from tools.transcript_schema import SOURCE_PRIORITY, compact_revisions, transcript_group_key
 
 
 class ReconciliationError(ValueError):
@@ -135,8 +135,10 @@ def conflicting_relative_paths(
 def plan_reconciliation(
     transcripts: Path,
     recency: dict[str, int],
+    documents: dict[Path, dict[str, Any]] | None = None,
 ) -> tuple[dict[Path, dict[str, Any]], dict[str, Any]]:
-    documents = load_documents(transcripts)
+    if documents is None:
+        documents = load_documents(transcripts)
     occurrences: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for path, document in documents.items():
         relative = path.relative_to(transcripts.parent).as_posix()
@@ -191,9 +193,44 @@ def plan_reconciliation(
             }
         )
 
+    # Preserve existing punctuation-equivalent groups. A newer duplicate state
+    # applies to sibling hashes only when the spoken-text grouping key matches.
+    # Iterate because those siblings may be grouped under another filename alias.
+    punctuation_propagated = set()
+    while True:
+        changed = False
+        for document in documents.values():
+            groups = defaultdict(list)
+            for revision in document.get("revisions", []):
+                for digest in revision.get("sha256", []):
+                    desired = winners[digest]["revision"] if digest in winners else revision
+                    groups[transcript_group_key(desired)].append(digest)
+            for key, hashes in groups.items():
+                candidates = [winners[digest] for digest in hashes if digest in winners
+                              and transcript_group_key(winners[digest]["revision"]) == key]
+                if not candidates:
+                    continue
+                winner = max(candidates, key=lambda item: (
+                    SOURCE_PRIORITY.get(str(item["revision"].get("source") or ""), -1),
+                    item["recency"], item["path"], -item["index"],
+                ))
+                for digest in hashes:
+                    previous = winners.get(digest)
+                    if previous is not None and transcript_group_key(previous["revision"]) != key:
+                        continue
+                    if previous is not winner:
+                        winners[digest] = winner
+                        punctuation_propagated.add(digest)
+                        changed = True
+        if not changed:
+            break
+
     changes: dict[Path, dict[str, Any]] = {}
     split_revisions = 0
     for path, original in documents.items():
+        if not any(digest in winners for revision in original.get("revisions", [])
+                   for digest in revision.get("sha256", [])):
+            continue
         updated = copy.deepcopy(original)
         replacements: list[dict[str, Any]] = []
         for revision in updated.get("revisions", []):
@@ -219,7 +256,8 @@ def plan_reconciliation(
                 else:
                     replacement.pop("model", None)
                 replacements.append(replacement)
-        updated["revisions"] = replacements
+        # Equivalent revisions use the propagated latest spelling, then compact.
+        updated["revisions"] = compact_revisions(replacements)
         if updated != original:
             changes[path] = updated
 
@@ -232,14 +270,22 @@ def plan_reconciliation(
             "sourcePriority": ["official", "manual", "generated"],
             "tieBreaker": "most_recent_file_edit_then_path",
             "winnerProvenanceAppliedToEveryDuplicateHashOccurrence": True,
+            "preservePunctuationEquivalentGroups": True,
         },
         "statistics": {
-            "reconciledHashes": len(winners),
+            "reconciledHashes": len(decisions),
+            "punctuationPropagationHashes": len(punctuation_propagated),
             "changedFiles": len(changes),
             "splitRevisionGroups": split_revisions,
             "winnerSources": dict(sorted(winner_sources.items())),
         },
         "decisions": decisions,
+        "punctuationPropagation": [
+            {"sha256": digest, "winnerPath": winners[digest]["path"],
+             "text": winners[digest]["revision"]["text"],
+             "source": winners[digest]["revision"]["source"]}
+            for digest in sorted(punctuation_propagated)
+        ],
     }
     return changes, report
 
@@ -249,8 +295,9 @@ def apply_reconciliation(
     recency: dict[str, int],
     *,
     apply: bool,
+    documents: dict[Path, dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
-    changes, report = plan_reconciliation(transcripts, recency)
+    changes, report = plan_reconciliation(transcripts, recency, documents)
     if apply:
         for path, document in changes.items():
             path.write_text(canonical_json(document), encoding="utf-8")
@@ -275,7 +322,7 @@ def main(argv: Iterable[str] | None = None) -> int:
         paths = conflicting_relative_paths(documents, repo)
         history_repo = (args.history_repo or repo).resolve()
         recency = git_recency(history_repo, args.recency_ref, paths)
-        report = apply_reconciliation(transcripts, recency, apply=args.apply)
+        report = apply_reconciliation(transcripts, recency, apply=args.apply, documents=documents)
         if args.output_json:
             output = args.output_json
             if not output.is_absolute():

@@ -1470,6 +1470,36 @@ def load_conflict_approvals(path: Path | None) -> frozenset[ConflictApproval]:
     return frozenset(approvals)
 
 
+def load_regeneration_approvals(path: Path | None) -> dict[str, dict[str, Any]]:
+    """Load exact configuration states already regenerated outside this updater."""
+    if path is None:
+        return {}
+    value = json.loads(Path(path).read_text(encoding="utf-8"))
+    if not isinstance(value, dict) or value.get("schemaVersion") != 1 or not isinstance(value.get("approvals"), list):
+        raise ContentSyncError("Regeneration approvals must use schemaVersion 1 and an approvals array.")
+    approvals = {}
+    for entry in value["approvals"]:
+        if not isinstance(entry, dict) or set(entry) != {"path", "sha256", "releases"}:
+            raise ContentSyncError("Regeneration approvals require exactly path, sha256, and releases.")
+        path_value = entry["path"]
+        if not isinstance(path_value, str) or path_value in approvals:
+            raise ContentSyncError("Regeneration approval paths must be unique strings.")
+        if not isinstance(entry["sha256"], str) or not TRANSCRIPT_SHA_RE.fullmatch(entry["sha256"]):
+            raise ContentSyncError("Regeneration approval SHA-256 is invalid.")
+        if not isinstance(entry["releases"], list) or not entry["releases"]:
+            raise ContentSyncError("Regeneration approvals require published release evidence.")
+        for release in entry["releases"]:
+            if not isinstance(release, dict) or set(release) != {"version", "publishedAt", "contentRevision"}:
+                raise ContentSyncError("Regeneration release evidence is invalid.")
+            if (not isinstance(release["version"], str)
+                or not re.fullmatch(r"[a-z0-9][a-z0-9._-]*", release["version"])
+                or not isinstance(release["publishedAt"], str) or not release["publishedAt"]
+                or type(release["contentRevision"]) is not int or release["contentRevision"] < 1):
+                raise ContentSyncError("Regeneration release evidence is invalid.")
+        approvals[path_value] = entry
+    return approvals
+
+
 class ContentSyncPlanner:
     def __init__(
         self,
@@ -1478,12 +1508,14 @@ class ContentSyncPlanner:
         game: str = "deadlock",
         cdn_base_url: str = "https://cdn.vlviewer.com",
         conflict_approvals: Iterable[ConflictApproval] = (),
+        regeneration_approvals: dict[str, dict[str, Any]] | None = None,
     ) -> None:
         self.repo = Path(repo).expanduser().resolve()
         self.store = store
         self.game = game
         self.cdn_base_url = cdn_base_url.rstrip("/")
         self.conflict_approvals = frozenset(conflict_approvals)
+        self.regeneration_approvals = regeneration_approvals or {}
         self.loaded: dict[str, StoredJson] = {}
         self.uncached_reads = 0
 
@@ -2114,6 +2146,24 @@ class ContentSyncPlanner:
             "searchIndexChanged": search_changed,
         }
 
+    def _regeneration_acknowledged(self, path: str, plan: SyncPlan) -> bool:
+        approval = self.regeneration_approvals.get(path)
+        if approval is None:
+            return False
+        value = json.loads((self.repo / path).read_text(encoding="utf-8-sig"))
+        if sha256_bytes(canonical_json(value)) != approval["sha256"]:
+            return False
+        for evidence in approval["releases"]:
+            release = self.load(f"{self.game}/versions/{evidence['version']}/release.json").value
+            if (not isinstance(release, dict)
+                or release.get("id") != evidence["version"]
+                or release.get("publishedAt") != evidence["publishedAt"]
+                or type(release.get("contentRevision")) is not int
+                or release["contentRevision"] < evidence["contentRevision"]):
+                return False
+        plan.warnings.append(f"Regeneration already completed for {path}; exact config SHA-256 and published releases verified.")
+        return True
+
     def build(
         self,
         target: str = "HEAD",
@@ -2150,7 +2200,9 @@ class ContentSyncPlanner:
         for path in paths:
             if path.startswith(f"config/{self.game}/"):
                 classification, _version, _name = classify_config_path(path, self.game)
-                if classification in {"generator", "unknown"}:
+                if classification == "generator" and self._regeneration_acknowledged(path, plan):
+                    plan.ignored_paths.append(path)
+                elif classification in {"generator", "unknown"}:
                     plan.unsupported_paths.append(path)
                 elif classification == "validate_only":
                     plan.ignored_paths.append(path)

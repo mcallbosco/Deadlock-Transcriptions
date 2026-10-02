@@ -37,3 +37,16 @@ python tools/apply_phonetic_lineage_merges.py `
 The application preserves every represented recording hash, propagates the selected
 state to every filename containing a targeted hash, and leaves lower-confidence
 candidates unchanged.
+
+## Acknowledging completed structural regeneration
+
+The transcript updater blocks changes to generator inputs until Historical Content
+has regenerated and published the affected content. After that operation, pass
+`--regeneration-approvals <report.json>` to `tools.content_sync_cli plan` or `deploy`.
+Each approval names an exact generator configuration path, its canonical JSON SHA-256,
+and published release evidence (`version`, `publishedAt`, and minimum `contentRevision`).
+Changed configurations and missing or older releases remain blocked. Record the operator's
+confirmation and evidence alongside the approval; release metadata confirms publication,
+while the operator confirms which configuration was used for regeneration.
+
+The October 2 recovery is documented in `reports/ci-recovery-20261002/README.md`.
