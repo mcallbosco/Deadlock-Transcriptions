@@ -872,11 +872,27 @@ class ContentSyncTests(unittest.TestCase):
         )
 
     def test_regeneration_acknowledgement_requires_exact_config_and_published_release(self) -> None:
-        config_path = "config/deadlock/character-mappings.json"
-        self.write_json(self.repo / config_path, {})
+        self.check_regeneration_acknowledgement("config/deadlock/character-mappings.json")
+
+    def test_groups_regeneration_acknowledgement_requires_exact_config_and_published_release(self) -> None:
+        groups = {
+            "schemaVersion": 1,
+            "unmatched": {"voice": "keep-topic-at-root", "ping": "keep-topic-at-pings-root"},
+            "pingRoot": "Pings",
+            "groups": [],
+            "overrides": [],
+        }
+        self.check_regeneration_acknowledgement(
+            "config/deadlock/voiceline-groups.json", groups,
+            {**groups, "rootTopicOrder": ["hero_debut"]})
+
+    def check_regeneration_acknowledgement(self, config_path: str, config=None, changed_config=None) -> None:
+        config = {} if config is None else config
+        changed_config = {"newhero": ["newhero"]} if changed_config is None else changed_config
+        self.write_json(self.repo / config_path, config)
         self.commit("regenerated config")
         evidence = {"version": "v1", "publishedAt": "2026-10-02T21:20:35Z", "contentRevision": 1}
-        approval = {"path": config_path, "sha256": sha256_bytes(canonical_json({})), "releases": [evidence]}
+        approval = {"path": config_path, "sha256": sha256_bytes(canonical_json(config)), "releases": [evidence]}
         published = self.published()
         published["deadlock/versions/v1/release.json"].update(id="v1", publishedAt=evidence["publishedAt"], contentRevision=2)
         plan = ContentSyncPlanner(self.repo, MemoryStore(published), cdn_base_url=CDN,
@@ -892,7 +908,7 @@ class ContentSyncTests(unittest.TestCase):
                     regeneration_approvals={config_path: approval}).build(base=self.base)
                 self.assertFalse(blocked.deployable)
                 self.assertIn(config_path, blocked.unsupported_paths)
-        self.write_json(self.repo / config_path, {"newhero": ["newhero"]})
+        self.write_json(self.repo / config_path, changed_config)
         self.commit("new config requires another regeneration")
         blocked = ContentSyncPlanner(self.repo, MemoryStore(published), cdn_base_url=CDN,
             regeneration_approvals={config_path: approval}).build(base=self.base)

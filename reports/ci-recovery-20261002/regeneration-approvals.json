@@ -2,6 +2,17 @@
   "schemaVersion": 1,
   "approvals": [
     {
+      "path": "config/deadlock/voiceline-groups.json",
+      "sha256": "24314c290c3daa9b428dfe9ac160e018e51bc38b20b2ed3a883fdc6b7dd9ecc2",
+      "releases": [
+        {
+          "version": "cns-deadman",
+          "publishedAt": "2026-10-13T21:29:20.583520Z",
+          "contentRevision": 2
+        }
+      ]
+    },
+    {
       "path": "config/deadlock/character-mappings.json",
       "sha256": "6c25e4b3bf1eca9d443481f491ab89f7c551d90eda3cef08d9441d7f0e03c724",
       "releases": [
