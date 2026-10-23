@@ -11,7 +11,7 @@ from typing import Any
 
 from tools.audit_phonetic_lineage_merges import build_lineages, canonical_json, load_inputs
 from tools.content_sync import validate_repository
-from tools.transcript_schema import transcript_match_key
+from tools.transcript_schema import transcript_match_key, matching_revision_tags
 
 
 def state(revision: dict[str, Any]) -> dict[str, Any]:
@@ -47,6 +47,7 @@ def plan_documents(
                 if len(texts) != 1:
                     ambiguous.append({"filename": filename, "revisionIndex": index, "officialTexts": sorted(texts)})
                     continue
+                matching_revision_tags([revision, *(documents[name]["revisions"][i] for name, i in origins)])
                 candidates.append({
                     "filename": filename,
                     "revisionIndex": index,
@@ -69,15 +70,21 @@ def plan_documents(
         for filename, index in occurrences[digest]:
             revision = documents[filename]["revisions"][index]
             if revision["source"] == "official":
-                if state(revision) != {"text": text, "source": "official"}:
+                if revision["text"] != text:
                     blocked.add(digest)
             elif revision["source"] not in {"manual", "generated"} or transcript_match_key(revision["text"]) != transcript_match_key(text):
                 blocked.add(digest)
 
-    targets = {
-        digest: {"text": next(iter(texts)), "source": "official"}
-        for digest, texts in proposed.items() if digest not in blocked
-    }
+    targets = {}
+    for digest, texts in proposed.items():
+        if digest in blocked:
+            continue
+        revisions = [documents[name]["revisions"][index] for name, index in occurrences[digest]]
+        tags = matching_revision_tags(revisions)
+        target = {"text": next(iter(texts)), "source": "official"}
+        if tags or any("tags" in revision for revision in revisions):
+            target["tags"] = list(tags)
+        targets[digest] = target
     additions: dict[tuple[str, int], set[str]] = defaultdict(set)
     operations = []
     for candidate in candidates:

@@ -12,6 +12,11 @@ from pathlib import Path
 from typing import Any, Iterable
 
 try:
+    from transcript_schema import preserve_revision_tags
+except ModuleNotFoundError:
+    from tools.transcript_schema import preserve_revision_tags
+
+try:
     from apply_reviewed_generated_duration_merges import (
         load_review,
         reconcile_audit_objections,
@@ -129,7 +134,7 @@ def restore_document(
                 replacement["model"] = model
             output.append(replacement)
 
-    updated["revisions"] = output
+    updated["revisions"] = preserve_revision_tags(document["revisions"], output)
     before = Counter(
         digest for revision in document["revisions"] for digest in revision_hashes(revision)
     )

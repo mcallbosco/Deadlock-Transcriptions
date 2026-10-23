@@ -104,7 +104,7 @@ def plan_authoritative_merges(
         }
         for target_index, hashes in sorted(moved_by_target.items())
     ]
-    updated["revisions"] = compact_revisions(revision for revision in revisions if revision_hashes(revision))
+    updated["revisions"] = compact_revisions((revision for revision in revisions if revision_hashes(revision)), original_revisions=document["revisions"])
     after = hash_counts(updated)
     if before != after or any(count != 1 for count in after.values()):
         raise ValueError(f"{relative_path}: merge changed or duplicated represented hashes")
@@ -126,7 +126,7 @@ def plan_manual_correction(document: dict[str, Any], relative_path: str) -> tupl
     hashes = sorted({digest for revision in matching for digest in revision_hashes(revision)})
     updated["revisions"] = [revision for revision in updated["revisions"] if revision not in matching]
     updated["revisions"].append({"sha256": hashes, "text": correction["text"], "source": "manual"})
-    updated["revisions"] = compact_revisions(updated["revisions"])
+    updated["revisions"] = compact_revisions(updated["revisions"], original_revisions=document["revisions"])
     after = hash_counts(updated)
     if before != after or any(count != 1 for count in after.values()):
         raise ValueError(f"{relative_path}: correction changed or duplicated represented hashes")
@@ -190,7 +190,7 @@ def reconcile_document(
             revisions.append(preserved)
         for (text, source), hashes in replacements.items():
             revisions.append({"sha256": hashes, "text": text, "source": source})
-    updated["revisions"] = compact_revisions(revisions)
+    updated["revisions"] = compact_revisions(revisions, original_revisions=document["revisions"])
     after = hash_counts(updated)
     if before != after or any(count != 1 for count in after.values()):
         raise ValueError(f"{relative_path}: reconciliation changed or duplicated represented hashes")

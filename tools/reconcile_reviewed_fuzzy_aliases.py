@@ -11,6 +11,11 @@ from pathlib import Path
 from typing import Any
 
 try:
+    from transcript_schema import preserve_revision_tags
+except ModuleNotFoundError:
+    from tools.transcript_schema import preserve_revision_tags
+
+try:
     from audit_fuzzy_transcript_matches import canonical_json
     from transcript_schema import revision_hashes
 except ModuleNotFoundError:
@@ -149,7 +154,7 @@ def reconcile_document(
         by_state[key]["sha256"].extend(revision_hashes(revision))
     for revision in coalesced:
         revision["sha256"] = sorted(set(revision["sha256"]))
-    updated["revisions"] = coalesced
+    updated["revisions"] = preserve_revision_tags(document["revisions"], coalesced)
     if _hashes(updated) != before:
         raise ValueError("Alias reconciliation changed represented hashes")
     return updated, rewritten

@@ -15,6 +15,7 @@ from transcript_schema import (
     TRANSCRIPT_SCHEMA_VERSION,
     compact_revisions,
     revision_hashes,
+    revision_tags,
 )
 
 
@@ -25,7 +26,7 @@ def canonical_json(value: Any) -> str:
 def normalized_revision(value: Any, path: Path) -> dict[str, Any]:
     if not isinstance(value, dict):
         raise ValueError(f"{path}: revision must be an object")
-    unexpected = set(value) - {"sha256", "text", "source", "model"}
+    unexpected = set(value) - {"sha256", "text", "source", "model", "tags"}
     if unexpected:
         raise ValueError(f"{path}: unexpected revision fields: {sorted(unexpected)}")
     text = value.get("text")
@@ -50,6 +51,8 @@ def normalized_revision(value: Any, path: Path) -> dict[str, Any]:
         "text": text,
         "source": source,
     }
+    if "tags" in value:
+        result["tags"] = list(revision_tags(value))
     model = value.get("model")
     if model is not None:
         if not isinstance(model, str) or not model:

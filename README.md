@@ -50,3 +50,6 @@ confirmation and evidence alongside the approval; release metadata confirms publ
 while the operator confirms which configuration was used for regeneration.
 
 The October 2 recovery is documented in `reports/ci-recovery-20261002/README.md`.
+
+Content tag authoring, CDN payloads, and rollout requirements are documented in
+[Content tags](docs/content-tags.md).

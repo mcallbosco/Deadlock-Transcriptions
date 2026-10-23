@@ -271,7 +271,7 @@ def apply_targets_to_document(
             if model:
                 replacement["model"] = model
             output.append(replacement)
-    updated["revisions"] = compact_revisions(output)
+    updated["revisions"] = compact_revisions(output, original_revisions=document["revisions"])
     after = _hash_counts(updated)
     if before != after or any(count != 1 for count in after.values()):
         raise ValueError(f"{relative_path}: reviewed merge changed or duplicated hashes")

@@ -16,10 +16,11 @@ try:
     from tools.transcript_schema import (
         SOURCE_PRIORITY,
         revision_hashes,
+        preserve_revision_tags,
         transcript_match_key,
     )
 except ModuleNotFoundError:
-    from transcript_schema import SOURCE_PRIORITY, revision_hashes, transcript_match_key
+    from transcript_schema import SOURCE_PRIORITY, revision_hashes, transcript_match_key, preserve_revision_tags
 
 try:
     from tools.voiceline_history import build_filename_lineages, normalize_filename
@@ -306,7 +307,7 @@ def rewrite_documents(
         for revision in coalesced:
             revision["sha256"] = sorted(set(revision["sha256"]))
         updated = copy.deepcopy(original)
-        updated["revisions"] = coalesced
+        updated["revisions"] = preserve_revision_tags(original["revisions"], coalesced)
         after_hashes = Counter(
             digest
             for revision in updated["revisions"]

@@ -292,9 +292,11 @@ def _encode_variant(occurrences: list[_Occurrence], strings: _StringTable) -> li
     ]
 
 
-def _searchable_variant_signature(variants: list[list[Any]]) -> list[list[Any]]:
+def _searchable_variant_signature(
+    variants: list[list[Any]], strings: _StringTable, content_tags: Mapping[str, tuple[str, ...]],
+) -> list[list[Any]]:
     """Exclude playback-only fields when deciding whether search state changed."""
-    return [[variant[0], variant[2], variant[3]] for variant in variants]
+    return [[variant[0], variant[2], variant[3], content_tags.get(base64.urlsafe_b64decode(strings.values[variant[1]] + "=").hex(), ())] for variant in variants]
 
 
 def _compact_strings(records: list[list[Any]], strings: _StringTable) -> list[str]:
@@ -346,8 +348,10 @@ def build_search_index(
     game: str,
     transcript_states: Mapping[str, tuple[str, bool]],
     manual_correlations: Iterable[Iterable[str]] = (),
+    *, content_tags: Mapping[str, tuple[str, ...]] | None = None,
 ) -> SearchIndexBuild:
     """Build the complete index in oldest-to-newest catalog order."""
+    content_tags = content_tags or {}
     catalog_list = list(catalogs)
     if not catalog_list:
         raise VoiceLineSearchError("Search index requires at least one official catalog.")
@@ -403,8 +407,8 @@ def build_search_index(
             if (
                 encoded_states
                 and version_index == encoded_states[-1][1] + 1
-                and _searchable_variant_signature(variants)
-                == _searchable_variant_signature(encoded_states[-1][2])
+                and _searchable_variant_signature(variants, strings, content_tags)
+                == _searchable_variant_signature(encoded_states[-1][2], strings, content_tags)
             ):
                 encoded_states[-1][1] = version_index
                 # Search applicability is unchanged, but playback should use the

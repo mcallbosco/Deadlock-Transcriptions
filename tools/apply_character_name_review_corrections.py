@@ -354,7 +354,7 @@ def apply_document(
             output.append(preserved)
         for text, hashes in replacements.items():
             output.append({"sha256": sorted(hashes), "text": text, "source": "manual"})
-    updated["revisions"] = compact_revisions(output)
+    updated["revisions"] = compact_revisions(output, original_revisions=document["revisions"])
     after = _hash_counts(updated)
     if before != after or any(count != 1 for count in after.values()):
         raise ValueError(f"{relative_path}: character-name correction changed or duplicated hashes")
