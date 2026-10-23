@@ -98,6 +98,15 @@ Pass the generated file explicitly with `--conflict-approvals` only for the revi
 recovery operation. Normal incremental planning and deployment must remain fail-closed
 when the live CDN differs from both the Git base and target states.
 
+For recovery through GitHub Actions, commit the reviewed approval file under `reports/`
+and enter its repository-relative path in the manual workflow's `conflict_approvals`
+input. First run `incremental-dry-run` and inspect the exact approved overwrites, then
+run `incremental-deploy` with the same input. Leave `base_commit` empty to use the
+private deployment cursor. The workflow accepts this input only for incremental
+manual runs; push-triggered deployment does not load it. Leave it empty on subsequent
+normal runs. Other changed records, conditional writes, public verification, and
+cursor advancement follow the existing deployment checks.
+
 Initialization refuses to run if the cursor already exists. A failed initialization is
 safe to rerun: desired-state objects become no-ops, metadata retains the target deployment
 identity, and the cursor is written only after public verification.

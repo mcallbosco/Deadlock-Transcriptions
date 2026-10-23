@@ -35,6 +35,10 @@ on:
         description: Optional incremental recovery base (defaults to private cursor)
         type: string
         required: false
+      conflict_approvals:
+        description: Optional tracked reports/*.json file of reviewed exact conflicts (incremental modes only)
+        type: string
+        required: false
       approve_baseline:
         description: Required for initialize or baseline-deploy
         type: boolean
@@ -92,6 +96,7 @@ jobs:
         env:
           DISPATCH_MODE: ${{ inputs.mode }}
           DISPATCH_BASE: ${{ inputs.base_commit }}
+          CONFLICT_APPROVALS: ${{ inputs.conflict_approvals }}
           BASELINE_APPROVED: ${{ inputs.approve_baseline }}
         run: |
           mode="$DISPATCH_MODE"
@@ -128,6 +133,18 @@ jobs:
             history-reconcile) args+=(--history-only) ;;
             *) echo "Unknown deployment mode: $mode" >&2; exit 1 ;;
           esac
+
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" && -n "$CONFLICT_APPROVALS" ]]; then
+            case "$mode" in
+              incremental-dry-run|incremental-deploy) ;;
+              *) echo "Conflict approvals are only supported for incremental recovery." >&2; exit 1 ;;
+            esac
+            if [[ "$CONFLICT_APPROVALS" != reports/*.json ]] || ! git ls-files --error-unmatch -- "$CONFLICT_APPROVALS" >/dev/null 2>&1; then
+              echo "Conflict approvals must name a tracked JSON file under reports/." >&2
+              exit 1
+            fi
+            args+=(--conflict-approvals "$CONFLICT_APPROVALS")
+          fi
 
           if [[ "$BASELINE_APPROVED" == "true" ]]; then
             args+=(--approve-baseline)
