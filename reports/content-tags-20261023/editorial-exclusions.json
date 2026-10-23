@@ -1,0 +1,180 @@
+[
+  {
+    "filename": "bookworm/bookworm_match_start_bookworm_viper_convo02_06.mp3",
+    "revisionIndex": 0,
+    "expectedText": "Who's Cinnamon.",
+    "sha256": [
+      "60e939a1b25e5f6b6a887494f1ccca80931c291a4d8d85cb43a821048ea44e84"
+    ],
+    "tag": "wrong-names",
+    "reason": "Context/correction reply: does not itself mistakenly name the addressee."
+  },
+  {
+    "filename": "kelvin/kelvin_match_start_kelvin_forge_convo02_02.mp3",
+    "revisionIndex": 0,
+    "expectedText": "Kelvin.",
+    "sha256": [
+      "6d025bec0e5e8c08fa1c49f8705f3b575ed9e398ee398da490e2e400fe806f1d"
+    ],
+    "tag": "wrong-names",
+    "reason": "Context/correction reply: does not itself mistakenly name the addressee."
+  },
+  {
+    "filename": "kelvin/kelvin_match_start_kelvin_forge_convo02_04.mp3",
+    "revisionIndex": 0,
+    "expectedText": "I'm pretty sure you said Kevin.",
+    "sha256": [
+      "965d6c4c057ac734b14ff0e8d9455b7fc655e51b9e091bbfe938fe3d4a3dc7d1"
+    ],
+    "tag": "wrong-names",
+    "reason": "Context/correction reply: does not itself mistakenly name the addressee."
+  },
+  {
+    "filename": "krill/krill_match_start_astro_krill_convo03_03.mp3",
+    "revisionIndex": 0,
+    "expectedText": "I'm krill.",
+    "sha256": [
+      "b2cb1908642f5993179611814005b0437408b2d7e3e088052d929e1e7601270d"
+    ],
+    "tag": "wrong-names",
+    "reason": "Context/correction reply: does not itself mistakenly name the addressee."
+  },
+  {
+    "filename": "viper/viper_match_start_bookworm_viper_convo02_07.mp3",
+    "revisionIndex": 0,
+    "expectedText": "I am so sorry, I confused you with a very different librarian.",
+    "sha256": [
+      "e5dd63301c2f4fd607766a2176966167f630064d74dcc573626c3aa72d5eddd0"
+    ],
+    "tag": "wrong-names",
+    "reason": "Context/correction reply: does not itself mistakenly name the addressee."
+  },
+  {
+    "filename": "drifter/drifter_match_start_drifter_lash_convo01_02.mp3",
+    "revisionIndex": 0,
+    "expectedText": "They call me the drifter.",
+    "sha256": [
+      "f7c3f07e8bf8123a13891551293725de7b82f0f2e0e22f30b427565d14b9b8b7"
+    ],
+    "tag": "nicknames",
+    "reason": "Context reply, ordinary name or title: no alternative nickname is carried by this turn."
+  },
+  {
+    "filename": "forge/forge_match_start_lash_forge_convo01_02.mp3",
+    "revisionIndex": 0,
+    "expectedText": "I was a kid over a decade ago.  Now I'm just a genius.",
+    "sha256": [
+      "78adad4fa23819b14cfc1708b4354d4ef6475a0bfecf5829b0f135ef7942fd01"
+    ],
+    "tag": "nicknames",
+    "reason": "Context reply, ordinary name or title: no alternative nickname is carried by this turn."
+  },
+  {
+    "filename": "lash/lash_match_start_atlas_lash_convo01_03.mp3",
+    "revisionIndex": 0,
+    "expectedText": "Probably not gonna remember that",
+    "sha256": [
+      "27fbe24b897de7f24b9fa1cd5b52ede118f70a8a635c5df63bf420d8eed54a3c",
+      "76f516b14a0eadc810cf4bf3ab418bed79fec7ff3eab4785c065b063a40b145a",
+      "f68fcbdbf313e4e0a42a256e30c261c94e0212935263cf960978eeb31ba1612d"
+    ],
+    "tag": "nicknames",
+    "reason": "Context reply, ordinary name or title: no alternative nickname is carried by this turn."
+  },
+  {
+    "filename": "lash/lash_match_start_gigawatt_lash_convo03_02.mp3",
+    "revisionIndex": 0,
+    "expectedText": "You mis-pronounced champion.",
+    "sha256": [
+      "096abecb069829d685c5dcf6db49fa21f4feea659270041e9f6f265ad3300720",
+      "255e6361cf907898252903610c2d479d5b6b378c510e1c61cbb6bd317f396162",
+      "579c291a4b4663e5825e4a7bcdeca8fb37454f5255ef13933e0629138c34334a",
+      "809bd8c3b0e9ee7703815bf5b644653066a61c75d0fe6e4d92dd064826191b7c"
+    ],
+    "tag": "nicknames",
+    "reason": "Context reply, ordinary name or title: no alternative nickname is carried by this turn."
+  },
+  {
+    "filename": "tengu/tengu_match_start_atlas_tengu_convo01_02.mp3",
+    "revisionIndex": 0,
+    "expectedText": "I really hate that nickname",
+    "sha256": [
+      "c290b0bf4d17f20b462a33e09202476fc54b61878a5d8d77780161677ba39ad9",
+      "fb0641c1a249cc7bcf674427eb119aa2af09bd0d9cb49343f846d71592f61268"
+    ],
+    "tag": "nicknames",
+    "reason": "Context reply, ordinary name or title: no alternative nickname is carried by this turn."
+  },
+  {
+    "filename": "viper/viper_match_start_viper_hornet_convo01_03.mp3",
+    "revisionIndex": 0,
+    "expectedText": "What else am I gonna call you?  Vindicta? Pass.",
+    "sha256": [
+      "e63f20a18e2b78f61d03ffff014c1ad9a0e83fea2a24995855599a5046169b76"
+    ],
+    "tag": "nicknames",
+    "reason": "Context reply, ordinary name or title: no alternative nickname is carried by this turn."
+  },
+  {
+    "filename": "atlas/atlas_match_start_atlas_ghost_convo01_02.mp3",
+    "revisionIndex": 0,
+    "expectedText": "I'm right here.",
+    "sha256": [
+      "d8a042314d500ff28919af57df7dec0dcd356aa271bbaf1d2ae96160b4df9996"
+    ],
+    "tag": "insults",
+    "reason": "Context/setup, repair or positive reply: no insult is carried by this turn."
+  },
+  {
+    "filename": "dynamo/dynamo_match_start_dynamo_lash_convo02_02.mp3",
+    "revisionIndex": 0,
+    "expectedText": "Don't talk about Marla like that.",
+    "sha256": [
+      "2cd53e1d1d238f8aa96ade8ef781e20d07b3e2fa3414ad3f64bf33eafe28b058"
+    ],
+    "tag": "insults",
+    "reason": "Context/setup, repair or positive reply: no insult is carried by this turn."
+  },
+  {
+    "filename": "ghost/ghost_match_start_astro_ghost_convo02_03.mp3",
+    "revisionIndex": 0,
+    "expectedText": "You're clothes.",
+    "sha256": [
+      "88ccae8d69a41f0bbec3a34e5301bd20da869d6d6581fbf36ff32078a3e82185"
+    ],
+    "tag": "insults",
+    "reason": "Context/setup, repair or positive reply: no insult is carried by this turn."
+  },
+  {
+    "filename": "viper/viper_match_start_viper_astro_convo03_06.mp3",
+    "revisionIndex": 0,
+    "expectedText": "you are really good at reading people.  At first I was offended but now I'm kinda impressed.",
+    "sha256": [
+      "7bcbd94d4b58638eed2bed0093e3d145e00f3655260cb4f9aea719699da89a94"
+    ],
+    "tag": "insults",
+    "reason": "Context/setup, repair or positive reply: no insult is carried by this turn."
+  },
+  {
+    "filename": "werewolf/werewolf_match_start_werewolf_atlas_convo01_03.mp3",
+    "revisionIndex": 0,
+    "expectedText": "After the ritual want to make some bad decisions for old times sake?",
+    "sha256": [
+      "389a1a99d956aec5548734a46a152436d405d5b6afe83b28b3259b3f38fec726"
+    ],
+    "tag": "insults",
+    "reason": "Context/setup, repair or positive reply: no insult is carried by this turn."
+  },
+  {
+    "filename": "wraith/wraith_match_start_forge_wraith_convo01_03.mp3",
+    "revisionIndex": 0,
+    "expectedText": "Bad choice of words.",
+    "sha256": [
+      "b22c53d49fc8f731b05d586611f2902a4a136ffa843e52ee9bee56a5e38ca997",
+      "de8c821df972e2c79c93c1a63e091f118a674472420efd78358ce738d8a5a351",
+      "eddf4679fde4967f932ee70bb805ec95f8f72c3b74b2c8f3daa98bacfb65a4db"
+    ],
+    "tag": "insults",
+    "reason": "Context/setup, repair or positive reply: no insult is carried by this turn."
+  }
+]

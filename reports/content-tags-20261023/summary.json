@@ -1,0 +1,52 @@
+{
+  "baseCommit": "dd29f997fd5ee24e5ae974fb5289865a4c0b0bfc",
+  "sourceFiles": 128522,
+  "changedFiles": 4312,
+  "changedRevisions": 4345,
+  "uniqueTaggedHashes": 5837,
+  "membershipCounts": {
+    "insults": 5070,
+    "nicknames": 853,
+    "wrong-names": 37
+  },
+  "acceptedResearchMemberships": 5861,
+  "usedReviewedMemberships": 5852,
+  "captionReviewPairs": 43,
+  "captionReviewAccepted": 39,
+  "heldMemberships": 531,
+  "heldReasons": {
+    "explicit Grandpa exclusion": 13,
+    "needs-review": 236,
+    "same-recording-prior-evidence-preserved-caption-unavailable": 71,
+    "prior-needs-review: wording-preserved": 77,
+    "not-supported-by-current-wording": 43,
+    "needs-review-caption-unavailable; same-recording-prior-evidence-preserved-caption-unavailable": 36,
+    "needs-review-same-recording-caption-conflict": 6,
+    "needs-review-caption-unavailable": 8,
+    "caption-conflict-needs-audio": 8,
+    "context-only-not-a-tagged-line": 2,
+    "current source caption differs from latest accepted evidence": 5,
+    "prior-needs-review: meaning-preserved": 1,
+    "Context/correction reply: does not itself mistakenly name the addressee.": 5,
+    "Context reply, ordinary name or title: no alternative nickname is carried by this turn.": 12,
+    "Context/setup, repair or positive reply: no insult is carried by this turn.": 8
+  },
+  "heldClosureGroups": 7,
+  "skippedReferences": {
+    "grandpa-excluded": 11,
+    "Wrong name / mistaken identity": 6,
+    "unreviewed": 2071,
+    "Borderline": 2309,
+    "needs-review": 96,
+    "instance-expansion": 55
+  },
+  "sourceChecksums": {
+    "Update Audit 2026-10-02/baseline-reconciliation.csv": "e9e5d65f4e2d7ab05ed506e49b16bcb636e45a6fba90cdcccc568ed799e8d57a",
+    "Update Audit 2026-10-22/baseline-reconciliation.csv": "bc257e07caffc9fb3c2f3cbe03e6aff0d61ff4b6509801f2f977603d20bf6e25",
+    "Update Audit 2026-10-02/reassessments.json": "0ffac73d0487a3be07ed25e06961d6e9231b502b74865a13373967f183ab8ed2",
+    "Spreadsheet Reference/Wrong names.md": "cc8f19b8f85ffbe392eaab6cb36a83b6dc275e0853fce0bce62ac56b4f82f494",
+    "Update Audit 2026-10-02/findings.json": "5dd7ec6cde31304e230381ddcb5301bd5ddef961d537ec2dacaa71c1d0ebd774",
+    "Update Audit 2026-10-22/previous-findings-reconciliation.json": "57b1f95355a0da858461c94c21ba04bdc62993e37de63bdab9f98c420ca25820",
+    "Update Audit 2026-10-22/findings.json": "b2ce2cdc45ab7d735a96e5f40f3c42b4ef15c24958ddbac23da64d0a62171e36"
+  }
+}
