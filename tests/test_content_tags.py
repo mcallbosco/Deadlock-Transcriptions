@@ -78,6 +78,18 @@ class TagUnitTests(unittest.TestCase):
         changes = plan_group_tags(docs, [["hero/a.mp3", "hero/b.mp3"]], "hero/a.mp3", SHA, ["insults"])
         self.assertEqual(list(changes), ["hero/a.mp3"])
 
+    def test_alias_lookup_normalizes_names_without_changing_document_keys(self):
+        for filename in ("Hero/a.mp3", "hero\\a.mp3"):
+            with self.subTest(filename=filename):
+                docs = {filename: document(filename, [SHA]), "hero/b.mp3": document("hero/b.mp3", [SHA_B])}
+                correlations = [["hero/a.mp3", "hero/b.mp3"]]
+                changes = plan_group_tags(docs, correlations, filename, SHA, ["insults"])
+                self.assertEqual(set(changes), set(docs))
+                self.assertEqual(changes[filename]["filename"], filename)
+                self.assertEqual(assignment_errors({**docs, **changes}, DEFINITIONS, correlations), [])
+                changes["hero/b.mp3"]["revisions"][0].pop("tags")
+                self.assertTrue(any("logical group" in error for error in assignment_errors(changes, DEFINITIONS, correlations)))
+
     def test_definitions_reject_unknown_duplicate_and_invalid_values(self):
         for tags in [[{"id": "bad id", "label": "Name"}], DEFINITIONS*2, [{"id":"insults","label":""}]]:
             with self.subTest(tags=tags), self.assertRaises(ValueError):
@@ -112,6 +124,19 @@ class TagUnitTests(unittest.TestCase):
         project_conversation_tags(value, {})
         self.assertEqual(conversation["contentTags"], [])
         self.assertEqual(conversation["tags"], {"content":["legacy"]})
+
+    def test_nested_conversation_layouts_and_metadata_remain_supported(self):
+        recording = {"audioKey": f"sha256/aa/{SHA}.mp3"}
+        line = {"variations": {"alternate": [recording]}, "metadata": {"label": "keep"}}
+        conversation = {"lines": [line, {}]}
+        value = {"historical": [{"custom": {"conversation": conversation}}]}
+        self.assertEqual(project_conversation_tags(value, {SHA: ("insults",)}), 4)
+        self.assertEqual(recording["contentTags"], ["insults"])
+        self.assertEqual(line["contentTags"], ["insults"])
+        self.assertEqual(conversation["lines"][1]["contentTags"], [])
+        self.assertEqual(line["metadata"], {"label": "keep"})
+        self.assertEqual(project_conversation_tags(value, {SHA: ("insults",)}), 0)
+        self.assertEqual(project_conversation_tags(value, {}), 3)
 
     def test_historical_search_does_not_collapse_different_tag_sets(self):
         old, new = line("hero/a.mp3", SHA, "same", "a"), line("hero/a.mp3", SHA_B, "same", "a")
@@ -225,6 +250,26 @@ class TagPublishingTests(unittest.TestCase):
             self.deploy(store, retry)
         self.assertNotIn("contentTagsCatalogUrl", store.values["deadlock/manifest.json"])
         self.assertNotIn("private/cursor.json", store.values)
+
+    def test_final_verification_reads_each_object_once_and_includes_reused_tags(self):
+        store, plan = self.prepare(["nicknames"])
+        for write in plan.tag_dependencies:
+            if write.phase == "tag-membership":
+                store.put_json(write)
+        plan = self.plan(store)
+        calls = []
+        def observe(writes, public_store):
+            writes = list(writes)
+            calls.append([write.key for write in writes])
+            for write in writes:
+                self.assertEqual(public_store.get_json(write.key).body, write.body())
+        with mock.patch("tools.content_sync.verify_public_writes", side_effect=observe):
+            result = self.deploy(store, plan)
+        final = calls[-1]
+        self.assertEqual(len(final), len(set(final)))
+        self.assertEqual(result["verifiedUrls"], len(final))
+        self.assertEqual(set(final), {write.key for write in plan.writes + plan.tag_dependencies})
+        self.assertTrue({write.key for write in plan.tag_dependencies} <= set(calls[-2]))
 
     def test_manifest_precondition_failure_never_advances_cursor(self):
         store, plan = self.prepare(["nicknames"])

@@ -11,18 +11,13 @@ from pathlib import Path
 from typing import Any, Iterable
 
 try:
-    from transcript_schema import preserve_revision_tags
-except ModuleNotFoundError:
-    from tools.transcript_schema import preserve_revision_tags
-
-try:
     from audit_fuzzy_transcript_matches import candidates_for_document, canonical_json
     from reconcile_fuzzy_official_aliases import reconcile_repo
-    from transcript_schema import revision_hashes, transcript_match_key
+    from transcript_schema import preserve_revision_tags, revision_hashes, transcript_match_key
 except ModuleNotFoundError:  # Imported as tools.apply_fuzzy_generated_official_matches.
     from tools.audit_fuzzy_transcript_matches import candidates_for_document, canonical_json
     from tools.reconcile_fuzzy_official_aliases import reconcile_repo
-    from tools.transcript_schema import revision_hashes, transcript_match_key
+    from tools.transcript_schema import preserve_revision_tags, revision_hashes, transcript_match_key
 
 
 EXCLUDED_OFFICIAL_TERMS = {

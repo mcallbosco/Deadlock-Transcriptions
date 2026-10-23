@@ -12,11 +12,6 @@ from pathlib import Path
 from typing import Any, Iterable
 
 try:
-    from transcript_schema import preserve_revision_tags
-except ModuleNotFoundError:
-    from tools.transcript_schema import preserve_revision_tags
-
-try:
     from apply_reviewed_generated_duration_merges import (
         load_review,
         reconcile_audit_objections,
@@ -24,7 +19,7 @@ try:
         selected_targets,
     )
     from audit_fuzzy_transcript_matches import canonical_json
-    from transcript_schema import revision_hashes
+    from transcript_schema import preserve_revision_tags, revision_hashes
 except ModuleNotFoundError:  # Imported as tools.restore_generated_review_provenance.
     from tools.apply_reviewed_generated_duration_merges import (
         load_review,
@@ -33,7 +28,7 @@ except ModuleNotFoundError:  # Imported as tools.restore_generated_review_proven
         selected_targets,
     )
     from tools.audit_fuzzy_transcript_matches import canonical_json
-    from tools.transcript_schema import revision_hashes
+    from tools.transcript_schema import preserve_revision_tags, revision_hashes
 
 
 def git_output(repo: Path, *args: str) -> str:

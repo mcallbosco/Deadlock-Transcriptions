@@ -12,16 +12,11 @@ from pathlib import Path
 from typing import Any, Iterable
 
 try:
-    from transcript_schema import preserve_revision_tags
-except ModuleNotFoundError:
-    from tools.transcript_schema import preserve_revision_tags
-
-try:
     from audit_fuzzy_transcript_matches import canonical_json
-    from transcript_schema import revision_hashes
+    from transcript_schema import preserve_revision_tags, revision_hashes
 except ModuleNotFoundError:  # Imported as tools.review_generated_fuzzy_batch.
     from tools.audit_fuzzy_transcript_matches import canonical_json
-    from tools.transcript_schema import revision_hashes
+    from tools.transcript_schema import preserve_revision_tags, revision_hashes
 
 
 def _file_sha256(path: Path) -> str:

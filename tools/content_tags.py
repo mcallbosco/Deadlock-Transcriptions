@@ -7,8 +7,12 @@ import json
 import re
 from typing import Any, Mapping
 
-from .transcript_schema import TAG_ID_RE, revision_tags
-from .voiceline_history import build_filename_lineages
+try:
+    from .transcript_schema import TAG_ID_RE, revision_tags
+    from .voiceline_history import build_filename_lineages, normalize_filename
+except ImportError:  # Imported by a directly invoked maintenance script.
+    from transcript_schema import TAG_ID_RE, revision_tags
+    from voiceline_history import build_filename_lineages, normalize_filename
 
 AUDIO_KEY_RE = re.compile(r"(?:^|/)sha256/[0-9a-f]{2}/([0-9a-f]{64})\.mp3$")
 
@@ -44,20 +48,22 @@ def logical_tag_groups(documents: Mapping[str, dict[str, Any]], correlations: li
     lineages = build_filename_lineages(filenames_by_sha, correlations)
     groups: dict[tuple[Any, ...], list[tuple[str, int]]] = {}
     for filename, document in documents.items():
+        normalized = normalize_filename(filename)
+        lineage = lineages.get(normalized, normalized)
         for index, revision in enumerate(document["revisions"]):
             text = revision["text"].strip()
             if not text and revision["source"] != "skippednonspeech":
                 key = (filename, index)
             elif not text and revision["source"] == "skippednonspeech":
-                key = (lineages.get(filename, filename), "non-speech")
+                key = (lineage, "non-speech")
             else:
-                key = (lineages.get(filename, filename), "text", text)
+                key = (lineage, "text", text)
             groups.setdefault(key, []).append((filename, index))
     return list(groups.values())
 
 
-def assignment_errors(documents: Mapping[str, dict[str, Any]], definitions: list[dict[str, str]], correlations: list[list[str]]) -> list[str]:
-    allowed = {tag["id"] for tag in definitions}
+def tag_conflict_errors(documents: Mapping[str, dict[str, Any]], correlations: list[list[str]]) -> list[str]:
+    """Check recording and logical-group agreement independently of vocabulary."""
     errors = []
     by_sha: dict[str, tuple[tuple[str, ...], str]] = {}
     tagged = False
@@ -66,8 +72,6 @@ def assignment_errors(documents: Mapping[str, dict[str, Any]], definitions: list
             location = f"transcripts/{filename}.json revisions[{index}]"
             tags = revision_tags(revision)
             tagged |= bool(tags)
-            if unknown := set(tags) - allowed:
-                errors.append(f"{location}: undefined content tags {', '.join(sorted(unknown))}")
             for sha in revision["sha256"]:
                 previous = by_sha.setdefault(sha, (tags, location))
                 if previous[0] != tags:
@@ -78,6 +82,16 @@ def assignment_errors(documents: Mapping[str, dict[str, Any]], definitions: list
                 locations = ', '.join(f"transcripts/{name}.json revisions[{index}]" for name, index in group)
                 errors.append(f"Conflicting content tags in logical group: {locations}; use tools.set_content_tags to update all aliases")
     return errors
+
+
+def assignment_errors(documents: Mapping[str, dict[str, Any]], definitions: list[dict[str, str]], correlations: list[list[str]]) -> list[str]:
+    allowed = {tag["id"] for tag in definitions}
+    errors = []
+    for filename, document in documents.items():
+        for index, revision in enumerate(document["revisions"]):
+            if unknown := set(revision_tags(revision)) - allowed:
+                errors.append(f"transcripts/{filename}.json revisions[{index}]: undefined content tags {', '.join(sorted(unknown))}")
+    return errors + tag_conflict_errors(documents, correlations)
 
 
 def build_artifacts(game: str, definitions: list[dict[str, str]], by_sha: Mapping[str, tuple[str, ...]], cdn_base_url: str) -> list[tuple[str, dict[str, Any]]]:
@@ -117,21 +131,22 @@ def project_conversation_tags(value: dict[str, Any], by_sha: Mapping[str, tuple[
             item["contentTags"] = result
             changed += 1
 
-    def line_tags(item: Any) -> set[str]:
+    def project_record(item: Any, *, line: bool = False) -> set[str]:
+        """Project each line or nested recording once, after its children."""
         if isinstance(item, list):
-            return set().union(*(line_tags(child) for child in item))
+            return set().union(*(project_record(child) for child in item))
         if not isinstance(item, dict):
             return set()
         tags = set()
         for key, child in list(item.items()):
             if key != "contentTags" and isinstance(child, (dict, list)):
-                tags.update(line_tags(child))
+                tags.update(project_record(child))
         audio = item.get("audioKey")
         match = AUDIO_KEY_RE.search(audio.casefold()) if isinstance(audio, str) else None
         if match:
             tags.update(by_sha.get(match[1], ()))
         # Nested metadata objects are not recording/variation objects.
-        if "audioKey" in item or "filename" in item or "variations" in item:
+        if line or "audioKey" in item or "filename" in item or "variations" in item:
             assign(item, tags)
         return tags
 
@@ -143,10 +158,7 @@ def project_conversation_tags(value: dict[str, Any], by_sha: Mapping[str, tuple[
             if isinstance(item.get("lines"), list):
                 tags = set()
                 for line in item["lines"]:
-                    line_result = line_tags(line)
-                    tags.update(line_result)
-                    if isinstance(line, dict):
-                        assign(line, line_result)
+                    tags.update(project_record(line, line=True))
                 assign(item, tags)
             else:
                 for child in list(item.values()):

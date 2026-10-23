@@ -32,7 +32,9 @@ def plan_group_tags(documents: dict[str, dict[str, Any]], correlations: list[lis
         selected = expanded
     changed = {}
     for name, index in sorted(selected):
-        document = changed.setdefault(name, copy.deepcopy(documents[name]))
+        if name not in changed:
+            changed[name] = copy.deepcopy(documents[name])
+        document = changed[name]
         if normalized:
             document["revisions"][index]["tags"] = normalized[:]
         else:

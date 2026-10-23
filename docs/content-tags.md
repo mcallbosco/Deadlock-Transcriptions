@@ -17,6 +17,11 @@ groups use existing filename lineages and exact trimmed text, including the
 special non-speech group; unrelated matching text and blank effort recordings
 do not gain assignments.
 
+Maintenance reconciliation and phonetic-review tools check the resulting groups
+across aliases before writing files. Equivalent tag orderings and missing versus
+empty arrays compare as the same assignment; official linking preserves the
+existing official metadata representation when it combines those groups.
+
 Use the maintainer helper to update all entries in a group. It follows both
 logical aliases and duplicate-hash memberships, validates the resulting
 repository assignments, and prints the complete before/after changes. It does

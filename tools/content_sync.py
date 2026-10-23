@@ -2792,8 +2792,9 @@ def deploy_plan(
         result["purgeAttempted"] = bool(public_urls and zone_id and purge_token)
         if zone_id and purge_token:
             purge_urls(public_urls, zone_id, purge_token)
-        verify_public_writes([*writes, *plan.tag_dependencies], public_store)
-        result["verifiedUrls"] = len(public_urls)
+        verification_writes = {item.key: item for item in [*writes, *plan.tag_dependencies]}
+        verify_public_writes(verification_writes.values(), public_store)
+        result["verifiedUrls"] = sum(item.public for item in verification_writes.values())
         save_result()
 
         if cursor.value and cursor.value.get("lastSuccessfulCommit") == plan.target_commit:
