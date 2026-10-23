@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "description": "Exact CDN record states explicitly approved for overwrite. A changed location, hash, current state, or desired state is not approved.",
+  "sourcePlans": [
+    {
+      "baseCommit": "3feec55ce461a039b6aa04862dbff830a4e29c91",
+      "targetCommit": "982a91f3bd1d514584b2959a4b5b612321f91f8e",
+      "runUrl": "https://github.com/mcallbosco/Deadlock-Transcriptions/actions/runs/39956846135"
+    }
+  ],
+  "approvalCount": 1,
+  "approvals": [
+    {
+      "version": "cns-deadman",
+      "key": "deadlock/versions/cns-deadman/voicelines.json",
+      "jsonPath": "$/deadman danny/Self/Emotions/Pain/Pain death/9",
+      "sha256": "8382362c6a01e25bae5a228baca21794c27e75923651437193d223eb271642ad",
+      "current": {
+        "text": "(include all the lines that he says after each scream)",
+        "officialtranscription": true
+      },
+      "desired": {
+        "text": "Agh!",
+        "officialtranscription": true
+      }
+    }
+  ]
+}

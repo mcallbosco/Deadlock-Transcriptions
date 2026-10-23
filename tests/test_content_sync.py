@@ -6,6 +6,7 @@ import json
 import subprocess
 import tempfile
 import unittest
+from dataclasses import replace
 from pathlib import Path
 from typing import Any
 from unittest import mock
@@ -739,7 +740,7 @@ class ContentSyncTests(unittest.TestCase):
         record = conversation["conversations"][0]["lines"][0]
         self.assertEqual(record["transcription"], "corrected text")
 
-    def test_changed_conflict_state_is_not_approved(self) -> None:
+    def test_changed_conflict_identity_or_state_is_not_approved(self) -> None:
         values = self.published()
         values["deadlock/versions/v1/conversations.json"]["conversations"][0]["lines"][0][
             "transcription"
@@ -751,21 +752,32 @@ class ContentSyncTests(unittest.TestCase):
             key="deadlock/versions/v1/conversations.json",
             json_path="$/conversations/0/lines/0",
             sha256=SHA,
-            current_text="different approved state",
-            current_official=False,
+            current_text="new third state",
+            current_official=True,
             desired_text="corrected text",
             desired_official=False,
         )
 
-        plan = ContentSyncPlanner(
-            self.repo,
-            MemoryStore(values),
-            cdn_base_url=CDN,
-            conflict_approvals=[approval],
-        ).build(base=self.base)
+        for field, changed in {
+            "version": "v2",
+            "key": "deadlock/versions/v1/voicelines.json",
+            "json_path": "$/conversations/0/lines/1",
+            "sha256": SHA_B,
+            "current_text": "different approved state",
+            "current_official": False,
+            "desired_text": "different target text",
+            "desired_official": True,
+        }.items():
+            with self.subTest(field=field):
+                plan = ContentSyncPlanner(
+                    self.repo,
+                    MemoryStore(values),
+                    cdn_base_url=CDN,
+                    conflict_approvals=[replace(approval, **{field: changed})],
+                ).build(base=self.base)
 
-        self.assertFalse(plan.deployable)
-        self.assertEqual(plan.conflict_count, 1)
+                self.assertFalse(plan.deployable)
+                self.assertEqual(plan.conflict_count, 1)
 
     def test_conflict_approval_loader_rejects_duplicates(self) -> None:
         approval = {
