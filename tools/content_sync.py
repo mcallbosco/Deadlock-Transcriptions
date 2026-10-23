@@ -11,6 +11,7 @@ from __future__ import annotations
 import copy
 import gzip
 import hashlib
+import http.client
 import json
 import os
 import re
@@ -578,7 +579,7 @@ class PublicJsonStore:
                     raise ContentSyncError(
                         f"Could not read {self.url(key)}: HTTP {exc.code}"
                     ) from exc
-            except (urllib.error.URLError, TimeoutError) as exc:
+            except (urllib.error.URLError, TimeoutError, http.client.IncompleteRead) as exc:
                 if attempt == self.read_attempts:
                     raise ContentSyncError(f"Could not read {self.url(key)}: {exc}") from exc
             time.sleep(self.retry_delay_seconds * attempt)

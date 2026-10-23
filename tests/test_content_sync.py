@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import http.client
 import io
 import json
 import subprocess
@@ -53,6 +54,54 @@ class PublicJsonStoreTests(unittest.TestCase):
 
         self.assertEqual(stored.value, {"value": 1})
         self.assertEqual(stored.etag, '"etag"')
+        self.assertEqual(urlopen.call_count, 2)
+        sleep.assert_called_once_with(0.25)
+
+    def test_retries_truncated_response_without_reusing_partial_bytes(self) -> None:
+        interrupted = mock.MagicMock()
+        interrupted.__enter__.return_value.read.side_effect = http.client.IncompleteRead(
+            b'{"value":'
+        )
+        complete = mock.MagicMock()
+        complete.__enter__.return_value.read.return_value = b'{"value": 2}'
+        complete.__enter__.return_value.headers = {"ETag": '"complete"'}
+        with (
+            mock.patch(
+                "tools.content_sync.urllib.request.urlopen",
+                side_effect=[interrupted, complete],
+            ) as urlopen,
+            mock.patch("tools.content_sync.time.sleep") as sleep,
+        ):
+            stored = PublicJsonStore(
+                CDN, read_attempts=2, retry_delay_seconds=0.25
+            ).get_json("deadlock/release.json")
+
+        self.assertEqual(stored.value, {"value": 2})
+        self.assertEqual(stored.body, b'{"value": 2}')
+        self.assertEqual(stored.etag, '"complete"')
+        self.assertEqual(urlopen.call_count, 2)
+        sleep.assert_called_once_with(0.25)
+        interrupted.__exit__.assert_called_once()
+
+    def test_reports_truncated_response_after_bounded_retries(self) -> None:
+        interrupted = mock.MagicMock()
+        interrupted.__enter__.return_value.read.side_effect = http.client.IncompleteRead(
+            b'{"value":'
+        )
+        with (
+            mock.patch(
+                "tools.content_sync.urllib.request.urlopen", return_value=interrupted
+            ) as urlopen,
+            mock.patch("tools.content_sync.time.sleep") as sleep,
+        ):
+            with self.assertRaisesRegex(
+                ContentSyncError, "Could not read .*deadlock/release.json"
+            ) as caught:
+                PublicJsonStore(
+                    CDN, read_attempts=2, retry_delay_seconds=0.25
+                ).get_json("deadlock/release.json")
+
+        self.assertIsInstance(caught.exception.__cause__, http.client.IncompleteRead)
         self.assertEqual(urlopen.call_count, 2)
         sleep.assert_called_once_with(0.25)
 
