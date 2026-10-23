@@ -86,6 +86,7 @@ def plan(
     candidates: list[dict[str, Any]],
     by_id: dict[str, dict[str, Any]],
     review: dict[str, Any],
+    *, correlations: list[list[str]],
 ) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
     judgments = review.get("judgments")
     if review.get("schemaVersion") not in (1, 2) or not isinstance(judgments, dict):
@@ -225,7 +226,7 @@ def plan(
             + ", ".join(stale[:10])
         )
 
-    changed = rewrite_documents(documents, targets)
+    changed = rewrite_documents(documents, targets, correlations=correlations)
     statistics = {
         "reviewedCandidates": len(judgments),
         "approvedCandidates": len(approved),
@@ -265,8 +266,8 @@ def main(argv: Iterable[str] | None = None) -> int:
     ]
     candidates, by_id = load_candidates(candidate_paths)
     review = json.loads(resolve(args.review).read_text(encoding="utf-8"))
-    documents, _ = load_inputs(repo, args.game)
-    changed, result = plan(documents, candidates, by_id, review)
+    documents, correlations = load_inputs(repo, args.game)
+    changed, result = plan(documents, candidates, by_id, review, correlations=correlations)
     result = {"schemaVersion": 1, "applied": args.apply, **result}
     if args.apply:
         for filename, document in changed.items():

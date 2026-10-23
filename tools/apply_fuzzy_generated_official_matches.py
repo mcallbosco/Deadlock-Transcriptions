@@ -13,11 +13,11 @@ from typing import Any, Iterable
 try:
     from audit_fuzzy_transcript_matches import candidates_for_document, canonical_json
     from reconcile_fuzzy_official_aliases import reconcile_repo
-    from transcript_schema import revision_hashes, transcript_match_key
+    from transcript_schema import preserve_revision_tags, revision_hashes, transcript_match_key
 except ModuleNotFoundError:  # Imported as tools.apply_fuzzy_generated_official_matches.
     from tools.audit_fuzzy_transcript_matches import candidates_for_document, canonical_json
     from tools.reconcile_fuzzy_official_aliases import reconcile_repo
-    from tools.transcript_schema import revision_hashes, transcript_match_key
+    from tools.transcript_schema import preserve_revision_tags, revision_hashes, transcript_match_key
 
 
 EXCLUDED_OFFICIAL_TERMS = {
@@ -132,6 +132,7 @@ def plan_document(
         raise ValueError(f"{relative_path}: merge changed the represented SHA-256 set")
     if any(count != 1 for count in after_hashes.values()):
         raise ValueError(f"{relative_path}: a SHA-256 appears in multiple resulting groups")
+    updated["revisions"] = preserve_revision_tags(document["revisions"], updated["revisions"])
     return updated, operations, exclusions
 
 

@@ -93,6 +93,7 @@ def plan(
     candidates: list[dict[str, Any]],
     decisions: dict[str, str],
     skipped: set[str],
+    *, correlations: list[list[str]],
 ) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
     known = {candidate["id"] for candidate in candidates}
     unknown = sorted((set(decisions) | skipped) - known)
@@ -114,7 +115,7 @@ def plan(
                         f"recording hash {digest} has conflicting targets: {previous} vs {state}"
                     )
         applied.append({"id": candidate["id"], "target": state})
-    changed = rewrite_documents(documents, targets)
+    changed = rewrite_documents(documents, targets, correlations=correlations)
     statistics = {
         "candidatePairs": len(candidates),
         "appliedPairs": len(applied),
@@ -156,8 +157,8 @@ def main(argv: Iterable[str] | None = None) -> int:
     if report.get("schemaVersion") != 1 or not isinstance(candidates, list):
         raise ApplyError("candidate report must contain schemaVersion 1 and candidates")
     decisions, skipped = load_review(resolve(args.decisions))
-    documents, _ = load_inputs(repo, args.game)
-    changed, result = plan(documents, candidates, decisions, skipped)
+    documents, correlations = load_inputs(repo, args.game)
+    changed, result = plan(documents, candidates, decisions, skipped, correlations=correlations)
     result = {"schemaVersion": 1, "applied": args.apply, **result}
     if args.apply:
         for filename, document in changed.items():

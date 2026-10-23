@@ -105,6 +105,7 @@ class PhoneticLineageMergeTests(unittest.TestCase):
             candidates,
             {"reviewed": "Lives are at stake."},
             set(),
+            correlations=[["hero/old.mp3", "hero/new.mp3"], ["hero/left.mp3", "hero/right.mp3"]],
         )
         self.assertEqual(result["statistics"]["targetRecordingHashes"], 4)
         self.assertEqual(changed["hero/old.mp3"]["revisions"][0]["source"], "official")
@@ -119,6 +120,7 @@ class PhoneticLineageMergeTests(unittest.TestCase):
             candidates,
             {"reviewed": "Lives are at stake."},
             set(),
+            correlations=[["hero/old.mp3", "hero/new.mp3"], ["hero/left.mp3", "hero/right.mp3"]],
         )
         self.assertEqual(repeated, {})
         self.assertEqual(repeated_result["statistics"]["changedFiles"], 0)

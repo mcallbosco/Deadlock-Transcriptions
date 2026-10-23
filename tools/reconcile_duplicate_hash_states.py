@@ -257,7 +257,7 @@ def plan_reconciliation(
                     replacement.pop("model", None)
                 replacements.append(replacement)
         # Equivalent revisions use the propagated latest spelling, then compact.
-        updated["revisions"] = compact_revisions(replacements)
+        updated["revisions"] = compact_revisions(replacements, original_revisions=original["revisions"])
         if updated != original:
             changes[path] = updated
 

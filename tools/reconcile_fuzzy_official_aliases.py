@@ -105,7 +105,7 @@ def reconcile_document(
                 }
             )
 
-    updated["revisions"] = compact_revisions(output)
+    updated["revisions"] = compact_revisions(output, original_revisions=document["revisions"])
     after_hashes = _hashes(updated)
     if before_hashes != after_hashes:
         raise ValueError(f"{relative_path}: alias reconciliation changed the SHA-256 set")

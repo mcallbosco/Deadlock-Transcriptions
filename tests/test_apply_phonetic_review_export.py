@@ -3,6 +3,7 @@ from __future__ import annotations
 import unittest
 
 from tools.apply_phonetic_review_export import plan
+from tools.reconcile_correlated_punctuation import ReconciliationError
 
 
 def side(filename: str, digest: str, text: str) -> dict[str, object]:
@@ -29,6 +30,15 @@ def document(digest: str, text: str) -> dict[str, object]:
 
 
 class ApplyPhoneticReviewExportTests(unittest.TestCase):
+    def test_review_cannot_merge_cross_file_groups_with_conflicting_tags(self):
+        candidate = {"id": "merge", "left": side("a.mp3", "a", "Alpha"), "right": side("b.mp3", "b", "Alfa")}
+        documents = {"a.mp3": document("a", "Alpha"), "b.mp3": document("b", "Alfa")}
+        documents["a.mp3"]["revisions"][0]["tags"] = ["insults"]
+        review = {"schemaVersion": 1, "judgments": {"merge": {"decision": "left", "selectedText": "Alpha", "updatedAt": "2026-01-01T00:00:00Z"}}}
+        with self.assertRaisesRegex(ReconciliationError, "Conflicting content tags"):
+            plan(documents, [candidate], {"merge": candidate}, review, correlations=[list(documents)])
+        self.assertEqual(documents["b.mp3"]["revisions"][0]["text"], "Alfa")
+
     def test_latest_choice_resolves_transitive_component(self) -> None:
         candidates = [
             {"id": "first", "left": side("a.mp3", "a", "Alpha"), "right": side("b.mp3", "b", "Alfa")},
@@ -47,7 +57,7 @@ class ApplyPhoneticReviewExportTests(unittest.TestCase):
             },
         }
 
-        changed, result = plan(documents, candidates, {item["id"]: item for item in candidates}, review)
+        changed, result = plan(documents, candidates, {item["id"]: item for item in candidates}, review, correlations=[list(documents)])
 
         self.assertEqual(result["statistics"]["mergedComponents"], 1)
         self.assertEqual(result["statistics"]["approvedCandidates"], 2)
@@ -68,7 +78,7 @@ class ApplyPhoneticReviewExportTests(unittest.TestCase):
             "corrections": {"corrected": "right words"},
         }
 
-        changed, _result = plan(documents, candidates, {"corrected": candidates[0]}, review)
+        changed, _result = plan(documents, candidates, {"corrected": candidates[0]}, review, correlations=[list(documents)])
 
         self.assertEqual(changed["a.mp3"]["revisions"][0]["text"], "right words")
         self.assertEqual(changed["b.mp3"]["revisions"][0]["text"], "right words")
@@ -83,7 +93,7 @@ class ApplyPhoneticReviewExportTests(unittest.TestCase):
             "judgments": {"separate": {"decision": "separate", "updatedAt": "2026-01-01T00:00:00Z"}},
         }
 
-        changed, result = plan(documents, candidates, {"separate": candidates[0]}, review)
+        changed, result = plan(documents, candidates, {"separate": candidates[0]}, review, correlations=[list(documents)])
 
         self.assertEqual(result["restoredSeparateCandidateIds"], ["separate"])
         self.assertEqual(changed["a.mp3"]["revisions"][0]["text"], "Inferno")

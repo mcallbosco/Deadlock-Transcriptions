@@ -12,6 +12,7 @@ from typing import Any
 from tools.audit_phonetic_lineage_merges import canonical_json, load_inputs
 from tools.content_sync import validate_repository
 from tools.link_exact_official_transcripts import state
+from tools.transcript_schema import matching_revision_tags
 
 
 def plan_documents(
@@ -109,6 +110,11 @@ def plan_documents(
         for revision in grouped.values():
             revision["sha256"] = sorted(set(revision["sha256"]))
         updated = {**copy.deepcopy(original), "revisions": list(grouped.values())}
+        for revision in updated["revisions"]:
+            matching_revision_tags([
+                revision,
+                *(source for digest in revision["sha256"] for _name, source in occurrences[digest]),
+            ])
         before = {digest: state(revision) for revision in original["revisions"] for digest in revision["sha256"]}
         counts = Counter(digest for revision in updated["revisions"] for digest in revision["sha256"])
         after = {digest: state(revision) for revision in updated["revisions"] for digest in revision["sha256"]}

@@ -12,10 +12,10 @@ from typing import Any
 
 try:
     from audit_fuzzy_transcript_matches import canonical_json
-    from transcript_schema import revision_hashes
+    from transcript_schema import preserve_revision_tags, revision_hashes
 except ModuleNotFoundError:
     from tools.audit_fuzzy_transcript_matches import canonical_json
-    from tools.transcript_schema import revision_hashes
+    from tools.transcript_schema import preserve_revision_tags, revision_hashes
 
 
 SOURCE_RANK = {"generated": 1, "manual": 2, "official": 3}
@@ -149,7 +149,7 @@ def reconcile_document(
         by_state[key]["sha256"].extend(revision_hashes(revision))
     for revision in coalesced:
         revision["sha256"] = sorted(set(revision["sha256"]))
-    updated["revisions"] = coalesced
+    updated["revisions"] = preserve_revision_tags(document["revisions"], coalesced)
     if _hashes(updated) != before:
         raise ValueError("Alias reconciliation changed represented hashes")
     return updated, rewritten

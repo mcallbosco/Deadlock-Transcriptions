@@ -30,6 +30,32 @@ class ExactOfficialHashLinkTests(unittest.TestCase):
         repeated, _ = plan_documents({**documents, **changed}, {"line": list(documents)})
         self.assertEqual(repeated, {})
 
+    def test_local_links_compare_tag_sets_and_keep_official_representation(self):
+        for official_tags, editable_tags in [
+            (["nicknames", "insults"], ["insults", "nicknames"]),
+            (["nicknames", "insults"], ["nicknames", "insults"]),
+            (None, []),
+            ([], None),
+        ]:
+            for official_first in (True, False):
+                with self.subTest(official=official_tags, editable=editable_tags, official_first=official_first):
+                    values = self.documents()
+                    official = values["official.mp3"]["revisions"][0]
+                    editable = values["old.mp3"]["revisions"][0]
+                    if official_tags is not None:
+                        official["tags"] = official_tags
+                    if editable_tags is not None:
+                        editable["tags"] = editable_tags
+                    revisions = [official, editable] if official_first else [editable, official]
+                    documents = {"official.mp3": {"schemaVersion": 3, "filename": "official.mp3", "revisions": revisions}}
+                    original = copy.deepcopy(documents)
+                    changed, _ = plan_documents(documents, {"line": list(documents)})
+                    expected = {**official, "sha256": ["a" * 64, "b" * 64]}
+                    self.assertEqual(changed["official.mp3"]["revisions"], [expected])
+                    self.assertEqual(documents, original)
+                    repeated, _ = plan_documents(changed, {"line": list(documents)})
+                    self.assertEqual(repeated, {})
+
     def test_does_not_link_identical_text_across_unrelated_lineages(self):
         documents = self.documents()
         changed, _ = plan_documents(documents, {"old": ["old.mp3"], "official": ["official.mp3"]})

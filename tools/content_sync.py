@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Plan and publish Git-authored transcript/config corrections to VLViewer R2.
 
-Phase 1 deliberately updates only transcript text/official status plus category
-and character-name JSON. Structural generator inputs are reported as blocking
-until the canonical recording-inventory compiler is available.
+Publishes transcript text/official status, content tags, and direct configuration.
+Structural generator inputs are reported as blocking until the canonical
+recording-inventory compiler is available.
 """
 
 from __future__ import annotations
@@ -11,6 +11,7 @@ from __future__ import annotations
 import copy
 import gzip
 import hashlib
+import http.client
 import json
 import os
 import re
@@ -24,7 +25,8 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import Any, Callable, Iterable, Iterator
 
-from .transcript_schema import TRANSCRIPT_SCHEMA_VERSION
+from .transcript_schema import TRANSCRIPT_SCHEMA_VERSION, revision_tags
+from .content_tags import assignment_errors, build_artifacts, project_conversation_tags, validate_definitions
 from .voiceline_history import (
     HISTORY_CONFIG_SCHEMA_VERSION,
     HISTORY_CORRELATIONS_SCHEMA_VERSION,
@@ -75,6 +77,8 @@ VALIDATE_ONLY_CONFIG = {
     "source-lock.json",
 }
 PHASE_ORDER = {
+    "tag-membership": 5,
+    "tag-catalog": 8,
     "content": 10,
     "history-content": 15,
     "metadata": 20,
@@ -111,6 +115,7 @@ def json_copy(value: Any) -> Any:
 class TranscriptState:
     text: str
     source: str
+    tags: tuple[str, ...] = ()
 
     @property
     def official(self) -> bool:
@@ -124,6 +129,7 @@ class TranscriptState:
         return {
             "text": self.text,
             "source": self.source,
+            "tags": list(self.tags),
             "officialtranscription": self.official,
         }
 
@@ -351,6 +357,8 @@ class SyncPlan:
     affected_versions: list[str] = field(default_factory=list)
     version_revisions: list[dict[str, Any]] = field(default_factory=list)
     history: dict[str, Any] | None = None
+    content_tags: dict[str, Any] | None = None
+    tag_dependencies: list[PlannedWrite] = field(default_factory=list, repr=False)
     object_reads: int = 0
     writes: list[PlannedWrite] = field(default_factory=list, repr=False)
 
@@ -414,6 +422,7 @@ class SyncPlan:
             "affectedVersions": self.affected_versions,
             "versionRevisions": self.version_revisions,
             "history": self.history,
+            "contentTags": self.content_tags,
             "recordChanges": self.record_changes,
             "configChanges": self.config_changes,
             "unmatchedHashes": self.unmatched_hashes,
@@ -517,6 +526,10 @@ class SyncPlan:
                     "",
                 ]
             )
+        if self.content_tags:
+            lines.extend(["## Content tags", ""])
+            lines.extend(f"- {key}: **{value}**" for key, value in self.content_tags.items())
+            lines.append("")
         if self.unmatched_hashes:
             lines.extend(["## Changed recording hashes with no published match", ""])
             lines.extend(f"- `{item}`" for item in self.unmatched_hashes[:200])
@@ -566,7 +579,7 @@ class PublicJsonStore:
                     raise ContentSyncError(
                         f"Could not read {self.url(key)}: HTTP {exc.code}"
                     ) from exc
-            except (urllib.error.URLError, TimeoutError) as exc:
+            except (urllib.error.URLError, TimeoutError, http.client.IncompleteRead) as exc:
                 if attempt == self.read_attempts:
                     raise ContentSyncError(f"Could not read {self.url(key)}: {exc}") from exc
             time.sleep(self.retry_delay_seconds * attempt)
@@ -853,7 +866,7 @@ def _document_states(
             raise ContentSyncError(
                 f"{context} revisions[{index}] is missing {', '.join(sorted(missing))}"
             )
-        unexpected = set(revision) - {"sha256", "text", "source", "model"}
+        unexpected = set(revision) - {"sha256", "text", "source", "model", "tags"}
         if unexpected:
             raise ContentSyncError(
                 f"{context} revisions[{index}] has unexpected fields: "
@@ -866,6 +879,10 @@ def _document_states(
             raise ContentSyncError(f"{context} revisions[{index}] has invalid text/source")
         if model is not None and (not isinstance(model, str) or not model):
             raise ContentSyncError(f"{context} revisions[{index}] has invalid model")
+        try:
+            tags = revision_tags(revision)
+        except ValueError as exc:
+            raise ContentSyncError(f"{context} revisions[{index}]: {exc}") from exc
         hashes = revision.get("sha256")
         if schema_version == 2:
             if isinstance(hashes, str):
@@ -879,7 +896,7 @@ def _document_states(
                 raise ContentSyncError(f"{context} revisions[{index}] has invalid SHA-256")
             if sha in result:
                 raise ContentSyncError(f"{context} contains duplicate revision SHA-256 {sha}")
-            result[sha] = TranscriptState(text=text, source=source)
+            result[sha] = TranscriptState(text=text, source=source, tags=tags)
     return result
 
 
@@ -1122,6 +1139,12 @@ def _voiceline_group_errors(value: dict[str, Any]) -> list[str]:
 
 def _config_errors(path: Path, value: dict[str, Any], game: str) -> list[str]:
     name = path.name
+    if name == "content-tags.json":
+        try:
+            validate_definitions(value, game)
+        except ValueError as exc:
+            return [str(exc)]
+        return []
     if name in {"categories.json", "character-names.json"}:
         return []
     if name == "character-mappings.json":
@@ -1257,6 +1280,7 @@ def validate_repository(repo: Path, game: str = "deadlock") -> RepositoryValidat
         report.errors.append(f"Transcript directory does not exist: {transcripts}")
         return report
 
+    documents: dict[str, dict[str, Any]] = {}
     for path in _transcript_files(transcripts):
         relative = path.relative_to(repo).as_posix()
         report.transcript_files += 1
@@ -1291,6 +1315,7 @@ def validate_repository(repo: Path, game: str = "deadlock") -> RepositoryValidat
         except ContentSyncError as exc:
             report.errors.append(str(exc))
             continue
+        documents[filename] = document
         report.revisions += len(document.get("revisions", []))
         for sha, state in states.items():
             report.by_sha.setdefault(sha, []).append(
@@ -1322,6 +1347,16 @@ def validate_repository(repo: Path, game: str = "deadlock") -> RepositoryValidat
         for warning in validation.warnings:
             report.warnings.append(f"{relative}: {warning}")
 
+    if not report.errors:
+        try:
+            definitions_path = config_root / "content-tags.json"
+            definitions = validate_definitions(json.loads(definitions_path.read_text(encoding="utf-8-sig")), game) if definitions_path.exists() else []
+            correlations_path = config_root / "voice-line-history-correlations.json"
+            correlations = json.loads(correlations_path.read_text(encoding="utf-8-sig"))["correlations"] if correlations_path.exists() else []
+            report.errors.extend(assignment_errors(documents, definitions, correlations))
+        except ValueError as exc:
+            report.errors.append(str(exc))
+
     ambiguous = [
         (sha, values)
         for sha, values in report.by_sha.items()
@@ -1348,6 +1383,8 @@ def classify_config_path(path: str, game: str) -> tuple[str, str | None, str | N
         return "direct", version_match.group("version"), version_match.group("name")
     if rest in GENERATOR_INPUTS or VERSION_GENERATOR_CONFIG_RE.fullmatch(normalized):
         return "generator", None, None
+    if rest == "content-tags.json":
+        return "content_tags", None, None
     if rest in VALIDATE_ONLY_CONFIG:
         return "validate_only", None, None
     return "unknown", None, None
@@ -1701,7 +1738,7 @@ class ContentSyncPlanner:
                         old_by_sha.setdefault(sha, []).append(old)
                     if new is None:
                         continue
-                    if old is None or old.published != new.published:
+                    if old is None or old.published != new.published or old.tags != new.tags:
                         selected.add(sha)
 
         changes: dict[str, tuple[tuple[TranscriptState, ...], TranscriptState]] = {}
@@ -1910,6 +1947,7 @@ class ContentSyncPlanner:
                 self.game,
                 transcript_states,
                 manual_correlations,
+                content_tags={sha: items[0].state.tags for sha, items in validation.by_sha.items()},
             )
         except (ContentSyncError, VoiceLineHistoryError, VoiceLineSearchError) as exc:
             plan.errors.append(str(exc))
@@ -2144,6 +2182,66 @@ class ContentSyncPlanner:
             "searchIndexLineages": search.lineages,
             "searchIndexStates": search.states,
             "searchIndexChanged": search_changed,
+        }
+
+    def _plan_content_tags(
+        self, plan: SyncPlan, manifest: dict[str, Any],
+        version_entries: dict[str, dict[str, Any]],
+        logical_version_keys: dict[str, set[str]],
+    ) -> None:
+        path = self.repo / "config" / self.game / "content-tags.json"
+        if not path.exists():
+            if manifest.get("contentTagsCatalogUrl"):
+                plan.errors.append("Cannot remove content-tags.json after publication; retain an empty definitions list instead")
+            return
+        definitions = validate_definitions(json.loads(path.read_text(encoding="utf-8-sig")), self.game)
+        by_sha = {sha: occurrences[0].state.tags for sha, occurrences in plan.validation.by_sha.items()}
+        artifacts = build_artifacts(self.game, definitions, by_sha, self.cdn_base_url)
+        changed_artifacts = 0
+        for key, value in artifacts:
+            phase = "tag-catalog" if "/catalog/" in key else "tag-membership"
+            dependency = PlannedWrite(
+                key=key, value=value, expected_etag=None, phase=phase,
+                reason="Publish immutable content tag projection",
+                cache_control=IMMUTABLE_JSON_CACHE_CONTROL, compact=True,
+            )
+            plan.tag_dependencies.append(dependency)
+            current = self.load(key)
+            if current.exists:
+                if current.body != dependency.body():
+                    plan.errors.append(f"Immutable content tag object has unexpected bytes: {key}")
+            else:
+                plan.writes.append(dependency)
+                changed_artifacts += 1
+        manifest["contentTagsCatalogUrl"] = f"{self.cdn_base_url}/{artifacts[-1][0]}"
+        changed_conversations = 0
+        changed_fields = 0
+        for version_id, entry in version_entries.items():
+            url = entry.get("conversationUrl")
+            if not isinstance(url, str) or not url:
+                plan.errors.append(f"Version {version_id} has no conversationUrl for content tags")
+                continue
+            key = key_from_url(url, self.cdn_base_url)
+            pending = next((write for write in plan.writes if write.key == key), None)
+            current = pending.value if pending else self.load(key).value
+            if current is None:
+                plan.errors.append(f"Published conversation object does not exist: {key}")
+                continue
+            desired = json_copy(current)
+            updates = project_conversation_tags(desired, by_sha)
+            if updates:
+                changed_conversations += 1
+                changed_fields += updates
+                self.add_write(plan, key, desired, "content", f"Derive conversation and line content tags for {version_id}")
+                logical_version_keys.setdefault(version_id, set()).add(key)
+        plan.content_tags = {
+            "definitions": len(definitions),
+            "taggedRecordings": sum(bool(tags) for tags in by_sha.values()),
+            "memberships": sum(len(tags) for tags in by_sha.values()),
+            "changedArtifacts": changed_artifacts,
+            "changedConversationExports": changed_conversations,
+            "changedConversationFields": changed_fields,
+            "catalogUrl": manifest["contentTagsCatalogUrl"],
         }
 
     def _regeneration_acknowledged(self, path: str, plan: SyncPlan) -> bool:
@@ -2406,6 +2504,7 @@ class ContentSyncPlanner:
                 else:
                     manifest["characterNamesUrl"] = f"{self.cdn_base_url}/{key}"
 
+        self._plan_content_tags(plan, manifest, version_entries, logical_version_keys)
         self._plan_json_minification(plan, manifest, version_entries, logical_version_keys)
 
         if plan.conflict_count or plan.errors:
@@ -2676,7 +2775,16 @@ def deploy_plan(
 
     save_result()
     try:
+        memberships_verified = False
+        tags_verified = False
         for write in writes:
+            if write.phase == "tag-catalog" and not memberships_verified:
+                verify_public_writes((item for item in plan.tag_dependencies if item.phase == "tag-membership"), public_store)
+                memberships_verified = True
+            if write.phase == "manifest" and not tags_verified:
+                # Include reused objects: an interrupted run may already have uploaded them.
+                verify_public_writes(plan.tag_dependencies, public_store)
+                tags_verified = True
             store.put_json(write)
             result["completedWrites"].append(write.key)
             save_result()
@@ -2684,8 +2792,9 @@ def deploy_plan(
         result["purgeAttempted"] = bool(public_urls and zone_id and purge_token)
         if zone_id and purge_token:
             purge_urls(public_urls, zone_id, purge_token)
-        verify_public_writes(writes, public_store)
-        result["verifiedUrls"] = len(public_urls)
+        verification_writes = {item.key: item for item in [*writes, *plan.tag_dependencies]}
+        verify_public_writes(verification_writes.values(), public_store)
+        result["verifiedUrls"] = sum(item.public for item in verification_writes.values())
         save_result()
 
         if cursor.value and cursor.value.get("lastSuccessfulCommit") == plan.target_commit:

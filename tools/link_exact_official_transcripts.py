@@ -11,11 +11,15 @@ from typing import Any
 
 from tools.audit_phonetic_lineage_merges import build_lineages, canonical_json, load_inputs
 from tools.content_sync import validate_repository
-from tools.transcript_schema import transcript_match_key
+from tools.transcript_schema import transcript_match_key, matching_revision_tags, revision_tags
 
 
 def state(revision: dict[str, Any]) -> dict[str, Any]:
     return {key: value for key, value in revision.items() if key != "sha256"}
+
+
+def state_key(revision: dict[str, Any]) -> str:
+    return json.dumps({**state(revision), "tags": list(revision_tags(revision))}, sort_keys=True)
 
 
 def plan_documents(
@@ -47,6 +51,7 @@ def plan_documents(
                 if len(texts) != 1:
                     ambiguous.append({"filename": filename, "revisionIndex": index, "officialTexts": sorted(texts)})
                     continue
+                matching_revision_tags([revision, *(documents[name]["revisions"][i] for name, i in origins)])
                 candidates.append({
                     "filename": filename,
                     "revisionIndex": index,
@@ -69,15 +74,21 @@ def plan_documents(
         for filename, index in occurrences[digest]:
             revision = documents[filename]["revisions"][index]
             if revision["source"] == "official":
-                if state(revision) != {"text": text, "source": "official"}:
+                if revision["text"] != text:
                     blocked.add(digest)
             elif revision["source"] not in {"manual", "generated"} or transcript_match_key(revision["text"]) != transcript_match_key(text):
                 blocked.add(digest)
 
-    targets = {
-        digest: {"text": next(iter(texts)), "source": "official"}
-        for digest, texts in proposed.items() if digest not in blocked
-    }
+    targets = {}
+    for digest, texts in proposed.items():
+        if digest in blocked:
+            continue
+        revisions = [documents[name]["revisions"][index] for name, index in occurrences[digest]]
+        tags = matching_revision_tags(revisions)
+        target = {"text": next(iter(texts)), "source": "official"}
+        if tags or any("tags" in revision for revision in revisions):
+            target["tags"] = list(tags)
+        targets[digest] = target
     additions: dict[tuple[str, int], set[str]] = defaultdict(set)
     operations = []
     for candidate in candidates:
@@ -114,17 +125,24 @@ def plan_documents(
             by_state: dict[str, dict[str, Any]] = {}
             for digest in revision["sha256"]:
                 target = targets.get(digest, state(revision))
-                key = json.dumps(target, sort_keys=True)
+                key = state_key(target)
                 by_state.setdefault(key, {"sha256": [], **copy.deepcopy(target)})["sha256"].append(digest)
-                if target != state(revision):
+                if state_key(target) != state_key(revision):
                     changed_occurrences[revision["source"]] += 1
             revisions.extend(by_state.values())
         # Coalesce equal states locally, retaining official state and every hash.
+        official_states = {}
+        for revision in original["revisions"]:
+            if revision["source"] == "official":
+                official_states.setdefault(state_key(revision), state(revision))
         grouped: dict[str, dict[str, Any]] = {}
         for revision in revisions:
-            key = json.dumps(state(revision), sort_keys=True)
+            key = state_key(revision)
             if key not in grouped:
-                grouped[key] = copy.deepcopy(revision)
+                grouped[key] = {
+                    "sha256": list(revision["sha256"]),
+                    **copy.deepcopy(official_states.get(key, state(revision))),
+                }
             else:
                 grouped[key]["sha256"] = sorted(set(grouped[key]["sha256"]) | set(revision["sha256"]))
         updated = {**copy.deepcopy(original), "revisions": list(grouped.values())}
@@ -138,7 +156,7 @@ def plan_documents(
             raise ValueError(f"Unexpected hash additions in {filename}")
         for digest, previous in before.items():
             expected = targets.get(digest, previous) if previous["source"] in {"manual", "generated"} else previous
-            if after[digest] != expected:
+            if state_key(after[digest]) != state_key(expected):
                 raise ValueError(f"Changed unrelated or official state in {filename}: {digest}")
         if updated != original:
             changed[filename] = updated

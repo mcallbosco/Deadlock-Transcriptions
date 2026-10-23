@@ -13,10 +13,10 @@ from typing import Any, Iterable
 
 try:
     from audit_fuzzy_transcript_matches import canonical_json
-    from transcript_schema import revision_hashes
+    from transcript_schema import preserve_revision_tags, revision_hashes
 except ModuleNotFoundError:  # Imported as tools.review_generated_fuzzy_batch.
     from tools.audit_fuzzy_transcript_matches import canonical_json
-    from tools.transcript_schema import revision_hashes
+    from tools.transcript_schema import preserve_revision_tags, revision_hashes
 
 
 def _file_sha256(path: Path) -> str:
@@ -212,7 +212,7 @@ def apply_operation(
         revision for index, revision in enumerate(revisions) if index not in member_indices
     ]
     remaining.insert(insert_at, copy.deepcopy(result))
-    updated["revisions"] = remaining
+    updated["revisions"] = preserve_revision_tags(document["revisions"], remaining)
     if _hashes(updated) != before_hashes:
         raise ValueError(f"{operation['path']}: reviewed merge changed represented hashes")
     return updated, "update"

@@ -19,7 +19,7 @@ try:
         selected_targets,
     )
     from audit_fuzzy_transcript_matches import canonical_json
-    from transcript_schema import revision_hashes
+    from transcript_schema import preserve_revision_tags, revision_hashes
 except ModuleNotFoundError:  # Imported as tools.restore_generated_review_provenance.
     from tools.apply_reviewed_generated_duration_merges import (
         load_review,
@@ -28,7 +28,7 @@ except ModuleNotFoundError:  # Imported as tools.restore_generated_review_proven
         selected_targets,
     )
     from tools.audit_fuzzy_transcript_matches import canonical_json
-    from tools.transcript_schema import revision_hashes
+    from tools.transcript_schema import preserve_revision_tags, revision_hashes
 
 
 def git_output(repo: Path, *args: str) -> str:
@@ -129,7 +129,7 @@ def restore_document(
                 replacement["model"] = model
             output.append(replacement)
 
-    updated["revisions"] = output
+    updated["revisions"] = preserve_revision_tags(document["revisions"], output)
     before = Counter(
         digest for revision in document["revisions"] for digest in revision_hashes(revision)
     )

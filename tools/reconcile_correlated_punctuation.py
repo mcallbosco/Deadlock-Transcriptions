@@ -16,14 +16,17 @@ try:
     from tools.transcript_schema import (
         SOURCE_PRIORITY,
         revision_hashes,
+        preserve_revision_tags,
         transcript_match_key,
     )
 except ModuleNotFoundError:
-    from transcript_schema import SOURCE_PRIORITY, revision_hashes, transcript_match_key
+    from transcript_schema import SOURCE_PRIORITY, revision_hashes, transcript_match_key, preserve_revision_tags
 
 try:
+    from tools.content_tags import tag_conflict_errors
     from tools.voiceline_history import build_filename_lineages, normalize_filename
 except ModuleNotFoundError:
+    from content_tags import tag_conflict_errors
     from voiceline_history import build_filename_lineages, normalize_filename
 
 
@@ -271,7 +274,8 @@ def resolve_candidates(
 
 
 def rewrite_documents(
-    documents: dict[str, dict[str, Any]], targets: dict[str, dict[str, Any]]
+    documents: dict[str, dict[str, Any]], targets: dict[str, dict[str, Any]],
+    *, correlations: list[list[str]],
 ) -> dict[str, dict[str, Any]]:
     changed: dict[str, dict[str, Any]] = {}
     for filename, original in documents.items():
@@ -306,7 +310,7 @@ def rewrite_documents(
         for revision in coalesced:
             revision["sha256"] = sorted(set(revision["sha256"]))
         updated = copy.deepcopy(original)
-        updated["revisions"] = coalesced
+        updated["revisions"] = preserve_revision_tags(original["revisions"], coalesced)
         after_hashes = Counter(
             digest
             for revision in updated["revisions"]
@@ -316,6 +320,9 @@ def rewrite_documents(
             raise ReconciliationError(f"Reconciliation changed represented hashes in {filename}")
         if updated != original:
             changed[filename] = updated
+    errors = tag_conflict_errors({**documents, **changed}, correlations)
+    if errors:
+        raise ReconciliationError("\n".join(errors))
     return changed
 
 
@@ -379,7 +386,7 @@ def main(argv: Iterable[str] | None = None) -> int:
     documents = load_documents(repo, review_lineages)
     candidates = find_candidates(review_lineages, documents, official_hashes)
     targets, unresolved = resolve_candidates(candidates, load_decisions(args.decisions))
-    changed = rewrite_documents(documents, targets)
+    changed = rewrite_documents(documents, targets, correlations=review_lineages)
     if args.apply and unresolved:
         raise ReconciliationError(
             f"Refusing to apply with {len(unresolved)} unresolved punctuation decisions"

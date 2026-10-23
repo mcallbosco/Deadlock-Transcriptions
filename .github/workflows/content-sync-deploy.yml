@@ -6,6 +6,9 @@ on:
     paths:
       - "transcripts/**"
       - "config/deadlock/**"
+      - "schema.json"
+      - "tools/transcript_schema.py"
+      - "tools/content_tags.py"
       - "tools/content_sync.py"
       - "tools/content_sync_cli.py"
       - "tools/voiceline_history.py"

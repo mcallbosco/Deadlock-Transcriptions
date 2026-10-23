@@ -1,11 +1,17 @@
 from __future__ import annotations
 
+import copy
+import json
 import unittest
+from unittest import mock
+
+from tools.content_tags import tag_conflict_errors
 
 from tools.reconcile_correlated_punctuation import (
     ReconciliationError,
     build_review_lineages,
     find_candidates,
+    main,
     resolve_candidates,
     rewrite_documents,
 )
@@ -30,6 +36,43 @@ class CorrelatedPunctuationTests(unittest.TestCase):
             [["old.mp3", "new.mp3"]], documents, {"1" * 64, "2" * 64}
         )
 
+    def test_apply_blocks_cross_file_tag_conflicts_before_writing(self):
+        left = revision("1", "Example.", "official")
+        left["tags"] = ["insults"]
+        documents = self.documents(left, revision("2", "example", "generated"))
+        original = copy.deepcopy(documents)
+        correlations = [["old.mp3", "new.mp3"]]
+        self.assertEqual(tag_conflict_errors(documents, correlations), [])
+        with (
+            mock.patch("tools.reconcile_correlated_punctuation.load_official_catalog", return_value=({"1" * 64, "2" * 64}, {})),
+            mock.patch("tools.reconcile_correlated_punctuation.build_review_lineages", return_value=correlations),
+            mock.patch("tools.reconcile_correlated_punctuation.load_documents", return_value=documents),
+            mock.patch("pathlib.Path.read_text", return_value=json.dumps({"correlations": correlations})),
+            mock.patch("pathlib.Path.write_text") as write,
+        ):
+            with self.assertRaisesRegex(ReconciliationError, "Conflicting content tags in logical group"):
+                main(["--apply", "--approve-reconciliation"])
+        write.assert_not_called()
+        self.assertEqual(documents, original)
+
+    def test_reconciliation_accepts_equivalent_tags_across_aliases(self):
+        left = revision("1", "Example.", "official")
+        right = revision("2", "example", "generated")
+        left["tags"], right["tags"] = ["nicknames", "insults"], ["insults", "nicknames"]
+        documents = self.documents(left, right)
+        targets, _ = resolve_candidates(self.candidates(documents), {})
+        correlations = [["old.mp3", "new.mp3"]]
+        changed = rewrite_documents(documents, targets, correlations=correlations)
+        self.assertEqual(changed["new.mp3"]["revisions"][0]["tags"], ["insults", "nicknames"])
+        self.assertEqual(tag_conflict_errors({**documents, **changed}, correlations), [])
+
+    def test_reconciliation_keeps_unrelated_matching_text_independent(self):
+        left = revision("1", "Example.", "official")
+        left["tags"] = ["insults"]
+        documents = self.documents(left, revision("2", "example", "generated"))
+        changed = rewrite_documents(documents, {"2" * 64: {"text": "Example.", "source": "manual"}}, correlations=[])
+        self.assertNotIn("tags", changed["new.mp3"]["revisions"][0])
+
     def test_official_text_and_provenance_win(self):
         documents = self.documents(
             revision("1", "Hello, Abrams.", "generated", "model"),
@@ -37,7 +80,7 @@ class CorrelatedPunctuationTests(unittest.TestCase):
         )
         candidates = self.candidates(documents)
         targets, unresolved = resolve_candidates(candidates, {})
-        changed = rewrite_documents(documents, targets)
+        changed = rewrite_documents(documents, targets, correlations=[["old.mp3", "new.mp3"]])
         self.assertEqual(unresolved, [])
         self.assertEqual(
             changed["old.mp3"]["revisions"],
@@ -83,7 +126,7 @@ class CorrelatedPunctuationTests(unittest.TestCase):
         targets, unresolved = resolve_candidates(
             candidates, {candidates[0]["id"]: "Wake up, Holliday!"}
         )
-        changed = rewrite_documents(documents, targets)
+        changed = rewrite_documents(documents, targets, correlations=[["old.mp3", "new.mp3"]])
         self.assertEqual(unresolved, [])
         self.assertEqual(changed["old.mp3"]["revisions"][0]["source"], "manual")
         self.assertNotIn("model", changed["old.mp3"]["revisions"][0])
@@ -120,7 +163,7 @@ class CorrelatedPunctuationTests(unittest.TestCase):
         documents = self.documents(left, revision("2", "Hello!", "manual"))
         candidates = self.candidates(documents)
         targets, _ = resolve_candidates(candidates, {})
-        changed = rewrite_documents(documents, targets)
+        changed = rewrite_documents(documents, targets, correlations=[["old.mp3", "new.mp3"]])
         by_text = {item["text"]: item for item in changed["old.mp3"]["revisions"]}
         self.assertEqual(by_text["Hello!"]["sha256"], ["1" * 64])
         self.assertEqual(by_text["Hello."]["sha256"], [inactive])
@@ -132,13 +175,13 @@ class CorrelatedPunctuationTests(unittest.TestCase):
         )
         candidates = self.candidates(documents)
         targets, _ = resolve_candidates(candidates, {})
-        changed = rewrite_documents(documents, targets)
+        changed = rewrite_documents(documents, targets, correlations=[["old.mp3", "new.mp3"]])
         merged = {**documents, **changed}
         self.assertEqual(self.candidates(merged), [])
         self.assertEqual(
             resolve_candidates([], {candidates[0]["id"]: "Hello!"}), ({}, [])
         )
-        self.assertEqual(rewrite_documents(merged, {}), {})
+        self.assertEqual(rewrite_documents(merged, {}, correlations=[["old.mp3", "new.mp3"]]), {})
 
 
 if __name__ == "__main__":
