@@ -8,7 +8,10 @@
       ],
       "text": "Look, your dumplings rock, kid. Stick to making those and stop fighting.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-4o-mini-transcribe",
+      "tags": [
+        "insults"
+      ]
     },
     {
       "sha256": [
@@ -17,14 +20,20 @@
       ],
       "text": "Just start grading papers, Professor.",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-4o-mini-transcribe",
+      "tags": [
+        "insults"
+      ]
     },
     {
       "sha256": [
         "4a010cb6d5f748afed959c2892ed058fb77bee702dbe0b94171abd2f02097889"
       ],
       "text": "Shoulda stuck to grading papers, Professor.",
-      "source": "official"
+      "source": "official",
+      "tags": [
+        "insults"
+      ]
     }
   ]
 }
