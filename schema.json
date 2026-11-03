@@ -35,6 +35,14 @@
               "pattern": "^[0-9a-f]{64}$"
             }
           },
+          "tags": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            }
+          },
           "text": {
             "type": "string"
           },
@@ -50,14 +58,6 @@
           "model": {
             "type": "string",
             "minLength": 1
-          },
-          "tags": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-              "type": "string",
-              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-            }
           }
         }
       }
