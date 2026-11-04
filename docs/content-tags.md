@@ -5,6 +5,11 @@ Transcript revisions may include `tags`, a set of category IDs from
 `[]` both mean untagged. The initial vocabulary is `wrong-names`, `nicknames`,
 and `insults`; definitions can be extended without changing publisher code.
 
+`spoken-ixian` (Spoken Ixian) identifies recordings that contain speech in the
+Ixian language, including phrases within otherwise English dialogue. References
+to Ixia or Ixians, English translations, and dialogue in other languages do not
+qualify on their own. Supported historical and unused recordings remain eligible.
+
 ```json
 {"sha256":["<recording hash>"],"text":"Example dialogue.","source":"official","tags":["nicknames"]}
 ```
