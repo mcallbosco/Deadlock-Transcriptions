@@ -10,6 +10,22 @@ Ixian language, including phrases within otherwise English dialogue. References
 to Ixia or Ixians, English translations, and dialogue in other languages do not
 qualify on their own. Supported historical and unused recordings remain eligible.
 
+`swears` (Swears) identifies spoken profanity, including mild swearing such as
+“ass”, alongside stronger profanity and
+compound forms such as “bullshit” and “jackass”. “Damn” and its variants
+(including “goddamn”, “damned”, and “damnation”) do not qualify on their own;
+“hell”, “helluva”, “bloody”, and “piss” (including “pissed”, “pisses”, and
+“pissing”) also do not qualify on their own. A line containing another
+qualifying swear still receives the tag. Literal blood descriptions,
+place names such as Hell’s Kitchen, and unrelated words such as “Dickens” or
+“cocktail” do not qualify. Tags can overlap with `insults`; a swear need not be
+directed at someone. Historical and unused recordings remain eligible.
+Assignments follow transcript evidence; obvious or uncertain generated
+mishearings (for example, “Shiv” transcribed as “shit” in a spotting ping)
+require audio review before tagging. This is editorial metadata, not an
+automatic profanity detector or a guarantee that untagged audio is swear-free.
+Use the existing group helper for future additions and corrections.
+
 ```json
 {"sha256":["<recording hash>"],"text":"Example dialogue.","source":"official","tags":["nicknames"]}
 ```
@@ -115,3 +131,28 @@ Remove a definition only after removing its source assignments. Retain an empty
 definitions file if removing the entire vocabulary after publication. To recover
 a partial run, recalculate its plan from the unchanged successful cursor and
 retry; inventory checks reconcile already-uploaded conversation bytes.
+
+## Adding Swears: deployment checks
+
+Merge the transcript PR into this repository's `main`. Changes to both
+`transcripts/**` and `config/deadlock/**` trigger **Deploy content sync** in
+`.github/workflows/content-sync-deploy.yml`, using `incremental-deploy`.
+No manual importer run, database migration, Worker deploy, or website rebuild
+is required for this vocabulary/assignment-only change with the currently
+tag-compatible services and website. The website's filter and recording-tag
+panel read definitions from the runtime catalogue, including unfamiliar IDs.
+
+After merging:
+
+1. Confirm **Deploy content sync** finishes successfully (approve the
+   `production-cdn` environment if GitHub requests an approval).
+2. Follow `contentTagsCatalogUrl` from the live Deadlock manifest and confirm
+   the catalogue contains `swears` / `Swears` with a nonzero membership count.
+3. Reload the website, open **Filter by Tags**, and select **Swears**. Check a
+   matching recording's tag panel and verify existing tags still appear.
+   Open pages may retain the previous manifest until reloaded.
+
+If publication fails, inspect its Actions summary and retry the serialized
+workflow from `main` using `incremental-deploy`; retain the successful cursor
+and avoid concurrent independent publishers or an unnecessary baseline reset.
+A successful merge alone is not proof that the CDN publication succeeded.
