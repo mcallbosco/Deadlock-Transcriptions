@@ -11,10 +11,11 @@ to Ixia or Ixians, English translations, and dialogue in other languages do not
 qualify on their own. Supported historical and unused recordings remain eligible.
 
 `swears` (Swears) identifies spoken profanity, including mild swearing such as
-“hell”, “ass”, and emphatic “bloody”, alongside stronger profanity and
+“ass” and emphatic “bloody”, alongside stronger profanity and
 compound forms such as “bullshit” and “jackass”. “Damn” and its variants
 (including “goddamn”, “damned”, and “damnation”) do not qualify on their own;
-a line containing another qualifying swear still receives the tag. Literal blood descriptions,
+“hell” and “helluva” also do not qualify on their own. A line containing another
+qualifying swear still receives the tag. Literal blood descriptions,
 place names such as Hell’s Kitchen, and unrelated words such as “Dickens” or
 “cocktail” do not qualify. Tags can overlap with `insults`; a swear need not be
 directed at someone. Historical and unused recordings remain eligible.
