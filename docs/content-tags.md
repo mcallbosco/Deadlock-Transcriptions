@@ -200,3 +200,18 @@ Resolve unnamed references from speaker and adjacent dialogue. Generic family,
 New York, prison, and combat escape references do not qualify merely by
 association. Historical revisions remain independently assignable. See the
 [reviewed evidence and boundaries](../reports/arroyo-harlem-lost-whisper-tags/README.md).
+
+## Hank, The 7th Moon, The Troubadour, and The Baroness
+
+`hank` (Hank) covers Infernus's friend and clear references to his business or
+circumstances. `seventh-moon` (The 7th Moon) covers the organization, including
+written-number variants and contextual descriptions of its operations.
+`troubadour` (The Troubadour) covers the killer and clearly related pursuit or
+identity dialogue. `baroness` (The Baroness) covers the hotel, guests, services,
+and contextual hospitality dialogue.
+
+Resolve unnamed references through speaker and adjacent dialogue. Generic
+bartending, Yamato references, murder, hotel mentions, and conversation filenames
+alone do not establish these subjects. Historical revisions remain independently
+assignable, and identity speculation remains speculation. See the
+[reviewed evidence and boundaries](../reports/hank-moon-troubadour-baroness-tags/README.md).
