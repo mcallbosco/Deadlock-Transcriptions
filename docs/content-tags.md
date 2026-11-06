@@ -156,3 +156,19 @@ If publication fails, inspect its Actions summary and retry the serialized
 workflow from `main` using `incremental-deploy`; retain the successful cursor
 and avoid concurrent independent publishers or an unnecessary baseline reset.
 A successful merge alone is not proof that the CDN publication succeeded.
+
+## Shelly and Fairfax reference tags
+
+`ms-shelly` (Ms. Shelly) covers Shelly Fisher, including references to Bebop's
+mother, creator, and sick charge. `maximilian-fairfax` (Maximilian Fairfax)
+covers Pocket's father and contextual personal references to the Fairfax leader.
+`fairfax-industries` (Fairfax Industries) separately covers the company, its
+explicitly identified subsidiaries, employment, operations, and branded products.
+Lines that refer to both the person and company can carry both tags.
+
+Historical and unused recordings are eligible. Resolve indirect references from
+speaker and neighboring dialogue; do not tag unrelated filler or infer either
+Fairfax tag from a historical combat callout addressing Pocket as “Fairfax”.
+See the [reviewed assignments and boundaries](../reports/person-reference-tags/README.md).
+These definitions and assignments use the existing serialized content-sync rollout;
+verify the catalogue and memberships after merge before treating them as live.
