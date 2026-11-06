@@ -159,7 +159,7 @@ A successful merge alone is not proof that the CDN publication succeeded.
 
 ## Shelly and Fairfax reference tags
 
-`ms-shelly` (Ms. Shelly) covers Shelly Fisher, including references to Bebop's
+`ms-shelly` (Miss Shelly) covers Shelly Fisher, including references to Bebop's
 mother, creator, and sick charge. `maximilian-fairfax` (Maximilian Fairfax)
 covers Pocket's father and contextual personal references to the Fairfax leader.
 `fairfax-industries` (Fairfax Industries) separately covers the company, its

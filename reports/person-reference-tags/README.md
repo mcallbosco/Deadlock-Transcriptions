@@ -2,7 +2,7 @@
 
 This reviewed batch adds three independently assignable tags:
 
-- `ms-shelly` / **Ms. Shelly**: Shelly Fisher, including Miss Shelly, Bebop's mother, creator, maker, or sick charge and contextual references to her care, health, and relationships.
+- `ms-shelly` / **Miss Shelly**: Shelly Fisher, including Miss Shelly, Bebop's mother, creator, maker, or sick charge and contextual references to her care, health, and relationships.
 - `maximilian-fairfax` / **Maximilian Fairfax**: named spelling variants, Pocket's father (including references to both parents), and personal references resolved by surrounding dialogue.
 - `fairfax-industries` / **Fairfax Industries**: the company, FI, its named subsidiaries, employment, operations, and branded products. A line can also carry the Maximilian tag when it refers to both.
 
