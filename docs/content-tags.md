@@ -187,3 +187,16 @@ Mendoza from every Ivy/Spanish Harlem reference, ETS from every Fairfax product,
 or Bear Pit from generic combat. Historical revisions remain independently
 assignable; uncertain generated-only claims require further review.
 See the [reviewed evidence and boundaries](../reports/bear-pit-cadenza-ets-mendoza-tags/README.md).
+
+## Arroyo family, Spanish Harlem, and Lost Whisper
+
+`arroyo-family` (The Arroyo family) covers Ivy's household and individual family
+members, including Carlos, Maria, and Sophia. `spanish-harlem` (Spanish Harlem)
+covers the neighborhood, its community, and Ivy's associated title.
+`lost-whisper` (Lost Whisper) covers the prison and clear references to its
+incarceration, escape, execution, and personnel history.
+
+Resolve unnamed references from speaker and adjacent dialogue. Generic family,
+New York, prison, and combat escape references do not qualify merely by
+association. Historical revisions remain independently assignable. See the
+[reviewed evidence and boundaries](../reports/arroyo-harlem-lost-whisper-tags/README.md).
