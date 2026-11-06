@@ -215,3 +215,18 @@ bartending, Yamato references, murder, hotel mentions, and conversation filename
 alone do not establish these subjects. Historical revisions remain independently
 assignable, and identity speculation remains speculation. See the
 [reviewed evidence and boundaries](../reports/hank-moon-troubadour-baroness-tags/README.md).
+
+## Prototype Names
+
+`prototype-names` identifies spoken development or superseded character names,
+including historical patron names. A legacy filename alone does not qualify.
+Assignments use both transcript text and the identified character; ordinary uses
+of words such as “forge,” “ghost,” and “patience” are excluded. Fairfax company,
+family, and Maximilian references are distinct from old Pocket callouts.
+
+Historical stock calls using development identifiers such as Fencer, Bookworm,
+Artist, or Chessmaster qualify when they identify the corresponding hero. General
+occupational descriptions and modern nicknames are not automatically old names.
+Spelling-only aliases, intentional wrong-name jokes, and unchanged names of
+unreleased characters do not qualify. Ambiguous cases remain unassigned pending
+better evidence. See `reports/prototype-name-tags/` for the mapping and inventory.

@@ -8,7 +8,10 @@
       ],
       "text": "That's his sumo!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-4o-mini-transcribe",
+      "tags": [
+        "prototype-names"
+      ]
     },
     {
       "sha256": [
@@ -17,7 +20,10 @@
       ],
       "text": "I see Sumo.",
       "source": "generated",
-      "model": "gpt-4o-transcribe"
+      "model": "gpt-4o-transcribe",
+      "tags": [
+        "prototype-names"
+      ]
     }
   ]
 }
