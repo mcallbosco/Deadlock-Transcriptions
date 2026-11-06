@@ -218,10 +218,11 @@ assignable, and identity speculation remains speculation. See the
 
 ## Unique Pings
 
-`unique-pings` (Unique Pings) covers bespoke character dialogue in ping
+`unique-pings` (Unique Pings) covers bespoke character dialogue in in-game ping
 recordings: jokes, relationships, lore, and expressive calls beyond shared
 communication templates. Compare wording across characters and ping events;
-rarity or a different hero/ability name alone is insufficient. Prototype-name
+rarity or a different hero/ability name alone is insufficient. All pre-game and
+post-game pings are excluded, even when they contain bespoke jokes or lore. Prototype-name
 substitutions, ordinary role descriptions, routine readiness/location calls,
 and transcription errors do not qualify by themselves.
 
