@@ -173,6 +173,34 @@ See the [reviewed assignments and boundaries](../reports/person-reference-tags/R
 These definitions and assignments use the existing serialized content-sync rollout;
 verify the catalogue and memberships after merge before treating them as live.
 
+## Bear Pit, Cadenza, ETS, and Mendoza
+
+`bear-pit` (Bear Pit) covers the venue and Bebop/Lash's established pit-fighting
+careers. `cadenza` (Cadenza) covers the island/state and its political, industrial,
+and location references. `eldritch-tactical-solutions` (Eldritch Tactical
+Solutions) covers the Fairfax subsidiary, including the abbreviation ETS.
+`mendoza` (Mendoza) covers the criminal boss and his explicitly identified
+syndicate, including clear contextual references to their activities.
+
+Resolve unnamed references using speaker and adjacent dialogue. Do not infer
+Mendoza from every Ivy/Spanish Harlem reference, ETS from every Fairfax product,
+or Bear Pit from generic combat. Historical revisions remain independently
+assignable; uncertain generated-only claims require further review.
+See the [reviewed evidence and boundaries](../reports/bear-pit-cadenza-ets-mendoza-tags/README.md).
+
+## Arroyo family, Spanish Harlem, and Lost Whisper
+
+`arroyo-family` (The Arroyo family) covers Ivy's household and individual family
+members, including Carlos, Maria, and Sophia. `spanish-harlem` (Spanish Harlem)
+covers the neighborhood, its community, and Ivy's associated title.
+`lost-whisper` (Lost Whisper) covers the prison and clear references to its
+incarceration, escape, execution, and personnel history.
+
+Resolve unnamed references from speaker and adjacent dialogue. Generic family,
+New York, prison, and combat escape references do not qualify merely by
+association. Historical revisions remain independently assignable. See the
+[reviewed evidence and boundaries](../reports/arroyo-harlem-lost-whisper-tags/README.md).
+
 ## Hank, The 7th Moon, The Troubadour, and The Baroness
 
 `hank` (Hank) covers Infernus's friend and clear references to his business or
