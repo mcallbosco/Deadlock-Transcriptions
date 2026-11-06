@@ -1,9 +1,12 @@
 # Lore subject assignments
 
-Adds Baxter Society, OSIC, Macomb, Djinn, and The Circus. The Djinn subject includes
+Adds Baxter Society, OSIC, Macomb, Djinn, and The Sideshow. The Djinn subject includes
 Nashala: the newscaster identifies her as a Djinn ambassador, and Mirage explicitly
-explains her identity to Rem. The Circus covers Celeste's sideshow and Lenny; the
-corpus does not establish a proper troupe name or require a claim that Lenny leads it.
+explains her identity to Rem. The Sideshow covers Celeste's sideshow and Lenny; the
+label follows Celeste's correction, “It's the sideshow, but close enough,” in
+`unicorn/unicorn_match_start_unicorn_priest_convo01_06.mp3`. The corpus does not
+establish a more specific proper troupe name or require a claim that Lenny leads it.
+The stable tag ID remains `circus`; membership is unchanged.
 
 The audit searched every revision's text, reviewed distinct named hits, then
 reviewed adjacent conversation turns and supplemental terms (Society, Sandman,
@@ -18,7 +21,7 @@ groups. Existing tags and transcript content are preserved.
 | OSIC | 258 | 473 |
 | Macomb | 44 | 56 |
 | Djinn | 274 | 421 |
-| The Circus | 102 | 107 |
+| The Sideshow | 102 | 107 |
 
 Excluded: generic acknowledgement turns, ordinary society/government references,
 unrelated Alchemy Bureau and Bleak Carnival references, the Coney Island Cyclone
