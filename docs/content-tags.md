@@ -172,3 +172,16 @@ Fairfax tag from a historical combat callout addressing Pocket as “Fairfax”.
 See the [reviewed assignments and boundaries](../reports/person-reference-tags/README.md).
 These definitions and assignments use the existing serialized content-sync rollout;
 verify the catalogue and memberships after merge before treating them as live.
+
+## Arroyo family, Spanish Harlem, and Lost Whisper
+
+`arroyo-family` (The Arroyo family) covers Ivy's household and individual family
+members, including Carlos, Maria, and Sophia. `spanish-harlem` (Spanish Harlem)
+covers the neighborhood, its community, and Ivy's associated title.
+`lost-whisper` (Lost Whisper) covers the prison and clear references to its
+incarceration, escape, execution, and personnel history.
+
+Resolve unnamed references from speaker and adjacent dialogue. Generic family,
+New York, prison, and combat escape references do not qualify merely by
+association. Historical revisions remain independently assignable. See the
+[reviewed evidence and boundaries](../reports/arroyo-harlem-lost-whisper-tags/README.md).
