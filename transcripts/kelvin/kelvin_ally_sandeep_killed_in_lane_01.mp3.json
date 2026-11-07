@@ -8,7 +8,10 @@
       ],
       "text": "They killed Sandeep!",
       "source": "generated",
-      "model": "gpt-transcribe"
+      "model": "gpt-transcribe",
+      "tags": [
+        "prototype-names"
+      ]
     },
     {
       "sha256": [
@@ -16,7 +19,10 @@
       ],
       "text": "Take it, Sandeep!",
       "source": "generated",
-      "model": "gpt-4o-mini-transcribe"
+      "model": "gpt-4o-mini-transcribe",
+      "tags": [
+        "prototype-names"
+      ]
     }
   ]
 }

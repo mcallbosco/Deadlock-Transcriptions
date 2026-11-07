@@ -249,3 +249,18 @@ unrelated Coney Island attractions, the Bleak Carnival, and figurative uses of
 “circus” are excluded. Generic conversation acknowledgements are not tagged merely
 for adjacency. Historical revisions remain eligible. See
 `reports/lore-organizations-places-circus-tags/` for reviewed assignments.
+
+## Prototype Names
+
+`prototype-names` identifies spoken development or superseded character names,
+including historical patron names. A legacy filename alone does not qualify.
+Assignments use both transcript text and the identified character; ordinary uses
+of words such as “forge,” “ghost,” and “patience” are excluded. Fairfax company,
+family, and Maximilian references are distinct from old Pocket callouts.
+
+Historical stock calls using development identifiers such as Fencer, Bookworm,
+Artist, or Chessmaster qualify when they identify the corresponding hero. General
+occupational descriptions and modern nicknames are not automatically old names.
+Spelling-only aliases, intentional wrong-name jokes, and unchanged names of
+unreleased characters do not qualify. Ambiguous cases remain unassigned pending
+better evidence. See `reports/prototype-name-tags/` for the mapping and inventory.
