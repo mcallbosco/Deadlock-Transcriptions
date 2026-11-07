@@ -222,7 +222,9 @@ assignable, and identity speculation remains speculation. See the
 recordings: jokes, relationships, lore, and expressive calls beyond shared
 communication templates. Compare wording across characters and ping events;
 rarity or a different hero/ability name alone is insufficient. All pre-game and
-post-game pings are excluded, even when they contain bespoke jokes or lore. Prototype-name
+post-game pings and ability callouts (use, readiness, cooldown, ultimate status,
+and targeted ability requests) are excluded, even when they contain bespoke jokes
+or lore. Enemy sightings remain eligible when they mention an enemy's abilities. Prototype-name
 substitutions, ordinary role descriptions, routine readiness/location calls,
 and transcription errors do not qualify by themselves.
 

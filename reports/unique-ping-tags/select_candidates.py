@@ -12,6 +12,8 @@ rows=[];decisions=[]
 for reason,ids in sections.items():
  for i in map(int,ids.split()):
   g=byid[i]
+  # Ability use, readiness, cooldown, and targeted ability requests are excluded.
+  if any("ability" in f or f.startswith(("ult ready", "stun ")) or f == "with swap" for f in g["families"]): continue
   assert not any(f in {'pre game','post game'} for f in g['families']), g
   decisions.append({k:g[k] for k in ['id','text','source','normalized','heroes','families','examples']}|{'reason':reason})
   for r in g['revisions']:
