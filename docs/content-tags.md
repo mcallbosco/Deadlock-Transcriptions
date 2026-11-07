@@ -215,3 +215,19 @@ bartending, Yamato references, murder, hotel mentions, and conversation filename
 alone do not establish these subjects. Historical revisions remain independently
 assignable, and identity speculation remains speculation. See the
 [reviewed evidence and boundaries](../reports/hank-moon-troubadour-baroness-tags/README.md).
+
+## Unique Pings
+
+`unique-pings` (Unique Pings) covers bespoke character dialogue in in-game ping
+recordings: jokes, relationships, lore, and expressive calls beyond shared
+communication templates. Compare wording across characters and ping events;
+rarity or a different hero/ability name alone is insufficient. All pre-game and
+post-game pings and ability callouts (use, readiness, cooldown, ultimate status,
+and targeted ability requests) are excluded, even when they contain bespoke jokes
+or lore. Enemy sightings remain eligible when they mention an enemy's abilities. Prototype-name
+substitutions, ordinary role descriptions, routine readiness/location calls,
+and transcription errors do not qualify by themselves.
+
+Historical recordings remain eligible. Apply shared-hash and logical-text-group
+consistency as with other tags. See the
+[comparison evidence and boundaries](../reports/unique-ping-tags/README.md).
