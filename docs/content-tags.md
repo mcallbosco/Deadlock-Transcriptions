@@ -232,6 +232,24 @@ Historical recordings remain eligible. Apply shared-hash and logical-text-group
 consistency as with other tags. See the
 [comparison evidence and boundaries](../reports/unique-ping-tags/README.md).
 
+## Baxter Society, OSIC, Macomb, Djinn, and The Sideshow
+
+These subjects include explicit names and contextual references whose referents
+are established by the dialogue. `baxter-society` includes membership, recruitment,
+retirement, and the Society's work. `osic` includes its expanded name, Curator and
+Sandman divisions, and clearly identified agency operations. Ordinary uses of
+“society” or unrelated government organizations do not qualify.
+
+`macomb` covers Holliday's hometown, the massacre there, and clear references to
+her home. `djinn` includes Nashala, her vessel and ambassadorship, the Djinn as a
+people, and their effort to secure a homeland. It does not tag all Mirage lines.
+`circus` (The Sideshow) covers Celeste's sideshow, its found family, and Lenny,
+including his troubles outside the venue. No proper troupe name was established;
+unrelated Coney Island attractions, the Bleak Carnival, and figurative uses of
+“circus” are excluded. Generic conversation acknowledgements are not tagged merely
+for adjacency. Historical revisions remain eligible. See
+`reports/lore-organizations-places-circus-tags/` for reviewed assignments.
+
 ## Prototype Names
 
 `prototype-names` identifies spoken development or superseded character names,
