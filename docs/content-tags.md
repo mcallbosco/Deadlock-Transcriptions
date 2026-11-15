@@ -264,3 +264,18 @@ occupational descriptions and modern nicknames are not automatically old names.
 Spelling-only aliases, intentional wrong-name jokes, and unchanged names of
 unreleased characters do not qualify. Ambiguous cases remain unassigned pending
 better evidence. See `reports/prototype-name-tags/` for the mapping and inventory.
+
+## Laughter
+
+`laughter` (Laughter) identifies performed laughter, including chuckles, giggles,
+cackles, mocking laughter, and laughter mixed with speech. Explicit performance
+cues such as `<laughs>` and transcribed laughter such as “Ha ha!” qualify.
+Merely mentioning laughter (“Who's laughing now?”), a single ambiguous “Ha!”,
+and apparent generated mishearings do not qualify on their own.
+
+Historical and unused recordings remain eligible. Initial assignments use
+transcript evidence, not a new audio review; untagged recordings may still contain
+laughter omitted from their captions. Existing shared-recording and logical-group
+rules apply. See the [assignment evidence and exclusions](../reports/laughter-tags/README.md).
+The existing content-sync workflow publishes this definition and its memberships
+on merge; no schema migration or frontend change is required.
